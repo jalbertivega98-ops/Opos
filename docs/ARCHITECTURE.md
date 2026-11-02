@@ -65,13 +65,22 @@ tests/unit · tests/db · tests/e2e
 
 next-intl 4 con `localePrefix: "as-needed"` (es sin prefijo, `/ca/...`). Rutas con slugs en castellano para ambos idiomas (pendiente: pathnames localizados, I18N-002). Contenido de BD con columnas `_ca` opcionales; el banco de preguntas usa `locale` por fila.
 
-## Motor educativo (diseño, Hito 4)
+## Motor educativo (Hito 4)
 
-- `practice_sessions` (alumno, tipo: tema/psicotécnico/simulacro, configuración congelada, inicio/fin) y `practice_answers` (pregunta, opción elegida, correcta, tiempo).
-- Corrección siempre en función SECURITY DEFINER; el cliente recibe la solución solo tras responder (o al finalizar en simulacro).
-- Simulacros: configuración de `exam_tests.scoring` (`correct`, `wrong`, `blank`, `pass_mark`, `max_score`).
-- Repaso: repetición espaciada tipo SM-2 por (alumno, pregunta) en `review_items`.
-- Psicotécnicos: generadores deterministas con semilla + verificador (skill `nuevo-psicotecnico`). Implementado: `src/lib/learning/psycho/series.ts`; corrección por regeneración en `actions.ts` (ADR-012).
+- **Práctica** (`src/lib/learning/practice`): `startPracticeAction` genera los ítems en servidor y crea la sesión; `answerPracticeAction` lee el ítem con la sesión del alumno (RLS), regenera, comprueba que coincide con lo mostrado, corrige y registra con service role (ADR-014). Repaso de fallos: mismos ítems (misma semilla). Estadísticas con `my_practice_stats`.
+- **Psicotécnicos** (`src/lib/learning/psycho`): registro de 7 generadores deterministas con verificador (ADR-017). UI genérica `components/psycho/{trainer,stem,token,review}.tsx`.
+- **Rutas:** `/psicotecnicos` (demo anónima, no guarda nada), `/app/practica`, `/app/practica/[id]`, `/app/progreso`, `/app/productos`.
+- Pendiente: práctica con preguntas del banco y simulacros (`mode = questions/mock`, corrección en SQL, configuración de `exam_tests.scoring`), SM-2 para preguntas.
+
+## Contenido (Hito 3)
+
+`src/lib/admin/content`: esquema Zod compartido, huella anti-duplicados, parser CSV/JSON (sin dependencias) y acciones. Panel: `/admin/preguntas` (lista y filtros), `/admin/preguntas/nueva|[id]` (editor + flujo + historial), `/admin/preguntas/importar`, `/admin/revision` (cola de la titular). Permisos reforzados en BD (ADR-015).
+
+## Tienda (Hito 5, sin pagos reales)
+
+`src/lib/store`: productos, precios (céntimos con histórico), contenido desde el banco, concesiones manuales y listado de compras. Panel: `/admin/productos`, `/admin/compras`. Alumno: `/app/productos` («Mis productos»).
+
+Flujo previsto con Stripe test (STO-008, requiere autorización): checkout → webhook firmado e idempotente → `orders` + `access_grants` (o `subscriptions`) → `has_product_access()` decide. Los PDF se generarán desde las mismas preguntas del pack y se servirán con URL firmada de Storage privado.
 
 ## Entorno local
 

@@ -44,3 +44,14 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 5. Asignar `owner` a joel por SQL.
 6. Verificación post-despliegue: registro → email → onboarding → dashboard; login; recuperación; catálogo; admin.
 7. Rollback: redeploy de la versión anterior; migraciones siempre aditivas.
+
+## Integraciones preparadas (DEC-003)
+
+| Servicio       | Estado                                                          | Qué falta (requiere autorización específica)                                                            |
+| -------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| GitHub         | ✅ `jalbertivega98-ops/Opos`, rama `main`                       | Opcional: CI con GitHub Actions (typecheck, lint, unitarias)                                            |
+| Supabase cloud | Migraciones 0100–0900 compatibles con `supabase db push`        | Crear proyecto (región UE), aplicar migraciones, configurar Auth y SMTP, `owner` para joel              |
+| Stripe (test)  | Columnas `stripe_*`, `orders`, `subscriptions`, `access_grants` | Cuenta Stripe en modo test, productos/precios, `STRIPE_SECRET_KEY`, webhook firmado → crear concesiones |
+| Despliegue     | `npm run build` correcto                                        | Proyecto en el proveedor (p. ej. Vercel) y variables de entorno                                         |
+
+Ninguna de estas cuentas se ha creado ni conectado.

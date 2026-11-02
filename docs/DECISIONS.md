@@ -58,3 +58,23 @@ Evaluadas: GitHub (ya disponible en el entorno, sin repositorio asignado a este 
 ## ADR-013 · Funciones de administración sobre auth.users (2026-11-02)
 
 El email del alumno vive en `auth.users`, no expuesto por la API. El panel lo consulta mediante funciones SECURITY DEFINER (`admin_list_users`, `admin_get_user`, `admin_set_user_status`) que exigen `is_admin()` y registran en `audit_log`. Sin service role en la app.
+
+## ADR-014 · Resultados de práctica escritos solo por el servidor (2026-11-02)
+
+**Decisión:** el alumno solo lee sus resultados (RLS). Las escrituras pasan por funciones SQL ejecutables solo por `service_role`, llamadas desde Server Actions después de corregir regenerando el ítem desde la semilla y comprobar que lo mostrado coincide (`samePresentation`). El tiempo lo mide la BD.
+**Motivo:** con escritura directa o RPC accesible al alumno se podrían falsear aciertos y tiempos (y en el futuro rankings).
+**Consecuencias:** primer uso del cliente service role (`src/lib/supabase/service.ts`, `server-only`), limitado a esas dos funciones. Los resultados anónimos de la demo nunca se guardan ni se asocian a una cuenta.
+
+## ADR-015 · La titular aprueba el contenido (DEC-002) (2026-11-02)
+
+Aprobar, rechazar, publicar y archivar exigen rol `owner` en la base de datos, no solo en la interfaz. Editores y admins redactan, importan (siempre como borrador) y envían a revisión. Los generadores de psicotécnicos no pasan por este flujo porque su solución es verificable automáticamente (ADR-012).
+
+## ADR-016 · Tienda basada en concesiones de acceso (2026-11-02)
+
+**Decisión:** todo acceso a contenido de pago se resuelve con `has_product_access()` sobre `access_grants` y `subscriptions`. Compras (Stripe, cuando se autorice), suscripción Premium y concesiones manuales crean concesiones; la app no conoce la pasarela.
+**Motivo:** un único punto de control, pruebas sin pagos reales y cambio de pasarela sin tocar el contenido. Un único banco de preguntas alimenta packs, simulacros y PDF (`product_items`).
+**Consecuencias:** los pedidos se conservan sin datos personales al borrar la cuenta (obligaciones contables). Los precios se guardan en céntimos con histórico.
+
+## ADR-017 · Registro de generadores de psicotécnicos (2026-11-02)
+
+Contrato común `PsychoGenerator { generate, verify }` con presentación genérica (`sequence`, `text`, `analogy`, `matrix`, `figure`, `grid`) y tokens (`w:` palabra traducible, `g:` figura SVG, `p:` pieza). Siete tipos: series, letras (27 letras con Ñ), numérico, analogías (vocabulario curado es/ca), matrices (reglas por atributo con detección de ambigüedad), espacial (piezas quirales sin simetría) y atención. Cada verificador recalcula la solución y rechaza ítems ambiguos u opciones duplicadas; los tests manipulan soluciones para comprobar que se detectan.

@@ -53,15 +53,44 @@ Reglas en BD:
 - `admin_get_user(id)` ficha + objetivos + 20 últimos eventos; audita `user.viewed`.
 - `admin_set_user_status(id, status)` audita `user.status_changed`; solo el owner suspende a admins; nadie a sí mismo.
 
+## 0600 · Práctica (LRN-001, ADR-014)
+
+| Tabla               | Descripción                                                                                                  | RLS                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------- |
+| `practice_sessions` | Sesión (modo `psycho/questions/mock/review`, tipo, nº ítems, aciertos, tiempo total, estado)                 | Lectura de las propias |
+| `practice_items`    | Ítem mostrado (`presented` sin solución), semilla/versión o `question_id`, elección, acierto, tiempo, repaso | Lectura de las propias |
+
+- Nadie escribe con su JWT. `practice_start()` y `practice_record_answer()` solo los ejecuta `service_role`, desde Server Actions que corrigen en el servidor regenerando el ítem desde la semilla.
+- `practice_record_answer` exige responder en orden y una sola vez; el tiempo lo mide la BD (tope 10 min por ítem). Al acertar un ítem de repaso, marca `reviewed_at` en el fallo original.
+- `my_practice_stats(days)` (invoker, RLS): totales, racha (hora de Madrid), por tipo, por dificultad y serie diaria. `admin_practice_metrics()` agregado sin datos personales.
+- `export_my_data()` incluye sesiones y respuestas.
+
+## 0700 · Revisión de contenido (DEC-002)
+
+- Aprobar, rechazar (`needs_review → draft`), publicar y archivar: solo `owner` (`is_owner()`), cuando la petición viene de la API con usuario.
+- `review_question(id, to, comment)` guarda el comentario en `question_reviews`.
+- Opciones bloqueadas si la pregunta está aprobada/publicada/archivada; solo se borran borradores. `question_status_counts()`.
+
+## 0800 · Tienda (sin pagos reales)
+
+`products` (tipo `pdf/question_pack/mock_exam/bundle/subscription`, estado, `_ca`, `included_in_premium`, `config`, `stripe_product_id` vacío) · `product_prices` (céntimos, intervalo, histórico: un activo por intervalo) · `product_items` (preguntas o productos hijos) · `product_files` (Storage privado, `source_hash`) · `orders`/`order_items` (se conservan sin `user_id` al borrar la cuenta) · `subscriptions` · `access_grants` (compra, suscripción, admin, gratis; caducidad y revocación).
+
+- Catálogo publicado legible por todos; contenido (`product_items`, `product_files`) solo staff; pedidos, suscripciones y accesos: el propio alumno o admin, sin escritura por JWT.
+- `has_product_access(product, user)` (solo servidor) y `my_product_access(product)`; `my_library()`; `admin_grant_access()` / `admin_revoke_access()` auditadas; `admin_list_purchases()`.
+- Semilla: producto `premium` en borrador con precio 14,99 €/mes (editable en el panel).
+
+## 0900 · Editor de preguntas
+
+- `upsert_question(id, payload)` crea/edita pregunta + opciones + oposiciones en una transacción (solo staff, solo borrador o en revisión). Duplicados por `content_hash` (enunciado + opciones normalizados).
+- `product_items` solo admite preguntas aprobadas o publicadas; solo los `bundle` contienen otros productos.
+
 ## Planificado
 
-- 0600 práctica: `practice_sessions`, `practice_answers`, `review_items` (SM-2), vistas de estadísticas.
-- 0700 negocio: `plans`, `prices` (configurables), `subscriptions` (sincronizadas por webhook), `entitlements` (función `has_premium()`), `coupons`.
-- 0800 contenido: `lessons`, `flashcards`, `favorites`.
-- 0900 IA: `ai_usage` (límites por plan), `ai_conversations`.
+- 1000 contenido: `lessons`, `flashcards`, `favorites`; `review_items` (SM-2) para preguntas del banco.
+- 1100 IA: `ai_usage` (límites por plan), `ai_conversations`.
 
 ## Operación
 
 - Local: `npm run db:migrate`, `npm run db:reset` (borra todo, solo local).
 - Asignar rol: `npm run admin:grant -- <email> admin` (local) o SQL en producción: `update public.profiles set role='owner' where id=(select id from auth.users where email='...');`
-- Pruebas de RLS: `npm run test:db` (tests/db/rls.test.ts).
+- Pruebas de BD: `npm run test:db` (`tests/db/rls.test.ts`, `practice.test.ts`, `content-store.test.ts`).

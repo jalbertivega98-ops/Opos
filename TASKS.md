@@ -6,15 +6,15 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 
 ## Camino crítico
 
-~~USR-007/008/009~~ → ~~ADM-001..003~~ → `ADM-004` → `CNT-001..004` → `LRN-001..004` → `PSY-001..003` → `MOC-001..002` → `BIZ-001..005` → `QA/SEC` → `LAU`
+~~USR-007/008/009~~ → ~~ADM-001..003~~ → ~~CNT-002..004~~ → ~~LRN-001/005~~ → ~~PSY-001..005~~ → `CNT-007` (primer contenido Mossos revisado por la titular) → `STO-006` + `LRN-003` → `MOC-001..002` → `STO-008/BIZ-002..003` (con autorización) → `QA/SEC` → `LAU`
 
 ## Bloqueos y decisiones pendientes (requieren a joel)
 
 - ~~**DEC-001**~~ Oposición piloto: **Mossos d'Esquadra** (decidido por joel el 2026-11-02).
-- **DEC-002** ¿Quién revisa el contenido educativo? (rol `editor`).
-- **DEC-003** Autorizar cuentas: Supabase cloud (región UE), Stripe test, proveedor de despliegue, SMTP, dominio, repositorio GitHub.
-- **DEC-004** Datos del titular para textos legales y asesoría legal.
-- **DEC-005** Confirmar nombre comercial (comprobar marca y dominio).
+- ~~**DEC-002**~~ Revisión de contenido: **la titular (rol owner) aprueba** todo el contenido educativo; Claude investiga, redacta y comprueba. Implementado en BD (0700) y panel (`/admin/revision`).
+- **DEC-003** Cuentas externas: **GitHub conectado** (repo `jalbertivega98-ops/Opos`, autorizado por joel el 2026-11-02). Pendiente de autorización específica: Supabase cloud (región UE), Stripe test, proveedor de despliegue, SMTP, dominio. Preparado en `docs/DEPLOYMENT.md`.
+- **DEC-004** Datos del titular para textos legales: **pendientes** (no se inventan; marcadores `[PENDIENTE]`).
+- **DEC-005** "Aprobia" es nombre **provisional** hasta verificar marca y dominio.
 
 ---
 
@@ -72,44 +72,59 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 | CAT-002 | Filtro por ámbito/territorio y organismo                                                           | P2  | CAT-001                   | BACKLOG | —                                              | oposiciones/          | E2E     |
 | CAT-003 | Búsqueda insensible a acentos (unaccent)                                                           | P2  | CAT-001                   | BACKLOG | "policia" encuentra "Policía"                  | migración + queries   | DB      |
 | CNT-001 | Editor de catálogo en admin (organismos, oposiciones, convocatorias, pruebas, requisitos, fuentes) | P0  | ADM-001                   | BACKLOG | Sin programar; validación; auditado            | app/admin/catalogo    | E2E     |
-| CNT-002 | Editor de preguntas con opciones, vínculos y fuente                                                | P0  | FND-005                   | BACKLOG | Crea en draft; hash anti-duplicado             | app/admin/preguntas   | E2E, DB |
-| CNT-003 | Cola de revisión (needs_review → approved → published)                                             | P0  | CNT-002                   | BACKLOG | Solo editor/admin; comentarios; historial      | app/admin/revision    | E2E, DB |
-| CNT-004 | Importación CSV/JSON (skill importar-preguntas)                                                    | P0  | CNT-002                   | BACKLOG | Dry-run, informe, todo en draft                | lib/content/import.ts | U, DB   |
+| CNT-002 | Editor de preguntas con opciones, vínculos y fuente                                                | P0  | FND-005                   | DONE    | Crea en draft; hash anti-duplicado             | app/admin/preguntas   | E2E, DB |
+| CNT-003 | Cola de revisión (needs_review → approved → published)                                             | P0  | CNT-002                   | DONE    | Solo editor/admin; comentarios; historial      | app/admin/revision    | E2E, DB |
+| CNT-004 | Importación CSV/JSON (skill importar-preguntas)                                                    | P0  | CNT-002                   | DONE    | Dry-run, informe, todo en draft                | lib/content/import.ts | U, DB   |
 | CNT-005 | Temario: lecciones, esquemas, resúmenes (Markdown seguro)                                          | P1  | CNT-001                   | BACKLOG | Estados editoriales; referencias               | migración 0600        | DB, E2E |
 | CNT-006 | Flashcards y favoritos                                                                             | P2  | CNT-005                   | BACKLOG | —                                              | —                     | E2E     |
 | CNT-007 | Primer contenido piloto revisado                                                                   | P0  | DEC-001, DEC-002, CNT-003 | BACKLOG | Oposición piloto pasa a `partial` honestamente | contenido             | manual  |
 
 ## Épica E4 · Entrenamiento (Hito 4)
 
-| ID      | Descripción                                            | P   | Dep.                       | Estado  | Criterios de aceptación                               | Archivos                     | Pruebas |
-| ------- | ------------------------------------------------------ | --- | -------------------------- | ------- | ----------------------------------------------------- | ---------------------------- | ------- |
-| LRN-001 | Migración práctica: sesiones, respuestas, estadísticas | P0  | FND-005                    | BACKLOG | RLS; corrección en servidor                           | migración 0400               | DB      |
-| LRN-002 | Demo gratuita en la landing (get_demo_questions)       | P1  | LRN-001, CNT-007 o PSY-001 | BACKLOG | Sin registro; sin exponer respuesta                   | components/demo              | E2E     |
-| LRN-003 | Test por tema con explicación tras responder           | P0  | LRN-001                    | BACKLOG | Flujo completo; registro de actividad                 | app/app/practica             | E2E     |
-| LRN-004 | Repaso inteligente (SM-2) de errores                   | P1  | LRN-003                    | BACKLOG | Programación determinista testeada                    | lib/learning/srs.ts          | U       |
-| LRN-005 | Estadísticas del alumno (aciertos, racha, tiempo)      | P1  | LRN-003                    | BACKLOG | Datos reales en dashboard                             | lib/learning/stats.ts        | U, E2E  |
-| PSY-001 | Framework de generadores con semilla + verificador     | P0  | —                          | DONE    | Propiedad: 1.000 semillas verifican                   | lib/learning/psycho          | U       |
-| PSY-002 | Series numéricas y de letras                           | P0  | PSY-001                    | DONE    | Única respuesta                                       | psycho/series.ts             | U       |
-| PSY-003 | Matrices/figuras (SVG), cubos y espaciales             | P1  | PSY-001                    | BACKLOG | Accesible + verificable                               | psycho/*                     | U       |
-| PSY-004 | Verbales, atención y lógica                            | P1  | PSY-001                    | BACKLOG | —                                                     | psycho/*                     | U       |
-| PSY-005 | UI de psicotécnicos con temporizador                   | P0  | PSY-002                    | BACKLOG | Móvil; pausa; accesible                               | app/app/psicotecnicos        | E2E     |
-| MOC-001 | Simulacro con configuración de `exam_tests`            | P0  | LRN-003                    | BACKLOG | Tiempo, nº preguntas, penalización de la convocatoria | app/app/simulacros           | U, E2E  |
-| MOC-002 | Historial, evolución y repetición de errores           | P1  | MOC-001                    | BACKLOG | —                                                     | —                            | E2E     |
-| GAM-001 | Rachas, XP, niveles, logros, retos (sobrios)           | P2  | LRN-005                    | BACKLOG | Sin elementos infantiles                              | lib/learning/gamification.ts | U       |
+| ID      | Descripción                                            | P   | Dep.                       | Estado  | Criterios de aceptación                                                                | Archivos                     | Pruebas |
+| ------- | ------------------------------------------------------ | --- | -------------------------- | ------- | -------------------------------------------------------------------------------------- | ---------------------------- | ------- |
+| LRN-001 | Migración práctica: sesiones, respuestas, estadísticas | P0  | FND-005                    | DONE    | Migración 0600; RLS solo lectura; escritura por service_role tras corregir en servidor | migración 0400               | DB      |
+| LRN-002 | Demo gratuita en la landing (get_demo_questions)       | P1  | LRN-001, CNT-007 o PSY-001 | DONE    | Sin registro; sin exponer respuesta                                                    | components/demo              | E2E     |
+| LRN-003 | Test por tema con explicación tras responder           | P0  | LRN-001                    | BACKLOG | Flujo completo; registro de actividad                                                  | app/app/practica             | E2E     |
+| LRN-004 | Repaso inteligente (SM-2) de errores                   | P1  | LRN-003                    | BACKLOG | Programación determinista testeada                                                     | lib/learning/srs.ts          | U       |
+| LRN-005 | Estadísticas del alumno (aciertos, racha, tiempo)      | P1  | LRN-003                    | DONE    | my_practice_stats; /app/progreso y dashboard con datos reales                          | lib/learning/stats.ts        | U, E2E  |
+| PSY-001 | Framework de generadores con semilla + verificador     | P0  | —                          | DONE    | Propiedad: 1.000 semillas verifican                                                    | lib/learning/psycho          | U       |
+| PSY-002 | Series numéricas y de letras                           | P0  | PSY-001                    | DONE    | Única respuesta                                                                        | psycho/series.ts             | U       |
+| PSY-003 | Matrices/figuras (SVG), cubos y espaciales             | P1  | PSY-001                    | DONE    | Accesible + verificable                                                                | psycho/*                     | U       |
+| PSY-004 | Verbales, atención y lógica                            | P1  | PSY-001                    | DONE    | —                                                                                      | psycho/*                     | U       |
+| PSY-005 | UI de psicotécnicos con temporizador                   | P0  | PSY-002                    | DONE    | Temporizador y progreso; falta pausa                                                   | app/app/psicotecnicos        | E2E     |
+| MOC-001 | Simulacro con configuración de `exam_tests`            | P0  | LRN-003                    | BACKLOG | Tiempo, nº preguntas, penalización de la convocatoria                                  | app/app/simulacros           | U, E2E  |
+| MOC-002 | Historial, evolución y repetición de errores           | P1  | MOC-001                    | BACKLOG | —                                                                                      | —                            | E2E     |
+| GAM-001 | Rachas, XP, niveles, logros, retos (sobrios)           | P2  | LRN-005                    | BACKLOG | Sin elementos infantiles                                                               | lib/learning/gamification.ts | U       |
 
 ## Épica E5 · Negocio (Hito 5)
 
-| ID      | Descripción                                                             | P   | Dep.             | Estado  | Criterios de aceptación                | Archivos               | Pruebas    |
-| ------- | ----------------------------------------------------------------------- | --- | ---------------- | ------- | -------------------------------------- | ---------------------- | ---------- |
-| BIZ-001 | Migración planes/precios configurables/suscripciones/entitlements       | P0  | FND-003          | BACKLOG | `has_premium()` en servidor            | migración 0500         | DB         |
-| BIZ-002 | Stripe test: checkout + portal                                          | P0  | BIZ-001, DEC-003 | BACKLOG | Solo claves test                       | lib/billing            | E2E (mock) |
-| BIZ-003 | Webhooks firmados: alta, renovación, cancelación, pago fallido          | P0  | BIZ-002          | BACKLOG | Idempotentes                           | app/api/stripe/webhook | U          |
-| BIZ-004 | Control de acceso Premium en servidor y límites del plan gratuito       | P0  | BIZ-001          | BACKLOG | Nada Premium accesible sin entitlement | lib/billing/access.ts  | DB, E2E    |
-| BIZ-005 | Métricas comerciales en admin (Premium, MRR, conversión, cancelaciones) | P1  | BIZ-003          | BACKLOG | Reales                                 | lib/admin              | U          |
-| BIZ-006 | Precio editable desde admin                                             | P1  | BIZ-001          | BACKLOG | Auditado                               | app/admin/precios      | E2E        |
-| MKT-001 | Cupones y promociones                                                   | P2  | BIZ-002          | BACKLOG | —                                      | —                      | —          |
-| MKT-002 | SEO: sitemap, robots, metadatos por idioma, datos estructurados         | P1  | FND-009          | BACKLOG | Lighthouse SEO ≥ 95                    | app/sitemap.ts         | E2E        |
-| MKT-003 | Landing pages por oposición y recursos gratuitos                        | P2  | CNT-007          | BACKLOG | —                                      | —                      | —          |
+| ID      | Descripción                                                             | P   | Dep.             | Estado      | Criterios de aceptación                                                           | Archivos               | Pruebas    |
+| ------- | ----------------------------------------------------------------------- | --- | ---------------- | ----------- | --------------------------------------------------------------------------------- | ---------------------- | ---------- |
+| BIZ-001 | Migración planes/precios configurables/suscripciones/entitlements       | P0  | FND-003          | DONE        | Migración 0800 (productos, precios, pedidos, suscripciones, access_grants)        | migración 0500         | DB         |
+| BIZ-002 | Stripe test: checkout + portal                                          | P0  | BIZ-001, DEC-003 | BLOCKED     | Solo claves test                                                                  | lib/billing            | E2E (mock) |
+| BIZ-003 | Webhooks firmados: alta, renovación, cancelación, pago fallido          | P0  | BIZ-002          | BLOCKED     | Idempotentes                                                                      | app/api/stripe/webhook | U          |
+| BIZ-004 | Control de acceso Premium en servidor y límites del plan gratuito       | P0  | BIZ-001          | IN_PROGRESS | has_product_access en BD hecho; falta aplicarlo al reproductor de packs (STO-006) | lib/billing/access.ts  | DB, E2E    |
+| BIZ-005 | Métricas comerciales en admin (Premium, MRR, conversión, cancelaciones) | P1  | BIZ-003          | BACKLOG     | Reales                                                                            | lib/admin              | U          |
+| BIZ-006 | Precio editable desde admin                                             | P1  | BIZ-001          | DONE        | Precio con histórico desde /admin/productos                                       | app/admin/precios      | E2E        |
+| MKT-001 | Cupones y promociones                                                   | P2  | BIZ-002          | BACKLOG     | —                                                                                 | —                      | —          |
+| MKT-002 | SEO: sitemap, robots, metadatos por idioma, datos estructurados         | P1  | FND-009          | BACKLOG     | Lighthouse SEO ≥ 95                                                               | app/sitemap.ts         | E2E        |
+| MKT-003 | Landing pages por oposición y recursos gratuitos                        | P2  | CNT-007          | BACKLOG     | —                                                                                 | —                      | —          |
+
+## Épica E5b · Tienda de productos digitales (sin pagos reales)
+
+Un único banco de preguntas alimenta test interactivos, simulacros y PDF. El acceso se decide siempre con `has_product_access()` sobre `access_grants`/`subscriptions` (ver ARCHITECTURE › Tienda).
+
+| ID      | Descripción                                                                  | P   | Dep.             | Estado  | Criterios de aceptación                                   | Archivos                    | Pruebas |
+| ------- | ---------------------------------------------------------------------------- | --- | ---------------- | ------- | --------------------------------------------------------- | --------------------------- | ------- |
+| STO-001 | Esquema de tienda: productos, precios, contenido, archivos, pedidos, accesos | P0  | BIZ-001          | DONE    | RLS; nadie escribe pedidos/accesos con su JWT             | migración 0800              | DB      |
+| STO-002 | Biblioteca «Mis productos»                                                   | P0  | STO-001          | DONE    | Solo lo accesible; caducidad visible                      | app/app/productos           | DB, E2E |
+| STO-003 | Gestión de productos en admin (precio, contenido revisado)                   | P0  | STO-001, CNT-003 | DONE    | Solo preguntas aprobadas/publicadas; precio con histórico | app/admin/productos         | DB, E2E |
+| STO-004 | Compras y concesión/revocación manual de acceso (auditada)                   | P0  | STO-001          | DONE    | Sin cobro; audit_log                                      | app/admin/compras           | DB, E2E |
+| STO-005 | Generar PDF de un pack desde el banco (Storage privado, URL firmada)         | P1  | STO-003          | BACKLOG | Mismo contenido que el pack; huella `source_hash`         | lib/store/pdf.ts            | U       |
+| STO-006 | Reproductor de packs y simulacros (práctica `questions`/`mock`)              | P0  | STO-003, LRN-001 | BACKLOG | Corrección en BD; acceso con has_product_access           | app/app/productos/[slug]    | DB, E2E |
+| STO-007 | Tienda pública (fichas de producto, precios, CTA)                            | P1  | STO-003          | BACKLOG | Sin comprar todavía; textos legales de venta pendientes   | app/(site)/tienda           | E2E     |
+| STO-008 | Checkout Stripe test + webhook → pedidos/accesos                             | P0  | DEC-003          | BLOCKED | Requiere autorización para crear la cuenta Stripe en test | lib/billing, app/api/stripe | U, E2E  |
 
 ## Épica E6 · Inteligencia (Hito 6)
 
