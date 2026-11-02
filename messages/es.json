@@ -18,7 +18,9 @@
     "theme": "Cambiar tema",
     "language": "Idioma",
     "profile": "Mi perfil",
-    "psycho": "Psicotécnicos"
+    "psycho": "Psicotécnicos",
+    "practice": "Práctica",
+    "progress": "Mi progreso"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -265,7 +267,11 @@
       "practice_started": "Práctica iniciada",
       "practice_completed": "Práctica completada",
       "account_exported": "Datos exportados"
-    }
+    },
+    "practiceCta": "Practicar psicotécnicos",
+    "progressCta": "Ver mi progreso",
+    "answeredStat": "Ejercicios respondidos",
+    "pendingReview": "{count, plural, one {# fallo por repasar} other {# fallos por repasar}}"
   },
   "onboarding": {
     "title": "Configura tu preparación",
@@ -313,7 +319,12 @@
       "lastActive": "Última actividad"
     },
     "pendingMetrics": "Premium, ingresos, conversiones y retención se activarán con Stripe (Hito 5).",
-    "never": "Nunca"
+    "never": "Nunca",
+    "practiceTitle": "Práctica (últimos 7 días)",
+    "practiceSessions": "Prácticas terminadas",
+    "practiceAnswers": "Respuestas",
+    "practiceUsers": "Alumnos que practican",
+    "practiceByType": "Aciertos por tipo (histórico)"
   },
   "profile": {
     "title": "Mi perfil",
@@ -390,9 +401,9 @@
     "noShort": "No"
   },
   "psycho": {
-    "title": "Psicotécnicos: series numéricas",
-    "subtitle": "Demostración gratuita. 10 series de dificultad creciente generadas y verificadas automáticamente: cada una tiene una única respuesta correcta.",
-    "question": "Serie {n} de {total}",
+    "title": "Psicotécnicos",
+    "subtitle": "Demostración gratuita y sin registro. 10 ejercicios de dificultad creciente generados y verificados automáticamente: cada uno tiene una única respuesta correcta.",
+    "question": "Ejercicio {n} de {total}",
     "prompt": "¿Qué número continúa la serie?",
     "difficulty": "Dificultad {level}/5",
     "time": "Tiempo: {seconds} s",
@@ -404,7 +415,7 @@
     "result": "Has acertado {correct} de {total} en {seconds} segundos.",
     "again": "Nueva serie de ejercicios",
     "ctaTitle": "¿Quieres entrenar de verdad?",
-    "ctaBody": "Crea tu cuenta gratis para seguir tu progreso cuando activemos el historial de práctica.",
+    "ctaBody": "Crea tu cuenta gratis para guardar tu progreso, ver tus estadísticas y repasar tus fallos.",
     "ctaButton": "Crear cuenta gratis",
     "rules": {
       "arithmetic": "Se suma {step} a cada término.",
@@ -413,6 +424,127 @@
       "second_order": "Las diferencias entre términos aumentan {delta} cada vez (empiezan en {step}).",
       "fibonacci": "Cada término es la suma de los dos anteriores.",
       "interleaved": "Son dos series intercaladas: una empieza en {startA} y suma {stepA}; la otra empieza en {startB} y suma {stepB}."
-    }
+    },
+    "demoNotSaved": "Los resultados de la demostración no se guardan.",
+    "ctaPractice": "Ir a mi práctica",
+    "typesLabel": "Tipo de ejercicio",
+    "progress": "Progreso",
+    "options": "Opciones de respuesta",
+    "errors": {
+      "invalid": "No se ha podido comprobar la respuesta. Inténtalo de nuevo.",
+      "auth": "Tu sesión ha caducado. Vuelve a entrar.",
+      "not_found": "Este ejercicio no existe o no es tuyo.",
+      "changed": "Este ejercicio ya no está disponible. Empieza una nueva práctica.",
+      "state": "Este ejercicio ya está respondido o la práctica ha terminado."
+    },
+    "types": {
+      "series": {
+        "name": "Series numéricas",
+        "prompt": "¿Qué número continúa la serie?",
+        "description": "Descubre la regla que sigue una secuencia de números."
+      },
+      "letters": {
+        "name": "Series de letras",
+        "prompt": "¿Qué letra continúa la serie? (alfabeto español, con Ñ)",
+        "description": "Secuencias de letras con saltos, alternancias e intercalados."
+      },
+      "numeric": {
+        "name": "Razonamiento numérico",
+        "prompt": "Resuelve el problema.",
+        "description": "Problemas breves de cálculo, proporciones y porcentajes."
+      },
+      "analogies": {
+        "name": "Analogías verbales",
+        "prompt": "Completa la analogía.",
+        "description": "Relaciones entre palabras: parte-todo, contrarios, función…"
+      },
+      "matrices": {
+        "name": "Matrices visuales",
+        "prompt": "¿Qué figura completa la matriz?",
+        "description": "Matrices de figuras que siguen reglas por filas y columnas."
+      },
+      "spatial": {
+        "name": "Razonamiento espacial",
+        "prompt": "Elige la opción correcta.",
+        "description": "Giros y simetrías de piezas en una cuadrícula."
+      },
+      "attention": {
+        "name": "Atención y concentración",
+        "prompt": "Responde con precisión.",
+        "description": "Recuento de símbolos y detección de diferencias."
+      }
+    },
+    "wrongShort": "Incorrecto"
+  },
+  "practice": {
+    "title": "Práctica",
+    "subtitle": "Entrena psicotécnicos: tus resultados se guardan y solo los ves tú.",
+    "newTitle": "Nueva práctica",
+    "type": "Tipo de ejercicio",
+    "count": "Número de ejercicios",
+    "difficulty": "Dificultad",
+    "auto": "Progresiva (1 → 5)",
+    "level": "Nivel {level}",
+    "start": "Empezar",
+    "reviewTitle": "Repaso de fallos",
+    "reviewBody": "{count, plural, =0 {No tienes fallos pendientes. ¡Buen trabajo!} one {Tienes # fallo pendiente de repasar.} other {Tienes # fallos pendientes de repasar.}}",
+    "reviewStart": "Repasar fallos",
+    "reviewEmpty": "No hay fallos pendientes de repaso.",
+    "reviewHint": "Al acertar un ejercicio en el repaso, el fallo se marca como resuelto.",
+    "recentTitle": "Prácticas recientes",
+    "recentEmpty": "Aún no has hecho ninguna práctica.",
+    "continue": "Continuar",
+    "see": "Ver resultado",
+    "modes": {
+      "psycho": "Psicotécnicos",
+      "questions": "Preguntas",
+      "mock": "Simulacro",
+      "review": "Repaso"
+    },
+    "status": {
+      "active": "En curso",
+      "finished": "Terminada",
+      "abandoned": "Abandonada"
+    },
+    "score": "{correct}/{total}",
+    "errors": {
+      "invalid": "Revisa las opciones de la práctica.",
+      "start": "No se ha podido iniciar la práctica. Inténtalo de nuevo."
+    },
+    "summaryTitle": "Resultado de la práctica",
+    "summary": "Has acertado {correct} de {total} ({pct} %) en {time}.",
+    "avgTime": "Tiempo medio por ejercicio: {seconds} s",
+    "itemsTitle": "Detalle",
+    "yourAnswer": "Tu respuesta",
+    "rightAnswer": "Respuesta correcta",
+    "again": "Nueva práctica",
+    "toProgress": "Ver mi progreso",
+    "resolved": "Repasado",
+    "mixed": "Mixta",
+    "failedTitle": "Fallos pendientes"
+  },
+  "progress": {
+    "title": "Mi progreso",
+    "subtitle": "Tus estadísticas reales de práctica. Solo tú puedes verlas.",
+    "answered": "Ejercicios respondidos",
+    "accuracy": "Porcentaje de aciertos",
+    "avgTime": "Tiempo medio",
+    "sessions": "Prácticas terminadas",
+    "streak": "Racha actual",
+    "dailyTitle": "Actividad de los últimos {days} días",
+    "dailyLegend": "Barras: ejercicios por día. Parte coloreada: aciertos.",
+    "dailyRow": "{day}: {answered} respondidos, {correct} aciertos",
+    "byTypeTitle": "Por tipo de ejercicio",
+    "byDifficultyTitle": "Por dificultad",
+    "pendingReview": "Fallos pendientes de repaso",
+    "empty": "Todavía no hay datos. Haz tu primera práctica y aquí verás tu evolución.",
+    "startPractice": "Empezar a practicar",
+    "seconds": "{seconds} s",
+    "pct": "{pct} %",
+    "colType": "Tipo",
+    "colAnswered": "Respondidos",
+    "colAccuracy": "Aciertos",
+    "colTime": "Tiempo medio",
+    "colLevel": "Nivel"
   }
 }

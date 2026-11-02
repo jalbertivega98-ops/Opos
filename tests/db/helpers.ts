@@ -26,15 +26,20 @@ export async function createUser(client: pg.Client, opts: { role?: string; local
   return { id, email };
 }
 
-/** Ejecuta fn como `authenticated` (con uid) o `anon`, siempre con rollback. */
+/** Ejecuta fn como `authenticated` (con uid), `anon` o `service_role`, siempre con rollback. */
 export async function as<T>(
   client: pg.Client,
-  who: { uid: string } | "anon",
+  who: { uid: string } | "anon" | "service",
   fn: (q: (sql: string, params?: unknown[]) => Promise<pg.QueryResult>) => Promise<T>,
 ): Promise<T> {
   await client.query("begin");
   try {
-    if (who === "anon") {
+    if (who === "service") {
+      await client.query("set local role service_role");
+      await client.query(
+        `select set_config('request.jwt.claims', '{"role":"service_role"}', true)`,
+      );
+    } else if (who === "anon") {
       await client.query("set local role anon");
       await client.query(`select set_config('request.jwt.claims', '{"role":"anon"}', true)`);
     } else {

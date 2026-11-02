@@ -8,20 +8,36 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
-import { checkSeriesAnswer, type SeriesCheck } from "@/lib/learning/psycho/actions";
-import type { PublicSeriesItem, SeriesRule } from "@/lib/learning/psycho/series";
+import {
+  answerPracticeAction,
+  checkDemoAnswer,
+  type AnswerResult,
+} from "@/lib/learning/practice/actions";
+import type { Explanation, PublicPsychoItem } from "@/lib/learning/psycho/types";
+import { PsychoStem, useExplain } from "./stem";
+import { Token, useTokenText } from "./token";
 
-type Result = Extract<SeriesCheck, { ok: true }>;
+type Result = { correct: boolean; answerIndex: number; explanation: Explanation };
 
-export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
+type Mode =
+  { kind: "demo"; signedIn: boolean } | { kind: "session"; sessionId: string; startAt: number };
+
+/**
+ * Entrenador de psicotécnicos. En modo `demo` corrige sin guardar nada
+ * (anónimo); en modo `session` corrige y guarda en la sesión del alumno.
+ */
+export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode: Mode }) {
   const t = useTranslations("psycho");
+  const explain = useExplain();
+  const text = useTokenText();
   const router = useRouter();
-  const [index, setIndex] = useState(0);
+  const first = mode.kind === "session" ? mode.startAt : 0;
+  const [index, setIndex] = useState(first);
   const [choice, setChoice] = useState<number | null>(null);
   const [result, setResult] = useState<Result | null>(null);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const [seconds, setSeconds] = useState(0);
   const startedAt = useRef<number>(0);
@@ -40,13 +56,24 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
   function answer(i: number) {
     if (result || pending) return;
     setChoice(i);
+    setError(null);
     start(async () => {
-      const r = await checkSeriesAnswer({
-        seed: item.seed,
-        difficulty: item.difficulty,
-        choice: i,
-      });
-      if (!r.ok) return setError(true);
+      let r: AnswerResult | Awaited<ReturnType<typeof checkDemoAnswer>>;
+      if (mode.kind === "session") {
+        r = await answerPracticeAction({ sessionId: mode.sessionId, position: index, choice: i });
+      } else {
+        r = await checkDemoAnswer({
+          type: item.type,
+          seed: item.seed,
+          difficulty: item.difficulty,
+          choice: i,
+        });
+      }
+      if (!r.ok) {
+        setChoice(null);
+        setError("error" in r ? r.error : "invalid");
+        return;
+      }
       setResult(r);
       if (r.correct) setScore((s) => s + 1);
     });
@@ -54,7 +81,11 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
 
   function next() {
     if (index + 1 >= items.length) {
-      setDone(true);
+      if (mode.kind === "session") {
+        router.refresh(); // el servidor muestra el resumen guardado
+      } else {
+        setDone(true);
+      }
       return;
     }
     setIndex(index + 1);
@@ -63,23 +94,32 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
     requestAnimationFrame(() => headingRef.current?.focus());
   }
 
-  if (done) {
+  if (done && mode.kind === "demo") {
     return (
       <Card className="space-y-4 text-center" data-testid="series-result">
         <h2 className="text-2xl font-bold">{t("resultTitle")}</h2>
         <p className="text-lg">{t("result", { correct: score, total: items.length, seconds })}</p>
+        <p className="text-muted-foreground text-sm">{t("demoNotSaved")}</p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button variant="outline" onClick={() => router.refresh()}>
             {t("again")}
           </Button>
-          <Button asChild variant="accent">
-            <Link href="/registro">{t("ctaButton")}</Link>
-          </Button>
+          {mode.signedIn ? (
+            <Button asChild variant="accent">
+              <Link href="/app/practica">{t("ctaPractice")}</Link>
+            </Button>
+          ) : (
+            <Button asChild variant="accent">
+              <Link href="/registro">{t("ctaButton")}</Link>
+            </Button>
+          )}
         </div>
-        <p className="text-muted-foreground text-sm">{t("ctaBody")}</p>
+        {!mode.signedIn && <p className="text-muted-foreground text-sm">{t("ctaBody")}</p>}
       </Card>
     );
   }
+
+  const isVisual = item.options.some((o) => o.startsWith("g:") || o.startsWith("p:"));
 
   return (
     <Card className="space-y-6">
@@ -95,6 +135,7 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
       <div
         className="bg-surface h-2 overflow-hidden rounded-full"
         role="progressbar"
+        aria-label={t("progress")}
         aria-valuemin={0}
         aria-valuemax={items.length}
         aria-valuenow={index}
@@ -105,15 +146,13 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
         />
       </div>
 
-      <p className="font-medium">{t("prompt")}</p>
-      <p
-        className="font-display text-2xl font-bold tracking-wide break-words sm:text-3xl"
-        data-testid="series-terms"
-      >
-        {item.terms.join(", ")}, <span className="text-accent">?</span>
-      </p>
+      <PsychoStem type={item.type} presentation={item.presentation} />
 
-      <div className="grid grid-cols-2 gap-3" role="group" aria-label={t("prompt")}>
+      <div
+        className={cn("grid gap-3", isVisual ? "grid-cols-2 sm:grid-cols-4" : "grid-cols-2")}
+        role="group"
+        aria-label={t("options")}
+      >
         {item.options.map((opt, i) => {
           const isAnswer = result?.answerIndex === i;
           const isWrongChoice = result && choice === i && !result.correct;
@@ -124,30 +163,36 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
               onClick={() => answer(i)}
               disabled={!!result || pending}
               aria-pressed={choice === i}
+              aria-label={text(opt)}
+              data-testid="psycho-option"
               className={cn(
-                "border-border hover:border-accent flex h-14 items-center justify-center gap-2 rounded-xl border text-lg font-semibold transition-colors disabled:cursor-default",
+                "border-border hover:border-accent flex min-h-14 items-center justify-center gap-2 rounded-xl border px-2 py-2 text-lg font-semibold transition-colors disabled:cursor-default",
                 isAnswer && "border-success bg-accent-soft",
                 isWrongChoice && "border-danger bg-danger-soft",
               )}
             >
-              {isAnswer && <Check className="text-success size-5" aria-hidden />}
-              {isWrongChoice && <X className="text-danger size-5" aria-hidden />}
-              {opt}
+              {isAnswer && <Check className="text-success size-5 shrink-0" aria-hidden />}
+              {isWrongChoice && <X className="text-danger size-5 shrink-0" aria-hidden />}
+              <Token value={opt} />
             </button>
           );
         })}
       </div>
 
-      {error && <Alert tone="error">Error</Alert>}
+      {error && (
+        <Alert tone="error">
+          {t.has(`errors.${error}`) ? t(`errors.${error}`) : t("errors.invalid")}
+        </Alert>
+      )}
       {result && (
         <div className="space-y-4" aria-live="polite">
           <Alert tone={result.correct ? "success" : "error"}>
             <p className="font-semibold">
               {result.correct
                 ? t("correct")
-                : t("wrong", { answer: item.options[result.answerIndex] })}
+                : t("wrong", { answer: text(item.options[result.answerIndex]) })}
             </p>
-            <p className="mt-1">{explain(t, result.rule)}</p>
+            <p className="mt-1">{explain(result.explanation)}</p>
           </Alert>
           <Button onClick={next} autoFocus>
             {index + 1 >= items.length ? t("finish") : t("next")}
@@ -156,27 +201,4 @@ export function SeriesTrainer({ items }: { items: PublicSeriesItem[] }) {
       )}
     </Card>
   );
-}
-
-function explain(t: ReturnType<typeof useTranslations<"psycho">>, rule: SeriesRule) {
-  const sign = (n: number) => (n > 0 ? `+${n}` : String(n));
-  switch (rule.kind) {
-    case "arithmetic":
-      return t("rules.arithmetic", { step: sign(rule.step) });
-    case "geometric":
-      return t("rules.geometric", { ratio: rule.ratio });
-    case "alternating":
-      return t("rules.alternating", { stepA: sign(rule.stepA), stepB: sign(rule.stepB) });
-    case "second_order":
-      return t("rules.second_order", { step: rule.step, delta: rule.delta });
-    case "fibonacci":
-      return t("rules.fibonacci");
-    case "interleaved":
-      return t("rules.interleaved", {
-        startA: rule.startA,
-        stepA: sign(rule.stepA),
-        startB: rule.startB,
-        stepB: sign(rule.stepB),
-      });
-  }
 }

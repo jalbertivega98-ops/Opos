@@ -69,16 +69,17 @@ test.describe("Móvil @mobile", () => {
 });
 
 test.describe("Demo de psicotécnicos", () => {
-  test("completa 10 series con corrección en servidor", async ({ page }) => {
+  test("completa 10 series con corrección en servidor y sin guardar nada", async ({ page }) => {
     await page.goto("/psicotecnicos");
-    await expect(page.getByRole("heading", { level: 1 })).toContainText("series numéricas");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Psicotécnicos");
+    await expect(page.getByText("¿Qué número continúa la serie?")).toBeVisible();
     // La respuesta no está en el HTML enviado al cliente
     const html = await page.content();
     expect(html).not.toContain("answerIndex");
     for (let i = 1; i <= 10; i++) {
-      await expect(page.getByRole("heading", { name: `Serie ${i} de 10` })).toBeVisible();
+      await expect(page.getByRole("heading", { name: `Ejercicio ${i} de 10` })).toBeVisible();
       await page
-        .getByRole("group", { name: "¿Qué número continúa la serie?" })
+        .getByRole("group", { name: "Opciones de respuesta" })
         .getByRole("button")
         .first()
         .click();
@@ -86,5 +87,7 @@ test.describe("Demo de psicotécnicos", () => {
       await page.getByRole("button", { name: i === 10 ? "Ver resultado" : "Siguiente" }).click();
     }
     await expect(page.getByTestId("series-result")).toContainText(/Has acertado \d+ de 10/);
+    await expect(page.getByText("Los resultados de la demostración no se guardan.")).toBeVisible();
+    await expect(page.getByRole("link", { name: "Crear cuenta gratis" }).last()).toBeVisible();
   });
 });

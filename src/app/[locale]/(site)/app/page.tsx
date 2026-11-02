@@ -8,6 +8,8 @@ import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth/session";
 import { createClient } from "@/lib/supabase/server";
 import { localized } from "@/lib/catalog/queries";
+import { getPracticeStats } from "@/lib/learning/practice/queries";
+import { pct } from "@/lib/learning/practice/format";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/app">): Promise<Metadata> {
   const { locale } = await params;
@@ -30,7 +32,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const format = await getFormatter();
   const supabase = await createClient();
 
-  const [{ data: targets }, { data: activity }] = await Promise.all([
+  const [{ data: targets }, { data: activity }, practice] = await Promise.all([
     supabase
       .from("user_exam_targets")
       .select("is_primary, follow_only, exam:exam_bodies(slug, name, name_ca, availability)")
@@ -43,13 +45,27 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
       .eq("user_id", user.id)
       .order("created_at", { ascending: false })
       .limit(8),
+    getPracticeStats(7),
   ]);
 
   const name = profile.display_name;
+  const answered = practice?.totals.answered ?? 0;
   const stats = [
-    { icon: Flame, label: t("app.streak") },
-    { icon: Target, label: t("app.accuracy") },
-    { icon: TrendingUp, label: t("app.tests") },
+    {
+      icon: Flame,
+      label: t("app.streak"),
+      value: answered ? t("app.days", { count: practice!.streak }) : null,
+    },
+    {
+      icon: Target,
+      label: t("app.accuracy"),
+      value: answered ? `${pct(practice!.totals.correct, answered)} %` : null,
+    },
+    {
+      icon: TrendingUp,
+      label: t("app.answeredStat"),
+      value: answered ? format.number(answered) : null,
+    },
   ];
 
   return (
@@ -120,15 +136,30 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
         <h2 id="progress-title" className="text-lg font-semibold">
           {t("app.progress")}
         </h2>
+        <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
+          <Button asChild variant="accent" size="sm">
+            <Link href="/app/practica">{t("app.practiceCta")}</Link>
+          </Button>
+          <Button asChild variant="outline" size="sm">
+            <Link href="/app/progreso">{t("app.progressCta")}</Link>
+          </Button>
+          {(practice?.totals.pending_review ?? 0) > 0 && (
+            <span className="text-muted-foreground">
+              {t("app.pendingReview", { count: practice!.totals.pending_review })}
+            </span>
+          )}
+        </div>
         <div className="mt-3 grid gap-4 sm:grid-cols-3">
-          {stats.map(({ icon: Icon, label }) => (
+          {stats.map(({ icon: Icon, label, value }) => (
             <Card key={label} className="flex items-center gap-4">
               <span className="bg-surface-2 text-muted-foreground inline-flex size-10 items-center justify-center rounded-lg">
                 <Icon className="size-5" aria-hidden />
               </span>
               <div>
                 <p className="text-muted-foreground text-sm">{label}</p>
-                <p className="font-semibold">{t("app.noData")}</p>
+                <p className="font-semibold" data-testid="dashboard-stat">
+                  {value ?? t("app.noData")}
+                </p>
               </div>
             </Card>
           ))}

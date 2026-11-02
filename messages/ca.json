@@ -18,7 +18,9 @@
     "theme": "Canvia el tema",
     "language": "Idioma",
     "profile": "El meu perfil",
-    "psycho": "Psicotècnics"
+    "psycho": "Psicotècnics",
+    "practice": "Pràctica",
+    "progress": "El meu progrés"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -265,7 +267,11 @@
       "practice_started": "Pràctica iniciada",
       "practice_completed": "Pràctica completada",
       "account_exported": "Dades exportades"
-    }
+    },
+    "practiceCta": "Practicar psicotècnics",
+    "progressCta": "Veure el meu progrés",
+    "answeredStat": "Exercicis resposts",
+    "pendingReview": "{count, plural, one {# error per repassar} other {# errors per repassar}}"
   },
   "onboarding": {
     "title": "Configura la teva preparació",
@@ -313,7 +319,12 @@
       "lastActive": "Última activitat"
     },
     "pendingMetrics": "Premium, ingressos, conversions i retenció s'activaran amb Stripe (Fita 5).",
-    "never": "Mai"
+    "never": "Mai",
+    "practiceTitle": "Pràctica (últims 7 dies)",
+    "practiceSessions": "Pràctiques acabades",
+    "practiceAnswers": "Respostes",
+    "practiceUsers": "Alumnes que practiquen",
+    "practiceByType": "Encerts per tipus (històric)"
   },
   "profile": {
     "title": "El meu perfil",
@@ -390,9 +401,9 @@
     "noShort": "No"
   },
   "psycho": {
-    "title": "Psicotècnics: sèries numèriques",
-    "subtitle": "Demostració gratuïta. 10 sèries de dificultat creixent generades i verificades automàticament: cadascuna té una única resposta correcta.",
-    "question": "Sèrie {n} de {total}",
+    "title": "Psicotècnics",
+    "subtitle": "Demostració gratuïta i sense registre. 10 exercicis de dificultat creixent generats i verificats automàticament: cadascun té una única resposta correcta.",
+    "question": "Exercici {n} de {total}",
     "prompt": "Quin número continua la sèrie?",
     "difficulty": "Dificultat {level}/5",
     "time": "Temps: {seconds} s",
@@ -404,7 +415,7 @@
     "result": "Has encertat {correct} de {total} en {seconds} segons.",
     "again": "Nova sèrie d'exercicis",
     "ctaTitle": "Vols entrenar de debò?",
-    "ctaBody": "Crea el teu compte gratis per seguir el teu progrés quan activem l'historial de pràctica.",
+    "ctaBody": "Crea el teu compte gratuït per desar el teu progrés, veure les teves estadístiques i repassar els errors.",
     "ctaButton": "Crea un compte gratis",
     "rules": {
       "arithmetic": "Se suma {step} a cada terme.",
@@ -413,6 +424,127 @@
       "second_order": "Les diferències entre termes augmenten {delta} cada vegada (comencen en {step}).",
       "fibonacci": "Cada terme és la suma dels dos anteriors.",
       "interleaved": "Són dues sèries intercalades: una comença en {startA} i suma {stepA}; l'altra comença en {startB} i suma {stepB}."
-    }
+    },
+    "demoNotSaved": "Els resultats de la demostració no es desen.",
+    "ctaPractice": "Anar a la meva pràctica",
+    "typesLabel": "Tipus d'exercici",
+    "progress": "Progrés",
+    "options": "Opcions de resposta",
+    "errors": {
+      "invalid": "No s'ha pogut comprovar la resposta. Torna-ho a provar.",
+      "auth": "La sessió ha caducat. Torna a entrar.",
+      "not_found": "Aquest exercici no existeix o no és teu.",
+      "changed": "Aquest exercici ja no està disponible. Comença una pràctica nova.",
+      "state": "Aquest exercici ja està respost o la pràctica ha acabat."
+    },
+    "types": {
+      "series": {
+        "name": "Sèries numèriques",
+        "prompt": "Quin nombre continua la sèrie?",
+        "description": "Descobreix la regla que segueix una seqüència de nombres."
+      },
+      "letters": {
+        "name": "Sèries de lletres",
+        "prompt": "Quina lletra continua la sèrie? (alfabet espanyol, amb Ñ)",
+        "description": "Seqüències de lletres amb salts, alternances i intercalats."
+      },
+      "numeric": {
+        "name": "Raonament numèric",
+        "prompt": "Resol el problema.",
+        "description": "Problemes breus de càlcul, proporcions i percentatges."
+      },
+      "analogies": {
+        "name": "Analogies verbals",
+        "prompt": "Completa l'analogia.",
+        "description": "Relacions entre paraules: part-tot, contraris, funció…"
+      },
+      "matrices": {
+        "name": "Matrius visuals",
+        "prompt": "Quina figura completa la matriu?",
+        "description": "Matrius de figures que segueixen regles per files i columnes."
+      },
+      "spatial": {
+        "name": "Raonament espacial",
+        "prompt": "Tria l'opció correcta.",
+        "description": "Girs i simetries de peces en una quadrícula."
+      },
+      "attention": {
+        "name": "Atenció i concentració",
+        "prompt": "Respon amb precisió.",
+        "description": "Recompte de símbols i detecció de diferències."
+      }
+    },
+    "wrongShort": "Incorrecte"
+  },
+  "practice": {
+    "title": "Pràctica",
+    "subtitle": "Entrena psicotècnics: els teus resultats es desen i només els veus tu.",
+    "newTitle": "Nova pràctica",
+    "type": "Tipus d'exercici",
+    "count": "Nombre d'exercicis",
+    "difficulty": "Dificultat",
+    "auto": "Progressiva (1 → 5)",
+    "level": "Nivell {level}",
+    "start": "Començar",
+    "reviewTitle": "Repàs d'errors",
+    "reviewBody": "{count, plural, =0 {No tens errors pendents. Bona feina!} one {Tens # error pendent de repassar.} other {Tens # errors pendents de repassar.}}",
+    "reviewStart": "Repassar errors",
+    "reviewEmpty": "No hi ha errors pendents de repàs.",
+    "reviewHint": "Quan encertes un exercici al repàs, l'error es marca com a resolt.",
+    "recentTitle": "Pràctiques recents",
+    "recentEmpty": "Encara no has fet cap pràctica.",
+    "continue": "Continuar",
+    "see": "Veure resultat",
+    "modes": {
+      "psycho": "Psicotècnics",
+      "questions": "Preguntes",
+      "mock": "Simulacre",
+      "review": "Repàs"
+    },
+    "status": {
+      "active": "En curs",
+      "finished": "Acabada",
+      "abandoned": "Abandonada"
+    },
+    "score": "{correct}/{total}",
+    "errors": {
+      "invalid": "Revisa les opcions de la pràctica.",
+      "start": "No s'ha pogut iniciar la pràctica. Torna-ho a provar."
+    },
+    "summaryTitle": "Resultat de la pràctica",
+    "summary": "Has encertat {correct} de {total} ({pct} %) en {time}.",
+    "avgTime": "Temps mitjà per exercici: {seconds} s",
+    "itemsTitle": "Detall",
+    "yourAnswer": "La teva resposta",
+    "rightAnswer": "Resposta correcta",
+    "again": "Nova pràctica",
+    "toProgress": "Veure el meu progrés",
+    "resolved": "Repassat",
+    "mixed": "Mixta",
+    "failedTitle": "Errors pendents"
+  },
+  "progress": {
+    "title": "El meu progrés",
+    "subtitle": "Les teves estadístiques reals de pràctica. Només tu les pots veure.",
+    "answered": "Exercicis resposts",
+    "accuracy": "Percentatge d'encerts",
+    "avgTime": "Temps mitjà",
+    "sessions": "Pràctiques acabades",
+    "streak": "Ratxa actual",
+    "dailyTitle": "Activitat dels últims {days} dies",
+    "dailyLegend": "Barres: exercicis per dia. Part acolorida: encerts.",
+    "dailyRow": "{day}: {answered} resposts, {correct} encerts",
+    "byTypeTitle": "Per tipus d'exercici",
+    "byDifficultyTitle": "Per dificultat",
+    "pendingReview": "Errors pendents de repàs",
+    "empty": "Encara no hi ha dades. Fes la teva primera pràctica i aquí veuràs la teva evolució.",
+    "startPractice": "Començar a practicar",
+    "seconds": "{seconds} s",
+    "pct": "{pct} %",
+    "colType": "Tipus",
+    "colAnswered": "Resposts",
+    "colAccuracy": "Encerts",
+    "colTime": "Temps mitjà",
+    "colLevel": "Nivell"
   }
 }
