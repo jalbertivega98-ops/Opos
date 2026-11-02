@@ -54,11 +54,16 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
 
   return (
     <div className="space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold">
-          {name ? t("app.greeting", { name }) : t("app.greetingAnon")}
-        </h1>
-        <p className="text-muted-foreground mt-1">{t("app.subtitle")}</p>
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h1 className="text-3xl font-bold">
+            {name ? t("app.greeting", { name }) : t("app.greetingAnon")}
+          </h1>
+          <p className="text-muted-foreground mt-1">{t("app.subtitle")}</p>
+        </div>
+        <Button asChild variant="outline" size="sm">
+          <Link href="/app/perfil">{t("nav.profile")}</Link>
+        </Button>
       </div>
 
       {sp.pw === "updated" && <Alert tone="success">{t("app.passwordUpdated")}</Alert>}

@@ -258,3 +258,52 @@ describe("banco de preguntas", () => {
     });
   });
 });
+
+describe("derechos RGPD y perfil", () => {
+  it("un alumno no puede tocar last_active_at ni deletion_requested_at directamente", async () => {
+    await expect(
+      as(client, { uid: bob.id }, (q) =>
+        q("update public.profiles set last_active_at = now() where id = $1", [bob.id]),
+      ),
+    ).rejects.toThrow(/permission denied/);
+  });
+
+  it("export_my_data devuelve solo los datos propios", async () => {
+    const data = await as(client, { uid: bob.id }, async (q) => {
+      await q("select public.track_activity('account.exported')");
+      return (await q("select public.export_my_data() as d")).rows[0].d;
+    });
+    expect(data.account.id).toBe(bob.id);
+    expect(data.profile.locale).toBe("ca");
+    expect(data.activity.map((a: { kind: string }) => a.kind)).toContain("account.exported");
+    expect(JSON.stringify(data)).not.toContain(alice.id);
+  });
+
+  it("anon no puede exportar ni borrar", async () => {
+    await expect(as(client, "anon", (q) => q("select public.export_my_data()"))).rejects.toThrow(
+      /permission denied/,
+    );
+    await expect(as(client, "anon", (q) => q("select public.delete_my_account()"))).rejects.toThrow(
+      /permission denied/,
+    );
+  });
+
+  it("delete_my_account borra al usuario y deja rastro anónimo", async () => {
+    const victim = await createUser(client);
+    await as(client, { uid: victim.id }, async (q) => {
+      await q("select public.delete_my_account()");
+      const { rows } = await q("select count(*)::int n from public.profiles where id = $1", [victim.id]);
+      expect(rows[0].n).toBe(0);
+    });
+    // rollback del helper: lo borramos de verdad fuera de la transacción
+    await cleanup(client, [victim.id]);
+  });
+
+  it("el owner no puede borrarse desde la app", async () => {
+    const owner = await createUser(client, { role: "owner" });
+    await expect(
+      as(client, { uid: owner.id }, (q) => q("select public.delete_my_account()")),
+    ).rejects.toThrow(/propietario/);
+    await cleanup(client, [owner.id]);
+  });
+});

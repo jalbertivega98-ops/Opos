@@ -16,7 +16,8 @@
     "signOut": "Cerrar sesión",
     "menu": "Menú",
     "theme": "Cambiar tema",
-    "language": "Idioma"
+    "language": "Idioma",
+    "profile": "Mi perfil"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -260,7 +261,8 @@
       "exam_unfollowed": "Oposición retirada",
       "profile_updated": "Perfil actualizado",
       "practice_started": "Práctica iniciada",
-      "practice_completed": "Práctica completada"
+      "practice_completed": "Práctica completada",
+      "account_exported": "Datos exportados"
     }
   },
   "onboarding": {
@@ -310,5 +312,30 @@
     },
     "pendingMetrics": "Premium, ingresos, conversiones y retención se activarán con Stripe (Hito 5).",
     "never": "Nunca"
+  },
+  "profile": {
+    "title": "Mi perfil",
+    "memberSince": "Alumno desde el {date}",
+    "personal": "Datos personales",
+    "locale": "Idioma preferido",
+    "marketingConsent": "Quiero recibir por email novedades y consejos de Aprobia (puedes retirarlo cuando quieras).",
+    "save": "Guardar cambios",
+    "saved": "Cambios guardados.",
+    "exportTitle": "Descargar mis datos",
+    "exportBody": "Descarga una copia de tus datos personales y de tu actividad en formato JSON.",
+    "exportCta": "Descargar mis datos",
+    "deleteTitle": "Eliminar mi cuenta",
+    "deleteBody": "Se borrarán de forma permanente tu cuenta, tu progreso y tus preferencias. Esta acción no se puede deshacer.",
+    "deleteConfirmLabel": "Escribe ELIMINAR para confirmar",
+    "deleteSubmit": "Eliminar mi cuenta definitivamente",
+    "ownerCannotDelete": "La cuenta propietaria no puede eliminarse desde la aplicación.",
+    "errors": {
+      "wrongPassword": "Contraseña incorrecta.",
+      "required": "Campo obligatorio.",
+      "confirmWord": "Escribe ELIMINAR en mayúsculas."
+    }
+  },
+  "landingNotice": {
+    "deleted": "Tu cuenta se ha eliminado. Gracias por haber confiado en nosotros."
   }
 }

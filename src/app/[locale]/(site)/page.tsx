@@ -26,14 +26,24 @@ const FEATURES = [
 
 const FAQ = ["1", "2", "3", "4", "5"] as const;
 
-export default async function Landing({ params }: PageProps<"/[locale]">) {
+export default async function Landing({ params, searchParams }: PageProps<"/[locale]">) {
   const { locale } = await params;
+  const { cuenta } = await searchParams;
   setRequestLocale(locale);
   const t = await getTranslations("landing");
   const exams = await listExamBodies({}, 6);
 
+  const tNotice = await getTranslations("landingNotice");
   return (
     <>
+      {cuenta === "eliminada" && (
+        <div
+          role="status"
+          className="bg-accent-soft border-border border-b px-4 py-3 text-center text-sm"
+        >
+          {tNotice("deleted")}
+        </div>
+      )}
       {/* Hero */}
       <section className="border-border from-surface to-background relative overflow-hidden border-b bg-gradient-to-b">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:py-24 lg:grid-cols-[1.2fr_1fr] lg:items-center">

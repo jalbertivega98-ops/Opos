@@ -16,7 +16,8 @@
     "signOut": "Tanca la sessió",
     "menu": "Menú",
     "theme": "Canvia el tema",
-    "language": "Idioma"
+    "language": "Idioma",
+    "profile": "El meu perfil"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -260,7 +261,8 @@
       "exam_unfollowed": "Oposició retirada",
       "profile_updated": "Perfil actualitzat",
       "practice_started": "Pràctica iniciada",
-      "practice_completed": "Pràctica completada"
+      "practice_completed": "Pràctica completada",
+      "account_exported": "Dades exportades"
     }
   },
   "onboarding": {
@@ -310,5 +312,30 @@
     },
     "pendingMetrics": "Premium, ingressos, conversions i retenció s'activaran amb Stripe (Fita 5).",
     "never": "Mai"
+  },
+  "profile": {
+    "title": "El meu perfil",
+    "memberSince": "Alumne des del {date}",
+    "personal": "Dades personals",
+    "locale": "Idioma preferit",
+    "marketingConsent": "Vull rebre per correu novetats i consells d'Aprobia (ho pots retirar quan vulguis).",
+    "save": "Desa els canvis",
+    "saved": "Canvis desats.",
+    "exportTitle": "Descarrega les meves dades",
+    "exportBody": "Descarrega una còpia de les teves dades personals i de la teva activitat en format JSON.",
+    "exportCta": "Descarrega les meves dades",
+    "deleteTitle": "Elimina el meu compte",
+    "deleteBody": "S'esborraran de manera permanent el teu compte, el teu progrés i les teves preferències. Aquesta acció no es pot desfer.",
+    "deleteConfirmLabel": "Escriu ELIMINAR per confirmar",
+    "deleteSubmit": "Elimina el meu compte definitivament",
+    "ownerCannotDelete": "El compte propietari no es pot eliminar des de l'aplicació.",
+    "errors": {
+      "wrongPassword": "Contrasenya incorrecta.",
+      "required": "Camp obligatori.",
+      "confirmWord": "Escriu ELIMINAR en majúscules."
+    }
+  },
+  "landingNotice": {
+    "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."
   }
 }
