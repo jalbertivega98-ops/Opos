@@ -91,3 +91,15 @@ test.describe("Demo de psicotécnicos", () => {
     await expect(page.getByRole("link", { name: "Crear cuenta gratis" }).last()).toBeVisible();
   });
 });
+
+test.describe("Tipos de psicotécnicos", () => {
+  for (const tipo of ["letters", "numeric", "analogies", "matrices", "spatial", "attention"]) {
+    test(`demo de ${tipo}: corrige y explica`, async ({ page }) => {
+      await page.goto(`/psicotecnicos?tipo=${tipo}`);
+      await expect(page.getByTestId("psycho-stem")).toBeVisible();
+      await page.getByTestId("psycho-option").first().click();
+      await expect(page.getByText(/¡Correcto!|Incorrecto\. La respuesta era/)).toBeVisible();
+      expect(await page.content()).not.toContain("answerIndex");
+    });
+  }
+});

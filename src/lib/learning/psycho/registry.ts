@@ -1,4 +1,10 @@
+import { analogies } from "./analogies";
+import { attention } from "./attention";
+import { letters } from "./letters";
+import { matrices } from "./matrices";
+import { numeric } from "./numeric";
 import { generateSeries, verifySeries, type SeriesItem, type SeriesRule } from "./series";
+import { spatial } from "./spatial";
 import {
   verifyCommon,
   type Difficulty,
@@ -67,7 +73,16 @@ const series: PsychoGenerator = {
   },
 };
 
-const GENERATORS: Partial<Record<PsychoType, PsychoGenerator>> = { series };
+/** Orden = orden de presentación en la interfaz. */
+const GENERATORS: Partial<Record<PsychoType, PsychoGenerator>> = {
+  series,
+  letters,
+  numeric,
+  analogies,
+  matrices,
+  spatial,
+  attention,
+};
 
 export function getGenerator(type: PsychoType): PsychoGenerator | undefined {
   return GENERATORS[type];

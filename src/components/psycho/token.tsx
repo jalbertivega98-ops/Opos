@@ -29,9 +29,10 @@ export function useTokenText() {
     }
     if (value.startsWith("g:")) {
       const [, shape, count, fill, rot] = value.split(":");
+      const n = Number(count);
       return t("glyph", {
-        count: Number(count),
-        shape: t(`shapes.${shape}`),
+        count: n,
+        shape: n === 1 ? t(`shapes.${shape}`) : t(`shapesPlural.${shape}`),
         fill: t(`fills.${fill}`),
         rot: Number(rot),
       });
