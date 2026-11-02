@@ -59,11 +59,14 @@ export interface PsychoGenerator {
   verify(item: PsychoItem): Verification;
 }
 
-export const toPublicItem = ({
-  answerIndex: _a,
-  explanation: _e,
-  ...rest
-}: PsychoItem): PublicPsychoItem => rest;
+export const toPublicItem = (item: PsychoItem): PublicPsychoItem => ({
+  type: item.type,
+  seed: item.seed,
+  difficulty: item.difficulty,
+  version: item.version,
+  presentation: item.presentation,
+  options: item.options,
+});
 
 /** Comprobaciones comunes a todos los generadores. */
 export function verifyCommon(item: PsychoItem): Verification {

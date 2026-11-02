@@ -1,0 +1,171 @@
+"use server";
+
+import { revalidatePath } from "next/cache";
+import { getLocale } from "next-intl/server";
+import { z } from "zod";
+import { redirect } from "@/i18n/navigation";
+import { getSession, isAdminRole } from "@/lib/auth/session";
+import { createClient } from "@/lib/supabase/server";
+import { contentHash } from "./hash";
+import { parseImport } from "./import";
+import { CONTENT_STATUSES, questionSchema } from "./schema";
+
+export type FormState = {
+  status: "idle" | "error" | "success";
+  message?: string;
+  fields?: Record<string, string>;
+  detail?: string;
+};
+
+async function requireAdminAction() {
+  const { user, profile } = await getSession();
+  if (!user || !profile || profile.status !== "active" || !isAdminRole(profile.role)) return null;
+  return { user, profile };
+}
+
+function fieldErrors(issues: z.core.$ZodIssue[]) {
+  const out: Record<string, string> = {};
+  for (const i of issues) {
+    const k = String(i.path[0] ?? "form");
+    if (!out[k]) out[k] = i.message;
+  }
+  return out;
+}
+
+/** Crear o editar una pregunta (siempre como borrador o en revisión). */
+export async function saveQuestionAction(_: FormState, formData: FormData): Promise<FormState> {
+  if (!(await requireAdminAction())) return { status: "error", message: "forbidden" };
+  const id = formData.get("id")?.toString() || null;
+  if (id && !z.uuid().safeParse(id).success) return { status: "error", message: "invalid" };
+  const parsed = questionSchema.safeParse({
+    stem: formData.get("stem"),
+    explanation: formData.get("explanation") ?? "",
+    category: formData.get("category"),
+    difficulty: formData.get("difficulty"),
+    locale: formData.get("locale"),
+    is_free: formData.get("is_free"),
+    ai_generated: formData.get("ai_generated"),
+    options: formData
+      .getAll("option")
+      .map(String)
+      .filter((o) => o.trim() !== ""),
+    correct: formData.get("correct"),
+    exam_body_ids: formData.getAll("exam").map(String),
+  });
+  if (!parsed.success)
+    return { status: "error", message: "invalid", fields: fieldErrors(parsed.error.issues) };
+
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("upsert_question", {
+    p_id: id,
+    p: { ...parsed.data, content_hash: contentHash(parsed.data) },
+  });
+  if (error) {
+    if (error.code === "23505") return { status: "error", message: "duplicate" };
+    return { status: "error", message: "db", detail: error.message };
+  }
+  const locale = await getLocale();
+  revalidatePath("/[locale]/admin/preguntas", "layout");
+  redirect({ href: `/admin/preguntas/${data}?saved=1`, locale });
+  return { status: "success" };
+}
+
+const transitionSchema = z.object({
+  id: z.uuid(),
+  to: z.enum(CONTENT_STATUSES),
+  comment: z.string().trim().max(2000).optional(),
+  back: z.enum(["detail", "queue"]).default("detail"),
+});
+
+/** Cambio de estado del flujo de revisión (la BD exige rol owner donde toca). */
+export async function transitionAction(_: FormState, formData: FormData): Promise<FormState> {
+  if (!(await requireAdminAction())) return { status: "error", message: "forbidden" };
+  const parsed = transitionSchema.safeParse(Object.fromEntries(formData));
+  if (!parsed.success) return { status: "error", message: "invalid" };
+  const { id, to, comment } = parsed.data;
+  if (to === "draft" && !comment) return { status: "error", message: "commentRequired" };
+  const supabase = await createClient();
+  const { error } = await supabase.rpc("review_question", {
+    p_id: id,
+    p_to: to,
+    p_comment: comment ?? null,
+  });
+  if (error) {
+    if (error.code === "42501") return { status: "error", message: "notOwner" };
+    return { status: "error", message: "db", detail: error.message };
+  }
+  revalidatePath("/[locale]/admin", "layout");
+  return { status: "success", message: `moved_${to}` };
+}
+
+export async function deleteDraftAction(formData: FormData) {
+  const locale = await getLocale();
+  if (!(await requireAdminAction())) return;
+  const id = z.uuid().safeParse(formData.get("id"));
+  if (!id.success) return;
+  const supabase = await createClient();
+  await supabase.from("questions").delete().eq("id", id.data).eq("status", "draft");
+  revalidatePath("/[locale]/admin/preguntas", "layout");
+  redirect({ href: "/admin/preguntas?deleted=1", locale });
+}
+
+export type ImportState = FormState & {
+  report?: {
+    total: number;
+    valid: number;
+    imported: number;
+    duplicates: number[];
+    invalid: { line: number; errors: string[] }[];
+  };
+};
+
+/** Importación CSV/JSON. Todo entra como borrador y queda auditado. */
+export async function importQuestionsAction(
+  _: ImportState,
+  formData: FormData,
+): Promise<ImportState> {
+  if (!(await requireAdminAction())) return { status: "error", message: "forbidden" };
+  const file = formData.get("file");
+  if (!(file instanceof File) || file.size === 0) return { status: "error", message: "noFile" };
+  if (file.size > 1_000_000) return { status: "error", message: "too_big" };
+  const name = file.name.toLowerCase();
+  const format = name.endsWith(".json") ? "json" : name.endsWith(".csv") ? "csv" : null;
+  if (!format) return { status: "error", message: "badFormat" };
+  const dryRun = formData.get("dry_run") === "on";
+
+  const supabase = await createClient();
+  const { data: exams } = await supabase.from("exam_bodies").select("id, slug");
+  const examIds = new Map((exams ?? []).map((e) => [e.slug as string, e.id as string]));
+  const { rows, fatal } = parseImport(await file.text(), format, examIds);
+  if (fatal) return { status: "error", message: fatal };
+
+  const invalid = rows.filter((r) => !r.data).map((r) => ({ line: r.line, errors: r.errors }));
+  const valid = rows.filter((r) => r.data);
+  const duplicates: number[] = [];
+  let imported = 0;
+  if (!dryRun) {
+    for (const r of valid) {
+      const { error } = await supabase.rpc("upsert_question", {
+        p_id: null,
+        p: { ...r.data!, content_hash: contentHash(r.data!) },
+      });
+      if (!error) imported++;
+      else if (error.code === "23505") duplicates.push(r.line);
+      else invalid.push({ line: r.line, errors: ["db"] });
+    }
+    if (imported > 0) {
+      await supabase.rpc("log_admin_action", {
+        p_action: "questions.imported",
+        p_target_type: "questions",
+        p_target_id: null,
+        p_metadata: { imported, format, file: file.name.slice(0, 120) },
+      });
+      revalidatePath("/[locale]/admin/preguntas", "layout");
+    }
+  }
+  return {
+    status: "success",
+    message: dryRun ? "dryRunDone" : "importDone",
+    report: { total: rows.length, valid: valid.length, imported, duplicates, invalid },
+  };
+}

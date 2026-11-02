@@ -14,19 +14,28 @@ export default async function AdminLayout({
   const { locale } = await params;
   await requireAdmin(locale);
   const t = await getTranslations("adminUsers");
+  const tc = await getTranslations("adminContent");
+  const links = [
+    { href: "/admin", label: t("overviewLink") },
+    { href: "/admin/alumnos", label: t("title") },
+    { href: "/admin/preguntas", label: tc("nav") },
+    { href: "/admin/revision", label: tc("navReview") },
+    { href: "/admin/productos", label: tc("navProducts") },
+    { href: "/admin/compras", label: tc("navPurchases") },
+  ];
   return (
     <div>
       <nav aria-label="Administración" className="border-border bg-surface border-b">
         <div className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-4 text-sm">
-          <Link href="/admin" className="hover:bg-surface-2 rounded-md px-3 py-3 font-medium">
-            {t("overviewLink")}
-          </Link>
-          <Link
-            href="/admin/alumnos"
-            className="hover:bg-surface-2 rounded-md px-3 py-3 font-medium"
-          >
-            {t("title")}
-          </Link>
+          {links.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="hover:bg-surface-2 rounded-md px-3 py-3 font-medium whitespace-nowrap"
+            >
+              {l.label}
+            </Link>
+          ))}
         </div>
       </nav>
       {children}

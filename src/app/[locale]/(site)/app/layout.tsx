@@ -18,6 +18,7 @@ export default async function AppLayout({
     { href: "/app", label: t("dashboard") },
     { href: "/app/practica", label: t("practice") },
     { href: "/app/progreso", label: t("progress") },
+    { href: "/app/productos", label: t("library") },
     { href: "/app/perfil", label: t("profile") },
   ];
   return (

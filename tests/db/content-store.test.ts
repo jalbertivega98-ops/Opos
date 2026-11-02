@@ -258,3 +258,105 @@ describe("tienda: catálogo y accesos", () => {
     await client.query("delete from public.orders where id = $1", [o.rows[0].id]);
   });
 });
+
+describe("editor de preguntas", () => {
+  const payload = (extra: Record<string, unknown> = {}) =>
+    JSON.stringify({
+      stem: "¿Capital de Francia?",
+      explanation: "París es la capital de Francia.",
+      category: "cultura",
+      difficulty: 2,
+      locale: "es",
+      content_hash: `h-${Math.random()}`,
+      options: ["Roma", "París", "Lisboa"],
+      correct: 1,
+      exam_body_ids: [],
+      ...extra,
+    });
+
+  it("crea y actualiza la pregunta con sus opciones de forma atómica", async () => {
+    await as(client, { uid: editor.id }, async (q) => {
+      const id = (await q("select public.upsert_question(null, $1::jsonb) as id", [payload()]))
+        .rows[0].id;
+      let opts = (
+        await q(
+          "select label, body, is_correct from public.question_options where question_id = $1 order by label",
+          [id],
+        )
+      ).rows;
+      expect(opts).toEqual([
+        { label: "A", body: "Roma", is_correct: false },
+        { label: "B", body: "París", is_correct: true },
+        { label: "C", body: "Lisboa", is_correct: false },
+      ]);
+      await q("select public.upsert_question($1, $2::jsonb)", [
+        id,
+        payload({ options: ["París", "Berlín"], correct: 0 }),
+      ]);
+      opts = (
+        await q(
+          "select label, is_correct from public.question_options where question_id = $1 order by label",
+          [id],
+        )
+      ).rows;
+      expect(opts).toEqual([
+        { label: "A", is_correct: true },
+        { label: "B", is_correct: false },
+      ]);
+      await fails(
+        q,
+        "select public.upsert_question(null, $1::jsonb)",
+        [payload({ correct: 5 })],
+        /correcta/,
+      );
+      await fails(
+        q,
+        "select public.upsert_question(null, $1::jsonb)",
+        [payload({ options: ["x"] })],
+        /opciones/,
+      );
+    });
+  });
+
+  it("un alumno no puede usar el editor y una aprobada no se edita", async () => {
+    await expect(
+      as(client, { uid: alice.id }, (q) =>
+        q("select public.upsert_question(null, $1::jsonb)", [payload()]),
+      ),
+    ).rejects.toThrow(/equipo de contenido/);
+    await as(client, { uid: editor.id }, async (q) => {
+      const id = (await q("select public.upsert_question(null, $1::jsonb) as id", [payload()]))
+        .rows[0].id;
+      await q("select public.review_question($1, 'needs_review')", [id]);
+      await claims(q, owner.id);
+      await q("select public.review_question($1, 'approved')", [id]);
+      await fails(q, "select public.upsert_question($1, $2::jsonb)", [id, payload()], /revisión/);
+    });
+  });
+
+  it("los productos solo incluyen preguntas aprobadas o publicadas", async () => {
+    await as(client, { uid: owner.id }, async (q) => {
+      const pid = (
+        await q(
+          "insert into public.products (slug, type, title) values ('test-pack-2', 'question_pack', 'Pack 2') returning id",
+        )
+      ).rows[0].id;
+      const draftQ = (await q("select public.upsert_question(null, $1::jsonb) as id", [payload()]))
+        .rows[0].id;
+      await fails(
+        q,
+        "insert into public.product_items (product_id, question_id) values ($1, $2)",
+        [pid, draftQ],
+        /aprobadas/,
+      );
+      const okQ = (await q("select public.upsert_question(null, $1::jsonb) as id", [payload()]))
+        .rows[0].id;
+      await q("select public.review_question($1, 'needs_review')", [okQ]);
+      await q("select public.review_question($1, 'approved')", [okQ]);
+      await q("insert into public.product_items (product_id, question_id) values ($1, $2)", [
+        pid,
+        okQ,
+      ]);
+    });
+  });
+});
