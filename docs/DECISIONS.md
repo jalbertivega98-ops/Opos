@@ -48,3 +48,13 @@ El seed solo incluye nombres de organismos y cuerpos públicos; todas las oposic
 ## ADR-011 · Integraciones MCP (2026-11-02)
 
 Evaluadas: GitHub (ya disponible en el entorno, sin repositorio asignado a este proyecto), Supabase MCP (requiere cuenta → autorización), Stripe MCP (requiere cuenta → autorización), Playwright (se usa la librería directamente; MCP innecesario). No se añade `.mcp.json` hasta que joel autorice conectar cuentas.
+
+## ADR-012 · Psicotécnicos generados con semilla y corrección por regeneración (2026-11-02)
+
+**Decisión:** los generadores son funciones puras `generate(seed, difficulty)`. El cliente recibe solo la vista pública (términos y opciones); el servidor corrige regenerando el ítem desde la semilla.
+**Motivo:** respuesta nunca expuesta antes de contestar, sin almacenar ítems, reproducible para auditoría y tests de propiedades (5.000 semillas verificadas sin ambigüedad).
+**Consecuencias:** cuando exista historial (LRN-001) se guardará `(tipo, seed, difficulty, elección, acierto, tiempo)`.
+
+## ADR-013 · Funciones de administración sobre auth.users (2026-11-02)
+
+El email del alumno vive en `auth.users`, no expuesto por la API. El panel lo consulta mediante funciones SECURITY DEFINER (`admin_list_users`, `admin_get_user`, `admin_set_user_status`) que exigen `is_admin()` y registran en `audit_log`. Sin service role en la app.

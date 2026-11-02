@@ -85,6 +85,9 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               <Button asChild variant="outline" size="lg">
                 <Link href="/oposiciones">{t("ctaSecondary")}</Link>
               </Button>
+              <Button asChild variant="ghost" size="lg">
+                <Link href="/psicotecnicos">{t("demoCta")}</Link>
+              </Button>
             </div>
             <p className="text-muted-foreground text-sm">{t("trust")}</p>
           </div>

@@ -41,12 +41,24 @@ Reglas en BD:
 - Editar enunciado/explicación incrementa `version`; no se edita contenido aprobado/publicado sin devolverlo a revisión.
 - Alumnos y anon no leen preguntas ni opciones. Acceso de demo: `get_demo_questions()` (sin `is_correct`) y `check_demo_answer()`.
 
+## 0400 · Derechos RGPD
+
+- `profiles`: el rol `authenticated` solo puede actualizar `display_name, locale, marketing_consent, onboarding_completed_at, role, status` (los dos últimos siguen protegidos por trigger).
+- `export_my_data()` → JSON con cuenta, perfil, oposiciones y actividad del propio usuario.
+- `delete_my_account()` → borra `auth.users` (cascada) y deja `account.deleted_by_user` anónimo en auditoría. El owner no puede borrarse desde la app.
+
+## 0500 · Gestión de alumnos
+
+- `admin_list_users(q, status, role, exam, onboarded, limit, offset)` con total (`count(*) over()`), búsqueda con comodines escapados.
+- `admin_get_user(id)` ficha + objetivos + 20 últimos eventos; audita `user.viewed`.
+- `admin_set_user_status(id, status)` audita `user.status_changed`; solo el owner suspende a admins; nadie a sí mismo.
+
 ## Planificado
 
-- 0400 práctica: `practice_sessions`, `practice_answers`, `review_items` (SM-2), vistas de estadísticas.
-- 0500 negocio: `plans`, `prices` (configurables), `subscriptions` (sincronizadas por webhook), `entitlements` (función `has_premium()`), `coupons`.
-- 0600 contenido: `lessons`, `flashcards`, `favorites`.
-- 0700 IA: `ai_usage` (límites por plan), `ai_conversations`.
+- 0600 práctica: `practice_sessions`, `practice_answers`, `review_items` (SM-2), vistas de estadísticas.
+- 0700 negocio: `plans`, `prices` (configurables), `subscriptions` (sincronizadas por webhook), `entitlements` (función `has_premium()`), `coupons`.
+- 0800 contenido: `lessons`, `flashcards`, `favorites`.
+- 0900 IA: `ai_usage` (límites por plan), `ai_conversations`.
 
 ## Operación
 

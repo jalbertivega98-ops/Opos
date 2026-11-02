@@ -6,7 +6,7 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 
 ## Camino crítico
 
-`USR-007/008/009 (RGPD)` → `ADM-001..004` → `CNT-001..004` → `LRN-001..004` → `PSY-001..003` → `MOC-001..002` → `BIZ-001..005` → `QA/SEC` → `LAU`
+~~USR-007/008/009~~ → ~~ADM-001..003~~ → `ADM-004` → `CNT-001..004` → `LRN-001..004` → `PSY-001..003` → `MOC-001..002` → `BIZ-001..005` → `QA/SEC` → `LAU`
 
 ## Bloqueos y decisiones pendientes (requieren a joel)
 
@@ -88,8 +88,8 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 | LRN-003 | Test por tema con explicación tras responder           | P0  | LRN-001                    | BACKLOG | Flujo completo; registro de actividad                 | app/app/practica             | E2E     |
 | LRN-004 | Repaso inteligente (SM-2) de errores                   | P1  | LRN-003                    | BACKLOG | Programación determinista testeada                    | lib/learning/srs.ts          | U       |
 | LRN-005 | Estadísticas del alumno (aciertos, racha, tiempo)      | P1  | LRN-003                    | BACKLOG | Datos reales en dashboard                             | lib/learning/stats.ts        | U, E2E  |
-| PSY-001 | Framework de generadores con semilla + verificador     | P0  | —                          | READY   | Propiedad: 1.000 semillas verifican                   | lib/learning/psycho          | U       |
-| PSY-002 | Series numéricas y de letras                           | P0  | PSY-001                    | BACKLOG | Única respuesta                                       | psycho/series.ts             | U       |
+| PSY-001 | Framework de generadores con semilla + verificador     | P0  | —                          | DONE    | Propiedad: 1.000 semillas verifican                   | lib/learning/psycho          | U       |
+| PSY-002 | Series numéricas y de letras                           | P0  | PSY-001                    | DONE    | Única respuesta                                       | psycho/series.ts             | U       |
 | PSY-003 | Matrices/figuras (SVG), cubos y espaciales             | P1  | PSY-001                    | BACKLOG | Accesible + verificable                               | psycho/*                     | U       |
 | PSY-004 | Verbales, atención y lógica                            | P1  | PSY-001                    | BACKLOG | —                                                     | psycho/*                     | U       |
 | PSY-005 | UI de psicotécnicos con temporizador                   | P0  | PSY-002                    | BACKLOG | Móvil; pausa; accesible                               | app/app/psicotecnicos        | E2E     |

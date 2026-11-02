@@ -15,14 +15,14 @@ Estado: vivo. Los IDs enlazan con TASKS.md. Leyenda: ✅ hecho · 🟡 parcial �
 - ✅ Perfil mínimo (nombre opcional, idioma, rol, estado, fecha de alta, última actividad, consentimiento marketing).
 - ✅ Onboarding: oposición, nivel, horas/semana, objetivos, aviso con consentimiento si es "próximamente".
 - 🟡 Varias oposiciones por alumno (BD lista; UI de gestión USR-005). ⬜ Selección de convocatoria (USR-006).
-- ⬜ Perfil editable, exportación de datos y eliminación de cuenta (USR-007..009).
+- ✅ Perfil editable, exportación de datos (JSON) y eliminación de cuenta con reautenticación.
 - ✅ Historial de actividad (eventos) en el dashboard.
 
 ## 3. Panel de administración
 
 - ✅ Acceso restringido por rol (admin/owner) en servidor + RLS.
 - ✅ KPIs reales: registrados, nuevos 7 días, activos 7 días, onboarding completado, oposiciones más seleccionadas, últimos registros.
-- ⬜ Búsqueda/filtros/ficha de alumno, exportación CSV auditada, acciones de suspensión (ADM-001..004).
+- ✅ Búsqueda/filtros/paginación, ficha de alumno, suspensión/reactivación y exportación CSV, todo auditado. ⬜ Cambio de rol desde la UI (ADM-004).
 - ⬜ Métricas de negocio (Premium, ingresos, conversiones, cancelaciones, retención) tras Stripe (BIZ-*).
 - ⬜ Gestión educativa, marketing (cupones, promociones), sistema (logs, uso IA, roles, auditoría).
 
@@ -31,7 +31,7 @@ Estado: vivo. Los IDs enlazan con TASKS.md. Leyenda: ✅ hecho · 🟡 parcial �
 - ✅ Landing: presentación, buscador, funcionalidades, catálogo, precios, FAQ, registro. ⬜ Demo gratuita (LRN-002), recursos gratuitos.
 - 🟡 Dashboard: plan diario (pendiente de contenido), oposiciones, progreso (sin datos), actividad reciente.
 - ⬜ Temario (lecciones, esquemas, flashcards, test por tema, favoritos).
-- ⬜ Psicotécnicos (numéricos, verbales, abstractos, espaciales, matrices, cubos, atención, series, lógica) con temporizador.
+- 🟡 Psicotécnicos: series numéricas con demo pública ✅ (/psicotecnicos). ⬜ Resto de tipos (numéricos, verbales, abstractos, espaciales, matrices, cubos, atención, series, lógica) con temporizador.
 - ⬜ Simulacros con configuración de la convocatoria, corrección, penalización, historial, repetición de errores.
 - ⬜ Tutor IA con referencias a contenido revisado y límites de consumo.
 - ⬜ Gamificación: rachas, XP, niveles, logros, retos.
@@ -40,7 +40,7 @@ Estado: vivo. Los IDs enlazan con TASKS.md. Leyenda: ✅ hecho · 🟡 parcial �
 
 - ✅ Banco central de preguntas con estados DRAFT→NEEDS_REVIEW→APPROVED→PUBLISHED→ARCHIVED, versión, fuente, hash anti-duplicados, una sola correcta, publicación solo tras revisión humana.
 - ✅ Respuestas correctas inaccesibles para alumnos; corrección vía función de servidor.
-- ⬜ Importación CSV/JSON, generadores de psicotécnicos verificables, repetición espaciada.
+- ✅ Generador de series numéricas verificable (semilla + verificador anti-ambigüedad). ⬜ Importación CSV/JSON, repetición espaciada.
 
 ## 6. Monetización
 

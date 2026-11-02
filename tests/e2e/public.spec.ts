@@ -67,3 +67,24 @@ test.describe("Móvil @mobile", () => {
     await expect(page).toHaveURL(/\/oposiciones$/);
   });
 });
+
+test.describe("Demo de psicotécnicos", () => {
+  test("completa 10 series con corrección en servidor", async ({ page }) => {
+    await page.goto("/psicotecnicos");
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("series numéricas");
+    // La respuesta no está en el HTML enviado al cliente
+    const html = await page.content();
+    expect(html).not.toContain("answerIndex");
+    for (let i = 1; i <= 10; i++) {
+      await expect(page.getByRole("heading", { name: `Serie ${i} de 10` })).toBeVisible();
+      await page
+        .getByRole("group", { name: "¿Qué número continúa la serie?" })
+        .getByRole("button")
+        .first()
+        .click();
+      await expect(page.getByText(/¡Correcto!|Incorrecto\. La respuesta era/)).toBeVisible();
+      await page.getByRole("button", { name: i === 10 ? "Ver resultado" : "Siguiente" }).click();
+    }
+    await expect(page.getByTestId("series-result")).toContainText(/Has acertado \d+ de 10/);
+  });
+});

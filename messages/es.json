@@ -17,7 +17,8 @@
     "menu": "Menú",
     "theme": "Cambiar tema",
     "language": "Idioma",
-    "profile": "Mi perfil"
+    "profile": "Mi perfil",
+    "psycho": "Psicotécnicos"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -108,7 +109,8 @@
       "a5": "Sí, cuando quieras desde tu perfil, y también descargar tus datos."
     },
     "finalTitle": "Empieza hoy tu preparación",
-    "finalBody": "Crea tu cuenta gratis, elige tu oposición y recibe tu plan inicial en dos minutos."
+    "finalBody": "Crea tu cuenta gratis, elige tu oposición y recibe tu plan inicial en dos minutos.",
+    "demoCta": "Prueba un psicotécnico gratis"
   },
   "availability": {
     "available": "Disponible",
@@ -386,5 +388,31 @@
     "overviewLink": "Resumen",
     "yesShort": "Sí",
     "noShort": "No"
+  },
+  "psycho": {
+    "title": "Psicotécnicos: series numéricas",
+    "subtitle": "Demostración gratuita. 10 series de dificultad creciente generadas y verificadas automáticamente: cada una tiene una única respuesta correcta.",
+    "question": "Serie {n} de {total}",
+    "prompt": "¿Qué número continúa la serie?",
+    "difficulty": "Dificultad {level}/5",
+    "time": "Tiempo: {seconds} s",
+    "correct": "¡Correcto!",
+    "wrong": "Incorrecto. La respuesta era {answer}.",
+    "next": "Siguiente",
+    "finish": "Ver resultado",
+    "resultTitle": "Resultado",
+    "result": "Has acertado {correct} de {total} en {seconds} segundos.",
+    "again": "Nueva serie de ejercicios",
+    "ctaTitle": "¿Quieres entrenar de verdad?",
+    "ctaBody": "Crea tu cuenta gratis para seguir tu progreso cuando activemos el historial de práctica.",
+    "ctaButton": "Crear cuenta gratis",
+    "rules": {
+      "arithmetic": "Se suma {step} a cada término.",
+      "geometric": "Cada término se multiplica por {ratio}.",
+      "alternating": "Se alterna sumar {stepA} y sumar {stepB}.",
+      "second_order": "Las diferencias entre términos aumentan {delta} cada vez (empiezan en {step}).",
+      "fibonacci": "Cada término es la suma de los dos anteriores.",
+      "interleaved": "Son dos series intercaladas: una empieza en {startA} y suma {stepA}; la otra empieza en {startB} y suma {stepB}."
+    }
   }
 }

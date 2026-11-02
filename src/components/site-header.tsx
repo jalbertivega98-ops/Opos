@@ -22,6 +22,9 @@ export async function SiteHeader() {
           <Link href="/oposiciones" className="hover:bg-surface rounded-md px-3 py-2">
             {t("catalog")}
           </Link>
+          <Link href="/psicotecnicos" className="hover:bg-surface rounded-md px-3 py-2">
+            {t("psycho")}
+          </Link>
           <Link href="/#funcionalidades" className="hover:bg-surface rounded-md px-3 py-2">
             {t("features")}
           </Link>
@@ -73,6 +76,9 @@ export async function SiteHeader() {
             >
               <Link href="/oposiciones" className="hover:bg-surface block rounded-md px-3 py-2">
                 {t("catalog")}
+              </Link>
+              <Link href="/psicotecnicos" className="hover:bg-surface block rounded-md px-3 py-2">
+                {t("psycho")}
               </Link>
               <Link
                 href="/#funcionalidades"

@@ -17,7 +17,8 @@
     "menu": "Menú",
     "theme": "Canvia el tema",
     "language": "Idioma",
-    "profile": "El meu perfil"
+    "profile": "El meu perfil",
+    "psycho": "Psicotècnics"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -108,7 +109,8 @@
       "a5": "Sí, quan vulguis des del teu perfil, i també descarregar les teves dades."
     },
     "finalTitle": "Comença avui la teva preparació",
-    "finalBody": "Crea el teu compte gratis, tria la teva oposició i rep el teu pla inicial en dos minuts."
+    "finalBody": "Crea el teu compte gratis, tria la teva oposició i rep el teu pla inicial en dos minuts.",
+    "demoCta": "Prova un psicotècnic gratis"
   },
   "availability": {
     "available": "Disponible",
@@ -386,5 +388,31 @@
     "overviewLink": "Resum",
     "yesShort": "Sí",
     "noShort": "No"
+  },
+  "psycho": {
+    "title": "Psicotècnics: sèries numèriques",
+    "subtitle": "Demostració gratuïta. 10 sèries de dificultat creixent generades i verificades automàticament: cadascuna té una única resposta correcta.",
+    "question": "Sèrie {n} de {total}",
+    "prompt": "Quin número continua la sèrie?",
+    "difficulty": "Dificultat {level}/5",
+    "time": "Temps: {seconds} s",
+    "correct": "Correcte!",
+    "wrong": "Incorrecte. La resposta era {answer}.",
+    "next": "Següent",
+    "finish": "Mostra el resultat",
+    "resultTitle": "Resultat",
+    "result": "Has encertat {correct} de {total} en {seconds} segons.",
+    "again": "Nova sèrie d'exercicis",
+    "ctaTitle": "Vols entrenar de debò?",
+    "ctaBody": "Crea el teu compte gratis per seguir el teu progrés quan activem l'historial de pràctica.",
+    "ctaButton": "Crea un compte gratis",
+    "rules": {
+      "arithmetic": "Se suma {step} a cada terme.",
+      "geometric": "Cada terme es multiplica per {ratio}.",
+      "alternating": "S'alterna sumar {stepA} i sumar {stepB}.",
+      "second_order": "Les diferències entre termes augmenten {delta} cada vegada (comencen en {step}).",
+      "fibonacci": "Cada terme és la suma dels dos anteriors.",
+      "interleaved": "Són dues sèries intercalades: una comença en {startA} i suma {stepA}; l'altra comença en {startB} i suma {stepB}."
+    }
   }
 }

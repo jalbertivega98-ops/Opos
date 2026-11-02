@@ -1,17 +1,18 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-02 · Sesión 1 (Hito 0 + Hito 1 + parte del Hito 2)
+**Última actualización:** 2026-11-02 · Sesión 1
 
 ## Estado exacto
 
-- Hito 0 (organización) y Hito 1 (fundación) **completados**. Hito 2 iniciado: onboarding, dashboard base y panel admin base hechos.
-- App ejecutable en local con auth real (emails en Mailpit), catálogo de 12 oposiciones (todas "Próximamente", sin datos inventados), onboarding, dashboard con actividad real y admin con KPIs reales.
-- Rama `main`, sin repositorio remoto (joel no tiene repo para este proyecto aún). Copia de seguridad en `/mnt/project-files/aprobia/` (bundle Git + código).
+- **Hito 0** (organización) y **Hito 1** (fundación): completados.
+- **Hito 2** (usuarios): registro, onboarding, perfil, RGPD (exportar/borrar), dashboard base y admin de alumnos (búsqueda, filtros, ficha, suspensión, CSV auditado) hechos. Falta: gestionar varias oposiciones (USR-005), cambio de rol en UI (ADM-004), plan inicial (USR-004).
+- **Hito 4** adelantado: generador de series numéricas verificable + demo pública `/psicotecnicos`.
+- **Oposición piloto: Mossos d'Esquadra** (decisión de joel).
+- Rama `main`, sin remoto. Copia en `/mnt/project-files/aprobia/` (`aprobia.bundle`, `aprobia-src.tar.gz`).
 
 ## Cómo reanudar
 
 ```bash
-# si el contenedor es nuevo: restaurar
 git clone /mnt/project-files/aprobia/aprobia.bundle academia && cd academia
 npm ci && npm run stack:setup
 npm run stack:start -- --seed
@@ -19,32 +20,34 @@ node scripts/stack/keys.mjs   # crear .env.local según .env.example (+ AUTH_RAT
 npm run dev
 ```
 
-En el contenedor cloud: E2E con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test`. Si la pila falla al reiniciar procesos, `pkill -x postgrest` / `pkill -x auth` y repetir `npm run stack:start`.
+Contenedor cloud: E2E con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwright test`. Si un servicio de la pila queda colgado: `pkill -x postgrest` / `pkill -x auth`, borrar su `.local-stack/*.pid` y `npm run stack:start`. No usar `pkill -f "next dev"` (mata la propia shell).
 
-## Últimos cambios
+## Últimos commits
 
-- Proyecto Next.js 16.4 + pila local sin Docker (ADR-003).
-- Migraciones 0100 identidad · 0200 catálogo · 0300 banco de preguntas (con RLS y reglas editoriales en BD).
-- Auth completa, i18n es/ca, sistema de diseño, landing, catálogo, onboarding, dashboard, admin.
-- `.claude/`: 8 agentes, 11 skills, 5 hooks, permisos. Documentación completa en `docs/`.
+- feat(admin): gestión de alumnos…
+- feat(usuarios): perfil, exportación y eliminación (RGPD)
+- docs: organización del proyecto (Hito 0)
+- feat: fundación del proyecto (Hito 1)
+- feat(psicotécnicos): series numéricas verificables + demo
 
 ## Pruebas (último run)
 
-- `npm run typecheck` ✅ · `npm run lint` ✅ · `npm run build` ✅
-- Unitarias: 29/29 ✅ · RLS (`npm run test:db`): 18/18 ✅ · E2E Playwright: 14/14 ✅ (escritorio + móvil)
+typecheck ✅ · lint ✅ · build ✅ · unitarias 40/40 ✅ · RLS 27/27 ✅ · E2E 19/19 ✅ (escritorio + móvil)
 
-## Bloqueos
+## Bloqueos (TASKS.md › Bloqueos)
 
-Ver TASKS.md › Bloqueos (DEC-001..005): oposición piloto, revisor de contenido, autorización de cuentas externas (Supabase cloud, Stripe test, despliegue, repo GitHub), datos legales del titular, nombre comercial.
+DEC-002 revisor de contenido · DEC-003 cuentas externas (Supabase cloud, Stripe test, despliegue, repo GitHub) · DEC-004 datos legales · DEC-005 nombre comercial.
 
 ## Siguiente tarea
 
-1. **USR-007 → USR-008 → USR-009** (perfil, exportar datos, eliminar cuenta: RGPD, camino crítico).
-2. **ADM-001** listado de alumnos con búsqueda/filtros.
-3. En paralelo (independiente): **PSY-001/002** generadores de psicotécnicos verificables y **QA-004** axe-core.
+1. **LRN-001** migración de práctica (sesiones/respuestas) y guardar resultados de psicotécnicos de alumnos registrados → estadísticas reales en dashboard (LRN-005).
+2. **PSY-003/004** más tipos de psicotécnicos (series de letras, matrices, espaciales) — relevantes para Mossos.
+3. **content-researcher**: fuentes oficiales de la convocatoria vigente de Mossos (DOGC) → ficha con pruebas verificadas (skill `anadir-oposicion`).
+4. **CNT-002/003** editor de preguntas y cola de revisión.
 
 ## Notas técnicas
 
-- Next 16: el middleware es `src/proxy.ts`; leer `node_modules/next/dist/docs` antes de usar APIs nuevas.
-- next-intl no admite puntos en claves de mensajes (usa objetos anidados).
+- Next 16: middleware = `src/proxy.ts`; leer `node_modules/next/dist/docs` antes de usar APIs nuevas.
+- next-intl no admite puntos en claves de mensajes.
 - GoTrue local necesita `GOTRUE_JWT_DEFAULT_GROUP_NAME=authenticated` y `MAILER_URLPATHS_*=/auth/v1/verify`; PostgREST con `db-config=false`.
+- Archivos "use server" solo exportan funciones async (esquemas en archivos aparte).

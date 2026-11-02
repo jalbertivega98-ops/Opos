@@ -71,7 +71,7 @@ next-intl 4 con `localePrefix: "as-needed"` (es sin prefijo, `/ca/...`). Rutas c
 - Corrección siempre en función SECURITY DEFINER; el cliente recibe la solución solo tras responder (o al finalizar en simulacro).
 - Simulacros: configuración de `exam_tests.scoring` (`correct`, `wrong`, `blank`, `pass_mark`, `max_score`).
 - Repaso: repetición espaciada tipo SM-2 por (alumno, pregunta) en `review_items`.
-- Psicotécnicos: generadores deterministas con semilla + verificador (skill `nuevo-psicotecnico`).
+- Psicotécnicos: generadores deterministas con semilla + verificador (skill `nuevo-psicotecnico`). Implementado: `src/lib/learning/psycho/series.ts`; corrección por regeneración en `actions.ts` (ADR-012).
 
 ## Entorno local
 
