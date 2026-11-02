@@ -50,3 +50,19 @@ export async function getUserMetrics(now = new Date()) {
     recentUsers: recent.data ?? [],
   };
 }
+
+export type PracticeMetrics = {
+  sessions_total: number;
+  sessions_finished_7d: number;
+  answers_7d: number;
+  practicing_users_7d: number;
+  by_type: { item_type: string; answered: number; correct: number; avg_time_ms: number }[];
+};
+
+/** Métricas agregadas de práctica (función SQL restringida a administradores). */
+export async function getPracticeMetrics(): Promise<PracticeMetrics> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_practice_metrics");
+  if (error) throw new Error(`admin practice metrics: ${error.message}`);
+  return data as PracticeMetrics;
+}

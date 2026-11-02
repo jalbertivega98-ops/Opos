@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
 import { Card, EmptyState } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
-import { getUserMetrics } from "@/lib/admin/metrics";
+import { getPracticeMetrics, getUserMetrics } from "@/lib/admin/metrics";
+import { pct } from "@/lib/learning/practice/format";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
 
@@ -11,7 +12,8 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
   setRequestLocale(locale);
   const t = await getTranslations("admin");
   const format = await getFormatter();
-  const m = await getUserMetrics();
+  const tp = await getTranslations("psycho");
+  const [m, pm] = await Promise.all([getUserMetrics(), getPracticeMetrics()]);
 
   const kpis = [
     { key: "totalUsers", value: m.totalUsers },
@@ -37,6 +39,45 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
           ))}
         </div>
         <Alert className="mt-4">{t("pendingMetrics")}</Alert>
+      </section>
+
+      <section aria-labelledby="practice-title" data-testid="admin-practice">
+        <h2 id="practice-title" className="text-lg font-semibold">
+          {t("practiceTitle")}
+        </h2>
+        <div className="mt-3 grid gap-4 sm:grid-cols-3">
+          {(
+            [
+              ["practiceSessions", pm.sessions_finished_7d],
+              ["practiceAnswers", pm.answers_7d],
+              ["practiceUsers", pm.practicing_users_7d],
+            ] as const
+          ).map(([key, value]) => (
+            <Card key={key}>
+              <p className="text-muted-foreground text-sm">{t(key)}</p>
+              <p className="font-display mt-1 text-3xl font-extrabold">{format.number(value)}</p>
+            </Card>
+          ))}
+        </div>
+        {pm.by_type.length > 0 && (
+          <Card className="mt-4">
+            <h3 className="font-semibold">{t("practiceByType")}</h3>
+            <ul className="mt-2 space-y-1 text-sm">
+              {pm.by_type.map((r) => (
+                <li key={r.item_type} className="flex justify-between gap-4">
+                  <span>
+                    {tp.has(`types.${r.item_type}.name`)
+                      ? tp(`types.${r.item_type}.name`)
+                      : r.item_type}
+                  </span>
+                  <span className="tabular-nums">
+                    {pct(r.correct, r.answered)} % · {format.number(r.answered)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Card>
+        )}
       </section>
 
       <div className="grid gap-4 lg:grid-cols-[1fr_2fr]">
