@@ -4,6 +4,7 @@ import { as, cleanup, connect, createUser } from "./helpers";
 
 let client: pg.Client;
 let alice: { id: string }, bob: { id: string }, admin: { id: string }, editor: { id: string };
+let owner: { id: string };
 
 beforeAll(async () => {
   client = await connect();
@@ -11,9 +12,10 @@ beforeAll(async () => {
   bob = await createUser(client, { locale: "ca" });
   admin = await createUser(client, { role: "admin" });
   editor = await createUser(client, { role: "editor" });
+  owner = await createUser(client, { role: "owner" });
 });
 afterAll(async () => {
-  await cleanup(client, [alice.id, bob.id, admin.id, editor.id]);
+  await cleanup(client, [alice.id, bob.id, admin.id, editor.id, owner.id]);
   await client.end();
 });
 
@@ -211,14 +213,26 @@ describe("banco de preguntas", () => {
   it("flujo completo draft → needs_review → approved → published y demo sin respuesta", async () => {
     await as(client, { uid: editor.id }, async (q) => {
       const id = await seedQuestion(q);
-      for (const s of ["needs_review", "approved", "published"]) {
+      await q("update public.questions set status = 'needs_review' where id = $1", [id]);
+      // aprobar y publicar: solo la persona titular (DEC-002)
+      await expect(
+        q("update public.questions set status = 'approved' where id = $1", [id]),
+      ).rejects.toThrow(/titular/);
+    });
+    await as(client, { uid: editor.id }, async (q) => {
+      const id = await seedQuestion(q);
+      await q("update public.questions set status = 'needs_review' where id = $1", [id]);
+      await q("select set_config('request.jwt.claims', $1, true)", [
+        JSON.stringify({ sub: owner.id, role: "authenticated" }),
+      ]);
+      for (const s of ["approved", "published"]) {
         await q("update public.questions set status = $2 where id = $1", [id, s]);
       }
       const { rows } = await q(
         "select reviewed_by, published_at from public.questions where id = $1",
         [id],
       );
-      expect(rows[0].reviewed_by).toBe(editor.id);
+      expect(rows[0].reviewed_by).toBe(owner.id);
       expect(rows[0].published_at).not.toBeNull();
 
       // La función de demo no expone is_correct
