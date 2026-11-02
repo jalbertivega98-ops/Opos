@@ -1,0 +1,46 @@
+# Despliegue y entornos
+
+> Ningún despliegue, cuenta externa ni migración remota se ejecuta sin autorización explícita de joel.
+
+## Entornos
+
+| Entorno         | App                | Datos                                         | Estado                   |
+| --------------- | ------------------ | --------------------------------------------- | ------------------------ |
+| Local           | `npm run dev`      | Pila local sin Docker (`npm run stack:start`) | ✅                       |
+| Preview/Staging | Vercel (propuesto) | Proyecto Supabase de pruebas                  | ⬜ requiere autorización |
+| Producción      | Vercel             | Proyecto Supabase (región UE)                 | ⬜ requiere autorización |
+
+## Local desde cero
+
+```bash
+npm ci
+npm run stack:setup        # descarga GoTrue, PostgREST y Mailpit (una vez)
+npm run stack:start -- --seed
+node scripts/stack/keys.mjs   # claves de desarrollo → .env.local (ver .env.example)
+npm run dev                # http://localhost:3000 · correos en http://127.0.0.1:54324
+npm run admin:grant -- tu@email.test owner
+```
+
+Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresql). Con Docker: `npx supabase start` es equivalente (aplica las mismas migraciones y seed).
+
+## Variables de entorno
+
+| Variable                                     | Ámbito         | Descripción                                    |
+| -------------------------------------------- | -------------- | ---------------------------------------------- |
+| `NEXT_PUBLIC_SITE_URL`                       | público        | URL base (emails, metadatos)                   |
+| `NEXT_PUBLIC_SUPABASE_URL`                   | público        | URL del proyecto Supabase                      |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY`              | público        | anon/publishable key (RLS protege)             |
+| `SUPABASE_SERVICE_ROLE_KEY`                  | secreto        | solo server-only (webhooks, tareas de sistema) |
+| `AUTH_RATE_LIMIT_MAX`                        | solo local/E2E | eleva el límite de intentos de auth            |
+| `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` | secreto        | Hito 5, solo modo test hasta autorización      |
+| `ANTHROPIC_API_KEY`                          | secreto        | Hito 6                                         |
+
+## Checklist de despliegue (skill `preparar-despliegue`)
+
+1. Regresión completa + `npm run build`.
+2. Supabase: aplicar migraciones (`supabase db push`) — **autorización**.
+3. Auth: Site URL, Redirect URLs (`https://dominio/auth/callback`, `/auth/confirm`), SMTP propio, plantillas de email con `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=signup&next=/app/onboarding` (y `type=recovery&next=/restablecer`).
+4. Variables en el proveedor; ningún secreto en el repo.
+5. Asignar `owner` a joel por SQL.
+6. Verificación post-despliegue: registro → email → onboarding → dashboard; login; recuperación; catálogo; admin.
+7. Rollback: redeploy de la versión anterior; migraciones siempre aditivas.
