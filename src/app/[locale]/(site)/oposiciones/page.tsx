@@ -1,0 +1,78 @@
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Button } from "@/components/ui/button";
+import { EmptyState } from "@/components/ui/card";
+import { ExamCard } from "@/components/exam-card";
+import { CATEGORIES, catalogFilterSchema, listExamBodies } from "@/lib/catalog/queries";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/oposiciones">): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "catalog" });
+  return { title: t("title"), description: t("subtitle") };
+}
+
+export default async function CatalogPage({
+  params,
+  searchParams,
+}: PageProps<"/[locale]/oposiciones">) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations();
+  const filter = catalogFilterSchema.parse(await searchParams);
+  const exams = await listExamBodies(filter);
+
+  return (
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
+      <h1 className="text-3xl font-bold sm:text-4xl">{t("catalog.title")}</h1>
+      <p className="text-muted-foreground mt-2 max-w-2xl">{t("catalog.subtitle")}</p>
+
+      <form role="search" className="mt-8 flex flex-col gap-2 sm:flex-row">
+        <label htmlFor="q" className="sr-only">
+          {t("catalog.search")}
+        </label>
+        <input
+          id="q"
+          name="q"
+          type="search"
+          defaultValue={filter.q}
+          placeholder={t("catalog.search")}
+          className="border-input bg-background h-11 flex-1 rounded-lg border px-3"
+        />
+        <label htmlFor="category" className="sr-only">
+          {t("catalog.allCategories")}
+        </label>
+        <select
+          id="category"
+          name="category"
+          defaultValue={filter.category ?? ""}
+          className="border-input bg-background h-11 rounded-lg border px-3"
+        >
+          <option value="">{t("catalog.allCategories")}</option>
+          {CATEGORIES.map((c) => (
+            <option key={c} value={c}>
+              {t(`category.${c}`)}
+            </option>
+          ))}
+        </select>
+        <Button type="submit">{t("catalog.filter")}</Button>
+      </form>
+
+      <p className="text-muted-foreground mt-6 text-sm" aria-live="polite">
+        {t("catalog.results", { count: exams.length })}
+      </p>
+      {exams.length === 0 ? (
+        <div className="mt-4">
+          <EmptyState title={t("catalog.empty")} description={t("catalog.emptyHint")} />
+        </div>
+      ) : (
+        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {exams.map((exam) => (
+            <ExamCard key={exam.id} exam={exam} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
