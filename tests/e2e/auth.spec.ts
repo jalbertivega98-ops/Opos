@@ -138,3 +138,56 @@ test.describe("Administración", () => {
     await expect(page.getByRole("table")).toContainText("Admin");
   });
 });
+
+test.describe("Administración de alumnos", () => {
+  test("buscar, ver ficha, suspender y exportar CSV", async ({ page, browser }) => {
+    const adminEmail = newEmail("adm");
+    const studentEmail = newEmail("alumno");
+
+    // Alumno que será suspendido
+    const studentCtx = await browser.newContext();
+    const sp = await studentCtx.newPage();
+    await signUp(sp, studentEmail, "Pau");
+    await confirmEmail(sp, studentEmail);
+    await sp.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
+    await sp.getByText("Crear un hábito de estudio").click();
+    await sp.getByRole("button", { name: "Generar mi plan" }).click();
+    await expect(sp).toHaveURL(/\/app\?welcome=1/);
+
+    await signUp(page, adminEmail, "Admin");
+    await confirmEmail(page, adminEmail);
+    grantRole(adminEmail, "admin");
+
+    await page.goto("/admin/alumnos");
+    await page.getByLabel("Buscar por email o nombre").fill(studentEmail);
+    await page.getByRole("button", { name: "Filtrar" }).click();
+    await expect(page.getByText("1 alumno")).toBeVisible();
+    await expect(page.getByRole("row").nth(1)).toContainText("Mossos d'Esquadra");
+
+    // CSV con los mismos filtros
+    const csv = await page.request.get(`/api/admin/users?q=${encodeURIComponent(studentEmail)}`);
+    expect(csv.status()).toBe(200);
+    expect(csv.headers()["content-type"]).toContain("text/csv");
+    expect(await csv.text()).toContain(studentEmail);
+
+    await page.getByRole("link", { name: studentEmail }).click();
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(studentEmail);
+    await expect(page.getByText("Onboarding completado")).toBeVisible();
+    await page.getByRole("button", { name: "Suspender cuenta" }).click();
+    await expect(page.getByText("Estado actualizado.")).toBeVisible();
+    await expect(page.getByRole("button", { name: "Reactivar cuenta" })).toBeVisible();
+
+    // El alumno suspendido pierde el acceso a su zona
+    await sp.goto("/app");
+    await expect(sp).toHaveURL(/cuenta-suspendida/);
+    await studentCtx.close();
+  });
+
+  test("un alumno no puede exportar CSV", async ({ page }) => {
+    const email = newEmail("nocsv");
+    await signUp(page, email);
+    await confirmEmail(page, email);
+    const res = await page.request.get("/api/admin/users");
+    expect(res.status()).toBe(403);
+  });
+});

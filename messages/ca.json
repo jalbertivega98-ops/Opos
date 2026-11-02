@@ -337,5 +337,54 @@
   },
   "landingNotice": {
     "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."
+  },
+  "adminUsers": {
+    "title": "Alumnes",
+    "search": "Cerca per correu o nom",
+    "allStatus": "Tots els estats",
+    "allRoles": "Tots els rols",
+    "allExams": "Totes les oposicions",
+    "onboarding": "Onboarding",
+    "any": "Qualsevol",
+    "yes": "Completat",
+    "no": "Pendent",
+    "filter": "Filtra",
+    "export": "Exporta CSV",
+    "exportNote": "L'exportació queda registrada a l'auditoria.",
+    "results": "{count, plural, =0 {Sense resultats} one {# alumne} other {# alumnes}}",
+    "empty": "No hi ha alumnes que coincideixin amb els filtres.",
+    "prev": "Anterior",
+    "next": "Següent",
+    "page": "Pàgina {page} de {pages}",
+    "email": "Correu",
+    "exam": "Oposició principal",
+    "back": "Torna als alumnes",
+    "detail": "Fitxa de l'alumne",
+    "emailConfirmed": "Correu confirmat",
+    "notConfirmed": "Sense confirmar",
+    "lastSignIn": "Últim accés",
+    "marketing": "Accepta comunicacions",
+    "targets": "Oposicions",
+    "noTargets": "No ha triat oposició.",
+    "activity": "Activitat recent",
+    "suspend": "Suspèn el compte",
+    "reactivate": "Reactiva el compte",
+    "statusSaved": "Estat actualitzat.",
+    "notAllowed": "No tens permís per a aquesta acció.",
+    "auditNote": "La consulta d'aquesta fitxa queda registrada a l'auditoria.",
+    "status": {
+      "active": "Activa",
+      "suspended": "Suspesa",
+      "pending_deletion": "Pendent d'esborrat"
+    },
+    "role": {
+      "student": "Alumne",
+      "editor": "Editor",
+      "admin": "Admin",
+      "owner": "Propietari"
+    },
+    "overviewLink": "Resum",
+    "yesShort": "Sí",
+    "noShort": "No"
   }
 }

@@ -337,5 +337,54 @@
   },
   "landingNotice": {
     "deleted": "Tu cuenta se ha eliminado. Gracias por haber confiado en nosotros."
+  },
+  "adminUsers": {
+    "title": "Alumnos",
+    "search": "Buscar por email o nombre",
+    "allStatus": "Todos los estados",
+    "allRoles": "Todos los roles",
+    "allExams": "Todas las oposiciones",
+    "onboarding": "Onboarding",
+    "any": "Cualquiera",
+    "yes": "Completado",
+    "no": "Pendiente",
+    "filter": "Filtrar",
+    "export": "Exportar CSV",
+    "exportNote": "La exportación queda registrada en la auditoría.",
+    "results": "{count, plural, =0 {Sin resultados} one {# alumno} other {# alumnos}}",
+    "empty": "No hay alumnos que coincidan con los filtros.",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "page": "Página {page} de {pages}",
+    "email": "Email",
+    "exam": "Oposición principal",
+    "back": "Volver a alumnos",
+    "detail": "Ficha del alumno",
+    "emailConfirmed": "Email confirmado",
+    "notConfirmed": "Sin confirmar",
+    "lastSignIn": "Último acceso",
+    "marketing": "Acepta comunicaciones",
+    "targets": "Oposiciones",
+    "noTargets": "No ha elegido oposición.",
+    "activity": "Actividad reciente",
+    "suspend": "Suspender cuenta",
+    "reactivate": "Reactivar cuenta",
+    "statusSaved": "Estado actualizado.",
+    "notAllowed": "No tienes permiso para esta acción.",
+    "auditNote": "La consulta de esta ficha queda registrada en la auditoría.",
+    "status": {
+      "active": "Activa",
+      "suspended": "Suspendida",
+      "pending_deletion": "Pendiente de borrado"
+    },
+    "role": {
+      "student": "Alumno",
+      "editor": "Editor",
+      "admin": "Admin",
+      "owner": "Propietario"
+    },
+    "overviewLink": "Resumen",
+    "yesShort": "Sí",
+    "noShort": "No"
   }
 }

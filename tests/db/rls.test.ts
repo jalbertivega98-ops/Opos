@@ -292,7 +292,9 @@ describe("derechos RGPD y perfil", () => {
     const victim = await createUser(client);
     await as(client, { uid: victim.id }, async (q) => {
       await q("select public.delete_my_account()");
-      const { rows } = await q("select count(*)::int n from public.profiles where id = $1", [victim.id]);
+      const { rows } = await q("select count(*)::int n from public.profiles where id = $1", [
+        victim.id,
+      ]);
       expect(rows[0].n).toBe(0);
     });
     // rollback del helper: lo borramos de verdad fuera de la transacción
@@ -305,5 +307,65 @@ describe("derechos RGPD y perfil", () => {
       as(client, { uid: owner.id }, (q) => q("select public.delete_my_account()")),
     ).rejects.toThrow(/propietario/);
     await cleanup(client, [owner.id]);
+  });
+});
+
+describe("gestión de alumnos (admin)", () => {
+  it("admin_list_users exige admin", async () => {
+    await expect(
+      as(client, { uid: alice.id }, (q) => q("select * from public.admin_list_users()")),
+    ).rejects.toThrow(/No autorizado/);
+    await expect(
+      as(client, { uid: editor.id }, (q) => q("select * from public.admin_list_users()")),
+    ).rejects.toThrow(/No autorizado/);
+  });
+
+  it("admin busca por email con comodines escapados y obtiene el total", async () => {
+    const {
+      rows: [{ email }],
+    } = await client.query("select email from auth.users where id = $1", [bob.id]);
+    const rows = await as(
+      client,
+      { uid: admin.id },
+      async (q) => (await q("select * from public.admin_list_users($1)", [email])).rows,
+    );
+    expect(rows).toHaveLength(1);
+    expect(rows[0].id).toBe(bob.id);
+    expect(Number(rows[0].total_count)).toBe(1);
+    const none = await as(
+      client,
+      { uid: admin.id },
+      async (q) => (await q("select * from public.admin_list_users('%')")).rows,
+    );
+    expect(none).toHaveLength(0);
+  });
+
+  it("admin_get_user devuelve la ficha y audita la consulta", async () => {
+    await as(client, { uid: admin.id }, async (q) => {
+      const v = (await q("select public.admin_get_user($1) as v", [bob.id])).rows[0].v;
+      expect(v.locale).toBe("ca");
+      const audit = await q("select action from public.audit_log where target_id = $1", [bob.id]);
+      expect(audit.rows.map((r) => r.action)).toContain("user.viewed");
+    });
+  });
+
+  it("admin suspende alumnos pero no a otros admins ni a sí mismo", async () => {
+    await as(client, { uid: admin.id }, async (q) => {
+      await q("select public.admin_set_user_status($1, 'suspended')", [bob.id]);
+      const { rows } = await q("select status from public.profiles where id = $1", [bob.id]);
+      expect(rows[0].status).toBe("suspended");
+    });
+    const other = await createUser(client, { role: "admin" });
+    await expect(
+      as(client, { uid: admin.id }, (q) =>
+        q("select public.admin_set_user_status($1, 'suspended')", [other.id]),
+      ),
+    ).rejects.toThrow(/propietario/);
+    await expect(
+      as(client, { uid: admin.id }, (q) =>
+        q("select public.admin_set_user_status($1, 'suspended')", [admin.id]),
+      ),
+    ).rejects.toThrow(/propia cuenta/);
+    await cleanup(client, [other.id]);
   });
 });

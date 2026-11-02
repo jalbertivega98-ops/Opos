@@ -12,7 +12,10 @@ export type AccountState = {
   errors?: Record<string, string>;
 };
 
-export async function updateProfileAction(_: AccountState, formData: FormData): Promise<AccountState> {
+export async function updateProfileAction(
+  _: AccountState,
+  formData: FormData,
+): Promise<AccountState> {
   const parsed = profileSchema.safeParse({
     displayName: formData.get("displayName") ?? "",
     locale: formData.get("locale"),
@@ -43,11 +46,15 @@ export async function updateProfileAction(_: AccountState, formData: FormData): 
   return { status: "success", message: "profile.saved" };
 }
 
-export async function deleteAccountAction(_: AccountState, formData: FormData): Promise<AccountState> {
+export async function deleteAccountAction(
+  _: AccountState,
+  formData: FormData,
+): Promise<AccountState> {
   const parsed = deleteAccountSchema.safeParse(Object.fromEntries(formData));
   if (!parsed.success) {
     const errors: Record<string, string> = {};
-    for (const i of parsed.error.issues) errors[String(i.path[0])] ??= i.message === "confirmWord" ? "confirmWord" : i.code;
+    for (const i of parsed.error.issues)
+      errors[String(i.path[0])] ??= i.message === "confirmWord" ? "confirmWord" : i.code;
     return { status: "error", errors };
   }
   const supabase = await createClient();
@@ -55,7 +62,8 @@ export async function deleteAccountAction(_: AccountState, formData: FormData): 
     data: { user },
   } = await supabase.auth.getUser();
   if (!user?.email) return { status: "error", message: "errors.sessionExpired" };
-  if (!authLimiter(`delete:${user.id}`).ok) return { status: "error", message: "errors.rateLimited" };
+  if (!authLimiter(`delete:${user.id}`).ok)
+    return { status: "error", message: "errors.rateLimited" };
 
   // Reautenticación: confirma que quien borra conoce la contraseña.
   const { error: authError } = await supabase.auth.signInWithPassword({

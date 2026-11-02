@@ -10,7 +10,7 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 
 ## Bloqueos y decisiones pendientes (requieren a joel)
 
-- **DEC-001** Oposición piloto para el primer contenido revisado (propuesta: Mossos d'Esquadra o Auxiliar Administrativo del Estado).
+- ~~**DEC-001**~~ Oposición piloto: **Mossos d'Esquadra** (decidido por joel el 2026-11-02).
 - **DEC-002** ¿Quién revisa el contenido educativo? (rol `editor`).
 - **DEC-003** Autorizar cuentas: Supabase cloud (región UE), Stripe test, proveedor de despliegue, SMTP, dominio, repositorio GitHub.
 - **DEC-004** Datos del titular para textos legales y asesoría legal.
@@ -58,9 +58,9 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 | USR-008 | Exportar mis datos (JSON)                                                 | P0  | USR-007          | DONE    | Incluye perfil, objetivos, actividad, resultados; solo los propios | route handler                  | E2E, DB |
 | USR-009 | Eliminar cuenta (confirmación + borrado en cascada)                       | P0  | USR-007          | DONE    | Reautenticación; borra auth.users; auditado                        | server-only con service role   | E2E, DB |
 | USR-010 | Cambio de email y contraseña desde el perfil                              | P1  | USR-007          | BACKLOG | Verificación del nuevo email                                       | app/app/perfil                 | E2E     |
-| ADM-001 | Listado de alumnos con búsqueda, filtros y paginación                     | P0  | USR-003          | READY   | Por email/nombre, estado, plan, oposición, fechas                  | app/admin/alumnos              | E2E     |
-| ADM-002 | Ficha de alumno (perfil, actividad, oposiciones, suscripción)             | P0  | ADM-001          | BACKLOG | Sin datos de pago sensibles; acceso auditado                       | app/admin/alumnos/[id]         | E2E     |
-| ADM-003 | Exportación CSV autorizada y auditada                                     | P1  | ADM-001          | BACKLOG | Solo admin; registro en audit_log; sin contraseñas                 | route handler                  | E2E, DB |
+| ADM-001 | Listado de alumnos con búsqueda, filtros y paginación                     | P0  | USR-003          | DONE    | Por email/nombre, estado, plan, oposición, fechas                  | app/admin/alumnos              | E2E     |
+| ADM-002 | Ficha de alumno (perfil, actividad, oposiciones, suscripción)             | P0  | ADM-001          | DONE    | Sin datos de pago sensibles; acceso auditado                       | app/admin/alumnos/[id]         | E2E     |
+| ADM-003 | Exportación CSV autorizada y auditada                                     | P1  | ADM-001          | DONE    | Solo admin; registro en audit_log; sin contraseñas                 | route handler                  | E2E, DB |
 | ADM-004 | Suspender/reactivar cuenta y cambiar rol (owner)                          | P1  | ADM-002          | BACKLOG | Auditado; owner único gestiona admins                              | actions                        | DB, E2E |
 | ADM-005 | Métricas de retención (cohortes) y tiempo de estudio                      | P1  | LRN-001          | BACKLOG | Desde datos reales                                                 | lib/admin                      | U       |
 

@@ -69,3 +69,15 @@ describe("sanitizeSearch", () => {
     expect(sanitizeSearch("Col·legi")).toBe("Col·legi");
   });
 });
+
+describe("csvCell", async () => {
+  const { csvCell } = await import("@/lib/admin/csv");
+  it("escapa comillas, comas y saltos de línea", () => {
+    expect(csvCell('a,"b"')).toBe('"a,""b"""');
+    expect(csvCell(null)).toBe("");
+  });
+  it("neutraliza fórmulas", () => {
+    expect(csvCell("=HYPERLINK(1)")).toBe("'=HYPERLINK(1)");
+    expect(csvCell("+34")).toBe("'+34");
+  });
+});

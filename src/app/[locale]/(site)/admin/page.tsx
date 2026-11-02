@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
 import { Card, EmptyState } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
-import { requireAdmin } from "@/lib/auth/session";
 import { getUserMetrics } from "@/lib/admin/metrics";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
@@ -10,7 +9,6 @@ export const metadata: Metadata = { title: "Admin", robots: { index: false } };
 export default async function AdminPage({ params }: PageProps<"/[locale]/admin">) {
   const { locale } = await params;
   setRequestLocale(locale);
-  await requireAdmin(locale);
   const t = await getTranslations("admin");
   const format = await getFormatter();
   const m = await getUserMetrics();
