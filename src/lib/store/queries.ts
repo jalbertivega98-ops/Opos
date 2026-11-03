@@ -154,3 +154,16 @@ export async function examOffer(slug: string): Promise<ExamOffer | null> {
   const { data } = await supabase.rpc("exam_offer", { p_exam_slug: slug });
   return (data as ExamOffer | null) ?? null;
 }
+
+/**
+ * Qué partes del plan puede abrir el alumno con lo que tiene (packs de preguntas y
+ * simulacros reales, no de prueba). Lo que no, se muestra con candado «Premium».
+ */
+export function planAccess(items: LibraryItem[]) {
+  const real = items.filter((i) => !i.is_test);
+  return {
+    topics: real.some((i) => i.type === "question_pack" || i.type === "bundle"),
+    mocks: real.some((i) => i.type === "mock_exam" || i.type === "bundle"),
+  };
+}
+export type PlanAccess = ReturnType<typeof planAccess>;

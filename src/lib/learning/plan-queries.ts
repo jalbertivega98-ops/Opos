@@ -62,3 +62,14 @@ export async function getMyPlan() {
   });
   return { reason: null, settings, plan, topics };
 }
+
+/** Slug de la oposición principal del alumno actual (o null). */
+export async function getPrimaryExamSlug() {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("user_exam_targets")
+    .select("exam:exam_bodies(slug)")
+    .eq("is_primary", true)
+    .maybeSingle<{ exam: { slug: string } | null }>();
+  return data?.exam?.slug ?? null;
+}

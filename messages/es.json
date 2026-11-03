@@ -92,7 +92,11 @@
       "name": "Gratuito",
       "price": "0 €",
       "period": "para siempre",
-      "items": ["Plan de estudio semanal", "Psicotécnicos de práctica", "Estadísticas básicas"],
+      "items": [
+        "Plan de estudio semanal",
+        "Psicotécnicos de práctica",
+        "Estadísticas básicas"
+      ],
       "cta": "Crear cuenta"
     },
     "premium": {
@@ -126,7 +130,11 @@
     "demoCta": "Prueba un psicotécnico gratis",
     "titleRich": "Prepara tu oposición con <mark>método</mark>, no a ciegas",
     "audience": "Para quien prepara oposiciones en España, en castellano o en catalán. Empieza gratis, sin tarjeta.",
-    "trustItems": ["Sin tarjeta", "Fuentes oficiales citadas", "Contenido revisado por personas"],
+    "trustItems": [
+      "Sin tarjeta",
+      "Fuentes oficiales citadas",
+      "Contenido revisado por personas"
+    ],
     "sample": {
       "badge": "Pruébalo aquí",
       "title": "Así es un ejercicio",
@@ -145,7 +153,11 @@
       "title": "Tu progreso",
       "note": "Vista de ejemplo",
       "accuracy": "Aciertos de la semana y avance por bloque",
-      "rows": ["Temario", "Psicotécnicos", "Simulacros"]
+      "rows": [
+        "Temario",
+        "Psicotécnicos",
+        "Simulacros"
+      ]
     },
     "stepsEyebrow": "Cómo funciona",
     "stepsTitle": "Tres pasos y sabes qué hacer cada día",
@@ -174,7 +186,11 @@
         "Sesiones de psicotécnicos",
         "Simulacro de la semana"
       ],
-      "mock": ["Mismo tiempo", "Misma penalización", "Mismo nº de preguntas"],
+      "mock": [
+        "Mismo tiempo",
+        "Misma penalización",
+        "Mismo nº de preguntas"
+      ],
       "review": "Repasar"
     },
     "comingSoon": "Próximamente",
@@ -1100,7 +1116,12 @@
       "mockFormat": "{questions} preguntas · {minutes} min · error −{penalty, number} · mínimo {min}",
       "mockHistory": "Tus últimos simulacros",
       "mockInProgress": "En curso",
-      "mockFormatNoPenalty": "{questions} ejercicios · {minutes} min · sin penalización · mínimo {min}"
+      "mockFormatNoPenalty": "{questions} ejercicios · {minutes} min · sin penalización · mínimo {min}",
+      "lockedTitle": "Con Premium o de pago",
+      "lockedSubtitle": "Puedes ver qué incluye tu oposición. Para practicarlo necesitas Premium o comprar el pack.",
+      "lockedBadge": "Premium",
+      "paidBadge": "De pago",
+      "lockedCta": "Ver qué incluye"
     }
   },
   "questions": {
@@ -1208,7 +1229,10 @@
         "auth": "Vuelve a iniciar sesión."
       }
     },
-    "emptyNoContent": "Tu oposición todavía no tiene temario publicado. El plan aparecerá en cuanto lo tenga."
+    "emptyNoContent": "Tu oposición todavía no tiene temario publicado. El plan aparecerá en cuanto lo tenga.",
+    "premium": "Premium",
+    "lockedNote": "Lo marcado con candado forma parte de la preparación de pago (Premium o pack).",
+    "lockedCta": "Ver qué incluye"
   },
   "offer": {
     "title": "Qué incluye la preparación",

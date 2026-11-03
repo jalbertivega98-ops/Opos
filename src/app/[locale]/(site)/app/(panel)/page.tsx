@@ -34,7 +34,8 @@ import { startQuestionReviewAction } from "@/lib/learning/questions/actions";
 import { lastDays, pct } from "@/lib/learning/practice/format";
 import { getMyPlan } from "@/lib/learning/plan-queries";
 import type { PlanTask } from "@/lib/learning/plan";
-import { WeekPlanView } from "@/components/plan/week-plan";
+import { taskUnlocked, WeekPlanView } from "@/components/plan/week-plan";
+import { myLibrary, planAccess } from "@/lib/store/queries";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/app">): Promise<Metadata> {
@@ -61,7 +62,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const format = await getFormatter();
   const supabase = await createClient();
 
-  const [{ data: targets }, { data: activity }, practice, myPlan, recent, split] =
+  const [{ data: targets }, { data: activity }, practice, myPlan, recent, split, library] =
     await Promise.all([
       supabase
         .from("user_exam_targets")
@@ -79,6 +80,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
       getMyPlan(),
       listRecentSessions(5),
       pendingBySource(),
+      myLibrary(),
     ]);
 
   const name = profile.display_name;
@@ -87,7 +89,12 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const accuracy = answered ? pct(practice!.totals.correct, answered) : null;
   const pending = split.psycho + split.questions;
   const active = recent.find((s) => s.status === "active");
-  const nextTask = myPlan.reason === null ? myPlan.plan.tasks[0] : undefined;
+  const access = planAccess(library);
+  // Siguiente tarea que el alumno puede hacer ya (las de pago sin acceso se saltan).
+  const nextTask =
+    myPlan.reason === null
+      ? myPlan.plan.tasks.find((task) => taskUnlocked(task, access))
+      : undefined;
 
   const sessionName = (s: { item_type: string; mode: string }) =>
     s.item_type === "mixed"
@@ -400,7 +407,11 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
           </div>
           {myPlan.reason === null ? (
             <div className="mt-4">
-              <WeekPlanView plan={myPlan.plan} />
+              <WeekPlanView
+                plan={myPlan.plan}
+                access={access}
+                examSlug={myPlan.settings.examSlug}
+              />
             </div>
           ) : (
             <div className="bg-surface mt-4 flex flex-col gap-3 rounded-xl p-4 sm:flex-row sm:items-center sm:justify-between">
