@@ -13,6 +13,11 @@
 - **Contenido de prueba separado:** `content/test/pack-prueba.json` (`is_test`, producto «[PRUEBA] Pack de demostración»). Un producto de prueba no admite preguntas reales y viceversa (trigger).
 - **Capturas:** `node scripts/screenshots.mjs <carpeta>` (pila + servidor en :3000).
 
+### Preview privada (2026-11-03, autorizada por joel)
+
+- https://opos-indol.vercel.app (Vercel, despliega `main` de Opos) + Supabase cloud `aprobia-preview` (UE, plan Free). Protegida con `PREVIEW_PASSWORD` y `noindex`. Cuentas de prueba `admin@aprobia.test` (titular) y `alumna@aprobia.test`. joel probó el recorrido completo: OK. Pasos en `docs/PREVIEW.md`.
+- Cada push a `main` redepliega la preview. Los cambios de BD hay que aplicarlos a mano en el SQL Editor de Supabase (la red de Claude no llega a supabase.co ni a vercel.app).
+
 ### Sesión 2
 
 - **Hitos 0 y 1** completados. **Hito 2** casi completo (faltan USR-004/005/010, ADM-004).
