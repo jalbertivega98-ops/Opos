@@ -23,7 +23,8 @@
     "progress": "El meu progrés",
     "library": "Els meus productes",
     "plan": "El meu pla",
-    "how": "Com funciona"
+    "how": "Com funciona",
+    "syllabus": "Temari"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -969,7 +970,25 @@
       "confirm": "Confirmo que aprovo i publico totes les preguntes pendents, i els paquets i simulacres que les fan servir.",
       "button": "Aprovar i publicar-ho tot",
       "working": "Publicant…",
-      "done": "Fet: {questions} preguntes i {products} productes publicats."
+      "done": "Fet: {questions} preguntes, {notes} fitxes i {products} productes publicats."
+    },
+    "navNotes": "Fitxes d’estudi",
+    "notes": {
+      "title": "Fitxes d’estudi",
+      "subtitle": "Índex, «Idees força» i glossari de cada tema, extrets literalment de la guia oficial i comprovats contra el text. Revisa-les i publica-les: l’alumnat només veu les publicades.",
+      "counts": "{total} fitxes · {pending} pendents · {published} publicades",
+      "empty": "No hi ha fitxes carregades.",
+      "hasAmendments": "Amb esmenes",
+      "summary": "{sections} apartats · {ideas} idees clau · {terms} termes",
+      "confirmOne": "Confirmo que he revisat aquesta fitxa",
+      "confirmAll": "Confirmo que aprovo i publico les {count} fitxes pendents",
+      "button_approved": "Aprovar fitxa",
+      "button_published": "Publicar fitxa",
+      "button_both": "Aprovar i publicar-les totes",
+      "working": "Desant…",
+      "done_approved": "Fitxa aprovada.",
+      "done_published": "Fitxa publicada.",
+      "done_both": "{count, plural, one {# fitxa publicada} other {# fitxes publicades}}."
     }
   },
   "store": {
@@ -1268,5 +1287,29 @@
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",
     "sourceNote": "Preguntes redactades per nosaltres a partir de la Guia d'estudi oficial. No som una acadèmia oficial ni copiem exàmens."
+  },
+  "notes": {
+    "title": "Temari",
+    "subtitle": "Fitxes d’estudi de {exam}: índex, idees clau i glossari de cada tema, tal com apareixen a la guia oficial.",
+    "area": "Àmbit {area}",
+    "ideasCount": "{count, plural, one {# idea clau} other {# idees clau}}",
+    "pages": "pàgs. {from}-{to}",
+    "page": "pàg. {page}",
+    "emptyTitle": "Encara no hi ha fitxes",
+    "empty": "Les fitxes de la teva oposició apareixeran aquí tan bon punt estiguin revisades.",
+    "emptyNoTarget": "Tria la teva oposició per veure’n el temari.",
+    "emptyCta": "Triar oposició",
+    "literalNotice": "Text copiat literalment de la font oficial, en la seva llengua original. Per estudiar a fons, llegeix el tema complet a la guia.",
+    "back": "Tornar al temari",
+    "outline": "Índex del tema",
+    "keyIdeas": "Idees força",
+    "glossary": "Glossari del tema",
+    "glossaryHint": "Termes que la guia destaca en aquest tema. Assegura’t de saber-los explicar.",
+    "amendments": "Correccions oficials a aquest tema",
+    "amendmentsSource": "Veure esmenes",
+    "sourceLine": "Font:",
+    "sourceFallback": "Font oficial",
+    "practiceCta": "Practicar amb preguntes",
+    "planCta": "Veure el meu pla"
   }
 }

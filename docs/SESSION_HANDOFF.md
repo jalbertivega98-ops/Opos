@@ -1,8 +1,27 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-03 · Sesión 3 (+ temario completo de Mossos y aprobación por lotes)
+**Última actualización:** 2026-11-03 · Sesión 3 (+ fichas de estudio de Mossos)
 
 ## Estado exacto
+
+### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
+
+- joel preguntó qué más se podía añadir a Mossos antes de abrir otras oposiciones. Lista priorizada que se le propuso:
+  1. Fichas de estudio (hecho).
+  2. Guía de la convocatoria (calendario, fases, puntuación, solo con datos verificados).
+  3. Prueba física, del 23/11 al 21/12/2026.
+  4. Idiomas, que da hasta 3 de 23 puntos.
+  5. MOC-002 y más simulacros.
+  6. Àmbit D (actualidad), que necesita una fuente oficial.
+  7. Médico, entrevista y personalidad, solo con lo que digan las bases.
+- Los puntos 3, 4 y 7 requieren leer las bases ISP/1763/2026 en el Chrome de joel, porque la web de la Generalitat bloquea a Claude.
+- **Hecho:**
+  - 20 fichas (`content/mossos/fichas/*.json`) con índice, «Idees força», glosario y esmenes. Son texto literal de la guía y lo extrae `scripts/content/extract-topic-notes.mjs <guia-2026> content/mossos content/mossos/fichas`. 963/963 fragmentos comprobados con `verify-excerpts.mjs`.
+  - Migración `20261103000900_topic_notes.sql`: tabla, guardián de estados, RLS (solo publicadas para el alumnado), `review_topic_notes` (solo owner), `exam_topic_notes`. `review_all_batch` también publica las fichas.
+  - Admin en `/admin/revision/fichas`. Alumnado en `/app/temario` y `/app/temario/[slug]` (nueva pestaña «Temario»).
+  - Preview: `supabase/preview/11-fichas-mossos.sql` (idempotente; se aplica sola al mergear a `main`). Generar con `node scripts/content/notes-to-sql.mjs content/mossos/fichas/*.json`.
+  - Capturas en `/mnt/project-files/aprobia/fichas-estudio/` (`scripts/design/shots-notes.mjs`).
+- **Siguiente:** que joel revise y publique las fichas; después, el punto 2 (guía de la convocatoria) y, cuando joel esté en su PC, leer las bases para la prueba física y la de idiomas.
 
 ### Rediseño visual: portada y panel del alumno (2026-11-03, rama `claude/project-thread-0diwv3`, UX-001)
 
@@ -80,7 +99,7 @@ Contenedor cloud: E2E con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwr
 
 ## Pruebas (último run, sesión 3)
 
-typecheck ✅ · lint ✅ · build ✅ · unitarias 70/70 ✅ · BD 55/55 ✅ · E2E 30/30 ✅ (escritorio + móvil)
+typecheck ✅ · lint ✅ · unitarias 81/81 ✅ · BD 74/74 ✅ · E2E 33/34 ✅ (rama fichas; `mock-exam` falla a veces en paralelo y pasa aislado)
 
 ## Bloqueos (TASKS.md › Bloqueos)
 

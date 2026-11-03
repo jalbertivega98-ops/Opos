@@ -17,6 +17,7 @@ export default async function AppLayout({
   const links = [
     { href: "/app", label: t("dashboard") },
     { href: "/app/plan", label: t("plan") },
+    { href: "/app/temario", label: t("syllabus") },
     { href: "/app/practica", label: t("practice") },
     { href: "/app/progreso", label: t("progress") },
     { href: "/app/productos", label: t("library") },

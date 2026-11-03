@@ -21,7 +21,7 @@ export function PublishAllForm({
   });
   const s = counts.byStatus;
   const toPublish = (s.draft ?? 0) + (s.needs_review ?? 0) + (s.approved ?? 0);
-  const [questions, products] = String(state.detail ?? "0|0")
+  const [questions, products, notes = 0] = String(state.detail ?? "0|0|0")
     .split("|")
     .map(Number);
   return (
@@ -42,7 +42,7 @@ export function PublishAllForm({
         <Alert tone={state.status === "error" ? "error" : "success"}>
           {state.status === "error"
             ? t(`errors.${state.message}`)
-            : t("publishAll.done", { questions, products })}
+            : t("publishAll.done", { questions, products, notes })}
         </Alert>
       )}
       {(toPublish > 0 || draftProducts > 0) && (
