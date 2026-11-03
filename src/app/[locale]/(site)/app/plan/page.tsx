@@ -24,15 +24,17 @@ export default async function PlanPage({ params }: PageProps<"/[locale]/app/plan
   await requireUser(locale, "/app/plan");
   const t = await getTranslations("plan");
   const data = await getMyPlan();
-  if (!data) {
+  if (data.reason !== null) {
     return (
       <EmptyState
         title={t("emptyTitle")}
-        description={t("empty")}
+        description={t(data.reason === "noTarget" ? "empty" : "emptyNoContent")}
         action={
-          <Button asChild variant="accent">
-            <Link href="/app/onboarding">{t("emptyCta")}</Link>
-          </Button>
+          data.reason === "noTarget" ? (
+            <Button asChild variant="accent">
+              <Link href="/app/onboarding">{t("emptyCta")}</Link>
+            </Button>
+          ) : undefined
         }
       />
     );

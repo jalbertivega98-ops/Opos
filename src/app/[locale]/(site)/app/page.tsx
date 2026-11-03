@@ -105,7 +105,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
           <h2 className="flex items-center gap-2 text-lg font-semibold">
             <CalendarCheck className="text-accent size-5" aria-hidden /> {t("app.plan")}
           </h2>
-          {myPlan ? (
+          {myPlan.reason === null ? (
             <div className="mt-3 space-y-3">
               <WeekPlanView plan={myPlan.plan} />
               <Button asChild variant="outline" size="sm">

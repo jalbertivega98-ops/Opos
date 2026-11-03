@@ -28,7 +28,7 @@ export async function getMyPlan() {
       follow_only: boolean;
       exam: { slug: string; name: string; name_ca: string | null } | null;
     }>();
-  if (!target?.exam || target.follow_only) return null;
+  if (!target?.exam) return { reason: "noTarget" as const };
   const { data: rows } = await supabase.rpc("my_topic_progress", { p_exam_slug: target.exam.slug });
   const topics = (
     (rows ?? []) as {
@@ -38,7 +38,7 @@ export async function getMyPlan() {
       correct: number;
     }[]
   ).map((r) => ({ ...r, answered: Number(r.answered), correct: Number(r.correct) }));
-  if (topics.length === 0) return null;
+  if (topics.length === 0) return { reason: "noContent" as const };
 
   const settings: PlanSettings = {
     examSlug: target.exam.slug,
@@ -60,5 +60,5 @@ export async function getMyPlan() {
     topics: topics.map(({ slug, title }) => ({ slug, title })),
     progress,
   });
-  return { settings, plan, topics };
+  return { reason: null, settings, plan, topics };
 }
