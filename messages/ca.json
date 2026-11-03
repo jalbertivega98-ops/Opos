@@ -766,7 +766,8 @@
       "badFormat": "Només s'accepten fitxers .csv o .json.",
       "bad_json": "El JSON no és vàlid.",
       "bad_header": "La capçalera del CSV ha d'incloure almenys stem i correct.",
-      "empty": "El fitxer no conté preguntes."
+      "empty": "El fitxer no conté preguntes.",
+      "confirmRequired": "Marca la casella de confirmació abans d'aprovar el lot."
     },
     "workflow": {
       "title": "Flux de revisió",
@@ -814,7 +815,7 @@
     "navSources": "Revisió amb font",
     "sources": {
       "title": "Revisió amb font",
-      "subtitle": "Cada pregunta al costat de l'article i l'extracte en què es basa. Aquí només es llegeix: l'aprovació la fas tu des de la fitxa de la pregunta o la cua de revisió.",
+      "subtitle": "Cada pregunta al costat de l'article i l'extracte en què es basa. Tria un tema per aprovar-lo per lots; les dubtoses queden fora si no les marques.",
       "topic": "Tema",
       "allTopics": "Tots els temes",
       "ref": "Referència",
@@ -830,6 +831,16 @@
       "empty": "No hi ha preguntes amb font per a aquest filtre.",
       "testBadge": "PROVA",
       "aiBadge": "Redactada per IA"
+    },
+    "batch": {
+      "title": "Aprovar per lots: {topic}",
+      "counts": "Pendents d'aprovar: {pending} · Dubtoses (amb nota): {flagged} · Aprovades sense publicar: {approved} · Publicades: {published}",
+      "confirm": "He revisat les preguntes d'aquest tema amb la seva font i les aprovo sota la meva responsabilitat.",
+      "includeFlagged": "Incloure també {count, plural, one {la dubtosa} other {les # dubtoses}} (amb nota de revisió)",
+      "approve": "Aprovar lot",
+      "publish": "Publicar les aprovades",
+      "batch_approved": "{count, plural, =0 {No hi havia preguntes per aprovar.} one {# pregunta aprovada.} other {# preguntes aprovades.}}",
+      "batch_published": "{count, plural, =0 {No hi havia preguntes aprovades per publicar.} one {# pregunta publicada.} other {# preguntes publicades.}}"
     }
   },
   "store": {

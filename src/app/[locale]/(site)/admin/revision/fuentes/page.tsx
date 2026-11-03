@@ -6,8 +6,13 @@ import { Button } from "@/components/ui/button";
 import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { TransitionForm } from "@/components/admin/transition-form";
+import { BatchReviewForm } from "@/components/admin/batch-review-form";
 import { getSession } from "@/lib/auth/session";
-import { listSourcedQuestions, topicsWithQuestions } from "@/lib/admin/content/queries";
+import {
+  listSourcedQuestions,
+  topicStatusCounts,
+  topicsWithQuestions,
+} from "@/lib/admin/content/queries";
 import { CONTENT_STATUSES } from "@/lib/admin/content/schema";
 import { cn } from "@/lib/utils";
 
@@ -31,11 +36,13 @@ export default async function SourceReviewPage({
       ? sp.estado
       : undefined;
   const t = await getTranslations("adminContent");
-  const [rows, topics, { profile }] = await Promise.all([
+  const [rows, topics, { profile }, counts] = await Promise.all([
     listSourcedQuestions({ topic, status }),
     topicsWithQuestions(),
     getSession(),
+    topic ? topicStatusCounts(topic) : Promise.resolve(null),
   ]);
+  const topicTitle = topics.find((tp) => tp.slug === topic)?.title ?? topic ?? "";
   const isOwner = profile?.role === "owner";
 
   return (
@@ -76,6 +83,10 @@ export default async function SourceReviewPage({
           {t("sources.count", { count: rows.length })}
         </span>
       </form>
+
+      {topic && counts && counts.total > 0 && (
+        <BatchReviewForm topic={topic} title={topicTitle} counts={counts} isOwner={isOwner} />
+      )}
 
       {rows.length === 0 ? (
         <EmptyState title={t("sources.empty")} />

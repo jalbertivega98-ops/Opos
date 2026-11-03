@@ -766,7 +766,8 @@
       "badFormat": "Solo se aceptan archivos .csv o .json.",
       "bad_json": "El JSON no es válido.",
       "bad_header": "La cabecera del CSV debe incluir al menos stem y correct.",
-      "empty": "El archivo no contiene preguntas."
+      "empty": "El archivo no contiene preguntas.",
+      "confirmRequired": "Marca la casilla de confirmación antes de aprobar el lote."
     },
     "workflow": {
       "title": "Flujo de revisión",
@@ -814,7 +815,7 @@
     "navSources": "Revisión con fuente",
     "sources": {
       "title": "Revisión con fuente",
-      "subtitle": "Cada pregunta junto al artículo y el extracto en que se basa. Aquí solo se lee: la aprobación la haces tú desde la ficha de la pregunta o la cola de revisión.",
+      "subtitle": "Cada pregunta junto al artículo y el extracto en que se basa. Elige un tema para aprobarlo por lotes; las dudosas quedan fuera salvo que las marques.",
       "topic": "Tema",
       "allTopics": "Todos los temas",
       "ref": "Referencia",
@@ -830,6 +831,16 @@
       "empty": "No hay preguntas con fuente para este filtro.",
       "testBadge": "PRUEBA",
       "aiBadge": "Redactada por IA"
+    },
+    "batch": {
+      "title": "Aprobar por lotes: {topic}",
+      "counts": "Pendientes de aprobar: {pending} · Dudosas (con nota): {flagged} · Aprobadas sin publicar: {approved} · Publicadas: {published}",
+      "confirm": "He revisado las preguntas de este tema con su fuente y las apruebo bajo mi responsabilidad.",
+      "includeFlagged": "Incluir también {count, plural, one {la dudosa} other {las # dudosas}} (con nota de revisión)",
+      "approve": "Aprobar lote",
+      "publish": "Publicar las aprobadas",
+      "batch_approved": "{count, plural, =0 {No había preguntas que aprobar.} one {# pregunta aprobada.} other {# preguntas aprobadas.}}",
+      "batch_published": "{count, plural, =0 {No había preguntas aprobadas que publicar.} one {# pregunta publicada.} other {# preguntas publicadas.}}"
     }
   },
   "store": {

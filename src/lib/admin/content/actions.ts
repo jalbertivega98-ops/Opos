@@ -169,3 +169,39 @@ export async function importQuestionsAction(
     report: { total: rows.length, valid: valid.length, imported, duplicates, invalid },
   };
 }
+
+const batchSchema = z.object({
+  topic: z.string().trim().min(1).max(120),
+  to: z.enum(["approved", "published"]),
+  include_flagged: z.literal("on").optional(),
+  confirm: z.literal("on", { message: "confirmRequired" }),
+});
+
+/**
+ * Aprobación o publicación por lotes de un tema (DEC-006). Solo la persona titular;
+ * la BD lo vuelve a comprobar y valida cada pregunta. Las dudosas quedan fuera
+ * salvo que se marquen expresamente.
+ */
+export async function batchReviewAction(_: FormState, formData: FormData): Promise<FormState> {
+  const session = await requireAdminAction();
+  if (!session) return { status: "error", message: "forbidden" };
+  if (session.profile.role !== "owner") return { status: "error", message: "notOwner" };
+  const parsed = batchSchema.safeParse(Object.fromEntries(formData));
+  if (!parsed.success) {
+    const confirmMissing = parsed.error.issues.some((i) => i.path[0] === "confirm");
+    return { status: "error", message: confirmMissing ? "confirmRequired" : "invalid" };
+  }
+  const { topic, to, include_flagged } = parsed.data;
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("review_topic_batch", {
+    p_topic_slug: topic,
+    p_to: to,
+    p_include_flagged: include_flagged === "on",
+  });
+  if (error) {
+    if (error.code === "42501") return { status: "error", message: "notOwner" };
+    return { status: "error", message: "db", detail: error.message };
+  }
+  revalidatePath("/[locale]/admin", "layout");
+  return { status: "success", message: `batch_${to}`, detail: String(data ?? 0) };
+}

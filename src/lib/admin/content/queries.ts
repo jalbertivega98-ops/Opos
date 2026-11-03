@@ -152,3 +152,23 @@ export async function topicsWithQuestions() {
     .returns<{ slug: string; title: string }[]>();
   return (data ?? []).map(({ slug, title }) => ({ slug, title }));
 }
+
+export type TopicCounts = {
+  byStatus: Partial<Record<ContentStatus, number>>;
+  flaggedPending: number;
+  total: number;
+};
+
+/** Recuento por estado de un tema y cuántas dudosas quedan sin aprobar. */
+export async function topicStatusCounts(slug: string): Promise<TopicCounts> {
+  const supabase = await createClient();
+  const { data } = await supabase.rpc("topic_status_counts", { p_topic_slug: slug });
+  const out: TopicCounts = { byStatus: {}, flaggedPending: 0, total: 0 };
+  for (const r of (data ?? []) as { status: ContentStatus; flagged: boolean; total: number }[]) {
+    const n = Number(r.total);
+    out.byStatus[r.status] = (out.byStatus[r.status] ?? 0) + n;
+    out.total += n;
+    if (r.flagged && (r.status === "draft" || r.status === "needs_review")) out.flaggedPending += n;
+  }
+  return out;
+}

@@ -1,8 +1,27 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-03 · Sesión 3 (+ fuentes oficiales y lote B.1 en catalán)
+**Última actualización:** 2026-11-03 · Sesión 3 (+ temario completo de Mossos y aprobación por lotes)
 
 ## Estado exacto
+
+### Temario completo de Mossos y aprobación por lotes (2026-11-03)
+
+- **402 preguntas en catalán** que cubren los 20 temas de la Guia d'estudi 2026 (A.1–A.7, B.1–B.8, C.1–C.5): 20 por tema, salvo B.1 (30) y C.5 (12, porque el tema ocupa dos páginas). Están en `content/mossos/<tema>.json`, todas en **borrador**. Siguen el estilo del examen («Segons la Guia d'estudi…», 4 opciones). La correcta está repartida al 25 % por posición. Cada pregunta cita literalmente la guía y la cita se comprueba con `node scripts/content/verify-excerpts.mjs <lote> <guia.txt>` (402/402).
+- **Fuente de redacción:** formato compacto `q/<T>.txt` y `build.py`, en `/mnt/project-files/aprobia/fuentes-oficiales/fuente-preguntas/`. El texto de la guía, separado por temas, está en `…/fuentes-oficiales/guia-2026/`.
+- **Criterios aplicados:**
+  - No se pregunta por datos que contradicen las esmenes de setembre 2026: comarques, presidents, eurodiputats.
+  - Tampoco por datos que la guía tiene desfasados, como el nombre de reformas de la CE o el detalle de elección del CGPJ.
+  - Se evitan preguntas casi iguales a las del Model 01.
+  - Las que tienen nota de revisión son las dudosas.
+- **CNT-010 (aprobación por lotes):** en `/admin/revision/fuentes?tema=<slug>` aparece el panel «Aprobar por lotes». Funciona así:
+  - Solo la titular puede usarlo y tiene que confirmar con una casilla.
+  - «Aprobar lote» pasa a aprobadas las preguntas del tema.
+  - «Publicar las aprobadas» las publica.
+  - Las dudosas quedan fuera salvo que se marquen.
+  - La RPC es `review_topic_batch` (migración `20261103000200_batch_review.sql`). Cada pregunta pasa por el guardián de estados y deja auditoría.
+- **Packs por àmbit** (`supabase/preview/6-packs-mossos-ca.sql`): `mossos-ambit-{a,b,c}-guia-2026`, en borrador. Al publicar un lote, sus preguntas entran solas en el pack (`config.topic_prefix` y trigger `questions_autopack`). Para que el alumnado los vea, el pack se publica desde `/admin/productos` y se da acceso (Premium o concesión manual).
+- **Preview:** ejecutar en el SQL Editor, en orden, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-…`, y `6-packs-mossos-ca.sql` (con `3-b1-guia-ca.sql` ya ejecutado). Todo está probado en local y es idempotente.
+- **Siguiente:** MOC-001, el simulacro con formato oficial (30 preguntas mezcladas, 35 min, −1/4, mínimo 4).
 
 ### Fuentes oficiales y lote B.1 al estilo del examen (2026-11-03)
 

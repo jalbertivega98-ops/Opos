@@ -115,11 +115,15 @@ test.describe("Recorrido del alumno con preguntas del banco", () => {
       stdio: "pipe",
     });
     await page.goto("/admin/revision/fuentes?tema=mossos-b1-estatut");
-    await expect(page.getByTestId("sources-count")).toHaveText("30 preguntas");
+    await expect(page.getByTestId("sources-count")).toHaveText(/^(30|60) preguntas$/); // 30 en castellano (+30 en catalán si se cargó el lote CA)
     const first = page.getByTestId("source-card").first();
     await expect(first).toContainText("Borrador");
     await expect(first).toContainText("art. 1");
     await expect(first.getByTestId("source-excerpt")).toContainText("norma institucional básica");
     await expect(page.getByText("Extracto parcial")).toHaveCount(3);
+    // panel de aprobación por lotes: visible para la titular y con confirmación obligatoria
+    const batch = page.getByTestId("batch-review");
+    await expect(batch).toContainText("Aprobar por lotes");
+    await expect(batch.getByRole("checkbox").first()).toHaveAttribute("required", "");
   });
 });
