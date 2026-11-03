@@ -8,6 +8,7 @@ import { PlanSettingsForm } from "@/components/plan/settings-form";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
 import { getMyPlan } from "@/lib/learning/plan-queries";
+import { myLibrary, planAccess } from "@/lib/store/queries";
 import { TOPIC_DONE } from "@/lib/learning/plan";
 
 export async function generateMetadata({
@@ -23,7 +24,7 @@ export default async function PlanPage({ params }: PageProps<"/[locale]/app/plan
   setRequestLocale(locale);
   await requireUser(locale, "/app/plan");
   const t = await getTranslations("plan");
-  const data = await getMyPlan();
+  const [data, library] = await Promise.all([getMyPlan(), myLibrary()]);
   if (data.reason !== null) {
     return (
       <EmptyState
@@ -50,7 +51,7 @@ export default async function PlanPage({ params }: PageProps<"/[locale]/app/plan
       </div>
       <Card className="space-y-3">
         <h2 className="text-lg font-semibold">{t("thisWeek")}</h2>
-        <WeekPlanView plan={plan} />
+        <WeekPlanView plan={plan} access={planAccess(library)} examSlug={settings.examSlug} />
         <p className="text-muted-foreground text-xs">
           {t("split", {
             syllabus: plan.minutes.syllabus,

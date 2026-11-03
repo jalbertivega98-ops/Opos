@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
-import { Package } from "lucide-react";
+import { Lock, Package } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
-import { myLibrary, premiumPrice } from "@/lib/store/queries";
+import { examOffer, myLibrary, premiumPrice } from "@/lib/store/queries";
+import { getPrimaryExamSlug } from "@/lib/learning/plan-queries";
 import { formatPrice } from "@/lib/store/schema";
 import { Alert } from "@/components/ui/form";
 import { startProductPracticeAction } from "@/lib/learning/questions/actions";
@@ -36,11 +37,16 @@ export default async function LibraryPage({
   await requireUser(locale, "/app/productos");
   const t = await getTranslations("store");
   const format = await getFormatter();
-  const [items, price, attempts] = await Promise.all([
+  const [items, price, attempts, examSlug] = await Promise.all([
     myLibrary(),
     premiumPrice(),
     myMockAttempts(5),
+    getPrimaryExamSlug(),
   ]);
+  // Lo de pago de su oposición que aún no tiene: se ve, con candado, y lleva a «Qué incluye».
+  const offer = examSlug ? await examOffer(examSlug) : null;
+  const owned = new Set(items.map((it) => it.slug));
+  const locked = (offer?.products ?? []).filter((p) => !p.is_free && !owned.has(p.slug));
   const formats = await mockFormats(
     items.filter((it) => it.type === "mock_exam").map((it) => it.product_id),
   );
@@ -143,6 +149,46 @@ export default async function LibraryPage({
             </li>
           ))}
         </ul>
+      )}
+      {examSlug && locked.length > 0 && (
+        <section aria-labelledby="locked-title" className="space-y-3" data-testid="locked-products">
+          <div>
+            <h2 id="locked-title" className="text-lg font-semibold">
+              {t("library.lockedTitle")}
+            </h2>
+            <p className="text-muted-foreground text-sm">{t("library.lockedSubtitle")}</p>
+          </div>
+          <ul className="grid gap-4 md:grid-cols-2">
+            {locked.map((p) => (
+              <li key={p.slug}>
+                <Card
+                  className="bg-surface flex h-full items-start gap-4"
+                  data-testid="locked-item"
+                >
+                  <span className="bg-highlight-soft text-warning inline-flex size-10 shrink-0 items-center justify-center rounded-lg">
+                    <Lock className="size-5" aria-hidden />
+                  </span>
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <p className="font-semibold">{localized(locale, p.title, p.title_ca)}</p>
+                    <p className="text-muted-foreground text-sm">{t(`types.${p.type}` as never)}</p>
+                    <div className="flex flex-wrap gap-2 text-xs">
+                      <Badge className="bg-highlight-soft text-highlight-foreground dark:text-highlight">
+                        <Lock className="size-3" aria-hidden />
+                        {p.included_in_premium ? t("library.lockedBadge") : t("library.paidBadge")}
+                      </Badge>
+                      {p.questions > 0 && (
+                        <Badge>{t("library.questionsCount", { count: p.questions })}</Badge>
+                      )}
+                    </div>
+                    <Button asChild variant="outline" size="sm" className="mt-2">
+                      <Link href={`/oposiciones/${examSlug}`}>{t("library.lockedCta")}</Link>
+                    </Button>
+                  </div>
+                </Card>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
       {attempts.length > 0 && (
         <section aria-labelledby="mock-history" className="space-y-3">

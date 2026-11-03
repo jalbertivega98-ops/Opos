@@ -92,7 +92,11 @@
       "name": "Gratuït",
       "price": "0 €",
       "period": "per sempre",
-      "items": ["Pla d'estudi setmanal", "Psicotècnics de pràctica", "Estadístiques bàsiques"],
+      "items": [
+        "Pla d'estudi setmanal",
+        "Psicotècnics de pràctica",
+        "Estadístiques bàsiques"
+      ],
       "cta": "Crea un compte"
     },
     "premium": {
@@ -126,7 +130,11 @@
     "demoCta": "Prova un psicotècnic gratis",
     "titleRich": "Prepara la teva oposició amb <mark>mètode</mark>, no a cegues",
     "audience": "Per a qui prepara oposicions a Espanya, en català o en castellà. Comença gratis, sense targeta.",
-    "trustItems": ["Sense targeta", "Fonts oficials citades", "Contingut revisat per persones"],
+    "trustItems": [
+      "Sense targeta",
+      "Fonts oficials citades",
+      "Contingut revisat per persones"
+    ],
     "sample": {
       "badge": "Prova-ho aquí",
       "title": "Així és un exercici",
@@ -145,7 +153,11 @@
       "title": "El teu progrés",
       "note": "Vista d'exemple",
       "accuracy": "Encerts de la setmana i avanç per bloc",
-      "rows": ["Temari", "Psicotècnics", "Simulacres"]
+      "rows": [
+        "Temari",
+        "Psicotècnics",
+        "Simulacres"
+      ]
     },
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
@@ -174,7 +186,11 @@
         "Sessions de psicotècnics",
         "Simulacre de la setmana"
       ],
-      "mock": ["Mateix temps", "Mateixa penalització", "Mateix nre. de preguntes"],
+      "mock": [
+        "Mateix temps",
+        "Mateixa penalització",
+        "Mateix nre. de preguntes"
+      ],
       "review": "Repassar"
     },
     "comingSoon": "Properament",
@@ -1100,7 +1116,12 @@
       "mockFormat": "{questions} preguntes · {minutes} min · error −{penalty, number} · mínim {min}",
       "mockHistory": "Els teus últims simulacres",
       "mockInProgress": "En curs",
-      "mockFormatNoPenalty": "{questions} exercicis · {minutes} min · sense penalització · mínim {min}"
+      "mockFormatNoPenalty": "{questions} exercicis · {minutes} min · sense penalització · mínim {min}",
+      "lockedTitle": "Amb Premium o de pagament",
+      "lockedSubtitle": "Pots veure què inclou la teva oposició. Per practicar-ho necessites Premium o comprar el pack.",
+      "lockedBadge": "Premium",
+      "paidBadge": "De pagament",
+      "lockedCta": "Veure què inclou"
     }
   },
   "questions": {
@@ -1208,7 +1229,10 @@
         "auth": "Torna a iniciar sessió."
       }
     },
-    "emptyNoContent": "La teva oposició encara no té temari publicat. El pla apareixerà quan en tingui."
+    "emptyNoContent": "La teva oposició encara no té temari publicat. El pla apareixerà quan en tingui.",
+    "premium": "Premium",
+    "lockedNote": "El que té cadenat forma part de la preparació de pagament (Premium o pack).",
+    "lockedCta": "Veure què inclou"
   },
   "offer": {
     "title": "Què inclou la preparació",

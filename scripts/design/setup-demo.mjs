@@ -141,6 +141,17 @@ for (let i = 0; i < 10; i++) {
 await psychoSession(4);
 await lctx.storageState({ path: `${OUT}/laura.json` });
 
+// 2b) Alumna gratuita: onboarding Mossos, sin packs (ve lo de pago con candado)
+const gctx = await browser.newContext();
+const gp = await signUp(gctx, `gratis-${tag}@example.test`, "Núria");
+await gp.goto(`${BASE}/app/onboarding`);
+await gp.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
+await gp.getByText("Empiezo de cero").click();
+await gp.getByText("Mejorar en psicotécnicos").click();
+await gp.getByRole("button", { name: "Generar mi plan" }).click();
+await gp.waitForURL(/\/app\?welcome=1/);
+await gctx.storageState({ path: `${OUT}/gratis.json` });
+
 // 3) Alumna nueva, sin onboarding
 const nctx = await browser.newContext();
 await signUp(nctx, `nueva-${tag}@example.test`, "Marta");

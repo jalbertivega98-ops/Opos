@@ -2,7 +2,7 @@
 // Requiere `npm run dev` y el estado creado por scripts/design/setup-demo.mjs.
 // Uso: node scripts/design/shots.mjs <carpeta-estado> <carpeta-salida> [--dark]
 import { chromium, devices } from "playwright";
-import { mkdirSync } from "node:fs";
+import { existsSync, mkdirSync } from "node:fs";
 
 const [STATE, OUT] = process.argv.slice(2);
 const dark = process.argv.includes("--dark");
@@ -37,5 +37,11 @@ await shot(desk, laura, "/app", "2-panel-escritorio");
 await shot(mob, laura, "/app", "2-panel-movil");
 await shot(desk, nueva, "/app", "3-panel-nuevo-escritorio");
 await shot(mob, nueva, "/app", "3-panel-nuevo-movil");
+const gratis = `${STATE}/gratis.json`;
+if (existsSync(gratis)) {
+  await shot(desk, gratis, "/app", "4-panel-gratis-escritorio");
+  await shot(mob, gratis, "/app", "4-panel-gratis-movil");
+  await shot(desk, gratis, "/app/productos", "5-productos-gratis-escritorio");
+}
 await browser.close();
 console.log(`capturas en ${OUT}`);
