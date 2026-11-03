@@ -6,19 +6,24 @@ import { Badge, Card } from "@/components/ui/card";
 import { localized } from "@/lib/catalog/queries";
 import { formatPrice } from "@/lib/store/schema";
 import type { ExamOffer, OfferProduct } from "@/lib/store/queries";
+import { BuyForm } from "@/components/billing/buy-form";
 
 /**
  * «Qué incluye»: contenido real publicado, qué es gratis y qué es de pago.
- * Los pagos no están activos: el botón de compra se muestra desactivado.
+ * Con pagos activos (Stripe) se compra el pack o Premium; si no, el botón sale desactivado.
  */
 export async function ExamOfferSection({
   offer,
   locale,
   premiumCents,
+  back,
+  billing,
 }: {
   offer: ExamOffer;
   locale: string;
   premiumCents: number | null;
+  back: string;
+  billing: { enabled: boolean; testMode: boolean; premium: boolean };
 }) {
   const t = await getTranslations("offer");
   if (offer.products.length === 0) return null;
@@ -31,6 +36,17 @@ export async function ExamOfferSection({
   const packs = included.filter((p) => p.type === "question_pack");
   const questions = bundle?.questions || packs.reduce((n, p) => n + p.questions, 0);
   const price = bundle?.price;
+  // Qué se compra: el pack completo si tiene precio; si no, Premium
+  const buy = !billing.enabled
+    ? null
+    : bundle && price
+      ? {
+          slug: bundle.slug,
+          label: t("paid.buy", { price: formatPrice(price.amount_cents, locale) }),
+        }
+      : premiumCents !== null && billing.premium
+        ? { slug: "premium", label: t("paid.buyPremium") }
+        : null;
 
   return (
     <section className="mt-10 space-y-4" aria-labelledby="offer-title" data-testid="exam-offer">
@@ -119,10 +135,16 @@ export async function ExamOfferSection({
               {t("paid.plan")}
             </li>
           </ul>
-          <Button variant="accent" className="w-full" disabled>
-            {t("paid.cta")}
-          </Button>
-          <p className="text-muted-foreground text-center text-xs">{t("paid.note")}</p>
+          {buy ? (
+            <BuyForm slug={buy.slug} back={back} label={buy.label} testMode={billing.testMode} />
+          ) : (
+            <>
+              <Button variant="accent" className="w-full" disabled>
+                {t("paid.cta")}
+              </Button>
+              <p className="text-muted-foreground text-center text-xs">{t("paid.note")}</p>
+            </>
+          )}
         </Card>
       </div>
 

@@ -4,6 +4,13 @@
 
 ## Estado exacto
 
+### Pagos con Stripe en modo de pruebas (2026-11-03, rama `claude/project-thread-tdwb1x`, STO-008)
+
+- joel pidió que Claude lo hiciera todo. Código hecho y probado **sin cuenta de Stripe**. Todo en `docs/PAGOS.md` y ADR-019.
+- Migración `20261103000900_billing.sql` (+ `supabase/preview/11-pagos-stripe.sql`), `src/lib/billing/*`, `/api/stripe/webhook`, botones en `/oposiciones/[slug]` y `/app/productos`, portal «Gestionar suscripción».
+- Pendiente de joel: crear la cuenta de Stripe (modo de pruebas), poner `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, guardar el portal de clientes, fijar precios y publicar Premium en `/admin/productos`.
+- Cobros reales: NO. Requieren autorización expresa, datos fiscales del titular (DEC-004) y textos legales revisados.
+
 ### Rediseño visual: portada y panel del alumno (2026-11-03, rama `claude/project-thread-0diwv3`, UX-001)
 
 - Petición de joel: más personalidad, secciones diferenciadas, elementos visuales útiles, navegación simple; empezar por portada y panel, enseñar capturas antes/después **antes de extenderlo** y antes de sustituir la web.

@@ -7,8 +7,10 @@ import { Button } from "@/components/ui/button";
 import { Alert } from "@/components/ui/form";
 import { Badge, Card } from "@/components/ui/card";
 import { getExamBody, localized } from "@/lib/catalog/queries";
-import { examOffer, premiumPrice } from "@/lib/store/queries";
+import { examOffer, premiumInfo } from "@/lib/store/queries";
 import { ExamOfferSection } from "@/components/store/exam-offer";
+import { billingStatus } from "@/lib/billing/queries";
+import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
 
 export async function generateMetadata({
   params,
@@ -22,8 +24,12 @@ export async function generateMetadata({
   };
 }
 
-export default async function ExamPage({ params }: PageProps<"/[locale]/oposiciones/[slug]">) {
+export default async function ExamPage({
+  params,
+  searchParams,
+}: PageProps<"/[locale]/oposiciones/[slug]">) {
   const { locale, slug } = await params;
+  const notice = parseCheckoutNotice((await searchParams).compra);
   setRequestLocale(locale);
   const exam = await getExamBody(slug);
   if (!exam) notFound();
@@ -31,7 +37,7 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
   const calls = exam.calls.filter((c) => c.is_published).sort((a, b) => b.year - a.year);
   const tests = [...exam.exam_tests].sort((a, b) => a.order_index - b.order_index);
   const sources = exam.exam_body_sources.map((s) => s.source).filter((s) => s !== null);
-  const [offer, premiumCents] = await Promise.all([examOffer(exam.slug), premiumPrice()]);
+  const [offer, premium] = await Promise.all([examOffer(exam.slug), premiumInfo()]);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:py-14">
@@ -83,7 +89,16 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
         </Link>
       </Button>
 
-      {offer && <ExamOfferSection offer={offer} locale={locale} premiumCents={premiumCents} />}
+      <CheckoutNoticeAlert notice={notice} />
+      {offer && (
+        <ExamOfferSection
+          offer={offer}
+          locale={locale}
+          premiumCents={premium.cents}
+          back={`/oposiciones/${slug}`}
+          billing={{ ...billingStatus(), premium: premium.published }}
+        />
+      )}
 
       <div className="mt-10 grid gap-4">
         <Card>

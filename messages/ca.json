@@ -1263,10 +1263,39 @@
       "review": "Repàs dels teus errors fins a dominar-los",
       "plan": "El pla setmanal et diu cada setmana quins temes i simulacres toquen",
       "cta": "Pagament aviat",
-      "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment."
+      "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment.",
+      "buy": "Comprar el pack · {price}",
+      "buyPremium": "Fes-te Premium"
     },
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",
     "sourceNote": "Preguntes redactades per nosaltres a partir de la Guia d'estudi oficial. No som una acadèmia oficial ni copiem exàmens."
+  },
+  "billing": {
+    "consent": "Vull accedir ja al contingut i entenc que, en començar, perdo el dret de desistiment de 14 dies.",
+    "terms": "Condicions",
+    "redirecting": "Obrint el pagament…",
+    "testNote": "Mode de proves: no es cobra res. Fes servir la targeta 4242 4242 4242 4242.",
+    "secureNote": "Pagament segur amb Stripe. No guardem les dades de la teva targeta.",
+    "buy": "Comprar · {price}",
+    "buyPremium": "Fes-te Premium",
+    "premiumBody": "Accés a tot el contingut inclòs a Premium per {price} al mes. Cancel·la quan vulguis.",
+    "active": "La teva subscripció Premium està activa.",
+    "renewsOn": "Premium actiu. Es renova el {date}.",
+    "endsOn": "Premium cancel·lat: el tens fins al {date}.",
+    "pastDue": "No hem pogut cobrar la renovació. Actualitza la targeta per no perdre Premium.",
+    "manage": "Gestionar la subscripció",
+    "notices": {
+      "ok": "Pagament completat! Ja hi tens accés.",
+      "pendiente": "Estem confirmant el pagament. En uns segons hi tindràs accés; torna a carregar la pàgina.",
+      "cancelada": "Has cancel·lat el pagament. No s'ha cobrat res.",
+      "consentimiento": "Per comprar has de marcar la casella d'accés immediat.",
+      "error": "No s'ha pogut obrir el pagament. Torna-ho a provar d'aquí a uns minuts.",
+      "desactivada": "Els pagaments encara no estan actius.",
+      "no-disponible": "Aquest producte no està a la venda ara mateix.",
+      "ya-lo-tienes": "Ja tens accés a aquest producte.",
+      "ya-premium": "Ja ets Premium.",
+      "portal-error": "No s'ha pogut obrir la gestió de la subscripció. Torna-ho a provar més tard."
+    }
   }
 }
