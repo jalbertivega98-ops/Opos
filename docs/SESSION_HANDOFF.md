@@ -1,8 +1,16 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-03 · Sesión 3
+**Última actualización:** 2026-11-03 · Sesión 3 (+ fuentes oficiales y lote B.1 en catalán)
 
 ## Estado exacto
+
+### Fuentes oficiales y lote B.1 al estilo del examen (2026-11-03)
+
+- **SRC-001 verificado:** bases ISP/1763/2026, calendario, Guia d'estudi juny 2026, esmenes, Model 01 y plantillas leídos en el Chrome de joel (a petición suya). Formato oficial: 30 preguntas, 4 opciones, −1/4, 35 min, mínimo 4. Todo en `docs/research/mossos-46-26-fuentes.md`, que incluye el análisis de estilo del examen.
+- **Nuevo lote** `content/mossos/b1-estatut-ca.json`: 30 preguntas en catalán con el formato «Segons la Guia d'estudi…». Cada una lleva un extracto literal de la guía (págs. 97-106), comprobado automáticamente contra el PDF, y está en borrador. Una está marcada DUBTOSA.
+- El lote anterior (castellano, BOE) queda sustituido.
+- Preview: `supabase/preview/3-b1-guia-ca.sql`.
+- **Cómo leer la guía:** abrir el PDF en el Chrome de joel, extraer el texto con pdf.js, volcar las páginas del tema en un `<article>` y leerlas con `get_page_text`.
 
 ### Sesión 3 (2026-11-03): primer módulo Mossos revisable
 
@@ -53,16 +61,16 @@ typecheck ✅ · lint ✅ · build ✅ · unitarias 70/70 ✅ · BD 55/55 ✅ ·
 ## Cómo cargar contenido
 
 ```bash
-node scripts/content/load-questions.mjs content/mossos/b1-estatut.json            # reales → borrador
+node scripts/content/load-questions.mjs content/mossos/b1-estatut-ca.json         # reales → borrador
 npm run admin:grant -- titular@x.test owner
 node scripts/content/load-questions.mjs content/test/pack-prueba.json --test --publish-as titular@x.test  # prueba
 ```
 
 ## Siguiente fase
 
-1. **joel:** revisar las 30 preguntas B.1 en `/admin/revision/fuentes` y subir los PDF oficiales (bases DOGC 9681, guía juny 2026, esmenes) para verificar SRC-001.
-2. Tras su aprobación: producto real «Mossos · B.1 Estatut» (pack) y versión catalana; ampliar a B.2–B.8 con los artículos que falten (152, 164… no leídos).
-3. **STO-006 / MOC-001** simulacros (`mode = mock`, 30 preguntas/35 min/−1/4 cuando se verifique la convocatoria).
+1. **joel:** revisar el lote B.1 en catalán en `/admin/revision/fuentes` (CNT-010: aprobación por lotes).
+2. Generar el resto de temas (A.1–C.5) desde la Guia d'estudi con el mismo método; producto real «Mossos · B.1 Estatut».
+3. **STO-006 / MOC-001** simulacros (`mode = mock`, 30 preguntas/35 min/−1/4/mínimo 4, verificado).
 4. **STO-005** PDF de un pack desde el banco; **STO-007** tienda pública.
 5. **STO-008** Stripe test (con autorización).
 6. Mejoras: pausa en el entrenador (PSY-005), cambio de rol en UI (ADM-004), SM-2 para preguntas (LRN-004).

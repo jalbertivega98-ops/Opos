@@ -1,76 +1,140 @@
-# Mossos d'Esquadra · convocatòria 46/26 · fuentes y estado de verificación
+# Mossos d'Esquadra · convocatòria 46/26 · fuentes verificadas
 
-**Preparado:** 2026-11-03 (sesión 3) · **Revisión pendiente:** joel (DEC-002)
+**Actualizado:** 2026-11-03 · **Revisión:** joel (DEC-002 / DEC-006)
 
-> **Aviso importante.** Desde el entorno de trabajo de Claude **no se pudo abrir ninguna página oficial de la Generalitat** (mossos.gencat.cat, dogc.gencat.cat, portaldogc.gencat.cat y dsp.interior.gencat.cat bloquean el acceso automatizado mediante robots.txt). No se ha intentado eludir ese bloqueo. Por eso **todos los datos de la convocatoria de esta página están sin verificar** y provienen de academias y webs de terceros que coinciden entre sí. La única fuente oficial leída es el texto consolidado del Estatuto en el BOE.
+> **Cómo se ha verificado.** Los documentos oficiales se leyeron el 2026-11-03 en el Chrome de joel, a petición suya, desde la página oficial de la convocatoria:
+> https://mossos.gencat.cat/ca/els_mossos_desquadra/acces_al_cos/Mosso_a/mosso-a-convocatoria-46-26/
 >
-> **Para verificar:** sube al proyecto (o déjalos en la carpeta OPOS) estos PDF oficiales y los contrasto: (1) la resolución de bases ISP/1763/2026 del DOGC 9681, (2) la Guia d'estudi de juny 2026 y (3) las esmenes de setembre 2026.
+> Desde el entorno de Claude esa web sigue bloqueada (robots.txt), y no se ha intentado eludir el bloqueo. Esta versión sustituye a la de la sesión 3, que solo tenía datos de terceros «sin verificar».
 
-## 1. Fuente oficial leída (verificada)
+PDF base: `https://mossos.gencat.cat/web/.content/home/01_els_mossos_desquadra/ingres-cos/Escala-bAsica/convocatoria-46-26/`
 
-| Fuente                                                                                                                             | Enlace                                                | Versión                                                                                             | Qué se ha leído                                                                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña (BOE núm. 172, 20/07/2006; vigor 09/08/2006) | https://www.boe.es/buscar/act.php?id=BOE-A-2006-13087 | Texto consolidado, «última actualización publicada el 28/12/2022» (informativo, sin valor jurídico) | Arts. 1–11, 29, 55–57, 61, 62, 64, 67, 68, 70 y 71 (frases operativas). La copia accesible se corta en el art. 76. |
+## 1. Documentos oficiales leídos
 
-Las 30 preguntas del primer tema solo usan estos artículos. Cada pregunta guarda el artículo y el extracto literal leído. Cuando la pregunta usa una parte del artículo que no quedó en el extracto (p. ej. un segundo apartado), queda marcada como **«extracto parcial»** en la vista de revisión.
+| Documento                                               | Fichero / enlace                                                  | Qué se ha comprobado                                                                      |
+| ------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Bases: Resolució ISP/1763/2026, de 3 de juny (DOGC)     | https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1046460  | Plazas, estructura y puntuación de la 1.ª prueba                                          |
+| Previsión de calendario (actualizada 21/09/2026)        | `Previsio-calendari-46-26-21.09.2026.pdf`                         | Fechas                                                                                    |
+| Guia d'estudi, 1a edició, juny de 2026 (242 págs.)      | `Guia_Mossos_Edicio_Juny_2026.pdf`                                | Índice de temas y texto completo del tema B.1 (págs. 94-106)                              |
+| Esmenes a la guía, edición PDF (setembre 2026)          | `Esmenes-edicio-PDF-guia-estudi-setembre-2026.pdf`                | Correcciones de A.2, A.5 y B.8                                                            |
+| Model 01, subprova de coneixements                      | `Model-01-subprova-coneixements-46-26.pdf` (escaneado)            | Las 30 preguntas, leídas para analizar estilo y reparto. **No se copian en el producto.** |
+| Plantilla de corrección, subprova de coneixements       | `Plantilla-de-correccio-de-la-subprova-de-coneixements-46-26.pdf` | Respuestas de los modelos 01 y 02                                                         |
+| Temario: Resolució INT/1219/2017 (DOGC 7382, 1/06/2017) | https://dogc.gencat.cat/ca/document-del-dogc/?documentId=788502   | Enlazado desde la página oficial                                                          |
 
-## 2. Convocatoria 46/26 (escala básica) · datos de terceros, SIN VERIFICAR
+## 2. Datos de la convocatoria (verificados)
 
-Fuentes consultadas (no oficiales):
+| Dato                        | Valor oficial                                                              | Fuente            |
+| --------------------------- | -------------------------------------------------------------------------- | ----------------- |
+| Bases                       | Resolució ISP/1763/2026, de 3 de juny; publicadas en el DOGC el 08/06/2026 | Bases, calendario |
+| Plazas                      | 1.587, de las cuales 634 reservadas a mujeres                              | Bases             |
+| Solicitudes                 | 9 a 22 de junio de 2026                                                    | Calendario        |
+| Lista provisional           | 16/07/2026; reclamaciones del 17 al 30/07                                  | Calendario        |
+| Lista definitiva            | 21/09/2026                                                                 | Calendario        |
+| 1.ª prueba                  | 17/10/2026                                                                 | Calendario        |
+| Resultados de la 1.ª prueba | Previstos el 17/11/2026                                                    | Calendario        |
+| Prueba física               | Del 23/11 al 21/12/2026                                                    | Calendario        |
+| Plantillas de corrección    | Publicadas el 22/10/2026                                                   | Página oficial    |
 
-- A · Encert: https://mossos.encert.cat/guia/convocatoria (modificada 22/10/2026)
-- B · OPOLICIA: https://opolicia.com/guies/convocatoria-mossos-esquadra-2026 (actualizada 16/10/2026)
-- C · MossosQuiz: https://mossosquiz.cat/guia/guia-estudi-temari-mossos-pdf/ (revisada 06/10/2026)
-- D · MossoLab: https://www.mossolabacademy.com/temari-mossos-2026 (actualizada 24/10/2026)
+### Formato de la 1.ª prueba (puntuación total de 0 a 23)
 
-| Dato                                      | Valor según terceros                                                                                           | Coinciden                | Estado                                                                    |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------------------- |
-| Resolución de bases                       | ISP/1763/2026, de 3 de junio; DOGC núm. 9681, 8/06/2026                                                        | A, B, C                  | Sin verificar (DOGC bloqueado)                                            |
-| Referencia «ISP/3130/2026, 1 de setembre» | No aparece en ninguna fuente                                                                                   | —                        | **No confirmada; probablemente errónea**                                  |
-| Plazas                                    | 1.587 (mosso/a), 634 reservadas a mujeres                                                                      | A, B, C (reserva solo A) | Sin verificar                                                             |
-| Oferta de empleo                          | Acord GOV/61/2026, 24 de marzo                                                                                 | A                        | Sin verificar                                                             |
-| Solicitudes                               | 9 a 22 de junio de 2026                                                                                        | A, B, C                  | Sin verificar                                                             |
-| Tasa                                      | 46,45 € (bonificadas 32,55 € y 23,25 €)                                                                        | solo A                   | Sin verificar                                                             |
-| Lista provisional                         | 16/07/2026; reclamaciones 17–30/07                                                                             | A, B (plazo solo B)      | Sin verificar                                                             |
-| Lista definitiva                          | 21/09/2026, Resolución ISP/3282/2026 (DOGC 9755): 17.152 admitidos, 440 excluidos                              | A, B, C                  | Sin verificar                                                             |
-| 1.ª prueba                                | Sábado 17/10/2026, 10.30 h, UAB (Bellaterra)                                                                   | A, B                     | Sin verificar                                                             |
-| Prueba de conocimientos                   | 30 preguntas tipo test, 35 min, error resta 1/4, en blanco no resta, mínimo 4/10                               | A, B, D                  | Sin verificar                                                             |
-| Opciones por pregunta                     | 4                                                                                                              | solo B                   | **Una sola fuente**                                                       |
-| Psicotécnico (aptitudinal)                | 80 preguntas, mínimo 5/10, sin penalización                                                                    | A, B                     | Sin verificar                                                             |
-| Idiomas                                   | Voluntaria, no eliminatoria, hasta 2 idiomas, 6 preguntas, hasta 1,5 puntos/idioma                             | solo B                   | **Una sola fuente**                                                       |
-| Fases posteriores                         | Pruebas físicas, competencias y entrevista, catalán C1, reconocimiento médico, méritos, curso ISPC y prácticas | A, B                     | Sin verificar; B advierte que los baremos físicos citados son de la 46/23 |
-| Resultados 1.ª prueba                     | Previstos 17/11/2026                                                                                           | solo A                   | **Una sola fuente**                                                       |
+| Subprueba                | Preguntas                       | Tiempo | Penalización                        | Nota                       |
+| ------------------------ | ------------------------------- | ------ | ----------------------------------- | -------------------------- |
+| Conocimientos (temario)  | 30, con 4 opciones y 1 correcta | 35 min | Error resta 1/4; en blanco no resta | De 0 a 10; mínimo 4        |
+| Aptitudes (psicotécnico) | 80                              | 35 min | Sin penalización                    | De 0 a 10; mínimo 5        |
+| Idiomas (voluntaria)     | 6 por idioma                    | —      | Error resta 1/4                     | 0,25 por acierto; máximo 3 |
 
-## 3. Temario y guía de estudio · datos de terceros, SIN VERIFICAR
+La subprueba de aptitudes evalúa razonamiento abstracto y espacial, aptitud verbal, numérica y perceptiva.
 
-- **Base del temario:** Resolució INT/1219/2017, DOGC núm. 7382, 1/06/2017 (D; A y C citan el DOGC 7382). Enlace citado por C: https://dogc.gencat.cat/ca/document-del-dogc/?documentId=788502 (bloqueado para Claude).
-- **Número de temas:** discrepan. D y C dicen 20 temas numerados (A.1–A.7, B.1–B.8, C.1–C.5) más un ámbito D sin numerar; A dice «21 temes en 4 àmbits».
-- **Guía de estudio:** «1a edició, juny de 2026», 242 páginas, sustituye la de septiembre de 2024 (A y C). Esmenes oficiales de septiembre de 2026 a los temas A.2, A.5 y B.8 (A y C; el contenido solo lo da C):
-  - A.2: presidentes de la Generalitat (Salvador Illa desde el 10/08/2024).
-  - A.5: 42 comarcas más Aran como entidad territorial singular (antes 43).
-  - B.8: Parlamento Europeo de 720 miembros, 60 por España (antes 705 y 59).
-- **Ámbito D** («entorn polític, econòmic i social»): según D, la guía dice que su contenido es orientativo y el tribunal puede preguntar cosas no recogidas. Solo lo cita D.
+## 3. Temario y Guia d'estudi (verificados)
 
-### Temas (títulos según D, la única fuente con títulos completos)
+La guía es la referencia del examen. Casi todos los enunciados reales empiezan con «Segons la Guia d'estudi…» o «Segons les idees força de la Guia d'estudi…».
 
-- **Àmbit A · Coneixements de l'entorn:** A.1 Història de Catalunya (I) · A.2 Història de Catalunya (II) · A.3 Història de la policia a Catalunya · A.4 Àmbit sociolingüístic · A.5 Marc geogràfic de Catalunya · A.6 Entorn social a Catalunya · A.7 Les tecnologies de la informació en el segle XXI.
-- **Àmbit B · Institucional:** B.1 L'Estatut d'autonomia de Catalunya · B.2 Les institucions polítiques de Catalunya · B.3 L'ordenament jurídic de l'Estat · B.4 Els drets humans i els drets constitucionals · B.5 Les institucions polítiques de l'Estat · B.6 Els òrgans jurisdiccionals · B.7 L'organització territorial de l'Estat · B.8 La Unió Europea.
-- **Àmbit C · Seguretat i policia:** C.1 Competències de la Generalitat en seguretat · C.2 Departament d'Interior i Seguretat Pública · C.3 La coordinació policial · C.4 El marc legal de la seguretat · C.5 El Codi deontològic policial.
-- **Àmbit D:** Coneixement de l'entorn polític, econòmic i social.
+**Páginas de cada tema en la guía de junio de 2026:**
 
-## 4. Primer tema elegido
+- **Àmbit A:**
+  - A.1 p. 11
+  - A.2 p. 20
+  - A.3 p. 32
+  - A.4 p. 39
+  - A.5 p. 57
+  - A.6 p. 67
+  - A.7 p. 83
+- **Àmbit B:**
+  - B.1 p. 94 (índice) y pp. 96-106
+  - B.2 p. 107
+  - B.3 p. 118
+  - B.4 p. 129
+  - B.5 p. 142
+  - B.6 p. 150
+  - B.7 p. 158
+  - B.8 p. 167
+- **Àmbit C:**
+  - C.1 p. 177
+  - C.2 p. 183
+  - C.3 p. 205
+  - C.4 p. 223
+  - C.5 p. 238
+- **Àmbit D** (actualidad): sin páginas propias.
 
-**B.1 L'Estatut d'autonomia de Catalunya** (subcontenidos según D: «Antecedents, estructura, drets i deures, competències de la Generalitat i la competència en seguretat pública»).
+Cada tema termina con unas «Idees força» y un «Glossari».
 
-Motivo: es el único tema cuya fuente primaria (el Estatuto en el BOE) se ha podido leer directamente. Algunas preguntas tocan también contenido del B.2 (Parlament, President, Govern), porque el Estatuto regula esas instituciones; joel decide si las deja en B.1 o las mueve.
+**Esmenes oficiales (septiembre de 2026):**
 
-**Limitaciones conocidas de la tanda:**
+- **A.2:** lista de presidentes de la Generalitat:
+  - Torra, del 17/05/2018 al 28/09/2020.
+  - Aragonès, del 24/05/2021 al 10/08/2024.
+  - Illa, desde el 10/08/2024.
+- **A.5:** 42 comarcas más l'Aran como entidad territorial singular (p. 56 y punto 1 de la p. 64), 947 municipios y 8 vegueries.
+- **B.8:** el Parlamento Europeo tiene 720 miembros.
+- **B.1:** no tiene esmenes.
 
-- No cubre aún antecedentes históricos ni competencias en seguridad (arts. 152, 164…), porque esos artículos no se pudieron leer.
-- Las preguntas están en castellano (como el texto del BOE). La prueba real se hace en catalán; la versión catalana queda pendiente de tu revisión.
-- La guía de estudio de 2026 no se ha podido contrastar: las preguntas se basan en la ley, no en la guía.
+## 4. Cómo es el examen real (Model 01, 46/26)
 
-## 5. Qué se necesita de joel
+- **Idioma:** catalán.
+- **Enunciados:** casi siempre «Segons la Guia d'estudi…». Cuando la pregunta sale del resumen final del tema, el enunciado es «Segons les idees força de la Guia d'estudi…».
+- **Opciones:** 4 frases completas y del mismo tipo (4 fechas, 4 órganos, 4 definiciones). Los distractores son plausibles y a menudo salen de otros apartados del mismo tema.
+- **Reparto:**
+  - Aproximadamente una pregunta por tema del temario, mezclando los àmbits A, B y C.
+  - Además, 3 o 4 preguntas de actualidad (àmbit D) sobre hechos de 2026: deporte, cultura y patrimonio.
+- **Ejemplos de temas que salen:**
+  - Historia.
+  - Símbolos del Estatut.
+  - Prerrogativas de los diputados.
+  - Variedades lingüísticas.
+  - Relieve y vegetación.
+  - Corts Generals.
+  - Recurso de amparo.
+  - CGPJ.
+  - Junta de Seguretat.
+  - Comissió de Policia.
+  - Agents Rurals.
+  - Policía local.
+  - Codi d'ètica.
+- **Respuestas del Model 01:**
+  - 1B, 2A, 3D, 4B, 5B, 6C, 7A, 8A, 9C, 10D
+  - 11B, 12C, 13B, 14B, 15D, 16A, 17C, 18B, 19B, 20D
+  - 21A, 22A, 23B, 24B, 25C, 26C, 27C, 28D, 29C, 30C
+- **Respuestas del Model 02:**
+  - 1D, 2B, 3C, 4C, 5A, 6D, 7D, 8C, 9C, 10B
+  - 11B, 12B, 13A, 14B, 15B, 16C, 17D, 18A, 19C, 20C
+  - 21B, 22D, 23D, 24B, 25A, 26C, 27B, 28C, 29C, 30A
 
-1. Subir los PDF oficiales (bases, guía de juny 2026, esmenes) para cambiar «sin verificar» por «verificado» con enlace y fecha.
-2. Revisar las 30 preguntas en **Admin › Revisión con fuente** (`/admin/revision/fuentes`). Nada está aprobado ni publicado.
+**Regla de contenido (DEC-006).** Las preguntas de Aprobia imitan este formato, pero tienen redacción original:
+
+- Salen de la Guia d'estudi.
+- Llevan cita literal y número de página.
+- Nunca se copian preguntas de los modelos oficiales ni de academias.
+
+## 5. Lote actual del B.1
+
+- **`content/mossos/b1-estatut-ca.json`** (nuevo):
+  - 30 preguntas en catalán, al estilo del examen.
+  - Cada una lleva un extracto literal de la guía (págs. 97-106). Los 30 extractos se han comprobado automáticamente contra el texto del PDF.
+  - Reparto de respuestas correctas: A 7, B 7, C 8, D 8.
+  - Dos llevan nota de la segunda revisión de Claude: una marcada como «DUBTOSA» (STC 31/2010) y otra con un aviso sobre los distractores.
+  - Están en borrador.
+- **`content/mossos/b1-estatut.json`** (antiguo):
+  - 30 preguntas en castellano basadas en el BOE.
+  - Quedan sustituidas por el lote nuevo. Siguen en borrador para que joel decida si las rechaza.
+
+**Para la preview:** cargar `supabase/preview/3-b1-guia-ca.sql` en el editor SQL de Supabase. Es idempotente y deja las preguntas en borrador.
