@@ -15,7 +15,7 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 - **DEC-003** Cuentas externas: **GitHub conectado** (repo `jalbertivega98-ops/Opos`, autorizado por joel el 2026-11-02). Pendiente de autorización específica: Supabase cloud (región UE), Stripe test, proveedor de despliegue, SMTP, dominio. Preparado en `docs/DEPLOYMENT.md`.
 - **DEC-004** Datos del titular para textos legales: **pendientes** (no se inventan; marcadores `[PENDIENTE]`).
 - **DEC-005** "Aprobia" es nombre **provisional** hasta verificar marca y dominio.
-- ~~**DEC-006**~~ (2026-11-03) Claude investiga fuentes y exámenes de cada oposición y genera las preguntas, con segunda revisión propia contra la fuente que marca las dudosas; **joel aprueba por lotes** (pendiente: CNT-010 aprobación por lotes + marca de dudosas).
+- ~~**DEC-006**~~ (2026-11-03) Claude investiga fuentes y exámenes de cada oposición y genera las preguntas, con segunda revisión propia contra la fuente que marca las dudosas; **joel aprueba por lotes** (pendiente: CNT-010 aprobación por lotes + marca de dudosas). Las preguntas deben calcar formato, reparto de temas, estilo y dificultad de los exámenes oficiales anteriores de cada oposición, con redacción original.
 - **SRC-001 (sesión 3)** Fuentes oficiales de la convocatoria 46/26 **sin verificar**: mossos.gencat.cat y DOGC bloquean el acceso automatizado de Claude. joel debe subir la resolución de bases (ISP/1763/2026, DOGC 9681), la Guia d'estudi de juny 2026 y las esmenes de setembre 2026. Ver `docs/research/mossos-46-26-fuentes.md`.
 - **REV-001 (sesión 3)** Revisión por joel de las 30 preguntas del tema B.1 en `/admin/revision/fuentes` (3 con extracto parcial). Ninguna está aprobada ni publicada.
 
