@@ -205,3 +205,35 @@ export async function batchReviewAction(_: FormState, formData: FormData): Promi
   revalidatePath("/[locale]/admin", "layout");
   return { status: "success", message: `batch_${to}`, detail: String(data ?? 0) };
 }
+
+const publishAllSchema = z.object({
+  include_flagged: z.literal("on").optional(),
+  confirm: z.literal("on", { message: "confirmRequired" }),
+});
+
+/**
+ * Un solo clic de la titular: aprueba y publica todo lo pendiente y publica los
+ * packs y simulacros que se alimentan de esos temas. La BD valida cada pregunta.
+ */
+export async function publishAllAction(_: FormState, formData: FormData): Promise<FormState> {
+  const session = await requireAdminAction();
+  if (!session) return { status: "error", message: "forbidden" };
+  if (session.profile.role !== "owner") return { status: "error", message: "notOwner" };
+  const parsed = publishAllSchema.safeParse(Object.fromEntries(formData));
+  if (!parsed.success) return { status: "error", message: "confirmRequired" };
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("review_all_batch", {
+    p_include_flagged: parsed.data.include_flagged === "on",
+  });
+  if (error) {
+    if (error.code === "42501") return { status: "error", message: "notOwner" };
+    return { status: "error", message: "db", detail: error.message };
+  }
+  revalidatePath("/[locale]", "layout");
+  const r = (data ?? {}) as { questions?: number; products?: number };
+  return {
+    status: "success",
+    message: "published_all",
+    detail: `${r.questions ?? 0}|${r.products ?? 0}`,
+  };
+}

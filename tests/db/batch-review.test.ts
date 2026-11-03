@@ -122,6 +122,48 @@ describe("aprobación por lotes (DEC-006)", () => {
     });
   });
 
+  it("aprueba y publica todo de un clic, con sus packs y simulacros", async () => {
+    await as(client, { uid: editor.id }, async (q) => {
+      await expect(q("select public.review_all_batch(true)")).rejects.toThrow(/titular/);
+    });
+    await as(client, { uid: owner.id }, async (q) => {
+      await claims(q, owner.id);
+      const { slug, ids } = await seedTopic(q);
+      await q("reset role");
+      const { rows: prods } = await q(
+        `insert into public.products (slug, type, title, config) values
+           ($1, 'question_pack', 'Pack todo', jsonb_build_object('topic_prefix', $3::text)),
+           ($2, 'mock_exam', 'Simulacro todo',
+            jsonb_build_object('topic_prefix', $3::text, 'questions', 3)),
+           ($4, 'mock_exam', 'Simulacro grande',
+            jsonb_build_object('topic_prefix', $3::text, 'questions', 30))
+         returning id, slug`,
+        [`${slug}-pack`, `${slug}-sim`, slug, `${slug}-sim30`],
+      );
+      await q("set local role authenticated");
+
+      const r = await q("select public.review_all_batch(true) as r");
+      expect(r.rows[0].r.questions).toBeGreaterThanOrEqual(3);
+      const st = await statuses(q, ids);
+      expect(Object.values(st)).toEqual(["published", "published", "published"]);
+
+      await q("reset role");
+      const p = await q(
+        "select slug, status, (select count(*)::int from public.product_items i where i.product_id = p.id) as n from public.products p where id = any($1::uuid[]) order by slug",
+        [prods.map((x) => x.id)],
+      );
+      expect(p.rows.map((x) => [x.slug.slice(slug.length), x.status, x.n])).toEqual([
+        ["-pack", "published", 3],
+        ["-sim", "published", 0],
+        ["-sim30", "draft", 0], // aún no hay 30 preguntas publicadas
+      ]);
+      const log = await q(
+        "select action from public.audit_log where action = 'content.publish_all' order by created_at desc limit 1",
+      );
+      expect(log.rows).toHaveLength(1);
+    });
+  });
+
   it("no permite usar el lote para archivar ni devolver a borrador", async () => {
     await as(client, { uid: owner.id }, async (q) => {
       await claims(q, owner.id);

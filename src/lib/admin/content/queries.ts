@@ -172,3 +172,17 @@ export async function topicStatusCounts(slug: string): Promise<TopicCounts> {
   }
   return out;
 }
+
+/** Recuento global de preguntas reales con tema, para el botón «publicar todo». */
+export async function contentStatusCounts(): Promise<TopicCounts> {
+  const supabase = await createClient();
+  const { data } = await supabase.rpc("content_status_counts");
+  const out: TopicCounts = { byStatus: {}, flaggedPending: 0, total: 0 };
+  for (const r of (data ?? []) as { status: ContentStatus; flagged: boolean; total: number }[]) {
+    const n = Number(r.total);
+    out.byStatus[r.status] = (out.byStatus[r.status] ?? 0) + n;
+    out.total += n;
+    if (r.flagged && r.status !== "published" && r.status !== "archived") out.flaggedPending += n;
+  }
+  return out;
+}

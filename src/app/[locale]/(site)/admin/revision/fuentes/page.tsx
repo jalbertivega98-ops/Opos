@@ -7,8 +7,10 @@ import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { TransitionForm } from "@/components/admin/transition-form";
 import { BatchReviewForm } from "@/components/admin/batch-review-form";
+import { PublishAllForm } from "@/components/admin/publish-all-form";
 import { getSession } from "@/lib/auth/session";
 import {
+  contentStatusCounts,
   listSourcedQuestions,
   topicStatusCounts,
   topicsWithQuestions,
@@ -36,11 +38,12 @@ export default async function SourceReviewPage({
       ? sp.estado
       : undefined;
   const t = await getTranslations("adminContent");
-  const [rows, topics, { profile }, counts] = await Promise.all([
+  const [rows, topics, { profile }, counts, allCounts] = await Promise.all([
     listSourcedQuestions({ topic, status }),
     topicsWithQuestions(),
     getSession(),
     topic ? topicStatusCounts(topic) : Promise.resolve(null),
+    topic ? Promise.resolve(null) : contentStatusCounts(),
   ]);
   const topicTitle = topics.find((tp) => tp.slug === topic)?.title ?? topic ?? "";
   const isOwner = profile?.role === "owner";
@@ -52,6 +55,7 @@ export default async function SourceReviewPage({
         <p className="text-muted-foreground mt-1 text-sm">{t("sources.subtitle")}</p>
       </div>
       {!isOwner && <Alert>{t("workflow.ownerOnly")}</Alert>}
+      {isOwner && allCounts && allCounts.total > 0 && <PublishAllForm counts={allCounts} />}
 
       <form className="flex flex-wrap items-end gap-3" method="get">
         <label className="space-y-1 text-sm font-medium">

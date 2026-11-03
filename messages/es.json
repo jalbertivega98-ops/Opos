@@ -841,6 +841,15 @@
       "publish": "Publicar las aprobadas",
       "batch_approved": "{count, plural, =0 {No había preguntas que aprobar.} one {# pregunta aprobada.} other {# preguntas aprobadas.}}",
       "batch_published": "{count, plural, =0 {No había preguntas aprobadas que publicar.} one {# pregunta publicada.} other {# preguntas publicadas.}}"
+    },
+    "publishAll": {
+      "title": "Aprobar y publicar todo",
+      "counts": "{pending} preguntas pendientes de publicar · {published} ya publicadas",
+      "includeFlagged": "Incluir también las {count} marcadas como dudosas",
+      "confirm": "Confirmo que apruebo y publico todas las preguntas pendientes, y los packs y simulacros que las usan.",
+      "button": "Aprobar y publicar todo",
+      "working": "Publicando…",
+      "done": "Hecho: {questions} preguntas y {products} productos publicados."
     }
   },
   "store": {

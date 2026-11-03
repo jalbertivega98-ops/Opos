@@ -6,7 +6,7 @@
 begin;
 insert into public.products (slug, type, status, title, title_ca, description, description_ca, exam_body_id, is_free, included_in_premium, config)
 select v.slug, 'question_pack', 'draft', v.title, v.title_ca, v.descr, v.descr_ca, b.id, false, true,
-       jsonb_build_object('topic_prefix', 'mossos-' || substr(v.slug, 14, 1))
+       jsonb_build_object('topic_prefix', 'mossos-' || substr(v.slug, 14, 1), 'locale', 'ca')
   from public.exam_bodies b,
   (values
     ('mossos-ambit-a-guia-2026', 'Mossos · Ámbito A: sociedad (Guia 2026)', 'Mossos · Àmbit A: societat (Guia 2026)',
