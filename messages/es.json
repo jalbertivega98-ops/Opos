@@ -497,6 +497,9 @@
         "name": "Atención y concentración",
         "prompt": "Responde con precisión.",
         "description": "Recuento de símbolos y detección de diferencias."
+      },
+      "question": {
+        "name": "Preguntas de temario"
       }
     },
     "wrongShort": "Incorrecto",
@@ -663,7 +666,10 @@
     "toProgress": "Ver mi progreso",
     "resolved": "Repasado",
     "mixed": "Mixta",
-    "failedTitle": "Fallos pendientes"
+    "failedTitle": "Fallos pendientes",
+    "reviewPsycho": "Repasar psicotécnicos",
+    "reviewQuestions": "Repasar preguntas",
+    "reviewSplit": "Psicotécnicos: {psycho} · Preguntas: {questions}"
   },
   "progress": {
     "title": "Mi progreso",
@@ -804,7 +810,27 @@
       "duplicates": "Duplicadas (ya existían): líneas {lines}",
       "invalid": "Línea {line}: {errors}"
     },
-    "deleted": "Borrador eliminado."
+    "deleted": "Borrador eliminado.",
+    "navSources": "Revisión con fuente",
+    "sources": {
+      "title": "Revisión con fuente",
+      "subtitle": "Cada pregunta junto al artículo y el extracto en que se basa. Aquí solo se lee: la aprobación la haces tú desde la ficha de la pregunta o la cola de revisión.",
+      "topic": "Tema",
+      "allTopics": "Todos los temas",
+      "ref": "Referencia",
+      "excerpt": "Extracto de la fuente",
+      "noExcerpt": "Sin extracto guardado",
+      "note": "Nota para la revisión",
+      "partial": "Extracto parcial",
+      "source": "Fuente",
+      "open": "Abrir ficha",
+      "explanation": "Explicación",
+      "correctMark": "Correcta",
+      "count": "{count, plural, one {# pregunta} other {# preguntas}}",
+      "empty": "No hay preguntas con fuente para este filtro.",
+      "testBadge": "PRUEBA",
+      "aiBadge": "Redactada por IA"
+    }
   },
   "store": {
     "types": {
@@ -933,7 +959,35 @@
         "purchase": "Comprado",
         "subscription": "Premium",
         "free": "Gratuito"
+      },
+      "start": "Practicar",
+      "count": "Preguntas por test",
+      "questionsCount": "{count, plural, one {# pregunta} other {# preguntas}}",
+      "test": "PRUEBA",
+      "errors": {
+        "invalid": "Elige un producto válido.",
+        "access": "No tienes acceso a ese producto.",
+        "start": "No se pudo empezar la práctica."
       }
+    }
+  },
+  "questions": {
+    "question": "Pregunta {n} de {total}",
+    "item": "Pregunta {n}",
+    "progress": "Progreso del test",
+    "options": "Opciones de respuesta",
+    "correct": "¡Correcto!",
+    "wrongShort": "Incorrecta",
+    "wrong": "Incorrecta. La respuesta correcta es la {letter}.",
+    "reference": "Referencia: {ref}",
+    "next": "Siguiente",
+    "finish": "Ver resultados",
+    "resolved": "Repasada",
+    "errors": {
+      "invalid": "Respuesta no válida.",
+      "auth": "Vuelve a iniciar sesión.",
+      "changed": "La pregunta se ha actualizado. Vuelve a empezar la práctica.",
+      "state": "No se pudo guardar la respuesta. Recarga la página."
     }
   }
 }

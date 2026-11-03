@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { PsychoTrainer } from "@/components/psycho/trainer";
 import { PracticeReview } from "@/components/psycho/review";
+import { QuestionPlayer } from "@/components/questions/player";
+import { QuestionReview, type AnsweredQuestion } from "@/components/questions/review";
+import type { PresentedQuestion } from "@/lib/learning/questions/schema";
 import { requireUser } from "@/lib/auth/session";
 import { getPracticeSession } from "@/lib/learning/practice/queries";
 import { duration, pct, secondsOf } from "@/lib/learning/practice/format";
@@ -31,6 +34,22 @@ export default async function PracticeSessionPage({
   if (!data) notFound(); // RLS: una sesión ajena es indistinguible de una inexistente
   const { session, items } = data;
   const t = await getTranslations("practice");
+
+  const isQuestions = session.item_type === "question";
+
+  if (session.status === "active" && isQuestions) {
+    return (
+      <div className="mx-auto max-w-2xl space-y-4">
+        <h1 className="text-2xl font-bold">{t(`modes.${session.mode}`)}</h1>
+        <QuestionPlayer
+          key={session.answered_count}
+          items={items.map((it) => it.presented as unknown as PresentedQuestion)}
+          sessionId={session.id}
+          startAt={session.answered_count}
+        />
+      </div>
+    );
+  }
 
   if (session.status === "active") {
     const pub: PublicPsychoItem[] = items.map((it) => ({
@@ -73,7 +92,7 @@ export default async function PracticeSessionPage({
         )}
         <div className="flex flex-wrap justify-center gap-3 pt-2">
           <Button asChild variant="accent">
-            <Link href="/app/practica">{t("again")}</Link>
+            <Link href={isQuestions ? "/app/productos" : "/app/practica"}>{t("again")}</Link>
           </Button>
           <Button asChild variant="outline">
             <Link href="/app/progreso">{t("toProgress")}</Link>
@@ -84,7 +103,11 @@ export default async function PracticeSessionPage({
         <h2 id="items-title" className="text-lg font-semibold">
           {t("itemsTitle")}
         </h2>
-        <PracticeReview items={answered} />
+        {isQuestions ? (
+          <QuestionReview items={answered as unknown as AnsweredQuestion[]} />
+        ) : (
+          <PracticeReview items={answered} />
+        )}
       </section>
     </div>
   );

@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, EmptyState } from "@/components/ui/card";
 import { PracticeReview } from "@/components/psycho/review";
+import { QuestionReview, type AnsweredQuestion } from "@/components/questions/review";
 import { requireUser } from "@/lib/auth/session";
 import { getPracticeStats, listPendingFailures } from "@/lib/learning/practice/queries";
 import { pct, secondsOf } from "@/lib/learning/practice/format";
@@ -200,7 +201,16 @@ export default async function ProgressPage({ params }: PageProps<"/[locale]/app/
           )}
         </div>
         {failures.length > 0 ? (
-          <PracticeReview items={failures} />
+          <>
+            {failures.some((f) => f.source === "question") && (
+              <QuestionReview
+                items={
+                  failures.filter((f) => f.source === "question") as unknown as AnsweredQuestion[]
+                }
+              />
+            )}
+            <PracticeReview items={failures.filter((f) => f.source !== "question")} />
+          </>
         ) : (
           <p className="text-muted-foreground mt-3 text-sm">{tr("reviewEmpty")}</p>
         )}

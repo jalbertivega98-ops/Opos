@@ -497,6 +497,9 @@
         "name": "Atenció i concentració",
         "prompt": "Respon amb precisió.",
         "description": "Recompte de símbols i detecció de diferències."
+      },
+      "question": {
+        "name": "Preguntes de temari"
       }
     },
     "wrongShort": "Incorrecte",
@@ -663,7 +666,10 @@
     "toProgress": "Veure el meu progrés",
     "resolved": "Repassat",
     "mixed": "Mixta",
-    "failedTitle": "Errors pendents"
+    "failedTitle": "Errors pendents",
+    "reviewPsycho": "Repassar psicotècnics",
+    "reviewQuestions": "Repassar preguntes",
+    "reviewSplit": "Psicotècnics: {psycho} · Preguntes: {questions}"
   },
   "progress": {
     "title": "El meu progrés",
@@ -804,7 +810,27 @@
       "duplicates": "Duplicades (ja existien): línies {lines}",
       "invalid": "Línia {line}: {errors}"
     },
-    "deleted": "Esborrany eliminat."
+    "deleted": "Esborrany eliminat.",
+    "navSources": "Revisió amb font",
+    "sources": {
+      "title": "Revisió amb font",
+      "subtitle": "Cada pregunta al costat de l'article i l'extracte en què es basa. Aquí només es llegeix: l'aprovació la fas tu des de la fitxa de la pregunta o la cua de revisió.",
+      "topic": "Tema",
+      "allTopics": "Tots els temes",
+      "ref": "Referència",
+      "excerpt": "Extracte de la font",
+      "noExcerpt": "Sense extracte desat",
+      "note": "Nota per a la revisió",
+      "partial": "Extracte parcial",
+      "source": "Font",
+      "open": "Obrir fitxa",
+      "explanation": "Explicació",
+      "correctMark": "Correcta",
+      "count": "{count, plural, one {# pregunta} other {# preguntes}}",
+      "empty": "No hi ha preguntes amb font per a aquest filtre.",
+      "testBadge": "PROVA",
+      "aiBadge": "Redactada per IA"
+    }
   },
   "store": {
     "types": {
@@ -933,7 +959,35 @@
         "purchase": "Comprat",
         "subscription": "Premium",
         "free": "Gratuït"
+      },
+      "start": "Practicar",
+      "count": "Preguntes per test",
+      "questionsCount": "{count, plural, one {# pregunta} other {# preguntes}}",
+      "test": "PROVA",
+      "errors": {
+        "invalid": "Tria un producte vàlid.",
+        "access": "No tens accés a aquest producte.",
+        "start": "No s'ha pogut començar la pràctica."
       }
+    }
+  },
+  "questions": {
+    "question": "Pregunta {n} de {total}",
+    "item": "Pregunta {n}",
+    "progress": "Progrés del test",
+    "options": "Opcions de resposta",
+    "correct": "Correcte!",
+    "wrongShort": "Incorrecta",
+    "wrong": "Incorrecta. La resposta correcta és la {letter}.",
+    "reference": "Referència: {ref}",
+    "next": "Següent",
+    "finish": "Veure resultats",
+    "resolved": "Repassada",
+    "errors": {
+      "invalid": "Resposta no vàlida.",
+      "auth": "Torna a iniciar sessió.",
+      "changed": "La pregunta s'ha actualitzat. Torna a començar la pràctica.",
+      "state": "No s'ha pogut desar la resposta. Recarrega la pàgina."
     }
   }
 }

@@ -74,13 +74,13 @@ test.describe("Práctica con resultados guardados", () => {
     await page.goto("/app/practica");
     const failed = 5 - correct;
     if (failed > 0) {
-      await page.getByRole("button", { name: "Repasar fallos" }).click();
+      await page.getByRole("button", { name: "Repasar psicotécnicos" }).click();
       await expect(page).toHaveURL(/\/app\/practica\/[0-9a-f-]{36}$/);
       await expect(page.getByRole("heading", { level: 1 })).toHaveText("Repaso");
       await answerAll(page, failed);
       await expect(page.getByTestId("practice-summary")).toBeVisible();
     } else {
-      await expect(page.getByRole("button", { name: "Repasar fallos" })).toBeDisabled();
+      await expect(page.getByRole("button", { name: "Repasar psicotécnicos" })).toBeDisabled();
     }
 
     // Otra persona no puede ver la sesión

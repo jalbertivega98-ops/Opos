@@ -13,12 +13,13 @@ export type ProductRow = {
   exam_body_id: string | null;
   is_free: boolean;
   included_in_premium: boolean;
+  is_test: boolean;
   updated_at: string;
   prices: { id: string; amount_cents: number; billing_interval: string | null; active: boolean }[];
 };
 
 const COLS =
-  "id, slug, type, status, title, title_ca, description, description_ca, exam_body_id, is_free, included_in_premium, updated_at, prices:product_prices(id, amount_cents, billing_interval, active)";
+  "id, slug, type, status, title, title_ca, description, description_ca, exam_body_id, is_free, included_in_premium, is_test, updated_at, prices:product_prices(id, amount_cents, billing_interval, active)";
 
 export async function listProducts() {
   const supabase = await createClient();
@@ -47,12 +48,14 @@ export async function getProduct(id: string) {
 }
 
 /** Preguntas que pueden incluirse en un producto (solo revisadas). */
-export async function reviewedQuestions(limit = 200) {
+export async function reviewedQuestions(isTest = false, limit = 200) {
   const supabase = await createClient();
+  // un producto de prueba solo admite preguntas de prueba, y uno real solo reales
   const { data } = await supabase
     .from("questions")
     .select("id, stem, category, status")
     .in("status", ["approved", "published"])
+    .eq("is_test", isTest)
     .order("category")
     .limit(limit);
   return (data ?? []) as { id: string; stem: string; category: string; status: string }[];
@@ -89,12 +92,18 @@ export type LibraryItem = {
   title_ca: string | null;
   source: string;
   ends_at: string | null;
+  is_test: boolean;
+  question_count: number;
 };
 
 export async function myLibrary() {
   const supabase = await createClient();
   const { data } = await supabase.rpc("my_library");
-  return (data ?? []) as LibraryItem[];
+  // count(*) llega como bigint (texto o número según el cliente)
+  return ((data ?? []) as LibraryItem[]).map((r) => ({
+    ...r,
+    question_count: Number(r.question_count),
+  }));
 }
 
 /** Precio activo de Premium para mostrarlo (configurable en el panel). */

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "set": "prueba-pack-demo-v1",
+    "is_test": true,
+    "exam": "mossos-esquadra",
+    "locale": "es",
+    "category": "prueba",
+    "author": "Contenido de PRUEBA para el recorrido E2E (no es temario)",
+    "product": {
+      "slug": "prueba-pack-demo",
+      "title": "[PRUEBA] Pack de demostración",
+      "title_ca": "[PROVA] Paquet de demostració",
+      "description": "Contenido de prueba para comprobar el recorrido del alumno. No es material de la oposición."
+    }
+  },
+  "questions": [
+    { "ref": "prueba", "stem": "[PRUEBA] ¿Cuánto es 2 + 3?", "options": ["4", "5", "6", "7"], "correct": 1, "difficulty": 1, "explanation": "Pregunta de prueba: 2 + 3 = 5." },
+    { "ref": "prueba", "stem": "[PRUEBA] ¿Qué color se obtiene al mezclar azul y amarillo?", "options": ["Verde", "Morado", "Naranja", "Gris"], "correct": 0, "difficulty": 1, "explanation": "Pregunta de prueba: azul + amarillo = verde." },
+    { "ref": "prueba", "stem": "[PRUEBA] ¿Cuántos días tiene una semana?", "options": ["5", "6", "8", "7"], "correct": 3, "difficulty": 1, "explanation": "Pregunta de prueba: una semana tiene 7 días." },
+    { "ref": "prueba", "stem": "[PRUEBA] ¿Cuál de estos animales es un mamífero?", "options": ["Trucha", "Gorrión", "Delfín", "Lagarto"], "correct": 2, "difficulty": 1, "explanation": "Pregunta de prueba: el delfín es un mamífero." },
+    { "ref": "prueba", "stem": "[PRUEBA] ¿Cuánto es 10 − 4?", "options": ["6", "5", "7", "4"], "correct": 0, "difficulty": 1, "explanation": "Pregunta de prueba: 10 − 4 = 6." },
+    { "ref": "prueba", "stem": "[PRUEBA] ¿Qué mes va después de marzo?", "options": ["Febrero", "Abril", "Mayo", "Junio"], "correct": 1, "difficulty": 1, "explanation": "Pregunta de prueba: después de marzo va abril." }
+  ]
+}

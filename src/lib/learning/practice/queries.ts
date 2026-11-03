@@ -17,6 +17,7 @@ export type PracticeSession = {
 
 export type PracticeItemRow = {
   position: number;
+  source: "generator" | "question";
   item_type: string;
   difficulty: number;
   seed: number;
@@ -53,7 +54,7 @@ export async function getPracticeSession(id: string) {
     supabase
       .from("practice_items")
       .select(
-        "position, item_type, difficulty, seed, presented, chosen_index, is_correct, answer_index, explanation, time_ms, reviewed_at",
+        "position, source, item_type, difficulty, seed, presented, chosen_index, is_correct, answer_index, explanation, time_ms, reviewed_at",
       )
       .eq("session_id", id)
       .order("position")
@@ -91,7 +92,7 @@ export async function listPendingFailures(limit = 20) {
   const { data } = await supabase
     .from("practice_items")
     .select(
-      "session_id, position, item_type, difficulty, presented, chosen_index, is_correct, answer_index, explanation, answered_at",
+      "session_id, position, source, item_type, difficulty, presented, chosen_index, is_correct, answer_index, explanation, answered_at",
     )
     .eq("is_correct", false)
     .is("reviewed_at", null)
@@ -101,4 +102,20 @@ export async function listPendingFailures(limit = 20) {
     session_id: string;
     answered_at: string;
   })[];
+}
+
+/** Fallos pendientes de repaso, separados por origen (psicotécnicos / preguntas). */
+export async function pendingBySource() {
+  const supabase = await createClient();
+  const count = async (source: "generator" | "question") => {
+    const { count: n } = await supabase
+      .from("practice_items")
+      .select("position", { count: "exact", head: true })
+      .eq("source", source)
+      .eq("is_correct", false)
+      .is("reviewed_at", null);
+    return n ?? 0;
+  };
+  const [psycho, questions] = await Promise.all([count("generator"), count("question")]);
+  return { psycho, questions };
 }

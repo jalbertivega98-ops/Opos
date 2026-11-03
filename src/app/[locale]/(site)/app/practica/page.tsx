@@ -7,7 +7,12 @@ import { Alert } from "@/components/ui/form";
 import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth/session";
 import { startPracticeAction, startReviewAction } from "@/lib/learning/practice/actions";
-import { getPracticeStats, listRecentSessions } from "@/lib/learning/practice/queries";
+import { startQuestionReviewAction } from "@/lib/learning/questions/actions";
+import {
+  getPracticeStats,
+  listRecentSessions,
+  pendingBySource,
+} from "@/lib/learning/practice/queries";
 import { SESSION_SIZES } from "@/lib/learning/practice/schema";
 import { availableTypes } from "@/lib/learning/psycho/registry";
 
@@ -32,7 +37,11 @@ export default async function PracticeHub({
   const t = await getTranslations("practice");
   const tp = await getTranslations("psycho");
   const format = await getFormatter();
-  const [stats, recent] = await Promise.all([getPracticeStats(7), listRecentSessions(10)]);
+  const [stats, recent, split] = await Promise.all([
+    getPracticeStats(7),
+    listRecentSessions(10),
+    pendingBySource(),
+  ]);
   const pending = stats?.totals.pending_review ?? 0;
   const types = availableTypes();
 
@@ -97,12 +106,22 @@ export default async function PracticeHub({
           <p className="mt-3 text-sm" data-testid="pending-review">
             {t("reviewBody", { count: pending })}
           </p>
+          <p className="text-muted-foreground mt-1 text-xs" data-testid="pending-split">
+            {t("reviewSplit", { psycho: split.psycho, questions: split.questions })}
+          </p>
           <p className="text-muted-foreground mt-2 text-xs">{t("reviewHint")}</p>
-          <form action={startReviewAction} className="mt-4">
-            <Button type="submit" variant="outline" disabled={pending === 0}>
-              {t("reviewStart")}
-            </Button>
-          </form>
+          <div className="mt-4 flex flex-wrap gap-2">
+            <form action={startReviewAction}>
+              <Button type="submit" variant="outline" size="sm" disabled={split.psycho === 0}>
+                {t("reviewPsycho")}
+              </Button>
+            </form>
+            <form action={startQuestionReviewAction}>
+              <Button type="submit" variant="outline" size="sm" disabled={split.questions === 0}>
+                {t("reviewQuestions")}
+              </Button>
+            </form>
+          </div>
         </Card>
       </div>
 

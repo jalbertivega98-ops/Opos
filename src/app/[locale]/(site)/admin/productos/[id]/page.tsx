@@ -23,7 +23,7 @@ export default async function ProductPage({
   const { product: p, questionIds } = data;
   const t = await getTranslations("store");
   const usesQuestions = p.type === "question_pack" || p.type === "mock_exam" || p.type === "pdf";
-  const questions = usesQuestions ? await reviewedQuestions() : [];
+  const questions = usesQuestions ? await reviewedQuestions(p.is_test) : [];
   const price = p.prices.find((x) => x.active);
   return (
     <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">

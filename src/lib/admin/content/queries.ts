@@ -103,3 +103,52 @@ export async function examBodyOptions() {
   const { data } = await supabase.from("exam_bodies").select("id, slug, name").order("name");
   return (data ?? []) as { id: string; slug: string; name: string }[];
 }
+
+export type SourcedQuestion = {
+  id: string;
+  stem: string;
+  explanation: string | null;
+  status: ContentStatus;
+  difficulty: number;
+  locale: "es" | "ca";
+  ai_generated: boolean;
+  is_test: boolean;
+  source_ref: string | null;
+  source_excerpt: string | null;
+  review_note: string | null;
+  topic: { slug: string; title: string } | null;
+  source: { title: string; url: string; kind: string; published_on: string | null } | null;
+  options: { label: string; body: string; is_correct: boolean }[];
+};
+
+/** Preguntas con referencia a su fuente, para revisarlas junto al extracto. */
+export async function listSourcedQuestions(f: { topic?: string; status?: string }) {
+  const supabase = await createClient();
+  let query = supabase
+    .from("questions")
+    .select(
+      "id, stem, explanation, status, difficulty, locale, ai_generated, is_test, source_ref, source_excerpt, review_note, topic:topics!inner(slug, title), source:sources(title, url, kind, published_on), options:question_options(label, body, is_correct)",
+    )
+    .not("source_ref", "is", null)
+    .eq("is_test", false)
+    .order("created_at")
+    .limit(200);
+  if (f.topic) query = query.eq("topic.slug", f.topic);
+  if (f.status) query = query.eq("status", f.status);
+  const { data, error } = await query.returns<SourcedQuestion[]>();
+  if (error) throw new Error(`sourced questions: ${error.message}`);
+  return (data ?? []).map((q) => ({
+    ...q,
+    options: [...q.options].sort((a, b) => a.label.localeCompare(b.label)),
+  }));
+}
+
+export async function topicsWithQuestions() {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("topics")
+    .select("slug, title, questions!inner(id)")
+    .order("slug")
+    .returns<{ slug: string; title: string }[]>();
+  return (data ?? []).map(({ slug, title }) => ({ slug, title }));
+}
