@@ -3,11 +3,15 @@ import { NextResponse, type NextRequest } from "next/server";
 import { routing } from "@/i18n/routing";
 import { refreshSession } from "@/lib/supabase/session";
 import { isProtectedPath, stripLocale } from "@/lib/paths";
+import { previewGate } from "@/lib/preview";
 
 const intl = createIntlMiddleware(routing);
 
 export async function proxy(request: NextRequest) {
+  const denied = previewGate(request);
+  if (denied) return denied;
   const response = intl(request);
+  if (process.env.PREVIEW_PASSWORD) response.headers.set("X-Robots-Tag", "noindex, nofollow");
   // Si next-intl redirige (p. ej. normalización de idioma), no hace falta más.
   if (response.headers.get("location")) return response;
 
