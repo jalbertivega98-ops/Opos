@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { Check, X } from "lucide-react";
+import { Check, Minus, X } from "lucide-react";
 import { Badge } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import type { PresentedQuestion, QuestionExplanation } from "@/lib/learning/questions/schema";
@@ -30,6 +30,8 @@ export async function QuestionReview({ items }: { items: AnsweredQuestion[] }) {
           <div className="flex flex-wrap items-center gap-2 text-sm">
             {it.is_correct ? (
               <Check className="text-success size-5" aria-label={t("correct")} />
+            ) : it.chosen_index === null ? (
+              <Minus className="text-muted-foreground size-5" aria-label={t("blank")} />
             ) : (
               <X className="text-danger size-5" aria-label={t("wrongShort")} />
             )}

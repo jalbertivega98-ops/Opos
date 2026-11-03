@@ -21,6 +21,10 @@ Para probar la app desde cualquier navegador **sin publicarla**: web protegida c
    - `PREVIEW_PASSWORD` = contraseña para entrar en la web
 3. Deploy.
 
+## 3. Contenido nuevo (después del paso 1)
+
+En el SQL Editor, en este orden y una sola vez cada uno (todos son idempotentes): `3-b1-guia-ca.sql`, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-mossos-…`, `6-packs-mossos-ca.sql`, `7-simulacros.sql`. Después, con `admin@aprobia.test`: aprobar y publicar por temas en `/admin/revision/fuentes`, y publicar los packs y el simulacro en `/admin/productos`.
+
 ## Regenerar el SQL
 
 `supabase/preview/1-esquema-y-contenido.sql` se genera a partir de `supabase/migrations`, `seed.sql` y `content/` con `scripts/content/to-sql.mjs` (ver historial de la sesión 3). No editar a mano.

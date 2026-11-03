@@ -11,6 +11,8 @@ import { formatPrice } from "@/lib/store/schema";
 import { Alert } from "@/components/ui/form";
 import { startProductPracticeAction } from "@/lib/learning/questions/actions";
 import { PACK_SIZES } from "@/lib/learning/questions/schema";
+import { startMockAction } from "@/lib/learning/mock/actions";
+import { mockFormats, myMockAttempts } from "@/lib/learning/mock/queries";
 
 export async function generateMetadata({
   params,
@@ -27,14 +29,22 @@ export default async function LibraryPage({
   const { locale } = await params;
   const sp = await searchParams;
   const errorKey =
-    typeof sp.error === "string" && ["invalid", "access", "start"].includes(sp.error)
+    typeof sp.error === "string" && ["invalid", "access", "start", "pool"].includes(sp.error)
       ? sp.error
       : null;
   setRequestLocale(locale);
   await requireUser(locale, "/app/productos");
   const t = await getTranslations("store");
   const format = await getFormatter();
-  const [items, price] = await Promise.all([myLibrary(), premiumPrice()]);
+  const [items, price, attempts] = await Promise.all([
+    myLibrary(),
+    premiumPrice(),
+    myMockAttempts(5),
+  ]);
+  const formats = await mockFormats(
+    items.filter((it) => it.type === "mock_exam").map((it) => it.product_id),
+  );
+  const activeMock = new Set(attempts.filter((a) => a.inProgress).map((a) => a.product_id));
   return (
     <div className="space-y-6">
       <div>
@@ -77,38 +87,89 @@ export default async function LibraryPage({
                       </Badge>
                     )}
                   </div>
-                  {it.question_count > 0 && (
-                    <form
-                      action={startProductPracticeAction}
-                      className="flex flex-wrap items-end gap-2 pt-2"
-                    >
+                  {it.type === "mock_exam" ? (
+                    <form action={startMockAction} className="space-y-2 pt-2">
                       <input type="hidden" name="productId" value={it.product_id} />
-                      <label className="space-y-1 text-xs font-medium">
-                        {t("library.count")}
-                        <select
-                          name="count"
-                          defaultValue={String(Math.min(10, it.question_count))}
-                          className="border-input bg-background block h-10 rounded-lg border px-2 text-sm"
-                        >
-                          {PACK_SIZES.filter((n) => n <= Math.max(5, it.question_count)).map(
-                            (n) => (
-                              <option key={n} value={n}>
-                                {n}
-                              </option>
-                            ),
-                          )}
-                        </select>
-                      </label>
-                      <Button type="submit" variant="accent" size="sm">
-                        {t("library.start")}
+                      <p className="text-muted-foreground text-xs" data-testid="mock-format">
+                        {t("library.mockFormat", {
+                          questions: formats.get(it.product_id)?.questions ?? 30,
+                          minutes: formats.get(it.product_id)?.minutes ?? 35,
+                          penalty: formats.get(it.product_id)?.penalty ?? 0.25,
+                          min: formats.get(it.product_id)?.pass_mark ?? 4,
+                        })}
+                      </p>
+                      <Button type="submit" variant="accent" size="sm" data-testid="mock-start">
+                        {activeMock.has(it.product_id)
+                          ? t("library.resumeMock")
+                          : t("library.startMock")}
                       </Button>
                     </form>
+                  ) : (
+                    it.question_count > 0 && (
+                      <form
+                        action={startProductPracticeAction}
+                        className="flex flex-wrap items-end gap-2 pt-2"
+                      >
+                        <input type="hidden" name="productId" value={it.product_id} />
+                        <label className="space-y-1 text-xs font-medium">
+                          {t("library.count")}
+                          <select
+                            name="count"
+                            defaultValue={String(Math.min(10, it.question_count))}
+                            className="border-input bg-background block h-10 rounded-lg border px-2 text-sm"
+                          >
+                            {PACK_SIZES.filter((n) => n <= Math.max(5, it.question_count)).map(
+                              (n) => (
+                                <option key={n} value={n}>
+                                  {n}
+                                </option>
+                              ),
+                            )}
+                          </select>
+                        </label>
+                        <Button type="submit" variant="accent" size="sm">
+                          {t("library.start")}
+                        </Button>
+                      </form>
+                    )
                   )}
                 </div>
               </Card>
             </li>
           ))}
         </ul>
+      )}
+      {attempts.length > 0 && (
+        <section aria-labelledby="mock-history" className="space-y-3">
+          <h2 id="mock-history" className="text-lg font-semibold">
+            {t("library.mockHistory")}
+          </h2>
+          <ul className="divide-border divide-y rounded-xl border" data-testid="mock-history">
+            {attempts.map((a) => (
+              <li key={a.id}>
+                <Link
+                  href={`/app/simulacros/${a.id}`}
+                  className="hover:bg-surface flex flex-wrap items-center justify-between gap-2 px-4 py-3 text-sm"
+                >
+                  <span className="font-medium">{localized(locale, a.title, a.title_ca)}</span>
+                  <span className="text-muted-foreground">
+                    {format.dateTime(new Date(a.started_at), {
+                      dateStyle: "medium",
+                      timeStyle: "short",
+                    })}
+                  </span>
+                  {a.status === "active" ? (
+                    <Badge tone="accent">{t("library.mockInProgress")}</Badge>
+                  ) : (
+                    <Badge tone={a.passed ? "success" : "warning"}>
+                      {format.number(a.mark ?? 0)} / {a.config.max_mark}
+                    </Badge>
+                  )}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
       {price !== null && (
         <Card className="border-accent flex flex-wrap items-center justify-between gap-4">

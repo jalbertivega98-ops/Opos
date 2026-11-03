@@ -6,7 +6,7 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 
 ## Camino crítico
 
-~~USR-007/008/009~~ → ~~ADM-001..003~~ → ~~CNT-002..004~~ → ~~LRN-001/005~~ → ~~PSY-001..005~~ → `CNT-007` (temario completo Mossos: 402 preguntas en borrador, **pendiente aprobación por lotes de joel**) → `STO-006` (packs hechos, faltan simulacros) + ~~`LRN-003`~~ → `MOC-001..002` → `STO-008/BIZ-002..003` (con autorización) → `QA/SEC` → `LAU`
+~~USR-007/008/009~~ → ~~ADM-001..003~~ → ~~CNT-002..004~~ → ~~LRN-001/005~~ → ~~PSY-001..005~~ → `CNT-007` (temario completo Mossos: 402 preguntas en borrador, **pendiente aprobación por lotes de joel**) → `STO-006` (packs y simulacro hechos) + ~~`LRN-003`~~ → ~~`MOC-001`~~ → `MOC-002` → `STO-008/BIZ-002..003` (con autorización) → `QA/SEC` → `LAU`
 
 ## Bloqueos y decisiones pendientes (requieren a joel)
 
@@ -17,7 +17,7 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 - **DEC-005** "Aprobia" es nombre **provisional** hasta verificar marca y dominio.
 - ~~**DEC-006**~~ (2026-11-03) Claude investiga fuentes y exámenes de cada oposición y genera las preguntas, con segunda revisión propia contra la fuente que marca las dudosas; **joel aprueba por lotes** (CNT-010 hecho: `/admin/revision/fuentes?tema=…`, las dudosas con nota quedan fuera salvo que se marquen). Las preguntas deben calcar formato, reparto de temas, estilo y dificultad de los exámenes oficiales anteriores de cada oposición, con redacción original.
 - ~~**SRC-001**~~ (2026-11-03) Fuentes oficiales de la 46/26 **verificadas** desde el Chrome de joel (bases, calendario, Guia d'estudi juny 2026, esmenes, Model 01, plantillas). Ver `docs/research/mossos-46-26-fuentes.md`.
-- **REV-001** Revisión y aprobación por lotes por joel del **temario completo de Mossos en catalán** (Guia d'estudi 2026): 20 temas, 402 preguntas (`content/mossos/{a1..c5}-*.json`), todas con cita literal verificada automáticamente (`scripts/content/verify-excerpts.mjs`). Las que tienen nota de revisión son dudosas y quedan fuera del lote salvo que se marquen. Ninguna está aprobada ni publicada. En la preview: ejecutar en orden `supabase/preview/3-…`, `4-aprobacion-por-lotes.sql`, `5a/5b/5c-temario-…`, `6-packs-mossos-ca.sql`.
+- **REV-001** Revisión y aprobación por lotes por joel del **temario completo de Mossos en catalán** (Guia d'estudi 2026): 20 temas, 402 preguntas (`content/mossos/{a1..c5}-*.json`), todas con cita literal verificada automáticamente (`scripts/content/verify-excerpts.mjs`). Las que tienen nota de revisión son dudosas y quedan fuera del lote salvo que se marquen. Ninguna está aprobada ni publicada. En la preview: ejecutar en orden `supabase/preview/3-…`, `4-aprobacion-por-lotes.sql`, `5a/5b/5c-temario-…`, `6-packs-mossos-ca.sql`, `7-simulacros.sql` (simulacro en borrador: publicarlo en `/admin/productos` cuando haya ≥30 preguntas publicadas).
 
 ---
 
@@ -97,7 +97,7 @@ Formato de cada fila: **ID** · descripción · P · dependencias · estado · c
 | PSY-003 | Matrices/figuras (SVG), cubos y espaciales             | P1  | PSY-001                    | DONE    | Accesible + verificable                                                                                                              | psycho/*                     | U       |
 | PSY-004 | Verbales, atención y lógica                            | P1  | PSY-001                    | DONE    | —                                                                                                                                    | psycho/*                     | U       |
 | PSY-005 | UI de psicotécnicos con temporizador                   | P0  | PSY-002                    | DONE    | Temporizador y progreso; falta pausa                                                                                                 | app/app/psicotecnicos        | E2E     |
-| MOC-001 | Simulacro con configuración de `exam_tests`            | P0  | LRN-003                    | BACKLOG | Oficial 46/26: 30 preg., 35 min, −1/4, mínimo 4                                                                                      | app/app/simulacros           | U, E2E  |
+| MOC-001 | Simulacro con formato oficial (`mock_exam` + config)   | P0  | LRN-003                    | DONE    | 30 preg. (1 por tema + azar), 35 min en BD, −1/4, nota /10, mínimo 4; blanco y cambios permitidos; anula preguntas retiradas         | app/app/simulacros           | U, E2E  |
 | MOC-002 | Historial, evolución y repetición de errores           | P1  | MOC-001                    | BACKLOG | —                                                                                                                                    | —                            | E2E     |
 | GAM-001 | Rachas, XP, niveles, logros, retos (sobrios)           | P2  | LRN-005                    | BACKLOG | Sin elementos infantiles                                                                                                             | lib/learning/gamification.ts | U       |
 

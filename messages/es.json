@@ -978,8 +978,14 @@
       "errors": {
         "invalid": "Elige un producto válido.",
         "access": "No tienes acceso a ese producto.",
-        "start": "No se pudo empezar la práctica."
-      }
+        "start": "No se pudo empezar la práctica.",
+        "pool": "Este simulacro aún no tiene suficientes preguntas publicadas."
+      },
+      "startMock": "Empezar el simulacro",
+      "resumeMock": "Continuar el simulacro",
+      "mockFormat": "{questions} preguntas · {minutes} min · error −{penalty, number} · mínimo {min}",
+      "mockHistory": "Tus últimos simulacros",
+      "mockInProgress": "En curso"
     }
   },
   "questions": {
@@ -999,6 +1005,42 @@
       "auth": "Vuelve a iniciar sesión.",
       "changed": "La pregunta se ha actualizado. Vuelve a empezar la práctica.",
       "state": "No se pudo guardar la respuesta. Recarga la página."
-    }
+    },
+    "blank": "En blanco"
+  },
+  "mock": {
+    "title": "Simulacro",
+    "timeLeft": "Tiempo restante",
+    "answered": "{answered} de {total} contestadas",
+    "navigator": "Preguntas del simulacro",
+    "goBlank": "Pregunta {n}, en blanco",
+    "goAnswered": "Pregunta {n}, contestada",
+    "question": "Pregunta {n} de {total}",
+    "options": "Opciones de respuesta",
+    "clear": "Dejar en blanco",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "rules": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar. Cada error resta el {penalty} % de un acierto; las preguntas en blanco no restan. Cuando se acabe el tiempo se entrega solo.",
+    "submit": "Entregar el simulacro",
+    "confirmBlank": "Tienes {blank, plural, one {# pregunta} other {# preguntas}} en blanco. ¿Quieres entregar igualmente?",
+    "confirmAll": "Has contestado todas las preguntas. ¿Quieres entregar?",
+    "submitConfirm": "Sí, entregar",
+    "keepGoing": "Continuar",
+    "errors": {
+      "invalid": "No se ha podido guardar la respuesta. Inténtalo de nuevo.",
+      "auth": "Vuelve a iniciar sesión.",
+      "closed": "Se ha acabado el tiempo."
+    },
+    "mark": "{mark, number} / {max}",
+    "passed": "Superado (mínimo {min})",
+    "failed": "No superado (mínimo {min})",
+    "breakdown": "{correct} aciertos · {wrong} errores · {blank} en blanco",
+    "voided": "{count, plural, one {# pregunta se ha anulado} other {# preguntas se han anulado}} porque se retiró o modificó durante el examen; no cuentan.",
+    "formula": "Puntuación directa {score, number} (cada error resta {penalty, number}) · Tiempo: {time}",
+    "expired": "Se acabó el tiempo y se han corregido las respuestas guardadas.",
+    "disclaimer": "Nota orientativa calculada con el formato oficial de la convocatoria. No es una nota oficial.",
+    "again": "Volver a mis productos",
+    "toProgress": "Ver mi progreso",
+    "itemsTitle": "Corrección"
   }
 }

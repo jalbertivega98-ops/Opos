@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "set": "prueba-simulacro-v1",
+    "is_test": true,
+    "exam": "mossos-esquadra",
+    "locale": "es",
+    "category": "prueba",
+    "topic_slug": "prueba-simulacro",
+    "topic": "[PRUEBA] Tema del simulacro de demostración",
+    "author": "Contenido de PRUEBA para el recorrido E2E del simulacro (no es temario)",
+    "mock": {
+      "slug": "prueba-simulacro-demo",
+      "title": "[PRUEBA] Simulacro de demostración",
+      "title_ca": "[PROVA] Simulacre de demostració",
+      "description": "Simulacro de prueba para comprobar el recorrido. No es material de la oposición.",
+      "config": {
+        "questions": 5,
+        "minutes": 35,
+        "penalty": 0.25,
+        "pass_mark": 4,
+        "max_mark": 10
+      }
+    }
+  },
+  "questions": [
+    {
+      "stem": "[PRUEBA] ¿Cuántos días tiene una semana?",
+      "options": ["Cinco", "Seis", "Siete", "Ocho"],
+      "correct": 2,
+      "explanation": "Explicación de prueba.",
+      "ref": "prueba"
+    },
+    {
+      "stem": "[PRUEBA] ¿De qué color es el cielo despejado de día?",
+      "options": ["Azul", "Verde", "Rojo", "Negro"],
+      "correct": 0,
+      "explanation": "Explicación de prueba.",
+      "ref": "prueba"
+    },
+    {
+      "stem": "[PRUEBA] ¿Cuántos lados tiene un triángulo?",
+      "options": ["Dos", "Tres", "Cuatro", "Cinco"],
+      "correct": 1,
+      "explanation": "Explicación de prueba.",
+      "ref": "prueba"
+    },
+    {
+      "stem": "[PRUEBA] ¿Cuánto es 2 + 2?",
+      "options": ["Tres", "Cinco", "Seis", "Cuatro"],
+      "correct": 3,
+      "explanation": "Explicación de prueba.",
+      "ref": "prueba"
+    },
+    {
+      "stem": "[PRUEBA] ¿Qué estación sigue al invierno?",
+      "options": ["Otoño", "Primavera", "Verano", "Invierno"],
+      "correct": 1,
+      "explanation": "Explicación de prueba.",
+      "ref": "prueba"
+    },
+    {
+      "stem": "[PRUEBA] ¿Cuántos meses tiene un año?",
+      "options": ["Doce", "Diez", "Once", "Trece"],
+      "correct": 0,
+      "explanation": "Explicación de prueba.",
+      "ref": "prueba"
+    }
+  ]
+}

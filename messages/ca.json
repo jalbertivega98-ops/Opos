@@ -978,8 +978,14 @@
       "errors": {
         "invalid": "Tria un producte vàlid.",
         "access": "No tens accés a aquest producte.",
-        "start": "No s'ha pogut començar la pràctica."
-      }
+        "start": "No s'ha pogut començar la pràctica.",
+        "pool": "Aquest simulacre encara no té prou preguntes publicades."
+      },
+      "startMock": "Començar el simulacre",
+      "resumeMock": "Continuar el simulacre",
+      "mockFormat": "{questions} preguntes · {minutes} min · error −{penalty, number} · mínim {min}",
+      "mockHistory": "Els teus últims simulacres",
+      "mockInProgress": "En curs"
     }
   },
   "questions": {
@@ -999,6 +1005,42 @@
       "auth": "Torna a iniciar sessió.",
       "changed": "La pregunta s'ha actualitzat. Torna a començar la pràctica.",
       "state": "No s'ha pogut desar la resposta. Recarrega la pàgina."
-    }
+    },
+    "blank": "En blanc"
+  },
+  "mock": {
+    "title": "Simulacre",
+    "timeLeft": "Temps restant",
+    "answered": "{answered} de {total} contestades",
+    "navigator": "Preguntes del simulacre",
+    "goBlank": "Pregunta {n}, en blanc",
+    "goAnswered": "Pregunta {n}, contestada",
+    "question": "Pregunta {n} de {total}",
+    "options": "Opcions de resposta",
+    "clear": "Deixar en blanc",
+    "prev": "Anterior",
+    "next": "Següent",
+    "rules": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis. Cada error resta {penalty} % d'un encert; les preguntes en blanc no resten. Quan s'acabi el temps s'entrega sol.",
+    "submit": "Entregar el simulacre",
+    "confirmBlank": "Tens {blank, plural, one {# pregunta} other {# preguntes}} en blanc. Vols entregar igualment?",
+    "confirmAll": "Has contestat totes les preguntes. Vols entregar?",
+    "submitConfirm": "Sí, entregar",
+    "keepGoing": "Continuar",
+    "errors": {
+      "invalid": "No s'ha pogut desar la resposta. Torna-ho a provar.",
+      "auth": "Torna a iniciar sessió.",
+      "closed": "El temps s'ha acabat."
+    },
+    "mark": "{mark, number} / {max}",
+    "passed": "Superat (mínim {min})",
+    "failed": "No superat (mínim {min})",
+    "breakdown": "{correct} encerts · {wrong} errors · {blank} en blanc",
+    "voided": "{count, plural, one {# pregunta s'ha anul·lat} other {# preguntes s'han anul·lat}} perquè es va retirar o modificar durant l'examen; no compten.",
+    "formula": "Puntuació directa {score, number} (cada error resta {penalty, number}) · Temps: {time}",
+    "expired": "El temps es va acabar i s'han corregit les respostes desades.",
+    "disclaimer": "Nota orientativa calculada amb el format oficial de la convocatòria. No és una nota oficial.",
+    "again": "Tornar als meus productes",
+    "toProgress": "Veure el meu progrés",
+    "itemsTitle": "Correcció"
   }
 }

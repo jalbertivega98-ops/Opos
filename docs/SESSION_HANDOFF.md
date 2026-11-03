@@ -20,8 +20,9 @@
   - Las dudosas quedan fuera salvo que se marquen.
   - La RPC es `review_topic_batch` (migración `20261103000200_batch_review.sql`). Cada pregunta pasa por el guardián de estados y deja auditoría.
 - **Packs por àmbit** (`supabase/preview/6-packs-mossos-ca.sql`): `mossos-ambit-{a,b,c}-guia-2026`, en borrador. Al publicar un lote, sus preguntas entran solas en el pack (`config.topic_prefix` y trigger `questions_autopack`). Para que el alumnado los vea, el pack se publica desde `/admin/productos` y se da acceso (Premium o concesión manual).
-- **Preview:** ejecutar en el SQL Editor, en orden, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-…`, y `6-packs-mossos-ca.sql` (con `3-b1-guia-ca.sql` ya ejecutado). Todo está probado en local y es idempotente.
-- **Siguiente:** MOC-001, el simulacro con formato oficial (30 preguntas mezcladas, 35 min, −1/4, mínimo 4).
+- **Preview:** ejecutar en el SQL Editor, en orden, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-…`, `6-packs-mossos-ca.sql` y `7-simulacros.sql` (con `3-b1-guia-ca.sql` ya ejecutado). Todo está probado en local y es idempotente.
+- **Simulacro (MOC-001, hecho):** migración `20261103000300_mock_exams.sql` (`mock_attempts`, `mock_attempt_items`, `mock_start`/`mock_save_answer`/`mock_submit`, solo service_role). Formato en `products.config` del `mock_exam`; selección: una pregunta publicada por tema y el resto al azar; plazo controlado por la BD (+15 s de margen); nota = max(0, aciertos − fallos·¼)·10/válidas. Pantalla `/app/simulacros/[id]` (cronómetro, navegador, dejar en blanco, entrega con confirmación, corrección) y botón en `/app/productos`. Preview: `7-simulacros.sql` crea `mossos-simulacre-coneixements-2026` en borrador. Contenido E2E: `content/test/simulacro-prueba.json`.
+- **Siguiente:** MOC-002 (evolución de notas y repetir errores del simulacro) y simulacro de psicotécnicos (80 ítems, 35 min, sin penalización, mínimo 5).
 
 ### Fuentes oficiales y lote B.1 al estilo del examen (2026-11-03)
 
