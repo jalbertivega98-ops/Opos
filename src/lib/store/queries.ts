@@ -120,3 +120,37 @@ export async function premiumPrice() {
   )?.find((x) => x.active && x.billing_interval === "month");
   return p?.amount_cents ?? null;
 }
+
+export type OfferProduct = {
+  slug: string;
+  type: "question_pack" | "mock_exam" | "bundle" | "pdf";
+  title: string;
+  title_ca: string | null;
+  description: string | null;
+  description_ca: string | null;
+  is_free: boolean;
+  included_in_premium: boolean;
+  config: {
+    kind?: string;
+    questions?: number;
+    minutes?: number;
+    penalty?: number;
+    pass_mark?: number;
+  };
+  questions: number;
+  includes: string[];
+  price: { amount_cents: number; currency: string; interval: string | null } | null;
+};
+export type ExamOffer = {
+  topics: number;
+  questions: number;
+  topic_list: { slug: string; title: string; questions: number }[];
+  products: OfferProduct[];
+};
+
+/** Lo que incluye la preparación de una oposición (solo agregados publicados). */
+export async function examOffer(slug: string): Promise<ExamOffer | null> {
+  const supabase = await createClient();
+  const { data } = await supabase.rpc("exam_offer", { p_exam_slug: slug });
+  return (data as ExamOffer | null) ?? null;
+}

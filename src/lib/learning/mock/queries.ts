@@ -12,7 +12,9 @@ export async function getMockAttempt(id: string) {
     supabase.from("mock_attempts").select(ATTEMPT_COLS).eq("id", id).maybeSingle<MockAttempt>(),
     supabase
       .from("mock_attempt_items")
-      .select("position, presented, chosen_index, is_correct, answer_index, explanation")
+      .select(
+        "position, item_type, difficulty, presented, chosen_index, is_correct, answer_index, explanation",
+      )
       .eq("attempt_id", id)
       .order("position")
       .returns<MockItem[]>(),

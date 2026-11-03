@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Check, X } from "lucide-react";
+import { Check, Minus, X } from "lucide-react";
 import { Badge } from "@/components/ui/card";
 import type { Explanation, Presentation, PsychoType } from "@/lib/learning/psycho/types";
 import { PsychoStem, useExplain } from "./stem";
@@ -36,6 +36,8 @@ export function PracticeReview({ items }: { items: ReviewItem[] }) {
           <div className="flex flex-wrap items-center gap-2 text-sm">
             {it.is_correct ? (
               <Check className="text-success size-5" aria-label={tp("correct")} />
+            ) : it.chosen_index === null ? (
+              <Minus className="text-muted-foreground size-5" aria-label={t("blank")} />
             ) : (
               <X className="text-danger size-5" aria-label={tp("wrongShort")} />
             )}

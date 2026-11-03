@@ -91,12 +91,17 @@ export default async function LibraryPage({
                     <form action={startMockAction} className="space-y-2 pt-2">
                       <input type="hidden" name="productId" value={it.product_id} />
                       <p className="text-muted-foreground text-xs" data-testid="mock-format">
-                        {t("library.mockFormat", {
-                          questions: formats.get(it.product_id)?.questions ?? 30,
-                          minutes: formats.get(it.product_id)?.minutes ?? 35,
-                          penalty: formats.get(it.product_id)?.penalty ?? 0.25,
-                          min: formats.get(it.product_id)?.pass_mark ?? 4,
-                        })}
+                        {t(
+                          formats.get(it.product_id)?.penalty === 0
+                            ? "library.mockFormatNoPenalty"
+                            : "library.mockFormat",
+                          {
+                            questions: formats.get(it.product_id)?.questions ?? 30,
+                            minutes: formats.get(it.product_id)?.minutes ?? 35,
+                            penalty: formats.get(it.product_id)?.penalty ?? 0.25,
+                            min: formats.get(it.product_id)?.pass_mark ?? 4,
+                          },
+                        )}
                       </p>
                       <Button type="submit" variant="accent" size="sm" data-testid="mock-start">
                         {activeMock.has(it.product_id)

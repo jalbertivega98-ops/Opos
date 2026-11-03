@@ -21,7 +21,8 @@
     "psycho": "Psicotècnics",
     "practice": "Pràctica",
     "progress": "El meu progrés",
-    "library": "Els meus productes"
+    "library": "Els meus productes",
+    "plan": "El meu pla"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -77,11 +78,7 @@
       "name": "Gratuït",
       "price": "0 €",
       "period": "per sempre",
-      "items": [
-        "Registre i seguiment d'oposicions",
-        "Demostracions i exercicis limitats",
-        "Estadístiques bàsiques"
-      ],
+      "items": ["Pla d'estudi setmanal", "Psicotècnics de pràctica", "Estadístiques bàsiques"],
       "cta": "Crea un compte"
     },
     "premium": {
@@ -89,11 +86,10 @@
       "price": "14,99 €",
       "period": "al mes",
       "items": [
-        "Temari complet publicat",
-        "Tests, psicotècnics i simulacres il·limitats",
-        "Repàs intel·ligent i pla personalitzat",
-        "Estadístiques avançades",
-        "Tutor IA amb ús raonable"
+        "Temari complet en preguntes tipus test amb la seva font",
+        "Simulacres amb el format oficial de l'examen",
+        "Psicotècnics i repàs d'errors il·limitats",
+        "Estadístiques de progrés per tema"
       ],
       "cta": "Properament",
       "note": "Preu orientatiu. Els pagaments encara no estan actius."
@@ -248,7 +244,7 @@
     "primary": "Principal",
     "following": "Seguint",
     "addExam": "Afegeix una oposició",
-    "plan": "Pla d'avui",
+    "plan": "El teu pla d'aquesta setmana",
     "planEmpty": "El teu pla diari apareixerà aquí quan la teva oposició tingui contingut disponible.",
     "progress": "Progrés",
     "streak": "Ratxa",
@@ -669,7 +665,8 @@
     "failedTitle": "Errors pendents",
     "reviewPsycho": "Repassar psicotècnics",
     "reviewQuestions": "Repassar preguntes",
-    "reviewSplit": "Psicotècnics: {psycho} · Preguntes: {questions}"
+    "reviewSplit": "Psicotècnics: {psycho} · Preguntes: {questions}",
+    "blank": "En blanc"
   },
   "progress": {
     "title": "El meu progrés",
@@ -844,7 +841,7 @@
     },
     "publishAll": {
       "title": "Aprovar i publicar-ho tot",
-      "counts": "{pending} preguntes pendents de publicar · {published} ja publicades",
+      "counts": "{pending} preguntes pendents de publicar · {published} ja publicades · {products} paquets o simulacres en esborrany",
       "includeFlagged": "Incloure també les {count} marcades com a dubtoses",
       "confirm": "Confirmo que aprovo i publico totes les preguntes pendents, i els paquets i simulacres que les fan servir.",
       "button": "Aprovar i publicar-ho tot",
@@ -978,7 +975,8 @@
         "admin": "Accés concedit",
         "purchase": "Comprat",
         "subscription": "Premium",
-        "free": "Gratuït"
+        "free": "Gratuït",
+        "bundle": "Inclòs al teu paquet"
       },
       "start": "Practicar",
       "count": "Preguntes per test",
@@ -994,7 +992,8 @@
       "resumeMock": "Continuar el simulacre",
       "mockFormat": "{questions} preguntes · {minutes} min · error −{penalty, number} · mínim {min}",
       "mockHistory": "Els teus últims simulacres",
-      "mockInProgress": "En curs"
+      "mockInProgress": "En curs",
+      "mockFormatNoPenalty": "{questions} exercicis · {minutes} min · sense penalització · mínim {min}"
     }
   },
   "questions": {
@@ -1050,6 +1049,92 @@
     "disclaimer": "Nota orientativa calculada amb el format oficial de la convocatòria. No és una nota oficial.",
     "again": "Tornar als meus productes",
     "toProgress": "Veure el meu progrés",
-    "itemsTitle": "Correcció"
+    "itemsTitle": "Correcció",
+    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Quan s'acabi el temps s'entrega sol."
+  },
+  "plan": {
+    "title": "El meu pla d'estudi",
+    "subtitle": "Pla setmanal per a {exam}, ajustat a les teves hores i al teu progrés real.",
+    "thisWeek": "Aquesta setmana",
+    "week": "Setmana {week} de {total}",
+    "phases": {
+      "syllabus": "Fase de temari",
+      "review": "Fase de repàs",
+      "mocks": "Fase de simulacres"
+    },
+    "taskTopic": "{topic}: {count} preguntes",
+    "status": {
+      "new": "Nou",
+      "weak": "Reforçar"
+    },
+    "taskPsycho": "{count, plural, one {# sessió} other {# sessions}} de psicotècnics",
+    "taskMock": {
+      "knowledge": "{count, plural, one {# simulacre} other {# simulacres}} de coneixements",
+      "psycho": "{count, plural, one {# simulacre} other {# simulacres}} de psicotècnics"
+    },
+    "covered": "{covered} de {total} temes dominats",
+    "split": "Repartiment setmanal: {syllabus} min de temari · {psycho} min de psicotècnics · {mocks} min de simulacres",
+    "topicsTitle": "Progrés per tema",
+    "doneRule": "Un tema compta com a dominat amb {answered} respostes i almenys un {pct} % d'encerts.",
+    "notStarted": "Sense començar",
+    "accuracy": "{pct} % · {n} resp.",
+    "open": "Veure el meu pla complet",
+    "emptyTitle": "Encara no tens pla",
+    "empty": "Tria la teva oposició a l'onboarding. El pla apareix quan té temari publicat.",
+    "emptyCta": "Triar oposició",
+    "levels": {
+      "beginner": "Començo de zero",
+      "intermediate": "Ja he estudiat una mica",
+      "advanced": "Repàs final"
+    },
+    "settings": {
+      "title": "Ajustar el pla",
+      "hours": "Hores per setmana",
+      "level": "Nivell",
+      "date": "Data de l'examen (opcional)",
+      "dateHelp": "Si no poses data, el pla és un cicle de 16 setmanes. Amb data, es reparteix fins a l'examen i les 2 últimes setmanes són de simulacres.",
+      "save": "Desar",
+      "messages": {
+        "saved": "Pla actualitzat.",
+        "invalid": "Revisa les dades.",
+        "past": "La data ha de ser futura.",
+        "auth": "Torna a iniciar sessió."
+      }
+    }
+  },
+  "offer": {
+    "title": "Què inclou la preparació",
+    "summary": "{questions} preguntes del temari oficial repartides en {topics} temes i {mocks, plural, one {# simulacre} other {# simulacres}} amb el format real de l'examen. Tot el contingut és original, revisat i amb la referència a la Guia d'estudi.",
+    "free": {
+      "title": "Gratis",
+      "price": "0 € · només et cal un compte",
+      "items": {
+        "plan": "Pla d'estudi setmanal segons les teves hores i la data de l'examen",
+        "psycho": "Psicotècnics de pràctica amb correcció i explicació",
+        "progress": "Estadístiques de progrés i ratxa d'estudi"
+      },
+      "cta": "Crear un compte gratis"
+    },
+    "paid": {
+      "title": "Preparació completa",
+      "priceOnce": "Pagament únic: {price}",
+      "priceRecurring": "{price} {interval}",
+      "intervals": {
+        "month": "al mes",
+        "year": "a l'any"
+      },
+      "inPremium": "Inclòs a Premium ({price} al mes)",
+      "priceTbd": "Preu per confirmar",
+      "syllabus": "Temari complet en {questions} preguntes tipus test, amb explicació i font",
+      "mockFormat": "{questions} preguntes · {minutes} min · cada error resta {penalty, number} · mínim {min}",
+      "mockFormatNoPenalty": "{questions} exercicis · {minutes} min · sense penalització · mínim {min}",
+      "review": "Repàs dels teus errors fins a dominar-los",
+      "plan": "El pla setmanal et diu cada setmana quins temes i simulacres toquen",
+      "cta": "Pagament aviat",
+      "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment."
+    },
+    "topicsTitle": "Veure els {count} temes inclosos",
+    "topicQuestions": "{count} preg.",
+    "sourceNote": "Preguntes redactades per nosaltres a partir de la Guia d'estudi oficial. No som una acadèmia oficial ni copiem exàmens."
   }
 }

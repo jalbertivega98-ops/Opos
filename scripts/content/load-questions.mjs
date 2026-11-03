@@ -217,6 +217,30 @@ try {
       if (!mock.is_test) throw new Error(`El producto ${m.slug} existe y no es de prueba`);
       console.log(`Simulacro de prueba: ${m.slug}`);
     }
+    if (meta.psycho_mock) {
+      // Simulacro de psicotécnicos de prueba: los ítems los genera el servidor
+      const m = meta.psycho_mock;
+      const mock = (
+        await db.query(
+          `insert into public.products (slug, type, status, title, title_ca, description, exam_body_id,
+             is_free, included_in_premium, is_test, created_by, config)
+           values ($1, 'mock_exam', 'published', $2, $3, $4, $5, false, false, true, $6, $7)
+           on conflict (slug) do update set title = excluded.title, config = excluded.config
+           returning id, is_test`,
+          [
+            m.slug,
+            m.title,
+            m.title_ca ?? null,
+            m.description ?? null,
+            exam,
+            ownerId,
+            { ...m.config, kind: "psycho" },
+          ],
+        )
+      ).rows[0];
+      if (!mock.is_test) throw new Error(`El producto ${m.slug} existe y no es de prueba`);
+      console.log(`Simulacro de psicotécnicos de prueba: ${m.slug}`);
+    }
   }
   await db.query("commit");
   console.log(

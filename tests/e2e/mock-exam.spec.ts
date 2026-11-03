@@ -98,3 +98,67 @@ test("simulacro con tiempo, respuestas modificables, blanco y nota con penalizac
   await expect(sp.getByTestId("mock-history")).toContainText("5,5 / 10");
   await sctx.close();
 });
+
+test("simulacro de psicotécnicos: ítems generados, sin penalización y corrección con explicación", async ({
+  page,
+  browser,
+}) => {
+  test.setTimeout(120_000);
+  const ownerEmail = newEmail("titular");
+  const studentEmail = newEmail("alumna");
+  await signUp(page, ownerEmail, "Titular");
+  await confirmEmail(page, ownerEmail);
+  grantRole(ownerEmail, "owner");
+  execFileSync(
+    "node",
+    [
+      "scripts/content/load-questions.mjs",
+      "content/test/simulacro-prueba.json",
+      "--test",
+      "--publish-as",
+      ownerEmail,
+    ],
+    { stdio: "pipe" },
+  );
+  const sctx = await browser.newContext();
+  const sp = await sctx.newPage();
+  await signUp(sp, studentEmail, "Alumna");
+  await confirmEmail(sp, studentEmail);
+
+  await page.goto("/admin/compras");
+  await page.getByLabel("Correo del alumno").fill(studentEmail);
+  await page
+    .getByLabel("Producto", { exact: true })
+    .selectOption({ label: "[PRUEBA] Simulacro de psicotécnicos" });
+  await page.getByRole("button", { name: "Conceder acceso" }).click();
+  await expect(page.getByText("Acceso concedido.")).toBeVisible();
+
+  await sp.goto("/app/productos");
+  const card = sp
+    .getByTestId("library-item")
+    .filter({ hasText: "[PRUEBA] Simulacro de psicotécnicos" });
+  await expect(card.getByTestId("mock-format")).toHaveText(
+    "10 ejercicios · 35 min · sin penalización · mínimo 5",
+  );
+  await card.getByTestId("mock-start").click();
+  await expect(sp).toHaveURL(/\/app\/simulacros\/[0-9a-f-]{36}$/);
+  await expect(sp.getByText("los errores no restan")).toBeVisible();
+
+  // contesta las 10 con la primera opción (algunas acertarán, ninguna resta)
+  for (let n = 1; n <= 10; n++) {
+    await expect(sp.getByRole("heading", { name: `Pregunta ${n} de 10` })).toBeVisible();
+    await sp.getByTestId("question-option").first().click();
+    await expect(sp.getByTestId("question-option").first()).toHaveAttribute("aria-checked", "true");
+    if (n < 10) await sp.getByRole("button", { name: "Siguiente" }).click();
+  }
+  await sp.getByTestId("mock-submit").click();
+  await expect(
+    sp.getByText("Has contestado todas las preguntas. ¿Quieres entregar?"),
+  ).toBeVisible();
+  await sp.getByTestId("mock-confirm").click();
+
+  await expect(sp.getByTestId("mock-mark")).toHaveText(/^\d+(,\d+)? \/ 10$/);
+  await expect(sp.getByTestId("mock-breakdown")).toContainText("0 en blanco");
+  await expect(sp.getByTestId("review-item")).toHaveCount(10);
+  await sctx.close();
+});

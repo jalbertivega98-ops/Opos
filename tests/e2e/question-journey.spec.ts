@@ -116,7 +116,11 @@ test.describe("Recorrido del alumno con preguntas del banco", () => {
     });
     await page.goto("/admin/revision/fuentes?tema=mossos-b1-estatut");
     await expect(page.getByTestId("sources-count")).toHaveText(/^(30|60) preguntas$/); // 30 en castellano (+30 en catalán si se cargó el lote CA)
-    const first = page.getByTestId("source-card").first();
+    // mismo created_at para todo el lote: se localiza la tarjeta por su extracto
+    const first = page
+      .getByTestId("source-card")
+      .filter({ hasText: "norma institucional básica" })
+      .first();
     await expect(first).toContainText("Borrador");
     await expect(first).toContainText("art. 1");
     await expect(first.getByTestId("source-excerpt")).toContainText("norma institucional básica");

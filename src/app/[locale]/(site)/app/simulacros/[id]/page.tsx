@@ -5,7 +5,8 @@ import { z } from "zod";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Badge, Card } from "@/components/ui/card";
-import { MockExamPlayer } from "@/components/mock/exam-player";
+import { MockExamPlayer, type MockPlayerItem } from "@/components/mock/exam-player";
+import { PracticeReview, type ReviewItem } from "@/components/psycho/review";
 import { QuestionReview, type AnsweredQuestion } from "@/components/questions/review";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
@@ -47,7 +48,11 @@ export default async function MockAttemptPage({
         <h1 className="text-2xl font-bold">{title}</h1>
         <MockExamPlayer
           attemptId={attempt.id}
-          items={items.map((it) => it.presented)}
+          items={items.map((it): MockPlayerItem =>
+            it.item_type
+              ? ({ kind: "psycho", type: it.item_type, ...it.presented } as MockPlayerItem)
+              : ({ kind: "question", ...it.presented } as MockPlayerItem),
+          )}
           initialChoices={items.map((it) => it.chosen_index)}
           remainingMs={data.remainingMs}
           penalty={attempt.config.penalty}
@@ -110,7 +115,11 @@ export default async function MockAttemptPage({
         <h2 id="mock-items-title" className="text-lg font-semibold">
           {t("itemsTitle")}
         </h2>
-        <QuestionReview items={items as unknown as AnsweredQuestion[]} />
+        {attempt.config.kind === "psycho" ? (
+          <PracticeReview items={items as unknown as ReviewItem[]} />
+        ) : (
+          <QuestionReview items={items as unknown as AnsweredQuestion[]} />
+        )}
       </section>
     </div>
   );

@@ -4,6 +4,8 @@ import { getLocale } from "next-intl/server";
 import { redirect } from "@/i18n/navigation";
 import { getSession } from "@/lib/auth/session";
 import { createServiceClient } from "@/lib/supabase/service";
+import { randomInt } from "node:crypto";
+import { buildPsychoMock } from "./psycho";
 import { saveMockAnswerSchema, startMockSchema, submitMockSchema } from "./schema";
 
 /**
@@ -26,10 +28,22 @@ export async function startMockAction(formData: FormData) {
     redirect({ href: "/app/productos?error=invalid", locale });
     return;
   }
-  const { data, error } = await createServiceClient().rpc("mock_start", {
-    p_user: user.id,
-    p_product: parsed.data.productId,
-  });
+  const service = createServiceClient();
+  const { data: product } = await service
+    .from("products")
+    .select("config")
+    .eq("id", parsed.data.productId)
+    .maybeSingle<{ config: { kind?: string; questions?: number } }>();
+  const psycho = product?.config?.kind === "psycho";
+  const { data, error } = psycho
+    ? await service.rpc("mock_start_generated", {
+        p_user: user.id,
+        p_product: parsed.data.productId,
+        p_items: buildPsychoMock(Math.min(Math.max(product?.config?.questions ?? 80, 1), 120), () =>
+          randomInt(0, 2 ** 32),
+        ),
+      })
+    : await service.rpc("mock_start", { p_user: user.id, p_product: parsed.data.productId });
   if (error || !data) {
     const key =
       error?.code === "42501"

@@ -28,3 +28,18 @@ describe("guardar respuesta", () => {
     expect(saveMockAnswerSchema.safeParse({ ...base, choice: -1 }).success).toBe(false);
   });
 });
+
+describe("simulacro de psicotécnicos", () => {
+  it("genera 80 ítems con todos los tipos, sin la solución en lo que se muestra", async () => {
+    const { buildPsychoMock } = await import("@/lib/learning/mock/psycho");
+    let s = 1;
+    const items = buildPsychoMock(80, () => (s = (s * 48271) % 2147483647));
+    expect(items).toHaveLength(80);
+    expect(new Set(items.map((i) => i.item_type)).size).toBe(7);
+    for (const it of items) {
+      expect(it.answer_index).toBeGreaterThanOrEqual(0);
+      expect(it.answer_index).toBeLessThan(it.presented.options.length);
+      expect(JSON.stringify(it.presented)).not.toMatch(/answerIndex|explanation/);
+    }
+  });
+});

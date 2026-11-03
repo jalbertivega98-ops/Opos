@@ -186,3 +186,10 @@ export async function contentStatusCounts(): Promise<TopicCounts> {
   }
   return out;
 }
+
+/** Packs y simulacros en borrador que publicaría «Aprobar y publicar todo». */
+export async function draftContentProducts(): Promise<number> {
+  const supabase = await createClient();
+  const { data } = await supabase.rpc("draft_content_products");
+  return Number(data ?? 0);
+}

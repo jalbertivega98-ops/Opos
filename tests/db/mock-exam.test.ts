@@ -288,4 +288,122 @@ describe("simulacros con formato oficial (MOC-001)", () => {
       ).toBe(4);
     });
   });
+  it("simulacro de psicotécnicos: ítems del servidor, clave oculta y sin penalización", async () => {
+    await tx(async (q) => {
+      const { rows } = await q(
+        `insert into public.products (slug, type, status, title, included_in_premium, config)
+         values ('test-sim-psico-' || substr(md5(random()::text), 1, 6), 'mock_exam', 'published',
+                 'Psicos de prova', false,
+                 '{"kind":"psycho","questions":3,"minutes":35,"penalty":0,"pass_mark":5,"max_mark":10}')
+         returning id`,
+      );
+      const pid = rows[0].id as string;
+      await grant(q, pid);
+      const item = (answer: number) => ({
+        item_type: "series",
+        difficulty: 2,
+        seed: 1234 + answer,
+        generator_version: 1,
+        presented: {
+          presentation: { kind: "sequence", terms: ["1", "2", "3"] },
+          options: ["4", "5", "6", "7"],
+        },
+        answer_index: answer,
+        explanation: { key: "arithmetic", values: { step: "+1" } },
+      });
+      // del banco no: lo genera el servidor
+      await fails(q, "select public.mock_start($1, $2)", [student.id, pid], /servidor/);
+      await fails(
+        q,
+        "select public.mock_start_generated($1, $2, $3::jsonb)",
+        [student.id, pid, JSON.stringify([item(0)])],
+        /Número/,
+      );
+      const aid = (
+        await q("select public.mock_start_generated($1, $2, $3::jsonb) as id", [
+          student.id,
+          pid,
+          JSON.stringify([item(0), item(1), item(2)]),
+        ])
+      ).rows[0].id as string;
+      const shown = (
+        await q(
+          "select presented, answer_index from public.mock_attempt_items where attempt_id = $1",
+          [aid],
+        )
+      ).rows;
+      expect(JSON.stringify(shown)).not.toMatch(/answer_index":\d|explanation/);
+
+      // el alumno no puede leer la clave
+      await q("savepoint k");
+      await q("set local role authenticated");
+      await q("select set_config('request.jwt.claims', $1, true)", [
+        JSON.stringify({ sub: student.id, role: "authenticated" }),
+      ]);
+      await expect(q("select * from public.mock_attempt_keys")).rejects.toThrow(
+        /permission denied/,
+      );
+      await q("rollback to savepoint k");
+
+      await save(q, aid, 0, 0); // acierto
+      await save(q, aid, 1, 3); // fallo (no resta)
+      const r = (await q("select * from public.mock_submit($1, $2)", [student.id, aid])).rows[0];
+      expect(r).toMatchObject({ correct: 1, wrong: 1, blank: 1, void: 0, passed: false });
+      expect(Number(r.mark)).toBe(3.33);
+      const graded = (
+        await q(
+          "select answer_index, explanation from public.mock_attempt_items where attempt_id = $1 order by position",
+          [aid],
+        )
+      ).rows;
+      expect(graded.map((g) => g.answer_index)).toEqual([0, 1, 2]);
+      expect(graded[0].explanation).toEqual({ key: "arithmetic", values: { step: "+1" } });
+    });
+  });
+  it("el pack completo da acceso a sus productos y la oferta pública solo muestra agregados", async () => {
+    await tx(async (q) => {
+      const { pid, prefix } = await seed(q);
+      const exam = (await q("select id from public.exam_bodies where slug = 'mossos-esquadra'"))
+        .rows[0].id;
+      await q("update public.products set exam_body_id = $2 where id = $1", [pid, exam]);
+      const { rows } = await q(
+        `insert into public.products (slug, type, status, title, included_in_premium, is_test, exam_body_id)
+         values ($1, 'bundle', 'published', 'Pack completo de prova', false, false, $2) returning id`,
+        [`${prefix}-pack`, exam],
+      );
+      await q(
+        "insert into public.product_items (product_id, position, child_product_id) values ($1, 1, $2)",
+        [rows[0].id, pid],
+      );
+      await q(
+        "insert into public.access_grants (user_id, product_id, source) values ($1, $2, 'admin')",
+        [student.id, rows[0].id],
+      );
+      await q("set local role authenticated");
+      await q("select set_config('request.jwt.claims', $1, true)", [
+        JSON.stringify({ sub: student.id, role: "authenticated" }),
+      ]);
+      const lib = (
+        await q("select slug, type, source from public.my_library() where slug like $1", [
+          `${prefix}%`,
+        ])
+      ).rows;
+      expect(lib).toEqual(
+        expect.arrayContaining([
+          { slug: `${prefix}-pack`, type: "bundle", source: "admin" },
+          { slug: `${prefix}-sim`, type: "mock_exam", source: "bundle" },
+        ]),
+      );
+      // el simulacro del pack se puede empezar con la concesión del pack
+      await q("reset role");
+      expect(await start(q, pid)).toMatch(/^[0-9a-f-]{36}$/);
+
+      // oferta pública: agregados del pack (con lo que incluye) y nunca preguntas
+      await q("set local role anon");
+      const offer = (await q("select public.exam_offer('mossos-esquadra') as o")).rows[0].o;
+      const pack = offer.products.find((p: { slug: string }) => p.slug === `${prefix}-pack`);
+      expect(pack).toMatchObject({ type: "bundle", includes: [`${prefix}-sim`] });
+      expect(JSON.stringify(offer)).not.toMatch(/is_correct|stem|answer_index|explanation/);
+    });
+  });
 });

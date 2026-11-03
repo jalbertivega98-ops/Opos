@@ -23,7 +23,7 @@ Para probar la app desde cualquier navegador **sin publicarla**: web protegida c
 
 ## 3. Contenido nuevo (después del paso 1)
 
-En el SQL Editor, en este orden y una sola vez cada uno (todos son idempotentes): `3-b1-guia-ca.sql`, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-mossos-…`, `6-packs-mossos-ca.sql`, `7-simulacros.sql`, `8-publicar-todo.sql`. Después, con `admin@aprobia.test`, en `/admin/revision/fuentes` (sin elegir tema): marcar la confirmación y pulsar «Aprobar y publicar todo».
+En el SQL Editor, en este orden y una sola vez cada uno (todos son idempotentes): `3-b1-guia-ca.sql`, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-mossos-…`, `6-packs-mossos-ca.sql`, `7-simulacros.sql`, `8-publicar-todo.sql`, `9-pack-completo.sql`. Después, con `admin@aprobia.test`, en `/admin/revision/fuentes` (sin elegir tema): marcar la confirmación y pulsar «Aprobar y publicar todo».
 
 ## Regenerar el SQL
 

@@ -20,6 +20,19 @@
         "pass_mark": 4,
         "max_mark": 10
       }
+    },
+    "psycho_mock": {
+      "slug": "prueba-simulacro-psico-demo",
+      "title": "[PRUEBA] Simulacro de psicotécnicos",
+      "title_ca": "[PROVA] Simulacre d'aptituds",
+      "description": "Simulacro de prueba de psicotécnicos (10 ítems).",
+      "config": {
+        "questions": 10,
+        "minutes": 35,
+        "penalty": 0,
+        "pass_mark": 5,
+        "max_mark": 10
+      }
     }
   },
   "questions": [

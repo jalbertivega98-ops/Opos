@@ -8,7 +8,13 @@ import { publishAllAction, type FormState } from "@/lib/admin/content/actions";
 import type { TopicCounts } from "@/lib/admin/content/queries";
 
 /** «Aprobar y publicar todo»: un clic de la titular (DEC-006). La BD revalida todo. */
-export function PublishAllForm({ counts }: { counts: TopicCounts }) {
+export function PublishAllForm({
+  counts,
+  draftProducts,
+}: {
+  counts: TopicCounts;
+  draftProducts: number;
+}) {
   const t = useTranslations("adminContent");
   const [state, action, pending] = useActionState<FormState, FormData>(publishAllAction, {
     status: "idle",
@@ -26,7 +32,11 @@ export function PublishAllForm({ counts }: { counts: TopicCounts }) {
     >
       <p className="text-lg font-semibold">{t("publishAll.title")}</p>
       <p className="text-sm" data-testid="publish-all-counts">
-        {t("publishAll.counts", { pending: toPublish, published: s.published ?? 0 })}
+        {t("publishAll.counts", {
+          pending: toPublish,
+          published: s.published ?? 0,
+          products: draftProducts,
+        })}
       </p>
       {state.message && (
         <Alert tone={state.status === "error" ? "error" : "success"}>
@@ -35,7 +45,7 @@ export function PublishAllForm({ counts }: { counts: TopicCounts }) {
             : t("publishAll.done", { questions, products })}
         </Alert>
       )}
-      {toPublish > 0 && (
+      {(toPublish > 0 || draftProducts > 0) && (
         <>
           {counts.flaggedPending > 0 && (
             <label className="flex items-start gap-2 text-sm">

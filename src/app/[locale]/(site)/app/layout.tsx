@@ -16,6 +16,7 @@ export default async function AppLayout({
   const t = await getTranslations("nav");
   const links = [
     { href: "/app", label: t("dashboard") },
+    { href: "/app/plan", label: t("plan") },
     { href: "/app/practica", label: t("practice") },
     { href: "/app/progreso", label: t("progress") },
     { href: "/app/productos", label: t("library") },

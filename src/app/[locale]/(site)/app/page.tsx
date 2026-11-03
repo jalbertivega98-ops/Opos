@@ -10,6 +10,8 @@ import { createClient } from "@/lib/supabase/server";
 import { localized } from "@/lib/catalog/queries";
 import { getPracticeStats } from "@/lib/learning/practice/queries";
 import { pct } from "@/lib/learning/practice/format";
+import { getMyPlan } from "@/lib/learning/plan-queries";
+import { WeekPlanView } from "@/components/plan/week-plan";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/app">): Promise<Metadata> {
   const { locale } = await params;
@@ -32,7 +34,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const format = await getFormatter();
   const supabase = await createClient();
 
-  const [{ data: targets }, { data: activity }, practice] = await Promise.all([
+  const [{ data: targets }, { data: activity }, practice, myPlan] = await Promise.all([
     supabase
       .from("user_exam_targets")
       .select("is_primary, follow_only, exam:exam_bodies(slug, name, name_ca, availability)")
@@ -46,6 +48,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
       .order("created_at", { ascending: false })
       .limit(8),
     getPracticeStats(7),
+    getMyPlan(),
   ]);
 
   const name = profile.display_name;
@@ -102,7 +105,16 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
           <h2 className="flex items-center gap-2 text-lg font-semibold">
             <CalendarCheck className="text-accent size-5" aria-hidden /> {t("app.plan")}
           </h2>
-          <p className="text-muted-foreground mt-3 text-sm">{t("app.planEmpty")}</p>
+          {myPlan ? (
+            <div className="mt-3 space-y-3">
+              <WeekPlanView plan={myPlan.plan} />
+              <Button asChild variant="outline" size="sm">
+                <Link href="/app/plan">{t("plan.open")}</Link>
+              </Button>
+            </div>
+          ) : (
+            <p className="text-muted-foreground mt-3 text-sm">{t("app.planEmpty")}</p>
+          )}
         </Card>
         <Card>
           <h2 className="text-lg font-semibold">{t("app.myExams")}</h2>

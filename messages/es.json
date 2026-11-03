@@ -21,7 +21,8 @@
     "psycho": "Psicotécnicos",
     "practice": "Práctica",
     "progress": "Mi progreso",
-    "library": "Mis productos"
+    "library": "Mis productos",
+    "plan": "Mi plan"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -77,11 +78,7 @@
       "name": "Gratuito",
       "price": "0 €",
       "period": "para siempre",
-      "items": [
-        "Registro y seguimiento de oposiciones",
-        "Demostraciones y ejercicios limitados",
-        "Estadísticas básicas"
-      ],
+      "items": ["Plan de estudio semanal", "Psicotécnicos de práctica", "Estadísticas básicas"],
       "cta": "Crear cuenta"
     },
     "premium": {
@@ -89,11 +86,10 @@
       "price": "14,99 €",
       "period": "al mes",
       "items": [
-        "Temario completo publicado",
-        "Test, psicotécnicos y simulacros ilimitados",
-        "Repaso inteligente y plan personalizado",
-        "Estadísticas avanzadas",
-        "Tutor IA con uso razonable"
+        "Temario completo en preguntas tipo test con su fuente",
+        "Simulacros con el formato oficial del examen",
+        "Psicotécnicos y repaso de errores ilimitados",
+        "Estadísticas de progreso por tema"
       ],
       "cta": "Próximamente",
       "note": "Precio orientativo. Los pagos aún no están activos."
@@ -248,7 +244,7 @@
     "primary": "Principal",
     "following": "Siguiendo",
     "addExam": "Añadir oposición",
-    "plan": "Plan de hoy",
+    "plan": "Tu plan de esta semana",
     "planEmpty": "Tu plan diario aparecerá aquí cuando tu oposición tenga contenido disponible.",
     "progress": "Progreso",
     "streak": "Racha",
@@ -669,7 +665,8 @@
     "failedTitle": "Fallos pendientes",
     "reviewPsycho": "Repasar psicotécnicos",
     "reviewQuestions": "Repasar preguntas",
-    "reviewSplit": "Psicotécnicos: {psycho} · Preguntas: {questions}"
+    "reviewSplit": "Psicotécnicos: {psycho} · Preguntas: {questions}",
+    "blank": "En blanco"
   },
   "progress": {
     "title": "Mi progreso",
@@ -844,7 +841,7 @@
     },
     "publishAll": {
       "title": "Aprobar y publicar todo",
-      "counts": "{pending} preguntas pendientes de publicar · {published} ya publicadas",
+      "counts": "{pending} preguntas pendientes de publicar · {published} ya publicadas · {products} packs o simulacros en borrador",
       "includeFlagged": "Incluir también las {count} marcadas como dudosas",
       "confirm": "Confirmo que apruebo y publico todas las preguntas pendientes, y los packs y simulacros que las usan.",
       "button": "Aprobar y publicar todo",
@@ -978,7 +975,8 @@
         "admin": "Acceso concedido",
         "purchase": "Comprado",
         "subscription": "Premium",
-        "free": "Gratuito"
+        "free": "Gratuito",
+        "bundle": "Incluido en tu pack"
       },
       "start": "Practicar",
       "count": "Preguntas por test",
@@ -994,7 +992,8 @@
       "resumeMock": "Continuar el simulacro",
       "mockFormat": "{questions} preguntas · {minutes} min · error −{penalty, number} · mínimo {min}",
       "mockHistory": "Tus últimos simulacros",
-      "mockInProgress": "En curso"
+      "mockInProgress": "En curso",
+      "mockFormatNoPenalty": "{questions} ejercicios · {minutes} min · sin penalización · mínimo {min}"
     }
   },
   "questions": {
@@ -1050,6 +1049,92 @@
     "disclaimer": "Nota orientativa calculada con el formato oficial de la convocatoria. No es una nota oficial.",
     "again": "Volver a mis productos",
     "toProgress": "Ver mi progreso",
-    "itemsTitle": "Corrección"
+    "itemsTitle": "Corrección",
+    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Cuando se acabe el tiempo se entrega solo."
+  },
+  "plan": {
+    "title": "Mi plan de estudio",
+    "subtitle": "Plan semanal para {exam}, ajustado a tus horas y a tu progreso real.",
+    "thisWeek": "Esta semana",
+    "week": "Semana {week} de {total}",
+    "phases": {
+      "syllabus": "Fase de temario",
+      "review": "Fase de repaso",
+      "mocks": "Fase de simulacros"
+    },
+    "taskTopic": "{topic}: {count} preguntas",
+    "status": {
+      "new": "Nuevo",
+      "weak": "Reforzar"
+    },
+    "taskPsycho": "{count, plural, one {# sesión} other {# sesiones}} de psicotécnicos",
+    "taskMock": {
+      "knowledge": "{count, plural, one {# simulacro} other {# simulacros}} de conocimientos",
+      "psycho": "{count, plural, one {# simulacro} other {# simulacros}} de psicotécnicos"
+    },
+    "covered": "{covered} de {total} temas dominados",
+    "split": "Reparto semanal: {syllabus} min de temario · {psycho} min de psicotécnicos · {mocks} min de simulacros",
+    "topicsTitle": "Progreso por tema",
+    "doneRule": "Un tema cuenta como dominado con {answered} respuestas y al menos un {pct} % de aciertos.",
+    "notStarted": "Sin empezar",
+    "accuracy": "{pct} % · {n} resp.",
+    "open": "Ver mi plan completo",
+    "emptyTitle": "Aún no tienes plan",
+    "empty": "Elige tu oposición en el onboarding. El plan aparece cuando tiene temario publicado.",
+    "emptyCta": "Elegir oposición",
+    "levels": {
+      "beginner": "Empiezo de cero",
+      "intermediate": "Ya he estudiado algo",
+      "advanced": "Repaso final"
+    },
+    "settings": {
+      "title": "Ajustar el plan",
+      "hours": "Horas por semana",
+      "level": "Nivel",
+      "date": "Fecha del examen (opcional)",
+      "dateHelp": "Si no pones fecha, el plan es un ciclo de 16 semanas. Con fecha, se reparte hasta el examen y las 2 últimas semanas son de simulacros.",
+      "save": "Guardar",
+      "messages": {
+        "saved": "Plan actualizado.",
+        "invalid": "Revisa los datos.",
+        "past": "La fecha debe ser futura.",
+        "auth": "Vuelve a iniciar sesión."
+      }
+    }
+  },
+  "offer": {
+    "title": "Qué incluye la preparación",
+    "summary": "{questions} preguntas del temario oficial repartidas en {topics} temas y {mocks, plural, one {# simulacro} other {# simulacros}} con el formato real del examen. Todo el contenido es original, revisado y con la referencia a la Guia d'estudi.",
+    "free": {
+      "title": "Gratis",
+      "price": "0 € · solo necesitas una cuenta",
+      "items": {
+        "plan": "Plan de estudio semanal según tus horas y la fecha del examen",
+        "psycho": "Psicotécnicos de práctica con corrección y explicación",
+        "progress": "Estadísticas de progreso y racha de estudio"
+      },
+      "cta": "Crear cuenta gratis"
+    },
+    "paid": {
+      "title": "Preparación completa",
+      "priceOnce": "Pago único: {price}",
+      "priceRecurring": "{price} {interval}",
+      "intervals": {
+        "month": "al mes",
+        "year": "al año"
+      },
+      "inPremium": "Incluido en Premium ({price} al mes)",
+      "priceTbd": "Precio por confirmar",
+      "syllabus": "Temario completo en {questions} preguntas tipo test, con explicación y fuente",
+      "mockFormat": "{questions} preguntas · {minutes} min · cada error resta {penalty, number} · mínimo {min}",
+      "mockFormatNoPenalty": "{questions} ejercicios · {minutes} min · sin penalización · mínimo {min}",
+      "review": "Repaso de tus errores hasta dominarlos",
+      "plan": "El plan semanal te dice cada semana qué temas y simulacros tocan",
+      "cta": "Pago próximamente",
+      "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente."
+    },
+    "topicsTitle": "Ver los {count} temas incluidos",
+    "topicQuestions": "{count} preg.",
+    "sourceNote": "Preguntas redactadas por nosotros a partir de la Guia d'estudi oficial. No somos una academia oficial ni copiamos exámenes."
   }
 }

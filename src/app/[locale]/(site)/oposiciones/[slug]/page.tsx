@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Alert } from "@/components/ui/form";
 import { Badge, Card } from "@/components/ui/card";
 import { getExamBody, localized } from "@/lib/catalog/queries";
+import { examOffer, premiumPrice } from "@/lib/store/queries";
+import { ExamOfferSection } from "@/components/store/exam-offer";
 
 export async function generateMetadata({
   params,
@@ -29,6 +31,7 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
   const calls = exam.calls.filter((c) => c.is_published).sort((a, b) => b.year - a.year);
   const tests = [...exam.exam_tests].sort((a, b) => a.order_index - b.order_index);
   const sources = exam.exam_body_sources.map((s) => s.source).filter((s) => s !== null);
+  const [offer, premiumCents] = await Promise.all([examOffer(exam.slug), premiumPrice()]);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:py-14">
@@ -79,6 +82,8 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
           {exam.availability === "coming_soon" ? t("catalog.follow") : t("catalog.prepare")}
         </Link>
       </Button>
+
+      {offer && <ExamOfferSection offer={offer} locale={locale} premiumCents={premiumCents} />}
 
       <div className="mt-10 grid gap-4">
         <Card>

@@ -1,5 +1,9 @@
 import { z } from "zod";
 import type { PresentedQuestion, QuestionExplanation } from "@/lib/learning/questions/schema";
+import type { Explanation, Presentation } from "@/lib/learning/psycho/types";
+
+/** Ítem de psicotécnico tal como se muestra (sin solución). */
+export type PresentedPsycho = { presentation: Presentation; options: string[] };
 
 export const startMockSchema = z.object({ productId: z.uuid() });
 
@@ -13,6 +17,7 @@ export const submitMockSchema = z.object({ attemptId: z.uuid() });
 
 /** Formato efectivo guardado en el intento (mock_config). */
 export type MockConfig = {
+  kind?: "questions" | "psycho";
   questions: number;
   minutes: number;
   penalty: number;
@@ -42,11 +47,13 @@ export type MockAttempt = {
 
 export type MockItem = {
   position: number;
-  presented: PresentedQuestion;
+  item_type: string | null;
+  difficulty: number | null;
+  presented: PresentedQuestion | PresentedPsycho;
   chosen_index: number | null;
   is_correct: boolean | null;
   answer_index: number | null;
-  explanation: QuestionExplanation | null;
+  explanation: QuestionExplanation | Explanation | null;
 };
 
 /** Nota oficial: max(0, aciertos − fallos·penalización) · nota máxima / preguntas válidas. */

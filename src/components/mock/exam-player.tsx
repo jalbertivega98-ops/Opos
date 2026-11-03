@@ -9,7 +9,16 @@ import { Card } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import { saveMockAnswerAction, submitMockAction } from "@/lib/learning/mock/actions";
+import { PsychoStem } from "@/components/psycho/stem";
+import { Token } from "@/components/psycho/token";
+import type { PsychoType } from "@/lib/learning/psycho/types";
+import type { PresentedPsycho } from "@/lib/learning/mock/schema";
 import type { PresentedQuestion } from "@/lib/learning/questions/schema";
+
+/** Pregunta del banco o ítem de psicotécnico generado. */
+export type MockPlayerItem =
+  | ({ kind: "question" } & PresentedQuestion)
+  | ({ kind: "psycho"; type: PsychoType } & PresentedPsycho);
 
 const LETTERS = "ABCDEF";
 
@@ -31,7 +40,7 @@ export function MockExamPlayer({
   penalty,
 }: {
   attemptId: string;
-  items: PresentedQuestion[];
+  items: MockPlayerItem[];
   initialChoices: (number | null)[];
   remainingMs: number;
   penalty: number;
@@ -138,9 +147,15 @@ export function MockExamPlayer({
         <h2 ref={headingRef} tabIndex={-1} className="font-semibold outline-none">
           {t("question", { n: index + 1, total: items.length })}
         </h2>
-        <p className="text-lg leading-relaxed font-medium" data-testid="question-stem">
-          {item.stem}
-        </p>
+        {item.kind === "question" ? (
+          <p className="text-lg leading-relaxed font-medium" data-testid="question-stem">
+            {item.stem}
+          </p>
+        ) : (
+          <div data-testid="question-stem">
+            <PsychoStem type={item.type} presentation={item.presentation} />
+          </div>
+        )}
         <div className="grid gap-3" role="radiogroup" aria-label={t("options")}>
           {item.options.map((opt, i) => (
             <button
@@ -159,7 +174,9 @@ export function MockExamPlayer({
               <span className="bg-surface inline-flex size-7 shrink-0 items-center justify-center rounded-full text-sm font-semibold">
                 {LETTERS[i]}
               </span>
-              <span className="flex-1">{opt}</span>
+              <span className="flex-1">
+                {item.kind === "question" ? opt : <Token value={opt} />}
+              </span>
             </button>
           ))}
         </div>
@@ -190,7 +207,9 @@ export function MockExamPlayer({
       </Card>
 
       <Card className="space-y-3">
-        <p className="text-muted-foreground text-sm">{t("rules", { penalty: penalty * 100 })}</p>
+        <p className="text-muted-foreground text-sm">
+          {penalty > 0 ? t("rules", { penalty: penalty * 100 }) : t("rulesNoPenalty")}
+        </p>
         {confirming ? (
           <div className="space-y-3" aria-live="polite">
             <p className="font-medium">
