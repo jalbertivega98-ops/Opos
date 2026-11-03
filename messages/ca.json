@@ -22,7 +22,8 @@
     "practice": "Pràctica",
     "progress": "El meu progrés",
     "library": "Els meus productes",
-    "plan": "El meu pla"
+    "plan": "El meu pla",
+    "how": "Com funciona"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -41,7 +42,20 @@
     "searchLabel": "Cerca la teva oposició",
     "searchPlaceholder": "Mossos, Policia Nacional, Auxiliar Administratiu…",
     "searchButton": "Cerca",
-    "trust": "Contingut revisat per persones · Fonts oficials citades · Sense permanència",
+    "trust": {
+      "sources": {
+        "title": "Fonts oficials citades",
+        "body": "Cada pregunta indica d'on surt, perquè ho puguis comprovar."
+      },
+      "review": {
+        "title": "Revisat per persones",
+        "body": "El contingut preparat amb ajuda d'IA entra com a esborrany i no es publica sense revisió."
+      },
+      "independent": {
+        "title": "Independent i transparent",
+        "body": "No estem vinculats a cap organisme. Indiquem quines oposicions estan disponibles i quines arribaran properament."
+      }
+    },
     "featuresTitle": "Tot el que necessites per entrenar",
     "features": {
       "plan": {
@@ -109,7 +123,68 @@
     },
     "finalTitle": "Comença avui la teva preparació",
     "finalBody": "Crea el teu compte gratis, tria la teva oposició i rep el teu pla inicial en dos minuts.",
-    "demoCta": "Prova un psicotècnic gratis"
+    "demoCta": "Prova un psicotècnic gratis",
+    "titleRich": "Prepara la teva oposició amb <mark>mètode</mark>, no a cegues",
+    "audience": "Per a qui prepara oposicions a Espanya, en català o en castellà. Comença gratis, sense targeta.",
+    "trustItems": ["Sense targeta", "Fonts oficials citades", "Contingut revisat per persones"],
+    "sample": {
+      "badge": "Prova-ho aquí",
+      "title": "Així és un exercici",
+      "kind": "Sèries numèriques",
+      "progress": "Exercici 1 de 10",
+      "prompt": "Quin número continua la sèrie?",
+      "seriesLabel": "Sèrie: {series} i un número desconegut",
+      "options": "Opcions de resposta",
+      "right": "Correcte! La resposta és 42.",
+      "wrong": "No és aquesta. La resposta correcta és 42.",
+      "explanation": "Les diferències creixen de 2 en 2: +4, +6, +8, +10… La següent és +12, així que 30 + 12 = 42.",
+      "retry": "Torna-ho a provar",
+      "hint": "Tria una opció: veuràs la correcció i l'explicació al moment."
+    },
+    "preview": {
+      "title": "El teu progrés",
+      "note": "Vista d'exemple",
+      "accuracy": "Encerts de la setmana i avanç per bloc",
+      "rows": ["Temari", "Psicotècnics", "Simulacres"]
+    },
+    "stepsEyebrow": "Com funciona",
+    "stepsTitle": "Tres passos i saps què fer cada dia",
+    "stepsSubtitle": "Sense llistes interminables: tries la teva oposició, reps el teu pla i entrenes el que més ho necessita.",
+    "steps": {
+      "1": {
+        "title": "Tria la teva oposició",
+        "body": "Cerca-la al catàleg. Et diem clarament si ja té contingut revisat o si arribarà properament."
+      },
+      "2": {
+        "title": "Rep el teu pla setmanal",
+        "body": "Segons les teves hores i el teu nivell: quins temes tocar, quantes preguntes fer i quan toca simulacre."
+      },
+      "3": {
+        "title": "Practica i repassa els errors",
+        "body": "Tests, psicotècnics i simulacres. El que falles torna al repàs fins que l'encertes."
+      }
+    },
+    "featuresEyebrow": "Què pots entrenar",
+    "featuresSubtitle": "Cada eina té un objectiu clar i desa els teus resultats perquè vegis com avances.",
+    "minis": {
+      "source": "Font oficial",
+      "explanation": "Amb explicació de la resposta",
+      "plan": [
+        "Tema del temari · preguntes",
+        "Sessions de psicotècnics",
+        "Simulacre de la setmana"
+      ],
+      "mock": ["Mateix temps", "Mateixa penalització", "Mateix nre. de preguntes"],
+      "review": "Repassar"
+    },
+    "comingSoon": "Properament",
+    "trustEyebrow": "Contingut fiable",
+    "trustTitle": "Estudies el que de debò entra",
+    "trustBody": "Les preguntes es basen en fonts oficials i res no es publica sense revisió humana.",
+    "catalogEyebrow": "Catàleg",
+    "pricingEyebrow": "Preus",
+    "faqEyebrow": "Dubtes",
+    "finalEyebrow": "Comença avui"
   },
   "availability": {
     "available": "Disponible",
@@ -235,7 +310,7 @@
   "app": {
     "greeting": "Hola, {name}",
     "greetingAnon": "Hola",
-    "subtitle": "Aquest és el teu tauler d'estudi.",
+    "subtitle": "Això és el que et toca avui.",
     "passwordUpdated": "Contrasenya actualitzada correctament.",
     "onboardingTitle": "Configura la teva preparació",
     "onboardingBody": "Tria la teva oposició i la teva disponibilitat per generar el pla inicial.",
@@ -268,7 +343,39 @@
     "practiceCta": "Practicar psicotècnics",
     "progressCta": "Veure el meu progrés",
     "answeredStat": "Exercicis resposts",
-    "pendingReview": "{count, plural, one {# error per repassar} other {# errors per repassar}}"
+    "pendingReview": "{count, plural, one {# error per repassar} other {# errors per repassar}}",
+    "onboardingEyebrow": "Primer pas",
+    "orPractice": "O comença ja amb els psicotècnics",
+    "continueEyebrow": "Continuar practicant",
+    "continueActiveTitle": "Tens una pràctica a mitges",
+    "continueActiveBody": "{type} · {answered} de {total} exercicis resposts",
+    "continueCta": "Continua",
+    "nextTitle": "Següent al teu pla",
+    "nextCta": "Comença",
+    "startTitle": "Entrena uns minuts avui",
+    "startBody": "Fes una pràctica curta de psicotècnics: els resultats es desen i només els veus tu.",
+    "newPractice": "Tria una altra pràctica",
+    "progressTitle": "El teu progrés",
+    "last7": "Últims 7 dies",
+    "ringLabel": "Encerts dels últims 7 dies: {pct} %",
+    "ringNoData": "Encara no hi ha dades d'encerts",
+    "chartCaption": "Exercicis resposts i encertats per dia els últims 7 dies",
+    "answeredLabel": "Resposts",
+    "correctLabel": "Encertats",
+    "progressEmpty": "Fes la primera pràctica i aquí veuràs els encerts, la ratxa i l'activitat de la setmana.",
+    "reviewTitle": "Repàs d'errors",
+    "reviewNone": "Encara no tens errors. Quan fallis un exercici, apareixerà aquí perquè el repassis.",
+    "pendingWord": "{count, plural, one {error per repassar} other {errors per repassar}}",
+    "moreTitle": "Més opcions",
+    "shortcuts": {
+      "practice": "Tria tipus, nombre d'exercicis i dificultat",
+      "library": "Packs, temari i simulacres als quals tens accés",
+      "profile": "Les teves dades, idioma i compte"
+    },
+    "errorTitle": "No hem pogut carregar aquesta pantalla",
+    "errorBody": "Pot ser un problema momentani de connexió. Les teves dades no s'han perdut.",
+    "errorRetry": "Torna-ho a provar",
+    "loading": "Carregant el teu tauler…"
   },
   "onboarding": {
     "title": "Configura la teva preparació",

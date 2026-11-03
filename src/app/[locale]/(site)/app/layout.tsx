@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
+import { AppNav } from "@/components/app-nav";
 import { requireUser } from "@/lib/auth/session";
 
 /** Zona del alumno: comprobación de sesión en servidor (además del proxy). */
@@ -24,17 +24,7 @@ export default async function AppLayout({
   ];
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-6 sm:py-8">
-      <nav aria-label={t("dashboard")} className="mb-6 flex gap-1 overflow-x-auto text-sm">
-        {links.map((l) => (
-          <Link
-            key={l.href}
-            href={l.href}
-            className="hover:bg-surface text-muted-foreground hover:text-foreground rounded-md px-3 py-2 whitespace-nowrap"
-          >
-            {l.label}
-          </Link>
-        ))}
-      </nav>
+      <AppNav label={t("dashboard")} links={links} />
       {children}
     </div>
   );

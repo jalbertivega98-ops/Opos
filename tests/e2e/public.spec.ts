@@ -12,6 +12,16 @@ test.describe("Web pública", () => {
     await expect(cards.first()).toContainText("Próximamente");
   });
 
+  test("la portada deja resolver el ejercicio de muestra", async ({ page }) => {
+    await page.goto("/");
+    const options = page.getByRole("group", { name: "Opciones de respuesta" }).first();
+    await options.getByRole("button", { name: /42/ }).click();
+    await expect(page.getByText("¡Correcto! La respuesta es 42.")).toBeVisible();
+    await page.getByRole("button", { name: "Volver a intentarlo" }).click();
+    await options.getByRole("button", { name: /36/ }).click();
+    await expect(page.getByText("No es esa. La respuesta correcta es 42.")).toBeVisible();
+  });
+
   test("ficha de oposición sin contenido indica 'próximamente' y no inventa datos", async ({
     page,
   }) => {

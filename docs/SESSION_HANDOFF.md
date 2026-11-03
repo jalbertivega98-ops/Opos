@@ -4,6 +4,14 @@
 
 ## Estado exacto
 
+### Rediseño visual: portada y panel del alumno (2026-11-03, rama `claude/project-thread-0diwv3`, UX-001)
+
+- Petición de joel: más personalidad, secciones diferenciadas, elementos visuales útiles, navegación simple; empezar por portada y panel, enseñar capturas antes/después **antes de extenderlo** y antes de sustituir la web.
+- **No se ha mergeado a `main`** (Vercel publica `main` en la preview). `vercel.json` desactiva los despliegues automáticos de ramas `claude/**`. El workflow de BD solo corre en `main` y el rediseño no toca BD.
+- Sistema y decisiones en `docs/DESIGN_SYSTEM.md` (sección «Identidad visual») y ADR-018.
+- Capturas: `node scripts/design/setup-demo.mjs <estado>` (publica en LOCAL el temario de `supabase/preview` y crea alumnas de demo) y `node scripts/design/shots.mjs <estado> <salida> [--dark]`. Ojo: `setup-demo` deja Mossos «disponible» en local y rompe `public.spec.ts`; hacer `npm run db:reset` antes de los E2E.
+- Siguiente: según el visto bueno de joel, UX-002 (resto de pantallas).
+
 ### Temario completo de Mossos y aprobación por lotes (2026-11-03)
 
 - **402 preguntas en catalán** que cubren los 20 temas de la Guia d'estudi 2026 (A.1–A.7, B.1–B.8, C.1–C.5): 20 por tema, salvo B.1 (30) y C.5 (12, porque el tema ocupa dos páginas). Están en `content/mossos/<tema>.json`, todas en **borrador**. Siguen el estilo del examen («Segons la Guia d'estudi…», 4 opciones). La correcta está repartida al 25 % por posición. Cada pregunta cita literalmente la guía y la cita se comprueba con `node scripts/content/verify-excerpts.mjs <lote> <guia.txt>` (402/402).

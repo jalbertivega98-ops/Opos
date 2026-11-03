@@ -22,7 +22,8 @@
     "practice": "Práctica",
     "progress": "Mi progreso",
     "library": "Mis productos",
-    "plan": "Mi plan"
+    "plan": "Mi plan",
+    "how": "Cómo funciona"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -41,7 +42,20 @@
     "searchLabel": "Busca tu oposición",
     "searchPlaceholder": "Mossos, Policía Nacional, Auxiliar Administrativo…",
     "searchButton": "Buscar",
-    "trust": "Contenido revisado por personas · Fuentes oficiales citadas · Sin permanencia",
+    "trust": {
+      "sources": {
+        "title": "Fuentes oficiales citadas",
+        "body": "Cada pregunta indica de dónde sale, para que puedas comprobarlo."
+      },
+      "review": {
+        "title": "Revisado por personas",
+        "body": "El contenido preparado con ayuda de IA entra como borrador y no se publica sin revisión."
+      },
+      "independent": {
+        "title": "Independiente y transparente",
+        "body": "No estamos vinculados a ningún organismo. Indicamos qué oposiciones están disponibles y cuáles llegarán próximamente."
+      }
+    },
     "featuresTitle": "Todo lo que necesitas para entrenar",
     "features": {
       "plan": {
@@ -109,7 +123,68 @@
     },
     "finalTitle": "Empieza hoy tu preparación",
     "finalBody": "Crea tu cuenta gratis, elige tu oposición y recibe tu plan inicial en dos minutos.",
-    "demoCta": "Prueba un psicotécnico gratis"
+    "demoCta": "Prueba un psicotécnico gratis",
+    "titleRich": "Prepara tu oposición con <mark>método</mark>, no a ciegas",
+    "audience": "Para quien prepara oposiciones en España, en castellano o en catalán. Empieza gratis, sin tarjeta.",
+    "trustItems": ["Sin tarjeta", "Fuentes oficiales citadas", "Contenido revisado por personas"],
+    "sample": {
+      "badge": "Pruébalo aquí",
+      "title": "Así es un ejercicio",
+      "kind": "Series numéricas",
+      "progress": "Ejercicio 1 de 10",
+      "prompt": "¿Qué número continúa la serie?",
+      "seriesLabel": "Serie: {series} y un número desconocido",
+      "options": "Opciones de respuesta",
+      "right": "¡Correcto! La respuesta es 42.",
+      "wrong": "No es esa. La respuesta correcta es 42.",
+      "explanation": "Las diferencias crecen de 2 en 2: +4, +6, +8, +10… La siguiente es +12, así que 30 + 12 = 42.",
+      "retry": "Volver a intentarlo",
+      "hint": "Elige una opción: verás la corrección y la explicación al momento."
+    },
+    "preview": {
+      "title": "Tu progreso",
+      "note": "Vista de ejemplo",
+      "accuracy": "Aciertos de la semana y avance por bloque",
+      "rows": ["Temario", "Psicotécnicos", "Simulacros"]
+    },
+    "stepsEyebrow": "Cómo funciona",
+    "stepsTitle": "Tres pasos y sabes qué hacer cada día",
+    "stepsSubtitle": "Sin listas interminables: eliges tu oposición, recibes tu plan y entrenas lo que más lo necesita.",
+    "steps": {
+      "1": {
+        "title": "Elige tu oposición",
+        "body": "Búscala en el catálogo. Te decimos con claridad si ya tiene contenido revisado o si llegará próximamente."
+      },
+      "2": {
+        "title": "Recibe tu plan semanal",
+        "body": "Según tus horas y tu nivel: qué temas tocar, cuántas preguntas hacer y cuándo toca simulacro."
+      },
+      "3": {
+        "title": "Practica y repasa tus errores",
+        "body": "Test, psicotécnicos y simulacros. Lo que fallas vuelve en el repaso hasta que lo aciertas."
+      }
+    },
+    "featuresEyebrow": "Qué puedes entrenar",
+    "featuresSubtitle": "Cada herramienta tiene un objetivo claro y guarda tus resultados para que veas cómo avanzas.",
+    "minis": {
+      "source": "Fuente oficial",
+      "explanation": "Con explicación de la respuesta",
+      "plan": [
+        "Tema del temario · preguntas",
+        "Sesiones de psicotécnicos",
+        "Simulacro de la semana"
+      ],
+      "mock": ["Mismo tiempo", "Misma penalización", "Mismo nº de preguntas"],
+      "review": "Repasar"
+    },
+    "comingSoon": "Próximamente",
+    "trustEyebrow": "Contenido fiable",
+    "trustTitle": "Estudias lo que de verdad entra",
+    "trustBody": "Las preguntas se basan en fuentes oficiales y nada se publica sin revisión humana.",
+    "catalogEyebrow": "Catálogo",
+    "pricingEyebrow": "Precios",
+    "faqEyebrow": "Dudas",
+    "finalEyebrow": "Empieza hoy"
   },
   "availability": {
     "available": "Disponible",
@@ -235,7 +310,7 @@
   "app": {
     "greeting": "Hola, {name}",
     "greetingAnon": "Hola",
-    "subtitle": "Este es tu panel de estudio.",
+    "subtitle": "Esto es lo que te toca hoy.",
     "passwordUpdated": "Contraseña actualizada correctamente.",
     "onboardingTitle": "Configura tu preparación",
     "onboardingBody": "Elige tu oposición y tu disponibilidad para generar tu plan inicial.",
@@ -268,7 +343,39 @@
     "practiceCta": "Practicar psicotécnicos",
     "progressCta": "Ver mi progreso",
     "answeredStat": "Ejercicios respondidos",
-    "pendingReview": "{count, plural, one {# fallo por repasar} other {# fallos por repasar}}"
+    "pendingReview": "{count, plural, one {# fallo por repasar} other {# fallos por repasar}}",
+    "onboardingEyebrow": "Primer paso",
+    "orPractice": "O empieza ya con los psicotécnicos",
+    "continueEyebrow": "Continuar practicando",
+    "continueActiveTitle": "Tienes una práctica a medias",
+    "continueActiveBody": "{type} · {answered} de {total} ejercicios respondidos",
+    "continueCta": "Continuar",
+    "nextTitle": "Siguiente en tu plan",
+    "nextCta": "Empezar",
+    "startTitle": "Entrena unos minutos hoy",
+    "startBody": "Haz una práctica corta de psicotécnicos: tus resultados se guardan y solo los ves tú.",
+    "newPractice": "Elegir otra práctica",
+    "progressTitle": "Tu progreso",
+    "last7": "Últimos 7 días",
+    "ringLabel": "Aciertos en los últimos 7 días: {pct} %",
+    "ringNoData": "Aún no hay datos de aciertos",
+    "chartCaption": "Ejercicios respondidos y acertados por día en los últimos 7 días",
+    "answeredLabel": "Respondidos",
+    "correctLabel": "Acertados",
+    "progressEmpty": "Haz tu primera práctica y aquí verás tus aciertos, tu racha y tu actividad de la semana.",
+    "reviewTitle": "Repaso de errores",
+    "reviewNone": "Aún no tienes fallos. Cuando falles un ejercicio, aparecerá aquí para que lo repases.",
+    "pendingWord": "{count, plural, one {fallo por repasar} other {fallos por repasar}}",
+    "moreTitle": "Más opciones",
+    "shortcuts": {
+      "practice": "Elige tipo, número de ejercicios y dificultad",
+      "library": "Packs, temario y simulacros a los que tienes acceso",
+      "profile": "Tus datos, idioma y cuenta"
+    },
+    "errorTitle": "No hemos podido cargar esta pantalla",
+    "errorBody": "Puede ser un problema momentáneo de conexión. Tus datos no se han perdido.",
+    "errorRetry": "Reintentar",
+    "loading": "Cargando tu panel…"
   },
   "onboarding": {
     "title": "Configura tu preparación",

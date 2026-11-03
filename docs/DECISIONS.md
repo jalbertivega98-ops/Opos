@@ -78,3 +78,9 @@ Aprobar, rechazar, publicar y archivar exigen rol `owner` en la base de datos, n
 ## ADR-017 · Registro de generadores de psicotécnicos (2026-11-02)
 
 Contrato común `PsychoGenerator { generate, verify }` con presentación genérica (`sequence`, `text`, `analogy`, `matrix`, `figure`, `grid`) y tokens (`w:` palabra traducible, `g:` figura SVG, `p:` pieza). Siete tipos: series, letras (27 letras con Ñ), numérico, analogías (vocabulario curado es/ca), matrices (reglas por atributo con detección de ambigüedad), espacial (piezas quirales sin simetría) y atención. Cada verificador recalcula la solución y rechaza ítems ambiguos u opciones duplicadas; los tests manipulan soluciones para comprobar que se detectan.
+
+## ADR-018 · Identidad visual «cuaderno con método» y panel en dos niveles (2026-11-03)
+
+**Decisión:** a petición de joel, rediseño de portada y panel del alumno sin dependencias nuevas: tokens `highlight` (marcador) e `ink` (franjas marinas), fondo cuadriculado, componentes `Section`/`SectionHeader`, `IconBadge`, `ProgressRing`/`Meter`/`DayBars` y `AppNav`. El panel prioriza «Continuar practicando», progreso y repaso de errores; lo demás pasa a «Más opciones». El turquesa se oscurece a #0A7A70 para cumplir AA.
+**Motivo:** todo eran tarjetas iguales con texto; no quedaba claro dónde mirar ni qué hacer.
+**Consecuencias:** las demás pantallas se migrarán al mismo sistema tras la revisión de joel. La rama del rediseño no se despliega sola en Vercel (`vercel.json`, `git.deploymentEnabled` para `claude/**`). La portada no muestra testimonios ni cifras; los valores de ejemplo van marcados como tales.

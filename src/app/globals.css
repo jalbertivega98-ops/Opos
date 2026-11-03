@@ -15,16 +15,26 @@
   --muted-foreground: #4a5a72;
   --border: #dde3ec;
   --input: #cfd7e3;
-  --ring: #0f9b8e;
+  --ring: #0a7a70;
   --primary: #0b2545;
   --primary-foreground: #ffffff;
-  --accent: #0f9b8e;
+  --accent: #0a7a70;
   --accent-foreground: #ffffff;
   --accent-soft: #e3f6f3;
   --danger: #c0352b;
   --danger-soft: #fdecea;
-  --success: #17803d;
+  --success: #167a3a;
   --warning: #a15c00;
+  --warning-soft: #fff4dc;
+  /* Identidad: «marcador» de estudio (resalta lo importante) y franjas en tinta marina */
+  --highlight: #ffd166;
+  --highlight-soft: #fff6dc;
+  --highlight-foreground: #3d2a00;
+  --ink: #0b2545;
+  --ink-2: #13335c;
+  --ink-foreground: #ffffff;
+  --ink-muted: #bccae0;
+  --grid-line: rgb(11 37 69 / 0.06);
   --radius: 0.75rem;
 }
 
@@ -46,6 +56,15 @@
   --danger-soft: #3a1512;
   --success: #4ade80;
   --warning: #fbbf24;
+  --warning-soft: #33260a;
+  --highlight: #f2c14e;
+  --highlight-soft: #2e2610;
+  --highlight-foreground: #2a1d00;
+  --ink: #0e2a4f;
+  --ink-2: #163a68;
+  --ink-foreground: #f2f6fb;
+  --ink-muted: #b4c4dc;
+  --grid-line: rgb(232 238 247 / 0.05);
 }
 
 @theme inline {
@@ -66,6 +85,14 @@
   --color-danger-soft: var(--danger-soft);
   --color-success: var(--success);
   --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-highlight: var(--highlight);
+  --color-highlight-soft: var(--highlight-soft);
+  --color-highlight-foreground: var(--highlight-foreground);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-ink-muted: var(--ink-muted);
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-display), var(--font-sans), ui-sans-serif, system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
@@ -95,6 +122,35 @@
   :focus-visible {
     outline: 2px solid var(--ring);
     outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  /* Papel cuadriculado: fondo de las zonas de «entrenamiento» (portada, panel). */
+  .bg-grid {
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  /* Trazo de marcador bajo una palabra clave del titular. */
+  .marker {
+    background-image: linear-gradient(
+      transparent 58%,
+      var(--highlight) 58%,
+      var(--highlight) 90%,
+      transparent 90%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  .dark .marker {
+    background-image: linear-gradient(
+      transparent 62%,
+      rgb(242 193 78 / 0.45) 62%,
+      rgb(242 193 78 / 0.45) 92%,
+      transparent 92%
+    );
   }
 }
 
