@@ -21,9 +21,19 @@ Para probar la app desde cualquier navegador **sin publicarla**: web protegida c
    - `PREVIEW_PASSWORD` = contraseña para entrar en la web
 3. Deploy.
 
-## 3. Contenido nuevo (después del paso 1)
+## 3. Contenido nuevo: automático
 
-En el SQL Editor, en este orden y una sola vez cada uno (todos son idempotentes): `3-b1-guia-ca.sql`, `4-aprobacion-por-lotes.sql`, `5a`, `5b` y `5c-temario-mossos-…`, `6-packs-mossos-ca.sql`, `7-simulacros.sql`, `8-publicar-todo.sql`, `9-pack-completo.sql`. Después, con `admin@aprobia.test`, en `/admin/revision/fuentes` (sin elegir tema): marcar la confirmación y pulsar «Aprobar y publicar todo».
+Desde el 2026-11-03 los SQL de `supabase/preview/` del **3 en adelante** los aplica GitHub Actions (`.github/workflows/preview-db.yml` → `scripts/preview/apply-sql.mjs`) en cada push a `main` que los cambie. Se registran en `public.preview_sql_applied` y solo se repiten si cambia el archivo (todos son idempotentes). Los 1 y 2 siguen siendo manuales (arranque).
+
+Configuración, una sola vez (la hace joel; la contraseña no pasa por Claude):
+
+1. Supabase → proyecto `aprobia-preview` → botón **Connect** → **Session pooler** → copiar la URI y sustituir `[YOUR-PASSWORD]` por la contraseña de la base de datos (si no la recuerdas: Project Settings → Database → Reset database password).
+2. GitHub → repo `Opos` → Settings → Secrets and variables → Actions → **New repository secret**: nombre `PREVIEW_DATABASE_URL`, valor la URI.
+3. GitHub → Actions → «Base de datos de la preview» → **Run workflow** para la primera ejecución.
+
+Sin el secreto, el workflow no hace nada (no falla). Para verificar el certificado TLS se puede añadir también el secreto `PREVIEW_DATABASE_CA` con el certificado que Supabase ofrece en Project Settings → Database → SSL.
+
+Después de publicar con «Aprobar y publicar todo» (en `/admin/revision/fuentes`, sin elegir tema) el contenido queda visible.
 
 ## Regenerar el SQL
 
