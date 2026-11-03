@@ -11,7 +11,7 @@ export async function ExamCard({ exam }: { exam: ExamBodyCard }) {
   return (
     <Link
       href={`/oposiciones/${exam.slug}`}
-      className="group border-border bg-background flex h-full flex-col gap-3 rounded-xl border p-5 transition-shadow hover:shadow-md"
+      className="group border-border bg-background hover:border-accent flex h-full flex-col gap-3 rounded-2xl border p-5 transition-colors"
       data-testid="exam-card"
     >
       <div className="flex flex-wrap items-center gap-2">
