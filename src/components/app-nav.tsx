@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  BookOpenText,
   CalendarCheck,
   LayoutDashboard,
   Library,
@@ -15,6 +16,7 @@ import { cn } from "@/lib/utils";
 const ICONS: Record<string, LucideIcon> = {
   "/app": LayoutDashboard,
   "/app/plan": CalendarCheck,
+  "/app/temario": BookOpenText,
   "/app/practica": Shapes,
   "/app/progreso": TrendingUp,
   "/app/productos": Library,

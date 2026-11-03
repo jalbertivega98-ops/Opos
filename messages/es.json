@@ -23,7 +23,8 @@
     "progress": "Mi progreso",
     "library": "Mis productos",
     "plan": "Mi plan",
-    "how": "Cómo funciona"
+    "how": "Cómo funciona",
+    "syllabus": "Temario"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -969,7 +970,25 @@
       "confirm": "Confirmo que apruebo y publico todas las preguntas pendientes, y los packs y simulacros que las usan.",
       "button": "Aprobar y publicar todo",
       "working": "Publicando…",
-      "done": "Hecho: {questions} preguntas y {products} productos publicados."
+      "done": "Hecho: {questions} preguntas, {notes} fichas y {products} productos publicados."
+    },
+    "navNotes": "Fichas de estudio",
+    "notes": {
+      "title": "Fichas de estudio",
+      "subtitle": "Índice, «Idees força» y glosario de cada tema, extraídos literalmente de la guía oficial y comprobados contra el texto. Revísalas y publícalas: el alumnado solo ve las publicadas.",
+      "counts": "{total} fichas · {pending} pendientes · {published} publicadas",
+      "empty": "No hay fichas cargadas.",
+      "hasAmendments": "Con esmenes",
+      "summary": "{sections} apartados · {ideas} ideas clave · {terms} términos",
+      "confirmOne": "Confirmo que he revisado esta ficha",
+      "confirmAll": "Confirmo que apruebo y publico las {count} fichas pendientes",
+      "button_approved": "Aprobar ficha",
+      "button_published": "Publicar ficha",
+      "button_both": "Aprobar y publicar todas",
+      "working": "Guardando…",
+      "done_approved": "Ficha aprobada.",
+      "done_published": "Ficha publicada.",
+      "done_both": "{count, plural, one {# ficha publicada} other {# fichas publicadas}}."
     }
   },
   "store": {
@@ -1268,5 +1287,29 @@
     "topicsTitle": "Ver los {count} temas incluidos",
     "topicQuestions": "{count} preg.",
     "sourceNote": "Preguntas redactadas por nosotros a partir de la Guia d'estudi oficial. No somos una academia oficial ni copiamos exámenes."
+  },
+  "notes": {
+    "title": "Temario",
+    "subtitle": "Fichas de estudio de {exam}: índice, ideas clave y glosario de cada tema, tal como aparecen en la guía oficial.",
+    "area": "Àmbit {area}",
+    "ideasCount": "{count, plural, one {# idea clave} other {# ideas clave}}",
+    "pages": "págs. {from}-{to}",
+    "page": "pág. {page}",
+    "emptyTitle": "Todavía no hay fichas",
+    "empty": "Las fichas de tu oposición aparecerán aquí en cuanto estén revisadas.",
+    "emptyNoTarget": "Elige tu oposición para ver su temario.",
+    "emptyCta": "Elegir oposición",
+    "literalNotice": "Texto copiado literalmente de la fuente oficial, en su idioma original. Para estudiar a fondo, lee el tema completo en la guía.",
+    "back": "Volver al temario",
+    "outline": "Índice del tema",
+    "keyIdeas": "Ideas clave («Idees força»)",
+    "glossary": "Glosario del tema",
+    "glossaryHint": "Términos que la guía destaca en este tema. Asegúrate de saber explicarlos.",
+    "amendments": "Correcciones oficiales a este tema",
+    "amendmentsSource": "Ver esmenes",
+    "sourceLine": "Fuente:",
+    "sourceFallback": "Fuente oficial",
+    "practiceCta": "Practicar con preguntas",
+    "planCta": "Ver mi plan"
   }
 }

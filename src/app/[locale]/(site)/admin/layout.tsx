@@ -21,6 +21,7 @@ export default async function AdminLayout({
     { href: "/admin/preguntas", label: tc("nav") },
     { href: "/admin/revision", label: tc("navReview") },
     { href: "/admin/revision/fuentes", label: tc("navSources") },
+    { href: "/admin/revision/fichas", label: tc("navNotes") },
     { href: "/admin/productos", label: tc("navProducts") },
     { href: "/admin/compras", label: tc("navPurchases") },
   ];
