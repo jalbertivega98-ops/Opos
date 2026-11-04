@@ -166,7 +166,7 @@ function block(t, lang, url) {
 </table>
 </td></tr>
 <tr><td style="padding:20px 8px 0;font-family:${SANS};font-size:12px;line-height:1.6;color:${C.muted};text-align:center;">
-${l.footer}<br>${l.help} <a href="mailto:hola@oposaprueba.com" style="color:${C.muted};">hola@oposaprueba.com</a> · <a href="${SITE}" style="color:${C.muted};">oposaprueba.com</a>
+${l.footer}<br>${l.help} <a href="mailto:oposaprueba@gmail.com" style="color:${C.muted};">oposaprueba@gmail.com</a> · <a href="${SITE}" style="color:${C.muted};">oposaprueba.com</a>
 </td></tr>
 </table>
 </td></tr>
