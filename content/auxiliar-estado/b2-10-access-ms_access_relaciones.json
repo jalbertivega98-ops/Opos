@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_relaciones-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Guía de relaciones de tablas",
+      "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Relaciones varios a varios",
+      "stem": "Para representar en Access una relación de varios a varios entre dos tablas es necesario:",
+      "options": [
+        "Exigir integridad referencial en una relación uno a uno.",
+        "Crear un campo de tipo Calculado en ambas tablas.",
+        "Crear una tercera tabla, a menudo denominada tabla de unión.",
+        "Repetir la clave principal de cada tabla en un solo campo compuesto de la otra."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La relación de varios a varios se representa con una tercera tabla (tabla de unión) que la divide en dos relaciones uno a varios.",
+      "excerpt": "Para representar una relación de varios a varios, debe crear una tercera tabla, a menudo denominada tabla de unión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Integridad referencial",
+      "stem": "Según Microsoft, el propósito de la integridad referencial es:",
+      "options": [
+        "Evitar los registros huérfanos.",
+        "Impedir valores duplicados en cualquier campo.",
+        "Acelerar la ejecución de las consultas.",
+        "Cifrar los datos de las tablas relacionadas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La integridad referencial, que depende de las relaciones de tabla, evita los registros huérfanos; Access rechaza las operaciones que la infrinjan.",
+      "excerpt": "El propósito de la integridad referencial es evitar los registros huérfanos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualizar en cascada",
+      "stem": "En una relación con integridad referencial, ¿qué opción hace que, al cambiar el valor de una clave principal, Access actualice automáticamente todos los campos que hacen referencia a ella?",
+      "options": [
+        "Eliminar en cascada los registros relacionados.",
+        "Tipo de combinación.",
+        "Crear nueva relación.",
+        "Actualizar en cascada los campos relacionados."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Con «Actualizar en cascada los campos relacionados», Access actualiza automáticamente los campos que hacen referencia a la clave principal; «Eliminar en cascada» elimina los registros que hacen referencia a ella.",
+      "excerpt": "Access actualiza automáticamente todos los campos que hacen referencia a la clave principal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Ventana Relaciones",
+      "stem": "¿En qué pestaña de la cinta de Access se encuentra el botón Relaciones para ver y crear relaciones entre tablas?",
+      "options": [
+        "Crear.",
+        "Herramientas de base de datos.",
+        "Datos externos.",
+        "Inicio."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft indica: pestaña Herramientas de base de datos, grupo Relaciones, botón Relaciones.",
+      "excerpt": "En la pestaña Herramientas de base de datos, en el grupo Relaciones, haga clic en Relaciones.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ export function getStripe() {
   if (client?.key !== config.secretKey) {
     client = {
       key: config.secretKey,
-      stripe: new Stripe(config.secretKey, { appInfo: { name: "Aprobia" }, telemetry: false }),
+      stripe: new Stripe(config.secretKey, { appInfo: { name: "OposAprueba" }, telemetry: false }),
     };
   }
   return { stripe: client.stripe, provider: config.provider, webhookSecret: config.webhookSecret };

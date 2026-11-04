@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_cambios-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Realizar un seguimiento de los cambios en Word",
+      "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Control de cambios (marcas)",
+      "stem": "Con el Control de cambios activado en Word, ¿cómo se marcan las eliminaciones y las adiciones?",
+      "options": [
+        "Las eliminaciones con un subrayado y las adiciones con un tachado.",
+        "Ambas con resaltado amarillo.",
+        "Las eliminaciones con un tachado y las adiciones con un subrayado.",
+        "Las eliminaciones desaparecen sin marca y las adiciones se muestran en negrita."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Word marca las eliminaciones con tachado y las adiciones con subrayado, usando un color distinto para cada autor.",
+      "excerpt": "Las eliminaciones se marcan con un tachado y las adiciones se marcan con un subrayado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Control de cambios (Sin marcado)",
+      "stem": "En el Control de cambios de Word, si se elige la presentación «Sin marcado»:",
+      "options": [
+        "Se aceptan todos los cambios pendientes del documento.",
+        "Se rechazan todos los cambios pendientes del documento.",
+        "Se desactiva el Control de cambios.",
+        "Se ve el documento con los cambios incorporados, pero los cambios no se quitan del documento."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "«Sin marcado» solo oculta las marcas para mostrar el documento como quedaría; ocultar los cambios no los quita. Para eliminar la marcación hay que aceptar o rechazar los cambios.",
+      "excerpt": "Sin marcado oculta el marcado para mostrar el documento con los cambios incorporados. […] Ocultar los cambios no los quita del documento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Control de cambios (aceptar y rechazar)",
+      "stem": "Para quitar la marcación de revisiones de un documento de Word, Microsoft indica que deben utilizarse los comandos Aceptar y Rechazar del grupo:",
+      "options": [
+        "Cambios.",
+        "Seguimiento.",
+        "Comentarios.",
+        "Proteger."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ocultar los cambios no los elimina; hay que usar Aceptar y Rechazar, situados en el grupo Cambios de la pestaña Revisar.",
+      "excerpt": "Debe utilizar los comandos Aceptar y Rechazar en el grupo Cambios para quitar la marcación del documento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

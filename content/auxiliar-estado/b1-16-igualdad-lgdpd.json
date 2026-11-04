@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b1-16-igualdad-lgdpd-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.16 Igualdad, violencia de género, LGTBI, discapacidad y dependencia",
+    "topic_slug": "age-aux-b1-16-igualdad",
+    "locale": "es",
+    "category": "age_aux_b1_16_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 1/2013, de 29 de noviembre, texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.e) RDL 1/2013",
+      "stem": "De acuerdo con el artículo 2 del texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, cuando una persona es objeto de un trato discriminatorio debido a su relación con otra por motivo o por razón de discapacidad, existe:",
+      "options": [
+        "Discriminación por asociación.",
+        "Discriminación indirecta.",
+        "Acoso.",
+        "Discriminación directa."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 2.e) RDL 1/2013 define la discriminación por asociación. La discriminación directa (art. 2.c) se refiere al trato menos favorable a la propia persona con discapacidad por razón de ella.",
+      "excerpt": "e) Discriminación por asociación: existe cuando una persona o grupo en que se integra es objeto de un trato discriminatorio debido a su relación con otra por motivo o por razón de discapacidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.l) RDL 1/2013",
+      "stem": "Según el artículo 2 del Real Decreto Legislativo 1/2013, la actividad por la que se conciben o proyectan desde el origen, y siempre que sea posible, entornos, procesos, bienes, productos y servicios de tal forma que puedan ser utilizados por todas las personas, en la mayor extensión posible, sin necesidad de adaptación ni diseño especializado, se denomina:",
+      "options": [
+        "Accesibilidad universal.",
+        "Diseño universal o diseño para todas las personas.",
+        "Ajustes razonables.",
+        "Normalización."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 2.l) RDL 1/2013 define el diseño universal como una actividad de concepción desde el origen. La accesibilidad universal (art. 2.k) es la condición que deben cumplir los entornos y productos; los ajustes razonables (art. 2.m) son adaptaciones para un caso particular.",
+      "excerpt": "l) Diseño universal o diseño para todas las personas: es la actividad por la que se conciben o proyectan desde el origen, y siempre que ello sea posible, entornos, procesos, bienes, productos, servicios, objetos, instrumentos, programas, dispositivos o herramientas, de tal forma que puedan ser utilizados por todas las personas, en la mayor extensión posible, sin necesidad de adaptación ni diseño especializado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2 RDL 1/2013",
+      "stem": "A los efectos del Real Decreto Legislativo 1/2013, además de las definidas en el artículo 4.1, tendrán la consideración de personas con discapacidad aquellas a quienes se les haya reconocido un grado de discapacidad igual o superior al:",
+      "options": [
+        "25 por ciento.",
+        "45 por ciento.",
+        "65 por ciento.",
+        "33 por ciento."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 4.2 RDL 1/2013 considera personas con discapacidad, a efectos de la ley, a quienes tengan reconocido un grado de discapacidad igual o superior al 33 %.",
+      "excerpt": "2. Además de lo establecido en el apartado anterior, a los efectos de esta ley, tendrán la consideración de personas con discapacidad aquellas a quienes se les haya reconocido un grado de discapacidad igual o superior al 33 por ciento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 42.1 RDL 1/2013",
+      "stem": "Según el artículo 42 del Real Decreto Legislativo 1/2013, las empresas públicas y privadas que empleen a un número de 50 o más trabajadores vendrán obligadas a que, de entre ellos, sean trabajadores con discapacidad al menos:",
+      "options": [
+        "El 5 por 100.",
+        "El 7 por 100.",
+        "El 1 por 100.",
+        "El 2 por 100."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 42.1 RDL 1/2013 establece una cuota de reserva de al menos el 2 % en empresas de 50 o más trabajadores, computada sobre la plantilla total; excepcionalmente cabe la exención con medidas alternativas.",
+      "excerpt": "1. Las empresas públicas y privadas que empleen a un número de 50 o más trabajadores vendrán obligadas a que de entre ellos, al menos, el 2 por 100 sean trabajadores con discapacidad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

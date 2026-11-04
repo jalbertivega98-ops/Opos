@@ -23,8 +23,12 @@ import { Eyebrow, Section, SectionHeader } from "@/components/ui/section";
 import { Meter, ProgressRing } from "@/components/ui/progress";
 import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
+import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies } from "@/lib/catalog/queries";
 import { cn } from "@/lib/utils";
+import type { Metadata } from "next";
+import { JsonLd, faqLd, organizationLd, websiteLd } from "@/lib/seo/json-ld";
+import { pageMetadata } from "@/lib/seo/site";
 
 const FAQ = ["1", "2", "3", "4", "5"] as const;
 const STEPS = [
@@ -38,6 +42,18 @@ const TRUST = [
   { key: "independent", icon: Scale },
 ] as const;
 
+export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo.home" });
+  return pageMetadata({
+    path: "/",
+    locale,
+    title: t("title"),
+    description: t("description"),
+    absoluteTitle: true,
+  });
+}
+
 export default async function Landing({ params, searchParams }: PageProps<"/[locale]">) {
   const { locale } = await params;
   const { cuenta } = await searchParams;
@@ -46,8 +62,18 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
   const tNotice = await getTranslations("landingNotice");
   const exams = await listExamBodies({}, 6);
 
+  const tSeo = await getTranslations("seo");
+  const faqItems = FAQ.map((n) => ({ q: t(`faq.q${n}`), a: t(`faq.a${n}`) }));
+
   return (
     <>
+      <JsonLd
+        data={[
+          organizationLd(tSeo("org")),
+          websiteLd(locale, tSeo("home.description")),
+          faqLd(faqItems),
+        ]}
+      />
       {cuenta === "eliminada" && (
         <div
           role="status"
@@ -59,13 +85,13 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
 
       {/* 1 · Hero: qué es, para quién y acción principal + muestra del entrenamiento */}
       <section className="bg-surface bg-grid border-border relative overflow-hidden border-b">
-        <div className="mx-auto grid max-w-6xl gap-12 px-4 pt-12 pb-16 sm:pt-20 sm:pb-24 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+        <div className="wrap grid gap-12 pt-12 pb-16 sm:pt-20 sm:pb-24 lg:grid-cols-[1.1fr_1fr] lg:items-center 2xl:gap-24 2xl:pt-28 2xl:pb-32">
           <div>
             <p className="border-border bg-background text-muted-foreground inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold">
               <span className="bg-accent size-2 rounded-full" aria-hidden />
               {t("eyebrow")}
             </p>
-            <h1 className="mt-5 text-4xl leading-[1.08] font-extrabold sm:text-5xl xl:text-[3.5rem]">
+            <h1 className="mt-5 text-4xl leading-[1.08] font-extrabold sm:text-5xl xl:text-[3.5rem] 2xl:text-7xl">
               {t.rich("titleRich", { mark: (c) => <span className="marker">{c}</span> })}
             </h1>
             <p className="text-muted-foreground mt-5 max-w-xl text-base sm:text-lg">
@@ -128,27 +154,31 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               {t("sample.title")}
             </p>
             <ExerciseSample />
-            <ProgressPreview
-              title={t("preview.title")}
-              note={t("preview.note")}
-              accuracy={t("preview.accuracy")}
-              rows={t.raw("preview.rows") as string[]}
-            />
+            <div className="scroll-drift">
+              <ProgressPreview
+                title={t("preview.title")}
+                note={t("preview.note")}
+                accuracy={t("preview.accuracy")}
+                rows={t.raw("preview.rows") as string[]}
+              />
+            </div>
           </div>
         </div>
       </section>
 
       {/* 2 · Cómo funciona: tres pasos */}
       <Section id="como-funciona" className="scroll-mt-20" aria-labelledby="steps-title">
-        <SectionHeader
-          id="steps-title"
-          eyebrow={t("stepsEyebrow")}
-          title={t("stepsTitle")}
-          description={t("stepsSubtitle")}
-        />
+        <Reveal effect="blur">
+          <SectionHeader
+            id="steps-title"
+            eyebrow={t("stepsEyebrow")}
+            title={t("stepsTitle")}
+            description={t("stepsSubtitle")}
+          />
+        </Reveal>
         <ol className="mt-10 grid gap-6 md:grid-cols-3">
           {STEPS.map(({ key, icon }, i) => (
-            <li key={key} className="relative">
+            <Reveal as="li" key={key} effect="up" delay={i * 150} className="relative">
               <div className="flex items-center gap-4">
                 <span className="font-display text-ink dark:text-highlight text-5xl leading-none font-extrabold tabular-nums">
                   {i + 1}
@@ -160,7 +190,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               </div>
               <h3 className="mt-4 text-xl font-bold">{t(`steps.${key}.title`)}</h3>
               <p className="text-muted-foreground mt-2">{t(`steps.${key}.body`)}</p>
-            </li>
+            </Reveal>
           ))}
         </ol>
       </Section>
@@ -172,14 +202,17 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
         className="scroll-mt-20"
         aria-labelledby="features-title"
       >
-        <SectionHeader
-          id="features-title"
-          eyebrow={t("featuresEyebrow")}
-          title={t("featuresTitle")}
-          description={t("featuresSubtitle")}
-        />
+        <Reveal effect="left">
+          <SectionHeader
+            id="features-title"
+            eyebrow={t("featuresEyebrow")}
+            title={t("featuresTitle")}
+            description={t("featuresSubtitle")}
+          />
+        </Reveal>
         <div className="mt-10 grid gap-4 md:grid-cols-6">
           <FeatureTile
+            effect="left"
             className="md:col-span-3"
             icon={ClipboardList}
             title={t("features.tests.title")}
@@ -188,6 +221,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             <QuestionMini source={t("minis.source")} explanation={t("minis.explanation")} />
           </FeatureTile>
           <FeatureTile
+            effect="right"
             className="md:col-span-3"
             icon={Shapes}
             title={t("features.psycho.title")}
@@ -204,6 +238,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             <MatrixMini />
           </FeatureTile>
           <FeatureTile
+            effect="up"
             className="md:col-span-2"
             icon={CalendarCheck}
             title={t("features.plan.title")}
@@ -225,6 +260,8 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             </ul>
           </FeatureTile>
           <FeatureTile
+            effect="up"
+            delay={120}
             className="md:col-span-2"
             icon={Timer}
             title={t("features.mocks.title")}
@@ -247,6 +284,8 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             </div>
           </FeatureTile>
           <FeatureTile
+            effect="up"
+            delay={240}
             className="md:col-span-2"
             icon={RefreshCcw}
             title={t("features.review.title")}
@@ -266,7 +305,10 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               ))}
             </div>
           </FeatureTile>
-          <div className="border-border bg-background flex flex-col gap-3 rounded-2xl border border-dashed p-5 sm:flex-row sm:items-center md:col-span-6">
+          <Reveal
+            effect="zoom"
+            className="border-border bg-background flex flex-col gap-3 rounded-2xl border border-dashed p-5 sm:flex-row sm:items-center md:col-span-6"
+          >
             <IconBadge icon={BrainCircuit} tone="neutral" />
             <div className="flex-1">
               <h3 className="flex flex-wrap items-center gap-2 font-semibold">
@@ -274,12 +316,12 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               </h3>
               <p className="text-muted-foreground text-sm">{t("features.tutor.body")}</p>
             </div>
-          </div>
+          </Reveal>
         </div>
       </Section>
 
       {/* 4 · Confianza: franja marina */}
-      <Section tone="ink" aria-labelledby="trust-title">
+      <Section tone="ink" className="scroll-grow" aria-labelledby="trust-title">
         <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:items-center">
           <SectionHeader
             id="trust-title"
@@ -289,14 +331,20 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             description={t("trustBody")}
           />
           <ul className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
-            {TRUST.map(({ key, icon }) => (
-              <li key={key} className="bg-ink-2 flex gap-4 rounded-2xl p-5">
+            {TRUST.map(({ key, icon }, i) => (
+              <Reveal
+                as="li"
+                key={key}
+                effect="right"
+                delay={i * 120}
+                className="bg-ink-2 flex gap-4 rounded-2xl p-5"
+              >
                 <IconBadge icon={icon} tone="onInk" />
                 <div>
                   <h3 className="font-semibold">{t(`trust.${key}.title`)}</h3>
                   <p className="text-ink-muted mt-1 text-sm">{t(`trust.${key}.body`)}</p>
                 </div>
-              </li>
+              </Reveal>
             ))}
           </ul>
         </div>
@@ -317,9 +365,11 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             </Button>
           }
         />
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {exams.map((exam) => (
-            <ExamCard key={exam.id} exam={exam} />
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:gap-6">
+          {exams.map((exam, i) => (
+            <Reveal key={exam.id} effect="zoom" delay={(i % 3) * 100}>
+              <ExamCard exam={exam} />
+            </Reveal>
           ))}
         </div>
       </Section>
@@ -335,8 +385,9 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
         />
         <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
           {(["free", "premium"] as const).map((plan) => (
-            <div
+            <Reveal
               key={plan}
+              effect={plan === "free" ? "left" : "right"}
               className={cn(
                 "flex flex-col rounded-2xl border p-6 sm:p-8",
                 plan === "premium"
@@ -383,7 +434,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                   </>
                 )}
               </div>
-            </div>
+            </Reveal>
           ))}
         </div>
       </Section>
@@ -392,7 +443,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
       <Section id="faq" aria-labelledby="faq-title">
         <div className="grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-start">
           <SectionHeader id="faq-title" eyebrow={t("faqEyebrow")} title={t("faqTitle")} />
-          <div className="divide-border border-border divide-y rounded-2xl border">
+          <Reveal effect="blur" className="divide-border border-border divide-y rounded-2xl border">
             {FAQ.map((n) => (
               <details key={n} className="group px-5">
                 <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 py-4 font-semibold [&::-webkit-details-marker]:hidden">
@@ -405,13 +456,16 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                 <p className="text-muted-foreground pb-5 text-sm">{t(`faq.a${n}`)}</p>
               </details>
             ))}
-          </div>
+          </Reveal>
         </div>
       </Section>
 
       {/* 8 · CTA final */}
-      <section className="px-4 pb-16 sm:pb-24">
-        <div className="bg-ink text-ink-foreground bg-grid relative mx-auto max-w-6xl overflow-hidden rounded-3xl px-6 py-12 text-center sm:px-12 sm:py-16">
+      <section className="wrap pb-16 sm:pb-24">
+        <Reveal
+          effect="tilt"
+          className="bg-ink text-ink-foreground bg-grid relative overflow-hidden rounded-3xl px-6 py-12 text-center sm:px-12 sm:py-16 2xl:py-24"
+        >
           <Eyebrow onInk>{t("finalEyebrow")}</Eyebrow>
           <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl">{t("finalTitle")}</h2>
           <p className="text-ink-muted mx-auto mt-3 max-w-xl">{t("finalBody")}</p>
@@ -427,7 +481,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               <Link href="/oposiciones">{t("ctaSecondary")}</Link>
             </Button>
           </div>
-        </div>
+        </Reveal>
       </section>
     </>
   );
@@ -440,6 +494,8 @@ function FeatureTile({
   children,
   action,
   className,
+  effect = "up",
+  delay = 0,
 }: {
   icon: Parameters<typeof IconBadge>[0]["icon"];
   title: string;
@@ -447,9 +503,13 @@ function FeatureTile({
   children: React.ReactNode;
   action?: React.ReactNode;
   className?: string;
+  effect?: RevealEffect;
+  delay?: number;
 }) {
   return (
-    <div
+    <Reveal
+      effect={effect}
+      delay={delay}
       className={cn(
         "border-border bg-background flex flex-col gap-5 rounded-2xl border p-5 sm:p-6",
         className,
@@ -464,7 +524,7 @@ function FeatureTile({
         </div>
       </div>
       <div className="mt-auto">{children}</div>
-    </div>
+    </Reveal>
   );
 }
 

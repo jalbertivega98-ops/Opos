@@ -1,15 +1,87 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-03 · Sesión 3 (+ temario completo de Mossos y aprobación por lotes)
+**Última actualización:** 2026-11-04 · Sesión 3 (+ SEO y GEO, ADR-025)
 
 ## Estado exacto
 
 ### Pagos con Stripe en modo de pruebas (2026-11-03, rama `claude/project-thread-tdwb1x`, STO-008)
 
-- joel pidió que Claude lo hiciera todo. Código hecho y probado **sin cuenta de Stripe**. Todo en `docs/PAGOS.md` y ADR-019.
+- joel pidió que Claude lo hiciera todo. Código hecho y probado **sin cuenta de Stripe**. Todo en `docs/PAGOS.md` y ADR-027.
 - Migración `20261103000900_billing.sql` (+ `supabase/preview/11-pagos-stripe.sql`), `src/lib/billing/*`, `/api/stripe/webhook`, botones en `/oposiciones/[slug]` y `/app/productos`, portal «Gestionar suscripción».
 - Pendiente de joel: crear la cuenta de Stripe (modo de pruebas), poner `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, guardar el portal de clientes, fijar precios y publicar Premium en `/admin/productos`.
 - Cobros reales: NO. Requieren autorización expresa, datos fiscales del titular (DEC-004) y textos legales revisados.
+
+### SEO y GEO (2026-11-04, rama `claude/project-thread-h5od90`, MKT-002, ADR-025)
+
+- joel pidió una auditoría SEO/GEO completa sin cambiar funciones. Guía de mantenimiento en `docs/SEO.md`.
+- **Hecho:**
+  - `robots.txt`, `sitemap.xml` y `llms.txt`. Canonical, hreflang, Open Graph e imagen social. `noindex` en zonas privadas.
+  - Todo depende de `isIndexable()`: con `PREVIEW_PASSWORD` nada es indexable. **Hoy ningún rastreador puede entrar.**
+  - Guías por oposición (`src/lib/seo/exam-guides.ts`, solo datos de `docs/research/`) y 12 páginas `/psicotecnicos/[tipo]`.
+  - Schema.org (Organization, WebSite, FAQPage, BreadcrumbList, WebPage, Quiz).
+  - Analítica de captación sin cookies: migración `20261104000200_traffic_analytics.sql`, preview `22-` y panel `/admin/trafico`.
+  - Verificación de Search Console y Bing, e IndexNow, por variables de entorno.
+- **Siguiente (requiere a joel):**
+  - Quitar la contraseña cuando quiera abrir la web y redesplegar.
+  - Dar de alta Search Console (TXT en Cloudflare) y Bing, y enviar el sitemap.
+  - Decidir si se bloquean los rastreadores de entrenamiento (GPTBot, ClaudeBot…).
+  - Decidir si se publica una muestra gratuita del temario.
+  - Revisar el contenido de las guías.
+
+### Marca OPOSAPRUEBA y letra seria (2026-11-04, rama `claude/project-thread-0diwv3`, ADR-023)
+
+- La marca pasa a **OPOSAPRUEBA** en la interfaz, los metadatos, el manifiesto, los correos locales y la documentación. Los titulares usan Source Serif 4.
+- Se probó una portada interactiva inspirada en speak.com (selector de psicotécnicos reales y pestañas del producto). joel prefirió el diseño anterior, así que se descartó: está en el commit f86e21e por si se recupera algo.
+- Falta cambiar el remitente y las plantillas de correo de Supabase cloud en su panel.
+
+### Segunda oposición: Auxiliar Administrativo del Estado (2026-11-04, rama `claude/project-thread-mep42h`, CNT-012, ADR-020)
+
+- joel pidió la siguiente oposición con más clientes potenciales, hecha igual que Mossos, y **publicarla** cuando estuviera. Elegida por demanda estable y por encaje: 46.798-54.136 convocados al año, examen con 30 psicotécnicas y temario del BOE. Cifras y fuentes en `docs/research/auxiliar-estado-fuentes.md`.
+- Convocatoria verificada: BOE-A-2025-26262, Anexo I, 1.700 plazas. Ejercicio único de 90 min: parte 1 = 30 preguntas del Bloque I + 30 psicotécnicas; parte 2 = 50 del Bloque II. Cada error resta 1/3.
+- **Contenido:**
+  - 290 preguntas en castellano (`content/auxiliar-estado/*.json`), 14 de los 16 temas del Bloque I.
+  - 14 fichas con artículos literales (`content/auxiliar-estado/fichas/`).
+  - El formato compacto, las leyes del BOE (réplica legalize-es) y `build.py` están en `/mnt/project-files/aprobia/fuentes-oficiales/auxiliar-estado/`. `build.py --check` comprueba todas las citas (0 errores).
+  - Regenerar: `python3 -I build.py /home/claude/opos` y después los comandos de las cabeceras de `supabase/preview/12-` y `13-`.
+- **Productos** (`14-`): `age-aux-bloque-1-boe-2026` (pack), `age-aux-simulacro-bloque-1-2026` (30 preguntas, −1/3, 25 min), `age-aux-simulacro-psicotecnicos-2026` (psico, `config.item_types`) y `age-aux-pack-completo-2026` (bundle).
+- **Publicación** (`15-`, por orden de joel): publica preguntas, fichas y productos `age-aux-*` a nombre de la titular, con auditoría. Las 4 dudosas quedan en borrador. La oposición pasa a «disponible». Probado en local: 286 publicadas, idempotente, simulacro con 30 preguntas de 14 temas.
+- **Ampliación (CNT-013, ADR-021, mismo día, «Sigue y sube todo»):**
+  - Temas I.6 y I.10 y el Bloque II completo (U01-U12). En total hay 549 preguntas (537 publicadas y 12 dudosas en borrador) y 28 fichas.
+  - Ofimática y UE con fuentes web oficiales (`fuentes-web.json`, `web/`).
+  - Productos nuevos en `16-`: pack Bloque II y simulacro de la parte 2 (50 preguntas, 40 min), añadidos al pack completo.
+  - `17-` publica todo `age-aux-*` como `15-`.
+  - Los archivos de contenido se llaman ahora `b1-NN-…` / `b2-NN-…`.
+- **Dudosas:** joel pidió publicarlas («Súbelas»). Se aclararon en su explicación (`18-`) y se publicaron (`19-`): ya están publicadas las 549.
+- **Calibración con los exámenes reales (CNT-014, ADR-022):**
+  - Se leyeron en el Chrome de joel el examen de 2025 (23/05/2026) y el de 2024 del INAP, con sus plantillas, criterios y cortes. Análisis en `docs/research/auxiliar-estado-examenes.md`.
+  - 5 generadores nuevos de psicotécnicos con el formato AGE (`percentages`, `equations`, `probability`, `codes`, `tables`) y `item_types` con cantidades por tipo.
+  - Simulacro completo por partes (`age-aux-simulacro-completo-2026`, `kind: "sections"`, migración `20261104000100_sectioned_mock.sql`): 110 preguntas en 90 min, con nota por partes y los cortes de 2025 (29 y 21,33).
+  - 13 preguntas de seguridad y redes del glosario del INCIBE (562 en total).
+  - Preview: `20-` (migración + productos) y `21-` (preguntas nuevas publicadas).
+- **Siguiente:**
+  - Que joel fije el precio del pack.
+  - Banco verbal (sinónimos, antónimos y ortografía, unas 10 de 30 psicotécnicas) comprobado con el DLE en el Chrome de joel.
+  - Actualizar los cortes cuando salga una convocatoria nueva.
+  - Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
+
+### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-027)
+
+- joel preguntó qué más se podía añadir a Mossos antes de abrir otras oposiciones. Lista priorizada que se le propuso:
+  1. Fichas de estudio (hecho).
+  2. Guía de la convocatoria (calendario, fases, puntuación, solo con datos verificados).
+  3. Prueba física, del 23/11 al 21/12/2026.
+  4. Idiomas, que da hasta 3 de 23 puntos.
+  5. MOC-002 y más simulacros.
+  6. Àmbit D (actualidad), que necesita una fuente oficial.
+  7. Médico, entrevista y personalidad, solo con lo que digan las bases.
+- Los puntos 3, 4 y 7 requieren leer las bases ISP/1763/2026 en el Chrome de joel, porque la web de la Generalitat bloquea a Claude.
+- **Hecho:**
+  - 20 fichas (`content/mossos/fichas/*.json`) con índice, «Idees força», glosario y esmenes. Son texto literal de la guía y lo extrae `scripts/content/extract-topic-notes.mjs <guia-2026> content/mossos content/mossos/fichas`. 963/963 fragmentos comprobados con `verify-excerpts.mjs`.
+  - Migración `20261103000900_topic_notes.sql`: tabla, guardián de estados, RLS (solo publicadas para el alumnado), `review_topic_notes` (solo owner), `exam_topic_notes`. `review_all_batch` también publica las fichas.
+  - Admin en `/admin/revision/fichas`. Alumnado en `/app/temario` y `/app/temario/[slug]` (nueva pestaña «Temario»).
+  - Preview: `supabase/preview/11-fichas-mossos.sql` (idempotente; se aplica sola al mergear a `main`). Generar con `node scripts/content/notes-to-sql.mjs content/mossos/fichas/*.json`.
+  - Capturas en `/mnt/project-files/aprobia/fichas-estudio/` (`scripts/design/shots-notes.mjs`).
+- **Siguiente:** que joel revise y publique las fichas; después, el punto 2 (guía de la convocatoria) y, cuando joel esté en su PC, leer las bases para la prueba física y la de idiomas.
 
 ### Rediseño visual: portada y panel del alumno (2026-11-03, rama `claude/project-thread-0diwv3`, UX-001)
 
@@ -87,7 +159,7 @@ Contenedor cloud: E2E con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwr
 
 ## Pruebas (último run, sesión 3)
 
-typecheck ✅ · lint ✅ · build ✅ · unitarias 70/70 ✅ · BD 55/55 ✅ · E2E 30/30 ✅ (escritorio + móvil)
+typecheck ✅ · lint ✅ · unitarias 82/82 ✅ · BD 74/74 ✅ · E2E 34/34 ✅ (rama Auxiliar del Estado, 2026-11-04)
 
 ## Bloqueos (TASKS.md › Bloqueos)
 

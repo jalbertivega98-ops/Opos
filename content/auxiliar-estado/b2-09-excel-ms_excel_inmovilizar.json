@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_inmovilizar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Inmovilizar paneles para bloquear filas y columnas",
+      "url": "https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Inmovilizar paneles",
+      "stem": "En Excel, el comando Inmovilizar paneles (pestaña Vista) inmoviliza:",
+      "options": [
+        "Las filas superiores y las columnas a la izquierda de la celda seleccionada.",
+        "Las filas inferiores y las columnas a la derecha de la celda seleccionada.",
+        "Solo la fila en la que se encuentra la celda seleccionada.",
+        "Solo la columna en la que se encuentra la celda seleccionada."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Inmovilizar paneles bloquea las filas situadas por encima y las columnas situadas a la izquierda de la celda seleccionada; por eso se selecciona la celda que está debajo de las filas y a la derecha de las columnas que se quieren mantener visibles.",
+      "excerpt": "Inmovilizar paneles inmoviliza las filas superiores y las columnas a la izquierda de la celda seleccionada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

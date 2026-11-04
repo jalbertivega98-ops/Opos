@@ -74,11 +74,39 @@ export default async function MockAttemptPage({
         </p>
         <div className="flex justify-center">
           <Badge tone={attempt.passed ? "success" : "warning"}>
-            {attempt.passed
-              ? t("passed", { min: cfg.pass_mark })
-              : t("failed", { min: cfg.pass_mark })}
+            {cfg.kind === "sections"
+              ? t(attempt.passed ? "sectionsPassed" : "sectionsFailed")
+              : attempt.passed
+                ? t("passed", { min: cfg.pass_mark })
+                : t("failed", { min: cfg.pass_mark })}
           </Badge>
         </div>
+        {cfg.kind === "sections" && attempt.part_results && (
+          <ul className="mx-auto grid max-w-md gap-2 text-left text-sm" data-testid="mock-parts">
+            {attempt.part_results.map((p) => (
+              <li
+                key={p.part}
+                className="border-border flex items-center justify-between gap-3 rounded-lg border px-3 py-2"
+              >
+                <span>
+                  <span className="font-medium">{t("partTitle", { part: p.part })}</span>
+                  <br />
+                  <span className="text-muted-foreground">
+                    {t("partDetail", {
+                      direct: p.direct,
+                      valid: p.valid,
+                      cut: p.cut,
+                      grade: p.grade,
+                    })}
+                  </span>
+                </span>
+                <Badge tone={p.passed ? "success" : "warning"}>
+                  {p.passed ? t("partPassed") : t("partFailed")}
+                </Badge>
+              </li>
+            ))}
+          </ul>
+        )}
         <p data-testid="mock-breakdown">
           {t("breakdown", {
             correct: attempt.correct_count ?? 0,
@@ -101,6 +129,9 @@ export default async function MockAttemptPage({
         {attempt.status === "expired" && (
           <p className="text-muted-foreground text-sm">{t("expired")}</p>
         )}
+        {cfg.kind === "sections" && (
+          <p className="text-muted-foreground text-xs">{t("sectionsDisclaimer")}</p>
+        )}
         <p className="text-muted-foreground text-xs">{t("disclaimer")}</p>
         <div className="flex flex-wrap justify-center gap-3 pt-2">
           <Button asChild variant="accent">
@@ -117,6 +148,25 @@ export default async function MockAttemptPage({
         </h2>
         {attempt.config.kind === "psycho" ? (
           <PracticeReview items={items as unknown as ReviewItem[]} />
+        ) : attempt.config.kind === "sections" ? (
+          (attempt.config.parts ?? []).map((part, i, all) => {
+            const start = all.slice(0, i).reduce((n, p) => n + p.questions, 0);
+            const slice = items.filter(
+              (it) => it.position >= start && it.position < start + part.questions,
+            );
+            return (
+              <div key={i} className="mt-4">
+                <h3 className="font-semibold">
+                  {t(part.psycho ? "partPsycho" : "partSyllabus", { part: part.part })}
+                </h3>
+                {part.psycho ? (
+                  <PracticeReview items={slice as unknown as ReviewItem[]} />
+                ) : (
+                  <QuestionReview items={slice as unknown as AnsweredQuestion[]} />
+                )}
+              </div>
+            );
+          })
         ) : (
           <QuestionReview items={items as unknown as AnsweredQuestion[]} />
         )}

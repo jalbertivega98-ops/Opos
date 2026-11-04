@@ -8,6 +8,14 @@ import { randomInt } from "node:crypto";
 import { buildPsychoMock } from "./psycho";
 import { saveMockAnswerSchema, startMockSchema, submitMockSchema } from "./schema";
 
+/** Configuración del producto tal como se guarda (sin sanear: lo sanea la base de datos). */
+type ProductMockConfig = {
+  kind?: string;
+  questions?: number;
+  item_types?: unknown;
+  parts?: { psycho?: boolean; questions?: number; item_types?: unknown }[];
+};
+
 /**
  * Empieza (o reanuda) un simulacro. Acceso, selección por temas y plazo se
  * resuelven en SQL; la solución no llega al navegador hasta entregar.
@@ -33,17 +41,35 @@ export async function startMockAction(formData: FormData) {
     .from("products")
     .select("config")
     .eq("id", parsed.data.productId)
-    .maybeSingle<{ config: { kind?: string; questions?: number } }>();
-  const psycho = product?.config?.kind === "psycho";
-  const { data, error } = psycho
-    ? await service.rpc("mock_start_generated", {
+    .maybeSingle<{ config: ProductMockConfig }>();
+  const cfg = product?.config;
+  const seed = () => randomInt(0, 2 ** 32);
+  const sections = cfg?.kind === "sections" && Array.isArray(cfg.parts);
+  const { data, error } = sections
+    ? await service.rpc("mock_start_sections", {
         p_user: user.id,
         p_product: parsed.data.productId,
-        p_items: buildPsychoMock(Math.min(Math.max(product?.config?.questions ?? 80, 1), 120), () =>
-          randomInt(0, 2 ** 32),
+        p_items: (cfg?.parts ?? []).flatMap((part) =>
+          part?.psycho
+            ? buildPsychoMock(
+                Math.min(Math.max(Number(part.questions) || 1, 1), 120),
+                seed,
+                part.item_types,
+              )
+            : [],
         ),
       })
-    : await service.rpc("mock_start", { p_user: user.id, p_product: parsed.data.productId });
+    : cfg?.kind === "psycho"
+      ? await service.rpc("mock_start_generated", {
+          p_user: user.id,
+          p_product: parsed.data.productId,
+          p_items: buildPsychoMock(
+            Math.min(Math.max(cfg.questions ?? 80, 1), 120),
+            seed,
+            cfg.item_types,
+          ),
+        })
+      : await service.rpc("mock_start", { p_user: user.id, p_product: parsed.data.productId });
   if (error || !data) {
     const key =
       error?.code === "42501"

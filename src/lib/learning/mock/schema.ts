@@ -17,7 +17,9 @@ export const submitMockSchema = z.object({ attemptId: z.uuid() });
 
 /** Formato efectivo guardado en el intento (mock_config). */
 export type MockConfig = {
-  kind?: "questions" | "psycho";
+  kind?: "questions" | "psycho" | "sections";
+  parts?: { part: number; questions: number; psycho: boolean; topic_prefix: string }[];
+  cutoffs?: Record<string, number>;
   questions: number;
   minutes: number;
   penalty: number;
@@ -43,10 +45,25 @@ export type MockAttempt = {
   score: number | null;
   mark: number | null;
   passed: boolean | null;
+  part_results?: MockPartResult[] | null;
+};
+
+/** Resultado de cada parte de un simulacro por partes (mock_submit). */
+export type MockPartResult = {
+  part: number;
+  correct: number;
+  wrong: number;
+  blank: number;
+  valid: number;
+  direct: number;
+  cut: number;
+  grade: number;
+  passed: boolean;
 };
 
 export type MockItem = {
   position: number;
+  part?: number | null;
   item_type: string | null;
   difficulty: number | null;
   presented: PresentedQuestion | PresentedPsycho;

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b1-16-igualdad-lovg-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.16 Igualdad, violencia de género, LGTBI, discapacidad y dependencia",
+    "topic_slug": "age-aux-b1-16-igualdad",
+    "locale": "es",
+    "category": "age_aux_b1_16_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 LO 1/2004",
+      "stem": "Según el artículo 1 de la Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género, la ley actúa contra la violencia que se ejerce sobre las mujeres por parte de:",
+      "options": [
+        "Únicamente sus cónyuges actuales, siempre que exista convivencia.",
+        "Quienes convivan con ellas en el mismo domicilio, cualquiera que sea su relación.",
+        "Sus cónyuges o parejas de hecho inscritas, siempre que la relación siga vigente.",
+        "Quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 LO 1/2004 delimita la violencia de género por la relación entre agresor y víctima: cónyuges o personas ligadas por relaciones similares de afectividad, actuales o pasadas, aun sin convivencia.",
+      "excerpt": "se ejerce sobre éstas por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1.4 LO 1/2004",
+      "stem": "De acuerdo con el artículo 1.4 de la Ley Orgánica 1/2004, la violencia de género a que se refiere la ley también comprende la violencia que, con el objetivo de causar perjuicio o daño a las mujeres, se ejerza sobre:",
+      "options": [
+        "Sus familiares mayores de edad que convivan con ellas.",
+        "Sus familiares o allegados menores de edad.",
+        "Exclusivamente sus hijos comunes con el agresor.",
+        "Sus compañeros de trabajo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 1.4 LO 1/2004 incluye en el concepto de violencia de género la ejercida sobre familiares o allegados menores de edad de la mujer con el objetivo de causarle perjuicio o daño.",
+      "excerpt": "4. La violencia de género a que se refiere esta Ley también comprende la violencia que con el objetivo de causar perjuicio o daño a las mujeres se ejerza sobre sus familiares o allegados menores de edad por parte de las personas indicadas en el apartado primero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24 LO 1/2004",
+      "stem": "Según el artículo 24 de la Ley Orgánica 1/2004, la funcionaria víctima de violencia de género tendrá derecho, en los términos que determine su legislación específica, a:",
+      "options": [
+        "La jubilación anticipada voluntaria y a la excedencia.",
+        "Un permiso retribuido de seis meses y a la movilidad geográfica de centro de trabajo.",
+        "La reducción o la reordenación de su tiempo de trabajo, a la movilidad geográfica de centro de trabajo y a la excedencia.",
+        "La reducción de jornada sin pérdida de retribuciones y al traslado a otra Administración Pública."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 24 LO 1/2004 enumera los derechos de la funcionaria víctima: reducción o reordenación del tiempo de trabajo, movilidad geográfica de centro de trabajo y excedencia.",
+      "excerpt": "La funcionaria víctima de violencia de género tendrá derecho a la reducción o a la reordenación de su tiempo de trabajo, a la movilidad geográfica de centro de trabajo y a la excedencia en los términos que se determinen en su legislación específica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.2 LO 1/2004",
+      "stem": "De acuerdo con la Ley Orgánica 1/2004, el Observatorio Estatal de Violencia sobre la Mujer remitirá un informe sobre la evolución de la violencia ejercida sobre la mujer:",
+      "options": [
+        "A las Cortes Generales, con periodicidad semestral.",
+        "Al Consejo General del Poder Judicial, cada dos años.",
+        "Al Defensor del Pueblo, con periodicidad anual.",
+        "Al Gobierno y a las Comunidades Autónomas, con periodicidad anual."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 30.2 LO 1/2004 obliga al Observatorio a remitir anualmente al Gobierno y a las Comunidades Autónomas un informe sobre la evolución de la violencia sobre la mujer y la efectividad de las medidas de protección.",
+      "excerpt": "2. El Observatorio Estatal de Violencia sobre la Mujer remitirá al Gobierno y a las Comunidades Autónomas, con periodicidad anual, un informe sobre la evolución de la violencia ejercida sobre la mujer",
+      "excerpt_status": "completo"
+    }
+  ]
+}

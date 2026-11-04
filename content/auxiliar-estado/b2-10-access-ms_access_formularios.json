@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_formularios-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Introducción a formularios",
+      "url": "https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Formulario dividido",
+      "stem": "¿Qué tipo de formulario de Access proporciona dos vistas de los datos al mismo tiempo?",
+      "options": [
+        "El formulario de varios elementos.",
+        "El formulario independiente.",
+        "El formulario en blanco.",
+        "El formulario dividido."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El formulario dividido muestra a la vez una vista Formulario y una vista Hoja de datos; el de varios elementos se parece a una hoja de datos.",
+      "excerpt": "Un formulario dividido proporciona dos vistas de los datos al mismo tiempo:",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Vistas del formulario",
+      "stem": "En relación con las vistas de un formulario de Access, señale la respuesta correcta:",
+      "options": [
+        "En la vista Diseño el formulario se encuentra en ejecución; en la vista Presentación, no.",
+        "El formulario está en ejecución tanto en la vista Presentación como en la vista Diseño.",
+        "El formulario no está en ejecución ni en la vista Presentación ni en la vista Diseño.",
+        "En la vista Presentación el formulario se encuentra en ejecución; en la vista Diseño, no."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En la vista Presentación se ven los datos reales mientras se modifica el diseño (el formulario está en ejecución); la vista Diseño muestra la estructura con más detalle, sin ejecutar el formulario.",
+      "excerpt": "En la vista Presentación, el formulario se encuentra en ejecución. […] El formulario no se encuentra en ejecución cuando se muestra en la vista Diseño.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

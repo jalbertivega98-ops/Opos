@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Aprobia · Academia digital de oposiciones",
+    "title": "OPOSAPRUEBA · Academia digital de oposiciones",
     "description": "Prepara tu oposición con un plan de estudio adaptativo, test, psicotécnicos y simulacros desde cualquier dispositivo."
   },
   "nav": {
@@ -23,7 +23,8 @@
     "progress": "Mi progreso",
     "library": "Mis productos",
     "plan": "Mi plan",
-    "how": "Cómo funciona"
+    "how": "Cómo funciona",
+    "syllabus": "Temario"
   },
   "footer": {
     "tagline": "Academia digital independiente. No estamos vinculados a ningún organismo convocante.",
@@ -92,11 +93,7 @@
       "name": "Gratuito",
       "price": "0 €",
       "period": "para siempre",
-      "items": [
-        "Plan de estudio semanal",
-        "Psicotécnicos de práctica",
-        "Estadísticas básicas"
-      ],
+      "items": ["Plan de estudio semanal", "Psicotécnicos de práctica", "Estadísticas básicas"],
       "cta": "Crear cuenta"
     },
     "premium": {
@@ -130,11 +127,7 @@
     "demoCta": "Prueba un psicotécnico gratis",
     "titleRich": "Prepara tu oposición con <mark>método</mark>, no a ciegas",
     "audience": "Para quien prepara oposiciones en España, en castellano o en catalán. Empieza gratis, sin tarjeta.",
-    "trustItems": [
-      "Sin tarjeta",
-      "Fuentes oficiales citadas",
-      "Contenido revisado por personas"
-    ],
+    "trustItems": ["Sin tarjeta", "Fuentes oficiales citadas", "Contenido revisado por personas"],
     "sample": {
       "badge": "Pruébalo aquí",
       "title": "Así es un ejercicio",
@@ -153,11 +146,7 @@
       "title": "Tu progreso",
       "note": "Vista de ejemplo",
       "accuracy": "Aciertos de la semana y avance por bloque",
-      "rows": [
-        "Temario",
-        "Psicotécnicos",
-        "Simulacros"
-      ]
+      "rows": ["Temario", "Psicotécnicos", "Simulacros"]
     },
     "stepsEyebrow": "Cómo funciona",
     "stepsTitle": "Tres pasos y sabes qué hacer cada día",
@@ -186,11 +175,7 @@
         "Sesiones de psicotécnicos",
         "Simulacro de la semana"
       ],
-      "mock": [
-        "Mismo tiempo",
-        "Misma penalización",
-        "Mismo nº de preguntas"
-      ],
+      "mock": ["Mismo tiempo", "Misma penalización", "Mismo nº de preguntas"],
       "review": "Repasar"
     },
     "comingSoon": "Próximamente",
@@ -451,7 +436,7 @@
     "memberSince": "Alumno desde el {date}",
     "personal": "Datos personales",
     "locale": "Idioma preferido",
-    "marketingConsent": "Quiero recibir por email novedades y consejos de Aprobia (puedes retirarlo cuando quieras).",
+    "marketingConsent": "Quiero recibir por email novedades y consejos de OPOSAPRUEBA (puedes retirarlo cuando quieras).",
     "save": "Guardar cambios",
     "saved": "Cambios guardados.",
     "exportTitle": "Descargar mis datos",
@@ -465,8 +450,22 @@
     "errors": {
       "wrongPassword": "Contraseña incorrecta.",
       "required": "Campo obligatorio.",
-      "confirmWord": "Escribe ELIMINAR en mayúsculas."
-    }
+      "confirmWord": "Escribe ELIMINAR en mayúsculas.",
+      "sameEmail": "Ese ya es tu correo actual."
+    },
+    "securityTitle": "Contraseña",
+    "securityBody": "Para cambiarla necesitamos tu contraseña actual.",
+    "currentPassword": "Contraseña actual",
+    "newPassword": "Nueva contraseña",
+    "confirmNewPassword": "Repite la nueva contraseña",
+    "passwordHint": "Mínimo 8 caracteres, con al menos una letra y un número.",
+    "changePasswordSubmit": "Cambiar contraseña",
+    "passwordChanged": "Contraseña cambiada. La próxima vez entra con la nueva.",
+    "emailTitle": "Correo electrónico",
+    "emailBody": "Ahora usas {email}. Te enviaremos un enlace para confirmar el nuevo correo; el cambio no se aplica hasta que lo confirmes.",
+    "newEmail": "Nuevo correo electrónico",
+    "changeEmailSubmit": "Cambiar correo",
+    "emailChangeSent": "Te hemos enviado un enlace de confirmación. Revisa tu bandeja (también la del correo actual) y pulsa el enlace para completar el cambio."
   },
   "landingNotice": {
     "deleted": "Tu cuenta se ha eliminado. Gracias por haber confiado en nosotros."
@@ -567,7 +566,21 @@
       "matrix": "Forma: {shape, select, const {la misma en todas las casillas} row {cambia de una fila a otra} col {cambia de una columna a otra} latin {cada fila y cada columna tiene las tres formas} other {}}. Número: {count, select, const {el mismo en todas} row {cambia por filas} col {cambia por columnas} latin {cada fila y columna tiene 1, 2 y 3} other {}}. Relleno: {fill, select, const {el mismo en todas} row {cambia por filas} col {cambia por columnas} latin {cada fila y columna tiene los tres rellenos} other {}}. Giro: {rot, select, const {no cambia} row {cambia por filas} col {cambia por columnas} latin {cada fila y columna tiene tres giros distintos} other {}}.",
       "spatial_rotation": "La respuesta correcta es la pieza original girada {deg}°. Las demás son su imagen en espejo (habría que darles la vuelta) o piezas diferentes.",
       "attention_count": "«{target}» aparece {answer} veces. Fíjate bien en los símbolos parecidos.",
-      "attention_pairs": "Hay {answer} parejas idénticas. En las demás cambia o se intercambia alguna cifra."
+      "attention_pairs": "Hay {answer} parejas idénticas. En las demás cambia o se intercambia alguna cifra.",
+      "percentages_discount": "{price} × (100 − {d}) / 100 = {answer}.",
+      "percentages_increase": "{price} × (100 + {d}) / 100 = {answer}.",
+      "percentages_absent": "Asisten {n} × {p} / 100; faltan el resto: {answer}.",
+      "percentages_fractions": "Quedan ({den} − {a} − {b})/{den} de {n} = {answer}.",
+      "percentages_share": "El resto son {n} − {k} empleados; ({n} − {k}) / {n} × 100 = {answer}.",
+      "equations": "Se quitan los paréntesis, se pasan las x a un lado y los números al otro, y se divide: x = {answer}.",
+      "probability": "Casos favorables entre casos posibles: {fav} / {total} × 100 = {answer}.",
+      "codes": "Se separa el número en bloques de 4 cifras y se traduce cada bloque: {answer}.",
+      "tables_sum_max": "Sumando la columna de cada grupo, el total mayor es el de {answer}.",
+      "tables_avg_max": "Dividiendo la suma de cada grupo entre su número de filas, la media mayor es la de {answer}.",
+      "tables_share": "Suma del grupo entre la suma total, por 100: {answer}.",
+      "tables_ratio_group": "Suma del numerador entre suma del denominador en cada grupo: el mayor es {answer}.",
+      "tables_ratio_row": "Calculando el cociente de cada fila, el mayor es el de {answer}.",
+      "tables_filter": "Solo {answer} cumple las tres condiciones a la vez."
     },
     "demoNotSaved": "Los resultados de la demostración no se guardan.",
     "ctaPractice": "Ir a mi práctica",
@@ -616,6 +629,31 @@
         "name": "Atención y concentración",
         "prompt": "Responde con precisión.",
         "description": "Recuento de símbolos y detección de diferencias."
+      },
+      "percentages": {
+        "name": "Porcentajes y fracciones",
+        "prompt": "Resuelve el problema.",
+        "description": "Descuentos, subidas, asistencia y partes de un total, con importes en euros."
+      },
+      "equations": {
+        "name": "Ecuaciones",
+        "prompt": "Halla el valor de x.",
+        "description": "Ecuaciones de primer grado con paréntesis, como en el examen de la AGE."
+      },
+      "probability": {
+        "name": "Probabilidad",
+        "prompt": "Calcula la probabilidad.",
+        "description": "Casos favorables entre casos posibles, en porcentaje."
+      },
+      "codes": {
+        "name": "Codificación",
+        "prompt": "Traduce el código.",
+        "description": "Equivalencias entre letras y códigos binarios."
+      },
+      "tables": {
+        "name": "Interpretación de tablas",
+        "prompt": "Responde según la tabla.",
+        "description": "Sumas, medias, porcentajes y filtros sobre una tabla de datos."
       },
       "question": {
         "name": "Preguntas de temario"
@@ -702,7 +740,41 @@
       "regadera": "regadera",
       "regar": "regar",
       "peine": "peine",
-      "peinar": "peinar"
+      "peinar": "peinar",
+      "tbl_trips": "Desplazamientos",
+      "tbl_loans": "Préstamos",
+      "col_project": "Proyecto",
+      "col_department": "Departamento",
+      "col_office": "Oficina",
+      "col_days": "Días",
+      "col_km": "Kilómetros",
+      "col_tolls": "Peajes (€)",
+      "col_title": "Título",
+      "col_publisher": "Editorial",
+      "col_city": "Lugar de edición",
+      "col_year": "Año",
+      "col_available": "Ejemplares disponibles",
+      "col_lent": "Ejemplares prestados",
+      "col_loans": "Préstamos realizados",
+      "cat_project": "proyecto",
+      "cat_department": "departamento",
+      "cat_office": "oficina",
+      "cat_publisher": "editorial",
+      "cat_city": "lugar de edición",
+      "cat_title": "título",
+      "num_days": "días de duración",
+      "num_km": "kilómetros",
+      "num_tolls": "euros de peaje",
+      "num_available": "ejemplares disponibles",
+      "num_lent": "ejemplares prestados",
+      "num_loans": "préstamos realizados",
+      "unit_km": "kilómetro",
+      "unit_available": "ejemplar disponible",
+      "dep_admin": "Administración",
+      "dep_marketing": "Marketing",
+      "dep_tech": "Técnico",
+      "dep_sales": "Comercial",
+      "unit_loans": "préstamo realizado"
     },
     "shapes": {
       "circle": "círculo",
@@ -730,7 +802,25 @@
       "numeric_average": "La media de {k} números es {m}. Si se añade el número {x}, ¿cuál es la nueva media?",
       "numeric_mixture": "Se mezclan {q1} kg de café de {p1} €/kg con {q2} kg de café de {p2} €/kg. ¿A cuántos euros sale el kg de la mezcla?",
       "attention_count": "¿Cuántas veces aparece «{target}» en el recuadro?",
-      "attention_pairs": "¿Cuántas parejas están formadas por dos códigos exactamente iguales?"
+      "attention_pairs": "¿Cuántas parejas están formadas por dos códigos exactamente iguales?",
+      "percentages_discount": "Si hay un {d} % de descuento en un producto cuyo precio original es de {price} €, ¿qué importe se pagará una vez aplicado el descuento?",
+      "percentages_increase": "Hemos estado pagando {price} € al mes por un servicio y este mes el precio sube un {d} %. ¿Qué importe pagaremos una vez aplicada la subida?",
+      "percentages_absent": "De las {n} personas inscritas en una jornada, solo asiste el {p} %. ¿Cuántas personas inscritas han faltado?",
+      "percentages_fractions": "Hay que preparar {n} paquetes. El primer día se preparan {a}/{den} del total y el segundo día {b}/{den} del total. ¿Cuántos paquetes quedan por preparar?",
+      "percentages_share": "Una oficina tiene {n} empleados y {k} trabajan en el departamento comercial. ¿Qué porcentaje representan los empleados del resto de departamentos?",
+      "equations": "Halla el valor de x en la siguiente ecuación: {expr}",
+      "probability_balls_red": "En una bolsa hay {r} bolas rojas, {g} verdes y {b} azules. Si se saca una bola al azar, ¿qué probabilidad hay de que sea roja?",
+      "probability_balls_green": "En una bolsa hay {r} bolas rojas, {g} verdes y {b} azules. Si se saca una bola al azar, ¿qué probabilidad hay de que sea verde?",
+      "probability_balls_blue": "En una bolsa hay {r} bolas rojas, {g} verdes y {b} azules. Si se saca una bola al azar, ¿qué probabilidad hay de que sea azul?",
+      "probability_raffle_laptop": "Se sortean {m} teléfonos móviles, {t} tabletas y {l, plural, one {# ordenador portátil} other {# ordenadores portátiles}} entre las personas de un grupo, y cada una recibe un objeto. ¿Qué probabilidad hay de que te toque un ordenador portátil?",
+      "probability_raffle_tablet": "Se sortean {m} teléfonos móviles, {t} tabletas y {l, plural, one {# ordenador portátil} other {# ordenadores portátiles}} entre las personas de un grupo, y cada una recibe un objeto. ¿Qué probabilidad hay de que te toque una tableta?",
+      "codes": "Dadas las equivalencias {map}, ¿qué serie de letras corresponde a la serie de números {code}?",
+      "tables_sum_max": "Según la tabla «{table}», ¿qué {catName} acumula un total mayor de {numName}?",
+      "tables_avg_max": "Según la tabla «{table}», ¿qué {catName} tiene una media mayor de {numName}?",
+      "tables_share": "Según la tabla «{table}», ¿qué porcentaje del total de {numName} corresponde a {catName} «{value}»?",
+      "tables_ratio_group": "Según la tabla «{table}», ¿qué {catName} tiene más {numName} por {denUnit}, sumando todas sus filas?",
+      "tables_ratio_row": "Según la tabla «{table}», ¿qué {labelName} tiene un mayor porcentaje de {numName} respecto a {denName}?",
+      "tables_filter": "Según la tabla «{table}», ¿qué {labelName} es de {catName} «{value}», se publicó después de {y} y tiene más de {k} {numName}?"
     },
     "shapesPlural": {
       "circle": "círculos",
@@ -969,7 +1059,25 @@
       "confirm": "Confirmo que apruebo y publico todas las preguntas pendientes, y los packs y simulacros que las usan.",
       "button": "Aprobar y publicar todo",
       "working": "Publicando…",
-      "done": "Hecho: {questions} preguntas y {products} productos publicados."
+      "done": "Hecho: {questions} preguntas, {notes} fichas y {products} productos publicados."
+    },
+    "navNotes": "Fichas de estudio",
+    "notes": {
+      "title": "Fichas de estudio",
+      "subtitle": "Índice, «Idees força» y glosario de cada tema, extraídos literalmente de la guía oficial y comprobados contra el texto. Revísalas y publícalas: el alumnado solo ve las publicadas.",
+      "counts": "{total} fichas · {pending} pendientes · {published} publicadas",
+      "empty": "No hay fichas cargadas.",
+      "hasAmendments": "Con esmenes",
+      "summary": "{sections} apartados · {ideas} ideas clave · {terms} términos",
+      "confirmOne": "Confirmo que he revisado esta ficha",
+      "confirmAll": "Confirmo que apruebo y publico las {count} fichas pendientes",
+      "button_approved": "Aprobar ficha",
+      "button_published": "Publicar ficha",
+      "button_both": "Aprobar y publicar todas",
+      "working": "Guardando…",
+      "done_approved": "Ficha aprobada.",
+      "done_published": "Ficha publicada.",
+      "done_both": "{count, plural, one {# ficha publicada} other {# fichas publicadas}}."
     }
   },
   "store": {
@@ -1090,7 +1198,7 @@
       "empty": "Todavía no tienes productos.",
       "emptyBody": "Cuando la tienda abra podrás comprar packs, simulacros y PDF, o activar Premium. Mientras tanto puedes practicar psicotécnicos gratis.",
       "practice": "Practicar psicotécnicos",
-      "premiumTitle": "Aprobia Premium",
+      "premiumTitle": "OPOSAPRUEBA Premium",
       "premiumBody": "Acceso a todo el contenido incluido en Premium por {price} al mes. Muy pronto.",
       "soon": "Próximamente",
       "until": "Hasta el {date}",
@@ -1121,7 +1229,8 @@
       "lockedSubtitle": "Puedes ver qué incluye tu oposición. Para practicarlo necesitas Premium o comprar el pack.",
       "lockedBadge": "Premium",
       "paidBadge": "De pago",
-      "lockedCta": "Ver qué incluye"
+      "lockedCta": "Ver qué incluye",
+      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte"
     }
   },
   "questions": {
@@ -1178,7 +1287,16 @@
     "again": "Volver a mis productos",
     "toProgress": "Ver mi progreso",
     "itemsTitle": "Corrección",
-    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Cuando se acabe el tiempo se entrega solo."
+    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Cuando se acabe el tiempo se entrega solo.",
+    "partTitle": "Parte {part}",
+    "partDetail": "Directa {direct, number} de {valid} (corte {cut, number}) · calificación {grade, number} / 50",
+    "partPassed": "Superada",
+    "partFailed": "No superada",
+    "partSyllabus": "Parte {part} · temario",
+    "partPsycho": "Parte {part} · psicotécnicos",
+    "sectionsDisclaimer": "Corte de cada parte: el último publicado por el tribunal. La calificación de cada parte va de 0 a 50 (25 en el corte) y se suman.",
+    "sectionsPassed": "Superado: todas las partes llegan al corte",
+    "sectionsFailed": "No superado: alguna parte no llega al corte"
   },
   "plan": {
     "title": "Mi plan de estudio",
@@ -1264,12 +1382,103 @@
       "plan": "El plan semanal te dice cada semana qué temas y simulacros tocan",
       "cta": "Pago próximamente",
       "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente.",
+      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte",
       "buy": "Comprar el pack · {price}",
       "buyPremium": "Hazte Premium"
     },
     "topicsTitle": "Ver los {count} temas incluidos",
     "topicQuestions": "{count} preg.",
     "sourceNote": "Preguntas redactadas por nosotros a partir de la Guia d'estudi oficial. No somos una academia oficial ni copiamos exámenes."
+  },
+  "notes": {
+    "title": "Temario",
+    "subtitle": "Fichas de estudio de {exam}: índice, ideas clave y glosario de cada tema, tal como aparecen en la fuente oficial (guía o BOE).",
+    "area": "Àmbit {area}",
+    "block": "Bloque {area}",
+    "ideasCount": "{count, plural, one {# idea clave} other {# ideas clave}}",
+    "pages": "págs. {from}-{to}",
+    "page": "pág. {page}",
+    "emptyTitle": "Todavía no hay fichas",
+    "empty": "Las fichas de tu oposición aparecerán aquí en cuanto estén revisadas.",
+    "emptyNoTarget": "Elige tu oposición para ver su temario.",
+    "emptyCta": "Elegir oposición",
+    "literalNotice": "Texto copiado literalmente de la fuente oficial, en su idioma original. Para estudiar a fondo, lee el tema completo en la fuente oficial.",
+    "back": "Volver al temario",
+    "outline": "Índice del tema",
+    "keyIdeas": "Ideas clave",
+    "glossary": "Glosario del tema",
+    "glossaryHint": "Términos que la guía destaca en este tema. Asegúrate de saber explicarlos.",
+    "amendments": "Correcciones oficiales a este tema",
+    "amendmentsSource": "Ver esmenes",
+    "sourceLine": "Fuente:",
+    "sourceFallback": "Fuente oficial",
+    "practiceCta": "Practicar con preguntas",
+    "planCta": "Ver mi plan"
+  },
+  "seo": {
+    "home": {
+      "title": "OPOSAPRUEBA · Test de oposiciones, temario y psicotécnicos online",
+      "description": "Prepara Mossos d'Esquadra y Auxiliar Administrativo del Estado con test de temario basados en fuentes oficiales, psicotécnicos gratis y simulacros con el formato del examen."
+    },
+    "catalog": {
+      "title": "Catálogo de oposiciones: test, temario y psicotécnicos",
+      "description": "Oposiciones que puedes preparar en OPOSAPRUEBA, con el examen explicado, el temario oficial y enlaces a las fuentes. Solo marcamos como disponibles las que tienen contenido revisado."
+    },
+    "psycho": {
+      "title": "Test psicotécnicos online gratis para oposiciones",
+      "description": "12 tipos de psicotécnicos gratis y sin registro: series, matrices, razonamiento espacial y numérico, tablas, porcentajes y más, con dificultad creciente y la solución explicada."
+    },
+    "org": "Academia digital independiente para preparar oposiciones en España con test basados en fuentes oficiales, psicotécnicos y simulacros. No está vinculada a ningún organismo convocante.",
+    "home_crumb": "Inicio",
+    "guide": {
+      "facts": "Datos clave de la convocatoria",
+      "parts": "Cómo es el examen",
+      "calendar": "Fechas",
+      "syllabus": "Temario",
+      "syllabusNote": "Temas que trabajamos con preguntas y fichas basadas en el texto oficial.",
+      "psycho": "Psicotécnicos para esta oposición",
+      "sources": "Fuentes oficiales consultadas",
+      "faq": "Preguntas frecuentes",
+      "verified": "Datos comprobados en las fuentes oficiales el {date}. OPOSAPRUEBA es una academia independiente y no está vinculada al organismo convocante: consulta siempre la convocatoria oficial."
+    },
+    "psychoType": {
+      "eyebrow": "Psicotécnico gratis",
+      "method": "Cómo resolverlo",
+      "practice": "Practica ahora",
+      "practiceNote": "10 ejercicios generados al momento, con dificultad creciente y la solución explicada. Sin registro.",
+      "exams": "Oposiciones en las que se trabaja",
+      "others": "Otros tipos de psicotécnico",
+      "faq": "Preguntas frecuentes",
+      "hub": "Todos los psicotécnicos",
+      "allTypes": "Tipos de psicotécnico",
+      "guide": "Guía del tipo"
+    },
+    "breadcrumbs": "Ruta de navegación"
+  },
+  "adminTraffic": {
+    "title": "Tráfico desde buscadores e IA",
+    "subtitle": "Visitas que llegan desde buscadores, asistentes de IA y redes, y peticiones de rastreadores, en los últimos 30 días. Se cuenta la página de entrada, no las navegaciones internas.",
+    "empty": "Todavía no hay datos",
+    "emptyBody": "Los contadores empiezan a llenarse cuando la web recibe visitas o la visitan los rastreadores.",
+    "channel": {
+      "search": "Buscadores",
+      "ai": "IA",
+      "social": "Redes",
+      "referral": "Otras webs",
+      "direct": "Directo"
+    },
+    "bySource": "Visitas por origen",
+    "byLanding": "Páginas de entrada desde buscadores e IA",
+    "crawlers": "Rastreadores",
+    "crawledPaths": "Páginas más rastreadas",
+    "source": "Origen",
+    "visits": "Visitas",
+    "landing": "Página · origen",
+    "crawler": "Rastreador",
+    "requests": "Peticiones",
+    "path": "Página",
+    "privacy": "Contadores agregados por día, sin cookies, IP ni identificadores personales. Google no distingue en el origen las visitas de AI Overviews o del modo IA: cuentan como «google». Las aplicaciones de IA que no envían origen aparecen como «directo».",
+    "nav": "Tráfico"
   },
   "billing": {
     "consent": "Quiero acceder ya al contenido y entiendo que, al empezar, pierdo el derecho de desistimiento de 14 días.",

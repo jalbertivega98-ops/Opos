@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_importar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Importar o vincular a datos de un libro de Excel",
+      "url": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Importar o vincular datos de Excel",
+      "stem": "Cuando se vincula desde Access a una hoja de cálculo de Excel, la tabla vinculada resultante:",
+      "options": [
+        "Es de solo lectura en Access, tanto en contenido como en estructura.",
+        "Permite editar su contenido en Access, y los cambios se guardan en el libro de Excel.",
+        "Contiene una copia independiente de los datos que no refleja los cambios posteriores en Excel.",
+        "Solo puede vincularse si el libro de Excel tiene una única hoja."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Al vincular, los cambios en las celdas de origen de Excel aparecen en la tabla vinculada, pero en Access su contenido y estructura son de solo lectura. Al importar, en cambio, se guarda una copia.",
+      "excerpt": "el contenido y la estructura de una tabla vinculada en Access son de solo lectura.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

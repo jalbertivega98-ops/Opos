@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b1-16-igualdad-ldep-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.16 Igualdad, violencia de género, LGTBI, discapacidad y dependencia",
+    "topic_slug": "age-aux-b1-16-igualdad",
+    "locale": "es",
+    "category": "age_aux_b1_16_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7 Ley 39/2006",
+      "stem": "De acuerdo con el artículo 7 de la Ley 39/2006, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, el nivel de protección mínimo del Sistema lo establece:",
+      "options": [
+        "Cada Comunidad Autónoma.",
+        "Las Entidades Locales.",
+        "La Administración General del Estado.",
+        "El Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 7 Ley 39/2006 distingue tres niveles: el mínimo, fijado por la Administración General del Estado; el acordado entre esta y cada Comunidad Autónoma mediante convenios; y el adicional que pueda establecer cada Comunidad Autónoma.",
+      "excerpt": "1.º El nivel de protección mínimo establecido por la Administración General del Estado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.1.c) Ley 39/2006",
+      "stem": "Según el artículo 26 de la Ley 39/2006, el Grado III de dependencia se denomina:",
+      "options": [
+        "Gran dependencia.",
+        "Dependencia severa.",
+        "Dependencia moderada.",
+        "Dependencia total."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 26.1 Ley 39/2006 clasifica la dependencia en Grado I (moderada), Grado II (severa) y Grado III (gran dependencia).",
+      "excerpt": "c) Grado III. Gran dependencia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.1.c) Ley 39/2006",
+      "stem": "Para ser titular de los derechos establecidos en la Ley 39/2006, su artículo 5 exige, con carácter general, residir en territorio español y haberlo hecho durante:",
+      "options": [
+        "Tres años, de los cuales uno deberá ser inmediatamente anterior a la fecha de presentación de la solicitud.",
+        "Cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud.",
+        "Diez años, de los cuales cinco deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud.",
+        "Dos años inmediatamente anteriores a la fecha de presentación de la solicitud."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 5.1.c) Ley 39/2006 exige cinco años de residencia, dos de ellos inmediatamente anteriores a la solicitud; para los menores de cinco años, el periodo se exige a quien ejerza su guarda y custodia.",
+      "excerpt": "c) Residir en territorio español y haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

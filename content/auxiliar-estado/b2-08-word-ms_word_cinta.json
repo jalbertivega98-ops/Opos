@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_cinta-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Personalizar la cinta de opciones en Word",
+      "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Personalizar la cinta de opciones",
+      "stem": "Al personalizar la cinta de opciones de Word, ¿cuál de las siguientes acciones NO es posible?",
+      "options": [
+        "Agregar pestañas personalizadas.",
+        "Agregar un grupo personalizado a una pestaña predeterminada.",
+        "Cambiar el nombre de una pestaña predeterminada.",
+        "Cambiar el color de la cinta de opciones o sus iconos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Se pueden agregar pestañas y grupos personalizados (también en pestañas predeterminadas) y renombrar pestañas o grupos, pero no cambiar el color de la cinta ni sus iconos.",
+      "excerpt": "No puede cambiar el color de la cinta de opciones o sus iconos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

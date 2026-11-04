@@ -116,12 +116,19 @@ export async function ExamOfferSection({
                   <span className="font-medium">{localized(locale, m.title, m.title_ca)}</span>
                   <br />
                   <span className="text-muted-foreground">
-                    {t(m.config.penalty ? "paid.mockFormat" : "paid.mockFormatNoPenalty", {
-                      questions: m.config.questions ?? 30,
-                      minutes: m.config.minutes ?? 35,
-                      penalty: m.config.penalty ?? 0,
-                      min: m.config.pass_mark ?? 5,
-                    })}
+                    {t(
+                      m.config.kind === "sections"
+                        ? "paid.mockFormatSections"
+                        : m.config.penalty
+                          ? "paid.mockFormat"
+                          : "paid.mockFormatNoPenalty",
+                      {
+                        questions: m.config.questions ?? 30,
+                        minutes: m.config.minutes ?? 35,
+                        penalty: m.config.penalty ?? 0,
+                        min: m.config.pass_mark ?? 5,
+                      },
+                    )}
                   </span>
                 </span>
               </li>

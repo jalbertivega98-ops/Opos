@@ -1,16 +1,17 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/theme-provider";
 import { publicEnv } from "@/lib/env";
+import { BRAND, OG_IMAGE, isIndexable, ogLocale, searchVerification } from "@/lib/seo/site";
 import "../globals.css";
 
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
-const display = Plus_Jakarta_Sans({
+const display = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["600", "700", "800"],
@@ -24,12 +25,18 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
+  const verification = searchVerification();
   return {
     metadataBase: new URL(publicEnv.NEXT_PUBLIC_SITE_URL),
-    title: { default: t("title"), template: `%s · Aprobia` },
+    title: { default: t("title"), template: `%s · ${BRAND}` },
     description: t("description"),
-    alternates: { languages: { es: "/", ca: "/ca" } },
+    applicationName: BRAND,
     manifest: "/manifest.webmanifest",
+    openGraph: { type: "website", siteName: BRAND, locale: ogLocale(locale), images: [OG_IMAGE] },
+    twitter: { card: "summary_large_image", images: [OG_IMAGE.url] },
+    // Sin contraseña de preview y en producción: indexable; si no, noindex (ADR-025).
+    robots: isIndexable() ? { index: true, follow: true } : { index: false, follow: false },
+    ...(verification ? { verification } : {}),
   };
 }
 

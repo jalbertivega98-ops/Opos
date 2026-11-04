@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_consultas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Introducción a las consultas",
+      "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Consultas de parámetros",
+      "stem": "Al escribir un criterio en una consulta de Access, ¿qué caracteres indican que la consulta debe pedir información al usuario al ejecutarse?",
+      "options": [
+        "Las comillas \" \".",
+        "Los corchetes [ ].",
+        "Los paréntesis ( ).",
+        "Las almohadillas # #."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En una consulta de parámetros, el texto entre corchetes hace que Access solicite el valor al ejecutar la consulta.",
+      "excerpt": "Los corchetes indican que quiere que la consulta pida información",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tipos de consulta (acción y totales)",
+      "stem": "¿Cuál de las siguientes NO es una consulta de acción en Access?",
+      "options": [
+        "La consulta de totales.",
+        "La consulta de datos anexados.",
+        "La consulta de actualización.",
+        "La consulta de creación de tabla."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Las consultas de acción agregan, cambian o eliminan datos (creación de tabla, datos anexados, actualización y eliminación). La consulta de totales es una consulta de selección que agrupa y resume datos.",
+      "excerpt": "Una consulta de totales es una consulta de selección que permite agrupar y resumir datos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Ejecutar una consulta",
+      "stem": "En Access para Microsoft 365, ¿dónde está el botón Ejecutar de una consulta abierta en vista Diseño?",
+      "options": [
+        "En la pestaña Crear, grupo Consultas.",
+        "En la pestaña Inicio, grupo Registros.",
+        "En la pestaña Diseño de consulta, grupo Resultados.",
+        "En la pestaña Datos externos, grupo Importar y vincular."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Microsoft indica: pestaña Diseño de consulta, grupo Resultados, Ejecutar. La pestaña Crear contiene Diseño de consulta para crearla, no para ejecutarla. En versiones anteriores de Access la pestaña se llamaba «Diseño».",
+      "excerpt": "En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

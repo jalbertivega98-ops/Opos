@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-04-administracion-electronica-rdacc-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.4 Administración electrónica y servicios al ciudadano",
+    "topic_slug": "age-aux-b2-04-administracion-electronica",
+    "locale": "es",
+    "category": "age_aux_b2_04_administracion_electronica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 5.1 RDACC",
+      "stem": "Según el artículo 5.1 del Real Decreto 1112/2018, los sitios web y aplicaciones para dispositivos móviles del sector público deberán ser accesibles de modo que sus contenidos sean:",
+      "options": [
+        "Gratuitos, bilingües, actualizados y seguros.",
+        "Visuales, sonoros, táctiles y gráficos.",
+        "Rápidos, sencillos, interactivos y personalizados.",
+        "Perceptibles, operables, comprensibles y robustos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 5.1 RD 1112/2018 recoge los cuatro principios de accesibilidad, definidos en el art. 4: perceptibilidad, operabilidad, comprensibilidad y robustez.",
+      "excerpt": "de modo que sus contenidos sean perceptibles, operables, comprensibles y robustos teniendo en cuenta las normas del artículo 6.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.1 RDACC",
+      "stem": "De acuerdo con el artículo 15.1 del Real Decreto 1112/2018, la declaración de accesibilidad de un sitio web del sector público:",
+      "options": [
+        "Se actualizará como mínimo una vez al año y será accesible desde todas las páginas del sitio web mediante un enlace denominado «Accesibilidad» o su equivalente.",
+        "Se actualizará cada cinco años y se publicará en el boletín oficial correspondiente.",
+        "Solo será obligatoria para los sitios web de la Administración General del Estado.",
+        "Se publicará exclusivamente en la página de inicio del sitio web."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15.1 RD 1112/2018 exige actualizar la declaración al menos una vez al año o con cada revisión de accesibilidad, y enlazarla desde todas las páginas con el enlace «Accesibilidad».",
+      "excerpt": "Dicha declaración será actualizada periódicamente, como mínimo una vez al año, o cada vez que se realice una revisión de accesibilidad conforme a lo especificado en el artículo 17. […] En el caso de los sitios web, la declaración se publicará en el sitio web correspondiente estando disponible su acceso desde todas las páginas del sitio web con un enlace denominado «Accesibilidad» o su equivalente en el idioma en el que se encuentre disponible la página.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

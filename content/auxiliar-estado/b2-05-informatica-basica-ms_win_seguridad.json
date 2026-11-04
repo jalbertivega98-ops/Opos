@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ms_win_seguridad-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Mantente protegido con la aplicación Seguridad de Windows",
+      "url": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Seguridad de Windows · Firewall",
+      "stem": "Según la documentación de Microsoft sobre la aplicación Seguridad de Windows, la función de firewall:",
+      "options": [
+        "Monitorea el tráfico de red entrante y saliente y bloquea cualquier actividad sospechosa.",
+        "Hace copias de seguridad automáticas de las carpetas del usuario en OneDrive.",
+        "Reorganiza los archivos del disco duro para mejorar el rendimiento.",
+        "Elimina los archivos temporales cuando queda poco espacio en disco."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El firewall integrado en Seguridad de Windows supervisa el tráfico de red de entrada y salida y bloquea la actividad sospechosa; las demás funciones corresponden a Copias de seguridad de Windows, a la optimización de unidades y al Sensor de almacenamiento.",
+      "excerpt": "la función de firewall monitorea el tráfico de red entrante y saliente, bloqueando cualquier actividad sospechosa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Seguridad de Windows · Análisis",
+      "stem": "Según Microsoft, si sospecha que hay malware o un virus en su dispositivo, lo que debe hacer es:",
+      "options": [
+        "Desactivar la protección en tiempo real.",
+        "Desfragmentar la unidad del sistema.",
+        "Activar el Sensor de almacenamiento.",
+        "Ejecutar inmediatamente un análisis rápido."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La aplicación Seguridad de Windows recomienda ejecutar de inmediato un análisis rápido cuando se sospecha de una infección.",
+      "excerpt": "Si sospechas que hay malware o un virus en tu dispositivo, debes ejecutar inmediatamente un análisis rápido.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

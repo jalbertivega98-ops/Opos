@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_tareas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tareas básicas en Word",
+      "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tareas básicas en Word (formato de archivo)",
+      "stem": "¿En qué formato de archivo guarda Word los documentos de forma predeterminada?",
+      "options": [
+        ".doc",
+        ".rtf",
+        ".docx",
+        ".odt"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Word guarda por defecto en formato .docx; para otro formato debe elegirse en la lista «Guardar como tipo».",
+      "excerpt": "Word guarda los archivos automáticamente con el formato de archivo .docx.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tareas básicas en Word (Modo Lectura)",
+      "stem": "¿Qué vista de Word oculta la mayor parte de los botones y las herramientas para facilitar la lectura del documento?",
+      "options": [
+        "Diseño de impresión.",
+        "Modo Lectura.",
+        "Borrador.",
+        "Esquema."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft recomienda abrir el documento en Modo Lectura para ocultar la mayoría de botones y herramientas.",
+      "excerpt": "Abra el documento en Modo Lectura para ocultar la mayor parte de los botones y las herramientas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

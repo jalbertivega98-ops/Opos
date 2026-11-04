@@ -15,6 +15,11 @@ export const PSYCHO_TYPES = [
   "matrices",
   "spatial",
   "attention",
+  "percentages",
+  "equations",
+  "probability",
+  "codes",
+  "tables",
 ] as const;
 export type PsychoType = (typeof PSYCHO_TYPES)[number];
 
@@ -30,7 +35,14 @@ export type Presentation =
   | { kind: "analogy"; a: string; b: string; c: string }
   | { kind: "matrix"; size: number; cells: (string | null)[] }
   | { kind: "figure"; key: string; figure: string }
-  | { kind: "grid"; key: string; values?: Record<string, string | number>; rows: string[] };
+  | { kind: "grid"; key: string; values?: Record<string, string | number>; rows: string[] }
+  | {
+      kind: "table";
+      key: string;
+      values?: Record<string, string | number>;
+      header: string[];
+      rows: string[][];
+    };
 
 /** Explicación estructurada: clave i18n bajo `psycho.rules` + valores. */
 export type Explanation = { key: string; values?: Record<string, string | number> };

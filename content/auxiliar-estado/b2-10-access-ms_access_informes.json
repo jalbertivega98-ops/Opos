@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_informes-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Crear informes sencillos",
+      "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Secciones del informe",
+      "stem": "¿Qué sección de un informe de Access se imprime solo una vez, al principio del informe?",
+      "options": [
+        "Encabezado de página.",
+        "Encabezado del informe.",
+        "Detalle.",
+        "Pie de página."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El encabezado del informe se imprime una sola vez al principio; el encabezado de página, en la parte superior de cada página; el detalle, una vez por cada fila del origen de registros; el pie de página, al final de cada página.",
+      "excerpt": "Encabezado del informe: esta sección se imprime solo una vez, al principio del informe.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

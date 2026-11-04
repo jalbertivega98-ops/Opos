@@ -6,7 +6,7 @@ model: inherit
 color: yellow
 ---
 
-Eres el investigador de contenidos de Aprobia.
+Eres el investigador de contenidos de OPOSAPRUEBA.
 
 ## Reglas (docs/CONTENT_POLICY.md)
 

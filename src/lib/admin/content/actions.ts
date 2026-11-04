@@ -230,10 +230,52 @@ export async function publishAllAction(_: FormState, formData: FormData): Promis
     return { status: "error", message: "db", detail: error.message };
   }
   revalidatePath("/[locale]", "layout");
-  const r = (data ?? {}) as { questions?: number; products?: number };
+  const r = (data ?? {}) as { questions?: number; products?: number; notes?: number };
   return {
     status: "success",
     message: "published_all",
-    detail: `${r.questions ?? 0}|${r.products ?? 0}`,
+    detail: `${r.questions ?? 0}|${r.products ?? 0}|${r.notes ?? 0}`,
   };
+}
+
+const notesReviewSchema = z.object({
+  topic: z
+    .string()
+    .trim()
+    .regex(/^[a-z0-9-]{2,120}$/)
+    .optional()
+    .or(z.literal("").transform(() => undefined)),
+  to: z.enum(["approved", "published", "both"]),
+  confirm: z.literal("on", { message: "confirmRequired" }),
+});
+
+/**
+ * Aprobar y/o publicar fichas de estudio (CNT-011): una o todas. Solo la titular;
+ * la BD lo vuelve a comprobar y deja auditoría por ficha.
+ */
+export async function reviewNotesAction(_: FormState, formData: FormData): Promise<FormState> {
+  const session = await requireAdminAction();
+  if (!session) return { status: "error", message: "forbidden" };
+  if (session.profile.role !== "owner") return { status: "error", message: "notOwner" };
+  const parsed = notesReviewSchema.safeParse(Object.fromEntries(formData));
+  if (!parsed.success) {
+    const confirmMissing = parsed.error.issues.some((i) => i.path[0] === "confirm");
+    return { status: "error", message: confirmMissing ? "confirmRequired" : "invalid" };
+  }
+  const { topic, to } = parsed.data;
+  const supabase = await createClient();
+  let done = 0;
+  for (const step of to === "both" ? (["approved", "published"] as const) : [to]) {
+    const { data, error } = await supabase.rpc("review_topic_notes", {
+      p_topic_slug: topic ?? null,
+      p_to: step,
+    });
+    if (error) {
+      if (error.code === "42501") return { status: "error", message: "notOwner" };
+      return { status: "error", message: "db", detail: error.message };
+    }
+    done = Number(data ?? 0);
+  }
+  revalidatePath("/[locale]", "layout");
+  return { status: "success", message: `notes_${to}`, detail: String(done) };
 }

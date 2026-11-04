@@ -1,5 +1,5 @@
 -- Pagos con Stripe (modo de pruebas): tablas y funciones del servidor.
--- Copia idempotente de supabase/migrations/20261103000900_billing.sql. Ejecutar después de 10.
+-- Copia idempotente de supabase/migrations/20261104000300_billing.sql. Ejecutar después de 22.
 -- No activa ningún cobro: sin STRIPE_SECRET_KEY en Vercel los botones siguen desactivados.
 begin;
 -- =====================================================================

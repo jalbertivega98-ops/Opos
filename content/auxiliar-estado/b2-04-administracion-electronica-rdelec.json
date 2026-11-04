@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "set": "age-aux-b2-04-administracion-electronica-rdelec-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.4 Administración electrónica y servicios al ciudadano",
+    "topic_slug": "age-aux-b2-04-administracion-electronica",
+    "locale": "es",
+    "category": "age_aux_b2_04_administracion_electronica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 203/2021, de 30 de marzo, Reglamento de actuación y funcionamiento del sector público por medios electrónicos (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4 RDELEC",
+      "stem": "¿Cuál de los siguientes es uno de los canales de asistencia para el acceso a los servicios electrónicos enumerados en el artículo 4 del Real Decreto 203/2021?",
+      "options": [
+        "Fax.",
+        "Telegrama.",
+        "Buzón de correo postal.",
+        "Redes sociales."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 4 RD 203/2021 enumera los canales presencial, portales de internet y sedes electrónicas, redes sociales, telefónico, correo electrónico y cualquier otro que pueda establecerse conforme al art. 12 LPAC.",
+      "excerpt": "c) Redes sociales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.2 RDELEC",
+      "stem": "De acuerdo con el artículo 3.2 del Real Decreto 203/2021, cuando una persona física no obligada comunica su voluntad de relacionarse electrónicamente con la Administración, o de dejar de hacerlo, los efectos de esa comunicación se producirán:",
+      "options": [
+        "A partir del quinto día hábil siguiente a aquel en que el órgano competente para tramitar el procedimiento haya tenido constancia de ella.",
+        "Desde el mismo momento de la comunicación.",
+        "A partir del décimo día natural siguiente a la comunicación.",
+        "A partir del mes siguiente a la comunicación."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 3.2 RD 203/2021 difiere los efectos al quinto día hábil siguiente a aquel en que el órgano competente haya tenido constancia de la comunicación.",
+      "excerpt": "En ambos casos, los efectos de la comunicación se producirán a partir del quinto día hábil siguiente a aquel en que el órgano competente para tramitar el procedimiento haya tenido constancia de la misma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.2 RDELEC",
+      "stem": "Según el artículo 26.2 del Real Decreto 203/2021, ¿cuál de los siguientes es un sistema de identificación electrónica admitido para las personas interesadas?",
+      "options": [
+        "La simple indicación del número del DNI en un formulario web.",
+        "El envío de un correo electrónico desde cualquier dirección.",
+        "Los sistemas de clave concertada que cuenten con un registro previo como usuario que permita garantizar su identidad, previa autorización.",
+        "La remisión de una fotografía del DNI por mensajería instantánea."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 26.2 RD 203/2021 admite los certificados cualificados de firma y de sello electrónico y los sistemas de clave concertada u otros que cuenten con registro previo de usuario, previa autorización de la Secretaría General de Administración Digital.",
+      "excerpt": "c) Sistemas de clave concertada y cualquier otro sistema que las Administraciones Públicas consideren válido, en los términos y condiciones que se establezca, siempre que cuenten con un registro previo como usuario que permita garantizar su identidad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.1 RDELEC",
+      "stem": "Según el artículo 8.1 del Real Decreto 203/2021, la Carpeta Ciudadana es:",
+      "options": [
+        "El área personalizada de las personas interesadas en su relación con el sector público estatal.",
+        "El registro en el que constan los funcionarios habilitados para la identificación y firma.",
+        "El archivo electrónico único de los procedimientos finalizados.",
+        "El buzón para presentar quejas y sugerencias ante cualquier Administración."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 8.1 RD 203/2021 define la Carpeta Ciudadana como el área personalizada de los interesados en su relación con el sector público estatal, accesible a través de la sede electrónica del PAGe de la AGE (art. 8.2).",
+      "excerpt": "1. La Carpeta Ciudadana es el área personalizada de las personas interesadas a que se refiere el artículo 7.3 en su relación con el sector público estatal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.1 RDELEC",
+      "stem": "De acuerdo con el artículo 8.1 del Real Decreto 203/2021, además del interesado, podrán acceder a su Carpeta Ciudadana:",
+      "options": [
+        "Cualquier empleado público de la Administración General del Estado.",
+        "Cualquier familiar hasta el segundo grado que acredite el parentesco.",
+        "Únicamente sus representantes legales.",
+        "Sus representantes legales y quien ostente un poder general otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 8.1 RD 203/2021 permite el acceso del interesado, de sus representantes legales y de quien tenga un poder general inscrito en el Registro Electrónico de Apoderamientos.",
+      "excerpt": "Además del interesado podrán acceder a la Carpeta Ciudadana: a) Sus representantes legales. b) Quien ostente un poder general previsto en el artículo 6.4.a) de la Ley 39/2015, de 1 de octubre, otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.4 RDELEC",
+      "stem": "Según el artículo 7.4 del Real Decreto 203/2021, en la sede electrónica del Punto de Acceso General electrónico (PAGe) de la Administración General del Estado está alojada:",
+      "options": [
+        "El Registro Electrónico de Apoderamientos de todas las Administraciones.",
+        "La sede electrónica de cada Comunidad Autónoma.",
+        "La Dirección Electrónica Habilitada única.",
+        "El archivo electrónico único de cada Ministerio."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 7.4 RD 203/2021 dispone que la Dirección Electrónica Habilitada única (art. 43 LPAC) está alojada en la sede electrónica del PAGe de la AGE; esa sede permite además comprobar documentos mediante Código Seguro de Verificación.",
+      "excerpt": "En dicha sede electrónica está alojada la Dirección Electrónica Habilitada única a la que se refiere el artículo 43 de la Ley 39/2015, de 1 de octubre.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.2 RDELEC",
+      "stem": "De acuerdo con el artículo 6.2 del Real Decreto 203/2021, la dirección electrónica de un nuevo portal de internet en el ámbito estatal deberá incluir el nombre de dominio de segundo nivel:",
+      "options": [
+        "«.es».",
+        "«.gob.es».",
+        "«.gov».",
+        "«.admin.es»."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 6.2 RD 203/2021 exige que la dirección electrónica de los nuevos portales estatales incluya el dominio de segundo nivel «.gob.es».",
+      "excerpt": "El acto o resolución de creación de un nuevo portal previsto en el apartado anterior contendrá, al menos, la identificación de su dirección electrónica, que deberá incluir el nombre de dominio de segundo nivel «.gob.es»",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.1 RDELEC",
+      "stem": "¿Cuál de los siguientes forma parte del contenido mínimo de toda sede electrónica, según el artículo 11.1 del Real Decreto 203/2021?",
+      "options": [
+        "Las retribuciones individuales de todo el personal del órgano titular.",
+        "Un foro de opinión abierto a los usuarios.",
+        "El currículum de los titulares de todas las unidades administrativas.",
+        "La fecha y hora oficial, así como el calendario de días inhábiles a efectos del cómputo de plazos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 11.1 RD 203/2021 incluye en el contenido mínimo, entre otros, la identificación de la sede y de su titular, los sistemas de identificación y firma admitidos, la normativa del registro y la fecha y hora oficial con el calendario de días inhábiles.",
+      "excerpt": "f) La fecha y hora oficial, así como el calendario de días inhábiles a efectos del cómputo de plazos aplicable a la Administración en que se integre el órgano",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.f) RDELEC",
+      "stem": "De acuerdo con el artículo 2 del Real Decreto 203/2021, el principio que expresa la capacidad de las Administraciones Públicas para, partiendo del conocimiento adquirido del usuario final, proporcionar servicios precumplimentados y anticiparse a sus posibles necesidades es el principio de:",
+      "options": [
+        "Facilidad de uso.",
+        "Personalización y proactividad.",
+        "Interoperabilidad.",
+        "Neutralidad tecnológica."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 2.f) RD 203/2021 define así el principio de personalización y proactividad. La facilidad de uso se refiere al diseño centrado en las personas usuarias (letra c) y la interoperabilidad a la capacidad de los sistemas de compartir datos (letra d).",
+      "excerpt": "f)\tEl principio de personalización y proactividad, entendido como la capacidad de las Administraciones Públicas para que, partiendo del conocimiento adquirido del usuario final del servicio, proporcione servicios precumplimentados y se anticipe a las posibles necesidades de los mismos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

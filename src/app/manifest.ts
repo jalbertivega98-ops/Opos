@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Aprobia · Academia digital de oposiciones",
-    short_name: "Aprobia",
+    name: "OPOSAPRUEBA · Academia digital de oposiciones",
+    short_name: "OPOSAPRUEBA",
     start_url: "/app",
     display: "standalone",
     background_color: "#ffffff",

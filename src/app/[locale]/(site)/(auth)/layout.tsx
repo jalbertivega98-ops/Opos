@@ -1,4 +1,8 @@
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
+
+/** Páginas de acceso: no se indexan, pero sus enlaces sí se siguen (ADR-025). */
+export const metadata: Metadata = { robots: { index: false, follow: true } };
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
   return (

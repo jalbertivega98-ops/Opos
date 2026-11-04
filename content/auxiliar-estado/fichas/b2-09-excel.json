@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "created": "2026-11-04",
+    "author": "Selección de artículos literales del BOE (texto consolidado, sin redacción propia); pendiente de revisión humana",
+    "source": {
+      "title": "Microsoft Soporte · Tareas básicas en Excel",
+      "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    }
+  },
+  "outline": [
+    {
+      "n": "1",
+      "title": "Libros, hojas y celdas: especificaciones, límites e inmovilizar paneles"
+    },
+    {
+      "n": "2",
+      "title": "Configuración y métodos abreviados de teclado"
+    },
+    {
+      "n": "3",
+      "title": "Introducción y edición de datos"
+    },
+    {
+      "n": "4",
+      "title": "Fórmulas y referencias"
+    },
+    {
+      "n": "4.1",
+      "title": "Referencias relativas, absolutas y mixtas"
+    },
+    {
+      "n": "4.2",
+      "title": "Funciones SI, BUSCARX y CONTAR.SI"
+    },
+    {
+      "n": "5",
+      "title": "Gráficos"
+    },
+    {
+      "n": "6",
+      "title": "Gestión de datos"
+    },
+    {
+      "n": "6.1",
+      "title": "Ordenar y filtrar"
+    },
+    {
+      "n": "6.2",
+      "title": "Tablas dinámicas, validación de datos y formato condicional"
+    },
+    {
+      "n": "7",
+      "title": "Personalización del entorno"
+    }
+  ],
+  "key_ideas": [
+    "Tareas básicas Soporte Microsoft (Excel, tareas básicas): «Los documentos de Excel se denominan libros.»",
+    "Especificaciones y límites Soporte Microsoft (Excel, especificaciones y límites): «Número total de filas y columnas en una hoja de cálculo | 1.048.576 filas por 16.384 columnas»",
+    "Especificaciones y límites Soporte Microsoft (Excel, especificaciones y límites): «Hojas en un libro | Limitado a la memoria disponible (el valor predeterminado es 1 hoja)»",
+    "Inmovilizar paneles Soporte Microsoft (Excel, inmovilizar paneles): «Inmovilizar paneles inmoviliza las filas superiores y las columnas a la izquierda de la celda seleccionada.»",
+    "Teclas de función Soporte Microsoft (Excel, atajos): «Mayús+F11: inserta una hoja de cálculo nueva.»",
+    "Teclas de función Soporte Microsoft (Excel, atajos): «Solo F11: crea un gráfico a partir de los datos del rango actual en una hoja de gráfico distinta.»",
+    "Fórmulas Soporte Microsoft (Excel, tareas básicas): «Seleccione una celda y después escriba un signo igual (=).»",
+    "Referencias Soporte Microsoft (Excel, referencias): «De forma predeterminada, una referencia de celda es una referencia relativa»",
+    "Referencias Soporte Microsoft (Excel, referencias): «Presione F4 para cambiar entre los tipos de referencia.»",
+    "Función SI Soporte Microsoft (Excel, SI): «SI(prueba_lógica; valor_si_verdadero; [valor_si_falso])»",
+    "Función BUSCARX Soporte Microsoft (Excel, BUSCARX): «=BUSCARX(valor_buscado; matriz_buscada; matriz_devuelta; [si_no_se_encuentra]; [modo_de_coincidencia]; [modo_de_búsqueda])»",
+    "Función CONTAR.SI Soporte Microsoft (Excel, CONTAR.SI): «CONTAR.SI usa solo un criterio. Use CONTAR.SI.CONJUNTO si desea usar varios criterios.»",
+    "Tipos de gráfico Soporte Microsoft (Excel, tipos de gráfico): «Los gráficos circulares muestran el tamaño de los elementos en una serie de datos, proporcional a la suma de los elementos.»",
+    "Filtrar Soporte Microsoft (Excel, filtrar): «Use filtros para ocultar temporalmente algunos de los datos de una tabla y así poder centrarse en los datos que desee.»",
+    "Tablas dinámicas Soporte Microsoft (Excel, tablas dinámicas): «Una tabla dinámica es una herramienta avanzada para calcular, resumir y analizar datos»",
+    "Validación de datos Soporte Microsoft (Excel, validación de datos): «Use la validación de datos para restringir el tipo de datos o los valores que los usuarios escriben en una celda»"
+  ],
+  "glossary": [],
+  "amendments": [],
+  "review_note": "Otras normas citadas: Soporte Microsoft (Excel, especificaciones y límites) (https://support.microsoft.com/es-es/excel/excel-specifications-and-limits), Soporte Microsoft (Excel, inmovilizar paneles) (https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns), Soporte Microsoft (Excel, atajos) (https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel), Soporte Microsoft (Excel, referencias) (https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references), Soporte Microsoft (Excel, SI) (https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2), Soporte Microsoft (Excel, BUSCARX) (https://support.microsoft.com/es-es/excel/functions/xlookup-function), Soporte Microsoft (Excel, CONTAR.SI) (https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel), Soporte Microsoft (Excel, tipos de gráfico) (https://support.microsoft.com/es-es/excel/available-chart-types-in-office), Soporte Microsoft (Excel, filtrar) (https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel), Soporte Microsoft (Excel, tablas dinámicas) (https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576), Soporte Microsoft (Excel, validación de datos) (https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)"
+}

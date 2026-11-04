@@ -85,7 +85,66 @@ Contrato común `PsychoGenerator { generate, verify }` con presentación genéri
 **Motivo:** todo eran tarjetas iguales con texto; no quedaba claro dónde mirar ni qué hacer.
 **Consecuencias:** las demás pantallas se migrarán al mismo sistema tras la revisión de joel. La rama del rediseño no se despliega sola en Vercel (`vercel.json`, `git.deploymentEnabled` para `claude/**`). La portada no muestra testimonios ni cifras; los valores de ejemplo van marcados como tales.
 
-## ADR-019 · Cobros con Stripe Checkout y webhook idempotente (2026-11-03)
+## ADR-019 · Fichas de estudio literales por tema (2026-11-03)
+
+**Decisión:** cada tema tiene una ficha (`topic_notes`) con el índice, las «Idees força», el glosario y las esmenes oficiales, **copiados literalmente** de la Guia d'estudi con sus páginas. Se extraen con `scripts/content/extract-topic-notes.mjs` y se comprueban contra el texto con `verify-excerpts.mjs`. No hay redacción propia, salvo el texto de las esmenes, que resume el PDF oficial de correcciones. Entran en borrador y solo la titular las aprueba y publica (`review_topic_notes`, también dentro de «Aprobar y publicar todo»). Cualquier cambio de contenido en una ficha aprobada o publicada la devuelve a revisión. Las publicadas son gratuitas para cualquier alumno registrado (`/app/temario`).
+**Motivo:** el alumnado solo tenía preguntas y nada para estudiar. Copiar el resumen oficial no inventa nada y se verifica de forma automática.
+**Consecuencias:** las fichas muestran el texto en catalán (`lang="ca"`). Si joel quiere ponerlas de pago, basta con cambiar la política RLS por `has_product_access`. La guía completa no se reproduce: la ficha enlaza al PDF oficial con la página exacta.
+
+## ADR-020 · Segunda oposición: Auxiliar Administrativo del Estado con fuentes del BOE (2026-11-04)
+
+**Decisión:** tras Mossos, se abre **Auxiliar Administrativo del Estado** (ingreso libre, C2). Es la de más demanda estable entre las candidatas (46.798-54.136 convocados al año frente a 27.614 de Guardia Civil y ~37.000 solicitudes de Policía Nacional). Correos junta más gente cuando convoca, pero no convoca desde 2022 y su temario es material interno, difícil de verificar. Además, el examen incluye 30 psicotécnicas y el temario son leyes del BOE, citables literalmente. Fuentes y cifras en `docs/research/auxiliar-estado-fuentes.md`.
+Como `boe.es` no es accesible desde el contenedor, el texto consolidado se toma de la réplica `legalize-dev/legalize-es` (API de datos abiertos del BOE). Cada pregunta y cada ficha enlazan al texto oficial `boe.es/buscar/act.php?id=…`. El formato compacto, `build.py` (que comprueba las citas literales) y las leyes están en `/mnt/project-files/aprobia/fuentes-oficiales/auxiliar-estado/`. Los slugs de los temas son `age-aux-b1-NN-…` (Bloque II: `age-aux-b2-`), así los packs y simulacros filtran por prefijo.
+Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque I y 30 psicotécnicas, −1/3, 25 min cada uno). `config.item_types` limita los tipos de psicotécnico al formato de cada oposición.
+**Publicación:** joel pidió expresamente publicarlo («súbelos y publícalos»). `supabase/preview/15-publicar-auxiliar-estado.sql` hace lo mismo que el botón de lotes, a nombre de la titular y con auditoría, y deja fuera las dudosas.
+**Consecuencias:** faltan los temas 6 y 10 y el Bloque II (CNT-013). Las fichas de la AGE son artículos literales sin glosario. La pantalla de temario agrupa por «Bloque» fuera de Mossos.
+
+## ADR-021 · Fuentes web oficiales para la ofimática y la UE (2026-11-04)
+
+**Decisión:** el Bloque II (Windows 11 y Microsoft 365) y el tema de la UE no tienen texto en el BOE. Se usan solo páginas oficiales: soporte de Microsoft en español (support.microsoft.com/es-es y learn.microsoft.com/es-es), EUR-Lex (TUE y TFUE consolidados, DOUE C 202 de 2016) y la página de la ONU sobre los ODS. Se registran en `fuentes-web.json` y se citan literalmente, igual que las leyes (`build.py --check`).
+**Límite conocido:** el contenedor no puede descargar esas webs. La herramienta de lectura solo devuelve fragmentos literales cortos, así que `web/<CLAVE>.md` guarda extractos, no la página entera. La comprobación garantiza que cada cita coincide con lo capturado, pero no sustituye a cotejarla con la página. Las preguntas que dependen de la versión, del idioma del teclado o de datos de los Tratados ya cambiados llevan nota y no se publican sin revisión.
+**Consecuencias:** las preguntas de ofimática evitan los atajos con letra, que cambian con el idioma, y preguntan por cintas, menús, conceptos y teclas de función. Cuando Microsoft cambie una página, hay que capturarla de nuevo y regenerar con `build.py`.
+
+## ADR-022 · Calibración con los exámenes reales del INAP y simulacro por partes (2026-11-04)
+
+**Decisión:** se leyeron los exámenes de ingreso libre 2025 y 2024 en el Chrome de joel. El análisis está en `docs/research/auxiliar-estado-examenes.md`. Las psicotécnicas reales no se parecían a nuestro simulacro: había verbales (sinónimos, antónimos, ortografía), numéricas con importes (porcentajes, ecuaciones, probabilidad, series, códigos binarios) y 12 de tablas. Por eso:
+(1) Se añaden 5 generadores: `percentages`, `equations`, `probability`, `codes` y `tables`. Con ellos llega la presentación `table`, opciones con coma decimal y tests con los casos del examen real.
+(2) `config.item_types` admite un objeto `{tipo: cantidad}`: bloques por tipo, dificultad creciente dentro de cada bloque y orden fijo del registro, porque jsonb no conserva el orden de las claves. Sin `item_types`, los simulacros siguen con los 7 tipos generales (Mossos no cambia).
+(3) Nuevo `mock_exam` con `kind: "sections"`. Recibe `config.parts` (banco por prefijo de temas o psicotécnicos generados) y `config.cutoffs`. Se abre con `mock_start_sections` y `mock_submit` guarda `part_results`: directa, corte y calificación de 0 a 50 según la fórmula del INAP. Se supera si cada parte llega a su corte.
+**Consecuencias:** el pack de Auxiliar incluye el simulacro completo del ejercicio único (110 preguntas, 90 min, cortes de 2025: 29 y 21,33). Los cortes cambian cada año, así que hay que actualizarlos en el producto. Siguen pendientes las verbales, que necesitan un banco revisado con el DLE en el Chrome de joel.
+
+## ADR-023 · Marca OPOSAPRUEBA y titulares con serifa (2026-11-04)
+
+**Decisión:** a petición de joel, la marca pasa de «Aprobia» a **OPOSAPRUEBA** en la interfaz, los títulos, los metadatos, el manifiesto, los correos locales y la documentación activa. Se mantienen los identificadores técnicos (`package.json`, el proyecto `aprobia-preview` de Supabase, los correos `@aprobia.test`, el dominio de Vercel y las migraciones). Los titulares pasan a Source Serif 4 para un formato más serio. El diseño de ADR-018 se mantiene.
+**Motivo:** joel probó una portada más interactiva y prefirió el diseño anterior; solo quería el nombre nuevo y una letra más seria.
+**Consecuencias:** el nombre del remitente y las plantillas de correo de Supabase cloud se cambian en su panel, fuera del repositorio. Queda pendiente verificar el registro de marca y el dominio (DEC-005).
+
+## ADR-024 · Portada a todo el ancho con apariciones al desplazarse (2026-11-04)
+
+**Decisión:** a petición de joel, la web usa un contenedor ancho (`.wrap`, hasta 1600 px). La portada anima cada sección al bajar con efectos variados, inspirados en speak.com. Se usa IntersectionObserver para las apariciones y scroll-driven animations para la deriva y el crecimiento de la franja. El diseño y el contenido de ADR-018 no cambian.
+**Motivo:** que la página no se vea siempre igual al recorrerla y aproveche las pantallas grandes.
+**Consecuencias:** `html` y `body` llevan `overflow-x: clip` para que los efectos laterales no generen scroll horizontal. Todo queda estático con «reducir movimiento».
+
+## ADR-025 · SEO y GEO: rastreable solo en producción y con datos oficiales verificados (2026-11-04)
+
+**Decisión:** a petición de joel, la web se prepara para buscadores y asistentes de IA (ChatGPT, Gemini, Perplexity) sin cambiar funciones existentes:
+(1) `robots.txt`, `sitemap.xml` (con hreflang es/ca) y etiquetas `robots` dependen de `isIndexable()`: solo se indexa en producción, con `https` y **sin** `PREVIEW_PASSWORD`. Mientras haya contraseña, robots.txt bloquea todo y todas las páginas son `noindex`, así que al quitarla (y redesplegar) se abre sola.
+(2) Cada página pública tiene canonical, hreflang (es, ca, x-default), Open Graph e imagen para compartir. Zonas privadas, acceso, legales en borrador, búsquedas del catálogo y fichas «próximamente» sin guía son `noindex`.
+(3) Guías públicas en `/oposiciones/[slug]` (Mossos y Auxiliar del Estado) y 12 páginas `/psicotecnicos/[tipo]` con entrenador gratuito, método y preguntas frecuentes. Los datos de examen salen de `docs/research/` (fuentes oficiales leídas el 03-04/11/2026) y llevan fecha de verificación y enlaces. El contenido largo vive en `src/lib/seo/*.ts` con sus dos idiomas; las etiquetas de la interfaz, en `messages`.
+(4) Schema.org: EducationalOrganization, WebSite, FAQPage, BreadcrumbList, WebPage con `citation` y LearningResource/Quiz. Sin valoraciones, testimonios, precios ni cifras de alumnos.
+(5) `/llms.txt` resume la academia para asistentes de IA.
+(6) Analítica propia de captación: el proxy clasifica la página de entrada por origen (buscador, IA, red social, otra web, directo) y los rastreadores por User-Agent, y suma contadores diarios en `traffic_daily` con la clave de servicio (`track_traffic`, solo service_role). Sin cookies, IP ni identificadores: no requiere consentimiento. Se consulta en `/admin/trafico`.
+(7) Verificación de Google Search Console y Bing por variables de entorno (`GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`) e IndexNow (`INDEXNOW_KEY`, `/indexnow.txt`, `scripts/seo/indexnow.mjs`).
+**Motivo:** aumentar la visibilidad orgánica y las opciones de aparecer como fuente citada por asistentes de IA, sin inventar nada (CONTENT_POLICY) y sin exponer la preview privada.
+**Consecuencias:** al cambiar una convocatoria hay que actualizar `src/lib/seo/exam-guides.ts` y su documento de investigación. Los rastreadores de entrenamiento (GPTBot, ClaudeBot, CCBot, Google-Extended) están permitidos por la regla general: bloquearlos es una decisión de negocio pendiente de joel. Google no distingue en el origen las visitas de AI Overviews o del modo IA.
+
+## ADR-026 · Dominio oposaprueba.com y correos con Resend (2026-11-04)
+
+**Decisión:** joel conectó `oposaprueba.com` (Cloudflare, DNS en gris) a Vercel y cambió `NEXT_PUBLIC_SITE_URL` y las URLs de Supabase Auth. Los correos de la web (confirmación, contraseña, enlaces) saldrán de `no-responder@oposaprueba.com` mediante el SMTP de Resend (gratis hasta 3.000 al mes, región UE). Las plantillas con la marca están en `supabase/email-templates/` y se pegan en el panel de Supabase. Los enlaces usan `/auth/confirm` con `token_hash`. Para el contacto, `hola@oposaprueba.com` reenvía a un Gmail con Cloudflare Email Routing.
+**Motivo:** el SMTP de serie de Supabase solo envía unos pocos correos por hora a direcciones del equipo, así que no sirve para alumnos reales.
+**Consecuencias:** los correos de promoción solo se enviarán a quien lo acepte de forma explícita y siempre con enlace de baja (LSSI y RGPD). La casilla de consentimiento ya existe en _Mi perfil_ (`marketing_consent`); el envío de promociones está pendiente. Las plantillas se generan con `scripts/email/build-templates.mjs` y llevan el logo `public/brand/email-logo.png`. _Mi perfil_ permite cambiar la contraseña y el correo; ambos piden la contraseña actual y el cambio de correo se confirma por enlace.
+
+## ADR-027 · Cobros con Stripe Checkout y webhook idempotente (2026-11-03)
 
 **Decisión:** a petición de joel («¿puedes hacerlo tú todo?»), pagos en modo de pruebas con Stripe Checkout alojado y `price_data` (el importe sale de `product_prices`; no hay que crear productos en Stripe). El acceso lo dan el webhook firmado y la confirmación al volver de Stripe, ambos idempotentes, mediante funciones `billing_*` ejecutables solo por `service_role`. Las suscripciones se releen en Stripe en cada aviso. Portal de clientes de Stripe para tarjeta, facturas y baja. Casilla obligatoria de acceso inmediato y renuncia al desistimiento.
 **Motivo:** la tarjeta nunca toca Aprobia (fuera de PCI), un único sitio donde se fija el precio (el panel) y pruebas completas sin cuenta de Stripe.

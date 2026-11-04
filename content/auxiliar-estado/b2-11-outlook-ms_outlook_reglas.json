@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_reglas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Configurar reglas en Outlook",
+      "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Reglas · Definición",
+      "stem": "Según Microsoft, las reglas de Outlook permiten:",
+      "options": [
+        "Cifrar todos los mensajes enviados.",
+        "Recuperar mensajes eliminados de forma permanente.",
+        "Mover, marcar y responder a mensajes de correo electrónico automáticamente.",
+        "Crear copias de seguridad del archivo de datos de Outlook."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Las reglas automatizan acciones sobre los mensajes, como moverlos a una carpeta, marcarlos o responderlos.",
+      "excerpt": "Las reglas le permiten mover, marcar y responder a mensajes de correo electrónico automáticamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Reglas · Crear desde un mensaje",
+      "stem": "Para crear una regla a partir de un mensaje existente en Outlook, se hace clic con el botón derecho en el mensaje y se selecciona:",
+      "options": [
+        "Mover > Otra carpeta.",
+        "Reglas > Crear regla.",
+        "Categorizar > Todas las categorías.",
+        "Marcar para seguimiento > Personalizado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El menú contextual del mensaje ofrece Reglas > Crear regla, donde se eligen la condición y la acción.",
+      "excerpt": "Haga clic con el botón derecho en un mensaje existente y seleccione Reglas > Crear regla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Reglas · Administrar reglas y alertas",
+      "stem": "En Outlook, ¿qué ruta permite crear una regla a partir de una plantilla?",
+      "options": [
+        "Inicio > Responder > Nueva regla.",
+        "Vista > Configuración de vista > Nueva regla.",
+        "Archivo > Administrar reglas y alertas > Nueva regla.",
+        "Insertar > Elementos de Outlook > Regla."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Desde Archivo > Administrar reglas y alertas > Nueva regla se elige una plantilla, se edita la descripción y se asigna un nombre a la regla.",
+      "excerpt": "Elija Archivo > Administrar reglas y alertas > Nueva regla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Reglas · Ejecutar en mensajes existentes",
+      "stem": "Al crear una regla en Outlook, ¿qué opción hace que se aplique también a los mensajes que ya están en la carpeta?",
+      "options": [
+        "La opción «Detener el procesamiento de más reglas».",
+        "La casilla «Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual».",
+        "El botón Respuestas automáticas.",
+        "La opción «Marcar los mensajes de alguien para realizarles un seguimiento»."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Al terminar de crear la regla puede activarse la casilla que la ejecuta inmediatamente sobre los mensajes existentes de la carpeta actual.",
+      "excerpt": "active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ model: inherit
 color: orange
 ---
 
-Eres el ingeniero de QA de Aprobia.
+Eres el ingeniero de QA de OPOSAPRUEBA.
 
 ## Reglas
 

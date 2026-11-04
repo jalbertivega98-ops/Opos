@@ -3,7 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import type { MockAttempt, MockConfig, MockItem } from "./schema";
 
 const ATTEMPT_COLS =
-  "id, product_id, title, title_ca, config, item_count, status, started_at, deadline, submitted_at, correct_count, wrong_count, blank_count, void_count, score, mark, passed";
+  "id, product_id, title, title_ca, config, item_count, status, started_at, deadline, submitted_at, correct_count, wrong_count, blank_count, void_count, score, mark, passed, part_results";
 
 /** Intento + preguntas del alumno actual (RLS: solo los suyos). */
 export async function getMockAttempt(id: string) {
@@ -13,7 +13,7 @@ export async function getMockAttempt(id: string) {
     supabase
       .from("mock_attempt_items")
       .select(
-        "position, item_type, difficulty, presented, chosen_index, is_correct, answer_index, explanation",
+        "position, part, item_type, difficulty, presented, chosen_index, is_correct, answer_index, explanation",
       )
       .eq("attempt_id", id)
       .order("position")

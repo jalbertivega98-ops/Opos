@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-12-internet-ms_edge_inprivate-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.12 La red Internet y los navegadores",
+    "topic_slug": "age-aux-b2-12-internet",
+    "locale": "es",
+    "category": "age_aux_b2_12_internet",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Explorar InPrivate en Microsoft Edge",
+      "url": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Edge · InPrivate",
+      "stem": "Según Microsoft, ¿qué datos sí permite conservar la navegación InPrivate de Microsoft Edge?",
+      "options": [
+        "Las descargas y los favoritos.",
+        "El historial de exploración.",
+        "Las cookies y los datos del sitio.",
+        "Las entradas de formularios."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "InPrivate no guarda en el dispositivo el historial, las cookies, los datos del sitio ni las entradas de formularios, pero sí permite guardar descargas y favoritos.",
+      "excerpt": "La ventana de InPrivate en Microsoft Edge le permite navegar por la Web sin guardar el historial de exploración […] las cookies, los datos del sitio o las entradas de formularios en su dispositivo. […] permitir guardar descargas y favoritos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -40,7 +40,7 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 
 1. Regresión completa + `npm run build`.
 2. Supabase: aplicar migraciones (`supabase db push`) — **autorización**.
-3. Auth: Site URL, Redirect URLs (`https://dominio/auth/callback`, `/auth/confirm`), SMTP propio, plantillas de email con `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=signup&next=/app/onboarding` (y `type=recovery&next=/restablecer`).
+3. Auth: Site URL, Redirect URLs (`https://dominio/auth/callback`, `/auth/confirm`), SMTP propio, plantillas de email de `supabase/email-templates/` (enlazan a `/auth/confirm` con `token_hash`; SMTP con Resend, ver su README).
 4. Variables en el proveedor; ningún secreto en el repo.
 5. Asignar `owner` a joel por SQL.
 6. Verificación post-despliegue: registro → email → onboarding → dashboard; login; recuperación; catálogo; admin.
@@ -52,7 +52,7 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 | -------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | GitHub         | ✅ `jalbertivega98-ops/Opos`, rama `main`                                                 | Opcional: CI con GitHub Actions (typecheck, lint, unitarias)                                            |
 | Supabase cloud | Migraciones 0100–0900 compatibles con `supabase db push`                                  | Crear proyecto (región UE), aplicar migraciones, configurar Auth y SMTP, `owner` para joel              |
-| Stripe (test)  | Checkout, webhook y portal hechos (migración `20261103000900_billing.sql`, docs/PAGOS.md) | Cuenta Stripe en modo test, `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, precios publicados |
+| Stripe (test)  | Checkout, webhook y portal hechos (migración `20261104000300_billing.sql`, docs/PAGOS.md) | Cuenta Stripe en modo test, `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, precios publicados |
 | Despliegue     | `npm run build` correcto                                                                  | Proyecto en el proveedor (p. ej. Vercel) y variables de entorno                                         |
 
 Ninguna de estas cuentas se ha creado ni conectado.

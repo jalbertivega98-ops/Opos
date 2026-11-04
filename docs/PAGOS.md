@@ -6,7 +6,7 @@ Estado (2026-11-03): **código listo en modo de pruebas**. No hay ninguna cuenta
 
 1. El alumno pulsa **Comprar** (pack, simulacro, pack completo) o **Hazte Premium**, marcando la casilla de acceso inmediato (renuncia al desistimiento de 14 días, art. 103.m TRLGDCU).
 2. El servidor (`startCheckoutAction`) comprueba sesión, producto publicado con precio activo y que no lo tenga ya, y crea una sesión de **Stripe Checkout** con el importe de **nuestra BD** (`price_data`): no hace falta crear productos ni precios en Stripe.
-3. El alumno paga en la página de Stripe (la tarjeta nunca pasa por Aprobia).
+3. El alumno paga en la página de Stripe (la tarjeta nunca pasa por OposAprueba).
 4. Stripe avisa a `POST /api/stripe/webhook` (firma verificada con `STRIPE_WEBHOOK_SECRET`). Al volver a `/app/productos?compra=ok` también se confirma la compra, por si el aviso tarda. Las dos vías son idempotentes.
 5. Las funciones `billing_*` (solo `service_role`) crean pedido + concesión, o sincronizan la suscripción. `has_product_access()` hace el resto: el candado desaparece.
 

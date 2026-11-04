@@ -85,7 +85,7 @@ describe("sesión de Checkout", () => {
   const base = {
     userId: USER,
     customerId: "cus_1",
-    siteUrl: "https://aprobia.test/",
+    siteUrl: "https://oposaprueba.test/",
     cancelPath: "/oposiciones/mossos",
   };
   it("pago único: importe de la BD, metadatos y URLs internas", () => {
@@ -106,9 +106,9 @@ describe("sesión de Checkout", () => {
     expect(p.metadata).toEqual(meta);
     expect(p.payment_intent_data?.metadata).toEqual(meta);
     expect(p.success_url).toBe(
-      "https://aprobia.test/ca/app/productos?compra=ok&session_id={CHECKOUT_SESSION_ID}",
+      "https://oposaprueba.test/ca/app/productos?compra=ok&session_id={CHECKOUT_SESSION_ID}",
     );
-    expect(p.cancel_url).toBe("https://aprobia.test/ca/oposiciones/mossos?compra=cancelada");
+    expect(p.cancel_url).toBe("https://oposaprueba.test/ca/oposiciones/mossos?compra=cancelada");
   });
   it("Premium: suscripción mensual con metadatos en la suscripción", () => {
     const p = buildCheckoutParams({
@@ -125,7 +125,7 @@ describe("sesión de Checkout", () => {
     expect(p.mode).toBe("subscription");
     expect(p.line_items?.[0].price_data?.recurring).toEqual({ interval: "month" });
     expect(p.subscription_data?.metadata).toEqual(meta);
-    expect(p.cancel_url).toBe("https://aprobia.test/oposiciones/mossos?compra=cancelada");
+    expect(p.cancel_url).toBe("https://oposaprueba.test/oposiciones/mossos?compra=cancelada");
   });
   it("no mezcla pago único con precio recurrente", () => {
     expect(() =>

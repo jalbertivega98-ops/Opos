@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Aprobia · Acadèmia digital d'oposicions",
+    "title": "OPOSAPRUEBA · Acadèmia digital d'oposicions",
     "description": "Prepara la teva oposició amb un pla d'estudi adaptatiu, tests, psicotècnics i simulacres des de qualsevol dispositiu."
   },
   "nav": {
@@ -23,7 +23,8 @@
     "progress": "El meu progrés",
     "library": "Els meus productes",
     "plan": "El meu pla",
-    "how": "Com funciona"
+    "how": "Com funciona",
+    "syllabus": "Temari"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -92,11 +93,7 @@
       "name": "Gratuït",
       "price": "0 €",
       "period": "per sempre",
-      "items": [
-        "Pla d'estudi setmanal",
-        "Psicotècnics de pràctica",
-        "Estadístiques bàsiques"
-      ],
+      "items": ["Pla d'estudi setmanal", "Psicotècnics de pràctica", "Estadístiques bàsiques"],
       "cta": "Crea un compte"
     },
     "premium": {
@@ -130,11 +127,7 @@
     "demoCta": "Prova un psicotècnic gratis",
     "titleRich": "Prepara la teva oposició amb <mark>mètode</mark>, no a cegues",
     "audience": "Per a qui prepara oposicions a Espanya, en català o en castellà. Comença gratis, sense targeta.",
-    "trustItems": [
-      "Sense targeta",
-      "Fonts oficials citades",
-      "Contingut revisat per persones"
-    ],
+    "trustItems": ["Sense targeta", "Fonts oficials citades", "Contingut revisat per persones"],
     "sample": {
       "badge": "Prova-ho aquí",
       "title": "Així és un exercici",
@@ -153,11 +146,7 @@
       "title": "El teu progrés",
       "note": "Vista d'exemple",
       "accuracy": "Encerts de la setmana i avanç per bloc",
-      "rows": [
-        "Temari",
-        "Psicotècnics",
-        "Simulacres"
-      ]
+      "rows": ["Temari", "Psicotècnics", "Simulacres"]
     },
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
@@ -186,11 +175,7 @@
         "Sessions de psicotècnics",
         "Simulacre de la setmana"
       ],
-      "mock": [
-        "Mateix temps",
-        "Mateixa penalització",
-        "Mateix nre. de preguntes"
-      ],
+      "mock": ["Mateix temps", "Mateixa penalització", "Mateix nre. de preguntes"],
       "review": "Repassar"
     },
     "comingSoon": "Properament",
@@ -451,7 +436,7 @@
     "memberSince": "Alumne des del {date}",
     "personal": "Dades personals",
     "locale": "Idioma preferit",
-    "marketingConsent": "Vull rebre per correu novetats i consells d'Aprobia (ho pots retirar quan vulguis).",
+    "marketingConsent": "Vull rebre per correu novetats i consells d'OPOSAPRUEBA (ho pots retirar quan vulguis).",
     "save": "Desa els canvis",
     "saved": "Canvis desats.",
     "exportTitle": "Descarrega les meves dades",
@@ -465,8 +450,22 @@
     "errors": {
       "wrongPassword": "Contrasenya incorrecta.",
       "required": "Camp obligatori.",
-      "confirmWord": "Escriu ELIMINAR en majúscules."
-    }
+      "confirmWord": "Escriu ELIMINAR en majúscules.",
+      "sameEmail": "Aquest ja és el teu correu actual."
+    },
+    "securityTitle": "Contrasenya",
+    "securityBody": "Per canviar-la necessitem la teva contrasenya actual.",
+    "currentPassword": "Contrasenya actual",
+    "newPassword": "Nova contrasenya",
+    "confirmNewPassword": "Repeteix la nova contrasenya",
+    "passwordHint": "Mínim 8 caràcters, amb almenys una lletra i un número.",
+    "changePasswordSubmit": "Canvia la contrasenya",
+    "passwordChanged": "Contrasenya canviada. La propera vegada entra amb la nova.",
+    "emailTitle": "Correu electrònic",
+    "emailBody": "Ara fas servir {email}. T'enviarem un enllaç per confirmar el nou correu; el canvi no s'aplica fins que el confirmis.",
+    "newEmail": "Nou correu electrònic",
+    "changeEmailSubmit": "Canvia el correu",
+    "emailChangeSent": "T'hem enviat un enllaç de confirmació. Revisa la safata (també la del correu actual) i prem l'enllaç per completar el canvi."
   },
   "landingNotice": {
     "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."
@@ -567,7 +566,21 @@
       "matrix": "Forma: {shape, select, const {la mateixa a totes les caselles} row {canvia d'una fila a una altra} col {canvia d'una columna a una altra} latin {cada fila i cada columna té les tres formes} other {}}. Nombre: {count, select, const {el mateix a totes} row {canvia per files} col {canvia per columnes} latin {cada fila i columna té 1, 2 i 3} other {}}. Farciment: {fill, select, const {el mateix a totes} row {canvia per files} col {canvia per columnes} latin {cada fila i columna té els tres farciments} other {}}. Gir: {rot, select, const {no canvia} row {canvia per files} col {canvia per columnes} latin {cada fila i columna té tres girs diferents} other {}}.",
       "spatial_rotation": "La resposta correcta és la peça original girada {deg}°. Les altres són la seva imatge en un mirall (caldria girar-les del revés) o peces diferents.",
       "attention_count": "«{target}» apareix {answer} vegades. Fixa't bé en els símbols semblants.",
-      "attention_pairs": "Hi ha {answer} parelles idèntiques. A les altres canvia o s'intercanvia alguna xifra."
+      "attention_pairs": "Hi ha {answer} parelles idèntiques. A les altres canvia o s'intercanvia alguna xifra.",
+      "percentages_discount": "{price} × (100 − {d}) / 100 = {answer}.",
+      "percentages_increase": "{price} × (100 + {d}) / 100 = {answer}.",
+      "percentages_absent": "Hi assisteixen {n} × {p} / 100; falten la resta: {answer}.",
+      "percentages_fractions": "Queden ({den} − {a} − {b})/{den} de {n} = {answer}.",
+      "percentages_share": "La resta són {n} − {k} treballadors; ({n} − {k}) / {n} × 100 = {answer}.",
+      "equations": "Es treuen els parèntesis, es passen les x a un costat i els números a l'altre, i es divideix: x = {answer}.",
+      "probability": "Casos favorables entre casos possibles: {fav} / {total} × 100 = {answer}.",
+      "codes": "Es separa el número en blocs de 4 xifres i es tradueix cada bloc: {answer}.",
+      "tables_sum_max": "Sumant la columna de cada grup, el total més alt és el de {answer}.",
+      "tables_avg_max": "Dividint la suma de cada grup pel seu nombre de files, la mitjana més alta és la de {answer}.",
+      "tables_share": "Suma del grup entre la suma total, per 100: {answer}.",
+      "tables_ratio_group": "Suma del numerador entre suma del denominador a cada grup: el més alt és {answer}.",
+      "tables_ratio_row": "Calculant el quocient de cada fila, el més alt és el de {answer}.",
+      "tables_filter": "Només {answer} compleix les tres condicions alhora."
     },
     "demoNotSaved": "Els resultats de la demostració no es desen.",
     "ctaPractice": "Anar a la meva pràctica",
@@ -616,6 +629,31 @@
         "name": "Atenció i concentració",
         "prompt": "Respon amb precisió.",
         "description": "Recompte de símbols i detecció de diferències."
+      },
+      "percentages": {
+        "name": "Percentatges i fraccions",
+        "prompt": "Resol el problema.",
+        "description": "Descomptes, apujades, assistència i parts d'un total, amb imports en euros."
+      },
+      "equations": {
+        "name": "Equacions",
+        "prompt": "Troba el valor de x.",
+        "description": "Equacions de primer grau amb parèntesis, com a l'examen de l'AGE."
+      },
+      "probability": {
+        "name": "Probabilitat",
+        "prompt": "Calcula la probabilitat.",
+        "description": "Casos favorables entre casos possibles, en percentatge."
+      },
+      "codes": {
+        "name": "Codificació",
+        "prompt": "Tradueix el codi.",
+        "description": "Equivalències entre lletres i codis binaris."
+      },
+      "tables": {
+        "name": "Interpretació de taules",
+        "prompt": "Respon segons la taula.",
+        "description": "Sumes, mitjanes, percentatges i filtres sobre una taula de dades."
       },
       "question": {
         "name": "Preguntes de temari"
@@ -702,7 +740,41 @@
       "regadera": "regadora",
       "regar": "regar",
       "peine": "pinta",
-      "peinar": "pentinar"
+      "peinar": "pentinar",
+      "tbl_trips": "Desplaçaments",
+      "tbl_loans": "Préstecs",
+      "col_project": "Projecte",
+      "col_department": "Departament",
+      "col_office": "Oficina",
+      "col_days": "Dies",
+      "col_km": "Quilòmetres",
+      "col_tolls": "Peatges (€)",
+      "col_title": "Títol",
+      "col_publisher": "Editorial",
+      "col_city": "Lloc d'edició",
+      "col_year": "Any",
+      "col_available": "Exemplars disponibles",
+      "col_lent": "Exemplars prestats",
+      "col_loans": "Préstecs fets",
+      "cat_project": "projecte",
+      "cat_department": "departament",
+      "cat_office": "oficina",
+      "cat_publisher": "editorial",
+      "cat_city": "lloc d'edició",
+      "cat_title": "títol",
+      "num_days": "dies de durada",
+      "num_km": "quilòmetres",
+      "num_tolls": "euros de peatge",
+      "num_available": "exemplars disponibles",
+      "num_lent": "exemplars prestats",
+      "num_loans": "préstecs fets",
+      "unit_km": "quilòmetre",
+      "unit_available": "exemplar disponible",
+      "dep_admin": "Administració",
+      "dep_marketing": "Màrqueting",
+      "dep_tech": "Tècnic",
+      "dep_sales": "Comercial",
+      "unit_loans": "préstec fet"
     },
     "shapes": {
       "circle": "cercle",
@@ -730,7 +802,25 @@
       "numeric_average": "La mitjana de {k} nombres és {m}. Si s'hi afegeix el nombre {x}, quina és la nova mitjana?",
       "numeric_mixture": "Es barregen {q1} kg de cafè de {p1} €/kg amb {q2} kg de cafè de {p2} €/kg. A quants euros surt el kg de la barreja?",
       "attention_count": "Quantes vegades apareix «{target}» al requadre?",
-      "attention_pairs": "Quantes parelles estan formades per dos codis exactament iguals?"
+      "attention_pairs": "Quantes parelles estan formades per dos codis exactament iguals?",
+      "percentages_discount": "Si hi ha un {d} % de descompte en un producte que originalment costa {price} €, quin import es pagarà un cop aplicat el descompte?",
+      "percentages_increase": "Hem estat pagant {price} € al mes per un servei i aquest mes el preu puja un {d} %. Quin import pagarem un cop aplicada l'apujada?",
+      "percentages_absent": "De les {n} persones inscrites en una jornada, només n'assisteix el {p} %. Quantes persones inscrites hi han faltat?",
+      "percentages_fractions": "Cal preparar {n} paquets. El primer dia se'n preparen {a}/{den} del total i el segon dia {b}/{den} del total. Quants paquets queden per preparar?",
+      "percentages_share": "Una oficina té {n} treballadors i {k} treballen al departament comercial. Quin percentatge representen els treballadors de la resta de departaments?",
+      "equations": "Troba el valor de x en l'equació següent: {expr}",
+      "probability_balls_red": "En una bossa hi ha {r} boles vermelles, {g} verdes i {b} blaves. Si se'n treu una a l'atzar, quina probabilitat hi ha que sigui vermella?",
+      "probability_balls_green": "En una bossa hi ha {r} boles vermelles, {g} verdes i {b} blaves. Si se'n treu una a l'atzar, quina probabilitat hi ha que sigui verda?",
+      "probability_balls_blue": "En una bossa hi ha {r} boles vermelles, {g} verdes i {b} blaves. Si se'n treu una a l'atzar, quina probabilitat hi ha que sigui blava?",
+      "probability_raffle_laptop": "Se sortegen {m} telèfons mòbils, {t} tauletes i {l, plural, one {# ordinador portàtil} other {# ordinadors portàtils}} entre les persones d'un grup, i cadascuna rep un objecte. Quina probabilitat hi ha que et toqui un ordinador portàtil?",
+      "probability_raffle_tablet": "Se sortegen {m} telèfons mòbils, {t} tauletes i {l, plural, one {# ordinador portàtil} other {# ordinadors portàtils}} entre les persones d'un grup, i cadascuna rep un objecte. Quina probabilitat hi ha que et toqui una tauleta?",
+      "codes": "Donades les equivalències {map}, quina sèrie de lletres correspon a la sèrie de números {code}?",
+      "tables_sum_max": "Segons la taula «{table}», quin {catName} acumula un total més alt de {numName}?",
+      "tables_avg_max": "Segons la taula «{table}», quin {catName} té una mitjana més alta de {numName}?",
+      "tables_share": "Segons la taula «{table}», quin percentatge del total de {numName} correspon a {catName} «{value}»?",
+      "tables_ratio_group": "Segons la taula «{table}», quin {catName} té més {numName} per {denUnit}, sumant totes les seves files?",
+      "tables_ratio_row": "Segons la taula «{table}», quin {labelName} té un percentatge més alt de {numName} respecte a {denName}?",
+      "tables_filter": "Segons la taula «{table}», quin {labelName} és de {catName} «{value}», es va publicar després de {y} i té més de {k} {numName}?"
     },
     "shapesPlural": {
       "circle": "cercles",
@@ -969,7 +1059,25 @@
       "confirm": "Confirmo que aprovo i publico totes les preguntes pendents, i els paquets i simulacres que les fan servir.",
       "button": "Aprovar i publicar-ho tot",
       "working": "Publicant…",
-      "done": "Fet: {questions} preguntes i {products} productes publicats."
+      "done": "Fet: {questions} preguntes, {notes} fitxes i {products} productes publicats."
+    },
+    "navNotes": "Fitxes d’estudi",
+    "notes": {
+      "title": "Fitxes d’estudi",
+      "subtitle": "Índex, «Idees força» i glossari de cada tema, extrets literalment de la guia oficial i comprovats contra el text. Revisa-les i publica-les: l’alumnat només veu les publicades.",
+      "counts": "{total} fitxes · {pending} pendents · {published} publicades",
+      "empty": "No hi ha fitxes carregades.",
+      "hasAmendments": "Amb esmenes",
+      "summary": "{sections} apartats · {ideas} idees clau · {terms} termes",
+      "confirmOne": "Confirmo que he revisat aquesta fitxa",
+      "confirmAll": "Confirmo que aprovo i publico les {count} fitxes pendents",
+      "button_approved": "Aprovar fitxa",
+      "button_published": "Publicar fitxa",
+      "button_both": "Aprovar i publicar-les totes",
+      "working": "Desant…",
+      "done_approved": "Fitxa aprovada.",
+      "done_published": "Fitxa publicada.",
+      "done_both": "{count, plural, one {# fitxa publicada} other {# fitxes publicades}}."
     }
   },
   "store": {
@@ -1090,7 +1198,7 @@
       "empty": "Encara no tens productes.",
       "emptyBody": "Quan la botiga obri podràs comprar paquets, simulacres i PDF, o activar Premium. Mentrestant pots practicar psicotècnics gratis.",
       "practice": "Practicar psicotècnics",
-      "premiumTitle": "Aprobia Premium",
+      "premiumTitle": "OPOSAPRUEBA Premium",
       "premiumBody": "Accés a tot el contingut inclòs a Premium per {price} al mes. Molt aviat.",
       "soon": "Properament",
       "until": "Fins al {date}",
@@ -1121,7 +1229,8 @@
       "lockedSubtitle": "Pots veure què inclou la teva oposició. Per practicar-ho necessites Premium o comprar el pack.",
       "lockedBadge": "Premium",
       "paidBadge": "De pagament",
-      "lockedCta": "Veure què inclou"
+      "lockedCta": "Veure què inclou",
+      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part"
     }
   },
   "questions": {
@@ -1178,7 +1287,16 @@
     "again": "Tornar als meus productes",
     "toProgress": "Veure el meu progrés",
     "itemsTitle": "Correcció",
-    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Quan s'acabi el temps s'entrega sol."
+    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Quan s'acabi el temps s'entrega sol.",
+    "partTitle": "Part {part}",
+    "partDetail": "Directa {direct, number} de {valid} (tall {cut, number}) · qualificació {grade, number} / 50",
+    "partPassed": "Superada",
+    "partFailed": "No superada",
+    "partSyllabus": "Part {part} · temari",
+    "partPsycho": "Part {part} · psicotècnics",
+    "sectionsDisclaimer": "Tall de cada part: l'últim publicat pel tribunal. La qualificació de cada part va de 0 a 50 (25 al tall) i se sumen.",
+    "sectionsPassed": "Superat: totes les parts arriben al tall",
+    "sectionsFailed": "No superat: alguna part no arriba al tall"
   },
   "plan": {
     "title": "El meu pla d'estudi",
@@ -1264,12 +1382,103 @@
       "plan": "El pla setmanal et diu cada setmana quins temes i simulacres toquen",
       "cta": "Pagament aviat",
       "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment.",
+      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part",
       "buy": "Comprar el pack · {price}",
       "buyPremium": "Fes-te Premium"
     },
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",
     "sourceNote": "Preguntes redactades per nosaltres a partir de la Guia d'estudi oficial. No som una acadèmia oficial ni copiem exàmens."
+  },
+  "notes": {
+    "title": "Temari",
+    "subtitle": "Fitxes d’estudi de {exam}: índex, idees clau i glossari de cada tema, tal com apareixen a la font oficial (guia o BOE).",
+    "area": "Àmbit {area}",
+    "block": "Bloc {area}",
+    "ideasCount": "{count, plural, one {# idea clau} other {# idees clau}}",
+    "pages": "pàgs. {from}-{to}",
+    "page": "pàg. {page}",
+    "emptyTitle": "Encara no hi ha fitxes",
+    "empty": "Les fitxes de la teva oposició apareixeran aquí tan bon punt estiguin revisades.",
+    "emptyNoTarget": "Tria la teva oposició per veure’n el temari.",
+    "emptyCta": "Triar oposició",
+    "literalNotice": "Text copiat literalment de la font oficial, en la seva llengua original. Per estudiar a fons, llegeix el tema complet a la font oficial.",
+    "back": "Tornar al temari",
+    "outline": "Índex del tema",
+    "keyIdeas": "Idees clau",
+    "glossary": "Glossari del tema",
+    "glossaryHint": "Termes que la guia destaca en aquest tema. Assegura’t de saber-los explicar.",
+    "amendments": "Correccions oficials a aquest tema",
+    "amendmentsSource": "Veure esmenes",
+    "sourceLine": "Font:",
+    "sourceFallback": "Font oficial",
+    "practiceCta": "Practicar amb preguntes",
+    "planCta": "Veure el meu pla"
+  },
+  "seo": {
+    "home": {
+      "title": "OPOSAPRUEBA · Tests d'oposicions, temari i psicotècnics en línia",
+      "description": "Prepara Mossos d'Esquadra i Auxiliar Administratiu de l'Estat amb tests de temari basats en fonts oficials, psicotècnics gratis i simulacres amb el format de l'examen."
+    },
+    "catalog": {
+      "title": "Catàleg d'oposicions: tests, temari i psicotècnics",
+      "description": "Oposicions que pots preparar a OPOSAPRUEBA, amb l'examen explicat, el temari oficial i enllaços a les fonts. Només marquem com a disponibles les que tenen contingut revisat."
+    },
+    "psycho": {
+      "title": "Tests psicotècnics en línia gratis per a oposicions",
+      "description": "12 tipus de psicotècnics gratis i sense registre: sèries, matrius, raonament espacial i numèric, taules, percentatges i més, amb dificultat creixent i la solució explicada."
+    },
+    "org": "Acadèmia digital independent per preparar oposicions a Espanya amb tests basats en fonts oficials, psicotècnics i simulacres. No està vinculada a cap organisme convocant.",
+    "home_crumb": "Inici",
+    "guide": {
+      "facts": "Dades clau de la convocatòria",
+      "parts": "Com és l'examen",
+      "calendar": "Dates",
+      "syllabus": "Temari",
+      "syllabusNote": "Temes que treballem amb preguntes i fitxes basades en el text oficial.",
+      "psycho": "Psicotècnics per a aquesta oposició",
+      "sources": "Fonts oficials consultades",
+      "faq": "Preguntes freqüents",
+      "verified": "Dades comprovades a les fonts oficials el {date}. OPOSAPRUEBA és una acadèmia independent i no està vinculada a l'organisme convocant: consulta sempre la convocatòria oficial."
+    },
+    "psychoType": {
+      "eyebrow": "Psicotècnic gratis",
+      "method": "Com resoldre'l",
+      "practice": "Practica ara",
+      "practiceNote": "10 exercicis generats al moment, amb dificultat creixent i la solució explicada. Sense registre.",
+      "exams": "Oposicions on es treballa",
+      "others": "Altres tipus de psicotècnic",
+      "faq": "Preguntes freqüents",
+      "hub": "Tots els psicotècnics",
+      "allTypes": "Tipus de psicotècnic",
+      "guide": "Guia del tipus"
+    },
+    "breadcrumbs": "Ruta de navegació"
+  },
+  "adminTraffic": {
+    "title": "Trànsit des de cercadors i IA",
+    "subtitle": "Visites que arriben des de cercadors, assistents d'IA i xarxes, i peticions de rastrejadors, en els últims 30 dies. Es compta la pàgina d'entrada, no les navegacions internes.",
+    "empty": "Encara no hi ha dades",
+    "emptyBody": "Els comptadors es comencen a omplir quan el web rep visites o el visiten els rastrejadors.",
+    "channel": {
+      "search": "Cercadors",
+      "ai": "IA",
+      "social": "Xarxes",
+      "referral": "Altres webs",
+      "direct": "Directe"
+    },
+    "bySource": "Visites per origen",
+    "byLanding": "Pàgines d'entrada des de cercadors i IA",
+    "crawlers": "Rastrejadors",
+    "crawledPaths": "Pàgines més rastrejades",
+    "source": "Origen",
+    "visits": "Visites",
+    "landing": "Pàgina · origen",
+    "crawler": "Rastrejador",
+    "requests": "Peticions",
+    "path": "Pàgina",
+    "privacy": "Comptadors agregats per dia, sense galetes, IP ni identificadors personals. Google no distingeix a l'origen les visites d'AI Overviews o del mode IA: compten com a «google». Les aplicacions d'IA que no envien origen apareixen com a «directe».",
+    "nav": "Trànsit"
   },
   "billing": {
     "consent": "Vull accedir ja al contingut i entenc que, en començar, perdo el dret de desistiment de 14 dies.",
