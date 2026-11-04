@@ -124,3 +124,9 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Decisión:** a petición de joel, la web usa un contenedor ancho (`.wrap`, hasta 1600 px). La portada anima cada sección al bajar con efectos variados, inspirados en speak.com. Se usa IntersectionObserver para las apariciones y scroll-driven animations para la deriva y el crecimiento de la franja. El diseño y el contenido de ADR-018 no cambian.
 **Motivo:** que la página no se vea siempre igual al recorrerla y aproveche las pantallas grandes.
 **Consecuencias:** `html` y `body` llevan `overflow-x: clip` para que los efectos laterales no generen scroll horizontal. Todo queda estático con «reducir movimiento».
+
+## ADR-025 · Dominio oposaprueba.com y correos con Resend (2026-11-04)
+
+**Decisión:** joel conectó `oposaprueba.com` (Cloudflare, DNS en gris) a Vercel y cambió `NEXT_PUBLIC_SITE_URL` y las URLs de Supabase Auth. Los correos de la web (confirmación, contraseña, enlaces) saldrán de `no-responder@oposaprueba.com` mediante el SMTP de Resend (gratis hasta 3.000 al mes, región UE). Las plantillas con la marca están en `supabase/email-templates/` y se pegan en el panel de Supabase. Los enlaces usan `/auth/confirm` con `token_hash`. Para el contacto, `hola@oposaprueba.com` reenvía a un Gmail con Cloudflare Email Routing.
+**Motivo:** el SMTP de serie de Supabase solo envía unos pocos correos por hora a direcciones del equipo, así que no sirve para alumnos reales.
+**Consecuencias:** los correos de promoción solo se enviarán a quien lo acepte de forma explícita y siempre con enlace de baja (LSSI y RGPD). Esa casilla y ese envío están pendientes. La web sigue protegida con `PREVIEW_PASSWORD`.

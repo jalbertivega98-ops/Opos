@@ -39,7 +39,7 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 
 1. Regresión completa + `npm run build`.
 2. Supabase: aplicar migraciones (`supabase db push`) — **autorización**.
-3. Auth: Site URL, Redirect URLs (`https://dominio/auth/callback`, `/auth/confirm`), SMTP propio, plantillas de email con `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=signup&next=/app/onboarding` (y `type=recovery&next=/restablecer`).
+3. Auth: Site URL, Redirect URLs (`https://dominio/auth/callback`, `/auth/confirm`), SMTP propio, plantillas de email de `supabase/email-templates/` (enlazan a `/auth/confirm` con `token_hash`; SMTP con Resend, ver su README).
 4. Variables en el proveedor; ningún secreto en el repo.
 5. Asignar `owner` a joel por SQL.
 6. Verificación post-despliegue: registro → email → onboarding → dashboard; login; recuperación; catálogo; admin.

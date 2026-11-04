@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OPOSAPRUEBA</title></head>
+<body style="margin:0;padding:0;background:#f4f6fa;font-family:Arial,Helvetica,sans-serif;color:#0b2545;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6fa;padding:24px 12px;">
+<tr><td align="center">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#ffffff;border:1px solid #dde3ec;border-radius:12px;">
+<tr><td style="background:#0b2545;border-radius:12px 12px 0 0;padding:18px 28px;">
+<span style="font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:bold;letter-spacing:1px;color:#ffffff;">OPOSAPRUEBA</span>
+</td></tr>
+<tr><td style="padding:28px;">
+{{ if eq (printf "%v" .Data.locale) "ca" }}
+<h1 style="margin:0 0 12px;font-family:Georgia,'Times New Roman',serif;font-size:22px;color:#0b2545;">Confirma el teu nou correu</h1>
+<p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#4a5a72;">Has demanat canviar el correu del teu compte d'OPOSAPRUEBA. Prem el botó per confirmar aquesta adreça.</p>
+<p style="margin:0 0 24px;"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=email_change&amp;next=/ca/app" style="display:inline-block;background:#0a7a70;color:#ffffff;text-decoration:none;font-weight:bold;font-size:15px;padding:12px 22px;border-radius:8px;">Confirmar el canvi</a></p>
+<p style="margin:0;font-size:13px;line-height:1.6;color:#4a5a72;">Si no has estat tu, pots ignorar aquest correu. L'enllaç caduca en poc temps.</p>
+{{ else }}
+<h1 style="margin:0 0 12px;font-family:Georgia,'Times New Roman',serif;font-size:22px;color:#0b2545;">Confirma tu nuevo correo</h1>
+<p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#4a5a72;">Has pedido cambiar el correo de tu cuenta de OPOSAPRUEBA. Pulsa el botón para confirmar esta dirección.</p>
+<p style="margin:0 0 24px;"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=email_change&amp;next=/app" style="display:inline-block;background:#0a7a70;color:#ffffff;text-decoration:none;font-weight:bold;font-size:15px;padding:12px 22px;border-radius:8px;">Confirmar el cambio</a></p>
+<p style="margin:0;font-size:13px;line-height:1.6;color:#4a5a72;">Si no has sido tú, puedes ignorar este correo. El enlace caduca en poco tiempo.</p>
+{{ end }}
+</td></tr>
+<tr><td style="border-top:1px solid #dde3ec;padding:16px 28px;font-size:12px;line-height:1.5;color:#4a5a72;">
+OPOSAPRUEBA · oposaprueba.com<br>Correo automático: no respondas a este mensaje. / Correu automàtic: no responguis aquest missatge.
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>
