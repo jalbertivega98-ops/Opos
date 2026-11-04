@@ -4,6 +4,13 @@
 
 ## Estado exacto
 
+### Pagos con Stripe en modo de pruebas (2026-11-03, rama `claude/project-thread-tdwb1x`, STO-008)
+
+- joel pidió que Claude lo hiciera todo. Código hecho y probado **sin cuenta de Stripe**. Todo en `docs/PAGOS.md` y ADR-027.
+- Migración `20261103000900_billing.sql` (+ `supabase/preview/11-pagos-stripe.sql`), `src/lib/billing/*`, `/api/stripe/webhook`, botones en `/oposiciones/[slug]` y `/app/productos`, portal «Gestionar suscripción».
+- Pendiente de joel: crear la cuenta de Stripe (modo de pruebas), poner `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, guardar el portal de clientes, fijar precios y publicar Premium en `/admin/productos`.
+- Cobros reales: NO. Requieren autorización expresa, datos fiscales del titular (DEC-004) y textos legales revisados.
+
 ### SEO y GEO (2026-11-04, rama `claude/project-thread-h5od90`, MKT-002, ADR-025)
 
 - joel pidió una auditoría SEO/GEO completa sin cambiar funciones. Guía de mantenimiento en `docs/SEO.md`.
@@ -57,7 +64,7 @@
   - Actualizar los cortes cuando salga una convocatoria nueva.
   - Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
 
-### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
+### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-027)
 
 - joel preguntó qué más se podía añadir a Mossos antes de abrir otras oposiciones. Lista priorizada que se le propuso:
   1. Fichas de estudio (hecho).

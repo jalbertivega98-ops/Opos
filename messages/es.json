@@ -1382,7 +1382,9 @@
       "plan": "El plan semanal te dice cada semana qué temas y simulacros tocan",
       "cta": "Pago próximamente",
       "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente.",
-      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte"
+      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte",
+      "buy": "Comprar el pack · {price}",
+      "buyPremium": "Hazte Premium"
     },
     "topicsTitle": "Ver los {count} temas incluidos",
     "topicQuestions": "{count} preg.",
@@ -1477,5 +1479,32 @@
     "path": "Página",
     "privacy": "Contadores agregados por día, sin cookies, IP ni identificadores personales. Google no distingue en el origen las visitas de AI Overviews o del modo IA: cuentan como «google». Las aplicaciones de IA que no envían origen aparecen como «directo».",
     "nav": "Tráfico"
+  },
+  "billing": {
+    "consent": "Quiero acceder ya al contenido y entiendo que, al empezar, pierdo el derecho de desistimiento de 14 días.",
+    "terms": "Condiciones",
+    "redirecting": "Abriendo el pago…",
+    "testNote": "Modo de pruebas: no se cobra nada. Usa la tarjeta 4242 4242 4242 4242.",
+    "secureNote": "Pago seguro con Stripe. No guardamos los datos de tu tarjeta.",
+    "buy": "Comprar · {price}",
+    "buyPremium": "Hazte Premium",
+    "premiumBody": "Acceso a todo el contenido incluido en Premium por {price} al mes. Cancela cuando quieras.",
+    "active": "Tu suscripción Premium está activa.",
+    "renewsOn": "Premium activo. Se renueva el {date}.",
+    "endsOn": "Premium cancelado: lo tienes hasta el {date}.",
+    "pastDue": "No hemos podido cobrar la renovación. Actualiza tu tarjeta para no perder Premium.",
+    "manage": "Gestionar suscripción",
+    "notices": {
+      "ok": "¡Pago completado! Ya tienes acceso.",
+      "pendiente": "Estamos confirmando el pago. En unos segundos tendrás acceso; recarga la página.",
+      "cancelada": "Has cancelado el pago. No se ha cobrado nada.",
+      "consentimiento": "Para comprar tienes que marcar la casilla de acceso inmediato.",
+      "error": "No se ha podido abrir el pago. Inténtalo de nuevo en unos minutos.",
+      "desactivada": "Los pagos aún no están activos.",
+      "no-disponible": "Ese producto no está a la venta ahora mismo.",
+      "ya-lo-tienes": "Ya tienes acceso a ese producto.",
+      "ya-premium": "Ya eres Premium.",
+      "portal-error": "No se ha podido abrir la gestión de la suscripción. Inténtalo más tarde."
+    }
   }
 }

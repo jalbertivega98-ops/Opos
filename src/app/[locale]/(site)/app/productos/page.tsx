@@ -6,7 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
-import { examOffer, myLibrary, premiumPrice } from "@/lib/store/queries";
+import { examOffer, myLibrary, mySubscription, premiumInfo } from "@/lib/store/queries";
+import { billingStatus, confirmCheckout, hasBillingAccount } from "@/lib/billing/queries";
+import { openBillingPortalAction } from "@/lib/billing/actions";
+import { BuyForm } from "@/components/billing/buy-form";
+import { SubmitButton } from "@/components/billing/submit-button";
+import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
 import { getPrimaryExamSlug } from "@/lib/learning/plan-queries";
 import { formatPrice } from "@/lib/store/schema";
 import { Alert } from "@/components/ui/form";
@@ -34,15 +39,27 @@ export default async function LibraryPage({
       ? sp.error
       : null;
   setRequestLocale(locale);
-  await requireUser(locale, "/app/productos");
+  const { user } = await requireUser(locale, "/app/productos");
   const t = await getTranslations("store");
+  const tb = await getTranslations("billing");
   const format = await getFormatter();
-  const [items, price, attempts, examSlug] = await Promise.all([
+  // Vuelta de Stripe: se confirma la compra aquí mismo (sin esperar al webhook)
+  let notice = parseCheckoutNotice(sp.compra);
+  if (notice === "ok") {
+    const sessionId = typeof sp.session_id === "string" ? sp.session_id : "";
+    const confirmed = await confirmCheckout(sessionId, user.id);
+    notice = confirmed === "ok" ? "ok" : confirmed === "pending" ? "pendiente" : null;
+  }
+  const billing = billingStatus();
+  const [items, premium, attempts, examSlug, subscription, isCustomer] = await Promise.all([
     myLibrary(),
-    premiumPrice(),
+    premiumInfo(),
     myMockAttempts(5),
     getPrimaryExamSlug(),
+    mySubscription(user.id),
+    hasBillingAccount(user.id),
   ]);
+  const price = premium.cents;
   // Lo de pago de su oposición que aún no tiene: se ve, con candado, y lleva a «Qué incluye».
   const offer = examSlug ? await examOffer(examSlug) : null;
   const owned = new Set(items.map((it) => it.slug));
@@ -58,6 +75,7 @@ export default async function LibraryPage({
         <p className="text-muted-foreground mt-1">{t("library.subtitle")}</p>
       </div>
       {errorKey && <Alert tone="error">{t(`library.errors.${errorKey}` as never)}</Alert>}
+      <CheckoutNoticeAlert notice={notice} />
       {items.length === 0 ? (
         <EmptyState
           title={t("library.empty")}
@@ -182,9 +200,20 @@ export default async function LibraryPage({
                         <Badge>{t("library.questionsCount", { count: p.questions })}</Badge>
                       )}
                     </div>
-                    <Button asChild variant="outline" size="sm" className="mt-2">
-                      <Link href={`/oposiciones/${examSlug}`}>{t("library.lockedCta")}</Link>
-                    </Button>
+                    {billing.enabled && p.price && !p.price.interval ? (
+                      <BuyForm
+                        slug={p.slug}
+                        back="/app/productos"
+                        size="sm"
+                        className="mt-2"
+                        testMode={billing.testMode}
+                        label={tb("buy", { price: formatPrice(p.price.amount_cents, locale) })}
+                      />
+                    ) : (
+                      <Button asChild variant="outline" size="sm" className="mt-2">
+                        <Link href={`/oposiciones/${examSlug}`}>{t("library.lockedCta")}</Link>
+                      </Button>
+                    )}
                   </div>
                 </Card>
               </li>
@@ -224,18 +253,59 @@ export default async function LibraryPage({
           </ul>
         </section>
       )}
-      {price !== null && (
-        <Card className="border-accent flex flex-wrap items-center justify-between gap-4">
+      {subscription ? (
+        <Card
+          className="border-accent flex flex-wrap items-center justify-between gap-4"
+          data-testid="premium-active"
+        >
           <div>
             <h2 className="font-semibold">{t("library.premiumTitle")}</h2>
             <p className="text-muted-foreground text-sm">
-              {t("library.premiumBody", { price: formatPrice(price, locale) })}
+              {subscription.status === "past_due"
+                ? tb("pastDue")
+                : subscription.current_period_end
+                  ? tb(subscription.cancel_at_period_end ? "endsOn" : "renewsOn", {
+                      date: format.dateTime(new Date(subscription.current_period_end), {
+                        dateStyle: "long",
+                      }),
+                    })
+                  : tb("active")}
             </p>
           </div>
-          <Button variant="accent" disabled>
-            {t("library.soon")}
-          </Button>
+          {isCustomer && (
+            <form action={openBillingPortalAction}>
+              <SubmitButton variant="outline" pendingLabel={tb("redirecting")}>
+                {tb("manage")}
+              </SubmitButton>
+            </form>
+          )}
         </Card>
+      ) : (
+        price !== null && (
+          <Card className="border-accent flex flex-wrap items-center justify-between gap-4">
+            <div className="min-w-0 flex-1 basis-64">
+              <h2 className="font-semibold">{t("library.premiumTitle")}</h2>
+              <p className="text-muted-foreground text-sm">
+                {billing.enabled && premium.published
+                  ? tb("premiumBody", { price: formatPrice(price, locale) })
+                  : t("library.premiumBody", { price: formatPrice(price, locale) })}
+              </p>
+            </div>
+            {billing.enabled && premium.published ? (
+              <BuyForm
+                slug="premium"
+                back="/app/productos"
+                className="w-full sm:w-72"
+                testMode={billing.testMode}
+                label={tb("buyPremium")}
+              />
+            ) : (
+              <Button variant="accent" disabled>
+                {t("library.soon")}
+              </Button>
+            )}
+          </Card>
+        )
       )}
     </div>
   );

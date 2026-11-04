@@ -28,5 +28,11 @@ export default defineConfig({
         url: "http://localhost:3000",
         reuseExistingServer: true,
         timeout: 120_000,
+        // Stripe en modo de pruebas SIN cuenta: clave ficticia (Checkout falla de forma
+        // controlada) y secreto de webhook local para firmar avisos en tests/e2e/billing.
+        env: {
+          STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY ?? "sk_test_e2e_dummy",
+          STRIPE_WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET ?? "whsec_e2e_local",
+        },
       },
 });
