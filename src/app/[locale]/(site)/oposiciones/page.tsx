@@ -3,14 +3,24 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/ui/card";
 import { ExamCard } from "@/components/exam-card";
+import { pageMetadata } from "@/lib/seo/site";
 import { CATEGORIES, catalogFilterSchema, listExamBodies } from "@/lib/catalog/queries";
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: PageProps<"/[locale]/oposiciones">): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "catalog" });
-  return { title: t("title"), description: t("subtitle") };
+  const t = await getTranslations({ locale, namespace: "seo.catalog" });
+  const { q, category } = await searchParams;
+  // Las búsquedas y filtros apuntan al catálogo completo y no se indexan.
+  return pageMetadata({
+    path: "/oposiciones",
+    locale,
+    title: t("title"),
+    description: t("description"),
+    index: !q && !category,
+  });
 }
 
 export default async function CatalogPage({

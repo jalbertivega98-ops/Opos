@@ -1,7 +1,11 @@
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { AppNav } from "@/components/app-nav";
 import { requireUser } from "@/lib/auth/session";
+
+/** Zona privada o sin contenido para buscadores (ADR-025). */
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 /** Zona del alumno: comprobación de sesión en servidor (además del proxy). */
 export default async function AppLayout({
