@@ -23,8 +23,7 @@ async function shot(opts, storageState, url, name) {
   const p = await ctx.newPage();
   await p.goto(`${BASE}${url}`);
   await p.waitForLoadState("networkidle");
-  await p.addStyleTag({ content:
-      "nextjs-portal{display:none!important}[data-reveal]{opacity:1!important;transform:none!important}" });
+  await p.addStyleTag({ content: "nextjs-portal{display:none!important}" });
   await p.evaluate(() => window.scrollTo(0, 0));
   await p.waitForTimeout(400);
   await p.screenshot({ path: `${OUT}/${name}${sfx}.png`, fullPage: true });

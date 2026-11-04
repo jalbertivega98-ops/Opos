@@ -136,6 +136,30 @@
       "Fuentes oficiales citadas",
       "Contenido revisado por personas"
     ],
+    "sample": {
+      "badge": "Pruébalo aquí",
+      "title": "Así es un ejercicio",
+      "kind": "Series numéricas",
+      "progress": "Ejercicio 1 de 10",
+      "prompt": "¿Qué número continúa la serie?",
+      "seriesLabel": "Serie: {series} y un número desconocido",
+      "options": "Opciones de respuesta",
+      "right": "¡Correcto! La respuesta es 42.",
+      "wrong": "No es esa. La respuesta correcta es 42.",
+      "explanation": "Las diferencias crecen de 2 en 2: +4, +6, +8, +10… La siguiente es +12, así que 30 + 12 = 42.",
+      "retry": "Volver a intentarlo",
+      "hint": "Elige una opción: verás la corrección y la explicación al momento."
+    },
+    "preview": {
+      "title": "Tu progreso",
+      "note": "Vista de ejemplo",
+      "accuracy": "Aciertos de la semana y avance por bloque",
+      "rows": [
+        "Temario",
+        "Psicotécnicos",
+        "Simulacros"
+      ]
+    },
     "stepsEyebrow": "Cómo funciona",
     "stepsTitle": "Tres pasos y sabes qué hacer cada día",
     "stepsSubtitle": "Sin listas interminables: eliges tu oposición, recibes tu plan y entrenas lo que más lo necesita.",
@@ -155,6 +179,21 @@
     },
     "featuresEyebrow": "Qué puedes entrenar",
     "featuresSubtitle": "Cada herramienta tiene un objetivo claro y guarda tus resultados para que veas cómo avanzas.",
+    "minis": {
+      "source": "Fuente oficial",
+      "explanation": "Con explicación de la respuesta",
+      "plan": [
+        "Tema del temario · preguntas",
+        "Sesiones de psicotécnicos",
+        "Simulacro de la semana"
+      ],
+      "mock": [
+        "Mismo tiempo",
+        "Misma penalización",
+        "Mismo nº de preguntas"
+      ],
+      "review": "Repasar"
+    },
     "comingSoon": "Próximamente",
     "trustEyebrow": "Contenido fiable",
     "trustTitle": "Estudias lo que de verdad entra",
@@ -162,57 +201,7 @@
     "catalogEyebrow": "Catálogo",
     "pricingEyebrow": "Precios",
     "faqEyebrow": "Dudas",
-    "finalEyebrow": "Empieza hoy",
-    "picker": {
-      "label": "¿Qué quieres practicar?",
-      "demo": "Demostración",
-      "hint": "Toca una opción: verás si aciertas y por qué al momento.",
-      "error": "No hemos podido corregirlo. Inténtalo otra vez.",
-      "retry": "Volver a intentarlo",
-      "more": "Practicar más de este tipo",
-      "notSaved": "Ejercicio real del generador. Es una demostración: no se guarda en ninguna cuenta."
-    },
-    "tour": {
-      "example": "Vista de ejemplo · no son datos de ningún alumno",
-      "training": {
-        "label": "Entrenamiento",
-        "title": "Entrena como en el examen",
-        "body": "Test por tema, psicotécnicos y simulacros con la configuración de tu convocatoria, sin distracciones en pantalla."
-      },
-      "results": {
-        "label": "Resultados",
-        "title": "Cada fallo te enseña algo",
-        "body": "Al terminar ves tu nota, qué has fallado y por qué, con la referencia a la fuente oficial.",
-        "explained": "Explicación y fuente",
-        "explainedBody": "Cada pregunta indica la respuesta correcta, su explicación y de dónde sale."
-      },
-      "progress": {
-        "label": "Progreso",
-        "title": "Sabes cómo vas y qué toca hoy",
-        "body": "Tu plan semanal se ajusta a tus resultados y tus estadísticas te muestran dónde reforzar.",
-        "stats": "Estadísticas por tema",
-        "statsBody": "Aciertos por bloque y por tema, racha de días y evolución semanal."
-      },
-      "labels": {
-        "tablist": "Partes del producto",
-        "trainingHeader": "Test · Tema 3",
-        "blank": "Dejar en blanco",
-        "next": "Siguiente",
-        "resultsHeader": "Tu nota",
-        "passed": "Apto",
-        "toReview": "Al repaso",
-        "explanation": "Explicación de la respuesta",
-        "source": "Fuente oficial citada",
-        "progressHeader": "Aciertos de la semana",
-        "streak": "5 días",
-        "topicA": "Temario",
-        "topicB": "Psicotécnicos",
-        "topicC": "Simulacros"
-      }
-    },
-    "catalogUpcoming": "Se incorporarán próximamente",
-    "statQuestions": "Preguntas publicadas",
-    "statTopics": "Temas"
+    "finalEyebrow": "Empieza hoy"
   },
   "availability": {
     "available": "Disponible",
@@ -403,8 +392,7 @@
     "errorTitle": "No hemos podido cargar esta pantalla",
     "errorBody": "Puede ser un problema momentáneo de conexión. Tus datos no se han perdido.",
     "errorRetry": "Reintentar",
-    "loading": "Cargando tu panel…",
-    "reviewQuick": "Repasar {count, plural, one {mi error} other {mis # errores}}"
+    "loading": "Cargando tu panel…"
   },
   "onboarding": {
     "title": "Configura tu preparación",

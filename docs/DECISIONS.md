@@ -113,16 +113,8 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 (3) Nuevo `mock_exam` con `kind: "sections"`. Recibe `config.parts` (banco por prefijo de temas o psicotécnicos generados) y `config.cutoffs`. Se abre con `mock_start_sections` y `mock_submit` guarda `part_results`: directa, corte y calificación de 0 a 50 según la fórmula del INAP. Se supera si cada parte llega a su corte.
 **Consecuencias:** el pack de Auxiliar incluye el simulacro completo del ejercicio único (110 preguntas, 90 min, cortes de 2025: 29 y 21,33). Los cortes cambian cada año, así que hay que actualizarlos en el producto. Siguen pendientes las verbales, que necesitan un banco revisado con el DLE en el Chrome de joel.
 
-## ADR-023 · Marca OPOSAPRUEBA y portada interactiva (2026-11-04)
+## ADR-023 · Marca OPOSAPRUEBA y titulares con serifa (2026-11-04)
 
-**Decisión:** a petición de joel, la marca pasa de «Aprobia» a **OPOSAPRUEBA** en la interfaz, los títulos, los metadatos, el manifiesto, los correos locales y la documentación activa. Se mantienen los identificadores técnicos (`package.json`, el proyecto `aprobia-preview` de Supabase, los correos `@aprobia.test`, el dominio de Vercel y las migraciones). Nuevo logo de casilla marcada.
-La portada se rehace tomando como referencia la forma de presentar de speak.com, con una interpretación propia y la misma gama de colores:
-
-- Titular corto con una acción principal.
-- Un psicotécnico real resoluble en un marco de móvil, con selector de categoría.
-- Pestañas del producto (entrenamiento, resultados, progreso) que sustituyen al mosaico de funciones sin quitar ninguna.
-- Cifras reales del catálogo.
-- Aparición suave de las secciones.
-  El panel añade el acceso rápido al repaso de errores.
-  **Motivo:** que se pueda probar el producto en la portada en vez de leer sobre él.
-  **Consecuencias:** se retira el ejercicio estático de muestra (`exercise-sample.tsx`), sustituido por el selector. Las plantillas de correo y el nombre del remitente de Supabase cloud se cambian en su panel, fuera del repositorio. Queda pendiente verificar el registro de marca y el dominio (DEC-005).
+**Decisión:** a petición de joel, la marca pasa de «Aprobia» a **OPOSAPRUEBA** en la interfaz, los títulos, los metadatos, el manifiesto, los correos locales y la documentación activa. Se mantienen los identificadores técnicos (`package.json`, el proyecto `aprobia-preview` de Supabase, los correos `@aprobia.test`, el dominio de Vercel y las migraciones). Los titulares pasan a Source Serif 4 para un formato más serio. El diseño de ADR-018 se mantiene.
+**Motivo:** joel probó una portada más interactiva y prefirió el diseño anterior; solo quería el nombre nuevo y una letra más seria.
+**Consecuencias:** el nombre del remitente y las plantillas de correo de Supabase cloud se cambian en su panel, fuera del repositorio. Queda pendiente verificar el registro de marca y el dominio (DEC-005).

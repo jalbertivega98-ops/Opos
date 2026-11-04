@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -10,7 +10,7 @@ import { publicEnv } from "@/lib/env";
 import "../globals.css";
 
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
-const display = Plus_Jakarta_Sans({
+const display = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["600", "700", "800"],

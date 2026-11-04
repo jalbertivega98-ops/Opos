@@ -4,18 +4,11 @@
 
 ## Estado exacto
 
-### Marca OPOSAPRUEBA y portada interactiva (2026-11-04, rama `claude/project-thread-0diwv3`, UX-003, ADR-023)
+### Marca OPOSAPRUEBA y letra seria (2026-11-04, rama `claude/project-thread-0diwv3`, ADR-023)
 
-- joel pidió cambiar la marca a **OPOSAPRUEBA** y una portada más interactiva inspirada en speak.com/es.
-- **Marca:** cambiada en la interfaz, los metadatos, el manifiesto, los correos locales y la documentación activa. No se tocan identificadores técnicos ni migraciones. Nuevo logo de casilla marcada.
-- **Portada:**
-  - `PracticePicker`: un psicotécnico real por categoría, corregido en servidor y marcado «Demostración».
-  - `ProductTour`: pestañas de entrenamiento, resultados y progreso.
-  - Catálogo con cifras reales de `exam_offer`.
-  - Ilustraciones SVG propias y `Reveal`.
-- **Panel:** acceso rápido «Repasar mis N errores» en la tarjeta de continuar.
-- **Fuera del repositorio:** falta cambiar el nombre del remitente y las plantillas de correo de Supabase cloud en su panel.
-- **Siguiente:** visto bueno de joel y fusión. Después, UX-002 (resto de pantallas).
+- La marca pasa a **OPOSAPRUEBA** en la interfaz, los metadatos, el manifiesto, los correos locales y la documentación. Los titulares usan Source Serif 4.
+- Se probó una portada interactiva inspirada en speak.com (selector de psicotécnicos reales y pestañas del producto). joel prefirió el diseño anterior, así que se descartó: está en el commit f86e21e por si se recupera algo.
+- Falta cambiar el remitente y las plantillas de correo de Supabase cloud en su panel.
 
 ### Segunda oposición: Auxiliar Administrativo del Estado (2026-11-04, rama `claude/project-thread-mep42h`, CNT-012, ADR-020)
 
