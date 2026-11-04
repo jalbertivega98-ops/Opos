@@ -4,6 +4,19 @@
 
 ## Estado exacto
 
+### Marca OPOSAPRUEBA y portada interactiva (2026-11-04, rama `claude/project-thread-0diwv3`, UX-003, ADR-023)
+
+- joel pidió cambiar la marca a **OPOSAPRUEBA** y una portada más interactiva inspirada en speak.com/es.
+- **Marca:** cambiada en la interfaz, los metadatos, el manifiesto, los correos locales y la documentación activa. No se tocan identificadores técnicos ni migraciones. Nuevo logo de casilla marcada.
+- **Portada:**
+  - `PracticePicker`: un psicotécnico real por categoría, corregido en servidor y marcado «Demostración».
+  - `ProductTour`: pestañas de entrenamiento, resultados y progreso.
+  - Catálogo con cifras reales de `exam_offer`.
+  - Ilustraciones SVG propias y `Reveal`.
+- **Panel:** acceso rápido «Repasar mis N errores» en la tarjeta de continuar.
+- **Fuera del repositorio:** falta cambiar el nombre del remitente y las plantillas de correo de Supabase cloud en su panel.
+- **Siguiente:** visto bueno de joel y fusión. Después, UX-002 (resto de pantallas).
+
 ### Segunda oposición: Auxiliar Administrativo del Estado (2026-11-04, rama `claude/project-thread-mep42h`, CNT-012, ADR-020)
 
 - joel pidió la siguiente oposición con más clientes potenciales, hecha igual que Mossos, y **publicarla** cuando estuviera. Elegida por demanda estable y por encaje: 46.798-54.136 convocados al año, examen con 30 psicotécnicas y temario del BOE. Cifras y fuentes en `docs/research/auxiliar-estado-fuentes.md`.

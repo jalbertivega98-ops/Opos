@@ -36,7 +36,7 @@ Uso en Tailwind: `bg-primary`, `text-accent`, `bg-surface`, `border-border`… N
 - Formularios: label visible, ayuda bajo el campo, error con `role=alert`, botón deshabilitado mientras envía.
 - Estados: carga (Skeleton), vacío (EmptyState con acción), error (Alert).
 - Modo oscuro por clase (`next-themes`), por defecto el del sistema.
-- Movimiento: transiciones ≤ 200 ms, respeta `prefers-reduced-motion`.
+- Movimiento: transiciones ≤ 200 ms en controles (`.press`, escala 0,97 al pulsar), aparición de pestañas y resultados con `.animate-fade-up` (260 ms) y `.animate-pop`, y entrada de secciones de la portada con `Reveal` (500 ms, una sola vez). Con `prefers-reduced-motion` todo aparece sin animar. Nada se mueve solo: sin bucles, carruseles automáticos ni sonido.
 - Gamificación sobria: números, barras y logros con iconografía lineal; sin mascotas ni confeti.
 
 ## Identidad visual (rediseño 2026-11-03, ADR-018)
@@ -57,11 +57,16 @@ Idea: **cuaderno de estudio con método**. Tres recursos propios, usados con mod
 - `IconBadge` (icono lineal sobre fondo suave; tonos accent, highlight, ink, neutral, onInk).
 - `ProgressRing` (anillo SVG con `aria-label`), `Meter` (barra con `role=progressbar`), `DayBars` (barras por día con tabla oculta para lectores de pantalla).
 - `AppNav` (navegación del alumno con iconos y sección activa `aria-current`).
-- Vistas del producto en la portada: ejercicio de muestra interactivo (`landing/exercise-sample.tsx`, no guarda nada) y esquemas de pregunta/matriz sin contenido real. Los valores de ejemplo se marcan «Vista de ejemplo».
+- Portada interactiva (ADR-023):
+  - `landing/practice-picker.tsx`: selector «¿Qué quieres practicar?» con un psicotécnico **real** por categoría, generado en servidor y corregido con `checkDemoAnswer`. Va en un marco de móvil con la etiqueta «Demostración» y no se guarda en ninguna cuenta.
+  - `landing/product-tour.tsx`: pestañas Entrenamiento / Resultados / Progreso (ARIA tabs, flechas, Inicio y Fin). Cada vista esquemática lleva «Vista de ejemplo · no son datos de ningún alumno».
+  - Catálogo: las oposiciones con contenido muestran cifras reales publicadas (`exam_offer`); las demás, en una lista de «próximamente».
+  - Ilustraciones propias en SVG (trazos de cuaderno, camino de los tres pasos), decorativas (`aria-hidden`).
+- Las pantallas de ejercicio no usan estas animaciones ni decoración: solo el enunciado, las opciones y la corrección.
 
 ### Panel del alumno: dos niveles
 
-1. Nivel 1: «Continuar practicando» (práctica a medias → siguiente tarea del plan → psicotécnicos), progreso de 7 días, repaso de errores y plan de la semana.
+1. Nivel 1: «Continuar practicando» (práctica a medias → siguiente tarea del plan → psicotécnicos) con acceso rápido «Repasar mis N errores» cuando hay pendientes, progreso de 7 días, repaso de errores y plan de la semana.
 2. Nivel 2 («Más opciones», tarjetas `surface` pequeñas): mis oposiciones, actividad reciente, accesos a práctica, productos y perfil.
 
 Estados: carga (`app/loading.tsx`, esqueleto con la misma estructura), error (`app/error.tsx`, con reintentar) y vacío (texto que explica qué hacer para que aparezcan datos).
@@ -72,4 +77,4 @@ Tarjetas principales `rounded-3xl p-6/8`, secundarias `rounded-2xl p-5`, control
 
 ## Marca
 
-Logo provisional: monograma "A" en cuadrado marino con barra turquesa (src/components/logo.tsx). Sin escudos, placas, uniformes ni logotipos oficiales.
+**OPOSAPRUEBA** (antes «Aprobia», ADR-023). Logo (`src/components/logo.tsx`, `src/app/icon.svg`): casilla marcada en amarillo marcador dentro de un cuadrado marino, el «apto» de quien entrena con método. Palabra en dos tonos: «OPOS» en tinta y «APRUEBA» en turquesa. En móvil el logo baja a 15 px para que la cabecera quepa en 390 px. Sin escudos, placas, uniformes ni logotipos oficiales.

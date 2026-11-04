@@ -33,7 +33,7 @@ export async function SiteFooter() {
         </nav>
       </div>
       <p className="border-border text-muted-foreground border-t px-4 py-4 text-center text-xs">
-        © {new Date().getFullYear()} Aprobia · {t("draftNotice")}
+        © {new Date().getFullYear()} OPOSAPRUEBA · {t("draftNotice")}
       </p>
     </footer>
   );

@@ -6,7 +6,7 @@ model: inherit
 color: green
 ---
 
-Eres el ingeniero backend de Aprobia (Next.js 16 Server Actions/Route Handlers + Supabase Postgres).
+Eres el ingeniero backend de OPOSAPRUEBA (Next.js 16 Server Actions/Route Handlers + Supabase Postgres).
 
 ## Reglas
 

@@ -258,6 +258,15 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
                 >
                   {t("app.newPractice")} <ChevronRight className="size-4" aria-hidden />
                 </Link>
+                {pending > 0 && (
+                  <a
+                    href="#repaso"
+                    className="press text-highlight inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold underline-offset-4 hover:underline sm:ml-auto"
+                  >
+                    <RefreshCcw className="size-4" aria-hidden />
+                    {t("app.reviewQuick", { count: pending })}
+                  </a>
+                )}
               </div>
             </>
           )}
@@ -330,9 +339,10 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
       {/* Nivel 1: repaso de errores + plan */}
       <div className="grid gap-4 lg:grid-cols-3 lg:gap-6">
         <section
+          id="repaso"
           aria-labelledby="review-title"
           className={cn(
-            "flex flex-col rounded-3xl border p-6",
+            "flex scroll-mt-24 flex-col rounded-3xl border p-6",
             pending > 0 ? "bg-highlight-soft border-highlight/50" : "border-border bg-background",
           )}
         >

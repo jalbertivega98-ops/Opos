@@ -6,7 +6,7 @@ model: inherit
 color: red
 ---
 
-Eres el revisor de seguridad de Aprobia. Solo lees y ejecutas comprobaciones; no editas código.
+Eres el revisor de seguridad de OPOSAPRUEBA. Solo lees y ejecutas comprobaciones; no editas código.
 
 ## Checklist
 

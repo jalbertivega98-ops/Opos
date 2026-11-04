@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Aprobia · Acadèmia digital d'oposicions",
+    "title": "OPOSAPRUEBA · Acadèmia digital d'oposicions",
     "description": "Prepara la teva oposició amb un pla d'estudi adaptatiu, tests, psicotècnics i simulacres des de qualsevol dispositiu."
   },
   "nav": {
@@ -136,30 +136,6 @@
       "Fonts oficials citades",
       "Contingut revisat per persones"
     ],
-    "sample": {
-      "badge": "Prova-ho aquí",
-      "title": "Així és un exercici",
-      "kind": "Sèries numèriques",
-      "progress": "Exercici 1 de 10",
-      "prompt": "Quin número continua la sèrie?",
-      "seriesLabel": "Sèrie: {series} i un número desconegut",
-      "options": "Opcions de resposta",
-      "right": "Correcte! La resposta és 42.",
-      "wrong": "No és aquesta. La resposta correcta és 42.",
-      "explanation": "Les diferències creixen de 2 en 2: +4, +6, +8, +10… La següent és +12, així que 30 + 12 = 42.",
-      "retry": "Torna-ho a provar",
-      "hint": "Tria una opció: veuràs la correcció i l'explicació al moment."
-    },
-    "preview": {
-      "title": "El teu progrés",
-      "note": "Vista d'exemple",
-      "accuracy": "Encerts de la setmana i avanç per bloc",
-      "rows": [
-        "Temari",
-        "Psicotècnics",
-        "Simulacres"
-      ]
-    },
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
     "stepsSubtitle": "Sense llistes interminables: tries la teva oposició, reps el teu pla i entrenes el que més ho necessita.",
@@ -179,21 +155,6 @@
     },
     "featuresEyebrow": "Què pots entrenar",
     "featuresSubtitle": "Cada eina té un objectiu clar i desa els teus resultats perquè vegis com avances.",
-    "minis": {
-      "source": "Font oficial",
-      "explanation": "Amb explicació de la resposta",
-      "plan": [
-        "Tema del temari · preguntes",
-        "Sessions de psicotècnics",
-        "Simulacre de la setmana"
-      ],
-      "mock": [
-        "Mateix temps",
-        "Mateixa penalització",
-        "Mateix nre. de preguntes"
-      ],
-      "review": "Repassar"
-    },
     "comingSoon": "Properament",
     "trustEyebrow": "Contingut fiable",
     "trustTitle": "Estudies el que de debò entra",
@@ -201,7 +162,57 @@
     "catalogEyebrow": "Catàleg",
     "pricingEyebrow": "Preus",
     "faqEyebrow": "Dubtes",
-    "finalEyebrow": "Comença avui"
+    "finalEyebrow": "Comença avui",
+    "picker": {
+      "label": "Què vols practicar?",
+      "demo": "Demostració",
+      "hint": "Toca una opció: veuràs si l'encertes i per què al moment.",
+      "error": "No l'hem pogut corregir. Torna-ho a provar.",
+      "retry": "Torna-ho a provar",
+      "more": "Practicar més d'aquest tipus",
+      "notSaved": "Exercici real del generador. És una demostració: no es desa en cap compte."
+    },
+    "tour": {
+      "example": "Vista d'exemple · no són dades de cap alumne",
+      "training": {
+        "label": "Entrenament",
+        "title": "Entrena com a l'examen",
+        "body": "Tests per tema, psicotècnics i simulacres amb la configuració de la teva convocatòria, sense distraccions a la pantalla."
+      },
+      "results": {
+        "label": "Resultats",
+        "title": "Cada error t'ensenya alguna cosa",
+        "body": "En acabar veus la teva nota, què has fallat i per què, amb la referència a la font oficial.",
+        "explained": "Explicació i font",
+        "explainedBody": "Cada pregunta indica la resposta correcta, la seva explicació i d'on surt."
+      },
+      "progress": {
+        "label": "Progrés",
+        "title": "Saps com vas i què toca avui",
+        "body": "El teu pla setmanal s'ajusta als teus resultats i les estadístiques et mostren on reforçar.",
+        "stats": "Estadístiques per tema",
+        "statsBody": "Encerts per bloc i per tema, ratxa de dies i evolució setmanal."
+      },
+      "labels": {
+        "tablist": "Parts del producte",
+        "trainingHeader": "Test · Tema 3",
+        "blank": "Deixar en blanc",
+        "next": "Següent",
+        "resultsHeader": "La teva nota",
+        "passed": "Apte",
+        "toReview": "Al repàs",
+        "explanation": "Explicació de la resposta",
+        "source": "Font oficial citada",
+        "progressHeader": "Encerts de la setmana",
+        "streak": "5 dies",
+        "topicA": "Temari",
+        "topicB": "Psicotècnics",
+        "topicC": "Simulacres"
+      }
+    },
+    "catalogUpcoming": "S'incorporaran properament",
+    "statQuestions": "Preguntes publicades",
+    "statTopics": "Temes"
   },
   "availability": {
     "available": "Disponible",
@@ -392,7 +403,8 @@
     "errorTitle": "No hem pogut carregar aquesta pantalla",
     "errorBody": "Pot ser un problema momentani de connexió. Les teves dades no s'han perdut.",
     "errorRetry": "Torna-ho a provar",
-    "loading": "Carregant el teu tauler…"
+    "loading": "Carregant el teu tauler…",
+    "reviewQuick": "Repassar {count, plural, one {el meu error} other {els meus # errors}}"
   },
   "onboarding": {
     "title": "Configura la teva preparació",
@@ -452,7 +464,7 @@
     "memberSince": "Alumne des del {date}",
     "personal": "Dades personals",
     "locale": "Idioma preferit",
-    "marketingConsent": "Vull rebre per correu novetats i consells d'Aprobia (ho pots retirar quan vulguis).",
+    "marketingConsent": "Vull rebre per correu novetats i consells d'OPOSAPRUEBA (ho pots retirar quan vulguis).",
     "save": "Desa els canvis",
     "saved": "Canvis desats.",
     "exportTitle": "Descarrega les meves dades",
@@ -1200,7 +1212,7 @@
       "empty": "Encara no tens productes.",
       "emptyBody": "Quan la botiga obri podràs comprar paquets, simulacres i PDF, o activar Premium. Mentrestant pots practicar psicotècnics gratis.",
       "practice": "Practicar psicotècnics",
-      "premiumTitle": "Aprobia Premium",
+      "premiumTitle": "OPOSAPRUEBA Premium",
       "premiumBody": "Accés a tot el contingut inclòs a Premium per {price} al mes. Molt aviat.",
       "soon": "Properament",
       "until": "Fins al {date}",

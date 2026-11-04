@@ -154,7 +154,65 @@
   }
 }
 
+/* Movimiento: suave, corto y solo como respuesta a lo que hace la persona. */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@layer utilities {
+  .animate-fade-up {
+    animation: fade-up 260ms ease-out both;
+  }
+  .animate-pop {
+    animation: pop 220ms ease-out;
+  }
+  /* Aparición al entrar en pantalla (componente Reveal). Sin JS, todo visible. */
+  [data-reveal="armed"] {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  [data-reveal="shown"] {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 500ms ease-out,
+      transform 500ms ease-out;
+  }
+  .press {
+    transition:
+      transform 120ms ease-out,
+      background-color 150ms,
+      border-color 150ms,
+      color 150ms;
+  }
+  .press:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  [data-reveal="armed"] {
+    opacity: 1;
+    transform: none;
+  }
+
   *,
   *::before,
   *::after {

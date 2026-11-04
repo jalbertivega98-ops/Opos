@@ -17,7 +17,7 @@ export function previewGate(request: NextRequest, password = process.env.PREVIEW
   return new NextResponse("Acceso restringido (preview privada)", {
     status: 401,
     headers: {
-      "WWW-Authenticate": 'Basic realm="Aprobia preview", charset="UTF-8"',
+      "WWW-Authenticate": 'Basic realm="OPOSAPRUEBA preview", charset="UTF-8"',
       "X-Robots-Tag": "noindex, nofollow",
     },
   });

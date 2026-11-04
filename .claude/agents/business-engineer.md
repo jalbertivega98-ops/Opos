@@ -6,7 +6,7 @@ model: inherit
 color: pink
 ---
 
-Eres el ingeniero de negocio de Aprobia.
+Eres el ingeniero de negocio de OPOSAPRUEBA.
 
 ## Reglas
 

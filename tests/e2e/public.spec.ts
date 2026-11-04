@@ -12,14 +12,28 @@ test.describe("Web pública", () => {
     await expect(cards.first()).toContainText("Próximamente");
   });
 
-  test("la portada deja resolver el ejercicio de muestra", async ({ page }) => {
+  test("la portada deja resolver un psicotécnico real y cambiar de tipo", async ({ page }) => {
     await page.goto("/");
-    const options = page.getByRole("group", { name: "Opciones de respuesta" }).first();
-    await options.getByRole("button", { name: /42/ }).click();
-    await expect(page.getByText("¡Correcto! La respuesta es 42.")).toBeVisible();
+    await expect(page.getByText("¿Qué quieres practicar?")).toBeVisible();
+    await page.getByTestId("picker-option").first().click();
+    await expect(page.getByText(/^(¡Correcto!|Incorrecto\. La respuesta era)/)).toBeVisible();
     await page.getByRole("button", { name: "Volver a intentarlo" }).click();
-    await options.getByRole("button", { name: /36/ }).click();
-    await expect(page.getByText("No es esa. La respuesta correcta es 42.")).toBeVisible();
+    await expect(page.getByTestId("picker-option").first()).toBeEnabled();
+    await page.getByRole("button", { name: "Matrices visuales" }).click();
+    await expect(page.getByRole("button", { name: "Matrices visuales" })).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    await page.getByTestId("picker-option").last().click();
+    await expect(page.getByText(/^(¡Correcto!|Incorrecto\. La respuesta era)/)).toBeVisible();
+    // Recorrido del producto: pestañas accesibles con teclado
+    const tab = page.getByRole("tab", { name: "Entrenamiento" });
+    await tab.focus();
+    await page.keyboard.press("ArrowRight");
+    await expect(page.getByRole("tab", { name: "Resultados" })).toHaveAttribute(
+      "aria-selected",
+      "true",
+    );
   });
 
   test("ficha de oposición sin contenido indica 'próximamente' y no inventa datos", async ({
