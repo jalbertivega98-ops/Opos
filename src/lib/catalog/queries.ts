@@ -100,3 +100,22 @@ export async function getExamBody(slug: string) {
 
 export const localized = (locale: string, es: string | null, ca: string | null) =>
   (locale === "ca" && ca) || es || "";
+
+/** Temas públicos de una oposición (tabla de lectura libre), en orden de temario. */
+export async function listExamTopics(examBodyId: string) {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("exam_body_topics")
+    .select("order_index, topic:topics(slug, title, title_ca)")
+    .eq("exam_body_id", examBodyId)
+    .returns<
+      {
+        order_index: number;
+        topic: { slug: string; title: string; title_ca: string | null } | null;
+      }[]
+    >();
+  if (error) throw new Error(`catalog: ${error.message}`);
+  return (data ?? [])
+    .flatMap((r) => (r.topic ? [{ ...r.topic, order: r.order_index }] : []))
+    .sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug));
+}
