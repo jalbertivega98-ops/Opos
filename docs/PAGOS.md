@@ -31,7 +31,7 @@ Premium: renovación, cancelación y pago fallido llegan como `customer.subscrip
 
 1. Crear cuenta en <https://dashboard.stripe.com/register> (solo email; para pruebas no hacen falta datos fiscales ni banco).
 2. Con **Modo de prueba** activado: _Desarrolladores → Claves de API_ → copiar la **clave secreta** `sk_test_…`.
-3. _Desarrolladores → Webhooks → Añadir destino_: URL `https://opos-indol.vercel.app/api/stripe/webhook`, eventos de la tabla de arriba → copiar el **secreto de firma** `whsec_…`.
+3. _Desarrolladores → Webhooks → Añadir destino_: URL `https://oposaprueba.com/api/stripe/webhook`, eventos de la tabla de arriba → copiar el **secreto de firma** `whsec_…`.
 4. _Configuración → Facturación → Portal de clientes_ → **Guardar** (activa el portal en pruebas).
 5. Vercel → proyecto → _Settings → Environment Variables_: `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` → **Redeploy**. Las claves no se pegan en el chat.
 6. En `/admin/productos`: precio y estado **Publicado** de cada producto que se vaya a vender (Premium incluido).
