@@ -568,7 +568,21 @@
       "matrix": "Forma: {shape, select, const {la mateixa a totes les caselles} row {canvia d'una fila a una altra} col {canvia d'una columna a una altra} latin {cada fila i cada columna té les tres formes} other {}}. Nombre: {count, select, const {el mateix a totes} row {canvia per files} col {canvia per columnes} latin {cada fila i columna té 1, 2 i 3} other {}}. Farciment: {fill, select, const {el mateix a totes} row {canvia per files} col {canvia per columnes} latin {cada fila i columna té els tres farciments} other {}}. Gir: {rot, select, const {no canvia} row {canvia per files} col {canvia per columnes} latin {cada fila i columna té tres girs diferents} other {}}.",
       "spatial_rotation": "La resposta correcta és la peça original girada {deg}°. Les altres són la seva imatge en un mirall (caldria girar-les del revés) o peces diferents.",
       "attention_count": "«{target}» apareix {answer} vegades. Fixa't bé en els símbols semblants.",
-      "attention_pairs": "Hi ha {answer} parelles idèntiques. A les altres canvia o s'intercanvia alguna xifra."
+      "attention_pairs": "Hi ha {answer} parelles idèntiques. A les altres canvia o s'intercanvia alguna xifra.",
+      "percentages_discount": "{price} × (100 − {d}) / 100 = {answer}.",
+      "percentages_increase": "{price} × (100 + {d}) / 100 = {answer}.",
+      "percentages_absent": "Hi assisteixen {n} × {p} / 100; falten la resta: {answer}.",
+      "percentages_fractions": "Queden ({den} − {a} − {b})/{den} de {n} = {answer}.",
+      "percentages_share": "La resta són {n} − {k} treballadors; ({n} − {k}) / {n} × 100 = {answer}.",
+      "equations": "Es treuen els parèntesis, es passen les x a un costat i els números a l'altre, i es divideix: x = {answer}.",
+      "probability": "Casos favorables entre casos possibles: {fav} / {total} × 100 = {answer}.",
+      "codes": "Es separa el número en blocs de 4 xifres i es tradueix cada bloc: {answer}.",
+      "tables_sum_max": "Sumant la columna de cada grup, el total més alt és el de {answer}.",
+      "tables_avg_max": "Dividint la suma de cada grup pel seu nombre de files, la mitjana més alta és la de {answer}.",
+      "tables_share": "Suma del grup entre la suma total, per 100: {answer}.",
+      "tables_ratio_group": "Suma del numerador entre suma del denominador a cada grup: el més alt és {answer}.",
+      "tables_ratio_row": "Calculant el quocient de cada fila, el més alt és el de {answer}.",
+      "tables_filter": "Només {answer} compleix les tres condicions alhora."
     },
     "demoNotSaved": "Els resultats de la demostració no es desen.",
     "ctaPractice": "Anar a la meva pràctica",
@@ -617,6 +631,31 @@
         "name": "Atenció i concentració",
         "prompt": "Respon amb precisió.",
         "description": "Recompte de símbols i detecció de diferències."
+      },
+      "percentages": {
+        "name": "Percentatges i fraccions",
+        "prompt": "Resol el problema.",
+        "description": "Descomptes, apujades, assistència i parts d'un total, amb imports en euros."
+      },
+      "equations": {
+        "name": "Equacions",
+        "prompt": "Troba el valor de x.",
+        "description": "Equacions de primer grau amb parèntesis, com a l'examen de l'AGE."
+      },
+      "probability": {
+        "name": "Probabilitat",
+        "prompt": "Calcula la probabilitat.",
+        "description": "Casos favorables entre casos possibles, en percentatge."
+      },
+      "codes": {
+        "name": "Codificació",
+        "prompt": "Tradueix el codi.",
+        "description": "Equivalències entre lletres i codis binaris."
+      },
+      "tables": {
+        "name": "Interpretació de taules",
+        "prompt": "Respon segons la taula.",
+        "description": "Sumes, mitjanes, percentatges i filtres sobre una taula de dades."
       },
       "question": {
         "name": "Preguntes de temari"
@@ -703,7 +742,41 @@
       "regadera": "regadora",
       "regar": "regar",
       "peine": "pinta",
-      "peinar": "pentinar"
+      "peinar": "pentinar",
+      "tbl_trips": "Desplaçaments",
+      "tbl_loans": "Préstecs",
+      "col_project": "Projecte",
+      "col_department": "Departament",
+      "col_office": "Oficina",
+      "col_days": "Dies",
+      "col_km": "Quilòmetres",
+      "col_tolls": "Peatges (€)",
+      "col_title": "Títol",
+      "col_publisher": "Editorial",
+      "col_city": "Lloc d'edició",
+      "col_year": "Any",
+      "col_available": "Exemplars disponibles",
+      "col_lent": "Exemplars prestats",
+      "col_loans": "Préstecs fets",
+      "cat_project": "projecte",
+      "cat_department": "departament",
+      "cat_office": "oficina",
+      "cat_publisher": "editorial",
+      "cat_city": "lloc d'edició",
+      "cat_title": "títol",
+      "num_days": "dies de durada",
+      "num_km": "quilòmetres",
+      "num_tolls": "euros de peatge",
+      "num_available": "exemplars disponibles",
+      "num_lent": "exemplars prestats",
+      "num_loans": "préstecs fets",
+      "unit_km": "quilòmetre",
+      "unit_available": "exemplar disponible",
+      "dep_admin": "Administració",
+      "dep_marketing": "Màrqueting",
+      "dep_tech": "Tècnic",
+      "dep_sales": "Comercial",
+      "unit_loans": "préstec fet"
     },
     "shapes": {
       "circle": "cercle",
@@ -731,7 +804,25 @@
       "numeric_average": "La mitjana de {k} nombres és {m}. Si s'hi afegeix el nombre {x}, quina és la nova mitjana?",
       "numeric_mixture": "Es barregen {q1} kg de cafè de {p1} €/kg amb {q2} kg de cafè de {p2} €/kg. A quants euros surt el kg de la barreja?",
       "attention_count": "Quantes vegades apareix «{target}» al requadre?",
-      "attention_pairs": "Quantes parelles estan formades per dos codis exactament iguals?"
+      "attention_pairs": "Quantes parelles estan formades per dos codis exactament iguals?",
+      "percentages_discount": "Si hi ha un {d} % de descompte en un producte que originalment costa {price} €, quin import es pagarà un cop aplicat el descompte?",
+      "percentages_increase": "Hem estat pagant {price} € al mes per un servei i aquest mes el preu puja un {d} %. Quin import pagarem un cop aplicada l'apujada?",
+      "percentages_absent": "De les {n} persones inscrites en una jornada, només n'assisteix el {p} %. Quantes persones inscrites hi han faltat?",
+      "percentages_fractions": "Cal preparar {n} paquets. El primer dia se'n preparen {a}/{den} del total i el segon dia {b}/{den} del total. Quants paquets queden per preparar?",
+      "percentages_share": "Una oficina té {n} treballadors i {k} treballen al departament comercial. Quin percentatge representen els treballadors de la resta de departaments?",
+      "equations": "Troba el valor de x en l'equació següent: {expr}",
+      "probability_balls_red": "En una bossa hi ha {r} boles vermelles, {g} verdes i {b} blaves. Si se'n treu una a l'atzar, quina probabilitat hi ha que sigui vermella?",
+      "probability_balls_green": "En una bossa hi ha {r} boles vermelles, {g} verdes i {b} blaves. Si se'n treu una a l'atzar, quina probabilitat hi ha que sigui verda?",
+      "probability_balls_blue": "En una bossa hi ha {r} boles vermelles, {g} verdes i {b} blaves. Si se'n treu una a l'atzar, quina probabilitat hi ha que sigui blava?",
+      "probability_raffle_laptop": "Se sortegen {m} telèfons mòbils, {t} tauletes i {l, plural, one {# ordinador portàtil} other {# ordinadors portàtils}} entre les persones d'un grup, i cadascuna rep un objecte. Quina probabilitat hi ha que et toqui un ordinador portàtil?",
+      "probability_raffle_tablet": "Se sortegen {m} telèfons mòbils, {t} tauletes i {l, plural, one {# ordinador portàtil} other {# ordinadors portàtils}} entre les persones d'un grup, i cadascuna rep un objecte. Quina probabilitat hi ha que et toqui una tauleta?",
+      "codes": "Donades les equivalències {map}, quina sèrie de lletres correspon a la sèrie de números {code}?",
+      "tables_sum_max": "Segons la taula «{table}», quin {catName} acumula un total més alt de {numName}?",
+      "tables_avg_max": "Segons la taula «{table}», quin {catName} té una mitjana més alta de {numName}?",
+      "tables_share": "Segons la taula «{table}», quin percentatge del total de {numName} correspon a {catName} «{value}»?",
+      "tables_ratio_group": "Segons la taula «{table}», quin {catName} té més {numName} per {denUnit}, sumant totes les seves files?",
+      "tables_ratio_row": "Segons la taula «{table}», quin {labelName} té un percentatge més alt de {numName} respecte a {denName}?",
+      "tables_filter": "Segons la taula «{table}», quin {labelName} és de {catName} «{value}», es va publicar després de {y} i té més de {k} {numName}?"
     },
     "shapesPlural": {
       "circle": "cercles",
@@ -1140,7 +1231,8 @@
       "lockedSubtitle": "Pots veure què inclou la teva oposició. Per practicar-ho necessites Premium o comprar el pack.",
       "lockedBadge": "Premium",
       "paidBadge": "De pagament",
-      "lockedCta": "Veure què inclou"
+      "lockedCta": "Veure què inclou",
+      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part"
     }
   },
   "questions": {
@@ -1197,7 +1289,16 @@
     "again": "Tornar als meus productes",
     "toProgress": "Veure el meu progrés",
     "itemsTitle": "Correcció",
-    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Quan s'acabi el temps s'entrega sol."
+    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Quan s'acabi el temps s'entrega sol.",
+    "partTitle": "Part {part}",
+    "partDetail": "Directa {direct, number} de {valid} (tall {cut, number}) · qualificació {grade, number} / 50",
+    "partPassed": "Superada",
+    "partFailed": "No superada",
+    "partSyllabus": "Part {part} · temari",
+    "partPsycho": "Part {part} · psicotècnics",
+    "sectionsDisclaimer": "Tall de cada part: l'últim publicat pel tribunal. La qualificació de cada part va de 0 a 50 (25 al tall) i se sumen.",
+    "sectionsPassed": "Superat: totes les parts arriben al tall",
+    "sectionsFailed": "No superat: alguna part no arriba al tall"
   },
   "plan": {
     "title": "El meu pla d'estudi",
@@ -1282,7 +1383,8 @@
       "review": "Repàs dels teus errors fins a dominar-los",
       "plan": "El pla setmanal et diu cada setmana quins temes i simulacres toquen",
       "cta": "Pagament aviat",
-      "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment."
+      "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment.",
+      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part"
     },
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",

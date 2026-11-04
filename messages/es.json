@@ -568,7 +568,21 @@
       "matrix": "Forma: {shape, select, const {la misma en todas las casillas} row {cambia de una fila a otra} col {cambia de una columna a otra} latin {cada fila y cada columna tiene las tres formas} other {}}. Número: {count, select, const {el mismo en todas} row {cambia por filas} col {cambia por columnas} latin {cada fila y columna tiene 1, 2 y 3} other {}}. Relleno: {fill, select, const {el mismo en todas} row {cambia por filas} col {cambia por columnas} latin {cada fila y columna tiene los tres rellenos} other {}}. Giro: {rot, select, const {no cambia} row {cambia por filas} col {cambia por columnas} latin {cada fila y columna tiene tres giros distintos} other {}}.",
       "spatial_rotation": "La respuesta correcta es la pieza original girada {deg}°. Las demás son su imagen en espejo (habría que darles la vuelta) o piezas diferentes.",
       "attention_count": "«{target}» aparece {answer} veces. Fíjate bien en los símbolos parecidos.",
-      "attention_pairs": "Hay {answer} parejas idénticas. En las demás cambia o se intercambia alguna cifra."
+      "attention_pairs": "Hay {answer} parejas idénticas. En las demás cambia o se intercambia alguna cifra.",
+      "percentages_discount": "{price} × (100 − {d}) / 100 = {answer}.",
+      "percentages_increase": "{price} × (100 + {d}) / 100 = {answer}.",
+      "percentages_absent": "Asisten {n} × {p} / 100; faltan el resto: {answer}.",
+      "percentages_fractions": "Quedan ({den} − {a} − {b})/{den} de {n} = {answer}.",
+      "percentages_share": "El resto son {n} − {k} empleados; ({n} − {k}) / {n} × 100 = {answer}.",
+      "equations": "Se quitan los paréntesis, se pasan las x a un lado y los números al otro, y se divide: x = {answer}.",
+      "probability": "Casos favorables entre casos posibles: {fav} / {total} × 100 = {answer}.",
+      "codes": "Se separa el número en bloques de 4 cifras y se traduce cada bloque: {answer}.",
+      "tables_sum_max": "Sumando la columna de cada grupo, el total mayor es el de {answer}.",
+      "tables_avg_max": "Dividiendo la suma de cada grupo entre su número de filas, la media mayor es la de {answer}.",
+      "tables_share": "Suma del grupo entre la suma total, por 100: {answer}.",
+      "tables_ratio_group": "Suma del numerador entre suma del denominador en cada grupo: el mayor es {answer}.",
+      "tables_ratio_row": "Calculando el cociente de cada fila, el mayor es el de {answer}.",
+      "tables_filter": "Solo {answer} cumple las tres condiciones a la vez."
     },
     "demoNotSaved": "Los resultados de la demostración no se guardan.",
     "ctaPractice": "Ir a mi práctica",
@@ -617,6 +631,31 @@
         "name": "Atención y concentración",
         "prompt": "Responde con precisión.",
         "description": "Recuento de símbolos y detección de diferencias."
+      },
+      "percentages": {
+        "name": "Porcentajes y fracciones",
+        "prompt": "Resuelve el problema.",
+        "description": "Descuentos, subidas, asistencia y partes de un total, con importes en euros."
+      },
+      "equations": {
+        "name": "Ecuaciones",
+        "prompt": "Halla el valor de x.",
+        "description": "Ecuaciones de primer grado con paréntesis, como en el examen de la AGE."
+      },
+      "probability": {
+        "name": "Probabilidad",
+        "prompt": "Calcula la probabilidad.",
+        "description": "Casos favorables entre casos posibles, en porcentaje."
+      },
+      "codes": {
+        "name": "Codificación",
+        "prompt": "Traduce el código.",
+        "description": "Equivalencias entre letras y códigos binarios."
+      },
+      "tables": {
+        "name": "Interpretación de tablas",
+        "prompt": "Responde según la tabla.",
+        "description": "Sumas, medias, porcentajes y filtros sobre una tabla de datos."
       },
       "question": {
         "name": "Preguntas de temario"
@@ -703,7 +742,41 @@
       "regadera": "regadera",
       "regar": "regar",
       "peine": "peine",
-      "peinar": "peinar"
+      "peinar": "peinar",
+      "tbl_trips": "Desplazamientos",
+      "tbl_loans": "Préstamos",
+      "col_project": "Proyecto",
+      "col_department": "Departamento",
+      "col_office": "Oficina",
+      "col_days": "Días",
+      "col_km": "Kilómetros",
+      "col_tolls": "Peajes (€)",
+      "col_title": "Título",
+      "col_publisher": "Editorial",
+      "col_city": "Lugar de edición",
+      "col_year": "Año",
+      "col_available": "Ejemplares disponibles",
+      "col_lent": "Ejemplares prestados",
+      "col_loans": "Préstamos realizados",
+      "cat_project": "proyecto",
+      "cat_department": "departamento",
+      "cat_office": "oficina",
+      "cat_publisher": "editorial",
+      "cat_city": "lugar de edición",
+      "cat_title": "título",
+      "num_days": "días de duración",
+      "num_km": "kilómetros",
+      "num_tolls": "euros de peaje",
+      "num_available": "ejemplares disponibles",
+      "num_lent": "ejemplares prestados",
+      "num_loans": "préstamos realizados",
+      "unit_km": "kilómetro",
+      "unit_available": "ejemplar disponible",
+      "dep_admin": "Administración",
+      "dep_marketing": "Marketing",
+      "dep_tech": "Técnico",
+      "dep_sales": "Comercial",
+      "unit_loans": "préstamo realizado"
     },
     "shapes": {
       "circle": "círculo",
@@ -731,7 +804,25 @@
       "numeric_average": "La media de {k} números es {m}. Si se añade el número {x}, ¿cuál es la nueva media?",
       "numeric_mixture": "Se mezclan {q1} kg de café de {p1} €/kg con {q2} kg de café de {p2} €/kg. ¿A cuántos euros sale el kg de la mezcla?",
       "attention_count": "¿Cuántas veces aparece «{target}» en el recuadro?",
-      "attention_pairs": "¿Cuántas parejas están formadas por dos códigos exactamente iguales?"
+      "attention_pairs": "¿Cuántas parejas están formadas por dos códigos exactamente iguales?",
+      "percentages_discount": "Si hay un {d} % de descuento en un producto cuyo precio original es de {price} €, ¿qué importe se pagará una vez aplicado el descuento?",
+      "percentages_increase": "Hemos estado pagando {price} € al mes por un servicio y este mes el precio sube un {d} %. ¿Qué importe pagaremos una vez aplicada la subida?",
+      "percentages_absent": "De las {n} personas inscritas en una jornada, solo asiste el {p} %. ¿Cuántas personas inscritas han faltado?",
+      "percentages_fractions": "Hay que preparar {n} paquetes. El primer día se preparan {a}/{den} del total y el segundo día {b}/{den} del total. ¿Cuántos paquetes quedan por preparar?",
+      "percentages_share": "Una oficina tiene {n} empleados y {k} trabajan en el departamento comercial. ¿Qué porcentaje representan los empleados del resto de departamentos?",
+      "equations": "Halla el valor de x en la siguiente ecuación: {expr}",
+      "probability_balls_red": "En una bolsa hay {r} bolas rojas, {g} verdes y {b} azules. Si se saca una bola al azar, ¿qué probabilidad hay de que sea roja?",
+      "probability_balls_green": "En una bolsa hay {r} bolas rojas, {g} verdes y {b} azules. Si se saca una bola al azar, ¿qué probabilidad hay de que sea verde?",
+      "probability_balls_blue": "En una bolsa hay {r} bolas rojas, {g} verdes y {b} azules. Si se saca una bola al azar, ¿qué probabilidad hay de que sea azul?",
+      "probability_raffle_laptop": "Se sortean {m} teléfonos móviles, {t} tabletas y {l, plural, one {# ordenador portátil} other {# ordenadores portátiles}} entre las personas de un grupo, y cada una recibe un objeto. ¿Qué probabilidad hay de que te toque un ordenador portátil?",
+      "probability_raffle_tablet": "Se sortean {m} teléfonos móviles, {t} tabletas y {l, plural, one {# ordenador portátil} other {# ordenadores portátiles}} entre las personas de un grupo, y cada una recibe un objeto. ¿Qué probabilidad hay de que te toque una tableta?",
+      "codes": "Dadas las equivalencias {map}, ¿qué serie de letras corresponde a la serie de números {code}?",
+      "tables_sum_max": "Según la tabla «{table}», ¿qué {catName} acumula un total mayor de {numName}?",
+      "tables_avg_max": "Según la tabla «{table}», ¿qué {catName} tiene una media mayor de {numName}?",
+      "tables_share": "Según la tabla «{table}», ¿qué porcentaje del total de {numName} corresponde a {catName} «{value}»?",
+      "tables_ratio_group": "Según la tabla «{table}», ¿qué {catName} tiene más {numName} por {denUnit}, sumando todas sus filas?",
+      "tables_ratio_row": "Según la tabla «{table}», ¿qué {labelName} tiene un mayor porcentaje de {numName} respecto a {denName}?",
+      "tables_filter": "Según la tabla «{table}», ¿qué {labelName} es de {catName} «{value}», se publicó después de {y} y tiene más de {k} {numName}?"
     },
     "shapesPlural": {
       "circle": "círculos",
@@ -1140,7 +1231,8 @@
       "lockedSubtitle": "Puedes ver qué incluye tu oposición. Para practicarlo necesitas Premium o comprar el pack.",
       "lockedBadge": "Premium",
       "paidBadge": "De pago",
-      "lockedCta": "Ver qué incluye"
+      "lockedCta": "Ver qué incluye",
+      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte"
     }
   },
   "questions": {
@@ -1197,7 +1289,16 @@
     "again": "Volver a mis productos",
     "toProgress": "Ver mi progreso",
     "itemsTitle": "Corrección",
-    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Cuando se acabe el tiempo se entrega solo."
+    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Cuando se acabe el tiempo se entrega solo.",
+    "partTitle": "Parte {part}",
+    "partDetail": "Directa {direct, number} de {valid} (corte {cut, number}) · calificación {grade, number} / 50",
+    "partPassed": "Superada",
+    "partFailed": "No superada",
+    "partSyllabus": "Parte {part} · temario",
+    "partPsycho": "Parte {part} · psicotécnicos",
+    "sectionsDisclaimer": "Corte de cada parte: el último publicado por el tribunal. La calificación de cada parte va de 0 a 50 (25 en el corte) y se suman.",
+    "sectionsPassed": "Superado: todas las partes llegan al corte",
+    "sectionsFailed": "No superado: alguna parte no llega al corte"
   },
   "plan": {
     "title": "Mi plan de estudio",
@@ -1282,7 +1383,8 @@
       "review": "Repaso de tus errores hasta dominarlos",
       "plan": "El plan semanal te dice cada semana qué temas y simulacros tocan",
       "cta": "Pago próximamente",
-      "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente."
+      "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente.",
+      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte"
     },
     "topicsTitle": "Ver los {count} temas incluidos",
     "topicQuestions": "{count} preg.",

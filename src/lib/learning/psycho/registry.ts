@@ -1,5 +1,10 @@
 import { analogies } from "./analogies";
 import { attention } from "./attention";
+import { codes } from "./codes";
+import { equations } from "./equations";
+import { percentages } from "./percentages";
+import { probability } from "./probability";
+import { tables } from "./tables";
 import { letters } from "./letters";
 import { matrices } from "./matrices";
 import { numeric } from "./numeric";
@@ -82,6 +87,11 @@ const GENERATORS: Partial<Record<PsychoType, PsychoGenerator>> = {
   matrices,
   spatial,
   attention,
+  percentages,
+  equations,
+  probability,
+  codes,
+  tables,
 };
 
 export function getGenerator(type: PsychoType): PsychoGenerator | undefined {
@@ -89,6 +99,21 @@ export function getGenerator(type: PsychoType): PsychoGenerator | undefined {
 }
 
 export const availableTypes = (): PsychoType[] => Object.keys(GENERATORS) as PsychoType[];
+
+/**
+ * Tipos de un simulacro de psicotécnicos que no fija los suyos (formato Mossos
+ * 46/26): los 7 generales. Los del formato AGE (porcentajes, ecuaciones,
+ * probabilidad, códigos y tablas) solo entran si el producto los pide.
+ */
+export const GENERAL_TYPES: PsychoType[] = [
+  "series",
+  "letters",
+  "numeric",
+  "analogies",
+  "matrices",
+  "spatial",
+  "attention",
+];
 
 export function generateItem(type: PsychoType, seed: number, difficulty: Difficulty): PsychoItem {
   const g = getGenerator(type);

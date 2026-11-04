@@ -98,6 +98,44 @@ export function PsychoStem({
           </div>
         </div>
       );
+    case "table":
+      return (
+        <div className="space-y-3">
+          <p className="font-medium">
+            {t(`problems.${presentation.key}`, values(presentation.values))}
+          </p>
+          <div
+            className="border-border overflow-x-auto rounded-xl border"
+            data-testid="psycho-stem"
+          >
+            <table className="w-full text-sm">
+              <caption className="sr-only">
+                {text(String(presentation.values?.table ?? ""))}
+              </caption>
+              <thead className="bg-surface">
+                <tr>
+                  {presentation.header.map((h) => (
+                    <th key={h} scope="col" className="px-2 py-1.5 text-left font-semibold">
+                      <Token value={h} />
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {presentation.rows.map((r, i) => (
+                  <tr key={i} className="border-border border-t">
+                    {r.map((c, j) => (
+                      <td key={j} className="px-2 py-1 whitespace-nowrap tabular-nums">
+                        <Token value={c} />
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      );
   }
 }
 
