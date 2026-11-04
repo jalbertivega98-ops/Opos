@@ -24,7 +24,7 @@ export default async function AppLayout({
     { href: "/app/perfil", label: t("profile") },
   ];
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-6 sm:py-8">
+    <div className="wrap py-6 sm:py-8">
       <AppNav label={t("dashboard")} links={links} />
       {children}
     </div>

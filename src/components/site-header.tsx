@@ -14,7 +14,7 @@ export async function SiteHeader() {
 
   return (
     <header className="border-border bg-background/85 sticky top-0 z-40 border-b backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center gap-2 px-4 sm:gap-4">
+      <div className="wrap flex h-16 items-center gap-2 sm:gap-4">
         <Link href="/" aria-label="OPOSAPRUEBA" className="shrink-0">
           <Logo />
         </Link>

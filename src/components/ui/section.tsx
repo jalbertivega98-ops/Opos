@@ -34,7 +34,7 @@ export function Section({
 }: React.HTMLAttributes<HTMLElement> & VariantProps<typeof sectionVariants>) {
   return (
     <section className={cn(sectionVariants({ tone, space }), className)} {...props}>
-      <div className="mx-auto max-w-6xl px-4">{children}</div>
+      <div className="wrap">{children}</div>
     </section>
   );
 }

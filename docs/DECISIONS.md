@@ -118,3 +118,9 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Decisión:** a petición de joel, la marca pasa de «Aprobia» a **OPOSAPRUEBA** en la interfaz, los títulos, los metadatos, el manifiesto, los correos locales y la documentación activa. Se mantienen los identificadores técnicos (`package.json`, el proyecto `aprobia-preview` de Supabase, los correos `@aprobia.test`, el dominio de Vercel y las migraciones). Los titulares pasan a Source Serif 4 para un formato más serio. El diseño de ADR-018 se mantiene.
 **Motivo:** joel probó una portada más interactiva y prefirió el diseño anterior; solo quería el nombre nuevo y una letra más seria.
 **Consecuencias:** el nombre del remitente y las plantillas de correo de Supabase cloud se cambian en su panel, fuera del repositorio. Queda pendiente verificar el registro de marca y el dominio (DEC-005).
+
+## ADR-024 · Portada a todo el ancho con apariciones al desplazarse (2026-11-04)
+
+**Decisión:** a petición de joel, la web usa un contenedor ancho (`.wrap`, hasta 1600 px). La portada anima cada sección al bajar con efectos variados, inspirados en speak.com. Se usa IntersectionObserver para las apariciones y scroll-driven animations para la deriva y el crecimiento de la franja. El diseño y el contenido de ADR-018 no cambian.
+**Motivo:** que la página no se vea siempre igual al recorrerla y aproveche las pantallas grandes.
+**Consecuencias:** `html` y `body` llevan `overflow-x: clip` para que los efectos laterales no generen scroll horizontal. Todo queda estático con «reducir movimiento».

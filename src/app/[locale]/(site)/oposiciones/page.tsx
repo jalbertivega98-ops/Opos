@@ -24,7 +24,7 @@ export default async function CatalogPage({
   const exams = await listExamBodies(filter);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
+    <div className="wrap py-10 sm:py-14">
       <h1 className="text-3xl font-bold sm:text-4xl">{t("catalog.title")}</h1>
       <p className="text-muted-foreground mt-2 max-w-2xl">{t("catalog.subtitle")}</p>
 

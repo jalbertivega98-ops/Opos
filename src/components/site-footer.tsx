@@ -6,7 +6,7 @@ export async function SiteFooter() {
   const t = await getTranslations("footer");
   return (
     <footer className="border-border bg-surface mt-auto border-t">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:grid-cols-[2fr_1fr]">
+      <div className="wrap grid gap-8 py-10 sm:grid-cols-[2fr_1fr]">
         <div className="space-y-3">
           <Logo />
           <p className="text-muted-foreground max-w-md text-sm">{t("tagline")}</p>
