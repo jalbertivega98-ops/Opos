@@ -101,6 +101,7 @@ describe("sesión de Checkout", () => {
       },
     });
     expect(p.mode).toBe("payment");
+    expect(p.managed_payments).toEqual({ enabled: false });
     expect(p.line_items?.[0].price_data).toMatchObject({ currency: "eur", unit_amount: 4900 });
     expect(p.line_items?.[0].price_data?.recurring).toBeUndefined();
     expect(p.metadata).toEqual(meta);
