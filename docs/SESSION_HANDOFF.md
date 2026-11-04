@@ -21,7 +21,8 @@
   - Productos nuevos en `16-`: pack Bloque II y simulacro de la parte 2 (50 preguntas, 40 min), añadidos al pack completo.
   - `17-` publica todo `age-aux-*` como `15-`.
   - Los archivos de contenido se llaman ahora `b1-NN-…` / `b2-NN-…`.
-- **Siguiente:** que joel revise las 12 dudosas y fije el precio del pack. Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
+- **Dudosas:** joel pidió publicarlas («Súbelas»). Se aclararon en su explicación (`18-`) y se publicaron (`19-`): ya están publicadas las 549.
+- **Siguiente:** que joel fije el precio del pack. Calibrar estilo y dificultad con los exámenes oficiales del INAP de convocatorias anteriores, que no se han revisado. Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
 
 ### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
 
