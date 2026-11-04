@@ -1,6 +1,6 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-04 · Sesión 3 (+ segunda oposición: Auxiliar Administrativo del Estado)
+**Última actualización:** 2026-11-04 · Sesión 3 (+ Auxiliar Administrativo del Estado completo: Bloques I y II)
 
 ## Estado exacto
 
@@ -15,7 +15,13 @@
   - Regenerar: `python3 -I build.py /home/claude/opos` y después los comandos de las cabeceras de `supabase/preview/12-` y `13-`.
 - **Productos** (`14-`): `age-aux-bloque-1-boe-2026` (pack), `age-aux-simulacro-bloque-1-2026` (30 preguntas, −1/3, 25 min), `age-aux-simulacro-psicotecnicos-2026` (psico, `config.item_types`) y `age-aux-pack-completo-2026` (bundle).
 - **Publicación** (`15-`, por orden de joel): publica preguntas, fichas y productos `age-aux-*` a nombre de la titular, con auditoría. Las 4 dudosas quedan en borrador. La oposición pasa a «disponible». Probado en local: 286 publicadas, idempotente, simulacro con 30 preguntas de 14 temas.
-- **Siguiente:** CNT-013 (temas 6 y 10 y Bloque II de ofimática). Que joel revise las 4 dudosas.
+- **Ampliación (CNT-013, ADR-021, mismo día, «Sigue y sube todo»):**
+  - Temas I.6 y I.10 y el Bloque II completo (U01-U12). En total hay 549 preguntas (537 publicadas y 12 dudosas en borrador) y 28 fichas.
+  - Ofimática y UE con fuentes web oficiales (`fuentes-web.json`, `web/`).
+  - Productos nuevos en `16-`: pack Bloque II y simulacro de la parte 2 (50 preguntas, 40 min), añadidos al pack completo.
+  - `17-` publica todo `age-aux-*` como `15-`.
+  - Los archivos de contenido se llaman ahora `b1-NN-…` / `b2-NN-…`.
+- **Siguiente:** que joel revise las 12 dudosas y fije el precio del pack. Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
 
 ### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
 

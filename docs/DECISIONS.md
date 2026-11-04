@@ -98,3 +98,9 @@ Como `boe.es` no es accesible desde el contenedor, el texto consolidado se toma 
 Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque I y 30 psicotécnicas, −1/3, 25 min cada uno). `config.item_types` limita los tipos de psicotécnico al formato de cada oposición.
 **Publicación:** joel pidió expresamente publicarlo («súbelos y publícalos»). `supabase/preview/15-publicar-auxiliar-estado.sql` hace lo mismo que el botón de lotes, a nombre de la titular y con auditoría, y deja fuera las dudosas.
 **Consecuencias:** faltan los temas 6 y 10 y el Bloque II (CNT-013). Las fichas de la AGE son artículos literales sin glosario. La pantalla de temario agrupa por «Bloque» fuera de Mossos.
+
+## ADR-021 · Fuentes web oficiales para la ofimática y la UE (2026-11-04)
+
+**Decisión:** el Bloque II (Windows 11 y Microsoft 365) y el tema de la UE no tienen texto en el BOE. Se usan solo páginas oficiales: soporte de Microsoft en español (support.microsoft.com/es-es y learn.microsoft.com/es-es), EUR-Lex (TUE y TFUE consolidados, DOUE C 202 de 2016) y la página de la ONU sobre los ODS. Se registran en `fuentes-web.json` y se citan literalmente, igual que las leyes (`build.py --check`).
+**Límite conocido:** el contenedor no puede descargar esas webs. La herramienta de lectura solo devuelve fragmentos literales cortos, así que `web/<CLAVE>.md` guarda extractos, no la página entera. La comprobación garantiza que cada cita coincide con lo capturado, pero no sustituye a cotejarla con la página. Las preguntas que dependen de la versión, del idioma del teclado o de datos de los Tratados ya cambiados llevan nota y no se publican sin revisión.
+**Consecuencias:** las preguntas de ofimática evitan los atajos con letra, que cambian con el idioma, y preguntan por cintas, menús, conceptos y teclas de función. Cuando Microsoft cambie una página, hay que capturarla de nuevo y regenerar con `build.py`.

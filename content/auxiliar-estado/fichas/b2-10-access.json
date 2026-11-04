@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "created": "2026-11-04",
+    "author": "Selección de artículos literales del BOE (texto consolidado, sin redacción propia); pendiente de revisión humana",
+    "source": {
+      "title": "Microsoft Soporte · Introducción a las consultas",
+      "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    }
+  },
+  "outline": [
+    {
+      "n": "1",
+      "title": "Conceptos básicos y objetos de una base de datos de Access"
+    },
+    {
+      "n": "2",
+      "title": "Tablas"
+    },
+    {
+      "n": "2.1",
+      "title": "Tipos de datos"
+    },
+    {
+      "n": "2.2",
+      "title": "Clave principal"
+    },
+    {
+      "n": "3",
+      "title": "Relaciones e integridad referencial"
+    },
+    {
+      "n": "4",
+      "title": "Consultas: selección, acción, parámetros y totales"
+    },
+    {
+      "n": "5",
+      "title": "Formularios"
+    },
+    {
+      "n": "6",
+      "title": "Informes"
+    },
+    {
+      "n": "7",
+      "title": "Importación, vinculación y exportación"
+    }
+  ],
+  "key_ideas": [
+    "Tareas básicas Soporte Microsoft (Access, tareas básicas): «En una base de datos, la información se almacena en varias tablas relacionadas.»",
+    "Tipos de datos Soporte Microsoft (Access, tipos de datos): «| Texto breve | Datos alfanuméricos (nombres, títulos, etc.) | Hasta 255 caracteres. |»",
+    "Tipos de datos Soporte Microsoft (Access, tipos de datos): «| Autonumeración | Valor único generado por Access para cada registro nuevo. |»",
+    "Clave principal Soporte Microsoft (Access, clave principal): «Una clave principal es un campo o un conjunto de campos con valores únicos en una tabla.»",
+    "Clave principal Soporte Microsoft (Access, clave principal): «Una clave que tiene más de un campo se denomina clave compuesta.»",
+    "Relaciones Soporte Microsoft (Access, relaciones): «Para representar una relación de varios a varios, debe crear una tercera tabla, a menudo denominada tabla de unión»",
+    "Relaciones Soporte Microsoft (Access, relaciones): «El propósito de la integridad referencial es evitar los registros huérfanos»",
+    "Consultas Soporte Microsoft (Access, consultas): «Usar una consulta facilita ver, agregar, eliminar o cambiar datos en la base de datos de Access.»",
+    "Consultas Soporte Microsoft (Access, consultas): «Los corchetes indican que quiere que la consulta pida información»",
+    "Consultas Soporte Microsoft (Access, consultas): «Una consulta de totales es una consulta de selección que permite agrupar y resumir datos»",
+    "Formularios Soporte Microsoft (Access, formularios): «Un formulario dependiente está conectado directamente a un origen de datos, como una tabla o consulta»",
+    "Formularios Soporte Microsoft (Access, formularios): «Un formulario dividido proporciona dos vistas de los datos al mismo tiempo:»",
+    "Informes Soporte Microsoft (Access, informes): «Las tablas o consultas que proporcionan los datos subyacentes se conocen también como origen de registros del informe.»",
+    "Informes Soporte Microsoft (Access, informes): «Detalle: Esta sección imprime una vez por cada fila en el origen de registros.»",
+    "Importar y vincular Soporte Microsoft (Access, importar y vincular): «Cualquier cambio que realice en las celdas de origen en Excel aparece en la tabla vinculada.»",
+    "Exportar Soporte Microsoft (Access, exportar a Excel): «Solo puede exportar un objeto de base de datos en cada operación de exportación.»"
+  ],
+  "glossary": [],
+  "amendments": [],
+  "review_note": "Otras normas citadas: Soporte Microsoft (Access, tareas básicas) (https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database), Soporte Microsoft (Access, tipos de datos) (https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases), Soporte Microsoft (Access, clave principal) (https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access), Soporte Microsoft (Access, relaciones) (https://support.microsoft.com/es-es/access/guide-to-table-relationships), Soporte Microsoft (Access, formularios) (https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae), Soporte Microsoft (Access, informes) (https://support.microsoft.com/es-es/access/create-a-simple-report), Soporte Microsoft (Access, importar y vincular) (https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook), Soporte Microsoft (Access, exportar a Excel) (https://support.microsoft.com/es-es/access/export-data-to-excel)"
+}

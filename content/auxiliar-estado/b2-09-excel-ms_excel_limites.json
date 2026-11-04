@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_limites-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Especificaciones y límites de Excel",
+      "url": "https://support.microsoft.com/es-es/excel/excel-specifications-and-limits",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Especificaciones y límites de Excel (filas y columnas)",
+      "stem": "¿Cuál es el número total de filas y columnas de una hoja de cálculo de Excel para Microsoft 365?",
+      "options": [
+        "1.048.576 filas por 16.384 columnas.",
+        "65.536 filas por 256 columnas.",
+        "1.048.576 filas por 65.536 columnas.",
+        "16.384 filas por 1.048.576 columnas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La tabla de especificaciones fija el tamaño de la hoja en 1.048.576 filas por 16.384 columnas (de la A a la XFD). 65.536 × 256 era el límite de versiones antiguas (.xls).",
+      "excerpt": "Número total de filas y columnas en una hoja de cálculo | 1.048.576 filas por 16.384 columnas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Especificaciones y límites de Excel (caracteres por celda)",
+      "stem": "Según las especificaciones de Excel, ¿cuántos caracteres puede contener como máximo una celda?",
+      "options": [
+        "255 caracteres.",
+        "8.192 caracteres.",
+        "32.767 caracteres.",
+        "65.535 caracteres."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Una celda admite hasta 32.767 caracteres; 255 es el ancho máximo de columna y 8.192 la longitud máxima del contenido de una fórmula.",
+      "excerpt": "Número total de caracteres que puede contener una celda | 32.767 caracteres",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Especificaciones y límites de Excel (hojas en un libro)",
+      "stem": "En Excel para Microsoft 365, el número de hojas de un libro:",
+      "options": [
+        "Está limitado a 255 hojas, y el valor predeterminado es 3 hojas.",
+        "Está limitado a 1.024 hojas, y el valor predeterminado es 1 hoja.",
+        "Está limitado a la memoria disponible, y el valor predeterminado es 3 hojas.",
+        "Está limitado a la memoria disponible, y el valor predeterminado es 1 hoja."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La tabla de especificaciones indica que las hojas de un libro están limitadas a la memoria disponible y que, por defecto, un libro nuevo tiene 1 hoja.",
+      "excerpt": "Hojas en un libro | Limitado a la memoria disponible (el valor predeterminado es 1 hoja)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

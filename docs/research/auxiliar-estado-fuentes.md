@@ -47,11 +47,7 @@ CE, LOTC, LO 3/1981 (Defensor del Pueblo), LOPJ, Ley 50/1997 (Gobierno), Ley 19/
 Ley 7/1985, Ley 39/2015, Ley 29/1998, LO 3/2018, TREBEP, Ley 47/2003, LO 3/2007, LO 1/2004,
 Ley 4/2023, RDL 1/2013, Ley 39/2006.
 
-**Sin cubrir todavía:** tema 6 (Gobierno Abierto y Agenda 2030: no hay una norma del BOE que lo
-recoja), tema 10 (instituciones de la UE: los Tratados no están en la réplica), el Registro Central
-de Personal (tema 13), la Seguridad Social de los funcionarios (tema 14) y el **Bloque II completo**
-(ofimática: necesita la documentación oficial de Microsoft; atención al ciudadano y registro sí
-salen del BOE).
+**Ampliación (04/11/2026):** tema 6 con RD 371/2026 (Foro de Gobierno Abierto), Orden PCI/383/2019 y la página de la ONU de los ODS; tema 10 con TUE y TFUE de EUR-Lex. Bloque II, temas 1-4: RD 208/1996, RD 366/2007, RD 951/2005, LO 4/2001, RD 1708/2011, RD 203/2021, RD 1112/2018 y Ley 39/2015. Ofimática (temas 5-12): 59 páginas del soporte oficial de Microsoft en español (ver `fuentes-web.json`). Sin cubrir: Ventanilla Única Empresarial, criterios de ordenación de archivos, Registro Central de Personal y Seguridad Social de los funcionarios, porque no están en las fuentes.
 
 ## Estilo de las preguntas
 

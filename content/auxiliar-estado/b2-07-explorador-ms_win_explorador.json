@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "age-aux-b2-07-explorador-ms_win_explorador-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.7 El Explorador de archivos de Windows",
+    "topic_slug": "age-aux-b2-07-explorador",
+    "locale": "es",
+    "category": "age_aux_b2_07_explorador",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Explorador de archivos en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Explorador de archivos · Página de inicio",
+      "stem": "Según la página de Microsoft sobre el Explorador de archivos, ¿en qué ubicación se abre de forma predeterminada?",
+      "options": [
+        "En Este equipo.",
+        "En Acceso rápido.",
+        "En la carpeta Documentos.",
+        "En la carpeta Descargas."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft indica que el Explorador se abre de forma predeterminada en Acceso rápido y que, si se prefiere Este equipo, puede cambiarse desde las opciones de la cinta.",
+      "excerpt": "De forma predeterminada, el Explorador de archivos se abre en Acceso rápido",
+      "excerpt_status": "completo",
+      "review_note": "En versiones recientes de Windows 11 esta vista se llama «Inicio» en el panel de navegación; la página de Microsoft usa ambos nombres. Comprobar que la redacción no induce a error."
+    },
+    {
+      "ref": "Explorador de archivos · Menú contextual",
+      "stem": "El Explorador de archivos de Windows 11 tiene un menú contextual simplificado. Para acceder a las opciones adicionales de ese menú, hay que seleccionar:",
+      "options": [
+        "Mostrar más opciones.",
+        "Propiedades avanzadas.",
+        "Opciones de carpeta.",
+        "Abrir con."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Al hacer clic con el botón derecho aparece el menú contextual simplificado; las demás opciones se obtienen con «Mostrar más opciones» (también con Mayús + clic derecho).",
+      "excerpt": "El Explorador de archivos tiene un menú contextual nuevo y simplificado […] Seleccione Mostrar más opciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Elementos ocultos",
+      "stem": "En el menú Ver del Explorador de archivos, ¿qué opción permite ver los archivos y carpetas ocultos?",
+      "options": [
+        "Extensiones de nombre de archivo.",
+        "Elementos ocultos.",
+        "Casillas de elemento.",
+        "Vista compacta."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "«Elementos ocultos» muestra archivos y carpetas ocultos; «Extensiones de nombre de archivo» muestra las extensiones, las casillas sirven para seleccionar y la vista compacta reduce el espacio entre archivos.",
+      "excerpt": "Elementos ocultos para ver los archivos y carpetas ocultos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Este equipo",
+      "stem": "Según Microsoft, en el Explorador de archivos de Windows 11 las carpetas predeterminadas (Documentos, Imágenes, etc.) ya no se muestran en Este equipo para:",
+      "options": [
+        "Proteger esas carpetas frente a virus.",
+        "Mantener la vista centrada en las unidades.",
+        "Ahorrar espacio en disco.",
+        "Ocultarlas a otros usuarios del equipo."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Las carpetas predeterminadas dejan de mostrarse en Este equipo para que la vista se centre en las unidades; se encuentran en Inicio/Acceso rápido y en el panel de navegación.",
+      "excerpt": "Estas carpetas predeterminadas ya no se muestran en Este equipo para mantener la vista centrada en las unidades",
+      "excerpt_status": "completo"
+    }
+  ]
+}

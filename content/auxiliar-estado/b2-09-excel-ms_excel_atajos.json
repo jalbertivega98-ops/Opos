@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_atajos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Excel",
+      "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Métodos abreviados de Excel (Mayús+F11)",
+      "stem": "¿Qué combinación de teclas inserta una hoja de cálculo nueva en Excel?",
+      "options": [
+        "F11.",
+        "Alt+F1.",
+        "Mayús+F3.",
+        "Mayús+F11."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Mayús+F11 inserta una hoja de cálculo nueva; F11 crea un gráfico en una hoja de gráfico distinta, Alt+F1 un gráfico incrustado y Mayús+F3 abre Insertar función.",
+      "excerpt": "Mayús+F11: inserta una hoja de cálculo nueva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (Alt+Entrar)",
+      "stem": "¿Qué combinación de teclas permite comenzar una nueva línea dentro de la misma celda en Excel?",
+      "options": [
+        "Ctrl+Entrar.",
+        "Alt+Entrar.",
+        "Mayús+Entrar.",
+        "Tab."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Alt+Entrar inserta un salto de línea dentro de la celda. Ctrl+Entrar rellena el rango seleccionado con la entrada actual.",
+      "excerpt": "Úselo para comenzar una nueva línea en la misma celda. | Alt+Entrar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (mostrar fórmulas)",
+      "stem": "¿Qué método abreviado de Excel permite cambiar entre mostrar los valores de las celdas o las fórmulas de la hoja de cálculo?",
+      "options": [
+        "Ctrl+1.",
+        "Mayús+F3.",
+        "Ctrl+acento grave (`).",
+        "Ctrl+Mayús+E."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Ctrl+` alterna entre valores y fórmulas; Ctrl+1 abre Formato de celdas, Mayús+F3 Insertar función y Ctrl+Mayús+E invoca Relleno rápido.",
+      "excerpt": "Úselo para cambiar entre mostrar valores de celda o fórmulas de la hoja de cálculo. | Ctrl+acento grave (`)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

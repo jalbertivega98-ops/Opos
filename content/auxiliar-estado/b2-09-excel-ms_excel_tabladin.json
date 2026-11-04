@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_tabladin-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Crear una tabla dinámica para analizar datos de una hoja de cálculo",
+      "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tablas dinámicas (área Filas)",
+      "stem": "Al crear una tabla dinámica en Excel y marcar campos en la lista de campos, ¿a qué área se agregan de forma predeterminada los campos no numéricos?",
+      "options": [
+        "Columnas.",
+        "Valores.",
+        "Filtros.",
+        "Filas."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Los campos seleccionados van a su área predeterminada: los no numéricos a Filas; los numéricos se colocan en Valores.",
+      "excerpt": "los campos no numéricos se agregan a Filas,",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tablas dinámicas (resumen de texto)",
+      "stem": "En una tabla dinámica, si Excel interpreta como texto los datos de un campo colocado en el área Valores, los mostrará de forma predeterminada como:",
+      "options": [
+        "Una suma.",
+        "Un recuento.",
+        "Un promedio.",
+        "Un valor máximo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Por defecto, los campos numéricos del área Valores se muestran como suma y, si Excel interpreta los datos como texto, como recuento.",
+      "excerpt": "Si Excel interpreta los datos como texto, los datos se mostrarán como un RECUENTO.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

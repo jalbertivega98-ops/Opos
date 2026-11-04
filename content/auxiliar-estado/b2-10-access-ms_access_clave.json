@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_clave-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Agregar o cambiar la clave principal de una tabla en Access",
+      "url": "https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Clave principal (características)",
+      "stem": "¿Cuál de las siguientes es una característica de una clave principal correcta en Access?",
+      "options": [
+        "Debe estar formada siempre por un campo de tipo Texto breve.",
+        "Nunca debe estar vacía ni ser nula.",
+        "Sus valores pueden repetirse si la tabla tiene muchos registros.",
+        "Debe cambiar cada vez que se modifica el registro."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Una buena clave principal identifica inequívocamente cada fila, nunca está vacía ni es nula y sus valores no suelen cambiar.",
+      "excerpt": "Nunca debe estar vacía ni ser nula (siempre debe contener un valor).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Clave compuesta",
+      "stem": "¿Cómo se denomina en Access una clave principal que tiene más de un campo?",
+      "options": [
+        "Clave externa.",
+        "Clave múltiple.",
+        "Clave secundaria.",
+        "Clave compuesta."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Microsoft denomina clave compuesta a la clave formada por más de un campo.",
+      "excerpt": "Una clave que tiene más de un campo se denomina clave compuesta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Clave principal (quitar)",
+      "stem": "Según Microsoft, al quitar la clave principal de una tabla de Access:",
+      "options": [
+        "No se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave.",
+        "Se eliminan los campos que formaban la clave y su índice.",
+        "Se eliminan automáticamente los registros relacionados de otras tablas.",
+        "No se elimina nada, porque la clave principal no crea ningún índice."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Quitar la clave principal borra el índice creado para ella, pero no los campos. Antes debe comprobarse que la clave no interviene en ninguna relación.",
+      "excerpt": "Al quitar la clave principal, no se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

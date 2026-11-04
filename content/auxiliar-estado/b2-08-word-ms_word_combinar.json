@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_combinar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Combinación de correspondencia con una hoja de cálculo de Excel",
+      "url": "https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Combinar correspondencia con Excel",
+      "stem": "Al preparar una hoja de cálculo de Excel como origen de datos de una combinación de correspondencia de Word, Microsoft indica que los datos que se combinarán deben estar:",
+      "options": [
+        "En la última hoja del libro.",
+        "En una tabla dinámica.",
+        "En la primera hoja de la hoja de cálculo.",
+        "En cualquier hoja, siempre que tenga nombre definido."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Uno de los requisitos que enumera Microsoft es que todos los datos que se van a combinar estén en la primera hoja; además, el archivo debe estar almacenado en el equipo local.",
+      "excerpt": "Todos los datos que se combinarán están presentes en la primera hoja de la hoja de cálculo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

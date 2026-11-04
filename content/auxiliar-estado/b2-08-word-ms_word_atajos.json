@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_atajos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Word",
+      "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Teclas de función de Word (F12)",
+      "stem": "En Word para Microsoft 365 (Windows), ¿qué hace la tecla F12 pulsada sola?",
+      "options": [
+        "Muestra el cuadro de diálogo Abrir.",
+        "Muestra la pestaña Imprimir en la vista Backstage.",
+        "Muestra el cuadro de diálogo Guardar como.",
+        "Muestra el panel de tareas Ayuda de Word."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Según la tabla de teclas de función de Word, F12 abre el cuadro de diálogo Guardar como; Ctrl+F12 abre el cuadro Abrir y Ctrl+Mayús+F12 muestra la pestaña Imprimir.",
+      "excerpt": "Solo F12: muestra el cuadro de diálogo Guardar como.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (salto de página)",
+      "stem": "¿Qué combinación de teclas inserta un salto de página en un documento de Word?",
+      "options": [
+        "Mayús+Entrar.",
+        "Ctrl+Entrar.",
+        "Ctrl+Mayús+Entrar.",
+        "Alt+Entrar."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl+Entrar inserta un salto de página; Mayús+Entrar inserta un salto de línea y Ctrl+Mayús+Entrar, un salto de columna.",
+      "excerpt": "Insertar un salto de página. | Ctrl+Entrar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (saltos de línea y columna)",
+      "stem": "En Word, la combinación Mayús+Entrar permite:",
+      "options": [
+        "Insertar un salto de línea.",
+        "Insertar un salto de página.",
+        "Insertar un salto de columna.",
+        "Insertar un salto de sección continuo."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La tabla de métodos abreviados de Word asigna Mayús+Entrar al salto de línea, Ctrl+Entrar al salto de página y Ctrl+Mayús+Entrar al salto de columna.",
+      "excerpt": "Insertar un salto de línea. | Mayús+Entrar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (Mayús+F3)",
+      "stem": "¿Qué función cumple la combinación Mayús+F3 en Word?",
+      "options": [
+        "Mostrar el panel de tareas del diccionario de sinónimos.",
+        "Repetir el último comando o acción.",
+        "Mostrar el cuadro de diálogo Ir a.",
+        "Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Mayús+F3 alterna el texto seleccionado entre mayúsculas, minúsculas y mayúsculas y minúsculas.",
+      "excerpt": "Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas. | Mayús+F3",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Word (Mayús+F7)",
+      "stem": "En Word, la combinación Mayús+F7 muestra:",
+      "options": [
+        "El panel de tareas del diccionario de sinónimos.",
+        "El panel de tareas del Editor para revisar la ortografía.",
+        "El panel de tareas Traductor.",
+        "El cuadro de diálogo Marcador."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Mayús+F7 abre el diccionario de sinónimos; F7 sola abre el panel del Editor, Alt+Mayús+F7 el Traductor y Ctrl+Mayús+F5 el cuadro Marcador.",
+      "excerpt": "Mayús+F7: muestra el panel de tareas del diccionario de sinónimos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Word (F4)",
+      "stem": "Si en Word se pulsa la tecla F4 sola, el programa:",
+      "options": [
+        "Muestra el cuadro de diálogo Ir a.",
+        "Actualiza los campos seleccionados.",
+        "Repite el último comando o acción, si es posible.",
+        "Cierra el documento activo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "F4 repite el último comando o acción; F5 muestra Ir a y F9 actualiza los campos seleccionados.",
+      "excerpt": "Solo F4: repite el último comando o acción, si es posible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (estilos)",
+      "stem": "¿Qué combinación de teclas aplica el estilo Título 1 en Word?",
+      "options": [
+        "Ctrl+1.",
+        "Ctrl+Mayús+1.",
+        "Alt+Mayús+1.",
+        "Ctrl+Alt+1."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La tabla de métodos abreviados de Word asigna Ctrl+Alt+1 al estilo Título 1 (y Ctrl+Mayús+N al estilo Normal).",
+      "excerpt": "Aplicar el estilo de Título 1. | Ctrl+Alt+1",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (control de cambios)",
+      "stem": "Según la página de métodos abreviados de teclado de Word para Windows, la combinación Ctrl+Mayús+E sirve para:",
+      "options": [
+        "Insertar un comentario.",
+        "Activar o desactivar el control de cambios.",
+        "Cambiar a la vista Esquema.",
+        "Mostrar todos los caracteres no imprimibles."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ctrl+Mayús+E activa o desactiva el control de cambios; un comentario se inserta con Ctrl+Alt+M, la vista Esquema con Ctrl+Alt+O y los caracteres no imprimibles se muestran con Ctrl+Mayús+8.",
+      "excerpt": "Activar o desactivar el control de cambios. | Ctrl+Mayús+E",
+      "excerpt_status": "completo",
+      "review_note": "Atajo tomado de la página es-es de Microsoft; algunos atajos de Word cambian según el idioma de la interfaz/teclado (la propia página repite Ctrl+A y Ctrl+U para dos acciones). Confirmar en Word 365 en español."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_tareas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tareas básicas en Outlook",
+      "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tareas básicas · Nuevo mensaje",
+      "stem": "¿Qué método abreviado de teclado crea un mensaje de correo electrónico en Outlook?",
+      "options": [
+        "Ctrl + Mayús + A.",
+        "Ctrl + Mayús + K.",
+        "Ctrl + Mayús + M.",
+        "Ctrl + Mayús + B."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl + Mayús + M crea un mensaje; Ctrl + Mayús + A, una cita; Ctrl + Mayús + K, una tarea.",
+      "excerpt": "Para crear un mensaje de correo electrónico, presione Ctrl+Mayús+M.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tareas básicas · Cita",
+      "stem": "En Outlook, ¿qué combinación de teclas crea una cita?",
+      "options": [
+        "Ctrl + Mayús + A.",
+        "Ctrl + Mayús + M.",
+        "Ctrl + Mayús + C.",
+        "Ctrl + Mayús + R."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ctrl + Mayús + A crea una cita en el calendario; Ctrl + Mayús + M crea un mensaje.",
+      "excerpt": "Para crear una cita, presione Ctrl+Mayús+A.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tareas básicas · Citas y reuniones",
+      "stem": "Según Microsoft, ¿qué diferencia una reunión de una cita en el calendario de Outlook?",
+      "options": [
+        "La reunión dura siempre más de una hora.",
+        "La cita solo puede crearse desde la Bandeja de entrada.",
+        "La cita requiere una cuenta de Exchange Server.",
+        "La reunión incluye a otras personas y puede incluir recursos como salas de conferencias."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En Outlook las citas no son lo mismo que las reuniones: la reunión implica a otras personas y, en su caso, recursos como salas.",
+      "excerpt": "En Outlook, las citas no son lo mismo que las reuniones. […] En Outlook, una reunión incluye a otras personas y puede incluir recursos como salas de conferencias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tareas básicas · Tarea",
+      "stem": "¿Qué método abreviado de teclado crea una tarea en Outlook?",
+      "options": [
+        "Ctrl + Mayús + T.",
+        "Ctrl + Mayús + A.",
+        "Ctrl + Mayús + M.",
+        "Ctrl + Mayús + K."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Ctrl + Mayús + K crea una tarea; Ctrl + Mayús + A, una cita, y Ctrl + Mayús + M, un mensaje.",
+      "excerpt": "Para crear una tarea, presione Ctrl+Mayús+K.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

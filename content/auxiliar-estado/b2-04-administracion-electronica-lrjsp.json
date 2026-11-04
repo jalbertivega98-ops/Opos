@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-04-administracion-electronica-lrjsp-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.4 Administración electrónica y servicios al ciudadano",
+    "topic_slug": "age-aux-b2-04-administracion-electronica",
+    "locale": "es",
+    "category": "age_aux_b2_04_administracion_electronica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 38.1 LRJSP",
+      "stem": "De acuerdo con el artículo 38.1 de la Ley 40/2015, la sede electrónica es:",
+      "options": [
+        "El punto de acceso electrónico que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente.",
+        "El sistema de información para la notificación electrónica gestionado por la Administración General del Estado.",
+        "Aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a uno o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias.",
+        "El conjunto de sistemas y servicios que sustenta la gestión, custodia y recuperación de los documentos electrónicos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 38.1 LRJSP define la sede electrónica. La segunda opción es la definición de portal de internet (art. 39 LRJSP); la tercera, la Dirección Electrónica Habilitada única; la cuarta, el archivo electrónico único.",
+      "excerpt": "1. La sede electrónica es aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 38.6 LRJSP",
+      "stem": "Según el artículo 38.6 de la Ley 40/2015, para identificarse y garantizar una comunicación segura, las sedes electrónicas utilizarán:",
+      "options": [
+        "Certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente.",
+        "El sello electrónico del Ministerio competente en materia de función pública.",
+        "Un código seguro de verificación por cada página.",
+        "La firma electrónica del titular del órgano responsable de la sede."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 38.6 LRJSP exige certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente.",
+      "excerpt": "6. Las sedes electrónicas utilizarán, para identificarse y garantizar una comunicación segura con las mismas, certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-12-internet-ms_dns-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.12 La red Internet y los navegadores",
+    "topic_slug": "age-aux-b2-12-internet",
+    "locale": "es",
+    "category": "age_aux_b2_12_internet",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Sistema de nombres de dominio (DNS) en Windows y Windows Server",
+      "url": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DNS · Resolución de nombres",
+      "stem": "Según la documentación de Microsoft, ¿cuál es la función del cliente DNS?",
+      "options": [
+        "Cifrar el tráfico entre el navegador y el servidor web.",
+        "Convertir los nombres de equipo en direcciones IP.",
+        "Asignar direcciones de correo electrónico a los usuarios.",
+        "Bloquear los sitios web de suplantación de identidad."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "DNS es el servicio de resolución de nombres: traduce nombres de equipo o de dominio a direcciones IP.",
+      "excerpt": "Convierte los nombres de equipo en direcciones IP.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DNS · Modelo TCP/IP",
+      "stem": "Según Microsoft, ¿en qué capa del modelo de referencia TCP/IP se sitúa DNS?",
+      "options": [
+        "En la capa de transporte.",
+        "En la capa de Internet.",
+        "En la capa de aplicación.",
+        "En la capa de acceso a la red."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La documentación de Windows Server sitúa DNS en la capa de aplicación del modelo TCP/IP.",
+      "excerpt": "DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP, como se muestra en la ilustración siguiente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

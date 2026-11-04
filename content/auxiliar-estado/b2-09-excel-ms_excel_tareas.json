@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_tareas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tareas básicas en Excel",
+      "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tareas básicas en Excel (libros)",
+      "stem": "¿Cómo se denominan los documentos de Excel?",
+      "options": [
+        "Hojas de datos.",
+        "Libros.",
+        "Plantillas.",
+        "Cuadernos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft indica que los documentos de Excel se denominan libros; cada libro contiene hojas de cálculo.",
+      "excerpt": "Los documentos de Excel se denominan libros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tareas básicas en Excel (fórmulas)",
+      "stem": "Para indicar a Excel que una celda contendrá una fórmula, esta debe comenzar por:",
+      "options": [
+        "El signo igual (=).",
+        "El signo de dólar ($).",
+        "El apóstrofo (').",
+        "El signo de almohadilla (#)."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Para crear una fórmula se selecciona una celda y se escribe primero el signo igual.",
+      "excerpt": "Seleccione una celda y después escriba un signo igual (=). […] Esto indica a Excel que la celda contendrá una fórmula.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tareas básicas en Excel (Autosuma)",
+      "stem": "Según la página de tareas básicas de Excel, el botón Autosuma de la pestaña Inicio se encuentra en el grupo:",
+      "options": [
+        "Número.",
+        "Edición.",
+        "Celdas.",
+        "Estilos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft indica: pestaña Inicio > grupo Edición > Autosuma, que suma los números y muestra el resultado en la celda seleccionada.",
+      "excerpt": "Haga clic en la pestaña Inicio y después haga clic en Autosuma en el grupo Edición.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Personalización: complementos",
+      "stem": "Para gestionar los complementos de Excel, Microsoft indica que hay que ir a:",
+      "options": [
+        "La pestaña Datos, grupo Herramientas de datos.",
+        "La pestaña Vista, grupo Ventana.",
+        "La pestaña Archivo, Opciones y la categoría Complementos.",
+        "La pestaña Revisar, grupo Proteger."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Los complementos se administran desde Archivo > Opciones > categoría Complementos.",
+      "excerpt": "En la pestaña Archivo, elija Opciones y, a continuación, elija la categoría Complementos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
