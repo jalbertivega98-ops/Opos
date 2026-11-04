@@ -26,6 +26,9 @@ import { ExerciseSample } from "@/components/landing/exercise-sample";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies } from "@/lib/catalog/queries";
 import { cn } from "@/lib/utils";
+import type { Metadata } from "next";
+import { JsonLd, faqLd, organizationLd, websiteLd } from "@/lib/seo/json-ld";
+import { pageMetadata } from "@/lib/seo/site";
 
 const FAQ = ["1", "2", "3", "4", "5"] as const;
 const STEPS = [
@@ -39,6 +42,18 @@ const TRUST = [
   { key: "independent", icon: Scale },
 ] as const;
 
+export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo.home" });
+  return pageMetadata({
+    path: "/",
+    locale,
+    title: t("title"),
+    description: t("description"),
+    absoluteTitle: true,
+  });
+}
+
 export default async function Landing({ params, searchParams }: PageProps<"/[locale]">) {
   const { locale } = await params;
   const { cuenta } = await searchParams;
@@ -47,8 +62,18 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
   const tNotice = await getTranslations("landingNotice");
   const exams = await listExamBodies({}, 6);
 
+  const tSeo = await getTranslations("seo");
+  const faqItems = FAQ.map((n) => ({ q: t(`faq.q${n}`), a: t(`faq.a${n}`) }));
+
   return (
     <>
+      <JsonLd
+        data={[
+          organizationLd(tSeo("org")),
+          websiteLd(locale, tSeo("home.description")),
+          faqLd(faqItems),
+        ]}
+      />
       {cuenta === "eliminada" && (
         <div
           role="status"

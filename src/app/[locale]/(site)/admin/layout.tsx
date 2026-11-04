@@ -1,7 +1,11 @@
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { requireAdmin } from "@/lib/auth/session";
+
+/** Zona privada o sin contenido para buscadores (ADR-025). */
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 /** Zona de administración: solo admin/owner (comprobado en servidor + RLS). */
 export default async function AdminLayout({
@@ -15,6 +19,7 @@ export default async function AdminLayout({
   await requireAdmin(locale);
   const t = await getTranslations("adminUsers");
   const tc = await getTranslations("adminContent");
+  const tt = await getTranslations("adminTraffic");
   const links = [
     { href: "/admin", label: t("overviewLink") },
     { href: "/admin/alumnos", label: t("title") },
@@ -24,6 +29,7 @@ export default async function AdminLayout({
     { href: "/admin/revision/fichas", label: tc("navNotes") },
     { href: "/admin/productos", label: tc("navProducts") },
     { href: "/admin/compras", label: tc("navPurchases") },
+    { href: "/admin/trafico", label: tt("nav") },
   ];
   return (
     <div>

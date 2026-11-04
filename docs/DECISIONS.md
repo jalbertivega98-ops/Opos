@@ -124,3 +124,16 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Decisión:** a petición de joel, la web usa un contenedor ancho (`.wrap`, hasta 1600 px). La portada anima cada sección al bajar con efectos variados, inspirados en speak.com. Se usa IntersectionObserver para las apariciones y scroll-driven animations para la deriva y el crecimiento de la franja. El diseño y el contenido de ADR-018 no cambian.
 **Motivo:** que la página no se vea siempre igual al recorrerla y aproveche las pantallas grandes.
 **Consecuencias:** `html` y `body` llevan `overflow-x: clip` para que los efectos laterales no generen scroll horizontal. Todo queda estático con «reducir movimiento».
+
+## ADR-025 · SEO y GEO: rastreable solo en producción y con datos oficiales verificados (2026-11-04)
+
+**Decisión:** a petición de joel, la web se prepara para buscadores y asistentes de IA (ChatGPT, Gemini, Perplexity) sin cambiar funciones existentes:
+(1) `robots.txt`, `sitemap.xml` (con hreflang es/ca) y etiquetas `robots` dependen de `isIndexable()`: solo se indexa en producción, con `https` y **sin** `PREVIEW_PASSWORD`. Mientras haya contraseña, robots.txt bloquea todo y todas las páginas son `noindex`, así que al quitarla (y redesplegar) se abre sola.
+(2) Cada página pública tiene canonical, hreflang (es, ca, x-default), Open Graph e imagen para compartir. Zonas privadas, acceso, legales en borrador, búsquedas del catálogo y fichas «próximamente» sin guía son `noindex`.
+(3) Guías públicas en `/oposiciones/[slug]` (Mossos y Auxiliar del Estado) y 12 páginas `/psicotecnicos/[tipo]` con entrenador gratuito, método y preguntas frecuentes. Los datos de examen salen de `docs/research/` (fuentes oficiales leídas el 03-04/11/2026) y llevan fecha de verificación y enlaces. El contenido largo vive en `src/lib/seo/*.ts` con sus dos idiomas; las etiquetas de la interfaz, en `messages`.
+(4) Schema.org: EducationalOrganization, WebSite, FAQPage, BreadcrumbList, WebPage con `citation` y LearningResource/Quiz. Sin valoraciones, testimonios, precios ni cifras de alumnos.
+(5) `/llms.txt` resume la academia para asistentes de IA.
+(6) Analítica propia de captación: el proxy clasifica la página de entrada por origen (buscador, IA, red social, otra web, directo) y los rastreadores por User-Agent, y suma contadores diarios en `traffic_daily` con la clave de servicio (`track_traffic`, solo service_role). Sin cookies, IP ni identificadores: no requiere consentimiento. Se consulta en `/admin/trafico`.
+(7) Verificación de Google Search Console y Bing por variables de entorno (`GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`) e IndexNow (`INDEXNOW_KEY`, `/indexnow.txt`, `scripts/seo/indexnow.mjs`).
+**Motivo:** aumentar la visibilidad orgánica y las opciones de aparecer como fuente citada por asistentes de IA, sin inventar nada (CONTENT_POLICY) y sin exponer la preview privada.
+**Consecuencias:** al cambiar una convocatoria hay que actualizar `src/lib/seo/exam-guides.ts` y su documento de investigación. Los rastreadores de entrenamiento (GPTBot, ClaudeBot, CCBot, Google-Extended) están permitidos por la regla general: bloquearlos es una decisión de negocio pendiente de joel. Google no distingue en el origen las visitas de AI Overviews o del modo IA.

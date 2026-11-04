@@ -1,4 +1,8 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+
+/** Zona privada o sin contenido para buscadores (ADR-025). */
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 export default async function SuspendedPage({ params }: PageProps<"/[locale]/cuenta-suspendida">) {
   const { locale } = await params;

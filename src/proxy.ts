@@ -1,13 +1,19 @@
 import createIntlMiddleware from "next-intl/middleware";
-import { NextResponse, type NextRequest } from "next/server";
+import { NextResponse, type NextFetchEvent, type NextRequest } from "next/server";
 import { routing } from "@/i18n/routing";
 import { refreshSession } from "@/lib/supabase/session";
 import { isProtectedPath, stripLocale } from "@/lib/paths";
 import { previewGate } from "@/lib/preview";
+import { hitFromRequest, recordHit } from "@/lib/analytics/track";
 
 const intl = createIntlMiddleware(routing);
 
-export async function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest, event: NextFetchEvent) {
+  // Analítica de captación (buscadores, IA, rastreadores) en segundo plano, ADR-025.
+  // Va antes de la contraseña de preview para ver también a los rastreadores rechazados.
+  const hit = request.method === "GET" ? hitFromRequest(request) : null;
+  if (hit) event.waitUntil(recordHit(hit));
+
   const denied = previewGate(request);
   if (denied) return denied;
   const response = intl(request);

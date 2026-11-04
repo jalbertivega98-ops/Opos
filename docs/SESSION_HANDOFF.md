@@ -1,8 +1,25 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-04 · Sesión 3 (+ Auxiliar del Estado calibrado con los exámenes reales del INAP)
+**Última actualización:** 2026-11-04 · Sesión 3 (+ SEO y GEO, ADR-025)
 
 ## Estado exacto
+
+### SEO y GEO (2026-11-04, rama `claude/project-thread-h5od90`, MKT-002, ADR-025)
+
+- joel pidió una auditoría SEO/GEO completa sin cambiar funciones. Guía de mantenimiento en `docs/SEO.md`.
+- **Hecho:**
+  - `robots.txt`, `sitemap.xml` y `llms.txt`. Canonical, hreflang, Open Graph e imagen social. `noindex` en zonas privadas.
+  - Todo depende de `isIndexable()`: con `PREVIEW_PASSWORD` nada es indexable. **Hoy ningún rastreador puede entrar.**
+  - Guías por oposición (`src/lib/seo/exam-guides.ts`, solo datos de `docs/research/`) y 12 páginas `/psicotecnicos/[tipo]`.
+  - Schema.org (Organization, WebSite, FAQPage, BreadcrumbList, WebPage, Quiz).
+  - Analítica de captación sin cookies: migración `20261104000200_traffic_analytics.sql`, preview `22-` y panel `/admin/trafico`.
+  - Verificación de Search Console y Bing, e IndexNow, por variables de entorno.
+- **Siguiente (requiere a joel):**
+  - Quitar la contraseña cuando quiera abrir la web y redesplegar.
+  - Dar de alta Search Console (TXT en Cloudflare) y Bing, y enviar el sitemap.
+  - Decidir si se bloquean los rastreadores de entrenamiento (GPTBot, ClaudeBot…).
+  - Decidir si se publica una muestra gratuita del temario.
+  - Revisar el contenido de las guías.
 
 ### Marca OPOSAPRUEBA y letra seria (2026-11-04, rama `claude/project-thread-0diwv3`, ADR-023)
 
