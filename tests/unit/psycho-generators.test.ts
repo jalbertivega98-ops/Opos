@@ -16,7 +16,7 @@ const sample = (type: PsychoType, n = 60) =>
   DIFFS.flatMap((d) => Array.from({ length: n }, (_, i) => generateItem(type, i * 104729 + d, d)));
 
 describe("todos los generadores", () => {
-  it("están registrados los 7 tipos pedidos", () => {
+  it("están registrados los 7 tipos generales y los 5 del formato AGE", () => {
     expect(availableTypes()).toEqual([
       "series",
       "letters",
@@ -25,6 +25,11 @@ describe("todos los generadores", () => {
       "matrices",
       "spatial",
       "attention",
+      "percentages",
+      "equations",
+      "probability",
+      "codes",
+      "tables",
     ]);
   });
 
@@ -78,8 +83,11 @@ describe("todos los generadores", () => {
         expect(t(`types.${type}.name`)).not.toMatch(/psycho\./);
         for (const item of sample(type, 10)) {
           const p = item.presentation;
-          if (p.kind === "text" || p.kind === "grid")
+          if (p.kind === "text" || p.kind === "grid" || p.kind === "table")
             expect(t(`problems.${p.key}`, p.values)).not.toMatch(/\{/);
+          if (p.kind === "table")
+            for (const h of p.header)
+              expect((messages.psycho.words as Record<string, string>)[h.slice(2)], h).toBeTruthy();
           if (p.kind === "figure") expect(t(`figures.${p.key}`)).toBeTruthy();
           const text = t(`rules.${item.explanation.key}`, item.explanation.values);
           expect(text, `${locale} ${item.explanation.key}`).not.toMatch(/\{|psycho\./);

@@ -47,7 +47,7 @@ CE, LOTC, LO 3/1981 (Defensor del Pueblo), LOPJ, Ley 50/1997 (Gobierno), Ley 19/
 Ley 7/1985, Ley 39/2015, Ley 29/1998, LO 3/2018, TREBEP, Ley 47/2003, LO 3/2007, LO 1/2004,
 Ley 4/2023, RDL 1/2013, Ley 39/2006.
 
-**Ampliación (04/11/2026):** tema 6 con RD 371/2026 (Foro de Gobierno Abierto), Orden PCI/383/2019 y la página de la ONU de los ODS; tema 10 con TUE y TFUE de EUR-Lex. Bloque II, temas 1-4: RD 208/1996, RD 366/2007, RD 951/2005, LO 4/2001, RD 1708/2011, RD 203/2021, RD 1112/2018 y Ley 39/2015. Ofimática (temas 5-12): 59 páginas del soporte oficial de Microsoft en español (ver `fuentes-web.json`). Sin cubrir: Ventanilla Única Empresarial, criterios de ordenación de archivos, Registro Central de Personal y Seguridad Social de los funcionarios, porque no están en las fuentes.
+**Ampliación (04/11/2026):** tema 6 con RD 371/2026 (Foro de Gobierno Abierto), Orden PCI/383/2019 y la página de la ONU de los ODS; tema 10 con TUE y TFUE de EUR-Lex. Bloque II, temas 1-4: RD 208/1996, RD 366/2007, RD 951/2005, LO 4/2001, RD 1708/2011, RD 203/2021, RD 1112/2018 y Ley 39/2015. Ofimática (temas 5-12): 59 páginas del soporte oficial de Microsoft en español (ver `fuentes-web.json`). Seguridad y redes (temas II.5 y II.12): glosario de ciberseguridad del INCIBE (2021), leído en el Chrome de joel. Sin cubrir: Ventanilla Única Empresarial, criterios de ordenación de archivos, Registro Central de Personal y Seguridad Social de los funcionarios, porque no están en las fuentes.
 
 ## Estilo de las preguntas
 

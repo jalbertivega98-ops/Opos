@@ -98,9 +98,11 @@ export default async function LibraryPage({
                       <input type="hidden" name="productId" value={it.product_id} />
                       <p className="text-muted-foreground text-xs" data-testid="mock-format">
                         {t(
-                          formats.get(it.product_id)?.penalty === 0
-                            ? "library.mockFormatNoPenalty"
-                            : "library.mockFormat",
+                          formats.get(it.product_id)?.kind === "sections"
+                            ? "library.mockFormatSections"
+                            : formats.get(it.product_id)?.penalty === 0
+                              ? "library.mockFormatNoPenalty"
+                              : "library.mockFormat",
                           {
                             questions: formats.get(it.product_id)?.questions ?? 30,
                             minutes: formats.get(it.product_id)?.minutes ?? 35,

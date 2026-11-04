@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-incibe_glosario-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Glosario de términos de ciberseguridad: una guía de aproximación para el empresario (2021)",
+      "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Glosario INCIBE · Insider",
+      "stem": "Según el glosario de ciberseguridad del INCIBE, ¿qué es un insider?",
+      "options": [
+        "Una persona ajena a la organización que provoca un incidente de seguridad de forma intencionada.",
+        "Una persona perteneciente a una organización que divulga información sensible sobre ella de forma intencionada.",
+        "Una persona perteneciente a una organización que provoca un incidente de seguridad de forma accidental.",
+        "Un programa malicioso que se instala dentro de la red de la organización sin que lo detecte el antivirus."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El INCIBE define el insider como una persona de la propia organización que divulga información sensible de forma intencionada: es interno y actúa a propósito.",
+      "excerpt": "Persona perteneciente a una organización o empresa que divulga información sensible sobre dicha empresa de forma intencionada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Ransomware",
+      "stem": "El malware que «secuestra» un dispositivo o la información que contiene, de forma que la víctima no puede acceder a ella si no paga un rescate, se denomina:",
+      "options": [
+        "Spyware.",
+        "Rootkit.",
+        "Adware.",
+        "Ransomware."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Es el ransomware. El spyware recopila información sin consentimiento, el rootkit da acceso oculto con permisos de administrador y el adware se apoya en anuncios.",
+      "excerpt": "Malware cuya funcionalidad es «secuestrar» un dispositivo (en sus inicios) o la información que contiene de forma que si la víctima no paga el rescate, no podrá acceder a ella.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Spyware",
+      "stem": "Según el INCIBE, el malware que recopila información de un ordenador y la envía a una entidad remota sin el conocimiento ni el consentimiento de su propietario es:",
+      "options": [
+        "El gusano.",
+        "El ransomware.",
+        "El spyware.",
+        "La botnet."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Es el spyware o programa espía. El gusano se propaga solo, el ransomware pide un rescate y una botnet es un conjunto de equipos controlados a distancia.",
+      "excerpt": "Es un malware que recopila información de un ordenador y después la envía a una entidad remota sin el conocimiento o el consentimiento del propietario del ordenador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Keylogger",
+      "stem": "¿Qué tipo de spyware monitoriza toda la actividad realizada con el teclado para enviarla después al ciberdelincuente?",
+      "options": [
+        "Keylogger.",
+        "Rootkit.",
+        "Sniffer.",
+        "Exploit."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El keylogger registra las teclas pulsadas. El rootkit da acceso continuo y oculto con permisos de administrador; el sniffer captura el tráfico de la red; el exploit aprovecha una vulnerabilidad.",
+      "excerpt": "Es un tipo de spyware que se encarga de monitorizar toda la actividad realizada con el teclado (teclas que se pulsan) para luego enviarla al ciberdelincuente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Gusano",
+      "stem": "Según el INCIBE, ¿qué diferencia a un gusano de un troyano?",
+      "options": [
+        "El gusano necesita que el usuario ejecute un fichero infectado para propagarse.",
+        "El gusano solo infecta los sectores de arranque de los dispositivos de almacenamiento.",
+        "El gusano cifra la información del equipo y pide un rescate.",
+        "El gusano hace copias de sí mismo y se propaga automáticamente por la red sin necesidad de acción humana."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Los troyanos dependen de que el usuario acceda a una web maliciosa o ejecute un fichero infectado; los gusanos se copian y se propagan solos, con independencia de la acción humana.",
+      "excerpt": "Mientras que los troyanos dependen de que un usuario acceda a una web maliciosa o ejecute un fichero infectado, los gusanos realizan copias de sí mismos, infectan a otros ordenadores y se propagan automáticamente en una red independientemente de la acción humana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · SGSI",
+      "stem": "Según el glosario del INCIBE, un Sistema de Gestión de la Seguridad de la Información (SGSI) es un conjunto de políticas de seguridad de la información que siguen la norma:",
+      "options": [
+        "ISO/IEC 27001.",
+        "ISO 9001.",
+        "ISO 14001.",
+        "ISO/IEC 20000."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El SGSI sigue la norma ISO/IEC 27001. La ISO 9001 es de gestión de la calidad, la 14001 de gestión ambiental y la ISO/IEC 20000 de gestión de servicios de TI.",
+      "excerpt": "Un Sistema de Gestión de la seguridad de la Información (SGSI) es un conjunto de políticas de seguridad de la información que siguen la norma ISO/IEC 27001.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Doble factor de autenticación",
+      "stem": "¿Cómo define el INCIBE el doble factor de autenticación?",
+      "options": [
+        "El uso de dos contraseñas distintas para la misma cuenta.",
+        "Una autenticación básica a la que se añade otro factor, como un código enviado al móvil o la huella dactilar.",
+        "La comprobación de la identidad del usuario por dos personas de la organización.",
+        "El cifrado de la contraseña con dos claves, una pública y otra privada."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Es una autenticación básica reforzada con otro factor (código al móvil, huella, OTP), más segura que la autenticación simple.",
+      "excerpt": "Esquema de autenticación básica a la que se añade otro factor como puede ser un código enviado a un móvil, huella dactilar, sistema OTP, etc., más seguro que la autenticación simple.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Cortafuegos",
+      "stem": "El sistema de seguridad, de software o hardware, situado en los puntos limítrofes de una red para permitir y limitar el flujo de tráfico según un conjunto de normas se denomina:",
+      "options": [
+        "Proxy.",
+        "Red privada virtual.",
+        "Cortafuegos (firewall).",
+        "Antivirus."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Es el cortafuegos o firewall. El proxy hace de intermediario entre la red local e Internet, la VPN extiende una red local de forma segura sobre Internet y el antivirus evita ejecutar software malicioso.",
+      "excerpt": "Sistema de seguridad compuesto o bien de programas (software) o de dispositivos hardware situados en los puntos limítrofes de una red que tienen el objetivo de permitir y limitar, el flujo de tráfico entre los diferentes ámbitos que protege sobre la base de un conjunto de normas y otros criterios.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

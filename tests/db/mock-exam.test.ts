@@ -406,4 +406,116 @@ describe("simulacros con formato oficial (MOC-001)", () => {
       expect(JSON.stringify(offer)).not.toMatch(/is_correct|stem|answer_index|explanation/);
     });
   });
+  it("simulacro por partes (AGE): banco + psicotécnicos, un solo tiempo y nota por partes", async () => {
+    await tx(async (q) => {
+      const { prefix } = await seed(q);
+      const config = (n1: number) => ({
+        kind: "sections",
+        minutes: 90,
+        penalty: 0.3333,
+        pass_mark: 50,
+        max_mark: 100,
+        locale: "ca",
+        cutoffs: { "1": 2, "2": 1 },
+        parts: [
+          { part: 1, questions: n1, topic_prefix: `${prefix}-a` },
+          { part: 1, questions: 2, psycho: true, item_types: { tables: 1, codes: 1 } },
+          { part: 2, questions: 3, topic_prefix: `${prefix}-c` },
+        ],
+      });
+      const product = async (n1: number) =>
+        (
+          await q(
+            `insert into public.products (slug, type, status, title, included_in_premium, config)
+             values ($1, 'mock_exam', 'published', 'Exercici únic', false, $2::jsonb) returning id`,
+            [`${prefix}-unic-${n1}`, JSON.stringify(config(n1))],
+          )
+        ).rows[0].id as string;
+      const pid = await product(2);
+      const big = await product(5); // más preguntas de las que hay en el tema a
+      await grant(q, pid);
+      await grant(q, big);
+      const fmt = (
+        await q("select public.mock_config(config) as c from public.products where id = $1", [pid])
+      ).rows[0].c;
+      expect(fmt).toMatchObject({ kind: "sections", questions: 7, minutes: 90 });
+
+      const item = (answer: number) => ({
+        item_type: "codes",
+        difficulty: 2,
+        seed: 99 + answer,
+        generator_version: 1,
+        presented: {
+          presentation: { kind: "text", key: "codes", values: { map: "a=0001", code: "0001" } },
+          options: ["a", "b", "c", "d"],
+        },
+        answer_index: answer,
+        explanation: { key: "codes", values: { answer: "a" } },
+      });
+      await fails(q, "select public.mock_start($1, $2)", [student.id, pid], /servidor/);
+      await fails(
+        q,
+        "select public.mock_start_sections($1, $2, $3::jsonb)",
+        [student.id, pid, JSON.stringify([item(0)])],
+        /Número/,
+      );
+      await fails(
+        q,
+        "select public.mock_start_sections($1, $2, $3::jsonb)",
+        [student.id, big, JSON.stringify([item(0), item(1)])],
+        /suficientes/,
+      );
+      const aid = (
+        await q("select public.mock_start_sections($1, $2, $3::jsonb) as id", [
+          student.id,
+          pid,
+          JSON.stringify([item(0), item(1)]),
+        ])
+      ).rows[0].id as string;
+      const items = (
+        await q(
+          "select position, part, topic_slug, item_type from public.mock_attempt_items where attempt_id = $1 order by position",
+          [aid],
+        )
+      ).rows;
+      expect(items.map((i) => [i.position, i.part, i.item_type ?? i.topic_slug])).toEqual([
+        [0, 1, `${prefix}-a`],
+        [1, 1, `${prefix}-a`],
+        [2, 1, "codes"],
+        [3, 1, "codes"],
+        [4, 2, `${prefix}-c`],
+        [5, 2, `${prefix}-c`],
+        [6, 2, `${prefix}-c`],
+      ]);
+
+      // parte 1: 2 aciertos y 2 fallos → 1,33 < corte 2; parte 2: 2 aciertos → 2 ≥ corte 1
+      for (const [pos, choice] of [
+        [0, 1],
+        [1, 0],
+        [2, 0],
+        [3, 0],
+        [4, 1],
+        [5, 1],
+      ])
+        await save(q, aid, pos, choice);
+      const r = (await q("select * from public.mock_submit($1, $2)", [student.id, aid])).rows[0];
+      expect(r).toMatchObject({ correct: 4, wrong: 2, blank: 1, void: 0, passed: false });
+      const parts = (await q("select part_results from public.mock_attempts where id = $1", [aid]))
+        .rows[0].part_results;
+      expect(parts).toEqual([
+        expect.objectContaining({ part: 1, correct: 2, wrong: 2, direct: 1.33, passed: false }),
+        expect.objectContaining({
+          part: 2,
+          correct: 2,
+          wrong: 0,
+          blank: 1,
+          direct: 2,
+          passed: true,
+        }),
+      ]);
+      expect(Number(parts[0].grade)).toBeCloseTo(16.63, 1);
+      expect(Number(parts[1].grade)).toBe(37.5);
+      expect(Number(r.mark)).toBeCloseTo(54.13, 1);
+    });
+  });
 });

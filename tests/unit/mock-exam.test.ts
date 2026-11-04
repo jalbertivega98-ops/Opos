@@ -54,4 +54,27 @@ describe("simulacro de psicotécnicos", () => {
     const all = buildPsychoMock(14, () => (s = (s * 48271) % 2147483647), "x");
     expect(new Set(all.map((i) => i.item_type)).size).toBe(7);
   });
+
+  it("respeta las cantidades por tipo y las agrupa en bloques (formato AGE)", async () => {
+    const { buildPsychoMock, psychoSlots } = await import("@/lib/learning/mock/psycho");
+    let s = 3;
+    // el orden de las claves no importa (jsonb lo cambia): manda el del registro
+    const mix = { tables: 12, codes: 3, series: 3, equations: 4, probability: 3, percentages: 5 };
+    const items = buildPsychoMock(30, () => (s = (s * 48271) % 2147483647), mix);
+    const order = ["series", "percentages", "equations", "probability", "codes", "tables"] as const;
+    expect(items.map((i) => i.item_type)).toEqual(
+      order.flatMap((t) => Array.from({ length: mix[t] }, () => t)),
+    );
+    // dificultad creciente dentro de cada bloque
+    const tables = items.filter((i) => i.item_type === "tables").map((i) => i.difficulty);
+    expect(tables[0]).toBe(1);
+    expect(tables.at(-1)).toBe(5);
+    // proporcional si no suman lo pedido; tipos desconocidos se ignoran
+    expect(psychoSlots(10, { tables: 2, numeric: 2, nope: 5 })).toHaveLength(10);
+    expect(psychoSlots(3, { tables: 1, codes: 1, equations: 1 })).toEqual([
+      "equations",
+      "codes",
+      "tables",
+    ]);
+  });
 });

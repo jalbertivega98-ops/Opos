@@ -1,6 +1,6 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-04 · Sesión 3 (+ Auxiliar Administrativo del Estado completo: Bloques I y II)
+**Última actualización:** 2026-11-04 · Sesión 3 (+ Auxiliar del Estado calibrado con los exámenes reales del INAP)
 
 ## Estado exacto
 
@@ -22,7 +22,17 @@
   - `17-` publica todo `age-aux-*` como `15-`.
   - Los archivos de contenido se llaman ahora `b1-NN-…` / `b2-NN-…`.
 - **Dudosas:** joel pidió publicarlas («Súbelas»). Se aclararon en su explicación (`18-`) y se publicaron (`19-`): ya están publicadas las 549.
-- **Siguiente:** que joel fije el precio del pack. Calibrar estilo y dificultad con los exámenes oficiales del INAP de convocatorias anteriores, que no se han revisado. Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
+- **Calibración con los exámenes reales (CNT-014, ADR-022):**
+  - Se leyeron en el Chrome de joel el examen de 2025 (23/05/2026) y el de 2024 del INAP, con sus plantillas, criterios y cortes. Análisis en `docs/research/auxiliar-estado-examenes.md`.
+  - 5 generadores nuevos de psicotécnicos con el formato AGE (`percentages`, `equations`, `probability`, `codes`, `tables`) y `item_types` con cantidades por tipo.
+  - Simulacro completo por partes (`age-aux-simulacro-completo-2026`, `kind: "sections"`, migración `20261104000100_sectioned_mock.sql`): 110 preguntas en 90 min, con nota por partes y los cortes de 2025 (29 y 21,33).
+  - 13 preguntas de seguridad y redes del glosario del INCIBE (562 en total).
+  - Preview: `20-` (migración + productos) y `21-` (preguntas nuevas publicadas).
+- **Siguiente:**
+  - Que joel fije el precio del pack.
+  - Banco verbal (sinónimos, antónimos y ortografía, unas 10 de 30 psicotécnicas) comprobado con el DLE en el Chrome de joel.
+  - Actualizar los cortes cuando salga una convocatoria nueva.
+  - Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
 
 ### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
 
