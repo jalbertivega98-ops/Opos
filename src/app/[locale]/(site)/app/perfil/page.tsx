@@ -4,7 +4,12 @@ import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
-import { DeleteAccountForm, ProfileForm } from "@/components/account-forms";
+import {
+  ChangeEmailForm,
+  ChangePasswordForm,
+  DeleteAccountForm,
+  ProfileForm,
+} from "@/components/account-forms";
 import { requireUser } from "@/lib/auth/session";
 import { createClient } from "@/lib/supabase/server";
 
@@ -53,6 +58,20 @@ export default async function ProfilePage({
           locale={profile.locale}
           marketingConsent={consent?.marketing_consent ?? false}
         />
+      </Card>
+
+      <Card>
+        <h2 className="text-lg font-semibold">{t("securityTitle")}</h2>
+        <p className="text-muted-foreground mt-1 mb-4 text-sm">{t("securityBody")}</p>
+        <ChangePasswordForm />
+      </Card>
+
+      <Card>
+        <h2 className="text-lg font-semibold">{t("emailTitle")}</h2>
+        <p className="text-muted-foreground mt-1 mb-4 text-sm">
+          {t("emailBody", { email: user.email ?? "" })}
+        </p>
+        <ChangeEmailForm />
       </Card>
 
       <Card>

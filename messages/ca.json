@@ -450,8 +450,22 @@
     "errors": {
       "wrongPassword": "Contrasenya incorrecta.",
       "required": "Camp obligatori.",
-      "confirmWord": "Escriu ELIMINAR en majúscules."
-    }
+      "confirmWord": "Escriu ELIMINAR en majúscules.",
+      "sameEmail": "Aquest ja és el teu correu actual."
+    },
+    "securityTitle": "Contrasenya",
+    "securityBody": "Per canviar-la necessitem la teva contrasenya actual.",
+    "currentPassword": "Contrasenya actual",
+    "newPassword": "Nova contrasenya",
+    "confirmNewPassword": "Repeteix la nova contrasenya",
+    "passwordHint": "Mínim 8 caràcters, amb almenys una lletra i un número.",
+    "changePasswordSubmit": "Canvia la contrasenya",
+    "passwordChanged": "Contrasenya canviada. La propera vegada entra amb la nova.",
+    "emailTitle": "Correu electrònic",
+    "emailBody": "Ara fas servir {email}. T'enviarem un enllaç per confirmar el nou correu; el canvi no s'aplica fins que el confirmis.",
+    "newEmail": "Nou correu electrònic",
+    "changeEmailSubmit": "Canvia el correu",
+    "emailChangeSent": "T'hem enviat un enllaç de confirmació. Revisa la safata (també la del correu actual) i prem l'enllaç per completar el canvi."
   },
   "landingNotice": {
     "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."

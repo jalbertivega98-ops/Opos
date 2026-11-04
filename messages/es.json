@@ -450,8 +450,22 @@
     "errors": {
       "wrongPassword": "Contraseña incorrecta.",
       "required": "Campo obligatorio.",
-      "confirmWord": "Escribe ELIMINAR en mayúsculas."
-    }
+      "confirmWord": "Escribe ELIMINAR en mayúsculas.",
+      "sameEmail": "Ese ya es tu correo actual."
+    },
+    "securityTitle": "Contraseña",
+    "securityBody": "Para cambiarla necesitamos tu contraseña actual.",
+    "currentPassword": "Contraseña actual",
+    "newPassword": "Nueva contraseña",
+    "confirmNewPassword": "Repite la nueva contraseña",
+    "passwordHint": "Mínimo 8 caracteres, con al menos una letra y un número.",
+    "changePasswordSubmit": "Cambiar contraseña",
+    "passwordChanged": "Contraseña cambiada. La próxima vez entra con la nueva.",
+    "emailTitle": "Correo electrónico",
+    "emailBody": "Ahora usas {email}. Te enviaremos un enlace para confirmar el nuevo correo; el cambio no se aplica hasta que lo confirmes.",
+    "newEmail": "Nuevo correo electrónico",
+    "changeEmailSubmit": "Cambiar correo",
+    "emailChangeSent": "Te hemos enviado un enlace de confirmación. Revisa tu bandeja (también la del correo actual) y pulsa el enlace para completar el cambio."
   },
   "landingNotice": {
     "deleted": "Tu cuenta se ha eliminado. Gracias por haber confiado en nosotros."
