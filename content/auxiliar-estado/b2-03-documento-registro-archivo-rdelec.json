@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-03-documento-registro-archivo-rdelec-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.3 Documento, registro y archivo",
+    "topic_slug": "age-aux-b2-03-documento-registro-archivo",
+    "locale": "es",
+    "category": "age_aux_b2_03_documento_registro_archivo",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 203/2021, de 30 de marzo, Reglamento de actuación y funcionamiento del sector público por medios electrónicos (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 40.3 RDELEC",
+      "stem": "¿Cuál de las siguientes es una función de las Oficinas de asistencia en materia de registros de la Administración General del Estado, según el artículo 40.3 del Real Decreto 203/2021?",
+      "options": [
+        "La emisión del correspondiente recibo que acredite la fecha y hora de presentación de solicitudes, comunicaciones y documentos.",
+        "La resolución de los procedimientos iniciados en la propia oficina.",
+        "La custodia permanente de los originales en papel presentados.",
+        "La resolución de los recursos de alzada interpuestos en la oficina."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 40.3 RD 203/2021 atribuye a estas oficinas, entre otras funciones, la digitalización y anotación de documentos, la emisión de recibos, la expedición de copias electrónicas auténticas y la práctica de notificaciones por comparecencia espontánea.",
+      "excerpt": "c) La emisión del correspondiente recibo que acredite la fecha y hora de presentación de solicitudes, comunicaciones y documentos que presenten las personas interesadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.1 RDELEC",
+      "stem": "Según el artículo 53.1 del Real Decreto 203/2021, los documentos presentados por el interesado en soporte papel que no le puedan ser devueltos en el momento de su presentación, una vez digitalizados, serán conservados a su disposición para que pueda recogerlos durante:",
+      "options": [
+        "Tres meses, sin posibilidad de ampliación.",
+        "Seis meses, salvo que reglamentariamente se establezca un plazo mayor.",
+        "Un año, salvo que el interesado renuncie a recogerlos.",
+        "Diez días hábiles, transcurridos los cuales se destruirán."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 53.1 RD 203/2021 fija un plazo de conservación de seis meses, salvo que la Administración establezca reglamentariamente un plazo mayor.",
+      "excerpt": "1. Los documentos presentados por el interesado en soporte papel que por cualquier circunstancia no le puedan ser devueltos en el momento de su presentación, una vez digitalizados serán conservados a su disposición durante seis meses para que pueda recogerlos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

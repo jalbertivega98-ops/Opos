@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_graficos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tipos de gráfico disponibles en Office",
+      "url": "https://support.microsoft.com/es-es/excel/available-chart-types-in-office",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tipos de gráfico (circular)",
+      "stem": "Según Microsoft, un gráfico circular es adecuado cuando:",
+      "options": [
+        "Solo hay una serie de datos.",
+        "Hay varias series de datos que se quieren comparar a lo largo del tiempo.",
+        "Se quieren mostrar datos jerárquicos con varios niveles.",
+        "Se quiere mostrar la distribución de datos en cuartiles."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Los gráficos circulares muestran el tamaño de los elementos de una serie de datos en proporción a la suma de los elementos; requieren una sola serie de datos.",
+      "excerpt": "Los gráficos circulares muestran el tamaño de los elementos en una serie de datos, proporcional a la suma de los elementos. […] Solo haya una serie de datos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tipos de gráfico (cascada)",
+      "stem": "¿Qué tipo de gráfico de Excel muestra un total acumulado de los datos financieros al sumar o restar valores?",
+      "options": [
+        "Embudo.",
+        "Histograma.",
+        "Rectángulos.",
+        "Cascada."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El gráfico de cascada muestra totales acumulados sumando o restando valores; el de embudo muestra valores a través de las fases de un proceso; el histograma, frecuencias de una distribución; el de rectángulos, una vista jerárquica.",
+      "excerpt": "Un gráfico de cascada muestra un total acumulado de los datos financieros al sumar o restar valores.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

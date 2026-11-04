@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_fueraoficina-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Usar reglas para crear un mensaje de Fuera de la oficina en Outlook clásico para Windows",
+      "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Fuera de la oficina · Respuestas automáticas",
+      "stem": "Según Microsoft, si en Outlook no aparece el botón Respuestas automáticas, significa que:",
+      "options": [
+        "Outlook no está conectado a Internet en ese momento.",
+        "La cuenta de correo electrónico no admite esta característica.",
+        "Hay que crear antes una regla con Administrar reglas y alertas.",
+        "La característica está desactivada en Archivo > Opciones > Calendario."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Solo determinados tipos de cuentas admiten Respuestas automáticas (Fuera de la oficina); si falta el botón, la cuenta no la admite y puede recurrirse a una regla con plantilla.",
+      "excerpt": "Si no tiene el botón Respuestas automáticas, su cuenta de correo electrónico no admite esta característica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Fuera de la oficina · Plantilla",
+      "stem": "Para crear una regla de respuesta de «Fuera de la oficina» con una plantilla en Outlook clásico, el mensaje de respuesta se guarda con el tipo:",
+      "options": [
+        "Plantilla de Outlook (*.oft).",
+        "Mensaje de Outlook (*.msg).",
+        "Archivo de datos de Outlook (*.pst).",
+        "Documento de Word (*.docx)."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La plantilla de respuesta se guarda como «Plantilla de Outlook (*.oft)» y después se selecciona en la regla.",
+      "excerpt": "En la lista desplegable Guardar como tipo, seleccione Plantilla de Outlook (*.oft).",
+      "excerpt_status": "completo"
+    }
+  ]
+}

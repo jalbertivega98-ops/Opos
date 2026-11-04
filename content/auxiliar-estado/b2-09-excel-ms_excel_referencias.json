@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-09-excel-ms_excel_referencias-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.9 Hojas de cálculo: Excel 365",
+    "topic_slug": "age-aux-b2-09-excel",
+    "locale": "es",
+    "category": "age_aux_b2_09_excel",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cambiar entre referencias relativas, absolutas y mixtas",
+      "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Referencias relativas, absolutas y mixtas",
+      "stem": "De forma predeterminada, una referencia de celda en Excel es:",
+      "options": [
+        "Absoluta.",
+        "Relativa.",
+        "Mixta con columna absoluta.",
+        "Mixta con fila absoluta."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Por defecto las referencias son relativas: al copiar la fórmula, la referencia cambia según la posición relativa.",
+      "excerpt": "De forma predeterminada, una referencia de celda es una referencia relativa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Referencias (tecla F4)",
+      "stem": "Al editar una fórmula en Excel, tras seleccionar una referencia de celda, ¿qué tecla permite cambiar entre los tipos de referencia (relativa, absoluta y mixtas)?",
+      "options": [
+        "F2.",
+        "F9.",
+        "F4.",
+        "F3."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Microsoft indica que se selecciona la referencia y se presiona F4 para ir alternando entre los tipos de referencia.",
+      "excerpt": "Presione F4 para cambiar entre los tipos de referencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Referencias mixtas al copiar",
+      "stem": "Una fórmula contiene la referencia A$1. Si se copia dos celdas hacia abajo y dos celdas hacia la derecha, la referencia pasa a ser:",
+      "options": [
+        "A$1",
+        "A$3",
+        "C3",
+        "C$1"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "A$1 tiene columna relativa y fila absoluta: la columna se desplaza (A→C) y la fila se mantiene fija (1). El resultado es C$1, una referencia mixta.",
+      "excerpt": "A$1 (columna relativa y fila absoluta) […] C$1 (la referencia es mixta)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

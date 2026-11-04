@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_tdc-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Insertar una tabla de contenido",
+      "url": "https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tabla de contenido",
+      "stem": "Una tabla de contenido automática de Word se basa en:",
+      "options": [
+        "Los títulos del documento.",
+        "Los marcadores insertados en el documento.",
+        "Las notas al pie del documento.",
+        "Los comentarios del documento."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Microsoft indica que la tabla de contenido se genera a partir de los títulos; por eso hay que aplicar estilos de título (Título 1, Título 2…) a los encabezados.",
+      "excerpt": "Una tabla de contenido en Word se basa en los títulos del documento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tabla de contenido (actualizar)",
+      "stem": "Tras modificar un documento que afecta a su tabla de contenido, Microsoft indica que puede actualizarla haciendo clic con el botón derecho en ella y seleccionando:",
+      "options": [
+        "Editar campo.",
+        "Alternar códigos de campo.",
+        "Párrafo.",
+        "Actualizar campo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La tabla de contenido es un campo; se actualiza con clic derecho > Actualizar campo. «Editar campo» y «Alternar códigos de campo» modifican o muestran el código, pero no la actualizan.",
+      "excerpt": "haciendo clic con el botón derecho en la tabla de contenido y seleccionando Actualizar campo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tabla de contenido (entradas que faltan)",
+      "stem": "Según el soporte de Microsoft, ¿cuál es la causa habitual de que falten entradas en una tabla de contenido de Word?",
+      "options": [
+        "Que el documento no está guardado en formato .docx.",
+        "Que los títulos no tienen formato de títulos.",
+        "Que el documento tiene encabezados y pies de página.",
+        "Que el control de cambios está activado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Las entradas que faltan suelen deberse a que esos títulos no tienen aplicado un estilo de título; basta aplicarles, por ejemplo, Título 1 y actualizar la tabla.",
+      "excerpt": "Las entradas que faltan a menudo se producen porque los títulos no tienen formato de títulos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

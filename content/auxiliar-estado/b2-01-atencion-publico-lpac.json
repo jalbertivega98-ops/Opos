@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-01-atencion-publico-lpac-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.1 Atención al público y atención de personas con discapacidad",
+    "topic_slug": "age-aux-b2-01-atencion-publico",
+    "locale": "es",
+    "category": "age_aux_b2_01_atencion_publico",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 13 LPAC",
+      "stem": "¿Cuál de los siguientes figura entre los derechos de las personas en sus relaciones con las Administraciones Públicas enumerados en el artículo 13 de la Ley 39/2015?",
+      "options": [
+        "Elegir al empleado público que tramitará su procedimiento.",
+        "Ser asistidos en el uso de medios electrónicos en sus relaciones con las Administraciones Públicas.",
+        "Obtener de las oficinas de información una interpretación normativa vinculante de su caso.",
+        "Ser atendidos en cualquier lengua de la Unión Europea en todo el territorio nacional."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 13.b) LPAC reconoce el derecho a ser asistidos en el uso de medios electrónicos. El art. 13 también incluye, entre otros, comunicarse a través de un Punto de Acceso General electrónico y ser tratados con respeto y deferencia por autoridades y empleados públicos.",
+      "excerpt": "b) A ser asistidos en el uso de medios electrónicos en sus relaciones con las Administraciones Públicas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

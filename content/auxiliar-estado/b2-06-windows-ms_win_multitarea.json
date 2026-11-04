@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_multitarea-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cómo realizar varias tareas en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Multitarea · Escritorios virtuales",
+      "stem": "Según Microsoft, al cerrar un escritorio virtual, las aplicaciones que estaban abiertas en él:",
+      "options": [
+        "Se cierran sin guardar los cambios.",
+        "Se mueven al siguiente escritorio disponible.",
+        "Se minimizan en la bandeja del sistema.",
+        "Quedan suspendidas hasta que se vuelva a crear el escritorio."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Las aplicaciones del escritorio cerrado pasan al siguiente escritorio disponible; no se cierran.",
+      "excerpt": "Las aplicaciones abiertas en el escritorio cerrado se moverán al siguiente escritorio disponible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Multitarea · Alt + Tab",
+      "stem": "Cuando se usa Alt + Tab para cambiar de aplicación, la aplicación seleccionada pasa a primer plano:",
+      "options": [
+        "Al pulsar la tecla Tab por segunda vez.",
+        "Al pulsar la tecla Entrar.",
+        "Al soltar la tecla Alt.",
+        "Al hacer doble clic en su miniatura."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Con Alt pulsada, cada pulsación de Tab mueve la selección a la siguiente aplicación; al soltar Alt, la seleccionada pasa a primer plano.",
+      "excerpt": "Una vez que suelte la tecla Alt, la aplicación seleccionada pasará al primer plano.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

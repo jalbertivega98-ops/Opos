@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_inicio-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Personalizar el menú Inicio de Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Menú Inicio · Alineación",
+      "stem": "Según Microsoft, ¿dónde aparece normalmente el menú Inicio en Windows 11?",
+      "options": [
+        "Siempre en el lado izquierdo, sin posibilidad de cambiarlo.",
+        "En la parte superior de la pantalla.",
+        "Centrado, aunque puede alinearse al lado izquierdo de la barra de tareas.",
+        "En el lado derecho de la barra de tareas, junto al reloj."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El menú Inicio está centrado de forma predeterminada; la alineación se cambia desde Configuración de la barra de tareas.",
+      "excerpt": "Normalmente, el menú Inicio está centrado, pero puede cambiar la alineación al lado de la barra de tareas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Menú Inicio · Carpetas",
+      "stem": "¿Cómo se crea una carpeta en la sección de elementos anclados del menú Inicio de Windows 11?",
+      "options": [
+        "Arrastrando un elemento anclado sobre otro.",
+        "Haciendo clic con el botón derecho en el menú Inicio y eligiendo Nueva carpeta.",
+        "Pulsando Ctrl + Mayús + N con el menú Inicio abierto.",
+        "Desde Configuración > Personalización > Inicio > Carpetas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Las carpetas del menú Inicio se crean arrastrando un elemento anclado encima de otro. La opción «Carpetas» de Configuración sirve para elegir qué carpetas aparecen junto al botón de encendido.",
+      "excerpt": "Para crear una carpeta, arrastre un elemento anclado sobre otro para crear una carpeta.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

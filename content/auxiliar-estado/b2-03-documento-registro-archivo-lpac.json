@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "set": "age-aux-b2-03-documento-registro-archivo-lpac-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.3 Documento, registro y archivo",
+    "topic_slug": "age-aux-b2-03-documento-registro-archivo",
+    "locale": "es",
+    "category": "age_aux_b2_03_documento_registro_archivo",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 26.1 LPAC",
+      "stem": "De acuerdo con el artículo 26.1 de la Ley 39/2015, las Administraciones Públicas emitirán los documentos administrativos:",
+      "options": [
+        "Por escrito, a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+        "Por escrito en soporte papel, salvo que el interesado solicite expresamente el formato electrónico.",
+        "En la forma que elija libremente el interesado en cada caso.",
+        "Verbalmente, con constancia posterior en soporte electrónico."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 26.1 LPAC establece como regla general la emisión por escrito y por medios electrónicos, salvo que la naturaleza del documento exija otra forma más adecuada.",
+      "excerpt": "Las Administraciones Públicas emitirán los documentos administrativos por escrito, a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.2 LPAC",
+      "stem": "¿Cuál de los siguientes es un requisito de validez de los documentos electrónicos administrativos según el artículo 26.2 de la Ley 39/2015?",
+      "options": [
+        "Estar redactados en castellano y en la lengua cooficial de la Comunidad Autónoma.",
+        "Incorporar una referencia temporal del momento en que han sido emitidos.",
+        "Incorporar la firma manuscrita digitalizada del titular del órgano.",
+        "Haber sido impresos y sellados en papel oficial."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 26.2 LPAC exige, entre otros requisitos, contener información en soporte electrónico con un formato determinado, datos de identificación, una referencia temporal, los metadatos mínimos y las firmas electrónicas que correspondan.",
+      "excerpt": "c) Incorporar una referencia temporal del momento en que han sido emitidos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.3 LPAC",
+      "stem": "Según el artículo 26.3 de la Ley 39/2015, no requerirán de firma electrónica los documentos electrónicos emitidos por las Administraciones Públicas que:",
+      "options": [
+        "Se dirijan a otras Administraciones Públicas.",
+        "Contengan actos de trámite dentro de un procedimiento.",
+        "Se notifiquen a través de la Dirección Electrónica Habilitada única.",
+        "Se publiquen con carácter meramente informativo, así como aquellos que no formen parte de un expediente administrativo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 26.3 LPAC exime de firma electrónica a los documentos meramente informativos y a los que no forman parte de un expediente, aunque siempre debe identificarse su origen.",
+      "excerpt": "3. No requerirán de firma electrónica, los documentos electrónicos emitidos por las Administraciones Públicas que se publiquen con carácter meramente informativo, así como aquellos que no formen parte de un expediente administrativo. En todo caso, será necesario identificar el origen de estos documentos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 27.2 LPAC",
+      "stem": "De acuerdo con el artículo 27.2 de la Ley 39/2015, las copias auténticas de documentos realizadas por los órganos competentes de las Administraciones Públicas tendrán:",
+      "options": [
+        "La misma validez y eficacia que los documentos originales.",
+        "Validez solo en el procedimiento en que se expidan.",
+        "Validez únicamente si se presentan junto con el original.",
+        "Valor meramente informativo."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 27.2 LPAC atribuye a las copias auténticas la misma validez y eficacia que los documentos originales.",
+      "excerpt": "Las copias auténticas tendrán la misma validez y eficacia que los documentos originales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.1 LPAC",
+      "stem": "Según el artículo 16.1 de la Ley 39/2015, en el Registro Electrónico General de cada Administración se hará el correspondiente asiento de:",
+      "options": [
+        "Únicamente los documentos presentados por medios electrónicos.",
+        "Únicamente las solicitudes de iniciación de procedimientos.",
+        "Únicamente los documentos dirigidos a los órganos centrales de esa Administración.",
+        "Todo documento que sea presentado o que se reciba en cualquier órgano administrativo, Organismo público o Entidad vinculado o dependiente a estos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 16.1 LPAC impone el asiento de todo documento presentado o recibido en cualquier órgano, organismo o entidad; también puede anotarse la salida de documentos oficiales.",
+      "excerpt": "1. Cada Administración dispondrá de un Registro Electrónico General, en el que se hará el correspondiente asiento de todo documento que sea presentado o que se reciba en cualquier órgano administrativo, Organismo público o Entidad vinculado o dependiente a éstos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.2 LPAC",
+      "stem": "De acuerdo con el artículo 16.2 de la Ley 39/2015, los asientos en el registro se anotarán:",
+      "options": [
+        "Por orden alfabético del apellido del interesado.",
+        "Respetando el orden temporal de recepción o salida de los documentos, con indicación de la fecha del día en que se produzcan.",
+        "Agrupados por materias, según el cuadro de clasificación del órgano.",
+        "Por orden de importancia del asunto, según aprecie el responsable del registro."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 16.2 LPAC exige respetar el orden temporal de recepción o salida e indicar la fecha; concluido el registro, los documentos se cursan sin dilación a sus destinatarios.",
+      "excerpt": "2. Los asientos se anotarán respetando el orden temporal de recepción o salida de los documentos, e indicarán la fecha del día en que se produzcan.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.3 LPAC",
+      "stem": "Según el artículo 16.3 de la Ley 39/2015, el recibo que emite automáticamente el registro electrónico al presentar un documento consiste en:",
+      "options": [
+        "Un justificante sin valor jurídico que indica solo el día de presentación.",
+        "Un resumen del contenido del documento redactado por el registro.",
+        "Una copia autenticada del documento de que se trate, incluyendo la fecha y hora de presentación y el número de entrada de registro.",
+        "Una certificación del órgano destinatario sobre la admisión a trámite."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 16.3 LPAC prevé un recibo automático consistente en una copia autenticada del documento, con fecha y hora de presentación y número de entrada de registro.",
+      "excerpt": "Para ello, se emitirá automáticamente un recibo consistente en una copia autenticada del documento de que se trate, incluyendo la fecha y hora de presentación y el número de entrada de registro",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.4 LPAC",
+      "stem": "¿En cuál de los siguientes lugares pueden presentarse los documentos que los interesados dirijan a los órganos de las Administraciones Públicas, según el artículo 16.4 de la Ley 39/2015?",
+      "options": [
+        "En cualquier notaría, a elección del interesado.",
+        "En las representaciones diplomáticas u oficinas consulares de España en el extranjero.",
+        "En las sedes de las asociaciones vecinales.",
+        "En los despachos profesionales de abogados colegiados."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 16.4 LPAC permite presentar documentos en los registros electrónicos, en las oficinas de Correos, en las representaciones diplomáticas u oficinas consulares, en las oficinas de asistencia en materia de registros y en cualquier otro que establezcan las disposiciones vigentes.",
+      "excerpt": "c) En las representaciones diplomáticas u oficinas consulares de España en el extranjero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.5 LPAC",
+      "stem": "De acuerdo con el artículo 16.5 de la Ley 39/2015, los documentos presentados de manera presencial ante las Administraciones Públicas:",
+      "options": [
+        "Se conservarán siempre en papel en el archivo de oficina del órgano destinatario.",
+        "Se remitirán en papel por correo interno al órgano destinatario.",
+        "Deberán ser digitalizados por la oficina de asistencia en materia de registros en la que hayan sido presentados, devolviéndose los originales al interesado, salvo las excepciones previstas.",
+        "Deberán ser digitalizados por el propio interesado antes de su presentación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 16.5 LPAC obliga a la oficina de asistencia en materia de registros a digitalizar los documentos presentados presencialmente y a devolver los originales, salvo que la norma determine su custodia o no sean susceptibles de digitalización.",
+      "excerpt": "5. Los documentos presentados de manera presencial ante las Administraciones Públicas, deberán ser digitalizados, de acuerdo con lo previsto en el artículo 27 y demás normativa aplicable, por la oficina de asistencia en materia de registros en la que hayan sido presentados para su incorporación al expediente administrativo electrónico, devolviéndose los originales al interesado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 LPAC",
+      "stem": "Según el artículo 17.1 de la Ley 39/2015, cada Administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a:",
+      "options": [
+        "Procedimientos finalizados.",
+        "Procedimientos en tramitación.",
+        "Procedimientos iniciados de oficio.",
+        "Procedimientos sancionadores."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 17.1 LPAC limita el archivo electrónico único a los documentos electrónicos de procedimientos finalizados.",
+      "excerpt": "1. Cada Administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a procedimientos finalizados, en los términos establecidos en la normativa reguladora aplicable.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

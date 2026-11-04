@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_office_guardar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Guardar, realizar copias de seguridad y recuperar un archivo en Microsoft Office",
+      "url": "https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Autoguardado",
+      "stem": "Según el soporte de Microsoft, Autoguardado guarda automáticamente un archivo de Office cuando este:",
+      "options": [
+        "Está almacenado en OneDrive o SharePoint en Microsoft 365.",
+        "Está almacenado en la carpeta Documentos del equipo local.",
+        "Se ha guardado al menos una vez con Guardar como, en cualquier ubicación.",
+        "Tiene activada la Autorrecuperación cada 10 minutos."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Autoguardado funciona con archivos almacenados en OneDrive o SharePoint en Microsoft 365. Autorrecuperación es una función distinta y no sustituye a guardar con frecuencia.",
+      "excerpt": "Autoguardado guarda automáticamente el archivo cuando un archivo está almacenado en OneDrive o SharePoint en Microsoft 365.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

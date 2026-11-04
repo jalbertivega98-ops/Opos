@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "set": "age-aux-b2-07-explorador-ms_win_atajos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.7 El Explorador de archivos de Windows",
+    "topic_slug": "age-aux-b2-07-explorador",
+    "locale": "es",
+    "category": "age_aux_b2_07_explorador",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Windows",
+      "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Métodos abreviados de Windows · Windows + E",
+      "stem": "¿Qué método abreviado de teclado abre el Explorador de archivos en Windows 11?",
+      "options": [
+        "Tecla Windows + R.",
+        "Tecla Windows + X.",
+        "Ctrl + E.",
+        "Tecla Windows + E."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Windows + E abre el Explorador de archivos; Windows + R abre el cuadro Ejecutar.",
+      "excerpt": "Tecla Windows + E | Abre el Explorador de archivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · F2",
+      "stem": "En el Explorador de archivos, la tecla F2 sirve para:",
+      "options": [
+        "Buscar un archivo o carpeta.",
+        "Seleccionar la barra de direcciones.",
+        "Cambiar el nombre del elemento seleccionado.",
+        "Actualizar la ventana."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "F2 cambia el nombre del elemento seleccionado; F3 busca, F4 selecciona la barra de direcciones y F5 actualiza.",
+      "excerpt": "F2 | Cambiar el nombre del elemento seleccionado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Mayús + Supr",
+      "stem": "En el Explorador de archivos, ¿qué ocurre al pulsar Mayús + Supr con un archivo seleccionado?",
+      "options": [
+        "Se elimina permanentemente sin moverlo a la Papelera de reciclaje.",
+        "Se mueve a la Papelera de reciclaje.",
+        "Se crea una copia del archivo en la misma carpeta.",
+        "Se muestran sus propiedades."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Mayús + Supr elimina de forma permanente, sin pasar por la Papelera; Supr solo lo mueve a la Papelera de reciclaje.",
+      "excerpt": "Mayús+Supr | Eliminar permanentemente el elemento seleccionado sin moverlo a la papelera de reciclaje.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Nueva carpeta",
+      "stem": "¿Qué combinación de teclas crea una carpeta nueva en el Explorador de archivos?",
+      "options": [
+        "Ctrl + Mayús + E.",
+        "Ctrl + T.",
+        "Alt + Entrar.",
+        "Ctrl + Mayús + N."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ctrl + Mayús + N crea una carpeta nueva; Ctrl + Mayús + E expande el árbol del panel de navegación, Ctrl + T abre una pestaña y Alt + Entrar muestra las propiedades.",
+      "excerpt": "Ctrl+Mayús+N | Cree una carpeta nueva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Subir un nivel",
+      "stem": "En el Explorador de archivos, ¿qué combinación sube un nivel en la ruta de acceso de la carpeta?",
+      "options": [
+        "Alt + Flecha derecha.",
+        "Alt + Flecha arriba.",
+        "Ctrl + Flecha arriba.",
+        "Mayús + Flecha arriba."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Alt + Flecha arriba sube un nivel; Alt + Flecha derecha va a la carpeta siguiente y Mayús + teclas de dirección selecciona varios elementos.",
+      "excerpt": "Alt+Flecha arriba | Subir un nivel en la ruta de acceso de la carpeta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Panel de vista previa",
+      "stem": "En el Explorador de archivos, Alt + P permite:",
+      "options": [
+        "Mostrar u ocultar el panel de detalles.",
+        "Imprimir el archivo seleccionado.",
+        "Mostrar u ocultar el panel de vista previa.",
+        "Ver las propiedades del elemento seleccionado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Alt + P muestra u oculta el panel de vista previa; el panel de detalles se controla con Alt + Mayús + P y las propiedades se ven con Alt + Entrar.",
+      "excerpt": "Alt+P | Mostrar u ocultar el panel de vista previa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Pestañas",
+      "stem": "En el Explorador de archivos de Windows 11, Ctrl + T sirve para:",
+      "options": [
+        "Cerrar la pestaña activa.",
+        "Desplazarse a la pestaña siguiente.",
+        "Abrir una nueva ventana del Explorador.",
+        "Abrir una pestaña nueva y cambiar a ella."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ctrl + T abre una pestaña nueva; Ctrl + W cierra la activa y Ctrl + Tab pasa a la siguiente.",
+      "excerpt": "Ctrl+T | Abrir una pestaña nueva y cambiar a ella.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Arrastrar con Alt",
+      "stem": "En el Explorador de archivos, si se arrastra un archivo con el ratón manteniendo pulsada la tecla Alt, al soltarlo:",
+      "options": [
+        "Se crea una copia del archivo en esa ubicación.",
+        "Se mueve el archivo a esa ubicación.",
+        "Se abre el archivo con la aplicación predeterminada.",
+        "Se crea un acceso directo al archivo original en esa ubicación."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Alt + arrastrar crea un acceso directo; Ctrl + arrastrar crea una copia y Mayús + arrastrar mueve el archivo.",
+      "excerpt": "Alt+ratón arrastrar un archivo | Cuando suelte el archivo, cree un acceso directo al archivo original en esa ubicación.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ms_win_copia-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Realizar copias de seguridad y restaurar con Copias de seguridad de Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Copias de seguridad de Windows · Dónde se guarda",
+      "stem": "Según Microsoft, la información de la copia de seguridad que realiza la aplicación Copias de seguridad de Windows se almacena:",
+      "options": [
+        "Exclusivamente en una unidad USB externa conectada al equipo.",
+        "En una partición oculta de la unidad C:.",
+        "Con la cuenta de Microsoft del usuario.",
+        "En la Papelera de reciclaje hasta que se vacía."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Copias de seguridad de Windows guarda la información de la copia con la cuenta de Microsoft, y sincroniza las carpetas indicadas con OneDrive.",
+      "excerpt": "La información de la copia de seguridad se almacenará con tu cuenta de Microsoft",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Copias de seguridad de Windows · OneDrive",
+      "stem": "¿Cuánto almacenamiento en la nube de OneDrive incluye una cuenta Microsoft gratuita, según la página de Copias de seguridad de Windows?",
+      "options": [
+        "1 GB.",
+        "5 GB.",
+        "15 GB.",
+        "50 GB."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La página indica que la cuenta Microsoft gratuita incluye 5 GB de almacenamiento en OneDrive.",
+      "excerpt": "Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive",
+      "excerpt_status": "completo"
+    }
+  ]
+}

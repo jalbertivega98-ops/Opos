@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_tipos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tipos de datos para bases de datos de escritorio de Access",
+      "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tipos de datos (Texto breve)",
+      "stem": "En una base de datos de escritorio de Access, ¿cuántos caracteres admite como máximo un campo de tipo Texto breve?",
+      "options": [
+        "Hasta 255 caracteres.",
+        "Hasta 64 caracteres.",
+        "Hasta 2.048 caracteres.",
+        "Hasta 64 000 caracteres."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El tipo Texto breve almacena datos alfanuméricos (nombres, títulos…) de hasta 255 caracteres; para textos mayores se usa Texto largo.",
+      "excerpt": "| Texto breve | Datos alfanuméricos (nombres, títulos, etc.) | Hasta 255 caracteres. |",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tipos de datos (Moneda)",
+      "stem": "El tipo de datos Moneda de Access almacena los datos monetarios con una precisión de:",
+      "options": [
+        "2 posiciones decimales.",
+        "6 posiciones decimales.",
+        "4 posiciones decimales.",
+        "15 posiciones decimales."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Moneda almacena datos monetarios con 4 posiciones decimales de precisión y ocupa 8 bytes.",
+      "excerpt": "| Moneda | Datos monetarios, almacenados con 4 posiciones decimales de precisión. | 8 bytes. |",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tipos de datos (Sí/No)",
+      "stem": "En un campo de tipo Sí/No de Access, ¿qué valor numérico almacena Access para Verdadero?",
+      "options": [
+        "1",
+        "0",
+        "255",
+        "-1"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Access almacena 0 para Falso y -1 para Verdadero; el campo ocupa 1 byte.",
+      "excerpt": "Datos booleanos (verdadero/falso); Access almacena el valor numérico cero (0) para Falso y -1 para Verdadero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tipos de datos (Autonumeración)",
+      "stem": "¿Qué tipo de datos de Access genera un valor único para cada registro nuevo?",
+      "options": [
+        "Número grande.",
+        "Autonumeración.",
+        "Calculado.",
+        "Asistente para búsquedas."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Autonumeración es un valor único generado por Access para cada registro nuevo, y suele usarse como clave principal.",
+      "excerpt": "| Autonumeración | Valor único generado por Access para cada registro nuevo. |",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tipos de datos (Asistente para búsquedas)",
+      "stem": "Según Microsoft, la entrada «Asistente para búsquedas» de la columna Tipo de datos en la vista Diseño de una tabla:",
+      "options": [
+        "Es un tipo de datos que almacena hasta 255 caracteres.",
+        "Es un tipo de datos que solo admite valores Sí/No.",
+        "No es realmente un tipo de datos, sino que inicia un asistente para definir un campo de búsqueda.",
+        "Es un tipo de datos que almacena hipervínculos a otras tablas."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Microsoft aclara que el Asistente para búsquedas no es un tipo de datos: al elegirlo se inicia un asistente para definir un campo de búsqueda simple o complejo.",
+      "excerpt": "La entrada del Asistente para búsquedas en la columna de tipo de datos en la vista Diseño no es realmente un tipo de datos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

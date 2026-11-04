@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ms_win_sensor-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Administrar espacio de unidad con el Sensor de almacenamiento",
+      "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Sensor de almacenamiento",
+      "stem": "Según Microsoft, el Sensor de almacenamiento de Windows actúa:",
+      "options": [
+        "En todas las unidades internas y externas conectadas.",
+        "Solo en la unidad del sistema.",
+        "Solo en las unidades extraíbles USB.",
+        "Solo en las carpetas sincronizadas con OneDrive."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El Sensor de almacenamiento solo funciona en la unidad del sistema, donde limpia archivos temporales innecesarios y puede vaciar la Papelera o la carpeta Descargas.",
+      "excerpt": "El Sensor de almacenamiento solo funciona en la unidad del sistema",
+      "excerpt_status": "completo"
+    }
+  ]
+}

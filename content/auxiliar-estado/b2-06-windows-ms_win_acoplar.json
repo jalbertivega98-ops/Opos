@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_acoplar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Acople sus ventanas",
+      "url": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Acoplar ventanas · Control flotante",
+      "stem": "Según Microsoft, el control flotante Acoplar, con los diseños de acoplamiento, aparece al:",
+      "options": [
+        "Hacer clic con el botón derecho en el escritorio.",
+        "Pulsar Alt + Tab.",
+        "Hacer doble clic en la barra de título de una ventana.",
+        "Mantener el puntero sobre el botón Maximizar de una ventana."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Los diseños de acoplamiento se muestran al mantener el puntero sobre el botón Maximizar (o restaurar) de la ventana.",
+      "excerpt": "El control flotante Acoplar aparece al mantener el puntero sobre el botón Maximizar en una ventana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Acoplar ventanas · Grupos de acoplamiento",
+      "stem": "En Windows 11, los grupos de acoplamiento son:",
+      "options": [
+        "Escritorios virtuales creados desde la Vista de tareas.",
+        "Carpetas de aplicaciones ancladas en el menú Inicio.",
+        "Grupos de iconos de la misma aplicación en la barra de tareas que el usuario debe crear manualmente.",
+        "Colecciones de ventanas que se han acoplado, y se crean automáticamente al acoplar varias ventanas."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Un grupo de acoplamiento reúne las ventanas acopladas; se crea solo al acoplar varias ventanas y se recupera pasando el puntero sobre el icono de la aplicación en la barra de tareas.",
+      "excerpt": "Los grupos de acoplamiento son colecciones de ventanas que se han acoplado […] Se crean automáticamente al acoplar varias ventanas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Acoplar ventanas · Configuración",
+      "stem": "¿Dónde se activa o desactiva la función Acoplar en Windows 11?",
+      "options": [
+        "En Configuración, Personalización > Barra de tareas, con la opción Alineación.",
+        "En Configuración, Sistema > Multitarea, con el botón de alternancia Ajustar ventanas.",
+        "En el Panel de control, Opciones de carpeta.",
+        "En la Vista de tareas, con el botón Nuevo escritorio."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La opción Ajustar ventanas de la página Multitarea del sistema activa o desactiva Acoplar.",
+      "excerpt": "Multitarea del sistema […] Use el botón de alternancia Ajustar ventanas para activar o desactivar Acoplar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

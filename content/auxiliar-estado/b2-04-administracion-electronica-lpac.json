@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "set": "age-aux-b2-04-administracion-electronica-lpac-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.4 Administración electrónica y servicios al ciudadano",
+    "topic_slug": "age-aux-b2-04-administracion-electronica",
+    "locale": "es",
+    "category": "age_aux_b2_04_administracion_electronica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 14.2 LPAC",
+      "stem": "Según el artículo 14.2 de la Ley 39/2015, ¿cuál de los siguientes sujetos está obligado, en todo caso, a relacionarse a través de medios electrónicos con las Administraciones Públicas para la realización de cualquier trámite de un procedimiento administrativo?",
+      "options": [
+        "Todas las personas físicas mayores de edad.",
+        "Las personas jurídicas.",
+        "Las personas físicas que hayan sido interesadas en un procedimiento anterior.",
+        "Las personas físicas que dispongan de certificado electrónico."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 14.2 LPAC obliga, al menos, a las personas jurídicas, las entidades sin personalidad jurídica, los profesionales de colegiación obligatoria, los representantes de obligados y los empleados públicos por razón de su condición. Las personas físicas, en general, pueden elegir (art. 14.1).",
+      "excerpt": "a) Las personas jurídicas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.2 LPAC",
+      "stem": "De acuerdo con el artículo 11.2 de la Ley 39/2015, las Administraciones Públicas solo requerirán a los interesados el uso obligatorio de firma para, entre otros supuestos:",
+      "options": [
+        "Consultar el estado de tramitación de un procedimiento.",
+        "Interponer recursos.",
+        "Obtener información general sobre un trámite.",
+        "Acceder a la Carpeta Ciudadana."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 11.2 LPAC exige firma solo para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos. Para el resto basta acreditar la identidad (art. 11.1).",
+      "excerpt": "2. Las Administraciones Públicas sólo requerirán a los interesados el uso obligatorio de firma para: […] c) Interponer recursos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 41.1 LPAC",
+      "stem": "Según el artículo 41.1 de la Ley 39/2015, las notificaciones se practicarán:",
+      "options": [
+        "Preferentemente por medios electrónicos y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía.",
+        "Preferentemente en papel, salvo que el interesado solicite la vía electrónica.",
+        "Exclusivamente por medios electrónicos, sin excepción alguna.",
+        "Por el medio que elija libremente el órgano notificante en cada caso."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 41.1 LPAC establece la preferencia por los medios electrónicos, obligatorios cuando el interesado esté obligado a recibirlas por esa vía; admite medios no electrónicos en supuestos tasados.",
+      "excerpt": "1. Las notificaciones se practicarán preferentemente por medios electrónicos y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 41.2 LPAC",
+      "stem": "De acuerdo con el artículo 41.2 de la Ley 39/2015, en ningún caso se efectuarán por medios electrónicos las notificaciones:",
+      "options": [
+        "Dirigidas a personas jurídicas.",
+        "De actos que pongan fin a la vía administrativa.",
+        "Que contengan datos de carácter personal.",
+        "Que contengan medios de pago a favor de los obligados, tales como cheques."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 41.2 LPAC excluye la vía electrónica cuando el acto vaya acompañado de elementos no convertibles a formato electrónico y cuando la notificación contenga medios de pago a favor de los obligados, como cheques.",
+      "excerpt": "2. En ningún caso se efectuarán por medios electrónicos las siguientes notificaciones: […] b) Las que contengan medios de pago a favor de los obligados, tales como cheques.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 43.2 LPAC",
+      "stem": "Según el artículo 43.2 de la Ley 39/2015, cuando la notificación por medios electrónicos sea obligatoria o haya sido expresamente elegida por el interesado, se entenderá rechazada cuando hayan transcurrido, desde su puesta a disposición sin que se acceda a su contenido:",
+      "options": [
+        "Diez días hábiles.",
+        "Quince días hábiles.",
+        "Diez días naturales.",
+        "Cinco días naturales."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 43.2 LPAC fija en diez días naturales el plazo tras el cual la notificación electrónica no abierta se entiende rechazada.",
+      "excerpt": "Cuando la notificación por medios electrónicos sea de carácter obligatorio, o haya sido expresamente elegida por el interesado, se entenderá rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 41.6 LPAC",
+      "stem": "De acuerdo con el artículo 41.6 de la Ley 39/2015, si la Administración no envía el aviso al dispositivo electrónico o a la dirección de correo electrónico del interesado informándole de la puesta a disposición de una notificación:",
+      "options": [
+        "La notificación será nula de pleno derecho.",
+        "La falta de práctica de este aviso no impedirá que la notificación sea considerada plenamente válida.",
+        "La notificación será anulable a instancia del interesado.",
+        "La notificación solo producirá efectos transcurridos diez días naturales adicionales."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 41.6 LPAC configura el aviso como obligatorio para la Administración, pero su falta no impide que la notificación sea plenamente válida.",
+      "excerpt": "La falta de práctica de este aviso no impedirá que la notificación sea considerada plenamente válida.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

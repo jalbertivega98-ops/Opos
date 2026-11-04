@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_cco-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Mostrar, ocultar y ver el campo CCO (copia carbón oculta) en Outlook para Windows",
+      "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "CCO · Privacidad",
+      "stem": "¿Qué característica tiene el campo CCO (copia carbón oculta) de un mensaje de Outlook?",
+      "options": [
+        "Los destinatarios de CCO no reciben los datos adjuntos.",
+        "Las demás personas que reciben el mensaje no ven la dirección escrita en la línea CCO.",
+        "Los destinatarios de CCO reciben el mensaje con retraso.",
+        "Las direcciones de CCO no cuentan para ningún límite de destinatarios."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Las direcciones en CCO no son visibles para los demás destinatarios, lo que ayuda a proteger la privacidad. Sí cuentan para el límite total de destinatarios.",
+      "excerpt": "Otras personas que reciben el mensaje no ven la dirección en la línea CCO.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCO · Límite de destinatarios",
+      "stem": "Según Microsoft, los nombres incluidos en el cuadro CCO de un mensaje:",
+      "options": [
+        "No cuentan para ningún límite de destinatarios.",
+        "Solo cuentan si el mensaje lleva datos adjuntos.",
+        "Cuentan para el límite total de destinatarios.",
+        "Cuentan el doble que los del cuadro Para."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Aunque no sean visibles para los demás, los nombres del cuadro CCO cuentan para el límite total de destinatarios.",
+      "excerpt": "recuerde que los nombres del cuadro CCO contarán para el límite total.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

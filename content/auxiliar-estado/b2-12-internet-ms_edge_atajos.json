@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "set": "age-aux-b2-12-internet-ms_edge_atajos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.12 La red Internet y los navegadores",
+    "topic_slug": "age-aux-b2-12-internet",
+    "locale": "es",
+    "category": "age_aux_b2_12_internet",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado en Microsoft Edge",
+      "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Edge · Métodos abreviados · InPrivate",
+      "stem": "En Microsoft Edge, ¿qué combinación de teclas abre una nueva ventana InPrivate?",
+      "options": [
+        "Ctrl + N.",
+        "Ctrl + Mayús + T.",
+        "Ctrl + Mayús + N.",
+        "Ctrl + Mayús + P."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ctrl + Mayús + N abre una ventana InPrivate; Ctrl + N abre una ventana normal y Ctrl + Mayús + T vuelve a abrir la última pestaña cerrada.",
+      "excerpt": "Ctrl+Mayús+N | Abrir una nueva ventana de InPrivate",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Historial",
+      "stem": "¿Qué método abreviado abre el historial en Microsoft Edge?",
+      "options": [
+        "Ctrl + H.",
+        "Ctrl + J.",
+        "Ctrl + Mayús + O.",
+        "Ctrl + U."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ctrl + H abre el historial; Ctrl + J, las descargas; Ctrl + Mayús + O, los favoritos, y Ctrl + U muestra el código fuente.",
+      "excerpt": "Ctrl+H | Abrir historial",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Pantalla completa",
+      "stem": "En Microsoft Edge, la tecla F11:",
+      "options": [
+        "Abre las herramientas de desarrollo.",
+        "Vuelve a cargar la pestaña actual.",
+        "Cambia el foco al siguiente panel.",
+        "Activa o desactiva la pantalla completa."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "F11 alterna la pantalla completa; F12 abre las herramientas de desarrollo, F5 recarga la pestaña y F6 cambia el foco al siguiente panel.",
+      "excerpt": "F11 | Ir a pantalla completa (alternar)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Pestaña cerrada",
+      "stem": "En Microsoft Edge, ¿qué combinación vuelve a abrir la última pestaña cerrada y cambia a ella?",
+      "options": [
+        "Ctrl + T.",
+        "Ctrl + Mayús + T.",
+        "Ctrl + Mayús + W.",
+        "Ctrl + Z."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl + Mayús + T recupera la última pestaña cerrada; Ctrl + T abre una pestaña nueva.",
+      "excerpt": "Ctrl+Mayús+T | Volver a abrir la última pestaña cerrada y cambiar a ella",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Descargas",
+      "stem": "¿Qué método abreviado abre Descargas en Microsoft Edge?",
+      "options": [
+        "Ctrl + H.",
+        "Ctrl + Mayús + Y.",
+        "Ctrl + Mayús + B.",
+        "Ctrl + J."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ctrl + J abre Descargas; Ctrl + H, el historial; Ctrl + Mayús + Y, Colecciones, y Ctrl + Mayús + B muestra u oculta la barra de favoritos.",
+      "excerpt": "Ctrl+J | Abrir Descargas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Datos de exploración",
+      "stem": "En Microsoft Edge, Ctrl + Mayús + Supr sirve para:",
+      "options": [
+        "Cerrar todas las pestañas abiertas.",
+        "Eliminar la página actual de Favoritos.",
+        "Abrir las opciones de borrar los datos de exploración.",
+        "Volver a cargar la página omitiendo el contenido en caché."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl + Mayús + Supr abre las opciones para borrar los datos de exploración; la recarga sin caché es Ctrl + Mayús + R.",
+      "excerpt": "Ctrl+Mayús+ Suprimir | Abrir las opciones de borrar los datos de exploración",
+      "excerpt_status": "completo"
+    }
+  ]
+}

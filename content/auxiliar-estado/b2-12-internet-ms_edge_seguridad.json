@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-12-internet-ms_edge_seguridad-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.12 La red Internet y los navegadores",
+    "topic_slug": "age-aux-b2-12-internet",
+    "locale": "es",
+    "category": "age_aux_b2_12_internet",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Explorar la Web de forma segura en Microsoft Edge",
+      "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Edge · SmartScreen",
+      "stem": "¿Qué función de Microsoft Edge ayuda a protegerse de los sitios de suplantación de identidad (phishing)?",
+      "options": [
+        "La exploración InPrivate.",
+        "Las Colecciones.",
+        "La lectura en voz alta.",
+        "SmartScreen de Microsoft Defender."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "SmartScreen de Microsoft Defender avisa de los sitios marcados como peligrosos, como los de phishing. InPrivate solo evita guardar datos de exploración en el equipo.",
+      "excerpt": "SmartScreen de Microsoft Defender le ayuda a protegerse de sitios de suplantación de identidad (phishing)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Prevención de seguimiento",
+      "stem": "¿Qué niveles de prevención de seguimiento ofrece Microsoft Edge?",
+      "options": [
+        "Bajo, Medio y Alto.",
+        "Básico, Equilibrado y Estricto.",
+        "Desactivado, Estándar y Personalizado.",
+        "Básico, Avanzado y Total."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Edge permite elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto.",
+      "excerpt": "Puedes elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

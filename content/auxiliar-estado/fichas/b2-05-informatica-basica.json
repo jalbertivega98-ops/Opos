@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "created": "2026-11-04",
+    "author": "Selección de artículos literales del BOE (texto consolidado, sin redacción propia); pendiente de revisión humana",
+    "source": {
+      "title": "Microsoft Learn · Requisitos de Windows 11",
+      "url": "https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    }
+  },
+  "outline": [
+    {
+      "n": "1",
+      "title": "Hardware y software: requisitos mínimos de Windows 11"
+    },
+    {
+      "n": "2",
+      "title": "El sistema operativo Windows y sus herramientas de configuración"
+    },
+    {
+      "n": "3",
+      "title": "Almacenamiento: unidades locales y espacio en disco"
+    },
+    {
+      "n": "3.1",
+      "title": "Sensor de almacenamiento"
+    },
+    {
+      "n": "3.2",
+      "title": "Desfragmentar y optimizar unidades"
+    },
+    {
+      "n": "4",
+      "title": "Almacenamiento en la nube: OneDrive y Archivos a petición"
+    },
+    {
+      "n": "5",
+      "title": "Copias de seguridad de Windows"
+    },
+    {
+      "n": "6",
+      "title": "Seguridad informática: aplicación Seguridad de Windows"
+    },
+    {
+      "n": "6.1",
+      "title": "Antivirus de Microsoft Defender y protección en tiempo real"
+    },
+    {
+      "n": "6.2",
+      "title": "Firewall y áreas de protección"
+    }
+  ],
+  "key_ideas": [
+    "Procesador Microsoft Learn (requisitos de Windows 11): «1 gigahercio (GHz) o más rápido con dos o más núcleos en un procesador o sistema compatible de 64 bits en un chip (SoC).»",
+    "Memoria (RAM) Microsoft Learn (requisitos de Windows 11): «4 gigabytes (GB) o superior.»",
+    "Almacenamiento Microsoft Learn (requisitos de Windows 11): «64 GB o más de espacio disponible en disco.»",
+    "TPM Microsoft Learn (requisitos de Windows 11): «módulo de plataforma segura (TPM) versión 2.0.»",
+    "Configuración Soporte Microsoft (herramientas del sistema): «Configuración es la aplicación principal para personalizar y administrar la configuración de Windows.»",
+    "Sensor de almacenamiento Soporte Microsoft (Sensor de almacenamiento): «El Sensor de almacenamiento solo funciona en la unidad del sistema»",
+    "Optimización programada Soporte Microsoft (optimizar unidades): «De manera predeterminada, Windows optimiza automáticamente las unidades una vez a la semana.»",
+    "Archivos a petición Soporte Microsoft (OneDrive): «Un icono de nube azul junto a un archivo o carpeta de OneDrive indica que el archivo solo está disponible en línea.»",
+    "Archivos a petición Soporte Microsoft (OneDrive): «Los archivos solo en línea no ocupan espacio en el equipo.»",
+    "Archivos a petición Soporte Microsoft (OneDrive): «Los archivos solo en línea no se pueden abrir cuando el dispositivo no está conectado a Internet.»",
+    "Copias de seguridad Soporte Microsoft (Copias de seguridad de Windows): «La información de la copia de seguridad se almacenará con tu cuenta de Microsoft»",
+    "Copias de seguridad Soporte Microsoft (Copias de seguridad de Windows): «Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive»",
+    "Seguridad de Windows Soporte Microsoft (Seguridad de Windows): «Incluye características como Antivirus de Microsoft Defender, Firewall de Windows y Control Inteligente de Aplicaciones»",
+    "Antivirus Soporte Microsoft (Seguridad de Windows): «Antivirus de Microsoft Defender examina continuamente el dispositivo en busca de posibles amenazas»",
+    "Firewall Soporte Microsoft (Seguridad de Windows): «la función de firewall monitorea el tráfico de red entrante y saliente, bloqueando cualquier actividad sospechosa»",
+    "Análisis Soporte Microsoft (Seguridad de Windows): «Si sospechas que hay malware o un virus en tu dispositivo, debes ejecutar inmediatamente un análisis rápido.»"
+  ],
+  "glossary": [],
+  "amendments": [],
+  "review_note": "Otras normas citadas: Soporte Microsoft (herramientas del sistema) (https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows), Soporte Microsoft (Sensor de almacenamiento) (https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense), Soporte Microsoft (optimizar unidades) (https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows), Soporte Microsoft (OneDrive) (https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows), Soporte Microsoft (Copias de seguridad de Windows) (https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup), Soporte Microsoft (Seguridad de Windows) (https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app)"
+}

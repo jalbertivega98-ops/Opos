@@ -1,4 +1,4 @@
--- Auxiliar Administrativo del Estado · Bloque I: 290 preguntas en BORRADOR con cita literal del BOE.
+-- Auxiliar Administrativo del Estado · Bloques I y II: preguntas en BORRADOR con cita literal de la fuente oficial (BOE, EUR-Lex, soporte de Microsoft).
 -- Generado: for f in content/auxiliar-estado/*.json; do node scripts/content/to-sql.mjs $f; done. Idempotente.
 begin;
 -- Lote age-aux-b1-01-constitucion-ce-v1 (20 preguntas)
@@ -1137,6 +1137,187 @@ with q as (
 )
 insert into public.question_exam_bodies (question_id, exam_body_id)
 select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b1-06-gobierno-abierto-a2030-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Orden PCI/383/2019, de 2 de abril (refuerzo de la gobernanza para la Agenda 2030) (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2019-4905', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b1-06-gobierno-abierto', 'I.6 El Gobierno Abierto y la Agenda 2030') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b1-06-gobierno-abierto' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el Acuerdo publicado por la Orden PCI/383/2019, la Agenda 2030 es un plan de acción integrado por:', 'La Agenda 2030 se compone de 17 Objetivos de Desarrollo Sostenible y 169 metas, aprobados por 193 países en la 70.ª Asamblea General de Naciones Unidas el 25 de septiembre de 2015.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2019-4905'), 'Anexo Orden PCI/383/2019', 'La Agenda 2030 constituye un nuevo contrato social global para el desarrollo sostenible. Un plan de acción integrado por 17 objetivos y 169 metas y aprobado por 193 países en la 70.º Asamblea de Naciones Unidas el 25 de septiembre de 2015.', null, '111257c8a9e658be8d8f5027f5c5255ba92f5cf08a3b954d8588396376d3a2c9', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '111257c8a9e658be8d8f5027f5c5255ba92f5cf08a3b954d8588396376d3a2c9')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '17 objetivos y 169 metas, aprobado por 193 países en la Asamblea de Naciones Unidas el 25 de septiembre de 2015.', true), ('B', '17 objetivos y 196 metas, aprobado por 193 países en la Asamblea de Naciones Unidas el 25 de septiembre de 2015.', false), ('C', '15 objetivos y 169 metas, aprobado por 191 países en la Asamblea de Naciones Unidas el 25 de septiembre de 2015.', false), ('D', '17 objetivos y 169 metas, aprobado por 193 países en la Cumbre de París sobre el clima de diciembre de 2015.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el Acuerdo publicado por la Orden PCI/383/2019, el Grupo de Trabajo Interministerial para la Agenda 2030 elevará informes:', 'El Grupo de Trabajo Interministerial, foro técnico de coordinación entre Ministerios, lo preside la Alta Comisionada para la Agenda 2030 y eleva trimestralmente informes a la Comisión Delegada del Gobierno para Asuntos Económicos.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2019-4905'), 'Anexo, apartado Tres, Orden PCI/383/2019', 'Será presidido por la Alta Comisionada para la Agenda 2030, y elevará trimestralmente informes a la Comisión Delegada del Gobierno para Asuntos Económicos.', 'La Orden se cita en su redacción original (el texto de leyes/ no incorpora modificaciones). La estructura de gobernanza de la Agenda 2030 (Alto Comisionado, departamentos) ha cambiado desde 2019; revisar si el tema debe preguntarla.', '4858bf48835cf4cef66eca64258598a5fbf51530acb265444cf4e4dcb766339b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4858bf48835cf4cef66eca64258598a5fbf51530acb265444cf4e4dcb766339b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Semestralmente, a la Comisión Delegada del Gobierno para Asuntos Económicos.', false), ('B', 'Trimestralmente, al Consejo de Ministros.', false), ('C', 'Trimestralmente, a la Comisión Delegada del Gobierno para Asuntos Económicos.', true), ('D', 'Anualmente, a las Cortes Generales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b1-06-gobierno-abierto-gobab-v1 (11 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 371/2026, de 6 de mayo, por el que se crea y regula el Foro de Gobierno Abierto (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b1-06-gobierno-abierto', 'I.6 El Gobierno Abierto y la Agenda 2030') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b1-06-gobierno-abierto' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el preámbulo del Real Decreto 371/2026, por el que se crea y regula el Foro de Gobierno Abierto, ¿en qué año se adhirió España a la Alianza para el Gobierno Abierto (OGP)?', 'El preámbulo del RD 371/2026 recuerda que España se adhirió en 2011 a la Alianza para el Gobierno Abierto (OGP) y que desde entonces ha impulsado políticas basadas en la transparencia, la participación ciudadana, la rendición de cuentas, los datos abiertos y la integridad pública.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Preámbulo RD 371/2026', 'Desde que España se adhirió en 2011 a la Alianza para el Gobierno Abierto (OGP, por sus siglas en inglés), ha desarrollado una trayectoria sólida y progresiva en la promoción de políticas públicas basadas en la transparencia, la participación ciudadana, la rendición de cuentas, los datos abiertos y la integridad pública.', null, '57e98e25b54971aa5faea5873bfca167e7faeb28f254bac35940fd601013132f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '57e98e25b54971aa5faea5873bfca167e7faeb28f254bac35940fd601013132f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En 2013.', false), ('B', 'En 2011.', true), ('C', 'En 2015.', false), ('D', 'En 2017.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el preámbulo del Real Decreto 371/2026, ¿cuál de los siguientes principios informará todas las actuaciones, deliberaciones y decisiones del Foro de Gobierno Abierto?', 'El preámbulo enumera como principios del Foro la accesibilidad universal, la transparencia, la integridad, la imparcialidad, la cooperación, la rendición de cuentas y la lealtad institucional. Jerarquía, desconcentración y autotutela no figuran en esa relación.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Preámbulo RD 371/2026', 'El Foro de Gobierno Abierto ejercerá sus funciones conforme a los principios de accesibilidad universal, transparencia, integridad, imparcialidad, cooperación, rendición de cuentas y lealtad institucional, que informarán todas sus actuaciones, deliberaciones y decisiones.', null, '89a9a917abb17eedb39c41d8a5b860bdf9032cd022bf2ee3c0d96febd671e339', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '89a9a917abb17eedb39c41d8a5b860bdf9032cd022bf2ee3c0d96febd671e339')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Jerarquía.', false), ('B', 'Desconcentración.', false), ('C', 'Lealtad institucional.', true), ('D', 'Autotutela.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 19.4 del Real Decreto 371/2026, ¿cuál de los siguientes figura entre los pilares del Gobierno Abierto en torno a los cuales el Observatorio de Gobierno Abierto difunde experiencias exitosas?', 'El art. 19.4 cita como pilares del Gobierno Abierto, entre otros, la transparencia, la participación ciudadana, la rendición de cuentas, la integridad pública y la colaboración y cocreación.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 19.4 RD 371/2026', 'a) Transparencia. b) Participación ciudadana. c) Rendición de cuentas. d) Integridad pública. e) Colaboración y cocreación.', null, 'af8617314c136d9939f61466da358a5347fff70368476a292f409b1ba9ca6c7e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'af8617314c136d9939f61466da358a5347fff70368476a292f409b1ba9ca6c7e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Simplificación administrativa.', false), ('B', 'Neutralidad tecnológica.', false), ('C', 'Estabilidad presupuestaria.', false), ('D', 'Colaboración y cocreación.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 2 del Real Decreto 371/2026, el Foro de Gobierno Abierto está adscrito a:', 'El Foro es un órgano colegiado de participación paritaria de la sociedad civil (art. 22.2 de la Ley 40/2015) adscrito a la Secretaría de Estado de Función Pública (art. 2.2).', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 2 RD 371/2026', 'El Foro está adscrito a la Secretaría de Estado de Función Pública.', null, '6ec9961584956db9691c1670a6599546f31a7ddaeff3a7b338a79a0bb90079cd', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6ec9961584956db9691c1670a6599546f31a7ddaeff3a7b338a79a0bb90079cd')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La Secretaría de Estado de Función Pública.', true), ('B', 'La Presidencia del Gobierno.', false), ('C', 'El Consejo de Transparencia y Buen Gobierno.', false), ('D', 'La Secretaría de Estado de Hacienda.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 5.2 del Real Decreto 371/2026, ¿quién ostenta la Vicepresidencia Primera del Foro de Gobierno Abierto?', 'La Vicepresidencia Primera corresponde a la persona titular de la Dirección General de Gobernanza Pública; la Presidencia es de la persona titular de la Secretaría de Estado de Función Pública y la Vicepresidencia Segunda, de una vocalía de la sociedad civil.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 5.2 RD 371/2026', 'Ostentará la Vicepresidencia Primera del Foro la persona titular de la Dirección General de Gobernanza Pública, en tanto que vocal permanente del Foro.', null, 'e954e6534fa84e7ac6cf3e3d3a3df1865d1c239962bbaa7f3b334da6cbda62fb', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e954e6534fa84e7ac6cf3e3d3a3df1865d1c239962bbaa7f3b334da6cbda62fb')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La persona titular de la Subdirección General de Gobierno Abierto.', false), ('B', 'La persona titular de la Secretaría de Estado de Función Pública.', false), ('C', 'Una de las vocalías electas en representación de la sociedad civil.', false), ('D', 'La persona titular de la Dirección General de Gobernanza Pública.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 5.3 del Real Decreto 371/2026, la Vicepresidencia Segunda del Foro de Gobierno Abierto corresponde a:', 'La Vicepresidencia Segunda recae en una vocalía electa de la sociedad civil, previo acuerdo del Pleno, y rota cada año; el calendario de rotación se publica en el Portal de la Transparencia.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 5.3 RD 371/2026', 'Corresponderá la Vicepresidencia Segunda del Foro a una de las vocalías electas en representación de la sociedad civil, previo acuerdo del Pleno, y que se ejercerá con carácter rotativo de manera anual.', null, 'a5c527d301bc6643cc8207f3a714628d8f0339975592b3be3d019700c29878db', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a5c527d301bc6643cc8207f3a714628d8f0339975592b3be3d019700c29878db')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una de las vocalías de las comunidades autónomas, previo acuerdo del Pleno, con carácter rotativo anual.', false), ('B', 'Una de las vocalías de la FEMP, designada por la Presidencia, con carácter rotativo bienal.', false), ('C', 'Una de las vocalías electas en representación de la sociedad civil, previo acuerdo del Pleno, con carácter rotativo anual.', true), ('D', 'Una de las vocalías electas en representación de la sociedad civil, por toda la duración del Plan de Acción.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 6.1 del Real Decreto 371/2026, además de la Presidencia y la Secretaría, el Pleno del Foro de Gobierno Abierto está integrado por:', 'La composición es paritaria: 64 vocales, 32 en representación de las administraciones públicas y 32 de la sociedad civil.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 6.1 RD 371/2026', 'El Pleno del Foro estará integrado por la persona que ostente la Presidencia, la Secretaría y sesenta y cuatro vocales, treinta y dos en representación de las administraciones públicas y treinta y dos en representación de la sociedad civil', null, '38fa5d43166d7ed0ce009b0cd9aca01ff8c236ed2f92c80c11638ce4c63ede22', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '38fa5d43166d7ed0ce009b0cd9aca01ff8c236ed2f92c80c11638ce4c63ede22')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Sesenta y cuatro vocales: treinta y dos de las administraciones públicas y treinta y dos de la sociedad civil.', true), ('B', 'Treinta y dos vocales: dieciséis de las administraciones públicas y dieciséis de la sociedad civil.', false), ('C', 'Sesenta y cuatro vocales: cuarenta de las administraciones públicas y veinticuatro de la sociedad civil.', false), ('D', 'Cuarenta y ocho vocales: veinticuatro de las administraciones públicas y veinticuatro de la sociedad civil.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 12.1 del Real Decreto 371/2026, el Pleno del Foro de Gobierno Abierto se reunirá:', 'El art. 12.1 exige al menos dos reuniones ordinarias anuales; las extraordinarias las convoca la Presidencia por iniciativa propia o a solicitud de, al menos, un tercio de los miembros.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 12.1 RD 371/2026', 'El Pleno del Foro se reunirá, con carácter ordinario, al menos dos veces al año, y con carácter extraordinario cuando así lo convoque su Presidencia, por iniciativa propia, o a solicitud de, al menos, un tercio de sus miembros.', null, '0537cb80b0b04ccf0894c1fba1b8c5b9240fe48be81bfc059b9a2e775a73405c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0537cb80b0b04ccf0894c1fba1b8c5b9240fe48be81bfc059b9a2e775a73405c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Con carácter ordinario, al menos una vez al año, y con carácter extraordinario a solicitud de al menos un tercio de sus miembros.', false), ('B', 'Con carácter ordinario, al menos dos veces al año, y con carácter extraordinario cuando lo convoque su Presidencia, por iniciativa propia o a solicitud de al menos un tercio de sus miembros.', true), ('C', 'Con carácter ordinario, al menos dos veces al año, y con carácter extraordinario a solicitud de la mayoría absoluta de sus miembros.', false), ('D', 'Con carácter ordinario, al menos cuatro veces al año, y con carácter extraordinario a solicitud de al menos una cuarta parte de sus miembros.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 12.2 del Real Decreto 371/2026, salvo urgencia debidamente justificada, las convocatorias del Foro de Gobierno Abierto se realizarán con una antelación mínima de:', 'Las convocatorias deben hacerse con al menos diez días hábiles de antelación, salvo urgencia justificada, e incluir el orden del día propuesto.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 12.2 RD 371/2026', 'Las convocatorias se realizarán con una antelación mínima de diez días hábiles, salvo en casos de urgencia debidamente justificados, y deberán incluir el orden del día propuesto.', null, '84a5e9ced8bf647fe966983f9c29081ebbd32a23e09d6150d2ec29f6b80025e2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '84a5e9ced8bf647fe966983f9c29081ebbd32a23e09d6150d2ec29f6b80025e2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Diez días naturales.', false), ('B', 'Cinco días hábiles.', false), ('C', 'Quince días hábiles.', false), ('D', 'Diez días hábiles.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 12.4 del Real Decreto 371/2026, ¿cómo adopta sus decisiones el Foro de Gobierno Abierto?', 'La regla es el consenso; a falta de él se vota y basta la mayoría simple de los miembros asistentes con derecho a voto.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 12.4 RD 371/2026', 'Las decisiones del Foro se adoptarán preferentemente por consenso. En caso de no alcanzarse, se procederá a votación, requiriéndose mayoría simple de los miembros asistentes con derecho a voto.', null, '91295263a692a76d94e21d6241fee2c3c7dae905be973ea567c26f566d416b40', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '91295263a692a76d94e21d6241fee2c3c7dae905be973ea567c26f566d416b40')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por unanimidad de los miembros presentes.', false), ('B', 'Preferentemente por consenso y, si no se alcanza, por mayoría absoluta de los miembros del Pleno.', false), ('C', 'Preferentemente por consenso y, si no se alcanza, por mayoría simple de los miembros asistentes con derecho a voto.', true), ('D', 'Por mayoría de dos tercios de los miembros asistentes con derecho a voto.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 13.1 del Real Decreto 371/2026, la Secretaría del Foro de Gobierno Abierto será desempeñada por:', 'La Secretaría corresponde a la persona titular de la Subdirección General de Gobierno Abierto, con voz y sin voto; un funcionario de carrera A1 de la misma unidad solo la sustituye en caso de vacante, ausencia o enfermedad (art. 13.2).', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2026-9880'), 'Art. 13.1 RD 371/2026', 'La Secretaría del Foro será desempeñada por la persona titular de la Subdirección General de Gobierno Abierto, que actuará con voz y sin voto', null, '8ec8e5bfb297e90c3160535cb0b10a6bdfe12dc07d940f51432af737d078a0f9', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '8ec8e5bfb297e90c3160535cb0b10a6bdfe12dc07d940f51432af737d078a0f9')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La persona titular de la Subdirección General de Gobierno Abierto, que actuará con voz y voto.', false), ('B', 'La persona titular de la Subdirección General de Gobierno Abierto, que actuará con voz y sin voto.', true), ('C', 'La persona titular de la Dirección General de Gobernanza Pública, que actuará con voz y voto.', false), ('D', 'Una persona funcionaria de carrera del subgrupo A1 designada por la Presidencia, con voz y sin voto.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b1-06-gobierno-abierto-lt-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b1-06-gobierno-abierto', 'I.6 El Gobierno Abierto y la Agenda 2030') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b1-06-gobierno-abierto' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el preámbulo de la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, ¿qué deben ser los ejes fundamentales de toda acción política?', 'El preámbulo de la Ley 19/2013 abre afirmando que la transparencia, el acceso a la información pública y las normas de buen gobierno deben ser los ejes fundamentales de toda acción política; son, además, los tres ámbitos que regula la Ley (art. 1).', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887'), 'Preámbulo Ley 19/2013', 'La transparencia, el acceso a la información pública y las normas de buen gobierno deben ser los ejes fundamentales de toda acción política.', null, 'c35ddc3ad5bc871e0147e061166a17132db3a355f06007272ddfda1c6b8ed23c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c35ddc3ad5bc871e0147e061166a17132db3a355f06007272ddfda1c6b8ed23c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La transparencia, el acceso a la información pública y las normas de buen gobierno.', true), ('B', 'La eficacia, la eficiencia y la economía en la gestión pública.', false), ('C', 'La legalidad, la jerarquía normativa y la seguridad jurídica.', false), ('D', 'La descentralización, la desconcentración y la coordinación.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b1-06-gobierno-abierto-un_ods-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Naciones Unidas · Objetivos de Desarrollo Sostenible', 'https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/', 'web_oficial'::public.source_kind, 'Organización de las Naciones Unidas', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b1-06-gobierno-abierto', 'I.6 El Gobierno Abierto y la Agenda 2030') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b1-06-gobierno-abierto' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según la relación oficial de los Objetivos de Desarrollo Sostenible publicada por Naciones Unidas, el Objetivo 13 se refiere a:', 'En la lista de la ONU, el Objetivo 13 es «Cambio climático»; Energía es el 7, Ciudades el 11 y Océanos el 14.', 'age_aux_b1_06_gobierno_abierto', (select id from public.topics where slug = 'age-aux-b1-06-gobierno-abierto'), 1, 'es', true, (select id from public.sources where url = 'https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/'), 'ODS 13 (ONU)', 'Objetivo 13: Cambio climático', null, '8126b18469f52758d0380e419724aef2cbd29d706e5fadd2366ba5c17641d324', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '8126b18469f52758d0380e419724aef2cbd29d706e5fadd2366ba5c17641d324')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Océanos.', false), ('B', 'Energía.', false), ('C', 'Ciudades.', false), ('D', 'Cambio climático.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
 -- Lote age-aux-b1-07-transparencia-lt-v1 (20 preguntas)
 insert into public.sources (title, url, kind, publisher, published_on) values ('Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
 insert into public.topics (slug, title) values ('age-aux-b1-07-transparencia', 'I.7 La Ley 19/2013 de transparencia, acceso a la información pública y buen gobierno') on conflict (slug) do nothing;
@@ -1810,6 +1991,234 @@ with q as (
 ), o as (
   insert into public.question_options (question_id, label, body, is_correct)
   select q.id, v.label, v.body, v.ok from q, (values ('A', 'Los municipios de gran población.', false), ('B', 'Las mancomunidades de municipios.', false), ('C', 'Las Diputaciones provinciales.', true), ('D', 'Las áreas metropolitanas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b1-10-union-europea-eu_tfue-v1 (6 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Tratado de Funcionamiento de la Unión Europea (versión consolidada), arts. 223-257', 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT', 'web_oficial'::public.source_kind, 'Unión Europea · EUR-Lex (DOUE C 202 de 7.6.2016)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b1-10-union-europea', 'I.10 La organización de la Unión Europea') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b1-10-union-europea' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 240.1 del Tratado de Funcionamiento de la Unión Europea, ¿qué órgano se encargará de preparar los trabajos del Consejo y de realizar las tareas que este le confíe?', 'El Comité de Representantes Permanentes (COREPER) prepara los trabajos del Consejo (art. 16.7 TUE y art. 240.1 TFUE). El Consejo de Asuntos Generales prepara las reuniones del Consejo Europeo (art. 16.6 TUE).', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT'), 'Art. 240.1 TFUE', 'Un Comité compuesto por Representantes Permanentes de los Gobiernos de los Estados miembros se encargará de preparar los trabajos del Consejo y de realizar las tareas que éste le confíe.', null, 'c0b46f59a694089764a6b93027a433bdfba643e005a08e0453f08cbd0a4d94c2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c0b46f59a694089764a6b93027a433bdfba643e005a08e0453f08cbd0a4d94c2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El Consejo de Asuntos Generales.', false), ('B', 'El Comité Económico y Social.', false), ('C', 'La Comisión Europea.', false), ('D', 'Un Comité compuesto por Representantes Permanentes de los Gobiernos de los Estados miembros.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 234 del Tratado de Funcionamiento de la Unión Europea, para que prospere una moción de censura sobre la gestión de la Comisión, el Parlamento Europeo debe aprobarla:', 'La moción de censura solo puede votarse transcurridos al menos tres días desde su presentación y en votación pública; requiere dos tercios de los votos emitidos que representen la mayoría de los diputados. Si se aprueba, la Comisión dimite colectivamente.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 3, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT'), 'Art. 234 TFUE', 'Si la moción de censura es aprobada por mayoría de dos tercios de los votos emitidos que representen, a su vez, la mayoría de los diputados que componen el Parlamento Europeo, los miembros de la Comisión deberán dimitir colectivamente de sus cargos', null, '668e4cb11cc671d5ce784de5922f29e055936e5114529640035772bc277b9282', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '668e4cb11cc671d5ce784de5922f29e055936e5114529640035772bc277b9282')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por mayoría absoluta de los diputados que lo componen.', false), ('B', 'Por mayoría de dos tercios de los votos emitidos que representen, a su vez, la mayoría de los diputados que lo componen.', true), ('C', 'Por mayoría de tres quintos de los votos emitidos que representen, a su vez, la mayoría de los diputados que lo componen.', false), ('D', 'Por mayoría de dos tercios de los diputados que lo componen.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 226 del Tratado de Funcionamiento de la Unión Europea, el Parlamento Europeo podrá constituir una comisión temporal de investigación a petición de:', 'La comisión temporal de investigación se constituye a petición de una cuarta parte de los diputados para examinar alegaciones de infracción o mala administración en la aplicación del Derecho de la Unión, y se extingue al presentar su informe.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT'), 'Art. 226 TFUE', 'En cumplimiento de sus cometidos y a petición de la cuarta parte de los miembros que lo componen, el Parlamento Europeo podrá constituir una comisión temporal de investigación', null, '6d0dd1f4decde8545e9fcb1e940a6e4aa2356a1e537188a5da299f15603ab6b5', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6d0dd1f4decde8545e9fcb1e940a6e4aa2356a1e537188a5da299f15603ab6b5')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La cuarta parte de los miembros que lo componen.', true), ('B', 'La tercera parte de los miembros que lo componen.', false), ('C', 'La mayoría de los miembros que lo componen.', false), ('D', 'La quinta parte de los miembros que lo componen.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 250 del Tratado de Funcionamiento de la Unión Europea, los acuerdos de la Comisión se adoptarán:', 'La Comisión es un órgano colegiado que decide por mayoría de sus miembros; su reglamento interno fija el quórum.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT'), 'Art. 250 TFUE', 'Los acuerdos de la Comisión se adoptarán por mayoría de sus miembros.', null, '9ed354efbd35dd7a2833c78e84a8c754357a88cdf16cdd5d2e7620f7968be5c8', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9ed354efbd35dd7a2833c78e84a8c754357a88cdf16cdd5d2e7620f7968be5c8')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por unanimidad de sus miembros.', false), ('B', 'Por mayoría cualificada de sus miembros.', false), ('C', 'Por mayoría de sus miembros.', true), ('D', 'Por consenso, salvo que el Presidente decida someterlos a votación.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 252 del Tratado de Funcionamiento de la Unión Europea, el Tribunal de Justicia estará asistido por:', 'El art. 252 TFUE fija ocho abogados generales y permite que el Consejo, por unanimidad y a petición del Tribunal de Justicia, aumente su número. Su función es presentar públicamente conclusiones motivadas con imparcialidad e independencia.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 3, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT'), 'Art. 252 TFUE', 'El Tribunal de Justicia estará asistido por ocho abogados generales. Si el Tribunal de Justicia lo solicitare, el Consejo, por unanimidad, podrá aumentar el número de abogados generales.', 'El Consejo usó esta facultad (Decisión 2013/336/UE) y hoy son once abogados generales. La pregunta se ciñe al texto del Tratado; valorar si se mantiene.', '4ecbd458b8785a4b411e998afe42e13330e997fb17b756c26ac8f496a59dade7', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4ecbd458b8785a4b411e998afe42e13330e997fb17b756c26ac8f496a59dade7')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ocho abogados generales, número que el Consejo, por unanimidad, podrá aumentar si el Tribunal de Justicia lo solicita.', true), ('B', 'Seis abogados generales, número que el Consejo, por mayoría cualificada, podrá aumentar si el Tribunal de Justicia lo solicita.', false), ('C', 'Ocho abogados generales, número que el Parlamento Europeo y el Consejo podrán aumentar por el procedimiento legislativo ordinario.', false), ('D', 'Doce abogados generales, sin posibilidad de aumentar su número.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 255 del Tratado de Funcionamiento de la Unión Europea, el comité que se pronuncia sobre la idoneidad de los candidatos a juez y abogado general del Tribunal de Justicia y del Tribunal General está compuesto por:', 'El comité del art. 255 TFUE lo forman siete personalidades (antiguos miembros del TJUE, miembros de órganos jurisdiccionales nacionales superiores y juristas de reconocida competencia), una propuesta por el Parlamento Europeo; el Consejo decide sus normas y nombra a sus miembros a iniciativa del Presidente del Tribunal de Justicia.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 3, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT'), 'Art. 255 TFUE', 'El comité estará compuesto por siete personalidades elegidas de entre antiguos miembros del Tribunal de Justicia y del Tribunal General, miembros de los órganos jurisdiccionales nacionales superiores y juristas de reconocida competencia, uno de los cuales será propuesto por el Parlamento Europeo.', null, '45c8394556a4c4e969f794fd9e4c7665f98c8068607126e7b5c50598e387f3f4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '45c8394556a4c4e969f794fd9e4c7665f98c8068607126e7b5c50598e387f3f4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Nueve personalidades, dos de las cuales serán propuestas por el Parlamento Europeo.', false), ('B', 'Siete personalidades, una de las cuales será propuesta por el Parlamento Europeo.', true), ('C', 'Siete personalidades, una de las cuales será propuesta por la Comisión.', false), ('D', 'Cinco personalidades, una de las cuales será propuesta por el Consejo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b1-10-union-europea-eu_tue-v1 (14 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Tratado de la Unión Europea (versión consolidada), arts. 13-19', 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT', 'web_oficial'::public.source_kind, 'Unión Europea · EUR-Lex (DOUE C 202 de 7.6.2016)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b1-10-union-europea', 'I.10 La organización de la Unión Europea') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b1-10-union-europea' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 13.4 del Tratado de la Unión Europea, el Parlamento Europeo, el Consejo y la Comisión estarán asistidos, en funciones consultivas, por:', 'El art. 13.4 TUE atribuye funciones consultivas al Comité Económico y Social y al Comité de las Regiones. El Banco Central Europeo y el Tribunal de Cuentas son instituciones de la Unión (art. 13.1), no órganos consultivos.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 13.4 TUE', 'El Parlamento Europeo, el Consejo y la Comisión estarán asistidos por un Comité Económico y Social y por un Comité de las Regiones que ejercerán funciones consultivas.', null, 'f73ea1b1666da18df45122f0089d60ebbe2a59811be2811eac6cb11d688ff2f7', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f73ea1b1666da18df45122f0089d60ebbe2a59811be2811eac6cb11d688ff2f7')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El Tribunal de Cuentas y el Banco Central Europeo.', false), ('B', 'Un Comité Económico y Social y un Comité de las Regiones.', true), ('C', 'El Comité de Representantes Permanentes y la Secretaría General del Consejo.', false), ('D', 'El Defensor del Pueblo Europeo y el Comité de las Regiones.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 14.2 del Tratado de la Unión Europea, la representación de los ciudadanos en el Parlamento Europeo será decrecientemente proporcional, con:', 'El art. 14.2 TUE fija la horquilla por Estado: mínimo seis diputados y máximo noventa y seis escaños. El número total no puede exceder de 750 más el Presidente.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 1, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 14.2 TUE', 'La representación de los ciudadanos será decrecientemente proporcional, con un mínimo de seis diputados por Estado miembro. No se asignará a ningún Estado miembro más de noventa y seis escaños.', null, '9d2919585589a2649ef7f723a9057dcb740152dc372d1997eb52f3ca32dee179', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9d2919585589a2649ef7f723a9057dcb740152dc372d1997eb52f3ca32dee179')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Un mínimo de seis diputados por Estado miembro y un máximo de noventa y seis escaños.', true), ('B', 'Un mínimo de cuatro diputados por Estado miembro y un máximo de noventa y nueve escaños.', false), ('C', 'Un mínimo de seis diputados por Estado miembro y un máximo de cien escaños.', false), ('D', 'Un mínimo de tres diputados por Estado miembro y un máximo de noventa y seis escaños.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 14.3 del Tratado de la Unión Europea, los diputados al Parlamento Europeo son elegidos:', 'Los diputados al Parlamento Europeo se eligen por sufragio universal directo, libre y secreto y su mandato dura cinco años (art. 14.3 TUE).', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 1, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 14.3 TUE', 'Los diputados al Parlamento Europeo serán elegidos por sufragio universal directo, libre y secreto, para un mandato de cinco años.', null, '8432fd7dcc12b6c7d4bd609b3ffab2661444f6a094138eff241e12619533ed23', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '8432fd7dcc12b6c7d4bd609b3ffab2661444f6a094138eff241e12619533ed23')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por sufragio universal directo, libre y secreto, para un mandato de cuatro años.', false), ('B', 'Por los Parlamentos nacionales de entre sus miembros, para un mandato de cinco años.', false), ('C', 'Por sufragio universal directo, libre y secreto, para un mandato de seis años.', false), ('D', 'Por sufragio universal directo, libre y secreto, para un mandato de cinco años.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 15.1 del Tratado de la Unión Europea, el Consejo Europeo:', 'El Consejo Europeo es el órgano de impulso político de la Unión y carece de función legislativa (art. 15.1 TUE). La función legislativa y presupuestaria la ejercen conjuntamente el Parlamento Europeo y el Consejo (arts. 14.1 y 16.1 TUE).', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 15.1 TUE', 'El Consejo Europeo dará a la Unión los impulsos necesarios para su desarrollo y definirá sus orientaciones y prioridades políticas generales. No ejercerá función legislativa alguna.', null, 'ea64dd4d0fe762e023814a909f2583f218962c292315c9c8a5fdf6dd0ebfee15', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'ea64dd4d0fe762e023814a909f2583f218962c292315c9c8a5fdf6dd0ebfee15')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ejercerá conjuntamente con el Parlamento Europeo la función legislativa y la función presupuestaria.', false), ('B', 'Ejercerá en exclusiva la función legislativa en materia de política exterior y de seguridad común.', false), ('C', 'Dará a la Unión los impulsos necesarios para su desarrollo, definirá sus orientaciones y prioridades políticas generales y no ejercerá función legislativa alguna.', true), ('D', 'Adoptará los actos legislativos de la Unión a propuesta del Alto Representante.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 15.3 del Tratado de la Unión Europea, el Consejo Europeo se reunirá:', 'El Consejo Europeo se reúne dos veces por semestre por convocatoria de su Presidente, que puede convocar además reuniones extraordinarias cuando la situación lo exija.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 15.3 TUE', 'El Consejo Europeo se reunirá dos veces por semestre por convocatoria de su Presidente.', null, '82659d6813d101a910c0e3b247ce76cba6e5a865400f96c58233292ea51867c0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '82659d6813d101a910c0e3b247ce76cba6e5a865400f96c58233292ea51867c0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una vez por trimestre, por convocatoria del Presidente de la Comisión.', false), ('B', 'Dos veces al año, por convocatoria del Estado miembro que ejerza la presidencia rotatoria del Consejo.', false), ('C', 'Una vez al mes, por convocatoria de su Presidente.', false), ('D', 'Dos veces por semestre, por convocatoria de su Presidente.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 15.5 del Tratado de la Unión Europea, el Presidente del Consejo Europeo es elegido:', 'El Consejo Europeo elige a su Presidente por mayoría cualificada para dos años y medio, renovables una sola vez; puede poner fin al mandato por el mismo procedimiento en caso de impedimento o falta grave.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 1, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 15.5 TUE', 'El Consejo Europeo elegirá a su Presidente por mayoría cualificada para un mandato de dos años y medio, que podrá renovarse una sola vez.', null, '713c71215a47609c3a18ba2578d61eee7382811ddcd8555f400d96af7a8444da', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '713c71215a47609c3a18ba2578d61eee7382811ddcd8555f400d96af7a8444da')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por el Consejo Europeo, por unanimidad, para un mandato de dos años y medio renovable una sola vez.', false), ('B', 'Por el Parlamento Europeo, por mayoría de sus miembros, para un mandato de cinco años.', false), ('C', 'Por el Consejo Europeo, por mayoría cualificada, para un mandato de dos años y medio renovable una sola vez.', true), ('D', 'Por el Consejo Europeo, por mayoría cualificada, para un mandato de dos años y medio renovable sin límite.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 16.2 del Tratado de la Unión Europea, el Consejo estará compuesto por:', 'El Consejo (de la Unión Europea) reúne a un representante de rango ministerial por Estado miembro. Los Jefes de Estado o de Gobierno forman el Consejo Europeo (art. 15.2 TUE).', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 1, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 16.2 TUE', 'El Consejo estará compuesto por un representante de cada Estado miembro, de rango ministerial, facultado para comprometer al Gobierno del Estado miembro al que represente y para ejercer el derecho de voto.', null, 'b004cc134e3a7d996e22366646864d8cf34b2bd80fa73a661cc4597d334dc833', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b004cc134e3a7d996e22366646864d8cf34b2bd80fa73a661cc4597d334dc833')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Los Jefes de Estado o de Gobierno de los Estados miembros, su Presidente y el Presidente de la Comisión.', false), ('B', 'Un representante de cada Estado miembro, de rango ministerial, facultado para comprometer al Gobierno de su Estado y para ejercer el derecho de voto.', true), ('C', 'Los Representantes Permanentes de los Gobiernos de los Estados miembros.', false), ('D', 'Un comisario por cada Estado miembro y el Alto Representante.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 16.4 del Tratado de la Unión Europea, a partir del 1 de noviembre de 2014 la mayoría cualificada en el Consejo se define como un mínimo de:', 'La doble mayoría del art. 16.4 TUE exige el 55 % de los miembros del Consejo (al menos quince) que representen como mínimo el 65 % de la población; la minoría de bloqueo requiere al menos cuatro miembros.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 3, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 16.4 TUE', 'A partir del 1 de noviembre de 2014, la mayoría cualificada se definirá como un mínimo del 55 % de los miembros del Consejo que incluya al menos a quince de ellos y represente a Estados miembros que reúnan como mínimo el 65 % de la población de la Unión.', null, 'a59971093d626740d8fea6ab312eb62a23921a080a80aa278d0744adcc1fc586', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a59971093d626740d8fea6ab312eb62a23921a080a80aa278d0744adcc1fc586')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El 55 % de los miembros del Consejo, que incluya al menos a quince de ellos y represente a Estados miembros que reúnan como mínimo el 65 % de la población de la Unión.', true), ('B', 'El 55 % de los miembros del Consejo, que incluya al menos a quince de ellos y represente a Estados miembros que reúnan como mínimo el 60 % de la población de la Unión.', false), ('C', 'El 65 % de los miembros del Consejo, que incluya al menos a dieciocho de ellos y represente a Estados miembros que reúnan como mínimo el 55 % de la población de la Unión.', false), ('D', 'El 50 % de los miembros del Consejo, que incluya al menos a catorce de ellos y represente a Estados miembros que reúnan como mínimo el 62 % de la población de la Unión.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el Tratado de la Unión Europea, ¿quién presidirá el Consejo de Asuntos Exteriores?', 'El art. 18.3 TUE atribuye al Alto Representante la presidencia del Consejo de Asuntos Exteriores; las demás formaciones del Consejo se presiden por rotación igual entre los Estados miembros (art. 16.9 TUE).', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 18.3 TUE', 'El Alto Representante presidirá el Consejo de Asuntos Exteriores.', null, '17c31ffb0bc90e2821c44d50fa6388f8f09c406471e371274cc9a19739155a24', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '17c31ffb0bc90e2821c44d50fa6388f8f09c406471e371274cc9a19739155a24')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad.', true), ('B', 'El Presidente del Consejo Europeo.', false), ('C', 'El representante del Estado miembro que ejerza la presidencia rotatoria del Consejo.', false), ('D', 'El Presidente de la Comisión.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 17.3 del Tratado de la Unión Europea, el mandato de la Comisión será de:', 'El mandato de la Comisión es de cinco años, coincidente con la legislatura del Parlamento Europeo; dos años y medio es el mandato del Presidente del Consejo Europeo.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 1, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 17.3 TUE', 'El mandato de la Comisión será de cinco años.', null, 'f7f99e17ab38f39bfa2874c1cca31325a0aacfb7e0c037c2396ee69dd4086393', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f7f99e17ab38f39bfa2874c1cca31325a0aacfb7e0c037c2396ee69dd4086393')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cuatro años.', false), ('B', 'Seis años.', false), ('C', 'Cinco años.', true), ('D', 'Dos años y medio.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 17.5 del Tratado de la Unión Europea, a partir del 1 de noviembre de 2014 la Comisión estará compuesta por:', 'El art. 17.5 TUE prevé una Comisión reducida a dos tercios del número de Estados miembros, con rotación estrictamente igual, salvo decisión unánime del Consejo Europeo que modifique ese número.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 3, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 17.5 TUE', 'A partir del 1 de noviembre de 2014, la Comisión estará compuesta por un número de miembros correspondiente a los dos tercios del número de Estados miembros, que incluirá a su Presidente y al Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad, a menos que el Consejo Europeo decida por unanimidad modificar dicho número.', 'Es lo que dice el Tratado, pero el Consejo Europeo hizo uso de esa facultad (Decisión 2013/272/UE) y en la práctica la Comisión sigue teniendo un nacional por Estado miembro. Revisar si conviene mantenerla o aclararlo en la explicación.', '17539999bd9d167de7ffbb664a90cd2be5db7ba4642e147efd975dfa5e2e40d0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '17539999bd9d167de7ffbb664a90cd2be5db7ba4642e147efd975dfa5e2e40d0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Un número de miembros correspondiente a la mitad del número de Estados miembros, incluidos su Presidente y el Alto Representante, salvo que el Consejo decida por unanimidad modificar dicho número.', false), ('B', 'Un número de miembros correspondiente a los dos tercios del número de Estados miembros, incluidos su Presidente y el Alto Representante, salvo que el Consejo Europeo decida por unanimidad modificar dicho número.', true), ('C', 'Un número de miembros correspondiente a los dos tercios del número de Estados miembros, salvo que el Consejo Europeo decida por mayoría cualificada modificar dicho número.', false), ('D', 'Un número de miembros correspondiente a los tres quintos del número de Estados miembros, sin incluir al Alto Representante.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 17.7 del Tratado de la Unión Europea, el candidato al cargo de Presidente de la Comisión propuesto por el Consejo Europeo es elegido por el Parlamento Europeo:', 'El Consejo Europeo propone el candidato por mayoría cualificada, teniendo en cuenta el resultado de las elecciones europeas, y el Parlamento Europeo lo elige por mayoría de los miembros que lo componen. Si no la obtiene, el Consejo Europeo propone otro candidato en el plazo de un mes.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 17.7 TUE', 'El Parlamento Europeo elegirá al candidato por mayoría de los miembros que lo componen.', null, '09c2a967aa331f4f1e0502908e5a920114ab5836104dabf0ef5a4eb3218fe440', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '09c2a967aa331f4f1e0502908e5a920114ab5836104dabf0ef5a4eb3218fe440')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por mayoría de los votos emitidos.', false), ('B', 'Por mayoría de dos tercios de los votos emitidos.', false), ('C', 'Por mayoría de tres quintos de los miembros que lo componen.', false), ('D', 'Por mayoría de los miembros que lo componen.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 19.2 del Tratado de la Unión Europea, el Tribunal de Justicia estará compuesto por:', 'El Tribunal de Justicia tiene un juez por Estado miembro y está asistido por abogados generales; jueces y abogados generales se nombran de común acuerdo por los Gobiernos de los Estados miembros para seis años.', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 1, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 19.2 TUE', 'El Tribunal de Justicia estará compuesto por un juez por Estado miembro. Estará asistido por abogados generales.', null, '5f2ffc10577411c06810e1cb05a9d92ec7c69cf4fc4be98919012174f25d1fa6', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5f2ffc10577411c06810e1cb05a9d92ec7c69cf4fc4be98919012174f25d1fa6')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Dos jueces por Estado miembro, y estará asistido por abogados generales.', false), ('B', 'Quince jueces nombrados por el Consejo Europeo.', false), ('C', 'Un juez por Estado miembro, y estará asistido por abogados generales.', true), ('D', 'Un juez por Estado miembro, y estará asistido por los fiscales generales de los Estados miembros.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 19.3 del Tratado de la Unión Europea, el Tribunal de Justicia de la Unión Europea se pronunciará con carácter prejudicial:', 'La cuestión prejudicial la plantean los órganos jurisdiccionales nacionales y versa sobre la interpretación del Derecho de la Unión o la validez de los actos de las instituciones (art. 19.3.b TUE).', 'age_aux_b1_10_union_europea', (select id from public.topics where slug = 'age-aux-b1-10-union-europea'), 2, 'es', true, (select id from public.sources where url = 'https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT'), 'Art. 19.3 TUE', 'con carácter prejudicial, a petición de los órganos jurisdiccionales nacionales, sobre la interpretación del Derecho de la Unión o sobre la validez de los actos adoptados por las instituciones;', null, 'd81405725b60b7f886279b8bf37ebd4f87d2b363d2153ab5d15feb1da413eb3a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd81405725b60b7f886279b8bf37ebd4f87d2b363d2153ab5d15feb1da413eb3a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'A petición de la Comisión, sobre los incumplimientos de los Estados miembros.', false), ('B', 'A petición de cualquier ciudadano de la Unión, sobre la validez de las leyes nacionales.', false), ('C', 'A petición del Parlamento Europeo, sobre la validez de las constituciones de los Estados miembros.', false), ('D', 'A petición de los órganos jurisdiccionales nacionales, sobre la interpretación del Derecho de la Unión o sobre la validez de los actos adoptados por las instituciones.', true)) as v(label, body, ok)
 )
 insert into public.question_exam_bodies (question_id, exam_body_id)
 select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
@@ -3292,6 +3701,2758 @@ with q as (
 ), o as (
   insert into public.question_options (question_id, label, body, is_correct)
   select q.id, v.label, v.body, v.ok from q, (values ('A', 'A las Cortes Generales, con periodicidad semestral.', false), ('B', 'Al Consejo General del Poder Judicial, cada dos años.', false), ('C', 'Al Defensor del Pueblo, con periodicidad anual.', false), ('D', 'Al Gobierno y a las Comunidades Autónomas, con periodicidad anual.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-01-atencion-publico-lgdpd-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto Legislativo 1/2013, de 29 de noviembre, texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-01-atencion-publico', 'II.1 Atención al público y atención de personas con discapacidad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-01-atencion-publico' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 4.2 del texto refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, además de las definidas en el apartado 1, tendrán la consideración de personas con discapacidad, a los efectos de esa ley, aquellas a quienes se haya reconocido un grado de discapacidad igual o superior al:', 'El art. 4.2 del Real Decreto Legislativo 1/2013 considera personas con discapacidad a aquellas a quienes se haya reconocido un grado de discapacidad igual o superior al 33 %.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632'), 'Art. 4.2 LGDPD', '2. Además de lo establecido en el apartado anterior, a los efectos de esta ley, tendrán la consideración de personas con discapacidad aquellas a quienes se les haya reconocido un grado de discapacidad igual o superior al 33 por ciento.', null, '29fcb44299b3038a350a44d8f1bef6d0c7fe2604b66e88964cbdbfa07970fdfa', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '29fcb44299b3038a350a44d8f1bef6d0c7fe2604b66e88964cbdbfa07970fdfa')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '25 por ciento.', false), ('B', '45 por ciento.', false), ('C', '65 por ciento.', false), ('D', '33 por ciento.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-01-atencion-publico-lpac-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-01-atencion-publico', 'II.1 Atención al público y atención de personas con discapacidad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-01-atencion-publico' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de los siguientes figura entre los derechos de las personas en sus relaciones con las Administraciones Públicas enumerados en el artículo 13 de la Ley 39/2015?', 'El art. 13.b) LPAC reconoce el derecho a ser asistidos en el uso de medios electrónicos. El art. 13 también incluye, entre otros, comunicarse a través de un Punto de Acceso General electrónico y ser tratados con respeto y deferencia por autoridades y empleados públicos.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 13 LPAC', 'b) A ser asistidos en el uso de medios electrónicos en sus relaciones con las Administraciones Públicas.', null, 'c233e211c3ccd5423e11dae81b4f52d32d1495bfda3c86cb57c9cbc2640e4508', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c233e211c3ccd5423e11dae81b4f52d32d1495bfda3c86cb57c9cbc2640e4508')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Elegir al empleado público que tramitará su procedimiento.', false), ('B', 'Ser asistidos en el uso de medios electrónicos en sus relaciones con las Administraciones Públicas.', true), ('C', 'Obtener de las oficinas de información una interpretación normativa vinculante de su caso.', false), ('D', 'Ser atendidos en cualquier lengua de la Unión Europea en todo el territorio nacional.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-01-atencion-publico-rddisc-v1 (8 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 366/2007, de 16 de marzo, accesibilidad y no discriminación de las personas con discapacidad en sus relaciones con la AGE (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-01-atencion-publico', 'II.1 Atención al público y atención de personas con discapacidad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-01-atencion-publico' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 1.2 del Real Decreto 366/2007, se consideran medios preferentes de relación con los ciudadanos que deben cumplir las condiciones de accesibilidad:', 'El art. 1.2 RD 366/2007 considera medios preferentes las Oficinas de Atención al Ciudadano (letra a) y los modelos normalizados, es decir, los impresos puestos a disposición de los ciudadanos (letra b).', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 1.2 RDDISC', '2. A estos efectos, se consideran medios preferentes de relación con los ciudadanos, que deben cumplir las condiciones de accesibilidad, los siguientes: a) Oficinas de Atención al Ciudadano: […] b) Modelos normalizados: Impresos puestos por la Administración General del Estado a disposición de los ciudadanos para formular solicitudes, declaraciones, alegaciones, recursos o cualquier pretensión o manifestación de voluntad ante la misma.', null, '3f2f9be64036cdcdd1c1a504aa94899889b0b891ec0b958c46c62feb703fe82c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '3f2f9be64036cdcdd1c1a504aa94899889b0b891ec0b958c46c62feb703fe82c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las Oficinas de Atención al Ciudadano y los modelos normalizados.', true), ('B', 'Las sedes electrónicas y las aplicaciones para dispositivos móviles.', false), ('C', 'Los registros electrónicos y los archivos de oficina.', false), ('D', 'Los servicios de atención telefónica y las redes sociales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 4.2.a) del Real Decreto 366/2007, con carácter preferente y siempre que resulte posible, la Oficina de Atención al Ciudadano se ubicará:', 'El art. 4.2.a) RD 366/2007 recomienda ubicar la Oficina en planta a nivel de la vía pública; en otro caso, debe disponer de rampas o ascensores que permitan su uso autónomo y seguro.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 4.2.a) RDDISC', 'a) Con carácter preferente y siempre que resulte posible, la Oficina se ubicará en planta a nivel de la vía pública. En caso contrario, deberá disponer de rampas de acceso o ascensores con características que permitan su uso autónomo y seguro por personas con discapacidad.', null, '5670f8a0b8e69bf04ec770c457384ea4974b3a24dd03b8d4b3204f96a4087888', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5670f8a0b8e69bf04ec770c457384ea4974b3a24dd03b8d4b3204f96a4087888')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la planta más alta del edificio, para garantizar la privacidad.', false), ('B', 'En un sótano con acceso por escalera.', false), ('C', 'En planta a nivel de la vía pública.', true), ('D', 'En una primera planta con acceso exclusivo por escalera mecánica.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 5.2.h) del Real Decreto 366/2007, las puertas acristaladas o de vidrio de acceso a las Oficinas de Atención al Ciudadano se señalizarán mediante:', 'El art. 5.2.h) RD 366/2007 exige dos bandas horizontales de 20 cm de ancho, con contraste cromático, la primera entre 100 y 120 cm de altura y la segunda entre 150 y 170 cm.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 5.2.h) RDDISC', 'h) Cuando las puertas sean acristaladas o de vidrios se protegerán de forma que se eviten roturas por impacto y se señalizarán mediante dos bandas horizontales de 20 centímetros de ancho, de contraste cromático con el resto de la superficie, colocada, la primera, a una altura entre 100 y 120 centímetros, y la segunda entre 150 y 170 centímetros.', null, '21d6f578e0c3194ad1a2e59987abbb2fa1889841bea7002ab2c7a5fbf96194ee', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '21d6f578e0c3194ad1a2e59987abbb2fa1889841bea7002ab2c7a5fbf96194ee')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una única banda horizontal de 10 centímetros de ancho situada a 150 centímetros de altura.', false), ('B', 'Dos bandas horizontales de 20 centímetros de ancho, de contraste cromático con el resto de la superficie.', true), ('C', 'Dos bandas verticales de 20 centímetros de ancho a ambos lados de la puerta.', false), ('D', 'Tres bandas horizontales de 5 centímetros de ancho de color rojo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 7.c) del Real Decreto 366/2007, la información relevante de la señalización interior de las Oficinas de Atención al Ciudadano se dispondrá:', 'El art. 7.c) RD 366/2007 exige que la información relevante figure, al menos, en dos de las tres modalidades sensoriales (visual, acústica y táctil), para que puedan percibirla las personas con discapacidad visual y auditiva.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 7.c) RDDISC', 'c) La información relevante se dispondrá, al menos, en dos de las tres modalidades sensoriales: visual, acústica y táctil (altorrelieve o braille), para que pueda ser percibida también plenamente por las personas con discapacidad visual y auditiva.', null, '7c9a80868afead8ebb09bafca8a0c90e60d3dd43f33a20237f53e0636f26049f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '7c9a80868afead8ebb09bafca8a0c90e60d3dd43f33a20237f53e0636f26049f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Únicamente en modalidad visual, con caracteres de gran tamaño.', false), ('B', 'Al menos en dos de las tres modalidades sensoriales: visual, acústica y táctil.', true), ('C', 'En las tres modalidades sensoriales de forma obligatoria y simultánea.', false), ('D', 'Al menos en modalidad acústica, mediante megafonía.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 8.2.d) del Real Decreto 366/2007, para permitir la mejor audición y comprensión a las personas usuarias de prótesis auditivas, los mostradores y puntos de atención deberán contar con:', 'El art. 8.2.d) RD 366/2007 prevé sistemas de bucle de inducción magnética señalizados. Además, el art. 8.2.c) excluye los vidrios u otros obstáculos que dificultan la transmisión del sonido.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 8.2.d) RDDISC', 'd) Los mostradores y puntos de atención deberán contar con sistemas de bucle de inducción magnética, debidamente señalizados, para permitir a las personas usuarias de prótesis auditivas la mejor audición y comprensión posibles.', null, 'a1458749baaee535ce7edda852c6d9db9eeaa3dca6bf42a2b94f03d449e95b9b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a1458749baaee535ce7edda852c6d9db9eeaa3dca6bf42a2b94f03d449e95b9b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mamparas de vidrio que aíslen del ruido ambiental.', false), ('B', 'Un intérprete de lengua de signos en cada puesto.', false), ('C', 'Sistemas de bucle de inducción magnética, debidamente señalizados.', true), ('D', 'Altavoces de alta potencia orientados al usuario.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 9.2.j) del Real Decreto 366/2007, el sistema alternativo de acceso a la información de las pantallas táctiles se activará mediante la pulsación de un área sensible al tacto situada en la parte inferior izquierda y etiquetada con la expresión:', 'El art. 9.2.j) RD 366/2007 prevé un sistema de verbalización de las opciones que se activa con un área sensible situada en la parte inferior izquierda y etiquetada «uso fácil».', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 9.2.j) RDDISC', 'Este sistema se basará en la verbalización de las distintas opciones de información y se activará mediante la pulsación de un área sensible al tacto situado en la parte inferior izquierda y etiquetado con la expresión «uso fácil» que una vez pulsada informará con breves instrucciones sobre cómo utilizar el sistema.', null, 'ea4fab3990efdb71424fa896971fd72d99d62b715c32b4260af63a53a8a7ab72', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'ea4fab3990efdb71424fa896971fd72d99d62b715c32b4260af63a53a8a7ab72')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '«Accesibilidad».', false), ('B', '«Ayuda».', false), ('C', '«Lectura fácil».', false), ('D', '«Uso fácil».', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 12.2 del Real Decreto 366/2007, a requerimiento de la persona con discapacidad, los documentos e impresos destinados al ciudadano:', 'El art. 12.2 RD 366/2007 prevé, a requerimiento de la persona con discapacidad, formatos alternativos (tipografías grandes o ampliadas, braille) o personal de apoyo para la cumplimentación.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 12.2 RDDISC', '2. A requerimiento de la persona con discapacidad, se ofrecerán en formatos alternativos utilizando tipografías grandes o ampliadas, en braille, o bien se contará con personal de apoyo para facilitar su cumplimentación.', null, '30a8fc45eba72ebcf19397dd96a70cbfcfc74b485ab94fbb78efb839d45c7019', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '30a8fc45eba72ebcf19397dd96a70cbfcfc74b485ab94fbb78efb839d45c7019')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se ofrecerán en formatos alternativos con tipografías grandes o ampliadas, en braille, o se contará con personal de apoyo para facilitar su cumplimentación.', true), ('B', 'Se le remitirán exclusivamente por correo postal a su domicilio.', false), ('C', 'Podrán ser cumplimentados por cualquier funcionario sin necesidad de que la persona los firme.', false), ('D', 'Se sustituirán por una comparecencia verbal ante el titular del órgano competente.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 11.1 del Real Decreto 366/2007, las condiciones de accesibilidad y no discriminación de las Oficinas de Atención al Ciudadano podrán ser parcialmente exceptuadas cuando concurran:', 'El art. 11.1 RD 366/2007 solo admite excepciones parciales por circunstancias de infraestructura o de protección del patrimonio que hagan imposible, material o económicamente, la aplicación de las condiciones.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239'), 'Art. 11.1 RDDISC', '1. Las condiciones de accesibilidad y no discriminación establecidas en el presente capítulo podrán ser parcialmente exceptuadas cuando en el edificio en el que se ubique la Oficina, o en su entorno, concurran circunstancias de infraestructura o protección del patrimonio que hagan su aplicación imposible material o económicamente.', null, '678fe7d588ecd0bbd84a1672869f38ac8787cb6495a6b86adaa7ec239b137f9f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '678fe7d588ecd0bbd84a1672869f38ac8787cb6495a6b86adaa7ec239b137f9f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Circunstancias de infraestructura o protección del patrimonio que hagan su aplicación imposible material o económicamente.', true), ('B', 'Razones de escasa afluencia de personas con discapacidad a la Oficina.', false), ('C', 'Razones de urgencia en la apertura de la Oficina, durante su primer año de funcionamiento.', false), ('D', 'Insuficiencias de la plantilla de personal adscrita a la Oficina.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-01-atencion-publico-rdinfo-v1 (5 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 208/1996, de 9 de febrero, por el que se regulan los servicios de información administrativa y atención al ciudadano (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-01-atencion-publico', 'II.1 Atención al público y atención de personas con discapacidad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-01-atencion-publico' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 4 del Real Decreto 208/1996, la función de atención al ciudadano que tiene por objeto facilitarle la orientación y ayuda que precise en el momento inicial de su visita, en particular la localización de dependencias y funcionarios, es la de:', 'El art. 4.a) RD 208/1996 define la función de recepción y acogida como la que facilita la orientación y ayuda que el ciudadano precisa al inicio de su visita, en particular la localización de dependencias y funcionarios.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 4.a) RDINFO', 'a) De recepción y acogida a los ciudadanos, al objeto de facilitarles la orientación y ayuda que precisen en el momento inicial de su visita, y, en particular, la relativa a la localización de dependencias y funcionarios.', null, '27ad1c96e71e1a201a95b75431e7d6230dcfb61e5eed489e5d74ec86e1ba783a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '27ad1c96e71e1a201a95b75431e7d6230dcfb61e5eed489e5d74ec86e1ba783a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Recepción y acogida.', true), ('B', 'Orientación e información.', false), ('C', 'Gestión.', false), ('D', 'Recepción de iniciativas o sugerencias.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 4.b) del Real Decreto 208/1996, la función de orientación e información al ciudadano puede consistir en:', 'El art. 4.b) RD 208/1996 excluye que la orientación e información entrañe interpretación normativa o consideración jurídica o económica; se limita a una simple determinación de conceptos, información de opciones legales o colaboración en la cumplimentación de impresos o solicitudes.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 4.b) RDINFO', 'en ningún caso podrá entrañar una interpretación normativa, a la que se refiere el artículo 37.10 de la Ley de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, ni consideración jurídica o económica, sino una simple determinación de conceptos, información de opciones legales o colaboración en la cumplimentación de impresos o solicitudes.', null, '62460e67e2987e1818718b6ee92c00f3952e7eafd16f3125308213fb6a7c485c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '62460e67e2987e1818718b6ee92c00f3952e7eafd16f3125308213fb6a7c485c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una interpretación normativa de las disposiciones aplicables a su caso.', false), ('B', 'La colaboración en la cumplimentación de impresos o solicitudes.', true), ('C', 'Una consideración jurídica sobre la viabilidad de su solicitud.', false), ('D', 'Una valoración económica de las opciones que se le presentan.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 4 del Real Decreto 208/1996, la recepción de la documentación inicial de un expediente, cuando así se haya dispuesto reglamentariamente, forma parte de la función de atención al ciudadano denominada:', 'El art. 4.c) RD 208/1996 incluye en la función de gestión la recepción de la documentación inicial de un expediente cuando así se haya dispuesto reglamentariamente, además de las actuaciones de trámite y resolución de cuestiones urgentes y simples.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 4.c) RDINFO', 'c) De gestión, en relación con los procedimientos administrativos, que comprenderá la recepción de la documentación inicial de un expediente cuando así se haya dispuesto reglamentariamente, así como las actuaciones de trámite y resolución de las cuestiones cuya urgencia y simplicidad demanden una respuesta inmediata.', null, '9f079c66908ff6d262c70d0bf49bf0c60c39b8ec0ebcf26b206863fcb281c85a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9f079c66908ff6d262c70d0bf49bf0c60c39b8ec0ebcf26b206863fcb281c85a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'De recepción y acogida.', false), ('B', 'De orientación e información.', false), ('C', 'De asistencia en el ejercicio del derecho de petición.', false), ('D', 'De gestión.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 4.f) del Real Decreto 208/1996, la atención al ciudadano incluye la asistencia en el ejercicio del derecho de petición, reconocido por los artículos de la Constitución:', 'El art. 4.f) RD 208/1996 se refiere al derecho de petición reconocido por los arts. 29 (derecho fundamental de petición) y 77 (peticiones a las Cámaras) de la Constitución.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 4.f) RDINFO', 'f) De asistencia a los ciudadanos en el ejercicio del derecho de petición, reconocido por los artículos 29 y 77 de la Constitución.', null, '3f77863ada640f148d8fae8902db538629979938777db599b3899979a3288f06', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '3f77863ada640f148d8fae8902db538629979938777db599b3899979a3288f06')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '20 y 105.', false), ('B', '23 y 29.', false), ('C', '29 y 77.', true), ('D', '14 y 77.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 4.f) del Real Decreto 208/1996, cuando una unidad de información administrativa recibe una petición en la que no figura el destinatario o este consta erróneamente, deberá:', 'El art. 4.f) RD 208/1996 obliga a las unidades de información a elevar a los órganos competentes las peticiones que reciban sin destinatario o con el destinatario erróneo.', 'age_aux_b2_01_atencion_publico', (select id from public.topics where slug = 'age-aux-b2-01-atencion-publico'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 4.f) RDINFO', 'estas unidades deberán elevar a los órganos competentes las peticiones que reciban, en las que no figure el destinatario o conste erróneamente.', null, '589e8c2ebde8181c82c4845b5c3c5c387196486a8e5de0a1b3b45c67bdaff4dd', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '589e8c2ebde8181c82c4845b5c3c5c387196486a8e5de0a1b3b45c67bdaff4dd')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Devolverla al peticionario para que indique el destinatario.', false), ('B', 'Archivarla sin más trámite.', false), ('C', 'Remitirla en todo caso al Defensor del Pueblo.', false), ('D', 'Elevarla a los órganos competentes.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-02-informacion-administrativa-lodpet-v1 (7 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Ley Orgánica 4/2001, de 12 de noviembre, reguladora del Derecho de Petición (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-02-informacion-administrativa', 'II.2 Los servicios de información administrativa: iniciativas, reclamaciones, quejas y peticiones') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-02-informacion-administrativa' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 1 de la Ley Orgánica 4/2001, reguladora del derecho de petición, ¿quién puede ejercer el derecho de petición?', 'El art. 1.1 LO 4/2001 reconoce el derecho de petición a toda persona natural o jurídica, prescindiendo de su nacionalidad, de forma individual o colectiva.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 1.1 LODPET', '1. Toda persona natural o jurídica, prescindiendo de su nacionalidad, puede ejercer el derecho de petición, individual o colectivamente', null, '6f22c38517f1afa897186e7c5c16959926ee976aadfd3e72867246911c07ac03', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6f22c38517f1afa897186e7c5c16959926ee976aadfd3e72867246911c07ac03')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Toda persona natural o jurídica, prescindiendo de su nacionalidad.', true), ('B', 'Solo las personas físicas de nacionalidad española.', false), ('C', 'Solo los ciudadanos de la Unión Europea mayores de edad.', false), ('D', 'Solo las personas jurídicas inscritas en un registro público.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 3 de la Ley Orgánica 4/2001, no son objeto del derecho de petición:', 'El art. 3 LO 4/2001 admite peticiones que afecten solo al peticionario o sean de interés colectivo o general, pero excluye aquellas para las que el ordenamiento prevé un procedimiento específico distinto.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 3 LODPET', 'No son objeto de este derecho aquellas solicitudes, quejas o sugerencias para cuya satisfacción el ordenamiento jurídico establezca un procedimiento específico distinto al regulado en la presente Ley.', null, '2b3c1ed0ba4870c34c386de5e6490976610df9cd52e7572f632b777420eefe08', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '2b3c1ed0ba4870c34c386de5e6490976610df9cd52e7572f632b777420eefe08')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las peticiones que afecten exclusivamente al peticionario.', false), ('B', 'Las peticiones de interés colectivo o general.', false), ('C', 'Las peticiones formuladas colectivamente por varias personas.', false), ('D', 'Las solicitudes, quejas o sugerencias para cuya satisfacción el ordenamiento jurídico establezca un procedimiento específico distinto al regulado en esa ley.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 4.1 de la Ley Orgánica 4/2001, las peticiones:', 'El art. 4.1 LO 4/2001 exige la forma escrita, por cualquier medio que permita acreditar la autenticidad, y la identidad del solicitante, entre otros datos. Los peticionarios pueden exigir la confidencialidad de sus datos (art. 4.4), pero no el anonimato.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 4.1 LODPET', '1. Las peticiones se formularán por escrito, pudiendo utilizarse cualquier medio, incluso de carácter electrónico, que permita acreditar su autenticidad, e incluirán necesariamente la identidad del solicitante', null, '98145f50942b2b046437dcfa13f9c00303b816ffe18fd5c61842ea097d8d1b3f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '98145f50942b2b046437dcfa13f9c00303b816ffe18fd5c61842ea097d8d1b3f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Podrán formularse verbalmente ante cualquier funcionario, que levantará acta.', false), ('B', 'Se formularán por escrito, pudiendo utilizarse cualquier medio, incluso de carácter electrónico, que permita acreditar su autenticidad.', true), ('C', 'Se formularán necesariamente en modelo normalizado y en soporte papel.', false), ('D', 'Podrán presentarse de forma anónima si así lo solicita el peticionario.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 6.2 de la Ley Orgánica 4/2001, la administración, institución pública o autoridad que reciba una petición acusará recibo de ella y lo comunicará al interesado dentro de los:', 'El art. 6.2 LO 4/2001 fija en diez días desde la recepción el plazo para acusar recibo y comunicarlo al interesado.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 6.2 LODPET', '2. La administración, institución pública o autoridad que reciba una petición acusará recibo de la misma y lo comunicará al interesado dentro de los diez días siguientes a su recepción.', null, '42b5e27483ff869afd4475c02ac4defd6209b9a0842b67689a67ab60fa0e9b9c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '42b5e27483ff869afd4475c02ac4defd6209b9a0842b67689a67ab60fa0e9b9c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Quince días siguientes a su recepción.', false), ('B', 'Diez días siguientes a su recepción.', true), ('C', 'Cinco días hábiles siguientes a su recepción.', false), ('D', 'Veinte días hábiles siguientes a su recepción.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 7.2 de la Ley Orgánica 4/2001, si el escrito de petición no reúne los requisitos legales, se requerirá al peticionario para que subsane los defectos advertidos en el plazo de:', 'El art. 7.2 LO 4/2001 concede quince días para subsanar, con el apercibimiento de que, si no lo hace, se le tendrá por desistido y se archivará la petición.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 7.2 LODPET', 'se requerirá al peticionario para que subsane los defectos advertidos en el plazo de quince días con el apercibimiento de que, si así no lo hiciera, se le tendrá por desistido de su petición', null, '552ff550c61cb20ffaff042db3dd1237609f265d4ffd7bf4c564b19fcc6d76c1', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '552ff550c61cb20ffaff042db3dd1237609f265d4ffd7bf4c564b19fcc6d76c1')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Diez días.', false), ('B', 'Un mes.', false), ('C', 'Cuarenta y cinco días hábiles.', false), ('D', 'Quince días.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 9.1 de la Ley Orgánica 4/2001, la declaración de inadmisibilidad de una petición será siempre motivada y deberá acordarse y notificarse al peticionario en los:', 'El art. 9.1 LO 4/2001 fija 45 días hábiles para declarar y notificar la inadmisión; si no se hace, la petición se entiende admitida a trámite (art. 9.2).', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 9.1 LODPET', '1. La declaración de inadmisibilidad será siempre motivada y deberá acordarse y notificarse al peticionario en los cuarenta y cinco días hábiles siguientes al de presentación del escrito de petición.', null, 'fffd726c14f63b5708543846827ebb2506b37663c4fde4409ba860629b170cc2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fffd726c14f63b5708543846827ebb2506b37663c4fde4409ba860629b170cc2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cuarenta y cinco días hábiles siguientes al de presentación del escrito de petición.', true), ('B', 'Treinta días naturales siguientes al de presentación del escrito de petición.', false), ('C', 'Tres meses siguientes al de presentación del escrito de petición.', false), ('D', 'Diez días siguientes al de recepción del escrito de petición.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 11.1 de la Ley Orgánica 4/2001, una vez admitida a trámite una petición, la autoridad u órgano competente está obligado a contestar y a notificar la contestación en el plazo máximo de:', 'El art. 11.1 LO 4/2001 fija un plazo máximo de tres meses desde la presentación para contestar y notificar la contestación.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090'), 'Art. 11.1 LODPET', '1. Una vez admitida a trámite una petición, la autoridad u órgano competente vendrán obligados a contestar y a notificar la contestación en el plazo máximo de tres meses a contar desde la fecha de su presentación.', null, '9c1fb4958a41dc5ef931b27a8a266e4acf0bce9b01e8467b19e9e6f4c7f628e0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9c1fb4958a41dc5ef931b27a8a266e4acf0bce9b01e8467b19e9e6f4c7f628e0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Un mes a contar desde la fecha de su admisión.', false), ('B', 'Seis meses a contar desde la fecha de su presentación.', false), ('C', 'Tres meses a contar desde la fecha de su presentación.', true), ('D', 'Cuarenta y cinco días hábiles a contar desde la fecha de su admisión.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-02-informacion-administrativa-rdcal-v1 (6 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 951/2005, de 29 de julio, marco general para la mejora de la calidad en la Administración General del Estado (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-02-informacion-administrativa', 'II.2 Los servicios de información administrativa: iniciativas, reclamaciones, quejas y peticiones') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-02-informacion-administrativa' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de los siguientes programas integra el marco general para la mejora de la calidad en la Administración General del Estado, según el artículo 3.1 del Real Decreto 951/2005?', 'El art. 3.1 RD 951/2005 enumera seis programas: análisis de la demanda y evaluación de la satisfacción, cartas de servicios, quejas y sugerencias, evaluación de la calidad de las organizaciones, reconocimiento y Observatorio de la Calidad de los Servicios Públicos.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836'), 'Art. 3.1 RDCAL', 'c) Programa de quejas y sugerencias.', null, '06ceae822b953053d6bd1e7028c544177119f3eaba84c1d82c8f85d400eaa822', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '06ceae822b953053d6bd1e7028c544177119f3eaba84c1d82c8f85d400eaa822')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El programa de evaluación del desempeño individual de los empleados públicos.', false), ('B', 'El programa de reclamaciones de responsabilidad patrimonial.', false), ('C', 'El programa de quejas y sugerencias.', true), ('D', 'El programa de control de la morosidad en el pago a proveedores.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 15.2 del Real Decreto 951/2005, las quejas y sugerencias presentadas por correo electrónico o a través de Internet:', 'El art. 15.2 RD 951/2005 admite la presentación presencial, por correo postal y por medios telemáticos; las presentadas por correo electrónico o Internet deben ir suscritas con firma electrónica del interesado.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836'), 'Art. 15.2 RDCAL', 'Las quejas y sugerencias presentadas por correo electrónico o a través de Internet deberán estar suscritas con la firma electrónica del interesado.', 'El RD 951/2005 es anterior a la Ley 39/2015, cuyo art. 11.2 limita los supuestos en que puede exigirse firma; el texto consolidado mantiene esta exigencia, pero conviene confirmar que sigue aplicándose así.', '550ab5f04589ed5acdc2063b9191249f73bce9e92f8b562e6f997a54667aea22', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '550ab5f04589ed5acdc2063b9191249f73bce9e92f8b562e6f997a54667aea22')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'No se admitirán en ningún caso.', false), ('B', 'Deberán ratificarse presencialmente en el plazo de diez días.', false), ('C', 'Deberán estar suscritas con la firma electrónica del interesado.', true), ('D', 'Podrán presentarse de forma anónima.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 16.1 del Real Decreto 951/2005, recibida una queja o sugerencia, la unidad responsable informará al interesado de las actuaciones realizadas en el plazo de:', 'El art. 16.1 RD 951/2005 fija un plazo de 20 días hábiles para informar al interesado de las actuaciones realizadas.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836'), 'Art. 16.1 RDCAL', '1. Recibida la queja o sugerencia, la unidad a la que se refiere el artículo 14 informará al interesado de las actuaciones realizadas en el plazo de 20 días hábiles.', null, 'dbb0273065f0f7e92d4784e7849fce4ef113cd31795993fad4fba4d5d457ca36', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'dbb0273065f0f7e92d4784e7849fce4ef113cd31795993fad4fba4d5d457ca36')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '10 días hábiles.', false), ('B', 'Un mes.', false), ('C', 'Tres meses.', false), ('D', '20 días hábiles.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 16.2 del Real Decreto 951/2005, el plazo para contestar una queja o sugerencia podrá suspenderse cuando deba requerirse al interesado para que formule las aclaraciones necesarias en un plazo de:', 'El art. 16.2 RD 951/2005 permite suspender el plazo de contestación si se requiere al interesado para que aclare su queja o sugerencia en 10 días hábiles.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836'), 'Art. 16.2 RDCAL', '2. El transcurso de dicho plazo se podrá suspender en el caso de que deba requerirse al interesado para que, en un plazo de 10 días hábiles, formule las aclaraciones necesarias para la correcta tramitación de la queja o sugerencia.', null, '1577ed9988744fc6dd99d1f1cd720a8ad54cc65d64cbc500608ebc8b71efdb5f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1577ed9988744fc6dd99d1f1cd720a8ad54cc65d64cbc500608ebc8b71efdb5f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '5 días hábiles.', false), ('B', '10 días hábiles.', true), ('C', '15 días hábiles.', false), ('D', '20 días naturales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 16.3 del Real Decreto 951/2005, si transcurrido el plazo establecido el ciudadano no hubiera obtenido respuesta a su queja, podrá dirigirse, para conocer los motivos de la falta de contestación:', 'El art. 16.3 RD 951/2005 permite acudir a la Inspección General de Servicios del departamento para conocer los motivos de la falta de contestación y para que proponga, en su caso, las medidas oportunas.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836'), 'Art. 16.3 RDCAL', '3. Si, transcurrido el plazo establecido, no hubiera obtenido ninguna respuesta de la Administración, el ciudadano podrá dirigirse a la Inspección General de Servicios del departamento correspondiente para conocer los motivos de la falta de contestación', null, '6f6a5de15a2c410523e66e74605ae198bb8e4132a2ea4e88b47ed5cbe6c2e8b6', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6f6a5de15a2c410523e66e74605ae198bb8e4132a2ea4e88b47ed5cbe6c2e8b6')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'A la Inspección General de Servicios del departamento correspondiente.', true), ('B', 'Al Defensor del Pueblo, como trámite previo obligatorio.', false), ('C', 'Al Juzgado de lo Contencioso-Administrativo, mediante recurso por inactividad.', false), ('D', 'Al Consejo de Transparencia y Buen Gobierno.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 19 del Real Decreto 951/2005, las quejas formuladas conforme a lo previsto en él:', 'El art. 19 RD 951/2005 niega a las quejas el carácter de recurso administrativo y establece que no interrumpen los plazos ni condicionan el ejercicio de otras acciones o derechos.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836'), 'Art. 19 RDCAL', 'Las quejas formuladas conforme a lo previsto en este real decreto no tendrán, en ningún caso, la calificación de recurso administrativo ni su presentación interrumpirá los plazos establecidos en la normativa vigente.', null, '09f8d6ebd44caf9a5febba4abc5d51a80d8e7a94211a003a3618b7a7d59427b5', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '09f8d6ebd44caf9a5febba4abc5d51a80d8e7a94211a003a3618b7a7d59427b5')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Tendrán la consideración de recurso de alzada cuando se dirijan contra una resolución.', false), ('B', 'Interrumpirán los plazos para interponer recursos hasta que se contesten.', false), ('C', 'No tendrán, en ningún caso, la calificación de recurso administrativo ni su presentación interrumpirá los plazos establecidos en la normativa vigente.', true), ('D', 'Sustituirán al recurso potestativo de reposición.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-02-informacion-administrativa-rdinfo-v1 (7 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 208/1996, de 9 de febrero, por el que se regulan los servicios de información administrativa y atención al ciudadano (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-02-informacion-administrativa', 'II.2 Los servicios de información administrativa: iniciativas, reclamaciones, quejas y peticiones') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-02-informacion-administrativa' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 1 del Real Decreto 208/1996, la información encomendada a las unidades y oficinas de información administrativa podrá ser:', 'El art. 1 RD 208/1996 distingue entre información general (art. 2) e información particular (art. 3).', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 1 RDINFO', 'La información encomendada a las unidades y oficinas a las que se refiere el capítulo II de este Real Decreto podrá ser general o particular.', null, 'bac95c0f976214aafeb0f229d985a54eac08c7607f9f760141d7f394dac91e25', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'bac95c0f976214aafeb0f229d985a54eac08c7607f9f760141d7f394dac91e25')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'General o particular.', true), ('B', 'Pública o reservada.', false), ('C', 'Verbal o escrita.', false), ('D', 'Central o periférica.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 2.2 del Real Decreto 208/1996, la información general se facilitará a los ciudadanos:', 'El art. 2.2 RD 208/1996 obliga a facilitar la información general sin exigir acreditación de legitimación; en cambio, la particular se reserva a los interesados (art. 3.1).', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 2.2 RDINFO', '2. La información general se facilitará obligatoriamente a los ciudadanos, sin exigir para ello la acreditación de legitimación alguna.', null, 'aca9c83e6a92f86981d73da01d3b7b3f71755a2545b778a9f824a7e39a0546f1', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'aca9c83e6a92f86981d73da01d3b7b3f71755a2545b778a9f824a7e39a0546f1')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Solo si acreditan la condición de interesados en un procedimiento.', false), ('B', 'Previa solicitud escrita y motivada.', false), ('C', 'Obligatoriamente, sin exigir para ello la acreditación de legitimación alguna.', true), ('D', 'Únicamente si acreditan un interés legítimo y directo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de las siguientes es información general según el artículo 2.1 del Real Decreto 208/1996?', 'El art. 2.1 RD 208/1996 incluye en la información general los requisitos jurídicos o técnicos de los proyectos, actuaciones o solicitudes. Las demás opciones son información particular (art. 3.1 y 3.2).', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 2.1 RDINFO', 'la referida a los requisitos jurídicos o técnicos que las disposiciones impongan a los proyectos, actuaciones o solicitudes que los ciudadanos se propongan realizar', null, '4488f7a17b02d4aeca7f39d4a900010fda98f18a56bc8a65ece7df932227e5f2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4488f7a17b02d4aeca7f39d4a900010fda98f18a56bc8a65ece7df932227e5f2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La concerniente al estado o contenido de un procedimiento en tramitación.', false), ('B', 'La referida a los requisitos jurídicos o técnicos que las disposiciones impongan a los proyectos, actuaciones o solicitudes que los ciudadanos se propongan realizar.', true), ('C', 'La identificación de las autoridades bajo cuya responsabilidad se tramita un procedimiento concreto.', false), ('D', 'La relativa a los datos de carácter personal que afecten a la intimidad de una persona física.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 3.1 del Real Decreto 208/1996, la información particular concerniente al estado o contenido de los procedimientos en tramitación solo podrá facilitarse:', 'El art. 3.1 RD 208/1996 reserva la información particular a los interesados en cada procedimiento o a sus representantes legales. Sin acreditar legitimación solo se facilita la información general (art. 2.2).', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 3.1 RDINFO', 'Esta información sólo podrá ser facilitada a las personas que tengan la condición de interesados en cada procedimiento o a sus representantes legales', null, '44cb90c670e5ef3ddd6cb0dd98cbf0821b5854e09e15366e6d048507bd3c315f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '44cb90c670e5ef3ddd6cb0dd98cbf0821b5854e09e15366e6d048507bd3c315f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'A cualquier ciudadano que la solicite, sin necesidad de acreditar legitimación.', false), ('B', 'A los ciudadanos de nacionalidad española mayores de edad.', false), ('C', 'A los grupos sociales o instituciones interesados en su conocimiento.', false), ('D', 'A las personas que tengan la condición de interesados en cada procedimiento o a sus representantes legales.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 4.d) del Real Decreto 208/1996, las iniciativas o sugerencias para mejorar la calidad de los servicios, incrementar el rendimiento o el ahorro del gasto público y simplificar trámites pueden ser formuladas:', 'El art. 4.d) RD 208/1996 contempla la recepción de iniciativas o sugerencias formuladas tanto por los ciudadanos como por los propios empleados públicos.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 4.d) RDINFO', 'd) De recepción de las iniciativas o sugerencias formuladas por los ciudadanos, o por los propios empleados públicos para mejorar la calidad de los servicios, incrementar el rendimiento o el ahorro del gasto público, simplificar trámites o suprimir los que sean innecesarios', null, '065321f48df76a00afd7ffc76f2483859d8c2eb20cd6009db63a2844d5b98d83', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '065321f48df76a00afd7ffc76f2483859d8c2eb20cd6009db63a2844d5b98d83')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Únicamente por los ciudadanos que sean interesados en un procedimiento.', false), ('B', 'Por los ciudadanos o por los propios empleados públicos.', true), ('C', 'Únicamente por las asociaciones de consumidores y usuarios.', false), ('D', 'Únicamente por los empleados públicos, a través de sus representantes.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 5.1 del Real Decreto 208/1996, en cada Ministerio la jefatura de la unidad departamental de información administrativa corresponde:', 'El art. 5.1 RD 208/1996 atribuye la jefatura de la unidad departamental de información administrativa al titular de la Subdirección General competente en esa materia.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 5.1 RDINFO', '1. En cada Ministerio el titular de la Subdirección General que tenga encomendada la competencia sobre la información administrativa ostentará la jefatura de la unidad departamental de información administrativa.', null, 'b128cef3e1c28369626578f92fa746ce4e2460543ccb2a752c4ffb41b2a9178e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b128cef3e1c28369626578f92fa746ce4e2460543ccb2a752c4ffb41b2a9178e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Al Subsecretario del Departamento.', false), ('B', 'Al Secretario General Técnico del Departamento.', false), ('C', 'Al Jefe del Gabinete del Ministro.', false), ('D', 'Al titular de la Subdirección General que tenga encomendada la competencia sobre la información administrativa.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 8.a) del Real Decreto 208/1996, las oficinas centrales de información y atención al ciudadano de los servicios centrales radicarán, salvo que circunstancias singulares aconsejen otro emplazamiento:', 'El art. 8.a) RD 208/1996 sitúa las oficinas centrales en la sede de cada Departamento ministerial, con posibles oficinas delegadas o puntos de información en otros edificios.', 'age_aux_b2_02_informacion_administrativa', (select id from public.topics where slug = 'age-aux-b2-02-informacion-administrativa'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 8.a) RDINFO', 'a) Las oficinas centrales de información y atención al ciudadano, que radicarán en la sede de cada Departamento ministerial, salvo que circunstancias singulares aconsejen otro emplazamiento.', null, '5ccd487f55678f447b8495cc150dd776bd8b689c55cca4cbc141e4de5db6e046', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5ccd487f55678f447b8495cc150dd776bd8b689c55cca4cbc141e4de5db6e046')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la sede de cada Departamento ministerial.', true), ('B', 'En la sede de cada Delegación del Gobierno.', false), ('C', 'En la sede del Centro de Información Administrativa.', false), ('D', 'En la sede de cada Subdelegación del Gobierno.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-03-documento-registro-archivo-lpac-v1 (10 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-03-documento-registro-archivo', 'II.3 Documento, registro y archivo') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-03-documento-registro-archivo' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 26.1 de la Ley 39/2015, las Administraciones Públicas emitirán los documentos administrativos:', 'El art. 26.1 LPAC establece como regla general la emisión por escrito y por medios electrónicos, salvo que la naturaleza del documento exija otra forma más adecuada.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 26.1 LPAC', 'Las Administraciones Públicas emitirán los documentos administrativos por escrito, a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.', null, 'e295cbfa4235238f34651713db6ac19017e7d4282bb5e785c27347fa21187faa', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e295cbfa4235238f34651713db6ac19017e7d4282bb5e785c27347fa21187faa')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por escrito, a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.', true), ('B', 'Por escrito en soporte papel, salvo que el interesado solicite expresamente el formato electrónico.', false), ('C', 'En la forma que elija libremente el interesado en cada caso.', false), ('D', 'Verbalmente, con constancia posterior en soporte electrónico.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de los siguientes es un requisito de validez de los documentos electrónicos administrativos según el artículo 26.2 de la Ley 39/2015?', 'El art. 26.2 LPAC exige, entre otros requisitos, contener información en soporte electrónico con un formato determinado, datos de identificación, una referencia temporal, los metadatos mínimos y las firmas electrónicas que correspondan.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 26.2 LPAC', 'c) Incorporar una referencia temporal del momento en que han sido emitidos.', null, '48fd5fc0911d830fd9c968c1db24beb144caa0a7ebb2a56d9e8e304dd8153351', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '48fd5fc0911d830fd9c968c1db24beb144caa0a7ebb2a56d9e8e304dd8153351')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Estar redactados en castellano y en la lengua cooficial de la Comunidad Autónoma.', false), ('B', 'Incorporar una referencia temporal del momento en que han sido emitidos.', true), ('C', 'Incorporar la firma manuscrita digitalizada del titular del órgano.', false), ('D', 'Haber sido impresos y sellados en papel oficial.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 26.3 de la Ley 39/2015, no requerirán de firma electrónica los documentos electrónicos emitidos por las Administraciones Públicas que:', 'El art. 26.3 LPAC exime de firma electrónica a los documentos meramente informativos y a los que no forman parte de un expediente, aunque siempre debe identificarse su origen.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 26.3 LPAC', '3. No requerirán de firma electrónica, los documentos electrónicos emitidos por las Administraciones Públicas que se publiquen con carácter meramente informativo, así como aquellos que no formen parte de un expediente administrativo. En todo caso, será necesario identificar el origen de estos documentos.', null, '28a4d3cf5f400ebfc82d2b920f652395c4b6ba756e47cde720e177ba1fb1fa10', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '28a4d3cf5f400ebfc82d2b920f652395c4b6ba756e47cde720e177ba1fb1fa10')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se dirijan a otras Administraciones Públicas.', false), ('B', 'Contengan actos de trámite dentro de un procedimiento.', false), ('C', 'Se notifiquen a través de la Dirección Electrónica Habilitada única.', false), ('D', 'Se publiquen con carácter meramente informativo, así como aquellos que no formen parte de un expediente administrativo.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 27.2 de la Ley 39/2015, las copias auténticas de documentos realizadas por los órganos competentes de las Administraciones Públicas tendrán:', 'El art. 27.2 LPAC atribuye a las copias auténticas la misma validez y eficacia que los documentos originales.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 27.2 LPAC', 'Las copias auténticas tendrán la misma validez y eficacia que los documentos originales.', null, 'a9cf1d7499435246294473c44538d888bb2632b4850d4513d1ccddaf555f2791', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a9cf1d7499435246294473c44538d888bb2632b4850d4513d1ccddaf555f2791')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La misma validez y eficacia que los documentos originales.', true), ('B', 'Validez solo en el procedimiento en que se expidan.', false), ('C', 'Validez únicamente si se presentan junto con el original.', false), ('D', 'Valor meramente informativo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 16.1 de la Ley 39/2015, en el Registro Electrónico General de cada Administración se hará el correspondiente asiento de:', 'El art. 16.1 LPAC impone el asiento de todo documento presentado o recibido en cualquier órgano, organismo o entidad; también puede anotarse la salida de documentos oficiales.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 16.1 LPAC', '1. Cada Administración dispondrá de un Registro Electrónico General, en el que se hará el correspondiente asiento de todo documento que sea presentado o que se reciba en cualquier órgano administrativo, Organismo público o Entidad vinculado o dependiente a éstos.', null, '655877b32ba41f599ffe4a5f7b4de94e4b261867d0ee58b6b9d54bac6e302c8b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '655877b32ba41f599ffe4a5f7b4de94e4b261867d0ee58b6b9d54bac6e302c8b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Únicamente los documentos presentados por medios electrónicos.', false), ('B', 'Únicamente las solicitudes de iniciación de procedimientos.', false), ('C', 'Únicamente los documentos dirigidos a los órganos centrales de esa Administración.', false), ('D', 'Todo documento que sea presentado o que se reciba en cualquier órgano administrativo, Organismo público o Entidad vinculado o dependiente a estos.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 16.2 de la Ley 39/2015, los asientos en el registro se anotarán:', 'El art. 16.2 LPAC exige respetar el orden temporal de recepción o salida e indicar la fecha; concluido el registro, los documentos se cursan sin dilación a sus destinatarios.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 16.2 LPAC', '2. Los asientos se anotarán respetando el orden temporal de recepción o salida de los documentos, e indicarán la fecha del día en que se produzcan.', null, 'e33fc3019df45f47d551b2b9411971270f504d7b6bbd5e3d81aec844141a3aba', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e33fc3019df45f47d551b2b9411971270f504d7b6bbd5e3d81aec844141a3aba')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Por orden alfabético del apellido del interesado.', false), ('B', 'Respetando el orden temporal de recepción o salida de los documentos, con indicación de la fecha del día en que se produzcan.', true), ('C', 'Agrupados por materias, según el cuadro de clasificación del órgano.', false), ('D', 'Por orden de importancia del asunto, según aprecie el responsable del registro.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 16.3 de la Ley 39/2015, el recibo que emite automáticamente el registro electrónico al presentar un documento consiste en:', 'El art. 16.3 LPAC prevé un recibo automático consistente en una copia autenticada del documento, con fecha y hora de presentación y número de entrada de registro.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 16.3 LPAC', 'Para ello, se emitirá automáticamente un recibo consistente en una copia autenticada del documento de que se trate, incluyendo la fecha y hora de presentación y el número de entrada de registro', null, '1a41f37f78d4d6f25d511ec626030b46fe91280c13e3ac39e05d684842765a2c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1a41f37f78d4d6f25d511ec626030b46fe91280c13e3ac39e05d684842765a2c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Un justificante sin valor jurídico que indica solo el día de presentación.', false), ('B', 'Un resumen del contenido del documento redactado por el registro.', false), ('C', 'Una copia autenticada del documento de que se trate, incluyendo la fecha y hora de presentación y el número de entrada de registro.', true), ('D', 'Una certificación del órgano destinatario sobre la admisión a trámite.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿En cuál de los siguientes lugares pueden presentarse los documentos que los interesados dirijan a los órganos de las Administraciones Públicas, según el artículo 16.4 de la Ley 39/2015?', 'El art. 16.4 LPAC permite presentar documentos en los registros electrónicos, en las oficinas de Correos, en las representaciones diplomáticas u oficinas consulares, en las oficinas de asistencia en materia de registros y en cualquier otro que establezcan las disposiciones vigentes.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 16.4 LPAC', 'c) En las representaciones diplomáticas u oficinas consulares de España en el extranjero.', null, '5d36339f64b8010ca30962b7da7d21d4caab47c9a495a92a1504171341cf3d7c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5d36339f64b8010ca30962b7da7d21d4caab47c9a495a92a1504171341cf3d7c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En cualquier notaría, a elección del interesado.', false), ('B', 'En las representaciones diplomáticas u oficinas consulares de España en el extranjero.', true), ('C', 'En las sedes de las asociaciones vecinales.', false), ('D', 'En los despachos profesionales de abogados colegiados.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 16.5 de la Ley 39/2015, los documentos presentados de manera presencial ante las Administraciones Públicas:', 'El art. 16.5 LPAC obliga a la oficina de asistencia en materia de registros a digitalizar los documentos presentados presencialmente y a devolver los originales, salvo que la norma determine su custodia o no sean susceptibles de digitalización.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 16.5 LPAC', '5. Los documentos presentados de manera presencial ante las Administraciones Públicas, deberán ser digitalizados, de acuerdo con lo previsto en el artículo 27 y demás normativa aplicable, por la oficina de asistencia en materia de registros en la que hayan sido presentados para su incorporación al expediente administrativo electrónico, devolviéndose los originales al interesado', null, '362b1d0209f40e3cc6f41f2700a12b77876483cf4399473e17978e4640d51672', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '362b1d0209f40e3cc6f41f2700a12b77876483cf4399473e17978e4640d51672')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se conservarán siempre en papel en el archivo de oficina del órgano destinatario.', false), ('B', 'Se remitirán en papel por correo interno al órgano destinatario.', false), ('C', 'Deberán ser digitalizados por la oficina de asistencia en materia de registros en la que hayan sido presentados, devolviéndose los originales al interesado, salvo las excepciones previstas.', true), ('D', 'Deberán ser digitalizados por el propio interesado antes de su presentación.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 17.1 de la Ley 39/2015, cada Administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a:', 'El art. 17.1 LPAC limita el archivo electrónico único a los documentos electrónicos de procedimientos finalizados.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 17.1 LPAC', '1. Cada Administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a procedimientos finalizados, en los términos establecidos en la normativa reguladora aplicable.', null, 'bd5344d1c3c675ab7f8fbcc2f291122198430007bf173b34d8966771b03c67ad', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'bd5344d1c3c675ab7f8fbcc2f291122198430007bf173b34d8966771b03c67ad')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Procedimientos finalizados.', true), ('B', 'Procedimientos en tramitación.', false), ('C', 'Procedimientos iniciados de oficio.', false), ('D', 'Procedimientos sancionadores.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-03-documento-registro-archivo-rdarch-v1 (8 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 1708/2011, de 18 de noviembre, Sistema Español de Archivos y Sistema de Archivos de la AGE (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-03-documento-registro-archivo', 'II.3 Documento, registro y archivo') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-03-documento-registro-archivo' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 2.2 del Real Decreto 1708/2011, se entiende por documento de archivo:', 'El art. 2.2.b) RD 1708/2011 define el documento de archivo como el ejemplar en cualquier soporte que testimonia actividades y funciones. Las otras definiciones corresponden al sistema archivístico (letra a) y al calendario de conservación (letra f).', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 2.2.b) RDARCH', 'b) Documento de archivo: Ejemplar en cualquier tipo de soporte, testimonio de las actividades y funciones de las personas físicas y jurídicas, públicas o privadas.', null, '2cdf99c593d7b7db05211fc3fe79e0b2ceba0b248812770a96aee2e4e9b55c56', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '2cdf99c593d7b7db05211fc3fe79e0b2ceba0b248812770a96aee2e4e9b55c56')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Únicamente el documento en soporte papel firmado por una autoridad pública.', false), ('B', 'El conjunto de normas, órganos, centros y servicios competentes en la gestión de los documentos.', false), ('C', 'El ejemplar en cualquier tipo de soporte, testimonio de las actividades y funciones de las personas físicas y jurídicas, públicas o privadas.', true), ('D', 'El instrumento que recoge el plazo de permanencia de los documentos en cada fase de su ciclo vital.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 8 del Real Decreto 1708/2011, atendiendo al ciclo vital de los documentos, los archivos del Sistema de Archivos de la Administración General del Estado se clasifican en:', 'El art. 8 RD 1708/2011 distingue cuatro clases: oficina o gestión, generales o centrales de Ministerios y organismos, archivo intermedio y archivos históricos.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 8 RDARCH', 'Los Archivos del Sistema de Archivos de la Administración General del Estado, atendiendo al ciclo vital de los documentos, se clasifican en: a) Archivos de oficina o de gestión. b) Archivos generales o centrales de los Ministerios y de los organismos públicos dependientes de los mismos. c) Archivo intermedio. d) Archivos históricos.', null, '317e2aaf454542393de2da6bd66e97334ae7456f926568c90bf1e35f2fe694e6', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '317e2aaf454542393de2da6bd66e97334ae7456f926568c90bf1e35f2fe694e6')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Archivos de gestión, archivos centrales y archivos históricos.', false), ('B', 'Archivos activos, archivos semiactivos y archivos inactivos.', false), ('C', 'Archivos ministeriales, archivos autonómicos, archivos provinciales y archivos municipales.', false), ('D', 'Archivos de oficina o de gestión, archivos generales o centrales, archivo intermedio y archivos históricos.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 9 del Real Decreto 1708/2011, los documentos custodiados en los archivos de oficina o de gestión, una vez concluida su tramitación o su etapa de utilización y consulta, serán objeto de transferencia:', 'El art. 9 RD 1708/2011 prevé la transferencia de los archivos de gestión al archivo central del Departamento, de acuerdo con los plazos fijados en la valoración; del central pasan al intermedio (art. 10) y de este al histórico (art. 11).', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 9 RDARCH', 'Estos documentos, una vez concluida su tramitación o su etapa de utilización y consulta, serán objeto de transferencia al archivo central del Departamento respectivo, de acuerdo con los plazos establecidos durante el proceso de valoración.', null, 'af09105faf68156dd71233bbd1b307908335ba47b763570a2428f403c9cd97cb', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'af09105faf68156dd71233bbd1b307908335ba47b763570a2428f403c9cd97cb')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Directamente al Archivo General de la Administración.', false), ('B', 'Directamente al Archivo Histórico Nacional.', false), ('C', 'Al Archivo Histórico Provincial correspondiente.', false), ('D', 'Al archivo central del Departamento respectivo.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 9 del Real Decreto 1708/2011, la función de eliminar los documentos de apoyo informativo antes de su transferencia al Archivo central corresponde:', 'El art. 9 RD 1708/2011 incluye entre las funciones de los archivos de oficina o de gestión la de eliminar los documentos de apoyo informativo antes de transferir al Archivo central.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 9 RDARCH', '5.º Eliminar los documentos de apoyo informativo antes de la transferencia al Archivo central.', null, '668aa81604bedeafcde38c80c62b59bcbe80ecb25780096e8c982fbb2f47603c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '668aa81604bedeafcde38c80c62b59bcbe80ecb25780096e8c982fbb2f47603c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Al Archivo General de la Administración.', false), ('B', 'A los archivos de oficina o de gestión.', true), ('C', 'A los archivos históricos.', false), ('D', 'A la Comisión de Archivos de la Administración General del Estado.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 10.1 del Real Decreto 1708/2011, ¿a qué archivo corresponde llevar a cabo el proceso de identificación de series y elaborar el cuadro de clasificación?', 'El art. 10.1 RD 1708/2011 atribuye al Archivo Central, entre otras funciones, la identificación de series y la elaboración del cuadro de clasificación.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 10.1 RDARCH', '2.º Llevar a cabo el proceso de identificación de series y elaborar el cuadro de clasificación.', null, '6b2707b20e1d88157466e116154dd8c06ea54f206bfab8058ea0082c297a41f4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6b2707b20e1d88157466e116154dd8c06ea54f206bfab8058ea0082c297a41f4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Al Archivo Central.', true), ('B', 'Al archivo de oficina o de gestión.', false), ('C', 'Al archivo intermedio.', false), ('D', 'Al Archivo Histórico Nacional.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 11 del Real Decreto 1708/2011, ¿cuál es el archivo intermedio de la Administración General del Estado?', 'El art. 11 RD 1708/2011 identifica el Archivo General de la Administración como archivo intermedio de la AGE; el Archivo Histórico Nacional ejerce las funciones de archivo histórico (art. 12.2).', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 11 RDARCH', 'El Archivo General de la Administración, es el archivo intermedio de la Administración General del Estado, según la normativa vigente.', null, '7de44bb6860acfc730b452ea8ef959af3eab928bfb044093e54d916192ea60ca', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '7de44bb6860acfc730b452ea8ef959af3eab928bfb044093e54d916192ea60ca')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El Archivo Histórico Nacional.', false), ('B', 'El archivo central de cada Ministerio.', false), ('C', 'El Archivo General de la Administración.', true), ('D', 'El Archivo Histórico Provincial de cada provincia.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 12 del Real Decreto 1708/2011, las funciones de archivo histórico de la Administración General del Estado las ejerce:', 'El art. 12.2 RD 1708/2011 atribuye al Archivo Histórico Nacional las funciones de archivo histórico de la AGE; conserva los documentos con valor histórico que le transfiere el Archivo General de la Administración.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 12 RDARCH', '2. El Archivo Histórico Nacional ejerce las funciones de archivo histórico de la Administración General del Estado.', null, '24bd797a2f866232639e865f0b11329e9d96fee072ca2e1fd5373bfabab87167', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '24bd797a2f866232639e865f0b11329e9d96fee072ca2e1fd5373bfabab87167')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El Archivo General de la Administración.', false), ('B', 'El archivo central del Ministerio de la Presidencia.', false), ('C', 'El Archivo Histórico Nacional.', true), ('D', 'La Comisión Superior Calificadora de Documentos Administrativos.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 2.2 del Real Decreto 1708/2011, el instrumento de trabajo fruto del proceso de valoración documental, en el que se recoge el plazo de permanencia de los documentos de archivo en cada una de las fases del ciclo vital, se denomina:', 'El art. 2.2.f) RD 1708/2011 define el calendario de conservación como el instrumento que fija la permanencia de los documentos en cada fase del ciclo vital para su selección, eliminación o conservación permanente.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541'), 'Art. 2.2.f) RDARCH', 'f) Calendario de conservación: Es el instrumento de trabajo fruto del proceso de valoración documental, en el que se recoge el plazo de permanencia de los documentos de archivo en cada una de las fases del ciclo vital para su selección, eliminación o conservación permanente', null, '124e17aecc0921d3567cb9ce6d154e5277092615a995cf88b4405eedd9038c1b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '124e17aecc0921d3567cb9ce6d154e5277092615a995cf88b4405eedd9038c1b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cuadro de clasificación.', false), ('B', 'Relación de entrega.', false), ('C', 'Inventario de fondos.', false), ('D', 'Calendario de conservación.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-03-documento-registro-archivo-rdelec-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 203/2021, de 30 de marzo, Reglamento de actuación y funcionamiento del sector público por medios electrónicos (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-03-documento-registro-archivo', 'II.3 Documento, registro y archivo') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-03-documento-registro-archivo' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de las siguientes es una función de las Oficinas de asistencia en materia de registros de la Administración General del Estado, según el artículo 40.3 del Real Decreto 203/2021?', 'El art. 40.3 RD 203/2021 atribuye a estas oficinas, entre otras funciones, la digitalización y anotación de documentos, la emisión de recibos, la expedición de copias electrónicas auténticas y la práctica de notificaciones por comparecencia espontánea.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 40.3 RDELEC', 'c) La emisión del correspondiente recibo que acredite la fecha y hora de presentación de solicitudes, comunicaciones y documentos que presenten las personas interesadas.', null, 'a43021edc109f96352e22c8df311b9345054ca0ff91038397853ff7052107eac', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a43021edc109f96352e22c8df311b9345054ca0ff91038397853ff7052107eac')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La emisión del correspondiente recibo que acredite la fecha y hora de presentación de solicitudes, comunicaciones y documentos.', true), ('B', 'La resolución de los procedimientos iniciados en la propia oficina.', false), ('C', 'La custodia permanente de los originales en papel presentados.', false), ('D', 'La resolución de los recursos de alzada interpuestos en la oficina.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 53.1 del Real Decreto 203/2021, los documentos presentados por el interesado en soporte papel que no le puedan ser devueltos en el momento de su presentación, una vez digitalizados, serán conservados a su disposición para que pueda recogerlos durante:', 'El art. 53.1 RD 203/2021 fija un plazo de conservación de seis meses, salvo que la Administración establezca reglamentariamente un plazo mayor.', 'age_aux_b2_03_documento_registro_archivo', (select id from public.topics where slug = 'age-aux-b2-03-documento-registro-archivo'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 53.1 RDELEC', '1. Los documentos presentados por el interesado en soporte papel que por cualquier circunstancia no le puedan ser devueltos en el momento de su presentación, una vez digitalizados serán conservados a su disposición durante seis meses para que pueda recogerlos', null, '1b597ac9af74edecee16b81278f721aea8f391998ced3681a7b8f4e3d20a6c93', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1b597ac9af74edecee16b81278f721aea8f391998ced3681a7b8f4e3d20a6c93')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Tres meses, sin posibilidad de ampliación.', false), ('B', 'Seis meses, salvo que reglamentariamente se establezca un plazo mayor.', true), ('C', 'Un año, salvo que el interesado renuncie a recogerlos.', false), ('D', 'Diez días hábiles, transcurridos los cuales se destruirán.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-04-administracion-electronica-lpac-v1 (6 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-04-administracion-electronica', 'II.4 Administración electrónica y servicios al ciudadano') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-04-administracion-electronica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 14.2 de la Ley 39/2015, ¿cuál de los siguientes sujetos está obligado, en todo caso, a relacionarse a través de medios electrónicos con las Administraciones Públicas para la realización de cualquier trámite de un procedimiento administrativo?', 'El art. 14.2 LPAC obliga, al menos, a las personas jurídicas, las entidades sin personalidad jurídica, los profesionales de colegiación obligatoria, los representantes de obligados y los empleados públicos por razón de su condición. Las personas físicas, en general, pueden elegir (art. 14.1).', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 14.2 LPAC', 'a) Las personas jurídicas.', null, '9fca2a24a5138bea9fb6f21a2da4484356164f14a93e3c24486eb493015eb1ee', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9fca2a24a5138bea9fb6f21a2da4484356164f14a93e3c24486eb493015eb1ee')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Todas las personas físicas mayores de edad.', false), ('B', 'Las personas jurídicas.', true), ('C', 'Las personas físicas que hayan sido interesadas en un procedimiento anterior.', false), ('D', 'Las personas físicas que dispongan de certificado electrónico.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 11.2 de la Ley 39/2015, las Administraciones Públicas solo requerirán a los interesados el uso obligatorio de firma para, entre otros supuestos:', 'El art. 11.2 LPAC exige firma solo para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos. Para el resto basta acreditar la identidad (art. 11.1).', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 11.2 LPAC', '2. Las Administraciones Públicas sólo requerirán a los interesados el uso obligatorio de firma para: […] c) Interponer recursos.', null, '9378f68c07485c7d9fc8d7debc476eed3c2ef22ba84a3be7fa1813dd31f8f6c3', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9378f68c07485c7d9fc8d7debc476eed3c2ef22ba84a3be7fa1813dd31f8f6c3')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Consultar el estado de tramitación de un procedimiento.', false), ('B', 'Interponer recursos.', true), ('C', 'Obtener información general sobre un trámite.', false), ('D', 'Acceder a la Carpeta Ciudadana.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 41.1 de la Ley 39/2015, las notificaciones se practicarán:', 'El art. 41.1 LPAC establece la preferencia por los medios electrónicos, obligatorios cuando el interesado esté obligado a recibirlas por esa vía; admite medios no electrónicos en supuestos tasados.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 41.1 LPAC', '1. Las notificaciones se practicarán preferentemente por medios electrónicos y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía.', null, '094eccf3cea764c2639d74e0d02e11f360bc51e31dcba586a5b4e5021e5f2850', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '094eccf3cea764c2639d74e0d02e11f360bc51e31dcba586a5b4e5021e5f2850')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Preferentemente por medios electrónicos y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía.', true), ('B', 'Preferentemente en papel, salvo que el interesado solicite la vía electrónica.', false), ('C', 'Exclusivamente por medios electrónicos, sin excepción alguna.', false), ('D', 'Por el medio que elija libremente el órgano notificante en cada caso.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 41.2 de la Ley 39/2015, en ningún caso se efectuarán por medios electrónicos las notificaciones:', 'El art. 41.2 LPAC excluye la vía electrónica cuando el acto vaya acompañado de elementos no convertibles a formato electrónico y cuando la notificación contenga medios de pago a favor de los obligados, como cheques.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 41.2 LPAC', '2. En ningún caso se efectuarán por medios electrónicos las siguientes notificaciones: […] b) Las que contengan medios de pago a favor de los obligados, tales como cheques.', null, '63b6350675e97db9728756f0072cb7785b8082bc8e739d52e6b94df4dbb26591', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '63b6350675e97db9728756f0072cb7785b8082bc8e739d52e6b94df4dbb26591')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Dirigidas a personas jurídicas.', false), ('B', 'De actos que pongan fin a la vía administrativa.', false), ('C', 'Que contengan datos de carácter personal.', false), ('D', 'Que contengan medios de pago a favor de los obligados, tales como cheques.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 43.2 de la Ley 39/2015, cuando la notificación por medios electrónicos sea obligatoria o haya sido expresamente elegida por el interesado, se entenderá rechazada cuando hayan transcurrido, desde su puesta a disposición sin que se acceda a su contenido:', 'El art. 43.2 LPAC fija en diez días naturales el plazo tras el cual la notificación electrónica no abierta se entiende rechazada.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 43.2 LPAC', 'Cuando la notificación por medios electrónicos sea de carácter obligatorio, o haya sido expresamente elegida por el interesado, se entenderá rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido.', null, 'df0f205940186402869d0ef72270f5c6cc8763bdb9388ae635e60a23eb810c25', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'df0f205940186402869d0ef72270f5c6cc8763bdb9388ae635e60a23eb810c25')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Diez días hábiles.', false), ('B', 'Quince días hábiles.', false), ('C', 'Diez días naturales.', true), ('D', 'Cinco días naturales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 41.6 de la Ley 39/2015, si la Administración no envía el aviso al dispositivo electrónico o a la dirección de correo electrónico del interesado informándole de la puesta a disposición de una notificación:', 'El art. 41.6 LPAC configura el aviso como obligatorio para la Administración, pero su falta no impide que la notificación sea plenamente válida.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565'), 'Art. 41.6 LPAC', 'La falta de práctica de este aviso no impedirá que la notificación sea considerada plenamente válida.', null, 'dc7b2e8248eee91ed6c59b3758c37d1e3bed93b0bc8ea1ca799b96b20195bb76', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'dc7b2e8248eee91ed6c59b3758c37d1e3bed93b0bc8ea1ca799b96b20195bb76')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La notificación será nula de pleno derecho.', false), ('B', 'La falta de práctica de este aviso no impedirá que la notificación sea considerada plenamente válida.', true), ('C', 'La notificación será anulable a instancia del interesado.', false), ('D', 'La notificación solo producirá efectos transcurridos diez días naturales adicionales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-04-administracion-electronica-lrjsp-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-04-administracion-electronica', 'II.4 Administración electrónica y servicios al ciudadano') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-04-administracion-electronica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 38.1 de la Ley 40/2015, la sede electrónica es:', 'El art. 38.1 LRJSP define la sede electrónica. La segunda opción es la definición de portal de internet (art. 39 LRJSP); la tercera, la Dirección Electrónica Habilitada única; la cuarta, el archivo electrónico único.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566'), 'Art. 38.1 LRJSP', '1. La sede electrónica es aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias.', null, '9dcd2f0bffba2a3ee4c0207bdd6c42fe4f06196eeb8e78edeead30c2b8700ba2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9dcd2f0bffba2a3ee4c0207bdd6c42fe4f06196eeb8e78edeead30c2b8700ba2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El punto de acceso electrónico que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente.', false), ('B', 'El sistema de información para la notificación electrónica gestionado por la Administración General del Estado.', false), ('C', 'Aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a uno o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias.', true), ('D', 'El conjunto de sistemas y servicios que sustenta la gestión, custodia y recuperación de los documentos electrónicos.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 38.6 de la Ley 40/2015, para identificarse y garantizar una comunicación segura, las sedes electrónicas utilizarán:', 'El art. 38.6 LRJSP exige certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566'), 'Art. 38.6 LRJSP', '6. Las sedes electrónicas utilizarán, para identificarse y garantizar una comunicación segura con las mismas, certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente.', null, '7ddb86eb2b77728317bd2bd9c6a7f09ef4ab142b48da06874d5358dcabf00287', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '7ddb86eb2b77728317bd2bd9c6a7f09ef4ab142b48da06874d5358dcabf00287')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente.', true), ('B', 'El sello electrónico del Ministerio competente en materia de función pública.', false), ('C', 'Un código seguro de verificación por cada página.', false), ('D', 'La firma electrónica del titular del órgano responsable de la sede.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-04-administracion-electronica-rdacc-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-04-administracion-electronica', 'II.4 Administración electrónica y servicios al ciudadano') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-04-administracion-electronica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 5.1 del Real Decreto 1112/2018, los sitios web y aplicaciones para dispositivos móviles del sector público deberán ser accesibles de modo que sus contenidos sean:', 'El art. 5.1 RD 1112/2018 recoge los cuatro principios de accesibilidad, definidos en el art. 4: perceptibilidad, operabilidad, comprensibilidad y robustez.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699'), 'Art. 5.1 RDACC', 'de modo que sus contenidos sean perceptibles, operables, comprensibles y robustos teniendo en cuenta las normas del artículo 6.', null, '2ccbd9a31dee6aa5e7f155186957cc96f9f06097fa519cb2286bfa6fb803160a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '2ccbd9a31dee6aa5e7f155186957cc96f9f06097fa519cb2286bfa6fb803160a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Gratuitos, bilingües, actualizados y seguros.', false), ('B', 'Visuales, sonoros, táctiles y gráficos.', false), ('C', 'Rápidos, sencillos, interactivos y personalizados.', false), ('D', 'Perceptibles, operables, comprensibles y robustos.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 15.1 del Real Decreto 1112/2018, la declaración de accesibilidad de un sitio web del sector público:', 'El art. 15.1 RD 1112/2018 exige actualizar la declaración al menos una vez al año o con cada revisión de accesibilidad, y enlazarla desde todas las páginas con el enlace «Accesibilidad».', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699'), 'Art. 15.1 RDACC', 'Dicha declaración será actualizada periódicamente, como mínimo una vez al año, o cada vez que se realice una revisión de accesibilidad conforme a lo especificado en el artículo 17. […] En el caso de los sitios web, la declaración se publicará en el sitio web correspondiente estando disponible su acceso desde todas las páginas del sitio web con un enlace denominado «Accesibilidad» o su equivalente en el idioma en el que se encuentre disponible la página.', null, 'd1f0ea54d531268285bea21e0fd7fef603730bd85a82b006571c4c77e951d379', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd1f0ea54d531268285bea21e0fd7fef603730bd85a82b006571c4c77e951d379')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se actualizará como mínimo una vez al año y será accesible desde todas las páginas del sitio web mediante un enlace denominado «Accesibilidad» o su equivalente.', true), ('B', 'Se actualizará cada cinco años y se publicará en el boletín oficial correspondiente.', false), ('C', 'Solo será obligatoria para los sitios web de la Administración General del Estado.', false), ('D', 'Se publicará exclusivamente en la página de inicio del sitio web.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-04-administracion-electronica-rdelec-v1 (9 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 203/2021, de 30 de marzo, Reglamento de actuación y funcionamiento del sector público por medios electrónicos (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-04-administracion-electronica', 'II.4 Administración electrónica y servicios al ciudadano') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-04-administracion-electronica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de los siguientes es uno de los canales de asistencia para el acceso a los servicios electrónicos enumerados en el artículo 4 del Real Decreto 203/2021?', 'El art. 4 RD 203/2021 enumera los canales presencial, portales de internet y sedes electrónicas, redes sociales, telefónico, correo electrónico y cualquier otro que pueda establecerse conforme al art. 12 LPAC.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 4 RDELEC', 'c) Redes sociales.', null, 'db60841148695e8bac5b1d623c5b98fdcb3ef1afdf53551b8974ede99bd5df75', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'db60841148695e8bac5b1d623c5b98fdcb3ef1afdf53551b8974ede99bd5df75')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Fax.', false), ('B', 'Telegrama.', false), ('C', 'Buzón de correo postal.', false), ('D', 'Redes sociales.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 3.2 del Real Decreto 203/2021, cuando una persona física no obligada comunica su voluntad de relacionarse electrónicamente con la Administración, o de dejar de hacerlo, los efectos de esa comunicación se producirán:', 'El art. 3.2 RD 203/2021 difiere los efectos al quinto día hábil siguiente a aquel en que el órgano competente haya tenido constancia de la comunicación.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 3.2 RDELEC', 'En ambos casos, los efectos de la comunicación se producirán a partir del quinto día hábil siguiente a aquel en que el órgano competente para tramitar el procedimiento haya tenido constancia de la misma.', null, '75175890d7ded0f015c9a69691c306cc5c9dd4000e3250e15041625862ce01ef', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '75175890d7ded0f015c9a69691c306cc5c9dd4000e3250e15041625862ce01ef')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'A partir del quinto día hábil siguiente a aquel en que el órgano competente para tramitar el procedimiento haya tenido constancia de ella.', true), ('B', 'Desde el mismo momento de la comunicación.', false), ('C', 'A partir del décimo día natural siguiente a la comunicación.', false), ('D', 'A partir del mes siguiente a la comunicación.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 26.2 del Real Decreto 203/2021, ¿cuál de los siguientes es un sistema de identificación electrónica admitido para las personas interesadas?', 'El art. 26.2 RD 203/2021 admite los certificados cualificados de firma y de sello electrónico y los sistemas de clave concertada u otros que cuenten con registro previo de usuario, previa autorización de la Secretaría General de Administración Digital.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 26.2 RDELEC', 'c) Sistemas de clave concertada y cualquier otro sistema que las Administraciones Públicas consideren válido, en los términos y condiciones que se establezca, siempre que cuenten con un registro previo como usuario que permita garantizar su identidad', null, '9d698011aa49b58c284be78a5edf0fd941db1ec44405c7d952bb302376729a5c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9d698011aa49b58c284be78a5edf0fd941db1ec44405c7d952bb302376729a5c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La simple indicación del número del DNI en un formulario web.', false), ('B', 'El envío de un correo electrónico desde cualquier dirección.', false), ('C', 'Los sistemas de clave concertada que cuenten con un registro previo como usuario que permita garantizar su identidad, previa autorización.', true), ('D', 'La remisión de una fotografía del DNI por mensajería instantánea.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 8.1 del Real Decreto 203/2021, la Carpeta Ciudadana es:', 'El art. 8.1 RD 203/2021 define la Carpeta Ciudadana como el área personalizada de los interesados en su relación con el sector público estatal, accesible a través de la sede electrónica del PAGe de la AGE (art. 8.2).', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 8.1 RDELEC', '1. La Carpeta Ciudadana es el área personalizada de las personas interesadas a que se refiere el artículo 7.3 en su relación con el sector público estatal.', null, 'bc200614ad6453de5ce952bffc3ce092b6822deb3c5d505bd56c458e6616e55c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'bc200614ad6453de5ce952bffc3ce092b6822deb3c5d505bd56c458e6616e55c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El área personalizada de las personas interesadas en su relación con el sector público estatal.', true), ('B', 'El registro en el que constan los funcionarios habilitados para la identificación y firma.', false), ('C', 'El archivo electrónico único de los procedimientos finalizados.', false), ('D', 'El buzón para presentar quejas y sugerencias ante cualquier Administración.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 8.1 del Real Decreto 203/2021, además del interesado, podrán acceder a su Carpeta Ciudadana:', 'El art. 8.1 RD 203/2021 permite el acceso del interesado, de sus representantes legales y de quien tenga un poder general inscrito en el Registro Electrónico de Apoderamientos.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 8.1 RDELEC', 'Además del interesado podrán acceder a la Carpeta Ciudadana: a) Sus representantes legales. b) Quien ostente un poder general previsto en el artículo 6.4.a) de la Ley 39/2015, de 1 de octubre, otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos.', null, '0ca56a3bf31d6b903991a2c4238c2c46b70dee56ba982dd3b2d50296ecd538ae', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0ca56a3bf31d6b903991a2c4238c2c46b70dee56ba982dd3b2d50296ecd538ae')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cualquier empleado público de la Administración General del Estado.', false), ('B', 'Cualquier familiar hasta el segundo grado que acredite el parentesco.', false), ('C', 'Únicamente sus representantes legales.', false), ('D', 'Sus representantes legales y quien ostente un poder general otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 7.4 del Real Decreto 203/2021, en la sede electrónica del Punto de Acceso General electrónico (PAGe) de la Administración General del Estado está alojada:', 'El art. 7.4 RD 203/2021 dispone que la Dirección Electrónica Habilitada única (art. 43 LPAC) está alojada en la sede electrónica del PAGe de la AGE; esa sede permite además comprobar documentos mediante Código Seguro de Verificación.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 7.4 RDELEC', 'En dicha sede electrónica está alojada la Dirección Electrónica Habilitada única a la que se refiere el artículo 43 de la Ley 39/2015, de 1 de octubre.', null, 'e83bf7d3523460ab893d366533c170c83889e06974314db51da7ae7b82e7bad4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e83bf7d3523460ab893d366533c170c83889e06974314db51da7ae7b82e7bad4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El Registro Electrónico de Apoderamientos de todas las Administraciones.', false), ('B', 'La sede electrónica de cada Comunidad Autónoma.', false), ('C', 'La Dirección Electrónica Habilitada única.', true), ('D', 'El archivo electrónico único de cada Ministerio.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 6.2 del Real Decreto 203/2021, la dirección electrónica de un nuevo portal de internet en el ámbito estatal deberá incluir el nombre de dominio de segundo nivel:', 'El art. 6.2 RD 203/2021 exige que la dirección electrónica de los nuevos portales estatales incluya el dominio de segundo nivel «.gob.es».', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 6.2 RDELEC', 'El acto o resolución de creación de un nuevo portal previsto en el apartado anterior contendrá, al menos, la identificación de su dirección electrónica, que deberá incluir el nombre de dominio de segundo nivel «.gob.es»', null, '4cc499b6d296d3fc44d3f44dad0f642b0c4805f8ef6325bf47a6f798a461973e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4cc499b6d296d3fc44d3f44dad0f642b0c4805f8ef6325bf47a6f798a461973e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '«.es».', false), ('B', '«.gob.es».', true), ('C', '«.gov».', false), ('D', '«.admin.es».', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de los siguientes forma parte del contenido mínimo de toda sede electrónica, según el artículo 11.1 del Real Decreto 203/2021?', 'El art. 11.1 RD 203/2021 incluye en el contenido mínimo, entre otros, la identificación de la sede y de su titular, los sistemas de identificación y firma admitidos, la normativa del registro y la fecha y hora oficial con el calendario de días inhábiles.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 2, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 11.1 RDELEC', 'f) La fecha y hora oficial, así como el calendario de días inhábiles a efectos del cómputo de plazos aplicable a la Administración en que se integre el órgano', null, '1cba8d0c79228e94ccbdb135b1b5384b8c6f30248064c982c9c7eeb5e589e124', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1cba8d0c79228e94ccbdb135b1b5384b8c6f30248064c982c9c7eeb5e589e124')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las retribuciones individuales de todo el personal del órgano titular.', false), ('B', 'Un foro de opinión abierto a los usuarios.', false), ('C', 'El currículum de los titulares de todas las unidades administrativas.', false), ('D', 'La fecha y hora oficial, así como el calendario de días inhábiles a efectos del cómputo de plazos.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con el artículo 2 del Real Decreto 203/2021, el principio que expresa la capacidad de las Administraciones Públicas para, partiendo del conocimiento adquirido del usuario final, proporcionar servicios precumplimentados y anticiparse a sus posibles necesidades es el principio de:', 'El art. 2.f) RD 203/2021 define así el principio de personalización y proactividad. La facilidad de uso se refiere al diseño centrado en las personas usuarias (letra c) y la interoperabilidad a la capacidad de los sistemas de compartir datos (letra d).', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 3, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032'), 'Art. 2.f) RDELEC', 'f)	El principio de personalización y proactividad, entendido como la capacidad de las Administraciones Públicas para que, partiendo del conocimiento adquirido del usuario final del servicio, proporcione servicios precumplimentados y se anticipe a las posibles necesidades de los mismos.', null, '1bb1e8feb0d4062b39a1d434d9fe4c0d90439f18f929c638728cc345c71576fb', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1bb1e8feb0d4062b39a1d434d9fe4c0d90439f18f929c638728cc345c71576fb')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Facilidad de uso.', false), ('B', 'Personalización y proactividad.', true), ('C', 'Interoperabilidad.', false), ('D', 'Neutralidad tecnológica.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-04-administracion-electronica-rdinfo-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto 208/1996, de 9 de febrero, por el que se regulan los servicios de información administrativa y atención al ciudadano (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-04-administracion-electronica', 'II.4 Administración electrónica y servicios al ciudadano') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-04-administracion-electronica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el artículo 10 del Real Decreto 208/1996, la creación de oficinas integradas de información con participación de varias Administraciones públicas podrá acordarse:', 'El art. 10 RD 208/1996 prevé que, mediante convenio de colaboración entre Administraciones, pueda ofrecerse la información de unas desde las oficinas de otras y crearse oficinas integradas de información.', 'age_aux_b2_04_administracion_electronica', (select id from public.topics where slug = 'age-aux-b2-04-administracion-electronica'), 1, 'es', true, (select id from public.sources where url = 'https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997'), 'Art. 10 RDINFO', 'Mediante convenio de colaboración, suscrito por distintas Administraciones públicas, podrá acordarse que desde las oficinas de información y atención de cualesquiera de ellas pueda ofrecerse a los ciudadanos la información administrativa de las otras, articulándose los mecanismos de comunicación necesarios para el intercambio de la información, así como la creación de oficinas integradas de información con participación de varias Administraciones públicas.', null, '77ece753b2dbc185966c98ad80a12c92009ce113cae5f6a1e2722b1d568fb889', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '77ece753b2dbc185966c98ad80a12c92009ce113cae5f6a1e2722b1d568fb889')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mediante ley de las Cortes Generales.', false), ('B', 'Mediante orden del Ministerio competente, sin intervención de las demás Administraciones.', false), ('C', 'Mediante convenio de colaboración suscrito por las distintas Administraciones públicas.', true), ('D', 'Por decisión unilateral de cualquiera de los Ayuntamientos afectados.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-05-informatica-basica-ms_onedrive_peticion-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Ahorrar espacio en disco con Archivos a petición de OneDrive para Windows', 'https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-05-informatica-basica', 'II.5 Informática básica y seguridad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-05-informatica-basica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos, un icono de nube azul junto a un archivo de OneDrive indica que el archivo:', 'Con Archivos a petición, la nube azul identifica los archivos solo en línea; los que se mantienen siempre en el dispositivo se marcan con el círculo verde.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows'), 'OneDrive · Archivos a petición', 'Un icono de nube azul junto a un archivo o carpeta de OneDrive indica que el archivo solo está disponible en línea.', null, 'e3395ed577449f9e2f4709d2d90d4ea599f728c976774b2f4298f7a5d133a4bd', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e3395ed577449f9e2f4709d2d90d4ea599f728c976774b2f4298f7a5d133a4bd')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Está disponible localmente y puede abrirse sin conexión.', false), ('B', 'Está marcado como «Mantener siempre en este dispositivo».', false), ('C', 'Solo está disponible en línea.', true), ('D', 'Tiene un error de sincronización que impide abrirlo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿qué ocurre con los archivos de OneDrive que están solo en línea cuando el dispositivo no está conectado a Internet?', 'Los archivos solo en línea no ocupan espacio en el equipo, pero no se pueden abrir sin conexión a Internet.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows'), 'OneDrive · Archivos solo en línea', 'Los archivos solo en línea no se pueden abrir cuando el dispositivo no está conectado a Internet.', null, '680f863d76dc31cf198204de0a64e69d0326413c68bb8c17f2ffcb90b335dc1d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '680f863d76dc31cf198204de0a64e69d0326413c68bb8c17f2ffcb90b335dc1d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se abren desde la copia local que guarda el Explorador.', false), ('B', 'Se descargan automáticamente al conectar una unidad USB.', false), ('C', 'Se abren en modo de solo lectura.', false), ('D', 'No se pueden abrir.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-05-informatica-basica-ms_win11_requisitos-v1 (4 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Learn · Requisitos de Windows 11', 'https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-05-informatica-basica', 'II.5 Informática básica y seguridad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-05-informatica-basica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿cuál es la memoria RAM mínima que exige Windows 11?', 'Entre los requisitos mínimos de hardware de Windows 11, Microsoft fija una memoria RAM de 4 GB o superior.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 1, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements'), 'Requisitos de Windows 11 · Memoria', 'Memoria (RAM) | 4 gigabytes (GB) o superior.', null, '920556e0e73e2add2c3bb084b272c3ac3cf207a0f4435c66906b8a73d93c8f04', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '920556e0e73e2add2c3bb084b272c3ac3cf207a0f4435c66906b8a73d93c8f04')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '4 gigabytes (GB) o superior.', true), ('B', '2 gigabytes (GB) o superior.', false), ('C', '8 gigabytes (GB) o superior.', false), ('D', '16 gigabytes (GB) o superior.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De acuerdo con los requisitos mínimos publicados por Microsoft, ¿qué espacio de almacenamiento necesita un equipo para instalar Windows 11?', 'El requisito mínimo de almacenamiento de Windows 11 es un dispositivo con 64 GB o más de espacio disponible.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 2, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements'), 'Requisitos de Windows 11 · Almacenamiento', 'Almacenamiento | 64 GB o más de espacio disponible en disco.', null, 'fe0412602198902f289d02c45e57ec349d8d65674b8a70e5da932c83da189dc0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fe0412602198902f289d02c45e57ec349d8d65674b8a70e5da932c83da189dc0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '16 GB o más de espacio disponible en disco.', false), ('B', '32 GB o más de espacio disponible en disco.', false), ('C', '64 GB o más de espacio disponible en disco.', true), ('D', '256 GB o más de espacio disponible en disco.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué versión del módulo de plataforma segura (TPM) figura entre los requisitos mínimos de Windows 11?', 'Windows 11 exige un módulo de plataforma segura (TPM) versión 2.0.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 2, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements'), 'Requisitos de Windows 11 · TPM', 'TPM | módulo de plataforma segura (TPM) versión 2.0.', null, '471dd146b1006f9f9620c8cd1acd90a5f428b4ee4fc7828a7e335acc4dfd8722', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '471dd146b1006f9f9620c8cd1acd90a5f428b4ee4fc7828a7e335acc4dfd8722')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La versión 1.0.', false), ('B', 'La versión 1.2.', false), ('C', 'La versión 3.0.', false), ('D', 'La versión 2.0.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En cuanto al firmware del sistema, Windows 11 requiere:', 'Los requisitos mínimos de Windows 11 indican como firmware del sistema UEFI compatible con arranque seguro.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 3, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements'), 'Requisitos de Windows 11 · Firmware', 'Firmware del sistema | UEFI, compatible con arranque seguro.', null, '87aae4f1bf77207193fdca53b6de2c556c32dca6b7fe39f5f2c6a9f8e06f701a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '87aae4f1bf77207193fdca53b6de2c556c32dca6b7fe39f5f2c6a9f8e06f701a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'BIOS heredada en modo de compatibilidad (CSM), sin arranque seguro.', false), ('B', 'UEFI, compatible con arranque seguro.', true), ('C', 'UEFI, con el arranque seguro necesariamente desactivado.', false), ('D', 'Cualquier tipo de firmware, siempre que el procesador sea de 64 bits.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-05-informatica-basica-ms_win_copia-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Realizar copias de seguridad y restaurar con Copias de seguridad de Windows', 'https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-05-informatica-basica', 'II.5 Informática básica y seguridad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-05-informatica-basica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, la información de la copia de seguridad que realiza la aplicación Copias de seguridad de Windows se almacena:', 'Copias de seguridad de Windows guarda la información de la copia con la cuenta de Microsoft, y sincroniza las carpetas indicadas con OneDrive.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup'), 'Copias de seguridad de Windows · Dónde se guarda', 'La información de la copia de seguridad se almacenará con tu cuenta de Microsoft', null, '1d5dda170cbec20aa72b0f4db418e79d93a6987c4014e09de75cb5b1b7691c37', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1d5dda170cbec20aa72b0f4db418e79d93a6987c4014e09de75cb5b1b7691c37')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Exclusivamente en una unidad USB externa conectada al equipo.', false), ('B', 'En una partición oculta de la unidad C:.', false), ('C', 'Con la cuenta de Microsoft del usuario.', true), ('D', 'En la Papelera de reciclaje hasta que se vacía.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuánto almacenamiento en la nube de OneDrive incluye una cuenta Microsoft gratuita, según la página de Copias de seguridad de Windows?', 'La página indica que la cuenta Microsoft gratuita incluye 5 GB de almacenamiento en OneDrive.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup'), 'Copias de seguridad de Windows · OneDrive', 'Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive', null, 'aabd0eea7714cb769cfddc29dbe1bf0d47526568888d44a83b88d1133481ab00', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'aabd0eea7714cb769cfddc29dbe1bf0d47526568888d44a83b88d1133481ab00')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '1 GB.', false), ('B', '5 GB.', true), ('C', '15 GB.', false), ('D', '50 GB.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-05-informatica-basica-ms_win_desfrag-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Desfragmentación/optimización de unidades de datos en Windows', 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-05-informatica-basica', 'II.5 Informática básica y seguridad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-05-informatica-basica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De manera predeterminada, ¿con qué frecuencia optimiza Windows automáticamente las unidades?', 'Windows optimiza automáticamente las unidades una vez a la semana; en «Optimización programada» puede cambiarse a diaria, semanal o mensual, o desactivarse.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows'), 'Desfragmentar y optimizar unidades', 'De manera predeterminada, Windows optimiza automáticamente las unidades una vez a la semana.', null, 'e2e1a4e2f5d5d30ef3c936ed8b94dd93bc9f6f0760a528c1827fab3e20922973', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e2e1a4e2f5d5d30ef3c936ed8b94dd93bc9f6f0760a528c1827fab3e20922973')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una vez a la semana.', true), ('B', 'Una vez al día.', false), ('C', 'Una vez al mes.', false), ('D', 'Solo cuando el usuario lo solicita manualmente.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-05-informatica-basica-ms_win_seguridad-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Mantente protegido con la aplicación Seguridad de Windows', 'https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-05-informatica-basica', 'II.5 Informática básica y seguridad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-05-informatica-basica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según la documentación de Microsoft sobre la aplicación Seguridad de Windows, la función de firewall:', 'El firewall integrado en Seguridad de Windows supervisa el tráfico de red de entrada y salida y bloquea la actividad sospechosa; las demás funciones corresponden a Copias de seguridad de Windows, a la optimización de unidades y al Sensor de almacenamiento.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app'), 'Seguridad de Windows · Firewall', 'la función de firewall monitorea el tráfico de red entrante y saliente, bloqueando cualquier actividad sospechosa', null, '03970379044565d29818a68c00c58a1155576981af26c4861767b1f2579a3502', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '03970379044565d29818a68c00c58a1155576981af26c4861767b1f2579a3502')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Monitorea el tráfico de red entrante y saliente y bloquea cualquier actividad sospechosa.', true), ('B', 'Hace copias de seguridad automáticas de las carpetas del usuario en OneDrive.', false), ('C', 'Reorganiza los archivos del disco duro para mejorar el rendimiento.', false), ('D', 'Elimina los archivos temporales cuando queda poco espacio en disco.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, si sospecha que hay malware o un virus en su dispositivo, lo que debe hacer es:', 'La aplicación Seguridad de Windows recomienda ejecutar de inmediato un análisis rápido cuando se sospecha de una infección.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app'), 'Seguridad de Windows · Análisis', 'Si sospechas que hay malware o un virus en tu dispositivo, debes ejecutar inmediatamente un análisis rápido.', null, '0806af24200c409626b96be5598516ea2c3e992470c9efdb5f0d1e0fae05275b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0806af24200c409626b96be5598516ea2c3e992470c9efdb5f0d1e0fae05275b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Desactivar la protección en tiempo real.', false), ('B', 'Desfragmentar la unidad del sistema.', false), ('C', 'Activar el Sensor de almacenamiento.', false), ('D', 'Ejecutar inmediatamente un análisis rápido.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-05-informatica-basica-ms_win_sensor-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Administrar espacio de unidad con el Sensor de almacenamiento', 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-05-informatica-basica', 'II.5 Informática básica y seguridad') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-05-informatica-basica' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, el Sensor de almacenamiento de Windows actúa:', 'El Sensor de almacenamiento solo funciona en la unidad del sistema, donde limpia archivos temporales innecesarios y puede vaciar la Papelera o la carpeta Descargas.', 'age_aux_b2_05_informatica_basica', (select id from public.topics where slug = 'age-aux-b2-05-informatica-basica'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense'), 'Sensor de almacenamiento', 'El Sensor de almacenamiento solo funciona en la unidad del sistema', null, '6ee342fe03c7d60243c6e728d45dc2ae4a502454879ec2ca7bf0aeb3e1c36d13', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6ee342fe03c7d60243c6e728d45dc2ae4a502454879ec2ca7bf0aeb3e1c36d13')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En todas las unidades internas y externas conectadas.', false), ('B', 'Solo en la unidad del sistema.', true), ('C', 'Solo en las unidades extraíbles USB.', false), ('D', 'Solo en las carpetas sincronizadas con OneDrive.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-06-windows-ms_win_acoplar-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Acople sus ventanas', 'https://support.microsoft.com/es-es/windows/experience/snap-your-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-06-windows', 'II.6 El entorno Windows 11') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-06-windows' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, el control flotante Acoplar, con los diseños de acoplamiento, aparece al:', 'Los diseños de acoplamiento se muestran al mantener el puntero sobre el botón Maximizar (o restaurar) de la ventana.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/snap-your-windows'), 'Acoplar ventanas · Control flotante', 'El control flotante Acoplar aparece al mantener el puntero sobre el botón Maximizar en una ventana.', null, '9218c2020bea8e0c27272469452ee7d158a46cd00fc46867f261b6ec79750e21', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9218c2020bea8e0c27272469452ee7d158a46cd00fc46867f261b6ec79750e21')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Hacer clic con el botón derecho en el escritorio.', false), ('B', 'Pulsar Alt + Tab.', false), ('C', 'Hacer doble clic en la barra de título de una ventana.', false), ('D', 'Mantener el puntero sobre el botón Maximizar de una ventana.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Windows 11, los grupos de acoplamiento son:', 'Un grupo de acoplamiento reúne las ventanas acopladas; se crea solo al acoplar varias ventanas y se recupera pasando el puntero sobre el icono de la aplicación en la barra de tareas.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/snap-your-windows'), 'Acoplar ventanas · Grupos de acoplamiento', 'Los grupos de acoplamiento son colecciones de ventanas que se han acoplado […] Se crean automáticamente al acoplar varias ventanas', null, '67182fcbb16fe397b4a62f84facdacd5f17c2841094d4c9f60cac7b6c425143f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '67182fcbb16fe397b4a62f84facdacd5f17c2841094d4c9f60cac7b6c425143f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Escritorios virtuales creados desde la Vista de tareas.', false), ('B', 'Carpetas de aplicaciones ancladas en el menú Inicio.', false), ('C', 'Grupos de iconos de la misma aplicación en la barra de tareas que el usuario debe crear manualmente.', false), ('D', 'Colecciones de ventanas que se han acoplado, y se crean automáticamente al acoplar varias ventanas.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Dónde se activa o desactiva la función Acoplar en Windows 11?', 'La opción Ajustar ventanas de la página Multitarea del sistema activa o desactiva Acoplar.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/snap-your-windows'), 'Acoplar ventanas · Configuración', 'Multitarea del sistema […] Use el botón de alternancia Ajustar ventanas para activar o desactivar Acoplar.', null, '0c5aaf2bfb15aef736c6f7ce844017b267ea222f655648151ff4d7afd059012b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0c5aaf2bfb15aef736c6f7ce844017b267ea222f655648151ff4d7afd059012b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En Configuración, Personalización > Barra de tareas, con la opción Alineación.', false), ('B', 'En Configuración, Sistema > Multitarea, con el botón de alternancia Ajustar ventanas.', true), ('C', 'En el Panel de control, Opciones de carpeta.', false), ('D', 'En la Vista de tareas, con el botón Nuevo escritorio.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-06-windows-ms_win_atajos-v1 (12 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Métodos abreviados de teclado de Windows', 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-06-windows', 'II.6 El entorno Windows 11') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-06-windows' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Windows 11, al pulsar sola la tecla del logotipo de Windows:', 'La tecla Windows abre o cierra el menú Inicio; el Explorador se abre con Windows + E, el escritorio con Windows + D y Configuración con Windows + I.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Tecla Windows', 'Tecla Windows | Abrir o cerrar el menú Inicio.', null, 'bc5074944d36bd15b9fdc272d55b1d42b48a11f74a7012146994c9d1d93a449d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'bc5074944d36bd15b9fdc272d55b1d42b48a11f74a7012146994c9d1d93a449d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se abre el Explorador de archivos.', false), ('B', 'Se abre o se cierra el menú Inicio.', true), ('C', 'Se muestra u oculta el escritorio.', false), ('D', 'Se abre la aplicación Configuración.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué hace el método abreviado Tecla Windows + D?', 'Windows + D muestra y oculta el escritorio. Un escritorio virtual nuevo se crea con Windows + Ctrl + D, Ejecutar se abre con Windows + R y el equipo se bloquea con Windows + L.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Windows + D', 'Tecla Windows + D | Mostrar y ocultar el escritorio.', null, '52fee68407478a5e4ea19c1939c3757e1d182874497450f31c84f3f315c93e00', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '52fee68407478a5e4ea19c1939c3757e1d182874497450f31c84f3f315c93e00')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mostrar y ocultar el escritorio.', true), ('B', 'Crear otro escritorio virtual.', false), ('C', 'Abrir el cuadro de diálogo Ejecutar.', false), ('D', 'Bloquear el equipo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas bloquea el equipo en Windows 11?', 'Windows + L bloquea el equipo; Windows + M minimiza todas las ventanas, Windows + I abre Configuración y Windows + E, el Explorador de archivos.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Windows + L', 'Tecla Windows + L | Bloquee el equipo.', null, 'ca06d56ede7e3b24177c4c6dad527edb75cb6f9b7ab4eaeb0b34189942eb7621', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'ca06d56ede7e3b24177c4c6dad527edb75cb6f9b7ab4eaeb0b34189942eb7621')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Tecla Windows + M.', false), ('B', 'Tecla Windows + I.', false), ('C', 'Tecla Windows + E.', false), ('D', 'Tecla Windows + L.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'El método abreviado Tecla Windows + I sirve para:', 'Windows + I abre la aplicación Configuración. La búsqueda se abre con Windows + Q, las notificaciones con Windows + N y el Administrador de tareas con Ctrl + Mayús + Esc.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Windows + I', 'Tecla Windows + I | Abrir configuración.', null, 'fd60e646b0316af4b641c3ef46297cf232481f85e51c91d79d075eb44ac10c4c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fd60e646b0316af4b641c3ef46297cf232481f85e51c91d79d075eb44ac10c4c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Abrir la búsqueda.', false), ('B', 'Abrir el centro de notificaciones y el calendario.', false), ('C', 'Abrir Configuración.', true), ('D', 'Abrir el Administrador de tareas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Windows 11, ¿qué hace la combinación Alt + F4?', 'Alt + F4 cierra la ventana activa (si no hay ventanas abiertas, solicita el cierre de Windows). Alt + Tab cambia de ventana y F5 actualiza.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Alt + F4', 'Alt+F4 | Cerrar la ventana activa. Si no hay ventanas abiertas, solicite el cierre.', null, 'f001dbbdba3102577441072206884a9a1f913d77399d40d8bcbb7e289f15f938', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f001dbbdba3102577441072206884a9a1f913d77399d40d8bcbb7e289f15f938')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Minimiza la ventana activa.', false), ('B', 'Cierra la ventana activa.', true), ('C', 'Cambia entre las ventanas abiertas.', false), ('D', 'Actualiza la ventana activa.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas abre la Vista de tareas en Windows 11?', 'Windows + Tab abre la Vista de tareas. Alt + Tab cambia entre ventanas abiertas y Windows + T recorre las aplicaciones de la barra de tareas.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Vista de tareas', 'Tecla Windows + Tab | Abrir la Vista de tareas.', null, 'd1ca12067c2dcd07c93a42347470b9d58b517979797f43b9b8e3a319b947f3cc', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd1ca12067c2dcd07c93a42347470b9d58b517979797f43b9b8e3a319b947f3cc')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Alt + Tab.', false), ('B', 'Ctrl + Tab.', false), ('C', 'Tecla Windows + T.', false), ('D', 'Tecla Windows + Tab.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado crea otro escritorio virtual en Windows 11?', 'Windows + Ctrl + D crea otro escritorio; Windows + Ctrl + F4 cierra el que se está usando y Windows + D solo muestra u oculta el escritorio.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Escritorios', 'Tecla Windows + Ctrl + D | Crear otro escritorio.', null, '84203a11f217f6c46a68b3906876c3843e2634c63daa3fd247f145c19f7baa75', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '84203a11f217f6c46a68b3906876c3843e2634c63daa3fd247f145c19f7baa75')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Tecla Windows + Ctrl + D.', true), ('B', 'Tecla Windows + D.', false), ('C', 'Tecla Windows + Ctrl + F4.', false), ('D', 'Ctrl + Mayús + N.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué hace la combinación Tecla Windows + Flecha izquierda?', 'Windows + Flecha izquierda acopla la ventana a la mitad izquierda. Para moverla al monitor de la izquierda se usa Windows + Mayús + Flecha izquierda, y para cambiar de escritorio, Windows + Ctrl + Flecha izquierda.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Acoplar', 'Tecla Windows + Flecha izquierda | Acoplar la ventana al lado izquierdo de la pantalla.', null, '992ade496d7147cbf108ed3fde3f484356420af7b48ea8f27ec05a612ad1b8d4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '992ade496d7147cbf108ed3fde3f484356420af7b48ea8f27ec05a612ad1b8d4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Acoplar la ventana al lado izquierdo de la pantalla.', true), ('B', 'Mover la ventana activa al monitor de la izquierda.', false), ('C', 'Ir al escritorio virtual situado a la izquierda.', false), ('D', 'Minimizar la ventana activa.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Windows 11, ¿qué hace el método abreviado Tecla Windows + C?', 'Windows + C abre Copilot. El dictado por voz se abre con Windows + H, las notificaciones con Windows + N y los emojis con Windows + punto.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Copilot', 'Tecla Windows + C | Abre Microsoft Copilot o Microsoft 365 Copilot.', 'Microsoft indica que el comportamiento de este atajo es configurable (aplicación completa o «vista rápida»).', 'a214aca8b72b85f312627078dc9b35a17bbedb753662c487d8671de1fcf36edb', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a214aca8b72b85f312627078dc9b35a17bbedb753662c487d8671de1fcf36edb')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Abre el dictado por voz.', false), ('B', 'Abre el centro de notificaciones y el calendario.', false), ('C', 'Abre Microsoft Copilot o Microsoft 365 Copilot.', true), ('D', 'Abre el panel de emojis.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En un cuadro de diálogo de Windows, si la opción activa es una casilla, ¿qué tecla la activa o desactiva?', 'La barra espaciadora activa o desactiva la casilla activa; Tab avanza por las opciones, F4 muestra los elementos de la lista activa y Retroceso sube de carpeta en Abrir o Guardar como.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Cuadros de diálogo', 'Barra espaciadora | Si la opción activa es una casilla, activarla o desactivarla.', null, '0716dc03fe39d27819da9a4cbe7a9bd5cca7961b070b63c9a7dbfe3c93c92593', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0716dc03fe39d27819da9a4cbe7a9bd5cca7961b070b63c9a7dbfe3c93c92593')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La tecla Tab.', false), ('B', 'La tecla F4.', false), ('C', 'La tecla Retroceso.', false), ('D', 'La barra espaciadora.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué hace el método abreviado Tecla Windows + Inicio?', 'Windows + Inicio minimiza o restaura todas las ventanas salvo la activa. Windows + M minimiza todas y Windows + Mayús + M restaura las minimizadas.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Windows + Inicio', 'Tecla Windows + Inicio | Minimizar o restaurar todas las ventanas excepto la activa.', null, 'df7dfca03b2ec43bd6fc1804c2779ea07bc4a9490a00e163164339a63723bed0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'df7dfca03b2ec43bd6fc1804c2779ea07bc4a9490a00e163164339a63723bed0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Abrir o cerrar el menú Inicio.', false), ('B', 'Minimizar o restaurar todas las ventanas excepto la activa.', true), ('C', 'Minimizar todas las ventanas, incluida la activa.', false), ('D', 'Restaurar las ventanas minimizadas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas abre el menú contextual de la ventana activa?', 'Alt + Barra espaciadora abre el menú contextual de la ventana activa. Ctrl + Esc abre Inicio, Alt + Esc recorre las ventanas en el orden de apertura y Windows + Alt + D muestra la fecha y hora en el escritorio.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Menú de la ventana', 'Alt+Barra espaciadora | Abrir el menú contextual de la ventana activa.', null, '692fbdb22c36c1a8b7f47da9b386db6ae62e39a9795b021c3316e5e014372d37', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '692fbdb22c36c1a8b7f47da9b386db6ae62e39a9795b021c3316e5e014372d37')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Alt + Barra espaciadora.', true), ('B', 'Ctrl + Esc.', false), ('C', 'Alt + Esc.', false), ('D', 'Tecla Windows + Alt + D.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-06-windows-ms_win_copilot-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Acceso a Microsoft Copilot en Windows', 'https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-06-windows', 'II.6 El entorno Windows 11') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-06-windows' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿qué permite Copilot Vision en Windows?', 'Copilot Vision puede ver las ventanas del explorador o las aplicaciones abiertas y, a continuación, responder preguntas o ayudar a hacer algo paso a paso.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0'), 'Copilot en Windows · Copilot Vision', 'Copilot Vision puede ver las ventanas del explorador o las aplicaciones que tiene abiertas en la pantalla […] a continuación, responder preguntas o ayudarle a hacer algo paso a paso.', null, '176a9629eee05b3a9271cdb245e36182e0e8425feee31edf6005fb9695c978fd', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '176a9629eee05b3a9271cdb245e36182e0e8425feee31edf6005fb9695c978fd')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Que Copilot active la cámara para iniciar sesión con reconocimiento facial.', false), ('B', 'Que Copilot grabe en vídeo la pantalla y lo guarde en la carpeta Capturas de pantalla.', false), ('C', 'Que Copilot vea las ventanas del explorador o las aplicaciones abiertas en la pantalla y responda preguntas o guíe paso a paso.', true), ('D', 'Que Copilot aumente el tamaño del texto de la pantalla para personas con baja visión.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-06-windows-ms_win_inicio-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Personalizar el menú Inicio de Windows', 'https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-06-windows', 'II.6 El entorno Windows 11') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-06-windows' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿dónde aparece normalmente el menú Inicio en Windows 11?', 'El menú Inicio está centrado de forma predeterminada; la alineación se cambia desde Configuración de la barra de tareas.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu'), 'Menú Inicio · Alineación', 'Normalmente, el menú Inicio está centrado, pero puede cambiar la alineación al lado de la barra de tareas.', null, '7d47019213416b4f592ab48e6ffa5b8442ff8419d93a10d932c3e27a9b361bd2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '7d47019213416b4f592ab48e6ffa5b8442ff8419d93a10d932c3e27a9b361bd2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Siempre en el lado izquierdo, sin posibilidad de cambiarlo.', false), ('B', 'En la parte superior de la pantalla.', false), ('C', 'Centrado, aunque puede alinearse al lado izquierdo de la barra de tareas.', true), ('D', 'En el lado derecho de la barra de tareas, junto al reloj.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cómo se crea una carpeta en la sección de elementos anclados del menú Inicio de Windows 11?', 'Las carpetas del menú Inicio se crean arrastrando un elemento anclado encima de otro. La opción «Carpetas» de Configuración sirve para elegir qué carpetas aparecen junto al botón de encendido.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu'), 'Menú Inicio · Carpetas', 'Para crear una carpeta, arrastre un elemento anclado sobre otro para crear una carpeta.', null, '0ad9d8b344e8736b3352c791ae0be2febd038049d5120ba517a6042e165cc893', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0ad9d8b344e8736b3352c791ae0be2febd038049d5120ba517a6042e165cc893')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Arrastrando un elemento anclado sobre otro.', true), ('B', 'Haciendo clic con el botón derecho en el menú Inicio y eligiendo Nueva carpeta.', false), ('C', 'Pulsando Ctrl + Mayús + N con el menú Inicio abierto.', false), ('D', 'Desde Configuración > Personalización > Inicio > Carpetas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-06-windows-ms_win_multitarea-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Cómo realizar varias tareas en Windows', 'https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-06-windows', 'II.6 El entorno Windows 11') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-06-windows' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, al cerrar un escritorio virtual, las aplicaciones que estaban abiertas en él:', 'Las aplicaciones del escritorio cerrado pasan al siguiente escritorio disponible; no se cierran.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows'), 'Multitarea · Escritorios virtuales', 'Las aplicaciones abiertas en el escritorio cerrado se moverán al siguiente escritorio disponible.', null, 'cf537ab12bebf6b15465b4f04a2cfe0c41aedce8e6be32d121686e5c4219a135', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'cf537ab12bebf6b15465b4f04a2cfe0c41aedce8e6be32d121686e5c4219a135')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se cierran sin guardar los cambios.', false), ('B', 'Se mueven al siguiente escritorio disponible.', true), ('C', 'Se minimizan en la bandeja del sistema.', false), ('D', 'Quedan suspendidas hasta que se vuelva a crear el escritorio.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Cuando se usa Alt + Tab para cambiar de aplicación, la aplicación seleccionada pasa a primer plano:', 'Con Alt pulsada, cada pulsación de Tab mueve la selección a la siguiente aplicación; al soltar Alt, la seleccionada pasa a primer plano.', 'age_aux_b2_06_windows', (select id from public.topics where slug = 'age-aux-b2-06-windows'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows'), 'Multitarea · Alt + Tab', 'Una vez que suelte la tecla Alt, la aplicación seleccionada pasará al primer plano.', null, '9f1a7b968057e1128b295c8b61788e48d0d582ea310a7ec00e5c87428e7043f4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9f1a7b968057e1128b295c8b61788e48d0d582ea310a7ec00e5c87428e7043f4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Al pulsar la tecla Tab por segunda vez.', false), ('B', 'Al pulsar la tecla Entrar.', false), ('C', 'Al soltar la tecla Alt.', true), ('D', 'Al hacer doble clic en su miniatura.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-07-explorador-ms_win_atajos-v1 (8 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Métodos abreviados de teclado de Windows', 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-07-explorador', 'II.7 El Explorador de archivos de Windows') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-07-explorador' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado de teclado abre el Explorador de archivos en Windows 11?', 'Windows + E abre el Explorador de archivos; Windows + R abre el cuadro Ejecutar.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Métodos abreviados de Windows · Windows + E', 'Tecla Windows + E | Abre el Explorador de archivos.', null, 'bf3dcd5bd73f6f81686e8b564405731c208fafa80d37bd1788566527d5446c9f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'bf3dcd5bd73f6f81686e8b564405731c208fafa80d37bd1788566527d5446c9f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Tecla Windows + R.', false), ('B', 'Tecla Windows + X.', false), ('C', 'Ctrl + E.', false), ('D', 'Tecla Windows + E.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos, la tecla F2 sirve para:', 'F2 cambia el nombre del elemento seleccionado; F3 busca, F4 selecciona la barra de direcciones y F5 actualiza.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · F2', 'F2 | Cambiar el nombre del elemento seleccionado.', null, 'f1e79faeb672cd1e3787d6b49d9ec465568af8ee3dd417ea5c0fce1870b22e89', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f1e79faeb672cd1e3787d6b49d9ec465568af8ee3dd417ea5c0fce1870b22e89')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Buscar un archivo o carpeta.', false), ('B', 'Seleccionar la barra de direcciones.', false), ('C', 'Cambiar el nombre del elemento seleccionado.', true), ('D', 'Actualizar la ventana.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos, ¿qué ocurre al pulsar Mayús + Supr con un archivo seleccionado?', 'Mayús + Supr elimina de forma permanente, sin pasar por la Papelera; Supr solo lo mueve a la Papelera de reciclaje.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · Mayús + Supr', 'Mayús+Supr | Eliminar permanentemente el elemento seleccionado sin moverlo a la papelera de reciclaje.', null, '33a0447373212fb17c08b7ab3f525acf66f2324c0e4ab0d255f74b7ee009db88', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '33a0447373212fb17c08b7ab3f525acf66f2324c0e4ab0d255f74b7ee009db88')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se elimina permanentemente sin moverlo a la Papelera de reciclaje.', true), ('B', 'Se mueve a la Papelera de reciclaje.', false), ('C', 'Se crea una copia del archivo en la misma carpeta.', false), ('D', 'Se muestran sus propiedades.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas crea una carpeta nueva en el Explorador de archivos?', 'Ctrl + Mayús + N crea una carpeta nueva; Ctrl + Mayús + E expande el árbol del panel de navegación, Ctrl + T abre una pestaña y Alt + Entrar muestra las propiedades.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · Nueva carpeta', 'Ctrl+Mayús+N | Cree una carpeta nueva.', null, '598a85f9bc61508983916af76dcf441fa78038610998dac7c86a2d142782f794', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '598a85f9bc61508983916af76dcf441fa78038610998dac7c86a2d142782f794')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + Mayús + E.', false), ('B', 'Ctrl + T.', false), ('C', 'Alt + Entrar.', false), ('D', 'Ctrl + Mayús + N.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos, ¿qué combinación sube un nivel en la ruta de acceso de la carpeta?', 'Alt + Flecha arriba sube un nivel; Alt + Flecha derecha va a la carpeta siguiente y Mayús + teclas de dirección selecciona varios elementos.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · Subir un nivel', 'Alt+Flecha arriba | Subir un nivel en la ruta de acceso de la carpeta.', null, 'feefd0a54d7f9b642b0e2a0eabfb422b501b6657b3355e59ce40963427fa2ff5', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'feefd0a54d7f9b642b0e2a0eabfb422b501b6657b3355e59ce40963427fa2ff5')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Alt + Flecha derecha.', false), ('B', 'Alt + Flecha arriba.', true), ('C', 'Ctrl + Flecha arriba.', false), ('D', 'Mayús + Flecha arriba.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos, Alt + P permite:', 'Alt + P muestra u oculta el panel de vista previa; el panel de detalles se controla con Alt + Mayús + P y las propiedades se ven con Alt + Entrar.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · Panel de vista previa', 'Alt+P | Mostrar u ocultar el panel de vista previa.', null, '70821ba5d4e357e6a4be2f13ba0c9efc06415069e490351392b4970166e7c77c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '70821ba5d4e357e6a4be2f13ba0c9efc06415069e490351392b4970166e7c77c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mostrar u ocultar el panel de detalles.', false), ('B', 'Imprimir el archivo seleccionado.', false), ('C', 'Mostrar u ocultar el panel de vista previa.', true), ('D', 'Ver las propiedades del elemento seleccionado.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos de Windows 11, Ctrl + T sirve para:', 'Ctrl + T abre una pestaña nueva; Ctrl + W cierra la activa y Ctrl + Tab pasa a la siguiente.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · Pestañas', 'Ctrl+T | Abrir una pestaña nueva y cambiar a ella.', null, '92f4e5cb5da0e0c735cee241abe5c2d2115c9cdce9429e53f96273509c3c6235', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '92f4e5cb5da0e0c735cee241abe5c2d2115c9cdce9429e53f96273509c3c6235')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cerrar la pestaña activa.', false), ('B', 'Desplazarse a la pestaña siguiente.', false), ('C', 'Abrir una nueva ventana del Explorador.', false), ('D', 'Abrir una pestaña nueva y cambiar a ella.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Explorador de archivos, si se arrastra un archivo con el ratón manteniendo pulsada la tecla Alt, al soltarlo:', 'Alt + arrastrar crea un acceso directo; Ctrl + arrastrar crea una copia y Mayús + arrastrar mueve el archivo.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows'), 'Explorador de archivos · Arrastrar con Alt', 'Alt+ratón arrastrar un archivo | Cuando suelte el archivo, cree un acceso directo al archivo original en esa ubicación.', null, '04d0b73bf940c524cec899c43295eafc431751e003983a00e9467c3ac9158547', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '04d0b73bf940c524cec899c43295eafc431751e003983a00e9467c3ac9158547')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se crea una copia del archivo en esa ubicación.', false), ('B', 'Se mueve el archivo a esa ubicación.', false), ('C', 'Se abre el archivo con la aplicación predeterminada.', false), ('D', 'Se crea un acceso directo al archivo original en esa ubicación.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-07-explorador-ms_win_buscar-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Encuentra tus archivos y aplicaciones en Windows', 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-07-explorador', 'II.7 El Explorador de archivos de Windows') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-07-explorador' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, para realizar en el Explorador de archivos una búsqueda lenta pero exhaustiva, hay que buscar:', 'La búsqueda desde Inicio encuentra archivos relevantes del PC y de la nube con rapidez; la búsqueda en Este equipo es más lenta pero exhaustiva.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows'), 'Buscar archivos · Búsqueda exhaustiva', 'Para realizar una búsqueda lenta pero exhaustiva, busque en Este equipo en lugar de en Inicio.', null, 'f5aae57a64de6d0a3cbe705a05b0737620f82fadb9eed01ff879a4ee9318211c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f5aae57a64de6d0a3cbe705a05b0737620f82fadb9eed01ff879a4ee9318211c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En Este equipo en lugar de en Inicio.', true), ('B', 'En Inicio en lugar de en Este equipo.', false), ('C', 'En la Papelera de reciclaje.', false), ('D', 'En la barra de direcciones, pulsando F4.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-07-explorador-ms_win_explorador-v1 (4 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Explorador de archivos en Windows', 'https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-07-explorador', 'II.7 El Explorador de archivos de Windows') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-07-explorador' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según la página de Microsoft sobre el Explorador de archivos, ¿en qué ubicación se abre de forma predeterminada?', 'Microsoft indica que el Explorador se abre de forma predeterminada en Acceso rápido y que, si se prefiere Este equipo, puede cambiarse desde las opciones de la cinta.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows'), 'Explorador de archivos · Página de inicio', 'De forma predeterminada, el Explorador de archivos se abre en Acceso rápido', 'En versiones recientes de Windows 11 esta vista se llama «Inicio» en el panel de navegación; la página de Microsoft usa ambos nombres. Comprobar que la redacción no induce a error.', '1d8b77d1bc0bfa85979c78a59ac192ce5013e84fcc349d678c470622d8dfb158', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1d8b77d1bc0bfa85979c78a59ac192ce5013e84fcc349d678c470622d8dfb158')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En Este equipo.', false), ('B', 'En Acceso rápido.', true), ('C', 'En la carpeta Documentos.', false), ('D', 'En la carpeta Descargas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'El Explorador de archivos de Windows 11 tiene un menú contextual simplificado. Para acceder a las opciones adicionales de ese menú, hay que seleccionar:', 'Al hacer clic con el botón derecho aparece el menú contextual simplificado; las demás opciones se obtienen con «Mostrar más opciones» (también con Mayús + clic derecho).', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows'), 'Explorador de archivos · Menú contextual', 'El Explorador de archivos tiene un menú contextual nuevo y simplificado […] Seleccione Mostrar más opciones.', null, 'daf28ea0ca4295f2d59e1f8be5e16fb08ec11646cfa7b4b9645083b2d87fcb94', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'daf28ea0ca4295f2d59e1f8be5e16fb08ec11646cfa7b4b9645083b2d87fcb94')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mostrar más opciones.', true), ('B', 'Propiedades avanzadas.', false), ('C', 'Opciones de carpeta.', false), ('D', 'Abrir con.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el menú Ver del Explorador de archivos, ¿qué opción permite ver los archivos y carpetas ocultos?', '«Elementos ocultos» muestra archivos y carpetas ocultos; «Extensiones de nombre de archivo» muestra las extensiones, las casillas sirven para seleccionar y la vista compacta reduce el espacio entre archivos.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows'), 'Explorador de archivos · Elementos ocultos', 'Elementos ocultos para ver los archivos y carpetas ocultos', null, 'cef88f94fd0496cf9e2d88fa21476d513a5e79d242ff17997c23464425259362', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'cef88f94fd0496cf9e2d88fa21476d513a5e79d242ff17997c23464425259362')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Extensiones de nombre de archivo.', false), ('B', 'Elementos ocultos.', true), ('C', 'Casillas de elemento.', false), ('D', 'Vista compacta.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, en el Explorador de archivos de Windows 11 las carpetas predeterminadas (Documentos, Imágenes, etc.) ya no se muestran en Este equipo para:', 'Las carpetas predeterminadas dejan de mostrarse en Este equipo para que la vista se centre en las unidades; se encuentran en Inicio/Acceso rápido y en el panel de navegación.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows'), 'Explorador de archivos · Este equipo', 'Estas carpetas predeterminadas ya no se muestran en Este equipo para mantener la vista centrada en las unidades', null, '4567cb457af3951685cdeb33f9caca0cef0c3db07f20d8cc1a7c89bdea878297', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4567cb457af3951685cdeb33f9caca0cef0c3db07f20d8cc1a7c89bdea878297')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Proteger esas carpetas frente a virus.', false), ('B', 'Mantener la vista centrada en las unidades.', true), ('C', 'Ahorrar espacio en disco.', false), ('D', 'Ocultarlas a otros usuarios del equipo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-07-explorador-ms_win_herramientas-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Herramientas de configuración del sistema en Windows', 'https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-07-explorador', 'II.7 El Explorador de archivos de Windows') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-07-explorador' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado de teclado abre el Administrador de tareas?', 'Microsoft indica el método abreviado Ctrl + Mayús + Esc para abrir el Administrador de tareas, que permite, entre otras cosas, finalizar programas que no responden.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows'), 'Herramientas del sistema · Administrador de tareas', 'Use el método abreviado de teclado CTRL+MAYÚS+ESC.', null, 'd41a59a53712155390a05e3fdd22dda42afdbf051bdd8ecbbea08094e39eca51', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd41a59a53712155390a05e3fdd22dda42afdbf051bdd8ecbbea08094e39eca51')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + Mayús + Esc.', true), ('B', 'Ctrl + Alt + Esc.', false), ('C', 'Alt + Mayús + Esc.', false), ('D', 'Tecla Windows + Esc.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué utilidad de Windows proporciona una vista completa del hardware y resulta útil para recopilar información con la que diagnosticar problemas?', 'Información del sistema (msinfo32) ofrece una vista completa del hardware. El Visor de eventos muestra eventos, el Editor del Registro modifica el Registro y Configuración del sistema ayuda con problemas de inicio.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows'), 'Herramientas del sistema · Información del sistema', 'Información del sistema es una utilidad del sistema que proporciona una vista completa del hardware', null, '4e87e40d8abcb2e8800592950914488831abcd9a4c86c3625ab299a6e9ddd798', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4e87e40d8abcb2e8800592950914488831abcd9a4c86c3625ab299a6e9ddd798')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Visor de eventos.', false), ('B', 'Editor del Registro.', false), ('C', 'Información del sistema.', true), ('D', 'Configuración del sistema.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿En qué edición de Windows no está disponible el Editor de directivas de grupo local?', 'Microsoft advierte de que el Editor de directivas de grupo local, usado por los administradores, no está disponible en la edición Windows Home.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows'), 'Herramientas del sistema · Directivas de grupo', 'El Editor de directivas de grupo local no está disponible en la edición Windows Home.', null, '82a49ed9cda2203abe25d733de5fbc218f1d69cf11900dd8c1ab8045c3e5878d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '82a49ed9cda2203abe25d733de5fbc218f1d69cf11900dd8c1ab8045c3e5878d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Windows Pro.', false), ('B', 'Windows Enterprise.', false), ('C', 'Windows Education.', false), ('D', 'Windows Home.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-07-explorador-ms_win_recortes-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Usar Recortes para realizar capturas de pantalla', 'https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-07-explorador', 'II.7 El Explorador de archivos de Windows') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-07-explorador' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En la Herramienta Recortes, ¿qué modo permite dibujar una forma libre para seleccionar el área que se quiere capturar?', 'Los modos de recorte son Rectángulo, Ventana, Pantalla completa y Forma libre; este último permite dibujar la forma del área.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots'), 'Recortes · Modos de recorte', 'Forma libre: permite dibujar una forma libre para seleccionar el área que se desea capturar.', null, '9d7f698b3c7b65a8efdc22f4b8d2f9500226fa9ff26e7de6ce48e5e2854ce0e3', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9d7f698b3c7b65a8efdc22f4b8d2f9500226fa9ff26e7de6ce48e5e2854ce0e3')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Forma libre.', true), ('B', 'Rectángulo.', false), ('C', 'Ventana.', false), ('D', 'Pantalla completa.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, después de capturar un recorte con la Herramienta Recortes, este:', 'Los recortes se guardan automáticamente en la carpeta Capturas de pantalla; además puede copiarse al Portapapeles o guardarse una copia adicional.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots'), 'Recortes · Guardado', 'Después de capturar un recorte, se guarda automáticamente en la carpeta Capturas de pantalla.', null, '91c59b3034dd25999a14480f25200417c344b0f3b2c5e098dc2fb3c6c5da49e9', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '91c59b3034dd25999a14480f25200417c344b0f3b2c5e098dc2fb3c6c5da49e9')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Solo se copia al Portapapeles y se pierde si no se pega.', false), ('B', 'Se guarda automáticamente en la carpeta Descargas.', false), ('C', 'Se guarda automáticamente en la carpeta Capturas de pantalla.', true), ('D', 'Se envía automáticamente a OneDrive y se elimina del equipo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-07-explorador-ms_win_zip-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Comprimir y descomprimir archivos', 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-07-explorador', 'II.7 El Explorador de archivos de Windows') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-07-explorador' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para descomprimir todo el contenido de una carpeta comprimida en Windows 11 se utiliza la opción:', '«Extraer todo...» descomprime todo el contenido; «Enviar a > carpeta comprimida (en zip)» sirve para comprimir.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files'), 'Comprimir y descomprimir archivos · Extraer', 'Para descomprimir todo el contenido de la carpeta comprimida […] selecciona Extraer todo... y sigue las instrucciones.', null, 'fe5b5a991b15a5cdcfad8284f8330899aa4412e0c6f79b7d30a5cf71d5ed2051', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fe5b5a991b15a5cdcfad8284f8330899aa4412e0c6f79b7d30a5cf71d5ed2051')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Enviar a > Carpeta comprimida (en zip).', false), ('B', 'Liberar espacio.', false), ('C', 'Extraer todo.', true), ('D', 'Mostrar más opciones > Propiedades.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, para comprimir un archivo en formato ZIP desde el menú contextual del Explorador puede seguirse la ruta:', 'La ruta indicada crea una carpeta comprimida con el mismo nombre en la misma ubicación; «Extraer todo» descomprime.', 'age_aux_b2_07_explorador', (select id from public.topics where slug = 'age-aux-b2-07-explorador'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files'), 'Comprimir y descomprimir archivos · Comprimir', 'Mostrar más opciones>Enviar a>carpeta comprimida (en zip).', null, '7b6e16339b8299b7c4aa2e372ec29d5fe94d7e195c92af55a9698ccc1d5df6e7', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '7b6e16339b8299b7c4aa2e372ec29d5fe94d7e195c92af55a9698ccc1d5df6e7')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mostrar más opciones > Extraer todo.', false), ('B', 'Mostrar más opciones > Enviar a > Carpeta comprimida (en zip).', true), ('C', 'Propiedades > Avanzados > Liberar espacio.', false), ('D', 'Ver > Mostrar > Elementos comprimidos.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_office_guardar-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Guardar, realizar copias de seguridad y recuperar un archivo en Microsoft Office', 'https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el soporte de Microsoft, Autoguardado guarda automáticamente un archivo de Office cuando este:', 'Autoguardado funciona con archivos almacenados en OneDrive o SharePoint en Microsoft 365. Autorrecuperación es una función distinta y no sustituye a guardar con frecuencia.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb'), 'Autoguardado', 'Autoguardado guarda automáticamente el archivo cuando un archivo está almacenado en OneDrive o SharePoint en Microsoft 365.', null, 'cb4893a33f92baa06fbdde5f82b4ea2bc86188fe4b86d85dcd7694706b25a274', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'cb4893a33f92baa06fbdde5f82b4ea2bc86188fe4b86d85dcd7694706b25a274')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Está almacenado en OneDrive o SharePoint en Microsoft 365.', true), ('B', 'Está almacenado en la carpeta Documentos del equipo local.', false), ('C', 'Se ha guardado al menos una vez con Guardar como, en cualquier ubicación.', false), ('D', 'Tiene activada la Autorrecuperación cada 10 minutos.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_atajos-v1 (8 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Métodos abreviados de teclado de Word', 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Word para Microsoft 365 (Windows), ¿qué hace la tecla F12 pulsada sola?', 'Según la tabla de teclas de función de Word, F12 abre el cuadro de diálogo Guardar como; Ctrl+F12 abre el cuadro Abrir y Ctrl+Mayús+F12 muestra la pestaña Imprimir.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Teclas de función de Word (F12)', 'Solo F12: muestra el cuadro de diálogo Guardar como.', null, 'fa55e08d198edcbf4d40a2f6f5e3176101d2c7cdce40e8aa0096eaecd02fecdd', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fa55e08d198edcbf4d40a2f6f5e3176101d2c7cdce40e8aa0096eaecd02fecdd')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Muestra el cuadro de diálogo Abrir.', false), ('B', 'Muestra la pestaña Imprimir en la vista Backstage.', false), ('C', 'Muestra el cuadro de diálogo Guardar como.', true), ('D', 'Muestra el panel de tareas Ayuda de Word.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas inserta un salto de página en un documento de Word?', 'Ctrl+Entrar inserta un salto de página; Mayús+Entrar inserta un salto de línea y Ctrl+Mayús+Entrar, un salto de columna.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Métodos abreviados de Word (salto de página)', 'Insertar un salto de página. | Ctrl+Entrar', null, '37cbd41fd63e10cc75b91a4381a25077a516d8557f331ebe5b0a7f5331d021be', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '37cbd41fd63e10cc75b91a4381a25077a516d8557f331ebe5b0a7f5331d021be')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mayús+Entrar.', false), ('B', 'Ctrl+Entrar.', true), ('C', 'Ctrl+Mayús+Entrar.', false), ('D', 'Alt+Entrar.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Word, la combinación Mayús+Entrar permite:', 'La tabla de métodos abreviados de Word asigna Mayús+Entrar al salto de línea, Ctrl+Entrar al salto de página y Ctrl+Mayús+Entrar al salto de columna.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Métodos abreviados de Word (saltos de línea y columna)', 'Insertar un salto de línea. | Mayús+Entrar', null, 'b43a23cf09241b51bc94f6039619e54d0b6c6bac86a2eb66a662080d2d8ad229', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b43a23cf09241b51bc94f6039619e54d0b6c6bac86a2eb66a662080d2d8ad229')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Insertar un salto de línea.', true), ('B', 'Insertar un salto de página.', false), ('C', 'Insertar un salto de columna.', false), ('D', 'Insertar un salto de sección continuo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué función cumple la combinación Mayús+F3 en Word?', 'Mayús+F3 alterna el texto seleccionado entre mayúsculas, minúsculas y mayúsculas y minúsculas.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Métodos abreviados de Word (Mayús+F3)', 'Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas. | Mayús+F3', null, '6a0dabd20b2e056c27ba16c17204f8295552f197d464e0974ae19c3381cfddb6', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6a0dabd20b2e056c27ba16c17204f8295552f197d464e0974ae19c3381cfddb6')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mostrar el panel de tareas del diccionario de sinónimos.', false), ('B', 'Repetir el último comando o acción.', false), ('C', 'Mostrar el cuadro de diálogo Ir a.', false), ('D', 'Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Word, la combinación Mayús+F7 muestra:', 'Mayús+F7 abre el diccionario de sinónimos; F7 sola abre el panel del Editor, Alt+Mayús+F7 el Traductor y Ctrl+Mayús+F5 el cuadro Marcador.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Teclas de función de Word (Mayús+F7)', 'Mayús+F7: muestra el panel de tareas del diccionario de sinónimos.', null, '551607a7fd78ac301c44e2b3ee7ae6e65d994788647c7447165cfe9985cf2a4d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '551607a7fd78ac301c44e2b3ee7ae6e65d994788647c7447165cfe9985cf2a4d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El panel de tareas del diccionario de sinónimos.', true), ('B', 'El panel de tareas del Editor para revisar la ortografía.', false), ('C', 'El panel de tareas Traductor.', false), ('D', 'El cuadro de diálogo Marcador.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Si en Word se pulsa la tecla F4 sola, el programa:', 'F4 repite el último comando o acción; F5 muestra Ir a y F9 actualiza los campos seleccionados.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Teclas de función de Word (F4)', 'Solo F4: repite el último comando o acción, si es posible.', null, 'f7fc4e81939f0bee4106d847a62e615308c7ef32097c6f7cfed2b8eec8694e09', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f7fc4e81939f0bee4106d847a62e615308c7ef32097c6f7cfed2b8eec8694e09')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Muestra el cuadro de diálogo Ir a.', false), ('B', 'Actualiza los campos seleccionados.', false), ('C', 'Repite el último comando o acción, si es posible.', true), ('D', 'Cierra el documento activo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas aplica el estilo Título 1 en Word?', 'La tabla de métodos abreviados de Word asigna Ctrl+Alt+1 al estilo Título 1 (y Ctrl+Mayús+N al estilo Normal).', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Métodos abreviados de Word (estilos)', 'Aplicar el estilo de Título 1. | Ctrl+Alt+1', null, '3bb6c657d0cf38cc1fcd8d39fa8cf478a2f74f41bcda48d235ac3e1779d74c7b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '3bb6c657d0cf38cc1fcd8d39fa8cf478a2f74f41bcda48d235ac3e1779d74c7b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl+1.', false), ('B', 'Ctrl+Mayús+1.', false), ('C', 'Alt+Mayús+1.', false), ('D', 'Ctrl+Alt+1.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según la página de métodos abreviados de teclado de Word para Windows, la combinación Ctrl+Mayús+E sirve para:', 'Ctrl+Mayús+E activa o desactiva el control de cambios; un comentario se inserta con Ctrl+Alt+M, la vista Esquema con Ctrl+Alt+O y los caracteres no imprimibles se muestran con Ctrl+Mayús+8.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word'), 'Métodos abreviados de Word (control de cambios)', 'Activar o desactivar el control de cambios. | Ctrl+Mayús+E', 'Atajo tomado de la página es-es de Microsoft; algunos atajos de Word cambian según el idioma de la interfaz/teclado (la propia página repite Ctrl+A y Ctrl+U para dos acciones). Confirmar en Word 365 en español.', '0206ce2a723d8b49de7e125c2d5a302c71eea7246aae95abd0a25a7dd432d189', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0206ce2a723d8b49de7e125c2d5a302c71eea7246aae95abd0a25a7dd432d189')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Insertar un comentario.', false), ('B', 'Activar o desactivar el control de cambios.', true), ('C', 'Cambiar a la vista Esquema.', false), ('D', 'Mostrar todos los caracteres no imprimibles.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_cambios-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Realizar un seguimiento de los cambios en Word', 'https://support.microsoft.com/es-es/word/training/track-changes-in-word', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Con el Control de cambios activado en Word, ¿cómo se marcan las eliminaciones y las adiciones?', 'Word marca las eliminaciones con tachado y las adiciones con subrayado, usando un color distinto para cada autor.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/word/training/track-changes-in-word'), 'Control de cambios (marcas)', 'Las eliminaciones se marcan con un tachado y las adiciones se marcan con un subrayado.', null, '37ce68c014cfbdd822ddac6a228d7cb0a3831be0727bb69d9da7f47790ad0ed8', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '37ce68c014cfbdd822ddac6a228d7cb0a3831be0727bb69d9da7f47790ad0ed8')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las eliminaciones con un subrayado y las adiciones con un tachado.', false), ('B', 'Ambas con resaltado amarillo.', false), ('C', 'Las eliminaciones con un tachado y las adiciones con un subrayado.', true), ('D', 'Las eliminaciones desaparecen sin marca y las adiciones se muestran en negrita.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Control de cambios de Word, si se elige la presentación «Sin marcado»:', '«Sin marcado» solo oculta las marcas para mostrar el documento como quedaría; ocultar los cambios no los quita. Para eliminar la marcación hay que aceptar o rechazar los cambios.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/word/training/track-changes-in-word'), 'Control de cambios (Sin marcado)', 'Sin marcado oculta el marcado para mostrar el documento con los cambios incorporados. […] Ocultar los cambios no los quita del documento.', null, '0b32b28c9a1c12f4c6a0f709a9ca9d3c9d8ac942f8ad64a732d006bb02913e3e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0b32b28c9a1c12f4c6a0f709a9ca9d3c9d8ac942f8ad64a732d006bb02913e3e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se aceptan todos los cambios pendientes del documento.', false), ('B', 'Se rechazan todos los cambios pendientes del documento.', false), ('C', 'Se desactiva el Control de cambios.', false), ('D', 'Se ve el documento con los cambios incorporados, pero los cambios no se quitan del documento.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para quitar la marcación de revisiones de un documento de Word, Microsoft indica que deben utilizarse los comandos Aceptar y Rechazar del grupo:', 'Ocultar los cambios no los elimina; hay que usar Aceptar y Rechazar, situados en el grupo Cambios de la pestaña Revisar.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/word/training/track-changes-in-word'), 'Control de cambios (aceptar y rechazar)', 'Debe utilizar los comandos Aceptar y Rechazar en el grupo Cambios para quitar la marcación del documento.', null, '6a98b00c5387ed28079c66d518748a15d41c32dbd7a96d4a33900cb816cb796c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6a98b00c5387ed28079c66d518748a15d41c32dbd7a96d4a33900cb816cb796c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cambios.', true), ('B', 'Seguimiento.', false), ('C', 'Comentarios.', false), ('D', 'Proteger.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_cinta-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Personalizar la cinta de opciones en Word', 'https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al personalizar la cinta de opciones de Word, ¿cuál de las siguientes acciones NO es posible?', 'Se pueden agregar pestañas y grupos personalizados (también en pestañas predeterminadas) y renombrar pestañas o grupos, pero no cambiar el color de la cinta ni sus iconos.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682'), 'Personalizar la cinta de opciones', 'No puede cambiar el color de la cinta de opciones o sus iconos', null, '74e19ffbf12110f56ade7c4400180cd518a8cf1478efc2afee273525830ca313', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '74e19ffbf12110f56ade7c4400180cd518a8cf1478efc2afee273525830ca313')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Agregar pestañas personalizadas.', false), ('B', 'Agregar un grupo personalizado a una pestaña predeterminada.', false), ('C', 'Cambiar el nombre de una pestaña predeterminada.', false), ('D', 'Cambiar el color de la cinta de opciones o sus iconos.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_combinar-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Combinación de correspondencia con una hoja de cálculo de Excel', 'https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al preparar una hoja de cálculo de Excel como origen de datos de una combinación de correspondencia de Word, Microsoft indica que los datos que se combinarán deben estar:', 'Uno de los requisitos que enumera Microsoft es que todos los datos que se van a combinar estén en la primera hoja; además, el archivo debe estar almacenado en el equipo local.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3'), 'Combinar correspondencia con Excel', 'Todos los datos que se combinarán están presentes en la primera hoja de la hoja de cálculo.', null, '5fd484a4d163cec21dd0f9c1d7424812f23811bb6632f58fc2f9d0629ffa8ba9', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5fd484a4d163cec21dd0f9c1d7424812f23811bb6632f58fc2f9d0629ffa8ba9')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la última hoja del libro.', false), ('B', 'En una tabla dinámica.', false), ('C', 'En la primera hoja de la hoja de cálculo.', true), ('D', 'En cualquier hoja, siempre que tenga nombre definido.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_encabezado-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Insertar un encabezado o pie de página', 'https://support.microsoft.com/es-es/office/insertar-un-encabezado-o-pie-de-p%C3%A1gina-b87ee4df-abc1-41f8-995b-b39f6d99c7ed', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para salir de la edición del encabezado o pie de página en Word, además de hacer clic en «Cerrar encabezado y pie de página», se puede presionar:', 'Microsoft indica que puede hacerse clic en Cerrar encabezado y pie de página o presionar Esc. Ctrl+W cerraría el documento.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/insertar-un-encabezado-o-pie-de-p%C3%A1gina-b87ee4df-abc1-41f8-995b-b39f6d99c7ed'), 'Encabezados y pies de página', 'Haga clic en Cerrar encabezado y pie de página o presione Esc para salir.', null, 'c8655115d333463eaf195928bea65195d4fc61ef62843d71b305508de4586329', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c8655115d333463eaf195928bea65195d4fc61ef62843d71b305508de4586329')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Entrar.', false), ('B', 'Esc.', true), ('C', 'F4.', false), ('D', 'Ctrl+W.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_tareas-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Tareas básicas en Word', 'https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿En qué formato de archivo guarda Word los documentos de forma predeterminada?', 'Word guarda por defecto en formato .docx; para otro formato debe elegirse en la lista «Guardar como tipo».', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc'), 'Tareas básicas en Word (formato de archivo)', 'Word guarda los archivos automáticamente con el formato de archivo .docx.', null, 'e37408fe0624ccdb89f7fb257201fd43c17b99e8496683f9e947d428adde20ae', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e37408fe0624ccdb89f7fb257201fd43c17b99e8496683f9e947d428adde20ae')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '.doc', false), ('B', '.rtf', false), ('C', '.docx', true), ('D', '.odt', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué vista de Word oculta la mayor parte de los botones y las herramientas para facilitar la lectura del documento?', 'Microsoft recomienda abrir el documento en Modo Lectura para ocultar la mayoría de botones y herramientas.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc'), 'Tareas básicas en Word (Modo Lectura)', 'Abra el documento en Modo Lectura para ocultar la mayor parte de los botones y las herramientas.', null, 'c00d1c09277d082fbd250bec632ef45dee734a856d8293ce314526be803ff12b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c00d1c09277d082fbd250bec632ef45dee734a856d8293ce314526be803ff12b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Diseño de impresión.', false), ('B', 'Modo Lectura.', true), ('C', 'Borrador.', false), ('D', 'Esquema.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-08-word-ms_word_tdc-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Insertar una tabla de contenido', 'https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-08-word', 'II.8 Procesadores de texto: Word 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-08-word' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Una tabla de contenido automática de Word se basa en:', 'Microsoft indica que la tabla de contenido se genera a partir de los títulos; por eso hay que aplicar estilos de título (Título 1, Título 2…) a los encabezados.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0'), 'Tabla de contenido', 'Una tabla de contenido en Word se basa en los títulos del documento.', null, '82c00471098634fda7afae99c887b0f7d2210a012152d813017c2c08f5a85778', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '82c00471098634fda7afae99c887b0f7d2210a012152d813017c2c08f5a85778')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Los títulos del documento.', true), ('B', 'Los marcadores insertados en el documento.', false), ('C', 'Las notas al pie del documento.', false), ('D', 'Los comentarios del documento.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Tras modificar un documento que afecta a su tabla de contenido, Microsoft indica que puede actualizarla haciendo clic con el botón derecho en ella y seleccionando:', 'La tabla de contenido es un campo; se actualiza con clic derecho > Actualizar campo. «Editar campo» y «Alternar códigos de campo» modifican o muestran el código, pero no la actualizan.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0'), 'Tabla de contenido (actualizar)', 'haciendo clic con el botón derecho en la tabla de contenido y seleccionando Actualizar campo.', null, 'c43eed0a12156d79e683353b051d5628cbd4d9c37adaa5a81fc623654a4f29d7', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c43eed0a12156d79e683353b051d5628cbd4d9c37adaa5a81fc623654a4f29d7')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Editar campo.', false), ('B', 'Alternar códigos de campo.', false), ('C', 'Párrafo.', false), ('D', 'Actualizar campo.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según el soporte de Microsoft, ¿cuál es la causa habitual de que falten entradas en una tabla de contenido de Word?', 'Las entradas que faltan suelen deberse a que esos títulos no tienen aplicado un estilo de título; basta aplicarles, por ejemplo, Título 1 y actualizar la tabla.', 'age_aux_b2_08_word', (select id from public.topics where slug = 'age-aux-b2-08-word'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0'), 'Tabla de contenido (entradas que faltan)', 'Las entradas que faltan a menudo se producen porque los títulos no tienen formato de títulos.', null, 'd6d36b036b99d4702c040689e36e2a7b44dbf00c12db95d4610bd190a3583759', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd6d36b036b99d4702c040689e36e2a7b44dbf00c12db95d4610bd190a3583759')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Que el documento no está guardado en formato .docx.', false), ('B', 'Que los títulos no tienen formato de títulos.', true), ('C', 'Que el documento tiene encabezados y pies de página.', false), ('D', 'Que el control de cambios está activado.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_atajos-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Métodos abreviados de teclado de Excel', 'https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas inserta una hoja de cálculo nueva en Excel?', 'Mayús+F11 inserta una hoja de cálculo nueva; F11 crea un gráfico en una hoja de gráfico distinta, Alt+F1 un gráfico incrustado y Mayús+F3 abre Insertar función.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel'), 'Métodos abreviados de Excel (Mayús+F11)', 'Mayús+F11: inserta una hoja de cálculo nueva.', null, '70c304f6004502b6950482271684be5eda0fee5074da427b055154c8c714baeb', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '70c304f6004502b6950482271684be5eda0fee5074da427b055154c8c714baeb')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'F11.', false), ('B', 'Alt+F1.', false), ('C', 'Mayús+F3.', false), ('D', 'Mayús+F11.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué combinación de teclas permite comenzar una nueva línea dentro de la misma celda en Excel?', 'Alt+Entrar inserta un salto de línea dentro de la celda. Ctrl+Entrar rellena el rango seleccionado con la entrada actual.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel'), 'Métodos abreviados de Excel (Alt+Entrar)', 'Úselo para comenzar una nueva línea en la misma celda. | Alt+Entrar', null, '394c00372e6c20e5a8317c779c95ae610e298a9659b4bd8d1997688273bd2cd0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '394c00372e6c20e5a8317c779c95ae610e298a9659b4bd8d1997688273bd2cd0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl+Entrar.', false), ('B', 'Alt+Entrar.', true), ('C', 'Mayús+Entrar.', false), ('D', 'Tab.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado de Excel permite cambiar entre mostrar los valores de las celdas o las fórmulas de la hoja de cálculo?', 'Ctrl+` alterna entre valores y fórmulas; Ctrl+1 abre Formato de celdas, Mayús+F3 Insertar función y Ctrl+Mayús+E invoca Relleno rápido.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel'), 'Métodos abreviados de Excel (mostrar fórmulas)', 'Úselo para cambiar entre mostrar valores de celda o fórmulas de la hoja de cálculo. | Ctrl+acento grave (`)', null, '90438eec56284c63b20d6d59733ffe8b5aaceb4882d9d0783c93efdbb51ae8f5', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '90438eec56284c63b20d6d59733ffe8b5aaceb4882d9d0783c93efdbb51ae8f5')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl+1.', false), ('B', 'Mayús+F3.', false), ('C', 'Ctrl+acento grave (`).', true), ('D', 'Ctrl+Mayús+E.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_buscarx-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Función BUSCARX', 'https://support.microsoft.com/es-es/excel/functions/xlookup-function', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En la función BUSCARX, si se omite el argumento modo_de_coincidencia y no se especifica si_no_se_encuentra, cuando no hay coincidencia la función devuelve:', 'El modo de coincidencia predeterminado es 0 (coincidencia exacta); si no hay coincidencia válida y no se indica si_no_se_encuentra, se devuelve #N/A.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/functions/xlookup-function'), 'Función BUSCARX (modo de coincidencia)', '0: coincidencia exacta. Si no se encuentra ninguno, devolver #N/A. Este valor es el predeterminado.', null, '498a6a0ffeddd96ec55be4f930a2be54aee7e52fe86cd90813f86bbf7ee55117', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '498a6a0ffeddd96ec55be4f930a2be54aee7e52fe86cd90813f86bbf7ee55117')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '#N/A', true), ('B', '#¡VALOR!', false), ('C', '0', false), ('D', 'El siguiente elemento más pequeño.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En la función BUSCARX, el valor -1 en el argumento modo_de_búsqueda indica que se realice:', 'modo_de_búsqueda: 1 (predeterminado) desde el primer elemento; -1 búsqueda inversa desde el último; 2 y -2 búsquedas binarias ascendente y descendente. «Siguiente elemento más pequeño» corresponde a -1 en modo_de_coincidencia, no en modo_de_búsqueda.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/functions/xlookup-function'), 'Función BUSCARX (modo de búsqueda)', '-1: realizar una búsqueda inversa empezando por el último elemento.', null, 'c16a06af9287e07cf817c2a5352c66656eab2f1eb0f4e1a5c14398a6ed20f2fb', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c16a06af9287e07cf817c2a5352c66656eab2f1eb0f4e1a5c14398a6ed20f2fb')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una búsqueda empezando por el primer elemento.', false), ('B', 'Una búsqueda binaria en una matriz_buscada ordenada de forma descendente.', false), ('C', 'Una coincidencia exacta o, si no la hay, el siguiente elemento más pequeño.', false), ('D', 'Una búsqueda inversa empezando por el último elemento.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿en qué se diferencia BUSCARV de BUSCARX?', 'BUSCARX trabaja con dos matrices separadas (la de búsqueda y la de devolución); BUSCARV necesita una única matriz de tabla y el número de la columna que se quiere devolver.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/functions/xlookup-function'), 'BUSCARX frente a BUSCARV', 'BUSCARX usa una matriz de búsqueda y una matriz de devolución, […] mientras que BUSCARV usa una matriz de tabla única seguida de un número de índice de columna.', null, '88cc52321948989410d513fe0e37b631e379ba624fc566b63357586114c841a2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '88cc52321948989410d513fe0e37b631e379ba624fc566b63357586114c841a2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'BUSCARV usa una matriz de búsqueda y una matriz de devolución, mientras que BUSCARX usa una matriz de tabla única y un número de índice de columna.', false), ('B', 'BUSCARV busca por filas y BUSCARX solo puede buscar por columnas.', false), ('C', 'BUSCARV usa una matriz de tabla única seguida de un número de índice de columna, mientras que BUSCARX usa una matriz de búsqueda y una matriz de devolución.', true), ('D', 'BUSCARV admite búsquedas binarias y BUSCARX no.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_contarsi-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Usar la función CONTAR.SI en Microsoft Excel', 'https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En los criterios de la función CONTAR.SI, el signo de interrogación (?) como carácter comodín:', 'En CONTAR.SI, ? sustituye a un único carácter y * a cualquier secuencia de caracteres.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel'), 'Función CONTAR.SI (comodines)', 'El signo de interrogación reemplaza cualquier carácter individual.', null, '182a312f5155d8e0fc9269433cbb48c18412cfb98378dad405436d568d98556e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '182a312f5155d8e0fc9269433cbb48c18412cfb98378dad405436d568d98556e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Reemplaza cualquier secuencia de caracteres.', false), ('B', 'Reemplaza solo dígitos numéricos.', false), ('C', 'Reemplaza cualquier carácter individual.', true), ('D', 'Indica que el criterio es opcional.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_formatocond-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Usar el formato condicional para resaltar información en Excel', 'https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En el Administrador de reglas de formato condicionales de Excel, ¿qué regla tiene mayor prioridad?', 'Microsoft indica que una regla más alta en la lista tiene mayor prioridad que una más baja; el orden se cambia moviendo las reglas en el Administrador.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel'), 'Formato condicional (prioridad de reglas)', 'Una regla más alta en la lista tiene una mayor prioridad que una regla más baja en la lista.', null, '8fcd2a3889b376302a0fe250518e5ab05cfdb505d14d344d5391bf24b6364172', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '8fcd2a3889b376302a0fe250518e5ab05cfdb505d14d344d5391bf24b6364172')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La que está más baja en la lista.', false), ('B', 'La que se creó primero, con independencia de su posición.', false), ('C', 'La que está más alta en la lista.', true), ('D', 'Todas tienen la misma prioridad.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_graficos-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Tipos de gráfico disponibles en Office', 'https://support.microsoft.com/es-es/excel/available-chart-types-in-office', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, un gráfico circular es adecuado cuando:', 'Los gráficos circulares muestran el tamaño de los elementos de una serie de datos en proporción a la suma de los elementos; requieren una sola serie de datos.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/available-chart-types-in-office'), 'Tipos de gráfico (circular)', 'Los gráficos circulares muestran el tamaño de los elementos en una serie de datos, proporcional a la suma de los elementos. […] Solo haya una serie de datos.', null, 'b5e521c58e5bcc55d29ca4c691a7625a868c338297db1ecf1395e1e7197c33b2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b5e521c58e5bcc55d29ca4c691a7625a868c338297db1ecf1395e1e7197c33b2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Solo hay una serie de datos.', true), ('B', 'Hay varias series de datos que se quieren comparar a lo largo del tiempo.', false), ('C', 'Se quieren mostrar datos jerárquicos con varios niveles.', false), ('D', 'Se quiere mostrar la distribución de datos en cuartiles.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué tipo de gráfico de Excel muestra un total acumulado de los datos financieros al sumar o restar valores?', 'El gráfico de cascada muestra totales acumulados sumando o restando valores; el de embudo muestra valores a través de las fases de un proceso; el histograma, frecuencias de una distribución; el de rectángulos, una vista jerárquica.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/available-chart-types-in-office'), 'Tipos de gráfico (cascada)', 'Un gráfico de cascada muestra un total acumulado de los datos financieros al sumar o restar valores.', null, '843462193f65ef7cc0cb162aff5efb2400636ed3798209f64d34ca2f962fbe0e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '843462193f65ef7cc0cb162aff5efb2400636ed3798209f64d34ca2f962fbe0e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Embudo.', false), ('B', 'Histograma.', false), ('C', 'Rectángulos.', false), ('D', 'Cascada.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_inmovilizar-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Inmovilizar paneles para bloquear filas y columnas', 'https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Excel, el comando Inmovilizar paneles (pestaña Vista) inmoviliza:', 'Inmovilizar paneles bloquea las filas situadas por encima y las columnas situadas a la izquierda de la celda seleccionada; por eso se selecciona la celda que está debajo de las filas y a la derecha de las columnas que se quieren mantener visibles.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns'), 'Inmovilizar paneles', 'Inmovilizar paneles inmoviliza las filas superiores y las columnas a la izquierda de la celda seleccionada.', null, 'cd7c571d117924918e59b3210d9333641dd2d3e8fcde601f2c02cfa820cce682', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'cd7c571d117924918e59b3210d9333641dd2d3e8fcde601f2c02cfa820cce682')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las filas superiores y las columnas a la izquierda de la celda seleccionada.', true), ('B', 'Las filas inferiores y las columnas a la derecha de la celda seleccionada.', false), ('C', 'Solo la fila en la que se encuentra la celda seleccionada.', false), ('D', 'Solo la columna en la que se encuentra la celda seleccionada.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_limites-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Especificaciones y límites de Excel', 'https://support.microsoft.com/es-es/excel/excel-specifications-and-limits', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál es el número total de filas y columnas de una hoja de cálculo de Excel para Microsoft 365?', 'La tabla de especificaciones fija el tamaño de la hoja en 1.048.576 filas por 16.384 columnas (de la A a la XFD). 65.536 × 256 era el límite de versiones antiguas (.xls).', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/excel-specifications-and-limits'), 'Especificaciones y límites de Excel (filas y columnas)', 'Número total de filas y columnas en una hoja de cálculo | 1.048.576 filas por 16.384 columnas', null, 'c5b383f2969deb512d8af5c8c8ff1bcf44f139af645c8bd98bbab44104003786', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c5b383f2969deb512d8af5c8c8ff1bcf44f139af645c8bd98bbab44104003786')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '1.048.576 filas por 16.384 columnas.', true), ('B', '65.536 filas por 256 columnas.', false), ('C', '1.048.576 filas por 65.536 columnas.', false), ('D', '16.384 filas por 1.048.576 columnas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según las especificaciones de Excel, ¿cuántos caracteres puede contener como máximo una celda?', 'Una celda admite hasta 32.767 caracteres; 255 es el ancho máximo de columna y 8.192 la longitud máxima del contenido de una fórmula.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/excel-specifications-and-limits'), 'Especificaciones y límites de Excel (caracteres por celda)', 'Número total de caracteres que puede contener una celda | 32.767 caracteres', null, '76c46c67faafc5c99b8e2f337a67bb78daad86aeaf0a3ef2c8bfda53889eac3e', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '76c46c67faafc5c99b8e2f337a67bb78daad86aeaf0a3ef2c8bfda53889eac3e')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '255 caracteres.', false), ('B', '8.192 caracteres.', false), ('C', '32.767 caracteres.', true), ('D', '65.535 caracteres.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Excel para Microsoft 365, el número de hojas de un libro:', 'La tabla de especificaciones indica que las hojas de un libro están limitadas a la memoria disponible y que, por defecto, un libro nuevo tiene 1 hoja.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/excel-specifications-and-limits'), 'Especificaciones y límites de Excel (hojas en un libro)', 'Hojas en un libro | Limitado a la memoria disponible (el valor predeterminado es 1 hoja)', null, '4200aa58b89bacb8a0b39d5c2e2c61ee7d3ae9251199a50601409415f6945243', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4200aa58b89bacb8a0b39d5c2e2c61ee7d3ae9251199a50601409415f6945243')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Está limitado a 255 hojas, y el valor predeterminado es 3 hojas.', false), ('B', 'Está limitado a 1.024 hojas, y el valor predeterminado es 1 hoja.', false), ('C', 'Está limitado a la memoria disponible, y el valor predeterminado es 3 hojas.', false), ('D', 'Está limitado a la memoria disponible, y el valor predeterminado es 1 hoja.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_referencias-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Cambiar entre referencias relativas, absolutas y mixtas', 'https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'De forma predeterminada, una referencia de celda en Excel es:', 'Por defecto las referencias son relativas: al copiar la fórmula, la referencia cambia según la posición relativa.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references'), 'Referencias relativas, absolutas y mixtas', 'De forma predeterminada, una referencia de celda es una referencia relativa', null, '9d3aa2568e2c8e178e71a9554252ec0a2af27b49dfc18141d41e50ff4e5f72c9', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9d3aa2568e2c8e178e71a9554252ec0a2af27b49dfc18141d41e50ff4e5f72c9')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Absoluta.', false), ('B', 'Relativa.', true), ('C', 'Mixta con columna absoluta.', false), ('D', 'Mixta con fila absoluta.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al editar una fórmula en Excel, tras seleccionar una referencia de celda, ¿qué tecla permite cambiar entre los tipos de referencia (relativa, absoluta y mixtas)?', 'Microsoft indica que se selecciona la referencia y se presiona F4 para ir alternando entre los tipos de referencia.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references'), 'Referencias (tecla F4)', 'Presione F4 para cambiar entre los tipos de referencia.', null, '5cbd7770efe3752b62730536107789a9c48897f3edcc8cc946319d70e899ef6c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5cbd7770efe3752b62730536107789a9c48897f3edcc8cc946319d70e899ef6c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'F2.', false), ('B', 'F9.', false), ('C', 'F4.', true), ('D', 'F3.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Una fórmula contiene la referencia A$1. Si se copia dos celdas hacia abajo y dos celdas hacia la derecha, la referencia pasa a ser:', 'A$1 tiene columna relativa y fila absoluta: la columna se desplaza (A→C) y la fila se mantiene fija (1). El resultado es C$1, una referencia mixta.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references'), 'Referencias mixtas al copiar', 'A$1 (columna relativa y fila absoluta) […] C$1 (la referencia es mixta)', null, '94e55f8a6f90306ac0658e921b0cab4504ec2071a25f6e9adae3328f551abd6a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '94e55f8a6f90306ac0658e921b0cab4504ec2071a25f6e9adae3328f551abd6a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'A$1', false), ('B', 'A$3', false), ('C', 'C3', false), ('D', 'C$1', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_si-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Función SI', 'https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En la sintaxis de la función SI de Excel, ¿qué argumento es opcional?', 'La sintaxis es SI(prueba_lógica; valor_si_verdadero; [valor_si_falso]); los corchetes indican que valor_si_falso es opcional.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2'), 'Función SI (sintaxis)', 'valor_si_falso (opcional): El valor que desea devuelto si el resultado de logical_test es FALSO.', null, '3e67bb5d06479cb720d81577980811e28a0d953155bcb7e8dacc7c9413451e1d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '3e67bb5d06479cb720d81577980811e28a0d953155bcb7e8dacc7c9413451e1d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'prueba_lógica.', false), ('B', 'valor_si_falso.', true), ('C', 'valor_si_verdadero.', false), ('D', 'prueba_lógica y valor_si_verdadero.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_tabladin-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Crear una tabla dinámica para analizar datos de una hoja de cálculo', 'https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al crear una tabla dinámica en Excel y marcar campos en la lista de campos, ¿a qué área se agregan de forma predeterminada los campos no numéricos?', 'Los campos seleccionados van a su área predeterminada: los no numéricos a Filas; los numéricos se colocan en Valores.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576'), 'Tablas dinámicas (área Filas)', 'los campos no numéricos se agregan a Filas,', null, '9a6d2430b62b8539a7faa49a652c641f64bf45cb76e6002894e8b1ab3b1c196a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '9a6d2430b62b8539a7faa49a652c641f64bf45cb76e6002894e8b1ab3b1c196a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Columnas.', false), ('B', 'Valores.', false), ('C', 'Filtros.', false), ('D', 'Filas.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En una tabla dinámica, si Excel interpreta como texto los datos de un campo colocado en el área Valores, los mostrará de forma predeterminada como:', 'Por defecto, los campos numéricos del área Valores se muestran como suma y, si Excel interpreta los datos como texto, como recuento.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576'), 'Tablas dinámicas (resumen de texto)', 'Si Excel interpreta los datos como texto, los datos se mostrarán como un RECUENTO.', null, 'e4e9ea11bb20037bba9fa90457a7116de4515075035113f2caad6b95fb60d1c8', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e4e9ea11bb20037bba9fa90457a7116de4515075035113f2caad6b95fb60d1c8')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una suma.', false), ('B', 'Un recuento.', true), ('C', 'Un promedio.', false), ('D', 'Un valor máximo.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_tareas-v1 (4 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Tareas básicas en Excel', 'https://support.microsoft.com/es-es/excel/basic-tasks-in-excel', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cómo se denominan los documentos de Excel?', 'Microsoft indica que los documentos de Excel se denominan libros; cada libro contiene hojas de cálculo.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/basic-tasks-in-excel'), 'Tareas básicas en Excel (libros)', 'Los documentos de Excel se denominan libros.', null, '92aaf70126b811f53d40e28954a48800f22c8fce29e47a19820f0494de023769', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '92aaf70126b811f53d40e28954a48800f22c8fce29e47a19820f0494de023769')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Hojas de datos.', false), ('B', 'Libros.', true), ('C', 'Plantillas.', false), ('D', 'Cuadernos.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para indicar a Excel que una celda contendrá una fórmula, esta debe comenzar por:', 'Para crear una fórmula se selecciona una celda y se escribe primero el signo igual.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/basic-tasks-in-excel'), 'Tareas básicas en Excel (fórmulas)', 'Seleccione una celda y después escriba un signo igual (=). […] Esto indica a Excel que la celda contendrá una fórmula.', null, '2a2a2261398eebd2fc6a989b8acc1ecf0dcb8529659468d5cff73bbcf5a962ad', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '2a2a2261398eebd2fc6a989b8acc1ecf0dcb8529659468d5cff73bbcf5a962ad')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El signo igual (=).', true), ('B', 'El signo de dólar ($).', false), ('C', 'El apóstrofo ('').', false), ('D', 'El signo de almohadilla (#).', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según la página de tareas básicas de Excel, el botón Autosuma de la pestaña Inicio se encuentra en el grupo:', 'Microsoft indica: pestaña Inicio > grupo Edición > Autosuma, que suma los números y muestra el resultado en la celda seleccionada.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/basic-tasks-in-excel'), 'Tareas básicas en Excel (Autosuma)', 'Haga clic en la pestaña Inicio y después haga clic en Autosuma en el grupo Edición.', null, '15cb9a25d2a8be80ec21be5a4b1f24316a30face8f6ac7cdb939ff3aa555a528', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '15cb9a25d2a8be80ec21be5a4b1f24316a30face8f6ac7cdb939ff3aa555a528')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Número.', false), ('B', 'Edición.', true), ('C', 'Celdas.', false), ('D', 'Estilos.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para gestionar los complementos de Excel, Microsoft indica que hay que ir a:', 'Los complementos se administran desde Archivo > Opciones > categoría Complementos.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/excel/basic-tasks-in-excel'), 'Personalización: complementos', 'En la pestaña Archivo, elija Opciones y, a continuación, elija la categoría Complementos.', null, '65421187d417140f696188c4ca4bd6ccd81325d40d024dae06352957333d1cc0', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '65421187d417140f696188c4ca4bd6ccd81325d40d024dae06352957333d1cc0')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La pestaña Datos, grupo Herramientas de datos.', false), ('B', 'La pestaña Vista, grupo Ventana.', false), ('C', 'La pestaña Archivo, Opciones y la categoría Complementos.', true), ('D', 'La pestaña Revisar, grupo Proteger.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-09-excel-ms_excel_validacion-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Aplicar validación de datos a celdas', 'https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-09-excel', 'II.9 Hojas de cálculo: Excel 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-09-excel' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En la validación de datos de Excel, ¿qué opción de «Permitir» se usa para que el usuario elija los datos de una lista desplegable?', 'La opción Lista permite elegir datos de una lista desplegable; Personalizado se usa para fórmulas y Longitud del texto para restringir la longitud.', 'age_aux_b2_09_excel', (select id from public.topics where slug = 'age-aux-b2-09-excel'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249'), 'Validación de datos (Lista)', 'Lista: para elegir datos de una lista desplegable.', null, 'b3f3e561f9f9dfaaebff3cce6fe39e1d45914967b84cf4496caed7168236ef6d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b3f3e561f9f9dfaaebff3cce6fe39e1d45914967b84cf4496caed7168236ef6d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Lista.', true), ('B', 'Personalizado.', false), ('C', 'Longitud del texto.', false), ('D', 'Número entero.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_clave-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Agregar o cambiar la clave principal de una tabla en Access', 'https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de las siguientes es una característica de una clave principal correcta en Access?', 'Una buena clave principal identifica inequívocamente cada fila, nunca está vacía ni es nula y sus valores no suelen cambiar.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access'), 'Clave principal (características)', 'Nunca debe estar vacía ni ser nula (siempre debe contener un valor).', null, 'b846fe3549c481f7183598d9574af8a2197082d3cf71393da5348d3679a1f50c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b846fe3549c481f7183598d9574af8a2197082d3cf71393da5348d3679a1f50c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Debe estar formada siempre por un campo de tipo Texto breve.', false), ('B', 'Nunca debe estar vacía ni ser nula.', true), ('C', 'Sus valores pueden repetirse si la tabla tiene muchos registros.', false), ('D', 'Debe cambiar cada vez que se modifica el registro.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cómo se denomina en Access una clave principal que tiene más de un campo?', 'Microsoft denomina clave compuesta a la clave formada por más de un campo.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access'), 'Clave compuesta', 'Una clave que tiene más de un campo se denomina clave compuesta.', null, '6c9343164919812b8aae4b46a146d3af5c998000c1f6d5184aef57df2d0c7740', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '6c9343164919812b8aae4b46a146d3af5c998000c1f6d5184aef57df2d0c7740')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Clave externa.', false), ('B', 'Clave múltiple.', false), ('C', 'Clave secundaria.', false), ('D', 'Clave compuesta.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, al quitar la clave principal de una tabla de Access:', 'Quitar la clave principal borra el índice creado para ella, pero no los campos. Antes debe comprobarse que la clave no interviene en ninguna relación.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access'), 'Clave principal (quitar)', 'Al quitar la clave principal, no se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave.', null, 'fb0ee327587ec0263180efff5504ea0e5efab6e712ff09629514f0b106db99d7', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fb0ee327587ec0263180efff5504ea0e5efab6e712ff09629514f0b106db99d7')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'No se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave.', true), ('B', 'Se eliminan los campos que formaban la clave y su índice.', false), ('C', 'Se eliminan automáticamente los registros relacionados de otras tablas.', false), ('D', 'No se elimina nada, porque la clave principal no crea ningún índice.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_consultas-v1 (3 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Introducción a las consultas', 'https://support.microsoft.com/es-es/access/introduction-to-queries', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al escribir un criterio en una consulta de Access, ¿qué caracteres indican que la consulta debe pedir información al usuario al ejecutarse?', 'En una consulta de parámetros, el texto entre corchetes hace que Access solicite el valor al ejecutar la consulta.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/introduction-to-queries'), 'Consultas de parámetros', 'Los corchetes indican que quiere que la consulta pida información', null, 'c45a89a456ab848c587292267c0f4d4d5dcbb69cad71c9e9efc86b57d12a85c4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c45a89a456ab848c587292267c0f4d4d5dcbb69cad71c9e9efc86b57d12a85c4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las comillas " ".', false), ('B', 'Los corchetes [ ].', true), ('C', 'Los paréntesis ( ).', false), ('D', 'Las almohadillas # #.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Cuál de las siguientes NO es una consulta de acción en Access?', 'Las consultas de acción agregan, cambian o eliminan datos (creación de tabla, datos anexados, actualización y eliminación). La consulta de totales es una consulta de selección que agrupa y resume datos.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/introduction-to-queries'), 'Tipos de consulta (acción y totales)', 'Una consulta de totales es una consulta de selección que permite agrupar y resumir datos', null, '541ca545e62555c5af541ec6f7a27ccbde150920ad710b7058497634cf704ea5', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '541ca545e62555c5af541ec6f7a27ccbde150920ad710b7058497634cf704ea5')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La consulta de totales.', true), ('B', 'La consulta de datos anexados.', false), ('C', 'La consulta de actualización.', false), ('D', 'La consulta de creación de tabla.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Access para Microsoft 365, ¿dónde está el botón Ejecutar de una consulta abierta en vista Diseño?', 'Microsoft indica: pestaña Diseño de consulta, grupo Resultados, Ejecutar. La pestaña Crear contiene Diseño de consulta para crearla, no para ejecutarla.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/introduction-to-queries'), 'Ejecutar una consulta', 'En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar.', 'El nombre de la pestaña contextual («Diseño de consulta») corresponde a Microsoft 365; en versiones anteriores se llamaba «Diseño». Revisar que el enunciado lo deja claro.', '074f3e631b3b736b18d7c8b9f8eb066d842d5c126f09f1d1b7b3b37507b1010b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '074f3e631b3b736b18d7c8b9f8eb066d842d5c126f09f1d1b7b3b37507b1010b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la pestaña Crear, grupo Consultas.', false), ('B', 'En la pestaña Inicio, grupo Registros.', false), ('C', 'En la pestaña Diseño de consulta, grupo Resultados.', true), ('D', 'En la pestaña Datos externos, grupo Importar y vincular.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_exportar-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Exportar datos a Excel', 'https://support.microsoft.com/es-es/access/export-data-to-excel', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al exportar datos de Access a Excel, ¿cuál de los siguientes objetos NO se puede exportar?', 'Pueden exportarse tablas, consultas, formularios o informes, de uno en uno; no se pueden exportar macros ni módulos a Excel.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/export-data-to-excel'), 'Exportar datos a Excel', 'No puede exportar macros ni módulos a Excel.', null, '1fd3885c6740089685170138f8d9488eac60fb9403882c5cd9851bfdb26c3002', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '1fd3885c6740089685170138f8d9488eac60fb9403882c5cd9851bfdb26c3002')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las tablas.', false), ('B', 'Las consultas.', false), ('C', 'Las macros.', true), ('D', 'Los informes.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_formularios-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Introducción a formularios', 'https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué tipo de formulario de Access proporciona dos vistas de los datos al mismo tiempo?', 'El formulario dividido muestra a la vez una vista Formulario y una vista Hoja de datos; el de varios elementos se parece a una hoja de datos.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae'), 'Formulario dividido', 'Un formulario dividido proporciona dos vistas de los datos al mismo tiempo:', null, '08dcde7172d7acd0506d78eae34c2ea85d93446774aea50b24ddb85a59a2439b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '08dcde7172d7acd0506d78eae34c2ea85d93446774aea50b24ddb85a59a2439b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El formulario de varios elementos.', false), ('B', 'El formulario independiente.', false), ('C', 'El formulario en blanco.', false), ('D', 'El formulario dividido.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En relación con las vistas de un formulario de Access, señale la respuesta correcta:', 'En la vista Presentación se ven los datos reales mientras se modifica el diseño (el formulario está en ejecución); la vista Diseño muestra la estructura con más detalle, sin ejecutar el formulario.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae'), 'Vistas del formulario', 'En la vista Presentación, el formulario se encuentra en ejecución. […] El formulario no se encuentra en ejecución cuando se muestra en la vista Diseño.', null, 'e9e071a30825c509cedbc026f56aa907e50e281bde9a40619fcf206adbef2d79', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e9e071a30825c509cedbc026f56aa907e50e281bde9a40619fcf206adbef2d79')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la vista Diseño el formulario se encuentra en ejecución; en la vista Presentación, no.', false), ('B', 'El formulario está en ejecución tanto en la vista Presentación como en la vista Diseño.', false), ('C', 'El formulario no está en ejecución ni en la vista Presentación ni en la vista Diseño.', false), ('D', 'En la vista Presentación el formulario se encuentra en ejecución; en la vista Diseño, no.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_importar-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Importar o vincular a datos de un libro de Excel', 'https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Cuando se vincula desde Access a una hoja de cálculo de Excel, la tabla vinculada resultante:', 'Al vincular, los cambios en las celdas de origen de Excel aparecen en la tabla vinculada, pero en Access su contenido y estructura son de solo lectura. Al importar, en cambio, se guarda una copia.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook'), 'Importar o vincular datos de Excel', 'el contenido y la estructura de una tabla vinculada en Access son de solo lectura.', null, 'a06f78cbcde0950a4ecfc2cf0b20a461e7dccf4a4ad9982b14703d700b708f26', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a06f78cbcde0950a4ecfc2cf0b20a461e7dccf4a4ad9982b14703d700b708f26')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Es de solo lectura en Access, tanto en contenido como en estructura.', true), ('B', 'Permite editar su contenido en Access, y los cambios se guardan en el libro de Excel.', false), ('C', 'Contiene una copia independiente de los datos que no refleja los cambios posteriores en Excel.', false), ('D', 'Solo puede vincularse si el libro de Excel tiene una única hoja.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_informes-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Crear informes sencillos', 'https://support.microsoft.com/es-es/access/create-a-simple-report', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué sección de un informe de Access se imprime solo una vez, al principio del informe?', 'El encabezado del informe se imprime una sola vez al principio; el encabezado de página, en la parte superior de cada página; el detalle, una vez por cada fila del origen de registros; el pie de página, al final de cada página.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/create-a-simple-report'), 'Secciones del informe', 'Encabezado del informe: esta sección se imprime solo una vez, al principio del informe.', null, 'd772ef49c1fa0d54c4974bfbdd2f722e5ca2b93b8add758e51a4edb9ed5a26a8', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd772ef49c1fa0d54c4974bfbdd2f722e5ca2b93b8add758e51a4edb9ed5a26a8')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Encabezado de página.', false), ('B', 'Encabezado del informe.', true), ('C', 'Detalle.', false), ('D', 'Pie de página.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_relaciones-v1 (4 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Guía de relaciones de tablas', 'https://support.microsoft.com/es-es/access/guide-to-table-relationships', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para representar en Access una relación de varios a varios entre dos tablas es necesario:', 'La relación de varios a varios se representa con una tercera tabla (tabla de unión) que la divide en dos relaciones uno a varios.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/guide-to-table-relationships'), 'Relaciones varios a varios', 'Para representar una relación de varios a varios, debe crear una tercera tabla, a menudo denominada tabla de unión', null, 'bb5fb62bedcc490f547556293d87f44d6178e3be3fa0a6ea722107c54908eb37', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'bb5fb62bedcc490f547556293d87f44d6178e3be3fa0a6ea722107c54908eb37')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Exigir integridad referencial en una relación uno a uno.', false), ('B', 'Crear un campo de tipo Calculado en ambas tablas.', false), ('C', 'Crear una tercera tabla, a menudo denominada tabla de unión.', true), ('D', 'Repetir la clave principal de cada tabla en un solo campo compuesto de la otra.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, el propósito de la integridad referencial es:', 'La integridad referencial, que depende de las relaciones de tabla, evita los registros huérfanos; Access rechaza las operaciones que la infrinjan.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/guide-to-table-relationships'), 'Integridad referencial', 'El propósito de la integridad referencial es evitar los registros huérfanos', null, '8630fc76e712fcbddd03e5271ac7b0b823a1ec7aa26ffdf506a8094ef437691a', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '8630fc76e712fcbddd03e5271ac7b0b823a1ec7aa26ffdf506a8094ef437691a')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Evitar los registros huérfanos.', true), ('B', 'Impedir valores duplicados en cualquier campo.', false), ('C', 'Acelerar la ejecución de las consultas.', false), ('D', 'Cifrar los datos de las tablas relacionadas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En una relación con integridad referencial, ¿qué opción hace que, al cambiar el valor de una clave principal, Access actualice automáticamente todos los campos que hacen referencia a ella?', 'Con «Actualizar en cascada los campos relacionados», Access actualiza automáticamente los campos que hacen referencia a la clave principal; «Eliminar en cascada» elimina los registros que hacen referencia a ella.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/guide-to-table-relationships'), 'Actualizar en cascada', 'Access actualiza automáticamente todos los campos que hacen referencia a la clave principal.', null, 'd99e0c917fdd6357e0b0532ae4ea63df074f4ffebadec2aa3f677716f2a2a50c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd99e0c917fdd6357e0b0532ae4ea63df074f4ffebadec2aa3f677716f2a2a50c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Eliminar en cascada los registros relacionados.', false), ('B', 'Tipo de combinación.', false), ('C', 'Crear nueva relación.', false), ('D', 'Actualizar en cascada los campos relacionados.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿En qué pestaña de la cinta de Access se encuentra el botón Relaciones para ver y crear relaciones entre tablas?', 'Microsoft indica: pestaña Herramientas de base de datos, grupo Relaciones, botón Relaciones.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/guide-to-table-relationships'), 'Ventana Relaciones', 'En la pestaña Herramientas de base de datos, en el grupo Relaciones, haga clic en Relaciones.', null, 'b09d48bf778dfe30336c6824ba3c35f805947d410f05953a6441f9c759f216be', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b09d48bf778dfe30336c6824ba3c35f805947d410f05953a6441f9c759f216be')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Crear.', false), ('B', 'Herramientas de base de datos.', true), ('C', 'Datos externos.', false), ('D', 'Inicio.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-10-access-ms_access_tipos-v1 (5 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Tipos de datos para bases de datos de escritorio de Access', 'https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-10-access', 'II.10 Bases de datos: Access 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-10-access' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En una base de datos de escritorio de Access, ¿cuántos caracteres admite como máximo un campo de tipo Texto breve?', 'El tipo Texto breve almacena datos alfanuméricos (nombres, títulos…) de hasta 255 caracteres; para textos mayores se usa Texto largo.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases'), 'Tipos de datos (Texto breve)', '| Texto breve | Datos alfanuméricos (nombres, títulos, etc.) | Hasta 255 caracteres. |', null, '54b6c3dd23fea4375a9264e4f1eca8dd6f3f5585d3819279d452e6ef4db164f2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '54b6c3dd23fea4375a9264e4f1eca8dd6f3f5585d3819279d452e6ef4db164f2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Hasta 255 caracteres.', true), ('B', 'Hasta 64 caracteres.', false), ('C', 'Hasta 2.048 caracteres.', false), ('D', 'Hasta 64 000 caracteres.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'El tipo de datos Moneda de Access almacena los datos monetarios con una precisión de:', 'Moneda almacena datos monetarios con 4 posiciones decimales de precisión y ocupa 8 bytes.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases'), 'Tipos de datos (Moneda)', '| Moneda | Datos monetarios, almacenados con 4 posiciones decimales de precisión. | 8 bytes. |', null, '0a45c020df1bf119a0258d2d6c419a7a7ea07f88ccfd7a1c1aaac963ad069abe', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '0a45c020df1bf119a0258d2d6c419a7a7ea07f88ccfd7a1c1aaac963ad069abe')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '2 posiciones decimales.', false), ('B', '6 posiciones decimales.', false), ('C', '4 posiciones decimales.', true), ('D', '15 posiciones decimales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En un campo de tipo Sí/No de Access, ¿qué valor numérico almacena Access para Verdadero?', 'Access almacena 0 para Falso y -1 para Verdadero; el campo ocupa 1 byte.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases'), 'Tipos de datos (Sí/No)', 'Datos booleanos (verdadero/falso); Access almacena el valor numérico cero (0) para Falso y -1 para Verdadero.', null, '5a5558440c9d944b11ba22767f30168169a07472d0f91cfeb07648f9b36b5f9d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5a5558440c9d944b11ba22767f30168169a07472d0f91cfeb07648f9b36b5f9d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', '1', false), ('B', '0', false), ('C', '255', false), ('D', '-1', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué tipo de datos de Access genera un valor único para cada registro nuevo?', 'Autonumeración es un valor único generado por Access para cada registro nuevo, y suele usarse como clave principal.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases'), 'Tipos de datos (Autonumeración)', '| Autonumeración | Valor único generado por Access para cada registro nuevo. |', null, '140918bae9272bd03728d0e887e527bf438859289e54fc4c5717bc9177834128', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '140918bae9272bd03728d0e887e527bf438859289e54fc4c5717bc9177834128')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Número grande.', false), ('B', 'Autonumeración.', true), ('C', 'Calculado.', false), ('D', 'Asistente para búsquedas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, la entrada «Asistente para búsquedas» de la columna Tipo de datos en la vista Diseño de una tabla:', 'Microsoft aclara que el Asistente para búsquedas no es un tipo de datos: al elegirlo se inicia un asistente para definir un campo de búsqueda simple o complejo.', 'age_aux_b2_10_access', (select id from public.topics where slug = 'age-aux-b2-10-access'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases'), 'Tipos de datos (Asistente para búsquedas)', 'La entrada del Asistente para búsquedas en la columna de tipo de datos en la vista Diseño no es realmente un tipo de datos.', null, 'eb5298ac08b933965111d55e1d39c35d0b70acda5d0aba38c509dd8e69606294', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'eb5298ac08b933965111d55e1d39c35d0b70acda5d0aba38c509dd8e69606294')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Es un tipo de datos que almacena hasta 255 caracteres.', false), ('B', 'Es un tipo de datos que solo admite valores Sí/No.', false), ('C', 'No es realmente un tipo de datos, sino que inicia un asistente para definir un campo de búsqueda.', true), ('D', 'Es un tipo de datos que almacena hipervínculos a otras tablas.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_cco-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Mostrar, ocultar y ver el campo CCO (copia carbón oculta) en Outlook para Windows', 'https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué característica tiene el campo CCO (copia carbón oculta) de un mensaje de Outlook?', 'Las direcciones en CCO no son visibles para los demás destinatarios, lo que ayuda a proteger la privacidad. Sí cuentan para el límite total de destinatarios.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows'), 'CCO · Privacidad', 'Otras personas que reciben el mensaje no ven la dirección en la línea CCO.', null, '67981416a3bc4dcb106cc55548da1d9773cae6dbc036036fc2d8e7e21058155d', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '67981416a3bc4dcb106cc55548da1d9773cae6dbc036036fc2d8e7e21058155d')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Los destinatarios de CCO no reciben los datos adjuntos.', false), ('B', 'Las demás personas que reciben el mensaje no ven la dirección escrita en la línea CCO.', true), ('C', 'Los destinatarios de CCO reciben el mensaje con retraso.', false), ('D', 'Las direcciones de CCO no cuentan para ningún límite de destinatarios.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, los nombres incluidos en el cuadro CCO de un mensaje:', 'Aunque no sean visibles para los demás, los nombres del cuadro CCO cuentan para el límite total de destinatarios.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows'), 'CCO · Límite de destinatarios', 'recuerde que los nombres del cuadro CCO contarán para el límite total.', null, '85f34baae11a54a9f8dd411fd4ea6b7f4e86f08d25b1790f3ce96f241cdefa5c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '85f34baae11a54a9f8dd411fd4ea6b7f4e86f08d25b1790f3ce96f241cdefa5c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'No cuentan para ningún límite de destinatarios.', false), ('B', 'Solo cuentan si el mensaje lleva datos adjuntos.', false), ('C', 'Cuentan para el límite total de destinatarios.', true), ('D', 'Cuentan el doble que los del cuadro Para.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_fueraoficina-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Usar reglas para crear un mensaje de Fuera de la oficina en Outlook clásico para Windows', 'https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, si en Outlook no aparece el botón Respuestas automáticas, significa que:', 'Solo determinados tipos de cuentas admiten Respuestas automáticas (Fuera de la oficina); si falta el botón, la cuenta no la admite y puede recurrirse a una regla con plantilla.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es'), 'Fuera de la oficina · Respuestas automáticas', 'Si no tiene el botón Respuestas automáticas, su cuenta de correo electrónico no admite esta característica.', null, 'fdef6f7045c88f494459e959e8d49447ff17a2cc61fbb394baf1b32443d249d1', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'fdef6f7045c88f494459e959e8d49447ff17a2cc61fbb394baf1b32443d249d1')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Outlook no está conectado a Internet en ese momento.', false), ('B', 'La cuenta de correo electrónico no admite esta característica.', true), ('C', 'Hay que crear antes una regla con Administrar reglas y alertas.', false), ('D', 'La característica está desactivada en Archivo > Opciones > Calendario.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para crear una regla de respuesta de «Fuera de la oficina» con una plantilla en Outlook clásico, el mensaje de respuesta se guarda con el tipo:', 'La plantilla de respuesta se guarda como «Plantilla de Outlook (*.oft)» y después se selecciona en la regla.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es'), 'Fuera de la oficina · Plantilla', 'En la lista desplegable Guardar como tipo, seleccione Plantilla de Outlook (*.oft).', null, 'b0bf27da6f38178e508ea355ae5949fe1733e0c8ff7f3b13c811a096b6f20211', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b0bf27da6f38178e508ea355ae5949fe1733e0c8ff7f3b13c811a096b6f20211')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Plantilla de Outlook (*.oft).', true), ('B', 'Mensaje de Outlook (*.msg).', false), ('C', 'Archivo de datos de Outlook (*.pst).', false), ('D', 'Documento de Word (*.docx).', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_libreta-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Abrir y usar la libreta de direcciones en Outlook', 'https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, la lista global de direcciones (LGD) aparece en la lista de libretas de direcciones de Outlook cuando se usa:', 'Con una cuenta de Exchange Server, la lista de libretas de direcciones incluye la LGD, que contiene los nombres y direcciones de todos los usuarios con cuenta en ese servidor.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook'), 'Libreta de direcciones · LGD', 'Si usa Outlook con una cuenta de Exchange Server, la lista de libretas de direcciones incluirá la lista global de direcciones (LGD).', null, 'a670ed110f6b2fe71a45028fce81987a55acbcdd1f8f3bf7924d6a208951812b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'a670ed110f6b2fe71a45028fce81987a55acbcdd1f8f3bf7924d6a208951812b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Una cuenta POP3 de cualquier proveedor.', false), ('B', 'Un archivo de datos de Outlook (.pst) local.', false), ('C', 'Una cuenta de Gmail configurada mediante IMAP.', false), ('D', 'Una cuenta de Exchange Server.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_libreta_crear-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Crear una libreta de direcciones en la versión clásica de Outlook', 'https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En la versión clásica de Outlook, ¿en qué pestaña de la cinta de opciones se encuentra el botón Libreta de direcciones?', 'Microsoft indica que la Libreta de direcciones está en la pestaña Inicio.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook'), 'Libreta de direcciones · Ubicación', 'La Libreta de direcciones está en el lateral de la pestaña Inicio.', null, 'dba5d4e367a9853118b053e8a400ec46d587d16a1e277e71e9c6ff8053806ec4', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'dba5d4e367a9853118b053e8a400ec46d587d16a1e277e71e9c6ff8053806ec4')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la pestaña Archivo.', false), ('B', 'En la pestaña Vista.', false), ('C', 'En la pestaña Carpeta.', false), ('D', 'En la pestaña Inicio.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_reglas-v1 (4 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Configurar reglas en Outlook', 'https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, las reglas de Outlook permiten:', 'Las reglas automatizan acciones sobre los mensajes, como moverlos a una carpeta, marcarlos o responderlos.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41'), 'Reglas · Definición', 'Las reglas le permiten mover, marcar y responder a mensajes de correo electrónico automáticamente.', null, '33cb3b6f5e431c8a8196186324f23aa134ab5488aedc4b310931b960c01bf8bf', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '33cb3b6f5e431c8a8196186324f23aa134ab5488aedc4b310931b960c01bf8bf')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cifrar todos los mensajes enviados.', false), ('B', 'Recuperar mensajes eliminados de forma permanente.', false), ('C', 'Mover, marcar y responder a mensajes de correo electrónico automáticamente.', true), ('D', 'Crear copias de seguridad del archivo de datos de Outlook.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para crear una regla a partir de un mensaje existente en Outlook, se hace clic con el botón derecho en el mensaje y se selecciona:', 'El menú contextual del mensaje ofrece Reglas > Crear regla, donde se eligen la condición y la acción.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41'), 'Reglas · Crear desde un mensaje', 'Haga clic con el botón derecho en un mensaje existente y seleccione Reglas > Crear regla.', null, '4c8a31272969be03fe0fcb2abafc834d7e503a8321e96c021fd04e95df1210bd', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '4c8a31272969be03fe0fcb2abafc834d7e503a8321e96c021fd04e95df1210bd')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Mover > Otra carpeta.', false), ('B', 'Reglas > Crear regla.', true), ('C', 'Categorizar > Todas las categorías.', false), ('D', 'Marcar para seguimiento > Personalizado.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Outlook, ¿qué ruta permite crear una regla a partir de una plantilla?', 'Desde Archivo > Administrar reglas y alertas > Nueva regla se elige una plantilla, se edita la descripción y se asigna un nombre a la regla.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41'), 'Reglas · Administrar reglas y alertas', 'Elija Archivo > Administrar reglas y alertas > Nueva regla.', null, '20eea2f01cfbed8beda194c3839b87cace6da7879813a745a12df783d8ba9e8f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '20eea2f01cfbed8beda194c3839b87cace6da7879813a745a12df783d8ba9e8f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Inicio > Responder > Nueva regla.', false), ('B', 'Vista > Configuración de vista > Nueva regla.', false), ('C', 'Archivo > Administrar reglas y alertas > Nueva regla.', true), ('D', 'Insertar > Elementos de Outlook > Regla.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Al crear una regla en Outlook, ¿qué opción hace que se aplique también a los mensajes que ya están en la carpeta?', 'Al terminar de crear la regla puede activarse la casilla que la ejecuta inmediatamente sobre los mensajes existentes de la carpeta actual.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41'), 'Reglas · Ejecutar en mensajes existentes', 'active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual', null, 'd052da00c3211cd17146d73f1fadf58c2c32225c58a49cc05b6568a471ee64d3', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd052da00c3211cd17146d73f1fadf58c2c32225c58a49cc05b6568a471ee64d3')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La opción «Detener el procesamiento de más reglas».', false), ('B', 'La casilla «Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual».', true), ('C', 'El botón Respuestas automáticas.', false), ('D', 'La opción «Marcar los mensajes de alguien para realizarles un seguimiento».', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_responder-v1 (6 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Responder o reenviar un mensaje de correo electrónico en Outlook clásico', 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Outlook, al utilizar la opción Responder sobre un mensaje recibido:', 'Responder envía solo al remitente original y no incluye los adjuntos; Responder a todos añade a los destinatarios de Para y CC, y Reenviar permite elegir destinatarios nuevos e incluye los adjuntos.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8'), 'Responder o reenviar · Responder', 'Responder solo envía el nuevo mensaje al remitente original. Los datos adjuntos no están incluidos.', null, '5c131028c7d1a4b241856d1cac89b9a145e2e8cc6826883fd3685e8fc3135444', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '5c131028c7d1a4b241856d1cac89b9a145e2e8cc6826883fd3685e8fc3135444')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El nuevo mensaje se envía solo al remitente original y no incluye los datos adjuntos.', true), ('B', 'El nuevo mensaje se envía al remitente y a todos los destinatarios de las líneas Para y CC.', false), ('C', 'El nuevo mensaje se envía solo al remitente original e incluye los datos adjuntos.', false), ('D', 'Se abre un mensaje sin destinatarios que incluye los datos adjuntos originales.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, la opción Responder a todos de Outlook envía el nuevo mensaje:', 'Responder a todos incluye al remitente y a los destinatarios de Para y CC; los destinatarios en CCO no son visibles para los demás.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8'), 'Responder o reenviar · Responder a todos', 'Responder a todos envía el nuevo mensaje al remitente original y a todos los demás destinatarios en las líneas Para y Cc.', null, '73e2cbadd8c3384def0a86007baeead517c61dbc1fa8304a2cd9d90806923ad2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '73e2cbadd8c3384def0a86007baeead517c61dbc1fa8304a2cd9d90806923ad2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Al remitente original y a todos los destinatarios de las líneas Para, CC y CCO.', false), ('B', 'Solo a los destinatarios de la línea CC.', false), ('C', 'A todos los contactos de la libreta de direcciones.', false), ('D', 'Al remitente original y a todos los demás destinatarios de las líneas Para y CC.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué ocurre con los datos adjuntos de un mensaje cuando se reenvía en Outlook?', 'Al reenviar, Outlook incluye todos los datos adjuntos del mensaje original; al responder, no.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8'), 'Responder o reenviar · Reenviar', 'Los datos adjuntos incluidos en el mensaje original se incluyen automáticamente al reenviar un mensaje.', null, '8eb9846a9625ab3061d099f6a2b2c9b93fd8dc4d33c9034a8f45df84188d61c2', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '8eb9846a9625ab3061d099f6a2b2c9b93fd8dc4d33c9034a8f45df84188d61c2')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se eliminan y hay que adjuntarlos de nuevo.', false), ('B', 'Solo se incluyen si el remitente original lo autorizó.', false), ('C', 'Se incluyen automáticamente en el mensaje reenviado.', true), ('D', 'Se sustituyen por un vínculo a la Bandeja de entrada.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué opción de Outlook se usa para enviar un mensaje recibido a alguien que no está en las líneas Para o CC?', 'Reenviar permite escribir un conjunto completamente nuevo de destinatarios.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8'), 'Responder o reenviar · Destinatarios', 'Para enviar el mensaje a alguien que no esté en las líneas Para o Cc, seleccione Reenviar.', null, '36c4f1ee7b51bb3772075b048690305fd1dfc28656fef6e7295c7724bf2a717b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '36c4f1ee7b51bb3772075b048690305fd1dfc28656fef6e7295c7724bf2a717b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Responder.', false), ('B', 'Reenviar.', true), ('C', 'Responder a todos.', false), ('D', 'Marcar para seguimiento.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Para seleccionar varios mensajes no consecutivos en Outlook (por ejemplo, para reenviarlos a la vez), se selecciona el primero y:', 'La tecla Ctrl permite añadir mensajes a la selección uno a uno.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8'), 'Responder o reenviar · Varios mensajes', 'Seleccione el primer mensaje y mantenga presionada la tecla Ctrl mientras selecciona los mensajes adicionales.', null, 'b641c68691c7a24ba365f74949059fba650ec2613829ad56157947b7cc0bf018', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b641c68691c7a24ba365f74949059fba650ec2613829ad56157947b7cc0bf018')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Se mantiene presionada la tecla Ctrl mientras se seleccionan los demás.', true), ('B', 'Se mantiene presionada la tecla Alt mientras se seleccionan los demás.', false), ('C', 'Se pulsa F9 y se seleccionan los demás.', false), ('D', 'Se mantiene presionada la tecla Tab mientras se seleccionan los demás.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿puede configurarse Outlook para que incluya los datos adjuntos al responder a un mensaje?', 'Los datos adjuntos no se incluyen al responder y no hay forma de cambiarlo; para enviarlos a otras personas se utiliza Reenviar.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8'), 'Responder o reenviar · Datos adjuntos', 'No hay ninguna manera de cambiar este comportamiento. […] Si necesita enviar un mensaje con sus archivos adjuntos a otras personas, use la opción Reenviar.', null, 'c4f01d15da721e0a7cf28c991dc8b4eb0693298635e496fdeb9727e8154d117b', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'c4f01d15da721e0a7cf28c991dc8b4eb0693298635e496fdeb9727e8154d117b')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'No hay ninguna manera de cambiar ese comportamiento; para enviar los adjuntos a otras personas debe usarse Reenviar.', true), ('B', 'Sí, activando la opción Incluir datos adjuntos en las respuestas en Archivo > Opciones > Correo.', false), ('C', 'Sí, pero solo con cuentas de Exchange Server.', false), ('D', 'Sí, usando Responder a todos en lugar de Responder.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-11-outlook-ms_outlook_tareas-v1 (4 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Tareas básicas en Outlook', 'https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-11-outlook', 'II.11 Correo electrónico: Outlook 365') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-11-outlook' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado de teclado crea un mensaje de correo electrónico en Outlook?', 'Ctrl + Mayús + M crea un mensaje; Ctrl + Mayús + A, una cita; Ctrl + Mayús + K, una tarea.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook'), 'Tareas básicas · Nuevo mensaje', 'Para crear un mensaje de correo electrónico, presione Ctrl+Mayús+M.', null, '3d014dce1bb2baa4afbf37a92132097a016d52c004dbc1352e3421b4178cdff6', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '3d014dce1bb2baa4afbf37a92132097a016d52c004dbc1352e3421b4178cdff6')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + Mayús + A.', false), ('B', 'Ctrl + Mayús + K.', false), ('C', 'Ctrl + Mayús + M.', true), ('D', 'Ctrl + Mayús + B.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Outlook, ¿qué combinación de teclas crea una cita?', 'Ctrl + Mayús + A crea una cita en el calendario; Ctrl + Mayús + M crea un mensaje.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook'), 'Tareas básicas · Cita', 'Para crear una cita, presione Ctrl+Mayús+A.', null, '57c94884972ef562529dd0b5dba2ee70ae1939fb1fd5182523744564e8df5d57', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '57c94884972ef562529dd0b5dba2ee70ae1939fb1fd5182523744564e8df5d57')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + Mayús + A.', true), ('B', 'Ctrl + Mayús + M.', false), ('C', 'Ctrl + Mayús + C.', false), ('D', 'Ctrl + Mayús + R.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿qué diferencia una reunión de una cita en el calendario de Outlook?', 'En Outlook las citas no son lo mismo que las reuniones: la reunión implica a otras personas y, en su caso, recursos como salas.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook'), 'Tareas básicas · Citas y reuniones', 'En Outlook, las citas no son lo mismo que las reuniones. […] En Outlook, una reunión incluye a otras personas y puede incluir recursos como salas de conferencias.', null, 'b815222e3e0d99f7fe91afb2d03f809ad21f9a6705b981e03ef9fb8893cadba3', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b815222e3e0d99f7fe91afb2d03f809ad21f9a6705b981e03ef9fb8893cadba3')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La reunión dura siempre más de una hora.', false), ('B', 'La cita solo puede crearse desde la Bandeja de entrada.', false), ('C', 'La cita requiere una cuenta de Exchange Server.', false), ('D', 'La reunión incluye a otras personas y puede incluir recursos como salas de conferencias.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado de teclado crea una tarea en Outlook?', 'Ctrl + Mayús + K crea una tarea; Ctrl + Mayús + A, una cita, y Ctrl + Mayús + M, un mensaje.', 'age_aux_b2_11_outlook', (select id from public.topics where slug = 'age-aux-b2-11-outlook'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook'), 'Tareas básicas · Tarea', 'Para crear una tarea, presione Ctrl+Mayús+K.', null, '333ad371c3b9bef3b9a631f03e7cb95b748434ad49903386a4defcc23b32574c', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '333ad371c3b9bef3b9a631f03e7cb95b748434ad49903386a4defcc23b32574c')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + Mayús + T.', false), ('B', 'Ctrl + Mayús + A.', false), ('C', 'Ctrl + Mayús + M.', false), ('D', 'Ctrl + Mayús + K.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-12-internet-ms_dns-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Learn · Sistema de nombres de dominio (DNS) en Windows y Windows Server', 'https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-12-internet', 'II.12 La red Internet y los navegadores') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-12-internet' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según la documentación de Microsoft, ¿cuál es la función del cliente DNS?', 'DNS es el servicio de resolución de nombres: traduce nombres de equipo o de dominio a direcciones IP.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 1, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview'), 'DNS · Resolución de nombres', 'Convierte los nombres de equipo en direcciones IP.', null, 'e89eea852f24674b895d2ae5626fd2780ee95a8bdd9caef7eb523877e9406a08', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e89eea852f24674b895d2ae5626fd2780ee95a8bdd9caef7eb523877e9406a08')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cifrar el tráfico entre el navegador y el servidor web.', false), ('B', 'Convertir los nombres de equipo en direcciones IP.', true), ('C', 'Asignar direcciones de correo electrónico a los usuarios.', false), ('D', 'Bloquear los sitios web de suplantación de identidad.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿en qué capa del modelo de referencia TCP/IP se sitúa DNS?', 'La documentación de Windows Server sitúa DNS en la capa de aplicación del modelo TCP/IP.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 3, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview'), 'DNS · Modelo TCP/IP', 'DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP, como se muestra en la ilustración siguiente.', null, 'ae3b3b0e548094815ece1ee28bc7578ebe32f2ff8050656d1f044d07329fb665', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'ae3b3b0e548094815ece1ee28bc7578ebe32f2ff8050656d1f044d07329fb665')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'En la capa de transporte.', false), ('B', 'En la capa de Internet.', false), ('C', 'En la capa de aplicación.', true), ('D', 'En la capa de acceso a la red.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-12-internet-ms_edge_atajos-v1 (6 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Métodos abreviados de teclado en Microsoft Edge', 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-12-internet', 'II.12 La red Internet y los navegadores') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-12-internet' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Microsoft Edge, ¿qué combinación de teclas abre una nueva ventana InPrivate?', 'Ctrl + Mayús + N abre una ventana InPrivate; Ctrl + N abre una ventana normal y Ctrl + Mayús + T vuelve a abrir la última pestaña cerrada.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad'), 'Edge · Métodos abreviados · InPrivate', 'Ctrl+Mayús+N | Abrir una nueva ventana de InPrivate', null, '818df8199b125aca7c2a6cd37ae004b060aefb51bec77cb071273a1e0b8fa301', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '818df8199b125aca7c2a6cd37ae004b060aefb51bec77cb071273a1e0b8fa301')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + N.', false), ('B', 'Ctrl + Mayús + T.', false), ('C', 'Ctrl + Mayús + N.', true), ('D', 'Ctrl + Mayús + P.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado abre el historial en Microsoft Edge?', 'Ctrl + H abre el historial; Ctrl + J, las descargas; Ctrl + Mayús + O, los favoritos, y Ctrl + U muestra el código fuente.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad'), 'Edge · Métodos abreviados · Historial', 'Ctrl+H | Abrir historial', null, 'b76a49060875f6c7a16d36d70fa0bf27d525a30e2a388eac43f224c529f4e1ef', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'b76a49060875f6c7a16d36d70fa0bf27d525a30e2a388eac43f224c529f4e1ef')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + H.', true), ('B', 'Ctrl + J.', false), ('C', 'Ctrl + Mayús + O.', false), ('D', 'Ctrl + U.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Microsoft Edge, la tecla F11:', 'F11 alterna la pantalla completa; F12 abre las herramientas de desarrollo, F5 recarga la pestaña y F6 cambia el foco al siguiente panel.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 1, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad'), 'Edge · Métodos abreviados · Pantalla completa', 'F11 | Ir a pantalla completa (alternar)', null, '556816e9a35eb6490897d826d034409f3e3b994bfe146e8cdad134db2a67dd12', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '556816e9a35eb6490897d826d034409f3e3b994bfe146e8cdad134db2a67dd12')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Abre las herramientas de desarrollo.', false), ('B', 'Vuelve a cargar la pestaña actual.', false), ('C', 'Cambia el foco al siguiente panel.', false), ('D', 'Activa o desactiva la pantalla completa.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Microsoft Edge, ¿qué combinación vuelve a abrir la última pestaña cerrada y cambia a ella?', 'Ctrl + Mayús + T recupera la última pestaña cerrada; Ctrl + T abre una pestaña nueva.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad'), 'Edge · Métodos abreviados · Pestaña cerrada', 'Ctrl+Mayús+T | Volver a abrir la última pestaña cerrada y cambiar a ella', null, 'ccecc21f73e23b253cc89f57ce4377746b30307b36d72c795ef203d8405b6875', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'ccecc21f73e23b253cc89f57ce4377746b30307b36d72c795ef203d8405b6875')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + T.', false), ('B', 'Ctrl + Mayús + T.', true), ('C', 'Ctrl + Mayús + W.', false), ('D', 'Ctrl + Z.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué método abreviado abre Descargas en Microsoft Edge?', 'Ctrl + J abre Descargas; Ctrl + H, el historial; Ctrl + Mayús + Y, Colecciones, y Ctrl + Mayús + B muestra u oculta la barra de favoritos.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad'), 'Edge · Métodos abreviados · Descargas', 'Ctrl+J | Abrir Descargas', null, 'd462fdffddc1b7a3d6a1e4ab4c7f31ceb34603a9a710c20666885e38b9764e28', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'd462fdffddc1b7a3d6a1e4ab4c7f31ceb34603a9a710c20666885e38b9764e28')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Ctrl + H.', false), ('B', 'Ctrl + Mayús + Y.', false), ('C', 'Ctrl + Mayús + B.', false), ('D', 'Ctrl + J.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En Microsoft Edge, Ctrl + Mayús + Supr sirve para:', 'Ctrl + Mayús + Supr abre las opciones para borrar los datos de exploración; la recarga sin caché es Ctrl + Mayús + R.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad'), 'Edge · Métodos abreviados · Datos de exploración', 'Ctrl+Mayús+ Suprimir | Abrir las opciones de borrar los datos de exploración', null, '38ffff8053a6f4bdb74671a1ce41d30cd524f50bc2f319baefac169a770f0066', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '38ffff8053a6f4bdb74671a1ce41d30cd524f50bc2f319baefac169a770f0066')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Cerrar todas las pestañas abiertas.', false), ('B', 'Eliminar la página actual de Favoritos.', false), ('C', 'Abrir las opciones de borrar los datos de exploración.', true), ('D', 'Volver a cargar la página omitiendo el contenido en caché.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-12-internet-ms_edge_inprivate-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Explorar InPrivate en Microsoft Edge', 'https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-12-internet', 'II.12 La red Internet y los navegadores') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-12-internet' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'Según Microsoft, ¿qué datos sí permite conservar la navegación InPrivate de Microsoft Edge?', 'InPrivate no guarda en el dispositivo el historial, las cookies, los datos del sitio ni las entradas de formularios, pero sí permite guardar descargas y favoritos.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge'), 'Edge · InPrivate', 'La ventana de InPrivate en Microsoft Edge le permite navegar por la Web sin guardar el historial de exploración […] las cookies, los datos del sitio o las entradas de formularios en su dispositivo. […] permitir guardar descargas y favoritos.', null, '047f947d8463656722c0c7cb2004980a1d5c2baa911c2658d70c9893e1b590c5', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = '047f947d8463656722c0c7cb2004980a1d5c2baa911c2658d70c9893e1b590c5')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Las descargas y los favoritos.', true), ('B', 'El historial de exploración.', false), ('C', 'Las cookies y los datos del sitio.', false), ('D', 'Las entradas de formularios.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-12-internet-ms_edge_seguridad-v1 (2 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Soporte · Explorar la Web de forma segura en Microsoft Edge', 'https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-12-internet', 'II.12 La red Internet y los navegadores') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-12-internet' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué función de Microsoft Edge ayuda a protegerse de los sitios de suplantación de identidad (phishing)?', 'SmartScreen de Microsoft Defender avisa de los sitios marcados como peligrosos, como los de phishing. InPrivate solo evita guardar datos de exploración en el equipo.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 2, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge'), 'Edge · SmartScreen', 'SmartScreen de Microsoft Defender le ayuda a protegerse de sitios de suplantación de identidad (phishing)', null, 'f397dd8ebc86a71d4e8392351ed0f1ed43e20d7f256805f4cc22cffbad1379d6', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'f397dd8ebc86a71d4e8392351ed0f1ed43e20d7f256805f4cc22cffbad1379d6')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'La exploración InPrivate.', false), ('B', 'Las Colecciones.', false), ('C', 'La lectura en voz alta.', false), ('D', 'SmartScreen de Microsoft Defender.', true)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select '¿Qué niveles de prevención de seguimiento ofrece Microsoft Edge?', 'Edge permite elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 3, 'es', true, (select id from public.sources where url = 'https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge'), 'Edge · Prevención de seguimiento', 'Puedes elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto.', null, 'e61fc6635abe49049127c79e6efbc1a972dac77267ba1281f91a7b7d4d43c35f', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'e61fc6635abe49049127c79e6efbc1a972dac77267ba1281f91a7b7d4d43c35f')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'Bajo, Medio y Alto.', false), ('B', 'Básico, Equilibrado y Estricto.', true), ('C', 'Desactivado, Estándar y Personalizado.', false), ('D', 'Básico, Avanzado y Total.', false)) as v(label, body, ok)
+)
+insert into public.question_exam_bodies (question_id, exam_body_id)
+select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';
+-- Lote age-aux-b2-12-internet-ms_http-v1 (1 preguntas)
+insert into public.sources (title, url, kind, publisher, published_on) values ('Microsoft Learn · Introducción a HTTP', 'https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http', 'web_oficial'::public.source_kind, 'Microsoft (documentación oficial)', null) on conflict (url) do nothing;
+insert into public.topics (slug, title) values ('age-aux-b2-12-internet', 'II.12 La red Internet y los navegadores') on conflict (slug) do nothing;
+insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = 'auxiliar-administrativo-estado' and t.slug = 'age-aux-b2-12-internet' on conflict do nothing;
+with q as (
+  insert into public.questions (stem, explanation, category, topic_id, difficulty, locale, ai_generated, source_id, source_ref, source_excerpt, review_note, content_hash, is_test)
+  select 'En una dirección URL, ¿qué carácter separa siempre la cadena de consulta del resto de la dirección?', 'Las cadenas de consulta siempre se separan del resto de la URL mediante un signo de interrogación.', 'age_aux_b2_12_internet', (select id from public.topics where slug = 'age-aux-b2-12-internet'), 3, 'es', true, (select id from public.sources where url = 'https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http'), 'HTTP · Dirección URL', 'Las cadenas de consulta siempre se separan del resto de la dirección URL mediante un signo de interrogación.', null, 'cef2456043b697477d61c5989b50d813f0b53e475d493da59f41f9927550f948', false
+  where not exists (select 1 from public.questions where locale = 'es' and content_hash = 'cef2456043b697477d61c5989b50d813f0b53e475d493da59f41f9927550f948')
+  returning id
+), o as (
+  insert into public.question_options (question_id, label, body, is_correct)
+  select q.id, v.label, v.body, v.ok from q, (values ('A', 'El signo de interrogación (?).', true), ('B', 'La almohadilla (#).', false), ('C', 'La barra (/).', false), ('D', 'Los dos puntos (:).', false)) as v(label, body, ok)
 )
 insert into public.question_exam_bodies (question_id, exam_body_id)
 select q.id, b.id from q, public.exam_bodies b where b.slug = 'auxiliar-administrativo-estado';

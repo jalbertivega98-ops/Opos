@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_responder-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Responder o reenviar un mensaje de correo electrónico en Outlook clásico",
+      "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Responder o reenviar · Responder",
+      "stem": "En Outlook, al utilizar la opción Responder sobre un mensaje recibido:",
+      "options": [
+        "El nuevo mensaje se envía solo al remitente original y no incluye los datos adjuntos.",
+        "El nuevo mensaje se envía al remitente y a todos los destinatarios de las líneas Para y CC.",
+        "El nuevo mensaje se envía solo al remitente original e incluye los datos adjuntos.",
+        "Se abre un mensaje sin destinatarios que incluye los datos adjuntos originales."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Responder envía solo al remitente original y no incluye los adjuntos; Responder a todos añade a los destinatarios de Para y CC, y Reenviar permite elegir destinatarios nuevos e incluye los adjuntos.",
+      "excerpt": "Responder solo envía el nuevo mensaje al remitente original. Los datos adjuntos no están incluidos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Responder o reenviar · Responder a todos",
+      "stem": "Según Microsoft, la opción Responder a todos de Outlook envía el nuevo mensaje:",
+      "options": [
+        "Al remitente original y a todos los destinatarios de las líneas Para, CC y CCO.",
+        "Solo a los destinatarios de la línea CC.",
+        "A todos los contactos de la libreta de direcciones.",
+        "Al remitente original y a todos los demás destinatarios de las líneas Para y CC."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Responder a todos incluye al remitente y a los destinatarios de Para y CC; los destinatarios en CCO no son visibles para los demás.",
+      "excerpt": "Responder a todos envía el nuevo mensaje al remitente original y a todos los demás destinatarios en las líneas Para y Cc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Responder o reenviar · Reenviar",
+      "stem": "¿Qué ocurre con los datos adjuntos de un mensaje cuando se reenvía en Outlook?",
+      "options": [
+        "Se eliminan y hay que adjuntarlos de nuevo.",
+        "Solo se incluyen si el remitente original lo autorizó.",
+        "Se incluyen automáticamente en el mensaje reenviado.",
+        "Se sustituyen por un vínculo a la Bandeja de entrada."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Al reenviar, Outlook incluye todos los datos adjuntos del mensaje original; al responder, no.",
+      "excerpt": "Los datos adjuntos incluidos en el mensaje original se incluyen automáticamente al reenviar un mensaje.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Responder o reenviar · Destinatarios",
+      "stem": "¿Qué opción de Outlook se usa para enviar un mensaje recibido a alguien que no está en las líneas Para o CC?",
+      "options": [
+        "Responder.",
+        "Reenviar.",
+        "Responder a todos.",
+        "Marcar para seguimiento."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Reenviar permite escribir un conjunto completamente nuevo de destinatarios.",
+      "excerpt": "Para enviar el mensaje a alguien que no esté en las líneas Para o Cc, seleccione Reenviar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Responder o reenviar · Varios mensajes",
+      "stem": "Para seleccionar varios mensajes no consecutivos en Outlook (por ejemplo, para reenviarlos a la vez), se selecciona el primero y:",
+      "options": [
+        "Se mantiene presionada la tecla Ctrl mientras se seleccionan los demás.",
+        "Se mantiene presionada la tecla Alt mientras se seleccionan los demás.",
+        "Se pulsa F9 y se seleccionan los demás.",
+        "Se mantiene presionada la tecla Tab mientras se seleccionan los demás."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La tecla Ctrl permite añadir mensajes a la selección uno a uno.",
+      "excerpt": "Seleccione el primer mensaje y mantenga presionada la tecla Ctrl mientras selecciona los mensajes adicionales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Responder o reenviar · Datos adjuntos",
+      "stem": "Según Microsoft, ¿puede configurarse Outlook para que incluya los datos adjuntos al responder a un mensaje?",
+      "options": [
+        "No hay ninguna manera de cambiar ese comportamiento; para enviar los adjuntos a otras personas debe usarse Reenviar.",
+        "Sí, activando la opción Incluir datos adjuntos en las respuestas en Archivo > Opciones > Correo.",
+        "Sí, pero solo con cuentas de Exchange Server.",
+        "Sí, usando Responder a todos en lugar de Responder."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Los datos adjuntos no se incluyen al responder y no hay forma de cambiarlo; para enviarlos a otras personas se utiliza Reenviar.",
+      "excerpt": "No hay ninguna manera de cambiar este comportamiento. […] Si necesita enviar un mensaje con sus archivos adjuntos a otras personas, use la opción Reenviar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
