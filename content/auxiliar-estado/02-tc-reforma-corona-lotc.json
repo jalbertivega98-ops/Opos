@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b1-02-tc-reforma-corona-lotc-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.2 El Tribunal Constitucional, la reforma de la Constitución y la Corona",
+    "topic_slug": "age-aux-b1-02-tc-reforma-corona",
+    "locale": "es",
+    "category": "age_aux_b1_02_tc_reforma_corona",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 9.3 LOTC",
+      "stem": "De acuerdo con la Ley Orgánica del Tribunal Constitucional, expirado el período de tres años para el que fue nombrado, el Presidente del Tribunal Constitucional:",
+      "options": [
+        "No podrá ser reelegido.",
+        "Podrá ser reelegido sin limitación mientras conserve la condición de Magistrado.",
+        "Podrá ser reelegido por una sola vez, pero solo tras un período intermedio de tres años.",
+        "Podrá ser reelegido por una sola vez."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 9.3 LOTC dispone que el nombre del elegido se eleva al Rey para su nombramiento por tres años, expirados los cuales podrá ser reelegido por una sola vez.",
+      "excerpt": "El nombre del elegido se elevará al Rey para su nombramiento por un período de tres años, expirado el cual podrá ser reelegido por una sola vez.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33.1 LOTC",
+      "stem": "Con carácter general, según la Ley Orgánica del Tribunal Constitucional, el recurso de inconstitucionalidad se formulará dentro del plazo de:",
+      "options": [
+        "Nueve meses a partir de la publicación de la Ley, disposición o acto con fuerza de Ley impugnado.",
+        "Treinta días a partir de la entrada en vigor de la Ley impugnada.",
+        "Tres meses a partir de la publicación de la Ley, disposición o acto con fuerza de Ley impugnado.",
+        "Seis meses a partir de la entrada en vigor de la Ley impugnada."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 33.1 LOTC fija el plazo general de tres meses desde la publicación. El plazo de nueve meses del art. 33.2 es excepcional y solo para el Presidente del Gobierno y los órganos colegiados ejecutivos autonómicos cuando se cumplen ciertos requisitos.",
+      "excerpt": "El recurso de inconstitucionalidad se formulará dentro del plazo de tres meses a partir de la publicación de la Ley, disposición o acto con fuerza de Ley impugnado mediante demanda presentada ante el Tribunal Constitucional",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.2 LOTC",
+      "stem": "Según el artículo 44 de la Ley Orgánica del Tribunal Constitucional, el plazo para interponer el recurso de amparo frente a violaciones de derechos con origen inmediato y directo en un acto u omisión de un órgano judicial es de:",
+      "options": [
+        "20 días, a partir de la notificación de la resolución recaída en el proceso judicial.",
+        "30 días, a partir de la notificación de la resolución recaída en el proceso judicial.",
+        "Tres meses, a partir de que la resolución judicial sea firme.",
+        "15 días, a partir de la notificación de la resolución recaída en el proceso judicial."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 44.2 LOTC fija 30 días para el amparo contra actos judiciales. El plazo de 20 días del art. 43.2 corresponde al amparo contra actos del Gobierno y de las Administraciones, y el de tres meses del art. 42 a los actos parlamentarios sin valor de ley.",
+      "excerpt": "El plazo para interponer el recurso de amparo será de 30 días, a partir de la notificación de la resolución recaída en el proceso judicial.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

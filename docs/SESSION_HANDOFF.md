@@ -1,8 +1,21 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-03 · Sesión 3 (+ fichas de estudio de Mossos)
+**Última actualización:** 2026-11-04 · Sesión 3 (+ segunda oposición: Auxiliar Administrativo del Estado)
 
 ## Estado exacto
+
+### Segunda oposición: Auxiliar Administrativo del Estado (2026-11-04, rama `claude/project-thread-mep42h`, CNT-012, ADR-020)
+
+- joel pidió la siguiente oposición con más clientes potenciales, hecha igual que Mossos, y **publicarla** cuando estuviera. Elegida por demanda estable y por encaje: 46.798-54.136 convocados al año, examen con 30 psicotécnicas y temario del BOE. Cifras y fuentes en `docs/research/auxiliar-estado-fuentes.md`.
+- Convocatoria verificada: BOE-A-2025-26262, Anexo I, 1.700 plazas. Ejercicio único de 90 min: parte 1 = 30 preguntas del Bloque I + 30 psicotécnicas; parte 2 = 50 del Bloque II. Cada error resta 1/3.
+- **Contenido:**
+  - 290 preguntas en castellano (`content/auxiliar-estado/*.json`), 14 de los 16 temas del Bloque I.
+  - 14 fichas con artículos literales (`content/auxiliar-estado/fichas/`).
+  - El formato compacto, las leyes del BOE (réplica legalize-es) y `build.py` están en `/mnt/project-files/aprobia/fuentes-oficiales/auxiliar-estado/`. `build.py --check` comprueba todas las citas (0 errores).
+  - Regenerar: `python3 -I build.py /home/claude/opos` y después los comandos de las cabeceras de `supabase/preview/12-` y `13-`.
+- **Productos** (`14-`): `age-aux-bloque-1-boe-2026` (pack), `age-aux-simulacro-bloque-1-2026` (30 preguntas, −1/3, 25 min), `age-aux-simulacro-psicotecnicos-2026` (psico, `config.item_types`) y `age-aux-pack-completo-2026` (bundle).
+- **Publicación** (`15-`, por orden de joel): publica preguntas, fichas y productos `age-aux-*` a nombre de la titular, con auditoría. Las 4 dudosas quedan en borrador. La oposición pasa a «disponible». Probado en local: 286 publicadas, idempotente, simulacro con 30 preguntas de 14 temas.
+- **Siguiente:** CNT-013 (temas 6 y 10 y Bloque II de ofimática). Que joel revise las 4 dudosas.
 
 ### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
 
@@ -99,7 +112,7 @@ Contenedor cloud: E2E con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium npx playwr
 
 ## Pruebas (último run, sesión 3)
 
-typecheck ✅ · lint ✅ · unitarias 81/81 ✅ · BD 74/74 ✅ · E2E 33/34 ✅ (rama fichas; `mock-exam` falla a veces en paralelo y pasa aislado)
+typecheck ✅ · lint ✅ · unitarias 82/82 ✅ · BD 74/74 ✅ · E2E 34/34 ✅ (rama Auxiliar del Estado, 2026-11-04)
 
 ## Bloqueos (TASKS.md › Bloqueos)
 
