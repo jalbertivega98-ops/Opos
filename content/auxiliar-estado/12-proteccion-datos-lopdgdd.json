@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "set": "age-aux-b1-12-proteccion-datos-lopdgdd-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.12 La protección de datos personales",
+    "topic_slug": "age-aux-b1-12-proteccion-datos",
+    "locale": "es",
+    "category": "age_aux_b1_12_proteccion_datos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el derecho fundamental de las personas físicas a la protección de datos personales está amparado por el artículo de la Constitución:",
+      "options": [
+        "18.1.",
+        "20.1.d).",
+        "18.4.",
+        "105.b)."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 1.a) LOPDGDD recuerda que este derecho fundamental está amparado por el art. 18.4 CE y se ejerce conforme al Reglamento (UE) 2016/679 y a la propia ley orgánica.",
+      "excerpt": "El derecho fundamental de las personas físicas a la protección de datos personales, amparado por el artículo 18.4 de la Constitución, se ejercerá con arreglo a lo establecido en el Reglamento (UE) 2016/679 y en esta ley orgánica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.2 LOPDGDD",
+      "stem": "De acuerdo con el artículo 2 de la Ley Orgánica 3/2018, esta ley orgánica no será de aplicación:",
+      "options": [
+        "Al tratamiento no automatizado de datos personales contenidos en un fichero.",
+        "Al tratamiento de datos realizado por los órganos judiciales en la tramitación de los procesos de su competencia.",
+        "A los tratamientos de datos de las Administraciones Públicas.",
+        "A los tratamientos sometidos a la normativa sobre protección de materias clasificadas."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 2.2 excluye, entre otros, los tratamientos sometidos a la normativa de materias clasificadas; el tratamiento no automatizado de datos en ficheros está incluido (art. 2.1) y el de los órganos judiciales se rige por el RGPD y esta ley (art. 2.4).",
+      "excerpt": "2. Esta ley orgánica no será de aplicación: […] c) A los tratamientos sometidos a la normativa sobre protección de materias clasificadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, si la persona fallecida hubiese prohibido expresamente que sus familiares accedan a sus datos personales, esa prohibición:",
+      "options": [
+        "Impedirá en todo caso cualquier acceso de los herederos a los datos del causante.",
+        "No afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante.",
+        "Solo será válida si se inscribe en el registro de la Agencia Española de Protección de Datos.",
+        "Podrá ser dejada sin efecto por el responsable del tratamiento a petición de cualquier heredero."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 3.1 LOPDGDD permite al fallecido prohibir el acceso, pero esa prohibición no alcanza a los datos patrimoniales respecto de los herederos.",
+      "excerpt": "Dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2 LOPDGDD",
+      "stem": "Según el artículo 4 de la Ley Orgánica 3/2018, siempre que haya adoptado todas las medidas razonables para que se supriman o rectifiquen sin dilación, no será imputable al responsable la inexactitud de los datos personales cuando estos:",
+      "options": [
+        "Hubiesen sido obtenidos por el responsable directamente del afectado.",
+        "Hubiesen sido elaborados por el propio responsable mediante deducciones o perfiles.",
+        "Hubiesen sido obtenidos de cualquier fuente, aunque el responsable no haya adoptado medida alguna.",
+        "Hubiesen sido facilitados por un encargado del tratamiento sin instrucciones del responsable."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 4.2 LOPDGDD enumera los casos de inexactitud no imputable: datos obtenidos directamente del afectado, de un mediador o intermediario en los términos previstos, recibidos por portabilidad u obtenidos de un registro público.",
+      "excerpt": "a) Hubiesen sido obtenidos por el responsable directamente del afectado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el deber de confidencialidad de quienes intervienen en cualquier fase del tratamiento de datos:",
+      "options": [
+        "Se mantiene aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento.",
+        "Se extingue al finalizar la relación del obligado con el responsable o encargado del tratamiento.",
+        "Se mantiene durante los dos años siguientes a la finalización de la relación.",
+        "Sustituye a los deberes de secreto profesional previstos en su normativa aplicable."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 5 LOPDGDD dispone que el deber de confidencialidad es complementario del secreto profesional y persiste tras finalizar la relación.",
+      "excerpt": "3. Las obligaciones establecidas en los apartados anteriores se mantendrán aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.1 LOPDGDD",
+      "stem": "De acuerdo con el artículo 6 de la Ley Orgánica 3/2018, se entiende por consentimiento del afectado toda manifestación de voluntad:",
+      "options": [
+        "Libre, expresa, escrita y revocable.",
+        "Libre, específica, informada e inequívoca.",
+        "Libre, informada, tácita y específica.",
+        "Expresa, por escrito y ante fedatario público."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El consentimiento debe ser libre, específico, informado e inequívoco, mediante una declaración o una clara acción afirmativa.",
+      "excerpt": "se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, ya sea mediante una declaración o una clara acción afirmativa, el tratamiento de datos personales que le conciernen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de:",
+      "options": [
+        "Doce años.",
+        "Dieciséis años.",
+        "Trece años.",
+        "Catorce años."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 7 LOPDGDD fija la edad en catorce años; por debajo, el consentimiento debe prestarlo el titular de la patria potestad o tutela.",
+      "excerpt": "1. El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.2 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el tratamiento de datos personales solo podrá considerarse fundado en el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable cuando:",
+      "options": [
+        "Lo autorice expresamente la Agencia Española de Protección de Datos.",
+        "Derive de una competencia atribuida por cualquier norma reglamentaria.",
+        "Derive de una competencia atribuida por una norma con rango de ley.",
+        "El afectado haya prestado previamente su consentimiento expreso."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 8.2 LOPDGDD exige que la competencia esté atribuida por norma con rango de ley; para la obligación legal (art. 8.1) se requiere norma de Derecho de la UE o con rango de ley.",
+      "excerpt": "cuando derive de una competencia atribuida por una norma con rango de ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 LOPDGDD",
+      "stem": "Según el artículo 9 de la Ley Orgánica 3/2018, a fin de evitar situaciones discriminatorias, el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar:",
+      "options": [
+        "Su afiliación sindical.",
+        "Su domicilio.",
+        "Su número de teléfono.",
+        "Su titulación académica."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 9.1 se refiere a la ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+      "excerpt": "el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.2 LOPDGDD",
+      "stem": "Cuando los datos personales se obtengan del propio afectado, la información básica que debe facilitarle el responsable conforme al artículo 11 de la Ley Orgánica 3/2018 deberá contener, al menos:",
+      "options": [
+        "Las categorías de datos objeto de tratamiento y las fuentes de las que procedan.",
+        "La identidad de todos los encargados del tratamiento y el plazo de conservación de los datos.",
+        "La identidad del responsable del tratamiento, la finalidad del tratamiento y la posibilidad de ejercer los derechos de los artículos 15 a 22 del Reglamento (UE) 2016/679.",
+        "Únicamente una dirección electrónica en la que consultar la política de privacidad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 11.2 enumera la información básica; las categorías de datos y las fuentes solo se añaden cuando los datos no se obtienen del afectado (art. 11.3).",
+      "excerpt": "2. La información básica a la que se refiere el apartado anterior deberá contener, al menos: a) La identidad del responsable del tratamiento y de su representante, en su caso. b) La finalidad del tratamiento. c) La posibilidad de ejercer los derechos establecidos en los artículos 15 a 22 del Reglamento (UE) 2016/679.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.3 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, se podrá considerar repetitivo el ejercicio del derecho de acceso, salvo causa legítima, cuando se ejerza en más de una ocasión durante el plazo de:",
+      "options": [
+        "Tres meses.",
+        "Seis meses.",
+        "Un año.",
+        "Un mes."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 13.3 LOPDGDD permite considerar repetitivo el acceso ejercido más de una vez en seis meses, a menos que exista causa legítima.",
+      "excerpt": "se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.2 LOPDGDD",
+      "stem": "Cuando la supresión de los datos derive del ejercicio del derecho de oposición previsto en el artículo 21.2 del Reglamento (UE) 2016/679, la Ley Orgánica 3/2018 permite al responsable:",
+      "options": [
+        "Conservar todos los datos del afectado durante un año antes de suprimirlos.",
+        "Ceder los datos identificativos a otros responsables para que no le envíen publicidad.",
+        "Denegar la supresión si el afectado había prestado previamente su consentimiento.",
+        "Conservar los datos identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines de mercadotecnia directa."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 15.2 LOPDGDD autoriza a conservar solo los datos identificativos necesarios para impedir futuros tratamientos de mercadotecnia directa.",
+      "excerpt": "el responsable podrá conservar los datos identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines de mercadotecnia directa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.3 LOPDGDD",
+      "stem": "Según el artículo 22 de la Ley Orgánica 3/2018, los datos obtenidos mediante sistemas de videovigilancia serán suprimidos, con carácter general, en el plazo máximo de:",
+      "options": [
+        "Setenta y dos horas desde su captación.",
+        "Quince días desde su captación.",
+        "Tres meses desde su captación.",
+        "Un mes desde su captación."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Las imágenes se suprimen en un mes, salvo que deban conservarse para acreditar actos contra la integridad de personas, bienes o instalaciones; en ese caso se ponen a disposición de la autoridad en un máximo de 72 horas.",
+      "excerpt": "3. Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 32.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el responsable del tratamiento estará obligado a bloquear los datos:",
+      "options": [
+        "Cuando proceda a su rectificación o supresión.",
+        "Únicamente cuando lo ordene la Agencia Española de Protección de Datos.",
+        "Cuando el afectado ejerza el derecho de acceso.",
+        "Cuando el afectado sea menor de catorce años."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 32 LOPDGDD impone el bloqueo al rectificar o suprimir; los datos bloqueados solo pueden ponerse a disposición de jueces, Ministerio Fiscal o Administraciones competentes durante el plazo de prescripción.",
+      "excerpt": "1. El responsable del tratamiento estará obligado a bloquear los datos cuando proceda a su rectificación o supresión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 34.3 LOPDGDD",
+      "stem": "De acuerdo con la Ley Orgánica 3/2018, los responsables y encargados del tratamiento comunicarán a la Agencia Española de Protección de Datos o, en su caso, a las autoridades autonómicas, las designaciones, nombramientos y ceses de los delegados de protección de datos en el plazo de:",
+      "options": [
+        "Diez días, solo cuando la designación sea obligatoria.",
+        "Un mes, tanto si la designación es obligatoria como si es voluntaria.",
+        "Diez días, tanto si la designación es obligatoria como si es voluntaria.",
+        "Quince días, solo cuando la designación sea voluntaria."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 34.3 LOPDGDD fija diez días para comunicar designaciones, nombramientos y ceses, sea obligatoria o voluntaria la designación.",
+      "excerpt": "3. Los responsables y encargados del tratamiento comunicarán en el plazo de diez días a la Agencia Española de Protección de Datos o, en su caso, a las autoridades autonómicas de protección de datos, las designaciones, nombramientos y ceses de los delegados de protección de datos tanto en los supuestos en que se encuentren obligadas a su designación como en el caso en que sea voluntaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.2 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, cuando el delegado de protección de datos sea una persona física integrada en la organización del responsable o encargado, no podrá ser removido ni sancionado por desempeñar sus funciones:",
+      "options": [
+        "Salvo que lo autorice la Agencia Española de Protección de Datos.",
+        "Salvo que incurriera en dolo o negligencia grave en su ejercicio.",
+        "Durante los cinco primeros años de su designación.",
+        "Salvo que incurriera en cualquier tipo de negligencia, aunque sea leve."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 36.2 garantiza la independencia del delegado: solo puede ser removido o sancionado por dolo o negligencia grave.",
+      "excerpt": "el delegado de protección de datos no podrá ser removido ni sancionado por el responsable o el encargado por desempeñar sus funciones salvo que incurriera en dolo o negligencia grave en su ejercicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37.1 LOPDGDD",
+      "stem": "Si el afectado, antes de reclamar ante la autoridad de protección de datos, se dirige al delegado de protección de datos de la entidad, el delegado le comunicará la decisión adoptada en el plazo máximo de:",
+      "options": [
+        "Un mes a contar desde la recepción de la reclamación.",
+        "Dos meses a contar desde la recepción de la reclamación.",
+        "Diez días a contar desde la recepción de la reclamación.",
+        "Tres meses a contar desde la recepción de la reclamación."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 37.1 LOPDGDD fija dos meses; si es la autoridad la que remite la reclamación al delegado, este debe responder en un mes (art. 37.2).",
+      "excerpt": "En este caso, el delegado de protección de datos comunicará al afectado la decisión que se hubiera adoptado en el plazo máximo de dos meses a contar desde la recepción de la reclamación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, la Agencia Española de Protección de Datos es:",
+      "options": [
+        "Una autoridad administrativa independiente de ámbito estatal, que se relaciona con el Gobierno a través del Ministerio de Justicia.",
+        "Un organismo autónomo adscrito al Ministerio del Interior.",
+        "Un órgano del Consejo General del Poder Judicial.",
+        "Una entidad pública empresarial dependiente del Ministerio de Hacienda."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La AEPD es autoridad administrativa independiente con personalidad jurídica y plena capacidad, y se relaciona con el Gobierno a través del Ministerio de Justicia.",
+      "excerpt": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente de ámbito estatal […] Se relaciona con el Gobierno a través del Ministerio de Justicia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.5 LOPDGDD",
+      "stem": "El mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos, según la Ley Orgánica 3/2018, tiene una duración de:",
+      "options": [
+        "Cuatro años, renovable para otro período de igual duración.",
+        "Cinco años, no renovable.",
+        "Cinco años, renovable para otro período de igual duración.",
+        "Seis años, no renovable."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 48.5 LOPDGDD fija un mandato de cinco años, renovable una vez por igual período.",
+      "excerpt": "5. El mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos tiene una duración de cinco años y puede ser renovado para otro período de igual duración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 72-74 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, las infracciones muy graves, graves y leves prescriben, respectivamente, a:",
+      "options": [
+        "Los cinco años, a los tres años y al año.",
+        "Los tres años, al año y a los seis meses.",
+        "Los cuatro años, a los dos años y a los seis meses.",
+        "Los tres años, a los dos años y al año."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Los arts. 72, 73 y 74 LOPDGDD fijan la prescripción de las infracciones en tres años (muy graves), dos (graves) y uno (leves).",
+      "excerpt": "se consideran muy graves y prescribirán a los tres años […] se consideran graves y prescribirán a los dos años […] Se consideran leves y prescribirán al año",
+      "excerpt_status": "completo"
+    }
+  ]
+}

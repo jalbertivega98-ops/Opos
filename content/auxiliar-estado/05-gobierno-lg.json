@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "set": "age-aux-b1-05-gobierno-lg-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.5 El Gobierno y la Administración",
+    "topic_slug": "age-aux-b1-05-gobierno",
+    "locale": "es",
+    "category": "age_aux_b1_05_gobierno",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 11 LG",
+      "stem": "Según el artículo 11 de la Ley 50/1997, del Gobierno, ¿cuál de los siguientes es un requisito para ser miembro del Gobierno?",
+      "options": [
+        "Ser Diputado o Senador.",
+        "Ser funcionario de carrera del Subgrupo A1.",
+        "Ser español y mayor de edad.",
+        "Haber residido en España durante los cinco años anteriores."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 11 LG exige ser español, mayor de edad, disfrutar del sufragio activo y pasivo, no estar inhabilitado por sentencia firme y reunir los requisitos de idoneidad de la Ley 3/2015. No se exige ser parlamentario.",
+      "excerpt": "Para ser miembro del Gobierno se requiere ser español, mayor de edad, disfrutar de los derechos de sufragio activo y pasivo, así como no estar inhabilitado para ejercer empleo o cargo público por sentencia judicial firme",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 12.2 bis LG",
+      "stem": "De acuerdo con el artículo 12.2 bis de la Ley 50/1997, del Gobierno, en el nombramiento de las personas titulares de las Vicepresidencias y los Ministerios, cada uno de los sexos deberá suponer en su conjunto como mínimo:",
+      "options": [
+        "El cincuenta por ciento.",
+        "El treinta y tres por ciento.",
+        "El sesenta por ciento.",
+        "El cuarenta por ciento."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 12.2 bis LG garantiza la presencia equilibrada de mujeres y hombres: cada sexo debe representar al menos el 40 % del conjunto de Vicepresidencias y Ministerios.",
+      "excerpt": "2 bis. En el nombramiento de las personas titulares de las Vicepresidencias y los Ministerios se garantizará el principio de presencia equilibrada de mujeres y hombres, de forma que cada uno de los sexos suponga como mínimo el cuarenta por ciento en su conjunto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.1 LG",
+      "stem": "Según el artículo 13.1 de la Ley 50/1997, del Gobierno, en los casos de vacante, ausencia o enfermedad, las funciones del Presidente del Gobierno serán asumidas:",
+      "options": [
+        "Por el Ministro de la Presidencia y, en su defecto, por el Ministro de mayor edad.",
+        "Por los Vicepresidentes, según su orden de prelación, y, en su defecto, por los Ministros según el orden de precedencia de los Departamentos.",
+        "Por los Vicepresidentes, según su orden de prelación, y, en su defecto, por el Presidente del Congreso de los Diputados.",
+        "Por el Ministro que designe el Consejo de Ministros en cada caso."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 13.1 LG ordena la suplencia del Presidente: primero los Vicepresidentes por su orden de prelación y, en defecto de ellos, los Ministros por el orden de precedencia de los Departamentos.",
+      "excerpt": "1. En los casos de vacante, ausencia o enfermedad, las funciones del Presidente del Gobierno serán asumidas por los Vicepresidentes, de acuerdo con el correspondiente orden de prelación, y, en defecto de ellos, por los Ministros, según el orden de precedencia de los Departamentos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 18.1 LG",
+      "stem": "Según el artículo 18.1 de la Ley 50/1997, del Gobierno, ¿quién actúa como Secretario en las reuniones del Consejo de Ministros?",
+      "options": [
+        "El Ministro de la Presidencia.",
+        "El Subsecretario de la Presidencia.",
+        "El Director del Secretariado del Gobierno.",
+        "El Vicepresidente primero del Gobierno."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El Presidente del Gobierno convoca y preside el Consejo de Ministros y actúa como Secretario el Ministro de la Presidencia (art. 18.1 LG). El Subsecretario de la Presidencia es el secretario de la Comisión General de Secretarios de Estado y Subsecretarios (art. 8.3).",
+      "excerpt": "1. El Presidente del Gobierno convoca y preside las reuniones del Consejo de Ministros, actuando como Secretario el Ministro de la Presidencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.4 LG",
+      "stem": "De acuerdo con la Ley 50/1997, del Gobierno, las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios serán:",
+      "options": [
+        "Secretas, pudiendo la Comisión adoptar acuerdos por delegación del Gobierno.",
+        "Reservadas, sin que la Comisión pueda adoptar en ningún caso decisiones o acuerdos por delegación del Gobierno.",
+        "Públicas, salvo que el Presidente de la Comisión acuerde su reserva.",
+        "Reservadas, pudiendo la Comisión resolver por delegación los asuntos que afecten a varios Ministerios."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 8.4 LG califica de reservadas las deliberaciones de la Comisión General y le prohíbe adoptar decisiones por delegación del Gobierno; en cambio, las del Consejo de Ministros y las Comisiones Delegadas son secretas (arts. 5.3 y 6.5).",
+      "excerpt": "4. Las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios serán reservadas. En ningún caso la Comisión podrá adoptar decisiones o acuerdos por delegación del Gobierno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21.4 LG",
+      "stem": "Según el artículo 21.4 de la Ley 50/1997, del Gobierno, el Presidente del Gobierno en funciones no podrá:",
+      "options": [
+        "Convocar y presidir las reuniones del Consejo de Ministros.",
+        "Representar al Gobierno.",
+        "Plantear la cuestión de confianza.",
+        "Refrendar los actos del Rey."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El Presidente en funciones no puede proponer la disolución de las Cámaras, plantear la cuestión de confianza ni proponer la convocatoria de un referéndum consultivo (art. 21.4 LG).",
+      "excerpt": "4. El Presidente del Gobierno en funciones no podrá ejercer las siguientes facultades: a) Proponer al Rey la disolución de alguna de las Cámaras, o de las Cortes Generales. b) Plantear la cuestión de confianza. c) Proponer al Rey la convocatoria de un referéndum consultivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21.5 LG",
+      "stem": "De acuerdo con el artículo 21.5 de la Ley 50/1997, del Gobierno, ¿cuál de las siguientes facultades no puede ejercer el Gobierno en funciones?",
+      "options": [
+        "Despachar los asuntos públicos ordinarios.",
+        "Facilitar el traspaso de poderes al nuevo Gobierno.",
+        "Adoptar medidas en casos de urgencia debidamente acreditados.",
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El Gobierno en funciones no puede aprobar el Proyecto de Ley de Presupuestos ni presentar proyectos de ley a las Cortes (art. 21.5 LG); sí debe facilitar el traspaso de poderes y despachar los asuntos ordinarios, y puede adoptar otras medidas en casos de urgencia (art. 21.3).",
+      "excerpt": "5. El Gobierno en funciones no podrá ejercer las siguientes facultades: a) Aprobar el Proyecto de Ley de Presupuestos Generales del Estado. b) Presentar proyectos de ley al Congreso de los Diputados o, en su caso, al Senado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

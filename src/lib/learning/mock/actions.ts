@@ -33,7 +33,7 @@ export async function startMockAction(formData: FormData) {
     .from("products")
     .select("config")
     .eq("id", parsed.data.productId)
-    .maybeSingle<{ config: { kind?: string; questions?: number } }>();
+    .maybeSingle<{ config: { kind?: string; questions?: number; item_types?: unknown } }>();
   const psycho = product?.config?.kind === "psycho";
   const { data, error } = psycho
     ? await service.rpc("mock_start_generated", {
@@ -41,6 +41,7 @@ export async function startMockAction(formData: FormData) {
         p_product: parsed.data.productId,
         p_items: buildPsychoMock(Math.min(Math.max(product?.config?.questions ?? 80, 1), 120), () =>
           randomInt(0, 2 ** 32),
+          product?.config?.item_types,
         ),
       })
     : await service.rpc("mock_start", { p_user: user.id, p_product: parsed.data.productId });

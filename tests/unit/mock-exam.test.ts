@@ -42,4 +42,16 @@ describe("simulacro de psicotécnicos", () => {
       expect(JSON.stringify(it.presented)).not.toMatch(/answerIndex|explanation/);
     }
   });
+
+  it("limita los tipos al formato de la oposición (config.item_types)", async () => {
+    const { buildPsychoMock } = await import("@/lib/learning/mock/psycho");
+    let s = 7;
+    const only = ["series", "numeric", "analogies", "attention"];
+    const items = buildPsychoMock(30, () => (s = (s * 48271) % 2147483647), only);
+    expect(items).toHaveLength(30);
+    expect(new Set(items.map((i) => i.item_type))).toEqual(new Set(only));
+    // valores no válidos se ignoran y se usan todos los tipos
+    const all = buildPsychoMock(14, () => (s = (s * 48271) % 2147483647), "x");
+    expect(new Set(all.map((i) => i.item_type)).size).toBe(7);
+  });
 });

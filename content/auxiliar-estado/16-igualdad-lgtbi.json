@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b1-16-igualdad-lgtbi-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.16 Igualdad, violencia de género, LGTBI, discapacidad y dependencia",
+    "topic_slug": "age-aux-b1-16-igualdad",
+    "locale": "es",
+    "category": "age_aux_b1_16_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 43.1 Ley 4/2023",
+      "stem": "Según el artículo 43 de la Ley 4/2023, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI, podrá solicitar por sí misma ante el Registro Civil la rectificación de la mención registral relativa al sexo:",
+      "options": [
+        "Únicamente la persona de nacionalidad española mayor de dieciocho años.",
+        "Toda persona de nacionalidad española mayor de catorce años, sin necesidad de asistencia de sus representantes legales.",
+        "Toda persona de nacionalidad española mayor de dieciséis años.",
+        "Toda persona de nacionalidad española mayor de doce años, sin necesidad de autorización judicial."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 43 Ley 4/2023 permite solicitarla por sí mismas a las personas españolas mayores de 16 años; entre 14 y 16, asistidas por sus representantes legales; entre 12 y 14, mediante autorización judicial.",
+      "excerpt": "1. Toda persona de nacionalidad española mayor de dieciséis años podrá solicitar por sí misma ante el Registro Civil la rectificación de la mención registral relativa al sexo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.3 Ley 4/2023",
+      "stem": "De acuerdo con el artículo 44 de la Ley 4/2023, el ejercicio del derecho a la rectificación registral de la mención relativa al sexo:",
+      "options": [
+        "Requiere la previa exhibición de un informe psicológico sobre la disconformidad con el sexo mencionado en la inscripción de nacimiento.",
+        "En ningún caso podrá estar condicionado a la previa exhibición de informe médico o psicológico ni a la previa modificación de la apariencia o función corporal.",
+        "Requiere acreditar un tratamiento médico previo de, al menos, dos años.",
+        "Requiere informe médico únicamente cuando la persona solicitante sea menor de edad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 44.3 Ley 4/2023 prohíbe condicionar la rectificación registral del sexo a informes médicos o psicológicos o a modificaciones corporales previas.",
+      "excerpt": "3. El ejercicio del derecho a la rectificación registral de la mención relativa al sexo en ningún caso podrá estar condicionado a la previa exhibición de informe médico o psicológico relativo a la disconformidad con el sexo mencionado en la inscripción de nacimiento, ni a la previa modificación de la apariencia o función corporal de la persona a través de procedimientos médicos, quirúrgicos o de otra índole.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.8 Ley 4/2023",
+      "stem": "En el procedimiento de rectificación registral de la mención relativa al sexo, el artículo 44.8 de la Ley 4/2023 dispone que la persona encargada del Registro Civil deberá citar a la persona legitimada para que comparezca de nuevo y ratifique su solicitud en el plazo máximo de:",
+      "options": [
+        "Tres meses desde la comparecencia inicial.",
+        "Un mes desde la comparecencia inicial.",
+        "Seis meses desde la comparecencia inicial.",
+        "Quince días desde la comparecencia inicial."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Tras la comparecencia inicial, el encargado del Registro Civil debe citar de nuevo a la persona en un máximo de tres meses para que ratifique su solicitud; después dicta resolución en el plazo máximo de un mes desde esa segunda comparecencia (art. 44.8 y 9 Ley 4/2023).",
+      "excerpt": "8. En el plazo máximo de tres meses desde la comparecencia inicial reiterando la solicitud de rectificación inicial, la persona encargada del Registro Civil deberá citar a la persona legitimada para que comparezca de nuevo y ratifique su solicitud, aseverando la persistencia de su decisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47 Ley 4/2023",
+      "stem": "Según el artículo 47 de la Ley 4/2023, las personas que hubieran promovido la rectificación de la mención registral relativa al sexo podrán recuperar la mención que figuraba previamente, siguiendo el mismo procedimiento, una vez transcurridos desde la inscripción de la rectificación:",
+      "options": [
+        "Tres meses.",
+        "Un año.",
+        "Seis meses.",
+        "Dos años."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 47 Ley 4/2023 permite revertir la rectificación transcurridos seis meses desde su inscripción en el Registro Civil, por el mismo procedimiento.",
+      "excerpt": "Transcurridos seis meses desde la inscripción en el Registro Civil de la rectificación de la mención registral relativa al sexo, las personas que hubieran promovido dicha rectificación podrán recuperar la mención registral del sexo que figuraba previamente a dicha rectificación en el Registro Civil, siguiendo el mismo procedimiento establecido en este Capítulo para la rectificación registral.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

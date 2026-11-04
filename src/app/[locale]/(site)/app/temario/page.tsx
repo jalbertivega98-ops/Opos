@@ -54,7 +54,12 @@ export default async function SyllabusPage({ params }: PageProps<"/[locale]/app/
       </div>
       {[...groups.entries()].map(([key, items]) => (
         <section key={key || "other"} className="space-y-3">
-          {key && <h2 className="text-lg font-semibold">{t("area", { area: key })}</h2>}
+          {key && (
+            <h2 className="text-lg font-semibold">
+              {/* Mossos agrupa por «àmbit» (A, B, C); las demás, por bloque del programa (I, II) */}
+              {t(exam.slug.startsWith("mossos") ? "area" : "block", { area: key })}
+            </h2>
+          )}
           <ul className="grid gap-2 sm:grid-cols-2" data-testid="notes-list">
             {items.map((n) => (
               <li key={n.slug}>
