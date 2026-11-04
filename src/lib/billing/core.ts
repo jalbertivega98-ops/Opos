@@ -77,6 +77,9 @@ export function buildCheckoutParams(input: {
     customer: customerId,
     client_reference_id: userId,
     locale: "es",
+    // Stripe activa por defecto «Managed Payments» (Stripe como vendedor, exige
+    // código fiscal por producto). Lo desactivamos: vendemos nosotros (ADR-027).
+    managed_payments: { enabled: false },
     line_items: [
       {
         quantity: 1,
