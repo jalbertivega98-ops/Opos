@@ -4,7 +4,13 @@ import { useActionState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Alert, FieldError, Input, Label } from "@/components/ui/form";
-import { deleteAccountAction, updateProfileAction, type AccountState } from "@/lib/account/actions";
+import {
+  changeEmailAction,
+  changePasswordAction,
+  deleteAccountAction,
+  updateProfileAction,
+  type AccountState,
+} from "@/lib/account/actions";
 
 const initial: AccountState = { status: "idle" };
 
@@ -111,6 +117,125 @@ export function DeleteAccountForm() {
       </div>
       <Button type="submit" variant="danger" disabled={pending}>
         {t("profile.deleteSubmit")}
+      </Button>
+    </form>
+  );
+}
+
+function fieldMessage(t: ReturnType<typeof useTranslations>, key?: string) {
+  if (!key) return undefined;
+  if (key === "wrongPassword") return t("profile.errors.wrongPassword");
+  if (key === "sameEmail") return t("profile.errors.sameEmail");
+  return t(`validation.${key}`);
+}
+
+function Field({
+  id,
+  name,
+  label,
+  type = "text",
+  autoComplete,
+  error,
+  hint,
+}: {
+  id: string;
+  name: string;
+  label: string;
+  type?: string;
+  autoComplete: string;
+  error?: string;
+  hint?: string;
+}) {
+  return (
+    <div className="space-y-2">
+      <Label htmlFor={id}>{label}</Label>
+      <Input
+        id={id}
+        name={name}
+        type={type}
+        autoComplete={autoComplete}
+        required
+        aria-invalid={error ? true : undefined}
+        aria-describedby={`${id}-error${hint ? ` ${id}-hint` : ""}`}
+      />
+      {hint && (
+        <p id={`${id}-hint`} className="text-muted-foreground text-xs">
+          {hint}
+        </p>
+      )}
+      <FieldError id={`${id}-error`}>{error}</FieldError>
+    </div>
+  );
+}
+
+export function ChangePasswordForm() {
+  const t = useTranslations();
+  const [state, action, pending] = useActionState(changePasswordAction, initial);
+  return (
+    <form action={action} className="space-y-4" key={state.status === "success" ? "done" : "form"}>
+      {state.message && (
+        <Alert tone={state.status === "error" ? "error" : "success"}>{t(state.message)}</Alert>
+      )}
+      <Field
+        id="pw-current"
+        name="currentPassword"
+        type="password"
+        label={t("profile.currentPassword")}
+        autoComplete="current-password"
+        error={fieldMessage(t, state.errors?.currentPassword)}
+      />
+      <Field
+        id="pw-new"
+        name="password"
+        type="password"
+        label={t("profile.newPassword")}
+        autoComplete="new-password"
+        hint={t("profile.passwordHint")}
+        error={fieldMessage(t, state.errors?.password)}
+      />
+      <Field
+        id="pw-confirm"
+        name="confirm"
+        type="password"
+        label={t("profile.confirmNewPassword")}
+        autoComplete="new-password"
+        error={fieldMessage(t, state.errors?.confirm)}
+      />
+      <Button type="submit" disabled={pending}>
+        {t("profile.changePasswordSubmit")}
+      </Button>
+    </form>
+  );
+}
+
+export function ChangeEmailForm() {
+  const t = useTranslations();
+  const locale = useLocale();
+  const [state, action, pending] = useActionState(changeEmailAction, initial);
+  return (
+    <form action={action} className="space-y-4">
+      <input type="hidden" name="locale" value={locale} />
+      {state.message && (
+        <Alert tone={state.status === "error" ? "error" : "success"}>{t(state.message)}</Alert>
+      )}
+      <Field
+        id="email-new"
+        name="email"
+        type="email"
+        label={t("profile.newEmail")}
+        autoComplete="email"
+        error={fieldMessage(t, state.errors?.email)}
+      />
+      <Field
+        id="email-current-password"
+        name="currentPassword"
+        type="password"
+        label={t("profile.currentPassword")}
+        autoComplete="current-password"
+        error={fieldMessage(t, state.errors?.currentPassword)}
+      />
+      <Button type="submit" variant="outline" disabled={pending}>
+        {t("profile.changeEmailSubmit")}
       </Button>
     </form>
   );

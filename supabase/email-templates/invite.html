@@ -1,31 +1,77 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OPOSAPRUEBA</title></head>
-<body style="margin:0;padding:0;background:#f4f6fa;font-family:Arial,Helvetica,sans-serif;color:#0b2545;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6fa;padding:24px 12px;">
-<tr><td align="center">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#ffffff;border:1px solid #dde3ec;border-radius:12px;">
-<tr><td style="background:#0b2545;border-radius:12px 12px 0 0;padding:18px 28px;">
-<span style="font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:bold;letter-spacing:1px;color:#ffffff;">OPOSAPRUEBA</span>
-</td></tr>
-<tr><td style="padding:28px;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>OPOSAPRUEBA</title>
+</head>
+<body style="margin:0;padding:0;background:#eef2f7;">
 {{ if eq (printf "%v" .Data.locale) "ca" }}
-<h1 style="margin:0 0 12px;font-family:Georgia,'Times New Roman',serif;font-size:22px;color:#0b2545;">T'han convidat a OPOSAPRUEBA</h1>
-<p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#4a5a72;">Tens una invitació per crear el teu compte a OPOSAPRUEBA. Prem el botó per acceptar-la.</p>
-<p style="margin:0 0 24px;"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/ca/app/onboarding" style="display:inline-block;background:#0a7a70;color:#ffffff;text-decoration:none;font-weight:bold;font-size:15px;padding:12px 22px;border-radius:8px;">Acceptar la invitació</a></p>
-<p style="margin:0;font-size:13px;line-height:1.6;color:#4a5a72;">Si no has estat tu, pots ignorar aquest correu. L'enllaç caduca en poc temps.</p>
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">Tens una invitació per a OPOSAPRUEBA.</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef2f7;">
+<tr><td align="center" style="padding:32px 16px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;">
+<tr><td style="padding:0 4px 16px;">
+<a href="https://oposaprueba.com" style="text-decoration:none;"><img src="https://oposaprueba.com/brand/email-logo.png" width="214" height="32" alt="OPOSAPRUEBA" style="display:block;border:0;height:32px;width:214px;"></a>
+</td></tr>
+<tr><td style="background:#ffffff;border:1px solid #dde3ec;border-radius:16px;overflow:hidden;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<tr><td style="height:6px;line-height:6px;font-size:0;background:#0b2545;border-radius:16px 16px 0 0;">&nbsp;</td></tr>
+<tr><td style="padding:36px 36px 8px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<p style="margin:0 0 6px;font-size:15px;color:#4a5a72;">Hola{{ with .Data.display_name }} {{ . }}{{ end }},</p>
+<h1 style="margin:0 0 18px;font-family:Georgia,'Times New Roman',serif;font-size:28px;line-height:1.25;color:#0b2545;font-weight:bold;"><span style="background:linear-gradient(transparent 62%, #ffd166 62%);">T'han convidat a OPOSAPRUEBA</span></h1>
+<p style="margin:0 0 28px;font-size:16px;line-height:1.65;color:#1f2f46;">Tens una invitació per crear el teu compte i començar a preparar la teva oposició.</p>
+<table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="border-radius:10px;background:#0a7a70;">
+<a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/ca/app/onboarding" style="display:inline-block;padding:15px 28px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:10px;">Acceptar la invitació &rarr;</a>
+</td></tr></table>
+</td></tr>
+<tr><td style="padding:24px 36px 32px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#e3f6f3;border-radius:10px;padding:14px 16px;font-size:13px;line-height:1.55;color:#1f2f46;">Si no esperaves aquesta invitació, ignora aquest correu.</td></tr></table>
+<p style="margin:20px 0 4px;font-size:12px;line-height:1.5;color:#4a5a72;">El botó no funciona? Copia i enganxa aquest enllaç al navegador:</p>
+<p style="margin:0;font-size:12px;line-height:1.5;word-break:break-all;"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/ca/app/onboarding" style="color:#0a7a70;">{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/ca/app/onboarding</a></p>
+</td></tr>
+</table>
+</td></tr>
+<tr><td style="padding:20px 8px 0;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;color:#4a5a72;text-align:center;">
+Correu automàtic d'OPOSAPRUEBA. No responguis aquest missatge.<br>Dubtes? Escriu-nos a <a href="mailto:hola@oposaprueba.com" style="color:#4a5a72;">hola@oposaprueba.com</a> · <a href="https://oposaprueba.com" style="color:#4a5a72;">oposaprueba.com</a>
+</td></tr>
+</table>
+</td></tr>
+</table>
 {{ else }}
-<h1 style="margin:0 0 12px;font-family:Georgia,'Times New Roman',serif;font-size:22px;color:#0b2545;">Te han invitado a OPOSAPRUEBA</h1>
-<p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#4a5a72;">Tienes una invitación para crear tu cuenta en OPOSAPRUEBA. Pulsa el botón para aceptarla.</p>
-<p style="margin:0 0 24px;"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/app/onboarding" style="display:inline-block;background:#0a7a70;color:#ffffff;text-decoration:none;font-weight:bold;font-size:15px;padding:12px 22px;border-radius:8px;">Aceptar invitación</a></p>
-<p style="margin:0;font-size:13px;line-height:1.6;color:#4a5a72;">Si no has sido tú, puedes ignorar este correo. El enlace caduca en poco tiempo.</p>
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">Tienes una invitación para OPOSAPRUEBA.</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef2f7;">
+<tr><td align="center" style="padding:32px 16px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;">
+<tr><td style="padding:0 4px 16px;">
+<a href="https://oposaprueba.com" style="text-decoration:none;"><img src="https://oposaprueba.com/brand/email-logo.png" width="214" height="32" alt="OPOSAPRUEBA" style="display:block;border:0;height:32px;width:214px;"></a>
+</td></tr>
+<tr><td style="background:#ffffff;border:1px solid #dde3ec;border-radius:16px;overflow:hidden;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<tr><td style="height:6px;line-height:6px;font-size:0;background:#0b2545;border-radius:16px 16px 0 0;">&nbsp;</td></tr>
+<tr><td style="padding:36px 36px 8px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<p style="margin:0 0 6px;font-size:15px;color:#4a5a72;">Hola{{ with .Data.display_name }} {{ . }}{{ end }},</p>
+<h1 style="margin:0 0 18px;font-family:Georgia,'Times New Roman',serif;font-size:28px;line-height:1.25;color:#0b2545;font-weight:bold;"><span style="background:linear-gradient(transparent 62%, #ffd166 62%);">Te han invitado a OPOSAPRUEBA</span></h1>
+<p style="margin:0 0 28px;font-size:16px;line-height:1.65;color:#1f2f46;">Tienes una invitación para crear tu cuenta y empezar a preparar tu oposición.</p>
+<table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="border-radius:10px;background:#0a7a70;">
+<a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/app/onboarding" style="display:inline-block;padding:15px 28px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:10px;">Aceptar invitación &rarr;</a>
+</td></tr></table>
+</td></tr>
+<tr><td style="padding:24px 36px 32px;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#e3f6f3;border-radius:10px;padding:14px 16px;font-size:13px;line-height:1.55;color:#1f2f46;">Si no esperabas esta invitación, ignora este correo.</td></tr></table>
+<p style="margin:20px 0 4px;font-size:12px;line-height:1.5;color:#4a5a72;">¿El botón no funciona? Copia y pega este enlace en tu navegador:</p>
+<p style="margin:0;font-size:12px;line-height:1.5;word-break:break-all;"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/app/onboarding" style="color:#0a7a70;">{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=invite&amp;next=/app/onboarding</a></p>
+</td></tr>
+</table>
+</td></tr>
+<tr><td style="padding:20px 8px 0;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;line-height:1.6;color:#4a5a72;text-align:center;">
+Correo automático de OPOSAPRUEBA. No respondas a este mensaje.<br>¿Dudas? Escríbenos a <a href="mailto:hola@oposaprueba.com" style="color:#4a5a72;">hola@oposaprueba.com</a> · <a href="https://oposaprueba.com" style="color:#4a5a72;">oposaprueba.com</a>
+</td></tr>
+</table>
+</td></tr>
+</table>
 {{ end }}
-</td></tr>
-<tr><td style="border-top:1px solid #dde3ec;padding:16px 28px;font-size:12px;line-height:1.5;color:#4a5a72;">
-OPOSAPRUEBA · oposaprueba.com<br>Correo automático: no respondas a este mensaje. / Correu automàtic: no responguis aquest missatge.
-</td></tr>
-</table>
-</td></tr>
-</table>
 </body>
 </html>
