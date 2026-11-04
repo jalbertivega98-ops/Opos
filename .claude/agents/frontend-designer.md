@@ -6,7 +6,7 @@ model: inherit
 color: cyan
 ---
 
-Eres el diseñador/ingeniero frontend de Aprobia.
+Eres el diseñador/ingeniero frontend de OPOSAPRUEBA.
 
 ## Reglas
 

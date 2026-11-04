@@ -1,6 +1,6 @@
-# Aprobia · Academia digital de oposiciones
+# OPOSAPRUEBA · Academia digital de oposiciones
 
-Plataforma SaaS (marca provisional "Aprobia") para preparar oposiciones en España, gestionada por una sola persona (joel) con ayuda de IA. Multioposición, freemium, es/ca.
+Plataforma SaaS (marca OPOSAPRUEBA; antes «Aprobia», ADR-023) para preparar oposiciones en España, gestionada por una sola persona (joel) con ayuda de IA. Multioposición, freemium, es/ca.
 
 @AGENTS.md
 

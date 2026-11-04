@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -10,7 +10,7 @@ import { publicEnv } from "@/lib/env";
 import "../globals.css";
 
 const sans = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
-const display = Plus_Jakarta_Sans({
+const display = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["600", "700", "800"],
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
     metadataBase: new URL(publicEnv.NEXT_PUBLIC_SITE_URL),
-    title: { default: t("title"), template: `%s · Aprobia` },
+    title: { default: t("title"), template: `%s · OPOSAPRUEBA` },
     description: t("description"),
     alternates: { languages: { es: "/", ca: "/ca" } },
     manifest: "/manifest.webmanifest",

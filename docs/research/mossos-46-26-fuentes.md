@@ -119,7 +119,7 @@ Cada tema termina con unas «Idees força» y un «Glossari».
   - 11B, 12B, 13A, 14B, 15B, 16C, 17D, 18A, 19C, 20C
   - 21B, 22D, 23D, 24B, 25A, 26C, 27B, 28C, 29C, 30A
 
-**Regla de contenido (DEC-006).** Las preguntas de Aprobia imitan este formato, pero tienen redacción original:
+**Regla de contenido (DEC-006).** Las preguntas de OPOSAPRUEBA imitan este formato, pero tienen redacción original:
 
 - Salen de la Guia d'estudi.
 - Llevan cita literal y número de página.

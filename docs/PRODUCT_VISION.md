@@ -2,7 +2,7 @@
 
 ## Qué es
 
-Aprobia (nombre provisional) es una academia digital universal de oposiciones para España. Cualquier opositor se registra, elige la oposición que prepara y entrena con una plataforma interactiva que organiza su estudio, adapta los ejercicios a sus resultados y funciona en cualquier dispositivo.
+OPOSAPRUEBA (antes «Aprobia», nombre provisional) es una academia digital universal de oposiciones para España. Cualquier opositor se registra, elige la oposición que prepara y entrena con una plataforma interactiva que organiza su estudio, adapta los ejercicios a sus resultados y funciona en cualquier dispositivo.
 
 ## Propuesta de valor
 

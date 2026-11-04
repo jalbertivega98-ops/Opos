@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Marca OPOSAPRUEBA y letra seria (2026-11-04, rama `claude/project-thread-0diwv3`, ADR-023)
+
+- La marca pasa a **OPOSAPRUEBA** en la interfaz, los metadatos, el manifiesto, los correos locales y la documentación. Los titulares usan Source Serif 4.
+- Se probó una portada interactiva inspirada en speak.com (selector de psicotécnicos reales y pestañas del producto). joel prefirió el diseño anterior, así que se descartó: está en el commit f86e21e por si se recupera algo.
+- Falta cambiar el remitente y las plantillas de correo de Supabase cloud en su panel.
+
 ### Segunda oposición: Auxiliar Administrativo del Estado (2026-11-04, rama `claude/project-thread-mep42h`, CNT-012, ADR-020)
 
 - joel pidió la siguiente oposición con más clientes potenciales, hecha igual que Mossos, y **publicarla** cuando estuviera. Elegida por demanda estable y por encaje: 46.798-54.136 convocados al año, examen con 30 psicotécnicas y temario del BOE. Cifras y fuentes en `docs/research/auxiliar-estado-fuentes.md`.

@@ -1,4 +1,4 @@
-# Aprobia · Academia digital de oposiciones
+# OPOSAPRUEBA · Academia digital de oposiciones
 
 Plataforma para preparar oposiciones en España (multioposición, freemium, castellano/catalán).
 

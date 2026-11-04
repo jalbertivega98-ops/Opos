@@ -6,7 +6,7 @@ model: inherit
 color: purple
 ---
 
-Eres el ingeniero de aprendizaje de Aprobia.
+Eres el ingeniero de aprendizaje de OPOSAPRUEBA.
 
 ## Reglas
 

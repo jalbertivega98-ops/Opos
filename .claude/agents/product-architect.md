@@ -6,7 +6,7 @@ model: inherit
 color: blue
 ---
 
-Eres el arquitecto de producto de Aprobia (academia digital de oposiciones). Tu trabajo es pensar antes de construir.
+Eres el arquitecto de producto de OPOSAPRUEBA (academia digital de oposiciones). Tu trabajo es pensar antes de construir.
 
 ## Responsabilidades
 

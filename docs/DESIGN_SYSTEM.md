@@ -20,7 +20,7 @@ Uso en Tailwind: `bg-primary`, `text-accent`, `bg-surface`, `border-border`… N
 
 ## Tipografía
 
-- Texto: Inter (`font-sans`). Titulares: Plus Jakarta Sans 600–800 (`font-display`), tracking −0.02em.
+- Texto: Inter (`font-sans`). Titulares y marca: Source Serif 4 600–800 (`font-display`), tracking −0.02em. Serifa para un tono más serio (ADR-023, antes Plus Jakarta Sans).
 - Escala: h1 36–48 px, h2 30 px, h3 18 px, cuerpo 16 px (14 px en tablas/ayudas).
 
 ## Componentes base (src/components/ui)
@@ -36,7 +36,8 @@ Uso en Tailwind: `bg-primary`, `text-accent`, `bg-surface`, `border-border`… N
 - Formularios: label visible, ayuda bajo el campo, error con `role=alert`, botón deshabilitado mientras envía.
 - Estados: carga (Skeleton), vacío (EmptyState con acción), error (Alert).
 - Modo oscuro por clase (`next-themes`), por defecto el del sistema.
-- Movimiento: transiciones ≤ 200 ms, respeta `prefers-reduced-motion`.
+- Ancho: contenedor `.wrap` (máx. 100rem, márgenes 16→80 px según pantalla) en cabecera, secciones, panel y pie. Los textos conservan su ancho de lectura (`max-w-2xl`).
+- Movimiento: transiciones de controles ≤ 200 ms. En la portada, cada sección aparece una vez al bajar con un efecto distinto (`Reveal effect`: up, left, right, zoom, blur, tilt; escalonado con `delay`). Hay efectos ligados al scroll (`.scroll-drift` en la vista de progreso y `.scroll-grow` en la franja marina) donde el navegador admite `animation-timeline`. En móvil no hay desplazamientos laterales. Con `prefers-reduced-motion` no se anima nada. Sin bucles ni sonido. Las pantallas de ejercicio no se animan.
 - Gamificación sobria: números, barras y logros con iconografía lineal; sin mascotas ni confeti.
 
 ## Identidad visual (rediseño 2026-11-03, ADR-018)
@@ -72,4 +73,4 @@ Tarjetas principales `rounded-3xl p-6/8`, secundarias `rounded-2xl p-5`, control
 
 ## Marca
 
-Logo provisional: monograma "A" en cuadrado marino con barra turquesa (src/components/logo.tsx). Sin escudos, placas, uniformes ni logotipos oficiales.
+**OPOSAPRUEBA** (antes «Aprobia», ADR-023). Logo: monograma "A" (de «aprueba») en cuadrado marino con barra turquesa y palabra «OPOS» + «APRUEBA» en turquesa (src/components/logo.tsx). En móvil baja a 15 px para que la cabecera quepa en 390 px. Sin escudos, placas, uniformes ni logotipos oficiales.
