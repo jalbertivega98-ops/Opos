@@ -40,7 +40,7 @@ Premium: renovación, cancelación y pago fallido llegan como `customer.subscrip
 ## Antes de cobrar de verdad (requiere autorización expresa)
 
 - Activar la cuenta en Stripe con los datos reales del titular (DNI o empresa, IBAN, alta de autónomo). Claude no los rellena (DEC-004).
-- Aviso legal, condiciones de venta, privacidad (Stripe como encargado) revisados.
+- Textos legales publicados en `/legal/{aviso-legal,condiciones,privacidad,cookies}` (`src/components/legal/legal-docs.tsx`). Titular mostrado: marca **OPOSAPRUEBA** + oposaprueba@gmail.com (decisión de joel, 4/11/2026: sin datos personales). Opcionales en Vercel: `LEGAL_OWNER_NAME`, `LEGAL_OWNER_TAX_ID`, `LEGAL_OWNER_ADDRESS`, `LEGAL_OWNER_EMAIL`, `LEGAL_OWNER_REGISTRY`. Ojo: la LSSI (art. 10) pide nombre, NIF y domicilio de quien vende; revisarlo con el gestor.
 - Decidir facturación/IVA (Stripe Tax o facturas propias).
 - Claves `sk_live_`, webhook real y `STRIPE_LIVE_ENABLED=true`.
 

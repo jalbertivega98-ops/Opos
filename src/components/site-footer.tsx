@@ -15,6 +15,11 @@ export async function SiteFooter() {
           <p className="font-semibold">{t("legal")}</p>
           <ul className="text-muted-foreground space-y-1">
             <li>
+              <Link href="/legal/aviso-legal" className="hover:underline">
+                {t("notice")}
+              </Link>
+            </li>
+            <li>
               <Link href="/legal/privacidad" className="hover:underline">
                 {t("privacy")}
               </Link>
@@ -33,7 +38,7 @@ export async function SiteFooter() {
         </nav>
       </div>
       <p className="border-border text-muted-foreground border-t px-4 py-4 text-center text-xs">
-        © {new Date().getFullYear()} OPOSAPRUEBA · {t("draftNotice")}
+        © {new Date().getFullYear()} OPOSAPRUEBA · {t("note")}
       </p>
     </footer>
   );
