@@ -115,7 +115,14 @@ export async function listExamTopics(examBodyId: string) {
       }[]
     >();
   if (error) throw new Error(`catalog: ${error.message}`);
-  return (data ?? [])
-    .flatMap((r) => (r.topic ? [{ ...r.topic, order: r.order_index }] : []))
-    .sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug));
+  return (
+    (data ?? [])
+      // Los exámenes réplica y el banco de psicotécnicos verbales no son temas del programa
+      .flatMap((r) =>
+        r.topic && !/-examen-|psicotecnicos/.test(r.topic.slug)
+          ? [{ ...r.topic, order: r.order_index }]
+          : [],
+      )
+      .sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug))
+  );
 }
