@@ -12,6 +12,7 @@
   - Auxilio Judicial y Tramitación Procesal: 540 preguntas y 27 fichas (`jus-*`, `justra-*`), compartidas con `meta.also_exams`.
   - Policía Nacional: 520 preguntas de 3 opciones y 26 fichas (`pn-*`), temas 1-26.
 - **Preview:** `25-`, `26-`, `27-` (temario), `28-` (productos) y `29-` (publicación por petición de joel; las dudosas con N: quedan en borrador). Se aplican al fusionar el PR.
+- **Dudosas (05/11):** las 23 se verificaron contra el BOE y se publican con `30-` (petición de joel «Sube todo y verifica las dudosas»).
 - **Probado en local:** las cuatro oposiciones quedan disponibles, 14 productos publicados y los simulacros arrancan con su tamaño.
 - **Siguiente:** Guardia Civil, Policía temas 27-45 y las normas sin fuente (ver CNT-015 a CNT-018); guías SEO de las nuevas oposiciones.
 
