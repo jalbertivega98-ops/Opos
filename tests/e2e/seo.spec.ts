@@ -24,7 +24,7 @@ test.describe("SEO y GEO (ADR-025)", () => {
     expect(xml).toContain("/ca/psicotecnicos/interpretacion-de-tablas");
     expect(xml).toContain('hreflang="ca"');
     // Fichas «próximamente» sin guía: fuera del sitemap.
-    expect(xml).not.toContain("/oposiciones/guardia-civil-cabos-guardias");
+    expect(xml).not.toContain("/oposiciones/guardia-urbana-barcelona");
 
     const llms = await request.get("/llms.txt");
     expect(llms.headers()["content-type"]).toContain("text/plain");

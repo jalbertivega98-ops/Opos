@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "gc-17-tecnologias-informacion-lsec-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 17. Telecomunicaciones, TIC en la AGE, servicios de confianza e interoperabilidad",
+    "topic_slug": "gc-17-tecnologias-informacion",
+    "locale": "es",
+    "category": "gc_17_tecnologias_informacion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4.2 Ley 6/2020",
+      "stem": "Según el artículo 4 de la Ley 6/2020, reguladora de determinados aspectos de los servicios electrónicos de confianza, el período de vigencia de los certificados cualificados:",
+      "options": [
+        "No será superior a cinco años.",
+        "No será superior a tres años.",
+        "No será superior a diez años.",
+        "Será indefinido mientras no se revoquen."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 4.2 Ley 6/2020 limita la vigencia de los certificados cualificados a un máximo de cinco años, fijado según las características y la tecnología empleada.",
+      "excerpt": "2. El período de vigencia de los certificados cualificados no será superior a cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.1 Ley 6/2020",
+      "stem": "Conforme al artículo 7 de la Ley 6/2020, podrá prescindirse de la personación de la persona física que solicite un certificado cualificado:",
+      "options": [
+        "Si presenta una fotocopia compulsada de su Documento Nacional de Identidad.",
+        "Si es mayor de sesenta y cinco años o tiene reconocida una discapacidad.",
+        "Si la solicitud se presenta en una oficina de asistencia en materia de registros.",
+        "Si su firma en la solicitud de expedición ha sido legitimada en presencia notarial."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 7.1 Ley 6/2020 exige la personación ante los encargados de verificar la identidad, salvo que la firma en la solicitud haya sido legitimada notarialmente; el art. 7.2 remite a una orden ministerial los métodos de identificación a distancia.",
+      "excerpt": "1. La identificación de la persona física que solicite un certificado cualificado exigirá su personación ante los encargados de verificarla y se acreditará mediante el Documento Nacional de Identidad, pasaporte u otros medios admitidos en Derecho. Podrá prescindirse de la personación de la persona física que solicite un certificado cualificado si su firma en la solicitud de expedición de un certificado cualificado ha sido legitimada en presencia notarial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.3.a Ley 6/2020",
+      "stem": "Según el artículo 9 de la Ley 6/2020, los prestadores cualificados de servicios electrónicos de confianza deberán conservar la información relativa a los servicios prestados durante:",
+      "options": [
+        "15 años desde la extinción del certificado o la finalización del servicio prestado.",
+        "5 años desde la expedición del certificado.",
+        "10 años desde la extinción del certificado.",
+        "20 años desde la finalización del servicio prestado."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 9.3.a) Ley 6/2020 fija un período de conservación de 15 años contado desde la extinción del certificado o la finalización del servicio.",
+      "excerpt": "a) El período de tiempo durante el que deberán conservar la información relativa a los servicios prestados de acuerdo con el artículo 24.2.h) del Reglamento (UE) 910/2014, será de 15 años desde la extinción del certificado o la finalización del servicio prestado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.3.b Ley 6/2020",
+      "stem": "De acuerdo con el artículo 9 de la Ley 6/2020, los prestadores cualificados de servicios electrónicos de confianza que no pertenezcan al sector público deberán constituir un seguro de responsabilidad civil por importe mínimo de:",
+      "options": [
+        "3.000.000 euros, con independencia del número de servicios prestados.",
+        "1.500.000 euros, añadiendo 500.000 euros más por cada tipo de servicio cualificado adicional que presten.",
+        "1.000.000 euros, añadiendo 250.000 euros por cada servicio adicional.",
+        "500.000 euros, añadiendo 1.500.000 euros si prestan más de un servicio cualificado."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 9.3.b) Ley 6/2020 exige un seguro mínimo de 1.500.000 euros (salvo prestadores del sector público), más 500.000 euros por cada tipo de servicio cualificado adicional; puede sustituirse por aval bancario o seguro de caución.",
+      "excerpt": "b) Constituir un seguro de responsabilidad civil por importe mínimo de 1.500.000 euros, excepto si el prestador pertenece al sector público. Si presta más de un servicio cualificado de los previstos en el Reglamento (UE) 910/2014, se añadirán 500.000 euros más por cada tipo de servicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 12 Ley 6/2020",
+      "stem": "Según el artículo 12 de la Ley 6/2020, los prestadores de servicios de confianza no cualificados:",
+      "options": [
+        "Necesitan autorización administrativa previa para iniciar su actividad.",
+        "Deben comunicar su actividad con una antelación mínima de dos meses a su inicio.",
+        "No necesitan verificación administrativa previa para iniciar su actividad, pero deberán comunicarla en el plazo de tres meses desde que la inicien.",
+        "No están obligados a comunicar su actividad en ningún caso."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 12 Ley 6/2020 exime a los prestadores no cualificados de verificación previa, pero les obliga a comunicar su actividad en el plazo de tres meses desde su inicio, así como las modificaciones y el cese.",
+      "excerpt": "Los prestadores de servicios de confianza no cualificados no necesitan verificación administrativa previa de cumplimiento de requisitos para iniciar su actividad, pero deberán comunicar su actividad al Ministerio de Asuntos Económicos y Transformación Digital en el plazo de tres meses desde que la inicien",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 3.ª.1 Ley 6/2020",
+      "stem": "De acuerdo con la disposición adicional tercera de la Ley 6/2020, el Documento Nacional de Identidad electrónico es el que permite:",
+      "options": [
+        "Únicamente acreditar la identidad personal en las relaciones presenciales con la Administración.",
+        "Únicamente la firma electrónica de documentos, pero no la acreditación de la identidad.",
+        "Acreditar la nacionalidad española a efectos de viajar dentro de la Unión Europea.",
+        "Acreditar electrónicamente la identidad personal de su titular, así como la firma electrónica de documentos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La DA 3.ª.1 Ley 6/2020 define el DNI electrónico como el que permite acreditar electrónicamente la identidad de su titular, en los términos del art. 8 de la LO 4/2015, y la firma electrónica de documentos.",
+      "excerpt": "1. El Documento Nacional de Identidad electrónico es el Documento Nacional de Identidad que permite acreditar electrónicamente la identidad personal de su titular, en los términos establecidos en el artículo 8 de la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana, así como la firma electrónica de documentos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

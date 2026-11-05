@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "gc-17-tecnologias-informacion-lgtel-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 17. Telecomunicaciones, TIC en la AGE, servicios de confianza e interoperabilidad",
+    "topic_slug": "gc-17-tecnologias-informacion",
+    "locale": "es",
+    "category": "gc_17_tecnologias_informacion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 11/2022, de 28 de junio, General de Telecomunicaciones (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-10757",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.1 Ley 11/2022",
+      "stem": "Según el artículo 2 de la Ley 11/2022, General de Telecomunicaciones, las telecomunicaciones son:",
+      "options": [
+        "Servicios de interés general que se prestan en régimen de libre competencia.",
+        "Servicios públicos de titularidad estatal que se prestan en régimen de concesión.",
+        "Servicios esenciales reservados al Estado en todo caso.",
+        "Actividades privadas sujetas a autorización administrativa previa."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 2.1 Ley 11/2022 califica las telecomunicaciones como servicios de interés general prestados en régimen de libre competencia; solo los del art. 4 son servicio público.",
+      "excerpt": "1. Las telecomunicaciones son servicios de interés general que se prestan en régimen de libre competencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.1 Ley 11/2022",
+      "stem": "De acuerdo con la Ley 11/2022, ¿qué servicios de telecomunicaciones tienen la consideración de servicio público?",
+      "options": [
+        "Todos los servicios de comunicaciones electrónicas disponibles al público.",
+        "Únicamente el servicio universal de telecomunicaciones.",
+        "Únicamente los servicios de telecomunicaciones para la seguridad nacional, la defensa nacional, la seguridad pública, la seguridad vial y la protección civil regulados en su artículo 4.",
+        "Los servicios de acceso a internet de banda ancha y de telefonía móvil."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4.1 Ley 11/2022 dispone que solo tienen la consideración de servicio público los servicios regulados en ese artículo, que el propio título define como servicios para la seguridad nacional, la defensa nacional, la seguridad pública, la seguridad vial y la protección civil; el servicio universal es una obligación de servicio público (título III).",
+      "excerpt": "Artículo 4. Servicios de telecomunicaciones para la seguridad nacional, la defensa nacional, la seguridad pública, la seguridad vial y la protección civil. 1. Sólo tienen la consideración de servicio público los servicios regulados en este artículo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.6 Ley 11/2022",
+      "stem": "Según el artículo 4 de la Ley 11/2022, los acuerdos del Gobierno de asunción de la gestión directa de servicios o de intervención de redes de comunicaciones electrónicas para garantizar la seguridad pública y la seguridad nacional deberán comunicarse al órgano jurisdiccional competente:",
+      "options": [
+        "En el plazo de cuarenta y ocho horas, para que en un plazo de setenta y dos horas los ratifique o anule.",
+        "En el plazo de veinticuatro horas, para que en un plazo de cuarenta y ocho horas establezca si resultan acordes con los derechos fundamentales y libertades públicas.",
+        "En el plazo de setenta y dos horas, para su mero conocimiento.",
+        "En el plazo de diez días, para que resuelva en el plazo de un mes."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 4.6 Ley 11/2022 obliga al Gobierno a comunicar esos acuerdos en 24 horas al órgano jurisdiccional, que en 48 horas debe establecer si son acordes con los derechos fundamentales, anulándolos en caso negativo.",
+      "excerpt": "Los acuerdos de asunción de la gestión directa del servicio y de intervención de este o los de intervenir o explotar las redes a los que se refiere este apartado deberán ser comunicados por el Gobierno en el plazo de veinticuatro horas al órgano jurisdiccional competente para que, en un plazo de cuarenta y ocho horas, establezca si los mismos resultan acordes con los derechos fundamentales y libertades públicas reconocidas en el ordenamiento jurídico, procediendo a su anulación en caso negativo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58.2 Ley 11/2022",
+      "stem": "Conforme al artículo 58 de la Ley 11/2022, los operadores que suministren redes públicas de comunicaciones electrónicas o que presten servicios de comunicaciones interpersonales basados en numeración disponibles al público o servicios de acceso a internet:",
+      "options": [
+        "Solo están obligados a realizar interceptaciones cuando lo ordene el Ministerio del Interior.",
+        "Están obligados a realizar interceptaciones autorizadas judicialmente, pero con cargo a los Presupuestos Generales del Estado.",
+        "No pueden realizar interceptaciones en ningún caso, por el secreto de las comunicaciones.",
+        "Están obligados a realizar las interceptaciones que se autoricen judicialmente y a adoptar a su costa las medidas que establece el artículo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 58.2 Ley 11/2022 obliga a esos operadores a realizar las interceptaciones autorizadas judicialmente conforme a la LECrim, la LO 2/2002 y otras normas con rango de ley orgánica, y a adoptar a su costa las medidas previstas.",
+      "excerpt": "2. Los operadores que suministren redes públicas de comunicaciones electrónicas o que presten servicios de comunicaciones interpersonales basados en numeración disponibles al público o servicios de acceso a internet están obligados a realizar las interceptaciones que se autoricen judicialmente […] Asimismo, deberán adoptar a su costa las medidas que se establecen en este artículo y en los reglamentos correspondientes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 60.3 Ley 11/2022",
+      "stem": "Según el artículo 60 de la Ley 11/2022, en caso de violación de los datos personales, el operador de servicios de comunicaciones electrónicas disponibles al público la notificará:",
+      "options": [
+        "En el plazo de un mes a la Comisión Nacional de los Mercados y la Competencia.",
+        "Únicamente a los abonados afectados, en el plazo de diez días.",
+        "Sin dilaciones indebidas a la Agencia Española de Protección de Datos.",
+        "Al Ministerio Fiscal, en el plazo de setenta y dos horas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 60.3 Ley 11/2022 obliga a notificar la violación sin dilaciones indebidas a la AEPD y, si puede afectar negativamente a la intimidad o a los datos de un abonado o particular, también a este sin dilaciones indebidas.",
+      "excerpt": "3. En caso de violación de los datos personales, el operador de servicios de comunicaciones electrónicas disponibles al público notificará sin dilaciones indebidas dicha violación a la Agencia Española de Protección de Datos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62.1-2 Ley 11/2022",
+      "stem": "De acuerdo con el artículo 62 de la Ley 11/2022, la información que se transmita por redes de comunicaciones electrónicas:",
+      "options": [
+        "No podrá cifrarse salvo autorización previa del Ministerio del Interior.",
+        "Solo podrá cifrarse cuando se trate de comunicaciones de las Administraciones públicas.",
+        "Deberá cifrarse obligatoriamente en todo caso.",
+        "Podrá ser protegida mediante procedimientos de cifrado, que es un instrumento de seguridad de la información."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 62 Ley 11/2022 permite proteger cualquier tipo de información mediante cifrado y lo define como instrumento de seguridad de la información, aunque puede imponerse la obligación de facilitar los algoritmos en casos justificados.",
+      "excerpt": "1. Cualquier tipo de información que se transmita por redes de comunicaciones electrónicas podrá ser protegida mediante procedimientos de cifrado. 2. El cifrado es un instrumento de seguridad de la información.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

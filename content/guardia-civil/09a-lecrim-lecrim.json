@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "set": "gc-09a-lecrim-lecrim-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 9. Derecho procesal penal (I): LECrim y habeas corpus",
+    "topic_slug": "gc-09a-lecrim",
+    "locale": "es",
+    "category": "gc_09a_lecrim",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15 LECrim",
+      "stem": "Según el artículo 15 de la Ley de Enjuiciamiento Criminal, cuando no conste el lugar en que se haya cometido el delito y se suscite competencia entre varios jueces, ¿cuál tiene preferencia en primer lugar?",
+      "options": [
+        "El del término municipal, partido o circunscripción en que se hayan descubierto pruebas materiales del delito.",
+        "El del término municipal, partido o circunscripción en que el presunto reo haya sido aprehendido.",
+        "El de la residencia del reo presunto.",
+        "Cualquiera que hubiese tenido noticia del delito."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15 LECrim enumera cuatro fueros subsidiarios (pruebas materiales, aprehensión, residencia del reo y noticia del delito) y ordena que la competencia se decida dando preferencia por ese mismo orden, por lo que prima el lugar donde se descubrieron pruebas materiales.",
+      "excerpt": "1.º El del término municipal, partido o circunscripción en que se hayan descubierto pruebas materiales del delito. […] Si se suscitase competencia entre estos Jueces o Tribunales, se decidirá dando la preferencia por el orden con que están expresados en los números que preceden.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2 LECrim",
+      "stem": "¿Cuál de los siguientes se considera delito conexo a efectos de la atribución de jurisdicción y de la distribución de la competencia, según el artículo 17.2 de la Ley de Enjuiciamiento Criminal?",
+      "options": [
+        "Los cometidos por dos o más personas en distintos lugares o tiempos sin que haya precedido concierto para ello.",
+        "Los cometidos para procurar la impunidad de otros delitos.",
+        "Los cometidos por la misma persona aunque no tengan analogía ni relación entre sí.",
+        "Los cometidos por una misma persona en distintos partidos judiciales contra víctimas diferentes."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 17.2.4.º LECrim incluye entre los delitos conexos los cometidos para procurar la impunidad de otros delitos; los cometidos por varias personas en distintos lugares o tiempos solo son conexos si precedió concierto (17.2.2.º), y los de una misma persona con analogía o relación no son conexos, aunque puedan enjuiciarse juntos (17.3).",
+      "excerpt": "2. A los efectos de la atribución de jurisdicción y de la distribución de la competencia se consideran delitos conexos: […] 4.º Los cometidos para procurar la impunidad de otros delitos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 102 LECrim",
+      "stem": "Según el artículo 102 de la Ley de Enjuiciamiento Criminal, con las salvedades que el propio artículo establece, no podrá ejercitar la acción penal:",
+      "options": [
+        "El funcionario de la Policía Judicial.",
+        "El abogado en ejercicio.",
+        "El que hubiera sido condenado una vez por sentencia firme por cualquier delito.",
+        "El Juez o Magistrado."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 102 LECrim excluye del ejercicio de la acción penal a quien no goce de la plenitud de los derechos civiles, al condenado dos veces por sentencia firme por denuncia o querella calumniosas y al Juez o Magistrado (aunque pueden ejercerla por delitos contra sus personas o bienes o los de ciertos familiares).",
+      "excerpt": "no podrán ejercitar la acción penal: 1.º El que no goce de la plenitud de los derechos civiles. 2.º El que hubiera sido condenado dos veces por sentencia firme como reo del delito de denuncia o querella calumniosas. 3.º El Juez o Magistrado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 115 LECrim",
+      "stem": "De acuerdo con el artículo 115 de la Ley de Enjuiciamiento Criminal, ¿qué efecto produce la muerte del culpable sobre las acciones nacidas del delito?",
+      "options": [
+        "Se extinguen tanto la acción penal como la civil.",
+        "Subsisten la acción penal y la civil, que podrán dirigirse contra sus herederos.",
+        "Se extingue la acción penal, pero subsiste la civil contra sus herederos y causahabientes, que solo podrá ejercitarse ante la jurisdicción y por la vía de lo civil.",
+        "Se extingue la acción penal, pero la civil subsiste y puede seguir ejercitándose ante el juez penal que conocía de la causa."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 115 LECrim dispone que la acción penal se extingue por la muerte del culpable, mientras que la civil subsiste contra herederos y causahabientes, ejercitable solo ante la jurisdicción civil.",
+      "excerpt": "La acción penal se extingue por la muerte del culpable; pero en este caso subsiste la civil contra sus herederos y causahabientes, que sólo podrá ejercitarse ante la jurisdicción y por la vía de lo civil.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 123.1.d) LECrim",
+      "stem": "Según el artículo 123 de la Ley de Enjuiciamiento Criminal, ¿qué documentos deberán ser traducidos en todo caso al imputado o acusado que no hable o entienda el castellano o la lengua oficial de la actuación?",
+      "options": [
+        "La denuncia, el atestado policial y la sentencia.",
+        "La querella, el auto de procesamiento y la citación a juicio.",
+        "Únicamente la sentencia firme.",
+        "Las resoluciones que acuerden la prisión del imputado, el escrito de acusación y la sentencia."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 123.1.d) LECrim reconoce el derecho a la traducción escrita de los documentos esenciales para la defensa y precisa que siempre deben traducirse las resoluciones que acuerden la prisión, el escrito de acusación y la sentencia.",
+      "excerpt": "Deberán ser traducidos, en todo caso, las resoluciones que acuerden la prisión del imputado, el escrito de acusación y la sentencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 126 LECrim",
+      "stem": "Conforme al artículo 126 de la Ley de Enjuiciamiento Criminal, ¿qué derechos del artículo 123.1 no podrán ser renunciados en ningún caso por el imputado o acusado?",
+      "options": [
+        "El de ser asistido por un intérprete en las actuaciones en que sea necesaria su presencia y el de interpretación de todas las actuaciones del juicio oral.",
+        "El de traducción escrita de los documentos esenciales y el de presentar una solicitud motivada para que se considere esencial un documento.",
+        "El de servirse de intérprete en las conversaciones con su abogado y el de traducción escrita de la sentencia.",
+        "Todos ellos pueden renunciarse, siempre que la renuncia sea expresa y libre."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 126 LECrim admite la renuncia expresa, libre e informada a los derechos del art. 123, salvo los de las letras a) (intérprete en todas las actuaciones en que sea necesaria su presencia) y c) (interpretación de todo el juicio oral), que son irrenunciables.",
+      "excerpt": "En todo caso, los derechos a los que se refieren las letras a) y c) del apartado 1 del artículo 123 no podrán ser renunciados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 261 LECrim",
+      "stem": "Según el artículo 261 de la Ley de Enjuiciamiento Criminal, con carácter general no están obligados a denunciar los parientes colaterales del delincuente:",
+      "options": [
+        "Hasta el tercer grado inclusive.",
+        "Hasta el segundo grado inclusive.",
+        "Hasta el cuarto grado inclusive.",
+        "Hasta el cuarto grado por consanguinidad y el segundo por afinidad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 261 LECrim exime de la obligación de denunciar al cónyuge o persona en análoga relación de afectividad, a ascendientes y descendientes y a los colaterales hasta el segundo grado inclusive, salvo en los delitos graves contra menores o personas con discapacidad necesitadas de especial protección que el propio artículo enumera.",
+      "excerpt": "2.º Quienes sean ascendientes y descendientes del delincuente y sus parientes colaterales hasta el segundo grado inclusive.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 266 LECrim",
+      "stem": "Según el artículo 266 de la Ley de Enjuiciamiento Criminal, ¿en cuál de los siguientes casos no se podrá presentar la denuncia por vía telemática?",
+      "options": [
+        "Cuando se trate de un hecho sin autor conocido ni testigos, cometido sin violencia ni intimidación.",
+        "Cuando la denuncia se firme con firma electrónica.",
+        "Cuando el denunciante sea menor de edad.",
+        "Cuando el denunciante resida fuera del partido judicial en que se cometió el hecho."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 266 LECrim excluye la denuncia telemática si el hecho se cometió con violencia o intimidación, si tiene autor conocido, si hay testigos, si el denunciante es menor de edad, si hay delito flagrante o si los hechos son de naturaleza violenta o sexual; la denuncia telemática se firma con firma electrónica.",
+      "excerpt": "No se podrán denunciar por vía telemática aquellos hechos que se hayan producido con violencia o intimidación, ni si tienen autor conocido, ni si existen testigos, ni si el denunciante es menor de edad, ni si se ha cometido delito flagrante, ni aquellos hechos de naturaleza violenta o sexual.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 277 LECrim",
+      "stem": "De acuerdo con el artículo 277 de la Ley de Enjuiciamiento Criminal, la querella se presentará siempre:",
+      "options": [
+        "Personalmente por el querellante, sin necesidad de Procurador ni de Letrado.",
+        "Por medio de Procurador con poder bastante y suscrita por Letrado.",
+        "Por medio de Letrado, sin que sea necesaria la intervención de Procurador.",
+        "Por medio de Procurador, sin que sea necesaria la firma de Letrado."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "A diferencia de la denuncia, la querella exige postulación: el art. 277 LECrim impone su presentación por Procurador con poder bastante y la firma de Letrado.",
+      "excerpt": "La querella se presentará siempre por medio de Procurador con poder bastante y suscrita por Letrado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 283 LECrim",
+      "stem": "Según el artículo 283 de la Ley de Enjuiciamiento Criminal, ¿quiénes de los siguientes constituyen la Policía judicial?",
+      "options": [
+        "Los Jefes, Oficiales e individuos de la Guardia Civil.",
+        "Los Notarios y Registradores de la Propiedad.",
+        "Los Procuradores de los Tribunales.",
+        "Los Abogados del Estado."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 283 LECrim enumera quiénes constituyen la Policía judicial como auxiliares de jueces, tribunales y Ministerio Fiscal; su apartado cuarto incluye a los Jefes, Oficiales e individuos de la Guardia Civil.",
+      "excerpt": "Cuarto. Los Jefes, Oficiales e individuos de la Guardia Civil o de cualquier otra fuerza destinada a la persecución de malhechores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 284.2 LECrim",
+      "stem": "Según el artículo 284.2 de la Ley de Enjuiciamiento Criminal, cuando no exista autor conocido del delito, la Policía Judicial conservará el atestado sin enviarlo a la autoridad judicial ni al Ministerio Fiscal, salvo, entre otros casos:",
+      "options": [
+        "Que se trate de delitos contra el patrimonio cometidos sin violencia ni intimidación.",
+        "Que hayan transcurrido veinticuatro horas desde la apertura del atestado.",
+        "Que se trate de delitos contra la vida, contra la integridad física, contra la libertad e indemnidad sexuales o de delitos relacionados con la corrupción.",
+        "Que el denunciante lo solicite por escrito."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 284.2 LECrim exceptúa de la conservación del atestado sin autor conocido los delitos contra la vida, la integridad física, la libertad e indemnidad sexuales y los relacionados con la corrupción, los casos en que se practique una diligencia con resultado pasadas setenta y dos horas y aquellos en que el Fiscal o el juez soliciten la remisión.",
+      "excerpt": "a) Que se trate de delitos contra la vida, contra la integridad física, contra la libertad e indemnidad sexuales o de delitos relacionados con la corrupción;",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 295 LECrim",
+      "stem": "Según el artículo 295 de la Ley de Enjuiciamiento Criminal, salvo fuerza mayor y el supuesto del artículo 284.2, los funcionarios de Policía Judicial no podrán dejar transcurrir sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias practicadas más de:",
+      "options": [
+        "Doce horas.",
+        "Cuarenta y ocho horas.",
+        "Setenta y dos horas.",
+        "Veinticuatro horas."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 295 LECrim fija en veinticuatro horas el plazo máximo para dar conocimiento de las diligencias practicadas, y castiga disciplinariamente tanto su superación como la demora innecesaria dentro de ese plazo.",
+      "excerpt": "En ningún caso los funcionarios de Policía Judicial podrán dejar transcurrir más de veinticuatro horas sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal de las diligencias que hubieran practicado, salvo en los supuestos de fuerza mayor y en el previsto en el apartado 2 del artículo 284.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 302 LECrim",
+      "stem": "Según el artículo 302 de la Ley de Enjuiciamiento Criminal, si el delito fuere público, el Juez de Instrucción podrá declarar el sumario secreto para todas las partes personadas por tiempo:",
+      "options": [
+        "No superior a tres meses, debiendo alzarse el secreto con al menos diez días de antelación a la conclusión del sumario.",
+        "No superior a un mes, debiendo alzarse el secreto con al menos diez días de antelación a la conclusión del sumario.",
+        "No superior a quince días, debiendo alzarse el secreto con al menos cinco días de antelación a la conclusión del sumario.",
+        "No superior a dos meses, sin necesidad de alzarlo antes de la conclusión del sumario."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 302 LECrim permite declarar, mediante auto, el secreto total o parcial del sumario por un máximo de un mes, para evitar un riesgo grave para otra persona o un perjuicio grave a la investigación, y obliga a alzarlo al menos diez días antes de concluir el sumario.",
+      "excerpt": "declararlo, mediante auto, total o parcialmente secreto para todas las partes personadas, por tiempo no superior a un mes […] El secreto del sumario deberá alzarse necesariamente con al menos diez días de antelación a la conclusión del sumario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 496 LECrim",
+      "stem": "Según el artículo 496 de la Ley de Enjuiciamiento Criminal, el particular, Autoridad o agente de Policía judicial que detuviere a una persona deberá ponerla en libertad o entregarla al Juez más próximo al lugar de la detención:",
+      "options": [
+        "Dentro de las veinticuatro horas siguientes al acto de la detención.",
+        "Dentro de las doce horas siguientes al acto de la detención.",
+        "Dentro de las cuarenta y ocho horas siguientes al acto de la detención.",
+        "Dentro de los cinco días siguientes al acto de la detención."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 496 LECrim establece el plazo de veinticuatro horas para la entrega al juez más próximo o la puesta en libertad, y la demora superior a ese plazo genera responsabilidad penal.",
+      "excerpt": "deberá ponerla en libertad o entregarla al Juez más próximo al lugar en que hubiere hecho la detención dentro de las veinticuatro horas siguientes al acto de la misma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520.1 LECrim",
+      "stem": "Según el artículo 520 de la Ley de Enjuiciamiento Criminal, la detención preventiva no podrá durar más del tiempo estrictamente necesario y, en todo caso, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial en el plazo máximo de:",
+      "options": [
+        "Veinticuatro horas.",
+        "Cuarenta y ocho horas.",
+        "Setenta y dos horas.",
+        "Noventa y seis horas."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 520.1 LECrim (en línea con el art. 17.2 CE) fija en setenta y dos horas el límite máximo de la detención preventiva antes de la libertad o la puesta a disposición judicial.",
+      "excerpt": "Dentro de los plazos establecidos en la presente Ley, y, en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520.5 LECrim",
+      "stem": "De acuerdo con el artículo 520.5 de la Ley de Enjuiciamiento Criminal, el abogado designado para asistir al detenido acudirá al centro de detención con la máxima premura, siempre dentro del plazo máximo de:",
+      "options": [
+        "Una hora desde la recepción del encargo.",
+        "Ocho horas desde la recepción del encargo.",
+        "Veinticuatro horas desde la detención.",
+        "Tres horas desde la recepción del encargo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 520.5 LECrim impone al abogado un plazo máximo de tres horas desde que recibe el encargo; si no comparece, el Colegio de Abogados designa un nuevo abogado de oficio.",
+      "excerpt": "El abogado designado acudirá al centro de detención con la máxima premura, siempre dentro del plazo máximo de tres horas desde la recepción del encargo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 554 LECrim",
+      "stem": "A efectos de la entrada y registro, ¿cuál de los siguientes se reputa domicilio según el artículo 554 de la Ley de Enjuiciamiento Criminal?",
+      "options": [
+        "Los buques del Estado.",
+        "Los edificios destinados a cualquier establecimiento de reunión o recreo.",
+        "Los edificios destinados a cualquier servicio oficial del Municipio.",
+        "Los buques nacionales mercantes."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 554 LECrim considera domicilio los Palacios Reales, la vivienda del español o extranjero residente, los buques nacionales mercantes y la sede de dirección de las personas jurídicas imputadas; los buques del Estado, los locales de reunión o recreo y los edificios oficiales son lugares públicos según el art. 547.",
+      "excerpt": "Se reputan domicilio, para los efectos de los artículos anteriores: […] 3.º Los buques nacionales mercantes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

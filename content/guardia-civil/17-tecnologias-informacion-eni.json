@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "gc-17-tecnologias-informacion-eni-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 17. Telecomunicaciones, TIC en la AGE, servicios de confianza e interoperabilidad",
+    "topic_slug": "gc-17-tecnologias-informacion",
+    "locale": "es",
+    "category": "gc_17_tecnologias_informacion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 4/2010, de 8 de enero, Esquema Nacional de Interoperabilidad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4 RD 4/2010",
+      "stem": "Según el artículo 4 del Real Decreto 4/2010, del Esquema Nacional de Interoperabilidad, son principios específicos de la interoperabilidad:",
+      "options": [
+        "La seguridad integral, la gestión de riesgos y la prevención, reacción y recuperación.",
+        "La neutralidad tecnológica, la proporcionalidad y la confidencialidad.",
+        "La interoperabilidad como cualidad integral, su carácter multidimensional y el enfoque de soluciones multilaterales.",
+        "La legalidad, la eficacia y la transparencia."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 4 RD 4/2010 enumera tres principios específicos: la interoperabilidad como cualidad integral, su carácter multidimensional y el enfoque de soluciones multilaterales, que se desarrollan en los arts. 5 a 7.",
+      "excerpt": "a) La interoperabilidad como cualidad integral. b) Carácter multidimensional de la interoperabilidad. c) Enfoque de soluciones multilaterales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6 RD 4/2010",
+      "stem": "De acuerdo con el artículo 6 del Real Decreto 4/2010, la interoperabilidad se entenderá contemplando sus dimensiones:",
+      "options": [
+        "Organizativa, semántica y técnica.",
+        "Jurídica, económica y técnica.",
+        "Física, lógica y de seguridad.",
+        "Normativa, presupuestaria y organizativa."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 6 RD 4/2010 recoge el carácter multidimensional de la interoperabilidad: dimensiones organizativa, semántica y técnica, sin olvidar la dimensión temporal.",
+      "excerpt": "La interoperabilidad se entenderá contemplando sus dimensiones organizativa, semántica y técnica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.1 RD 4/2010",
+      "stem": "Conforme al artículo 13 del Real Decreto 4/2010, ¿qué red prestará la Red de comunicaciones de las Administraciones públicas españolas?",
+      "options": [
+        "La Red Nacional de Información sobre Protección Civil.",
+        "La Red de Alerta Nacional.",
+        "La Red IRIS.",
+        "La Red SARA."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 13.1 RD 4/2010 dispone que las Administraciones públicas usarán preferentemente la Red de comunicaciones de las Administraciones públicas españolas, prestada por la Red SARA.",
+      "excerpt": "La Red SARA prestará la citada Red de comunicaciones de las Administraciones públicas españolas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.2 RD 4/2010",
+      "stem": "Según el artículo 15 del Real Decreto 4/2010, la sincronización de la fecha y la hora de los sistemas implicados en la provisión de un servicio público por vía electrónica se realizará con:",
+      "options": [
+        "El Instituto Geográfico Nacional.",
+        "El Real Instituto y Observatorio de la Armada.",
+        "La Agencia Estatal de Meteorología.",
+        "El Centro Criptológico Nacional."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 15.2 RD 4/2010 remite la sincronización de fecha y hora al Real Instituto y Observatorio de la Armada, laboratorio depositario del patrón nacional de Tiempo, y, cuando sea posible, a la hora oficial europea.",
+      "excerpt": "2. La sincronización de la fecha y la hora se realizará con el Real Instituto y Observatorio de la Armada",
+      "excerpt_status": "completo"
+    }
+  ]
+}

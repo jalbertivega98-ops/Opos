@@ -25,9 +25,9 @@ test.describe("Web pública", () => {
   test("ficha de oposición sin contenido indica 'próximamente' y no inventa datos", async ({
     page,
   }) => {
-    await page.goto("/oposiciones/guardia-civil-cabos-guardias");
+    await page.goto("/oposiciones/guardia-urbana-barcelona");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-      "Guardia Civil · Cabos y Guardias",
+      "Guardia Urbana de Barcelona",
     );
     await expect(page.getByText("todavía no tiene contenido suficiente")).toBeVisible();
     await expect(page.getByText("Aún no hemos publicado convocatorias verificadas")).toBeVisible();
