@@ -442,7 +442,7 @@
     "practiceUsers": "Alumnos que practican",
     "practiceByType": "Aciertos por tipo (histórico)",
     "audienceTitle": "Visitas y cuentas",
-    "audienceHint": "Visitas: personas que llegan a la web (se cuenta la página de entrada, sin cookies). Entradas: cuentas que han iniciado sesión en el periodo. Detalle por origen en Tráfico.",
+    "audienceHint": "Visitas: personas que llegan a la web (se cuenta la página de entrada, sin cookies). Han entrado: personas que han iniciado sesión o ya la tenían abierta en el periodo, cada una una vez. Detalle por origen en Tráfico.",
     "audienceToday": "Hoy",
     "audience7d": "7 días",
     "audience30d": "30 días",
@@ -450,7 +450,13 @@
     "audienceSignups": "Registros nuevos",
     "audienceLogins": "Han entrado",
     "audienceTotal": "{total} cuentas en total · {confirmed} con el correo confirmado",
-    "audienceTraffic": "Ver tráfico por origen"
+    "audienceTraffic": "Ver tráfico por origen",
+    "chartTitle": "Por día, últimos 30 días",
+    "chartVisits": "Visitas",
+    "chartLogins": "Han entrado",
+    "chartSignups": "Registros nuevos",
+    "chartTotal": "{n} en 30 días",
+    "chartHint": "Pasa el ratón por una barra para ver el día y la cifra. «Han entrado» cuenta a cada persona una vez al día, tanto si inicia sesión como si ya la tenía abierta. La suma de 30 días puede contar a la misma persona en días distintos."
   },
   "profile": {
     "title": "Mi perfil",

@@ -140,7 +140,13 @@ test.describe("Administración", () => {
     await expect(signups.locator("dd").first()).not.toHaveText("0");
     await expect(page.getByTestId("audience-audienceLogins")).toContainText("Han entrado");
     await expect(page.getByTestId("admin-audience")).toContainText("cuentas en total");
-    await expect(page.getByRole("table")).toContainText("Admin");
+    await expect(page.getByTestId("chart-logins")).toContainText("Han entrado");
+    await expect(page.getByTestId("chart-visits").locator("table tr")).toHaveCount(30);
+    if (process.env.SHOT_DIR)
+      await page
+        .getByTestId("admin-audience")
+        .screenshot({ path: `${process.env.SHOT_DIR}/audiencia.png` });
+    await expect(page.getByTestId("recent-users")).toContainText("Admin");
   });
 });
 

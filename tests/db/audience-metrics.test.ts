@@ -13,9 +13,19 @@ describe("cifras de audiencia del panel (admin_audience_metrics)", () => {
     student = (await createUser(client)).id;
     admin = (await createUser(client, { role: "admin" })).id;
     ids.push(student, admin);
-    await client.query("update auth.users set last_sign_in_at = now() where id = $1", [student]);
+    await client.query(
+      `insert into auth.audit_log_entries (instance_id, id, payload, created_at)
+       values ('00000000-0000-0000-0000-000000000000', gen_random_uuid(),
+               json_build_object('action','login','actor_id',$1::text), now()),
+              ('00000000-0000-0000-0000-000000000000', gen_random_uuid(),
+               json_build_object('action','token_refreshed','actor_id',$1::text), now())`,
+      [student],
+    );
   });
   afterAll(async () => {
+    await client.query("delete from auth.audit_log_entries where payload->>'actor_id' = $1", [
+      student,
+    ]);
     await cleanup(client, ids);
     await client.end();
   });
@@ -50,10 +60,25 @@ describe("cifras de audiencia del panel (admin_audience_metrics)", () => {
     );
     expect(m.users_total).toBeGreaterThanOrEqual(2);
     expect(m.signups_7d).toBeGreaterThanOrEqual(2);
-    expect(m.logins_7d).toBeGreaterThanOrEqual(1);
+    expect(m.logins_today).toBeGreaterThanOrEqual(1);
+    expect(m.logins_7d).toBeGreaterThanOrEqual(m.logins_today);
     expect(m.visits_today).toBeGreaterThanOrEqual(3);
     expect(m.visits_30d).toBeGreaterThanOrEqual(m.visits_7d);
     expect(m.signups_30d).toBeGreaterThanOrEqual(m.signups_7d);
+  });
+
+  it("da una fila por día con visitas, registros y entradas", async () => {
+    const rows = await as(client, { uid: admin }, async (q) => {
+      const r = await q("select * from public.admin_audience_daily(7)");
+      return r.rows as { day: Date; visits: string; signups: string; logins: string }[];
+    });
+    expect(rows).toHaveLength(7);
+    const today = rows[6];
+    expect(Number(today.signups)).toBeGreaterThanOrEqual(2);
+    expect(Number(today.logins)).toBeGreaterThanOrEqual(1);
+    await expect(
+      as(client, { uid: student }, (q) => q("select * from public.admin_audience_daily(7)")),
+    ).rejects.toThrow(/Solo administradores/);
   });
 
   it("el alumnado y anon no pueden consultarlo", async () => {

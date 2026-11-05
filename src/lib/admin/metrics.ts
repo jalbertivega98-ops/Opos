@@ -88,3 +88,20 @@ export async function getAudienceMetrics(): Promise<AudienceMetrics> {
   if (error) throw new Error(`admin audience metrics: ${error.message}`);
   return data as AudienceMetrics;
 }
+
+export type AudienceDay = { day: string; visits: number; signups: number; logins: number };
+
+/** Serie diaria de los últimos `days` días (hora de Madrid) para la gráfica del panel. */
+export async function getAudienceDaily(days = 30): Promise<AudienceDay[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_audience_daily", { p_days: days });
+  if (error) throw new Error(`admin audience daily: ${error.message}`);
+  return ((data ?? []) as { day: string; visits: number; signups: number; logins: number }[]).map(
+    (r) => ({
+      day: String(r.day),
+      visits: Number(r.visits),
+      signups: Number(r.signups),
+      logins: Number(r.logins),
+    }),
+  );
+}

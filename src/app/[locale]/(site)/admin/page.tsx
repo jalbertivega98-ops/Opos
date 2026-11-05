@@ -3,7 +3,13 @@ import { getFormatter, getTranslations, setRequestLocale } from "next-intl/serve
 import { Card, EmptyState } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { Link } from "@/i18n/navigation";
-import { getAudienceMetrics, getPracticeMetrics, getUserMetrics } from "@/lib/admin/metrics";
+import { DailyChart } from "@/components/admin/daily-chart";
+import {
+  getAudienceDaily,
+  getAudienceMetrics,
+  getPracticeMetrics,
+  getUserMetrics,
+} from "@/lib/admin/metrics";
 import { pct } from "@/lib/learning/practice/format";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
@@ -14,11 +20,21 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
   const t = await getTranslations("admin");
   const format = await getFormatter();
   const tp = await getTranslations("psycho");
-  const [m, pm, am] = await Promise.all([
+  const [m, pm, am, daily] = await Promise.all([
     getUserMetrics(),
     getPracticeMetrics(),
     getAudienceMetrics(),
+    getAudienceDaily(30),
   ]);
+  const formatDay = (day: string) =>
+    format.dateTime(new Date(`${day}T12:00:00Z`), { day: "numeric", month: "short" });
+  const formatNumber = (n: number) => format.number(n);
+  const sum = (k: "visits" | "logins" | "signups") => daily.reduce((a, d) => a + d[k], 0);
+  const charts = [
+    { key: "visits", title: t("chartVisits"), bar: "bg-accent" },
+    { key: "logins", title: t("chartLogins"), bar: "bg-primary" },
+    { key: "signups", title: t("chartSignups"), bar: "bg-highlight" },
+  ] as const;
   const audience = [
     ["audienceVisits", am.visits_today, am.visits_7d, am.visits_30d],
     ["audienceSignups", am.signups_today, am.signups_7d, am.signups_30d],
@@ -83,6 +99,24 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
             </Card>
           ))}
         </div>
+        <Card className="mt-4" data-testid="audience-chart">
+          <h3 className="font-semibold">{t("chartTitle")}</h3>
+          <div className="mt-4 grid gap-6 lg:grid-cols-3">
+            {charts.map((c) => (
+              <DailyChart
+                key={c.key}
+                testId={`chart-${c.key}`}
+                title={c.title}
+                total={t("chartTotal", { n: format.number(sum(c.key)) })}
+                points={daily.map((d) => ({ day: d.day, value: d[c.key] }))}
+                formatDay={formatDay}
+                formatNumber={formatNumber}
+                barClassName={c.bar}
+              />
+            ))}
+          </div>
+          <p className="text-muted-foreground mt-4 text-xs">{t("chartHint")}</p>
+        </Card>
         <p className="text-muted-foreground mt-3 text-sm">
           {t("audienceTotal", {
             total: format.number(am.users_total),
@@ -154,7 +188,7 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
               <EmptyState title={t("noUsers")} />
             </div>
           ) : (
-            <table className="mt-3 w-full min-w-[520px] text-left text-sm">
+            <table className="mt-3 w-full min-w-[520px] text-left text-sm" data-testid="recent-users">
               <thead className="text-muted-foreground">
                 <tr>
                   <th scope="col" className="py-2 pr-3 font-medium">

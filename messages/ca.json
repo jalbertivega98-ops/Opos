@@ -442,7 +442,7 @@
     "practiceUsers": "Alumnes que practiquen",
     "practiceByType": "Encerts per tipus (històric)",
     "audienceTitle": "Visites i comptes",
-    "audienceHint": "Visites: persones que arriben al web (es compta la pàgina d'entrada, sense galetes). Entrades: comptes que han iniciat sessió en el període. Detall per origen a Trànsit.",
+    "audienceHint": "Visites: persones que arriben al web (es compta la pàgina d'entrada, sense galetes). Hi han entrat: persones que han iniciat sessió o ja la tenien oberta en el període, cadascuna una vegada. Detall per origen a Trànsit.",
     "audienceToday": "Avui",
     "audience7d": "7 dies",
     "audience30d": "30 dies",
@@ -450,7 +450,13 @@
     "audienceSignups": "Registres nous",
     "audienceLogins": "Hi han entrat",
     "audienceTotal": "{total} comptes en total · {confirmed} amb el correu confirmat",
-    "audienceTraffic": "Veure el trànsit per origen"
+    "audienceTraffic": "Veure el trànsit per origen",
+    "chartTitle": "Per dia, últims 30 dies",
+    "chartVisits": "Visites",
+    "chartLogins": "Hi han entrat",
+    "chartSignups": "Registres nous",
+    "chartTotal": "{n} en 30 dies",
+    "chartHint": "Passa el ratolí per una barra per veure el dia i la xifra. «Hi han entrat» compta cada persona una vegada al dia, tant si inicia sessió com si ja la tenia oberta. La suma de 30 dies pot comptar la mateixa persona en dies diferents."
   },
   "profile": {
     "title": "El meu perfil",
