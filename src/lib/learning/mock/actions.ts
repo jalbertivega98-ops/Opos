@@ -24,7 +24,7 @@ export async function startMockAction(formData: FormData) {
   const locale = await getLocale();
   const { user, profile } = await getSession();
   if (!user || !profile) {
-    redirect({ href: `/entrar?next=${encodeURIComponent("/app/productos")}`, locale });
+    redirect({ href: `/entrar?next=${encodeURIComponent("/app/simulacros")}`, locale });
     return;
   }
   if (profile.status !== "active") {
@@ -33,7 +33,7 @@ export async function startMockAction(formData: FormData) {
   }
   const parsed = startMockSchema.safeParse(Object.fromEntries(formData));
   if (!parsed.success) {
-    redirect({ href: "/app/productos?error=invalid", locale });
+    redirect({ href: "/app/simulacros?error=invalid", locale });
     return;
   }
   const service = createServiceClient();
@@ -77,7 +77,7 @@ export async function startMockAction(formData: FormData) {
         : error?.message.includes("suficientes")
           ? "pool"
           : "start";
-    redirect({ href: `/app/productos?error=${key}`, locale });
+    redirect({ href: `/app/simulacros?error=${key}`, locale });
     return;
   }
   redirect({ href: `/app/simulacros/${data}`, locale });

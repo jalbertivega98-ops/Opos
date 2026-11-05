@@ -210,3 +210,15 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 
 **Motivo:** que el alumno pruebe el producto (el test con explicación y fuente) antes de pagar, y una oferta fácil de entender: una suscripción por oposición más packs sueltos de simulacros.
 **Consecuencias:** precios confirmados por joel (Premium 12,99 €/mes, 10 simulacros 9,99 €, 10 de psicotécnicos 6,99 €); se cobran desde la base de datos (Checkout con `price_data`), sin crear nada en Stripe. Los psicotécnicos de práctica siguen gratis e ilimitados; lo que se vende es el simulacro con formato oficial (solo Mossos y Auxiliar lo tienen). Quien prepara dos oposiciones que comparten temario paga dos suscripciones. Un intento hecho con Premium activo también gasta intentos de un pack comprado antes.
+
+## ADR-036 · El plan lleva directo al test del tema, calendario de estudio y adiós a «Mis productos» (2026-11-05)
+
+**Decisión:** joel vio que, tras configurar sus horas, «Comenzar primer test» del plan le mandaba a «Mis productos». Pidió que le lleve directamente a los tests de ese tema, quitar la pestaña de productos («productos como tal no son») y un calendario en el panel con lo hecho, cuándo, cómo y lo pendiente. Migración `20261105000300_topic_practice_calendar` (preview `48-`):
+
+- **Test por tema:** `practice_start_topic(user, tema, n)` saca preguntas publicadas del tema de entre los packs de preguntas a los que el alumno tiene acceso (`accessible_topic_questions`, que reutiliza `has_product_access`: 3 temas gratis, Premium de su oposición o pack comprado). `my_open_topics` dice qué temas puede practicar. Sin acceso, error 42501 y el plan los muestra con candado hacia la ficha de la oposición.
+- **Tareas del plan:** cada tema lleva «Ficha» (si está publicada) y «Empezar test» con las preguntas que le quedan esta semana; psicotécnicos a «Práctica» y simulacros a «Simulacros». El panel ofrece la siguiente tarea sin terminar.
+- **Calendario:** `my_study_log(desde, hasta)` devuelve prácticas y simulacros propios con tema y resultado. El panel muestra la semana de lunes a domingo (hora peninsular), resumen, tareas del plan pendientes y semanas anteriores (`?semana=-N`). El avance de cada tarea se calcula con lo hecho en la semana natural.
+- **Sin «Mis productos»:** la pestaña pasa a ser «Simulacros» (empezar, historial y packs de intentos a la venta) y la suscripción, la gestión del pago y las compras van a «Mi perfil». `/app/productos` redirige conservando la consulta. Stripe vuelve tras pagar a la página de la zona del alumno desde la que se compró (o al perfil).
+
+**Motivo:** el plan es el camino del alumno; tiene que llevar a estudiar, no a una tienda.
+**Consecuencias:** ya no se practica un producto entero (la acción `startProductPracticeAction` desaparece; su función SQL se queda). El plan no guarda el histórico de semanas pasadas: en semanas anteriores el calendario muestra lo hecho, no lo planificado. Las condiciones de venta cambian «Mis productos» por «Mi perfil».

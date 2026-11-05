@@ -90,9 +90,9 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
       expect((await ok.json()).result).toBe("paid");
       expect((await (await signed()).json()).result).toBe("duplicate");
 
-      await page.goto("/app/productos");
-      await expect(page.getByTestId("library")).toContainText("Pack E2E de pago");
-      await expect(page.getByTestId("library")).toContainText("Comprado");
+      await page.goto("/app/perfil");
+      await expect(page.getByTestId("purchases")).toContainText("Pack E2E de pago");
+      await expect(page.getByTestId("purchases")).toContainText("Comprado");
 
       const orders = await db((c) =>
         c.query("select status, total_cents from public.orders where user_id = $1", [userId]),
@@ -137,14 +137,14 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
       // La portada deja de poner «Próximamente» y lleva a la compra
       await page.goto("/");
       await page.locator("#precios").getByRole("link", { name: "Hazte Premium" }).click();
-      await expect(page).toHaveURL(/\/app\/productos$/);
+      await expect(page).toHaveURL(/\/app\/perfil(#suscripcion)?$/);
       const form = page.getByTestId("buy-form").last();
       await expect(form).toContainText("Modo de pruebas");
       const button = form.getByTestId("buy-button");
       await expect(button).toHaveText(/Hazte Premium/);
       // La casilla es obligatoria: sin marcarla no se sale de la página
       await button.click();
-      await expect(page).toHaveURL(/\/app\/productos$/);
+      await expect(page).toHaveURL(/\/app\/perfil(#suscripcion)?$/);
       // Con la clave ficticia Stripe rechaza la sesión: error controlado, sin cobro
       await form.getByRole("checkbox").check();
       await button.click();
@@ -152,7 +152,7 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
         timeout: 20_000,
       });
 
-      await page.goto("/app/productos?compra=cancelada");
+      await page.goto("/app/perfil?compra=cancelada");
       await expect(page.getByTestId("checkout-notice")).toContainText("No se ha cobrado nada");
     } finally {
       await db((c) => c.query("delete from public.products where slug = $1", [slug]));

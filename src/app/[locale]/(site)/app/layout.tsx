@@ -23,8 +23,8 @@ export default async function AppLayout({
     { href: "/app/plan", label: t("plan") },
     { href: "/app/temario", label: t("syllabus") },
     { href: "/app/practica", label: t("practice") },
+    { href: "/app/simulacros", label: t("mocks") },
     { href: "/app/progreso", label: t("progress") },
-    { href: "/app/productos", label: t("library") },
     { href: "/app/perfil", label: t("profile") },
   ];
   return (

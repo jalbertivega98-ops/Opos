@@ -64,8 +64,11 @@ export function buildCheckoutParams(input: {
   siteUrl: string;
   locale: "es" | "ca";
   cancelPath: string;
+  /** Página de la zona del alumno a la que vuelve tras pagar (por defecto, el perfil). */
+  successPath?: string;
 }): Stripe.Checkout.SessionCreateParams {
   const { product, userId, customerId, siteUrl, locale, cancelPath } = input;
+  const successPath = input.successPath?.startsWith("/app/") ? input.successPath : "/app/perfil";
   const subscription = product.type === "subscription";
   if (subscription !== !!product.price.interval) {
     throw new Error("Precio incompatible con el tipo de producto");
@@ -93,7 +96,7 @@ export function buildCheckoutParams(input: {
     ],
     metadata,
     ...(subscription ? { subscription_data: { metadata } } : { payment_intent_data: { metadata } }),
-    success_url: `${base}/app/productos?compra=ok&session_id={CHECKOUT_SESSION_ID}`,
+    success_url: `${base}${successPath.split("?")[0]}?compra=ok&session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${base}${cancelPath}${cancelPath.includes("?") ? "&" : "?"}compra=cancelada`,
   };
 }

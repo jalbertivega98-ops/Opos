@@ -4,8 +4,8 @@ import {
   BookOpenText,
   CalendarCheck,
   LayoutDashboard,
-  Library,
   Shapes,
+  Timer,
   TrendingUp,
   UserRound,
   type LucideIcon,
@@ -19,7 +19,7 @@ const ICONS: Record<string, LucideIcon> = {
   "/app/temario": BookOpenText,
   "/app/practica": Shapes,
   "/app/progreso": TrendingUp,
-  "/app/productos": Library,
+  "/app/simulacros": Timer,
   "/app/perfil": UserRound,
 };
 

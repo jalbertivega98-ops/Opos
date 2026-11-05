@@ -1,30 +1,48 @@
 import { getTranslations } from "next-intl/server";
-import { BookOpen, Brain, ChevronRight, Lock, Timer } from "lucide-react";
+import { BookOpen, Brain, Check, ChevronRight, FileText, Lock, Play, Timer } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Meter } from "@/components/ui/progress";
 import type { PlanTask, WeekPlan } from "@/lib/learning/plan";
+import { taskProgress, type StudyEntry } from "@/lib/learning/calendar";
 import { taskUnlocked, type PlanAccess } from "@/lib/store/access";
-
-export { taskUnlocked };
+import { TopicTestButton } from "@/components/plan/topic-test-button";
 import { cn } from "@/lib/utils";
 
+export { taskUnlocked };
+
+/** Preguntas que quedan de la tarea esta semana (mínimo un test corto). */
+export function remainingQuestions(task: PlanTask, entries: StudyEntry[]) {
+  if (task.kind !== "topic") return 0;
+  const p = taskProgress(task, entries);
+  return p.state === "done" ? 10 : p.target - p.done;
+}
+
 /**
- * Tareas de la semana del plan, con enlace a donde se hacen. Las de pago que el
- * alumno no tiene se ven igual, con candado «Premium», y llevan a «Qué incluye».
+ * Tareas de la semana del plan. Cada tema lleva directo a su ficha y a su test;
+ * los psicotécnicos, a la práctica, y los simulacros, a su pestaña. Con lo hecho
+ * esta semana se ve cuánto queda de cada tarea. Lo de pago que el alumno no
+ * tiene se ve con candado «Premium» y lleva a «Qué incluye» de su oposición.
  */
 export async function WeekPlanView({
   plan,
   access,
   examSlug,
+  notes = [],
+  entries = [],
+  back = "/app/plan",
 }: {
   plan: WeekPlan;
   access: PlanAccess;
   examSlug: string;
+  /** Temas con ficha publicada. */
+  notes?: string[];
+  /** Lo hecho esta semana (calendario). */
+  entries?: StudyEntry[];
+  back?: "/app" | "/app/plan";
 }) {
   const t = await getTranslations("plan");
-  const row =
-    "border-border group flex min-h-12 items-center gap-3 rounded-xl border px-3 py-2 text-sm transition-colors";
   const label = (task: PlanTask) =>
     task.kind === "topic"
       ? t("taskTopic", { topic: task.topic.title, count: task.questions })
@@ -47,44 +65,81 @@ export async function WeekPlanView({
         {plan.tasks.map((task, i) => {
           const TaskIcon = Icon(task);
           const open = taskUnlocked(task, access);
+          const progress = taskProgress(task, entries);
+          const done = progress.state === "done";
           return (
-            <li key={i} data-testid="plan-task" data-locked={open ? undefined : "true"}>
-              <Link
-                href={
-                  open
-                    ? task.kind === "psycho"
-                      ? "/app/practica"
-                      : "/app/productos"
-                    : `/oposiciones/${examSlug}`
-                }
-                className={cn(
-                  row,
-                  open
-                    ? "hover:border-accent hover:bg-accent-soft/40"
-                    : "bg-surface hover:border-highlight",
-                )}
-              >
+            <li
+              key={i}
+              data-testid="plan-task"
+              data-locked={open ? undefined : "true"}
+              data-state={progress.state}
+              className={cn(
+                "border-border flex flex-wrap items-center gap-x-3 gap-y-2 rounded-xl border px-3 py-2.5 text-sm",
+                !open && "bg-surface",
+                done && "border-success/40",
+              )}
+            >
+              {done ? (
+                <Check className="text-success size-4 shrink-0" aria-hidden />
+              ) : (
                 <TaskIcon
                   className={cn("size-4 shrink-0", open ? "text-accent" : "text-muted-foreground")}
                   aria-hidden
                 />
-                <span className={cn("flex-1", !open && "text-muted-foreground")}>
-                  {label(task)}
-                </span>
-                {task.kind === "topic" && open && (
-                  <Badge tone={task.status === "new" ? "accent" : "warning"}>
-                    {t(`status.${task.status}`)}
-                  </Badge>
-                )}
-                {open ? (
-                  <ChevronRight className="text-muted-foreground size-4 shrink-0" aria-hidden />
-                ) : (
-                  <span className="bg-highlight-soft text-highlight-foreground dark:text-highlight inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold">
-                    <Lock className="size-3" aria-hidden />
-                    {t("premium")}
+              )}
+              <span className="min-w-0 flex-1 basis-48">
+                <span className={cn("block", !open && "text-muted-foreground")}>{label(task)}</span>
+                {open && (
+                  <span className="text-muted-foreground block text-xs" data-testid="task-progress">
+                    {done
+                      ? t("taskDone")
+                      : task.kind === "topic"
+                        ? t("progressTopic", { done: progress.done, target: progress.target })
+                        : t("progressCount", { done: progress.done, target: progress.target })}
                   </span>
                 )}
-              </Link>
+              </span>
+              {task.kind === "topic" && open && !done && (
+                <Badge tone={task.status === "new" ? "accent" : "warning"}>
+                  {t(`status.${task.status}`)}
+                </Badge>
+              )}
+              {!open ? (
+                <Link
+                  href={`/oposiciones/${examSlug}`}
+                  className="bg-highlight-soft text-highlight-foreground dark:text-highlight inline-flex min-h-9 items-center gap-1 rounded-full px-3 text-xs font-semibold hover:underline"
+                >
+                  <Lock className="size-3" aria-hidden />
+                  {t("premium")}
+                </Link>
+              ) : task.kind === "topic" ? (
+                <span className="flex items-center gap-1.5">
+                  {notes.includes(task.topic.slug) && (
+                    <Button asChild variant="ghost" size="sm">
+                      <Link href={`/app/temario/${task.topic.slug}`} data-testid="task-note">
+                        <FileText aria-hidden />
+                        {t("readNote")}
+                      </Link>
+                    </Button>
+                  )}
+                  <TopicTestButton
+                    topic={task.topic.slug}
+                    count={remainingQuestions(task, entries)}
+                    back={back}
+                    variant={done ? "outline" : "accent"}
+                  >
+                    <Play aria-hidden />
+                    {done ? t("again") : t("startTest")}
+                  </TopicTestButton>
+                </span>
+              ) : (
+                <Button asChild variant={done ? "ghost" : "outline"} size="sm">
+                  <Link href={task.kind === "psycho" ? "/app/practica" : "/app/simulacros"}>
+                    {task.kind === "psycho" ? t("goPsycho") : t("goMocks")}
+                    <ChevronRight aria-hidden />
+                  </Link>
+                </Button>
+              )}
             </li>
           );
         })}

@@ -47,7 +47,7 @@ test("simulacro con tiempo, respuestas modificables, blanco y nota con penalizac
   await page.getByRole("button", { name: "Conceder acceso" }).click();
   await expect(page.getByText("Acceso concedido.")).toBeVisible();
 
-  await sp.goto("/app/productos");
+  await sp.goto("/app/simulacros");
   const card = sp.getByTestId("library-item").filter({ hasText: SET.meta.mock.title });
   await expect(card.getByTestId("mock-format")).toHaveText(
     "5 preguntas · 35 min · error −0,25 · mínimo 4",
@@ -93,8 +93,8 @@ test("simulacro con tiempo, respuestas modificables, blanco y nota con penalizac
   await expect(sp.getByTestId("mock-breakdown")).toHaveText("3 aciertos · 1 errores · 1 en blanco");
   await expect(sp.getByTestId("review-item")).toHaveCount(5);
 
-  // Aparece en el historial de la biblioteca
-  await sp.goto("/app/productos");
+  // Aparece en el historial de simulacros
+  await sp.goto("/app/simulacros");
   await expect(sp.getByTestId("mock-history")).toContainText("5,5 / 10");
   await sctx.close();
 });
@@ -133,7 +133,7 @@ test("simulacro de psicotécnicos: ítems generados, sin penalización y correcc
   await page.getByRole("button", { name: "Conceder acceso" }).click();
   await expect(page.getByText("Acceso concedido.")).toBeVisible();
 
-  await sp.goto("/app/productos");
+  await sp.goto("/app/simulacros");
   const card = sp
     .getByTestId("library-item")
     .filter({ hasText: "[PRUEBA] Simulacro de psicotécnicos" });

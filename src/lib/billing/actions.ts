@@ -22,7 +22,7 @@ const withParam = (path: string, param: string) =>
 export async function startCheckoutAction(formData: FormData) {
   const locale = (await getLocale()) as "es" | "ca";
   const parsed = checkoutSchema.safeParse(Object.fromEntries(formData));
-  const back = parsed.success ? parsed.data.back : "/app/productos";
+  const back = parsed.success ? parsed.data.back : "/app/perfil";
   if (!parsed.success) {
     const consent = parsed.error.issues.some((i) => i.path[0] === "consent");
     redirect({ href: withParam(back, `compra=${consent ? "consentimiento" : "error"}`), locale });
@@ -87,13 +87,13 @@ export async function startCheckoutAction(formData: FormData) {
       }[]
     ).some((s) => s.product_id === row.id || s.product?.exam_body_id === null);
     if (already) {
-      redirect({ href: "/app/productos?compra=ya-premium", locale });
+      redirect({ href: "/app/perfil?compra=ya-premium", locale });
       return;
     }
   } else if (!attemptsPack) {
     const { data: has } = await supabase.rpc("my_product_access", { p_product: row.id });
     if (has) {
-      redirect({ href: "/app/productos?compra=ya-lo-tienes", locale });
+      redirect({ href: "/app/perfil?compra=ya-lo-tienes", locale });
       return;
     }
   }
@@ -121,6 +121,7 @@ export async function startCheckoutAction(formData: FormData) {
         siteUrl: publicEnv.NEXT_PUBLIC_SITE_URL,
         locale,
         cancelPath: back,
+        successPath: back,
       }),
     );
     url = session.url;
@@ -139,7 +140,7 @@ export async function openBillingPortalAction() {
   const locale = await getLocale();
   const { user } = await getSession();
   if (!user) {
-    redirect({ href: "/entrar?next=/app/productos", locale });
+    redirect({ href: "/entrar?next=/app/perfil", locale });
     return;
   }
   const billing = getStripe();
@@ -151,7 +152,7 @@ export async function openBillingPortalAction() {
         publicEnv.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "") + (locale === "ca" ? "/ca" : "");
       const session = await billing.stripe.billingPortal.sessions.create({
         customer,
-        return_url: `${base}/app/productos`,
+        return_url: `${base}/app/perfil`,
       });
       url = session.url;
     } catch (e) {
@@ -159,7 +160,7 @@ export async function openBillingPortalAction() {
     }
   }
   if (!url) {
-    redirect({ href: "/app/productos?compra=portal-error", locale });
+    redirect({ href: "/app/perfil?compra=portal-error", locale });
     return;
   }
   externalRedirect(url);

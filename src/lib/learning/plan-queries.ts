@@ -54,7 +54,13 @@ export async function getMyPlan() {
     topics.map((t) => [t.slug, { answered: t.answered, correct: t.correct }]),
   );
   // Los temas gratis van primero: así el plan de un alumno gratis empieza por lo que puede hacer.
-  const freeTopics = await freeTopicSlugs(settings.examSlug);
+  const [freeTopics, openTopics, { data: notes }] = await Promise.all([
+    freeTopicSlugs(settings.examSlug),
+    myOpenTopics(settings.examSlug),
+    supabase.rpc("exam_topic_notes", { p_exam_slug: settings.examSlug }),
+  ]);
+  // openTopics: temas que puede practicar ya (gratis, Premium o pack); noteTopics: con ficha publicada
+  const noteTopics = ((notes ?? []) as { slug: string }[]).map((n) => n.slug);
   const rank = (slug: string) => {
     const i = freeTopics.indexOf(slug);
     return i === -1 ? freeTopics.length : i;
@@ -70,7 +76,7 @@ export async function getMyPlan() {
     progress,
     psycho: examHasPsycho(settings.examSlug),
   });
-  return { reason: null, settings, plan, topics, freeTopics };
+  return { reason: null, settings, plan, topics, freeTopics, openTopics, noteTopics };
 }
 
 /** Slug de la oposición principal del alumno actual (o null). */
@@ -82,4 +88,14 @@ export async function getPrimaryExamSlug() {
     .eq("is_primary", true)
     .maybeSingle<{ exam: { slug: string } | null }>();
   return data?.exam?.slug ?? null;
+}
+
+/** Temas de la oposición que el alumno actual puede practicar ya (gratis, Premium o pack). */
+export async function myOpenTopics(examSlug: string) {
+  const supabase = await createClient();
+  const { data } = await supabase.rpc("my_open_topics", { p_exam_slug: examSlug });
+  // PostgREST devuelve un «setof text» como lista de cadenas
+  return ((data ?? []) as unknown[]).map((r) =>
+    typeof r === "string" ? r : String(Object.values(r as object)[0]),
+  );
 }

@@ -8,6 +8,8 @@ import { TopicNoteView } from "@/components/notes/topic-note-view";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
 import { getTopicNote } from "@/lib/learning/notes-queries";
+import { getPrimaryExamSlug, myOpenTopics } from "@/lib/learning/plan-queries";
+import { TopicTestButton } from "@/components/plan/topic-test-button";
 
 const SLUG = /^[a-z0-9-]{2,120}$/;
 
@@ -28,6 +30,8 @@ export default async function TopicNotePage({ params }: PageProps<"/[locale]/app
   // RLS: el alumnado solo lee fichas publicadas; el staff ve también borradores aquí
   if (!note || note.status !== "published") notFound();
   const t = await getTranslations("notes");
+  const examSlug = await getPrimaryExamSlug();
+  const open = examSlug ? (await myOpenTopics(examSlug)).includes(slug) : false;
   return (
     <div className="space-y-6">
       <div className="space-y-2">
@@ -42,9 +46,17 @@ export default async function TopicNotePage({ params }: PageProps<"/[locale]/app
       </div>
       <TopicNoteView note={note} />
       <div className="flex flex-wrap gap-2">
-        <Button asChild variant="accent">
-          <Link href="/app/productos">{t("practiceCta")}</Link>
-        </Button>
+        {open ? (
+          <TopicTestButton topic={slug} size="md">
+            {t("practiceCta")}
+          </TopicTestButton>
+        ) : (
+          <Button asChild variant="accent">
+            <Link href={examSlug ? `/oposiciones/${examSlug}` : "/oposiciones"}>
+              {t("unlockCta")}
+            </Link>
+          </Button>
+        )}
         <Button asChild variant="outline">
           <Link href="/app/plan">{t("planCta")}</Link>
         </Button>

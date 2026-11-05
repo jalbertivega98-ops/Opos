@@ -107,7 +107,7 @@ describe("sesión de Checkout", () => {
     expect(p.metadata).toEqual(meta);
     expect(p.payment_intent_data?.metadata).toEqual(meta);
     expect(p.success_url).toBe(
-      "https://oposaprueba.test/ca/app/productos?compra=ok&session_id={CHECKOUT_SESSION_ID}",
+      "https://oposaprueba.test/ca/app/perfil?compra=ok&session_id={CHECKOUT_SESSION_ID}",
     );
     expect(p.cancel_url).toBe("https://oposaprueba.test/ca/oposiciones/mossos?compra=cancelada");
   });
@@ -128,6 +128,34 @@ describe("sesión de Checkout", () => {
     expect(p.subscription_data?.metadata).toEqual(meta);
     expect(p.cancel_url).toBe("https://oposaprueba.test/oposiciones/mossos?compra=cancelada");
   });
+  it("vuelve tras pagar a la página de la zona del alumno desde la que se compró", () => {
+    const product = {
+      id: PRODUCT,
+      slug: "pack",
+      type: "bundle" as const,
+      title: "Pack",
+      price: { id: PRICE, amount_cents: 999, currency: "EUR", interval: null },
+    };
+    const p = buildCheckoutParams({
+      ...base,
+      locale: "es",
+      product,
+      successPath: "/app/simulacros",
+    });
+    expect(p.success_url).toBe(
+      "https://oposaprueba.test/app/simulacros?compra=ok&session_id={CHECKOUT_SESSION_ID}",
+    );
+    // desde una página pública (la ficha de la oposición) se vuelve al perfil
+    const q = buildCheckoutParams({
+      ...base,
+      locale: "es",
+      product,
+      successPath: "/oposiciones/mossos",
+    });
+    expect(q.success_url).toBe(
+      "https://oposaprueba.test/app/perfil?compra=ok&session_id={CHECKOUT_SESSION_ID}",
+    );
+  });
   it("no mezcla pago único con precio recurrente", () => {
     expect(() =>
       buildCheckoutParams({
@@ -146,7 +174,7 @@ describe("sesión de Checkout", () => {
   it("valida el formulario: consentimiento obligatorio y vuelta solo interna", () => {
     expect(checkoutSchema.safeParse({ slug: "premium" }).success).toBe(false);
     const ok = checkoutSchema.parse({ slug: "premium", consent: "on", back: "//evil.com" });
-    expect(ok.back).toBe("/app/productos");
+    expect(ok.back).toBe("/app/perfil");
   });
 });
 

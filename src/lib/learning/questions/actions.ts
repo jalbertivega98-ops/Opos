@@ -4,7 +4,7 @@ import { getLocale } from "next-intl/server";
 import { redirect } from "@/i18n/navigation";
 import { getSession } from "@/lib/auth/session";
 import { createServiceClient } from "@/lib/supabase/service";
-import { answerQuestionSchema, startProductSchema, type QuestionExplanation } from "./schema";
+import { answerQuestionSchema, startTopicSchema, type QuestionExplanation } from "./schema";
 
 async function activeUserOrRedirect(next: string) {
   const locale = await getLocale();
@@ -15,24 +15,26 @@ async function activeUserOrRedirect(next: string) {
 }
 
 /**
- * Practica con las preguntas de un producto. El acceso (has_product_access),
- * la selección al azar y la vista sin solución se resuelven en SQL.
+ * Test de un tema del plan o del temario. El acceso (3 temas gratis, Premium de la
+ * oposición o pack comprado), la selección al azar y la vista sin solución se
+ * resuelven en SQL (practice_start_topic, ADR-036).
  */
-export async function startProductPracticeAction(formData: FormData) {
-  const { user, locale } = await activeUserOrRedirect("/app/productos");
-  const parsed = startProductSchema.safeParse(Object.fromEntries(formData));
+export async function startTopicPracticeAction(formData: FormData) {
+  const { user, locale } = await activeUserOrRedirect("/app/plan");
+  const parsed = startTopicSchema.safeParse(Object.fromEntries(formData));
   if (!parsed.success) {
-    redirect({ href: "/app/productos?error=invalid", locale });
+    redirect({ href: "/app/temario?error=invalid", locale });
     return;
   }
-  const { data, error } = await createServiceClient().rpc("practice_start_product", {
+  const { topic, count, back } = parsed.data;
+  const { data, error } = await createServiceClient().rpc("practice_start_topic", {
     p_user: user.id,
-    p_product: parsed.data.productId,
-    p_count: parsed.data.count,
+    p_topic_slug: topic,
+    p_count: count,
   });
   if (error || !data) {
-    const denied = error?.code === "42501";
-    redirect({ href: `/app/productos?error=${denied ? "access" : "start"}`, locale });
+    const key = error?.code === "42501" ? "access" : "start";
+    redirect({ href: `${back}?error=${key}`, locale });
     return;
   }
   redirect({ href: `/app/practica/${data}`, locale });
