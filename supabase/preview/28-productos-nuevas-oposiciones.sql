@@ -1,6 +1,6 @@
 -- Administrativo del Estado, Auxilio Judicial, Tramitación Procesal y Policía Nacional (Escala Básica):
 -- reutilización del temario común, packs de test, simulacros con el formato oficial y packs completos.
--- Todo en BORRADOR: se publica con 28-. Idempotente. Requiere 23- a 26- (temarios) y 12-/13- (Auxiliar).
+-- Todo en BORRADOR: se publica con 29-. Idempotente. Requiere 25- a 27- (temarios) y 12-/13- (Auxiliar).
 --
 -- Formatos oficiales (leídos en el BOE):
 -- * Administrativo (BOE-A-2025-26262, Anexo III): ejercicio único de 100 min; parte 1 = 70 preguntas

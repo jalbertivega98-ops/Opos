@@ -1,5 +1,5 @@
 -- Policía Nacional, Escala Básica · Ciencias Jurídicas (temas 1-26, preguntas de 3 opciones): preguntas en BORRADOR con cita literal de la fuente oficial y fichas de estudio.
--- Generado: bash scripts/content/preview-sql.sh content/policia-nacional supabase/preview/25-temario-policia-nacional.sql. Idempotente.
+-- Generado: bash scripts/content/preview-sql.sh content/policia-nacional supabase/preview/27-temario-policia-nacional.sql. Idempotente.
 begin;
 -- Lote pn-01-derecho-persona-cc-v1 (19 preguntas)
 insert into public.sources (title, url, kind, publisher, published_on) values ('Real Decreto de 24 de julio de 1889, Código Civil (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;

@@ -1,5 +1,5 @@
 -- Auxilio Judicial y Tramitación Procesal · temario jurídico y procesal (temas 1-26 y recursos): preguntas en BORRADOR con cita literal de la fuente oficial y fichas de estudio.
--- Generado: bash scripts/content/preview-sql.sh content/justicia supabase/preview/23-temario-justicia.sql. Idempotente.
+-- Generado: bash scripts/content/preview-sql.sh content/justicia supabase/preview/25-temario-justicia.sql. Idempotente.
 begin;
 -- Lote jus-01-constitucion-ce-v1 (17 preguntas)
 insert into public.sources (title, url, kind, publisher, published_on) values ('Constitución Española (texto consolidado, BOE)', 'https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229', 'boe'::public.source_kind, 'Agencia Estatal Boletín Oficial del Estado', null) on conflict (url) do nothing;

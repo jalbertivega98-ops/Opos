@@ -1,19 +1,26 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ nuevas oposiciones, ADR-027)
+**Última actualización:** 2026-11-05 · Sesión 3 (+ nuevas oposiciones, ADR-028)
 
 ## Estado exacto
 
-### Nuevas oposiciones: Administrativo del Estado, Justicia y Policía Nacional (2026-11-05, rama `claude/project-thread-fls9nq`, CNT-015 a CNT-017, ADR-027)
+### Nuevas oposiciones: Administrativo del Estado, Justicia y Policía Nacional (2026-11-05, rama `claude/project-thread-fls9nq`, CNT-015 a CNT-017, ADR-028)
 
 - joel pidió «ves buscando temarios de otras opos, para ir preparando, verificando y publicando» y «Revisa y rellenas todas las opos posibles». Programas literales del BOE en `docs/research/*-programa.md` (leídos en el Chrome de joel: boe.es bloquea al contenedor).
 - **Contenido** (todo con cita literal comprobada por `build.py --check` en `/mnt/project-files/aprobia/fuentes-oficiales/{administrativo-estado,justicia,policia-nacional}/`):
   - Administrativo del Estado: 340 preguntas y 17 fichas (`age-adm-*`); lo común reutiliza `age-aux-*`.
   - Auxilio Judicial y Tramitación Procesal: 540 preguntas y 27 fichas (`jus-*`, `justra-*`), compartidas con `meta.also_exams`.
   - Policía Nacional: 520 preguntas de 3 opciones y 26 fichas (`pn-*`), temas 1-26.
-- **Preview:** `23-`, `24-`, `25-` (temario), `27-` (productos) y `28-` (publicación por petición de joel; las dudosas con N: quedan en borrador). Se aplican al fusionar el PR.
+- **Preview:** `25-`, `26-`, `27-` (temario), `28-` (productos) y `29-` (publicación por petición de joel; las dudosas con N: quedan en borrador). Se aplican al fusionar el PR.
 - **Probado en local:** las cuatro oposiciones quedan disponibles, 14 productos publicados y los simulacros arrancan con su tamaño.
 - **Siguiente:** Guardia Civil, Policía temas 27-45 y las normas sin fuente (ver CNT-015 a CNT-018); guías SEO de las nuevas oposiciones.
+
+### Pagos con Stripe en modo de pruebas (2026-11-03, rama `claude/project-thread-tdwb1x`, STO-008)
+
+- joel pidió que Claude lo hiciera todo. Código hecho y probado **sin cuenta de Stripe**. Todo en `docs/PAGOS.md` y ADR-027.
+- Migración `20261103000900_billing.sql` (+ `supabase/preview/11-pagos-stripe.sql`), `src/lib/billing/*`, `/api/stripe/webhook`, botones en `/oposiciones/[slug]` y `/app/productos`, portal «Gestionar suscripción».
+- Pendiente de joel: crear la cuenta de Stripe (modo de pruebas), poner `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, guardar el portal de clientes, fijar precios y publicar Premium en `/admin/productos`.
+- Cobros reales: NO. Requieren autorización expresa, datos fiscales del titular (DEC-004) y textos legales revisados.
 
 ### SEO y GEO (2026-11-04, rama `claude/project-thread-h5od90`, MKT-002, ADR-025)
 
@@ -68,7 +75,7 @@
   - Actualizar los cortes cuando salga una convocatoria nueva.
   - Cotejar con la página original las fuentes web capturadas por fragmentos (ADR-021).
 
-### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-019)
+### Fichas de estudio de Mossos (2026-11-03, rama `claude/project-thread-rp6zo4`, CNT-011, ADR-027)
 
 - joel preguntó qué más se podía añadir a Mossos antes de abrir otras oposiciones. Lista priorizada que se le propuso:
   1. Fichas de estudio (hecho).

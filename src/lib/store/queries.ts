@@ -108,8 +108,8 @@ export async function myLibrary() {
   }));
 }
 
-/** Precio activo de Premium para mostrarlo (configurable en el panel). */
-export async function premiumPrice() {
+/** Precio mensual activo de Premium (configurable en el panel) y si está a la venta. */
+export async function premiumInfo() {
   const supabase = await createClient();
   const { data } = await supabase
     .from("products")
@@ -120,7 +120,30 @@ export async function premiumPrice() {
     data?.prices as
       { amount_cents: number; billing_interval: string | null; active: boolean }[] | undefined
   )?.find((x) => x.active && x.billing_interval === "month");
-  return p?.amount_cents ?? null;
+  return { cents: p?.amount_cents ?? null, published: data?.status === "published" };
+}
+
+export async function premiumPrice() {
+  return (await premiumInfo()).cents;
+}
+
+/** Suscripción Premium vigente del alumno (si la tiene). */
+export async function mySubscription(userId: string) {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("subscriptions")
+    .select("status, current_period_end, cancel_at_period_end, provider")
+    .eq("user_id", userId)
+    .in("status", ["active", "trialing", "past_due"])
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  return data as {
+    status: "active" | "trialing" | "past_due";
+    current_period_end: string | null;
+    cancel_at_period_end: boolean;
+    provider: string;
+  } | null;
 }
 
 export type OfferProduct = {

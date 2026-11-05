@@ -80,7 +80,7 @@ next-intl 4 con `localePrefix: "as-needed"` (es sin prefijo, `/ca/...`). Rutas c
 
 `src/lib/store`: productos, precios (céntimos con histórico), contenido desde el banco, concesiones manuales y listado de compras. Panel: `/admin/productos`, `/admin/compras`. Alumno: `/app/productos` («Mis productos»).
 
-Flujo previsto con Stripe test (STO-008, requiere autorización): checkout → webhook firmado e idempotente → `orders` + `access_grants` (o `subscriptions`) → `has_product_access()` decide. Los PDF se generarán desde las mismas preguntas del pack y se servirán con URL firmada de Storage privado.
+Cobros (STO-008, `src/lib/billing`, detalle en docs/PAGOS.md): Stripe Checkout con el importe de nuestra BD → webhook firmado e idempotente (`/api/stripe/webhook`) y confirmación al volver → funciones `billing_*` (solo service_role) → `orders` + `access_grants` (o `subscriptions`) → `has_product_access()` decide. Sin `STRIPE_SECRET_KEY` los pagos quedan desactivados; una clave real exige `STRIPE_LIVE_ENABLED=true`. Los PDF se generarán desde las mismas preguntas del pack y se servirán con URL firmada de Storage privado.
 
 ## Entorno local
 

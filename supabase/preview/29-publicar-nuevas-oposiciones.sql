@@ -9,7 +9,7 @@
 --   las mire en /admin/revision/fuentes.
 -- * Cada cambio pasa por el guardián de estados y queda en la auditoría a nombre de la titular.
 -- * Solo toca temas age-adm-*, jus-*, justra-* y pn-* y los productos de este lote. Idempotente.
--- Requiere 23- a 27-.
+-- Requiere 25- a 28-.
 begin;
 
 do $$

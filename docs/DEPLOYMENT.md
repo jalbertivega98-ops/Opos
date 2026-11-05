@@ -32,7 +32,8 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY`              | público        | anon/publishable key (RLS protege)             |
 | `SUPABASE_SERVICE_ROLE_KEY`                  | secreto        | solo server-only (webhooks, tareas de sistema) |
 | `AUTH_RATE_LIMIT_MAX`                        | solo local/E2E | eleva el límite de intentos de auth            |
-| `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` | secreto        | Hito 5, solo modo test hasta autorización      |
+| `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` | secreto        | Pagos (docs/PAGOS.md). Sin clave: desactivados |
+| `STRIPE_LIVE_ENABLED`                        | secreto        | `true` solo con autorización para cobrar real  |
 | `ANTHROPIC_API_KEY`                          | secreto        | Hito 6                                         |
 
 ## Checklist de despliegue (skill `preparar-despliegue`)
@@ -47,11 +48,11 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 
 ## Integraciones preparadas (DEC-003)
 
-| Servicio       | Estado                                                          | Qué falta (requiere autorización específica)                                                            |
-| -------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| GitHub         | ✅ `jalbertivega98-ops/Opos`, rama `main`                       | Opcional: CI con GitHub Actions (typecheck, lint, unitarias)                                            |
-| Supabase cloud | Migraciones 0100–0900 compatibles con `supabase db push`        | Crear proyecto (región UE), aplicar migraciones, configurar Auth y SMTP, `owner` para joel              |
-| Stripe (test)  | Columnas `stripe_*`, `orders`, `subscriptions`, `access_grants` | Cuenta Stripe en modo test, productos/precios, `STRIPE_SECRET_KEY`, webhook firmado → crear concesiones |
-| Despliegue     | `npm run build` correcto                                        | Proyecto en el proveedor (p. ej. Vercel) y variables de entorno                                         |
+| Servicio       | Estado                                                                                    | Qué falta (requiere autorización específica)                                                            |
+| -------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| GitHub         | ✅ `jalbertivega98-ops/Opos`, rama `main`                                                 | Opcional: CI con GitHub Actions (typecheck, lint, unitarias)                                            |
+| Supabase cloud | Migraciones 0100–0900 compatibles con `supabase db push`                                  | Crear proyecto (región UE), aplicar migraciones, configurar Auth y SMTP, `owner` para joel              |
+| Stripe (test)  | Checkout, webhook y portal hechos (migración `20261104000300_billing.sql`, docs/PAGOS.md) | Cuenta Stripe en modo test, `STRIPE_SECRET_KEY` y `STRIPE_WEBHOOK_SECRET` en Vercel, precios publicados |
+| Despliegue     | `npm run build` correcto                                                                  | Proyecto en el proveedor (p. ej. Vercel) y variables de entorno                                         |
 
 Ninguna de estas cuentas se ha creado ni conectado.

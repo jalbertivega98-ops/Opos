@@ -32,7 +32,10 @@
     "privacy": "Privacitat",
     "cookies": "Galetes",
     "terms": "Condicions",
-    "draftNotice": "Textos legals en preparació, pendents de revisió professional."
+    "notice": "Avís legal",
+    "spanishOnly": "Aquest text legal només està disponible en castellà.",
+    "updated": "Darrera actualització: 4 de novembre de 2026.",
+    "note": "Pagaments segurs amb Stripe."
   },
   "landing": {
     "eyebrow": "Acadèmia digital d'oposicions",
@@ -1382,7 +1385,9 @@
       "plan": "El pla setmanal et diu cada setmana quins temes i simulacres toquen",
       "cta": "Pagament aviat",
       "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment.",
-      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part"
+      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part",
+      "buy": "Comprar el pack · {price}",
+      "buyPremium": "Fes-te Premium"
     },
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",
@@ -1477,5 +1482,32 @@
     "path": "Pàgina",
     "privacy": "Comptadors agregats per dia, sense galetes, IP ni identificadors personals. Google no distingeix a l'origen les visites d'AI Overviews o del mode IA: compten com a «google». Les aplicacions d'IA que no envien origen apareixen com a «directe».",
     "nav": "Trànsit"
+  },
+  "billing": {
+    "consent": "Vull accedir ja al contingut i entenc que, en començar, perdo el dret de desistiment de 14 dies.",
+    "terms": "Condicions",
+    "redirecting": "Obrint el pagament…",
+    "testNote": "Mode de proves: no es cobra res. Fes servir la targeta 4242 4242 4242 4242.",
+    "secureNote": "Pagament segur amb Stripe. No guardem les dades de la teva targeta.",
+    "buy": "Comprar · {price}",
+    "buyPremium": "Fes-te Premium",
+    "premiumBody": "Accés a tot el contingut inclòs a Premium per {price} al mes. Cancel·la quan vulguis.",
+    "active": "La teva subscripció Premium està activa.",
+    "renewsOn": "Premium actiu. Es renova el {date}.",
+    "endsOn": "Premium cancel·lat: el tens fins al {date}.",
+    "pastDue": "No hem pogut cobrar la renovació. Actualitza la targeta per no perdre Premium.",
+    "manage": "Gestionar la subscripció",
+    "notices": {
+      "ok": "Pagament completat! Ja hi tens accés.",
+      "pendiente": "Estem confirmant el pagament. En uns segons hi tindràs accés; torna a carregar la pàgina.",
+      "cancelada": "Has cancel·lat el pagament. No s'ha cobrat res.",
+      "consentimiento": "Per comprar has de marcar la casella d'accés immediat.",
+      "error": "No s'ha pogut obrir el pagament. Torna-ho a provar d'aquí a uns minuts.",
+      "desactivada": "Els pagaments encara no estan actius.",
+      "no-disponible": "Aquest producte no està a la venda ara mateix.",
+      "ya-lo-tienes": "Ja tens accés a aquest producte.",
+      "ya-premium": "Ja ets Premium.",
+      "portal-error": "No s'ha pogut obrir la gestió de la subscripció. Torna-ho a provar més tard."
+    }
   }
 }

@@ -13,8 +13,10 @@ import { isExamIndexable } from "@/lib/seo/catalog";
 import { getExamGuide, tr } from "@/lib/seo/exam-guides";
 import { JsonLd, examGuideLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
-import { examOffer, premiumPrice } from "@/lib/store/queries";
+import { examOffer, premiumInfo } from "@/lib/store/queries";
 import { ExamOfferSection } from "@/components/store/exam-offer";
+import { billingStatus } from "@/lib/billing/queries";
+import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
 
 export async function generateMetadata({
   params,
@@ -36,8 +38,12 @@ export async function generateMetadata({
   });
 }
 
-export default async function ExamPage({ params }: PageProps<"/[locale]/oposiciones/[slug]">) {
+export default async function ExamPage({
+  params,
+  searchParams,
+}: PageProps<"/[locale]/oposiciones/[slug]">) {
   const { locale, slug } = await params;
+  const notice = parseCheckoutNotice((await searchParams).compra);
   setRequestLocale(locale);
   const exam = await getExamBody(slug);
   if (!exam) notFound();
@@ -46,9 +52,9 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
   const tests = [...exam.exam_tests].sort((a, b) => a.order_index - b.order_index);
   const sources = exam.exam_body_sources.map((s) => s.source).filter((s) => s !== null);
   const guide = getExamGuide(exam.slug);
-  const [offer, premiumCents, topics] = await Promise.all([
+  const [offer, premium, topics] = await Promise.all([
     examOffer(exam.slug),
-    premiumPrice(),
+    premiumInfo(),
     guide ? listExamTopics(exam.id) : Promise.resolve([]),
   ]);
   const name = localized(locale, exam.name, exam.name_ca);
@@ -119,7 +125,16 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
 
       {guide && <ExamGuideSection guide={guide} locale={locale} topics={topics} />}
 
-      {offer && <ExamOfferSection offer={offer} locale={locale} premiumCents={premiumCents} />}
+      <CheckoutNoticeAlert notice={notice} />
+      {offer && (
+        <ExamOfferSection
+          offer={offer}
+          locale={locale}
+          premiumCents={premium.cents}
+          back={`/oposiciones/${slug}`}
+          billing={{ ...billingStatus(), premium: premium.published }}
+        />
+      )}
 
       <div className="mt-10 grid gap-4">
         {(!guide || calls.length > 0) && (
