@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "pcat-e10-sistema-penitenciari-catala-eac-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 10. L'activitat penitenciària en el marc autonòmic",
+    "topic_slug": "pcat-e10-sistema-penitenciari-catala",
+    "locale": "ca",
+    "category": "pcat_e10_sistema_penitenciari_catala",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-13087",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 168.1 EAC",
+      "stem": "Segons l'article 168.1 de l'Estatut d'autonomia de Catalunya, quina competència correspon a la Generalitat en matèria penitenciària?",
+      "options": [
+        "La competència executiva de la legislació de l'Estat.",
+        "La competència exclusiva, que inclou la potestat legislativa.",
+        "La competència compartida, amb potestat per dictar la legislació de desplegament.",
+        "Només la gestió dels establiments que l'Estat li delegui."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 168.1 EAC atribueix a la Generalitat la competència executiva de la legislació de l'Estat en matèria penitenciària, que inclou en tot cas les facultats de les lletres a) a e).",
+      "excerpt": "Corresponde a la Generalitat la competencia ejecutiva de la legislación del Estado en materia penitenciaria, que incluye en todo caso:",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 168.1 EAC",
+      "stem": "Quina de les facultats següents NO està inclosa expressament en la competència penitenciària de la Generalitat segons l'article 168.1 de l'Estatut d'autonomia?",
+      "options": [
+        "La capacitat per dictar disposicions que adaptin la normativa penitenciària a la realitat social de Catalunya.",
+        "L'aprovació de la llei que regula els drets i deures dels interns a Catalunya.",
+        "La planificació, la construcció i la reforma dels establiments penitenciaris situats a Catalunya.",
+        "La planificació i l'organització del treball remunerat de la població reclosa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 168.1 EAC inclou dictar disposicions d'adaptació, la gestió de tota l'activitat penitenciària, la planificació i construcció d'establiments, la gestió patrimonial i l'organització del treball remunerat, les mesures alternatives i la reinserció. Es tracta d'una competència executiva, sense potestat legislativa sobre els drets dels interns.",
+      "excerpt": "a) La capacidad para dictar disposiciones que adapten la normativa penitenciaria a la realidad social de Cataluña. […] c) La planificación, la construcción y la reforma de los establecimientos penitenciarios situados en Cataluña. […] e) La planificación y organización del trabajo remunerado de la población reclusa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 168.2 EAC",
+      "stem": "D'acord amb l'article 168.2 de l'Estatut d'autonomia de Catalunya, en quin procediment pot emetre informes la Generalitat?",
+      "options": [
+        "En el procediment de concessió de la llibertat condicional.",
+        "En el procediment d'extradició.",
+        "En el procediment de nomenament dels jutges de vigilància penitenciària.",
+        "En el procediment d'atorgament d'indults."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 168.2 EAC preveu que la Generalitat pot emetre informes en el procediment d'atorgament d'indults.",
+      "excerpt": "La Generalitat podrá emitir informes en el procedimiento de otorgamiento de indultos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

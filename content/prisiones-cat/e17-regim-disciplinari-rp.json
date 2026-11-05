@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "set": "pcat-e17-regim-disciplinari-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 17. El règim disciplinari dels interns",
+    "topic_slug": "pcat-e17-regim-disciplinari",
+    "locale": "ca",
+    "category": "pcat_e17_regim_disciplinari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 231.2 RP",
+      "stem": "Segons el Reglament penitenciari (RP), el règim disciplinari s'aplica als interns:",
+      "options": [
+        "Només als penats, i únicament dins del recinte del centre penitenciari.",
+        "Amb independència de la seva situació processal i penitenciària, tant dins dels centres com durant els trasllats, les conduccions o les sortides autoritzades.",
+        "Només als interns classificats en primer i segon grau.",
+        "Dins dels centres penitenciaris, però no durant les sortides autoritzades, en què s'aplica la legislació penal comuna."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 231.2 RP aplica el règim disciplinari a tots els interns (amb l'excepció de l'art. 188.4), sigui quina sigui la seva situació processal i penitenciària, dins dels centres i durant trasllats, conduccions o sortides autoritzades.",
+      "excerpt": "El régimen disciplinario se aplicará a todos los internos, con la excepción establecida en el artículo 188.4 de este Reglamento, con independencia de su situación procesal y penitenciaria, tanto dentro de los Centros penitenciarios como durante los traslados, conducciones o salidas autorizadas que se realicen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 233.1.a RP",
+      "stem": "D'acord amb el Reglament penitenciari, per la comissió de faltes molt greus es pot imposar la sanció d'aïllament en cel·la amb una durada de:",
+      "options": [
+        "Un a cinc dies.",
+        "Tres a set dies.",
+        "Catorze a quaranta-dos dies.",
+        "Sis a catorze dies."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 233.1.a RP preveu per a les faltes molt greus l'aïllament en cel·la de sis a catorze dies (si hi ha evident agressivitat o violència o alteració reiterada i greu de la convivència) o l'aïllament de fins a set caps de setmana.",
+      "excerpt": "a) Sanción de aislamiento en celda de seis a catorce días de duración",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 233.3 RP",
+      "stem": "Segons el Reglament penitenciari, amb quines sancions es poden corregir les faltes lleus?",
+      "options": [
+        "Només amb privació de passeigs i actes recreatius comuns de fins a tres dies i amb amonestació.",
+        "Amb aïllament en cel·la de fins a cinc dies i amb amonestació.",
+        "Amb privació de permisos de sortida de fins a un mes i amb amonestació.",
+        "Amb limitació de les comunicacions orals durant un mes com a màxim."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 233.3 RP limita la correcció de les faltes lleus a la privació de passeigs i actes recreatius comuns de fins a tres dies i a l'amonestació.",
+      "excerpt": "Las faltas leves tipificadas en el artículo 110 del Reglamento Penitenciario aprobado por el Real Decreto 1201/1981, de 8 de mayo, sólo podrán corregirse con privación de paseos y actos recreativos comunes de hasta tres días de duración y con amonestación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 258.1 RP",
+      "stem": "D'acord amb el Reglament penitenciari, en quins terminis prescriuen les faltes disciplinàries molt greus, greus i lleus, respectivament?",
+      "options": [
+        "Tres anys, dos anys i sis mesos.",
+        "Dos anys, un any i tres mesos.",
+        "Tres anys, un any i un mes.",
+        "Cinc anys, tres anys i un any."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 258.1 RP fixa la prescripció de les faltes en tres anys (molt greus), dos anys (greus) i sis mesos (lleus), des de la data de comissió de la infracció.",
+      "excerpt": "Las faltas disciplinarias muy graves prescribirán a los tres años, las graves a los dos años y las leves a los seis meses, desde la fecha en que se hubiese cometido la infracción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 260.1 RP",
+      "stem": "Segons el Reglament penitenciari, quins terminis han de transcórrer, des del compliment de la sanció, per cancel·lar les anotacions de sancions per faltes molt greus, greus i lleus, respectivament?",
+      "options": [
+        "Un any, sis mesos i tres mesos.",
+        "Tres anys, dos anys i sis mesos.",
+        "Sis mesos, tres mesos i un mes.",
+        "Tres mesos, dos mesos i un mes."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 260.1.a RP exigeix sis mesos (molt greus), tres mesos (greus) i un mes (lleus) des del compliment de la sanció, sempre que l'intern no hagi comès una nova falta greu o molt greu en aquests terminis. Els terminis de tres anys, dos anys i sis mesos són els de prescripció.",
+      "excerpt": "a) Transcurso de seis meses para las faltas muy graves, tres meses para las graves y un mes para las leves, a contar desde el cumplimiento de la sanción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 241.1 RP",
+      "stem": "D'acord amb el Reglament penitenciari, a qui correspon acordar la iniciació del procediment sancionador quan s'aprecien indicis de conductes que poden donar lloc a responsabilitat disciplinària?",
+      "options": [
+        "A la Comissió Disciplinària, a proposta del/de la cap de serveis.",
+        "Al/A la cap de serveis, mitjançant el comunicat del funcionari.",
+        "Al jutge de vigilància penitenciària, a instància del ministeri fiscal.",
+        "Al/A la director/a de l'establiment, d'ofici i motivadament."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 241.1 RP atribueix al director l'acord d'iniciació, d'ofici i motivadament, per pròpia iniciativa, per petició raonada d'un altre òrgan o per denúncia.",
+      "excerpt": "el Director del Establecimiento acordará de oficio y motivadamente la iniciación del procedimiento sancionador",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 242.2.h RP",
+      "stem": "Segons el Reglament penitenciari, de quin termini disposa l'intern, des de la recepció del plec de càrrecs, per presentar el plec de descàrrecs per escrit o compareixer davant l'instructor?",
+      "options": [
+        "Cinc dies hàbils.",
+        "Deu dies.",
+        "Quinze dies hàbils.",
+        "Tres dies hàbils."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 242.2.h RP concedeix a l'intern tres dies hàbils des de la recepció del plec de càrrecs per presentar descàrrecs per escrit o al·legar verbalment davant l'instructor.",
+      "excerpt": "h) Indicación de que el interno dispone de tres días hábiles desde el momento de su recepción para presentar pliego de descargos por escrito o para comparecer ante el Instructor y alegar verbalmente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 242.1, 244.4, 245 i 246.3 RP",
+      "stem": "En relació amb el procediment disciplinari ordinari regulat al Reglament penitenciari, quina de les afirmacions següents NO és correcta?",
+      "options": [
+        "El/La director/a nomena instructor el funcionari que consideri convenient, excloent qui hagi practicat la informació prèvia i qui pugui estar implicat en els fets.",
+        "Immediatament abans de redactar la proposta de resolució, es posa de manifest el procediment a l'intern perquè, en un termini de deu dies, al·legui o presenti documents.",
+        "L'instructor de l'expedient pot participar en les deliberacions de la Comissió Disciplinària, però no en les votacions dels expedients que hagi instruït.",
+        "L'instructor eleva la proposta de resolució a la Comissió Disciplinària i la notifica a l'intern indicant-li el dret a al·legar verbalment davant la Comissió."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 246.3 RP prohibeix a l'instructor tant participar en les deliberacions com prendre part en les votacions dels expedients que hagi instruït. Les altres afirmacions reprodueixen els arts. 242.1, 244.4 i 245 RP.",
+      "excerpt": "El Director nombrará Instructor al funcionario que estime conveniente, excluyendo al que haya practicado la información previa y a los que puedan estar implicados en los hechos. […] inmediatamente antes de redactar la propuesta de resolución, se pondrá de manifiesto al interesado para que, en un plazo de diez días, alegue […] el Instructor formulará propuesta de resolución y la elevará, junto con aquél, a la Comisión Disciplinaria para que ésta acuerde lo que proceda, notificando la propuesta al interno con indicación de su derecho a alegar verbalmente ante la Comisión […] El Instructor del expediente no podrá participar en las deliberaciones de la Comisión Disciplinaria ni podrá tomar parte en las votaciones sobre los expedientes que haya instruido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 246.2 RP",
+      "stem": "Segons el Reglament penitenciari, en quin termini màxim s'ha de dictar l'acord de la Comissió Disciplinària en el procediment disciplinari ordinari?",
+      "options": [
+        "Tres mesos des de la iniciació del procediment disciplinari.",
+        "Un mes des de la iniciació del procediment disciplinari.",
+        "Sis mesos des de la notificació del plec de càrrecs.",
+        "Dos mesos des de la presentació del plec de descàrrecs."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 246.2 RP fixa un termini màxim de tres mesos des de la iniciació. El termini d'un mes és el del procediment abreujat per a faltes lleus (art. 251.1 RP).",
+      "excerpt": "El acuerdo deberá dictarse en el plazo máximo de tres meses desde la iniciación del procedimiento disciplinario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 248 RP",
+      "stem": "D'acord amb el Reglament penitenciari, com s'ha de notificar l'acord sancionador a l'intern en el procediment ordinari?",
+      "options": [
+        "Dins dels deu dies següents a l'adopció, amb lliurament d'una còpia en què s'indiqui que s'hi pot interposar recurs d'alçada davant el centre directiu en el termini d'un mes.",
+        "El mateix dia o l'endemà d'adoptar-lo, amb lectura íntegra i lliurament d'una còpia en què s'indiqui que s'hi pot interposar recurs davant el jutge de vigilància, verbalment en el mateix acte o per escrit dins dels cinc dies hàbils següents.",
+        "El mateix dia d'adoptar-lo, només verbalment, i l'intern pot recórrer per escrit davant la Comissió Disciplinària dins dels tres dies hàbils següents.",
+        "Dins dels cinc dies hàbils següents a l'adopció, i l'intern pot interposar recurs davant el jutge de vigilància dins dels quinze dies hàbils següents."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 248 RP obliga a notificar el mateix dia o l'endemà, amb lectura íntegra i còpia, indicant el recurs davant el jutge de vigilància, verbal en el mateix acte o escrit dins dels cinc dies hàbils.",
+      "excerpt": "La notificación del acuerdo sancionador deberá cursarse en el mismo día o al siguiente de ser adoptado, dando lectura íntegra de aquél y entregando copia al interno sancionado […] b) Indicación de que contra el mismo puede interponerse recurso ante el Juez de Vigilancia, verbalmente en el mismo acto de la notificación o por escrito dentro de los cinco días hábiles siguientes a la misma",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 251.1 RP",
+      "stem": "Segons el Reglament penitenciari, en el procediment abreujat per a faltes lleus:",
+      "options": [
+        "L'instructor formula un plec de càrrecs i el procediment s'ha de resoldre en el termini màxim de tres mesos.",
+        "La Comissió Disciplinària dicta la resolució en la primera sessió ordinària que faci.",
+        "El comunicat (part) del funcionari opera com a plec de càrrecs i el procediment s'ha de resoldre en el termini màxim d'un mes des que es va iniciar.",
+        "No hi ha tràmit d'al·legacions de l'intern, atesa la lleugeresa de la falta."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 251.1 RP estableix que el part del funcionari opera com a plec de càrrecs, que hi ha deu dies per a al·legacions i proves, i que el director resol en el termini màxim d'un mes.",
+      "excerpt": "se tramitará el procedimiento abreviado, que deberá resolverse en el plazo máximo de un mes desde que se inició, con arreglo a las siguientes normas: a) El parte del funcionario, que operará como pliego de cargos, se comunicará al Jefe de Servicios y, simultáneamente, se notificará al presunto infractor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 252.2 RP",
+      "stem": "Segons el Reglament penitenciari, les sancions imposades es poden executar immediatament, sense esperar la resolució del recurs, quan la Comissió Disciplinària consideri que el compliment no es pot demorar i corresponguin als actes d'indisciplina greu tipificats:",
+      "options": [
+        "A qualsevol de les lletres de l'article 108 del RP 1981.",
+        "A les lletres a), b), c), d), e) i f) de l'article 108 del RP 1981.",
+        "A les lletres a), b) i c) dels articles 108 i 109 del RP 1981.",
+        "A l'article 109 del RP 1981, quan hi hagi reiteració."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 252.2 RP (en relació amb l'art. 44.3 LOGP i el primer paràgraf de l'art. 124 RP 1981) limita l'execució immediata als actes d'indisciplina greu de les lletres a) a f) de l'art. 108 RP 1981.",
+      "excerpt": "las sanciones impuestas serán inmediatamente ejecutadas, siempre que correspondan a los actos de indisciplina grave tipificados en las letras a), b), c), d), e) y f) del artículo 108 del Reglamento Penitenciario aprobado por Real Decreto 1201/1981, de 8 de mayo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 254.5 RP",
+      "stem": "D'acord amb el Reglament penitenciari, durant el compliment de la sanció d'aïllament en cel·la, l'intern:",
+      "options": [
+        "Gaudeix de dues hores diàries de passeig en solitari i no pot rebre paquets de l'exterior ni adquirir productes de l'economat, llevat dels autoritzats expressament pel director.",
+        "Gaudeix de quatre hores diàries de passeig amb els altres interns sancionats.",
+        "No té dret a cap hora de passeig mentre duri la sanció.",
+        "Gaudeix d'una hora diària de passeig en solitari i pot rebre paquets de l'exterior amb l'autorització del cap de serveis."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 254.5 RP reconeix dues hores diàries de passeig en solitari i prohibeix rebre paquets de l'exterior i adquirir productes de l'economat, llevat dels autoritzats pel director.",
+      "excerpt": "El recluso internado en celda disfrutará de dos horas diarias de paseo en solitario y, durante el cumplimiento de la sanción, no podrá recibir paquetes del exterior ni adquirir productos del Economato, salvo los autorizados expresamente por el Director.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

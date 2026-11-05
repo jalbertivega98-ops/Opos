@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcatsup-s1-ingres-seguretat-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Supòsit pràctic I. Ingressos, seguretat, escorcolls i mitjans coercitius",
+    "topic_slug": "pcatsup-s1-ingres-seguretat",
+    "locale": "ca",
+    "category": "pcatsup_s1_ingres_seguretat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 45.2 LOGP",
+      "stem": "Una nit, l'intern V.Q. intenta agredir un company de cel·la i els funcionaris l'han de reduir amb força física i manilles sense temps per demanar autorització. Segons la Llei orgànica general penitenciària (LOGP), què s'ha de fer?",
+      "options": [
+        "Comunicar-ho al cap de serveis, que ho ha de notificar al jutge de guàrdia en vint-i-quatre hores.",
+        "Res més, perquè en els casos d'urgència no cal cap comunicació.",
+        "Comunicar-ho immediatament al director, que ho ha de posar en coneixement del jutge de vigilància.",
+        "Comunicar-ho al centre directiu, que ho ha de convalidar en setanta-dues hores."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 45.2 LOGP disposa que, quan per urgència s'hagin d'utilitzar els mitjans coercitius sense autorització prèvia, s'ha de comunicar immediatament al director, el qual ho ha de posar en coneixement del jutge de vigilància.",
+      "excerpt": "Cuando, ante la urgencia de la situación, se tuviere que hacer uso de tales medios se comunicará inmediatamente al director, el cual lo pondrá en conocimiento del Juez de Vigilancia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

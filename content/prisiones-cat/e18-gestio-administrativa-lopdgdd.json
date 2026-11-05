@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcat-e18-gestio-administrativa-lopdgdd-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 18. Gestió administrativa i documental dels establiments penitenciaris",
+    "topic_slug": "pcat-e18-gestio-administrativa",
+    "locale": "ca",
+    "category": "pcat_e18_gestio_administrativa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.3 LO 3/2018",
+      "stem": "Segons la Llei orgànica 3/2018, de protecció de dades personals i garantia dels drets digitals, els tractaments de dades realitzats en l'àmbit de les institucions penitenciàries:",
+      "options": [
+        "Queden totalment exclosos de qualsevol normativa de protecció de dades.",
+        "Es regeixen per la seva legislació específica, si n'hi ha, i supletòriament pel Reglament (UE) 2016/679 i per la mateixa Llei orgànica 3/2018.",
+        "Es regeixen exclusivament per la Llei orgànica 3/2018, sense cap legislació específica.",
+        "Es regeixen per la normativa sobre matèries classificades."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 2.3 de la LO 3/2018 inclou expressament els tractaments en l'àmbit d'institucions penitenciàries entre els que es regeixen per la legislació específica i, supletòriament, pel RGPD i per la LO 3/2018.",
+      "excerpt": "se regirán por lo dispuesto en su legislación específica si la hubiere y supletoriamente por lo establecido en el citado reglamento y en la presente ley orgánica. Se encuentran en esta situación, entre otros, los tratamientos realizados al amparo de la legislación orgánica del régimen electoral general, los tratamientos realizados en el ámbito de instituciones penitenciarias",
+      "excerpt_status": "completo"
+    }
+  ]
+}

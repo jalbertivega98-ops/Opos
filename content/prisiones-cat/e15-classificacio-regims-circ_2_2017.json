@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e15-classificacio-regims-circ_2_2017-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 15. Classificació en graus i règims ordinari, tancat, obert i de preventius",
+    "topic_slug": "pcat-e15-classificacio-regims",
+    "locale": "ca",
+    "category": "pcat_e15_classificacio_regims",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Circular 2/2017, del règim tancat en els centres penitenciaris de Catalunya",
+      "url": "https://justicia.gencat.cat/web/.content/home/departament/legislacio/instruccions_i_circulars/instruccio_SP_2_2017.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament de Justícia",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Circular 2/2017, apartat V.2.1.a",
+      "stem": "Segons la Circular 2/2017, del règim tancat en els centres penitenciaris de Catalunya, quantes hores diàries fora de la cel·la tenen com a mínim els interns en la modalitat de vida de l'article 93 del RP?",
+      "options": [
+        "Sis hores, comptant-hi les tres hores diàries de pati, l'atenció individualitzada, les activitats programades i l'ús dels espais comuns.",
+        "Tres hores, que són les de pati.",
+        "Quatre hores, comptant-hi el pati i la vida en comú.",
+        "Vuit hores, comptant-hi les activitats programades."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'apartat V.2.1.a de la Circular 2/2017 garanteix un mínim de 6 hores diàries fora de la cel·la, que inclouen les 3 hores de pati. En un període inicial d'adaptació de 15 dies com a màxim, es garanteixen 3 hores diàries de pati i 2 hores setmanals d'atenció individualitzada.",
+      "excerpt": "Gaudiran un mínim de 6 hores diàries fora de la cel·la, comptant les 3 hores diàries de pati, l’atenció individualitzada, les activitats programades i l’ús dels espais comuns.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Circular 2/2017, apartat V.2.2",
+      "stem": "Segons la Circular 2/2017, quin és el període màxim de revisió de la modalitat de vida de l'article 93 del RP?",
+      "options": [
+        "15 dies.",
+        "3 mesos.",
+        "6 mesos.",
+        "45 dies."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'apartat V.2.2 de la Circular 2/2017 fixa un període màxim de revisió de 45 dies, en què s'estudia si es manté la modalitat de l'article 93 o si es reassigna a la de l'article 94 RP. Els 3 mesos són el termini màxim de revisió de la regressió per part de la junta de tractament.",
+      "excerpt": "El període de revisió màxim és de 45 dies, moment en què s’estudiarà la conveniència de mantenir aquesta modalitat de vida o fer una reassignació a la prevista a l’article 94 del RP.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcat-e15-classificacio-regims-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 15. Classificació en graus i règims ordinari, tancat, obert i de preventius",
+    "topic_slug": "pcat-e15-classificacio-regims",
+    "locale": "ca",
+    "category": "pcat_e15_classificacio_regims",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 72.1 LOGP",
+      "stem": "D'acord amb l'article 72 de la Llei orgànica 1/1979, general penitenciària (LOGP), segons quin sistema s'executen les penes privatives de llibertat?",
+      "options": [
+        "Segons el sistema progressiu, separat en quatre períodes, el primer dels quals és el d'aïllament.",
+        "Segons el sistema d'individualització científica, separat en graus, el primer dels quals és el de llibertat condicional.",
+        "Segons el sistema d'individualització científica, separat en graus, l'últim dels quals és el de llibertat condicional.",
+        "Segons el sistema de redempció de penes pel treball, separat en graus."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 72.1 LOGP estableix el sistema d'individualització científica, separat en graus, l'últim dels quals és la llibertat condicional, tal com determina el Codi penal.",
+      "excerpt": "Las penas privativas de libertad se ejecutarán según el sistema de individualización científica, separado en grados, el último de los cuales será el de libertad condicional, conforme determina el Código Penal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

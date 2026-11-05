@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "set": "pcatsup-s1-ingres-seguretat-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Supòsit pràctic I. Ingressos, seguretat, escorcolls i mitjans coercitius",
+    "topic_slug": "pcatsup-s1-ingres-seguretat",
+    "locale": "ca",
+    "category": "pcatsup_s1_ingres_seguretat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15.2 RP",
+      "stem": "Uns agents dels Mossos d'Esquadra, actuant com a policia judicial, porten al departament d'ingressos el detingut J.R.P. amb una ordre de detenció. Segons l'article 15 del Reglament penitenciari, quin d'aquests extrems NO ha de constar expressament en aquesta ordre?",
+      "options": [
+        "El domicili habitual del detingut i el nom del seu advocat.",
+        "El delicte imputat.",
+        "Que el detingut es troba a disposició judicial.",
+        "L'hora i el dia de venciment del termini màxim de detenció."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 15.2 RP exigeix que l'ordre de detenció de la policia judicial contingui les dades identificatives del detingut, el delicte imputat, que es troba a disposició judicial i l'hora i el dia de venciment del termini màxim de detenció. El domicili i l'advocat no hi figuren.",
+      "excerpt": "a) Datos identificativos del detenido. b) Delito imputado. c) Que se halla a disposición judicial. d) Hora y día de vencimiento del plazo máximo de detención.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.2 RP",
+      "stem": "Uns agents de policia judicial porten al centre penitenciari el detingut M.T. amb una ordre de detenció en què no consten l'hora ni el dia de venciment del termini màxim de detenció. Segons el Reglament penitenciari, què pot fer la direcció del centre?",
+      "options": [
+        "Admetre'l i completar ella mateixa les dades que falten a l'ordre.",
+        "Denegar motivadament l'ingrés.",
+        "Admetre'l provisionalment i demanar al jutge de vigilància penitenciària que confirmi l'ingrés en 72 hores.",
+        "Admetre'l en règim d'incomunicació fins que arribi una ordre completa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Segons l'art. 15.2 RP, quan a l'ordre de detenció no consten expressament els extrems exigits (entre ells, l'hora i el dia de venciment del termini màxim de detenció), la direcció del centre pot denegar motivadament l'ingrés.",
+      "excerpt": "La Dirección del centro podrá denegar motivadamente el ingreso cuando en la orden de detención que se entregue no consten expresamente los citados extremos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23.2 RP",
+      "stem": "El centre admet l'ingrés del detingut A.L., que arriba amb una ordre de detenció de la policia judicial completa. Segons el Reglament penitenciari, en quin termini el director ha de comunicar l'ingrés a l'autoritat judicial a la disposició de la qual es troba el detingut?",
+      "options": [
+        "Dins de les quaranta-vuit hores següents a l'ingrés.",
+        "Dins de les setanta-dues hores següents a l'ingrés.",
+        "Dins de les vint-i-quatre hores següents a l'ingrés.",
+        "Dins dels cinc dies que pot durar l'estada al departament d'ingressos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 23.2 RP obliga el director a comunicar l'ingrés del detingut, pel mitjà més ràpid que deixi constància de la recepció, a l'autoritat judicial a la disposició de la qual es troba, dins de les 24 hores següents a l'ingrés.",
+      "excerpt": "el Director del establecimiento o quien haga sus veces comunicará el ingreso, por el medio más rápido disponible que deje constancia de la recepción de la comunicación, a la autoridad judicial a cuya disposición se encuentre el detenido, dentro de las veinticuatro horas siguientes a su ingreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23.3 RP",
+      "stem": "El detingut P.G. va ingressar al centre per ordre de la policia judicial i el director en va comunicar l'ingrés al jutjat. Han passat setanta-dues hores des de l'ingrés i no s'ha rebut cap ordre ni manament judicial. Segons el Reglament penitenciari, què s'ha de fer?",
+      "options": [
+        "Mantenir-lo ingressat fins que arribi el manament, perquè ja ha estat admès.",
+        "Posar-lo a disposició del jutge de vigilància penitenciària perquè decideixi.",
+        "Demanar al centre directiu una pròrroga de la detenció de vint-i-quatre hores.",
+        "Excarcerar-lo i comunicar-ho per la mateixa via a l'autoritat que va ordenar l'ingrés i a l'autoritat judicial a la disposició de la qual va ser posat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 23.3 RP disposa que, si en el termini màxim de 72 hores des de l'ingrés o des de la detenció no s'ha rebut ordre o manament judicial, s'ha d'excarcerar l'intern i comunicar-ho a l'autoritat que en va ordenar l'ingrés i a l'autoritat judicial.",
+      "excerpt": "si en el plazo máximo de setenta y dos horas desde su ingreso o desde su detención no se hubiese recibido orden o mandamiento judicial, se procederá a excarcelar al interno, comunicándolo por el mismo medio a la autoridad que ordenó el ingreso y a la autoridad judicial a cuya disposición hubiese sido puesto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 214.1 RP",
+      "stem": "El dissabte a la nit ingressa al centre l'intern preventiu E.S. Segons el Reglament penitenciari, en quin termini ha de ser examinat pel metge?",
+      "options": [
+        "Durant les primeres setanta-dues hores a partir de l'ingrés.",
+        "Durant les primeres vint-i-quatre hores a partir de l'ingrés.",
+        "Abans que acabi la seva estada al departament d'ingressos, que pot durar cinc dies.",
+        "El primer dia feiner següent a l'ingrés."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 214.1 RP estableix que tots els interns, en ingressar, han de ser examinats per un metge i que el reconeixement s'ha de fer durant les primeres 24 hores a partir de l'ingrés.",
+      "excerpt": "Todos los internos, a su ingreso en el Establecimiento, serán examinados por un médico. El reconocimiento se llevará a cabo durante las primeras veinticuatro horas a partir del ingreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.3 RP",
+      "stem": "L'intern preventiu R.S. fa cinc dies que és al departament d'ingressos i els serveis mèdics aconsellen que s'hi quedi uns dies més per un problema de salut. Segons el Reglament penitenciari, es pot prolongar l'estada i a qui s'ha de donar compte de la pròrroga?",
+      "options": [
+        "No, perquè l'estada màxima de cinc dies no admet cap excepció.",
+        "Sí, però només amb l'autorització prèvia del centre directiu.",
+        "Sí, per motius d'ordre sanitari, donant-ne compte al jutge de vigilància corresponent.",
+        "Sí, per qualsevol motiu, donant-ne compte al jutge d'instrucció."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 20.3 RP limita l'estada al departament d'ingressos a cinc dies, que només es poden prolongar per motius d'ordre sanitari o per preservar la seguretat de l'intern, i de la pròrroga s'ha de donar compte al jutge de vigilància.",
+      "excerpt": "La estancia de preventivos o penados en el departamento de ingresos será, como máximo, de cinco días y sólo podrá prolongarse por motivos de orden sanitario o para preservar su seguridad. De la prolongación se dará cuenta al Juez de Vigilancia correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.5 RP",
+      "stem": "L'intern K.D., de nacionalitat estrangera, ingressa per primer cop al centre penitenciari. Segons el Reglament penitenciari, com s'ha de procedir respecte de la comunicació del seu ingrés a les autoritats consulars del seu país?",
+      "options": [
+        "S'ha d'informar l'intern d'aquest dret i demanar-li per escrit l'autorització per fer la comunicació.",
+        "El centre ho ha de comunicar sempre d'ofici, encara que l'intern s'hi oposi.",
+        "Només s'ha de comunicar si ho ordena el jutge que n'ha decretat la presó.",
+        "Només es pot comunicar un cop l'intern hagi estat classificat."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 15.5 RP reconeix als interns estrangers el dret que el seu ingrés es posi en coneixement de les autoritats diplomàtiques o consulars; en el moment de l'ingrés se'ls ha d'informar d'aquest dret i demanar-los per escrit l'autorització per fer la comunicació.",
+      "excerpt": "Los internos extranjeros tienen derecho a que se ponga en conocimiento de las autoridades diplomáticas o consulares correspondientes su ingreso en prisión. A tal fin, en el momento del ingreso, incluido el voluntario a que se refiere el artículo siguiente, se les informará de forma comprensible, a ser posible en su propio idioma, de este derecho, recabando por escrito su autorización para proceder, en su caso, a tal comunicación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.3 RP",
+      "stem": "S.G., que té una condemna ferma pendent de complir, es presenta voluntàriament a la porta del centre penitenciari i hi és admès. Segons el Reglament penitenciari, en quin termini el director ha de demanar al jutge o tribunal el manament corresponent?",
+      "options": [
+        "Dins de les quaranta-vuit hores següents a l'ingrés.",
+        "Dins de les setanta-dues hores següents a l'ingrés.",
+        "Dins dels cinc dies següents a l'ingrés.",
+        "Dins de les vint-i-quatre hores següents a l'ingrés."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En els ingressos voluntaris, l'art. 16.3 RP obliga el director a demanar al jutge o tribunal el manament corresponent dins de les 24 hores següents a l'ingrés. Les 72 hores de l'art. 16.4 són el termini a partir del qual, si no s'ha rebut la documentació, s'ha d'excarcerar l'ingressat.",
+      "excerpt": "En los casos de ingresos voluntarios, el Director del centro recabará del Juez o Tribunal, dentro de las veinticuatro horas siguientes al ingreso, el correspondiente mandamiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 19.1 RP",
+      "stem": "El manament de presó de l'intern preventiu L.F. disposa la seva incomunicació. Segons el Reglament penitenciari, amb qui pot comunicar mentre duri aquesta situació?",
+      "options": [
+        "Amb el seu advocat i amb els familiars de primer grau.",
+        "Amb les persones que autoritzi el director del centre.",
+        "Només amb les persones que tinguin autorització expressa del jutge.",
+        "Amb qualsevol persona, sempre que la comunicació sigui intervinguda."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 19.1 RP disposa que el detingut o pres incomunicat ocupa una cel·la individual, és reconegut pel metge, és atès exclusivament pels funcionaris encarregats i únicament pot comunicar amb les persones que tinguin autorització expressa del jutge.",
+      "excerpt": "Únicamente podrá comunicar con las personas que tengan expresa autorización del Juez.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.2 RP",
+      "stem": "Un funcionari del mòdul 2 té informació contrastada segons la qual l'intern T.V. amaga al seu cos un objecte punxant. Segons l'article 68 del Reglament penitenciari, qui ha d'autoritzar el cacheig (escorcoll) amb despullament integral?",
+      "options": [
+        "El director del centre.",
+        "El cap de serveis.",
+        "El jutge de vigilància penitenciària.",
+        "El subdirector d'interior."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 68.2 RP permet l'escorcoll amb despullament integral per motius de seguretat concrets i específics, quan hi ha raons individuals i contrastades que l'intern amaga al cos un objecte perillós, amb autorització del cap de serveis (Jefe de Servicios).",
+      "excerpt": "se podrá realizar cacheo con desnudo integral con autorización del Jefe de Servicios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.3 RP",
+      "stem": "El cap de serveis ha autoritzat un escorcoll amb despullament integral a la interna B.M. Segons el Reglament penitenciari, com s'ha de practicar?",
+      "options": [
+        "Per funcionàries del mateix sexe que la interna, en un lloc tancat, sense presència d'altres interns i preservant al màxim la intimitat.",
+        "Per qualsevol funcionari de servei, en presència d'una altra interna que actuï com a testimoni.",
+        "Per personal sanitari, a la infermeria i en presència del metge de guàrdia.",
+        "Per funcionàries del mateix sexe, en un espai obert del mòdul per garantir-ne la visibilitat."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 68.3 RP disposa que l'escorcoll amb despullament integral l'han de fer funcionaris del mateix sexe que l'intern, en lloc tancat, sense la presència d'altres interns i preservant, tant com es pugui, la intimitat.",
+      "excerpt": "El cacheo con desnudo integral se efectuará por funcionarios del mismo sexo que el interno, en lugar cerrado sin la presencia de otros internos y preservando, en todo lo posible, la intimidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 72.1 RP",
+      "stem": "Durant un incident al mòdul 4, l'intern C.J. s'enfronta violentament als funcionaris. Segons l'article 72 del Reglament penitenciari, quin dels següents NO és un mitjà coercitiu?",
+      "options": [
+        "L'aïllament provisional.",
+        "Les defenses de goma.",
+        "Els aerosols d'acció adequada.",
+        "La privació de passeigs i actes recreatius comuns."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 72.1 RP enumera com a mitjans coercitius l'aïllament provisional, la força física personal, les defenses de goma, els aerosols d'acció adequada i les manilles. La privació de passeigs i actes recreatius és una sanció disciplinària (art. 42.2 LOGP), no un mitjà coercitiu.",
+      "excerpt": "Son medios coercitivos, a los efectos del artículo 45.1 de la Ley Orgánica General Penitenciaria, el aislamiento provisional, la fuerza física personal, las defensas de goma, los aerosoles de acción adecuada y las esposas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 72.3 RP",
+      "stem": "El director autoritza l'aplicació de l'aïllament provisional a l'intern Y.B., que ha trencat el mobiliari de la cel·la i amenaça d'autolesionar-se. Segons el Reglament penitenciari, què ha de comunicar el director al jutge de vigilància?",
+      "options": [
+        "Immediatament, l'adopció i el cessament del mitjà coercitiu, amb expressió detallada dels fets i de les circumstàncies que en puguin aconsellar el manteniment.",
+        "Només el cessament de la mesura, en el termini de setanta-dues hores.",
+        "Res, perquè l'aïllament provisional autoritzat pel director no s'ha de comunicar.",
+        "L'adopció de la mesura, només si es manté més de catorze dies."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 72.3 RP obliga el director a comunicar immediatament al jutge de vigilància l'adopció i el cessament dels mitjans coercitius, amb expressió detallada dels fets que n'han motivat l'ús i de les circumstàncies que en puguin aconsellar el manteniment.",
+      "excerpt": "El Director comunicará inmediatamente al Juez de Vigilancia la adopción y cese de los medios coercitivos, con expresión detallada de los hechos que hubieran dado lugar a dicha utilización y de las circunstancias que pudiesen aconsejar su mantenimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 67.2 RP",
+      "stem": "Després d'una baralla al mòdul 3, es vol comprovar que tots els interns són a les seves cel·les fora dels horaris de recompte fixats. Segons el Reglament penitenciari, qui ordena aquest recompte extraordinari?",
+      "options": [
+        "El Consell de Direcció, reunit en sessió extraordinària.",
+        "El cap de serveis, comunicant-ho a la direcció.",
+        "El cap d'unitat, sense necessitat de comunicar-ho a ningú.",
+        "El subdirector de tractament, amb l'informe previ de la Junta de Tractament."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 67.2 RP preveu els recomptes extraordinaris que ordeni el cap de serveis, comunicant-ho a la direcció; els horaris dels recomptes ordinaris els fixa el Consell de Direcció (art. 67.1 RP).",
+      "excerpt": "También se efectuarán los recuentos extraordinarios que se ordenen por el Jefe de Servicios, comunicándolo a la Dirección",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 75.2 RP",
+      "stem": "L'intern N.E. demana protecció perquè altres interns del mòdul l'han amenaçat de mort. Segons l'article 75 del Reglament penitenciari, qui pot acordar limitacions regimentals per protegir-lo i a qui se n'ha de donar compte?",
+      "options": [
+        "El director, mitjançant resolució motivada, donant-ne compte al jutge de vigilància.",
+        "La Junta de Tractament, donant-ne compte al centre directiu.",
+        "El cap de serveis, sense necessitat de donar-ne compte a ningú.",
+        "La Comissió Disciplinària, donant-ne compte al Ministeri Fiscal."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 75.2 RP permet al director, a sol·licitud de l'intern o per iniciativa pròpia, acordar mitjançant resolució motivada mesures que impliquin limitacions regimentals per salvaguardar la vida o la integritat física de l'intern, donant-ne compte al jutge de vigilància.",
+      "excerpt": "En su caso, a solicitud del interno o por propia iniciativa, el Director podrá acordar mediante resolución motivada, cuando fuere preciso para salvaguardar la vida o integridad física del recluso, la adopción de medidas que impliquen limitaciones regimentales, dando cuenta al Juez de Vigilancia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

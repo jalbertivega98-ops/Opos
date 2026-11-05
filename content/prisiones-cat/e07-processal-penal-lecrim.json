@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "set": "pcat-e07-processal-penal-lecrim-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 7. Dret processal penal: jurisdicció, procés penal i parts",
+    "topic_slug": "pcat-e07-processal-penal",
+    "locale": "ca",
+    "category": "pcat_e07_processal_penal",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 757 LECrim",
+      "stem": "Segons l'article 757 de la Llei d'enjudiciament criminal, el procediment abreujat s'aplica a l'enjudiciament dels delictes castigats amb pena privativa de llibertat no superior a:",
+      "options": [
+        "Cinc anys.",
+        "Nou anys.",
+        "Deu anys.",
+        "Quinze anys."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El procediment abreujat s'aplica als delictes castigats amb pena privativa de llibertat no superior a nou anys o amb penes d'una altra naturalesa, qualsevol que en sigui la quantia o la durada (art. 757 LECrim).",
+      "excerpt": "el procedimiento regulado en este Título se aplicará al enjuiciamiento de los delitos castigados con pena privativa de libertad no superior a nueve años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 757 LECrim",
+      "stem": "Segons l'article 757 de la Llei d'enjudiciament criminal, quan el delicte està castigat amb penes de naturalesa diferent de la privativa de llibertat, el procediment abreujat s'aplica:",
+      "options": [
+        "Qualsevol que en sigui la quantia o la durada, tant si són úniques com conjuntes o alternatives.",
+        "Només si la durada d'aquestes penes no excedeix de deu anys.",
+        "Només si són penes úniques, no conjuntes ni alternatives.",
+        "Només si la pena de multa no excedeix de vint-i-quatre mesos."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 757 LECrim inclou en el procediment abreujat els delictes castigats amb qualssevol altres penes de naturalesa diferent, úniques, conjuntes o alternatives, qualsevol que en sigui la quantia o la durada.",
+      "excerpt": "o bien con cualesquiera otras penas de distinta naturaleza bien sean únicas, conjuntas o alternativas, cualquiera que sea su cuantía o duración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.3 LECrim",
+      "stem": "Segons l'article 14 de la Llei d'enjudiciament criminal, a qui correspon, amb caràcter general, el coneixement i la decisió de les causes per delictes als quals la llei assenyala una pena privativa de llibertat de durada no superior a cinc anys?",
+      "options": [
+        "A l'Audiència Provincial de la circumscripció on es va cometre el delicte.",
+        "A la Secció d'Instrucció del Tribunal d'Instància del partit on es va cometre el delicte.",
+        "Al Tribunal del Jurat.",
+        "A la Secció Penal del Tribunal d'Instància de la circumscripció on es va cometre el delicte."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 14.3 LECrim atribueix a la Secció Penal del Tribunal d'Instància les causes per delictes amb pena privativa de llibertat no superior a cinc anys (o multa de qualsevol quantia, o altres penes de durada no superior a deu anys); la resta correspon a l'Audiència Provincial (art. 14.4).",
+      "excerpt": "Para el conocimiento y fallo de las causas por delitos a los que la ley señale pena privativa de libertad de duración no superior a cinco años o pena de multa cualquiera que sea su cuantía, o cualesquiera otras de distinta naturaleza, bien sean únicas, conjuntas o alternativas, siempre que la duración de estas no exceda de diez años […] la Sección de lo Penal del Tribunal de Instancia de la circunscripción donde el delito fue cometido",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.4 LECrim",
+      "stem": "Segons l'article 14.4 de la Llei d'enjudiciament criminal, en els supòsits de competència de l'Audiència Provincial, si el delicte és dels atribuïts al Tribunal del Jurat, el coneixement i la decisió corresponen:",
+      "options": [
+        "A l'Audiència Provincial igualment.",
+        "A la Sala Penal de l'Audiència Nacional.",
+        "Al Tribunal del Jurat.",
+        "A la Secció Penal del Tribunal d'Instància."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 14.4 LECrim reserva a l'Audiència Provincial les causes no atribuïdes a altres òrgans, però si el delicte és dels atribuïts al Tribunal del Jurat, el coneixement i la decisió corresponen a aquest.",
+      "excerpt": "No obstante, en los supuestos de competencia de la Audiencia Provincial, si el delito fuere de los atribuidos al Tribunal de Jurado, el conocimiento y fallo corresponderá a éste.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 795.1 LECrim",
+      "stem": "Segons la Llei d'enjudiciament criminal, el procediment per a l'enjudiciament ràpid de determinats delictes s'aplica a delictes castigats amb pena privativa de llibertat que no excedeixi de:",
+      "options": [
+        "Nou anys.",
+        "Cinc anys.",
+        "Tres anys.",
+        "Deu anys."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 795.1 LECrim aplica el judici ràpid a delictes castigats amb pena privativa de llibertat no superior a cinc anys (o altres penes de durada no superior a deu anys), quan el procés s'incoa en virtut d'un atestat policial i concorre alguna de les circumstàncies previstes.",
+      "excerpt": "el procedimiento regulado en este Título se aplicará a la instrucción y al enjuiciamiento de delitos castigados con pena privativa de libertad que no exceda de cinco años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.2 LECrim",
+      "stem": "Segons l'article 14 de la Llei d'enjudiciament criminal, amb caràcter general, la instrucció de les causes correspon a la Secció d'Instrucció del Tribunal d'Instància:",
+      "options": [
+        "Del partit on s'hagi comès el delicte.",
+        "Del domicili de la persona investigada.",
+        "Del lloc on s'hagi practicat la detenció.",
+        "De la capital de la província on resideixi la víctima."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 14.2 LECrim atribueix la instrucció a la Secció d'Instrucció del Tribunal d'Instància del partit on s'ha comès el delicte (fur del lloc de comissió), sens perjudici de les seccions especialitzades i del Jutge Central d'Instrucció.",
+      "excerpt": "Para la instrucción de las causas, la Sección de Instrucción del Tribunal de Instancia del partido en que el delito se hubiere cometido",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 101 LECrim",
+      "stem": "Segons l'article 101 de la Llei d'enjudiciament criminal, l'acció penal:",
+      "options": [
+        "És reservada al Ministeri Fiscal, llevat dels delictes perseguibles només per querella privada.",
+        "És pública, i tots els ciutadans espanyols la poden exercir d'acord amb les prescripcions de la llei.",
+        "És pública, però només la poden exercir les persones ofeses pel delicte.",
+        "És privada en tots els delictes que no siguin greus."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 101 LECrim proclama el caràcter públic de l'acció penal, que poden exercir tots els ciutadans espanyols (acció popular), d'acord amb la llei.",
+      "excerpt": "La acción penal es pública. Todos los ciudadanos españoles podrán ejercitarla con arreglo a las prescripciones de la Ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 102 LECrim",
+      "stem": "Segons l'article 102 de la Llei d'enjudiciament criminal, quina de les persones següents no pot exercir, amb caràcter general, l'acció penal?",
+      "options": [
+        "El jutge o magistrat.",
+        "El ciutadà espanyol que no ha estat ofès pel delicte.",
+        "Qui ha estat condemnat una sola vegada per sentència ferma com a reu del delicte de denúncia falsa.",
+        "El funcionari públic."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 102 LECrim exclou de l'exercici de l'acció penal qui no gaudeixi de la plenitud dels drets civils, qui hagi estat condemnat dues vegades per denúncia o querella calumnioses i el jutge o magistrat (llevat dels delictes contra ells o els seus familiars).",
+      "excerpt": "no podrán ejercitar la acción penal: 1.º El que no goce de la plenitud de los derechos civiles. 2.º El que hubiera sido condenado dos veces por sentencia firme como reo del delito de denuncia o querella calumniosas. 3.º El Juez o Magistrado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 270 LECrim",
+      "stem": "Segons l'article 270 de la Llei d'enjudiciament criminal, els estrangers es poden querellar:",
+      "options": [
+        "En tots els casos, exercint l'acció popular en les mateixes condicions que els ciutadans espanyols.",
+        "Només si tenen la residència legal a Espanya.",
+        "Pels delictes comesos contra les seves persones o béns o les persones o béns dels seus representats.",
+        "En cap cas, perquè l'acció penal només correspon als ciutadans espanyols."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 270 LECrim reconeix l'acció popular a tots els ciutadans espanyols, ofesos o no; els estrangers només es poden querellar pels delictes comesos contra les seves persones o béns o els dels seus representats, amb els requisits dels arts. 280 i 281.",
+      "excerpt": "También pueden querellarse los extranjeros por los delitos cometidos contra sus personas o bienes o las personas o bienes de sus representados",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 299 LECrim",
+      "stem": "Segons l'article 299 de la Llei d'enjudiciament criminal, constitueixen el sumari:",
+      "options": [
+        "Les actuacions que es fan en el judici oral per practicar les proves proposades per les parts.",
+        "Les diligències policials prèvies a la presentació de la denúncia o querella.",
+        "El conjunt de recursos que es poden interposar contra la sentència.",
+        "Les actuacions encaminades a preparar el judici i practicades per esbrinar i fer constar la perpetració dels delictes, amb totes les circumstàncies que puguin influir en la seva qualificació i en la culpabilitat dels delinqüents."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 299 LECrim defineix el sumari (fase d'instrucció) com les actuacions encaminades a preparar el judici i a esbrinar la perpetració del delicte i la culpabilitat, assegurant-ne les persones i les responsabilitats pecuniàries.",
+      "excerpt": "Constituyen el sumario las actuaciones encaminadas a preparar el juicio y practicadas para averiguar y hacer constar la perpetración de los delitos con todas las circunstancias que puedan influir en su calificación y la culpabilidad de los delincuentes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 110 LECrim",
+      "stem": "Segons l'article 110 de la Llei d'enjudiciament criminal, les persones perjudicades per un delicte que no hagin renunciat al seu dret poden mostrar-se part en la causa si ho fan:",
+      "options": [
+        "Abans del tràmit de qualificació del delicte.",
+        "Abans de la incoació del sumari.",
+        "En qualsevol moment fins que la sentència sigui ferma.",
+        "Dins dels deu dies següents a la presentació de la denúncia."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 110 LECrim permet als perjudicats mostrar-se part abans del tràmit de qualificació del delicte, sense que les actuacions retrocedeixin; si es personen després, només poden adherir-se a l'escrit d'acusació fins a l'inici del judici oral.",
+      "excerpt": "Las personas perjudicadas por un delito que no hubieren renunciado a su derecho podrán mostrarse parte en la causa si lo hicieran antes del trámite de calificación del delito",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112 LECrim",
+      "stem": "Segons la Llei d'enjudiciament criminal, quan només s'exerceix l'acció penal:",
+      "options": [
+        "S'entén renunciada l'acció civil, que s'haurà d'exercir davant la jurisdicció civil.",
+        "S'entén utilitzada també la civil, llevat que el perjudicat la renunciï o la reservi expressament per exercir-la després del judici criminal.",
+        "L'acció civil s'extingeix si no s'exerceix en el termini de deu dies.",
+        "L'acció civil només la pot exercir el Ministeri Fiscal."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 112 LECrim estableix que, exercida només l'acció penal, s'entén utilitzada també la civil, tret de renúncia o reserva expressa del perjudicat.",
+      "excerpt": "Ejercitada sólo la acción penal, se entenderá utilizada también la civil, a no ser que el dañado o perjudicado la renunciase o la reservase expresamente para ejercitarla después de terminado el juicio criminal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 118.1 LECrim",
+      "stem": "Segons l'article 118.1 de la Llei d'enjudiciament criminal, tota persona a qui s'atribueixi un fet punible pot exercir el dret de defensa, intervenint en les actuacions:",
+      "options": [
+        "Només des que s'hagi dictat la interlocutòria d'obertura del judici oral.",
+        "Només des que hagi prestat declaració davant el jutge.",
+        "Des que se li comuniqui la seva existència, hagi estat objecte de detenció o de qualsevol altra mesura cautelar o s'hagi acordat el seu processament.",
+        "Només des que s'hagi formulat escrit d'acusació contra ella."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 118.1 LECrim permet exercir el dret de defensa des de la comunicació del procediment, la detenció o altra mesura cautelar o el processament, i obliga a instruir l'investigat dels seus drets sense demora injustificada.",
+      "excerpt": "Toda persona a quien se atribuya un hecho punible podrá ejercitar el derecho de defensa, interviniendo en las actuaciones, desde que se le comunique su existencia, haya sido objeto de detención o de cualquier otra medida cautelar o se haya acordado su procesamiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 118.2 LECrim",
+      "stem": "Segons l'article 118.2 de la Llei d'enjudiciament criminal, el dret de defensa s'exerceix sense més limitacions que les previstes expressament en la llei:",
+      "options": [
+        "Des de la detenció fins a la sentència ferma.",
+        "Des del processament fins a l'obertura del judici oral.",
+        "Des de l'atribució del fet punible fins a la sentència de primera instància.",
+        "Des de l'atribució del fet punible investigat fins a l'extinció de la pena."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 118.2 LECrim estén el dret de defensa des de l'atribució del fet punible investigat fins a l'extinció de la pena; inclou l'assistència d'un advocat de lliure designació o d'ofici.",
+      "excerpt": "El derecho de defensa se ejercerá sin más limitaciones que las expresamente previstas en la ley desde la atribución del hecho punible investigado hasta la extinción de la pena.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 118.1 LECrim",
+      "stem": "Quin dels drets següents NO figura entre els que, segons l'article 118.1 de la Llei d'enjudiciament criminal, s'han d'instruir a la persona a qui s'atribueix un fet punible?",
+      "options": [
+        "El dret a examinar les actuacions amb l'antelació deguda i, en tot cas, abans que se li prengui declaració.",
+        "El dret a no ser citat a declarar fins que hagi acabat la instrucció.",
+        "El dret a la traducció i la interpretació gratuïtes.",
+        "El dret a guardar silenci i a no prestar declaració si no ho vol."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 118.1 LECrim enumera, entre d'altres, el dret a ser informat dels fets, a examinar les actuacions, a designar advocat, a la traducció i interpretació gratuïtes, a guardar silenci i a no declarar contra si mateix. No hi ha cap dret a no ser citat fins al final de la instrucció.",
+      "excerpt": "b) Derecho a examinar las actuaciones con la debida antelación para salvaguardar el derecho de defensa y en todo caso, con anterioridad a que se le tome declaración. […] f) Derecho a la traducción e interpretación gratuitas de conformidad con lo dispuesto en los artículos 123 y 127. g) Derecho a guardar silencio y a no prestar declaración si no desea hacerlo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

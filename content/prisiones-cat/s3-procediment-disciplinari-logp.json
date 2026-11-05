@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcatsup-s3-procediment-disciplinari-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Supòsit pràctic III. Procediment disciplinari i recompenses",
+    "topic_slug": "pcatsup-s3-procediment-disciplinari",
+    "locale": "ca",
+    "category": "pcatsup_s3_procediment_disciplinari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 42.2 LOGP",
+      "stem": "La Comissió Disciplinària estudia quina sanció imposar a l'intern H.N. per una falta greu. Segons l'article 42 de la Llei orgànica general penitenciària (LOGP), quina de les sancions següents NO es pot imposar?",
+      "options": [
+        "L'aïllament de fins a set caps de setmana.",
+        "La prohibició de rebre paquets durant tres mesos.",
+        "La privació de permisos de sortida per un temps no superior a dos mesos.",
+        "L'amonestació."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 42.2 LOGP enumera les úniques sancions possibles: aïllament en cel·la de fins a 14 dies, aïllament de fins a set caps de setmana, privació de permisos fins a dos mesos, limitació de les comunicacions orals fins a un mes, privació de passeigs i actes recreatius fins a un mes i amonestació. La prohibició de rebre paquets no hi figura.",
+      "excerpt": "No podrán imponerse otras sanciones que: a) Aislamiento en celda, que no podrá exceder de catorce días. b) Aislamiento de hasta siete fines de semana. c) Privación de permisos de salida por un tiempo que no podrá ser superior a dos meses. d) Limitación de las comunicaciones orales al mínimo de tiempo previsto reglamentariamente, durante un mes como máximo. e) Privación de paseos y actos recreativos comunes, en cuanto sea compatible con la salud física y mental, hasta un mes como máximo. f) Amonestación.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

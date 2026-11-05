@@ -26,6 +26,7 @@ from (values
   ('administracion-justicia', 'Administración de Justicia', 'estatal', 'espana'),
   ('correos', 'Correos', 'estatal', 'espana'),
   ('generalitat-interior', 'Generalitat de Catalunya · Interior', 'autonomico', 'catalunya'),
+  ('generalitat-justicia', 'Generalitat de Catalunya · Justícia', 'autonomico', 'catalunya'),
   ('ajuntament-barcelona', 'Ajuntament de Barcelona', 'local', 'barcelona'),
   ('ayuntamientos', 'Ayuntamientos (varios)', 'local', 'espana')
 ) as v(slug, name, scope, region_slug)
@@ -51,6 +52,8 @@ from (values
    'Bomberos de Cataluña.', 'Bombers de Catalunya.', 'emergencias', 60),
   ('ayudantes-instituciones-penitenciarias', 'instituciones-penitenciarias', 'Ayudantes de Instituciones Penitenciarias', 'Ajudants d''Institucions Penitenciàries',
    'Cuerpo de Ayudantes de IIPP.', 'Cos d''Ajudants d''IIPP.', 'penitenciaria', 70),
+  ('serveis-penitenciaris-catalunya', 'generalitat-justicia', 'Prisiones de Cataluña · Servicios Penitenciarios', 'Presons de Catalunya · Serveis Penitenciaris',
+   'Cuerpo técnico de especialistas de la Generalitat, escala de servicios penitenciarios (C1).', 'Cos tècnic d''especialistes de la Generalitat, escala de serveis penitenciaris (C1).', 'penitenciaria', 75),
   ('auxiliar-administrativo-estado', 'administracion-general-estado', 'Auxiliar Administrativo del Estado', 'Auxiliar Administratiu de l''Estat',
    'Cuerpo General Auxiliar de la AGE.', 'Cos General Auxiliar de l''AGE.', 'administracion', 80),
   ('administrativo-estado', 'administracion-general-estado', 'Administrativo del Estado', 'Administratiu de l''Estat',

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "set": "pcat-e20-model-intervencio-riscanvi-riscanvi-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 20. El model d'intervenció, el RisCanvi i el CIRE",
+    "topic_slug": "pcat-e20-model-intervencio-riscanvi",
+    "locale": "ca",
+    "category": "pcat_e20_model_intervencio_riscanvi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Resum sobre RisCanvi, el protocol de valoració del risc (Departament de Justícia, 2017)",
+      "url": "https://repositori.justicia.gencat.cat/bitstream/handle/20.500.14226/772/resum-riscanvi.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament de Justícia",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "Segons el resum oficial del protocol RisCanvi, quin dels següents NO és un dels criteris de risc que avalua el sistema?",
+      "options": [
+        "La violència autodirigida.",
+        "La violència intrainstitucional.",
+        "La comissió de faltes disciplinàries lleus.",
+        "El trencament de condemna."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El RisCanvi avalua la violència (autodirigida, intrainstitucional i reincidència delictiva violenta), la reincidència general i el trencament de condemna. Les faltes disciplinàries lleus no són cap dels criteris.",
+      "excerpt": "contribuint a desenvolupar un sistema integrat de valoració del risc de violència (en els seus tres formats principals: auto dirigida, intrainstitucional i reincidència delictiva violenta), d'avaluació de la reincidència general i de trencament de condemna.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "D'acord amb el resum oficial del RisCanvi, en el criteri de reincidència violenta:",
+      "options": [
+        "Es considera el reingrés penitenciari per un delicte violent comès a la comunitat, i s'exclouen les conductes violentes dins del centre penitenciari.",
+        "S'inclouen les agressions lleus i greus a interns o funcionaris dins de la institució.",
+        "Només es computen els delictes violents comesos després d'obtenir la llibertat definitiva.",
+        "Es considera qualsevol nova sentència condemnatòria, encara que el delicte no sigui violent."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La reincidència violenta és el reingrés per un delicte violent fet a la comunitat (després de complir, durant un permís o abans de la llibertat definitiva) i exclou la violència dins del centre, que és el criteri de violència intrainstitucional.",
+      "excerpt": "Reincidència violenta: reingrés penitenciari per un delicte violent realitzat a la comunitat, que pot haver-lo comés després de complir la condemna, durant un permís de sortida o en qualsevol altra situació de l'intern abans d'obtenir la llibertat definitiva. Exclou les conductes violentes dins del centre penitenciari.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "Segons el resum oficial del RisCanvi, quines conductes defineixen el criteri de trencament de condemna?",
+      "options": [
+        "Només l'evasió del centre penitenciari amb força o violència.",
+        "El no-retorn d'un permís o d'una sortida programada, l'evasió o fugida del centre i el trencament de la confiança de les normes o regles de conducta.",
+        "La comissió de qualsevol delicte durant el compliment de la condemna.",
+        "Les conductes violentes sobre interns o funcionaris dins de la institució."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El resum defineix el trencament de condemna com el no-retorn d'un permís (ordinari, de cap de setmana o extraordinari) o d'una sortida programada, l'evasió o fugida i el trencament de la confiança de les normes.",
+      "excerpt": "Trencament de condemna: no retorn d'un permís (ordinari, de cap de setmana o extraordinari) o d'una sortida programada. Evasió o fugida del centre. Trencament de la confiança de les normes o regles de conducta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "D'acord amb el resum oficial del RisCanvi, de quants factors de risc es compon l'escala RisCanvi Screening (RisCanvi-S)?",
+      "options": [
+        "10 factors.",
+        "43 factors.",
+        "20 factors.",
+        "5 factors."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El RisCanvi-S es compon de 10 factors de risc i classifica el risc en dos nivells, alt i baix. L'escala completa (RisCanvi-C) en té 43.",
+      "excerpt": "RisCanvi S està composta per 10 factors de risc",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "Segons el resum oficial del RisCanvi, cada quant temps s'ha de repetir l'escala RisCanvi-S perquè mantingui la vigència?",
+      "options": [
+        "Cada tres mesos.",
+        "Cada any.",
+        "Cada sis mesos.",
+        "Cada dos mesos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El resum indica que l'escala RisCanvi-S s'administra a l'inici de l'avaluació de l'intern i s'ha de repetir cada sis mesos per mantenir-ne la vigència.",
+      "excerpt": "L'escala RisCanvi S, de cribratge, ha de ser administrada a l'inici de l'avaluació de l'intern i repetir-la cada sis mesos (si es el cas), per tal que tingui vigència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "D'acord amb el resum oficial del RisCanvi, què s'exigeix si el resultat de l'escala RisCanvi-S és alt?",
+      "options": [
+        "Proposar immediatament la regressió de l'intern a primer grau.",
+        "Comunicar-ho al jutge de vigilància penitenciària perquè decideixi sobre els permisos.",
+        "Repetir l'escala RisCanvi-S al cap d'un mes.",
+        "Administrar l'escala RisCanvi completa (RisCanvi-C) abans de qualsevol decisió vinculant que afecti la vida penitenciària de l'intern."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Segons el resum, si el RisCanvi-S dona un resultat alt, cal administrar el RisCanvi-C abans de prendre qualsevol decisió vinculant sobre la vida penitenciària de l'intern.",
+      "excerpt": "Segons el resultat d'aquest protocol, en cas de resultar alt, s'exigeix administrar, abans de qualsevol decisió vinculant que afecti a la vida penitenciaria del intern, l'escala RisCanvi completa (RisCanvi C).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "En relació amb l'escala RisCanvi completa (RisCanvi-C), segons el resum oficial del protocol, quina de les afirmacions següents NO és correcta?",
+      "options": [
+        "Està formada per 43 factors.",
+        "Contempla les àrees criminals, personals i biogràfiques, socials i familiars, clíniques i de personalitat.",
+        "Gradua el risc en dos nivells: alt i baix.",
+        "Valora els cinc criteris de risc del protocol."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El RisCanvi-C té 43 factors, valora els cinc criteris i en contempla les àrees criminals, personals i biogràfiques, socials i familiars, clíniques i de personalitat, però gradua el risc en tres nivells (baix, moderat i alt). Els dos nivells alt i baix són propis del RisCanvi-S.",
+      "excerpt": "Igual que RisCanvi S, valora els cinc criteris anteriorment comentats. Aquesta escala està formada per 43 factors que contemplen les següents àrees: criminals, personals i biogràfics, socials i familiars, clínics i de personalitat. […] graduant-se tres nivells de risc: baix, moderat i alt.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "Segons el resum oficial del RisCanvi, quina particularitat presenta el RisCanvi-C respecte del RisCanvi-S?",
+      "options": [
+        "Permet corregir el resultat actuarial mitjançant una decisió d'equip degudament motivada.",
+        "No fa servir cap procediment actuarial, només la valoració clínica de l'equip.",
+        "L'administra el jutge de vigilància penitenciària.",
+        "Només s'aplica als interns en règim obert i als alliberats condicionals."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El RisCanvi-C, a diferència del RisCanvi-S, permet corregir el resultat actuarial per decisió motivada de l'equip; el risc finalment validat és el que decideix l'equip.",
+      "excerpt": "RisCanvi C presenta la particularitat, a diferència de RisCanvi S, que permet fer una correcció del resultat actuarial, mitjançant una decisió d'equip degudament motivada",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 4",
+      "stem": "D'acord amb el resum oficial del RisCanvi, quina escala complementària pot recomanar el RisCanvi-C per valorar la reincidència en delictes de violència sexual?",
+      "options": [
+        "SARA.",
+        "HCR-20.",
+        "PCL.",
+        "SVR-20."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El resum recull com a escales complementàries l'HCR-20 (reincidència violenta general), l'SVR-20 (violència sexual), la SARA (violència de gènere) i la PCL (violència crònica, psicopatia).",
+      "excerpt": "HCR- 20 (reincidència delictiva violenta general) SVR-20 (reincidència en delictes de violència sexual), SARA (Reincidència delictiva en violència de gènere), PCL (violència crònica –psicopatia-).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 5",
+      "stem": "Segons el resum oficial del RisCanvi, quin termini màxim hi ha per validar l'escala RisCanvi-S des que s'obre per primera vegada?",
+      "options": [
+        "10 dies.",
+        "30 dies.",
+        "15 dies.",
+        "Sis mesos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El resum fixa un termini màxim de 30 dies des de l'obertura per validar el RisCanvi-S (i també 30 dies per validar el RisCanvi-C). Els sis mesos són el termini de vigència.",
+      "excerpt": "Des de l'obertura del primer cop de l'escala RisCanvi S hi ha un termini màxim establert de 30 dies per que aquest sigui validat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resum RisCanvi, apartat 5",
+      "stem": "Segons el resum oficial del RisCanvi, el protocol perd la vigència si durant els sis mesos es produeix un esdeveniment crític. Quin dels fets següents NO s'hi considera esdeveniment crític?",
+      "options": [
+        "Que l'intern faci un intent, consumat o no, d'autolesió o suïcidi.",
+        "Que l'intern es declari en vaga de fam.",
+        "Que l'intern es trobi en fase de recaiguda respecte al consum de substàncies.",
+        "Que l'intern gaudeixi d'un permís ordinari de sortida sense cap incidència."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Entre els esdeveniments crítics hi ha les conductes agressives, l'intent d'autolesió o suïcidi, la vaga de fam, la recaiguda en el consum, l'incompliment de mesures de supervisió o la nova informació rellevant. Gaudir d'un permís sense incidències no n'és cap.",
+      "excerpt": "si hi ha algun intent (consumat o no) d'autolesió o suïcidi, si l'intern/a es declara en vaga de fam, en cas que l'intern/a es trobi en fase de recaiguda respecte al consum de substàncies",
+      "excerpt_status": "completo"
+    }
+  ]
+}

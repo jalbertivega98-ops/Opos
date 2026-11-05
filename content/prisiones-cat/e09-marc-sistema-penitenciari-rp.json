@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "pcat-e09-marc-sistema-penitenciari-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 9. Marc legal i principis del sistema penitenciari",
+    "topic_slug": "pcat-e09-marc-sistema-penitenciari",
+    "locale": "ca",
+    "category": "pcat_e09_marc_sistema_penitenciari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2 RP",
+      "stem": "Segons l'article 2 del Reglament penitenciari (RP), entre els fins de l'activitat penitenciària, a més de la reeducació, la reinserció social i la retenció i custòdia, s'hi inclou:",
+      "options": [
+        "La reparació econòmica a les víctimes del delicte.",
+        "L'assistència social dels interns, dels alliberats i dels seus familiars.",
+        "La prevenció de la reincidència mitjançant el control telemàtic dels alliberats.",
+        "La formació del personal penitenciari."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 2 RP amplia el text de l'art. 1 LOGP i hi inclou l'assistència social dels interns, dels alliberats i dels seus familiars.",
+      "excerpt": "La actividad penitenciaria tiene como fin primordial la reeducación y reinserción social de los sentenciados a penas y medidas de seguridad privativas de libertad, así como la retención y custodia de los detenidos, presos y penados y la asistencia social de los internos, liberados y de sus familiares.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.3 RP",
+      "stem": "L'article 3.3 del Reglament penitenciari considera que l'intern és subjecte de dret i que continua formant part de la societat. Quina de les conseqüències següents NO es deriva d'aquest principi segons aquest precepte?",
+      "options": [
+        "Limitar la col·laboració de les entitats privades a l'àmbit purament assistencial.",
+        "Reduir al màxim els efectes nocius de l'internament.",
+        "Afavorir els vincles socials.",
+        "Afavorir l'accés a les prestacions públiques."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 3.3 RP diu que la vida a la presó ha de prendre com a referència la vida en llibertat, reduint els efectes nocius de l'internament i afavorint els vincles socials, la col·laboració i participació de les entitats públiques i privades i l'accés a les prestacions públiques. No limita la col·laboració de les entitats privades.",
+      "excerpt": "En consecuencia, la vida en prisión debe tomar como referencia la vida en libertad, reduciendo al máximo los efectos nocivos del internamiento, favoreciendo los vínculos sociales, la colaboración y participación de las entidades públicas y privadas y el acceso a las prestaciones públicas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.5 RP",
+      "stem": "Segons l'article 3.5 del Reglament penitenciari, mitjançant quins instruments poden dirigir els òrgans directius de l'Administració penitenciària les activitats dels seus òrgans jeràrquicament dependents?",
+      "options": [
+        "Decrets, ordres i resolucions.",
+        "Reglaments de règim interior i acords del consell de direcció.",
+        "Circulars, instruccions i ordres de servei.",
+        "Instruccions i propostes de la junta de tractament."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 3.5 RP preveu que els òrgans directius dirigeixin els òrgans dependents mitjançant circulars, instruccions i ordres de servei.",
+      "excerpt": "Los órganos directivos de la Administración penitenciaria podrán dirigir las actividades de sus órganos jerárquicamente dependientes mediante circulares, instrucciones y órdenes de servicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1.2 RP",
+      "stem": "Segons l'article 1.2 del Reglament penitenciari, en les comunitats autònomes que exerceixen competències d'execució de la legislació penitenciària estatal, quins preceptes del Reglament s'apliquen de manera supletòria?",
+      "options": [
+        "Tots els preceptes del Reglament, sense excepció.",
+        "Només els preceptes relatius al règim disciplinari dels interns.",
+        "Els dels títols I i II relatius als drets dels interns i a l'ingrés en els establiments.",
+        "Els dels títols XI i XII que regulin qüestions organitzatives o relatives al règim economicoadministratiu dels establiments, i les disposicions d'altres títols de la mateixa naturalesa."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 1.2 RP, en virtut de la potestat d'autoorganització de les comunitats autònomes, només fa supletoris els preceptes organitzatius o de règim economicoadministratiu (títols XI i XII i disposicions anàlogues d'altres títols).",
+      "excerpt": "No obstante, en aquellas Comunidades Autónomas que ejerzan competencias de ejecución de la legislación penitenciaria estatal, en virtud de su potestad de autoorganización, será de aplicación supletoria lo dispuesto en aquellos preceptos de los Títulos XI y XII que regulen cuestiones organizativas o relativas al régimen económico-administrativo de los establecimientos penitenciarios, así como aquellas disposiciones contenidas en otros Títulos que regulen aspectos de la misma naturaleza.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

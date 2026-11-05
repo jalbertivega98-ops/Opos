@@ -1,8 +1,15 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ Guardia Civil completa, ADR-030)
+**Última actualización:** 2026-11-05 · Sesión 3 (+ Prisiones de Cataluña, ADR-032)
 
 ## Estado exacto
+
+### Prisiones de Cataluña (2026-11-05, rama `claude/project-thread-xt6teb`, CNT-023, ADR-032)
+
+- Cos tècnic d'especialistes, escala de serveis penitenciaris (C1), convocatoria JU033. Programa y fuentes en `docs/research/prisiones-catalunya-programa.md`; `build.py`, `FORMATO.md` y fuentes en `/mnt/project-files/aprobia/fuentes-oficiales/prisiones-cat/`.
+- 595 preguntas en catalán y 25 fichas (`content/prisiones-cat`, temas `pcat-*` y supuestos `pcatsup-*`). Preview `37-` (oposición), `38-` (temario), `39-` (productos) y `40-` (publicación). 4 dudosas con nota quedan en borrador.
+- Probado en local con todos los SQL de preview: la oposición queda disponible, 5 productos publicados y los simulacros arrancan con 60 y 25 preguntas.
+- Siguiente: forzar 15 general + 45 específica en el simulacro, precio del pack y guía SEO.
 
 - **Psicotécnicos (CNT-022, ADR-031):** solo se ofrecen en las oposiciones cuya convocatoria los incluye (`examHasPsycho`).
 

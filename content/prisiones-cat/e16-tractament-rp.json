@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "set": "pcat-e16-tractament-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 16. El tractament penitenciari, permisos i sortides",
+    "topic_slug": "pcat-e16-tractament",
+    "locale": "ca",
+    "category": "pcat_e16_tractament",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 115.2 RP",
+      "stem": "Segons el Reglament penitenciari (RP), quan el centre directiu autoritza la constitució d'un grup en comunitat terapèutica, la junta de tractament que n'està al capdavant:",
+      "options": [
+        "Assumeix únicament les funcions de la Comissió Disciplinària respecte dels interns del grup.",
+        "Assumeix totes les funcions del Consell de Direcció, incloses les economicoadministratives, però no les disciplinàries.",
+        "Necessita l'autorització del jutge de vigilància penitenciària per exercir qualsevol funció disciplinària.",
+        "Assumeix les funcions del Consell de Direcció i de la Comissió Disciplinària, llevat de les que es refereixen als aspectes economicoadministratius."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 115.2 RP atribueix a la junta de tractament que està al capdavant del grup en comunitat terapèutica les funcions del Consell de Direcció i de la Comissió Disciplinària, amb exclusió de les economicoadministratives.",
+      "excerpt": "Siempre que el Centro Directivo autorice la constitución de uno de estos grupos, la Junta de Tratamiento que esté al frente del mismo asumirá las funciones que tienen atribuidas el Consejo de Dirección y la Comisión Disciplinaria del Centro penitenciario, con exclusión de las que se refieran a los aspectos económico-administrativos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.3 RP",
+      "stem": "Segons l'article 103 del Reglament penitenciari, el protocol de classificació penitenciària ha de contenir:",
+      "options": [
+        "Només la proposta raonada de grau, ja que el programa individualitzat de tractament s'elabora després de la resolució del centre directiu.",
+        "La proposta raonada de grau i el programa individualitzat de tractament.",
+        "La resolució del jutge de vigilància penitenciària i l'informe del/de la director/a.",
+        "L'informe pronòstic final i la proposta de llibertat condicional."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 103.3 RP diu que el protocol de classificació conté la proposta raonada de grau i el programa individualitzat de tractament, que ha d'assenyalar els destins, activitats, programes educatius, treball i activitats ocupacionals que ha de seguir l'intern.",
+      "excerpt": "El protocolo de clasificación penitenciaria contendrá la propuesta razonada de grado y el programa individualizado de tratamiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.2 RP",
+      "stem": "D'acord amb l'article 20 del Reglament penitenciari, qui formula el programa individualitzat de tractament dels penats?",
+      "options": [
+        "La junta de tractament, amb l'informe previ de l'equip tècnic.",
+        "L'equip tècnic, amb l'informe previ del/de la metge/essa.",
+        "El/La director/a del centre, amb l'informe previ de la junta de tractament.",
+        "El centre directiu, a proposta del jutge de vigilància penitenciària."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 20.2 RP estableix que la junta de tractament, amb l'informe previ de l'equip tècnic, contrasta les dades del protocol i formula un programa individualitzat de tractament (ocupació laboral, formació cultural i professional, mesures d'ajuda, etc.).",
+      "excerpt": "Por la Junta de Tratamiento, previo informe del Equipo Técnico, se contrastarán los datos del protocolo y se formulará un programa individualizado de tratamiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 114.5 RP",
+      "stem": "Segons el Reglament penitenciari, com a regla general, la durada de les sortides programades no serà superior a:",
+      "options": [
+        "Dos dies.",
+        "Set dies.",
+        "Dotze hores.",
+        "Quatre dies."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 114.5 RP fixa, com a regla general, una durada no superior a dos dies, i aclareix que no es computen dins els límits dels permisos ordinaris de l'art. 154.",
+      "excerpt": "Como regla general, la duración de las salidas programadas no será superior a dos días",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 114.4 RP",
+      "stem": "D'acord amb el Reglament penitenciari, qui proposa les sortides programades?",
+      "options": [
+        "El/La director/a del centre, que les aprova directament sense cap altra autorització.",
+        "La junta de tractament, que sol·licita l'aprovació del centre directiu i, si escau, l'autorització posterior del jutge de vigilància penitenciària.",
+        "L'equip tècnic, que en sol·licita l'autorització directament al jutge de vigilància penitenciària.",
+        "El Consell de Direcció, que en sol·licita l'aprovació a la Comissió Disciplinària."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Segons l'art. 114.4 RP, les sortides programades les proposa la junta de tractament, que demana l'aprovació del centre directiu i l'autorització posterior del jutge de vigilància quan, per la durada i el grau, sigui competent.",
+      "excerpt": "Las salidas programadas serán propuestas por la Junta de Tratamiento, que solicitará la aprobación del Centro Directivo y la posterior autorización del Juez de Vigilancia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 154.1 RP",
+      "stem": "Segons el Reglament penitenciari, els permisos de sortida ordinaris es poden concedir als penats classificats en segon o tercer grau amb una durada de fins a:",
+      "options": [
+        "Cinc dies cadascun, amb un màxim de trenta o quaranta dies l'any, respectivament.",
+        "Set dies cadascun, amb un màxim de quaranta-vuit dies l'any en tots dos graus.",
+        "Deu dies cadascun, amb un màxim de trenta-sis o quaranta-vuit dies l'any, respectivament.",
+        "Set dies cadascun, amb un màxim de trenta-sis o quaranta-vuit dies l'any, respectivament."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 154.1 RP (i l'art. 47.2 LOGP) preveu permisos ordinaris de fins a set dies, amb un total de 36 dies l'any (segon grau) o 48 (tercer grau), si s'ha extingit la quarta part de la condemna i no s'observa mala conducta.",
+      "excerpt": "permisos de salida ordinarios de hasta siete días de duración como preparación para la vida en libertad, hasta un total de treinta y seis o cuarenta y ocho días por año a los condenados clasificados en segundo o tercer grado respectivamente, siempre que hayan extinguido la cuarta parte de la condena o condenas y no observen mala conducta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 154.2 RP",
+      "stem": "D'acord amb el Reglament penitenciari, com es distribueixen, com a regla general, els límits màxims anuals de permisos ordinaris?",
+      "options": [
+        "En els quatre trimestres naturals de cada any, fins a nou dies per trimestre en segon grau i fins a dotze en tercer grau.",
+        "En els dos semestres naturals de cada any, fins a vint-i-quatre dies per semestre en segon grau i fins a trenta-sis en tercer grau.",
+        "En els dos semestres naturals de cada any, fins a divuit dies per semestre en segon grau i fins a vint-i-quatre en tercer grau.",
+        "Lliurement al llarg de l'any, sense cap distribució per períodes."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 154.2 RP distribueix els límits de 36 i 48 dies en els dos semestres naturals, amb fins a 18 i 24 dies per semestre, respectivament.",
+      "excerpt": "Los límites máximos anuales de treinta y seis y cuarenta y ocho días de permisos antes señalados, se distribuirán, como regla general, en los dos semestres naturales de cada año, concediendo en cada uno de ellos hasta dieciocho y veinticuatro días, respectivamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 155.4 RP",
+      "stem": "Segons el Reglament penitenciari, quina és la durada màxima dels permisos extraordinaris de sortida per a consulta ambulatòria extrapenitenciària dels penats classificats en segon o tercer grau?",
+      "options": [
+        "Dotze hores.",
+        "Vint-i-quatre hores.",
+        "Dos dies.",
+        "Sis hores."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 155.4 RP permet permisos extraordinaris de fins a dotze hores per a consulta ambulatòria extrapenitenciària i de fins a dos dies quan s'hagi d'ingressar en un hospital extrapenitenciari.",
+      "excerpt": "permisos extraordinarios de salida de hasta doce horas de duración para consulta ambulatoria extrapenitenciaria de los penados clasificados en segundo o tercer grado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 161.1 RP",
+      "stem": "D'acord amb el Reglament penitenciari, si la junta de tractament acorda concedir un permís de sortida, a qui ha d'elevar l'acord per a l'autorització corresponent?",
+      "options": [
+        "Al centre directiu si l'intern està classificat en segon grau, i al jutge de vigilància penitenciària si està classificat en tercer grau.",
+        "Sempre al jutge de vigilància penitenciària, sigui quin sigui el grau.",
+        "Al/A la director/a del centre, que l'autoritza en tots els casos.",
+        "Al jutge de vigilància penitenciària si l'intern està classificat en segon grau, i al centre directiu si està classificat en tercer grau."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 161.1 RP diu que l'acord s'eleva, amb l'informe de l'equip tècnic, al jutge de vigilància (segon grau) o al centre directiu (tercer grau). Els permisos ordinaris de fins a dos dies els autoritza el centre directiu (art. 161.2).",
+      "excerpt": "elevará dicho acuerdo, junto con el informe del Equipo Técnico, al Juez de Vigilancia o al Centro Directivo, según se trate de internos clasificados en segundo o tercer grado de tratamiento, respectivamente, para la autorización correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 161.4 RP",
+      "stem": "Segons el Reglament penitenciari, en els supòsits d'urgència, qui pot autoritzar un permís extraordinari de sortida?",
+      "options": [
+        "El/La cap de serveis, que ho ha de comunicar al/a la director/a dins de les vint-i-quatre hores següents.",
+        "L'equip tècnic, amb la conformitat del metge del centre.",
+        "El/La director/a de l'establiment, amb la consulta prèvia al centre directiu si escau i sens perjudici de comunicar-ho a la junta de tractament.",
+        "Només el jutge de vigilància penitenciària, per via d'urgència."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 161.4 RP permet que, en supòsits d'urgència, el director autoritzi el permís extraordinari, amb consulta prèvia al centre directiu si escau, i que ho comuniqui després a la junta de tractament.",
+      "excerpt": "En los supuestos de urgencia, el permiso extraordinario podrá ser autorizado por el Director del Establecimiento, previa consulta al Centro Directivo si hubiere lugar a ello, y sin perjuicio de comunicar a la Junta de Tratamiento la autorización concedida.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -2,8 +2,8 @@
  * Oposiciones cuyo proceso oficial incluye una prueba psicotécnica, comprobado en cada convocatoria
  * (docs/research): Mossos (aptituds), Auxiliar del Estado (30 preguntas psicotécnicas), Policía
  * Nacional (psicotécnicos), Guardia Civil (aptitudes intelectuales) y policías locales. Administrativo
- * del Estado, Auxilio Judicial y Tramitación Procesal NO tienen psicotécnico: su plan y su ficha no
- * deben ofrecerlo.
+ * del Estado, Auxilio Judicial, Tramitación Procesal y Prisiones de Cataluña (serveis penitenciaris)
+ * NO tienen psicotécnico: su plan y su ficha no deben ofrecerlo.
  */
 const WITH_PSYCHO = new Set([
   "mossos-esquadra",

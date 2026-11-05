@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e20-model-intervencio-riscanvi-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 20. El model d'intervenció, el RisCanvi i el CIRE",
+    "topic_slug": "pcat-e20-model-intervencio-riscanvi",
+    "locale": "ca",
+    "category": "pcat_e20_model_intervencio_riscanvi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 112.3 RP",
+      "stem": "D'acord amb el Reglament penitenciari (RP), si un intern rebutja o no col·labora en la realització d'una tècnica d'estudi de la seva personalitat:",
+      "options": [
+        "No té conseqüències disciplinàries, regimentals ni de regressió de grau.",
+        "Comet una falta lleu per incompliment dels deures de l'intern.",
+        "Ha de ser regressat de grau de manera automàtica.",
+        "Perd el dret a gaudir de permisos ordinaris de sortida."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 112.3 RP reconeix que l'intern pot rebutjar lliurement o no col·laborar en les tècniques d'estudi de la personalitat sense conseqüències disciplinàries, regimentals ni de regressió de grau.",
+      "excerpt": "El interno podrá rechazar libremente o no colaborar en la realización de cualquier técnica de estudio de su personalidad, sin que ello tenga consecuencias disciplinarias, regimentales ni de regresión de grado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112.4 RP",
+      "stem": "Segons el Reglament penitenciari, quan l'intern rebutja col·laborar en l'estudi de la seva personalitat, com es fan la classificació inicial i les revisions posteriors?",
+      "options": [
+        "No es poden fer fins que l'intern accepti col·laborar.",
+        "Mitjançant l'observació directa del comportament, els informes del personal dels equips tècnics que hi tingui relació i les dades documentals existents.",
+        "Les fa directament el jutge de vigilància penitenciària.",
+        "Es classifica automàticament l'intern en primer grau."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 112.4 RP preveu que, en cas de rebuig, la classificació i les revisions es facin per observació directa del comportament, informes del personal dels equips tècnics i dades documentals.",
+      "excerpt": "la clasificación inicial y las posteriores revisiones de la misma se realizarán mediante la observación directa del comportamiento y los informes pertinentes del personal penitenciario de los Equipos Técnicos que tenga relación con el interno, así como utilizando los datos documentales existentes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

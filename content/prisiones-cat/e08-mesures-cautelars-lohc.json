@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "pcat-e08-mesures-cautelars-lohc-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 8. Mesures cautelars, detenció, habeas corpus, presó i llibertat provisional",
+    "topic_slug": "pcat-e08-mesures-cautelars",
+    "locale": "ca",
+    "category": "pcat_e08_mesures_cautelars",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus» (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 LOHC",
+      "stem": "Segons la Llei orgànica 6/1984, reguladora del procediment d'habeas corpus, es consideren persones il·legalment detingudes, entre d'altres:",
+      "options": [
+        "Les que compleixen condemna en un centre penitenciari en règim tancat.",
+        "Les que estan en presó provisional acordada per interlocutòria judicial motivada.",
+        "Les detingudes per un particular en el moment de cometre un delicte flagrant.",
+        "Les privades de llibertat a qui no es respecten els drets que la Constitució i les lleis processals garanteixen a tota persona detinguda."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 1 LOHC considera il·legalment detingudes, entre d'altres, les persones privades de llibertat a qui no es respecten els drets que la Constitució i les lleis processals garanteixen al detingut (lletra d).",
+      "excerpt": "d) Las privadas de libertad a quienes no les sean respetados los derechos que la Constitución y las leyes procesales garantizan a toda persona detenida.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 LOHC",
+      "stem": "Segons la Llei orgànica 6/1984, d'habeas corpus, amb caràcter general, qui és competent per conèixer de la sol·licitud d'habeas corpus?",
+      "options": [
+        "El jutge d'instrucció del lloc on es trobi la persona privada de llibertat.",
+        "El jutge d'instrucció del lloc on s'hagi comès el delicte.",
+        "El jutge o jutgessa de vigilància penitenciària.",
+        "L'Audiència Provincial del lloc on s'hagi produït la detenció."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 2 LOHC atribueix la competència al jutge d'instrucció del lloc on es trobi la persona privada de llibertat; si no consta, al del lloc de la detenció i, si no, al del lloc on se n'hagin tingut les darreres notícies.",
+      "excerpt": "Es competente para conocer la solicitud de «Habeas Corpus» el Juez de Instrucción del lugar en que se encuentre la persona privada de libertad; si no constare, el del lugar en que se produzca la detención, y, en defecto de los anteriores, el del lugar donde se hayan tenido las últimas noticias sobre el paradero del detenido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 LOHC",
+      "stem": "Segons la Llei orgànica 6/1984, d'habeas corpus, si la detenció obeeix a l'aplicació de la llei orgànica que desplega els supòsits de l'article 55.2 de la Constitució, el procediment s'ha de seguir davant:",
+      "options": [
+        "El jutge d'instrucció del lloc on es trobi el detingut.",
+        "La Sala Penal de l'Audiència Nacional.",
+        "El Jutge Togat Militar d'Instrucció.",
+        "El Jutge Central d'Instrucció corresponent."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 2, paràgraf segon, LOHC reserva al Jutge Central d'Instrucció els habeas corpus derivats de l'aplicació de la llei orgànica de l'art. 55.2 CE; en l'àmbit militar és competent el Jutge Togat Militar d'Instrucció.",
+      "excerpt": "Si la detención obedece a la aplicación de la ley orgánica que desarrolla los supuestos previstos en el art. 55.2 de la Constitución, el procedimiento deberá seguirse ante el Juez Central de Instrucción correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 LOHC",
+      "stem": "Segons l'article 3 de la Llei orgànica 6/1984, d'habeas corpus, quina de les persones o institucions següents NO hi figura com a legitimada per instar el procediment?",
+      "options": [
+        "El Ministeri Fiscal.",
+        "El Defensor del Poble.",
+        "El director o directora del centre penitenciari.",
+        "L'advocat defensor del privat de llibertat."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 3 LOHC legitima el privat de llibertat i els seus familiars o representants, el Ministeri Fiscal, el Defensor del Poble i l'advocat defensor; a més, el jutge competent el pot iniciar d'ofici.",
+      "excerpt": "Podrán instar el procedimiento de “Habeas Corpus” que esta ley establece: […] b) El Ministerio Fiscal. c) El Defensor del Pueblo. d) El abogado defensor del privado de libertad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4 LOHC",
+      "stem": "Segons la Llei orgànica 6/1984, d'habeas corpus, el procediment s'inicia, llevat que s'incoï d'ofici:",
+      "options": [
+        "Únicament per escrit signat per advocat i procurador.",
+        "Per mitjà d'escrit o compareixença, sense que sigui preceptiva la intervenció d'advocat ni de procurador.",
+        "Per mitjà de querella presentada davant el jutjat de guàrdia.",
+        "Per mitjà d'instància adreçada al director del centre on es troba el detingut."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 4 LOHC permet iniciar el procediment per escrit o compareixença, sense advocat ni procurador preceptius, fent-hi constar les dades del sol·licitant, el lloc de la privació de llibertat i el motiu concret.",
+      "excerpt": "El procedimiento se iniciará, salvo cuando se incoe de oficio, por medio de escrito o comparecencia, no siendo preceptiva la intervención de Abogado ni de Procurador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7 LOHC",
+      "stem": "Segons la Llei orgànica 6/1984, d'habeas corpus, en quin termini el jutge ha de practicar totes les actuacions i dictar la resolució que correspongui?",
+      "options": [
+        "Vint-i-quatre hores, comptades des que es dicti la interlocutòria d'incoació.",
+        "Vint-i-quatre hores, comptades des del moment de la detenció.",
+        "Setanta-dues hores, comptades des que es presenti la sol·licitud.",
+        "Quaranta-vuit hores, comptades des que es dicti la interlocutòria d'incoació."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 7 LOHC fixa vint-i-quatre hores des de la interlocutòria d'incoació per practicar les actuacions (audiència del privat de llibertat, del fiscal i de l'autoritat) i resoldre.",
+      "excerpt": "En el plazo de veinticuatro horas, contadas desde que sea dictado el auto de incoación, los Jueces practicarán todas las actuaciones a que se refiere este artículo y dictarán la resolución que proceda.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

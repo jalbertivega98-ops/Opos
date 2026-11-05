@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "set": "pcat-g4-procediment-pressupost-lpac-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 4. Procediment administratiu i pressupost de la Generalitat",
+    "topic_slug": "pcat-g4-procediment-pressupost",
+    "locale": "ca",
+    "category": "pcat_g4_procediment_pressupost",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4.1 LPAC",
+      "stem": "Segons l'article 4 de la Llei 39/2015, del procediment administratiu comú de les administracions públiques (LPAC), les persones que, sense haver iniciat el procediment, tenen interessos legítims que poden resultar afectats per la resolució:",
+      "options": [
+        "Són interessades des de l'inici del procediment, encara que no s'hi personin.",
+        "Només poden ser interessades si l'Administració les cita expressament abans del tràmit d'audiència.",
+        "Són interessades si es personen en el procediment mentre no hagi recaigut resolució definitiva.",
+        "No tenen la condició d'interessades; només ho són els qui promouen el procediment."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 4.1.c) LPAC considera interessats aquells els interessos legítims dels quals puguin resultar afectats per la resolució i que es personin en el procediment mentre no hagi recaigut resolució definitiva. Els qui tenen drets que poden resultar afectats (lletra b) ho són encara que no hagin iniciat el procediment.",
+      "excerpt": "c) Aquellos cuyos intereses legítimos, individuales o colectivos, puedan resultar afectados por la resolución y se personen en el procedimiento en tanto no haya recaído resolución definitiva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.6 LPAC",
+      "stem": "D'acord amb la LPAC, si una persona interposa un recurs en nom d'una altra sense acreditar suficientment la representació, l'òrgan administratiu ha de concedir un termini per esmenar el defecte de:",
+      "options": [
+        "Deu dies, o un termini superior quan les circumstàncies del cas ho requereixin.",
+        "Cinc dies, improrrogables.",
+        "Quinze dies hàbils, comptadors des de la presentació del recurs.",
+        "Un mes, transcorregut el qual s'entén que el recurs no s'ha interposat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Segons l'art. 5.6 LPAC, la manca o insuficient acreditació de la representació no impedeix tenir per fet l'acte si s'aporta o s'esmena el defecte dins el termini de deu dies que ha de concedir l'òrgan, o un de superior si les circumstàncies ho requereixen.",
+      "excerpt": "La falta o insuficiente acreditación de la representación no impedirá que se tenga por realizado el acto de que se trate, siempre que se aporte aquélla o se subsane el defecto dentro del plazo de diez días que deberá conceder al efecto el órgano administrativo, o de un plazo superior cuando las circunstancias del caso así lo requieran.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.2 LPAC",
+      "stem": "Segons l'article 30 de la LPAC, llevat que una llei o el dret de la Unió Europea disposin un altre còmput, quan els terminis s'assenyalen per dies:",
+      "options": [
+        "S'entén que són naturals, i només s'exclouen els declarats festius.",
+        "S'entén que són hàbils, i s'exclouen del còmput els dissabtes, els diumenges i els declarats festius.",
+        "S'entén que són hàbils, i només s'exclouen del còmput els diumenges i els declarats festius.",
+        "S'entén que són naturals, llevat que la notificació indiqui expressament que són hàbils."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 30.2 LPAC estableix que els terminis per dies s'entenen hàbils i n'exclou els dissabtes, els diumenges i els festius. Si una llei fixa dies naturals, s'ha de fer constar a la notificació.",
+      "excerpt": "Siempre que por Ley o en el Derecho de la Unión Europea no se exprese otro cómputo, cuando los plazos se señalen por días, se entiende que éstos son hábiles, excluyéndose del cómputo los sábados, los domingos y los declarados festivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.1 LPAC",
+      "stem": "Quant als terminis expressats per hores, la LPAC disposa que:",
+      "options": [
+        "Es compten des de la primera hora del dia següent al de la notificació i no poden superar les quaranta-vuit hores.",
+        "Es compten d'hora en hora i totes les hores del dia són hàbils, encara que el dia sigui inhàbil.",
+        "No poden tenir una durada superior a setanta-dues hores, cas en què s'expressen en dies naturals.",
+        "Es compten d'hora en hora i de minut en minut i no poden tenir una durada superior a vint-i-quatre hores, cas en què s'expressen en dies."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 30.1 LPAC: les hores són hàbils (totes les d'un dia hàbil), es compten d'hora en hora i de minut en minut des de la notificació o publicació i el termini no pot superar les 24 hores; si les supera, s'ha d'expressar en dies.",
+      "excerpt": "Los plazos expresados por horas se contarán de hora en hora y de minuto en minuto desde la hora y minuto en que tenga lugar la notificación o publicación del acto de que se trate y no podrán tener una duración superior a veinticuatro horas, en cuyo caso se expresarán en días.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.3 LPAC",
+      "stem": "D'acord amb la LPAC, els terminis expressats en dies es comencen a comptar:",
+      "options": [
+        "El mateix dia en què tingui lloc la notificació o publicació de l'acte.",
+        "A partir del dia següent a aquell en què es dicti l'acte, encara que no s'hagi notificat.",
+        "A partir del dia següent a aquell en què tingui lloc la notificació o publicació de l'acte.",
+        "A partir del tercer dia hàbil posterior a la notificació o publicació de l'acte."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 30.3 LPAC fixa l'inici del còmput dels terminis en dies a partir de l'endemà de la notificació o publicació, o de l'endemà de l'estimació o desestimació per silenci administratiu.",
+      "excerpt": "Los plazos expresados en días se contarán a partir del día siguiente a aquel en que tenga lugar la notificación o publicación del acto de que se trate",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.4 LPAC",
+      "stem": "Una resolució es notifica a una persona interessada el 31 de gener i li atorga un termini d'un mes per formular al·legacions. Segons la LPAC, i suposant que tots els dies afectats són hàbils, el termini venç:",
+      "options": [
+        "L'últim dia del mes de febrer.",
+        "El 2 de març.",
+        "El 3 de març, en comptar trenta dies naturals.",
+        "El primer dia hàbil del mes de març."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 30.4 LPAC disposa que el termini en mesos conclou el mateix dia en què es va produir la notificació en el mes de venciment; si en aquest mes no hi ha dia equivalent (31 de febrer), el termini expira l'últim dia del mes.",
+      "excerpt": "El plazo concluirá el mismo día en que se produjo la notificación, publicación o silencio administrativo en el mes o el año de vencimiento. Si en el mes de vencimiento no hubiera día equivalente a aquel en que comienza el cómputo, se entenderá que el plazo expira el último día del mes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.5 LPAC",
+      "stem": "Segons la LPAC, quan l'últim dia d'un termini és inhàbil:",
+      "options": [
+        "El termini venç igualment aquell dia.",
+        "El termini venç el darrer dia hàbil anterior.",
+        "S'entén prorrogat tres dies hàbils més.",
+        "S'entén prorrogat al primer dia hàbil següent."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 30.5 LPAC preveu que, si l'últim dia del termini és inhàbil, s'entén prorrogat al primer dia hàbil següent.",
+      "excerpt": "Cuando el último día del plazo sea inhábil, se entenderá prorrogado al primer día hábil siguiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.6 LPAC",
+      "stem": "Un dia és festiu al municipi on resideix la persona interessada, però és hàbil a la seu de l'òrgan administratiu que tramita el procediment. Segons l'article 30 de la LPAC, a efectes del còmput de terminis aquest dia:",
+      "options": [
+        "Es considera hàbil, perquè preval el calendari de la seu de l'òrgan.",
+        "Es considera inhàbil en tot cas.",
+        "Es considera hàbil si el procediment s'ha iniciat d'ofici i inhàbil si s'ha iniciat a sol·licitud de la persona interessada.",
+        "Es considera hàbil, llevat que la persona interessada acrediti que no ha pogut presentar la documentació."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 30.6 LPAC estableix que, quan un dia és hàbil al municipi o comunitat autònoma de residència de l'interessat i inhàbil a la seu de l'òrgan, o a la inversa, es considera inhàbil en tot cas.",
+      "excerpt": "Cuando un día fuese hábil en el municipio o Comunidad Autónoma en que residiese el interesado, e inhábil en la sede del órgano administrativo, o a la inversa, se considerará inhábil en todo caso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 32 LPAC",
+      "stem": "Pel que fa a l'ampliació dels terminis prevista a l'article 32 de la LPAC, quina de les afirmacions següents NO és correcta?",
+      "options": [
+        "L'ampliació no pot excedir la meitat del termini establert.",
+        "L'acord d'ampliació s'ha de notificar a les persones interessades.",
+        "Es pot ampliar un termini ja vençut si la persona interessada ho sol·licita de manera motivada.",
+        "Els acords sobre ampliació de terminis o sobre la seva denegació no són susceptibles de recurs."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 32 LPAC permet ampliar els terminis, d'ofici o a petició, fins a la meitat, i l'acord s'ha de notificar (32.1). La petició i la decisió s'han de produir abans del venciment: en cap cas es pot ampliar un termini ja vençut, i els acords d'ampliació o denegació no són recurribles (32.3).",
+      "excerpt": "una ampliación de los plazos establecidos, que no exceda de la mitad de los mismos, si las circunstancias lo aconsejan y con ello no se perjudican derechos de tercero. El acuerdo de ampliación deberá ser notificado a los interesados. […] En ningún caso podrá ser objeto de ampliación un plazo ya vencido. Los acuerdos sobre ampliación de plazos o sobre su denegación no serán susceptibles de recurso",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33 LPAC",
+      "stem": "Quan s'acorda la tramitació d'urgència d'un procediment per raons d'interès públic, segons la LPAC, quins terminis NO es redueixen a la meitat?",
+      "options": [
+        "Els del tràmit d'audiència a les persones interessades.",
+        "Els relatius a la presentació de sol·licituds i recursos.",
+        "Els de la pràctica de la prova.",
+        "Els de l'emissió d'informes preceptius."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 33.1 LPAC redueix a la meitat els terminis del procediment ordinari en la tramitació d'urgència, llevat dels relatius a la presentació de sol·licituds i recursos. L'acord d'urgència no és recurrible (art. 33.2).",
+      "excerpt": "por la cual se reducirán a la mitad los plazos establecidos para el procedimiento ordinario, salvo los relativos a la presentación de solicitudes y recursos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21.2-3 LPAC",
+      "stem": "Segons la LPAC, quan les normes reguladores d'un procediment no fixen el termini màxim per notificar la resolució expressa, aquest termini és de:",
+      "options": [
+        "Tres mesos.",
+        "Sis mesos.",
+        "Un mes.",
+        "Dos mesos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 21.3 LPAC fixa en tres mesos el termini màxim supletori. Amb caràcter general, el que fixi la norma reguladora no pot superar els sis mesos, llevat que una norma amb rang de llei o el dret de la UE en prevegi un de més llarg (art. 21.2).",
+      "excerpt": "Cuando las normas reguladoras de los procedimientos no fijen el plazo máximo, éste será de tres meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.2 LPAC",
+      "stem": "D'acord amb l'article 40 de la LPAC, tota notificació s'ha de cursar dins el termini de:",
+      "options": [
+        "Cinc dies a partir de la data en què l'acte s'hagi dictat.",
+        "Quinze dies a partir de la data en què l'acte s'hagi dictat.",
+        "Un mes a partir de la data en què l'acte s'hagi dictat.",
+        "Deu dies a partir de la data en què l'acte s'hagi dictat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 40.2 LPAC exigeix cursar la notificació en deu dies des que es dicta l'acte, amb el text íntegre, la indicació de si posa fi a la via administrativa i els recursos procedents, l'òrgan i el termini.",
+      "excerpt": "Toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 47.1 i 48.1 LPAC",
+      "stem": "Segons l'article 47 de la LPAC, quin dels actes següents NO és nul de ple dret?",
+      "options": [
+        "L'acte que té un contingut impossible.",
+        "L'acte dictat amb desviació de poder.",
+        "L'acte dictat per un òrgan manifestament incompetent per raó de la matèria o del territori.",
+        "L'acte constitutiu d'infracció penal o dictat com a conseqüència d'aquesta."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El contingut impossible, la incompetència manifesta per raó de la matèria o del territori i la infracció penal són causes de nul·litat de ple dret (art. 47.1.b, c i d LPAC). La desviació de poder és causa d'anul·labilitat (art. 48.1 LPAC).",
+      "excerpt": "Son anulables los actos de la Administración que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.2 LPAC",
+      "stem": "D'acord amb la LPAC, un defecte de forma només determina l'anul·labilitat de l'acte quan:",
+      "options": [
+        "L'acte no té els requisits formals indispensables per assolir la seva finalitat o dona lloc a la indefensió de les persones interessades.",
+        "L'acte s'ha dictat prescindint totalment i absolutament del procediment legalment establert.",
+        "La persona interessada ho al·lega en el termini de deu dies des de la notificació.",
+        "L'acte s'ha dictat fora del termini establert, sigui quina sigui la naturalesa d'aquest termini."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 48.2 LPAC limita l'anul·labilitat per defecte de forma als casos en què falten requisits formals indispensables per assolir la finalitat o es causa indefensió. Prescindir totalment del procediment és causa de nul·litat (art. 47.1.e) i l'actuació fora de termini només comporta anul·labilitat quan ho imposa la naturalesa del termini (art. 48.3).",
+      "excerpt": "No obstante, el defecto de forma sólo determinará la anulabilidad cuando el acto carezca de los requisitos formales indispensables para alcanzar su fin o dé lugar a la indefensión de los interesados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107.2 LPAC",
+      "stem": "Segons la LPAC, la declaració de lesivitat d'un acte favorable anul·lable no es pot adoptar un cop transcorreguts:",
+      "options": [
+        "Sis mesos des que es va dictar l'acte administratiu.",
+        "Quatre anys des que es va dictar l'acte administratiu.",
+        "Dos anys des que es va notificar l'acte administratiu.",
+        "Cinc anys des que l'acte va esdevenir ferm."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 107.2 LPAC fixa el límit de quatre anys des que es va dictar l'acte i exigeix l'audiència prèvia dels interessats. Els sis mesos es refereixen a la caducitat del procediment de lesivitat (art. 107.3).",
+      "excerpt": "La declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se dictó el acto administrativo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 122 LPAC",
+      "stem": "D'acord amb la LPAC, si l'acte és exprés, el termini per interposar el recurs d'alçada és de:",
+      "options": [
+        "Quinze dies hàbils.",
+        "Dos mesos.",
+        "Un mes.",
+        "Tres mesos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 122.1 LPAC fixa el termini d'un mes per a l'alçada contra actes expressos; transcorregut, la resolució és ferma. El termini màxim per resoldre-la i notificar-la és de tres mesos (art. 122.2).",
+      "excerpt": "El plazo para la interposición del recurso de alzada será de un mes, si el acto fuera expreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 123-124 LPAC",
+      "stem": "Segons la LPAC, el recurs potestatiu de reposició:",
+      "options": [
+        "S'interposa davant l'òrgan superior jeràrquic del que va dictar l'acte, i s'ha de resoldre en tres mesos.",
+        "S'interposa davant el mateix òrgan que va dictar l'acte, i s'ha de resoldre en tres mesos.",
+        "És obligatori abans d'acudir a la jurisdicció contenciosa administrativa i s'ha de resoldre en un mes.",
+        "S'interposa davant el mateix òrgan que va dictar l'acte, i el termini màxim per dictar-ne i notificar-ne la resolució és d'un mes."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els actes que posen fi a la via administrativa es poden recórrer potestativament en reposició davant el mateix òrgan que els va dictar o impugnar directament davant la jurisdicció contenciosa (art. 123.1 LPAC). El termini màxim per resoldre i notificar és d'un mes (art. 124.2).",
+      "excerpt": "Los actos administrativos que pongan fin a la vía administrativa podrán ser recurridos potestativamente en reposición ante el mismo órgano que los hubiera dictado […] El plazo máximo para dictar y notificar la resolución del recurso será de un mes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

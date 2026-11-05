@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e20-model-intervencio-riscanvi-riscanvi_web-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 20. El model d'intervenció, el RisCanvi i el CIRE",
+    "topic_slug": "pcat-e20-model-intervencio-riscanvi",
+    "locale": "ca",
+    "category": "pcat_e20_model_intervencio_riscanvi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Protocol de valoració del risc (RisCanvi) · web del Departament de Justícia",
+      "url": "https://justicia.gencat.cat/ca/ambits/reinsercio_i_serveis_penitenciaris/serveis_penitenciaris/RisCanvi/",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament de Justícia",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "RisCanvi (web del Departament de Justícia)",
+      "stem": "Segons el Departament de Justícia, el model d'intervenció amb què treballen els serveis penitenciaris catalans està fonamentat en:",
+      "options": [
+        "La classificació dels interns exclusivament segons el delicte comès i la durada de la condemna.",
+        "L'avaluació i la gestió del risc mitjançant instruments basats en l'evidència científica.",
+        "L'aplicació uniforme del mateix programa de tractament a tota la població penitenciària.",
+        "L'ús de mitjans coercitius i de mesures de seguretat com a eix principal de la intervenció."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La pàgina oficial del RisCanvi indica que l'avaluació i la gestió del risc amb instruments basats en l'evidència científica és un component fonamental del model d'intervenció, i que els serveis penitenciaris catalans treballen sobre aquest model.",
+      "excerpt": "L'avaluació i la gestió del risc mitjançant instruments basats en l'evidència científica és un dels components fonamentals del model d'intervenció que més aval té avui en dia de la comunitat científica i les institucions. Els serveis penitenciaris catalans treballen sobre aquest model fonamentat en l'avaluació i gestió del risc",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "RisCanvi (web del Departament de Justícia)",
+      "stem": "D'acord amb la informació oficial del Departament de Justícia, el RisCanvi ofereix suport als processos de presa de decisions principalment en relació amb:",
+      "options": [
+        "La imposició de sancions disciplinàries i l'execució de les sancions d'aïllament.",
+        "Els trasllats entre centres i les conduccions a l'exterior.",
+        "La selecció i la provisió de llocs de treball del personal penitenciari.",
+        "La planificació de la intervenció, la classificació i la concessió de permisos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Segons la web oficial, el RisCanvi dona suport a les decisions sobre la planificació de la intervenció (necessitats de cada intern i disseny del programa individual de tractament), la classificació i la concessió de permisos.",
+      "excerpt": "Ofereix suport als processos de presa de decisions, principalment en allò que té a veure amb la planificació de la intervenció (avalua les necessitats de cada intern i permet orientar el disseny del seu programa individual de tractament per complir amb l'itinerari de reinserció), la classificació i la concessió de permisos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

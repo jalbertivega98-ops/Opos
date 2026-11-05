@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcatsup-s1-ingres-seguretat-lohc-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Supòsit pràctic I. Ingressos, seguretat, escorcolls i mitjans coercitius",
+    "topic_slug": "pcatsup-s1-ingres-seguretat",
+    "locale": "ca",
+    "category": "pcatsup_s1_ingres_seguretat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus» (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Arts. 2 i 5 LO 6/1984",
+      "stem": "El detingut I.M., ingressat al centre per ordre de la policia judicial, manifesta al funcionari del departament d'ingressos que vol sol·licitar un habeas corpus perquè considera que s'ha superat el termini màxim de detenció. Segons la Llei orgànica 6/1984, què ha de fer el funcionari que el té sota custòdia?",
+      "options": [
+        "Traslladar-la al jutge de vigilància penitenciària en el termini de vint-i-quatre hores.",
+        "Lliurar-la al director perquè la resolgui, ja que l'intern és sota la custòdia del centre.",
+        "Tramitar-la només si la presenta per mitjà d'advocat i procurador.",
+        "Posar immediatament la sol·licitud en coneixement del jutge competent, que és el jutge d'instrucció del lloc on es troba la persona privada de llibertat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 5 de la LO 6/1984 obliga el funcionari que té sota custòdia la persona privada de llibertat a posar immediatament en coneixement del jutge competent la sol·licitud d'habeas corpus; segons l'art. 2, és competent el jutge d'instrucció del lloc on es troba la persona privada de llibertat. No cal advocat ni procurador (art. 4).",
+      "excerpt": "Es competente para conocer la solicitud de «Habeas Corpus» el Juez de Instrucción del lugar en que se encuentre la persona privada de libertad […] estarán obligados a poner inmediatamente en conocimiento del Juez competente la solicitud de «Habeas Corpus», formulada por la persona privada de libertad que se encuentre bajo su custodia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

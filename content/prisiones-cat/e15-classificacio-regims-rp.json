@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "set": "pcat-e15-classificacio-regims-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 15. Classificació en graus i règims ordinari, tancat, obert i de preventius",
+    "topic_slug": "pcat-e15-classificacio-regims",
+    "locale": "ca",
+    "category": "pcat_e15_classificacio_regims",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 74.1 RP",
+      "stem": "Segons l'article 74 del Reglament penitenciari, a qui s'aplica el règim ordinari?",
+      "options": [
+        "Als penats classificats en segon grau, als penats sense classificar i als detinguts i presos.",
+        "Només als penats classificats en segon grau.",
+        "Als penats classificats en segon i tercer grau.",
+        "Als penats classificats en segon grau i als penats sense classificar, però no als detinguts i presos."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 74.1 RP aplica el règim ordinari als penats de segon grau, als penats sense classificar i als detinguts i presos. El règim obert correspon al tercer grau, i el tancat, al primer grau i als preventius en què concorrin les mateixes circumstàncies.",
+      "excerpt": "El régimen ordinario se aplicará a los penados clasificados en segundo grado, a los penados sin clasificar y a los detenidos y presos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 100.2 RP",
+      "stem": "Segons l'article 100.2 del Reglament penitenciari (principi de flexibilitat), el model d'execució que combina aspectes característics de diferents graus quina aprovació ulterior necessita?",
+      "options": [
+        "La del centre directiu, i no s'executa fins que no l'aprova.",
+        "La del Ministeri Fiscal, dins dels tres dies hàbils següents.",
+        "La del consell de direcció, a proposta de la junta de tractament.",
+        "La del jutge de vigilància, sens perjudici de la seva executivitat immediata."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'equip tècnic pot proposar a la junta de tractament aquest model, fonamentat en un programa específic de tractament. Com a mesura excepcional, necessita l'aprovació ulterior del jutge de vigilància, però s'executa immediatament (art. 100.2 RP).",
+      "excerpt": "Esta medida excepcional necesitará de la ulterior aprobación del Juez de Vigilancia correspondiente, sin perjuicio de su inmediata ejecutividad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.2 RP",
+      "stem": "D'acord amb el Reglament penitenciari, dins de quin termini màxim ha de formular la junta de tractament la proposta de classificació inicial d'un penat?",
+      "options": [
+        "Sis mesos des que l'establiment rep el testimoni de la sentència.",
+        "Dos mesos des que l'establiment rep el testimoni de la sentència.",
+        "Un mes des de l'ingrés del penat a l'establiment.",
+        "Dos mesos des de l'ingrés del penat a l'establiment."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La proposta es formula en el model normalitzat del centre directiu en el termini màxim de dos mesos des de la recepció del testimoni de la sentència (art. 103.2 RP). El centre directiu resol en dos mesos més, que pot ampliar dos mesos més (arts. 103.4 i 103.6 RP).",
+      "excerpt": "La propuesta se formulará en el impreso normalizado aprobado por el Centro Directivo en el plazo máximo de dos meses desde la recepción en el Establecimiento del testimonio de la sentencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.7 RP",
+      "stem": "Segons l'article 103 del Reglament penitenciari, quan es tracta de penats amb condemnes de fins a un any, quan té la proposta de classificació inicial de la junta de tractament la consideració de resolució de classificació inicial a tots els efectes?",
+      "options": [
+        "Quan l'acord s'adopta per unanimitat dels membres i no proposa la classificació en primer grau.",
+        "Sempre, sigui quin sigui el grau proposat i la majoria amb què s'adopta.",
+        "Quan l'acord s'adopta per majoria absoluta i proposa el tercer grau.",
+        "Mai: la resolució correspon sempre al centre directiu."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Si la condemna és de fins a un any, l'acord unànime de la junta té la consideració de resolució de classificació inicial, llevat que proposi el primer grau, cas en què resol el centre directiu (art. 103.7 RP). Si l'acord no és unànime, també es tramet al centre directiu (art. 103.9 RP).",
+      "excerpt": "Cuando se trate de penados con condenas de hasta un año, la propuesta de clasificación inicial formulada por la Junta de Tratamiento, adoptada por acuerdo unánime de sus miembros, tendrá la consideración de resolución de clasificación inicial a todos los efectos, salvo cuando se haya propuesto la clasificación en primer grado de tratamiento, en cuyo caso la resolución corresponderá al Centro Directivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105.1 RP",
+      "stem": "Segons el Reglament penitenciari, amb quina periodicitat màxima s'han d'estudiar individualment els interns per reconsiderar la seva classificació?",
+      "options": [
+        "Cada tres mesos com a màxim.",
+        "Cada any com a màxim.",
+        "Cada sis mesos com a màxim.",
+        "Cada dos mesos com a màxim."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 105.1 RP, en la mateixa línia que l'art. 65.4 LOGP, obliga a estudiar els interns individualment cada sis mesos com a màxim.",
+      "excerpt": "Cada seis meses como máximo, los internos deberán ser estudiados individualmente para evaluar y reconsiderar, en su caso, todos los aspectos establecidos en el modelo individualizado de tratamiento al formular su propuesta de clasificación inicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105.3 RP",
+      "stem": "D'acord amb l'article 105 del Reglament penitenciari, què pot sol·licitar un intern quan una mateixa junta reitera per segona vegada la seva classificació en primer grau?",
+      "options": [
+        "Que el jutge de vigilància el classifiqui directament en segon grau.",
+        "Que la seva propera proposta de classificació la faci la Central Penitenciària d'Observació.",
+        "Que la seva propera proposta de classificació la faci la junta de tractament d'un altre centre de la seva elecció.",
+        "Que el Ministeri Fiscal revisi la classificació en el termini de tres dies."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 105.3 RP, igual que l'art. 65.4 LOGP, permet a l'intern demanar que la propera proposta la faci la Central Penitenciària d'Observació. El mateix dret correspon a l'intern de segon grau en la mateixa circumstància que ha complert la meitat de la condemna.",
+      "excerpt": "Cuando una misma Junta reitere por segunda vez la clasificación de primer grado, el interno podrá solicitar que su próxima propuesta de clasificación se haga por la Central Penitenciaria de Observación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107 RP",
+      "stem": "Segons el Reglament penitenciari, dins de quin termini s'han de notificar al Ministeri Fiscal les resolucions de classificació o progressió a tercer grau?",
+      "options": [
+        "Dins de les setanta-dues hores següents a l'adopció, sense cap informe.",
+        "Dins dels deu dies hàbils següents a la data d'adopció.",
+        "Dins del mes següent a la data d'adopció, juntament amb l'informe del director.",
+        "Dins dels tres dies hàbils següents a la data d'adopció, juntament amb l'informe de la junta de tractament."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 107 RP obliga a notificar al Ministeri Fiscal totes les resolucions de classificació o progressió a tercer grau, amb l'informe de la junta de tractament, dins dels tres dies hàbils següents a la data d'adopció.",
+      "excerpt": "se notificarán, junto con el informe de la Junta de Tratamiento, al Ministerio Fiscal dentro de los tres días hábiles siguientes a la fecha de su adopción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 102.5 RP",
+      "stem": "Segons l'article 102.5 del Reglament penitenciari, quin dels factors següents NO s'esmenta entre els que s'han de ponderar per classificar un intern en primer grau?",
+      "options": [
+        "La participació activa en motins, plants, agressions físiques, amenaces o coaccions.",
+        "La pertinença a organitzacions delictives o a bandes armades, mentre no mostri signes inequívocs d'haver-se sostret a la seva disciplina interna.",
+        "La comissió d'infraccions disciplinàries qualificades de molt greus o greus, de manera reiterada i sostinguda en el temps.",
+        "El fet de complir una condemna superior a deu anys de presó."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 102.5 RP enumera la naturalesa dels delictes, els actes especialment violents, la pertinença a organitzacions delictives o bandes armades, la participació en motins, plants, agressions, amenaces o coaccions, les infraccions molt greus o greus reiterades i la introducció o tinença d'armes de foc o de drogues en quantitat important. La durada de la condemna no hi figura.",
+      "excerpt": "c) Pertenencia a organizaciones delictivas o a bandas armadas, mientras no muestren, en ambos casos, signos inequívocos de haberse sustraído a la disciplina interna de dichas organizaciones o bandas. d) Participación activa en motines, plantes, agresiones físicas, amenazas o coacciones. e) Comisión de infracciones disciplinarias calificadas de muy graves o graves, de manera reiterada y sostenida en el tiempo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 93.1 RP, norma 1a",
+      "stem": "Segons l'article 93 del Reglament penitenciari, de quantes hores diàries de sortida al pati han de gaudir, com a mínim, els interns destinats a departaments especials?",
+      "options": [
+        "Tres hores, ampliables fins a tres hores més per a activitats programades.",
+        "Quatre hores, ampliables fins a tres hores més per a activitats programades.",
+        "Dues hores, ampliables fins a dues hores més per a activitats programades.",
+        "Sis hores, sense possibilitat d'ampliació."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Als departaments especials el mínim és de tres hores diàries de pati, ampliables fins a tres hores més per a activitats programades (art. 93.1.1a RP). Les quatre hores de vida en comú corresponen als mòduls o centres tancats (art. 94 RP).",
+      "excerpt": "Los internos disfrutarán, como mínimo, de tres horas diarias de salida al patio. Este número podrá ampliarse hasta tres horas más para la realización de actividades programadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 93.1 RP, norma 3a",
+      "stem": "D'acord amb l'article 93 del Reglament penitenciari, en les sortides al pati dels departaments especials, quants interns hi poden estar junts?",
+      "options": [
+        "No més de cinc, nombre que es pot augmentar fins a un màxim de deu per fer activitats programades.",
+        "No més de dos, nombre que es pot augmentar fins a un màxim de cinc per fer activitats programades.",
+        "No més de tres, sense possibilitat d'augmentar-lo.",
+        "Un de sol, sense cap excepció."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Segons la norma 3a de l'art. 93.1 RP, al pati no hi pot haver mai més de dos interns junts, i el nombre es pot augmentar fins a cinc per fer activitats programades.",
+      "excerpt": "En las salidas al patio no podrán permanecer, en ningún caso, más de dos internos juntos. Este número podrá aumentarse hasta un máximo de cinco para la ejecución de actividades programadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 94 RP, normes 1a i 2a",
+      "stem": "Segons l'article 94 del Reglament penitenciari, sobre la modalitat de vida en mòduls o centres tancats, assenyaleu la resposta correcta.",
+      "options": [
+        "Els interns gaudeixen, com a mínim, de tres hores diàries de vida en comú, ampliables fins a dues hores més.",
+        "El nombre d'interns que poden fer activitats en grup el fixa el centre directiu, amb un màxim de cinc.",
+        "Els interns gaudeixen, com a mínim, de quatre hores diàries de vida en comú, ampliables fins a tres hores més per a activitats programades.",
+        "El nombre d'interns que poden fer activitats en grup el fixa el director, amb un mínim de dos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 94 RP fixa un mínim de quatre hores diàries de vida en comú, ampliables fins a tres hores més per a activitats programades. El nombre d'interns per a les activitats en grup el fixa el consell de direcció, amb l'informe previ de la junta de tractament, i n'ha de ser com a mínim de cinc.",
+      "excerpt": "Los internos disfrutarán, como mínimo, de cuatro horas diarias de vida en común. Este horario podrá aumentarse hasta tres horas más para la realización de actividades previamente programadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 95.1 RP",
+      "stem": "Segons l'article 95 del Reglament penitenciari, dins de quin termini s'ha d'informar el jutge de vigilància penitenciària del trasllat d'un penat a un establiment de règim tancat o a un departament especial?",
+      "options": [
+        "Dins de les vint-i-quatre hores següents a l'adopció de l'acord.",
+        "Dins de les setanta-dues hores següents a l'adopció de l'acord.",
+        "Dins dels catorze dies següents a l'adopció de l'acord.",
+        "Dins dels tres dies hàbils següents a l'adopció de l'acord."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El trasllat l'acorda el centre directiu en resolució motivada, amb la proposta raonada prèvia de la junta de tractament, i se n'informa el jutge de vigilància dins de les 72 hores següents (art. 95.1 RP). Els catorze dies són el termini per resoldre la classificació en primer grau en els trasllats per motí, agressió amb arma, presa d'ostatges o intent violent d'evasió (art. 95.3 RP).",
+      "excerpt": "De este acuerdo se dará conocimiento al Juez de Vigilancia Penitenciaria dentro de las setenta y dos horas siguientes a su adopción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 80.1 RP",
+      "stem": "Segons l'article 80 del Reglament penitenciari, quin dels següents NO és un tipus d'establiment de règim obert?",
+      "options": [
+        "Els centres oberts o d'inserció social.",
+        "Les seccions obertes.",
+        "Els departaments especials.",
+        "Les unitats dependents."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 80.1 RP enumera tres tipus d'establiments de règim obert: els centres oberts o d'inserció social, les seccions obertes i les unitats dependents. Els departaments especials són una modalitat del règim tancat (art. 91 RP).",
+      "excerpt": "a) Centros Abiertos o de Inserción Social. b) Secciones Abiertas. c) Unidades Dependientes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 86.4 RP",
+      "stem": "D'acord amb l'article 86 del Reglament penitenciari, quin és en general el temps mínim de permanència al centre dels interns en règim obert i quina excepció hi ha?",
+      "options": [
+        "Sis hores diàries, sense pernoctació, llevat que la junta de tractament imposi el control telemàtic.",
+        "Vuit hores diàries, amb pernoctació al centre, sense cap excepció.",
+        "Vuit hores diàries, amb pernoctació al centre, llevat que l'intern accepti voluntàriament el control de la seva presència fora del centre mitjançant dispositius telemàtics o altres mecanismes de control suficient.",
+        "Dotze hores diàries, amb pernoctació, llevat que el jutge de vigilància autoritzi el control telemàtic."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 86.4 RP fixa, en general, vuit hores diàries de permanència i la pernoctació al centre. Si l'intern accepta voluntàriament el control telemàtic o un altre de suficient, només hi ha d'estar el temps que fixi el seu programa de tractament.",
+      "excerpt": "En general, el tiempo mínimo de permanencia en el Centro será de ocho horas diarias, debiendo pernoctarse en el Establecimiento, salvo cuando, de modo voluntario, el interno acepte el control de su presencia fuera del Centro mediante dispositivos telemáticos adecuados proporcionados por la Administración Penitenciaria u otros mecanismos de control suficiente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 RP",
+      "stem": "D'acord amb l'article 17 del Reglament penitenciari, quina edat màxima poden tenir els fills que la direcció de l'establiment admet amb les seves mares en el moment de l'ingrés?",
+      "options": [
+        "Menys de tres anys.",
+        "Menys de sis anys.",
+        "Menys de deu anys.",
+        "Menys d'un any."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La direcció admet els fills menors de tres anys que acompanyin les mares en ingressar. Cal acreditar la filiació i que la situació no comporta risc per als menors, i la decisió es comunica al Ministeri Fiscal (art. 17.1 RP).",
+      "excerpt": "La Dirección del establecimiento admitirá a los hijos menores de tres años que acompañen a sus madres en el momento del ingreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 178 RP",
+      "stem": "Sobre les normes de funcionament de les unitats de mares de l'article 178 del Reglament penitenciari, quina de les afirmacions següents NO és correcta?",
+      "options": [
+        "Hi ha d'haver un especialista d'educació infantil que orienti la programació educativa i lúdica de les activitats dels menors.",
+        "Un especialista en pediatria ha de cobrir l'assistència mèdica dels menors a l'establiment.",
+        "El règim de visites del menor només es pot restringir de manera transitòria per raons d'ordre i de seguretat de l'establiment.",
+        "El consell de direcció programa les activitats formatives i lúdiques i les sortides programades dels menors a l'exterior."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Segons la norma 1a de l'art. 178 RP, qui programa les activitats formatives i lúdiques i les sortides programades dels menors a l'exterior és la junta de tractament, no el consell de direcció. Les altres afirmacions reprodueixen les normes 2a, 3a i 5a.",
+      "excerpt": "La Junta de Tratamiento programará las actividades formativas y lúdicas, así como las salidas programadas al exterior de los menores",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 97.2 i 98.2 RP",
+      "stem": "Segons el Reglament penitenciari, quan s'aplica el règim tancat a un intern preventiu, en quin termini màxim s'ha de revisar l'acord?",
+      "options": [
+        "Cada sis mesos com a màxim, igual que la classificació dels penats.",
+        "No es pot demorar més de tres mesos, amb l'emissió prèvia dels informes preceptius.",
+        "Cada quaranta-cinc dies, sense necessitat d'informes.",
+        "No es revisa: es manté fins que hi hagi sentència ferma."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 98.2 RP fixa un màxim de tres mesos per revisar l'acord. L'acord de la junta de tractament s'ha de notificar a l'intern dins de 24 hores i s'ha de comunicar al jutge de vigilància dins de 72 hores (art. 97.2 RP).",
+      "excerpt": "En todo caso, la revisión del acuerdo a que se refiere el artículo anterior, no podrá demorarse más de tres meses, previa emisión de los preceptivos informes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

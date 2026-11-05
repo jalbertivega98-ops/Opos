@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "pcat-e09-marc-sistema-penitenciari-ce-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 9. Marc legal i principis del sistema penitenciari",
+    "topic_slug": "pcat-e09-marc-sistema-penitenciari",
+    "locale": "ca",
+    "category": "pcat_e09_marc_sistema_penitenciari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 25.2 CE",
+      "stem": "Segons l'article 25.2 de la Constitució espanyola, cap a on han d'estar orientades les penes privatives de llibertat i les mesures de seguretat?",
+      "options": [
+        "Cap a la retenció i la custòdia dels condemnats.",
+        "Cap a la prevenció general i la retribució del delicte.",
+        "Cap a la reeducació i la reinserció social.",
+        "Cap a la reparació del dany causat a la víctima."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 25.2 CE estableix que les penes privatives de llibertat i les mesures de seguretat estaran orientades cap a la reeducació i la reinserció social i que no podran consistir en treballs forçats.",
+      "excerpt": "Las penas privativas de libertad y las medidas de seguridad estarán orientadas hacia la reeducación y reinserción social y no podrán consistir en trabajos forzados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 25.2 CE",
+      "stem": "D'acord amb l'article 25.2 de la Constitució espanyola, el condemnat a pena de presó que l'estigui complint gaudirà dels drets fonamentals del capítol II, a excepció dels que es vegin expressament limitats per:",
+      "options": [
+        "El contingut de la decisió condemnatòria, el sentit de la pena i la llei penitenciària.",
+        "El contingut de la decisió condemnatòria, el Reglament penitenciari i les normes de règim interior.",
+        "El sentit de la pena, les ordres del director o directora del centre i la llei penitenciària.",
+        "Les resolucions del jutge de vigilància penitenciària i les circulars del centre directiu."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Segons l'art. 25.2 CE, els drets fonamentals del condemnat només es poden limitar pel contingut de la decisió condemnatòria (fallo condenatorio), el sentit de la pena i la llei penitenciària.",
+      "excerpt": "El condenado a pena de prisión que estuviere cumpliendo la misma gozará de los derechos fundamentales de este Capítulo, a excepción de los que se vean expresamente limitados por el contenido del fallo condenatorio, el sentido de la pena y la ley penitenciaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 25.2 CE",
+      "stem": "Segons l'article 25.2 de la Constitució espanyola, a què tindrà dret en tot cas el condemnat a pena de presó que l'estigui complint?",
+      "options": [
+        "A un treball remunerat, sempre que ho permetin les disponibilitats pressupostàries de l'Administració penitenciària.",
+        "A la reducció de la condemna pel treball fet i a l'accés a la cultura.",
+        "A un permís ordinari de sortida anual i als beneficis de la Seguretat Social.",
+        "A un treball remunerat i als beneficis corresponents de la Seguretat Social, així com a l'accés a la cultura i al desenvolupament integral de la seva personalitat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'últim incís de l'art. 25.2 CE reconeix «en tot cas» el dret a un treball remunerat, als beneficis de la Seguretat Social, a l'accés a la cultura i al desenvolupament integral de la personalitat.",
+      "excerpt": "En todo caso, tendrá derecho a un trabajo remunerado y a los beneficios correspondientes de la Seguridad Social, así como al acceso a la cultura y al desarrollo integral de su personalidad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
