@@ -91,22 +91,28 @@
     "catalogSubtitle": "Indicamos con claridad qué preparaciones están disponibles y cuáles se incorporarán próximamente.",
     "catalogCta": "Ver todo el catálogo",
     "pricingTitle": "Precios sencillos",
-    "pricingSubtitle": "Empieza gratis. Pásate a Premium cuando lo necesites y cancela cuando quieras.",
+    "pricingSubtitle": "Empieza gratis con 3 temas. Pásate al Premium de tu oposición cuando lo necesites y cancela cuando quieras.",
     "free": {
       "name": "Gratuito",
       "price": "0 €",
       "period": "para siempre",
-      "items": ["Plan de estudio semanal", "Psicotécnicos de práctica", "Estadísticas básicas"],
+      "items": [
+        "3 temas de test gratis en cada oposición",
+        "Fichas de estudio de todos los temas",
+        "Plan de estudio semanal",
+        "Psicotécnicos de práctica ilimitados",
+        "Estadísticas básicas"
+      ],
       "cta": "Crear cuenta"
     },
     "premium": {
       "name": "Premium",
-      "price": "14,99 €",
-      "period": "al mes",
+      "price": "12,99 €",
+      "period": "al mes por oposición",
       "items": [
-        "Temario completo en preguntas tipo test con su fuente",
-        "Simulacros con el formato oficial del examen",
-        "Psicotécnicos y repaso de errores ilimitados",
+        "Temario completo de tu oposición en preguntas tipo test con su fuente",
+        "Simulacros con el formato oficial y exámenes réplica",
+        "Repaso de errores ilimitado",
         "Estadísticas de progreso por tema"
       ],
       "cta": "Próximamente",
@@ -1235,7 +1241,8 @@
       "lockedBadge": "Premium",
       "paidBadge": "De pago",
       "lockedCta": "Ver qué incluye",
-      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte"
+      "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte",
+      "attemptsLeft": "{count, plural, =0 {Sin intentos} one {Te queda # intento} other {Te quedan # intentos}}"
     }
   },
   "questions": {
@@ -1360,19 +1367,21 @@
   },
   "offer": {
     "title": "Qué incluye la preparación",
-    "summary": "{questions} preguntas del temario oficial repartidas en {topics} temas y {mocks, plural, one {# simulacro} other {# simulacros}} con el formato real del examen. Todo el contenido es original, revisado y con la referencia a la Guia d'estudi.",
+    "summary": "{questions} preguntas del temario oficial repartidas en {topics} temas y {mocks, plural, one {# simulacro} other {# simulacros}} con el formato real del examen. Todo el contenido es original, revisado y con su referencia a la fuente oficial.",
     "free": {
       "title": "Gratis",
       "price": "0 € · solo necesitas una cuenta",
       "items": {
         "plan": "Plan de estudio semanal según tus horas y la fecha del examen",
         "psycho": "Psicotécnicos de práctica con corrección y explicación",
-        "progress": "Estadísticas de progreso y racha de estudio"
+        "progress": "Estadísticas de progreso y racha de estudio",
+        "topics": "Test de 3 temas gratis: {topics} ({questions} preguntas con explicación y fuente)",
+        "notes": "Fichas de estudio de todos los temas"
       },
       "cta": "Crear cuenta gratis"
     },
     "paid": {
-      "title": "Preparación completa",
+      "title": "Premium",
       "priceOnce": "Pago único: {price}",
       "priceRecurring": "{price} {interval}",
       "intervals": {
@@ -1390,11 +1399,19 @@
       "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente.",
       "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte",
       "buy": "Comprar el pack · {price}",
-      "buyPremium": "Hazte Premium"
+      "buyPremium": "Hazte Premium · {price} al mes",
+      "cancel": "Una sola suscripción para esta oposición. Cancela cuando quieras."
     },
     "topicsTitle": "Ver los {count} temas incluidos",
     "topicQuestions": "{count} preg.",
-    "sourceNote": "Preguntas redactadas por nosotros a partir de las fuentes oficiales (guía de estudio o BOE). No somos una academia oficial ni copiamos exámenes."
+    "sourceNote": "Preguntas redactadas por nosotros a partir de las fuentes oficiales (guía de estudio o BOE). No somos una academia oficial ni copiamos exámenes.",
+    "extras": {
+      "title": "Packs sueltos",
+      "subtitle": "Sin suscripción: paga solo los simulacros que quieras hacer. Los intentos no caducan.",
+      "attempts": "{count} intentos de simulacro",
+      "mocks": "Vale para: {list}",
+      "buy": "Comprar · {price}"
+    }
   },
   "notes": {
     "title": "Temario",
@@ -1494,7 +1511,7 @@
     "secureNote": "Pago seguro con Stripe. No guardamos los datos de tu tarjeta.",
     "buy": "Comprar · {price}",
     "buyPremium": "Hazte Premium",
-    "premiumBody": "Acceso a todo el contenido incluido en Premium por {price} al mes. Cancela cuando quieras.",
+    "premiumBody": "Todo el temario en test, los simulacros y los exámenes réplica de tu oposición por {price} al mes. Cancela cuando quieras.",
     "active": "Tu suscripción Premium está activa.",
     "renewsOn": "Premium activo. Se renueva el {date}.",
     "endsOn": "Premium cancelado: lo tienes hasta el {date}.",

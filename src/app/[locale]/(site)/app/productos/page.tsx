@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge, Card, EmptyState } from "@/components/ui/card";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
-import { examOffer, myLibrary, mySubscription, premiumInfo } from "@/lib/store/queries";
+import { examOffer, isAttemptsPack, myLibrary, mySubscriptions } from "@/lib/store/queries";
 import { billingStatus, confirmCheckout, hasBillingAccount } from "@/lib/billing/queries";
 import { openBillingPortalAction } from "@/lib/billing/actions";
 import { BuyForm } from "@/components/billing/buy-form";
@@ -51,19 +51,28 @@ export default async function LibraryPage({
     notice = confirmed === "ok" ? "ok" : confirmed === "pending" ? "pendiente" : null;
   }
   const billing = billingStatus();
-  const [items, premium, attempts, examSlug, subscription, isCustomer] = await Promise.all([
+  const [items, attempts, examSlug, subscriptions, isCustomer] = await Promise.all([
     myLibrary(),
-    premiumInfo(),
     myMockAttempts(5),
     getPrimaryExamSlug(),
-    mySubscription(user.id),
+    mySubscriptions(user.id),
     hasBillingAccount(user.id),
   ]);
-  const price = premium.cents;
-  // Lo de pago de su oposición que aún no tiene: se ve, con candado, y lleva a «Qué incluye».
+  // Premium de su oposición (ADR-035): una suscripción por oposición
   const offer = examSlug ? await examOffer(examSlug) : null;
+  const premium = offer?.premium ?? null;
+  const price = premium?.price?.amount_cents ?? null;
+  const hasExamPremium = subscriptions.some(
+    (s) =>
+      s.status !== "past_due" &&
+      (s.product.exam_body_id === null || s.product.slug === premium?.slug),
+  );
+  // Lo de pago de su oposición que aún no tiene: se ve, con candado, y lleva a «Qué incluye».
+  // Los packs de intentos se pueden volver a comprar; con Premium no hacen falta.
   const owned = new Set(items.map((it) => it.slug));
-  const locked = (offer?.products ?? []).filter((p) => !p.is_free && !owned.has(p.slug));
+  const locked = (offer?.products ?? []).filter((p) =>
+    isAttemptsPack(p) ? !hasExamPremium && p.price !== null : !p.is_free && !owned.has(p.slug),
+  );
   const formats = await mockFormats(
     items.filter((it) => it.type === "mock_exam").map((it) => it.product_id),
   );
@@ -102,6 +111,11 @@ export default async function LibraryPage({
                     <Badge tone="accent">{t(`library.sources.${it.source}` as never)}</Badge>
                     {it.question_count > 0 && (
                       <Badge>{t("library.questionsCount", { count: it.question_count })}</Badge>
+                    )}
+                    {it.attempts_left !== null && (
+                      <Badge tone={it.attempts_left > 0 ? "success" : "warning"}>
+                        {t("library.attemptsLeft", { count: it.attempts_left })}
+                      </Badge>
                     )}
                     {it.ends_at && (
                       <Badge>
@@ -253,13 +267,18 @@ export default async function LibraryPage({
           </ul>
         </section>
       )}
-      {subscription ? (
+      {subscriptions.map((subscription) => (
         <Card
+          key={subscription.product.slug}
           className="border-accent flex flex-wrap items-center justify-between gap-4"
           data-testid="premium-active"
         >
           <div>
-            <h2 className="font-semibold">{t("library.premiumTitle")}</h2>
+            <h2 className="font-semibold">
+              {subscription.product.exam_body_id
+                ? localized(locale, subscription.product.title, subscription.product.title_ca)
+                : t("library.premiumTitle")}
+            </h2>
             <p className="text-muted-foreground text-sm">
               {subscription.status === "past_due"
                 ? tb("pastDue")
@@ -280,32 +299,31 @@ export default async function LibraryPage({
             </form>
           )}
         </Card>
-      ) : (
-        price !== null && (
-          <Card className="border-accent flex flex-wrap items-center justify-between gap-4">
-            <div className="min-w-0 flex-1 basis-64">
-              <h2 className="font-semibold">{t("library.premiumTitle")}</h2>
-              <p className="text-muted-foreground text-sm">
-                {billing.enabled && premium.published
-                  ? tb("premiumBody", { price: formatPrice(price, locale) })
-                  : t("library.premiumBody", { price: formatPrice(price, locale) })}
-              </p>
-            </div>
-            {billing.enabled && premium.published ? (
-              <BuyForm
-                slug="premium"
-                back="/app/productos"
-                className="w-full sm:w-72"
-                testMode={billing.testMode}
-                label={tb("buyPremium")}
-              />
-            ) : (
-              <Button variant="accent" disabled>
-                {t("library.soon")}
-              </Button>
-            )}
-          </Card>
-        )
+      ))}
+      {!hasExamPremium && premium && price !== null && (
+        <Card className="border-accent flex flex-wrap items-center justify-between gap-4">
+          <div className="min-w-0 flex-1 basis-64">
+            <h2 className="font-semibold">{localized(locale, premium.title, premium.title_ca)}</h2>
+            <p className="text-muted-foreground text-sm">
+              {billing.enabled
+                ? tb("premiumBody", { price: formatPrice(price, locale) })
+                : t("library.premiumBody", { price: formatPrice(price, locale) })}
+            </p>
+          </div>
+          {billing.enabled ? (
+            <BuyForm
+              slug={premium.slug}
+              back="/app/productos"
+              className="w-full sm:w-72"
+              testMode={billing.testMode}
+              label={tb("buyPremium")}
+            />
+          ) : (
+            <Button variant="accent" disabled>
+              {t("library.soon")}
+            </Button>
+          )}
+        </Card>
       )}
     </div>
   );

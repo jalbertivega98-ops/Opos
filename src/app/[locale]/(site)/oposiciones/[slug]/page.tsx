@@ -13,7 +13,7 @@ import { isExamIndexable } from "@/lib/seo/catalog";
 import { getExamGuide, tr } from "@/lib/seo/exam-guides";
 import { JsonLd, examGuideLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
-import { examOffer, premiumInfo } from "@/lib/store/queries";
+import { examOffer } from "@/lib/store/queries";
 import { ExamOfferSection } from "@/components/store/exam-offer";
 import { billingStatus } from "@/lib/billing/queries";
 import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
@@ -52,9 +52,8 @@ export default async function ExamPage({
   const tests = [...exam.exam_tests].sort((a, b) => a.order_index - b.order_index);
   const sources = exam.exam_body_sources.map((s) => s.source).filter((s) => s !== null);
   const guide = getExamGuide(exam.slug);
-  const [offer, premium, topics] = await Promise.all([
+  const [offer, topics] = await Promise.all([
     examOffer(exam.slug),
-    premiumInfo(),
     guide ? listExamTopics(exam.id) : Promise.resolve([]),
   ]);
   const name = localized(locale, exam.name, exam.name_ca);
@@ -131,9 +130,8 @@ export default async function ExamPage({
           examSlug={slug}
           offer={offer}
           locale={locale}
-          premiumCents={premium.cents}
           back={`/oposiciones/${slug}`}
-          billing={{ ...billingStatus(), premium: premium.published }}
+          billing={billingStatus()}
         />
       )}
 

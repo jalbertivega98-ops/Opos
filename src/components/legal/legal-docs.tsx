@@ -102,16 +102,18 @@ export function SaleTerms({ owner }: { owner: LegalOwner }) {
       <H2>2. Productos y precios</H2>
       <ul>
         <li>
-          <strong>Gratis:</strong> plan de estudio, psicotécnicos de práctica y estadísticas.
+          <strong>Gratis:</strong> preguntas tipo test de 3 temas de cada oposición, fichas de
+          estudio, plan de estudio, psicotécnicos de práctica y estadísticas.
         </li>
         <li>
-          <strong>Productos de pago único</strong> (packs de test, simulacros, pack completo):
-          acceso desde el momento del pago y sin fecha de caducidad mientras OPOSAPRUEBA preste el
-          servicio. El contenido de un pack se actualiza cuando cambia la normativa.
+          <strong>Productos de pago único</strong> (packs de intentos de simulacro): dan el número
+          de intentos indicado, desde el momento del pago y sin fecha de caducidad mientras
+          OPOSAPRUEBA preste el servicio. Cada simulacro que empiezas gasta un intento.
         </li>
         <li>
-          <strong>Premium</strong> (suscripción mensual): acceso a todo el contenido marcado como
-          incluido en Premium mientras la suscripción esté activa.
+          <strong>Premium</strong> (suscripción mensual por oposición): acceso a todo el contenido
+          incluido en Premium de la oposición contratada mientras la suscripción esté activa. Cada
+          oposición tiene su propia suscripción.
         </li>
       </ul>
       <p>

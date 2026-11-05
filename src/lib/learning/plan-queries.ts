@@ -2,6 +2,7 @@ import "server-only";
 import { createClient } from "@/lib/supabase/server";
 import { buildWeekPlan, type PlanLevel, type TopicProgress } from "./plan";
 import { examHasPsycho } from "@/lib/catalog/exam-format";
+import { freeTopicSlugs } from "@/lib/store/queries";
 
 export type PlanSettings = {
   examSlug: string;
@@ -52,17 +53,24 @@ export async function getMyPlan() {
   const progress: Record<string, TopicProgress> = Object.fromEntries(
     topics.map((t) => [t.slug, { answered: t.answered, correct: t.correct }]),
   );
+  // Los temas gratis van primero: así el plan de un alumno gratis empieza por lo que puede hacer.
+  const freeTopics = await freeTopicSlugs(settings.examSlug);
+  const rank = (slug: string) => {
+    const i = freeTopics.indexOf(slug);
+    return i === -1 ? freeTopics.length : i;
+  };
+  const ordered = [...topics].sort((a, b) => rank(a.slug) - rank(b.slug));
   const plan = buildWeekPlan({
     weeklyHours: settings.weeklyHours,
     level: settings.level,
     today: new Date(),
     startedAt: new Date(target.created_at),
     examDate: settings.targetDate ? new Date(settings.targetDate) : null,
-    topics: topics.map(({ slug, title }) => ({ slug, title })),
+    topics: ordered.map(({ slug, title }) => ({ slug, title })),
     progress,
     psycho: examHasPsycho(settings.examSlug),
   });
-  return { reason: null, settings, plan, topics };
+  return { reason: null, settings, plan, topics, freeTopics };
 }
 
 /** Slug de la oposición principal del alumno actual (o null). */

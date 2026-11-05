@@ -91,22 +91,28 @@
     "catalogSubtitle": "Indiquem clarament quines preparacions estan disponibles i quines s'incorporaran properament.",
     "catalogCta": "Veure tot el catàleg",
     "pricingTitle": "Preus senzills",
-    "pricingSubtitle": "Comença gratis. Passa't a Premium quan ho necessitis i cancel·la quan vulguis.",
+    "pricingSubtitle": "Comença gratis amb 3 temes. Passa't al Premium de la teva oposició quan ho necessitis i cancel·la quan vulguis.",
     "free": {
       "name": "Gratuït",
       "price": "0 €",
       "period": "per sempre",
-      "items": ["Pla d'estudi setmanal", "Psicotècnics de pràctica", "Estadístiques bàsiques"],
+      "items": [
+        "3 temes de test gratis a cada oposició",
+        "Fitxes d'estudi de tots els temes",
+        "Pla d'estudi setmanal",
+        "Psicotècnics de pràctica il·limitats",
+        "Estadístiques bàsiques"
+      ],
       "cta": "Crea un compte"
     },
     "premium": {
       "name": "Premium",
-      "price": "14,99 €",
-      "period": "al mes",
+      "price": "12,99 €",
+      "period": "al mes per oposició",
       "items": [
-        "Temari complet en preguntes tipus test amb la seva font",
-        "Simulacres amb el format oficial de l'examen",
-        "Psicotècnics i repàs d'errors il·limitats",
+        "Temari complet de la teva oposició en preguntes tipus test amb la seva font",
+        "Simulacres amb el format oficial i exàmens rèplica",
+        "Repàs d'errors il·limitat",
         "Estadístiques de progrés per tema"
       ],
       "cta": "Properament",
@@ -1235,7 +1241,8 @@
       "lockedBadge": "Premium",
       "paidBadge": "De pagament",
       "lockedCta": "Veure què inclou",
-      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part"
+      "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part",
+      "attemptsLeft": "{count, plural, =0 {Sense intents} one {Et queda # intent} other {Et queden # intents}}"
     }
   },
   "questions": {
@@ -1360,19 +1367,21 @@
   },
   "offer": {
     "title": "Què inclou la preparació",
-    "summary": "{questions} preguntes del temari oficial repartides en {topics} temes i {mocks, plural, one {# simulacre} other {# simulacres}} amb el format real de l'examen. Tot el contingut és original, revisat i amb la referència a la Guia d'estudi.",
+    "summary": "{questions} preguntes del temari oficial repartides en {topics} temes i {mocks, plural, one {# simulacre} other {# simulacres}} amb el format real de l'examen. Tot el contingut és original, revisat i amb la seva referència a la font oficial.",
     "free": {
       "title": "Gratis",
       "price": "0 € · només et cal un compte",
       "items": {
         "plan": "Pla d'estudi setmanal segons les teves hores i la data de l'examen",
         "psycho": "Psicotècnics de pràctica amb correcció i explicació",
-        "progress": "Estadístiques de progrés i ratxa d'estudi"
+        "progress": "Estadístiques de progrés i ratxa d'estudi",
+        "topics": "Test de 3 temes gratis: {topics} ({questions} preguntes amb explicació i font)",
+        "notes": "Fitxes d'estudi de tots els temes"
       },
       "cta": "Crear un compte gratis"
     },
     "paid": {
-      "title": "Preparació completa",
+      "title": "Premium",
       "priceOnce": "Pagament únic: {price}",
       "priceRecurring": "{price} {interval}",
       "intervals": {
@@ -1390,11 +1399,19 @@
       "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment.",
       "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part",
       "buy": "Comprar el pack · {price}",
-      "buyPremium": "Fes-te Premium"
+      "buyPremium": "Fes-te Premium · {price} al mes",
+      "cancel": "Una sola subscripció per a aquesta oposició. Cancel·la quan vulguis."
     },
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",
-    "sourceNote": "Preguntes redactades per nosaltres a partir de les fonts oficials (guia d'estudi o BOE). No som una acadèmia oficial ni copiem exàmens."
+    "sourceNote": "Preguntes redactades per nosaltres a partir de les fonts oficials (guia d'estudi o BOE). No som una acadèmia oficial ni copiem exàmens.",
+    "extras": {
+      "title": "Paquets solts",
+      "subtitle": "Sense subscripció: paga només els simulacres que vulguis fer. Els intents no caduquen.",
+      "attempts": "{count} intents de simulacre",
+      "mocks": "Serveix per a: {list}",
+      "buy": "Comprar · {price}"
+    }
   },
   "notes": {
     "title": "Temari",
@@ -1494,7 +1511,7 @@
     "secureNote": "Pagament segur amb Stripe. No guardem les dades de la teva targeta.",
     "buy": "Comprar · {price}",
     "buyPremium": "Fes-te Premium",
-    "premiumBody": "Accés a tot el contingut inclòs a Premium per {price} al mes. Cancel·la quan vulguis.",
+    "premiumBody": "Tot el temari en test, els simulacres i els exàmens rèplica de la teva oposició per {price} al mes. Cancel·la quan vulguis.",
     "active": "La teva subscripció Premium està activa.",
     "renewsOn": "Premium actiu. Es renova el {date}.",
     "endsOn": "Premium cancel·lat: el tens fins al {date}.",

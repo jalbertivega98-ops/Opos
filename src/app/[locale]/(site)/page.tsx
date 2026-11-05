@@ -27,6 +27,7 @@ import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies } from "@/lib/catalog/queries";
 import { billingStatus } from "@/lib/billing/queries";
 import { premiumInfo } from "@/lib/store/queries";
+import { formatPrice } from "@/lib/store/schema";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { JsonLd, faqLd, organizationLd, websiteLd } from "@/lib/seo/json-ld";
@@ -401,7 +402,11 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             >
               <h3 className="text-xl font-bold">{t(`${plan}.name`)}</h3>
               <p className="mt-3">
-                <span className="font-display text-5xl font-extrabold">{t(`${plan}.price`)}</span>{" "}
+                <span className="font-display text-5xl font-extrabold">
+                  {plan === "premium" && premium.cents !== null
+                    ? formatPrice(premium.cents, locale)
+                    : t(`${plan}.price`)}
+                </span>{" "}
                 <span className={plan === "premium" ? "text-ink-muted" : "text-muted-foreground"}>
                   {t(`${plan}.period`)}
                 </span>

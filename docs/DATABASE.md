@@ -76,7 +76,7 @@ Reglas en BD:
 `products` (tipo `pdf/question_pack/mock_exam/bundle/subscription`, estado, `_ca`, `included_in_premium`, `config`, `stripe_product_id` vacío) · `product_prices` (céntimos, intervalo, histórico: un activo por intervalo) · `product_items` (preguntas o productos hijos) · `product_files` (Storage privado, `source_hash`) · `orders`/`order_items` (se conservan sin `user_id` al borrar la cuenta) · `subscriptions` · `access_grants` (compra, suscripción, admin, gratis; caducidad y revocación).
 
 - Catálogo publicado legible por todos; contenido (`product_items`, `product_files`) solo staff; pedidos, suscripciones y accesos: el propio alumno o admin, sin escritura por JWT.
-- `has_product_access(product, user)` (solo servidor) y `my_product_access(product)`; `my_library()`; `admin_grant_access()` / `admin_revoke_access()` auditadas; `admin_list_purchases()`.
+- `has_product_access(product, user)` (solo servidor) y `my_product_access(product)`: gratis, concesión, pack, pack de intentos con intentos (`mock_credits_left`) o Premium de la oposición del producto (ADR-035; una suscripción sin oposición vale para todo); `my_library()`; `admin_grant_access()` / `admin_revoke_access()` auditadas; `admin_list_purchases()`.
 - Semilla: producto `premium` en borrador con precio 14,99 €/mes (editable en el panel).
 
 ## 0900 · Editor de preguntas

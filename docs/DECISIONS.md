@@ -199,3 +199,14 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Motivo:** practicar con lo mismo que cayó sin copiar texto protegido.
 **Consecuencias:** cada convocatoria nueva con cuestionario publicado pide su réplica. Policía Nacional y Guardia Civil no publican cuestionarios: siguen con el simulacro por reparto. Un prefijo de tema no puede ser prefijo de otro tema que no deba entrar en el mismo cupo (por eso `jus-examen-2026-auxilio-test` y `justra-examen-2026-test`). La actualidad de Mossos (`mossos-d-actualitat`) caduca y hay que renovarla cada trimestre.
 
+## ADR-035 · Premium por oposición, 3 temas gratis y packs de intentos (2026-11-05)
+
+**Decisión:** joel vio que el alumno gratis no podía probar ni una pregunta de test y pidió «de cada oposición dejar 3 temas gratuitos», «solo una suscripción por oposición» y productos sueltos «rollo pack de 10 psicotécnicos» o más exámenes de una oposición concreta. Migración `20261105000200_exam_premium` (preview `47-`):
+
+- **Premium por oposición:** una suscripción con `exam_body_id` da acceso solo a lo `included_in_premium` de esa oposición. El Premium global antiguo (`premium`, sin oposición) se archiva y deja de venderse, pero quien lo tenga conserva el acceso a todo.
+- **3 temas gratis:** un pack `is_free` por oposición (`<prefijo>-temas-gratis`) con `config.topic_slugs`; `product_question_ids` reparte las preguntas publicadas de esos temas, también las que se publiquen después. Son los 3 primeros temas del programa oficial. El plan semanal los pone primero y los abre sin candado.
+- **Packs de intentos:** un bundle con `config.attempts = N` (`<prefijo>-10-simulacros`, `<prefijo>-10-psicotecnicos`) da N intentos compartidos entre sus simulacros (`mock_credits_left`). Cada intento empezado cuenta; agotados, no hay acceso por esa vía. Se puede comprar otra vez y suma. No da acceso ilimitado a sus hijos como un pack normal.
+- Se retiran los precios de pago único anteriores (pack completo de Mossos 59 €, àmbits 19 € y simulacros 9 €): los productos siguen existiendo como contenido del Premium.
+
+**Motivo:** que el alumno pruebe el producto (el test con explicación y fuente) antes de pagar, y una oferta fácil de entender: una suscripción por oposición más packs sueltos de simulacros.
+**Consecuencias:** precios confirmados por joel (Premium 12,99 €/mes, 10 simulacros 9,99 €, 10 de psicotécnicos 6,99 €); se cobran desde la base de datos (Checkout con `price_data`), sin crear nada en Stripe. Los psicotécnicos de práctica siguen gratis e ilimitados; lo que se vende es el simulacro con formato oficial (solo Mossos y Auxiliar lo tienen). Quien prepara dos oposiciones que comparten temario paga dos suscripciones. Un intento hecho con Premium activo también gasta intentos de un pack comprado antes.

@@ -40,7 +40,7 @@ export default async function PlanPage({ params }: PageProps<"/[locale]/app/plan
       />
     );
   }
-  const { settings, plan, topics } = data;
+  const { settings, plan, topics, freeTopics } = data;
   return (
     <div className="space-y-6">
       <div>
@@ -51,7 +51,11 @@ export default async function PlanPage({ params }: PageProps<"/[locale]/app/plan
       </div>
       <Card className="space-y-3">
         <h2 className="text-lg font-semibold">{t("thisWeek")}</h2>
-        <WeekPlanView plan={plan} access={planAccess(library)} examSlug={settings.examSlug} />
+        <WeekPlanView
+          plan={plan}
+          access={planAccess(library, freeTopics)}
+          examSlug={settings.examSlug}
+        />
         <p className="text-muted-foreground text-xs">
           {plan.minutes.psycho > 0
             ? t("split", {

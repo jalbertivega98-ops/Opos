@@ -106,29 +106,48 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
     }
   });
 
-  test("Premium: botón de compra con consentimiento y aviso de modo de pruebas", async ({
+  test("Premium de su oposición: botón de compra con consentimiento y aviso de modo de pruebas", async ({
     page,
   }) => {
     const email = newEmail("premium");
     await signUp(page, email, "Premium");
     await confirmEmail(page, email);
-    await db((c) =>
-      c.query("update public.products set status = 'published' where slug = 'premium'"),
-    );
+    const slug = `test-e2e-premium-${Date.now()}`;
+    await db(async (c) => {
+      const u = await c.query("select id from auth.users where email = $1", [email]);
+      const exam = await c.query(
+        "select id from public.exam_bodies where slug = 'mossos-esquadra'",
+      );
+      await c.query(
+        `insert into public.user_exam_targets (user_id, exam_body_id, is_primary) values ($1, $2, true)
+         on conflict do nothing`,
+        [u.rows[0].id, exam.rows[0].id],
+      );
+      const p = await c.query(
+        `insert into public.products (slug, type, status, title, exam_body_id, included_in_premium)
+         values ($1, 'subscription', 'published', 'Premium · Mossos (E2E)', $2, false) returning id`,
+        [slug, exam.rows[0].id],
+      );
+      await c.query(
+        `insert into public.product_prices (product_id, amount_cents, billing_interval) values ($1, 1299, 'month')`,
+        [p.rows[0].id],
+      );
+    });
     try {
       // La portada deja de poner «Próximamente» y lleva a la compra
       await page.goto("/");
       await page.locator("#precios").getByRole("link", { name: "Hazte Premium" }).click();
       await expect(page).toHaveURL(/\/app\/productos$/);
-      const form = page.getByTestId("buy-form");
+      const form = page.getByTestId("buy-form").last();
       await expect(form).toContainText("Modo de pruebas");
-      await expect(page.getByTestId("buy-button")).toHaveText(/Hazte Premium/);
+      const button = form.getByTestId("buy-button");
+      await expect(button).toHaveText(/Hazte Premium/);
       // La casilla es obligatoria: sin marcarla no se sale de la página
-      await page.getByTestId("buy-button").click();
+      await button.click();
       await expect(page).toHaveURL(/\/app\/productos$/);
       // Con la clave ficticia Stripe rechaza la sesión: error controlado, sin cobro
       await form.getByRole("checkbox").check();
-      await page.getByTestId("buy-button").click();
+      await button.click();
       await expect(page.getByTestId("checkout-notice")).toHaveAttribute("data-notice", "error", {
         timeout: 20_000,
       });
@@ -136,9 +155,7 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
       await page.goto("/app/productos?compra=cancelada");
       await expect(page.getByTestId("checkout-notice")).toContainText("No se ha cobrado nada");
     } finally {
-      await db((c) =>
-        c.query("update public.products set status = 'draft' where slug = 'premium'"),
-      );
+      await db((c) => c.query("delete from public.products where slug = $1", [slug]));
     }
   });
 });
