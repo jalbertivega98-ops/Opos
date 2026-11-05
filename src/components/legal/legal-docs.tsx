@@ -124,15 +124,15 @@ export function SaleTerms({ owner }: { owner: LegalOwner }) {
       <p>
         El pago se hace en la pasarela segura de Stripe (tarjeta u otros métodos que ofrezca).
         OPOSAPRUEBA no ve ni guarda los datos de tu tarjeta. Al completar el pago recibes la
-        confirmación por correo electrónico y el producto aparece en «Mis productos».
+        confirmación por correo electrónico y el producto aparece en tu cuenta («Mi perfil»).
       </p>
       <H2>4. Suscripción Premium</H2>
       <p>
         Se renueva automáticamente cada mes y se cobra en la misma fecha. Puedes cancelarla cuando
-        quieras desde «Mis productos → Gestionar suscripción»: seguirás teniendo acceso hasta el
-        final del periodo ya pagado y no se te cobrará más. Si un cobro falla, Premium se suspende
-        hasta que actualices el método de pago. Si cambiamos el precio, te avisaremos con antelación
-        y podrás cancelar antes de que se aplique.
+        quieras desde «Mi perfil → Gestionar suscripción»: seguirás teniendo acceso hasta el final
+        del periodo ya pagado y no se te cobrará más. Si un cobro falla, Premium se suspende hasta
+        que actualices el método de pago. Si cambiamos el precio, te avisaremos con antelación y
+        podrás cancelar antes de que se aplique.
       </p>
       <H2>5. Derecho de desistimiento</H2>
       <p>

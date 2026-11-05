@@ -434,7 +434,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                   <>
                     {premiumOn ? (
                       <Button asChild className="bg-ink-foreground text-ink w-full" size="lg">
-                        <Link href="/app/productos">{t("premium.ctaOn")}</Link>
+                        <Link href="/app/perfil#suscripcion">{t("premium.ctaOn")}</Link>
                       </Button>
                     ) : (
                       <Button

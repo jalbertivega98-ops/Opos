@@ -6,11 +6,11 @@ import {
   CalendarCheck,
   ChevronRight,
   Flame,
-  Library,
   Play,
   RefreshCcw,
   Shapes,
   Target,
+  Timer,
   TrendingUp,
   UserRound,
 } from "lucide-react";
@@ -34,7 +34,11 @@ import { startQuestionReviewAction } from "@/lib/learning/questions/actions";
 import { lastDays, pct } from "@/lib/learning/practice/format";
 import { getMyPlan } from "@/lib/learning/plan-queries";
 import type { PlanTask } from "@/lib/learning/plan";
-import { taskUnlocked, WeekPlanView } from "@/components/plan/week-plan";
+import { remainingQuestions, taskUnlocked, WeekPlanView } from "@/components/plan/week-plan";
+import { TopicTestButton } from "@/components/plan/topic-test-button";
+import { StudyCalendar } from "@/components/plan/study-calendar";
+import { groupByDay, studyWeek, taskProgress } from "@/lib/learning/calendar";
+import { getStudyLog } from "@/lib/learning/calendar-queries";
 import { myLibrary, planAccess } from "@/lib/store/queries";
 import { cn } from "@/lib/utils";
 
@@ -51,7 +55,12 @@ type Target = {
 };
 
 const DAYS = 7;
-const taskHref = (task: PlanTask) => (task.kind === "psycho" ? "/app/practica" : "/app/productos");
+const taskHref = (task: PlanTask) => (task.kind === "psycho" ? "/app/practica" : "/app/simulacros");
+/** Semana del calendario: 0 = esta, −1 = la anterior… (hasta un año atrás). */
+const weekOffset = (v: unknown) => {
+  const n = typeof v === "string" ? Number.parseInt(v, 10) : 0;
+  return Number.isFinite(n) ? Math.max(-52, Math.min(0, n)) : 0;
+};
 
 export default async function Dashboard({ params, searchParams }: PageProps<"/[locale]/app">) {
   const { locale } = await params;
@@ -61,27 +70,42 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const t = await getTranslations();
   const format = await getFormatter();
   const supabase = await createClient();
+  const offset = weekOffset(sp.semana);
+  const now = new Date();
+  const thisWeek = studyWeek(now);
+  const shownWeek = offset === 0 ? thisWeek : studyWeek(now, offset);
 
-  const [{ data: targets }, { data: activity }, practice, myPlan, recent, split, library] =
-    await Promise.all([
-      supabase
-        .from("user_exam_targets")
-        .select("is_primary, follow_only, exam:exam_bodies(slug, name, name_ca, availability)")
-        .eq("user_id", user.id)
-        .order("is_primary", { ascending: false })
-        .returns<Target[]>(),
-      supabase
-        .from("activity_events")
-        .select("id, kind, created_at")
-        .eq("user_id", user.id)
-        .order("created_at", { ascending: false })
-        .limit(5),
-      getPracticeStats(DAYS),
-      getMyPlan(),
-      listRecentSessions(5),
-      pendingBySource(),
-      myLibrary(),
-    ]);
+  const [
+    { data: targets },
+    { data: activity },
+    practice,
+    myPlan,
+    recent,
+    split,
+    library,
+    weekEntries,
+    shownEntries,
+  ] = await Promise.all([
+    supabase
+      .from("user_exam_targets")
+      .select("is_primary, follow_only, exam:exam_bodies(slug, name, name_ca, availability)")
+      .eq("user_id", user.id)
+      .order("is_primary", { ascending: false })
+      .returns<Target[]>(),
+    supabase
+      .from("activity_events")
+      .select("id, kind, created_at")
+      .eq("user_id", user.id)
+      .order("created_at", { ascending: false })
+      .limit(5),
+    getPracticeStats(DAYS),
+    getMyPlan(),
+    listRecentSessions(5),
+    pendingBySource(),
+    myLibrary(),
+    getStudyLog(thisWeek.start, thisWeek.end),
+    offset === 0 ? null : getStudyLog(shownWeek.start, shownWeek.end),
+  ]);
 
   const name = profile.display_name;
   const onboarded = Boolean(profile.onboarding_completed_at);
@@ -89,12 +113,17 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const accuracy = answered ? pct(practice!.totals.correct, answered) : null;
   const pending = split.psycho + split.questions;
   const active = recent.find((s) => s.status === "active");
-  const access = planAccess(library, myPlan.reason === null ? myPlan.freeTopics : []);
-  // Siguiente tarea que el alumno puede hacer ya (las de pago sin acceso se saltan).
-  const nextTask =
-    myPlan.reason === null
-      ? myPlan.plan.tasks.find((task) => taskUnlocked(task, access))
-      : undefined;
+  const access = planAccess(library, myPlan.reason === null ? myPlan.openTopics : []);
+  const planTasks = myPlan.reason === null ? myPlan.plan.tasks : [];
+  // Siguiente tarea que el alumno puede hacer ya y aún no ha terminado esta semana
+  // (las de pago sin acceso se saltan).
+  const nextTask = planTasks.find(
+    (task) => taskUnlocked(task, access) && taskProgress(task, weekEntries).state !== "done",
+  );
+  const pendingTasks = planTasks.filter(
+    (task) => taskProgress(task, weekEntries).state !== "done",
+  ).length;
+  const errorKey = sp.error === "access" || sp.error === "start" ? sp.error : null;
 
   const sessionName = (s: { item_type: string; mode: string }) =>
     s.item_type === "mixed"
@@ -151,6 +180,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
 
       {sp.pw === "updated" && <Alert tone="success">{t("app.passwordUpdated")}</Alert>}
       {sp.welcome === "1" && <Alert tone="success">{t("onboarding.saved")}</Alert>}
+      {errorKey && <Alert tone="error">{t(`plan.errors.${errorKey}`)}</Alert>}
 
       {/* Nivel 1: continuar practicando + progreso */}
       <div className="grid gap-4 lg:grid-cols-3 lg:gap-6">
@@ -205,18 +235,34 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
                       total: active.item_count,
                     })}
                   />
-                  {nextTask && (
-                    <Link
-                      href={taskHref(nextTask)}
-                      className="bg-ink-2 hover:bg-ink-2/80 mt-6 flex min-h-12 max-w-md items-center gap-3 rounded-xl px-4 py-3 text-sm"
-                    >
-                      <span className="flex-1">
-                        <span className="text-ink-muted block text-xs">{t("app.nextTitle")}</span>
-                        <span className="font-semibold">{taskLabel(nextTask)}</span>
-                      </span>
-                      <ChevronRight className="size-4" aria-hidden />
-                    </Link>
-                  )}
+                  {nextTask &&
+                    (nextTask.kind === "topic" ? (
+                      <TopicTestButton
+                        topic={nextTask.topic.slug}
+                        count={remainingQuestions(nextTask, weekEntries)}
+                        back="/app"
+                        variant="ghost"
+                        formClassName="mt-6 max-w-md"
+                        className="bg-ink-2 hover:bg-ink-2/80 text-ink-foreground flex h-auto min-h-12 w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-normal whitespace-normal"
+                      >
+                        <span className="flex-1">
+                          <span className="text-ink-muted block text-xs">{t("app.nextTitle")}</span>
+                          <span className="font-semibold">{taskLabel(nextTask)}</span>
+                        </span>
+                        <ChevronRight className="size-4" aria-hidden />
+                      </TopicTestButton>
+                    ) : (
+                      <Link
+                        href={taskHref(nextTask)}
+                        className="bg-ink-2 hover:bg-ink-2/80 mt-6 flex min-h-12 max-w-md items-center gap-3 rounded-xl px-4 py-3 text-sm"
+                      >
+                        <span className="flex-1">
+                          <span className="text-ink-muted block text-xs">{t("app.nextTitle")}</span>
+                          <span className="font-semibold">{taskLabel(nextTask)}</span>
+                        </span>
+                        <ChevronRight className="size-4" aria-hidden />
+                      </Link>
+                    ))}
                 </>
               ) : nextTask ? (
                 <>
@@ -234,24 +280,36 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
                 </>
               )}
               <div className="mt-auto flex flex-col gap-3 pt-8 sm:flex-row sm:items-center">
-                <Button asChild variant="accent" size="lg">
-                  <Link
-                    href={
-                      active
-                        ? `/app/practica/${active.id}`
-                        : nextTask
-                          ? taskHref(nextTask)
-                          : "/app/practica"
-                    }
+                {!active && nextTask?.kind === "topic" ? (
+                  <TopicTestButton
+                    topic={nextTask.topic.slug}
+                    count={remainingQuestions(nextTask, weekEntries)}
+                    back="/app"
+                    size="lg"
                   >
                     <Play aria-hidden />
-                    {active
-                      ? t("app.continueCta")
-                      : nextTask
-                        ? t("app.nextCta")
-                        : t("app.practiceCta")}
-                  </Link>
-                </Button>
+                    {t("plan.startTest")}
+                  </TopicTestButton>
+                ) : (
+                  <Button asChild variant="accent" size="lg">
+                    <Link
+                      href={
+                        active
+                          ? `/app/practica/${active.id}`
+                          : nextTask
+                            ? taskHref(nextTask)
+                            : "/app/practica"
+                      }
+                    >
+                      <Play aria-hidden />
+                      {active
+                        ? t("app.continueCta")
+                        : nextTask
+                          ? t("app.nextCta")
+                          : t("app.practiceCta")}
+                    </Link>
+                  </Button>
+                )}
                 <Link
                   href="/app/practica"
                   className="text-ink-foreground inline-flex min-h-11 items-center gap-1 text-sm font-semibold underline-offset-4 hover:underline"
@@ -411,6 +469,9 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
                 plan={myPlan.plan}
                 access={access}
                 examSlug={myPlan.settings.examSlug}
+                notes={myPlan.noteTopics}
+                entries={weekEntries}
+                back="/app"
               />
             </div>
           ) : (
@@ -427,6 +488,13 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
           )}
         </section>
       </div>
+
+      {/* Calendario: lo hecho cada día y lo que queda del plan */}
+      <StudyCalendar
+        days={groupByDay(shownWeek.days, shownEntries ?? weekEntries)}
+        offset={offset}
+        pending={offset === 0 && planTasks.length > 0 ? pendingTasks : null}
+      />
 
       {/* Nivel 2: opciones secundarias */}
       <section aria-labelledby="more-title" className="pt-2">
@@ -501,10 +569,10 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
                 body: t("app.shortcuts.practice"),
               },
               {
-                href: "/app/productos",
-                icon: Library,
-                title: t("nav.library"),
-                body: t("app.shortcuts.library"),
+                href: "/app/simulacros",
+                icon: Timer,
+                title: t("nav.mocks"),
+                body: t("app.shortcuts.mocks"),
               },
               {
                 href: "/app/perfil",

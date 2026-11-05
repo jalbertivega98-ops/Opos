@@ -1,14 +1,11 @@
 import { z } from "zod";
 
-export const PACK_SIZES = [5, 10, 20, 30] as const;
-
-export const startProductSchema = z.object({
-  productId: z.uuid(),
-  count: z.coerce
-    .number()
-    .int()
-    .refine((n) => (PACK_SIZES as readonly number[]).includes(n))
-    .default(10),
+/** Test de un tema (desde el plan o el temario): slug del tema y número de preguntas. */
+export const startTopicSchema = z.object({
+  topic: z.string().regex(/^[a-z0-9][a-z0-9-]{1,119}$/),
+  count: z.coerce.number().int().min(5).max(40).default(10),
+  /** Ruta interna a la que volver si hay error. */
+  back: z.enum(["/app", "/app/plan", "/app/temario"]).default("/app/temario"),
 });
 
 export const answerQuestionSchema = z.object({

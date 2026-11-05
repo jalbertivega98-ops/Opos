@@ -21,10 +21,10 @@
     "psycho": "Psicotècnics",
     "practice": "Pràctica",
     "progress": "El meu progrés",
-    "library": "Els meus productes",
     "plan": "El meu pla",
     "how": "Com funciona",
-    "syllabus": "Temari"
+    "syllabus": "Temari",
+    "mocks": "Simulacres"
   },
   "footer": {
     "tagline": "Acadèmia digital independent. No estem vinculats a cap organisme convocant.",
@@ -138,7 +138,11 @@
     "demoCta": "Prova un psicotècnic gratis",
     "titleRich": "Prepara la teva oposició amb <mark>mètode</mark>, no a cegues",
     "audience": "Per a qui prepara oposicions a Espanya, en català o en castellà. Comença gratis, sense targeta.",
-    "trustItems": ["Sense targeta", "Fonts oficials citades", "Contingut revisat per persones"],
+    "trustItems": [
+      "Sense targeta",
+      "Fonts oficials citades",
+      "Contingut revisat per persones"
+    ],
     "sample": {
       "badge": "Prova-ho aquí",
       "title": "Així és un exercici",
@@ -157,7 +161,11 @@
       "title": "El teu progrés",
       "note": "Vista d'exemple",
       "accuracy": "Encerts de la setmana i avanç per bloc",
-      "rows": ["Temari", "Psicotècnics", "Simulacres"]
+      "rows": [
+        "Temari",
+        "Psicotècnics",
+        "Simulacres"
+      ]
     },
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
@@ -186,7 +194,11 @@
         "Sessions de psicotècnics",
         "Simulacre de la setmana"
       ],
-      "mock": ["Mateix temps", "Mateixa penalització", "Mateix nre. de preguntes"],
+      "mock": [
+        "Mateix temps",
+        "Mateixa penalització",
+        "Mateix nre. de preguntes"
+      ],
       "review": "Repassar"
     },
     "comingSoon": "Properament",
@@ -381,8 +393,8 @@
     "moreTitle": "Més opcions",
     "shortcuts": {
       "practice": "Tria tipus, nombre d'exercicis i dificultat",
-      "library": "Packs, temari i simulacres als quals tens accés",
-      "profile": "Les teves dades, idioma i compte"
+      "profile": "Les teves dades, idioma i compte",
+      "mocks": "Exàmens complets amb el format real i el teu historial de notes"
     },
     "errorTitle": "No hem pogut carregar aquesta pantalla",
     "errorBody": "Pot ser un problema momentani de connexió. Les teves dades no s'han perdut.",
@@ -476,7 +488,10 @@
     "emailBody": "Ara fas servir {email}. T'enviarem un enllaç per confirmar el nou correu; el canvi no s'aplica fins que el confirmis.",
     "newEmail": "Nou correu electrònic",
     "changeEmailSubmit": "Canvia el correu",
-    "emailChangeSent": "T'hem enviat un enllaç de confirmació. Revisa la safata (també la del correu actual) i prem l'enllaç per completar el canvi."
+    "emailChangeSent": "T'hem enviat un enllaç de confirmació. Revisa la safata (també la del correu actual) i prem l'enllaç per completar el canvi.",
+    "billingTitle": "Subscripció i compres",
+    "billingBody": "El teu Premium, els packs que has comprat i la gestió del pagament.",
+    "billingNone": "Encara no tens cap subscripció ni compra."
   },
   "landingNotice": {
     "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."
@@ -1363,7 +1378,21 @@
     "emptyNoContent": "La teva oposició encara no té temari publicat. El pla apareixerà quan en tingui.",
     "premium": "Premium",
     "lockedNote": "El que té cadenat forma part de la preparació de pagament (Premium o pack).",
-    "lockedCta": "Veure què inclou"
+    "lockedCta": "Veure què inclou",
+    "readNote": "Fitxa",
+    "startTest": "Comença el test",
+    "again": "Repeteix",
+    "goPsycho": "Practica",
+    "goMocks": "Ves als simulacres",
+    "taskDone": "Fet aquesta setmana",
+    "progressTopic": "{done} de {target} preguntes aquesta setmana",
+    "progressCount": "{done} de {target} aquesta setmana",
+    "test": "Test",
+    "errors": {
+      "access": "Aquest tema no està inclòs en el que tens. Fes-te Premium de la teva oposició per practicar-lo.",
+      "start": "No s'ha pogut començar el test. Torna-ho a provar.",
+      "invalid": "Aquest tema no és vàlid."
+    }
   },
   "offer": {
     "title": "Què inclou la preparació",
@@ -1436,7 +1465,8 @@
     "sourceLine": "Font:",
     "sourceFallback": "Font oficial",
     "practiceCta": "Practicar amb preguntes",
-    "planCta": "Veure el meu pla"
+    "planCta": "Veure el meu pla",
+    "unlockCta": "Desbloqueja aquest tema"
   },
   "seo": {
     "home": {
@@ -1529,5 +1559,28 @@
       "ya-premium": "Ja ets Premium.",
       "portal-error": "No s'ha pogut obrir la gestió de la subscripció. Torna-ho a provar més tard."
     }
+  },
+  "calendar": {
+    "title": "El teu calendari d'estudi",
+    "nav": "Canvia de setmana",
+    "prev": "Setmana anterior",
+    "next": "Setmana següent",
+    "thisWeek": "Aquesta setmana",
+    "emptyThisWeek": "Aquesta setmana encara no has practicat. El que facis apareixerà aquí, dia a dia.",
+    "emptyWeek": "Aquella setmana no hi ha pràctica registrada.",
+    "summary": "{sessions, plural, one {# pràctica} other {# pràctiques}} en {days, plural, one {# dia} other {# dies}} · {answered} respostes · {pct} % d'encerts",
+    "pending": "{count, plural, one {Et queda # tasca del pla} other {Et queden # tasques del pla}}",
+    "allDone": "Pla de la setmana completat",
+    "nothing": "Sense pràctica",
+    "inProgress": "En curs",
+    "score": "{correct} de {answered} bé"
+  },
+  "mockList": {
+    "title": "Simulacres",
+    "subtitle": "Exàmens complets amb el format, el temps i la penalització de l'examen real.",
+    "empty": "Encara no tens simulacres",
+    "emptyBody": "Els simulacres venen amb el Premium de la teva oposició o amb un pack de 10 intents.",
+    "buyTitle": "Packs d'intents",
+    "buySubtitle": "Intents solts de simulacre, sense subscripció."
   }
 }

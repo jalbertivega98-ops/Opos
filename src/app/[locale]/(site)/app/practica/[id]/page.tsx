@@ -92,7 +92,7 @@ export default async function PracticeSessionPage({
         )}
         <div className="flex flex-wrap justify-center gap-3 pt-2">
           <Button asChild variant="accent">
-            <Link href={isQuestions ? "/app/productos" : "/app/practica"}>{t("again")}</Link>
+            <Link href={isQuestions ? "/app/temario" : "/app/practica"}>{t("again")}</Link>
           </Button>
           <Button asChild variant="outline">
             <Link href="/app/progreso">{t("toProgress")}</Link>

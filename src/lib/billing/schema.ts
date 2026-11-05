@@ -11,7 +11,7 @@ export const checkoutSchema = z.object({
   back: z
     .string()
     .optional()
-    .transform((v) => safeNextPath(v, "/app/productos")),
+    .transform((v) => safeNextPath(v, "/app/perfil")),
   // Contenido digital con acceso inmediato: se pide renunciar al desistimiento
   // de forma expresa (art. 103.m TRLGDCU).
   consent: z.literal("on", { error: "consent" }),

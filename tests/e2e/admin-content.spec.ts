@@ -144,9 +144,9 @@ test.describe("Contenido y tienda en el panel", () => {
     await expect(page.getByText("Acceso concedido.")).toBeVisible();
     await expect(page.getByTestId("purchases-table")).toContainText(studentEmail);
 
-    await sp.goto("/app/productos");
-    await expect(sp.getByTestId("library")).toContainText(`Pack de cálculo ${tag}`);
-    await expect(sp.getByText("Acceso concedido")).toBeVisible();
+    await sp.goto("/app/perfil");
+    await expect(sp.getByTestId("purchases")).toContainText(`Pack de cálculo ${tag}`);
+    await expect(sp.getByTestId("purchases")).toContainText("Acceso concedido");
 
     // La alumna no entra en el panel
     await sp.goto("/admin/preguntas");

@@ -4,6 +4,13 @@
 
 ## Estado exacto
 
+### Plan directo al test del tema y calendario (2026-11-05, rama `claude/project-thread-4mfgki`, USR-011, ADR-036)
+
+- Las tareas del plan llevan a «Ficha» + «Empezar test» del tema (`practice_start_topic`); los temas sin acceso salen con candado hacia la ficha de la oposición.
+- Calendario semanal en el panel (`my_study_log`): lo hecho cada día con hora y resultado, tareas pendientes y semanas anteriores.
+- Pestaña «Mis productos» eliminada: «Simulacros» (nueva) y suscripción/compras en «Mi perfil». `/app/productos` redirige.
+- Migración `20261105000300_topic_practice_calendar` copiada en la preview `48-`. Pendiente: que joel lo pruebe y diga «fusiona».
+
 ### Premium por oposición y 3 temas gratis (2026-11-05, rama `claude/project-thread-yutpbx`, BIZ-004, ADR-035)
 
 - Inventario previo (Claude Doc «Material gratis y de pago por oposición»): el alumno gratis no tenía ni una pregunta de test.

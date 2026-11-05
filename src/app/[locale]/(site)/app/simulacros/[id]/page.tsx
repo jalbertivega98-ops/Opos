@@ -135,7 +135,7 @@ export default async function MockAttemptPage({
         <p className="text-muted-foreground text-xs">{t("disclaimer")}</p>
         <div className="flex flex-wrap justify-center gap-3 pt-2">
           <Button asChild variant="accent">
-            <Link href="/app/productos">{t("again")}</Link>
+            <Link href="/app/simulacros">{t("again")}</Link>
           </Button>
           <Button asChild variant="outline">
             <Link href="/app/progreso">{t("toProgress")}</Link>
