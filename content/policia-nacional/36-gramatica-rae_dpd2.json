@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "set": "pn-36-gramatica-rae_dpd2-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 36. Gramática de la lengua española",
+    "topic_slug": "pn-36-gramatica",
+    "locale": "es",
+    "category": "pn_36_gramatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario panhispánico de dudas (RAE-ASALE), 2.ª ed. en línea: puntuación, mayúsculas, números, siglas y gramática",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DPD, género2 1.b",
+      "stem": "Según el Diccionario panhispánico de dudas, los sustantivos que, designando seres animados, tienen una forma única con un solo género gramatical para referirse indistintamente a individuos de uno u otro sexo (persona, víctima, lince) se denominan:",
+      "options": [
+        "Comunes en cuanto al género.",
+        "Epicenos.",
+        "Ambiguos en cuanto al género."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "En los epicenos el género gramatical es independiente del sexo del referente. Los comunes tienen una sola forma, pero el género lo marcan los determinantes (el/la pianista); los ambiguos admiten los dos géneros sin cambio de significado (el/la mar).",
+      "excerpt": "b) Sustantivos epicenos. Son los que, designando seres animados, tienen una forma única, a la que corresponde un solo género gramatical, para referirse indistintamente a individuos de uno u otro sexo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, gerundio 1",
+      "stem": "Según el Diccionario panhispánico de dudas, junto al infinitivo y el participio, el gerundio pertenece al paradigma de:",
+      "options": [
+        "Los tiempos compuestos del modo indicativo.",
+        "Las perífrasis verbales de obligación.",
+        "Las formas no personales del verbo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DPD define el gerundio como forma verbal que pertenece, junto al infinitivo y el participio, al paradigma de las formas no personales del verbo; termina en -ando (amando) o -iendo (comiendo, viviendo).",
+      "excerpt": "Forma verbal que pertenece, junto al infinitivo y el participio, al paradigma de las formas no personales del verbo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, -ísimo 1",
+      "stem": "Según el Diccionario panhispánico de dudas, el sufijo -ísimo se une a adjetivos calificativos y a algunos adverbios para formar:",
+      "options": [
+        "El superlativo.",
+        "El diminutivo.",
+        "El comparativo de superioridad."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "-ísimo es un sufijo de origen latino que forma el superlativo: malísimo, blanquísimo, cerquísima.",
+      "excerpt": "1. Sufijo de origen latino que se une a adjetivos calificativos y a algunos adverbios para formar el superlativo: malísimo, blanquísimo, cerquísima.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, -ísimo 5",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la expresión incorrecta:",
+      "options": [
+        "Fue un servicio muy dificilísimo.",
+        "Fue un servicio dificilísimo.",
+        "Fue un servicio muy difícil."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El sufijo -ísimo forma ya superlativos absolutos, por lo que es incompatible con la anteposición de los adverbios muy y más.",
+      "excerpt": "5. Este sufijo forma ya superlativos absolutos, por lo que es incompatible con la anteposición a estos adjetivos de los adverbios muy (→ mucho -cha, 3) y más (→ más, 1.1).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, plural 1.6",
+      "stem": "Según el Diccionario panhispánico de dudas, el plural de crisis es:",
+      "options": [
+        "Crisises.",
+        "Crisis.",
+        "Crisises o crisis, indistintamente."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Los sustantivos terminados en -s o -x que no son monosílabos ni agudos permanecen invariables en plural: crisis, tórax, fórceps.",
+      "excerpt": "En el resto de los casos, permanecen invariables: crisis, pl. crisis; tórax, pl. tórax",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, pronombres personales átonos 2.d",
+      "stem": "Según el Diccionario panhispánico de dudas, la forma correcta de imperativo de sentarse para ustedes es:",
+      "options": [
+        "Siéntesen.",
+        "Siéntensen.",
+        "Siéntense."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Cuando se añade se a una forma verbal terminada en -n, no debe trasladarse ni repetirse esta letra al final del conjunto: sienten + se = siéntense.",
+      "excerpt": "d) Cuando se añade se a una forma verbal terminada en -n, no debe trasladarse ni repetirse esta letra al final del conjunto formado por el verbo y el enclítico; así, sienten + se = siéntense (no ⊗siéntesen ni ⊗siéntensen).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, pronombres personales átonos 1",
+      "stem": "Según el Diccionario panhispánico de dudas, los pronombres personales átonos son aquellos que funcionan:",
+      "options": [
+        "Como complemento verbal no preposicional o como formante de los verbos pronominales.",
+        "Siempre como sujeto de la oración.",
+        "Como término de una preposición."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Los pronombres átonos (me, te, se, lo, la, le, nos, os…) funcionan como complemento verbal no preposicional (Ya te lo he dicho) o como formante de verbos pronominales (Ahora me arrepiento), y se pronuncian ligados al verbo.",
+      "excerpt": "1. Formas. Los pronombres personales átonos son aquellos que funcionan como complemento verbal no preposicional (Ya te lo he dicho) o como formante de los verbos pronominales (Ahora me arrepiento).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, pronombres personales átonos 2.a",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la forma correcta:",
+      "options": [
+        "Dejémosnos de excusas.",
+        "Dejémonos de excusas.",
+        "Dejemosnos de excusas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Delante del enclítico nos se pierde obligatoriamente la -s de la primera persona del plural del subjuntivo exhortativo: dejemos + nos = dejémonos.",
+      "excerpt": "a) Delante del enclítico nos se pierde obligatoriamente la -s de la primera persona del plural del subjuntivo usado con valor de imperativo (subjuntivo exhortativo); así, dejemos + nos = dejémonos (no ⊗dejémosnos)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, pronombres personales átonos 2.e",
+      "stem": "Según el Diccionario panhispánico de dudas, el imperativo de estarse para vosotros es:",
+      "options": [
+        "Estados.",
+        "Estarse.",
+        "Estaos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El imperativo de vosotros pierde la -d final cuando se le añade el enclítico os: estad + os = estaos. Es excepción idos, de irse.",
+      "excerpt": "e) La segunda persona del plural del imperativo vosotros pierde la -d final cuando se le añade el enclítico os; así, estad + os = estaos (y no ⊗estados)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, pronombres personales átonos 2",
+      "stem": "Según el Diccionario panhispánico de dudas, los pronombres átonos pospuestos al verbo (enclíticos):",
+      "options": [
+        "Se escriben necesariamente soldados al verbo: Dímelo.",
+        "Se escriben como palabras independientes: Dí me lo.",
+        "Se separan del verbo con guion: Di-me-lo."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cuando los clíticos van antepuestos (proclíticos) se escriben como palabras independientes (Te lo dije); cuando van pospuestos (enclíticos), se escriben soldados al verbo (Dímelo).",
+      "excerpt": "Cuando van antepuestos (proclíticos), se escriben como palabras independientes: Te lo dije. Cuando van pospuestos (enclíticos), se escriben necesariamente soldados: Dímelo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, género2 1.b",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la frase correcta:",
+      "options": [
+        "La víctima, un hombre joven, fue trasladado al hospital.",
+        "La víctima, un hombre joven, fue trasladada al hospital.",
+        "El víctima, un hombre joven, fue trasladado al hospital."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Con los sustantivos epicenos la concordancia se establece siempre según su género gramatical, no según el sexo del referente; víctima es femenino.",
+      "excerpt": "así, debe decirse La víctima, un hombre joven, fue trasladada al hospital más cercano",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, género2 3.k",
+      "stem": "Según el Diccionario panhispánico de dudas, los nombres que designan grados de la escala militar (sargento, teniente, capitán, general), independientemente de su terminación:",
+      "options": [
+        "Son epicenos y solo admiten el género masculino.",
+        "Forman siempre el femenino con la terminación -a: sargenta, capitana.",
+        "Funcionan como comunes en cuanto al género: el/la sargento, el/la capitán."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DPD señala que estos nombres funcionan como comunes (el/la cabo, el/la comandante, el/la teniente), aunque en algunos países americanos se usan con normalidad femeninos como capitana o sargenta.",
+      "excerpt": "k) Independientemente de su terminación, funcionan como comunes los nombres que designan grados de la escala militar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, gerundio 4",
+      "stem": "Según el Diccionario panhispánico de dudas, es incorrecto usar el gerundio:",
+      "options": [
+        "Como verbo auxiliado en perífrasis con estar o seguir.",
+        "Como complemento circunstancial de modo.",
+        "Para presentar acciones o procesos ya concluidos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El gerundio presenta una situación en su curso; para acciones ya concluidas corresponde el participio (una vez añadida la contraseña, no una vez añadiendo). Las perífrasis y el uso circunstancial son correctos.",
+      "excerpt": "Es incorrecto, por tanto, usarlo para presentar acciones o procesos ya concluidos, valor que, entre las formas no personales del verbo, corresponde al participio",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, gerundio 6.1",
+      "stem": "Según el Diccionario panhispánico de dudas, en la oración «Estuve hablando por teléfono», el gerundio funciona como:",
+      "options": [
+        "Complemento predicativo del sujeto.",
+        "Verbo auxiliado en una perífrasis verbal.",
+        "Modificador oracional o gerundio absoluto."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Precedido de verbos como estar, ir, andar, venir, llevar o seguir, el gerundio forma perífrasis verbales que presentan las acciones en su desarrollo.",
+      "excerpt": "6.1. Verbo auxiliado en perífrasis. Precedido de verbos como estar, ir, andar, venir, llevar, tener, seguir, etc., el gerundio forma perífrasis verbales que presentan las acciones o procesos en su desarrollo (Estuve hablando por teléfono",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, plural 1.2",
+      "stem": "Según el Diccionario panhispánico de dudas, los sustantivos terminados en -a o en -o tónicas (sofá, dominó) forman hoy el plural:",
+      "options": [
+        "Únicamente con -s: sofás, dominós.",
+        "Únicamente con -es: sofaes, dominoes.",
+        "Con -s o con -es indistintamente."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Aunque vacilaron en el pasado, estos sustantivos forman actualmente el plural únicamente con -s: papás, sofás, burós, dominós.",
+      "excerpt": "en la actualidad forman el plural únicamente con -s: papás, sofás, bajás, burós, rococós, dominós.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, plural 2.1",
+      "stem": "Según el Diccionario panhispánico de dudas, la vocal tónica cambia de lugar en el plural en las palabras:",
+      "options": [
+        "Examen, origen y volumen.",
+        "Árbol, cráter y ademán.",
+        "Espécimen, régimen y carácter."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "En espécimen, régimen y carácter el acento cambia de lugar en el plural: especímenes, regímenes y caracteres. En examen (exámenes) u origen (orígenes) se mantiene la misma vocal tónica.",
+      "excerpt": "La vocal tónica es la misma en el singular y en el plural, salvo en las palabras espécimen, régimen y carácter",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, -ísimo 2.b",
+      "stem": "Según el Diccionario panhispánico de dudas, el superlativo de joven es:",
+      "options": [
+        "Jovencísimo.",
+        "Jovenísimo.",
+        "Jovencitísimo."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Los adjetivos terminados en -n incorporan normalmente el interfijo -c-: briboncísimo, jovencísimo. Es excepción común, que forma comunísimo.",
+      "excerpt": "b) Los adjetivos que terminan en -n incorporan normalmente el interfijo -c-: de bribón, briboncísimo; de fregón, fregoncísimo; de joven, jovencísimo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, -ísimo 2.e",
+      "stem": "Según el Diccionario panhispánico de dudas, los adjetivos terminados en los diptongos -io/-ia pierden las dos vocales al formar el superlativo. Por ello, el superlativo de amplio es:",
+      "options": [
+        "Ampliísimo.",
+        "Amplísimo.",
+        "Ampliisímo."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Los adjetivos terminados en los diptongos -io/-ia pierden las dos vocales: amplísima, sucísimo, serísima. En cambio, los terminados en los hiatos -ío/-ía pierden solo la última: friísimo.",
+      "excerpt": "e) Los adjetivos terminados en los diptongos -io/-ia pierden las dos vocales: de amplia, amplísima; de sucio, sucísimo; de seria, serísima; de agrio, agrísimo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, porque 1.a y 2.a",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la oración correcta:",
+      "options": [
+        "Lo detuvieron por qué conducía bebido.",
+        "Desconozco el por qué de su detención.",
+        "Desconozco la razón por que lo detuvieron."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Se escribe por que cuando el relativo que va precedido de la preposición por (equivale a por la que, por el cual). Porque, conjunción causal, iría en «lo detuvieron porque conducía bebido», y el sustantivo es el porqué.",
+      "excerpt": "a) Cuando el pronombre relativo que va precedido de la preposición por. Su identificación es fácil, ya que el relativo que admite la anteposición del artículo correspondiente (el, la, los, las)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, gerundio 10.1.3",
+      "stem": "Según el Diccionario panhispánico de dudas, los gerundios que constituyen modificadores oracionales, también llamados externos o absolutos:",
+      "options": [
+        "Deben aislarse siempre con coma.",
+        "No se separan nunca con coma del resto del enunciado.",
+        "Solo llevan coma si van al final de la oración."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Los gerundios absolutos son siempre externos al predicado principal y deben aislarse con coma; en cambio, los circunstanciales y los predicativos no se separan con coma.",
+      "excerpt": "10.1.3. Se escribe coma para aislar los gerundios que constituyen modificadores oracionales, también llamados externos o absolutos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

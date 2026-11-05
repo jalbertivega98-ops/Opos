@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "set": "pn-40-inteligencia-osint-lcni-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 40. Inteligencia: ciclo de inteligencia, fuentes (OSINT) y el Centro Nacional de Inteligencia",
+    "topic_slug": "pn-40-inteligencia-osint",
+    "locale": "es",
+    "category": "pn_40_inteligencia_osint",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 11/2002, de 6 de mayo, reguladora del Centro Nacional de Inteligencia (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7.1 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, reguladora del Centro Nacional de Inteligencia, el CNI se adscribe orgánicamente al:",
+      "options": [
+        "Ministerio de Defensa.",
+        "Ministerio del Interior.",
+        "Ministerio de la Presidencia."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 7.1 de la Ley 11/2002 adscribe orgánicamente el CNI al Ministerio de Defensa. Su Dirección tiene rango de Secretario de Estado (art. 7.3).",
+      "excerpt": "1\\. El Centro Nacional de Inteligencia se adscribe orgánicamente al Ministerio de Defensa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, los objetivos del Centro Nacional de Inteligencia los determina y aprueba anualmente el Gobierno mediante:",
+      "options": [
+        "El Plan Estratégico de Inteligencia, que se publica en el BOE.",
+        "La Estrategia de Seguridad Nacional, que aprueban las Cortes Generales.",
+        "La Directiva de Inteligencia, que tendrá carácter secreto."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 3 de la Ley 11/2002 establece que los objetivos del CNI se fijan anualmente mediante la Directiva de Inteligencia, de carácter secreto.",
+      "excerpt": "El Gobierno determinará y aprobará anualmente los objetivos del Centro Nacional de Inteligencia mediante la Directiva de Inteligencia, que tendrá carácter secreto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, el mandato del Secretario de Estado Director del Centro Nacional de Inteligencia es de:",
+      "options": [
+        "Cuatro años.",
+        "Cinco años.",
+        "Seis años."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 9.1 fija un mandato de cinco años, sin perjuicio de que el Consejo de Ministros pueda sustituirlo en cualquier momento. Es nombrado por Real Decreto a propuesta del Ministro de Defensa.",
+      "excerpt": "El mandato será de cinco años, sin perjuicio de la facultad del Consejo de Ministros de proceder a su sustitución en cualquier momento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1 Ley 11/2002",
+      "stem": "Según el artículo 1 de la Ley 11/2002, el Centro Nacional de Inteligencia es el Organismo público responsable de facilitar sus informaciones, análisis, estudios o propuestas:",
+      "options": [
+        "A las Cortes Generales y al Defensor del Pueblo.",
+        "Al Presidente del Gobierno y al Gobierno de la Nación.",
+        "Al Ministro del Interior y a las Fuerzas y Cuerpos de Seguridad del Estado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 1 dispone que el CNI facilita al Presidente del Gobierno y al Gobierno de la Nación la información que permita prevenir y evitar cualquier peligro, amenaza o agresión contra la independencia o integridad territorial de España, los intereses nacionales y la estabilidad del Estado de derecho.",
+      "excerpt": "El Centro Nacional de Inteligencia es el Organismo público responsable de facilitar al Presidente del Gobierno y al Gobierno de la Nación las informaciones, análisis, estudios o propuestas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.3 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, en el desarrollo de sus funciones el Centro Nacional de Inteligencia actuará bajo los principios de:",
+      "options": [
+        "Eficacia, especialización y coordinación.",
+        "Jerarquía, descentralización y desconcentración.",
+        "Publicidad, transparencia y objetividad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 2.3 recoge los principios de eficacia, especialización y coordinación, de acuerdo con los objetivos de inteligencia definidos por el Gobierno. Además, el CNI está sometido al ordenamiento jurídico y a control parlamentario y judicial (art. 2.1 y 2.2).",
+      "excerpt": "3\\. En el desarrollo de sus funciones, el Centro Nacional de Inteligencia actuará bajo los principios de eficacia, especialización y coordinación, de acuerdo con los objetivos de inteligencia definidos por el Gobierno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.1 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, el órgano que velará por la adecuada coordinación de todos los servicios de información e inteligencia del Estado para la formación de una comunidad de inteligencia es:",
+      "options": [
+        "La Secretaría General del Centro Nacional de Inteligencia.",
+        "El Centro Criptológico Nacional.",
+        "La Comisión Delegada del Gobierno para Asuntos de Inteligencia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 6.1 atribuye esta función a la Comisión Delegada del Gobierno para Asuntos de Inteligencia, que además propone al Presidente del Gobierno los objetivos anuales del CNI (art. 6.4.a).",
+      "excerpt": "1\\. La Comisión Delegada del Gobierno para Asuntos de Inteligencia velará por la adecuada coordinación de todos los servicios de información e inteligencia del Estado para la formación de una comunidad de inteligencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.4 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, los miembros del Centro Nacional de Inteligencia:",
+      "options": [
+        "Tendrán en todo caso la consideración de agentes de la autoridad.",
+        "No tendrán la consideración de agentes de la autoridad, con excepción de los que desempeñen cometidos relacionados con la protección del personal y de las instalaciones del Centro.",
+        "Tendrán la consideración de agentes de la autoridad solo cuando actúen fuera del territorio nacional."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 5.4 niega con carácter general la condición de agentes de la autoridad a los miembros del CNI, salvo a los encargados de la protección del personal y de las instalaciones del Centro.",
+      "excerpt": "4\\. Los miembros del Centro Nacional de Inteligencia no tendrán la consideración de agentes de la autoridad, con excepción de aquellos que desempeñen cometidos profesionales relacionados con la protección del personal del Centro y de las instalaciones del mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.d Ley 11/2002",
+      "stem": "Entre las funciones que la Ley 11/2002 atribuye al Centro Nacional de Inteligencia figura la de obtener, evaluar e interpretar:",
+      "options": [
+        "Las comunicaciones de cualquier ciudadano sin autorización judicial.",
+        "Los datos de los procesos electorales.",
+        "El tráfico de señales de carácter estratégico."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 4.d atribuye al CNI obtener, evaluar e interpretar el tráfico de señales de carácter estratégico, para el cumplimiento de los objetivos de inteligencia señalados al Centro.",
+      "excerpt": "d) Obtener, evaluar e interpretar el tráfico de señales de carácter estratégico, para el cumplimiento de los objetivos de inteligencia señalados al Centro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.2.f Ley 11/2002",
+      "stem": "Según la Ley 11/2002, corresponde al Secretario de Estado Director del CNI desempeñar las funciones de Autoridad Nacional de Inteligencia y Contrainteligencia y:",
+      "options": [
+        "La presidencia de la Comisión Delegada del Gobierno para Asuntos de Inteligencia.",
+        "La dirección del Centro Criptológico Nacional.",
+        "La dirección del Departamento de Seguridad Nacional."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 9.2.f le atribuye las funciones de Autoridad Nacional de Inteligencia y Contrainteligencia y la dirección del Centro Criptológico Nacional.",
+      "excerpt": "f) Desempeñar las funciones de Autoridad Nacional de Inteligencia y Contrainteligencia y la dirección del Centro Criptológico Nacional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.1 Ley 11/2002",
+      "stem": "Según la Ley 11/2002, las actividades del Centro Nacional de Inteligencia, su organización y estructura interna, medios y procedimientos, personal y fuentes de información constituyen información clasificada con el grado de:",
+      "options": [
+        "Reservado.",
+        "Confidencial.",
+        "Secreto."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 5.1 clasifica estas materias con el grado de secreto, o con el mayor nivel de clasificación que contemplen la legislación de secretos oficiales y los Acuerdos internacionales.",
+      "excerpt": "constituyen información clasificada, con el grado de secreto, de acuerdo con lo dispuesto en la legislación reguladora de los secretos oficiales",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.b Ley 11/2002",
+      "stem": "Según la Ley 11/2002, prevenir, detectar y posibilitar la neutralización de las actividades de servicios extranjeros, grupos o personas que pongan en riesgo el ordenamiento constitucional o la seguridad del Estado es una función del:",
+      "options": [
+        "Centro Nacional de Inteligencia.",
+        "Centro Criptológico Nacional, exclusivamente.",
+        "Consejo de Seguridad Nacional."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 4.b de la Ley 11/2002 incluye esta función de contrainteligencia entre las propias del CNI.",
+      "excerpt": "b) Prevenir, detectar y posibilitar la neutralización de aquellas actividades de servicios extranjeros, grupos o personas que pongan en riesgo, amenacen o atenten contra el ordenamiento constitucional",
+      "excerpt_status": "completo"
+    }
+  ]
+}

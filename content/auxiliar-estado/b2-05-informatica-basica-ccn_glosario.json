@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ccn_glosario-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "CCN-CERT · Guía CCN-STIC-401, Glosario y Abreviaturas",
+      "url": "https://www.ccn-cert.cni.es/publico/seriesCCN-STIC/series/400-Guias_Generales/401-glosario_abreviaturas/index.html",
+      "kind": "web_oficial",
+      "publisher": "Centro Criptológico Nacional (CCN-CERT)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Glosario CCN-STIC-401 · Amenaza",
+      "stem": "Según el glosario CCN-STIC-401 del Centro Criptológico Nacional, que recoge la definición de la norma UNE-ISO/IEC 27000, una amenaza es:",
+      "options": [
+        "El efecto de la incertidumbre sobre la consecución de los objetivos.",
+        "La causa potencial de un incidente no deseado, que puede ocasionar daño a un sistema o a una organización.",
+        "Un fallo de un programa que puede ser aprovechado por un atacante.",
+        "El daño efectivamente producido tras un incidente de seguridad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El CCN recoge la definición de la UNE-ISO/IEC 27000:2014. El «efecto de la incertidumbre sobre los objetivos» es la definición de riesgo (Guía ISO 73) y el fallo aprovechable es una vulnerabilidad.",
+      "excerpt": "Causa potencial de un incidente no deseado, el cual puede ocasionar daño a un sistema o a una organización. [UNE-ISO/IEC 27000:2014]",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario CCN-STIC-401 · Riesgo",
+      "stem": "El glosario CCN-STIC-401, siguiendo la Guía UNE-ISO 73:2010, define el riesgo como:",
+      "options": [
+        "La causa potencial de un incidente no deseado.",
+        "La debilidad de un activo que puede ser explotada.",
+        "El efecto de la incertidumbre sobre la consecución de los objetivos.",
+        "La probabilidad de que un usuario interno filtre información."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El CCN toma de la Guía ISO 73 la definición de riesgo como efecto de la incertidumbre sobre los objetivos; la causa potencial de un incidente es la amenaza.",
+      "excerpt": "Efecto de la incertidumbre sobre la consecución de los objetivos. [UNE-ISO GUÍA 73:2010]",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario CCN-STIC-401 · Día cero",
+      "stem": "Según el glosario del CCN-CERT, las vulnerabilidades conocidas por determinados atacantes pero no por los fabricantes ni por los usuarios se denominan:",
+      "options": [
+        "Puertas traseras.",
+        "Exploits públicos.",
+        "Vulnerabilidades parcheadas.",
+        "Vulnerabilidades de día cero (zero-day)."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El CCN las llama zero-day o de día cero y las considera las más peligrosas, porque pueden explotarse sin que el usuario sepa que es vulnerable.",
+      "excerpt": "Son aquellas vulnerabilidades en sistemas o programas informáticos que son conocidas por determinados atacantes pero no lo son por los fabricantes o por los usuarios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario CCN-STIC-401 · Exploit",
+      "stem": "De acuerdo con el glosario CCN-STIC-401, un exploit es:",
+      "options": [
+        "Un programa que se replica a sí mismo a través de la red sin intervención del usuario.",
+        "Software, un fragmento de datos o una secuencia de comandos que aprovecha un fallo o una vulnerabilidad para provocar un comportamiento no deseado.",
+        "Un mecanismo que limita el acceso de un programa a los recursos del sistema.",
+        "Una copia de seguridad cifrada de los datos del sistema."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El exploit aprovecha un fallo o vulnerabilidad. El mecanismo que limita el acceso de un programa a los recursos es el sandbox o entorno restringido.",
+      "excerpt": "Un tipo de software, un fragmento de datos, o una secuencia de comandos que aprovecha un fallo o una vulnerabilidad en el sistema de un usuario para provocar un comportamiento no deseado o imprevisto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario CCN-STIC-401 · Sandbox",
+      "stem": "Según el glosario del CCN-CERT, el mecanismo de protección que limita el acceso que tiene un programa a los recursos del sistema se denomina:",
+      "options": [
+        "Exploit.",
+        "Rootkit.",
+        "Proxy.",
+        "Sandbox o entorno restringido."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El CCN define el sandbox (entorno restringido) como mecanismo de protección, usado en algunos lenguajes o entornos de programación, que restringe el acceso de un programa a los recursos del sistema.",
+      "excerpt": "Mecanismo de protección utilizado en algunos lenguajes o entornos de programación que limita el acceso que tiene un programa a los recursos del sistema.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario CCN-STIC-401 · Big endian",
+      "stem": "En el glosario CCN-STIC-401, el término big endian se refiere a:",
+      "options": [
+        "Una ordenación de los bytes en memoria en la que el byte más significativo va primero.",
+        "Una ordenación de los bytes en memoria en la que el byte menos significativo va primero.",
+        "Un sistema de codificación de caracteres de 8 bits.",
+        "Un tipo de memoria de solo lectura."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El CCN define big endian como la ordenación de los bytes en memoria con el byte más significativo primero (lo contrario es little endian).",
+      "excerpt": "Ordenación de los bytes en memoria: byte más significativo primero.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

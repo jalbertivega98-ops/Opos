@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "set": "pn-31-inmigracion-oim_terminos-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 31. Inmigración: movimientos migratorios, concepto, causas, tipos y efectos; integración social",
+    "topic_slug": "pn-31-inmigracion",
+    "locale": "es",
+    "category": "pn_31_inmigracion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "OIM, ONU Migración · Términos fundamentales sobre migración",
+      "url": "https://www.iom.int/es/terminos-fundamentales-sobre-migracion",
+      "kind": "web_oficial",
+      "publisher": "Organización Internacional para las Migraciones (OIM, organismo de las Naciones Unidas)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "OIM, Términos fundamentales: Migración",
+      "stem": "Según la Organización Internacional para las Migraciones (OIM), la migración es:",
+      "options": [
+        "El movimiento de personas fuera de su lugar de residencia habitual, ya sea a través de una frontera internacional o dentro de un país.",
+        "Exclusivamente el movimiento de personas que cruzan una frontera internacional.",
+        "El desplazamiento temporal de personas con fines de ocio o turismo."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La OIM define la migración como movimiento fuera del lugar de residencia habitual, tanto internacional como dentro de un país (migración interna).",
+      "excerpt": "Migración – Movimiento de personas fuera de su lugar de residencia habitual, ya sea a través de una frontera internacional o dentro de un país.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Migración irregular",
+      "stem": "Según la OIM, el movimiento de personas que se produce al margen de las leyes, las normas o los acuerdos internacionales que rigen la entrada o la salida del país de origen, de tránsito o de destino es la:",
+      "options": [
+        "Migración interna.",
+        "Migración por motivos climáticos.",
+        "Migración irregular."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La OIM define así la migración irregular; la migración interna es el movimiento dentro de un país con nueva residencia temporal o permanente.",
+      "excerpt": "Migración irregular – Movimiento de personas que se produce al margen de las leyes, las normas o los acuerdos internacionales que rigen la entrada o la salida del país de origen, de tránsito o de destino.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Apátrida",
+      "stem": "Según la OIM, la persona no considerada como nacional suyo por ningún Estado, conforme a su legislación, es:",
+      "options": [
+        "Un refugiado.",
+        "Un apátrida.",
+        "Un desplazado interno."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El apátrida carece de nacionalidad porque ningún Estado lo considera nacional suyo conforme a su legislación.",
+      "excerpt": "Apátrida – Persona no considerada como nacional suyo por ningún Estado, conforme a su legislación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Inmigración",
+      "stem": "Según la OIM, desde la perspectiva del país de llegada, el acto de trasladarse a un país distinto del de nacionalidad o residencia habitual, de manera que el país de destino se convierta efectivamente en el nuevo país de residencia habitual, es la:",
+      "options": [
+        "Emigración.",
+        "Migración de tránsito.",
+        "Inmigración."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La OIM define la inmigración desde la perspectiva del país de llegada y la emigración desde la del país de salida.",
+      "excerpt": "Inmigración – Desde la perspectiva del país de llegada, el acto de trasladarse a un país distinto del país de nacionalidad o de residencia habitual",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Desplazados internos",
+      "stem": "Según la OIM, las personas forzadas a huir de su hogar por un conflicto armado, violencia generalizada, violaciones de derechos humanos o catástrofes, que NO han cruzado una frontera estatal internacionalmente reconocida, son:",
+      "options": [
+        "Refugiados.",
+        "Desplazados internos.",
+        "Solicitantes de asilo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Lo que distingue a los desplazados internos es que no han cruzado una frontera estatal internacionalmente reconocida.",
+      "excerpt": "y que no han cruzado una frontera estatal internacionalmente reconocida.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Tráfico de migrantes",
+      "stem": "Según la OIM, la facilitación de la entrada irregular de una persona en un Estado del cual no sea nacional o residente permanente, con el fin de obtener un beneficio financiero u otro beneficio de orden material, es:",
+      "options": [
+        "El tráfico de migrantes.",
+        "La trata de personas.",
+        "La reunificación familiar."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El tráfico de migrantes se define por la facilitación de la entrada irregular con ánimo de beneficio; la trata de personas exige captación o traslado mediante coacción, engaño o abuso con fines de explotación.",
+      "excerpt": "Tráfico (de migrantes) – Facilitación de la entrada irregular de una persona en un Estado Parte del cual dicha persona no sea nacional o residente permanente con el fin de obtener, directa o indirectamente, un beneficio financiero u otro beneficio de orden material.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Solicitante de asilo",
+      "stem": "Según la OIM, en relación con los solicitantes de asilo y los refugiados en países con procedimientos individualizados:",
+      "options": [
+        "Todos los solicitantes de asilo son reconocidos como refugiados.",
+        "No todos los solicitantes de asilo son reconocidos como refugiados, pero todos los refugiados son inicialmente solicitantes de asilo.",
+        "Los refugiados nunca han sido solicitantes de asilo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El solicitante de asilo busca protección internacional y su solicitud aún no ha sido objeto de decisión firme.",
+      "excerpt": "No todos los solicitantes de asilo son reconocidos como refugiados, pero todos los refugiados en estos países son inicialmente solicitantes de asilo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Integración",
+      "stem": "Según la OIM, la integración es:",
+      "options": [
+        "Un proceso bidireccional de adaptación mutua entre los migrantes y las sociedades en las que viven.",
+        "Un proceso unidireccional por el que el migrante abandona su cultura de origen.",
+        "La concesión de la nacionalidad del país de destino."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La OIM define la integración como un proceso bidireccional que conlleva responsabilidades conjuntas para migrantes y comunidades e incluye nociones como la inclusión y la cohesión social; no implica necesariamente la residencia permanente.",
+      "excerpt": "Integración – Proceso bidireccional de adaptación mutua entre los migrantes y las sociedades en las que viven",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Remesas",
+      "stem": "Según la OIM, las transferencias monetarias de carácter privado que los migrantes realizan, ya sea de manera individual o colectiva, se denominan:",
+      "options": [
+        "Ayudas oficiales al desarrollo.",
+        "Codesarrollo.",
+        "Remesas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La OIM define las remesas como transferencias monetarias privadas, individuales o colectivas, de los migrantes.",
+      "excerpt": "Remesas (migrantes) – Transferencias monetarias de carácter privado que los migrantes realizan, ya sea de manera individual o colectiva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: Ciclo migratorio",
+      "stem": "Según la OIM, las etapas del proceso migratorio que comprenden la partida, en algunos casos el tránsito por uno o varios países, la entrada en el país de destino y el retorno constituyen:",
+      "options": [
+        "El flujo migratorio.",
+        "El ciclo migratorio.",
+        "El perfil migratorio."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La OIM define el ciclo migratorio como el conjunto de esas etapas, desde la partida hasta el retorno.",
+      "excerpt": "Ciclo migratorio – Etapas del proceso migratorio que comprenden la partida, en algunos casos el tránsito a través de uno o varios países, la entrada en el país de destino y el retorno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "OIM, Términos fundamentales: No devolución",
+      "stem": "Según la OIM, el principio que obliga a los Estados a no extraditar, deportar, expulsar o devolver a una persona a un país en el que su vida o su libertad estarían amenazadas se denomina principio de:",
+      "options": [
+        "Unidad familiar.",
+        "No devolución.",
+        "Libre circulación."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El principio de no devolución (non-refoulement) protege también frente al riesgo de tortura, desaparición forzada u otros daños irreparables.",
+      "excerpt": "No devolución (principio de) – Principio que entraña la obligación para los Estados de no extraditar, deportar, expulsar o devolver a una persona a un país en el que su vida o su libertad estarían amenazadas",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_recuperacion-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Opciones de recuperación en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/recovery-options-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Opciones de recuperación · Volver a la versión anterior",
+      "stem": "Según Microsoft, si un problema comenzó después de actualizar a una nueva versión de Windows, se puede volver a la versión anterior durante:",
+      "options": [
+        "30 días después de la actualización.",
+        "48 horas después de la actualización.",
+        "10 días después de la actualización.",
+        "90 días después de la actualización."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La vuelta a la versión anterior está disponible durante 10 días tras la actualización.",
+      "excerpt": "Si el problema comenzó después de actualizar a una nueva versión de Windows, intenta volver a la versión anterior (disponible durante 10 días después de la actualización).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Opciones de recuperación · Restablecer este PC",
+      "stem": "Según Microsoft, la opción Restablecer este PC:",
+      "options": [
+        "Solo desinstala la última actualización de Windows.",
+        "Revierte el equipo a un punto de restauración sin reinstalar Windows.",
+        "Ejecuta un solucionador de problemas automático.",
+        "Reinstala Windows desde cero y permite conservar los archivos personales o quitarlos todos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Restablecer este PC reinstala Windows; el usuario elige conservar o quitar sus archivos. Microsoft la considera una opción muy perturbadora.",
+      "excerpt": "Esta acción reinstala Windows desde cero. Puede optar por conservar sus archivos personales o quitarlos todos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Opciones de recuperación · Reinstalar Windows",
+      "stem": "Entre las opciones de recuperación de Windows 11, ¿cuál reinstala la versión actual sin afectar a los archivos, las aplicaciones ni la configuración?",
+      "options": [
+        "Restablecer este PC.",
+        "Recompilación en la nube.",
+        "Reinstalar Windows.",
+        "Reinstalar Windows desde medios de recuperación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "«Reinstalar Windows» mantiene archivos, aplicaciones y configuración. Restablecer este PC reinstala desde cero y la recompilación en la nube lo quita todo.",
+      "excerpt": "Esta acción reinstala la versión actual sin afectar a los archivos, las aplicaciones ni la configuración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Opciones de recuperación · Recompilación en la nube",
+      "stem": "Según Microsoft, la opción de recuperación «Recompilación en la nube» de Windows 11:",
+      "options": [
+        "Restaura los archivos personales desde OneDrive sin reinstalar Windows.",
+        "Reinstala Windows con una copia nueva y controladores de Windows Update, y quita todos los archivos personales, aplicaciones y configuración.",
+        "Solo descarga controladores nuevos, sin tocar el sistema.",
+        "Reinstala Windows conservando aplicaciones y archivos."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La recompilación en la nube es la opción más drástica después de Restablecer este PC: copia nueva de Windows y controladores, sin conservar nada.",
+      "excerpt": "Cloud rebuild reinstala Windows con una copia nueva de Windows y controladores de Windows Update. Quita todos los archivos personales, las aplicaciones y la configuración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Opciones de recuperación · BitLocker",
+      "stem": "Según Microsoft, si BitLocker está habilitado en el dispositivo, para acceder a la mayoría de las opciones de recuperación del Entorno de recuperación de Windows (WinRE) se necesitará:",
+      "options": [
+        "La clave de recuperación de BitLocker.",
+        "La contraseña del router Wi-Fi.",
+        "Una conexión por cable Ethernet.",
+        "Una cuenta local de administrador."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Con BitLocker activo, la mayoría de las opciones de WinRE piden la clave de recuperación de BitLocker.",
+      "excerpt": "Si BitLocker está habilitado en el dispositivo, necesitarás la clave de recuperación de BitLocker para acceder a la mayoría de las opciones de recuperación de WinRE.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

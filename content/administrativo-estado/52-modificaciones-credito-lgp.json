@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "set": "age-adm-52-modificaciones-credito-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.2 Los créditos presupuestarios: clasificación económica y modificaciones de crédito",
+    "topic_slug": "age-adm-52-modificaciones-credito",
+    "locale": "es",
+    "category": "age_adm_52_modificaciones_credito",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 40.1.c) LGP",
+      "stem": "Según el artículo 40.1.c) de la Ley 47/2003, General Presupuestaria, ¿cuál de los siguientes créditos NO forma parte de los créditos para operaciones corrientes?",
+      "options": [
+        "Los gastos de personal.",
+        "Los gastos financieros.",
+        "Las inversiones reales.",
+        "Las transferencias corrientes."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 40.1.c) LGP distingue en operaciones corrientes los gastos de personal, los gastos corrientes en bienes y servicios, los gastos financieros y las transferencias corrientes; las inversiones reales son operaciones de capital, junto con las transferencias de capital.",
+      "excerpt": "En los créditos para operaciones corrientes se distinguirán los gastos de personal, los gastos corrientes en bienes y servicios, los gastos financieros y las transferencias corrientes. En los créditos para operaciones de capital se distinguirán las inversiones reales y las transferencias de capital.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.1.c) LGP",
+      "stem": "De acuerdo con el artículo 40.1.c) de la Ley General Presupuestaria, en la clasificación económica del gasto los capítulos se desglosan en:",
+      "options": [
+        "Secciones, y estas en servicios.",
+        "Artículos, y estos, a su vez, en conceptos que podrán dividirse en subconceptos.",
+        "Programas, y estos en subprogramas.",
+        "Conceptos, y estos en partidas que podrán dividirse en artículos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 40.1.c) LGP fija la jerarquía de la clasificación económica: capítulo, artículo, concepto y subconcepto. Secciones y servicios son la clasificación orgánica; los programas, la clasificación por programas.",
+      "excerpt": "Los capítulos se desglosarán en artículos y estos, a su vez, en conceptos que podrán dividirse en subconceptos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 42 LGP",
+      "stem": "Según el artículo 42 de la Ley General Presupuestaria, los créditos para gastos se destinarán exclusivamente:",
+      "options": [
+        "A la finalidad específica para la que hayan sido autorizados por la Ley de Presupuestos o a la que resulte de las modificaciones aprobadas conforme a esa ley.",
+        "A la finalidad que determine en cada momento el centro gestor, dentro de su sección presupuestaria.",
+        "A cualquier gasto del mismo capítulo, aunque sea de distinto programa.",
+        "A la finalidad que autorice el Interventor Delegado del departamento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 42 LGP recoge el principio de especialidad cualitativa: cada crédito solo puede destinarse a la finalidad autorizada o a la que resulte de una modificación aprobada conforme a la LGP.",
+      "excerpt": "Los créditos para gastos se destinarán exclusivamente a la finalidad específica para la que hayan sido autorizados por la Ley de Presupuestos o a la que resulte de las modificaciones aprobadas conforme a esta ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 43.2 LGP",
+      "stem": "Según el artículo 43.2 de la Ley General Presupuestaria, en el presupuesto del Estado se especificarán al nivel que corresponda conforme a su concreta clasificación económica, entre otros, los créditos destinados a:",
+      "options": [
+        "Gastos de personal funcionario.",
+        "Material de oficina no inventariable.",
+        "Inversiones de reposición asociadas al funcionamiento de los servicios.",
+        "Atenciones protocolarias y representativas y gastos reservados."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 43.2 LGP exceptúa de la regla general de vinculación (concepto, artículo o capítulo según el tipo de gasto) a ciertos créditos, como las atenciones protocolarias y representativas, los gastos reservados, los arrendamientos de edificios, los ampliables y los extraordinarios.",
+      "excerpt": "No obstante, se especificarán al nivel que corresponda conforme a su concreta clasificación económica, los siguientes créditos: a) Los destinados a atenciones protocolarias y representativas y los gastos reservados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.1.b) LGP",
+      "stem": "La Subsecretaría de un Ministerio pretende financiar un gasto con una transferencia de crédito procedente de un crédito de otro Ministerio, sin que medie reorganización administrativa ni convenio. Según el artículo 52.1 de la Ley General Presupuestaria:",
+      "options": [
+        "Es posible si ambos créditos son del mismo capítulo.",
+        "No es posible, porque las transferencias no podrán realizarse entre créditos de distintas secciones presupuestarias.",
+        "Es posible con autorización del Ministro de Hacienda, sin más requisitos.",
+        "Es posible si el crédito de origen es de operaciones de capital y el de destino de operaciones corrientes."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 52.1.b) LGP prohíbe las transferencias entre distintas secciones presupuestarias (salvo el programa de contratación centralizada y los casos del art. 52.2, como reorganizaciones o convenios).",
+      "excerpt": "b) No podrán realizarse entre créditos de distintas secciones presupuestarias. Esta restricción no afectará a los créditos del programa de contratación centralizada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.1.c) LGP",
+      "stem": "En mayo se aprobó un suplemento de crédito en el concepto 227 de un servicio. En octubre, el mismo servicio quiere dar de baja parte de ese crédito para financiar una transferencia a otro concepto. De acuerdo con el artículo 52.1 de la Ley General Presupuestaria:",
+      "options": [
+        "No es posible, porque las transferencias no minorarán créditos que se hayan suplementado en el ejercicio.",
+        "Es posible, porque se trata del mismo servicio presupuestario.",
+        "Es posible siempre que el crédito de destino sea de operaciones corrientes.",
+        "Es posible solo si lo autoriza el Consejo de Ministros."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 52.1.c) LGP impide que las transferencias minoren créditos extraordinarios o créditos suplementados o ampliados en el ejercicio (con las salvedades de la Seguridad Social y de la sección 06).",
+      "excerpt": "c) No minorarán créditos extraordinarios o créditos que se hayan suplementado o ampliado en el ejercicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.3 LGP",
+      "stem": "Según el artículo 52.3 de la Ley General Presupuestaria, las transferencias de crédito destinadas a crear o aumentar subvenciones nominativas:",
+      "options": [
+        "Están permitidas sin limitación, siempre que sean entre créditos de la misma sección.",
+        "Solo pueden autorizarse por las Cortes Generales.",
+        "En ningún caso podrán realizarse, salvo que sean conformes con la Ley General de Subvenciones o se trate de subvenciones o aportaciones a otros entes del sector público.",
+        "Están permitidas si las autoriza el titular del departamento previo informe de la Intervención Delegada."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 52.3 LGP prohíbe, con carácter general, crear o aumentar subvenciones nominativas mediante transferencias, salvo que se ajusten a la LGS o se destinen a otros entes del sector público.",
+      "excerpt": "En ningún caso las transferencias podrán crear créditos destinados a subvenciones nominativas o aumentar los ya existentes salvo que sean conformes con lo dispuesto en la Ley General de Subvenciones o se trate de subvenciones o aportaciones a otros entes del sector público.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.3 LGP",
+      "stem": "De acuerdo con el artículo 53.3 de la Ley General Presupuestaria, como regla general, la generación de crédito en el presupuesto del Estado solo podrá realizarse:",
+      "options": [
+        "Cuando se haya aprobado el compromiso de gasto que se pretende financiar.",
+        "Cuando lo autorice una ley de las Cortes Generales.",
+        "Cuando el ingreso esté previsto en el presupuesto inicial.",
+        "Cuando se hayan efectuado los correspondientes ingresos que la justifican."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 53.3 LGP condiciona la generación a la realización efectiva del ingreso; solo para organismos autónomos y Seguridad Social, en el supuesto del art. 53.2.a), basta el reconocimiento del derecho o un compromiso firme de aportación.",
+      "excerpt": "La generación sólo podrá realizarse cuando se hayan efectuado los correspondientes ingresos que la justifican.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.4 LGP",
+      "stem": "Un organismo ha recibido ingresos por el reembolso de préstamos que concedió en ejercicios anteriores. Según el artículo 53.4 de la Ley General Presupuestaria, esos ingresos únicamente podrán dar lugar a generaciones en:",
+      "options": [
+        "Cualquier crédito de operaciones corrientes del organismo.",
+        "Los créditos de gastos de personal del organismo.",
+        "Los créditos destinados a inversiones reales.",
+        "Los créditos destinados a la concesión de nuevos préstamos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 53.4 LGP vincula las generaciones por reembolso de préstamos a créditos para conceder nuevos préstamos; las de ventas de bienes y servicios, a gastos de la misma naturaleza.",
+      "excerpt": "Los ingresos procedentes de reembolso de préstamos únicamente podrán dar lugar a generaciones en aquellos créditos destinados a la concesión de nuevos préstamos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.5 LGP",
+      "stem": "Según el artículo 53.5 de la Ley General Presupuestaria, con carácter excepcional, ¿qué ingresos del ejercicio anterior pueden generar crédito en el presupuesto del ejercicio?",
+      "options": [
+        "Los ingresos realizados en el último mes del ejercicio anterior.",
+        "Los ingresos realizados en el último semestre del ejercicio anterior.",
+        "Los ingresos realizados en el último trimestre del ejercicio anterior.",
+        "Ninguno: solo generan crédito los ingresos del propio ejercicio."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 53.5 LGP admite excepcionalmente que generen crédito los ingresos realizados en el último trimestre del ejercicio anterior.",
+      "excerpt": "Con carácter excepcional podrán generar crédito en el Presupuesto del ejercicio los ingresos realizados en el último trimestre del ejercicio anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 54.3 LGP",
+      "stem": "De acuerdo con el artículo 54.3 de la Ley General Presupuestaria, las ampliaciones de crédito que afecten a operaciones del presupuesto del Estado se financiarán:",
+      "options": [
+        "Con cargo al Fondo de Contingencia o con baja en otros créditos del presupuesto no financiero.",
+        "Con Deuda Pública, en todo caso.",
+        "Con cargo al remanente de tesorería del ejercicio anterior.",
+        "Con mayores ingresos sobre los previstos inicialmente."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 54.3 LGP prevé para el Estado el Fondo de Contingencia o la baja en otros créditos no financieros; el remanente de tesorería y los mayores ingresos son vías de los organismos autónomos y de la Seguridad Social.",
+      "excerpt": "Las ampliaciones de crédito que afecten a operaciones del presupuesto del Estado se financiarán con cargo al Fondo de Contingencia, conforme a lo previsto en el artículo 50 de esta ley, o con baja en otros créditos del presupuesto no financiero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 55.1 LGP",
+      "stem": "Un Ministerio debe atender en este ejercicio un gasto corriente inaplazable para el que no existe crédito en su presupuesto, y no cabe atenderlo con transferencia, generación ni ampliación. Según el artículo 55.1 de la Ley General Presupuestaria, procede tramitar:",
+      "options": [
+        "Un suplemento de crédito, financiado con Deuda Pública.",
+        "Un crédito extraordinario, financiado mediante baja en los créditos del Fondo de Contingencia o en otros no financieros que se consideren adecuados.",
+        "Un crédito extraordinario, financiado con Deuda Pública o con baja en créditos de operaciones financieras.",
+        "Una incorporación de crédito, financiada con el remanente de tesorería."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Si no existe crédito adecuado se tramita un crédito extraordinario (si es insuficiente, un suplemento). Para operaciones no financieras se financia con el Fondo de Contingencia u otros créditos no financieros; la Deuda Pública se reserva a las operaciones financieras (art. 55.1 LGP).",
+      "excerpt": "a) Si la necesidad surgiera en operaciones no financieras del presupuesto, el crédito extraordinario o suplementario se financiará mediante baja en los créditos del Fondo de Contingencia o en otros no financieros que se consideren adecuados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 55.2.b) LGP",
+      "stem": "Para pagar una obligación del propio ejercicio, un Ministerio necesita un suplemento de crédito que se financiará con baja en otros créditos de su presupuesto. Según el artículo 55 de la Ley General Presupuestaria, ¿cómo se aprueba?",
+      "options": [
+        "Por acuerdo del Consejo de Ministros, porque se trata de obligaciones del ejercicio corriente.",
+        "Mediante proyecto de ley remitido a las Cortes Generales, previo informe de la Dirección General de Presupuestos y dictamen del Consejo de Estado.",
+        "Por resolución del Ministro de Hacienda, previo informe de la Intervención General.",
+        "Por resolución del titular del Ministerio, previo informe favorable de la Intervención Delegada."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 55.2.b) LGP exige proyecto de ley cuando el crédito extraordinario o suplemento para obligaciones del propio ejercicio se financia con baja en otros créditos; el Consejo de Ministros solo los autoriza cuando se financian con el Fondo de Contingencia (art. 55.3).",
+      "excerpt": "b) Cuando se trate de créditos extraordinarios o suplementarios para atender obligaciones del propio ejercicio cuando se financien con baja en otros créditos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62.1.c) LGP",
+      "stem": "Según el artículo 62 de la Ley General Presupuestaria, ¿a quién corresponde autorizar las incorporaciones de remanentes de crédito reguladas en el artículo 58?",
+      "options": [
+        "Al Consejo de Ministros.",
+        "Al titular de cada Ministerio, previo informe de la Intervención Delegada.",
+        "A las Cortes Generales, mediante ley.",
+        "Al Ministro de Hacienda."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 62.1.c) LGP atribuye al Ministro de Hacienda las incorporaciones de remanentes del art. 58.",
+      "excerpt": "c) Las incorporaciones de remanentes reguladas en el artículo 58.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

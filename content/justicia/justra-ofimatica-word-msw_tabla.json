@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_tabla-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Insertar una tabla (Word)",
+      "url": "https://support.microsoft.com/es-es/word/training/insert-a-table",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Insertar tabla",
+      "stem": "En Word, si ya tiene un texto separado por tabulaciones y quiere convertirlo rápidamente en una tabla, debe resaltar el texto y seleccionar:",
+      "options": [
+        "Disposición > Columnas > Más columnas.",
+        "Inicio > Párrafo > Tabulaciones.",
+        "Insertar > Tabla y, después, Convertir texto en tabla > Aceptar.",
+        "Diseño > Bordes de página."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Desde Insertar > Tabla también puede elegir Insertar tabla o Dibujar tabla.",
+      "excerpt": "Si ya tiene el texto separado por tabulaciones, puede convertirlo rápidamente en una tabla. Resalta el texto que quieres convertir. Seleccione Insertar>tabla y, después, Convertir texto en tabla>Aceptar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

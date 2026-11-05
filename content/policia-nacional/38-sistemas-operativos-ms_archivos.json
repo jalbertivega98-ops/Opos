@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "set": "pn-38-sistemas-operativos-ms_archivos-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 38. Fundamentos de sistemas operativos: sistemas operativos móviles, almacenamiento y sistemas de archivos",
+    "topic_slug": "pn-38-sistemas-operativos",
+    "locale": "es",
+    "category": "pn_38_sistemas_operativos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Sistemas de archivos (NTFS, comparación de funcionalidades, FAT/exFAT/ReFS)",
+      "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Microsoft Learn, Introducción a NTFS",
+      "stem": "Según la documentación de Microsoft, el sistema de archivos predeterminado de los sistemas operativos modernos basados en Windows es:",
+      "options": [
+        "FAT32.",
+        "NTFS.",
+        "APFS."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft presenta NTFS (sistema de archivos de nueva tecnología) como el sistema de archivos predeterminado de Windows, con descriptores de seguridad, cifrado, cuotas de disco y metadatos enriquecidos. APFS es el sistema de archivos de Apple.",
+      "excerpt": "El nuevo sistema de archivos de tecnología (NTFS) es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Sistemas de archivos locales",
+      "stem": "Según la documentación de Microsoft sobre sistemas de archivos, un directorio es:",
+      "options": [
+        "Una agrupación lógica de datos relacionados.",
+        "Una colección jerárquica de directorios y archivos.",
+        "Un disco rígido que almacena grandes cantidades de datos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft distingue volúmenes (colección de directorios y archivos), directorios (colección jerárquica de directorios y archivos) y archivos (agrupación lógica de datos relacionados).",
+      "excerpt": "Directorios : un directorio es una colección jerárquica de directorios y archivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Sistemas de archivos locales",
+      "stem": "Según la documentación de Microsoft, un archivo es:",
+      "options": [
+        "Una colección de directorios y archivos.",
+        "El nivel más alto de organización del sistema de archivos.",
+        "Una agrupación lógica de datos relacionados."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El archivo es una agrupación lógica de datos relacionados; el volumen es una colección de directorios y archivos y constituye el nivel más alto de organización del sistema de archivos.",
+      "excerpt": "Archivos : un archivo es una agrupación lógica de datos relacionados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Sistemas de archivos locales",
+      "stem": "Según la documentación de Microsoft, la función de un sistema de archivos es:",
+      "options": [
+        "Permitir a las aplicaciones almacenar y recuperar archivos en dispositivos de almacenamiento.",
+        "Traducir los nombres de dominio en direcciones IP.",
+        "Asignar automáticamente direcciones IP a los equipos de una red."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Un sistema de archivos permite almacenar y recuperar archivos en dispositivos de almacenamiento, colocados en una estructura jerárquica, y fija las convenciones de nomenclatura y el formato de las rutas de acceso. Traducir nombres de dominio es función del DNS y asignar direcciones IP, del DHCP.",
+      "excerpt": "Un sistema de archivos permite a las aplicaciones almacenar y recuperar archivos en dispositivos de almacenamiento. Los archivos se colocan en una estructura jerárquica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Administración de volúmenes",
+      "stem": "Según la documentación de Microsoft, el nivel más alto de organización del sistema de archivos es:",
+      "options": [
+        "El directorio raíz.",
+        "El volumen.",
+        "El clúster."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft indica que el nivel más alto de organización del sistema de archivos es el volumen y que un sistema de archivos reside en un volumen.",
+      "excerpt": "El nivel más alto de organización del sistema de archivos es el volumen. Un sistema de archivos reside en un volumen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+      "stem": "Según la comparación de sistemas de archivos de Microsoft, ¿cuál es el tamaño de archivo máximo en FAT32?",
+      "options": [
+        "32 GB.",
+        "2^64–1 bytes.",
+        "4 GiB."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En la tabla de límites de Microsoft, NTFS, exFAT y UDF admiten archivos de hasta 2^64–1 bytes, mientras que FAT32 los limita a 4 GiB.",
+      "excerpt": "Tamaño de archivo máximo 2^64–1 bytes 2^64–1 bytes 2^64–1 bytes 4 GiB",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+      "stem": "Según Microsoft, ¿cuáles son los cuatro sistemas de archivos principales de Windows?",
+      "options": [
+        "NTFS, APFS, ext4 y FAT32.",
+        "NTFS, exFAT, UDF y FAT32.",
+        "NTFS, ReFS, HFS+ y FAT16."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La comparación de funcionalidades de Microsoft se refiere a los cuatro sistemas de archivos principales de Windows: NTFS, exFAT, UDF y FAT32. APFS y HFS+ son de Apple y ext4, de Linux.",
+      "excerpt": "los cuatro sistemas de archivos principales de Windows, NTFS, exFAT, UDF y FAT32",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Introducción a NTFS",
+      "stem": "Según Microsoft, NTFS permite asignar permisos detallados a archivos y carpetas mediante:",
+      "options": [
+        "Direcciones MAC.",
+        "Tablas de enrutamiento.",
+        "Listas de control de acceso (ACL)."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "NTFS ofrece control de acceso granular con ACL, que especifican qué usuarios y grupos tienen acceso y de qué tipo (lectura, escritura, modificación).",
+      "excerpt": "Control de acceso granular con ACL: NTFS permite asignar permisos detallados a archivos y carpetas mediante listas de control de acceso (ACL).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Introducción a NTFS",
+      "stem": "Según Microsoft, para proteger los datos confidenciales de los volúmenes, NTFS funciona con el cifrado de unidad:",
+      "options": [
+        "BitLocker.",
+        "FileVault.",
+        "VeraCrypt."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "NTFS se integra con BitLocker, que aplica seguridad basada en hardware como el módulo de plataforma segura (TPM). FileVault es la herramienta de cifrado de Apple.",
+      "excerpt": "Compatibilidad integrada con cifrado de unidad BitLocker: NTFS funciona perfectamente con el cifrado de unidad BitLocker para proteger los datos confidenciales en los volúmenes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Introducción a NTFS",
+      "stem": "Según Microsoft, en Windows Server 2019 y versiones posteriores, y en Windows 10 versión 1709 y posteriores, los volúmenes NTFS pueden alcanzar un tamaño de hasta:",
+      "options": [
+        "256 terabytes (TB).",
+        "8 petabytes (PB).",
+        "16 terabytes (TB)."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En esas versiones NTFS admite volúmenes de hasta 8 PB (con el clúster máximo de 2048 KB); las versiones anteriores de Windows admitían volúmenes de hasta 256 TB.",
+      "excerpt": "En Windows Server 2019 y versiones posteriores, y windows 10 versión 1709 y posteriores, los volúmenes NTFS pueden ser tan grandes como 8 petabytes (PB). Las versiones anteriores de Windows admiten volúmenes de hasta 256 terabytes (TB).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Introducción a NTFS",
+      "stem": "Según Microsoft, si se produce un error del sistema, NTFS restaura automáticamente la coherencia del sistema de archivos durante el siguiente inicio gracias a:",
+      "options": [
+        "Un archivo de registro basado en transacciones e información de punto de control.",
+        "Una copia completa del volumen en la nube.",
+        "La desfragmentación automática del disco."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "NTFS mejora la confiabilidad manteniendo un registro transaccional y puntos de control; además, cuando detecta un sector incorrecto, lo reasigna dinámicamente.",
+      "excerpt": "NTFS mejora la confiabilidad manteniendo un archivo de registro basado en transacciones e información de punto de control.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+      "stem": "Según la comparación de sistemas de archivos de Microsoft, la longitud máxima del nombre de archivo en NTFS es de:",
+      "options": [
+        "8 caracteres más 3 de extensión.",
+        "32 760 caracteres Unicode.",
+        "255 caracteres Unicode."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "NTFS, exFAT y FAT32 admiten nombres de archivo de hasta 255 caracteres Unicode (UDF, 127 Unicode o 254 ASCII). Los 32 760 caracteres son la longitud máxima del nombre de la ruta; el formato 8.3 es el alias de compatibilidad que NTFS conserva para sistemas antiguos.",
+      "excerpt": "Longitud máxima del nombre del archivo 255 caracteres Unicode",
+      "excerpt_status": "completo"
+    }
+  ]
+}

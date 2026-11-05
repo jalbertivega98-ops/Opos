@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 39. Redes informáticas: modelo OSI, TCP/IP, dispositivos de red y direccionamiento IP",
+    "topic_slug": "pn-39-redes",
+    "locale": "es",
+    "created": "2026-11-04",
+    "author": "Selección de artículos literales del BOE (texto consolidado, sin redacción propia); pendiente de revisión humana",
+    "source": {
+      "title": "Microsoft Learn · Modelo OSI, direccionamiento TCP/IP y subredes, DHCP, DNS, IPv6 y Firewall de Windows",
+      "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    }
+  },
+  "outline": [
+    {
+      "n": "1",
+      "title": "El modelo OSI y sus capas"
+    },
+    {
+      "n": "2",
+      "title": "TCP/IP: dirección IP, octetos y máscara de subred"
+    },
+    {
+      "n": "3",
+      "title": "Clases de direcciones IP y subredes; IPv4 e IPv6"
+    },
+    {
+      "n": "4",
+      "title": "Dispositivos de red: router, puerta de enlace, proxy y cortafuegos"
+    },
+    {
+      "n": "5",
+      "title": "Servicios de red: DHCP y DNS"
+    },
+    {
+      "n": "6",
+      "title": "Redes LAN y WAN; dirección MAC"
+    }
+  ],
+  "key_ideas": [
+    "Microsoft Learn, Arquitectura de red de Windows y el modelo OSI Microsoft Learn (redes): «Los sistemas operativos Microsoft Windows usan una arquitectura de red basada en el modelo de redes de siete capas desarrollado por la Organización Internacional de Normalización (ISO) en 1978.»",
+    "Microsoft Learn, Direccionamiento TCP/IP Microsoft Learn (redes): «Una dirección IP es un número de 32 bits. Identifica de forma única un host (equipo u otro dispositivo, como una impresora o enrutador) en una red TCP/IP.»",
+    "Microsoft Learn, DHCP Microsoft Learn (redes): «El Protocolo de configuración dinámica de host (DHCP) es un protocolo cliente-servidor que proporciona automáticamente un host de protocolo de Internet (IP) con su dirección IP y otra información de configuración relacionada, como la máscara de subred y la puerta de enlace de predeterminada.»",
+    "Microsoft Learn, DNS Microsoft Learn (redes): «DNS es un protocolo estándar del sector que asigna nombres de dominio a direcciones IP, lo que permite la resolución de nombres para computadoras y usuarios.»",
+    "Glosario INCIBE, LAN Glosario INCIBE: «Una LAN (del inglés Local Area Network) o Red de Área Local es una red informática de pequeña amplitud geográfica, que suele limitarse a espacios como una oficina, una vivienda o un edificio.»",
+    "Glosario INCIBE, Router Glosario INCIBE: «Es un dispositivo que distribuye tráfico de red entre dos o más diferentes redes.»",
+    "Microsoft Learn, Clases de red Microsoft Learn (redes): «Las redes de clase B usan una máscara de subred predeterminada de 255.255.0.0 y tienen de 128 a 191 como su primer octeto. La dirección 172.16.52.63 es una dirección de clase B.»",
+    "Microsoft Learn, Clases de red Microsoft Learn (redes): «Las redes de clase C usan una máscara de subred predeterminada de 255.255.255.0 y tienen de 192 a 223 como su primer octeto.»",
+    "Microsoft Learn, Máscara de subred Microsoft Learn (redes): «El protocolo TCP/IP usa la máscara de subred para determinar si un host está en la subred local o en una red remota.»",
+    "Microsoft Learn, Puerta de enlace predeterminada Microsoft Learn (redes): «Desde el punto de vista de TCP/IP, un enrutador especificado en un host, que vincula la subred del host con otras redes, se denomina puerta de enlace predeterminada.»",
+    "Microsoft Learn, Modelo OSI: capa física Microsoft Learn (redes): «La capa física es la capa más baja del modelo OSI. Esta capa administra la recepción y transmisión de la secuencia de bits sin procesar no estructurada a través de un medio físico.»",
+    "Glosario INCIBE, Dirección MAC Glosario INCIBE: «Una dirección MAC, también conocida como dirección física, es un valor de 48 bits único e irrepetible que identifica todo dispositivo conectado a una red.»",
+    "Glosario INCIBE, Proxy Glosario INCIBE: «El proxy es tanto el equipo, como el software encargado de dar el servicio, que hacen de intermediario en las peticiones de los equipos de la redes LAN hacia Internet.»",
+    "Glosario INCIBE, Cortafuegos Glosario INCIBE: «La funcionalidad básica de un cortafuego es asegurar que todas las comunicaciones entre la red e Internet se realicen conforme a las políticas de seguridad de la organización o corporación.»",
+    "Glosario INCIBE, TCP/IP Glosario INCIBE: «el protocolo TCP (Transfer Control Protocol), que se ocupa de garantizar que la transferencia se lleve a cabo de forma correcta y confiable.»"
+  ],
+  "glossary": [],
+  "amendments": [],
+  "review_note": "Otras normas citadas: Glosario INCIBE (https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf)"
+}

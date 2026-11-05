@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_update-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Windows Update: Preguntas más frecuentes",
+      "url": "https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/windows-update-faq",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Windows Update · Pausar",
+      "stem": "Según Microsoft, en Windows 11 las actualizaciones de Windows Update:",
+      "options": [
+        "Pueden desactivarse para siempre desde Configuración.",
+        "No se pueden detener por completo, aunque sí pausar temporalmente.",
+        "Solo se instalan si el usuario las busca manualmente.",
+        "Se pueden pausar sin ningún límite de tiempo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Las actualizaciones no pueden detenerse del todo; se pueden pausar, y al alcanzar el límite de pausa hay que instalar las últimas para volver a pausar.",
+      "excerpt": "Las actualizaciones no se pueden detener por completo, porque contribuyen a mantener el dispositivo seguro y protegido",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Windows Update · Horas activas",
+      "stem": "En Windows Update, ¿para qué sirve definir las horas activas?",
+      "options": [
+        "Para limitar las horas en las que el equipo puede conectarse a Internet.",
+        "Para que los reinicios automáticos solo tengan lugar cuando no se está usando el dispositivo.",
+        "Para programar las copias de seguridad de OneDrive.",
+        "Para fijar el horario en el que se reciben notificaciones."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Las horas activas evitan que Windows reinicie el equipo para instalar actualizaciones mientras se está usando.",
+      "excerpt": "Puedes definir las horas activas para asegurarte de que los reinicios automáticos solo tengan lugar cuando no estés usando el dispositivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Windows Update · Conexión de uso medido",
+      "stem": "Según Microsoft, si el equipo usa una conexión de uso medido:",
+      "options": [
+        "Windows Update dejará de funcionar por completo.",
+        "Las actualizaciones se descargarán más rápido.",
+        "Solo se instalarán las actualizaciones de funciones.",
+        "Algunas actualizaciones de Windows no se instalarán automáticamente."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Con una conexión de uso medido, Windows no instala automáticamente algunas actualizaciones para ahorrar datos.",
+      "excerpt": "Si tiene una conexión de uso medido, algunas actualizaciones de Windows no se instalarán automáticamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Windows Update · Historial de actualizaciones",
+      "stem": "Según Microsoft, ¿dónde se puede comprobar qué actualizaciones se instalaron y cuándo, e incluso quitar alguna?",
+      "options": [
+        "En el Administrador de dispositivos.",
+        "En la Papelera de reciclaje.",
+        "En el historial de actualizaciones de Windows Update.",
+        "En el Visor de eventos únicamente."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El historial de actualizaciones (Configuración > Windows Update > Historial de actualizaciones) muestra lo instalado y permite desinstalar actualizaciones, aunque no se recomienda salvo necesidad.",
+      "excerpt": "Está disponible un historial de actualizaciones, donde puedes comprobar qué actualizaciones se instalaron y cuándo lo hicieron. También puedes usar esta lista para quitar actualizaciones específicas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Windows Update · Actualizaciones de calidad",
+      "stem": "Según Microsoft, las actualizaciones de calidad de Windows:",
+      "options": [
+        "Son más frecuentes y principalmente incluyen pequeñas correcciones y actualizaciones de seguridad.",
+        "Se distribuyen una vez cada tres años y cambian la versión de Windows.",
+        "Solo incluyen nuevas funciones visuales.",
+        "Requieren reinstalar Windows desde cero."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Las de calidad son frecuentes (mensuales) y sobre todo corrigen errores y seguridad; las de funciones aportan nuevas capacidades y son menos frecuentes.",
+      "excerpt": "Las actualizaciones de calidad son más frecuentes y principalmente incluyen pequeñas correcciones y actualizaciones de seguridad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

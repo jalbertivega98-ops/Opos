@@ -118,7 +118,11 @@ const AMENDMENTS_SOURCE =
 
 mkdirSync(outDir, { recursive: true });
 let n = 0;
-for (const f of readdirSync(questionsDir).filter((f) => /^[abc]\d-.*\.json$/.test(f))) {
+// Los lotes adicionales de un tema (-lot2, -idees-forca…) comparten ficha con el lote principal.
+const isExtraLot = (f) => /-(lot\d+|idees-forca)\.json$/.test(f);
+for (const f of readdirSync(questionsDir).filter(
+  (f) => /^[abc]\d-.*\.json$/.test(f) && !isExtraLot(f),
+)) {
   const meta = JSON.parse(readFileSync(join(questionsDir, f), "utf8")).meta;
   if (!meta?.topic_slug || meta.locale !== "ca") continue;
   const code = f

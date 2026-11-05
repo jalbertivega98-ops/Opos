@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 38. Fundamentos de sistemas operativos: sistemas operativos móviles, almacenamiento y sistemas de archivos",
+    "topic_slug": "pn-38-sistemas-operativos",
+    "locale": "es",
+    "created": "2026-11-04",
+    "author": "Selección de artículos literales del BOE (texto consolidado, sin redacción propia); pendiente de revisión humana",
+    "source": {
+      "title": "Microsoft Learn · Sistemas de archivos (NTFS, comparación de funcionalidades, FAT/exFAT/ReFS)",
+      "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    }
+  },
+  "outline": [
+    {
+      "n": "1",
+      "title": "Concepto y función de un sistema de archivos"
+    },
+    {
+      "n": "2",
+      "title": "Componentes: volúmenes, directorios y archivos"
+    },
+    {
+      "n": "3",
+      "title": "Sistemas de archivos de Windows: NTFS, exFAT, UDF y FAT32"
+    },
+    {
+      "n": "4",
+      "title": "macOS: APFS y formatos compatibles con Windows"
+    },
+    {
+      "n": "5",
+      "title": "Sistemas operativos móviles: arquitectura de Android"
+    }
+  ],
+  "key_ideas": [
+    "Microsoft Learn, Introducción a NTFS Microsoft Learn (sistemas de archivos): «El nuevo sistema de archivos de tecnología (NTFS) es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows.»",
+    "Apple, Utilidad de Discos: formatos Soporte de Apple, «Formatos del sistema de archivos»: «El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior.»",
+    "Android Developers, Arquitectura de la plataforma Android Developers, «Arquitectura de la plataforma»: «Android es una pila de software de código abierto basado en Linux creada para una variedad amplia de dispositivos y factores de forma.»",
+    "Microsoft Learn, Sistemas de archivos locales Microsoft Learn (sistemas de archivos): «Directorios : un directorio es una colección jerárquica de directorios y archivos.»",
+    "Microsoft Learn, Sistemas de archivos locales Microsoft Learn (sistemas de archivos): «Archivos : un archivo es una agrupación lógica de datos relacionados.»",
+    "Apple, Utilidad de Discos: formatos compatibles con Windows Soporte de Apple, «Formatos del sistema de archivos»: «ExFAT: Se utiliza para los volúmenes de Windows de más de 32 GB.»",
+    "Microsoft Learn, Sistemas de archivos locales Microsoft Learn (sistemas de archivos): «Un sistema de archivos permite a las aplicaciones almacenar y recuperar archivos en dispositivos de almacenamiento. Los archivos se colocan en una estructura jerárquica.»",
+    "Microsoft Learn, Administración de volúmenes Microsoft Learn (sistemas de archivos): «El nivel más alto de organización del sistema de archivos es el volumen. Un sistema de archivos reside en un volumen.»",
+    "Microsoft Learn, Comparación de sistemas de archivos Microsoft Learn (sistemas de archivos): «Tamaño de archivo máximo 2^64–1 bytes 2^64–1 bytes 2^64–1 bytes 4 GiB»",
+    "Microsoft Learn, Comparación de sistemas de archivos Microsoft Learn (sistemas de archivos): «los cuatro sistemas de archivos principales de Windows, NTFS, exFAT, UDF y FAT32»",
+    "Microsoft Learn, Introducción a NTFS Microsoft Learn (sistemas de archivos): «Control de acceso granular con ACL: NTFS permite asignar permisos detallados a archivos y carpetas mediante listas de control de acceso (ACL).»",
+    "Microsoft Learn, Introducción a NTFS Microsoft Learn (sistemas de archivos): «Compatibilidad integrada con cifrado de unidad BitLocker: NTFS funciona perfectamente con el cifrado de unidad BitLocker para proteger los datos confidenciales en los volúmenes.»",
+    "Android Developers, Kernel de Linux Android Developers, «Arquitectura de la plataforma»: «La base de la plataforma de Android es el kernel de Linux. Por ejemplo, el tiempo de ejecución de Android (ART) se basa en el kernel de Linux para funcionalidades subyacentes, como la generación de subprocesos y la administración de memoria de bajo nivel.»",
+    "Android Developers, HAL Android Developers, «Arquitectura de la plataforma»: «La capa de abstracción de hardware (HAL) brinda interfaces estándares que exponen las capacidades de hardware del dispositivo al marco de trabajo de la API de Java de nivel más alto.»",
+    "Apple, Utilidad de Discos: APFS Soporte de Apple, «Formatos del sistema de archivos»: «APFS (mayús./minús): Utiliza el formato APFS y distingue las mayúsculas y minúsculas de los nombres de las carpetas y archivos.»"
+  ],
+  "glossary": [],
+  "amendments": [],
+  "review_note": "Otras normas citadas: Soporte de Apple, «Formatos del sistema de archivos» (https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac), Android Developers, «Arquitectura de la plataforma» (https://developer.android.com/guide/platform?hl=es-419)"
+}

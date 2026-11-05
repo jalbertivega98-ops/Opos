@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-60-supuesto-practico-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Segunda parte · Casos breves al estilo del supuesto práctico (plazos, recursos, situaciones y crédito)",
+    "topic_slug": "age-adm-60-supuesto-practico",
+    "locale": "es",
+    "category": "age_adm_60_supuesto_practico",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 54.1 LGP",
+      "stem": "En octubre, la Subdirección de presupuestos de un departamento advierte que el crédito para pensiones de Clases Pasivas del Estado será insuficiente para atender las obligaciones del ejercicio. Según el artículo 54.1 de la Ley General Presupuestaria, la modificación adecuada es:",
+      "options": [
+        "Un crédito extraordinario, aprobado por ley.",
+        "Una ampliación de crédito, porque esos créditos tienen excepcionalmente la condición de ampliables.",
+        "Una generación de crédito por mayores ingresos.",
+        "Una incorporación de remanentes del ejercicio anterior."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 54.1 LGP declara ampliables los créditos para pensiones de Clases Pasivas, que pueden incrementarse hasta el importe de las obligaciones; se financian con el Fondo de Contingencia o con baja en otros créditos no financieros (art. 54.3).",
+      "excerpt": "Excepcionalmente tendrán la condición de ampliables los créditos destinados al pago de pensiones de Clases Pasivas del Estado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.2.b) LGP",
+      "stem": "Un Ministerio obtiene en el ejercicio ingresos no previstos por la venta de publicaciones editadas por él, y quiere destinarlos a reeditarlas. Según el artículo 53 de la Ley General Presupuestaria, la modificación que procede es:",
+      "options": [
+        "Una transferencia de crédito desde otra sección presupuestaria.",
+        "Un suplemento de crédito financiado con Deuda Pública.",
+        "Una ampliación de crédito, porque todos los créditos de publicaciones son ampliables.",
+        "Una generación de crédito, porque las ventas de bienes y prestación de servicios pueden dar lugar a generaciones."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Las generaciones incrementan créditos por ingresos no previstos (art. 53.1 LGP); entre ellos, las ventas de bienes y prestación de servicios (art. 53.2.b), que solo pueden generar en créditos de gastos de la misma naturaleza (art. 53.4).",
+      "excerpt": "b) Ventas de bienes y prestación de servicios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.1.a) LGP",
+      "stem": "Una Dirección General quiere dar de baja crédito del capítulo 6 «Inversiones reales» para reforzar el capítulo 2 «Gastos corrientes en bienes y servicios» del mismo programa. Según el artículo 52.1 de la Ley General Presupuestaria:",
+      "options": [
+        "Es posible, porque ambos créditos pertenecen al mismo programa.",
+        "Es posible con autorización del titular del departamento, previo informe de la Intervención Delegada.",
+        "No es posible, porque las transferencias no pueden realizarse desde créditos para operaciones de capital a créditos para operaciones corrientes.",
+        "Es posible solo si el importe no supera el 10 % del crédito inicial."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 52.1.a) LGP prohíbe las transferencias desde operaciones financieras al resto y desde operaciones de capital a operaciones corrientes; la operación inversa (de corrientes a capital) sí es posible.",
+      "excerpt": "a) No podrán realizarse desde créditos para operaciones financieras al resto de los créditos, ni desde créditos para operaciones de capital a créditos para operaciones corrientes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

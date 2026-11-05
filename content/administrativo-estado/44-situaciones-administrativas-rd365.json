@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "set": "age-adm-44-situaciones-administrativas-rd365-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "IV.4 Situaciones administrativas de los funcionarios: supuestos y efectos (TREBEP y RD 365/1995)",
+    "topic_slug": "age-adm-44-situaciones-administrativas",
+    "locale": "es",
+    "category": "age_adm_44_situaciones_administrativas",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 365/1995, de 10 de marzo, Reglamento de Situaciones Administrativas de los Funcionarios Civiles de la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8730",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3.c) RD 365/1995",
+      "stem": "Según el artículo 3 del Reglamento de Situaciones Administrativas aprobado por el Real Decreto 365/1995, un funcionario de la Administración General del Estado que se encuentra en comisión de servicios está en situación de:",
+      "options": [
+        "Servicios especiales.",
+        "Servicio en otras Administraciones Públicas.",
+        "Excedencia voluntaria por prestación de servicios en el sector público.",
+        "Servicio activo."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 3.c) del RD 365/1995 incluye expresamente en el servicio activo a quienes se encuentren en comisión de servicios. La comisión no cambia la situación administrativa del funcionario.",
+      "excerpt": "Los funcionarios se hallan en situación de servicio activo: […] c) Cuando se encuentren en comisión de servicios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.i) RD 365/1995",
+      "stem": "Doña Elena cesa el 2 de marzo en su puesto de una Delegación del Gobierno porque ha obtenido otro puesto por concurso en un Ministerio, y aún no ha tomado posesión del nuevo. De acuerdo con el artículo 3 del Real Decreto 365/1995, durante el plazo posesorio se encuentra en situación de:",
+      "options": [
+        "Servicio activo.",
+        "Excedencia forzosa.",
+        "Expectativa de destino.",
+        "Servicios especiales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 3.i) del RD 365/1995 considera en servicio activo a quienes cesan en un puesto por haber obtenido otro mediante procedimientos de provisión, durante el plazo posesorio.",
+      "excerpt": "i) Cuando cesen en un puesto de trabajo por haber obtenido otro mediante procedimientos de provisión de puestos de trabajo, durante el plazo posesorio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 RD 365/1995",
+      "stem": "Don Luis, funcionario en servicios especiales por haber sido nombrado alto cargo, es cesado en ese cargo. De acuerdo con el artículo 9 del Real Decreto 365/1995, ¿en qué plazo debe solicitar el reingreso al servicio activo?",
+      "options": [
+        "En el plazo de diez días hábiles; de no hacerlo, se le declarará en excedencia forzosa.",
+        "En el plazo de tres meses; de no hacerlo, perderá la condición de funcionario.",
+        "En el plazo de un mes; de no hacerlo, se le declarará en excedencia voluntaria por interés particular.",
+        "En cualquier momento, pues los servicios especiales no tienen plazo de reingreso."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 9.1 del RD 365/1995 obliga a pedir el reingreso en un mes desde que se pierde la condición que motivó los servicios especiales; si no se pide, se pasa a excedencia voluntaria por interés particular.",
+      "excerpt": "Quienes pierdan la condición, en virtud de la cual hubieran sido declarados en la situación de servicios especiales deberán solicitar el reingreso al servicio activo en el plazo de un mes, declarándoseles, de no hacerlo en la situación de excedencia voluntaria por interés particular",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.2 RD 365/1995",
+      "stem": "De acuerdo con el artículo 11.2 del Real Decreto 365/1995, a un funcionario de la Administración del Estado que ocupa por concurso un puesto en una comunidad autónoma se le aplica el régimen disciplinario de esta, salvo la separación del servicio, que se acordará por:",
+      "options": [
+        "El órgano competente de la comunidad autónoma, previo dictamen del Consejo de Estado.",
+        "El Consejo de Ministros, a propuesta de la comunidad autónoma.",
+        "El Secretario de Estado de Función Pública, previa incoación por el Ministerio de origen.",
+        "El Ministro del Departamento al que esté adscrito el Cuerpo o Escala del funcionario, previa incoación de expediente por la comunidad autónoma de destino."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 11.2 del RD 365/1995 reserva la separación del servicio al Ministro del Departamento de adscripción del Cuerpo o Escala, aunque el expediente lo incoe la comunidad autónoma de destino. Para los transferidos (art. 10.2) la acuerda la comunidad autónoma.",
+      "excerpt": "con excepción de la sanción de separación del servicio, que se acordará por el Ministro del Departamento al que esté adscrito el Cuerpo o Escala al que pertenezca el funcionario, previa incoación de expediente disciplinario por la Administración de la Comunidad Autónoma de destino.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21.3 RD 365/1995",
+      "stem": "Según el artículo 21 del Real Decreto 365/1995, la suspensión provisional acordada como medida preventiva durante la tramitación de un expediente disciplinario:",
+      "options": [
+        "Podrá acordarla la autoridad que ordenó la incoación del expediente y no podrá exceder de seis meses, salvo paralización del procedimiento imputable al interesado.",
+        "Solo puede acordarla el Consejo de Ministros y no puede exceder de un año.",
+        "Podrá acordarla el instructor y durará hasta la resolución del expediente, sin límite temporal.",
+        "Solo puede acordarse si existe un proceso penal abierto y no puede exceder de tres meses."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 21.3 del RD 365/1995 atribuye la suspensión provisional a la autoridad que ordenó la incoación, con un máximo de seis meses salvo paralización imputable al interesado (en el mismo sentido, art. 98.3 TREBEP).",
+      "excerpt": "La suspensión provisional como medida preventiva durante la tramitación de un expediente disciplinario podrá ser acordada por la autoridad que ordenó la incoación del expediente, no pudiendo exceder esta suspensión de seis meses, salvo en caso de paralización del procedimiento imputable al interesado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.3 RD 365/1995",
+      "stem": "Don Pedro cumple una sanción de suspensión firme de funciones de dos años que le ha supuesto la pérdida del puesto. Según el artículo 22 del Real Decreto 365/1995, ¿cuándo debe solicitar el reingreso al servicio activo?",
+      "options": [
+        "Dentro del mes siguiente a la finalización de la suspensión.",
+        "Con seis meses de antelación a la finalización de la suspensión.",
+        "No necesita solicitarlo: el reingreso se produce de oficio al terminar la sanción.",
+        "Con un mes de antelación a la finalización del período de duración de la suspensión."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 22.3 del RD 365/1995 exige pedir el reingreso un mes antes de que acabe la suspensión; si no lo hace, se le declara de oficio en excedencia voluntaria por interés particular (art. 22.4).",
+      "excerpt": "El funcionario que haya perdido su puesto de trabajo como consecuencia de condena o sanción deberá solicitar el reingreso al servicio activo con un mes de antelación a la finalización del período de duración de la suspensión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23.1 RD 365/1995",
+      "stem": "De acuerdo con el artículo 23 del Real Decreto 365/1995, los cambios de situaciones administrativas de los funcionarios deberán ser siempre comunicados:",
+      "options": [
+        "Al Tribunal de Cuentas.",
+        "Al Registro Central de Personal.",
+        "A la Intervención General de la Administración del Estado.",
+        "A la Comisión Superior de Personal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 23.1 del RD 365/1995 obliga a comunicar siempre los cambios de situación al Registro Central de Personal, y permite que se produzcan sin reingreso previo al servicio activo si se reúnen los requisitos.",
+      "excerpt": "Los cambios de situaciones administrativas deberán ser siempre comunicados al Registro Central de Personal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.1 RD 365/1995",
+      "stem": "Según el artículo 6 del Real Decreto 365/1995, el pase a la situación de servicios especiales se declarará:",
+      "options": [
+        "Solo a instancia del interesado, con efectos desde la fecha de la solicitud.",
+        "Solo de oficio, con efectos desde la fecha de la resolución.",
+        "De oficio o a instancia del interesado, una vez verificado el supuesto que la ocasione, con efectos desde el momento en que se produjo.",
+        "A instancia del interesado, con efectos desde el día siguiente a la publicación en el BOE."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 6.1 del RD 365/1995 admite la declaración de oficio o a instancia y le da efectos retroactivos al momento en que se produjo el supuesto.",
+      "excerpt": "El pase a la situación de servicios especiales se declarará de oficio o a instancia del interesado, una vez verificado el supuesto que la ocasione, con efectos desde el momento en que se produjo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

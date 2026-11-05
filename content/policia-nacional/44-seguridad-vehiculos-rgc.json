@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "set": "pn-44-seguridad-vehiculos-rgc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 44. La seguridad en la conducción de vehículos prioritarios: seguridad activa y pasiva",
+    "topic_slug": "pn-44-seguridad-vehiculos",
+    "locale": "es",
+    "category": "pn_44_seguridad_vehiculos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 1428/2003, de 21 de noviembre, Reglamento General de Circulación (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 116.2 Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, las infracciones a las normas de utilización de los cinturones de seguridad, el casco y otros dispositivos de seguridad de uso obligatorio tienen la consideración de:",
+      "options": [
+        "Leves.",
+        "Graves.",
+        "Muy graves en todo caso."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 116.2 del RGC califica como graves estas infracciones. La falta de instalación de los cinturones o sistemas de retención infantil puede ser grave o muy grave (art. 117.5).",
+      "excerpt": "2. Las infracciones a las normas de utilización de los cinturones de seguridad, el casco y otros dispositivos de seguridad de uso obligatorio previstos en este capítulo tendrán la consideración de graves",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 117.1 Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, deben utilizar sistemas de retención infantil los menores de edad de estatura igual o inferior a:",
+      "options": [
+        "135 centímetros.",
+        "150 centímetros.",
+        "120 centímetros."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 117.1, párrafo segundo, obliga a los menores de edad de estatura igual o inferior a 135 cm a utilizar sistemas de retención infantil.",
+      "excerpt": "En todo caso, los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 117.3 Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, cuando un menor ocupe el asiento delantero de un vehículo con airbag frontal, solo podrá utilizar un sistema de retención orientado hacia atrás:",
+      "options": [
+        "Si el menor pesa más de 9 kilogramos.",
+        "Si el airbag ha sido desactivado.",
+        "En vías urbanas."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 117.3, último párrafo, solo permite el sistema de retención orientado hacia atrás en el asiento delantero con airbag frontal si este ha sido desactivado.",
+      "excerpt": "En caso de que ocupen los asientos delanteros y el vehículo disponga de airbag frontal, únicamente podrán utilizar sistemas de retención orientados hacia atrás si el airbag ha sido desactivado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 118.1.a) Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, los conductores y pasajeros de motocicletas y ciclomotores deben utilizar casco de protección homologado, adecuadamente abrochado:",
+      "options": [
+        "Solo cuando circulen por vías interurbanas.",
+        "Solo cuando circulen a más de 50 km/h.",
+        "Cuando circulen en todo tipo de vías."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 118.1.a) (redacción vigente desde el 1 de octubre de 2026) exige el casco homologado conforme al Reglamento UNECE R22, abrochado, en todo tipo de vías.",
+      "excerpt": "a) Cascos de protección homologados conforme al Reglamento UNECE R22, adecuadamente abrochados, cuando circulen en todo tipo de vías.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 119.2 Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, los conductores y pasajeros de los vehículos en servicios de urgencia están exentos de utilizar el cinturón de seguridad:",
+      "options": [
+        "Cuando circulen en poblado, pero en ningún caso por autopistas, autovías o carreteras convencionales.",
+        "En todo tipo de vías mientras estén de servicio.",
+        "Solo en autopistas y autovías."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 119.2 extiende la exención del cinturón a los vehículos en servicios de urgencia solo cuando circulen en poblado; nunca en autopistas, autovías o carreteras convencionales.",
+      "excerpt": "2. La exención alcanzará igualmente cuando circulen en poblado, pero en ningún caso cuando lo hagan por autopistas, autovías o carreteras convencionales, a los conductores y pasajeros de los vehículos en servicios de urgencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 119.1.a) Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, pueden circular sin el cinturón de seguridad los conductores:",
+      "options": [
+        "Cuando circulen por vías urbanas a menos de 30 km/h.",
+        "Cuando el trayecto sea inferior a cinco kilómetros.",
+        "Al efectuar la maniobra de marcha atrás o de estacionamiento."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 119.1.a) exime del cinturón a los conductores al efectuar la maniobra de marcha atrás o de estacionamiento; no hay exenciones por velocidad baja ni por trayectos cortos.",
+      "excerpt": "a) Los conductores, al efectuar la maniobra de marcha atrás o de estacionamiento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

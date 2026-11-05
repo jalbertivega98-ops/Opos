@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_lupa-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Configuración y uso de la Lupa",
+      "url": "https://support.microsoft.com/es-es/windows/apps/phonelink/setting-up-and-using-magnifier",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Lupa · Acercar y alejar",
+      "stem": "En Windows 11, ¿qué combinación de teclas acerca o aleja la imagen con la Lupa?",
+      "options": [
+        "Ctrl + rueda del ratón en cualquier aplicación.",
+        "Tecla del logotipo de Windows + Más (+) o Menos (-).",
+        "Alt + Más (+) o Menos (-).",
+        "Tecla del logotipo de Windows + Z."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La Lupa se maneja con Windows + Más para acercar y Windows + Menos para alejar.",
+      "excerpt": "Presiona la tecla del logotipo de Windows + Más (+) o Menos (-) para acercar y alejar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Lupa · Cambiar la vista",
+      "stem": "Según Microsoft, ¿qué combinación de teclas cambia la vista de la Lupa entre pantalla completa, lupa flotante y acoplada?",
+      "options": [
+        "Ctrl + Alt + L.",
+        "Tecla Windows + M.",
+        "Ctrl + Alt + M.",
+        "Ctrl + Mayús + M."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl + Alt + M recorre los modos de la Lupa: pantalla completa, lente flotante o acoplada.",
+      "excerpt": "Puedes cambiar la vista de la lupa presionando Ctrl + Alt + M: esto pasará por el modo de pantalla completa, una lupa transparente flotante o acoplada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

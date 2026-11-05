@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "set": "pn-33-seguridad-delincuencia-lsp-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 33. La seguridad: concepto, seguridad pública y privada, seguridad nacional",
+    "topic_slug": "pn-33-seguridad-delincuencia",
+    "locale": "es",
+    "category": "pn_33_seguridad_delincuencia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 5/2014, de 4 de abril, de Seguridad Privada (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 Ley 5/2014",
+      "stem": "Según la Ley 5/2014, de Seguridad Privada, las actividades de seguridad privada tienen la consideración, respecto de la seguridad pública, de:",
+      "options": [
+        "Complementarias y subordinadas.",
+        "Independientes y autónomas.",
+        "Sustitutivas en los espacios privados."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 de la Ley 5/2014 establece que todas estas actividades son complementarias y subordinadas respecto de la seguridad pública.",
+      "excerpt": "Todas estas actividades tienen la consideración de complementarias y subordinadas respecto de la seguridad pública.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.1 Ley 5/2014",
+      "stem": "Según la Ley 5/2014, de Seguridad Privada, la seguridad privada es el conjunto de actividades, servicios, funciones y medidas de seguridad realizados o prestados por:",
+      "options": [
+        "Las Fuerzas y Cuerpos de Seguridad del Estado cuando actúan a petición de particulares.",
+        "Las policías locales en espacios de titularidad privada.",
+        "Empresas de seguridad, despachos de detectives privados y personal de seguridad privada."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 2.1 de la Ley 5/2014 define la seguridad privada atendiendo a quién presta los servicios: empresas de seguridad, despachos de detectives privados y personal de seguridad privada.",
+      "excerpt": "realizadas o prestados por empresas de seguridad, despachos de detectives privados y personal de seguridad privada para hacer frente a actos deliberados o riesgos accidentales",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.c Ley 5/2014",
+      "stem": "Según la Ley 5/2014, uno de los fines de la seguridad privada es:",
+      "options": [
+        "Sustituir a las Fuerzas y Cuerpos de Seguridad en los espacios públicos.",
+        "Complementar el monopolio de la seguridad que corresponde al Estado, como un recurso externo de la seguridad pública.",
+        "Investigar cualquier delito perseguible de oficio."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 4 de la Ley 5/2014 incluye entre los fines de la seguridad privada complementar el monopolio estatal de la seguridad, integrando sus medios como recurso externo de la seguridad pública.",
+      "excerpt": "c) Complementar el monopolio de la seguridad que corresponde al Estado, integrando funcionalmente sus medios y capacidades como un recurso externo de la seguridad pública.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.1.h Ley 5/2014",
+      "stem": "Según la Ley 5/2014, de Seguridad Privada, la investigación privada que constituye actividad de seguridad privada es la relativa a personas, hechos o delitos:",
+      "options": [
+        "Solo perseguibles a instancia de parte.",
+        "Perseguibles de oficio.",
+        "De cualquier clase, siempre que lo autorice el juez."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 5.1.h de la Ley 5/2014 limita la investigación privada a personas, hechos o delitos solo perseguibles a instancia de parte; los perseguibles de oficio corresponden a la policía y a la autoridad judicial.",
+      "excerpt": "h) La investigación privada en relación a personas, hechos o delitos sólo perseguibles a instancia de parte.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

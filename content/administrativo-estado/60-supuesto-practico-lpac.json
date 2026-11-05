@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "set": "age-adm-60-supuesto-practico-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Segunda parte · Casos breves al estilo del supuesto práctico (plazos, recursos, situaciones y crédito)",
+    "topic_slug": "age-adm-60-supuesto-practico",
+    "locale": "es",
+    "category": "age_adm_60_supuesto_practico",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Arts. 68.1 y 30.2 LPAC",
+      "stem": "Doña Rosa solicita a una Confederación Hidrográfica una autorización sin aportar un plano preceptivo. El viernes 2 de octubre de 2026 se le notifica el requerimiento de subsanación del artículo 68.1 de la Ley 39/2015. Teniendo en cuenta que el lunes 12 de octubre es fiesta nacional y que no hay otros festivos, ¿cuál es el último día del plazo?",
+      "options": [
+        "El viernes 16 de octubre de 2026.",
+        "El lunes 19 de octubre de 2026.",
+        "El lunes 12 de octubre de 2026.",
+        "El martes 20 de octubre de 2026."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El plazo de subsanación es de diez días (art. 68.1 LPAC) y son hábiles (art. 30.2): se cuentan desde el lunes 5 de octubre, excluyendo sábados, domingos y el festivo del 12. Días: 5, 6, 7, 8, 9, 13, 14, 15, 16 y 19 de octubre.",
+      "excerpt": "se requerirá al interesado para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.1 LPAC",
+      "stem": "En el caso de la solicitud de autorización a la Confederación Hidrográfica, doña Rosa deja pasar el plazo de subsanación sin aportar el plano. Según el artículo 68.1 de la Ley 39/2015, ¿qué consecuencia tiene?",
+      "options": [
+        "Su solicitud se entenderá estimada por silencio administrativo.",
+        "La Confederación continuará el procedimiento y resolverá con la documentación disponible.",
+        "Se le tendrá por desistida de su petición, previa resolución que deberá dictarse en los términos del artículo 21.",
+        "Se le impondrá una sanción por falta de colaboración con la Administración."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 68.1 LPAC advierte de que, si no se subsana, se tiene al interesado por desistido, mediante resolución que declara esa circunstancia (art. 21.1).",
+      "excerpt": "con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición, previa resolución que deberá ser dictada en los términos previstos en el artículo 21.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 121.1 y 122.1 LPAC",
+      "stem": "Un Subdirector General dicta una resolución desfavorable a un ciudadano, que no pone fin a la vía administrativa. De acuerdo con los artículos 121 y 122 de la Ley 39/2015, el interesado podrá interponer:",
+      "options": [
+        "Recurso de alzada ante el órgano superior jerárquico del que dictó el acto, en el plazo de un mes.",
+        "Recurso potestativo de reposición ante el mismo Subdirector General, en el plazo de un mes.",
+        "Recurso contencioso-administrativo directamente, en el plazo de dos meses.",
+        "Recurso extraordinario de revisión, en el plazo de tres meses."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Los actos que no ponen fin a la vía administrativa se recurren en alzada ante el superior jerárquico (art. 121.1 LPAC), en el plazo de un mes si el acto es expreso (art. 122.1).",
+      "excerpt": "Las resoluciones y actos a que se refiere el artículo 112.1, cuando no pongan fin a la vía administrativa, podrán ser recurridos en alzada ante el órgano superior jerárquico del que los dictó. […] El plazo para la interposición del recurso de alzada será de un mes, si el acto fuera expreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 114.2.c) y 123.1 LPAC",
+      "stem": "La Directora General de un Ministerio, en ejercicio de sus competencias en materia de personal, deniega a un funcionario una reducción de jornada. Según los artículos 114.2 y 123.1 de la Ley 39/2015, frente a esa resolución el funcionario podrá:",
+      "options": [
+        "Interponer únicamente recurso de alzada ante el Subsecretario.",
+        "Interponer recurso de alzada ante el Ministro y, después, recurso de reposición.",
+        "Interponer recurso extraordinario de revisión ante el Consejo de Ministros.",
+        "Interponer potestativamente recurso de reposición ante la misma Directora General o acudir directamente a la vía contencioso-administrativa."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En el ámbito estatal ponen fin a la vía administrativa los actos de los órganos directivos con nivel de Director general o superior en materia de personal (art. 114.2.c); contra ellos cabe reposición potestativa o contencioso (art. 123.1).",
+      "excerpt": "c) Los emanados de los órganos directivos con nivel de Director general o superior, en relación con las competencias que tengan atribuidas en materia de personal. […] Los actos administrativos que pongan fin a la vía administrativa podrán ser recurridos potestativamente en reposición ante el mismo órgano que los hubiera dictado o ser impugnados directamente ante el orden jurisdiccional contencioso-administrativo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 122.1 LPAC",
+      "stem": "Una empresa presentó una solicitud ante una Dirección General; ha vencido el plazo máximo para resolver sin notificación y, por norma con rango de ley, el silencio es desestimatorio. Según el artículo 122.1 de la Ley 39/2015, ¿cuándo puede interponer recurso de alzada?",
+      "options": [
+        "En el plazo de un mes desde el vencimiento del plazo para resolver.",
+        "En cualquier momento a partir del día siguiente a aquel en que se produzcan los efectos del silencio administrativo.",
+        "En el plazo de tres meses desde la presentación de la solicitud.",
+        "Solo cuando la Administración dicte resolución expresa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Si el acto no es expreso, el art. 122.1 LPAC permite interponer la alzada en cualquier momento desde el día siguiente a la producción de los efectos del silencio.",
+      "excerpt": "Si el acto no fuera expreso el solicitante y otros posibles interesados podrán interponer recurso de alzada en cualquier momento a partir del día siguiente a aquel en que, de acuerdo con su normativa específica, se produzcan los efectos del silencio administrativo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 115.2 LPAC",
+      "stem": "Un ciudadano titula su escrito «recurso de reposición» contra un acto de un Subdirector General que no pone fin a la vía administrativa. De acuerdo con el artículo 115.2 de la Ley 39/2015:",
+      "options": [
+        "El error en la calificación no impide su tramitación, siempre que se deduzca su verdadero carácter, por lo que se tramitará como recurso de alzada.",
+        "Debe inadmitirse, porque el recurso de reposición solo cabe contra actos que ponen fin a la vía administrativa.",
+        "Debe tramitarse como recurso de reposición y resolverlo el propio Subdirector General.",
+        "Debe devolverse al ciudadano para que lo califique correctamente en el plazo de diez días."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 115.2 LPAC establece que el error o la ausencia de calificación del recurso no impide tramitarlo si se deduce su verdadero carácter.",
+      "excerpt": "El error o la ausencia de la calificación del recurso por parte del recurrente no será obstáculo para su tramitación, siempre que se deduzca su verdadero carácter.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 116.a) LPAC",
+      "stem": "Un interesado dirige a un Ministerio un recurso de alzada contra un acto dictado por una consejería de una comunidad autónoma. Según el artículo 116 de la Ley 39/2015:",
+      "options": [
+        "El Ministerio deberá resolverlo, porque el recurso de alzada puede presentarse ante cualquier Administración.",
+        "Es causa de inadmisión, y el Ministerio debe archivarlo sin más trámite.",
+        "Es causa de inadmisión por incompetencia del órgano, y el recurso deberá remitirse al órgano competente.",
+        "El Ministerio debe suspender el acto y requerir a la comunidad autónoma el expediente."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 116.a) LPAC considera causa de inadmisión que el órgano sea incompetente cuando el competente pertenezca a otra Administración, pero obliga a remitir el recurso al órgano competente (art. 14.1 LRJSP).",
+      "excerpt": "a) Ser incompetente el órgano administrativo, cuando el competente perteneciera a otra Administración Pública. El recurso deberá remitirse al órgano competente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 117.3 LPAC",
+      "stem": "Un interesado interpone recurso de alzada y pide en él la suspensión de la ejecución del acto. Ha pasado un mes desde que la solicitud de suspensión entró en el registro electrónico del órgano competente para resolver, sin que se haya dictado y notificado resolución sobre ella. Según el artículo 117.3 de la Ley 39/2015:",
+      "options": [
+        "La solicitud de suspensión se entenderá desestimada.",
+        "El recurso de alzada se entenderá estimado.",
+        "El interesado deberá esperar a que transcurran tres meses para entender suspendido el acto.",
+        "La ejecución del acto impugnado se entenderá suspendida."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 117.3 LPAC establece un silencio positivo específico: si en un mes no se resuelve la solicitud de suspensión, la ejecución se entiende suspendida.",
+      "excerpt": "La ejecución del acto impugnado se entenderá suspendida si transcurrido un mes desde que la solicitud de suspensión haya tenido entrada en el registro electrónico de la Administración u Organismo competente para decidir sobre la misma, el órgano a quien competa resolver el recurso no ha dictado y notificado resolución expresa al respecto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 123.2 LPAC",
+      "stem": "Un funcionario interpone recurso potestativo de reposición contra una resolución del Subsecretario que pone fin a la vía administrativa y, a los pocos días, quiere presentar también recurso contencioso-administrativo. Según el artículo 123.2 de la Ley 39/2015:",
+      "options": [
+        "No podrá interponerlo hasta que la reposición se resuelva expresamente o se produzca su desestimación presunta.",
+        "Puede interponerlo de inmediato, porque ambos recursos son compatibles.",
+        "Debe desistir primero de la reposición, sin más requisitos.",
+        "Puede interponerlo solo si han pasado diez días desde la reposición."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 123.2 LPAC impide acudir al contencioso mientras no se resuelva la reposición o se produzca su desestimación presunta (un mes, art. 124.2).",
+      "excerpt": "No se podrá interponer recurso contencioso-administrativo hasta que sea resuelto expresamente o se haya producido la desestimación presunta del recurso de reposición interpuesto.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

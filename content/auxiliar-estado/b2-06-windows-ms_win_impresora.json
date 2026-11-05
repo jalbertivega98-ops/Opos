@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_impresora-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Establecer una impresora predeterminada en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Impresora predeterminada",
+      "stem": "Según Microsoft, si se activa en Windows la opción «Permitir que Windows administre mi impresora predeterminada»:",
+      "options": [
+        "Windows seleccionará automáticamente como predeterminada la última impresora usada.",
+        "Windows elegirá siempre la impresora más cercana por red.",
+        "Se eliminarán las impresoras que no se usen en treinta días.",
+        "Se imprimirá siempre en PDF salvo que se indique otra impresora."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Con esa opción activada, la impresora predeterminada pasa a ser la última que se usó.",
+      "excerpt": "activar Permitir que Windows administre mi impresora predeterminada, para que Windows seleccione automáticamente la última impresora que usaste.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

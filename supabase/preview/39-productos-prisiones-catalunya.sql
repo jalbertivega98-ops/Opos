@@ -7,6 +7,7 @@
 --   1 h 30 min, nota de 0 a 15 y mínimo 7,5. Cada error resta 1/4 del valor de un acierto.
 -- * 2.º ejercicio, supòsit pràctic tipus test: 25 preguntas sobre los temas 5, 6 y 8-18, 1 h 30 min, nota de 0 a
 --   20 y mínimo 10, misma penalización.
+-- El simulacro de 60 usa config.quotas (migración 20261105000100_mock_quotas, preview 42a-): 15 de pcat-g y 45 de pcat-e.
 -- Sin psicotécnico puntuable (base 4.7): la oposición no está en examHasPsycho (ADR-031).
 begin;
 
@@ -30,9 +31,9 @@ select v.slug, v.type::public.product_type, 'draft', v.title, v.title_ca, v.desc
     ('serveis-penitenciaris-catalunya', 'pcat-simulacre-test-2026', 'mock_exam',
      'Prisiones de Cataluña · Simulacro del test de conocimientos (60 preguntas)',
      'Presons de Catalunya · Simulacre del test de coneixements (60 preguntes)',
-     '60 preguntas de 4 opciones de todo el temario, como el primer ejercicio. Cada error resta 1/4 de acierto y en blanco no resta. Nota de 0 a 15; el mínimo oficial es 7,5. 90 minutos.',
-     '60 preguntes de 4 opcions de tot el temari, com el primer exercici. Cada error resta 1/4 d''encert i en blanc no resta. Nota de 0 a 15; el mínim oficial és 7,5. 90 minuts.',
-     '{"questions":60,"minutes":90,"penalty":0.25,"pass_mark":7.5,"max_mark":15,"topic_prefix":"pcat-","locale":"ca"}'),
+     '60 preguntas de 4 opciones, como el primer ejercicio: 15 de la parte general y 45 de la específica. Cada error resta 1/4 de acierto y en blanco no resta. Nota de 0 a 15; el mínimo oficial es 7,5. 90 minutos.',
+     '60 preguntes de 4 opcions, com el primer exercici: 15 de la part general i 45 de l''específica. Cada error resta 1/4 d''encert i en blanc no resta. Nota de 0 a 15; el mínim oficial és 7,5. 90 minuts.',
+     '{"questions":60,"minutes":90,"penalty":0.25,"pass_mark":7.5,"max_mark":15,"topic_prefix":"pcat-","locale":"ca","quotas":[{"topic_prefix":"pcat-g","questions":15},{"topic_prefix":"pcat-e","questions":45}]}'),
     ('serveis-penitenciaris-catalunya', 'pcatsup-simulacre-suposit-2026', 'mock_exam',
      'Prisiones de Cataluña · Simulacro del supuesto práctico (25 preguntas)',
      'Presons de Catalunya · Simulacre del supòsit pràctic (25 preguntes)',

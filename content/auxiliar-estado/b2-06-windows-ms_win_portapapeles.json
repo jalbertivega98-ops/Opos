@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_portapapeles-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Usar el Portapapeles",
+      "url": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Usar el Portapapeles · Activar el historial",
+      "stem": "Según Microsoft, para activar por primera vez el historial del Portapapeles en Windows 11 se debe:",
+      "options": [
+        "Pulsar Ctrl + Mayús + V y seleccionar Activar.",
+        "Pulsar la tecla del logotipo de Windows + C y seleccionar Historial.",
+        "Pulsar la tecla del logotipo de Windows + V y seleccionar Activar.",
+        "Abrir el Explorador de archivos y elegir Portapapeles en la cinta."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El historial del Portapapeles se abre con Windows + V; la primera vez hay que seleccionar Activar.",
+      "excerpt": "Para activar el Portapapeles por primera vez, selecciona la tecla del logotipo de Windows+ V y luego Activar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Usar el Portapapeles · Límite de entradas",
+      "stem": "Según Microsoft, el historial del Portapapeles de Windows tiene un límite de:",
+      "options": [
+        "10 entradas copiadas; los anclados también se quitan al llegar al límite.",
+        "50 entradas copiadas, que se conservan aunque se reinicie el equipo.",
+        "100 entradas copiadas, sincronizadas siempre con la nube.",
+        "25 entradas copiadas; los elementos antiguos no anclados se quitan automáticamente."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El historial guarda 25 entradas; al llegar al límite se eliminan las más antiguas salvo las ancladas.",
+      "excerpt": "El historial del Portapapeles tiene un límite de 25 entradas copiadas. Los elementos antiguos, a menos que estén anclados, se quitan automáticamente para dejar espacio para nuevos elementos del Portapapeles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Usar el Portapapeles · Tamaño y formatos",
+      "stem": "De acuerdo con Microsoft, ¿qué limitaciones tienen los elementos del historial del Portapapeles?",
+      "options": [
+        "Un tamaño máximo de 1 MB por elemento, solo en formato de texto.",
+        "Un tamaño máximo de 4 MB por elemento, en formatos de texto, HTML y mapa de bits.",
+        "Un tamaño máximo de 25 MB por elemento, en cualquier formato de archivo.",
+        "Un tamaño máximo de 4 MB por elemento, solo en formatos de imagen."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Microsoft limita cada elemento a 4 MB y admite texto, HTML y mapa de bits.",
+      "excerpt": "Las limitaciones de tamaño son 4 MB por elemento. Se admiten los formatos de archivo de texto, HTML y mapa de bits.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Usar el Portapapeles · Reinicio",
+      "stem": "Según Microsoft, ¿qué ocurre con el historial del Portapapeles cada vez que se reinicia el PC?",
+      "options": [
+        "Se borra, excepto los elementos que se hayan anclado.",
+        "Se conserva íntegro hasta que el usuario lo borre manualmente.",
+        "Se borra por completo, incluidos los elementos anclados.",
+        "Se mueve automáticamente a OneDrive."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El historial se borra en cada reinicio; solo se mantienen los elementos anclados.",
+      "excerpt": "El historial del Portapapeles se borra cada vez que reinicias el PC, excepto los elementos que hayas anclado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Usar el Portapapeles · Borrar",
+      "stem": "Al borrar los datos del Portapapeles desde Inicio > Configuración > Sistema > Portapapeles, según Microsoft se borra todo:",
+      "options": [
+        "Incluidos los elementos anclados, pero solo en el dispositivo.",
+        "Excepto los elementos copiados en las últimas 24 horas.",
+        "Solo en la nube, manteniendo la copia del dispositivo.",
+        "Excepto los elementos anclados, en el dispositivo y en la nube."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La opción Borrar elimina todo salvo los elementos anclados, tanto en el dispositivo como en la nube.",
+      "excerpt": "Puede borrar rápidamente todo (excepto los elementos anclados) en el dispositivo y en la nube.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

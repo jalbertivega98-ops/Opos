@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_restaurar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Restauración del sistema",
+      "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/system-restore",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Restauración del sistema · Archivos personales",
+      "stem": "Según Microsoft, al usar Restaurar sistema en Windows para deshacer cambios recientes:",
+      "options": [
+        "Se borran los documentos creados después del punto de restauración.",
+        "No se ven afectados los archivos personales.",
+        "Se reinstala Windows desde cero.",
+        "Se eliminan todas las cuentas de usuario."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Restaurar sistema deshace cambios como instalaciones de software, controladores o configuración sin afectar a los archivos personales.",
+      "excerpt": "Al usar Restaurar sistema, puede deshacer estos cambios sin afectar a sus archivos personales",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Restauración del sistema · Qué revierte",
+      "stem": "Según Microsoft, al aplicar un punto de restauración, Restaurar sistema revierte:",
+      "options": [
+        "Los archivos personales de la carpeta Documentos.",
+        "Los archivos de sistema, la configuración del Registro y los programas instalados.",
+        "El correo electrónico y los contactos.",
+        "Las fotos y vídeos sincronizados con OneDrive."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Revierte archivos de sistema, Registro y programas instalados al estado del momento en que se creó el punto de restauración.",
+      "excerpt": "Restaurar sistema revierte los archivos de sistema, la configuración del Registro y los programas instalados al estado que estaban en el momento en que se creó el punto de restauración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Restauración del sistema · rstrui.exe",
+      "stem": "Según Microsoft, ¿qué se escribe en el cuadro Ejecutar (tecla Windows + R) para abrir Restaurar sistema?",
+      "options": [
+        "rstrui.exe",
+        "msconfig.exe",
+        "regedit.exe",
+        "cleanmgr.exe"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Microsoft indica escribir rstrui.exe; también puede abrirse desde Panel de control > Recuperación > Abrir Restaurar sistema.",
+      "excerpt": "escriba rstrui.exe y presione Enter.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Restauración del sistema · Puntos de restauración",
+      "stem": "Según Microsoft, los puntos de restauración que utiliza Restaurar sistema son:",
+      "options": [
+        "Copias completas de todos los archivos del usuario en OneDrive.",
+        "Imágenes del disco creadas solo manualmente por el usuario.",
+        "Versiones anteriores de cada documento de Office.",
+        "Instantáneas de la configuración y las opciones del sistema en un momento específico."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Son instantáneas de la configuración del sistema; Windows puede crearlas automáticamente (instalaciones, actualizaciones) o manualmente.",
+      "excerpt": "Restaurar sistema funciona mediante la utilización de puntos de restauración, que son instantáneas de la configuración y las opciones del sistema en un momento específico.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "set": "pn-39-redes-incibe_glosario-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 39. Redes informáticas: modelo OSI, TCP/IP, dispositivos de red y direccionamiento IP",
+    "topic_slug": "pn-39-redes",
+    "locale": "es",
+    "category": "pn_39_redes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Glosario de términos de ciberseguridad: una guía de aproximación para el empresario (2021)",
+      "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Glosario INCIBE, LAN",
+      "stem": "Según INCIBE, una red informática de pequeña amplitud geográfica, que suele limitarse a espacios como una oficina, una vivienda o un edificio, es una:",
+      "options": [
+        "WAN o red de área extensa.",
+        "LAN o red de área local.",
+        "VPN o red privada virtual."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "INCIBE define la LAN (Local Area Network) como red de pequeña amplitud geográfica, cableada o inalámbrica. Una WAN, según Microsoft, es una colección de redes más pequeñas separadas por enrutadores.",
+      "excerpt": "Una LAN (del inglés Local Area Network) o Red de Área Local es una red informática de pequeña amplitud geográfica, que suele limitarse a espacios como una oficina, una vivienda o un edificio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE, Router",
+      "stem": "Según INCIBE, el dispositivo que distribuye tráfico de red entre dos o más redes diferentes, y que también se conoce como enrutador o encaminador, es el:",
+      "options": [
+        "Router.",
+        "Proxy.",
+        "Switch."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "INCIBE define el router como el dispositivo que distribuye tráfico entre dos o más redes (generalmente LAN o WAN) y decide la ruta de los paquetes; sus sinónimos son enrutador, encaminador y rúter.",
+      "excerpt": "Es un dispositivo que distribuye tráfico de red entre dos o más diferentes redes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE, Dirección MAC",
+      "stem": "Según INCIBE, la dirección MAC, también conocida como dirección física, es:",
+      "options": [
+        "Un valor de 48 bits único que se escribe en el hardware del interfaz de red en el momento de su fabricación.",
+        "Un número de 32 bits asignado por el servidor DHCP cada vez que el equipo se conecta.",
+        "Un nombre de dominio asociado a una dirección IP pública."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "INCIBE define la dirección MAC (Media Access Control, control de acceso al medio) como un valor de 48 bits único a nivel mundial, grabado en el hardware de la interfaz de red.",
+      "excerpt": "Una dirección MAC, también conocida como dirección física, es un valor de 48 bits único e irrepetible que identifica todo dispositivo conectado a una red.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE, Proxy",
+      "stem": "Según INCIBE, el equipo y el software que hacen de intermediario en las peticiones de los equipos de las redes LAN hacia Internet, centralizando el tráfico entre Internet y una red privada, es el:",
+      "options": [
+        "Router.",
+        "Servidor DHCP.",
+        "Proxy."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El proxy evita que cada máquina de la red privada necesite una conexión directa a Internet y una IP pública, y puede proporcionar mecanismos de seguridad como un cortafuegos.",
+      "excerpt": "El proxy es tanto el equipo, como el software encargado de dar el servicio, que hacen de intermediario en las peticiones de los equipos de la redes LAN hacia Internet.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE, Cortafuegos",
+      "stem": "Según INCIBE, la funcionalidad básica de un cortafuegos (firewall) es:",
+      "options": [
+        "Asignar direcciones IP a los equipos de la red local.",
+        "Asegurar que todas las comunicaciones entre la red e Internet se realicen conforme a las políticas de seguridad de la organización.",
+        "Almacenar copias de seguridad de los datos de la organización."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "INCIBE define el cortafuegos como un sistema de software o hardware situado en los puntos limítrofes de una red que permite y limita el flujo de tráfico según un conjunto de normas.",
+      "excerpt": "La funcionalidad básica de un cortafuego es asegurar que todas las comunicaciones entre la red e Internet se realicen conforme a las políticas de seguridad de la organización o corporación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE, TCP/IP",
+      "stem": "Según INCIBE, dentro de la familia de protocolos TCP/IP, el protocolo que se ocupa de garantizar que la transferencia se lleve a cabo de forma correcta y confiable es:",
+      "options": [
+        "TCP.",
+        "IP.",
+        "ICMP."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "En TCP/IP, el protocolo IP transfiere los paquetes de datos hasta su destino correcto y el TCP garantiza que la transferencia sea correcta y confiable. La familia incluye también ICMP, UDP, DNS, HTTP y FTP.",
+      "excerpt": "el protocolo TCP (Transfer Control Protocol), que se ocupa de garantizar que la transferencia se lleve a cabo de forma correcta y confiable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE, Dirección IP",
+      "stem": "Según INCIBE, en comparación con las direcciones IPv4, las direcciones IP en su versión v6 son:",
+      "options": [
+        "Hasta 4 veces más largas, más seguras y permiten un gran número de sistemas conectados a Internet.",
+        "Más cortas, porque solo usan números del 0 al 255.",
+        "Idénticas en longitud, pero escritas en formato hexadecimal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "INCIBE explica que una IPv4 es un conjunto de cuatro números del 0 al 255 separados por puntos, mientras que las IPv6 son mucho más complejas, hasta 4 veces más largas (ejemplo: 2001:0db8:3c4d:0015:0000:0000:1a2f:1a2b).",
+      "excerpt": "En su versión v6, las direcciones IP son mucho más complejas, siendo hasta 4 veces más largas, más seguras y permitiendo un gran número de sistemas conectados a Internet.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

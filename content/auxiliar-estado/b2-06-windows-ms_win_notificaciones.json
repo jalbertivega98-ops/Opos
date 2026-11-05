@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_notificaciones-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Notificaciones y No molestar en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/notifications-and-do-not-disturb-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Notificaciones · Abrir el centro",
+      "stem": "En Windows 11, ¿qué combinación de teclas abre el centro de notificaciones junto con el calendario?",
+      "options": [
+        "Tecla Windows + A.",
+        "Tecla Windows + W.",
+        "Tecla Windows + N.",
+        "Tecla Windows + I."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Windows + N abre el centro de notificaciones y el calendario; también puede abrirse seleccionando el reloj o la campana de la barra de tareas.",
+      "excerpt": "Presione la tecla + de Windows N",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Notificaciones · No molestar manual",
+      "stem": "Según Microsoft, para activar manualmente No molestar en Windows 11 hay que:",
+      "options": [
+        "Pulsar la tecla Windows + L.",
+        "Abrir el centro de notificaciones y seleccionar el icono de campana con zZ.",
+        "Desactivar la conexión Wi-Fi en la Configuración rápida.",
+        "Abrir el Administrador de tareas y detener las notificaciones."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El botón de campana con zZ del centro de notificaciones activa No molestar hasta que se desactive manualmente.",
+      "excerpt": "Para activar manualmente la opción No molestar, abre el centro de notificaciones y selecciona el icono de campana con zZ . Esto silenciará todas las notificaciones hasta que lo desactives manualmente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Notificaciones · Efectos de No molestar",
+      "stem": "Con No molestar activado en Windows 11, según Microsoft:",
+      "options": [
+        "Solo se reciben banners de alarmas, recordatorios y aplicaciones elegidas; el resto de notificaciones va al centro de notificaciones.",
+        "Se eliminan todas las notificaciones recibidas mientras está activo.",
+        "Se bloquean también las alarmas y los recordatorios.",
+        "Se reciben todos los banners, pero sin sonido."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "No molestar deja pasar solo alarmas, recordatorios y las aplicaciones elegidas; lo demás se guarda en el centro de notificaciones para revisarlo después.",
+      "excerpt": "Con No molestar activado, solo recibirá banners de alarmas, recordatorios y aplicaciones de su elección. Otras notificaciones se envían directamente al centro de notificaciones hasta que lo desactives.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Notificaciones · Prioridad",
+      "stem": "Según Microsoft, al configurar la prioridad de las notificaciones de una aplicación en Windows 11:",
+      "options": [
+        "Se puede elegir Alta, Media o Baja, sin límite de aplicaciones en cada nivel.",
+        "Solo se puede elegir entre Activada o Desactivada.",
+        "Se puede elegir Superior, Alta o Normal, y solo una aplicación puede tener la máxima prioridad.",
+        "Se puede elegir Superior o Normal, y hasta tres aplicaciones pueden tener la máxima prioridad."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Hay tres niveles (Superior, Alta y Normal); solo una aplicación puede ser de máxima prioridad y las de prioridad alta aparecen sobre las normales.",
+      "excerpt": "Prioridad de las notificaciones: establezca la prioridad en Superior, Alta o Normal. Solo se puede establecer una aplicación como de máxima prioridad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Notificaciones · No molestar automático",
+      "stem": "¿Cuál de las siguientes NO figura entre las condiciones para activar automáticamente No molestar que cita Microsoft para Windows 11?",
+      "options": [
+        "Durante cierta hora del día.",
+        "Al duplicar la pantalla.",
+        "Cuando se usa una aplicación en modo de pantalla completa.",
+        "Al conectarse a una red Wi-Fi pública."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Las condiciones citadas son: cierta hora del día, duplicar la pantalla, jugar a un juego, aplicación en pantalla completa y la primera hora tras una actualización de características.",
+      "excerpt": "Durante cierta hora del día […] Al duplicar la pantalla […] Al jugar a un juego […] Cuando se usa una aplicación en modo de pantalla completa […] Durante la primera hora después de una actualización de características de Windows",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Notificaciones · Pantalla de bloqueo",
+      "stem": "¿Qué opción de la configuración de notificaciones de cada aplicación evita que se muestren notificaciones confidenciales en la pantalla de bloqueo?",
+      "options": [
+        "Ocultar contenido cuando las notificaciones están en la pantalla de bloqueo.",
+        "Mostrar banners de notificación.",
+        "Reproducir un sonido.",
+        "Mostrar notificaciones en el centro de notificaciones."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Esa opción oculta el contenido de las notificaciones mientras el equipo está bloqueado.",
+      "excerpt": "Ocultar contenido cuando las notificaciones están en la pantalla de bloqueo: evitar que se muestren notificaciones confidenciales en la pantalla de bloqueo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

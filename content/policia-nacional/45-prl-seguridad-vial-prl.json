@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "set": "pn-45-prl-seguridad-vial-prl-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 45. Prevención de riesgos laborales en seguridad vial: factores del tráfico y riesgos en la conducción",
+    "topic_slug": "pn-45-prl-seguridad-vial",
+    "locale": "es",
+    "category": "pn_45_prl_seguridad_vial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4.2.º Ley 31/1995",
+      "stem": "Según la Ley 31/1995, de Prevención de Riesgos Laborales, para calificar un riesgo laboral desde el punto de vista de su gravedad se valorarán conjuntamente:",
+      "options": [
+        "La probabilidad de que se produzca el daño y la severidad del mismo.",
+        "El número de trabajadores expuestos y la duración de la exposición.",
+        "El coste económico del daño y su frecuencia histórica."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 4.2.º de la Ley 31/1995 define el riesgo laboral como la posibilidad de que un trabajador sufra un daño derivado del trabajo y manda valorar conjuntamente la probabilidad y la severidad del daño. Se aplica también a los riesgos de la conducción en el trabajo.",
+      "excerpt": "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo. Para calificar un riesgo desde el punto de vista de su gravedad, se valorarán conjuntamente la probabilidad de que se produzca el daño y la severidad del mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.8.º Ley 31/1995",
+      "stem": "Según la Ley 31/1995, de Prevención de Riesgos Laborales, se entenderá por equipo de protección individual:",
+      "options": [
+        "Cualquier máquina, aparato o instrumento utilizado en el trabajo.",
+        "Cualquier medida técnica que proteja de forma colectiva a los trabajadores.",
+        "Cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud en el trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 4.8.º define el EPI como equipo llevado o sujetado por el trabajador para protegerle, junto con sus complementos o accesorios. Las máquinas o aparatos son «equipo de trabajo» (art. 4.6.º).",
+      "excerpt": "8.º Se entenderá por «equipo de protección individual» cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud en el trabajo, así como cualquier complemento o accesorio destinado a tal fin.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2 Ley 31/1995",
+      "stem": "Según la Ley 31/1995, de Prevención de Riesgos Laborales, los equipos de protección individual deberán utilizarse:",
+      "options": [
+        "Siempre, con preferencia sobre cualquier medida de protección colectiva.",
+        "Solo cuando así lo solicite el trabajador afectado.",
+        "Cuando los riesgos no se puedan evitar o no puedan limitarse suficientemente por medios técnicos de protección colectiva o mediante medidas de organización del trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 17.2 configura el EPI como medida subsidiaria, coherente con el principio de anteponer la protección colectiva a la individual (art. 15.1.h).",
+      "excerpt": "Los equipos de protección individual deberán utilizarse cuando los riesgos no se puedan evitar o no puedan limitarse suficientemente por medios técnicos de protección colectiva o mediante medidas, métodos o procedimientos de organización del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.1 Ley 31/1995",
+      "stem": "Según la Ley 31/1995, de Prevención de Riesgos Laborales, ¿cuál de los siguientes es un principio general de la acción preventiva?",
+      "options": [
+        "Adoptar medidas que antepongan la protección colectiva a la individual.",
+        "Anteponer la protección individual a la colectiva.",
+        "Evaluar todos los riesgos, incluidos los que se hayan podido evitar."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15.1 enumera, entre otros, evitar los riesgos, evaluar los que no se puedan evitar, combatirlos en su origen y anteponer la protección colectiva a la individual (letra h).",
+      "excerpt": "h) Adoptar medidas que antepongan la protección colectiva a la individual.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
