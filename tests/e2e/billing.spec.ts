@@ -116,7 +116,10 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
       c.query("update public.products set status = 'published' where slug = 'premium'"),
     );
     try {
-      await page.goto("/app/productos");
+      // La portada deja de poner «Próximamente» y lleva a la compra
+      await page.goto("/");
+      await page.locator("#precios").getByRole("link", { name: "Hazte Premium" }).click();
+      await expect(page).toHaveURL(/\/app\/productos$/);
       const form = page.getByTestId("buy-form");
       await expect(form).toContainText("Modo de pruebas");
       await expect(page.getByTestId("buy-button")).toHaveText(/Hazte Premium/);
