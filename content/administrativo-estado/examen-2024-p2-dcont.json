@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p2-dcont-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2024-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden de 1 de febrero de 1996 por la que se aprueban los documentos contables a utilizar por la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Orden 1-2-1996 documentos contables, regla 1.e",
+      "stem": "¿Qué documento contable se expide al aprobar el gasto de la convocatoria de ayudas, imputable al presupuesto corriente?",
+      "options": [
+        "Documento D.",
+        "Documento A.",
+        "Documento O.",
+        "Documento MC."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El documento A de ejercicio corriente registra la autorización (aprobación) del gasto; D es el compromiso, O el reconocimiento de la obligación y MC las modificaciones de crédito.",
+      "excerpt": "Documento A de ejercicio corriente: Se utilizará en las operaciones de autorización del gasto imputables al Presupuesto corriente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

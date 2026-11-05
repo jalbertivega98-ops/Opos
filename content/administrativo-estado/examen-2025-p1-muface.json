@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-muface-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 4/2000, de 23 de junio, texto refundido de la Ley sobre Seguridad Social de los Funcionarios Civiles del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-12140",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 5.1 RDLeg 4/2000",
+      "stem": "De acuerdo con el artículo 5 del Real Decreto Legislativo 4/2000, la Mutualidad General de Funcionarios Civiles del Estado (MUFACE) es:",
+      "options": [
+        "Una entidad gestora de la Seguridad Social integrada en el INSS.",
+        "Una mutua colaboradora con la Seguridad Social de naturaleza privada.",
+        "Un organismo público con personalidad jurídica pública diferenciada, patrimonio y tesorería propios y autonomía de gestión.",
+        "Una fundación del sector público estatal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "MUFACE es un organismo público que se rige por las normas de los organismos autónomos, salvo las especialidades de su ley.",
+      "excerpt": "La Mutualidad General de Funcionarios Civiles del Estado es un organismo público con personalidad jurídica pública diferenciada, patrimonio y tesorería propios y autonomía de gestión",
+      "excerpt_status": "completo"
+    }
+  ]
+}

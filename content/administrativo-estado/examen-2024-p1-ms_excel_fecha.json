@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_excel_fecha-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Aplicar formato a una fecha como quiera en Excel",
+      "url": "https://support.microsoft.com/es-es/office/dar-formato-a-una-fecha-de-la-forma-que-desee-en-excel-8e10019e-d5d8-47a1-ba95-db95123d273e",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Formato de fecha",
+      "stem": "En una celda de Excel con formato General se escribe 7-4 y se pulsa Entrar. ¿Qué ocurre habitualmente?",
+      "options": [
+        "Excel calcula la resta y muestra 3.",
+        "Excel muestra un error #¡VALOR!.",
+        "Excel lo guarda como texto sin cambios.",
+        "Excel lo interpreta como una fecha y la muestra con formato de fecha (por ejemplo, 07-abr)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Para que Excel reste hay que empezar con «=»; un valor como 7-4 se interpreta como día y mes, y se muestra con un formato de fecha (mmm muestra el mes abreviado).",
+      "excerpt": "Los meses como ene-dic mmm",
+      "excerpt_status": "completo",
+      "review_note": "La conversión automática de 7-4 en fecha es comportamiento habitual de Excel con configuración regional española; la fuente oficial capturada solo documenta los códigos de formato de fecha."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_win_monitores-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cómo usar varios monitores en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/hardware/display-graphics/how-to-use-multiple-monitors-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Pantallas extendidas",
+      "stem": "Con dos monitores conectados en Windows 11, ¿qué modo permite mover ventanas de una pantalla a otra para trabajar con más espacio?",
+      "options": [
+        "Duplicar estas pantallas.",
+        "Mostrar solo en 1.",
+        "Extender estas pantallas.",
+        "Mostrar solo en 2."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Con las pantallas extendidas el escritorio ocupa ambos monitores y se pueden mover elementos entre ellos; duplicar muestra lo mismo en las dos.",
+      "excerpt": "Cuando tengas pantallas extendidas, podrás mover elementos entre las dos pantallas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orientación de monitores",
+      "stem": "En Windows 11 se cambia a vertical la orientación de uno de los dos monitores. Según la ayuda de Microsoft, ¿qué más hay que hacer?",
+      "options": [
+        "Girar físicamente esa pantalla.",
+        "Reiniciar el equipo para aplicar el cambio.",
+        "Cambiar también la orientación del otro monitor.",
+        "Nada, Windows gira la pantalla automáticamente."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cada pantalla puede configurarse por separado; si se cambia la orientación, el monitor también debe girarse físicamente.",
+      "excerpt": "Si cambia la orientación de un monitor, también tendrá que girar la pantalla físicamente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

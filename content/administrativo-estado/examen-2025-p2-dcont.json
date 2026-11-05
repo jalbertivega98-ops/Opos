@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-dcont-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden de 1 de febrero de 1996 por la que se aprueban los documentos contables a utilizar por la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Orden 1-2-1996 documentos contables, regla 1.a",
+      "stem": "Autorizado el suplemento de crédito de 15.000 euros para los ascensores de la Confederación, ¿qué documento contable registra esa operación?",
+      "options": [
+        "Documento RC.",
+        "Documento A.",
+        "Documento ADOK.",
+        "Documento MC."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El documento MC se usa en las modificaciones presupuestarias que aumentan o disminuyen los créditos. RC retiene crédito, A aprueba gasto y ADOK acumula fases de ejecución.",
+      "excerpt": "Documento MC: Se utilizará en las modificaciones presupuestarias que aumenten o disminuyan los créditos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

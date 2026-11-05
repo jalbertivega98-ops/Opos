@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_access_formatonum-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Aplicar formato a un campo de moneda o número",
+      "url": "https://support.microsoft.com/es-es/access/format-a-number-or-currency-field",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Formato de número Estándar en Access",
+      "stem": "En Access 365, ¿qué formato de campo numérico usa el separador de miles y respeta la configuración regional de Windows, sin mostrar símbolo de moneda?",
+      "options": [
+        "Moneda.",
+        "Estándar.",
+        "Número general.",
+        "Científico."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Estándar y Moneda usan separador de miles; Moneda añade el símbolo de moneda.",
+      "excerpt": "Usa el separador de miles y sigue la configuración especificada en la configuración regional de Windows para cantidades negativas, símbolos decimales y posiciones decimales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

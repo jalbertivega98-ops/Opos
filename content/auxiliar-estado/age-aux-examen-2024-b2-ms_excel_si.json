@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_excel_si-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Función SI",
+      "url": "https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Excel · Función SI",
+      "stem": "En Excel, ¿qué devuelve =SI(C2>B2;C2-B2;0) si C2 vale 5 y B2 vale 8?",
+      "options": [
+        "-3",
+        "3",
+        "0",
+        "FALSO"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Como 5 no es mayor que 8, la prueba lógica es falsa y SI devuelve el valor_si_falso, que es 0.",
+      "excerpt": "SI(prueba_lógica; valor_si_verdadero; [valor_si_falso]) […] =SI(C2>B2;C2-B2;0)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

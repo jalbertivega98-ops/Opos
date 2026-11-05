@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-lssi-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DA 6.ª Ley 34/2002",
+      "stem": "Según la Ley 34/2002, de servicios de la sociedad de la información, ¿qué entidad es la autoridad de asignación de los nombres de dominio bajo el «.es»?",
+      "options": [
+        "La Agencia Española de Protección de Datos.",
+        "La Comisión Nacional de los Mercados y la Competencia.",
+        "La entidad pública empresarial Red.es.",
+        "El Instituto Nacional de Ciberseguridad (INCIBE)."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Red.es gestiona el registro de dominios «.es» (DA 6.ª, apartado Dos). En el examen original esta pregunta fue anulada; se replica sobre el mismo punto.",
+      "excerpt": "La entidad pública empresarial Red.es es la autoridad de asignación, a la que corresponde la gestión del registro de nombres de dominio de Internet bajo el",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "set": "mossos-d-actualitat-2026-v1",
+    "exam": "mossos-esquadra",
+    "topic": "D. Actualitat (novembre 2025 - novembre 2026)",
+    "topic_slug": "mossos-d-actualitat",
+    "locale": "ca",
+    "category": "mossos_d_actualitat",
+    "author": "Claude (esborrany, pendent de revisió humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Sala de premsa del Govern de la Generalitat de Catalunya (notes de premsa, novembre 2025 - octubre 2026)",
+      "url": "https://govern.cat/salapremsa/notes-premsa",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Govern.cat",
+      "published_on": "2026-10-27"
+    },
+    "notes": "Preguntes originals d'actualitat (àmbit D: 3 preguntes fixes per examen des de la 46/23) sobre fets dels últims 12 mesos del tipus que pregunta el tribunal (guanyadors esportius, premis, cinema, grans esdeveniments, institucions). Cada pregunta cita literalment la nota de premsa oficial del Govern ('excerpt') i en dona la URL i la data a 'ref'. Caduca: cal renovar-lo cada trimestre i retirar els fets de més de 12 mesos abans de cada convocatòria."
+  },
+  "questions": [
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 13/08/2026: https://govern.cat/salapremsa/notes-premsa/860012/catalunya-viu-exit-jornada-historica-dobservacio-leclipsi-solar-total",
+      "stem": "L’eclipsi solar total de l’agost de 2026 va ser el primer observable des de Catalunya en quant de temps?",
+      "options": [
+        "En més de 120 anys.",
+        "En més de 30 anys.",
+        "En més de 300 anys.",
+        "En més de 60 anys."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Segons el Govern, va ser el primer eclipsi solar total observable des del territori català en més de 120 anys (iniciativa «Catalunya mira al cel»).",
+      "excerpt": "Catalunya va viure ahir amb èxit una jornada històrica amb motiu de l’eclipsi solar total, el primer que es podia observar des del territori català en més de 120 anys.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Govern, 01/09/2026: govern.cat/salapremsa/notes-premsa/862672/govern-lliura-medalla-dor-generalitat-al-cuiner-ferran-adria-fisica-directora-del-sincrotro-alba-caterina-biscari",
+      "stem": "A qui va atorgar el Govern la Medalla d’Or de la Generalitat el setembre de 2026?",
+      "options": [
+        "Al cuiner Ferran Adrià i a la física Caterina Biscari.",
+        "Al cuiner Joan Roca i a l’arquitecta Carme Pinós.",
+        "Al biòleg Josep Canadell i a l’activista Yael Admi.",
+        "A l’alpinista Kilian Jornet i a la nedadora Iris Tió."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La Medalla d’Or, màxima distinció de la Generalitat, va ser per a Ferran Adrià i per a Caterina Biscari, directora del Sincrotró ALBA.",
+      "excerpt": "El Consell Executiu ha aprovat atorgar la Medalla d’Or de la Generalitat de Catalunya al cuiner Ferran Adrià i a la física i directora del Sincrotró ALBA Caterina Biscari",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 14/04/2026: https://govern.cat/salapremsa/notes-premsa/812364/govern-distingeix-creu-sant-jordi-20-persones-10-entitats",
+      "stem": "A quantes persones i entitats va concedir el Govern la Creu de Sant Jordi 2026?",
+      "options": [
+        "A 10 persones i 20 entitats.",
+        "A 30 persones i 20 entitats.",
+        "A 20 persones i 10 entitats.",
+        "A 25 persones i 5 entitats."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El Govern, a proposta de la consellera de Cultura, va distingir 20 persones i 10 entitats.",
+      "excerpt": "ha acordat concedir la Creu de Sant Jordi de la Generalitat de Catalunya 2026 a 20 persones i 10 entitats",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 16/01/2026: https://govern.cat/salapremsa/notes-premsa/783508/kilian-jornet-iris-tio-millors-esportistes-catalans-2025",
+      "stem": "Qui va ser escollit millor esportista català de 2025 a la 29a Festa de l’Esport Català?",
+      "options": [
+        "El pilot de trial Toni Bou.",
+        "El futbolista Pau Cubarsí.",
+        "L’alpinista Kilian Jornet.",
+        "L’esquiador Oriol Cardona."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La 29a Festa de l’Esport Català (gener de 2026) va premiar Kilian Jornet (alpinisme) i Iris Tió (natació artística).",
+      "excerpt": "Premi al millor esportista català: Kilian Jornet (ALPINISME)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quina esportista catalana va escollir World Aquatics com a millor nedadora artística del món del 2025?",
+      "options": ["Andrea Fuentes.", "Gemma Mengual.", "Iris Tió.", "Ona Carbonell."],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "World Aquatics va escollir Iris Tió millor nedadora artística del món del 2025; també va ser la millor esportista catalana de 2025.",
+      "excerpt": "World Aquatics la va escollir millor nedadora artística del món del 2025.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 16/01/2026: https://govern.cat/salapremsa/notes-premsa/783508/kilian-jornet-iris-tio-millors-esportistes-catalans-2025",
+      "stem": "En quin esport destaca Joan Garcia, premiat com a esportista masculí amb més projecció a la 29a Festa de l’Esport Català?",
+      "options": ["En el bàsquet.", "En el futbol.", "En el waterpolo.", "En l’handbol."],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Joan Garcia (futbol) va rebre el premi a l’esportista amb més projecció masculí.",
+      "excerpt": "Premi a l’esportista amb més projecció masculí: Joan Garcia (FUTBOL)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Govern, 02/07/2026: govern.cat/salapremsa/notes-premsa/843520/congres-mundial-darquitectes-uia-2026-barcelona-clausura-despres-superar-expectatives-reunir-mes-10000-participants",
+      "stem": "Al voltant de quants compromisos s’articula la Declaració de Barcelona del Congrés Mundial d’Arquitectes UIA 2026?",
+      "options": [
+        "Dotze compromisos.",
+        "Sis compromisos.",
+        "Deu compromisos.",
+        "Tres compromisos."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La Declaració de Barcelona s’articula en sis compromisos: temps, matèria, vida, justícia, escala i significat. El congrés va reunir més de 10.000 participants.",
+      "excerpt": "La UIA ha presentat durant la cloenda la Declaració de Barcelona, un manifest articulat al voltant de sis compromisos: temps, matèria, vida, justícia, escala i significat",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 05/10/2026: https://govern.cat/salapremsa/notes-premsa/875860/presentada-pirineus-27-marca-unitaria-dels-tres-campionats-del-mon-daigues-braves-sort-durgell",
+      "stem": "Quines poblacions acolliran el 2027 els tres Campionats del Món d’aigües braves agrupats sota la marca «Pirineus 27»?",
+      "options": [
+        "Ribes de Freser i Camprodon.",
+        "Tremp i Balaguer.",
+        "Puigcerdà i Vielha.",
+        "Sort i la Seu d’Urgell."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els tres mundials de piragüisme en aigües braves de Paddle Worldwide es faran a Sort i la Seu d’Urgell el 2027.",
+      "excerpt": "Els tres Campionats del Món d’aigües braves de Paddle Worldwide que Sort i la Seu d’Urgell acolliran l’any 2027 compartiran una mateixa identitat: Pirineus 27.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 02/09/2026: https://govern.cat/salapremsa/notes-premsa/862872/govern-commemora-diada-20-paisos-darreu-del-mon-pau-casals-principal-homenatjat",
+      "stem": "A quants països van commemorar la Diada de 2026 les delegacions del Govern a l’exterior?",
+      "options": ["A 20 països.", "A 5 països.", "A 12 països.", "A 50 països."],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les delegacions del Govern van celebrar la Diada a 20 països d’Europa, Àfrica, Amèrica i Àsia, amb Pau Casals com a principal homenatjat.",
+      "excerpt": "Les delegacions del Govern a l’exterior commemoren la Diada Nacional de Catalunya a 20 països d’Europa, Àfrica, Amèrica i Àsia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 02/09/2026: https://govern.cat/salapremsa/notes-premsa/862872/govern-commemora-diada-20-paisos-darreu-del-mon-pau-casals-principal-homenatjat",
+      "stem": "Quin aniversari de Pau Casals i de Josep Irla formava part de les commemoracions oficials de la Generalitat del 2026?",
+      "options": [
+        "El 150è aniversari del seu naixement.",
+        "El 75è aniversari del seu exili.",
+        "El centenari del seu naixement.",
+        "El 50è aniversari de la seva mort."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El 2026 es commemoren els 150 anys dels naixements de Pau Casals i Josep Irla i els 100 anys de la mort de Gaudí.",
+      "excerpt": "les commemoracions oficials de la Generalitat del 2026: el 150è aniversari dels naixements de Pau Casals i de Josep Irla i els 100 anys de la mort d’Antoni Gaudí.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 22/10/2026: https://govern.cat/salapremsa/notes-premsa/884128/barcelona-acull-congres-internacional-gaudi-lany-commemoracio-del-centenari-larquitecte",
+      "stem": "Què va ser el Gaudí International Congress 2026, celebrat del 22 al 25 d’octubre?",
+      "options": [
+        "La cerimònia de consagració de la Sagrada Família.",
+        "El lliurament dels premis d’arquitectura de la UIA.",
+        "Una exposició itinerant de maquetes de Gaudí.",
+        "El primer congrés científic sobre Gaudí a nivell mundial."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "En l’any del centenari de la mort de Gaudí, Barcelona va acollir el primer congrés científic disciplinar sobre l’arquitecte a escala mundial.",
+      "excerpt": "La consellera de Cultura obre el Gaudí International Congress 2026, el primer congrés científic disciplinar sobre l'arquitecte a nivell mundial",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 25/08/2026: https://govern.cat/salapremsa/notes-premsa/861560/bioleg-josep-canadell-guanyador-del-22e-premi-ramon-margalef-decologia-2026",
+      "stem": "Per quina recerca va rebre el biòleg Josep Canadell el Premi Ramon Margalef d’Ecologia 2026?",
+      "options": [
+        "Per la cartografia dels fons marins mediterranis.",
+        "Per l’estudi dels embornals naturals de carboni.",
+        "Per la recuperació de l’os bru als Pirineus.",
+        "Per l’estudi de la contaminació per microplàstics."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La Generalitat va premiar el seu treball pioner sobre la dinàmica dels embornals naturals de carboni i les reserves globals de carboni.",
+      "excerpt": "Canadell ha estat premiat pel seu treball pioner en la investigació sobre la dinàmica dels embornals naturals de carboni",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 28/07/2026: https://govern.cat/salapremsa/notes-premsa/855536/govern-aprova-commemoracions-generalitat-lany-2027",
+      "stem": "Quina commemoració destaca especialment entre les 21 commemoracions oficials de la Generalitat aprovades per al 2027?",
+      "options": [
+        "El centenari de la mort del president Francesc Macià.",
+        "El 50è aniversari del retorn de l’exili del president Tarradellas.",
+        "El 50è aniversari de l’aprovació de l’Estatut de Sau.",
+        "El bicentenari de l’inici de la Renaixença."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El Govern destaca el 50è aniversari del retorn de Josep Tarradellas (1977) i de la recuperació de les institucions d’autogovern.",
+      "excerpt": "destaca especialment el 50è aniversari del retorn de l’exili del president Josep Tarradellas i del procés de recuperació de les institucions d’autogovern durant la Transició democràtica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 22/07/2026: https://govern.cat/salapremsa/notes-premsa/852512/parlament-aprova-llei-suports-que-reforca-dret-persones-discapacitat-decidir-mateixes",
+      "stem": "A quina convenció internacional adapta el dret civil català la llei de suports a l’exercici de la capacitat jurídica aprovada el juliol de 2026?",
+      "options": [
+        "A la Convenció de l’ONU sobre els drets de les persones amb discapacitat.",
+        "Al Conveni europeu de drets humans.",
+        "A la Carta social europea.",
+        "A la Convenció de l’ONU sobre els drets de l’infant."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La llei modifica el Codi civil de Catalunya i culmina l’adaptació a la Convenció de les Nacions Unides sobre els drets de les persones amb discapacitat.",
+      "excerpt": "una norma que culmina l'adaptació del dret civil català a la Convenció de les Nacions Unides sobre els drets de les persones amb discapacitat",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 20/05/2026: https://govern.cat/salapremsa/notes-premsa/825636/parlament-aprova-primera-llei-del-tercer-sector-social-catalunya",
+      "stem": "Quina llei, la primera d’aquest àmbit a Catalunya, va aprovar el Parlament el maig de 2026?",
+      "options": [
+        "La Llei del Tercer Sector Social.",
+        "La Llei de l’esport.",
+        "La Llei del cinema.",
+        "La Llei de policia de Catalunya."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El Parlament va aprovar la primera Llei del Tercer Sector Social, que reconeix la tasca de les entitats socials.",
+      "excerpt": "El Parlament de Catalunya ha aprovat avui la primera Llei del Tercer Sector Social.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Govern, 03/02/2026: govern.cat/salapremsa/notes-premsa/787440/catalunya-barcelona-donen-suport-candidatura-del-camp-nou-acollir-final-lliga-campions-futbol-masculina-2029",
+      "stem": "Per a quina final de futbol es va presentar la candidatura del Camp Nou amb el suport de la Generalitat el febrer de 2026?",
+      "options": [
+        "La final de l’Eurocopa de 2028.",
+        "La final del Mundial de 2030.",
+        "La final de la Champions League masculina de 2029.",
+        "La final de la Champions femenina de 2027."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Barcelona i el FC Barcelona van presentar la candidatura per acollir la final de la UEFA Champions League de 2029.",
+      "excerpt": "per a la celebració de la UEFA Champions League Final 2029.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 03/03/2026: https://govern.cat/salapremsa/notes-premsa/797092/president-illa-el-mobile-world-congress-finestra-cap-al-futur",
+      "stem": "De quina organització és director general John Hoffman, amb qui es va reunir el president Illa amb motiu del Mobile World Congress 2026?",
+      "options": [
+        "De l’OCDE.",
+        "De la Unió Internacional de Telecomunicacions.",
+        "De la Comissió Europea.",
+        "De la GSMA."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "John Hoffman és el director general de la GSMA; Illa va dir que el MWC és «una finestra cap al futur».",
+      "excerpt": "el director general de la GSMA, John Hoffman.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 02/10/2026: https://govern.cat/salapremsa/notes-premsa/874652/proteccio-civil-mante-emergencia-pla-inuncat-aixeca-confinament-al-baix-ebre-montsia",
+      "stem": "Quin pla especial d’emergències va mantenir Protecció Civil en fase d’Emergència l’octubre de 2026, quan va aixecar el confinament al Baix Ebre i el Montsià?",
+      "options": [
+        "El NEUCAT, per nevades.",
+        "L’INUNCAT, per inundacions.",
+        "El SISMICAT, per terratrèmols.",
+        "L’INFOCAT, per incendis forestals."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Protecció Civil va mantenir en fase d’Emergència el Pla especial d’emergències per inundacions (INUNCAT).",
+      "excerpt": "Protecció Civil de la Generalitat manté en fase d’Emergència el Pla especial d’emergències per inundacions de Catalunya (INUNCAT) i ha aixecat el confinament de la població del Baix Ebre i el Montsià.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 12/03/2026: https://govern.cat/salapremsa/notes-premsa/800624/departament-cultura-acompanya-produccio-catalana-sirat-als-oscars-2026",
+      "stem": "A quin teatre es va celebrar la gala dels Oscars del 15 de març de 2026, a la qual va assistir l’equip de la producció catalana «Sirât»?",
+      "options": [
+        "Al Hollywood Bowl.",
+        "Al Shrine Auditorium.",
+        "Al Dolby Theatre.",
+        "Al Lincoln Center."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El Departament de Cultura i l’ICEC van acompanyar «Sirât» a la gala dels Oscars al Dolby Theatre (Los Angeles).",
+      "excerpt": "la gala d’entrega dels Premis Oscar que tindrà lloc a l’emblemàtic Dolby Theatre el pròxim 15 de març.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Qui va aconseguir als Jocs de Milano Cortina 2026 el primer or olímpic d’hivern de la història de l’esport català?",
+      "options": [
+        "Kilian Jornet, en esquí de fons.",
+        "Oriol Cardona, en esquí de muntanya.",
+        "Queralt Castellet, en surf de neu.",
+        "Ander Mirambell, en skeleton."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Oriol Cardona va ser campió olímpic d’esquí de muntanya (i bronze en relleus mixtos).",
+      "excerpt": "Oriol Cardona: Campió olímpic d'esquí de muntanya als Jocs de Milano Cortina 2026, el primer or olímpic d'hivern de la història de l'esport català",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quin futbolista català de 19 anys es va proclamar campió del món amb la selecció espanyola i va ser escollit Millor Jugador Jove del Mundial?",
+      "options": ["Joan Garcia.", "Pau Cubarsí.", "Marc Casadó.", "Marc Bernal."],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Pau Cubarsí, del FC Barcelona, va ser campió del món i Millor Jugador Jove del Mundial.",
+      "excerpt": "Pau Cubarsí: Amb 19 anys, campió del món amb la selecció espanyola i escollit Millor Jugador Jove del Mundial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "En quin esport es va proclamar campiona del món absoluta Ai Tsunoda, primer títol mundial d’aquest esport per a l’Estat des del 1997?",
+      "options": [
+        "En lluita lliure, categoria de -68 kg.",
+        "En karate, categoria de -61 kg.",
+        "En judo, categoria de -70 kg.",
+        "En taekwondo, categoria de -67 kg."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ai Tsunoda va ser campiona del món absoluta de judo (-70 kg).",
+      "excerpt": "Ai Tsunoda: Campiona del món absoluta de judo en la categoria de -70 kg, el primer títol mundial del judo espanyol des del 1997.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quin títol va guanyar Guillem Farrés, el primer títol mundial de motocròs de la història de la marca Triumph?",
+      "options": [
+        "El de campió del món de supercross.",
+        "El de campió del món d’enduro.",
+        "El de campió del món de MXGP.",
+        "El de campió del món de MX2."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Guillem Farrés va ser campió del món de MX2, amb 6 victòries de Gran Premi i 13 podis.",
+      "excerpt": "Guillem Farrés: Campió del món de MX2, el primer títol mundial de motocròs de la història de Triumph",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quina fita va aconseguir el 2026 la pilot Daniela Guillén, de 20 anys?",
+      "options": [
+        "Ser la primera catalana a guanyar el Dakar en motos.",
+        "Ser la primera catalana campiona del món de trial.",
+        "Ser la primera catalana a puntuar en el Mundial de MotoGP.",
+        "Ser la primera catalana i espanyola campiona del món de motocròs (WMX)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Daniela Guillén es va proclamar campiona del món de motocròs femení (WMX), la primera pilot catalana i espanyola que ho aconsegueix.",
+      "excerpt": "Daniela Guillén: Amb 20 anys, s'ha proclamat campiona del món de motocròs femení (WMX), la primera pilot catalana i espanyola que ho aconsegueix.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quin club va fer un sextet inèdit en el waterpolo estatal, amb la Champions League inclosa, segons la 30a Festa de l’Esport Català?",
+      "options": [
+        "El CN Sabadell.",
+        "El CN Atlètic-Barceloneta.",
+        "El CN Terrassa.",
+        "El CN Barcelona."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El CN Atlètic-Barceloneta va guanyar Champions League, Supercopa d’Europa, Lliga, Copa del Rei, Copa Catalunya i Supercopa d’Espanya.",
+      "excerpt": "CN Atlètic-Barceloneta: Sextet inèdit en el waterpolo estatal, amb Champions League, Supercopa d'Europa, Lliga, Copa del Rei, Copa Catalunya i Supercopa d'Espanya.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quins títols formen el pòquer del FC Barcelona Femení destacat a la 30a Festa de l’Esport Català?",
+      "options": [
+        "Lliga F, Women’s Champions League, Copa de la Reina i Supercopa.",
+        "Lliga F, Mundial de Clubs, Copa de la Reina i Supercopa.",
+        "Lliga F, Copa de la Reina, Copa Catalunya i Supercopa d’Europa.",
+        "Women’s Champions League, Mundial de Clubs, Lliga F i Copa Catalunya."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El Barça Femení va guanyar la Lliga F, la UEFA Women’s Champions League, la Copa de la Reina i la Supercopa d’Espanya.",
+      "excerpt": "FC Barcelona Femení: Pòquer de títols, amb: Lliga F, UEFA Women's Champions League, Copa de la Reina i Supercopa d'Espanya.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quina temporada va fer el FC Barcelona d’handbol segons els mèrits de la 30a Festa de l’Esport Català?",
+      "options": [
+        "Cinc títols de set, sense guanyar la Champions League.",
+        "Només la Lliga ASOBAL i la Copa del Rei.",
+        "Sis títols, però va perdre la final de la IHF Super Globe.",
+        "Set títols de set, inclosos l’EHF Champions League i la IHF Super Globe."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El Barça d’handbol va fer una temporada perfecta: set títols de set.",
+      "excerpt": "FC Barcelona (handbol): Temporada perfecta amb set títols de set, inclosos l'EHF Champions League i la IHF Super Globe.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 27/10/2026: https://govern.cat/salapremsa/notes-premsa/885692/festa-lesport-catala-arriba-30a-edicio-mes-100-candidatures-ja-finalistes",
+      "stem": "Quin reconeixement va rebre Pere Romeu, entrenador del FC Barcelona Femení, a la gala de la Pilota d’Or?",
+      "options": [
+        "El de millor entrenador.",
+        "El Trofeu Kopa.",
+        "El Premi Sòcrates.",
+        "El Trofeu Iashin."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Pere Romeu va guanyar tots els títols, inclosa la quarta Champions del club, i va ser reconegut com a millor entrenador a la gala de la Pilota d’Or.",
+      "excerpt": "Reconegut com a millor entrenador a la gala de la Pilota d’Or.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Actualitat · Nota de premsa del Govern, 19/10/2026: https://govern.cat/salapremsa/notes-premsa/881916/jurat-del-carnet-jove-del-festival-internacional-sitges-premia-ghost-in-the-cell-joko-anwar",
+      "stem": "Quina edició va celebrar l’octubre de 2026 el Sitges - Festival Internacional de Cinema Fantàstic de Catalunya?",
+      "options": ["La 50a edició.", "La 45a edició.", "La 59a edició.", "La 62a edició."],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La cloenda de la 59a edició es va fer a Sitges; el Jurat Carnet Jove va premiar «Ghost in the Cell», de Joko Anwar.",
+      "excerpt": "la cerimònia de cloenda de la 59a edició del Sitges - Festival Internacional de Cinema Fantàstic de Catalunya",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Govern, 14/10/2026: govern.cat/salapremsa/notes-premsa/880680/consellera-parlon-reivindica-paper-clau-dels-agents-rurals-leducacio-ambiental-inclusio-social-jornades-educar-2026",
+      "stem": "En què es van centrar les Jornades eduCAR 2026 dels Agents Rurals, celebrades a Montserrat?",
+      "options": [
+        "En el control de la fauna exòtica invasora.",
+        "En la lluita contra el furtivisme de bolets.",
+        "En la prevenció d’incendis forestals durant l’estiu.",
+        "En ApropaNatura, el vessant social adreçat als col·lectius vulnerables."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Més de 100 agents rurals es van formar en educació ambiental; les jornades se centraven en ApropaNatura, el vessant social del programa EduCAR.",
+      "excerpt": "Enguany, les jornades se centren en ApropaNatura, el vessant social del programa EduCAR, dirigit als col·lectius més vulnerables",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-cleco-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Resolución de 20 de enero de 2014, de la Dirección General de Presupuestos, por la que se establecen los códigos que definen la clasificación económica (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-879",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Clasificación económica, art. 63",
+      "stem": "La obra de accesibilidad de la Confederación sustituye la antigua escalera de entrada por un acceso adaptado que mejora el uso del edificio existente. Según la resolución que establece los códigos de la clasificación económica, ¿en qué concepto encaja una inversión que pone un bien en un estado de uso que aumenta su eficacia para el servicio?",
+      "options": [
+        "212. Edificios y otras construcciones (reparaciones, mantenimiento y conservación).",
+        "620. Inversión nueva asociada al funcionamiento operativo de los servicios.",
+        "640. Gastos de inversiones de carácter inmaterial.",
+        "630. Inversión de reposición asociada al funcionamiento operativo de los servicios."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El artículo 63 recoge las inversiones que prorrogan la vida útil del bien o lo ponen en un estado de uso que aumenta su eficacia; la clave oficial de 2025 da el concepto 630 para la obra de accesibilidad. El 212 es mantenimiento ordinario (capítulo 2) y el 620 inversión nueva que incrementa el stock de capital.",
+      "excerpt": "Prorrogar la vida útil del bien o a poner éste en un estado de uso que aumente la eficacia en la cobertura de las necesidades derivadas de la prestación del servicio.",
+      "excerpt_status": "completo",
+      "review_note": "La frontera 620/630 para una obra de mejora no es totalmente nítida en el texto; se sigue el criterio de la plantilla oficial del INAP 2025 para este mismo caso. Los códigos 212, 620, 630 y 640 siguen en el anexo II de la Orden HAC/557/2026 (PGE 2027)."
+    }
+  ]
+}

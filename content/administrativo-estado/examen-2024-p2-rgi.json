@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p2-rgi-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2024-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 364/1995, de 10 de marzo, Reglamento General de Ingreso del Personal al servicio de la AGE y de Provisión de Puestos de Trabajo y Promoción Profesional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 54.1 RD 364/1995",
+      "stem": "Dña. Lucía Ferrer opta a un puesto de libre designación en otro ministerio. Según el Reglamento General de Ingreso (RD 364/1995), como está destinada en un Departamento distinto, el nombramiento requerirá:",
+      "options": [
+        "La autorización previa del Consejo de Ministros.",
+        "El informe de la Comisión Superior de Personal.",
+        "El informe favorable del Departamento en que está destinada, que se entiende favorable si no se emite en quince días naturales.",
+        "Su previo cese en la comisión de servicios con una antelación de un mes."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Además del informe del titular del centro u organismo al que está adscrito el puesto, si el candidato está destinado en otro Departamento se exige informe favorable de este; si no se emite en quince días naturales, se considera favorable (art. 54.1).",
+      "excerpt": "Si fuera a recaer en un funcionario destinado en otro Departamento, se requerirá informe favorable de éste. De no emitirse en el plazo de quince días naturales se considerará favorable.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_word_reglas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Establecer las reglas para una combinación de correspondencia",
+      "url": "https://support.microsoft.com/es-es/office/establecer-las-reglas-para-una-combinaci%C3%B3n-de-correspondencia-d546ee7e-ab7a-4d6d-b488-41f9e4bd1409",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Word · Reglas de combinación de correspondencia",
+      "stem": "En la combinación de correspondencia de Word, ¿qué regla permite excluir de la combinación a los destinatarios cuyo campo cumpla una condición?",
+      "options": [
+        "Saltar registro si.",
+        "Preguntar.",
+        "Rellenar.",
+        "Siguiente registro."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Las reglas se ejecutan al realizar la combinación y personalizan el resultado. «Saltar registro si» (en la interfaz, «Omitir registro si») compara el contenido de un campo y omite los registros que cumplen la condición; «Si... Entonces... Sino» inserta un texto u otro según la condición.",
+      "excerpt": "La personalización se basa en las reglas que se ejecutan al realizar la combinación. […] Use la regla saltar registro si para comparar el contenido de los datos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

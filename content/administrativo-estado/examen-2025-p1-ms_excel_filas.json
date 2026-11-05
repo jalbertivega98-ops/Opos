@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_excel_filas-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Función FILAS",
+      "url": "https://support.microsoft.com/es-es/office/filas-funci%C3%B3n-filas-b592593e-3fc2-47f2-bec1-bda493811597",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Función FILAS",
+      "stem": "En Excel 365, la fórmula =FILAS(B2:D9):",
+      "options": [
+        "Devuelve 8, el número de filas del rango.",
+        "Devuelve 3, el número de columnas del rango.",
+        "Devuelve 24, el número de celdas del rango.",
+        "Devuelve el número de la primera fila, 2."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "FILAS devuelve el número de filas de una referencia o matriz: de la 2 a la 9 hay 8.",
+      "excerpt": "Devuelve el número de filas de una referencia o matriz.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Referencias a rangos",
+      "stem": "En Excel 365, ¿cuál de las siguientes referencias corresponde a un único rango continuo de celdas?",
+      "options": [
+        "C1:C2;E1:E2",
+        "C1;E4",
+        "C1:C2;E4:E5",
+        "C1:E4"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Los dos puntos definen un rango continuo; el separador de argumentos \";\" une rangos distintos (rango discontinuo). La ayuda de FILAS habla de «una referencia a un rango de celdas», que se escribe con la celda inicial y la final separadas por dos puntos.",
+      "excerpt": "Una matriz, una fórmula de matriz o una referencia a un rango de celdas para el que desea el número de filas.",
+      "excerpt_status": "completo",
+      "review_note": "La fuente oficial capturada no define «rango discontinuo»; la notación con dos puntos se explica como práctica habitual de Excel, no con cita literal."
+    }
+  ]
+}

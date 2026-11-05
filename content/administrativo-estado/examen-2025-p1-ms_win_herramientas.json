@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_win_herramientas-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Herramientas de configuración del sistema en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Información del sistema",
+      "stem": "Un técnico quiere obtener en Windows una vista completa del hardware del equipo para diagnosticar un problema. ¿Qué utilidad debe usar?",
+      "options": [
+        "Visor de eventos.",
+        "Editor del Registro.",
+        "Configuración del sistema.",
+        "Información del sistema."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Información del sistema da una vista completa del hardware; Configuración del sistema sirve para solucionar problemas de inicio.",
+      "excerpt": "Información del sistema es una utilidad del sistema que proporciona una vista completa del hardware",
+      "excerpt_status": "completo",
+      "review_note": "La pregunta oficial trataba de qué se abre con Propiedades sobre «Este equipo»; no hay fuente oficial ya capturada sobre ese menú, por lo que la réplica pregunta por la utilidad con información del equipo."
+    }
+  ]
+}

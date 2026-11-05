@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_win_wordpad-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Recursos sobre las características en desuso del cliente Windows",
+      "url": "https://learn.microsoft.com/es-es/windows/whats-new/deprecated-features-resources",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Microsoft Learn (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "WordPad retirado",
+      "stem": "En la versión vigente de Windows 11 (24H2 o posterior), ¿qué ha ocurrido con WordPad?",
+      "options": [
+        "Se ha integrado en el Bloc de notas con el mismo nombre.",
+        "Se ha eliminado de todas las ediciones de Windows.",
+        "Solo está disponible en la edición Pro.",
+        "Se ha convertido en el lector predeterminado de archivos RTF."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "WordPad se elimina a partir de Windows 11 24H2; Microsoft recomienda Word para texto enriquecido y el Bloc de notas para texto sin formato.",
+      "excerpt": "WordPad se elimina de todas las ediciones de Windows a partir de Windows 11, versión 24H2 y Windows Server 2025.",
+      "excerpt_status": "completo",
+      "review_note": "El original (Windows 10) preguntaba por los formatos en que guarda WordPad; en la versión vigente WordPad ya no existe y se pregunta por ese cambio."
+    }
+  ]
+}

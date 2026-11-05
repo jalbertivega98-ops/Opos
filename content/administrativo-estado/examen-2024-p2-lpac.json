@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p2-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2024-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 122.3 LPAC",
+      "stem": "Dña. Lucía Ferrer informa un recurso de alzada que ya ha sido desestimado por el Ministro. El interesado pregunta qué recurso administrativo puede interponer ahora contra esa resolución. Según la Ley 39/2015:",
+      "options": [
+        "Un recurso potestativo de reposición ante el mismo Ministro.",
+        "Un segundo recurso de alzada ante el Consejo de Ministros.",
+        "Ningún otro recurso administrativo, salvo el extraordinario de revisión en los casos del artículo 125.1.",
+        "Una reclamación previa ante el Consejo de Estado."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Contra la resolución de un recurso de alzada solo cabe, en vía administrativa, el recurso extraordinario de revisión en los supuestos tasados (art. 122.3); queda abierta la vía contencioso-administrativa.",
+      "excerpt": "Contra la resolución de un recurso de alzada no cabrá ningún otro recurso administrativo, salvo el recurso extraordinario de revisión, en los casos establecidos en el artículo 125.1.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 118.1 LPAC",
+      "stem": "Al tramitar un recurso de alzada, Dña. Lucía Ferrer advierte que deben tenerse en cuenta documentos que no estaban en el expediente originario. Según la Ley 39/2015, ¿qué plazo debe darse a los interesados para formular alegaciones?",
+      "options": [
+        "No inferior a cinco días ni superior a diez.",
+        "Un mes.",
+        "Veinte días hábiles.",
+        "No inferior a diez días ni superior a quince."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Cuando hayan de tenerse en cuenta nuevos hechos o documentos, se ponen de manifiesto a los interesados por un plazo de diez a quince días (art. 118.1).",
+      "excerpt": "Cuando hayan de tenerse en cuenta nuevos hechos o documentos no recogidos en el expediente originario, se pondrán de manifiesto a los interesados para que, en un plazo no inferior a diez días ni superior a quince, formulen las alegaciones",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 115.2 LPAC",
+      "stem": "Un interesado presenta un escrito titulado «recurso de reposición» contra una resolución de un Director General que no pone fin a la vía administrativa; de su contenido se deduce que lo que pretende es que la revise el órgano superior. ¿Qué debe hacer la unidad de Dña. Lucía Ferrer?",
+      "options": [
+        "Inadmitirlo por error en la calificación del recurso.",
+        "Tramitarlo como recurso de alzada, porque el error en la calificación no impide su tramitación si se deduce su verdadero carácter.",
+        "Requerir al interesado para que presente un nuevo escrito con la calificación correcta, con apercibimiento de desistimiento.",
+        "Tramitarlo como recurso de reposición, ya que el órgano está vinculado por la calificación del recurrente."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El error o la ausencia de calificación no es obstáculo para tramitar el recurso, siempre que se deduzca su verdadero carácter (art. 115.2); contra actos que no agotan la vía procede la alzada.",
+      "excerpt": "El error o la ausencia de la calificación del recurso por parte del recurrente no será obstáculo para su tramitación, siempre que se deduzca su verdadero carácter.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

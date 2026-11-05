@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-rdcal-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 951/2005, de 29 de julio, marco general para la mejora de la calidad en la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15.2 RD 951/2005",
+      "stem": "D. Martín Olmedo usa silla de ruedas y no puede acceder a la oficina de registro de la Confederación porque solo hay escaleras. Decide presentar una queja por correo electrónico. Según el Real Decreto 951/2005, ¿qué requisito debe cumplir esa queja?",
+      "options": [
+        "Debe presentarse en el formulario en papel diseñado por el organismo.",
+        "Debe ir acompañada de copia compulsada del documento de identidad.",
+        "Debe estar suscrita con la firma electrónica del interesado.",
+        "No necesita ningún requisito adicional, porque basta con indicar nombre y apellidos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Las quejas y sugerencias pueden formularse presencialmente, por correo postal o por medios telemáticos; las presentadas por correo electrónico o por Internet deben ir firmadas electrónicamente (art. 15.2).",
+      "excerpt": "Las quejas y sugerencias presentadas por correo electrónico o a través de Internet deberán estar suscritas con la firma electrónica del interesado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

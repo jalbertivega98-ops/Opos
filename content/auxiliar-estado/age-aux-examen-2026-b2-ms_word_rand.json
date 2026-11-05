@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_word_rand-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cómo insertar texto de ejemplo en Word",
+      "url": "https://support.microsoft.com/es-es/office/c%C3%B3mo-insertar-texto-de-ejemplo-en-microsoft-office-word-0d648b7c-e2ac-41c4-aca0-bbe4dd676f87",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Word · =rand()",
+      "stem": "En Word, si escribe =rand() sin parámetros y pulsa Entrar, ¿cuántos párrafos de texto de ejemplo se insertan por defecto?",
+      "options": [
+        "Tres.",
+        "Uno.",
+        "Cinco.",
+        "Diez."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La función =rand(p,l) inserta texto de ejemplo: p es el número de párrafos y l el de líneas por párrafo. Si se omiten los parámetros, se insertan tres párrafos.",
+      "excerpt": "Si omite los parámetros, el número predeterminado de párrafos es tres",
+      "excerpt_status": "completo"
+    }
+  ]
+}

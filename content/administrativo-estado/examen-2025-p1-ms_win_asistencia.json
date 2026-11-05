@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_win_asistencia-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Solucionar problemas de PC de forma remota con Asistencia rápida",
+      "url": "https://support.microsoft.com/es-es/windows/apps/solve-pc-problems-remotely-using-quick-assist",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Asistencia rápida",
+      "stem": "¿Para qué sirve la aplicación Asistencia rápida de Windows?",
+      "options": [
+        "Para abrir una incidencia con el fabricante del equipo.",
+        "Para que una persona de confianza vea la pantalla o controle el equipo mediante una conexión remota y ayude con un problema.",
+        "Para restaurar el sistema a un punto anterior.",
+        "Para consultar las contraseñas guardadas en la cuenta de Microsoft."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Asistencia rápida usa una conexión remota: la otra persona puede ver la pantalla o controlar el equipo, si se permite.",
+      "excerpt": "Asistencia rápida utiliza una conexión remota, por lo que recuerda que solo debe usarse con personas de confianza, ya que pueden ver la pantalla del equipo o controlar el equipo (si lo permites).",
+      "excerpt_status": "completo"
+    }
+  ]
+}

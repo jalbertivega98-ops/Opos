@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_outlook_reglas-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Configurar reglas en Outlook",
+      "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Reglas de Outlook",
+      "stem": "En Outlook, para que todos los mensajes cuyo asunto contenga «Nóminas» se muevan automáticamente a una carpeta, se debe crear:",
+      "options": [
+        "Una categoría.",
+        "Una firma.",
+        "Un elemento rápido.",
+        "Una regla."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Las reglas mueven, marcan y responden mensajes automáticamente, por ejemplo con la condición «El asunto contiene».",
+      "excerpt": "Las reglas le permiten mover, marcar y responder a mensajes de correo electrónico automáticamente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

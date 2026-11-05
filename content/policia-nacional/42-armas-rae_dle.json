@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "set": "pn-42-armas-rae_dle-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 42. Armas de fuego: definición, clasificación y categorías, armas prohibidas y documentación (Reglamento de Armas)",
+    "topic_slug": "pn-42-armas",
+    "locale": "es",
+    "category": "pn_42_armas",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario de la lengua española (RAE-ASALE), 23.ª ed., versión electrónica: entradas citadas",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DLE, balística 1.a",
+      "stem": "Según el Diccionario de la lengua española, el estudio del movimiento y efectos de los proyectiles de las armas de fuego es la:",
+      "options": [
+        "Dactiloscopia.",
+        "Balística.",
+        "Pirotecnia."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El DLE define la balística (acepción 1.a) como el estudio del movimiento y efectos de los proyectiles de las armas de fuego; su ejemplo menciona a los expertos en balística de la Policía Judicial.",
+      "excerpt": "Estudio del movimiento y efectos de los proyectiles de las armas de fuego.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, ánima 3",
+      "stem": "Según el Diccionario de la lengua española, en las piezas de artillería y en toda arma de fuego, en general, el hueco del cañón se denomina:",
+      "options": [
+        "Ánima.",
+        "Recámara.",
+        "Vaina."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La acepción 3 de «ánima» es el hueco del cañón de las armas de fuego. La recámara es el lugar del ánima, en el extremo opuesto a la boca, donde se coloca el cartucho.",
+      "excerpt": "En las piezas de artillería y en toda arma de fuego, en general, el hueco del cañón.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, recámara 1.a",
+      "stem": "Según el Diccionario de la lengua española, en las armas de fuego, el lugar del ánima del cañón al extremo opuesto a la boca, en el cual se coloca el cartucho, es la:",
+      "options": [
+        "Culata.",
+        "Corredera.",
+        "Recámara."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DLE define la recámara (acepción 1.a) como el lugar del ánima del cañón, opuesto a la boca, en el que se coloca el cartucho.",
+      "excerpt": "En las armas de fuego, lugar del ánima del cañón al extremo opuesto a la boca, en el cual se coloca el cartucho.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, percutor",
+      "stem": "Según el Diccionario de la lengua española, la pieza que golpea en cualquier máquina, y especialmente el martillo o la aguja con que se hace detonar el cebo del cartucho en las armas de fuego, es el:",
+      "options": [
+        "Gatillo.",
+        "Percutor.",
+        "Fulminante."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El DLE define el percutor (del francés percuteur) como la pieza que golpea y, en las armas de fuego, el martillo o aguja que hace detonar el cebo del cartucho. El fulminante es la materia capaz de hacer estallar cargas explosivas.",
+      "excerpt": "Pieza que golpea en cualquier máquina, y especialmente el martillo o la aguja con que se hace detonar el cebo del cartucho en las armas de fuego.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, vaina 2.c",
+      "stem": "Según el Diccionario de la lengua española, en el ámbito militar, la parte metálica de la munición que contiene la carga explosiva es la:",
+      "options": [
+        "Ojiva.",
+        "Vaina.",
+        "Bala."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La acepción 2.c de «vaina» (Milicia) es la parte metálica de la munición que contiene la carga explosiva.",
+      "excerpt": "Milicia Parte metálica de la munición, que contiene la carga explosiva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, fulminante 1.c",
+      "stem": "Según el Diccionario de la lengua española, la materia capaz de hacer estallar cargas explosivas, como la del cartucho, se denomina:",
+      "options": [
+        "Percutor.",
+        "Propulsor.",
+        "Fulminante."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La acepción 1.c de «fulminante» se dice de la materia capaz de hacer estallar cargas explosivas; se usa también como sustantivo masculino: «El fulminante de un cartucho».",
+      "excerpt": "Dicho de una materia, capaz de hacer estallar cargas explosivas.U. t. c. s. m. El fulminante de un cartucho.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

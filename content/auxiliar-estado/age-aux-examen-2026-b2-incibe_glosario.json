@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-incibe_glosario-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Glosario de términos de ciberseguridad: una guía de aproximación para el empresario (2021)",
+      "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "INCIBE · Adware (sinónimo: Malvertising)",
+      "stem": "Según el glosario de ciberseguridad de INCIBE, ¿qué término figura como sinónimo de «adware», el software que se apoya en anuncios como parte del propio programa?",
+      "options": [
+        "Spoofing.",
+        "Malvertising.",
+        "Keylogger.",
+        "Botnet."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "INCIBE define el adware como software que se apoya en anuncios, normalmente para financiarse, y recoge «malvertising» como sinónimo. El keylogger registra las pulsaciones del teclado y la botnet es una red de equipos controlados remotamente.",
+      "excerpt": "Software que se apoya en anuncios (normalmente para financiarse) como parte del propio programa. […] Sinónimo: Malvertising",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE · SGSI (ISO/IEC 27001)",
+      "stem": "Un Sistema de Gestión de la Seguridad de la Información (SGSI) es, según INCIBE, un conjunto de políticas de seguridad de la información que siguen la norma:",
+      "options": [
+        "ISO/IEC 27001.",
+        "ISO 9001.",
+        "ISO 14001.",
+        "ISO/IEC 20000."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "INCIBE define el SGSI como un conjunto de políticas de seguridad de la información que siguen la norma ISO/IEC 27001 (familia ISO 27000). ISO 9001 es de gestión de la calidad e ISO 14001, ambiental.",
+      "excerpt": "Un Sistema de Gestión de la seguridad de la Información (SGSI) es un conjunto de políticas de seguridad de la información que siguen la norma ISO/IEC 27001.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE · Insider (pregunta oficial anulada)",
+      "stem": "En ciberseguridad, ¿qué es un «insider» según el glosario de INCIBE?",
+      "options": [
+        "Un programa que se instala sin permiso y espía la actividad del usuario.",
+        "Un atacante externo que suplanta la identidad de un empleado por correo electrónico.",
+        "Una vulnerabilidad desconocida por el fabricante del software.",
+        "Una persona de la propia organización que divulga intencionadamente información sensible de ella."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Para INCIBE, insider es una persona perteneciente a la organización que divulga información sensible de forma intencionada. La vulnerabilidad desconocida por el fabricante es un día cero; el programa espía es spyware. (La pregunta oficial equivalente fue anulada.)",
+      "excerpt": "Persona perteneciente a una organización o empresa que divulga información sensible sobre dicha empresa de forma intencionada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE · VPN",
+      "stem": "¿Qué es una VPN (red privada virtual)?",
+      "options": [
+        "Un programa antivirus de uso empresarial.",
+        "Un servidor que traduce nombres de dominio en direcciones IP.",
+        "Una tecnología que extiende de forma segura una red local sobre una red pública como Internet.",
+        "Un tipo de cable para conectar redes locales."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "INCIBE define la VPN como tecnología de red que permite una extensión segura de una LAN sobre una red pública o no controlada como Internet. Traducir nombres en IP es función del DNS.",
+      "excerpt": "Una red privada virtual, también conocida por sus siglas VPN (Virtual Private Network) es una tecnología de red que permite una extensión segura de una red local (LAN) sobre una red pública o no controlada como Internet.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-40-inteligencia-osint-ccn_stic425-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 40. Inteligencia: ciclo de inteligencia, fuentes (OSINT) y el Centro Nacional de Inteligencia",
+    "topic_slug": "pn-40-inteligencia-osint",
+    "locale": "es",
+    "category": "pn_40_inteligencia_osint",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Guía CCN-STIC-425, Ciclo de Inteligencia y Análisis de Intrusiones (octubre de 2015), págs. 6-10 y 42-44",
+      "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+      "kind": "web_oficial",
+      "publisher": "Centro Criptológico Nacional (CCN-CERT), adscrito al CNI",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "CCN-STIC-425, apdo. 2.2, párr. 9",
+      "stem": "Según la guía CCN-STIC-425 del Centro Criptológico Nacional, las actividades de inteligencia pueden agruparse en seis fases: Dirección y Planificación, Recolección, Transformación, Análisis y Producción, Difusión y:",
+      "options": [
+        "Explotación.",
+        "Archivo.",
+        "Evaluación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La guía CCN-STIC-425 enumera seis fases del Ciclo de Inteligencia; la de Evaluación tiene lugar tras cada una de las otras cinco para alinear sus resultados con los objetivos.",
+      "excerpt": "9. Las actividades de inteligencia pueden agruparse en las siguientes seis fases: […] Dirección y Planificación. […] Recolección. […] Transformación. […] Análisis y Producción. […] Difusión. […] Evaluación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-STIC-425, apdo. 2.2.2, párr. 16",
+      "stem": "Según la guía CCN-STIC-425, el objetivo de la fase de Recolección es recopilar:",
+      "options": [
+        "Los datos en bruto necesarios (información) para producir el producto final deseado (inteligencia).",
+        "El producto final de inteligencia para su entrega al consumidor.",
+        "Los requisitos de inteligencia de la organización consumidora."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La guía distingue la información (datos en bruto) de la inteligencia (producto final). Establecer los requisitos corresponde a la fase de Dirección y Planificación.",
+      "excerpt": "16. El objetivo de esta fase es recopilar los datos en bruto necesarios (información) para producir el producto final deseado (inteligencia).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-STIC-425, apdo. 2.2.2, párr. 20",
+      "stem": "Según la guía CCN-STIC-425, el único tipo de inteligencia en el que los encargados de recabar la información la obtienen directamente de las fuentes, pudiendo incluso controlar el tema tratado y dirigir la respuesta de la fuente, es la:",
+      "options": [
+        "HUMINT (Inteligencia Humana).",
+        "OSINT (Inteligencia de Fuentes Abiertas).",
+        "SIGINT (Inteligencia de Señales)."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La HUMINT procede de fuentes humanas, por vía oral o documental, y puede obtenerse de manera abierta o confidencial; quienes la recaban se denominan oficiales de obtención.",
+      "excerpt": "Se trata del único tipo de inteligencia en la que los encargados de recabar la información (denominados oficiales de obtención) la obtienen directamente de las fuentes (con su conocimiento o no), pudiendo incluso controlar el tema tratado y dirigir la respuesta de la fuente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-STIC-425, apdo. 2.2.2, párr. 22 y nota 3",
+      "stem": "Según la guía CCN-STIC-425, la Inteligencia de Señales (SIGINT) incluye la Inteligencia de Comunicaciones (COMINT), la Inteligencia de Señales de Instrumentos Extranjeros (FISINT) y la Inteligencia Electrónica (ELINT), cuyas fuentes más comunes son:",
+      "options": [
+        "Las imágenes tomadas desde satélites.",
+        "Las conversaciones telefónicas interceptadas.",
+        "Las señales de radar."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La nota 3 de la guía define la ELINT como la información derivada de señales electrónicas que no contienen voz o texto (que serían COMINT) y señala que sus fuentes más comunes son las señales de radar.",
+      "excerpt": "ELINT es la información derivada básicamente de señales electrónicas que no contienen voz o texto (consideradas COMINT). Las fuentes más comunes de ELINT son las señales de radar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-STIC-425, apdo. 2.2.3, párr. 23",
+      "stem": "Según la guía CCN-STIC-425, la fase del Ciclo de Inteligencia que tiene por objeto convertir el formato de los datos en bruto recabados de las distintas fuentes en aquellos otros formatos que posibiliten su posterior tratamiento y análisis es la de:",
+      "options": [
+        "Análisis y Producción.",
+        "Transformación.",
+        "Difusión."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La Transformación incluye, entre otros procesos, la traducción, el descifrado, la conversión de datos telemétricos y la de informes HUMINT en contenido comprensible. El Análisis y Producción integra y evalúa la información ya procesada para obtener inteligencia.",
+      "excerpt": "23. Esta fase tiene por objeto convertir el formato de los datos en bruto recabados de las distintas fuentes, en aquellos otros formatos que posibiliten su posterior tratamiento y análisis.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

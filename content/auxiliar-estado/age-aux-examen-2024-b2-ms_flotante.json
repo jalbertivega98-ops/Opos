@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_flotante-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Tipos numéricos de punto flotante",
+      "url": "https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Tipos numéricos de punto flotante",
+      "stem": "En programación, los tipos numéricos de coma (punto) flotante se usan para representar:",
+      "options": [
+        "Números reales.",
+        "Solo números enteros positivos.",
+        "Caracteres alfanuméricos.",
+        "Valores lógicos verdadero/falso."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Los tipos de punto flotante (coma flotante) representan números reales, con parte decimal; los enteros, los caracteres y los booleanos tienen sus propios tipos.",
+      "excerpt": "Los tipos numéricos de punto flotante representan números reales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

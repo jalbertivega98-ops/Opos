@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-eu_ria-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Reglamento (UE) 2024/1689, de inteligencia artificial (arts. 3 y 50)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32024R1689",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea · EUR-Lex (DO L, 12.7.2024)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Sistema de IA (Reglamento UE 2024/1689)",
+      "stem": "Según el artículo 3 del Reglamento (UE) 2024/1689, de inteligencia artificial, un «sistema de IA» es un sistema basado en una máquina que:",
+      "options": [
+        "Ejecuta siempre instrucciones fijas sin ningún grado de autonomía.",
+        "Infiere de la información de entrada que recibe la manera de generar resultados de salida, como predicciones, contenidos, recomendaciones o decisiones.",
+        "Solo funciona conectado a internet mediante la web semántica.",
+        "Se limita a almacenar páginas web dinámicas."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La definición legal subraya la autonomía, la adaptación y la inferencia para generar resultados de salida.",
+      "excerpt": "«sistema de IA»: un sistema basado en una máquina que está diseñado para funcionar con distintos niveles de autonomía y que puede mostrar capacidad de adaptación tras el despliegue, y que, para objetivos explícitos o implícitos, infiere de la información de entrada que recibe la manera de generar resultados de salida",
+      "excerpt_status": "completo",
+      "review_note": "La pregunta oficial trataba de la «web 4.0»; no hay definición oficial de ese término, así que la réplica pregunta por el concepto de IA con su definición legal."
+    }
+  ]
+}

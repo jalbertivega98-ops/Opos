@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_excel_almohadillas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cómo corregir un error #####",
+      "url": "https://support.microsoft.com/es-es/office/c%C3%B3mo-corregir-un-error-bf801d0a-2a6e-44bd-a70e-0f780ae8f11e",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Excel · Error #####",
+      "stem": "Una celda de Excel muestra ##### aunque la columna es suficientemente ancha. ¿Cuál puede ser la causa?",
+      "options": [
+        "Que la fórmula hace referencia a una celda vacía.",
+        "Que se divide un número entre cero.",
+        "Que la fórmula devuelve una fecha u hora con valor negativo.",
+        "Que la función utilizada no existe."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "##### aparece cuando la columna no es lo bastante ancha o cuando una fórmula devuelve fechas u horas negativas. La división entre cero da #¡DIV/0! y una función inexistente, #¿NOMBRE?.",
+      "excerpt": "Las fórmulas que devuelven fechas y horas como valores negativos también pueden mostrarse como #####.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

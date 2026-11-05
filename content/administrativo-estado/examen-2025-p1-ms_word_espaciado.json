@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_word_espaciado-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cambiar los espacios entre el texto en Word",
+      "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Espaciado de caracteres en Word",
+      "stem": "En Word 365 se quiere separar por igual todas las letras de un título. ¿Qué opción del espaciado de caracteres hay que elegir?",
+      "options": [
+        "Condensado.",
+        "Interletraje.",
+        "Expandido.",
+        "Versalitas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Expandido o Condensado modifican por igual el espacio entre todas las letras; el interletraje solo actúa sobre pares concretos.",
+      "excerpt": "Al seleccionar Expandido o Condensado, se modifica el espaciado entre todas las letras seleccionadas en la misma cantidad. Interletraje modifica el espaciado entre pares de letras concretos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

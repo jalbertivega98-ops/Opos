@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_access_tipos-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tipos de datos para bases de datos de escritorio de Access",
+      "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tipo de datos Moneda",
+      "stem": "En Access, ¿con cuántas posiciones decimales de precisión almacena los datos el tipo Moneda?",
+      "options": [
+        "Dos.",
+        "Ninguna.",
+        "Cuatro.",
+        "Quince."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El tipo Moneda almacena los datos con 4 posiciones decimales y ocupa 8 bytes. En el examen original esta pregunta fue anulada; se replica sobre el mismo tipo de datos.",
+      "excerpt": "Datos monetarios, almacenados con 4 posiciones decimales de precisión.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

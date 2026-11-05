@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-rcp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 1405/1986, de 6 de junio, Reglamento del Registro Central de Personal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-18101",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 13.1.2 RD 1405/1986",
+      "stem": "Según el Reglamento del Registro Central de Personal (Real Decreto 1405/1986), ¿cuál de los siguientes actos relativos al personal laboral es de anotación preceptiva?",
+      "options": [
+        "La adquisición del grado personal.",
+        "Las prórrogas de contrato.",
+        "Las tomas de posesión en el primer puesto de trabajo.",
+        "El reconocimiento de trienios."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Para el personal laboral se anotan altas, bajas, reingresos, cambios de destino, prórrogas de contrato, excedencia, etc.; grado personal, tomas de posesión y trienios son anotaciones propias del personal funcionario.",
+      "excerpt": "1.2 Referente a personal laboral. a) Altas. b) Bajas temporales y definitivas. c) Reingresos. d) Cambios de destino. e) Prórrogas de contrato.",
+      "excerpt_status": "completo",
+      "review_note": "En el examen oficial esta pregunta fue anulada en la plantilla definitiva; la réplica pregunta por el mismo punto con el texto vigente."
+    }
+  ]
+}

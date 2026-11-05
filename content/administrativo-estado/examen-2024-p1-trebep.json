@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-trebep-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10.1.b TREBEP",
+      "stem": "Según el TREBEP, ¿cuál de las siguientes circunstancias permite nombrar funcionarios interinos?",
+      "options": [
+        "La cobertura de puestos de libre designación.",
+        "La sustitución transitoria de los titulares, durante el tiempo estrictamente necesario.",
+        "El exceso o acumulación de tareas por un plazo máximo de dos años.",
+        "La ejecución de programas de carácter permanente."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 10.1 recoge vacantes (máx. tres años), sustitución transitoria, programas temporales (máx. tres años) y acumulación de tareas (máx. nueve meses en dieciocho).",
+      "excerpt": "La sustitución transitoria de los titulares, durante el tiempo estrictamente necesario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62.1 TREBEP",
+      "stem": "Según el TREBEP, ¿cuál de los siguientes es un requisito para adquirir la condición de funcionario de carrera?",
+      "options": [
+        "La superación de un periodo de prueba de seis meses.",
+        "La afiliación a una mutualidad de funcionarios.",
+        "La obtención de un grado personal.",
+        "El acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Los requisitos son superar el proceso selectivo, el nombramiento publicado, el acatamiento y la toma de posesión (art. 62.1).",
+      "excerpt": "Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 61.7 TREBEP",
+      "stem": "Según el TREBEP, los sistemas selectivos del personal laboral fijo son:",
+      "options": [
+        "Solo oposición y concurso-oposición.",
+        "Oposición, concurso-oposición o concurso de valoración de méritos.",
+        "Concurso-oposición y libre designación.",
+        "Solo concurso de valoración de méritos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Para el personal laboral fijo se admite también el concurso de valoración de méritos (art. 61.7); para funcionarios de carrera el concurso solo cabe excepcionalmente por ley (art. 61.6).",
+      "excerpt": "Los sistemas selectivos de personal laboral fijo serán los de oposición, concurso-oposición, con las características establecidas en el apartado anterior, o concurso de valoración de méritos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.7 TREBEP",
+      "stem": "Entre los principios éticos de los empleados públicos recogidos en el TREBEP figura:",
+      "options": [
+        "Aceptar regalos de cortesía de entidades privadas de cualquier valor.",
+        "Priorizar los intereses del propio servicio sobre los de la ciudadanía.",
+        "No aceptar ningún trato de favor o situación que implique privilegio o ventaja injustificada.",
+        "Mantener la reserva absoluta frente a sus superiores."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Es el principio ético del art. 53.7.",
+      "excerpt": "No aceptarán ningún trato de favor o situación que implique privilegio o ventaja injustificada, por parte de personas físicas o entidades privadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 98.3 TREBEP",
+      "stem": "Como medida cautelar en un expediente disciplinario, la suspensión provisional de un funcionario no podrá exceder, con carácter general, de:",
+      "options": [
+        "Tres meses, en todo caso.",
+        "Un año, prorrogable por otro.",
+        "Dos meses, salvo falta muy grave.",
+        "Seis meses, salvo paralización del procedimiento imputable al interesado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 98.3 fija el máximo de seis meses, salvo paralización imputable al interesado.",
+      "excerpt": "La suspensión provisional como medida cautelar en la tramitación de un expediente disciplinario no podrá exceder de 6 meses, salvo en caso de paralización del procedimiento imputable al interesado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

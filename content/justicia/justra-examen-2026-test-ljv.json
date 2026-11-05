@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-test-ljv-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, primer ejercicio (100 preguntas)",
+    "topic_slug": "justra-examen-2026-test",
+    "locale": "es",
+    "category": "justra_examen_2026_test",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 15/2015, de 2 de julio, de la Jurisdicción Voluntaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-7391",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del primer ejercicio de Tramitación Procesal y Administrativa del 03/10/2026: 100 preguntas, 4 opciones, 100 minutos; acierto +0,60, error −0,15; nota de 0 a 60 y mínimo 30. Cada pregunta es original y replica el punto de la pregunta oficial del mismo número."
+  },
+  "questions": [
+    {
+      "ref": "Art. 17.3 LJV",
+      "stem": "En un expediente de jurisdicción voluntaria, el interesado que vaya a oponerse, ¿en qué plazo debe hacerlo?",
+      "options": [
+        "En los diez días siguientes a su citación.",
+        "En el mismo acto de la comparecencia.",
+        "En los quince días anteriores a la comparecencia.",
+        "En los cinco días siguientes a su citación."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 17.3 LJV exige formular la oposición en los cinco días siguientes a la citación, que se practica con al menos quince días de antelación a la comparecencia.",
+      "excerpt": "Si alguno de los interesados fuera a formular oposición, deberá hacerlo en los 5 días siguientes a su citación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 99.2 LJV",
+      "stem": "Admitida una solicitud de consignación judicial, ¿qué plazo tienen los interesados para retirar la cosa debida o formular alegaciones?",
+      "options": [
+        "Diez días.",
+        "Cinco días.",
+        "Veinte días.",
+        "Un mes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El LAJ notifica la consignación a los interesados para que en diez días retiren la cosa debida o aleguen (art. 99.2 LJV).",
+      "excerpt": "éste notificará a los interesados la existencia de la consignación, a los efectos de que en el plazo de diez días retiren la cosa debida o realicen las alegaciones que consideren oportunas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 147 LJV",
+      "stem": "Señale la afirmación INCORRECTA sobre la ejecución de lo convenido en un acto de conciliación según el artículo 147 de la LJV:",
+      "options": [
+        "El testimonio del acta junto con el del decreto o auto que hace constar la avenencia lleva aparejada ejecución.",
+        "La ejecución se sigue por los trámites propios de la Ley de la Jurisdicción Voluntaria, no por los de la LEC.",
+        "Si el asunto es de la competencia del propio Juzgado, ejecuta el mismo Juzgado que tramitó la conciliación.",
+        "En los demás casos es competente el Juzgado de Primera Instancia al que hubiera correspondido conocer de la demanda."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La ejecución se lleva a cabo conforme a la LEC para la ejecución de sentencias y convenios judicialmente aprobados (art. 147.3 LJV).",
+      "excerpt": "3\\. La ejecución se llevará a cabo conforme a lo establecido en la Ley de Enjuiciamiento Civil para la ejecución de sentencias y convenios judicialmente aprobados.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

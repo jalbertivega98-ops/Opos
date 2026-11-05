@@ -12,6 +12,11 @@
 - El simulacro de 60 reparte 15 de la parte general y 45 de la específica (`quotas`).
 - Siguiente: precio del pack y guía SEO.
 
+### Exámenes réplica y material completo (2026-11-05, CNT-025, ADR-034)
+
+- Réplicas pregunta a pregunta y sus simulacros (`*-simulacro-examen-*`, `mossos-simulacre-examen-*`); mapas sin copiar enunciados en `/mnt/project-files/aprobia/fuentes-oficiales/*/replicas/`. Preview `44-` (temario), `45-` (publicación; quita la nota a las dudosas resueltas) y `46-` (simulacros réplica, verbales en Auxiliar, actualidad en Mossos, PN 28-29).
+- Pendiente: renovar `mossos-d-actualitat` cada trimestre; réplicas de los supuestos II de Administrativo; dudosas que siguen en borrador (~40 en todo el banco).
+
 ### Exámenes reales: practicar con lo que cae (2026-11-05, CNT-024, ADR-033)
 
 - Informes por oposición en `/mnt/project-files/aprobia/examenes-reales/` (exámenes oficiales, reparto por tema, huecos, simulacro recomendado) y resumen en el Claude Doc «Lo que cae en cada oposición».

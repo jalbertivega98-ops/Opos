@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_excel_regex-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Función REGEXPRUEBA",
+      "url": "https://support.microsoft.com/es-es/office/funci%C3%B3n-regextest-7d38200b-5e5c-4196-b4e6-9bff73afbd31",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Excel · REGEXPRUEBA",
+      "stem": "En Excel 365, ¿qué devuelve la función REGEXPRUEBA?",
+      "options": [
+        "VERDADERO o FALSO según alguna parte del texto coincida o no con el patrón.",
+        "La posición del primer carácter que coincide con el patrón.",
+        "El texto que coincide con el patrón.",
+        "El número de coincidencias encontradas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "REGEXPRUEBA comprueba si alguna parte del texto coincide con una expresión regular y devuelve un valor lógico. Extraer la coincidencia corresponde a REGEXEXTRAER.",
+      "excerpt": "La función REGEXPRUEBA determina si alguna parte del texto coincide con el patrón. […] Se devolverá VERDADERO si hay una coincidencia y FALSO si no la hay.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

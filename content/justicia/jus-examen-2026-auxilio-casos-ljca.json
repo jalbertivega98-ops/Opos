@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "set": "jus-examen-2026-auxilio-casos-ljca-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Auxilio Judicial, segundo ejercicio (2 casos prácticos, 40 preguntas)",
+    "topic_slug": "jus-examen-2026-auxilio-casos",
+    "locale": "es",
+    "category": "jus_examen_2026_auxilio_casos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del segundo ejercicio de Auxilio Judicial del 03/10/2026: 2 casos prácticos (contencioso-administrativo abreviado y despido), 40 preguntas, 4 opciones, 60 minutos; acierto +1, error −0,25; nota de 0 a 40 y mínimo 20. Casos y preguntas de redacción original; cada pregunta incluye el dato del caso que necesita."
+  },
+  "questions": [
+    {
+      "ref": "Art. 14.1 LJCA",
+      "stem": "Caso 1. Marta recurre una sanción de la Consejería de Medio Ambiente de su comunidad autónoma y vive en otra provincia de la misma comunidad. Según el artículo 14.1 de la LJCA, ¿qué Juzgado es territorialmente competente?",
+      "options": [
+        "Únicamente el de la circunscripción en que tenga su sede el órgano que dictó la sanción.",
+        "Únicamente el de la circunscripción del domicilio de Marta, por tratarse de una sanción.",
+        "A elección de Marta, el de la circunscripción de su domicilio o el de la sede del órgano autor del acto originario, dentro de la circunscripción del Tribunal Superior de Justicia donde tenga su sede ese órgano.",
+        "El Juzgado Central de lo Contencioso-Administrativo, por ser la sanción de una Administración autonómica."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En materia de sanciones rige el fuero electivo de la regla segunda del art. 14.1 LJCA (domicilio del demandante o sede del órgano). Si el acto es autonómico, la elección queda limitada a la circunscripción del TSJ donde tiene su sede el órgano autor del acto.",
+      "excerpt": "Segunda. Cuando el recurso tenga por objeto actos de las Administraciones públicas en materia de responsabilidad patrimonial, personal, propiedades especiales y sanciones será competente, a elección del demandante, el juzgado o el tribunal en cuya circunscripción tenga aquél su domicilio o se halle la sede del órgano autor del acto originario impugnado. […] la elección a que se refiere esta regla segunda se entenderá limitada a la circunscripción del Tribunal Superior de Justicia en que tenga su sede el órgano que hubiere dictado el acto originario impugnado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23.1 LJCA",
+      "stem": "Caso 1. El recurso de Marta se sigue ante un Juzgado (órgano unipersonal). Si, en lugar de a un procurador, hubiera conferido su representación a su abogado, ¿a quién se notificarían las actuaciones según el artículo 23 de la LJCA?",
+      "options": [
+        "A Marta personalmente, en su domicilio.",
+        "Al procurador que designe de oficio el Colegio.",
+        "Al abogado y, además, a Marta en su domicilio.",
+        "Al abogado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ante órganos unipersonales las partes pueden conferir su representación a un procurador y son asistidas en todo caso por abogado. Si la representación se confiere al abogado, a él se notifican las actuaciones.",
+      "excerpt": "Cuando las partes confieran su representación al Abogado, será a éste a quien se notifiquen las actuaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.1 LJCA",
+      "stem": "Caso 1. La sanción impugnada por Marta es de 6.500 €. ¿Por qué procedimiento conocerá el Juzgado de lo Contencioso-Administrativo?",
+      "options": [
+        "Por el procedimiento abreviado, al no superar la cuantía los 30.000 euros.",
+        "Por el procedimiento ordinario, por tratarse de una sanción.",
+        "Por el procedimiento para la protección de los derechos fundamentales.",
+        "Por el procedimiento abreviado solo si la Administración demandada presta su conformidad."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 78.1 LJCA atribuye al procedimiento abreviado, entre otros, todos los asuntos cuya cuantía no supere los 30.000 euros.",
+      "excerpt": "así como todas aquellas cuya cuantía no supere los 30.000 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 45.3 LJCA",
+      "stem": "Caso 1. Al examinar la comparecencia de Marta se advierte que no se ha acompañado el documento que acredita la representación del procurador. Según el artículo 45.3 de la LJCA, ¿qué plazo se concede para subsanarlo?",
+      "options": [
+        "Cinco días; si no se subsana, se tendrá a la recurrente por desistida sin más trámite.",
+        "Diez días; si no se subsana, el Juez o Tribunal se pronunciará sobre el archivo de las actuaciones.",
+        "Quince días; si no se subsana, se inadmitirá el recurso por decreto.",
+        "Tres días; si no se subsana, se nombrará procurador de oficio."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Si faltan los documentos o son incompletos, se requiere inmediatamente la subsanación con un plazo de diez días; de no hacerse, el Juez o Tribunal resuelve sobre el archivo.",
+      "excerpt": "requerirá inmediatamente la subsanación de los mismos, señalando un plazo de diez días para que el recurrente pueda llevarla a efecto y, si no lo hiciere, el Juez o Tribunal se pronunciará sobre el archivo de las actuaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 46.1 LJCA",
+      "stem": "Caso 1. La resolución sancionadora, que pone fin a la vía administrativa, se notificó expresamente a Marta. ¿Cuál es el plazo para interponer el recurso contencioso-administrativo?",
+      "options": [
+        "Dos meses, contados desde el mismo día de la notificación.",
+        "Dos meses, contados desde el día siguiente al de la notificación.",
+        "Seis meses, contados desde el día siguiente al de la notificación.",
+        "Un mes, contado desde el día siguiente al de la notificación."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Para actos expresos que ponen fin a la vía administrativa, el art. 46.1 LJCA fija dos meses desde el día siguiente a la notificación; los seis meses son para el acto presunto.",
+      "excerpt": "El plazo para interponer el recurso contencioso-administrativo será de dos meses contados desde el día siguiente al de la publicación de la disposición impugnada o al de la notificación o publicación del acto que ponga fin a la vía administrativa, si fuera expreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 57 LJCA",
+      "stem": "Caso 1. Marta pidió por otrosí que el recurso se fallara sin prueba ni vista, y la Administración, al contestar, solicita la inadmisión del recurso. Según el artículo 57 de la LJCA, ¿qué procede?",
+      "options": [
+        "Dar traslado a Marta para que en cinco días formule alegaciones sobre la posible causa de inadmisión y, seguidamente, declarar concluso el pleito.",
+        "Convocar de oficio a las partes a una vista para resolver sobre la inadmisión.",
+        "Dictar directamente auto de inadmisión, sin oír a la demandante.",
+        "Dar traslado a Marta por diez días para que amplíe la demanda."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Cuando no hay prueba ni vista y el demandado pide la inadmisión, se oye al demandante cinco días sobre la causa de inadmisión y luego se declara concluso el pleito.",
+      "excerpt": "si el demandado solicita la inadmisión del recurso, se dará traslado al demandante para que en el plazo de cinco días formule las alegaciones que estime procedentes sobre la posible causa de inadmisión, y seguidamente se declarará concluso el pleito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.3 LJCA",
+      "stem": "Caso 1. Marta pidió que se fallara sin vista, pero la Administración, dentro de los diez primeros días del plazo para contestar, solicita su celebración y el juez la acuerda por auto. ¿Qué recurso cabe contra ese auto?",
+      "options": [
+        "Recurso de reposición.",
+        "Recurso de apelación en un solo efecto.",
+        "Ninguno: el auto que acuerda la celebración de vista no es recurrible.",
+        "Recurso de revisión ante el juez."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 78.3 LJCA declara irrecurrible el auto que acuerda la vista; solo el que la rechaza admite reposición.",
+      "excerpt": "El auto que acuerde la celebración de vista no será recurrible",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.4 LJCA",
+      "stem": "Caso 1. La Consejería remite el expediente administrativo de la sanción de Marta. Según el artículo 78.4 de la LJCA, ¿qué se hace con él?",
+      "options": [
+        "Se une a los autos sin traslado a las partes hasta que se dicte sentencia.",
+        "Se entrega solo al juez para que lo examine antes de la vista.",
+        "Se devuelve a la Administración una vez comprobado que está completo.",
+        "El letrado o la letrada de la Administración de Justicia lo entrega a Marta y a los interesados personados para que puedan hacer alegaciones en el acto de la vista."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Recibido el expediente, el LAJ lo entrega al actor y a los interesados personados para que puedan alegar en la vista.",
+      "excerpt": "4\\. Recibido el expediente administrativo, el letrado o la letrada de la Administración de Justicia lo entregarán al actor y a las personas interesadas que se hubieren personado para que puedan hacer alegaciones en el acto de la vista.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.5 LJCA",
+      "stem": "Caso 1. El día señalado para la vista solo comparece el letrado de la comunidad autónoma; ni Marta ni su procurador acuden. ¿Qué acordará el juez?",
+      "options": [
+        "Tener a Marta por desistida del recurso y condenarla en costas.",
+        "Celebrar la vista en ausencia de la actora y dictar sentencia.",
+        "Suspender la vista y señalar nueva fecha.",
+        "Declarar a Marta en rebeldía y continuar el procedimiento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Si no comparece ninguna parte o solo el demandado, el actor se tiene por desistido y se le condena en costas (art. 78.5 LJCA).",
+      "excerpt": "Si las partes no comparecieren o lo hiciere sólo el demandado, el Juez o Tribunal tendrá al actor por desistido del recurso y le condenará en costas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.20 LJCA",
+      "stem": "Caso 1. Celebrada la vista del recurso de Marta, ¿en qué plazo debe dictarse sentencia si no se dicta oralmente?",
+      "options": [
+        "En cinco días desde la celebración de la vista.",
+        "En diez días desde la celebración de la vista.",
+        "En veinte días desde la celebración de la vista.",
+        "En un mes desde la celebración de la vista."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 78.20 LJCA fija diez días desde la vista, sin perjuicio de que la sentencia se dicte oralmente al concluir el acto.",
+      "excerpt": "El juez o la jueza dictarán sentencia en el plazo de diez días desde la celebración de la vista.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 81.1.a) LJCA",
+      "stem": "Caso 1. El Juzgado desestima el recurso de Marta contra la sanción de 6.500 € en una sentencia sobre el fondo. ¿Cabe recurso de apelación?",
+      "options": [
+        "Sí, porque las sentencias de los Juzgados son siempre apelables.",
+        "Sí, pero solo si la Administración se adhiere.",
+        "No, porque en el procedimiento abreviado solo cabe recurso de casación.",
+        "No, porque la cuantía no excede de 30.000 euros."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "No son apelables las sentencias en asuntos de cuantía no superior a 30.000 € (art. 81.1.a), salvo los casos del art. 81.2, como la que declara la inadmisibilidad.",
+      "excerpt": "a) Aquellos cuya cuantía no exceda de 30.000 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.3 LJCA",
+      "stem": "Caso 1. Admitida la demanda de Marta y citadas las partes a la vista, ¿con qué antelación mínima se requiere a la Consejería que remita el expediente administrativo?",
+      "options": [
+        "Al menos diez días antes de la vista, en soporte papel o electrónico.",
+        "Dentro de los veinte días siguientes a la recepción del requerimiento, con independencia de la fecha de la vista.",
+        "El mismo día de la vista, en soporte electrónico.",
+        "Al menos quince días antes del término señalado para la vista, en soporte electrónico."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En el abreviado, el LAJ requiere a la Administración el expediente en soporte electrónico con al menos quince días de antelación al término señalado para la vista (art. 78.3 LJCA).",
+      "excerpt": "requerirá a la Administración demandada que remita el expediente administrativo en soporte electrónico, con al menos quince días de antelación del término señalado para la vista.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 128.1 LJCA",
+      "stem": "Caso 1. Transcurre el plazo de un trámite sin que la parte lo evacue y se le tiene por caducado el derecho. La parte presenta el escrito el mismo día en que se le notifica esa resolución, y no se trata de preparar ni interponer un recurso. ¿Qué ocurre?",
+      "options": [
+        "Se rechaza, porque los plazos son improrrogables.",
+        "Se admite solo si la parte contraria no se opone.",
+        "Se admite el escrito y produce sus efectos legales.",
+        "Se admite, pero se impone una multa a la parte por el retraso."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Aunque los plazos son improrrogables, el art. 128.1 LJCA admite el escrito presentado dentro del día en que se notifica la resolución, salvo en plazos para preparar o interponer recursos.",
+      "excerpt": "No obstante, se admitirá el escrito que proceda, y producirá sus efectos legales, si se presentare dentro del día en que se notifique la resolución, salvo cuando se trate de plazos para preparar o interponer recursos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 131 LJCA",
+      "stem": "Caso 1. Marta solicita la suspensión cautelar de la sanción de 6.500 €. ¿Cómo se tramita el incidente cautelar?",
+      "options": [
+        "En los autos principales, con audiencia de la parte contraria por cinco días, y se resuelve por sentencia.",
+        "En pieza separada, sin audiencia de la parte contraria, y se resuelve por decreto en tres días.",
+        "En pieza separada, con audiencia por veinte días, y se resuelve por providencia.",
+        "En pieza separada, con audiencia de la parte contraria por plazo no superior a diez días, y se resuelve por auto en los cinco días siguientes."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 131 LJCA ordena la pieza separada, la audiencia de la contraria (máximo diez días) y el auto en los cinco días siguientes.",
+      "excerpt": "El incidente cautelar se sustanciará en pieza separada, con audiencia de la parte contraria, que ordenará el Secretario judicial por plazo que no excederá de diez días, y será resuelto por auto dentro de los cinco días siguientes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.2 LJCA",
+      "stem": "Caso 1. El juez sospecha que el asunto planteado por Marta no corresponde al orden contencioso-administrativo. ¿Cómo debe proceder?",
+      "options": [
+        "Esperar a que la Administración demandada alegue la falta de jurisdicción.",
+        "Apreciar de oficio la falta de jurisdicción y resolver previa audiencia de las partes y del Ministerio Fiscal por plazo común de diez días.",
+        "Remitir directamente las actuaciones al órgano de otro orden jurisdiccional sin oír a nadie.",
+        "Oír solo al Ministerio Fiscal por plazo de cinco días."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La jurisdicción contencioso-administrativa es improrrogable y la falta de jurisdicción se aprecia de oficio con audiencia de partes y Ministerio Fiscal por diez días comunes.",
+      "excerpt": "2\\. Los órganos de este orden jurisdiccional apreciarán de oficio la falta de jurisdicción y resolverán sobre la misma, previa audiencia de las partes y del Ministerio Fiscal por plazo común de diez días.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

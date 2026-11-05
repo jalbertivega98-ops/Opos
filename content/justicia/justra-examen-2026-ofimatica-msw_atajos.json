@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-ofimatica-msw_atajos-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, tercer ejercicio de ofimática (20 preguntas)",
+    "topic_slug": "justra-examen-2026-ofimatica",
+    "locale": "es",
+    "category": "justra_examen_2026_ofimatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Word",
+      "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica del tercer ejercicio (ofimática) de Tramitación Procesal del 03/10/2026: 20 preguntas tipo test sobre Windows y Microsoft 365, 4 opciones, 40 minutos; acierto +1, error −0,25; nota de 0 a 20 y mínimo 10. Fuentes: documentación oficial de Microsoft en español."
+  },
+  "questions": [
+    {
+      "ref": "Word · atajos de formato",
+      "stem": "En Microsoft Word, ¿qué combinación de teclas aplica el formato de superíndice al texto seleccionado?",
+      "options": [
+        "Ctrl+signo igual (=).",
+        "Alt+Mayús+S.",
+        "Ctrl+Alt+S.",
+        "Ctrl+Mayús+signo más (+)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La página oficial de métodos abreviados de Word asigna el superíndice a Ctrl+Mayús+signo más.",
+      "excerpt": "Aplicar el formato de superíndice. Ctrl+Mayús+signo más (+)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Word · pestañas de la cinta",
+      "stem": "En Word, ¿qué pestaña de la cinta de opciones reúne los comandos de formato comunes, los estilos de párrafo y la herramienta Buscar?",
+      "options": [
+        "Inicio.",
+        "Insertar.",
+        "Diseño.",
+        "Referencias."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La pestaña Inicio (Alt, H) contiene los comandos de formato comunes, los estilos de párrafo y Buscar.",
+      "excerpt": "Abrir la pestaña Inicio para usar comandos de formato comunes, estilos de párrafo y la herramienta Buscar. Alt, H",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Word · teclas de función",
+      "stem": "En Word, ¿qué hace la tecla F4 pulsada sola?",
+      "options": [
+        "Cierra el documento actual.",
+        "Abre el panel de revisión ortográfica.",
+        "Repite el último comando o acción, si es posible.",
+        "Muestra u oculta la cinta de opciones."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "F4 repite la última acción; Ctrl+F4 cierra el documento, F7 abre el Editor y Ctrl+F1 muestra u oculta la cinta.",
+      "excerpt": "Solo F4: repite el último comando o acción, si es posible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Word · vistas del documento",
+      "stem": "En Word, ¿qué combinación de teclas cambia a la vista Diseño de impresión?",
+      "options": [
+        "Ctrl+Alt+P.",
+        "Ctrl+Alt+O.",
+        "Ctrl+Alt+N.",
+        "Ctrl+P."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ctrl+Alt+P cambia a Diseño de impresión; Ctrl+Alt+O, a Esquema; Ctrl+P imprime.",
+      "excerpt": "Cambiar a la vista Diseño de impresión. Ctrl+Alt+P",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Word · vistas del documento",
+      "stem": "En Word, ¿qué combinación de teclas cambia a la vista Esquema?",
+      "options": [
+        "Ctrl+Alt+P.",
+        "Ctrl+Alt+E.",
+        "Ctrl+Alt+O.",
+        "Alt+Mayús+O."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl+Alt+O cambia a la vista Esquema; Ctrl+Alt+P, a Diseño de impresión.",
+      "excerpt": "Cambiar a la vista Esquema. Ctrl+Alt+O",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Word · imprimir",
+      "stem": "En Word, ¿qué combinación de teclas imprime el documento?",
+      "options": [
+        "Ctrl+I.",
+        "Ctrl+P.",
+        "Ctrl+Mayús+P.",
+        "Alt+P."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl+P abre la impresión del documento.",
+      "excerpt": "Imprimir el documento. Ctrl+P",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Word · márgenes",
+      "stem": "En Word, ¿qué pestaña de la cinta de opciones permite trabajar con los márgenes de página, la orientación, la sangría y el espaciado?",
+      "options": [
+        "Disposición.",
+        "Diseño.",
+        "Inicio.",
+        "Vista."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La pestaña Disposición (Alt, P) reúne márgenes, orientación, sangría y espaciado; la pestaña Diseño se dedica a temas, colores y efectos.",
+      "excerpt": "Abrir la pestaña Disposición para trabajar con márgenes de página, la orientación de la página, la sangría y el espaciado. Alt, P",
+      "excerpt_status": "completo"
+    }
+  ]
+}

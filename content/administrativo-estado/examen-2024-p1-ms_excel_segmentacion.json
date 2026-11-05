@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_excel_segmentacion-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Usar segmentaciones para filtrar datos",
+      "url": "https://support.microsoft.com/es-es/office/usar-las-segmentaciones-para-filtrar-datos-249f966b-a9d5-4b0f-b31a-12651785d29d",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Segmentación de datos",
+      "stem": "En Excel, ¿qué herramienta muestra botones que, al pulsarlos, filtran una tabla o tabla dinámica?",
+      "options": [
+        "El formato condicional.",
+        "La segmentación de datos.",
+        "La validación de datos.",
+        "El análisis de hipótesis."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Al hacer clic en un botón de la segmentación se aplica ese filtro a la tabla o tabla dinámica vinculada.",
+      "excerpt": "Al hacer clic en cualquiera de los botones de segmentación de datos, se aplicará automáticamente ese filtro a la tabla o tabla dinámica vinculada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

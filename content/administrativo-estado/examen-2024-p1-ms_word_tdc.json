@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_word_tdc-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Insertar una tabla de contenido",
+      "url": "https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tabla de contenido y títulos",
+      "stem": "En Word, al insertar una tabla de contenido automática faltan algunos apartados. ¿Cuál es la causa más probable?",
+      "options": [
+        "Que el documento no tenga números de página.",
+        "Que esos apartados no tengan aplicado un estilo de título.",
+        "Que el documento tenga notas al pie.",
+        "Que la tabla de contenido se haya insertado al principio."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La tabla de contenido se basa en los títulos; si un apartado no tiene formato de título, no aparece.",
+      "excerpt": "Las entradas que faltan a menudo se producen porque los títulos no tienen formato de títulos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

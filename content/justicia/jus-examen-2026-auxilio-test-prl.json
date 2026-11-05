@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "jus-examen-2026-auxilio-test-prl-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Auxilio Judicial, primer ejercicio (100 preguntas)",
+    "topic_slug": "jus-examen-2026-auxilio-test",
+    "locale": "es",
+    "category": "jus_examen_2026_auxilio_test",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del primer ejercicio de Auxilio Judicial del 03/10/2026 (Orden PJC/1549/2025): 100 preguntas, 4 opciones, 100 minutos; acierto +0,60, error −0,15; nota de 0 a 60 y mínimo 30. Cada pregunta es original y replica el punto (norma y artículo) de la pregunta oficial del mismo número; no copia enunciados ni opciones."
+  },
+  "questions": [
+    {
+      "ref": "Art. 35.2 Ley 31/1995",
+      "stem": "Según la escala del artículo 35.2 de la Ley 31/1995, de Prevención de Riesgos Laborales, ¿cuántos Delegados de Prevención corresponden a un centro de 2.500 trabajadores?",
+      "options": [
+        "6 Delegados de Prevención.",
+        "5 Delegados de Prevención.",
+        "7 Delegados de Prevención.",
+        "4 Delegados de Prevención."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La escala del art. 35.2 LPRL asigna 6 Delegados de Prevención al tramo de 2.001 a 3.000 trabajadores.",
+      "excerpt": "De 1.001 a 2.000 trabajadores: 5 Delegados de Prevención. De 2.001 a 3.000 trabajadores: 6 Delegados de Prevención. De 3.001 a 4.000 trabajadores: 7 Delegados de Prevención.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2.º Ley 31/1995",
+      "stem": "Conforme al artículo 4 de la Ley 31/1995, de Prevención de Riesgos Laborales, se entiende como «riesgo laboral»:",
+      "options": [
+        "Las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.",
+        "El conjunto de actividades o medidas adoptadas para evitar o disminuir los daños derivados del trabajo.",
+        "Cualquier máquina, aparato o instalación utilizada en el trabajo.",
+        "La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 4.2.º LPRL define el riesgo laboral como posibilidad de daño; los daños derivados del trabajo (4.3.º), la prevención (4.1.º) y el equipo de trabajo (4.6.º) tienen definiciones propias.",
+      "excerpt": "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

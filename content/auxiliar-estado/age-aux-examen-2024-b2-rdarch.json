@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-rdarch-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 1708/2011, de 18 de noviembre, Sistema Español de Archivos y Sistema de Archivos de la AGE (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "RD 1708/2011 · Archivo central",
+      "stem": "En el Sistema de Archivos de la AGE, ¿qué archivo tiene como función coordinar y controlar el funcionamiento de los distintos archivos de gestión de su departamento?",
+      "options": [
+        "El archivo de oficina.",
+        "El Archivo Histórico Nacional.",
+        "El archivo intermedio.",
+        "El archivo central."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Según el RD 1708/2011, corresponde al archivo central coordinar y controlar los archivos de gestión y asesorar técnicamente a las unidades para la correcta conservación de los documentos.",
+      "excerpt": "Coordinar y controlar el funcionamiento de los distintos archivos de gestión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.a RD 1708/2011",
+      "stem": "El RD 1708/2011 define el «sistema archivístico» como:",
+      "options": [
+        "El conjunto de documentos producidos por un órgano en el ejercicio de sus funciones.",
+        "El conjunto de normas, órganos, centros y servicios competentes en la gestión eficaz de documentos y archivos.",
+        "El edificio donde se custodian los documentos de valor histórico.",
+        "La aplicación informática de gestión de expedientes."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 2.a) del RD 1708/2011 define el sistema archivístico como un conjunto de normas reguladoras y de órganos, centros y servicios competentes.",
+      "excerpt": "Sistema archivístico: Conjunto de normas reguladoras, así como de órganos, centros y servicios competentes en la gestión eficaz de los documentos y de los archivos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

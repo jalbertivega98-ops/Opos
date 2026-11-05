@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lrjsp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 63.1.f) Ley 40/2015",
+      "stem": "De acuerdo con el artículo 63 de la Ley 40/2015, desempeñar la jefatura superior de todo el personal del Departamento corresponde:",
+      "options": [
+        "Al Secretario General Técnico.",
+        "Al Subsecretario.",
+        "Al Director General competente en materia de recursos humanos.",
+        "Al Ministro, sin posibilidad de delegación."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 63.1.f) LRJSP atribuye a los Subsecretarios la jefatura superior de todo el personal del Departamento.",
+      "excerpt": "f) Desempeñar la jefatura superior de todo el personal del Departamento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 72.1 Ley 40/2015",
+      "stem": "Según el artículo 72.1 de la Ley 40/2015, la representación ordinaria del Estado en una Comunidad Autónoma corresponde:",
+      "options": [
+        "Al Delegado del Gobierno, que la ejerce en exclusiva.",
+        "Al Subdelegado del Gobierno en la provincia capital.",
+        "Al Ministro de Política Territorial.",
+        "A su Presidente; el Delegado del Gobierno representa al Gobierno de la Nación en ese territorio."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 72.1 LRJSP (en línea con el art. 152.1 CE) deja a salvo la representación ordinaria del Estado a través de los Presidentes autonómicos; el Delegado representa al Gobierno.",
+      "excerpt": "Los Delegados del Gobierno representan al Gobierno de la Nación en el territorio de la respectiva Comunidad Autónoma, sin perjuicio de la representación ordinaria del Estado en las mismas a través de sus respectivos Presidentes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.1 Ley 40/2015",
+      "stem": "Conforme al artículo 40.1 de la Ley 40/2015, la relación de sellos electrónicos utilizados por cada Administración Pública:",
+      "options": [
+        "Podrá hacerse pública si lo acuerda el órgano titular del sello.",
+        "Es reservada y solo se comunica a los prestadores de servicios de confianza.",
+        "Se publica únicamente en el Boletín Oficial del Estado.",
+        "Deberá ser pública y accesible por medios electrónicos."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Las Administraciones podrán identificarse con sello electrónico basado en certificado cualificado, y la relación de sellos debe ser pública y accesible electrónicamente.",
+      "excerpt": "La relación de sellos electrónicos utilizados por cada Administración Pública, incluyendo las características de los certificados electrónicos y los prestadores que los expiden, deberá ser pública y accesible por medios electrónicos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 32.8 Ley 40/2015",
+      "stem": "El Tribunal Constitucional declara, a instancia de parte, un funcionamiento anormal en la tramitación de un recurso de amparo. Según el artículo 32.8 de la Ley 40/2015, ¿quién fija la indemnización?",
+      "options": [
+        "El propio Tribunal Constitucional.",
+        "El Ministerio de Hacienda, previo dictamen del Consejo de Estado.",
+        "El Consejo de Ministros.",
+        "La Sala Tercera del Tribunal Supremo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 32.8 LRJSP atribuye al Consejo de Ministros la fijación del importe de esas indemnizaciones.",
+      "excerpt": "El Consejo de Ministros fijará el importe de las indemnizaciones que proceda abonar cuando el Tribunal Constitucional haya declarado, a instancia de parte interesada, la existencia de un funcionamiento anormal en la tramitación de los recursos de amparo o de las cuestiones de inconstitucionalidad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

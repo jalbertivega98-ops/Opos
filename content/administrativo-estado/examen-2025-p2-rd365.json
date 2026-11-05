@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-rd365-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 365/1995, de 10 de marzo, Reglamento de Situaciones Administrativas de los Funcionarios Civiles de la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8730",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15.1 RD 365/1995",
+      "stem": "Dña. Sara Linares supera la promoción interna al Cuerpo de Gestión de la Administración Civil del Estado y toma posesión en él. ¿En qué situación queda en su cuerpo de origen (subgrupo C1)?",
+      "options": [
+        "Servicios especiales.",
+        "Excedencia voluntaria por interés particular.",
+        "Excedencia voluntaria por prestación de servicios en el sector público.",
+        "Servicio activo en ambos cuerpos a la vez."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Quien está en servicio activo en otro cuerpo o escala de cualquier Administración pasa, en el de origen, a excedencia voluntaria por prestación de servicios en el sector público, salvo que haya obtenido la compatibilidad (art. 15.1).",
+      "excerpt": "Procederá declarar, de oficio o a instancia de parte, en la situación regulada en este artículo a los funcionarios de carrera que se encuentren en servicio activo en otro cuerpo o escala de cualquiera de las Administraciones públicas, salvo que hubieran obtenido la oportuna compatibilidad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.a RD 365/1995",
+      "stem": "El Secretario General de la Confederación Hidrográfica del Tajo, funcionario de carrera, obtiene por libre designación un puesto de Subdirector General en otro ministerio, incluido en la relación de puestos de trabajo. ¿En qué situación administrativa queda?",
+      "options": [
+        "Servicios especiales.",
+        "Excedencia voluntaria por prestación de servicios en el sector público.",
+        "Servicio activo.",
+        "Expectativa de destino."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Desempeñar un puesto adscrito a funcionarios según la RPT es servicio activo, sea cual sea la forma de provisión (art. 3.a).",
+      "excerpt": "Cuando desempeñen un puesto que, conforme a la correspondiente relación de puestos de trabajo, esté adscrito a los funcionarios comprendidos en el ámbito de aplicación de la Ley 30/1984, de 2 de agosto, de Medidas para la Reforma de la Función Pública.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

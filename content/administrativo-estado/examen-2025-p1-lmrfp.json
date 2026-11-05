@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lmrfp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 30/1984, de 2 de agosto, de medidas para la reforma de la Función Pública (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-17387",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 23.2.b) Ley 30/1984",
+      "stem": "Una funcionaria con dos trienios en un cuerpo del subgrupo C2 accede a un cuerpo del subgrupo C1. Según el artículo 23 de la Ley 30/1984:",
+      "options": [
+        "Los trienios anteriores se recalculan con el valor del nuevo grupo.",
+        "Pierde los trienios anteriores y empieza a devengarlos de nuevo.",
+        "Seguirá percibiendo los trienios devengados en el grupo anterior.",
+        "Solo conserva los trienios si accede por promoción interna horizontal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 23.2.b) conserva los trienios devengados en los grupos anteriores cuando se prestan servicios sucesivos en cuerpos de distinto grupo.",
+      "excerpt": "En el caso de que un funcionario preste sus servicios sucesivamente en diferentes Cuerpos, Escalas, Clases o Categorías de distinto grupo de clasificación, tendrá derecho a seguir percibiendo los trienios devengados en los grupos anteriores.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

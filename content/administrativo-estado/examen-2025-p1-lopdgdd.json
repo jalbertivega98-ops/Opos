@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lopdgdd-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 5.1 y 5.3 LO 3/2018",
+      "stem": "Según el artículo 5 de la Ley Orgánica 3/2018, el deber de confidencialidad de quienes intervienen en un tratamiento de datos:",
+      "options": [
+        "Solo afecta a los responsables del tratamiento y se extingue al cesar en el puesto.",
+        "Afecta únicamente a los empleados públicos sujetos a secreto profesional.",
+        "Afecta a responsables, encargados y a todas las personas que intervengan en cualquier fase del tratamiento, y se mantiene aunque haya finalizado su relación con el responsable o encargado.",
+        "Se limita al delegado de protección de datos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 5.1 extiende el deber a responsables, encargados y cualquier interviniente; el art. 5.3 lo mantiene tras finalizar la relación.",
+      "excerpt": "Los responsables y encargados del tratamiento de datos así como todas las personas que intervengan en cualquier fase de este estarán sujetas al deber de confidencialidad […] Las obligaciones establecidas en los apartados anteriores se mantendrán aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

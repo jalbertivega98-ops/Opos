@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-ofimatica-ms_win_atajos-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, tercer ejercicio de ofimática (20 preguntas)",
+    "topic_slug": "justra-examen-2026-ofimatica",
+    "locale": "es",
+    "category": "justra_examen_2026_ofimatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Windows",
+      "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica del tercer ejercicio (ofimática) de Tramitación Procesal del 03/10/2026: 20 preguntas tipo test sobre Windows y Microsoft 365, 4 opciones, 40 minutos; acierto +1, error −0,25; nota de 0 a 20 y mínimo 10. Fuentes: documentación oficial de Microsoft en español."
+  },
+  "questions": [
+    {
+      "ref": "Windows · ventanas",
+      "stem": "Señale la afirmación INCORRECTA sobre los métodos abreviados de Windows para gestionar ventanas:",
+      "options": [
+        "Tecla Windows + M minimiza todas las ventanas.",
+        "Tecla Windows + Mayús + M restaura las ventanas minimizadas.",
+        "Tecla Windows + D cierra todas las ventanas abiertas.",
+        "Alt+Tab permite cambiar entre ventanas abiertas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Windows + D muestra y oculta el escritorio, no cierra las ventanas.",
+      "excerpt": "Tecla Windows + D | Mostrar y ocultar el escritorio.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

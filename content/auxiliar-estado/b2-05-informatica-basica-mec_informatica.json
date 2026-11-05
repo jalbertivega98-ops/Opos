@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-mec_informatica-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ministerio de Educación · Iniciación a la Informática (UD1 «Los elementos básicos y primeros pasos»)",
+      "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+      "kind": "web_oficial",
+      "publisher": "Ministerio de Educación, Formación Profesional y Deportes (Librería del Ministerio)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Hardware y software",
+      "stem": "Según el manual «Iniciación a la Informática» del Ministerio de Educación, el conjunto de dispositivos físicos, conectados entre sí, que componen el ordenador se denomina:",
+      "options": [
+        "Software.",
+        "Firmware.",
+        "Sistema operativo.",
+        "Hardware."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Hardware es la parte física del ordenador; software, el conjunto de programas y aplicaciones que permiten utilizar el hardware.",
+      "excerpt": "Hardware es el conjunto de dispositivos físicos, conectados entre sí, que componen el ordenador",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Periféricos de entrada",
+      "stem": "¿Cuál de los siguientes es un dispositivo de entrada?",
+      "options": [
+        "El teclado.",
+        "El monitor.",
+        "La impresora.",
+        "Los altavoces."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Los dispositivos de entrada permiten al usuario comunicarse con el ordenador (teclado, ratón, escáner); los de salida, como monitor, impresora o altavoces, permiten al ordenador comunicarse con el usuario.",
+      "excerpt": "El teclado es un dispositivo de entrada a través del cual podemos comunicarnos con el ordenador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CPU",
+      "stem": "¿Qué significan las siglas CPU?",
+      "options": [
+        "Central de Proceso Universal.",
+        "Unidad Central de Proceso.",
+        "Controlador de Periféricos Unificado.",
+        "Unidad de Carga Primaria."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "CPU (Central Processing Unit) es la Unidad Central de Proceso, cuya pieza fundamental es el microprocesador.",
+      "excerpt": "Comúnmente es la llamada CPU (Unidad Central de Proceso). […] Su pieza fundamental se denomina microprocesador",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Memoria RAM",
+      "stem": "¿Qué le ocurre al contenido de la memoria RAM cuando se apaga el ordenador?",
+      "options": [
+        "Se borra.",
+        "Se guarda automáticamente en el disco duro.",
+        "Se conserva hasta el siguiente arranque.",
+        "Se envía a la nube."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La RAM almacena la información de forma temporal y es volátil: al apagar el ordenador se borra todo su contenido. El disco duro, en cambio, guarda programas y datos de forma permanente.",
+      "excerpt": "Es el componente electrónico donde se almacena la información de forma temporal. […] cuando se apaga el ordenador, se borra todo su contenido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Puertos de entrada/salida",
+      "stem": "Los puertos de vídeo, de sonido y USB de un ordenador son, según el manual del Ministerio de Educación, conexiones de:",
+      "options": [
+        "Solo entrada.",
+        "Entrada/salida.",
+        "Solo salida.",
+        "Alimentación eléctrica."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Además de los dispositivos de entrada y de salida, el ordenador tiene conexiones de entrada/salida, como los puertos de vídeo, de sonido y USB.",
+      "excerpt": "también hay conexiones de entrada/salida, como puertos de vídeo, de sonido y USB.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Unidades de información",
+      "stem": "En la convención informática tradicional que recoge el manual del Ministerio de Educación, ¿cuántos MB tiene un gigabyte (GB)?",
+      "options": [
+        "1000",
+        "100",
+        "1024",
+        "512"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El manual usa la convención binaria: 1 KB = 1024 bytes, 1 MB = 1024 KB y 1 GB = 1024 MB, y el byte, formado por bits, es la unidad mínima. Ojo: el RD 2032/2009 reserva para estas potencias de 2 los prefijos binarios (kibi, mebi, gibi), y en el SI giga = 10⁹.",
+      "excerpt": "el Gigabyte (GB) son 1024 MB",
+      "excerpt_status": "completo",
+      "review_note": "Conviene revisar que esta convención no contradiga las preguntas del mismo tema sobre el RD 2032/2009 (prefijos binarios)."
+    },
+    {
+      "ref": "Soportes ópticos",
+      "stem": "Respecto de un CD-ROM, el DVD se caracteriza, según el manual del Ministerio de Educación, por:",
+      "options": [
+        "Ser un soporte magnético en lugar de óptico.",
+        "No poder almacenar vídeo.",
+        "Ser de solo escritura.",
+        "Su gran capacidad de almacenamiento, con una apariencia similar."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El DVD tiene un aspecto similar al CD-ROM, pero mucha mayor capacidad de almacenamiento.",
+      "excerpt": "Los DVD son discos con una apariencia similar al Cd-Rom, pero se caracterizan por su gran capacidad de almacenamiento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

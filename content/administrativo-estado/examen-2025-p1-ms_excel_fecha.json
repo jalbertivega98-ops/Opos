@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_excel_fecha-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Aplicar formato a una fecha como quiera en Excel",
+      "url": "https://support.microsoft.com/es-es/office/dar-formato-a-una-fecha-de-la-forma-que-desee-en-excel-8e10019e-d5d8-47a1-ba95-db95123d273e",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Formato de fecha mmm",
+      "stem": "En Excel 365 se aplica a la fecha 5 de marzo de 2026 el formato personalizado dd-mmm-aaaa. ¿Qué se muestra?",
+      "options": [
+        "5-marzo-26",
+        "05-03-2026",
+        "05-marzo-2026",
+        "05-mar-2026"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "dd muestra el día con dos cifras, mmm el mes abreviado (ene-dic) y aaaa el año con cuatro cifras.",
+      "excerpt": "Los meses como ene-dic mmm Los meses como enero-diciembre mmmm Los meses como la inicial de cada mes mmmmm Los días como 1-31 d Los días como 01-31 dd",
+      "excerpt_status": "completo"
+    }
+  ]
+}

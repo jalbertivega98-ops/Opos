@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_outlook_buscar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Buscar un mensaje o elemento con la Búsqueda instantánea",
+      "url": "https://support.microsoft.com/es-es/outlook/find-a-message-or-item-with-instant-search",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Outlook · Ámbito de búsqueda",
+      "stem": "En Outlook, de forma predeterminada, ¿dónde busca la Búsqueda instantánea?",
+      "options": [
+        "En todos los buzones.",
+        "En todas las carpetas del archivo de datos.",
+        "Solo en Elementos enviados.",
+        "Solo en la carpeta actual seleccionada."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La búsqueda se hace por defecto en la carpeta actual (casi siempre la Bandeja de entrada); puede ampliarse a otros ámbitos, como todos los buzones.",
+      "excerpt": "solo en la carpeta actual que seleccionó",
+      "excerpt_status": "completo"
+    }
+  ]
+}

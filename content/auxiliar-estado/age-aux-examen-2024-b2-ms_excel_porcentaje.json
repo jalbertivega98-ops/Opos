@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_excel_porcentaje-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Aplicar formato a números como porcentajes",
+      "url": "https://support.microsoft.com/es-es/office/aplicar-formato-a-n%C3%BAmeros-como-porcentajes-de49167b-d603-4450-bcaa-31fba6c7b6b4",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Excel · Formato de porcentaje",
+      "stem": "En una celda de Excel con formato de porcentaje con dos decimales ya aplicado, escribe 10. ¿Qué se mostrará?",
+      "options": [
+        "10,00%",
+        "0,10%",
+        "1000,00%",
+        "0,1"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Si la celda ya tiene formato de porcentaje, Excel interpreta igual 10 y 0,1: ambos se muestran como 10,00%.",
+      "excerpt": "Por ejemplo, si escribe 10 o 0,1 ambos dan como resultado 10,00%.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

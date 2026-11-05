@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_access_parametros-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Usar parámetros para pedir información al iniciar una consulta",
+      "url": "https://support.microsoft.com/es-es/topic/usar-par%C3%A1metros-para-solicitar-informaci%C3%B3n-al-iniciar-una-consulta-c2806d3d-d500-45a8-8507-ec6af351b6ed",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Consultas de parámetros en Access",
+      "stem": "En la vista Diseño de una consulta de Access se escribe en la fila Criterios del campo Fecha: >[Escriba una fecha:]. ¿Qué ocurre al ejecutarla?",
+      "options": [
+        "Aparece un cuadro que pide el valor y la consulta devuelve los registros con fecha posterior al introducido.",
+        "La consulta filtra los registros cuyo campo contiene el texto «Escriba una fecha:».",
+        "Se produce un error por usar corchetes en un criterio.",
+        "Se renombra el campo Fecha en el resultado."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El texto entre corchetes es un parámetro: se muestra como indicador al ejecutar la consulta, y el operador de comparación devuelve los valores que no coinciden sino que son posteriores.",
+      "excerpt": "Para ello, escriba un operador de comparación a la izquierda del primer corchete que contenga la solicitud de parámetro, por ejemplo, >[Escriba un año:].",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_http-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Introducción a HTTP",
+      "url": "https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Servicios web · HTTP",
+      "stem": "En la comunicación web, ¿qué papel tiene el servidor?",
+      "options": [
+        "Atiende las solicitudes del cliente con respuestas.",
+        "Realiza solicitudes al explorador del usuario.",
+        "Asigna direcciones IP a los clientes.",
+        "Traduce las direcciones IP en nombres de dominio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El explorador solo realiza solicitudes y el servidor (por ejemplo, un servidor web o un sistema de gestión de contenidos alojado en él) responde. La pregunta oficial trataba sobre WordPress como gestor de contenidos, del que no hay fuente oficial admitida.",
+      "excerpt": "Un explorador solo realiza solicitudes y el servidor atiende las solicitudes del cliente con respuestas.",
+      "excerpt_status": "completo",
+      "review_note": "Réplica desplazada (CMS/WordPress sin fuente oficial admitida); revisar si se quiere otra pregunta sobre gestores de contenidos."
+    },
+    {
+      "ref": "Servidor web · URL y DNS",
+      "stem": "Para que un sitio web sea accesible mediante una dirección URL, ¿qué debe hacerse con ella?",
+      "options": [
+        "Adjuntarla a una dirección IP y registrarla en DNS.",
+        "Cifrarla con TLS.",
+        "Asignarla mediante DHCP.",
+        "Comprimirla en formato ZIP."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Al registrar una URL hay que vincularla a una dirección IP y registrarla en DNS; el servidor web (Apache, IIS, etc.) es el que atiende las peticiones. La pregunta oficial preguntaba qué es Apache.",
+      "excerpt": "Al registrar una dirección URL, debe adjuntarla a una dirección IP y registrarla con DNS.",
+      "excerpt_status": "completo",
+      "review_note": "Réplica desplazada: no hay fuente oficial admitida sobre Apache; se usa la documentación de Microsoft sobre servidores web y HTTP."
+    }
+  ]
+}

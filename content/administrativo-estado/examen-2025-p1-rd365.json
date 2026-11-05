@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-rd365-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 365/1995, de 10 de marzo, Reglamento de Situaciones Administrativas de los Funcionarios Civiles de la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8730",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3 RD 365/1995",
+      "stem": "Un funcionario del Cuerpo General Administrativo pasa a desempeñar temporalmente otro puesto en comisión de servicios. Según el artículo 3 del Real Decreto 365/1995, su situación administrativa es:",
+      "options": [
+        "Servicios especiales.",
+        "Servicio activo.",
+        "Servicio en otras Administraciones Públicas.",
+        "Excedencia voluntaria con reserva de puesto."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 3 RD 365/1995 incluye expresamente la comisión de servicios entre los supuestos de servicio activo.",
+      "excerpt": "c) Cuando se encuentren en comisión de servicios.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

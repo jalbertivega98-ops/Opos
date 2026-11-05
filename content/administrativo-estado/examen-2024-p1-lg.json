@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-lg-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 8.4 Ley 50/1997",
+      "stem": "Respecto de la Comisión General de Secretarios de Estado y Subsecretarios, la Ley 50/1997, del Gobierno, dispone que:",
+      "options": [
+        "Sus deliberaciones serán públicas.",
+        "En ningún caso podrá adoptar decisiones o acuerdos por delegación del Gobierno.",
+        "Podrá adoptar acuerdos por delegación del Consejo de Ministros en materia presupuestaria.",
+        "Solo podrá reunirse de forma presencial."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Sus deliberaciones son reservadas y nunca puede adoptar decisiones por delegación del Gobierno (art. 8.4); el art. 8.6 permite además sesiones a distancia por medios electrónicos.",
+      "excerpt": "En ningún caso la Comisión podrá adoptar decisiones o acuerdos por delegación del Gobierno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.3 Ley 50/1997",
+      "stem": "Según la Ley del Gobierno, las deliberaciones del Consejo de Ministros:",
+      "options": [
+        "Serán públicas, salvo acuerdo en contrario del Presidente.",
+        "Se publicarán en el «Boletín Oficial del Estado».",
+        "Serán reservadas solo cuando afecten a la defensa nacional.",
+        "Serán secretas."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 5.3 declara secretas las deliberaciones del Consejo de Ministros (lo mismo dispone el art. 6.5 para las Comisiones Delegadas).",
+      "excerpt": "Las deliberaciones del Consejo de Ministros serán secretas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

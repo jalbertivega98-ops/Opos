@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-rae_informatica-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española · Diccionario de la lengua española (entradas de informática)",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y ASALE · Diccionario de la lengua española (23.ª ed., versión electrónica)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Periféricos (DLE)",
+      "stem": "Un escáner conectado al ordenador de la oficina es:",
+      "options": [
+        "Un periférico de salida de datos.",
+        "Un componente de la unidad central de proceso.",
+        "Un tipo de memoria interna.",
+        "Un periférico de entrada de datos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El escáner explora una imagen y la traduce en señales para su procesamiento: introduce datos en el equipo, como el teclado o el ratón, que el DLE pone como ejemplo de periféricos de entrada.",
+      "excerpt": "Aparato auxiliar e independiente conectado a la unidad central de una computadora u otro dispositivo electrónico.El teclado y el ratón son periféricos de entrada de datos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Sistema operativo (DLE)",
+      "stem": "¿Cuál de los siguientes es un sistema operativo?",
+      "options": [
+        "macOS.",
+        "Microsoft Excel.",
+        "Google Chrome.",
+        "Adobe Acrobat Reader."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Un sistema operativo realiza las funciones básicas y permite ejecutar otros programas; Excel, Chrome y Acrobat son aplicaciones que se ejecutan sobre él.",
+      "excerpt": "sistema operativo: m. Informática Programa o conjunto de programas que realizan funciones básicas y permiten el desarrollo de otros programas.",
+      "excerpt_status": "completo",
+      "review_note": "La fuente define «sistema operativo» pero no da ejemplos comerciales; que macOS es un sistema operativo se toma como dato de uso general."
+    },
+    {
+      "ref": "Ofimática (DLE)",
+      "stem": "Microsoft Excel es un ejemplo de aplicación de:",
+      "options": [
+        "Sistema operativo.",
+        "Ofimática.",
+        "Antivirus.",
+        "Navegador web."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La ofimática es el conjunto de procedimientos informáticos para optimizar el trabajo de oficina: hojas de cálculo, procesadores de texto, bases de datos, etc.",
+      "excerpt": "ofimática: f. Conjunto de procedimientos informáticos aplicados a optimizar el trabajo de oficina.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Navegador (DLE)",
+      "stem": "Una aplicación que, mediante enlaces de hipertexto, permite navegar por una red informática se denomina:",
+      "options": [
+        "Sistema operativo.",
+        "Navegador.",
+        "Procesador.",
+        "Servidor de correo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Es la definición de navegador del DLE (Edge, Chrome, Firefox...).",
+      "excerpt": "navegador: m. Informática Aplicación que, mediante enlaces de hipertexto, permite navegar por una red informática.",
+      "excerpt_status": "completo",
+      "review_note": "El original preguntaba qué lenguaje de programación ejecutan los navegadores (JavaScript); no hay fuente oficial capturada sobre ello y se replica el concepto de navegador."
+    }
+  ]
+}

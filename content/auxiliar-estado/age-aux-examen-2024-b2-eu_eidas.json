@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-eu_eidas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Reglamento (UE) n.º 910/2014 (eIDAS), versión consolidada a 18.10.2024, art. 3",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX%3A02014R0910-20241018",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea · EUR-Lex",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Reglamento eIDAS art. 3 · certificado de firma",
+      "stem": "Según el Reglamento eIDAS, un certificado de firma electrónica es una declaración electrónica que:",
+      "options": [
+        "Cifra todos los documentos que firma su titular.",
+        "Vincula los datos de validación de una firma con una persona física y confirma, al menos, su nombre o seudónimo.",
+        "Sustituye a la contraseña de acceso al correo electrónico.",
+        "Garantiza que el documento firmado no contiene virus."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 3 del Reglamento (UE) 910/2014 define el certificado de firma electrónica como la declaración que vincula los datos de validación con una persona física y confirma, al menos, su nombre o seudónimo.",
+      "excerpt": "«certificado de firma electrónica», una declaración electrónica que vincula los datos de validación […] y confirma, al menos, el nombre o el seudónimo de esa persona;",
+      "excerpt_status": "completo"
+    }
+  ]
+}

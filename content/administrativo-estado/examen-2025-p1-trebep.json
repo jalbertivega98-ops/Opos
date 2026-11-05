@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-trebep-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 56.1.c) TREBEP",
+      "stem": "Según el artículo 56 del TREBEP, ¿qué requisito de edad es necesario con carácter general para participar en un proceso selectivo?",
+      "options": [
+        "Tener cumplidos dieciocho años y no superar los sesenta y cinco.",
+        "Ser mayor de edad, sin límite máximo.",
+        "Tener cumplidos dieciséis años, sin que pueda fijarse por ley otra edad máxima.",
+        "Tener cumplidos dieciséis años y no exceder, en su caso, de la edad máxima de jubilación forzosa."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 56.1.c) fija los dieciséis años y la edad de jubilación forzosa; solo por ley puede establecerse otra edad máxima.",
+      "excerpt": "c) Tener cumplidos dieciséis años y no exceder, en su caso, de la edad máxima de jubilación forzosa. Sólo por ley podrá establecerse otra edad máxima, distinta de la edad de jubilación forzosa, para el acceso al empleo público.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62.1 TREBEP",
+      "stem": "Una aspirante ha superado el proceso selectivo y su nombramiento se ha publicado en el BOE. Según el artículo 62.1 del TREBEP, para adquirir la condición de funcionaria de carrera le falta:",
+      "options": [
+        "El acto de acatamiento de la Constitución y la toma de posesión dentro del plazo establecido.",
+        "Únicamente la toma de posesión, sin otro requisito.",
+        "La superación del periodo de prácticas en todo caso, aunque la convocatoria no lo prevea.",
+        "La firma del contrato con la Subsecretaría del Departamento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 62.1 exige, de forma sucesiva, superar el proceso, nombramiento publicado, acatamiento y toma de posesión en plazo.",
+      "excerpt": "c) Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico. d) Toma de posesión dentro del plazo que se establezca.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10.1 TREBEP",
+      "stem": "Según el artículo 10.1 del TREBEP, ¿en cuál de los siguientes supuestos puede nombrarse personal funcionario interino?",
+      "options": [
+        "Para cubrir vacantes por un máximo de cinco años.",
+        "Por exceso o acumulación de tareas durante doce meses dentro de un periodo de veinticuatro.",
+        "Para la sustitución transitoria de los titulares, durante el tiempo estrictamente necesario.",
+        "Para programas de carácter temporal de hasta cuatro años sin posibilidad de ampliación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Supuestos vigentes: vacantes (máx. tres años), sustitución transitoria, programas temporales (tres años más doce meses) y acumulación de tareas (nueve meses en dieciocho).",
+      "excerpt": "b) La sustitución transitoria de los titulares, durante el tiempo estrictamente necesario.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

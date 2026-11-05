@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_office_qat-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Personalizar la barra de herramientas de acceso rápido",
+      "url": "https://support.microsoft.com/es-es/office/personalizar-la-barra-de-herramientas-de-acceso-r%C3%A1pido-43fff1c9-ebc4-4963-bdbd-c2b6b0739e52",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Barra de herramientas de acceso rápido",
+      "stem": "Sobre la barra de herramientas de acceso rápido de Microsoft 365, es correcto que:",
+      "options": [
+        "Puede mostrarse en varias líneas si se añaden muchos comandos.",
+        "Admite agregar tanto comandos como estilos de párrafo y fuentes.",
+        "Solo está disponible en Excel.",
+        "Contiene comandos independientes de la pestaña de la cinta que se muestre en cada momento."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Sus comandos no dependen de la pestaña activa; no puede mostrarse en varias líneas y solo admite comandos.",
+      "excerpt": "La barra de herramientas de acceso rápido personalizable contiene un conjunto de comandos que son independientes de la pestaña que se muestra actualmente en la cinta de opciones.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

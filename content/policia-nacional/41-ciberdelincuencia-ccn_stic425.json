@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pn-41-ciberdelincuencia-ccn_stic425-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 41. Ciberdelincuencia y agentes de la amenaza",
+    "topic_slug": "pn-41-ciberdelincuencia",
+    "locale": "es",
+    "category": "pn_41_ciberdelincuencia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Guía CCN-STIC-425, Ciclo de Inteligencia y Análisis de Intrusiones (octubre de 2015), págs. 6-10 y 42-44",
+      "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+      "kind": "web_oficial",
+      "publisher": "Centro Criptológico Nacional (CCN-CERT), adscrito al CNI",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "CCN-STIC-425, párr. 183",
+      "stem": "Según la guía CCN-STIC-425, el modelo Kill Chain divide la acción del adversario en las fases de Reconocimiento, Código Dañino, Entrega, Explotación, Instalación, Mando y Control (C2) y:",
+      "options": [
+        "Acción en el Objetivo.",
+        "Exfiltración de datos.",
+        "Borrado de huellas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La guía enumera siete fases de la Kill Chain, que permite alinear las capacidades defensivas de la organización víctima con los procesos de ataque del adversario.",
+      "excerpt": "Kill Chain divide la acción del adversario en fases: Reconocimiento, Código Dañino, Entrega, Explotación, Instalación, Mando y Control (C2) y Acción en el Objetivo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-STIC-425, párr. 181",
+      "stem": "Según la guía CCN-STIC-425, el modelo Kill Chain fue desarrollado para abordar, esencialmente, el análisis de:",
+      "options": [
+        "Los ataques de denegación de servicio distribuida.",
+        "Las campañas de phishing masivo.",
+        "Las APT (Amenazas Persistentes Avanzadas)."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La guía explica que la Kill Chain permite describir las fases de una intrusión y enlazar acciones individuales con campañas de mayor extensión, en el marco de una defensa de redes dirigida por la inteligencia.",
+      "excerpt": "El denominado Modelo Kill Chain37 fue desarrollado para abordar, esencialmente, el análisis de APTs38 (Amenazas Persistentes Avanzadas)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-STIC-425, párr. 185",
+      "stem": "Según la guía CCN-STIC-425, para cada una de las fases del ataque el modelo Kill Chain contempla seis posibles líneas de acción de la víctima: Detección, Denegación, Disrupción, Degradación, Engaño y:",
+      "options": [
+        "Disuasión.",
+        "Denuncia.",
+        "Destrucción."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Las seis líneas de acción (courses of action) permiten a la víctima situar mecanismos o herramientas para mitigar los riesgos de cada fase del ataque.",
+      "excerpt": "el modelo Kill Chain contempla seis posibles líneas de acción (Detección, Denegación, Disrupción, Degradación, Engaño y Destrucción)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

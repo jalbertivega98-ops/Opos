@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_win_copilot-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Acceso a Microsoft Copilot en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Copilot en Windows",
+      "stem": "En Windows 11, ¿qué combinación de teclas puede usarse para abrir el asistente de inteligencia artificial Copilot?",
+      "options": [
+        "Tecla Windows + I.",
+        "Ctrl + Alt + C.",
+        "Alt + F4.",
+        "Tecla Windows + C."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Copilot se abre con su tecla dedicada o con Windows + C; también puede invocarse por voz.",
+      "excerpt": "Use el método abreviado de teclado Windows tecla + C",
+      "excerpt_status": "completo"
+    }
+  ]
+}

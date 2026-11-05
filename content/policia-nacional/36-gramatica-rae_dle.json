@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "set": "pn-36-gramatica-rae_dle-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 36. Gramática de la lengua española",
+    "topic_slug": "pn-36-gramatica",
+    "locale": "es",
+    "category": "pn_36_gramatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario de la lengua española (RAE-ASALE), 23.ª ed., versión electrónica: entradas citadas",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DLE, preposición 1.a",
+      "stem": "Según el Diccionario de la lengua española, la clase de palabras invariables cuyos elementos se caracterizan por introducir un término, generalmente nominal u oracional, con el que forman grupo sintáctico, es la:",
+      "options": [
+        "Conjunción.",
+        "Preposición.",
+        "Interjección."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El DLE define la preposición (acepción 1.a) como clase de palabras invariables que introducen un término con el que forman grupo sintáctico; su ejemplo es «El verbo versar se construye con la preposición sobre».",
+      "excerpt": "Clase de palabras invariables cuyos elementos se caracterizan por introducir un término, generalmente nominal u oracional, con el que forman grupo sintáctico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, conjunción 3.a",
+      "stem": "Según el Diccionario de la lengua española, la clase de palabras invariables, generalmente átonas, cuyos elementos manifiestan relaciones de coordinación o subordinación entre palabras, grupos sintácticos u oraciones, es la:",
+      "options": [
+        "Preposición.",
+        "Conjunción.",
+        "Adverbio."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El DLE define la conjunción (acepción 3.a, Gramática) por expresar relaciones de coordinación o subordinación; el adverbio, en cambio, es una clase de palabras invariables y tónicas.",
+      "excerpt": "Clase de palabras invariables, generalmente átonas, cuyos elementos manifiestan relaciones de coordinación o subordinación entre palabras, grupos sintácticos u oraciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, conjunción adversativa",
+      "stem": "Según el Diccionario de la lengua española, la conjunción coordinante que enlaza unidades sintácticas cuyos significados se oponen discursivamente, como «pero», es la conjunción:",
+      "options": [
+        "Copulativa.",
+        "Causal.",
+        "Adversativa."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DLE define la conjunción adversativa como coordinante que enlaza unidades cuyos significados se oponen discursivamente y pone «pero» como ejemplo.",
+      "excerpt": "conjunción coordinante que enlaza unidades sintácticas cuyos significados se oponen discursivamente.Pero es una conjunción adversativa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, conjunción causal",
+      "stem": "Según el Diccionario de la lengua española, «porque» es una conjunción:",
+      "options": [
+        "Causal.",
+        "Concesiva.",
+        "Condicional."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El DLE define la conjunción causal como conjunción subordinante que expresa causa y pone «porque» como ejemplo; «aunque» es concesiva y «si», condicional.",
+      "excerpt": "conjunción subordinante que expresa causa.Porque es una conjunción causal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, conjunción concesiva y condicional",
+      "stem": "Según los ejemplos del Diccionario de la lengua española, «aunque» y «si» son, respectivamente, conjunciones:",
+      "options": [
+        "Concesiva y condicional.",
+        "Condicional y concesiva.",
+        "Adversativa y causal."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El DLE define la conjunción concesiva como subordinante que expresa concesión (ejemplo: aunque) y la condicional como subordinante que expresa condición (ejemplo: si).",
+      "excerpt": "Aunque es una conjunción concesiva. […] Si es una conjunción condicional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, adverbio 1.a",
+      "stem": "Según el Diccionario de la lengua española, la clase de palabras cuyos elementos son invariables y tónicos, están dotados generalmente de significado léxico y modifican el significado de varias categorías, principalmente de un verbo, de un adjetivo, de una oración o de una palabra de la misma clase, es el:",
+      "options": [
+        "Adjetivo.",
+        "Pronombre.",
+        "Adverbio."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DLE define así el adverbio (acepción 1.a); a diferencia de la conjunción, generalmente átona, el adverbio es tónico.",
+      "excerpt": "Clase de palabras cuyos elementos son invariables y tónicos, están dotados generalmente de significado léxico y modifican el significado de varias categorías, principalmente de un verbo, de un adjetivo, de una oración o de una palabra de la misma clase.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, adverbio relativo",
+      "stem": "Según el Diccionario de la lengua española, en la oración «La ciudad donde vivo», la palabra «donde» es un adverbio:",
+      "options": [
+        "Interrogativo.",
+        "Relativo.",
+        "Demostrativo."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El DLE define el adverbio relativo como el que desempeña una función sintáctica en la oración subordinada que introduce y tiene antecedente expreso o implícito, y usa este mismo ejemplo. Los interrogativos dan lugar a expresiones interrogativas (cuándo) y los demostrativos señalan un lugar, tiempo o modo (allá, ahora, así).",
+      "excerpt": "adverbio que desempeña una función sintáctica en la oración subordinada que introduce y tiene antecedente expreso o implícito; p. ej., donde en La ciudad donde vivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, adverbio adjetival",
+      "stem": "Según el Diccionario de la lengua española, en «No hables tan alto», la palabra «alto» es un adverbio:",
+      "options": [
+        "Comparativo.",
+        "Exclamativo.",
+        "Adjetival."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El DLE define el adverbio adjetival como el que presenta la forma de un adjetivo masculino singular, con este mismo ejemplo.",
+      "excerpt": "adverbio que presenta la forma de un adjetivo masculino singular; p. ej., alto en No hables tan alto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, sintaxis 1.a",
+      "stem": "Según el Diccionario de la lengua española, la parte de la gramática que estudia el modo en que se combinan las palabras y los grupos que estas forman para expresar significados, así como las relaciones que se establecen entre todas esas unidades, es la:",
+      "options": [
+        "Sintaxis.",
+        "Morfología.",
+        "Semántica."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El DLE define la sintaxis (acepción 1.a, Gramática) como la parte de la gramática que estudia la combinación de palabras y grupos y las relaciones entre ellos; en Informática es el conjunto de reglas de un lenguaje de programación.",
+      "excerpt": "Parte de la gramática que estudia el modo en que se combinan las palabras y los grupos que estas forman para expresar significados, así como las relaciones que se establecen entre todas esas unidades.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

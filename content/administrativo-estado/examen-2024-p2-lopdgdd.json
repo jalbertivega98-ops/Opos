@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p2-lopdgdd-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2024-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 36.3 LOPDGDD",
+      "stem": "El delegado de protección de datos del ministerio pide a la unidad de Dña. Lucía Ferrer acceso a los datos personales de los solicitantes de las ayudas para revisar su tratamiento. La unidad se opone alegando el deber de confidencialidad. Según la Ley Orgánica 3/2018:",
+      "options": [
+        "El delegado tiene acceso a los datos y no se le puede oponer ningún deber de confidencialidad o secreto.",
+        "El delegado solo puede acceder con autorización judicial.",
+        "El delegado solo puede acceder a datos anonimizados.",
+        "La unidad puede negarse si los datos son de categorías especiales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "En el ejercicio de sus funciones el DPD tiene acceso a los datos personales y procesos de tratamiento, sin que pueda oponérsele deber de confidencialidad o secreto alguno (art. 36.3).",
+      "excerpt": "En el ejercicio de sus funciones el delegado de protección de datos tendrá acceso a los datos personales y procesos de tratamiento, no pudiendo oponer a este acceso el responsable o el encargado del tratamiento la existencia de cualquier deber de confidencialidad o secreto",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37.2 LOPDGDD",
+      "stem": "Un solicitante de las ayudas presenta una reclamación ante la Agencia Española de Protección de Datos, que la remite al delegado de protección de datos del ministerio. ¿En qué plazo debe responder el delegado?",
+      "options": [
+        "En el plazo de un mes.",
+        "En el plazo de dos meses.",
+        "En el plazo de diez días hábiles.",
+        "En el plazo de tres meses."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Si la reclamación se presenta ante la AEPD y esta la remite al DPD, el DPD debe responder en un mes (art. 37.2). Los dos meses del art. 37.1 son para cuando el afectado se dirige primero al DPD.",
+      "excerpt": "aquellas podrán remitir la reclamación al delegado de protección de datos a fin de que este responda en el plazo de un mes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 65.3 LOPDGDD",
+      "stem": "Antes de admitir la reclamación, la AEPD advierte al ministerio, que adopta medidas correctivas que ponen fin al posible incumplimiento sin que se haya causado perjuicio al afectado. Según la Ley Orgánica 3/2018, la Agencia:",
+      "options": [
+        "Deberá inadmitirla en todo caso.",
+        "Deberá admitirla y sancionar en todo caso al ministerio.",
+        "Podrá inadmitir la reclamación.",
+        "Deberá remitirla al Defensor del Pueblo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Es una facultad («podrá inadmitir») cuando, tras la advertencia, el responsable ha adoptado medidas correctivas y concurre alguna de las circunstancias del art. 65.3. La inadmisión obligatoria («inadmitirá») es la del art. 65.2.",
+      "excerpt": "Igualmente, la Agencia Española de Protección de Datos podrá inadmitir la reclamación cuando el responsable o encargado del tratamiento, previa advertencia formulada por la Agencia Española de Protección de Datos, hubiera adoptado las medidas correctivas",
+      "excerpt_status": "completo"
+    }
+  ]
+}

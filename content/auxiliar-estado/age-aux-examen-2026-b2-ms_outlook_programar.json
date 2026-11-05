@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_outlook_programar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Retrasar o programar el envío de mensajes de correo electrónico",
+      "url": "https://support.microsoft.com/es-es/office/retrasar-o-programar-el-env%C3%ADo-de-mensajes-de-correo-electr%C3%B3nico-026af69f-c287-490a-a72f-6c65793744ba",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Outlook · Retrasar o programar el envío",
+      "stem": "En el nuevo Outlook, tras redactar un mensaje, quiere que se envíe mañana a las 9:00. ¿Qué hace?",
+      "options": [
+        "Selecciona Opciones > Recuperar mensaje.",
+        "Activa la confirmación de entrega.",
+        "Lo guarda en la carpeta Elementos enviados.",
+        "Abre el menú desplegable junto a Enviar y selecciona Programar envío."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En el nuevo Outlook se usa Programar envío y el mensaje permanece en Borrador hasta la hora indicada. En Outlook clásico la opción equivalente es Opciones > Retrasar entrega, que mantiene el mensaje en la Bandeja de salida.",
+      "excerpt": "Seleccione el menú desplegable junto a Enviar y seleccione Programar envío. […] Después de seleccionar Enviar, el mensaje permanece en la carpeta Borrador hasta la hora de entrega.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

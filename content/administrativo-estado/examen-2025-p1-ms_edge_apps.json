@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_edge_apps-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Instalar, administrar o desinstalar aplicaciones en Microsoft Edge",
+      "url": "https://support.microsoft.com/es-es/edge/install-manage-or-uninstall-apps-in-microsoft-edge",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Aplicaciones de sitios web en Edge",
+      "stem": "En Microsoft Edge, ¿qué permite instalar un sitio web como aplicación?",
+      "options": [
+        "Convertir el sitio en una aplicación de escritorio que, desde edge://apps, puede anclarse a la barra de tareas.",
+        "Guardar el sitio únicamente como favorito.",
+        "Descargar una copia del sitio para usarlo sin conexión en Word.",
+        "Bloquear el sitio para el resto de usuarios del equipo."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Edge convierte sitios web en aplicaciones de escritorio; desde edge://apps se pueden anclar.",
+      "excerpt": "Instala, administra o desinstala aplicaciones en Microsoft Edge para convertir los sitios web en aplicaciones de escritorio para un acceso más rápido y una productividad mejorada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

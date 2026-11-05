@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p2-rd33-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2024-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 33/1986, de 10 de enero, Reglamento de Régimen Disciplinario de los Funcionarios de la Administración del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-1216",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 30 RD 33/1986",
+      "stem": "El funcionario expedientado pertenece al subgrupo A2. Según el Reglamento de Régimen Disciplinario (RD 33/1986), ¿quién puede ser nombrado instructor del expediente?",
+      "options": [
+        "Un funcionario de un cuerpo o escala de igual o superior grupo al del inculpado.",
+        "Cualquier empleado público del Departamento, incluido personal laboral.",
+        "Solo un funcionario del subgrupo A1 con más de diez años de servicio.",
+        "Un letrado de la Abogacía del Estado."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El instructor debe ser funcionario de un cuerpo o escala de igual o superior grupo al del inculpado; si depende de otro Departamento, se necesita autorización previa de su Subsecretario (art. 30).",
+      "excerpt": "En la resolución por la que se incoe el procedimiento se nombrará Instructor, que deberá ser un funcionario público perteneciente a un cuerpo o escala de igual o superior grupo al del inculpado",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "set": "pn-41-ciberdelincuencia-incibe_ciber-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 41. Ciberdelincuencia y agentes de la amenaza",
+    "topic_slug": "pn-41-ciberdelincuencia",
+    "locale": "es",
+    "category": "pn_41_ciberdelincuencia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Deep web y Dark web; Cryptojacking; Carding; Fraude BEC; E-skimming (artículos de ciudadanía y empresas)",
+      "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE), Ministerio para la Transformación Digital y de la Función Pública",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "INCIBE, Cryptojacking (2018)",
+      "stem": "Según INCIBE, el término «cryptojacking» deriva de la conjunción de:",
+      "options": [
+        "Cryptography (criptografía) y Jacking (conexión).",
+        "Cryptocurrency (criptomonedas) y Hijacking (secuestro).",
+        "Cryptocurrency (criptomonedas) y Hacking (piratería)."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "INCIBE explica que el cryptojacking o criptosecuestro es el secuestro de un dispositivo, sin el consentimiento o conocimiento del usuario, para aprovechar su capacidad de cálculo en el minado de criptomonedas.",
+      "excerpt": "El término cryptojacking deriva de la conjunción de Cryptocurrency (Criptomonedas) y Hijacking (Secuestro).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Cryptojacking (2018)",
+      "stem": "Según INCIBE, el cryptojacking consiste en el secuestro de un dispositivo electrónico sin el consentimiento o conocimiento del usuario para:",
+      "options": [
+        "Cifrar sus archivos y exigir un rescate en criptomonedas.",
+        "Robar las claves de los monederos de criptomonedas del usuario.",
+        "Utilizar su capacidad de procesamiento en el minado de criptomonedas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "A diferencia del ransomware, el cryptojacking no cifra ni roba datos: aprovecha la tarjeta gráfica, la memoria y el procesador del dispositivo para minar criptomonedas.",
+      "excerpt": "se refiere al secuestro de un dispositivo electrónico sin el consentimiento o conocimiento del usuario, aprovechando la capacidad de procesamiento y de cálculo de la tarjeta gráfica, de la memoria y del procesador se utiliza para el minado de criptomonedas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Cryptojacking (2018)",
+      "stem": "Según INCIBE, los ataques de cryptojacking surgieron por primera vez en:",
+      "options": [
+        "2011.",
+        "2007.",
+        "2017."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "INCIBE sitúa su aparición en 2011 y su auge a finales de 2017, al calor del alza de las cotizaciones de las monedas virtuales.",
+      "excerpt": "Este tipo de ataques surgió por primera vez en 2011, aunque su auge se ha producido al calor del alza de las cotizaciones de las monedas virtuales, a finales de 2017.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Fraude email comprometido (BEC)",
+      "stem": "Según INCIBE, el fraude BEC (Business E-mail Compromise o correo electrónico corporativo comprometido) es un tipo de fraude:",
+      "options": [
+        "Contra particulares mediante mensajes SMS fraudulentos.",
+        "Contra empresas que realizan transferencias electrónicas de dinero.",
+        "Que cifra los servidores de correo de la empresa y exige un rescate."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En el ejemplo de INCIBE, el ciberdelincuente suplanta a un proveedor, intercepta sus correos de facturación y cambia la cuenta bancaria para que la empresa transfiera el pago a una cuenta controlada por él.",
+      "excerpt": "BEC del inglés Business E-mail Compromise o correo electrónico corporativo comprometido es un tipo de fraude contra empresas que realizan transferencias electrónicas de dinero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, E-skimming (2019)",
+      "stem": "Según INCIBE, tradicionalmente el robo de tarjetas de crédito o «skimming» se hacía:",
+      "options": [
+        "Directamente en los cajeros automáticos.",
+        "Mediante la modificación del código de tiendas online.",
+        "Mediante correos electrónicos fraudulentos."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "INCIBE explica que el skimming se realizaba en los cajeros, donde los delincuentes clonaban las tarjetas y robaban el PIN, y que este fraude ha pasado al mundo digital como e-skimming.",
+      "excerpt": "Tradicionalmente, el robo de tarjetas de crédito o skimming se hacía directamente en los cajeros automáticos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, E-skimming (2019)",
+      "stem": "Según INCIBE, la técnica utilizada por ciberdelincuentes para obtener información bancaria y personal de tiendas online legítimas, que posteriormente será vendida en el mercado negro o utilizada en su propio beneficio, es el:",
+      "options": [
+        "Carding.",
+        "Pharming.",
+        "E-skimming o web skimming."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En el e-skimming los atacantes acceden a la tienda y modifican su código fuente para que los datos introducidos por el cliente se envíen al banco y también a ellos; el pago se completa y ni cliente ni comercio advierten el robo.",
+      "excerpt": "El e-skimming o web skimming es una técnica utilizada por ciberdelincuentes para obtener información bancaria y personal de tiendas online legítimas que posteriormente será vendida en el mercado negro, o utilizada directamente por los ciberdelincuentes en su propio beneficio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Carding (2024)",
+      "stem": "Según INCIBE, la técnica en la que los ciberdelincuentes realizan pequeñas compras en comercios electrónicos con datos de tarjetas robadas para probar cuáles son válidas se denomina:",
+      "options": [
+        "E-skimming.",
+        "Carding.",
+        "Cryptojacking."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "INCIBE describe el carding como el uso de bots que hacen pequeñas compras repetidas hasta dar con tarjetas válidas; a quienes lo practican se les llama carders.",
+      "excerpt": "Para probar que esos datos robados son válidos, realizan pequeñas compras en comercios electrónicos hasta que dan con las que funcionan. A esta técnica se le llama carding",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Carding (2024)",
+      "stem": "Según INCIBE, el pequeño dispositivo que se instala en los lectores de tarjetas bancarias y que roba la información cuando se usan es un:",
+      "options": [
+        "Keylogger.",
+        "Skimmer.",
+        "Sniffer."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "INCIBE cita el skimmer junto a otras técnicas de robo de tarjetas, como el keylogger, que registra las pulsaciones del teclado, y el phishing.",
+      "excerpt": "Otra técnica de robo de tarjetas es el uso de un skimmer, un pequeño dispositivo que se instala en los lectores de tarjetas bancarias y que roba la información cuando lo usamos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

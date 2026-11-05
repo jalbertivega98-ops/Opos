@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_access_tipos2-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tipos de datos para bases de datos de escritorio de Access",
+      "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Access · Datos adjuntos",
+      "stem": "En una base de datos de escritorio de Access, ¿cuál es el tamaño máximo aproximado del tipo de datos Datos adjuntos?",
+      "options": [
+        "Unos 2 GB.",
+        "255 caracteres.",
+        "64 KB.",
+        "8 bytes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Datos adjuntos admite hasta unos 2 GB; Texto corto, hasta 255 caracteres, y Moneda ocupa 8 bytes.",
+      "excerpt": "Datos adjuntos | Hasta unos 2 GB.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Access · Campo calculado",
+      "stem": "En Access 365, ¿qué tipo de datos permite crear una expresión que use datos de uno o varios campos de la tabla?",
+      "options": [
+        "Autonumeración.",
+        "Calculado.",
+        "Asistente para búsquedas.",
+        "Sí/No."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El tipo Calculado almacena el resultado de una expresión basada en otros campos; la expresión se escribe con el Generador de expresiones.",
+      "excerpt": "Calculado | Puede crear una expresión que use datos de uno o varios campos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

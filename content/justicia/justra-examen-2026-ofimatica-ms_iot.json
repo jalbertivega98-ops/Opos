@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-ofimatica-ms_iot-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, tercer ejercicio de ofimática (20 preguntas)",
+    "topic_slug": "justra-examen-2026-ofimatica",
+    "locale": "es",
+    "category": "justra_examen_2026_ofimatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Azure · ¿Qué es IoT?",
+      "url": "https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-iot/",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica del tercer ejercicio (ofimática) de Tramitación Procesal del 03/10/2026: 20 preguntas tipo test sobre Windows y Microsoft 365, 4 opciones, 40 minutos; acierto +1, error −0,25; nota de 0 a 20 y mínimo 10. Fuentes: documentación oficial de Microsoft en español."
+  },
+  "questions": [
+    {
+      "ref": "Internet de las cosas",
+      "stem": "¿Qué es el Internet de las cosas (IoT)?",
+      "options": [
+        "Un protocolo de cifrado para páginas web seguras.",
+        "Una red de dispositivos físicos integrados con sensores, software y conectividad a Internet que les permite detectar e intercambiar datos.",
+        "Un servicio de almacenamiento de archivos en la nube.",
+        "Un tipo de red social para compartir objetos de segunda mano."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft define el IoT como una red de dispositivos físicos con sensores, software y conectividad que detectan e intercambian datos.",
+      "excerpt": "integrados con sensores, software y conectividad a Internet, que les permite detectar e intercambiar datos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

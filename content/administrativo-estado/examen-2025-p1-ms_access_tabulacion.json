@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_access_tabulacion-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Establecer el orden de tabulación de los controles",
+      "url": "https://support.microsoft.com/es-es/topic/establecer-el-orden-de-tabulaci%C3%B3n-de-los-controles-2b37e49b-52d1-4f03-ae33-9e6d9c103c99",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Orden de tabulación en Access",
+      "stem": "En el diseño de un formulario de Access 365 se pulsa Orden automático. ¿Qué orden de tabulación se establece?",
+      "options": [
+        "De abajo arriba y de derecha a izquierda.",
+        "Por orden alfabético del nombre de los controles.",
+        "De arriba a abajo y de izquierda a derecha.",
+        "Por el orden en que se crearon los controles."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Orden automático crea un orden de tabulación de arriba a abajo y de izquierda a derecha.",
+      "excerpt": "Si desea que Access cree un orden de tabulación de arriba a abajo y de izquierda a derecha, haga clic en Orden automático.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

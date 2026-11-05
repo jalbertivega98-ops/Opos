@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ocont-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden de 1 de febrero de 1996 por la que se aprueba la Instrucción de operatoria contable a seguir en la ejecución del gasto del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Regla 42 Orden 1/2/1996 (operatoria contable)",
+      "stem": "Un servicio gestor tramita anticipadamente un contrato cuyo gasto se imputará a presupuestos futuros. Según la regla 42 de la Instrucción de operatoria contable (Orden de 1 de febrero de 1996), ¿qué documento expide primero?",
+      "options": [
+        "Un documento RC de «tramitación anticipada», con el importe que corresponde a cada ejercicio posterior afectado.",
+        "Un documento A de «ejercicio corriente».",
+        "Un documento ADOK de «ejercicios posteriores».",
+        "Un documento RC de «ejercicio corriente» y otro de «ejercicios posteriores»."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Se expide un RC de «tramitación anticipada»; aprobado el gasto, un A de tramitación anticipada y, si se adjudica en el mismo ejercicio, un D (o AD si se acumulan fases).",
+      "excerpt": "un documento RC de \"tramitación anticipada\" detallando el importe que del gasto en cuestión corresponde a cada uno de los ejercicios posteriores afectados.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

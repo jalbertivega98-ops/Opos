@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 68.1 LPAC",
+      "stem": "D. Martín Olmedo presenta en la Confederación Hidrográfica del Tajo una solicitud de autorización de obras en zona de policía de cauces sin firmar ni acreditar de otro modo la autenticidad de su voluntad. Se le requiere para subsanarlo y deja pasar el plazo sin hacer nada. Según la Ley 39/2015, ¿qué ocurre?",
+      "options": [
+        "La solicitud se entiende estimada por silencio administrativo positivo.",
+        "La Confederación debe continuar el procedimiento de oficio, porque la firma no es un requisito de la solicitud.",
+        "La solicitud se archiva sin necesidad de resolución, al no haber llegado a iniciarse el procedimiento.",
+        "Se le tendrá por desistido de su petición, previa resolución dictada en los términos del artículo 21."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La firma (o acreditación de la voluntad) es contenido obligatorio de la solicitud (art. 66.1.e). Si no se subsana en plazo, se tiene al interesado por desistido, pero siempre previa resolución (art. 68.1 en relación con el art. 21).",
+      "excerpt": "se requerirá al interesado para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición, previa resolución que deberá ser dictada en los términos previstos en el artículo 21.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 68.1 y 30.2-3 LPAC",
+      "stem": "El requerimiento de subsanación dirigido a D. Martín Olmedo (plazo de diez días) se le notifica el miércoles 5 de noviembre de 2025. Si no hubiera ningún día festivo en el periodo, ¿cuál sería el último día para subsanar?",
+      "options": [
+        "Sábado 15 de noviembre de 2025.",
+        "Miércoles 19 de noviembre de 2025.",
+        "Lunes 17 de noviembre de 2025.",
+        "Viernes 21 de noviembre de 2025."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El plazo es de diez días hábiles (art. 68.1), excluidos sábados, domingos y festivos (art. 30.2), y se cuenta desde el día siguiente a la notificación (art. 30.3): del jueves 6 al miércoles 19 de noviembre hay diez días hábiles.",
+      "excerpt": "cuando los plazos se señalen por días, se entiende que éstos son hábiles, excluyéndose del cómputo los sábados, los domingos y los declarados festivos. […] Los plazos expresados en días se contarán a partir del día siguiente a aquel en que tenga lugar la notificación o publicación del acto de que se trate",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107.1 LPAC",
+      "stem": "La Confederación Hidrográfica del Tajo concedió en septiembre de 2025 la autorización a D. Martín Olmedo. Meses después, un informe técnico revela que la parcela es inundable y la Confederación considera que la autorización es anulable y perjudicial para el interés público. ¿Qué vía debe seguir para dejarla sin efecto?",
+      "options": [
+        "Revocarla directamente, por tratarse de un acto favorable al interesado.",
+        "Rectificarla de oficio como error material, en cualquier momento.",
+        "Declararla lesiva para el interés público e impugnarla después ante el orden jurisdiccional contencioso-administrativo.",
+        "Iniciar la revisión de oficio por nulidad de pleno derecho con dictamen previo del Consejo de Estado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Los actos favorables anulables no se pueden anular directamente: la Administración debe declararlos lesivos y recurrirlos en vía contencioso-administrativa (art. 107.1). La revocación del art. 109 solo sirve para actos de gravamen o desfavorables.",
+      "excerpt": "Las Administraciones Públicas podrán impugnar ante el orden jurisdiccional contencioso-administrativo los actos favorables para los interesados que sean anulables conforme a lo dispuesto en el artículo 48, previa su declaración de lesividad para el interés público.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 107.2 y 82.2 LPAC",
+      "stem": "Antes de declarar lesiva la autorización de D. Martín Olmedo, la Confederación debe darle audiencia. ¿De qué plazo dispondrá, como mínimo, para presentar alegaciones?",
+      "options": [
+        "Diez días.",
+        "Cinco días.",
+        "Quince días.",
+        "Un mes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La declaración de lesividad exige la audiencia previa de los interesados en los términos del art. 82 (art. 107.2), cuyo plazo no puede ser inferior a diez días ni superior a quince.",
+      "excerpt": "Los interesados, en un plazo no inferior a diez días ni superior a quince, podrán alegar y presentar los documentos y justificaciones que estimen pertinentes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107.3 LPAC",
+      "stem": "La Confederación inicia el procedimiento para declarar lesiva la autorización de D. Martín Olmedo el 10 de febrero de 2026, pero deja pasar el tiempo sin declararla. Según la Ley 39/2015, ¿qué ocurrirá si transcurren seis meses desde la iniciación sin que se haya declarado la lesividad?",
+      "options": [
+        "Se entenderá declarada la lesividad por silencio.",
+        "El procedimiento caducará.",
+        "La autorización quedará anulada de forma automática.",
+        "La Confederación podrá declarar la lesividad en cualquier momento, porque el único límite es de cuatro años."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El plazo de cuatro años limita cuándo puede adoptarse la declaración (art. 107.2), pero una vez iniciado el procedimiento, si pasan seis meses sin declarar la lesividad, este caduca (art. 107.3).",
+      "excerpt": "Transcurrido el plazo de seis meses desde la iniciación del procedimiento sin que se hubiera declarado la lesividad, se producirá la caducidad del mismo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -192,3 +192,10 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 - Simulacros nuevos: segunda parte de Administrativo (tipo supuesto, corte 33/50), ofimática de Tramitación (tercer ejercicio, 20 preguntas, mínimo 10) y completo de Policía Nacional (temas 1-45).
   **Motivo:** el sorteo uniforme por prefijo sobrerrepresentaba temas que apenas caen (p. ej. organización en Tramitación) y un aprobado en 5 daba falsa seguridad.
   **Consecuencias:** los repartos son la media de los exámenes publicados (en Guardia Civil y Policía Nacional, una estimación porque no se publican los cuadernillos) y hay que revisarlos con cada convocatoria. Cada cupo exige preguntas publicadas suficientes (`mock_quotas_ready`). No se reproducen los casos prácticos con enunciado común, las rejillas de ortografía de Guardia Civil ni las preguntas de reserva.
+
+## ADR-034 · Exámenes réplica en lugar de reproducir los cuadernillos oficiales (2026-11-05)
+
+**Decisión:** joel pidió poder practicar con «test reales de exámenes anteriores o algunos hechos pero que sean iguales». Los cuadernillos no se reproducen (el tribunal de Mossos los declara sujetos a propiedad intelectual y la regla del proyecto es redacción original): se hace una **réplica pregunta a pregunta** de cada examen oficial publicado (misma norma, mismo artículo, mismo tipo y orden, redacción y distractores propios; si la norma cambió, la versión vigente) en un tema propio (`*-examen-*`), con un simulacro que saca todas sus preguntas publicadas con el formato y los cortes reales (ajustados en proporción si alguna réplica sigue en revisión) y enlaza el examen oficial.
+**Motivo:** practicar con lo mismo que cayó sin copiar texto protegido.
+**Consecuencias:** cada convocatoria nueva con cuestionario publicado pide su réplica. Policía Nacional y Guardia Civil no publican cuestionarios: siguen con el simulacro por reparto. Un prefijo de tema no puede ser prefijo de otro tema que no deba entrar en el mismo cupo (por eso `jus-examen-2026-auxilio-test` y `justra-examen-2026-test`). La actualidad de Mossos (`mossos-d-actualitat`) caduca y hay que renovarla cada trimestre.
+
