@@ -4,6 +4,13 @@
 
 ## Estado exacto
 
+### Premium por oposición y 3 temas gratis (2026-11-05, rama `claude/project-thread-yutpbx`, BIZ-004, ADR-035)
+
+- Inventario previo (Claude Doc «Material gratis y de pago por oposición»): el alumno gratis no tenía ni una pregunta de test.
+- Nuevo modelo: Premium de cada oposición (`<prefijo>-premium`), pack gratis de 3 temas (`<prefijo>-temas-gratis`, `config.topic_slugs`) y packs de 10 intentos (`-10-simulacros`, `-10-psicotecnicos`, `config.attempts`). Migración `20261105000200_exam_premium` copiada en la preview `47-` con los productos y precios.
+- Ficha de oposición, «Mis productos», plan, panel, portada y condiciones de venta adaptados.
+- **Pendiente:** joel confirma precios (DEC-007) antes de fusionar; los precios se cobran desde la BD.
+
 ### Prisiones de Cataluña (2026-11-05, rama `claude/project-thread-xt6teb`, CNT-023, ADR-032)
 
 - Cos tècnic d'especialistes, escala de serveis penitenciaris (C1), convocatoria JU033. Programa y fuentes en `docs/research/prisiones-catalunya-programa.md`; `build.py`, `FORMATO.md` y fuentes en `/mnt/project-files/aprobia/fuentes-oficiales/prisiones-cat/`.

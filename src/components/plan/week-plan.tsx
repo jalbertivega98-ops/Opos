@@ -4,13 +4,10 @@ import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/card";
 import { Meter } from "@/components/ui/progress";
 import type { PlanTask, WeekPlan } from "@/lib/learning/plan";
-import type { PlanAccess } from "@/lib/store/queries";
-import { cn } from "@/lib/utils";
+import { taskUnlocked, type PlanAccess } from "@/lib/store/access";
 
-/** ¿Puede el alumno hacer esta tarea con lo que tiene? Los psicotécnicos son gratis. */
-export function taskUnlocked(task: PlanTask, access: PlanAccess) {
-  return task.kind === "psycho" || (task.kind === "topic" ? access.topics : access.mocks);
-}
+export { taskUnlocked };
+import { cn } from "@/lib/utils";
 
 /**
  * Tareas de la semana del plan, con enlace a donde se hacen. Las de pago que el

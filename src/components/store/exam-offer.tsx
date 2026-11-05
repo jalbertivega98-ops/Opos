@@ -5,18 +5,19 @@ import { Button } from "@/components/ui/button";
 import { Badge, Card } from "@/components/ui/card";
 import { localized } from "@/lib/catalog/queries";
 import { formatPrice } from "@/lib/store/schema";
-import type { ExamOffer, OfferProduct } from "@/lib/store/queries";
+import { isAttemptsPack, type ExamOffer, type OfferProduct } from "@/lib/store/queries";
 import { BuyForm } from "@/components/billing/buy-form";
 import { examHasPsycho } from "@/lib/catalog/exam-format";
 
 /**
- * «Qué incluye»: contenido real publicado, qué es gratis y qué es de pago.
- * Con pagos activos (Stripe) se compra el pack o Premium; si no, el botón sale desactivado.
+ * «Qué incluye»: contenido real publicado, qué es gratis y qué es de pago (ADR-035).
+ * Gratis: 3 temas en test, fichas, plan y estadísticas. De pago: el Premium de esta
+ * oposición (una suscripción) y packs sueltos de intentos de simulacro.
+ * Sin pagos activos (Stripe) el botón sale desactivado.
  */
 export async function ExamOfferSection({
   offer,
   locale,
-  premiumCents,
   back,
   billing,
   examSlug,
@@ -24,32 +25,30 @@ export async function ExamOfferSection({
   examSlug: string;
   offer: ExamOffer;
   locale: string;
-  premiumCents: number | null;
   back: string;
-  billing: { enabled: boolean; testMode: boolean; premium: boolean };
+  billing: { enabled: boolean; testMode: boolean };
 }) {
   const t = await getTranslations("offer");
   if (offer.products.length === 0) return null;
   const bySlug = new Map(offer.products.map((p) => [p.slug, p]));
-  const bundle = offer.products.find((p) => p.type === "bundle");
+  const bundle = offer.products.find((p) => p.type === "bundle" && !isAttemptsPack(p));
+  const extras = offer.products.filter((p) => isAttemptsPack(p) && p.price);
   const included = bundle
     ? bundle.includes.map((s) => bySlug.get(s)).filter((p): p is OfferProduct => !!p)
-    : offer.products;
+    : offer.products.filter((p) => !p.is_free && !isAttemptsPack(p));
   const mocks = included.filter((p) => p.type === "mock_exam");
   const packs = included.filter((p) => p.type === "question_pack");
   const questions = bundle?.questions || packs.reduce((n, p) => n + p.questions, 0);
-  const price = bundle?.price;
-  // Qué se compra: el pack completo si tiene precio; si no, Premium
-  const buy = !billing.enabled
-    ? null
-    : bundle && price
-      ? {
-          slug: bundle.slug,
-          label: t("paid.buy", { price: formatPrice(price.amount_cents, locale) }),
-        }
-      : premiumCents !== null && billing.premium
-        ? { slug: "premium", label: t("paid.buyPremium") }
-        : null;
+  const premium = offer.premium;
+  const price = premium?.price ?? null;
+  const freeQuestions = offer.free_topics.reduce((n, tp) => n + tp.questions, 0);
+  const freeItems = [
+    ...(offer.free_topics.length > 0 ? (["topics"] as const) : []),
+    "notes" as const,
+    "plan" as const,
+    ...(examHasPsycho(examSlug) ? (["psycho"] as const) : []),
+    "progress" as const,
+  ];
 
   return (
     <section className="mt-10 space-y-4" aria-labelledby="offer-title" data-testid="exam-offer">
@@ -61,19 +60,21 @@ export async function ExamOfferSection({
       </p>
 
       <div className="grid gap-4 md:grid-cols-2">
-        <Card className="space-y-3">
+        <Card className="space-y-3" data-testid="offer-free">
           <div>
             <h3 className="text-lg font-semibold">{t("free.title")}</h3>
             <p className="text-muted-foreground text-sm">{t("free.price")}</p>
           </div>
           <ul className="space-y-2 text-sm">
-            {(examHasPsycho(examSlug)
-              ? (["plan", "psycho", "progress"] as const)
-              : (["plan", "progress"] as const)
-            ).map((k) => (
+            {freeItems.map((k) => (
               <li key={k} className="flex gap-2">
                 <Check className="text-accent mt-0.5 size-4 shrink-0" aria-hidden />
-                {t(`free.items.${k}`)}
+                {k === "topics"
+                  ? t("free.items.topics", {
+                      topics: offer.free_topics.map((tp) => tp.title).join(" · "),
+                      questions: freeQuestions,
+                    })
+                  : t(`free.items.${k}`)}
               </li>
             ))}
           </ul>
@@ -85,19 +86,15 @@ export async function ExamOfferSection({
         <Card className="border-accent ring-accent space-y-3 ring-1" data-testid="offer-paid">
           <div>
             <h3 className="text-lg font-semibold">
-              {bundle ? localized(locale, bundle.title, bundle.title_ca) : t("paid.title")}
+              {premium ? localized(locale, premium.title, premium.title_ca) : t("paid.title")}
             </h3>
             <p className="text-sm" data-testid="offer-price">
               {price
-                ? price.interval
-                  ? t("paid.priceRecurring", {
-                      price: formatPrice(price.amount_cents, locale),
-                      interval: t(`paid.intervals.${price.interval}` as never),
-                    })
-                  : t("paid.priceOnce", { price: formatPrice(price.amount_cents, locale) })
-                : premiumCents !== null
-                  ? t("paid.inPremium", { price: formatPrice(premiumCents, locale) })
-                  : t("paid.priceTbd")}
+                ? t("paid.priceRecurring", {
+                    price: formatPrice(price.amount_cents, locale),
+                    interval: t(`paid.intervals.${price.interval ?? "month"}` as never),
+                  })
+                : t("paid.priceTbd")}
             </p>
           </div>
           <ul className="space-y-3 text-sm">
@@ -148,8 +145,16 @@ export async function ExamOfferSection({
               {t("paid.plan")}
             </li>
           </ul>
-          {buy ? (
-            <BuyForm slug={buy.slug} back={back} label={buy.label} testMode={billing.testMode} />
+          {billing.enabled && premium && price ? (
+            <>
+              <BuyForm
+                slug={premium.slug}
+                back={back}
+                label={t("paid.buyPremium", { price: formatPrice(price.amount_cents, locale) })}
+                testMode={billing.testMode}
+              />
+              <p className="text-muted-foreground text-center text-xs">{t("paid.cancel")}</p>
+            </>
           ) : (
             <>
               <Button variant="accent" className="w-full" disabled>
@@ -160,6 +165,48 @@ export async function ExamOfferSection({
           )}
         </Card>
       </div>
+
+      {extras.length > 0 && (
+        <div className="space-y-3" data-testid="offer-extras">
+          <div>
+            <h3 className="text-lg font-semibold">{t("extras.title")}</h3>
+            <p className="text-muted-foreground text-sm">{t("extras.subtitle")}</p>
+          </div>
+          <ul className="grid gap-4 md:grid-cols-2">
+            {extras.map((x) => (
+              <li key={x.slug}>
+                <Card className="flex h-full flex-col gap-3" data-testid="offer-extra">
+                  <div className="flex-1 space-y-1">
+                    <p className="font-semibold">{localized(locale, x.title, x.title_ca)}</p>
+                    <p className="text-sm">
+                      {t("extras.attempts", { count: x.config.attempts ?? 0 })} ·{" "}
+                      {formatPrice(x.price!.amount_cents, locale)}
+                    </p>
+                    <p className="text-muted-foreground text-xs">
+                      {t("extras.mocks", {
+                        list: x.includes
+                          .map((s) => bySlug.get(s))
+                          .filter((p): p is OfferProduct => !!p)
+                          .map((p) => localized(locale, p.title, p.title_ca))
+                          .join(" · "),
+                      })}
+                    </p>
+                  </div>
+                  {billing.enabled && (
+                    <BuyForm
+                      slug={x.slug}
+                      back={back}
+                      size="sm"
+                      label={t("extras.buy", { price: formatPrice(x.price!.amount_cents, locale) })}
+                      testMode={billing.testMode}
+                    />
+                  )}
+                </Card>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <details className="border-border rounded-xl border p-4">
         <summary className="cursor-pointer font-semibold">

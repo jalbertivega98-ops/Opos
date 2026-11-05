@@ -89,7 +89,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const accuracy = answered ? pct(practice!.totals.correct, answered) : null;
   const pending = split.psycho + split.questions;
   const active = recent.find((s) => s.status === "active");
-  const access = planAccess(library);
+  const access = planAccess(library, myPlan.reason === null ? myPlan.freeTopics : []);
   // Siguiente tarea que el alumno puede hacer ya (las de pago sin acceso se saltan).
   const nextTask =
     myPlan.reason === null

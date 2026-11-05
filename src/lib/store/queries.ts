@@ -96,6 +96,8 @@ export type LibraryItem = {
   ends_at: string | null;
   is_test: boolean;
   question_count: number;
+  /** Packs de intentos: intentos de simulacro que le quedan (null en el resto). */
+  attempts_left: number | null;
 };
 
 export async function myLibrary() {
@@ -108,42 +110,53 @@ export async function myLibrary() {
   }));
 }
 
-/** Precio mensual activo de Premium (configurable en el panel) y si está a la venta. */
+/**
+ * Premium por oposición (ADR-035): precio mensual más bajo entre los Premium
+ * publicados de cada oposición, para la portada («desde X € al mes»).
+ */
 export async function premiumInfo() {
   const supabase = await createClient();
   const { data } = await supabase
     .from("products")
-    .select("status, prices:product_prices(amount_cents, billing_interval, active)")
-    .eq("slug", "premium")
-    .maybeSingle();
-  const p = (
-    data?.prices as
-      { amount_cents: number; billing_interval: string | null; active: boolean }[] | undefined
-  )?.find((x) => x.active && x.billing_interval === "month");
-  return { cents: p?.amount_cents ?? null, published: data?.status === "published" };
+    .select("prices:product_prices(amount_cents, billing_interval, active)")
+    .eq("type", "subscription")
+    .eq("status", "published")
+    .eq("is_test", false)
+    .not("exam_body_id", "is", null);
+  const cents = (data ?? [])
+    .flatMap(
+      (p) =>
+        (p.prices ?? []) as {
+          amount_cents: number;
+          billing_interval: string | null;
+          active: boolean;
+        }[],
+    )
+    .filter((x) => x.active && x.billing_interval === "month")
+    .map((x) => x.amount_cents);
+  return { cents: cents.length ? Math.min(...cents) : null, published: cents.length > 0 };
 }
 
-export async function premiumPrice() {
-  return (await premiumInfo()).cents;
-}
+export type MySubscription = {
+  status: "active" | "trialing" | "past_due";
+  current_period_end: string | null;
+  cancel_at_period_end: boolean;
+  provider: string;
+  product: { slug: string; title: string; title_ca: string | null; exam_body_id: string | null };
+};
 
-/** Suscripción Premium vigente del alumno (si la tiene). */
-export async function mySubscription(userId: string) {
+/** Suscripciones Premium vigentes del alumno (una por oposición; o la global antigua). */
+export async function mySubscriptions(userId: string) {
   const supabase = await createClient();
   const { data } = await supabase
     .from("subscriptions")
-    .select("status, current_period_end, cancel_at_period_end, provider")
+    .select(
+      "status, current_period_end, cancel_at_period_end, provider, product:products(slug, title, title_ca, exam_body_id)",
+    )
     .eq("user_id", userId)
     .in("status", ["active", "trialing", "past_due"])
-    .order("created_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-  return data as {
-    status: "active" | "trialing" | "past_due";
-    current_period_end: string | null;
-    cancel_at_period_end: boolean;
-    provider: string;
-  } | null;
+    .order("created_at", { ascending: false });
+  return (data ?? []) as unknown as MySubscription[];
 }
 
 export type OfferProduct = {
@@ -157,6 +170,8 @@ export type OfferProduct = {
   included_in_premium: boolean;
   config: {
     kind?: string;
+    attempts?: number;
+    topic_slugs?: string[];
     questions?: number;
     minutes?: number;
     penalty?: number;
@@ -166,12 +181,24 @@ export type OfferProduct = {
   includes: string[];
   price: { amount_cents: number; currency: string; interval: string | null } | null;
 };
+export type OfferTopic = { slug: string; title: string; questions: number };
 export type ExamOffer = {
   topics: number;
   questions: number;
-  topic_list: { slug: string; title: string; questions: number }[];
+  topic_list: OfferTopic[];
   products: OfferProduct[];
+  /** Premium de la oposición (suscripción mensual), si está a la venta. */
+  premium: {
+    slug: string;
+    title: string;
+    title_ca: string | null;
+    price: { amount_cents: number; currency: string; interval: string | null } | null;
+  } | null;
+  /** Temas gratis (los de su pack gratuito), en el orden del temario. */
+  free_topics: OfferTopic[];
 };
+
+export { isAttemptsPack, planAccess, type PlanAccess } from "./access";
 
 /** Lo que incluye la preparación de una oposición (solo agregados publicados). */
 export async function examOffer(slug: string): Promise<ExamOffer | null> {
@@ -180,15 +207,18 @@ export async function examOffer(slug: string): Promise<ExamOffer | null> {
   return (data as ExamOffer | null) ?? null;
 }
 
-/**
- * Qué partes del plan puede abrir el alumno con lo que tiene (packs de preguntas y
- * simulacros reales, no de prueba). Lo que no, se muestra con candado «Premium».
- */
-export function planAccess(items: LibraryItem[]) {
-  const real = items.filter((i) => !i.is_test);
-  return {
-    topics: real.some((i) => i.type === "question_pack" || i.type === "bundle"),
-    mocks: real.some((i) => i.type === "mock_exam" || i.type === "bundle"),
-  };
+/** Temas gratis de una oposición (los de su pack gratuito). */
+export async function freeTopicSlugs(examSlug: string): Promise<string[]> {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("products")
+    .select("config, exam:exam_bodies!inner(slug)")
+    .eq("exam.slug", examSlug)
+    .eq("is_free", true)
+    .eq("status", "published")
+    .eq("type", "question_pack");
+  return (data ?? []).flatMap((p) => {
+    const slugs = (p.config as { topic_slugs?: unknown } | null)?.topic_slugs;
+    return Array.isArray(slugs) ? slugs.filter((x): x is string => typeof x === "string") : [];
+  });
 }
-export type PlanAccess = ReturnType<typeof planAccess>;
