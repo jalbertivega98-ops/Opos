@@ -9,7 +9,7 @@
 - Inventario previo (Claude Doc «Material gratis y de pago por oposición»): el alumno gratis no tenía ni una pregunta de test.
 - Nuevo modelo: Premium de cada oposición (`<prefijo>-premium`), pack gratis de 3 temas (`<prefijo>-temas-gratis`, `config.topic_slugs`) y packs de 10 intentos (`-10-simulacros`, `-10-psicotecnicos`, `config.attempts`). Migración `20261105000200_exam_premium` copiada en la preview `47-` con los productos y precios.
 - Ficha de oposición, «Mis productos», plan, panel, portada y condiciones de venta adaptados.
-- **Pendiente:** joel confirma precios (DEC-007) antes de fusionar; los precios se cobran desde la BD.
+- Precios confirmados por joel el 05/11/2026 (DEC-007): 12,99 €/mes, 9,99 € y 6,99 €. Se cobran desde la BD.
 
 ### Prisiones de Cataluña (2026-11-05, rama `claude/project-thread-xt6teb`, CNT-023, ADR-032)
 

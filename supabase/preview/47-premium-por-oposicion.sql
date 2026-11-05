@@ -201,7 +201,7 @@ grant execute on function public.exam_offer(text) to anon, authenticated;
 
 -- ---------------------------------------------------------------------
 -- Datos: por cada oposición, Premium propio, 3 temas gratis y packs de 10 intentos.
--- PRECIOS PROVISIONALES (propuesta, pendiente de que joel los confirme):
+-- PRECIOS confirmados por joel el 05/11/2026 (DEC-007):
 --   Premium de la oposición 12,99 €/mes · 10 simulacros 9,99 € · 10 simulacros de psicotécnicos 6,99 €.
 -- Los precios se cobran desde aquí (Stripe Checkout con price_data): no hay que crear nada en Stripe.
 -- ---------------------------------------------------------------------
