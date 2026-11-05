@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pn-38-sistemas-operativos-apple_apfs-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 38. Fundamentos de sistemas operativos: sistemas operativos móviles, almacenamiento y sistemas de archivos",
+    "topic_slug": "pn-38-sistemas-operativos",
+    "locale": "es",
+    "category": "pn_38_sistemas_operativos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Soporte de Apple · Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac",
+      "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+      "kind": "web_oficial",
+      "publisher": "Apple (soporte técnico oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Apple, Utilidad de Discos: formatos",
+      "stem": "Según Apple, el sistema de archivos por omisión de los ordenadores Mac con macOS 10.13 o posterior es:",
+      "options": [
+        "NTFS.",
+        "ExFAT.",
+        "APFS (Sistema de archivos de Apple)."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Apple indica que APFS es el sistema de archivos por omisión de los Mac con macOS 10.13 o posterior; MS-DOS (FAT) y ExFAT son los formatos compatibles con Windows.",
+      "excerpt": "El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Apple, Utilidad de Discos: formatos compatibles con Windows",
+      "stem": "Según Apple, al formatear en un Mac un disco para usarlo con Windows, el formato ExFAT se utiliza para los volúmenes:",
+      "options": [
+        "De más de 32 GB.",
+        "De hasta 32 GB.",
+        "De hasta 4 GB."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Utilidad de Discos ofrece MS-DOS (FAT) para volúmenes de Windows de hasta 32 GB y ExFAT para volúmenes de más de 32 GB.",
+      "excerpt": "ExFAT: Se utiliza para los volúmenes de Windows de más de 32 GB.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Apple, Utilidad de Discos: APFS",
+      "stem": "Según Apple, el formato «APFS (mayús./minús)» de Utilidad de Discos:",
+      "options": [
+        "Encripta el volumen sin distinguir mayúsculas y minúsculas.",
+        "Es compatible con Windows para volúmenes de hasta 32 GB.",
+        "Distingue las mayúsculas y minúsculas de los nombres de las carpetas y archivos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Con APFS (mayús./minús), carpetas como «Tareas» y «TAREAS» son diferentes. La variante que encripta es APFS (encriptado), y el formato compatible con Windows hasta 32 GB es MS-DOS (FAT).",
+      "excerpt": "APFS (mayús./minús): Utiliza el formato APFS y distingue las mayúsculas y minúsculas de los nombres de las carpetas y archivos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

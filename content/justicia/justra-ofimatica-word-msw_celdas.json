@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_celdas-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Combinar o dividir celdas en una tabla de Word",
+      "url": "https://support.microsoft.com/es-es/word/merge-or-split-cells-in-a-table",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Combinar celdas",
+      "stem": "En Word, además de usar la cinta de opciones, ¿cómo pueden combinarse varias celdas seleccionadas de una tabla?",
+      "options": [
+        "Haciendo clic con el botón derecho en las celdas seleccionadas y seleccionando Combinar celdas.",
+        "Pulsando Ctrl+Entrar.",
+        "Arrastrando el borde de la tabla.",
+        "Desde Archivo > Opciones > Avanzadas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Pueden combinarse dos o más celdas de la misma fila o columna.",
+      "excerpt": "También puede hacer clic con el botón derecho en las celdas seleccionadas y seleccionar Combinar celdas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Dividir celdas",
+      "stem": "Si una tabla de Word no tiene bordes y quiere ver la estructura de sus celdas, puede activar:",
+      "options": [
+        "Mostrar marcas.",
+        "Ver líneas de cuadrícula.",
+        "Vista Borrador.",
+        "Bordes de página."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Se activa desde la pestaña contextual de tabla con el cursor en cualquier lugar de la tabla.",
+      "excerpt": "Si la tabla no tiene bordes, puede activar las líneas de cuadrícula. Seleccione cualquier lugar de la tabla y, a continuación, en la pestaña Diseño de tabla, en la pestaña Diseño de tabla , elija Ver líneas de cuadrícula.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

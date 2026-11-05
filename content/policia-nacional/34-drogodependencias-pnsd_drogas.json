@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "set": "pn-34-drogodependencias-pnsd_drogas-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 34. Drogodependencias: drogas, clasificación, consumo y últimas tendencias",
+    "topic_slug": "pn-34-drogodependencias",
+    "locale": "es",
+    "category": "pn_34_drogodependencias",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Delegación del Gobierno para el Plan Nacional sobre Drogas · Información sobre drogas y otras conductas adictivas",
+      "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+      "kind": "web_oficial",
+      "publisher": "Ministerio de Sanidad · Delegación del Gobierno para el Plan Nacional sobre Drogas",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "PNSD, Alcohol",
+      "stem": "Según la Delegación del Gobierno para el Plan Nacional sobre Drogas, el alcohol es una droga:",
+      "options": [
+        "Estimulante del sistema nervioso central.",
+        "Alucinógena, que altera la percepción de la realidad.",
+        "Depresora del sistema nervioso central, que inicialmente produce euforia y desinhibición, por lo que puede confundirse con un estimulante."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El PNSD explica que el alcohol es depresor del sistema nervioso central e inhibe progresivamente las funciones cerebrales; su efecto inicial de euforia y desinhibición puede hacer que se confunda con un estimulante.",
+      "excerpt": "El alcohol es una droga depresora del Sistema Nervioso Central que inhibe progresivamente las funciones cerebrales. Afecta a la capacidad de autocontrol, produciendo inicialmente euforia y desinhibición, por lo que puede confundirse con un estimulante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Tabaco",
+      "stem": "Según el Plan Nacional sobre Drogas, el componente del tabaco que posee una enorme capacidad adictiva y es la causa de que su consumo produzca dependencia es:",
+      "options": [
+        "La nicotina.",
+        "El alquitrán.",
+        "El monóxido de carbono."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La nicotina causa la dependencia; los alquitranes se asocian a los distintos tipos de cáncer y el monóxido de carbono favorece las enfermedades cardiovasculares.",
+      "excerpt": "Uno de sus componentes, la nicotina, posee una enorme capacidad adictiva, y es la causa por la que su consumo produce dependencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Cannabis",
+      "stem": "Según el Plan Nacional sobre Drogas, el principal principio activo del cannabis, responsable de sus efectos sobre el cerebro, es:",
+      "options": [
+        "La metilendioximetanfetamina (MDMA).",
+        "El tetrahidrocannabinol (THC).",
+        "El clorhidrato de cocaína."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Los efectos del cannabis se deben principalmente al THC. La MDMA es el éxtasis, una droga de síntesis, y el clorhidrato de cocaína es la cocaína en polvo.",
+      "excerpt": "Sus efectos sobre el cerebro son debidos principalmente a uno de sus principios activos, el Tetrahidrocannabinol o THC",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Cocaína",
+      "stem": "Según el Plan Nacional sobre Drogas, la cocaína es:",
+      "options": [
+        "Una droga depresora del sistema nervioso central.",
+        "Una droga de síntesis producida en laboratorios clandestinos.",
+        "Un potente estimulante del sistema nervioso central y una de las drogas más adictivas y peligrosas."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El PNSD describe la cocaína como potente estimulante del sistema nervioso central que se obtiene del procesamiento químico de las hojas del arbusto de coca.",
+      "excerpt": "La cocaína es un potente estimulante del sistema nervioso central y una de las drogas más adictivas y peligrosas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Tabaco",
+      "stem": "Según el Plan Nacional sobre Drogas, el tabaco es una droga:",
+      "options": [
+        "Estimulante del sistema nervioso central.",
+        "Depresora del sistema nervioso central.",
+        "Alucinógena."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El PNSD define el tabaco como droga estimulante del sistema nervioso central; durante su combustión se originan más de 4.000 productos tóxicos.",
+      "excerpt": "El tabaco es una droga estimulante del sistema nervioso central.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Drogas de síntesis",
+      "stem": "Según el Plan Nacional sobre Drogas, el éxtasis (MDMA) es una droga de síntesis que tiene efectos:",
+      "options": [
+        "Exclusivamente depresores.",
+        "Estimulantes y alucinógenos a la vez.",
+        "Exclusivamente analgésicos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El PNSD indica que el éxtasis (3-4 metilendioximetanfetamina) tiene efectos estimulantes y alucinógenos a la vez.",
+      "excerpt": "El éxtasis (3-4 metilendioximetanfetamina, abreviado como MDMA) es una droga de síntesis. Tiene efectos estimulantes y alucinógenos a la vez.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Drogas de síntesis",
+      "stem": "Según el Plan Nacional sobre Drogas, las drogas de síntesis son especialmente peligrosas porque:",
+      "options": [
+        "Se consumen siempre por vía inyectada.",
+        "Su fabricación en laboratorios clandestinos y el desconocimiento de su composición final hacen que sus efectos no sean claramente previsibles.",
+        "Son todas depresoras del sistema nervioso central."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El PNSD destaca que los consumidores nunca saben exactamente qué están ingiriendo; se presentan en pastillas, cápsulas, polvo o líquidos atractivos para los jóvenes.",
+      "excerpt": "La fabricación en laboratorios clandestinos y el desconocimiento de su composición final, las convierte en especialmente peligrosas, pues los consumidores nunca saben exactamente qué están ingiriendo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Cocaína",
+      "stem": "Según el Plan Nacional sobre Drogas, el preparado de cocaína que es sulfato de cocaína y se fuma mezclado con tabaco o marihuana es:",
+      "options": [
+        "El basuko o pasta de coca.",
+        "El crack o cocaína base.",
+        "El clorhidrato de cocaína."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El basuko o pasta de coca es sulfato de cocaína; el crack es cocaína base que se fuma; el clorhidrato es la cocaína en polvo, que suele consumirse esnifada.",
+      "excerpt": "Basuko o pasta de coca: Es sulfato de cocaína y se fuma mezclado con tabaco o marihuana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Cannabis",
+      "stem": "Según el Plan Nacional sobre Drogas, el hachís se elabora a partir de:",
+      "options": [
+        "La trituración de flores, hojas y tallos secos.",
+        "Las hojas del arbusto de coca.",
+        "La resina almacenada en las flores de la planta hembra."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El hachís procede de la resina de las flores de la planta hembra; la marihuana, de la trituración de flores, hojas y tallos secos.",
+      "excerpt": "Hachís: elaborado a partir de la resina almacenada en las flores de la planta hembra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Cannabis",
+      "stem": "Según el Plan Nacional sobre Drogas, el THC tiene una vida media aproximada de:",
+      "options": [
+        "Dos horas, igual que la nicotina.",
+        "Una semana, por lo que se va acumulando en el cerebro aunque solo se consuma los fines de semana.",
+        "Veinticuatro horas."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Una semana después de consumirlo, el organismo solo ha eliminado el 50 % del THC; por eso se acumula aunque el consumo sea de fin de semana. La nicotina tiene una vida media aproximada de dos horas.",
+      "excerpt": "El THC tiene una vida media aproximada de una semana, lo que significa que, una semana después de consumirlo, el organismo no ha conseguido eliminar más que el 50%.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Otras conductas adictivas",
+      "stem": "Según el Plan Nacional sobre Drogas, la ludopatía es un trastorno reconocido por la Asociación de Psiquiatría Americana y recogido por la OMS en su Clasificación Internacional de Enfermedades, respectivamente, en los años:",
+      "options": [
+        "1975 y 1990.",
+        "1980 y 1992.",
+        "1992 y 2000."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El PNSD indica que la ludopatía fue reconocida por la Asociación de Psiquiatría Americana en 1980 y que la OMS la recoge en su clasificación en 1992; es una adicción sin sustancia que necesita tratamiento.",
+      "excerpt": "La Ludopatía es un trastorno reconocido por la Asociación de Psiquiatría Americana en 1980 y por la Organización Mundial de la Salud (OMS) que lo recoge en su clasificación Internacional de Enfermedades en el año 1992.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "PNSD, Bebidas energéticas",
+      "stem": "Según la información del Plan Nacional sobre Drogas, que recoge las recomendaciones de la Agencia Española de Seguridad Alimentaria y Nutrición, se consideran bebidas con alto contenido en cafeína las que aportan:",
+      "options": [
+        "Más de 15 miligramos de cafeína por 100 mililitros de bebida.",
+        "Más de 32 miligramos de cafeína por 100 mililitros de bebida.",
+        "Más de 100 miligramos de cafeína por lata."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El umbral es de 15 mg/100 ml; como media, muchas bebidas energéticas contienen 32 mg de cafeína/100 ml, y algunas bastante más.",
+      "excerpt": "las bebidas con alto contenido en cafeína son las que aportan más de 15 miligramos de esta sustancia por 100 mililitros de bebida.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

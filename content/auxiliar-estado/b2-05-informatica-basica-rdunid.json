@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-rdunid-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 2032/2009, de 30 de diciembre, por el que se establecen las unidades legales de medida (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-927",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "RD 2032/2009 · Anexo, tabla 5, nota (a)",
+      "stem": "Según el Real Decreto 2032/2009, de unidades legales de medida, un kilobit representa:",
+      "options": [
+        "1024 bits, porque en informática los prefijos SI expresan potencias de 2.",
+        "1000 bytes, porque el prefijo kilo se aplica al octeto.",
+        "8000 bits, porque cada byte tiene ocho bits.",
+        "1000 bits, porque los prefijos SI representan estrictamente potencias de 10."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La nota (a) de la tabla de prefijos SI aclara que estos representan potencias de 10 y que no deben usarse para potencias de 2: un kilobit son 1000 bits, no 1024.",
+      "excerpt": "Los prefijos SI representan estrictamente potencias de 10. No deben utilizarse para expresar potencias de 2 (por ejemplo, un kilobit representa 1000 bits y no 1024 bits).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "RD 2032/2009 · Anexo, tabla 5, nota (a)",
+      "stem": "De acuerdo con el Real Decreto 2032/2009, ¿a cuántos bytes equivale un kibibyte (1 KiB)?",
+      "options": [
+        "1000 B.",
+        "1024 bits.",
+        "1024 B.",
+        "1 000 000 B."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El kibibyte usa el prefijo binario kibi (2 elevado a 10): 1 KiB = 1024 B. El kilobyte, con prefijo SI, son 1000 bytes.",
+      "excerpt": "Así, por ejemplo, un kibibyte se escribe: 1 KiB = 2<sup>10</sup> B = 1024 B.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "RD 2032/2009 · Anexo, tabla 5, nota (a)",
+      "stem": "Según el Real Decreto 2032/2009, los prefijos kibi, mebi, gibi, tebi, pebi y exbi, empleados para las potencias binarias:",
+      "options": [
+        "Son prefijos del Sistema Internacional que sustituyen a kilo, mega y giga en informática.",
+        "No pertenecen al Sistema Internacional y pueden emplearse en tecnología de la información para evitar un uso incorrecto de los prefijos SI.",
+        "Solo pueden emplearse para expresar velocidades de transmisión de datos.",
+        "Representan potencias de 10 equivalentes a las de los prefijos SI."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La nota (a) dice que los prefijos de las potencias binarias no pertenecen al SI y que pueden usarse en tecnología de la información para evitar el uso incorrecto de kilo, mega, giga, etc.",
+      "excerpt": "Los prefijos adoptados para las potencias binarias no pertenecen al SI. […] Estos prefijos pueden emplearse en el campo de la tecnología de la información a fin de evitar un uso incorrecto de los prefijos SI.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

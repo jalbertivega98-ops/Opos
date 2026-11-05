@@ -139,6 +139,45 @@ describe("simulacros con formato oficial (MOC-001)", () => {
     });
   });
 
+  it("con cupos por tema saca exactamente el reparto del examen real", async () => {
+    await tx(async (q) => {
+      const { pid, prefix } = await seed(q);
+      await q(
+        `update public.products
+            set config = config || jsonb_build_object('quotas', jsonb_build_array(
+                  jsonb_build_object('topic_prefix', $2::text, 'questions', 1),
+                  jsonb_build_object('topic_prefix', $3::text, 'questions', 3)))
+          where id = $1`,
+        [pid, `${prefix}-b`, `${prefix}-c`],
+      );
+      const cfg = (
+        await q("select public.mock_config(config) as c from public.products where id = $1", [pid])
+      ).rows[0].c;
+      expect(cfg.questions).toBe(4);
+      await grant(q, pid);
+      const aid = await start(q, pid);
+      const items = (
+        await q(
+          "select position, topic_slug from public.mock_attempt_items where attempt_id = $1 order by position",
+          [aid],
+        )
+      ).rows;
+      expect(items.map((i) => i.position)).toEqual([0, 1, 2, 3]);
+      expect(items.filter((i) => i.topic_slug === `${prefix}-b`)).toHaveLength(1);
+      expect(items.filter((i) => i.topic_slug === `${prefix}-c`)).toHaveLength(3);
+      expect(items.filter((i) => i.topic_slug === `${prefix}-a`)).toHaveLength(0);
+
+      // un cupo que el banco no cubre impide empezar
+      await q(
+        `update public.products set config = config || jsonb_build_object('quotas', jsonb_build_array(
+                  jsonb_build_object('topic_prefix', $2::text, 'questions', 2))) where id = $1`,
+        [pid, `${prefix}-b`],
+      );
+      await q("delete from public.mock_attempts where id = $1", [aid]);
+      await fails(q, "select public.mock_start($1, $2)", [student.id, pid], /suficientes/);
+    });
+  });
+
   it("no empieza si el banco publicado no llega al formato", async () => {
     await tx(async (q) => {
       const { pid } = await seed(q, 7);

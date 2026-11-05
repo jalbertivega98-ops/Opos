@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "set": "age-adm-33-procedimiento-revision-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.3 Procedimiento administrativo común: plazos, subsanación, tramitación, revisión de oficio y recursos",
+    "topic_slug": "age-adm-33-procedimiento-revision",
+    "locale": "es",
+    "category": "age_adm_33_procedimiento_revision",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Arts. 5.6 y 30.2 LPAC",
+      "stem": "Una gestoría presenta una solicitud en nombre de una empresa sin acreditar la representación. El miércoles 3 de junio de 2026 se le notifica el requerimiento para subsanar. Conforme a los artículos 5.6 y 30.2 de la Ley 39/2015, y sin festivos en el periodo, ¿cuál es el último día del plazo de subsanación?",
+      "options": [
+        "El viernes 12 de junio de 2026.",
+        "El miércoles 17 de junio de 2026.",
+        "El sábado 13 de junio de 2026.",
+        "El viernes 3 de julio de 2026."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 5.6 LPAC concede diez días para acreditar la representación; son días hábiles (art. 30.2), se excluyen sábados y domingos y se cuentan desde el día siguiente a la notificación: del jueves 4 al miércoles 17 de junio.",
+      "excerpt": "La falta o insuficiente acreditación de la representación no impedirá que se tenga por realizado el acto de que se trate, siempre que se aporte aquélla o se subsane el defecto dentro del plazo de diez días que deberá conceder al efecto el órgano administrativo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.3 LPAC",
+      "stem": "De acuerdo con el artículo 5.3 de la Ley 39/2015, ¿en cuál de los siguientes casos se presume la representación, sin necesidad de acreditarla?",
+      "options": [
+        "En la interposición de recursos administrativos.",
+        "En el desistimiento de acciones en nombre de otra persona.",
+        "En la presentación de declaraciones responsables.",
+        "En los actos y gestiones de mero trámite."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 5.3 LPAC exige acreditar la representación para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir y renunciar; solo se presume para los actos de mero trámite.",
+      "excerpt": "Para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos en nombre de otra persona, deberá acreditarse la representación. Para los actos y gestiones de mero trámite se presumirá aquella representación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.4 y 30.5 LPAC",
+      "stem": "A don Andrés se le notifica el jueves 14 de mayo de 2026 una resolución contra la que cabe recurso de alzada en el plazo de un mes. Según el artículo 30 de la Ley 39/2015, ¿cuál es el último día para interponerlo?",
+      "options": [
+        "El domingo 14 de junio de 2026.",
+        "El viernes 12 de junio de 2026, último día hábil anterior al vencimiento.",
+        "El lunes 15 de junio de 2026, porque el 14 de junio es domingo y el plazo se prorroga al primer día hábil siguiente.",
+        "El martes 16 de junio de 2026, porque el plazo en meses se cuenta desde el día siguiente a la notificación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El plazo en meses concluye el mismo día de la notificación en el mes de vencimiento (art. 30.4), el 14 de junio; como es domingo, se prorroga al primer día hábil siguiente (art. 30.5).",
+      "excerpt": "Cuando el último día del plazo sea inhábil, se entenderá prorrogado al primer día hábil siguiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.6 LPAC",
+      "stem": "Según el artículo 30.6 de la Ley 39/2015, si un día es hábil en el municipio en que reside el interesado pero inhábil en la sede del órgano administrativo, a efectos de cómputo de plazos ese día:",
+      "options": [
+        "Se considerará inhábil en todo caso.",
+        "Se considerará hábil, porque prevalece el domicilio del interesado.",
+        "Se considerará hábil, porque prevalece el calendario de la Administración General del Estado.",
+        "Se considerará hábil o inhábil según lo que decida el órgano instructor en cada caso."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 30.6 LPAC resuelve el conflicto de calendarios a favor del interesado: si el día es inhábil en uno de los dos lugares, es inhábil en todo caso. No se aplica a los registros electrónicos (art. 31.3).",
+      "excerpt": "Cuando un día fuese hábil en el municipio o Comunidad Autónoma en que residiese el interesado, e inhábil en la sede del órgano administrativo, o a la inversa, se considerará inhábil en todo caso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.4 LPAC",
+      "stem": "El martes 31 de marzo de 2026 se notifica a una interesada una resolución recurrible en alzada en el plazo de un mes. De acuerdo con el artículo 30.4 de la Ley 39/2015, el plazo vence:",
+      "options": [
+        "El viernes 1 de mayo de 2026, día siguiente al 30 de abril.",
+        "El jueves 30 de abril de 2026, porque en abril no hay día equivalente al 31 y el plazo expira el último día del mes.",
+        "El martes 28 de abril de 2026, cuatro semanas después de la notificación.",
+        "El miércoles 29 de abril de 2026, último día hábil completo antes de fin de mes."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 30.4 LPAC: el plazo en meses concluye el mismo día del mes de vencimiento; si ese mes no tiene día equivalente, expira el último día del mes (30 de abril, jueves).",
+      "excerpt": "Si en el mes de vencimiento no hubiera día equivalente a aquel en que comienza el cómputo, se entenderá que el plazo expira el último día del mes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.2 LPAC",
+      "stem": "En un procedimiento de concesión de subvenciones en régimen de concurrencia competitiva, un solicitante pide que se le amplíe el plazo de diez días que se le ha dado para subsanar su solicitud. Según el artículo 68.2 de la Ley 39/2015:",
+      "options": [
+        "No cabe la ampliación, porque no se admite en los procedimientos selectivos o de concurrencia competitiva.",
+        "Puede ampliarse hasta cinco días, a petición del interesado.",
+        "Puede ampliarse hasta la mitad del plazo inicial, conforme a la regla general de ampliación.",
+        "Puede ampliarse hasta diez días más si la aportación presenta dificultades especiales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 68.2 LPAC permite ampliar prudencialmente el plazo de subsanación hasta cinco días, pero solo cuando no se trate de procedimientos selectivos o de concurrencia competitiva.",
+      "excerpt": "Siempre que no se trate de procedimientos selectivos o de concurrencia competitiva, este plazo podrá ser ampliado prudencialmente, hasta cinco días, a petición del interesado o a iniciativa del órgano, cuando la aportación de los documentos requeridos presente dificultades especiales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 31.2.b) LPAC",
+      "stem": "Una empresa presenta un escrito en el registro electrónico de un Ministerio el sábado 14 de marzo de 2026 a las 18:00 horas, en un plazo fijado en días hábiles. Según el artículo 31.2 de la Ley 39/2015, a efectos del cumplimiento del plazo, el escrito:",
+      "options": [
+        "Se entenderá presentado el sábado 14 de marzo a las 18:00 horas.",
+        "Se entenderá presentado el viernes 13 de marzo, último día hábil anterior.",
+        "Se entenderá presentado en la primera hora del lunes 16 de marzo de 2026.",
+        "No se admitirá, porque el registro electrónico no permite presentar documentos en días inhábiles."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El registro electrónico admite documentos los 365 días y las 24 horas, pero la presentación en día inhábil se entiende hecha en la primera hora del primer día hábil siguiente (art. 31.2.b LPAC).",
+      "excerpt": "A los efectos del cómputo de plazo fijado en días hábiles, y en lo que se refiere al cumplimiento de plazos por los interesados, la presentación en un día inhábil se entenderá realizada en la primera hora del primer día hábil siguiente salvo que una norma permita expresamente la recepción en día inhábil.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 73.1 LPAC",
+      "stem": "Según el artículo 73.1 de la Ley 39/2015, salvo que la norma correspondiente fije otro plazo, los trámites que deban cumplimentar los interesados deberán realizarse en el plazo de:",
+      "options": [
+        "Quince días a partir del siguiente al de la notificación del correspondiente acto.",
+        "Cinco días a partir del mismo día de la notificación.",
+        "Un mes a partir del siguiente al de la notificación.",
+        "Diez días a partir del siguiente al de la notificación del correspondiente acto."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 73.1 LPAC fija el plazo general de diez días para los trámites que corresponden a los interesados.",
+      "excerpt": "Los trámites que deban ser cumplimentados por los interesados deberán realizarse en el plazo de diez días a partir del siguiente al de la notificación del correspondiente acto, salvo en el caso de que en la norma correspondiente se fije plazo distinto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 74 LPAC",
+      "stem": "De acuerdo con el artículo 74 de la Ley 39/2015, las cuestiones incidentales que se susciten en el procedimiento, incluso las referidas a la nulidad de actuaciones:",
+      "options": [
+        "Suspenderán siempre la tramitación hasta su resolución.",
+        "No suspenderán la tramitación del procedimiento, salvo la recusación.",
+        "No suspenderán la tramitación, salvo la abstención y la recusación.",
+        "Suspenderán la tramitación solo cuando lo solicite el interesado."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 74 LPAC establece que las cuestiones incidentales no suspenden el procedimiento, con la única excepción de la recusación.",
+      "excerpt": "Las cuestiones incidentales que se susciten en el procedimiento, incluso las que se refieran a la nulidad de actuaciones, no suspenderán la tramitación del mismo, salvo la recusación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 96.6 LPAC",
+      "stem": "Según el artículo 96.6 de la Ley 39/2015, salvo que reste menos para su tramitación ordinaria, los procedimientos tramitados de manera simplificada deberán resolverse en:",
+      "options": [
+        "Quince días, a contar desde la presentación de la solicitud.",
+        "Un mes, a contar desde la fecha del acuerdo de iniciación.",
+        "Treinta días, a contar desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada.",
+        "Tres meses, como los procedimientos ordinarios sin plazo fijado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 96.6 LPAC fija treinta días desde la notificación del acuerdo de tramitación simplificada; las alegaciones iniciales se reducen a cinco días y la audiencia solo procede si la resolución va a ser desfavorable.",
+      "excerpt": "Salvo que reste menos para su tramitación ordinaria, los procedimientos administrativos tramitados de manera simplificada deberán ser resueltos en treinta días, a contar desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada del procedimiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 96.2 y 96.5 LPAC",
+      "stem": "De acuerdo con el artículo 96 de la Ley 39/2015, cuando la Administración acuerda de oficio la tramitación simplificada y un interesado manifiesta su oposición expresa:",
+      "options": [
+        "Debe seguirse la tramitación ordinaria en todo caso, también en los procedimientos sancionadores.",
+        "La oposición no produce efectos, porque la decisión corresponde solo a la Administración.",
+        "La oposición se resuelve como cuestión incidental, suspendiendo el procedimiento.",
+        "Debe seguirse la tramitación ordinaria, salvo en los procedimientos sancionadores en que haya elementos para calificar la infracción como leve."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 96.2 LPAC obliga a volver a la tramitación ordinaria si un interesado se opone expresamente; pero el art. 96.5 excluye esa oposición en los procedimientos sancionadores por infracción leve.",
+      "excerpt": "Si alguno de ellos manifestara su oposición expresa, la Administración deberá seguir la tramitación ordinaria. […] sin que quepa la oposición expresa por parte del interesado prevista en el apartado 2.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 32.3 LPAC",
+      "stem": "Según el artículo 32.3 de la Ley 39/2015, sobre la ampliación de plazos, señale la afirmación correcta:",
+      "options": [
+        "En ningún caso podrá ser objeto de ampliación un plazo ya vencido.",
+        "Puede ampliarse un plazo vencido si el interesado lo solicita dentro de los tres días siguientes.",
+        "Los acuerdos de ampliación o su denegación son recurribles en alzada.",
+        "La petición de ampliación puede presentarse después del vencimiento si se justifica la causa."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 32.3 LPAC exige que la petición y la decisión se produzcan antes del vencimiento, prohíbe ampliar un plazo vencido y declara irrecurribles los acuerdos sobre ampliación.",
+      "excerpt": "En ningún caso podrá ser objeto de ampliación un plazo ya vencido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 106.5 LPAC",
+      "stem": "Un Ministerio inicia de oficio un procedimiento de revisión de oficio de un acto nulo. Según el artículo 106.5 de la Ley 39/2015, si transcurren seis meses desde su inicio sin dictarse resolución:",
+      "options": [
+        "El acto se entenderá declarado nulo por silencio administrativo.",
+        "Se entenderá desestimada la revisión por silencio administrativo.",
+        "El plazo se prorrogará automáticamente otros tres meses.",
+        "Se producirá la caducidad del procedimiento."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 106.5 LPAC distingue: si la revisión se inició de oficio, el transcurso de seis meses produce la caducidad; si se inició a solicitud del interesado, puede entenderse desestimada por silencio.",
+      "excerpt": "Cuando el procedimiento se hubiera iniciado de oficio, el transcurso del plazo de seis meses desde su inicio sin dictarse resolución producirá la caducidad del mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 111 LPAC",
+      "stem": "De acuerdo con el artículo 111 de la Ley 39/2015, en la Administración General del Estado, ¿quién es competente para la revisión de oficio de un acto nulo dictado por un Secretario de Estado?",
+      "options": [
+        "El propio Secretario de Estado.",
+        "El Ministro.",
+        "El Consejo de Ministros.",
+        "El Subsecretario del Departamento."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 111.b).1.º LPAC atribuye a los Ministros la revisión de los actos de los Secretarios de Estado; los Secretarios de Estado revisan los de sus órganos directivos dependientes, y el Consejo de Ministros los suyos y los de los Ministros.",
+      "excerpt": "Los Ministros, respecto de los actos y disposiciones de los Secretarios de Estado y de los dictados por órganos directivos de su Departamento no dependientes de una Secretaría de Estado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 109.2 LPAC",
+      "stem": "Una resolución de concesión de una ayuda contiene un error aritmético en la suma del importe. Según el artículo 109.2 de la Ley 39/2015, la Administración podrá rectificarlo:",
+      "options": [
+        "En cualquier momento, de oficio o a instancia de los interesados.",
+        "Solo dentro de los cuatro años siguientes, previa declaración de lesividad.",
+        "Solo mediante revisión de oficio, previo dictamen del Consejo de Estado.",
+        "Solo si el interesado interpone recurso de reposición en el plazo de un mes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 109.2 LPAC permite rectificar en cualquier momento, de oficio o a instancia de parte, los errores materiales, de hecho o aritméticos.",
+      "excerpt": "Las Administraciones Públicas podrán, asimismo, rectificar en cualquier momento, de oficio o a instancia de los interesados, los errores materiales, de hecho o aritméticos existentes en sus actos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 121.1 LPAC",
+      "stem": "Una aspirante a un proceso selectivo del Cuerpo General Administrativo quiere impugnar un acuerdo del tribunal calificador. Según el artículo 121.1 de la Ley 39/2015, a efectos del recurso de alzada el tribunal se considera dependiente:",
+      "options": [
+        "Del Consejo de Ministros, en todo caso.",
+        "De ningún órgano, por lo que su acuerdo pone fin a la vía administrativa.",
+        "Del órgano al que esté adscrito o, en su defecto, del que haya nombrado a su presidente.",
+        "Del Ministerio en el que preste servicios la mayoría de sus miembros."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 121.1 LPAC considera que los tribunales y órganos de selección dependen del órgano al que estén adscritos o, en su defecto, del que nombró al presidente, que resuelve la alzada.",
+      "excerpt": "los Tribunales y órganos de selección del personal al servicio de las Administraciones Públicas y cualesquiera otros que, en el seno de éstas, actúen con autonomía funcional, se considerarán dependientes del órgano al que estén adscritos o, en su defecto, del que haya nombrado al presidente de los mismos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 121.2 LPAC",
+      "stem": "Un interesado presenta su recurso de alzada ante la Subdirección que dictó el acto, en lugar de ante la Dirección General competente para resolverlo. De acuerdo con el artículo 121.2 de la Ley 39/2015, la Subdirección:",
+      "options": [
+        "Deberá inadmitirlo por haberse presentado ante órgano no competente.",
+        "Deberá remitirlo al órgano competente en el plazo de diez días, con su informe y una copia completa y ordenada del expediente.",
+        "Deberá devolverlo al interesado para que lo presente ante la Dirección General.",
+        "Deberá resolverlo ella misma, por haber dictado el acto."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 121.2 LPAC permite interponer la alzada ante el órgano que dictó el acto o ante el competente; si se presenta ante el primero, debe remitirlo en diez días con informe y copia del expediente.",
+      "excerpt": "Si el recurso se hubiera interpuesto ante el órgano que dictó el acto impugnado, éste deberá remitirlo al competente en el plazo de diez días, con su informe y con una copia completa y ordenada del expediente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 122.2 LPAC",
+      "stem": "Según el artículo 122.2 de la Ley 39/2015, el plazo máximo para dictar y notificar la resolución del recurso de alzada es de:",
+      "options": [
+        "Tres meses.",
+        "Un mes.",
+        "Dos meses.",
+        "Seis meses."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 122.2 LPAC fija tres meses para resolver la alzada; pasado ese plazo puede entenderse desestimado, salvo el supuesto del art. 24.1, tercer párrafo.",
+      "excerpt": "El plazo máximo para dictar y notificar la resolución será de tres meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 119.3 LPAC",
+      "stem": "De acuerdo con el artículo 119.3 de la Ley 39/2015, al resolver un recurso administrativo, el órgano competente:",
+      "options": [
+        "Solo puede pronunciarse sobre las cuestiones expresamente alegadas por el recurrente.",
+        "Puede agravar la situación del recurrente si advierte nuevos incumplimientos.",
+        "Debe ordenar siempre la retroacción del procedimiento cuando aprecie cualquier vicio.",
+        "Decidirá todas las cuestiones de forma y de fondo que plantee el procedimiento, oyendo previamente a los interesados en las no alegadas, sin que en ningún caso pueda agravarse la situación inicial del recurrente."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 119.3 LPAC permite resolver cuestiones no alegadas, previa audiencia, pero exige congruencia y prohíbe la reformatio in peius.",
+      "excerpt": "El órgano que resuelva el recurso decidirá cuantas cuestiones, tanto de forma como de fondo, plantee el procedimiento, hayan sido o no alegadas por los interesados. En este último caso se les oirá previamente. No obstante, la resolución será congruente con las peticiones formuladas por el recurrente, sin que en ningún caso pueda agravarse su situación inicial.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

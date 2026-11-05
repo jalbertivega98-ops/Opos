@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_barra-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Personalizar la barra de tareas en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Barra de tareas · Alineación predeterminada",
+      "stem": "Según Microsoft, ¿cómo aparece de manera predeterminada la barra de tareas en Windows 11?",
+      "options": [
+        "Alineada a la izquierda.",
+        "Alineada a la derecha.",
+        "Centrada.",
+        "En la parte superior de la pantalla."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "En Windows 11 la barra de tareas está centrada de forma predeterminada; puede alinearse a la izquierda desde la configuración de la barra de tareas.",
+      "excerpt": "De manera predeterminada, la barra de tareas está centrada en Windows 11.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Posición",
+      "stem": "Según la documentación de Microsoft sobre Windows 11, la configuración de la barra de tareas permite:",
+      "options": [
+        "Colocar la barra en cualquiera de los cuatro bordes de la pantalla.",
+        "Alinear los iconos en el centro o a la izquierda, pero no mover la barra a la parte superior o lateral de la pantalla.",
+        "Mover la barra a la parte superior, pero no a los laterales.",
+        "Alinear los iconos a la derecha o a la izquierda, pero no en el centro."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft indica que solo hay alineación al centro o a la izquierda y que la barra se coloca en la parte inferior; no hay configuración para moverla arriba o a un lado.",
+      "excerpt": "La configuración de la barra de tareas te permite alinear los iconos de la barra de tareas en el centro o a la izquierda. No hay ninguna configuración para mover una barra de tareas a la parte superior o lateral de la pantalla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Widgets",
+      "stem": "En Windows 11, ¿qué combinación de teclas abre el panel de widgets?",
+      "options": [
+        "Tecla Windows + W.",
+        "Tecla Windows + A.",
+        "Tecla Windows + N.",
+        "Tecla Windows + Tab."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Windows + W abre los widgets; Windows + A, la Configuración rápida; Windows + N, las notificaciones y el calendario; Windows + Tab, la Vista de tareas.",
+      "excerpt": "Presionar la tecla + Windows W",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Configuración rápida",
+      "stem": "Según Microsoft, el área de Windows 11 que permite ajustar rápidamente el volumen, el brillo de la pantalla o la red Wi-Fi sin navegar por los menús se denomina:",
+      "options": [
+        "Centro de notificaciones.",
+        "Bandeja de iconos ocultos.",
+        "Configuración rápida.",
+        "Vista de tareas."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La Configuración rápida (Windows + A) reúne los ajustes de uso frecuente: volumen, brillo, Wi-Fi o herramientas de accesibilidad.",
+      "excerpt": "La configuración rápida proporciona una manera cómoda de acceder a la configuración usada con frecuencia y modificarla sin tener que navegar por los menús. Por ejemplo, puedes ajustar rápidamente el volumen, cambiar el brillo de la pantalla, cambiar Wi-Fi redes o activar las herramientas de accesibilidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Aplicaciones abiertas",
+      "stem": "Según Microsoft, en la barra de tareas de Windows 11 las aplicaciones que se están ejecutando se reconocen porque:",
+      "options": [
+        "Su icono aparece en gris hasta que se seleccionan.",
+        "Se muestran siempre a la derecha, junto al reloj.",
+        "Llevan un distintivo numérico con las ventanas abiertas.",
+        "Muestran una línea debajo del icono, y la activa se resalta con el color de énfasis."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Una línea bajo el icono indica que la aplicación está abierta; la que está en uso se resalta con el color de énfasis de Windows.",
+      "excerpt": "Las aplicaciones en ejecución se muestran en la barra de tareas con una línea debajo del icono para indicar que están abiertas. La aplicación activa actualmente se resalta con el color de énfasis de Windows",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Lista de accesos directos",
+      "stem": "En Windows 11, ¿cómo se accede a la lista de accesos directos de una aplicación de la barra de tareas, que permite, por ejemplo, abrir un archivo reciente?",
+      "options": [
+        "Haciendo doble clic en el icono de la aplicación.",
+        "Haciendo clic con el botón derecho en el icono de la aplicación.",
+        "Pulsando la tecla Windows + Tab.",
+        "Manteniendo pulsada la tecla Mayús al hacer clic en el icono."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft indica que basta con hacer clic con el botón derecho en el icono para ver la lista de accesos directos.",
+      "excerpt": "Para acceder a la lista de accesos directos, simplemente haga clic con el botón derecho en el icono de la aplicación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Opciones de búsqueda",
+      "stem": "Entre las opciones que ofrece la configuración de la barra de tareas de Windows 11 para el área de búsqueda, ¿cuál NO figura?",
+      "options": [
+        "Mostrar la búsqueda en la parte superior del escritorio.",
+        "Cuadro de búsqueda.",
+        "Solo el icono de búsqueda.",
+        "Ocultar."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Las opciones son Cuadro de búsqueda, Icono y etiqueta de búsqueda, Solo el icono de búsqueda y Ocultar.",
+      "excerpt": "Cuadro de búsqueda: muestra un cuadro de texto completo para escribir la búsqueda […] Icono y etiqueta de búsqueda: muestra un icono de búsqueda junto con la etiqueta \"Buscar\" […] Solo el icono de búsqueda: muestra solo el icono de búsqueda […] Ocultar: quita la característica de búsqueda de la barra de tareas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Área de desbordamiento",
+      "stem": "En la bandeja del sistema de Windows 11, el menú de iconos ocultos también se denomina:",
+      "options": [
+        "Configuración rápida.",
+        "Centro de actividades.",
+        "Área de distintivos.",
+        "Área de desbordamiento."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Microsoft llama al menú de iconos ocultos «área de desbordamiento»; desde la configuración de la barra de tareas se decide si se habilita y qué iconos aparecen.",
+      "excerpt": "seleccione si desea habilitar el menú de iconos ocultos (también denominado área de desbordamiento) y qué iconos pueden aparecer en la bandeja del sistema",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Indicadores de privacidad",
+      "stem": "Según Microsoft, los indicadores de privacidad dinámicos de la bandeja del sistema de Windows 11 informan en tiempo real del acceso a:",
+      "options": [
+        "El historial de navegación y las contraseñas guardadas.",
+        "El Portapapeles y las capturas de pantalla.",
+        "La ubicación, el micrófono y la cámara.",
+        "Los archivos de OneDrive y la papelera de reciclaje."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La bandeja del sistema muestra indicadores de privacidad sobre el uso de la ubicación, el micrófono y la cámara.",
+      "excerpt": "la bandeja del sistema cuenta con indicadores de privacidad dinámicos que muestran información en tiempo real sobre la ubicación, el micrófono y el acceso a la cámara",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Mostrar el escritorio",
+      "stem": "En Windows 11, al seleccionar la pequeña área situada en el extremo lateral de la barra de tareas:",
+      "options": [
+        "Se minimizan todas las ventanas abiertas para mostrar el escritorio; al seleccionarla de nuevo se restauran.",
+        "Se abre el centro de notificaciones.",
+        "Se bloquea el equipo.",
+        "Se abre la Vista de tareas con todos los escritorios."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Es el botón Mostrar el escritorio: minimiza todas las ventanas y, si se vuelve a seleccionar, las restaura.",
+      "excerpt": "Esta pequeña área situada en el lateral de la barra de tareas es útil para acceder rápidamente al escritorio minimizando todas las ventanas abiertas. Solo tienes que seleccionar esta área para acceder al escritorio. Selecciónala de nuevo para restaurar las ventanas abiertas a su estado anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Segundos en el reloj",
+      "stem": "Según Microsoft, ¿qué advierte Windows 11 sobre la opción de mostrar los segundos en el reloj de la bandeja del sistema?",
+      "options": [
+        "Que solo está disponible en equipos de sobremesa.",
+        "Que usa más energía.",
+        "Que desactiva la sincronización horaria.",
+        "Que oculta la fecha."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La opción se denomina «Mostrar segundos en el reloj de la bandeja del sistema (usa más energía)».",
+      "excerpt": "Mostrar segundos en el reloj de la bandeja del sistema (usa más energía)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barra de tareas · Distintivos",
+      "stem": "En la barra de tareas de Windows 11, un distintivo en el botón de una aplicación es:",
+      "options": [
+        "Una marca que indica que la aplicación está anclada.",
+        "Un aviso de que la aplicación necesita actualizarse desde Microsoft Store.",
+        "Un indicador de que la aplicación se ejecuta como administrador.",
+        "Una alerta que informa de que se está realizando alguna actividad o es necesario realizarla con esa aplicación."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Microsoft define el distintivo como alerta de actividad (por ejemplo, una campana en la aplicación Reloj por una alarma activa).",
+      "excerpt": "Un distintivo en un botón de la barra de tareas es una alerta para informarte de que se está realizando alguna actividad o es necesario que se realice con esa aplicación.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

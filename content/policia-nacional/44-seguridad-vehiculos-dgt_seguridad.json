@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "set": "pn-44-seguridad-vehiculos-dgt_seguridad-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 44. La seguridad en la conducción de vehículos prioritarios: seguridad activa y pasiva",
+    "topic_slug": "pn-44-seguridad-vehiculos",
+    "locale": "es",
+    "category": "pn_44_seguridad_vehiculos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Dirección General de Tráfico · Muévete con seguridad (ADAS, clasificación de seguridad de vehículos, cinturón, moto, seguridad vial laboral, fatiga, distracciones, conducción preventiva, frenado, coche, velocidad)",
+      "url": "https://www.dgt.es/muevete-con-seguridad/",
+      "kind": "web_oficial",
+      "publisher": "Dirección General de Tráfico (web oficial dgt.es)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DGT, «Conducir sin cinturón de seguridad»",
+      "stem": "Según la Dirección General de Tráfico, el elemento más importante para la seguridad pasiva del vehículo es:",
+      "options": [
+        "El airbag frontal, porque sustituye al cinturón en caso de choque.",
+        "El sistema de frenado de emergencia autónomo.",
+        "El cinturón de seguridad, porque es el único freno del cuerpo en caso de impacto."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La DGT califica el cinturón como el elemento más importante de seguridad pasiva por ser el único freno del cuerpo en caso de impacto. El airbag es su complemento, no su sustituto, y el frenado de emergencia es un sistema de ayuda a la conducción.",
+      "excerpt": "El cinturón es el elemento más importante para la seguridad pasiva porque es el único freno del cuerpo en caso de impacto, tanto para el conductor como para el resto de pasajeros, tanto en los asientos delanteros como traseros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «En coche» (airbag)",
+      "stem": "Según la Dirección General de Tráfico, en relación con el cinturón de seguridad, el airbag es:",
+      "options": [
+        "Su complemento, no su sustituto.",
+        "Su sustituto cuando el vehículo dispone de airbags laterales.",
+        "Un elemento de seguridad activa independiente del cinturón."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La DGT insiste en que el airbag no cumple su objetivo sin el cinturón debidamente colocado: su utilidad empieza cuando acaba la del cinturón.",
+      "excerpt": "El airbag es el complemento del cinturón de seguridad, no su sustituto. De hecho, el airbag no cumple su objetivo sin el cinturón debidamente colocado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «En coche» (reposacabezas)",
+      "stem": "Según la Dirección General de Tráfico, el reposacabezas es:",
+      "options": [
+        "Un elemento de confort que no influye en la seguridad.",
+        "Un elemento de seguridad pasiva que, bien colocado, evita el efecto látigo y minimiza las lesiones cervicales.",
+        "Un sistema de seguridad activa que ayuda a mantener la atención del conductor."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La DGT recuerda que el reposacabezas no es un elemento de confort sino de seguridad pasiva, que bien colocado evita el efecto látigo.",
+      "excerpt": "El reposacabezas no es un elemento de confort, sino de seguridad pasiva que bien colocado evita el efecto látigo y minimiza las lesiones cervicales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «En coche» (tipos de airbag)",
+      "stem": "Según la Dirección General de Tráfico, los airbags situados en los laterales del techo, por encima de las ventanillas, que protegen la cabeza especialmente en caso de vuelco, son los:",
+      "options": [
+        "De techo o de cortinilla.",
+        "Frontales.",
+        "Laterales de asiento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DGT distingue airbags frontales (volante y salpicadero, protegen cabeza y tórax en choque frontal), laterales (asientos o puertas, protegen sobre todo el tórax) y de techo o cortinilla (protegen la cabeza, sobre todo en vuelco).",
+      "excerpt": "De techo o de cortinilla: situados en los laterales del techo, por encima de las ventanillas. Protegen la cabeza, especialmente en caso de vuelco.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «En coche» (funcionamiento del airbag)",
+      "stem": "Según la Dirección General de Tráfico, la distancia entre el conductor y el airbag delantero nunca debe ser inferior a:",
+      "options": [
+        "25 centímetros, y la ideal es de unos 50 centímetros.",
+        "5 centímetros, y la ideal es de unos 15 centímetros.",
+        "10 centímetros, y la ideal es de unos 25 centímetros."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La DGT aconseja no ir demasiado pegado al volante: nunca a menos de 10 cm del airbag delantero y, idealmente, a unos 25 cm, para evitar un impacto directo y fuerte de la bolsa en la cara.",
+      "excerpt": "Esta distancia nunca debe ser inferior a 10 centímetros y la ideal es de unos 25 centímetros, para evitar un impacto directo y fuerte de la bolsa contra la cara.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir sin cinturón de seguridad» (efecto submarino)",
+      "stem": "Según la Dirección General de Tráfico, el llamado «efecto submarino» consiste en que el cuerpo, si no está bien sujeto por el cinturón:",
+      "options": [
+        "Sale despedido del vehículo a través del parabrisas.",
+        "Presiona el asiento hacia abajo y llega a deslizarse por debajo de la banda abdominal del cinturón de seguridad.",
+        "Sufre un movimiento de vaivén del cuello en un alcance trasero."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La DGT describe así el efecto submarino y advierte que lo favorecen las toallas, fundas y complementos sobre el asiento. El vaivén del cuello en un alcance trasero es el latigazo cervical.",
+      "excerpt": "El efecto submarino consiste en que el cuerpo, si no está bien sujeto por el cinturón, presiona el asiento hacia abajo y llega a deslizarse por debajo de la banda abdominal del cinturón de seguridad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir sin cinturón de seguridad»",
+      "stem": "Según la Dirección General de Tráfico, en caso de choque frontal, el cinturón de seguridad disminuye el riesgo de fallecimiento y de heridas graves en la cabeza en un:",
+      "options": [
+        "50%.",
+        "30%.",
+        "90%."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Según la DGT, en choque frontal el cinturón disminuye un 90% el riesgo de fallecimiento y de heridas graves en la cabeza; en caso de alcance reduce a la mitad el riesgo de muerte o heridas graves.",
+      "excerpt": "Disminuye en un 90% el riesgo de fallecimiento y de heridas graves en la cabeza.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Clasificación de seguridad de los vehículos»",
+      "stem": "Según la Dirección General de Tráfico, el sistema de calificación de Euro NCAP para evaluar la seguridad de los vehículos otorga:",
+      "options": [
+        "Entre 0 y 5 estrellas.",
+        "Entre 1 y 10 puntos.",
+        "Una letra de la A a la G."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DGT explica que Euro NCAP, programa de referencia en Europa desde 1997, califica la seguridad de los vehículos con entre 0 y 5 estrellas.",
+      "excerpt": "Su sistema de calificación otorga entre 0 y 5 estrellas y ofrece a los consumidores y usuarios una referencia objetiva sobre el nivel de protección que los vehículos proporcionan a sus ocupantes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Sistemas avanzados de ayuda a la conducción (ADAS)»",
+      "stem": "Según la Dirección General de Tráfico, el sistema ADAS que ayuda a conocer y respetar el límite de velocidad, interviniendo en la transmisión para adaptar la velocidad a la señalización, es el:",
+      "options": [
+        "LDW (Sistema de advertencia de abandono de carril).",
+        "ISA (Asistente inteligente de velocidad).",
+        "BSM (Sistema de monitorización de ángulos muertos)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La DGT describe el ISA como asistente inteligente de velocidad. El LDW avisa del abandono involuntario del carril y el BSM previene colisiones en los ángulos muertos.",
+      "excerpt": "ISA (Asistente inteligente de velocidad) Ver más Ayuda a conocer y respetar el límite de velocidad, interviniendo en el sistema de transmisión para adaptar la velocidad del vehículo a la señalización de la vía por la que se circula.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Sistemas avanzados de ayuda a la conducción (ADAS)»",
+      "stem": "Según la Dirección General de Tráfico, ¿qué Reglamento de la Unión Europea recogió en 2019 los nuevos requisitos de seguridad general de los vehículos que obligan a incorporar determinados ADAS?",
+      "options": [
+        "El Reglamento 2016/679.",
+        "El Reglamento 2019/2144.",
+        "El Reglamento 2018/858."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La DGT recuerda que en 2019 la UE aprobó el Reglamento de Seguridad 2019/2144, que entró en vigor el 6 de julio de 2022 con un calendario de incorporación de ADAS en los vehículos nuevos.",
+      "excerpt": "En el ámbito normativo, fue en 2019 cuando la Unión Europea (UE) aprobaba el Nuevo Reglamento de Seguridad 2019/2144, que recogía la nueva regulación de requisitos de seguridad general de los vehículos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Sistemas avanzados de ayuda a la conducción (ADAS)»",
+      "stem": "Según la Dirección General de Tráfico, el sistema que avisa al conductor cuando pierde la concentración al volante por fatiga, sueño u otras causas es el:",
+      "options": [
+        "DDR (Sistema de advertencia de somnolencia y distracción).",
+        "REV (Detector de marcha atrás).",
+        "RCTA (Alerta de tráfico cruzado)."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El DDR alerta al conductor, por ejemplo con una taza humeante en el salpicadero o vibraciones en el volante, para que se detenga. El REV avisa de obstáculos al circular marcha atrás y el RCTA del tráfico transversal al salir de un aparcamiento en batería.",
+      "excerpt": "DDR (Sistema de advertencia de somnolencia y distracción) Ver más Este sistema avisa al conductor en situaciones en las que pierda la concentración al volante, ya sea por fatiga, sueño u otras causas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Sistemas avanzados de ayuda a la conducción (ADAS)»",
+      "stem": "Según la Dirección General de Tráfico, el sistema ESS (Sistema de frenado de emergencia), también denominado «Aviso de frenada de emergencia», consiste en:",
+      "options": [
+        "La detención automática del vehículo cuando detecta un peatón.",
+        "El bloqueo de las ruedas para acortar la distancia de frenado.",
+        "Un rápido parpadeo de las luces de freno cuando este se aplica de manera potente y rápida."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Según la DGT, el ESS ayuda a los demás conductores a detectar una frenada de emergencia del vehículo de delante mediante el parpadeo rápido de las luces de freno, para reducir las colisiones por alcance.",
+      "excerpt": "El aviso consiste en un rápido parpadeo de las luces de freno cuando este se aplica de manera potente y rápida.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «En moto» (el casco)",
+      "stem": "Según la Dirección General de Tráfico, ¿qué porcentaje de los fallecidos en motocicleta lo son por impactos en la cabeza?",
+      "options": [
+        "El 30%.",
+        "El 50%.",
+        "El 80%."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La DGT señala que las lesiones de cabeza son la principal causa de muerte de los accidentados de dos ruedas (el 80% de los fallecidos en moto) y que el casco reduce casi un 30% la posibilidad de lesiones mortales.",
+      "excerpt": "Concretamente el 80% de los fallecidos en motocicletas son por impactos en la cabeza.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «En moto» (ABS)",
+      "stem": "Según la Dirección General de Tráfico, en una motocicleta que no disponga de ABS, cuando la rueda delantera se bloquea:",
+      "options": [
+        "La capacidad de frenado se reduce drásticamente y se pierde el control de la motocicleta.",
+        "La distancia de frenado se acorta, aunque se pierde estabilidad.",
+        "El sistema de frenado se desactiva automáticamente."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La DGT explica que, sin ABS, el bloqueo de la rueda delantera reduce drásticamente la capacidad de frenado y hace perder el control de la moto.",
+      "excerpt": "En el supuesto de que la motocicleta no disponga de ABS, cuando la rueda delantera se bloquea, la capacidad de frenado se reduce drásticamente y se pierde el control de la motocicleta.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

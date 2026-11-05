@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-33-procedimiento-revision-ljca-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.3 Procedimiento administrativo común: plazos, subsanación, tramitación, revisión de oficio y recursos",
+    "topic_slug": "age-adm-33-procedimiento-revision",
+    "locale": "es",
+    "category": "age_adm_33_procedimiento_revision",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 46.4 LJCA",
+      "stem": "Una interesada interpuso recurso potestativo de reposición contra una resolución de un Secretario de Estado y se le notifica su desestimación expresa. Según el artículo 46.4 de la Ley 29/1998, el plazo para interponer recurso contencioso-administrativo:",
+      "options": [
+        "Se contará desde el día siguiente a la notificación de la resolución inicial del Secretario de Estado.",
+        "Ya no existe, porque al recurrir en reposición renunció a la vía contencioso-administrativa.",
+        "Se contará desde el día siguiente a aquel en que se le notifique la resolución expresa del recurso de reposición.",
+        "Se contará desde la fecha de interposición del recurso de reposición."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 46.4 LJCA computa el plazo del contencioso (dos meses si el acto es expreso, art. 46.1) desde el día siguiente a la notificación de la resolución expresa de la reposición o desde su desestimación presunta.",
+      "excerpt": "El plazo para interponer el recurso contencioso-administrativo se contará desde el día siguiente a aquel en que se notifique la resolución expresa del recurso potestativo de reposición o en que éste deba entenderse presuntamente desestimado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

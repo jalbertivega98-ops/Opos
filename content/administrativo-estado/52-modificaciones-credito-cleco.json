@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "set": "age-adm-52-modificaciones-credito-cleco-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.2 Los créditos presupuestarios: clasificación económica y modificaciones de crédito",
+    "topic_slug": "age-adm-52-modificaciones-credito",
+    "locale": "es",
+    "category": "age_adm_52_modificaciones_credito",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Resolución de 20 de enero de 2014, de la Dirección General de Presupuestos, por la que se establecen los códigos que definen la clasificación económica (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-879",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Anexo IV, art. 23 (Resolución DGP 20/01/2014)",
+      "stem": "Un funcionario viaja en comisión de servicios y se le abonan dietas. Según el código de la clasificación económica de los gastos (Resolución de 20 de enero de 2014 de la Dirección General de Presupuestos), ¿a qué concepto se imputan?",
+      "options": [
+        "Al concepto 121 «Retribuciones complementarias», del capítulo 1.",
+        "Al concepto 162 «Gastos sociales del personal», del capítulo 1.",
+        "Al concepto 230 «Dietas», del artículo 23 «Indemnizaciones por razón del servicio» del capítulo 2.",
+        "Al concepto 226 «Gastos diversos», del capítulo 2."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El capítulo 1 excluye expresamente las indemnizaciones por razón del servicio, que van al artículo 23 del capítulo 2: concepto 230 dietas, 231 locomoción, 232 traslado y 233 otras indemnizaciones.",
+      "excerpt": "No se incluyen en este capítulo las indemnizaciones por razón del servicio. […] Artículo 23. Indemnizaciones por razón del servicio. […] Concepto 230. Dietas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV, cap. 2 (Resolución DGP 20/01/2014)",
+      "stem": "Una unidad compra papel y otro material de oficina no inventariable. Según el código de la clasificación económica de los gastos, ¿a qué capítulo se imputa este gasto?",
+      "options": [
+        "Al capítulo 2 «Gastos corrientes en bienes y servicios».",
+        "Al capítulo 6 «Inversiones reales».",
+        "Al capítulo 4 «Transferencias corrientes».",
+        "Al capítulo 1 «Gastos de personal»."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El capítulo 2 recoge los bienes fungibles, de duración previsiblemente inferior al ejercicio, no inventariables y de gasto reiterativo; el material de oficina ordinario no inventariable es el subconcepto 220.00.",
+      "excerpt": "Son imputables a este capítulo los gastos originados por la adquisición de bienes que reúnan algunas de las características siguientes: a) Ser bienes fungibles b) Tener una duración previsiblemente inferior al ejercicio presupuestario c) No ser susceptibles de inclusión en inventario d) Ser, previsiblemente, gastos reiterativos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV, concepto 227 (Resolución DGP 20/01/2014)",
+      "stem": "Un Ministerio adjudica a una empresa externa el servicio de limpieza de su sede. Según el código de la clasificación económica de los gastos, ¿dónde se imputa el gasto?",
+      "options": [
+        "En el concepto 212 «Edificios y otras construcciones», de reparaciones, mantenimiento y conservación.",
+        "En el subconcepto 227.00 «Limpieza y aseo», del concepto 227 «Trabajos realizados por otras empresas y profesionales».",
+        "En el concepto 620 «Inversión nueva asociada al funcionamiento operativo de los servicios».",
+        "En el subconcepto 226.99 «Otros» de gastos diversos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El concepto 227 recoge las actividades que, siendo competencia del organismo, se ejecutan mediante contrato con empresas externas o profesionales; la limpieza es el subconcepto 00 y la seguridad el 01.",
+      "excerpt": "Concepto 227. Trabajos realizados por otras empresas y profesionales Se incluirán aquellos gastos que correspondan a actividades que siendo de la competencia de los organismos públicos se ejecuten mediante contrato con empresas externas o profesionales independientes. • Subconcepto 00. Limpieza y aseo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV, art. 62 (Resolución DGP 20/01/2014)",
+      "stem": "Una Subdirección adquiere ordenadores e impresoras para ampliar su dotación, sin sustituir equipos existentes. Según el código de la clasificación económica de los gastos, el gasto se imputa:",
+      "options": [
+        "Al concepto 630 «Inversión de reposición asociada al funcionamiento operativo de los servicios», del capítulo 6.",
+        "Al subconcepto 220.02 «Material informático no inventariable», del capítulo 2.",
+        "Al concepto 620 «Inversión nueva asociada al funcionamiento operativo de los servicios», del capítulo 6.",
+        "Al concepto 216 «Equipos para procesos de la información», de reparaciones del capítulo 2."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La adquisición de equipos de proceso de datos que incrementa el stock de capital es inversión nueva (concepto 620); si sustituyera equipos existentes por otros análogos sería reposición (concepto 630).",
+      "excerpt": "Concepto 620. Inversión nueva asociada al funcionamiento operativo de los servicios. Se imputarán a este concepto, los gastos relacionados con: […] Equipamiento para proceso de información. Adquisición de equipos de proceso de datos, unidades centrales, dispositivos auxiliares de memoria, monitores, impresoras",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Resolución DGP 20/01/2014, preámbulo y cap. 4",
+      "stem": "Según la Resolución de 20 de enero de 2014 de la Dirección General de Presupuestos, por la que se establecen los códigos de la clasificación económica, los gastos correspondientes a pensiones a funcionarios o familias, de carácter civil o militar, se imputan:",
+      "options": [
+        "Al capítulo 4 «Transferencias corrientes».",
+        "Al capítulo 1 «Gastos de personal».",
+        "Al capítulo 2 «Gastos corrientes en bienes y servicios».",
+        "Al capítulo 7 «Transferencias de capital»."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Uno de los cambios de la Resolución de 2014 fue llevar al capítulo 4 las pensiones a funcionarios o familias, que hasta 2014 se imputaban al capítulo 1.",
+      "excerpt": "Los principales cambios introducidos en la clasificación económica del gasto se refieren a la imputación al capítulo 4 «Transferencias Corrientes» de los gastos correspondientes a pensiones a funcionarios o familias de carácter civil o militar que hasta 2014 se han venido imputando al capítulo 1 «Gastos de personal».",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV, concepto 120 (Resolución DGP 20/01/2014)",
+      "stem": "En la nómina de una funcionaria del Cuerpo General Administrativo (subgrupo C1), ¿a qué subconcepto de la clasificación económica se imputa su sueldo?",
+      "options": [
+        "Al subconcepto 120.05 «Trienios».",
+        "Al subconcepto 121.00 «Complemento de destino».",
+        "Al subconcepto 130.00 «Retribuciones básicas» del personal laboral fijo.",
+        "Al subconcepto 120.02 «Sueldos del grupo C1 y grupo C»."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El concepto 120 «Retribuciones básicas» del artículo 12 «Funcionarios» abre un subconcepto por grupo: 00 A1, 01 A2, 02 C1, 03 C2 y 04 agrupaciones profesionales; los trienios van al 05 y las pagas extraordinarias al 06.",
+      "excerpt": "Concepto 120. Retribuciones básicas. […] • Subconcepto 02. Sueldos del grupo C1 y grupo C.",
+      "excerpt_status": "completo",
+      "review_note": "La Resolución de 2014 advierte que las órdenes anuales de elaboración de los PGE pueden actualizar tácitamente la clasificación económica; conviene contrastar los códigos con la orden vigente."
+    }
+  ]
+}

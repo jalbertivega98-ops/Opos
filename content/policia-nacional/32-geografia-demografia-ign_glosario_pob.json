@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "set": "pn-32-geografia-demografia-ign_glosario_pob-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 32. Geografía humana: la ciudad, la población y la demografía; contaminación y protección del medio ambiente",
+    "topic_slug": "pn-32-geografia-demografia",
+    "locale": "es",
+    "category": "pn_32_geografia_demografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Glosario del Atlas Didáctico (términos de geografía de la población, urbana, económica y medio ambiente)",
+      "url": "https://educativo.ign.es/atlas-didactico/glosario/index.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG), recurso educativo oficial (CC BY 4.0)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "IGN, Glosario: Densidad de población",
+      "stem": "Según el glosario del Atlas Didáctico del Instituto Geográfico Nacional, la densidad de población es:",
+      "options": [
+        "El número de nacimientos por cada mil habitantes en un año.",
+        "El porcentaje de población que vive en ciudades.",
+        "La relación entre la población total de un área y su superficie, expresada normalmente en habitantes por km2."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La densidad (d = P/S) también se denomina población relativa; el porcentaje de población urbana es la tasa de urbanización.",
+      "excerpt": "Relación entre la población total de un área y su superficie (d = P/S), expresada normalmente en habitantes por km2 (hab./km2).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Crecimiento natural o vegetativo",
+      "stem": "Según el IGN, la variación positiva o negativa de la población de un lugar debida a su movimiento natural (natalidad y mortalidad) es el:",
+      "options": [
+        "Saldo migratorio.",
+        "Crecimiento natural o vegetativo.",
+        "Crecimiento real."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El crecimiento natural o vegetativo solo considera nacimientos y defunciones; el crecimiento real suma además el saldo migratorio.",
+      "excerpt": "Variación positiva o negativa de la población de un lugar debido a su movimiento natural (natalidad y mortalidad).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Éxodo rural",
+      "stem": "Según el IGN, el desplazamiento masivo de la población residente en el medio rural hacia las ciudades se denomina:",
+      "options": [
+        "Explosión urbana.",
+        "Conurbación.",
+        "Éxodo rural."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El éxodo rural es un movimiento migratorio interior que afecta normalmente a población joven que busca empleo en las ciudades.",
+      "excerpt": "Desplazamiento masivo de la población residente en el medio rural hacia las ciudades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Padrón",
+      "stem": "Según el IGN, el registro administrativo donde constan los vecinos del municipio y sus características básicas, cuyos datos constituyen prueba de residencia y del domicilio habitual, es el:",
+      "options": [
+        "Censo de población.",
+        "Padrón.",
+        "Registro Civil."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El padrón es un registro municipal de vecinos; el censo de población, que el INE realiza cada diez años, es una fuente estática y muy pormenorizada.",
+      "excerpt": "Registro administrativo donde constan los vecinos del municipio y sus características básicas (edad, sexo, actividad profesional, domicilio...). Sus datos constituyen prueba de residencia en el municipio y del domicilio habitual en el mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Tasa bruta de natalidad",
+      "stem": "Según el IGN, la tasa bruta de natalidad se calcula:",
+      "options": [
+        "Dividiendo el número de nacimientos de un periodo entre la población total de ese periodo y multiplicando el resultado por mil.",
+        "Restando las defunciones a los nacimientos de un año.",
+        "Dividiendo los nacimientos entre el número de mujeres en edad fértil y multiplicando por cien."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La tasa bruta de natalidad se expresa en tantos por mil; la diferencia entre nacimientos y defunciones es el crecimiento natural.",
+      "excerpt": "Se calcula dividiendo el número de nacimientos ocurridos durante un periodo determinado entre la población total de ese mismo periodo. El resultado se multiplica por mil.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Transición demográfica",
+      "stem": "Según el IGN, el proceso demográfico histórico por el que se pasa de un régimen antiguo con altas tasas de natalidad y mortalidad a un régimen moderno con valores muy bajos de ambas tasas es la:",
+      "options": [
+        "Explosión urbana.",
+        "Transición demográfica.",
+        "Crecimiento cero."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En la transición demográfica se controla primero la mortalidad y después la natalidad, lo que genera una etapa de alto crecimiento de la población.",
+      "excerpt": "Proceso demográfico histórico por el que se pasa de un régimen demográfico antiguo caracterizado por unas altas tasas de natalidad y mortalidad, a un régimen demográfico moderno, con valores muy bajos de ambas tasas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Envejecimiento de la población",
+      "stem": "Según el IGN, se habla de envejecimiento de la población cuando el porcentaje de población con 65 años o más es superior al:",
+      "options": [
+        "20 % de la población total.",
+        "30 % de la población total.",
+        "12 % de la población total."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Las principales causas del envejecimiento son el aumento de la esperanza de vida y el descenso de los nacimientos y de la fecundidad.",
+      "excerpt": "Proceso que tiene lugar en un país cuando el porcentaje de población con 65 años o más es superior al 12% de la población total.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Conurbación",
+      "stem": "Según el IGN, el conjunto de ciudades independientes que crecen espacialmente y se unen formando un continuo urbano mediante la unión física de sus periferias es una:",
+      "options": [
+        "Conurbación.",
+        "Ciudad dormitorio.",
+        "Jerarquía urbana."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La conurbación se produce, por ejemplo, en Barcelona, Bilbao o Sevilla; la ciudad dormitorio es un núcleo próximo a una ciudad central donde trabaja buena parte de su población.",
+      "excerpt": "Conjunto de ciudades independientes que crecen espacialmente y se unen formando un continuo urbano mediante la unión física de sus periferias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Ciudad dormitorio",
+      "stem": "Según el IGN, el núcleo urbano próximo a una ciudad central en el que buena parte de su población trabaja en otra ciudad, generando importantes movimientos pendulares, es una:",
+      "options": [
+        "Área metropolitana.",
+        "Ciudad jardín.",
+        "Ciudad dormitorio."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El IGN define la ciudad dormitorio por los movimientos pendulares (ida y vuelta al trabajo); el área metropolitana integra una ciudad central y su periferia.",
+      "excerpt": "Núcleo urbano ubicado en las proximidades de una ciudad central, en el que buena parte de su población trabaja en otra ciudad más o menos próxima, generando importantes movimientos pendulares.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Lluvia ácida",
+      "stem": "Según el IGN, la lluvia ácida, con un grado de acidez superior al normal (pH menor de 5), está provocada por:",
+      "options": [
+        "Las emisiones de óxidos de nitrógeno y de azufre de fábricas, centrales térmicas y vehículos.",
+        "La concentración de dióxido de carbono y metano que retiene el calor irradiado por la Tierra.",
+        "La destrucción de la capa de ozono por los clorofluorocarbonos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Los óxidos de nitrógeno y de azufre se mezclan con el vapor de agua del aire, se transforman en soluciones ácidas y caen a la superficie. La retención de calor por CO2 y metano es el efecto invernadero.",
+      "excerpt": "Está provocada por las emisiones de óxidos de nitrógeno y de azufre de fábricas, centrales térmicas y vehículos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Efecto invernadero",
+      "stem": "Según el IGN, el efecto invernadero:",
+      "options": [
+        "Es un fenómeno causado exclusivamente por la actividad humana desde la Revolución Industrial.",
+        "Consiste en la precipitación de soluciones ácidas sobre la superficie terrestre.",
+        "Es un fenómeno natural sin el que la temperatura media de la superficie terrestre sería de –18 ºC."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El efecto invernadero es natural; tras la Revolución Industrial, la quema de combustibles fósiles ha aumentado la cantidad de gases de efecto invernadero.",
+      "excerpt": "Es un fenómeno natural, sin el que la vida sobre la tierra no sería posible tal y como la conocemos, pues sin él la temperatura media de la superficie sería de –18ºC.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Tasa de urbanización",
+      "stem": "Según el IGN, la tasa de urbanización de España es:",
+      "options": [
+        "Inferior al 50 %.",
+        "De alrededor del 65 %.",
+        "Superior al 80 %."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La tasa de urbanización expresa la relación porcentual entre la población urbana y la total; una tasa alta indica un elevado nivel de desarrollo humano.",
+      "excerpt": "España tiene una tasa de urbanización superior al 80%.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "IGN, Glosario: Población activa",
+      "stem": "Según el IGN, la población activa está formada por todas las personas en edad legal de trabajar que trabajan o buscan empleo; en España se considera que están en esta situación:",
+      "options": [
+        "Los mayores de 18 años.",
+        "Las personas de 15 a 64 años.",
+        "Los mayores de 16 años."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El IGN precisa que en España la edad legal de trabajar se sitúa a partir de los 16 años; la tasa de actividad relaciona la población activa con la total.",
+      "excerpt": "Todas las personas en edad legal de trabajar, que o trabajan o buscan empleo. En España se considera que están en esta situación los mayores de 16 años.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

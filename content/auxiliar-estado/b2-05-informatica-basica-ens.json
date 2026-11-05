@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ens-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Anexo IV RD 311/2022 (ENS) · Activo",
+      "stem": "Según el glosario del Esquema Nacional de Seguridad (Real Decreto 311/2022), el componente o funcionalidad de un sistema de información susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización se denomina:",
+      "options": [
+        "Amenaza.",
+        "Vulnerabilidad.",
+        "Activo.",
+        "Dominio de seguridad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El anexo IV define el activo e incluye en él información, datos, servicios, aplicaciones (software), equipos (hardware), comunicaciones, recursos administrativos, físicos y humanos.",
+      "excerpt": "Activo: componente o funcionalidad de un sistema de información susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV RD 311/2022 (ENS) · Factor de autenticación",
+      "stem": "Según el Esquema Nacional de Seguridad, los tres tipos de factores de autenticación son:",
+      "options": [
+        "Algo que se sabe, algo que se tiene y algo que se es.",
+        "Usuario, contraseña y PIN.",
+        "Algo que se sabe, algo que se recuerda y algo que se escribe.",
+        "Certificado, firma y sello electrónicos."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El anexo IV distingue: (1) algo que se sabe, un secreto; (2) algo que se tiene, un autenticador; y (3) algo que se es, biometría.",
+      "excerpt": "Factor de autenticación: hay 3 tipos de factores de autenticación: (1) algo que se sabe, un secreto; (2) algo que se tiene, un autenticador; y (3) algo que se es, biometría.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV RD 311/2022 (ENS) · OTP",
+      "stem": "De acuerdo con el glosario del Esquema Nacional de Seguridad, una contraseña de un solo uso (OTP) es una contraseña:",
+      "options": [
+        "Memorizada por el usuario y compuesta por unos pocos caracteres.",
+        "Generada dinámicamente que solamente se puede usar una vez y durante un periodo limitado.",
+        "Que se cambia obligatoriamente cada noventa días.",
+        "Que se almacena cifrada en un dispositivo físico del usuario."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El anexo IV define la OTP como contraseña generada dinámicamente, de un solo uso y válida durante un periodo limitado. El secreto de pocos caracteres memorizado por el usuario es el PIN.",
+      "excerpt": "contraseña generada dinámicamente y que solamente se puede usar una vez y durante un periodo limitado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Anexo IV RD 311/2022 (ENS) · Trazabilidad",
+      "stem": "En el Esquema Nacional de Seguridad, la propiedad consistente en que las actuaciones de una entidad (persona o proceso) pueden ser trazadas de forma indiscutible hasta dicha entidad se denomina:",
+      "options": [
+        "Trazabilidad.",
+        "Autenticidad.",
+        "Integridad.",
+        "Disponibilidad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El anexo IV define así la trazabilidad. La autenticidad garantiza que una entidad es quien dice ser; la integridad, que el activo no se ha alterado sin autorización; la disponibilidad, el acceso cuando se requiere.",
+      "excerpt": "Trazabilidad: propiedad o característica consistente en que las actuaciones de una entidad (persona o proceso) pueden ser trazadas de forma indiscutible hasta dicha entidad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

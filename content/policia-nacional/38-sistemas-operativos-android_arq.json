@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-38-sistemas-operativos-android_arq-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 38. Fundamentos de sistemas operativos: sistemas operativos móviles, almacenamiento y sistemas de archivos",
+    "topic_slug": "pn-38-sistemas-operativos",
+    "locale": "es",
+    "category": "pn_38_sistemas_operativos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Android Developers · Arquitectura de la plataforma",
+      "url": "https://developer.android.com/guide/platform?hl=es-419",
+      "kind": "web_oficial",
+      "publisher": "Google · Android Developers (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Android Developers, Arquitectura de la plataforma",
+      "stem": "Según la documentación oficial para desarrolladores de Android, Android es una pila de software de código abierto basada en:",
+      "options": [
+        "Linux.",
+        "Windows.",
+        "macOS."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La documentación de Android Developers describe Android como una pila de software de código abierto basada en Linux; la base de la plataforma es el kernel de Linux.",
+      "excerpt": "Android es una pila de software de código abierto basado en Linux creada para una variedad amplia de dispositivos y factores de forma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Android Developers, Kernel de Linux",
+      "stem": "Según la documentación de Android, la base de la plataforma Android, en la que se apoya el tiempo de ejecución (ART) para la generación de subprocesos y la administración de memoria de bajo nivel, es:",
+      "options": [
+        "La capa de abstracción de hardware (HAL).",
+        "El kernel de Linux.",
+        "El framework de la API de Java."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La base de la plataforma Android es el kernel de Linux, que permite aprovechar funciones de seguridad clave y que los fabricantes desarrollen controladores para un kernel conocido.",
+      "excerpt": "La base de la plataforma de Android es el kernel de Linux. Por ejemplo, el tiempo de ejecución de Android (ART) se basa en el kernel de Linux para funcionalidades subyacentes, como la generación de subprocesos y la administración de memoria de bajo nivel.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Android Developers, HAL",
+      "stem": "Según la documentación de Android, el componente que brinda interfaces estándares que exponen las capacidades de hardware del dispositivo (cámara, Bluetooth) al marco de trabajo de la API de Java es:",
+      "options": [
+        "La capa de abstracción de hardware (HAL).",
+        "El tiempo de ejecución de Android (ART).",
+        "El administrador de notificaciones."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La HAL consta de módulos de biblioteca, cada uno de los cuales implementa una interfaz para un tipo de componente de hardware.",
+      "excerpt": "La capa de abstracción de hardware (HAL) brinda interfaces estándares que exponen las capacidades de hardware del dispositivo al marco de trabajo de la API de Java de nivel más alto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Android Developers, Tiempo de ejecución de Android",
+      "stem": "Según la documentación de Android, antes de Android 5.0 (nivel de API 21), el entorno de ejecución del sistema operativo era:",
+      "options": [
+        "ART.",
+        "Java Virtual Machine (JVM) de Oracle.",
+        "Dalvik."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Desde Android 5.0 cada app ejecuta sus propios procesos con su instancia del tiempo de ejecución de Android (ART); antes, el entorno de ejecución era Dalvik.",
+      "excerpt": "Antes de Android 5.0 (nivel de API 21), Dalvik era el entorno de ejecución del sistema operativo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Android Developers, Apps del sistema",
+      "stem": "Según la documentación de Android, las apps incluidas en la plataforma (correo, SMS, navegador, contactos):",
+      "options": [
+        "No tienen un estado especial respecto a las apps que el usuario elige instalar, de modo que una app de terceros puede convertirse en el navegador o el teclado predeterminado.",
+        "No pueden sustituirse por apps de terceros en ningún caso.",
+        "Solo pueden ser sustituidas por apps desarrolladas por el fabricante del dispositivo."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Android indica que las apps del sistema no tienen un estado especial: una app de terceros puede convertirse en el navegador web, el sistema de mensajería SMS o el teclado predeterminado, con algunas excepciones como la app de Configuración.",
+      "excerpt": "Las apps incluidas en la plataforma no tienen un estado especial entre las apps que el usuario elige instalar",
+      "excerpt_status": "completo"
+    }
+  ]
+}

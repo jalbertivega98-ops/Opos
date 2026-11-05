@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-60-supuesto-practico-trebep-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Segunda parte · Casos breves al estilo del supuesto práctico (plazos, recursos, situaciones y crédito)",
+    "topic_slug": "age-adm-60-supuesto-practico",
+    "locale": "es",
+    "category": "age_adm_60_supuesto_practico",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 89.4 TREBEP",
+      "stem": "Un funcionario de una Delegación del Gobierno quiere dejar temporalmente de trabajar para cuidar a su madre, que por razón de edad no puede valerse por sí misma y no tiene actividad retribuida. Según el artículo 89.4 del TREBEP, puede solicitar:",
+      "options": [
+        "Una excedencia voluntaria por agrupación familiar de dos años como mínimo.",
+        "Una excedencia por cuidado de familiares de duración no superior a tres años.",
+        "Un permiso retribuido de hasta un mes.",
+        "Una situación de servicios especiales."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 89.4 del TREBEP reconoce una excedencia de hasta tres años para cuidar a un familiar a cargo hasta el segundo grado que no pueda valerse por sí mismo y no desempeñe actividad retribuida.",
+      "excerpt": "También tendrán derecho a un período de excedencia de duración no superior a tres años, para atender al cuidado de un familiar que se encuentre a su cargo, hasta el segundo grado inclusive de consanguinidad o afinidad que por razones de edad, accidente, enfermedad o discapacidad no pueda valerse por sí mismo y no desempeñe actividad retribuida.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 87.1.a) TREBEP",
+      "stem": "Una funcionaria del Cuerpo General Administrativo es nombrada alto cargo de la Administración General del Estado. Según el artículo 87.1 del TREBEP, pasará a la situación de:",
+      "options": [
+        "Servicios especiales.",
+        "Servicio activo, con reserva de su puesto.",
+        "Excedencia voluntaria por interés particular.",
+        "Servicio en otras Administraciones Públicas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 87.1.a) del TREBEP declara en servicios especiales a quienes sean nombrados altos cargos de las Administraciones Públicas.",
+      "excerpt": "a) Cuando sean designados miembros del Gobierno o de los órganos de gobierno de las comunidades autónomas y ciudades de Ceuta y Melilla, miembros de las Instituciones de la Unión Europea o de las organizaciones internacionales, o sean nombrados altos cargos de las citadas Administraciones Públicas o Instituciones.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

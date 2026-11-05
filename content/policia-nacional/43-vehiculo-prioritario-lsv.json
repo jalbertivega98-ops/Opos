@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pn-43-vehiculo-prioritario-lsv-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 43. El vehículo prioritario: facultades de sus conductores, comportamiento de los demás y señales de emergencia",
+    "topic_slug": "pn-43-vehiculo-prioritario",
+    "locale": "es",
+    "category": "pn_43_vehiculo_prioritario",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 6/2015, de 30 de octubre, texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 44.4 Ley de Tráfico (RDLeg 6/2015)",
+      "stem": "Según el texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (RDLeg 6/2015), los vehículos de servicios de urgencia:",
+      "options": [
+        "Solo pueden usar las mismas señales luminosas que el resto de los vehículos.",
+        "Pueden emplear señales acústicas sin limitación, incluso sin estar en servicio.",
+        "Podrán utilizar otras señales ópticas y acústicas en los casos y en las condiciones que reglamentariamente se determinen."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 44.4 de la Ley de Tráfico remite al reglamento el uso de otras señales ópticas y acústicas por los vehículos de urgencia; el RGC lo desarrolla en los arts. 68.2 y 111-113.",
+      "excerpt": "4. Los vehículos de servicios de urgencia y otros vehículos especiales podrán utilizar otras señales ópticas y acústicas en los casos y en las condiciones que reglamentariamente se determinen.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

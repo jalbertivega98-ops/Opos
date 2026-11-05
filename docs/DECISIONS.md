@@ -176,3 +176,12 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Decisión:** joel vio psicotécnicos en Auxilio Judicial, que no tiene esa prueba. La lista `examHasPsycho` (src/lib/catalog/exam-format.ts) marca las oposiciones con prueba psicotécnica oficial (Mossos, Auxiliar del Estado, Policía Nacional, Guardia Civil y policías locales). En las demás, el plan semanal pasa ese tiempo al temario y no propone sesiones ni simulacros de psicotécnicos, y la ficha de la oposición no los anuncia.
 **Motivo:** no prometer ni planificar pruebas que el examen real no tiene.
 **Consecuencias:** al añadir una oposición hay que decidir si va en la lista según su convocatoria. La sección general /psicotecnicos sigue abierta para todos.
+
+## ADR-033 · Simulacros calcados a los exámenes reales: cupos por tema y cortes reales (2026-11-05)
+
+**Decisión:** joel pidió revisar «oposición por oposición… lo que realmente ha entrado» para que los alumnos practiquen con eso. Se leyeron los exámenes oficiales publicados de cada oposición (informes en `/mnt/project-files/aprobia/examenes-reales/`) y:
+- Nuevo `config.quotas` en los simulacros normales (`[{topic_prefix, questions}]`, migración `20261105000100_mock_quotas`): saca de cada tema el número de preguntas del examen real, sin repetir, y baraja el orden. Los simulacros por partes admiten hasta 60 entradas para repartir tema a tema.
+- Cortes reales donde el nuestro engañaba: Policía Nacional 7 sobre 10 (corte 2026: 7,05) y Administrativo parte 1, 23 sobre 50.
+- Simulacros nuevos: segunda parte de Administrativo (tipo supuesto, corte 33/50), ofimática de Tramitación (tercer ejercicio, 20 preguntas, mínimo 10) y completo de Policía Nacional (temas 1-45).
+**Motivo:** el sorteo uniforme por prefijo sobrerrepresentaba temas que apenas caen (p. ej. organización en Tramitación) y un aprobado en 5 daba falsa seguridad.
+**Consecuencias:** los repartos son la media de los exámenes publicados (en Guardia Civil y Policía Nacional, una estimación porque no se publican los cuadernillos) y hay que revisarlos con cada convocatoria. Cada cupo exige preguntas publicadas suficientes (`mock_quotas_ready`). No se reproducen los casos prácticos con enunciado común, las rejillas de ortografía de Guardia Civil ni las preguntas de reserva.

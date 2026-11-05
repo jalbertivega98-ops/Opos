@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_smartart-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Crear un gráfico SmartArt desde cero",
+      "url": "https://support.microsoft.com/es-es/office/graphics-visuals/create-a-smartart-graphic-from-scratch",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "SmartArt",
+      "stem": "En Word, para insertar un gráfico SmartArt hay que ir a la pestaña Insertar y seleccionar SmartArt en el grupo:",
+      "options": [
+        "Ilustraciones.",
+        "Texto.",
+        "Símbolos.",
+        "Vínculos."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "A continuación se elige el tipo y el diseño en el cuadro de diálogo Elegir un gráfico SmartArt.",
+      "excerpt": "En la pestaña Insertar , seleccione el SmartArt en el grupo Ilustraciones .",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "SmartArt",
+      "stem": "En un gráfico SmartArt de Word, la opción Cambiar colores se encuentra en la pestaña Diseño SmartArt, dentro del grupo:",
+      "options": [
+        "Crear gráfico.",
+        "Diseños.",
+        "Restablecer.",
+        "Estilos de SmartArt."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Aplica variaciones de color derivadas de los colores del tema.",
+      "excerpt": "En la pestaña Diseño SmartArt, seleccione Cambiar colores en el grupo Estilos de SmartArt.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
