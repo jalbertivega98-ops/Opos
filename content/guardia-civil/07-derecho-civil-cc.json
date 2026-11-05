@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "gc-07-derecho-civil-cc-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 7. Derecho civil: título preliminar y libro I del Código Civil",
+    "topic_slug": "gc-07-derecho-civil",
+    "locale": "es",
+    "category": "gc_07_derecho_civil",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 24 de julio de 1889, Código Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 CC",
+      "stem": "Según el artículo 1 del Código Civil, las fuentes del ordenamiento jurídico español son:",
+      "options": [
+        "La ley, la costumbre y los principios generales del derecho.",
+        "La ley, la jurisprudencia y la costumbre.",
+        "La Constitución, la ley y los reglamentos.",
+        "La ley, la costumbre y la equidad."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 CC enumera tres fuentes: la ley, la costumbre y los principios generales del derecho. La jurisprudencia complementa el ordenamiento (art. 1.6) y la equidad solo se pondera en la aplicación de las normas (art. 3.2).",
+      "excerpt": "Las fuentes del ordenamiento jurídico español son la ley, la costumbre y los principios generales del derecho.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1.3 CC",
+      "stem": "De acuerdo con el artículo 1.3 del Código Civil, la costumbre:",
+      "options": [
+        "Regirá con preferencia a la ley cuando resulte probada y no sea contraria al orden público.",
+        "Se aplicará en defecto de ley o de principios generales del derecho, sin necesidad de prueba.",
+        "Sólo regirá en defecto de ley aplicable, siempre que no sea contraria a la moral o al orden público y que resulte probada.",
+        "Sólo regirá cuando la ley se remita expresamente a ella."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 1.3 CC configura la costumbre como fuente subsidiaria de la ley, sometida a dos requisitos: no ser contraria a la moral o al orden público y resultar probada.",
+      "excerpt": "La costumbre sólo regirá en defecto de ley aplicable, siempre que no sea contraria a la moral o al orden público, y que resulte probada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1.6 CC",
+      "stem": "Según el artículo 1.6 del Código Civil, la jurisprudencia complementará el ordenamiento jurídico con la doctrina que, de modo reiterado, establezca:",
+      "options": [
+        "El Tribunal Constitucional.",
+        "Los Tribunales Superiores de Justicia.",
+        "La Audiencia Nacional.",
+        "El Tribunal Supremo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 1.6 CC se refiere a la doctrina reiterada del Tribunal Supremo al interpretar y aplicar la ley, la costumbre y los principios generales del derecho.",
+      "excerpt": "La jurisprudencia complementará el ordenamiento jurídico con la doctrina que, de modo reiterado, establezca el Tribunal Supremo al interpretar y aplicar la ley, la costumbre y los principios generales del derecho.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.1 CC",
+      "stem": "Conforme al artículo 2 del Código Civil, si en ellas no se dispone otra cosa, las leyes entrarán en vigor:",
+      "options": [
+        "Al día siguiente de su publicación en el «Boletín Oficial del Estado».",
+        "A los veinte días de su completa publicación en el «Boletín Oficial del Estado».",
+        "A los quince días de su completa publicación en el «Boletín Oficial del Estado».",
+        "Al mes de su completa publicación en el «Boletín Oficial del Estado»."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 2.1 CC fija una vacatio legis supletoria de veinte días desde la completa publicación en el BOE.",
+      "excerpt": "Las leyes entrarán en vigor a los veinte días de su completa publicación en el «Boletín Oficial del Estado», si en ellas no se dispone otra cosa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2 CC",
+      "stem": "Según el artículo 4.2 del Código Civil, no se aplicarán a supuestos ni en momentos distintos de los comprendidos expresamente en ellas:",
+      "options": [
+        "Las leyes penales, las tributarias y las procesales.",
+        "Las leyes excepcionales, las orgánicas y las autonómicas.",
+        "Las leyes de ámbito temporal, las civiles forales y las sancionadoras administrativas.",
+        "Las leyes penales, las excepcionales y las de ámbito temporal."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 4.2 CC excluye la aplicación analógica de las leyes penales, las excepcionales y las de ámbito temporal.",
+      "excerpt": "Las leyes penales, las excepcionales y las de ámbito temporal no se aplicarán a supuestos ni en momentos distintos de los comprendidos expresamente en ellas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.2 CC",
+      "stem": "De acuerdo con el artículo 5 del Código Civil, en el cómputo civil de los plazos:",
+      "options": [
+        "Se excluyen los sábados, domingos y festivos.",
+        "Se excluyen únicamente los domingos y festivos.",
+        "No se excluyen los días inhábiles.",
+        "Se excluyen los días inhábiles solo si el plazo se fija por días."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 5.2 CC establece que en el cómputo civil de los plazos no se excluyen los días inhábiles; los plazos por meses o años se computan de fecha a fecha (art. 5.1).",
+      "excerpt": "En el cómputo civil de los plazos no se excluyen los días inhábiles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.5 CC",
+      "stem": "Según el artículo 14.5 del Código Civil, la vecindad civil se adquiere:",
+      "options": [
+        "Por residencia continuada durante dos años, siempre que el interesado manifieste ser esa su voluntad, o por residencia continuada de diez años, sin declaración en contrario durante este plazo.",
+        "Por residencia continuada durante un año, siempre que el interesado manifieste ser esa su voluntad, o por residencia continuada de cinco años, sin declaración en contrario.",
+        "Por residencia continuada durante cinco años, siempre que el interesado manifieste ser esa su voluntad, o por residencia continuada de diez años, sin declaración en contrario.",
+        "Por residencia continuada durante dos años, sin necesidad de declaración alguna, o por matrimonio con persona de distinta vecindad."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 14.5 CC prevé dos vías: dos años de residencia continuada con declaración de voluntad, o diez años sin declaración en contrario. El matrimonio no altera la vecindad civil (art. 14.4).",
+      "excerpt": "La vecindad civil se adquiere: 1.° Por residencia continuada durante dos años, siempre que el interesado manifieste ser esa su voluntad. 2.° Por residencia continuada de diez años, sin declaración en contrario durante este plazo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 CC",
+      "stem": "Según el artículo 17.1 del Código Civil, ¿cuál de los siguientes es español de origen?",
+      "options": [
+        "El nacido en España de padres extranjeros con residencia legal en España.",
+        "El nacido en España de padres extranjeros si, al menos, uno de ellos hubiera nacido también en España, salvo que sea hijo de funcionario diplomático o consular acreditado en España.",
+        "El extranjero mayor de dieciocho años adoptado por un español.",
+        "El nacido en el extranjero de padres extranjeros que hayan residido legalmente en España durante diez años."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 17.1.b) CC atribuye la nacionalidad de origen al nacido en España de padres extranjeros si al menos uno de ellos nació también en España, salvo hijos de diplomáticos o cónsules. El adoptado mayor de dieciocho años solo puede optar por la nacionalidad de origen (art. 19.2), y la residencia de los padres no atribuye por sí sola la nacionalidad al hijo nacido fuera de España.",
+      "excerpt": "b) Los nacidos en España de padres extranjeros si, al menos, uno de ellos hubiera nacido también en España. Se exceptúan los hijos de funcionario diplomático o consular acreditado en España.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.1 CC",
+      "stem": "Conforme al artículo 22.1 del Código Civil, para la concesión de la nacionalidad española por residencia a quienes hayan obtenido la condición de refugiado se requiere una residencia de:",
+      "options": [
+        "Diez años.",
+        "Dos años.",
+        "Un año.",
+        "Cinco años."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 22.1 CC exige con carácter general diez años de residencia, cinco para los refugiados y dos para los nacionales de origen de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial o Portugal o sefardíes.",
+      "excerpt": "Para la concesión de la nacionalidad por residencia se requiere que ésta haya durado diez años. Serán suficientes cinco años para los que hayan obtenido la condición de refugiado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 25.2 CC",
+      "stem": "Según el artículo 25.2 del Código Civil, la acción de nulidad de la adquisición de la nacionalidad española por falsedad, ocultación o fraude deberá ejercitarse por el Ministerio Fiscal dentro del plazo de:",
+      "options": [
+        "Diez años.",
+        "Quince años.",
+        "Cinco años.",
+        "Veinte años."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 25.2 CC encomienda la acción de nulidad al Ministerio Fiscal, de oficio o por denuncia, dentro del plazo de quince años; la nulidad no perjudica a terceros de buena fe.",
+      "excerpt": "La acción de nulidad deberá ejercitarse por el Ministerio Fiscal de oficio o en virtud de denuncia, dentro del plazo de quince años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30 CC",
+      "stem": "De acuerdo con el artículo 30 del Código Civil, la personalidad se adquiere:",
+      "options": [
+        "En el momento del nacimiento con vida, una vez producido el entero desprendimiento del seno materno.",
+        "Desde la concepción, para todos los efectos.",
+        "A las veinticuatro horas del nacimiento, si el nacido tuviera figura humana.",
+        "En el momento de la inscripción del nacimiento en el Registro Civil."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 30 CC exige únicamente el nacimiento con vida y el entero desprendimiento del seno materno. El concebido solo se tiene por nacido para los efectos que le sean favorables (art. 29).",
+      "excerpt": "La personalidad se adquiere en el momento del nacimiento con vida, una vez producido el entero desprendimiento del seno materno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33 CC",
+      "stem": "Según el artículo 33 del Código Civil, si se duda entre dos o más personas llamadas a sucederse quién de ellas ha muerto primero y no se prueba la muerte anterior de ninguna:",
+      "options": [
+        "Se presume que ha muerto primero la de mayor edad.",
+        "Se presume que ha muerto primero la de menor edad.",
+        "Se presumen muertas al mismo tiempo y no tiene lugar la transmisión de derechos de uno a otro.",
+        "Decide el juez según las circunstancias, con transmisión de derechos a favor del superviviente presunto."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 33 CC consagra la presunción de conmoriencia: a falta de prueba, se presumen muertas al mismo tiempo y no hay transmisión de derechos entre ellas.",
+      "excerpt": "a falta de prueba, se presumen muertas al mismo tiempo y no tiene lugar la transmisión de derechos de uno a otro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40 CC",
+      "stem": "Conforme al artículo 40 del Código Civil, para el ejercicio de los derechos y el cumplimiento de las obligaciones civiles, el domicilio de las personas naturales es:",
+      "options": [
+        "El lugar donde estén empadronadas.",
+        "El lugar de su residencia habitual y, en su caso, el que determine la Ley de Enjuiciamiento Civil.",
+        "El lugar de su nacimiento.",
+        "El lugar donde ejerzan su actividad profesional principal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 40 CC identifica el domicilio de las personas naturales con su residencia habitual y, en su caso, con el que determine la Ley de Enjuiciamiento Civil.",
+      "excerpt": "el domicilio de las personas naturales es el lugar de su residencia habitual, y, en su caso, el que determine la Ley de Enjuiciamiento Civil.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47 CC",
+      "stem": "Según el artículo 47 del Código Civil, no pueden contraer matrimonio entre sí los colaterales por consanguinidad:",
+      "options": [
+        "Hasta el tercer grado.",
+        "Hasta el segundo grado.",
+        "Hasta el cuarto grado.",
+        "De cualquier grado."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 47.2 CC prohíbe el matrimonio entre colaterales por consanguinidad hasta el tercer grado; el impedimento de tercer grado es dispensable por el juez (art. 48).",
+      "excerpt": "2. Los colaterales por consanguinidad hasta el tercer grado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 85 CC",
+      "stem": "De acuerdo con el artículo 85 del Código Civil, el matrimonio se disuelve:",
+      "options": [
+        "Por la muerte de uno de los cónyuges, por la separación y por el divorcio.",
+        "Por la declaración de ausencia de uno de los cónyuges y por el divorcio.",
+        "Por la muerte o la declaración de fallecimiento de uno de los cónyuges y por el divorcio.",
+        "Únicamente por el divorcio y por la nulidad."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 85 CC enumera tres causas de disolución: muerte, declaración de fallecimiento y divorcio. La separación no disuelve el vínculo.",
+      "excerpt": "El matrimonio se disuelve, sea cual fuere la forma y el tiempo de su celebración, por la muerte o la declaración de fallecimiento de uno de los cónyuges y por el divorcio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 143 CC",
+      "stem": "Según el artículo 143 del Código Civil, los hermanos se deben:",
+      "options": [
+        "Alimentos en toda la extensión prevista para cónyuges, ascendientes y descendientes.",
+        "Alimentos únicamente mientras sean menores de edad.",
+        "Ningún tipo de alimentos, salvo pacto expreso.",
+        "Sólo los auxilios necesarios para la vida, cuando los necesiten por causa que no sea imputable al alimentista."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 143 CC obliga a darse alimentos en toda su extensión a cónyuges, ascendientes y descendientes; entre hermanos solo se deben los auxilios necesarios para la vida (y, en su caso, para su educación).",
+      "excerpt": "Los hermanos sólo se deben los auxilios necesarios para la vida, cuando los necesiten por cualquier causa que no sea imputable al alimentista, y se extenderán en su caso a los que precisen para su educación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 175.1 CC",
+      "stem": "Conforme al artículo 175 del Código Civil, la adopción requiere que el adoptante sea mayor de:",
+      "options": [
+        "Dieciocho años, y la diferencia de edad con el adoptando será de, al menos, catorce años.",
+        "Treinta años, y la diferencia de edad con el adoptando será de, al menos, dieciocho años.",
+        "Veinticinco años, y la diferencia de edad con el adoptando será de, al menos, dieciséis años.",
+        "Veinticinco años, y la diferencia de edad con el adoptando será de, al menos, catorce años."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 175.1 CC exige que el adoptante sea mayor de veinticinco años y una diferencia mínima de dieciséis años (y, como regla, máxima de cuarenta y cinco) con el adoptando.",
+      "excerpt": "La adopción requiere que el adoptante sea mayor de veinticinco años. Si son dos los adoptantes bastará con que uno de ellos haya alcanzado dicha edad. En todo caso, la diferencia de edad entre adoptante y adoptando será de, al menos, dieciséis años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 193 CC",
+      "stem": "Según el artículo 193 del Código Civil, procede con carácter general la declaración de fallecimiento transcurridos desde las últimas noticias del ausente o, a falta de estas, desde su desaparición:",
+      "options": [
+        "Diez años, o cinco años si al expirar dicho plazo el ausente hubiera cumplido setenta y cinco años.",
+        "Cinco años, o tres años si al expirar dicho plazo el ausente hubiera cumplido setenta y cinco años.",
+        "Diez años, o cinco años si al expirar dicho plazo el ausente hubiera cumplido sesenta y cinco años.",
+        "Veinte años, o diez años si al expirar dicho plazo el ausente hubiera cumplido setenta años."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 193 CC fija diez años como regla general y cinco si el ausente ha cumplido setenta y cinco años; los plazos se computan desde la expiración del año natural de las últimas noticias o de la desaparición.",
+      "excerpt": "1º. Transcurridos diez años desde las últimas noticias habidas del ausente, o, a falta de éstas, desde su desaparición. 2º. Pasados cinco años desde las ultimas noticias o, en defecto de éstas, desde su desaparición, si al expirar dicho plazo hubiere cumplido el ausente setenta y cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 241 CC",
+      "stem": "De acuerdo con el artículo 241 del Código Civil, para la emancipación por concesión de quienes ejerzan la patria potestad se requiere que el menor:",
+      "options": [
+        "Tenga catorce años cumplidos y la consienta.",
+        "Tenga dieciséis años cumplidos, aunque no la consienta.",
+        "Tenga diecisiete años cumplidos y haya contraído matrimonio.",
+        "Tenga dieciséis años cumplidos y la consienta."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 241 CC exige dieciséis años cumplidos y el consentimiento del menor; la emancipación se otorga por escritura pública o por comparecencia ante el encargado del Registro Civil.",
+      "excerpt": "Para que tenga lugar la emancipación por concesión de quienes ejerzan la patria potestad, se requiere que el menor tenga dieciséis años cumplidos y que la consienta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 250 CC",
+      "stem": "Según el artículo 250 del Código Civil, la medida formal de apoyo que se aplicará a quienes precisen el apoyo de modo continuado es:",
+      "options": [
+        "La guarda de hecho.",
+        "La curatela.",
+        "El defensor judicial.",
+        "La tutela."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 250 CC define la curatela como medida formal para el apoyo continuado; la guarda de hecho es una medida informal y el defensor judicial procede cuando el apoyo se precisa de forma ocasional. La tutela queda reservada a los menores (art. 199).",
+      "excerpt": "La curatela es una medida formal de apoyo que se aplicará a quienes precisen el apoyo de modo continuado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

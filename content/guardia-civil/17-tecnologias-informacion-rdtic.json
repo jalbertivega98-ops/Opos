@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "gc-17-tecnologias-informacion-rdtic-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 17. Telecomunicaciones, TIC en la AGE, servicios de confianza e interoperabilidad",
+    "topic_slug": "gc-17-tecnologias-informacion",
+    "locale": "es",
+    "category": "gc_17_tecnologias_informacion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 806/2014, de 19 de septiembre, organización e instrumentos operativos de las TIC en la AGE (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-9741",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 RD 806/2014",
+      "stem": "Según el artículo 1 del Real Decreto 806/2014, su objeto es el desarrollo y ejecución de:",
+      "options": [
+        "El Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.",
+        "Un modelo común de gobernanza de las Tecnologías de la Información y las Comunicaciones en la Administración General del Estado y sus Organismos Públicos.",
+        "El régimen de los servicios electrónicos de confianza.",
+        "La regulación del dominio público radioeléctrico."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 1 RD 806/2014 fija como objeto un modelo común de gobernanza de las TIC en la AGE y sus Organismos Públicos, con una estrategia global de transformación digital.",
+      "excerpt": "El objeto de este real decreto es el desarrollo y ejecución de un modelo común de gobernanza de las Tecnologías de la Información y las Comunicaciones (TIC) en la Administración General del Estado y sus Organismos Públicos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9 RD 806/2014",
+      "stem": "Conforme al artículo 9 del Real Decreto 806/2014, la Estrategia en materia de tecnologías de la información y las comunicaciones (Estrategia TIC) será aprobada por:",
+      "options": [
+        "El Gobierno, a iniciativa de la Comisión de Estrategia TIC.",
+        "La Comisión de Estrategia TIC, a propuesta de las Comisiones Ministeriales de Administración Digital.",
+        "El Comité de Dirección de las Tecnologías de Información y Comunicaciones.",
+        "Cada ministerio, en su respectivo plan de acción departamental."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 9 RD 806/2014 atribuye al Gobierno la aprobación de la Estrategia TIC y sus revisiones, a iniciativa de la Comisión de Estrategia TIC; esta determina su ámbito temporal y periodo de revisión, y la Estrategia sirve de base a los planes ministeriales.",
+      "excerpt": "El Gobierno, a iniciativa de la Comisión de Estrategia TIC, y a propuesta de los Ministros de la Presidencia, de Hacienda y Administraciones Públicas y de Industria, Energía y Turismo, aprobará la Estrategia en materia de tecnologías de la información y las comunicaciones (en adelante Estrategia TIC), así como las revisiones de la misma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10.2 RD 806/2014",
+      "stem": "Según el artículo 10 del Real Decreto 806/2014, la declaración de medios y servicios compartidos necesarios para la ejecución y desarrollo de la Estrategia TIC corresponderá a:",
+      "options": [
+        "La Dirección de Tecnologías de la Información y las Comunicaciones, a propuesta de las unidades TIC.",
+        "El Consejo de Ministros, a propuesta de la Comisión de Estrategia TIC.",
+        "La Comisión de Estrategia TIC, a propuesta de la Dirección de Tecnologías de la Información y las Comunicaciones.",
+        "Cada Comisión Ministerial de Administración Digital en su ámbito."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 10.2 RD 806/2014 atribuye la declaración de medios y servicios compartidos a la Comisión de Estrategia TIC, a propuesta de la Dirección de Tecnologías de la Información y las Comunicaciones.",
+      "excerpt": "2. La declaración de medios y servicios compartidos necesarios para la ejecución y desarrollo de la Estrategia TIC aprobada por el Gobierno, corresponderá a la Comisión de Estrategia TIC a propuesta de la Dirección de Tecnologías de la Información y las Comunicaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10.3 RD 806/2014",
+      "stem": "De acuerdo con el artículo 10 del Real Decreto 806/2014, la utilización de los medios y servicios compartidos será de carácter:",
+      "options": [
+        "Voluntario y complementario respecto a los medios y servicios particulares.",
+        "Obligatorio y sustitutivo respecto a los medios y servicios particulares empleados por las distintas unidades.",
+        "Obligatorio solo para los Organismos Públicos, no para los ministerios.",
+        "Recomendado, salvo que la Comisión Ministerial de Administración Digital disponga otra cosa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 10.3 RD 806/2014 establece que el uso de los medios y servicios compartidos es obligatorio y sustitutivo de los particulares de cada unidad.",
+      "excerpt": "3. La utilización de los medios y servicios compartidos será de carácter obligatorio y sustitutivo respecto a los medios y servicios particulares empleados por las distintas unidades.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
