@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Visitas y cuentas (2026-11-05, rama `claude/project-thread-is3q5b`, ADR-037)
+
+- Vercel Web Analytics añadido (sin cookies, solo en Vercel). joel tiene que activarlo en Vercel → Analytics → Enable.
+- Panel `/admin`: «Visitas y cuentas» con visitas, registros nuevos y cuentas que han entrado (hoy, 7 y 30 días) vía `admin_audience_metrics()`, y gráficas por día de 30 días (`admin_audience_daily`) que pidió joel. Migración `20261105000400` copiada en la preview `49-`.
+- Privacidad y cookies mencionan Vercel Web Analytics. Pendiente: que joel diga «fusiona».
+
 ### Plan directo al test del tema y calendario (2026-11-05, rama `claude/project-thread-4mfgki`, USR-011, ADR-036)
 
 - Las tareas del plan llevan a «Ficha» + «Empezar test» del tema (`practice_start_topic`); los temas sin acceso salen con candado hacia la ficha de la oposición.

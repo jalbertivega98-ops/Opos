@@ -66,3 +66,42 @@ export async function getPracticeMetrics(): Promise<PracticeMetrics> {
   if (error) throw new Error(`admin practice metrics: ${error.message}`);
   return data as PracticeMetrics;
 }
+
+export type AudienceMetrics = {
+  users_total: number;
+  users_confirmed: number;
+  signups_today: number;
+  signups_7d: number;
+  signups_30d: number;
+  logins_today: number;
+  logins_7d: number;
+  logins_30d: number;
+  visits_today: number;
+  visits_7d: number;
+  visits_30d: number;
+};
+
+/** Registrados, entradas (inicio de sesión) y visitas contadas (ADR-037). Solo administradores. */
+export async function getAudienceMetrics(): Promise<AudienceMetrics> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_audience_metrics");
+  if (error) throw new Error(`admin audience metrics: ${error.message}`);
+  return data as AudienceMetrics;
+}
+
+export type AudienceDay = { day: string; visits: number; signups: number; logins: number };
+
+/** Serie diaria de los últimos `days` días (hora de Madrid) para la gráfica del panel. */
+export async function getAudienceDaily(days = 30): Promise<AudienceDay[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_audience_daily", { p_days: days });
+  if (error) throw new Error(`admin audience daily: ${error.message}`);
+  return ((data ?? []) as { day: string; visits: number; signups: number; logins: number }[]).map(
+    (r) => ({
+      day: String(r.day),
+      visits: Number(r.visits),
+      signups: Number(r.signups),
+      logins: Number(r.logins),
+    }),
+  );
+}

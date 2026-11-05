@@ -135,7 +135,18 @@ test.describe("Administración", () => {
       (await page.getByTestId("kpi-totalUsers").locator("p").nth(1).innerText()).replace(/\D/g, ""),
     );
     expect(total).toBeGreaterThanOrEqual(1);
-    await expect(page.getByRole("table")).toContainText("Admin");
+    const signups = page.getByTestId("audience-audienceSignups");
+    await expect(signups).toContainText("Registros nuevos");
+    await expect(signups.locator("dd").first()).not.toHaveText("0");
+    await expect(page.getByTestId("audience-audienceLogins")).toContainText("Han entrado");
+    await expect(page.getByTestId("admin-audience")).toContainText("cuentas en total");
+    await expect(page.getByTestId("chart-logins")).toContainText("Han entrado");
+    await expect(page.getByTestId("chart-visits").locator("table tr")).toHaveCount(30);
+    if (process.env.SHOT_DIR)
+      await page
+        .getByTestId("admin-audience")
+        .screenshot({ path: `${process.env.SHOT_DIR}/audiencia.png` });
+    await expect(page.getByTestId("recent-users")).toContainText("Admin");
   });
 });
 
