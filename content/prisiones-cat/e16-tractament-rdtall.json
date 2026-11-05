@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcat-e16-tractament-rdtall-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 16. El tractament penitenciari, permisos i sortides",
+    "topic_slug": "pcat-e16-tractament",
+    "locale": "ca",
+    "category": "pcat_e16_tractament",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 782/2001, de 6 de julio, relación laboral especial de los penados en talleres penitenciarios (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-13171",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3.2 RD 782/2001",
+      "stem": "D'acord amb el Reial decret 782/2001, quin òrgan adjudica als interns els llocs de treball dels tallers productius dels centres penitenciaris?",
+      "options": [
+        "El/La director/a del centre.",
+        "La junta de tractament.",
+        "L'equip multidisciplinari.",
+        "El Consell de Direcció."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 3.2 del RD 782/2001 atribueix l'adjudicació a la junta de tractament, com a òrgan administratiu competent, amb un ordre de prelació en què el primer criteri és que el programa individualitzat de tractament prevegi una activitat laboral.",
+      "excerpt": "La Junta de Tratamiento, como órgano administrativo competente, adjudicará los puestos a los internos, siguiendo el siguiente orden de prelación: 1.º Los internos en cuyo programa individualizado de tratamiento se contemple el desarrollo de una actividad laboral.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

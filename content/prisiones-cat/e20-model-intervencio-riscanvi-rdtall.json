@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e20-model-intervencio-riscanvi-rdtall-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 20. El model d'intervenció, el RisCanvi i el CIRE",
+    "topic_slug": "pcat-e20-model-intervencio-riscanvi",
+    "locale": "ca",
+    "category": "pcat_e20_model_intervencio_riscanvi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 782/2001, de 6 de julio, relación laboral especial de los penados en talleres penitenciarios (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-13171",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4.1 RD 782/2001",
+      "stem": "D'acord amb el Reial decret 782/2001, quina és la finalitat essencial del treball dels interns en els tallers productius penitenciaris?",
+      "options": [
+        "L'autofinançament dels centres penitenciaris.",
+        "El compliment de la sanció disciplinària imposada.",
+        "La preparació per a la futura inserció laboral de l'intern.",
+        "La reparació del dany causat a la víctima."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 4.1 del RD 782/2001 fixa com a finalitat essencial del treball la preparació per a la futura inserció laboral de l'intern, connectada amb la formació professional ocupacional.",
+      "excerpt": "La finalidad esencial del trabajo es la preparación para la futura inserción laboral del interno",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.5 RD 782/2001",
+      "stem": "Segons el Reial decret 782/2001, quina durada tenen les vacances anuals dels interns treballadors en els tallers productius?",
+      "options": [
+        "Vint-i-dos dies hàbils.",
+        "Quinze dies naturals.",
+        "Trenta dies naturals o la part proporcional que correspongui.",
+        "Un mes i mig."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 17.5 del RD 782/2001 estableix trenta dies naturals de vacances anuals (o la part proporcional), amb el moment de gaudi condicionat al tractament i a les necessitats de treball.",
+      "excerpt": "Las vacaciones anuales de los internos trabajadores tendrán una duración de treinta días naturales o la parte proporcional que corresponda en su caso.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

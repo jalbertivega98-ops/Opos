@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "pcat-e18-gestio-administrativa-rp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 18. Gestió administrativa i documental dels establiments penitenciaris",
+    "topic_slug": "pcat-e18-gestio-administrativa",
+    "locale": "ca",
+    "category": "pcat_e18_gestio_administrativa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 250.1 RP",
+      "stem": "Segons el Reglament penitenciari (RP), què s'ha d'anotar en l'expedient personal dels interns sancionats?",
+      "options": [
+        "Només la sanció imposada, un cop és ferma.",
+        "Només les sancions per faltes molt greus.",
+        "Cap dada disciplinària, que consta únicament en el llibre de la Comissió Disciplinària.",
+        "La iniciació del procediment i la sanció imposada."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 250.1 RP disposa que la iniciació del procediment i la sanció imposada s'anoten a l'expedient personal. També s'hi anoten la reducció, la revocació, la suspensió o l'ajornament de les sancions d'aïllament (250.2).",
+      "excerpt": "La iniciación del procedimiento y la sanción impuesta se anotarán en el expediente personal de los internos sancionados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.1 RP",
+      "stem": "D'acord amb el Reglament penitenciari, una decisió de l'Administració penitenciària que impliqui l'apreciació del comportament humà dels interns:",
+      "options": [
+        "No es pot fonamentar exclusivament en un tractament automatitzat de dades que ofereixi una definició del perfil o de la personalitat de l'intern.",
+        "Es pot fonamentar exclusivament en un tractament automatitzat de dades si ho autoritza el centre directiu.",
+        "S'ha de fonamentar sempre en un tractament automatitzat de dades per garantir-ne l'objectivitat.",
+        "Només es pot fonamentar en dades automatitzades amb el consentiment exprés de l'intern."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 6.1 RP limita l'ús de la informàtica penitenciària: cap decisió que impliqui apreciar el comportament humà dels interns es pot fonamentar exclusivament en un tractament automatitzat que en defineixi el perfil o la personalitat.",
+      "excerpt": "Ninguna decisión de la Administración penitenciaria que implique la apreciación del comportamiento humano de los reclusos podrá fundamentarse, exclusivamente, en un tratamiento automatizado de datos o informaciones que ofrezcan una definición del perfil o de la personalidad del interno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.1 RP",
+      "stem": "Segons el Reglament penitenciari, per recollir dades de caràcter personal dels interns per a l'exercici de les funcions pròpies de l'Administració penitenciària:",
+      "options": [
+        "Cal sempre el consentiment exprés i per escrit de l'intern afectat.",
+        "Cal l'autorització prèvia del jutge de vigilància penitenciària.",
+        "Cal el consentiment de l'intern únicament si està en situació de preventiu.",
+        "No cal el consentiment de l'intern afectat, llevat dels supòsits de l'article 15 bis de la LOGP."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 7.1 RP diu que no cal el consentiment de l'intern per recollir les seves dades per a les funcions pròpies de l'Administració penitenciària, llevat dels supòsits de l'art. 15 bis LOGP.",
+      "excerpt": "Cuando los datos de carácter personal de los reclusos se recojan para el ejercicio de las funciones propias de la Administración penitenciaria no será preciso el consentimiento del interno afectado, salvo en los supuestos recogidos en el artículo 15 bis de la Ley Orgánica 1/1979, de 26 de septiembre.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.3 RP",
+      "stem": "D'acord amb l'article 7 del Reglament penitenciari, a quin dels destinataris següents NO es poden cedir sense el consentiment previ de l'intern les dades personals contingudes en els fitxers informàtics penitenciaris?",
+      "options": [
+        "Al ministeri fiscal, en l'exercici de les funcions que té atribuïdes.",
+        "A una empresa privada que vol contractar l'intern quan surti en llibertat.",
+        "Als jutges o tribunals, en l'exercici de les funcions que tenen atribuïdes.",
+        "Al Defensor del Poble o a la institució anàloga de la comunitat autònoma que exerceixi competències executives en matèria penitenciària."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 7.3 RP permet cedir dades sense consentiment al Defensor del Poble o institució anàloga, al ministeri fiscal i als jutges o tribunals en l'exercici de les seves funcions. Una empresa privada no és cap dels destinataris previstos.",
+      "excerpt": "También se podrán ceder datos de carácter personal contenidos en los ficheros informáticos penitenciarios sin previo consentimiento del afectado cuando la cesión tenga por destinatarios al Defensor del Pueblo o institución análoga de las Comunidades Autónomas que ejerzan competencias ejecutivas en materia penitenciaria, al Ministerio Fiscal o a los Jueces o Tribunales, en el ejercicio de las funciones que tienen atribuidas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.1 RP",
+      "stem": "Segons el Reglament penitenciari, les dades dels interns relatives a opinions polítiques, conviccions religioses o filosòfiques, origen racial i ètnic, salut o vida sexual, recollides per formular els programes de tractament, només es poden cedir o difondre:",
+      "options": [
+        "Amb l'autorització del/de la director/a del centre penitenciari.",
+        "Amb el consentiment verbal de l'intern davant el/la cap de gestió penitenciària.",
+        "Amb el consentiment exprés i per escrit de l'intern afectat o quan, per raons d'interès general, ho disposi una llei.",
+        "Amb l'informe favorable de la junta de tractament."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 8.1 RP exigeix per a aquestes dades especialment protegides el consentiment exprés i per escrit de l'intern o una llei que ho disposi per raons d'interès general.",
+      "excerpt": "sólo podrán ser cedidos o difundidos a otras personas con el consentimiento expreso y por escrito del recluso afectado o cuando por razones de interés general así lo disponga una Ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 RP",
+      "stem": "D'acord amb el Reglament penitenciari, quan un intern sol·licita la rectificació de les seves dades personals inexactes o incompletes dels fitxers informàtics penitenciaris, en quin termini màxim se l'ha d'informar de la rectificació efectuada?",
+      "options": [
+        "Un mes des de la sol·licitud.",
+        "Deu dies hàbils des de la sol·licitud.",
+        "Tres mesos des de la sol·licitud.",
+        "Dos mesos des de la sol·licitud."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 9.1 RP fixa un termini màxim de dos mesos des de la sol·licitud per informar l'interessat i, si escau, els cessionaris de la rectificació.",
+      "excerpt": "De la rectificación efectuada se informará al interesado en el plazo máximo de dos meses desde su solicitud",
+      "excerpt_status": "completo"
+    }
+  ]
+}

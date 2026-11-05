@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "pcat-g4-procediment-pressupost-dlfin-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 4. Procediment administratiu i pressupost de la Generalitat",
+    "topic_slug": "pcat-g4-procediment-pressupost",
+    "locale": "ca",
+    "category": "pcat_g4_procediment_pressupost",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Decreto Legislativo 3/2002, de 24 de diciembre, texto refundido de la Ley de finanzas públicas de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=DOGC-f-2002-90024",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 27.1 DLFIN",
+      "stem": "Segons el Decret legislatiu 3/2002, text refós de la Llei de finances públiques de Catalunya, el pressupost de la Generalitat constitueix:",
+      "options": [
+        "L'expressió quantificada, conjunta i sistemàtica de les obligacions que, com a màxim, poden reconèixer la Generalitat i les entitats autònomes, i dels drets que es poden liquidar durant l'exercici.",
+        "L'expressió quantificada de les obligacions que, com a mínim, ha de reconèixer la Generalitat durant l'exercici.",
+        "La previsió orientativa dels ingressos i les despeses de la Generalitat, sense caràcter limitatiu.",
+        "L'expressió quantificada dels drets que es poden liquidar durant un període de quatre exercicis."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 27.1 DL 3/2002 defineix el pressupost com l'expressió quantificada, conjunta i sistemàtica de les obligacions que, com a màxim, es poden reconèixer i dels drets que es poden liquidar en l'exercici. A més, s'ha d'aprovar equilibrat (art. 27.2).",
+      "excerpt": "El presupuesto de la Generalidad de Cataluña constituye la expresión cuantificada, conjunta y sistemática de las obligaciones que, como máximo, podrán reconocer la Generalidad y las entidades autónomas, y de los derechos que podrán liquidarse durante el ejercicio correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33 DLFIN",
+      "stem": "D'acord amb el text refós de la Llei de finances públiques de Catalunya, si l'1 de gener el pressupost de la Generalitat no ha estat aprovat:",
+      "options": [
+        "El Govern ha d'aprovar per decret llei un pressupost provisional per a tot l'exercici.",
+        "Es considera prorrogat el de l'any anterior en els seus crèdits definitius, incloses les modificacions de crèdit.",
+        "Es considera prorrogat automàticament el de l'any anterior en els seus crèdits inicials fins a l'aprovació i la publicació del nou al DOGC.",
+        "Només es poden atendre les despeses de personal fins que el Parlament aprovi el nou pressupost."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 33 DL 3/2002 preveu la pròrroga automàtica del pressupost de l'any anterior en els crèdits inicials fins a l'aprovació i publicació del nou al DOGC. La pròrroga no afecta els crèdits de serveis o programes que acabin durant l'exercici prorrogat.",
+      "excerpt": "En el supuesto que el 1 de enero, por cualquier motivo, no resultase aprobado el presupuesto, se considerará prorrogado automáticamente el del año anterior en sus créditos iniciales hasta la aprobación y la publicación de los nuevos en el «Diari Oficial de la Generalitat de Catalunya».",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 28 DLFIN",
+      "stem": "Segons el Decret legislatiu 3/2002, l'exercici pressupostari coincideix amb l'any natural i s'hi imputen les obligacions reconegudes per despeses fetes abans d'acabar l'exercici:",
+      "options": [
+        "Fins al 31 de desembre del mateix any, sense excepcions.",
+        "Fins al 31 de gener de l'any següent.",
+        "Fins al 31 de març de l'any següent.",
+        "Fins al 30 de juny de l'any següent."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 28.b) DL 3/2002 imputa a l'exercici les obligacions reconegudes fins al 31 de gener de l'any següent corresponents a despeses fetes abans d'acabar l'exercici amb càrrec als crèdits respectius; els drets s'imputen si es liquiden durant l'any, encara que procedeixin d'exercicis anteriors.",
+      "excerpt": "b) Las obligaciones que sean reconocidas hasta el 31 de enero del año siguiente, correspondientes a cualquier tipo de gastos efectuados antes de acabar el ejercicio presupuestario con cargo a los créditos respectivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.2 DLFIN",
+      "stem": "Quant a l'estructura del pressupost de la Generalitat, el Decret legislatiu 3/2002 estableix que l'estat de despeses ha de reunir:",
+      "options": [
+        "Només la classificació orgànica i l'econòmica.",
+        "La classificació funcional i la territorial per municipis, però no la classificació per programes.",
+        "La classificació econòmica i per programes, però no l'orgànica.",
+        "La classificació orgànica, funcional i econòmica i per programes."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 30.2 DL 3/2002 exigeix que l'estat de despeses reuneixi les classificacions orgànica, funcional, econòmica i per programes, i, quan escaigui, la territorial per àmbits comarcals i supracomarcals de les despeses d'inversió.",
+      "excerpt": "El estado de gastos reunirá la clasificación orgánica, funcional y económica y por programas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

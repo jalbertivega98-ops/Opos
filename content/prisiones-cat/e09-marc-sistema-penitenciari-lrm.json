@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "set": "pcat-e09-marc-sistema-penitenciari-lrm-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 9. Marc legal i principis del sistema penitenciari",
+    "topic_slug": "pcat-e09-marc-sistema-penitenciari",
+    "locale": "ca",
+    "category": "pcat_e09_marc_sistema_penitenciari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 23/2014, de 20 de noviembre, de reconocimiento mutuo de resoluciones penales en la Unión Europea (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12029",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.2 Llei 23/2014",
+      "stem": "Segons l'article 2 de la Llei 23/2014, de reconeixement mutu de resolucions penals a la Unió Europea, quin dels següents NO és un dels instruments de reconeixement mutu que regula?",
+      "options": [
+        "La resolució per la qual s'imposa una pena o mesura privativa de llibertat.",
+        "La resolució d'extradició a un Estat tercer.",
+        "La resolució de llibertat vigilada.",
+        "L'ordre europea de protecció."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 2.2 de la Llei 23/2014 enumera, entre d'altres, l'ordre europea de detenció i lliurament, la resolució que imposa una pena o mesura privativa de llibertat, la de llibertat vigilada i l'ordre europea de protecció. L'extradició no hi figura.",
+      "excerpt": "b) La resolución por la que se impone una pena o medida privativa de libertad. c) La resolución de libertad vigilada. […] e) La orden europea de protección.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 64.1 Llei 23/2014",
+      "stem": "D'acord amb l'article 64 de la Llei 23/2014, quines són les autoritats competents a Espanya per transmetre a un altre Estat membre una resolució per la qual s'imposa una pena privativa de llibertat, quan ja s'ha iniciat el compliment de la condemna?",
+      "options": [
+        "El jutge central penal.",
+        "El Ministeri de Justícia, com a autoritat central.",
+        "El centre directiu de l'Administració penitenciària.",
+        "Els jutges de vigilància penitenciària."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 64.1 atribueix la transmissió als jutges de vigilància penitenciària (i als jutges de menors per a mesures de menors). Si no s'ha iniciat el compliment, és competent el tribunal que va dictar la sentència en primera instància.",
+      "excerpt": "Son autoridades competentes para la transmisión de una resolución por la que se impone una pena o medida privativa de libertad los Jueces de Vigilancia Penitenciaria",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 64.2 Llei 23/2014",
+      "stem": "Segons l'article 64.2 de la Llei 23/2014, quan un altre Estat membre transmet a Espanya una sentència que imposa una pena privativa de llibertat a un adult, qui és competent per reconèixer-la i acordar-ne l'execució?",
+      "options": [
+        "El jutge central penal.",
+        "El jutge central de vigilància penitenciària.",
+        "El jutge de vigilància penitenciària del lloc de residència del condemnat.",
+        "La Sala Penal del Tribunal Suprem."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 64.2 atribueix el reconeixement i l'acord d'execució al jutge central penal. Després, la portarà a terme el jutge central de vigilància penitenciària.",
+      "excerpt": "La autoridad competente para reconocer y acordar la ejecución de una resolución por la que se impone una pena o medida privativa de libertad será el Juez Central de lo Penal. Para llevar a cabo la ejecución de la misma, será competente el Juez Central de Vigilancia Penitenciaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 67.2 Llei 23/2014",
+      "stem": "Segons l'article 67.2 de la Llei 23/2014, en quin dels supòsits següents no cal el consentiment del condemnat per transmetre la resolució que li imposa una pena privativa de llibertat?",
+      "options": [
+        "Quan l'Estat d'execució sigui qualsevol Estat membre on visqui algun familiar del condemnat.",
+        "Quan l'Estat d'execució sigui l'Estat membre que hagi sol·licitat la transmissió.",
+        "Quan l'Estat d'execució sigui l'Estat membre al qual el condemnat s'hagi fugat davant el procés penal obert contra ell a Espanya.",
+        "Quan la pena pendent de compliment sigui superior a cinc anys."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 67.2 c) dispensa del consentiment quan l'Estat d'execució és aquell al qual el condemnat s'ha fugat o ha tornat davant el procés penal obert a Espanya o per haver-hi estat condemnat. Els altres supòsits no hi figuren.",
+      "excerpt": "c) El Estado miembro al que el condenado se haya fugado o haya regresado ante el proceso penal abierto contra él en España o por haber sido condenado en España.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 73.2 Llei 23/2014",
+      "stem": "Segons la Llei 23/2014, quan l'Estat d'execució accepta executar la resolució i el condemnat es troba a Espanya, en quin termini màxim s'ha de fer efectiu el trasllat?",
+      "options": [
+        "Deu dies des que l'Estat d'execució adopta la resolució ferma sobre el reconeixement i l'execució.",
+        "Trenta dies des que l'Estat d'execució adopta la resolució ferma sobre el reconeixement i l'execució.",
+        "Seixanta dies des de la notificació de l'acte de transmissió al condemnat.",
+        "Noranta dies des de la recepció del certificat per l'Estat d'execució."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 73.2 fixa un màxim de trenta dies. Si per circumstàncies imprevistes no és possible, s'acorda una nova data i el trasllat s'ha de fer en un màxim de deu dies des d'aquesta nova data.",
+      "excerpt": "El plazo para hacer efectivo este traslado no podrá superar los treinta días desde la adopción por el Estado de ejecución de la resolución firme sobre el reconocimiento y la ejecución de la resolución por la que se impone una pena o medida privativa de libertad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 85.1 Llei 23/2014",
+      "stem": "D'acord amb l'article 85.1 de la Llei 23/2014, el jutge central penal ha de denegar el reconeixement i l'execució d'una resolució que imposa una pena privativa de llibertat quan, en el moment de rebre-la, la part de la condemna que queda per complir és inferior a:",
+      "options": [
+        "Tres mesos.",
+        "Un any.",
+        "Dos anys.",
+        "Sis mesos."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 85.1 b) preveu la denegació quan la part de condemna pendent és inferior a sis mesos.",
+      "excerpt": "b) Cuando la autoridad judicial española competente constate que, en el momento de recibir la resolución condenatoria, la parte de la condena que queda por cumplir es inferior a seis meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 94 Llei 23/2014",
+      "stem": "Quina de les mesures següents NO figura entre les mesures de llibertat vigilada susceptibles de transmissió i execució en un altre Estat membre segons l'article 94 de la Llei 23/2014?",
+      "options": [
+        "L'obligació de comunicar a una autoritat específica tot canvi de domicili o de lloc de treball.",
+        "L'obligació de fer treballs en benefici de la comunitat.",
+        "L'internament en un centre penitenciari en règim obert.",
+        "L'obligació de sotmetre's a un tractament terapèutic o de deshabituació."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 94 enumera mesures no privatives de llibertat (comunicar canvis de domicili, prohibicions d'entrada, treballs en benefici de la comunitat, tractament terapèutic, etc.). L'internament en un centre penitenciari no hi figura.",
+      "excerpt": "a) La obligación de la persona condenada de comunicar a una autoridad específica todo cambio de domicilio o lugar de trabajo. […] i) La obligación de realizar trabajos en beneficio de la comunidad. […] k) La obligación de someterse a un tratamiento terapéutico o de deshabituación.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

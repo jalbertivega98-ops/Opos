@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "set": "pcat-e04-principals-delictes-cp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 4. Els principals delictes",
+    "topic_slug": "pcat-e04-principals-delictes",
+    "locale": "ca",
+    "category": "pcat_e04_principals_delictes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 153.1 CP",
+      "stem": "Qui, per qualsevol mitjà, colpeja o maltracta d'obra sense causar lesió la dona que és o ha estat la seva esposa o parella, encara que sense convivència, comet el delicte de l'article 153.1 del Codi penal, castigat amb:",
+      "options": [
+        "Presó de tres mesos a un any o treballs en benefici de la comunitat de trenta-un a vuitanta dies i, en tot cas, privació del dret a la tinença i portada d'armes d'un any i un dia a tres anys.",
+        "Presó de sis mesos a tres anys i privació del dret a la tinença i portada d'armes de tres a cinc anys.",
+        "Presó de sis mesos a un any o treballs en benefici de la comunitat de trenta-un a vuitanta dies i, en tot cas, privació del dret a la tinença i portada d'armes d'un any i un dia a tres anys.",
+        "Multa d'un a tres mesos o localització permanent de cinc a trenta dies."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 153.1 CP castiga el maltractament d'obra a la dona parella o exparella (o a una persona especialment vulnerable que hi convisqui) amb presó de sis mesos a un any o TBC de 31 a 80 dies, més la privació del dret a les armes. Si la víctima és una altra persona de l'article 173.2, la presó és de tres mesos a un any (art. 153.2).",
+      "excerpt": "será castigado con la pena de prisión de seis meses a un año o de trabajos en beneficios de la comunidad de treinta y uno a ochenta días y, en todo caso, privación del derecho a la tenencia y porte de armas de un año y un día a tres años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 153.3 CP",
+      "stem": "Segons l'article 153.3 del Codi penal, en quin dels casos següents NO es preveu imposar les penes dels apartats 1 i 2 en la meitat superior?",
+      "options": [
+        "Quan el delicte es perpetri en presència de menors.",
+        "Quan el delicte tingui lloc al domicili comú o al domicili de la víctima.",
+        "Quan el delicte es faci trencant una pena de les previstes a l'article 48 o una mesura cautelar o de seguretat de la mateixa naturalesa.",
+        "Quan el delicte es cometi en un lloc públic."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'article 153.3 CP preveu la meitat superior quan el fet es comet en presència de menors, utilitzant armes, al domicili comú o al de la víctima, o trencant una pena de l'article 48 o una mesura de la mateixa naturalesa. El lloc públic no hi és.",
+      "excerpt": "3. Las penas previstas en los apartados 1 y 2 se impondrán en su mitad superior cuando el delito se perpetre en presencia de menores, o utilizando armas, o tenga lugar en el domicilio común o en el domicilio de la víctima, o se realice quebrantando una pena de las contempladas en el artículo 48 de este Código o una medida cautelar o de seguridad de la misma naturaleza.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 173.2 CP",
+      "stem": "Segons l'article 173.2 del Codi penal, qui exerceix habitualment violència física o psíquica sobre qui sigui o hagi estat el seu cònjuge o sobre altres persones de l'entorn familiar que esmenta el precepte és castigat amb:",
+      "options": [
+        "Presó de sis mesos a tres anys i privació del dret a la tinença i portada d'armes de tres a cinc anys.",
+        "Presó de sis mesos a un any i privació del dret a la tinença i portada d'armes d'un any i un dia a tres anys.",
+        "Presó d'un a quatre anys i inhabilitació absoluta.",
+        "Presó de tres mesos a un any o multa de sis a vint-i-quatre mesos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El maltractament habitual de l'article 173.2 CP es castiga amb presó de sis mesos a tres anys, privació del dret a les armes de tres a cinc anys i, si escau, inhabilitació especial per a la pàtria potestat, sens perjudici de les penes pels actes de violència concrets.",
+      "excerpt": "será castigado con la pena de prisión de seis meses a tres años, privación del derecho a la tenencia y porte de armas de tres a cinco años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 173.3 CP",
+      "stem": "Per apreciar l'habitualitat del delicte de maltractament habitual, l'article 173.3 del Codi penal ordena atendre el nombre d'actes de violència acreditats i la seva proximitat temporal:",
+      "options": [
+        "Sempre que s'acreditin almenys tres actes de violència sobre la mateixa víctima en el termini d'un any.",
+        "Sempre que la violència s'hagi exercit sobre la mateixa víctima.",
+        "Amb independència que la violència s'hagi exercit sobre la mateixa víctima o sobre víctimes diferents de les previstes a l'article i que els actes hagin estat o no objecte d'enjudiciament en processos anteriors.",
+        "Comptant només els actes que no hagin estat objecte d'enjudiciament en processos anteriors."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'article 173.3 CP no fixa cap nombre mínim d'actes: atén el nombre d'actes acreditats i la proximitat temporal, encara que afectin víctimes diferents de l'entorn previst i encara que ja s'hagin jutjat.",
+      "excerpt": "3. Para apreciar la habitualidad a que se refiere el apartado anterior, se atenderá al número de actos de violencia que resulten acreditados, así como a la proximidad temporal de los mismos, con independencia de que dicha violencia se haya ejercido sobre la misma o diferentes víctimas de las comprendidas en este artículo, y de que los actos violentos hayan sido o no objeto de enjuiciamiento en procesos anteriores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 178.1 CP",
+      "stem": "Segons l'article 178.1 del Codi penal, en el delicte d'agressió sexual només s'entén que hi ha consentiment quan:",
+      "options": [
+        "La víctima no s'ha oposat de manera expressa a l'acte.",
+        "S'ha manifestat lliurement mitjançant actes que, ateses les circumstàncies del cas, expressin de manera clara la voluntat de la persona.",
+        "La víctima no ha manifestat cap resistència física.",
+        "La víctima ho ha manifestat per escrit o davant de testimonis."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 178.1 CP castiga amb presó d'un a quatre anys qualsevol acte que atempti contra la llibertat sexual sense consentiment, i defineix el consentiment com la manifestació lliure, per actes, que expressi de manera clara la voluntat de la persona.",
+      "excerpt": "Sólo se entenderá que hay consentimiento cuando se haya manifestado libremente mediante actos que, en atención a las circunstancias del caso, expresen de manera clara la voluntad de la persona.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 180.3 CP",
+      "stem": "En les agressions sexuals del capítol I del títol VIII del Codi penal, quan el culpable s'ha prevalgut de la seva condició d'autoritat, agent d'aquesta o funcionari públic, l'article 180.3 disposa que s'imposa, a més:",
+      "options": [
+        "La pena d'inhabilitació absoluta de vuit a dotze anys.",
+        "La pena d'inhabilitació especial per a ocupació o càrrec públic de dos a quatre anys.",
+        "La pena de suspensió d'ocupació o càrrec públic de tres mesos a sis anys.",
+        "La pena d'inhabilitació absoluta de sis a dotze anys."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'article 180.3 CP afegeix, en tots els casos del capítol, la inhabilitació absoluta de sis a dotze anys. La de vuit a dotze anys correspon a la tortura (art. 174.1).",
+      "excerpt": "3. En todos los casos previstos en este capítulo, cuando el culpable se hubiera prevalido de su condición de autoridad, agente de ésta o funcionario público, se impondrá, además, la pena de inhabilitación absoluta de seis a doce años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 138.1 CP",
+      "stem": "Segons l'article 138.1 del Codi penal, qui mata una altra persona és castigat, com a reu d'homicidi, amb la pena de presó de:",
+      "options": [
+        "Quinze a vint-i-cinc anys.",
+        "Deu a quinze anys.",
+        "Un a quatre anys.",
+        "Vuit a dotze anys."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'homicidi dolós es castiga amb presó de deu a quinze anys (art. 138.1). L'assassinat, amb presó de quinze a vint-i-cinc anys (art. 139) i l'homicidi per imprudència greu, amb presó d'un a quatre anys (art. 142.1).",
+      "excerpt": "1. El que matare a otro será castigado, como reo de homicidio, con la pena de prisión de diez a quince años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 139.1 CP",
+      "stem": "Quina de les circumstàncies següents NO converteix la mort d'una altra persona en assassinat segons l'article 139.1 del Codi penal?",
+      "options": [
+        "Que es mati amb alevosia.",
+        "Que es mati per preu, recompensa o promesa.",
+        "Que la víctima sigui una autoritat o un agent seu en l'exercici de les seves funcions.",
+        "Que es mati amb acarnissament, augmentant deliberadament i inhumanament el dolor de l'ofès."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les circumstàncies de l'assassinat són alevosia, preu, recompensa o promesa, acarnissament i matar per facilitar la comissió d'un altre delicte o per evitar que es descobreixi. Si l'homicidi constitueix també atemptat de l'article 550, s'imposa la pena superior en grau de l'homicidi (art. 138.2.b), però no és assassinat.",
+      "excerpt": "1.ª Con alevosía. 2.ª Por precio, recompensa o promesa. 3.ª Con ensañamiento, aumentando deliberada e inhumanamente el dolor del ofendido. 4.ª Para facilitar la comisión de otro delito o para evitar que se descubra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 142.1 CP",
+      "stem": "Segons l'article 142.1 del Codi penal, qui per imprudència greu causa la mort d'una altra persona és castigat, com a reu d'homicidi imprudent, amb:",
+      "options": [
+        "Multa de tres a divuit mesos.",
+        "Presó de deu a quinze anys en la meitat inferior.",
+        "Presó de sis mesos a dos anys.",
+        "Presó d'un a quatre anys."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'homicidi per imprudència greu es castiga amb presó d'un a quatre anys; el comès per imprudència menys greu, amb multa de tres a divuit mesos (art. 142.2).",
+      "excerpt": "1. El que por imprudencia grave causare la muerte de otro, será castigado, como reo de homicidio imprudente, con la pena de prisión de uno a cuatro años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 234.1 CP",
+      "stem": "Segons l'article 234.1 del Codi penal, el furt és castigat amb la pena de presó de sis a divuit mesos quan la quantia del que s'ha sostret:",
+      "options": [
+        "Excedeix de 400 euros.",
+        "Excedeix de 300 euros.",
+        "Excedeix de 1.000 euros.",
+        "Excedeix de 600 euros."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El furt de més de 400 euros es castiga amb presó de sis a divuit mesos; si no excedeix de 400 euros, amb multa d'un a tres mesos, llevat que concorri alguna circumstància de l'article 235 (art. 234.2).",
+      "excerpt": "será castigado, como reo de hurto, con la pena de prisión de seis a dieciocho meses si la cuantía de lo sustraído excediese de 400 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 238 CP",
+      "stem": "Quina de les circumstàncies següents NO és una de les que caracteritzen el robatori amb força en les coses segons l'article 238 del Codi penal?",
+      "options": [
+        "La intimidació en les persones.",
+        "L'escalament.",
+        "L'ús de claus falses.",
+        "La inutilització de sistemes específics d'alarma o guarda."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 238 CP enumera escalament, rompiment de paret, sostre o terra o fractura de porta o finestra, fractura de mobles o objectes tancats, ús de claus falses i inutilització de sistemes d'alarma o guarda. La violència o intimidació en les persones caracteritza l'altra modalitat de robatori (arts. 237 i 242).",
+      "excerpt": "1.º Escalamiento. 2.º Rompimiento de pared, techo o suelo, o fractura de puerta o ventana. 3.º Fractura de armarios, arcas u otra clase de muebles u objetos cerrados o sellados, o forzamiento de sus cerraduras o descubrimiento de sus claves para sustraer su contenido, sea en el lugar del robo o fuera del mismo. 4.º Uso de llaves falsas. 5.º Inutilización de sistemas específicos de alarma o guarda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 242.1 CP",
+      "stem": "Segons l'article 242.1 del Codi penal, el culpable de robatori amb violència o intimidació en les persones és castigat amb la pena de presó de:",
+      "options": [
+        "Un a tres anys.",
+        "Tres anys i sis mesos a cinc anys.",
+        "Dos a sis anys.",
+        "Dos a cinc anys, sens perjudici de la que pugui correspondre als actes de violència física que dugui a terme."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El robatori amb violència o intimidació es castiga amb presó de dos a cinc anys (art. 242.1); si es comet en casa habitada o local obert al públic, de tres anys i sis mesos a cinc anys (art. 242.2). El robatori amb força en les coses es castiga amb presó d'un a tres anys (art. 240.1).",
+      "excerpt": "1. El culpable de robo con violencia o intimidación en las personas será castigado con la pena de prisión de dos a cinco años, sin perjuicio de la que pudiera corresponder a los actos de violencia física que realizase.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 368 CP",
+      "stem": "Segons l'article 368 del Codi penal, el tràfic de drogues tòxiques, estupefaents o substàncies psicotròpiques que causen greu dany a la salut és castigat amb:",
+      "options": [
+        "Presó d'un a tres anys i multa del tant al doble del valor de la droga.",
+        "Presó de sis a nou anys i multa del tant al quàdruple del valor de la droga.",
+        "Presó de tres a sis anys i multa del tant al triple del valor de la droga objecte del delicte.",
+        "Presó de quatre anys i sis mesos a deu anys i multa del tant al triple del valor de la droga."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 368 CP distingeix entre substàncies que causen greu dany a la salut (presó de tres a sis anys i multa del tant al triple) i la resta (presó d'un a tres anys i multa del tant al doble).",
+      "excerpt": "serán castigados con las penas de prisión de tres a seis años y multa del tanto al triplo del valor de la droga objeto del delito si se tratare de sustancias o productos que causen grave daño a la salud",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 369.1.7a CP",
+      "stem": "Segons l'article 369.1 del Codi penal, quan les conductes de tràfic de drogues de l'article 368 tenen lloc en un establiment penitenciari o en les seves proximitats:",
+      "options": [
+        "S'imposen les penes de l'article 368 en la meitat superior.",
+        "S'imposen les penes superiors en grau a les de l'article 368 i multa del tant al quàdruple.",
+        "S'imposa la pena superior en dos graus a la de l'article 368.",
+        "No hi ha cap agreujament específic per aquest motiu."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 369.1.7a CP agreuja el tràfic de drogues comès en centres docents, militars, establiments penitenciaris o centres de deshabituació, o en les seves proximitats, amb la pena superior en grau i multa del tant al quàdruple.",
+      "excerpt": "1. Se impondrán las penas superiores en grado a las señaladas en el artículo anterior y multa del tanto al cuádruplo cuando concurran alguna de las siguientes circunstancias: […] 7.ª Las conductas descritas en el artículo anterior tengan lugar en centros docentes, en centros, establecimientos o unidades militares, en establecimientos penitenciarios o en centros de deshabituación o rehabilitación, o en sus proximidades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 174 CP",
+      "stem": "Segons l'article 174 del Codi penal, a més de la pena de presó, al culpable de tortura (inclosa la comesa per una autoritat o funcionari d'institucions penitenciàries respecte d'interns o presos) se li imposa en tot cas:",
+      "options": [
+        "La pena d'inhabilitació especial per a ocupació o càrrec públic de dos a quatre anys.",
+        "La pena d'inhabilitació absoluta de sis a dotze anys.",
+        "La pena d'inhabilitació absoluta de vuit a dotze anys.",
+        "La pena de suspensió d'ocupació o càrrec públic de sis mesos a dos anys."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La tortura es castiga amb presó de dos a sis anys si l'atemptat és greu i d'un a tres anys si no ho és, i en tot cas amb inhabilitació absoluta de vuit a dotze anys (art. 174.1). L'apartat 2 estén aquestes penes a l'autoritat o funcionari d'institucions penitenciàries. La inhabilitació especial de dos a quatre anys és la de l'article 175.",
+      "excerpt": "Además de las penas señaladas se impondrá, en todo caso, la pena de inhabilitación absoluta de ocho a 12 años. 2. En las mismas penas incurrirán, respectivamente, la autoridad o funcionario de instituciones penitenciarias o de centros de protección o corrección de menores que cometiere, respecto de detenidos, internos o presos, los actos a que se refiere el apartado anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 176 CP",
+      "stem": "L'autoritat o el funcionari que, faltant als deures del seu càrrec, permet que altres persones executin actes de tortura o contra la integritat moral de les persones, segons l'article 176 del Codi penal:",
+      "options": [
+        "Incorre en les penes establertes respectivament en els articles precedents per a aquests fets.",
+        "Incorre en la pena inferior en grau a la prevista per als autors materials.",
+        "Només pot ser sancionat disciplinàriament.",
+        "Incorre únicament en la pena d'inhabilitació especial per a ocupació o càrrec públic."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 176 CP castiga amb les mateixes penes dels articles 174 i 175 l'autoritat o funcionari que, faltant als deures del seu càrrec, permet que altres executin aquests fets.",
+      "excerpt": "Se impondrán las penas respectivamente establecidas en los artículos precedentes a la autoridad o funcionario que, faltando a los deberes de su cargo, permitiere que otras personas ejecuten los hechos previstos en ellos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 550.2 CP",
+      "stem": "Segons l'article 550.2 del Codi penal, l'atemptat contra un funcionari públic que no té la condició d'autoritat es castiga amb la pena de:",
+      "options": [
+        "Presó d'un a quatre anys i multa de tres a sis mesos.",
+        "Presó de sis mesos a tres anys.",
+        "Presó d'un a sis anys i multa de sis a dotze mesos.",
+        "Presó de tres mesos a un any o multa de sis a divuit mesos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'atemptat contra l'autoritat es castiga amb presó d'un a quatre anys i multa de tres a sis mesos, i en els altres casos (agents i funcionaris públics), amb presó de sis mesos a tres anys (art. 550.2). Per a determinades autoritats (art. 550.3), la presó és d'un a sis anys i la multa de sis a dotze mesos. La resistència o desobediència greus de l'article 556 es castiguen amb presó de tres mesos a un any o multa de sis a divuit mesos.",
+      "excerpt": "2. Los atentados serán castigados con las penas de prisión de uno a cuatro años y multa de tres a seis meses si el atentado fuera contra autoridad y de prisión de seis meses a tres años en los demás casos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 551.4 CP",
+      "stem": "Segons l'article 551 del Codi penal, quina conseqüència té que l'atemptat es cometi amb ocasió d'un motí, plante o incident col·lectiu a l'interior d'un centre penitenciari?",
+      "options": [
+        "S'imposen les penes de l'article 550 en la meitat superior.",
+        "S'imposen les penes inferiors en grau, perquè es tracta d'un fet col·lectiu.",
+        "No té conseqüències específiques; s'aplica l'agreujant genèrica d'abús de superioritat.",
+        "S'imposen les penes superiors en grau a les previstes a l'article 550."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 551 CP preveu les penes superiors en grau quan l'atemptat es comet amb armes o objectes perillosos, amb actes potencialment perillosos per a la vida, amb un vehicle de motor o amb ocasió d'un motí, plante o incident col·lectiu a l'interior d'un centre penitenciari.",
+      "excerpt": "Se impondrán las penas superiores en grado a las respectivamente previstas en el artículo anterior siempre que el atentado se cometa: […] 4.º Cuando los hechos se lleven a cabo con ocasión de un motín, plante o incidente colectivo en el interior de un centro penitenciario.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

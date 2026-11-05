@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-g5-funcio-publica-cp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 5. La funció pública: drets i deures, situacions, provisió, incompatibilitats i règim disciplinari",
+    "topic_slug": "pcat-g5-funcio-publica",
+    "locale": "ca",
+    "category": "pcat_g5_funcio_publica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 413 CP",
+      "stem": "Segons el Codi penal, l'autoritat o funcionari públic que, sabent-ho, sostreu, destrueix, inutilitza o oculta, totalment o parcialment, documents la custòdia dels quals li està encomanada per raó del seu càrrec, incorre en la pena de:",
+      "options": [
+        "Presó de sis mesos a un any o multa de sis a vint-i-quatre mesos i inhabilitació especial d'un a tres anys.",
+        "Multa de sis a dotze mesos i inhabilitació especial per a ocupació o càrrec públic d'un a tres anys.",
+        "Presó d'un a quatre anys, multa de set a vint-i-quatre mesos i inhabilitació especial per a ocupació o càrrec públic de tres a sis anys.",
+        "Presó de dos a quatre anys, multa de dotze a divuit mesos i suspensió d'ocupació o càrrec públic d'un a tres anys."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 413 CP castiga la infidelitat en la custòdia de documents amb presó d'1 a 4 anys, multa de 7 a 24 mesos i inhabilitació especial de 3 a 6 anys. Les altres penes corresponen als arts. 414.1 (destrucció dels mitjans que impedeixen l'accés), 415 (accés a documents secrets) i 417.2 (revelació de secrets d'un particular).",
+      "excerpt": "La autoridad o funcionario público que, a sabiendas, sustrajere, destruyere, inutilizare u ocultare, total o parcialmente, documentos cuya custodia le esté encomendada por razón de su cargo, incurrirá en las penas de prisión de uno a cuatro años, multa de siete a veinticuatro meses, e inhabilitación especial para empleo o cargo público por tiempo de tres a seis años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 417.1 CP",
+      "stem": "D'acord amb el Codi penal, si de la revelació per part d'un funcionari públic de secrets o informacions coneguts per raó del seu càrrec, que no s'han de divulgar, en resulta un dany greu per a la causa pública o per a un tercer, la pena és de:",
+      "options": [
+        "Multa de dotze a divuit mesos i inhabilitació especial per a ocupació o càrrec públic d'un a tres anys.",
+        "Presó d'un a tres anys i inhabilitació especial per a ocupació o càrrec públic de tres a cinc anys.",
+        "Presó de dos a quatre anys i suspensió d'ocupació o càrrec públic d'un a tres anys.",
+        "Presó de tres a sis anys i inhabilitació absoluta de sis a dotze anys."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 417.1 CP castiga la revelació de secrets o informacions amb multa de 12 a 18 mesos i inhabilitació especial d'1 a 3 anys; si en resulta un dany greu per a la causa pública o per a un tercer, la pena és de presó d'1 a 3 anys i inhabilitació especial de 3 a 5 anys.",
+      "excerpt": "Si de la revelación a que se refiere el párrafo anterior resultara grave daño para la causa pública o para tercero, la pena será de prisión de uno a tres años, e inhabilitación especial para empleo o cargo público por tiempo de tres a cinco años.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

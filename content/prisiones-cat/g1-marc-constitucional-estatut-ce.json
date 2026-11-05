@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "set": "pcat-g1-marc-constitucional-estatut-ce-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 1. Marc constitucional, Estatut d'autonomia, Govern i president de la Generalitat",
+    "topic_slug": "pcat-g1-marc-constitucional-estatut",
+    "locale": "ca",
+    "category": "pcat_g1_marc_constitucional_estatut",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 CE",
+      "stem": "Segons l'article 1.1 de la Constitució espanyola, quins són els valors superiors de l'ordenament jurídic que propugna l'Estat social i democràtic de dret?",
+      "options": [
+        "La llibertat, la seguretat, la igualtat i la solidaritat.",
+        "La dignitat de la persona, la justícia, la igualtat i el pluralisme polític.",
+        "La llibertat, la justícia, la igualtat i el pluralisme polític.",
+        "La llibertat, la justícia, la solidaritat i l'autonomia de les nacionalitats."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 1.1 CE enumera quatre valors superiors: llibertat, justícia, igualtat i pluralisme polític. La dignitat de la persona és fonament de l'ordre polític (art. 10.1 CE) i la solidaritat i l'autonomia apareixen a l'art. 2 CE, però no són valors superiors.",
+      "excerpt": "España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.3 CE",
+      "stem": "Quin dels principis següents NO és esmentat a l'article 9.3 de la Constitució espanyola entre els que la Constitució garanteix?",
+      "options": [
+        "La interdicció de l'arbitrarietat dels poders públics.",
+        "La publicitat de les normes.",
+        "La seguretat jurídica.",
+        "El principi de proporcionalitat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 9.3 CE garanteix la legalitat, la jerarquia normativa, la publicitat de les normes, la irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets individuals, la seguretat jurídica, la responsabilitat i la interdicció de l'arbitrarietat dels poders públics. La proporcionalitat no hi figura.",
+      "excerpt": "La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad de los poderes públicos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2 CE",
+      "stem": "D'acord amb l'article 17.2 de la Constitució espanyola, quin és el termini màxim en què el detingut ha de ser posat en llibertat o a disposició de l'autoritat judicial?",
+      "options": [
+        "Setanta-dues hores.",
+        "Vint-i-quatre hores.",
+        "Quaranta-vuit hores.",
+        "Cinc dies."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La detenció preventiva no pot durar més del temps estrictament necessari per fer les averiguacions i, en tot cas, en el termini màxim de 72 hores el detingut ha de ser posat en llibertat o a disposició judicial (art. 17.2 CE).",
+      "excerpt": "en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24.2 CE",
+      "stem": "Quin dels drets següents NO es troba entre els que reconeix l'article 24.2 de la Constitució espanyola?",
+      "options": [
+        "El dret al jutge ordinari predeterminat per la llei.",
+        "El dret a ser jutjat, en tot cas, per un tribunal del jurat.",
+        "El dret a no declarar contra si mateix i a no confessar-se culpable.",
+        "El dret a un procés públic sense dilacions indegudes i amb totes les garanties."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 24.2 CE reconeix, entre d'altres, el dret al jutge ordinari predeterminat per la llei, a un procés públic sense dilacions indegudes, a no declarar contra si mateix, a no confessar-se culpable i a la presumpció d'innocència. No reconeix un dret a ser jutjat en tot cas per un jurat.",
+      "excerpt": "todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para su defensa, a no declarar contra sí mismos, a no confesarse culpables y a la presunción de inocencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.1 CE",
+      "stem": "Segons l'article 53.1 de la Constitució espanyola, l'exercici dels drets i llibertats reconeguts al capítol segon del títol I:",
+      "options": [
+        "Es pot regular per reial decret, sempre que en respecti el contingut essencial.",
+        "Només es pot regular per una llei aprovada per majoria de tres cinquenes parts del Congrés.",
+        "Es pot regular per llei o per reglament, segons el que determini el Govern.",
+        "Només es pot regular per llei, que n'ha de respectar en tot cas el contingut essencial."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els drets del capítol segon del títol I vinculen tots els poders públics i el seu exercici només es pot regular per llei, que n'ha de respectar el contingut essencial; es tutelen d'acord amb l'art. 161.1.a (recurs d'inconstitucionalitat) (art. 53.1 CE).",
+      "excerpt": "Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.2 CE",
+      "stem": "Segons l'article 53.2 de la Constitució espanyola, a més dels drets de l'article 14 i de la secció primera del capítol segon, el recurs d'empara davant el Tribunal Constitucional també és aplicable a:",
+      "options": [
+        "L'objecció de consciència reconeguda a l'article 30.",
+        "El dret al treball reconegut a l'article 35.",
+        "El dret de propietat privada reconegut a l'article 33.",
+        "El dret a gaudir d'un habitatge digne reconegut a l'article 47."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 53.2 CE preveu la tutela de l'art. 14 i de la secció primera del capítol segon per un procediment preferent i sumari i, si escau, pel recurs d'empara, que també és aplicable a l'objecció de consciència de l'art. 30 CE.",
+      "excerpt": "Este último recurso será aplicable a la objeción de conciencia reconocida en el artículo 30.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.3 CE",
+      "stem": "Segons l'article 53.3 de la Constitució espanyola, els principis reconeguts al capítol tercer del títol I (principis rectors de la política social i econòmica):",
+      "options": [
+        "Es poden tutelar mitjançant el recurs d'empara davant el Tribunal Constitucional.",
+        "Es poden al·legar directament davant qualsevol jutge o tribunal, sense necessitat de desplegament legal.",
+        "Només es poden al·legar davant la jurisdicció ordinària d'acord amb el que disposin les lleis que els desenvolupin.",
+        "Només es poden desenvolupar per llei orgànica."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El reconeixement, el respecte i la protecció dels principis del capítol tercer informen la legislació positiva, la pràctica judicial i l'actuació dels poders públics, però només es poden al·legar davant la jurisdicció ordinària d'acord amb les lleis que els desenvolupin (art. 53.3 CE).",
+      "excerpt": "Sólo podrán ser alegados ante la Jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 55.1 CE",
+      "stem": "Segons l'article 55.1 de la Constitució espanyola, quin dels drets següents NO es pot suspendre quan s'acorda la declaració de l'estat d'excepció o de setge?",
+      "options": [
+        "El dret a escollir lliurement la residència i a circular pel territori nacional de l'article 19.",
+        "El dret a la tutela judicial efectiva de l'article 24.",
+        "El dret de reunió de l'article 21.",
+        "La inviolabilitat del domicili de l'article 18.2."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 55.1 CE permet suspendre, en l'estat d'excepció o de setge, els drets dels arts. 17, 18.2 i 18.3, 19, 20.1.a i d i 20.5, 21, 28.2 i 37.2. L'art. 24 no hi figura.",
+      "excerpt": "Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuando se acuerde la declaración del estado de excepción o de sitio en los términos previstos en la Constitución.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 54 CE",
+      "stem": "Segons l'article 54 de la Constitució espanyola, el Defensor del Poble és:",
+      "options": [
+        "Un òrgan del Govern encarregat de supervisar l'activitat de l'Administració.",
+        "Un alt comissionat de les Corts Generals, designat per aquestes per a la defensa dels drets del títol I.",
+        "Un alt comissionat del Consell General del Poder Judicial per a la defensa dels drets fonamentals.",
+        "Un òrgan del Tribunal Constitucional encarregat de tramitar els recursos d'empara."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 54 CE remet a una llei orgànica la regulació del Defensor del Poble com a alt comissionat de les Corts Generals, designat per aquestes per defensar els drets del títol I; pot supervisar l'activitat de l'Administració i en dona compte a les Corts.",
+      "excerpt": "Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 159.1 CE",
+      "stem": "Segons l'article 159.1 de la Constitució espanyola, quants dels membres del Tribunal Constitucional es nomenen a proposta del Consell General del Poder Judicial?",
+      "options": [
+        "Quatre.",
+        "Tres.",
+        "Cap: tots es nomenen a proposta de les cambres i del Govern.",
+        "Dos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El TC té 12 membres nomenats pel Rei: quatre a proposta del Congrés i quatre del Senat (per majoria de tres cinquenes parts), dos a proposta del Govern i dos a proposta del Consell General del Poder Judicial (art. 159.1 CE).",
+      "excerpt": "cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 159.3 CE",
+      "stem": "D'acord amb l'article 159.3 de la Constitució espanyola, per a quin període es designen els membres del Tribunal Constitucional?",
+      "options": [
+        "Per un període de dotze anys, i es renoven per meitats cada sis anys.",
+        "Per un període de sis anys, i es renoven per terceres parts cada dos anys.",
+        "Per un període de nou anys, i es renoven per terceres parts cada tres anys.",
+        "Per un període de nou anys, i es renoven íntegrament en acabar el mandat."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els magistrats del TC es designen per nou anys i el Tribunal es renova per terceres parts cada tres anys (art. 159.3 CE). El president és nomenat per tres anys (art. 160 CE).",
+      "excerpt": "Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 162.1.b CE",
+      "stem": "Segons l'article 162.1.b de la Constitució espanyola, qui està legitimat per interposar el recurs d'empara?",
+      "options": [
+        "Tota persona natural o jurídica que invoqui un interès legítim, i també el Defensor del Poble i el Ministeri Fiscal.",
+        "Només la persona directament afectada per la vulneració i el Ministeri Fiscal.",
+        "El president del Govern, el Defensor del Poble, 50 diputats i 50 senadors.",
+        "Tota persona natural que invoqui un interès legítim i els òrgans col·legiats executius de les comunitats autònomes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La legitimació per al recurs d'empara correspon a tota persona natural o jurídica que invoqui un interès legítim, al Defensor del Poble i al Ministeri Fiscal (art. 162.1.b CE). La llista del president del Govern, 50 diputats i 50 senadors correspon al recurs d'inconstitucionalitat (art. 162.1.a CE).",
+      "excerpt": "Para interponer el recurso de amparo, toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

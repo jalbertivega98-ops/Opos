@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "pcat-e09-marc-sistema-penitenciari-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 9. Marc legal i principis del sistema penitenciari",
+    "topic_slug": "pcat-e09-marc-sistema-penitenciari",
+    "locale": "ca",
+    "category": "pcat_e09_marc_sistema_penitenciari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 LOGP",
+      "stem": "D'acord amb l'article 1 de la Llei orgànica 1/1979, general penitenciària (LOGP), quina és la finalitat primordial de les institucions penitenciàries?",
+      "options": [
+        "La retenció i custòdia de detinguts, presos i penats, i, de manera subsidiària, la seva reeducació.",
+        "La reeducació i la reinserció social dels sentenciats a penes i mesures penals privatives de llibertat, així com la retenció i custòdia de detinguts, presos i penats.",
+        "L'execució de les sentències penals i la protecció de la societat davant els delinqüents.",
+        "L'assistència social als interns, als alliberats i a les seves famílies."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 1 LOGP fixa com a fi primordial la reeducació i la reinserció social dels sentenciats, així com la retenció i custòdia de detinguts, presos i penats.",
+      "excerpt": "Las instituciones penitenciarias reguladas en la presente Ley tienen como fin primordial la reeducación y la reinserción social de los sentenciados a penas y medidas penales privativas de libertad, así como la retención y custodia de detenidos, presos y penados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1 LOGP",
+      "stem": "A més de la seva finalitat primordial, segons l'article 1 de la LOGP, què tenen igualment al seu càrrec les institucions penitenciàries?",
+      "options": [
+        "La vigilància de les persones en llibertat condicional.",
+        "La protecció i tutela dels menors infractors.",
+        "Una tasca assistencial i d'ajuda per a interns i alliberats.",
+        "L'execució de les penes de multa i de treballs en benefici de la comunitat."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El segon paràgraf de l'art. 1 LOGP afegeix que les institucions penitenciàries tenen a càrrec seu una tasca assistencial i d'ajuda per a interns i alliberats.",
+      "excerpt": "Igualmente tienen a su cargo una labor asistencial y de ayuda para internos y liberados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 LOGP",
+      "stem": "Segons l'article 2 de la LOGP, l'activitat penitenciària s'ha de desenvolupar amb les garanties i dins dels límits establerts per:",
+      "options": [
+        "La Llei, els reglaments i les sentències judicials.",
+        "La Constitució i la llei.",
+        "La Constitució, l'Estatut d'autonomia i les lleis.",
+        "Les lleis i les instruccions del centre directiu."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 2 LOGP parla de la Llei, els reglaments i les sentències judicials. La fórmula «la Constitució i la llei» és la de l'art. 3.1 del Reglament penitenciari, no la de la LOGP.",
+      "excerpt": "La actividad penitenciaria se desarrollará con las garantías y dentro de los límites establecidos por la Ley, los reglamentos y las sentencias judiciales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 LOGP",
+      "stem": "Segons l'article 3 de la LOGP, l'activitat penitenciària s'ha d'exercir respectant, en tot cas:",
+      "options": [
+        "Els drets dels reclosos, llevat que el director o directora del centre els limiti per raons de seguretat.",
+        "Només els drets fonamentals dels reclosos penats, però no els dels preventius.",
+        "Els drets dels reclosos que siguin compatibles amb les normes de règim interior.",
+        "La personalitat humana dels reclosos i els seus drets i interessos jurídics no afectats per la condemna."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 3 LOGP imposa el respecte a la personalitat humana dels reclosos i als seus drets i interessos jurídics no afectats per la condemna, sense cap diferència per raó de raça, opinions polítiques, creences religioses, condició social o altres circumstàncies anàlogues.",
+      "excerpt": "La actividad penitenciaria se ejercerá respetando, en todo caso, la personalidad humana de los recluidos y los derechos e intereses jurídicos de los mismos no afectados por la condena",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5 LOGP",
+      "stem": "D'acord amb l'article 5 de la LOGP, quin principi ha de presidir el règim penitenciari dels preventius?",
+      "options": [
+        "El principi d'individualització científica.",
+        "El principi de presumpció d'innocència.",
+        "El principi de legalitat.",
+        "El principi d'oportunitat."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 5 LOGP diu que el règim de presó preventiva té per objecte retenir l'intern a disposició de l'autoritat judicial i que l'ha de presidir el principi de presumpció d'innocència.",
+      "excerpt": "El régimen de prisión preventiva tiene por objeto retener al interno a disposición de la autoridad judicial. El principio de la presunción de inocencia presidirá el régimen penitenciario de los preventivos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

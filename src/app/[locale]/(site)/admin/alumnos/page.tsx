@@ -9,7 +9,7 @@ import { PAGE_SIZE, listUsers, userFilterSchema } from "@/lib/admin/users";
 
 export const metadata: Metadata = { title: "Alumnos", robots: { index: false } };
 
-const selectCls = "border-input bg-background h-11 rounded-lg border px-3 text-sm";
+const selectCls = "min-w-0 border-input bg-background h-11 rounded-lg border px-3 text-sm";
 
 export default async function AdminUsersPage({
   params,
@@ -61,7 +61,7 @@ export default async function AdminUsersPage({
           type="search"
           defaultValue={filter.q}
           placeholder={t("search")}
-          className="border-input bg-background h-11 rounded-lg border px-3"
+          className="border-input bg-background h-11 min-w-0 rounded-lg border px-3"
         />
         <label htmlFor="status" className="sr-only">
           {t("allStatus")}

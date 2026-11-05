@@ -177,11 +177,18 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Motivo:** no prometer ni planificar pruebas que el examen real no tiene.
 **Consecuencias:** al añadir una oposición hay que decidir si va en la lista según su convocatoria. La sección general /psicotecnicos sigue abierta para todos.
 
+## ADR-032 · Prisiones de Cataluña: oposición autonómica en catalán (2026-11-05)
+
+**Decisión:** a petición de joel («Hazla tambn y añade la»), se añade el cos tècnic d'especialistes, escala de serveis penitenciaris de la Generalitat (C1), con la convocatoria JU033 (Resolució JUS/2335/2025, DOGC 9439) como referencia. No es Ayudantes de II.PP. del Estado: en Cataluña las prisiones están transferidas. Las preguntas y fichas se redactan en **catalán** (locale `ca`), como el examen; la cita `X:` queda literal en el idioma de la norma (castellano en el BOE, catalán en DOGC y circulares). Prefijos `pcat-` (test de coneixements, 25 temas) y `pcatsup-` (supòsit pràctic, 3 bloques de casos). 595 preguntas y 25 fichas; 4 con nota de duda quedan en borrador.
+**Motivo:** el examen real es en catalán y mezcla normativa estatal (LOGP, RP, CP, LECrim) con la propia de la Generalitat (Decret 329/2006, circulares de Justícia, RisCanvi).
+**Consecuencias:** dos simulacros con el formato oficial: 60 preguntas (−1/4, nota 0-15, mínimo 7,5) y 25 de supuesto (−1/4, nota 0-20, mínimo 10). No hay psicotécnico puntuable, así que no entra en `examHasPsycho`. El simulacro de 60 reparte 15 preguntas de la parte general y 45 de la específica con `config.quotas` (ADR-033). Las webs de gencat bloquean robots: se leyeron en el Chrome de joel.
+
 ## ADR-033 · Simulacros calcados a los exámenes reales: cupos por tema y cortes reales (2026-11-05)
 
 **Decisión:** joel pidió revisar «oposición por oposición… lo que realmente ha entrado» para que los alumnos practiquen con eso. Se leyeron los exámenes oficiales publicados de cada oposición (informes en `/mnt/project-files/aprobia/examenes-reales/`) y:
+
 - Nuevo `config.quotas` en los simulacros normales (`[{topic_prefix, questions}]`, migración `20261105000100_mock_quotas`): saca de cada tema el número de preguntas del examen real, sin repetir, y baraja el orden. Los simulacros por partes admiten hasta 60 entradas para repartir tema a tema.
 - Cortes reales donde el nuestro engañaba: Policía Nacional 7 sobre 10 (corte 2026: 7,05) y Administrativo parte 1, 23 sobre 50.
 - Simulacros nuevos: segunda parte de Administrativo (tipo supuesto, corte 33/50), ofimática de Tramitación (tercer ejercicio, 20 preguntas, mínimo 10) y completo de Policía Nacional (temas 1-45).
-**Motivo:** el sorteo uniforme por prefijo sobrerrepresentaba temas que apenas caen (p. ej. organización en Tramitación) y un aprobado en 5 daba falsa seguridad.
-**Consecuencias:** los repartos son la media de los exámenes publicados (en Guardia Civil y Policía Nacional, una estimación porque no se publican los cuadernillos) y hay que revisarlos con cada convocatoria. Cada cupo exige preguntas publicadas suficientes (`mock_quotas_ready`). No se reproducen los casos prácticos con enunciado común, las rejillas de ortografía de Guardia Civil ni las preguntas de reserva.
+  **Motivo:** el sorteo uniforme por prefijo sobrerrepresentaba temas que apenas caen (p. ej. organización en Tramitación) y un aprobado en 5 daba falsa seguridad.
+  **Consecuencias:** los repartos son la media de los exámenes publicados (en Guardia Civil y Policía Nacional, una estimación porque no se publican los cuadernillos) y hay que revisarlos con cada convocatoria. Cada cupo exige preguntas publicadas suficientes (`mock_quotas_ready`). No se reproducen los casos prácticos con enunciado común, las rejillas de ortografía de Guardia Civil ni las preguntas de reserva.

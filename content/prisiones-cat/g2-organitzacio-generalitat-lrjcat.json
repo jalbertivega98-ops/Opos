@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "set": "pcat-g2-organitzacio-generalitat-lrjcat-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 2. Organització de l'Administració de la Generalitat i departaments",
+    "topic_slug": "pcat-g2-organitzacio-generalitat",
+    "locale": "ca",
+    "category": "pcat_g2_organitzacio_generalitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 26/2010, de 3 de agosto, de régimen jurídico y de procedimiento de las administraciones públicas de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-13313",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 6.1 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, de règim jurídic i de procediment de les administracions públiques de Catalunya, la competència:",
+      "options": [
+        "És renunciable si l'òrgan no disposa de mitjans per exercir-la.",
+        "Es pot transferir lliurement a qualsevol altre òrgan de la mateixa administració.",
+        "És irrenunciable i l'han d'exercir de forma precisa els òrgans que la tenen atribuïda com a pròpia, llevat dels casos de delegació o avocació.",
+        "És irrenunciable, i per això no es pot delegar ni avocar en cap cas."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La competència és irrenunciable i l'han d'exercir de forma precisa els òrgans que la tenen atribuïda com a pròpia, llevat dels casos de delegació o d'avocació fets en els termes legals (art. 6.1 Llei 26/2010).",
+      "excerpt": "La competencia es irrenunciable y debe ser ejercida de forma precisa por los órganos administrativos que la tienen atribuida como propia, salvo en los casos de delegación o de avocación, cuando se efectúen en los términos establecidos por esta u otras leyes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8 Llei 26/2010",
+      "stem": "Segons l'article 8 de la Llei 26/2010, quina de les competències següents NO es pot delegar?",
+      "options": [
+        "La competència atribuïda a un òrgan col·legiat que requereixi un quòrum especial, si la delegació s'adopta amb aquest quòrum.",
+        "La competència per resoldre un procediment administratiu concret, si encara no s'hi ha emès cap dictamen o informe preceptiu.",
+        "Una competència de caràcter general, no limitada a un procediment concret.",
+        "L'adopció de disposicions reglamentàries."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "No es poden delegar les competències relatives a l'adopció de disposicions reglamentàries, a la resolució de recursos en els òrgans que han dictat els actes recorreguts, a les que s'exerceixen per delegació (llevat que una llei ho autoritzi) i a les matèries que determini una norma amb rang de llei (art. 8.3). La delegació pot ser general o per a un procediment concret (art. 8.2) i la d'òrgans col·legiats requereix el mateix quòrum especial (art. 8.9).",
+      "excerpt": "No pueden delegarse las competencias relativas a: a) La adopción de disposiciones reglamentarias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.2 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, contra la resolució d'avocació:",
+      "options": [
+        "No es pot interposar recurs, tot i que es pot impugnar en el recurs que, si escau, s'interposi contra la resolució del procediment.",
+        "Es pot interposar recurs d'alçada davant l'òrgan superior jeràrquic.",
+        "Es pot interposar recurs potestatiu de reposició en el termini d'un mes.",
+        "Es pot interposar directament recurs contenciós administratiu."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La resolució d'avocació ha de ser motivada i s'ha de notificar als interessats abans de la resolució o publicar-se; contra aquesta resolució no es pot interposar recurs, però es pot impugnar en el recurs que s'interposi contra la resolució del procediment (art. 9.2 Llei 26/2010).",
+      "excerpt": "Contra dicha resolución no puede interponerse recurso, aunque puede impugnarse en el recurso que, en su caso, se interponga contra la resolución del procedimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.3 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, per a quin tipus de resolucions NO és procedent l'autorització de signatura?",
+      "options": [
+        "Per a les resolucions dictades en un procediment administratiu concret.",
+        "Per a les resolucions de caràcter sancionador.",
+        "Per a les resolucions de concessió de subvencions.",
+        "Per a les resolucions que posen fi a un procediment iniciat a sol·licitud de l'interessat."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els titulars dels òrgans poden autoritzar la signatura dels seus actes als titulars d'òrgans o unitats dependents, de manera general o per a un procediment concret, però l'autorització de signatura no és procedent per a les resolucions de caràcter sancionador (art. 11 Llei 26/2010).",
+      "excerpt": "La autorización de firma no es procedente para las resoluciones de carácter sancionador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, amb quina antelació mínima s'ha de notificar als membres d'un òrgan col·legiat la convocatòria de la sessió, llevat d'urgència apreciada pel president?",
+      "options": [
+        "Vint-i-quatre hores.",
+        "Setanta-dues hores.",
+        "Quaranta-vuit hores.",
+        "Cinc dies hàbils."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La convocatòria, amb l'ordre del dia, s'ha de notificar amb una antelació mínima de 48 hores, llevat d'urgència apreciada pel president o presidenta, que s'ha de fer constar a la convocatòria (art. 17.1 Llei 26/2010).",
+      "excerpt": "La convocatoria de la sesión del órgano colegiado, con el correspondiente orden del día, debe ser notificada a los miembros con una antelación mínima de cuarenta y ocho horas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.6 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, si les normes pròpies d'un òrgan col·legiat no especifiquen el nombre de membres necessari, amb quina assistència s'assoleix el quòrum en segona convocatòria?",
+      "options": [
+        "Amb la meitat dels membres, amb un mínim de tres.",
+        "Amb una tercera part dels membres, amb un mínim de tres.",
+        "Amb una tercera part dels membres, sense mínim.",
+        "Amb una quarta part dels membres, amb un mínim de dos."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En primera convocatòria cal la presència del president i del secretari (o substituts) i de la meitat, com a mínim, dels membres (art. 17.4); en segona convocatòria, si les normes de l'òrgan no ho especifiquen, n'hi ha prou amb una tercera part dels membres, amb un mínim de tres (art. 17.6 Llei 26/2010).",
+      "excerpt": "En segunda convocatoria, si las normas propias del órgano no han especificado el número de miembros necesarios para constituir válidamente el órgano, el quórum se alcanza con la asistencia de una tercera parte de los miembros, con un mínimo de tres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.2 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, en quin termini poden formular un vot particular per escrit els membres d'un òrgan col·legiat que discrepen de l'acord majoritari?",
+      "options": [
+        "En el termini de setanta-dues hores.",
+        "En el termini de quaranta-vuit hores.",
+        "En el termini de deu dies.",
+        "Abans que s'aixequi la sessió."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Els membres que discrepen de l'acord majoritari poden formular un vot particular per escrit en el termini de 72 hores, que s'ha d'incorporar al text de l'acord (art. 20.2 Llei 26/2010).",
+      "excerpt": "Los miembros que discrepan del acuerdo mayoritario pueden formular un voto particular por escrito en el plazo de setenta y dos horas, el cual debe incorporarse al texto del acuerdo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

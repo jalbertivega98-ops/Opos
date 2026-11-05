@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-g2-organitzacio-generalitat-lrjsp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 2. Organització de l'Administració de la Generalitat i departaments",
+    "topic_slug": "pcat-g2-organitzacio-generalitat",
+    "locale": "ca",
+    "category": "pcat_g2_organitzacio_generalitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3.1 Llei 40/2015",
+      "stem": "Segons l'article 3.1 de la Llei 40/2015, de règim jurídic del sector públic, les administracions públiques actuen d'acord amb els principis d'eficàcia, jerarquia, descentralització, desconcentració i:",
+      "options": [
+        "Competència.",
+        "Subsidiarietat.",
+        "Autonomia.",
+        "Coordinació."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Les administracions públiques serveixen amb objectivitat els interessos generals i actuen d'acord amb els principis d'eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb submissió plena a la Constitució, a la llei i al dret (art. 3.1 Llei 40/2015).",
+      "excerpt": "Las Administraciones Públicas sirven con objetividad los intereses generales y actúan de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la Constitución, a la Ley y al Derecho.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.3 Llei 40/2015",
+      "stem": "Segons l'article 5.3 de la Llei 40/2015, quin dels requisits següents NO s'exigeix, com a mínim, per crear un òrgan administratiu?",
+      "options": [
+        "La determinació de la seva forma d'integració en l'Administració pública de què es tracti i de la seva dependència jeràrquica.",
+        "La delimitació de les seves funcions i competències.",
+        "L'informe previ favorable de la representació del personal.",
+        "La dotació dels crèdits necessaris per posar-lo en marxa i per al seu funcionament."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La creació de qualsevol òrgan administratiu exigeix, almenys, determinar-ne la forma d'integració i la dependència jeràrquica, delimitar-ne les funcions i competències i dotar-lo dels crèdits necessaris (art. 5.3 Llei 40/2015). No s'hi exigeix cap informe de la representació del personal.",
+      "excerpt": "La creación de cualquier órgano administrativo exigirá, al menos, el cumplimiento de los siguientes requisitos: a) Determinación de su forma de integración en la Administración Pública de que se trate y su dependencia jerárquica. b) Delimitación de sus funciones y competencias. c) Dotación de los créditos necesarios para su puesta en marcha y funcionamiento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

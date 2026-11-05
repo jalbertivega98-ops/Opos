@@ -1,15 +1,22 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ exámenes reales y simulacros calcados, ADR-033)
+**Última actualización:** 2026-11-05 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
+
+### Prisiones de Cataluña (2026-11-05, rama `claude/project-thread-xt6teb`, CNT-023, ADR-032)
+
+- Cos tècnic d'especialistes, escala de serveis penitenciaris (C1), convocatoria JU033. Programa y fuentes en `docs/research/prisiones-catalunya-programa.md`; `build.py`, `FORMATO.md` y fuentes en `/mnt/project-files/aprobia/fuentes-oficiales/prisiones-cat/`.
+- 595 preguntas en catalán y 25 fichas (`content/prisiones-cat`, temas `pcat-*` y supuestos `pcatsup-*`). Preview `37-` (oposición), `38-` (temario), `39-` (productos) y `40-` (publicación). 4 dudosas con nota quedan en borrador.
+- Probado en local con todos los SQL de preview: la oposición queda disponible, 5 productos publicados y los simulacros arrancan con 60 y 25 preguntas.
+- El simulacro de 60 reparte 15 de la parte general y 45 de la específica (`quotas`).
+- Siguiente: precio del pack y guía SEO.
 
 ### Exámenes reales: practicar con lo que cae (2026-11-05, CNT-024, ADR-033)
 
 - Informes por oposición en `/mnt/project-files/aprobia/examenes-reales/` (exámenes oficiales, reparto por tema, huecos, simulacro recomendado) y resumen en el Claude Doc «Lo que cae en cada oposición».
 - Huecos cubiertos con ~1.170 preguntas nuevas (fuentes en `/mnt/project-files/aprobia/fuentes-oficiales/*/`): preview `41-` (temario), `42-` (publicación; 9 dudosas con N: quedan en borrador) y `43-` (simulacros con `quotas`, cortes reales y 3 simulacros nuevos).
 - Pendiente de joel: fuente para la actualidad de Mossos (àmbit D), casos prácticos con enunciado común, temas 28-29 de Policía Nacional (sin fuente oficial), psicotécnicos verbales.
-- Prisiones de Catalunya va en otro hilo (preview 37- a 40-, ADR-032, CNT-023).
 
 - **Psicotécnicos (CNT-022, ADR-031):** solo se ofrecen en las oposiciones cuya convocatoria los incluye (`examHasPsycho`).
 

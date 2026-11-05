@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e10-sistema-penitenciari-catala-rdcoord-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 10. L'activitat penitenciària en el marc autonòmic",
+    "topic_slug": "pcat-e10-sistema-penitenciari-catala",
+    "locale": "ca",
+    "category": "pcat_e10_sistema_penitenciari_catala",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 1436/1984, de 20 de junio, normas provisionales de coordinación de las Administraciones Penitenciarias (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-17054",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.2.c RD 1436/1984",
+      "stem": "Segons el Reial decret 1436/1984, de normes provisionals de coordinació de les administracions penitenciàries, cada administració penitenciària ha de disposar, per als penats classificats en primer grau, d'un nombre de places no inferior a:",
+      "options": [
+        "El 5 per 100 del total de compliment.",
+        "El 15 per 100 del total de places de preventius.",
+        "El 10 per 100 del total de compliment.",
+        "El 20 per 100 del total de compliment."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 1.2 c) exigeix un nombre de places no inferior al 10 per 100 del total de compliment, destinades a penats classificats en primer grau.",
+      "excerpt": "c) Un número de plazas no inferior al 10 por 100 del total de cumplimiento, destinadas a penados clasificados en primer grado de tratamiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7 RD 1436/1984",
+      "stem": "D'acord amb el Reial decret 1436/1984, en supòsits excepcionals de motins, catàstrofes, epidèmies o incendis que facin necessari el trasllat massiu d'interns a establiments d'una altra administració penitenciària, qui decideix i organitza aquest trasllat?",
+      "options": [
+        "La Direcció General d'Institucions Penitenciàries, en tots els casos.",
+        "L'administració penitenciària que hagi de rebre els interns.",
+        "El jutge de vigilància penitenciària competent.",
+        "L'administració que pateixi la situació crítica."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 7 encarrega la decisió i l'organització a l'administració que pateix la situació crítica, que ho ha de comunicar immediatament a l'Administració de l'Estat perquè distribueixi els interns amb l'acord previ de l'administració receptora.",
+      "excerpt": "éste será decidido y organizado por la Administración que sufra la situación crítica.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e16-tractament-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 16. El tractament penitenciari, permisos i sortides",
+    "topic_slug": "pcat-e16-tractament",
+    "locale": "ca",
+    "category": "pcat_e16_tractament",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 59.1 LOGP",
+      "stem": "Segons l'article 59 de la Llei orgànica 1/1979, general penitenciària (LOGP), el tractament penitenciari consisteix en:",
+      "options": [
+        "El conjunt d'activitats directament dirigides a la consecució de la reeducació i la reinserció social dels penats.",
+        "El conjunt de normes que regulen la convivència ordenada i la seguretat dels establiments penitenciaris.",
+        "L'aplicació de mesures de vigilància i control a tots els interns, preventius i penats, des de l'ingrés.",
+        "El sistema de recompenses que estimula la bona conducta i l'esperit de treball dels interns."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 59.1 LOGP defineix el tractament com el conjunt d'activitats directament dirigides a la reeducació i reinserció social dels penats; la convivència ordenada i la seguretat són finalitats del règim i del règim disciplinari (art. 41 LOGP).",
+      "excerpt": "El tratamiento penitenciario consiste en el conjunto de actividades directamente dirigidas a la consecución de la reeducación y reinserción social de los penados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62 LOGP",
+      "stem": "D'acord amb l'article 62 de la LOGP, quin dels següents NO és un dels principis en què s'inspira el tractament penitenciari?",
+      "options": [
+        "Serà individualitzat, amb la utilització variable de mètodes mèdics-biològics, psiquiàtrics, psicològics, pedagògics i socials.",
+        "Serà uniforme i estable per a tots els interns d'un mateix grau, independentment de l'evolució de la seva personalitat.",
+        "Serà programat, amb un pla general que s'ha de seguir en la seva execució.",
+        "Serà de caràcter continu i dinàmic."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 62 LOGP diu que el tractament serà individualitzat (c), complex (d), programat (e) i continu i dinàmic, depenent de les incidències en l'evolució de la personalitat de l'intern (f). Un tractament uniforme i estable contradiu aquests principis.",
+      "excerpt": "c) Será individualizado, consistiendo en la variable utilización de métodos médico-biológicos, psiquiátricos, psicológicos, pedagógicos y sociales, en relación a la personalidad del interno. […] e) Será programado, fijándose el plan general que deberá seguirse en su ejecución […] f) Será de carácter continuo y dinámico, dependiente de las incidencias en la evolución de la personalidad del interno durante el cumplimiento de la condena.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

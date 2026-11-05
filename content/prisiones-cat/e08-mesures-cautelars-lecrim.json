@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "set": "pcat-e08-mesures-cautelars-lecrim-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 8. Mesures cautelars, detenció, habeas corpus, presó i llibertat provisional",
+    "topic_slug": "pcat-e08-mesures-cautelars",
+    "locale": "ca",
+    "category": "pcat_e08_mesures_cautelars",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 520.1 LECrim",
+      "stem": "Segons l'article 520.1 de la Llei d'enjudiciament criminal, dins dels terminis establerts en la llei i, en tot cas, en quin termini màxim el detingut ha de ser posat en llibertat o a disposició de l'autoritat judicial?",
+      "options": [
+        "Vint-i-quatre hores.",
+        "Setanta-dues hores.",
+        "Quaranta-vuit hores.",
+        "Cinc dies."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La detenció preventiva no pot durar més del temps estrictament necessari per a les averiguacions i, en tot cas, el detingut ha de ser posat en llibertat o a disposició judicial en un màxim de setanta-dues hores (art. 520.1 LECrim, que reprodueix l'art. 17.2 CE).",
+      "excerpt": "Dentro de los plazos establecidos en la presente Ley, y, en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 496 LECrim",
+      "stem": "Segons la Llei d'enjudiciament criminal, el particular, l'autoritat o l'agent de policia judicial que detingui una persona ha de posar-la en llibertat o lliurar-la al jutge més pròxim al lloc de la detenció:",
+      "options": [
+        "Dins de les vint-i-quatre hores següents a la detenció.",
+        "Dins de les setanta-dues hores següents a la detenció.",
+        "Dins de les quaranta-vuit hores següents a la detenció.",
+        "Immediatament, sense que pugui passar més d'una hora."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 496 LECrim obliga qui ha practicat la detenció a posar el detingut en llibertat o lliurar-lo al jutge més pròxim dins de les vint-i-quatre hores següents; si la dilació excedeix aquest termini, incorre en responsabilitat penal.",
+      "excerpt": "deberá ponerla en libertad o entregarla al Juez más próximo al lugar en que hubiere hecho la detención dentro de las veinticuatro horas siguientes al acto de la misma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 490 i 492 LECrim",
+      "stem": "Segons l'article 490 de la Llei d'enjudiciament criminal, qualsevol persona pot detenir, entre d'altres, les persones següents, EXCEPTE:",
+      "options": [
+        "Qui intenti cometre un delicte en el moment d'anar a cometre'l.",
+        "El delinqüent in fraganti.",
+        "Qui estigui processat per un delicte que tingui assenyalada una pena superior a la de presó correccional.",
+        "Qui s'escapi de l'establiment penal on està extingint condemna."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 490 LECrim enumera els casos en què qualsevol persona pot detenir. La detenció del processat per delicte amb pena superior a la de presó correccional és una obligació de l'autoritat o agent de policia judicial (art. 492.2), no una facultat de qualsevol persona.",
+      "excerpt": "Cualquier persona puede detener: 1.º Al que intentare cometer un delito en el momento de ir a cometerlo. 2.º Al delincuente in fraganti. 3.º Al que se fugare del establecimiento penal en que se halle extinguiendo condena.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 497 LECrim",
+      "stem": "Segons l'article 497 de la Llei d'enjudiciament criminal, el jutge o tribunal de la causa a qui es lliuri un detingut ha d'elevar la detenció a presó, o deixar-la sense efecte, en el termini de:",
+      "options": [
+        "Vint-i-quatre hores des que el detingut li hagi estat lliurat.",
+        "Setanta-dues hores des del moment de la detenció.",
+        "Deu dies des que el detingut li hagi estat lliurat.",
+        "Setanta-dues hores des que el detingut li hagi estat lliurat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 497 LECrim fixa setanta-dues hores, comptades des del lliurament del detingut al jutge o tribunal, per elevar la detenció a presó o deixar-la sense efecte.",
+      "excerpt": "elevará la detención a prisión, o la dejará sin efecto, en el término de setenta y dos horas, a contar desde que el detenido le hubiese sido entregado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520.2 LECrim",
+      "stem": "Quin dels drets següents NO figura entre els que, segons l'article 520.2 de la Llei d'enjudiciament criminal, s'han de comunicar a tota persona detinguda o presa?",
+      "options": [
+        "El dret a guardar silenci o a manifestar que només declararà davant el jutge.",
+        "El dret a escollir el centre o dependència on ha de quedar sota custòdia.",
+        "El dret a designar advocat i a ser assistit per ell sense demora injustificada.",
+        "El dret a ser reconegut pel metge forense o el seu substitut legal."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 520.2 LECrim enumera, entre d'altres, el dret a guardar silenci, a no declarar contra si mateix, a designar advocat, a comunicar la privació de llibertat a un familiar, a intèrpret i a reconeixement pel metge forense. No inclou cap dret a triar el lloc de custòdia.",
+      "excerpt": "a) Derecho a guardar silencio no declarando si no quiere, a no contestar alguna o algunas de las preguntas que le formulen, o a manifestar que sólo declarará ante el juez. […] c) Derecho a designar abogado, sin perjuicio de lo dispuesto en el apartado 1.a) del artículo 527 y a ser asistido por él sin demora injustificada. […] i) Derecho a ser reconocido por el médico forense o su sustituto legal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520.5 LECrim",
+      "stem": "Segons l'article 520.5 de la Llei d'enjudiciament criminal, l'advocat designat per assistir un detingut ha d'acudir al centre de detenció amb la màxima promptitud i sempre dins del termini màxim de:",
+      "options": [
+        "Una hora des de la recepció de l'encàrrec.",
+        "Vuit hores des de la detenció.",
+        "Tres hores des de la recepció de l'encàrrec.",
+        "Vint-i-quatre hores des de la detenció."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 520.5 LECrim fixa un màxim de tres hores des de la recepció de l'encàrrec; si l'advocat no compareix, el Col·legi d'Advocats en designa un altre del torn d'ofici.",
+      "excerpt": "El abogado designado acudirá al centro de detención con la máxima premura, siempre dentro del plazo máximo de tres horas desde la recepción del encargo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 503.1 LECrim",
+      "stem": "Segons l'article 503 de la Llei d'enjudiciament criminal, amb caràcter general, la presó provisional només es pot decretar si consten en la causa fets que presentin caràcters de delicte sancionat amb una pena el màxim de la qual sigui igual o superior a:",
+      "options": [
+        "Un any de presó.",
+        "Tres anys de presó.",
+        "Dos anys de presó.",
+        "Cinc anys de presó."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El primer requisit de l'art. 503.1 LECrim és un delicte castigat amb pena màxima igual o superior a dos anys de presó, o inferior si l'investigat té antecedents penals no cancel·lats per delicte dolós.",
+      "excerpt": "Que conste en la causa la existencia de uno o varios hechos que presenten caracteres de delito sancionado con pena cuyo máximo sea igual o superior a dos años de prisión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 506.1 LECrim",
+      "stem": "Segons l'article 506 de la Llei d'enjudiciament criminal, la interlocutòria que acordi la presó provisional o en disposi la prolongació ha d'expressar:",
+      "options": [
+        "Els motius pels quals la mesura es considera necessària i proporcionada respecte dels fins que en justifiquen l'adopció.",
+        "Només el delicte imputat i la pena que s'hi podria imposar.",
+        "La data prevista per a la celebració del judici oral.",
+        "El centre penitenciari on s'ha de complir i el grau de tractament inicial."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les resolucions sobre la situació personal de l'investigat adopten la forma d'interlocutòria, i la que acorda la presó provisional o la prolonga ha d'expressar els motius de necessitat i proporcionalitat respecte dels fins de la mesura (art. 506.1 LECrim).",
+      "excerpt": "El auto que acuerde la prisión provisional o disponga su prolongación expresará los motivos por los que la medida se considera necesaria y proporcionada respecto de los fines que justifican su adopción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 506.2 LECrim",
+      "stem": "Segons l'article 506.2 de la Llei d'enjudiciament criminal, si la causa s'ha declarat secreta, en la notificació de la interlocutòria de presó provisional no es pot ometre en cap cas:",
+      "options": [
+        "La identitat dels testimonis que han declarat contra l'investigat.",
+        "La totalitat dels fonaments de la interlocutòria, encara que afectin el secret.",
+        "La durada màxima prevista de la presó provisional.",
+        "Una descripció succinta del fet imputat i del fi o fins de l'article 503 que es pretenen aconseguir amb la presó."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 506.2 LECrim permet ometre de la còpia notificada els particulars que afectin el secret, però mai la descripció succinta del fet imputat ni els fins de l'art. 503; quan s'aixeca el secret, s'ha de notificar la interlocutòria íntegra.",
+      "excerpt": "En ningún caso se omitirá en la notificación una sucinta descripción del hecho imputado y de cuál o cuáles de los fines previstos en el artículo 503 se pretende conseguir con la prisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 504.2 LECrim",
+      "stem": "Segons l'article 504.2 de la Llei d'enjudiciament criminal, la presó provisional acordada per evitar el risc de fuga, si el delicte té assenyalada una pena privativa de llibertat superior a tres anys, no pot excedir, amb caràcter general, de:",
+      "options": [
+        "Un any.",
+        "Dos anys.",
+        "Sis mesos.",
+        "Quatre anys."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 504.2 LECrim limita la presó provisional a un any si la pena és igual o inferior a tres anys i a dos anys si és superior, amb una única pròrroga possible; per evitar l'ocultació de proves, el màxim és de sis mesos (art. 504.3).",
+      "excerpt": "su duración no podrá exceder de un año si el delito tuviere señalada pena privativa de libertad igual o inferior a tres años, o de dos años si la pena privativa de libertad señalada para el delito fuera superior a tres años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 509.2 LECrim",
+      "stem": "Segons l'article 509 de la Llei d'enjudiciament criminal, la incomunicació d'un detingut o pres no es pot estendre, amb caràcter general, més enllà de:",
+      "options": [
+        "Tres dies.",
+        "Deu dies.",
+        "Setanta-dues hores.",
+        "Cinc dies."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 509.2 LECrim limita la incomunicació a cinc dies, prorrogables per un altre termini no superior a cinc dies en els delictes de l'art. 384 bis o comesos de manera organitzada; els menors de setze anys no poden ser objecte de detenció incomunicada.",
+      "excerpt": "La incomunicación no podrá extenderse más allá de cinco días.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 511 LECrim",
+      "stem": "Segons l'article 511 de la Llei d'enjudiciament criminal, els directors dels establiments penitenciaris no poden rebre cap persona en condició de pres:",
+      "options": [
+        "Sense que se'ls lliuri el manament de presó.",
+        "Sense una ordre escrita del Ministeri Fiscal.",
+        "Sense una còpia de la sentència ferma.",
+        "Sense l'autorització del jutge de vigilància penitenciària."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Per executar la interlocutòria de presó s'expedeixen dos manaments, un a la policia judicial i un altre al director de l'establiment; sense el manament de presó el director no pot rebre ningú com a pres (art. 511 LECrim).",
+      "excerpt": "Los directores de los establecimientos no recibirán a ninguna persona en condición de preso sin que se les entregue mandamiento de prisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 530 LECrim",
+      "stem": "Segons l'article 530 de la Llei d'enjudiciament criminal, l'investigat o encausat que hagi d'estar en llibertat provisional, amb fiança o sense:",
+      "options": [
+        "Haurà de dur en tot cas un dispositiu telemàtic de control.",
+        "Haurà de lliurar obligatòriament el passaport en tots els casos.",
+        "Constituirà apud acta l'obligació de comparèixer els dies que li assenyali la interlocutòria i sempre que sigui cridat pel jutge o tribunal.",
+        "Haurà de residir en el partit judicial del jutjat que coneix de la causa."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 530 LECrim imposa l'obligació apud acta de comparèixer els dies assenyalats i sempre que sigui cridat; per garantir-la, el jutge pot acordar motivadament la retenció del passaport (no és obligatòria en tot cas).",
+      "excerpt": "El investigado o encausado que hubiere de estar en libertad provisional, con o sin fianza, constituirá apud acta obligación de comparecer en los días que le fueren señalados en el auto respectivo, y además cuantas veces fuere llamado ante el juez o tribunal que conozca de la causa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 544 bis LECrim",
+      "stem": "Segons l'article 544 bis de la Llei d'enjudiciament criminal, quan s'investiga un delicte dels esmentats a l'article 57 del Codi penal, el jutge o tribunal pot imposar cautelarment a l'inculpat, entre altres mesures:",
+      "options": [
+        "La pena de localització permanent.",
+        "La prohibició de residir en un lloc, barri, municipi, província o altra entitat local, o comunitat autònoma determinats.",
+        "La inhabilitació absoluta mentre duri la instrucció.",
+        "La privació definitiva del dret a conduir vehicles de motor."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 544 bis LECrim permet imposar cautelarment, de manera motivada, la prohibició de residir en determinats llocs i la d'acudir-hi o d'aproximar-se o comunicar-se amb determinades persones.",
+      "excerpt": "imponer cautelarmente al inculpado la prohibición de residir en un determinado lugar, barrio, municipio, provincia u otra entidad local, o comunidad autónoma.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

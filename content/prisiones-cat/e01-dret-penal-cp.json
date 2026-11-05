@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "pcat-e01-dret-penal-cp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 1. El dret penal: aspectes generals i principis limitadors",
+    "topic_slug": "pcat-e01-dret-penal",
+    "locale": "ca",
+    "category": "pcat_e01_dret_penal",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 CP",
+      "stem": "D'acord amb l'article 1.1 del Codi penal, no serà castigada cap acció ni omissió que no estigui prevista com a delicte per:",
+      "options": [
+        "Una llei vigent en el moment de dictar sentència.",
+        "Una norma de qualsevol rang publicada abans del judici oral.",
+        "Una llei o un reglament anterior a la seva perpetració.",
+        "Una llei anterior a la seva perpetració."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 1.1 del Codi penal recull el principi de legalitat penal (garantia criminal): només es pot castigar l'acció o l'omissió prevista com a delicte per una llei anterior a la seva perpetració.",
+      "excerpt": "1. No será castigada ninguna acción ni omisión que no esté prevista como delito por ley anterior a su perpetración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 CP",
+      "stem": "Quina de les afirmacions següents sobre l'aplicació temporal de les lleis penals NO és correcta, segons l'article 2 del Codi penal?",
+      "options": [
+        "Les lleis penals favorables al reu no tenen efecte retroactiu si ja ha recaigut sentència ferma.",
+        "Les lleis que estableixen mesures de seguretat no tenen efecte retroactiu.",
+        "En cas de dubte sobre la determinació de la llei més favorable, s'ha d'escoltar el reu.",
+        "Els fets comesos sota la vigència d'una llei temporal es jutgen conforme a aquesta, llevat que es disposi expressament el contrari."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 2.2 CP dona efecte retroactiu a les lleis penals favorables al reu encara que, en entrar en vigor, hagi recaigut sentència ferma i el subjecte estigui complint condemna. Les altres tres afirmacions reprodueixen els apartats 1 i 2 del mateix article.",
+      "excerpt": "No obstante, tendrán efecto retroactivo aquellas leyes penales que favorezcan al reo, aunque al entrar en vigor hubiera recaído sentencia firme y el sujeto estuviese cumpliendo condena.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7 CP",
+      "stem": "A l'efecte de determinar la llei penal aplicable en el temps, quan es considera comès un delicte segons l'article 7 del Codi penal?",
+      "options": [
+        "En el moment en què es produeix el resultat lesiu.",
+        "En el moment en què l'autoritat té coneixement dels fets.",
+        "En el moment en què el subjecte executa l'acció o omet l'acte que estava obligat a fer.",
+        "En el moment en què s'incoa el procediment penal contra el subjecte."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 7 CP adopta el criteri de l'activitat: el delicte es considera comès quan el subjecte executa l'acció o omet l'acte que estava obligat a realitzar, no quan es produeix el resultat.",
+      "excerpt": "A los efectos de determinar la ley penal aplicable en el tiempo, los delitos se consideran cometidos en el momento en que el sujeto ejecuta la acción u omite el acto que estaba obligado a realizar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.1 CP",
+      "stem": "Segons l'article 3.1 del Codi penal, una pena o una mesura de seguretat només es pot executar en virtut de:",
+      "options": [
+        "Resolució ferma de l'Administració penitenciària.",
+        "Sentència ferma dictada pel jutge o tribunal competent, d'acord amb les lleis processals.",
+        "Sentència, encara que no sigui ferma, si el condemnat es troba en presó provisional.",
+        "Acord del Ministeri Fiscal ratificat pel jutge de vigilància penitenciària."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 3.1 CP recull la garantia jurisdiccional: cap pena ni mesura de seguretat es pot executar si no és en virtut de sentència ferma del jutge o tribunal competent.",
+      "excerpt": "1. No podrá ejecutarse pena ni medida de seguridad sino en virtud de sentencia firme dictada por el Juez o Tribunal competente, de acuerdo con las leyes procesales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.2 CP",
+      "stem": "Sobre la garantia d'execució de l'article 3.2 del Codi penal, quina de les afirmacions següents NO és correcta?",
+      "options": [
+        "La pena no es pot executar en una forma diferent de la prescrita per la llei i els reglaments que la despleguen.",
+        "La pena no es pot executar amb circumstàncies o accidents diferents dels que expressa el text legal.",
+        "L'execució de la pena es fa sota el control dels jutges i tribunals competents.",
+        "L'execució de les mesures de seguretat no està sotmesa a control judicial, sinó al de l'Administració penitenciària."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 3.2 CP disposa que l'execució de la pena i també la de la mesura de seguretat es fa sota el control dels jutges i tribunals competents.",
+      "excerpt": "Tampoco podrá ejecutarse pena ni medida de seguridad en otra forma que la prescrita por la Ley y reglamentos que la desarrollan, ni con otras circunstancias o accidentes que los expresados en su texto. La ejecución de la pena o de la medida de seguridad se realizará bajo el control de los Jueces y Tribunales competentes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.1 CP",
+      "stem": "D'acord amb l'article 4.1 del Codi penal, les lleis penals:",
+      "options": [
+        "No s'han d'aplicar a casos diferents dels que hi estan compresos expressament.",
+        "Es poden aplicar a casos semblants quan hi hagi identitat de raó.",
+        "S'han d'interpretar d'acord amb la jurisprudència del Tribunal Suprem, que n'és font directa.",
+        "S'apliquen supletòriament a les infraccions administratives."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 4.1 CP prohibeix l'aplicació de les lleis penals a casos diferents dels compresos expressament en elles (prohibició de l'analogia, derivada del principi de legalitat).",
+      "excerpt": "1. Las leyes penales no se aplicarán a casos distintos de los comprendidos expresamente en ellas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2 CP",
+      "stem": "Segons l'article 4.2 del Codi penal, si un jutge o tribunal, en l'exercici de la seva jurisdicció, té coneixement d'una acció o omissió que, sense estar penada per la llei, considera digna de repressió, ha de:",
+      "options": [
+        "Abstenir-se de tot procediment i exposar-ho a les Corts Generals perquè la tipifiquin.",
+        "Condemnar aplicant el precepte penal més semblant.",
+        "Abstenir-se de tot procediment i exposar al Govern les raons per les quals creu que hauria de ser objecte de sanció penal.",
+        "Remetre les actuacions al Ministeri Fiscal perquè formuli acusació."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 4.2 CP obliga el jutge a abstenir-se de tot procediment i a exposar al Govern les raons per les quals considera que la conducta s'hauria de sancionar penalment.",
+      "excerpt": "se abstendrá de todo procedimiento sobre ella y expondrá al Gobierno las razones que le asistan para creer que debiera ser objeto de sanción penal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.4 CP",
+      "stem": "Si hi ha una petició d'indult i el jutge o tribunal ha apreciat en resolució fonamentada que el compliment de la pena pot vulnerar el dret a un procés sense dilacions indegudes, segons l'article 4.4 del Codi penal:",
+      "options": [
+        "Podrà suspendre l'execució de la pena, però només si no supera els dos anys de presó.",
+        "Suspendrà l'execució de la pena mentre no es resolgui la petició formulada.",
+        "Continuarà l'execució de la pena, sens perjudici d'adreçar-se al Govern.",
+        "Concedirà directament l'indult parcial de la pena."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En aquest supòsit l'article 4.4 CP imposa la suspensió («suspenderá») de l'execució mentre no es resolgui l'indult. La suspensió és facultativa («podrá») en l'altre cas que preveu: quan, si s'executés la sentència, la finalitat de l'indult podria resultar il·lusòria.",
+      "excerpt": "4. Si mediara petición de indulto, y el Juez o Tribunal hubiere apreciado en resolución fundada que por el cumplimiento de la pena puede resultar vulnerado el derecho a un proceso sin dilaciones indebidas, suspenderá la ejecución de la misma en tanto no se resuelva sobre la petición formulada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5 CP",
+      "stem": "Quin principi limitador del poder punitiu recull l'article 5 del Codi penal quan estableix que «no hi ha pena sense dol o imprudència»?",
+      "options": [
+        "El principi d'intervenció mínima.",
+        "El principi de culpabilitat.",
+        "El principi de legalitat.",
+        "El principi de proporcionalitat de les mesures de seguretat."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 5 CP exclou la responsabilitat objectiva: sense dol o imprudència no es pot imposar cap pena. És la formulació legal del principi de culpabilitat.",
+      "excerpt": "No hay pena sin dolo o imprudencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 10 i 12 CP",
+      "stem": "Segons el Codi penal, les accions o omissions imprudents:",
+      "options": [
+        "Es castiguen sempre amb la pena del delicte dolós en la meitat inferior.",
+        "No poden constituir mai delicte.",
+        "Només es castiguen quan la llei ho disposa expressament.",
+        "Es castiguen sempre que causin un resultat lesiu."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 10 CP considera delictes les accions i omissions doloses o imprudents penades per la llei, i l'article 12 limita el càstig de la imprudència als casos en què la llei ho disposa expressament.",
+      "excerpt": "Las acciones u omisiones imprudentes sólo se castigarán cuando expresamente lo disponga la Ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.1 CP",
+      "stem": "Segons l'article 6.1 del Codi penal, les mesures de seguretat es fonamenten en:",
+      "options": [
+        "La perillositat criminal del subjecte, exterioritzada en la comissió d'un fet previst com a delicte.",
+        "La culpabilitat del subjecte en el moment de cometre el fet.",
+        "La perillositat social del subjecte, encara que no hagi comès cap fet delictiu.",
+        "La gravetat del fet comès, amb independència de les circumstàncies personals de l'autor."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les mesures de seguretat tenen com a fonament la perillositat criminal, que s'ha d'haver exterioritzat en la comissió d'un fet previst com a delicte; no hi ha mesures predelictuals.",
+      "excerpt": "1. Las medidas de seguridad se fundamentan en la peligrosidad criminal del sujeto al que se impongan, exteriorizada en la comisión de un hecho previsto como delito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 1.2 i 6.2 CP",
+      "stem": "Quina de les afirmacions següents sobre les mesures de seguretat NO és correcta, segons el títol preliminar del Codi penal?",
+      "options": [
+        "Només es poden aplicar quan concorrin els pressupòsits establerts prèviament per la llei.",
+        "No poden ser més gravoses que la pena abstractament aplicable al fet comès.",
+        "No poden excedir el límit del que és necessari per prevenir la perillositat de l'autor.",
+        "Poden tenir una durada superior a la de la pena abstractament aplicable si la perillositat de l'autor ho exigeix."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'article 6.2 CP prohibeix que les mesures de seguretat siguin més gravoses o de més durada que la pena abstractament aplicable, i que excedeixin el que és necessari per prevenir la perillositat. L'article 1.2 exigeix pressupòsits establerts prèviament per la llei.",
+      "excerpt": "2. Las medidas de seguridad no pueden resultar ni más gravosas ni de mayor duración que la pena abstractamente aplicable al hecho cometido, ni exceder el límite de lo necesario para prevenir la peligrosidad del autor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.4 CP",
+      "stem": "Segons l'article 8 del Codi penal, quan un fet es pot qualificar d'acord amb dos o més preceptes i no és aplicable cap dels altres criteris de resolució del concurs de normes, s'aplica la regla segons la qual:",
+      "options": [
+        "S'aplica el precepte més favorable al reu.",
+        "El precepte especial s'aplica amb preferència al general.",
+        "El precepte penal més greu exclou els que castiguen el fet amb pena menor.",
+        "S'aplica el precepte que hagi entrat en vigor més recentment."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La regla 4a de l'article 8 CP (criteri d'alternativitat) opera en defecte de les altres: el precepte més greu exclou els que castiguen el fet amb pena menor.",
+      "excerpt": "4.ª En defecto de los criterios anteriores, el precepto penal más grave excluirá los que castiguen el hecho con pena menor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.3 CP",
+      "stem": "Quina regla de l'article 8 del Codi penal disposa que el precepte penal més ampli o complex absorbeix els que castiguen les infraccions consumides en aquell?",
+      "options": [
+        "La regla 3a.",
+        "La regla 1a.",
+        "La regla 2a.",
+        "La regla 4a."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 8 CP ordena quatre regles: 1a especialitat, 2a subsidiarietat, 3a consumció (el precepte més ampli o complex absorbeix les infraccions consumides) i 4a alternativitat (el precepte més greu).",
+      "excerpt": "3.ª El precepto penal más amplio o complejo absorberá a los que castiguen las infracciones consumidas en aquél.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9 CP",
+      "stem": "D'acord amb l'article 9 del Codi penal, respecte dels delictes penats per lleis especials:",
+      "options": [
+        "El Codi penal només s'hi aplica supletòriament, inclòs el títol preliminar.",
+        "S'hi apliquen les disposicions del títol preliminar, i la resta de disposicions del Codi s'hi apliquen supletòriament.",
+        "No s'hi aplica cap disposició del Codi penal.",
+        "El títol preliminar només s'hi aplica si la llei especial té caràcter orgànic."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 9 CP estén les garanties del títol preliminar a les lleis penals especials i declara supletòries la resta de disposicions del Codi en el que aquelles no prevegin expressament.",
+      "excerpt": "Las disposiciones de este Título se aplicarán a los delitos que se hallen penados por leyes especiales. Las restantes disposiciones de este Código se aplicarán como supletorias en lo no previsto expresamente por aquéllas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Disposició final setena CP",
+      "stem": "Segons la seva disposició final setena, el Codi penal de 1995 va entrar en vigor:",
+      "options": [
+        "Als vint dies de la seva publicació completa en el BOE.",
+        "A l'any de la seva publicació completa en el BOE.",
+        "Als tres mesos de la seva publicació completa en el BOE.",
+        "Als sis mesos de la seva publicació completa en el BOE."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La disposició final setena fixa una vacatio legis de sis mesos i aplica el Codi als fets punibles comesos a partir de la seva vigència.",
+      "excerpt": "El presente Código entrará en vigor a los seis meses de su completa publicación en el «Boletín Oficial del Estado» y se aplicará a todos los hechos punibles que se cometan a partir de su vigencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Estructura del CP (llibre II)",
+      "stem": "Pel que fa a l'estructura del Codi penal, quin és el contingut del llibre II?",
+      "options": [
+        "Les disposicions generals sobre els delictes, les persones responsables, les penes i les mesures de seguretat.",
+        "Les faltes i les seves penes.",
+        "La responsabilitat civil derivada dels delictes i les costes processals.",
+        "Els delictes i les seves penes."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El Codi s'estructura en un títol preliminar (garanties penals i aplicació de la llei penal), el llibre I (disposicions generals), el llibre II (delictes i les seves penes) i el llibre III (faltes), derogat per la LO 1/2015. La responsabilitat civil és el títol V del llibre I.",
+      "excerpt": "LIBRO II. Delitos y sus penas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Exposició de motius CP",
+      "stem": "Segons l'exposició de motius del Codi penal de 1995, pel lloc preeminent que ocupa en l'ordenament, el Codi penal s'ha considerat com una mena de:",
+      "options": [
+        "«Llei de lleis».",
+        "«Constitució negativa».",
+        "«Carta magna del delinqüent».",
+        "«Codi de la convivència social»."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'exposició de motius afirma que el Codi penal defineix els pressupòsits de la pena criminal i que per això s'ha considerat una espècie de «Constitució negativa».",
+      "excerpt": "ocupa un lugar preeminente en el conjunto del ordenamiento, hasta el punto de que, no sin razón, se ha considerado como una especie de «Constitución negativa».",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Exposició de motius CP",
+      "stem": "L'exposició de motius del Codi penal afirma que s'ha afrontat l'antinòmia existent entre el principi d'intervenció mínima i:",
+      "options": [
+        "El principi de legalitat i la reserva de llei orgànica.",
+        "Les exigències de prevenció especial de les penes privatives de llibertat.",
+        "Les creixents necessitats de tutela en una societat cada vegada més complexa.",
+        "La potestat sancionadora de l'Administració."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Segons l'exposició de motius, el Codi dona «prudent acollida» a noves formes de delinqüència i alhora elimina figures delictives que han perdut la raó de ser, per conciliar la intervenció mínima amb les necessitats de tutela.",
+      "excerpt": "se ha afrontado la antinomia existente entre el principio de intervención mínima y las crecientes necesidades de tutela en una sociedad cada vez más compleja",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.3 CP",
+      "stem": "Quan, de l'aplicació rigorosa de la llei, resulta una pena notablement excessiva segons el jutge o tribunal, l'article 4.3 del Codi penal disposa que aquest:",
+      "options": [
+        "S'adreçarà al Govern exposant el que convingui sobre la derogació o modificació del precepte o la concessió d'indult, sens perjudici d'executar la sentència.",
+        "Podrà imposar la pena inferior en un o dos graus, motivant-ho a la sentència.",
+        "Suspendrà l'execució de la sentència fins que el Govern es pronunciï.",
+        "Elevarà la qüestió al Consell General del Poder Judicial."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 4.3 CP no permet al jutge apartar-se de la llei: ha d'executar la sentència i, alhora, pot adreçar-se al Govern proposant la derogació o modificació del precepte o l'indult.",
+      "excerpt": "3. Del mismo modo acudirá al Gobierno exponiendo lo conveniente sobre la derogación o modificación del precepto o la concesión de indulto, sin perjuicio de ejecutar desde luego la sentencia",
+      "excerpt_status": "completo"
+    }
+  ]
+}

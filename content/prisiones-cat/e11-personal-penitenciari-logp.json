@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcat-e11-personal-penitenciari-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 11. El personal al servei de l'Administració penitenciària a Catalunya",
+    "topic_slug": "pcat-e11-personal-penitenciari",
+    "locale": "ca",
+    "category": "pcat_e11_personal_penitenciari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 80.2 LOGP",
+      "stem": "Segons l'article 80 de la LOGP, quina condició tenen els funcionaris de l'Administració penitenciària en l'exercici del seu càrrec?",
+      "options": [
+        "La condició d'autoritat pública.",
+        "La condició de policia judicial.",
+        "La condició d'agents de seguretat privada.",
+        "La condició d'agents de l'autoritat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 80.2 LOGP atribueix als funcionaris penitenciaris, en l'exercici del càrrec, la condició d'agents de l'autoritat, que poden identificar pel seu número de registre professional.",
+      "excerpt": "Los funcionarios de la administración penitenciaria en el ejercicio de su cargo tendrán la condición de agentes de la autoridad",
+      "excerpt_status": "completo"
+    }
+  ]
+}

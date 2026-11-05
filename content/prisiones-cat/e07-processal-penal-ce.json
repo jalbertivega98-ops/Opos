@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "pcat-e07-processal-penal-ce-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 7. Dret processal penal: jurisdicció, procés penal i parts",
+    "topic_slug": "pcat-e07-processal-penal",
+    "locale": "ca",
+    "category": "pcat_e07_processal_penal",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 24.2 CE",
+      "stem": "Quin article de la Constitució espanyola reconeix el dret a la presumpció d'innocència?",
+      "options": [
+        "L'article 17.3.",
+        "L'article 25.1.",
+        "L'article 120.3.",
+        "L'article 24.2."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 24.2 CE reconeix, entre altres garanties processals, el dret a no declarar contra si mateix, a no confessar-se culpable i a la presumpció d'innocència.",
+      "excerpt": "a no declarar contra sí mismos, a no confesarse culpables y a la presunción de inocencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24.2 CE",
+      "stem": "Quin dels drets següents NO figura en l'enumeració de l'article 24.2 de la Constitució espanyola?",
+      "options": [
+        "El dret al jutge ordinari predeterminat per la llei.",
+        "El dret a un procés públic sense dilacions indegudes i amb totes les garanties.",
+        "El dret a ser jutjat en tot cas per un tribunal del jurat.",
+        "El dret a utilitzar els mitjans de prova pertinents per a la defensa."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 24.2 CE enumera, entre d'altres, el dret al jutge ordinari predeterminat per la llei, a la defensa i a l'assistència de lletrat, a un procés públic sense dilacions indegudes i a utilitzar els mitjans de prova pertinents. La participació en el jurat es regula a l'art. 125 CE i només en els processos que la llei determini.",
+      "excerpt": "todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para su defensa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 125 CE",
+      "stem": "Segons l'article 125 de la Constitució espanyola, els ciutadans poden exercir l'acció popular i participar en l'Administració de justícia mitjançant:",
+      "options": [
+        "El Ministeri Fiscal.",
+        "L'elecció dels membres del Consell General del Poder Judicial.",
+        "La designació dels jutges de pau de cada municipi.",
+        "La institució del Jurat, en la forma i respecte als processos penals que la llei determini."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 125 CE preveu l'acció popular i la participació ciutadana en l'Administració de justícia mitjançant el Jurat i els tribunals consuetudinaris i tradicionals.",
+      "excerpt": "Los ciudadanos podrán ejercer la acción popular y participar en la Administración de Justicia mediante la institución del Jurado, en la forma y con respecto a aquellos procesos penales que la ley determine",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 124.2 CE",
+      "stem": "Segons l'article 124 de la Constitució espanyola, quin dels principis següents NO és un dels que regeixen l'actuació del Ministeri Fiscal?",
+      "options": [
+        "Unitat d'actuació.",
+        "Dependència jeràrquica.",
+        "Oportunitat.",
+        "Legalitat."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 124.2 CE estableix que el Ministeri Fiscal actua d'acord amb els principis d'unitat d'actuació i dependència jeràrquica i amb subjecció als de legalitat i imparcialitat. L'oportunitat no hi figura.",
+      "excerpt": "El Ministerio Fiscal ejerce sus funciones por medio de órganos propios conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 120.3 CE",
+      "stem": "Segons l'article 120 de la Constitució espanyola, les sentències:",
+      "options": [
+        "Seran sempre motivades i es pronunciaran en audiència pública.",
+        "Només s'han de motivar quan siguin condemnatòries.",
+        "Es pronunciaran a porta tancada en matèria criminal.",
+        "S'han de motivar quan ho sol·liciti alguna de les parts."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 120 CE estableix la publicitat de les actuacions judicials, el caràcter predominantment oral del procediment, sobretot en matèria criminal, i que les sentències són sempre motivades i es pronuncien en audiència pública.",
+      "excerpt": "Las sentencias serán siempre motivadas y se pronunciarán en audiencia pública.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "pcat-e02-delicte-cp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 2. El delicte: classes, graus d'execució, autoria i participació, eximents",
+    "topic_slug": "pcat-e02-delicte",
+    "locale": "ca",
+    "category": "pcat_e02_delicte",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10 CP",
+      "stem": "Segons l'article 10 del Codi penal, són delictes:",
+      "options": [
+        "Les accions doloses penades per la llei, però no les omissions.",
+        "Les accions i omissions contràries a l'ordenament jurídic, encara que no estiguin penades.",
+        "Les accions i omissions doloses penades per la llei o pels reglaments.",
+        "Les accions i omissions doloses o imprudents penades per la llei."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 10 CP defineix el delicte com l'acció o omissió, dolosa o imprudent, penada per la llei.",
+      "excerpt": "Son delitos las acciones y omisiones dolosas o imprudentes penadas por la ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11 CP",
+      "stem": "En els delictes que consisteixen en la producció d'un resultat, en quin dels casos següents NO s'equipara l'omissió a l'acció segons l'article 11 del Codi penal?",
+      "options": [
+        "Quan l'omitent només tenia un deure moral genèric de solidaritat amb la víctima.",
+        "Quan existeix una obligació legal específica d'actuar.",
+        "Quan existeix una obligació contractual específica d'actuar.",
+        "Quan l'omitent ha creat una ocasió de risc per al bé jurídic mitjançant una acció o omissió precedent."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 11 CP només equipara l'omissió a l'acció quan existeix una obligació legal o contractual específica d'actuar o quan l'omitent ha creat prèviament una ocasió de risc (ingerència). Un deure moral genèric no n'hi ha prou.",
+      "excerpt": "a) Cuando exista una específica obligación legal o contractual de actuar. b) Cuando el omitente haya creado una ocasión de riesgo para el bien jurídicamente protegido mediante una acción u omisión precedente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.4 CP",
+      "stem": "D'acord amb l'article 13.4 del Codi penal, quan la pena, per la seva extensió, es pot considerar alhora lleu i menys greu, el delicte es considera:",
+      "options": [
+        "En tot cas, menys greu.",
+        "Greu.",
+        "En tot cas, lleu.",
+        "Lleu o menys greu, segons el que determini el jutge atenent les circumstàncies del fet."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 13.4 CP resol els casos frontera: si la pena pot ser alhora greu i menys greu, el delicte és greu; si pot ser lleu i menys greu, el delicte és lleu.",
+      "excerpt": "Cuando la pena, por su extensión, pueda considerarse como leve y como menos grave, el delito se considerará, en todo caso, como leve.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 13.1 i 33.2 CP",
+      "stem": "Un delicte castigat amb una pena de presó de sis a deu anys és, d'acord amb els articles 13 i 33 del Codi penal:",
+      "options": [
+        "Un delicte menys greu.",
+        "Un delicte greu.",
+        "Un delicte lleu.",
+        "Un delicte greu o menys greu, segons la pena concreta imposada."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Són delictes greus els castigats amb pena greu (art. 13.1), i la presó superior a cinc anys és pena greu (art. 33.2.b).",
+      "excerpt": "1. Son delitos graves las infracciones que la Ley castiga con pena grave. […] b) La prisión superior a cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.1 CP",
+      "stem": "Segons l'article 14.1 del Codi penal, l'error vencible sobre un fet constitutiu de la infracció penal:",
+      "options": [
+        "Exclou la responsabilitat criminal.",
+        "Comporta que la infracció es castigui, si escau, com a imprudent.",
+        "Comporta l'aplicació de la pena inferior en un o dos graus.",
+        "No té cap efecte sobre la responsabilitat criminal."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'error de tipus invencible exclou la responsabilitat criminal; el vencible fa que la infracció es castigui, si escau, com a imprudent (art. 14.1 CP).",
+      "excerpt": "1. El error invencible sobre un hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error, atendidas las circunstancias del hecho y las personales del autor, fuera vencible, la infracción será castigada, en su caso, como imprudente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.3 CP",
+      "stem": "Quin efecte té, segons l'article 14.3 del Codi penal, l'error vencible sobre la il·licitud del fet constitutiu de la infracció penal?",
+      "options": [
+        "S'exclou la responsabilitat criminal.",
+        "La infracció es castiga com a imprudent.",
+        "S'aplica la pena inferior en un o dos graus.",
+        "S'aplica la pena en la meitat inferior."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'error de prohibició invencible exclou la responsabilitat criminal; si és vencible, s'aplica la pena inferior en un o dos graus (art. 14.3 CP). El càstig com a imprudent és propi de l'error de tipus vencible (art. 14.1).",
+      "excerpt": "3. El error invencible sobre la ilicitud del hecho constitutivo de la infracción penal excluye la responsabilidad criminal. Si el error fuera vencible, se aplicará la pena inferior en uno o dos grados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15 CP",
+      "stem": "Segons l'article 15 del Codi penal, són punibles:",
+      "options": [
+        "El delicte consumat i la temptativa de delicte.",
+        "Només el delicte consumat.",
+        "El delicte consumat, la temptativa i la frustració.",
+        "El delicte consumat i, en tot cas, la conspiració."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'article 15 CP declara punibles el delicte consumat i la temptativa. La conspiració i la proposició només es castiguen en els casos especialment previstos per la llei (art. 17.3).",
+      "excerpt": "Son punibles el delito consumado y la tentativa de delito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.2 CP",
+      "stem": "D'acord amb l'article 16.2 del Codi penal, qui evita voluntàriament la consumació del delicte, sigui desistint de l'execució ja iniciada, sigui impedint la producció del resultat:",
+      "options": [
+        "Respon per temptativa, però amb la pena inferior en un grau.",
+        "Queda exempt de qualsevol responsabilitat penal, també pels actes ja executats.",
+        "Té dret a l'aplicació d'una circumstància atenuant molt qualificada.",
+        "Queda exempt de responsabilitat penal pel delicte intentat, sens perjudici de la responsabilitat pels actes executats si ja eren constitutius d'un altre delicte."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El desistiment voluntari eximeix de la responsabilitat pel delicte intentat, però no de la que correspongui pels actes executats si aquests ja constitueixen un altre delicte (art. 16.2 CP).",
+      "excerpt": "2. Quedará exento de responsabilidad penal por el delito intentado quien evite voluntariamente la consumación del delito, bien desistiendo de la ejecución ya iniciada, bien impidiendo la producción del resultado, sin perjuicio de la responsabilidad en que pudiera haber incurrido por los actos ejecutados, si éstos fueren ya constitutivos de otro delito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.3 CP",
+      "stem": "Quan en un fet intervenen diversos subjectes, quins queden exempts de responsabilitat penal pel delicte intentat, segons l'article 16.3 del Codi penal?",
+      "options": [
+        "Els qui simplement desisteixin de la seva pròpia aportació a l'execució.",
+        "Només els qui aconsegueixin impedir efectivament la consumació.",
+        "Els qui, després de desistir, ho comuniquin a l'autoritat abans de la consumació.",
+        "Els qui desisteixin de l'execució ja iniciada i impedeixin o intentin impedir, seriosament, fermament i decididament, la consumació."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Amb pluralitat d'intervinents no n'hi ha prou amb abandonar l'execució: cal desistir i, a més, impedir o intentar impedir la consumació de manera seriosa, ferma i decidida (art. 16.3 CP).",
+      "excerpt": "3. Cuando en un hecho intervengan varios sujetos, quedarán exentos de responsabilidad penal aquél o aquéllos que desistan de la ejecución ya iniciada, e impidan o intenten impedir, seria, firme y decididamente, la consumación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 CP",
+      "stem": "Segons l'article 17 del Codi penal, hi ha conspiració quan:",
+      "options": [
+        "Dues o més persones es concerten per a l'execució d'un delicte i resolen executar-lo.",
+        "Qui ha resolt cometre un delicte convida una altra o altres persones a participar-hi.",
+        "S'incita directament, per mitjà de la impremta o la radiodifusió, a la perpetració d'un delicte.",
+        "S'exposen davant una concurrència de persones idees que enalteixen l'autor d'un delicte."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 17.1 CP defineix la conspiració (concert i resolució conjunta d'executar el delicte). La invitació a participar és la proposició (art. 17.2), la incitació pública és la provocació i l'enaltiment, l'apologia (art. 18.1).",
+      "excerpt": "1. La conspiración existe cuando dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 17 i 18 CP",
+      "stem": "Quina de les afirmacions següents sobre la conspiració, la proposició i la provocació NO és correcta?",
+      "options": [
+        "La proposició existeix quan qui ha resolt cometre un delicte convida una altra o altres persones a participar-hi.",
+        "La provocació es castiga exclusivament en els casos en què la llei ho preveu.",
+        "La conspiració i la proposició per delinquir es castiguen sempre, amb la pena inferior en un grau a la del delicte.",
+        "Si a la provocació ha seguit la perpetració del delicte, es castiga com a inducció."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Segons l'article 17.3 CP, la conspiració i la proposició només es castiguen en els casos especialment previstos per la llei. Les altres tres afirmacions reprodueixen els articles 17.2 i 18.2.",
+      "excerpt": "3. La conspiración y la proposición para delinquir sólo se castigarán en los casos especialmente previstos en la ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 18.1 CP",
+      "stem": "D'acord amb l'article 18.1 del Codi penal, l'apologia:",
+      "options": [
+        "És delictiva sempre que es faci davant una concurrència de persones.",
+        "Només és delictiva com a forma de provocació i si, per la seva naturalesa i circumstàncies, constitueix una incitació directa a cometre un delicte.",
+        "És delictiva quan enalteix l'autor d'un delicte, encara que no inciti a cometre'n cap.",
+        "Es castiga en tot cas com a inducció."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'apologia (exposició d'idees que enalteixen el crim o el seu autor) només és delictiva quan és una forma de provocació i constitueix una incitació directa a delinquir (art. 18.1 CP).",
+      "excerpt": "La apología sólo será delictiva como forma de provocación y si por su naturaleza y circunstancias constituye una incitación directa a cometer un delito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 19 CP",
+      "stem": "Segons l'article 19 del Codi penal, els menors de quina edat no són responsables criminalment d'acord amb el Codi?",
+      "options": [
+        "Els menors de setze anys.",
+        "Els menors de catorze anys.",
+        "Els menors de divuit anys.",
+        "Els menors de vint-i-un anys."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els menors de divuit anys no responen d'acord amb el Codi penal; si cometen un fet delictiu, poden ser responsables d'acord amb la llei que regula la responsabilitat penal del menor.",
+      "excerpt": "Los menores de dieciocho años no serán responsables criminalmente con arreglo a este Código.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.4 CP",
+      "stem": "Quin dels requisits següents NO forma part de l'eximent de legítima defensa de l'article 20.4 del Codi penal?",
+      "options": [
+        "Que el mal causat no sigui més gran que el que es tracti d'evitar.",
+        "Agressió il·legítima.",
+        "Necessitat racional del mitjà emprat per impedir-la o repel·lir-la.",
+        "Falta de provocació suficient per part del defensor."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La legítima defensa exigeix agressió il·legítima, necessitat racional del mitjà emprat i falta de provocació suficient. Que el mal causat no sigui més gran que el que s'evita és un requisit de l'estat de necessitat (art. 20.5).",
+      "excerpt": "Primero. Agresión ilegítima. […] Segundo. Necesidad racional del medio empleado para impedirla o repelerla. Tercero. Falta de provocación suficiente por parte del defensor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.7 CP",
+      "stem": "Segons l'article 20.7 del Codi penal, està exempt de responsabilitat criminal qui actua:",
+      "options": [
+        "Per obediència deguda a un superior jeràrquic, en tot cas.",
+        "En compliment d'un deure o en l'exercici legítim d'un dret, ofici o càrrec.",
+        "En estat d'arravatament o obcecació.",
+        "Per causes o estímuls poderosos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 20.7 CP recull l'eximent de compliment d'un deure o exercici legítim d'un dret, ofici o càrrec. L'arravatament o l'obcecació per estímuls poderosos és una circumstància atenuant (art. 21.3).",
+      "excerpt": "7.º El que obre en cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21.4 CP",
+      "stem": "Per apreciar l'atenuant de confessió de l'article 21.4 del Codi penal, el culpable ha d'haver confessat la infracció a les autoritats:",
+      "options": [
+        "Abans de la celebració de l'acte del judici oral.",
+        "En qualsevol moment del procediment.",
+        "Abans que la sentència hagi esdevingut ferma.",
+        "Abans de conèixer que el procediment judicial es dirigeix contra ell."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La confessió atenua si es produeix abans que el culpable conegui que el procediment judicial es dirigeix contra ell. El límit del judici oral és el de l'atenuant de reparació del dany (art. 21.5).",
+      "excerpt": "4.ª La de haber procedido el culpable, antes de conocer que el procedimiento judicial se dirige contra él, a confesar la infracción a las autoridades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.8 CP",
+      "stem": "Respecte de l'agreujant de reincidència de l'article 22.8 del Codi penal, assenyaleu la resposta correcta:",
+      "options": [
+        "Es computen els antecedents penals cancel·lats quan corresponen a delictes greus.",
+        "Cal que el culpable hagi estat condemnat executòriament per un delicte del mateix capítol del Codi, encara que sigui de naturalesa diferent.",
+        "Es computen sempre els antecedents corresponents a delictes lleus.",
+        "Les condemnes fermes imposades per jutges o tribunals d'altres estats de la Unió Europea produeixen efectes de reincidència, llevat que l'antecedent s'hagi cancel·lat o es pugui cancel·lar d'acord amb el dret espanyol."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Hi ha reincidència si el culpable ha estat condemnat executòriament per un delicte del mateix títol i de la mateixa naturalesa; no es computen els antecedents cancel·lats o cancel·lables ni els de delictes lleus (llevat de la multireincidència en delictes lleus), i les condemnes d'altres estats de la UE hi compten.",
+      "excerpt": "Las condenas firmes de jueces o tribunales impuestas en otros Estados de la Unión Europea producirán los efectos de reincidencia salvo que el antecedente penal haya sido cancelado o pudiera serlo con arreglo al Derecho español.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 27 CP",
+      "stem": "Segons l'article 27 del Codi penal, són responsables criminalment dels delictes:",
+      "options": [
+        "Els autors, els còmplices i els encobridors.",
+        "Només els autors.",
+        "Els autors i els còmplices.",
+        "Els autors, els inductors i els encobridors."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Des de la reforma de la LO 1/2015, l'article 27 CP considera responsables criminalment dels delictes els autors i els còmplices.",
+      "excerpt": "Son responsables criminalmente de los delitos los autores y los cómplices.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 28 CP",
+      "stem": "D'acord amb l'article 28 del Codi penal, a més dels qui fan el fet per si sols, conjuntament o per mitjà d'un altre del qual se serveixen com a instrument, també es consideren autors:",
+      "options": [
+        "Els qui indueixen directament un altre o altres a executar-lo i els qui cooperen a l'execució amb un acte sense el qual no s'hauria efectuat.",
+        "Els qui cooperen a l'execució del fet amb actes anteriors o simultanis.",
+        "Els qui, després de cometre's el delicte, ajuden els responsables a eludir la investigació.",
+        "Els qui inciten a delinquir per qualsevol mitjà de difusió, encara que el delicte no s'arribi a cometre."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 28 CP equipara als autors l'inductor i el cooperador necessari. Qui coopera amb actes anteriors o simultanis no necessaris és còmplice (art. 29).",
+      "excerpt": "También serán considerados autores: a) Los que inducen directamente a otro u otros a ejecutarlo. b) Los que cooperan a su ejecución con un acto sin el cual no se habría efectuado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 29 i 63 CP",
+      "stem": "Segons el Codi penal, als còmplices d'un delicte consumat o intentat se'ls imposa:",
+      "options": [
+        "La mateixa pena que als autors, en la meitat inferior.",
+        "La pena inferior en grau a la fixada per la llei per als autors del mateix delicte.",
+        "La pena inferior en dos graus a la fixada per als autors.",
+        "La pena inferior en un o dos graus, segons el perill inherent a l'intent."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Són còmplices els qui cooperen a l'execució amb actes anteriors o simultanis sense ser autors (art. 29), i se'ls imposa la pena inferior en grau a la dels autors (art. 63). La pena inferior en un o dos graus és la de la temptativa (art. 62).",
+      "excerpt": "A los cómplices de un delito consumado o intentado se les impondrá la pena inferior en grado a la fijada por la Ley para los autores del mismo delito.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-g5-funcio-publica-lincat-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 5. La funció pública: drets i deures, situacions, provisió, incompatibilitats i règim disciplinari",
+    "topic_slug": "pcat-g5-funcio-publica",
+    "locale": "ca",
+    "category": "pcat_g5_funcio_publica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 21/1987, de 26 de noviembre, de incompatibilidades del personal al servicio de la Administración de la Generalidad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-28478",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 21.1 LINCAT",
+      "stem": "Una funcionària de la Generalitat té reconeguda la compatibilitat per exercir una activitat privada i obté, per concurs, un altre lloc de treball en el sector públic. Segons la Llei 21/1987, d'incompatibilitats del personal al servei de l'Administració de la Generalitat, el reconeixement de compatibilitat:",
+      "options": [
+        "Es manté vigent fins que s'hagi de renovar, al cap de cinc anys.",
+        "Es manté vigent si el nou lloc té el mateix nivell i la mateixa jornada.",
+        "S'ha de ratificar per l'òrgan competent en el termini d'un mes.",
+        "Queda automàticament sense efecte."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 21.1 de la Llei 21/1987 disposa que els reconeixements de compatibilitat queden automàticament sense efecte en cas de canvi de lloc en el sector públic o de modificació de les condicions del lloc de treball.",
+      "excerpt": "Los reconocimientos de compatibilidad no podrán modificar la jornada de trabajo ni el horario del interesado, y quedarán automáticamente sin efecto en caso de cambio de puesto en el sector público o de modificación en las condiciones del puesto de trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10.3 LINCAT",
+      "stem": "Segons la Llei 21/1987, qui accedeix a un nou lloc de treball del sector públic que pot ser declarat compatible amb el que ja ocupa ha de sol·licitar l'autorització de compatibilitat:",
+      "options": [
+        "Dins de quinze dies comptats des de la presa de possessió.",
+        "Abans de presentar-se al procés de selecció o de provisió.",
+        "Dins de deu dies comptats des de l'inici del termini de presa de possessió.",
+        "Dins del mes següent a la publicació del nomenament."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 10.3 de la Llei 21/1987 fixa deu dies des de l'inici del termini de presa de possessió, termini que s'entén prorrogat fins que es resolgui la sol·licitud. Els quinze dies són el termini per exercir l'opció quan l'òrgan aprecia incompatibilitat (art. 10.4).",
+      "excerpt": "Si el nuevo puesto pudiera ser declarado compatible, dentro de diez días contados desde el inicio del plazo de toma de posesión, deberá solicitarse su autorización.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

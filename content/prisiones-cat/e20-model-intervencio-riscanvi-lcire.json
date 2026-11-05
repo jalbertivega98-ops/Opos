@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "pcat-e20-model-intervencio-riscanvi-lcire-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 20. El model d'intervenció, el RisCanvi i el CIRE",
+    "topic_slug": "pcat-e20-model-intervencio-riscanvi",
+    "locale": "ca",
+    "category": "pcat_e20_model_intervencio_riscanvi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 23/2009, de 23 de diciembre, del Centro de Iniciativas para la Reinserción (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-734",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.1 Llei 23/2009",
+      "stem": "D'acord amb la Llei 23/2009, del Centre d'Iniciatives per a la Reinserció (CIRE), quin és l'objecte del CIRE?",
+      "options": [
+        "Facilitar la reinserció sociolaboral dels interns en centres penitenciaris i educatius de Catalunya.",
+        "Gestionar la seguretat exterior dels centres penitenciaris de Catalunya.",
+        "Instruir els expedients disciplinaris dels interns que treballen als tallers.",
+        "Avaluar el risc de reincidència dels interns mitjançant el protocol RisCanvi."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 2.1 de la Llei 23/2009 diu que l'objecte del CIRE és facilitar la reinserció sociolaboral dels interns en centres penitenciaris i educatius de Catalunya, mitjançant programes formatius i educatius, creació de llocs de treball i altres actuacions.",
+      "excerpt": "El objeto del Centro de Iniciativas para la Reinserción es facilitar la reinserción sociolaboral de los internos en centros penitenciarios y educativos de Cataluña",
+      "excerpt_status": "completo",
+      "review_note": "El fitxer leyes/LCIRE.md és la versió original de 2009 (no consolidada); convé confirmar que l'art. 2.1 no s'ha modificat."
+    },
+    {
+      "ref": "Art. 1.1 Llei 23/2009",
+      "stem": "Segons la Llei 23/2009, quina naturalesa jurídica té el Centre d'Iniciatives per a la Reinserció?",
+      "options": [
+        "És un òrgan administratiu del departament competent en matèria d'execució penal sense personalitat jurídica pròpia.",
+        "És una societat mercantil de capital privat que gestiona els tallers per concessió administrativa.",
+        "És una fundació del sector públic subjecta íntegrament al dret administratiu.",
+        "És una empresa pública de la Generalitat amb naturalesa d'entitat de dret públic amb personalitat jurídica pròpia, que ajusta la seva actuació al dret privat, llevat dels supòsits que la llei especifica."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 1.1 de la Llei 23/2009 configura el CIRE com a empresa pública de la Generalitat, entitat de dret públic amb personalitat jurídica pròpia que actua sotmesa al dret privat, llevat de les excepcions previstes.",
+      "excerpt": "El Centro de Iniciativas para la Reinserción es una empresa pública de la Generalidad que tiene naturaleza de entidad de derecho público con personalidad jurídica propia, cuya actuación se ajusta al derecho privado, excepto en los supuestos y materias expresamente especificados en la presente ley.",
+      "excerpt_status": "completo",
+      "review_note": "El fitxer leyes/LCIRE.md és la versió original de 2009 (no consolidada); convé confirmar que l'art. 1.1 no s'ha modificat."
+    }
+  ]
+}

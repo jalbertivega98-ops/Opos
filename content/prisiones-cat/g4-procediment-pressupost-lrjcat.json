@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "pcat-g4-procediment-pressupost-lrjcat-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Part general. Tema 4. Procediment administratiu i pressupost de la Generalitat",
+    "topic_slug": "pcat-g4-procediment-pressupost",
+    "locale": "ca",
+    "category": "pcat_g4_procediment_pressupost",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 26/2010, de 3 de agosto, de régimen jurídico y de procedimiento de las administraciones públicas de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-13313",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 51.1 LRJCAT",
+      "stem": "Segons la Llei 26/2010, de règim jurídic i de procediment de les administracions públiques de Catalunya, en el tràmit d'audiència les persones interessades poden formular al·legacions i aportar documents en un termini:",
+      "options": [
+        "No inferior a cinc dies ni superior a deu.",
+        "D'un mes, comptador des de la notificació de la proposta de resolució.",
+        "No inferior a deu dies ni superior a quinze, si la normativa corresponent no en fixa un altre de diferent.",
+        "No inferior a quinze dies ni superior a vint."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 51.1 de la Llei 26/2010 situa l'audiència immediatament abans de redactar la proposta de resolució i fixa un termini d'al·legacions no inferior a deu dies ni superior a quinze, llevat d'una altra previsió normativa.",
+      "excerpt": "para que puedan formular las alegaciones y aportar los documentos que estimen procedentes en un plazo no inferior a diez días ni superior a quince, a no ser que se fije otro distinto en la correspondiente normativa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 72 LRJCAT",
+      "stem": "En la revisió d'ofici d'actes nuls de ple dret de l'Administració de la Generalitat, la Llei 26/2010 estableix que és preceptiu el dictamen:",
+      "options": [
+        "Del Consell de Garanties Estatutàries.",
+        "Del Consell d'Estat.",
+        "Del Gabinet Jurídic de la Generalitat.",
+        "De la Comissió Jurídica Assessora."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 72 de la Llei 26/2010 fa preceptiu el dictamen de la Comissió Jurídica Assessora en la revisió d'ofici d'actes nuls i de disposicions reglamentàries. L'art. 106.1 LPAC parla del dictamen favorable del Consell d'Estat o de l'òrgan consultiu equivalent de la comunitat autònoma.",
+      "excerpt": "El dictamen de la Comisión Jurídica Asesora es preceptivo en los expedientes de la Administración de la Generalidad o de la Administración local relativos a la revisión de oficio de actos nulos de pleno derecho y de disposiciones reglamentarias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 75.1 LRJCAT",
+      "stem": "En l'àmbit de l'Administració de la Generalitat, segons la Llei 26/2010, posen fi a la via administrativa els actes dels secretaris generals i dels directors generals:",
+      "options": [
+        "En matèria de personal.",
+        "En tota matèria, sense excepció.",
+        "Només quan resolen recursos de reposició.",
+        "Només quan actuen per delegació del Govern."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 75.1.b) de la Llei 26/2010 inclou entre els òrgans els actes dels quals posen fi a la via administrativa els secretaris generals, els directors generals i els òrgans directius dels organismes i entitats públiques dependents, en matèria de personal.",
+      "excerpt": "b) Los secretarios generales, los directores generales y los órganos directivos de los organismos y entidades públicas dependientes de la Administración de la Generalidad en materia de personal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

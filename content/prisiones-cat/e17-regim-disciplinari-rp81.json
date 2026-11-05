@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e17-regim-disciplinari-rp81-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 17. El règim disciplinari dels interns",
+    "topic_slug": "pcat-e17-regim-disciplinari",
+    "locale": "ca",
+    "category": "pcat_e17_regim_disciplinari",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Real Decreto 1201/1981, de 8 de mayo, Reglamento Penitenciario (artículos vigentes) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-14095",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 108 RP 1981",
+      "stem": "D'acord amb el Reglament penitenciari de 1981 (RP 1981), quina de les conductes següents NO està tipificada com a falta molt greu?",
+      "options": [
+        "Intentar, facilitar o consumar l'evasió.",
+        "Agredir o fer objecte de coacció greu altres interns.",
+        "Desobeir les ordres rebudes d'autoritats o funcionaris en l'exercici legítim de les seves atribucions o resistir-s'hi passivament.",
+        "Participar en motins, plantades o desordres col·lectius, o instigar-hi si s'han produït."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'evasió (108.e), l'agressió o coacció greu a altres interns (108.c) i la participació en motins (108.a) són faltes molt greus. La desobediència o la resistència passiva a les ordres és falta greu (art. 109.b RP 1981).",
+      "excerpt": "Son faltas muy graves: a) Participar en motines, plantes o desórdenes colectivos, o instigar a los mismos si éstos se hubieran producido. […] c) Agredir o hacer objeto de coacción grave a otros internos. […] e) Intentar, facilitar o consumar la evasión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 109.f RP 1981",
+      "stem": "Segons el RP 1981, introduir, fer sortir o posseir en l'establiment objectes prohibits per les normes de règim interior constitueix:",
+      "options": [
+        "Una falta molt greu.",
+        "Una falta greu.",
+        "Una falta lleu.",
+        "Un acte d'indisciplina greu d'execució immediata."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 109.f RP 1981 tipifica com a falta greu introduir, fer sortir o posseir objectes prohibits per les normes de règim interior.",
+      "excerpt": "Son faltas graves: […] f) Introducir, hacer salir o poseer en el establecimiento objetos que se hallaren prohibidos por las normas de régimen interior.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

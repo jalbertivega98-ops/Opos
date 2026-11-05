@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "pcat-e14-regim-penitenciari-2-seguretat-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 14. El règim penitenciari II: seguretat, mitjans coercitius i protocols",
+    "topic_slug": "pcat-e14-regim-penitenciari-2-seguretat",
+    "locale": "ca",
+    "category": "pcat_e14_regim_penitenciari_2_seguretat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 45.4 LOGP",
+      "stem": "D'acord amb l'article 45 de la Llei orgànica 1/1979, general penitenciària (LOGP), poden utilitzar armes de foc els funcionaris d'institucions penitenciàries en l'exercici de les seves funcions de vigilància?",
+      "options": [
+        "Sí, amb l'autorització prèvia del director.",
+        "No, en cap cas.",
+        "Sí, però només per impedir actes d'evasió.",
+        "Sí, en els casos de motí, amb l'autorització del jutge de vigilància."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 45.4 LOGP prohibeix que els funcionaris facin servir armes de foc en les funcions de vigilància. Si les han d'utilitzar les Forces de Seguretat a qui el director demana auxili, s'apliquen les limitacions de la seva legislació (art. 72.5 RP).",
+      "excerpt": "En el desempeño de sus funciones de vigilancia los funcionarios de instituciones penitenciarias no podrán utilizar armas de fuego.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
