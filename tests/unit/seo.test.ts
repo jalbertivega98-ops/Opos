@@ -68,7 +68,9 @@ describe("guías públicas", () => {
     for (const g of examGuides()) {
       expect(g.sources.length).toBeGreaterThan(0);
       for (const s of g.sources)
-        expect(s.url).toMatch(/^https:\/\/(.+\.)?(gencat\.cat|boe\.es|inap\.gob\.es)\//);
+        expect(s.url).toMatch(
+          /^https:\/\/(.+\.)?(gencat\.cat|boe\.es|inap\.gob\.es|mjusticia\.gob\.es|policia\.es|guardiacivil\.es)\//,
+        );
       for (const t of g.psychoTypes) expect(PSYCHO_TYPES).toContain(t);
       expect(g.seoTitle.es.length).toBeLessThanOrEqual(70);
       expect(g.verifiedOn).toMatch(/^\d{4}-\d{2}-\d{2}$/);

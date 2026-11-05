@@ -92,30 +92,32 @@ export async function ExamGuideSection({
         </section>
       )}
 
-      <section aria-labelledby="guide-psycho">
-        <h2 id="guide-psycho" className="text-2xl font-bold">
-          {t("psycho")}
-        </h2>
-        <p className="text-muted-foreground mt-1 max-w-3xl text-sm">
-          {tr(guide.psychoNote, locale)}
-        </p>
-        <ul className="mt-4 flex flex-wrap gap-2">
-          {guide.psychoTypes.map((type) => {
-            const g = psychoGuideByType(type);
-            if (!g) return null;
-            return (
-              <li key={type}>
-                <Link
-                  href={`/psicotecnicos/${g.slug}`}
-                  className="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1 rounded-full border px-3 py-1.5 text-sm"
-                >
-                  {tp(`${type}.name`)} <ArrowRight className="size-3.5" aria-hidden />
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </section>
+      {guide.psychoTypes.length > 0 && (
+        <section aria-labelledby="guide-psycho">
+          <h2 id="guide-psycho" className="text-2xl font-bold">
+            {t("psycho")}
+          </h2>
+          <p className="text-muted-foreground mt-1 max-w-3xl text-sm">
+            {tr(guide.psychoNote, locale)}
+          </p>
+          <ul className="mt-4 flex flex-wrap gap-2">
+            {guide.psychoTypes.map((type) => {
+              const g = psychoGuideByType(type);
+              if (!g) return null;
+              return (
+                <li key={type}>
+                  <Link
+                    href={`/psicotecnicos/${g.slug}`}
+                    className="border-border hover:border-accent hover:text-accent inline-flex items-center gap-1 rounded-full border px-3 py-1.5 text-sm"
+                  >
+                    {tp(`${type}.name`)} <ArrowRight className="size-3.5" aria-hidden />
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       <section aria-labelledby="guide-faq">
         <h2 id="guide-faq" className="text-2xl font-bold">
