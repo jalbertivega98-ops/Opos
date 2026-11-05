@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-lt-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 24.2 y 24.4 Ley 19/2013",
+      "stem": "Según la Ley 19/2013, de transparencia, la reclamación ante el Consejo de Transparencia y Buen Gobierno se interpone en el plazo de ___ y el Consejo debe resolverla en un máximo de ___:",
+      "options": [
+        "quince días hábiles; un mes.",
+        "un mes; tres meses.",
+        "dos meses; seis meses.",
+        "un mes; un mes."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Plazo de un mes para reclamar (art. 24.2) y tres meses para resolver y notificar, transcurridos los cuales se entiende desestimada (art. 24.4).",
+      "excerpt": "La reclamación se interpondrá en el plazo de un mes […] El plazo máximo para resolver y notificar la resolución será de tres meses, transcurrido el cual, la reclamación se entenderá desestimada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

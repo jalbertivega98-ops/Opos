@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-mec_informatica-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ministerio de Educación · Iniciación a la Informática (UD1 «Los elementos básicos y primeros pasos»)",
+      "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+      "kind": "web_oficial",
+      "publisher": "Ministerio de Educación, Formación Profesional y Deportes (Librería del Ministerio)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Periféricos de salida",
+      "stem": "Un plóter, un monitor o una impresora son dispositivos:",
+      "options": [
+        "De entrada.",
+        "De almacenamiento.",
+        "De salida.",
+        "De procesamiento."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Los dispositivos de salida permiten que el ordenador se comunique con el usuario (monitor, impresora, plóter); los de entrada, como el teclado, permiten al usuario comunicarse con el ordenador.",
+      "excerpt": "Dispositivos de salida: con ellos el ordenador se comunica con el usuario.",
+      "excerpt_status": "completo",
+      "review_note": "La fuente oficial del Ministerio de Educación cita monitor e impresora, no el plóter, que se menciona solo en el enunciado; revisar si se prefiere otra fuente."
+    },
+    {
+      "ref": "Componentes internos · microprocesador",
+      "stem": "¿Cuál es la pieza fundamental de la unidad central de proceso (CPU) de un ordenador?",
+      "options": [
+        "La fuente de alimentación.",
+        "El microprocesador.",
+        "La tarjeta gráfica.",
+        "El disco duro."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La CPU tiene como pieza fundamental el microprocesador; el disco duro almacena datos de forma permanente. La pregunta oficial trataba el disipador (componente que refrigera el procesador), del que no hay fuente oficial disponible.",
+      "excerpt": "Su pieza fundamental se denomina microprocesador",
+      "excerpt_status": "completo",
+      "review_note": "Réplica desplazada al concepto más próximo con fuente oficial (procesador); no se ha encontrado fuente oficial en español sobre el disipador."
+    }
+  ]
+}

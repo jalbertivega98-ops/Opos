@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "age-adm-32-potestad-sancionadora-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.5 La potestad sancionadora: principios (Ley 40/2015, arts. 25-31) y especialidades del procedimiento",
+    "topic_slug": "age-adm-32-potestad-sancionadora",
+    "locale": "es",
+    "category": "age_adm_32_potestad_sancionadora",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 63.1 LPAC",
+      "stem": "Según la Ley 39/2015, los procedimientos de naturaleza sancionadora:",
+      "options": [
+        "Pueden iniciarse a solicitud del denunciante.",
+        "Se instruyen y resuelven por el mismo órgano para garantizar la celeridad.",
+        "Se iniciarán siempre de oficio y separarán la fase instructora y la sancionadora, encomendadas a órganos distintos.",
+        "Se inician de oficio solo cuando la infracción es muy grave."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 63.1 exige iniciación de oficio por acuerdo del órgano competente y separación entre instrucción y resolución; la denuncia no inicia el procedimiento por sí misma.",
+      "excerpt": "Los procedimientos de naturaleza sancionadora se iniciarán siempre de oficio por acuerdo del órgano competente y establecerán la debida separación entre la fase instructora y la sancionadora, que se encomendará a órganos distintos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 85.1-3 LPAC",
+      "stem": "En un procedimiento sancionador se propone una multa de 1.000 euros, sanción únicamente pecuniaria. El infractor reconoce su responsabilidad y paga voluntariamente antes de la resolución, renunciando a recurrir. Si se aplican las reducciones mínimas legales, ¿cuánto pagará?",
+      "options": [
+        "800 euros.",
+        "600 euros.",
+        "500 euros.",
+        "1.000 euros, porque las reducciones no son acumulables."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El reconocimiento y el pago voluntario dan derecho cada uno a una reducción de al menos el 20 %, acumulables entre sí: 1.000 − 200 − 200 = 600 euros, condicionado al desistimiento o renuncia a recurrir en vía administrativa (art. 85.3).",
+      "excerpt": "el órgano competente para resolver el procedimiento aplicará reducciones de, al menos, el 20 % sobre el importe de la sanción propuesta, siendo éstos acumulables entre sí.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 63.2 LPAC",
+      "stem": "Según la Ley 39/2015, ¿puede imponerse una sanción sin tramitar el procedimiento sancionador cuando los hechos son evidentes?",
+      "options": [
+        "No, en ningún caso puede imponerse una sanción sin el oportuno procedimiento.",
+        "Sí, si el infractor reconoce los hechos verbalmente.",
+        "Sí, en las infracciones leves.",
+        "Sí, si los hechos han sido constatados por un agente de la autoridad."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 63.2 no admite excepciones: siempre se exige procedimiento (aunque puede terminar anticipadamente por reconocimiento o pago, art. 85).",
+      "excerpt": "En ningún caso se podrá imponer una sanción sin que se haya tramitado el oportuno procedimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 89.1 LPAC",
+      "stem": "Durante la instrucción de un procedimiento sancionador se constata que la infracción ha prescrito. Según la Ley 39/2015, el órgano instructor:",
+      "options": [
+        "Formulará propuesta de resolución con sanción mínima.",
+        "Elevará el expediente al órgano competente para que decida si sanciona.",
+        "Suspenderá el procedimiento hasta que el infractor alegue la prescripción.",
+        "Resolverá la finalización del procedimiento con archivo de las actuaciones, sin necesidad de formular propuesta de resolución."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 89.1 enumera los supuestos de archivo sin propuesta: inexistencia de hechos, falta de acreditación, hechos no constitutivos de infracción, falta de responsable identificado o exento y prescripción.",
+      "excerpt": "El órgano instructor resolverá la finalización del procedimiento, con archivo de las actuaciones, sin que sea necesaria la formulación de la propuesta de resolución […] Cuando se concluyera, en cualquier momento, que ha prescrito la infracción.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

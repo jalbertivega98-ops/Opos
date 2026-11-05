@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_win_recortes-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Usar Recortes para realizar capturas de pantalla",
+      "url": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Recortes de Windows 11 (vídeo)",
+      "stem": "En Windows 11, ¿qué herramienta incluida en el sistema permite capturar un clip de vídeo de una parte rectangular de la pantalla?",
+      "options": [
+        "Paint.",
+        "Bloc de notas.",
+        "Visor de eventos.",
+        "Recortes."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Además de instantáneas, Recortes captura clips de vídeo de una selección rectangular. En el examen original esta pregunta fue anulada; se replica con la versión vigente.",
+      "excerpt": "Captura un clip de vídeo de una selección rectangular de cualquier parte de la pantalla que desees.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

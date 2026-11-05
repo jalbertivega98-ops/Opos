@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_excel_sumarsiconj-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Función SUMAR.SI.CONJUNTO",
+      "url": "https://support.microsoft.com/es-es/office/funci%C3%B3n-sumar-si-conjunto-c9e748f5-7ea7-455d-9406-611cebce642b",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Excel · SUMAR.SI.CONJUNTO",
+      "stem": "En Excel 365, ¿cuál es el primer argumento de la función SUMAR.SI.CONJUNTO?",
+      "options": [
+        "El primer criterio.",
+        "El primer rango de criterios.",
+        "El número de criterios que deben cumplirse.",
+        "El rango que se va a sumar."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "A diferencia de SUMAR.SI, en SUMAR.SI.CONJUNTO el rango que se suma va primero, seguido de los pares rango de criterios/criterio.",
+      "excerpt": "SUMAR.SI.CONJUNTO(rango_suma; rango_criterios1; criterios1; [rango_criterios2; criterios2];...)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

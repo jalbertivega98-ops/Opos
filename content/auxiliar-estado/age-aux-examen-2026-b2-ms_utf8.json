@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_utf8-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Uso de páginas de códigos UTF-8 en aplicaciones de Windows",
+      "url": "https://learn.microsoft.com/es-es/windows/apps/design/globalizing/use-utf8-code-page",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "UTF-8",
+      "stem": "¿Qué es UTF-8?",
+      "options": [
+        "Un protocolo para transferir ficheros entre servidores.",
+        "Un formato de compresión de imágenes sin pérdida.",
+        "Una codificación de caracteres capaz de representar todo el conjunto de caracteres Unicode.",
+        "Un estándar de cifrado de 8 bits para el correo electrónico."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "UTF-8 (Formato de Transformación Unicode de 8 bits) es la página de códigos universal para la internacionalización: puede codificar todo Unicode y es la codificación predeterminada en la Web y en plataformas XML y *nix.",
+      "excerpt": "UTF-8 es la página de códigos universal para la internacionalización y puede cifrar todo el conjunto de caracteres Unicode.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

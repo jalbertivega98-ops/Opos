@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p2-lgs-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2024-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 38/2003, de 17 de noviembre, General de Subvenciones (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 5.1 LGS",
+      "stem": "Según la Ley 38/2003, General de Subvenciones, ¿por qué normas se rigen las ayudas que prepara Dña. Lucía Ferrer?",
+      "options": [
+        "Exclusivamente por las bases reguladoras de cada convocatoria.",
+        "Por el Código Civil y, en su defecto, por la Ley General de Subvenciones.",
+        "Por la Ley de Contratos del Sector Público, por tratarse de gasto público.",
+        "Por esa ley y sus disposiciones de desarrollo, las restantes normas de derecho administrativo y, en su defecto, las de derecho privado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 5.1 fija el orden: Ley 38/2003 y su desarrollo, resto del derecho administrativo y, supletoriamente, derecho privado.",
+      "excerpt": "Las subvenciones se regirán, en los términos establecidos en el artículo 3, por esta ley y sus disposiciones de desarrollo, las restantes normas de derecho administrativo, y, en su defecto, se aplicarán las normas de derecho privado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.1 LGS",
+      "stem": "Antes de establecer las ayudas a ganaderos, el ministerio debe concretar sus objetivos, plazos, costes y fuentes de financiación en:",
+      "options": [
+        "Una memoria de análisis de impacto normativo.",
+        "Un convenio con las Comunidades Autónomas afectadas.",
+        "El anteproyecto de Presupuestos Generales del Estado.",
+        "Un plan estratégico de subvenciones."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 8.1 exige concretar con carácter previo, en un plan estratégico de subvenciones, objetivos, efectos, plazo, costes y fuentes de financiación.",
+      "excerpt": "deberán concretar en un plan estratégico de subvenciones los objetivos y efectos que se pretenden con su aplicación, el plazo necesario para su consecución, los costes previsibles y sus fuentes de financiación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 34.1 LGS",
+      "stem": "Según la Ley 38/2003, ¿qué trámite debe efectuarse con carácter previo a la convocatoria de las ayudas?",
+      "options": [
+        "El reconocimiento de la obligación.",
+        "La propuesta de pago.",
+        "La aprobación del gasto.",
+        "La justificación de las ayudas por los beneficiarios."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La aprobación del gasto debe efectuarse antes de la convocatoria o de la concesión directa (art. 34.1); el reconocimiento de la obligación y el pago son posteriores.",
+      "excerpt": "Con carácter previo a la convocatoria de la subvención o a la concesión directa de la misma, deberá efectuarse la aprobación del gasto",
+      "excerpt_status": "completo"
+    }
+  ]
+}

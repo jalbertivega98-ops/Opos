@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 47.1.c LPAC",
+      "stem": "Según la Ley 39/2015, un acto administrativo de contenido imposible es:",
+      "options": [
+        "Nulo de pleno derecho.",
+        "Anulable.",
+        "Válido, pero ineficaz hasta su convalidación.",
+        "Irregular no invalidante."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Los actos de contenido imposible figuran entre los nulos de pleno derecho (art. 47.1.c).",
+      "excerpt": "Los que tengan un contenido imposible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 96.6 LPAC",
+      "stem": "Salvo que reste menos para su tramitación ordinaria, un procedimiento tramitado de manera simplificada debe resolverse en:",
+      "options": [
+        "Tres meses, desde la fecha de iniciación.",
+        "Diez días, desde la notificación del acuerdo de tramitación simplificada.",
+        "Treinta días, desde el siguiente a la notificación al interesado del acuerdo de tramitación simplificada.",
+        "Treinta días hábiles, desde la presentación de la solicitud."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 96.6 fija treinta días contados desde el siguiente a la notificación del acuerdo de tramitación simplificada.",
+      "excerpt": "los procedimientos administrativos tramitados de manera simplificada deberán ser resueltos en treinta días, a contar desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada del procedimiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 74 LPAC",
+      "stem": "Según la Ley 39/2015, las cuestiones incidentales que se susciten en el procedimiento:",
+      "options": [
+        "Suspenden siempre la tramitación hasta que se resuelvan.",
+        "No suspenden su tramitación, salvo la recusación.",
+        "Solo suspenden la tramitación cuando se refieren a la nulidad de actuaciones.",
+        "No suspenden la tramitación en ningún caso, ni siquiera la recusación."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ninguna cuestión incidental, ni siquiera la de nulidad de actuaciones, suspende el procedimiento, con la única excepción de la recusación (art. 74).",
+      "excerpt": "Las cuestiones incidentales que se susciten en el procedimiento, incluso las que se refieran a la nulidad de actuaciones, no suspenderán la tramitación del mismo, salvo la recusación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.2.a LPAC (certificados electrónicos)",
+      "stem": "Según la Ley 39/2015, uno de los sistemas que permiten a los interesados identificarse electrónicamente ante las Administraciones son los sistemas basados en:",
+      "options": [
+        "Cualquier dirección de correo electrónico declarada por el interesado.",
+        "Contraseñas elegidas libremente por el interesado sin registro previo.",
+        "Certificados electrónicos cualificados de firma electrónica expedidos por prestadores incluidos en la Lista de confianza.",
+        "Fotografías escaneadas del documento de identidad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 9.2.a admite los sistemas basados en certificados electrónicos cualificados de firma expedidos por prestadores incluidos en la «Lista de confianza de prestadores de servicios de certificación».",
+      "excerpt": "Sistemas basados en certificados electrónicos cualificados de firma electrónica expedidos por prestadores incluidos en la",
+      "excerpt_status": "completo",
+      "review_note": "El original preguntaba qué es un certificado electrónico (bloque de informática). No hay fuente oficial capturada con esa definición; se replica sobre su uso legal como medio de identificación."
+    }
+  ]
+}

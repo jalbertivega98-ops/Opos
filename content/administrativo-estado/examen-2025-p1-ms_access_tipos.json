@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_access_tipos-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tipos de datos para bases de datos de escritorio de Access",
+      "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tipos de datos en Access",
+      "stem": "En Access 365, ¿qué tamaño máximo aproximado admite un campo de tipo Objeto OLE?",
+      "options": [
+        "255 caracteres.",
+        "8 bytes.",
+        "64.000 caracteres.",
+        "Hasta unos 2 GB."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Objeto OLE llega a unos 2 GB; 255 caracteres es Texto breve y 8 bytes Moneda o Fecha y hora.",
+      "excerpt": "| Objeto OLE | Imágenes, gráficos u otros objetos de ActiveX desde otra aplicación basada en Windows. | Hasta unos 2 GB. |",
+      "excerpt_status": "completo",
+      "review_note": "La pregunta oficial preguntaba por «Datos adjuntos»; la fuente oficial capturada no da su tamaño máximo (solo dice que admite datos adjuntos ilimitados por registro), por lo que la réplica usa el tipo con límite de 2 GB documentado."
+    }
+  ]
+}

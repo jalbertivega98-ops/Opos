@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pn-31-inmigracion-fmi_globalizacion-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 31. Inmigración: movimientos migratorios, concepto, causas, tipos y efectos; integración social",
+    "topic_slug": "pn-31-inmigracion",
+    "locale": "es",
+    "category": "pn_31_inmigracion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "FMI · La globalización: ¿Amenaza u oportunidad? (estudio temático, abril de 2000)",
+      "url": "https://www.imf.org/external/np/exr/ib/2000/esl/041200s.htm",
+      "kind": "web_oficial",
+      "publisher": "Fondo Monetario Internacional (organismo de las Naciones Unidas)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "FMI, La globalización (2000): Migraciones",
+      "stem": "Según el FMI, los trabajadores se desplazan de un país a otro en parte:",
+      "options": [
+        "Por la desaparición de las fronteras nacionales.",
+        "En busca de mejores oportunidades de empleo.",
+        "Por la obligación impuesta por los acuerdos comerciales."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El FMI incluye las migraciones entre los cuatro aspectos de la globalización y señala la búsqueda de mejores oportunidades de empleo como uno de sus motivos.",
+      "excerpt": "Los trabajadores se desplazan de un país a otro en parte en busca de mejores oportunidades de empleo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "FMI, La globalización (2000): Migraciones",
+      "stem": "Según el FMI, en el período 1965-90 la mano de obra extranjera en todo el mundo:",
+      "options": [
+        "Aumentó alrededor del 50 %.",
+        "Se duplicó.",
+        "Se redujo alrededor del 20 %."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El FMI señala que el número de trabajadores migrantes aún es bastante pequeño, pero que entre 1965 y 1990 la mano de obra extranjera aumentó en torno al 50 %.",
+      "excerpt": "en el período 1965-90 la mano de obra extranjera aumentó alrededor del 50% en todo el mundo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "FMI, La globalización (2000): Migraciones",
+      "stem": "Según el FMI, la corriente migratoria hacia las economías avanzadas probablemente dé lugar a:",
+      "options": [
+        "Una mayor divergencia de los salarios entre países.",
+        "Una convergencia de los salarios a nivel mundial.",
+        "La desaparición de la emigración entre países en desarrollo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El FMI considera probable que la corriente migratoria hacia las economías avanzadas favorezca la convergencia mundial de los salarios.",
+      "excerpt": "la corriente migratoria hacia las economías avanzadas probablemente de lugar a una convergencia de los salarios a nivel mundial.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

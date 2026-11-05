@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-lcsp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 16.1 LCSP",
+      "stem": "Un contrato que tiene por objeto el arrendamiento con opción de compra de vehículos para un ministerio es, según la Ley 9/2017:",
+      "options": [
+        "Un contrato de servicios.",
+        "Un contrato de concesión de servicios.",
+        "Un contrato de suministro.",
+        "Un contrato privado excluido de la Ley."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El suministro comprende la adquisición, el arrendamiento financiero o el arrendamiento, con o sin opción de compra, de productos o bienes muebles (art. 16.1).",
+      "excerpt": "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 145.1 LCSP",
+      "stem": "Según la Ley 9/2017, la adjudicación de los contratos se realiza utilizando:",
+      "options": [
+        "Exclusivamente el criterio del precio más bajo.",
+        "El criterio que libremente elija el órgano de contratación sin motivación.",
+        "La valoración de la solvencia de las empresas licitadoras.",
+        "Una pluralidad de criterios de adjudicación en base a la mejor relación calidad-precio."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Regla general del art. 145.1: pluralidad de criterios y mejor relación calidad-precio. La solvencia es requisito de aptitud, no criterio de adjudicación.",
+      "excerpt": "La adjudicación de los contratos se realizará utilizando una pluralidad de criterios de adjudicación en base a la mejor relación calidad-precio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 198.4 LCSP",
+      "stem": "Según la Ley 9/2017, la Administración debe abonar el precio del contrato:",
+      "options": [
+        "Dentro de los sesenta días siguientes a la presentación de la factura.",
+        "Dentro de los treinta días siguientes a la aprobación de las certificaciones de obra o documentos de conformidad.",
+        "Dentro de los quince días siguientes a la formalización del contrato.",
+        "Al finalizar el ejercicio presupuestario."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 198.4 fija treinta días desde la aprobación de las certificaciones o documentos de conformidad; si se demora, se devengan intereses.",
+      "excerpt": "La Administración tendrá la obligación de abonar el precio dentro de los treinta días siguientes a la fecha de aprobación de las certificaciones de obra o de los documentos que acrediten la conformidad",
+      "excerpt_status": "completo"
+    }
+  ]
+}

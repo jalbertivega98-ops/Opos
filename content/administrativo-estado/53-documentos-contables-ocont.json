@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "age-adm-53-documentos-contables-ocont-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.3 Documentos contables y operatoria contable de la ejecución del gasto del Estado (Órdenes de 1 de febrero de 1996)",
+    "topic_slug": "age-adm-53-documentos-contables",
+    "locale": "es",
+    "category": "age_adm_53_documentos_contables",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden de 1 de febrero de 1996 por la que se aprueba la Instrucción de operatoria contable a seguir en la ejecución del gasto del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Regla 24.2 Instrucción de operatoria contable",
+      "stem": "Una Subdirección General aprueba en un único acto la realización de un gasto y su adjudicación a una empresa concreta. ¿Qué documento contable debe expedir?",
+      "options": [
+        "Un documento A y, al mes siguiente, un documento D.",
+        "Un documento mixto AD.",
+        "Un documento ADOK.",
+        "Un documento RC."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Si la autorización y el compromiso se acuerdan en un acto único, se expide un documento mixto AD; la acumulación produce los mismos efectos que actos separados (regla 24).",
+      "excerpt": "cuando la autorización y el compromiso de gasto se acuerdan en un acto único, se expedirá un documento mixto AD.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Regla 24.2 Instrucción de operatoria contable",
+      "stem": "Un servicio gestor recibe la factura de una pequeña compra ya entregada y, en un mismo acto, aprueba el gasto, lo compromete con el proveedor y reconoce la obligación. ¿Qué documento contable expide?",
+      "options": [
+        "Un documento AD y otro OK.",
+        "Un documento O seguido de un documento K.",
+        "Un documento OK, sin fases previas.",
+        "Un documento mixto ADOK."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Cuando un mismo acto acumula autorización, compromiso y reconocimiento de la obligación se expide un documento mixto ADOK (regla 24.2).",
+      "excerpt": "Cuando en un mismo acto se acumulen la autorización del gasto, su compromiso y el reconocimiento de la obligación, se expedirá documento mixto ADOK.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Regla 2.2 Instrucción de operatoria contable",
+      "stem": "Un servicio gestor remite a la oficina de contabilidad un documento D sin todos los datos exigidos. Según la Instrucción de operatoria contable, la oficina:",
+      "options": [
+        "No tomará razón de la operación y devolverá el documento al servicio gestor.",
+        "Lo contabilizará y comunicará el defecto a la Intervención Delegada.",
+        "Completará de oficio los datos que falten.",
+        "Lo contabilizará provisionalmente durante diez días."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Las oficinas de contabilidad no toman razón y devuelven los documentos si faltan documentos, requisitos o datos, si no se acompaña la justificación o si hay incoherencias con el sistema (regla 2.2).",
+      "excerpt": "las oficinas de contabilidad no tomarán razón de las operaciones, procediendo a devolver a los Servicios gestores los correspondientes documentos contables electrónicos: […] Cuando no se hayan recibido todos los documentos que se precisen para el registro de la operación en cuestión, o bien cuando los documentos no contengan todos los requisitos o datos exigidos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Regla 23.3 Instrucción de operatoria contable",
+      "stem": "Recibida de conformidad la prestación de un servicio contratado, la autoridad competente reconoce la obligación. Según la Instrucción de operatoria contable, ¿qué supone ese reconocimiento y qué documento se expide?",
+      "options": [
+        "No incluye propuesta de pago, que exige un documento K posterior.",
+        "Equivale a la ordenación del pago y se expide un documento P.",
+        "Supone el pago material y se expide un documento ADOK.",
+        "Lleva implícita la propuesta de pago y se expide un documento OK."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Salvo en operaciones de Deuda Pública (documentos O y K), el reconocimiento de la obligación lleva implícita la propuesta de pago y se registra con un documento OK (regla 23.3).",
+      "excerpt": "todo reconocimiento de la obligación llevará implícita la correspondiente propuesta de pago […] Una vez acordado el reconocimiento de la obligación, el Servicio gestor competente expedirá un documento OK",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Regla 14.1 Instrucción de operatoria contable",
+      "stem": "Al iniciar la tramitación de un expediente de gasto, el servicio gestor solicita que se certifique la existencia de crédito disponible. ¿Qué documento contable expide?",
+      "options": [
+        "Un documento A, de autorización del gasto.",
+        "Un documento RC, de retención de créditos para gastar.",
+        "Un documento MC, de modificación de créditos.",
+        "Un documento D, de compromiso de gasto."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El RC retiene el crédito y el sistema emite un certificado de existencia de crédito que se incorpora al expediente (regla 14.1).",
+      "excerpt": "Para la solicitud del certificado a que se refiere el párrafo anterior, el Servicio Gestor expedirá un documento RC, de retención de créditos para gastar, que remitirá a la oficina de contabilidad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

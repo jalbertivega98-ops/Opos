@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_seleccionar-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Seleccionar texto (Word)",
+      "url": "https://support.microsoft.com/es-es/word/select-text",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Seleccionar texto · Ctrl+E",
+      "stem": "En Word, ¿qué combinación de teclas selecciona todo el texto del documento?",
+      "options": [
+        "Ctrl+E.",
+        "Ctrl+T.",
+        "Ctrl+A.",
+        "Ctrl+S."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La página oficial de Microsoft «Seleccionar texto» indica que Ctrl+E selecciona todo el texto del documento.",
+      "excerpt": "Pulse Ctrl+E en el teclado para seleccionar todo el texto en el documento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Seleccionar texto · doble clic",
+      "stem": "En Word, ¿cómo se selecciona una sola palabra con el ratón?",
+      "options": [
+        "Haciendo un solo clic en la palabra.",
+        "Haciendo doble clic rápidamente en esa palabra.",
+        "Haciendo clic con el botón derecho en la palabra.",
+        "Pulsando Ctrl y haciendo clic en el margen izquierdo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Un doble clic rápido sobre la palabra la selecciona.",
+      "excerpt": "Para seleccionar una sola palabra, haga doble clic rápidamente en esa palabra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Seleccionar texto · párrafo",
+      "stem": "En Word, con el cursor al principio de un párrafo, ¿qué combinación de teclas selecciona el párrafo?",
+      "options": [
+        "Mayús+flecha abajo.",
+        "Ctrl+flecha abajo.",
+        "Alt+Mayús+flecha abajo.",
+        "Ctrl+Mayús+flecha abajo."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Según la página «Seleccionar texto», Ctrl+Mayús+flecha abajo selecciona el párrafo y Mayús+flecha abajo, una línea.",
+      "excerpt": "Para seleccionar un párrafo, coloque el cursor al principio del párrafo y pulse Ctrl+Mayús+flecha abajo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

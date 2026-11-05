@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-psicotecnicos-verbales-rae_dpd-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Psicotécnicos verbales: sinónimos, antónimos, ortografía y vocabulario",
+    "topic_slug": "age-aux-psicotecnicos-verbales",
+    "locale": "es",
+    "category": "age_aux_psicotecnicos_verbales",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española · Diccionario panhispánico de dudas, 2.ª ed. (artículos sino, porque y tilde)",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y ASALE",
+      "published_on": null
+    },
+    "notes": "Psicotécnicos verbales (sinónimos, antónimos, ortografía y vocabulario) como los de la parte 1 del ejercicio del INAP. Cada respuesta se apoya en una cita literal del Diccionario de la lengua española (dle.rae.es, apartados «Sinónimos o afines» y «Antónimos u opuestos») o de la Ortografía / Diccionario panhispánico de dudas de la RAE."
+  },
+  "questions": [
+    {
+      "ref": "DPD, s. v. sino, 3",
+      "stem": "¿Qué oración está correctamente escrita?",
+      "options": [
+        "¿Quién lo hará, si no lo haces tú?",
+        "No lo compró, si no que lo alquiló.",
+        "Te espero a las ocho; sino, me marcho.",
+        "No quiero café, si no té."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Sino (conjunción adversativa) introduce lo que sustituye a lo negado: «no lo compró, sino que lo alquiló»; «no quiero café, sino té». Si no es la conjunción condicional si más el adverbio no: «si no lo haces tú»; «si no, me marcho».",
+      "excerpt": "No debe confundirse la conjunción adversativa sino antes descrita con si no, secuencia formada por la conjunción si (→ si) seguida del adverbio de negación no",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. porque, 2.a",
+      "stem": "¿En qué oración debe escribirse «por que», en dos palabras?",
+      "options": [
+        "No vino ___ estaba enfermo.",
+        "Lo hizo ___ quería ayudar.",
+        "Esa es la razón ___ no te llamé.",
+        "Aprobó ___ estudió mucho."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Porque, junto, es la conjunción causal. Se escribe por que cuando es la preposición por más el relativo que, sustituible por «por la que / por la cual»: «la razón por que [por la cual] no te llamé».",
+      "excerpt": "Se escribe por que, en dos palabras, en los casos siguientes: a) Cuando el pronombre relativo que va precedido de la preposición por.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. tilde, 1.1",
+      "stem": "Según las reglas de acentuación de la RAE, ¿cuál de estas palabras está correctamente escrita?",
+      "options": [
+        "Guión.",
+        "Fué.",
+        "Vió.",
+        "Guion."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Los monosílabos ortográficos no llevan tilde salvo la diacrítica: se escriben fue, vio, guion o hui sin tilde.",
+      "excerpt": "Las palabras de una sola sílaba no se acentúan nunca gráficamente, salvo en los casos de tilde diacrítica (→ 3.1): mes, bien, fe, fue, vio, guion, hui, riais.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

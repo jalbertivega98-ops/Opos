@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-rgi-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 364/1995, de 10 de marzo, Reglamento General de Ingreso del Personal al servicio de la AGE y de Provisión de Puestos de Trabajo y Promoción Profesional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 70.2 y 70.6 RD 364/1995",
+      "stem": "Dña. Sara Linares (C1) ocupa con carácter definitivo desde el 1 de febrero de 2021 un puesto de nivel 15 en la Confederación, con el que ya consolidó su grado inicial. Desde el 1 de junio de 2023 desempeña en comisión de servicios un puesto de nivel 18, que no ha obtenido con carácter definitivo. ¿Qué grado tiene consolidado en noviembre de 2025?",
+      "options": [
+        "El 15.",
+        "El 16.",
+        "El 17.",
+        "El 18."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El grado se consolida con dos años continuados en puestos de un nivel (art. 70.2): el 15 quedó consolidado en febrero de 2023. El tiempo en comisión solo computa para el nivel 18 si obtiene ese puesto u otro igual o superior con carácter definitivo (art. 70.6).",
+      "excerpt": "el tiempo prestado en comisión de servicios será computable para consolidar el grado correspondiente al puesto desempeñado siempre que se obtenga con carácter definitivo dicho puesto u otro de igual o superior nivel.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª RD 364/1995",
+      "stem": "Dña. Sara Linares, funcionaria de carrera en servicio activo, accede por promoción interna al Cuerpo de Gestión y su nuevo destino está en la misma localidad. Según el Reglamento General de Ingreso, ¿qué permiso retribuido le corresponde a partir de la toma de posesión?",
+      "options": [
+        "Un mes.",
+        "Tres días hábiles.",
+        "Quince días naturales.",
+        "Ninguno, porque no cambia de residencia."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Quien accede a un nuevo Cuerpo o Escala tiene un permiso retribuido de tres días hábiles si no cambia de residencia y de un mes si la cambia (DA 5.ª).",
+      "excerpt": "Los funcionarios de carrera en servicio activo o situación asimilada que accedan a un nuevo Cuerpo o Escala tendrán derecho, a partir de la toma de posesión, a un permiso retribuido de tres días hábiles si el destino no implica cambio de residencia del funcionario y de un mes si lo comporta.",
+      "excerpt_status": "completo",
+      "review_note": "El original preguntaba por el plazo de toma de posesión del nuevo funcionario, que fija cada convocatoria y no el texto del RD 364/1995 capturado; la réplica se centra en el mismo momento (acceso al nuevo cuerpo) con el dato que sí da el Reglamento."
+    },
+    {
+      "ref": "Art. 48.1 RD 364/1995",
+      "stem": "El Secretario General de la Confederación cesa en Toledo el martes 4 de noviembre de 2025 para tomar posesión de su nuevo puesto de libre designación en Madrid, lo que supone cambio de residencia. Sin prórrogas ni permisos, ¿hasta qué día puede tomar posesión?",
+      "options": [
+        "Hasta el viernes 7 de noviembre de 2025.",
+        "Hasta el jueves 4 de diciembre de 2025.",
+        "Hasta el miércoles 3 de diciembre de 2025.",
+        "Hasta el jueves 18 de diciembre de 2025."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Con cambio de residencia el plazo es de un mes, contado desde el día siguiente al cese (art. 48.1, aplicable a la libre designación por el art. 57); el mes vence el mismo día del mes siguiente: 4 de diciembre (art. 30.4 LPAC).",
+      "excerpt": "El plazo para tomar posesión será de tres días hábiles si no implica cambio de residencia del funcionario, o de un mes si comporta cambio de residencia o el reingreso al servicio activo. […] El plazo de toma de posesión empezará a contarse a partir del día siguiente al del cese",
+      "excerpt_status": "completo"
+    }
+  ]
+}

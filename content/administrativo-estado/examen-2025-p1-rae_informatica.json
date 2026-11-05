@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-rae_informatica-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española · Diccionario de la lengua española (entradas de informática)",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y ASALE · Diccionario de la lengua española (23.ª ed., versión electrónica)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Procesador (DLE)",
+      "stem": "En informática, la unidad funcional de un ordenador que se encarga de buscar, interpretar y ejecutar las instrucciones es:",
+      "options": [
+        "El byte.",
+        "El procesador.",
+        "El sistema operativo.",
+        "La memoria caché."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El DLE define el procesador como la unidad que busca, interpreta y ejecuta instrucciones; el byte es una unidad de información de ocho bits.",
+      "excerpt": "procesador: m. Informática Unidad funcional de una computadora u otro dispositivo electrónico, que se encarga de la búsqueda, interpretación y ejecución de instrucciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Memoria caché (DLE)",
+      "stem": "Según el Diccionario de la lengua española, ¿qué memoria de acceso rápido guarda temporalmente las últimas informaciones procesadas por el ordenador?",
+      "options": [
+        "La memoria caché.",
+        "El disco duro.",
+        "La memoria USB.",
+        "El procesador de textos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El DLE define la memoria caché como la memoria de acceso rápido que guarda temporalmente las últimas informaciones procesadas.",
+      "excerpt": "memoria caché: f. Informática memoria (➝ 1b) de acceso rápido de una computadora u otro dispositivo electrónico, que guarda temporalmente las últimas informaciones procesadas.",
+      "excerpt_status": "completo",
+      "review_note": "La pregunta oficial trataba de la memoria RAM; el DLE no tiene entrada para «RAM», así que la réplica usa el concepto más próximo con definición oficial."
+    },
+    {
+      "ref": "Gigabyte y megabyte (DLE)",
+      "stem": "Un archivo ocupa 5 GB. Tomando las equivalencias aproximadas del Diccionario de la lengua española (1 GB ≈ mil millones de bytes; 1 MB ≈ un millón de bytes), ¿cuántos MB ocupa aproximadamente?",
+      "options": [
+        "500 MB.",
+        "50.000 MB.",
+        "5.000.000 MB.",
+        "5.000 MB."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "5 GB ≈ 5.000 millones de bytes; dividido entre un millón de bytes por MB da unos 5.000 MB.",
+      "excerpt": "gigabyte: m. Informática Unidad que equivale, aproximadamente, a mil millones (230) de bytes (Símb. GB).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Correo electrónico (DLE)",
+      "stem": "Según el Diccionario de la lengua española, el correo electrónico es:",
+      "options": [
+        "Un programa que detecta virus en los mensajes.",
+        "Un sistema de transmisión de mensajes por computadora u otro dispositivo electrónico a través de redes informáticas.",
+        "La parte final de una dirección de internet.",
+        "Un conjunto de procedimientos para optimizar el trabajo de oficina."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Así lo define el DLE; los distractores corresponden a antivirus, dominio y ofimática.",
+      "excerpt": "correo electrónico: m. Sistema de transmisión de mensajes por computadora u otro dispositivo electrónico a través de redes informáticas.",
+      "excerpt_status": "completo",
+      "review_note": "En el examen oficial esta pregunta fue anulada; la réplica trata el mismo concepto."
+    },
+    {
+      "ref": "Correo basura (DLE)",
+      "stem": "El correo electrónico de distribución masiva y contenido normalmente publicitario o malicioso que se recibe sin haberlo solicitado se denomina:",
+      "options": [
+        "Streaming.",
+        "Phishing.",
+        "Firewall.",
+        "Spam o correo basura."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El DLE define «spam» como correo basura.",
+      "excerpt": "correo basura: m. Informática correo electrónico (➝ 1b) de distribución masiva y contenido normalmente publicitario o malicioso, que se recibe sin haberlo solicitado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

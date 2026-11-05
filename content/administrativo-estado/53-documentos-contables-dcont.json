@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "set": "age-adm-53-documentos-contables-dcont-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.3 Documentos contables y operatoria contable de la ejecución del gasto del Estado (Órdenes de 1 de febrero de 1996)",
+    "topic_slug": "age-adm-53-documentos-contables",
+    "locale": "es",
+    "category": "age_adm_53_documentos_contables",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden de 1 de febrero de 1996 por la que se aprueban los documentos contables a utilizar por la Administración General del Estado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. primero",
+      "stem": "Las normas y documentos contables aprobados por la Orden de 1 de febrero de 1996 son de aplicación a:",
+      "options": [
+        "La Administración General del Estado.",
+        "Todas las Administraciones públicas, incluidas las entidades locales.",
+        "Únicamente a los organismos autónomos del Estado.",
+        "Solo a la Intervención General de la Administración del Estado."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El apartado primero limita su ámbito a la Administración General del Estado; la Instrucción de operatoria contable regula en una disposición adicional su aplicación a los organismos autónomos.",
+      "excerpt": "Las normas y los documentos contables aprobados en la presente Orden serán de aplicación a la Administración General del Estado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. segundo.2",
+      "stem": "Según la Orden de 1 de febrero de 1996, ¿en qué soporte se expiden con carácter general los documentos contables?",
+      "options": [
+        "En papel, por triplicado.",
+        "Todos los documentos contables serán electrónicos.",
+        "En papel o en formato electrónico, a elección del servicio gestor.",
+        "En formato electrónico solo cuando superen los 50.000 euros."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Todos los documentos contables son electrónicos y se ajustan a los modelos y normas de la Orden y al procedimiento de tramitación electrónica que fije la IGAE.",
+      "excerpt": "Todos los documentos contables serán electrónicos y se ajustarán a los modelos y normas de cumplimentación previstos en esta Orden",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. segundo.2",
+      "stem": "¿En qué caso pueden expedirse documentos contables en papel?",
+      "options": [
+        "Cuando lo solicite el servicio gestor por razones de urgencia, sin necesidad de autorización.",
+        "Cuando el gasto se tramite por el sistema de anticipos de caja fija.",
+        "Cuando por circunstancias excepcionales lo determine la Intervención General de la Administración del Estado, a propuesta del responsable de la oficina de contabilidad.",
+        "Nunca: la Orden prohíbe en todo caso el papel."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Es una excepción que decide la IGAE, a propuesta del responsable de la oficina de contabilidad, por circunstancias excepcionales.",
+      "excerpt": "No obstante, cuando por circunstancias excepcionales así lo determine la Intervención General de la Administración del Estado a propuesta del responsable de la oficina de contabilidad, se podrán expedir documentos contables en papel.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. tercero.2",
+      "stem": "Los documentos contables cuya emisión se realice mediante actuación administrativa automatizada podrán autenticarse mediante:",
+      "options": [
+        "La firma manuscrita escaneada del jefe de contabilidad.",
+        "Un código de barras sin certificado.",
+        "La firma electrónica del interesado acreedor.",
+        "Un sistema de sello electrónico basado en certificado electrónico reconocido o cualificado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El apartado tercero.2 remite al sello electrónico del art. 42.a) de la Ley 40/2015; los demás documentos se autorizan con firma electrónica de quien tenga la competencia (apdo. tercero.1).",
+      "excerpt": "Los documentos contables cuya emisión se realice mediante actuación administrativa automatizada podrán ser autenticados mediante un sistema de sello electrónico de Administración Pública, órgano, organismo público o entidad de derecho público, basado en certificado electrónico reconocido o cualificado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. tercero.4",
+      "stem": "Un servicio gestor quiere incluir tres facturas registradas en el Registro Contable de Facturas en un único documento contable que incorpora la fase O. ¿Cuándo es posible?",
+      "options": [
+        "Siempre, sin limitación alguna.",
+        "Solo si las tres facturas son del mismo proveedor y del mismo mes natural.",
+        "Solo cuando la fecha en que se inicia el cómputo de los plazos para el abono del precio sea la misma para todas ellas.",
+        "Nunca: cada factura exige su propio documento contable."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El apartado tercero.4 solo permite agrupar varias facturas en un documento con fase O cuando coincide la fecha de inicio del cómputo del plazo de pago.",
+      "excerpt": "solo se podrán agrupar varias facturas en un mismo documento contable que incorpore la fase O, cuando la fecha en la que se inicia el cómputo de los plazos para el abono del precio sea la misma para todas ellas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. quinto.2",
+      "stem": "¿Cuál de las siguientes NO es una de las agrupaciones a las que pueden afectar los documentos contables del Presupuesto de Gastos?",
+      "options": [
+        "Presupuestos cerrados.",
+        "Ejercicios posteriores.",
+        "Tramitación anticipada.",
+        "Presupuesto prorrogado de ingresos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Las agrupaciones son presupuesto corriente, presupuestos cerrados, ejercicios posteriores y tramitación anticipada.",
+      "excerpt": "Presupuesto corriente. […] Presupuestos cerrados. […] Ejercicios posteriores. […] Tramitación anticipada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. sexto.1.c",
+      "stem": "¿Para cuál de las siguientes operaciones se utiliza el documento RC de ejercicio corriente?",
+      "options": [
+        "Para registrar el reconocimiento de obligaciones.",
+        "Para la retención adicional del 10 % de la adjudicación.",
+        "Para registrar las modificaciones presupuestarias que aumentan los créditos.",
+        "Para proponer el pago de obligaciones de la Deuda del Estado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El RC de ejercicio corriente sirve para solicitar el certificado de existencia y retención de crédito en expedientes de gasto, transferencias, bajas, retención adicional del 10 % de la adjudicación y porcentaje cultural.",
+      "excerpt": "Se utilizará para solicitar certificado de existencia y retención de crédito en los expedientes de gasto, de transferencias, de bajas por anulación y otras minoraciones, de retención adicional del 10 % de la adjudicación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. sexto.1.c",
+      "stem": "¿Qué documento específico se utiliza para registrar los acuerdos de no disponibilidad de créditos?",
+      "options": [
+        "El documento RC-102.",
+        "El documento MC.",
+        "El documento PR.",
+        "El documento MD."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Los acuerdos de no disponibilidad se registran con el documento específico «RC-102»; PR registra prescripciones y MD modificaciones de obligaciones de ejercicios anteriores.",
+      "excerpt": "Para el registro de los acuerdos de no disponibilidad se utilizará el documento específico",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. sexto.1.n",
+      "stem": "¿Qué documento contable se utiliza en las operaciones de reconocimiento de obligaciones?",
+      "options": [
+        "El documento D.",
+        "El documento AD.",
+        "El documento RC.",
+        "El documento OK."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El OK registra el reconocimiento de la obligación (con la propuesta de pago implícita); D es el compromiso y AD acumula autorización y compromiso.",
+      "excerpt": "Documento OK: Se utilizará en operaciones de reconocimiento de obligaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. sexto.1.o",
+      "stem": "El documento O, de reconocimiento de la obligación sin propuesta de pago, se utiliza:",
+      "options": [
+        "Exclusivamente en el ámbito de la gestión de la Deuda del Estado.",
+        "En todos los contratos de obras.",
+        "En las subvenciones de concesión directa.",
+        "En los pagos a justificar."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Fuera de la Deuda del Estado el reconocimiento lleva implícita la propuesta de pago (documento OK); el documento O, seguido después de un documento K, se reserva a la Deuda.",
+      "excerpt": "Documento O: Se utilizará exclusivamente en el ámbito de la gestión de la Deuda del Estado, cuando al reconocer la obligación no se proponga el pago.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. sexto.1.l´´",
+      "stem": "Un expediente de gasto plurianual de tramitación anticipada prevé veinticinco anualidades posteriores. ¿Qué documento complementa los documentos RC, A, D o AD?",
+      "options": [
+        "El documento «Anexo aplicaciones».",
+        "El documento «Anexo descuentos».",
+        "El documento «Anexo anualidades».",
+        "El documento «Reasignación»."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El «Anexo anualidades» se usa cuando el número de anualidades posteriores previsto es superior a veinte; el «Anexo aplicaciones» extiende el documento a varias aplicaciones presupuestarias.",
+      "excerpt": "Se utilizará para completar los documentos RC, A, D y AD de ejercicios posteriores y de tramitación anticipada mediante la incorporación de uno o más de estos documentos a los anteriores cuando el número de anualidades posteriores previsto sea superior a veinte.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. sexto.2",
+      "stem": "Para anular una operación del Presupuesto de Gastos registrada con un documento AD, ¿qué debe expedirse?",
+      "options": [
+        "Un documento MC de baja por anulación.",
+        "Un documento idéntico al que se confeccionó para registrar la operación, pero de signo contrario.",
+        "Un documento PR de prescripción.",
+        "Un escrito de anulación sin documento contable."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La anulación se registra con un documento idéntico al de la operación original pero de signo contrario.",
+      "excerpt": "se expedirá un documento idéntico al confeccionado para el registro de la operación en cuestión pero de signo contrario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. séptimo.1",
+      "stem": "¿Quién autoriza los documentos MC de modificación de créditos y RC-102 de no disponibilidad?",
+      "options": [
+        "El Interventor General de la Administración del Estado.",
+        "El responsable del órgano gestor de los créditos afectados.",
+        "El Director General de Presupuestos.",
+        "El jefe de la oficina de contabilidad del Departamento."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Son la excepción del apartado séptimo.1; los demás documentos de gastos los autoriza, con carácter general, el responsable del órgano gestor de los créditos (apdo. séptimo.2).",
+      "excerpt": "Los documentos MC de «modificación de créditos» y RC-102 de «no disponibilidad» serán autorizados por el Director General de Presupuestos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. décimo.1",
+      "stem": "El documento de control de pagos a justificar, que registra prórrogas de plazos y la presentación y aprobación de la cuenta justificativa, es autorizado por:",
+      "options": [
+        "El jefe de la Unidad Central a la que esté adscrita la respectiva caja pagadora.",
+        "El cajero pagador que recibió los fondos.",
+        "El Director General del Tesoro.",
+        "El Interventor Delegado del Departamento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Lo autoriza el jefe de la Unidad Central a la que está adscrita la caja pagadora (apdo. décimo.1); el de adopción/distribución de anticipos de caja fija, la autoridad que adoptó el acuerdo.",
+      "excerpt": "El documento de control de pagos a justificar será autorizado por el jefe de la Unidad Central a la que esté adscrita la respectiva caja pagadora.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Orden 1-2-1996 documentos contables, apdo. vigésimo tercero.1.a",
+      "stem": "En un contrato de obras, la dirección facultativa aprueba en octubre certificaciones que exceden del importe de la anualidad en curso. ¿Con qué documento se registran?",
+      "options": [
+        "Con un documento OK por el importe total.",
+        "Con un documento «Operaciones devengadas».",
+        "Con el documento CA de «Certificaciones anticipadas».",
+        "Con un documento MC de suplemento de crédito."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El documento CA registra las certificaciones de obra que se extienden y aprueban excediendo de la anualidad en curso (también su cesión); lo autoriza el responsable del órgano gestor de los créditos.",
+      "excerpt": "Documento CA de “Certificaciones anticipadas”: Se utilizará para el registro de certificaciones de obra que se extiendan y aprueben excediendo del importe de la anualidad en curso",
+      "excerpt_status": "completo"
+    }
+  ]
+}

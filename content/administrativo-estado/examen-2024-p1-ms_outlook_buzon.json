@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_outlook_buzon-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Administrar el tamaño del buzón en Outlook",
+      "url": "https://support.microsoft.com/es-es/outlook/manage-my-mailbox-size-in-outlook",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Limpieza de buzón",
+      "stem": "En Outlook, ¿qué herramienta permite ver el tamaño del buzón y de sus carpetas y reducirlo?",
+      "options": [
+        "Limpieza de buzón.",
+        "Desfragmentador de disco.",
+        "Liberador de espacio de Windows.",
+        "Reglas y alertas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Limpieza de buzón es una herramienta de Outlook para recortar el tamaño del buzón y ver el de sus carpetas.",
+      "excerpt": "Limpieza de buzón es una herramienta de limpieza única que puede usar para recortar el tamaño del buzón.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

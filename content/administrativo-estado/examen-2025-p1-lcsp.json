@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lcsp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 102.7 Ley 9/2017",
+      "stem": "Tras un diálogo competitivo, un Ministerio celebra un contrato con precios provisionales. Según el artículo 102.7 de la Ley 9/2017:",
+      "options": [
+        "La revisión de precios procederá cuando se haya ejecutado el 20 % del contrato.",
+        "No cabrá la revisión de precios.",
+        "Los precios se revisarán anualmente conforme a la fórmula del pliego.",
+        "La revisión será obligatoria si el contrato dura más de cinco años."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 102.7 LCSP determina el precio definitivo en función de los costes reales y excluye expresamente la revisión de precios.",
+      "excerpt": "En los contratos celebrados con precios provisionales no cabrá la revisión de precios.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

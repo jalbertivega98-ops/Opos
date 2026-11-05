@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ce-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 167.1 CE",
+      "stem": "Según el artículo 167.1 de la Constitución Española, ¿qué mayoría se exige para aprobar un proyecto de reforma constitucional por el procedimiento ordinario?",
+      "options": [
+        "Tres quintos de cada una de las Cámaras.",
+        "Mayoría absoluta del Congreso y mayoría simple del Senado.",
+        "Dos tercios de cada una de las Cámaras.",
+        "Tres quintos del Congreso de los Diputados únicamente."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 167.1 CE exige tres quintos en cada Cámara; los dos tercios del Congreso solo operan si fracasa la Comisión paritaria y el Senado ha votado por mayoría absoluta (art. 167.2).",
+      "excerpt": "Los proyectos de reforma constitucional deberán ser aprobados por una mayoría de tres quintos de cada una de las Cámaras.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62 CE",
+      "stem": "Conforme al artículo 62 de la Constitución Española, en relación con las leyes corresponde al Rey:",
+      "options": [
+        "Aprobarlas en el Consejo de Ministros.",
+        "Proponerlas a las Cortes Generales.",
+        "Elaborar su texto definitivo tras las enmiendas del Senado.",
+        "Sancionarlas y promulgarlas."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Entre las funciones del art. 62 CE figura, en primer lugar, sancionar y promulgar las leyes; la aprobación corresponde a las Cortes Generales.",
+      "excerpt": "Corresponde al Rey: a) Sancionar y promulgar las leyes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 67.1 CE",
+      "stem": "De acuerdo con el artículo 67.1 de la Constitución Española, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "Los Senadores designados por las Comunidades Autónomas pueden ser, a la vez, Diputados al Congreso.",
+        "Nadie podrá acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.",
+        "Se puede ser miembro de ambas Cámaras si así lo autoriza la Mesa del Congreso.",
+        "El acta de parlamentario autonómico es compatible con la de Diputado si no se perciben dos retribuciones."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 67.1 CE prohíbe ser miembro de las dos Cámaras a la vez y acumular el acta autonómica con la de Diputado al Congreso, sin excepciones.",
+      "excerpt": "Nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 123.2 CE",
+      "stem": "Según el artículo 123.2 de la Constitución Española, el Presidente del Tribunal Supremo:",
+      "options": [
+        "Será nombrado por el Gobierno, oído el Consejo General del Poder Judicial.",
+        "Será elegido por el Pleno del Congreso por mayoría de tres quintos.",
+        "Será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial.",
+        "Será nombrado por el Rey, a propuesta del Ministro de Justicia."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 123.2 CE atribuye el nombramiento al Rey a propuesta del CGPJ, en la forma que determine la ley.",
+      "excerpt": "El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial, en la forma que determine la ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112 CE",
+      "stem": "El Presidente del Gobierno plantea una cuestión de confianza ante el Congreso. De acuerdo con el artículo 112 de la Constitución Española, ¿cuándo se entiende otorgada?",
+      "options": [
+        "Cuando vote a favor la mayoría absoluta de los Diputados.",
+        "Cuando vote a favor la mayoría simple de ambas Cámaras.",
+        "Cuando vote a favor la mayoría simple de los Diputados.",
+        "Cuando no prospere una moción de censura en los dos meses siguientes."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 112 CE basta con mayoría simple del Congreso; la moción de censura, en cambio, exige mayoría absoluta (art. 113).",
+      "excerpt": "La confianza se entenderá otorgada cuando vote a favor de la misma la mayoría simple de los Diputados.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

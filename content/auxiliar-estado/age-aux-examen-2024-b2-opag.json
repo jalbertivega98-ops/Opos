@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-opag-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden HAP/1949/2014, de 13 de octubre, por la que se regula el Punto de Acceso General de la Administración General del Estado y su sede electrónica (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-10908",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Orden HAP/1949/2014 · sede del PAG",
+      "stem": "¿Cuál es la dirección electrónica de referencia de la sede del Punto de Acceso General de la AGE?",
+      "options": [
+        "https://www.administracion.gob.es",
+        "https://sede.gob.es",
+        "https://www.060.es",
+        "https://sede.administracion.gob.es"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La Orden HAP/1949/2014 fija https://sede.administracion.gob.es como dirección de la sede del PAG; www.administracion.gob.es es el portal informativo.",
+      "excerpt": "La dirección electrónica de referencia de la sede será: […] https://sede.administracion.gob.es.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

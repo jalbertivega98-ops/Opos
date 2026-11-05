@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 56.3 LGP",
+      "stem": "El contrato de mantenimiento de ascensores de la Confederación (organismo autónomo) necesita 15.000 euros más de lo presupuestado y el crédito no es ampliable. El capítulo 2 de su presupuesto inicial de gastos es de 120.000 euros y no hay otras modificaciones en el ejercicio. ¿Quién autoriza el suplemento de crédito?",
+      "options": [
+        "El Presidente de la Confederación.",
+        "El Consejo de Ministros.",
+        "El Ministro de Hacienda.",
+        "Las Cortes Generales mediante ley."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "15.000 euros son el 12,5 % del capítulo: supera el 10 % que permite autorizar al Presidente o Director, pero no llega al 20 % ni a 1.000.000 de euros, así que corresponde al Ministro de Hacienda (art. 56.3.b).",
+      "excerpt": "Al Ministro de Hacienda cuando, superándose alguno de los anteriores límites, no se alcance el 20 % del correspondiente capítulo de su presupuesto inicial de gastos ni se supere la cuantía de 1.000.000 de euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 56.2 LGP",
+      "stem": "¿Con qué recursos podrá financiar la Confederación Hidrográfica del Tajo (organismo autónomo) el suplemento de crédito para el mantenimiento de los ascensores?",
+      "options": [
+        "Exclusivamente con baja en el Fondo de Contingencia del Estado.",
+        "Con Deuda Pública emitida por el propio organismo.",
+        "Con baja en cualquier crédito de otro ministerio.",
+        "Con la parte del remanente de tesorería al fin del ejercicio anterior no aplicada en su presupuesto, o con mayores ingresos sobre los previstos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Los créditos extraordinarios y suplementarios de los organismos autónomos solo pueden financiarse con remanente de tesorería no aplicado o con mayores ingresos (art. 56.2). El Fondo de Contingencia es la financiación de los del Estado (art. 55).",
+      "excerpt": "La financiación de los créditos extraordinarios o suplementarios únicamente podrá realizarse con cargo a la parte del remanente de tesorería al fin del ejercicio anterior que no haya sido aplicada en el presupuesto del organismo, o con mayores ingresos sobre los previstos inicialmente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

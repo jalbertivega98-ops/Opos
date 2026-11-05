@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_excel_fecha-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Función FECHA",
+      "url": "https://support.microsoft.com/es-es/office/fecha-funci%C3%B3n-fecha-e36c0c8c-4104-49da-ab83-82328b832349",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Excel · Números de serie de fecha",
+      "stem": "Excel almacena las fechas como números de serie secuenciales. ¿A qué fecha corresponde el número de serie 1?",
+      "options": [
+        "Al 1 de enero de 1970.",
+        "Al 1 de enero de 2000.",
+        "Al 1 de enero de 1900.",
+        "Al 31 de diciembre de 1899."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Excel guarda las fechas como números de serie para poder calcular con ellas; el 1 de enero de 1900 es el número 1.",
+      "excerpt": "Excel almacena las fechas como números de serie secuenciales para que se puedan usar en cálculos. […] La fecha 1 de enero de 1900 es el número de serie 1",
+      "excerpt_status": "completo"
+    }
+  ]
+}

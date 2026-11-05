@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-rdinfo-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 208/1996, de 9 de febrero, por el que se regulan los servicios de información administrativa y atención al ciudadano (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10.1 RD 208/1996",
+      "stem": "Según el Real Decreto 208/1996, ¿quién ostenta en cada Ministerio la jefatura de la unidad departamental de información administrativa?",
+      "options": [
+        "El Subsecretario del Departamento.",
+        "El titular de la Subdirección General que tenga encomendada la competencia sobre información administrativa.",
+        "El Secretario General Técnico en todo caso.",
+        "El Jefe del Gabinete del Ministro."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La jefatura corresponde al titular de la Subdirección General con la competencia sobre información administrativa.",
+      "excerpt": "En cada Ministerio el titular de la Subdirección General que tenga encomendada la competencia sobre la información administrativa ostentará la jefatura de la unidad departamental de información administrativa.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

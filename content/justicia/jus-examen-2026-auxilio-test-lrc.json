@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "jus-examen-2026-auxilio-test-lrc-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Auxilio Judicial, primer ejercicio (100 preguntas)",
+    "topic_slug": "jus-examen-2026-auxilio-test",
+    "locale": "es",
+    "category": "jus_examen_2026_auxilio_test",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 20/2011, de 21 de julio, del Registro Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del primer ejercicio de Auxilio Judicial del 03/10/2026 (Orden PJC/1549/2025): 100 preguntas, 4 opciones, 100 minutos; acierto +0,60, error −0,15; nota de 0 a 60 y mínimo 30. Cada pregunta es original y replica el punto (norma y artículo) de la pregunta oficial del mismo número; no copia enunciados ni opciones."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3.2 Ley 20/2011",
+      "stem": "Según el artículo 3 de la Ley 20/2011, del Registro Civil, ¿a quién corresponde la estructura, organización y funcionamiento de la base de datos única en la que se integran los datos del Registro Civil?",
+      "options": [
+        "Al Consejo General del Poder Judicial.",
+        "A cada Comunidad Autónoma en su territorio.",
+        "A la Agencia Española de Protección de Datos.",
+        "Al Ministerio de Justicia."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 3.2 LRC declara el Registro Civil electrónico, con base de datos única competencia del Ministerio de Justicia.",
+      "excerpt": "2. El Registro Civil es electrónico. Los datos serán objeto de tratamiento automatizado y se integrarán en una base de datos única cuya estructura, organización y funcionamiento es competencia del Ministerio de Justicia conforme a la presente Ley y a sus normas de desarrollo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 45 Ley 20/2011",
+      "stem": "Conforme al artículo 45 de la Ley 20/2011, del Registro Civil, ¿quién está obligado a promover la inscripción del nacimiento?",
+      "options": [
+        "El personal sanitario que haya atendido el parto dentro de un establecimiento sanitario.",
+        "La dirección del hospital o clínica en que se haya producido el parto.",
+        "La madre que haya renunciado al hijo en el momento del parto.",
+        "Cualquier persona mayor de catorce años presente en el alumbramiento."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 45 LRC obliga a la dirección de hospitales y clínicas, al personal sanitario si el parto fue fuera de establecimiento sanitario, a los progenitores (salvo la madre que renuncia) y al pariente más próximo o persona mayor de edad presente.",
+      "excerpt": "1. La dirección de hospitales, clínicas y establecimientos sanitarios. 2. El personal médico o sanitario que haya atendido el parto, cuando éste haya tenido lugar fuera de establecimiento sanitario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62.3 Ley 20/2011",
+      "stem": "Según el artículo 62.3 de la Ley 20/2011, del Registro Civil, en la inscripción de la defunción:",
+      "options": [
+        "El funcionario competente, recibida y examinada la documentación, practica la inscripción y expide el certificado de defunción, y el Encargado, practicada la inscripción, expide la licencia de entierro o incineración.",
+        "El Encargado expide la licencia de entierro antes de practicar la inscripción.",
+        "El médico forense expide la licencia de entierro o incineración.",
+        "La licencia de entierro la expide el Ayuntamiento del lugar del fallecimiento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 62.3 LRC reparte las tareas: el funcionario inscribe y certifica; el Encargado expide la licencia tras la inscripción.",
+      "excerpt": "3. El funcionario competente, una vez recibida y examinada la documentación, practicará inmediatamente la inscripción y expedirá el certificado de la defunción. El Encargado, una vez practicada la inscripción, expedirá la licencia para el entierro o incineración en el plazo que reglamentariamente se establezca.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.1 Ley 20/2011",
+      "stem": "De acuerdo con el artículo 68 de la Ley 20/2011, del Registro Civil, la inscripción de la pérdida de la nacionalidad española:",
+      "options": [
+        "Tiene carácter constitutivo.",
+        "Solo puede practicarse en el Registro Civil Consular.",
+        "Tiene carácter meramente declarativo.",
+        "No es inscribible en el registro individual."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Las adquisiciones de nacionalidad por residencia, carta de naturaleza y opción se inscriben con carácter constitutivo; la pérdida, con carácter meramente declarativo (art. 68.1 LRC).",
+      "excerpt": "La inscripción de la pérdida de la nacionalidad tendrá carácter meramente declarativo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

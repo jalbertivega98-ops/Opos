@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 37 Ley 47/2003",
+      "stem": "Según el artículo 37 de la Ley 47/2003, General Presupuestaria:",
+      "options": [
+        "El proyecto se remite al Congreso al menos seis meses antes de que expiren los presupuestos del año anterior.",
+        "Corresponde al Ministro de Hacienda elevar al acuerdo del Gobierno el anteproyecto de Ley de Presupuestos, y el proyecto se remite a las Cortes antes del 1 de octubre del año anterior.",
+        "Corresponde al Ministro de la Presidencia aprobar el anteproyecto.",
+        "El proyecto se remite a las Cortes antes del 1 de diciembre del año anterior."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 37.5 atribuye al Ministro de Hacienda la elevación del anteproyecto y el art. 37.1 fija la remisión antes del 1 de octubre.",
+      "excerpt": "será remitido a las Cortes Generales antes del día 1 de octubre del año anterior al que se refiera. […] Corresponderá al Ministro de Hacienda elevar al acuerdo del Gobierno el anteproyecto de la Ley de Presupuestos Generales del Estado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58 Ley 47/2003",
+      "stem": "Conforme al artículo 58 de la Ley 47/2003, las incorporaciones de crédito en el presupuesto de un organismo autónomo:",
+      "options": [
+        "Solo pueden realizarse con cargo a la parte del remanente de tesorería al fin del ejercicio anterior no aplicada al presupuesto del organismo.",
+        "Se financian con baja en el Fondo de Contingencia del Estado.",
+        "Se financian con mayores ingresos sobre los previstos inicialmente.",
+        "Se financian con baja en cualquier crédito de operaciones financieras."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "En el Estado se financian con baja en el Fondo de Contingencia o en otros créditos no financieros; en organismos autónomos, solo con remanente de tesorería no aplicado.",
+      "excerpt": "Las incorporaciones de crédito en el Presupuesto de organismos autónomos y entidades de la Seguridad Social únicamente podrán realizarse con cargo a la parte del remanente de tesorería que al fin del ejercicio anterior no haya sido aplicada al presupuesto del organismo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

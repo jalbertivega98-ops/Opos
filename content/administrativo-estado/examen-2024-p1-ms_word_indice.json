@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_word_indice-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Crear y actualizar un índice",
+      "url": "https://support.microsoft.com/es-es/word/create-and-update-an-index",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Índice de Word",
+      "stem": "En Word, el elemento que enumera los términos y temas tratados en el documento junto con las páginas en que aparecen se denomina:",
+      "options": [
+        "Índice.",
+        "Tabla de contenido.",
+        "Tabla de ilustraciones.",
+        "Bibliografía."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El índice recoge términos marcados como entradas (campos XE) con sus páginas; la tabla de contenido se basa en los títulos.",
+      "excerpt": "Un índice enumera los términos y temas que se tratan en un documento, junto con las páginas en las que aparecen.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

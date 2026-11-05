@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_word_notas-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Agregar notas al pie y notas al final",
+      "url": "https://support.microsoft.com/es-es/word/add-footnotes-and-endnotes",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Notas al final en Word",
+      "stem": "En Word 365, al insertar una nota al final desde Referencias, ¿qué hace el programa?",
+      "options": [
+        "Inserta una marca de referencia en el texto y agrega la nota en la parte final del documento.",
+        "Coloca el texto de la nota al pie de la página actual.",
+        "Inserta un comentario en el margen derecho.",
+        "Crea una entrada en la tabla de contenido."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Word inserta la marca de referencia en el texto y la nota al final del documento.",
+      "excerpt": "Word inserta una marca de referencia en el texto y agrega la marca de la nota al final en la parte final del documento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

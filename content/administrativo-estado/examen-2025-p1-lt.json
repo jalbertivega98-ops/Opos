@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lt-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 14.1 Ley 19/2013",
+      "stem": "Según el artículo 14.1 de la Ley 19/2013, de transparencia, ¿cuál de los siguientes es un límite al derecho de acceso a la información pública?",
+      "options": [
+        "La imagen institucional del órgano que tiene la información.",
+        "El volumen de trabajo de la unidad que debe facilitarla.",
+        "La antigüedad de la información solicitada.",
+        "La política económica y monetaria."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 14.1 enumera los límites (seguridad nacional, defensa, relaciones exteriores, política económica y monetaria, etc.); los demás no figuran.",
+      "excerpt": "i)\tLa política económica y monetaria.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

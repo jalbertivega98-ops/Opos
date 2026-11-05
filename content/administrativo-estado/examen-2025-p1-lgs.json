@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lgs-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 38/2003, de 17 de noviembre, General de Subvenciones (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.4 Ley 38/2003",
+      "stem": "Según el artículo 2.4 de la Ley 38/2003, General de Subvenciones, ¿cuál de los siguientes supuestos NO tiene carácter de subvención?",
+      "options": [
+        "Una ayuda en concurrencia competitiva para proyectos de investigación.",
+        "Una ayuda dineraria a una asociación para actividades de interés social.",
+        "Una ayuda concedida directamente por razones humanitarias acreditadas.",
+        "Las prestaciones reconocidas por el Fondo de Garantía Salarial."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 2.4 excluye, entre otros, las prestaciones del FOGASA, los beneficios fiscales y el crédito oficial; las demás son subvenciones típicas.",
+      "excerpt": "f) Las prestaciones reconocidas por el Fondo de Garantía Salarial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10 Ley 38/2003",
+      "stem": "El director de un organismo autónomo de la AGE va a conceder una subvención de 15 millones de euros. Según el artículo 10 de la Ley 38/2003:",
+      "options": [
+        "Solo puede concederla el Ministro de adscripción.",
+        "Es el órgano competente, pero necesita la previa autorización del Consejo de Ministros, y sus facultades pueden desconcentrarse por real decreto.",
+        "Puede concederla sin autorización, porque el límite de 12 millones solo rige para los Ministerios.",
+        "Necesita autorización de las Cortes Generales."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Presidentes o directores de organismos son competentes (art. 10.1); por encima de 12 millones se requiere autorización del Consejo de Ministros (10.2); las facultades pueden desconcentrarse (10.3).",
+      "excerpt": "la concesión de subvenciones de cuantía superior a 12 millones de euros requerirá la previa autorización del Consejo de Ministros […] Las facultades para conceder subvenciones, a que se refiere este artículo, podrán ser objeto de desconcentración mediante real decreto acordado en Consejo de Ministros.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

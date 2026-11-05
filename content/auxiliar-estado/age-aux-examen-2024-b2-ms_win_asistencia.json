@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_win_asistencia-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Solucionar problemas del PC de forma remota con Asistencia rápida",
+      "url": "https://support.microsoft.com/es-es/windows/apps/solve-pc-problems-remotely-using-quick-assist",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "Windows 11 · Asistencia rápida",
+      "stem": "¿Qué herramienta de Windows 11 permite que una persona de confianza vea la pantalla o controle el equipo a distancia para resolver un problema?",
+      "options": [
+        "Escritorio virtual.",
+        "Enlace Móvil.",
+        "Asistencia rápida.",
+        "Historial de archivos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Asistencia rápida permite a alguien de confianza ver la pantalla o controlar el PC (si se permite) desde cualquier lugar.",
+      "excerpt": "Asistencia rápida permite que alguien de confianza controle tu PC Windows y solucione un problema desde cualquier lugar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

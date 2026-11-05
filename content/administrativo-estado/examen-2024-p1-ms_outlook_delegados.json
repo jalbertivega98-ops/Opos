@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_outlook_delegados-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Acerca de los delegados: Permitir que alguien administre su correo y calendario en Outlook",
+      "url": "https://support.microsoft.com/es-es/outlook/sharing/about-delegates-allow-someone-to-manage-your-mail-and-calendar-in-outlook",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Delegados de Outlook",
+      "stem": "En Outlook, una jefa de servicio quiere que su secretario pueda responder en su nombre a convocatorias de reunión. ¿Qué debe hacer?",
+      "options": [
+        "Compartirle una regla de respuesta automática.",
+        "Asignarle una categoría de color.",
+        "Concederle acceso como delegado.",
+        "Reenviarle todos los mensajes manualmente."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Los delegados tienen permisos adicionales para crear mensajes o responder a convocatorias de reunión en nombre de otra persona.",
+      "excerpt": "Los delegados gozan de permisos adicionales, como los de crear mensajes de correo o responder a convocatorias de reunión en su nombre.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

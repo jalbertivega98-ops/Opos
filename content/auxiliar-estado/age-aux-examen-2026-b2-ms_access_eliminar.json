@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_access_eliminar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Crear y ejecutar una consulta de eliminación (Access)",
+      "url": "https://support.microsoft.com/es-es/access/create-and-run-a-delete-query",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Access · Eliminar registros",
+      "stem": "Antes de ejecutar en Access una consulta que elimina registros, Microsoft recomienda:",
+      "options": [
+        "Convertir la tabla en una tabla vinculada.",
+        "Asegurarse de tener una copia de seguridad de la base de datos.",
+        "Abrir la tabla en vista Diseño.",
+        "Cambiar el tipo de datos de la clave principal."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La eliminación de registros en Access no se puede deshacer con Deshacer, por eso Microsoft aconseja tener copia de seguridad; además, si no se especifican criterios, la consulta de eliminación quita todos los registros de la tabla.",
+      "excerpt": "asegúrese de que tiene una copia de seguridad de la base de datos de escritorio de Access",
+      "excerpt_status": "completo"
+    }
+  ]
+}

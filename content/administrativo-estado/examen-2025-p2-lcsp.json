@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-lcsp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 20.1 LCSP",
+      "stem": "Tras la queja, la Confederación prepara un contrato de obras para instalar una rampa y una plataforma elevadora en su sede, con un valor estimado de 98.000 euros. ¿Está sujeto a regulación armonizada?",
+      "options": [
+        "No, porque el umbral de los contratos de obras es un valor estimado igual o superior a 5.404.000 euros.",
+        "Sí, porque todos los contratos de obras de organismos autónomos están sujetos a regulación armonizada.",
+        "Sí, porque supera los 40.000 euros de valor estimado.",
+        "No, porque las obras de accesibilidad están excluidas de la Ley 9/2017."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Los contratos de obras son SARA cuando su valor estimado es igual o superior a 5.404.000 euros (art. 20.1); 40.000 euros es el límite del contrato menor de obras.",
+      "excerpt": "Están sujetos a regulación armonizada los contratos de obras, de concesión de obras y de concesión de servicios cuyo valor estimado sea igual o superior a 5.404.000 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 159.2 LCSP",
+      "stem": "La Confederación adjudica la obra de accesibilidad (valor estimado de 98.000 euros) por el procedimiento abierto simplificado. ¿Dónde debe publicarse el anuncio de licitación?",
+      "options": [
+        "En el Diario Oficial de la Unión Europea y en el perfil de contratante.",
+        "Únicamente en el perfil de contratante del órgano de contratación.",
+        "En el «Boletín Oficial del Estado» y en el perfil de contratante.",
+        "No requiere anuncio, porque se invita directamente a tres empresas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En el abierto simplificado el anuncio únicamente precisa publicarse en el perfil de contratante, y toda la documentación debe estar disponible electrónicamente desde ese día (art. 159.2).",
+      "excerpt": "El anuncio de licitación del contrato únicamente precisará de publicación en el perfil de contratante del órgano de contratación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107.1 LCSP",
+      "stem": "La mejor oferta para la obra de accesibilidad de la Confederación asciende a 80.000 euros más 16.800 euros de IVA. Si el pliego no prevé garantía complementaria, ¿cuál será la garantía definitiva?",
+      "options": [
+        "4.000 euros.",
+        "4.840 euros.",
+        "4.900 euros.",
+        "8.000 euros."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La garantía definitiva es el 5 % del precio final ofertado, excluido el IVA: 5 % de 80.000 = 4.000 euros (art. 107.1). 4.840 resulta de aplicar el 5 % con IVA (96.800) y 8.000 sería un 10 %.",
+      "excerpt": "deberán constituir a disposición del órgano de contratación una garantía de un 5 por 100 del precio final ofertado por aquellos, excluido el Impuesto sobre el Valor Añadido.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

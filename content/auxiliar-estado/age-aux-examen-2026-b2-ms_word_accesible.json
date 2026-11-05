@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_word_accesible-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Hacer que los documentos de Word sean accesibles para personas con discapacidad",
+      "url": "https://support.microsoft.com/es-es/accessibility/word/make-your-word-documents-accessible-to-people-with-disabilities",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Word · Accesibilidad: texto alternativo",
+      "stem": "Para que una persona que no puede ver la pantalla comprenda una imagen de un documento de Word, debe añadirse:",
+      "options": [
+        "Una marca de agua.",
+        "Texto alternativo.",
+        "Un hipervínculo a la imagen.",
+        "Una tabla con la descripción."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El texto alternativo ayuda a quienes no ven la pantalla a comprender lo importante del contenido visual; las tablas, en general, deben evitarse si los datos pueden presentarse de otra forma.",
+      "excerpt": "El texto alternativo ayuda a las personas que no pueden ver la pantalla a comprender lo que es importante en el contenido visual.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

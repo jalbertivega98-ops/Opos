@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ce-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Estructura de la CE",
+      "stem": "¿Cómo se estructura la parte articulada de la Constitución Española de 1978?",
+      "options": [
+        "En un título preliminar y nueve títulos, el último dedicado al Tribunal Constitucional.",
+        "En un título preliminar y diez títulos, el último dedicado a la reforma constitucional.",
+        "En once títulos numerados, sin título preliminar.",
+        "En un título preliminar y diez títulos, el último dedicado a la organización territorial del Estado."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Tras el título preliminar, la CE tiene diez títulos (I a X); el título X trata de la reforma constitucional, el IX del Tribunal Constitucional y el VIII de la organización territorial.",
+      "excerpt": "TÍTULO X. De la reforma constitucional",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 63.3 CE",
+      "stem": "De acuerdo con el artículo 63.3 de la Constitución, declarar la guerra y hacer la paz corresponde:",
+      "options": [
+        "Al Rey, previa autorización de las Cortes Generales.",
+        "Al Gobierno, previa autorización del Congreso de los Diputados.",
+        "A las Cortes Generales, a propuesta del Gobierno.",
+        "Al Presidente del Gobierno, oído el Consejo de Estado."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Es una función del Rey que exige la previa autorización de las Cortes Generales (art. 63.3).",
+      "excerpt": "Al Rey corresponde, previa autorización de las Cortes Generales, declarar la guerra y hacer la paz.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 71.3 CE",
+      "stem": "Según la Constitución, ¿qué órgano es competente en las causas contra Diputados y Senadores?",
+      "options": [
+        "El Tribunal Constitucional.",
+        "La Sala de lo Penal de la Audiencia Nacional.",
+        "El Tribunal Superior de Justicia de la Comunidad Autónoma por la que fueron elegidos.",
+        "La Sala de lo Penal del Tribunal Supremo."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 71.3 atribuye a la Sala de lo Penal del Tribunal Supremo las causas contra Diputados y Senadores.",
+      "excerpt": "En las causas contra Diputados y Senadores será competente la Sala de lo Penal del Tribunal Supremo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 124.4 CE",
+      "stem": "Conforme al artículo 124.4 de la Constitución, el Fiscal General del Estado será nombrado:",
+      "options": [
+        "Por el Rey, a propuesta del Consejo General del Poder Judicial.",
+        "Por el Congreso de los Diputados por mayoría de tres quintos.",
+        "Por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+        "Por el Gobierno, a propuesta del Ministro de Justicia, oído el Consejo Fiscal."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Nombra el Rey, a propuesta del Gobierno, con audiencia previa del CGPJ (art. 124.4).",
+      "excerpt": "El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 147.2 CE",
+      "stem": "¿Cuál de los siguientes contenidos NO figura entre los que, según el artículo 147.2 de la Constitución, deben contener los Estatutos de Autonomía?",
+      "options": [
+        "El régimen electoral de los Diputados y Senadores de la Comunidad.",
+        "La denominación de la Comunidad que mejor corresponda a su identidad histórica.",
+        "La delimitación de su territorio.",
+        "La denominación, organización y sede de las instituciones autónomas propias."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 147.2 enumera denominación, territorio, instituciones propias y competencias asumidas; la elección de Diputados y Senadores es materia estatal.",
+      "excerpt": "Los Estatutos de autonomía deberán contener: […] La denominación de la Comunidad que mejor corresponda a su identidad histórica. […] La delimitación de su territorio. […] La denominación, organización y sede de las instituciones autónomas propias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 90.3 CE",
+      "stem": "Cuando el Gobierno o el Congreso declaran urgente un proyecto de ley, el plazo de que dispone el Senado para vetarlo o enmendarlo se reduce a:",
+      "options": [
+        "Diez días hábiles.",
+        "Un mes.",
+        "Quince días naturales.",
+        "Veinte días naturales."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El plazo ordinario de dos meses se reduce a veinte días naturales en los proyectos declarados urgentes (art. 90.3).",
+      "excerpt": "El plazo de dos meses de que el Senado dispone para vetar o enmendar el proyecto se reducirá al de veinte días naturales en los proyectos declarados urgentes por el Gobierno o por el Congreso de los Diputados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 134.3 CE",
+      "stem": "Según el artículo 134.3 de la Constitución, el Gobierno debe presentar los Presupuestos Generales del Estado ante el Congreso:",
+      "options": [
+        "Antes del 1 de octubre de cada año.",
+        "Al menos seis meses antes de la expiración de los del año anterior.",
+        "Dentro del primer mes del ejercicio.",
+        "Al menos tres meses antes de la expiración de los del año anterior."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El plazo constitucional es de al menos tres meses antes de que expiren los del año anterior.",
+      "excerpt": "El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

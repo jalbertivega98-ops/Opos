@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2026-b2-ms_access_importar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2026 (convocatoria 2025, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2026-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2026_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Importar o vincular a datos de un libro de Excel",
+      "url": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 23/05/2026 (convocatoria 2025, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 29,00 y 21,33). Cada pregunta es original y replica el concepto de la oficial del mismo número (la nº 13 oficial fue anulada); ofimática según Windows 11 y Microsoft 365."
+  },
+  "questions": [
+    {
+      "ref": "Access · Datos externos",
+      "stem": "En Access 365, ¿cuándo está disponible la pestaña Datos externos para importar o vincular datos?",
+      "options": [
+        "Solo cuando hay una base de datos abierta.",
+        "Solo cuando hay una tabla abierta en vista Diseño.",
+        "Siempre, aunque no haya ninguna base de datos abierta.",
+        "Solo si se ejecuta Access como administrador."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Las operaciones de importación (desde Excel, HTML, texto, etc.) se hacen desde la pestaña Datos externos, que solo está disponible con una base de datos abierta. La pregunta oficial trataba la importación de un documento HTML; se replica con la fuente oficial disponible.",
+      "excerpt": "La pestaña Datos externos no está disponible a menos que esté abierta una base de datos.",
+      "excerpt_status": "completo",
+      "review_note": "Microsoft no ofrece en español una página específica sobre la importación de documentos HTML en Access; la réplica se apoya en la de importación desde Excel (misma pestaña Datos externos)."
+    }
+  ]
+}

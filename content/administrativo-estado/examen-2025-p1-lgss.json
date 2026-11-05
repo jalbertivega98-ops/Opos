@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lgss-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 8/2015, de 30 de octubre, texto refundido de la Ley General de la Seguridad Social (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 215 LGSS",
+      "stem": "Un trabajador laboral con discapacidad reconocida del 40 % quiere acceder a la jubilación parcial anticipada. Según el artículo 215 de la LGSS, ¿qué periodo de cotización se le exige?",
+      "options": [
+        "Treinta y tres años, como a cualquier otro trabajador.",
+        "Quince años, de los cuales dos dentro de los últimos quince.",
+        "Veinte años.",
+        "Veinticinco años, en lugar de los treinta y tres exigidos con carácter general."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 215 reduce el período de cotización de 33 años a veinticinco para quienes tienen una discapacidad igual o superior al 33 %.",
+      "excerpt": "En el supuesto de personas con discapacidad en grado igual o superior al 33 por ciento, el período de cotización de 33 años indicado en el párrafo anterior se reducirá al de veinticinco años.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

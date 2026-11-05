@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-ofimatica-ms_outlook_responder-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, tercer ejercicio de ofimática (20 preguntas)",
+    "topic_slug": "justra-examen-2026-ofimatica",
+    "locale": "es",
+    "category": "justra_examen_2026_ofimatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Responder o reenviar un mensaje de correo electrónico en Outlook clásico",
+      "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica del tercer ejercicio (ofimática) de Tramitación Procesal del 03/10/2026: 20 preguntas tipo test sobre Windows y Microsoft 365, 4 opciones, 40 minutos; acierto +1, error −0,25; nota de 0 a 20 y mínimo 10. Fuentes: documentación oficial de Microsoft en español."
+  },
+  "questions": [
+    {
+      "ref": "Outlook · responder y reenviar",
+      "stem": "En Outlook clásico, ¿qué ocurre con los datos adjuntos de un mensaje recibido cuando se reenvía?",
+      "options": [
+        "Se eliminan y deben adjuntarse de nuevo manualmente.",
+        "Solo se incluyen si se usa Responder a todos.",
+        "Se convierten en vínculos a OneDrive.",
+        "Se incluyen automáticamente en el mensaje reenviado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Al reenviar se incluyen los datos adjuntos del original; al responder, no.",
+      "excerpt": "Los datos adjuntos incluidos en el mensaje original se incluyen automáticamente al reenviar un mensaje.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

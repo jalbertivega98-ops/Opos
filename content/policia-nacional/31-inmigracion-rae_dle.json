@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-31-inmigracion-rae_dle-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 31. Inmigración: movimientos migratorios, concepto, causas, tipos y efectos; integración social",
+    "topic_slug": "pn-31-inmigracion",
+    "locale": "es",
+    "category": "pn_31_inmigracion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario de la lengua española (RAE-ASALE), 23.ª ed., versión electrónica: entradas citadas",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DLE, éxodo 1.a",
+      "stem": "Según el Diccionario de la lengua española, la emigración de un pueblo o de una muchedumbre de personas es un:",
+      "options": [
+        "Asentamiento.",
+        "Retorno.",
+        "Éxodo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DLE define el éxodo (del griego éxodos, 'salida') como la emigración de un pueblo o de una muchedumbre de personas; en la acepción 1.b, como el traslado de personas de un lugar a otro, generalmente en gran cantidad.",
+      "excerpt": "Emigración de un pueblo o de una muchedumbre de personas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, diáspora 1.b",
+      "stem": "Según el Diccionario de la lengua española, la dispersión de grupos humanos que abandonan su lugar de origen es la:",
+      "options": [
+        "Aculturación.",
+        "Integración.",
+        "Diáspora."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DLE recoge dos acepciones de «diáspora»: la dispersión de los judíos exiliados de su país (1.a) y, en general, la dispersión de grupos humanos que abandonan su lugar de origen (1.b).",
+      "excerpt": "Dispersión de grupos humanos que abandonan su lugar de origen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, diáspora 1.a",
+      "stem": "Según el Diccionario de la lengua española, la primera acepción de «diáspora» se refiere a la dispersión de:",
+      "options": [
+        "Los judíos exiliados de su país.",
+        "Los pueblos germánicos tras la caída del Imperio romano.",
+        "Los emigrantes europeos hacia América."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La acepción 1.a de «diáspora» es la dispersión de los judíos exiliados de su país; la 1.b la extiende a cualquier grupo humano que abandona su lugar de origen.",
+      "excerpt": "Dispersión de los judíos exiliados de su país.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, emigración golondrina",
+      "stem": "Según el Diccionario de la lengua española, la emigración que no tiene como fin establecerse en otro país, sino realizar en él ciertos trabajos para volver después al propio, se denomina emigración:",
+      "options": [
+        "Pendular.",
+        "Golondrina.",
+        "Forzosa."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El DLE recoge la expresión «emigración golondrina», marcada como poco usada, para la emigración temporal de trabajo con regreso al país propio.",
+      "excerpt": "emigración que no tiene como fin establecerse en otro país, sino realizar en él ciertos trabajos para volver después al propio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, emigración 1.b",
+      "stem": "Según el Diccionario de la lengua española, además de la acción y efecto de emigrar, el término «emigración» designa:",
+      "options": [
+        "El conjunto de personas que llegan a un país para establecerse en él.",
+        "La dispersión de los judíos exiliados de su país.",
+        "El conjunto de personas que emigran de un lugar."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La acepción 1.b de «emigración» es el conjunto de personas que emigran de un lugar; el ejemplo del DLE alude a la emigración española asentada en Argentina.",
+      "excerpt": "Conjunto de personas que emigran de un lugar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

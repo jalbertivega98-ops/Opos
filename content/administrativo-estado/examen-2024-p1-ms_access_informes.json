@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2024-p1-ms_access_informes-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · OEP 2023-2024 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2024-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2024_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Crear informes sencillos",
+      "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Origen de registros del informe",
+      "stem": "En Access, las tablas o consultas que proporcionan los datos subyacentes de un informe se denominan:",
+      "options": [
+        "Formulario dependiente.",
+        "Macro de datos.",
+        "Origen de registros del informe.",
+        "Relación de combinación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Un informe obtiene sus datos de tablas o consultas, que forman su origen de registros.",
+      "excerpt": "Las tablas o consultas que proporcionan los datos subyacentes se conocen también como origen de registros del informe.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

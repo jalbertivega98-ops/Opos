@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-rdpj-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 640/1987, de 8 de mayo, sobre pagos librados «a justificar» (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-12158",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10.1 RD 640/1987",
+      "stem": "Un cajero pagador recibe fondos «a justificar» el 1 de marzo y los invierte el 10 de abril. Según el artículo 10.1 del Real Decreto 640/1987, debe justificar su aplicación:",
+      "options": [
+        "Dentro de los tres meses siguientes a la inversión y, en todo caso, en seis meses desde la percepción.",
+        "Al cierre del ejercicio presupuestario.",
+        "En las primeras quincenas de enero, abril, julio y octubre.",
+        "Dentro del mes siguiente a la inversión y, en todo caso, en el plazo de tres meses desde la percepción de los fondos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 10.1 fija el mes siguiente a la inversión, con el límite de tres meses desde la percepción, sin perjuicio del art. 11.",
+      "excerpt": "Los Cajeros pagadores quedarán obligados a justificar la aplicación de las cantidades recibidas dentro del mes siguiente a la inversión de las mismas y en todo caso en el plazo de tres meses desde la percepción de los correspondientes fondos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lotcu-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 2/1982, de 12 de mayo, del Tribunal de Cuentas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2 LO 2/1982",
+      "stem": "Según el artículo 2 de la Ley Orgánica 2/1982, son funciones propias del Tribunal de Cuentas:",
+      "options": [
+        "La función interventora previa de todos los gastos del Estado.",
+        "El control financiero permanente de los organismos autónomos.",
+        "La fiscalización externa, permanente y consuntiva de la actividad económico-financiera del sector público y el enjuiciamiento de la responsabilidad contable.",
+        "La aprobación de la Cuenta General del Estado."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La función interventora y el control financiero permanente son de la IGAE; la Cuenta General la aprueban las Cortes. Al Tribunal le corresponden la fiscalización externa y el enjuiciamiento contable.",
+      "excerpt": "a) La fiscalización externa, permanente y consuntiva de la actividad económico-financiera del sector público. b) El enjuiciamiento de la responsabilidad contable en que incurran quienes tengan a su cargo el manejo de caudales o efectos públicos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

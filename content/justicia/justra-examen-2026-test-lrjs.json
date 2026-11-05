@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-test-lrjs-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, primer ejercicio (100 preguntas)",
+    "topic_slug": "justra-examen-2026-test",
+    "locale": "es",
+    "category": "justra_examen_2026_test",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 36/2011, de 10 de octubre, reguladora de la jurisdicción social (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del primer ejercicio de Tramitación Procesal y Administrativa del 03/10/2026: 100 preguntas, 4 opciones, 100 minutos; acierto +0,60, error −0,15; nota de 0 a 60 y mínimo 30. Cada pregunta es original y replica el punto de la pregunta oficial del mismo número."
+  },
+  "questions": [
+    {
+      "ref": "Art. 82.1 LRJS",
+      "stem": "En el proceso social, ¿quién señala el día y la hora de los actos de conciliación y juicio y cómo pueden celebrarse?",
+      "options": [
+        "El juez, por providencia posterior a la admisión, siempre en el mismo acto.",
+        "El LAJ, por diligencia de ordenación, siempre en días distintos.",
+        "El LAJ, en la misma resolución de admisión, y pueden tener lugar separada o sucesivamente.",
+        "El juez, en la misma resolución de admisión, solo de forma sucesiva."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 82.1 LRJS atribuye el señalamiento al LAJ en la resolución de admisión, separada o sucesivamente.",
+      "excerpt": "en la misma resolución de admisión a trámite el letrado o letrada de la Administración de Justicia señalará el día y la hora en que hayan de tener lugar, separada o sucesivamente, los actos de conciliación y de juicio",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.1 LRJS",
+      "stem": "En el cómputo del plazo para reclamar contra el despido, ¿qué días se excluyen?",
+      "options": [
+        "Los sábados, los domingos y los festivos en la sede del órgano jurisdiccional.",
+        "Solo los domingos y los festivos nacionales.",
+        "Ninguno, porque es un plazo de caducidad.",
+        "Los días del mes de agosto, exclusivamente."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 103.1 LRJS fija veinte días hábiles y excluye sábados, domingos y festivos en la sede del órgano.",
+      "excerpt": "no se computarán los sábados, domingos y los festivos en la sede del órgano jurisdiccional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 83.2 LRJS",
+      "stem": "Si el actor, citado en forma, no comparece al acto de juicio ni alega justa causa, ¿qué ocurre?",
+      "options": [
+        "Se celebra el juicio en su ausencia.",
+        "El LAJ declara la caducidad de la acción.",
+        "El juez o tribunal le tiene por desistido de su demanda.",
+        "Se suspende el juicio y se señala nueva fecha."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La incomparecencia injustificada del actor lleva a tenerle por desistido: lo acuerda el LAJ en la conciliación y el juez o tribunal en el juicio (art. 83.2 LRJS).",
+      "excerpt": "2\\. Si el actor, citado en forma, no compareciese ni alegase justa causa que motive la suspensión del acto de conciliación o del juicio, el secretario judicial en el primer caso y el juez o tribunal en el segundo, le tendrán por desistido de su demanda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50 LRJS",
+      "stem": "En un proceso social en el que no ha intervenido abogado ni graduado social, ¿puede el juez dictar sentencia de viva voz?",
+      "options": [
+        "No, la resolución tendrá que ser necesariamente escrita.",
+        "Sí, siempre que lo consientan las partes.",
+        "Sí, en todo caso, al terminar el juicio.",
+        "Solo si se trata de un allanamiento total."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 50 LRJS exige sentencia escrita cuando no interviene abogado ni graduado social.",
+      "excerpt": "En aquellos procedimientos en los que no intervenga abogado ni graduado social, de conformidad con la ley, la resolución que se dicte tendrá que ser necesariamente escrita.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

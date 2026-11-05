@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-30-etica-delitos-odio-rae_dle-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 30. Principios éticos de la sociedad actual, contravalores (racismo, xenofobia, intolerancia) y delitos de odio",
+    "topic_slug": "pn-30-etica-delitos-odio",
+    "locale": "es",
+    "category": "pn_30_etica_delitos_odio",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario de la lengua española (RAE-ASALE), 23.ª ed., versión electrónica: entradas citadas",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DLE, fanatismo",
+      "stem": "Según el Diccionario de la lengua española, el apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas, es el:",
+      "options": [
+        "Conformismo.",
+        "Fanatismo.",
+        "Escepticismo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El DLE define el fanatismo como el apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas; entre sus antónimos figura la tolerancia.",
+      "excerpt": "Apasionamiento y tenacidad desmedida en la defensa de creencias u opiniones, especialmente religiosas o políticas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, tolerancia 1.b",
+      "stem": "Según el Diccionario de la lengua española, el respeto a las ideas, creencias o prácticas de los demás cuando son diferentes o contrarias a las propias es la:",
+      "options": [
+        "Tolerancia.",
+        "Integración.",
+        "Asimilación."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La acepción 1.b de «tolerancia» en el DLE es el respeto a las ideas, creencias o prácticas ajenas cuando son diferentes o contrarias a las propias; sus antónimos son intolerancia, intransigencia e inflexibilidad.",
+      "excerpt": "Respeto a las ideas, creencias o prácticas de los demás cuando son diferentes o contrarias a las propias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, sectarismo",
+      "stem": "Según el Diccionario de la lengua española, el fanatismo e intransigencia en la defensa de una idea o una ideología es el:",
+      "options": [
+        "Dogmatismo.",
+        "Autoritarismo.",
+        "Sectarismo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DLE define el sectarismo (de sectario e -ismo) como el fanatismo e intransigencia en la defensa de una idea o ideología. El dogmatismo es la presunción de que la propia doctrina sea tenida por verdad inconcusa.",
+      "excerpt": "Fanatismo e intransigencia en la defensa de una idea o una ideología.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, racismo 1.a",
+      "stem": "Según el Diccionario de la lengua española, la creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social, es el:",
+      "options": [
+        "Chovinismo.",
+        "Racismo.",
+        "Etnocentrismo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El DLE define el racismo (acepción 1.a) como esa creencia; en las acepciones 1.b y 1.c es también la ideología basada en ella y la discriminación que provoca.",
+      "excerpt": "Creencia que sostiene la superioridad de un grupo étnico sobre los demás, lo que conduce a la discriminación o persecución social.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DLE, intolerancia 1.a",
+      "stem": "Según el Diccionario de la lengua española, la falta de tolerancia, especialmente hacia creencias, ideas o comportamientos ajenos, o hacia quien los tiene, es la:",
+      "options": [
+        "Xenofobia.",
+        "Intolerancia.",
+        "Marginación."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El DLE define la intolerancia (acepción 1.a) como la falta de tolerancia hacia creencias, ideas o comportamientos ajenos o hacia quien los tiene; entre sus sinónimos figuran intransigencia y fanatismo.",
+      "excerpt": "Falta de tolerancia, especialmente hacia creencias, ideas o comportamientos ajenos, o hacia quien los tiene.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

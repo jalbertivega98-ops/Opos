@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "justra-examen-2026-test-ljca-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Tramitación Procesal, primer ejercicio (100 preguntas)",
+    "topic_slug": "justra-examen-2026-test",
+    "locale": "es",
+    "category": "justra_examen_2026_test",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del primer ejercicio de Tramitación Procesal y Administrativa del 03/10/2026: 100 preguntas, 4 opciones, 100 minutos; acierto +0,60, error −0,15; nota de 0 a 60 y mínimo 30. Cada pregunta es original y replica el punto de la pregunta oficial del mismo número."
+  },
+  "questions": [
+    {
+      "ref": "Art. 44 LJCA",
+      "stem": "En los litigios entre Administraciones públicas, según el artículo 44 de la LJCA:",
+      "options": [
+        "Es obligatorio interponer recurso de alzada antes de acudir a la vía contencioso-administrativa.",
+        "No cabe recurso en vía administrativa, aunque la Administración recurrente puede requerir previamente a la otra en el plazo de dos meses.",
+        "Es obligatorio el requerimiento previo en el plazo de un mes.",
+        "Solo cabe recurso potestativo de reposición."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 44 LJCA excluye el recurso administrativo y prevé un requerimiento previo potestativo, a formular en dos meses.",
+      "excerpt": "1\\. En los litigios entre Administraciones públicas no cabrá interponer recurso en vía administrativa. No obstante, cuando una Administración interponga recurso contencioso-administrativo contra otra, podrá requerirla previamente […] deberá producirse en el plazo de dos meses",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.2 LJCA",
+      "stem": "Según el artículo 50 de la LJCA, ¿cuándo se entienden personadas las Administraciones públicas demandadas?",
+      "options": [
+        "Cuando presentan escrito de personación firmado por su letrado.",
+        "Cuando contestan a la demanda.",
+        "Por el envío del expediente administrativo.",
+        "Cuando reciben la reclamación del expediente."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El emplazamiento se entiende efectuado por la reclamación del expediente y la personación por su envío (art. 50.1 y 2 LJCA).",
+      "excerpt": "2\\. Las Administraciones públicas se entenderán personadas por el envío del expediente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 55 LJCA",
+      "stem": "Si una parte estima que el expediente administrativo no está completo y pide que se reclamen los antecedentes, según el artículo 55 de la LJCA:",
+      "options": [
+        "Puede pedirlo en cualquier momento antes de la sentencia, sin efectos sobre los plazos.",
+        "Debe pedirlo dentro del plazo para formular la demanda o la contestación, y la solicitud suspende el curso de ese plazo.",
+        "Debe pedirlo en los tres días siguientes a la recepción del expediente.",
+        "Lo resuelve el juez por auto en el plazo de diez días."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La solicitud se formula dentro del plazo de demanda o contestación, suspende el plazo y el LAJ resuelve en tres días.",
+      "excerpt": "podrán solicitar, dentro del plazo para formular la demanda o la contestación, que se reclamen los antecedentes para completarlo. […] 2\\. La solicitud a que se refiere el apartado anterior suspenderá el curso del plazo correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 74.1 LJCA",
+      "stem": "Según el artículo 74 de la LJCA, ¿hasta cuándo puede el recurrente desistir del recurso contencioso-administrativo?",
+      "options": [
+        "Solo antes de formalizar la demanda.",
+        "Solo antes de que la Administración conteste la demanda.",
+        "Hasta que la sentencia sea firme.",
+        "En cualquier momento anterior a la sentencia."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El recurrente puede desistir en cualquier momento anterior a la sentencia (art. 74.1 LJCA).",
+      "excerpt": "1\\. El recurrente podrá desistir del recurso en cualquier momento anterior a la sentencia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

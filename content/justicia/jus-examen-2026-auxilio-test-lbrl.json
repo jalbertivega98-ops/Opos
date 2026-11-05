@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "jus-examen-2026-auxilio-test-lbrl-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 · Auxilio Judicial, primer ejercicio (100 preguntas)",
+    "topic_slug": "jus-examen-2026-auxilio-test",
+    "locale": "es",
+    "category": "jus_examen_2026_auxilio_test",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica del primer ejercicio de Auxilio Judicial del 03/10/2026 (Orden PJC/1549/2025): 100 preguntas, 4 opciones, 100 minutos; acierto +0,60, error −0,15; nota de 0 a 60 y mínimo 30. Cada pregunta es original y replica el punto (norma y artículo) de la pregunta oficial del mismo número; no copia enunciados ni opciones."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3.1 Ley 7/1985",
+      "stem": "Según el artículo 3 de la Ley 7/1985, Reguladora de las Bases del Régimen Local, ¿cuál de las siguientes es una Entidad Local territorial?",
+      "options": [
+        "La Comarca.",
+        "El Área Metropolitana.",
+        "La Isla en los archipiélagos balear y canario.",
+        "La Mancomunidad de Municipios."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Son territoriales el Municipio, la Provincia y la Isla en Baleares y Canarias; comarcas, áreas metropolitanas y mancomunidades son Entidades Locales pero no territoriales (art. 3.2 LBRL).",
+      "excerpt": "1. Son Entidades Locales territoriales: a) El Municipio. b) La Provincia. c) La Isla en los archipiélagos balear y canario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15 Ley 7/1985",
+      "stem": "Según el artículo 15 de la Ley 7/1985, quien viva en varios municipios deberá inscribirse en el Padrón:",
+      "options": [
+        "De todos los municipios en que resida.",
+        "Únicamente del municipio en el que habite durante más tiempo al año.",
+        "Del municipio en que haya nacido.",
+        "Del municipio que elija libremente, con independencia del tiempo que resida en él."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Cada persona se inscribe en un solo Padrón: el del municipio de residencia habitual o, si vive en varios, el de mayor permanencia anual; la condición de vecino se adquiere con la inscripción.",
+      "excerpt": "Quien viva en varios municipios deberá inscribirse únicamente en el que habite durante más tiempo al año.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

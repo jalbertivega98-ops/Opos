@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p2-trebep-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Segunda parte: supuesto práctico (20 preguntas)",
+    "topic_slug": "age-adm-examen-2025-p2",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 49.b TREBEP",
+      "stem": "Dña. Sara Linares va a adoptar a un menor y quiere disfrutar de forma interrumpida las semanas no obligatorias de su permiso. Según el TREBEP, ¿qué preaviso debe dar para cada periodo de disfrute?",
+      "options": [
+        "Al menos quince días, y por semanas completas.",
+        "Al menos diez días hábiles, y por días sueltos.",
+        "Al menos un mes, y por quincenas.",
+        "No necesita preaviso si lo comunica por registro electrónico."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Para el disfrute interrumpido del permiso se exige, en cada periodo, un preaviso de al menos quince días, y se disfruta por semanas completas (art. 49.b; la misma regla se repite en el permiso por nacimiento del art. 49.c).",
+      "excerpt": "En el caso del disfrute interrumpido del permiso se requerirá, para cada período de disfrute, un preaviso de al menos quince días y se realizará por semanas completas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.b TREBEP",
+      "stem": "Dña. Sara Linares, adoptante en una familia con dos progenitores, quiere disfrutar a tiempo parcial todo lo que la ley le permita de su permiso por adopción. ¿Cuántas semanas podría disfrutar en ese régimen, si lo permiten las necesidades del servicio?",
+      "options": [
+        "Diecinueve semanas.",
+        "Seis semanas.",
+        "Once semanas.",
+        "Trece semanas."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "De las diecinueve semanas, las seis primeras son obligatorias y a jornada completa; pueden disfrutarse a tiempo parcial las once del apartado 2.º y las dos del apartado 3.º: trece en total (art. 49.b).",
+      "excerpt": "Seis semanas ininterrumpidas inmediatamente posteriores a la resolución judicial por la que se constituye la adopción o bien de la decisión administrativa de guarda con fines de adopción o de acogimiento, serán obligatorias y habrán de disfrutarse a jornada completa. […] El permiso previsto en los apartados 2.º y 3.º podrá disfrutarse a jornada completa o a tiempo parcial",
+      "excerpt_status": "completo",
+      "review_note": "El original preguntaba lo mismo para el permiso por nacimiento del progenitor distinto de la madre biológica (art. 49.c), cuyo reparto es idéntico; aquí se aplica al permiso por adopción para no repetir el supuesto."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-ms_word_transcribir-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Transcribir las grabaciones (Word)",
+      "url": "https://support.microsoft.com/es-es/word/transcribe-your-recordings",
+      "kind": "web_oficial",
+      "publisher": "Microsoft · Soporte técnico oficial (support.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Transcribir en Word",
+      "stem": "Sobre la función Transcribir de Word, señale la afirmación correcta:",
+      "options": [
+        "Solo funciona con archivos de audio cargados; no permite grabar en Word.",
+        "Identifica y separa a los distintos oradores y los etiqueta como «Orador 1», «Orador 2», etc.",
+        "Con una suscripción a Microsoft 365 no hay límite de minutos de audio cargado.",
+        "Guarda las grabaciones en Google Drive."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Transcribir permite grabar en Word o cargar audio, separa oradores y, con Microsoft 365, admite hasta 300 minutos de audio cargado al mes.",
+      "excerpt": "El servicio de transcripción identifica y separa los distintos oradores y los etiqueta como \"Orador 1\", \"Orador 2\", etc.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "age-adm-examen-2025-p1-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Examen réplica · Convocatoria 2025 (INAP) · Primera parte: 70 preguntas (bloques I-V y ofimática)",
+    "topic_slug": "age-adm-examen-2025-p1",
+    "locale": "es",
+    "category": "age_adm_examen_2025_p1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Réplica pregunta a pregunta de un cuestionario oficial del INAP: misma norma, artículo y tipo de pregunta, con enunciado y opciones de redacción propia (no se copia el original); versión vigente de la norma. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 16.1 Ley 39/2015",
+      "stem": "Según el artículo 16.1 de la Ley 39/2015, los Organismos públicos vinculados o dependientes de una Administración:",
+      "options": [
+        "Podrán disponer de su propio registro electrónico, plenamente interoperable e interconectado con el Registro Electrónico General de su Administración.",
+        "Deberán disponer en todo caso de su propio registro electrónico independiente.",
+        "No pueden tener registro propio y deben usar el de su Ministerio de adscripción.",
+        "Podrán tener registro propio solo si lo autoriza el Consejo de Ministros."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 16.1 LPAC configura el registro propio de los organismos como una posibilidad («podrán»), siempre interoperable con el Registro Electrónico General.",
+      "excerpt": "Los Organismos públicos vinculados o dependientes de cada Administración podrán disponer de su propio registro electrónico plenamente interoperable e interconectado con el Registro Electrónico General de la Administración de la que depende.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48 Ley 39/2015",
+      "stem": "Según el artículo 48 de la Ley 39/2015, un acto administrativo dictado con desviación de poder es:",
+      "options": [
+        "Nulo de pleno derecho.",
+        "Válido, aunque el interesado puede pedir su revocación.",
+        "Anulable.",
+        "Inexistente."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 48.1 LPAC declara anulables los actos que incurren en cualquier infracción del ordenamiento jurídico, incluida la desviación de poder.",
+      "excerpt": "Son anulables los actos de la Administración que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 114.1 Ley 39/2015",
+      "stem": "De acuerdo con el artículo 114.1 de la Ley 39/2015, ¿cuál de los siguientes actos pone fin a la vía administrativa?",
+      "options": [
+        "La resolución administrativa de los procedimientos de responsabilidad patrimonial.",
+        "Los actos de trámite cualificados dictados por un Subdirector General.",
+        "Las resoluciones de los órganos que tienen superior jerárquico, salvo que una ley disponga otra cosa.",
+        "El acuerdo de iniciación de un procedimiento sancionador."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 114.1.e) incluye la resolución de los procedimientos de responsabilidad patrimonial; las resoluciones de órganos sin superior jerárquico, no las de órganos que lo tienen.",
+      "excerpt": "e) La resolución administrativa de los procedimientos de responsabilidad patrimonial, cualquiera que fuese el tipo de relación, pública o privada, de que derive.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 87 Ley 39/2015",
+      "stem": "El órgano competente acuerda realizar actuaciones complementarias antes de resolver. Según el artículo 87 de la Ley 39/2015, ¿qué plazo tienen los interesados para alegar tras su finalización?",
+      "options": [
+        "Diez días.",
+        "Quince días.",
+        "No hay trámite de alegaciones.",
+        "Siete días."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El acuerdo se notifica y se conceden siete días para alegar tras finalizar las actuaciones, que deben practicarse en un plazo no superior a quince días.",
+      "excerpt": "concediéndoseles un plazo de siete días para formular las alegaciones que tengan por pertinentes tras la finalización de las mismas. Las actuaciones complementarias deberán practicarse en un plazo no superior a quince días.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

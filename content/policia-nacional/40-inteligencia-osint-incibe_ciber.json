@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-40-inteligencia-osint-incibe_ciber-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 40. Inteligencia: ciclo de inteligencia, fuentes (OSINT) y el Centro Nacional de Inteligencia",
+    "topic_slug": "pn-40-inteligencia-osint",
+    "locale": "es",
+    "category": "pn_40_inteligencia_osint",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Deep web y Dark web; Cryptojacking; Carding; Fraude BEC; E-skimming (artículos de ciudadanía y empresas)",
+      "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE), Ministerio para la Transformación Digital y de la Función Pública",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "INCIBE, Deep web y Dark web (2026)",
+      "stem": "Según INCIBE, cuando navegamos por contenido indexado, el que se puede encontrar a través de motores de búsqueda como Google, Bing o Yahoo, estamos en lo que se conoce como:",
+      "options": [
+        "Deep Web.",
+        "Internet superficial.",
+        "Dark Web."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "INCIBE llama «Internet superficial» al contenido indexado por los buscadores, que es solo la punta del iceberg frente a capas menos visibles como la Deep Web y la Dark Web.",
+      "excerpt": "Cuando navegamos por este contenido indexado (el que se puede encontrar a través de los motores búsqueda como Google, Bing o Yahoo entre otros), leemos noticias o usamos nuestras redes sociales, estamos en lo que se conoce como \"Internet superficial\".",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Deep web y Dark web (2026)",
+      "stem": "Según INCIBE, la Deep Web:",
+      "options": [
+        "Es una pequeña sección de Internet a la que solo se accede mediante la red Tor.",
+        "Está formada exclusivamente por contenidos ilegales.",
+        "Constituye la mayor parte del contenido disponible en Internet, pero permanece oculta para los motores de búsqueda tradicionales."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "INCIBE explica que la Deep Web es la mayor parte del contenido de Internet y que no aparece en los buscadores, lo que no significa que sus contenidos sean ocultos o ilegales (cuentas bancarias, informes médicos, intranets…).",
+      "excerpt": "La Deep Web constituye la mayor parte del contenido disponible en Internet, pero permanece oculta para los motores de búsqueda tradicionales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Deep web y Dark web (2026)",
+      "stem": "Según INCIBE, la Dark Web es:",
+      "options": [
+        "Una sección específica y más reducida dentro de la propia Deep Web.",
+        "Una red paralela e independiente de la Deep Web y de mayor tamaño que esta.",
+        "El conjunto del contenido indexado por los motores de búsqueda."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Para INCIBE la Dark Web es una parte más reducida de la Deep Web, accesible a través de redes específicas que proporcionan mayor anonimato, como Tor.",
+      "excerpt": "La Dark Web es una sección específica y más reducida dentro de la propia Deep Web previamente descrita.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Deep web y Dark web (2026)",
+      "stem": "Según INCIBE, el entorno de la Dark Web se caracteriza por el uso de direcciones web terminadas en:",
+      "options": [
+        "«.dark», accesibles desde cualquier navegador tradicional.",
+        "«.onion», accesibles a través de la red Tor.",
+        "«.deep», accesibles mediante credenciales bancarias."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "INCIBE indica que las direcciones «.onion» no pueden abrirse con navegadores tradicionales y son accesibles a través de la red Tor (The Onion Router), con comunicaciones cifradas en múltiples capas.",
+      "excerpt": "Este entorno se caracteriza por el uso de direcciones web terminadas en \".onion\", que no pueden abrirse con navegadores tradicionales y que son accesibles a través de la red Tor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INCIBE, Deep web y Dark web (2026)",
+      "stem": "Según INCIBE, el simple acceso a la Dark Web:",
+      "options": [
+        "Es ilegal en todo caso, por tratarse de una red diseñada para actividades delictivas.",
+        "No es ilegal en sí mismo, pero participar en actividades delictivas dentro de esta red sí puede tener consecuencias legales graves.",
+        "Solo es legal para periodistas y activistas debidamente acreditados."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "INCIBE aclara que acceder a la Dark Web no es ilegal en sí, aunque sí lo es participar en actividades delictivas, y recuerda que también la usan activistas o periodistas que necesitan proteger su identidad.",
+      "excerpt": "El simple acceso a la Dark Web no es ilegal en sí mismo, pero participar en actividades delictivas o ilegales dentro de esta red sí puede tener consecuencias legales graves.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

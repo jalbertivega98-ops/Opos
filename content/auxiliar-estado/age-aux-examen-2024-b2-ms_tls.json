@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-examen-2024-b2-ms_tls-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "Examen réplica 2024 (OEP 2023-2024, INAP) · Parte 2, Bloque II (50 preguntas)",
+    "topic_slug": "age-aux-examen-2024-b2",
+    "locale": "es",
+    "category": "age_aux_examen_2024_b2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Cómo usa Exchange Online TLS para proteger las conexiones de correo",
+      "url": "https://learn.microsoft.com/es-es/purview/exchange-online-uses-tls-to-secure-email-connections",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de las 50 preguntas del Bloque II del ejercicio único de 14/12/2024 (OEP 2023-2024, INAP, modelo A; 90 minutos para todo el ejercicio; parte 1 = 60 preguntas (30 del Bloque I + 30 psicotécnicas) y parte 2 = 50 preguntas del Bloque II; 4 opciones; cada error resta un tercio de acierto; cada parte se califica de 0 a 50; nota de corte 30,00 y 26,33). Cada pregunta es original y replica el concepto de la oficial del mismo número; las preguntas oficiales sobre Windows 10 se replican sobre Windows 11 y Microsoft 365 vigentes."
+  },
+  "questions": [
+    {
+      "ref": "TLS en el correo",
+      "stem": "¿Qué es TLS (Transport Layer Security)?",
+      "options": [
+        "Un protocolo criptográfico que cifra las conexiones, por ejemplo entre servidores de correo.",
+        "Un formato de archivo comprimido.",
+        "Un tipo de virus que se propaga por correo.",
+        "Un servicio de traducción de nombres de dominio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "TLS y su predecesor SSL son protocolos criptográficos; Exchange Online los usa para cifrar las conexiones entre servidores.",
+      "excerpt": "La seguridad de la capa de transporte (TLS) y la capa de sockets seguros (SSL) anteriores a TLS son protocolos criptográficos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
