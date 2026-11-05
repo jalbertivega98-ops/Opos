@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-23-igualdad-lovg-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 23. Igualdad, violencia de género, discapacidad, dependencia y personas LGTBI",
+    "topic_slug": "pn-23-igualdad",
+    "locale": "es",
+    "category": "pn_23_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 LOVG",
+      "stem": "La Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género, tiene por objeto actuar contra la violencia que se ejerce sobre las mujeres por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad:",
+      "options": [
+        "Siempre que exista o haya existido convivencia.",
+        "Aun sin convivencia.",
+        "Solo si la relación sigue vigente en el momento de los hechos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 de la LO 1/2004 incluye a quienes estén o hayan estado ligados a la mujer por relaciones similares de afectividad, aun sin convivencia.",
+      "excerpt": "se ejerce sobre éstas por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 31.1 LOVG",
+      "stem": "Según la Ley Orgánica 1/2004, el Gobierno establecerá en las Fuerzas y Cuerpos de Seguridad del Estado:",
+      "options": [
+        "Juzgados de Violencia sobre la Mujer adscritos a cada Comisaría Provincial.",
+        "Una Fiscalía especial contra la violencia de género dependiente del Ministerio del Interior.",
+        "Unidades especializadas en la prevención de la violencia de género y en el control de la ejecución de las medidas judiciales adoptadas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 31.1 de la LO 1/2004 prevé unidades especializadas en las Fuerzas y Cuerpos de Seguridad del Estado para la prevención de la violencia de género y el control de la ejecución de las medidas judiciales.",
+      "excerpt": "1. El Gobierno establecerá, en las Fuerzas y Cuerpos de Seguridad del Estado, unidades especializadas en la prevención de la violencia de género y en el control de la ejecución de las medidas judiciales adoptadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.1 LOVG",
+      "stem": "Según la Ley Orgánica 1/2004, las víctimas de violencia de género tienen derecho a recibir asesoramiento jurídico gratuito:",
+      "options": [
+        "Solo una vez admitida a trámite la denuncia por el juzgado.",
+        "Solo si acreditan insuficiencia de recursos para litigar mediante sentencia firme.",
+        "En el momento inmediatamente previo a la interposición de la denuncia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 20.1 de la LO 1/2004 reconoce el asesoramiento jurídico gratuito en el momento inmediatamente previo a la denuncia, además de la defensa y representación gratuitas en los procesos derivados de la violencia padecida.",
+      "excerpt": "Las víctimas de violencia de género tienen derecho a recibir asesoramiento jurídico gratuito en el momento inmediatamente previo a la interposición de la denuncia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24 LOVG",
+      "stem": "Según la Ley Orgánica 1/2004, la funcionaria víctima de violencia de género tendrá derecho, en los términos que determine su legislación específica, a:",
+      "options": [
+        "Una indemnización a cargo de la Administración y al ascenso automático de categoría.",
+        "La reducción o la reordenación de su tiempo de trabajo, a la movilidad geográfica de centro de trabajo y a la excedencia.",
+        "La jubilación anticipada voluntaria y a la permuta obligatoria de destino."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 24 de la LO 1/2004 reconoce a la funcionaria víctima de violencia de género la reducción o reordenación del tiempo de trabajo, la movilidad geográfica y la excedencia.",
+      "excerpt": "La funcionaria víctima de violencia de género tendrá derecho a la reducción o a la reordenación de su tiempo de trabajo, a la movilidad geográfica de centro de trabajo y a la excedencia en los términos que se determinen en su legislación específica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68 LOVG",
+      "stem": "Según la Ley Orgánica 1/2004, las medidas judiciales restrictivas de derechos de protección y seguridad de las víctimas deberán adoptarse:",
+      "options": [
+        "Mediante auto motivado en el que se aprecie su proporcionalidad y necesidad y, en todo caso, con intervención del Ministerio Fiscal.",
+        "Mediante providencia, sin necesidad de intervención del Ministerio Fiscal.",
+        "Mediante resolución de la Delegación del Gobierno contra la Violencia de Género."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 68 de la LO 1/2004 exige auto motivado que aprecie proporcionalidad y necesidad, con intervención del Ministerio Fiscal y respeto de los principios de contradicción, audiencia y defensa.",
+      "excerpt": "Las medidas restrictivas de derechos contenidas en este capítulo deberán adoptarse mediante auto motivado en el que se aprecie su proporcionalidad y necesidad, y, en todo caso, con intervención del Ministerio Fiscal y respeto de los principios de contradicción, audiencia y defensa.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

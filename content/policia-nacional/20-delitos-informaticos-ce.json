@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pn-20-delitos-informaticos-ce-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 20. Delitos informáticos, intimidad y prueba digital",
+    "topic_slug": "pn-20-delitos-informaticos",
+    "locale": "es",
+    "category": "pn_20_delitos_informaticos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 18.3 CE",
+      "stem": "Según el artículo 18 de la Constitución Española, se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas:",
+      "options": [
+        "Salvo autorización del Ministerio Fiscal.",
+        "Salvo resolución judicial.",
+        "Salvo en caso de flagrante delito."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 18.3 CE solo admite la intervención de las comunicaciones mediante resolución judicial; el flagrante delito es una excepción prevista para la entrada en domicilio (art. 18.2 CE).",
+      "excerpt": "Se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, salvo resolución judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 18.4 CE",
+      "stem": "Según el artículo 18.4 de la Constitución, la ley limitará el uso de la informática para garantizar:",
+      "options": [
+        "La seguridad nacional y el orden público.",
+        "La libertad de expresión y el derecho a comunicar información veraz.",
+        "El honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 18.4 CE ordena a la ley limitar el uso de la informática para garantizar el honor, la intimidad personal y familiar y el pleno ejercicio de los derechos de los ciudadanos.",
+      "excerpt": "La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

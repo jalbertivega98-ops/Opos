@@ -56,9 +56,11 @@ export async function reviewedQuestions(isTest = false, limit = 200) {
     .select("id, stem, category, status")
     .in("status", ["approved", "published"])
     .eq("is_test", isTest)
-    .order("category")
+    // las más recientes primero: con miles de preguntas, las 200 por categoría dejaban fuera las nuevas
+    .order("created_at", { ascending: false })
     .limit(limit);
-  return (data ?? []) as { id: string; stem: string; category: string; status: string }[];
+  const rows = (data ?? []) as { id: string; stem: string; category: string; status: string }[];
+  return rows.sort((a, b) => a.category.localeCompare(b.category));
 }
 
 export type Purchase = {

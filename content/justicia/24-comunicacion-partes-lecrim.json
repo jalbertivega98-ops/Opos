@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "set": "jus-24-comunicacion-partes-lecrim-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 24. Actos de comunicación a las partes: notificaciones, requerimientos, citaciones y emplazamientos",
+    "topic_slug": "jus-24-comunicacion-partes",
+    "locale": "es",
+    "category": "jus_24_comunicacion_partes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 182 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, las notificaciones, citaciones y emplazamientos podrán hacerse a los Procuradores de las partes, excepto:",
+      "options": [
+        "Las notificaciones de providencias.",
+        "Los emplazamientos para comparecer ante el tribunal superior.",
+        "Las citaciones que tengan por objeto la comparecencia obligatoria de los interesados.",
+        "Las notificaciones de autos que resuelvan recursos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 182 LECrim exceptúa las citaciones que la ley ordena hacer a los interesados en persona y las que tienen por objeto su comparecencia obligatoria.",
+      "excerpt": "Las notificaciones, citaciones y emplazamientos podrán hacerse a los Procuradores de las partes. Se exceptúan: 1.º Las citaciones que por disposición expresa de la Ley deban hacerse a los mismos interesados en persona. 2.º Las citaciones que tengan por objeto la comparecencia obligatoria de éstos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 172 LECrim",
+      "stem": "En un proceso penal, un funcionario acude a notificar una resolución y, en la primera diligencia en busca, no halla al destinatario en su domicilio ni a ninguna otra persona. Según el artículo 172 de la Ley de Enjuiciamiento Criminal:",
+      "options": [
+        "Se dejará la cédula en el buzón del domicilio.",
+        "Se hará la entrega de la cédula a uno de los vecinos más próximos.",
+        "Se acordará directamente la notificación por edictos.",
+        "Se devolverá la cédula al órgano judicial sin practicar la diligencia."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 172 LECrim ordena entregar la cédula al pariente, familiar o criado mayor de catorce años que se halle en el domicilio y, si no hay nadie, a uno de los vecinos más próximos.",
+      "excerpt": "Cuando a la primera diligencia en busca no fuere hallado en su habitación el que haya de ser notificado, cualquiera que fuere la causa y el tiempo de su ausencia, se entregará la cédula al pariente, familiar o criado, mayor de catorce años, que se halle en dicha habitación. Si no hubiere nadie, se hará la entrega a uno de los vecinos más próximos.",
+      "excerpt_status": "completo",
+      "review_note": "El art. 166 LECrim (redacción posterior) remite la práctica de notificaciones, citaciones y emplazamientos a la forma del capítulo V del título V del libro I de la LEC, por lo que puede discutirse si la regla del art. 172 LECrim (entrega a vecinos) sigue aplicándose en la práctica; el art. 172 sigue en el texto consolidado vigente."
+    },
+    {
+      "ref": "Art. 175 LECrim",
+      "stem": "Según el artículo 175 de la Ley de Enjuiciamiento Criminal, la cédula de citación expresará, en su caso, la obligación de concurrir al primer llamamiento bajo la multa de:",
+      "options": [
+        "100 a 1.000 euros.",
+        "600 a 6.000 euros.",
+        "30 euros por cada día de retraso.",
+        "200 a 5.000 euros."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 175 LECrim prevé multa de 200 a 5.000 euros en el primer llamamiento y, en el segundo, el apercibimiento de ser perseguido por obstrucción a la justicia (art. 463.1 CP).",
+      "excerpt": "5. La obligación, si la hubiere, de concurrir al primer llamamiento, bajo la multa de 200 a 5.000 euros o si fuese ya el segundo el que se hiciere, la de concurrir bajo apercibimiento de ser perseguido como reo del delito de obstrucción a la justicia tipificado en el artículo 463.1 del Código Penal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "set": "pn-20-delitos-informaticos-lecrim-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 20. Delitos informáticos, intimidad y prueba digital",
+    "topic_slug": "pn-20-delitos-informaticos",
+    "locale": "es",
+    "category": "pn_20_delitos_informaticos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 588 bis a.2 LECRIM",
+      "stem": "Según el artículo 588 bis a de la Ley de Enjuiciamiento Criminal, el principio de especialidad de las medidas de investigación tecnológica exige que la medida:",
+      "options": [
+        "Se acuerde solo cuando no existan otras medidas menos gravosas e igualmente útiles.",
+        "Esté relacionada con la investigación de un delito concreto.",
+        "Tenga la duración imprescindible según su utilidad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 588 bis a.2 LECrim define la especialidad como la relación de la medida con un delito concreto; la ausencia de medidas menos gravosas corresponde a los principios de excepcionalidad y necesidad, y la delimitación por su utilidad, al de idoneidad.",
+      "excerpt": "El principio de especialidad exige que una medida esté relacionada con la investigación de un delito concreto. No podrán autorizarse medidas de investigación tecnológica que tengan por objeto prevenir o descubrir delitos o despejar sospechas sin base objetiva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588 bis c.1 LECRIM",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, la resolución del juez de instrucción que autorice o deniegue una medida de investigación tecnológica se dictará en el plazo máximo de:",
+      "options": [
+        "Setenta y dos horas desde que se presente la solicitud.",
+        "Dos días desde que se presente la solicitud.",
+        "Veinticuatro horas desde que se presente la solicitud."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 588 bis c.1 LECrim exige auto motivado, oído el Ministerio Fiscal, en el plazo máximo de veinticuatro horas.",
+      "excerpt": "El juez de instrucción autorizará o denegará la medida solicitada mediante auto motivado, oído el Ministerio Fiscal. Esta resolución se dictará en el plazo máximo de veinticuatro horas desde que se presente la solicitud.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588 ter g LECRIM",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, la duración máxima inicial de la interceptación de las comunicaciones telefónicas y telemáticas es de:",
+      "options": [
+        "Un mes, prorrogable por iguales períodos hasta un máximo de tres meses.",
+        "Seis meses, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dos años.",
+        "Tres meses, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dieciocho meses."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 588 ter g LECrim fija tres meses iniciales, prorrogables por periodos iguales hasta un máximo de dieciocho meses, computados desde la autorización judicial.",
+      "excerpt": "La duración máxima inicial de la intervención, que se computará desde la fecha de autorización judicial, será de tres meses, prorrogables por períodos sucesivos de igual duración hasta el plazo máximo de dieciocho meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588 sexies a.2 LECRIM",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, la simple incautación de un ordenador durante un registro domiciliario:",
+      "options": [
+        "No legitima el acceso a su contenido, sin perjuicio de que pueda ser autorizado ulteriormente por el juez competente.",
+        "Legitima el acceso a su contenido por los agentes que practican el registro.",
+        "Legitima el acceso a su contenido si lo autoriza el Ministerio Fiscal."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 588 sexies a.2 LECrim separa la incautación del dispositivo del acceso a su contenido, que requiere autorización judicial.",
+      "excerpt": "La simple incautación de cualquiera de los dispositivos a los que se refiere el apartado anterior, practicada durante el transcurso de la diligencia de registro domiciliario, no legitima el acceso a su contenido, sin perjuicio de que dicho acceso pueda ser autorizado ulteriormente por el juez competente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588 sexies c.4 LECRIM",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, cuando en casos de urgencia la Policía Judicial examine directamente los datos de un dispositivo incautado, deberá comunicarlo al juez competente por escrito motivado inmediatamente y, en todo caso, dentro del plazo máximo de:",
+      "options": [
+        "Setenta y dos horas.",
+        "Veinticuatro horas.",
+        "Cuarenta y ocho horas."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 588 sexies c.4 LECrim exige comunicarlo dentro de las veinticuatro horas; el juez revoca o confirma la actuación en un máximo de 72 horas desde que fue ordenada la medida.",
+      "excerpt": "la Policía Judicial podrá llevar a cabo el examen directo de los datos contenidos en el dispositivo incautado, comunicándolo inmediatamente, y en todo caso dentro del plazo máximo de veinticuatro horas, por escrito motivado al juez competente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588 septies c LECRIM",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, el registro remoto sobre equipos informáticos tendrá una duración máxima de:",
+      "options": [
+        "Tres meses, prorrogables por iguales períodos hasta un máximo de dieciocho meses.",
+        "Noventa días, prorrogables una sola vez hasta ciento ochenta días.",
+        "Un mes, prorrogable por iguales períodos hasta un máximo de tres meses."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 588 septies c LECrim limita el registro remoto a un mes, prorrogable por iguales períodos hasta tres meses.",
+      "excerpt": "La medida tendrá una duración máxima de un mes, prorrogable por iguales períodos hasta un máximo de tres meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588 octies LECRIM",
+      "stem": "Según el artículo 588 octies de la Ley de Enjuiciamiento Criminal, los datos cuya conservación haya requerido el Ministerio Fiscal o la Policía Judicial se conservarán durante un periodo máximo de:",
+      "options": [
+        "Treinta días, prorrogable una sola vez hasta sesenta días.",
+        "Noventa días, prorrogable una sola vez hasta que se autorice la cesión o se cumplan ciento ochenta días.",
+        "Seis meses, prorrogables por iguales períodos hasta un máximo de dos años."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La orden de conservación de datos del art. 588 octies LECrim obliga a conservarlos hasta 90 días, prorrogables una vez hasta la autorización de la cesión o hasta 180 días.",
+      "excerpt": "Los datos se conservarán durante un periodo máximo de noventa días, prorrogable una sola vez hasta que se autorice la cesión o se cumplan ciento ochenta días.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

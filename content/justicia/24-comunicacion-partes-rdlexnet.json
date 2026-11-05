@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "jus-24-comunicacion-partes-rdlexnet-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 24. Actos de comunicación a las partes: notificaciones, requerimientos, citaciones y emplazamientos",
+    "topic_slug": "jus-24-comunicacion-partes",
+    "locale": "es",
+    "category": "jus_24_comunicacion_partes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 1065/2015, de 27 de noviembre, sobre comunicaciones electrónicas en la Administración de Justicia (LexNET) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-12999",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 16.3 RD 1065/2015",
+      "stem": "De acuerdo con el Real Decreto 1065/2015 (LexNET), una vez depositados en los buzones virtuales de los usuarios los escritos, comunicaciones y notificaciones, se encontrarán accesibles durante:",
+      "options": [
+        "Treinta días.",
+        "Noventa días.",
+        "Un año.",
+        "Sesenta días."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 16.3 RD 1065/2015 mantiene accesibles los documentos en el buzón durante sesenta días; después se eliminan, salvo los resguardos electrónicos acreditativos de la transmisión.",
+      "excerpt": "3. Una vez depositados en los buzones virtuales de los usuarios los escritos, las comunicaciones y notificaciones, así como cualquier otro documento procesal transmitido por medios electrónicos, se encontrarán accesibles por un período de sesenta días.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

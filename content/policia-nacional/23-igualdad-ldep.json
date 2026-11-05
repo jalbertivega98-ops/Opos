@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "pn-23-igualdad-ldep-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 23. Igualdad, violencia de género, discapacidad, dependencia y personas LGTBI",
+    "topic_slug": "pn-23-igualdad",
+    "locale": "es",
+    "category": "pn_23_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7 LDEP",
+      "stem": "Según la Ley 39/2006, de promoción de la autonomía personal y atención a las personas en situación de dependencia, el nivel de protección mínimo del Sistema lo establece:",
+      "options": [
+        "La Administración General del Estado.",
+        "Cada Comunidad Autónoma.",
+        "Las Entidades Locales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 7 de la Ley 39/2006 distingue tres niveles: el mínimo, establecido por la Administración General del Estado; el acordado entre esta y cada Comunidad Autónoma mediante convenios; y el adicional que pueda establecer cada Comunidad Autónoma.",
+      "excerpt": "1.º El nivel de protección mínimo establecido por la Administración General del Estado en aplicación del",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.1 LDEP",
+      "stem": "Según la Ley 39/2006, el Grado III de dependencia se denomina:",
+      "options": [
+        "Gran dependencia.",
+        "Dependencia severa.",
+        "Dependencia moderada."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 26.1 de la Ley 39/2006 clasifica la dependencia en Grado I (moderada), Grado II (severa) y Grado III (gran dependencia).",
+      "excerpt": "c) Grado III. Gran dependencia: cuando la persona necesita ayuda para realizar varias actividades de la vida diaria varias veces al día",
+      "excerpt_status": "completo",
+      "review_note": "El art. 26 fue modificado por la Ley 4/2026, de 1 de octubre (letra b) del apartado 1 y sustitución de «actividades básicas de la vida diaria» por «actividades de la vida diaria»), y el BOE remite a una disposición transitoria 8 que no figura en el texto consolidado disponible. La denominación de los grados no cambia, pero conviene revisar la redacción vigente."
+    },
+    {
+      "ref": "Art. 28.1 LDEP",
+      "stem": "Según la Ley 39/2006, el procedimiento para el reconocimiento de la situación de dependencia se iniciará a instancia de la persona afectada o de quien ostente su representación, y el plazo máximo para su resolución es de:",
+      "options": [
+        "6 meses.",
+        "1 mes.",
+        "3 meses."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 28.1 de la Ley 39/2006 fija un plazo máximo de 3 meses para resolver el procedimiento, que se inicia a instancia de la persona interesada o de su representante.",
+      "excerpt": "1. El procedimiento se iniciará a instancia de la persona que pueda estar afectada por algún grado de dependencia o de quien ostente su representación, estableciéndose un plazo máximo de 3 meses para su resolución.",
+      "excerpt_status": "completo",
+      "review_note": "El art. 28 fue modificado por la Ley 4/2026, de 1 de octubre (texto consolidado actualizado a 23/10/2026); comprobar la entrada en vigor de esa reforma antes de publicar."
+    }
+  ]
+}

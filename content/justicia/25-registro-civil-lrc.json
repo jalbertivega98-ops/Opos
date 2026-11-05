@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "set": "jus-25-registro-civil-lrc-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 25. El Registro Civil: oficinas, hechos inscribibles, inscripciones, certificaciones y expedientes",
+    "topic_slug": "jus-25-registro-civil",
+    "locale": "es",
+    "category": "jus_25_registro_civil",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 20/2011, de 21 de julio, del Registro Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3 LRC",
+      "stem": "Según el artículo 3 de la Ley 20/2011, del Registro Civil, son elementos definitorios del Registro Civil que:",
+      "options": [
+        "Es único en cada Comunidad Autónoma y se lleva en libros en soporte papel.",
+        "Está organizado por partidos judiciales, cada uno con su propia base de datos.",
+        "Es único para toda España y es electrónico.",
+        "Es único para toda España, pero se lleva en libros en soporte papel."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 3 LRC declara que el Registro Civil es único para toda España y electrónico, con una base de datos única cuya estructura corresponde al Ministerio de Justicia.",
+      "excerpt": "1. El Registro Civil es único para toda España. 2. El Registro Civil es electrónico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.1 LRC",
+      "stem": "De acuerdo con la Ley 20/2011, del Registro Civil, el Registro Civil depende del Ministerio de Justicia y se organiza en:",
+      "options": [
+        "Oficina Central, Oficinas Generales y Oficinas Consulares.",
+        "Registro Civil Central, Registros Civiles Municipales y Registros Consulares.",
+        "Oficina Central, Oficinas Autonómicas y Oficinas Municipales.",
+        "Oficinas Generales, Oficinas Colaboradoras y Juzgados de Paz."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 20.1 LRC organiza el Registro Civil en Oficina Central, Oficinas Generales y Oficinas Consulares.",
+      "excerpt": "1. El Registro Civil depende del Ministerio de Justicia y se organiza en: 1.º Oficina Central. 2.º Oficinas Generales. 3.º Oficinas Consulares.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 38 LRC",
+      "stem": "Según la Ley 20/2011, del Registro Civil, los asientos del Registro Civil son:",
+      "options": [
+        "Las inscripciones, las notas marginales y las anotaciones preventivas.",
+        "Las inscripciones principales y las inscripciones marginales.",
+        "Las inscripciones, las certificaciones y las cancelaciones.",
+        "Las inscripciones, las anotaciones y las cancelaciones."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 38 LRC distingue tres clases de asientos: inscripciones, anotaciones y cancelaciones; las certificaciones son un medio de publicidad, no un asiento.",
+      "excerpt": "Los asientos del Registro Civil son las inscripciones, las anotaciones y las cancelaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 LRC",
+      "stem": "Conforme a la Ley 20/2011, del Registro Civil, la inscripción en el Registro Civil:",
+      "options": [
+        "Tiene un valor meramente informativo.",
+        "Constituye prueba plena de los hechos inscritos.",
+        "Solo constituye un principio de prueba que debe completarse con otros medios.",
+        "Tiene siempre eficacia constitutiva."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 17.1 LRC atribuye a la inscripción valor de prueba plena; solo tiene eficacia constitutiva en los casos previstos por la ley (art. 18) y el valor meramente informativo es propio de las anotaciones (art. 40).",
+      "excerpt": "1. La inscripción en el Registro Civil constituye prueba plena de los hechos inscritos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.1 LRC",
+      "stem": "Según la Ley 20/2011, del Registro Civil, existirá una Oficina General del Registro Civil:",
+      "options": [
+        "En todos los municipios con población superior a 20.000 habitantes.",
+        "En todas las poblaciones que sean sede de la capital de un partido judicial.",
+        "En cada capital de provincia.",
+        "En cada municipio que sea sede de un Juzgado de Paz."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 22.1 LRC sitúa una Oficina General en cada población que sea capital de partido judicial.",
+      "excerpt": "1. Existirá una Oficina General del Registro Civil en todas las poblaciones que sean sede de la capital de un partido judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 82.1 LRC",
+      "stem": "De acuerdo con el artículo 82 de la Ley 20/2011, del Registro Civil, salvo solicitud expresa en sentido contrario, se expedirá certificación:",
+      "options": [
+        "Literal.",
+        "Negativa.",
+        "Plurilingüe.",
+        "En extracto."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 82.1 LRC prevé certificaciones literales o en extracto, expidiéndose en extracto salvo petición expresa contraria; es negativa si no consta ningún asiento.",
+      "excerpt": "1. Las certificaciones podrán ser literales o en extracto. Salvo solicitud expresa en sentido contrario, se expedirá certificación en extracto. Si no constara ningún asiento, la certificación será negativa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23 LRC",
+      "stem": "Según la Ley 20/2011, del Registro Civil, las Oficinas Consulares del Registro Civil estarán a cargo de:",
+      "options": [
+        "Los Letrados de la Administración de Justicia destinados en el extranjero.",
+        "Los Encargados de la Oficina Central del Registro Civil.",
+        "Los Cónsules de España o, en su caso, de los funcionarios diplomáticos encargados de las Secciones consulares de la Misión Diplomática.",
+        "Los Embajadores de España, en todo caso."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 23 LRC encomienda las Oficinas Consulares a los Cónsules de España o a los diplomáticos encargados de las Secciones consulares.",
+      "excerpt": "Las Oficinas Consulares del Registro Civil estarán a cargo de los Cónsules de España o, en su caso, de los funcionarios diplomáticos encargados de las Secciones consulares de la Misión Diplomática.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 46 LRC",
+      "stem": "Conforme a la Ley 20/2011, del Registro Civil, la dirección de hospitales, clínicas y establecimientos sanitarios comunicará a la Oficina del Registro Civil cada uno de los nacimientos ocurridos en el centro en el plazo de:",
+      "options": [
+        "Setenta y dos horas.",
+        "Veinticuatro horas.",
+        "Diez días.",
+        "Cinco días."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 46 LRC fija 72 horas para la comunicación por el centro sanitario; el plazo de diez días del art. 47 es para la declaración por otros obligados.",
+      "excerpt": "La dirección de hospitales, clínicas y establecimientos sanitarios comunicará en el plazo de setenta y dos horas a la Oficina del Registro Civil que corresponda cada uno de los nacimientos que hayan tenido lugar en el centro sanitario",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.1 LRC",
+      "stem": "Un nacimiento se produce fuera de establecimiento sanitario. Según la Ley 20/2011, del Registro Civil, los obligados a promover la inscripción dispondrán para declarar el nacimiento ante la Oficina del Registro Civil de un plazo de:",
+      "options": [
+        "Setenta y dos horas.",
+        "Treinta días.",
+        "Un mes.",
+        "Diez días."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 47.1 LRC concede diez días; transcurrido ese plazo, la inscripción exige resolución dictada en expediente registral (art. 47.3).",
+      "excerpt": "1. Respecto de los nacimientos que se hayan producido fuera de establecimiento sanitario, o cuando por cualquier causa no se haya remitido el documento en el plazo y condiciones previstos en el artículo anterior, los obligados a promover la inscripción dispondrán de un plazo de diez días para declarar el nacimiento ante la Oficina del Registro Civil o las Oficinas Consulares de Registro Civil.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33.1 LRC",
+      "stem": "Según el artículo 33 de la Ley 20/2011, del Registro Civil, la inscripción de la defunción, no existiendo obstáculo legal, se practicará:",
+      "options": [
+        "En el plazo de cinco días desde la presentación de la documentación.",
+        "En el plazo de setenta y dos horas desde el fallecimiento.",
+        "En el mismo día de la presentación de la documentación.",
+        "En el plazo más breve posible, sin plazo determinado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 33.1 LRC fija como regla general cinco días para practicar o denegar los asientos, pero la defunción se inscribe en el mismo día de la presentación si no hay obstáculo legal.",
+      "excerpt": "1. El Encargado de la Oficina del Registro Civil ante el que se presente el título o se formule la declaración practicará los asientos correspondientes de oficio o dictará resolución denegándolos en el plazo de cinco días. La inscripción de la defunción, no existiendo obstáculo legal, se practicará en el mismo día de la presentación de la documentación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62.4 LRC",
+      "stem": "De acuerdo con la Ley 20/2011, del Registro Civil, la inscripción de la defunción:",
+      "options": [
+        "Cerrará el registro individual, y el código personal podrá asignarse a otra persona transcurridos cinco años.",
+        "Cerrará el registro individual, y el código personal no podrá volver a ser asignado en ningún caso.",
+        "No cierra el registro individual, que permanece abierto para las anotaciones sucesorias.",
+        "Se practica en un registro de defunciones independiente del registro individual."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 62.4 LRC dispone que la inscripción de defunción cierra el registro individual y que el código personal no puede reasignarse.",
+      "excerpt": "4. La inscripción de la defunción cerrará el registro individual. En ningún caso, el código personal podrá volver a ser asignado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 59.4 LRC",
+      "stem": "Según el artículo 59 de la Ley 20/2011, del Registro Civil, la inscripción del matrimonio hace fe:",
+      "options": [
+        "Del matrimonio y de la fecha y lugar en que se contrae.",
+        "Del matrimonio, de la fecha en que se contrae y del régimen económico pactado.",
+        "Solo de la fecha y lugar de celebración, pero no de la validez del matrimonio.",
+        "Del matrimonio y de la identidad de los testigos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 59.4 LRC establece que la inscripción hace fe del matrimonio y de la fecha y lugar en que se contrae; el régimen económico se inscribe junto a ella (art. 60).",
+      "excerpt": "4. La inscripción hace fe del matrimonio y de la fecha y lugar en que se contrae.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 83.1 LRC",
+      "stem": "¿Cuál de los siguientes datos tiene la consideración de dato especialmente protegido, sometido a publicidad restringida, según el artículo 83 de la Ley 20/2011, del Registro Civil?",
+      "options": [
+        "La fecha de nacimiento.",
+        "La filiación adoptiva.",
+        "El régimen económico matrimonial.",
+        "La vecindad civil."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 83.1 LRC considera especialmente protegidos la filiación adoptiva y la desconocida, la discapacidad y las medidas de apoyo, ciertos cambios de apellido o identidad, la rectificación del sexo, las causas de privación o suspensión de la patria potestad y el matrimonio secreto.",
+      "excerpt": "1. A los efectos de la presente Ley, se considerarán datos especialmente protegidos: a) La filiación adoptiva y la desconocida.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 61 LRC",
+      "stem": "Según la Ley 20/2011, del Registro Civil, el Letrado de la Administración de Justicia del órgano que haya dictado una resolución judicial firme de separación, nulidad o divorcio deberá remitir testimonio o copia electrónica de ella a la Oficina General del Registro Civil:",
+      "options": [
+        "En el plazo de cinco días y por correo certificado.",
+        "En el plazo de diez días desde la firmeza.",
+        "En el mismo día o al siguiente hábil y por medios electrónicos.",
+        "Solo cuando lo solicite alguno de los cónyuges."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 61 LRC impone la remisión electrónica en el mismo día o al siguiente hábil, y la Oficina General practica la inscripción de forma inmediata; antes de la firmeza cabe anotación.",
+      "excerpt": "El letrado de la Administración de Justicia del juzgado o tribunal que hubiera dictado la resolución judicial firme de separación, nulidad o divorcio deberá remitir en el mismo día o al siguiente hábil y por medios electrónicos testimonio o copia electrónica de la misma a la Oficina General del Registro Civil, la cual practicará de forma inmediata la correspondiente inscripción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.1 LRC",
+      "stem": "Conforme al artículo 68 de la Ley 20/2011, del Registro Civil, la inscripción de la adquisición de la nacionalidad española por residencia tiene carácter:",
+      "options": [
+        "Declarativo, igual que la inscripción de la pérdida de la nacionalidad.",
+        "Meramente informativo, como las anotaciones.",
+        "Declarativo, mientras que la inscripción de la pérdida de la nacionalidad tiene carácter constitutivo.",
+        "Constitutivo, mientras que la inscripción de la pérdida de la nacionalidad tiene carácter meramente declarativo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 68.1 LRC atribuye carácter constitutivo a las inscripciones de adquisición de la nacionalidad por residencia, carta de naturaleza y opción, y de su recuperación; la de la pérdida es meramente declarativa.",
+      "excerpt": "1. La adquisición de la nacionalidad española por residencia, carta de naturaleza y opción, así como su recuperación y las declaraciones de voluntad relativas a la vecindad, se inscribirán en el registro individual. Estas inscripciones tendrán carácter constitutivo. […] La inscripción de la pérdida de la nacionalidad tendrá carácter meramente declarativo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.2 LRC",
+      "stem": "Los progenitores no se ponen de acuerdo sobre el orden de los apellidos de su hijo. Según el artículo 49 de la Ley 20/2011, del Registro Civil, el Encargado los requerirá para que comuniquen el orden de apellidos en el plazo máximo de:",
+      "options": [
+        "Tres días; transcurrido sin comunicación expresa, el Encargado acordará el orden atendiendo al interés superior del menor.",
+        "Diez días; transcurrido sin comunicación expresa, se aplicará el orden paterno-materno.",
+        "Tres días; transcurrido sin comunicación expresa, se aplicará el orden alfabético.",
+        "Un mes; transcurrido sin comunicación expresa, decidirá el juez en expediente de jurisdicción voluntaria."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 49.2 LRC fija tres días para comunicar el orden; si no se comunica, decide el Encargado atendiendo al interés superior del menor.",
+      "excerpt": "En caso de desacuerdo o cuando no se hayan hecho constar los apellidos en la solicitud de inscripción, el Encargado del Registro Civil requerirá a los progenitores, o a quienes ostenten la representación legal del menor, para que en el plazo máximo de tres días comuniquen el orden de apellidos. Transcurrido dicho plazo sin comunicación expresa, el Encargado acordará el orden de los apellidos atendiendo al interés superior del menor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.5 LRC",
+      "stem": "Si el parte facultativo indica la condición intersexual del nacido, según la Ley 20/2011, del Registro Civil, los progenitores, de común acuerdo, podrán solicitar que la mención del sexo figure en blanco por el plazo máximo de:",
+      "options": [
+        "Seis meses.",
+        "Un año.",
+        "Dos años.",
+        "Hasta que el menor cumpla dieciséis años."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 49.5 LRC permite dejar en blanco la mención del sexo un máximo de un año; después es obligatoria y deben solicitarla los progenitores.",
+      "excerpt": "5. En el caso de que el parte facultativo indicara la condición intersexual del nacido, los progenitores, de común acuerdo, podrán solicitar que la mención del sexo figure en blanco por el plazo máximo de un año.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 85.1 LRC",
+      "stem": "Según el artículo 85 de la Ley 20/2011, del Registro Civil, contra las decisiones adoptadas por los Encargados de las Oficinas Central, Generales y Consulares del Registro Civil, los interesados solo podrán interponer recurso ante la Dirección General competente en el plazo de:",
+      "options": [
+        "Quince días.",
+        "Dos meses.",
+        "Tres meses.",
+        "Un mes."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 85.1 LRC fija un mes para recurrir ante la Dirección General las decisiones de los Encargados.",
+      "excerpt": "1. Contra las decisiones adoptadas por los Encargados de las Oficinas Central, Generales y Consulares del Registro Civil en el ámbito de las competencias atribuidas por esta Ley, los interesados sólo podrán interponer recurso ante la Dirección General de los Registros y del Notariado, en el plazo de un mes.",
+      "excerpt_status": "completo",
+      "review_note": "El art. 85.1 LRC consolidado sigue nombrando a la «Dirección General de los Registros y del Notariado», mientras que los arts. 22, 58 y 86 ya se refieren a la «Dirección General de Seguridad Jurídica y Fe Pública» (denominación actual). Por eso el enunciado habla de «la Dirección General competente»."
+    },
+    {
+      "ref": "Art. 86.2 LRC",
+      "stem": "Conforme a la Ley 20/2011, del Registro Civil, si la Dirección General de Seguridad Jurídica y Fe Pública no dicta y notifica resolución expresa del recurso en el plazo de seis meses desde la recepción del escrito de interposición:",
+      "options": [
+        "Se entenderá estimada la pretensión y el Encargado deberá practicar el asiento.",
+        "El recurso caducará y se archivarán las actuaciones.",
+        "Se entenderá desestimada la pretensión, quedando expedita la vía jurisdiccional correspondiente.",
+        "El interesado deberá reiterar el recurso ante el Ministerio de Justicia."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 86.2 LRC fija seis meses para resolver; el silencio es desestimatorio y deja abierta la vía jurisdiccional.",
+      "excerpt": "2. La Dirección General resolverá el recurso en el plazo de seis meses siguientes a la recepción del escrito de interposición. Transcurrido este plazo sin que la Dirección General de Seguridad Jurídica y Fe Pública haya dictado y notificado resolución expresa, se entenderá desestimada la pretensión, quedando expedita la vía jurisdiccional correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 88 LRC",
+      "stem": "Según la Ley 20/2011, del Registro Civil, los procedimientos registrales (expedientes):",
+      "options": [
+        "Se tramitan y resuelven por el Encargado del Registro Civil de la Oficina donde se pretenda efectuar el asiento, y el silencio administrativo en ellos es negativo.",
+        "Se tramitan por el Encargado de la Oficina del domicilio del solicitante y el silencio administrativo es positivo.",
+        "Se tramitan y resuelven siempre por la Oficina Central del Registro Civil, con silencio negativo.",
+        "Se tramitan conforme a la Ley de Enjuiciamiento Civil y se resuelven por el Juez de Primera Instancia."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 88 LRC atribuye la tramitación y resolución al Encargado de la Oficina donde se pretende el asiento (los de rectificación, a la que lo practicó), aplica la Ley 39/2015 y establece silencio negativo.",
+      "excerpt": "1. Los procedimientos registrales serán tramitados y resueltos por el Encargado del Registro Civil de la Oficina donde se pretendiera efectuar el asiento. […] El silencio administrativo en los procedimientos registrales será negativo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

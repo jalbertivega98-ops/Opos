@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "age-adm-42-seleccion-rgi-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "IV.2-3 Selección de personal, Oferta de Empleo Público y funcionarios de carrera e interinos",
+    "topic_slug": "age-adm-42-seleccion",
+    "locale": "es",
+    "category": "age_adm_42_seleccion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 364/1995, de 10 de marzo, Reglamento General de Ingreso del Personal al servicio de la AGE y de Provisión de Puestos de Trabajo y Promoción Profesional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7 RD 364/1995",
+      "stem": "Según el artículo 7 del Reglamento General de Ingreso (RD 364/1995), las necesidades de recursos humanos que no puedan cubrirse con los efectivos de personal existentes serán objeto de oferta de empleo público:",
+      "options": [
+        "En todo caso, aunque no exista crédito presupuestario, que se habilitará en el ejercicio siguiente.",
+        "Siempre que exista crédito presupuestario y se considere conveniente su cobertura durante el ejercicio.",
+        "Solo cuando lo solicite la Junta de Personal del departamento afectado.",
+        "Únicamente si las vacantes llevan más de tres años sin cubrir."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 7 del RD 364/1995 condiciona la inclusión en la oferta a la existencia de crédito presupuestario y a la conveniencia de cubrir la necesidad durante el ejercicio.",
+      "excerpt": "Las necesidades de recursos humanos que no puedan ser cubiertas con los efectivos de personal existentes serán objeto de oferta de empleo público, siempre que exista crédito presupuestario y se considere conveniente su cobertura durante el ejercicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11 RD 364/1995",
+      "stem": "De acuerdo con el artículo 11 del RD 364/1995, los Tribunales de selección estarán constituidos por:",
+      "options": [
+        "Un número par de miembros, no inferior a cuatro.",
+        "Un número impar de miembros, no inferior a tres, que podrán ser funcionarios interinos.",
+        "Cinco miembros como máximo, de los que uno será designado a propuesta sindical.",
+        "Un número impar de miembros, funcionarios de carrera, no inferior a cinco."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 11 del RD 364/1995 exige número impar de miembros, todos funcionarios de carrera, no menos de cinco, con igual número de suplentes y titulación igual o superior a la exigida para el ingreso.",
+      "excerpt": "Estarán constituidos por un número impar de miembros, funcionarios de carrera, no inferior a cinco, debiendo designarse el mismo número de miembros suplentes y en su composición se velará por el cumplimiento del principio de especialidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.2 RD 364/1995",
+      "stem": "Se propone como vocal de un tribunal a un funcionario que, hasta hace tres años, impartía clases en una academia que preparaba aspirantes a pruebas selectivas. Según el artículo 13.2 del RD 364/1995:",
+      "options": [
+        "Puede formar parte del tribunal, porque han transcurrido más de dos años desde que dejó la preparación.",
+        "Puede formar parte del tribunal si lo autoriza el presidente.",
+        "No puede formar parte del órgano de selección, porque realizó tareas de preparación de aspirantes en los cinco años anteriores a la publicación de la convocatoria.",
+        "Solo puede actuar como asesor especialista, con voz y voto."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 13.2 del RD 364/1995 excluye de los órganos de selección a quienes hayan preparado aspirantes en los cinco años anteriores a la publicación de la convocatoria. Tres años quedan dentro de ese periodo.",
+      "excerpt": "No podrán formar parte de los órganos de selección aquellos funcionarios que hubiesen realizado tareas de preparación de aspirantes a pruebas selectivas en los cinco años anteriores a la publicación de la correspondiente convocatoria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.j) RD 364/1995",
+      "stem": "Según el artículo 16.j) del RD 364/1995, desde la total conclusión de un ejercicio o prueba hasta el comienzo del siguiente deberá transcurrir un plazo:",
+      "options": [
+        "Mínimo de setenta y dos horas y máximo de cuarenta y cinco días naturales.",
+        "Mínimo de veinticuatro horas y máximo de treinta días naturales.",
+        "Mínimo de setenta y dos horas y máximo de dos meses.",
+        "Mínimo de cuarenta y ocho horas y máximo de cuarenta y cinco días hábiles."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 16.j) del RD 364/1995 fija entre ejercicios un mínimo de 72 horas y un máximo de 45 días naturales.",
+      "excerpt": "Desde la total conclusión de un ejercicio o prueba hasta el comienzo del siguiente deberá transcurrir un plazo mínimo de setenta y dos horas y máximo de cuarenta y cinco días naturales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.1 RD 364/1995",
+      "stem": "Según el artículo 4.1 del Reglamento General de Ingreso (RD 364/1995), ¿cuál es el sistema ordinario de ingreso del personal funcionario?",
+      "options": [
+        "El concurso-oposición.",
+        "La oposición.",
+        "El concurso.",
+        "La libre designación."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 4.1 del RD 364/1995 establece la oposición como sistema ordinario; el concurso-oposición se usa cuando es más adecuado por la naturaleza de las funciones. El art. 61.6 TREBEP reserva el concurso a los casos previstos por ley.",
+      "excerpt": "La oposición será el sistema ordinario de ingreso, salvo cuando, por la naturaleza de las funciones a desempeñar, sea más adecuada la utilización del concurso-oposición y, excepcionalmente, del concurso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 27.1 RD 364/1995",
+      "stem": "De acuerdo con el artículo 27.1 del RD 364/1995, el nombramiento del personal funcionario interino de la Administración General del Estado se efectuará, con arreglo a los principios de mérito y capacidad, por:",
+      "options": [
+        "El Ministro del Departamento en el que vaya a prestar servicios.",
+        "El Consejo de Ministros, a propuesta del Ministro competente en materia de función pública.",
+        "El tribunal calificador de la última convocatoria del Cuerpo o Escala.",
+        "El Subsecretario del Departamento al que figuren adscritos los Cuerpos y Escalas o, en su caso, el Director general de la Función Pública."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 27.1 del RD 364/1995 atribuye el nombramiento al Subsecretario del departamento de adscripción del Cuerpo o Escala o, para los Cuerpos y Escalas dependientes de la Secretaría de Estado competente en función pública, al Director general de la Función Pública. El procedimiento debe ser ágil, por la urgencia de la cobertura.",
+      "excerpt": "El nombramiento del personal funcionario interino se efectuará, con arreglo a los principios de mérito y capacidad, por el Subsecretario del Departamento al que figuren adscritos los correspondientes Cuerpos y Escalas o por el Director general de la Función Pública, cuando se trate de Cuerpos y Escalas dependientes de la Secretaría de Estado para la Administración Pública.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

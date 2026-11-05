@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "set": "pn-21-procesal-penal-lopj-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 21. Derecho Procesal Penal: jurisdicción, denuncia, detención, habeas corpus, Ministerio Fiscal y Policía Judicial",
+    "topic_slug": "pn-21-procesal-penal",
+    "locale": "es",
+    "category": "pn_21_procesal_penal",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.1 LOPJ",
+      "stem": "Según el artículo 2 de la Ley Orgánica del Poder Judicial, el ejercicio de la potestad jurisdiccional, juzgando y haciendo ejecutar lo juzgado, corresponde exclusivamente:",
+      "options": [
+        "Al Consejo General del Poder Judicial y a los jueces y magistrados.",
+        "A los jueces, a los Tribunales y al Ministerio Fiscal.",
+        "A los jueces, a las juezas y a los Tribunales determinados en las leyes y en los tratados internacionales."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 2.1 LOPJ (y el art. 117.3 CE) atribuye la potestad jurisdiccional en exclusiva a los jueces y Tribunales determinados por las leyes y los tratados internacionales.",
+      "excerpt": "El ejercicio de la potestad jurisdiccional, juzgando y haciendo ejecutar lo juzgado, corresponde exclusivamente a los jueces, a las juezas y a los Tribunales determinados en las leyes y en los tratados internacionales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.6 LOPJ",
+      "stem": "Según el artículo 9 de la Ley Orgánica del Poder Judicial, la jurisdicción es:",
+      "options": [
+        "Prorrogable por acuerdo expreso de las partes.",
+        "Improrrogable, y los órganos judiciales apreciarán de oficio la falta de jurisdicción.",
+        "Improrrogable, pero la falta de jurisdicción solo puede apreciarse a instancia de parte."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 9.6 LOPJ declara la jurisdicción improrrogable y obliga a apreciar de oficio su falta, con audiencia de las partes y del Ministerio Fiscal.",
+      "excerpt": "La jurisdicción es improrrogable. Los órganos judiciales apreciarán de oficio la falta de jurisdicción y resolverán sobre la misma con audiencia de las partes y del Ministerio Fiscal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 88.1 LOPJ",
+      "stem": "Según el artículo 88 de la Ley Orgánica del Poder Judicial, la instrucción de las causas por delito cuyo enjuiciamiento corresponda a las Audiencias Provinciales y a las Secciones de lo Penal corresponde, con carácter general, a:",
+      "options": [
+        "Las Secciones de Instrucción o las Secciones Únicas de los Tribunales de Instancia.",
+        "Las propias Secciones de lo Penal de los Tribunales de Instancia.",
+        "Las Salas de lo Civil y Penal de los Tribunales Superiores de Justicia."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 88.1.a) LOPJ, en la redacción dada por la LO 1/2025 (Tribunales de Instancia), atribuye a las Secciones de Instrucción y a las Secciones Únicas la instrucción de estas causas, salvo las que correspondan a las Secciones de Violencia sobre la Mujer o de Violencia contra la Infancia y la Adolescencia. También conocen, entre otras materias, de los juicios por delito leve y del habeas corpus.",
+      "excerpt": "Con carácter general, en los Tribunales de Instancia, las Secciones de Instrucción o las Secciones Únicas extenderán su jurisdicción a un partido judicial. Estas Secciones conocerán, en el orden penal: a) De la instrucción de las causas por delito cuyo enjuiciamiento corresponda a las Audiencias Provinciales y a las Secciones de lo Penal de los Tribunales de Instancia",
+      "excerpt_status": "completo",
+      "review_note": "Redacción de la LO 1/2025, de 2 de enero, que sustituye los Juzgados de Instrucción por Secciones de Instrucción de los Tribunales de Instancia (implantación por fases); otras leyes del tema, como la LO 6/1984 de habeas corpus (art. 2) o la LECrim, siguen hablando de «Juez de Instrucción». Comprobar que la terminología encaja con la que use el examen."
+    },
+    {
+      "ref": "Art. 57.1 LOPJ",
+      "stem": "Según la Ley Orgánica del Poder Judicial, ¿qué órgano conoce de la instrucción y enjuiciamiento de las causas contra Diputados y Senadores?",
+      "options": [
+        "La Sala de lo Penal de la Audiencia Nacional.",
+        "La Sala de lo Civil y Penal del Tribunal Superior de Justicia de Madrid.",
+        "La Sala de lo Penal del Tribunal Supremo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 57.1.2.º LOPJ atribuye a la Sala de lo Penal del Tribunal Supremo la instrucción y enjuiciamiento de las causas contra el Presidente del Gobierno, miembros del Gobierno, Diputados y Senadores, entre otros aforados.",
+      "excerpt": "La Sala de lo Penal del Tribunal Supremo conocerá: […] De la instrucción y enjuiciamiento de las causas contra el Presidente del Gobierno, Presidentes del Congreso y del Senado, Presidente del Tribunal Supremo y del Consejo General del Poder Judicial, Presidente del Tribunal Constitucional, miembros del Gobierno, Diputados y Senadores",
+      "excerpt_status": "completo"
+    }
+  ]
+}

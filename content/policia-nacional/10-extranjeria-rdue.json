@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "pn-10-extranjeria-rdue-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 10. Ciudadanos de la UE y derechos y libertades de los extranjeros: entrada, estancia y residencia",
+    "topic_slug": "pn-10-extranjeria",
+    "locale": "es",
+    "category": "pn_10_extranjeria",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 240/2007, de 16 de febrero, entrada, libre circulación y residencia en España de ciudadanos de la UE y del EEE (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 6.1 RD 240/2007",
+      "stem": "Según el Real Decreto 240/2007, cuando la permanencia en España de un ciudadano de otro Estado miembro de la Unión Europea tenga una duración inferior a tres meses, será suficiente:",
+      "options": [
+        "La posesión de pasaporte o documento de identidad en vigor.",
+        "La obtención del certificado de registro.",
+        "La obtención de un visado de estancia."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 6.1 RD 240/2007 solo exige pasaporte o documento de identidad en vigor para estancias inferiores a tres meses, que no computan a efectos de residencia.",
+      "excerpt": "tenga una duración inferior a tres meses, será suficiente la posesión de pasaporte o documento de identidad en vigor, en virtud del cual se haya efectuado la entrada en territorio español",
+      "excerpt_status": "completo",
+      "review_note": "El RDUE.md consta actualizado a 2015; comprobar que el art. 6 no ha cambiado con el Real Decreto 1155/2024 (nuevo Reglamento de extranjería), que modificó normativa conexa."
+    },
+    {
+      "ref": "Art. 7.5 RD 240/2007",
+      "stem": "De acuerdo con el Real Decreto 240/2007, los nacionales de otro Estado miembro de la Unión Europea que pretendan residir en España más de tres meses deben solicitar su inscripción en el Registro Central de Extranjeros en el plazo de:",
+      "options": [
+        "Un mes contado desde la fecha de entrada en España.",
+        "Seis meses contados desde la fecha de entrada en España.",
+        "Tres meses contados desde la fecha de entrada en España."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 7.5 RD 240/2007 fija tres meses desde la entrada para solicitar personalmente la inscripción ante la oficina de extranjeros o, en su defecto, la Comisaría de Policía; el certificado de registro se expide de forma inmediata.",
+      "excerpt": "Dicha solicitud deberá presentarse en el plazo de tres meses contados desde la fecha de entrada en España, siéndole expedido de forma inmediata un certificado de registro",
+      "excerpt_status": "completo",
+      "review_note": "El RDUE.md consta actualizado a 2015; comprobar que el art. 7 no ha cambiado con el Real Decreto 1155/2024 (nuevo Reglamento de extranjería)."
+    },
+    {
+      "ref": "Art. 8.5 RD 240/2007",
+      "stem": "Según el Real Decreto 240/2007, la tarjeta de residencia de familiar de ciudadano de la Unión tendrá, con carácter general, una validez de:",
+      "options": [
+        "Diez años a partir de la fecha de su expedición.",
+        "Cinco años a partir de la fecha de su expedición.",
+        "Dos años a partir de la fecha de su expedición."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 8.5 RD 240/2007 fija cinco años de validez, o el período previsto de residencia del ciudadano de la Unión si fuera inferior.",
+      "excerpt": "5. La tarjeta de residencia de familiar de ciudadano de la Unión tendrá una validez de cinco años a partir de la fecha de su expedición",
+      "excerpt_status": "completo",
+      "review_note": "El RDUE.md consta actualizado a 2015; comprobar que el art. 8 no ha cambiado con el Real Decreto 1155/2024 (nuevo Reglamento de extranjería)."
+    },
+    {
+      "ref": "Art. 10.1 RD 240/2007",
+      "stem": "Según el Real Decreto 240/2007, son titulares del derecho a residir con carácter permanente los ciudadanos de la Unión y los miembros de su familia que hayan residido legalmente en España durante un período continuado de:",
+      "options": [
+        "Cinco años.",
+        "Tres años.",
+        "Diez años."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 10.1 RD 240/2007 exige cinco años de residencia legal continuada; el derecho se pierde por ausencia del territorio español durante más de dos años consecutivos (art. 10.7).",
+      "excerpt": "que hayan residido legalmente en España durante un período continuado de cinco años",
+      "excerpt_status": "completo",
+      "review_note": "El RDUE.md consta actualizado a 2015; comprobar que el art. 10 no ha cambiado con el Real Decreto 1155/2024 (nuevo Reglamento de extranjería)."
+    }
+  ]
+}

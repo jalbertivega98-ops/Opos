@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "set": "justra-24-recursos-lecrim-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, tema 24. Recursos en el ámbito civil y penal",
+    "topic_slug": "justra-24-recursos",
+    "locale": "es",
+    "category": "justra_24_recursos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 216 LECrim",
+      "stem": "Según el artículo 216 de la Ley de Enjuiciamiento Criminal, contra las resoluciones del Juez de Instrucción podrán ejercitarse los recursos de:",
+      "options": [
+        "Reposición, súplica y casación.",
+        "Reforma, apelación y queja.",
+        "Reforma, súplica y revisión.",
+        "Apelación, casación y amparo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 216 LECrim enumera los recursos de reforma, apelación y queja frente a las resoluciones del Juez de Instrucción.",
+      "excerpt": "Contra las resoluciones del Juez de Instrucción podrán ejercitarse los recursos de reforma, apelación y queja.",
+      "excerpt_status": "completo",
+      "review_note": "El art. 216 LECrim conserva la denominación «Juez de Instrucción»; tras la LO 1/2025 (disp. adic. 1.ª) las referencias a los Juzgados de Instrucción se entienden hechas a las Secciones de Instrucción de los Tribunales de Instancia. Revisar si conviene adaptar el enunciado."
+    },
+    {
+      "ref": "Art. 211 LECrim",
+      "stem": "Conforme a la Ley de Enjuiciamiento Criminal, los recursos de reforma o de súplica contra las resoluciones de los Jueces y Tribunales se interpondrán en el plazo de:",
+      "options": [
+        "Los cinco días siguientes a su notificación.",
+        "Los diez días siguientes a su notificación.",
+        "El día siguiente a su notificación.",
+        "Los tres días siguientes a su notificación."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 211 LECrim fija tres días para la reforma y la súplica, y el mismo plazo para la reposición y la revisión contra resoluciones de los Secretarios judiciales (hoy Letrados de la Administración de Justicia).",
+      "excerpt": "Los recursos de reforma o de súplica contra las resoluciones de los Jueces y Tribunales se interpondrán en el plazo de los tres días siguientes a su notificación a los que sean parte en el juicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 222 LECrim",
+      "stem": "Según el artículo 222 de la Ley de Enjuiciamiento Criminal, en relación con los recursos de reforma y apelación, el recurso de apelación:",
+      "options": [
+        "No podrá interponerse sino después de haberse ejercitado el de reforma, aunque ambos pueden interponerse en un mismo escrito, con la apelación de forma subsidiaria.",
+        "Puede interponerse directamente sin necesidad de reforma previa en todos los procedimientos.",
+        "Debe interponerse siempre en escrito separado del de reforma y una vez resuelta esta.",
+        "Sustituye al de reforma, que solo cabe contra providencias."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 222 LECrim exige ejercitar previamente la reforma, pero admite interponer ambos en un mismo escrito con la apelación subsidiaria. En el procedimiento abreviado, en cambio, no es necesario interponer previamente la reforma (art. 766.2).",
+      "excerpt": "El recurso de apelación no podrá interponerse sino después de haberse ejercitado el de reforma; pero podrán interponerse ambos en un mismo escrito, en cuyo caso el de apelación se propondrá subsidiariamente, por si fuere desestimado el de reforma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 766.2 LECrim",
+      "stem": "En el procedimiento abreviado, para presentar recurso de apelación contra un auto no exceptuado de recurso:",
+      "options": [
+        "Será siempre necesario interponer previamente el de reforma.",
+        "Solo podrá interponerse subsidiariamente con el de reforma, nunca por separado.",
+        "Será necesario interponer previamente el de queja ante la Audiencia.",
+        "En ningún caso será necesario interponer previamente el de reforma."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 766.2 LECrim permite en el procedimiento abreviado interponer la apelación subsidiariamente con la reforma o por separado, sin que sea necesaria la reforma previa; la apelación se presenta en cinco días (art. 766.3).",
+      "excerpt": "2. El recurso de apelación podrá interponerse subsidiariamente con el de reforma o por separado. En ningún caso será necesario interponer previamente el de reforma para presentar la apelación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 790.1 LECrim",
+      "stem": "En el procedimiento abreviado, la sentencia dictada por el Juez de lo Penal es apelable:",
+      "options": [
+        "Ante la Audiencia Provincial correspondiente, dentro de los cinco días siguientes a su notificación.",
+        "Ante la Audiencia Provincial correspondiente, dentro de los diez días siguientes a su notificación.",
+        "Ante el Tribunal Superior de Justicia, dentro de los diez días siguientes a su notificación.",
+        "Ante la Sala Segunda del Tribunal Supremo, dentro de los veinte días siguientes a su notificación."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 790.1 LECrim atribuye la apelación de las sentencias del Juez de lo Penal a la Audiencia Provincial (y las del Juez Central de lo Penal a la Sala de lo Penal de la Audiencia Nacional), con un plazo de diez días.",
+      "excerpt": "1. La sentencia dictada por el Juez de lo Penal es apelable ante la Audiencia Provincial correspondiente, y la del Juez Central de lo penal, ante la Sala de lo Penal de la Audiencia Nacional. El recurso podrá ser interpuesto por cualquiera de las partes, dentro de los diez días siguientes a aquel en que se les hubiere notificado la sentencia.",
+      "excerpt_status": "completo",
+      "review_note": "El art. 790 LECrim conserva la denominación «Juez de lo Penal»; tras la LO 1/2025 (disp. adic. 1.ª) las referencias a los Juzgados de lo Penal se entienden hechas a las Secciones de lo Penal de los Tribunales de Instancia. Revisar si conviene adaptar el enunciado."
+    },
+    {
+      "ref": "Art. 856 LECrim",
+      "stem": "En el proceso penal, la petición para preparar el recurso de casación se formulará mediante escrito autorizado por Abogado y Procurador:",
+      "options": [
+        "Dentro de los diez días siguientes al de la última notificación de la sentencia o auto.",
+        "Dentro de los tres días siguientes al de la última notificación de la sentencia o auto.",
+        "Dentro de los cinco días siguientes al de la última notificación de la sentencia o auto.",
+        "Dentro de los veinte días siguientes al de la última notificación de la sentencia o auto."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 856 LECrim (y el art. 212) fijan cinco días para preparar la casación ante el tribunal que dictó la resolución definitiva.",
+      "excerpt": "La petición expresada en el precedente artículo se formulará mediante escrito autorizado por Abogado y Procurador, dentro de los cinco días siguientes al de la última notificación de la sentencia o auto contra que se intente entablar el recurso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 954.1 LECrim",
+      "stem": "Según el artículo 954 de la Ley de Enjuiciamiento Criminal, ¿cuál de los siguientes es un supuesto en que se puede solicitar la revisión de una sentencia firme?",
+      "options": [
+        "Cuando el condenado discrepe de la valoración de la prueba realizada en la sentencia.",
+        "Cuando sobre el mismo hecho y encausado hayan recaído dos sentencias firmes.",
+        "Cuando hayan transcurrido más de cinco años desde que la sentencia adquirió firmeza.",
+        "Cuando el condenado haya cumplido íntegramente la pena impuesta."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 954.1 LECrim enumera los motivos de revisión: prueba falsa declarada por sentencia, prevaricación del juez, dos sentencias firmes sobre el mismo hecho y encausado, nuevos hechos o pruebas y contradicción con una sentencia no penal sobre la cuestión prejudicial.",
+      "excerpt": "c) Cuando sobre el mismo hecho y encausado hayan recaído dos sentencias firmes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

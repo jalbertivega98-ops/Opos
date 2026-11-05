@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "set": "age-adm-54-retribuciones-rdind-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.4 Retribuciones e indemnizaciones del personal",
+    "topic_slug": "age-adm-54-retribuciones",
+    "locale": "es",
+    "category": "age_adm_54_retribuciones",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 462/2002, de 24 de mayo, sobre indemnizaciones por razón del servicio (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-10337",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 RD 462/2002",
+      "stem": "¿Cuál de los siguientes supuestos da origen a indemnización según el artículo 1 del Real Decreto 462/2002, sobre indemnizaciones por razón del servicio?",
+      "options": [
+        "Las horas extraordinarias realizadas en la oficina.",
+        "Los traslados de residencia.",
+        "La especial dedicación exigida por el puesto.",
+        "El desplazamiento habitual desde el domicilio al centro de trabajo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 del RD 462/2002 enumera comisiones de servicio, desplazamientos dentro del término municipal por razón del servicio, traslados de residencia y asistencias. El desplazamiento habitual al centro de trabajo nunca es comisión de servicio (art. 3.1).",
+      "excerpt": "1. Darán origen a indemnización o compensación los supuestos siguientes, en las circunstancias, condiciones y límites contenidos en el presente Real Decreto: a) Comisiones de servicio con derecho a indemnización. b) Desplazamientos dentro del término municipal por razón de servicio. c) Traslados de residencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.1 RD 462/2002",
+      "stem": "Según el RD 462/2002, con carácter general, la designación de las comisiones de servicio con derecho a indemnización compete:",
+      "options": [
+        "Al Ministro de Hacienda.",
+        "Al jefe inmediato del comisionado.",
+        "Al Subsecretario de cada Departamento ministerial o a la autoridad superior del Organismo o Entidad correspondiente.",
+        "A la Dirección General de la Función Pública."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4.1 del RD 462/2002 atribuye la designación al Subsecretario del Departamento o a la autoridad superior del organismo o entidad (en Defensa, también a los Jefes de Estado Mayor).",
+      "excerpt": "1. La designación de las comisiones de servicio con derecho a indemnización compete al Subsecretario de cada Departamento ministerial o a la autoridad superior del Organismo o Entidad correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.1 RD 462/2002",
+      "stem": "Según el artículo 5 del RD 462/2002, salvo casos excepcionales, toda comisión de servicio con derecho a indemnización no durará más de:",
+      "options": [
+        "Un mes en territorio nacional y tres en el extranjero.",
+        "Quince días en territorio nacional y un mes en el extranjero.",
+        "Tres meses en territorio nacional y seis en el extranjero.",
+        "Un mes, tanto en territorio nacional como en el extranjero."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 5.1 limita las comisiones a un mes en territorio nacional y tres en el extranjero; si se prevé mayor duración, tienen la consideración de residencia eventual (art. 6.1).",
+      "excerpt": "1. Toda comisión con derecho a indemnización, salvo casos excepcionales, no durará más de un mes en territorio nacional y de tres en el extranjero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.2 RD 462/2002",
+      "stem": "Según el RD 462/2002, la duración de una comisión con la consideración de residencia eventual no podrá exceder de:",
+      "options": [
+        "Seis meses, prorrogables por otros seis.",
+        "Tres meses, sin posibilidad de prórroga.",
+        "Un año, salvo prórroga por el tiempo estrictamente indispensable, que no podrá exceder de otro año.",
+        "Dos años, prorrogables por un año más."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 6.2 fija un máximo de un año para la residencia eventual, prorrogable como máximo un año más; si se prevé más de un año, debe crearse el puesto de trabajo (art. 6.3).",
+      "excerpt": "2. La duración de la residencia eventual no podrá exceder de un año, salvo que se prorrogue por el tiempo estrictamente indispensable por la autoridad que haya designado la comisión según lo previsto en el artículo 4.1 anterior. La duración de la prórroga no podrá en ningún caso exceder de un año.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 12.1 RD 462/2002",
+      "stem": "Una funcionaria realiza una comisión de servicio de un solo día que empieza a las 9:00 y termina a las 17:00, sin pernoctar. Según el artículo 12 del RD 462/2002, ¿qué indemnización por dietas le corresponde?",
+      "options": [
+        "El 100 por 100 de la dieta por manutención y el alojamiento de un día.",
+        "El 50 por 100 del importe de la dieta por manutención.",
+        "Ninguna, porque la comisión no supera veinticuatro horas.",
+        "El 100 por 100 de la dieta por manutención, sin alojamiento."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En comisiones de un día o menos no se cobran alojamiento ni manutención, salvo que duren al menos cinco horas, empiecen antes de las 14:00 y acaben después de las 16:00: entonces se percibe el 50 % de la dieta de manutención (art. 12.1).",
+      "excerpt": "1. En las comisiones cuya duración sea igual o inferior a un día natural, en general no se percibirán indemnizaciones por gastos de alojamiento ni de manutención salvo cuando, teniendo la comisión una duración mínima de cinco horas, ésta se inicie antes de las catorce horas y finalice después de las dieciséis horas, supuesto en que se percibirá el 50 por 100 del importe de la dieta por manutención.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.1 RD 462/2002",
+      "stem": "Según el RD 462/2002, la cuantía de la indemnización por residencia eventual la fija la autoridad que confiere la comisión dentro del límite máximo, sin necesidad de justificación documental, del:",
+      "options": [
+        "50 por 100 del importe de las dietas enteras que corresponderían.",
+        "100 por 100 del importe de las dietas enteras que corresponderían.",
+        "80 por 100 del importe de la dieta de manutención exclusivamente.",
+        "80 por 100 del importe de las dietas enteras que corresponderían."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 16.1 limita la indemnización de residencia eventual al 80 % de las dietas enteras de los anexos II y III; el porcentaje debe figurar expresamente en la orden de comisión.",
+      "excerpt": "1. La cuantía del importe por indemnización de residencia eventual será fijada por la misma autoridad que confiera la comisión dentro del límite máximo, sin que se necesite justificación documental, del 80 por 100 del importe de las dietas enteras que corresponderían con arreglo a lo dispuesto en los anexos II y III del presente Real Decreto",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 19.1 RD 462/2002",
+      "stem": "Según el artículo 19 del RD 462/2002, el personal al que se encomienda una comisión de servicio:",
+      "options": [
+        "Solo puede percibir la indemnización una vez finalizada y justificada la comisión.",
+        "Puede percibir por adelantado únicamente los gastos de viaje.",
+        "Tiene derecho a un anticipo del doble del importe previsto, que no debe justificarse.",
+        "Tiene derecho a percibir por adelantado el importe aproximado de las dietas, pluses, residencia eventual y gastos de viaje, sin perjuicio de la devolución que proceda al finalizar la comisión."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 19.1 reconoce el derecho de anticipo del importe aproximado de dietas, pluses, residencia eventual y gastos de viaje, con devolución posterior de lo que proceda.",
+      "excerpt": "1. El personal a quien se encomiende una comisión de servicio de las reguladas en el artículo 3 del presente Real Decreto tendrá derecho a percibir por adelantado el importe aproximado de las dietas, pluses, residencia eventual y gastos de viaje sin perjuicio de la devolución del anticipo, en la cuantía que proceda en su caso, una vez finalizada la comisión de servicios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23.1 y 23.3 RD 462/2002",
+      "stem": "Por la supresión de la oficina en que presta servicio, un funcionario es trasladado forzosamente a otro municipio junto con su cónyuge e hijo. Según el RD 462/2002, ¿qué indemnización le corresponde?",
+      "options": [
+        "Los gastos de viaje, incluidos los de su familia, el transporte de mobiliario y enseres y una indemnización equivalente a tres dietas por el titular y cada miembro de su familia que se traslade.",
+        "Únicamente los gastos de viaje del titular.",
+        "Una indemnización equivalente a una dieta por el titular, sin derecho a gastos de familiares.",
+        "Ninguna, porque los traslados de residencia no son indemnizables."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 23.1 indemniza el traslado forzoso (incluida la supresión de unidades, art. 23.2.b) con gastos de viaje, transporte de mobiliario y enseres y tres dietas por persona; los traslados por sanción no dan derecho a indemnización (art. 23.3).",
+      "excerpt": "1. En caso de traslado forzoso que origine cambio del término municipal de residencia oficial dentro del territorio nacional, el personal tendrá derecho al abono de los gastos de viaje, incluidos los de su familia, al pago de los gastos de transporte de mobiliario y enseres y, en cualquier caso, a una indemnización equivalente a tres dietas por el titular y cada miembro de su familia que efectivamente se traslade.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 27.3 RD 462/2002",
+      "stem": "Según el artículo 27 del RD 462/2002, las cantidades percibidas por el conjunto de los tres tipos de asistencias no podrán totalizar por año natural un importe superior al:",
+      "options": [
+        "40 por 100 de las retribuciones anuales, incluidas las derivadas de la antigüedad.",
+        "50 por 100 de las retribuciones anuales, excluidas las de carácter personal derivadas de la antigüedad, del puesto de trabajo desempeñado.",
+        "30 por 100 de las retribuciones básicas anuales.",
+        "100 por 100 de las retribuciones complementarias anuales."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 27.3 fija un tope conjunto del 50 % de las retribuciones anuales del puesto (sin antigüedad); el exceso se ingresa en el Tesoro. Para órganos colegiados y consejos de administración el límite específico es del 40 % (art. 28.3).",
+      "excerpt": "3. Dichas cantidades en ningún caso podrán totalizar, para el conjunto de los tres tipos de asistencias, un importe por año natural superior al 50 por 100 de las retribuciones anuales, excluidas las de carácter personal derivadas de la antigüedad, que se perciban por el puesto de trabajo desempeñado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2.a) RD 462/2002",
+      "stem": "Según el RD 462/2002, en las comisiones de servicio en que se viaje en avión, se indemnizará el importe del billete dentro de las tarifas de:",
+      "options": [
+        "Clase preferente para todos los grupos.",
+        "Clase preferente para el grupo primero y turista para los demás.",
+        "Clase turista o clase de cuantía inferior a la prevista para aquella.",
+        "Cualquier clase, siempre que se justifique documentalmente."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 17.2.a) limita los viajes en avión a clase turista o inferior; solo por urgencia, representación o duración del viaje puede autorizarse una clase superior.",
+      "excerpt": "a) Avión: clase turista o clase de cuantía inferior a la prevista para aquélla.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

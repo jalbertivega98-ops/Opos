@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "age-adm-36-responsabilidad-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.6 La responsabilidad patrimonial de las Administraciones públicas",
+    "topic_slug": "age-adm-36-responsabilidad",
+    "locale": "es",
+    "category": "age_adm_36_responsabilidad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 67.1 LPAC",
+      "stem": "Una persona sufre lesiones físicas al caer en una zanja mal señalizada de una obra pública. Recibe el alta médica, con determinación de secuelas, ocho meses después. Según el artículo 67 de la Ley 39/2015, ¿cuándo prescribe su derecho a reclamar?",
+      "options": [
+        "Al año desde la fecha de la caída, en todo caso.",
+        "A los seis meses desde la curación.",
+        "A los cuatro años desde la fecha de la caída.",
+        "Al año desde la curación o la determinación del alcance de las secuelas."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 67.1 LPAC fija un plazo de prescripción de un año; en los daños físicos o psíquicos a las personas empieza a computarse desde la curación o la determinación del alcance de las secuelas.",
+      "excerpt": "El derecho a reclamar prescribirá al año de producido el hecho o el acto que motive la indemnización o se manifieste su efecto lesivo. En caso de daños de carácter físico o psíquico a las personas, el plazo empezará a computarse desde la curación o la determinación del alcance de las secuelas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 81.1 LPAC",
+      "stem": "Según el artículo 81 de la Ley 39/2015, en los procedimientos de responsabilidad patrimonial será preceptivo solicitar informe al servicio cuyo funcionamiento haya ocasionado la presunta lesión, que deberá emitirse en un plazo no superior a:",
+      "options": [
+        "Diez días.",
+        "Quince días.",
+        "Un mes.",
+        "Dos meses."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 81.1 LPAC exige el informe del servicio causante en un plazo máximo de diez días; el dictamen del Consejo de Estado, cuando es preceptivo, se emite en dos meses (art. 81.2).",
+      "excerpt": "En el caso de los procedimientos de responsabilidad patrimonial será preceptivo solicitar informe al servicio cuyo funcionamiento haya ocasionado la presunta lesión indemnizable, no pudiendo exceder de diez días el plazo de su emisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 81.2 LPAC",
+      "stem": "Un particular reclama a un Ministerio una indemnización de 62.000 euros por responsabilidad patrimonial. Según el artículo 81 de la Ley 39/2015, antes de resolver:",
+      "options": [
+        "Será preceptivo el informe del Tribunal de Cuentas.",
+        "Solo será necesario el informe de la Abogacía del Estado.",
+        "Será preceptivo solicitar dictamen del Consejo de Estado, que se emitirá en el plazo de dos meses.",
+        "Será preceptivo el dictamen del Consejo de Estado únicamente si la cuantía supera los 100.000 euros."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 81.2 LPAC exige dictamen del Consejo de Estado (u órgano consultivo autonómico) cuando la indemnización reclamada sea igual o superior a 50.000 euros; el dictamen se emite en dos meses y se pronuncia sobre la relación de causalidad, la valoración del daño y la cuantía y modo de la indemnización.",
+      "excerpt": "Cuando las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros o a la que se establezca en la correspondiente legislación autonómica, así como en aquellos casos que disponga la Ley Orgánica 3/1980, de 22 de abril, del Consejo de Estado, será preceptivo solicitar dictamen del Consejo de Estado o, en su caso, del órgano consultivo de la Comunidad Autónoma. […] El dictamen se emitirá en el plazo de dos meses",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 91.3 LPAC",
+      "stem": "Según el artículo 91 de la Ley 39/2015, transcurridos seis meses desde que se inició el procedimiento de responsabilidad patrimonial sin que haya recaído y se notifique resolución expresa ni se haya formalizado el acuerdo:",
+      "options": [
+        "Se entenderá estimada la reclamación por silencio administrativo.",
+        "Podrá entenderse que la resolución es contraria a la indemnización del particular.",
+        "Se producirá la caducidad del procedimiento.",
+        "El particular deberá reiterar su reclamación ante el Consejo de Ministros."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 91.3 LPAC prevé el silencio desestimatorio a los seis meses, en coherencia con el art. 24.1 LPAC.",
+      "excerpt": "Transcurridos seis meses desde que se inició el procedimiento sin que haya recaído y se notifique resolución expresa o, en su caso, se haya formalizado el acuerdo, podrá entenderse que la resolución es contraria a la indemnización del particular.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 92 LPAC",
+      "stem": "De acuerdo con el artículo 92 de la Ley 39/2015, en el ámbito de la Administración General del Estado los procedimientos de responsabilidad patrimonial se resolverán, con carácter general, por:",
+      "options": [
+        "El Subsecretario del Departamento.",
+        "El Consejo de Ministros, en todo caso.",
+        "El Delegado del Gobierno en la Comunidad Autónoma donde se produjo el daño.",
+        "El Ministro respectivo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 92 LPAC atribuye la resolución al Ministro respectivo, y al Consejo de Ministros en los casos del art. 32.3 LRJSP (actos legislativos) o cuando una ley así lo disponga.",
+      "excerpt": "En el ámbito de la Administración General del Estado, los procedimientos de responsabilidad patrimonial se resolverán por el Ministro respectivo o por el Consejo de Ministros en los casos del artículo 32.3 de la Ley de Régimen Jurídico del Sector Público o cuando una ley así lo disponga.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 96.4 y 96.6 LPAC",
+      "stem": "Según el artículo 96 de la Ley 39/2015, si iniciado un procedimiento de responsabilidad patrimonial el órgano competente considera inequívocas la relación de causalidad, la valoración del daño y la cuantía de la indemnización, podrá acordar de oficio la tramitación simplificada, que, salvo que reste menos para la ordinaria, deberá resolverse en:",
+      "options": [
+        "Diez días desde la presentación de la reclamación.",
+        "Tres meses desde la iniciación del procedimiento.",
+        "Treinta días desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada.",
+        "Quince días desde la emisión del informe del servicio."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 96.4 LPAC permite suspender el procedimiento general e iniciar uno simplificado en esos casos, y el art. 96.6 fija el plazo de resolución en treinta días desde el día siguiente a la notificación del acuerdo de tramitación simplificada.",
+      "excerpt": "si una vez iniciado el procedimiento administrativo el órgano competente para su tramitación considera inequívoca la relación de causalidad entre el funcionamiento del servicio público y la lesión, así como la valoración del daño y el cálculo de la cuantía de la indemnización, podrá acordar de oficio la suspensión del procedimiento general y la iniciación de un procedimiento simplificado. […] Salvo que reste menos para su tramitación ordinaria, los procedimientos administrativos tramitados de manera simplificada deberán ser resueltos en treinta días, a contar desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada del procedimiento",
+      "excerpt_status": "completo"
+    }
+  ]
+}

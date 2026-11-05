@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "set": "pn-15-infraestructuras-criticas-lpic-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 15. Protección de infraestructuras críticas y ciberseguridad",
+    "topic_slug": "pn-15-infraestructuras-criticas",
+    "locale": "es",
+    "category": "pn_15_infraestructuras_criticas",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 8/2011, de 28 de abril, medidas para la protección de las infraestructuras críticas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7630",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.e) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, las infraestructuras estratégicas cuyo funcionamiento es indispensable y no permite soluciones alternativas, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales, son:",
+      "options": [
+        "Infraestructuras críticas.",
+        "Infraestructuras estratégicas de primer nivel.",
+        "Zonas críticas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 2.e) de la Ley 8/2011 define las infraestructuras críticas como las estratégicas indispensables y sin soluciones alternativas cuya perturbación o destrucción tendría un grave impacto sobre los servicios esenciales.",
+      "excerpt": "e) Infraestructuras críticas: las infraestructuras estratégicas cuyo funcionamiento es indispensable y no permite soluciones alternativas, por lo que su perturbación o destrucción tendría un grave impacto sobre los servicios esenciales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.f) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, son infraestructuras críticas europeas aquellas situadas en algún Estado miembro de la Unión Europea cuya perturbación o destrucción afectaría gravemente:",
+      "options": [
+        "Al menos a tres Estados miembros.",
+        "A la mayoría de los Estados miembros.",
+        "Al menos a dos Estados miembros."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 2.f) de la Ley 8/2011 exige que la perturbación o destrucción afecte gravemente al menos a dos Estados miembros.",
+      "excerpt": "f) Infraestructuras críticas europeas: aquellas infraestructuras críticas situadas en algún Estado miembro de la Unión Europea, cuya perturbación o destrucción afectaría gravemente al menos a dos Estados miembros",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.g) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, la zona geográfica continua donde estén establecidas varias infraestructuras críticas a cargo de operadores diferentes e interdependientes, que sea declarada como tal por la Autoridad competente, se denomina:",
+      "options": [
+        "Sector estratégico.",
+        "Zona crítica.",
+        "Subsector estratégico."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 2.g) de la Ley 8/2011 define así la zona crítica, cuya declaración busca una mejor protección y coordinación entre operadores y con las Fuerzas y Cuerpos de Seguridad.",
+      "excerpt": "g) Zona crítica: aquella zona geográfica continua donde estén establecidas varias infraestructuras críticas a cargo de operadores diferentes e interdependientes, que sea declarada como tal por la Autoridad competente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.h) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿cuál de los siguientes es uno de los criterios horizontales de criticidad?",
+      "options": [
+        "La antigüedad de la infraestructura y su grado de obsolescencia.",
+        "El número de trabajadores en plantilla del operador crítico.",
+        "El impacto medioambiental, degradación en el lugar y sus alrededores."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 2.h) de la Ley 8/2011 enumera cuatro criterios horizontales de criticidad: número de personas afectadas, impacto económico, impacto medioambiental e impacto público y social.",
+      "excerpt": "3. El impacto medioambiental, degradación en el lugar y sus alrededores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.2 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿qué infraestructuras se exceptúan de su aplicación?",
+      "options": [
+        "Las dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad.",
+        "Las de titularidad privada gestionadas por operadores no designados como críticos.",
+        "Las ubicadas en Comunidades Autónomas con policía autonómica integral."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 3.2 de la Ley 8/2011 excluye las infraestructuras dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad, que se rigen por su propia normativa.",
+      "excerpt": "2. Se exceptúan de su aplicación las infraestructuras dependientes del Ministerio de Defensa y de las Fuerzas y Cuerpos de Seguridad, que se regirán, a efectos de control administrativo, por su propia normativa y procedimientos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.1 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿quién es el responsable del Catálogo Nacional de Infraestructuras Estratégicas?",
+      "options": [
+        "El Ministerio de Defensa, a través del Centro Nacional de Inteligencia.",
+        "El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad.",
+        "El Ministerio de la Presidencia, a través de la Comisión Nacional para la Protección de las Infraestructuras Críticas."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 4.1 de la Ley 8/2011 atribuye la responsabilidad del Catálogo al Ministerio del Interior, a través de la Secretaría de Estado de Seguridad.",
+      "excerpt": "1. El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, será el responsable del Catálogo Nacional de Infraestructuras Estratégicas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales es:",
+      "options": [
+        "La Secretaría de Estado de Seguridad.",
+        "La Dirección General de la Policía.",
+        "La Subsecretaría del Interior."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 6 de la Ley 8/2011 señala a la Secretaría de Estado de Seguridad como órgano superior responsable del Sistema, asistida principalmente por el CNPIC.",
+      "excerpt": "La Secretaría de Estado de Seguridad es el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.2 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, el Centro Nacional para la Protección de las Infraestructuras Críticas (CNPIC) depende orgánicamente:",
+      "options": [
+        "De la Dirección General de la Policía.",
+        "Del Centro Nacional de Inteligencia.",
+        "De la Secretaría de Estado de Seguridad."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 7.2 de la Ley 8/2011 dispone que el CNPIC depende orgánicamente de la Secretaría de Estado de Seguridad.",
+      "excerpt": "2. El CNPIC dependerá orgánicamente de la Secretaría de Estado de Seguridad, y sus funciones serán las que reglamentariamente se establezcan.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.3 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿a qué órgano corresponde la determinación de la criticidad de las infraestructuras estratégicas incluidas en el Catálogo?",
+      "options": [
+        "A la Comisión Nacional para la Protección de las Infraestructuras Críticas.",
+        "Al Centro Nacional para la Protección de las Infraestructuras Críticas.",
+        "Al Grupo de Trabajo Interdepartamental para la Protección de las Infraestructuras Críticas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 7.3 de la Ley 8/2011 atribuye al CNPIC las altas, bajas y modificaciones en el Catálogo y la determinación de la criticidad de las infraestructuras estratégicas.",
+      "excerpt": "3. Sin perjuicio de lo dispuesto en el apartado anterior, corresponderá al CNPIC la realización de altas, bajas y modificaciones de infraestructuras en el Catálogo, así como la determinación de la criticidad de las infraestructuras estratégicas incluidas en el mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.2 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿qué órgano es competente para designar a los operadores críticos?",
+      "options": [
+        "El CNPIC, a propuesta de la Comisión Nacional para la Protección de las Infraestructuras Críticas.",
+        "La Comisión Nacional para la Protección de las Infraestructuras Críticas, a propuesta del Grupo de Trabajo Interdepartamental.",
+        "El Grupo de Trabajo Interdepartamental, a propuesta del CNPIC."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 11.2 de la Ley 8/2011 atribuye a la Comisión la aprobación de los Planes Estratégicos Sectoriales y la designación de los operadores críticos, a propuesta del Grupo de Trabajo Interdepartamental.",
+      "excerpt": "2. La Comisión será la competente para aprobar los diferentes Planes Estratégicos Sectoriales así como para designar a los operadores críticos, a propuesta del Grupo de Trabajo Interdepartamental para la Protección de Infraestructuras Críticas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.3 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, los Planes Estratégicos Sectoriales son:",
+      "options": [
+        "Elaborados por el Grupo de Trabajo y aprobados por la Comisión.",
+        "Elaborados por el CNPIC y aprobados por la Secretaría de Estado de Seguridad.",
+        "Elaborados por los operadores críticos y aprobados por el Grupo de Trabajo."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 14.3 de la Ley 8/2011 dispone que los Planes Estratégicos Sectoriales los elabora el Grupo de Trabajo Interdepartamental y los aprueba la Comisión Nacional.",
+      "excerpt": "3. Los Planes Estratégicos Sectoriales serán asimismo elaborados por el Grupo de Trabajo y aprobados por la Comisión, e incluirán, por sectores, los criterios definidores de las medidas a adoptar para hacer frente a una situación de riesgo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.2 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿quién elabora el Plan Nacional de Protección de las Infraestructuras Críticas?",
+      "options": [
+        "La Comisión Nacional para la Protección de las Infraestructuras Críticas.",
+        "El Grupo de Trabajo Interdepartamental para la Protección de las Infraestructuras Críticas.",
+        "El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 14.2 de la Ley 8/2011 encarga al Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, la elaboración del Plan Nacional, documento estructural de la protección de las infraestructuras críticas en la lucha contra el terrorismo.",
+      "excerpt": "2. El Ministerio del Interior, a través de la Secretaría de Estado de Seguridad, elaborará el Plan Nacional de Protección de las Infraestructuras Críticas, siendo éste el documento estructural que permitirá dirigir y coordinar las actuaciones precisas para proteger las infraestructuras críticas en la lucha contra el terrorismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.5 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, los Planes de Apoyo Operativo deberán ser elaborados:",
+      "options": [
+        "Por los operadores críticos titulares de la infraestructura.",
+        "Por el Centro Nacional para la Protección de las Infraestructuras Críticas.",
+        "Por el Cuerpo Policial estatal o, en su caso, autonómico, con competencia en la demarcación."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 14.5 de la Ley 8/2011 atribuye los Planes de Apoyo Operativo al Cuerpo Policial estatal o autonómico competente en la demarcación, para cada infraestructura crítica dotada de Plan de Protección Específico.",
+      "excerpt": "5. Los Planes de Apoyo Operativo deberán ser elaborados por el Cuerpo Policial estatal o, en su caso, autonómico, con competencia en la demarcación, para cada una de las infraestructuras clasificadas como Críticas o Críticas Europeas dotadas de un Plan de Protección Específico",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.1.a) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, los operadores críticos deberán actualizar los datos disponibles de las infraestructuras propias que se aporten al Catálogo con una periodicidad:",
+      "options": [
+        "Semestral y, en todo caso, a requerimiento del Ministerio del Interior.",
+        "Anual y, en todo caso, a requerimiento del Ministerio del Interior.",
+        "Bienal y, en todo caso, a requerimiento de la Comisión Nacional."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 13.1.a) de la Ley 8/2011 obliga a los operadores críticos a actualizar los datos con periodicidad anual y, en todo caso, a requerimiento del Ministerio del Interior.",
+      "excerpt": "a) Asesorar técnicamente al Ministerio del Interior, a través del CNPIC, en la valoración de las infraestructuras propias que se aporten al Catálogo, actualizando los datos disponibles con una periodicidad anual y, en todo caso, a requerimiento del citado Ministerio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.2 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, ¿qué requisito es necesario para la designación de un operador crítico?",
+      "options": [
+        "Que al menos una de las infraestructuras que gestione reúna la consideración de Infraestructura Crítica.",
+        "Que al menos dos de las infraestructuras que gestione reúnan la consideración de Infraestructura Crítica.",
+        "Que todas las infraestructuras que gestione estén incluidas en el Catálogo como estratégicas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 13.2 de la Ley 8/2011 exige que al menos una de las infraestructuras gestionadas sea Infraestructura Crítica; el CNPIC informará al operador antes de la clasificación definitiva.",
+      "excerpt": "2. Será requisito para la designación de los operadores críticos, tanto del sector público como del privado, que al menos una de las infraestructuras que gestionen reúna la consideración de Infraestructura Crítica",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.2 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, el Responsable de Seguridad y Enlace designado por un operador crítico deberá contar con la habilitación de:",
+      "options": [
+        "Jefe de Seguridad expedida por la Secretaría de Estado de Seguridad, sin que se admitan habilitaciones equivalentes.",
+        "Director de Seguridad expedida por el Ministerio del Interior, o la habilitación equivalente según su normativa específica.",
+        "Detective privado expedida por la Dirección General de la Policía."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 16.2 de la Ley 8/2011 exige al Responsable de Seguridad y Enlace la habilitación de Director de Seguridad expedida por el Ministerio del Interior o una equivalente según su normativa específica.",
+      "excerpt": "2. En todo caso, el Responsable de Seguridad y Enlace designado deberá contar con la habilitación de Director de Seguridad expedida por el Ministerio del Interior según lo previsto en la normativa de seguridad privada o con la habilitación equivalente, según su normativa específica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 Ley 8/2011",
+      "stem": "Según la Ley 8/2011, los operadores con infraestructuras consideradas críticas comunicarán la existencia de un Delegado de Seguridad para dicha infraestructura:",
+      "options": [
+        "A la Comisión Nacional para la Protección de las Infraestructuras Críticas.",
+        "Al Grupo de Trabajo Interdepartamental para la Protección de las Infraestructuras Críticas.",
+        "A las Delegaciones del Gobierno o, en su caso, al órgano competente de la Comunidad Autónoma con competencias estatutarias en protección de personas y bienes y orden público donde se ubiquen."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 17.1 de la Ley 8/2011 dispone que la comunicación del Delegado de Seguridad se dirige a las Delegaciones del Gobierno o, en su caso, al órgano autonómico competente del lugar donde se ubique la infraestructura.",
+      "excerpt": "1. Los operadores con Infraestructuras consideradas Críticas o Críticas Europeas por el Ministerio del Interior comunicarán a las Delegaciones del Gobierno o, en su caso, al órgano competente de la Comunidad Autónoma con competencias estatutariamente reconocidas para la protección de personas y bienes y para el mantenimiento del orden público donde aquéllas se ubiquen, la existencia de un Delegado de Seguridad para dicha infraestructura.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.3 Ley 8/2011",
+      "stem": "Según el artículo 15 de la Ley 8/2011, los sistemas, las comunicaciones y la información referida a la protección de las infraestructuras críticas contarán con las medidas de seguridad necesarias que garanticen su:",
+      "options": [
+        "Confidencialidad, integridad y disponibilidad.",
+        "Autenticidad, trazabilidad y conservación.",
+        "Publicidad, transparencia y accesibilidad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15.3 de la Ley 8/2011 exige medidas que garanticen la confidencialidad, integridad y disponibilidad, según el nivel de clasificación asignado.",
+      "excerpt": "3. Los sistemas, las comunicaciones y la información referida a la protección de las infraestructuras críticas contarán con las medidas de seguridad necesarias que garanticen su confidencialidad, integridad y disponibilidad, según el nivel de clasificación que les sea asignado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Preámbulo Ley 8/2011",
+      "stem": "Según el preámbulo de la Ley 8/2011, la norma tiene por objeto, por un lado, regular la protección de las infraestructuras críticas contra ataques deliberados:",
+      "options": [
+        "De todo tipo, tanto de carácter físico como cibernético.",
+        "Únicamente de carácter físico, ya que la ciberseguridad se regula en otra norma.",
+        "Únicamente de carácter terrorista, excluidos los ataques cibernéticos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El preámbulo de la Ley 8/2011 señala que la ley regula la protección contra ataques deliberados de todo tipo, tanto físicos como cibernéticos, y define un sistema organizativo de protección.",
+      "excerpt": "se hace preciso elaborar una norma cuyo objeto es, por un lado, regular la protección de las infraestructuras críticas contra ataques deliberados de todo tipo (tanto de carácter físico como cibernético)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Disposición final primera Ley 8/2011",
+      "stem": "Según su disposición final primera, la Ley 8/2011 se dicta al amparo de la competencia atribuida al Estado por el siguiente artículo de la Constitución:",
+      "options": [
+        "149.1.4.ª, en materia de defensa y Fuerzas Armadas.",
+        "149.1.18.ª, en materia de bases del régimen jurídico de las Administraciones públicas.",
+        "149.1.29.ª, en materia de seguridad pública."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La disposición final primera de la Ley 8/2011 invoca el art. 149.1.29.ª CE, relativo a la seguridad pública.",
+      "excerpt": "Esta Ley se dicta al amparo de la competencia atribuida al Estado en virtud del artículo 149.1.29.ª de la Constitución Española en materia de seguridad pública.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

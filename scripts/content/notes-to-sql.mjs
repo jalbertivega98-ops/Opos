@@ -29,7 +29,7 @@ for (const f of files) {
   out.push(
     `insert into public.sources (title, url, kind, publisher, published_on) values (${lit(s.title)}, ${lit(s.url)}, ${lit(s.kind ?? "web_oficial")}::public.source_kind, ${lit(s.publisher)}, ${lit(s.published_on)}) on conflict (url) do nothing;`,
     `insert into public.topics (slug, title) values (${lit(m.topic_slug)}, ${lit(m.topic)}) on conflict (slug) do nothing;`,
-    `insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = ${lit(m.exam)} and t.slug = ${lit(m.topic_slug)} on conflict do nothing;`,
+    `insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug in (${[m.exam, ...(m.also_exams ?? [])].filter(Boolean).map(lit).join(", ")}) and t.slug = ${lit(m.topic_slug)} on conflict do nothing;`,
     `insert into public.topic_notes as n (topic_id, locale, outline, key_ideas, glossary, amendments, source_id, source_url, page_from, page_to, key_ideas_page, review_note)
 select t.id, '${m.locale ?? "ca"}', ${json(d.outline ?? [])}, ${json(d.key_ideas)}, ${json(d.glossary ?? [])}, ${json(d.amendments ?? [])}, (select id from public.sources where url = ${lit(s.url)}), ${lit(s.url)}, ${d.page_from ?? "null"}, ${d.page_to ?? "null"}, ${d.key_ideas_page ?? "null"}, ${lit(d.review_note ?? null)}
   from public.topics t where t.slug = ${lit(m.topic_slug)}

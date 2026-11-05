@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "set": "jus-10-oficina-judicial-lec-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 10. La modernización de la oficina judicial y las nuevas tecnologías",
+    "topic_slug": "jus-10-oficina-judicial",
+    "locale": "es",
+    "category": "jus_10_oficina_judicial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 273.3 LEC",
+      "stem": "Según el artículo 273 de la Ley de Enjuiciamiento Civil, ¿cuál de los siguientes sujetos está obligado, en todo caso, a intervenir a través de medios electrónicos con la Administración de Justicia?",
+      "options": [
+        "Las personas jurídicas.",
+        "Las personas físicas que no estén representadas por procurador.",
+        "Los testigos citados a juicio.",
+        "Los menores de edad emancipados."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 273.3 LEC obliga, entre otros, a las personas jurídicas, entidades sin personalidad, profesionales de colegiación obligatoria, notarios y registradores. Las personas físicas sin procurador pueden elegir el medio (art. 273.2).",
+      "excerpt": "3. En todo caso, estarán obligados a intervenir a través de medios electrónicos con la Administración de Justicia, al menos, los siguientes sujetos: a) Las personas jurídicas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 135.1 LEC",
+      "stem": "Conforme a la Ley de Enjuiciamiento Civil, si un escrito se presenta por medios telemáticos en día u hora inhábil a efectos procesales:",
+      "options": [
+        "Se tendrá por no presentado y deberá presentarse de nuevo en día hábil.",
+        "Se entenderá presentado el día anterior hábil.",
+        "Se entenderá efectuada la presentación el primer día y hora hábil siguiente.",
+        "Solo será válido si se ratifica en papel ante la oficina judicial."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 135.1 LEC permite presentar escritos electrónicos todos los días del año durante las veinticuatro horas; el recibo indica número de registro, fecha y hora, y si es inhábil se entiende presentado el primer día y hora hábil siguiente.",
+      "excerpt": "Se podrán presentar escritos y documentos en formato electrónico todos los días del año durante las veinticuatro horas. […] En caso de que la presentación tenga lugar en día u hora inhábil a efectos procesales conforme a la ley, se entenderá efectuada el primer día y hora hábil siguiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 273.4 LEC",
+      "stem": "De acuerdo con el artículo 273 de la Ley de Enjuiciamiento Civil, el escrito principal presentado por vía telemática o electrónica deberá incorporar:",
+      "options": [
+        "Firma manuscrita digitalizada del profesional.",
+        "Un código seguro de verificación generado por el propio presentante.",
+        "Sello de la oficina judicial receptora.",
+        "Firma electrónica basada en un certificado cualificado."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 273.4 LEC exige que el escrito principal incorpore firma electrónica basada en certificado cualificado y que los escritos indiquen tipo, número y año del expediente con un índice electrónico.",
+      "excerpt": "El escrito principal deberá incorporar firma electrónica basada en un certificado cualificado y se adaptará a lo establecido en la normativa reguladora del uso de las tecnologías en la Administración de Justicia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 129 bis.1 LEC",
+      "stem": "De acuerdo con el artículo 129 bis de la Ley de Enjuiciamiento Civil, constituido el Juzgado o Tribunal en su sede, los actos procesales se realizarán preferentemente mediante presencia telemática, siempre que la oficina judicial disponga de los medios técnicos necesarios, y la intervención telemática se practicará siempre a través de:",
+      "options": [
+        "Punto de acceso seguro.",
+        "El domicilio del interviniente, previa identificación con DNI.",
+        "Cualquier aplicación de videollamada elegida por la parte.",
+        "La Oficina de Justicia en el municipio del Ayuntamiento del interviniente, en todo caso."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 129 bis.1 LEC establece la preferencia por la presencia telemática y exige que se practique a través de punto de acceso seguro; las declaraciones de partes, testigos o peritos exigen, como regla, presencia física (art. 129 bis.2).",
+      "excerpt": "se realizarán preferentemente mediante presencia telemática, siempre que las oficinas judiciales tengan a su disposición los medios técnicos necesarios para ello. La intervención mediante presencia telemática se practicará siempre a través de punto de acceso seguro",
+      "excerpt_status": "completo"
+    }
+  ]
+}

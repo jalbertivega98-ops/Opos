@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "set": "jus-15-libertad-sindical-trebep-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 15. Libertad sindical, elecciones sindicales, huelga y prevención de riesgos laborales",
+    "topic_slug": "jus-15-libertad-sindical",
+    "locale": "es",
+    "category": "jus_15_libertad_sindical",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 39.2 TREBEP",
+      "stem": "De acuerdo con el artículo 39 del texto refundido del Estatuto Básico del Empleado Público, en una unidad electoral con 40 funcionarios, su representación corresponderá a:",
+      "options": [
+        "Tres Delegados de Personal, que ejercerán su representación conjunta y mancomunadamente.",
+        "Un Delegado de Personal.",
+        "Una Junta de Personal de cinco miembros.",
+        "Dos Delegados de Personal, que actuarán de forma solidaria."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 39.2 TREBEP atribuye la representación a Delegados de Personal en unidades de 6 a 49 funcionarios: uno hasta 30 y tres de 31 a 49, con representación conjunta y mancomunada. Las Juntas de Personal exigen un censo mínimo de 50.",
+      "excerpt": "En las unidades electorales donde el número de funcionarios sea igual o superior a 6 e inferior a 50, su representación corresponderá a los Delegados de Personal. Hasta 30 funcionarios se elegirá un Delegado, y de 31 a 49 se elegirán tres, que ejercerán su representación conjunta y mancomunadamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 39.5 TREBEP",
+      "stem": "Según la escala del artículo 39 del texto refundido del Estatuto Básico del Empleado Público, ¿cuántos miembros tendrá la Junta de Personal de una unidad electoral de 180 funcionarios?",
+      "options": [
+        "Siete.",
+        "Cinco.",
+        "Nueve.",
+        "Trece."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 39.5 TREBEP asigna 9 representantes a las unidades de 101 a 250 funcionarios (5 de 50 a 100; 13 de 251 a 500). La antigua escala del art. 8 de la Ley 9/1987 (que daba 7) no está vigente: esa ley quedó derogada salvo su art. 7 y los artículos que mantiene la disposición transitoria quinta del TREBEP, entre los que no figura el art. 8.",
+      "excerpt": "Cada Junta de Personal se compone de un número de representantes, en función del número de funcionarios de la Unidad electoral correspondiente, de acuerdo con la siguiente escala, en coherencia con lo establecido en el Estatuto de los Trabajadores: De 50 a 100 funcionarios: 5. De 101 a 250 funcionarios: 9.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 42 TREBEP",
+      "stem": "Según el texto refundido del Estatuto Básico del Empleado Público, el mandato de los miembros de las Juntas de Personal y de los Delegados de Personal será de:",
+      "options": [
+        "Cuatro años, sin posibilidad de reelección.",
+        "Cuatro años, pudiendo ser reelegidos.",
+        "Tres años, pudiendo ser reelegidos.",
+        "Cinco años, pudiendo ser reelegidos una sola vez."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 42 TREBEP fija un mandato de cuatro años con posible reelección, que se entiende prorrogado si no se promueven nuevas elecciones.",
+      "excerpt": "El mandato de los miembros de las Juntas de Personal y de los Delegados de Personal, en su caso, será de cuatro años, pudiendo ser reelegidos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.d TREBEP",
+      "stem": "Conforme al artículo 44 del texto refundido del Estatuto Básico del Empleado Público, las Juntas de Personal se eligen mediante:",
+      "options": [
+        "Listas cerradas a través de un sistema proporcional corregido.",
+        "Listas abiertas y sistema mayoritario.",
+        "Listas cerradas y sistema mayoritario.",
+        "Listas abiertas a través de un sistema proporcional puro."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 44.d) TREBEP prevé listas cerradas y sistema proporcional corregido para las Juntas de Personal, y listas abiertas y sistema mayoritario para los Delegados de Personal.",
+      "excerpt": "d) Las Juntas de Personal se elegirán mediante listas cerradas a través de un sistema proporcional corregido, y los Delegados de Personal mediante listas abiertas y sistema mayoritario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30.2 TREBEP",
+      "stem": "De acuerdo con el artículo 30 del texto refundido del Estatuto Básico del Empleado Público, los empleados públicos que ejerciten el derecho de huelga:",
+      "options": [
+        "Perciben el cincuenta por ciento de sus retribuciones durante el tiempo de huelga.",
+        "Sufren una deducción de haberes con carácter de sanción disciplinaria leve.",
+        "Perciben íntegras sus retribuciones, pero el tiempo de huelga no computa a efectos de trienios.",
+        "No devengan ni perciben las retribuciones del tiempo de huelga, sin que la deducción tenga carácter de sanción."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 30.2 TREBEP excluye el devengo de retribuciones durante la huelga y aclara que la deducción no es sanción ni afecta a las prestaciones sociales.",
+      "excerpt": "Quienes ejerciten el derecho de huelga no devengarán ni percibirán las retribuciones correspondientes al tiempo en que hayan permanecido en esa situación sin que la deducción de haberes que se efectúe tenga carácter de sanción, ni afecte al régimen respectivo de sus prestaciones sociales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

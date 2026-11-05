@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "set": "age-adm-55-pagos-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.5 Gastos y pagos: anticipos de caja fija y pagos a justificar",
+    "topic_slug": "age-adm-55-pagos",
+    "locale": "es",
+    "category": "age_adm_55_pagos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 40.1.c) LGP",
+      "stem": "Según el artículo 40 de la Ley General Presupuestaria, en la clasificación económica de los estados de gastos, dentro de los créditos para operaciones corrientes se distinguirán:",
+      "options": [
+        "Los gastos de personal, los gastos corrientes en bienes y servicios, las inversiones reales y las transferencias corrientes.",
+        "Los gastos de personal, los gastos corrientes en bienes y servicios, los gastos financieros y las transferencias corrientes.",
+        "Los gastos corrientes en bienes y servicios, los gastos financieros, las transferencias corrientes y las transferencias de capital.",
+        "Los gastos de personal, los gastos financieros, los activos financieros y las transferencias corrientes."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 40.1.c) LGP separa operaciones corrientes (personal, bienes y servicios, gastos financieros y transferencias corrientes), de capital (inversiones reales y transferencias de capital) y financieras (activos y pasivos financieros), además del Fondo de Contingencia.",
+      "excerpt": "En los créditos para operaciones corrientes se distinguirán los gastos de personal, los gastos corrientes en bienes y servicios, los gastos financieros y las transferencias corrientes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.2 LGP",
+      "stem": "En un contrato de obra de carácter plurianual que no se realiza bajo la modalidad de abono total del precio, el artículo 47.2 de la Ley General Presupuestaria exige, en el momento de la adjudicación:",
+      "options": [
+        "Una retención adicional de crédito del 10 por ciento del importe de adjudicación.",
+        "Una retención adicional de crédito del 5 por ciento del importe de adjudicación.",
+        "Una garantía complementaria del 10 por ciento a cargo del contratista.",
+        "Una retención adicional del 20 por ciento, que no computa en los porcentajes de los compromisos plurianuales."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 47.2 LGP impone en los contratos de obra plurianuales una retención adicional del 10 % del importe de adjudicación, aplicada al ejercicio en que finalice el plazo de la obra o al siguiente, y que computa dentro de los porcentajes del artículo.",
+      "excerpt": "En los contratos de obra de carácter plurianual, con excepción de los realizados bajo la modalidad de abono total del precio, se efectuará una retención adicional de crédito del 10 por ciento del importe de adjudicación, en el momento en que ésta se realice.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.1 LGP",
+      "stem": "Según el artículo 48 de la Ley General Presupuestaria, cuando se difiera el pago del precio de compra de un bien inmueble adquirido directamente cuyo importe exceda de seis millones de euros, el desembolso inicial a la firma de la escritura:",
+      "options": [
+        "No podrá ser inferior al 50 por ciento del precio.",
+        "No podrá ser superior al 25 por ciento del precio.",
+        "No podrá ser inferior al 25 por ciento del precio.",
+        "No podrá ser inferior al 10 por ciento del precio."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 48.1 LGP permite diferir el pago en adquisiciones directas de inmuebles de más de seis millones con un desembolso inicial mínimo del 25 %, distribuyendo el resto en los cuatro ejercicios siguientes dentro de los límites del art. 47.",
+      "excerpt": "Podrá ser diferido el vencimiento de la obligación de pago del precio de compra de bienes inmuebles adquiridos directamente cuyo importe exceda de seis millones de euros, sin que, en ningún caso, el desembolso inicial a la firma de la escritura pueda ser inferior al 25 por ciento del precio, pudiendo distribuirse el resto en los cuatro ejercicios siguientes dentro de las limitaciones porcentuales contenidas en el artículo 47 de esta ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.3 LGP",
+      "stem": "Según el artículo 78.3 de la Ley General Presupuestaria, la cuantía global de los anticipos de caja fija no podrá superar, para cada ministerio u organismo autónomo, con carácter general:",
+      "options": [
+        "El diez por ciento del total de créditos del capítulo destinado a gastos corrientes en bienes y servicios.",
+        "El siete por ciento del total de créditos del presupuesto de gastos del ministerio.",
+        "El siete por ciento del total de créditos del capítulo destinado a gastos corrientes en bienes y servicios del presupuesto vigente en cada momento.",
+        "El tres por ciento del total de créditos del capítulo destinado a gastos corrientes en bienes y servicios."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 78.3 LGP (y el art. 2.2 del RD 725/1989) fija el límite general del 7 % de los créditos del capítulo de gastos corrientes en bienes y servicios. El 3 % es el límite de los fondos de maniobra de la Seguridad Social (art. 78.4).",
+      "excerpt": "En todo caso, la cuantía global de los anticipos de caja fija no podrá superar para cada ministerio u organismo autónomo el siete por ciento del total de créditos del capítulo destinado a gastos corrientes en bienes y servicios del presupuesto vigente en cada momento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 78.3 LGP",
+      "stem": "De acuerdo con el artículo 78.3 de la Ley General Presupuestaria, la Agencia Española de Cooperación Internacional está autorizada para que la cuantía global de sus anticipos de caja fija alcance, como máximo:",
+      "options": [
+        "El 10 por ciento del total de los créditos del capítulo destinado a gastos corrientes en bienes y servicios.",
+        "El 14 por ciento del total de los créditos del capítulo destinado a gastos corrientes en bienes y servicios.",
+        "El 7 por ciento, sin excepción posible.",
+        "El 20 por ciento del total de los créditos del capítulo destinado a gastos corrientes en bienes y servicios."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 78.3 LGP autoriza a la Agencia Española de Cooperación Internacional a superar el 7 % general hasta un máximo del 14 %. El 10 % se refiere a los créditos del art. 23 del programa 222A «Seguridad ciudadana».",
+      "excerpt": "Se autoriza a la Agencia Española de Cooperación Internacional para que la cuantía global de los anticipos de caja fija pueda exceder del siete por ciento previsto en este artículo, hasta un máximo del 14 por ciento del total de los créditos del capítulo destinado a gastos corrientes en bienes y servicios del presupuesto vigente en cada momento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 79.1 LGP",
+      "stem": "Según el artículo 79 de la Ley General Presupuestaria, podrán tramitarse propuestas de pagos presupuestarios y librarse fondos con el carácter de «a justificar»:",
+      "options": [
+        "Siempre que se trate de gastos periódicos o repetitivos de bienes corrientes y servicios.",
+        "Cuando, excepcionalmente, no pueda aportarse la documentación justificativa de las obligaciones en el momento previsto para el reconocimiento de la obligación.",
+        "Cuando el gasto no supere el 7 por ciento de los créditos del capítulo de gastos corrientes en bienes y servicios.",
+        "Únicamente para gastos que se realicen en el extranjero."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 79.1 LGP configura los pagos a justificar como excepción, cuando no puede aportarse la documentación justificativa en el momento del art. 73.4; también caben para servicios en el extranjero. Los gastos periódicos o repetitivos son propios de los anticipos de caja fija.",
+      "excerpt": "Cuando, excepcionalmente, no pueda aportarse la documentación justificativa de las obligaciones en el momento previsto en el apartado 4 del artículo 73, podrán tramitarse propuestas de pagos presupuestarios y librarse fondos con el carácter de a justificar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 79.4 LGP",
+      "stem": "Un funcionario recibe una orden de pago a justificar para atender gastos de un pago de expropiación. Según el artículo 79.4 de la Ley General Presupuestaria, ¿en qué plazo podrá rendir la cuenta justificativa, sin necesidad de ampliación?",
+      "options": [
+        "Tres meses.",
+        "Dos meses.",
+        "Seis meses.",
+        "Doce meses."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 79.4 LGP fija un plazo general de tres meses, que es de seis meses para pagos de expropiaciones y pagos en el extranjero; excepcionalmente puede ampliarse a seis y doce meses, respectivamente.",
+      "excerpt": "El plazo de rendición de las cuentas será de tres meses, excepto las correspondientes a pagos de expropiaciones y pagos en el extranjero que podrán ser rendidas en el plazo de seis meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 79.6 LGP",
+      "stem": "De acuerdo con el artículo 79.6 de la Ley General Presupuestaria, la aprobación o reparo de la cuenta justificativa de un pago a justificar por la autoridad competente se llevará a cabo:",
+      "options": [
+        "En el curso de los dos meses siguientes a la fecha de aportación de los documentos justificativos.",
+        "En el curso del mes siguiente a la fecha de aportación de los documentos justificativos.",
+        "En el curso de los tres meses siguientes a la fecha de aportación de los documentos justificativos.",
+        "Antes del cierre del ejercicio presupuestario en que se libraron los fondos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 79.6 LGP fija dos meses desde la aportación de los justificantes para aprobar o reparar la cuenta.",
+      "excerpt": "En el curso de los dos meses siguientes a la fecha de aportación de los documentos justificativos a que se refieren los apartados anteriores de este artículo, se llevará a cabo la aprobación o reparo de la cuenta por la autoridad competente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 79.3 LGP",
+      "stem": "Según el artículo 79.3 de la Ley General Presupuestaria, la cantidad no invertida de los libramientos a justificar en el ejercicio en que se aprobaron será justificada:",
+      "options": [
+        "Mediante su aplicación a gastos del ejercicio siguiente, sin necesidad de acuerdo alguno.",
+        "Mediante su incorporación automática al anticipo de caja fija de la unidad.",
+        "Mediante certificación del Interventor delegado de que los fondos permanecen en la cuenta de la Caja.",
+        "Mediante carta de pago demostrativa de su reintegro al Tesoro Público por el cajero pagador correspondiente."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 79.3 LGP solo permite imputar a los libramientos a justificar obligaciones del ejercicio y exige justificar lo no invertido con carta de pago de su reintegro al Tesoro; solo para gastos en el extranjero puede el Consejo de Ministros acordar su aplicación a gastos del ejercicio siguiente.",
+      "excerpt": "En todo caso, la cantidad no invertida de los libramientos en el ejercicio en que se aprobaran los mismos, será justificada mediante carta de pago demostrativa de su reintegro al tesoro público por el cajero pagador correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 151 LGP",
+      "stem": "Según el artículo 151 de la Ley General Presupuestaria, ¿cuál de los siguientes gastos NO está sometido a fiscalización previa?",
+      "options": [
+        "Los gastos menores de 12.000 euros cuyo pago se realice mediante el procedimiento especial de anticipo de caja fija.",
+        "Cualquier gasto que se pague mediante libramiento a justificar en territorio nacional.",
+        "Los gastos menores de 5.000 euros cuyo pago se realice mediante el procedimiento especial de anticipo de caja fija.",
+        "Los gastos de primer período de los contratos de tracto sucesivo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 151 LGP excluye de fiscalización previa, entre otros, los gastos menores de 5.000 euros pagados por anticipo de caja fija y los gastos menores de 5.000 euros con fondos a justificar en territorio extranjero; los gastos de tracto sucesivo solo quedan excluidos una vez fiscalizado el período inicial.",
+      "excerpt": "c) los gastos menores de 5.000 euros cuyo pago se realice mediante el procedimiento especial de anticipo de caja fija, regulado en el artículo 78 de esta Ley;",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 177.1.e) LGP",
+      "stem": "De acuerdo con el artículo 177 de la Ley General Presupuestaria, no justificar la inversión de los fondos librados como anticipos de caja fija o como pagos a justificar:",
+      "options": [
+        "Constituye una infracción que puede dar lugar a la obligación de indemnizar a la Hacienda Pública estatal.",
+        "Solo da lugar a responsabilidad disciplinaria, nunca patrimonial.",
+        "Únicamente obliga a reponer los fondos en el ejercicio siguiente, sin otras consecuencias.",
+        "Constituye en todo caso un delito de malversación que se remite a la jurisdicción penal."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 177.1.e) LGP tipifica como infracción no justificar la inversión de los fondos de los arts. 78 y 79 LGP y de la Ley General de Subvenciones, lo que puede generar la obligación de indemnizar del art. 176.",
+      "excerpt": "e) No justificar la inversión de los fondos a los que se refieren los artículos 78 y 79 de esta ley y la Ley General de Subvenciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 77.1 LGP",
+      "stem": "Según el artículo 77 de la Ley General Presupuestaria, el pago realizado por error material, aritmético o de hecho en favor de persona en quien no concurra derecho alguno de cobro frente a la Administración se denomina:",
+      "options": [
+        "Pago a justificar.",
+        "Pago indebido.",
+        "Pago aplazado.",
+        "Pago a cuenta."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 77.1 LGP define el pago indebido; su perceptor está obligado a restituirlo y el órgano que cometió el error debe disponer de oficio su restitución.",
+      "excerpt": "A los efectos de esta Ley se entiende por pago indebido el que se realiza por error material, aritmético o de hecho, en favor de persona en quien no concurra derecho alguno de cobro frente a la Administración con respecto a dicho pago o en cuantía que excede de la consignada en el acto o documento que reconoció el derecho del acreedor.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

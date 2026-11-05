@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "set": "jus-03-gobierno-ce-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 3. El Gobierno y la Administración. La Administración periférica del Estado",
+    "topic_slug": "jus-03-gobierno",
+    "locale": "es",
+    "category": "jus_03_gobierno",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 97 CE",
+      "stem": "Según el artículo 97 de la Constitución Española, el Gobierno ejerce:",
+      "options": [
+        "La función ejecutiva y la potestad legislativa ordinaria.",
+        "La función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes.",
+        "La potestad reglamentaria y el control de la acción de las Cortes Generales.",
+        "La función ejecutiva y la potestad jurisdiccional en materia administrativa."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 97 CE dispone que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, y ejerce la función ejecutiva y la potestad reglamentaria.",
+      "excerpt": "El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado. Ejerce la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 99.3 CE",
+      "stem": "Conforme al artículo 99 de la Constitución, si en la primera votación de investidura el candidato no obtiene la mayoría absoluta del Congreso, la misma propuesta se someterá a nueva votación:",
+      "options": [
+        "Veinticuatro horas después de la anterior, y la confianza se entenderá otorgada si obtuviere la mayoría simple.",
+        "Cuarenta y ocho horas después de la anterior, exigiéndose de nuevo la mayoría absoluta.",
+        "Siete días después de la anterior, y la confianza se entenderá otorgada por mayoría de tres quintos.",
+        "Cuarenta y ocho horas después de la anterior, y la confianza se entenderá otorgada si obtuviere la mayoría simple."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 99.3 CE exige mayoría absoluta en la primera votación y, en su defecto, mayoría simple en una nueva votación cuarenta y ocho horas después.",
+      "excerpt": "Si el Congreso de los Diputados, por el voto de la mayoría absoluta de sus miembros, otorgare su confianza a dicho candidato, el Rey le nombrará Presidente. De no alcanzarse dicha mayoría, se someterá la misma propuesta a nueva votación cuarenta y ocho horas después de la anterior, y la confianza se entenderá otorgada si obtuviere la mayoría simple.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 99.5 CE",
+      "stem": "Según el artículo 99 de la Constitución, si ningún candidato obtiene la confianza del Congreso, el Rey disolverá ambas Cámaras y convocará nuevas elecciones una vez transcurrido el plazo de:",
+      "options": [
+        "Dos meses a partir de la constitución del Congreso.",
+        "Tres meses a partir de la primera votación de investidura.",
+        "Dos meses a partir de la primera votación de investidura.",
+        "Un mes a partir de la segunda votación de investidura."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 99.5 CE fija dos meses desde la primera votación de investidura; la disolución se refrenda por el Presidente del Congreso.",
+      "excerpt": "Si transcurrido el plazo de dos meses, a partir de la primera votación de investidura, ningún candidato hubiere obtenido la confianza del Congreso, el Rey disolverá ambas Cámaras y convocará nuevas elecciones con el refrendo del Presidente del Congreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 101.1 CE",
+      "stem": "De acuerdo con el artículo 101 de la Constitución, ¿en cuál de los siguientes supuestos cesa el Gobierno?",
+      "options": [
+        "Por dimisión o fallecimiento de su Presidente.",
+        "Por dimisión de cualquiera de sus Vicepresidentes.",
+        "Por la aprobación de una moción de reprobación de un Ministro en el Senado.",
+        "Por el rechazo del Proyecto de Ley de Presupuestos Generales del Estado."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 101.1 CE enumera las causas de cese: celebración de elecciones generales, pérdida de la confianza parlamentaria en los casos constitucionales y dimisión o fallecimiento del Presidente. El Gobierno cesante continúa en funciones hasta la toma de posesión del nuevo.",
+      "excerpt": "El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 102.2 CE",
+      "stem": "Según el artículo 102 de la Constitución, si la acusación contra el Presidente o los demás miembros del Gobierno fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, solo podrá ser planteada:",
+      "options": [
+        "Por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+        "Por iniciativa de la décima parte de los miembros del Congreso, y con la aprobación de la mayoría simple del mismo.",
+        "Por iniciativa del Ministerio Fiscal, previa autorización del Senado por mayoría absoluta.",
+        "Por iniciativa de la cuarta parte de los miembros de cada Cámara, y con la aprobación de tres quintos de ambas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 102.2 CE exige iniciativa de una cuarta parte del Congreso y aprobación por su mayoría absoluta; la responsabilidad criminal se exige ante la Sala de lo Penal del Tribunal Supremo (art. 102.1) y no cabe la prerrogativa de gracia (art. 102.3).",
+      "excerpt": "Si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107 CE",
+      "stem": "Según la Constitución Española, el supremo órgano consultivo del Gobierno es:",
+      "options": [
+        "La Comisión General de Secretarios de Estado y Subsecretarios.",
+        "El Consejo de Ministros.",
+        "El Tribunal de Cuentas.",
+        "El Consejo de Estado."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 107 CE define al Consejo de Estado como supremo órgano consultivo del Gobierno; su composición y competencia se regulan por ley orgánica.",
+      "excerpt": "El Consejo de Estado es el supremo órgano consultivo del Gobierno. Una ley orgánica regulará su composición y competencia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

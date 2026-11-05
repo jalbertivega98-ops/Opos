@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "age-adm-49-seguridad-social-lgss-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "IV.9 La Seguridad Social del personal laboral: acción protectora y prestaciones",
+    "topic_slug": "age-adm-49-seguridad-social",
+    "locale": "es",
+    "category": "age_adm_49_seguridad_social",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 8/2015, de 30 de octubre, texto refundido de la Ley General de la Seguridad Social (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 136.2.k) LGSS",
+      "stem": "Un ministerio contrata a una persona como personal laboral fijo. Según el artículo 136 del texto refundido de la Ley General de la Seguridad Social, ¿en qué régimen queda incluida obligatoriamente?",
+      "options": [
+        "En el Régimen especial de la Seguridad Social de los Funcionarios Civiles del Estado (MUFACE).",
+        "En el Régimen General de la Seguridad Social, como personal civil no funcionario de las administraciones públicas.",
+        "En el Régimen de Clases Pasivas del Estado.",
+        "En el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 136.2.k) LGSS declara expresamente comprendido en el Régimen General al personal civil no funcionario de las administraciones públicas, salvo que una ley especial lo incluya en otro régimen obligatorio.",
+      "excerpt": "k) El personal civil no funcionario de las administraciones públicas y de las entidades y organismos vinculados o dependientes de ellas siempre que no estén incluidos en virtud de una ley especial en otro régimen obligatorio de previsión social.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 155.1 LGSS",
+      "stem": "Según el artículo 155 de la LGSS, la acción protectora del Régimen General es la establecida en el artículo 42 con excepción de:",
+      "options": [
+        "La protección por cese de actividad y las prestaciones no contributivas.",
+        "La protección por desempleo y la asistencia sanitaria.",
+        "Las prestaciones por incapacidad permanente y por muerte y supervivencia.",
+        "Las prestaciones familiares y los servicios sociales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 155.1 LGSS excluye del Régimen General la protección por cese de actividad (propia de los autónomos) y las prestaciones no contributivas.",
+      "excerpt": "1. La acción protectora del Régimen General será la establecida en el artículo 42, con excepción de la protección por cese de actividad y las prestaciones no contributivas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 156.1 LGSS",
+      "stem": "Según el artículo 156 de la LGSS, se entiende por accidente de trabajo:",
+      "options": [
+        "Toda alteración de la salud que no tenga la condición de enfermedad profesional.",
+        "La enfermedad contraída a consecuencia del trabajo en las actividades especificadas en el cuadro reglamentario.",
+        "Toda lesión corporal sufrida durante la jornada, cualquiera que sea su causa.",
+        "Toda lesión corporal que el trabajador sufra con ocasión o por consecuencia del trabajo que ejecute por cuenta ajena."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 156.1 LGSS define el accidente de trabajo; la enfermedad profesional (cuadro reglamentario) se define en el art. 157 y la enfermedad común en el art. 158.",
+      "excerpt": "1. Se entiende por accidente de trabajo toda lesión corporal que el trabajador sufra con ocasión o por consecuencia del trabajo que ejecute por cuenta ajena.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 156.2.a) LGSS",
+      "stem": "Un trabajador laboral de una delegación del Gobierno sufre una caída cuando se dirigía desde su domicilio a su centro de trabajo. Según la LGSS, esa lesión tiene la consideración de:",
+      "options": [
+        "Accidente no laboral.",
+        "Enfermedad común.",
+        "Accidente de trabajo.",
+        "Enfermedad profesional."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 156.2.a) LGSS considera accidente de trabajo el sufrido al ir o al volver del lugar de trabajo (accidente in itinere).",
+      "excerpt": "a) Los que sufra el trabajador al ir o al volver del lugar de trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 156.4.b) LGSS",
+      "stem": "Según el artículo 156 de la LGSS, NO tendrán la consideración de accidente de trabajo los que sean debidos a:",
+      "options": [
+        "Imprudencia profesional derivada de la confianza que inspira el ejercicio habitual del trabajo.",
+        "Culpabilidad civil o criminal de un compañero de trabajo relacionada con el trabajo.",
+        "Dolo o imprudencia temeraria del trabajador accidentado.",
+        "Actos de salvamento que tengan conexión con el trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 156.4 excluye la fuerza mayor extraña al trabajo y el dolo o la imprudencia temeraria del accidentado; en cambio, la imprudencia profesional y la culpa de un compañero no impiden la calificación (art. 156.5) y los actos de salvamento conectados con el trabajo son accidente de trabajo (art. 156.2.d).",
+      "excerpt": "4. No obstante lo establecido en los apartados anteriores, no tendrán la consideración de accidente de trabajo: […] b) Los que sean debidos a dolo o a imprudencia temeraria del trabajador accidentado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Disp. trans. 26.ª LGSS (art. 194.4)",
+      "stem": "Según la redacción del artículo 194 de la LGSS aplicable transitoriamente (disposición transitoria vigésima sexta) mientras no se desarrolle reglamentariamente, se entiende por incapacidad permanente total para la profesión habitual:",
+      "options": [
+        "La que inhabilite al trabajador para la realización de todas o de las fundamentales tareas de dicha profesión, siempre que pueda dedicarse a otra distinta.",
+        "La que, sin alcanzar el grado de total, ocasione al trabajador una disminución no inferior al 33 por ciento en su rendimiento normal para dicha profesión.",
+        "La que inhabilite por completo al trabajador para toda profesión u oficio.",
+        "La situación del trabajador que necesite la asistencia de otra persona para los actos más esenciales de la vida."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La DT 26.ª LGSS mantiene, hasta el desarrollo reglamentario del art. 194, los grados clásicos: parcial (disminución no inferior al 33 %), total (todas o las fundamentales tareas de su profesión, pudiendo dedicarse a otra), absoluta (toda profesión u oficio) y gran incapacidad (necesidad de asistencia de otra persona).",
+      "excerpt": "4. Se entenderá por incapacidad permanente total para la profesión habitual la que inhabilite al trabajador para la realización de todas o de las fundamentales tareas de dicha profesión, siempre que pueda dedicarse a otra distinta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 157 LGSS",
+      "stem": "Según la LGSS, para que una enfermedad tenga la consideración de enfermedad profesional debe haberse contraído a consecuencia del trabajo por cuenta ajena:",
+      "options": [
+        "En cualquier actividad, siempre que se pruebe que tuvo por causa exclusiva la ejecución del trabajo.",
+        "En las actividades especificadas en el cuadro aprobado por las disposiciones de desarrollo y provocada por los elementos o sustancias que en él se indiquen.",
+        "En las actividades que determine cada convenio colectivo.",
+        "En cualquier actividad, siempre que se manifieste durante la jornada laboral."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 157 LGSS exige que la actividad y el agente causante figuren en el cuadro reglamentario. Las enfermedades no incluidas que tengan por causa exclusiva el trabajo se consideran accidente de trabajo (art. 156.2.e).",
+      "excerpt": "Se entenderá por enfermedad profesional la contraída a consecuencia del trabajo ejecutado por cuenta ajena en las actividades que se especifiquen en el cuadro que se apruebe por las disposiciones de aplicación y desarrollo de esta ley, y que esté provocada por la acción de los elementos o sustancias que en dicho cuadro se indiquen para cada enfermedad profesional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 165.4 LGSS",
+      "stem": "Según el artículo 165 de la LGSS, salvo disposición legal expresa en contrario, no se exigirán períodos previos de cotización para las prestaciones derivadas de:",
+      "options": [
+        "Enfermedad común o accidente no laboral.",
+        "Cualquier contingencia, siempre que el trabajador esté en alta.",
+        "Accidente de trabajo exclusivamente.",
+        "Accidente, sea o no de trabajo, o enfermedad profesional."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 165.4 LGSS exime de carencia las prestaciones derivadas de accidente (laboral o no) y de enfermedad profesional; la enfermedad común sí exige períodos previos (p. ej., 180 días para la IT, art. 172.a).",
+      "excerpt": "4. No se exigirán períodos previos de cotización para el derecho a las prestaciones derivadas de accidente, sea o no de trabajo, o de enfermedad profesional, salvo disposición legal expresa en contrario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 166.4 LGSS",
+      "stem": "Según el artículo 166 de la LGSS, los trabajadores del Régimen General se consideran de pleno derecho en situación de alta, aunque su empresario hubiera incumplido sus obligaciones, a efectos de:",
+      "options": [
+        "Accidentes de trabajo, enfermedades profesionales y desempleo.",
+        "Todas las contingencias, sin excepción.",
+        "Jubilación, incapacidad permanente y muerte y supervivencia.",
+        "Incapacidad temporal por enfermedad común exclusivamente."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 166.4 LGSS fija el alta de pleno derecho para accidentes de trabajo, enfermedades profesionales y desempleo, y la extiende a la asistencia sanitaria por enfermedad común, maternidad y accidente no laboral.",
+      "excerpt": "4. Los trabajadores comprendidos en el campo de aplicación de este Régimen General se considerarán, de pleno derecho, en situación de alta a efectos de accidentes de trabajo, enfermedades profesionales y desempleo, aunque su empresario hubiera incumplido sus obligaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 169.1.a) LGSS",
+      "stem": "Según el artículo 169 de la LGSS, la situación de incapacidad temporal debida a enfermedad o accidente tiene una duración máxima de:",
+      "options": [
+        "Ciento ochenta días, prorrogables por otros ciento ochenta días.",
+        "Trescientos sesenta y cinco días, sin posibilidad de prórroga.",
+        "Trescientos sesenta y cinco días, prorrogables por otros ciento ochenta días cuando se presuma que durante ellos el trabajador puede ser dado de alta por curación.",
+        "Dieciocho meses, prorrogables por otros seis meses."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 169.1.a) LGSS fija 365 días de duración máxima, prorrogables 180 días más si se presume la curación en ese plazo.",
+      "excerpt": "con una duración máxima de trescientos sesenta y cinco días, prorrogables por otros 180 días cuando se presuma que durante ellos puede el trabajador ser dado de alta médica por curación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 172.a) LGSS",
+      "stem": "Según el artículo 172 de la LGSS, para causar derecho al subsidio por incapacidad temporal derivada de enfermedad común se exige un período mínimo de cotización de:",
+      "options": [
+        "360 días dentro de los seis años inmediatamente anteriores al hecho causante.",
+        "180 días dentro de los cinco años inmediatamente anteriores al hecho causante.",
+        "180 días dentro de los siete años inmediatamente anteriores al hecho causante.",
+        "Ningún período previo de cotización."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 172.a) LGSS exige 180 días cotizados en los cinco años anteriores; para accidente (laboral o no) y enfermedad profesional no se exige carencia (art. 172.b).",
+      "excerpt": "a) En caso de enfermedad común, 180 días dentro de los cinco años inmediatamente anteriores al hecho causante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 173.1 LGSS",
+      "stem": "Una trabajadora laboral de un organismo público causa baja por una gripe (enfermedad común). Según el artículo 173 de la LGSS, ¿desde cuándo se abona el subsidio por incapacidad temporal y quién lo paga inicialmente?",
+      "options": [
+        "Desde el día siguiente al de la baja, a cargo de la entidad gestora desde el primer momento.",
+        "Desde el cuarto día de baja, a cargo de la entidad gestora desde ese mismo día.",
+        "Desde el decimosexto día de baja, a cargo del empresario hasta el día treinta.",
+        "Desde el cuarto día de baja, estando a cargo del empresario desde el día cuarto al decimoquinto, ambos inclusive."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En enfermedad común o accidente no laboral el subsidio se abona desde el cuarto día de baja y del 4.º al 15.º lo paga el empresario. En accidente de trabajo o enfermedad profesional se abona desde el día siguiente a la baja (art. 173.1).",
+      "excerpt": "En caso de enfermedad común o de accidente no laboral, el subsidio se abonará a partir del cuarto día de baja en el trabajo, si bien desde el día cuarto al decimoquinto de baja, ambos inclusive, el subsidio estará a cargo del empresario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 170.2 LGSS",
+      "stem": "Un trabajador lleva 365 días en incapacidad temporal y su médico de atención primaria considera que ya puede reincorporarse. Según el artículo 170 de la LGSS, agotado ese plazo, ¿quién es el único competente para emitir el alta médica?",
+      "options": [
+        "El médico de atención primaria del servicio público de salud.",
+        "La inspección médica del Instituto Nacional de la Seguridad Social.",
+        "La mutua colaboradora con la Seguridad Social con la que la empresa tenga concertada la cobertura.",
+        "La Inspección de Trabajo y Seguridad Social."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Agotados los 365 días, el art. 170.2 LGSS atribuye en exclusiva a la inspección médica del INSS la emisión del alta (por curación, por mejoría, con propuesta de incapacidad permanente o por incomparecencia).",
+      "excerpt": "2. Agotado el plazo de duración de trescientos sesenta y cinco días indicado en el apartado anterior, la inspección médica del Instituto Nacional de la Seguridad Social será la única competente para emitir el alta médica por curación, por mejoría que permita la reincorporación al trabajo, con propuesta de incapacidad permanente o por incomparecencia injustificada a los reconocimientos médicos convocados por dicha entidad gestora.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 174.2 LGSS",
+      "stem": "Según el artículo 174 de la LGSS, cuando el subsidio de incapacidad temporal se extingue por el transcurso de los quinientos cuarenta y cinco días, la calificación de la incapacidad permanente puede demorarse si así lo aconseja la situación clínica, sin que en ningún caso puedan rebasarse:",
+      "options": [
+        "Quinientos cuarenta y cinco días naturales sumados los de incapacidad temporal y los de prolongación de sus efectos.",
+        "Noventa días naturales desde la extinción del subsidio.",
+        "Setecientos treinta días naturales sumados los de incapacidad temporal y los de prolongación de sus efectos.",
+        "Trescientos sesenta y cinco días naturales desde la extinción del subsidio."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 174.2 LGSS exige examinar al interesado en un máximo de 90 días para calificar la incapacidad permanente; si se demora la calificación, el total de IT más prolongación de efectos no puede superar 730 días.",
+      "excerpt": "esta podrá retrasarse por el período preciso, sin que en ningún caso se puedan rebasar los setecientos treinta días naturales sumados los de incapacidad temporal y los de prolongación de sus efectos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 179.1 LGSS",
+      "stem": "Según el artículo 179 de la LGSS, la prestación económica por nacimiento y cuidado de menor consiste en un subsidio equivalente al:",
+      "options": [
+        "75 por ciento de la base reguladora correspondiente.",
+        "60 por ciento de la base reguladora durante los primeros días y 75 por ciento después.",
+        "80 por ciento de la base reguladora correspondiente.",
+        "100 por ciento de la base reguladora correspondiente."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 179.1 LGSS fija el subsidio en el 100 % de la base reguladora, que con carácter general es la base de cotización por contingencias comunes del mes anterior al hecho causante dividida por los días a que se refiere.",
+      "excerpt": "1. La prestación económica por nacimiento y cuidado de menor consistirá en un subsidio equivalente al 100 por ciento de la base reguladora correspondiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 186 LGSS",
+      "stem": "Según el artículo 186 de la LGSS, la prestación correspondiente a la situación de riesgo durante el embarazo tiene la naturaleza de prestación derivada de:",
+      "options": [
+        "Contingencias profesionales.",
+        "Contingencias comunes.",
+        "Enfermedad común.",
+        "Nacimiento y cuidado de menor."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 186 LGSS califica la prestación por riesgo durante el embarazo como derivada de contingencias profesionales; por eso el subsidio es del 100 % de la base reguladora de la IT por contingencias profesionales (art. 187.3).",
+      "excerpt": "La prestación correspondiente a la situación de riesgo durante el embarazo tendrá la naturaleza de prestación derivada de contingencias profesionales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 189 LGSS",
+      "stem": "Según la LGSS, la prestación económica por riesgo durante la lactancia natural se extingue, salvo reincorporación anterior de la trabajadora, en el momento en que el hijo cumpla:",
+      "options": [
+        "Seis meses.",
+        "Nueve meses.",
+        "Doce meses.",
+        "Dieciséis semanas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 189 LGSS extingue la prestación cuando el hijo cumple nueve meses o el día anterior a la reincorporación de la trabajadora a su puesto o a otro compatible.",
+      "excerpt": "se extinguirá en el momento en que el hijo cumpla nueve meses, salvo que la beneficiaria se haya reincorporado con anterioridad a su puesto de trabajo anterior o a otro compatible con su situación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 205.1.b) LGSS",
+      "stem": "Según el artículo 205 de la LGSS, para tener derecho a la pensión de jubilación contributiva se exige un período mínimo de cotización de:",
+      "options": [
+        "Quince años, de los cuales al menos cinco deben estar comprendidos dentro de los diez años inmediatamente anteriores.",
+        "Veinticinco años, sin exigencia de cotizaciones recientes.",
+        "Diez años, de los cuales al menos dos deben estar comprendidos dentro de los quince años inmediatamente anteriores.",
+        "Quince años, de los cuales al menos dos deben estar comprendidos dentro de los quince años inmediatamente anteriores al momento de causar el derecho."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 205.1.b) LGSS exige 15 años cotizados, con al menos 2 dentro de los últimos 15, sin computar la parte proporcional de pagas extraordinarias.",
+      "excerpt": "b) Tener cubierto un período mínimo de cotización de quince años, de los cuales al menos dos deberán estar comprendidos dentro de los quince años inmediatamente anteriores al momento de causar el derecho.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 219.1 LGSS",
+      "stem": "Fallece por enfermedad común un trabajador en alta en el Régimen General. Según el artículo 219 de la LGSS, para que su cónyuge superviviente tenga derecho a la pensión de viudedad, el causante debe haber completado un período de cotización de:",
+      "options": [
+        "Ciento ochenta días, dentro de los cinco años inmediatamente anteriores a la fecha del hecho causante.",
+        "Quince años en toda su vida laboral.",
+        "Quinientos días, dentro de los cinco años inmediatamente anteriores a la fecha del hecho causante.",
+        "Ningún período previo de cotización."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Si el causante estaba en alta o asimilada, el art. 219.1 LGSS exige 500 días cotizados en los cinco años anteriores; sin alta, se exigen 15 años; si la muerte se debe a accidente o enfermedad profesional no se exige cotización previa.",
+      "excerpt": "siempre que si el sujeto causante se encontrase en alta o en situación asimilada a la de alta en la fecha de su fallecimiento hubiera completado un período de cotización de quinientos días, dentro de los cinco años inmediatamente anteriores a la fecha del hecho causante de la pensión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 269.1 LGSS",
+      "stem": "Según la escala del artículo 269 de la LGSS, a una persona que acredita entre 360 y 539 días cotizados en los seis años anteriores a la situación legal de desempleo le corresponde una prestación contributiva por desempleo de:",
+      "options": [
+        "120 días.",
+        "180 días.",
+        "90 días.",
+        "360 días."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 269.1 LGSS relaciona la duración de la prestación con los días cotizados en los seis años anteriores: de 360 a 539 días cotizados corresponden 120 días de prestación; de 540 a 719, 180 días.",
+      "excerpt": "1. La duración de la prestación por desempleo estará en función de los períodos de ocupación cotizada en los seis años anteriores a la situación legal de desempleo o al momento en que cesó la obligación de cotizar, con arreglo a la siguiente escala: […] Desde 360 hasta 539 | 120",
+      "excerpt_status": "completo"
+    }
+  ]
+}

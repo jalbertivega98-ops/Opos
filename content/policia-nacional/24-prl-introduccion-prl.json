@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "set": "pn-24-prl-introduccion-prl-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 24. Introducción a la Prevención de Riesgos Laborales",
+    "topic_slug": "pn-24-prl-introduccion",
+    "locale": "es",
+    "category": "pn_24_prl_introduccion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4.1.º PRL",
+      "stem": "Según la Ley 31/1995, de Prevención de Riesgos Laborales, se entiende por «prevención»:",
+      "options": [
+        "El conjunto de medidas que se adoptan únicamente después de producirse un accidente de trabajo para evitar que se repita.",
+        "La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+        "El conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 4.1.º de la Ley 31/1995 define la prevención como el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa para evitar o disminuir los riesgos; la posibilidad de sufrir un daño es la definición de «riesgo laboral».",
+      "excerpt": "1.º Se entenderá por «prevención» el conjunto de actividades o medidas adoptadas o previstas en todas las fases de actividad de la empresa con el fin de evitar o disminuir los riesgos derivados del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2.º PRL",
+      "stem": "De acuerdo con la Ley 31/1995, el «riesgo laboral» es:",
+      "options": [
+        "El daño efectivamente sufrido por un trabajador con motivo u ocasión del trabajo.",
+        "La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+        "Cualquier característica del trabajo que pueda influir en la generación de daños para la salud."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 4.2.º de la Ley 31/1995 define el riesgo laboral como la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo; el daño ya sufrido es un «daño derivado del trabajo» (art. 4.3.º) y la característica del trabajo es la «condición de trabajo» (art. 4.7.º).",
+      "excerpt": "2.º Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.2.º PRL",
+      "stem": "Según la Ley 31/1995, para calificar un riesgo desde el punto de vista de su gravedad se valorarán conjuntamente:",
+      "options": [
+        "La probabilidad de que se produzca el daño y la severidad del mismo.",
+        "La severidad del daño y el número de trabajadores expuestos.",
+        "La probabilidad de que se produzca el daño y la duración de la exposición."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 4.2.º de la Ley 31/1995 establece que la gravedad de un riesgo se califica valorando conjuntamente la probabilidad de que se produzca el daño y su severidad.",
+      "excerpt": "Para calificar un riesgo desde el punto de vista de su gravedad, se valorarán conjuntamente la probabilidad de que se produzca el daño y la severidad del mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.3.º PRL",
+      "stem": "Conforme a la Ley 31/1995, se consideran «daños derivados del trabajo»:",
+      "options": [
+        "Las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.",
+        "Únicamente las lesiones producidas por accidentes ocurridos dentro del centro de trabajo.",
+        "Solo las enfermedades profesionales reconocidas por la Seguridad Social."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 4.3.º de la Ley 31/1995 incluye como daños derivados del trabajo las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo, sin limitarlos a los accidentes en el centro ni a las enfermedades profesionales.",
+      "excerpt": "3.º Se considerarán como «daños derivados del trabajo» las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.4.º PRL",
+      "stem": "Según la Ley 31/1995, se entiende como «riesgo laboral grave e inminente» aquel que:",
+      "options": [
+        "Ya se haya materializado y haya causado un daño grave a uno o varios trabajadores.",
+        "Pueda materializarse a medio plazo, aunque el daño que pueda causar sea leve.",
+        "Resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud de los trabajadores."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4.4.º de la Ley 31/1995 exige dos notas: probabilidad racional de que se materialice en un futuro inmediato y posibilidad de daño grave para la salud.",
+      "excerpt": "4.º Se entenderá como «riesgo laboral grave e inminente» aquel que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud de los trabajadores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.4.º PRL",
+      "stem": "En el caso de exposición a agentes susceptibles de causar daños graves a la salud, la Ley 31/1995 considera que existe riesgo grave e inminente cuando sea probable racionalmente que se materialice en un futuro inmediato una exposición a dichos agentes de la que puedan derivarse daños graves:",
+      "options": [
+        "Siempre que los daños se manifiesten de forma inmediata.",
+        "Aun cuando estos no se manifiesten de forma inmediata.",
+        "Solo si la exposición ha producido ya daños constatados por el servicio de prevención."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El párrafo segundo del art. 4.4.º de la Ley 31/1995 aclara que, para la exposición a agentes, hay riesgo grave e inminente aunque los daños graves no se manifiesten de forma inmediata.",
+      "excerpt": "En el caso de exposición a agentes susceptibles de causar daños graves a la salud de los trabajadores, se considerará que existe un riesgo grave e inminente cuando sea probable racionalmente que se materialice en un futuro inmediato una exposición a dichos agentes de la que puedan derivarse daños graves para la salud, aun cuando éstos no se manifiesten de forma inmediata.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.6.º PRL",
+      "stem": "Según la Ley 31/1995, se entiende como «equipo de trabajo»:",
+      "options": [
+        "Cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo.",
+        "Cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos.",
+        "El conjunto de trabajadores designados por el empresario para ocuparse de la actividad preventiva."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 4.6.º de la Ley 31/1995 define el equipo de trabajo como cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo; el equipo llevado o sujetado por el trabajador para protegerse es el equipo de protección individual (art. 4.8.º).",
+      "excerpt": "6.º Se entenderá como «equipo de trabajo» cualquier máquina, aparato, instrumento o instalación utilizada en el trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.7.º PRL",
+      "stem": "De acuerdo con la Ley 31/1995, se entiende como «condición de trabajo»:",
+      "options": [
+        "Únicamente las características de los locales e instalaciones del centro de trabajo.",
+        "Cualquier característica del mismo que pueda tener una influencia significativa en la generación de riesgos para la seguridad y la salud del trabajador.",
+        "El conjunto de cláusulas del contrato de trabajo relativas a jornada y retribución."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 4.7.º de la Ley 31/1995 define la condición de trabajo como cualquier característica del trabajo con influencia significativa en la generación de riesgos e incluye, entre otras, los locales e instalaciones, los agentes físicos, químicos y biológicos, los procedimientos para su utilización y la organización y ordenación del trabajo.",
+      "excerpt": "7.º Se entenderá como «condición de trabajo» cualquier característica del mismo que pueda tener una influencia significativa en la generación de riesgos para la seguridad y la salud del trabajador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.8.º PRL",
+      "stem": "Según la Ley 31/1995, el «equipo de protección individual» es cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud en el trabajo:",
+      "options": [
+        "Excluidos los complementos y accesorios, que se consideran equipos de trabajo.",
+        "Siempre que haya sido adquirido por el propio trabajador.",
+        "Así como cualquier complemento o accesorio destinado a tal fin."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4.8.º de la Ley 31/1995 incluye expresamente en el concepto de equipo de protección individual cualquier complemento o accesorio destinado a proteger al trabajador.",
+      "excerpt": "8.º Se entenderá por «equipo de protección individual» cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud en el trabajo, así como cualquier complemento o accesorio destinado a tal fin.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4.5.º PRL",
+      "stem": "Según la Ley 31/1995, se entienden como procesos, actividades, operaciones, equipos o productos «potencialmente peligrosos» aquellos que:",
+      "options": [
+        "Aun aplicando medidas preventivas específicas, hayan causado algún daño en el último año.",
+        "Figuren en una relación aprobada anualmente por la Inspección de Trabajo y Seguridad Social.",
+        "En ausencia de medidas preventivas específicas, originen riesgos para la seguridad y la salud de los trabajadores que los desarrollan o utilizan."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 4.5.º de la Ley 31/1995 califica como potencialmente peligrosos los procesos, actividades, operaciones, equipos o productos que originan riesgos en ausencia de medidas preventivas específicas.",
+      "excerpt": "5.º Se entenderán como procesos, actividades, operaciones, equipos o productos «potencialmente peligrosos» aquellos que, en ausencia de medidas preventivas específicas, originen riesgos para la seguridad y la salud de los trabajadores que los desarrollan o utilizan.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.1 PRL",
+      "stem": "¿Cuál es el primero de los principios generales de la acción preventiva que enumera el artículo 15.1 de la Ley 31/1995?",
+      "options": [
+        "Evaluar los riesgos que no se puedan evitar.",
+        "Evitar los riesgos.",
+        "Dar las debidas instrucciones a los trabajadores."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 15.1 de la Ley 31/1995 enumera los principios en este orden: a) evitar los riesgos; b) evaluar los que no se puedan evitar; c) combatirlos en su origen… hasta i) dar las debidas instrucciones a los trabajadores.",
+      "excerpt": "a) Evitar los riesgos. b) Evaluar los riesgos que no se puedan evitar. c) Combatir los riesgos en su origen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.1.h) PRL",
+      "stem": "Entre los principios generales de la acción preventiva del artículo 15 de la Ley 31/1995 figura el de:",
+      "options": [
+        "Adoptar medidas que antepongan la protección colectiva a la individual.",
+        "Adoptar medidas que antepongan la protección individual a la colectiva.",
+        "Utilizar los equipos de protección individual con preferencia a cualquier otra medida."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 15.1.h) de la Ley 31/1995 obliga a anteponer la protección colectiva a la individual; los equipos de protección individual son subsidiarios (art. 17.2).",
+      "excerpt": "h) Adoptar medidas que antepongan la protección colectiva a la individual.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.1.d) PRL",
+      "stem": "Según el artículo 15 de la Ley 31/1995, el principio de adaptar el trabajo a la persona se aplicará con miras, en particular, a:",
+      "options": [
+        "Atenuar el trabajo monótono y repetitivo y a reducir los efectos del mismo en la salud.",
+        "Seleccionar a los trabajadores en función de su resistencia física a los riesgos.",
+        "Incrementar la productividad mediante la especialización de los puestos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15.1.d) de la Ley 31/1995 vincula la adaptación del trabajo a la persona (concepción de puestos, equipos y métodos) con la atenuación del trabajo monótono y repetitivo y la reducción de sus efectos en la salud.",
+      "excerpt": "d) Adaptar el trabajo a la persona, en particular en lo que respecta a la concepción de los puestos de trabajo, así como a la elección de los equipos y los métodos de trabajo y de producción, con miras, en particular, a atenuar el trabajo monótono y repetitivo y a reducir los efectos del mismo en la salud.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.4 PRL",
+      "stem": "Conforme al artículo 15.4 de la Ley 31/1995, la efectividad de las medidas preventivas deberá prever:",
+      "options": [
+        "Las imprudencias temerarias que pudiera cometer el trabajador.",
+        "Las distracciones o imprudencias no temerarias que pudiera cometer el trabajador.",
+        "Únicamente los errores cometidos por personas ajenas a la empresa."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 15.4 de la Ley 31/1995 exige que las medidas preventivas prevean las distracciones o imprudencias no temerarias del trabajador.",
+      "excerpt": "La efectividad de las medidas preventivas deberá prever las distracciones o imprudencias no temerarias que pudiera cometer el trabajador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2 PRL",
+      "stem": "Según la Ley 31/1995, los equipos de protección individual deberán utilizarse:",
+      "options": [
+        "En todo caso y como primera medida preventiva, antes de cualquier medida de protección colectiva.",
+        "Solo cuando el propio trabajador lo solicite por escrito al empresario.",
+        "Cuando los riesgos no se puedan evitar o no puedan limitarse suficientemente por medios técnicos de protección colectiva o mediante medidas, métodos o procedimientos de organización del trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 17.2 de la Ley 31/1995 configura los equipos de protección individual como medida subsidiaria, para cuando los riesgos no puedan evitarse o limitarse suficientemente por protección colectiva u organización del trabajo.",
+      "excerpt": "Los equipos de protección individual deberán utilizarse cuando los riesgos no se puedan evitar o no puedan limitarse suficientemente por medios técnicos de protección colectiva o mediante medidas, métodos o procedimientos de organización del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.5 PRL",
+      "stem": "De acuerdo con la Ley 31/1995, el coste de las medidas relativas a la seguridad y la salud en el trabajo:",
+      "options": [
+        "Se repartirá a partes iguales entre el empresario y los trabajadores.",
+        "Recaerá sobre el trabajador cuando se trate de equipos de uso personal.",
+        "No deberá recaer en modo alguno sobre los trabajadores."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 14.5 de la Ley 31/1995 prohíbe que el coste de las medidas de seguridad y salud recaiga en modo alguno sobre los trabajadores.",
+      "excerpt": "5. El coste de las medidas relativas a la seguridad y la salud en el trabajo no deberá recaer en modo alguno sobre los trabajadores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.3 PRL",
+      "stem": "Según la Ley 31/1995, cuando se haya producido un daño para la salud de los trabajadores, el empresario:",
+      "options": [
+        "Deberá comunicarlo al Ministerio Fiscal, al que corresponde en exclusiva investigar sus causas.",
+        "Llevará a cabo una investigación al respecto, a fin de detectar las causas de estos hechos.",
+        "Solo estará obligado a investigarlo si el daño ha sido calificado como muy grave."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 16.3 de la Ley 31/1995 obliga al empresario a investigar las causas cuando se produce un daño para la salud o cuando la vigilancia de la salud revela indicios de que las medidas de prevención son insuficientes.",
+      "excerpt": "3. Cuando se haya producido un daño para la salud de los trabajadores o cuando, con ocasión de la vigilancia de la salud prevista en el artículo 22, aparezcan indicios de que las medidas de prevención resultan insuficientes, el empresario llevará a cabo una investigación al respecto, a fin de detectar las causas de estos hechos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.1 PRL",
+      "stem": "Con carácter general, según la Ley 31/1995, la vigilancia periódica del estado de salud de los trabajadores:",
+      "options": [
+        "Es obligatoria para todos los trabajadores, sin excepción.",
+        "Requiere en todo caso autorización previa de la Inspección de Trabajo y Seguridad Social.",
+        "Sólo podrá llevarse a cabo cuando el trabajador preste su consentimiento."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 22.1 de la Ley 31/1995 configura la vigilancia de la salud como voluntaria, salvo las excepciones tasadas que la propia ley prevé previo informe de los representantes de los trabajadores.",
+      "excerpt": "Esta vigilancia sólo podrá llevarse a cabo cuando el trabajador preste su consentimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 25.1 PRL",
+      "stem": "Según el artículo 25 de la Ley 31/1995, los trabajadores especialmente sensibles a determinados riesgos por sus características personales, estado biológico o discapacidad debidamente reconocida:",
+      "options": [
+        "Podrán ocupar cualquier puesto siempre que firmen una renuncia expresa a la protección específica.",
+        "No serán empleados en puestos en los que, a causa de dichas circunstancias, puedan ellos, los demás trabajadores u otras personas relacionadas con la empresa ponerse en situación de peligro.",
+        "Pasarán automáticamente a la situación de incapacidad temporal mientras persista el riesgo."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 25.1 de la Ley 31/1995 obliga a proteger específicamente a los trabajadores especialmente sensibles y prohíbe emplearlos en puestos en los que, por esas circunstancias, puedan generar una situación de peligro para sí mismos o para otros.",
+      "excerpt": "Los trabajadores no serán empleados en aquellos puestos de trabajo en los que, a causa de sus características personales, estado biológico o por su discapacidad física, psíquica o sensorial debidamente reconocida, puedan ellos, los demás trabajadores u otras personas relacionadas con la empresa ponerse en situación de peligro",
+      "excerpt_status": "completo"
+    }
+  ]
+}

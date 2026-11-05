@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-51-presupuesto-ce-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.1-2 El presupuesto del Estado: principios, estructura, créditos y modificaciones",
+    "topic_slug": "age-adm-51-presupuesto",
+    "locale": "es",
+    "category": "age_adm_51_presupuesto",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 134.2 CE",
+      "stem": "Según el artículo 134.2 de la Constitución Española, los Presupuestos Generales del Estado:",
+      "options": [
+        "Tendrán carácter bienal e incluirán la totalidad de los gastos e ingresos del sector público estatal.",
+        "Tendrán carácter anual e incluirán la totalidad de los gastos e ingresos del sector público estatal.",
+        "Tendrán carácter anual e incluirán únicamente los gastos e ingresos de la Administración General del Estado.",
+        "Tendrán carácter plurianual, con un horizonte de tres ejercicios, e incluirán los gastos del sector público estatal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 134.2 CE recoge los principios de anualidad y universalidad: los Presupuestos son anuales, incluyen la totalidad de gastos e ingresos del sector público estatal y consignan el importe de los beneficios fiscales que afectan a los tributos del Estado.",
+      "excerpt": "Los Presupuestos Generales del Estado tendrán carácter anual, incluirán la totalidad de los gastos e ingresos del sector público estatal y en ellos se consignará el importe de los beneficios fiscales que afecten a los tributos del Estado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

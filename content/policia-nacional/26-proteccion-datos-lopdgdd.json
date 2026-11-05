@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "set": "pn-26-proteccion-datos-lopdgdd-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 26. La protección de datos personales: LO 3/2018 y LO 7/2021",
+    "topic_slug": "pn-26-proteccion-datos",
+    "locale": "es",
+    "category": "pn_26_proteccion_datos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales, el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea:",
+      "options": [
+        "Mayor de dieciséis años.",
+        "Mayor de catorce años.",
+        "Mayor de doce años."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 7.1 de la LO 3/2018 fija la edad en catorce años; por debajo, el tratamiento basado en el consentimiento exige el del titular de la patria potestad o tutela (art. 7.2).",
+      "excerpt": "1. El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1 LOPDGDD",
+      "stem": "Según el artículo 1 de la Ley Orgánica 3/2018, el derecho fundamental de las personas físicas a la protección de datos personales está amparado por:",
+      "options": [
+        "El artículo 18.4 de la Constitución.",
+        "El artículo 20.4 de la Constitución.",
+        "El artículo 105.b) de la Constitución."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 1 de la LO 3/2018 vincula el derecho fundamental a la protección de datos con el art. 18.4 CE y lo remite al Reglamento (UE) 2016/679 y a la propia ley orgánica.",
+      "excerpt": "El derecho fundamental de las personas físicas a la protección de datos personales, amparado por el artículo 18.4 de la Constitución, se ejercerá con arreglo a lo establecido en el Reglamento (UE) 2016/679 y en esta ley orgánica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, cuando la persona fallecida hubiese prohibido expresamente el acceso a sus datos personales, dicha prohibición:",
+      "options": [
+        "Impedirá a los herederos acceder a cualquier dato del causante, incluidos los patrimoniales.",
+        "Carecerá de efecto frente a las personas vinculadas al fallecido por razones familiares.",
+        "No afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 3.1 de la LO 3/2018 permite al fallecido prohibir el acceso, la rectificación o la supresión de sus datos, pero la prohibición no alcanza a los datos de carácter patrimonial respecto de los herederos.",
+      "excerpt": "Dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, a fin de evitar situaciones discriminatorias, el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su:",
+      "options": [
+        "Domicilio, número de teléfono o dirección de correo electrónico.",
+        "Ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+        "Situación laboral, nivel de estudios o profesión."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 9.1 de la LO 3/2018 dispone que el solo consentimiento no levanta la prohibición de tratar datos cuya finalidad principal sea identificar la ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+      "excerpt": "el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.3 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, los datos obtenidos mediante sistemas de videovigilancia con la finalidad de preservar la seguridad de personas, bienes e instalaciones serán suprimidos, con carácter general, en el plazo máximo de:",
+      "options": [
+        "Tres meses desde su captación.",
+        "Quince días desde su captación.",
+        "Un mes desde su captación."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 22.3 de la LO 3/2018 fija la supresión en el plazo máximo de un mes, salvo que deban conservarse para acreditar actos que atenten contra personas, bienes o instalaciones.",
+      "excerpt": "3. Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22.3 LOPDGDD",
+      "stem": "Según el artículo 22 de la Ley Orgánica 3/2018, cuando las imágenes de videovigilancia deban conservarse para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones, deberán ponerse a disposición de la autoridad competente en un plazo máximo de:",
+      "options": [
+        "Setenta y dos horas desde que se tuviera conocimiento de la existencia de la grabación.",
+        "Veinticuatro horas desde la captación de las imágenes.",
+        "Un mes desde que se tuviera conocimiento de la existencia de la grabación."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 22.3 de la LO 3/2018 obliga a ponerlas a disposición de la autoridad competente en un máximo de setenta y dos horas desde que se tuviera conocimiento de la grabación.",
+      "excerpt": "En tal caso, las imágenes deberán ser puestas a disposición de la autoridad competente en un plazo máximo de setenta y dos horas desde que se tuviera conocimiento de la existencia de la grabación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 32.2 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el bloqueo de los datos consiste en:",
+      "options": [
+        "La identificación y reserva de los mismos, adoptando medidas técnicas y organizativas para impedir su tratamiento, incluyendo su visualización, salvo su puesta a disposición de las autoridades señaladas en la ley.",
+        "Su destrucción inmediata en cuanto el afectado ejerce el derecho de supresión.",
+        "Su cesión a la Agencia Española de Protección de Datos para su custodia."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 32.2 de la LO 3/2018 define el bloqueo como identificación y reserva de los datos para impedir su tratamiento, salvo su puesta a disposición de jueces y tribunales, Ministerio Fiscal o Administraciones competentes durante el plazo de prescripción de las responsabilidades; después deben destruirse.",
+      "excerpt": "2. El bloqueo de los datos consiste en la identificación y reserva de los mismos, adoptando medidas técnicas y organizativas, para impedir su tratamiento, incluyendo su visualización, excepto para la puesta a disposición de los datos a los jueces y tribunales, el Ministerio Fiscal o las Administraciones Públicas competentes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, la Agencia Española de Protección de Datos es una autoridad administrativa independiente de ámbito estatal que se relaciona con el Gobierno a través del:",
+      "options": [
+        "Ministerio del Interior.",
+        "Ministerio de Hacienda y Función Pública.",
+        "Ministerio de Justicia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 44.1 de la LO 3/2018 configura la AEPD como autoridad administrativa independiente que se relaciona con el Gobierno a través del Ministerio de Justicia.",
+      "excerpt": "Se relaciona con el Gobierno a través del Ministerio de Justicia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.5 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos tiene una duración de:",
+      "options": [
+        "Cuatro años, no renovable.",
+        "Cinco años, renovable para otro período de igual duración.",
+        "Seis años, renovable una sola vez por tres años."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 48.5 de la LO 3/2018 fija un mandato de cinco años, renovable por otro período de igual duración.",
+      "excerpt": "5. El mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos tiene una duración de cinco años y puede ser renovado para otro período de igual duración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.6 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, los actos y disposiciones dictados por la Presidencia de la Agencia Española de Protección de Datos ponen fin a la vía administrativa y son recurribles directamente ante:",
+      "options": [
+        "La Sala de lo Contencioso-administrativo de la Audiencia Nacional.",
+        "La Sala de lo Contencioso-administrativo del Tribunal Supremo.",
+        "Los Juzgados Centrales de lo Contencioso-administrativo."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 48.6 de la LO 3/2018 atribuye el recurso directo a la Sala de lo Contencioso-administrativo de la Audiencia Nacional.",
+      "excerpt": "6. Los actos y disposiciones dictados por la Presidencia de la Agencia Española de Protección de Datos ponen fin a la vía administrativa, siendo recurribles, directamente, ante la Sala de lo Contencioso-administrativo de la Audiencia Nacional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 72-74 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, las infracciones muy graves, graves y leves prescriben, respectivamente, a:",
+      "options": [
+        "Los cinco años, a los tres años y a los seis meses.",
+        "Los tres años, a los dos años y al año.",
+        "Los dos años, al año y a los seis meses."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Los arts. 72.1, 73 y 74 de la LO 3/2018 fijan la prescripción de las infracciones en tres años (muy graves), dos años (graves) y un año (leves).",
+      "excerpt": "se consideran muy graves y prescribirán a los tres años […] se consideran graves y prescribirán a los dos años […] Se consideran leves y prescribirán al año",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 88.1 LOPDGDD",
+      "stem": "Según la Ley Orgánica 3/2018, el derecho a la desconexión digital en el ámbito laboral se reconoce a:",
+      "options": [
+        "Únicamente a los trabajadores por cuenta ajena del sector privado.",
+        "Únicamente a quienes trabajen a distancia.",
+        "Los trabajadores y los empleados públicos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 88.1 de la LO 3/2018 reconoce la desconexión digital a los trabajadores y a los empleados públicos para garantizar, fuera del tiempo de trabajo, el respeto de su descanso, permisos, vacaciones e intimidad.",
+      "excerpt": "1. Los trabajadores y los empleados públicos tendrán derecho a la desconexión digital a fin de garantizar, fuera del tiempo de trabajo legal o convencionalmente establecido, el respeto de su tiempo de descanso, permisos y vacaciones, así como de su intimidad personal y familiar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -50,6 +50,12 @@ try {
   const exam = meta.exam
     ? (await db.query("select id from public.exam_bodies where slug = $1", [meta.exam])).rows[0]?.id
     : null;
+  // Otras oposiciones con el mismo temario (meta.also_exams).
+  const alsoExams = [];
+  for (const slug of meta.also_exams ?? []) {
+    const r = (await db.query("select id from public.exam_bodies where slug = $1", [slug])).rows[0];
+    if (r) alsoExams.push(r.id);
+  }
 
   let sourceId = null;
   if (meta.source) {
@@ -84,6 +90,11 @@ try {
       await db.query(
         `insert into public.exam_body_topics (exam_body_id, topic_id) values ($1, $2) on conflict do nothing`,
         [exam, topicId],
+      );
+    for (const other of alsoExams)
+      await db.query(
+        `insert into public.exam_body_topics (exam_body_id, topic_id) values ($1, $2) on conflict do nothing`,
+        [other, topicId],
       );
   }
 
@@ -145,6 +156,11 @@ try {
         await db.query(
           "insert into public.question_exam_bodies (question_id, exam_body_id) values ($1,$2) on conflict do nothing",
           [id, exam],
+        );
+      for (const other of alsoExams)
+        await db.query(
+          "insert into public.question_exam_bodies (question_id, exam_body_id) values ($1,$2) on conflict do nothing",
+          [id, other],
         );
       created++;
     }

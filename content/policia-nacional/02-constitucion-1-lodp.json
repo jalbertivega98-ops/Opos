@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "set": "pn-02-constitucion-1-lodp-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 2. La Constitución Española (I): valores, principios, derechos y deberes fundamentales, garantías y Defensor del Pueblo",
+    "topic_slug": "pn-02-constitucion-1",
+    "locale": "es",
+    "category": "pn_02_constitucion_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.1 LODP",
+      "stem": "Según la Ley Orgánica 3/1981, el Defensor del Pueblo será elegido por las Cortes Generales para un periodo de:",
+      "options": [
+        "Cinco años.",
+        "Cuatro años.",
+        "Seis años."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 2.Uno de la LO 3/1981 fija un mandato de cinco años.",
+      "excerpt": "Uno. El Defensor del Pueblo será elegido por las Cortes Generales para un periodo de cinco años, y se dirigirá a las mismas a través de los Presidentes del Congreso y del senado, respectivamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.4 LODP",
+      "stem": "Según la Ley Orgánica 3/1981, será designado Defensor del Pueblo quien obtenga una votación favorable de:",
+      "options": [
+        "La mayoría absoluta del Congreso y posteriormente sea ratificado por mayoría simple del Senado.",
+        "Las dos terceras partes de los miembros de cada una de las Cámaras en sesión conjunta.",
+        "Las tres quintas partes de los miembros del Congreso y posteriormente sea ratificado, en un plazo máximo de veinte días, por esta misma mayoría del Senado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 2.Cuatro LODP exige tres quintos del Congreso y ratificación por la misma mayoría del Senado en veinte días; si no se alcanza, tras nuevas propuestas basta la mayoría absoluta del Senado una vez lograda la de tres quintos del Congreso.",
+      "excerpt": "Será designado quien obtuviese una votación favorable de las tres quintas partes de los miembros del Congreso y posteriormente, en un plazo máximo de veinte días, fuese ratificado por esta misma mayoría del Senado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.1 LODP",
+      "stem": "Según la Ley Orgánica 3/1981, toda queja ante el Defensor del Pueblo deberá presentarse en el plazo máximo de:",
+      "options": [
+        "Seis meses, contados desde que se produjeron los hechos objeto de la misma.",
+        "Un año, contado a partir del momento en que el interesado tuviera conocimiento de los hechos objeto de la misma.",
+        "Tres meses, contados a partir del momento en que el interesado tuviera conocimiento de los hechos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 15.Uno LODP exige queja firmada, con nombre, apellidos y domicilio, en escrito razonado y en el plazo máximo de un año desde el conocimiento de los hechos.",
+      "excerpt": "Uno. Toda queja se presentará firmada por el interesado, con indicación de su nombre, apellidos y domicilio, en escrito razonado en papel común y en el plazo máximo de un año, contado a partir del momento en que tuviera conocimiento de los hechos objeto de la misma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.3 LODP",
+      "stem": "Según la Ley Orgánica 3/1981, mientras permanezca en el ejercicio de sus funciones, la decisión sobre la inculpación, prisión, procesamiento y juicio del Defensor del Pueblo corresponde exclusivamente a:",
+      "options": [
+        "La Sala de lo Civil y Penal del Tribunal Superior de Justicia de Madrid.",
+        "La Sala de lo Penal de la Audiencia Nacional.",
+        "La Sala de lo Penal del Tribunal Supremo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 6.Tres LODP: el Defensor del Pueblo solo puede ser detenido o retenido en caso de flagrante delito y su enjuiciamiento corresponde exclusivamente a la Sala de lo Penal del Tribunal Supremo.",
+      "excerpt": "Tres. En los demás casos, y mientras permanezca en el ejercicio de sus funciones, el Defensor del Pueblo no podrá ser detenido ni retenido sino en caso de flagrante delito, correspondiendo la decisión sobre su inculpación, prisión, procesamiento y juicio exclusivamente a la Sala de lo Penal del Tribunal Supremo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10.3 LODP",
+      "stem": "Según el artículo 10 de la Ley Orgánica 3/1981, ¿quién no podrá presentar quejas ante el Defensor del Pueblo?",
+      "options": [
+        "Ninguna autoridad administrativa en asuntos de su competencia.",
+        "Las personas internadas en un centro penitenciario.",
+        "Los menores de edad que no estén emancipados."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 10 LODP permite acudir al Defensor del Pueblo a toda persona natural o jurídica con interés legítimo, sin que impidan hacerlo la minoría de edad o el internamiento penitenciario; solo excluye a las autoridades administrativas en asuntos de su competencia.",
+      "excerpt": "Tres. No podrá presentar quejas ante el Defensor del Pueblo ninguna autoridad administrativa en asuntos de su competencia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

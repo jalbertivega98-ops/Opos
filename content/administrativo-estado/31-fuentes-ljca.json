@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-31-fuentes-ljca-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.1 Las fuentes del derecho administrativo. La ley, el decreto-ley, el decreto legislativo y el reglamento",
+    "topic_slug": "age-adm-31-fuentes",
+    "locale": "es",
+    "category": "age_adm_31_fuentes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 LJCA",
+      "stem": "Según el artículo 1 de la Ley 29/1998, reguladora de la Jurisdicción Contencioso-administrativa, los Juzgados y Tribunales de este orden conocerán de las pretensiones que se deduzcan en relación con los Decretos legislativos:",
+      "options": [
+        "Cuando excedan los límites de la delegación.",
+        "En todo caso, al tratarse de disposiciones del Gobierno.",
+        "Solo cuando hayan sido convalidados por el Congreso de los Diputados.",
+        "En ningún caso, pues su control corresponde exclusivamente al Tribunal Constitucional."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 1.1 LJCA atribuye a la jurisdicción contencioso-administrativa el control de las disposiciones generales de rango inferior a la ley y de los Decretos legislativos cuando excedan los límites de la delegación (lo que el art. 82.6 CE llama «competencia propia de los Tribunales»).",
+      "excerpt": "con las disposiciones generales de rango inferior a la Ley y con los Decretos legislativos cuando excedan los límites de la delegación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.2 LJCA",
+      "stem": "Una asociación no impugnó en plazo un real decreto que considera ilegal. Ahora un órgano administrativo le aplica ese real decreto en un acto concreto. Según el artículo 26 de la Ley 29/1998, ¿puede recurrir el acto alegando la ilegalidad del real decreto?",
+      "options": [
+        "No, porque la disposición general ha devenido firme y consentida.",
+        "Solo si antes interpone recurso de reposición contra el real decreto.",
+        "Solo mediante recurso de inconstitucionalidad ante el Tribunal Constitucional.",
+        "Sí, porque la falta de impugnación directa de la disposición general no impide impugnar sus actos de aplicación por no ser aquella conforme a Derecho."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 26 LJCA admite el recurso indirecto contra reglamentos: se puede impugnar el acto de aplicación fundándose en que la disposición no es conforme a Derecho, aunque esta no se recurriera directamente o se desestimara el recurso directo. Además, contra las disposiciones generales no cabe recurso en vía administrativa (art. 112.3 LPAC).",
+      "excerpt": "también es admisible la de los actos que se produzcan en aplicación de las mismas, fundada en que tales disposiciones no son conformes a Derecho. […] 2. La falta de impugnación directa de una disposición general o la desestimación del recurso que frente a ella se hubiera interpuesto no impiden la impugnación de los actos de aplicación con fundamento en lo dispuesto en el apartado anterior.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "set": "age-adm-55-pagos-rdacf-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.5 Gastos y pagos: anticipos de caja fija y pagos a justificar",
+    "topic_slug": "age-adm-55-pagos",
+    "locale": "es",
+    "category": "age_adm_55_pagos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 725/1989, de 16 de junio, sobre anticipos de Caja fija (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-14441",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 RD 725/1989",
+      "stem": "Una Caja pagadora con anticipo de caja fija recibe varias facturas. Según el artículo 1 del Real Decreto 725/1989, ¿cuál de los siguientes gastos es de los que, por su carácter periódico o repetitivo, pueden atenderse con anticipos de caja fija?",
+      "options": [
+        "La adquisición de un edificio para una oficina periférica.",
+        "La concesión de una subvención nominativa a una fundación.",
+        "Las retribuciones básicas de la nómina mensual del personal funcionario.",
+        "Las dietas y gastos de locomoción de un funcionario en comisión de servicio."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 1 del RD 725/1989 limita los anticipos de caja fija a gastos periódicos o repetitivos que se aplican al capítulo de gastos corrientes en bienes y servicios, como dietas, locomoción, material no inventariable o conservación; no cubren inversiones, subvenciones ni gastos de personal.",
+      "excerpt": "Se entienden por anticipos de Caja fija las provisiones de fondos de carácter extrapresupuestario y permanente que se realicen a Pagadurías, Cajas y Habilitaciones para la atención inmediata y posterior aplicación al capítulo de gastos corrientes en bienes y servicios del presupuesto del año en que se realicen, de gastos periódicos o repetitivos, como los referentes a dietas, gastos de locomoción, material no inventariable, conservación, tracto sucesivo y otros de similares características.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.3 RD 725/1989",
+      "stem": "El cajero pagador de una unidad con anticipo de caja fija recibe una factura de 6.200 euros por la reparación de una fotocopiadora. Según el artículo 2.3 del Real Decreto 725/1989, ¿puede abonarla con cargo al anticipo?",
+      "options": [
+        "Sí, porque el límite de los pagos individualizados con cargo al anticipo es de 12.000 euros.",
+        "Sí, siempre que fraccione el gasto en dos pagos inferiores a 5.000 euros.",
+        "No, porque no pueden realizarse con cargo al anticipo pagos individualizados superiores a 600 euros.",
+        "No, porque no pueden realizarse con cargo al anticipo pagos individualizados superiores a 5.000 euros, salvo los gastos de teléfono, energía eléctrica, combustibles o indemnizaciones por razón del servicio."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 2.3 del RD 725/1989 prohíbe pagos individualizados con cargo al anticipo superiores a 5.000 euros (salvo teléfono, energía eléctrica, combustibles e indemnizaciones por razón del servicio) y prohíbe fraccionar un único gasto en varios pagos.",
+      "excerpt": "no podrán realizarse con cargo al anticipo de caja fija pagos individualizados superiores a 5.000 euros (831.930 pesetas), excepto los destinados a gastos de teléfono, energía eléctrica, combustibles o indemnizaciones por razón del servicio. A efectos de aplicación de estos límites, no podrán acumularse en un solo justificante pagos que se deriven de diversos gastos, ni fraccionarse un único gasto en varios pagos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.3 RD 725/1989",
+      "stem": "Según el artículo 2.3 del Real Decreto 725/1989, cuando se haya establecido el sistema de anticipos de caja fija en un ministerio, no podrán tramitarse libramientos aplicados al presupuesto a favor de perceptores directos, salvo los de reposición del anticipo, por importe inferior a:",
+      "options": [
+        "600 euros.",
+        "5.000 euros.",
+        "3.000 euros.",
+        "1.000 euros."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 2.3 del RD 725/1989 impide los libramientos a perceptores directos inferiores a 600 euros con imputación a los conceptos atendibles por caja fija; esos pagos deben hacerse a través del anticipo.",
+      "excerpt": "Cuando el sistema de anticipos de caja fija se haya establecido en un Ministerio u Organismo autónomo, no podrán tramitarse libramientos aplicados al presupuesto a favor de perceptores directos, excepto los destinados a reposición del anticipo, por importe inferior a 600 euros (99.832 pesetas), con imputación a los conceptos a que se refiere el artículo anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.2 RD 725/1989",
+      "stem": "Según el artículo 3 del Real Decreto 725/1989, los acuerdos de distribución de los anticipos de caja fija por Cajas pagadoras y sus modificaciones habrán de ser objeto de:",
+      "options": [
+        "Informe favorable del Interventor delegado respectivo, circunscrito a que se respete el límite del 7 por 100.",
+        "Autorización previa del Ministro de Hacienda.",
+        "Fiscalización previa plena del Tribunal de Cuentas.",
+        "Aprobación por el Consejo de Ministros."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 3.2 del RD 725/1989 exige informe favorable del Interventor delegado, limitado a comprobar que se respeta el tope del 7 %.",
+      "excerpt": "Los citados acuerdos habrán de ser objeto de informe favorable del Interventor delegado respectivo, circunscrito a que se respete el citado límite del 7 por 100.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 6.1 RD 725/1989",
+      "stem": "De acuerdo con el artículo 6 del Real Decreto 725/1989, las disposiciones de fondos de las cuentas de los anticipos de caja fija se efectuarán, con carácter ordinario:",
+      "options": [
+        "Mediante cheques al portador firmados únicamente por el Cajero pagador.",
+        "Mediante cheques nominativos o transferencias bancarias, autorizados con las firmas mancomunadas del Cajero pagador y del funcionario que designe el Jefe de la Unidad Administrativa.",
+        "Mediante tarjeta bancaria, con la sola firma del Jefe de la Unidad Administrativa.",
+        "Mediante transferencias bancarias autorizadas por el Interventor delegado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 6.1 del RD 725/1989 exige cheques nominativos o transferencias con firmas mancomunadas; la tarjeta bancaria solo cabe de manera excepcional y justificada (art. 6.3).",
+      "excerpt": "Las disposiciones de fondos de las cuentas a que se refiere el artículo 4.° se efectuarán mediante cheques nominativos o transferencias bancarias, autorizados con las firmas mancomunadas del Cajero pagador y del funcionario que designe el Jefe de la Unidad Administrativa a la que esté adscrita la Caja pagadora o de los sustitutos de los mismos.",
+      "excerpt_status": "completo",
+      "review_note": "La mención de la tarjeta bancaria en la explicación procede del art. 6.3, añadido por el RD 813/2026, de 7 de octubre (BOE-A-2026-20915); conviene confirmar que la orden ministerial de desarrollo no altera el régimen ordinario del art. 6.1."
+    },
+    {
+      "ref": "Art. 7.1 RD 725/1989",
+      "stem": "Según el artículo 7 del Real Decreto 725/1989, los Cajeros pagadores rendirán cuentas por los gastos atendidos con anticipos de caja fija:",
+      "options": [
+        "Únicamente al cierre del ejercicio, en el mes de diciembre.",
+        "Trimestralmente, en las primeras quincenas de enero, abril, julio y octubre.",
+        "A medida que sus necesidades de tesorería aconsejen la reposición de los fondos utilizados y, necesariamente, en el mes de diciembre de cada año.",
+        "En el plazo de tres meses desde la percepción de los fondos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 7.1 del RD 725/1989 obliga a rendir cuentas cuando lo aconsejen las necesidades de reposición y, en todo caso, en diciembre. Las primeras quincenas de enero, abril, julio y octubre son las fechas mínimas de los estados de situación de Tesorería (art. 9.1).",
+      "excerpt": "Los Cajeros pagadores rendirán cuentas por los gastos atendidos con anticipos de Caja fija a medida que sus necesidades de tesorería aconsejen la reposición de los fondos utilizados y, necesariamente, en el mes de diciembre de cada año.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.4 RD 725/1989",
+      "stem": "La Intervención delegada examina una cuenta justificativa de anticipo de caja fija y emite un informe en el que hace constar anomalías. Según el artículo 7.4 del Real Decreto 725/1989, el órgano gestor realizará las alegaciones que estime oportunas y, en su caso, las subsanará:",
+      "options": [
+        "En un plazo de diez días, antes de la remisión de la cuenta al Tribunal de Cuentas.",
+        "En un plazo de un mes, después de remitir la cuenta al Tribunal de Cuentas.",
+        "En un plazo de tres meses, con la cuenta del ejercicio siguiente.",
+        "En un plazo de quince días, antes de la remisión de la cuenta al Tribunal de Cuentas."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 7.4 del RD 725/1989 concede al órgano gestor quince días para alegar y subsanar, dejando constancia en la cuenta antes de enviarla al Tribunal de Cuentas, y otros quince días para dar cuenta al Interventor.",
+      "excerpt": "Caso de que en el informe se hagan constar defectos o anomalías, el Órgano gestor, en un plazo de quince días, realizará las alegaciones que estime oportunas, y, en su caso, las subsanará, dejando constancia de ello en la cuenta, antes de su remisión al Tribunal de Cuentas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 RD 725/1989",
+      "stem": "Según el artículo 9 del Real Decreto 725/1989, los estados de situación de Tesorería de las Cajas pagadoras se formularán, como mínimo:",
+      "options": [
+        "Mensualmente, dentro de los diez primeros días de cada mes.",
+        "Una vez al año, en el mes de diciembre.",
+        "Semestralmente, en enero y julio.",
+        "En las primeras quincenas de los meses de enero, abril, julio y octubre, referidos al último día del trimestre inmediato anterior."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 9.1 del RD 725/1989 fija una periodicidad mínima trimestral, sin perjuicio de los estados extraordinarios que acuerden los Jefes de las Unidades administrativas.",
+      "excerpt": "Con la periodicidad que establezcan las Autoridades a que se refiere el artículo 2.º 1, y, como mínimo, en las primeras quincenas de los meses de enero, abril, julio y octubre y referidos al último día del trimestre inmediato anterior se formularán estados de situación de Tesorería",
+      "excerpt_status": "completo"
+    }
+  ]
+}
