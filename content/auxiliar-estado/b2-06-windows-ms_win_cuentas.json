@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "set": "age-aux-b2-06-windows-ms_win_cuentas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.6 El entorno Windows 11",
+    "topic_slug": "age-aux-b2-06-windows",
+    "locale": "es",
+    "category": "age_aux_b2_06_windows",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Administrar cuentas de usuario en Windows",
+      "url": "https://support.microsoft.com/es-es/windows/security/identity-signin/manage-user-accounts-in-windows",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Cuentas de usuario · Cuenta recomendada",
+      "stem": "¿Qué tipo de cuenta recomienda Microsoft usar para iniciar sesión en Windows?",
+      "options": [
+        "Una cuenta local, en lugar de una cuenta de Microsoft.",
+        "La cuenta de invitado.",
+        "Una cuenta de administrador compartida por todos los usuarios.",
+        "Una cuenta de Microsoft, en lugar de una cuenta local."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Microsoft recomienda la cuenta de Microsoft por la integración con sus servicios, la seguridad mejorada y la sincronización entre dispositivos.",
+      "excerpt": "Microsoft recomienda usar una cuenta de Microsoft, no una cuenta local, al iniciar sesión en Windows.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Cuentas de usuario · Cuenta local",
+      "stem": "Al agregar otro usuario en Configuración > Cuentas de Windows 11, ¿qué opción se elige para crear una cuenta local?",
+      "options": [
+        "Agregar una cuenta profesional o educativa.",
+        "Iniciar sesión como invitado.",
+        "Cambiar tipo de cuenta.",
+        "Agregar un usuario sin una cuenta de Microsoft."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Tras indicar que no se tienen los datos de inicio de sesión de la persona, la opción «Agregar un usuario sin una cuenta de Microsoft» crea una cuenta local.",
+      "excerpt": "Si desea crear una cuenta local, seleccione la opción Agregar un usuario sin una cuenta de Microsoft",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Cuentas de usuario · Administradores",
+      "stem": "Según Microsoft, ¿por qué conviene limitar el número de administradores en un dispositivo Windows?",
+      "options": [
+        "Porque los administradores tienen control total sobre el sistema, y es más seguro usar cuentas estándar para las actividades diarias.",
+        "Porque Windows solo admite una cuenta de administrador por equipo.",
+        "Porque las cuentas de administrador no pueden usar OneDrive.",
+        "Porque cada administrador reduce la memoria disponible."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Los administradores pueden cambiar la configuración, instalar software y acceder a todos los archivos; demasiados administradores supone riesgos como la instalación de malware.",
+      "excerpt": "debe limitar el número de administradores en su dispositivo Windows porque los administradores tienen control total sobre el sistema. […] Es más seguro tener menos administradores y usar cuentas de usuario estándar para las actividades diarias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Cuentas de usuario · Quitar una cuenta",
+      "stem": "Según Microsoft, al quitar en Windows la cuenta de usuario de una persona que inicia sesión con una cuenta de Microsoft:",
+      "options": [
+        "Se elimina definitivamente su cuenta de Microsoft.",
+        "Se conservan en el dispositivo todos sus archivos y su información de inicio de sesión.",
+        "No se elimina su cuenta de Microsoft; se quitan la información de inicio de sesión y los datos del dispositivo.",
+        "Se convierte automáticamente en una cuenta local."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Quitar la cuenta borra los datos e inicio de sesión del dispositivo, pero la cuenta de Microsoft sigue existiendo.",
+      "excerpt": "Al quitar una cuenta, no se elimina la cuenta Microsoft de esa persona. Quita la información de inicio de sesión y los datos del dispositivo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "justra-17-ejecucion-cautelares-lec-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, tema 17. Los procedimientos de ejecución en la Ley de Enjuiciamiento Civil. Las medidas cautelares",
+    "topic_slug": "justra-17-ejecucion-cautelares",
+    "locale": "es",
+    "category": "justra_17_ejecucion_cautelares",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 545.1 LEC",
+      "stem": "Según el artículo 545 de la Ley de Enjuiciamiento Civil, si el título ejecutivo es una resolución judicial, será competente para dictar el auto que contenga la orden general de ejecución y despacho de la misma:",
+      "options": [
+        "El Tribunal del domicilio del ejecutado, en todo caso.",
+        "El Tribunal que conoció del asunto en primera instancia.",
+        "El Tribunal que resolvió el último recurso.",
+        "El Tribunal del lugar donde se encuentren los bienes del ejecutado."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Para resoluciones judiciales, resoluciones del LAJ con fuerza ejecutiva y transacciones o acuerdos homologados, es competente el tribunal de primera instancia o el que homologó.",
+      "excerpt": "será competente para dictar el auto que contenga la orden general de ejecución y despacho de la misma el Tribunal que conoció del asunto en primera instancia o en el que se homologó o aprobó la transacción o acuerdo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 545.6 LEC",
+      "stem": "Conforme a la Ley de Enjuiciamiento Civil, las resoluciones del Letrado de la Administración de Justicia que determinen los bienes del ejecutado a los que ha de extenderse el despacho de la ejecución adoptarán la forma de:",
+      "options": [
+        "Auto.",
+        "Diligencia de ordenación.",
+        "Decreto.",
+        "Providencia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El tribunal dicta auto con la orden general de ejecución; el LAJ concreta los bienes y medidas ejecutivas mediante decreto (art. 545.6 LEC).",
+      "excerpt": "Adoptarán la forma de decreto las resoluciones del Letrado de la Administración de Justicia que determinen los bienes del ejecutado a los que ha de extenderse el despacho de la ejecución",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 549.2 LEC",
+      "stem": "De acuerdo con el artículo 549 de la Ley de Enjuiciamiento Civil, cuando el título ejecutivo sea una sentencia dictada por el Tribunal competente para conocer de la ejecución, la demanda ejecutiva:",
+      "options": [
+        "Podrá limitarse a la solicitud de que se despache la ejecución, identificando la sentencia cuya ejecución se pretenda.",
+        "Deberá contener en todo caso la relación de bienes del ejecutado.",
+        "Deberá presentarse con firma de abogado y procurador distintos de los del proceso declarativo.",
+        "No es necesaria, porque la ejecución se despacha de oficio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La ejecución solo se despacha a instancia de parte, pero si el título es una resolución del propio tribunal o del LAJ basta con una demanda sucinta que la identifique.",
+      "excerpt": "la demanda ejecutiva podrá limitarse a la solicitud de que se despache la ejecución, identificando la sentencia o resolución cuya ejecución se pretenda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 553 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, el auto que autorice y despache ejecución, junto con el decreto que en su caso dicte el Letrado de la Administración de Justicia y copia de la demanda ejecutiva, se notificarán al ejecutado:",
+      "options": [
+        "Con emplazamiento para que se oponga en el plazo de veinte días.",
+        "Con citación a una vista en el plazo de diez días.",
+        "Solo cuando se haya practicado el embargo.",
+        "Sin citación ni emplazamiento, para que en cualquier momento pueda personarse en la ejecución."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 553 LEC prevé la notificación simultánea sin citación ni emplazamiento; el ejecutado puede personarse cuando quiera.",
+      "excerpt": "serán notificados simultáneamente al ejecutado o, en su caso, al procurador que le represente, sin citación ni emplazamiento, para que en cualquier momento pueda personarse en la ejecución",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 581.2 LEC",
+      "stem": "En la ejecución dineraria fundada en títulos no procesales ni arbitrales, NO se practicará el requerimiento de pago al ejecutado cuando:",
+      "options": [
+        "El ejecutado tenga su domicilio fuera del partido judicial.",
+        "La cantidad reclamada no supere los tres mil euros.",
+        "El ejecutante designe bienes suficientes para el embargo.",
+        "A la demanda ejecutiva se haya acompañado acta notarial que acredite haberse requerido de pago al ejecutado con al menos diez días de antelación."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 581.2 LEC exime del requerimiento judicial si consta un requerimiento notarial con al menos diez días de antelación.",
+      "excerpt": "No se practicará el requerimiento establecido en el apartado anterior cuando a la demanda ejecutiva se haya acompañado acta notarial que acredite haberse requerido de pago al ejecutado con al menos diez días de antelación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 587.1 LEC",
+      "stem": "Según el artículo 587 de la Ley de Enjuiciamiento Civil, el embargo se entenderá hecho:",
+      "options": [
+        "Desde que se decrete por el Letrado de la Administración de Justicia o se reseñe la descripción de un bien en el acta de la diligencia de embargo, aunque no se hayan adoptado medidas de garantía o publicidad.",
+        "Desde que se practique la anotación preventiva en el Registro de la Propiedad.",
+        "Desde que el ejecutado sea notificado del decreto de embargo.",
+        "Desde que se nombre depositario de los bienes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El embargo existe desde el decreto o desde la reseña del bien en el acta de la diligencia; las medidas de garantía y publicidad se adoptan después, de inmediato.",
+      "excerpt": "El embargo se entenderá hecho desde que se decrete por el Letrado de la Administración de Justicia o se reseñe la descripción de un bien en el acta de la diligencia de embargo, aunque no se hayan adoptado aún medidas de garantía o publicidad de la traba.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 588.1 LEC",
+      "stem": "Conforme a la Ley de Enjuiciamiento Civil, el embargo sobre bienes y derechos cuya efectiva existencia no conste será:",
+      "options": [
+        "Anulable a instancia del ejecutado.",
+        "Válido, si el ejecutante presta caución.",
+        "Nulo.",
+        "Válido, pero sin preferencia frente a otros embargos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 588.1 LEC declara nulo el embargo indeterminado; se exceptúan los saldos de cuentas bancarias con un límite máximo fijado por el LAJ.",
+      "excerpt": "Será nulo el embargo sobre bienes y derechos cuya efectiva existencia no conste.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 589.1 LEC",
+      "stem": "Según el artículo 589 de la Ley de Enjuiciamiento Civil, salvo que el ejecutante señale bienes suficientes, el Letrado de la Administración de Justicia requerirá de oficio al ejecutado para que manifieste relacionadamente sus bienes y derechos mediante:",
+      "options": [
+        "Decreto.",
+        "Diligencia de ordenación.",
+        "Providencia.",
+        "Auto."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El requerimiento de manifestación de bienes se hace por diligencia de ordenación, con apercibimiento de sanciones, al menos por desobediencia grave.",
+      "excerpt": "el Letrado de la Administración de Justicia requerirá, mediante diligencia de ordenación, de oficio al ejecutado para que manifieste relacionadamente bienes y derechos suficientes para cubrir la cuantía de la ejecución",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 590 LEC",
+      "stem": "Conforme al artículo 590 de la Ley de Enjuiciamiento Civil, en la investigación judicial del patrimonio del ejecutado, el Letrado de la Administración de Justicia NO reclamará datos de organismos y registros:",
+      "options": [
+        "Cuando el ejecutado sea una persona jurídica.",
+        "Cuando la cantidad reclamada sea inferior a seis mil euros.",
+        "Cuando el ejecutante no haya prestado caución.",
+        "Cuando el ejecutante pudiera obtenerlos por sí mismo o a través de su procurador debidamente facultado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La investigación patrimonial se acuerda a instancia del ejecutante que no pueda designar bienes, pero no se piden datos que el ejecutante pueda obtener por sí o por su procurador.",
+      "excerpt": "El Letrado de la Administración de Justicia no reclamará datos de organismos y registros cuando el ejecutante pudiera obtenerlos por sí mismo, o a través de su procurador, debidamente facultado al efecto por su poderdante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 612.2 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, las peticiones de mejora, reducción o modificación del embargo en el proceso de ejecución las resuelve:",
+      "options": [
+        "El Letrado de la Administración de Justicia mediante decreto, contra el que cabe recurso directo de revisión sin efectos suspensivos.",
+        "El Tribunal mediante auto, recurrible en apelación.",
+        "El Tribunal mediante providencia, irrecurrible.",
+        "El Letrado de la Administración de Justicia mediante diligencia de ordenación, recurrible en reposición."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 612.2 LEC atribuye la decisión al LAJ por decreto, con recurso directo de revisión no suspensivo. En el embargo preventivo cautelar, en cambio, decide el Tribunal (art. 738.2).",
+      "excerpt": "El Letrado de la Administración de Justicia resolverá mediante decreto sobre estas peticiones. Contra dicho decreto cabrá recurso directo de revisión que no producirá efectos suspensivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 621.1 LEC",
+      "stem": "Conforme al artículo 621 de la Ley de Enjuiciamiento Civil, si lo embargado fuera dinero o divisas convertibles:",
+      "options": [
+        "Se entregarán en depósito al ejecutante.",
+        "Se ingresarán en la Cuenta de Depósitos y Consignaciones.",
+        "Se custodiarán en la caja fuerte de la oficina judicial.",
+        "Se entregarán a un administrador judicial."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El dinero embargado se ingresa en la Cuenta de Depósitos y Consignaciones; para saldos bancarios se envía orden de retención a la entidad.",
+      "excerpt": "Si lo embargado fuera dinero o divisas convertibles, se ingresarán en la Cuenta de Depósitos y Consignaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 629.1 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, cuando el embargo recaiga sobre bienes inmuebles, el Letrado de la Administración de Justicia, a instancia del ejecutante, librará mandamiento para la anotación preventiva de embargo y, si autoriza al procurador del ejecutante a diligenciarlo, este deberá poner en conocimiento del órgano judicial la práctica de la anotación o sus defectos en el plazo de:",
+      "options": [
+        "Cinco días hábiles.",
+        "Diez días.",
+        "Dos días hábiles.",
+        "Veinticuatro horas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 629.1 LEC permite que la procura diligencie el mandamiento; el Registrador le comunica el resultado y la procura lo pone en conocimiento del órgano en dos días hábiles.",
+      "excerpt": "quien deberá ponerlo en conocimiento del órgano judicial en el plazo de dos días hábiles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 647.1 LEC",
+      "stem": "Para tomar parte en una subasta judicial, conforme al artículo 647 de la Ley de Enjuiciamiento Civil, los licitadores deberán haber consignado, con carácter general:",
+      "options": [
+        "El 20 por ciento del valor de tasación de los bienes.",
+        "El 10 por ciento del valor de los bienes o un mínimo de mil euros si esa cantidad fuera inferior.",
+        "El 5 por ciento del valor de los bienes, sin mínimo.",
+        "El 30 por ciento del valor de tasación, sin mínimo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El depósito general es del 10 % del valor (mínimo 1.000 euros), por medios electrónicos en el Portal de Subastas; el LAJ puede elevarlo o reducirlo.",
+      "excerpt": "haber consignado el 10 por ciento, del valor de los bienes o un mínimo de mil euros si el importe que resultara de la aplicación de ese porcentaje fuera inferior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 647.2 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, el ejecutante que quiera tomar parte en la subasta:",
+      "options": [
+        "Deberá consignar el mismo depósito que los demás licitadores.",
+        "Solo podrá participar si no existen otros licitadores.",
+        "Podrá mejorar el precio final ofrecido por el mejor postor tras la subasta.",
+        "Podrá hacerlo aunque no existan otros licitadores, sin necesidad de consignar cantidad alguna."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El ejecutante puede pujar sin consignar; pero no puede mejorar el precio del mejor postor una vez finalizada la subasta.",
+      "excerpt": "El ejecutante podrá tomar parte en la subasta, aunque no existan otros licitadores, sin necesidad de consignar cantidad alguna.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 709.3 LEC",
+      "stem": "En la ejecución de una condena de hacer personalísimo, cuando se acuerde apremiar al ejecutado con multas mensuales, los requerimientos se reiterarán por el Letrado de la Administración de Justicia:",
+      "options": [
+        "Trimestralmente, hasta que se cumpla un año desde el primero.",
+        "Mensualmente, hasta que se cumplan seis meses.",
+        "Semestralmente, hasta que se cumplan dos años.",
+        "Cada quince días, sin límite temporal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 709.3 LEC fija reiteraciones trimestrales durante un año; si persiste la negativa, se sigue para el equivalente pecuniario u otras medidas.",
+      "excerpt": "se reiterarán trimestralmente por el Letrado de la Administración de Justicia responsable de la ejecución los requerimientos hasta que se cumpla un año desde el primero.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 723.1 LEC",
+      "stem": "Según el artículo 723 de la Ley de Enjuiciamiento Civil, si el proceso aún no se hubiese iniciado, será competente para conocer de la solicitud de medidas cautelares:",
+      "options": [
+        "El tribunal del domicilio del solicitante.",
+        "El Juzgado de guardia del lugar donde se encuentren los bienes.",
+        "El tribunal que sea competente para conocer de la demanda principal.",
+        "La Audiencia Provincial correspondiente."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Es competente el que conoce del asunto en primera instancia o, antes del proceso, el que lo sea para la demanda principal; en segunda instancia o casación, el que conozca del recurso.",
+      "excerpt": "Será tribunal competente para conocer de las solicitudes sobre medidas cautelares el que esté conociendo del asunto en primera instancia o, si el proceso no se hubiese iniciado, el que sea competente para conocer de la demanda principal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 728.3 LEC",
+      "stem": "Conforme a la Ley de Enjuiciamiento Civil, salvo que expresamente se disponga otra cosa, el solicitante de una medida cautelar deberá:",
+      "options": [
+        "Acreditar haber intentado un medio adecuado de solución de controversias.",
+        "Prestar caución suficiente para responder de los daños y perjuicios que la medida pudiera causar al patrimonio del demandado.",
+        "Presentar la demanda principal en el plazo de cinco días.",
+        "Obtener el informe previo del Ministerio Fiscal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Además del peligro por la mora procesal y la apariencia de buen derecho, se exige caución, salvo previsión en contrario; la caución es siempre previa al cumplimiento de la medida (art. 737).",
+      "excerpt": "Salvo que expresamente se disponga otra cosa, el solicitante de la medida cautelar deberá prestar caución suficiente para responder, de manera rápida y efectiva, de los daños y perjuicios que la adopción de la medida cautelar pudiera causar al patrimonio del demandado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 734.1 LEC",
+      "stem": "Según el artículo 734 de la Ley de Enjuiciamiento Civil, recibida la solicitud de medidas cautelares con audiencia del demandado, el Letrado de la Administración de Justicia convocará a las partes a una vista que se celebrará:",
+      "options": [
+        "Dentro de los diez días siguientes, convocándola en el plazo de cinco días desde la notificación de la solicitud al demandado.",
+        "Dentro de los veinte días siguientes a la presentación de la solicitud.",
+        "Dentro de los cinco días siguientes a la presentación de la solicitud.",
+        "En el plazo de un mes desde la admisión de la demanda principal."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El LAJ convoca por diligencia en cinco días desde la notificación al demandado y la vista se celebra en los diez días siguientes; terminada, el tribunal resuelve por auto en cinco días (art. 735.1).",
+      "excerpt": "en el plazo de cinco días, contados desde la notificación de aquélla al demandado convocará a las partes a una vista, que se celebrará dentro de los diez días siguientes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 736 LEC",
+      "stem": "Conforme a la Ley de Enjuiciamiento Civil, contra el auto que deniegue la medida cautelar:",
+      "options": [
+        "Cabrá recurso de reposición y, contra lo resuelto, apelación.",
+        "No cabrá recurso alguno, aunque podrá reiterarse la solicitud en cualquier momento.",
+        "Cabrá recurso de revisión ante el mismo tribunal.",
+        "Solo cabrá recurso de apelación, al que se dará una tramitación preferente."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El auto denegatorio es apelable con tramitación preferente; además, si cambian las circunstancias, el actor puede reproducir su solicitud.",
+      "excerpt": "Contra el auto en que el tribunal deniegue la medida cautelar sólo cabrá recurso de apelación, al que se dará una tramitación preferente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 739 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, cuando la medida cautelar se haya adoptado sin previa audiencia del demandado, este podrá formular oposición en el plazo de:",
+      "options": [
+        "Diez días, contados desde la ejecución de la medida.",
+        "Cinco días, contados desde la notificación del auto.",
+        "Veinte días, contados desde la notificación del auto que acuerda las medidas cautelares.",
+        "Un mes, contado desde la presentación de la demanda principal."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El auto inaudita parte no es recurrible (art. 733.2), pero el demandado puede oponerse en veinte días desde su notificación.",
+      "excerpt": "En los casos en que la medida cautelar se hubiera adoptado sin previa audiencia del demandado, podrá éste formular oposición en el plazo de veinte días, contados desde la notificación del auto que acuerda las medidas cautelares.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

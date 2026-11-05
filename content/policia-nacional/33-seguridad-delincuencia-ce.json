@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pn-33-seguridad-delincuencia-ce-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 33. La seguridad: concepto, seguridad pública y privada, seguridad nacional",
+    "topic_slug": "pn-33-seguridad-delincuencia",
+    "locale": "es",
+    "category": "pn_33_seguridad_delincuencia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 104.1 CE",
+      "stem": "Según el artículo 104.1 de la Constitución, las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión:",
+      "options": [
+        "Proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
+        "Garantizar la soberanía e independencia de España y defender su integridad territorial.",
+        "Velar por el respeto a la Constitución y por el cumplimiento de las leyes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 104.1 CE fija la misión de las Fuerzas y Cuerpos de seguridad. Garantizar la soberanía, la independencia y la integridad territorial es misión de las Fuerzas Armadas (art. 8 CE).",
+      "excerpt": "1\\. Las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 149.1.29.ª CE",
+      "stem": "Según el artículo 149.1.29.ª de la Constitución, la seguridad pública es competencia exclusiva del Estado:",
+      "options": [
+        "Sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que establezcan sus Estatutos en el marco de una ley orgánica.",
+        "Sin que las Comunidades Autónomas puedan crear policías propias en ningún caso.",
+        "Salvo en las Comunidades Autónomas uniprovinciales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 149.1.29.ª CE reserva al Estado la seguridad pública, pero permite que las Comunidades Autónomas creen policías propias según sus Estatutos y en el marco de una ley orgánica.",
+      "excerpt": "29.ª Seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

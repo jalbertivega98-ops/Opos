@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_margenes-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cambiar los márgenes (Word)",
+      "url": "https://support.microsoft.com/es-es/word/training/change-margins",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Márgenes",
+      "stem": "Según la ayuda de Microsoft, en Word cada página tiene automáticamente un margen de:",
+      "options": [
+        "Dos centímetros.",
+        "Tres centímetros.",
+        "Una pulgada.",
+        "Media pulgada."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Se puede personalizar con Márgenes personalizados, establecer páginas opuestas o dejar espacio para encuadernación.",
+      "excerpt": "En Word, cada página tiene automáticamente un margen de una pulgada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

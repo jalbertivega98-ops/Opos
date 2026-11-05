@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "set": "pn-40-inteligencia-osint-cni_ciclo-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 40. Inteligencia: ciclo de inteligencia, fuentes (OSINT) y el Centro Nacional de Inteligencia",
+    "topic_slug": "pn-40-inteligencia-osint",
+    "locale": "es",
+    "category": "pn_40_inteligencia_osint",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Centro Nacional de Inteligencia · La Inteligencia (el ciclo de Inteligencia)",
+      "url": "https://www.cni.es/la-inteligencia",
+      "kind": "web_oficial",
+      "publisher": "Centro Nacional de Inteligencia (web oficial cni.es)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "CNI, La Inteligencia: Obtención",
+      "stem": "Según el Centro Nacional de Inteligencia, la sigla OSINT designa la información procedente de:",
+      "options": [
+        "Fuentes abiertas.",
+        "Fuentes humanas.",
+        "Fuentes técnicas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "En la fase de obtención, el CNI distingue HUMINT (fuentes humanas), OSINT (fuentes abiertas), SIGINT (fuentes técnicas) y GEOINT (explotación y análisis de imágenes e información geográfica).",
+      "excerpt": "OSINT Información procedente de fuentes abiertas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Obtención",
+      "stem": "Según el CNI, la información procedente de fuentes humanas se denomina:",
+      "options": [
+        "SIGINT.",
+        "GEOINT.",
+        "HUMINT."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "HUMINT es la información de fuentes humanas; SIGINT, la de fuentes técnicas; y GEOINT, la procedente de la explotación y análisis de imágenes e información geográfica.",
+      "excerpt": "HUMINT Información procedente de fuentes humanas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Difusión",
+      "stem": "Según el CNI, la fase final del ciclo de Inteligencia, en la que la Inteligencia se distribuye a las autoridades responsables de adoptar decisiones, es la:",
+      "options": [
+        "Elaboración.",
+        "Difusión.",
+        "Planificación."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El CNI describe la difusión como el final del ciclo, en el que la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones.",
+      "excerpt": "Difusión Es el final del ciclo, resultado de todo el proceso. En esta fase, la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia",
+      "stem": "Según el CNI, el proceso con fases bien definidas mediante el que se elabora la Inteligencia que se entrega a las autoridades para facilitar la toma de decisiones se denomina:",
+      "options": [
+        "Proceso de contrainteligencia.",
+        "Sistema de alerta temprana.",
+        "Ciclo de Inteligencia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El CNI explica que la Inteligencia se elabora siguiendo un proceso con fases bien definidas denominado ciclo de Inteligencia (dirección, planificación, obtención, elaboración y difusión).",
+      "excerpt": "El resultado final del trabajo del CNI es la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones y que se elabora siguiendo un proceso con fases bien definidas, denominado ciclo de Inteligencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Dirección",
+      "stem": "Según el CNI, el ciclo de Inteligencia se inicia con:",
+      "options": [
+        "La obtención de información de fuentes abiertas.",
+        "La aprobación anual de la Directiva de Inteligencia.",
+        "La difusión de la Inteligencia a las autoridades."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El ciclo comienza en la fase de dirección, con la aprobación anual de la Directiva de Inteligencia por la Comisión Delegada del Gobierno para Asuntos de Inteligencia y el presidente del Gobierno.",
+      "excerpt": "El ciclo de Inteligencia se inicia con la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Planificación",
+      "stem": "Según el CNI, la fase del ciclo de Inteligencia en la que, una vez aprobada la Directiva, se organizan los recursos disponibles para obtener la información necesaria es la:",
+      "options": [
+        "Planificación.",
+        "Dirección.",
+        "Elaboración."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Tras la Directiva de Inteligencia (fase de dirección), el CNI realiza la planificación y organización de los recursos disponibles para obtener la información y elaborar la Inteligencia.",
+      "excerpt": "Una vez aprobada la Directiva de Inteligencia, el CNI realiza un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Elaboración",
+      "stem": "Según el CNI, dentro de la fase de elaboración, el paso en el que se analiza la calidad y origen de la información es la:",
+      "options": [
+        "Integración.",
+        "Interpretación.",
+        "Valoración."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La elaboración comprende valoración (calidad y origen de la información), examen, integración (información de distintas fuentes), interpretación (según distintos contextos) y redacción del producto final.",
+      "excerpt": "Valoración Se analiza la calidad y origen de la información",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Obtención",
+      "stem": "Según el CNI, GEOINT es la información procedente de:",
+      "options": [
+        "La explotación y análisis de imágenes e información geográfica.",
+        "Las señales de comunicaciones interceptadas.",
+        "Las publicaciones de medios de comunicación y redes sociales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El CNI define GEOINT como la información procedente de la explotación y análisis de imágenes e información geográfica. Las fuentes técnicas corresponden a SIGINT y las abiertas a OSINT.",
+      "excerpt": "GEOINT Información procedente de la explotación y análisis de imágenes e información geográfica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CNI, La Inteligencia: Elaboración",
+      "stem": "Según el CNI, dentro de la fase de elaboración, el paso en el que se redacta el producto final es la redacción, mientras que en la integración:",
+      "options": [
+        "Se integra toda la información procedente de distintas fuentes.",
+        "Se estudia toda la información disponible.",
+        "Se interpreta la información según distintos contextos."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El CNI describe así los pasos de la elaboración: valoración (calidad y origen), examen (se estudia toda la información disponible), integración (información de distintas fuentes), interpretación (según distintos contextos) y redacción (producto final: la Inteligencia).",
+      "excerpt": "Integración Se integra toda la información procedente de distintas fuentes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

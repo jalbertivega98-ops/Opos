@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pn-33-seguridad-delincuencia-lofcs-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 33. La seguridad: concepto, seguridad pública y privada, seguridad nacional",
+    "topic_slug": "pn-33-seguridad-delincuencia",
+    "locale": "es",
+    "category": "pn_33_seguridad_delincuencia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 LOFCS",
+      "stem": "Según la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad, la Seguridad Pública es:",
+      "options": [
+        "Competencia compartida entre el Estado y las Comunidades Autónomas en régimen de igualdad.",
+        "Competencia de los municipios, bajo la coordinación de las Comunidades Autónomas.",
+        "Competencia exclusiva del Estado, y su mantenimiento corresponde al Gobierno de la Nación."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 LOFCS declara la Seguridad Pública competencia exclusiva del Estado y atribuye su mantenimiento al Gobierno; las Comunidades Autónomas y las Corporaciones Locales participan en los términos legales.",
+      "excerpt": "1\\. La Seguridad Pública es competencia exclusiva del Estado. Su mantenimiento corresponde al Gobierno de la Nación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1.4 LOFCS",
+      "stem": "Según la LOFCS, el mantenimiento de la Seguridad Pública se ejercerá por las distintas Administraciones Públicas a través de:",
+      "options": [
+        "Las empresas de seguridad privada.",
+        "Las Fuerzas Armadas.",
+        "Las Fuerzas y Cuerpos de Seguridad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 1.4 LOFCS dispone que las Administraciones Públicas ejercen el mantenimiento de la Seguridad Pública a través de las Fuerzas y Cuerpos de Seguridad.",
+      "excerpt": "4\\. El mantenimiento de la Seguridad Pública se ejercerá por las distintas Administraciones Públicas a través de las Fuerzas y Cuerpos de Seguridad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_atajos-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Word",
+      "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Atajos Word · F12",
+      "stem": "En Word para Windows, la tecla F12 por sí sola:",
+      "options": [
+        "Guarda el documento con el mismo nombre.",
+        "Muestra la pestaña Imprimir en la vista Backstage.",
+        "Cierra el documento actual.",
+        "Muestra el cuadro de diálogo Guardar como."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Mayús+F12 guarda el documento y Ctrl+Mayús+F12 muestra la pestaña Imprimir.",
+      "excerpt": "Solo F12: muestra el cuadro de diálogo Guardar como.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · F7",
+      "stem": "En Word, ¿qué tecla muestra el panel de tareas del Editor para revisar la ortografía y la gramática del documento o del texto seleccionado?",
+      "options": [
+        "F5",
+        "F9",
+        "F7",
+        "F11"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Mayús+F7 abre el diccionario de sinónimos.",
+      "excerpt": "Solo F7: muestra el panel de tareas del Editor para revisar la ortografía y la gramática del documento o del texto seleccionado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+Entrar",
+      "stem": "En Word, la combinación Ctrl+Entrar inserta:",
+      "options": [
+        "Un salto de página.",
+        "Un salto de línea.",
+        "Un salto de columna.",
+        "Un salto de sección continuo."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Mayús+Entrar inserta un salto de línea y Ctrl+Mayús+Entrar un salto de columna.",
+      "excerpt": "Insertar un salto de línea. Mayús+Entrar Insertar un salto de página. Ctrl+Entrar Insertar un salto de columna. Ctrl+Mayús+Entrar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+Z / Ctrl+Y",
+      "stem": "En Word, para rehacer la acción anterior, si es posible, se utiliza:",
+      "options": [
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+R",
+        "Ctrl+W"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl+Z deshace la acción anterior y Ctrl+W cierra el documento.",
+      "excerpt": "Deshacer la acción anterior. Ctrl+Z Rehacer la acción anterior, si es posible. Ctrl+Y",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+J",
+      "stem": "En Word con distribución de teclado de España, para justificar el párrafo se utiliza:",
+      "options": [
+        "Ctrl+M",
+        "Ctrl+E",
+        "Ctrl+J",
+        "Ctrl+5"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ctrl+M aplica sangría al párrafo y Ctrl+5 un interlineado de 1,5 líneas.",
+      "excerpt": "Justificar el párrafo. Ctrl+J",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+P",
+      "stem": "En Word, la combinación de teclas para imprimir el documento es:",
+      "options": [
+        "Ctrl+I",
+        "Ctrl+P",
+        "Ctrl+Alt+P",
+        "Mayús+F12"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl+Alt+P cambia a la vista Diseño de impresión y Mayús+F12 guarda el documento.",
+      "excerpt": "Imprimir el documento. Ctrl+P",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+H",
+      "stem": "En Word, ¿qué combinación muestra el cuadro de diálogo Reemplazar para buscar y reemplazar texto, formato específico o elementos especiales?",
+      "options": [
+        "Ctrl+H",
+        "Ctrl+R",
+        "Ctrl+F2",
+        "Alt+F7"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Alt+F7 busca el siguiente error gramatical u ortográfico.",
+      "excerpt": "Muestra el cuadro de diálogo Reemplazar para buscar y reemplazar texto, formato específico o elementos especiales. Ctrl+H",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · tablas TAB",
+      "stem": "Trabajando en una tabla de Word, la tecla TAB permite:",
+      "options": [
+        "Insertar un carácter de tabulación en la celda.",
+        "Ir a la primera celda de la fila.",
+        "Seleccionar toda la tabla.",
+        "Ir a la siguiente celda de la fila y seleccionar su contenido."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Para insertar un carácter de tabulación dentro de una celda se usa Ctrl+Tab.",
+      "excerpt": "Ir a la siguiente celda de la fila y seleccionar su contenido. Tecla TAB",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · interlineado",
+      "stem": "En Word, ¿qué combinación aplica un interlineado de 1,5 líneas en el párrafo?",
+      "options": [
+        "Ctrl+1",
+        "Ctrl+2",
+        "Ctrl+5",
+        "Ctrl+Mayús+5"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl+1 aplica espaciado simple y Ctrl+2 espaciado doble.",
+      "excerpt": "Aplicar espaciado simple al párrafo. Ctrl+1 Aplicar espaciado doble al párrafo. Ctrl+2 Aplicar un interlineado de 1,5 líneas en el párrafo. Ctrl+5",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Mayús+F3",
+      "stem": "En Word, la combinación Mayús+F3 sobre un texto seleccionado:",
+      "options": [
+        "Muestra el cuadro de diálogo Fuente.",
+        "Aplica el formato de doble subrayado.",
+        "Busca el siguiente error ortográfico.",
+        "Cambia el texto entre mayúsculas, minúsculas y tipo título."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El cuadro de diálogo Fuente se abre con Ctrl+D o Ctrl+Mayús+F.",
+      "excerpt": "Mayús+F3: cambia el texto seleccionado entre mayúsculas, minúsculas y tipo título.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+D",
+      "stem": "En Word con distribución de teclado de España, el cuadro de diálogo Fuente puede mostrarse con:",
+      "options": [
+        "Ctrl+D o Ctrl+Mayús+F",
+        "Ctrl+F o Ctrl+Mayús+D",
+        "Alt+F o Ctrl+Alt+F",
+        "Ctrl+T o Ctrl+Mayús+T"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ctrl+Mayús+D aplica doble subrayado y Ctrl+Alt+F inserta una nota al pie.",
+      "excerpt": "Mostrar el cuadro de diálogo Fuente. Ctrl+D o Ctrl+Mayús+F",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · superíndice",
+      "stem": "En Word, para aplicar el formato de superíndice se utiliza:",
+      "options": [
+        "Ctrl+Mayús+signo menos (-)",
+        "Ctrl+Mayús+signo más (+)",
+        "Ctrl+corchete de cierre (])",
+        "Ctrl+Alt+signo más (+)"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl+Mayús+signo menos aplica subíndice; Ctrl+] aumenta en 1 punto el tamaño de fuente.",
+      "excerpt": "Aplicar el formato de subíndice. Ctrl+Mayús+signo menos (-) Aplicar el formato de superíndice. Ctrl+Mayús+signo más (+)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · tamaño fuente",
+      "stem": "En Word, la combinación Ctrl+corchete de apertura ([) permite:",
+      "options": [
+        "Aumentar en 1 punto el tamaño de fuente.",
+        "Aplicar el formato de subíndice.",
+        "Reducir la selección.",
+        "Disminuir en 1 punto el tamaño de fuente."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ctrl+corchete de cierre (]) aumenta en 1 punto el tamaño de fuente.",
+      "excerpt": "Disminuir en 1 punto el tamaño de fuente. Ctrl+corchete de apertura ([) Aumentar en 1 punto el tamaño de fuente. Ctrl+corchete de cierre (])",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+Mayús+8",
+      "stem": "En Word, para mostrar todos los caracteres no imprimibles (marcas de párrafo, espacios, tabulaciones…) se utiliza:",
+      "options": [
+        "Ctrl+Mayús+8 (no usar el teclado numérico)",
+        "Ctrl+8 en el teclado numérico",
+        "Alt+F10",
+        "Ctrl+Mayús+barra espaciadora"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Alt+F10 muestra el panel de Selección y Ctrl+Mayús+barra espaciadora inserta un espacio de no separación.",
+      "excerpt": "Mostrar todos los caracteres no imprimibles. Ctrl+Mayús+8 (no usar el teclado numérico)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · control de cambios",
+      "stem": "En Word, la combinación Ctrl+Mayús+E permite:",
+      "options": [
+        "Insertar un comentario.",
+        "Activar o desactivar el control de cambios.",
+        "Centrar el párrafo.",
+        "Abrir la pestaña Revisar."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El comentario se inserta con Ctrl+Alt+M y la pestaña Revisar se abre con Alt, R.",
+      "excerpt": "Insertar un comentario. Ctrl+Alt+M Activar o desactivar el control de cambios. Ctrl+Mayús+E",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · notas",
+      "stem": "En Word, ¿qué combinación inserta una nota al final?",
+      "options": [
+        "Ctrl+Alt+F",
+        "Ctrl+Alt+N",
+        "Ctrl+Alt+D",
+        "Ctrl+Alt+E"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl+Alt+F inserta una nota al pie y Ctrl+Alt+N cambia a la vista Borrador.",
+      "excerpt": "Insertar una nota al pie. Ctrl+Alt+F Insertar una nota al final. Ctrl+Alt+D",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · vistas",
+      "stem": "En Word, la combinación Ctrl+Alt+O permite cambiar a la vista:",
+      "options": [
+        "Esquema.",
+        "Diseño de impresión.",
+        "Borrador.",
+        "Modo Lectura."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ctrl+Alt+P cambia a Diseño de impresión y Ctrl+Alt+N a Borrador.",
+      "excerpt": "Cambiar a la vista Diseño de impresión. Ctrl+Alt+P Cambiar a la vista Esquema. Ctrl+Alt+O Cambiar a la vista Borrador. Ctrl+Alt+N",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · F4",
+      "stem": "En Word, la tecla F4 por sí sola:",
+      "options": [
+        "Cierra Word.",
+        "Repite el último comando o acción, si es posible.",
+        "Muestra el cuadro de diálogo Ir a.",
+        "Inserta un campo vacío."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Alt+F4 cierra Word, F5 muestra Ir a y Ctrl+F9 inserta un campo vacío.",
+      "excerpt": "Solo F4: repite el último comando o acción, si es posible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · cinta Alt,P",
+      "stem": "En Word, la secuencia de teclas de acceso Alt, P abre la pestaña de la cinta de opciones:",
+      "options": [
+        "Diseño, para usar temas, colores y efectos.",
+        "Insertar, para insertar tablas, imágenes y formas.",
+        "Disposición, para trabajar con márgenes de página, la orientación de la página, la sangría y el espaciado.",
+        "Archivo, para usar la vista Backstage."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Alt, G abre Diseño; Alt, N abre Insertar; Alt, F abre Archivo.",
+      "excerpt": "Abrir la pestaña Disposición para trabajar con márgenes de página, la orientación de la página, la sangría y el espaciado. Alt, P",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · cinta Alt,M",
+      "stem": "¿Qué pestaña de la cinta de Word se abre con la secuencia Alt, M y sirve para administrar tareas de combinación de correspondencia y trabajar con sobres y etiquetas?",
+      "options": [
+        "Referencias.",
+        "Revisar.",
+        "Vista.",
+        "Correspondencia."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Alt, S abre Referencias; Alt, R abre Revisar; Alt, W abre Vista.",
+      "excerpt": "Abrir la pestaña Correspondencia para administrar tareas de combinación de correspondencia y para trabajar con sobres y etiquetas. Alt, M",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+F1",
+      "stem": "En Word, la combinación Ctrl+F1:",
+      "options": [
+        "Muestra u oculta la cinta de opciones.",
+        "Muestra el panel de tareas Ayuda de Word.",
+        "Muestra el menú contextual.",
+        "Maximiza o restaura el tamaño de la ventana del documento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "F1 muestra la Ayuda, Mayús+F10 el menú contextual y Ctrl+F10 maximiza o restaura la ventana.",
+      "excerpt": "Ctrl+F1: muestra u oculta la cinta de opciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · F8",
+      "stem": "En Word, al presionar F8 varias veces seguidas:",
+      "options": [
+        "Se reduce la selección carácter a carácter.",
+        "Se selecciona un bloque de texto vertical.",
+        "Se amplía la selección a toda la palabra, frase, párrafo, sección y documento.",
+        "Se recorren los errores ortográficos del documento."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Mayús+F8 reduce la selección y Ctrl+Mayús+F8 selecciona un bloque vertical.",
+      "excerpt": "Expandir la selección. Presione F8 varias veces para ampliar la selección a toda la palabra, frase, párrafo, sección y documento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Alt+5 tabla",
+      "stem": "En una tabla de Word, para seleccionar toda la tabla con el teclado se utiliza:",
+      "options": [
+        "Ctrl+5 en el teclado alfanumérico.",
+        "Alt+Inicio.",
+        "Ctrl+Mayús+Fin.",
+        "Alt+5 en el teclado numérico (con la tecla Bloq Num desactivada)."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Alt+Inicio va a la primera celda de la fila; Ctrl+Mayús+Fin selecciona hasta el final del documento.",
+      "excerpt": "Seleccionar toda la tabla. Alt+5 en el teclado numérico (con la tecla Bloq Num desactivada)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · copiar formato",
+      "stem": "En Word, para copiar el formato del texto seleccionado y pegarlo después en otro texto se utilizan, respectivamente:",
+      "options": [
+        "Ctrl+C y Ctrl+Mayús+V",
+        "Ctrl+Alt+C y Ctrl+Alt+V",
+        "Ctrl+Mayús+C y Ctrl+Mayús+V",
+        "Ctrl+Alt+F y Ctrl+Alt+D"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ctrl+Mayús+V pega solo texto; Ctrl+Alt+F y Ctrl+Alt+D insertan notas.",
+      "excerpt": "Copiar el formato de texto seleccionado. Ctrl+Alt+C Pegar el formato de texto seleccionado. Ctrl+Alt+V",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Ctrl+F2",
+      "stem": "En Word, la combinación Ctrl+F2:",
+      "options": [
+        "Muestra un área de vista previa de impresión en la pestaña Imprimir en la vista Backstage.",
+        "Guarda el documento.",
+        "Muestra el cuadro de diálogo Marcador.",
+        "Inserta un campo vacío."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ctrl+Mayús+F5 muestra Marcador y Ctrl+F9 inserta un campo vacío.",
+      "excerpt": "Ctrl+F2: muestra un área de vista previa de impresión en la pestaña Imprimir en la vista Backstage.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atajos Word · Alt+F10",
+      "stem": "En Word, la combinación Alt+F10:",
+      "options": [
+        "Selecciona la pestaña activa de la cinta y activa las teclas de acceso.",
+        "Muestra el panel de tareas de Selección.",
+        "Muestra el cuadro de diálogo Macro.",
+        "Abre el menú contextual."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "F10 (o Alt) activa las teclas de acceso; Alt+F8 abre Macro; Mayús+F10 abre el menú contextual.",
+      "excerpt": "Alt+F10: muestra el panel de tareas de Selección.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

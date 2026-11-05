@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_imprimir-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Imprimir un documento en Word para Windows",
+      "url": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Imprimir",
+      "stem": "En el cuadro Páginas de la Impresión personalizada de Word, para imprimir la página 3 y las páginas de la 4 a la 6 al mismo tiempo se escribe:",
+      "options": [
+        "3; 4:6",
+        "3 y 4/6",
+        "3, 4-6",
+        "3+4-6"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Los números de página y los intervalos se separan por comas.",
+      "excerpt": "seleccione Impresión personalizada y escriba los números de página y los intervalos separados por comas (por ejemplo 3, 4-6).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Imprimir",
+      "stem": "En Word, en Archivo > Imprimir, la opción de Configuración que aparece por defecto es:",
+      "options": [
+        "Imprimir página actual.",
+        "Impresión personalizada.",
+        "Imprimir selección.",
+        "Imprimir todas las páginas."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Desplegando la flecha junto a esa opción aparecen las demás.",
+      "excerpt": "seleccione la flecha en Configuración, junto a Imprimir todas las páginas (opción predeterminada), para ver todas las opciones.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

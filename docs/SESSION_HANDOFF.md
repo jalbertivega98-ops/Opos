@@ -1,8 +1,15 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ Guardia Civil completa, ADR-030)
+**Última actualización:** 2026-11-05 · Sesión 3 (+ exámenes reales y simulacros calcados, ADR-033)
 
 ## Estado exacto
+
+### Exámenes reales: practicar con lo que cae (2026-11-05, CNT-024, ADR-033)
+
+- Informes por oposición en `/mnt/project-files/aprobia/examenes-reales/` (exámenes oficiales, reparto por tema, huecos, simulacro recomendado) y resumen en el Claude Doc «Lo que cae en cada oposición».
+- Huecos cubiertos con ~1.170 preguntas nuevas (fuentes en `/mnt/project-files/aprobia/fuentes-oficiales/*/`): preview `41-` (temario), `42-` (publicación; 9 dudosas con N: quedan en borrador) y `43-` (simulacros con `quotas`, cortes reales y 3 simulacros nuevos).
+- Pendiente de joel: fuente para la actualidad de Mossos (àmbit D), casos prácticos con enunciado común, temas 28-29 de Policía Nacional (sin fuente oficial), psicotécnicos verbales.
+- Prisiones de Catalunya va en otro hilo (preview 37- a 40-, ADR-032, CNT-023).
 
 - **Psicotécnicos (CNT-022, ADR-031):** solo se ofrecen en las oposiciones cuya convocatoria los incluye (`examHasPsycho`).
 

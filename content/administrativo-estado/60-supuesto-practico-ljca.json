@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-60-supuesto-practico-ljca-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Segunda parte · Casos breves al estilo del supuesto práctico (plazos, recursos, situaciones y crédito)",
+    "topic_slug": "age-adm-60-supuesto-practico",
+    "locale": "es",
+    "category": "age_adm_60_supuesto_practico",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 29/1998, de 13 de julio, reguladora de la Jurisdicción Contencioso-administrativa (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 46.1 LJCA",
+      "stem": "A una ciudadana se le notifica una orden ministerial expresa que pone fin a la vía administrativa y decide no interponer recurso de reposición. Según el artículo 46.1 de la Ley 29/1998, el plazo para interponer recurso contencioso-administrativo es de:",
+      "options": [
+        "Un mes, contado desde el día siguiente al de la notificación.",
+        "Seis meses, contados desde la fecha de la orden.",
+        "Tres meses, contados desde el día de la notificación.",
+        "Dos meses, contados desde el día siguiente al de la notificación."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 46.1 LJCA fija dos meses para recurrir actos expresos que ponen fin a la vía administrativa; seis meses si el acto es presunto.",
+      "excerpt": "El plazo para interponer el recurso contencioso-administrativo será de dos meses contados desde el día siguiente al de la publicación de la disposición impugnada o al de la notificación o publicación del acto que ponga fin a la vía administrativa, si fuera expreso.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

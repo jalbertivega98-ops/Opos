@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "justra-20-penal-ordinario-abreviado-jurado-lotj-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, tema 20. Los procedimientos penales en la Ley de Enjuiciamiento Criminal: ordinario, abreviado y de jurado",
+    "topic_slug": "justra-20-penal-ordinario-abreviado-jurado",
+    "locale": "es",
+    "category": "justra_20_penal_ordinario_abreviado_jurado",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 5/1995, de 22 de mayo, del Tribunal del Jurado (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-12095",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.3 LOTJ",
+      "stem": "Según el artículo 1 de la Ley Orgánica del Tribunal del Jurado, el juicio del Jurado se celebrará:",
+      "options": [
+        "Solo en el ámbito de la Audiencia Provincial y, en su caso, de los Tribunales que correspondan por razón del aforamiento del acusado.",
+        "En el ámbito de los Juzgados de lo Penal y de la Audiencia Provincial.",
+        "En el ámbito de la Audiencia Nacional para los delitos más graves.",
+        "En el ámbito de los Juzgados de Instrucción."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Quedan excluidos los delitos atribuidos a la Audiencia Nacional y los asumidos por la Fiscalía Europea.",
+      "excerpt": "El juicio del Jurado se celebrará solo en el ámbito de la Audiencia Provincial y, en su caso, de los Tribunales que correspondan por razón del aforamiento del acusado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8 LOTJ",
+      "stem": "¿Cuál de los siguientes NO es un requisito para ser jurado según el artículo 8 de la Ley Orgánica del Tribunal del Jurado?",
+      "options": [
+        "Ser español mayor de edad.",
+        "Estar en posesión del título de Graduado en Educación Secundaria Obligatoria.",
+        "Saber leer y escribir.",
+        "Ser vecino, al tiempo de la designación, de cualquiera de los municipios de la provincia en que el delito se hubiere cometido."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "No se exige titulación académica; basta saber leer y escribir.",
+      "excerpt": "1. Ser español mayor de edad. […] 3. Saber leer y escribir. 4. Ser vecino, al tiempo de la designación, de cualquiera de los municipios de la provincia en que el delito se hubiere cometido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 25.1 LOTJ",
+      "stem": "Incoado el procedimiento por delito atribuido al Tribunal del Jurado, el Juez de Instrucción convocará a los imputados, al Ministerio Fiscal y demás partes personadas a una comparecencia en el plazo de:",
+      "options": [
+        "Tres días.",
+        "Diez días.",
+        "Quince días.",
+        "Cinco días."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Art. 25.1 LOTJ; el imputado estará necesariamente asistido de letrado.",
+      "excerpt": "A tal efecto, les convocará en el plazo de cinco días a una comparecencia así como al Ministerio Fiscal y demás partes personadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 38.1 LOTJ",
+      "stem": "El día señalado para el juicio con Jurado, el Magistrado-presidente abrirá la sesión si concurren, al menos:",
+      "options": [
+        "Nueve de los jurados convocados.",
+        "Once de los jurados convocados.",
+        "Veinte de los jurados convocados.",
+        "Treinta y seis de los jurados convocados."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Si no concurre ese número se procede conforme al art. 39 LOTJ.",
+      "excerpt": "Si concurriesen al menos veinte de los jurados convocados, el Magistrado-presidente abrirá la sesión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 59.1 LOTJ",
+      "stem": "Según el artículo 59 de la Ley Orgánica del Tribunal del Jurado, para que los hechos sometidos a votación sean declarados probados se requieren al menos:",
+      "options": [
+        "Cinco votos cuando fuesen contrarios al acusado y siete cuando fuesen favorables.",
+        "Siete votos cuando fuesen contrarios al acusado y cinco votos cuando fuesen favorables.",
+        "Unanimidad cuando fuesen contrarios al acusado y mayoría simple cuando fuesen favorables.",
+        "Seis votos en todo caso."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Art. 59.1 LOTJ.",
+      "excerpt": "Para ser declarados tales, se requiere siete votos, al menos, cuando fuesen contrarios al acusado, y cinco votos, cuando fuesen favorables.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

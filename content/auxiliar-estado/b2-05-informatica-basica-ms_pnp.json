@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ms_pnp-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Introducción a Plug and Play",
+      "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/kernel/introduction-to-plug-and-play",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Microsoft Learn · Plug and Play",
+      "stem": "Según la documentación de Microsoft, Plug and Play (PnP) es la parte de Windows que:",
+      "options": [
+        "Reproduce automáticamente archivos de audio y vídeo al conectarlos.",
+        "Actualiza Windows sin necesidad de reiniciar el equipo.",
+        "Permite controlar el equipo de forma remota desde otro dispositivo.",
+        "Permite al sistema adaptarse a los cambios de hardware con una intervención mínima del usuario."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Con PnP el usuario puede agregar y quitar dispositivos sin configuración manual y sin conocer el hardware del equipo.",
+      "excerpt": "Plug and Play (PnP) es la parte de Windows que permite a un sistema informático adaptarse a los cambios de hardware con una intervención mínima del usuario.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

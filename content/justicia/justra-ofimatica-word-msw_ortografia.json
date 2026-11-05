@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_ortografia-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Revisar la ortografía y la gramática en Office",
+      "url": "https://support.microsoft.com/es-es/office/check-spelling-and-grammar-in-office",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Ortografía",
+      "stem": "En Word, los posibles errores ortográficos se marcan mientras se escribe con una línea ondulada de color:",
+      "options": [
+        "Azul, y los gramaticales con una línea ondulada de color rojo.",
+        "Rojo, y los gramaticales con una línea ondulada de color azul.",
+        "Verde, y los gramaticales con una línea ondulada de color rojo.",
+        "Rojo, y los gramaticales con una línea recta de color verde."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Si una palabra está escrita como se quiere, puede usarse Agregar al diccionario.",
+      "excerpt": "Office marca los posibles errores ortográficos con una línea ondulada de color rojo y los posibles errores gramaticales se marcan con una línea ondulada de color azul.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Ortografía",
+      "stem": "En Word, para desactivar la revisión ortográfica automática mientras escribe, hay que ir a:",
+      "options": [
+        "Archivo > Opciones > Revisión y desactivar la casilla Revisar ortografía mientras escribe.",
+        "Revisar > Idioma > Preferencias de idioma.",
+        "Inicio > Editor > Configuración.",
+        "Vista > Mostrar > Reglas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Desde la lista Excepciones para puede ocultarse los errores solo en el documento actual.",
+      "excerpt": "En el menú Archivo, seleccione Opciones y elija Revisión. Active o desactive la casilla Revisar ortografía mientras escribe.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-05-informatica-basica-ntidig-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.5 Informática básica y seguridad",
+    "topic_slug": "age-aux-b2-05-informatica-basica",
+    "locale": "es",
+    "category": "age_aux_b2_05_informatica_basica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Resolución de 19 de julio de 2011, de la Secretaría de Estado para la Función Pública, por la que se aprueba la Norma Técnica de Interoperabilidad de Digitalización de Documentos (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "NTI de Digitalización de Documentos · IV.2",
+      "stem": "Según la Norma Técnica de Interoperabilidad de Digitalización de Documentos, el nivel de resolución mínimo para las imágenes electrónicas será de:",
+      "options": [
+        "200 píxeles por pulgada, tanto en blanco y negro como en color o escala de grises.",
+        "300 píxeles por pulgada solo para imágenes en color.",
+        "150 píxeles por pulgada en blanco y negro y 300 en color.",
+        "600 píxeles por pulgada en todo caso."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El apartado IV.2 de la NTI fija una resolución mínima de 200 píxeles por pulgada para cualquier imagen (blanco y negro, color o escala de grises).",
+      "excerpt": "El nivel de resolución mínimo para imágenes electrónicas será de 200 píxeles por pulgada, tanto para imágenes obtenidas en blanco y negro, color o escala de grises.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "NTI de Digitalización de Documentos · V.1",
+      "stem": "En el proceso de digitalización regulado por la NTI de Digitalización de Documentos, la optimización automática de la imagen electrónica para garantizar su legibilidad comprende operaciones como:",
+      "options": [
+        "Reconocimiento óptico de caracteres y traducción automática.",
+        "Compresión con pérdida y reducción de la resolución.",
+        "Firma electrónica y sellado de tiempo.",
+        "Umbralización, reorientación y eliminación de bordes negros."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El apartado V.1.b) cita, como ejemplos de optimización automática, la umbralización, la reorientación y la eliminación de bordes negros; la firma de la imagen es un paso distinto (V.1.d).",
+      "excerpt": "Si procede, optimización automática de la imagen electrónica para garantizar su legibilidad, de modo que todo contenido del documento origen pueda apreciarse y sea válido para su gestión (umbralización, reorientación, eliminación de bordes negros, u otros de naturaleza análoga).",
+      "excerpt_status": "completo"
+    }
+  ]
+}

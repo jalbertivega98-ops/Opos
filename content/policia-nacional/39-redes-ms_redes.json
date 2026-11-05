@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "set": "pn-39-redes-ms_redes-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 39. Redes informáticas: modelo OSI, TCP/IP, dispositivos de red y direccionamiento IP",
+    "topic_slug": "pn-39-redes",
+    "locale": "es",
+    "category": "pn_39_redes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Modelo OSI, direccionamiento TCP/IP y subredes, DHCP, DNS, IPv6 y Firewall de Windows",
+      "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Microsoft Learn, Arquitectura de red de Windows y el modelo OSI",
+      "stem": "Según la documentación de Microsoft, el modelo OSI desarrollado por la Organización Internacional de Normalización (ISO) en 1978 es un modelo de redes de:",
+      "options": [
+        "Cuatro capas.",
+        "Cinco capas.",
+        "Siete capas."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Microsoft explica que Windows usa una arquitectura de red basada en el modelo de siete capas desarrollado por la ISO en 1978, y que sus controladores de red implementan las cuatro capas inferiores.",
+      "excerpt": "Los sistemas operativos Microsoft Windows usan una arquitectura de red basada en el modelo de redes de siete capas desarrollado por la Organización Internacional de Normalización (ISO) en 1978.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Direccionamiento TCP/IP",
+      "stem": "Según la documentación de Microsoft sobre direccionamiento TCP/IP, una dirección IP (IPv4) es un número de:",
+      "options": [
+        "48 bits.",
+        "32 bits.",
+        "128 bits."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Microsoft define la dirección IP como un número de 32 bits que identifica de forma única un host en una red TCP/IP; se expresa en formato decimal punteado (por ejemplo, 192.168.123.132). La dirección MAC tiene 48 bits.",
+      "excerpt": "Una dirección IP es un número de 32 bits. Identifica de forma única un host (equipo u otro dispositivo, como una impresora o enrutador) en una red TCP/IP.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, DHCP",
+      "stem": "El protocolo cliente-servidor que proporciona automáticamente a un host su dirección IP y otra información de configuración relacionada, como la máscara de subred y la puerta de enlace predeterminada, es:",
+      "options": [
+        "DHCP.",
+        "DNS.",
+        "FTP."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Según Microsoft, DHCP (Protocolo de configuración dinámica de host) asigna automáticamente la dirección IP y otros parámetros. El DNS asigna nombres de dominio a direcciones IP.",
+      "excerpt": "El Protocolo de configuración dinámica de host (DHCP) es un protocolo cliente-servidor que proporciona automáticamente un host de protocolo de Internet (IP) con su dirección IP y otra información de configuración relacionada, como la máscara de subred y la puerta de enlace de predeterminada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, DNS",
+      "stem": "Según Microsoft, el protocolo estándar del sector que asigna nombres de dominio a direcciones IP, lo que permite la resolución de nombres, es:",
+      "options": [
+        "DHCP.",
+        "ARP.",
+        "DNS."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "DNS (sistema de nombres de dominio) asigna nombres de dominio a direcciones IP y es el servicio de resolución de nombres predeterminado en las redes Windows.",
+      "excerpt": "DNS es un protocolo estándar del sector que asigna nombres de dominio a direcciones IP, lo que permite la resolución de nombres para computadoras y usuarios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Clases de red",
+      "stem": "Según la documentación de Microsoft, la dirección 172.16.52.63 es una dirección de clase:",
+      "options": [
+        "B.",
+        "A.",
+        "C."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Las redes de clase B tienen de 128 a 191 como primer octeto y máscara predeterminada 255.255.0.0. La clase A va de 0 a 127 y la clase C de 192 a 223.",
+      "excerpt": "Las redes de clase B usan una máscara de subred predeterminada de 255.255.0.0 y tienen de 128 a 191 como su primer octeto. La dirección 172.16.52.63 es una dirección de clase B.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Clases de red",
+      "stem": "Según Microsoft, la máscara de subred predeterminada de las redes de clase C es:",
+      "options": [
+        "255.255.0.0.",
+        "255.255.255.0.",
+        "255.0.0.0."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Clase A: 255.0.0.0; clase B: 255.255.0.0; clase C: 255.255.255.0, con un primer octeto de 192 a 223.",
+      "excerpt": "Las redes de clase C usan una máscara de subred predeterminada de 255.255.255.0 y tienen de 192 a 223 como su primer octeto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Máscara de subred",
+      "stem": "Según Microsoft, el protocolo TCP/IP usa la máscara de subred para:",
+      "options": [
+        "Cifrar las comunicaciones entre dos hosts.",
+        "Traducir nombres de dominio en direcciones IP.",
+        "Determinar si un host está en la subred local o en una red remota."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La máscara de subred es un número de 32 bits que distingue las partes de red y de host de una dirección IP y permite saber si el destino es local o remoto.",
+      "excerpt": "El protocolo TCP/IP usa la máscara de subred para determinar si un host está en la subred local o en una red remota.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Puerta de enlace predeterminada",
+      "stem": "Según Microsoft, desde el punto de vista de TCP/IP, el enrutador especificado en un host, que vincula la subred del host con otras redes, se denomina:",
+      "options": [
+        "Servidor DNS primario.",
+        "Puerta de enlace predeterminada.",
+        "Máscara de subred."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Cuando un equipo TCP/IP necesita comunicarse con un host de otra red, lo hace normalmente a través de un enrutador, que en la configuración del host recibe el nombre de puerta de enlace predeterminada.",
+      "excerpt": "Desde el punto de vista de TCP/IP, un enrutador especificado en un host, que vincula la subred del host con otras redes, se denomina puerta de enlace predeterminada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Modelo OSI: capa física",
+      "stem": "Según Microsoft, la capa más baja del modelo OSI, que administra la recepción y transmisión de la secuencia de bits sin procesar a través de un medio físico, es la capa:",
+      "options": [
+        "De vínculo de datos (enlace de datos).",
+        "De red.",
+        "Física."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La capa física es la más baja del modelo OSI; en Windows la implementa la tarjeta de interfaz de red (NIC). La de vínculo de datos envía fotogramas (tramas) entre direcciones físicas.",
+      "excerpt": "La capa física es la capa más baja del modelo OSI. Esta capa administra la recepción y transmisión de la secuencia de bits sin procesar no estructurada a través de un medio físico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Modelo OSI: capa de vínculo de datos",
+      "stem": "Según Microsoft, el IEEE divide la capa de vínculo de datos del modelo OSI en dos subcapas:",
+      "options": [
+        "Capa de red y capa de transporte.",
+        "Capa de sesión y capa de presentación.",
+        "Control de acceso a medios (MAC) y control de vínculos lógicos (LLC)."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La capa de vínculo de datos (enlace de datos) envía tramas entre direcciones físicas y se divide en las subcapas MAC, que administra el acceso a la capa física, y LLC, que proporciona transferencia sin errores de tramas entre nodos.",
+      "excerpt": "La capa de vínculo de datos se divide aún más por el Instituto de Ingenieros eléctricos y electrónicos (IEEE) en dos subcapas: control de acceso a medios (MAC) y control de vínculos lógicos (LLC).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Modelo OSI: capa de transporte",
+      "stem": "Según Microsoft, la capa del modelo OSI que garantiza que los mensajes se entreguen sin errores, en secuencia y sin pérdida ni duplicación es la capa:",
+      "options": [
+        "De red.",
+        "De transporte.",
+        "Física."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La capa de transporte asegura la entrega correcta de los mensajes; la capa de red controla el funcionamiento de la subred y determina la ruta física de los datos.",
+      "excerpt": "La capa de transporte garantiza que los mensajes se entreguen sin errores, en secuencia y sin pérdida ni duplicación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Subredes",
+      "stem": "Según el ejemplo de Microsoft, al usar una máscara de subred de 255.255.255.192, la red 192.168.123.0 se convierte en:",
+      "options": [
+        "Cuatro redes: 192.168.123.0, 192.168.123.64, 192.168.123.128 y 192.168.123.192.",
+        "Dos redes: 192.168.123.0 y 192.168.123.128.",
+        "Ocho redes de 32 direcciones cada una."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La máscara 255.255.255.192 «toma prestados» bits de la parte de host para la parte de red y divide la red de clase C en cuatro subredes.",
+      "excerpt": "Al usar una máscara de subred de 255.255.255.192, la red 192.168.123.0 se convierte en las cuatro redes 192.168.123.0, 192.168.123.64, 192.168.123.128 y 192.168.123.192.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Microsoft Learn, Glosario TCP/IP: octeto",
+      "stem": "Según Microsoft, cada uno de los cuatro octetos de una dirección IPv4 tiene un intervalo de valores decimales de:",
+      "options": [
+        "1 a 256.",
+        "0 a 255.",
+        "0 a 127."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Un octeto es un número de 8 bits que va de 00000000 a 11111111, es decir, de 0 a 255 en decimal; cuatro octetos forman la dirección IP de 32 bits.",
+      "excerpt": "Octeto: un número de 8 bits, 4 de los cuales constan de una dirección IP de 32 bits. Tienen un intervalo de 00000000 a 11111111 que corresponden a los valores decimales de 0 a 255.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

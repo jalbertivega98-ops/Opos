@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "age-adm-45-permisos-vacaciones-trebep-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "IV.5 Derechos de los funcionarios: permisos, reducciones de jornada y vacaciones",
+    "topic_slug": "age-adm-45-permisos-vacaciones",
+    "locale": "es",
+    "category": "age_adm_45_permisos_vacaciones",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 48.l) TREBEP",
+      "stem": "Según el artículo 48 del TREBEP, ¿qué permiso corresponde a un funcionario por matrimonio o por registro o constitución formalizada por documento público de pareja de hecho?",
+      "options": [
+        "Diez días hábiles.",
+        "Veinte días naturales.",
+        "Quince días.",
+        "Cinco días hábiles."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 48.l) del TREBEP concede quince días por matrimonio o registro o constitución formalizada de pareja de hecho.",
+      "excerpt": "l) Por matrimonio o registro o constitución formalizada por documento público de pareja de hecho, quince días.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.b) TREBEP",
+      "stem": "De acuerdo con el artículo 48 del TREBEP, por traslado de domicilio sin cambio de residencia el funcionario tiene derecho a un permiso de:",
+      "options": [
+        "Dos días.",
+        "Tres días hábiles.",
+        "Medio día.",
+        "Un día."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 48.b) del TREBEP reconoce un día de permiso por traslado de domicilio sin cambio de residencia.",
+      "excerpt": "b) Por traslado de domicilio sin cambio de residencia, un día.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.a) TREBEP",
+      "stem": "La abuela de una funcionaria es hospitalizada. Según el artículo 48.a) del TREBEP, ¿de qué permiso dispone la funcionaria por este motivo?",
+      "options": [
+        "Cinco días hábiles, por tratarse de un familiar de primer grado.",
+        "Cuatro días hábiles, por tratarse de un familiar dentro del segundo grado de consanguinidad.",
+        "Dos días hábiles, por tratarse de un familiar de segundo grado en la misma localidad.",
+        "Ninguno, porque el permiso solo cubre a familiares de primer grado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La abuela es pariente de segundo grado por consanguinidad; el art. 48.a) concede cuatro días hábiles por hospitalización de un familiar de segundo grado (cinco si es cónyuge, pareja de hecho o pariente de primer grado).",
+      "excerpt": "Cuando se trate de accidente o enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que precise de reposo domiciliario, de un familiar dentro del segundo grado de consanguinidad o afinidad, el permiso será de cuatro días hábiles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.a) TREBEP",
+      "stem": "Según el artículo 48.a) del TREBEP, por intervención quirúrgica sin hospitalización que precise reposo domiciliario de una persona distinta del cónyuge o de los parientes, que conviva con el funcionario en el mismo domicilio y requiera su cuidado efectivo, corresponde un permiso de:",
+      "options": [
+        "Cinco días hábiles.",
+        "Cuatro días hábiles.",
+        "Tres días hábiles.",
+        "Ninguno, porque solo da derecho la relación de parentesco."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 48.a) extiende el permiso de cinco días hábiles a cualquier otra persona que conviva con el funcionario en el mismo domicilio y requiera su cuidado efectivo.",
+      "excerpt": "así como de cualquier otra persona distinta de las anteriores que conviva con el funcionario o funcionaria en el mismo domicilio y que requiera el cuidado efectivo de aquella, cinco días hábiles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.a) TREBEP",
+      "stem": "Fallece el hermano de un funcionario destinado en Madrid; el fallecimiento se produce en Sevilla. De acuerdo con el artículo 48.a) del TREBEP, le corresponde un permiso de:",
+      "options": [
+        "Dos días hábiles.",
+        "Cinco días hábiles.",
+        "Cuatro días hábiles.",
+        "Tres días hábiles."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El hermano es familiar de segundo grado; por su fallecimiento el art. 48.a) concede dos días hábiles en la misma localidad y cuatro en distinta localidad.",
+      "excerpt": "En el caso de fallecimiento de familiar dentro del segundo grado de consanguinidad o afinidad, el permiso será de dos días hábiles cuando se produzca en la misma localidad y de cuatro días hábiles cuando sea en distinta localidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.f) TREBEP",
+      "stem": "Según el artículo 48.f) del TREBEP, por lactancia de un hijo menor de doce meses el funcionario tiene derecho a:",
+      "options": [
+        "Dos horas diarias de ausencia, con disminución proporcional de retribuciones.",
+        "Una hora de ausencia del trabajo, que podrá dividir en dos fracciones.",
+        "Media hora de ausencia, no divisible.",
+        "Una hora de ausencia hasta que el hijo cumpla dieciocho meses."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 48.f) reconoce una hora de ausencia divisible en dos fracciones, sustituible por una reducción de media hora al inicio y al final de la jornada o de una hora al inicio o al final.",
+      "excerpt": "f) Por lactancia de un hijo menor de doce meses tendrán derecho a una hora de ausencia del trabajo que podrá dividir en dos fracciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.f) TREBEP",
+      "stem": "Una funcionaria quiere acumular en jornadas completas el tiempo del permiso de lactancia. Según el artículo 48.f) del TREBEP:",
+      "options": [
+        "Puede hacerlo en cualquier momento, incluso durante el permiso por nacimiento, y puede cederlo al otro progenitor.",
+        "No puede hacerlo, porque la lactancia solo admite la ausencia de una hora diaria.",
+        "Puede hacerlo solo si el otro progenitor renuncia expresamente a su propio permiso.",
+        "Puede hacerlo, pero esta modalidad solo se disfruta a partir de la finalización del permiso por nacimiento, y el permiso de lactancia no puede transferirse al otro progenitor."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 48.f) permite acumular la lactancia en jornadas completas a partir del fin del permiso por nacimiento, adopción, guarda, acogimiento o del progenitor diferente de la madre biológica, y lo configura como derecho individual intransferible.",
+      "excerpt": "El permiso contemplado en este apartado constituye un derecho individual de los funcionarios, sin que pueda transferirse su ejercicio al otro progenitor, adoptante, guardador o acogedor. Se podrá solicitar la sustitución del tiempo de lactancia por un permiso retribuido que acumule en jornadas completas el tiempo correspondiente. Esta modalidad se podrá disfrutar únicamente a partir de la finalización del permiso por nacimiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.g) TREBEP",
+      "stem": "El hijo de un funcionario nace prematuro y debe permanecer hospitalizado tras el parto. De acuerdo con el artículo 48.g) del TREBEP, el funcionario tiene derecho a ausentarse del trabajo:",
+      "options": [
+        "Durante un máximo de dos horas diarias, percibiendo las retribuciones íntegras.",
+        "Durante un máximo de una hora diaria, con disminución proporcional de retribuciones.",
+        "Durante toda la jornada mientras dure la hospitalización, sin retribución.",
+        "Durante un máximo de dos horas diarias, con disminución proporcional de retribuciones."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 48.g) concede hasta dos horas diarias de ausencia con retribuciones íntegras; además permite reducir la jornada hasta dos horas con disminución proporcional de retribuciones.",
+      "excerpt": "g) Por nacimiento de hijos prematuros o que por cualquier otra causa deban permanecer hospitalizados a continuación del parto, la funcionaria o el funcionario tendrá derecho a ausentarse del trabajo durante un máximo de dos horas diarias percibiendo las retribuciones íntegras.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.h) TREBEP",
+      "stem": "Un funcionario tiene el cuidado directo de su hija de nueve años y pide reducir su jornada. Según el artículo 48.h) del TREBEP:",
+      "options": [
+        "Tiene derecho a la reducción de jornada sin disminución de retribuciones.",
+        "Tiene derecho a la reducción de jornada por guarda legal, con la disminución de retribuciones que corresponda.",
+        "No tiene derecho, porque la reducción por guarda legal solo alcanza a menores de seis años.",
+        "Solo tiene derecho si el otro progenitor no trabaja."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 48.h) reconoce la reducción de jornada por guarda legal de menores de doce años, personas mayores que requieran especial dedicación o personas con discapacidad sin actividad retribuida, con la disminución de retribuciones que corresponda.",
+      "excerpt": "h) Por razones de guarda legal, cuando el funcionario tenga el cuidado directo de algún menor de doce años, de persona mayor que requiera especial dedicación, o de una persona con discapacidad que no desempeñe actividad retribuida, tendrá derecho a la reducción de su jornada de trabajo, con la disminución de sus retribuciones que corresponda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.i) TREBEP",
+      "stem": "El padre de una funcionaria padece una enfermedad muy grave. De acuerdo con el artículo 48.i) del TREBEP, la funcionaria puede solicitar:",
+      "options": [
+        "Una reducción de hasta un tercio de la jornada, con carácter retribuido, por el plazo máximo de tres meses.",
+        "Una reducción de hasta el cincuenta por ciento de la jornada, sin retribución, mientras dure la enfermedad.",
+        "Una reducción de hasta el cincuenta por ciento de la jornada, con carácter retribuido, por el plazo máximo de un mes.",
+        "Un permiso de cinco días hábiles y, después, una reducción no retribuida de hasta dos horas diarias."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 48.i) permite reducir hasta el 50 % la jornada, retribuida, durante un mes como máximo, para cuidar a un familiar de primer grado con enfermedad muy grave; si hay varios titulares, pueden prorratear ese mes.",
+      "excerpt": "i) Por ser preciso atender el cuidado de un familiar de primer grado, el funcionario tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral, con carácter retribuido, por razones de enfermedad muy grave y por el plazo máximo de un mes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.d) TREBEP",
+      "stem": "Según el artículo 48.d) del TREBEP, para concurrir a exámenes finales y demás pruebas definitivas de aptitud, los funcionarios disponen de permiso:",
+      "options": [
+        "Durante los dos días anteriores y el de su celebración.",
+        "Hasta un máximo de cinco días al año.",
+        "Solo si la prueba se celebra fuera de la localidad de destino.",
+        "Durante los días de su celebración."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 48.d) concede permiso durante los días de celebración de los exámenes finales y demás pruebas definitivas de aptitud.",
+      "excerpt": "d) Para concurrir a exámenes finales y demás pruebas definitivas de aptitud, durante los días de su celebración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.a) TREBEP",
+      "stem": "De acuerdo con el artículo 49.a) del TREBEP, en el permiso por nacimiento para la madre biológica, las semanas obligatorias que han de disfrutarse a jornada completa son:",
+      "options": [
+        "Seis semanas ininterrumpidas inmediatamente posteriores al parto.",
+        "Cuatro semanas ininterrumpidas inmediatamente anteriores al parto.",
+        "Diez semanas, a distribuir libremente durante el primer año.",
+        "Dos semanas inmediatamente posteriores al parto."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 49.a) distribuye el permiso en seis semanas obligatorias e ininterrumpidas tras el parto, once semanas a distribuir hasta que el hijo cumpla doce meses y dos semanas hasta que cumpla ocho años.",
+      "excerpt": "1.º Seis semanas ininterrumpidas inmediatamente posteriores al parto, serán obligatorias y habrán de disfrutarse a jornada completa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.a) TREBEP",
+      "stem": "Según el artículo 49.a) del TREBEP, en el supuesto de monoparentalidad, por existir una única persona progenitora, el permiso por nacimiento para la madre biológica será de:",
+      "options": [
+        "Diecinueve semanas.",
+        "Treinta y dos semanas.",
+        "Veintiséis semanas.",
+        "Treinta y ocho semanas."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 49.a) fija diecinueve semanas con carácter general y treinta y dos en caso de monoparentalidad (con veintidós semanas de libre distribución y cuatro hasta los ocho años).",
+      "excerpt": "En el supuesto de monoparentalidad, por existir una única persona progenitora, el permiso será de treinta y dos semanas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.a) TREBEP",
+      "stem": "Una funcionaria quiere disfrutar de forma interrumpida parte de las semanas no obligatorias de su permiso por nacimiento. De acuerdo con el artículo 49.a) del TREBEP, ¿qué requisito debe cumplir?",
+      "options": [
+        "Un preaviso de al menos un mes, pudiendo disfrutarse por días sueltos.",
+        "La autorización previa del Subsecretario, sin necesidad de preaviso.",
+        "Un preaviso de al menos quince días para cada período de disfrute, que se realizará por semanas completas.",
+        "Un preaviso de diez días hábiles y disfrute por quincenas completas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 49.a) exige, en el disfrute interrumpido, preaviso de al menos quince días para cada periodo y disfrute por semanas completas.",
+      "excerpt": "En el caso del disfrute interrumpido del permiso se requerirá, para cada período de disfrute, un preaviso de al menos quince días y se realizará por semanas completas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.d) TREBEP",
+      "stem": "Una funcionaria víctima de violencia de género reduce su jornada para hacer efectiva su protección. Según el artículo 49.d) del TREBEP, mantendrá sus retribuciones íntegras:",
+      "options": [
+        "Cuando reduzca su jornada a la mitad o menos.",
+        "En cualquier caso, cualquiera que sea la reducción.",
+        "Solo durante los dos primeros meses de la reducción.",
+        "Cuando reduzca su jornada en un tercio o menos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 49.d) reconoce la reducción de jornada con disminución proporcional de retribución, pero mantiene las retribuciones íntegras cuando la reducción es de un tercio o menos.",
+      "excerpt": "la funcionaria pública mantendrá sus retribuciones íntegras cuando reduzca su jornada en un tercio o menos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.e) TREBEP",
+      "stem": "De acuerdo con el artículo 49.e) del TREBEP, el permiso por cuidado de hijo menor afectado por cáncer u otra enfermedad grave consiste en:",
+      "options": [
+        "Una reducción de la jornada de al menos la mitad de su duración, con retribuciones íntegras, como máximo hasta que el hijo cumpla 23 años.",
+        "Una reducción de la jornada de hasta un tercio, con retribuciones íntegras, hasta que el hijo cumpla 18 años.",
+        "Un permiso no retribuido de hasta ocho semanas, hasta que el hijo cumpla 8 años.",
+        "Una reducción de la jornada de al menos la mitad, con disminución proporcional de retribuciones, hasta los 18 años."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 49.e) reconoce, si ambos progenitores trabajan, una reducción de al menos la mitad de la jornada con retribuciones íntegras, como máximo hasta los 23 años del hijo (26 si antes de los 23 acredita discapacidad igual o superior al 65 %).",
+      "excerpt": "a una reducción de la jornada de trabajo de al menos la mitad de la duración de aquélla, percibiendo las retribuciones íntegras con cargo a los presupuestos del órgano o entidad donde venga prestando sus servicios […] como máximo, hasta que el hijo o persona que hubiere sido objeto de acogimiento permanente o guarda con fines de adopción cumpla los 23 años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.g) TREBEP",
+      "stem": "Según el artículo 49.g) del TREBEP, el permiso parental para el cuidado de hijo, hija o menor acogido por tiempo superior a un año, hasta que el menor cumpla ocho años:",
+      "options": [
+        "Será retribuido y tendrá una duración de dos semanas.",
+        "No será retribuido y tendrá una duración máxima de un año.",
+        "Será retribuido al cincuenta por ciento y tendrá una duración de ocho semanas.",
+        "No tendrá carácter retribuido y tendrá una duración no superior a ocho semanas, continuas o discontinuas."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 49.g) configura el permiso parental como no retribuido, de hasta ocho semanas continuas o discontinuas, hasta que el menor cumpla ocho años, con preaviso de quince días.",
+      "excerpt": "no tendrá carácter retribuido y tendrá una duración no superior a ocho semanas, continuas o discontinuas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.2 TREBEP",
+      "stem": "Un funcionario inicia sus vacaciones y, durante ellas, pasa a incapacidad temporal, que se prolonga hasta después de terminar el año. De acuerdo con el artículo 50.2 del TREBEP:",
+      "options": [
+        "Perderá los días de vacaciones no disfrutados, porque el periodo vacacional ya se había iniciado.",
+        "Podrá disfrutar el periodo vacacional aunque haya terminado el año natural, siempre que no hayan transcurrido más de dieciocho meses a partir del final del año en que se hayan originado.",
+        "Solo podrá disfrutar las vacaciones pendientes hasta el 31 de enero del año siguiente.",
+        "Tendrá derecho a que se le abonen en metálico los días no disfrutados."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 50.2 permite disfrutar las vacaciones fuera del año natural cuando la incapacidad temporal u otras situaciones lo impidan o sobrevengan durante ellas, con el límite de dieciocho meses desde el final del año en que se originaron.",
+      "excerpt": "o una vez iniciado el periodo vacacional sobreviniera una de dichas situaciones, el periodo vacacional se podrá disfrutar aunque haya terminado el año natural a que correspondan y siempre que no hayan transcurrido más de dieciocho meses a partir del final del año en que se hayan originado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.3 TREBEP",
+      "stem": "Según el artículo 50.3 del TREBEP, el período de vacaciones anuales retribuidas de los funcionarios públicos:",
+      "options": [
+        "No puede ser sustituido por una cuantía económica, salvo en los casos de conclusión de la relación de servicios por causas ajenas a la voluntad del funcionario.",
+        "Puede sustituirse por una cuantía económica a petición del funcionario.",
+        "Puede sustituirse por una cuantía económica cuando lo exijan las necesidades del servicio.",
+        "Puede acumularse indefinidamente a las vacaciones de los años siguientes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 50.3 prohíbe sustituir las vacaciones por dinero; solo cabe compensación económica cuando la relación de servicios termina por causas ajenas a la voluntad del funcionario (por ejemplo, jubilación por incapacidad permanente o fallecimiento).",
+      "excerpt": "El período de vacaciones anuales retribuidas de los funcionarios públicos no puede ser sustituido por una cuantía económica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.b) TREBEP",
+      "stem": "Una pareja de funcionarios inicia una adopción internacional que exige su desplazamiento previo al país de origen del menor. De acuerdo con el artículo 49.b) del TREBEP, además del permiso por adopción, tienen derecho a:",
+      "options": [
+        "Un permiso de hasta un mes de duración, con retribuciones íntegras.",
+        "Un permiso de hasta tres meses de duración, sin retribución.",
+        "Un permiso de hasta dos meses de duración, percibiendo durante ese periodo exclusivamente las retribuciones básicas.",
+        "Un permiso de hasta dos meses de duración, con retribuciones íntegras."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 49.b) concede, en la adopción o acogimiento internacional con desplazamiento previo, un permiso adicional de hasta dos meses con solo las retribuciones básicas.",
+      "excerpt": "Si fuera necesario el desplazamiento previo de los progenitores al país de origen del adoptado, en los casos de adopción o acogimiento internacional, se tendrá derecho, además, a un permiso de hasta dos meses de duración, percibiendo durante este periodo exclusivamente las retribuciones básicas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

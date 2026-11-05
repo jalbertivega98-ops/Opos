@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "set": "pn-45-prl-seguridad-vial-dgt_seguridad-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 45. Prevención de riesgos laborales en seguridad vial: factores del tráfico y riesgos en la conducción",
+    "topic_slug": "pn-45-prl-seguridad-vial",
+    "locale": "es",
+    "category": "pn_45_prl_seguridad_vial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Dirección General de Tráfico · Muévete con seguridad (ADAS, clasificación de seguridad de vehículos, cinturón, moto, seguridad vial laboral, fatiga, distracciones, conducción preventiva, frenado, coche, velocidad)",
+      "url": "https://www.dgt.es/muevete-con-seguridad/",
+      "kind": "web_oficial",
+      "publisher": "Dirección General de Tráfico (web oficial dgt.es)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DGT, «Seguridad vial laboral»",
+      "stem": "Según la Dirección General de Tráfico, los desplazamientos de ida y vuelta al puesto de trabajo se denominan:",
+      "options": [
+        "In itinere.",
+        "En misión.",
+        "Desplazamientos de jornada."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La DGT distingue los trayectos realizados durante la jornada laboral de los desplazamientos de ida y vuelta al puesto de trabajo (in itinere), y señala que en estos últimos se concentran muchos accidentes laborales graves y mortales.",
+      "excerpt": "Tanto los trayectos que se realizan durante la jornada laboral como los desplazamientos de ida y vuelta al puesto de trabajo (in itinere), pueden conllevar riesgos importantes que no deben subestimarse.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Seguridad vial laboral»",
+      "stem": "Según la Dirección General de Tráfico, la seguridad vial en entornos laborales comprende:",
+      "options": [
+        "Únicamente la regulación de los tiempos de conducción y descanso de los conductores profesionales.",
+        "Las normas de circulación aplicables a los vehículos de empresa.",
+        "El conjunto de acciones, políticas y medidas orientadas a prevenir los siniestros viales ocurridos en el entorno de trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Es la definición con la que la DGT abre su sección de seguridad vial laboral; la regulación de los tiempos de conducción es solo una parte del transporte profesional.",
+      "excerpt": "La seguridad vial en entornos laborales comprende el conjunto de acciones, políticas y medidas orientadas a prevenir los siniestros viales ocurridos en el entorno de trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Marco normativo y estratégico»",
+      "stem": "Según la Dirección General de Tráfico, la Estrategia Española de Seguridad Vial 2030 adopta el enfoque:",
+      "options": [
+        "De la responsabilidad exclusiva del conductor.",
+        "Del Sistema Seguro, con intervenciones integradas sobre personas, vehículos, infraestructuras, velocidad, normativa y atención post-siniestro.",
+        "De la prevención centrada únicamente en las infraestructuras viarias."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La DGT presenta la Estrategia 2030 como el marco nacional de referencia para reducir la siniestralidad vial, con el enfoque del Sistema Seguro, que aborda todos los factores que influyen en la seguridad vial.",
+      "excerpt": "Adoptando el enfoque del Sistema Seguro, esta Estrategia promueve intervenciones integradas que abordan todos los factores que influyen en la seguridad vial: personas, vehículos, infraestructuras, velocidad, normativa y atención post-siniestro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con fatiga»",
+      "stem": "Según la Dirección General de Tráfico, la principal causa de la fatiga al volante es:",
+      "options": [
+        "Conducir sin descanso durante demasiado tiempo.",
+        "Las condiciones climatológicas adversas.",
+        "El tipo de carretera por la que se circula."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La DGT relaciona la fatiga con el 20-30% de los accidentes y señala como su principal causa conducir sin descanso durante demasiado tiempo; el clima o el tipo de vía solo influyen en cuándo aparecen los síntomas y en su intensidad.",
+      "excerpt": "La fatiga se relaciona con el 20-30% de los accidentes de tráfico. Su principal causa es conducir sin descanso durante demasiado tiempo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con fatiga»",
+      "stem": "Según la Dirección General de Tráfico, entre los factores que potencian la fatiga, una mala ventilación o una temperatura elevada en el interior del vehículo se consideran factores:",
+      "options": [
+        "De la vía y del entorno.",
+        "Del conductor.",
+        "Del vehículo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La DGT clasifica los factores de la fatiga en externos (vía y entorno), del vehículo y del conductor. La ventilación, la temperatura interior, la iluminación, el ruido o el diseño del asiento son factores del vehículo.",
+      "excerpt": "Factores del vehículo Ver más Una mala ventilación o una temperatura elevada en el interior del vehículo pueden hacer más incómoda la conducción o incluso alterar el estado del conductor",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con fatiga»",
+      "stem": "Según la Dirección General de Tráfico, circular por una vía con una elevada densidad de tráfico, con frecuentes retenciones y paradas, es un factor de fatiga que pertenece a:",
+      "options": [
+        "El vehículo.",
+        "La vía y el entorno (factores externos).",
+        "El conductor."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Para la DGT, la densidad de tráfico, una vía poco conocida, el firme o el clima adverso son factores externos (vía y entorno) que obligan a aumentar la atención y potencian la fatiga.",
+      "excerpt": "Factores externos: la vía y el entorno Ver más Circular por una vía con una elevada densidad de tráfico, en la que te ves sometido a frecuentes retenciones y paradas, requiere aumentar la atención y la concentración necesaria para circular, lo que puede potenciar la fatiga.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con fatiga»",
+      "stem": "Según la Dirección General de Tráfico, los conductores noveles se fatigan con mayor facilidad porque:",
+      "options": [
+        "Suelen conducir vehículos más antiguos y con peor ergonomía.",
+        "Al no haber automatizado todavía muchos procesos de la conducción, han de concentrarse de manera más elevada en ellos.",
+        "Circulan con mayor frecuencia por vías con alta densidad de tráfico."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La DGT incluye entre los factores del conductor la falta de automatización de los procesos de conducción en los noveles, que exige más concentración y les fatiga antes.",
+      "excerpt": "Los conductores noveles, al no haber automatizado todavía muchos de los procesos implicados en la conducción, han de concentrarse de manera más elevada en ellos y se fatigan con mayor facilidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Distracciones al volante»",
+      "stem": "Según la Dirección General de Tráfico, las distracciones al volante son la causa de:",
+      "options": [
+        "Menos del 5% de los accidentes.",
+        "Alrededor del 10% de los accidentes.",
+        "Más del 30% de los accidentes."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La DGT advierte que no asociamos el riesgo de las distracciones tan bien como el de las drogas o el alcohol, pese a que causan más del 30% de los accidentes.",
+      "excerpt": "Pero las distracciones al volante son la causa de más del 30% de los accidentes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Distracciones al volante»",
+      "stem": "Según la Dirección General de Tráfico, el manejo del sistema de navegación (GPS) debe realizarse:",
+      "options": [
+        "Siempre antes de comenzar el viaje y siempre con el vehículo parado.",
+        "Solo en vías urbanas y a velocidad reducida.",
+        "Por el conductor en marcha, siempre que lo haga con una sola mano."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DGT recomienda programar el navegador antes de iniciar el viaje y con el vehículo parado, para evitar distracciones.",
+      "excerpt": "Su manejo debe realizarse siempre antes de comenzar el viaje y siempre con el vehículo parado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducción preventiva»",
+      "stem": "Según la Dirección General de Tráfico, para evitar un alcance son necesarios, al menos, entre vehículos:",
+      "options": [
+        "Medio segundo de diferencia.",
+        "Dos segundos de diferencia.",
+        "Diez segundos de diferencia."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La DGT fija un mínimo de dos segundos de separación, que debe ampliarse a tres o más con mal tiempo o asfalto mojado.",
+      "excerpt": "Para evitar un alcance son necesarios, al menos, dos segundos de diferencia entre vehículos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducción preventiva»",
+      "stem": "Según la Dirección General de Tráfico, dentro de un túnel, cuando no se pretenda adelantar, la distancia de seguridad deberá ampliarse al menos a:",
+      "options": [
+        "100 metros o 4 segundos de intervalo.",
+        "50 metros o 2 segundos de intervalo.",
+        "150 metros o 6 segundos de intervalo."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La DGT indica que en tramos donde una colisión múltiple puede ser desastrosa, como los túneles, la distancia debe ampliarse al menos a 100 metros o 4 segundos.",
+      "excerpt": "Dentro de un túnel, por ejemplo, la distancia de seguridad deberá ampliarse, al menos a 100 metros o 4 segundos de intervalo cuando no se pretenda adelantar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducción preventiva»",
+      "stem": "Según la Dirección General de Tráfico, ¿cuáles son las cinco distracciones más habituales que hay que evitar?",
+      "options": [
+        "Alcohol, velocidad, móvil, lluvia y niebla.",
+        "Publicidad, señales, peatones, ciclistas y obras.",
+        "Cansancio, móvil, radio, acompañantes y GPS."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La DGT enumera como las cinco distracciones más habituales el cansancio, el móvil, la radio, los acompañantes y el GPS.",
+      "excerpt": "Las cinco distracciones más habituales y que tenemos que evitar son: Cansancio, móvil, radio, acompañantes, GPS.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con exceso de velocidad»",
+      "stem": "Según la Dirección General de Tráfico, la distancia de detención de un vehículo es igual a:",
+      "options": [
+        "La suma de la distancia de reacción más la distancia de frenado.",
+        "La distancia de frenado menos la distancia de reacción.",
+        "Solo la distancia recorrida desde que se pisa el freno."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DGT define la distancia de detención como la suma de la distancia de reacción (antes de pisar el freno) y la de frenado (durante la frenada). La recorrida desde que se pisa el freno es la distancia de frenado.",
+      "excerpt": "La distancia de detención es igual a la suma de la distancia de reacción (espacio que recorres antes de pisar el freno) más la distancia de frenado (espacio que recorres durante la frenada).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con exceso de velocidad»",
+      "stem": "Según la Dirección General de Tráfico, se suele considerar normal un tiempo de reacción de:",
+      "options": [
+        "2 segundos.",
+        "0,2 segundos.",
+        "0,75 segundos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La DGT considera normal un tiempo de reacción de 0,75 s; a 50 km/h se recorren unos 10 metros antes de empezar a frenar y a 120 km/h, unos 25 metros.",
+      "excerpt": "Se suele considerar normal un tiempo de reacción de 0,75 segundos, durante los cuales recorrerás más o menos metros dependiendo de la velocidad a la que circules.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con exceso de velocidad»",
+      "stem": "Según la Dirección General de Tráfico, ¿qué proporción de los accidentes de tráfico con víctimas se puede relacionar directamente con el exceso de velocidad?",
+      "options": [
+        "Uno de cada cincuenta.",
+        "Uno de cada cinco.",
+        "Nueve de cada diez."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La DGT considera el exceso de velocidad o la velocidad inadecuada uno de los principales factores de riesgo: uno de cada cinco accidentes con víctimas se relaciona directamente con él.",
+      "excerpt": "Uno de cada cinco accidentes de tráfico con víctimas se puede relacionar directamente con el exceso de velocidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DGT, «Conducir con exceso de velocidad»",
+      "stem": "Según la Dirección General de Tráfico, ¿cuál de los siguientes factores NO se menciona entre los que influyen de manera importante en la distancia de detención?",
+      "options": [
+        "El estado del vehículo (frenos, neumáticos, amortiguación).",
+        "El color del vehículo.",
+        "El estado del conductor (fatiga, sueño, alcoholemia)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La DGT señala que en la distancia de detención influyen, además de la velocidad, el estado de la vía, la climatología, el estado del vehículo y el del conductor.",
+      "excerpt": "En esta distancia de detención, además de la velocidad, influyen de manera importante: El estado de la vía (firme en mal estado, etc.) Condiciones climatológicas (lluvia.nieve, etc.) El estado del vehículo (frenos, neumáticos, amortiguación, etc.) El estado del conductor (fatiga, sueño, alcoholemia, etc.)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

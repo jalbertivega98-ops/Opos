@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "set": "pn-37-ortografia-rae_dpd2-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 37. Ortografía de la lengua española",
+    "topic_slug": "pn-37-ortografia",
+    "locale": "es",
+    "category": "pn_37_ortografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario panhispánico de dudas (RAE-ASALE), 2.ª ed. en línea: puntuación, mayúsculas, números, siglas y gramática",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DPD, mayúsculas 5.4.12",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la frase correctamente escrita:",
+      "options": [
+        "La reunión se celebrará el próximo lunes, 3 de marzo.",
+        "La reunión se celebrará el próximo Lunes, 3 de Marzo.",
+        "La reunión se celebrará el próximo lunes, 3 de Marzo."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Los nombres de los días de la semana, los meses y las estaciones del año se escriben con minúscula, salvo que formen parte de una denominación que exija mayúscula (Viernes Santo, Feria de Abril).",
+      "excerpt": "5.4.12. Los nombres de los días de la semana, así como de los meses y las estaciones del año: Hoy es lunes, 23 de mayo; Estoy deseando que llegue el verano.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, mayúsculas 5.4.2",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la frase correctamente escrita:",
+      "options": [
+        "El Ministro del Interior visitó la comisaría con el Comisario Jefe.",
+        "El Ministro del interior visitó la comisaría con el comisario jefe.",
+        "El ministro del Interior visitó la comisaría con el comisario jefe."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Los sustantivos que designan cargos se escriben con minúscula, tanto en sus usos genéricos como referidos a una persona concreta; en cambio, Interior, como parte del nombre del ministerio, lleva mayúscula.",
+      "excerpt": "5.4.2. Los sustantivos que designan títulos nobiliarios, dignidades o cargos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, mayúsculas 5.4.5",
+      "stem": "Según el Diccionario panhispánico de dudas, los nombres de las lenguas (español, inglés, francés) se escriben:",
+      "options": [
+        "Con mayúscula inicial siempre.",
+        "Con minúscula inicial.",
+        "Con mayúscula inicial solo cuando son sujeto de la oración."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El DPD incluye los nombres de las lenguas entre los casos en que no debe usarse la mayúscula inicial: El español es la lengua más estudiada del mundo después del inglés.",
+      "excerpt": "5.4.5. Los nombres de las lenguas: El español es la lengua más estudiada del mundo después del inglés.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, coma 3.1",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la oración incorrectamente puntuada:",
+      "options": [
+        "Los agentes de la patrulla nocturna, detuvieron al sospechoso.",
+        "Los agentes de la patrulla nocturna detuvieron al sospechoso.",
+        "Los agentes, tras una larga persecución, detuvieron al sospechoso."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Es incorrecto escribir coma entre el sujeto y el verbo, aunque el sujeto sea largo. Sí es correcto delimitar entre comas un inciso como «tras una larga persecución».",
+      "excerpt": "3.1. Es incorrecto escribir coma entre el sujeto y el verbo de una oración, incluso cuando el sujeto está compuesto de varios elementos separados por comas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, números 2.1.b",
+      "stem": "Según el Diccionario panhispánico de dudas, el número 444 se escribe en números romanos:",
+      "options": [
+        "CCCCXXXXIIII.",
+        "CDXLIV.",
+        "CDXXXXIV."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Hoy no debe repetirse más de tres veces consecutivas un mismo signo; por eso 444 no puede escribirse CCCCXXXXIIII, sino CDXLIV.",
+      "excerpt": "pero 444 no puede escribirse ⊗CCCCXXXXIIII; se escribe CDXLIV.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, puntos suspensivos 1",
+      "stem": "Según el Diccionario panhispánico de dudas, los puntos suspensivos son un signo de puntuación formado por:",
+      "options": [
+        "Tres o más puntos consecutivos, según la intensidad de la suspensión.",
+        "Dos o tres puntos consecutivos, indistintamente.",
+        "Tres puntos consecutivos, y solo tres."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DPD subraya que los puntos suspensivos son tres puntos consecutivos «y solo tres», y que se escriben pegados a la palabra o signo que los precede.",
+      "excerpt": "Signo de puntuación formado por tres puntos consecutivos (…) ―y solo tres―",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, mayúsculas 5.2.23",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la frase correctamente escrita:",
+      "options": [
+        "Ingresó en la policía hace diez años y ayer un Policía le entregó la placa.",
+        "Ingresó en la Policía hace diez años y ayer un policía le entregó la placa.",
+        "Ingresó en la Policía hace diez años y ayer un Policía le entregó la placa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Policía se escribe con mayúscula cuando designa la institución, pero con minúscula cuando se refiere a un agente o, en singular colectivo, a un grupo concreto de agentes.",
+      "excerpt": "En cambio, se escriben con minúsculas cuando no designan la institución: un policía [= un agente]",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, mayúsculas 2",
+      "stem": "Según el Diccionario panhispánico de dudas, las palabras escritas en mayúsculas:",
+      "options": [
+        "Deben llevar tilde según las reglas generales, salvo los acrónimos escritos enteramente en mayúsculas.",
+        "No llevan nunca tilde.",
+        "Llevan tilde solo en la primera letra de la palabra."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Las reglas de la tilde y la diéresis se aplican también a las mayúsculas (Álvaro, LEÓN, ANTIGÜEDAD); solo se exceptúan los acrónimos escritos enteramente en mayúsculas, como CIA.",
+      "excerpt": "Las reglas de uso de la tilde (→ tilde2) y de la diéresis (→ diéresis) se aplican a todas las palabras, estén escritas en mayúsculas o minúscula: Álvaro, LEÓN, ANTIGÜEDAD.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, mayúsculas 5.4.9",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la expresión correctamente escrita:",
+      "options": [
+        "Viajaron rumbo al Norte hasta llegar a Corea del Sur.",
+        "Viajaron rumbo al norte hasta llegar a Corea del sur.",
+        "Viajaron rumbo al norte hasta llegar a Corea del Sur."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Los puntos cardinales se escriben con minúscula, salvo cuando forman parte de una expresión que exija mayúscula, como América del Norte o Corea del Sur.",
+      "excerpt": "Se escribirán con mayúscula cuando formen parte de una expresión que así lo exija: América del Norte, Corea del Sur, Europa del Este, la Cruz del Sur.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, números 1.1.c y f",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la forma correctamente escrita:",
+      "options": [
+        "8.327.451 habitantes.",
+        "Código postal 28.357.",
+        "Artículo 1566 del Código Penal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "No se admite el punto ni la coma para separar grupos de tres dígitos (se usa un espacio fino), y los números que identifican un elemento de una serie (años, páginas, artículos, códigos postales) se escriben sin puntos, comas ni espacios.",
+      "excerpt": "c) No se admite el uso del punto ni de la coma para separar los grupos de tres dígitos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, números 3.3.c",
+      "stem": "Según el Diccionario panhispánico de dudas, ¿cuál de las siguientes expresiones NO es correcta?",
+      "options": [
+        "327 millones de euros.",
+        "125 mil personas.",
+        "Ciento veinticinco mil personas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Solo admiten la combinación de cifras y palabras las cantidades con un sustantivo numeral (millón, millardo, billón…). No vale para los miles, porque mil no es un sustantivo.",
+      "excerpt": "así, no debe escribirse ⊗125 mil personas o ⊗13 mil millones de dólares",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, números 2.2.c",
+      "stem": "Según el Diccionario panhispánico de dudas, para indicar los siglos:",
+      "options": [
+        "Se usan números romanos pospuestos al sustantivo, y no números arábigos.",
+        "Se usan indistintamente números romanos o arábigos.",
+        "Se usan números arábigos antepuestos al sustantivo."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Los siglos se indican con números romanos pospuestos (siglo xv, siglo xxi); no deben usarse arábigos (siglo 21).",
+      "excerpt": "c) Para indicar los siglos, uso en que se posponen siempre al sustantivo: siglo xv, siglo xxi. No deben usarse, en este caso, números arábigos: ⊗siglo 21.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, sigla 4.a y 5",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la forma correcta:",
+      "options": [
+        "Las O.N.G. presentaron su informe.",
+        "Las ONGs presentaron su informe.",
+        "Las ONG presentaron su informe."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Las siglas se escriben hoy sin puntos ni blancos de separación y son invariables en la escritura: el plural se indica con un determinante (las ONG, varios CD).",
+      "excerpt": "a) Las siglas se escriben hoy sin puntos ni blancos de separación, incluso cuando se integran en textos escritos enteramente en mayúsculas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, porqué",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la frase correcta:",
+      "options": [
+        "Nadie entendió el porqué de su dimisión.",
+        "Nadie entendió el por qué de su dimisión.",
+        "Nadie entendió el porque de su dimisión."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Porqué es un sustantivo masculino que significa 'causa o motivo'; se usa generalmente precedido de determinante y su plural es porqués.",
+      "excerpt": "1. Sustantivo masculino que significa 'causa o motivo'. Se usa generalmente precedido de determinante y su plural es porqués",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, dos puntos 2.1",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la oración incorrectamente puntuada:",
+      "options": [
+        "En la reunión había representantes de tres países: Francia, Italia y Portugal.",
+        "En la reunión había representantes de: Francia, Italia y Portugal.",
+        "Francia, Italia y Portugal: esos países tenían representantes en la reunión."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Los dos puntos se usan ante enumeraciones explicativas precedidas de un elemento anticipador; no se usan en las enumeraciones que carecen de él. También pueden cerrar una enumeración anticipada y dar paso al concepto que la engloba.",
+      "excerpt": "No se usan los dos puntos en las enumeraciones que carecen de elemento anticipador",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, puntos suspensivos 2.2.d",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la oración que contiene un uso redundante que debe evitarse:",
+      "options": [
+        "Revisaron los documentos, las armas, los vehículos…",
+        "Revisaron los documentos, las armas, los vehículos, etc.",
+        "Revisaron los documentos, las armas, los vehículos…, etc."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Al final de enumeraciones abiertas, los puntos suspensivos tienen el mismo valor que etcétera; debe evitarse por redundante usar ambos a la vez.",
+      "excerpt": "Debe evitarse, por redundante, la aparición conjunta de ambos elementos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, números 3.2.c y 3.1.a",
+      "stem": "Según el Diccionario panhispánico de dudas, se escriben preferentemente con palabras, y no con cifras:",
+      "options": [
+        "Los números que pueden expresarse en una sola palabra, como cinco o cincuenta.",
+        "Los números que indican año, como 2020.",
+        "Los números formados por una parte entera y una decimal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Se escriben preferentemente con palabras los números expresables en una sola palabra (del cero al veintinueve, las decenas y las centenas). Los años y los números con decimales se escriben con cifras.",
+      "excerpt": "a) Los números que pueden expresarse en una sola palabra, esto es, del cero al veintinueve, las decenas (treinta, cuarenta, etc.) y las centenas (cien, doscientos, etc.)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, guion 2.2",
+      "stem": "Según el Diccionario panhispánico de dudas, al dividir una palabra con guion a final de línea, ¿cuál de las siguientes divisiones es correcta?",
+      "options": [
+        "ca- / usa.",
+        "cau- / sa.",
+        "comerí- / ais."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Dos o más vocales seguidas nunca se separan a final de línea, formen diptongo, triptongo o hiato (salvo excepciones en compuestos o prefijados como contra- / espionaje).",
+      "excerpt": "2.2. Dos o más vocales seguidas nunca se separan al final de línea, formen diptongo, triptongo o hiato: cau- / sa, y no ⊗ca- / usa; come- / ríais, y no ⊗comerí- / ais.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, abreviatura 5.a",
+      "stem": "Según el Diccionario panhispánico de dudas, las abreviaturas formadas por truncamiento (suprimiendo letras o sílabas finales):",
+      "options": [
+        "Deben terminar siempre en vocal, por lo que la abreviatura de prólogo es prólo.",
+        "Pueden terminar en cualquier letra, por lo que pró. y pról. son igualmente válidas.",
+        "Nunca deben terminar en vocal, por lo que la abreviatura de prólogo es pról."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "En el truncamiento la abreviatura nunca debe terminar en vocal: pról., y no pró. ni prólo.",
+      "excerpt": "En este caso, la abreviatura nunca debe terminar en vocal: pról., y no ⊗pró. ni ⊗prólo., como abreviatura de prólogo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, interrogación (vocativos)",
+      "stem": "Según el Diccionario panhispánico de dudas, señale la oración correctamente escrita:",
+      "options": [
+        "¿Raquel, sabes ya cuándo vendrás?",
+        "Raquel, ¿sabes ya cuándo vendrás?",
+        "Raquel ¿sabes ya cuándo vendrás?"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Los vocativos que ocupan el primer lugar del enunciado se escriben fuera de la pregunta (y separados por coma); si van al final, se consideran incluidos en ella.",
+      "excerpt": "d) Los vocativos, cuando ocupan el primer lugar del enunciado, se escriben fuera de la pregunta; pero, si van al final, se consideran incluidos en ella: Raquel, ¿sabes ya cuándo vendrás?",
+      "excerpt_status": "completo"
+    }
+  ]
+}

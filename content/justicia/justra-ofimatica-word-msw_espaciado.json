@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_espaciado-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cambiar los espacios entre el texto en Word",
+      "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Espaciado",
+      "stem": "En Word, para expandir o condensar uniformemente el espacio entre los caracteres seleccionados, hay que abrir el cuadro de diálogo Fuente y seleccionar la pestaña:",
+      "options": [
+        "Fuente, eligiendo Expandido o Condensado en el cuadro Estilo.",
+        "Avanzadas, eligiendo Expandido o Condensado en el cuadro Espaciado.",
+        "Párrafo, en el cuadro Interlineado.",
+        "Sangría y espacio, en el cuadro Espaciado."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La cantidad se especifica en el cuadro Por.",
+      "excerpt": "En la pestaña Inicio , seleccione el iniciador del cuadro de diálogo Fuente (con un círculo verde en la siguiente captura de pantalla) y, a continuación, seleccione la pestaña Avanzadas . En el cuadro Espaciado , seleccione Expandido o Condensado y, después, especifique cuánto espacio desea en el cuadro Por .",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Espaciado",
+      "stem": "En la pestaña Avanzadas del cuadro de diálogo Fuente de Word, si en el cuadro Escala se introduce un porcentaje superior a 100:",
+      "options": [
+        "Se comprime el texto.",
+        "Aumenta el interlineado.",
+        "Se estira el texto.",
+        "Aumenta el tamaño de fuente en puntos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Los porcentajes inferiores a 100 comprimen el texto.",
+      "excerpt": "Los porcentajes superiores a 100 estiran el texto. Los porcentajes inferiores a 100 comprimen el texto.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

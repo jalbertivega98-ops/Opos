@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "set": "age-aux-b1-14-derechos-deberes-funcionarios-lincomp-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.14 Derechos y deberes de los funcionarios, retribuciones y régimen disciplinario",
+    "topic_slug": "age-aux-b1-14-derechos-deberes-funcionarios",
+    "locale": "es",
+    "category": "age_aux_b1_14_derechos_deberes_funcionarios",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-151",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10 Ley 53/1984",
+      "stem": "Según el artículo 10 de la Ley 53/1984, de Incompatibilidades, quien acceda a un nuevo puesto del sector público incompatible con el que venía desempeñando y no ejerza la opción en el plazo de toma de posesión:",
+      "options": [
+        "Se entenderá que opta por el puesto que venía desempeñando, decayendo en el nuevo nombramiento.",
+        "Pasará a la situación de suspensión de funciones en ambos puestos.",
+        "Podrá seguir desempeñando ambos puestos hasta que se resuelva un expediente de compatibilidad.",
+        "Se entenderá que opta por el nuevo puesto, pasando a excedencia voluntaria en el que venía desempeñando."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 10 obliga a optar dentro del plazo de toma de posesión; a falta de opción se entiende que se opta por el nuevo puesto y se pasa a excedencia voluntaria en el anterior.",
+      "excerpt": "A falta de opción en el plazo señalado se entenderá que optan por el nuevo puesto, pasando a la situación de excedencia voluntaria en los que vinieran desempeñando.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14 Ley 53/1984",
+      "stem": "De acuerdo con el artículo 14 de la Ley 53/1984, la resolución motivada que reconozca la compatibilidad para actividades privadas o declare la incompatibilidad se dictará en el plazo de:",
+      "options": [
+        "Un mes.",
+        "Tres meses.",
+        "Dos meses.",
+        "Quince días."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 14 fija un plazo de dos meses para resolver; el reconocimiento de compatibilidad no puede modificar la jornada ni el horario y queda sin efecto si se cambia de puesto en el sector público.",
+      "excerpt": "La resolución motivada reconociendo la compatibilidad o declarando la incompatibilidad, que se dictará en el plazo de dos meses",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8 Ley 53/1984",
+      "stem": "Según el artículo 8 de la Ley 53/1984, el personal que, en representación del sector público, pertenezca a Consejos de Administración u órganos de gobierno de entidades o empresas no podrá pertenecer, salvo autorización excepcional, a más de:",
+      "options": [
+        "Dos Consejos de Administración u órganos de gobierno.",
+        "Un Consejo de Administración u órgano de gobierno.",
+        "Tres Consejos de Administración u órganos de gobierno.",
+        "Cinco Consejos de Administración u órganos de gobierno."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 8 limita la pertenencia a dos Consejos u órganos de gobierno, salvo autorización excepcional del Gobierno, del órgano autonómico competente o del Pleno de la Corporación Local; solo se perciben las dietas o indemnizaciones por asistencia.",
+      "excerpt": "No se podrá pertenecer a más de dos Consejos de Administración u órganos de gobierno a que se refiere el apartado anterior",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 19.c) Ley 53/1984",
+      "stem": "¿Cuál de las siguientes actividades está exceptuada del régimen de incompatibilidades según el artículo 19 de la Ley 53/1984?",
+      "options": [
+        "El desempeño de un segundo puesto de trabajo en el sector público a tiempo parcial.",
+        "La participación en Tribunales calificadores de pruebas selectivas para ingreso en las Administraciones Públicas.",
+        "La pertenencia a Consejos de Administración de empresas contratistas de la Administración.",
+        "El ejercicio de la abogacía en asuntos en los que haya intervenido por razón del puesto."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 19 exceptúa, entre otras, la participación en tribunales calificadores, la creación literaria, artística o científica y la colaboración ocasional en congresos o cursos. Las otras opciones requieren autorización o están prohibidas (arts. 3 y 12).",
+      "excerpt": "Quedan exceptuadas del régimen de incompatibilidades de la presente Ley las actividades siguientes: […] c) La participación en Tribunales calificadores de pruebas selectivas para ingreso en las Administraciones Públicas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 12.1.d) Ley 53/1984",
+      "stem": "Según el artículo 12 de la Ley 53/1984, el personal incluido en su ámbito no podrá tener una participación en el capital de empresas concesionarias o contratistas de obras, servicios o suministros superior al:",
+      "options": [
+        "5 por 100.",
+        "15 por 100.",
+        "25 por 100.",
+        "10 por 100."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 12.1.d) prohíbe la participación superior al 10 % en el capital de las empresas o sociedades del párrafo c): concesionarias, contratistas, arrendatarias o con participación o aval del sector público.",
+      "excerpt": "d) La participación superior al 10 por 100 en el capital de las Empresas o Sociedades a que se refiere el párrafo anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.4 Ley 53/1984",
+      "stem": "De acuerdo con el artículo 16.4 de la Ley 53/1984, podrá reconocerse compatibilidad para actividades privadas al personal cuyo puesto comporte la percepción de complemento específico cuando su cuantía no supere el:",
+      "options": [
+        "20 por 100 de su retribución básica, incluidos los trienios.",
+        "30 por 100 de su retribución básica, excluidos los conceptos que tengan su origen en la antigüedad.",
+        "30 por 100 de sus retribuciones totales.",
+        "50 por 100 de su retribución básica, excluidos los conceptos que tengan su origen en la antigüedad."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 16.4 permite, por excepción, reconocer la compatibilidad si el complemento específico no supera el 30 % de la retribución básica, sin contar la antigüedad.",
+      "excerpt": "podrá reconocerse compatibilidad para el ejercicio de actividades privadas al personal que desempeñe puestos de trabajo que comporten la percepción de complementos específicos, o concepto equiparable, cuya cuantía no supere el 30 por 100 de su retribución básica, excluidos los conceptos que tengan su origen en la antigüedad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

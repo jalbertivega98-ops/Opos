@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "set": "age-adm-60-supuesto-practico-cleco-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "Segunda parte · Casos breves al estilo del supuesto práctico (plazos, recursos, situaciones y crédito)",
+    "topic_slug": "age-adm-60-supuesto-practico",
+    "locale": "es",
+    "category": "age_adm_60_supuesto_practico",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Resolución de 20 de enero de 2014, de la Dirección General de Presupuestos, por la que se establecen los códigos que definen la clasificación económica (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-879",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Anexo IV, concepto 162 (Resolución DGP 20/01/2014)",
+      "stem": "Un Ministerio paga los reconocimientos médicos periódicos de su personal. Según el código de la clasificación económica de los gastos (Resolución de 20 de enero de 2014 de la Dirección General de Presupuestos), ¿dónde se imputa ese gasto?",
+      "options": [
+        "En el concepto 221 «Suministros», subconcepto «Productos farmacéuticos y material sanitario», del capítulo 2.",
+        "En el concepto 162 «Gastos sociales del personal» (subconcepto 09 «Otros»), del capítulo 1.",
+        "En el concepto 227 «Trabajos realizados por otras empresas y profesionales», subconcepto «Estudios y trabajos técnicos».",
+        "En el capítulo 4 «Transferencias corrientes», artículo 48 «A familias e instituciones sin fines de lucro»."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El código incluye expresamente en el subconcepto 162.09 los gastos de reconocimiento médico del personal y los derivados de accidentes de trabajo.",
+      "excerpt": "Concepto 162. Gastos sociales del personal. […] Gastos de reconocimiento médico del personal y aquellos derivados de accidentes de trabajo.",
+      "excerpt_status": "completo",
+      "review_note": "La Resolución de 2014 advierte que las órdenes anuales de elaboración de los PGE pueden actualizar tácitamente la clasificación económica; conviene contrastar el código con la orden vigente."
+    },
+    {
+      "ref": "Anexo IV, concepto 226 (Resolución DGP 20/01/2014)",
+      "stem": "Una Subdirección paga la inserción de un anuncio en el Boletín Oficial del Estado para dar publicidad a una actuación. Según el código de la clasificación económica de los gastos, ¿dónde se imputa ese gasto?",
+      "options": [
+        "En el subconcepto 220.01 «Prensa, revistas, libros y otras publicaciones».",
+        "En el concepto 240 «Gastos de edición y distribución».",
+        "En el subconcepto 226.01 «Atenciones protocolarias y representativas».",
+        "En el subconcepto 226.02 «Publicidad y propaganda»."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El subconcepto 226.02 «Publicidad y propaganda» incluye expresamente los gastos de inserción de publicidad en Boletines Oficiales.",
+      "excerpt": "Subconcepto 02. Publicidad y propaganda. […] Se incluirán en este epígrafe los gastos que ocasione la inserción de publicidad en Boletines Oficiales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

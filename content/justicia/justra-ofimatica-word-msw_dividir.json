@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "justra-ofimatica-word-msw_dividir-v1",
+    "exam": "tramitacion-procesal",
+    "also_exams": [],
+    "topic": "Tramitación, ejercicio de ofimática. Procesador de textos: Word para Microsoft 365",
+    "topic_slug": "justra-ofimatica-word",
+    "locale": "es",
+    "category": "justra_ofimatica_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Dividir una tabla en Word",
+      "url": "https://support.microsoft.com/es-es/word/split-a-table-in-word",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Dividir tabla",
+      "stem": "Para dividir una tabla de Word en dos, ¿dónde debe colocarse el cursor antes de seleccionar Dividir tabla?",
+      "options": [
+        "En la última fila que deba quedar en la primera tabla.",
+        "En la primera celda de la tabla.",
+        "Fuera de la tabla, justo debajo de ella.",
+        "En la fila que se desee como primera fila de la segunda tabla."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Después, en la pestaña contextual de tabla, grupo Combinar, se selecciona Dividir tabla.",
+      "excerpt": "Coloque el cursor en la fila que desee como primera fila de la segunda tabla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Dividir tabla",
+      "stem": "En Word para Windows, el comando Dividir tabla se encuentra en la pestaña contextual de tabla, dentro del grupo:",
+      "options": [
+        "Filas y columnas.",
+        "Alineación.",
+        "Datos.",
+        "Combinar."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Las pestañas de herramientas de tabla solo son visibles cuando el cursor está en la tabla.",
+      "excerpt": "En la pestaña Diseño de tabla , en el grupo Combinar , seleccione Dividir tabla.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

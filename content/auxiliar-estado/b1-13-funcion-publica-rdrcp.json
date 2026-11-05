@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b1-13-funcion-publica-rdrcp-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "I.13 El personal funcionario: clases, selección, provisión y situaciones",
+    "topic_slug": "age-aux-b1-13-funcion-publica",
+    "locale": "es",
+    "category": "age_aux_b1_13_funcion_publica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 2073/1999, de 30 de diciembre, por el que se modifica el Reglamento del Registro Central de Personal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-1007",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10.1 Reglamento RCP (RD 2073/1999)",
+      "stem": "Según el Reglamento del Registro Central de Personal (Real Decreto 2073/1999), los asientos en los que se registra el establecimiento de cualquier relación laboral o funcionarial de una persona con la Administración son:",
+      "options": [
+        "Anotaciones ordinarias.",
+        "Anotaciones marginales.",
+        "Anotaciones provisionales.",
+        "Inscripciones."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 10.1 distingue dos tipos de asientos: inscripciones (establecimiento de la relación) y anotaciones (actos, resoluciones y otros datos), que pueden ser ordinarias, provisionales y marginales.",
+      "excerpt": "Son inscripciones aquellos asientos en los que se registra el establecimiento de cualquier relación laboral o funcionarial de una persona con la Administración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 9.1 Reglamento RCP (RD 2073/1999)",
+      "stem": "De acuerdo con el Reglamento del Registro Central de Personal, el número de identificación personal que asigna el Registro a los ciudadanos españoles:",
+      "options": [
+        "Está basado en el número del documento nacional de identidad y será el mismo durante toda la vida administrativa.",
+        "Cambia con cada nuevo nombramiento o contrato laboral.",
+        "Se asigna por el órgano de personal de cada Ministerio.",
+        "Puede reutilizarse cuando la persona anterior ya no esté de alta en el Registro."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 9.1 lo basa en el DNI y lo mantiene durante toda la vida administrativa. Lo que se multiplica con cada nombramiento o contrato es el número de registro de personal (art. 8.3).",
+      "excerpt": "El Registro Central de Personal asignará un número de identificación personal, que estará basado en el número del documento nacional de identidad cuando inscriba ciudadanos españoles. Este número será el mismo durante toda la vida administrativa de los interesados",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.4 Reglamento RCP (RD 2073/1999)",
+      "stem": "Según el Reglamento del Registro Central de Personal, las anotaciones provisionales solo podrán mantenerse durante el plazo de:",
+      "options": [
+        "Noventa días naturales, prorrogable en otros noventa tras requerir la comunicación formal.",
+        "Treinta días hábiles, sin prórroga.",
+        "Seis meses, prorrogables por otros seis.",
+        "Noventa días hábiles, sin prórroga."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 14.4 fija noventa días naturales; transcurridos sin comunicación formal, el Registro la requiere y prorroga otros noventa días, tras los cuales la anotación se cancela.",
+      "excerpt": "Las anotaciones provisionales sólo podrán mantenerse durante el plazo de noventa días naturales. Transcurrido dicho plazo sin que se hubiera recibido la comunicación formal, el Registro Central de Personal requerirá su remisión al órgano correspondiente, prorrogando el plazo en otros noventa días naturales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
