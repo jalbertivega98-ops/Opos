@@ -25,6 +25,8 @@ import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies } from "@/lib/catalog/queries";
+import { billingStatus } from "@/lib/billing/queries";
+import { premiumInfo } from "@/lib/store/queries";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { JsonLd, faqLd, organizationLd, websiteLd } from "@/lib/seo/json-ld";
@@ -60,7 +62,9 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
   setRequestLocale(locale);
   const t = await getTranslations("landing");
   const tNotice = await getTranslations("landingNotice");
-  const exams = await listExamBodies({}, 6);
+  const [exams, premium] = await Promise.all([listExamBodies({}, 6), premiumInfo()]);
+  // Premium a la venta: pagos activos y producto publicado con precio mensual
+  const premiumOn = billingStatus().enabled && premium.published && premium.cents !== null;
 
   const tSeo = await getTranslations("seo");
   const faqItems = FAQ.map((n) => ({ q: t(`faq.q${n}`), a: t(`faq.a${n}`) }));
@@ -423,14 +427,22 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                   </Button>
                 ) : (
                   <>
-                    <Button
-                      className="bg-ink-foreground text-ink w-full disabled:opacity-70"
-                      size="lg"
-                      disabled
-                    >
-                      {t("premium.cta")}
-                    </Button>
-                    <p className="text-ink-muted mt-2 text-center text-xs">{t("premium.note")}</p>
+                    {premiumOn ? (
+                      <Button asChild className="bg-ink-foreground text-ink w-full" size="lg">
+                        <Link href="/app/productos">{t("premium.ctaOn")}</Link>
+                      </Button>
+                    ) : (
+                      <Button
+                        className="bg-ink-foreground text-ink w-full disabled:opacity-70"
+                        size="lg"
+                        disabled
+                      >
+                        {t("premium.cta")}
+                      </Button>
+                    )}
+                    <p className="text-ink-muted mt-2 text-center text-xs">
+                      {t(premiumOn ? "premium.noteOn" : "premium.note")}
+                    </p>
                   </>
                 )}
               </div>
