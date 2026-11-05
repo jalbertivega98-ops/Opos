@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
 import { Card, EmptyState } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
-import { getPracticeMetrics, getUserMetrics } from "@/lib/admin/metrics";
+import { Link } from "@/i18n/navigation";
+import { getAudienceMetrics, getPracticeMetrics, getUserMetrics } from "@/lib/admin/metrics";
 import { pct } from "@/lib/learning/practice/format";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
@@ -13,7 +14,16 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
   const t = await getTranslations("admin");
   const format = await getFormatter();
   const tp = await getTranslations("psycho");
-  const [m, pm] = await Promise.all([getUserMetrics(), getPracticeMetrics()]);
+  const [m, pm, am] = await Promise.all([
+    getUserMetrics(),
+    getPracticeMetrics(),
+    getAudienceMetrics(),
+  ]);
+  const audience = [
+    ["audienceVisits", am.visits_today, am.visits_7d, am.visits_30d],
+    ["audienceSignups", am.signups_today, am.signups_7d, am.signups_30d],
+    ["audienceLogins", am.logins_today, am.logins_7d, am.logins_30d],
+  ] as const;
 
   const kpis = [
     { key: "totalUsers", value: m.totalUsers },
@@ -39,6 +49,47 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
           ))}
         </div>
         <Alert className="mt-4">{t("pendingMetrics")}</Alert>
+      </section>
+
+      <section aria-labelledby="audience-title" data-testid="admin-audience">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 id="audience-title" className="text-lg font-semibold">
+            {t("audienceTitle")}
+          </h2>
+          <Link href="/admin/trafico" className="text-primary text-sm font-medium underline">
+            {t("audienceTraffic")}
+          </Link>
+        </div>
+        <div className="mt-3 grid gap-4 sm:grid-cols-3">
+          {audience.map(([key, today, week, month]) => (
+            <Card key={key} data-testid={`audience-${key}`}>
+              <p className="text-muted-foreground text-sm">{t(key)}</p>
+              <dl className="mt-2 grid grid-cols-3 gap-2 text-center">
+                {(
+                  [
+                    ["audienceToday", today],
+                    ["audience7d", week],
+                    ["audience30d", month],
+                  ] as const
+                ).map(([label, value]) => (
+                  <div key={label}>
+                    <dt className="text-muted-foreground text-xs">{t(label)}</dt>
+                    <dd className="font-display text-2xl font-extrabold tabular-nums">
+                      {format.number(value)}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </Card>
+          ))}
+        </div>
+        <p className="text-muted-foreground mt-3 text-sm">
+          {t("audienceTotal", {
+            total: format.number(am.users_total),
+            confirmed: format.number(am.users_confirmed),
+          })}
+        </p>
+        <p className="text-muted-foreground mt-1 text-xs">{t("audienceHint")}</p>
       </section>
 
       <section aria-labelledby="practice-title" data-testid="admin-practice">

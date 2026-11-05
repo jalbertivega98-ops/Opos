@@ -222,3 +222,13 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 
 **Motivo:** el plan es el camino del alumno; tiene que llevar a estudiar, no a una tienda.
 **Consecuencias:** ya no se practica un producto entero (la acción `startProductPracticeAction` desaparece; su función SQL se queda). El plan no guarda el histórico de semanas pasadas: en semanas anteriores el calendario muestra lo hecho, no lo planificado. Las condiciones de venta cambian «Mis productos» por «Mi perfil».
+
+## ADR-037 · Medir visitas y cuentas: Vercel Web Analytics y cifras en el panel (2026-11-05)
+
+**Decisión:** joel quiere saber cuánta gente visita la web y cuántos han entrado. Dos piezas:
+
+- **Vercel Web Analytics** (`@vercel/analytics`, componente `WebAnalytics` en el layout): páginas vistas, visitantes, países y dispositivos en la pestaña Analytics del proyecto en Vercel. No usa cookies ni guarda la IP. Solo se carga en Vercel (`process.env.VERCEL`), no en local ni en las pruebas. `beforeSend` quita los parámetros de la URL (códigos de acceso, `next`, correos) salvo los `utm_*`. Hay que activarlo una vez en Vercel → proyecto → Analytics → Enable.
+- **Panel de administración:** `admin_audience_metrics()` (SECURITY DEFINER, solo `is_admin`) devuelve agregados de hoy, 7 y 30 días: visitas de `traffic_daily` (ADR-025), registros nuevos y cuentas que han iniciado sesión (`auth.users.last_sign_in_at`), más el total de cuentas y las confirmadas. Migración `20261105000400_admin_audience_metrics` (preview `49-`).
+
+**Motivo:** el contador propio solo cuenta la página de entrada y no las navegaciones internas, y «Activos (7 días)» depende de `last_active_at`, que hoy solo actualizan los simulacros. Vercel da la cifra completa de visitas sin montar nada más, y `last_sign_in_at` dice quién ha entrado de verdad.
+**Consecuencias:** «Han entrado» cuenta cada cuenta una vez por periodo (último inicio de sesión), no cada entrada. La política de privacidad y la de cookies nombran a Vercel como proveedor de la estadística de visitas sin cookies. El plan gratuito de Vercel tiene un límite mensual de eventos.

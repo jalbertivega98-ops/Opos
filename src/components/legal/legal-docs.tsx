@@ -192,7 +192,8 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
         </li>
         <li>
           <strong>Técnicos:</strong> registros de seguridad para prevenir abusos. La analítica de
-          visitas es agregada, sin cookies ni identificadores personales.
+          visitas es agregada, sin cookies ni identificadores personales: la contamos nosotros y con
+          Vercel Web Analytics, que tampoco usa cookies y no guarda tu dirección IP.
         </li>
       </ul>
       <H2>Para qué y con qué base legal</H2>
@@ -212,7 +213,7 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
       <p>Solo con proveedores que los tratan por cuenta nuestra y con contrato de encargo:</p>
       <ul>
         <li>Supabase: base de datos y cuentas, en servidores de la UE (Frankfurt).</li>
-        <li>Vercel: alojamiento de la web.</li>
+        <li>Vercel: alojamiento de la web y estadística de visitas (sin cookies).</li>
         <li>Stripe: pagos (Stripe Payments Europe, Irlanda).</li>
         <li>Resend: envío de correos de la cuenta, en servidores de la UE.</li>
       </ul>
@@ -238,7 +239,8 @@ export function CookiePolicy() {
       <p>
         OPOSAPRUEBA solo usa cookies técnicas, necesarias para que la web funcione. No requieren
         consentimiento (artículo 22.2 LSSI-CE). No usamos cookies de analítica ni de publicidad: la
-        estadística de visitas se cuenta de forma agregada y sin cookies.
+        estadística de visitas se cuenta de forma agregada y sin cookies (con nuestro propio
+        contador y con Vercel Web Analytics, que no usa cookies ni guarda tu dirección IP).
       </p>
       <table className="mt-4 w-full text-sm">
         <thead>

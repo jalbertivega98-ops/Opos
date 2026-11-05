@@ -135,6 +135,11 @@ test.describe("Administración", () => {
       (await page.getByTestId("kpi-totalUsers").locator("p").nth(1).innerText()).replace(/\D/g, ""),
     );
     expect(total).toBeGreaterThanOrEqual(1);
+    const signups = page.getByTestId("audience-audienceSignups");
+    await expect(signups).toContainText("Registros nuevos");
+    await expect(signups.locator("dd").first()).not.toHaveText("0");
+    await expect(page.getByTestId("audience-audienceLogins")).toContainText("Han entrado");
+    await expect(page.getByTestId("admin-audience")).toContainText("cuentas en total");
     await expect(page.getByRole("table")).toContainText("Admin");
   });
 });

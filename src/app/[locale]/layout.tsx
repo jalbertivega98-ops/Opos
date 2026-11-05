@@ -6,6 +6,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/theme-provider";
+import { WebAnalytics } from "@/components/web-analytics";
 import { publicEnv } from "@/lib/env";
 import { BRAND, OG_IMAGE, isIndexable, ogLocale, searchVerification } from "@/lib/seo/site";
 import "../globals.css";
@@ -65,6 +66,8 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
         <ThemeProvider>
           <NextIntlClientProvider>{children as ReactNode}</NextIntlClientProvider>
         </ThemeProvider>
+        {/* Solo en Vercel: en local y en las pruebas no se carga el script (ADR-037). */}
+        {process.env.VERCEL ? <WebAnalytics /> : null}
       </body>
     </html>
   );
