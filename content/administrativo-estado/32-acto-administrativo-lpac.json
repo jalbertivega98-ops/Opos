@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "age-adm-32-acto-administrativo-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.2 El acto administrativo: concepto, clases, elementos, eficacia, validez, motivación y notificación",
+    "topic_slug": "age-adm-32-acto-administrativo",
+    "locale": "es",
+    "category": "age_adm_32_acto_administrativo",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 35.1.c) LPAC",
+      "stem": "Según el artículo 35 de la Ley 39/2015, ¿cuál de los siguientes actos debe ser motivado, con sucinta referencia de hechos y fundamentos de derecho?",
+      "options": [
+        "El que acuerde la apertura de un período de prueba solicitado por el interesado.",
+        "El que estime íntegramente una solicitud reglada.",
+        "El que se separe del criterio seguido en actuaciones precedentes.",
+        "El acuse de recibo de una solicitud presentada en el registro."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 35.1.c) LPAC exige motivar los actos que se separen del criterio seguido en actuaciones precedentes o del dictamen de órganos consultivos. La ley exige motivar el rechazo de pruebas (letra f), no su admisión.",
+      "excerpt": "c) Los actos que se separen del criterio seguido en actuaciones precedentes o del dictamen de órganos consultivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35.1.f) LPAC",
+      "stem": "De acuerdo con el artículo 35 de la Ley 39/2015, el acto del instructor que rechaza las pruebas propuestas por un interesado:",
+      "options": [
+        "Debe ser motivado, con sucinta referencia de hechos y fundamentos de derecho.",
+        "No necesita motivación por tratarse de un acto de trámite.",
+        "Solo debe motivarse si el interesado lo solicita por escrito.",
+        "Debe motivarse únicamente si el procedimiento es sancionador."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 35.1.f) LPAC incluye entre los actos que deben motivarse los que rechacen pruebas propuestas por los interesados, sin distinguir el tipo de procedimiento.",
+      "excerpt": "Serán motivados, con sucinta referencia de hechos y fundamentos de derecho: […] f) Los actos que rechacen pruebas propuestas por los interesados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.1 LPAC",
+      "stem": "Según el artículo 36 de la Ley 39/2015, los actos administrativos se producirán:",
+      "options": [
+        "Por escrito en papel, salvo que el interesado elija expresamente el formato electrónico.",
+        "Por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+        "En la forma que libremente decida el órgano competente en cada caso.",
+        "De forma verbal, con constancia escrita posterior solo si el interesado la solicita."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 36.1 LPAC establece como regla la forma escrita a través de medios electrónicos, salvo que la naturaleza del acto exija otra forma más adecuada.",
+      "excerpt": "Los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.3 LPAC",
+      "stem": "Conforme al artículo 36.3 de la Ley 39/2015, cuando deba dictarse una serie de actos administrativos de la misma naturaleza, tales como nombramientos, concesiones o licencias:",
+      "options": [
+        "Deberán dictarse necesariamente actos independientes para cada interesado.",
+        "Podrán refundirse en un único acto solo si lo autoriza previamente el superior jerárquico.",
+        "Podrán sustituirse por una disposición de carácter general publicada en el diario oficial.",
+        "Podrán refundirse en un único acto, acordado por el órgano competente, que especificará las personas u otras circunstancias que individualicen los efectos del acto para cada interesado."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 36.3 LPAC permite refundir en un único acto una serie de actos de la misma naturaleza, individualizando sus efectos para cada interesado.",
+      "excerpt": "Cuando deba dictarse una serie de actos administrativos de la misma naturaleza, tales como nombramientos, concesiones o licencias, podrán refundirse en un único acto, acordado por el órgano competente, que especificará las personas u otras circunstancias que individualicen los efectos del acto para cada interesado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 39.1 LPAC",
+      "stem": "Según el artículo 39 de la Ley 39/2015, los actos de las Administraciones Públicas sujetos al Derecho Administrativo se presumirán válidos y producirán efectos:",
+      "options": [
+        "Desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa.",
+        "Desde el día siguiente al de su notificación, en todo caso.",
+        "Desde que adquieran firmeza en vía administrativa.",
+        "A los veinte días de su publicación en el diario oficial correspondiente."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 39.1 LPAC consagra la presunción de validez y la eficacia desde la fecha en que se dictan, salvo disposición en contrario; el apartado 2 prevé que la eficacia quede demorada cuando lo exija el contenido del acto o esté supeditada a notificación, publicación o aprobación superior.",
+      "excerpt": "Los actos de las Administraciones Públicas sujetos al Derecho Administrativo se presumirán válidos y producirán efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 39.3 LPAC",
+      "stem": "De acuerdo con el artículo 39.3 de la Ley 39/2015, podrá otorgarse excepcionalmente eficacia retroactiva a los actos administrativos:",
+      "options": [
+        "Siempre que lo solicite el interesado y no exista oposición de terceros.",
+        "Cuando se trate de actos sancionadores dictados en vía de recurso.",
+        "Cuando se dicten en sustitución de actos anulados o produzcan efectos favorables al interesado, si concurren los demás requisitos legales.",
+        "Únicamente cuando así lo prevea una norma con rango de ley."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 39.3 LPAC admite la retroactividad en esos dos supuestos, siempre que los supuestos de hecho existieran ya en la fecha a la que se retrotraiga la eficacia y no se lesionen derechos o intereses legítimos de otras personas.",
+      "excerpt": "Excepcionalmente, podrá otorgarse eficacia retroactiva a los actos cuando se dicten en sustitución de actos anulados, así como cuando produzcan efectos favorables al interesado, siempre que los supuestos de hecho necesarios existieran ya en la fecha a que se retrotraiga la eficacia del acto y ésta no lesione derechos o intereses legítimos de otras personas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.2 LPAC",
+      "stem": "Según el artículo 40 de la Ley 39/2015, toda notificación deberá ser cursada dentro del plazo de:",
+      "options": [
+        "Quince días a partir de la fecha en que el acto haya sido dictado.",
+        "Diez días a partir de la fecha en que el acto adquiera firmeza.",
+        "Un mes a partir de la fecha de la firma del acto.",
+        "Diez días a partir de la fecha en que el acto haya sido dictado."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 40.2 LPAC fija diez días desde que se dicta el acto y exige que la notificación contenga el texto íntegro, si pone fin a la vía administrativa, los recursos procedentes, el órgano ante el que presentarlos y el plazo.",
+      "excerpt": "Toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.3 LPAC",
+      "stem": "Conforme al artículo 40.3 de la Ley 39/2015, una notificación que contiene el texto íntegro del acto pero omite la indicación de los recursos procedentes:",
+      "options": [
+        "Es nula de pleno derecho y debe repetirse íntegramente.",
+        "Surtirá efecto a partir de la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido y alcance del acto o interponga cualquier recurso que proceda.",
+        "Surtirá efecto transcurridos seis meses desde su práctica.",
+        "No surtirá efecto en ningún caso hasta que se subsane el defecto."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 40.3 LPAC regula la notificación defectuosa: si contiene el texto íntegro pero omite otros requisitos del apartado 2, surte efecto desde que el interesado realiza actuaciones que suponen conocer el acto o interpone el recurso procedente.",
+      "excerpt": "Las notificaciones que, conteniendo el texto íntegro del acto, omitiesen alguno de los demás requisitos previstos en el apartado anterior, surtirán efecto a partir de la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido y alcance de la resolución o acto objeto de la notificación, o interponga cualquier recurso que proceda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.4 LPAC",
+      "stem": "Según el artículo 40.4 de la Ley 39/2015, a los solos efectos de entender cumplida la obligación de notificar dentro del plazo máximo de duración de los procedimientos, será suficiente la notificación que contenga, cuando menos:",
+      "options": [
+        "Un extracto de la resolución y la indicación de los recursos procedentes.",
+        "El texto íntegro de la resolución, así como el intento de notificación debidamente acreditado.",
+        "El sentido del fallo y la firma del órgano competente.",
+        "La publicación de un anuncio en el tablón de edictos del Ayuntamiento."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 40.4 LPAC considera cumplida la obligación de notificar en plazo con el texto íntegro de la resolución y el intento de notificación debidamente acreditado.",
+      "excerpt": "a los solos efectos de entender cumplida la obligación de notificar dentro del plazo máximo de duración de los procedimientos, será suficiente la notificación que contenga, cuando menos, el texto íntegro de la resolución, así como el intento de notificación debidamente acreditado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 42.2 LPAC",
+      "stem": "Un empleado público intenta entregar una notificación en papel en el domicilio de un interesado a las 11:00 y no hay nadie que se haga cargo de ella. Según el artículo 42 de la Ley 39/2015, el segundo intento:",
+      "options": [
+        "Se realizará al día siguiente a la misma hora que el primero.",
+        "No es necesario: se publicará directamente un anuncio en el «Boletín Oficial del Estado».",
+        "Se realizará dentro de los tres días siguientes, después de las quince horas y con al menos tres horas de diferencia respecto del primero.",
+        "Se realizará dentro de los diez días siguientes, en cualquier franja horaria."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 42.2 LPAC exige repetir el intento una sola vez, en hora distinta y dentro de los tres días siguientes; si el primero fue antes de las quince horas, el segundo será después, con un margen mínimo de tres horas. Si también fracasa, se acude al anuncio del art. 44.",
+      "excerpt": "intento que se repetirá por una sola vez y en una hora distinta dentro de los tres días siguientes. En caso de que el primer intento de notificación se haya realizado antes de las quince horas, el segundo intento deberá realizarse después de las quince horas y viceversa, dejando en todo caso al menos un margen de diferencia de tres horas entre ambos intentos de notificación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44 LPAC",
+      "stem": "Según el artículo 44 de la Ley 39/2015, cuando los interesados en un procedimiento sean desconocidos o se ignore el lugar de la notificación, esta se hará por medio de un anuncio publicado en:",
+      "options": [
+        "El «Boletín Oficial del Estado».",
+        "El boletín oficial de la provincia del último domicilio conocido.",
+        "El tablón de edictos del Ayuntamiento del último domicilio, únicamente.",
+        "La sede electrónica del órgano que dictó el acto, únicamente."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 44 LPAC exige siempre el anuncio en el BOE; el boletín autonómico o provincial, el tablón de edictos del Ayuntamiento o el del Consulado son publicaciones previas y facultativas.",
+      "excerpt": "Cuando los interesados en un procedimiento sean desconocidos, se ignore el lugar de la notificación o bien, intentada ésta, no se hubiese podido practicar, la notificación se hará por medio de un anuncio publicado en el «Boletín Oficial del Estado».",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 45.1.b) LPAC",
+      "stem": "En un proceso selectivo, la convocatoria indica que las listas de aprobados se publicarán en la sede electrónica del Ministerio. Una unidad publica una de esas listas solo en el tablón físico de anuncios del edificio. Según el artículo 45 de la Ley 39/2015, esa publicación:",
+      "options": [
+        "Es válida, porque el tablón de anuncios es un medio tradicional de publicación.",
+        "Es válida si además se notifica individualmente a cada aspirante.",
+        "Es anulable solo si algún aspirante demuestra haber sufrido indefensión.",
+        "Carece de validez, porque se ha realizado en un lugar distinto del indicado en la convocatoria."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 45.1.b) LPAC dispone que en los procedimientos selectivos o de concurrencia competitiva la convocatoria indicará el medio de las sucesivas publicaciones, careciendo de validez las que se lleven a cabo en lugares distintos.",
+      "excerpt": "b) Cuando se trate de actos integrantes de un procedimiento selectivo o de concurrencia competitiva de cualquier tipo. En este caso, la convocatoria del procedimiento deberá indicar el medio donde se efectuarán las sucesivas publicaciones, careciendo de validez las que se lleven a cabo en lugares distintos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 46 LPAC",
+      "stem": "De acuerdo con el artículo 46 de la Ley 39/2015, si el órgano competente aprecia que la publicación de un acto lesiona derechos o intereses legítimos:",
+      "options": [
+        "Se abstendrá de publicarlo y lo notificará únicamente por correo certificado.",
+        "Publicará el acto íntegro, pero anonimizando el nombre del órgano que lo dictó.",
+        "Se limitará a publicar en el diario oficial una somera indicación del contenido del acto y del lugar donde los interesados podrán comparecer para conocer su contenido íntegro.",
+        "Deberá solicitar autorización judicial antes de publicarlo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 46 LPAC prevé la publicación de una somera indicación del contenido y del lugar y plazo para comparecer, con constancia del conocimiento del contenido íntegro.",
+      "excerpt": "Si el órgano competente apreciase que la notificación por medio de anuncios o la publicación de un acto lesiona derechos o intereses legítimos, se limitará a publicar en el Diario oficial que corresponda una somera indicación del contenido del acto y del lugar donde los interesados podrán comparecer, en el plazo que se establezca, para conocimiento del contenido íntegro del mencionado acto y constancia de tal conocimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.1 LPAC",
+      "stem": "Según el artículo 47 de la Ley 39/2015, es nulo de pleno derecho el acto administrativo:",
+      "options": [
+        "Dictado por órgano manifiestamente incompetente por razón de la materia o del territorio.",
+        "Dictado por órgano incompetente por razón de la jerarquía.",
+        "Que incurre en desviación de poder.",
+        "Dictado fuera del plazo establecido, en todo caso."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 47.1.b) LPAC sanciona con nulidad la incompetencia manifiesta por razón de materia o territorio; la desviación de poder y las demás infracciones del ordenamiento son causa de anulabilidad (art. 48.1), y la actuación fuera de plazo solo anula si lo impone la naturaleza del término (art. 48.3).",
+      "excerpt": "b) Los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.2 LPAC",
+      "stem": "De acuerdo con el artículo 48 de la Ley 39/2015, el defecto de forma de un acto administrativo:",
+      "options": [
+        "Determina siempre la nulidad de pleno derecho del acto.",
+        "Determina siempre la anulabilidad del acto, sea cual sea su entidad.",
+        "Nunca afecta a la validez del acto, que solo puede corregirse de oficio.",
+        "Solo determinará la anulabilidad cuando el acto carezca de los requisitos formales indispensables para alcanzar su fin o dé lugar a la indefensión de los interesados."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 48.2 LPAC limita la anulabilidad por defecto de forma a los casos en que el acto carezca de los requisitos formales indispensables para su fin o cause indefensión. La regla general (art. 48.1) es la anulabilidad por cualquier infracción del ordenamiento, incluida la desviación de poder.",
+      "excerpt": "No obstante, el defecto de forma sólo determinará la anulabilidad cuando el acto carezca de los requisitos formales indispensables para alcanzar su fin o dé lugar a la indefensión de los interesados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 48.3 LPAC",
+      "stem": "Un órgano dicta un acto pocos días después de vencer el plazo previsto para ello en la norma, sin que dicho plazo tenga carácter esencial. Según el artículo 48 de la Ley 39/2015, el acto:",
+      "options": [
+        "Es nulo de pleno derecho por haberse dictado fuera de plazo.",
+        "Solo será anulable si así lo impone la naturaleza del término o plazo.",
+        "Es siempre anulable por haberse dictado fuera de plazo.",
+        "Es inexistente y no produce ningún efecto."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 48.3 LPAC dispone que la actuación administrativa fuera de plazo solo implica la anulabilidad cuando así lo imponga la naturaleza del término o plazo.",
+      "excerpt": "La realización de actuaciones administrativas fuera del tiempo establecido para ellas sólo implicará la anulabilidad del acto cuando así lo imponga la naturaleza del término o plazo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50 LPAC",
+      "stem": "Según la Ley 39/2015, los actos nulos o anulables que, sin embargo, contengan los elementos constitutivos de otro distinto producirán los efectos de este. ¿Cómo se denomina esta figura?",
+      "options": [
+        "Convalidación.",
+        "Conservación de actos y trámites.",
+        "Conversión de actos viciados.",
+        "Revocación."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 50 LPAC regula la conversión; la convalidación (art. 52) subsana vicios de actos anulables y la conservación (art. 51) mantiene los actos y trámites cuyo contenido no habría variado sin la infracción.",
+      "excerpt": "Los actos nulos o anulables que, sin embargo, contengan los elementos constitutivos de otro distinto producirán los efectos de éste.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.3 LPAC",
+      "stem": "Un Subdirector General dicta un acto anulable por incompetencia no determinante de nulidad, ya que la competencia correspondía a su Director General, que es su superior jerárquico. Según el artículo 52 de la Ley 39/2015:",
+      "options": [
+        "El Director General puede convalidar el acto, que producirá efecto desde la fecha de la convalidación, salvo los casos de retroactividad del artículo 39.3.",
+        "El acto no puede convalidarse y debe revisarse de oficio por nulidad.",
+        "Solo el Ministro puede convalidar el acto, con efectos desde la fecha en que se dictó.",
+        "El propio Subdirector General puede convalidarlo dictando un nuevo acto idéntico."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 52 LPAC permite convalidar los actos anulables; si el vicio es de incompetencia no determinante de nulidad, convalida el órgano competente cuando sea superior jerárquico del que dictó el acto, y la convalidación produce efecto desde su fecha salvo lo previsto en el art. 39.3.",
+      "excerpt": "El acto de convalidación producirá efecto desde su fecha, salvo lo dispuesto en el artículo 39.3 para la retroactividad de los actos administrativos. 3. Si el vicio consistiera en incompetencia no determinante de nulidad, la convalidación podrá realizarse por el órgano competente cuando sea superior jerárquico del que dictó el acto viciado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 98.1 LPAC",
+      "stem": "Según el artículo 98 de la Ley 39/2015, los actos de las Administraciones Públicas sujetos al Derecho Administrativo son inmediatamente ejecutivos, salvo, entre otros supuestos, cuando:",
+      "options": [
+        "El interesado haya anunciado su intención de interponer recurso contencioso-administrativo.",
+        "Se trate de una resolución de un procedimiento sancionador contra la que quepa algún recurso en vía administrativa, incluido el potestativo de reposición.",
+        "Se trate de un acto de gravamen dictado en un procedimiento iniciado a solicitud del interesado.",
+        "El acto no haya sido publicado en el diario oficial, aunque se haya notificado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 98.1 LPAC exceptúa la ejecutividad inmediata cuando se suspenda la ejecución, en resoluciones sancionadoras aún recurribles en vía administrativa, cuando una disposición establezca lo contrario o cuando se necesite aprobación o autorización superior.",
+      "excerpt": "b) Se trate de una resolución de un procedimiento de naturaleza sancionadora contra la que quepa algún recurso en vía administrativa, incluido el potestativo de reposición.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112.1 LPAC",
+      "stem": "Conforme al artículo 112 de la Ley 39/2015, contra los actos de trámite podrán interponerse recursos de alzada y potestativo de reposición:",
+      "options": [
+        "En todo caso, al ser actos administrativos sujetos a Derecho Administrativo.",
+        "En ningún caso: su oposición solo puede alegarse en el recurso contra la resolución final.",
+        "Solo cuando hayan sido dictados por un órgano colegiado.",
+        "Si deciden directa o indirectamente el fondo del asunto, determinan la imposibilidad de continuar el procedimiento o producen indefensión o perjuicio irreparable a derechos e intereses legítimos."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 112.1 LPAC distingue los actos de trámite cualificados, que son recurribles, de los restantes, cuya oposición se alega para su consideración en la resolución que ponga fin al procedimiento.",
+      "excerpt": "Contra las resoluciones y los actos de trámite, si estos últimos deciden directa o indirectamente el fondo del asunto, determinan la imposibilidad de continuar el procedimiento, producen indefensión o perjuicio irreparable a derechos e intereses legítimos, podrán interponerse por los interesados los recursos de alzada y potestativo de reposición",
+      "excerpt_status": "completo"
+    }
+  ]
+}

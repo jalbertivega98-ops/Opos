@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "set": "jus-06-poder-judicial-ce-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 6. El Poder Judicial, el CGPJ, la independencia judicial y el Ministerio Fiscal",
+    "topic_slug": "jus-06-poder-judicial",
+    "locale": "es",
+    "category": "jus_06_poder_judicial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 117.1 CE",
+      "stem": "Según el artículo 117.1 de la Constitución Española, la justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial que son:",
+      "options": [
+        "Independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
+        "Independientes, irresponsables, inamovibles y sometidos únicamente al imperio de la ley.",
+        "Independientes, jerárquicamente dependientes del Consejo General del Poder Judicial y sometidos a la ley.",
+        "Imparciales, amovibles, responsables y sometidos a la ley y a las instrucciones del Ministerio de Justicia."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 117.1 CE enumera las notas de los Jueces y Magistrados: independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
+      "excerpt": "La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 117.6 CE",
+      "stem": "¿Qué tipo de tribunales prohíbe expresamente el artículo 117 de la Constitución Española?",
+      "options": [
+        "Los Tribunales consuetudinarios y tradicionales.",
+        "Los Tribunales de excepción.",
+        "Los Tribunales de la jurisdicción militar.",
+        "Los Tribunales con participación del Jurado."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 117.6 CE prohíbe los Tribunales de excepción. La propia Constitución admite la jurisdicción militar en el ámbito estrictamente castrense (art. 117.5) y los Tribunales consuetudinarios y tradicionales y el Jurado (art. 125).",
+      "excerpt": "6. Se prohíben los Tribunales de excepción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 122.3 CE",
+      "stem": "Según el artículo 122.3 de la Constitución Española, el Consejo General del Poder Judicial está integrado por el Presidente del Tribunal Supremo, que lo presidirá, y por:",
+      "options": [
+        "Veinte miembros nombrados por el Rey por un período de cinco años.",
+        "Veinte miembros nombrados por el Rey por un período de cuatro años.",
+        "Doce miembros nombrados por el Rey por un período de nueve años.",
+        "Veinte miembros elegidos por los Jueces y Magistrados por un período de cinco años."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 122.3 CE fija veinte miembros nombrados por el Rey por cinco años: doce entre Jueces y Magistrados y ocho (cuatro a propuesta de cada Cámara) entre abogados y otros juristas.",
+      "excerpt": "El Consejo General del Poder Judicial estará integrado por el Presidente del Tribunal Supremo, que lo presidirá, y por veinte miembros nombrados por el Rey por un período de cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 124.2 CE",
+      "stem": "Según el artículo 124 de la Constitución Española, el Ministerio Fiscal ejerce sus funciones por medio de órganos propios conforme a los principios de:",
+      "options": [
+        "Independencia, inamovilidad y responsabilidad, con sujeción, en todo caso, al de legalidad.",
+        "Descentralización y coordinación, con sujeción, en todo caso, a los de eficacia y jerarquía.",
+        "Unidad de actuación y dependencia jerárquica, con sujeción, en todo caso, a los de legalidad e imparcialidad.",
+        "Autonomía e independencia, con sujeción, en todo caso, a las instrucciones del Gobierno."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 124.2 CE (reproducido en el art. 2.1 del Estatuto Orgánico del Ministerio Fiscal) fija los principios orgánicos de unidad de actuación y dependencia jerárquica y los funcionales de legalidad e imparcialidad.",
+      "excerpt": "2. El Ministerio Fiscal ejerce sus funciones por medio de órganos propios conforme a los principios de unidad de actuación y dependencia jerárquica y con sujeción, en todo caso, a los de legalidad e imparcialidad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "jus-23-comunicacion-tribunales-lecrim-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 23. Actos de comunicación con otros Tribunales y Autoridades. Auxilio judicial y cooperación internacional",
+    "topic_slug": "jus-23-comunicacion-tribunales",
+    "locale": "es",
+    "category": "jus_23_comunicacion_tribunales",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 184 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, cuando un Juez o Tribunal encomienda la práctica de una diligencia a otro Juez o Tribunal superior en grado, empleará la forma de:",
+      "options": [
+        "Suplicatorio.",
+        "Exhorto.",
+        "Mandamiento o carta-orden.",
+        "Oficio."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 184 LECrim distingue: suplicatorio al superior en grado, exhorto al de igual grado y mandamiento o carta-orden al subordinado.",
+      "excerpt": "Empleará la forma del suplicatorio cuando se dirija a un Juez o Tribunal superior en grado; la de exhorto, cuando se dirija a uno de igual grado, y la de mandamiento o carta-orden, cuando se dirija a un subordinado suyo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 193 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, los exhortos a Tribunales extranjeros se dirigirán:",
+      "options": [
+        "Directamente al Tribunal extranjero por correo certificado, en todo caso.",
+        "Por la vía diplomática, en la forma establecida en los tratados y, a falta de estos, en la que determinen las disposiciones generales del Gobierno.",
+        "Por medio de la parte interesada, que deberá presentarlos en el plazo que se le fije.",
+        "A través del Consejo General del Poder Judicial, en todo caso."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 193 LECrim ordena la vía diplomática conforme a los tratados o, en su defecto, a las disposiciones generales del Gobierno; en cualquier otro caso rige la reciprocidad.",
+      "excerpt": "Los exhortos a Tribunales extranjeros se dirigirán por la vía diplomática, en la forma establecida en los tratados, y a falta de éstos, en la que determinen las disposiciones generales del Gobierno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 192 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, si se demora el cumplimiento de un exhorto, el Juez o Tribunal que lo expidió:",
+      "options": [
+        "Remitirá un recuerdo al Juez o Tribunal exhortado.",
+        "Librará mandamiento al exhortado para que lo devuelva cumplimentado.",
+        "Pondrá los hechos en conocimiento del Consejo General del Poder Judicial.",
+        "Dirigirá suplicatorio al superior inmediato del exhortado, dándole conocimiento de la demora."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 192 LECrim prevé el recuerdo para la demora en un suplicatorio, el suplicatorio al superior inmediato para la de un exhorto y el mismo apremio para la carta-orden.",
+      "excerpt": "Si la demora en el cumplimiento se refiriese a un exhorto, en vez de recuerdo dirigirá suplicatorio al superior inmediato del exhortado, dándole conocimiento de la demora.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

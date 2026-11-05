@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "set": "jus-21-actos-procesales-lopj-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 21. Los actos procesales: lugar, tiempo, forma y defectos",
+    "topic_slug": "jus-21-actos-procesales",
+    "locale": "es",
+    "category": "jus_21_actos_procesales",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 268.1 LOPJ",
+      "stem": "Según el artículo 268 de la Ley Orgánica del Poder Judicial, ¿dónde deberán practicarse, como regla general, las actuaciones judiciales?",
+      "options": [
+        "En el domicilio de la parte demandada.",
+        "En el lugar donde se hubieran producido los hechos.",
+        "En la sede del Tribunal Superior de Justicia de la Comunidad Autónoma.",
+        "En la sede del órgano jurisdiccional."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 268.1 LOPJ fija como regla la sede del órgano; el art. 268.2 permite constituirse en cualquier lugar de su territorio cuando sea necesario o conveniente para la buena administración de justicia.",
+      "excerpt": "Las actuaciones judiciales deberán practicarse en la sede del órgano jurisdiccional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 182.2 LOPJ",
+      "stem": "Según el artículo 182 de la Ley Orgánica del Poder Judicial, salvo que la ley disponga lo contrario, son horas hábiles:",
+      "options": [
+        "Desde las ocho de la mañana a las ocho de la tarde.",
+        "Desde las nueve de la mañana a las dos de la tarde.",
+        "Desde las ocho de la mañana a las diez de la noche.",
+        "Desde las siete de la mañana a las siete de la tarde."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 182.2 LOPJ fija como horas hábiles las comprendidas entre las ocho de la mañana y las ocho de la tarde.",
+      "excerpt": "Son horas hábiles desde las ocho de la mañana a las ocho de la tarde, salvo que la ley disponga lo contrario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 183 LOPJ",
+      "stem": "Según el artículo 183 de la Ley Orgánica del Poder Judicial, son inhábiles para todas las actuaciones judiciales, excepto las que se declaren urgentes por las leyes procesales:",
+      "options": [
+        "Los días del mes de agosto y los días 24 y 31 de diciembre.",
+        "Los días del mes de agosto y todos los días desde el 24 de diciembre hasta el 6 de enero del año siguiente, ambos inclusive.",
+        "Los días del mes de julio y agosto.",
+        "Los días del mes de agosto y la Semana Santa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 183 LOPJ declara inhábiles el mes de agosto y el periodo del 24 de diciembre al 6 de enero, ambos inclusive, salvo actuaciones urgentes.",
+      "excerpt": "Serán inhábiles los días del mes de agosto, así como todos los días desde el 24 de diciembre hasta el 6 de enero del año siguiente, ambos inclusive, para todas las actuaciones judiciales, excepto las que se declaren urgentes por las leyes procesales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 184.1 LOPJ",
+      "stem": "Conforme al artículo 184 de la Ley Orgánica del Poder Judicial, para la instrucción de las causas criminales:",
+      "options": [
+        "Solo son hábiles los días laborables, salvo habilitación del Juez.",
+        "Son inhábiles los días del mes de agosto.",
+        "Son hábiles todos los días, pero solo de ocho de la mañana a ocho de la tarde.",
+        "Todos los días del año y todas las horas serán hábiles, sin necesidad de habilitación especial."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 184.1 LOPJ declara hábiles todos los días y horas para la instrucción de las causas criminales, sin habilitación especial.",
+      "excerpt": "todos los días del año y todas las horas serán hábiles para la instrucción de las causas criminales, sin necesidad de habilitación especial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 185.2 LOPJ",
+      "stem": "Según el artículo 185 de la Ley Orgánica del Poder Judicial, si el último día de un plazo procesal fuere inhábil:",
+      "options": [
+        "Se entenderá prorrogado al primer día hábil siguiente.",
+        "El plazo vencerá el último día hábil anterior.",
+        "El plazo se entenderá caducado.",
+        "Deberá habilitarse ese día por el órgano judicial."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 185.2 LOPJ prorroga el plazo al primer día hábil siguiente; en los plazos por días se excluyen los inhábiles (art. 185.1).",
+      "excerpt": "Si el último día de plazo fuere inhábil, se entenderá prorrogado al primer día hábil siguiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 231.2 LOPJ",
+      "stem": "Según el artículo 231 de la Ley Orgánica del Poder Judicial, los Jueces, Magistrados, Fiscales, Letrados y demás funcionarios podrán usar también la lengua oficial propia de la Comunidad Autónoma:",
+      "options": [
+        "Solo si todas las partes lo solicitan expresamente por escrito.",
+        "Solo si lo autoriza el Tribunal Superior de Justicia de la Comunidad Autónoma.",
+        "En todo caso, sin que las partes puedan oponerse.",
+        "Si ninguna de las partes se opusiere, alegando desconocimiento de ella que pudiere producir indefensión."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 231.2 LOPJ permite el uso de la lengua cooficial por jueces y funcionarios salvo que alguna parte se oponga alegando desconocimiento que pueda producir indefensión; la regla general es el castellano (art. 231.1).",
+      "excerpt": "podrán usar también la lengua oficial propia de la Comunidad Autónoma, si ninguna de las partes se opusiere, alegando desconocimiento de ella que pudiere producir indefensión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 231.4 LOPJ",
+      "stem": "Conforme al artículo 231 de la Ley Orgánica del Poder Judicial, las actuaciones judiciales realizadas y los documentos presentados en el idioma oficial de una Comunidad Autónoma:",
+      "options": [
+        "Solo serán válidos si se acompaña traducción jurada al castellano.",
+        "Tendrán plena validez y eficacia sin necesidad de traducción al castellano.",
+        "Tendrán validez únicamente dentro del partido judicial en que se presenten.",
+        "Deberán traducirse siempre de oficio al castellano para incorporarse a los autos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 231.4 LOPJ les reconoce plena validez y eficacia sin traducción; solo se traducen de oficio cuando deban surtir efecto fuera de la Comunidad (salvo lengua coincidente), cuando lo dispongan las leyes o a instancia de parte que alegue indefensión.",
+      "excerpt": "Las actuaciones judiciales realizadas y los documentos presentados en el idioma oficial de una Comunidad Autónoma tendrán, sin necesidad de traducción al castellano, plena validez y eficacia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 238 LOPJ",
+      "stem": "Según el artículo 238 de la Ley Orgánica del Poder Judicial, ¿cuál de los siguientes actos procesales es nulo de pleno derecho?",
+      "options": [
+        "El realizado ante tribunal con falta de competencia territorial.",
+        "El realizado fuera del tiempo establecido, en todo caso.",
+        "El realizado sin intervención de abogado, en los casos en que la ley la establezca como preceptiva.",
+        "El realizado en lengua oficial de la Comunidad Autónoma sin traducción al castellano."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 238 LOPJ incluye, entre otros, la falta de jurisdicción o competencia objetiva o funcional (no la territorial), la violencia o intimidación, la indefensión por omitir normas esenciales, la falta de abogado preceptivo y las vistas sin Letrado de la Administración de Justicia.",
+      "excerpt": "4.º Cuando se realicen sin intervención de abogado, en los casos en que la ley la establezca como preceptiva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 241.1 LOPJ",
+      "stem": "De acuerdo con el artículo 241 de la Ley Orgánica del Poder Judicial, el plazo para pedir la nulidad de actuaciones por vulneración de un derecho fundamental mediante el incidente excepcional es de:",
+      "options": [
+        "10 días desde la notificación de la resolución, sin que pueda pedirse transcurridos dos años desde la notificación.",
+        "30 días desde la notificación de la resolución, sin que pueda pedirse transcurridos cuatro años desde la notificación.",
+        "20 días desde la firmeza de la resolución, sin límite temporal desde que se tuvo conocimiento del defecto.",
+        "20 días desde la notificación de la resolución o desde que se tuvo conocimiento del defecto, sin que pueda pedirse transcurridos cinco años desde la notificación."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 241.1 LOPJ fija 20 días desde la notificación o desde el conocimiento del defecto, con un límite máximo de cinco años desde la notificación; conoce el mismo órgano que dictó la resolución firme.",
+      "excerpt": "El plazo para pedir la nulidad será de 20 días, desde la notificación de la resolución o, en todo caso, desde que se tuvo conocimiento del defecto causante de indefensión, sin que, en este último caso, pueda solicitarse la nulidad de actuaciones después de transcurridos cinco años desde la notificación de la resolución.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 242 LOPJ",
+      "stem": "Según el artículo 242 de la Ley Orgánica del Poder Judicial, las actuaciones judiciales realizadas fuera del tiempo establecido:",
+      "options": [
+        "Son siempre nulas de pleno derecho.",
+        "Son anulables a instancia de cualquier parte en todo caso.",
+        "Sólo podrán anularse si lo impusiere la naturaleza del término o plazo.",
+        "No pueden anularse en ningún caso."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 242 LOPJ dispone que la actuación realizada fuera de tiempo solo puede anularse cuando lo imponga la naturaleza del término o plazo.",
+      "excerpt": "Las actuaciones judiciales realizadas fuera del tiempo establecido sólo podrán anularse si lo impusiere la naturaleza del término o plazo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 243.3 LOPJ",
+      "stem": "Conforme al artículo 243 de la Ley Orgánica del Poder Judicial, el juzgado o tribunal cuidará de que puedan ser subsanados los defectos en que incurran los actos procesales de las partes:",
+      "options": [
+        "Siempre que en dichos actos se hubiese manifestado la voluntad de cumplir los requisitos exigidos por la ley.",
+        "Solo cuando lo solicite la parte contraria.",
+        "Solo si el defecto se advierte antes de la admisión a trámite.",
+        "Únicamente en el proceso penal."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 243.3 LOPJ impone al órgano judicial facilitar la subsanación cuando la parte haya manifestado la voluntad de cumplir los requisitos legales; la nulidad de un acto no arrastra a los sucesivos independientes (art. 243.1).",
+      "excerpt": "El juzgado o tribunal cuidará de que puedan ser subsanados los defectos en que incurran los actos procesales de las partes, siempre que en dichos actos se hubiese manifestado la voluntad de cumplir los requisitos exigidos por la ley.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "set": "pn-20-delitos-informaticos-cp-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 20. Delitos informáticos, intimidad y prueba digital",
+    "topic_slug": "pn-20-delitos-informaticos",
+    "locale": "es",
+    "category": "pn_20_delitos_informaticos",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 197.1 CP",
+      "stem": "Según el artículo 197.1 del Código Penal, quien, para descubrir los secretos o vulnerar la intimidad de otro, sin su consentimiento, se apodere de sus mensajes de correo electrónico será castigado con:",
+      "options": [
+        "Prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+        "Prisión de seis meses a dos años.",
+        "Prisión de dos a cinco años."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 197.1 CP castiga el apoderamiento de papeles, cartas, correos electrónicos u otros documentos, y la interceptación de telecomunicaciones, con prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+      "excerpt": "El que, para descubrir los secretos o vulnerar la intimidad de otro, sin su consentimiento, se apodere de sus papeles, cartas, mensajes de correo electrónico o cualesquiera otros documentos o efectos personales, intercepte sus telecomunicaciones o utilice artificios técnicos de escucha, transmisión, grabación o reproducción del sonido o de la imagen, o de cualquier otra señal de comunicación, será castigado con las penas de prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 197.3 CP",
+      "stem": "Según el artículo 197.3 del Código Penal, si se difunden, revelan o ceden a terceros los datos o hechos descubiertos o las imágenes captadas, se impondrá la pena de:",
+      "options": [
+        "Prisión de uno a tres años y multa de doce a veinticuatro meses.",
+        "Prisión de seis meses a dos años.",
+        "Prisión de dos a cinco años."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 197.3 CP castiga con prisión de dos a cinco años la difusión, revelación o cesión a terceros de lo descubierto; a quien lo difunda sin haber participado en el descubrimiento, conociendo su origen ilícito, se le impone prisión de uno a tres años y multa.",
+      "excerpt": "Se impondrá la pena de prisión de dos a cinco años si se difunden, revelan o ceden a terceros los datos o hechos descubiertos o las imágenes captadas a que se refieren los números anteriores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 197.7 CP",
+      "stem": "Según el artículo 197.7 del Código Penal, quien, sin autorización de la persona afectada, difunda imágenes de aquella que hubiera obtenido con su anuencia en un domicilio, cuando la divulgación menoscabe gravemente su intimidad personal, será castigado con:",
+      "options": [
+        "Multa de uno a tres meses.",
+        "Prisión de tres meses a un año o multa de seis a doce meses.",
+        "Prisión de uno a cuatro años y multa de doce a veinticuatro meses."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 197.7 CP castiga esta difusión con prisión de tres meses a un año o multa de seis a doce meses; a quien, habiendo recibido esas imágenes, las difunda, se le impone multa de uno a tres meses.",
+      "excerpt": "Será castigado con una pena de prisión de tres meses a un año o multa de seis a doce meses el que, sin autorización de la persona afectada, difunda, revele o ceda a terceros imágenes o grabaciones audiovisuales de aquélla que hubiera obtenido con su anuencia en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros, cuando la divulgación menoscabe gravemente la intimidad personal de esa persona.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 197 bis.1 CP",
+      "stem": "Según el artículo 197 bis del Código Penal, quien, vulnerando las medidas de seguridad establecidas para impedirlo y sin estar debidamente autorizado, acceda al conjunto o a una parte de un sistema de información será castigado con:",
+      "options": [
+        "Prisión de seis meses a dos años.",
+        "Prisión de uno a cuatro años y multa de doce a veinticuatro meses.",
+        "Multa de tres a doce meses."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 197 bis.1 CP castiga el acceso ilícito a sistemas de información (o el mantenimiento en ellos contra la voluntad de quien tiene derecho a excluirlo) con prisión de seis meses a dos años.",
+      "excerpt": "El que por cualquier medio o procedimiento, vulnerando las medidas de seguridad establecidas para impedirlo, y sin estar debidamente autorizado, acceda o facilite a otro el acceso al conjunto o una parte de un sistema de información o se mantenga en él en contra de la voluntad de quien tenga el legítimo derecho a excluirlo, será castigado con pena de prisión de seis meses a dos años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 197 bis.2 CP",
+      "stem": "Según el artículo 197 bis.2 del Código Penal, quien, mediante artificios técnicos y sin estar autorizado, intercepte transmisiones no públicas de datos informáticos que se produzcan desde, hacia o dentro de un sistema de información será castigado con:",
+      "options": [
+        "Prisión de seis meses a dos años o multa de tres a dieciocho meses.",
+        "Prisión de tres meses a dos años o multa de tres a doce meses.",
+        "Prisión de uno a cuatro años y multa de doce a veinticuatro meses."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 197 bis.2 CP castiga la interceptación de transmisiones no públicas de datos informáticos, incluidas sus emisiones electromagnéticas, con prisión de tres meses a dos años o multa de tres a doce meses.",
+      "excerpt": "El que mediante la utilización de artificios o instrumentos técnicos, y sin estar debidamente autorizado, intercepte transmisiones no públicas de datos informáticos que se produzcan desde, hacia o dentro de un sistema de información, incluidas las emisiones electromagnéticas de los mismos, será castigado con una pena de prisión de tres meses a dos años o multa de tres a doce meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 197 quater CP",
+      "stem": "Según el Código Penal, si los delitos de descubrimiento y revelación de secretos se hubieran cometido en el seno de una organización o grupo criminal:",
+      "options": [
+        "Se impondrán las penas en su mitad inferior.",
+        "Se aplicará únicamente la pena prevista para la organización criminal.",
+        "Se aplicarán respectivamente las penas superiores en grado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 197 quater CP agrava en un grado las penas de este capítulo cuando los hechos se cometen en el seno de una organización o grupo criminal.",
+      "excerpt": "Si los hechos descritos en este Capítulo se hubieran cometido en el seno de una organización o grupo criminal, se aplicarán respectivamente las penas superiores en grado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 198 CP",
+      "stem": "Según el artículo 198 del Código Penal, la autoridad o funcionario público que, fuera de los casos permitidos por la Ley, sin mediar causa legal por delito y prevaliéndose de su cargo, realizare alguna de las conductas del artículo 197 será castigado con las penas previstas en este:",
+      "options": [
+        "En su mitad superior y, además, con inhabilitación absoluta por tiempo de seis a doce años.",
+        "En su mitad inferior y, además, con inhabilitación especial por tiempo de dos a seis años.",
+        "Superiores en grado y, además, con inhabilitación absoluta por tiempo de diez a quince años."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 198 CP impone las penas del art. 197 en su mitad superior más inhabilitación absoluta de seis a doce años a la autoridad o funcionario que actúe prevaliéndose de su cargo.",
+      "excerpt": "La autoridad o funcionario público que, fuera de los casos permitidos por la Ley, sin mediar causa legal por delito, y prevaliéndose de su cargo, realizare cualquiera de las conductas descritas en el artículo anterior, será castigado con las penas respectivamente previstas en el mismo, en su mitad superior y, además, con la de inhabilitación absoluta por tiempo de seis a doce años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 201.1 CP",
+      "stem": "Según el artículo 201 del Código Penal, para proceder por los delitos de descubrimiento y revelación de secretos, con carácter general, será necesaria:",
+      "options": [
+        "Querella del Ministerio Fiscal.",
+        "Denuncia de la persona agraviada o de su representante legal.",
+        "Autorización previa del juez de instrucción."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 201.1 CP exige denuncia de la persona agraviada o de su representante legal; el apartado 2 exceptúa, entre otros, los hechos del art. 198 y los que afecten a intereses generales, a una pluralidad de personas o a menores.",
+      "excerpt": "Para proceder por los delitos previstos en este Capítulo será necesaria denuncia de la persona agraviada o de su representante legal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 249.1 CP",
+      "stem": "Según el artículo 249 del Código Penal, también se consideran reos de estafa los que, con ánimo de lucro, valiéndose de alguna manipulación informática o artificio semejante:",
+      "options": [
+        "Accedan sin autorización a un sistema de información, aunque no causen perjuicio patrimonial.",
+        "Borren o hagan inaccesibles datos informáticos ajenos.",
+        "Consigan una transferencia no consentida de cualquier activo patrimonial en perjuicio de otro."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 249.1.a) CP tipifica la estafa informática: lograr, con ánimo de lucro y mediante manipulación informática, una transferencia no consentida de un activo patrimonial en perjuicio de otro. El acceso ilícito (art. 197 bis) y los daños informáticos (art. 264) son delitos distintos.",
+      "excerpt": "Los que, con ánimo de lucro, obstaculizando o interfiriendo indebidamente en el funcionamiento de un sistema de información o introduciendo, alterando, borrando, transmitiendo o suprimiendo indebidamente datos informáticos o valiéndose de cualquier otra manipulación informática o artificio semejante, consigan una transferencia no consentida de cualquier activo patrimonial en perjuicio de otro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 264.1 CP",
+      "stem": "Según el artículo 264 del Código Penal, quien por cualquier medio, sin autorización y de manera grave, borrase o hiciese inaccesibles datos informáticos ajenos, cuando el resultado producido fuera grave, será castigado con:",
+      "options": [
+        "Prisión de seis meses a tres años.",
+        "Prisión de seis meses a dos años o multa de tres a dieciocho meses.",
+        "Prisión de tres a ocho años y multa del triplo al décuplo del perjuicio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El tipo básico de daños informáticos del art. 264.1 CP se castiga con prisión de seis meses a tres años.",
+      "excerpt": "El que por cualquier medio, sin autorización y de manera grave borrase, dañase, deteriorase, alterase, suprimiese o hiciese inaccesibles datos informáticos, programas informáticos o documentos electrónicos ajenos, cuando el resultado producido fuera grave, será castigado con la pena de prisión de seis meses a tres años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 264.2 CP",
+      "stem": "Según el artículo 264.2 del Código Penal, cuando los daños informáticos hayan afectado al sistema informático de una infraestructura crítica, se impondrá una pena de:",
+      "options": [
+        "Prisión de dos a cinco años y multa del tanto al décuplo del perjuicio ocasionado.",
+        "Prisión de seis meses a tres años.",
+        "Prisión de uno a cuatro años y multa de doce a veinticuatro meses."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 264.2 CP eleva la pena a prisión de dos a cinco años y multa del tanto al décuplo del perjuicio cuando concurre alguna de sus circunstancias, entre ellas la afectación a una infraestructura crítica (4.ª).",
+      "excerpt": "Se impondrá una pena de prisión de dos a cinco años y multa del tanto al décuplo del perjuicio ocasionado, cuando en las conductas descritas concurra alguna de las siguientes circunstancias: […] 4.ª Los hechos hayan afectado al sistema informático de una infraestructura crítica",
+      "excerpt_status": "completo"
+    }
+  ]
+}

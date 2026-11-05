@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "set": "age-adm-53-ejecucion-gasto-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.3 Ejecución del gasto, ordenación del pago y control. El Tribunal de Cuentas",
+    "topic_slug": "age-adm-53-ejecucion-gasto",
+    "locale": "es",
+    "category": "age_adm_53_ejecucion_gasto",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 73.7 LGP",
+      "stem": "Según el artículo 73 de la Ley General Presupuestaria, cuando la naturaleza de la operación o gasto así lo determine:",
+      "options": [
+        "Podrá omitirse la fase de reconocimiento de la obligación.",
+        "Podrá ordenarse el pago antes de la aprobación del gasto.",
+        "Se sustituirá la fiscalización previa por el control financiero permanente.",
+        "Se acumularán en un solo acto las fases de ejecución precisas."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 73.7 LGP permite acumular en un solo acto las fases de ejecución del gasto precisas cuando la naturaleza de la operación lo determine; no permite suprimir fases ni alterar su orden.",
+      "excerpt": "Cuando la naturaleza de la operación o gasto así lo determinen, se acumularán en un solo acto las fases de ejecución precisas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 74.1 LGP",
+      "stem": "De acuerdo con el artículo 74.1 de la Ley General Presupuestaria, aprobar y comprometer los gastos propios de sus presupuestos y reconocer las obligaciones económicas correspondientes corresponde, salvo los casos reservados por ley al Consejo de Ministros:",
+      "options": [
+        "A los Ministros y a los titulares de los demás órganos del Estado con dotaciones diferenciadas en los Presupuestos Generales del Estado.",
+        "Al Ministro de Hacienda respecto de todos los departamentos ministeriales.",
+        "Al Director General del Tesoro y Política Financiera.",
+        "A la Intervención General de la Administración del Estado."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 74.1 LGP atribuye estas competencias a los Ministros y titulares de órganos con dotación diferenciada, que además interesan del Ordenador general de pagos la realización de los pagos.",
+      "excerpt": "Corresponde a los Ministros y a los titulares de los demás órganos del Estado con dotaciones diferenciadas en los Presupuestos Generales del Estado aprobar y comprometer los gastos propios de sus presupuestos, salvo los casos reservados por la Ley a la competencia del Consejo de Ministros, así como reconocer las obligaciones económicas correspondientes, e interesar del Ordenador general de pagos del Estado la realización de los correspondientes pagos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 74.5 LGP",
+      "stem": "Un departamento ministerial prepara un convenio con una entidad privada del que se derivará un gasto de 15 millones de euros. Según el artículo 74.5 de la Ley General Presupuestaria, el órgano competente para suscribirlo:",
+      "options": [
+        "Podrá suscribirlo sin autorización, porque el límite para requerirla es de veinte millones de euros.",
+        "Necesitará autorización del Consejo de Ministros, por superar el gasto los doce millones de euros.",
+        "Necesitará únicamente autorización del Ministro de Hacienda.",
+        "Necesitará autorización de las Cortes Generales mediante ley."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 74.5 LGP exige autorización del Consejo de Ministros para suscribir convenios o contratos-programa cuyo gasto supere doce millones de euros; esa autorización implica la aprobación del gasto.",
+      "excerpt": "Los órganos de los departamentos ministeriales, de sus organismos autónomos y de las entidades gestoras y servicios comunes de la Seguridad Social, competentes para la suscripción de convenios o contratos-programa con otras Administraciones públicas o con entidades públicas o privadas, necesitarán autorización del Consejo de Ministros cuando el importe del gasto que de aquellos se derive sea superior a doce millones de euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.6 LGP",
+      "stem": "Según el artículo 47.6 de la Ley General Presupuestaria, en la tramitación anticipada de expedientes de contratación, de encargos a medios propios y de convenios:",
+      "options": [
+        "Solo podrá llegarse hasta la aprobación del expediente, quedando la adjudicación para el ejercicio en que se inicie la ejecución.",
+        "No resultan aplicables los límites y porcentajes de los compromisos de gasto plurianuales.",
+        "Podrá ultimarse incluso con la adjudicación y formalización del contrato, aun cuando su ejecución deba iniciarse en ejercicios posteriores.",
+        "Se requiere en todo caso autorización previa del Consejo de Ministros."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 47.6 LGP permite ultimar la tramitación anticipada hasta la adjudicación y formalización, aunque la ejecución empiece en ejercicios posteriores, respetando los límites y anualidades de los apartados 2 a 5 del mismo artículo.",
+      "excerpt": "En el caso de la tramitación anticipada de expedientes de contratación a que se refiere el artículo 117.2 de la Ley de Contratos del Sector Público, de encargos a medios propios y de convenios, podrá ultimarse incluso con la adjudicación y formalización del correspondiente contrato, la formalización del encargo o la suscripción del convenio, aun cuando su ejecución, ya sea en una o en varias anualidades, deba iniciarse en ejercicios posteriores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47 bis LGP",
+      "stem": "Un compromiso de gasto plurianual fue adquirido correctamente, pero la Ley de Presupuestos de un ejercicio posterior no autoriza crédito suficiente para atenderlo. Según el artículo 47 bis de la Ley General Presupuestaria, ¿qué debe hacer en primer lugar el órgano competente para aprobar y comprometer el gasto?",
+      "options": [
+        "Acordar directamente la resolución del negocio, sin compensación alguna.",
+        "Comunicar tal circunstancia al tercero, tan pronto como se tenga conocimiento de ello.",
+        "Solicitar un anticipo de Tesorería al Gobierno.",
+        "Imputar la anualidad al crédito para obligaciones de ejercicios anteriores."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 47 bis LGP ordena comunicarlo al tercero; después, si hay disponibilidades, se reprograman las obligaciones y se reajustan anualidades, y solo si no es posible se acuerda la resolución fijando las compensaciones que procedan.",
+      "excerpt": "1.º) El órgano competente para aprobar y comprometer el gasto estará obligado a comunicar tal circunstancia al tercero, tan pronto como se tenga conocimiento de ello.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 75.1 LGP",
+      "stem": "Según el artículo 75 de la Ley General Presupuestaria, las funciones de Ordenador General de pagos del Estado competen, bajo la superior autoridad del Ministro de Economía:",
+      "options": [
+        "Al Interventor General de la Administración del Estado.",
+        "Al Director General de Presupuestos.",
+        "Al Director General del Tesoro y Política Financiera.",
+        "Al Subsecretario de cada departamento ministerial."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 75.1 LGP atribuye al Director General del Tesoro y Política Financiera las funciones de Ordenador General de pagos del Estado; en la Seguridad Social, al Director General de la Tesorería General de la Seguridad Social (art. 75.2).",
+      "excerpt": "Bajo la superior autoridad del Ministro de Economía, competen al Director General del Tesoro y Política Financiera las funciones de Ordenador General de pagos del Estado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 75.3 LGP",
+      "stem": "De acuerdo con el artículo 75.3 de la Ley General Presupuestaria, las órdenes de pago se expedirán, como regla general:",
+      "options": [
+        "A favor de la Habilitación o Caja pagadora del departamento.",
+        "A favor de la entidad colaboradora designada por el órgano gestor.",
+        "A favor de la Intervención Delegada, que las entregará al acreedor.",
+        "A favor del acreedor que figura en la correspondiente propuesta de pago."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 75.3 LGP establece como regla la expedición a favor del acreedor; por orden ministerial pueden regularse supuestos de expedición a favor de Habilitaciones, Cajas pagadoras, Depositarías, entidades colaboradoras u otros agentes mediadores.",
+      "excerpt": "Las órdenes de pago se expedirán a favor del acreedor que figura en la correspondiente propuesta de pago si bien, por Orden del Ministro de Economía, se podrán regular los supuestos en que puedan expedirse a favor de Habilitaciones, Cajas pagadoras o Depositarías de fondos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107 LGP",
+      "stem": "Según el artículo 107 de la Ley General Presupuestaria, en la expedición de las órdenes de pago el Ordenador de Pagos aplicará:",
+      "options": [
+        "Criterios objetivos, tales como la fecha de recepción, el importe de la operación, la aplicación presupuestaria y la forma de pago, entre otros.",
+        "Exclusivamente el orden de antigüedad de las propuestas de pago recibidas.",
+        "Los criterios que fije en cada caso el ministerio gestor del gasto.",
+        "La prioridad que determine la Intervención General de la Administración del Estado en su informe."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 107 LGP obliga al Ordenador de Pagos a aplicar criterios objetivos y cita a título de ejemplo la fecha de recepción, el importe, la aplicación presupuestaria y la forma de pago.",
+      "excerpt": "El Ordenador de Pagos aplicará criterios objetivos en la expedición de las órdenes de pago, tales como la fecha de recepción, el importe de la operación, la aplicación presupuestaria y la forma de pago, entre otros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 110 LGP",
+      "stem": "Según el artículo 110 de la Ley General Presupuestaria, los pagos de la Administración General del Estado y sus organismos autónomos podrán realizarse:",
+      "options": [
+        "Únicamente mediante transferencia bancaria.",
+        "Mediante transferencia bancaria o cheque, quedando prohibido el pago en efectivo.",
+        "Mediante transferencia bancaria, cheque, efectivo o cualesquiera otros medios de pago, sean o no bancarios.",
+        "Solo a través de entidades de crédito colaboradoras del Tesoro."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 110 LGP admite transferencia, cheque, efectivo o cualquier otro medio de pago, bancario o no, en las condiciones que establezcan los Ministros de Economía y de Hacienda.",
+      "excerpt": "los ingresos y los pagos de la Administración General del Estado y sus organismos autónomos podrán realizarse mediante transferencia bancaria, cheque, efectivo o cualesquiera otros medios de pago, sean o no bancarios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 140 LGP",
+      "stem": "De acuerdo con el artículo 140 de la Ley General Presupuestaria, el control interno de la gestión económica y financiera del sector público estatal corresponde:",
+      "options": [
+        "A la Intervención General de la Administración del Estado, con plena autonomía respecto de las autoridades y entidades cuya gestión controle.",
+        "Al Tribunal de Cuentas, como supremo órgano fiscalizador.",
+        "A la Dirección General de Presupuestos.",
+        "A las Subsecretarías de cada departamento ministerial."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 140 LGP distingue el control externo, que corresponde al Tribunal de Cuentas, y el control interno, que ejerce la IGAE con plena autonomía.",
+      "excerpt": "La Intervención General de la Administración del Estado ejercerá en los términos previstos en esta ley el control interno de la gestión económica y financiera del sector público estatal, con plena autonomía respecto de las autoridades y demás entidades cuya gestión controle.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 142.2 LGP",
+      "stem": "Según el artículo 142.2 de la Ley General Presupuestaria, el control de la Intervención General de la Administración del Estado se realizará mediante:",
+      "options": [
+        "La función interventora, el control de eficacia y el control parlamentario.",
+        "La fiscalización previa, el enjuiciamiento contable y la auditoría privada.",
+        "El control financiero permanente, la auditoría pública y la rendición de cuentas al Tribunal de Cuentas.",
+        "La función interventora, el control financiero permanente y la auditoría pública."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 142.2 LGP enumera las tres modalidades de control interno: función interventora, control financiero permanente y auditoría pública.",
+      "excerpt": "El control se realizará mediante el ejercicio de la función interventora, el control financiero permanente y la auditoría pública, a que se refieren los capítulos II, III y IV de este título.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 148 LGP",
+      "stem": "Según el artículo 148 de la Ley General Presupuestaria, la función interventora tiene por objeto controlar los actos del sector público estatal que den lugar al reconocimiento de derechos o a la realización de gastos:",
+      "options": [
+        "Una vez ejecutados, mediante técnicas de auditoría.",
+        "Antes de que sean aprobados.",
+        "De forma continua, a través de la correspondiente intervención delegada.",
+        "Al cierre del ejercicio, junto con las cuentas anuales."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 148 LGP define la función interventora como un control previo (antes de la aprobación de los actos); el control continuo es el financiero permanente (art. 157) y el posterior, la auditoría pública (art. 162).",
+      "excerpt": "La función interventora tiene por objeto controlar, antes de que sean aprobados, los actos del sector público estatal que den lugar al reconocimiento de derechos o a la realización de gastos, así como los ingresos y pagos que de ellos se deriven",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 150.2 LGP",
+      "stem": "De acuerdo con el artículo 150.2 de la Ley General Presupuestaria, respecto de la ordenación del pago, el ejercicio de la función interventora comprende:",
+      "options": [
+        "La intervención material de la ordenación del pago.",
+        "La fiscalización previa de la ordenación del pago.",
+        "La intervención formal de la ordenación del pago.",
+        "La comprobación material de la inversión en la ordenación del pago."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 150.2 LGP comprende la fiscalización previa de los actos que aprueban gastos o reconocen derechos, la intervención del reconocimiento de obligaciones y de la comprobación de la inversión, la intervención formal de la ordenación del pago y la intervención material del pago.",
+      "excerpt": "a) La fiscalización previa de los actos que reconozcan derechos de contenido económico, aprueben gastos, adquieran compromisos de gasto, o acuerden movimientos de fondos y valores. b) La intervención del reconocimiento de las obligaciones y de la comprobación de la inversión. c) La intervención formal de la ordenación del pago. d) La intervención material del pago.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 151.a) LGP",
+      "stem": "Una unidad tramita un contrato menor de suministro de material de oficina. Según el artículo 151 de la Ley General Presupuestaria, en relación con la fiscalización previa:",
+      "options": [
+        "Está sometido a fiscalización previa de requisitos básicos.",
+        "No está sometido a fiscalización previa.",
+        "Está sometido a fiscalización previa solo si supera 5.000 euros.",
+        "Debe someterse a fiscalización previa del Tribunal de Cuentas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 151.a) LGP excluye de la fiscalización previa los contratos menores y los asimilados a ellos en virtud de la legislación contractual.",
+      "excerpt": "No estarán sometidos a la fiscalización previa prevista en el apartado 2.a) del artículo anterior: a) los contratos menores así como los asimilados a ellos en virtud de la legislación contractual;",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 154.1 LGP",
+      "stem": "Al fiscalizar un expediente de gasto, la Intervención Delegada se manifiesta en desacuerdo con el procedimiento seguido y formula reparo por escrito. Según el artículo 154.1 de la Ley General Presupuestaria, la formulación del reparo:",
+      "options": [
+        "Suspenderá la tramitación del expediente hasta que sea solventado.",
+        "No suspenderá la tramitación, pero deberá constar en el expediente.",
+        "Supondrá el archivo definitivo del expediente.",
+        "Obligará a remitir el expediente al Tribunal de Cuentas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 154.1 LGP dispone que el reparo suspende la tramitación hasta que se subsanen las deficiencias o, si no se acepta, se resuelva la discrepancia conforme al art. 155.",
+      "excerpt": "La formulación del reparo suspenderá la tramitación del expediente hasta que sea solventado, bien por la subsanación de las deficiencias observadas o bien, en el caso de no aceptación del reparo, por la resolución del procedimiento previsto en el artículo siguiente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 155.b) LGP",
+      "stem": "Un órgano gestor no acepta un reparo formulado directamente por la Intervención General de la Administración del Estado y plantea discrepancia. Según el artículo 155 de la Ley General Presupuestaria, ¿a quién corresponde adoptar la resolución definitiva?",
+      "options": [
+        "Al Ministro de Hacienda.",
+        "A la propia Intervención General de la Administración del Estado.",
+        "Al Tribunal de Cuentas.",
+        "Al Consejo de Ministros."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 155 LGP atribuye a la IGAE la resolución de las discrepancias con reparos de las intervenciones delegadas; cuando el reparo lo formula la propia IGAE (o lo confirma), la resolución definitiva corresponde al Consejo de Ministros.",
+      "excerpt": "b) Cuando el reparo haya sido formulado por la Intervención General de la Administración del Estado o este centro directivo haya confirmado el de otra Intervención General o delegada, subsistiendo la discrepancia, corresponderá al Consejo de Ministros adoptar resolución definitiva.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 156.3 LGP",
+      "stem": "Según el artículo 156 de la Ley General Presupuestaria, en caso de omisión de la función interventora preceptiva, acordar el sometimiento del asunto al Consejo de Ministros corresponde:",
+      "options": [
+        "Al titular del departamento al que pertenezca el órgano responsable de la tramitación del expediente, sin que dicha competencia pueda ser objeto de delegación.",
+        "Al Interventor General de la Administración del Estado, que podrá delegarlo en los interventores delegados.",
+        "Al Subsecretario del departamento, por delegación del Ministro.",
+        "Al Ministro de Hacienda, en todo caso."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 156.3 LGP atribuye esta competencia, indelegable, al titular del departamento; el acuerdo favorable del Consejo de Ministros no exime de las responsabilidades que procedan (art. 156.4).",
+      "excerpt": "Corresponderá al titular del departamento al que pertenezca el órgano responsable de la tramitación del expediente o al que esté adscrito el organismo autónomo, sin que dicha competencia pueda ser objeto de delegación, acordar, en su caso, el sometimiento del asunto al Consejo de Ministros para que adopte la resolución procedente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 164.1.c) LGP",
+      "stem": "Según el artículo 164 de la Ley General Presupuestaria, la modalidad de auditoría pública que constituye el examen sistemático y objetivo de las operaciones y procedimientos para valorar su racionalidad económico-financiera y su adecuación a los principios de la buena gestión es:",
+      "options": [
+        "La auditoría de regularidad contable.",
+        "La auditoría de cumplimiento.",
+        "La auditoría de cuentas anuales.",
+        "La auditoría operativa."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 164.1 LGP distingue la auditoría de regularidad contable (adecuación a la normativa contable), la de cumplimiento (conformidad con las normas aplicables) y la operativa (racionalidad económico-financiera y buena gestión).",
+      "excerpt": "c) La auditoría operativa, que constituye el examen sistemático y objetivo de las operaciones y procedimientos de una organización, programa, actividad o función pública, con el objeto de proporcionar una valoración independiente de su racionalidad económico-financiera y su adecuación a los principios de la buena gestión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Arts. 131.1 y 132 LGP",
+      "stem": "Según la Ley General Presupuestaria, la Cuenta General del Estado se remite al Tribunal de Cuentas antes del 31 de octubre del año siguiente al que se refiera. ¿En qué plazo debe el Tribunal de Cuentas proceder a su examen y comprobación?",
+      "options": [
+        "Dentro del plazo de tres meses a partir de la fecha en que la haya recibido.",
+        "Dentro del plazo de seis meses a partir de la fecha en que la haya recibido.",
+        "Antes del 31 de diciembre del año en que la haya recibido.",
+        "Dentro del plazo de un año a partir de la fecha en que la haya recibido."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Según los arts. 131.1 y 132 LGP, la IGAE forma la Cuenta General, el Gobierno la remite al Tribunal de Cuentas antes del 31 de octubre del año siguiente y este, por delegación de las Cortes, la examina en seis meses; el Pleno, oído el Fiscal, dicta la declaración definitiva.",
+      "excerpt": "La Cuenta General del Estado de cada año se formará por la Intervención General de la Administración del Estado y se elevará al Gobierno para su remisión al Tribunal de Cuentas antes del día 31 de octubre del año siguiente al que se refiera. […] El Tribunal de Cuentas, por delegación de las Cortes Generales, procederá al examen y comprobación de la Cuenta General del Estado dentro del plazo de seis meses a partir de la fecha en que las haya recibido.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

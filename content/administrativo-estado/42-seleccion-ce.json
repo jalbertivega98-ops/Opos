@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "age-adm-42-seleccion-ce-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "IV.2-3 Selección de personal, Oferta de Empleo Público y funcionarios de carrera e interinos",
+    "topic_slug": "age-adm-42-seleccion",
+    "locale": "es",
+    "category": "age_adm_42_seleccion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 23.2 CE",
+      "stem": "Según el artículo 23.2 de la Constitución Española, los ciudadanos tienen derecho a acceder en condiciones de igualdad a las funciones y cargos públicos:",
+      "options": [
+        "Con los requisitos que establezca cada Administración mediante reglamento.",
+        "Siempre que acrediten su residencia legal en España durante al menos cinco años.",
+        "Sin que puedan exigirse otros requisitos que la nacionalidad española.",
+        "Con los requisitos que señalen las leyes."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 23.2 CE reconoce el derecho de acceso en condiciones de igualdad a las funciones y cargos públicos y remite a las leyes la fijación de los requisitos.",
+      "excerpt": "Asimismo, tienen derecho a acceder en condiciones de igualdad a las funciones y cargos públicos, con los requisitos que señalen las leyes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.3 CE",
+      "stem": "De acuerdo con el artículo 103.3 de la Constitución, la ley regulará el acceso a la función pública de acuerdo con los principios de:",
+      "options": [
+        "Mérito y capacidad.",
+        "Publicidad y transparencia.",
+        "Eficacia y jerarquía.",
+        "Objetividad y celeridad."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 103.3 CE remite a la ley el estatuto de los funcionarios y el acceso a la función pública conforme a los principios de mérito y capacidad. Junto con la igualdad del art. 23.2 CE, forman los principios constitucionales de acceso.",
+      "excerpt": "La ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública de acuerdo con los principios de mérito y capacidad, las peculiaridades del ejercicio de su derecho a sindicación, el sistema de incompatibilidades y las garantías para la imparcialidad en el ejercicio de sus funciones.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

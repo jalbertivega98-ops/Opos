@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "set": "jus-10-oficina-judicial-lopj-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 10. La modernización de la oficina judicial y las nuevas tecnologías",
+    "topic_slug": "jus-10-oficina-judicial",
+    "locale": "es",
+    "category": "jus_10_oficina_judicial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 435.1 LOPJ",
+      "stem": "Según el artículo 435 de la Ley Orgánica del Poder Judicial, la Oficina judicial es:",
+      "options": [
+        "El órgano de gobierno de cada Tribunal de Instancia.",
+        "La organización de carácter instrumental que sirve de soporte y apoyo a la actividad jurisdiccional de jueces y tribunales.",
+        "La unidad administrativa que gestiona los recursos humanos y materiales de la Administración de Justicia.",
+        "El conjunto de jueces y magistrados destinados en un mismo partido judicial."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 435.1 LOPJ define la Oficina judicial como organización instrumental de soporte y apoyo a la actividad jurisdiccional. Las unidades administrativas, en cambio, no están integradas en ella (art. 439).",
+      "excerpt": "1. La Oficina judicial es la organización de carácter instrumental que sirve de soporte y apoyo a la actividad jurisdiccional de jueces y tribunales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 435.2 LOPJ",
+      "stem": "De acuerdo con la Ley Orgánica del Poder Judicial, la estructura básica de la Oficina judicial, homogénea en todo el territorio nacional, estará basada en los principios de:",
+      "options": [
+        "Unidad de actuación y dependencia jerárquica.",
+        "Descentralización, desconcentración y eficacia.",
+        "Independencia, inamovilidad y responsabilidad.",
+        "Jerarquía, división de funciones y coordinación."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 435.2 LOPJ basa la estructura de la Oficina judicial en jerarquía, división de funciones y coordinación; su funcionamiento se rige por criterios de agilidad, eficacia, eficiencia y racionalización del trabajo, entre otros (art. 435.3).",
+      "excerpt": "2. La estructura básica de la Oficina judicial, que será homogénea en todo el territorio nacional como consecuencia del carácter único del Poder al que sirve, estará basada en los principios de jerarquía, división de funciones y coordinación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 436.6 LOPJ",
+      "stem": "Según la Ley Orgánica del Poder Judicial, la dirección de cada servicio común de la Oficina judicial corresponderá a:",
+      "options": [
+        "El juez o magistrado que presida el Tribunal de Instancia.",
+        "Un funcionario del Cuerpo de Gestión Procesal y Administrativa.",
+        "Un letrado o una letrada de la Administración de Justicia.",
+        "El Secretario de Gobierno del Tribunal Superior de Justicia."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 436.6 LOPJ atribuye la dirección de cada servicio común a un letrado de la Administración de Justicia, del que dependen funcionalmente los demás letrados y el personal del servicio.",
+      "excerpt": "6. La dirección de cada servicio común corresponderá a un letrado o una letrada de la Administración de Justicia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 437.1 LOPJ",
+      "stem": "Conforme a la Ley Orgánica del Poder Judicial, se entiende por servicio común de tramitación aquella unidad de la Oficina judicial que:",
+      "options": [
+        "Realiza todas las funciones requeridas para la ordenación del procedimiento.",
+        "Realiza exclusivamente los actos de comunicación y de auxilio judicial.",
+        "Presta servicios a la ciudadanía en los municipios donde no hay Tribunal de Instancia.",
+        "Gestiona los recursos humanos y los medios informáticos sin realizar funciones procesales."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 437.1 LOPJ define el servicio común de tramitación por la ordenación del procedimiento; cada Tribunal de Instancia, Audiencia Provincial, TSJ, la Audiencia Nacional, el Tribunal Supremo y el Tribunal Central de Instancia son asistidos por uno (art. 437.2).",
+      "excerpt": "1. A los efectos de esta ley orgánica se entiende por servicio común de tramitación aquella unidad de la Oficina judicial que realiza todas las funciones requeridas para la ordenación del procedimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 437.3 LOPJ",
+      "stem": "Según el artículo 437 de la Ley Orgánica del Poder Judicial, deberá existir al menos un área en el servicio común de tramitación para la ordenación de los procedimientos de una sección cuando en un Tribunal de Instancia el número de plazas judiciales de esa misma sección sea:",
+      "options": [
+        "Igual o superior a ocho.",
+        "Igual o superior a cinco.",
+        "Igual o superior a veinte.",
+        "Igual o superior a doce."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 437.3 LOPJ obliga a crear al menos un área cuando una sección tenga doce o más plazas judiciales; el área puede extenderse a otras secciones del mismo orden jurisdiccional.",
+      "excerpt": "No obstante, cuando en un Tribunal de Instancia el número de plazas judiciales de una misma sección sea igual o superior a doce, deberá existir al menos un área para la ordenación de los procedimientos de que conozcan",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 438 LOPJ",
+      "stem": "De acuerdo con el artículo 438 de la Ley Orgánica del Poder Judicial, cuando el Ministerio de Justicia o las comunidades autónomas creen servicios comunes procesales que asuman funciones distintas de las de registro y reparto, apoyo, actos de comunicación, auxilio judicial, ejecución y jurisdicción voluntaria, será preciso:",
+      "options": [
+        "La autorización de la Sala de Gobierno del Tribunal Supremo.",
+        "El informe favorable del Consejo General del Poder Judicial.",
+        "El acuerdo de la Junta de Jueces del partido judicial.",
+        "La aprobación por ley de las Cortes Generales."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 438 LOPJ atribuye al Ministerio de Justicia y a las comunidades autónomas la creación de servicios comunes (registro y reparto, apoyo, actos de comunicación, auxilio judicial, ejecución y jurisdicción voluntaria); si asumen otras funciones, se necesita informe favorable del CGPJ.",
+      "excerpt": "Asimismo, podrán crear servicios comunes procesales que asuman otras funciones distintas a las relacionadas en este número, en cuyo caso será preciso el informe favorable del Consejo General del Poder Judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 439.1 LOPJ",
+      "stem": "Según la Ley Orgánica del Poder Judicial, las unidades administrativas que se constituyen en el ámbito de la organización de la Administración de Justicia:",
+      "options": [
+        "Están integradas en la Oficina judicial y realizan funciones de ordenación del procedimiento.",
+        "Están integradas en la Oficina judicial bajo la dirección de un juez.",
+        "No están integradas en la Oficina judicial y sus servicios no comprenden funciones de carácter procesal que correspondan a los Cuerpos de la Administración de Justicia.",
+        "No están integradas en la Oficina judicial, pero asumen la práctica de los actos de comunicación procesal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 439.1 LOPJ define la unidad administrativa como no integrada en la Oficina judicial y excluye de sus servicios las funciones procesales propias del personal de los Cuerpos de la Administración de Justicia.",
+      "excerpt": "1. A los efectos de esta ley, se entiende por unidad administrativa aquélla que, sin estar integrada en la Oficina judicial, se constituye en el ámbito de la organización de la Administración de Justicia para la prestación de servicios que se consideren necesarios o convenientes para el funcionamiento del servicio público de Justicia. Estos servicios no comprenderán la realización de funciones de carácter procesal que correspondan al personal funcionario de los Cuerpos de la Administración de Justicia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 229.3 LOPJ",
+      "stem": "Según el artículo 229 de la Ley Orgánica del Poder Judicial, las declaraciones, interrogatorios, testimonios y vistas podrán realizarse a través de videoconferencia u otro sistema similar que permita:",
+      "options": [
+        "La grabación del sonido para su posterior transcripción.",
+        "El envío diferido de mensajes de vídeo entre las partes.",
+        "La comunicación bidireccional y simultánea de la imagen y el sonido y la interacción visual, auditiva y verbal.",
+        "La comunicación únicamente de sonido, siempre que el juez lo autorice."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 229.3 LOPJ admite la videoconferencia o sistema similar con comunicación bidireccional y simultánea de imagen y sonido, garantizando la contradicción y el derecho de defensa.",
+      "excerpt": "3. Estas actuaciones podrán realizarse a través de videoconferencia u otro sistema similar que permita la comunicación bidireccional y simultánea de la imagen y el sonido y la interacción visual, auditiva y verbal entre dos personas o grupos de personas geográficamente distantes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 236 ter.3 LOPJ",
+      "stem": "Según la Ley Orgánica del Poder Judicial, para el tratamiento de los datos personales en el ejercicio de la actividad jurisdiccional:",
+      "options": [
+        "No será necesario el consentimiento del interesado, ya sean los datos facilitados por las partes o recabados a solicitud de los órganos competentes.",
+        "Será necesario en todo caso el consentimiento expreso y por escrito del interesado.",
+        "Será necesario el consentimiento del interesado, salvo en el orden penal.",
+        "Será necesaria la autorización previa de la Agencia Española de Protección de Datos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 236 ter.3 LOPJ exime del consentimiento del interesado el tratamiento de datos en el ejercicio de la actividad jurisdiccional, sin perjuicio de las normas procesales sobre validez de la prueba.",
+      "excerpt": "3. No será necesario el consentimiento del interesado para que se proceda al tratamiento de los datos personales en el ejercicio de la actividad jurisdiccional, ya sean éstos facilitados por las partes o recabados a solicitud de los órganos competentes, sin perjuicio de lo dispuesto en las normas procesales para la validez de la prueba.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 236 octies LOPJ",
+      "stem": "De acuerdo con el artículo 236 octies de la Ley Orgánica del Poder Judicial, los tratamientos de datos con fines no jurisdiccionales en el ámbito de la Administración de Justicia estarán sometidos a la competencia de:",
+      "options": [
+        "El Consejo General del Poder Judicial.",
+        "La Agencia Española de Protección de Datos.",
+        "La Fiscalía General del Estado.",
+        "El Comité técnico estatal de la Administración judicial electrónica."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 236 octies LOPJ atribuye la supervisión de los tratamientos con fines jurisdiccionales al CGPJ y a la Fiscalía General del Estado en sus respectivos ámbitos, y la de los no jurisdiccionales a la Agencia Española de Protección de Datos.",
+      "excerpt": "2. Los tratamientos de datos con fines no jurisdiccionales estarán sometidos a la competencia de la Agencia Española de Protección de Datos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

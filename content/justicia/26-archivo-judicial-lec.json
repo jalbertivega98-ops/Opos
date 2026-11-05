@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "jus-26-archivo-judicial-lec-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 26. Archivo y documentación judicial",
+    "topic_slug": "jus-26-archivo-judicial",
+    "locale": "es",
+    "category": "jus_26_archivo_judicial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 1/2000, de 7 de enero, de Enjuiciamiento Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 213 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, el libro de sentencias de cada tribunal, en el que se incluyen firmadas todas las sentencias definitivas, autos de igual carácter y votos particulares, se lleva bajo la custodia de:",
+      "options": [
+        "El Presidente del tribunal.",
+        "El Letrado o Letrada de la Administración de Justicia.",
+        "El magistrado ponente de cada asunto.",
+        "El funcionario del Cuerpo de Tramitación Procesal y Administrativa."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 213 LEC sitúa el libro de sentencias bajo la custodia del Letrado de la Administración de Justicia, ordenado correlativamente según su fecha.",
+      "excerpt": "En cada tribunal se llevará, bajo la custodia del letrado o letrada de la Administración de Justicia, un libro de sentencias, en el que se incluirán firmadas todas las definitivas, autos de igual carácter, así como los votos particulares que se hubieren formulado, que serán ordenados correlativamente según su fecha.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 141 LEC",
+      "stem": "Según la Ley de Enjuiciamiento Civil, ¿quién puede acceder a los libros, archivos y registros judiciales que no tengan carácter reservado y obtener, a su costa, testimonio o certificación de los extremos que indique?",
+      "options": [
+        "Cualquier persona, sin necesidad de acreditar interés alguno.",
+        "Exclusivamente las partes personadas en el procedimiento.",
+        "Las personas que acrediten un interés legítimo.",
+        "Solo los abogados y procuradores en ejercicio."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 141 LEC reconoce el acceso a libros, archivos y registros judiciales no reservados a quienes acrediten un interés legítimo, que pueden obtener testimonio o certificación a su costa.",
+      "excerpt": "Las personas que acrediten un interés legítimo podrán acceder a los libros, archivos y registros judiciales que no tengan carácter reservado y obtener, a su costa, testimonio o certificación de los extremos que indiquen.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

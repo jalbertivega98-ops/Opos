@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "age-adm-53-ejecucion-gasto-ce-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.3 Ejecución del gasto, ordenación del pago y control. El Tribunal de Cuentas",
+    "topic_slug": "age-adm-53-ejecucion-gasto",
+    "locale": "es",
+    "category": "age_adm_53_ejecucion_gasto",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 136.1 CE",
+      "stem": "Según el artículo 136 de la Constitución Española, el Tribunal de Cuentas:",
+      "options": [
+        "Es el supremo órgano fiscalizador de las cuentas del Estado y depende directamente del Gobierno.",
+        "Es un órgano de control interno integrado en el Ministerio de Hacienda.",
+        "Es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público, y depende directamente de las Cortes Generales.",
+        "Depende del Consejo General del Poder Judicial y ejerce funciones de control externo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 136.1 CE configura el Tribunal de Cuentas como supremo órgano fiscalizador, dependiente directamente de las Cortes Generales, por delegación de las cuales examina y comprueba la Cuenta General del Estado.",
+      "excerpt": "El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica de Estado, así como del sector público. Dependerá directamente de las Cortes Generales y ejercerá sus funciones por delegación de ellas en el examen y comprobación de la Cuenta General del Estado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

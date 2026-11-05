@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "age-adm-48-personal-laboral-rgi-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "IV.8 El personal laboral al servicio de las Administraciones públicas",
+    "topic_slug": "age-adm-48-personal-laboral",
+    "locale": "es",
+    "category": "age_adm_48_personal_laboral",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 364/1995, de 10 de marzo, Reglamento General de Ingreso del Personal al servicio de la AGE y de Provisión de Puestos de Trabajo y Promoción Profesional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 28.1 RD 364/1995",
+      "stem": "Un ministerio necesita cubrir con personal laboral fijo de nuevo ingreso varias plazas vacantes adscritas a él. Según el Reglamento General de Ingreso (RD 364/1995), ¿quién convoca el proceso selectivo?",
+      "options": [
+        "El propio Departamento ministerial, previo informe favorable de la Dirección General de la Función Pública y de acuerdo con la oferta de empleo público.",
+        "La Dirección General de la Función Pública, previo informe del Departamento interesado.",
+        "El Consejo de Ministros, a propuesta del Ministerio de Hacienda.",
+        "La Comisión Permanente de Selección, sin necesidad de informe previo."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 28.1 RGI atribuye la convocatoria a los Departamentos ministeriales, previo informe favorable de la Dirección General de la Función Pública y conforme a la oferta de empleo público.",
+      "excerpt": "1. Los Departamentos ministeriales convocarán, previo informe favorable de la Dirección General de la Función Pública, los procesos selectivos para el acceso a las plazas vacantes adscritas a los mismos que deban cubrirse con personal laboral fijo de nuevo ingreso, de acuerdo con lo previsto en la oferta de empleo público.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30 RD 364/1995",
+      "stem": "Según el artículo 30 del RD 364/1995, los órganos de selección del personal laboral de la Administración General del Estado:",
+      "options": [
+        "Son permanentes y están formados por un número par de miembros designados por la Dirección General de la Función Pública.",
+        "Se constituyen en cada convocatoria con cinco miembros, todos ellos funcionarios de carrera.",
+        "Se constituyen en cada convocatoria y la mitad de sus miembros se designa a propuesta de las organizaciones sindicales.",
+        "Se constituyen en cada convocatoria con un número impar de miembros, al menos uno de ellos designado a propuesta de la representación de los trabajadores."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 30 RGI exige órganos constituidos en cada convocatoria, con número impar de miembros y, al menos, uno designado a propuesta de la representación de los trabajadores.",
+      "excerpt": "Los órganos de selección se constituirán en cada convocatoria y deberán estar formados por un número impar de miembros, uno de los cuales, al menos, será designado a propuesta de la representación de los trabajadores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 31.2 RD 364/1995",
+      "stem": "En los procesos selectivos de personal laboral regulados por el RD 364/1995, la fecha, lugar y hora de realización de las pruebas se publicará en el «Boletín Oficial del Estado» en el plazo máximo de:",
+      "options": [
+        "Quince días a partir de la terminación del plazo de presentación de instancias.",
+        "Dos meses a partir de la publicación de la convocatoria.",
+        "Un mes a partir de la publicación de la convocatoria.",
+        "Un mes a partir de la terminación del plazo de presentación de instancias."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 31.2 RGI fija un mes desde que termina el plazo de instancias para publicar en el BOE la fecha, lugar y hora de las pruebas, con indicación del lugar donde se exponen las listas de admitidos.",
+      "excerpt": "2. En el plazo máximo de un mes, a partir de la fecha de terminación del plazo previsto en cada convocatoria para la presentación de instancias, se publicará en el «Boletín Oficial del Estado» la fecha, lugar y hora de realización de las pruebas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33.2 RD 364/1995",
+      "stem": "Según el RD 364/1995, ¿en qué momento adquiere el aspirante seleccionado la condición de personal laboral fijo?",
+      "options": [
+        "En el momento de la publicación de la relación de aprobados.",
+        "Cuando supera satisfactoriamente el período de prueba que se determine en cada convocatoria.",
+        "En el momento de la firma del contrato, sin período de prueba.",
+        "Cuando transcurre un año desde su incorporación al puesto de trabajo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 33 RGI exige formalizar el contrato y, transcurrido el período de prueba de la convocatoria, quien lo supere adquiere la condición de personal laboral fijo.",
+      "excerpt": "2. Transcurrido el período de prueba que se determine en cada convocatoria, el personal que lo supere satisfactoriamente adquirirá la condición de personal laboral fijo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "set": "age-adm-56-contratos-subvenciones-lcsp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.6 Gestión económica de los contratos y de las subvenciones",
+    "topic_slug": "age-adm-56-contratos-subvenciones",
+    "locale": "es",
+    "category": "age_adm_56_contratos_subvenciones",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 100.1 LCSP",
+      "stem": "Según el artículo 100 de la Ley 9/2017, de Contratos del Sector Público, el límite máximo de gasto que en virtud del contrato puede comprometer el órgano de contratación, incluido el IVA salvo disposición en contrario, se denomina:",
+      "options": [
+        "Valor estimado del contrato.",
+        "Precio del contrato.",
+        "Importe de adjudicación.",
+        "Presupuesto base de licitación."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 100.1 LCSP define el presupuesto base de licitación como el límite máximo de gasto, IVA incluido; el valor estimado (art. 101) se calcula sin IVA.",
+      "excerpt": "A los efectos de esta Ley, por presupuesto base de licitación se entenderá el límite máximo de gasto que en virtud del contrato puede comprometer el órgano de contratación, incluido el Impuesto sobre el Valor Añadido, salvo disposición en contrario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 101.1.a) y 101.2.a) LCSP",
+      "stem": "Un órgano de contratación calcula el valor estimado de un contrato de servicios de dos años prorrogable por otro año. Según el artículo 101 de la Ley 9/2017, debe tomar:",
+      "options": [
+        "El importe total con IVA, sin tener en cuenta las prórrogas.",
+        "El importe total sin incluir el IVA, teniendo en cuenta las eventuales prórrogas.",
+        "El importe total sin IVA de los dos primeros años, sin computar la prórroga.",
+        "El importe anual con IVA multiplicado por la duración inicial."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 101 LCSP ordena tomar, en obras, suministros y servicios, el importe total pagadero sin IVA y computar, entre otros conceptos, cualquier forma de opción eventual y las eventuales prórrogas.",
+      "excerpt": "a) En el caso de los contratos de obras, suministros y servicios, el órgano de contratación tomará el importe total, sin incluir el Impuesto sobre el Valor Añadido, pagadero según sus estimaciones. […] a) Cualquier forma de opción eventual y las eventuales prórrogas del contrato.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 102.8 LCSP",
+      "stem": "Según el artículo 102.8 de la Ley 9/2017, en los contratos de las Administraciones Públicas el pago aplazado del precio:",
+      "options": [
+        "Está permitido siempre que lo prevea el pliego de cláusulas administrativas particulares.",
+        "Está permitido en los contratos de obras de importe superior a seis millones de euros.",
+        "Está prohibido, salvo en el arrendamiento financiero, el arrendamiento con opción de compra o cuando esta u otra ley lo autorice expresamente.",
+        "Está prohibido sin excepción alguna."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 102.8 LCSP prohíbe el pago aplazado del precio en los contratos de las Administraciones Públicas, con las excepciones del arrendamiento financiero, el arrendamiento con opción de compra y los casos autorizados expresamente por ley.",
+      "excerpt": "Se prohíbe el pago aplazado del precio en los contratos de las Administraciones Públicas, excepto en los supuestos en que el sistema de pago se establezca mediante la modalidad de arrendamiento financiero o de arrendamiento con opción de compra, así como en los casos en que esta u otra Ley lo autorice expresamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.5 LCSP",
+      "stem": "Según el artículo 103.5 de la Ley 9/2017, salvo en los contratos de suministro de energía, la revisión periódica y predeterminada de precios, cuando proceda, tendrá lugar cuando el contrato:",
+      "options": [
+        "Se hubiese ejecutado, al menos, en el 20 por ciento de su importe y hubiese transcurrido un año desde su formalización.",
+        "Se hubiese ejecutado, al menos, en el 50 por ciento de su importe y hubiese transcurrido un año desde su formalización.",
+        "Se hubiese ejecutado, al menos, en el 20 por ciento de su importe y hubiesen transcurrido dos años desde su adjudicación.",
+        "Hubiese transcurrido un año desde su adjudicación, cualquiera que sea el porcentaje ejecutado."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 103.5 LCSP exige haber ejecutado al menos el 20 % del importe y que haya pasado un año desde la formalización; el primer 20 % ejecutado y lo ejecutado en el primer año quedan excluidos de la revisión.",
+      "excerpt": "Salvo en los contratos de suministro de energía, cuando proceda, la revisión periódica y predeterminada de precios en los contratos del sector público tendrá lugar en los términos establecidos en este capítulo, cuando el contrato se hubiese ejecutado, al menos, en el 20 por ciento de su importe y hubiese transcurrido un año desde su formalización.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 103.2 LCSP",
+      "stem": "De acuerdo con el artículo 103.2 de la Ley 9/2017, ¿cuál de los siguientes costes NO se considerará revisable en ningún caso?",
+      "options": [
+        "El coste de la energía en un contrato de suministro de energía.",
+        "El beneficio industrial.",
+        "El coste de los materiales en un contrato de obras.",
+        "El coste de las materias primas cuando su participación supere el 20 por ciento del presupuesto base de licitación."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 103.2 LCSP excluye en todo caso de la revisión los costes asociados a las amortizaciones, los costes financieros, los gastos generales o de estructura y el beneficio industrial.",
+      "excerpt": "No se considerarán revisables en ningún caso los costes asociados a las amortizaciones, los costes financieros, los gastos generales o de estructura ni el beneficio industrial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 106.2 LCSP",
+      "stem": "Según el artículo 106 de la Ley 9/2017, cuando excepcionalmente se exija garantía provisional, su importe no podrá ser superior a:",
+      "options": [
+        "Un 5 por 100 del precio final ofertado, excluido el IVA.",
+        "Un 3 por 100 del presupuesto base de licitación del contrato, IVA incluido.",
+        "Un 2 por 100 del valor estimado del contrato.",
+        "Un 3 por 100 del presupuesto base de licitación del contrato, excluido el IVA."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 106.2 LCSP limita la garantía provisional al 3 % del presupuesto base de licitación, sin IVA; el 5 % del precio final ofertado es la garantía definitiva (art. 107.1).",
+      "excerpt": "En los casos en que el órgano de contratación haya acordado la exigencia de garantía provisional, en los pliegos de cláusulas administrativas particulares se determinará el importe de la misma, que no podrá ser superior a un 3 por 100 del presupuesto base de licitación del contrato, excluido el Impuesto sobre el Valor Añadido y el régimen de su devolución.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 107.1 LCSP",
+      "stem": "Una empresa presenta la mejor oferta en una licitación de servicios con un precio final de 200.000 euros, IVA excluido. Según el artículo 107.1 de la Ley 9/2017, salvo exención justificada en el pliego, ¿qué garantía definitiva deberá constituir?",
+      "options": [
+        "6.000 euros, el 3 por 100 del precio final ofertado, excluido el IVA.",
+        "20.000 euros, el 10 por 100 del precio final ofertado, excluido el IVA.",
+        "10.000 euros, el 5 por 100 del precio final ofertado, excluido el IVA.",
+        "12.100 euros, el 5 por 100 del precio final ofertado, IVA incluido."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 107.1 LCSP fija la garantía definitiva en el 5 % del precio final ofertado, excluido el IVA (5 % de 200.000 = 10.000 euros). Solo en casos especiales puede exigirse una complementaria hasta alcanzar el 10 % (art. 107.2).",
+      "excerpt": "deberán constituir a disposición del órgano de contratación una garantía de un 5 por 100 del precio final ofertado por aquellos, excluido el Impuesto sobre el Valor Añadido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 111.2 LCSP",
+      "stem": "Según el artículo 111.2 de la Ley 9/2017, aprobada la liquidación del contrato y transcurrido el plazo de garantía sin responsabilidades, el acuerdo de devolución de la garantía definitiva deberá adoptarse y notificarse al interesado en el plazo de:",
+      "options": [
+        "Dos meses desde la finalización del plazo de garantía.",
+        "Un mes desde la finalización del plazo de garantía.",
+        "Tres meses desde la recepción de la prestación.",
+        "Seis meses desde la aprobación de la liquidación."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 111.2 LCSP fija dos meses; si la devolución se retrasa por causa imputable a la Administración, esta abonará el interés legal del dinero desde el vencimiento del plazo.",
+      "excerpt": "El acuerdo de devolución deberá adoptarse y notificarse al interesado en el plazo de dos meses desde la finalización del plazo de garantía.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 116.3 LCSP",
+      "stem": "De acuerdo con el artículo 116.3 de la Ley 9/2017, además de los pliegos, al expediente de contratación de una Administración Pública deberá incorporarse:",
+      "options": [
+        "El documento contable de reconocimiento de la obligación.",
+        "El certificado de existencia de crédito y la fiscalización previa de la intervención, en su caso.",
+        "La orden de pago del precio del contrato.",
+        "El informe del Tribunal de Cuentas sobre la necesidad del contrato."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 116.3 LCSP exige incorporar al expediente el certificado de existencia de crédito (o documento equivalente en entidades con presupuesto estimativo) y la fiscalización previa de la intervención, en los términos de la Ley General Presupuestaria.",
+      "excerpt": "Asimismo, deberá incorporarse el certificado de existencia de crédito o, en el caso de entidades del sector público estatal con presupuesto estimativo, documento equivalente que acredite la existencia de financiación, y la fiscalización previa de la intervención, en su caso, en los términos previstos en la Ley 47/2003, de 26 de noviembre, General Presupuestaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 198.4 LCSP",
+      "stem": "Un contratista presenta en plazo su factura electrónica y la Administración aprueba la conformidad del servicio prestado. Según el artículo 198.4 de la Ley 9/2017, ¿en qué plazo debe la Administración abonar el precio para no incurrir en intereses de demora?",
+      "options": [
+        "Dentro de los sesenta días siguientes a la fecha de aprobación de los documentos que acrediten la conformidad.",
+        "Dentro de los treinta días siguientes a la formalización del contrato.",
+        "Dentro de los cuatro meses siguientes a la presentación de la factura.",
+        "Dentro de los treinta días siguientes a la fecha de aprobación de los documentos que acrediten la conformidad."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 198.4 LCSP obliga a pagar en treinta días desde la aprobación de las certificaciones o documentos de conformidad; a partir de ahí se devengan intereses de demora e indemnización por costes de cobro (Ley 3/2004).",
+      "excerpt": "La Administración tendrá la obligación de abonar el precio dentro de los treinta días siguientes a la fecha de aprobación de las certificaciones de obra o de los documentos que acrediten la conformidad con lo dispuesto en el contrato de los bienes entregados o servicios prestados",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 198.5-6 LCSP",
+      "stem": "Según el artículo 198 de la Ley 9/2017, si la demora de la Administración en el pago fuese superior a seis meses, el contratista:",
+      "options": [
+        "Solo podrá suspender el cumplimiento del contrato, comunicándolo con un mes de antelación.",
+        "Únicamente tendrá derecho a los intereses de demora, sin posibilidad de resolver el contrato.",
+        "Tendrá derecho a resolver el contrato y al resarcimiento de los perjuicios que se le originen.",
+        "Podrá resolver el contrato, pero sin derecho a resarcimiento de perjuicios."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 198 LCSP permite suspender el cumplimiento si la demora supera cuatro meses (con preaviso de un mes) y resolver el contrato con resarcimiento de perjuicios si supera seis meses.",
+      "excerpt": "6. Si la demora de la Administración fuese superior a seis meses, el contratista tendrá derecho, asimismo, a resolver el contrato y al resarcimiento de los perjuicios que como consecuencia de ello se le originen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 240.1 LCSP",
+      "stem": "Según el artículo 240 de la Ley 9/2017, en el contrato de obras la Administración expedirá las certificaciones de la obra ejecutada, salvo previsión en contrario del pliego:",
+      "options": [
+        "Mensualmente, en los primeros diez días siguientes al mes al que correspondan.",
+        "Trimestralmente, en los primeros quince días siguientes al trimestre al que correspondan.",
+        "Mensualmente, en los primeros treinta días siguientes al mes al que correspondan.",
+        "Únicamente a la finalización de la obra, con la certificación final."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 240.1 LCSP prevé certificaciones mensuales en los diez primeros días del mes siguiente; sus abonos son pagos a cuenta sujetos a rectificación y no suponen aprobación ni recepción de las obras.",
+      "excerpt": "A los efectos del pago, la Administración expedirá mensualmente, en los primeros diez días siguientes al mes al que correspondan, certificaciones que comprendan la obra ejecutada conforme a proyecto durante dicho período de tiempo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

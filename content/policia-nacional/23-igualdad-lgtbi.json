@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pn-23-igualdad-lgtbi-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 23. Igualdad, violencia de género, discapacidad, dependencia y personas LGTBI",
+    "topic_slug": "pn-23-igualdad",
+    "locale": "es",
+    "category": "pn_23_igualdad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 43.1 LGTBI",
+      "stem": "Según la Ley 4/2023, toda persona de nacionalidad española podrá solicitar por sí misma ante el Registro Civil la rectificación de la mención registral relativa al sexo a partir de que sea:",
+      "options": [
+        "Mayor de edad.",
+        "Mayor de dieciséis años.",
+        "Mayor de catorce años, sin asistencia de sus representantes legales."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 43.1 de la Ley 4/2023 permite la solicitud por sí mismas a las personas mayores de dieciséis años; entre catorce y dieciséis se presenta por sí mismas pero asistidas por sus representantes legales (art. 43.2).",
+      "excerpt": "1. Toda persona de nacionalidad española mayor de dieciséis años podrá solicitar por sí misma ante el Registro Civil la rectificación de la mención registral relativa al sexo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.3 LGTBI",
+      "stem": "Según la Ley 4/2023, el ejercicio del derecho a la rectificación registral de la mención relativa al sexo:",
+      "options": [
+        "Requiere la previa exhibición de un informe psicológico sobre la disconformidad con el sexo registrado.",
+        "Requiere acreditar un tratamiento médico de al menos dos años.",
+        "En ningún caso podrá estar condicionado a la previa exhibición de informe médico o psicológico ni a la previa modificación de la apariencia o función corporal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 44.3 de la Ley 4/2023 prohíbe condicionar la rectificación a informes médicos o psicológicos o a modificaciones corporales previas.",
+      "excerpt": "3. El ejercicio del derecho a la rectificación registral de la mención relativa al sexo en ningún caso podrá estar condicionado a la previa exhibición de informe médico o psicológico relativo a la disconformidad con el sexo mencionado en la inscripción de nacimiento, ni a la previa modificación de la apariencia o función corporal de la persona a través de procedimientos médicos, quirúrgicos o de otra índole.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47 LGTBI",
+      "stem": "Según la Ley 4/2023, las personas que hubieran promovido la rectificación de la mención registral relativa al sexo podrán recuperar la mención que figuraba previamente, siguiendo el mismo procedimiento, una vez transcurridos desde la inscripción de la rectificación:",
+      "options": [
+        "Tres meses.",
+        "Seis meses.",
+        "Un año."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 47 de la Ley 4/2023 permite la reversión transcurridos seis meses desde la inscripción de la rectificación en el Registro Civil.",
+      "excerpt": "Transcurridos seis meses desde la inscripción en el Registro Civil de la rectificación de la mención registral relativa al sexo, las personas que hubieran promovido dicha rectificación podrán recuperar la mención registral del sexo que figuraba previamente a dicha rectificación en el Registro Civil, siguiendo el mismo procedimiento establecido en este Capítulo para la rectificación registral.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

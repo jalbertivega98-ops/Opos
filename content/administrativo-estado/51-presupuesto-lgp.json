@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "set": "age-adm-51-presupuesto-lgp-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "V.1-2 El presupuesto del Estado: principios, estructura, créditos y modificaciones",
+    "topic_slug": "age-adm-51-presupuesto",
+    "locale": "es",
+    "category": "age_adm_51_presupuesto",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 47/2003, de 26 de noviembre, General Presupuestaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 27.4 LGP",
+      "stem": "De acuerdo con el artículo 27.4 de la Ley 47/2003, General Presupuestaria, los derechos liquidados y las obligaciones reconocidas se aplicarán a los presupuestos:",
+      "options": [
+        "Por su importe neto, una vez compensadas las obligaciones con los derechos liquidados en el mismo ejercicio.",
+        "Por su importe íntegro, aunque el Ministro de Hacienda podrá autorizar por orden la atención de obligaciones mediante minoración de derechos.",
+        "Por su importe neto, salvo que la Ley de Presupuestos disponga expresamente su aplicación por el importe íntegro.",
+        "Por su importe íntegro, sin que puedan atenderse obligaciones mediante minoración de los derechos a liquidar o ya ingresados, salvo que la ley lo autorice de modo expreso."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 27.4 LGP consagra el principio de presupuesto bruto: aplicación por el importe íntegro y prohibición de atender obligaciones minorando derechos, salvo autorización expresa de una ley (no de una orden ministerial).",
+      "excerpt": "Los derechos liquidados y las obligaciones reconocidas se aplicarán a los presupuestos por su importe íntegro, sin que puedan atenderse obligaciones mediante minoración de los derechos a liquidar o ya ingresados, salvo que la ley lo autorice de modo expreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 28.1 LGP",
+      "stem": "Según el artículo 28 de la Ley General Presupuestaria, los escenarios presupuestarios plurianuales determinarán los límites que la acción de gobierno debe respetar cuando sus decisiones tengan incidencia presupuestaria, referidos a:",
+      "options": [
+        "Los tres ejercicios siguientes.",
+        "Los dos ejercicios siguientes.",
+        "Los cuatro ejercicios siguientes.",
+        "Los cinco ejercicios siguientes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 28.1 LGP establece que los escenarios presupuestarios plurianuales fijan límites referidos a los tres ejercicios siguientes.",
+      "excerpt": "Los escenarios presupuestarios plurianuales determinarán los límites, referidos a los tres ejercicios siguientes, que la acción de gobierno debe respetar en los casos en que sus decisiones tengan incidencia presupuestaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35.1 LGP",
+      "stem": "Según el artículo 35 de la Ley General Presupuestaria, cada una de las asignaciones individualizadas de gasto que figuran en los presupuestos, puestas a disposición de los centros gestores para la cobertura de las necesidades para las que hayan sido aprobados, se denomina:",
+      "options": [
+        "Programa de gasto.",
+        "Compromiso de gasto.",
+        "Crédito presupuestario.",
+        "Dotación de tesorería."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 35.1 LGP define los créditos presupuestarios como las asignaciones individualizadas de gasto puestas a disposición de los centros gestores.",
+      "excerpt": "Son créditos presupuestarios cada una de las asignaciones individualizadas de gasto, que figuran en los presupuestos de los órganos y entidades a que se refiere el artículo 33.1.ª) de esta ley, puestas a disposición de los centros gestores para la cobertura de las necesidades para las que hayan sido aprobados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35.4 LGP",
+      "stem": "En el presupuesto por programas regulado en el artículo 35 de la Ley General Presupuestaria, cuando los resultados de un programa presupuestario no sean mensurables, su efectividad se comprobará:",
+      "options": [
+        "Mediante una auditoría operativa de la Intervención General de la Administración del Estado.",
+        "Mediante el informe de la Comisión de Políticas de Gasto.",
+        "Mediante la comparación con la dotación inicial del programa.",
+        "Mediante indicadores que permitan su medición indirecta."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 35.4 LGP dispone que el cumplimiento de un programa se comprueba por sus resultados cuando sean mensurables e identificables y, si no lo son, mediante indicadores que permitan su medición indirecta.",
+      "excerpt": "La comprobación del grado de cumplimiento de un programa presupuestario se efectuará en función de los resultados cuando éstos sean mensurables e identificables. Cuando los resultados no sean mensurables la efectividad del programa se hará mediante indicadores que permitan su medición indirecta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 41.b) LGP",
+      "stem": "Según el artículo 41 de la Ley General Presupuestaria, en la clasificación económica de los estados de ingresos, ¿dónde se incluyen las tasas y los precios públicos?",
+      "options": [
+        "En los ingresos de capital.",
+        "En las operaciones financieras, como activos financieros.",
+        "En los ingresos corrientes.",
+        "En los ingresos patrimoniales, dentro de las operaciones de capital."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 41.b) LGP sitúa entre los ingresos corrientes los impuestos directos y cotizaciones sociales, los impuestos indirectos, las tasas, precios públicos y otros ingresos, las transferencias corrientes y los ingresos patrimoniales.",
+      "excerpt": "En los ingresos corrientes se distinguirán: impuestos directos y cotizaciones sociales, impuestos indirectos, tasas, precios públicos y otros ingresos, transferencias corrientes e ingresos patrimoniales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 43.1 LGP",
+      "stem": "De acuerdo con el artículo 43.1 de la Ley General Presupuestaria, en el presupuesto del Estado los créditos para inversiones reales se especificarán, con carácter general, a nivel de:",
+      "options": [
+        "Capítulo.",
+        "Artículo.",
+        "Concepto.",
+        "Subconcepto."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 43.1 LGP fija la regla general de especificación a nivel de concepto; los gastos de personal y los gastos corrientes en bienes y servicios se especifican a nivel de artículo, y las inversiones reales a nivel de capítulo.",
+      "excerpt": "En el presupuesto del Estado los créditos se especificarán a nivel de concepto, salvo los créditos destinados a gastos de personal y los gastos corrientes en bienes y servicios, que se especificarán a nivel de artículo y las inversiones reales a nivel de capítulo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.2 LGP",
+      "stem": "Según el artículo 47.2 de la Ley General Presupuestaria, en los compromisos de gasto de carácter plurianual el gasto que se impute al ejercicio inmediato siguiente no podrá exceder, con carácter general, del siguiente porcentaje del crédito inicial:",
+      "options": [
+        "El 60 por ciento.",
+        "El 70 por ciento.",
+        "El 50 por ciento.",
+        "El 80 por ciento."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 47.2 LGP limita a cuatro el número de ejercicios y fija los porcentajes del 70 % (primer ejercicio siguiente), 60 % (segundo) y 50 % (tercero y cuarto).",
+      "excerpt": "El número de ejercicios a que pueden aplicarse los gastos no será superior a cuatro. El gasto que se impute a cada uno de los ejercicios posteriores no podrá exceder de la cantidad que resulte de aplicar al crédito inicial a que corresponda la operación los siguientes porcentajes: en el ejercicio inmediato siguiente, el 70 por ciento, en el segundo ejercicio, el 60 por ciento, y en los ejercicios tercero y cuarto, el 50 por ciento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.3 LGP",
+      "stem": "De acuerdo con el artículo 47.3 de la Ley General Presupuestaria, en casos especialmente justificados, ¿quién puede acordar la modificación de los porcentajes de los compromisos de gasto plurianuales o incrementar el número de anualidades?",
+      "options": [
+        "El Gobierno.",
+        "El Ministro de Hacienda, sin necesidad de acuerdo del Consejo de Ministros.",
+        "La Dirección General de Presupuestos.",
+        "Las Cortes Generales, mediante ley específica."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 47.3 LGP atribuye esta facultad al Gobierno; el Ministro de Hacienda eleva la propuesta al Consejo de Ministros, previo informe de la Dirección General de Presupuestos.",
+      "excerpt": "El Gobierno, en casos especialmente justificados, podrá acordar la modificación de los porcentajes anteriores, incrementar el número de anualidades o autorizar la adquisición de compromisos de gastos que hayan de atenderse en ejercicios posteriores en el caso de que no exista crédito inicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.2 LGP",
+      "stem": "Según el artículo 49 de la Ley General Presupuestaria, los créditos para gastos que en el último día del ejercicio presupuestario no estén afectados al cumplimiento de obligaciones ya reconocidas:",
+      "options": [
+        "Se incorporarán automáticamente al presupuesto del ejercicio siguiente.",
+        "Pasarán a integrar el Fondo de Contingencia del ejercicio siguiente.",
+        "Se prorrogarán durante el primer trimestre del ejercicio siguiente.",
+        "Quedarán anulados de pleno derecho, sin perjuicio de lo establecido para las incorporaciones de crédito."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 49.2 LGP recoge el principio de temporalidad: los créditos no afectados a obligaciones reconocidas se anulan de pleno derecho al final del ejercicio, salvo las incorporaciones del art. 58.",
+      "excerpt": "Los créditos para gastos que en el último día del ejercicio presupuestario no estén afectados al cumplimiento de obligaciones ya reconocidas, quedarán anulados de pleno derecho, sin perjuicio de lo establecido en el artículo 58 de esta ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 51 LGP",
+      "stem": "¿Cuál de las siguientes figuras NO está enumerada en el artículo 51 de la Ley General Presupuestaria entre las modificaciones de los créditos iniciales?",
+      "options": [
+        "Las generaciones de crédito.",
+        "Las incorporaciones de crédito.",
+        "Los anticipos de caja fija.",
+        "Las transferencias de crédito."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 51 LGP enumera como modificaciones las transferencias, generaciones, ampliaciones, créditos extraordinarios y suplementos de crédito e incorporaciones. Los anticipos de caja fija son provisiones de fondos extrapresupuestarias (art. 78 LGP), no modificaciones de crédito.",
+      "excerpt": "La cuantía y finalidad de los créditos contenidos en los presupuestos de gastos sólo podrán ser modificadas durante el ejercicio, dentro de los límites y con arreglo al procedimiento establecido en los artículos siguientes, mediante: a) Transferencias. b) Generaciones. c) Ampliaciones. d) Créditos extraordinarios y suplementos de crédito. e) Incorporaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.1 LGP",
+      "stem": "El servicio de gestión económica de un ministerio propone una transferencia de crédito. Según el artículo 52.1 de la Ley General Presupuestaria, ¿cuál de las siguientes transferencias está prohibida con carácter general?",
+      "options": [
+        "Una transferencia desde créditos para operaciones corrientes a créditos para operaciones de capital.",
+        "Una transferencia desde créditos para operaciones de capital a créditos para operaciones corrientes.",
+        "Una transferencia entre créditos de un mismo programa que cree un crédito nuevo.",
+        "Una transferencia entre créditos para operaciones corrientes de la misma sección presupuestaria."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 52.1.a) LGP prohíbe transferir desde operaciones financieras al resto de créditos y desde operaciones de capital a operaciones corrientes; el sentido inverso (de corrientes a capital) no está vedado por esa letra.",
+      "excerpt": "a) No podrán realizarse desde créditos para operaciones financieras al resto de los créditos, ni desde créditos para operaciones de capital a créditos para operaciones corrientes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 53.1 LGP",
+      "stem": "Según la Ley General Presupuestaria, las modificaciones que incrementan los créditos como consecuencia de la realización de determinados ingresos no previstos o superiores a los contemplados en el presupuesto inicial se denominan:",
+      "options": [
+        "Ampliaciones de crédito.",
+        "Incorporaciones de crédito.",
+        "Suplementos de crédito.",
+        "Generaciones de crédito."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 53.1 LGP define las generaciones como modificaciones que incrementan los créditos por ingresos no previstos o superiores a los presupuestados.",
+      "excerpt": "Las generaciones son modificaciones que incrementan los créditos como consecuencia de la realización de determinados ingresos no previstos o superiores a los contemplados en el presupuesto inicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 54.1 LGP",
+      "stem": "De acuerdo con el artículo 54.1 de la Ley General Presupuestaria, tienen excepcionalmente la condición de ampliables, entre otros, los créditos destinados:",
+      "options": [
+        "A gastos de personal funcionario de la Administración General del Estado.",
+        "Al pago de pensiones de Clases Pasivas del Estado.",
+        "A atenciones protocolarias y representativas.",
+        "A inversiones reales de los departamentos ministeriales."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 54.1 LGP declara ampliables los créditos para pensiones de Clases Pasivas, los destinados a obligaciones específicas derivadas de normas con rango de ley relacionadas en el estado de gastos, y los de la Deuda del Estado.",
+      "excerpt": "Excepcionalmente tendrán la condición de ampliables los créditos destinados al pago de pensiones de Clases Pasivas del Estado y los destinados a atender obligaciones específicas del respectivo ejercicio, derivadas de normas con rango de ley, que de modo taxativo y debidamente explicitados se relacionen en el estado de gastos de los Presupuestos Generales del Estado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 55.1 LGP",
+      "stem": "Según el artículo 55.1 de la Ley General Presupuestaria, cuando haya de realizarse un gasto que no pueda demorarse hasta el ejercicio siguiente y el crédito consignado sea insuficiente y no ampliable, procede tramitar:",
+      "options": [
+        "Un suplemento de crédito.",
+        "Un crédito extraordinario.",
+        "Una generación de crédito.",
+        "Una incorporación de crédito."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 55.1 LGP prevé el crédito extraordinario cuando no existe crédito adecuado y el suplementario cuando el consignado es insuficiente y no ampliable, siempre que no sea posible su dotación por las demás figuras del art. 51.",
+      "excerpt": "Cuando haya de realizarse con cargo al Presupuesto del Estado algún gasto que no pueda demorarse hasta el ejercicio siguiente, y no exista crédito adecuado o sea insuficiente y no ampliable el consignado y su dotación no resulte posible a través de las restantes figuras previstas en el artículo 51, deberá procederse a la tramitación de un crédito extraordinario o suplementario del inicialmente previsto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 55.3 LGP",
+      "stem": "De acuerdo con el artículo 55.3 de la Ley General Presupuestaria, los créditos extraordinarios y suplementos de crédito del Estado para atender obligaciones del ejercicio corriente que se financien con cargo al Fondo de Contingencia serán autorizados por:",
+      "options": [
+        "Las Cortes Generales, mediante ley.",
+        "El Ministro de Hacienda.",
+        "El Consejo de Ministros.",
+        "El titular del ministerio afectado, previo informe de la Intervención Delegada."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 55.3 LGP atribuye al Consejo de Ministros esta autorización; en cambio, si se financian con baja en otros créditos o afectan a operaciones financieras, se remite un proyecto de ley a las Cortes (art. 55.2).",
+      "excerpt": "El Consejo de Ministros autorizará los créditos extraordinarios y suplementos de crédito para atender obligaciones del ejercicio corriente o de ejercicios anteriores si se hubiera anulado crédito en el ejercicio de procedencia, cuando se financien con cargo al Fondo de Contingencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 56.3 LGP",
+      "stem": "El director de un organismo autónomo necesita un suplemento de crédito de 300.000 euros, que representa el 6 % del capítulo correspondiente de su presupuesto inicial de gastos no afecta a gastos de personal y es la única modificación de este tipo en el ejercicio. Según el artículo 56.3 de la Ley General Presupuestaria, ¿quién es competente para autorizarlo?",
+      "options": [
+        "El Ministro de Hacienda.",
+        "El propio presidente o director del organismo, dando cuenta al Ministro de que dependa y al Ministro de Hacienda.",
+        "El Consejo de Ministros.",
+        "El Ministro del que dependa el organismo, previo informe de la Intervención Delegada."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 56.3.a) LGP atribuye la competencia a presidentes o directores hasta el 10 % del capítulo sin superar 500.000 euros (excluidos gastos de personal y créditos del art. 44.2); por encima, hasta el 20 % y 1.000.000 euros, al Ministro de Hacienda; en los demás casos, al Consejo de Ministros.",
+      "excerpt": "a. A los Presidentes o Directores de los organismos hasta un importe del 10 % del correspondiente capítulo de su presupuesto inicial de gastos, cuando no supere la cuantía de 500.000 euros, excluidos los que afecten a gastos de personal o a los contemplados en el apartado 2 del artículo 44 de esta Ley, dando cuenta de los acuerdos al Ministro de que dependan y al Ministro de Hacienda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58.d) LGP",
+      "stem": "En diciembre del ejercicio anterior se concedió mediante ley un crédito extraordinario que no llegó a comprometerse antes del cierre. Según el artículo 58 de la Ley General Presupuestaria, ¿qué figura permite aplicar ese remanente en el ejercicio actual?",
+      "options": [
+        "Una incorporación de crédito.",
+        "Una generación de crédito.",
+        "Una ampliación de crédito.",
+        "Una transferencia de crédito."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 58.d) LGP permite incorporar a los créditos de un ejercicio los remanentes del anterior que resulten de créditos extraordinarios y suplementos de crédito concedidos mediante norma con rango de ley en el último mes del ejercicio presupuestario anterior.",
+      "excerpt": "No obstante lo dispuesto en el artículo 49, se podrán incorporar a los correspondientes créditos de un ejercicio los remanentes de crédito del ejercicio anterior, en los siguientes casos: […] d) Los que resulten de créditos extraordinarios y suplementos de crédito que hayan sido concedidos mediante norma con rango de ley en el último mes del ejercicio presupuestario anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 60.1 LGP",
+      "stem": "Según el artículo 60 de la Ley General Presupuestaria, los anticipos de Tesorería que puede conceder el Gobierno para atender gastos inaplazables tienen como límite máximo en cada ejercicio:",
+      "options": [
+        "El dos por ciento de los créditos autorizados al Estado por la Ley de Presupuestos Generales del Estado.",
+        "El siete por ciento de los créditos para gastos corrientes en bienes y servicios.",
+        "El cinco por ciento del total de gastos para operaciones no financieras.",
+        "El uno por ciento de los créditos autorizados al Estado por la Ley de Presupuestos Generales del Estado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 60.1 LGP fija el límite en el 1 % de los créditos autorizados al Estado y exige que se haya iniciado la tramitación del crédito extraordinario o suplemento con dictamen favorable del Consejo de Estado, o que se haya promulgado una ley que obligue a concederlo.",
+      "excerpt": "Con carácter excepcional, el Gobierno, a propuesta del Ministro de Economía, podrá conceder anticipos de Tesorería para atender gastos inaplazables, con el límite máximo en cada ejercicio del uno por ciento de los créditos autorizados al Estado por la Ley de Presupuestos Generales del Estado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 63.1.a) LGP",
+      "stem": "Una subdirección necesita reforzar un crédito de inversiones reales con baja en un crédito de gastos corrientes en bienes y servicios del mismo programa de su ministerio, sin afectar a gastos de personal ni a los créditos del artículo 43.2. Según el artículo 63.1 de la Ley General Presupuestaria, ¿quién puede autorizar esta transferencia?",
+      "options": [
+        "El Ministro de Hacienda, en todo caso.",
+        "El Consejo de Ministros, a propuesta del Ministro de Hacienda.",
+        "El titular del ministerio, previo informe favorable de la Intervención Delegada competente.",
+        "El Subsecretario del departamento, sin necesidad de informe de la Intervención."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 63.1.a) LGP permite a los titulares de los ministerios autorizar, previo informe favorable de la Intervención Delegada, las transferencias entre créditos de un mismo programa o entre programas de un mismo servicio, siempre que no afecten a los de personal ni incrementen los créditos del art. 43.2.",
+      "excerpt": "Los titulares de los distintos ministerios podrán autorizar, previo informe favorable de la Intervención Delegada competente en el ministerio o, en su caso, en las entidades a que se refiere el artículo 3.1 de esta ley, las siguientes modificaciones presupuestarias: a) Transferencias entre créditos de un mismo programa o entre programas de un mismo servicio",
+      "excerpt_status": "completo"
+    }
+  ]
+}

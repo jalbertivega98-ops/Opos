@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pn-21-procesal-penal-lohc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Tema 21. Derecho Procesal Penal: jurisdicción, denuncia, detención, habeas corpus, Ministerio Fiscal y Policía Judicial",
+    "topic_slug": "pn-21-procesal-penal",
+    "locale": "es",
+    "category": "pn_21_procesal_penal",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus» (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (3 opciones, una correcta; cada error resta medio acierto), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7 LOHC",
+      "stem": "Según la Ley Orgánica 6/1984, reguladora del procedimiento de habeas corpus, los jueces practicarán las actuaciones y dictarán la resolución que proceda en el plazo de:",
+      "options": [
+        "Setenta y dos horas, contadas desde la detención.",
+        "Cuarenta y ocho horas, contadas desde la presentación de la solicitud.",
+        "Veinticuatro horas, contadas desde que sea dictado el auto de incoación."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 7 LOHC fija veinticuatro horas desde el auto de incoación para oír a las partes, practicar las pruebas y resolver.",
+      "excerpt": "En el plazo de veinticuatro horas, contadas desde que sea dictado el auto de incoación, los Jueces practicarán todas las actuaciones a que se refiere este artículo y dictarán la resolución que proceda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 LOHC",
+      "stem": "Según el artículo 3 de la Ley Orgánica 6/1984, de habeas corpus, ¿cuál de los siguientes está legitimado para instar el procedimiento?",
+      "options": [
+        "El agente que practicó la detención.",
+        "El Defensor del Pueblo.",
+        "Cualquier ciudadano, en ejercicio de la acción popular."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 3 LOHC legitima al privado de libertad y a sus familiares y representantes, al Ministerio Fiscal, al Defensor del Pueblo y al abogado defensor; además, el juez puede iniciarlo de oficio.",
+      "excerpt": "Podrán instar el procedimiento de “Habeas Corpus” que esta ley establece: […] b) El Ministerio Fiscal. c) El Defensor del Pueblo. d) El abogado defensor del privado de libertad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 LOHC",
+      "stem": "Según la Ley Orgánica 6/1984, de habeas corpus, si la detención obedece a la aplicación de la ley orgánica que desarrolla los supuestos del artículo 55.2 de la Constitución, el procedimiento deberá seguirse ante:",
+      "options": [
+        "El Juez Central de Instrucción correspondiente.",
+        "El Juez de Instrucción del lugar en que se encuentre la persona privada de libertad.",
+        "La Sala de lo Penal de la Audiencia Nacional."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 2 LOHC atribuye la competencia, con carácter general, al Juez de Instrucción del lugar donde se encuentre el detenido, pero en los supuestos del art. 55.2 CE corresponde al Juez Central de Instrucción.",
+      "excerpt": "Si la detención obedece a la aplicación de la ley orgánica que desarrolla los supuestos previstos en el art. 55.2 de la Constitución, el procedimiento deberá seguirse ante el Juez Central de Instrucción correspondiente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

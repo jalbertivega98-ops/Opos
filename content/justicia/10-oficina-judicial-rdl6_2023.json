@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "set": "jus-10-oficina-judicial-rdl6_2023-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 10. La modernización de la oficina judicial y las nuevas tecnologías",
+    "topic_slug": "jus-10-oficina-judicial",
+    "locale": "es",
+    "category": "jus_10_oficina_judicial",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto-ley 6/2023, de 19 de diciembre (eficiencia digital del servicio público de justicia, entre otras materias) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 43.4 RDL 6/2023",
+      "stem": "Según el Real Decreto-ley 6/2023, cuando un documento no pueda adjuntarse al envío electrónico de un escrito, el original deberá presentarse ante el órgano judicial:",
+      "options": [
+        "En el día hábil siguiente a aquel en que se hubiera efectuado el envío electrónico del escrito; si no se presenta en ese plazo, se tendrá por no presentado.",
+        "En los tres días hábiles siguientes al envío; si no se presenta, se requerirá su subsanación en diez días.",
+        "En el mismo día del envío electrónico, antes de las quince horas.",
+        "En cualquier momento antes de la celebración de la vista."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 43.4 del RDL 6/2023 exige presentar el original el día hábil siguiente al envío electrónico, haciendo referencia a los datos identificativos de ese envío; de lo contrario, el documento se tiene por no presentado a todos los efectos.",
+      "excerpt": "presentando el original ante el órgano judicial en el día hábil siguiente a aquel en que se hubiera efectuado el envío electrónico del escrito, que deberá acompañar en todo caso. Si no se presentara en este plazo, el documento se tendrá por no presentado a todos los efectos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.1 RDL 6/2023",
+      "stem": "De acuerdo con el Real Decreto-ley 6/2023, el expediente judicial electrónico es:",
+      "options": [
+        "La copia en papel de las actuaciones judiciales firmada por el letrado de la Administración de Justicia.",
+        "El conjunto ordenado de datos, documentos, trámites y actuaciones electrónicas, así como de grabaciones audiovisuales, correspondientes a un procedimiento judicial.",
+        "El registro de los escritos presentados por los profesionales a través de la sede judicial electrónica.",
+        "El índice de las resoluciones judiciales dictadas en un procedimiento."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 47.1 del RDL 6/2023 define el expediente judicial electrónico como conjunto ordenado de datos, documentos, trámites, actuaciones y grabaciones de un procedimiento, cualquiera que sea su formato.",
+      "excerpt": "1. El expediente judicial electrónico es el conjunto ordenado de datos, documentos, trámites y actuaciones electrónicas, así como de grabaciones audiovisuales, correspondientes a un procedimiento judicial, cualquiera que sea el tipo de información que contengan y el formato en el que se hayan generado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.2 RDL 6/2023",
+      "stem": "Según el Real Decreto-ley 6/2023, a cada expediente judicial electrónico se asignará un número de identificación general que será:",
+      "options": [
+        "Distinto en cada instancia del proceso.",
+        "Asignado por el órgano judicial que dicte la sentencia.",
+        "Renovado cada vez que el expediente se remita a otro órgano.",
+        "Único e inalterable a lo largo de todo el proceso."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 47.2 del RDL 6/2023 asigna un número de identificación general único e inalterable que permite identificar el expediente por cualquier tribunal u oficina. Además, todo expediente tiene un índice electrónico firmado (art. 47.3).",
+      "excerpt": "2. Se asignará un número de identificación general a cada expediente judicial electrónico, que será único e inalterable a lo largo de todo el proceso",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.1 RDL 6/2023",
+      "stem": "Conforme al Real Decreto-ley 6/2023, el cotejo de la autenticidad e integridad de los documentos con Código Seguro de Verificación se realizará:",
+      "options": [
+        "Ante el letrado de la Administración de Justicia del órgano emisor, de forma presencial.",
+        "En la sede judicial electrónica correspondiente al órgano que emitió el documento.",
+        "En el Punto de Acceso General de la Administración General del Estado.",
+        "Ante cualquier notario, mediante testimonio."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 26.1 del RDL 6/2023 dispone que el cotejo de documentos con CSV se hace en la sede judicial electrónica del órgano emisor; el documento debe indicar la dirección electrónica de cotejo (art. 26.2).",
+      "excerpt": "El cotejo de los documentos con Código Seguro de Verificación se realizará en la sede judicial electrónica correspondiente al órgano que emitió el documento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 60.6 RDL 6/2023",
+      "stem": "Según el Real Decreto-ley 6/2023, los intervinientes en una videoconferencia deberán observar:",
+      "options": [
+        "Normas de decoro propias y menos exigentes que las de las actuaciones presenciales.",
+        "Únicamente las normas de vestimenta que fije cada Colegio profesional.",
+        "Las normas que determine libremente cada interviniente desde su domicilio.",
+        "Las mismas normas de decoro, vestimenta y respeto exigidas en las actuaciones realizadas presencialmente."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 60.6 del RDL 6/2023 equipara las exigencias de decoro, vestimenta y respeto de la videoconferencia a las de las actuaciones presenciales. Los intervinientes deben identificarse al inicio del acto (art. 60.1).",
+      "excerpt": "6. Los intervinientes en una videoconferencia deberán observar las mismas normas de decoro, vestimenta y respeto exigidas en las actuaciones realizadas presencialmente en las salas de vistas y en las sedes de los tribunales, oficinas judiciales y oficinas fiscales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 61.1 RDL 6/2023",
+      "stem": "Conforme al artículo 61 del Real Decreto-ley 6/2023, el incumplimiento de las reglas de identificación y firma en una actuación por videoconferencia:",
+      "options": [
+        "Determina en todo caso la nulidad de pleno derecho de la actuación.",
+        "Obliga a repetir la actuación de forma presencial en el plazo de diez días.",
+        "No priva por sí solo de efectos procesales y jurídicos a la actuación, ni supone su ineficacia o nulidad.",
+        "Supone la anulabilidad de la actuación, que deberá declararse de oficio."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 61.1 del RDL 6/2023 dispone que el incumplimiento no priva por sí solo de efectos a la actuación; si se impugna la identificación o la firma, la Administración comprueba los requisitos y, en su caso, resuelve el juez o tribunal previa audiencia de las partes (art. 61.2-4).",
+      "excerpt": "1. El incumplimiento de lo establecido en los artículos anteriores no priva por sí solo de efectos procesales y jurídicos a la actuación llevada a cabo por videoconferencia, ni supone la ineficacia o nulidad de la misma.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

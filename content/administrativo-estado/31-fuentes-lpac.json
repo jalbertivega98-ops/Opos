@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "age-adm-31-fuentes-lpac-v1",
+    "exam": "administrativo-estado",
+    "also_exams": [],
+    "topic": "III.1 Las fuentes del derecho administrativo. La ley, el decreto-ley, el decreto legislativo y el reglamento",
+    "topic_slug": "age-adm-31-fuentes",
+    "locale": "es",
+    "category": "age_adm_31_fuentes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 128.2 LPAC",
+      "stem": "De acuerdo con el artículo 128 de la Ley 39/2015, sin perjuicio de su función de desarrollo o colaboración con respecto a la ley, los reglamentos y disposiciones administrativas no podrán:",
+      "options": [
+        "Regular la organización interna de los órganos administrativos.",
+        "Tipificar infracciones administrativas ni establecer sanciones.",
+        "Desarrollar los procedimientos previstos en una ley.",
+        "Ser aprobados por los órganos de gobierno locales."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 128.2 LPAC impide a los reglamentos tipificar delitos, faltas o infracciones administrativas, establecer penas o sanciones, tributos, exacciones parafiscales u otras prestaciones patrimoniales de carácter público; el art. 128.1 reconoce potestad reglamentaria a los órganos de gobierno locales.",
+      "excerpt": "Sin perjuicio de su función de desarrollo o colaboración con respecto a la ley, no podrán tipificar delitos, faltas o infracciones administrativas, establecer penas o sanciones, así como tributos, exacciones parafiscales u otras cargas o prestaciones personales o patrimoniales de carácter público.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 129.1 LPAC",
+      "stem": "Según el artículo 129 de la Ley 39/2015, ¿cuál de los siguientes NO figura entre los principios de buena regulación a los que deben ajustarse las Administraciones Públicas en el ejercicio de la iniciativa legislativa y la potestad reglamentaria?",
+      "options": [
+        "Proporcionalidad.",
+        "Seguridad jurídica.",
+        "Jerarquía.",
+        "Eficiencia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 129.1 LPAC enumera necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia; la jerarquía es un principio de organización administrativa (art. 103.1 CE), no de buena regulación.",
+      "excerpt": "En el ejercicio de la iniciativa legislativa y la potestad reglamentaria, las Administraciones Públicas actuarán de acuerdo con los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia, y eficiencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 131 LPAC",
+      "stem": "Conforme al artículo 131 de la Ley 39/2015, para que las normas con rango de ley, los reglamentos y las disposiciones administrativas entren en vigor y produzcan efectos jurídicos:",
+      "options": [
+        "Basta con su aprobación por el órgano competente.",
+        "Deben notificarse individualmente a los interesados.",
+        "Basta con su publicación en el Portal de la Transparencia.",
+        "Habrán de publicarse en el diario oficial correspondiente."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 131 LPAC exige la publicación en el diario oficial correspondiente; otros medios de publicidad son solo complementarios y facultativos.",
+      "excerpt": "Las normas con rango de ley, los reglamentos y disposiciones administrativas habrán de publicarse en el diario oficial correspondiente para que entren en vigor y produzcan efectos jurídicos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37 LPAC",
+      "stem": "Un Ministro aprueba una Orden ministerial que regula con carácter general los requisitos de unas autorizaciones. Meses después, el mismo Ministro dicta una resolución particular que concede una autorización a una empresa sin exigirle uno de esos requisitos. Según la Ley 39/2015, esa resolución es:",
+      "options": [
+        "Válida, porque procede del mismo órgano que aprobó la disposición general.",
+        "Válida, siempre que esté debidamente motivada.",
+        "Nula, porque las resoluciones particulares no pueden vulnerar una disposición general aunque procedan del mismo órgano.",
+        "Anulable solo si algún interesado la recurre en el plazo de un mes."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 37 LPAC (inderogabilidad singular de los reglamentos) impide que las resoluciones particulares vulneren una disposición general aunque procedan de un órgano de igual o superior jerarquía, y declara nulas las que vulneren una disposición reglamentaria.",
+      "excerpt": "Las resoluciones administrativas de carácter particular no podrán vulnerar lo establecido en una disposición de carácter general, aunque aquéllas procedan de un órgano de igual o superior jerarquía al que dictó la disposición general. […] 2. Son nulas las resoluciones administrativas que vulneren lo establecido en una disposición reglamentaria",
+      "excerpt_status": "completo"
+    }
+  ]
+}

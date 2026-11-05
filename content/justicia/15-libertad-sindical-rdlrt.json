@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "set": "jus-15-libertad-sindical-rdlrt-v1",
+    "exam": "auxilio-judicial",
+    "also_exams": [
+      "tramitacion-procesal"
+    ],
+    "topic": "Tema 15. Libertad sindical, elecciones sindicales, huelga y prevención de riesgos laborales",
+    "topic_slug": "jus-15-libertad-sindical",
+    "locale": "es",
+    "category": "jus_15_libertad_sindical",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto-ley 17/1977, de 4 de marzo, sobre relaciones de trabajo (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-6061",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta; acierto 0,60 y error −0,15), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4 RDL 17/1977",
+      "stem": "Según el Real Decreto-ley 17/1977, sobre relaciones de trabajo, cuando la huelga afecte a empresas encargadas de cualquier clase de servicios públicos, el preaviso al empresario y a la autoridad laboral habrá de ser, al menos, de:",
+      "options": [
+        "Cinco días naturales.",
+        "Diez días hábiles.",
+        "Diez días naturales.",
+        "Quince días naturales."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4 del RDL 17/1977 eleva a diez días naturales el preaviso en servicios públicos; el general es de cinco días naturales (art. 3.3).",
+      "excerpt": "Cuando la huelga afecte a empresas encargadas de cualquier clase de servicios públicos, el preaviso del comienzo de huelga al empresario y a la autoridad laboral habrá de ser, al menos, de diez días naturales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.2 RDL 17/1977",
+      "stem": "Conforme al artículo 7 del Real Decreto-ley 17/1977, sobre relaciones de trabajo, ¿qué consideración tienen las huelgas rotatorias y las de celo o reglamento?",
+      "options": [
+        "Son modalidades lícitas de huelga si se preavisan con diez días.",
+        "Se consideran actos ilícitos o abusivos.",
+        "Son lícitas si las convoca el comité de huelga.",
+        "Son ilegales solo cuando afectan a servicios públicos."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 7.2 del RDL 17/1977 califica de actos ilícitos o abusivos las huelgas rotatorias, las de sectores estratégicos para interrumpir el proceso productivo, las de celo o reglamento y cualquier alteración colectiva distinta de la huelga.",
+      "excerpt": "Las huelgas rotatorias, las efectuadas por los trabajadores que presten servicios en sectores estratégicos con la finalidad de interrumpir el proceso productivo, las de celo o reglamento y, en general, cualquier forma de alteración colectiva en el régimen de trabajo distinta a la huelga, se considerarán actos ilícitos o abusivos.",
+      "excerpt_status": "completo",
+      "review_note": "La STC 11/1981 no anuló el art. 7.2, pero lo interpretó en el sentido de que estas modalidades se presumen abusivas salvo prueba en contrario; la respuesta se ciñe a la literalidad del precepto, que es lo que pregunta el enunciado. Revisar si conviene mantenerla."
+    }
+  ]
+}

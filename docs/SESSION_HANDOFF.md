@@ -1,8 +1,19 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-04 · Sesión 3 (+ SEO y GEO, ADR-025)
+**Última actualización:** 2026-11-05 · Sesión 3 (+ nuevas oposiciones, ADR-028)
 
 ## Estado exacto
+
+### Nuevas oposiciones: Administrativo del Estado, Justicia y Policía Nacional (2026-11-05, rama `claude/project-thread-fls9nq`, CNT-015 a CNT-017, ADR-028)
+
+- joel pidió «ves buscando temarios de otras opos, para ir preparando, verificando y publicando» y «Revisa y rellenas todas las opos posibles». Programas literales del BOE en `docs/research/*-programa.md` (leídos en el Chrome de joel: boe.es bloquea al contenedor).
+- **Contenido** (todo con cita literal comprobada por `build.py --check` en `/mnt/project-files/aprobia/fuentes-oficiales/{administrativo-estado,justicia,policia-nacional}/`):
+  - Administrativo del Estado: 340 preguntas y 17 fichas (`age-adm-*`); lo común reutiliza `age-aux-*`.
+  - Auxilio Judicial y Tramitación Procesal: 540 preguntas y 27 fichas (`jus-*`, `justra-*`), compartidas con `meta.also_exams`.
+  - Policía Nacional: 520 preguntas de 3 opciones y 26 fichas (`pn-*`), temas 1-26.
+- **Preview:** `25-`, `26-`, `27-` (temario), `28-` (productos) y `29-` (publicación por petición de joel; las dudosas con N: quedan en borrador). Se aplican al fusionar el PR.
+- **Probado en local:** las cuatro oposiciones quedan disponibles, 14 productos publicados y los simulacros arrancan con su tamaño.
+- **Siguiente:** Guardia Civil, Policía temas 27-45 y las normas sin fuente (ver CNT-015 a CNT-018); guías SEO de las nuevas oposiciones.
 
 ### Pagos con Stripe en modo de pruebas (2026-11-03, rama `claude/project-thread-tdwb1x`, STO-008)
 

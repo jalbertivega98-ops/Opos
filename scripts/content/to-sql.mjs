@@ -17,6 +17,9 @@ const hash = (q) =>
     .update([normalize(q.stem), ...q.options.map(normalize).sort()].join("␟"))
     .digest("hex");
 
+// meta.also_exams: otras oposiciones con el mismo temario (p. ej. Auxilio y Tramitación).
+const exams = [meta.exam, ...(meta.also_exams ?? [])].filter(Boolean);
+const examIn = `(${exams.map(lit).join(", ")})`;
 const out = [`-- Lote ${meta.set ?? file} (${data.questions.length} preguntas)`];
 if (meta.source) {
   const s = meta.source;
@@ -28,9 +31,9 @@ if (meta.topic_slug) {
   out.push(
     `insert into public.topics (slug, title) values (${lit(meta.topic_slug)}, ${lit(meta.topic)}) on conflict (slug) do nothing;`,
   );
-  if (meta.exam)
+  if (exams.length)
     out.push(
-      `insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug = ${lit(meta.exam)} and t.slug = ${lit(meta.topic_slug)} on conflict do nothing;`,
+      `insert into public.exam_body_topics (exam_body_id, topic_id) select b.id, t.id from public.exam_bodies b, public.topics t where b.slug in ${examIn} and t.slug = ${lit(meta.topic_slug)} on conflict do nothing;`,
     );
 }
 for (const q of data.questions) {
@@ -50,6 +53,6 @@ for (const q of data.questions) {
   select q.id, v.label, v.body, v.ok from q, (values ${q.options.map((b, i) => `('${String.fromCharCode(65 + i)}', ${lit(b)}, ${i === q.correct})`).join(", ")}) as v(label, body, ok)
 )
 insert into public.question_exam_bodies (question_id, exam_body_id)
-select q.id, b.id from q, public.exam_bodies b where b.slug = ${lit(meta.exam)};`);
+select q.id, b.id from q, public.exam_bodies b where b.slug in ${examIn};`);
 }
 console.log(out.join("\n"));
