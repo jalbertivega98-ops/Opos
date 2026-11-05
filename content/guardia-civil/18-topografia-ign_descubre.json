@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "gc-18-topografia-ign_descubre-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 18. Topografía",
+    "topic_slug": "gc-18-topografia",
+    "locale": "es",
+    "category": "gc_18_topografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Descubre el Territorio: La brújula, El desnivel y La altitud (recursos educativos)",
+      "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Descubre el Territorio, La brújula",
+      "stem": "Según el recurso educativo del IGN «Descubre el Territorio», el ángulo entre el Norte (N) y la dirección de la marcha se denomina:",
+      "options": [
+        "Declinación magnética.",
+        "Latitud.",
+        "Acimut.",
+        "Convergencia de meridianos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El acimut es el ángulo medido desde el Norte hasta la dirección a la que queremos dirigirnos; indica la dirección con más precisión que los puntos cardinales (Sur, Oeste, Suroeste...). La declinación es el ángulo entre el norte geográfico y el magnético.",
+      "excerpt": "El ángulo entre el Norte (N) y la dirección de la marcha es el acimut de la dirección a la que nos queremos dirigir.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Descubre el Territorio, La brújula",
+      "stem": "Para corregir con la declinación magnética el acimut leído en la brújula, según el IGN:",
+      "options": [
+        "Si la declinación es Este (+), hay que sumar su valor; si es Oeste (-), hay que restarlo.",
+        "Si la declinación es Este (+), hay que restar su valor; si es Oeste (-), hay que sumarlo.",
+        "Siempre hay que sumar su valor, sea Este u Oeste.",
+        "Siempre hay que restar su valor, sea Este u Oeste."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El IGN indica que con declinación Este (+) se resta y con declinación Oeste (-) se suma al valor de la brújula; los datos de declinación y su variación anual figuran en los márgenes de los mapas del IGN.",
+      "excerpt": "Si la declinación es Este (+), hay que restar su valor al indicado en la brújula. Si es Oeste (-), hay que sumarlo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Descubre el Territorio, El desnivel",
+      "stem": "En un mapa a escala 1:25.000 se miden 120 mm entre dos puntos. ¿Cuál es la distancia real entre ellos?",
+      "options": [
+        "3 km.",
+        "300 m.",
+        "30 km.",
+        "1,2 km."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Por regla de tres: 1 mm del mapa equivale a 25.000 mm en la realidad, luego 120 mm × 25.000 = 3.000.000 mm = 3.000 m = 3 km.",
+      "excerpt": "A una escala 1/25.000, si medimos 120 mm en el mapa: 1 mm en el mapa -> 25.000 mm en la realidad 120 mm -> x mm en la realidad x = 25.000 * 120 mm = 3.000 m = 3 km",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Descubre el Territorio, El desnivel",
+      "stem": "Un punto A está a 1.053 m de altitud y un punto B a 1.225 m; la distancia entre ambos es de 2.600 m. ¿Cuál es, aproximadamente, la pendiente del recorrido?",
+      "options": [
+        "17,2 %.",
+        "2,6 %.",
+        "47 %.",
+        "6,6 %."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Primero se calcula el desnivel: 1.225 − 1.053 = 172 m. La pendiente es desnivel / distancia × 100 = 172 / 2.600 × 100 ≈ 6,6 %.",
+      "excerpt": "Primero tenemos que calcular el desnivel entre los puntos A y B. El resultado es 172 m. Si el recorrido son 2.600 m y el desnivel es de 172 m solo tengo que hacer una regla de tres. Por tanto, la pendiente es del 6,6%.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Descubre el Territorio, El desnivel",
+      "stem": "La Masía de Tetuán está a 1.225 m sobre el nivel del mar y la cima del Menejador a 1.354 m; la distancia entre ambos puntos es de 2.390 m. ¿Cuál es, aproximadamente, la pendiente de ese tramo?",
+      "options": [
+        "6,6 %.",
+        "5,4 %.",
+        "12,9 %.",
+        "18,5 %."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Desnivel = 1.354 − 1.225 = 129 m. Pendiente = 129 / 2.390 × 100 ≈ 5,4 %, algo menor que la del tramo anterior (6,6 %), como señala el propio recurso del IGN.",
+      "excerpt": "La masía está a 1.225 m sobre el nivel del mar, recuerda que la altura del Menejador son 1.354 m; y la distancia que separa los dos puntos es de 2.390 m.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

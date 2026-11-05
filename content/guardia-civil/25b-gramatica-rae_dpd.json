@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "set": "gcl-25b-gramatica-rae_dpd-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 25. Lengua española (II): gramática",
+    "topic_slug": "gcl-25b-gramatica",
+    "locale": "es",
+    "category": "gcl_25b_gramatica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española y ASALE · Diccionario panhispánico de dudas (DPD), 2.ª edición en línea",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DPD, s. v. dequeísmo, 1a",
+      "stem": "Señale la frase incorrecta desde el punto de vista sintáctico:",
+      "options": [
+        "Pienso que conseguiremos ganar el campeonato.",
+        "Pienso de que conseguiremos ganar el campeonato.",
+        "Me alegro de que seáis felices.",
+        "Estoy seguro de que vendrá."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Es un caso de dequeísmo: la subordinada es complemento directo de pensar y el complemento directo nunca va encabezado por la preposición de. Alegrarse de algo y estar seguro de algo sí exigen la preposición.",
+      "excerpt": "El complemento directo nunca va encabezado por la preposición de y, por tanto, son incorrectas oraciones como ⊗Pienso de que conseguiremos ganar el campeonato",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. dequeísmo",
+      "stem": "Según el Diccionario panhispánico de dudas, el dequeísmo es:",
+      "options": [
+        "La supresión indebida de la preposición de delante de la conjunción que cuando está gramaticalmente justificada.",
+        "El uso de le(s) en función de complemento directo.",
+        "El uso indebido de la preposición de delante de la conjunción que cuando la preposición no está gramaticalmente justificada.",
+        "El empleo del pronombre que como relativo posesivo en lugar de cuyo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El dequeísmo es el uso indebido de de ante que; la supresión indebida de la preposición es el queísmo, y el uso de le como complemento directo es el leísmo.",
+      "excerpt": "Es el uso indebido de la preposición de delante de la conjunción que cuando la preposición no está gramaticalmente justificada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. dequeísmo, 1b",
+      "stem": "Señale la frase incorrecta desde el punto de vista sintáctico:",
+      "options": [
+        "Me alegra que seáis felices.",
+        "Me alegro de que seáis felices.",
+        "Me preocupo de que no os falte nada.",
+        "Me alegra de que seáis felices."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Con alegrar (no pronominal) la subordinada es el sujeto y el sujeto nunca va encabezado por preposición: Me alegra que seáis felices. En cambio, el pronominal alegrarse exige de: Me alegro de que seáis felices.",
+      "excerpt": "⊗Me alegra de que seáis felices (correcto: Me alegra que seáis felices)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. dequeísmo, 1b",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "Es posible de que nieve mañana.",
+        "Es posible que nieve mañana.",
+        "Mi intención es que participemos todos.",
+        "Se rumorea que está en quiebra."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "En las oraciones copulativas con sujeto pospuesto no debe anteponerse de a la subordinada: lo correcto es Es posible que nieve mañana.",
+      "excerpt": "También es frecuente el dequeísmo en oraciones copulativas con sujeto posverbal: ⊗Es posible de que nieve mañana (correcto: Es posible que nieve mañana)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. dequeísmo, 1d",
+      "stem": "¿En cuál de las siguientes frases hay un uso incorrecto de la preposición de?",
+      "options": [
+        "A pesar de que llovía, salimos a pasear.",
+        "Una vez que terminó, se marchó.",
+        "A menos que llueva, iremos al campo.",
+        "A medida de que avanzaba la noche, aumentaba el frío."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Es dequeísmo insertar de en locuciones conjuntivas que no la llevan: a medida que, a menos que, a no ser que, una vez que. A pesar de que, en cambio, sí lleva de.",
+      "excerpt": "d) Cuando se inserta la preposición de en locuciones conjuntivas que no la llevan: ⊗a medida de que (correcto: a medida que; → medida, 1)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. dequeísmo, 1e",
+      "stem": "Señale la frase incorrecta desde el punto de vista sintáctico:",
+      "options": [
+        "Insistieron de que fuéramos con ellos.",
+        "Insistieron en que fuéramos con ellos.",
+        "Me fijé en que llevaba corbata.",
+        "Trato de que estéis a gusto."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Insistir exige la preposición en (insistir en algo); usar de en su lugar es un caso de dequeísmo. Tratar de algo ('procurarlo') sí lleva de.",
+      "excerpt": "⊗Insistieron de que fuéramos con ellos (correcto: Insistieron en que fuéramos con ellos)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. queísmo, 1a",
+      "stem": "Señale la frase incorrecta por supresión indebida de una preposición (queísmo):",
+      "options": [
+        "Me olvidé de que tenía que llamarte.",
+        "Me olvidé que tenía que llamarte.",
+        "Olvidó que tenía que ir al dentista.",
+        "No se acordó de que era mi cumpleaños."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Olvidarse (pronominal) se construye con de: Me olvidé de que… La forma no pronominal olvidar lleva complemento directo sin preposición: Olvidó que…",
+      "excerpt": "Me olvidé de que tenía que llamarte (no ⊗Me olvidé que tenía que llamarte)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. queísmo, 1e",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "A fin de que lo entiendas, te lo repetiré.",
+        "En caso de que llueva, suspenderemos el acto.",
+        "A pesar que estaba cansado, terminó el informe.",
+        "A condición de que vengas pronto, te espero."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Es queísmo suprimir la preposición en locuciones como a pesar de que, a fin de que, a condición de que o en caso de que.",
+      "excerpt": "e) En locuciones o construcciones como a pesar de que (no ⊗a pesar que)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. queísmo, 1f",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "Nos dimos cuenta que era tarde.",
+        "No tiene en cuenta que nos esforzamos.",
+        "Pronto cayó en la cuenta de que estaba solo.",
+        "No cabe duda de que es un gran escritor."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Darse cuenta y caer en la cuenta exigen de (Nos dimos cuenta de que era tarde); tener en cuenta, en cambio, no exige la preposición.",
+      "excerpt": "Nos dimos cuenta de que era tarde (no ⊗Nos dimos cuenta que era tarde). No deben confundirse las locuciones caer en la cuenta o darse cuenta, que exigen de, con tener en cuenta, que no exige la preposición",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. laísmo",
+      "stem": "Señale la frase en la que se incurre en laísmo:",
+      "options": [
+        "Le dio un beso a su madre al llegar.",
+        "La besó al llegar.",
+        "La dio un beso a su madre al llegar.",
+        "La carta, escríbela hoy mismo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El laísmo es el uso de la(s) como complemento indirecto femenino en lugar de le(s). En La dio un beso, el complemento directo es un beso y a su madre es indirecto: lo correcto es Le dio un beso. En La besó, la sí es complemento directo.",
+      "excerpt": "de La besó y Le dio un beso, a ⊗La dio un beso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. loísmo",
+      "stem": "Según el Diccionario panhispánico de dudas, el loísmo consiste en:",
+      "options": [
+        "El uso impropio de le(s) en función de complemento directo, en lugar de lo(s).",
+        "El uso impropio de lo(s) en función de complemento indirecto, en lugar de le(s).",
+        "El uso impropio de la(s) en función de complemento indirecto femenino.",
+        "El uso de lo como artículo neutro ante adjetivos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El loísmo es el uso de lo(s) como complemento indirecto masculino o neutro en lugar de le(s); el uso de le como complemento directo es leísmo, y el de la como indirecto, laísmo.",
+      "excerpt": "Es el uso impropio de lo(s) en función de complemento indirecto masculino (de persona o de cosa) o neutro (cuando el antecedente es un pronombre neutro o toda una oración), en lugar de le(s)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. leísmo, 2",
+      "stem": "Señale la frase que el Diccionario panhispánico de dudas considera incorrecta en la norma culta:",
+      "options": [
+        "A tu marido no le he visto.",
+        "El libro que me prestaste lo leí de un tirón.",
+        "A tu marido no lo he visto.",
+        "El libro que me prestaste le leí de un tirón."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El leísmo no se admite de ningún modo cuando el referente es inanimado (el libro): debe usarse lo. Sí se admite, por su extensión entre hablantes cultos, le como complemento directo de persona masculina (A tu marido no le he visto).",
+      "excerpt": "El leísmo, en cambio, no se admite de ningún modo en la norma culta cuando el referente es inanimado: ⊗El libro que me prestaste le leí de un tirón",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. haber, 4",
+      "stem": "Señale la frase incorrecta desde el punto de vista morfosintáctico:",
+      "options": [
+        "Había muchos problemas en la empresa.",
+        "Habían muchos problemas en la empresa.",
+        "Hubo varios momentos en que lloré.",
+        "Hay alguien esperándote."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Haber, cuando denota existencia, es impersonal: el sintagma nominal es complemento directo, no sujeto, por lo que el verbo debe permanecer en singular (Había muchos problemas).",
+      "excerpt": "Por consiguiente, en estos casos, lo más apropiado es que el verbo permanezca en singular",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. haber, 4",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "Van a haber muchos cambios en la plantilla.",
+        "Va a haber muchos cambios en la plantilla.",
+        "Podía haber víboras en el camino.",
+        "Suele haber retenes en todas las salidas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cuando haber impersonal forma parte de una perífrasis con poder, soler, deber, ir a, etc., el verbo conjugado también debe quedar en singular: Va a haber muchos cambios.",
+      "excerpt": "La misma inmovilidad en singular del verbo conjugado debe producirse en el caso de que haber forme parte de una perífrasis con poder, soler, deber, ir a, etc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. haber, 3b",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "Todavía hay que esforzarse mucho más.",
+        "Todavía tenemos que esforzarnos mucho más.",
+        "¿Habrá que esperar mucho?",
+        "Todavía hay que esforzarnos mucho más."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Haber que + infinitivo es impersonal y solo se conjuga en tercera persona del singular; por ello, si el infinitivo es pronominal, no puede llevar el pronombre de primera persona del plural. Para incluir al hablante se usa tener que.",
+      "excerpt": "⊗«Todavía hay que esforzarnos mucho más» (Proceso mx 27.10.1996); debió decirse Todavía hay que esforzarse mucho más.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. hacer, 1",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "Haz tú la cama antes de salir, por favor.",
+        "Hace dos días que llegó.",
+        "Hace tú la cama antes de salir, por favor.",
+        "Hacía bastante frío esa noche."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El imperativo singular de hacer es haz (tú), no hace. Hace dos días y hacía frío son usos impersonales correctos en tercera persona del singular.",
+      "excerpt": "El imperativo singular es haz (tú) y hacé (vos), y no ⊗hace.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. hacer, 2",
+      "stem": "Señale la expresión que el Diccionario panhispánico de dudas considera redundante y que debe evitarse:",
+      "options": [
+        "El concurso se falló hace dos años.",
+        "El concurso se falló dos años atrás.",
+        "Hace dos días que se falló el concurso.",
+        "El concurso se falló hace dos años atrás."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Es redundante usar atrás cuando hacer lleva un complemento temporal: debe decirse hace dos años o dos años atrás.",
+      "excerpt": "Es redundante, y debe evitarse, el uso del adverbio atrás cuando hacer se construye con un complemento temporal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. hacer, 9",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "El ministerio hizo público ayer los nombramientos.",
+        "El ministerio hizo públicos ayer los nombramientos.",
+        "El ministerio hizo pública ayer la fecha del examen.",
+        "El ministerio hizo públicas ayer las listas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "En la construcción hacer público, el adjetivo debe concordar en género y número con el complemento directo: hizo públicos los nombramientos. No es correcto usar público como invariable.",
+      "excerpt": "el adjetivo público debe concordar en género y número con el sustantivo al que se refiere, esto es, con el complemento directo del verbo hacer",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. ir, 1",
+      "stem": "Señale la frase incorrecta desde el punto de vista morfológico:",
+      "options": [
+        "Ve al cuarto de baño y lávate las manos.",
+        "Id a ver si está ya la cena.",
+        "Ves al cuarto de baño y lávate las manos.",
+        "Vete a la cama."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El imperativo de ir para tú es ve (y vete en el uso pronominal); ⊗ves es una forma vulgar que debe evitarse. Para vosotros, id.",
+      "excerpt": "debe evitarse el uso de la forma arcaica ⊗íos y, para el imperativo singular, de la forma vulgar ⊗ves",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. ir, 1",
+      "stem": "Según el Diccionario panhispánico de dudas, ¿cuál de las siguientes formas de imperativo de ir(se) para vosotros debe evitarse?",
+      "options": [
+        "Idos.",
+        "Íos.",
+        "Iros.",
+        "Id."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La forma tradicional es idos; iros es hoy mayoritaria en el habla coloquial y se considera también válida. Debe evitarse la forma arcaica íos. Id es el imperativo no pronominal (Id a ver si está ya la cena).",
+      "excerpt": "y, para los usos pronominales, vete (tú) y, tradicionalmente, idos (vosotros) […] En cambio, debe evitarse el uso de la forma arcaica ⊗íos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. deber, 2b",
+      "stem": "Según el Diccionario panhispánico de dudas, la perífrasis «deber de + infinitivo» denota normalmente:",
+      "options": [
+        "Obligación.",
+        "Probabilidad o suposición.",
+        "Comienzo de una acción.",
+        "Repetición de una acción."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Deber + infinitivo denota preferentemente obligación; deber de + infinitivo denota normalmente probabilidad o suposición (La mujer debe de tener unos sesenta años), aunque ambos usos se cruzan con menor frecuencia en la lengua culta.",
+      "excerpt": "b) deber de + infinitivo. Denota normalmente probabilidad o suposición",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. detrás, 2",
+      "stem": "Señale la expresión que se desaconseja en el habla culta:",
+      "options": [
+        "Se sentó detrás de mí.",
+        "Se escondió detrás de una enredadera.",
+        "Se sentó detrás mío.",
+        "Iba detrás de ella."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Detrás es un adverbio y por eso se desaconseja su uso con posesivos (detrás mío, detrás suya); lo correcto es detrás de mí, detrás de él o de ella.",
+      "excerpt": "Por su condición de adverbio, se desaconseja en el habla culta su uso con posesivos: ⊗detrás mío, ⊗detrás suya, etc. (en lugar de detrás de mí, detrás de él/ella, etc.).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. sino, 2.1",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "No compraba la droga, sino la vendía.",
+        "No compraba la droga, sino que la vendía.",
+        "No me refiero al trabajo, sino a tu vida misma.",
+        "¿Y quién se lo dirá, si no lo hace usted?"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cuando lo que se contrapone son oraciones con verbo en forma personal, sino debe ir seguido de que. No debe confundirse la conjunción sino con la secuencia si no (conjunción condicional + negación).",
+      "excerpt": "En la lengua actual, cuando lo que se contrapone son oraciones con el verbo en forma personal, sino debe ir seguido de que",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. conducir, 1",
+      "stem": "Señale la forma verbal incorrecta:",
+      "options": [
+        "Condujo.",
+        "Condujera.",
+        "Condujese.",
+        "Condució."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Conducir, como todos los verbos en -ducir, es irregular en el pretérito perfecto simple y tiempos derivados: conduje, condujo, condujera, condujese. Las formas regularizadas (⊗conducí, ⊗condució) no se consideran correctas.",
+      "excerpt": "⊗conducí, ⊗conduciste, ⊗condució, etc., en lugar de conduje, condujiste, condujo, etc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. andar, 1",
+      "stem": "Señale la frase incorrecta desde el punto de vista morfológico:",
+      "options": [
+        "Ayer anduve diez kilómetros por el monte.",
+        "Ayer andé diez kilómetros por el monte.",
+        "Si anduvieras más, estarías en forma.",
+        "Anduvimos toda la tarde."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "En el pretérito perfecto simple y en los subjuntivos derivados solo se admiten en la norma culta las formas con raíz anduv- (anduve, anduviera); ⊗andé, ⊗andaste no se consideran correctas.",
+      "excerpt": "Así pues, no se consideran correctas las formas de estos tiempos con la raíz regular and-: ⊗andé, ⊗andaste",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. satisfacer, 1",
+      "stem": "Señale la frase incorrecta:",
+      "options": [
+        "Si satisficiera la deuda, quedaría libre.",
+        "No le satisfizo la aclaración.",
+        "Si satisfaciera la deuda, quedaría libre.",
+        "Satisfaré todas tus dudas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Satisfacer se conjuga como hacer (satisfice, satisficiera, satisfaré, satisfaría); es incorrecto conjugarlo como regular (⊗satisfací, ⊗satisfaciera, ⊗satisfaceré).",
+      "excerpt": "Es incorrecto, aunque no infrecuente, incluso en la lengua escrita, conjugar este verbo como si fuera regular, usando formas como ⊗satisfací, ⊗satisfaciera, ⊗satisfaceré, ⊗satisfacería, etc., en lugar de satisfice, satisficiera, satisfaré, satisfaría, etc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. errar, 1",
+      "stem": "Señale la forma verbal incorrecta del verbo errar en el uso culto mayoritario:",
+      "options": [
+        "Yerro.",
+        "Yerras.",
+        "Erramos.",
+        "Yerramos."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Errar es irregular en el uso culto mayoritario: solo comienzan por ye- las formas con la raíz tónica (yerro, yerras, yerra, yerran). Cuando el acento recae en la desinencia, no se diptonga: erramos, errabais; ⊗yerramos es incorrecta.",
+      "excerpt": "Son, pues, incorrectas las formas con ye- cuando el acento de intensidad recae en la desinencia verbal y no en la raíz: ⊗yerramos, ⊗yerráis, ⊗yerraba, etc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. sendos, 2",
+      "stem": "Señale la frase en la que «sendos» está mal empleado:",
+      "options": [
+        "Robaron en la farmacia y en el estanco, y sendos atracos los cometió la misma persona.",
+        "Los dos agentes llevaban sendos chalecos reflectantes.",
+        "Al final de la lista había tres líneas marcadas con sendos asteriscos.",
+        "Los ganadores recibieron sendas medallas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Sendos es un distributivo que significa 'uno para cada uno' y no debe emplearse como equivalente de dos o ambos. En la primera frase se usa con el sentido de 'ambos'.",
+      "excerpt": "No debe emplearse como equivalente de dos o ambos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. base, 5",
+      "stem": "Según el Diccionario panhispánico de dudas, ¿cuál de las siguientes variantes no se considera correcta?",
+      "options": [
+        "Con base en.",
+        "Con base a.",
+        "Sobre la base de.",
+        "En base a."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El DPD no considera correcta la variante ⊗con base a; con base en y en base a se admiten (esta última menos recomendable), y sobre la base de es una de las fórmulas tradicionales preferidas.",
+      "excerpt": "No se considera correcta, en cambio, la variante ⊗con base a.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DPD, s. v. cuyo, 1",
+      "stem": "Según el Diccionario panhispánico de dudas, el relativo posesivo cuyo concuerda en género y número con:",
+      "options": [
+        "El sustantivo que denota lo poseído, al que se antepone.",
+        "El antecedente, que expresa el poseedor.",
+        "El sujeto de la oración principal.",
+        "El verbo de la oración de relativo."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cuyo se construye con un antecedente explícito (el poseedor) y se antepone al sustantivo que denota lo poseído, con el que concuerda: la casa cuyas ventanas. Además, por ser átono, se escribe sin tilde.",
+      "excerpt": "se antepone al sustantivo que denota lo poseído, con el que concuerda en género y número",
+      "excerpt_status": "completo"
+    }
+  ]
+}

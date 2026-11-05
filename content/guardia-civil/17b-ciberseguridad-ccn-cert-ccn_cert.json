@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "set": "gc-17b-ciberseguridad-ccn-cert-ccn_cert-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 17. Ciberseguridad: CCN-CERT",
+    "topic_slug": "gc-17b-ciberseguridad-ccn-cert",
+    "locale": "es",
+    "category": "gc_17b_ciberseguridad_ccn_cert",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "CCN-CERT · Sobre nosotros (Misión y Objetivos, Servicios, FAQ)",
+      "url": "https://www.ccn-cert.cni.es/es/sobre-nosotros/mision-y-objetivos.html",
+      "kind": "web_oficial",
+      "publisher": "Centro Criptológico Nacional, CCN-CERT (web oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "CCN-CERT, Misión y Objetivos",
+      "stem": "Según su web oficial, el CCN-CERT es:",
+      "options": [
+        "La Capacidad de Respuesta a Incidentes de Seguridad de la Información del Centro Criptológico Nacional.",
+        "El Centro de Operaciones de Ciberseguridad de la Guardia Civil.",
+        "La Agencia de la Unión Europea para la Ciberseguridad en España.",
+        "El órgano de la Agencia Española de Protección de Datos encargado de las brechas de seguridad."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El CCN-CERT es la Capacidad de Respuesta a Incidentes de Seguridad de la Información del Centro Criptológico Nacional (CCN), creada en 2006 como CERT Gubernamental Nacional español.",
+      "excerpt": "El CCN-CERT es la Capacidad de Respuesta a Incidentes de Seguridad de la Información del Centro Criptológico Nacional, CCN.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, creación",
+      "stem": "Según su web oficial, el CCN-CERT se creó como CERT Gubernamental Nacional español en el año:",
+      "options": [
+        "2002.",
+        "2004.",
+        "2006.",
+        "2010."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El CCN-CERT se creó en 2006 en el seno del CCN. 2002 es el año de la Ley 11/2002 del CNI, 2004 el del RD 421/2004 que regula el CCN y 2010 el del primer Esquema Nacional de Seguridad.",
+      "excerpt": "Este servicio se creó en el año 2006 como CERT Gubernamental Nacional español",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, FAQ (qué es un CERT)",
+      "stem": "Según la web del CCN-CERT, el término CERT proviene de las siglas en inglés de:",
+      "options": [
+        "Cyber Emergency Risk Team.",
+        "Computer Encryption and Recovery Team.",
+        "Computer Emergency Response Team.",
+        "Centre for Electronic Response and Tracking."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "CERT significa Computer Emergency Response Team; también se conoce como CSIRT (Computer Security and Incident Response Team).",
+      "excerpt": "El término CERT proviene de las siglas en inglés Computer Emergency Response Team",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, FAQ (notificación obligatoria)",
+      "stem": "Según la web del CCN-CERT, las Administraciones Públicas, en cumplimiento del Esquema Nacional de Seguridad, deben notificar al CCN-CERT los incidentes catalogados con un nivel de peligrosidad:",
+      "options": [
+        "Bajo, Medio y Alto.",
+        "Únicamente Crítico.",
+        "Cualquier nivel, sin excepción.",
+        "Alto, Muy Alto y Crítico."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La FAQ del CCN-CERT (con remisión a la Guía CCN-STIC 817) establece la notificación obligatoria de los incidentes de peligrosidad Alto, Muy Alto y Crítico.",
+      "excerpt": "deben notificar al CCN-CERT todos aquellos incidentes que sean catalogados con un nivel de peligrosidad de Alto, Muy Alto y Crítico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, FAQ (primer CERT)",
+      "stem": "Según la web del CCN-CERT, el primer CERT se creó en 1988 en:",
+      "options": [
+        "El Instituto Tecnológico de Massachusetts (MIT), en Estados Unidos.",
+        "La Universidad de Cambridge, en el Reino Unido.",
+        "La Universidad Carnegie Mellon, en Estados Unidos.",
+        "La sede de la OTAN en Bruselas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El primer CERT nació en 1988 en la Universidad Carnegie Mellon, propietaria de la marca registrada, que autorizó al CCN-CERT a utilizarla.",
+      "excerpt": "El primer CERT se creó en 1988 en la Universidad Carnegie Mellon, en Estados Unidos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, Misión (operadores críticos)",
+      "stem": "Según la web oficial del CCN-CERT, en el caso de operadores críticos del sector público, la gestión de ciberincidentes la realizará el CCN-CERT en coordinación con:",
+      "options": [
+        "El CNPIC.",
+        "El INCIBE-CERT.",
+        "La Agencia Española de Protección de Datos.",
+        "El Mando Conjunto del Ciberespacio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Es competencia del CCN-CERT la gestión de ciberincidentes que afecten a cualquier organismo o empresa pública; si se trata de operadores críticos del sector público, en coordinación con el CNPIC.",
+      "excerpt": "En el caso de operadores críticos del sector público la gestión de ciberincidentes se realizará por el CCN-CERT en coordinación con el CNPIC.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, FAQ (comunidad)",
+      "stem": "Según la web del CCN-CERT, ¿a qué comunidad ofrece sus servicios el CCN-CERT?",
+      "options": [
+        "Exclusivamente a la Administración General del Estado.",
+        "Administraciones Públicas, sistemas clasificados y empresas de interés estratégico para el país.",
+        "A ciudadanos, menores y empresas privadas de cualquier sector.",
+        "Exclusivamente a las Fuerzas Armadas y a las Fuerzas y Cuerpos de Seguridad del Estado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El CCN-CERT presta servicio a las Administraciones Públicas, a los sistemas clasificados y a las empresas de interés estratégico, aunque buena parte de sus servicios (formación, informes, guías, herramientas) son de libre disposición en su portal.",
+      "excerpt": "¿A qué Comunidad ofrece sus servicios CCN-CERT? Administraciones Públicas, sistemas clasificados y empresas de interés estratégico para el país.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, FAQ (foros internacionales)",
+      "stem": "Según la web del CCN-CERT, ¿en qué capacidad de la OTAN participa el CCN-CERT, en la que los CERT de los países miembros analizan y comparten información sobre seguridad de la información?",
+      "options": [
+        "NCIRC (NATO Computer Incident Response Capability).",
+        "EGC (European Government CERTs).",
+        "FIRST (Forum of Incident Response and Security Teams).",
+        "ENISA (European Network & Information Security Agency)."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El CCN-CERT participa en el NCIRC de la OTAN, en ENISA (UE), en el FIRST, en el Trusted Introducer de TERENA y en el EGC group, entre otros foros; solo el NCIRC pertenece a la OTAN.",
+      "excerpt": "NCIRC de la OTAN (NATO Computer Incident Response Capability), en las que los distintos CERTs de los países miembros de esta Organización analizan y comparten información sobre seguridad de la información.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CCN-CERT, Misión (normativa)",
+      "stem": "Según la página de Misión y Objetivos del CCN-CERT, sus funciones quedan recogidas en la Ley 11/2002, reguladora del Centro Nacional de Inteligencia, en el Real Decreto 421/2004 y en:",
+      "options": [
+        "El Real Decreto 4/2010, de 8 de enero, que regula el Esquema Nacional de Interoperabilidad.",
+        "La Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza.",
+        "El Real Decreto 806/2014, de 19 de septiembre, sobre organización e instrumentos operativos de las TIC en la AGE.",
+        "El Real Decreto 311/2022, de 3 de mayo, que regula el Esquema Nacional de Seguridad."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La página de Misión cita el vigente RD 311/2022 (Esquema Nacional de Seguridad), que sustituyó al RD 3/2010 aún mencionado en la FAQ. El RD 4/2010 es el Esquema Nacional de Interoperabilidad.",
+      "excerpt": "sus funciones quedan recogidas en la Ley 11/2002 reguladora del Centro Nacional de Inteligencia, el RD 421/2004 de regulación del CCN y en el RD 311/2022, de 3 de mayo, que regula el Esquema Nacional de Seguridad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

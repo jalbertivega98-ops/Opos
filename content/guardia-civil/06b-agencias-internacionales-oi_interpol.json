@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "gc-06b-agencias-internacionales-oi_interpol-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 6. Instituciones internacionales (II): INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS",
+    "topic_slug": "gc-06b-agencias-internacionales",
+    "locale": "es",
+    "category": "gc_06b_agencias_internacionales",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INTERPOL · ¿Qué es INTERPOL? y Comité Ejecutivo",
+      "url": "https://www.interpol.int/es/Quienes-somos/Que-es-INTERPOL",
+      "kind": "web_oficial",
+      "publisher": "Organización Internacional de Policía Criminal (INTERPOL, web oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "INTERPOL, Secretaría General",
+      "stem": "Según la web oficial de INTERPOL, las oficinas centrales de la Secretaría General de la Organización se encuentran en:",
+      "options": [
+        "La Haya.",
+        "Ginebra.",
+        "Lyon.",
+        "Singapur."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La Secretaría General, dirigida por el Secretario General, está formada por las oficinas centrales en Lyon, un complejo mundial para la innovación en Singapur y varias oficinas satélites. La Haya es la sede de Europol y de Eurojust.",
+      "excerpt": "Está formada por las oficinas centrales en Lyon, un complejo mundial para la innovación en Singapur y varias oficinas satélites en distintas regiones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INTERPOL, Oficinas Centrales Nacionales",
+      "stem": "Según la web oficial de INTERPOL, ¿qué órgano actúa en cada país como punto de contacto para la Secretaría General y para las demás oficinas de los otros países?",
+      "options": [
+        "La Unidad Nacional de Europol.",
+        "La Embajada del país ante la sede de INTERPOL.",
+        "El Comité Ejecutivo de INTERPOL.",
+        "La Oficina Central Nacional (OCN) de INTERPOL."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En cada país una Oficina Central Nacional (OCN), dirigida por funcionarios de la policía nacional y normalmente integrada en el ministerio responsable de las actividades policiales, es el punto de contacto con la Secretaría General y las demás OCN.",
+      "excerpt": "En cada país, una Oficina Central Nacional (OCN) de INTERPOL actúa como punto de contacto para la Secretaría General y otras OCN.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INTERPOL, sistema I-24/7",
+      "stem": "Según la web oficial de INTERPOL, el sistema de comunicación protegido que conecta a todos los países miembros entre sí y con la Secretaría General se denomina:",
+      "options": [
+        "I-24/7.",
+        "SIS II.",
+        "SIENA.",
+        "SEIAV."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "INTERPOL conecta a todos sus países miembros mediante el sistema I-24/7, que también permite acceder en tiempo real a sus bases de datos. SIENA es la red de intercambio de Europol; SIS II es el Sistema de Información de Schengen y el SEIAV, el sistema de autorización de viajes en cuya aplicación participa Frontex.",
+      "excerpt": "Conectamos a todos los países miembros a través de un sistema de comunicación denominado I-24/7.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INTERPOL, Asamblea General",
+      "stem": "De acuerdo con la web oficial de INTERPOL, el órgano de gobierno de la Organización, que reúne a todos los países una vez al año para tomar decisiones, es:",
+      "options": [
+        "El Comité Ejecutivo.",
+        "La Asamblea General.",
+        "La Secretaría General.",
+        "El Consejo de Oficinas Centrales Nacionales."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La Asamblea General es el órgano de gobierno y se reúne una vez al año; el Comité Ejecutivo (13 miembros) supervisa la ejecución de sus decisiones y la Secretaría General coordina las actividades diarias.",
+      "excerpt": "La Asamblea General es nuestro órgano de gobierno y reúne a todos los países una vez al año para tomar decisiones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "INTERPOL, Comité Ejecutivo",
+      "stem": "Según la web oficial de INTERPOL, el Comité Ejecutivo está formado por:",
+      "options": [
+        "13 miembros: el Presidente de la Organización, dos vicepresidentes y diez vocales.",
+        "15 miembros: el Secretario General, cuatro vicepresidentes y diez vocales.",
+        "13 miembros: el Presidente de la Organización, tres vicepresidentes y nueve vocales.",
+        "9 miembros: el Presidente de la Organización, tres vicepresidentes y cinco vocales."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El Comité Ejecutivo, elegido por la Asamblea General, tiene 13 miembros (Presidente, tres vicepresidentes y nueve vocales); el Presidente se elige por cuatro años y los vicepresidentes por tres, y se reúne tres veces al año.",
+      "excerpt": "Elegido por la Asamblea General, el Comité Ejecutivo está formado por 13 miembros incluyendo el Presidente de la Organización, tres vicepresidentes y nueve vocales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

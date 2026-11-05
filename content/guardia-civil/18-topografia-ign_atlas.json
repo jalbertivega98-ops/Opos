@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gc-18-topografia-ign_atlas-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 18. Topografía",
+    "topic_slug": "gc-18-topografia",
+    "locale": "es",
+    "category": "gc_18_topografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Atlas Didáctico: La representación del territorio (ESO y Bachillerato)",
+      "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Atlas Didáctico, Partes de un mapa (glosario: latitud)",
+      "stem": "En la medida de las coordenadas geográficas en el sistema sexagesimal, cada grado se divide en:",
+      "options": [
+        "100 minutos, y cada minuto en 100 segundos.",
+        "60 minutos, y cada minuto en 100 segundos.",
+        "60 minutos, y cada minuto en 60 segundos.",
+        "10 minutos, y cada minuto en 60 segundos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La latitud y la longitud se miden en grados, minutos y segundos de arco: cada grado tiene 60 minutos y cada minuto 60 segundos (p. ej., Alicante: 38º 20’ 43’’ N).",
+      "excerpt": "Cada grado se divide en 60 minutos y cada minuto en 60 segundos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atlas Didáctico, Representación del relieve",
+      "stem": "En la representación del relieve, los puntos que tienen una posición determinada y se representan con la indicación de su altitud numérica se denominan:",
+      "options": [
+        "Vértices de proyección.",
+        "Puntos acotados.",
+        "Curvas maestras.",
+        "Tintas hipsométricas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Los puntos acotados llevan su altitud (cota) en cifras; son la base del sistema de planos acotados. Las curvas maestras son curvas de nivel más gruesas y las tintas hipsométricas, colores por rangos de altura.",
+      "excerpt": "Puntos acotados. Son puntos que tienen una posición determinada y se representan con la indicación de su altitud numérica.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
