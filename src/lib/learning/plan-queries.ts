@@ -1,6 +1,7 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
 import { buildWeekPlan, type PlanLevel, type TopicProgress } from "./plan";
+import { examHasPsycho } from "@/lib/catalog/exam-format";
 
 export type PlanSettings = {
   examSlug: string;
@@ -59,6 +60,7 @@ export async function getMyPlan() {
     examDate: settings.targetDate ? new Date(settings.targetDate) : null,
     topics: topics.map(({ slug, title }) => ({ slug, title })),
     progress,
+    psycho: examHasPsycho(settings.examSlug),
   });
   return { reason: null, settings, plan, topics };
 }

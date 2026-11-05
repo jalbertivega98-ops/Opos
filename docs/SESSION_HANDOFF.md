@@ -4,6 +4,8 @@
 
 ## Estado exacto
 
+- **Psicotécnicos (CNT-022, ADR-031):** solo se ofrecen en las oposiciones cuya convocatoria los incluye (`examHasPsycho`).
+
 ### Guardia Civil (2026-11-05, rama `claude/project-thread-fls9nq`, CNT-020, ADR-029)
 
 - Convocatoria BOE-A-2026-9982 (3.240 plazas; 100 preguntas de 4 opciones, mínimo 50 de 100). Temario oficial 2024 en `docs/research/guardia-civil-programa.md`.
