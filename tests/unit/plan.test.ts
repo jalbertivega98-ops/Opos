@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { buildWeekPlan, phaseFor, type PlanInput } from "@/lib/learning/plan";
+import { examHasPsycho } from "@/lib/catalog/exam-format";
 
 const topics = Array.from({ length: 20 }, (_, i) => ({
   slug: `t${i + 1}`,
@@ -53,5 +54,23 @@ describe("plan de estudio", () => {
     expect(phaseFor(10, 16, "beginner")).toBe("syllabus");
     expect(phaseFor(10, 16, "advanced")).toBe("review");
     expect(phaseFor(16, 16, "beginner")).toBe("mocks");
+  });
+
+  it("sin psicotécnico en la oposición: ni tareas ni simulacros de psicotécnicos", () => {
+    const p = buildWeekPlan({ ...base, psycho: false, today: new Date("2027-02-20") });
+    expect(p.minutes.psycho).toBe(0);
+    expect(p.minutes.syllabus + p.minutes.mocks).toBe(360);
+    expect(p.tasks.some((t) => t.kind === "psycho")).toBe(false);
+    expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "psycho")).toBe(false);
+    expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "knowledge")).toBe(true);
+  });
+
+  it("solo las oposiciones con prueba psicotécnica oficial la ofrecen", () => {
+    expect(examHasPsycho("auxilio-judicial")).toBe(false);
+    expect(examHasPsycho("tramitacion-procesal")).toBe(false);
+    expect(examHasPsycho("administrativo-estado")).toBe(false);
+    expect(examHasPsycho("mossos-esquadra")).toBe(true);
+    expect(examHasPsycho("auxiliar-administrativo-estado")).toBe(true);
+    expect(examHasPsycho("guardia-civil-cabos-guardias")).toBe(true);
   });
 });

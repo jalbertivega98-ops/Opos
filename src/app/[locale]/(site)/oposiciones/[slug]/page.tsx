@@ -128,6 +128,7 @@ export default async function ExamPage({
       <CheckoutNoticeAlert notice={notice} />
       {offer && (
         <ExamOfferSection
+          examSlug={slug}
           offer={offer}
           locale={locale}
           premiumCents={premium.cents}

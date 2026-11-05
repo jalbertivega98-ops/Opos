@@ -7,6 +7,7 @@ import { localized } from "@/lib/catalog/queries";
 import { formatPrice } from "@/lib/store/schema";
 import type { ExamOffer, OfferProduct } from "@/lib/store/queries";
 import { BuyForm } from "@/components/billing/buy-form";
+import { examHasPsycho } from "@/lib/catalog/exam-format";
 
 /**
  * «Qué incluye»: contenido real publicado, qué es gratis y qué es de pago.
@@ -18,7 +19,9 @@ export async function ExamOfferSection({
   premiumCents,
   back,
   billing,
+  examSlug,
 }: {
+  examSlug: string;
   offer: ExamOffer;
   locale: string;
   premiumCents: number | null;
@@ -64,7 +67,10 @@ export async function ExamOfferSection({
             <p className="text-muted-foreground text-sm">{t("free.price")}</p>
           </div>
           <ul className="space-y-2 text-sm">
-            {(["plan", "psycho", "progress"] as const).map((k) => (
+            {(examHasPsycho(examSlug)
+              ? (["plan", "psycho", "progress"] as const)
+              : (["plan", "progress"] as const)
+            ).map((k) => (
               <li key={k} className="flex gap-2">
                 <Check className="text-accent mt-0.5 size-4 shrink-0" aria-hidden />
                 {t(`free.items.${k}`)}

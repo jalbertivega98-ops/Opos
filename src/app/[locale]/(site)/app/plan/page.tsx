@@ -53,11 +53,13 @@ export default async function PlanPage({ params }: PageProps<"/[locale]/app/plan
         <h2 className="text-lg font-semibold">{t("thisWeek")}</h2>
         <WeekPlanView plan={plan} access={planAccess(library)} examSlug={settings.examSlug} />
         <p className="text-muted-foreground text-xs">
-          {t("split", {
-            syllabus: plan.minutes.syllabus,
-            psycho: plan.minutes.psycho,
-            mocks: plan.minutes.mocks,
-          })}
+          {plan.minutes.psycho > 0
+            ? t("split", {
+                syllabus: plan.minutes.syllabus,
+                psycho: plan.minutes.psycho,
+                mocks: plan.minutes.mocks,
+              })
+            : t("splitNoPsycho", { syllabus: plan.minutes.syllabus, mocks: plan.minutes.mocks })}
         </p>
       </Card>
       <Card className="space-y-3">

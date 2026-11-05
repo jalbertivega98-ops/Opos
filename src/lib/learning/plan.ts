@@ -17,6 +17,8 @@ export type PlanInput = {
   examDate: Date | null;
   topics: PlanTopic[];
   progress: Record<string, TopicProgress>;
+  /** false si la oposición no tiene prueba psicotécnica: ese tiempo pasa al temario. */
+  psycho?: boolean;
 };
 
 export type PlanPhase = "syllabus" | "review" | "mocks";
@@ -80,10 +82,11 @@ export function buildWeekPlan(input: PlanInput): WeekPlan {
   const phase = phaseFor(week, totalWeeks, level);
 
   const total = Math.max(60, Math.min(80, input.weeklyHours) * 60);
+  const hasPsycho = input.psycho !== false;
   const [a, b, c] = SPLIT[phase];
   const minutes = {
-    syllabus: Math.round(total * a),
-    psycho: Math.round(total * b),
+    syllabus: Math.round(total * (hasPsycho ? a : a + b)),
+    psycho: hasPsycho ? Math.round(total * b) : 0,
     mocks: Math.round(total * c),
   };
 
@@ -117,13 +120,16 @@ export function buildWeekPlan(input: PlanInput): WeekPlan {
     questions: Math.min(qPerTopic, 40),
     status: progress[topic.slug]?.answered ? "weak" : "new",
   }));
-  tasks.push({
-    kind: "psycho",
-    sessions: Math.max(1, Math.round(minutes.psycho / MIN_PER_PSYCHO_SESSION)),
-  });
-  if (mocks > 0) {
+  if (hasPsycho)
+    tasks.push({
+      kind: "psycho",
+      sessions: Math.max(1, Math.round(minutes.psycho / MIN_PER_PSYCHO_SESSION)),
+    });
+  if (mocks > 0 && hasPsycho) {
     tasks.push({ kind: "mock", mock: "knowledge", count: Math.ceil(mocks / 2) });
     tasks.push({ kind: "mock", mock: "psycho", count: Math.floor(mocks / 2) || 1 });
+  } else if (mocks > 0) {
+    tasks.push({ kind: "mock", mock: "knowledge", count: mocks });
   }
   return { week, totalWeeks, phase, minutes, tasks, covered, totalTopics: topics.length };
 }
