@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "gc-06a-instituciones-internacionales-eu_tue-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 6. Instituciones internacionales (I): ONU, Consejo de Europa, Unión Europea y OTAN",
+    "topic_slug": "gc-06a-instituciones-internacionales",
+    "locale": "es",
+    "category": "gc_06a_instituciones_internacionales",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Tratado de la Unión Europea (versión consolidada), arts. 13-19",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea · EUR-Lex (DOUE C 202 de 7.6.2016)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 14.2 TUE",
+      "stem": "Según el artículo 14 del Tratado de la Unión Europea, el número de diputados del Parlamento Europeo:",
+      "options": [
+        "No excederá de setecientos cincuenta, más el Presidente, con un mínimo de seis y un máximo de noventa y seis escaños por Estado miembro.",
+        "No excederá de setecientos cincuenta, incluido el Presidente, con un mínimo de cuatro escaños por Estado miembro.",
+        "No excederá de setecientos, más el Presidente, con un máximo de noventa y seis escaños por Estado miembro.",
+        "No excederá de setecientos cincuenta, más el Presidente, con un mínimo de seis y un máximo de ochenta escaños por Estado miembro."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 14.2 TUE fija un máximo de 750 diputados más el Presidente, con representación decrecientemente proporcional, un mínimo de 6 y un máximo de 96 escaños por Estado miembro.",
+      "excerpt": "Su número no excederá de setecientos cincuenta, más el Presidente. La representación de los ciudadanos será decrecientemente proporcional, con un mínimo de seis diputados por Estado miembro. No se asignará a ningún Estado miembro más de noventa y seis escaños.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14.3 TUE",
+      "stem": "Según el artículo 14 del Tratado de la Unión Europea, los diputados al Parlamento Europeo son elegidos por sufragio universal directo, libre y secreto para un mandato de:",
+      "options": [
+        "Cuatro años.",
+        "Seis años.",
+        "Cinco años.",
+        "Dos años y medio."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 14.3 TUE fija un mandato de cinco años; los dos años y medio corresponden al mandato del Presidente del Consejo Europeo (art. 15.5 TUE).",
+      "excerpt": "Los diputados al Parlamento Europeo serán elegidos por sufragio universal directo, libre y secreto, para un mandato de cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.5 TUE",
+      "stem": "De acuerdo con el artículo 15 del Tratado de la Unión Europea, el Presidente del Consejo Europeo es elegido:",
+      "options": [
+        "Por el Parlamento Europeo, por mayoría absoluta, para un mandato de cinco años.",
+        "Por el Consejo Europeo, por unanimidad, para un mandato de dos años y medio no renovable.",
+        "Por el Consejo Europeo, por mayoría cualificada, para un mandato de dos años y medio renovable una sola vez.",
+        "Por rotación semestral entre los Estados miembros."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 15.5 TUE: el Consejo Europeo elige a su Presidente por mayoría cualificada para dos años y medio, renovable una sola vez, y puede ponerle fin por el mismo procedimiento en caso de impedimento o falta grave.",
+      "excerpt": "El Consejo Europeo elegirá a su Presidente por mayoría cualificada para un mandato de dos años y medio, que podrá renovarse una sola vez.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.4 TUE",
+      "stem": "Según el artículo 16.4 del Tratado de la Unión Europea, a partir del 1 de noviembre de 2014 la mayoría cualificada en el Consejo se define como un mínimo de:",
+      "options": [
+        "El 65 % de los miembros del Consejo, que represente a Estados miembros que reúnan como mínimo el 55 % de la población de la Unión.",
+        "El 55 % de los miembros del Consejo, que incluya al menos a quince de ellos y represente a Estados miembros que reúnan como mínimo el 65 % de la población de la Unión.",
+        "El 55 % de los miembros del Consejo, que incluya al menos a doce de ellos y represente como mínimo el 60 % de la población de la Unión.",
+        "Dos tercios de los miembros del Consejo, que representen como mínimo el 65 % de la población de la Unión."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 16.4 TUE exige el 55 % de los miembros (al menos 15) que representen al menos el 65 % de la población; la minoría de bloqueo requiere al menos cuatro miembros.",
+      "excerpt": "A partir del 1 de noviembre de 2014, la mayoría cualificada se definirá como un mínimo del 55 % de los miembros del Consejo que incluya al menos a quince de ellos y represente a Estados miembros que reúnan como mínimo el 65 % de la población de la Unión.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

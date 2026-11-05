@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "set": "gc-17b-ciberseguridad-ccn-cert-ccn_rd421-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 17. Ciberseguridad: CCN-CERT",
+    "topic_slug": "gc-17b-ciberseguridad-ccn-cert",
+    "locale": "es",
+    "category": "gc_17b_ciberseguridad_ccn_cert",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 421/2004, de 12 de marzo, por el que se regula el Centro Criptológico Nacional (BOE-A-2004-5051)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-5051",
+      "kind": "web_oficial",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2.3 RD 421/2004",
+      "stem": "Según el artículo 2.3 del Real Decreto 421/2004, el Centro Criptológico Nacional queda adscrito:",
+      "options": [
+        "Al Ministerio del Interior.",
+        "A la Secretaría de Estado de Digitalización e Inteligencia Artificial.",
+        "Al Estado Mayor de la Defensa.",
+        "Al Centro Nacional de Inteligencia."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El CCN queda adscrito al CNI, comparte con él medios, procedimientos, normativa y recursos, y se rige por la Ley 11/2002.",
+      "excerpt": "El Centro Criptológico Nacional queda adscrito al Centro Nacional de Inteligencia y comparte con éste medios, procedimientos, normativa y recursos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1 RD 421/2004",
+      "stem": "Según el artículo 1 del Real Decreto 421/2004, ¿quién es el Director del Centro Criptológico Nacional?",
+      "options": [
+        "El Ministro de Defensa.",
+        "El Secretario de Estado Director del Centro Nacional de Inteligencia.",
+        "El Secretario de Estado de Seguridad.",
+        "El Jefe del Estado Mayor de la Defensa."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El Secretario de Estado Director del CNI es, como Director del CCN, la autoridad responsable de coordinar la acción de los organismos de la Administración que utilicen medios o procedimientos de cifra.",
+      "excerpt": "El Secretario de Estado Director del Centro Nacional de Inteligencia, como Director del Centro Criptológico Nacional (CCN)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Disp. final 2.ª RD 421/2004",
+      "stem": "Según su disposición final segunda, el Real Decreto 421/2004, por el que se regula el Centro Criptológico Nacional, entró en vigor:",
+      "options": [
+        "A los veinte días de su publicación en el «Boletín Oficial del Estado».",
+        "El día siguiente al de su publicación en el «Boletín Oficial del Estado».",
+        "Al mes de su publicación en el «Boletín Oficial del Estado».",
+        "El mismo día de su publicación en el «Boletín Oficial del Estado»."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La disposición final segunda fija la entrada en vigor el día siguiente al de su publicación (BOE de 19 de marzo de 2004).",
+      "excerpt": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 1 RD 421/2004 (autoridad de certificación)",
+      "stem": "De acuerdo con el artículo 1 del Real Decreto 421/2004, el Director del Centro Criptológico Nacional es:",
+      "options": [
+        "La autoridad de control en materia de protección de datos de las Administraciones públicas.",
+        "El órgano de supervisión de los prestadores cualificados de servicios electrónicos de confianza.",
+        "La autoridad de gestión de las comunicaciones móviles gubernamentales.",
+        "La autoridad de certificación de la seguridad de las tecnologías de la información y autoridad de certificación criptológica."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 1 RD 421/2004 configura al Director del CCN como autoridad de certificación de la seguridad de las TIC y autoridad de certificación criptológica, y le encarga velar por la normativa de protección de la información clasificada en los sistemas de información y telecomunicaciones.",
+      "excerpt": "En este sentido, el Director del CCN es la autoridad de certificación de la seguridad de las tecnologías de la información y autoridad de certificación criptológica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.1 RD 421/2004",
+      "stem": "Según el artículo 2.1 del Real Decreto 421/2004, el ámbito de actuación del Centro Criptológico Nacional comprende la seguridad de los sistemas de las tecnologías de la información:",
+      "options": [
+        "De la Administración que procesan, almacenan o transmiten información en formato electrónico que normativamente requieren protección e incluyen medios de cifra, y de los que procesan, almacenan o transmiten información clasificada.",
+        "De todas las empresas privadas que prestan servicios esenciales, exclusivamente.",
+        "De la Administración General del Estado, con exclusión de los que manejan información clasificada.",
+        "De los ciudadanos y empresas que lo soliciten, a cambio de una tasa."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 2.1 delimita dos ámbitos: a) los sistemas TIC de la Administración con información electrónica que requiere protección y que incluyen medios de cifra, y b) los sistemas que tratan información clasificada.",
+      "excerpt": "a) La seguridad de los sistemas de las tecnologías de la información de la Administración que procesan, almacenan o transmiten información en formato electrónico, que normativamente requieren protección, y que incluyen medios de cifra. b) La seguridad de los sistemas de las tecnologías de la información que procesan, almacenan o transmiten información clasificada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.2.c) RD 421/2004",
+      "stem": "Según el artículo 2.2 del Real Decreto 421/2004, entre las funciones del Centro Criptológico Nacional figura:",
+      "options": [
+        "Expedir el Documento Nacional de Identidad electrónico.",
+        "Constituir el organismo de certificación del Esquema nacional de evaluación y certificación de la seguridad de las tecnologías de información.",
+        "Investigar y perseguir los delitos informáticos cometidos contra la Administración.",
+        "Imponer sanciones por incumplimiento del Esquema Nacional de Seguridad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 2.2.c) atribuye al CCN constituir el organismo de certificación del Esquema nacional de evaluación y certificación de la seguridad de las TI, aplicable a productos y sistemas en su ámbito.",
+      "excerpt": "c) Constituir el organismo de certificación del Esquema nacional de evaluación y certificación de la seguridad de las tecnologías de información, de aplicación a productos y sistemas en su ámbito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.2.b) RD 421/2004",
+      "stem": "De acuerdo con el artículo 2.2 del Real Decreto 421/2004, ¿a quién corresponde formar al personal de la Administración especialista en el campo de la seguridad de los sistemas de las tecnologías de la información y las comunicaciones?",
+      "options": [
+        "Al Instituto Nacional de Administración Pública, en exclusiva.",
+        "A la Agencia Española de Protección de Datos.",
+        "Al Centro Criptológico Nacional.",
+        "Al Instituto Nacional de Ciberseguridad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 2.2.b) encomienda al CCN formar al personal de la Administración especialista en seguridad de los sistemas TIC; también el art. 1 menciona entre las responsabilidades del Director del CCN formar al personal especialista.",
+      "excerpt": "b) Formar al personal de la Administración especialista en el campo de la seguridad de los sistemas de las tecnologías de la información y las comunicaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Preámbulo RD 421/2004",
+      "stem": "Según el preámbulo del Real Decreto 421/2004, la seguridad de los sistemas de información debe garantizar, respecto de la información que manejan:",
+      "options": [
+        "La confidencialidad, la disponibilidad y la integridad.",
+        "Únicamente la confidencialidad.",
+        "La autenticidad, la trazabilidad y el no repudio.",
+        "La confidencialidad y la legalidad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El preámbulo indica que la seguridad no solo abarca la confidencialidad: debe garantizar la confidencialidad, disponibilidad e integridad de la información y la disponibilidad e integridad de los propios sistemas.",
+      "excerpt": "En consecuencia, la seguridad de los sistemas de información debe garantizar la confidencialidad, la disponibilidad y la integridad de la información que manejan y la disponibilidad y la integridad de los propios sistemas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Preámbulo RD 421/2004 (Ley 11/2002)",
+      "stem": "Según el preámbulo del Real Decreto 421/2004, ¿qué precepto de la Ley 11/2002, reguladora del Centro Nacional de Inteligencia, confiere a su Secretario de Estado Director la responsabilidad de dirigir el Centro Criptológico Nacional?",
+      "options": [
+        "El artículo 4.e).",
+        "El artículo 4.f).",
+        "La disposición final primera.",
+        "El artículo 9.2.f)."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La Ley 11/2002 encomienda al CNI la seguridad de las tecnologías de la información (art. 4.e) y la protección de la información clasificada (art. 4.f), y confiere a su Secretario de Estado Director la dirección del CCN (art. 9.2.f). El RD se dicta en virtud de su disposición final primera.",
+      "excerpt": "a la vez que confiere a su Secretario de Estado Director la responsabilidad de dirigir el Centro Criptológico Nacional en su artículo 9.2.f).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.2.g) RD 421/2004",
+      "stem": "Según el artículo 2.2 del Real Decreto 421/2004, para el desarrollo de sus funciones el Centro Criptológico Nacional puede:",
+      "options": [
+        "Celebrar tratados internacionales en nombre del Reino de España.",
+        "Dictar reales decretos de desarrollo del Esquema Nacional de Seguridad.",
+        "Establecer las necesarias relaciones y firmar los acuerdos pertinentes con organizaciones similares de otros países.",
+        "Imponer a las empresas privadas el uso obligatorio de sus productos de cifra."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 2.2.g) permite al CCN establecer relaciones y firmar acuerdos con organizaciones similares de otros países. El desarrollo reglamentario corresponde al Ministro de Defensa (disposición final primera).",
+      "excerpt": "g) Establecer las necesarias relaciones y firmar los acuerdos pertinentes con organizaciones similares de otros países, para el desarrollo de las funciones mencionadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2.3 RD 421/2004 (personal)",
+      "stem": "Según el artículo 2.3 del Real Decreto 421/2004, el personal del Centro Criptológico Nacional:",
+      "options": [
+        "Es personal funcionario del Ministerio de Defensa, sujeto al régimen general de la función pública.",
+        "Está integrado orgánica y funcionalmente en el Centro Nacional de Inteligencia, y le son de aplicación las disposiciones relativas al personal de este, particularmente su régimen estatutario.",
+        "Es personal laboral contratado directamente por el Centro Criptológico Nacional.",
+        "Está integrado en el Ministerio del Interior, salvo su Director."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El personal del CCN está integrado orgánica y funcionalmente en el CNI y le es de aplicación la Ley 11/2002 y su normativa de desarrollo, especialmente el régimen estatutario.",
+      "excerpt": "El personal del CCN estará integrado orgánica y funcionalmente en el Centro Nacional de Inteligencia, por lo que le serán de aplicación todas las disposiciones relativas al personal de éste",
+      "excerpt_status": "completo"
+    }
+  ]
+}

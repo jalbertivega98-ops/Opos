@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "set": "gc-18-topografia-ign_conceptos-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 18. Topografía",
+    "topic_slug": "gc-18-topografia",
+    "locale": "es",
+    "category": "gc_18_topografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Conceptos cartográficos (material didáctico, IGN & UPM-LatinGEO)",
+      "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Conceptos cartográficos, ap. 1.1",
+      "stem": "Según el material didáctico «Conceptos cartográficos» del Instituto Geográfico Nacional, la forma real de la Tierra es:",
+      "options": [
+        "Un geoide.",
+        "Un elipsoide de revolución perfecto.",
+        "Una esfera regular.",
+        "Un poliedro de veinte caras."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El IGN explica que la forma real de la Tierra es un geoide, cuya superficie irregular coincide con la de los mares en calma prolongada bajo los continentes; en cartografía se simplifica a un elipsoide o a una esfera porque su formulación matemática es conocida.",
+      "excerpt": "La forma real de la Tierra es un geoide cuya superficie irregular coincide con la que resultaría al prolongar por debajo de las superficies continentales, los mares y océanos en calma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 2.1.a",
+      "stem": "Una proyección cartográfica que mantiene los ángulos que forman dos líneas en la superficie terrestre se denomina:",
+      "options": [
+        "Equivalente.",
+        "Conforme.",
+        "Equidistante.",
+        "Afiláctica."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La proyección conforme conserva los ángulos (por eso se usa en cartas de navegación); la equivalente conserva superficies, la equidistante distancias y la afiláctica no conserva ninguna de esas propiedades, aunque con deformaciones mínimas.",
+      "excerpt": "Una proyección cartográfica es conforme cuando mantiene los ángulos que forman dos líneas en la superficie terrestre. Este tipo de proyecciones se utilizan en cartas de navegación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 2.1.b",
+      "stem": "Según el IGN, las proyecciones equivalentes, que conservan en el mapa las superficies del terreno aunque las figuras dejen de ser semejantes, se utilizan generalmente en:",
+      "options": [
+        "Cartas de navegación.",
+        "Cartas astronómicas.",
+        "Mapas de las zonas polares.",
+        "Mapas temáticos o parcelarios."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El IGN indica que la proyección equivalente conserva las superficies y se utiliza generalmente en mapas temáticos o parcelarios; las cartas de navegación usan proyecciones conformes.",
+      "excerpt": "Una proyección cartográfica es equivalente cuando en el mapa se conservan las superficies del terreno, aunque las figuras dejen de ser semejantes. Se utilizan generalmente en mapas temáticos o parcelarios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 2.1.d",
+      "stem": "¿Cómo se denomina la proyección cartográfica que no conserva ángulos, superficies ni distancias, pero cuyas deformaciones son mínimas?",
+      "options": [
+        "Conforme.",
+        "Equidistante.",
+        "Afiláctica.",
+        "Gnomónica."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Es la proyección afiláctica. Las conformes conservan ángulos, las equivalentes superficies y las equidistantes distancias; la gnomónica es un tipo de proyección plana según la posición del vértice.",
+      "excerpt": "Una proyección cartográfica es afiláctica cuando no conserva ángulos, superficies ni distancias, pero las deformaciones son mínimas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 2.2.b",
+      "stem": "Según el IGN, ¿cuál de las siguientes es un ejemplo de proyección cónica?",
+      "options": [
+        "La de Mercator.",
+        "La UTM (Universal Transversa de Mercator).",
+        "La sinusoidal.",
+        "La de Lambert."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El IGN cita como proyecciones cónicas las de Lambert y Bonne; Mercator y UTM son ejemplos de proyecciones cilíndricas, y la sinusoidal es una proyección modificada.",
+      "excerpt": "Son ejemplos las proyecciones de Lambert y Bonne.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 3",
+      "stem": "Según el material «Conceptos cartográficos» del IGN, la escala puede expresarse de tres formas distintas:",
+      "options": [
+        "Numérica, decimal y porcentual.",
+        "Numérica, gráfica y textual o literal.",
+        "Gráfica, hipsométrica y textual.",
+        "Numérica, angular y gráfica."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El IGN distingue la escala numérica (fracción), la gráfica (línea subdividida en segmentos) y la textual o literal (relación escrita); cualquiera de ellas basta para conocer la relación entre el mapa y la realidad.",
+      "excerpt": "La escala puede expresarse de tres formas distintas: numérica, gráfica y textual o literal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 3.1",
+      "stem": "En la escala numérica, expresada mediante una fracción, el denominador indica:",
+      "options": [
+        "La distancia medida entre dos puntos en el mapa.",
+        "La equidistancia entre curvas de nivel.",
+        "La distancia correspondiente en el terreno.",
+        "El número de hoja del mapa."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En la escala numérica el numerador es la distancia medida en el mapa y el denominador la correspondiente en el terreno; así, 1:60.000.000 significa que una unidad del mapa equivale a 60 millones de unidades reales.",
+      "excerpt": "La escala numérica se expresa mediante una fracción que indica la relación entre la distancia medida de dos puntos en el mapa (numerador) y la correspondiente en el terreno (denominador)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 4.1",
+      "stem": "Según el IGN, se suelen denominar mapas de pequeña escala aquellos cuya escala es:",
+      "options": [
+        "Menor de 1:100.000.",
+        "Mayor de 1:10.000.",
+        "Menor de 1:2.000.",
+        "Igual o superior a 1:25.000."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El IGN llama mapas de pequeña escala a los de escala menor de 1:100.000 (países, continentes...), y de gran escala a los de escala mayor de 1:10.000; a partir de 1:2.000 se habla de planos.",
+      "excerpt": "Se suelen denominar mapas de pequeña escala aquéllos cuya escala es menor de 1:100.000.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 4.1",
+      "stem": "Según el material «Conceptos cartográficos» del IGN, ¿a partir de qué escala se habla de planos, al no considerar la esfericidad de la Tierra?",
+      "options": [
+        "A partir de 1:10.000.",
+        "A partir de 1:25.000.",
+        "A partir de 1:100.000.",
+        "A partir de 1:2.000."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El IGN indica que los mapas de gran escala son los de escala mayor de 1:10.000 y que se denominan planos a partir de 1:2.000, porque no se considera la esfericidad terrestre.",
+      "excerpt": "Se denominan planos a partir de 1:2.000, al no considerar la esfericidad de la Tierra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 5",
+      "stem": "Según el IGN, los elementos imprescindibles que deben aparecer en todos los mapas son:",
+      "options": [
+        "La escala utilizada y la leyenda.",
+        "El título y la fuente.",
+        "La cuadrícula UTM y la toponimia.",
+        "La declinación magnética y la proyección."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El IGN señala que la escala (relación métrica entre mapa y realidad) y la leyenda (signos convencionales) son los elementos imprescindibles; los demás datos marginales pueden añadirse según las normas de cada serie.",
+      "excerpt": "Los elementos imprescindibles que deben aparecer en todos los mapas son: la escala utilizada y la leyenda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 5.4",
+      "stem": "En las hojas del Mapa Topográfico Nacional a escala 1:50.000 (MTN50), la cuadrícula de líneas horizontales y verticales se dibuja con una separación de:",
+      "options": [
+        "1 cm, equivalente a un kilómetro en el terreno.",
+        "2 cm, equivalente a un kilómetro en el terreno.",
+        "4 cm, equivalente a dos kilómetros en el terreno.",
+        "2 cm, equivalente a 500 metros en el terreno."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "A escala 1:50.000, 2 cm del mapa son 100.000 cm, es decir, 1 km; el marco y la cuadrícula permiten extraer las coordenadas de cualquier punto del mapa.",
+      "excerpt": "[2] Cuadrícula de líneas horizontales y verticales, dibujadas con una separación de 2 cm (equivalente a un kilómetro en el terreno).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 5.6",
+      "stem": "En el MTN50, la leyenda que define todos los signos convencionales utilizados en el mapa se sitúa en:",
+      "options": [
+        "El margen inferior derecho, junto a la lista de vértices geodésicos.",
+        "La contraportada, junto al gráfico de hojas colindantes.",
+        "El margen inferior izquierdo, dividida en tres columnas.",
+        "El margen superior, junto al nombre de la hoja."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La leyenda del MTN50 está en el margen inferior izquierdo y se divide en tres columnas: elementos lineales, símbolos puntuales y usos del suelo. En el margen inferior derecho van la toponimia y los vértices geodésicos.",
+      "excerpt": "En el margen inferior izquierdo se sitúa la lista explicativa que define con detalle y sin lugar a equívoco todos los signos convencionales utilizados en el mapa. La leyenda se divide en tres columnas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Conceptos cartográficos, ap. 7.c",
+      "stem": "Las isolíneas que unen puntos de igual temperatura se denominan:",
+      "options": [
+        "Isotermas.",
+        "Isobaras.",
+        "Curvas de nivel.",
+        "Isógonas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Si el valor constante es la altitud se habla de curvas de nivel; si es la temperatura, de isotermas, y si es la presión, de isobaras.",
+      "excerpt": "si el valor constante es la altitud se habla de curvas de nivel; si es la temperatura se denomina isotermas, y si los puntos de las isolíneas tienen igual presión se denominan isobaras.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

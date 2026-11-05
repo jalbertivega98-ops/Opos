@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gc-06b-agencias-internacionales-oi_fao-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 6. Instituciones internacionales (II): INTERPOL, EUROPOL, EUROJUST, FRONTEX, CEPOL, FAO, FMI y OMS",
+    "topic_slug": "gc-06b-agencias-internacionales",
+    "locale": "es",
+    "category": "gc_06b_agencias_internacionales",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "FAO · Acerca de la FAO",
+      "url": "https://www.fao.org/about/about-fao/es/",
+      "kind": "web_oficial",
+      "publisher": "Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO, web oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "FAO, sede y miembros",
+      "stem": "Según la web oficial de la FAO, ¿a qué ciudad decidieron los Estados Miembros trasladar las oficinas de la Organización, adonde se mudaron en 1951?",
+      "options": [
+        "Roma.",
+        "Ginebra.",
+        "Nueva York.",
+        "Quebec."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La FAO nació en Quebec (Canadá) con sede temporal en Washington D.C.; tras la Conferencia General de 1949 se decidió el traslado a Roma, realizado en 1951.",
+      "excerpt": "Tras el quinto período de sesiones de la Conferencia General llevada a cabo en 1949, en la cual los Estados Miembros decidieron trasladar las oficinas de la FAO a Roma",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "FAO, Día Mundial de la Alimentación",
+      "stem": "Según la web oficial de la FAO, el Día Mundial de la Alimentación se celebra anualmente el:",
+      "options": [
+        "16 de octubre, en honor a la fecha de fundación de la FAO.",
+        "7 de abril, en honor a la entrada en vigor de la Constitución de la FAO.",
+        "20 de mayo, en honor a la fecha de fundación de la FAO.",
+        "1 de febrero, en honor a la primera sesión de la Conferencia de la FAO."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La 20.ª Conferencia de la FAO decidió por unanimidad celebrar el 16 de octubre el Día Mundial de la Alimentación, fecha de fundación de la Organización. El 20 de mayo es el Día Mundial de las Abejas.",
+      "excerpt": "Durante la 20.a reunión de la Conferencia de la FAO se decidió en forma unánime celebrar anualmente el Día Mundial de la Alimentación el 16 de octubre en honor a la fecha de fundación de la FAO.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

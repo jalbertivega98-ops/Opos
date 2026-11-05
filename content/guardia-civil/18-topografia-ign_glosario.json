@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gc-18-topografia-ign_glosario-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 18. Topografía",
+    "topic_slug": "gc-18-topografia",
+    "locale": "es",
+    "category": "gc_18_topografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Glosario del Atlas Didáctico (términos geográficos)",
+      "url": "https://educativo.ign.es/atlas-didactico/glosario/index.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Glosario del Atlas Didáctico, «divisoria de aguas»",
+      "stem": "La línea que une los puntos en los que las aguas fluyen hacia cuencas hidrográficas diferentes, y que suele corresponderse con líneas de cumbres, se denomina:",
+      "options": [
+        "Divisoria de aguas.",
+        "Rambla.",
+        "Hoz.",
+        "Curva de nivel."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La divisoria de aguas separa cuencas hidrográficas y suele seguir las líneas de cumbres. La rambla es un cauce normalmente seco y la hoz, la angostura de un valle profundo.",
+      "excerpt": "Línea que une los puntos en los que las aguas fluyen hacia cuencas hidrográficas diferentes. Suele corresponderse con líneas de cumbres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario del Atlas Didáctico, «hoz» y «cerro testigo»",
+      "stem": "Según el glosario del IGN, la angostura de un valle profundo o curva que forma un río encajado entre paredes abruptas, normalmente en relieves calcáreos, recibe el nombre de:",
+      "options": [
+        "Cerro testigo.",
+        "Vega.",
+        "Hoz.",
+        "Páramo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La hoz es un accidente del terreno propio de relieves calcáreos. El cerro testigo es una elevación aislada en medio de una llanura; la vega, una zona llana y baja regada por un río; y el páramo, una superficie elevada y horizontal.",
+      "excerpt": "Angostura de un valle profundo o curva que forma un río encajado entre paredes abruptas. Su figura recuerda la del instrumento que le da nombre. Normalmente está asociado a relieves calcáreos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

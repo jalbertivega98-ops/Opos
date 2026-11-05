@@ -1,6 +1,6 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ Guardia Civil, ADR-029)
+**Última actualización:** 2026-11-05 · Sesión 3 (+ Guardia Civil completa, ADR-030)
 
 ## Estado exacto
 
@@ -9,7 +9,8 @@
 - Convocatoria BOE-A-2026-9982 (3.240 plazas; 100 preguntas de 4 opciones, mínimo 50 de 100). Temario oficial 2024 en `docs/research/guardia-civil-programa.md`.
 - 500 preguntas y 25 fichas (`content/guardia-civil`, temas `gc-*`); fuentes y `build.py` en `/mnt/project-files/aprobia/fuentes-oficiales/guardia-civil/`.
 - Preview `31-` (temario), `32-` (productos) y `33-` (publicación). Las 3 dudas de los redactores se verificaron contra el BOE antes de publicar.
-- Falta: temas sin fuente oficial (ver CNT-020) y Policía Nacional temas 27-45.
+- **Ampliación (CNT-021, ADR-030):** todo el temario oficial cubierto, +430 preguntas y 17 fichas (fuentes web en `web/`, reparto en `AMPLIACION.md` de la carpeta de fuentes). Preview `34-` (temario), `35-` (pack de lengua y simulacro de inglés, `gcl-`) y `36-` (publicación).
+- Falta: Policía Nacional temas 27-45.
 
 ### Nuevas oposiciones: Administrativo del Estado, Justicia y Policía Nacional (2026-11-05, rama `claude/project-thread-fls9nq`, CNT-015 a CNT-017, ADR-028)
 

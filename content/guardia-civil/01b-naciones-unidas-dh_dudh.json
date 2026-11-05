@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "gc-01b-naciones-unidas-dh_dudh-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Tema 1. Derechos humanos (II): Carta de las Naciones Unidas, sus órganos, DUDH y Consejo de Derechos Humanos",
+    "topic_slug": "gc-01b-naciones-unidas",
+    "locale": "es",
+    "category": "gc_01b_naciones_unidas",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Declaración Universal de los Derechos Humanos",
+      "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
+      "kind": "web_oficial",
+      "publisher": "Naciones Unidas (un.org)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo de la prueba de conocimientos generales (4 opciones, una correcta; los errores penalizan), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Introducción DUDH (un.org)",
+      "stem": "Según la página oficial de las Naciones Unidas, la Declaración Universal de los Derechos Humanos fue proclamada por la Asamblea General:",
+      "options": [
+        "En París, el 10 de diciembre de 1948.",
+        "En San Francisco, el 26 de junio de 1945.",
+        "En Nueva York, el 16 de diciembre de 1966.",
+        "En Ginebra, el 10 de diciembre de 1948."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La DUDH fue proclamada por la Asamblea General en París el 10 de diciembre de 1948, mediante la resolución 217 A (III). La Carta se firmó en San Francisco en 1945 y los Pactos internacionales se adoptaron en Nueva York en 1966.",
+      "excerpt": "la Declaración fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948 en su (Resolución 217 A (III))",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14 DUDH",
+      "stem": "Según el artículo 14 de la Declaración Universal de los Derechos Humanos, en caso de persecución, toda persona tiene derecho a:",
+      "options": [
+        "Obtener asilo en el país que elija, que estará obligado a concederlo.",
+        "Buscar asilo, y a disfrutar de él, en cualquier país.",
+        "Obtener la nacionalidad del país que le acoja.",
+        "Buscar asilo únicamente en un país limítrofe con el suyo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 14.1 DUDH reconoce el derecho a buscar asilo y a disfrutar de él en cualquier país; según el art. 14.2 no puede invocarse frente a una acción judicial originada por delitos comunes o por actos opuestos a los propósitos y principios de la ONU.",
+      "excerpt": "En caso de persecución, toda persona tiene derecho a buscar asilo, y a disfrutar de él, en cualquier país.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.1 DUDH",
+      "stem": "De acuerdo con el artículo 26 de la Declaración Universal de los Derechos Humanos, ¿qué instrucción será obligatoria?",
+      "options": [
+        "La instrucción elemental y la técnica.",
+        "La instrucción elemental y la secundaria.",
+        "La instrucción técnica y profesional.",
+        "La instrucción elemental."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 26.1 DUDH establece que la educación debe ser gratuita al menos en la instrucción elemental y fundamental, que la instrucción elemental será obligatoria y que la técnica y profesional habrá de ser generalizada.",
+      "excerpt": "La educación debe ser gratuita, al menos en lo concerniente a la instrucción elemental y fundamental. La instrucción elemental será obligatoria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 29.2 DUDH",
+      "stem": "Según el artículo 29 de la Declaración Universal de los Derechos Humanos, en el ejercicio de sus derechos toda persona estará solamente sujeta a las limitaciones:",
+      "options": [
+        "Que acuerde el Consejo de Seguridad para el mantenimiento de la paz y la seguridad internacionales.",
+        "Establecidas por la ley con el único fin de asegurar el reconocimiento y el respeto de los derechos y libertades de los demás, y de satisfacer las justas exigencias de la moral, del orden público y del bienestar general en una sociedad democrática.",
+        "Que establezca cada Estado por razones de seguridad nacional, sin necesidad de ley.",
+        "Que declare la Asamblea General en situaciones de emergencia pública."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 29.2 DUDH exige que las limitaciones estén establecidas por la ley y respondan únicamente al respeto de los derechos ajenos y a las justas exigencias de la moral, el orden público y el bienestar general en una sociedad democrática.",
+      "excerpt": "toda persona estará solamente sujeta a las limitaciones establecidas por la ley con el único fin de asegurar el reconocimiento y el respeto de los derechos y libertades de los demás, y de satisfacer las justas exigencias de la moral, del orden público y del bienestar general en una sociedad democrática.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
