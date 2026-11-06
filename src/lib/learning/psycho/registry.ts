@@ -5,6 +5,7 @@ import { equations } from "./equations";
 import { percentages } from "./percentages";
 import { probability } from "./probability";
 import { tables } from "./tables";
+import { antonyms, spelling, synonyms } from "./verbal";
 import { letters } from "./letters";
 import { matrices } from "./matrices";
 import { numeric } from "./numeric";
@@ -87,6 +88,9 @@ const GENERATORS: Partial<Record<PsychoType, PsychoGenerator>> = {
   matrices,
   spatial,
   attention,
+  spelling,
+  synonyms,
+  antonyms,
   percentages,
   equations,
   probability,
