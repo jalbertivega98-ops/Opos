@@ -56,3 +56,11 @@ Requisitos: Node ≥ 22, PostgreSQL 16 instalado (binarios en /usr/lib/postgresq
 | Despliegue     | `npm run build` correcto                                                                  | Proyecto en el proveedor (p. ej. Vercel) y variables de entorno                                         |
 
 Ninguna de estas cuentas se ha creado ni conectado.
+
+## Entrar con Google (ADR-040)
+
+1. Google Cloud Console → crear proyecto «OPOSAPRUEBA» → _Google Auth Platform_ → _Branding_: nombre OPOSAPRUEBA, correo de asistencia oposaprueba@gmail.com, dominio autorizado `oposaprueba.com`, enlaces a `/legal/privacidad` y `/legal/condiciones`. _Audience_: External → _Publish app_ (en producción).
+2. _Clients_ → _Create client_ → Web application. Orígenes JavaScript: `https://www.oposaprueba.com`. URI de redirección autorizada: `https://tnenqdecvenfbqjgubbf.supabase.co/auth/v1/callback`. Copiar el ID y el secreto.
+3. Supabase → Authentication → Sign In / Providers → Google: activar, pegar ID y secreto, guardar.
+4. Supabase → Authentication → URL Configuration: _Site URL_ `https://www.oposaprueba.com` y en _Redirect URLs_ `https://www.oposaprueba.com/**` (y `https://opos-indol.vercel.app/**` para la preview).
+5. Comprobar en `/entrar`: aparece «Continuar con Google» (tarda hasta 5 minutos por la caché).
