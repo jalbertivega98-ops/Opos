@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Lo que no se podía practicar (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-027, ADR-040)
+
+- Cultura general y actualidad (`cultcat-*`, `actcat-01`, carpeta `cultura-cat`), conocimiento de Barcelona (`gub-t39`), bloque D y supuestos de IIPP. Preview `57-` a `60-`. Simulacros de Guardia Urbana y policía local con el examen completo.
+- `actcat-01-actualitat` caduca: renovarlo cada trimestre. Pendiente: réplica IIPP 2025 (PDF escaneado) y que joel diga «fusiona».
+
 ### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-039)
 
 - Guardia Urbana de Barcelona (889 preguntas), policía local de Cataluña (620), Bombers de la Generalitat (700) y Ayudantes IIPP (1.124), con fichas, réplicas de los exámenes publicados y simulacros con el formato real. Preview `51-` a `56-`; dudosas en borrador.

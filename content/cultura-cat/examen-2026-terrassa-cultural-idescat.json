@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "plcatexamen-2026-terrassa-cultural-idescat-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Examen rèplica · Terrassa 2026 (1f/AGENTS/2026), exercici teòric: 50 preguntes",
+    "topic_slug": "plcatexamen-2026-terrassa",
+    "locale": "ca",
+    "category": "plcatexamen_2026_terrassa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Anuari estadístic de Catalunya i El municipi en xifres (Institut d'Estadística de Catalunya)",
+      "url": "https://www.idescat.cat/indicadors/?id=aec&lang=ca",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estadística de Catalunya (Idescat)",
+      "published_on": null
+    },
+    "notes": "Rèplica original de la part cultural (cultura general i actualitat) de l'examen oficial publicat: una pregunta pròpia sobre el mateix concepte; les d'actualitat antiga se substitueixen per un fet recent del mateix tipus (s'indica a l'explicació). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Terrassa 2026 p. 10 · Taxa d'atur a Catalunya",
+      "stem": "Quina taxa d'atur de Catalunya mostrava la portada d'Idescat el novembre de 2026?",
+      "options": [
+        "2,9%",
+        "4,5%",
+        "8,30%",
+        "16,6%"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Rèplica de la p. 10 (estadística oficial del mercat de treball; Idescat en lloc de l'EPA de l'INE). Novembre de 2026.",
+      "excerpt": "8.237.683 Població 8,30 % Atur +2,9 % PIB +4,5 % IPC",
+      "excerpt_status": "completo"
+    }
+  ]
+}

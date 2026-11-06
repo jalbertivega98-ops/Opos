@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcnmerce26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Tota la programació de la Mercè 2026 (16/09/2026) i Lectura del pregó de les Festes de la Mercè 2026 (22/09/2026)",
+      "url": "https://ajuntament.barcelona.cat/ciutatvella/ca/noticies/tota-la-programacio-de-la-merce-2026-41192",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Mercè 2026, ciutat convidada",
+      "stem": "Quina va ser la ciutat convidada de les Festes de la Mercè 2026?",
+      "options": [
+        "Roma",
+        "Buenos Aires",
+        "Montreal",
+        "Xangai"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "23-27 de setembre de 2026: la Mercè va programar el millor talent artístic de Xangai, ciutat convidada.",
+      "excerpt": "la programació del millor talent artístic de Shanghai, ciutat convidada d’enguany.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Mercè 2026, pregó",
+      "stem": "Qui va fer el pregó de les Festes de la Mercè 2026 al Saló de Cent?",
+      "options": [
+        "El cuiner Ferran Adrià",
+        "La cantant Sílvia Pérez Cruz",
+        "El mestre celler Antoni Falgueras, acompanyat de la seva filla, la sommelier Meritxell Falgueras",
+        "L'actor Oriol Pla"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "23 de setembre de 2026: pregó a càrrec d'Antoni i Meritxell Falgueras, en un acte presidit per l'alcalde Jaume Collboni.",
+      "excerpt": "a càrrec del mestre celler Antoni Falgueras, acompanyat de la seva filla, la sommelier Meritxell Falgueras",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcnpadro26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "La població de Barcelona. Lectura del padró municipal d’habitants a 01/01/2026: síntesi de resultats",
+      "url": "https://dades.ajuntament.barcelona.cat/informe-padro-poblacio/ca/seccio_2.html",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona, Departament d'Estadística i Difusió de Dades",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Padró de Barcelona 2026",
+      "stem": "Quants habitants tenia Barcelona segons el padró municipal de 2026?",
+      "options": [
+        "1.729.963",
+        "1.296.300",
+        "2.398.280",
+        "8.210.710"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Padró 2026: la població disminueix lleugerament però és el segon valor més alt dels darrers quaranta anys; l'edat mitjana és de 44,6 anys.",
+      "excerpt": "La població de Barcelona disminueix lleugerament el 2026 i se situa en 1.729.963 persones, el segon valor més elevat dels darrers quaranta anys.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Padró 2026, noms dels nadons",
+      "stem": "Segons el padró de Barcelona de 2026, quins són els noms més triats per als nadons?",
+      "options": [
+        "Júlia (nenes) i Marc (nens)",
+        "Olívia (nenes) i Mateo (nens)",
+        "Sofia (nenes) i Pau (nens)",
+        "Ona (nenes) i Bruno (nens)"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Padró 2026: Olívia, Sofia, Emma, Júlia i Ona per a les nenes; Mateo, Pau, Marc, Pol i Bruno per als nens.",
+      "excerpt": "els noms més triats de nenes són Olívia, Sofia, Emma, Júlia i Ona. Pels nens, els preferits són Mateo, Pau, Marc, Pol i Bruno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Padró 2026, país de naixement",
+      "stem": "Segons el padró de 2026, quin és el país estranger amb més persones nascudes allà que viuen a Barcelona?",
+      "options": [
+        "L'Argentina",
+        "El Marroc",
+        "Itàlia",
+        "La Xina"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Padró 2026: gairebé 50.000 persones nascudes a l'Argentina; a Barcelona hi conviuen fins a 181 nacionalitats.",
+      "excerpt": "Amb gairebé 50 mil persones, Argentina continua sent el país amb més aportació de nascuts a l’estranger.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

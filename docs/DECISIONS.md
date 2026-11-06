@@ -260,3 +260,15 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Motivo:** que cada oposición publicada explique y practique lo que de verdad entra en su examen.
 **Consecuencias:** cultura general y actualidad (Guardia Urbana, policía local), conocimiento de Barcelona, el bloque D de IIPP y las partes de desarrollo no se pueden practicar. La policía local depende de las bases de cada ayuntamiento: la ficha lo dice. Todo el contenido es redacción propia con cita literal de la fuente y lo puede revisar joel desde `/admin`.
 
+## ADR-040 · Lo que no se podía practicar: cultura general, actualidad, Barcelona y conducta humana (2026-11-06)
+
+**Decisión:** joel pidió preparar «algo similar o muy parecido» para lo que ADR-039 dejaba fuera. Preview `57-` a `60-`:
+
+- **Cultura general y actualidad** (Guardia Urbana y policía local, en catalán): temas compartidos `cultcat-01` a `cultcat-09` (historia, geografía, arte, literatura, lengua, ciencias, matemáticas, instituciones y economía) y `actcat-01-actualitat` (40 hechos de los últimos 12 meses con notas de prensa oficiales). Solo fuentes oficiales (Generalitat, IEC, Idescat, Ajuntament, Moncloa, UE, ONU, UNESCO; la Fundación Nobel se anota como excepción). Packs `gub-` y `plcat-cultura-actualitat-2026` con `config.topic_slugs`.
+- **Simulacros completos:** Guardia Urbana, la primera prueba entera (54 + 18 + 18, 105 min, 0-21); policía local, las dos partes de Terrassa (50 + 50, 120 min, 0-24, aprobado 12); las réplicas de Guardia Urbana y Terrassa incluyen ya la parte cultural (la actualidad antigua se cambia por un hecho reciente del mismo tipo).
+- **Conocimiento de Barcelona** (`gub-t39`), Convivència consolidada y Pla d'igualtat: la réplica de 2022 queda completa.
+- **Ayudantes IIPP:** bloque D con los documentos oficiales de la SGIP (Documentos Penitenciarios 16, 17 y 22 y el manual de Módulos de Respeto), simulacro de test con el reparto real 37/31/48/4, supuestos ampliados a 60 con simulacro de 40 (corte 26,67) y réplica de 2026 con las 123 preguntas.
+
+**Motivo:** que el alumno practique todas las partes tipo test de su examen.
+**Consecuencias:** `actcat-01-actualitat` caduca: hay que renovarlo cada trimestre (como `mossos-d`). Las preguntas que sustituyen un concepto sin fuente oficial llevan nota y quedan en borrador. La réplica de 2025 de IIPP queda pendiente porque el cuadernillo oficial es un PDF escaneado.
+

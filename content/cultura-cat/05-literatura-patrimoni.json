@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "set": "cultcat-05-literatura-patrimoni-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 5. Literatura catalana, castellana i universal",
+    "topic_slug": "cultcat-05-literatura",
+    "locale": "ca",
+    "category": "cultcat_05_literatura",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Patrimoni Cultural de la Generalitat de Catalunya: col·leccions (Jacint Verdaguer, Salvador Espriu, Joan Maragall, Josep Pla) i històries del patrimoni",
+      "url": "https://patrimoni.gencat.cat/ca/coleccio/jacint-verdaguer",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya, Departament de Cultura (Patrimoni Cultural)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Tirant lo Blanc, autor",
+      "stem": "Qui és l'autor de la novel·la cavalleresca Tirant lo Blanc?",
+      "options": [
+        "Ramon Llull",
+        "Ausiàs March",
+        "Joanot Martorell",
+        "Bernat Metge"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Tirant lo Blanc és obra del valencià Joanot Martorell (segle XV).",
+      "excerpt": "El protagonista de la novela 'Tirant Lo Blanc', obra del valenciano Joanot Martorell",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Verdaguer, Canigó",
+      "stem": "Qui va escriure els poemes L'Atlàntida (1877) i Canigó (1886)?",
+      "options": [
+        "Joan Maragall",
+        "Àngel Guimerà",
+        "Salvador Espriu",
+        "Jacint Verdaguer"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'Atlàntida i Canigó són dos dels grans poemes de Jacint Verdaguer, figura clau de la Renaixença.",
+      "excerpt": "va ser quan va escriure dos dels seus poemes més importants: L’Atlàntida (1877) i Canigó (1886)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Espriu, Sinera",
+      "stem": "Quin poble és la Sinera mítica de l'obra de Salvador Espriu?",
+      "options": [
+        "Palafrugell",
+        "Folgueroles",
+        "Cadaqués",
+        "Arenys de Mar"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Sinera és Arenys llegit al revés; el poble del Maresme va ser la «petita pàtria» d'Espriu.",
+      "excerpt": "Aquest poble del Maresme va ser la seva “petita pàtria” i apareix mitificat en la seva obra com a Sinera (Arenys al revés).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Josep Pla, Palafrugell",
+      "stem": "De quina població era fill l'escriptor i periodista Josep Pla (1897-1981)?",
+      "options": [
+        "Figueres",
+        "Palafrugell",
+        "Arenys de Mar",
+        "Vic"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Josep Pla era fill d'una família de petits propietaris rurals de Palafrugell (Baix Empordà).",
+      "excerpt": "Fill d’una família de petits propietaris rurals de Palafrugell, va estudiar dret a la Universitat de Barcelona.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Joan Maragall",
+      "stem": "De quin moviment poètic és una de les figures cabdals Joan Maragall?",
+      "options": [
+        "El noucentisme",
+        "El modernisme",
+        "El barroc",
+        "El surrealisme"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Joan Maragall és una figura cabdal de la poesia modernista, tot i que també va cultivar la prosa.",
+      "excerpt": "Joan Maragall és una de les figures cabdals de la poesia modernista, tot i que també va cultivar la prosa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Verdaguer, Folgueroles",
+      "stem": "On va néixer Jacint Verdaguer, fill d'un mestre i pagès modest?",
+      "options": [
+        "A Vic (Osona)",
+        "A Arenys de Mar (Maresme)",
+        "A Folgueroles (Osona)",
+        "A Barcelona"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Verdaguer (1845-1902) era de Folgueroles i va ingressar al seminari de Vic el 1855.",
+      "excerpt": "Fill d’un mestre i pagès modest de Folgueroles (Osona), va ingressar al seminari de Vic el 1855.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tirant lo Blanc, Carmesina",
+      "stem": "De qui s'enamora Tirant lo Blanc en arribar a Constantinoble?",
+      "options": [
+        "De Plaerdemavida, la donzella de la princesa",
+        "De la reina d'Anglaterra",
+        "De la Viuda Reposada",
+        "De la princesa Carmesina, filla de l'emperador"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Tirant s'enamora de Carmesina; la seva donzella Plaerdemavida l'ajuda a conquistar-la.",
+      "excerpt": "Carmesina es hija del emperador, y su doncella Plaerdemavida ayudará a Tirant Lo Blanc a conquistarla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Espriu, La pell de brau",
+      "stem": "Quina obra de Salvador Espriu (1960), al·legoria crítica amb l'Espanya de la postguerra, en va suposar la consagració?",
+      "options": [
+        "Cementiri de Sinera",
+        "Primera història d'Esther",
+        "La pell de brau",
+        "Les cançons d'Ariadna"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La pell de brau (1960) va consagrar Espriu; el seu primer volum de poemes, Cementiri de Sinera, és de 1946.",
+      "excerpt": "La consagració va arribar amb La pell de Brau (1960), una al·legoria crítica amb l'Espanya de la postguerra",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Verdaguer, Jocs Florals",
+      "stem": "Amb quina edat va guanyar Jacint Verdaguer els seus primers Jocs Florals, on va anar a recollir el premi vestit de pagès?",
+      "options": [
+        "Amb 15 anys",
+        "Amb 32 anys",
+        "Amb 20 anys",
+        "Amb 41 anys"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Amb només 20 anys Verdaguer va guanyar els Jocs Florals i va anar a recollir el premi vestit de pagès.",
+      "excerpt": "amb només 20 anys, Jacint Verdaguer (1845 –1902) va guanyar els seus primers Jocs Florals i va anar a recollir el premi vestit de pagès.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcnpapa26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Barcelona acollirà aquest juny la visita del Papa Lleó XIV (29/05/2026)",
+      "url": "https://ajuntament.barcelona.cat/oficina-afers-religiosos/ca/noticies/barcelona-acollira-aquest-juny-la-visita-del-papa-lleo-xiv-1640185",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona, Oficina d'Afers Religiosos",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Visita del papa Lleó XIV",
+      "stem": "Quin papa va visitar Barcelona els dies 9 i 10 de juny de 2026?",
+      "options": [
+        "Francesc",
+        "Benet XVI",
+        "Lleó XIV",
+        "Joan Pau II"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "9-10 de juny de 2026: Lleó XIV va celebrar missa a la Sagrada Família, va visitar Brians 1 i Montserrat; abans havia estat a Madrid i després va anar a les Canàries.",
+      "excerpt": "Barcelona serà una de les principals seus de la visita oficial del Papa Lleó XIV a l’Estat espanyol aquest mes de juny. La capital catalana concentrarà diversos actes institucionals, religiosos i socials els dies 9 i 10 de juny",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Mil·lenari de Montserrat",
+      "stem": "Quina commemoració celebrava l'abadia de Montserrat quan la va visitar el papa el juny de 2026?",
+      "options": [
+        "El mil·lenari del monestir",
+        "Els 500 anys de la basílica",
+        "El centenari de l'Escolania",
+        "Els 150 anys del cremallera"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Juny de 2026: el papa va compartir una pregària amb la comunitat benedictina en la commemoració del mil·lenari del monestir.",
+      "excerpt": "es desplaçarà fins a l’abadia de Montserrat, en la commemoració del mil·lenari del monestir",
+      "excerpt_status": "completo"
+    }
+  ]
+}

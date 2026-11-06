@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "set": "cultcat-09-institucions-economia-ce-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 9. Institucions (Catalunya, Espanya, UE, ONU) i economia bàsica",
+    "topic_slug": "cultcat-09-institucions-economia",
+    "locale": "ca",
+    "category": "cultcat_09_institucions_economia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "CE art. 1.3, forma política",
+      "stem": "Quina és la forma política de l'Estat espanyol segons la Constitució?",
+      "options": [
+        "La monarquia parlamentària",
+        "La república federal",
+        "La monarquia absoluta",
+        "La república presidencialista"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'article 1.3 de la Constitució estableix que la forma política de l'Estat espanyol és la monarquia parlamentària.",
+      "excerpt": "La forma política del Estado español es la Monarquía parlamentaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CE art. 66.1, Corts Generals",
+      "stem": "Quines cambres formen les Corts Generals?",
+      "options": [
+        "El Congrés dels Diputats i el Govern",
+        "El Congrés dels Diputats i el Senat",
+        "El Senat i el Tribunal Constitucional",
+        "El Congrés, el Senat i els parlaments autonòmics"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Les Corts Generals representen el poble espanyol i estan formades pel Congrés i el Senat (art. 66.1 CE).",
+      "excerpt": "Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CE art. 68.1, Congrés",
+      "stem": "Quants diputats pot tenir el Congrés dels Diputats segons la Constitució?",
+      "options": [
+        "Entre 100 i 150",
+        "Exactament 350",
+        "Entre 200 i 300",
+        "Entre 300 i 400"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 68.1 fixa entre 300 i 400 diputats; la llei electoral n'estableix 350.",
+      "excerpt": "El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CE art. 69.1, Senat",
+      "stem": "Com defineix la Constitució el Senat?",
+      "options": [
+        "Com l'òrgan suprem del poder judicial",
+        "Com la cambra de representació territorial",
+        "Com la cambra que elegeix el president del Govern",
+        "Com l'òrgan consultiu del Govern"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El Senat és la cambra de representació territorial; a cada província s'hi elegeixen quatre senadors.",
+      "excerpt": "El Senado es la Cámara de representación territorial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CE art. 159, Tribunal Constitucional",
+      "stem": "Per a quant de temps són designats els 12 membres del Tribunal Constitucional?",
+      "options": [
+        "Per nou anys, i es renoven per terços cada tres anys",
+        "Per sis anys, i es renoven per meitats cada tres anys",
+        "Per quatre anys, coincidint amb la legislatura",
+        "Amb caràcter vitalici"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Els 12 magistrats els nomena el Rei i són designats per nou anys, amb renovació per terceres parts cada tres.",
+      "excerpt": "Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CE art. 137, organització territorial",
+      "stem": "Segons l'article 137 de la Constitució, en quines entitats s'organitza territorialment l'Estat?",
+      "options": [
+        "En municipis, en comarques i en comunitats autònomes",
+        "En províncies, en vegueries i en regions",
+        "Només en comunitats autònomes i municipis",
+        "En municipis, en províncies i en les comunitats autònomes que es constitueixin"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'article 137 enumera municipis, províncies i comunitats autònomes, totes amb autonomia per a la gestió dels seus interessos.",
+      "excerpt": "El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-cultural-nobelhist-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "NobelPrize.org: All Nobel Prizes 2025 i fitxes de premiats (Literature 1956, 1977, 1982, 1989, 2010, 2023-2024; Peace 2023-2024)",
+      "url": "https://www.nobelprize.org/all-nobel-prizes-2025/",
+      "kind": "web_oficial",
+      "publisher": "Nobel Foundation / Nobel Prize Outreach",
+      "published_on": null
+    },
+    "notes": "Rèplica original de la part cultural (cultura general i actualitat) de l'examen oficial publicat: una pregunta pròpia sobre el mateix concepte; les d'actualitat antiga se substitueixen per un fet recent del mateix tipus (s'indica a l'explicació). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "GUB 2022 p. 1 · Nobel de la pau 2025",
+      "stem": "Pels drets democràtics de quin país va rebre María Corina Machado el premi Nobel de la pau 2025?",
+      "options": [
+        "Veneçuela",
+        "Colòmbia",
+        "Cuba",
+        "Nicaragua"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Rèplica de la p. 1 (Nobel de la pau 2021, actualitzat a un premi recent). Octubre de 2025.",
+      "excerpt": "Nobel Peace Prize 2025 Maria Corina Machado “for her tireless work promoting democratic rights for the people of Venezuela",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "GUB 2022 p. 4 · Mort de Vargas Llosa",
+      "stem": "Quin premi Nobel de literatura va morir a Lima el 13 d'abril de 2025?",
+      "options": [
+        "Gabriel García Márquez",
+        "Camilo José Cela",
+        "Gonzalo Celorio",
+        "Mario Vargas Llosa"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Rèplica de la p. 4 (mort d'una figura coneguda; substitueix la de Manolo Santana). Vargas Llosa (Nobel 2010) va morir el 13 d'abril de 2025.",
+      "excerpt": "Mario Vargas Llosa Nobel Prize in Literature 2010 Born: 28 March 1936, Arequipa, Peru Died: 13 April 2025, Lima, Peru",
+      "excerpt_status": "completo",
+      "review_note": "Fet de fa uns 19 mesos (fora dels 12 mesos); es manté perquè no hi ha cap altra mort de figura pública amb font oficial carregada."
+    },
+    {
+      "ref": "GUB 2022 p. 16 · Nobel de literatura 2025",
+      "stem": "De quina nacionalitat és László Krasznahorkai, premi Nobel de literatura 2025?",
+      "options": [
+        "Hongaresa",
+        "Polonesa",
+        "Txeca",
+        "Romanesa"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Rèplica de la p. 16 (figura literària; substitueix la mort d'Almudena Grandes). Octubre de 2025.",
+      "excerpt": "The Nobel Prize in Literature for 2025 is awarded to the Hungarian author László Krasznahorkai",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "GUB 2022 p. 35 · Nobel espanyols de literatura",
+      "stem": "Quin d'aquests poetes espanyols va rebre el premi Nobel de literatura?",
+      "options": [
+        "Federico García Lorca",
+        "Antonio Machado",
+        "Rafael Alberti",
+        "Vicente Aleixandre"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Rèplica de la p. 35 (autor de teatre i poesia del segle XX). Aleixandre va rebre el Nobel el 1977; Lorca, Machado i Alberti no el van rebre.",
+      "excerpt": "Vicente Aleixandre Nobel Prize in Literature 1977",
+      "excerpt_status": "completo"
+    }
+  ]
+}

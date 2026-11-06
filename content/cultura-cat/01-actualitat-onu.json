@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-onu-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "United Nations: About Us, UN Charter, Main Bodies i Selection and Appointment of the Next Secretary-General",
+      "url": "https://www.un.org/en/about-us",
+      "kind": "web_oficial",
+      "publisher": "United Nations",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Selecció del secretari general de l'ONU",
+      "stem": "Quan es va iniciar formalment el procés de selecció del pròxim secretari general de les Nacions Unides, successor d'António Guterres?",
+      "options": [
+        "El 24 d'octubre de 2025, Dia de les Nacions Unides",
+        "L'1 de gener de 2026, amb una resolució del Consell de Seguretat",
+        "El 21 de setembre de 2026, a l'Assemblea General",
+        "El 25 de novembre de 2025, amb una carta conjunta dels presidents de l'Assemblea General i del Consell de Seguretat"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "25 de novembre de 2025: inici formal del procés (Michelle Bachelet, candidata des del 2 de febrer de 2026, es va retirar el 21 de setembre de 2026).",
+      "excerpt": "A joint letter of the President of the General Assembly and the President of the Security Council addressed to Member States, published on 25 November 2025, formally initiated the selection process.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
