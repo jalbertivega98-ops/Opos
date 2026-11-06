@@ -1,8 +1,15 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-06 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
+
+### Ficha completa del alumno (2026-11-06, rama `claude/project-thread-vkx2cm`, ADM-007, ADR-038)
+
+- `/admin/alumnos/[id]`: accesos activos (Premium y packs) con historial, asignar pack o Premium (regalado sin Stripe, se puede quitar), códigos promocionales de Stripe de un uso ligados al alumno, tiempo dentro (hoy/7/30 días y por día), entradas y salidas (Auth, sin IP) y tests/simulacros hechos.
+- Checkout con `allow_promotion_codes`; compras a 0 € con código del 100 % dan acceso.
+- Latido de la zona del alumno (`/api/account/presence`, total diario, 12 meses). Privacidad y exportación actualizadas.
+- Migración `20261106000100_admin_user_insights` copiada en la preview `50-`. Pendiente: que joel lo pruebe y diga «fusiona».
 
 ### Visitas y cuentas (2026-11-05, rama `claude/project-thread-is3q5b`, ADR-037)
 

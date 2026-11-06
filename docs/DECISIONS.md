@@ -232,3 +232,16 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 
 **Motivo:** el contador propio solo cuenta la página de entrada y no las navegaciones internas, y «Activos (7 días)» depende de `last_active_at`, que hoy solo actualizan los simulacros. Vercel da la cifra completa de visitas sin montar nada más, y el registro de auditoría de Auth dice quién ha entrado de verdad cada día, también quien ya tenía la sesión abierta (`last_sign_in_at` solo guarda la última vez).
 **Consecuencias:** «Han entrado» cuenta a cada persona una vez por periodo (o por día en la gráfica), no cada entrada; si algún día se desactiva el registro de auditoría de Auth, esa cifra se quedará en 0. La política de privacidad y la de cookies nombran a Vercel como proveedor de la estadística de visitas sin cookies. El plan gratuito de Vercel tiene un límite mensual de eventos.
+
+## ADR-038 · Ficha completa del alumno: accesos, regalos, códigos promocionales y uso (2026-11-06)
+
+**Decisión:** joel quiere ver en `/admin` la información de cada alumno: qué packs y Premium tiene, asignarle packs, aplicarle códigos promocionales y ver el tiempo que está dentro, entradas y salidas y lo que va haciendo. Todo en la ficha `/admin/alumnos/[id]`, con la migración `20261106000100_admin_user_insights` (preview `50-`):
+
+- **Accesos:** `admin_user_insights()` (SECURITY DEFINER, solo `is_admin`, auditada como `user.insights_viewed`) devuelve suscripciones, concesiones, pedidos, códigos, entradas/salidas, tiempo dentro y tests/simulacros.
+- **Asignar:** un pack usa `admin_grant_access` (ya existía); un Premium por oposición usa `admin_grant_premium()`, que crea una suscripción `provider = 'none'` (así todo lo que ya mira `subscriptions` lo reconoce). `admin_end_premium()` solo termina las regaladas; las de Stripe se cancelan en Stripe.
+- **Códigos promocionales:** desde la ficha se crea en Stripe un cupón (porcentaje o importe; una vez, varios meses o siempre) y un código ligado al cliente de Stripe del alumno, de un solo uso y con caducidad opcional; se apunta en `admin_promo_codes`. El Checkout pasa a `allow_promotion_codes: true` (también sirven los códigos creados en el panel de Stripe) y una compra a 0 € (`no_payment_required`) también da acceso.
+- **Tiempo dentro:** `PresenceBeacon` en la zona del alumno llama cada minuto a `/api/account/presence` → `track_presence()` si la pestaña está visible y hubo actividad en los últimos 5 minutos. Se guarda solo el total diario (`user_presence_daily`), 12 meses, sin páginas, IP ni dispositivo.
+- **Entradas y salidas:** del registro de Auth (`login`, `logout`, registro, recuperación…), sin IP.
+
+**Motivo:** reutilizar lo que ya existe (concesiones, suscripciones, registro de Auth, sesiones de práctica) y medir solo lo mínimo para dar soporte y regalos (RGPD: minimización, interés legítimo informado en la política de privacidad, incluido en la exportación de datos y borrado con la cuenta).
+**Consecuencias:** con Stripe en modo real, los códigos creados desde la ficha son descuentos reales. La salida no siempre aparece (cerrar la pestaña no es «Salir»). El tiempo es aproximado (minutos de uso, no de estudio; el tiempo respondiendo sale de `practice_sessions.total_time_ms`).

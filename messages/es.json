@@ -547,7 +547,132 @@
     },
     "overviewLink": "Resumen",
     "yesShort": "Sí",
-    "noShort": "No"
+    "noShort": "No",
+    "insights": {
+      "accessTitle": "Accesos activos",
+      "noAccess": "No tiene Premium ni packs de pago activos (solo lo gratuito).",
+      "premium": "Premium",
+      "providers": {
+        "none": "Regalado",
+        "stripe_test": "Stripe (pruebas)",
+        "stripe": "Stripe"
+      },
+      "sources": {
+        "purchase": "Comprado",
+        "subscription": "Suscripción",
+        "admin": "Asignado a mano",
+        "free": "Gratis"
+      },
+      "attempts": "{count} intentos",
+      "since": "Desde {date}",
+      "endsOn": "Termina el {date}",
+      "renewsOn": "Se renueva el {date}",
+      "noEnd": "Sin fecha de fin",
+      "endPremium": "Quitar Premium",
+      "stripeManaged": "Se gestiona en Stripe",
+      "revoke": "Retirar",
+      "historyTitle": "Historial de compras y accesos",
+      "noHistory": "Sin pedidos ni accesos anteriores.",
+      "orderStatus": {
+        "pending": "Pendiente",
+        "paid": "Pagado",
+        "failed": "Fallido",
+        "refunded": "Reembolsado",
+        "cancelled": "Cancelado"
+      },
+      "subStatus": {
+        "trialing": "Prueba",
+        "active": "Activa",
+        "past_due": "Pago pendiente",
+        "canceled": "Cancelada",
+        "expired": "Caducada"
+      },
+      "grantStatus": {
+        "active": "Activo",
+        "expired": "Caducado",
+        "revoked": "Retirado"
+      },
+      "grantTitle": "Asignar un pack o Premium",
+      "product": "Producto",
+      "choose": "Elige un producto",
+      "premiumGroup": "Premium por oposición",
+      "packsGroup": "Packs y simulacros",
+      "days": "Días",
+      "daysPlaceholder": "Sin límite",
+      "note": "Nota interna",
+      "notePlaceholder": "Ej.: regalo por sorteo de Instagram",
+      "grantHelp": "No se cobra nada. Un Premium asignado a mano no pasa por Stripe y lo puedes quitar cuando quieras. Queda registrado en la auditoría.",
+      "grant": "Asignar",
+      "granted": "Acceso asignado.",
+      "invalid": "Revisa los datos del formulario.",
+      "timeTitle": "Tiempo dentro",
+      "today": "Hoy",
+      "last7": "7 días",
+      "last30": "30 días",
+      "noTime": "Aún no hay tiempo registrado.",
+      "timeHelp": "Minutos con la zona del alumno abierta y en uso (pestaña visible y actividad en los últimos 5 minutos). Se guarda solo el total por día, 12 meses.",
+      "sessionsTitle": "Entradas y salidas",
+      "noSessions": "Sin registros de entrada.",
+      "sessionsHelp": "Según el registro de Supabase Auth. Muchas personas cierran la pestaña sin «Salir», así que no siempre hay salida. No se muestra la IP.",
+      "authActions": {
+        "login": "Entra",
+        "logout": "Sale",
+        "user_signedup": "Se registra",
+        "user_confirmation_requested": "Pide confirmar el correo",
+        "user_recovery_requested": "Pide cambiar la contraseña",
+        "user_updated_password": "Cambia la contraseña"
+      },
+      "studyTitle": "Tests y simulacros",
+      "tests": "Tests hechos",
+      "mocks": "Simulacros",
+      "answered": "Respuestas",
+      "answerTime": "Tiempo respondiendo",
+      "noStudy": "Todavía no ha hecho ningún test.",
+      "studyKinds": {
+        "psycho": "Psicotécnico",
+        "questions": "Test",
+        "mock": "Simulacro",
+        "review": "Repaso"
+      },
+      "mark": "nota {mark} de {max}",
+      "score": "{correct}/{total} aciertos",
+      "inProgress": "a medias"
+    },
+    "promo": {
+      "title": "Códigos promocionales",
+      "code": "Código",
+      "kind": "Tipo de descuento",
+      "kinds": {
+        "percent": "Porcentaje",
+        "amount": "Importe fijo"
+      },
+      "valuePercent": "Descuento (%)",
+      "valueAmount": "Descuento (€)",
+      "duration": "En suscripciones, se aplica",
+      "durations": {
+        "once": "Una vez",
+        "repeating": "Varios meses",
+        "forever": "Siempre"
+      },
+      "months": "Meses",
+      "expiresDays": "Caduca en (días)",
+      "expiresPlaceholder": "Sin caducidad",
+      "note": "Nota interna",
+      "help": "Se crea en Stripe y solo lo puede usar este alumno, una vez. Pásale el código: lo escribe en la página de pago («Añadir código promocional»). En packs se aplica a la compra; en Premium, según lo que elijas arriba.",
+      "liveWarning": "Stripe está en modo real: el descuento se aplicará a un cobro de verdad.",
+      "create": "Crear código",
+      "created": "Código creado en Stripe. Ya se lo puedes enviar.",
+      "expires": "Caduca el {date}",
+      "errors": {
+        "code": "El código solo admite letras, cifras y guiones (3 a 40).",
+        "value": "El descuento no es válido (porcentaje hasta 100, importe hasta 1.000 €).",
+        "months": "Indica durante cuántos meses.",
+        "billingOff": "Los pagos no están activos en este entorno: no se pueden crear códigos.",
+        "taken": "Ese código ya existe en Stripe. Elige otro.",
+        "stripe": "Stripe no ha podido crear el código. Inténtalo de nuevo.",
+        "record": "El código se creó en Stripe, pero no se pudo apuntar en la ficha."
+      }
+    }
   },
   "psycho": {
     "title": "Psicotécnicos",

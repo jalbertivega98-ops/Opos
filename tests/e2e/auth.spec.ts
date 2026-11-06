@@ -194,6 +194,56 @@ test.describe("Administración de alumnos", () => {
     await studentCtx.close();
   });
 
+  test("ficha: accesos, regalar Premium, tiempo dentro y entradas", async ({ page, browser }) => {
+    const adminEmail = newEmail("adm360");
+    const studentEmail = newEmail("alu360");
+    const studentCtx = await browser.newContext();
+    const sp = await studentCtx.newPage();
+    await signUp(sp, studentEmail, "Nuria");
+    await confirmEmail(sp, studentEmail);
+    await sp.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
+    await sp.getByText("Crear un hábito de estudio").click();
+    await sp.getByRole("button", { name: "Generar mi plan" }).click();
+    await expect(sp).toHaveURL(/\/app\?welcome=1/);
+    // la zona del alumno avisa de que está dentro (latido)
+    await sp.mouse.move(10, 10);
+    await expect
+      .poll(async () => (await sp.request.post("/api/account/presence")).status())
+      .toBe(204);
+
+    await signUp(page, adminEmail, "Admin");
+    await confirmEmail(page, adminEmail);
+    grantRole(adminEmail, "admin");
+    await page.goto(`/admin/alumnos?q=${encodeURIComponent(studentEmail)}`);
+    await page.getByRole("link", { name: studentEmail }).click();
+
+    await expect(page.getByTestId("user-access")).toContainText("No tiene Premium");
+    await expect(page.getByTestId("user-presence")).toContainText("Tiempo dentro");
+    await expect(page.getByTestId("user-presence").getByText("Hoy")).toBeVisible();
+    await expect(page.getByTestId("user-presence")).not.toContainText("Aún no hay tiempo");
+    await expect(page.getByTestId("user-sessions")).toContainText("Entra");
+    await expect(page.getByTestId("user-study")).toContainText("Tests hechos");
+
+    // Premium regalado de 30 días
+    const form = page.getByTestId("user-grant-form");
+    const premium = form.locator("optgroup").first().locator("option").first();
+    const premiumTitle = (await premium.textContent())!.trim();
+    await form.getByLabel("Producto").selectOption({ label: premiumTitle });
+    await form.getByLabel("Días").fill("30");
+    await form.getByLabel("Nota interna").fill("Regalo e2e");
+    await form.getByRole("button", { name: "Asignar" }).click();
+    await expect(page.getByText("Acceso asignado.")).toBeVisible();
+    await expect(page.getByTestId("user-access")).toContainText(premiumTitle);
+    await expect(page.getByTestId("user-access")).toContainText("Regalado");
+    if (process.env.SHOT_DIR)
+      await page.screenshot({ path: `${process.env.SHOT_DIR}/ficha-alumno.png`, fullPage: true });
+
+    // y se puede quitar
+    await page.getByRole("button", { name: "Quitar Premium" }).click();
+    await expect(page.getByTestId("user-access")).toContainText("No tiene Premium");
+    await studentCtx.close();
+  });
+
   test("un alumno no puede exportar CSV", async ({ page }) => {
     const email = newEmail("nocsv");
     await signUp(page, email);
