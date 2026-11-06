@@ -547,7 +547,132 @@
     },
     "overviewLink": "Resum",
     "yesShort": "Sí",
-    "noShort": "No"
+    "noShort": "No",
+    "insights": {
+      "accessTitle": "Accessos actius",
+      "noAccess": "No té Premium ni packs de pagament actius (només el gratuït).",
+      "premium": "Premium",
+      "providers": {
+        "none": "Regalat",
+        "stripe_test": "Stripe (proves)",
+        "stripe": "Stripe"
+      },
+      "sources": {
+        "purchase": "Comprat",
+        "subscription": "Subscripció",
+        "admin": "Assignat a mà",
+        "free": "Gratis"
+      },
+      "attempts": "{count} intents",
+      "since": "Des del {date}",
+      "endsOn": "Acaba el {date}",
+      "renewsOn": "Es renova el {date}",
+      "noEnd": "Sense data de fi",
+      "endPremium": "Treure Premium",
+      "stripeManaged": "Es gestiona a Stripe",
+      "revoke": "Retirar",
+      "historyTitle": "Historial de compres i accessos",
+      "noHistory": "Sense comandes ni accessos anteriors.",
+      "orderStatus": {
+        "pending": "Pendent",
+        "paid": "Pagat",
+        "failed": "Fallit",
+        "refunded": "Reemborsat",
+        "cancelled": "Cancel·lat"
+      },
+      "subStatus": {
+        "trialing": "Prova",
+        "active": "Activa",
+        "past_due": "Pagament pendent",
+        "canceled": "Cancel·lada",
+        "expired": "Caducada"
+      },
+      "grantStatus": {
+        "active": "Actiu",
+        "expired": "Caducat",
+        "revoked": "Retirat"
+      },
+      "grantTitle": "Assignar un pack o Premium",
+      "product": "Producte",
+      "choose": "Tria un producte",
+      "premiumGroup": "Premium per oposició",
+      "packsGroup": "Packs i simulacres",
+      "days": "Dies",
+      "daysPlaceholder": "Sense límit",
+      "note": "Nota interna",
+      "notePlaceholder": "Ex.: regal per sorteig d'Instagram",
+      "grantHelp": "No es cobra res. Un Premium assignat a mà no passa per Stripe i el pots treure quan vulguis. Queda registrat a l'auditoria.",
+      "grant": "Assignar",
+      "granted": "Accés assignat.",
+      "invalid": "Revisa les dades del formulari.",
+      "timeTitle": "Temps dins",
+      "today": "Avui",
+      "last7": "7 dies",
+      "last30": "30 dies",
+      "noTime": "Encara no hi ha temps registrat.",
+      "timeHelp": "Minuts amb la zona de l'alumne oberta i en ús (pestanya visible i activitat en els últims 5 minuts). Només es desa el total per dia, 12 mesos.",
+      "sessionsTitle": "Entrades i sortides",
+      "noSessions": "Sense registres d'entrada.",
+      "sessionsHelp": "Segons el registre de Supabase Auth. Molta gent tanca la pestanya sense «Sortir», així que no sempre hi ha sortida. No es mostra la IP.",
+      "authActions": {
+        "login": "Entra",
+        "logout": "Surt",
+        "user_signedup": "Es registra",
+        "user_confirmation_requested": "Demana confirmar el correu",
+        "user_recovery_requested": "Demana canviar la contrasenya",
+        "user_updated_password": "Canvia la contrasenya"
+      },
+      "studyTitle": "Tests i simulacres",
+      "tests": "Tests fets",
+      "mocks": "Simulacres",
+      "answered": "Respostes",
+      "answerTime": "Temps responent",
+      "noStudy": "Encara no ha fet cap test.",
+      "studyKinds": {
+        "psycho": "Psicotècnic",
+        "questions": "Test",
+        "mock": "Simulacre",
+        "review": "Repàs"
+      },
+      "mark": "nota {mark} de {max}",
+      "score": "{correct}/{total} encerts",
+      "inProgress": "a mitges"
+    },
+    "promo": {
+      "title": "Codis promocionals",
+      "code": "Codi",
+      "kind": "Tipus de descompte",
+      "kinds": {
+        "percent": "Percentatge",
+        "amount": "Import fix"
+      },
+      "valuePercent": "Descompte (%)",
+      "valueAmount": "Descompte (€)",
+      "duration": "En subscripcions, s'aplica",
+      "durations": {
+        "once": "Una vegada",
+        "repeating": "Uns quants mesos",
+        "forever": "Sempre"
+      },
+      "months": "Mesos",
+      "expiresDays": "Caduca en (dies)",
+      "expiresPlaceholder": "Sense caducitat",
+      "note": "Nota interna",
+      "help": "Es crea a Stripe i només el pot fer servir aquest alumne, una vegada. Passa-li el codi: l'escriu a la pàgina de pagament («Afegeix un codi promocional»). En packs s'aplica a la compra; en Premium, segons el que triïs a dalt.",
+      "liveWarning": "Stripe està en mode real: el descompte s'aplicarà a un cobrament de debò.",
+      "create": "Crear codi",
+      "created": "Codi creat a Stripe. Ja l'hi pots enviar.",
+      "expires": "Caduca el {date}",
+      "errors": {
+        "code": "El codi només admet lletres, xifres i guions (3 a 40).",
+        "value": "El descompte no és vàlid (percentatge fins a 100, import fins a 1.000 €).",
+        "months": "Indica durant quants mesos.",
+        "billingOff": "Els pagaments no estan actius en aquest entorn: no es poden crear codis.",
+        "taken": "Aquest codi ja existeix a Stripe. Tria'n un altre.",
+        "stripe": "Stripe no ha pogut crear el codi. Torna-ho a provar.",
+        "record": "El codi s'ha creat a Stripe, però no s'ha pogut apuntar a la fitxa."
+      }
+    }
   },
   "psycho": {
     "title": "Psicotècnics",
@@ -1344,10 +1469,10 @@
       "new": "Nou",
       "weak": "Reforçar"
     },
-    "taskPsycho": "{count, plural, one {# sessió} other {# sessions}} de psicotècnics",
+    "taskPsycho": "Pràctica de psicotècnics: {count, plural, one {# sessió} other {# sessions}} d'uns 15 min",
     "taskMock": {
-      "knowledge": "{count, plural, one {# simulacre} other {# simulacres}} de coneixements",
-      "psycho": "{count, plural, one {# simulacre} other {# simulacres}} de psicotècnics"
+      "knowledge": "{count, plural, one {# simulacre} other {# simulacres}} de coneixements amb el temps de l'examen",
+      "psycho": "{count, plural, one {# simulacre} other {# simulacres}} de psicotècnics amb el temps de l'examen"
     },
     "covered": "{covered} de {total} temes dominats",
     "split": "Repartiment setmanal: {syllabus} min de temari · {psycho} min de psicotècnics · {mocks} min de simulacres",
@@ -1380,8 +1505,11 @@
       }
     },
     "emptyNoContent": "La teva oposició encara no té temari publicat. El pla apareixerà quan en tingui.",
-    "premium": "Premium",
-    "lockedNote": "El que té cadenat forma part de la preparació de pagament (Premium o pack).",
+    "premium": "Premium o pack",
+    "free": "Gratis",
+    "legend": "Les xifres són el que toca aquesta setmana. Una sessió de psicotècnics és pràctica lliure i gratuïta (uns 15 min, al teu ritme). Un simulacre és l'examen complet amb el temps oficial: va inclòs a Premium o gasta un intent d'un pack de 10.",
+    "legendNoPsycho": "Les xifres són el que toca aquesta setmana. Un simulacre és l'examen complet amb el temps oficial: va inclòs a Premium o gasta un intent d'un pack de 10.",
+    "lockedNote": "El que té cadenat és de pagament: s'obre amb el Premium de la teva oposició (tot inclòs) o amb un pack de 10 simulacres.",
     "lockedCta": "Veure què inclou",
     "readNote": "Fitxa",
     "startTest": "Comença el test",
@@ -1475,7 +1603,7 @@
   "seo": {
     "home": {
       "title": "OPOSAPRUEBA · Tests d'oposicions, temari i psicotècnics en línia",
-      "description": "Prepara Mossos d'Esquadra i Auxiliar Administratiu de l'Estat amb tests de temari basats en fonts oficials, psicotècnics gratis i simulacres amb el format de l'examen."
+      "description": "Prepara Mossos d'Esquadra, Policia Nacional, Guàrdia Civil, Auxiliar de l'Estat i més oposicions amb tests de temari basats en fonts oficials, psicotècnics gratis i simulacres amb el format de l'examen."
     },
     "catalog": {
       "title": "Catàleg d'oposicions: tests, temari i psicotècnics",

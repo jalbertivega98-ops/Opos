@@ -45,3 +45,34 @@ describe("packs de intentos agotados", () => {
     expect(taskUnlocked(mock, access)).toBe(false);
   });
 });
+
+describe("simulacros del plan por tipo", () => {
+  const psychoMock = { kind: "mock", mock: "psycho", count: 1 } as const;
+
+  it("el pack de psicotécnicos abre solo el simulacro de psicotécnicos", () => {
+    const access = planAccess(
+      [
+        item({ type: "bundle", slug: "mossos-10-psicotecnicos", attempts_left: 10 }),
+        item({ type: "mock_exam", product_id: "apt", source: "bundle" }),
+      ],
+      [],
+      new Map([["apt", "psycho"]]),
+    );
+    expect(taskUnlocked(psychoMock, access)).toBe(true);
+    expect(taskUnlocked(mock, access)).toBe(false);
+  });
+
+  it("el pack de simulacros abre solo los de conocimientos", () => {
+    const access = planAccess([
+      item({ type: "bundle", slug: "mossos-10-simulacros", attempts_left: 10 }),
+    ]);
+    expect(taskUnlocked(mock, access)).toBe(true);
+    expect(taskUnlocked(psychoMock, access)).toBe(false);
+  });
+
+  it("Premium abre los dos", () => {
+    const access = planAccess([item({ type: "bundle", source: "subscription" })]);
+    expect(taskUnlocked(mock, access)).toBe(true);
+    expect(taskUnlocked(psychoMock, access)).toBe(true);
+  });
+});

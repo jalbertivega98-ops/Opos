@@ -1,7 +1,7 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
 import { buildWeekPlan, type PlanLevel, type TopicProgress } from "./plan";
-import { examHasPsycho } from "@/lib/catalog/exam-format";
+import { examHasPsycho, examHasPsychoMock } from "@/lib/catalog/exam-format";
 import { freeTopicSlugs } from "@/lib/store/queries";
 
 export type PlanSettings = {
@@ -78,6 +78,7 @@ export async function getMyPlan() {
     topics: ordered.map(({ slug, title }) => ({ slug, title })),
     progress,
     psycho: examHasPsycho(settings.examSlug),
+    psychoMock: examHasPsychoMock(settings.examSlug),
   });
   return { reason: null, settings, plan, topics, freeTopics, openTopics, noteTopics };
 }

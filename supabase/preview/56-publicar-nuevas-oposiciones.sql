@@ -5,7 +5,7 @@
 -- * Las preguntas DUDOSAS (con nota de revisión) NO se publican: quedan en borrador.
 -- * Los simulacros réplica sacan TODAS las preguntas publicadas de su examen (los cortes se ajustan en proporción).
 -- * Premium de cada oposición, 3 temas gratis y pack de 10 simulacros, como el resto (ADR-035).
--- Idempotente. Requiere 50- a 54-. Equivale a «Aprobar lote» + «Publicar» como titular.
+-- Idempotente. Requiere 51- a 55-. Equivale a «Aprobar lote» + «Publicar» como titular.
 begin;
 
 do $$

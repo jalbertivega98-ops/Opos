@@ -1,8 +1,8 @@
 -- Cuatro oposiciones nuevas (06/11/2026): Guardia Urbana de Barcelona, policía local de Cataluña, Bombers de la
 -- Generalitat y Ayudantes de Instituciones Penitenciarias. Packs de test por tema, simulacro con el formato real
 -- (config.quotas, migración 20261105000100_mock_quotas, preview 42a-) y un simulacro por cada examen réplica.
--- Todo en BORRADOR: se configura y publica con 55-. Idempotente. Requiere 50- a 53-.
--- Fuentes y formato de cada examen: /mnt/project-files/aprobia/fuentes-oficiales/<carpeta>/INFORME.md y ADR-038.
+-- Todo en BORRADOR: se configura y publica con 56-. Idempotente. Requiere 51- a 54-.
+-- Fuentes y formato de cada examen: /mnt/project-files/aprobia/fuentes-oficiales/<carpeta>/INFORME.md y ADR-039.
 -- Psicotécnico: Guardia Urbana y policía local lo tienen (examHasPsycho); Bombers (evaluación psicológica, sin
 -- razonamiento puntuable) y Ayudantes IIPP no.
 begin;

@@ -1,14 +1,21 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-05 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-06 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
 
-### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-038)
+### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-039)
 
-- Guardia Urbana de Barcelona (889 preguntas), policía local de Cataluña (620), Bombers de la Generalitat (700) y Ayudantes IIPP (1.124), con fichas, réplicas de los exámenes publicados y simulacros con el formato real. Preview `50-` a `55-`; dudosas en borrador.
+- Guardia Urbana de Barcelona (889 preguntas), policía local de Cataluña (620), Bombers de la Generalitat (700) y Ayudantes IIPP (1.124), con fichas, réplicas de los exámenes publicados y simulacros con el formato real. Preview `51-` a `56-`; dudosas en borrador.
 - Guías del examen en `src/lib/seo/exam-guides.ts`; psicotécnicos solo en Guardia Urbana y policía local. Fuentes e informes en `/mnt/project-files/aprobia/fuentes-oficiales/{guardia-urbana-bcn,policia-local-cat,bombers,ayudantes-iipp}/`.
 - Pendiente: que joel diga «fusiona».
+
+### Ficha completa del alumno (2026-11-06, rama `claude/project-thread-vkx2cm`, ADM-007, ADR-038)
+
+- `/admin/alumnos/[id]`: accesos activos (Premium y packs) con historial, asignar pack o Premium (regalado sin Stripe, se puede quitar), códigos promocionales de Stripe de un uso ligados al alumno, tiempo dentro (hoy/7/30 días y por día), entradas y salidas (Auth, sin IP) y tests/simulacros hechos.
+- Checkout con `allow_promotion_codes`; compras a 0 € con código del 100 % dan acceso.
+- Latido de la zona del alumno (`/api/account/presence`, total diario, 12 meses). Privacidad y exportación actualizadas.
+- Migración `20261106000100_admin_user_insights` copiada en la preview `50-`. Pendiente: que joel lo pruebe y diga «fusiona».
 
 ### Visitas y cuentas (2026-11-05, rama `claude/project-thread-is3q5b`, ADR-037)
 

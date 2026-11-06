@@ -187,6 +187,11 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
           resultados y progreso.
         </li>
         <li>
+          <strong>Uso de la plataforma:</strong> cuándo entras y sales de tu cuenta y cuántos
+          minutos al día tienes abierta la zona del alumno (solo el total diario, sin registrar qué
+          páginas ves). Lo guardamos 12 meses.
+        </li>
+        <li>
           <strong>Compras:</strong> qué compraste, importe y estado del pago o de la suscripción.
           Los datos de la tarjeta los trata solo Stripe.
         </li>
@@ -202,6 +207,10 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
         <li>Cobrar, facturar y cumplir obligaciones contables y fiscales: obligación legal.</li>
         <li>Avisos sobre las oposiciones que sigues: tu consentimiento, que puedes retirar.</li>
         <li>Seguridad y prevención del fraude: interés legítimo.</li>
+        <li>
+          Atenderte cuando nos escribes, gestionar accesos y descuentos y mejorar el servicio con el
+          uso de la plataforma: interés legítimo. Puedes oponerte escribiéndonos.
+        </li>
       </ul>
       <H2>Cuánto tiempo los guardamos</H2>
       <p>
