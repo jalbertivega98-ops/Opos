@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man11-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.005 Manual operatiu bàsic d'electricitat (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 64) · MAN.GRAL.005",
+      "stem": "Connectes un escalfador de resistència 46 Ω a la xarxa domèstica europea (230 V entre fase i neutre). Quina intensitat hi circularà?",
+      "options": [
+        "0,2 A.",
+        "10.580 A.",
+        "5 A.",
+        "50 A."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Per la llei d'Ohm, I = V / R = 230 / 46 = 5 A.",
+      "excerpt": "A Europa la tensió eficaç entre fase i neutre és de 230 V. […] Llei d’Ohm La Llei d'Ohm relaciona la tensió, la intensitat i la resistència en un circuit elèctric.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 61) · MAN.GRAL.005",
+      "stem": "Quin desfasament hi ha entre els tres corrents d'un sistema trifàsic?",
+      "options": [
+        "90°.",
+        "180°.",
+        "120°.",
+        "60°."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El sistema trifàsic es basa en tres corrents alterns desfasats 120° entre si.",
+      "excerpt": "Es basa en tres corrents alterns desfasats entre sí 120°.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 21) · MAN.GRAL.005",
+      "stem": "Quin llindar d'intensitat (a 50 Hz) es considera crític per al risc de fibril·lació ventricular?",
+      "options": [
+        "300 mA.",
+        "3 mA.",
+        "30 A.",
+        "30 mA."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Per això els diferencials d'habitatge són de 30 mA.",
+      "excerpt": "S'ha establert el llindar crític de 30 mA (a 50 Hz)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

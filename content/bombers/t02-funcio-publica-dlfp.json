@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "bomb-t02-funcio-publica-dlfp-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 2. La funció pública de la Generalitat: drets i deures, situacions, provisió, incompatibilitats i règim disciplinari",
+    "topic_slug": "bomb-t02-funcio-publica",
+    "locale": "ca",
+    "category": "bomb_t02_funcio_publica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Decreto Legislativo 1/1997, de 31 de octubre, texto único de los preceptos vigentes en Cataluña en materia de función pública (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=DOGC-f-1997-90001",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 84 DL 1/1997",
+      "stem": "Quina de les situacions següents és pròpia de la normativa de la Generalitat (DL 1/1997) i no apareix a la llista bàsica de l'article 85.1 del TREBEP?",
+      "options": [
+        "El servei actiu.",
+        "L'expectativa de destinació.",
+        "Els serveis especials.",
+        "La suspensió."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 84 del DL 1/1997 inclou, a més de les situacions bàsiques, l'excedència forçosa, l'excedència voluntària incentivada i l'expectativa de destinació.",
+      "excerpt": "Los funcionarios de la Generalidad podrán hallarse: […] f) En excedencia forzosa. […] g) En excedencia voluntaria incentivada. […] h) En expectativa de destino.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 61 DL 1/1997",
+      "stem": "Segons el DL 1/1997, per quins sistemes es proveeixen els llocs de treball reservats a funcionaris?",
+      "options": [
+        "Per concurs o per lliure designació, d'acord amb les relacions de llocs de treball.",
+        "Per oposició lliure.",
+        "Per concurs oposició i per sorteig.",
+        "Per lliure designació exclusivament."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 61 del DL 1/1997 preveu el concurs i la lliure designació com a sistemes de provisió.",
+      "excerpt": "Los puestos de trabajo reservados a funcionarios se proveerán por los sistemas de concurso o de libre designación, de acuerdo con lo que se establezca en las correspondientes relaciones de puestos de trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 121 DL 1/1997",
+      "stem": "Quins terminis de prescripció de les faltes fixa l'article 121 del DL 1/1997 de la funció pública catalana?",
+      "options": [
+        "Tres anys les molt greus, dos anys les greus i sis mesos les lleus.",
+        "Quatre anys les molt greus, dos anys les greus i un mes les lleus.",
+        "Sis anys les molt greus, dos anys les greus i dos mesos les lleus.",
+        "Cinc anys les molt greus, tres anys les greus i un any les lleus."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El text refós català fixa terminis propis, diferents dels de l'art. 97 TREBEP.",
+      "excerpt": "Las faltas muy graves prescriben a los seis años, las graves a los dos años y las leves a los dos meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 119 DL 1/1997",
+      "stem": "Segons el DL 1/1997, per quina mena de faltes es pot imposar la suspensió de funcions de més de quinze dies i fins a un any?",
+      "options": [
+        "Només per faltes lleus.",
+        "Només per faltes greus.",
+        "Per faltes molt greus i greus indistintament.",
+        "Només per faltes molt greus."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La suspensió de més d'un any i menys de sis és per a faltes molt greus; la de fins a quinze dies, per a faltes lleus (art. 119.2, 119.4 i 119.5).",
+      "excerpt": "El traslado de puesto de trabajo dentro de la misma localidad y la suspensión de funciones por más de quince días y hasta un año sólo pueden imponerse por faltas graves.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-cmb-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 22/1998, de 30 de diciembre, de la Carta Municipal de Barcelona (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-2518",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 135",
+      "stem": "(Rèplica 2025, núm. 9) Segons l'article 135 de la Carta municipal de Barcelona, quina d'aquestes és una funció de la Guàrdia Urbana?",
+      "options": [
+        "Instruir sumaris penals",
+        "Expedir permisos de conducció",
+        "Instruir atestats per accidents de circulació dins del terme municipal",
+        "Vigilar les fronteres"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La Carta municipal atribueix a la GUB, entre d'altres, la instrucció d'atestats per accidents de circulació al terme municipal.",
+      "excerpt": "c)\tInstruir atestados por accidentes de circulación dentro del término municipal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 135",
+      "stem": "(Rèplica 2025, núm. 10) Segons l'article 135 de la Carta municipal de Barcelona, en el marc de quin òrgan efectua la Guàrdia Urbana diligències de prevenció per evitar actes delictius?",
+      "options": [
+        "El Consell Municipal",
+        "La Junta Local de Seguretat",
+        "La Comissió de Govern",
+        "El Consell de Seguretat de Catalunya"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Les diligències de prevenció es fan en el marc de col·laboració establert a la Junta Local de Seguretat.",
+      "excerpt": "en el marco de colaboración establecido en la Junta Local de Seguridad",
+      "excerpt_status": "completo"
+    }
+  ]
+}

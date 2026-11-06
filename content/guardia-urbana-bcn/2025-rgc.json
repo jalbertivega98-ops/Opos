@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-rgc-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 1428/2003, de 21 de noviembre, Reglamento General de Circulación (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 80",
+      "stem": "(Rèplica 2025, núm. 40) Segons el Reglament general de circulació, quin recorregut màxim pot tenir la marxa enrere com a maniobra complementària de la parada o l'estacionament?",
+      "options": [
+        "10 metres",
+        "20 metres",
+        "5 metres",
+        "15 metres"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El recorregut cap enrere no pot superar 15 metres ni envair un encreuament.",
+      "excerpt": "no podrá ser superior a 15 metros ni invadir un cruce de vías",
+      "excerpt_status": "completo",
+      "review_note": "L'examen atribuïa la qüestió al RDL 6/2015; el límit de 15 metres consta a l'article 80 del Reglament general de circulació."
+    },
+    {
+      "ref": "Art. 133",
+      "stem": "(Rèplica 2025, núm. 41) Quin és el primer element en l'ordre de preferència dels senyals de circulació?",
+      "options": [
+        "Els semàfors",
+        "Els senyals verticals",
+        "Els senyals i ordres dels agents de l'autoritat encarregats de la vigilància del trànsit",
+        "Les marques vials"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'ordre és agents, senyalització circumstancial, semàfors, senyals verticals i marques vials.",
+      "excerpt": "a) Señales y órdenes de los agentes de la autoridad encargados de la vigilancia del tráfico en el ejercicio de las funciones que tengan encomendadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20",
+      "stem": "(Rèplica 2025, núm. 44) Segons l'article 20 del Reglament general de circulació, quina és la taxa general màxima d'alcohol en sang?",
+      "options": [
+        "0,3 grams per litre",
+        "0,25 grams per litre",
+        "0,8 grams per litre",
+        "0,5 grams per litre"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La taxa general és 0,5 g/l en sang o 0,25 mg/l en aire espirat.",
+      "excerpt": "con una tasa de alcohol en sangre superior a 0,5 gramos por litro, o de alcohol en aire espirado superior a 0,25 miligramos por litro",
+      "excerpt_status": "completo"
+    }
+  ]
+}

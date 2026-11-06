@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-ord_circ-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ordenança de circulació de vianants i de vehicles de Barcelona (text consolidat vigent, Norma. Portal Jurídic de Barcelona). Extracte literal",
+      "url": "https://ajuntament.barcelona.cat/norma-portal-juridic/ca/vid/840951923",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Norma. Portal Jurídic de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 11",
+      "stem": "(Rèplica 2025, núm. 18) Segons l'article 11 de l'Ordenança de circulació de Barcelona, quina velocitat màxima hi ha, llevat de senyalització específica, als carrers de plataforma única de calçada i vorera?",
+      "options": [
+        "10 km/h",
+        "30 km/h",
+        "40 km/h",
+        "20 km/h"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Als carrers de plataforma única el límit és de 20 km/h.",
+      "excerpt": "els vehicles no poden circular a més de 20 km/h, excepte senyalització específica",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "VMP",
+      "stem": "(Rèplica 2025, núm. 19) Segons l'Ordenança de circulació de Barcelona, quina afirmació sobre els vehicles de mobilitat personal és correcta?",
+      "options": [
+        "L'edat mínima per circular-hi és de 14 anys",
+        "No es pot circular amb auriculars connectats a aparells de so",
+        "Poden circular per les voreres a menys de 10 km/h",
+        "El casc només és obligatori per als menors"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Les condicions generals prohibeixen els auriculars, fixen l'edat mínima en 16 anys, prohibeixen les voreres i obliguen tothom a dur casc.",
+      "excerpt": "No es permès circular amb auriculars o cascs connectats a aparells receptors o reproductors de so.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

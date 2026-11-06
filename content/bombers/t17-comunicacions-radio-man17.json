@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t17-comunicacions-radio-man17-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 17. Comunicacions per ràdio",
+    "topic_slug": "bomb-t17-comunicacions-radio",
+    "locale": "ca",
+    "category": "bomb_t17_comunicacions_radio",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.COMU.000 Comunicacions per ràdio (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.COMU.000, § característiques del missatge",
+      "stem": "Segons el manual de comunicacions per ràdio, un missatge breu és el que:",
+      "options": [
+        "Segueix una pauta coneguda per l'emissor i el receptor.",
+        "Utilitza el mínim de paraules per transmetre el màxim d'informació útil.",
+        "Transmet exactament el que es vol dir amb dades concretes.",
+        "Rep resposta del receptor."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Precisa = dades concretes; breu = mínim de paraules; estructurada = pauta coneguda; confirmada = el receptor respon.",
+      "excerpt": "És breu: utilitza el mínim de paraules per transmetre el màxim d’informació útil.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § afirmatiu i negatiu",
+      "stem": "Segons el manual de comunicacions per ràdio, per evitar errors de recepció és recomanable substituir «sí» i «no» per:",
+      "options": [
+        "«Afirmatiu» i «negatiu».",
+        "«Rebut» i «tallo».",
+        "«Correcte» i «incorrecte».",
+        "«Canvi» i «fora»."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "«Afirmatiu» i «negatiu» són formes més clares que el simple sí o no.",
+      "excerpt": "A més, per evitar errors de recepció en afirmacions o negacions, és recomanable substituir el simple “sí” o “no” per les formes més clares i específiques “afirmatiu” i “negatiu”.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § canal lliure",
+      "stem": "Segons el manual de comunicacions per ràdio, què ha de comprovar l'usuari abans de començar a parlar pel transceptor portàtil?",
+      "options": [
+        "Que el receptor té cobertura de telefonia mòbil.",
+        "Que la sala de control li ha donat permís per escrit.",
+        "Que té activat el mode repetidor.",
+        "Que el canal està lliure i cap altra unitat transmet."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Cal comprovar que el canal està lliure abans d'iniciar la comunicació.",
+      "excerpt": "Inici de la comunicació Abans de començar a parlar pel transceptor portàtil, l’usuari ha de comprovar que el canal està lliure, és a dir, que cap altra unitat està transmetent en aquell moment.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § xarxa RESCAT",
+      "stem": "Segons el manual de comunicacions per ràdio, què és la xarxa RESCAT?",
+      "options": [
+        "La xarxa de telefonia mòbil que fan servir els bombers.",
+        "El centre de comandament avançat dels bombers.",
+        "La infraestructura de comunicacions exclusiva per a serveis d'emergència i seguretat a Catalunya.",
+        "El nom de l'alfabet radiofònic que utilitza el Cos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "RESCAT és una xarxa exclusiva, resistent i estable, pensada per a escenaris crítics.",
+      "excerpt": "La xarxa Rescat i les emissores La xarxa RESCAT és la infraestructura de comunicacions exclusiva per a serveis d’emergència i seguretat a Catalunya.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § trucada de canal",
+      "stem": "Segons el manual de comunicacions per ràdio, en una trucada de canal en mode xarxa:",
+      "options": [
+        "Tots els terminals poden parlar alhora.",
+        "Només hi participen dos terminals de manera privada.",
+        "La comunicació no passa pels repetidors.",
+        "Només un transceptor pot parlar a la vegada i la resta escolten."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La trucada de canal és la comunicació habitual entre tots els terminals del canal; parla un i la resta escolten.",
+      "excerpt": "Només un transceptor o emissora pot parlar a la vegada i la resta escolten.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § alfabet radiofònic",
+      "stem": "Segons el manual de comunicacions per ràdio, quan s'ha d'utilitzar l'alfabet radiofònic internacional?",
+      "options": [
+        "Per lletrejar noms propis, codis alfanumèrics, matrícules o informació amb lletres que puguin generar confusió.",
+        "Només en comunicacions amb aeronaus.",
+        "Per a tots els missatges, sense excepció.",
+        "Només en trucades d'emergència."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "S'ha de lletrejar amb l'alfabet radiofònic quan hi ha lletres que poden confondre's.",
+      "excerpt": "Utilitzar l’alfabet radiofònic internacional Quan cal transmetre per ràdio noms propis, codis alfanumèrics, matrícules o qualsevol informació que contingui lletres que puguin generar confusió, s’ha de lletrejar utilitzant l’alfabet radiofònic internacional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § ordre d'inici",
+      "stem": "Segons el manual de comunicacions per ràdio, quina és l'estructura recomanada per iniciar una comunicació?",
+      "options": [
+        "Primer s'identifica l'emissor i després la unitat receptora.",
+        "Primer es diu «CANVI» i després el missatge.",
+        "Primer s'anomena la unitat receptora i després s'identifica l'emissor.",
+        "Només cal dir el missatge, sense identificacions."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "S'anomena primer qui rep i després qui emet; en aquest primer missatge no cal dir {CANVI}.",
+      "excerpt": "L’estructura recomanada per iniciar la comunicació és que primer s’anomena la unitat receptora del missatge, i després s’identifica l’emissor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § marcador CANVI",
+      "stem": "Segons el manual de comunicacions per ràdio, què indica el marcador {CANVI} al final d'un missatge?",
+      "options": [
+        "Que la comunicació s'ha acabat definitivament.",
+        "Que s'espera una resposta del receptor.",
+        "Que s'ha de canviar de canal.",
+        "Que el missatge és prioritari."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "{CANVI} cedeix el torn i indica que s'espera resposta.",
+      "excerpt": "En finalitzar, cal tancar-lo amb el marcador {CANVI}, indicant així que s’espera una resposta del receptor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § connexió del terminal",
+      "stem": "Segons el manual de comunicacions per ràdio, per evitar missatges escapçats, com cal actuar en prémer el botó de connexió?",
+      "options": [
+        "Començar a parlar abans de prémer-lo.",
+        "Prémer-lo i, després d'un parell de segons, parlar.",
+        "Prémer-lo i parlar immediatament, sense pausa.",
+        "Prémer-lo dues vegades seguides."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Cal respectar el temps d'entrada en xarxa; si no, es perden síl·labes («tiu» en lloc d'«afirmatiu»).",
+      "excerpt": "Per evitar-ho, primer s'ha de prémer el botó de connexió i, després d’un parell de segons, parlar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § pla de comunicacions",
+      "stem": "Segons el manual de comunicacions per ràdio, el desplegament del pla de comunicacions de l'incident és responsabilitat:",
+      "options": [
+        "De la Sala Central de Bombers exclusivament.",
+        "Del primer bomber que arriba.",
+        "Del cap d'intervenció.",
+        "De cada equip de treball per separat."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El cap d'intervenció desplega un pla proporcional a la gravetat i dimensions de l'incident.",
+      "excerpt": "El pla de comunicacions El desplegament d’un pla de comunicacions proporcional a la gravetat i dimensions de l’incident és responsabilitat del cap d’intervenció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § saltar nivells",
+      "stem": "Segons els principis de les comunicacions en intervencions del manual, quan es poden saltar nivells jeràrquics en la comunicació?",
+      "options": [
+        "Només si hi ha un aspecte crític a nivell operatiu o de seguretat.",
+        "Sempre que el missatge sigui breu.",
+        "Quan el comandament directe no contesta a la primera.",
+        "Mai, en cap cas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Es respecta la jerarquia; només es salta per aspectes crítics operatius o de seguretat.",
+      "excerpt": "Només es poden saltar nivells si hi ha un aspecte crític a nivell operatiu o de seguretat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § mode directe",
+      "stem": "Segons el manual de comunicacions per ràdio, en mode directe, quin abast de ràdio tenen normalment els terminals?",
+      "options": [
+        "Entre 10 i 20 km.",
+        "Menys de 50 metres.",
+        "Tot el territori de Catalunya.",
+        "Entre 500 metres i 1 km."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En mode directe no es passa per la xarxa de repetidors; l'abast és el de ràdio entre terminals.",
+      "excerpt": "L’emissora no està connectada a la xarxa, sinó que comunica directament amb altres terminals dins del seu abast de ràdio (normalment entre 500 metres i 1 km).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § SDS",
+      "stem": "Segons el manual de comunicacions per ràdio, fins a quants caràcters poden tenir els missatges curts (SDS) en mode xarxa?",
+      "options": [
+        "Fins a 20 caràcters.",
+        "Fins a 500 caràcters.",
+        "Fins a 1.000 caràcters.",
+        "Fins a 120 caràcters."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els SDS són missatges de text escrits de fins a 120 caràcters entre terminals.",
+      "excerpt": "Missatges curts (SDS - mode xarxa) Són missatges de text escrits (fins a 120 caràcters) que es poden enviar entre terminals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § missatges d'estat",
+      "stem": "Segons el manual de comunicacions per ràdio, com s'envien normalment els missatges d'estat en mode xarxa?",
+      "options": [
+        "Amb una sola pulsació, normalment prement el botó durant 2 segons.",
+        "Escrivint un text de fins a 120 caràcters.",
+        "Amb una trucada individual a la sala.",
+        "Mitjançant el pont ràdio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els missatges d'estat són predefinits i s'envien amb una pulsació; els SDS són textos escrits.",
+      "excerpt": "Missatges d’estat (mode xarxa) Són missatges predefinits que s’envien amb una sola pulsació (normalment prement el botó durant 2 segons).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § canal d'agrupació",
+      "stem": "Segons el manual de comunicacions per ràdio, quin és el canal principal que s'utilitza en una intervenció ordinària?",
+      "options": [
+        "El canal en mode directe.",
+        "El canal de pont ràdio.",
+        "El canal de treball d'agrupació.",
+        "El canal de trucada individual."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En intervencions ordinàries es treballa al canal d'agrupació; en grans emergències es despleguen canals diferenciats.",
+      "excerpt": "Canal de treball d’agrupació És el canal principal que s’utilitza en una intervenció ordinària.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § canvi de canal",
+      "stem": "Segons el manual de comunicacions per ràdio, quan s'ha de fer el canvi de canal en una gran emergència?",
+      "options": [
+        "Quan totes les unitats ja siguin al lloc.",
+        "Tan aviat com sigui possible, abans que el nombre d'unitats faci més difícil assegurar que tothom el fa correctament.",
+        "Només un cop finalitzada la intervenció.",
+        "Quan ho demani la primera unitat que perdi cobertura."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Com més tard es fa, més risc de perdre unitats en canals equivocats.",
+      "excerpt": "Per això, cal anticipar-se i executar-lo tan aviat com sigui possible, abans que el nombre d’unitats faci més difícil assegurar que tothom el fa correctament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § unitat aïllada",
+      "stem": "Segons el manual de comunicacions per ràdio, quin és el risc més perillós d'una unitat que no ha canviat al canal assignat?",
+      "options": [
+        "Que no pugui demanar suport o ajuda en cas de necessitat.",
+        "Que saturi el canal de xarxa.",
+        "Que gasti més bateria del terminal.",
+        "Que interfereixi amb la telefonia mòbil."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La unitat queda aïllada: no rep ordres, no participa en la coordinació i, sobretot, no pot demanar ajuda.",
+      "excerpt": "En aquest punt el risc no és només tècnic, sinó operatiu i de seguretat, ja que una unitat que no ha canviat de canal pot quedar aïllada, sense rebre ordres, sense participar de la coordinació general i el que és més perillós, sense poder demanar suport o ajuda en cas de necessitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § trucada d'emergència en mode directe",
+      "stem": "Segons el manual de comunicacions per ràdio, quina particularitat té qui inicia una trucada d'emergència en mode directe?",
+      "options": [
+        "No pot tornar a parlar fins que la sala ho autoritzi.",
+        "Sempre pot reprendre la paraula, encara que hi hagi altres comunicacions en curs.",
+        "La seva trucada no la pot sentir cap altre terminal.",
+        "Ha d'esperar que el canal estigui lliure."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La trucada d'emergència té màxima prioritat dins del canal directe.",
+      "excerpt": "Qui la inicia sempre pot reprendre la paraula, encara que hi hagi altres comunicacions en curs.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § trucada individual",
+      "stem": "Segons el manual de comunicacions per ràdio, sobre la trucada individual en mode xarxa, és correcte afirmar que:",
+      "options": [
+        "La poden iniciar tots els transceptors portàtils.",
+        "La poden escoltar tots els terminals del canal.",
+        "És privada entre dos transceptors; només alguns terminals la poden iniciar, però tots la poden rebre.",
+        "Només es pot fer en mode directe."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La trucada individual és privada; la iniciació està restringida a terminals autoritzats.",
+      "excerpt": "Trucada individual en mode xarxa És una comunicació privada entre dos transceptors portàtils, que no poden ser escoltades per cap altre terminal. […] Només alguns terminals estan autoritzats a iniciar-les, però tots els transceptors portàtils les poden rebre.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § confirmació",
+      "stem": "Segons el manual de comunicacions per ràdio, què passa si el receptor no confirma un missatge?",
+      "options": [
+        "El missatge es dona per rebut automàticament.",
+        "La sala de control el reenvia per SDS.",
+        "L'emissor ha de canviar al mode directe.",
+        "L'emissor el tornarà a repetir, perdent temps i ocupant el canal inútilment."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Cap comunicació és completa sense confirmació del receptor.",
+      "excerpt": "Confirmar i validar sempre els missatges Cap comunicació està completa sense la confirmació del receptor, ja que si no la rep, l’emissor tornarà a repetir-la, perdent temps i ocupant el canal de manera inútil.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

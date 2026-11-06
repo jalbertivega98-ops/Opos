@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "iipp-c11-relacion-laboral-tpfe-etpfe-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penitenciario, tema 11. La relación laboral especial penitenciaria y la Entidad Estatal TPFE",
+    "topic_slug": "iipp-c11-relacion-laboral-tpfe",
+    "locale": "es",
+    "category": "iipp_c11_relacion_laboral_tpfe",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 122/2015, de 27 de febrero, por el que se aprueba el estatuto de la Entidad de Derecho Público Trabajo Penitenciario y Formación para el Empleo (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-2115",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 6 Estatuto TPFE",
+      "stem": "Según el Estatuto aprobado por el Real Decreto 122/2015, el Presidente de la entidad Trabajo Penitenciario y Formación para el Empleo es:",
+      "options": [
+        "El Ministro del Interior.",
+        "El titular de la Secretaría General de Instituciones Penitenciarias.",
+        "El Director-Gerente de la entidad.",
+        "El Subdirector General de Tratamiento y Gestión Penitenciaria."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 6 del Estatuto atribuye la presidencia al titular de la SGIP.",
+      "excerpt": "El Presidente será el titular de la Secretaría General de Instituciones Penitenciarias.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.3 Estatuto TPFE",
+      "stem": "El Consejo de Administración de la entidad Trabajo Penitenciario y Formación para el Empleo, según su Estatuto (RD 122/2015):",
+      "options": [
+        "No puede exceder de doce miembros y debe reunirse al menos dos veces al año.",
+        "Tiene quince miembros y se reúne trimestralmente.",
+        "No puede exceder de diez miembros y se reúne al menos una vez al mes.",
+        "Tiene composición libre y se reúne cuando lo convoque el Director-Gerente."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 7.1 limita el Consejo a doce miembros y el 7.3 exige al menos dos reuniones al año.",
+      "excerpt": "Al Presidente le corresponde dirigir las deliberaciones del Consejo, que deberá reunirse al menos dos veces al año.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8.d Estatuto TPFE",
+      "stem": "¿Qué órgano de la entidad Trabajo Penitenciario y Formación para el Empleo determina anualmente el módulo retributivo de los internos que trabajan en los talleres?",
+      "options": [
+        "El Presidente.",
+        "El Director-Gerente.",
+        "El Consejo de Administración.",
+        "La Junta Económico-Administrativa de cada centro."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 8.d) del Estatuto atribuye esa función al Consejo de Administración.",
+      "excerpt": "Determinar anualmente el módulo retributivo de los internos que realicen trabajos productivos en los talleres penitenciarios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10.2 Estatuto TPFE",
+      "stem": "Según el Estatuto de la entidad Trabajo Penitenciario y Formación para el Empleo, en cada centro penitenciario la figura de Delegado de la entidad la ostenta:",
+      "options": [
+        "El Administrador del centro.",
+        "El Subdirector de Tratamiento.",
+        "Un funcionario nombrado por el Director-Gerente.",
+        "El titular de la Dirección del centro penitenciario."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 10.2 del Estatuto atribuye la delegación al Director del centro.",
+      "excerpt": "En cada uno de los centros penitenciarios, existirá la figura de Delegado de la entidad Trabajo Penitenciario y Formación para el Empleo, que ostentará el titular de la Dirección del centro penitenciario.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-ord_anim-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ordenança de protecció, tinença i venda d'animals de Barcelona (text consolidat vigent, Norma. Portal Jurídic de Barcelona). Extracte literal",
+      "url": "https://ajuntament.barcelona.cat/norma-portal-juridic/ca/vid/840952021",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Norma. Portal Jurídic de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 51",
+      "stem": "(Rèplica 2022, núm. 36) Segons l'article 51 de l'Ordenança d'animals de Barcelona, quina d'aquestes conductes és una infracció molt greu?",
+      "options": [
+        "No vacunar els animals de companyia",
+        "Organitzar baralles d'animals i participar-hi",
+        "Fer venda ambulant d'animals fora de fires autoritzades",
+        "Utilitzar animals en atraccions firals giratòries"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Organitzar baralles i participar-hi és molt greu; no vacunar, la venda ambulant i les atraccions firals són greus.",
+      "excerpt": "Organitzar baralles d'animals i participar-hi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13",
+      "stem": "(Rèplica 2022, núm. 37) Quina activitat prohibeix l'article 13 de l'Ordenança d'animals dins del terme municipal de Barcelona?",
+      "options": [
+        "La tinença de gats en habitatges",
+        "La venda d'animals en botigues autoritzades",
+        "El manteniment de bestiar destinat a la producció làctia (vaqueries)",
+        "La presència de gossos guia al transport públic"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 13 prohibeix les vaqueries i els animals per al consum, el comerç de primats a particulars i la tinença de cavalls en patis o solars.",
+      "excerpt": "es prohibeix el manteniment de bovins i d'altra classe de bestiar destinat a la producció làctia (vaqueries)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40",
+      "stem": "(Rèplica 2022, núm. 53) Segons l'article 40 de l'Ordenança d'animals de Barcelona, els animals poden ser objecte de regal o de premi?",
+      "options": [
+        "Sí, si el receptor és major d'edat",
+        "Sí, només en fires autoritzades",
+        "Sí, si es lliuren amb xip",
+        "No, no poden ser objecte de regal, sorteig, rifa o promoció ni lliurats com a premi"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 40 prohibeix regalar animals o lliurar-los com a premi, obsequi o recompensa.",
+      "excerpt": "Els animals no poden ser objecte de regal o sorteig, rifa o promoció, ni poden ser lliurats com a cap tipus de premi, obsequi o recompensa.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-cp-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 172",
+      "stem": "(Rèplica 2023, núm. 35) Segons l'article 172 del Codi penal, què comet qui, sense estar legítimament autoritzat, impedeix amb violència a un altre fer el que la llei no prohibeix?",
+      "options": [
+        "Un delicte d'amenaces",
+        "Un delicte de coaccions",
+        "Un delicte de detenció il·legal",
+        "Un delicte de desobediència"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Aquesta és la conducta típica de les coaccions de l'article 172.",
+      "excerpt": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 379",
+      "stem": "(Rèplica 2023, núm. 36) Segons l'article 379 del Codi penal, a partir de quin excés sobre la velocitat permesa en via interurbana és delicte?",
+      "options": [
+        "Més de 60 km/h",
+        "Més de 50 km/h",
+        "Més de 80 km/h",
+        "Més de 100 km/h"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "És delicte superar en més de 60 km/h el límit en via urbana o en més de 80 km/h en via interurbana.",
+      "excerpt": "o en ochenta kilómetros por hora en vía interurbana a la permitida reglamentariamente",
+      "excerpt_status": "completo"
+    }
+  ]
+}

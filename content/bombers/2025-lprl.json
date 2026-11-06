@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-lprl-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 57) · Art. 29 Llei 31/1995",
+      "stem": "Segons la Llei 31/1995, quina és una obligació del treballador respecte dels equips de protecció?",
+      "options": [
+        "Comprar-se els seus propis EPI.",
+        "Decidir lliurement si els utilitza.",
+        "Utilitzar correctament els mitjans i equips de protecció facilitats per l'empresari.",
+        "Certificar-ne el marcatge CE."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Art. 29.2.2n LPRL.",
+      "excerpt": "Utilizar correctamente los medios y equipos de protección facilitados por el empresario, de acuerdo con las instrucciones recibidas de éste.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

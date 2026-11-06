@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t10-quimica-man10-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 10. Química",
+    "topic_slug": "bomb-t10-quimica",
+    "locale": "ca",
+    "category": "bomb_t10_quimica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.004 Manual operatiu bàsic de Química (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.004, § nombre atòmic",
+      "stem": "Segons el Manual operatiu bàsic de Química, el nombre atòmic (Z) és:",
+      "options": [
+        "La suma de protons i neutrons del nucli.",
+        "El nombre de protons que té el nucli de l'àtom.",
+        "El nombre de neutrons del nucli.",
+        "El nombre d'electrons de la capa externa."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Z és el nombre de protons; el nombre màssic A és la suma de protons i neutrons (A = Z + N).",
+      "excerpt": "El nombre atòmic (Z) és el nombre de protons que té el nucli de l’àtom.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § nombre màssic",
+      "stem": "Com defineix el manual de Química el nombre màssic (A)?",
+      "options": [
+        "El total de partícules del nucli, és a dir, la suma de protons i neutrons.",
+        "El nombre de protons del nucli.",
+        "La massa d'un mol de l'element expressada en grams.",
+        "El nombre d'electrons que l'àtom pot cedir."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "A = Z + N: protons més neutrons, que conjuntament s'anomenen nucleons.",
+      "excerpt": "El nombre màssic (A) és el total de partícules del nucli, és a dir, la suma de protons i neutrons (A = Z + N).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § isòtops",
+      "stem": "Segons el manual de Química, els isòtops d'un mateix element tenen:",
+      "options": [
+        "El mateix nombre de neutrons, però un nombre de protons diferent.",
+        "El mateix nombre màssic, però un nombre atòmic diferent.",
+        "Un nombre diferent d'electrons, cosa que els converteix en ions.",
+        "El mateix nombre de protons, però un nombre de neutrons diferent."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Els isòtops comparteixen Z i difereixen en A perquè varia el nombre de neutrons. Quan varia el nombre d'electrons es parla d'ions.",
+      "excerpt": "Tots els isòtops d’un element tenen el mateix nombre de protons, però varien en el nombre de neutrons.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § reaccions exotèrmiques",
+      "stem": "Segons el manual de Química, una reacció exotèrmica és la que:",
+      "options": [
+        "Absorbeix calor de l'entorn per poder-se produir.",
+        "Es produeix sense cap intercanvi d'energia.",
+        "Allibera energia, generalment calor, cap a l'entorn.",
+        "Només es dona a temperatures inferiors a 0 °C."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La reacció exotèrmica allibera energia (com la combustió); l'endotèrmica n'absorbeix de l'entorn.",
+      "excerpt": "Reacció exotèrmica: allibera energia (generalment calor) cap a l’entorn.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § canvis d'estat",
+      "stem": "Com s'anomena, segons el manual de Química, el pas directe de sòlid a gas sense passar per líquid?",
+      "options": [
+        "Condensació.",
+        "Fusió.",
+        "Vaporització.",
+        "Sublimació."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La sublimació és el pas de sòlid a gas; el pas de gas a sòlid és la sublimació inversa o condensació a sòlid.",
+      "excerpt": "Sublimació: sòlid → gas sense passar per líquid",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § alcans",
+      "stem": "Segons el manual de Química, els alcans són:",
+      "options": [
+        "Hidrocarburs insaturats amb un doble enllaç C=C.",
+        "Hidrocarburs insaturats amb un triple enllaç.",
+        "Hidrocarburs saturats, amb enllaços senzills C–C.",
+        "Compostos iònics solubles en aigua."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els alcans (metà, età, propà, butà...) són saturats i acaben en -à; els alquens tenen un doble enllaç i acaben en -è.",
+      "excerpt": "Alcans Els alcans són hidrocarburs saturats, amb enllaços senzills C–C.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § enllaç iònic",
+      "stem": "Segons el manual de Química, entre quins tipus d'elements es forma l'enllaç iònic?",
+      "options": [
+        "Entre dos no metalls que comparteixen electrons de valència.",
+        "Entre un metall, que tendeix a cedir electrons, i un no metall, que tendeix a captar-ne.",
+        "Entre àtoms metàl·lics que comparteixen els electrons més externs.",
+        "Entre molècules no polars per dipols induïts."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'enllaç iònic uneix metall i no metall per transferència d'electrons; el covalent, no metalls que comparteixen electrons; el metàl·lic, metalls.",
+      "excerpt": "Enllaç iònic L’enllaç iònic es forma entre un metall, que tendeix a cedir electrons, i un no metall, que tendeix a captar-ne.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § enllaç covalent",
+      "stem": "Segons el manual de Química, l'enllaç covalent es produeix quan:",
+      "options": [
+        "Dos àtoms no metàl·lics comparteixen un o més electrons de valència.",
+        "Un metall cedeix electrons a un no metall.",
+        "Els àtoms d'un metall comparteixen un núvol d'electrons.",
+        "Dues molècules polars s'atreuen per ponts d'hidrogen."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "En l'enllaç covalent els no metalls comparteixen electrons de valència per assolir l'estabilitat.",
+      "excerpt": "Enllaç covalent L’enllaç covalent es produeix quan dos àtoms no metàl·lics comparteixen un o més electrons de valència per assolir l’estabilitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § reaccions redox",
+      "stem": "En una reacció d'oxidació-reducció (redox), segons el manual de Química:",
+      "options": [
+        "Una substància s'oxida (perd electrons) i l'altra es redueix (guanya electrons).",
+        "Una substància s'oxida guanyant electrons i l'altra es redueix perdent-ne.",
+        "Un àcid i una base formen una sal i aigua.",
+        "Les dues substàncies guanyen electrons alhora."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'oxidació és pèrdua d'electrons i la reducció, guany. La formació de sal i aigua és la neutralització àcid-base.",
+      "excerpt": "Reaccions oxidació-reducció (redox) Transferència d’electrons entre substàncies; una s’oxida (perd electrons) i l’altra es redueix (guanya electrons).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § llei de conservació de la massa",
+      "stem": "Segons el manual de Química, què estableix la llei de conservació de la massa de Lavoisier?",
+      "options": [
+        "Que la massa dels productes és sempre superior a la dels reactius en les reaccions exotèrmiques.",
+        "Que un mol de qualsevol gas ocupa 22,4 L en condicions normals.",
+        "Que la pressió i el volum d'un gas són inversament proporcionals.",
+        "Que en un sistema tancat la massa total dels reactius és igual a la massa total dels productes."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Lavoisier (1789): en un sistema tancat la massa es conserva, i això implica la conservació dels àtoms.",
+      "excerpt": "Llei de conservació de la massa La llei de conservació de la massa, formulada per Antoine Lavoisier el 1789, estableix que en una reacció química realitzada dins d’un sistema tancat, la massa total dels reactius és igual a la massa total dels productes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § volum molar",
+      "stem": "Segons el manual de Química, quin volum aproximat ocupa 1 mol de gas en condicions normals de temperatura i pressió (0 °C i 1 atm)?",
+      "options": [
+        "1 L.",
+        "6,022 L.",
+        "22,4 L.",
+        "0,0821 L."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "És el volum molar (Vm). 6,022·10²³ és el nombre d'Avogadro i 0,0821 L·atm/mol·K, la constant R.",
+      "excerpt": "Volum molar En condicions normals de temperatura i pressió (0 °C i 1 atm), 1 mol de gas ocupa un volum aproximat de 22,4 L, anomenat volum molar (Vₘ).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § mols",
+      "stem": "Segons el manual de Química, a quantes entitats correspon 1 mol?",
+      "options": [
+        "A 22,4·10²³ entitats.",
+        "Al nombre d'Avogadro, 6,022·10²³ entitats.",
+        "A 1.000 entitats.",
+        "A 8,31·10²³ entitats."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El mol és la unitat de quantitat de matèria i equival al nombre d'Avogadro.",
+      "excerpt": "Mols i massa molar La quantitat de matèria s’expressa en mols (mol), on 1 mol correspon al nombre d’Avogadro (6,022·10²³ entitats).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § reactiu limitant",
+      "stem": "Segons el manual de Química, què és el reactiu limitant?",
+      "options": [
+        "El reactiu que es troba en excés al final de la reacció.",
+        "El catalitzador que limita la velocitat de la reacció.",
+        "El reactiu de massa molar més petita.",
+        "El reactiu que s'esgota primer i determina la quantitat màxima de producte que es pot formar."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El reactiu limitant s'esgota primer; el que en sobra és el reactiu en excés.",
+      "excerpt": "Reactiu limitant i excés Quan dos (o més) reactius reaccionen, el reactiu limitant és aquell que s’esgota primer i, per tant, determina la quantitat màxima de producte que es pot formar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § llei de Boyle-Mariotte",
+      "stem": "Segons el manual de Química, què estableix la llei de Boyle-Mariotte per a una mateixa massa de gas a temperatura constant?",
+      "options": [
+        "Que la pressió és directament proporcional a la temperatura.",
+        "Que la pressió i el volum són inversament proporcionals.",
+        "Que el volum és directament proporcional a la temperatura.",
+        "Que el volum no depèn de la pressió."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Boyle-Mariotte: a T constant, P·V = constant. La relació pressió-temperatura a volum constant és la llei de Gay-Lussac.",
+      "excerpt": "Llei de Boyle-Mariotte Per una mateixa massa de gas, si no varia la temperatura, la pressió i el volum són inversament proporcionals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § llei de Gay-Lussac",
+      "stem": "Una ampolla tancada de gas s'escalfa en un incendi. Quina llei, segons el manual de Química, explica que la pressió augmenti en proporció a la temperatura si el volum no varia?",
+      "options": [
+        "La llei de Gay-Lussac.",
+        "La llei de Boyle-Mariotte.",
+        "La llei de Lavoisier.",
+        "La llei de Proust."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La llei de Gay-Lussac: a volum constant, la pressió d'una massa de gas és directament proporcional a la temperatura.",
+      "excerpt": "Llei de Gay-Lussac Per una mateixa massa de gas, si no varia el volum que ocupa, la pressió és directament proporcional a la temperatura.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § ponts d'hidrogen",
+      "stem": "Segons el manual de Química, quin fenomen explica que l'aigua tingui un punt d'ebullició tan alt i que el gel suri?",
+      "options": [
+        "Les forces de Van der Waals.",
+        "L'enllaç metàl·lic.",
+        "Els ponts d'hidrogen.",
+        "L'enllaç iònic."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els ponts d'hidrogen expliquen l'alt punt d'ebullició de l'aigua, que el gel suri i la seva capacitat de dissoldre moltes substàncies.",
+      "excerpt": "Un exemple clàssic és l’aigua: els ponts d’hidrogen expliquen per què té un punt d’ebullició tan alt, per què el gel flota i per què l’aigua pot dissoldre moltes substàncies.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § forces de Van der Waals",
+      "stem": "Segons el manual de Química, quina afirmació sobre les forces de Van der Waals (de dispersió o de London) és CORRECTA?",
+      "options": [
+        "Són més fortes que les interaccions dipol-dipol permanents.",
+        "Només es presenten en els compostos iònics.",
+        "Expliquen per què el gel flota sobre l'aigua.",
+        "Impliquen l'atracció entre dipols temporalment induïts en molècules no polars."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Són forces febles presents en totes les substàncies moleculars, més dèbils que les dipol-dipol, i importants per a la cohesió dels gasos nobles i de les molècules orgàniques no polars.",
+      "excerpt": "Es presenten en totes les substàncies moleculars i impliquen l’atracció entre dipols temporalment induïts en molècules no polars.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § ebullició",
+      "stem": "Segons el manual de Química, què passa amb la temperatura d'ebullició d'un líquid quan disminueix la pressió externa?",
+      "options": [
+        "Augmenta: a pressions més baixes cal més temperatura per bullir.",
+        "No varia, perquè el punt d'ebullició és una constant de cada substància.",
+        "Disminueix: a pressions més baixes l'ebullició té lloc a temperatures inferiors.",
+        "El líquid ja no pot bullir i només s'evapora."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'ebullició es produeix quan la pressió de vapor del líquid iguala la pressió externa; si la pressió baixa, n'hi ha prou amb menys temperatura.",
+      "excerpt": "Així, a pressions més baixes, l’ebullició té lloc a temperatures inferiors, mentre que a pressions més altes, la temperatura necessària per assolir l’ebullició augmenta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § calor específica",
+      "stem": "Segons el manual de Química, la calor específica d'un material correspon a:",
+      "options": [
+        "La quantitat de calor necessària per augmentar 1 °C la temperatura d'un kg d'aquell material.",
+        "La temperatura a la qual el material canvia d'estat.",
+        "La calor que allibera la combustió completa d'un kg de material.",
+        "La quantitat de calor que es transmet per unitat de superfície i de temps."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La calor específica indica quanta energia tèrmica acumula un material; per això un cos més calent pot tenir menys energia que un de més fred.",
+      "excerpt": "Correspon a la quantitat de calor necessària per augmentar 1º C la temperatura d'un kg d'aquell material.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § alcans",
+      "stem": "Segons el manual de Química, en quin estat es troben a temperatura ambient els alcans de 5 a 17 àtoms de carboni (C₅–C₁₇)?",
+      "options": [
+        "Gasós.",
+        "Líquid.",
+        "Sòlid.",
+        "Plasma."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Els alcans C₁–C₄ són gasos (metà, età, propà, butà), els C₅–C₁₇ són líquids i els de C₁₈ o més, sòlids.",
+      "excerpt": "Gasos (C₁–C₄), líquids (C₅–C₁₇) i sòlids (≥C₁₈) a temperatura ambient.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

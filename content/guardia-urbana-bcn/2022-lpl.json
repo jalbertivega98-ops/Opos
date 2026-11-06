@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-lpl-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 16/1991, de 10 de julio, de las Policías Locales (Cataluña) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-20343",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 26",
+      "stem": "(Rèplica 2022, núm. 21) Segons l'article 26 de la Llei 16/1991, de les policies locals, qui exerceix el comandament immediat del cos?",
+      "options": [
+        "L'alcalde directament, sense intermediaris",
+        "El regidor de seguretat en tots els casos",
+        "El cap del cos, sota el comandament de l'alcalde o de la persona en qui delegui",
+        "El conseller d'Interior"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 26.1 LPL: el cap del cos, sota el comandament de l'alcalde o de qui delegui, exerceix el comandament immediat.",
+      "excerpt": "El Jefe del Cuerpo de la Policía local, bajo el mando del Alcalde, o de la persona en quien éste delegue, ejerce el mando inmediato del Cuerpo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24",
+      "stem": "(Rèplica 2022, núm. 22) A quina escala pertany la categoria d'intendent major dels cossos de policia local?",
+      "options": [
+        "A l'escala superior",
+        "A l'escala executiva",
+        "A l'escala intermèdia",
+        "A l'escala bàsica"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 24.1.a LPL: l'escala superior comprèn les categories de superintendent, intendent major i intendent.",
+      "excerpt": "Escala superior, que comprende las categorías de Superintendente, de Intendente Mayor y de Intendente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10",
+      "stem": "(Rèplica 2022, núm. 49) Segons la Llei 16/1991, pot l'obediència deguda emparar ordres que comportin actes manifestament constitutius de delicte?",
+      "options": [
+        "No, en cap cas",
+        "Sí, si l'ordre és escrita",
+        "Sí, si la dona el cap del cos",
+        "Només en situacions d'emergència"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 10.d LPL subjecta els agents als principis de jerarquia i subordinació, però en cap cas l'obediència deguda empara ordres manifestament delictives o contràries a la Constitució, l'Estatut o les lleis.",
+      "excerpt": "en ningún caso la obediencia debida podrá amparar órdenes que entrañen la ejecución de actos que manifiestamente constituyan delito",
+      "excerpt_status": "completo",
+      "review_note": "L'examen de 2022 situava l'obediència deguda en el Codi d'ètica (art. 17); l'extracte capturat del Codi no inclou aquest punt, i la rèplica usa la Llei de policies locals."
+    }
+  ]
+}

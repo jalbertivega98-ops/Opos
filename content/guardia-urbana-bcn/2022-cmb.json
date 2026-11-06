@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-cmb-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 22/1998, de 30 de diciembre, de la Carta Municipal de Barcelona (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-2518",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 133",
+      "stem": "(Rèplica 2022, núm. 7) Segons l'article 133 de la Carta municipal de Barcelona, com actua la Guàrdia Urbana?",
+      "options": [
+        "Només com a policia administrativa i de trànsit",
+        "Com a policia judicial exclusivament per delegació dels Mossos d'Esquadra",
+        "Com a policia d'autoritat, de seguretat i assistencial i policia judicial",
+        "Com a policia integral, amb competència exclusiva en seguretat ciutadana"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 133 CMB atribueix a la GUB les funcions de policia d'autoritat, de seguretat i assistencial i de policia judicial, en els termes de la Carta i de les lleis orgàniques i processals.",
+      "excerpt": "La Guardia Urbana de Barcelona actúa como policía de autoridad, policía de seguridad y asistencial y policía judicial",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 128.1",
+      "stem": "(Rèplica 2022, núm. 8) Segons l'article 128.1 de la Carta municipal, en la funció de policia de seguretat ciutadana l'Ajuntament de Barcelona...",
+      "options": [
+        "té la competència exclusiva a tot el terme municipal",
+        "només actua si ho requereix el delegat del Govern",
+        "no hi té cap funció atribuïda",
+        "col·labora, d'acord amb el que estableix la Junta Local de Seguretat"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 128.1.a CMB atribueix a l'Ajuntament col·laborar en la funció de policia de seguretat ciutadana d'acord amb la Junta Local de Seguretat.",
+      "excerpt": "Colaborar en la función de policía de seguridad ciudadana, de acuerdo con lo que establece la Junta Local de Seguridad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

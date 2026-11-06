@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "plcatexamen-2026-terrassa-lecrim-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Examen rèplica · Terrassa 2026 (1f/AGENTS/2026), exercici teòric: 50 preguntes",
+    "topic_slug": "plcatexamen-2026-terrassa",
+    "locale": "ca",
+    "category": "plcatexamen_2026_terrassa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Rèplica original pregunta a pregunta de l'examen oficial publicat per l'ajuntament (mateixa norma i article, mateix tipus i dificultat; redacció i distractors propis, mai copiats). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 520.8 LECrim",
+      "stem": "En quin cas pot la persona detinguda renunciar a l'assistència d'advocat?",
+      "options": [
+        "Quan la detenció és per qualsevol delicte lleu.",
+        "Sempre que hi consenti per escrit.",
+        "Quan la detenció és per fets que només poden ser delictes contra la seguretat del trànsit.",
+        "Mai: l'assistència lletrada és irrenunciable en tots els casos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Rèplica de la pregunta 6 de Terrassa 2026. Article 520.8 LECrim; la renúncia es pot revocar en qualsevol moment.",
+      "excerpt": "podrá renunciar a la preceptiva asistencia de abogado si su detención lo fuere por hechos susceptibles de ser tipificados exclusivamente como delitos contra la seguridad del tráfico",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520.5 LECrim",
+      "stem": "Què passa si l'advocat designat per assistir la persona detinguda no compareix dins del termini màxim de tres hores des de l'encàrrec?",
+      "options": [
+        "La persona detinguda ha de ser posada en llibertat immediatament.",
+        "Es pren declaració sense advocat.",
+        "El Col·legi d'Advocats designa un nou advocat del torn d'ofici.",
+        "El termini s'amplia fins a vint-i-quatre hores."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Rèplica de la pregunta 39 de Terrassa 2026. Article 520.5 LECrim.",
+      "excerpt": "Si en dicho plazo no compareciera, el Colegio de Abogados designará un nuevo abogado del turno de oficio",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 544 ter.2 LECrim",
+      "stem": "Sobre qui pot instar o acordar l'ordre de protecció, assenyaleu l'afirmació INCORRECTA:",
+      "options": [
+        "La policia local la pot acordar directament en l'atestat.",
+        "El jutge la pot acordar d'ofici.",
+        "La pot sol·licitar la víctima.",
+        "La pot sol·licitar el Ministeri Fiscal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Rèplica de la pregunta 45 de Terrassa 2026. L'ordre de protecció l'acorda sempre el jutge (art. 544 ter.2 LECrim).",
+      "excerpt": "La orden de protección será acordada por el juez de oficio o a instancia de la víctima o persona que tenga con ella alguna de las relaciones indicadas en el apartado anterior, o del Ministerio Fiscal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t11-electricitat-man11-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 11. Electricitat",
+    "topic_slug": "bomb-t11-electricitat",
+    "locale": "ca",
+    "category": "bomb_t11_electricitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.005 Manual operatiu bàsic d'electricitat (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.005, § sentit del corrent",
+      "stem": "Segons el Manual operatiu bàsic d'electricitat, en quin sentit es mouen realment els electrons en un circuit?",
+      "options": [
+        "Des del pol positiu cap al pol negatiu.",
+        "Del neutre a la fase.",
+        "En els dos sentits alhora, en qualsevol tipus de corrent.",
+        "Des del pol negatiu cap al pol positiu."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Per convenció històrica es va dir que el corrent anava del + al −, però físicament els electrons van del pol negatiu (excés d'electrons) al positiu.",
+      "excerpt": "No obstant això, en la realitat física, els electrons es mouen des del pol negatiu (on hi ha un excés d'electrons) cap al pol positiu (on hi ha una manca d'electrons).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § corrent continu",
+      "stem": "Segons el manual d'electricitat, quin és un exemple de font de corrent continu?",
+      "options": [
+        "La xarxa elèctrica domèstica.",
+        "Un alternador de central.",
+        "Una bateria.",
+        "La presa de corrent de 230 V d'un habitatge."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "En el corrent continu els electrons circulen sempre en el mateix sentit: piles, bateries i panells solars. A les llars arriba corrent altern.",
+      "excerpt": "Els electrons circulen sempre en el mateix sentit. […] Piles, bateries, panells solars.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § materials aïllants",
+      "stem": "Segons el manual d'electricitat, quin dels materials següents és un aïllant?",
+      "options": [
+        "El vidre.",
+        "El coure.",
+        "L'aigua amb sals.",
+        "El silici."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Són aïllants el plàstic, la goma, el vidre, la ceràmica, la fusta seca i l'aire. El coure i l'aigua amb sals són conductors, i el silici és un semiconductor.",
+      "excerpt": "Exemples: plàstic, goma, vidre, ceràmica, fusta seca, aire.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § resistència",
+      "stem": "Com defineix el manual d'electricitat la resistència elèctrica?",
+      "options": [
+        "La quantitat de càrrega que passa per un punt en un segon.",
+        "L'oposició que un material presenta al pas del corrent elèctric.",
+        "La diferència de potencial entre dos punts.",
+        "L'energia consumida per unitat de temps."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La resistència és l'oposició al pas del corrent i és inversa a la conductivitat; la càrrega per segon és la intensitat.",
+      "excerpt": "Resistència La resistència elèctrica és l'oposició que un material presenta al pas del corrent elèctric.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § intensitat",
+      "stem": "Segons el manual d'electricitat, un ampere equival a:",
+      "options": [
+        "El pas d'un coulomb de càrrega per cada segon.",
+        "Un volt per cada ohm al quadrat.",
+        "Un joule per cada coulomb.",
+        "Un watt per cada hora."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La intensitat és la càrrega que passa per un punt del circuit per unitat de temps: 1 A = 1 C/s.",
+      "excerpt": "Un ampere es defineix com el pas d'un Coulomb de càrrega per cada segon.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § efecte Joule",
+      "stem": "Segons el manual d'electricitat, l'efecte Joule és:",
+      "options": [
+        "La generació de corrent en moure un imant dins d'una bobina.",
+        "La relació entre tensió, intensitat i resistència.",
+        "La ruptura d'un aïllant quan se supera la seva tensió de ruptura.",
+        "La transformació d'energia elèctrica en calor quan el corrent circula per un conductor amb resistència."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'efecte Joule és l'escalfament dels conductors pel pas del corrent; és útil en una estufa i perjudicial quan sobreescalfa els cables.",
+      "excerpt": "Efecte Joule L’efecte Joule és la transformació d’energia elèctrica en calor quan el corrent circula per un conductor amb resistència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § llei d'Ohm",
+      "stem": "Segons la llei d'Ohm tal com la formula el manual d'electricitat, la intensitat que circula per un conductor és:",
+      "options": [
+        "Directament proporcional a la resistència i inversament proporcional a la tensió.",
+        "Directament proporcional al quadrat de la tensió.",
+        "Directament proporcional a la tensió aplicada i inversament proporcional a la resistència.",
+        "Independent de la resistència del conductor."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "I = V / R: més tensió, més intensitat; més resistència, menys intensitat.",
+      "excerpt": "\"La intensitat de corrent que circula per un conductor és directament proporcional a la tensió aplicada en els seus extrems i inversament proporcional a la resistència del conductor.\"",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § resistència i temperatura",
+      "stem": "Segons el manual d'electricitat, com varia la resistència de la majoria de materials quan augmenta la temperatura?",
+      "options": [
+        "Disminueix.",
+        "Augmenta.",
+        "No varia.",
+        "Es fa nul·la."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En la majoria de materials, a més temperatura, més resistència.",
+      "excerpt": "La resistència varia amb la temperatura, en la majoria de materials a més temperatura més resistència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § connexió en sèrie",
+      "stem": "En un circuit de receptors connectats en sèrie, quina afirmació és CORRECTA segons el manual d'electricitat?",
+      "options": [
+        "La tensió és la mateixa en tots els receptors i la intensitat es reparteix.",
+        "Si un receptor falla, els altres continuen funcionant.",
+        "Cada receptor té el seu propi camí independent des de la font.",
+        "La intensitat és la mateixa per a tots els elements i la tensió es reparteix entre els receptors."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En sèrie hi ha un únic camí: la intensitat és comuna, la tensió es reparteix i, si un receptor falla, el circuit s'obre.",
+      "excerpt": "La intensitat (I) és la mateixa per a tots els elements. […] La tensió (V) es reparteix entre els receptors.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § connexió en sèrie",
+      "stem": "Segons el manual d'electricitat, què passa en un circuit en sèrie si un dels receptors es desconnecta o falla?",
+      "options": [
+        "El circuit s'obre i tots els receptors deixen de funcionar.",
+        "Només deixa de funcionar el receptor afectat.",
+        "La tensió dels altres receptors augmenta i continuen funcionant.",
+        "La intensitat es duplica en la resta de receptors."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Com que en sèrie hi ha un únic camí per al corrent, la fallada d'un element obre tot el circuit.",
+      "excerpt": "Si un receptor es desconnecta o falla, el circuit s’obre i tots deixen de funcionar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § connexió en paral·lel",
+      "stem": "Segons el manual d'electricitat, en una connexió en paral·lel:",
+      "options": [
+        "La intensitat és la mateixa en tots els receptors.",
+        "La tensió és la mateixa en tots els receptors i coincideix amb la de la font.",
+        "La tensió de la font es reparteix entre els receptors.",
+        "Tots els receptors comparteixen un únic camí per al corrent."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En paral·lel cada receptor té el seu camí: tots reben la tensió de la font i la intensitat total es divideix entre les branques.",
+      "excerpt": "La tensió (V) és la mateixa en tots els receptors i coincideix amb la de la font.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § tensió eficaç",
+      "stem": "Segons el manual d'electricitat, quina és la tensió eficaç entre fase i neutre a Europa?",
+      "options": [
+        "325 V.",
+        "400 V.",
+        "230 V.",
+        "125 V."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La tensió eficaç fase-neutre és de 230 V; el valor de pic de l'ona sinusoïdal és d'uns 325 V.",
+      "excerpt": "A Europa la tensió eficaç entre fase i neutre és de 230 V.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § tensió de pic",
+      "stem": "En una xarxa de corrent altern de 230 V eficaços, quin voltatge màxim de pic assoleix aproximadament l'ona sinusoïdal segons el manual d'electricitat?",
+      "options": [
+        "230 V.",
+        "Uns 400 V.",
+        "Uns 163 V.",
+        "Uns 325 V."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La tensió puja i baixa al llarg del cicle; el pic arriba a uns 325 V, mentre que 230 V és el valor eficaç (RMS).",
+      "excerpt": "El voltatge màxim de pic al que arriba la ona sinusoïdal són aproximadament 325 V.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § corrent trifàsic",
+      "stem": "Segons el manual d'electricitat, quin desfasament hi ha entre els tres corrents d'un sistema trifàsic?",
+      "options": [
+        "90°.",
+        "180°.",
+        "120°.",
+        "60°."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El trifàsic es basa en tres corrents alterns desfasats 120° entre si, cosa que dona un treball constant i uniforme.",
+      "excerpt": "Es basa en tres corrents alterns desfasats entre sí 120°.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § semiconductors",
+      "stem": "Segons el manual d'electricitat, quin d'aquests materials és un semiconductor?",
+      "options": [
+        "L'alumini.",
+        "El germani.",
+        "La ceràmica.",
+        "La fusta seca."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els semiconductors (silici, germani) tenen una conductivitat intermèdia que es pot controlar i són la base dels components electrònics.",
+      "excerpt": "Tenen una conductivitat intermèdia que es pot controlar, i són la base dels components electrònics. […] Exemples: silici, germani.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § factor de potència",
+      "stem": "Segons el manual d'electricitat, el factor de potència és la relació entre:",
+      "options": [
+        "La potència activa i la potència aparent.",
+        "La potència reactiva i la potència activa.",
+        "La tensió de pic i la tensió eficaç.",
+        "La intensitat de fase i la intensitat de línia."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El factor de potència (cos φ) mesura l'eficiència de l'ús de l'energia: potència activa (la que fa treball) dividida per la potència aparent (la total subministrada).",
+      "excerpt": "És la relació entre la potència activa (la que realment fa treball) i la potència aparent (la potència total que es subministra).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § fibril·lació ventricular",
+      "stem": "Segons el manual d'electricitat, quin és el llindar crític d'intensitat de corrent altern (a 50 Hz) per sota del qual la probabilitat de fibril·lació ventricular és menor en un percentatge elevat de la població?",
+      "options": [
+        "30 mA.",
+        "3 mA.",
+        "300 mA.",
+        "3 A."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Per sota de 30 mA hi pot haver dolor i contraccions, però la fibril·lació és menys probable. Amb corrent continu no es produeix fibril·lació ventricular.",
+      "excerpt": "S'ha establert el llindar crític de 30 mA (a 50 Hz): per sota d'aquest valor, tot i que es pot experimentar dolor, contraccions musculars o dificultat per respirar, la probabilitat de fibril·lació ventricular és menor en un percentatge elevat de la població.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § corrent continu i cos humà",
+      "stem": "Segons el manual d'electricitat, quina afirmació és CORRECTA sobre els efectes del corrent continu (DC) en el cor?",
+      "options": [
+        "Produeix fibril·lació ventricular a partir de 3 mA.",
+        "No té cap efecte sobre el cor, sigui quina sigui la intensitat.",
+        "No produeix fibril·lació ventricular, però a intensitats altes pot provocar una contracció involuntària que acabi en aturada cardíaca.",
+        "És més perillós que l'altern perquè produeix fibril·lació a qualsevol intensitat."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El manual diu que amb DC no hi ha fibril·lació ventricular, però sí que hi pot haver una contracció involuntària del cor i aturada cardíaca amb intensitats superiors.",
+      "excerpt": "Amb corrent continu (DC), no es produeix fibril·lació ventricular. […] No obstant això, amb intensitats superiors, sí que pot haver-hi una contracció involuntària del cor que resulti en una aturada cardíaca.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § tensió de pas",
+      "stem": "Prop d'un cable d'alta tensió caigut a terra, què recomana el manual d'electricitat per reduir el risc de la tensió de pas?",
+      "options": [
+        "Fer passes llargues per allunyar-se com més aviat millor.",
+        "Fer passos petits amb els peus ben junts i tocant-se, sense estirar-se a terra ni caure.",
+        "Estirar-se a terra per repartir el contacte.",
+        "Córrer saltant amb els dos peus alhora."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Com més separats estan els peus i més a prop del cable, més diferència de potencial i més corrent pel cos; per això cal fer passos petits amb els peus junts.",
+      "excerpt": "En aquests casos es recomana fer passos petits amb els peus ben junts i tocant-se, i mai estirar-se a terra ni caure.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § conductors",
+      "stem": "Segons el manual d'electricitat, quina característica d'un conductor li permet transportar més corrent?",
+      "options": [
+        "Que sigui més llarg i més prim.",
+        "Que estigui a més temperatura.",
+        "Que sigui d'un material amb més resistència.",
+        "Que sigui més curt i més gruixut."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Com més curt i gruixut és el conductor, menys resistència ofereix i més corrent pot transportar.",
+      "excerpt": "Com més curt i gruixut és el conductor, més corrent pot transportar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

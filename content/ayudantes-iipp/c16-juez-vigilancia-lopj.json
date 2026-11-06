@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "set": "iipp-c16-juez-vigilancia-lopj-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penitenciario, tema 16. El Juez de Vigilancia Penitenciaria",
+    "topic_slug": "iipp-c16-juez-vigilancia",
+    "locale": "es",
+    "category": "iipp_c16_juez_vigilancia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 92.1 LOPJ",
+      "stem": "Tras la reforma de la Ley Orgánica del Poder Judicial que implanta los Tribunales de Instancia, ¿dónde existe con carácter general una Sección de Vigilancia Penitenciaria?",
+      "options": [
+        "En cada Audiencia Provincial.",
+        "En cada Tribunal Superior de Justicia.",
+        "En la Audiencia Nacional exclusivamente.",
+        "En el Tribunal de Instancia con sede en la capital de cada provincia, dentro del orden jurisdiccional penal."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 92.1 LOPJ vigente sitúa la Sección de Vigilancia Penitenciaria en el Tribunal de Instancia de la capital de provincia.",
+      "excerpt": "Con carácter general, en el Tribunal de Instancia con sede en la capital de cada provincia, dentro del orden jurisdiccional penal, existirá una Sección de Vigilancia Penitenciaria",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 92.1 LOPJ",
+      "stem": "Entre las funciones que el artículo 92 de la Ley Orgánica del Poder Judicial atribuye a la Sección de Vigilancia Penitenciaria figura:",
+      "options": [
+        "El control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias.",
+        "El enjuiciamiento de los delitos cometidos en el interior de los centros.",
+        "La instrucción de las causas contra funcionarios de prisiones.",
+        "La gestión de las penas y medidas alternativas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 92.1 LOPJ enumera, entre otras, el control de la potestad disciplinaria.",
+      "excerpt": "control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias, amparo de los derechos y beneficios de los internos en los establecimientos penitenciarios",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª.1 LOPJ",
+      "stem": "Según la disposición adicional quinta de la Ley Orgánica del Poder Judicial, el recurso de reforma puede interponerse:",
+      "options": [
+        "Solo contra los autos que resuelvan sobre clasificación.",
+        "Solo contra las providencias del Juez de Vigilancia.",
+        "Contra todos los autos del Juez de Vigilancia Penitenciaria.",
+        "Contra los acuerdos de la Junta de Tratamiento."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La DA 5.ª.1 LOPJ admite reforma contra todos los autos del JVP.",
+      "excerpt": "El recurso de reforma podrá interponerse contra todos los autos del Juez de Vigilancia Penitenciaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª.2 LOPJ",
+      "stem": "Las resoluciones del Juez de Vigilancia en materia de ejecución de penas son recurribles en apelación y queja, según la disposición adicional quinta de la Ley Orgánica del Poder Judicial, ante:",
+      "options": [
+        "La Audiencia Provincial del lugar del establecimiento.",
+        "El Tribunal Supremo.",
+        "El Tribunal Superior de Justicia.",
+        "El tribunal sentenciador."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La DA 5.ª.2 LOPJ remite al tribunal sentenciador en materia de ejecución de penas; en régimen penitenciario conoce la Audiencia Provincial (DA 5.ª.3).",
+      "excerpt": "Las resoluciones del Juez de Vigilancia Penitenciaria en materia de ejecución de penas serán recurribles en apelación y queja ante el tribunal sentenciador",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª.3 LOPJ",
+      "stem": "De la apelación contra las resoluciones del Juez de Vigilancia en materia de régimen penitenciario conoce, según la disposición adicional quinta de la Ley Orgánica del Poder Judicial:",
+      "options": [
+        "El tribunal sentenciador.",
+        "La Audiencia Provincial en cuya demarcación esté situado el establecimiento penitenciario.",
+        "La Sala de lo Penal del Tribunal Supremo.",
+        "El Juez Central de Vigilancia Penitenciaria."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La DA 5.ª.3 LOPJ atribuye la apelación a la Audiencia Provincial del lugar del establecimiento.",
+      "excerpt": "Conocerá de la apelación o de la queja la Audiencia Provincial que corresponda, por estar situado dentro de su demarcación el establecimiento penitenciario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª.2 LOPJ",
+      "stem": "Si el penado cumple varias penas y recurre en apelación una resolución del Juez de Vigilancia en materia de ejecución, la competencia corresponde, según la disposición adicional quinta de la Ley Orgánica del Poder Judicial:",
+      "options": [
+        "Al juzgado o tribunal que impuso la primera condena.",
+        "Al juzgado o tribunal que haya impuesto la pena privativa de libertad más grave.",
+        "A la Audiencia Provincial del lugar del establecimiento.",
+        "Al tribunal que impuso la condena más reciente, en todo caso."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La DA 5.ª.2 LOPJ atribuye la competencia al que impuso la pena más grave; si son iguales, al que la impuso en último lugar.",
+      "excerpt": "la competencia para resolver el recurso corresponderá al juzgado o tribunal que haya impuesto la pena privativa de libertad más grave",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª.4 LOPJ",
+      "stem": "Según la disposición adicional quinta de la Ley Orgánica del Poder Judicial, el recurso de queja contra resoluciones del Juez de Vigilancia solo puede interponerse:",
+      "options": [
+        "Contra las resoluciones en que se deniegue la admisión de un recurso de apelación.",
+        "Contra cualquier auto del Juez de Vigilancia.",
+        "Contra las resoluciones sobre permisos.",
+        "Contra las resoluciones dictadas en apelación."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DA 5.ª.4 LOPJ limita la queja a la inadmisión de la apelación.",
+      "excerpt": "El recurso de queja a que se refieren los apartados anteriores sólo podrá interponerse contra las resoluciones en que se deniegue la admisión de un recurso de apelación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "DA 5.ª.5 LOPJ",
+      "stem": "El recurso de apelación contra una resolución sobre clasificación o libertad condicional que pueda dar lugar a la excarcelación de un condenado por delito grave, según la disposición adicional quinta de la Ley Orgánica del Poder Judicial:",
+      "options": [
+        "Carece de efecto suspensivo.",
+        "Solo tiene efecto suspensivo si lo pide el interno.",
+        "Se resuelve por el propio Juez de Vigilancia.",
+        "Tiene efecto suspensivo y se tramita con carácter preferente y urgente."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La DA 5.ª.5 LOPJ establece el efecto suspensivo y la tramitación preferente y urgente.",
+      "excerpt": "el recurso tendrá efecto suspensivo que impedirá la puesta en libertad del condenado hasta la resolución del recurso",
+      "excerpt_status": "completo"
+    }
+  ]
+}

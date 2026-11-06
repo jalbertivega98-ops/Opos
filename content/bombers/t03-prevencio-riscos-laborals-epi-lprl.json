@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "set": "bomb-t03-prevencio-riscos-laborals-epi-lprl-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 3. Prevenció de riscos laborals i equips de protecció individual",
+    "topic_slug": "bomb-t03-prevencio-riscos-laborals-epi",
+    "locale": "ca",
+    "category": "bomb_t03_prevencio_riscos_laborals_epi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2 Llei 31/1995",
+      "stem": "Quin és l'objecte de la Llei 31/1995, de prevenció de riscos laborals?",
+      "options": [
+        "Regular les indemnitzacions per accident de treball.",
+        "Promoure la seguretat i la salut dels treballadors mitjançant l'aplicació de mesures i activitats necessàries per prevenir els riscos derivats del treball.",
+        "Establir el règim sancionador de les empreses en matèria de Seguretat Social.",
+        "Regular exclusivament els equips de protecció individual."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 2.1 LPRL en fixa l'objecte.",
+      "excerpt": "La presente Ley tiene por objeto promover la seguridad y la salud de los trabajadores mediante la aplicación de medidas y el desarrollo de las actividades necesarias para la prevención de riesgos derivados del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4 Llei 31/1995",
+      "stem": "Com defineix la Llei 31/1995 el «risc laboral»?",
+      "options": [
+        "El dany efectivament patit per un treballador a causa del treball.",
+        "Qualsevol malaltia professional reconeguda.",
+        "La infracció de la normativa de seguretat per part de l'empresari.",
+        "La possibilitat que un treballador pateixi un dany determinat derivat del treball."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Per qualificar-ne la gravetat es valoren conjuntament la probabilitat i la severitat del dany (art. 4.2).",
+      "excerpt": "Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15 Llei 31/1995",
+      "stem": "Quin és el primer principi de l'acció preventiva enumerat a l'article 15 de la Llei 31/1995?",
+      "options": [
+        "Adaptar el treball a la persona.",
+        "Proporcionar EPI a tots els treballadors.",
+        "Evitar els riscos.",
+        "Formar els treballadors."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 15.1.a LPRL encapçala els principis amb «evitar els riscos».",
+      "excerpt": "a) Evitar los riesgos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14 Llei 31/1995",
+      "stem": "Quin dret reconeix l'article 14.1 de la Llei 31/1995 als treballadors?",
+      "options": [
+        "El dret a una protecció eficaç en matèria de seguretat i salut en el treball.",
+        "El dret a triar lliurement els seus EPI.",
+        "El dret a no fer cap activitat amb risc.",
+        "El dret a una indemnització anual per risc."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Aquest dret suposa el correlatiu deure de l'empresari de protegir els treballadors.",
+      "excerpt": "Los trabajadores tienen derecho a una protección eficaz en materia de seguridad y salud en el trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 Llei 31/1995",
+      "stem": "Segons l'article 3.2 de la Llei 31/1995, la Llei no és aplicable en quines activitats de les funcions públiques?",
+      "options": [
+        "En qualsevol actuació dels bombers.",
+        "En els serveis operatius de protecció civil en casos de risc greu, catàstrofe i calamitat pública, quan les seves particularitats ho impedeixin.",
+        "En totes les activitats de les administracions públiques.",
+        "En els serveis administratius dels cossos de seguretat."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'exclusió és limitada a les activitats amb particularitats que ho impedeixin; la Llei inspira la normativa específica d'aquests col·lectius.",
+      "excerpt": "Servicios operativos de protección civil y peritaje forense en los casos de grave riesgo, catástrofe y calamidad pública.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 Llei 31/1995",
+      "stem": "Quin paper té la Llei 31/1995 respecte de la normativa específica dels col·lectius exclosos (com els serveis operatius de protecció civil)?",
+      "options": [
+        "Cap; aquests col·lectius queden sense protecció legal.",
+        "Se'ls aplica íntegrament de manera supletòria.",
+        "La Llei inspira la normativa específica que es dicti per protegir-ne la seguretat i la salut.",
+        "Només se'ls aplica el règim sancionador."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Art. 3.2, paràgraf final, LPRL.",
+      "excerpt": "No obstante, esta Ley inspirará la normativa específica que se dicte para regular la protección de la seguridad y la salud de los trabajadores que prestan sus servicios en las indicadas actividades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15 Llei 31/1995",
+      "stem": "D'acord amb els principis de l'acció preventiva, quina mena de protecció s'ha d'anteposar?",
+      "options": [
+        "La protecció individual a la col·lectiva.",
+        "La protecció del material a la de les persones.",
+        "La protecció col·lectiva a la individual.",
+        "La protecció passiva a l'activa."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Art. 15.1.h LPRL.",
+      "excerpt": "Adoptar medidas que antepongan la protección colectiva a la individual.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 29 Llei 31/1995",
+      "stem": "Quina d'aquestes és una obligació dels treballadors segons l'article 29 de la Llei 31/1995?",
+      "options": [
+        "Utilitzar correctament els mitjans i equips de protecció facilitats per l'empresari.",
+        "Contractar un servei de prevenció aliè.",
+        "Avaluar els riscos del lloc de treball.",
+        "Constituir el comitè de seguretat i salut."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les altres opcions són obligacions o decisions que corresponen a l'empresari o als òrgans de participació.",
+      "excerpt": "Utilizar correctamente los medios y equipos de protección facilitados por el empresario, de acuerdo con las instrucciones recibidas de éste.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 30 Llei 31/1995",
+      "stem": "Com pot organitzar l'empresari l'activitat preventiva segons l'article 30.1 de la Llei 31/1995?",
+      "options": [
+        "Només mitjançant un servei de prevenció aliè.",
+        "Només a través de la mútua d'accidents.",
+        "Delegant-ho en el comitè d'empresa.",
+        "Designant un o diversos treballadors, constituint un servei de prevenció o concertant-lo amb una entitat especialitzada aliena."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Art. 30.1 LPRL.",
+      "excerpt": "el empresario designará uno o varios trabajadores para ocuparse de dicha actividad, constituirá un servicio de prevención o concertará dicho servicio con una entidad especializada ajena a la empresa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35 Llei 31/1995",
+      "stem": "Qui són els delegats de prevenció segons la Llei 31/1995?",
+      "options": [
+        "Tècnics designats per l'empresari per fer l'avaluació de riscos.",
+        "Inspectors de treball adscrits a l'empresa.",
+        "Els representants dels treballadors amb funcions específiques en matèria de prevenció de riscos.",
+        "Membres del servei de prevenció aliè."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Art. 35.1 LPRL; són designats per i entre els representants del personal.",
+      "excerpt": "Los Delegados de Prevención son los representantes de los trabajadores con funciones específicas en materia de prevención de riesgos en el trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 38 Llei 31/1995",
+      "stem": "A partir de quants treballadors s'ha de constituir un comitè de seguretat i salut a l'empresa o centre de treball?",
+      "options": [
+        "25 o més treballadors.",
+        "50 o més treballadors.",
+        "100 o més treballadors.",
+        "250 o més treballadors."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "És un òrgan paritari i col·legiat de participació (art. 38.1 i 38.2 LPRL).",
+      "excerpt": "Se constituirá un Comité de Seguridad y Salud en todas las empresas o centros de trabajo que cuenten con 50 o más trabajadores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35 Llei 31/1995",
+      "stem": "Segons l'escala de l'article 35.2 de la Llei 31/1995, quants delegats de prevenció corresponen a un centre de 101 a 500 treballadors?",
+      "options": [
+        "2 delegats de prevenció.",
+        "4 delegats de prevenció.",
+        "3 delegats de prevenció.",
+        "5 delegats de prevenció."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "De 50 a 100 treballadors en corresponen 2; de 101 a 500, 3.",
+      "excerpt": "De 101 a 500 trabajadores: 3 Delegados de Prevención.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21 Llei 31/1995",
+      "stem": "Davant d'un risc greu, imminent i inevitable, quina obligació té l'empresari segons l'article 21 de la Llei 31/1995?",
+      "options": [
+        "Mantenir l'activitat fins que arribi la Inspecció de Treball.",
+        "Demanar autorització al comitè de seguretat i salut abans d'evacuar.",
+        "Sancionar els treballadors que abandonin el lloc.",
+        "Adoptar mesures i donar instruccions perquè els treballadors puguin interrompre l'activitat i, si cal, abandonar immediatament el lloc de treball."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En aquest supòsit no es pot exigir als treballadors que reprenguin l'activitat mentre persisteixi el perill, llevat d'excepcions justificades per seguretat.",
+      "excerpt": "los trabajadores puedan interrumpir su actividad y, si fuera necesario, abandonar de inmediato el lugar de trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4 Llei 31/1995",
+      "stem": "Per qualificar la gravetat d'un risc laboral, què s'ha de valorar segons la Llei 31/1995?",
+      "options": [
+        "Conjuntament la probabilitat que es produeixi el dany i la severitat d'aquest.",
+        "Només la severitat del dany possible.",
+        "Només la freqüència d'accidents de l'empresa.",
+        "El cost econòmic de les mesures preventives."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Art. 4.2 LPRL.",
+      "excerpt": "Para calificar un riesgo desde el punto de vista de su gravedad, se valorarán conjuntamente la probabilidad de que se produzca el daño y la severidad del mismo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

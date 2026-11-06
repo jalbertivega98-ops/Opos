@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "bomb-t07-guardia-comandament-departament-d12-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 7. Decret 276/2016, de guàrdia i comandament, i Decret 12/2023, del Departament d'Interior",
+    "topic_slug": "bomb-t07-guardia-comandament-departament",
+    "locale": "ca",
+    "category": "bomb_t07_guardia_comandament_departament",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Decret 12/2023, de 24 de gener, de reestructuració del Departament d'Interior i Seguretat Pública",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2023/01/24/12",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Portal Jurídic de Catalunya",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 Decret 12/2023",
+      "stem": "Quina direcció general del Departament d'Interior té atribuïda la matèria de prevenció i extinció d'incendis segons el Decret 12/2023?",
+      "options": [
+        "La Direcció General de Protecció Civil.",
+        "La Direcció General de Prevenció, Extinció d'Incendis i Salvaments.",
+        "La Direcció General d'Administració de Seguretat.",
+        "La Secretaria General."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Art. 1.1 i 36 del Decret 12/2023.",
+      "excerpt": "b) La Direcció General de Prevenció, Extinció d'Incendis i Salvaments.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36 Decret 12/2023",
+      "stem": "Segons el Decret 12/2023, a qui correspon el comandament del Cos de Bombers de la Generalitat?",
+      "options": [
+        "Al secretari o secretària general del Departament.",
+        "Al director o directora general de Prevenció, Extinció d'Incendis i Salvaments.",
+        "Al director o directora general de Protecció Civil.",
+        "Al president o presidenta de la Generalitat."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Art. 36.2 del Decret 12/2023, que també li atribueix la direcció, coordinació i inspecció dels serveis.",
+      "excerpt": "Corresponen al director o directora general de Prevenció, Extinció d'Incendis i Salvaments el comandament del Cos de Bombers de la Generalitat",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 60 Decret 12/2023",
+      "stem": "A quina unitat han de comunicar els parcs de bombers totes les incidències del servei segons el Decret 12/2023?",
+      "options": [
+        "Directament al director general.",
+        "A l'ajuntament del municipi.",
+        "A la Unitat de Sala Territorial de Coordinació d'Emergències de la regió corresponent.",
+        "A la Direcció General de Protecció Civil."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Art. 60.1.c del Decret 12/2023.",
+      "excerpt": "Comunicar a la Unitat de Sala Territorial de Coordinació d'Emergències de la regió corresponent totes les incidències del servei.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37 Decret 12/2023",
+      "stem": "Quins són els òrgans territorials de l'estructura organitzativa del Cos de Bombers segons el Decret 12/2023, en ordre descendent?",
+      "options": [
+        "Divisió, àrea central, unitat central i grup.",
+        "Regió, àrea regional, unitat regional i parc.",
+        "Comarca, municipi, parc i torn.",
+        "Vegueria, regió, sector i parc."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Els òrgans centrals són divisió, àrea central, unitat central i grup (art. 37.1).",
+      "excerpt": "b) Òrgans territorials: Regió, Àrea Regional, Unitat Regional i Parc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37 Decret 12/2023",
+      "stem": "Quina d'aquestes NO és una de les regions d'emergències del Cos de Bombers segons el Decret 12/2023?",
+      "options": [
+        "Regió Pirineu.",
+        "Regió Centre.",
+        "Regió de les Terres de l'Ebre.",
+        "Regió Metropolitana Sud."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Les regions són Centre, Girona, Lleida, Tarragona, les Terres de l'Ebre, Metropolitana Nord i Metropolitana Sud (art. 37.8); són la denominació operativa de les brigades de la Llei 5/1994 (art. 37.9).",
+      "excerpt": "Centre, Girona, Lleida, Tarragona, les Terres de l'Ebre, Metropolitana Nord i Metropolitana Sud.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

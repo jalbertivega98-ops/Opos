@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "plcatexamen-2026-terrassa-lesp-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Examen rèplica · Terrassa 2026 (1f/AGENTS/2026), exercici teòric: 50 preguntes",
+    "topic_slug": "plcatexamen-2026-terrassa",
+    "locale": "ca",
+    "category": "plcatexamen_2026_terrassa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 11/2009, de 6 de julio, de regulación administrativa de los espectáculos públicos y las actividades recreativas (Cataluña) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-12856",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Rèplica original pregunta a pregunta de l'examen oficial publicat per l'ajuntament (mateixa norma i article, mateix tipus i dificultat; redacció i distractors propis, mai copiats). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 57.1 Llei 11/2009",
+      "stem": "Segons la Llei 11/2009, d'espectacles públics i activitats recreatives, en quin termini prescriuen les infraccions molt greus?",
+      "options": [
+        "Al cap de dos anys.",
+        "Al cap de sis mesos.",
+        "Al cap de quatre anys.",
+        "Al cap de tres anys."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Rèplica de la pregunta 12 de Terrassa 2026. L'article 57.1 fixa tres anys (molt greus), dos (greus) i sis mesos (lleus).",
+      "excerpt": "Las faltas muy graves prescriben al cabo de tres años; las faltas graves, al cabo de dos años, y las faltas leves, al cabo de seis meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33.2 Llei 11/2009",
+      "stem": "Segons la Llei 11/2009, si l'Administració no resol de manera expressa dins de termini una sol·licitud de llicència d'espectacles o activitats recreatives, la falta de resolució té efectes:",
+      "options": [
+        "Estimatoris.",
+        "Suspensius fins que es resolgui.",
+        "D'autorització provisional per sis mesos.",
+        "Denegatoris."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Rèplica de la pregunta 22 de Terrassa 2026. L'article 33.2 de la Llei 11/2009 estableix el silenci negatiu.",
+      "excerpt": "La falta de resolución expresa dentro de los plazos establecidos tiene efectos denegatorios de la solicitud presentada",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 62 Llei 11/2009",
+      "stem": "Segons la Llei 11/2009, abans d'obrir el procediment sancionador, l'òrgan competent pot adoptar mesures provisionals prèvies per suspendre un espectacle, entre altres supòsits:",
+      "options": [
+        "Només si ho autoritza prèviament el jutge.",
+        "Si es produeixen alteracions de l'ordre públic amb perill per a persones i béns.",
+        "Només després d'escoltar el titular durant deu dies.",
+        "Mai: les mesures provisionals només es poden adoptar un cop obert l'expedient."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Rèplica de la pregunta 23 de Terrassa 2026. L'article 62 enumera els supòsits de mesures provisionals prèvies; si hi ha indicis de delicte, s'ha de comunicar al jutge en 48 hores.",
+      "excerpt": "b) Si en el transcurso de los espectáculos o de las actividades se producen alteraciones del orden público, con peligro para personas y bienes, o se puede prever de forma fundada que se producirán.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

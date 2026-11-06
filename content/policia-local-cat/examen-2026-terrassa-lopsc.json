@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "plcatexamen-2026-terrassa-lopsc-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Examen rèplica · Terrassa 2026 (1f/AGENTS/2026), exercici teòric: 50 preguntes",
+    "topic_slug": "plcatexamen-2026-terrassa",
+    "locale": "ca",
+    "category": "plcatexamen_2026_terrassa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Rèplica original pregunta a pregunta de l'examen oficial publicat per l'ajuntament (mateixa norma i article, mateix tipus i dificultat; redacció i distractors propis, mai copiats). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 16.2 LO 4/2015",
+      "stem": "Quant temps com a màxim pot durar la permanència a dependències policials per practicar una identificació segons la LO 4/2015?",
+      "options": [
+        "Vint-i-quatre hores.",
+        "Sis hores.",
+        "Tres hores.",
+        "Setanta-dues hores."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Rèplica de la pregunta 8 de Terrassa 2026. Article 16.2 LO 4/2015.",
+      "excerpt": "por el tiempo estrictamente necesario, que en ningún caso podrá superar las seis horas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.2-4 LO 4/2015",
+      "stem": "Quan una persona és traslladada a dependències policials per identificar-la, quina d'aquestes garanties NO preveu la LO 4/2015?",
+      "options": [
+        "Ser informada de manera immediata i comprensible de les raons de la sol·licitud.",
+        "Rebre a la sortida un volant acreditatiu del temps de permanència, la causa i la identitat dels agents.",
+        "L'assistència obligatòria d'advocat.",
+        "Que la diligència consti en un llibre registre."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Rèplica de la pregunta 18 de Terrassa 2026. L'article 16 preveu informació, llibre registre i volant; no exigeix advocat, perquè no és una detenció.",
+      "excerpt": "se les deberá expedir a su salida un volante acreditativo del tiempo de permanencia en ellas, la causa y la identidad de los agentes actuantes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.1 LO 4/2015",
+      "stem": "Segons l'article 16.1 de la LO 4/2015, els agents poden requerir la identificació d'una persona:",
+      "options": [
+        "Sempre, sense necessitat de cap motiu.",
+        "Només amb autorització judicial.",
+        "Només si la persona és estrangera.",
+        "Quan hi ha indicis que ha pogut participar en la comissió d'una infracció o és raonablement necessari per prevenir un delicte."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Rèplica de la pregunta 29 de Terrassa 2026. Article 16.1.a i b LO 4/2015.",
+      "excerpt": "a) Cuando existan indicios de que han podido participar en la comisión de una infracción.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-eac-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-13087",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 84",
+      "stem": "(Rèplica 2023, núm. 3) Segons l'article 84 de l'Estatut d'autonomia, quina d'aquestes matèries és competència pròpia dels governs locals de Catalunya en els termes que determinin les lleis?",
+      "options": [
+        "La legislació penitenciària",
+        "Les relacions internacionals",
+        "La seguretat social",
+        "La protecció civil i la prevenció d'incendis"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 84.2 inclou entre les competències pròpies locals la protecció civil i la prevenció d'incendis.",
+      "excerpt": "La protección civil y la prevención de incendios",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21",
+      "stem": "(Rèplica 2023, núm. 4) A quin àmbit pertany el dret a l'educació regulat a l'article 21 de l'Estatut d'autonomia?",
+      "options": [
+        "Als drets polítics",
+        "Als drets lingüístics",
+        "Als drets i deures de l'àmbit civil i social",
+        "Als principis rectors de l'activitat econòmica"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 21 (educació) s'integra en el capítol de drets i deures de l'àmbit civil i social (arts. 15-28).",
+      "excerpt": "Todas las personas tienen derecho a una educación de calidad y a acceder a la misma en condiciones de igualdad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

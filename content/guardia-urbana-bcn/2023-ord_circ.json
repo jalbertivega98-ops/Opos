@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-ord_circ-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ordenança de circulació de vianants i de vehicles de Barcelona (text consolidat vigent, Norma. Portal Jurídic de Barcelona). Extracte literal",
+      "url": "https://ajuntament.barcelona.cat/norma-portal-juridic/ca/vid/840951923",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Norma. Portal Jurídic de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "VMP",
+      "stem": "(Rèplica 2023, núm. 30) Segons l'Ordenança de circulació de Barcelona, quantes persones pot transportar un patinet elèctric (VMP)?",
+      "options": [
+        "Una sola persona",
+        "Dues persones adultes",
+        "Una persona adulta i un menor",
+        "Tres persones si és de gran format"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els VMP són d'una única plaça i no poden anar ocupats per més d'una persona.",
+      "excerpt": "són vehicles d'una única plaça i no poden anar ocupats per més d'una persona",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Concurrència",
+      "stem": "(Rèplica 2023, núm. 31) Segons l'Ordenança de circulació de Barcelona, un vehicle estacionat en lloc prohibit durant quatre dies, quantes infraccions comet?",
+      "options": [
+        "Una sola infracció continuada",
+        "Dues infraccions",
+        "Cap, si no ha estat denunciat el primer dia",
+        "Quatre infraccions independents, una per cada dia"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Cada dia que un vehicle roman estacionat en lloc prohibit causa una infracció independent.",
+      "excerpt": "Cada dia que un vehicle romangui estacionat en lloc prohibit causa una infracció independent.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14",
+      "stem": "(Rèplica 2023, núm. 67, reserva) Segons l'Ordenança de circulació de Barcelona, quin grup màxim de bicicletes d'activitat turística pot circular pels carrers de 10 metres d'amplada o més?",
+      "options": [
+        "15 persones, amb fins a 3 assistents acreditats",
+        "9 persones, amb 1 assistent",
+        "20 persones, amb 2 assistents",
+        "12 persones, amb 3 assistents"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Als carrers de menys de 10 m el grup màxim és de 9 persones; a la resta, 15 persones acompanyades per 3 assistents.",
+      "excerpt": "15 persones a la resta de carrers del municipi. Aquest grup pot ser acompanyat per 3 ciclistes acreditats com assistents per la prestadora de l'activitat.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

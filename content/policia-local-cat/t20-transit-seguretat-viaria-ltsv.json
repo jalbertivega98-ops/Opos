@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "set": "plcat-t20-transit-seguretat-viaria-ltsv-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Tema 20. Trànsit i seguretat viària: text refós de la Llei de trànsit, Reglament general de circulació i Reglament general de conductors",
+    "topic_slug": "plcat-t20-transit-seguretat-viaria",
+    "locale": "ca",
+    "category": "plcat_t20_transit_seguretat_viaria",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto Legislativo 6/2015, de 30 de octubre, texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil dels exàmens d'agent de policia local de Catalunya (4 opcions, una correcta; cada error resta 1/4). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7 TRLTSV",
+      "stem": "Segons l'article 7 del text refós de la Llei de trànsit, circulació de vehicles de motor i seguretat viària (RDL 6/2015), correspon als municipis:",
+      "options": [
+        "La vigilància del trànsit a les autopistes que travessen el terme municipal.",
+        "L'expedició dels permisos de conducció.",
+        "La matriculació dels vehicles.",
+        "La regulació, ordenació, gestió, vigilància i disciplina, per mitjà d'agents propis, del trànsit a les vies urbanes de la seva titularitat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 7.a) TRLTSV atribueix als municipis la gestió i la disciplina del trànsit a les vies urbanes de la seva titularitat, inclosa la denúncia i la sanció de les infraccions quan no estigui atribuïda a una altra administració.",
+      "excerpt": "a) La regulación, ordenación, gestión, vigilancia y disciplina, por medio de agentes propios, del tráfico en las vías urbanas de su titularidad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.b TRLTSV",
+      "stem": "Segons l'article 7.b) del TRLTSV, els municipis poden regular mitjançant ordenança municipal de circulació:",
+      "options": [
+        "Els usos de les vies urbanes, inclòs l'establiment de mesures d'estacionament limitat per garantir la rotació dels aparcaments.",
+        "Els límits de taxa d'alcohol per conduir al municipi.",
+        "El sistema de punts del permís de conducció.",
+        "Les condicions tècniques de les inspeccions de vehicles."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 7.b) TRLTSV permet regular per ordenança els usos de les vies urbanes, la distribució dels aparcaments i l'estacionament limitat, amb atenció a les persones amb mobilitat reduïda.",
+      "excerpt": "b) La regulación mediante ordenanza municipal de circulación, de los usos de las vías urbanas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14 TRLTSV",
+      "stem": "Segons l'article 14.1 del TRLTSV, quina taxa d'alcohol màxima pot tenir un conductor MENOR D'EDAT?",
+      "options": [
+        "0,3 g/l en sang i 0,15 mg/l en aire espirat.",
+        "0,5 g/l en sang i 0,25 mg/l en aire espirat.",
+        "0 grams per litre en sang i 0 mil·ligrams per litre en aire espirat.",
+        "La mateixa que la dels conductors novells."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 14.1 TRLTSV fixa la taxa zero per als conductors menors d'edat.",
+      "excerpt": "En ningún caso el conductor menor de edad podrá circular por las vías con una tasa de alcohol en sangre superior a 0 gramos por litro o de alcohol en aire espirado superior a 0 miligramos por litro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 65 TRLTSV",
+      "stem": "Segons l'article 65.1 del TRLTSV, el titular d'un permís de conducció afectat per una pèrdua parcial de punts recupera la totalitat del crèdit inicial de dotze punts quan:",
+      "options": [
+        "Ha passat un any des de l'última sanció.",
+        "Fa un curs de reeducació vial, en tots els casos.",
+        "Han passat dos anys sense haver estat sancionat en ferm en via administrativa per infraccions que comporten pèrdua de punts.",
+        "Han passat tres anys des de l'obtenció del permís."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 65.1 TRLTSV fixa la recuperació total dels dotze punts després de dos anys sense sancions fermes que comportin pèrdua de punts.",
+      "excerpt": "1. Transcurridos dos años sin haber sido sancionados en firme en vía administrativa por la comisión de infracciones que lleven aparejada la pérdida de puntos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 80 TRLTSV",
+      "stem": "Segons l'article 80.1 del TRLTSV, amb caràcter general, les infraccions greus se sancionen amb multa de:",
+      "options": [
+        "Fins a 100 euros.",
+        "200 euros.",
+        "500 euros.",
+        "1.000 euros."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 80.1 TRLTSV fixa multa de fins a 100 euros (lleus), 200 euros (greus) i 500 euros (molt greus), llevat dels excessos de velocitat (annex IV) i d'altres supòsits especials.",
+      "excerpt": "1. Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves, con multa de 200 euros, y las muy graves, con multa de 500 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 82 TRLTSV",
+      "stem": "Segons l'article 82.b) del TRLTSV, quan l'autor d'una infracció de trànsit és menor de divuit anys, de la multa responen solidàriament amb ell:",
+      "options": [
+        "Els pares, tutors, acollidors i guardadors legals o de fet, per aquest ordre.",
+        "Només el titular del vehicle.",
+        "L'assegurança obligatòria del vehicle.",
+        "Ningú: la multa no es pot imposar a menors."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 82.b) TRLTSV estableix la responsabilitat solidària dels pares, tutors, acollidors i guardadors legals o de fet, per aquest ordre.",
+      "excerpt": "responderán solidariamente con él de la multa impuesta sus padres, tutores, acogedores y guardadores legales o de hecho, por este orden",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 104 TRLTSV",
+      "stem": "Quin d'aquests supòsits permet als agents immobilitzar el vehicle segons l'article 104.1 del TRLTSV?",
+      "options": [
+        "Que el conductor no porti el DNI.",
+        "Que el vehicle no tingui l'assegurança obligatòria.",
+        "Que el vehicle estigui brut.",
+        "Que el conductor hagi comès una infracció lleu d'estacionament."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 104.1 TRLTSV permet la immobilització, entre d'altres casos, quan el vehicle no té autorització per circular, té deficiències greus, el conductor o el passatger no porten casc o retenció infantil, hi ha negativa o resultat positiu en les proves, o no té assegurança obligatòria.",
+      "excerpt": "e) El vehículo carezca de seguro obligatorio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 104 TRLTSV",
+      "stem": "Segons l'article 104.1.c) del TRLTSV, la immobilització per no fer servir el casc de protecció o els dispositius de retenció infantil obligatoris:",
+      "options": [
+        "S'aplica a tots els vehicles, inclosos els ciclistes.",
+        "Només s'aplica a les motocicletes de més de 125 cc.",
+        "Només s'aplica si el conductor és menor d'edat.",
+        "No s'aplica als ciclistes."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'article 104.1.c) TRLTSV permet immobilitzar el vehicle per no dur casc o retenció infantil, però exclou expressament aquesta mesura per als ciclistes.",
+      "excerpt": "c) El conductor o el pasajero no hagan uso del casco de protección o de los dispositivos de retención infantil, en los casos en que fuera obligatorio. Esta medida no se aplicará a los ciclistas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105 TRLTSV",
+      "stem": "Segons l'article 105.1 del TRLTSV, l'autoritat encarregada de la gestió del trànsit pot retirar un vehicle de la via i dipositar-lo si l'obligat no ho fa:",
+      "options": [
+        "Només si porta més d'un mes estacionat al mateix lloc.",
+        "Només amb autorització judicial.",
+        "Sempre que constitueixi un perill, causi pertorbacions greus a la circulació de vehicles o vianants o deteriori algun servei o patrimoni públic.",
+        "Només si el titular té multes pendents."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 105.1 TRLTSV enumera els casos de retirada i dipòsit, el primer dels quals és el perill, la pertorbació greu de la circulació o el deteriorament d'un servei o patrimoni públic.",
+      "excerpt": "a) Siempre que constituya peligro, cause graves perturbaciones a la circulación de vehículos o peatones o deteriore algún servicio o patrimonio público.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 106 TRLTSV",
+      "stem": "Segons l'article 106.1.b) del TRLTSV, l'Administració pot ordenar el trasllat d'un vehicle a un centre autoritzat de tractament quan:",
+      "options": [
+        "Roman estacionat per un període superior a un mes al mateix lloc i presenta desperfectes que impossibiliten el seu desplaçament per mitjans propis o li falten les plaques de matrícula.",
+        "Roman estacionat més de quinze dies al mateix lloc, sigui quin sigui el seu estat.",
+        "El titular té més de tres multes impagades.",
+        "Ha passat la ITV desfavorable."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 106.1 TRLTSV preveu el tractament residual, entre d'altres casos, si el vehicle porta més d'un mes estacionat al mateix lloc amb desperfectes que n'impedeixen el desplaçament o sense plaques, o si en fa més de dos que està dipositat sense al·legacions del titular.",
+      "excerpt": "b) Cuando permanezca estacionado por un período superior a un mes en el mismo lugar y presente desperfectos que hagan imposible su desplazamiento por sus propios medios o le falten las placas de matrícula.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

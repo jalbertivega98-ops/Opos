@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t08-teoria-foc-agents-extintors-man08-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 8. Teoria del foc i agents extintors",
+    "topic_slug": "bomb-t08-teoria-foc-agents-extintors",
+    "locale": "ca",
+    "category": "bomb_t08_teoria_foc_agents_extintors",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.008 Manual operatiu bàsic de la teoria del foc i agents extintors (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.008, § mecanismes de transmissió de la calor",
+      "stem": "Segons el Manual operatiu bàsic de la teoria del foc i agents extintors, quins són els tres mecanismes principals de transmissió de la calor?",
+      "options": [
+        "Conducció, difusió i reflexió.",
+        "Convecció, piròlisi i radiació.",
+        "Radiació, inducció i evaporació.",
+        "Conducció, convecció i radiació."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El manual identifica tres mecanismes: la conducció (contacte directe entre molècules), la convecció (corrents del fluid escalfat) i la radiació (ones electromagnètiques).",
+      "excerpt": "Hi ha tres mecanismes principals de transmissió de la calor: conducció, convecció i radiació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § conducció",
+      "stem": "Com defineix el manual de teoria del foc la conducció?",
+      "options": [
+        "La transferència de calor a través del contacte directe entre molècules.",
+        "La transferència de calor en forma d'ones electromagnètiques.",
+        "La transferència de calor mitjançant els corrents d'un fluid escalfat.",
+        "La transferència de calor per contacte directe de la flama amb els gasos no cremats."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La conducció es produeix pel contacte directe entre molècules; les ones electromagnètiques corresponen a la radiació i els corrents d'un fluid, a la convecció.",
+      "excerpt": "Conducció La conducció és la transferència de calor a través del contacte directe entre molècules.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § radiació",
+      "stem": "Segons el manual de teoria del foc, la radiació és la transferència de calor:",
+      "options": [
+        "A través del contacte directe entre molècules.",
+        "Per mitjà dels corrents ascendents del fum.",
+        "En forma d'ones electromagnètiques.",
+        "Només a través de materials metàl·lics."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La radiació transmet la calor en forma d'ones electromagnètiques i no necessita cap medi material; per això també escalfa a distància.",
+      "excerpt": "Radiació La radiació és la transferència de calor en forma d'ones electromagnètiques.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § concentració d'oxigen",
+      "stem": "Segons el manual de teoria del foc, quin percentatge mínim d'oxigen a l'atmosfera necessiten la majoria de focs per mantenir-se?",
+      "options": [
+        "Almenys un 21 %.",
+        "Almenys un 16 %.",
+        "Almenys un 10 %.",
+        "Almenys un 5 %."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'aire conté aproximadament un 21 % d'oxigen; la majoria de focs necessiten com a mínim un 16 % per mantenir-se, i per sota d'aquest nivell actua la sufocació.",
+      "excerpt": "La majoria de focs necessiten almenys un 16% d'oxigen a l'atmosfera per mantenir-se.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § aigua com a agent extintor",
+      "stem": "Segons el manual de teoria del foc, quin volum aproximat de vapor genera un litre d'aigua en vaporitzar-se?",
+      "options": [
+        "Uns 170 litres.",
+        "Uns 17.000 litres.",
+        "Uns 540 litres.",
+        "Uns 1.700 litres."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'aigua, en vaporitzar-se, genera aproximadament 1.700 litres de vapor per litre; aquest vapor pot desplaçar l'oxigen i contribuir a la sufocació.",
+      "excerpt": "Quan l'aigua es vaporitza, genera un gran volum de vapor (aproximadament 1.700 litres de vapor per cada litre d'aigua).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § classes de foc (UNE-EN 2)",
+      "stem": "D'acord amb el manual de teoria del foc, quina afirmació és CORRECTA sobre la classe E de focs?",
+      "options": [
+        "La classe E correspon als focs d'equips elèctrics en tensió.",
+        "La classe E correspon als focs d'olis i greixos de cuina.",
+        "No existeix una classe E de focs elèctrics.",
+        "La classe E correspon als focs de metalls combustibles."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La norma UNE-EN 2 no té classe E: l'electricitat no crema, sinó que hi pot haver focs de classe A, B, C... amb presència d'electricitat.",
+      "excerpt": "No existeix una Classe E de focs elèctrics.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § deflagració",
+      "stem": "Segons el manual de teoria del foc, una deflagració és un tipus d'explosió en què la combustió es propaga a una velocitat:",
+      "options": [
+        "Superior a 1 m/s però inferior a la velocitat del so en el medi.",
+        "Superior a la velocitat del so en el medi, amb una ona de xoc.",
+        "Inferior a 1 m/s, sense augment de pressió.",
+        "Igual a la velocitat de la llum en el medi."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La deflagració és subsònica (entre 1 m/s i la velocitat del so); la detonació és supersònica i genera una ona de xoc destructiva.",
+      "excerpt": "És un tipus d'explosió on la combustió es propaga a una velocitat superior a 1 m/s però inferior a la velocitat del so en el medi (subsònica).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § detonació",
+      "stem": "Quin fenomen descriu el manual de teoria del foc com una explosió amb propagació supersònica que crea una potent ona de xoc?",
+      "options": [
+        "La deflagració.",
+        "La detonació.",
+        "La combustió lenta.",
+        "La combustió viva."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En la detonació el front de reacció avança a velocitat supersònica i tota la massa entra gairebé instantàniament en combustió.",
+      "excerpt": "És un tipus d'explosió on la combustió es propaga a una velocitat supersònica (superior a la velocitat del so en el medi), creant una potent i destructiva ona de xoc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § punt d'inflamació",
+      "stem": "Com defineix el manual de teoria del foc el punt d'inflamació (flash point)?",
+      "options": [
+        "La temperatura a la qual un combustible s'encén espontàniament sense cap font d'ignició externa.",
+        "La temperatura mínima a la qual un combustible manté la flama de forma continuada.",
+        "La temperatura mínima a la qual un combustible emet prou vapors per formar una barreja inflamable que pot encendre's momentàniament amb una font d'ignició externa.",
+        "La temperatura a partir de la qual un sòlid comença a fondre's."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En el punt d'inflamació la flama apareix però no es manté; el punt de combustió és el que la manté; l'autoignició no necessita font externa.",
+      "excerpt": "És la temperatura mínima a la qual un combustible emet prou vapors per formar una barreja inflamable amb l'aire, que pot encendre's momentàniament en presència d'una font d'ignició externa (una flama, una guspira, etc.).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § punt de combustió",
+      "stem": "Segons el manual de teoria del foc, quina relació hi ha entre el punt de combustió i el punt d'inflamació?",
+      "options": [
+        "El punt de combustió és sempre lleugerament superior al punt d'inflamació.",
+        "El punt de combustió és sempre inferior al punt d'inflamació.",
+        "Tots dos són sempre idèntics.",
+        "El punt de combustió coincideix amb el punt d'autoignició."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El punt de combustió és uns pocs graus més alt que el d'inflamació perquè cal una generació de vapors més sostinguda per mantenir la flama.",
+      "excerpt": "El punt de combustió és sempre lleugerament superior al punt d'inflamació (normalment uns pocs graus més alt), ja que requereix una generació de vapors més sostinguda per mantenir la flama activa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § punt d'autoignició",
+      "stem": "Segons el manual de teoria del foc, el punt d'autoignició és la temperatura a la qual un combustible:",
+      "options": [
+        "Emet prou vapors per encendre's momentàniament amb una guspira.",
+        "S'encén espontàniament sense necessitat de cap font d'ignició externa.",
+        "Manté la flama de manera continuada un cop encès.",
+        "Arriba al límit inferior d'inflamabilitat."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'autoignició no necessita font externa i la seva temperatura és molt més elevada que la de combustió.",
+      "excerpt": "És la temperatura a la qual un combustible s'encén espontàniament sense necessitat de cap font d'ignició externa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § rang d'inflamabilitat",
+      "stem": "D'acord amb la taula de rangs d'inflamabilitat del manual de teoria del foc, quins són els límits inferior i superior d'inflamabilitat del metà (gas natural)?",
+      "options": [
+        "2,1 % i 9,5 %.",
+        "4 % i 75 %.",
+        "1,8 % i 8,4 %.",
+        "5 % i 15 %."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El manual dona per al metà un LII del 5 % i un LSI del 15 % (rang del 10 %). El 2,1-9,5 % és el propà; el 4-75 %, l'hidrogen; i l'1,8-8,4 %, el butà.",
+      "excerpt": "Metà (gas natural) 5 15 10",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § rang d'inflamabilitat",
+      "stem": "Segons el manual de teoria del foc, què implica que una substància tingui un rang d'inflamabilitat més ampli?",
+      "options": [
+        "Que és més difícil que s'encengui.",
+        "Que hi ha més risc que formi una barreja perillosa capaç d'encendre's.",
+        "Que només pot cremar en atmosferes enriquides d'oxigen.",
+        "Que la seva temperatura d'autoignició és més baixa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Com més ampli és l'interval entre l'LII i l'LSI, més concentracions de la barreja amb aire poden cremar o explotar.",
+      "excerpt": "Com més ampli sigui aquest rang, més gran és el risc que la substància formi una barreja perillosa amb capacitat d’encendre’s.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § classe F",
+      "stem": "Segons el manual de teoria del foc, a quina classe pertanyen els focs d'olis i greixos d'origen animal o vegetal en aparells de cuina?",
+      "options": [
+        "Classe B.",
+        "Classe D.",
+        "Classe E.",
+        "Classe F."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La classe F (abans classe K en altres normes) agrupa els focs d'olis i greixos de cuina, que requereixen agents que actuen per saponificació.",
+      "excerpt": "Focs derivats de l'ús d'olis i greixos d'origen animal o vegetal en aparells de cuina (restaurants, cuines industrials).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § pols ABC",
+      "stem": "Segons el manual de teoria del foc, de què està composta principalment la pols química polivalent ABC?",
+      "options": [
+        "De fosfat monoamònic.",
+        "De bicarbonat de sodi o potassi.",
+        "De clorur de sodi i grafit.",
+        "D'acetat de potassi."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La pols ABC és principalment fosfat monoamònic; la pols convencional BC sol estar basada en bicarbonat de sodi o potassi.",
+      "excerpt": "Està composta principalment per fosfat monoamònic.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § backdraft",
+      "stem": "Segons el manual de teoria del foc, quins senyals poden indicar la possible presència d'un backdraft en un compartiment tancat?",
+      "options": [
+        "Flames que surten a gran velocitat per les finestres i fum blanc i lleuger.",
+        "Ignició simultània de totes les superfícies combustibles de la sala.",
+        "Fum espès i sense moviment, de color marronós o groguenc, i «respiracions» a les escletxes (fum pulsant).",
+        "Fum negre ascendent amb gran turbulència i absència de calor a les portes."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El backdraft es dona en incendis amb ventilació limitada; el fum espès, marronós o groguenc i pulsant n'és un senyal. La ignició simultània de totes les superfícies és el flashover.",
+      "excerpt": "L'acumulació de fum espès i sense moviment, de color marronós o groguenc, juntament amb “respiracions” a les escletxes (fum pulsant), són senyals de la seva possible presència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § flashover",
+      "stem": "Quina de les afirmacions següents descriu el flashover segons el manual de teoria del foc?",
+      "options": [
+        "Una reignició explosiva provocada per l'entrada sobtada d'aire en un compartiment amb ventilació limitada.",
+        "L'ebullició sobtada de l'aigua acumulada sota un combustible líquid que projecta el combustible fora del recipient.",
+        "La transició ràpida d'un incendi localitzat a un incendi totalment desenvolupat, en què totes les superfícies combustibles s'encenen gairebé simultàniament.",
+        "La ruptura d'un recipient que conté un líquid a pressió per sobre del seu punt d'ebullició."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El flashover és la generalització de l'incendi a tota la sala per la radiació i la convecció dels gasos calents. La reignició per entrada d'aire és el backdraft i l'ebullició de l'aigua sota el combustible, el boil-over.",
+      "excerpt": "Flashover El flashover és la transició ràpida d'un incendi localitzat a un incendi totalment desenvolupat en un espai, on totes les superfícies combustibles s'encenen gairebé simultàniament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § escumes per coeficient d'expansió",
+      "stem": "Segons el manual de teoria del foc, a partir de quin coeficient d'expansió es parla d'escuma d'alta expansió?",
+      "options": [
+        "Més de 20:1.",
+        "Més de 100:1.",
+        "Més de 1.000:1.",
+        "Més de 200:1."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Baixa expansió: fins a 20:1; mitjana: de 20:1 a 200:1; alta: més de 200:1, per omplir grans espais tancats.",
+      "excerpt": "Alta expansió (més de 200:1):",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § agents extintors gasosos",
+      "stem": "Segons el manual de teoria del foc, per què els agents extintors gasosos NO són eficaços en incendis de sòlids amb brases profundes (classe A)?",
+      "options": [
+        "Perquè no penetren en el material.",
+        "Perquè són conductors de l'electricitat.",
+        "Perquè reaccionen violentament amb la cel·lulosa.",
+        "Perquè deixen un residu que reactiva la combustió."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Els gasos no penetren en les brases profundes i, en dispersar-se, no mantenen una atmosfera inerta duradora, de manera que hi pot haver reignició.",
+      "excerpt": "No són eficaços en incendis de materials sòlids amb brases profundes (Classe A), ja que no penetren en el material.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § gasos inerts",
+      "stem": "Segons el manual de teoria del foc, a quins nivells d'oxigen es dissenyen normalment els sistemes d'extinció per gasos inerts per permetre una exposició humana curta i segura?",
+      "options": [
+        "Entre el 16 i el 18 %.",
+        "Entre el 10 i el 12,5 %.",
+        "Entre el 2 i el 5 %.",
+        "Per sota de l'1 %."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Els gasos inerts extingeixen reduint l'oxigen fins al 10-12,5 %, nivell que permet l'evacuació sense els efectes tòxics directes del CO₂.",
+      "excerpt": "Els sistemes es dissenyen per extingir el foc a nivells d'oxigen (normalment entre 10-12,5%) que permeten una exposició humana curta i segura per a l'evacuació, sense els efectes tòxics directes del CO₂.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-lprl-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4",
+      "stem": "(Rèplica 2025, núm. 7) Segons l'article 4 de la Llei 31/1995, de prevenció de riscos laborals, què s'entén per risc laboral?",
+      "options": [
+        "Qualsevol malaltia diagnosticada a un treballador",
+        "El conjunt de mesures per evitar accidents",
+        "La possibilitat que un treballador pateixi un determinat dany derivat del treball",
+        "El dany efectivament produït en el treball"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El risc laboral és la possibilitat de patir un dany derivat del treball; la prevenció és el conjunt de mesures per evitar-lo.",
+      "excerpt": "Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

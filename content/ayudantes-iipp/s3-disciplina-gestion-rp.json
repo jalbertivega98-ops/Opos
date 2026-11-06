@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "set": "iippsup-s3-disciplina-gestion-rp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Supuestos prácticos III. Régimen disciplinario, gestión administrativa y personal",
+    "topic_slug": "iippsup-s3-disciplina-gestion",
+    "locale": "es",
+    "category": "iippsup_s3_disciplina_gestion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 243.2 RP",
+      "stem": "Iniciado un expediente disciplinario contra el interno Saúl T., el Director acuerda como medida cautelar su cambio de módulo. Según el Reglamento Penitenciario, la adopción de esa medida será notificada al interno y puesta en conocimiento de:",
+      "options": [
+        "El Ministerio Fiscal.",
+        "El Juez de Vigilancia Penitenciaria.",
+        "El Centro Directivo exclusivamente.",
+        "La Junta de Tratamiento."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 243.2 RP exige notificar al interno y poner la medida en conocimiento del JVP.",
+      "excerpt": "su adopción será notificada al interno y puesta en conocimiento del Juez de Vigilancia Penitenciaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 243.4 RP",
+      "stem": "A Saúl T. se le impuso como medida cautelar una limitación de la misma naturaleza que la sanción que finalmente se le impone. Según el Reglamento Penitenciario:",
+      "options": [
+        "La medida cautelar se abonará para el cumplimiento de la sanción.",
+        "La sanción se cumple íntegra, sin abono alguno.",
+        "La sanción queda sin efecto.",
+        "Solo se abona la mitad del tiempo de la medida cautelar."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 243.4 RP ordena el abono.",
+      "excerpt": "Cuando la sanción que recayese, en su caso, coincida en naturaleza con la medida cautelar impuesta, ésta se abonará para el cumplimiento de la sanción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 252.1 RP",
+      "stem": "La Comisión Disciplinaria sanciona a Ramón E. por una falta grave y este recurre ante el Juez de Vigilancia. No se trata de un acto de indisciplina grave. Según el Reglamento Penitenciario, el acuerdo sancionador:",
+      "options": [
+        "Se ejecuta de inmediato.",
+        "Se ejecuta al cabo de quince días.",
+        "Se ejecuta si lo autoriza el Director.",
+        "No será ejecutivo mientras no se resuelva el recurso."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 252.1 RP suspende la ejecutividad hasta la resolución del recurso.",
+      "excerpt": "Los acuerdos sancionadores no serán ejecutivos en tanto no haya sido resuelto el recurso interpuesto por el interno ante el Juez de Vigilancia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 252.3 RP",
+      "stem": "Por un acto de indisciplina grave, la Comisión Disciplinaria acuerda la ejecución inmediata de una sanción de aislamiento impuesta al interno Pablo N. Según el Reglamento Penitenciario, contra el acuerdo de ejecución inmediata el interno puede acudir:",
+      "options": [
+        "En recurso de alzada ante el Centro Directivo.",
+        "En reposición ante el Director.",
+        "En vía de queja ante el Juez de Vigilancia, con independencia de la tramitación del recurso.",
+        "Únicamente al Defensor del Pueblo."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 252.3 RP prevé la queja ante el JVP, de tramitación urgente y preferente si la sanción es de aislamiento.",
+      "excerpt": "Contra el acuerdo de ejecución inmediata de la sanción, el interno podrá acudir en vía de queja ante el Juez de Vigilancia, con independencia de la tramitación del recurso interpuesto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 258.2 RP",
+      "stem": "El expediente disciplinario contra la interna Ana V., iniciado con su conocimiento, queda paralizado más de un mes por causa no imputable a ella. Según el Reglamento Penitenciario, en ese caso:",
+      "options": [
+        "El expediente caduca automáticamente.",
+        "La falta queda prescrita.",
+        "Se reanuda el cómputo de los plazos de prescripción de la falta.",
+        "El plazo de prescripción sigue interrumpido indefinidamente."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 258.2 RP reanuda el cómputo si el expediente está paralizado más de un mes por causa no imputable al interesado.",
+      "excerpt": "reanudándose el cómputo de los plazos de prescripción si el expediente disciplinario estuviera paralizado durante más de un mes por causa no imputable al presunto infractor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 258.3 RP",
+      "stem": "A un interno se le impuso una sanción por falta leve que no ha llegado a ejecutarse. Según el Reglamento Penitenciario, las sanciones impuestas por faltas leves prescriben en el plazo de:",
+      "options": [
+        "Un año.",
+        "Seis meses.",
+        "Dos años.",
+        "Tres meses."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 258.3 RP fija un año para las sanciones por faltas leves.",
+      "excerpt": "las impuestas por faltas leves en el plazo de un año",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 276.1 RP",
+      "stem": "Se constituye la Comisión Disciplinaria del Centro de Altomira para resolver varios expedientes. Según el Reglamento Penitenciario, la preside:",
+      "options": [
+        "El Subdirector de Régimen.",
+        "El Subdirector de Seguridad.",
+        "Un Jurista del Establecimiento.",
+        "El Director del centro."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 276.1 RP atribuye la presidencia al Director.",
+      "excerpt": "La Comisión Disciplinaria estará presidida por el Director del centro y compuesta por los siguientes miembros",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 276.2 RP",
+      "stem": "En el Centro de Altomira hay que renovar al Jefe de Servicios y al funcionario de plantilla que forman parte de la Comisión Disciplinaria. Según el Reglamento Penitenciario, estos miembros:",
+      "options": [
+        "Los designa el Director cada dos años.",
+        "Se eligen anualmente por los empleados públicos del centro penitenciario.",
+        "Los nombra el Centro Directivo con carácter permanente.",
+        "Se eligen por sorteo entre los funcionarios cada seis meses."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 276.2 RP prevé su elección anual por los empleados públicos del centro.",
+      "excerpt": "Los miembros de los párrafos d) y e) se elegirán anualmente por los empleados públicos del centro penitenciario",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 277.2.e) RP",
+      "stem": "Al interno Félix A. se le ha impuesto una sanción de aislamiento, pero cae enfermo antes de cumplirla. Según el Reglamento Penitenciario, ¿qué órgano puede aplazar el cumplimiento de la sanción?",
+      "options": [
+        "El Médico del centro, por sí solo.",
+        "El Juez de Vigilancia exclusivamente.",
+        "La Comisión Disciplinaria.",
+        "El Jefe de Servicios."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 277.2.e) RP atribuye esa función a la Comisión Disciplinaria.",
+      "excerpt": "así como, en casos de enfermedad del sancionado, aplazar el cumplimiento de las sanciones de aislamiento y levantar la suspensión cuando el interno sea dado de alta o se estime oportuno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 280.2.4.ª e) RP",
+      "stem": "Por falta de personal en el turno de noche, el Director del Centro de Peñalba asigna provisionalmente dos unidades de servicio a un solo funcionario. Según el Reglamento Penitenciario, esta facultad del Director:",
+      "options": [
+        "Está prevista en casos de necesidad, teniendo en cuenta las necesidades de coordinación y las cargas reales de trabajo.",
+        "Requiere autorización previa del Juez de Vigilancia.",
+        "Corresponde en exclusiva al Centro Directivo.",
+        "No existe: cada unidad debe tener siempre un funcionario distinto."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 280.2.4.ª e) RP atribuye esa facultad al Director.",
+      "excerpt": "en casos de necesidad, asignar provisionalmente dos o más unidades a un solo funcionario, teniendo en cuenta las necesidades de coordinación de los distintos puestos o unidades y las cargas reales de trabajo que tengan asignadas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

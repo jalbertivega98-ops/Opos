@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man08-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.008 Manual operatiu bàsic de la teoria del foc i agents extintors (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 5) · MAN.GRAL.008",
+      "stem": "Quins són els tres mecanismes principals de transmissió de la calor?",
+      "options": [
+        "Conducció, combustió i radiació.",
+        "Conducció, convecció i radiació.",
+        "Convecció, oxidació i radiació.",
+        "Conducció, convecció i piròlisi."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Són els tres mecanismes que expliquen la propagació d'un incendi.",
+      "excerpt": "Hi ha tres mecanismes principals de transmissió de la calor: conducció, convecció i radiació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 50) · MAN.GRAL.008",
+      "stem": "Com s'anomena la reignició explosiva d'un incendi que es troba en una fase de ventilació limitada quan hi entra aire de cop?",
+      "options": [
+        "Flashover.",
+        "BLEVE.",
+        "Boilover.",
+        "Backdraft."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El flashover és la transició ràpida a incendi totalment desenvolupat; el backdraft requereix una entrada sobtada d'aire en un recinte amb ventilació limitada.",
+      "excerpt": "Backdraft El backdraft és una reignició explosiva d'un incendi que es troba en una fase de ventilació limitada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 28) · MAN.GRAL.008",
+      "stem": "Quin és el component principal de la pols polivalent (ABC) dels extintors?",
+      "options": [
+        "El fosfat monoamònic.",
+        "El bicarbonat sòdic.",
+        "El clorur sòdic.",
+        "El sulfat amònic."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La pols ABC és composta principalment per fosfat monoamònic, que fon i forma una capa sobre les brases.",
+      "excerpt": "Està composta principalment per fosfat monoamònic.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. R1) · MAN.GRAL.008",
+      "stem": "Quina d'aquestes afirmacions sobre les classes de foc és CORRECTA?",
+      "options": [
+        "Els focs elèctrics són de classe E.",
+        "Els focs de metalls són de classe A.",
+        "Els focs d'olis de cuina són de classe B.",
+        "No existeix una classe E de focs elèctrics."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'electricitat és una font d'ignició, no una classe de foc; els olis i greixos de cuina són classe F.",
+      "excerpt": "No existeix una Classe E de focs elèctrics.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 90) · MAN.GRAL.008",
+      "stem": "Quin és el rang d'inflamabilitat aproximat del metà (gas natural) en aire, en % en volum?",
+      "options": [
+        "Entre el 5% i el 15%.",
+        "Entre l'1,8% i el 8,4%.",
+        "Entre el 12,5% i el 74%.",
+        "Entre el 2,5% i el 100%."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El manual dona per al metà un límit inferior del 5% i un superior del 15%; com més ampli és el rang, més risc.",
+      "excerpt": "Metà (gas natural) 5 15 10 […] Com més ampli sigui aquest rang, més gran és el risc que la substància formi una barreja perillosa amb capacitat d’encendre’s.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

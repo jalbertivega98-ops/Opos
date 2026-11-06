@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-eac-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-13087",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 21.2",
+      "stem": "(Rèplica 2022, núm. 3) Com qualifica l'article 21.2 de l'Estatut d'autonomia l'ensenyament a les escoles de titularitat pública?",
+      "options": [
+        "Com a laic",
+        "Com a confessional",
+        "Com a concertat",
+        "Com a plurireligiós obligatori"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 21.2 EAC garanteix el dret dels pares a la formació religiosa i moral dels fills a les escoles públiques, «en les quals l'ensenyament és laic».",
+      "excerpt": "en las escuelas de titularidad pública, en las que la enseñanza es laica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 84.2",
+      "stem": "(Rèplica 2022, núm. 4) Segons l'article 84.2 de l'Estatut, quina d'aquestes matèries és competència pròpia dels governs locals de Catalunya?",
+      "options": [
+        "La regulació del dret de vaga dels empleats municipals",
+        "La seguretat social dels funcionaris locals",
+        "L'ordenació del comerç exterior",
+        "La regulació i la gestió dels equipaments municipals"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 84.2.d EAC inclou la regulació i la gestió dels equipaments municipals entre les competències pròpies locals.",
+      "excerpt": "La regulación y la gestión de los equipamientos municipales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

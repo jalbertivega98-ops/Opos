@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "gub-t28-enjudiciament-criminal-lecrim-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Tema 28. Llei d'enjudiciament criminal: policia judicial, detenció i drets del detingut",
+    "topic_slug": "gub-t28-enjudiciament-criminal",
+    "locale": "ca",
+    "category": "gub_t28_enjudiciament_criminal",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la Llei d'enjudiciament criminal, quin és el termini màxim de la detenció preventiva abans de posar el detingut en llibertat o a disposició judicial?",
+      "options": [
+        "Vint-i-quatre hores",
+        "Setanta-dues hores",
+        "Quaranta-vuit hores",
+        "Noranta-sis hores"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La detenció preventiva dura el temps estrictament necessari i, en tot cas, un màxim de 72 hores.",
+      "excerpt": "en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 490",
+      "stem": "Segons l'article 490 de la LECrim, pot detenir qualsevol persona el delinqüent in fraganti?",
+      "options": [
+        "No, només els agents de l'autoritat",
+        "Només si és un delicte greu",
+        "Només amb autorització judicial",
+        "Sí, qualsevol persona pot detenir el delinqüent in fraganti"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 490 permet a qualsevol persona detenir el delinqüent in fraganti, entre altres supòsits.",
+      "excerpt": "2.º Al delincuente in fraganti.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 545",
+      "stem": "Segons l'article 545 de la LECrim, es pot entrar al domicili d'una persona sense el seu consentiment?",
+      "options": [
+        "Sí, sempre que ho ordeni un agent de policia",
+        "No, en cap cas",
+        "Només en els casos i en la forma expressament previstos a les lleis",
+        "Sí, durant el dia"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ningú pot entrar en el domicili sense consentiment, llevat dels casos i formes previstos a les lleis.",
+      "excerpt": "Nadie podrá entrar en el domicilio de un español o extranjero residente en España sin su consentimiento, excepto en los casos y en la forma expresamente previstos en las leyes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, com ha de ser informada la persona detinguda dels seus drets?",
+      "options": [
+        "Per escrit, en un llenguatge senzill i accessible, en una llengua que comprengui i de forma immediata",
+        "Verbalment i només quan arribi al jutjat",
+        "Per escrit, en castellà en tots els casos, en un termini de 24 hores",
+        "Només si ho demana expressament"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El detingut ha de ser informat per escrit, de manera immediata, en llenguatge senzill i en una llengua que comprengui.",
+      "excerpt": "será informada por escrito, en un lenguaje sencillo y accesible, en una lengua que comprenda y de forma inmediata",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 292",
+      "stem": "Segons l'article 292 de la LECrim, quin document han d'estendre els funcionaris de policia judicial de les diligències que practiquin?",
+      "options": [
+        "Una acta de constatació",
+        "Una interlocutòria",
+        "Un atestat",
+        "Una denúncia administrativa"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els funcionaris de policia judicial han d'estendre un atestat de les diligències practicades.",
+      "excerpt": "Los funcionarios de Policía judicial extenderán, bien en papel sellado, bien en papel común, un atestado de las diligencias que practiquen",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, quin d'aquests NO és un dret del detingut?",
+      "options": [
+        "Guardar silenci",
+        "No declarar contra si mateix",
+        "Designar advocat",
+        "Triar el jutge que l'ha de prendre declaració"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Els drets del detingut inclouen guardar silenci, no declarar contra si mateix i designar advocat, però no triar jutge.",
+      "excerpt": "a) Derecho a guardar silencio no declarando si no quiere",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 295",
+      "stem": "Segons l'article 295 de la LECrim, quin temps màxim poden deixar transcórrer els funcionaris de policia judicial sense donar coneixement de les diligències a l'autoritat judicial o al Ministeri Fiscal, llevat de força major?",
+      "options": [
+        "Quaranta-vuit hores",
+        "Vint-i-quatre hores",
+        "Setanta-dues hores",
+        "Dotze hores"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En cap cas poden deixar passar més de 24 hores, llevat de força major i del supòsit de l'article 284.2.",
+      "excerpt": "En ningún caso los funcionarios de Policía Judicial podrán dejar transcurrir más de veinticuatro horas sin dar conocimiento a la autoridad judicial o al Ministerio Fiscal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 496",
+      "stem": "Segons l'article 496 de la LECrim, en quin termini el particular o agent que ha detingut una persona l'ha de posar en llibertat o lliurar-la al jutge més pròxim?",
+      "options": [
+        "Dins de les vint-i-quatre hores següents a la detenció",
+        "Dins de les setanta-dues hores següents",
+        "Dins de les quaranta-vuit hores següents",
+        "Immediatament, sense cap termini"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 496 estableix el termini de 24 hores per a l'entrega al jutge més proper o la posada en llibertat.",
+      "excerpt": "deberá ponerla en libertad o entregarla al Juez más próximo al lugar en que hubiere hecho la detención dentro de las veinticuatro horas siguientes al acto de la misma",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, en quin termini màxim ha d'acudir l'advocat designat al centre de detenció?",
+      "options": [
+        "Tres hores des de la recepció de l'encàrrec",
+        "Una hora des de la detenció",
+        "Vint-i-quatre hores des de la detenció",
+        "Vuit hores des de la recepció de l'encàrrec"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'advocat ha d'acudir amb la màxima promptitud, dins del termini màxim de tres hores.",
+      "excerpt": "El abogado designado acudirá al centro de detención con la máxima premura, siempre dentro del plazo máximo de tres horas desde la recepción del encargo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, en quin cas pot el detingut renunciar a l'assistència preceptiva d'advocat?",
+      "options": [
+        "Quan el delicte sigui lleu",
+        "Quan la detenció ho sigui per fets tipificables exclusivament com a delictes contra la seguretat del trànsit",
+        "Quan el detingut sigui major de 65 anys",
+        "Mai, la renúncia no és possible"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Es pot renunciar quan la detenció és exclusivament per delictes contra la seguretat del trànsit, amb informació prèvia clara.",
+      "excerpt": "si su detención lo fuere por hechos susceptibles de ser tipificados exclusivamente como delitos contra la seguridad del tráfico",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, quina afirmació sobre la designació d'advocat és correcta?",
+      "options": [
+        "L'agent ha de recomanar un advocat de la llista del col·legi",
+        "El detingut no pot designar advocat fins a ser davant del jutge",
+        "Cap autoritat o agent li pot fer recomanacions sobre l'advocat a designar més enllà d'informar-lo del dret",
+        "L'advocat sempre és d'ofici"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El detingut designa lliurement advocat i ningú no li pot fer cap recomanació; si no en designa, en té un d'ofici.",
+      "excerpt": "Ninguna autoridad o agente le efectuará recomendación alguna sobre el abogado a designar más allá de informarle de su derecho.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, què ha de reflectir l'atestat en relació amb la detenció?",
+      "options": [
+        "Només el nom de l'agent que ha detingut",
+        "Només el delicte imputat",
+        "La declaració obligatòria del detingut",
+        "El lloc i l'hora de la detenció i de la posada a disposició judicial o en llibertat"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'atestat ha de reflectir el lloc i l'hora de la detenció i de la posada a disposició judicial o en llibertat.",
+      "excerpt": "En el atestado deberá reflejarse el lugar y la hora de la detención y de la puesta a disposición de la autoridad judicial o en su caso, de la puesta en libertad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 495",
+      "stem": "Segons l'article 495 de la LECrim, es pot detenir per la presumpta comissió de delictes lleus?",
+      "options": [
+        "Sí, sempre",
+        "Només si hi ha denúncia de la víctima",
+        "No, llevat que el presumpte reu no tingui domicili conegut ni doni fiança suficient",
+        "Només si és reincident"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "No es pot detenir per delictes lleus llevat que no tingui domicili conegut ni doni fiança suficient.",
+      "excerpt": "No se podrá detener por la presunta comisión de delitos leves, a no ser que el presunto reo no tuviese domicilio conocido ni diese fianza bastante",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 520",
+      "stem": "Segons l'article 520 de la LECrim, en presència de qui s'ha de fer la comunicació telefònica del detingut amb un tercer de la seva elecció?",
+      "options": [
+        "Del seu advocat obligatòriament",
+        "Del metge forense",
+        "Sense presència de ningú",
+        "D'un funcionari de policia o del funcionari que designin el jutge o el fiscal"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La comunicació telefònica es fa en presència d'un funcionari de policia o del que designin el jutge o el fiscal.",
+      "excerpt": "Esta comunicación se celebrará en presencia de un funcionario de policía o, en su caso, del funcionario que designen el juez o el fiscal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 553",
+      "stem": "Segons l'article 553 de la LECrim, en quin d'aquests casos poden els agents procedir de pròpia autoritat a la detenció i registre en un domicili?",
+      "options": [
+        "Sempre que sospitin que hi ha objectes robats",
+        "Quan un delinqüent perseguit immediatament per agents s'amagui o refugiï en alguna casa",
+        "Quan el titular no hi sigui",
+        "Quan ho autoritzi el veí"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 553 ho permet, entre d'altres, en casos de flagrant delicte i de persecució immediata d'un delinqüent que es refugia en una casa.",
+      "excerpt": "cuando un delincuente, inmediatamente perseguido por los Agentes de la autoridad, se oculte o refugie en alguna casa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 284",
+      "stem": "Segons l'article 284 de la LECrim, quan no hi ha autor conegut del delicte, què ha de fer la policia judicial amb l'atestat amb caràcter general?",
+      "options": [
+        "Conservar-lo a disposició del Ministeri Fiscal i de l'autoritat judicial, sense enviar-lo",
+        "Arxivar-lo definitivament",
+        "Enviar-lo sempre al jutjat en 24 hores",
+        "Destruir-lo als tres mesos"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Si no hi ha autor conegut, la policia conserva l'atestat a disposició del fiscal i del jutge, llevat de determinades excepcions.",
+      "excerpt": "cuando no exista autor conocido del delito la Policía Judicial conservará el atestado a disposición del Ministerio Fiscal y de la autoridad judicial, sin enviárselo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 284",
+      "stem": "Segons l'article 284 de la LECrim, quin d'aquests delictes sense autor conegut obliga igualment a remetre l'atestat?",
+      "options": [
+        "Un furt de baix import",
+        "Un delicte contra la llibertat i indemnitat sexuals",
+        "Uns danys lleus en un vehicle",
+        "Una estafa per internet de poca quantia"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "S'ha de remetre l'atestat, entre altres casos, en delictes contra la vida, la integritat física, la llibertat i indemnitat sexuals o relacionats amb la corrupció.",
+      "excerpt": "a) Que se trate de delitos contra la vida, contra la integridad física, contra la libertad e indemnidad sexuales o de delitos relacionados con la corrupción",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 554",
+      "stem": "Segons l'article 554 de la LECrim, quin d'aquests NO es reputa domicili a efectes d'entrada i registre?",
+      "options": [
+        "Un vehicle particular estacionat a la via pública",
+        "Els palaus reials",
+        "Els vaixells mercants nacionals",
+        "L'edifici o lloc tancat destinat principalment a l'habitació d'una persona i la seva família"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 554 inclou els palaus reials, l'habitatge, els vaixells mercants nacionals i determinats espais de persones jurídiques; no els vehicles.",
+      "excerpt": "3.º Los buques nacionales mercantes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 492",
+      "stem": "Segons l'article 492 de la LECrim, quines dues circumstàncies han de concórrer perquè l'agent hagi de detenir algú encara no processat?",
+      "options": [
+        "Denúncia de la víctima i reconeixement fotogràfic",
+        "Antecedents penals i absència de domicili",
+        "Motius racionalment suficients per creure en l'existència d'un fet delictiu i en la participació de la persona",
+        "Ordre del superior i flagrància"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'article 492.4 exigeix motius racionalment bastants sobre l'existència del delicte i sobre la participació de la persona.",
+      "excerpt": "1.ª Que la Autoridad o agente tenga motivos racionalmente bastantes para creer en la existencia de un hecho que presente los caracteres de delito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 282",
+      "stem": "Segons l'article 282 de la LECrim, impedeix l'absència de denúncia la pràctica de les primeres diligències de prevenció en els delictes relatius a la propietat intel·lectual i industrial?",
+      "options": [
+        "Sí, sempre cal denúncia prèvia",
+        "Només si el perjudicat és una persona física",
+        "Només si hi ha ordre judicial",
+        "No, l'absència de denúncia no les impedeix"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'article 282 aclareix que l'absència de denúncia no impedeix les primeres diligències en aquests delictes.",
+      "excerpt": "La ausencia de denuncia no impedirá la práctica de las primeras diligencias de prevención y aseguramiento de los delitos relativos a la propiedad intelectual e industrial.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

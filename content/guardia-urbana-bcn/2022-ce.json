@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-ce-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 140",
+      "stem": "(Rèplica 2022, núm. 1) Segons l'article 140 de la Constitució, com s'escullen els regidors?",
+      "options": [
+        "Per l'alcalde, entre els veïns empadronats",
+        "Pel Parlament autonòmic, a proposta del Ple",
+        "Pels veïns del municipi, per sufragi universal, igual, lliure, directe i secret",
+        "Per sufragi indirecte dels membres de la diputació provincial"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 140 CE estableix l'elecció dels regidors pels veïns mitjançant sufragi universal, igual, lliure, directe i secret.",
+      "excerpt": "Los Concejales serán elegidos por los vecinos del municipio mediante sufragio universal, igual, libre, directo y secreto, en la forma establecida por la ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2",
+      "stem": "(Rèplica 2022, núm. 2) Quin és el termini màxim de la detenció preventiva, segons l'article 17.2 de la Constitució, abans que el detingut sigui posat en llibertat o a disposició judicial?",
+      "options": [
+        "Vint-i-quatre hores",
+        "Setanta-dues hores",
+        "Quaranta-vuit hores",
+        "Noranta-sis hores"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 17.2 CE fixa un màxim de 72 hores, sense perjudici que la detenció no pot durar més del temps estrictament necessari.",
+      "excerpt": "en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

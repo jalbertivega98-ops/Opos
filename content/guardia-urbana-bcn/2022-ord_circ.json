@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-ord_circ-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ordenança de circulació de vianants i de vehicles de Barcelona (text consolidat vigent, Norma. Portal Jurídic de Barcelona). Extracte literal",
+      "url": "https://ajuntament.barcelona.cat/norma-portal-juridic/ca/vid/840951923",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Norma. Portal Jurídic de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10",
+      "stem": "(Rèplica 2022, núm. 34) A les zones on l'Alcaldia restringeix la circulació a favor dels vianants, quina prioritat tenen les bicicletes i els vehicles de mobilitat personal?",
+      "options": [
+        "Tenen prioritat sobre la resta de vehicles, però no sobre els vianants",
+        "Tenen prioritat absoluta, també sobre els vianants",
+        "No hi poden circular mai",
+        "Tenen la mateixa prioritat que els vehicles de motor"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 10 de l'Ordenança de circulació dona prioritat a bicicletes, cicles, vehicles de força muscular i VMP sobre la resta de vehicles, però no sobre els vianants.",
+      "excerpt": "gaudeixen de prioritat sobre la resta de vehicles, però no sobre els i les vianants.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11",
+      "stem": "(Rèplica 2022, núm. 35) Quina és la velocitat màxima als carrers sense un espai destinat exclusivament al trànsit de vianants, segons l'Ordenança de circulació de Barcelona?",
+      "options": [
+        "20 km/h",
+        "30 km/h",
+        "10 km/h",
+        "50 km/h"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 11 fixa 10 km/h als carrers sense espai exclusiu de vianants; 20 km/h a plataforma única i 30 km/h als carrers d'un carril per sentit.",
+      "excerpt": "En els carrers sense un espai destinat exclusivament al trànsit de vianants la velocitat màxima s'estableix en 10 km/h",
+      "excerpt_status": "completo"
+    }
+  ]
+}

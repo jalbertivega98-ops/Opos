@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "plcatexamen-2025-terrassa-lohc-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Examen rèplica · Terrassa 2025 (1f/AGENTS/2025), exercici teòric: 50 preguntes",
+    "topic_slug": "plcatexamen-2025-terrassa",
+    "locale": "ca",
+    "category": "plcatexamen_2025_terrassa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus» (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Rèplica original pregunta a pregunta de l'examen oficial publicat per l'ajuntament (mateixa norma i article, mateix tipus i dificultat; redacció i distractors propis, mai copiats). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 7 LO 6/1984",
+      "stem": "En quin termini, comptat des de l'acte d'incoació, el jutge ha de practicar les actuacions i resoldre l'habeas corpus?",
+      "options": [
+        "Vint-i-quatre hores.",
+        "Setanta-dues hores.",
+        "Quaranta-vuit hores.",
+        "Sis hores."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Rèplica de la pregunta 4 de Terrassa 2025. L'article 7 de la LO 6/1984 fixa vint-i-quatre hores.",
+      "excerpt": "En el plazo de veinticuatro horas, contadas desde que sea dictado el auto de incoación, los Jueces practicarán todas las actuaciones a que se refiere este artículo y dictarán la resolución que proceda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3 LO 6/1984",
+      "stem": "Segons la LO 6/1984, quin d'aquests NO està legitimat per instar el procediment d'habeas corpus?",
+      "options": [
+        "El Ministeri Fiscal.",
+        "El Defensor del Poble.",
+        "L'advocat defensor de la persona privada de llibertat.",
+        "L'agent de policia que ha practicat la detenció."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Rèplica de la pregunta 21 de Terrassa 2025. L'article 3 enumera la persona privada de llibertat i els seus familiars, el Ministeri Fiscal, el Defensor del Poble i l'advocat; el jutge també el pot iniciar d'ofici.",
+      "excerpt": "b) El Ministerio Fiscal. c) El Defensor del Pueblo. d) El abogado defensor del privado de libertad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

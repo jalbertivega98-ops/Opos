@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t09-fisica-man09-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 9. Física",
+    "topic_slug": "bomb-t09-fisica",
+    "locale": "ca",
+    "category": "bomb_t09_fisica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.003 Manual operatiu bàsic de Física (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.003, § magnituds escalars",
+      "stem": "Segons el Manual operatiu bàsic de Física, què caracteritza una magnitud escalar?",
+      "options": [
+        "Necessita un mòdul, una direcció i un sentit.",
+        "Es defineix completament amb un número i la unitat corresponent.",
+        "Es representa sempre amb una fletxa circular.",
+        "Només es pot expressar en unitats derivades."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Les magnituds escalars només tenen valor o mòdul (massa, temperatura, temps, volum); les vectorials, com la força, també tenen direcció i sentit.",
+      "excerpt": "Magnituds escalars Una magnitud escalar es defineix completament amb un número i la unitat corresponent.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § magnituds vectorials",
+      "stem": "Quina de les magnituds següents el manual de Física posa com a exemple de magnitud vectorial?",
+      "options": [
+        "La massa.",
+        "La temperatura.",
+        "La força.",
+        "El volum d'un dipòsit."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Una magnitud vectorial té valor, direcció i sentit; el manual utilitza la força com a exemple. Massa, temperatura i volum són escalars.",
+      "excerpt": "La força és un exemple perfecte per il·lustrar aquest concepte.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § sistema internacional",
+      "stem": "Segons la taula del Sistema Internacional del manual de Física, quina és la unitat de la intensitat lluminosa?",
+      "options": [
+        "La candela (cd).",
+        "El lux (lx).",
+        "El watt (W).",
+        "El kelvin (K)."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Les set magnituds fonamentals del SI són longitud (m), massa (kg), temps (s), temperatura (K), intensitat de corrent (A), quantitat de substància (mol) i intensitat lluminosa (cd).",
+      "excerpt": "Intensitat lluminosa Iv candela cd",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § llei d'inèrcia",
+      "stem": "Quan un vehicle de bombers frena de cop i les eines mal subjectades continuen avançant, quina llei de Newton explica el fenomen segons el manual de Física?",
+      "options": [
+        "La llei d'acció-reacció.",
+        "La llei de la gravitació universal.",
+        "La llei de conservació de la quantitat de moviment angular.",
+        "La llei d'inèrcia."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Per la llei d'inèrcia, un cos en moviment continua amb moviment rectilini uniforme si cap força externa no l'atura; el manual en posa aquest exemple.",
+      "excerpt": "Quan un vehicle de bombers frena de cop, les eines mal subjectades a l'interior continuen el seu moviment cap endavant a causa de la inèrcia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § energia cinètica",
+      "stem": "Segons el manual de Física, l'energia cinètica és l'energia que té un cos:",
+      "options": [
+        "A causa de la seva alçada.",
+        "A causa de la seva temperatura.",
+        "A causa de la deformació d'una molla.",
+        "A causa del seu moviment."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'energia cinètica depèn del moviment (massa i velocitat); l'energia potencial gravitacional depèn de l'alçada.",
+      "excerpt": "Energia cinètica (Ec) És l'energia que té un cos a causa del seu moviment.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § politja fixa",
+      "stem": "Segons el manual de Física, quin avantatge mecànic ofereix una politja fixa?",
+      "options": [
+        "Cap: només canvia la direcció de la corda (AM = 1).",
+        "Duplica la força (AM = 2).",
+        "Redueix la força a la meitat i duplica el recorregut.",
+        "Triplica la força si la corda és d'acer."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La politja fixa no es desplaça i només canvia la direcció de la força; la mòbil duplica la força (AM = 2).",
+      "excerpt": "Politja fixa: no es desplaça respecte al terra, només canvia la direcció de la corda, no ofereix cap avantatge mecànic (AM=1).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § politja mòbil",
+      "stem": "Segons el manual de Física, quin avantatge mecànic té una politja mòbil quan la força d'entrada és la tensió de la corda que estirem i la de sortida és a l'eix?",
+      "options": [
+        "No té avantatge mecànic (AM = 1).",
+        "Duplica la força (AM = 2).",
+        "Redueix la força a la meitat (AM = 0,5).",
+        "Quadruplica la força (AM = 4)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La politja mòbil es desplaça amb la càrrega i, en aquest muntatge, duplica la força. Si s'utilitza al revés, per duplicar el recorregut, l'AM és 0,5.",
+      "excerpt": "Ens duplica la força (AM=2).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § parell de forces",
+      "stem": "Segons el manual de Física, quin efecte produeix un parell de forces sobre un objecte?",
+      "options": [
+        "Un efecte de translació, però no de rotació.",
+        "Un efecte de translació i de rotació alhora.",
+        "Un efecte de rotació, però no de translació.",
+        "Cap efecte, perquè les dues forces s'anul·len del tot."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Un parell són dues forces iguals en mòdul i direcció i de sentit contrari, aplicades en punts diferents: fan girar el cos sense desplaçar-lo.",
+      "excerpt": "Aquestes dues forces tenen un efecte de rotació, però no de translació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § parell de forces",
+      "stem": "D'acord amb el manual de Física, en quina unitat es mesura el parell de forces o moment de força?",
+      "options": [
+        "En newtons per metre quadrat (N/m²).",
+        "En joules per segon (J/s).",
+        "En newton-metre (Nm).",
+        "En quilograms-metre per segon (kg·m/s)."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El parell es calcula multiplicant una de les forces per la distància entre els seus punts d'aplicació, i s'expressa en Nm. El kg·m/s és la unitat de la quantitat de moviment.",
+      "excerpt": "Es mesura en newton-metre (Nm), i es calcula multiplicant el valor d'una de les forces per la distància que separa els seus punts d'aplicació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § MRU",
+      "stem": "Un camió recorre a velocitat constant els 100 km entre Barcelona i Girona en 1 hora i 15 minuts. Segons el model de moviment rectilini uniforme del manual de Física, a quina velocitat va?",
+      "options": [
+        "A 80 km/h.",
+        "A 75 km/h.",
+        "A 100 km/h.",
+        "A 125 km/h."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Velocitat = espai / temps = 100 km / 1,25 h = 80 km/h. És l'exemple que resol el manual.",
+      "excerpt": "Si un camió triga 1 h i 15 minuts (1,25 h), aleshores a quina velocitat va?",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § llei fonamental de la dinàmica",
+      "stem": "Segons el manual de Física, què passa amb un cotxe si la força neta o resultant que hi actua és nul·la?",
+      "options": [
+        "Accelera de manera uniforme.",
+        "Frena fins aturar-se sempre.",
+        "Augmenta la seva massa.",
+        "No es mou o no accelera: manté la velocitat constant."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Amb F = m·a, si la força resultant és zero l'acceleració també ho és: el cos es manté en repòs o a velocitat constant.",
+      "excerpt": "Si la força neta o resultant és nul·la, és a dir, la força amb què empenyem és igual a la resistència que s’oposa a avançar, el cotxe o no es mou o no accelera (manté la velocitat constant).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § llei d'acció-reacció",
+      "stem": "Segons el manual de Física, quina és la força que fa avançar un vehicle d'acord amb la llei d'acció-reacció?",
+      "options": [
+        "La inèrcia del motor, que arrossega les rodes.",
+        "La reacció del terra, que empeny les rodes cap endavant.",
+        "La força de la gravetat sobre l'eix motriu.",
+        "La resistència aerodinàmica de la carrosseria."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Les rodes empenyen el terra cap enrere per fricció (acció) i el terra reacciona empenyent-les cap endavant (reacció).",
+      "excerpt": "El terra reacciona empenyent les rodes cap endavant, que és la força que fa que el vehicle avanci.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § energia potencial",
+      "stem": "Segons el manual de Física, de quines variables depèn l'energia potencial gravitacional d'un objecte?",
+      "options": [
+        "De la massa i del quadrat de la velocitat.",
+        "De la massa, de l'acceleració de la gravetat i de l'alçada respecte a un nivell de referència.",
+        "Del moment d'inèrcia i de la velocitat angular.",
+        "De la força aplicada i del temps."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ep = m·g·h, amb g = 9,8 m/s² i h mesurada respecte a un nivell de referència que escollim. La massa i el quadrat de la velocitat corresponen a l'energia cinètica.",
+      "excerpt": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § forces no conservatives",
+      "stem": "Quina de les forces següents és NO conservativa segons el manual de Física?",
+      "options": [
+        "El fregament.",
+        "La gravetat.",
+        "La força elàstica d'una molla.",
+        "El pes d'un cos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les forces conservatives (gravetat, força elàstica) retornen íntegrament l'energia; el fregament, la resistència aerodinàmica o la pèrdua de càrrega en una mànega no.",
+      "excerpt": "Són forces no conservatives el fregament, la resistència aerodinàmica, el fregament en líquids (pèrdua de càrrega en una mànega, amortidors del cotxe).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § palanques de segon gènere",
+      "stem": "Segons el manual de Física, en una palanca de segon gènere:",
+      "options": [
+        "El fulcre es troba entre la força aplicada i la resistència.",
+        "La força aplicada es troba entre el fulcre i la resistència, i l'avantatge mecànic sempre és inferior a 1.",
+        "La resistència es troba entre el fulcre i la força aplicada, i l'avantatge mecànic sempre és superior a 1.",
+        "L'avantatge mecànic és sempre igual a 1."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En el segon gènere (perpalina, carretó de mà, trencanous) la resistència és al mig, de manera que l'AM és sempre superior a 1.",
+      "excerpt": "En aquest cas, la força de sortida (la resistència) es troba entre el fulcre i la força aplicada. […] Aquestes palanques sempre proporcionen un avantatge mecànic superior a 1.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § rendiment",
+      "stem": "Segons el manual de Física, per què el rendiment o eficiència d'un sistema mecànic sempre és inferior al 100 %?",
+      "options": [
+        "Perquè l'energia potencial sempre es converteix íntegrament en energia cinètica.",
+        "Perquè la massa dels sistemes augmenta amb la velocitat.",
+        "Perquè el treball útil es mesura en watts i el consumit en joules.",
+        "Perquè les forces no conservatives, com el fregament i la resistència aerodinàmica, transformen part de l'energia en calor o turbulències no aprofitables."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Una part de l'energia es dissipa per fregament i resistència de l'aire; per això la potència a les rodes és inferior a la del motor.",
+      "excerpt": "L'eficiència sempre és inferior al 100% perquè les forces no conservatives, com el fregament i la resistència aerodinàmica, transformen una part de l'energia en calor o turbulències de l’aire, que no podem aprofitar per fer la tasca que volem.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § palanques de primer gènere",
+      "stem": "En una palanca de primer gènere, com una pota de cabra, quan és l'avantatge mecànic més gran que 1 segons el manual de Física?",
+      "options": [
+        "Quan el fulcre està més a prop de la resistència.",
+        "Quan el fulcre està més a prop de la força aplicada.",
+        "Quan el fulcre es troba exactament al centre.",
+        "Mai: les palanques de primer gènere sempre tenen AM inferior a 1."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "En el primer gènere, l'AM depèn de la posició del fulcre: és més gran que 1 si està a prop de la resistència, més petit si està a prop de la força i igual a 1 si és al centre.",
+      "excerpt": "Si el fulcre està més a prop de la resistència, l'avantatge mecànic és més gran que 1.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § torn",
+      "stem": "En un cabestrant en què el cable s'enrotlla en diverses capes, quan és màxima la força de sortida al cable per a un mateix parell d'entrada, segons el manual de Física?",
+      "options": [
+        "Quan el cable està totalment enrotllat, perquè el radi del tambor és el més gran possible.",
+        "La força de sortida no depèn del radi del tambor.",
+        "Quan el cable està a mig enrotllar, perquè els radis es compensen.",
+        "Quan el cable està gairebé del tot estirat, perquè el radi del tambor és el més petit possible."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El torn funciona com una palanca giratòria: com més petit és el radi del tambor (braç de la resistència), més gran és la força al cable per al mateix parell.",
+      "excerpt": "Així, quan el cable està gairebé estirat del tot, el radi del tambor és el més petit possible i, per la mateixa força (parell) d’entrada, la força de sortida (en el cable) és màxima.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § pla inclinat",
+      "stem": "Segons el manual de Física, en quin principi es basa el funcionament del pla inclinat?",
+      "options": [
+        "En el principi de Pascal: la pressió es transmet igual en totes direccions.",
+        "En el principi de la conservació de l'energia: es fa el mateix treball amb menys força al llarg de més distància.",
+        "En el principi d'Arquimedes: tot cos submergit rep una empenta vertical.",
+        "En la llei d'acció-reacció: la rampa empeny l'objecte cap amunt."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Com que el treball és força per distància, si es vol fer menys força cal recórrer més distància per assolir la mateixa alçada.",
+      "excerpt": "El seu funcionament es basa en el principi de la conservació de l'energia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § moment d'inèrcia",
+      "stem": "Segons el manual de Física, què mesura el moment d'inèrcia d'un cos?",
+      "options": [
+        "La resistència del cos a canviar la seva velocitat lineal.",
+        "L'energia que té el cos a causa de la seva alçada.",
+        "La resistència del cos a modificar la seva velocitat de rotació.",
+        "La força necessària per vèncer el fregament estàtic."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El moment d'inèrcia és l'anàleg rotacional de la massa: la massa s'oposa als canvis de velocitat lineal i el moment d'inèrcia, als de velocitat de rotació.",
+      "excerpt": "Mentre que la massa dona idea de la resistència d'un cos a canviar la seva velocitat lineal, el moment d'inèrcia mesura la resistència d'un cos a modificar la seva velocitat de rotació.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "gub-t34-llei-transit-ltsv-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Tema 34. Text refós de la Llei de trànsit i seguretat viària",
+    "topic_slug": "gub-t34-llei-transit",
+    "locale": "ca",
+    "category": "gub_t34_llei_transit",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto Legislativo 6/2015, de 30 de octubre, texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 80",
+      "stem": "Segons l'article 80 del Text refós de la Llei sobre trànsit, circulació de vehicles de motor i seguretat viària (RDLeg 6/2015), amb quina multa se sancionen les infraccions greus amb caràcter general?",
+      "options": [
+        "100 euros",
+        "200 euros",
+        "500 euros",
+        "300 euros"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Les lleus, fins a 100 €; les greus, 200 €; les molt greus, 500 €, llevat de velocitat i altres excepcions.",
+      "excerpt": "Las infracciones leves serán sancionadas con multa de hasta 100 euros; las graves, con multa de 200 euros, y las muy graves, con multa de 500 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14",
+      "stem": "Segons l'article 14 de la LTSV, quina taxa d'alcohol en sang pot tenir un conductor menor d'edat?",
+      "options": [
+        "0,15 grams per litre",
+        "0,3 grams per litre",
+        "0 grams per litre",
+        "0,5 grams per litre"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El conductor menor d'edat no pot circular amb cap taxa d'alcohol superior a zero.",
+      "excerpt": "En ningún caso el conductor menor de edad podrá circular por las vías con una tasa de alcohol en sangre superior a 0 gramos por litro",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 94",
+      "stem": "Segons l'article 94 de la LTSV, quina reducció de la multa comporta el pagament voluntari dins de termini?",
+      "options": [
+        "El 30 per cent",
+        "El 20 per cent",
+        "El 25 per cent",
+        "El 50 per cent"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El pagament voluntari en l'acte o en 20 dies naturals comporta una reducció del 50 %.",
+      "excerpt": "a) La reducción del 50 por ciento del importe de la sanción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7",
+      "stem": "Segons l'article 7 de la LTSV, a qui correspon la vigilància i disciplina del trànsit a les vies urbanes de titularitat municipal?",
+      "options": [
+        "Als municipis, per mitjà d'agents propis",
+        "A la Direcció General de Trànsit",
+        "Al Servei Català de Trànsit exclusivament",
+        "A la Guàrdia Civil"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Correspon als municipis la regulació, ordenació, gestió, vigilància i disciplina del trànsit en les seves vies urbanes, amb agents propis.",
+      "excerpt": "La regulación, ordenación, gestión, vigilancia y disciplina, por medio de agentes propios, del tráfico en las vías urbanas de su titularidad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14",
+      "stem": "Segons l'article 14 de la LTSV, està obligat el conductor a sotmetre's a les proves de detecció d'alcohol i drogues?",
+      "options": [
+        "No, és voluntari",
+        "Només si ha tingut un accident",
+        "Sí, quan les practiquen els agents encarregats de la vigilància del trànsit",
+        "Només si ho ordena un jutge"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El conductor està obligat a sotmetre's a les proves que practiquin els agents de vigilància del trànsit.",
+      "excerpt": "El conductor de un vehículo está obligado a someterse a las pruebas para la detección de alcohol o de la presencia de drogas en el organismo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112",
+      "stem": "Segons l'article 112 de la LTSV, quin és el termini de prescripció de les infraccions lleus?",
+      "options": [
+        "Sis mesos",
+        "Un any",
+        "Un mes",
+        "Tres mesos"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Les infraccions lleus prescriuen als tres mesos; les greus i molt greus, als sis mesos.",
+      "excerpt": "El plazo de prescripción de las infracciones previstas en esta ley será de tres meses para las infracciones leves y de seis meses para las infracciones graves y muy graves.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 94",
+      "stem": "Segons l'article 94 de la LTSV, en quin termini es pot fer el pagament voluntari amb reducció, comptat des de l'endemà de la notificació?",
+      "options": [
+        "Quinze dies hàbils",
+        "Vint dies naturals",
+        "Trenta dies naturals",
+        "Deu dies hàbils"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El pagament voluntari es pot fer en l'acte o en vint dies naturals des de l'endemà de la notificació.",
+      "excerpt": "dentro del plazo de veinte días naturales contados desde el día siguiente al de su notificación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 94",
+      "stem": "Segons l'article 94 de la LTSV, quina conseqüència NO comporta el pagament voluntari de la multa en el procediment abreujat?",
+      "options": [
+        "L'anul·lació de la pèrdua de punts",
+        "La renúncia a formular al·legacions",
+        "La terminació del procediment sense resolució expressa",
+        "L'esgotament de la via administrativa"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El pagament comporta reducció del 50 %, renúncia a al·legacions, terminació, esgotament de la via administrativa i firmesa; no anul·la la pèrdua de punts.",
+      "excerpt": "b) La renuncia a formular alegaciones. En el caso de que se formulen se tendrán por no presentadas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112",
+      "stem": "Segons l'article 112 de la LTSV, què passa si no s'ha dictat resolució sancionadora transcorregut un any des de l'inici del procediment?",
+      "options": [
+        "La sanció esdevé ferma automàticament",
+        "Es prorroga sis mesos més",
+        "Es produeix la caducitat i s'arxiven les actuacions",
+        "La infracció es converteix en lleu"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Transcorregut un any sense resolució, el procediment caduca i s'arxiva.",
+      "excerpt": "Si no se hubiera producido la resolución sancionadora transcurrido un año desde la iniciación del procedimiento, se producirá su caducidad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 104",
+      "stem": "Segons l'article 104 de la LTSV, en quin d'aquests casos poden els agents immobilitzar el vehicle?",
+      "options": [
+        "Quan el conductor no porti el permís a sobre però el tingui vigent",
+        "Quan el vehicle no tingui assegurança obligatòria",
+        "Quan el vehicle estigui brut",
+        "Quan el conductor sigui menor de 25 anys"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Es pot immobilitzar, entre d'altres casos, si el vehicle no té assegurança obligatòria.",
+      "excerpt": "e) El vehículo carezca de seguro obligatorio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 104",
+      "stem": "Segons l'article 104 de la LTSV, s'aplica la immobilització per no fer ús del casc de protecció als ciclistes?",
+      "options": [
+        "No, aquesta mesura no s'aplica als ciclistes",
+        "Sí, en tots els casos",
+        "Només en via interurbana",
+        "Només si són menors d'edat"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La immobilització per no dur casc o sistema de retenció infantil no s'aplica als ciclistes.",
+      "excerpt": "Esta medida no se aplicará a los ciclistas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105",
+      "stem": "Segons l'article 105 de la LTSV, en quin termini ha de comunicar l'Administració al titular la retirada i dipòsit del vehicle?",
+      "options": [
+        "Quaranta-vuit hores",
+        "Setanta-dues hores",
+        "Deu dies",
+        "Vint-i-quatre hores"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La retirada i dipòsit s'ha de comunicar al titular en 24 hores.",
+      "excerpt": "La Administración deberá comunicar la retirada y depósito del vehículo al titular en el plazo de veinticuatro horas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105",
+      "stem": "Segons l'article 105 de la LTSV, en quin d'aquests casos es pot retirar un vehicle de la via i dipositar-lo?",
+      "options": [
+        "Quan estigui estacionat correctament en zona blava amb tiquet",
+        "Quan el titular tingui multes pendents de pagament",
+        "Quan estigui estacionat en una plaça reservada a persones amb discapacitat sense el distintiu que ho autoritza",
+        "Quan el vehicle tingui més de deu anys"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 105 preveu la retirada, entre d'altres, en places reservades a persones amb discapacitat sense distintiu.",
+      "excerpt": "zonas de aparcamiento reservado para el uso de personas con discapacidad sin colocar el distintivo que lo autoriza",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 81",
+      "stem": "Segons l'article 81 de la LTSV, en quin percentatge es pot incrementar la quantia de les multes per graduació?",
+      "options": [
+        "Un 30 per cent",
+        "Un 50 per cent",
+        "Un 20 per cent",
+        "Un 100 per cent"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La quantia pot incrementar-se un 30 % en atenció a la gravetat, antecedents, reincidència, perill i proporcionalitat.",
+      "excerpt": "podrá incrementarse en un 30 por ciento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 87",
+      "stem": "Segons l'article 87 de la LTSV, quina dada ha de constar en la denúncia quan el denunciant és un agent de l'autoritat?",
+      "options": [
+        "El seu nom i domicili particular",
+        "El seu DNI",
+        "La seva signatura manuscrita i adreça",
+        "El seu número d'identificació professional"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Si el denunciant és agent, hi consta el número d'identificació professional en lloc del nom i domicili.",
+      "excerpt": "su número de identificación profesional aportado por la administración competente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 80",
+      "stem": "Segons l'article 80 de la LTSV, quina multa correspon a les infraccions de l'article 77 c) i d) (com determinades conduccions amb alcohol o drogues)?",
+      "options": [
+        "500 euros",
+        "1.000 euros",
+        "600 euros",
+        "2.000 euros"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les infraccions de l'article 77 c) i d) se sancionen amb 1.000 euros, amb les condicions per a l'alcohol que fixa l'article.",
+      "excerpt": "Las infracciones previstas en el artículo 77. c) y d) serán sancionadas con multa de 1.000 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 106",
+      "stem": "Segons l'article 106 de la LTSV, quan es pot ordenar el trasllat a un centre autoritzat de tractament d'un vehicle estacionat al mateix lloc?",
+      "options": [
+        "Quan hi romangui més d'una setmana",
+        "Quan hi romangui més de dos mesos encara que estigui en bon estat",
+        "Quan hi romangui més d'un mes i presenti desperfectes que n'impedeixin el desplaçament o li faltin les plaques",
+        "Quan el titular ho demani a l'agent"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Es pot ordenar quan roman més d'un mes al mateix lloc amb desperfectes que impedeixen moure'l o sense plaques.",
+      "excerpt": "Cuando permanezca estacionado por un período superior a un mes en el mismo lugar y presente desperfectos que hagan imposible su desplazamiento por sus propios medios o le falten las placas de matrícula.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 106",
+      "stem": "Segons l'article 106 de la LTSV, quant temps ha de passar des de la retirada i dipòsit del vehicle sense al·legacions del titular per poder-ne ordenar el tractament residual?",
+      "options": [
+        "Més de dos mesos",
+        "Més d'un mes",
+        "Més de sis mesos",
+        "Més de quinze dies"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El tractament residual es pot ordenar quan han passat més de dos mesos des de la immobilització o retirada sense al·legacions.",
+      "excerpt": "Cuando hayan transcurrido más de dos meses desde que el vehículo fuera inmovilizado o retirado de la vía pública y depositado por la Administración y su titular no hubiera formulado alegaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 112",
+      "stem": "Segons l'article 112 de la LTSV, quan es reprèn el termini de prescripció interromput?",
+      "options": [
+        "Si el procediment es paralitza més de sis mesos",
+        "Si el denunciat canvia de domicili",
+        "Mai no es reprèn",
+        "Si el procediment es paralitza més d'un mes per causa no imputable al denunciat"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El termini es reprèn si el procediment està paralitzat més d'un mes per causa no imputable al denunciat.",
+      "excerpt": "El plazo de prescripción se reanudará si el procedimiento se paraliza durante más de un mes por causa no imputable al denunciado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105",
+      "stem": "Segons l'article 105 de la LTSV, en quin cas les despeses de retirada del vehicle NO són a càrrec del titular?",
+      "options": [
+        "Quan el titular és una persona jurídica",
+        "En cas de sostracció o altres formes d'ús del vehicle contra la voluntat del titular, degudament justificades",
+        "Quan la retirada es fa en cap de setmana",
+        "Quan el vehicle és de lloguer"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les despeses són a càrrec del titular, llevat de sostracció o ús contra la seva voluntat degudament justificats.",
+      "excerpt": "Salvo en los casos de sustracción u otras formas de utilización del vehículo en contra de la voluntad de su titular, debidamente justificadas",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man09-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.003 Manual operatiu bàsic de Física (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 4) · MAN.GRAL.003",
+      "stem": "Un objecte cau lliurement des d'una alçada de 20 metres, sense fregament. Si g = 10 m/s², amb quina velocitat arriba a terra?",
+      "options": [
+        "20 m/s.",
+        "200 m/s.",
+        "14,1 m/s.",
+        "40 m/s."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Tota l'energia potencial (m·g·h) es transforma en cinètica (½·m·v²): v = √(2·g·h) = √400 = 20 m/s.",
+      "excerpt": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 30 i 79) · MAN.GRAL.003",
+      "stem": "Apliques una força de 50 N perpendicular a l'extrem d'una clau de 40 cm de llarg. Quin moment (parell) fas sobre el cargol?",
+      "options": [
+        "2.000 N·m.",
+        "125 N·m.",
+        "0,8 N·m.",
+        "20 N·m."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Moment = força × distància = 50 N × 0,4 m = 20 N·m.",
+      "excerpt": "Es mesura en newton-metre (Nm), i es calcula multiplicant el valor d'una de les forces per la distància que separa els seus punts d'aplicació.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

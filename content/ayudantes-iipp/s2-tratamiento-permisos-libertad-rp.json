@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "set": "iippsup-s2-tratamiento-permisos-libertad-rp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Supuestos prácticos II. Clasificación, permisos, libertad condicional y ejecución penal",
+    "topic_slug": "iippsup-s2-tratamiento-permisos-libertad",
+    "locale": "es",
+    "category": "iippsup_s2_tratamiento_permisos_libertad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 154.1 RP",
+      "stem": "Alberto F., penado en segundo grado, ha extinguido la quinta parte de su condena y no observa mala conducta. Solicita su primer permiso ordinario. Según el Reglamento Penitenciario:",
+      "options": [
+        "Puede obtenerlo, porque basta con haber extinguido la quinta parte.",
+        "Puede obtenerlo si lo autoriza el Director.",
+        "Solo puede obtenerlo si está en tercer grado.",
+        "No cumple aún el requisito temporal, pues debe haber extinguido la cuarta parte de la condena."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 154.1 RP exige haber extinguido la cuarta parte de la condena.",
+      "excerpt": "siempre que hayan extinguido la cuarta parte de la condena o condenas y no observen mala conducta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 154.2 RP",
+      "stem": "Rosa G., penada en tercer grado, ha disfrutado ya veinte días de permiso ordinario en el primer semestre natural del año. Según el Reglamento Penitenciario, como regla general, en cada semestre puede concedérsele hasta:",
+      "options": [
+        "Dieciocho días.",
+        "Veinticuatro días.",
+        "Treinta y seis días.",
+        "Siete días."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 154.2 RP distribuye los límites anuales en hasta dieciocho (segundo grado) y veinticuatro días (tercer grado) por semestre.",
+      "excerpt": "concediendo en cada uno de ellos hasta dieciocho y veinticuatro días, respectivamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 155.3 RP",
+      "stem": "El penado Nicolás H., clasificado en primer grado, solicita un permiso extraordinario por enfermedad grave de su madre. Según el Reglamento Penitenciario, será necesaria:",
+      "options": [
+        "La autorización expresa del Juez de Vigilancia.",
+        "La autorización del Centro Directivo exclusivamente.",
+        "La autorización del Director, sin más trámite.",
+        "Nada, porque los internos en primer grado no pueden disfrutar permisos extraordinarios."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 155.3 RP exige autorización expresa del Juez de Vigilancia para los internos en primer grado.",
+      "excerpt": "Cuando se trate de internos clasificados en primer grado será necesaria la autorización expresa del Juez de Vigilancia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 155.4 RP",
+      "stem": "Elena P., penada en segundo grado, tiene cita en una consulta ambulatoria de un hospital extrapenitenciario. Según el Reglamento Penitenciario, puede concedérsele, previo informe médico, un permiso extraordinario de hasta:",
+      "options": [
+        "Dos días de duración.",
+        "Veinticuatro horas de duración.",
+        "Doce horas de duración.",
+        "Seis horas de duración."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 155.4 RP prevé hasta doce horas para consultas ambulatorias y hasta dos días para ingresos hospitalarios.",
+      "excerpt": "permisos extraordinarios de salida de hasta doce horas de duración para consulta ambulatoria extrapenitenciaria de los penados clasificados en segundo o tercer grado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 156.1 RP",
+      "stem": "Para el permiso ordinario solicitado por el interno Darío M., el Equipo Técnico aprecia variables cualitativas desfavorables que hacen probable el quebrantamiento de la condena. Según el Reglamento Penitenciario, su informe preceptivo será:",
+      "options": [
+        "Favorable con condiciones, en todo caso.",
+        "Desfavorable.",
+        "Innecesario, por existir riesgo de quebrantamiento.",
+        "Sustituido por un informe del Director."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 156.1 RP establece cuándo el informe será desfavorable.",
+      "excerpt": "El informe preceptivo del Equipo Técnico será desfavorable cuando, por la peculiar trayectoria delictiva, la personalidad anómala del interno o por la existencia de variables cualitativas desfavorables, resulte probable el quebrantamiento de la condena",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 161.1 RP",
+      "stem": "La Junta de Tratamiento acuerda conceder un permiso ordinario de cinco días a Marcos R., clasificado en segundo grado. Según el Reglamento Penitenciario, el acuerdo se eleva, junto con el informe del Equipo Técnico, para su autorización a:",
+      "options": [
+        "El Centro Directivo.",
+        "El Director del Establecimiento.",
+        "El Juez de Vigilancia.",
+        "El Tribunal sentenciador."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 161.1 RP: Juez de Vigilancia para segundo grado y Centro Directivo para tercer grado.",
+      "excerpt": "elevará dicho acuerdo, junto con el informe del Equipo Técnico, al Juez de Vigilancia o al Centro Directivo, según se trate de internos clasificados en segundo o tercer grado de tratamiento, respectivamente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 161.2 RP",
+      "stem": "La Junta de Tratamiento acuerda conceder a la penada Carla S., en segundo grado, un permiso ordinario de dos días. Según el Reglamento Penitenciario, los permisos ordinarios a penados de hasta dos días de duración los autoriza:",
+      "options": [
+        "El Centro Directivo.",
+        "El Juez de Vigilancia.",
+        "El Director del Establecimiento.",
+        "La propia Junta de Tratamiento, sin más trámite."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 161.2 RP atribuye esa autorización al Centro Directivo.",
+      "excerpt": "Los permisos ordinarios a penados de hasta dos días de duración serán autorizados por el Centro Directivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 104.2 RP",
+      "stem": "Jorge L., penado clasificado en segundo grado, es imputado en otra causa en la que se le decreta prisión preventiva. Según el Reglamento Penitenciario:",
+      "options": [
+        "Su clasificación se mantiene sin cambios.",
+        "Pasa automáticamente al primer grado.",
+        "La Junta de Tratamiento debe reclasificarlo en tercer grado.",
+        "Su clasificación quedará sin efecto, dando cuenta al Centro Directivo."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 104.2 RP deja sin efecto la clasificación en ese caso.",
+      "excerpt": "Si un penado estuviese ya clasificado y le fuera decretada prisión preventiva por otra u otras causas, quedará sin efecto dicha clasificación, dando cuenta al Centro Directivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 105.1 RP",
+      "stem": "Luis O. fue clasificado inicialmente en segundo grado en enero. Según el Reglamento Penitenciario, los internos deben ser estudiados individualmente para reconsiderar su clasificación:",
+      "options": [
+        "Cada año.",
+        "Cada seis meses como máximo.",
+        "Cada tres meses como mínimo.",
+        "Solo a petición del interno."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 105.1 RP fija la revisión cada seis meses como máximo.",
+      "excerpt": "Cada seis meses como máximo, los internos deberán ser estudiados individualmente para evaluar y reconsiderar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 114.4 RP",
+      "stem": "El educador del módulo 7 organiza una visita a un museo para un grupo de internos como actividad de tratamiento. Según el Reglamento Penitenciario, las salidas programadas las propone:",
+      "options": [
+        "La Junta de Tratamiento, que solicitará la aprobación del Centro Directivo.",
+        "El educador, con autorización del Jefe de Servicios.",
+        "El Director, sin intervención de otros órganos.",
+        "El Juez de Vigilancia, a petición de los internos."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 114.4 RP atribuye la propuesta a la Junta de Tratamiento.",
+      "excerpt": "Las salidas programadas serán propuestas por la Junta de Tratamiento, que solicitará la aprobación del Centro Directivo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

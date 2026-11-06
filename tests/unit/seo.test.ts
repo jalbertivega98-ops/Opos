@@ -69,7 +69,7 @@ describe("guías públicas", () => {
       expect(g.sources.length).toBeGreaterThan(0);
       for (const s of g.sources)
         expect(s.url).toMatch(
-          /^https:\/\/(.+\.)?(gencat\.cat|boe\.es|inap\.gob\.es|mjusticia\.gob\.es|policia\.es|guardiacivil\.es)\//,
+          /^https:\/\/(.+\.)?(gencat\.cat|boe\.es|inap\.gob\.es|mjusticia\.gob\.es|policia\.es|guardiacivil\.es|barcelona\.cat|terrassa\.cat|diba\.cat|institucionpenitenciaria\.es)\//,
         );
       for (const t of g.psychoTypes) expect(PSYCHO_TYPES).toContain(t);
       expect(g.seoTitle.es.length).toBeLessThanOrEqual(70);

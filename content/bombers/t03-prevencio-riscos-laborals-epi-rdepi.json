@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "bomb-t03-prevencio-riscos-laborals-epi-rdepi-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 3. Prevenció de riscos laborals i equips de protecció individual",
+    "topic_slug": "bomb-t03-prevencio-riscos-laborals-epi",
+    "locale": "ca",
+    "category": "bomb_t03_prevencio_riscos_laborals_epi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 773/1997, de 30 de mayo, sobre disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-12735",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3 RD 773/1997",
+      "stem": "Com ha de proporcionar l'empresari els equips de protecció individual als treballadors segons el RD 773/1997?",
+      "options": [
+        "A canvi d'una aportació simbòlica del treballador.",
+        "Només un cop, en incorporar-se al lloc de treball.",
+        "Mitjançant descompte en la nòmina.",
+        "Gratuïtament, i reposant-los quan sigui necessari."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "És una obligació general de l'empresari (art. 3.c RD 773/1997).",
+      "excerpt": "Proporcionar gratuitamente a los trabajadores los equipos de protección individual que deban utilizar, reponiéndolos cuando resulte necesario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10 RD 773/1997",
+      "stem": "Què ha de fer el treballador si aprecia un defecte en el seu EPI que en pugui reduir l'eficàcia protectora?",
+      "options": [
+        "Informar-ne immediatament el seu superior jeràrquic directe.",
+        "Reparar-lo ell mateix.",
+        "Continuar fent-lo servir fins al final del torn.",
+        "Comunicar-ho al fabricant."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Art. 10.c RD 773/1997.",
+      "excerpt": "Informar de inmediato a su superior jerárquico directo de cualquier defecto, anomalía o daño apreciado en el equipo de protección individual utilizado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4 RD 773/1997",
+      "stem": "Quan s'han d'utilitzar els EPI segons el RD 773/1997?",
+      "options": [
+        "Sempre, en qualsevol lloc de treball.",
+        "Només quan ho demana el treballador.",
+        "Només en treballs amb risc elèctric.",
+        "Quan hi ha riscos que no s'han pogut evitar o limitar prou per mitjans tècnics de protecció col·lectiva o per mesures d'organització del treball."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'EPI és el darrer recurs preventiu (art. 4 RD 773/1997).",
+      "excerpt": "Los equipos de protección individual deberán utilizarse cuando existan riesgos para la seguridad o salud de los trabajadores que no hayan podido evitarse o limitarse suficientemente por medios técnicos de protección colectiva o mediante medidas, métodos o procedimientos de organización del trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7 RD 773/1997",
+      "stem": "Segons el RD 773/1997, quina és la regla general sobre l'ús compartit dels EPI?",
+      "options": [
+        "Es poden compartir lliurement entre els treballadors del mateix torn.",
+        "Estan destinats, en principi, a un ús personal; si cal compartir-los, s'han d'adoptar mesures perquè no causin problemes de salut o higiene.",
+        "No es poden compartir en cap cas.",
+        "Només es poden compartir si són d'un sol ús."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Art. 7.3 RD 773/1997.",
+      "excerpt": "Los equipos de protección individual estarán destinados, en principio, a un uso personal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 RD 773/1997",
+      "stem": "Segons el RD 773/1997, què és un equip de protecció individual?",
+      "options": [
+        "Qualsevol equip destinat a ser portat o subjectat pel treballador perquè el protegeixi d'un o diversos riscos, així com qualsevol complement o accessori amb aquesta finalitat.",
+        "Qualsevol mesura tècnica col·lectiva que redueixi el risc.",
+        "La roba de treball corrent i els uniformes.",
+        "Els dispositius de senyalització de seguretat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 2 RD 773/1997 ho defineix així i exclou, entre altres, la roba de treball corrent no destinada a protegir.",
+      "excerpt": "cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud, así como cualquier complemento o accesorio destinado a tal fin.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5 RD 773/1997",
+      "stem": "Quan s'han d'utilitzar simultàniament diversos EPI per riscos múltiples, quin requisit han de complir segons el RD 773/1997?",
+      "options": [
+        "Han de ser tots del mateix fabricant.",
+        "Han de ser compatibles entre si i mantenir la seva eficàcia davant del risc o riscos corresponents.",
+        "N'hi ha prou que el més important tingui marcatge CE.",
+        "Han de ser d'un sol ús."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Art. 5.2 RD 773/1997.",
+      "excerpt": "En caso de riesgos múltiples que exijan la utilización simultánea de varios equipos de protección individual, éstos deberán ser compatibles entre sí y mantener su eficacia en relación con el riesgo o riesgos correspondientes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

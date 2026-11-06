@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "iipp-c04-prestaciones-logp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penitenciario, tema 4. Prestaciones: asistencia sanitaria, higiene y alimentación, asistencia religiosa y acción social",
+    "topic_slug": "iipp-c04-prestaciones",
+    "locale": "es",
+    "category": "iipp_c04_prestaciones",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. treinta y siete LOGP",
+      "stem": "Según el artículo 37 de la Ley Orgánica General Penitenciaria, todos los establecimientos estarán dotados, para la asistencia sanitaria, de las siguientes dependencias, EXCEPTO:",
+      "options": [
+        "Una enfermería con número suficiente de camas.",
+        "Una dependencia destinada a la observación psiquiátrica y a la atención de los toxicómanos.",
+        "Una unidad para enfermos contagiosos.",
+        "Un quirófano para cirugía mayor."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 37 LOGP exige enfermería, dependencia psiquiátrica y de toxicómanos, y unidad de contagiosos; no un quirófano.",
+      "excerpt": "a) De una enfermería, que contará con un número suficiente de camas […] b) De una dependencia destinada a la observación psiquiátrica y a la atención de los toxicómanos. c) De una unidad para enfermos contagiosos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. treinta y ocho.Dos LOGP",
+      "stem": "Según el artículo 38 de la Ley Orgánica General Penitenciaria, las internas pueden tener en su compañía a sus hijos que no hayan alcanzado:",
+      "options": [
+        "Los seis años de edad.",
+        "Los dos años de edad.",
+        "Los tres años de edad.",
+        "Los diez años de edad."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 38.2 LOGP fija el límite en tres años, acreditando la filiación.",
+      "excerpt": "Las internas podrán tener en su compañía a los hijos que no hayan alcanzado los tres años de edad, siempre que acrediten debidamente su filiación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. treinta y ocho.Tres LOGP",
+      "stem": "El régimen específico de visitas sin restricciones de frecuencia e intimidad que prevé el artículo 38 de la Ley Orgánica General Penitenciaria se refiere a los menores que no convivan con la madre en el centro y que no superen:",
+      "options": [
+        "Los diez años.",
+        "Los tres años.",
+        "Los seis años.",
+        "Los doce años."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 38.3 LOGP se refiere a menores que no superen los diez años.",
+      "excerpt": "Reglamentariamente se establecerá un régimen específico de visitas para los menores que no superen los diez años y no convivan con la madre en el centro penitenciario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. veintiuno.Dos LOGP",
+      "stem": "Según el artículo 21 de la Ley Orgánica General Penitenciaria, la alimentación que proporciona la Administración a los internos está controlada por:",
+      "options": [
+        "El Administrador.",
+        "El Médico.",
+        "La Junta Económico-Administrativa.",
+        "El encargado de cocina."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 21.2 LOGP habla de una alimentación controlada por el Médico.",
+      "excerpt": "La Administración proporcionará a los internos una alimentación controlada por el Médico",
+      "excerpt_status": "completo"
+    }
+  ]
+}

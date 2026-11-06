@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-lofcs-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 51.3",
+      "stem": "(Rèplica 2022, núm. 20) Segons l'article 51.3 de la Llei orgànica 2/1986, on poden actuar els cossos de policia local?",
+      "options": [
+        "A tota la comunitat autònoma sense limitació",
+        "Només en l'àmbit territorial del municipi respectiu, llevat de situacions d'emergència i previ requeriment",
+        "A tota la província, si ho autoritza l'alcalde",
+        "A qualsevol municipi limítrof, sense requeriment previ"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 51.3 LOFCS limita l'actuació al terme municipal, excepte en situacions d'emergència i previ requeriment de les autoritats competents.",
+      "excerpt": "Dichos cuerpos sólo podrán actuar en el ámbito territorial del municipio respectivo, salvo en situaciones de emergencia y previo requerimiento de las autoridades competentes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

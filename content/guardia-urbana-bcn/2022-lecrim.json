@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-lecrim-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 520.3",
+      "stem": "(Rèplica 2022, núm. 26) Si la persona detinguda és estrangera, a qui s'ha de comunicar el fet de la detenció i el lloc de custòdia, segons l'article 520.3 LECrim?",
+      "options": [
+        "Al cònsol del seu país",
+        "Només al Ministeri Fiscal",
+        "A la Delegació del Govern",
+        "A l'ambaixada espanyola al seu país"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 520.3 LECrim preveu la comunicació al cònsol del seu país i permetre-li la comunicació amb l'autoritat consular.",
+      "excerpt": "Si el detenido fuere extranjero, se comunicará al cónsul de su país el hecho de su detención y el lugar de custodia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 554",
+      "stem": "(Rèplica 2022, núm. 27) A efectes d'entrada i registre, quin d'aquests llocs té la consideració de domicili segons l'article 554 LECrim?",
+      "options": [
+        "Els vehicles particulars",
+        "Els locals comercials oberts al públic",
+        "Els trasters comunitaris oberts",
+        "Els vaixells mercants nacionals"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 554 LECrim reputa domicili els palaus reials, l'edifici o lloc tancat destinat a habitatge, els vaixells mercants nacionals i determinats espais de persones jurídiques investigades.",
+      "excerpt": "Los buques nacionales mercantes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 282 bis.4",
+      "stem": "(Rèplica 2022, núm. 54, reserva) A efectes de l'agent encobert, quantes persones calen com a mínim perquè una associació es consideri delinqüència organitzada segons l'article 282 bis.4 LECrim?",
+      "options": [
+        "Dues o més persones",
+        "Tres o més persones",
+        "Cinc o més persones",
+        "Deu o més persones"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'article 282 bis.4 LECrim considera delinqüència organitzada l'associació de tres o més persones per cometre, de forma permanent o reiterada, determinats delictes.",
+      "excerpt": "se considerará como delincuencia organizada la asociación de tres o más personas",
+      "excerpt_status": "completo"
+    }
+  ]
+}

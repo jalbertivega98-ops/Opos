@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "iipp-a07-personal-iipp-rd89-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Primera parte, tema 7. El personal de Instituciones Penitenciarias y el Cuerpo de Ayudantes: funciones y unidades de servicio",
+    "topic_slug": "iipp-a07-personal-iipp",
+    "locale": "es",
+    "category": "iipp_a07_personal_iipp",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 89/2001, de 2 de febrero, asignación de puestos de trabajo a funcionarios penitenciarios por razones de edad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-3129",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 2 RD 89/2001",
+      "stem": "Según el Real Decreto 89/2001, los funcionarios de vigilancia del servicio interior pueden solicitar la asignación de otro puesto por razón de edad cuando hayan cumplido:",
+      "options": [
+        "Cincuenta y siete años y veinticinco de servicio efectivo en el área de vigilancia.",
+        "Sesenta años y treinta de servicio efectivo.",
+        "Cincuenta y cinco años y veinte de servicio efectivo.",
+        "Sesenta y cinco años, en todo caso."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 2 del RD 89/2001 exige 57 años y, para servicio interior, 25 años en vigilancia (los cinco últimos ininterrumpidos); 30 para servicio interior-2.",
+      "excerpt": "cincuenta y siete años de edad y haber prestado servicio efectivo durante los períodos de tiempo y en los puestos de trabajo que a continuación se especifican",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 5.2 RD 89/2001",
+      "stem": "Según el Real Decreto 89/2001, la petición de asignación de un puesto por razón de edad debe realizarse con una antelación de:",
+      "options": [
+        "Tres meses, y el silencio es desestimatorio.",
+        "Un año, y el silencio es desestimatorio.",
+        "Un mes, y el silencio es estimatorio.",
+        "Seis meses, y si llega la fecha sin resolución expresa se entiende estimada."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 5.2 del RD 89/2001 fija seis meses y silencio positivo.",
+      "excerpt": "La petición deberá realizarse con una antelación de seis meses a la fecha en que el funcionario quiera ejercer este derecho",
+      "excerpt_status": "completo"
+    }
+  ]
+}
