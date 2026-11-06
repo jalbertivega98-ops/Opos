@@ -99,6 +99,11 @@ export async function WeekPlanView({
                   </span>
                 )}
               </span>
+              {task.kind === "psycho" && !done && (
+                <Badge tone="success" data-testid="task-free">
+                  {t("free")}
+                </Badge>
+              )}
               {task.kind === "topic" && open && !done && (
                 <Badge tone={task.status === "new" ? "accent" : "warning"}>
                   {t(`status.${task.status}`)}
@@ -144,6 +149,9 @@ export async function WeekPlanView({
           );
         })}
       </ul>
+      <p className="text-muted-foreground text-xs" data-testid="plan-legend">
+        {plan.tasks.some((task) => task.kind === "psycho") ? t("legend") : t("legendNoPsycho")}
+      </p>
       {anyLocked && (
         <p className="text-muted-foreground text-xs" data-testid="plan-locked-note">
           {t("lockedNote")}{" "}

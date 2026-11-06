@@ -1469,10 +1469,10 @@
       "new": "Nou",
       "weak": "Reforçar"
     },
-    "taskPsycho": "{count, plural, one {# sessió} other {# sessions}} de psicotècnics",
+    "taskPsycho": "Pràctica de psicotècnics: {count, plural, one {# sessió} other {# sessions}} d'uns 15 min",
     "taskMock": {
-      "knowledge": "{count, plural, one {# simulacre} other {# simulacres}} de coneixements",
-      "psycho": "{count, plural, one {# simulacre} other {# simulacres}} de psicotècnics"
+      "knowledge": "{count, plural, one {# simulacre} other {# simulacres}} de coneixements amb el temps de l'examen",
+      "psycho": "{count, plural, one {# simulacre} other {# simulacres}} de psicotècnics amb el temps de l'examen"
     },
     "covered": "{covered} de {total} temes dominats",
     "split": "Repartiment setmanal: {syllabus} min de temari · {psycho} min de psicotècnics · {mocks} min de simulacres",
@@ -1505,8 +1505,11 @@
       }
     },
     "emptyNoContent": "La teva oposició encara no té temari publicat. El pla apareixerà quan en tingui.",
-    "premium": "Premium",
-    "lockedNote": "El que té cadenat forma part de la preparació de pagament (Premium o pack).",
+    "premium": "Premium o pack",
+    "free": "Gratis",
+    "legend": "Les xifres són el que toca aquesta setmana. Una sessió de psicotècnics és pràctica lliure i gratuïta (uns 15 min, al teu ritme). Un simulacre és l'examen complet amb el temps oficial: va inclòs a Premium o gasta un intent d'un pack de 10.",
+    "legendNoPsycho": "Les xifres són el que toca aquesta setmana. Un simulacre és l'examen complet amb el temps oficial: va inclòs a Premium o gasta un intent d'un pack de 10.",
+    "lockedNote": "El que té cadenat és de pagament: s'obre amb el Premium de la teva oposició (tot inclòs) o amb un pack de 10 simulacres.",
     "lockedCta": "Veure què inclou",
     "readNote": "Fitxa",
     "startTest": "Comença el test",
