@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { AppNav } from "@/components/app-nav";
+import { PresenceBeacon } from "@/components/presence-beacon";
 import { requireUser } from "@/lib/auth/session";
 
 /** Zona privada o sin contenido para buscadores (ADR-025). */
@@ -30,6 +31,7 @@ export default async function AppLayout({
   return (
     <div className="wrap py-6 sm:py-8">
       <AppNav label={t("dashboard")} links={links} />
+      <PresenceBeacon />
       {children}
     </div>
   );

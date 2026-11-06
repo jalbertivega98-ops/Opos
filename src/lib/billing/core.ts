@@ -83,6 +83,8 @@ export function buildCheckoutParams(input: {
     // Stripe activa por defecto «Managed Payments» (Stripe como vendedor, exige
     // código fiscal por producto). Lo desactivamos: vendemos nosotros (ADR-027).
     managed_payments: { enabled: false },
+    // Códigos promocionales de Stripe (los que se crean desde la ficha del alumno, ADR-038)
+    allow_promotion_codes: true,
     line_items: [
       {
         quantity: 1,
@@ -174,7 +176,10 @@ export async function fulfillCheckoutSession(session: Stripe.Checkout.Session, d
     const subId = idOf(session.subscription);
     return subId ? syncSubscriptionById(subId, deps) : ("ignored" as const);
   }
-  if (session.mode !== "payment" || session.payment_status !== "paid") return "pending" as const;
+  // «no_payment_required»: un código promocional del 100 % deja el pago a 0 €
+  const settled =
+    session.payment_status === "paid" || session.payment_status === "no_payment_required";
+  if (session.mode !== "payment" || !settled) return "pending" as const;
   const m = meta(session.metadata);
   const ref = idOf(session.payment_intent) ?? session.id;
   if (!m) return "ignored" as const;

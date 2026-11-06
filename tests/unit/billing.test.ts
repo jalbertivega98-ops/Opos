@@ -102,6 +102,7 @@ describe("sesión de Checkout", () => {
     });
     expect(p.mode).toBe("payment");
     expect(p.managed_payments).toEqual({ enabled: false });
+    expect(p.allow_promotion_codes).toBe(true);
     expect(p.line_items?.[0].price_data).toMatchObject({ currency: "eur", unit_amount: 4900 });
     expect(p.line_items?.[0].price_data?.recurring).toBeUndefined();
     expect(p.metadata).toEqual(meta);
@@ -207,6 +208,23 @@ describe("avisos de Stripe (webhook)", () => {
     });
     expect(await handleStripeEvent(e, deps(store))).toBe("duplicate");
     expect(store.recordPayment).toHaveBeenCalledTimes(1);
+  });
+  it("pago a 0 € con un código del 100 % también da acceso", async () => {
+    const store = memoryStore();
+    const e = event("checkout.session.completed", {
+      id: "cs_test_free",
+      mode: "payment",
+      payment_status: "no_payment_required",
+      payment_intent: null,
+      amount_total: 0,
+      currency: "eur",
+      livemode: false,
+      metadata: meta,
+    });
+    expect(await handleStripeEvent(e, deps(store))).toBe("paid");
+    expect(store.recordPayment).toHaveBeenCalledWith(
+      expect.objectContaining({ ref: "cs_test_free", amount: 0 }),
+    );
   });
   it("pago aún no confirmado (p. ej. transferencia) no da acceso", async () => {
     const store = memoryStore();
