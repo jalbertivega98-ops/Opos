@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "cultcat-02-historia-espanya-mon-ddhc1789-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 2. Història d'Espanya i universal",
+    "topic_slug": "cultcat-02-historia-espanya-mon",
+    "locale": "ca",
+    "category": "cultcat_02_historia_espanya_mon",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Déclaration des Droits de l'Homme et du Citoyen de 1789",
+      "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789",
+      "kind": "web_oficial",
+      "publisher": "Conseil constitutionnel (République française)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Declaració de Drets de l'Home i del Ciutadà, 1789",
+      "stem": "Quin document, aprovat a França el 1789, comença el seu article 1 afirmant que els homes neixen i romanen lliures i iguals en drets?",
+      "options": [
+        "La Declaració d'Independència dels Estats Units",
+        "La Declaració Universal dels Drets Humans",
+        "La Declaració dels Drets de l'Home i del Ciutadà",
+        "La Carta Magna"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La Declaració dels Drets de l'Home i del Ciutadà (1789), de la Revolució Francesa, forma part encara avui del bloc de constitucionalitat francès. La Declaració Universal és de l'ONU (1948).",
+      "excerpt": "Déclaration des Droits de l'Homme et du Citoyen de 1789 […] Article 1er Les hommes naissent et demeurent libres et égaux en",
+      "excerpt_status": "completo"
+    }
+  ]
+}

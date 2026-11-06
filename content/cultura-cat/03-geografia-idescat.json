@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "set": "cultcat-03-geografia-idescat-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 3. Geografia de Catalunya, d'Espanya i del món",
+    "topic_slug": "cultcat-03-geografia",
+    "locale": "ca",
+    "category": "cultcat_03_geografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Anuari estadístic de Catalunya i El municipi en xifres (Institut d'Estadística de Catalunya)",
+      "url": "https://www.idescat.cat/indicadors/?id=aec&lang=ca",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estadística de Catalunya (Idescat)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Cim més alt de Catalunya",
+      "stem": "Quin és el cim més alt de Catalunya, amb 3.143 metres, situat entre el Pallars Sobirà i França?",
+      "options": [
+        "El Puigmal",
+        "El Pedraforca",
+        "El Turó de l'Home",
+        "La Pica d'Estats"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Segons l'Anuari estadístic de Catalunya, la Pica d'Estats (3.143 m) és el cim principal dels Pirineus catalans; el Puigmal fa 2.909 m.",
+      "excerpt": "Pica d'Estats 3.143 Pallars Sobirà/França",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Vallès Occidental, capital",
+      "stem": "Quina és la capital de la comarca del Vallès Occidental?",
+      "options": [
+        "Granollers",
+        "Sabadell i Terrassa (capitalitat compartida)",
+        "Sant Cugat del Vallès",
+        "Rubí"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El Vallès Occidental té una capitalitat compartida entre Sabadell i Terrassa; Granollers és la capital del Vallès Oriental.",
+      "excerpt": "Vallès Occidental Sabadell i Terrassa Barcelona 23 970.228 Vallès Oriental Granollers",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Nombre de municipis de Catalunya",
+      "stem": "Quants municipis té Catalunya segons l'Anuari estadístic d'Idescat (2025)?",
+      "options": [
+        "311",
+        "947",
+        "1.024",
+        "42"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Catalunya té 947 municipis, agrupats en comarques i l'Aran.",
+      "excerpt": "Catalunya 947 8.124.126",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rius de les conques internes",
+      "stem": "Quin d'aquests rius de les conques internes de Catalunya és el més llarg?",
+      "options": [
+        "El Llobregat (170 km)",
+        "El Fluvià (97 km)",
+        "La Muga (65 km)",
+        "El Ter (208 km)"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Segons Idescat, el Ter fa 208 km i el Llobregat 170 km, tot i que la conca del Llobregat és més extensa.",
+      "excerpt": "Muga 65 854 Castelló d'Empúries 51,9 Fluvià 97 1.125 Esponellà 144,5 Ter 208 3.010 Masies de Roda 403,0 […] Llobregat 170 4.948",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Pedraforca",
+      "stem": "A quina comarca és el Pedraforca (2.506 m)?",
+      "options": [
+        "Ripollès",
+        "Cerdanya",
+        "Berguedà",
+        "Solsonès"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El Pedraforca és al Berguedà; el Puigmal, entre el Ripollès i França.",
+      "excerpt": "Pedraforca 2.506 Berguedà",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Turó de l'Home",
+      "stem": "A quin massís de la Serralada Prelitoral pertany el Turó de l'Home (1.706 m)?",
+      "options": [
+        "Montserrat",
+        "Montsant",
+        "Collserola",
+        "Montseny"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El Turó de l'Home, al Vallès Oriental, és el cim principal del Montseny.",
+      "excerpt": "Prelitoral Turó de l'Home 1.706 Montseny Vallès Oriental",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Aran, capital",
+      "stem": "Quina és la capital de l'Aran?",
+      "options": [
+        "Vielha e Mijaran",
+        "Bossòst",
+        "Sort",
+        "El Pont de Suert"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Vielha e Mijaran és la capital de l'Aran, que té 9 municipis; Sort és la capital del Pallars Sobirà.",
+      "excerpt": "Aran Vielha e Mijaran Lleida 9 10.651",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Comarca del Lluçanès",
+      "stem": "Quina comarca es va crear per la Llei 7/2023, que també va modificar el territori d'Osona?",
+      "options": [
+        "El Moianès",
+        "El Lluçanès",
+        "El Bages",
+        "La Garrotxa"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El Lluçanès (capital, Prats de Lluçanès) és la comarca més recent; el Moianès es va crear el 2015.",
+      "excerpt": "Llei 7/2023, de creació de la comarca del Lluçanès, que també modifica territorialment Osona",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Població de Catalunya, 2026",
+      "stem": "Quin percentatge aproximat de la població d'Espanya viu a Catalunya, segons les dades provisionals d'Idescat a 1 de gener de 2026?",
+      "options": [
+        "Un 10,2%",
+        "Un 16,6%",
+        "Un 22,4%",
+        "Un 30,1%"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Catalunya tenia 8.210.710 habitants (provisional) a 1 de gener de 2026, el 16,6% dels 49.570.725 d'Espanya.",
+      "excerpt": "2026 (p) 6.017.087 839.692 464.600 889.331 8.210.710 49.570.725 16,6",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barcelonès, municipis",
+      "stem": "Quants municipis té la comarca del Barcelonès?",
+      "options": [
+        "5",
+        "11",
+        "23",
+        "36"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El Barcelonès té 5 municipis i uns 2,4 milions d'habitants.",
+      "excerpt": "Barcelonès Barcelona Barcelona 5 2.398.280",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Alta Ribagorça, capital",
+      "stem": "Quina és la capital de l'Alta Ribagorça, la comarca on hi ha les esglésies romàniques de la Vall de Boí?",
+      "options": [
+        "Sort",
+        "Tremp",
+        "El Pont de Suert",
+        "Vielha"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El Pont de Suert és la capital de l'Alta Ribagorça, comarca de 3 municipis.",
+      "excerpt": "Alta Ribagorça Pont de Suert, el Lleida 3 4.051",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Barcelona, superfície i població",
+      "stem": "Quina superfície aproximada té el municipi de Barcelona segons El municipi en xifres d'Idescat?",
+      "options": [
+        "Uns 36 km²",
+        "Uns 250 km²",
+        "Uns 636 km²",
+        "Uns 101 km²"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Barcelona té 101,35 km² i 1.713.247 habitants (2025), amb una densitat de 16.904 hab./km².",
+      "excerpt": "Barcelona Codi 080193 Comarca Barcelonès Població (2025) 1.713.247 Superfície (km²) 101,35 Densitat (hab./km²) 16.904,3",
+      "excerpt_status": "completo"
+    }
+  ]
+}

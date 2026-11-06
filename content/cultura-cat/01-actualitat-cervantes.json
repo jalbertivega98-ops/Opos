@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-cervantes-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Gonzalo Celorio, Premio Cervantes 2025 (03/11/2025)",
+      "url": "https://www.cultura.gob.es/actualidad/2025/11/251103-premio-cervantes-2025.html",
+      "kind": "web_oficial",
+      "publisher": "Ministerio de Cultura",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Premi Cervantes 2025",
+      "stem": "Qui va rebre el Premi Cervantes 2025, concedit pel Ministeri de Cultura?",
+      "options": [
+        "Álvaro Pombo",
+        "L'escriptor mexicà Gonzalo Celorio",
+        "Luis Mateo Díez",
+        "Eduardo Mendoza"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "3 de novembre de 2025: Gonzalo Celorio (Ciutat de Mèxic, 1948) va guanyar el Cervantes, dotat amb 125.000 euros. Pombo el va guanyar el 2024.",
+      "excerpt": "Gonzalo Celorio, Premio Cervantes 2025 03/11/2025",
+      "excerpt_status": "completo",
+      "review_note": "El fet és del 3/11/2025, just fora dels 12 mesos (avui 6/11/2026); es manté perquè és el Cervantes vigent fins que es falli el de 2026."
+    }
+  ]
+}

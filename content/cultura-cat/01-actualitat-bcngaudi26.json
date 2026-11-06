@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcngaudi26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Barcelona ret homenatge a Antoni Gaudí amb una placa en el mateix punt on va ser atropellat l’any 1926 (07/06/2026)",
+      "url": "https://ajuntament.barcelona.cat/premsa/2026/06/07/barcelona-ret-homenatge-a-antoni-gaudi-amb-una-placa-en-el-mateix-punt-on-va-ser-atropellat-lany-1926/",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Placa en record de Gaudí",
+      "stem": "On va col·locar l'Ajuntament de Barcelona, el 7 de juny de 2026, una placa en homenatge a Antoni Gaudí?",
+      "options": [
+        "A la façana de la Casa Vicens",
+        "A l'entrada del Park Güell",
+        "A la cripta de la Sagrada Família",
+        "Al punt de la Gran Via de les Corts Catalanes on el va atropellar un tramvia el 1926"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "7 de juny de 2026, dins l'Any Gaudí (centenari de la seva mort): placa al lloc on el va atropellar un tramvia el 7 de juny de 1926.",
+      "excerpt": "amb la descoberta d’una placa col·locada en el mateix punt de la Gran Via de les Corts Catalanes on va ser atropellat per un tramvia el 7 de juny de 1926.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Torre de Jesucrist",
+      "stem": "Quina torre de la Sagrada Família es va inaugurar el 10 de juny de 2026, centenari de la mort de Gaudí?",
+      "options": [
+        "La torre de la Mare de Déu",
+        "La torre de Jesucrist",
+        "La torre de Sant Mateu",
+        "La torre de Sant Joan"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "10 de juny de 2026: inauguració de la torre de Jesucrist, coincidint amb la data de la mort de Gaudí.",
+      "excerpt": "té lloc tres dies abans de la inauguració de la torre de Jesucrist de la Sagrada Família, prevista el 10 de juny, data de la mort de l’arquitecte.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

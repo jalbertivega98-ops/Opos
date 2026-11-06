@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "cultcat-01-historia-catalunya-eac-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 1. Història de Catalunya: institucions, símbols i fets clau",
+    "topic_slug": "cultcat-01-historia-catalunya",
+    "locale": "ca",
+    "category": "cultcat_01_historia_catalunya",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-13087",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Símbols nacionals, EAC art. 8",
+      "stem": "Segons l'Estatut d'autonomia, quin és l'himne de Catalunya?",
+      "options": [
+        "El cant de la senyera",
+        "Catalunya, pàtria nostra",
+        "Els segadors",
+        "El cant dels ocells"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 8 de l'Estatut fixa com a símbols nacionals la bandera de quatre barres, la festa de l'Onze de Setembre i l'himne Els segadors.",
+      "excerpt": "El himno de Cataluña es «Els segadors».",
+      "excerpt_status": "completo"
+    }
+  ]
+}

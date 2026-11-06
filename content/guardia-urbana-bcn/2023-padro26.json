@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-padro26-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "La població de Barcelona. Lectura del padró municipal d’habitants a 01/01/2026, síntesi de resultats (Oficina Municipal de Dades). Extracte literal",
+      "url": "https://dades.ajuntament.barcelona.cat/informe-padro-poblacio/ca/seccio_2.html",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Oficina Municipal de Dades",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Padró 2026",
+      "stem": "(Rèplica 2023, núm. 14) Quina població tenia Barcelona segons la lectura del padró municipal d'habitants a 1 de gener de 2026?",
+      "options": [
+        "1.729.963 persones",
+        "1.502.300 persones",
+        "1.950.000 persones",
+        "2.210.000 persones"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Segons l'Oficina Municipal de Dades, la població se situa en 1.729.963 persones, el segon valor més elevat dels darrers quaranta anys.",
+      "excerpt": "La població de Barcelona disminueix lleugerament el 2026 i se situa en 1.729.963 persones, el segon valor més elevat dels darrers quaranta anys.",
+      "excerpt_status": "completo",
+      "review_note": "Dada viva: l'examen de 2023 preguntava per la població d'aquell moment; la rèplica usa la darrera lectura oficial del padró (01/01/2026), que caldrà actualitzar cada any."
+    }
+  ]
+}

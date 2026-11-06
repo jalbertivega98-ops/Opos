@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "cultcat-09-institucions-economia-idescat-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 9. Institucions (Catalunya, Espanya, UE, ONU) i economia bàsica",
+    "topic_slug": "cultcat-09-institucions-economia",
+    "locale": "ca",
+    "category": "cultcat_09_institucions_economia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Anuari estadístic de Catalunya i El municipi en xifres (Institut d'Estadística de Catalunya)",
+      "url": "https://www.idescat.cat/indicadors/?id=aec&lang=ca",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estadística de Catalunya (Idescat)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Parlament de Catalunya, escons",
+      "stem": "Quants escons té el Parlament de Catalunya, segons les dades electorals d'Idescat?",
+      "options": [
+        "135",
+        "150",
+        "100",
+        "350"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El Parlament té 135 escons (85 per Barcelona, 17 per Girona, 15 per Lleida i 18 per Tarragona).",
+      "excerpt": "Total escons 2021 85 17 15 18 135",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Regla d'Hondt i llindar electoral",
+      "stem": "Quin percentatge mínim de vots cal per entrar en el repartiment d'escons a les eleccions al Parlament de Catalunya?",
+      "options": [
+        "El 3%",
+        "El 5%",
+        "El 10%",
+        "No hi ha cap mínim"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els escons es reparteixen per la regla d'Hondt; el mínim és el 3% al Parlament i a les generals, i el 5% a les municipals.",
+      "excerpt": "Hi ha uns percentatges mínims (3% per a les eleccions al Parlament de Catalunya i a les legislatives i 5% per a les locals)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

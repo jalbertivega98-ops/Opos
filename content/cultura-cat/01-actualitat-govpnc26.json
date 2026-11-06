@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-govpnc26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "President Illa: \"Com Pau Casals, enguany podem dir al món un 'som catalans' col·lectiu...\" (Premis Nacionals de Cultura 2026, nota de premsa, 09/10/2026)",
+      "url": "https://govern.cat/salapremsa/notes-premsa/878952/president-illa-com-pau-casals-enguany-dir-al-mon-som-catalans-collectiu-tothom-shi-senti-representat-part-activa",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya, Govern.cat",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Premis Nacionals de Cultura 2026, lloc",
+      "stem": "On es van lliurar els Premis Nacionals de Cultura 2026, en homenatge a Pau Casals pel 150è aniversari del seu naixement?",
+      "options": [
+        "Al Palau de la Música Catalana",
+        "Al Teatre Nacional de Catalunya",
+        "Al Gran Teatre del Liceu",
+        "A l'Auditori Pau Casals del Vendrell"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "9 d'octubre de 2026: el president va presidir al Vendrell la proclamació i el lliurament dels set Premis Nacionals de Cultura.",
+      "excerpt": "La celebració ha tingut lloc a l’Auditori Pau Casals en homenatge a la figura de Pau Casals, referent universal del compromís amb la cultura, la pau i la llibertat, amb motiu del 150è aniversari del seunaixement.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Premis Nacionals de Cultura 2026, música",
+      "stem": "Quina cantant va rebre el Premi Nacional de Cultura 2026 per l'excel·lència musical i la qualitat vocal i interpretativa?",
+      "options": [
+        "Rosalía",
+        "Sílvia Pérez Cruz",
+        "Maria del Mar Bonet",
+        "Núria Graham"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "9 d'octubre de 2026: Sílvia Pérez Cruz va ser una dels set guardonats (amb Oriol Pla, Victoria Szpunberg, Pol Guasch, Àlex Ollé, Cabosanroque i Jaŋde Editorial).",
+      "excerpt": "Sílvia Pérez Cruz, Premi Nacional de Cultura per l’excel·lència musical i la qualitat vocal i interpretativa",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "cultcat-05-literatura-cervantes-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 5. Literatura catalana, castellana i universal",
+    "topic_slug": "cultcat-05-literatura",
+    "locale": "ca",
+    "category": "cultcat_05_literatura",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Gonzalo Celorio, Premio Cervantes 2025 (03/11/2025)",
+      "url": "https://www.cultura.gob.es/actualidad/2025/11/251103-premio-cervantes-2025.html",
+      "kind": "web_oficial",
+      "publisher": "Ministerio de Cultura",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Premi Cervantes",
+      "stem": "Quin requisit ha de complir l'obra d'un autor per poder rebre el Premi Cervantes?",
+      "options": [
+        "Estar escrita totalment, o en una part essencial, en castellà",
+        "Estar escrita en qualsevol de les llengües oficials d'Espanya",
+        "Haver estat publicada per primer cop a Espanya",
+        "Ser d'un autor de nacionalitat espanyola"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El Premi Cervantes, concedit pel Ministeri de Cultura, reconeix autors d'obra en castellà de qualsevol país.",
+      "excerpt": "Puede ser galardonado con el Premio Cervantes cualquier autor o autora cuya obra literaria esté escrita totalmente, o en parte esencial, en castellano.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Joan Margarit, Premi Cervantes 2019",
+      "stem": "Quin poeta català va rebre el Premi Cervantes el 2019?",
+      "options": [
+        "Juan Marsé",
+        "Eduardo Mendoza",
+        "Pere Gimferrer",
+        "Joan Margarit"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Joan Margarit va rebre el Cervantes el 2019; Juan Marsé l'havia rebut el 2008 i Eduardo Mendoza el 2016.",
+      "excerpt": "2019 Joan Margarit",
+      "excerpt_status": "completo"
+    }
+  ]
+}

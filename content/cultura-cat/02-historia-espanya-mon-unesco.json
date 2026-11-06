@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "cultcat-02-historia-espanya-mon-unesco-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 2. Història d'Espanya i universal",
+    "topic_slug": "cultcat-02-historia-espanya-mon",
+    "locale": "ca",
+    "category": "cultcat_02_historia_espanya_mon",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "World Heritage List (fitxes dels béns inscrits), UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/",
+      "kind": "web_oficial",
+      "publisher": "UNESCO World Heritage Centre",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Auschwitz-Birkenau",
+      "stem": "Quin camp de concentració i extermini nazi, el més gran del Tercer Reich, és patrimoni mundial de la UNESCO des de 1979?",
+      "options": [
+        "Dachau",
+        "Mauthausen",
+        "Buchenwald",
+        "Auschwitz-Birkenau"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Segons la UNESCO, a Auschwitz-Birkenau (1940-1945) hi van ser assassinades 1,5 milions de persones, moltes d'elles jueves.",
+      "excerpt": "Auschwitz Birkenau German Nazi Concentration and Extermination Camp (1940-1945) (Date of Inscription: 1979).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Mèrida, Augusta Emerita",
+      "stem": "Quina ciutat romana, fundada el 25 aC amb el nom d'Augusta Emerita, va ser la capital de la Lusitània?",
+      "options": [
+        "Mèrida",
+        "Tarragona",
+        "Lisboa",
+        "Segòvia"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Augusta Emerita (avui Mèrida, Extremadura) va ser fundada el 25 aC i va ser capital de la Lusitània; Tàrraco (Tarragona) ho era de la Tarraconense.",
+      "excerpt": "The colony of Augusta Emerita, which became present-day Mérida in Estremadura, was founded in 25 B.C. at the end of the Spanish Campaign and was the capital of Lusitania.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Gran Muralla xinesa",
+      "stem": "Sota quin emperador es van unir, cap al 220 aC, diversos trams de fortificacions per formar la Gran Muralla xinesa?",
+      "options": [
+        "Gengis Khan",
+        "Kublai Khan",
+        "L'emperador Hongwu, de la dinastia Ming",
+        "Qin Shi Huang"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Cap al 220 aC, Qin Shi Huang va unir fortificacions anteriors; la construcció va continuar fins a la dinastia Ming (1368-1644).",
+      "excerpt": "In c. 220 B.C., under Qin Shi Huang, sections of earlier fortifications were joined together to form a united defence system against invasions from the north.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "set": "cultcat-02-historia-espanya-mon-genhist-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 2. Història d'Espanya i universal",
+    "topic_slug": "cultcat-02-historia-espanya-mon",
+    "locale": "ca",
+    "category": "cultcat_02_historia_espanya_mon",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Història de la Generalitat (Diputació del General, Nova Planta i Generalitat contemporània)",
+      "url": "https://web.gencat.cat/ca/generalitat/qui-som/historia-generalitat",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Constitució espanyola, referèndum",
+      "stem": "Quin dia es va aprovar en referèndum la Constitució espanyola vigent?",
+      "options": [
+        "El 15 de juny de 1977",
+        "El 20 de novembre de 1975",
+        "El 6 de desembre de 1978",
+        "El 25 d'octubre de 1979"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Les Corts elegides el 15 de juny de 1977 van redactar la Constitució, aprovada en referèndum el 6 de desembre de 1978 (Dia de la Constitució).",
+      "excerpt": "configuraren unes cambres que tingueren com a missió principal la redacció d'una constitució, que ser aprovada en referèndum el 6 de desembre de 1978.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Fi de la dictadura franquista",
+      "stem": "Quin fet va posar fi a la dictadura del general Franco?",
+      "options": [
+        "La mort del dictador el 20 de novembre de 1975",
+        "La proclamació de la Segona República el 1931",
+        "L'aprovació de l'Estatut d'Autonomia el 1979",
+        "Les primeres eleccions municipals democràtiques el 1983"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El període de privació de la democràcia va durar fins a la mort de Franco, el 20 de novembre de 1975.",
+      "excerpt": "encetaren un període de privació de la democràcia i els drets nacionals catalans que havia de durar fins a la mort del dictador el 20 de novembre de 1975.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Transició, Adolfo Suárez",
+      "stem": "Qui va ser nomenat president del Govern espanyol el 3 de juliol de 1976 i va impulsar la reforma política de la Transició?",
+      "options": [
+        "Carlos Arias Navarro",
+        "Felipe González",
+        "Adolfo Suárez",
+        "Leopoldo Calvo-Sotelo"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Adolfo Suárez va ser nomenat president del Govern el 3 de juliol de 1976 i va avançar cap a la reforma democràtica.",
+      "excerpt": "El 3 de juliol de 1976, fou nomenat president del govern Adolfo Suárez, que avançà de manera cada vegada més decidida cap a la reforma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Eleccions generals de 1977",
+      "stem": "Quan es van celebrar les primeres eleccions legislatives democràtiques a Espanya des de 1936?",
+      "options": [
+        "El 15 de juny de 1977",
+        "El 20 de novembre de 1975",
+        "El 6 de desembre de 1978",
+        "El 20 de març de 1980"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Un cop legalitzats els partits, les eleccions del 15 de juny de 1977 van configurar unes Corts que van redactar la Constitució.",
+      "excerpt": "les primeres eleccions legislatives espanyoles democràtiques des de 1936, celebrades el 15 de juny de 1977",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Dictadura de Primo de Rivera",
+      "stem": "Entre quins anys va durar la dictadura del general Primo de Rivera?",
+      "options": [
+        "1931-1936",
+        "1939-1975",
+        "1914-1925",
+        "1923-1930"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El segle XX espanyol va conèixer dues dictadures: la de Primo de Rivera (1923-1930) i la de Franco (1939-1975). 1914-1925 són les dates de la Mancomunitat de Catalunya.",
+      "excerpt": "la del general Primo de Rivera (1923-1930) i la del general Franco (1939-1975).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Segona República, 1931",
+      "stem": "Quin règim es va proclamar a Madrid l'abril de 1931, després de les eleccions municipals que van provocar la caiguda de la monarquia?",
+      "options": [
+        "La Primera República espanyola",
+        "La Segona República espanyola",
+        "La dictadura de Primo de Rivera",
+        "La monarquia parlamentària"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Arran de les eleccions municipals del 12 d'abril de 1931 va caure la monarquia; el dia 14 es va proclamar la Segona República (a Barcelona, poques hores abans, Macià havia proclamat la República catalana).",
+      "excerpt": "proclamà de manera unilateral «la República catalana com a Estat de la Federació Ibèrica» el dia 14, poques hores abans que a Madrid es procedís a proclamar la Segona República espanyola.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

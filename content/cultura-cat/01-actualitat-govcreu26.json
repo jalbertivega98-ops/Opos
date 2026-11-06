@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-govcreu26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "El Govern distingeix amb la Creu de Sant Jordi 20 persones i 10 entitats (nota de premsa, 14/04/2026)",
+      "url": "https://govern.cat/gov/notes-premsa/812364/govern-distingeix-creu-sant-jordi-20-persones-10-entitats",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya, Govern.cat",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Creu de Sant Jordi 2026",
+      "stem": "A quantes persones i entitats va concedir el Govern la Creu de Sant Jordi 2026?",
+      "options": [
+        "20 persones i 10 entitats",
+        "10 persones i 20 entitats",
+        "30 persones i 5 entitats",
+        "15 persones i 15 entitats"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "14 d'abril de 2026: el Govern va concedir la Creu de Sant Jordi, distinció creada el 1981, a 20 persones i 10 entitats.",
+      "excerpt": "ha acordat concedir la Creu de Sant Jordi de la Generalitat de Catalunya 2026 a 20 persones i 10 entitats",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Creu de Sant Jordi 2026, Pastorets de Calaf",
+      "stem": "Quina representació nadalenca, feta de manera continuada des de 1925 a partir del text de Josep Maria Folch i Torres, va rebre la Creu de Sant Jordi 2026?",
+      "options": [
+        "La Passió d'Esparreguera",
+        "El Pessebre Vivent de Corbera",
+        "Els Pastorets de Calaf",
+        "El Cant de la Sibil·la de Mallorca"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "14 d'abril de 2026: els Pastorets de Calaf van ser una de les 10 entitats distingides.",
+      "excerpt": "Els Pastorets de Calaf constitueixen una de les representacions nadalenques més arrelades del país, representades de manera continuada a Calaf des de l’any 1925 a partir del text de Josep Maria Folch i Torres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Creu de Sant Jordi 2026, Universitat de Barcelona",
+      "stem": "Quina institució distingida amb la Creu de Sant Jordi 2026 va ser fundada el 1450 i va celebrar el 575è aniversari el 2025?",
+      "options": [
+        "L'Institut d'Estudis Catalans",
+        "La Universitat de Barcelona",
+        "La Universitat de Lleida",
+        "L'Orfeó Català"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "14 d'abril de 2026: la UB, fundada el 1450, va rebre la Creu de Sant Jordi.",
+      "excerpt": "Fundada l’any 1450, la Universitat de Barcelona és una de les institucions més antigues de Catalunya",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-govpic25-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "El Govern concedeix el Premi Internacional Catalunya 2025 a les activistes per la pau Yael Admi i Reem Alhajajra (acords de Govern, 23/12/2025)",
+      "url": "https://govern.cat/gov/acords-govern/16039/govern-concedeix-premi-internacional-catalunya-2025-activistes-pau-yael-admi-reem-alhajajra",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya, Govern.cat",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Premi Internacional Catalunya 2025",
+      "stem": "A qui va concedir el Govern el Premi Internacional Catalunya 2025?",
+      "options": [
+        "A Navi Pillay, jurista sud-africana",
+        "A María Corina Machado, opositora veneçolana",
+        "A l'organització japonesa Nihon Hidankyo",
+        "A Yael Admi i Reem Alhajajra, activistes israeliana i palestina per la pau (La Crida de les Mares)"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "23 de desembre de 2025: el Govern va premiar Yael Admi i Reem Alhajajra per la iniciativa Mother's Call; el lliurament va ser el 15 de gener de 2026.",
+      "excerpt": "El Govern ha aprovat concedir el Premi Internacional Catalunya 2025 a Yael Admi i Reem Alhajajra, activistes israeliana i palestina per la pau",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Pla d'habitatge, 214.000 habitatges",
+      "stem": "Quants nous habitatges preveu el pla aprovat pel Govern el desembre de 2025 per transformar sòl de sectors estratègics en solars?",
+      "options": [
+        "214.000",
+        "50.000",
+        "21.400",
+        "1.000.000"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "23 de desembre de 2025: el Govern va aprovar el pla per preparar sòl per a 214.000 nous habitatges.",
+      "excerpt": "el pla per transformar sòl situat en sectors estratègics en solars preparats per construir-hi 214.000 nous habitatges",
+      "excerpt_status": "completo"
+    }
+  ]
+}

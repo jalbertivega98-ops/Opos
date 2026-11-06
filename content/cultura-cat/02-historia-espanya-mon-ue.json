@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "set": "cultcat-02-historia-espanya-mon-ue-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 2. Història d'Espanya i universal",
+    "topic_slug": "cultcat-02-historia-espanya-mon",
+    "locale": "ca",
+    "category": "cultcat_02_historia_espanya_mon",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Portal oficial de la Unión Europea: países, historia, euro e instituciones",
+      "url": "https://european-union.europa.eu/index_es",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "OTAN, 1949",
+      "stem": "Quan es va crear l'Organització del Tractat de l'Atlàntic Nord (OTAN)?",
+      "options": [
+        "El 4 d'abril de 1949",
+        "El 8 de maig de 1945",
+        "El 25 de març de 1957",
+        "El 9 de novembre de 1989"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'OTAN es va crear el 4 d'abril de 1949 com a aliança de seguretat entre els Estats Units, el Canadà i deu països de l'Europa occidental.",
+      "excerpt": "4 de abril de 1949 — Creación de la OTAN Se crea la Organización del Tratado del Atlántico Norte (OTAN), una alianza intergubernamental de seguridad entre los Estados Unidos, Canadá y diez países de Europa Occidental.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "CECA, 1951",
+      "stem": "Quina organització, fundada el 1951, es considera el primer pas de la integració europea per garantir una pau duradora?",
+      "options": [
+        "La Comunitat Econòmica Europea (CEE)",
+        "El Consell d'Europa",
+        "L'Organització del Tractat de l'Atlàntic Nord (OTAN)",
+        "La Comunitat Europea del Carbó i de l'Acer (CECA)"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La CECA (1951) va ser el primer pas; el 1957 el Tractat de Roma va crear la CEE.",
+      "excerpt": "La Comunidad Europea del Carbón y del Acero, fundada en 1951, fue el primer paso para garantizar una paz duradera.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tractat de Roma, 1957",
+      "stem": "Quin tractat de 1957 va establir la Comunitat Econòmica Europea (CEE)?",
+      "options": [
+        "El Tractat de Maastricht",
+        "El Tractat de Lisboa",
+        "El Tractat de Roma",
+        "El Tractat de Versalles"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El Tractat de Roma (1957) va crear la CEE; el de Maastricht (1992) va crear la Unió Europea.",
+      "excerpt": "En 1957, el Tratado de Roma establece la Comunidad Económica Europea (CEE)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Adhesió d'Espanya, 1986",
+      "stem": "En quin any es van incorporar Espanya i Portugal a les Comunitats Europees?",
+      "options": [
+        "1981",
+        "1986",
+        "1992",
+        "1995"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Grècia hi va entrar el 1981 i, cinc anys més tard, el 1986, Espanya i Portugal.",
+      "excerpt": "En 1981, Grecia pasa a ser el décimo miembro de las Comunidades Europeas, seguida cinco años más tarde por España y Portugal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Adhesió de Grècia, 1981",
+      "stem": "Quin país va esdevenir el desè membre de les Comunitats Europees l'any 1981?",
+      "options": [
+        "Irlanda",
+        "Portugal",
+        "Grècia",
+        "Dinamarca"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Grècia hi va entrar el 1981; Dinamarca, Irlanda i el Regne Unit ho havien fet el 1973, i Portugal el 1986.",
+      "excerpt": "En 1981, Grecia pasa a ser el décimo miembro de las Comunidades Europeas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Atemptats de l'11 de setembre de 2001",
+      "stem": "Contra quins edificis es van estavellar avions segrestats en els atemptats de l'11 de setembre de 2001?",
+      "options": [
+        "Les Torres Bessones del World Trade Center (Nova York) i el Pentàgon (Washington)",
+        "La Casa Blanca i el Capitoli (Washington)",
+        "L'Empire State Building i la seu de l'ONU (Nova York)",
+        "El Pentàgon i la seu de l'OTAN (Brussel·les)"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els atemptats del 2001 van causar unes 3.000 morts a Nova York i Washington.",
+      "excerpt": "Varios aviones son secuestrados y estrellados contra las torres gemelas del World Trade Center, en Nueva York, y el Pentágono, en Washington. Mueren alrededor de 3 000 personas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Solidaritat, Gdańsk",
+      "stem": "Qui va dirigir la vaga dels treballadors de les drassanes de Gdańsk (Polònia) que reclamaven més drets, al final de la Guerra Freda?",
+      "options": [
+        "Václav Havel",
+        "Lech Wałęsa",
+        "Mikhaïl Gorbatxov",
+        "Karol Wojtyła"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Els treballadors de les drassanes de Gdańsk, dirigits per Lech Wałęsa, van fer vaga per reclamar més drets; poc després van caure els règims comunistes de l'Europa central i de l'Est.",
+      "excerpt": "Los trabajadores de los astilleros de la ciudad polaca de Gdansk, dirigidos por Lech Walesa, entran en huelga para reclamar más derechos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

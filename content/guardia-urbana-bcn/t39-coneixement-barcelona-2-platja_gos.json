@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gub-t39-coneixement-barcelona-2-platja_gos-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Tema 39. Coneixement de Barcelona (ampliació del tema 11): districtes i barris, festes, patrimoni, equipaments, transport i població",
+    "topic_slug": "gub-t39-coneixement-barcelona-2",
+    "locale": "ca",
+    "category": "gub_t39_coneixement_barcelona_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Platges (web Benestar Animal de l’Ajuntament de Barcelona). Extracte literal",
+      "url": "https://ajuntament.barcelona.cat/benestaranimal/ca/platges",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Benestar Animal",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Platja de gossos",
+      "stem": "Quin requisit han de complir els gossos per accedir a l'àrea de gossos de la platja de Llevant?",
+      "options": [
+        "Portar microxip",
+        "Pesar menys de 20 kg",
+        "Anar sempre lligats",
+        "Estar inscrits en una associació"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Dins l'àrea només hi accedeixen gossos amb microxip, que hi poden anar deslligats.",
+      "excerpt": "on només poden accedir gossos amb microxip",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Platja de gossos",
+      "stem": "Fora de la temporada de bany, es pot passejar amb el gos deslligat per les platges de Barcelona?",
+      "options": [
+        "No, mai",
+        "Només a la platja de Llevant",
+        "Només de nit",
+        "Sí, durant la resta de l'any és permès a totes les platges"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Durant la temporada de bany els gossos no poden accedir a la resta de platges; fora de temporada, és permès passejar-los deslligats per totes les platges.",
+      "excerpt": "Durant la resta de l’any sí que és permès passejar per totes les platges de la ciutat sense lligar els gossos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

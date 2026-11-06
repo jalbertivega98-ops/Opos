@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-govpress26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Els pressupostos de la Generalitat per al 2026 creixen un 22,8% respecte als darrers aprovats i acceleren la inversió amb fons propis (nota de premsa, 27/02/2026)",
+      "url": "https://govern.cat/salapremsa/notes-premsa/795676/pressupostos-generalitat-al-2026-creixen-228-percent-respecte-als-darrers-aprovats-acceleren-inversio-fons-propis",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya, Govern.cat",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Pressupostos 2026",
+      "stem": "Quin import total tenia el projecte de pressupostos de la Generalitat per al 2026 aprovat pel Govern?",
+      "options": [
+        "13.840 milions d'euros",
+        "49.162 milions d'euros",
+        "9.126 milions d'euros",
+        "120.000 milions d'euros"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "27 de febrer de 2026: el Govern va aprovar un projecte de 49.162 M€, un 22,8% més que els pressupostos del 2023, els darrers aprovats.",
+      "excerpt": "El Govern de la Generalitat ha aprovat avui el Projecte de llei de pressupostos per a l’any 2026, uns comptes ambiciosos que assoleixen un import rècord de 49.162 M€.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Pressupostos 2026, departaments",
+      "stem": "Quin departament té el pressupost més alt en el projecte de pressupostos de la Generalitat per al 2026?",
+      "options": [
+        "Educació i Formació Professional",
+        "Drets Socials i Inclusió",
+        "Interior i Seguretat Pública",
+        "Salut"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "27 de febrer de 2026: Salut (13.840 M€), Educació i FP (8.356 M€) i Drets Socials (4.248 M€) encapçalen els comptes.",
+      "excerpt": "L’any 2026, els departaments que compten amb un pressupost més alt són Salut (13.840 M€), Educació i Formació Professional (8.356 M€) i Drets Socials i Inclusió (4.248 M€).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Consellera d'Economia",
+      "stem": "Qui és la consellera d'Economia i Finances que va presentar els pressupostos de 2026 al Parlament?",
+      "options": [
+        "Alícia Romero",
+        "Yolanda Díaz",
+        "Sílvia Paneque",
+        "Núria Parlon"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "27 de febrer de 2026: Alícia Romero va presentar els comptes al Parlament, presidit per Josep Rull.",
+      "excerpt": "La consellera d’Economia i Finances, Alícia Romero, ha presentat al Parlament el contingut dels nous comptes",
+      "excerpt_status": "completo"
+    }
+  ]
+}

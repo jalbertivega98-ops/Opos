@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "set": "cultcat-04-art-patrimoni-unesco-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 4. Art i patrimoni (estils artístics, museus i patrimoni mundial)",
+    "topic_slug": "cultcat-04-art-patrimoni",
+    "locale": "ca",
+    "category": "cultcat_04_art_patrimoni",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "World Heritage List (fitxes dels béns inscrits), UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/",
+      "kind": "web_oficial",
+      "publisher": "UNESCO World Heritage Centre",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Machu Picchu",
+      "stem": "A quina civilització s'atribueix la ciutat de Machu Picchu, al Perú?",
+      "options": [
+        "A l'Imperi inca",
+        "Als maies",
+        "Als asteques",
+        "Als olmeques"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Segons la UNESCO, Machu Picchu, a 2.430 m d'altitud, va ser probablement la creació urbana més extraordinària de l'Imperi inca.",
+      "excerpt": "It was probably the most amazing urban creation of the Inca Empire at its height",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Palau de la Música i Sant Pau",
+      "stem": "Quin arquitecte modernista va fer el Palau de la Música Catalana i l'Hospital de Sant Pau, patrimoni mundial des de 1997?",
+      "options": [
+        "Antoni Gaudí",
+        "Josep Puig i Cadafalch",
+        "Lluís Domènech i Montaner",
+        "Josep Maria Jujol"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Tots dos edificis són obra de Lluís Domènech i Montaner i la UNESCO els va inscriure el 1997.",
+      "excerpt": "Palau de la Música Catalana and Hospital de Sant Pau, Barcelona (Date of Inscription: 1997). These are two of the finest contributions to Barcelona's architecture by the Catalan art nouveau architect Lluís Domènech i Montaner.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Monestir de Poblet",
+      "stem": "Quin monestir català, patrimoni mundial des de 1991, és una abadia cistercenca que conté el panteó dels reis de Catalunya i Aragó?",
+      "options": [
+        "Montserrat",
+        "Poblet",
+        "Ripoll",
+        "Sant Cugat"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'abadia cistercenca de Poblet, del segle XII, té una residència reial fortificada i el panteó reial.",
+      "excerpt": "This Cistercian abbey in Catalonia is one of the largest in Spain. At its centre is a 12th-century church. The austere, majestic monastery, which has a fortified royal residence and contains the pantheon of the kings of Catalonia and Aragon",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Taj Mahal",
+      "stem": "Què és el Taj Mahal, a Agra (Índia)?",
+      "options": [
+        "Un temple hindú dedicat al déu Xiva",
+        "El palau residencial dels emperadors mogols",
+        "Un mausoleu de marbre blanc construït per ordre de l'emperador Shah Jahan en memòria de la seva esposa",
+        "Una fortalesa construïda pels britànics"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El Taj Mahal (1631-1648) és un mausoleu de marbre blanc, joia de l'art musulmà a l'Índia.",
+      "excerpt": "An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Petra",
+      "stem": "Quin poble va fer de Petra (Jordània) una ciutat caravanera entre el mar Roig i el mar Mort?",
+      "options": [
+        "Els fenicis",
+        "Els nabateus",
+        "Els romans",
+        "Els perses"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Petra era una ciutat caravanera nabatea, cruïlla entre Aràbia, Egipte i Síria-Fenícia.",
+      "excerpt": "Inhabited since prehistoric times, this Nabataean caravan-city, situated between the Red Sea and the Dead Sea",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Llotja de la Seda de València",
+      "stem": "De quin estil és la Llotja de la Seda de València (1482-1533), patrimoni mundial?",
+      "options": [
+        "Gòtic tardà",
+        "Romànic",
+        "Barroc",
+        "Modernista"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La UNESCO la qualifica d'obra mestra de l'arquitectura gòtica tardana; s'hi comerciava amb seda.",
+      "excerpt": "It is a masterpiece of late Gothic architecture.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Acròpoli d'Atenes",
+      "stem": "Sota la direcció de quin escultor es va transformar l'Acròpoli d'Atenes, seguint els plans de l'estadista Pèricles?",
+      "options": [
+        "Fídies",
+        "Praxíteles",
+        "Miró de Beòcia",
+        "Policlet"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La UNESCO atribueix la transformació de l'Acròpoli a un grup d'artistes guiats per l'escultor Fídies, seguint els plans de Pèricles.",
+      "excerpt": "an exceptional group of artists put into effect the ambitious plans of Athenian statesman Pericles and, under the inspired guidance of the sculptor Pheidias",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Obres de Gaudí, patrimoni mundial",
+      "stem": "Quin d'aquests edificis NO forma part de les set obres d'Antoni Gaudí inscrites a la Llista del patrimoni mundial de la UNESCO (1984)?",
+      "options": [
+        "El Palau Güell",
+        "La Casa Vicens",
+        "El Palau de la Música Catalana",
+        "La Casa Milà"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Les set obres de Gaudí són el Park Güell, el Palau Güell, la Casa Milà, la Casa Vicens, la façana del Naixement i la cripta de la Sagrada Família, la Casa Batlló i la cripta de la Colònia Güell. El Palau de la Música és de Domènech i Montaner.",
+      "excerpt": "The seven buildings are: Parque Güell; Palacio Güell; Casa Mila; Casa Vicens; Gaudí’s work on the Nativity façade and Crypt of La Sagrada Familia; Casa Batlló Crypt in Colonia Güell.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
