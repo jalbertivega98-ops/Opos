@@ -39,7 +39,7 @@ import { TopicTestButton } from "@/components/plan/topic-test-button";
 import { StudyCalendar } from "@/components/plan/study-calendar";
 import { groupByDay, studyWeek, taskProgress } from "@/lib/learning/calendar";
 import { getStudyLog } from "@/lib/learning/calendar-queries";
-import { myLibrary, planAccess } from "@/lib/store/queries";
+import { myLibrary, planAccessWithKinds } from "@/lib/store/queries";
 import { cn } from "@/lib/utils";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/app">): Promise<Metadata> {
@@ -113,7 +113,10 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const accuracy = answered ? pct(practice!.totals.correct, answered) : null;
   const pending = split.psycho + split.questions;
   const active = recent.find((s) => s.status === "active");
-  const access = planAccess(library, myPlan.reason === null ? myPlan.openTopics : []);
+  const access = await planAccessWithKinds(
+    library,
+    myPlan.reason === null ? myPlan.openTopics : [],
+  );
   const planTasks = myPlan.reason === null ? myPlan.plan.tasks : [];
   // Siguiente tarea que el alumno puede hacer ya y aún no ha terminado esta semana
   // (las de pago sin acceso se saltan).

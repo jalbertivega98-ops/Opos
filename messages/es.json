@@ -1469,10 +1469,10 @@
       "new": "Nuevo",
       "weak": "Reforzar"
     },
-    "taskPsycho": "{count, plural, one {# sesión} other {# sesiones}} de psicotécnicos",
+    "taskPsycho": "Práctica de psicotécnicos: {count, plural, one {# sesión} other {# sesiones}} de unos 15 min",
     "taskMock": {
-      "knowledge": "{count, plural, one {# simulacro} other {# simulacros}} de conocimientos",
-      "psycho": "{count, plural, one {# simulacro} other {# simulacros}} de psicotécnicos"
+      "knowledge": "{count, plural, one {# simulacro} other {# simulacros}} de conocimientos con el tiempo del examen",
+      "psycho": "{count, plural, one {# simulacro} other {# simulacros}} de psicotécnicos con el tiempo del examen"
     },
     "covered": "{covered} de {total} temas dominados",
     "split": "Reparto semanal: {syllabus} min de temario · {psycho} min de psicotécnicos · {mocks} min de simulacros",
@@ -1505,8 +1505,11 @@
       }
     },
     "emptyNoContent": "Tu oposición todavía no tiene temario publicado. El plan aparecerá en cuanto lo tenga.",
-    "premium": "Premium",
-    "lockedNote": "Lo marcado con candado forma parte de la preparación de pago (Premium o pack).",
+    "premium": "Premium o pack",
+    "free": "Gratis",
+    "legend": "Las cifras son lo que toca esta semana. Una sesión de psicotécnicos es práctica libre y gratis (unos 15 min, a tu ritmo). Un simulacro es el examen completo con el tiempo oficial: va incluido en Premium o gasta un intento de un pack de 10.",
+    "legendNoPsycho": "Las cifras son lo que toca esta semana. Un simulacro es el examen completo con el tiempo oficial: va incluido en Premium o gasta un intento de un pack de 10.",
+    "lockedNote": "Lo marcado con candado es de pago: se abre con el Premium de tu oposición (todo incluido) o con un pack de 10 simulacros.",
     "lockedCta": "Ver qué incluye",
     "readNote": "Ficha",
     "startTest": "Empezar test",
@@ -1600,7 +1603,7 @@
   "seo": {
     "home": {
       "title": "OPOSAPRUEBA · Test de oposiciones, temario y psicotécnicos online",
-      "description": "Prepara Mossos d'Esquadra y Auxiliar Administrativo del Estado con test de temario basados en fuentes oficiales, psicotécnicos gratis y simulacros con el formato del examen."
+      "description": "Prepara Mossos d'Esquadra, Policía Nacional, Guardia Civil, Auxiliar del Estado y más oposiciones con test de temario basados en fuentes oficiales, psicotécnicos gratis y simulacros con el formato del examen."
     },
     "catalog": {
       "title": "Catálogo de oposiciones: test, temario y psicotécnicos",

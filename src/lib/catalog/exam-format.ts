@@ -15,3 +15,14 @@ const WITH_PSYCHO = new Set([
 ]);
 
 export const examHasPsycho = (slug: string | null | undefined) => !!slug && WITH_PSYCHO.has(slug);
+
+/**
+ * Oposiciones con simulacro de psicotécnicos propio (formato oficial publicado) y su pack de
+ * 10 intentos (ADR-035): solo Mossos (aptituds) y Auxiliar del Estado. En el resto el plan no
+ * pide simulacros de psicotécnicos, porque no hay ninguno que hacer ni que comprar; la práctica
+ * de psicotécnicos sí se mantiene.
+ */
+const WITH_PSYCHO_MOCK = new Set(["mossos-esquadra", "auxiliar-administrativo-estado"]);
+
+export const examHasPsychoMock = (slug: string | null | undefined) =>
+  !!slug && WITH_PSYCHO_MOCK.has(slug);

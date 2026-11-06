@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { buildWeekPlan, phaseFor, type PlanInput } from "@/lib/learning/plan";
-import { examHasPsycho } from "@/lib/catalog/exam-format";
+import { examHasPsycho, examHasPsychoMock } from "@/lib/catalog/exam-format";
 
 const topics = Array.from({ length: 20 }, (_, i) => ({
   slug: `t${i + 1}`,
@@ -63,6 +63,20 @@ describe("plan de estudio", () => {
     expect(p.tasks.some((t) => t.kind === "psycho")).toBe(false);
     expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "psycho")).toBe(false);
     expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "knowledge")).toBe(true);
+  });
+
+  it("con psicotécnico pero sin simulacro de psicotécnicos: todos los simulacros son de conocimientos", () => {
+    const p = buildWeekPlan({ ...base, psychoMock: false, today: new Date("2027-02-20") });
+    expect(p.tasks.some((t) => t.kind === "psycho")).toBe(true);
+    expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "psycho")).toBe(false);
+    expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "knowledge")).toBe(true);
+  });
+
+  it("solo Mossos y Auxiliar del Estado tienen simulacro de psicotécnicos", () => {
+    expect(examHasPsychoMock("mossos-esquadra")).toBe(true);
+    expect(examHasPsychoMock("auxiliar-administrativo-estado")).toBe(true);
+    expect(examHasPsychoMock("policia-nacional-basica")).toBe(false);
+    expect(examHasPsychoMock("guardia-civil-cabos-guardias")).toBe(false);
   });
 
   it("solo las oposiciones con prueba psicotécnica oficial la ofrecen", () => {
