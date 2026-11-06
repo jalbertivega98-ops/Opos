@@ -19,6 +19,8 @@ export type PlanInput = {
   progress: Record<string, TopicProgress>;
   /** false si la oposición no tiene prueba psicotécnica: ese tiempo pasa al temario. */
   psycho?: boolean;
+  /** false si no hay simulacro de psicotécnicos que hacer: todos los simulacros son de conocimientos. */
+  psychoMock?: boolean;
 };
 
 export type PlanPhase = "syllabus" | "review" | "mocks";
@@ -125,7 +127,7 @@ export function buildWeekPlan(input: PlanInput): WeekPlan {
       kind: "psycho",
       sessions: Math.max(1, Math.round(minutes.psycho / MIN_PER_PSYCHO_SESSION)),
     });
-  if (mocks > 0 && hasPsycho) {
+  if (mocks > 0 && hasPsycho && input.psychoMock !== false) {
     tasks.push({ kind: "mock", mock: "knowledge", count: Math.ceil(mocks / 2) });
     tasks.push({ kind: "mock", mock: "psycho", count: Math.floor(mocks / 2) || 1 });
   } else if (mocks > 0) {

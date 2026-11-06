@@ -8,7 +8,7 @@ import { PlanSettingsForm } from "@/components/plan/settings-form";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
 import { getMyPlan } from "@/lib/learning/plan-queries";
-import { myLibrary, planAccess } from "@/lib/store/queries";
+import { myLibrary, planAccessWithKinds } from "@/lib/store/queries";
 import { TOPIC_DONE } from "@/lib/learning/plan";
 import { studyWeek } from "@/lib/learning/calendar";
 import { getStudyLog } from "@/lib/learning/calendar-queries";
@@ -51,7 +51,7 @@ export default async function PlanPage({ params, searchParams }: PageProps<"/[lo
     );
   }
   const { settings, plan, topics, openTopics, noteTopics } = data;
-  const access = planAccess(library, openTopics);
+  const access = await planAccessWithKinds(library, openTopics);
   const errorKey = sp.error === "access" || sp.error === "start" ? sp.error : null;
   return (
     <div className="space-y-6">

@@ -1,5 +1,7 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
+import { mockFormats } from "@/lib/learning/mock/queries";
+import { planAccess } from "./access";
 
 export type ProductRow = {
   id: string;
@@ -199,6 +201,17 @@ export type ExamOffer = {
 };
 
 export { isAttemptsPack, planAccess, type PlanAccess } from "./access";
+
+/** Acceso del plan con el tipo de cada simulacro de la biblioteca (conocimientos o psicotécnicos). */
+export async function planAccessWithKinds(
+  library: Awaited<ReturnType<typeof myLibrary>>,
+  freeTopics: string[] = [],
+) {
+  const ids = library.filter((i) => i.type === "mock_exam").map((i) => i.product_id);
+  const formats = await mockFormats(ids);
+  const kinds = new Map([...formats].map(([id, c]) => [id, c.kind as string | undefined]));
+  return planAccess(library, freeTopics, kinds);
+}
 
 /** Lo que incluye la preparación de una oposición (solo agregados publicados). */
 export async function examOffer(slug: string): Promise<ExamOffer | null> {
