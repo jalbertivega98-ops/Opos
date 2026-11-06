@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "bomb-t02-funcio-publica-lincat-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 2. La funció pública de la Generalitat: drets i deures, situacions, provisió, incompatibilitats i règim disciplinari",
+    "topic_slug": "bomb-t02-funcio-publica",
+    "locale": "ca",
+    "category": "bomb_t02_funcio_publica",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 21/1987, de 26 de noviembre, de incompatibilidades del personal al servicio de la Administración de la Generalidad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-28478",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 13 Llei 21/1987",
+      "stem": "Segons la Llei 21/1987, d'incompatibilitats del personal de la Generalitat, el personal inclòs en el seu àmbit pot invocar la seva condició pública per exercir una activitat mercantil?",
+      "options": [
+        "Sí, si té autorització de compatibilitat.",
+        "Sí, si l'activitat és fora de l'horari laboral.",
+        "No, en cap cas.",
+        "Només si és personal interí."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 13 ho prohibeix sense excepcions.",
+      "excerpt": "El personal a que se refiere la presente Ley no podrá invocar o hacer uso de su condición pública para el ejercicio de ninguna actividad mercantil, profesional o industrial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 10 Llei 21/1987",
+      "stem": "Segons la Llei 21/1987, què ha de fer qui accedeix a un nou lloc del sector públic incompatible amb el que ja ocupa?",
+      "options": [
+        "Demanar l'excedència en el nou lloc.",
+        "Exercir tots dos llocs durant un any.",
+        "Renunciar automàticament al lloc antic sense possibilitat d'opció.",
+        "Optar per un dels dos llocs abans de la presa de possessió."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Si no opta, s'entén que opta pel nou lloc i queda en l'altre en la situació administrativa corresponent (art. 10.1 i 10.2).",
+      "excerpt": "deberá optar por uno de ellos antes de la toma de posesión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14 Llei 21/1987",
+      "stem": "Es pot reconèixer compatibilitat per a activitats privades al personal que percep un complement específic pel factor d'incompatibilitat?",
+      "options": [
+        "Sí, sempre que no se superi la jornada ordinària.",
+        "No, la Llei 21/1987 ho impedeix.",
+        "Sí, amb autorització del conseller o consellera.",
+        "Només per a activitats docents."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 14 exclou de la compatibilitat qui percep el complement específic pel factor d'incompatibilitat o un concepte equiparable.",
+      "excerpt": "No podrá autorizarse ni reconocerse compatibilidad al personal que ocupe los puestos de trabajo que comporten la percepción de un complemento específico por el factor de incompatibilidad o por concepto equiparable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 12 Llei 21/1987",
+      "stem": "Segons la Llei 21/1987, quin límit no pot superar la suma de jornades de l'activitat pública principal i de l'activitat privada?",
+      "options": [
+        "La jornada ordinària de l'Administració incrementada en un 50 per cent.",
+        "La jornada ordinària de l'Administració, sense increment.",
+        "El doble de la jornada ordinària.",
+        "Quaranta hores setmanals."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 12.2 fixa aquest límit en tots els casos.",
+      "excerpt": "en ningún caso la suma de jornadas de la actividad pública principal y la actividad privada podrá superar la jornada ordinaria de la Administración incrementada en un 50 por 100.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

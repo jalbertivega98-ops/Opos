@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-lpl-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 16/1991, de 10 de julio, de las Policías Locales (Cataluña) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-20343",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "DA 8a",
+      "stem": "(Rèplica 2025, núm. 8) Segons la disposició addicional vuitena de la Llei 16/1991, de les policies locals, quin és el límit màxim de places reservades a dones en les convocatòries?",
+      "options": [
+        "El 25 % de les places convocades",
+        "El 40 % de les places convocades",
+        "El 50 % de les places convocades",
+        "El 30 % de les places convocades"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La reserva ha de ser proporcional i no pot superar el 40 % de les places convocades.",
+      "excerpt": "no puede ser superior al 40 % de las plazas convocadas",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24",
+      "stem": "(Rèplica 2025, núm. 24) Segons l'article 24 de la Llei 16/1991, quina categoria integra l'escala executiva de les policies locals?",
+      "options": [
+        "Inspector",
+        "Sotsinspector",
+        "Intendent",
+        "Sergent"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'escala executiva comprèn la categoria d'inspector.",
+      "excerpt": "b) Escala ejecutiva, que comprende la categoría de Inspector.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

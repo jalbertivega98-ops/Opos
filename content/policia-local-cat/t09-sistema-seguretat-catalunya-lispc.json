@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "plcat-t09-sistema-seguretat-catalunya-lispc-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Tema 9. La Llei 4/2003 d'ordenació del sistema de seguretat pública de Catalunya i l'Institut de Seguretat Pública",
+    "topic_slug": "plcat-t09-sistema-seguretat-catalunya",
+    "locale": "ca",
+    "category": "plcat_t09_sistema_seguretat_catalunya",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 10/2007, de 30 de julio, del Instituto de Seguridad Pública de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-15546",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil dels exàmens d'agent de policia local de Catalunya (4 opcions, una correcta; cada error resta 1/4). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1 Llei 10/2007",
+      "stem": "Segons l'article 1 de la Llei 10/2007, l'Institut de Seguretat Pública de Catalunya és:",
+      "options": [
+        "Una societat mercantil de capital públic.",
+        "Un òrgan sense personalitat jurídica del Departament d'Interior.",
+        "Una fundació privada participada per la Generalitat.",
+        "Una entitat autònoma de caràcter administratiu adscrita al departament competent en seguretat pública."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 1.1 crea l'ISPC com a entitat autònoma de caràcter administratiu, adscrita al departament competent en seguretat pública, amb personalitat jurídica pròpia (art. 1.2).",
+      "excerpt": "1. Se crea el Instituto de Seguridad Pública de Cataluña como entidad autónoma de carácter administrativo adscrita al departamento competente en materia de seguridad pública.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7 Llei 10/2007",
+      "stem": "Segons l'article 7.1 de la Llei 10/2007, qui és el president de l'Institut de Seguretat Pública de Catalunya?",
+      "options": [
+        "El director de l'Institut, nomenat pel Govern.",
+        "El conseller del departament competent en seguretat pública.",
+        "El president de la Generalitat.",
+        "El director general de la Policia."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 7.1 atribueix la presidència de l'ISPC al conseller competent en seguretat pública; el director el nomena i el cessa el Govern a proposta del conseller (art. 11.1).",
+      "excerpt": "1. El presidente o presidenta del Instituto de Seguridad Pública de Cataluña es el consejero o consejera del departamento competente en materia de seguridad pública.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 3.3 Llei 10/2007",
+      "stem": "Segons l'article 3.3 de la Llei 10/2007, l'àmbit d'actuació de l'Institut de Seguretat Pública de Catalunya inclou:",
+      "options": [
+        "Només els membres de la Policia de la Generalitat-Mossos d'Esquadra.",
+        "Els membres de les policies locals, però no els vigilants ni els auxiliars.",
+        "Els membres dels cossos de policia de Catalunya, i també els vigilants i auxiliars de la policia local.",
+        "Només el personal de prevenció i extinció d'incendis."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'article 3.3.a) inclou en l'àmbit de l'ISPC els membres dels cossos de policia de Catalunya, els vigilants i auxiliars de la policia local i altres estructures professionals de seguretat pública; la lletra b) hi afegeix protecció civil i bombers.",
+      "excerpt": "a) Los miembros de los cuerpos de policía de Cataluña, los vigilantes y auxiliares de la policía local",
+      "excerpt_status": "completo"
+    }
+  ]
+}

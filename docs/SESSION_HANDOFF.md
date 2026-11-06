@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-038)
+
+- Guardia Urbana de Barcelona (889 preguntas), policía local de Cataluña (620), Bombers de la Generalitat (700) y Ayudantes IIPP (1.124), con fichas, réplicas de los exámenes publicados y simulacros con el formato real. Preview `50-` a `55-`; dudosas en borrador.
+- Guías del examen en `src/lib/seo/exam-guides.ts`; psicotécnicos solo en Guardia Urbana y policía local. Fuentes e informes en `/mnt/project-files/aprobia/fuentes-oficiales/{guardia-urbana-bcn,policia-local-cat,bombers,ayudantes-iipp}/`.
+- Pendiente: que joel diga «fusiona».
+
 ### Visitas y cuentas (2026-11-05, rama `claude/project-thread-is3q5b`, ADR-037)
 
 - Vercel Web Analytics añadido (sin cookies, solo en Vercel). joel tiene que activarlo en Vercel → Analytics → Enable.

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-ce-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 72) · Art. 9.3 CE",
+      "stem": "Quin d'aquests principis NO figura entre els que garanteix l'article 9.3 de la Constitució espanyola?",
+      "options": [
+        "La retroactivitat de les disposicions sancionadores desfavorables.",
+        "La jerarquia normativa.",
+        "La publicitat de les normes.",
+        "La interdicció de l'arbitrarietat dels poders públics."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La Constitució garanteix justament el contrari: la irretroactivitat de les disposicions sancionadores no favorables.",
+      "excerpt": "La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales",
+      "excerpt_status": "completo"
+    }
+  ]
+}

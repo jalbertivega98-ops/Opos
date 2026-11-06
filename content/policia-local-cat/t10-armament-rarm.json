@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "plcat-t10-armament-rarm-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Tema 10. La policia local com a cos armat: Reglament d'armament de les policies locals i Reglament d'armes",
+    "topic_slug": "plcat-t10-armament",
+    "locale": "ca",
+    "category": "plcat_t10_armament",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil dels exàmens d'agent de policia local de Catalunya (4 opcions, una correcta; cada error resta 1/4). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3 RD 137/1993",
+      "stem": "Segons l'article 3 del Reglament d'armes (Reial decret 137/1993), en quina categoria s'inclouen les pistoles i els revòlvers?",
+      "options": [
+        "2a categoria: armes de foc llargues per a vigilància i guarderia.",
+        "3a categoria: armes de foc esportives.",
+        "1a categoria: armes de foc curtes.",
+        "4a categoria: carrabines i pistoles de tir de repetició."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 3 del Reglament d'armes inclou en la 1a categoria les armes de foc curtes, que comprenen les pistoles i els revòlvers.",
+      "excerpt": "Armas de fuego cortas: Comprende las pistolas y revólveres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 114 RD 137/1993",
+      "stem": "Segons l'article 114 del Reglament d'armes, per als membres dels cossos de policia de les corporacions locals en servei actiu o disponible, el carnet professional té la consideració de:",
+      "options": [
+        "Llicència A.",
+        "Llicència B.",
+        "Llicència D.",
+        "Targeta europea d'arma de foc."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 114.1.d) considera llicència A el carnet professional dels membres dels cossos de policia de les comunitats autònomes i de les corporacions locals.",
+      "excerpt": "d) Los miembros de los Cuerpos de Policía de las Comunidades Autónomas y de las Corporaciones locales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 115 RD 137/1993",
+      "stem": "Segons l'article 115 del Reglament d'armes, qui expedeix les guies de pertinença de les armes del personal dels cossos de policia de les corporacions locals, i amb quines lletres es marquen?",
+      "options": [
+        "La Direcció General de la Policia; amb les lletres CNP i numeració correlativa.",
+        "La Direcció General de la Guàrdia Civil; amb les lletres PL, el número de l'entitat local en el Codi Geogràfic Nacional i numeració correlativa.",
+        "El Departament d'Interior de la Generalitat; amb les lletres PA i una lletra de la comunitat.",
+        "L'ajuntament respectiu; amb les lletres PM i el número de placa de l'agent."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'article 115.1 atribueix l'expedició a la Direcció General de la Guàrdia Civil per a les policies autonòmiques i locals, i l'apartat 2.h) estableix el marcatge PL més el número de l'entitat local en el Codi Geogràfic Nacional.",
+      "excerpt": "h) Para el personal de los Cuerpos de Policía de las Entidades locales, con las letras PL, el número correspondiente a cada Entidad local en el Código Geográfico Nacional y numeración correlativa de las guías.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

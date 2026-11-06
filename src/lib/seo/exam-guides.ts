@@ -899,6 +899,418 @@ const guardiaCivil: ExamGuide = {
   ],
 };
 
+const guardiaUrbana: ExamGuide = {
+  slug: "guardia-urbana-barcelona",
+  verifiedOn: "2026-11-06",
+  h1: {
+    es: "Oposiciones a Guardia Urbana de Barcelona (agente)",
+    ca: "Oposicions a la Guàrdia Urbana de Barcelona (agent)",
+  },
+  seoTitle: {
+    es: "Guardia Urbana de Barcelona: examen, temario y pruebas de agente",
+    ca: "Guàrdia Urbana de Barcelona: examen, temari i proves d'agent",
+  },
+  seoDescription: {
+    es: "Convocatoria 29/2025 de agente de la Guardia Urbana de Barcelona: 134 plazas, prueba cultural y teórica de hasta 90 preguntas en catalán (−1/4), tests aptitudinales, idioma, físicas, entrevista y médicas.",
+    ca: "Convocatòria 29/2025 d'agent de la Guàrdia Urbana de Barcelona: 134 places, prova cultural i teòrica de fins a 90 preguntes (−1/4), tests aptitudinals, idioma, físiques, entrevista i mèdiques.",
+  },
+  intro: {
+    es: "Resumen de la última convocatoria de agente de la Guardia Urbana de Barcelona (29/2025) y de los exámenes que publica el Ajuntament. Nuestro temario en test sigue los 38 temas oficiales y los exámenes réplica repiten pregunta a pregunta la parte de temario de 2022, 2023 y 2025.",
+    ca: "Resum de l'última convocatòria d'agent de la Guàrdia Urbana de Barcelona (29/2025) i dels exàmens que publica l'Ajuntament. El nostre temari en test segueix els 38 temes oficials i els exàmens rèplica repeteixen pregunta a pregunta la part de temari del 2022, 2023 i 2025.",
+  },
+  facts: [
+    {
+      label: { es: "Convocatoria", ca: "Convocatòria" },
+      value: { es: "29/2025 (DOGC 9374, 19/03/2025)", ca: "29/2025 (DOGC 9374, 19/03/2025)" },
+    },
+    { label: { es: "Plazas", ca: "Places" }, value: { es: "134", ca: "134" } },
+    {
+      label: { es: "Programa", ca: "Programa" },
+      value: {
+        es: "38 temas: derecho constitucional y administrativo, Barcelona y sus ordenanzas, policía y seguridad, derecho penal y procesal, tráfico y primeros auxilios",
+        ca: "38 temes: dret constitucional i administratiu, Barcelona i les seves ordenances, policia i seguretat, dret penal i processal, trànsit i primers auxilis",
+      },
+    },
+  ],
+  parts: [
+    {
+      name: { es: "1.ª prueba: cultural y teórica", ca: "1a prova: cultural i teòrica" },
+      detail: {
+        es: "Hasta 90 preguntas tipo test en catalán: 60 % del temario, 20 % de cultura general y 20 % de actualidad. 4 opciones, cada error resta 1/4, 105 minutos. Nota de 0 a 21 y mínimo 10.",
+        ca: "Fins a 90 preguntes tipus test: 60 % del temari, 20 % de cultura general i 20 % d'actualitat. 4 opcions, cada error resta 1/4, 105 minuts. Nota de 0 a 21 i mínim 10.",
+      },
+    },
+    {
+      name: { es: "2.ª prueba: tests aptitudinales", ca: "2a prova: tests aptitudinals" },
+      detail: {
+        es: "Tests de capacidades intelectuales y de razonamiento. Nota de 0 a 21 y mínimo 10,50.",
+        ca: "Tests de capacitats intel·lectuals i de raonament. Nota de 0 a 21 i mínim 10,50.",
+      },
+    },
+    {
+      name: { es: "Resto del proceso", ca: "Resta del procés" },
+      detail: {
+        es: "Idioma (50 preguntas en 60 minutos, 0-6), pruebas físicas (0-12, mínimo 8), catalán B2, personalidad y entrevista, y reconocimiento médico. Después, curso en el ISPC y prácticas.",
+        ca: "Idioma (50 preguntes en 60 minuts, 0-6), proves físiques (0-12, mínim 8), català B2, personalitat i entrevista, i reconeixement mèdic. Després, curs a l'ISPC i pràctiques.",
+      },
+    },
+  ],
+  calendar: [
+    {
+      label: { es: "1.ª prueba de la 29/2025", ca: "1a prova de la 29/2025" },
+      value: { es: "4 de octubre de 2025 (la superaron 809 personas)", ca: "4 d'octubre de 2025 (la van superar 809 persones)" },
+    },
+    {
+      label: { es: "Última plaza en la clasificación final", ca: "Última plaça a la classificació final" },
+      value: { es: "37,57 sobre 60 (8/07/2026)", ca: "37,57 sobre 60 (8/07/2026)" },
+    },
+  ],
+  calendarNote: {
+    es: "Datos de la sede electrónica del Ajuntament de Barcelona. La próxima convocatoria puede cambiar el temario o las pruebas.",
+    ca: "Dades de la seu electrònica de l'Ajuntament de Barcelona. La propera convocatòria pot canviar el temari o les proves.",
+  },
+  psychoTypes: ["series", "letters", "numeric", "analogies", "matrices", "spatial"],
+  psychoNote: {
+    es: "Las bases piden tests de capacidades intelectuales y razonamiento. Estos tipos de psicotécnico entrenan el razonamiento abstracto, numérico, verbal y espacial.",
+    ca: "Les bases demanen tests de capacitats intel·lectuals i raonament. Aquests tipus de psicotècnic entrenen el raonament abstracte, numèric, verbal i espacial.",
+  },
+  faq: [
+    {
+      q: { es: "¿En qué idioma es el examen de la Guardia Urbana?", ca: "En quina llengua és l'examen de la Guàrdia Urbana?" },
+      a: {
+        es: "En catalán. Por eso nuestras preguntas están en catalán, con la cita de la norma en su idioma original.",
+        ca: "En català. Per això les nostres preguntes són en català, amb la cita de la norma en la seva llengua original.",
+      },
+    },
+    {
+      q: { es: "¿Qué parte del examen se practica aquí?", ca: "Quina part de l'examen es practica aquí?" },
+      a: {
+        es: "La parte de temario (el 60 % de la primera prueba) y los psicotécnicos. Cultura general y actualidad no tienen una fuente oficial que podamos citar y no se incluyen.",
+        ca: "La part de temari (el 60 % de la primera prova) i els psicotècnics. Cultura general i actualitat no tenen una font oficial que puguem citar i no s'hi inclouen.",
+      },
+    },
+  ],
+  sources: [
+    {
+      title: "Bases de la convocatoria 29/2025 de agente de la Guardia Urbana",
+      url: "https://ajuntament.barcelona.cat/seuelectronica/estatics/files/convocatories/29_2025_Bases_agent_GUB_enllacos.pdf",
+    },
+    {
+      title: "Sede electrónica · Agente de la Guardia Urbana 2025",
+      url: "https://seuelectronica.ajuntament.barcelona.cat/processosselectius/ca/convocatories/agent-de-la-guardia-urbana-2025",
+    },
+  ],
+};
+
+const policiaLocal: ExamGuide = {
+  slug: "policia-local",
+  verifiedOn: "2026-11-06",
+  h1: {
+    es: "Oposiciones a policía local en Cataluña (agente)",
+    ca: "Oposicions a policia local a Catalunya (agent)",
+  },
+  seoTitle: {
+    es: "Policía local en Cataluña: examen, temario y psicotécnicos",
+    ca: "Policia local a Catalunya: examen, temari i psicotècnics d'agent",
+  },
+  seoDescription: {
+    es: "Cómo son las oposiciones a agente de policía local en Cataluña: Decreto 233/2002, test de conocimientos en catalán (Terrassa: 50 + 50 preguntas, −1/4), psicotécnico obligatorio, físicas, entrevista y médicas.",
+    ca: "Com són les oposicions a agent de policia local a Catalunya: Decret 233/2002, test de coneixements (Terrassa: 50 + 50 preguntes, −1/4), psicotècnic obligatori, físiques, entrevista i mèdiques.",
+  },
+  intro: {
+    es: "Cada ayuntamiento convoca sus plazas con sus propias bases, dentro del marco común de la Ley 16/1991 de las policías locales y el Decreto 233/2002. Nuestro temario tipo (23 temas) recoge lo que se repite en las bases de Terrassa, Mataró, Sabadell y Badalona, y los exámenes réplica repiten pregunta a pregunta los publicados por Terrassa (2025 y 2026) y Badalona (2022). Revisa siempre las bases de tu convocatoria.",
+    ca: "Cada ajuntament convoca les places amb les seves bases, dins del marc comú de la Llei 16/1991 de les policies locals i el Decret 233/2002. El nostre temari tipus (23 temes) recull el que es repeteix a les bases de Terrassa, Mataró, Sabadell i Badalona, i els exàmens rèplica repeteixen pregunta a pregunta els publicats per Terrassa (2025 i 2026) i Badalona (2022). Revisa sempre les bases de la teva convocatòria.",
+  },
+  facts: [
+    {
+      label: { es: "Marco común", ca: "Marc comú" },
+      value: { es: "Ley 16/1991 y Decreto 233/2002", ca: "Llei 16/1991 i Decret 233/2002" },
+    },
+    {
+      label: { es: "Convocatorias de referencia", ca: "Convocatòries de referència" },
+      value: {
+        es: "Terrassa 2026 (9 plazas), Terrassa 2025 (18), Mataró 2026 (15), Sabadell 2026 (5)",
+        ca: "Terrassa 2026 (9 places), Terrassa 2025 (18), Mataró 2026 (15), Sabadell 2026 (5)",
+      },
+    },
+    {
+      label: { es: "Programa", ca: "Programa" },
+      value: {
+        es: "Temario tipo de 23 temas: Constitución, Estatut, régimen local, policías locales y seguridad, derecho penal y procesal, menores, violencia machista, tráfico y ética policial",
+        ca: "Temari tipus de 23 temes: Constitució, Estatut, règim local, policies locals i seguretat, dret penal i processal, menors, violència masclista, trànsit i ètica policial",
+      },
+    },
+  ],
+  parts: [
+    {
+      name: { es: "Conocimientos (modelo Terrassa)", ca: "Coneixements (model Terrassa)" },
+      detail: {
+        es: "Un ejercicio de 120 minutos con una parte cultural de 50 preguntas y una teórica de 50. 4 opciones, cada error resta 1/4. Cada parte puntúa de 0 a 12 con mínimo 4, y la suma debe llegar a 12. Otras bases cambian: Sabadell, 50 preguntas de 3 opciones de 0 a 10; Mataró añade una prueba práctica.",
+        ca: "Un exercici de 120 minuts amb una part cultural de 50 preguntes i una de teòrica de 50. 4 opcions, cada error resta 1/4. Cada part puntua de 0 a 12 amb mínim 4, i la suma ha d'arribar a 12. Altres bases canvien: Sabadell, 50 preguntes de 3 opcions de 0 a 10; Mataró hi afegeix una prova pràctica.",
+      },
+    },
+    {
+      name: { es: "Psicotécnico", ca: "Psicotècnic" },
+      detail: {
+        es: "Obligatorio para agente (Decreto 233/2002, arts. 14.a y 18.1.a): pruebas aptitudinales y de personalidad. En Terrassa, razonamiento verbal, espacial, numérico y abstracto, más una prueba competencial y entrevista.",
+        ca: "Obligatori per a agent (Decret 233/2002, arts. 14.a i 18.1.a): proves aptitudinals i de personalitat. A Terrassa, raonament verbal, espacial, numèric i abstracte, més una prova competencial i entrevista.",
+      },
+    },
+    {
+      name: { es: "Resto del proceso", ca: "Resta del procés" },
+      detail: {
+        es: "Pruebas físicas, catalán, reconocimiento médico y curso selectivo en el ISPC, según las bases de cada ayuntamiento.",
+        ca: "Proves físiques, català, reconeixement mèdic i curs selectiu a l'ISPC, segons les bases de cada ajuntament.",
+      },
+    },
+  ],
+  calendar: [
+    {
+      label: { es: "Convocatoria en curso", ca: "Convocatòria en curs" },
+      value: { es: "Badalona 2026 (67 plazas)", ca: "Badalona 2026 (67 places)" },
+    },
+  ],
+  calendarNote: {
+    es: "Cada ayuntamiento publica sus fechas en su sede electrónica y en el boletín de la provincia. No hay nota de corte común.",
+    ca: "Cada ajuntament publica les dates a la seva seu electrònica i al butlletí de la província. No hi ha nota de tall comuna.",
+  },
+  psychoTypes: ["series", "numeric", "analogies", "matrices", "spatial"],
+  psychoNote: {
+    es: "Las bases piden razonamiento verbal, espacial, numérico y abstracto. Estos tipos de psicotécnico entrenan esas aptitudes.",
+    ca: "Les bases demanen raonament verbal, espacial, numèric i abstracte. Aquests tipus de psicotècnic entrenen aquestes aptituds.",
+  },
+  faq: [
+    {
+      q: { es: "¿Todas las policías locales tienen el mismo examen?", ca: "Totes les policies locals tenen el mateix examen?" },
+      a: {
+        es: "No. El Decreto 233/2002 fija las pruebas mínimas (conocimientos, psicotécnico, físicas, médicas), pero el temario, el número de preguntas y la puntuación los decide cada ayuntamiento en sus bases.",
+        ca: "No. El Decret 233/2002 fixa les proves mínimes (coneixements, psicotècnic, físiques, mèdiques), però el temari, el nombre de preguntes i la puntuació els decideix cada ajuntament a les seves bases.",
+      },
+    },
+    {
+      q: { es: "¿La Guardia Urbana de Barcelona entra aquí?", ca: "La Guàrdia Urbana de Barcelona entra aquí?" },
+      a: {
+        es: "No: tiene su propia oposición, con su temario y sus ordenanzas, y la preparamos por separado.",
+        ca: "No: té la seva pròpia oposició, amb el seu temari i les seves ordenances, i la preparem per separat.",
+      },
+    },
+  ],
+  sources: [
+    {
+      title: "Decret 233/2002, reglament d'accés, promoció i mobilitat de les policies locals",
+      url: "https://portaljuridic.gencat.cat/eli/es-ct/d/2002/09/25/233",
+    },
+    {
+      title: "Ajuntament de Terrassa · Agent de policia municipal 2026",
+      url: "https://aoberta.terrassa.cat/ocupacio/detallOferta.jsp?id=5266",
+    },
+    {
+      title: "BOPB · Bases de Mataró 2026",
+      url: "https://bop.diba.cat/anunci/3908891",
+    },
+  ],
+};
+
+const bombers: ExamGuide = {
+  slug: "bombers-generalitat",
+  verifiedOn: "2026-11-06",
+  h1: {
+    es: "Oposiciones a Bombers de la Generalitat (bombero/a de primera)",
+    ca: "Oposicions a Bombers de la Generalitat (bomber/a de primera)",
+  },
+  seoTitle: {
+    es: "Bombers de la Generalitat 81/26: examen, temario y pruebas",
+    ca: "Bombers de la Generalitat 81/26: examen, temari i proves",
+  },
+  seoDescription: {
+    es: "Convocatoria 81/26 de bombero/a de primera de la Generalitat: 300 plazas, prueba de conocimientos de 70 preguntas en 80 minutos (−1/4), físicas, oficios, evaluación psicológica y médica. Temario nuevo de 34 temas.",
+    ca: "Convocatòria 81/26 de bomber/a de primera de la Generalitat: 300 places, prova de coneixements de 70 preguntes en 80 minuts (−1/4), físiques, oficis, avaluació psicològica i mèdica. Temari nou de 34 temes.",
+  },
+  intro: {
+    es: "Desde la convocatoria 81/23 se entra como bombero/a de primera de la escala técnica (C1). La 81/26 estrena temario (Resolució ISP/2428/2026, 34 temas). Nuestras preguntas citan la ley o el manual oficial de Bombers de la guía de estudio de la convocatoria.",
+    ca: "Des de la convocatòria 81/23 s'hi entra com a bomber/a de primera de l'escala tècnica (C1). La 81/26 estrena temari (Resolució ISP/2428/2026, 34 temes). Les nostres preguntes citen la llei o el manual oficial de Bombers de la guia d'estudi de la convocatòria.",
+  },
+  facts: [
+    {
+      label: { es: "Convocatoria", ca: "Convocatòria" },
+      value: { es: "81/26 (Resolució ISP/3218/2026)", ca: "81/26 (Resolució ISP/3218/2026)" },
+    },
+    {
+      label: { es: "Plazas", ca: "Places" },
+      value: { es: "300 (120 reservadas a mujeres)", ca: "300 (120 reservades a dones)" },
+    },
+    {
+      label: { es: "Programa", ca: "Programa" },
+      value: {
+        es: "34 temas: legislación, teoría del fuego, física, química, electricidad, instalaciones, hidráulica, construcción, vehículos, rescate, incendios y riesgos",
+        ca: "34 temes: legislació, teoria del foc, física, química, electricitat, instal·lacions, hidràulica, construcció, vehicles, rescat, incendis i riscos",
+      },
+    },
+  ],
+  parts: [
+    {
+      name: { es: "Conocimientos", ca: "Coneixements" },
+      detail: {
+        es: "70 preguntas (más 7 de reserva) de 4 opciones en 80 minutos. Cada error resta 1/4 y en blanco no cuenta. Nota de 0 a 8 y mínimo 4.",
+        ca: "70 preguntes (més 7 de reserva) de 4 opcions en 80 minuts. Cada error resta 1/4 i en blanc no compta. Nota de 0 a 8 i mínim 4.",
+      },
+    },
+    {
+      name: { es: "Resto del proceso", ca: "Resta del procés" },
+      detail: {
+        es: "Pruebas físicas (0-10, mínimo 5), oficios (0-12; conducción con mínimo 6), evaluación psicológica de competencias (0-10, mínimo 5), reconocimiento médico, catalán y castellano si no se acreditan, y concurso de méritos (hasta 20 puntos).",
+        ca: "Proves físiques (0-10, mínim 5), oficis (0-12; conducció amb mínim 6), avaluació psicològica de competències (0-10, mínim 5), reconeixement mèdic, català i castellà si no s'acrediten, i concurs de mèrits (fins a 20 punts).",
+      },
+    },
+  ],
+  calendar: [
+    {
+      label: { es: "Solicitudes de la 81/26", ca: "Sol·licituds de la 81/26" },
+      value: { es: "16 a 29 de septiembre de 2026", ca: "16 a 29 de setembre de 2026" },
+    },
+    {
+      label: { es: "Lista provisional de admitidos", ca: "Llista provisional d'admesos" },
+      value: { es: "29 de octubre de 2026", ca: "29 d'octubre de 2026" },
+    },
+  ],
+  calendarNote: {
+    es: "La fecha de la prueba de conocimientos se publica en el e-Tauler. No se publica nota de corte: solo la calificación de cada participante.",
+    ca: "La data de la prova de coneixements es publica a l'e-Tauler. No es publica nota de tall: només la qualificació de cada participant.",
+  },
+  psychoTypes: [],
+  psychoNote: { es: "", ca: "" },
+  faq: [
+    {
+      q: { es: "¿Hay psicotécnicos en Bombers de la Generalitat?", ca: "Hi ha psicotècnics a Bombers de la Generalitat?" },
+      a: {
+        es: "No de razonamiento. La base 6.1.4 prevé una evaluación psicológica de competencias, que no es un test de aptitudes, así que no la preparamos con psicotécnicos.",
+        ca: "No de raonament. La base 6.1.4 preveu una avaluació psicològica de competències, que no és un test d'aptituds, de manera que no la preparem amb psicotècnics.",
+      },
+    },
+    {
+      q: { es: "¿Sirven los exámenes antiguos?", ca: "Serveixen els exàmens antics?" },
+      a: {
+        es: "En parte. Hasta la 81/25 el temario era otro, con geografía, vegetación y meteorología. Nuestra réplica de la 81/25 solo repite las preguntas de materias que siguen en el temario de 2026.",
+        ca: "En part. Fins a la 81/25 el temari era un altre, amb geografia, vegetació i meteorologia. La nostra rèplica de la 81/25 només repeteix les preguntes de matèries que continuen al temari del 2026.",
+      },
+    },
+  ],
+  sources: [
+    {
+      title: "Convocatoria 81/26 · Bombero/a de primera de la escala técnica",
+      url: "https://interior.gencat.cat/ca/arees_dactuacio/bombers/convocatories/bombers-funcionaris/acces-a-bomber-a-de-1a-de-lescala-tecnica-81-26/",
+    },
+    {
+      title: "DOGC · Resolució ISP/3218/2026",
+      url: "https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1054245",
+    },
+  ],
+};
+
+const ayudantesIipp: ExamGuide = {
+  slug: "ayudantes-instituciones-penitenciarias",
+  verifiedOn: "2026-11-06",
+  h1: {
+    es: "Oposiciones a Ayudantes de Instituciones Penitenciarias",
+    ca: "Oposicions a Ajudants d'Institucions Penitenciàries",
+  },
+  seoTitle: {
+    es: "Ayudantes de Instituciones Penitenciarias: examen y notas de corte",
+    ca: "Ajudants d'Institucions Penitenciàries: examen, temari i notes de tall",
+  },
+  seoDescription: {
+    es: "Convocatoria BOE-A-2026-13226: 1.050 plazas. Examen de 120 preguntas de test y 8 supuestos de 5 preguntas, cada error resta 1/3. Cortes de 2026: 67 y 26,67 puntos directos.",
+    ca: "Convocatòria BOE-A-2026-13226: 1.050 places. Examen de 120 preguntes de test i 8 supòsits de 5 preguntes, cada error resta 1/3. Talls del 2026: 67 i 26,67 punts directes.",
+  },
+  intro: {
+    es: "Resumen de la convocatoria del Cuerpo de Ayudantes de Instituciones Penitenciarias de la Administración del Estado (Resolución de 14 de junio de 2026). Es distinta de la de prisiones de Cataluña. Los simulacros siguen el reparto por bloques del examen de 2026 y la réplica lo repite pregunta a pregunta.",
+    ca: "Resum de la convocatòria del Cos d'Ajudants d'Institucions Penitenciàries de l'Administració de l'Estat (Resolució de 14 de juny de 2026). És diferent de la de presons de Catalunya. Els simulacres segueixen el repartiment per blocs de l'examen del 2026 i la rèplica el repeteix pregunta a pregunta.",
+  },
+  facts: [
+    {
+      label: { es: "Convocatoria", ca: "Convocatòria" },
+      value: { es: "BOE-A-2026-13226", ca: "BOE-A-2026-13226" },
+    },
+    { label: { es: "Plazas", ca: "Places" }, value: { es: "1.050 (subgrupo C1)", ca: "1.050 (subgrup C1)" } },
+    {
+      label: { es: "Programa", ca: "Programa" },
+      value: {
+        es: "Organización del Estado y derecho administrativo (A1-A17), derecho penal (B1-B10), derecho penitenciario (C1-C20) y conducta humana (D1-D3)",
+        ca: "Organització de l'Estat i dret administratiu (A1-A17), dret penal (B1-B10), dret penitenciari (C1-C20) i conducta humana (D1-D3)",
+      },
+    },
+  ],
+  parts: [
+    {
+      name: { es: "1.ª parte: test", ca: "1a part: test" },
+      detail: {
+        es: "120 preguntas (más 3 de reserva) de 4 opciones en 1 h 45 min. Cada error resta 1/3. En 2026 cayeron 37 de los bloques A, 31 del B, 48 del C y 4 del D.",
+        ca: "120 preguntes (més 3 de reserva) de 4 opcions en 1 h 45 min. Cada error resta 1/3. El 2026 en van caure 37 dels blocs A, 31 del B, 48 del C i 4 del D.",
+      },
+    },
+    {
+      name: { es: "2.ª parte: supuestos prácticos", ca: "2a part: supòsits pràctics" },
+      detail: {
+        es: "8 supuestos con 5 preguntas cada uno, en 1 h 20 min, misma penalización.",
+        ca: "8 supòsits amb 5 preguntes cadascun, en 1 h 20 min, mateixa penalització.",
+      },
+    },
+    {
+      name: { es: "Después", ca: "Després" },
+      detail: {
+        es: "Reconocimiento médico y prácticas de hasta 12 meses. No hay psicotécnico.",
+        ca: "Reconeixement mèdic i pràctiques de fins a 12 mesos. No hi ha psicotècnic.",
+      },
+    },
+  ],
+  calendar: [
+    {
+      label: { es: "Primer ejercicio", ca: "Primer exercici" },
+      value: { es: "25 de octubre de 2026", ca: "25 d'octubre de 2026" },
+    },
+    {
+      label: { es: "Corte de 2026 (puntos directos)", ca: "Tall del 2026 (punts directes)" },
+      value: { es: "67 en el test y 26,67 en los supuestos", ca: "67 al test i 26,67 als supòsits" },
+    },
+    {
+      label: { es: "Reconocimiento médico", ca: "Reconeixement mèdic" },
+      value: { es: "Desde el 13 de noviembre de 2026", ca: "Des del 13 de novembre de 2026" },
+    },
+  ],
+  calendarNote: {
+    es: "Datos del Tribunal publicados por la Secretaría General de Instituciones Penitenciarias. Los puntos directos son aciertos menos un tercio de los errores.",
+    ca: "Dades del Tribunal publicades per la Secretaria General d'Institucions Penitenciàries. Els punts directes són encerts menys un terç dels errors.",
+  },
+  psychoTypes: [],
+  psychoNote: { es: "", ca: "" },
+  faq: [
+    {
+      q: { es: "¿Hay psicotécnicos en Ayudantes de Instituciones Penitenciarias?", ca: "Hi ha psicotècnics a Ajudants d'Institucions Penitenciàries?" },
+      a: {
+        es: "No. La base 6.3 solo prevé el examen de conocimientos (test y supuestos) y el reconocimiento médico.",
+        ca: "No. La base 6.3 només preveu l'examen de coneixements (test i supòsits) i el reconeixement mèdic.",
+      },
+    },
+    {
+      q: { es: "¿Se publican los exámenes?", ca: "Es publiquen els exàmens?" },
+      a: {
+        es: "Sí: Instituciones Penitenciarias publica los cuadernillos y las plantillas. Nuestra réplica de 2026 repite cada pregunta con redacción propia sobre la misma norma.",
+        ca: "Sí: Institucions Penitenciàries publica els quaderns i les plantilles. La nostra rèplica del 2026 repeteix cada pregunta amb redacció pròpia sobre la mateixa norma.",
+      },
+    },
+  ],
+  sources: [
+    {
+      title: "Resolución de 14 de junio de 2026 (BOE-A-2026-13226)",
+      url: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13226",
+    },
+    {
+      title: "Instituciones Penitenciarias · Exámenes realizados en procesos selectivos",
+      url: "https://www.institucionpenitenciaria.es/es/fondo-documental/",
+    },
+  ],
+};
+
 const GUIDES: Record<string, ExamGuide> = {
   [mossos.slug]: mossos,
   [auxiliar.slug]: auxiliar,
@@ -907,6 +1319,10 @@ const GUIDES: Record<string, ExamGuide> = {
   [tramitacion.slug]: tramitacion,
   [policiaNacional.slug]: policiaNacional,
   [guardiaCivil.slug]: guardiaCivil,
+  [guardiaUrbana.slug]: guardiaUrbana,
+  [policiaLocal.slug]: policiaLocal,
+  [bombers.slug]: bombers,
+  [ayudantesIipp.slug]: ayudantesIipp,
 };
 
 export const getExamGuide = (slug: string): ExamGuide | undefined => GUIDES[slug];

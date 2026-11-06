@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "set": "iippsup-s1-regimen-seguridad-rp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Supuestos prácticos I. Ingresos, seguridad, comunicaciones, traslados y régimen",
+    "topic_slug": "iippsup-s1-regimen-seguridad",
+    "locale": "es",
+    "category": "iippsup_s1_regimen_seguridad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15.2 RP",
+      "stem": "A las 2:00 la Policía Judicial presenta en el Centro Penitenciario de Valdeclara a un detenido con una orden en la que no consta el delito imputado ni la hora de vencimiento del plazo máximo de detención. Según el Reglamento Penitenciario, ¿qué puede hacer la Dirección del centro?",
+      "options": [
+        "Denegar motivadamente el ingreso.",
+        "Admitirlo y pedir la documentación al Juez de Guardia en setenta y dos horas.",
+        "Admitirlo en todo caso, al proceder de la Policía Judicial.",
+        "Admitirlo provisionalmente en el departamento de ingresos durante cinco días."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15.2 RP permite denegar motivadamente el ingreso si no constan expresamente esos extremos.",
+      "excerpt": "La Dirección del centro podrá denegar motivadamente el ingreso cuando en la orden de detención que se entregue no consten expresamente los citados extremos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.5 RP",
+      "stem": "Ingresa en prisión Pierre D., de nacionalidad francesa. Según el Reglamento Penitenciario, en el momento del ingreso se le informará de su derecho a:",
+      "options": [
+        "Ser trasladado inmediatamente a un centro de su país.",
+        "Que se ponga en conocimiento de las autoridades diplomáticas o consulares correspondientes su ingreso en prisión.",
+        "Ser asistido por un intérprete de pago a su cargo.",
+        "No ser sometido a cacheo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 15.5 RP reconoce ese derecho a los internos extranjeros.",
+      "excerpt": "Los internos extranjeros tienen derecho a que se ponga en conocimiento de las autoridades diplomáticas o consulares correspondientes su ingreso en prisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.4 RP",
+      "stem": "Tomás V. se presenta voluntariamente en el Centro de Robledal diciendo que tiene una condena pendiente. Pasadas setenta y dos horas, no ha llegado ninguna documentación judicial. Según el Reglamento Penitenciario:",
+      "options": [
+        "Se prorroga el ingreso otras setenta y dos horas.",
+        "Se le traslada al departamento de régimen cerrado.",
+        "Se procederá a la excarcelación del ingresado.",
+        "Se le clasifica provisionalmente en segundo grado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 16.4 RP ordena la excarcelación si no llega la documentación que legalice el ingreso.",
+      "excerpt": "Si, transcurrido el plazo de las setenta y dos horas siguientes al ingreso, no se hubiese recibido en el centro la documentación que legalice el mismo, se procederá a la excarcelación del ingresado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.1 RP",
+      "stem": "Un preso preventivo acaba de ingresar y ocupa una celda del departamento de ingresos. Según el Reglamento Penitenciario, ¿quién debe examinarlo a la mayor brevedad posible?",
+      "options": [
+        "El Jurista.",
+        "El Jefe de Servicios.",
+        "El Director.",
+        "El Médico."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 20.1 RP exige el examen médico a la mayor brevedad.",
+      "excerpt": "Los detenidos y presos ocuparán una celda en el departamento de ingresos, donde deberán ser examinados por el Médico a la mayor brevedad posible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.4 RP",
+      "stem": "Una interna del Centro de Peñalba debe ser trasladada en ambulancia a un hospital. Según el Reglamento Penitenciario, irá acompañada, en su caso, del personal sanitario penitenciario necesario que designe:",
+      "options": [
+        "El Jefe de Servicios.",
+        "El Director.",
+        "El Subdirector Médico.",
+        "El Juez de Vigilancia."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 36.4 RP atribuye la designación al Director.",
+      "excerpt": "el interno irá acompañado, en su caso, del personal sanitario penitenciario necesario que el Director designe.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 63.2 RP",
+      "stem": "Durante la noche, la guardia exterior del Centro de Monteluz detecta un intento de introducir paquetes por encima del muro. Según el Reglamento Penitenciario, cuando se produzca un hecho que por su importancia deba ser conocido de inmediato, el Jefe de la guardia exterior deberá:",
+      "options": [
+        "Comunicarlo solo al Juez de Guardia.",
+        "Esperar al relevo para informar.",
+        "Presentarse al Director o funcionario que le sustituya para informarle.",
+        "Informar únicamente a su propio mando policial."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 63.2 RP le obliga a informar al Director o a quien le sustituya.",
+      "excerpt": "deberá presentarse al Director o funcionario que le sustituya para informarle de las incidencias del servicio. De igual forma procederá cuando durante el servicio se produzca algún hecho que, por su importancia, deba ser puesto inmediatamente en conocimiento del Director del Establecimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.4 RP",
+      "stem": "Practicado un cacheo con desnudo integral a Óscar B. por sospecha de que oculta droga en su cuerpo, el resultado es infructuoso, pero la sospecha persiste. Según el Reglamento Penitenciario:",
+      "options": [
+        "El Director podrá solicitar a la Autoridad judicial competente autorización para aplicar otros medios de control adecuados.",
+        "El Jefe de Servicios puede ordenar una exploración radiológica sin más trámite.",
+        "Debe repetirse el cacheo con desnudo integral cada doce horas.",
+        "El interno pasa automáticamente a régimen cerrado."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 68.4 RP exige autorización judicial para otros medios de control.",
+      "excerpt": "Si el resultado del cacheo con desnudo integral fuese infructuoso y persistiese la sospecha, se podrá solicitar por el Director a la Autoridad judicial competente la autorización para la aplicación de otros medios de control adecuados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 68.5 RP",
+      "stem": "Tras una requisa en el módulo 2 y varios cacheos, el funcionario debe documentar la actuación. Según el Reglamento Penitenciario, el parte escrito, que especificará los cacheos con desnudo integral efectuados, se dirige a:",
+      "options": [
+        "El Juez de Vigilancia.",
+        "El Centro Directivo.",
+        "La Junta de Tratamiento.",
+        "El Jefe de Servicios."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 68.5 RP dirige el parte al Jefe de Servicios.",
+      "excerpt": "se formulará parte escrito, que deberá especificar los cacheos con desnudo integral efectuados, firmado por los funcionarios que lo hayan efectuado y dirigido al Jefe de Servicios.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 75.3 RP",
+      "stem": "Al penado Iván C. se le han impuesto limitaciones regimentales para proteger su vida, por amenazas de otros internos. Para que puedan levantarse, se plantea su traslado a otro centro de características similares. Según el Reglamento Penitenciario, ¿quién propone ese traslado al Centro Directivo?",
+      "options": [
+        "El Consejo de Dirección, en todo caso.",
+        "El Juez de Vigilancia.",
+        "La Junta de Tratamiento, por tratarse de un penado.",
+        "El propio interno, sin intervención de órganos del centro."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 75.3 RP: el Consejo de Dirección para detenidos y presos y la Junta de Tratamiento para penados.",
+      "excerpt": "el Consejo de Dirección, en el caso de los detenidos y presos, o la Junta de Tratamiento, en el caso de penados, propondrán al Centro Directivo el traslado del recluso",
+      "excerpt_status": "completo"
+    }
+  ]
+}

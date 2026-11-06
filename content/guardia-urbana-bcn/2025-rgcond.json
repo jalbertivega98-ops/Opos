@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-rgcond-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento General de Conductores (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4",
+      "stem": "(Rèplica 2025, núm. 42) Segons l'article 4 del Reglament general de conductors, quina antiguitat del permís B cal per conduir dins el territori nacional les motocicletes que autoritza el permís A1?",
+      "options": [
+        "Superior a un any",
+        "Superior a tres anys",
+        "Superior a dos anys",
+        "Superior a cinc anys"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Amb permís B de més de tres anys d'antiguitat es poden conduir a Espanya les motocicletes de l'A1.",
+      "excerpt": "Se podrán conducir dentro del territorio nacional con el permiso de la clase B, con una antigüedad superior a tres años, las motocicletas cuya conducción autoriza el permiso de la clase A1",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 4",
+      "stem": "(Rèplica 2025, núm. 43) Segons l'article 4 del Reglament general de conductors, quins vehicles autoritza a conduir el permís D?",
+      "options": [
+        "Automòbils de fins a setze passatgers i vuit metres",
+        "Automòbils dissenyats per al transport de més de vuit passatgers a més del conductor",
+        "Camions de més de 3.500 kg",
+        "Conjunts amb remolc de més de 3.500 kg"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El permís D autoritza automòbils per a més de vuit passatgers a més del conductor, amb remolc de fins a 750 kg.",
+      "excerpt": "Automóviles diseñados y construidos para el transporte de más de ocho pasajeros además del conductor.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

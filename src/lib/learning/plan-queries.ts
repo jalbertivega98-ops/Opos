@@ -39,7 +39,10 @@ export async function getMyPlan() {
       answered: number;
       correct: number;
     }[]
-  ).map((r) => ({ ...r, answered: Number(r.answered), correct: Number(r.correct) }));
+  )
+    // Los exámenes réplica se practican como simulacro, no como tema del plan
+    .filter((r) => !/examen-/.test(r.slug))
+    .map((r) => ({ ...r, answered: Number(r.answered), correct: Number(r.correct) }));
   if (topics.length === 0) return { reason: "noContent" as const };
 
   const settings: PlanSettings = {

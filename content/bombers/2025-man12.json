@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man12-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.007 Manual operatiu bàsic sobre instal·lacions (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 40) · MAN.GRAL.007",
+      "stem": "Un dia de pluja intensa salta la protecció del quadre del parc i, en rearmar-la, torna a saltar. Quina protecció detecta les fuites de corrent a terra?",
+      "options": [
+        "L'IGA (interruptor general automàtic).",
+        "L'interruptor diferencial.",
+        "L'ICP o limitador de potència.",
+        "El fusible de la CGP."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La humitat afavoreix les fuites a terra, que són el que detecta el diferencial; els magnetotèrmics protegeixen de sobrecàrregues i curtcircuits.",
+      "excerpt": "Diferencials Els diferencials són la protecció més important per a la seguretat de les persones, ja que detecten fuites de corrent a terra.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

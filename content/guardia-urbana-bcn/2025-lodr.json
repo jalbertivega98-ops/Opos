@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-lodr-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 9/1983, de 15 de julio, reguladora del derecho de reunión (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1983-19946",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 3",
+      "stem": "(Rèplica 2025, núm. 35) Segons l'article 3 de la LO 9/1983, quina afirmació NO és correcta?",
+      "options": [
+        "Les reunions a la via pública requereixen autorització prèvia",
+        "Cap reunió està sotmesa a autorització prèvia",
+        "L'autoritat governativa protegeix les reunions",
+        "L'autoritat protegeix el lícit exercici del dret davant de qui el pertorbi"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Cap reunió està sotmesa a autorització prèvia; les de llocs de trànsit públic només s'han de comunicar.",
+      "excerpt": "Ninguna reunión estará sometida al régimen de previa autorización.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 8",
+      "stem": "(Rèplica 2025, núm. 84, reserva) Segons l'article 8 de la LO 9/1983, amb quina antelació s'ha de comunicar una manifestació, amb caràcter general?",
+      "options": [
+        "Entre deu i trenta dies naturals",
+        "Entre cinc i quinze dies naturals",
+        "Entre dos i deu dies hàbils",
+        "Un mínim de vint-i-quatre hores en tot cas"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La comunicació es fa amb un mínim de deu i un màxim de trenta dies naturals; amb urgència, 24 hores.",
+      "excerpt": "con una antelación de diez días naturales, como mínimo y treinta como máximo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -232,3 +232,18 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 
 **Motivo:** el contador propio solo cuenta la página de entrada y no las navegaciones internas, y «Activos (7 días)» depende de `last_active_at`, que hoy solo actualizan los simulacros. Vercel da la cifra completa de visitas sin montar nada más, y el registro de auditoría de Auth dice quién ha entrado de verdad cada día, también quien ya tenía la sesión abierta (`last_sign_in_at` solo guarda la última vez).
 **Consecuencias:** «Han entrado» cuenta a cada persona una vez por periodo (o por día en la gráfica), no cada entrada; si algún día se desactiva el registro de auditoría de Auth, esa cifra se quedará en 0. La política de privacidad y la de cookies nombran a Vercel como proveedor de la estadística de visitas sin cookies. El plan gratuito de Vercel tiene un límite mensual de eventos.
+
+## ADR-038 · Cuatro oposiciones nuevas: Guardia Urbana, policía local de Cataluña, Bombers y Ayudantes IIPP (2026-11-06)
+
+**Decisión:** joel pidió completar las cuatro oposiciones que seguían en «próximamente» leyendo sus bases y sus exámenes anteriores: temario completo con test por tema, simulacro con el formato real y psicotécnicos solo donde los haya. Para cada una: fuentes, `build.py` e `INFORME.md` en `/mnt/project-files/aprobia/fuentes-oficiales/<carpeta>/` y contenido en `content/<carpeta>` (preview `50-` a `53-`), productos en `54-` y publicación en `55-` (dudosas en borrador).
+
+- **Guardia Urbana de Barcelona** (`gub-`, catalán): convocatoria 29/2025, 38 temas; simulacro de la parte de temario (54 preguntas, 63 min, −1/4, 0-21) y réplicas de 2025, 2023 y 2022. Psicotécnico sí (base 4.2).
+- **Policía local de Cataluña** (`plcat-`, catalán): no hay convocatoria única. Temario tipo de 23 temas con lo que se repite en Terrassa, Mataró, Sabadell y Badalona sobre el marco de la Ley 16/1991 y el Decreto 233/2002; simulacro como la parte teórica de Terrassa (50, 60 min, −1/4, 0-12) y réplicas de Terrassa 2025/2026 y Badalona 2022. Psicotécnico sí (art. 18.1.a).
+- **Bombers de la Generalitat** (`bomb-`, catalán): desde la 81/23 se entra como bombero/a de primera (C1); temario nuevo de 34 temas (ISP/2428/2026) con los manuales oficiales de la guía de estudio; simulacro de 70 preguntas en 80 min (−1/4, 0-8). Réplica parcial de la 81/25 (solo materias que siguen). Sin psicotécnico: la evaluación psicológica es de competencias.
+- **Ayudantes de Instituciones Penitenciarias** (`iipp-`, castellano): BOE-A-2026-13226; bloques A, B y C (D, conducta humana, sin fuente oficial citable); simulacro de 120 preguntas con el reparto de 2026 (37/31/52, −1/3, corte 67 puntos directos), supuestos (`iippsup-`) y réplica del examen de 2026 (test y supuestos, cortes reales ajustados). Sin psicotécnico (base 6.3).
+- Los temas réplica de estas oposiciones se llaman `<prefijo>examen-…` (sin guion intermedio): el programa de la ficha y el plan de estudio excluyen ahora cualquier slug con `examen-`.
+- Modelo de venta de ADR-035 para las cuatro: Premium de la oposición, 3 primeros temas gratis y pack de 10 simulacros.
+
+**Motivo:** que cada oposición publicada explique y practique lo que de verdad entra en su examen.
+**Consecuencias:** cultura general y actualidad (Guardia Urbana, policía local), conocimiento de Barcelona, el bloque D de IIPP y las partes de desarrollo no se pueden practicar. La policía local depende de las bases de cada ayuntamiento: la ficha lo dice. Todo el contenido es redacción propia con cita literal de la fuente y lo puede revisar joel desde `/admin`.
+

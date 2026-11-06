@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t22-sistema-comandament-man22-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 22. Principis i característiques del Sistema de Comandament del Cos de Bombers",
+    "topic_slug": "bomb-t22-sistema-comandament",
+    "locale": "ca",
+    "category": "bomb_t22_sistema_comandament",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.COMD.001 Principis i característiques del Sistema de Comandament (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-22-MAN.COMD.001.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.COMD.001, § SISCOM",
+      "stem": "Segons el manual de principis del Sistema de Comandament, el SISCOM dels Bombers de la Generalitat és:",
+      "options": [
+        "Un sistema de comunicacions per ràdio.",
+        "Un pla especial de protecció civil.",
+        "L'adaptació de l'Incident Command System (ICS), instaurada a partir del 2010.",
+        "Un sistema de classificació de vehicles."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El SISCOM adapta l'ICS nord-americà als Bombers de la Generalitat.",
+      "excerpt": "El SISCOM del cos de Bombers de la Generalitat de Catalunya El Sistema de Comandament de Bombers (en endavant SISCOM) instaurat a partir del 2010 és l’adaptació de l’ICS per als Bombers de la Generalitat de Catalunya.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § comandament únic",
+      "stem": "Segons el manual del Sistema de Comandament, quin és el principi essencial del SISCOM?",
+      "options": [
+        "El tram de control ampli.",
+        "La terminologia en sigles.",
+        "La rotació constant de comandaments.",
+        "El comandament únic."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El comandament únic concentra responsabilitat i autoritat per planificar, dirigir i coordinar.",
+      "excerpt": "És el principi essencial del SISCOM i permet que tots els esforços s’orientin i coordinin cap a un objectiu comú.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § PAI",
+      "stem": "Segons el manual del Sistema de Comandament, qui elabora el Pla d'Acció de la Intervenció (PAI)?",
+      "options": [
+        "El conseller d'Interior.",
+        "El cap d'intervenció.",
+        "La Sala Central de Bombers.",
+        "Cada cap d'equip per separat."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El PAI l'elabora el cap d'intervenció per resoldre l'incident assumint el mínim risc possible.",
+      "excerpt": "El Pla d’Acció de la Intervenció (PAI) El Pla d’Acció de la Intervenció (PAI) és el pla que elabora el cap d’intervenció (CI) per resoldre l’incident, en la seva totalitat o parcialment, assumint el mínim risc possible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § origen ICS",
+      "stem": "Segons el manual del Sistema de Comandament, on i quan es va desenvolupar l'Incident Command System (ICS)?",
+      "options": [
+        "Als Estats Units, a la dècada del 1970, després d'incendis a la interfície urbana de Califòrnia.",
+        "A Europa, a la dècada del 1990, després d'inundacions.",
+        "A Catalunya, l'any 2010.",
+        "Al Canadà, a la dècada del 1950."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'ICS va néixer als EUA als anys setanta; el SISCOM n'és l'adaptació catalana des del 2010.",
+      "excerpt": "L'incident Command System o sistema de comandament d’incidents (ICS) va ser desenvolupat a la dècada del 1970 als Estats Units després d'un seguit d'incendis catastròfics a la interfície urbana de Califòrnia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § equip",
+      "stem": "Segons el manual del Sistema de Comandament, quina és l'entitat més bàsica de l'organització dels recursos?",
+      "options": [
+        "El grup.",
+        "El sector.",
+        "L'equip.",
+        "La zona."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'equip és un sol recurs (un binomi, un vehicle); el grup s'organitza entorn d'una maniobra.",
+      "excerpt": "L’equip és l'entitat més bàsica i es refereix a un sol recurs (un binomi, un vehicle...)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § terminologia comuna",
+      "stem": "Segons el manual del Sistema de Comandament, si no hi ha una terminologia comuna establerta, què és important fer?",
+      "options": [
+        "Utilitzar el màxim de sigles per escurçar els missatges.",
+        "Parlar en anglès, la llengua de l'ICS.",
+        "Evitar comunicar-se fins que s'estableixi la terminologia.",
+        "Fugir de les sigles i treballar amb un vocabulari senzill que defineixi bé els conceptes."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La terminologia comuna és un mètode essencial per comunicar-se bé en l'emergència.",
+      "excerpt": "En el cas que no estigui establerta, és important fugir de l’ús de les sigles i treballar amb un vocabulari senzill que defineixi correctament els conceptes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § definició SISCOM",
+      "stem": "Segons el manual del Sistema de Comandament, com es defineix el SISCOM?",
+      "options": [
+        "Com el conjunt de plans especials de protecció civil.",
+        "Com el model organitzatiu dels recursos de resposta integrats en una estructura jeràrquica i comuna.",
+        "Com el protocol de comunicacions per ràdio de la xarxa RESCAT.",
+        "Com el reglament disciplinari del Cos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Inclou personal, procediments, instal·lacions i equipaments en una estructura jeràrquica i comuna.",
+      "excerpt": "El SISCOM es defineix com el model organitzatiu dels recursos de resposta a una intervenció integrats en una estructura jeràrquica i comuna, que inclou el personal, els procediments, les instal·lacions i els equipaments.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § relleu del comandament",
+      "stem": "Segons el manual del Sistema de Comandament, què ha d'incloure un relleu del comandament correcte?",
+      "options": [
+        "El traspàs de tota la informació rellevant.",
+        "Només el canvi de nom del cap d'intervenció a la ràdio.",
+        "La retirada de tots els equips desplegats.",
+        "L'aprovació prèvia del conseller."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Sense el traspàs d'informació el nou comandament no tindria elements per dirigir.",
+      "excerpt": "En aquest sentit, quan sigui necessari un relleu del comandament, cal que es faci correctament i inclogui el traspàs de tota la informació rellevant; en cas contrari, el comandament no disposaria dels elements necessaris per dirigir la intervenció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § línia de comandament",
+      "stem": "Segons el principi de la línia de comandament, cada equip, maniobra, grup, sector o zona:",
+      "options": [
+        "Pot rebre ordres de qualsevol comandament present.",
+        "Respon directament davant del conseller d'Interior.",
+        "Respon davant d'un únic comandament, de qui rep ordres i a qui informa.",
+        "Actua de manera autònoma sense informar ningú."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La línia de comandament garanteix un sol superior directe per a cada unitat.",
+      "excerpt": "El principi de la línia de comandament estableix que cada equip, maniobra, grup, sector o zona respon davant d’un únic comandament, de qui rep les ordres o directrius, davant del qual és directament responsable del que porta a terme i a qui informa de l’evolució i els progressos de la intervenció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § tram de control",
+      "stem": "Segons el manual del Sistema de Comandament, entre quantes línies de comunicació directes es manté, en la majoria dels casos, el tram de control?",
+      "options": [
+        "Entre una i dues.",
+        "Entre deu i quinze.",
+        "Sense límit.",
+        "Entre tres i cinc."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Cal mantenir el tram de control curt i simple; en incidents complexos es redueix al mínim.",
+      "excerpt": "A la majoria dels casos, el tram de control es manté entre tres i cinc línies de comunicació directes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § cinquena àrea",
+      "stem": "Segons el manual del Sistema de Comandament, quina àrea funcional de l'ICS no s'ha implementat als Bombers?",
+      "options": [
+        "La d'operacions.",
+        "La de finances i administració.",
+        "La de planificació.",
+        "La de logística."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El SISCOM s'organitza en quatre àrees; la cinquena de l'ICS (finances i administració) no s'aplica.",
+      "excerpt": "A l’ICS hi ha una cinquena àrea de finances i administració que no s’ha implementat a Bombers.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § SISCOM 1",
+      "stem": "Segons el manual del Sistema de Comandament, en incidents quotidians de poca complexitat (SISCOM 1), qui pot assumir totes les funcions?",
+      "options": [
+        "Una sola persona, el cap d'intervenció.",
+        "Cal sempre un responsable per a cada àrea funcional.",
+        "La Sala Central de Bombers.",
+        "El cap de sector."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "En SISCOM 1 el cap d'intervenció pot assumir comandament, operacions, planificació i logística.",
+      "excerpt": "En incidents quotidians de poca complexitat i fàcils de solucionar (SISCOM 1), totes aquestes funcions poden ser assumides per una sola persona, el cap d’intervenció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § sector",
+      "stem": "Segons el manual del Sistema de Comandament, què és un sector?",
+      "options": [
+        "L'entitat més alta de l'estructura del SISCOM.",
+        "Una subdivisió de l'incident per gestionar àrees geogràfiques o funcions especialitzades.",
+        "Un sol recurs, com un binomi o un vehicle.",
+        "El conjunt coordinat d'accions tàctiques."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Cada sector té un comandament; diversos sectors formen una zona.",
+      "excerpt": "Un sector és una subdivisió de l'incident que es configura per gestionar àrees geogràfiques o funcions especialitzades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § maniobra",
+      "stem": "Segons el manual del Sistema de Comandament, una maniobra és:",
+      "options": [
+        "L'acció pràctica i concreta d'un sol equip.",
+        "Una subdivisió geogràfica de l'incident.",
+        "El conjunt coordinat d'accions tàctiques específiques per aconseguir els objectius tàctics.",
+        "El pla general de l'emergència."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les tasques són accions concretes dels equips; un grup s'organitza entorn d'una maniobra.",
+      "excerpt": "Una maniobra és el conjunt coordinat d'accions tàctiques específiques dissenyades per aconseguir els objectius tàctics establerts.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § comandament",
+      "stem": "Segons el manual del Sistema de Comandament, qui estableix l'estratègia, els objectius tàctics i les prioritats?",
+      "options": [
+        "El comandament.",
+        "L'àrea de logística.",
+        "L'àrea de planificació.",
+        "Cada equip de treball."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El comandament té la responsabilitat general de la gestió de l'emergència.",
+      "excerpt": "El comandament estableix l’estratègia, els objectius tàctics i les prioritats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § tram en incidents complexos",
+      "stem": "Segons el manual del Sistema de Comandament, en un incident d'evolució ràpida o complex, amb alta càrrega de treball, què cal fer amb el tram de control?",
+      "options": [
+        "Ampliar-lo al màxim.",
+        "Mantenir-lo sempre en cinc línies.",
+        "Eliminar-lo.",
+        "Reduir-lo al mínim."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En situacions estables es pot ampliar; en complexes, cal reduir-lo.",
+      "excerpt": "En un incident d'evolució ràpida o complex, on la intensitat i la càrrega de treball és alta, cal reduir el tram de control al mínim, mentre que en una situació més estable el podem ampliar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § àrea de planificació",
+      "stem": "Segons el manual del Sistema de Comandament, quina àrea prepara i documenta el PAI i els mapes i recopila i difon la informació de l'incident?",
+      "options": [
+        "Operacions.",
+        "Logística.",
+        "Finances i administració.",
+        "Planificació."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Planificació gestiona la informació; operacions dirigeix els recursos sobre el terreny; logística atén les necessitats materials.",
+      "excerpt": "Prepara i documenta el PAI i els mapes, i recopila i difon la informació sobre l’incident.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § àrea de logística",
+      "stem": "Segons el manual del Sistema de Comandament, quina àrea s'encarrega de les instal·lacions, l'avituallament, el transport, el combustible i la infraestructura de comunicacions?",
+      "options": [
+        "Planificació.",
+        "Operacions.",
+        "Logística.",
+        "Comandament."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Logística respon a les necessitats actuals i preveu les futures.",
+      "excerpt": "És el responsable de donar resposta a totes les necessitats vinculades a l’incident i preveure les necessitats logístiques futures: proporcionar i muntar les instal·lacions, l’avituallament, el transport, els subministraments, el combustible, el manteniment dels equips i la infraestructura de les comunicacions.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § zona",
+      "stem": "Segons el manual del Sistema de Comandament, quina relació hi ha entre zona i sector?",
+      "options": [
+        "Una zona inclou diversos sectors.",
+        "Un sector inclou diverses zones.",
+        "Són sinònims.",
+        "La zona és més petita que l'equip."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Equip < grup < sector < zona < comandament de la intervenció.",
+      "excerpt": "Una zona és una entitat organitzativa que s'utilitza per gestionar les operacions dins d'una àrea funcional més àmplia. […] Una zona inclou diversos sectors.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMD.001, § instal·lacions de suport",
+      "stem": "Segons el manual del Sistema de Comandament, a petició de qui es despleguen sobre el terreny les instal·lacions de suport al comandament?",
+      "options": [
+        "De l'alcalde del municipi.",
+        "Del cap d'intervenció.",
+        "De qualsevol bomber de l'equip.",
+        "Del Centre de Coordinació Operativa de Catalunya, sempre."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Són recursos físics que es despleguen a petició del cap d'intervenció per complir les funcions del SISCOM.",
+      "excerpt": "Les instal·lacions de suport al comandament són aquells recursos físics específics que es despleguen sobre el terreny, a petició del cap d’intervenció, amb la finalitat de complir amb les funcions previstes en el SISCOM i assumir el lideratge de les intervencions dirigides pels Bombers de la Generalitat de Catalunya.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

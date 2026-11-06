@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "iipp-b02-delito-circunstancias-cp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penal, tema 2. El delito: clases, grados de ejecución, formas de resolución manifestada y circunstancias modificativas",
+    "topic_slug": "iipp-b02-delito-circunstancias",
+    "locale": "es",
+    "category": "iipp_b02_delito_circunstancias",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 10 CP",
+      "stem": "Según el artículo 10 del Código Penal, son delitos:",
+      "options": [
+        "Solo las acciones dolosas penadas por la ley.",
+        "Las acciones y omisiones dolosas o imprudentes penadas por la ley.",
+        "Las conductas contrarias a la moral pública.",
+        "Las infracciones castigadas con pena de prisión."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 10 CP define así el delito.",
+      "excerpt": "Son delitos las acciones y omisiones dolosas o imprudentes penadas por la ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11 CP",
+      "stem": "Según el artículo 11 del Código Penal, en los delitos de resultado se equipara la omisión a la acción, entre otros casos, cuando:",
+      "options": [
+        "El omitente haya creado una ocasión de riesgo para el bien jurídico mediante una acción u omisión precedente.",
+        "El resultado sea especialmente grave.",
+        "La víctima sea menor de edad.",
+        "El omitente sea funcionario público, en todo caso."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 11 CP prevé la equiparación por obligación legal o contractual y por injerencia.",
+      "excerpt": "Cuando el omitente haya creado una ocasión de riesgo para el bien jurídicamente protegido mediante una acción u omisión precedente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 12 CP",
+      "stem": "Según el artículo 12 del Código Penal, las acciones u omisiones imprudentes:",
+      "options": [
+        "Se castigan siempre con la mitad de la pena del delito doloso.",
+        "Nunca se castigan.",
+        "Solo se castigan cuando expresamente lo disponga la ley.",
+        "Se castigan solo como delitos leves."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 12 CP establece un sistema de numerus clausus para la imprudencia.",
+      "excerpt": "Las acciones u omisiones imprudentes sólo se castigarán cuando expresamente lo disponga la Ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 13.4 CP",
+      "stem": "Cuando la pena, por su extensión, puede incluirse a la vez entre las graves y las menos graves, el artículo 13 del Código Penal dispone que el delito se considera:",
+      "options": [
+        "En todo caso, como menos grave.",
+        "Según decida el tribunal.",
+        "Como leve.",
+        "En todo caso, como grave."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 13.4 CP lo considera grave; si puede ser leve y menos grave, se considera leve.",
+      "excerpt": "Cuando la pena, por su extensión, pueda incluirse a la vez entre las mencionadas en los dos primeros números de este artículo, el delito se considerará, en todo caso, como grave.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15 CP",
+      "stem": "Según el artículo 15 del Código Penal, son punibles:",
+      "options": [
+        "El delito consumado y la tentativa de delito.",
+        "Solo el delito consumado.",
+        "El delito consumado, la tentativa y la frustración.",
+        "Todos los actos preparatorios."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 15 CP castiga el delito consumado y la tentativa.",
+      "excerpt": "Son punibles el delito consumado y la tentativa de delito.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.1 CP",
+      "stem": "Según el artículo 16 del Código Penal, hay tentativa cuando el sujeto da principio a la ejecución del delito directamente por hechos exteriores y el resultado no se produce:",
+      "options": [
+        "Por desistimiento voluntario del autor.",
+        "Por error del autor sobre el objeto.",
+        "Por intervención de la víctima con consentimiento del autor.",
+        "Por causas independientes de la voluntad del autor."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 16.1 CP define la tentativa.",
+      "excerpt": "y sin embargo éste no se produce por causas independientes de la voluntad del autor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.2 CP",
+      "stem": "Quien evita voluntariamente la consumación del delito, desistiendo de la ejecución ya iniciada, según el artículo 16 del Código Penal:",
+      "options": [
+        "Responde por tentativa con la pena rebajada en dos grados.",
+        "Queda exento de responsabilidad por el delito intentado, sin perjuicio de la que corresponda por los actos ya ejecutados si constituyen otro delito.",
+        "Responde por el delito consumado con atenuante.",
+        "Queda exento de toda responsabilidad, incluida la de los actos ya ejecutados."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 16.2 CP regula el desistimiento.",
+      "excerpt": "Quedará exento de responsabilidad penal por el delito intentado quien evite voluntariamente la consumación del delito",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.1 CP",
+      "stem": "Según el artículo 17 del Código Penal, la conspiración existe cuando:",
+      "options": [
+        "El que ha resuelto cometer un delito invita a otros a participar en él.",
+        "Se incita públicamente a cometer un delito.",
+        "Dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo.",
+        "Se ensalza a un delincuente ante una concurrencia de personas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 17.1 CP define la conspiración; la invitación es la proposición (17.2).",
+      "excerpt": "La conspiración existe cuando dos o más personas se conciertan para la ejecución de un delito y resuelven ejecutarlo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.2 CP",
+      "stem": "El artículo 17 del Código Penal define la proposición como:",
+      "options": [
+        "La invitación a otra u otras personas a participar en un delito por parte de quien ha resuelto cometerlo.",
+        "El concierto de varias personas para cometer un delito.",
+        "La incitación pública a cometer un delito.",
+        "El inicio de la ejecución del delito."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 17.2 CP define la proposición.",
+      "excerpt": "La proposición existe cuando el que ha resuelto cometer un delito invita a otra u otras personas a participar en él.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 18.2 CP",
+      "stem": "Si a la provocación para delinquir sigue la perpetración del delito, el artículo 18 del Código Penal dispone que se castigará:",
+      "options": [
+        "Como cooperación necesaria.",
+        "Como complicidad.",
+        "Como provocación agravada.",
+        "Como inducción."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 18.2 CP la castiga como inducción.",
+      "excerpt": "Si a la provocación hubiese seguido la perpetración del delito, se castigará como inducción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 19 CP",
+      "stem": "Según el artículo 19 del Código Penal, los menores de dieciocho años:",
+      "options": [
+        "Responden con la pena reducida a la mitad.",
+        "No serán responsables criminalmente con arreglo al Código Penal, sin perjuicio de la ley de responsabilidad penal del menor.",
+        "Responden solo por delitos graves.",
+        "Quedan exentos de toda responsabilidad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 19 CP los remite a la ley de responsabilidad penal del menor.",
+      "excerpt": "Los menores de dieciocho años no serán responsables criminalmente con arreglo a este Código.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.4.º CP",
+      "stem": "¿Cuál de los siguientes NO es un requisito de la legítima defensa del artículo 20.4.º del Código Penal?",
+      "options": [
+        "Agresión ilegítima.",
+        "Necesidad racional del medio empleado para impedirla o repelerla.",
+        "Que el mal causado no sea mayor que el que se trate de evitar.",
+        "Falta de provocación suficiente por parte del defensor."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La proporción entre males es requisito del estado de necesidad (20.5.º), no de la legítima defensa.",
+      "excerpt": "Primero. Agresión ilegítima. […] Segundo. Necesidad racional del medio empleado para impedirla o repelerla. Tercero. Falta de provocación suficiente por parte del defensor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.5.º CP",
+      "stem": "Uno de los requisitos del estado de necesidad del artículo 20 del Código Penal es que:",
+      "options": [
+        "El necesitado no tenga, por su oficio o cargo, obligación de sacrificarse.",
+        "Exista una agresión ilegítima.",
+        "El mal causado sea mayor que el evitado.",
+        "La situación de necesidad la haya provocado el propio sujeto."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 20.5.º CP exige ese requisito, junto con la proporción de males y la no provocación.",
+      "excerpt": "Tercero. Que el necesitado no tenga, por su oficio o cargo, obligación de sacrificarse.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.7.º CP",
+      "stem": "Está exento de responsabilidad criminal, según el artículo 20 del Código Penal, quien obre:",
+      "options": [
+        "Por arrebato u obcecación.",
+        "En cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo.",
+        "Bajo los efectos de una grave adicción.",
+        "Tras confesar la infracción."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 20.7.º CP recoge esa eximente; las demás opciones son atenuantes.",
+      "excerpt": "El que obre en cumplimiento de un deber o en el ejercicio legítimo de un derecho, oficio o cargo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21 CP",
+      "stem": "Para que la confesión de la infracción sea atenuante, el artículo 21 del Código Penal exige que el culpable confiese a las autoridades:",
+      "options": [
+        "Antes de la sentencia firme.",
+        "En cualquier momento del procedimiento.",
+        "Antes del juicio oral.",
+        "Antes de conocer que el procedimiento judicial se dirige contra él."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La atenuante 4.ª del art. 21 CP exige que la confesión preceda al conocimiento del procedimiento.",
+      "excerpt": "La de haber procedido el culpable, antes de conocer que el procedimiento judicial se dirige contra él, a confesar la infracción a las autoridades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21 CP",
+      "stem": "Para que la reparación del daño sea atenuante, el artículo 21 del Código Penal exige que se produzca:",
+      "options": [
+        "Antes de que se inicie el procedimiento.",
+        "Antes de que la sentencia sea firme.",
+        "En cualquier momento del procedimiento y antes de la celebración del acto del juicio oral.",
+        "Solo durante la instrucción."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La atenuante 5.ª del art. 21 CP fija ese límite temporal.",
+      "excerpt": "en cualquier momento del procedimiento y con anterioridad a la celebración del acto del juicio oral.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 21 CP",
+      "stem": "La dilación extraordinaria e indebida en la tramitación del procedimiento es atenuante, según el artículo 21 del Código Penal, siempre que:",
+      "options": [
+        "Supere los cinco años.",
+        "No sea atribuible al propio inculpado y no guarde proporción con la complejidad de la causa.",
+        "La solicite el Ministerio Fiscal.",
+        "Se haya producido durante la instrucción."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La atenuante 6.ª del art. 21 CP exige esos requisitos.",
+      "excerpt": "siempre que no sea atribuible al propio inculpado y que no guarde proporción con la complejidad de la causa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22 CP",
+      "stem": "Según el artículo 22 del Código Penal, ¿cuál de las siguientes es una circunstancia agravante?",
+      "options": [
+        "Obrar por arrebato u obcecación.",
+        "Actuar a causa de grave adicción.",
+        "Reparar el daño antes del juicio oral.",
+        "Prevalerse del carácter público que tenga el culpable."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La agravante 7.ª del art. 22 CP es el prevalimiento del carácter público.",
+      "excerpt": "Prevalerse del carácter público que tenga el culpable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 22 CP",
+      "stem": "Según el artículo 22 del Código Penal, hay alevosía cuando el culpable comete cualquiera de los delitos contra las personas empleando medios, modos o formas que tiendan directa o especialmente a asegurarla:",
+      "options": [
+        "Con ánimo de lucro.",
+        "Por precio, recompensa o promesa.",
+        "Sin el riesgo que para su persona pudiera proceder de la defensa del ofendido.",
+        "Aprovechando la nocturnidad en todo caso."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 22.1.ª CP define así la alevosía.",
+      "excerpt": "sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23 CP",
+      "stem": "La circunstancia mixta de parentesco del artículo 23 del Código Penal:",
+      "options": [
+        "Puede atenuar o agravar la responsabilidad según la naturaleza, los motivos y los efectos del delito.",
+        "Solo puede agravar.",
+        "Solo puede atenuar.",
+        "Solo se aplica en los delitos contra el patrimonio."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 23 CP configura el parentesco como circunstancia mixta.",
+      "excerpt": "Es circunstancia que puede atenuar o agravar la responsabilidad, según la naturaleza, los motivos y los efectos del delito",
+      "excerpt_status": "completo"
+    }
+  ]
+}

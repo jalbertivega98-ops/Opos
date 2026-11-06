@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t13-hidraulica-bombes-man13-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 13. Hidràulica i bombes",
+    "topic_slug": "bomb-t13-hidraulica-bombes",
+    "locale": "ca",
+    "category": "bomb_t13_hidraulica_bombes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.009 Manual operatiu bàsic sobre hidràulica i bombes (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.009, § densitat",
+      "stem": "Segons el Manual operatiu bàsic sobre hidràulica i bombes, la densitat d'un fluid és:",
+      "options": [
+        "La resistència interna del líquid a fluir.",
+        "La quantitat de massa que conté per unitat de volum.",
+        "La força que manté unides les molècules de la superfície.",
+        "La pressió que fan les molècules que s'escapen en forma de vapor."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La densitat és massa per unitat de volum; la resistència a fluir és la viscositat i la força superficial, la tensió superficial.",
+      "excerpt": "Densitat La densitat d’un fluid és la quantitat de massa que conté per unitat de volum.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § viscositat",
+      "stem": "Segons el manual d'hidràulica, què mesura la viscositat?",
+      "options": [
+        "La quantitat de massa per unitat de volum.",
+        "La capacitat d'un líquid de pujar per un tub estret.",
+        "La pressió total mesurada des del buit absolut.",
+        "La resistència interna d'un líquid a fluir."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La viscositat és la resistència interna a fluir; l'aigua té una viscositat dinàmica molt baixa (0,001 Pa·s).",
+      "excerpt": "Viscositat dinàmica (η) La viscositat és la mesura de la resistència interna d'un líquid a fluir.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § unitats de pressió",
+      "stem": "Segons el manual d'hidràulica, a quants metres de columna d'aigua equival aproximadament 1 bar?",
+      "options": [
+        "A 10 metres.",
+        "A 1 metre.",
+        "A 100 metres.",
+        "A 0,76 metres."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "1 bar ≈ 10 m.c.a.; per això, de manera ideal i sense pèrdues, l'aigua que surt a 8 bar podria pujar uns 80 m.",
+      "excerpt": "1 bar = 10 metres de columna d’aigua",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § principi d'Arquimedes",
+      "stem": "Segons el manual d'hidràulica, el principi d'Arquimedes diu que un cos submergit en un fluid rep una empenta vertical cap amunt igual a:",
+      "options": [
+        "El pes del cos submergit.",
+        "La pressió atmosfèrica per la superfície del cos.",
+        "El pes del fluid que desplaça.",
+        "La massa del cos multiplicada per la seva velocitat."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'empenta hidrostàtica és igual al pes del fluid desplaçat i explica la flotabilitat.",
+      "excerpt": "Principi d’Arquímedes El Principi d’Arquímedes diu que un cos, total o parcialment submergit en un fluid experimenta una empenta vertical cap amunt (força d'empenta) que és igual al pes del fluid que desplaça.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § bombes centrífugues",
+      "stem": "Segons el manual d'hidràulica, quin tipus de bomba és el més utilitzat pels bombers?",
+      "options": [
+        "La bomba volumètrica de pistó.",
+        "La bomba de membrana.",
+        "La bomba centrífuga.",
+        "La bomba d'engranatges."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Les bombes centrífugues transformen l'energia mecànica en energia cinètica i pressió i són les més utilitzades pels bombers.",
+      "excerpt": "Bombes centrífugues Les bombes centrífugues transformen l’energia mecànica en energia cinètica i pressió. […] Són les més utilitzades pels bombers.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § cabal",
+      "stem": "Segons el manual d'hidràulica, a què fa referència el cabal (Q)?",
+      "options": [
+        "A la quantitat d'aigua que travessa una secció d'una conducció en un temps determinat.",
+        "A la pressió de l'aigua a la sortida de la llança.",
+        "A la velocitat de rotació del rodet de la bomba.",
+        "A la força de reacció que suporta el bomber."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El cabal és volum per unitat de temps (Q = V/t = S·v).",
+      "excerpt": "Fa referència a la quantitat d’aigua que travessa una secció (S) d’una conducció en un temps determinat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § pressió absoluta i relativa",
+      "stem": "Segons el manual d'hidràulica, què és la pressió relativa o manomètrica?",
+      "options": [
+        "La pressió total mesurada des del buit absolut.",
+        "La pressió de vapor de l'aigua a temperatura ambient.",
+        "La pressió dinàmica deguda a la velocitat del fluid.",
+        "La pressió mesurada a partir de la pressió atmosfèrica del lloc."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La pressió absoluta es mesura des del buit absolut (pressió 0); la relativa és la diferència entre la pressió real i l'atmosfèrica.",
+      "excerpt": "Pressió relativa (o manomètrica): és la diferència entre la pressió real i la pressió atmosfèrica en aquell lloc, o dit d’una altra manera, és la pressió mesurada a partir de la pressió atmosfèrica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § pressió de vapor",
+      "stem": "Segons el manual d'hidràulica, a quina temperatura aproximada bull l'aigua a dalt d'una muntanya de 3.000 m?",
+      "options": [
+        "A 100 °C, com a nivell del mar.",
+        "A uns 90 °C.",
+        "A uns 110 °C.",
+        "A uns 70 °C."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "A més alçada, la pressió atmosfèrica és menor i l'aigua bull a menys temperatura (uns 90 °C a 3.000 m).",
+      "excerpt": "Per exemple, a nivell del mar (1 bar de pressió) l’aigua bull a 100 ºC, però a dalt d’una muntanya de 3000 m, la pressió atmosfèrica és menor i l’aigua bull a menys temperatura (uns 90 ºC)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § tensió superficial",
+      "stem": "Segons el manual d'hidràulica, per què s'afegeixen humectants o tensioactius a l'aigua d'extinció?",
+      "options": [
+        "Per augmentar la viscositat i que l'aigua s'adhereixi millor.",
+        "Per augmentar la densitat i que el raig arribi més lluny.",
+        "Per reduir la tensió superficial i que l'aigua penetri més fàcilment en sòlids porosos o formi escumes.",
+        "Per reduir la pressió de vapor i evitar la cavitació."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Els tensioactius (sabons) redueixen la tensió superficial: l'aigua penetra millor en materials porosos i es poden formar bombolles d'escuma.",
+      "excerpt": "Amb additius humectants i tensioactius (sabons) podem reduir la tensió superficial de l’aigua amb l’objectiu de fer que penetri més fàcilment en materials sòlids porosos, o per la formació de bombolles (escumes d’extinció).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § equació de continuïtat",
+      "stem": "Segons el manual d'hidràulica, què estableix l'equació de continuïtat per a un fluid incompressible com l'aigua?",
+      "options": [
+        "Que el cabal és constant en qualsevol punt d'una conducció.",
+        "Que la pressió és constant en qualsevol punt d'una conducció.",
+        "Que la velocitat és la mateixa en totes les seccions.",
+        "Que l'energia total es perd per fregament."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Es basa en la conservació de la massa: el que entra per un extrem d'una conducció sense derivacions surt per l'altre; si la secció es redueix, augmenta la velocitat.",
+      "excerpt": "En un fluid incompressible, com l'aigua, l'equació de continuïtat estableix que el cabal és constant en qualsevol punt d'una conducció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § efecte Venturi",
+      "stem": "Segons el manual d'hidràulica, què passa amb un fluid que circula per un conducte tancat que s'estreny (efecte Venturi)?",
+      "options": [
+        "Disminueix la velocitat i augmenta la pressió.",
+        "Augmenten alhora la velocitat i la pressió.",
+        "Disminueix el cabal en la mateixa proporció que la secció.",
+        "Augmenta la velocitat i disminueix la pressió."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Per mantenir el cabal, el fluid accelera a l'estretament; segons Bernoulli, el que guanya en pressió dinàmica ho perd en pressió estàtica, i fins i tot pot crear succió.",
+      "excerpt": "Efecte Venturi L'efecte Venturi és un fenomen físic que es produeix quan un fluid circula per un conducte tancat que s’estreny, disminueix la seva pressió ja que augmenta la velocitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § cop d'ariet",
+      "stem": "Segons el manual d'hidràulica, què provoca el cop d'ariet en una instal·lació?",
+      "options": [
+        "Una baixada de pressió que forma bombolles de vapor a l'aspiració.",
+        "Una reducció brusca de cabal, per exemple en tancar de sobte una vàlvula.",
+        "L'estretament de la secció d'un conducte.",
+        "L'augment de la viscositat de l'aigua amb el fred."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En tancar de cop, l'energia cinètica del fluid es transforma en energia de pressió i es crea una ona de sobrepressió que pot superar diverses vegades la pressió de treball.",
+      "excerpt": "Cop d’Ariet El cop d’ariet és un fenomen físic de sobrepressió que es produeix en les instal·lacions hidràuliques a causa de les reduccions brusques de cabal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § cavitació",
+      "stem": "Segons el manual d'hidràulica, quan es produeix la cavitació?",
+      "options": [
+        "Quan en una zona del circuit la pressió del líquid baixa tant que es formen bombolles de vapor.",
+        "Quan es tanca bruscament una vàlvula i es crea una sobrepressió.",
+        "Quan la mànega fa un colze massa tancat.",
+        "Quan la bomba treballa a cabal zero amb la vàlvula de sobrepressió oberta."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les bombolles de vapor col·lapsen en arribar a zones de més pressió, arrenquen material, provoquen vibracions i redueixen el rendiment.",
+      "excerpt": "Cavitació La cavitació és un fenomen físic no desitjat que es produeix quan, en una zona del circuit la pressió del líquid baixa tant que es formen bombolles de vapor d’aigua.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § cavitació",
+      "stem": "Segons el manual d'hidràulica, en quin tipus d'operacions es dona especialment la cavitació?",
+      "options": [
+        "En les esteses de mànegues en paral·lel.",
+        "En l'alimentació des d'un hidrant amb pressió.",
+        "En operacions d'aspiració.",
+        "En el tancament lent de les llances."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La cavitació apareix sobretot en aspiració, perquè el líquid arriba a la bomba empès pel buit i hi ha pressions molt baixes.",
+      "excerpt": "Aquest fenomen es dona especialment en operacions d’aspiració, quan el líquid és empès cap a la bomba pel buit generat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § mànegues en paral·lel",
+      "stem": "Segons el manual d'hidràulica, què passa quan es fa una estesa doble de mànegues en paral·lel entre l'hidrant i l'aspiració de la bomba?",
+      "options": [
+        "Les pèrdues de càrrega es dupliquen i el cabal es redueix a la meitat.",
+        "Les pèrdues de càrrega del conjunt baixen dràsticament i el cabal gairebé es duplica.",
+        "La pressió a la bomba es duplica però el cabal no varia.",
+        "No hi ha cap efecte, perquè el cabal depèn només de l'hidrant."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Repartir el cabal entre dues mànegues redueix molt la velocitat en cadascuna i, per tant, les pèrdues de càrrega.",
+      "excerpt": "En canvi, quan connectem mànegues en paral·lel, és a dir, fem una estesa de mànegues doble entre dos punts, per exemple de l’hidrant a l’aspiració de la bomba, les pèrdues de càrrega del conjunt baixen dràsticament i el cabal gairebé es duplica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § cavitació",
+      "stem": "Segons el manual d'hidràulica, en quin punt d'una bomba centrífuga és més probable que es produeixi cavitació?",
+      "options": [
+        "Al col·lector de sortida tangencial.",
+        "A la vàlvula de sobrepressió.",
+        "A la llança, en el moment d'obrir-la.",
+        "A l'entrada axial de la bomba i al dors dels àleps del rodet."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Són els punts amb les pressions més baixes del circuit, on es formen més fàcilment les bombolles de vapor.",
+      "excerpt": "El lloc on és més probable que es produeixi la cavitació és a la l'entrada axial de la bomba i en el dors dels àleps del rodet, que és on s'assoleixen les pressions més baixes del circuit, facilitant la formació de bombolles de vapor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § bombes volumètriques",
+      "stem": "Segons el manual d'hidràulica, com és la corba pressió/cabal d'una bomba volumètrica?",
+      "options": [
+        "Una corba descendent: a més cabal, menys pressió.",
+        "Gairebé una línia recta vertical, perquè el cabal és gairebé constant independentment de la pressió.",
+        "Una línia horitzontal, perquè la pressió és constant.",
+        "Idèntica a la d'una bomba centrífuga."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Pel seu disseny de desplaçament positiu, la volumètrica dona un cabal gairebé constant; la pressió puja fins al límit de la vàlvula de sobrepressió o del trencament d'algun component.",
+      "excerpt": "El seu disseny de desplaçament positiu fa que el cabal sigui gairebé constant independentment de la pressió. […] Per això, la corba pressió/cabal és gairebé una línia recta vertical.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § bombes centrífugues",
+      "stem": "Quina afirmació és CORRECTA sobre la constitució d'una bomba centrífuga segons el manual d'hidràulica?",
+      "options": [
+        "Consta d'una entrada axial, un rodet i un col·lector amb sortida tangencial, i entre el rodet i la carcassa no hi ha estanqueïtat.",
+        "Consta de pistons i vàlvules, amb estanqueïtat total entre les cambres.",
+        "El líquid entra per la perifèria del rodet i surt pel centre.",
+        "Té dos engranatges que giren en sentit contrari i comprimeixen el líquid."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El líquid entra pel centre del rodet i la força centrífuga l'impulsa cap a l'exterior; no hi ha estanqueïtat entre rodet i carcassa.",
+      "excerpt": "Consten d'una entrada axial, un rodet i un col·lector amb sortida tangencial. […] Entre el rodet i la carcassa exterior no hi ha estanqueïtat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § reacció del raig",
+      "stem": "Segons el manual d'hidràulica, de què depèn la força de reacció del raig per a una mateixa llança?",
+      "options": [
+        "Només de la longitud de la mànega.",
+        "Només del diàmetre de la mànega d'alimentació.",
+        "De la temperatura de l'aigua.",
+        "De la pressió, del cabal i de la forma del raig."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La velocitat de l'aigua a la sortida genera una força en sentit contrari; a més pressió, més velocitat i més reacció que ha de suportar el bomber.",
+      "excerpt": "Per una mateixa llança, la força de reacció depèn de la pressió, del cabal i de la forma del raig.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § pressió atmosfèrica",
+      "stem": "Segons el manual d'hidràulica, quant decreix aproximadament la pressió atmosfèrica per cada 100 metres d'ascens, fet rellevant en aspiració?",
+      "options": [
+        "Uns 1,29 m.c.a.",
+        "Uns 10 m.c.a.",
+        "Uns 0,129 m.c.a.",
+        "Uns 0,0316 bar."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La pressió atmosfèrica disminueix amb l'altitud (uns 0,129 m.c.a. per cada 100 m), cosa que limita la capacitat d'aspiració de les bombes.",
+      "excerpt": "Per cada 100 metres d’ascens, decreix aproximadament 0,129 m.c.a., fet molt rellevant en aspiració.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

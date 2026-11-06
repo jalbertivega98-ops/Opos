@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "iipp-c05-regimen-ingreso-comunicaciones-traslados-rp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penitenciario, tema 5. Régimen (1): ingreso, comunicaciones y visitas, participación, quejas y recursos, conducciones y traslados",
+    "topic_slug": "iipp-c05-regimen-ingreso-comunicaciones-traslados",
+    "locale": "es",
+    "category": "iipp_c05_regimen_ingreso_comunicaciones_traslados",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento Penitenciario (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-3307",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15.1 RP",
+      "stem": "Según el artículo 15 del Reglamento Penitenciario, el ingreso de una persona en prisión en calidad de detenido, preso o penado se efectuará, con carácter general, mediante:",
+      "options": [
+        "Orden del Director del establecimiento, previo informe del Jefe de Servicios.",
+        "Resolución del centro directivo, comunicada al Juez de Vigilancia.",
+        "Orden judicial de detención, mandamiento de prisión o sentencia firme de la autoridad judicial competente.",
+        "Atestado policial acompañado de la orden de detención del Ministerio Fiscal."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 15.1 RP exige orden judicial de detención, mandamiento de prisión o sentencia firme, salvo los supuestos de detención por la Policía Judicial o el Ministerio Fiscal (apartados 2 y 3).",
+      "excerpt": "El ingreso de una persona en prisión en calidad de detenido, preso o penado se efectuará mediante orden judicial de detención, mandamiento de prisión o sentencia firme de la autoridad judicial competente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.2 RP",
+      "stem": "Cuando la orden de detención proceda de la Policía Judicial y en ella no consten los extremos exigidos por el artículo 15.2 del Reglamento Penitenciario, ¿qué puede hacer la Dirección del centro?",
+      "options": [
+        "Admitir el ingreso y requerir los datos en el plazo de setenta y dos horas.",
+        "Admitir el ingreso y dar cuenta inmediata al Juez de Vigilancia.",
+        "Remitir al detenido al Juzgado de guardia sin más trámite.",
+        "Denegar motivadamente el ingreso."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 15.2 RP permite a la Dirección denegar motivadamente el ingreso si la orden no recoge los datos del detenido, el delito, que está a disposición judicial y la hora y día de vencimiento de la detención.",
+      "excerpt": "La Dirección del centro podrá denegar motivadamente el ingreso cuando en la orden de detención que se entregue no consten expresamente los citados extremos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.3 RP",
+      "stem": "En los ingresos voluntarios, ¿en qué plazo debe el Director recabar del Juez o Tribunal el correspondiente mandamiento, según el artículo 16 del Reglamento Penitenciario?",
+      "options": [
+        "Dentro de las setenta y dos horas siguientes al ingreso.",
+        "Dentro de las veinticuatro horas siguientes al ingreso.",
+        "Dentro de los cinco días siguientes al ingreso.",
+        "De forma inmediata, antes de admitir al interesado."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 16.3 RP fija 24 horas para recabar el mandamiento y, en su caso, el testimonio de sentencia y la liquidación de condena.",
+      "excerpt": "En los casos de ingresos voluntarios, el Director del centro recabará del Juez o Tribunal, dentro de las veinticuatro horas siguientes al ingreso, el correspondiente mandamiento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.4 RP",
+      "stem": "Una persona se presenta voluntariamente en un centro penitenciario y es admitida. Si no se recibe la documentación que legalice el ingreso, ¿cuándo se procederá a su excarcelación?",
+      "options": [
+        "Transcurridas setenta y dos horas desde el ingreso.",
+        "Transcurridas veinticuatro horas desde el ingreso.",
+        "Transcurridas cuarenta y ocho horas desde el ingreso.",
+        "Transcurridos cinco días desde el ingreso."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 16.4 RP ordena la excarcelación si en las 72 horas siguientes al ingreso no llega la documentación que lo legalice.",
+      "excerpt": "Si, transcurrido el plazo de las setenta y dos horas siguientes al ingreso, no se hubiese recibido en el centro la documentación que legalice el mismo, se procederá a la excarcelación del ingresado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 18.1 RP",
+      "stem": "Conforme al artículo 18 del Reglamento Penitenciario, admitido un recluso en el establecimiento, se verificará su identidad efectuando la reseña:",
+      "options": [
+        "Alfabética, genética y fotográfica.",
+        "Dactilar, biométrica y documental.",
+        "Alfabética, dactilar y fotográfica.",
+        "Fotográfica y documental, únicamente."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 18.1 RP enumera la reseña alfabética, dactilar y fotográfica, la inscripción en el libro de ingresos y la apertura del expediente personal.",
+      "excerpt": "se procederá a verificar su identidad personal, efectuando la reseña alfabética, dactilar y fotográfica, así como a la inscripción en el libro de ingresos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 19.1 RP",
+      "stem": "Si el mandamiento de ingreso dispone la incomunicación del preso, ¿con quién podrá comunicar este durante esa situación, según el artículo 19 del Reglamento Penitenciario?",
+      "options": [
+        "Únicamente con las personas que tengan expresa autorización del Juez.",
+        "Con su Abogado defensor y sus familiares directos.",
+        "Con las personas que autorice el Director del establecimiento.",
+        "Con cualquier persona, siempre que la comunicación sea intervenida."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 19.1 RP: el incomunicado ocupa celda individual, es atendido por funcionarios encargados y solo comunica con quien autorice expresamente el Juez.",
+      "excerpt": "Únicamente podrá comunicar con las personas que tengan expresa autorización del Juez.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 20.2 RP",
+      "stem": "Según el artículo 20 del Reglamento Penitenciario, ¿quién ordena el traslado del penado desde el departamento de ingresos al departamento que corresponda?",
+      "options": [
+        "La Junta de Tratamiento, previo informe del Equipo Técnico.",
+        "El Jefe de Servicios, a propuesta del Educador.",
+        "El Subdirector de Tratamiento.",
+        "El Director, previo informe médico."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 20.2 RP: tras la propuesta de inclusión en un grupo de separación interior formulada por los profesionales, el Director ordena el traslado al departamento, previo informe médico.",
+      "excerpt": "se formule propuesta de inclusión en uno de los grupos de separación interior y se ordene por el Director el traslado al departamento que corresponda, previo informe médico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 23.1 RP",
+      "stem": "Según el artículo 23 del Reglamento Penitenciario, si no se ha recibido orden o mandamiento de libertad o de prisión, los detenidos serán excarcelados por el Director al vencimiento del plazo máximo de detención o transcurridas:",
+      "options": [
+        "Las veinticuatro horas siguientes al momento del ingreso.",
+        "Las setenta y dos horas siguientes al momento del ingreso.",
+        "Las cuarenta y ocho horas siguientes a la detención policial.",
+        "Las noventa y seis horas siguientes al momento del ingreso."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 23.1 RP prevé la excarcelación al vencer el plazo máximo de detención o a las 72 horas del ingreso.",
+      "excerpt": "los detenidos serán excarcelados por el Director del establecimiento o quien reglamentariamente le sustituya, al vencimiento del plazo máximo de detención o transcurridas las setenta y dos horas siguientes al momento del ingreso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 31.1 RP",
+      "stem": "¿Qué órgano tiene competencia exclusiva para decidir la clasificación y destino de los reclusos en los distintos establecimientos penitenciarios, según el artículo 31 del Reglamento Penitenciario?",
+      "options": [
+        "El Juez de Vigilancia Penitenciaria.",
+        "El centro directivo.",
+        "La Junta de Tratamiento del establecimiento de origen.",
+        "El Consejo de Dirección."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 31.1 RP, en aplicación del art. 79 LOGP, atribuye al centro directivo esa competencia exclusiva, sin perjuicio de los recursos ante el Juez de Vigilancia en materia de clasificación.",
+      "excerpt": "el centro directivo tiene competencia exclusiva para decidir, con carácter ordinario o extraordinario, la clasificación y destino de los reclusos en los distintos establecimientos penitenciarios",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 31.3 RP",
+      "stem": "Según el artículo 31 del Reglamento Penitenciario, ¿a quién se notifican los traslados de los internos?",
+      "options": [
+        "En todo caso, al Juez de Vigilancia Penitenciaria del centro de destino.",
+        "En todo caso, al Tribunal sentenciador.",
+        "Si son penados, al Juez de Vigilancia; si son detenidos o presos, a la autoridad judicial de que dependan.",
+        "Solo al Ministerio Fiscal, que da traslado al Juez competente."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 31.3 RP distingue: penados, Juez de Vigilancia; detenidos y presos, autoridad judicial de la que dependan.",
+      "excerpt": "Los traslados se notificarán, si se trata de penados, al Juez de Vigilancia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 32 RP",
+      "stem": "De acuerdo con el artículo 32 del Reglamento Penitenciario, las órdenes de conducción de los reclusos se llevan a cabo por:",
+      "options": [
+        "Los funcionarios del Cuerpo de Ayudantes que designe el Director.",
+        "Empresas de seguridad privada contratadas por el centro directivo.",
+        "La Policía Judicial adscrita al Juzgado de Vigilancia.",
+        "Las Fuerzas y Cuerpos de Seguridad del Estado que tengan a su cargo este cometido."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 32 RP encomienda las conducciones a las Fuerzas y Cuerpos de Seguridad del Estado, sin perjuicio de las competencias de las policías autonómicas.",
+      "excerpt": "Las órdenes de conducción de los reclusos, dictadas por el centro directivo, se llevarán a cabo por las Fuerzas y Cuerpos de Seguridad del Estado que tengan a su cargo este cometido",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.3 RP",
+      "stem": "Según el artículo 36 del Reglamento Penitenciario, ¿cuándo puede disponerse el traslado de internos a cargo de funcionarios de instituciones penitenciarias?",
+      "options": [
+        "Excepcionalmente y solo en casos de urgencia o necesidad perentoria, con los funcionarios de servicio que designe el Director.",
+        "Siempre que lo solicite el interno y lo autorice el Juez de Vigilancia.",
+        "Cuando el traslado sea a un hospital situado en la misma provincia.",
+        "En ningún caso, pues las conducciones corresponden exclusivamente a la fuerza pública."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 36.3 RP lo admite de forma excepcional, por urgencia o necesidad perentoria, con funcionarios designados por el Director entre los que estén de servicio.",
+      "excerpt": "Excepcionalmente y sólo en casos de urgencia o necesidad perentoria, podrá disponerse el traslado de internos a cargo de los funcionarios de instituciones penitenciarias que el Director del establecimiento designe entre los que se hallen de servicio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 41.3 RP",
+      "stem": "Según el artículo 41 del Reglamento Penitenciario, todo interno tiene derecho a comunicar inmediatamente su ingreso en un centro penitenciario:",
+      "options": [
+        "Solo a su Abogado defensor.",
+        "A su familia, a través del Trabajador Social.",
+        "A la autoridad consular, en todo caso.",
+        "A su familia y Abogado."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 41.3 RP reconoce el derecho a comunicar de inmediato el ingreso y el traslado a la familia y al Abogado.",
+      "excerpt": "Todo interno tiene derecho a comunicar inmediatamente a su familia y abogado su ingreso en un centro penitenciario",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 42 RP",
+      "stem": "Conforme al artículo 42 del Reglamento Penitenciario, las comunicaciones orales de los internos:",
+      "options": [
+        "Serán como mínimo dos a la semana, de veinte minutos de duración mínima, sin que puedan comunicar más de cuatro personas a la vez con el mismo interno.",
+        "Serán como mínimo una a la semana, de treinta minutos, con un máximo de tres personas.",
+        "Serán como mínimo dos a la semana, de una hora, con un máximo de cuatro personas.",
+        "Las fija el Director, sin mínimo semanal, con un máximo de dos personas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 42 RP: el Consejo de Dirección fija los días (preferentemente en fin de semana), mínimo dos a la semana, 20 minutos como mínimo y no más de cuatro comunicantes.",
+      "excerpt": "como mínimo, dos comunicaciones a la semana […] una comunicación de veinte minutos de duración como mínimo, no pudiendo comunicar más de cuatro personas simultáneamente con el mismo interno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 43.1 RP",
+      "stem": "Cuando las comunicaciones orales de un penado deban ser intervenidas por razones de tratamiento, el artículo 43 del Reglamento Penitenciario exige:",
+      "options": [
+        "Autorización previa del Juez de Vigilancia a propuesta de la Junta de Tratamiento.",
+        "Resolución motivada del Director, con informe previo de la Junta de Tratamiento, notificada al interno y dando cuenta al Juez de Vigilancia.",
+        "Acuerdo del Consejo de Dirección comunicado al centro directivo.",
+        "Orden del Jefe de Servicios ratificada por el Director en veinticuatro horas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 43.1 RP: el Director lo acuerda en resolución motivada (con informe previo de la Junta si se funda en el tratamiento), la notifica y da cuenta al Juez de Vigilancia (penados) o a la autoridad judicial (presos).",
+      "excerpt": "el Director del establecimiento, con informe previo de la Junta de Tratamiento si la restricción, intervención o denegación se fundamenta en el tratamiento, lo acordará así en resolución motivada, que se notificará al interno, dando cuenta al Juez de Vigilancia en el caso de penados",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 44.1 RP",
+      "stem": "¿Quién puede ordenar la suspensión de una comunicación oral cuando los comunicantes no observen un comportamiento correcto, según el artículo 44 del Reglamento Penitenciario?",
+      "options": [
+        "Exclusivamente el Director del establecimiento.",
+        "El funcionario encargado del servicio de comunicaciones, sin dar cuenta a nadie.",
+        "El Jefe de Servicios, por propia iniciativa o a propuesta del funcionario encargado del servicio.",
+        "El Juez de Vigilancia Penitenciaria."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 44.1 RP atribuye la suspensión al Jefe de Servicios, que da cuenta inmediata al Director para que la ratifique o no.",
+      "excerpt": "El Jefe de Servicios podrá ordenar la suspensión de las comunicaciones orales, por propia iniciativa o a propuesta del funcionario encargado del servicio",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 45.4 RP",
+      "stem": "Según el artículo 45 del Reglamento Penitenciario, previa solicitud del interno, se concederá una comunicación íntima:",
+      "options": [
+        "A la semana como mínimo, con una duración de dos horas.",
+        "Cada quince días, con una duración no superior a dos horas.",
+        "Al mes como mínimo, con una duración no superior a tres horas ni inferior a una.",
+        "Al trimestre como mínimo, con una duración de entre una y tres horas."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 45.4 RP fija al menos una comunicación íntima al mes, de entre una y tres horas, salvo razones de orden o seguridad.",
+      "excerpt": "se concederá una comunicación íntima al mes como mínimo, cuya duración no será superior a tres horas ni inferior a una",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 47.2 y 47.3 RP",
+      "stem": "El interno que desee comunicar telefónicamente con otra persona, en los supuestos del artículo 47 del Reglamento Penitenciario, lo solicitará:",
+      "options": [
+        "Al Director del establecimiento.",
+        "Al Jefe de Servicios.",
+        "Al Juez de Vigilancia Penitenciaria.",
+        "Al Trabajador Social."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 47 RP: la solicitud se dirige al Director, que comprueba los requisitos, autoriza en su caso y señala la hora.",
+      "excerpt": "lo solicitará al Director del establecimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 49.2 RP",
+      "stem": "Señale la respuesta INCORRECTA. Según el artículo 49 del Reglamento Penitenciario, NO podrán ser suspendidas, intervenidas ni restringidas las comunicaciones orales y escritas de los internos con:",
+      "options": [
+        "El Defensor del Pueblo o sus Adjuntos o delegados.",
+        "Las Autoridades judiciales.",
+        "Los miembros del Ministerio Fiscal.",
+        "Sus familiares de primer grado."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El art. 49.2 RP protege las comunicaciones con el Defensor del Pueblo (y análogas autonómicas), Autoridades judiciales y Ministerio Fiscal; las de los familiares pueden intervenirse con los requisitos del art. 43.",
+      "excerpt": "Las comunicaciones orales y escritas de los internos con el Defensor del Pueblo o sus Adjuntos o delegados o con instituciones análogas de las Comunidades Autónomas, Autoridades judiciales y miembros del Ministerio Fiscal no podrán ser suspendidas, ni ser objeto de intervención",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.1 RP",
+      "stem": "Conforme al artículo 50 del Reglamento Penitenciario, ¿qué órgano acuerda los días y horas de recepción y recogida de paquetes?",
+      "options": [
+        "El Director.",
+        "El Consejo de Dirección.",
+        "El Jefe de Servicios.",
+        "El Administrador."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 50.1 RP atribuye al Consejo de Dirección fijar días y horas de entrada y salida de paquetes.",
+      "excerpt": "El Consejo de Dirección acordará los días y horas de recepción y recogida de paquetes, tanto de entrada como de salida.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

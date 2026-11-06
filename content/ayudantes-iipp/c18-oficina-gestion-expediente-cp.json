@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "iipp-c18-oficina-gestion-expediente-cp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penitenciario, tema 18. Régimen administrativo (1): oficina de gestión, expediente personal y liquidación de condena",
+    "topic_slug": "iipp-c18-oficina-gestion-expediente",
+    "locale": "es",
+    "category": "iipp_c18_oficina_gestion_expediente",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 58.1 CP",
+      "stem": "A efectos de la liquidación de condena, el tiempo de privación de libertad sufrido provisionalmente, según el artículo 58 del Código Penal:",
+      "options": [
+        "Se abona en la mitad.",
+        "Solo se abona si la condena es superior a dos años.",
+        "No se abona.",
+        "Se abona en su totalidad para el cumplimiento de la pena impuesta en la causa en que se acordó."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 58.1 CP ordena el abono total, salvo que coincida con otra privación ya abonada.",
+      "excerpt": "El tiempo de privación de libertad sufrido provisionalmente será abonado en su totalidad por el Juez o Tribunal sentenciador para el cumplimiento de la pena o penas impuestas en la causa en que dicha privación fue acordada",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58.2 CP",
+      "stem": "El abono de prisión provisional en causa distinta de aquella en que se decretó lo acuerda, según el artículo 58 del Código Penal:",
+      "options": [
+        "El Tribunal sentenciador de la nueva causa.",
+        "El Juez de Vigilancia Penitenciaria, previa audiencia del Ministerio Fiscal.",
+        "El Director del centro en la liquidación de condena.",
+        "El Centro Directivo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 58.2 CP atribuye esa competencia al JVP.",
+      "excerpt": "por el Juez de Vigilancia Penitenciaria de la jurisdicción de la que dependa el centro penitenciario en que se encuentre el penado, previa audiencia del ministerio fiscal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58.3 CP",
+      "stem": "Según el artículo 58 del Código Penal, el abono de prisión provisional sufrida en otra causa solo procede cuando:",
+      "options": [
+        "La otra causa haya terminado en sentencia condenatoria.",
+        "Ambas causas se refieran al mismo tipo de delito.",
+        "Dicha medida cautelar sea posterior a los hechos delictivos que motivaron la pena a la que se pretende abonar.",
+        "Lo solicite el Ministerio Fiscal."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 58.3 CP exige que la cautelar sea posterior a los hechos de la pena a la que se abona.",
+      "excerpt": "Sólo procederá el abono de prisión provisional sufrida en otra causa cuando dicha medida cautelar sea posterior a los hechos delictivos que motivaron la pena a la que se pretende abonar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 59 CP",
+      "stem": "Cuando las medidas cautelares sufridas y la pena impuesta son de distinta naturaleza, el artículo 59 del Código Penal dispone que:",
+      "options": [
+        "El Juez o Tribunal ordenará que se tenga por ejecutada la pena en la parte que estime compensada.",
+        "No procede abono alguno.",
+        "Se abona un día de pena por cada dos días de medida cautelar.",
+        "Decide el Juez de Vigilancia según la conducta del penado."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 59 CP permite la compensación en la parte que el juez estime.",
+      "excerpt": "Cuando las medidas cautelares sufridas y la pena impuesta sean de distinta naturaleza, el Juez o Tribunal ordenará que se tenga por ejecutada la pena impuesta en aquella parte que estime compensada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-lecrim-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 520",
+      "stem": "(Rèplica 2025, núm. 33) Segons l'article 520 de la LECrim, quin d'aquests NO és un dret de la persona detinguda?",
+      "options": [
+        "Guardar silenci",
+        "Ser reconeguda pel metge forense",
+        "Ser assistida per un advocat triat per l'agent que la deté",
+        "Que es comuniqui la detenció al familiar o persona que desitgi"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El detingut designa lliurement advocat i cap agent li pot fer recomanacions; la resta són drets de l'article 520.",
+      "excerpt": "Ninguna autoridad o agente le efectuará recomendación alguna sobre el abogado a designar más allá de informarle de su derecho.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

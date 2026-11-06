@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-lbrl-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 16",
+      "stem": "(Rèplica 2022, núm. 5) Què és el padró municipal segons l'article 16 de la LBRL?",
+      "options": [
+        "El registre administratiu on consten els veïns d'un municipi",
+        "El cens electoral de cada districte",
+        "El registre de béns i drets del municipi",
+        "La relació de llocs de treball de l'ajuntament"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'article 16.1 LBRL defineix el padró com el registre administratiu on consten els veïns; les seves dades proven la residència i el domicili habitual.",
+      "excerpt": "El Padrón municipal es el registro administrativo donde constan los vecinos de un municipio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11",
+      "stem": "(Rèplica 2022, núm. 6) Quins són els elements del municipi segons l'article 11.2 de la LBRL?",
+      "options": [
+        "El territori, el pressupost i el Ple",
+        "El territori, la població i l'organització",
+        "La població, l'alcalde i els regidors",
+        "El terme municipal, el padró i la hisenda"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 11.2 LBRL enumera tres elements: territori, població i organització.",
+      "excerpt": "Son elementos del Municipio el territorio, la población y la organización.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

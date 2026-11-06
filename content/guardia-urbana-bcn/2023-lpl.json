@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-lpl-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 16/1991, de 10 de julio, de las Policías Locales (Cataluña) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-20343",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 5",
+      "stem": "(Rèplica 2023, núm. 21) Segons l'article 5 de la Llei 16/1991, quin és l'àmbit d'actuació de les policies locals?",
+      "options": [
+        "El territori del municipi corresponent",
+        "La comarca",
+        "La regió policial",
+        "Tot Catalunya"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Les policies locals actuen al seu municipi; fora, només en emergències i amb autorització.",
+      "excerpt": "El ámbito de actuación de las Policías locales viene constituido por el territorio del correspondiente Municipio.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24",
+      "stem": "(Rèplica 2023, núm. 24) Segons l'article 24 de la Llei 16/1991, a quina escala pertany la categoria de sotsinspector?",
+      "options": [
+        "Escala bàsica",
+        "Escala executiva",
+        "Escala superior",
+        "Escala intermèdia"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'escala intermèdia comprèn les categories de sotsinspector i sergent.",
+      "excerpt": "c) Escala intermedia, que comprende las categorías de Subinspector y de Sargento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

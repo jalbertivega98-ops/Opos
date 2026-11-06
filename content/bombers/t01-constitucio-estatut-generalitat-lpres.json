@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "bomb-t01-constitucio-estatut-generalitat-lpres-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 1. La Constitució, l'Estatut d'autonomia i l'organització de la Generalitat",
+    "topic_slug": "bomb-t01-constitucio-estatut-generalitat",
+    "locale": "ca",
+    "category": "bomb_t01_constitucio_estatut_generalitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 13/2008, de 5 de noviembre, de la presidencia de la Generalidad y del Gobierno (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-19526",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 23 Llei 13/2008",
+      "stem": "Segons la Llei 13/2008, de la presidència de la Generalitat i del Govern, qui determina el nombre, la denominació i l'àmbit de competències dels departaments?",
+      "options": [
+        "El Govern, per acord.",
+        "El president o presidenta de la Generalitat, per decret.",
+        "El Parlament, per llei.",
+        "Cada conseller o consellera, per ordre."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 23.2 de la Llei 13/2008 ho atribueix al president per decret; la Presidència constitueix en tot cas un departament.",
+      "excerpt": "El presidente o presidenta de la Generalidad determina por decreto el número, la denominación y el ámbito de competencias de los departamentos en que se organiza el Gobierno.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 28 Llei 13/2008",
+      "stem": "Quin quòrum exigeix la Llei 13/2008 perquè les deliberacions i decisions del Govern siguin vàlides?",
+      "options": [
+        "La presència de dues terceres parts dels consellers.",
+        "La presència del president o presidenta (o de qui el supleixi) i almenys la meitat dels consellers.",
+        "La presència de la majoria absoluta dels consellers, sense necessitat del president.",
+        "La presència del secretari o secretària del Govern i de qualsevol nombre de consellers."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les decisions s'adopten per majoria simple i, en cas d'empat, el vot del president és diriment (arts. 28.2 i 29.1).",
+      "excerpt": "es preciso que estén presentes el presidente o presidenta de la Generalidad, o quien lo supla, y por lo menos la mitad de los consejeros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40 Llei 13/2008",
+      "stem": "Quina forma adopten les disposicions reglamentàries dictades pels consellers segons la Llei 13/2008?",
+      "options": [
+        "Forma d'ordre.",
+        "Forma de decret.",
+        "Forma de resolució.",
+        "Forma d'instrucció."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Les del Govern o del president adopten forma de decret, i els reglaments aprovats per decret tenen més rang que els aprovats per ordre (arts. 40.1 i 41).",
+      "excerpt": "Las disposiciones reglamentarias dictadas por los consejeros adoptan forma de orden.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

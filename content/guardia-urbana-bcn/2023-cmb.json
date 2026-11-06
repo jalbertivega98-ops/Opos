@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-cmb-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 22/1998, de 30 de diciembre, de la Carta Municipal de Barcelona (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-2518",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 131",
+      "stem": "(Rèplica 2023, núm. 7) Segons la Carta municipal de Barcelona, qui presideix la Junta Local de Seguretat de Barcelona?",
+      "options": [
+        "El conseller d'Interior",
+        "El delegat del Govern de l'Estat",
+        "El cap de la Guàrdia Urbana",
+        "L'alcalde o alcaldessa"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'alcalde, com a president de la Junta Local de Seguretat, té la capacitat executiva per garantir el compliment dels acords.",
+      "excerpt": "El Alcalde o Alcaldesa, en calidad de Presidente de la Junta Local de Seguridad, tiene la capacidad ejecutiva necesaria",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 133",
+      "stem": "(Rèplica 2023, núm. 9) Segons l'article 133 de la Carta municipal de Barcelona, com actua la Guàrdia Urbana?",
+      "options": [
+        "Només com a policia administrativa",
+        "Com a policia d'autoritat, policia de seguretat i assistencial i policia judicial",
+        "Només com a policia de trànsit",
+        "Com a policia judicial exclusiva"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La GUB actua com a policia d'autoritat, de seguretat i assistencial i judicial.",
+      "excerpt": "La Guardia Urbana de Barcelona actúa como policía de autoridad, policía de seguridad y asistencial y policía judicial",
+      "excerpt_status": "completo"
+    }
+  ]
+}

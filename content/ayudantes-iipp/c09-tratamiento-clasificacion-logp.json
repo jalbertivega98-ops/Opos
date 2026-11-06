@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "iipp-c09-tratamiento-clasificacion-logp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Derecho Penitenciario, tema 9. Tratamiento (1): separación interior, clasificación en grados y Central Penitenciaria de Observación",
+    "topic_slug": "iipp-c09-tratamiento-clasificacion",
+    "locale": "es",
+    "category": "iipp_c09_tratamiento_clasificacion",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. dieciséis LOGP",
+      "stem": "Señale la respuesta INCORRECTA sobre los criterios de separación interior del artículo 16 de la Ley Orgánica General Penitenciaria:",
+      "options": [
+        "Los internos preventivos estarán separados de los extranjeros.",
+        "Los detenidos y presos estarán separados de los condenados.",
+        "Los jóvenes estarán separados de los adultos en las condiciones que se determinen reglamentariamente.",
+        "Los detenidos y presos por delitos dolosos estarán separados de los que estén por delitos de imprudencia."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 16 LOGP no recoge la nacionalidad como criterio de separación.",
+      "excerpt": "b) Los detenidos y presos estarán separados de los condenados y, en ambos casos, los primarios de los reincidentes. c) Los jóvenes, sean detenidos, presos o penados, estarán separados de los adultos en las condiciones que se determinen reglamentariamente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. dieciséis LOGP",
+      "stem": "Según el artículo 16 de la Ley Orgánica General Penitenciaria, los hombres y las mujeres:",
+      "options": [
+        "Deberán estar separados en todo caso y sin excepción.",
+        "Podrán compartir departamento si lo autoriza el Director.",
+        "Solo se separan si alguno de ellos es preventivo.",
+        "Deberán estar separados, salvo en los supuestos excepcionales que reglamentariamente se determinen."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 16.a) LOGP admite excepciones reglamentarias (departamentos mixtos, arts. 168-172 RP).",
+      "excerpt": "a) Los hombres y las mujeres deberán estar separados, salvo en los supuestos excepcionales que reglamentariamente se determinen.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

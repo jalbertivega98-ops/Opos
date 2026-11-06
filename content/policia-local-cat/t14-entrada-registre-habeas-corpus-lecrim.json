@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "set": "plcat-t14-entrada-registre-habeas-corpus-lecrim-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Tema 14. Entrada i registre en lloc tancat i procediment d'habeas corpus",
+    "topic_slug": "plcat-t14-entrada-registre-habeas-corpus",
+    "locale": "ca",
+    "category": "plcat_t14_entrada_registre_habeas_corpus",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil dels exàmens d'agent de policia local de Catalunya (4 opcions, una correcta; cada error resta 1/4). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 545 LECrim",
+      "stem": "Segons l'article 545 de la LECrim, ningú no pot entrar al domicili d'un espanyol o estranger resident a Espanya sense el seu consentiment:",
+      "options": [
+        "Excepte en els casos i en la forma previstos expressament a les lleis.",
+        "Excepte si és un agent de l'autoritat de servei.",
+        "Excepte entre les 8 i les 20 hores.",
+        "En cap cas, ni tan sols amb autorització judicial."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'article 545 LECrim protegeix el domicili i remet als casos i a la forma previstos expressament a les lleis.",
+      "excerpt": "Nadie podrá entrar en el domicilio de un español o extranjero residente en España sin su consentimiento, excepto en los casos y en la forma expresamente previstos en las leyes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 550 LECrim",
+      "stem": "Segons l'article 550 de la LECrim, a falta de consentiment de l'interessat, l'entrada i registre en un domicili ordenada pel jutge s'ha de fer en virtut de:",
+      "options": [
+        "Provisió sense motivació, notificada en el termini de tres dies.",
+        "Interlocutòria motivada, que s'ha de notificar a l'interessat immediatament o, com a molt tard, dins de les vint-i-quatre hores d'haver-se dictat.",
+        "Ordre verbal del jutge, confirmada per escrit en 72 hores.",
+        "Decret del lletrat de l'Administració de justícia."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 550 LECrim exigeix, sense consentiment, interlocutòria motivada notificada immediatament o dins de les vint-i-quatre hores.",
+      "excerpt": "o a falta de consentimiento, en virtud de auto motivado, que se notificará a la persona interesada inmediatamente, o lo más tarde dentro de las veinticuatro horas de haberse dictado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 553 LECrim",
+      "stem": "Segons l'article 553 de la LECrim, els agents de policia poden procedir per pròpia autoritat a la detenció immediata d'una persona en un domicili, i al registre que se'n derivi, quan:",
+      "options": [
+        "La persona té antecedents i els agents sospiten que hi és.",
+        "El propietari no obre la porta quan se li requereix la identificació.",
+        "Hi ha una denúncia per sorolls.",
+        "Un delinqüent, perseguit immediatament pels agents, s'hi amaga o s'hi refugia."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 553 LECrim permet la detenció i el registre sense autorització judicial quan hi ha manament de presó, flagrant delicte, persecució immediata d'un delinqüent que s'hi refugia o, en casos d'excepcional o urgent necessitat, terrorisme (art. 384 bis).",
+      "excerpt": "cuando un delincuente, inmediatamente perseguido por los Agentes de la autoridad, se oculte o refugie en alguna casa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 553 LECrim",
+      "stem": "Després d'un registre fet per pròpia autoritat dels agents en els supòsits de l'article 553 de la LECrim, cal:",
+      "options": [
+        "Comunicar-ho a l'alcalde en un termini de 72 hores.",
+        "Obtenir la ratificació del propietari del domicili.",
+        "Donar-ne compte immediat al jutge competent, amb indicació de les causes, dels resultats i especialment de les detencions practicades.",
+        "No cal cap comunicació, perquè el registre ja era legal."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'article 553 LECrim obliga a donar compte immediat al jutge competent del registre, amb les causes, els resultats i les detencions.",
+      "excerpt": "Del registro efectuado, conforme a lo establecido en el párrafo anterior, se dará cuenta inmediata al Juez competente, con indicación de las causas que lo motivaron y de los resultados obtenidos en el mismo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 554 LECrim",
+      "stem": "Quin d'aquests llocs es considera domicili a l'efecte de l'entrada i registre segons l'article 554 de la LECrim?",
+      "options": [
+        "Un bar obert al públic.",
+        "Els vaixells mercants nacionals.",
+        "Un vehicle aparcat a la via pública.",
+        "El vestíbul comú d'un edifici d'oficines."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'article 554 LECrim considera domicili els palaus reials, l'edifici o lloc tancat destinat principalment a habitatge, els vaixells mercants nacionals i, per a persones jurídiques investigades, el centre de direcció i els llocs on es custodien documents reservats.",
+      "excerpt": "3.º Los buques nacionales mercantes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 554 LECrim",
+      "stem": "Segons l'article 554.2n de la LECrim, es reputa domicili:",
+      "options": [
+        "L'edifici o lloc tancat, o la part destinada principalment a l'habitatge de qualsevol espanyol o estranger resident a Espanya i de la seva família.",
+        "Qualsevol local comercial, encara que estigui obert al públic.",
+        "Només l'habitatge que figura com a domicili al padró.",
+        "Només l'habitatge de propietat de qui hi viu."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 554.2n LECrim defineix el domicili per la destinació principal a habitatge del lloc tancat, sigui quin sigui el títol d'ocupació.",
+      "excerpt": "2.º El edificio o lugar cerrado, o la parte de él destinada principalmente a la habitación de cualquier español o extranjero residente en España y de su familia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 554.4 LECrim",
+      "stem": "Segons l'article 554.4t de la LECrim, quan es tracta de persones jurídiques investigades, es reputa domicili:",
+      "options": [
+        "Tots els locals de l'empresa, inclosos els oberts al públic.",
+        "Només el domicili social inscrit al Registre Mercantil.",
+        "L'espai físic que constitueix el centre de direcció, sigui el domicili social o un establiment dependent, o els llocs on es custodien documents reservats al coneixement de tercers.",
+        "Cap lloc: les persones jurídiques no tenen domicili protegit."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'article 554.4t LECrim protegeix el centre de direcció de la persona jurídica i els llocs on es custodien documents o suports de la seva vida diària reservats a tercers.",
+      "excerpt": "el espacio físico que constituya el centro de dirección de las mismas, ya se trate de su domicilio social o de un establecimiento dependiente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 558 LECrim",
+      "stem": "Segons l'article 558 de la LECrim, la interlocutòria d'entrada i registre al domicili d'un particular ha d'expressar concretament:",
+      "options": [
+        "Només el nom del titular del domicili.",
+        "El nombre d'agents que hi han d'intervenir i la seva identificació.",
+        "Els objectes que necessàriament s'han de trobar.",
+        "L'edifici o lloc tancat, si només s'ha de fer de dia i l'autoritat o funcionari que l'ha de practicar."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 558 LECrim exigeix una interlocutòria sempre fonamentada que concreti el lloc, si s'ha de fer només de dia i qui l'ha de practicar.",
+      "excerpt": "El auto de entrada y registro en el domicilio de un particular será siempre fundado, y el Juez expresará en él concretamente el edificio o lugar cerrado en que haya de verificarse, si tendrá lugar tan sólo de día y la Autoridad o funcionario que los haya de practicar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 566 LECrim",
+      "stem": "Segons l'article 566 de la LECrim, si no es troba ningú al domicili per notificar la interlocutòria d'entrada i registre:",
+      "options": [
+        "Es fa constar per diligència, estesa amb l'assistència de dos veïns, que l'han de signar.",
+        "Es suspèn el registre fins que torni el titular.",
+        "Es notifica per edictes al butlletí oficial.",
+        "Es notifica al president de la comunitat de propietaris."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'article 566 LECrim ordena notificar al titular, al seu encarregat o a qualsevol persona major d'edat del domicili; si no hi ha ningú, es fa constar per diligència amb l'assistència de dos veïns.",
+      "excerpt": "Si no se halla a nadie, se hará constar por diligencia, que se extenderá con asistencia de dos vecinos, los cuales deberán firmarla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 569 LECrim",
+      "stem": "Segons l'article 569 de la LECrim, el registre domiciliari s'ha de practicar sempre en presència de:",
+      "options": [
+        "El jutge instructor, personalment.",
+        "El lletrat de l'Administració de justícia (secretari judicial) del jutjat o tribunal que l'ha autoritzat, o del que el substitueixi.",
+        "El fiscal de guàrdia.",
+        "Un notari."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 569 LECrim exigeix la presència del secretari judicial (avui, lletrat de l'Administració de justícia), que n'aixeca acta; a més, s'ha de fer en presència de l'interessat, d'un familiar major d'edat o de dos testimonis veïns.",
+      "excerpt": "El registro se practicará siempre en presencia del Secretario del Juzgado o Tribunal que lo hubiera autorizado, o del Secretario del servicio de guardia que le sustituya",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 569 LECrim",
+      "stem": "Segons l'article 569 de la LECrim, si l'interessat no és trobat o no vol assistir al registre ni nomenar representant, el registre es fa en presència de:",
+      "options": [
+        "Un agent d'un altre cos policial.",
+        "L'alcalde del municipi.",
+        "El president de l'associació de veïns.",
+        "Un familiar seu major d'edat i, si no n'hi ha, de dos testimonis veïns del mateix poble."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 569 LECrim estableix l'ordre de presència: interessat o representant, familiar major d'edat i, si no n'hi ha, dos testimonis veïns.",
+      "excerpt": "Si aquél no fuere habido o no quisiese concurrir ni nombrar representante, se practicará a presencia de un individuo de su familia mayor de edad.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

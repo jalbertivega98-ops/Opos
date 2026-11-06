@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "set": "iipp-a17-presupuesto-estabilidad-ce-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Primera parte, tema 17. El presupuesto del Estado y la estabilidad presupuestaria",
+    "topic_slug": "iipp-a17-presupuesto-estabilidad",
+    "locale": "es",
+    "category": "iipp_a17_presupuesto_estabilidad",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 134.1 CE",
+      "stem": "Según el artículo 134 de la Constitución, la elaboración de los Presupuestos Generales del Estado corresponde:",
+      "options": [
+        "A las Cortes Generales, y su aprobación al Gobierno.",
+        "Al Ministerio de Hacienda exclusivamente.",
+        "Al Tribunal de Cuentas.",
+        "Al Gobierno, y su examen, enmienda y aprobación a las Cortes Generales."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El art. 134.1 CE distribuye así las funciones.",
+      "excerpt": "Corresponde al Gobierno la elaboración de los Presupuestos Generales del Estado y a las Cortes Generales, su examen, enmienda y aprobación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 134.2 CE",
+      "stem": "Según el artículo 134 de la Constitución, los Presupuestos Generales del Estado tienen carácter:",
+      "options": [
+        "Anual.",
+        "Bienal.",
+        "Plurianual de cuatro años.",
+        "Indefinido."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 134.2 CE consagra el principio de anualidad.",
+      "excerpt": "Los Presupuestos Generales del Estado tendrán carácter anual",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 134.3 CE",
+      "stem": "Según el artículo 134 de la Constitución, el Gobierno debe presentar los Presupuestos ante el Congreso al menos:",
+      "options": [
+        "Seis meses antes de la expiración de los del año anterior.",
+        "Tres meses antes de la expiración de los del año anterior.",
+        "Un mes antes del inicio del ejercicio.",
+        "Antes del 31 de diciembre."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 134.3 CE fija tres meses.",
+      "excerpt": "al menos tres meses antes de la expiración de los del año anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 134.4 CE",
+      "stem": "Según el artículo 134 de la Constitución, si la Ley de Presupuestos no se aprueba antes del primer día del ejercicio:",
+      "options": [
+        "No puede realizarse ningún gasto.",
+        "El Gobierno aprueba los presupuestos por decreto-ley.",
+        "Se consideran automáticamente prorrogados los Presupuestos del ejercicio anterior.",
+        "Se convocan elecciones generales."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 134.4 CE prevé la prórroga automática.",
+      "excerpt": "se considerarán automáticamente prorrogados los Presupuestos del ejercicio anterior hasta la aprobación de los nuevos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 134.2 CE",
+      "stem": "Según el artículo 134 de la Constitución, los Presupuestos Generales del Estado incluirán:",
+      "options": [
+        "Solo los gastos de personal.",
+        "Solo los ingresos tributarios.",
+        "Los gastos de las Comunidades Autónomas.",
+        "La totalidad de los gastos e ingresos del sector público estatal y el importe de los beneficios fiscales."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El art. 134.2 CE recoge el principio de universalidad.",
+      "excerpt": "incluirán la totalidad de los gastos e ingresos del sector público estatal y en ellos se consignará el importe de los beneficios fiscales que afecten a los tributos del Estado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 135.1 CE",
+      "stem": "Según el artículo 135 de la Constitución, todas las Administraciones Públicas adecuarán sus actuaciones al principio de:",
+      "options": [
+        "Gasto expansivo.",
+        "Estabilidad presupuestaria.",
+        "Endeudamiento ilimitado.",
+        "Autonomía financiera plena."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 135.1 CE consagra el principio de estabilidad presupuestaria.",
+      "excerpt": "Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 135.2 CE",
+      "stem": "Según el artículo 135 de la Constitución, las Entidades Locales deberán presentar:",
+      "options": [
+        "Un déficit estructural máximo del 3 %.",
+        "Superávit obligatorio del 1 %.",
+        "Equilibrio presupuestario.",
+        "Presupuestos bienales."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 135.2 CE exige equilibrio presupuestario a las Entidades Locales.",
+      "excerpt": "Las Entidades Locales deberán presentar equilibrio presupuestario.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 135.3 CE",
+      "stem": "Según el artículo 135 de la Constitución, para emitir deuda pública o contraer crédito, el Estado y las Comunidades Autónomas:",
+      "options": [
+        "Han de estar autorizados por ley.",
+        "Necesitan autorización del Banco de España.",
+        "Solo necesitan acuerdo del Consejo de Ministros.",
+        "No necesitan autorización."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 135.3 CE exige autorización por ley.",
+      "excerpt": "El Estado y las Comunidades Autónomas habrán de estar autorizados por ley para emitir deuda pública o contraer crédito.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

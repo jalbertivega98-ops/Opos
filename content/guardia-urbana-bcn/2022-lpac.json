@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-lpac-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 100",
+      "stem": "(Rèplica 2022, núm. 18) Quin principi s'ha de respectar sempre en l'execució forçosa dels actes administratius segons l'article 100 de la Llei 39/2015?",
+      "options": [
+        "El de proporcionalitat",
+        "El de silenci positiu",
+        "El de gratuïtat",
+        "El d'immediatesa judicial"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'article 100.1 LPAC exigeix respectar sempre el principi de proporcionalitat i, si hi ha diversos mitjans, triar el menys restrictiu de la llibertat individual.",
+      "excerpt": "La ejecución forzosa por las Administraciones Públicas se efectuará, respetando siempre el principio de proporcionalidad",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 11.2",
+      "stem": "(Rèplica 2022, núm. 19) Segons l'article 11.2 de la Llei 39/2015, en quin d'aquests casos l'Administració pot exigir l'ús obligatori de signatura?",
+      "options": [
+        "Per consultar l'estat d'un expedient",
+        "Per accedir a la seu electrònica",
+        "Per rebre informació general",
+        "Per interposar recursos"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 11.2 LPAC limita la signatura obligatòria a formular sol·licituds, presentar declaracions responsables o comunicacions, interposar recursos, desistir d'accions i renunciar a drets.",
+      "excerpt": "Interponer recursos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 24.1",
+      "stem": "(Rèplica 2022, núm. 52) En els procediments iniciats a sol·licitud de l'interessat, quin efecte té, amb caràcter general, el venciment del termini màxim sense resolució expressa notificada?",
+      "options": [
+        "La sol·licitud s'entén sempre desestimada",
+        "El procediment caduca automàticament",
+        "Legitima l'interessat per entendre-la estimada per silenci administratiu",
+        "Cal reiniciar el procediment"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 24.1 LPAC estableix com a regla general el silenci estimatori, amb les excepcions previstes per llei.",
+      "excerpt": "legitima al interesado o interesados para entenderla estimada por silencio administrativo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

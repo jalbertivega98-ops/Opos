@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "iipp-a06-ministerio-interior-sgip-tpfe-etpfe-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Primera parte, tema 6. Estructura del Ministerio del Interior, la Secretaría General de Instituciones Penitenciarias y la Entidad Estatal TPFE",
+    "topic_slug": "iipp-a06-ministerio-interior-sgip-tpfe",
+    "locale": "es",
+    "category": "iipp_a06_ministerio_interior_sgip_tpfe",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 122/2015, de 27 de febrero, por el que se aprueba el estatuto de la Entidad de Derecho Público Trabajo Penitenciario y Formación para el Empleo (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-2115",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. 1.1 Estatuto TPFE",
+      "stem": "Según el artículo 1 de su Estatuto, Trabajo Penitenciario y Formación para el Empleo es:",
+      "options": [
+        "Una entidad estatal de derecho público con personalidad jurídica pública diferenciada.",
+        "Una sociedad mercantil estatal.",
+        "Una dirección general del Ministerio del Interior.",
+        "Una fundación del sector público."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 1.1 del Estatuto la configura como entidad estatal de derecho público del art. 2.1.g) LGP.",
+      "excerpt": "es una entidad estatal de derecho público de las previstas en la letra g) del apartado 1 del artículo 2 de la Ley 47/2003",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 2 Estatuto TPFE",
+      "stem": "Según el artículo 2 de su Estatuto, la entidad Trabajo Penitenciario y Formación para el Empleo tiene por objeto:",
+      "options": [
+        "La gestión de la asistencia sanitaria de los internos.",
+        "La custodia y conducción de los internos.",
+        "La promoción, organización y control del trabajo productivo y la formación para el empleo de los reclusos.",
+        "La construcción de nuevos centros penitenciarios."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 2 del Estatuto TPFE fija su objeto.",
+      "excerpt": "tiene por objeto la promoción, organización y control del trabajo productivo y la formación para el empleo de los reclusos de los centros penitenciarios",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 7.1 Estatuto TPFE",
+      "stem": "Según el artículo 7 de su Estatuto, el Consejo de Administración de Trabajo Penitenciario y Formación para el Empleo no puede exceder de:",
+      "options": [
+        "Diez miembros.",
+        "Doce miembros.",
+        "Quince miembros.",
+        "Veinte miembros."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 7.1 del Estatuto TPFE fija ese máximo.",
+      "excerpt": "El Consejo de Administración, que no podrá exceder de doce miembros",
+      "excerpt_status": "completo"
+    }
+  ]
+}

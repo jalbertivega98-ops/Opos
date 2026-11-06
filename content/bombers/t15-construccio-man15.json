@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t15-construccio-man15-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 15. Construcció",
+    "topic_slug": "bomb-t15-construccio",
+    "locale": "ca",
+    "category": "bomb_t15_construccio",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.006 Manual operatiu bàsic de construcció (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.006, § tracció",
+      "stem": "Segons el Manual operatiu bàsic de construcció, la tracció és l'esforç que:",
+      "options": [
+        "Estira un element.",
+        "Aixafa un element.",
+        "Tendeix a retorçar un element.",
+        "Vol fer lliscar una part de l'element respecte a l'altra."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Tracció = estirar; compressió = aixafar; torsió = retorçar; tallant = lliscar.",
+      "excerpt": "Tracció La tracció és l’esforç que estira un element.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § compressió",
+      "stem": "Segons el manual de construcció, la compressió és l'esforç que:",
+      "options": [
+        "Estira un element.",
+        "Combina tracció i compressió en una peça que es corba.",
+        "Aixafa un element.",
+        "Provoca un gir de l'element."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La compressió aixafa l'element; apareix a pilars, parets de càrrega, arcs, voltes i fonaments.",
+      "excerpt": "Compressió La compressió és l’esforç que aixafa un element.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § flexió",
+      "stem": "Segons el manual de construcció, la flexió és:",
+      "options": [
+        "La deformació lateral sobtada d'un element llarg comprimit.",
+        "Un gir que tendeix a retorçar l'element.",
+        "L'esforç que fa lliscar una part de l'element sobre l'altra.",
+        "La combinació de compressió i tracció en una peça que es corba."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La flexió combina compressió i tracció; hi treballen la majoria de bigues, jàsseres i mènsules.",
+      "excerpt": "Flexió La flexió és la combinació de compressió i tracció en una peça que es corba.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § fonaments",
+      "stem": "Segons el manual de construcció, quin element estructural s'encarrega de transmetre totes les càrregues de l'edifici al terreny?",
+      "options": [
+        "Els forjats.",
+        "Els fonaments.",
+        "Les jàsseres.",
+        "Les pilastres."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Els fonaments transmeten les càrregues al terreny i eviten assentaments diferencials, esquerdes o col·lapses.",
+      "excerpt": "Fonaments i transmissió de càrregues Els fonaments són l’element estructural encarregat de transmetre totes les càrregues de l’edifici al terreny.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § pilars",
+      "stem": "Segons el manual de construcció, els pilars són:",
+      "options": [
+        "Elements verticals continus típics del sistema tradicional.",
+        "Elements horitzontals que recullen les càrregues del forjat.",
+        "Murs de formigó armat que resisteixen esforços horitzontals.",
+        "Elements verticals puntuals que concentren i transmeten les càrregues dels forjats."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Els pilars són puntuals; els murs de càrrega són continus i les pantalles són murs de formigó armat.",
+      "excerpt": "Pilars Els pilars són elements verticals puntuals que concentren i transmeten les càrregues dels forjats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § forjats",
+      "stem": "Segons el manual de construcció, quins són els elements horitzontals principals que formen els sostres i paviments?",
+      "options": [
+        "Les pilastres.",
+        "Les sabates.",
+        "Els forjats.",
+        "Les pantalles."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els forjats formen sostres i paviments; el de formigó armat és el sistema més estès avui.",
+      "excerpt": "Forjats Són els elements horitzontals principals que formen els sostres i paviments.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § accions",
+      "stem": "Segons el manual de construcció, l'ocupació de persones, el mobiliari, el vent o la neu són accions:",
+      "options": [
+        "Permanents.",
+        "Variables.",
+        "Accidentals.",
+        "Reaccions."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Permanents: el pes propi; variables: ocupació, mobiliari, vent, neu; accidentals: explosions, impactes o sismes.",
+      "excerpt": "variables: com l’ocupació de persones, el mobiliari, el vent o la neu",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § reaccions",
+      "stem": "Segons el manual de construcció, les reaccions són:",
+      "options": [
+        "Les forces de resposta que apareixen als punts de recolzament o d'unió quan els elements reben càrregues.",
+        "Les forces externes que actuen sobre l'edificació al llarg del temps.",
+        "Les lesions que apareixen quan les deformacions superen certs límits.",
+        "Les forces internes que estiren un element."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les accions són externes; les reaccions apareixen als recolzaments i unions; els esforços són interns.",
+      "excerpt": "Reaccions Dins el comportament estructural d’una edificació, les reaccions són les forces de resposta que apareixen als punts de recolzament o d’unió dels elements estructurals quan aquests reben accions o càrregues.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § patologia estructural",
+      "stem": "Segons el manual de construcció, com s'anomenen les lesions que apareixen quan les deformacions d'una estructura superen certs límits?",
+      "options": [
+        "Vinclament.",
+        "Jerarquia estructural.",
+        "Esforç tallant.",
+        "Patologia estructural."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Les deformacions previstes són acceptables; quan superen els límits apareix la patologia estructural, possible indicador d'un problema greu.",
+      "excerpt": "Però quan aquestes deformacions superen certs límits, apareixen lesions que poden ser un indicador d’un problema greu: el que s’anomena patologia estructural.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § vinclament",
+      "stem": "Segons el manual de construcció, el vinclament és:",
+      "options": [
+        "La deformació lateral sobtada que pateix un element llarg sotmès a compressió.",
+        "L'esforç que fa girar un element sobre el seu eix.",
+        "La combinació de tracció i compressió en una biga.",
+        "L'assentament diferencial d'un fonament."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El vinclament depèn molt de l'esveltesa i afecta sobretot pilars, parets altes i elements en gelosia.",
+      "excerpt": "Vinclament El vinclament és la deformació lateral sobtada que pateix un element llarg sotmès a compressió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § sabates corregudes",
+      "stem": "Segons el manual de construcció, quin tipus de fonamentació s'utilitza quan les càrregues es distribueixen al llarg d'un mur i és típic del sistema tradicional?",
+      "options": [
+        "Les sabates aïllades.",
+        "La llosa de fonamentació.",
+        "Les sabates corregudes.",
+        "Els micropilots."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les sabates aïllades són per a pilars; la llosa, per a terrenys poc resistents; els pilots, per arribar a capes profundes.",
+      "excerpt": "Sabates corregudes Fonaments lineals utilitzats quan les càrregues es distribueixen al llarg d’un mur. […] Són típics dels murs de càrrega del sistema tradicional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § llosa de fonamentació",
+      "stem": "Segons el manual de construcció, quan es fa servir una llosa de fonamentació?",
+      "options": [
+        "Quan les càrregues es concentren en pilars aïllats sobre bon terreny.",
+        "Quan el terreny és poc resistent o cal repartir molt bé les càrregues.",
+        "Només en edificis de murs de càrrega de pedra.",
+        "Quan cal resistir exclusivament esforços de torsió."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La llosa és una gran placa de formigó armat que ocupa tota la superfície i dona una base rígida i contínua.",
+      "excerpt": "Es fa servir quan el terreny és poc resistent o quan cal repartir molt bé les càrregues.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § pantalles",
+      "stem": "Segons el manual de construcció, les pantalles estructurals són:",
+      "options": [
+        "Petits elements verticals encastats en murs com a reforç puntual.",
+        "Elements de divisió interior sense funció resistent.",
+        "Bigues principals de gran cantell.",
+        "Murs de formigó armat, més esvelts que els murs de càrrega, que reforcen l'estructura i resisteixen esforços horitzontals."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Les pilastres són el reforç puntual; els envans no són estructurals; les jàsseres són bigues principals.",
+      "excerpt": "Pantalles estructurals Les pantalles són murs de formigó armat, molt més esveltes que els murs de càrrega tradicionals, utilitzats en construccions modernes per reforçar l’estructura i resistir esforços horitzontals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § jàsseres",
+      "stem": "Segons el manual de construcció, les jàsseres són:",
+      "options": [
+        "Bigues principals, de més cantell i capacitat, que agrupen les càrregues de diverses bigues secundàries.",
+        "Elements cilíndrics clavats al subsòl.",
+        "Elements horitzontals que formen els paviments.",
+        "Murs exteriors gruixuts del sistema tradicional."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les jàsseres metàl·liques no protegides són d'alt risc en incendis.",
+      "excerpt": "Jàsseres (bigues principals) Són elements de major cantell i capacitat, que agrupen les càrregues de diverses bigues secundàries.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § murs de càrrega",
+      "stem": "Segons el manual de construcció, en el sistema tradicional de murs de càrrega, quin gruix pot tenir habitualment el mur?",
+      "options": [
+        "Entre 5 i 10 cm.",
+        "Entre 10 i 15 cm.",
+        "Entre 30 i 60 cm.",
+        "Més de 1 m sempre."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Els murs són de maó massís, pedra o tàpia, amb un gruix que pot variar entre 30 i 60 cm.",
+      "excerpt": "Els murs són generalment de maó massís, pedra o tàpia, i el gruix pot variar entre 30 i 60 cm.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § jerarquia estructural",
+      "stem": "Segons el principi de jerarquia estructural del manual de construcció, quin element és més crític?",
+      "options": [
+        "El que se situa més amunt, perquè rep directament les càrregues d'ús.",
+        "El que se situa més avall en la jerarquia, perquè acumula més càrrega.",
+        "Qualsevol element no estructural, perquè no està calculat.",
+        "Tots tenen la mateixa criticitat."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les càrregues es transmeten de dalt a baix; com més avall, més càrrega acumulada i més greu el col·lapse.",
+      "excerpt": "Aquest esquema ajuda a entendre quin element és més crític: com més avall se situa en la jerarquia, més càrrega acumula i més greu pot ser el seu col·lapse.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § sistema porticat",
+      "stem": "Segons el manual de construcció, en el sistema de pilars i forjats (porticat), quin és l'element clau de l'estabilitat global?",
+      "options": [
+        "Els envans interiors.",
+        "La unió entre pilars i forjats.",
+        "Les façanes, que són portants.",
+        "Els falsos sostres."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En el sistema porticat els tancaments no són estructurals; la unió pilar‑forjat és el punt clau.",
+      "excerpt": "És un sistema robust i eficient, però també presenta punts crítics a considerar en situacions d’emergència, especialment en la unió entre pilars i forjats, que és l’element clau de la seva estabilitat global.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § grans llums",
+      "stem": "Segons el manual de construcció, a partir de quina llum es parla de sistemes de grans llums?",
+      "options": [
+        "Llums superiors a 4 m.",
+        "Llums superiors a 15 m.",
+        "Llums superiors a 8 m.",
+        "Llums superiors a 30 m."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els sistemes de llums petites van de 4 a 8 m; els de grans llums superen els 8 m (naus, pavellons...).",
+      "excerpt": "Sistemes de grans llums ( superiors a 8 m):",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § pòrtics metàl·lics",
+      "stem": "Segons el manual de construcció, quin risc principal presenten en incendi els pòrtics metàl·lics de les naus industrials?",
+      "options": [
+        "La fusta laminada crema de manera imprevisible.",
+        "El pes elevat del formigó prefabricat fa impossible el col·lapse.",
+        "No presenten cap risc perquè l'acer és incombustible.",
+        "L'acer perd resistència amb molta rapidesa i pot provocar col·lapses sobtats."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Els pòrtics metàl·lics són lleugers i ràpids de muntar, però l'acer perd resistència ràpidament; la fusta té un comportament més previsible.",
+      "excerpt": "En incendi, però, l’acer perd resistència amb molta rapidesa, fet que pot provocar col·lapses sobtats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § elements no estructurals",
+      "stem": "Segons el manual de construcció, quina de les afirmacions següents sobre els elements no estructurals és correcta?",
+      "options": [
+        "No sostenen càrregues ni contribueixen de manera principal a l'estabilitat global.",
+        "Són els encarregats de transmetre els esforços fins als fonaments.",
+        "Inclouen els pilars i les jàsseres.",
+        "Són sempre de formigó armat."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Els envans i falsos sostres organitzen l'espai però no aporten estabilitat.",
+      "excerpt": "Elements no estructurals Els elements no estructurals són totes aquelles parts d’un edifici que no tenen funció resistent directa, és a dir, no sostenen càrregues ni contribueixen de manera principal a l’estabilitat global de l’estructura.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

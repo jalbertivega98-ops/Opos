@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "gubexamen-2023-lpac-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2023 (part de temari)",
+    "topic_slug": "gubexamen-2023",
+    "locale": "ca",
+    "category": "gubexamen_2023",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 70",
+      "stem": "(Rèplica 2023, núm. 18) Segons l'article 70 de la Llei 39/2015, què s'entén per expedient administratiu?",
+      "options": [
+        "El conjunt ordenat de documents i actuacions que serveixen d'antecedent i fonament a la resolució administrativa",
+        "Només la resolució final del procediment",
+        "El registre d'entrada d'una sol·licitud",
+        "L'arxiu de totes les notificacions d'una persona"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'expedient és el conjunt ordenat de documents i actuacions que fonamenten la resolució i les diligències per executar-la.",
+      "excerpt": "Se entiende por expediente administrativo el conjunto ordenado de documentos y actuaciones que sirven de antecedente y fundamento a la resolución administrativa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 122",
+      "stem": "(Rèplica 2023, núm. 19) Segons l'article 122 de la Llei 39/2015, en quin termini màxim s'ha de dictar i notificar la resolució del recurs d'alçada?",
+      "options": [
+        "Un mes",
+        "Tres mesos",
+        "Sis mesos",
+        "Quinze dies"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El recurs s'interposa en un mes (acte exprés) i s'ha de resoldre i notificar en tres mesos.",
+      "excerpt": "El plazo máximo para dictar y notificar la resolución será de tres meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 14",
+      "stem": "(Rèplica 2023, núm. 20) Segons l'article 14 de la Llei 39/2015, quin d'aquests subjectes NO està obligat en tot cas a relacionar-se electrònicament amb les administracions?",
+      "options": [
+        "Les persones jurídiques",
+        "Les entitats sense personalitat jurídica",
+        "Les persones físiques",
+        "Els qui exerceixen una activitat professional de col·legiació obligatòria, en aquesta activitat"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les persones físiques poden triar, llevat que estiguin obligades; les jurídiques i les entitats sense personalitat hi estan obligades.",
+      "excerpt": "Las personas físicas podrán elegir en todo momento si se comunican con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos o no",
+      "excerpt_status": "completo"
+    }
+  ]
+}

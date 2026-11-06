@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "set": "gubexamen-2025-lreb-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2025 (part de temari)",
+    "topic_slug": "gubexamen-2025",
+    "locale": "ca",
+    "category": "gubexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 1/2006, de 13 de marzo, por la que se regula el Régimen Especial del municipio de Barcelona (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-4583",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 34",
+      "stem": "(Rèplica 2025, núm. 11) Segons l'article 34 de la Llei 1/2006, del règim especial de Barcelona, quina afirmació és INCORRECTA sobre la Guàrdia Urbana?",
+      "options": [
+        "Actua com a policia administrativa",
+        "Actua com a policia de seguretat i assistencial",
+        "Actua com a policia judicial",
+        "Depèn jeràrquicament del conseller d'Interior"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La GUB depèn jeràrquicament de l'alcalde de Barcelona i actua com a policia administrativa, de seguretat i assistencial i judicial.",
+      "excerpt": "La Guardia Urbana de Barcelona, bajo la dependencia jerárquica del Alcalde de Barcelona, actúa como policía administrativa, policía de seguridad y asistencial y policía judicial",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33",
+      "stem": "(Rèplica 2025, núm. 12) Segons l'article 33 de la Llei 1/2006, amb quina periodicitat ha d'informar l'alcalde de Barcelona el Ple sobre el seguiment dels acords de la Junta Local de Seguretat?",
+      "options": [
+        "Anualment",
+        "Semestralment",
+        "Trimestralment",
+        "Cada quatre anys"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'alcalde informa anualment el Ple sobre el seguiment dels acords de la Junta Local de Seguretat.",
+      "excerpt": "El Alcalde informará anualmente al Pleno acerca del seguimiento de los acuerdos de la Junta Local de Seguridad.",
+      "excerpt_status": "completo",
+      "review_note": "L'original de 2025 preguntava sobre la retirada de vehicles a la Llei 1/2006; aquesta rèplica usa un altre precepte de la mateixa llei perquè l'article concret de retirada no s'ha verificat."
+    }
+  ]
+}

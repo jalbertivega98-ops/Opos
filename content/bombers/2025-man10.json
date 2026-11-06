@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man10-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.004 Manual operatiu bàsic de Química (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 42) · MAN.GRAL.004",
+      "stem": "Què indica el nombre atòmic (Z) d'un element?",
+      "options": [
+        "La suma de protons i neutrons.",
+        "El nombre de protons del nucli.",
+        "El nombre de neutrons del nucli.",
+        "La massa de l'àtom en grams."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La suma de protons i neutrons és el nombre màssic (A).",
+      "excerpt": "El nombre atòmic (Z) és el nombre de protons que té el nucli de l’àtom.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 77) · MAN.GRAL.004",
+      "stem": "Com s'anomena la reacció química que absorbeix energia de l'entorn per poder produir-se?",
+      "options": [
+        "Exotèrmica.",
+        "De combustió.",
+        "Endotèrmica.",
+        "De neutralització."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'exotèrmica és la que allibera energia.",
+      "excerpt": "Reacció endotèrmica: absorbeix energia (generalment calor)de l’entorn per poder dur-se a terme.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. R10) · MAN.GRAL.004",
+      "stem": "En la reacció Fe (s) + Cu²⁺ (aq) → Fe²⁺ (aq) + Cu (s), quina espècie actua com a agent oxidant?",
+      "options": [
+        "Cu²⁺ (aq), perquè guanya electrons i es redueix.",
+        "Fe (s), perquè perd electrons.",
+        "Fe²⁺ (aq), perquè és el producte oxidat.",
+        "Cu (s), perquè és el metall format."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'agent oxidant és l'espècie que es redueix (guanya electrons) i fa que l'altra s'oxidi.",
+      "excerpt": "Reaccions oxidació-reducció (redox) Transferència d’electrons entre substàncies; una s’oxida (perd electrons) i l’altra es redueix (guanya electrons).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 87 i 92) · MAN.GRAL.004",
+      "stem": "Una ampolla d'ERA de 6 litres conté aire a 300 bar. Si la temperatura no varia, quin volum ocuparia aquest aire a 1 bar?",
+      "options": [
+        "50 litres.",
+        "306 litres.",
+        "1.800 litres.",
+        "180 litres."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Per la llei de Boyle-Mariotte, P₁·V₁ = P₂·V₂: 300 × 6 = 1 × V₂ → V₂ = 1.800 L.",
+      "excerpt": "Llei de Boyle-Mariotte Per una mateixa massa de gas, si no varia la temperatura, la pressió i el volum són inversament proporcionals.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

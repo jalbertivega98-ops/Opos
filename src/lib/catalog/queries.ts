@@ -119,7 +119,7 @@ export async function listExamTopics(examBodyId: string) {
     (data ?? [])
       // Los exámenes réplica y el banco de psicotécnicos verbales no son temas del programa
       .flatMap((r) =>
-        r.topic && !/-examen-|psicotecnicos/.test(r.topic.slug)
+        r.topic && !/examen-|psicotecnicos/.test(r.topic.slug)
           ? [{ ...r.topic, order: r.order_index }]
           : [],
       )

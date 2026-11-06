@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "iipp-a01-constitucion-corona-cortes-lodp-v1",
+    "exam": "ayudantes-instituciones-penitenciarias",
+    "also_exams": [],
+    "topic": "Primera parte, tema 1. La Constitución Española de 1978: derechos y deberes fundamentales, la Corona, las Cortes Generales, la elaboración de las leyes y el Defensor del Pueblo",
+    "topic_slug": "iipp-a01-constitucion-corona-cortes",
+    "locale": "es",
+    "category": "iipp_a01_constitucion_corona_cortes",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio del Cuerpo de Ayudantes de IIPP (4 opciones, una correcta; cada error resta 1/3), redactadas a partir del texto oficial (BOE consolidado o documentos oficiales de la SGIP); no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la fuente y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Art. segundo.Uno LODP",
+      "stem": "Según la Ley Orgánica 3/1981, el Defensor del Pueblo es elegido por las Cortes Generales para un periodo de:",
+      "options": [
+        "Cuatro años.",
+        "Cinco años.",
+        "Seis años.",
+        "Nueve años."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 2.1 de la LO 3/1981 fija un mandato de cinco años.",
+      "excerpt": "El Defensor del Pueblo será elegido por las Cortes Generales para un periodo de cinco años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. segundo.Cuatro LODP",
+      "stem": "Para ser designado Defensor del Pueblo en primera votación, la Ley Orgánica 3/1981 exige obtener en el Congreso una votación favorable de:",
+      "options": [
+        "Las tres quintas partes de sus miembros, y posterior ratificación por la misma mayoría del Senado.",
+        "La mayoría absoluta del Congreso exclusivamente.",
+        "La mayoría simple de ambas Cámaras.",
+        "Las dos terceras partes de cada Cámara."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 2.4 LODP exige tres quintos en el Congreso y ratificación por igual mayoría en el Senado en veinte días.",
+      "excerpt": "Será designado quien obtuviese una votación favorable de las tres quintas partes de los miembros del Congreso y posteriormente, en un plazo máximo de veinte días, fuese ratificado por esta misma mayoría del Senado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t12-installacions-man12-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 12. Instal·lacions elèctriques, d'aigua i de gas",
+    "topic_slug": "bomb-t12-installacions",
+    "locale": "ca",
+    "category": "bomb_t12_installacions",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.007 Manual operatiu bàsic sobre instal·lacions (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.007, § nivells de tensió",
+      "stem": "Segons el Manual operatiu bàsic sobre instal·lacions, fins a quina tensió en corrent altern es considera baixa tensió (BT)?",
+      "options": [
+        "Fins a 230 V.",
+        "Fins a 400 V.",
+        "Fins a 1.000 V.",
+        "Fins a 36 kV."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La BT arriba fins a 1.000 V en corrent altern (xarxa de distribució local); la mitja tensió sol anar d'1 kV a 36 kV.",
+      "excerpt": "Baixa tensió (BT), fins a 1000 V en corrent altern, xarxa de distribució secundària o local.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § diferencials",
+      "stem": "Segons el manual d'instal·lacions, quina sensibilitat de diferencial és obligatòria als habitatges?",
+      "options": [
+        "100 mA.",
+        "300 mA.",
+        "10 A.",
+        "30 mA."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El diferencial de 30 mA és obligatori als habitatges per protegir les persones; els de 100 o 300 mA s'utilitzen en indústries i enllumenat públic.",
+      "excerpt": "30 mA: obligatori a habitatges; nivell de protecció per a persones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § diferencials",
+      "stem": "Segons el manual d'instal·lacions, quina és la protecció més important per a la seguretat de les persones en una instal·lació elèctrica?",
+      "options": [
+        "El magnetotèrmic, perquè limita la potència contractada.",
+        "El diferencial, perquè detecta fuites de corrent a terra.",
+        "El comptador intel·ligent.",
+        "La caixa general de protecció."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El diferencial detecta la diferència entre el corrent que entra i el que surt d'un circuit i desconnecta si part del corrent marxa a terra (per exemple, a través d'una persona).",
+      "excerpt": "Diferencials Els diferencials són la protecció més important per a la seguretat de les persones, ja que detecten fuites de corrent a terra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § gas natural",
+      "stem": "Segons el manual d'instal·lacions, quin és el component majoritari del gas natural?",
+      "options": [
+        "El metà, entre el 90 i el 95 %.",
+        "El butà, entre el 60 i el 70 %.",
+        "El propà, aproximadament el 50 %.",
+        "El nitrogen, aproximadament el 78 %."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El gas natural és majoritàriament metà (90-95 %), amb petites quantitats de nitrogen, CO₂ i altres gasos.",
+      "excerpt": "La seva composició varia segons l’origen, però està format majoritàriament per metà (90–95%), tot i que també pot contenir petites quantitats de nitrogen, CO₂ i altres gasos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § instal·lació de gas butà",
+      "stem": "Segons el manual d'instal·lacions, quins són els elements principals d'una instal·lació domèstica de gas butà envasat?",
+      "options": [
+        "La bombona, el regulador de pressió i el tub flexible.",
+        "La clau d'escomesa, el comptador i el muntant.",
+        "El dipòsit fix, el vaporitzador i la clau d'edifici.",
+        "La bombona, el comptador i la clau de muntant col·lectiu."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "En els habitatges no connectats a la xarxa canalitzada, la instal·lació de butà consta de bombona, regulador de pressió i tub flexible.",
+      "excerpt": "El subministrament més habitual dels habitatges que no estan connectats a la xarxa de gas canalitzat, és el gas butà envasat en bombones, i els elements principals de la instal·lació de gas butà són la bombona, el regulador de pressió i el tub flexible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § escomesa d'aigua",
+      "stem": "Segons el manual d'instal·lacions, què és l'escomesa d'una instal·lació d'aigua?",
+      "options": [
+        "El conducte vertical que porta l'aigua als pisos.",
+        "La connexió amb la xarxa exterior.",
+        "El tub en U invertida que desguassa per gravetat.",
+        "La canonada d'evacuació d'aigües pluvials."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'escomesa connecta amb la xarxa exterior i inclou la clau o collet de presa, el tub d'escomesa i la clau de tall exterior.",
+      "excerpt": "Escomesa L’escomesa és la connexió amb la xarxa exterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § CGP",
+      "stem": "Segons el manual d'instal·lacions, quin element és el punt frontera entre la xarxa de distribució elèctrica i la instal·lació del client o abonat?",
+      "options": [
+        "El centre de transformació.",
+        "L'interruptor general automàtic (IGA).",
+        "L'interruptor general de maniobra (IGM).",
+        "La caixa general de protecció (CGP)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'escomesa de baixa tensió arriba a la CGP, que marca la frontera entre la distribució i la instal·lació de l'abonat.",
+      "excerpt": "El tram final de la xarxa de baixa tensió és l’escomesa que arriba a la caixa general de protecció (CGP), que és el punt frontera entre la distribució i la instal·lació del client o abonat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § instal·lacions d'enllaç",
+      "stem": "Segons el manual d'instal·lacions, a qui pertanyen les instal·lacions d'enllaç i qui és responsable de conservar-les?",
+      "options": [
+        "A l'empresa distribuïdora.",
+        "A l'ajuntament.",
+        "A l'usuari o abonat.",
+        "A l'empresa comercialitzadora d'energia."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les instal·lacions d'enllaç uneixen la xarxa de distribució amb els dispositius generals de comandament i protecció de l'usuari, i pertanyen a l'abonat.",
+      "excerpt": "Pertanyen a l’usuari o abonat, que són responsables de conservar-les i mantenir-les.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § IGA",
+      "stem": "Segons el manual d'instal·lacions, què és l'IGA?",
+      "options": [
+        "Un magnetotèrmic que es col·loca al principi del quadre elèctric i protegeix tota la instal·lació domèstica.",
+        "Un diferencial de 300 mA per a enllumenat públic.",
+        "La unitat que permet deixar fora de servei una centralització de comptadors.",
+        "El dispositiu que limita la potència contractada en els comptadors actuals."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'interruptor general automàtic és un magnetotèrmic de capçalera. Abans es deia ICP i limitava la potència contractada, funció que ara fa el comptador intel·ligent.",
+      "excerpt": "L’IGA (Interruptor General Automàtic) és un magnetotèrmic que es col·loca al principi del quadre elèctric i protegeix tota la instal·lació domèstica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § diferencials",
+      "stem": "Segons el manual d'instal·lacions, de quin conjunt d'elements depèn la protecció de les persones davant contactes elèctrics?",
+      "options": [
+        "Només del magnetotèrmic de cada circuit.",
+        "De l'IGA i del comptador intel·ligent.",
+        "Del neutre connectat a terra, del diferencial i de la presa de terra de les masses.",
+        "De la CGP i de l'interruptor general de maniobra."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Perquè el diferencial actuï, el corrent de fuita ha de tenir camí de retorn; per això el neutre dels transformadors va a terra i les masses tenen presa de terra.",
+      "excerpt": "La protecció de les persones depèn del conjunt: neutre connectat a terra + diferencial + presa de terra de les masses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § diferencials",
+      "stem": "Segons el manual d'instal·lacions, quina part d'una instal·lació protegeix un diferencial?",
+      "options": [
+        "Tota la instal·lació, també el que hi ha abans.",
+        "Només el que hi ha aigües avall, és a dir, el que alimenta.",
+        "Només la xarxa de distribució.",
+        "Només els circuits d'enllumenat."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El diferencial no detecta res del que hi ha abans d'ell; a més, la xarxa de distribució no fa servir diferencials.",
+      "excerpt": "Només protegeix el que hi ha aigües avall, és a dir, el que alimenta; no detecta res del que hi ha abans.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § magnetotèrmics",
+      "stem": "Què indica la marca «C25 1P+N» d'un magnetotèrmic segons el manual d'instal·lacions?",
+      "options": [
+        "25 mA de sensibilitat, classe C i un sol pol.",
+        "25 kW de potència màxima, categoria C i protecció de neutre.",
+        "25 V de tensió nominal, corba C i un pol més neutre protegit.",
+        "25 A de corrent nominal, corba C, protecció en un pol i desconnexió simultània de fase i neutre."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El número és la intensitat nominal en amperes i la lletra, la corba de dispar; 1P+N vol dir un pol protegit amb tall de fase i neutre.",
+      "excerpt": "C25 1P+N indica 25 A de corrent nominal, corba C, protecció en un pol, però desconnexió simultània de fase i neutre.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 5 regles d'or",
+      "stem": "Segons el manual d'instal·lacions, quina és la primera de les 5 regles d'or per treballar amb seguretat en una instal·lació elèctrica?",
+      "options": [
+        "Prevenir qualsevol possible realimentació.",
+        "Verificar l'absència de tensió.",
+        "Posar a terra i en curtcircuit.",
+        "Desconnectar la font d'alimentació."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Les regles comencen per desconnectar totes les fonts d'alimentació; la segona és prevenir la realimentació amb cadenats o bloquejos.",
+      "excerpt": "1) Desconnectar la font d’alimentació Cal desconnectar la instal·lació per deixar-la sense tensió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 5 regles d'or",
+      "stem": "Segons el manual d'instal·lacions, en què consisteix la segona regla d'or («prevenir qualsevol possible realimentació»)?",
+      "options": [
+        "En assegurar els dispositius de desconnexió contra qualsevol reconnexió amb cadenats o bloquejos i senyalitzar els treballs.",
+        "En comprovar amb un voltímetre que no hi ha tensió.",
+        "En connectar els conductors a terra i en curtcircuit.",
+        "En delimitar la zona de treball amb cinta."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cal bloquejar els dispositius de tall, tenir en compte les realimentacions automàtiques i senyalitzar («Treballs en curs», «No connectar»).",
+      "excerpt": "2) Prevenir qualsevol possible realimentació Els dispositius utilitzats per desconnectar la instal·lació s’han d’assegurar contra qualsevol possible reconnexió, amb cadenats o bloquejos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § gas natural",
+      "stem": "Segons el manual d'instal·lacions, quina afirmació sobre el gas natural és CORRECTA?",
+      "options": [
+        "És més dens que l'aire i s'acumula a les parts baixes.",
+        "És tòxic per inhalació i té una olor característica pròpia.",
+        "És menys dens que l'aire, no és tòxic i és inodor, per això se li afegeix un odoritzant.",
+        "Es distribueix en estat líquid en bombones."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El gas natural és lleuger i inodor; l'odoritzant permet detectar les fuites. Els GLP (butà i propà) es distribueixen liquats.",
+      "excerpt": "El gas natural és menys dens que l’aire i té un alt poder calorífic, cosa que el fa molt eficient com a combustible. […] No és tòxic i és inolor (per això se li afegeix un component químic odoritzant per facilitar-ne la detecció en cas de fuita).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § claus de gas",
+      "stem": "En un edifici plurifamiliar, quina clau de gas és, segons el manual d'instal·lacions, el dispositiu de tall més proper a l'edifici, accionable des de l'exterior, per tallar el gas a la instal·lació comuna de l'immoble?",
+      "options": [
+        "La clau d'abonat.",
+        "La clau d'edifici.",
+        "La clau d'aparell.",
+        "La clau de muntant col·lectiu."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La clau d'edifici talla la instal·lació comuna de tot l'immoble (no sempre existeix i, en instal·lacions domèstiques, sovint la seva funció la fa la clau d'escomesa).",
+      "excerpt": "És el dispositiu de tall més proper a l’edifici, accionable des de l’exterior, que permet interrompre el pas de gas a la instal·lació comuna que alimenta l’immoble.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § claus de gas",
+      "stem": "Segons el manual d'instal·lacions, quan s'instal·la la clau de muntant col·lectiu en una instal·lació de gas?",
+      "options": [
+        "En totes les instal·lacions individuals.",
+        "Quan hi ha més d'un muntant col·lectiu.",
+        "Només en les instal·lacions de GLP.",
+        "Només quan no hi ha clau d'escomesa."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La clau de muntant col·lectiu talla el gas als usuaris que comparteixen un muntant i s'instal·la quan n'hi ha més d'un.",
+      "excerpt": "S’instal·la quan hi ha més d’un muntant col·lectiu.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § interruptor general de maniobra",
+      "stem": "Segons el manual d'instal·lacions, a partir de quants usuaris és obligatori l'interruptor general de maniobra (IGM) en una centralització de comptadors?",
+      "options": [
+        "En les centralitzacions de més de dos usuaris.",
+        "A partir de deu usuaris.",
+        "Només en edificis de més de cinc plantes.",
+        "No és mai obligatori."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'IGM permet deixar fora de servei la centralització de comptadors; és obligatori a partir de tres usuaris i se situa entre la línia general d'alimentació i l'embarrat general.",
+      "excerpt": "És obligatori en les centralitzacions de més de dos usuaris i se situa entre la línia general d’alimentació i l’embarrat general.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § sifó",
+      "stem": "Segons el manual d'instal·lacions, quina condició és necessària perquè un sifó (tub en U invertida) desguassi un dipòsit per gravetat?",
+      "options": [
+        "Que la sortida estigui per sobre de la superfície lliure del dipòsit.",
+        "Que hi hagi una bomba centrífuga a la branca de sortida.",
+        "Que estigui ple i que el nivell de sortida estigui per sota de la superfície lliure del dipòsit.",
+        "Que el tub sigui de PVC gris."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El sifó necessita estar ple perquè una branca arrossegui l'altra, i funciona mentre la sortida estigui per sota del nivell del líquid.",
+      "excerpt": "Necessita estar ple perquè la columna de líquid d’una branca arrossegui la de l’altra. […] Funciona mentre el nivell de sortida estigui situat per sota de la superfície lliure del dipòsit.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § evacuació d'aigües",
+      "stem": "Segons el manual d'instal·lacions, cada quants metres s'han de preveure registres en la xarxa d'evacuació a què es connecten els baixants?",
+      "options": [
+        "Cada 5 metres.",
+        "Cada 50 metres.",
+        "Cada 100 metres.",
+        "Cada 15 metres."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La connexió dels baixants es fa amb una arqueta de peu de baixant no sifònica i cal preveure registres cada 15 m per a la inspecció i el manteniment.",
+      "excerpt": "L’escomesa dels baixants i la connexió dels manegots a la xarxa s’ha de realitzar mitjançant una arqueta de peu de baixant no sifònica, i s’han de preveure registres cada 15 metres per facilitar les tasques d’inspecció i manteniment.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

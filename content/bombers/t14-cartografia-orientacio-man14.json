@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "set": "bomb-t14-cartografia-orientacio-man14-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 14. Cartografia i orientació",
+    "topic_slug": "bomb-t14-cartografia-orientacio",
+    "locale": "ca",
+    "category": "bomb_t14_cartografia_orientacio",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.002 Manual operatiu bàsic de cartografia i orientació (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "MAN.GRAL.002, § paral·lels i latitud",
+      "stem": "Segons el Manual operatiu bàsic de cartografia i orientació, la latitud és:",
+      "options": [
+        "L'angle d'un punt respecte a l'equador.",
+        "L'angle d'un punt respecte al meridià de Greenwich.",
+        "La distància d'un punt al nivell del mar.",
+        "L'angle respecte al nord que defineix una direcció."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els paral·lels serveixen per mesurar la latitud, angle respecte a l'equador; la longitud es mesura respecte a un meridià i l'azimut és l'angle respecte al nord.",
+      "excerpt": "S'utilitzen per a mesurar la latitud, que és l'angle d'un punt respecte a l'equador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § meridians",
+      "stem": "Segons el manual de cartografia, els meridians són:",
+      "options": [
+        "Cercles concèntrics i paral·lels a l'equador.",
+        "Línies que uneixen el pol Nord amb el pol Sud, perpendiculars als paral·lels.",
+        "Línies que connecten punts de la mateixa altitud.",
+        "Les divisions de 6º de la projecció UTM en sentit horitzontal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Els meridians van de pol a pol i són perpendiculars als paral·lels; els cercles paral·lels a l'equador són els paral·lels i les línies d'igual altitud, les corbes de nivell.",
+      "excerpt": "Els meridians són línies que uneixen el pol Nord amb el pol Sud i que són perpendiculars als paral·lels.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § escala numèrica",
+      "stem": "Segons el manual de cartografia, en un mapa a escala 1:25.000, 1 cm del mapa representa al terreny:",
+      "options": [
+        "25 metres.",
+        "2.500 metres.",
+        "25 quilòmetres.",
+        "250 metres."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "1 cm al mapa són 25.000 cm al terreny, és a dir, 250 m.",
+      "excerpt": "Per exemple, 1 cm al mapa representa 25.000 cm (o 250 metres) al terreny.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § corbes de nivell",
+      "stem": "Segons el manual de cartografia, les corbes de nivell (isohipses) són línies imaginàries que connecten els punts del terreny que tenen:",
+      "options": [
+        "El mateix pendent.",
+        "La mateixa coordenada X en el sistema UTM.",
+        "La mateixa cota o altitud sobre el nivell del mar.",
+        "La mateixa declinació magnètica."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Una corba de nivell uneix punts d'igual altitud; la separació vertical entre corbes és l'equidistància.",
+      "excerpt": "Corbes de nivell Les corbes de nivell (o isohipses) són les línies imaginaries que connecten tots els punts de la superfície del terreny que tenen la mateixa cota o altitud sobre el nivell del mar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § brúixola",
+      "stem": "Segons el manual de cartografia, la brúixola ens indica:",
+      "options": [
+        "El Nord geogràfic.",
+        "El Nord magnètic.",
+        "El Nord de la quadrícula UTM.",
+        "L'altitud del punt on som."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La brúixola assenyala el Nord magnètic, que no coincideix exactament amb el Nord geogràfic.",
+      "excerpt": "La brúixola La brúixola és un instrument que ens indica el Nord magnètic.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § azimut",
+      "stem": "Segons el manual de cartografia, l'azimut que defineix una direcció és:",
+      "options": [
+        "L'angle respecte al nord.",
+        "L'angle respecte a l'equador.",
+        "La distància horitzontal entre dos punts.",
+        "La diferència d'altitud entre dos punts."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La direcció es defineix amb l'azimut, angle mesurat respecte al nord.",
+      "excerpt": "La direcció es defineix mitjançant l'azimut, que és l'angle respecte al nord.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § fusos UTM",
+      "stem": "Segons el manual de cartografia, en el sistema UTM la superfície de la Terra es divideix en:",
+      "options": [
+        "24 fusos de 15º cadascun.",
+        "36 fusos de 10º cadascun.",
+        "60 fusos de 6º cadascun.",
+        "180 fusos de 2º cadascun."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El sistema UTM segmenta la Terra en 60 fusos de 6º, numerats de l'1 al 60.",
+      "excerpt": "En total, la superfície de la terra es va segmentar en 60 porcions de la terra (de 6º cada una), numerades de l’1 al 60, que s’anomenen fusos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § coordenada X del meridià central",
+      "stem": "Segons el manual de cartografia, quina coordenada X s'assigna al meridià central de cada fus UTM?",
+      "options": [
+        "X = 0 m.",
+        "X = 1.000.000 m.",
+        "X = 100.000 m.",
+        "X = 500.000 m."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Se li assigna 500.000 m per evitar valors de X negatius i facilitar els càlculs.",
+      "excerpt": "Al meridià central del fus se li assigna la coordenada X=500.000 m (per tal de no tenir valors de X negatius, i facilitar els càlculs).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § zona 31T",
+      "stem": "Segons el manual de cartografia, en quina zona UTM es troba tot el territori de Catalunya?",
+      "options": [
+        "A la zona 31T.",
+        "A la zona 30T.",
+        "A la zona 29T.",
+        "Una part a la 30T i una altra a la 31T."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Tot Catalunya és dins la 31T i normalment no cal especificar-la; la resta de la Península abasta els fusos 29, 30 i 31.",
+      "excerpt": "A Catalunya això és més senzill perquè tot el territori es troba dins la zona 31T, i per tant normalment no cal especificar-la, mentre que a la resta de la Península Ibèrica sí, ja que hi ha tres fusos diferents (29, 30 i 31).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § datum",
+      "stem": "Segons el manual de cartografia, què és el datum?",
+      "options": [
+        "La separació vertical entre dues corbes de nivell.",
+        "El sistema de referència que defineix la posició i orientació d'un sistema de coordenades.",
+        "La diferència angular entre el Nord magnètic i el geogràfic.",
+        "La relació entre una distància al mapa i la mateixa distància al terreny."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El datum és el sistema de referència; una mateixa coordenada pot situar punts diferents segons el datum.",
+      "excerpt": "El Datum El datum és el sistema de referència que defineix la posició i orientació d’un sistema de coordenades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § ETRS89",
+      "stem": "Segons el manual de cartografia, quin és avui el datum oficial a Europa?",
+      "options": [
+        "L'ED50.",
+        "El WGS84.",
+        "El datum de Potsdam.",
+        "L'ETRS89."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La UE va adoptar l'ETRS89, gairebé idèntic al WGS84; l'ED50 és el datum històric utilitzat a Espanya i Europa.",
+      "excerpt": "Per unificar criteris, la UE va adoptar el ETRS89 (1989), gairebé idèntic al WGS84, que avui és el sistema oficial a Europa, tot i que encara circulen mapes antics amb altres datums.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § escala gran i petita",
+      "stem": "Segons el manual de cartografia, quin d'aquests mapes està a escala més gran?",
+      "options": [
+        "Un mapa a escala 1:50.000.",
+        "Un mapa a escala 1:25.000.",
+        "Un mapa a escala 1:10.000.",
+        "Un mapa a escala 1:100.000."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Com més petit és el denominador, més gran és l'escala: un 1:10.000 té escala més gran que un 1:50.000.",
+      "excerpt": "Per exemple, un mapa a escala 1:10.000 està a escala més gran que un 1:50.000.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § corba mestra",
+      "stem": "Segons el manual de cartografia, com s'anomena la corba de nivell dibuixada amb un traç més gruixut, generalment cada 5 corbes?",
+      "options": [
+        "Corba auxiliar.",
+        "Corba d'equidistància.",
+        "Corba mestra.",
+        "Isòbata."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La corba mestra es dibuixa més gruixuda per facilitar la lectura i el recompte de corbes.",
+      "excerpt": "Cada cert numero de corbes (generalment cada 5 corbes) es dibuixa la corba amb un traç més gruixut, és l’anomenada corba mestra, per facilitar la lectura del mapa i el recompte de corbes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § equidistància",
+      "stem": "Segons el manual de cartografia, què és l'equidistància d'un mapa topogràfic?",
+      "options": [
+        "La distància horitzontal entre dues corbes mestres.",
+        "La diferència entre el Nord geogràfic i el magnètic.",
+        "La distància entre dues línies de la quadrícula UTM.",
+        "La separació vertical entre dues corbes de nivell consecutives."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'equidistància és la separació vertical entre talls; ha de constar al mapa i depèn de l'escala.",
+      "excerpt": "La separació vertical entre els talls de les llesques s'anomena equidistància, i ha de venir indicada en el mapa ja que és una informació molt valuosa per interpretar el relleu mitjançant les corbes de nivell i per comptar la diferència d’altitud entre dos punts del mapa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § segments GNSS",
+      "stem": "Segons el manual de cartografia, en un sistema GNSS, la xarxa de bases terrestres que monitoritza els satèl·lits per ajustar-ne les òrbites i sincronitzar-ne els rellotges constitueix el segment:",
+      "options": [
+        "De control.",
+        "Espacial.",
+        "D'usuari.",
+        "De correcció diferencial."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El GNSS té tres segments: espacial (satèl·lits), de control (bases terrestres) i d'usuari (receptors).",
+      "excerpt": "Segment de control: una xarxa de bases terrestres que monitoritzen els satèl·lits per ajustar-ne les òrbites i sincronitzar-ne els rellotges atòmics.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § escala gràfica",
+      "stem": "Segons el manual de cartografia, quin és el gran avantatge de l'escala gràfica respecte a la numèrica?",
+      "options": [
+        "Que permet calcular l'altitud de qualsevol punt sense corbes de nivell.",
+        "Que es redimensiona amb el mapa si aquest s'amplia o es redueix, i manté la relació amb la realitat.",
+        "Que corregeix automàticament la declinació magnètica.",
+        "Que és més precisa que l'escala numèrica en qualsevol circumstància."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En una fotocòpia o en un mapa digital ampliat, l'escala gràfica canvia de mida amb el mapa; la numèrica deixaria de ser vàlida.",
+      "excerpt": "El gran avantatge de l'escala gràfica és que si el mapa s'amplia o es redueix (per exemple, en una fotocòpia, un mapa digital), l'escala gràfica es redimensiona amb ell, mantenint la seva relació amb la realitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § declinació magnètica",
+      "stem": "Segons el manual de cartografia, sobre la diferència entre el Nord magnètic i el Nord geogràfic, és correcte afirmar que:",
+      "options": [
+        "És constant a tot el planeta i no cal indicar-la.",
+        "Només existeix a l'hemisferi sud.",
+        "Depèn de l'escala del mapa.",
+        "Varia amb el lloc i amb els anys i, per això, ha de venir indicada en el mapa."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El Nord magnètic no coincideix amb el geogràfic; la desviació varia segons lloc i any i el mapa l'ha d'indicar.",
+      "excerpt": "Tinguem en compte que el Nord magnètic no coincideix exactament amb el Nord geogràfic, hi ha una petita desviació que varia amb el lloc i amb els anys, per això ha de venir indicada en el mapa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § ús de la brúixola",
+      "stem": "Segons el manual de cartografia, per obtenir una lectura fiable amb la brúixola cal:",
+      "options": [
+        "Mantenir-la horitzontal i allunyada d'objectes metàl·lics i camps magnètics.",
+        "Inclinar-la cap a l'objectiu per afinar la visual.",
+        "Recolzar-la sobre el capó del vehicle per estabilitzar-la.",
+        "Situar-la a prop d'un dispositiu electrònic amb GPS per corregir-la."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Si s'inclina, l'agulla queda travada; els vehicles, torres elèctriques o aparells electrònics alteren la lectura.",
+      "excerpt": "És important mantenir la horitzontalitat de la brúixola. […] També és molt important allunyar la brúixola d’altres camps magnètics i objectes metàl·lics que poden alterar la lectura (torres elèctriques, cotxes, dispositius electrònics, corrents elèctrics potents, edificis amb estructures d’acer i formigó armat...)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § error multitrajecte",
+      "stem": "Segons el manual de cartografia, quin error del GNSS es produeix quan els senyals reboten en edificis o parets de roca i arriben al receptor per camins més llargs?",
+      "options": [
+        "L'error ionosfèric i troposfèric.",
+        "L'error de sincronització del segment de control.",
+        "L'error per multitrajecte (rebot del senyal).",
+        "L'error de datum."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El rebot en superfícies properes allarga el camí del senyal; l'efecte de la ionosfera i la troposfera és un altre error diferent.",
+      "excerpt": "Els senyals reboten en superfícies properes (edificis, parets de roca...), de manera que el senyal arriba per camins més llargs.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § COE",
+      "stem": "Segons el manual de cartografia, la Cartografia Operativa d'Emergències (COE) dels Bombers de la Generalitat es desplega a partir de la base cartogràfica de:",
+      "options": [
+        "L'Institut Geogràfic Nacional.",
+        "L'Institut Cartogràfic i Geològic de Catalunya (ICGC).",
+        "El Servei Meteorològic de Catalunya.",
+        "El Centre d'Atenció i Gestió de Trucades 112."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La COE, cartografia pròpia del Cos, parteix de la base de l'ICGC i inventaria infraestructures com camins forestals i punts d'aigua.",
+      "excerpt": "Base cartogràfica La COE es desplega a partir de la base cartogràfica de l’Institut Cartogràfic i Geològic de Catalunya (ICGC),",
+      "excerpt_status": "completo"
+    }
+  ]
+}
