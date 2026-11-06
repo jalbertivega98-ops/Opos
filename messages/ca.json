@@ -722,6 +722,9 @@
       "spatial_rotation": "La resposta correcta és la peça original girada {deg}°. Les altres són la seva imatge en un mirall (caldria girar-les del revés) o peces diferents.",
       "attention_count": "«{target}» apareix {answer} vegades. Fixa't bé en els símbols semblants.",
       "attention_pairs": "Hi ha {answer} parelles idèntiques. A les altres canvia o s'intercanvia alguna xifra.",
+      "spelling": "La forma correcta és «{correct}»; «{answer}» no és al Diccionario de la lengua española. Les altres tres estan ben escrites.",
+      "synonyms": "El Diccionario de la lengua española (RAE-ASALE) dona «{answer}» com a sinònim de «{word}». Les altres opcions no ho són.",
+      "antonyms": "El Diccionario de la lengua española (RAE-ASALE) dona «{answer}» com a antònim de «{word}». Les altres opcions no ho són.",
       "percentages_discount": "{price} × (100 − {d}) / 100 = {answer}.",
       "percentages_increase": "{price} × (100 + {d}) / 100 = {answer}.",
       "percentages_absent": "Hi assisteixen {n} × {p} / 100; falten la resta: {answer}.",
@@ -784,6 +787,21 @@
         "name": "Atenció i concentració",
         "prompt": "Respon amb precisió.",
         "description": "Recompte de símbols i detecció de diferències."
+      },
+      "spelling": {
+        "name": "Ortografia (castellà)",
+        "prompt": "Assenyala la paraula amb error.",
+        "description": "Tres paraules castellanes ben escrites i una amb falta d'ortografia (b/v, h, g/j, x/s…)."
+      },
+      "synonyms": {
+        "name": "Sinònims (castellà)",
+        "prompt": "Tria el sinònim.",
+        "description": "Paraules castellanes amb el mateix significat, segons el diccionari de la RAE."
+      },
+      "antonyms": {
+        "name": "Antònims (castellà)",
+        "prompt": "Tria l'antònim.",
+        "description": "Paraules castellanes de significat contrari, segons el diccionari de la RAE."
       },
       "percentages": {
         "name": "Percentatges i fraccions",
@@ -958,6 +976,9 @@
       "numeric_mixture": "Es barregen {q1} kg de cafè de {p1} €/kg amb {q2} kg de cafè de {p2} €/kg. A quants euros surt el kg de la barreja?",
       "attention_count": "Quantes vegades apareix «{target}» al requadre?",
       "attention_pairs": "Quantes parelles estan formades per dos codis exactament iguals?",
+      "spelling": "Assenyala la paraula castellana que conté un error ortogràfic:",
+      "synonyms": "Assenyala el sinònim de «{word}»:",
+      "antonyms": "Assenyala l'antònim de «{word}»:",
       "percentages_discount": "Si hi ha un {d} % de descompte en un producte que originalment costa {price} €, quin import es pagarà un cop aplicat el descompte?",
       "percentages_increase": "Hem estat pagant {price} € al mes per un servei i aquest mes el preu puja un {d} %. Quin import pagarem un cop aplicada l'apujada?",
       "percentages_absent": "De les {n} persones inscrites en una jornada, només n'assisteix el {p} %. Quantes persones inscrites hi han faltat?",

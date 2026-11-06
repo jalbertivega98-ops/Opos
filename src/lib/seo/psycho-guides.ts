@@ -510,6 +510,132 @@ const G: PsychoGuide[] = [
       },
     ],
   },
+  {
+    type: "spelling",
+    slug: "ortografia",
+    title: {
+      es: "Test de ortografía para psicotécnicos",
+      ca: "Test d'ortografia castellana per a psicotècnics",
+    },
+    description: {
+      es: "Encuentra la palabra mal escrita entre cuatro (b/v, h, g/j, x/s, ll/y), como en el psicotécnico de Auxiliar del Estado. Gratis y comprobado con el diccionario de la RAE.",
+      ca: "Troba la paraula castellana mal escrita entre quatre (b/v, h, g/j, x/s, ll/y), com al psicotècnic d'Auxiliar de l'Estat. Gratis i comprovat amb el diccionari de la RAE.",
+    },
+    intro: {
+      es: "Tres palabras están bien escritas y una tiene una falta. Todas las formas correctas están en el Diccionario de la lengua española y ninguna de las erróneas.",
+      ca: "Tres paraules estan ben escrites i una té una falta. Totes les formes correctes són al Diccionario de la lengua española i cap de les errònies.",
+    },
+    method: [
+      {
+        es: "Lee cada palabra despacio y fíjate en las letras que suelen confundirse: b/v, g/j, ll/y, x/s y la h.",
+        ca: "Llegeix cada paraula a poc a poc i fixa't en les lletres que se solen confondre: b/v, g/j, ll/y, x/s i la h.",
+      },
+      {
+        es: "Piensa en palabras de la misma familia: si «hilo» lleva h, «hilvanar» también.",
+        ca: "Pensa en paraules de la mateixa família: si «hilo» porta h, «hilvanar» també.",
+      },
+      {
+        es: "Revisa las tildes: una tilde que falta o sobra también es un error ortográfico.",
+        ca: "Revisa els accents: un accent que falta o sobra també és un error ortogràfic.",
+      },
+    ],
+    faq: [
+      {
+        q: {
+          es: "¿Cuántas preguntas de ortografía hay en el examen de Auxiliar del Estado?",
+          ca: "Quantes preguntes d'ortografia hi ha a l'examen d'Auxiliar de l'Estat?",
+        },
+        a: {
+          es: "En los exámenes de 2024 y 2025 hubo 3 preguntas de «señale la palabra con error» dentro de las 30 psicotécnicas.",
+          ca: "Als exàmens del 2024 i el 2025 hi va haver 3 preguntes de «assenyali la paraula amb error» dins de les 30 psicotècniques.",
+        },
+      },
+    ],
+  },
+  {
+    type: "synonyms",
+    slug: "sinonimos",
+    title: {
+      es: "Test de sinónimos para psicotécnicos",
+      ca: "Test de sinònims castellans per a psicotècnics",
+    },
+    description: {
+      es: "Ejercicios de sinónimos con las listas del diccionario de la RAE, como en el psicotécnico de Auxiliar del Estado. Gratis y con la explicación de cada respuesta.",
+      ca: "Exercicis de sinònims castellans amb les llistes del diccionari de la RAE, com al psicotècnic d'Auxiliar de l'Estat. Gratis i amb l'explicació de cada resposta.",
+    },
+    intro: {
+      es: "Elige la palabra que significa lo mismo. La respuesta correcta está en la lista de sinónimos del Diccionario de la lengua española y ninguna otra opción lo está.",
+      ca: "Tria la paraula que vol dir el mateix. La resposta correcta és a la llista de sinònims del Diccionario de la lengua española i cap altra opció no hi és.",
+    },
+    method: [
+      {
+        es: "Piensa una frase con la palabra y prueba a cambiarla por cada opción.",
+        ca: "Pensa una frase amb la paraula i prova de canviar-la per cada opció.",
+      },
+      {
+        es: "Cuidado con el antónimo: suele aparecer entre las opciones como trampa.",
+        ca: "Compte amb l'antònim: sol aparèixer entre les opcions com a parany.",
+      },
+      {
+        es: "Si dudas, descarta primero las palabras que no tienen nada que ver.",
+        ca: "Si dubtes, descarta primer les paraules que no hi tenen res a veure.",
+      },
+    ],
+    faq: [
+      {
+        q: {
+          es: "¿De dónde salen los sinónimos?",
+          ca: "D'on surten els sinònims?",
+        },
+        a: {
+          es: "Del apartado «Sinónimos o afines» del Diccionario de la lengua española (RAE-ASALE), comprobado palabra por palabra.",
+          ca: "De l'apartat «Sinónimos o afines» del Diccionario de la lengua española (RAE-ASALE), comprovat paraula per paraula.",
+        },
+      },
+    ],
+  },
+  {
+    type: "antonyms",
+    slug: "antonimos",
+    title: {
+      es: "Test de antónimos para psicotécnicos",
+      ca: "Test d'antònims castellans per a psicotècnics",
+    },
+    description: {
+      es: "Ejercicios de antónimos con las listas del diccionario de la RAE, como en el psicotécnico de Auxiliar del Estado. Gratis y con la explicación de cada respuesta.",
+      ca: "Exercicis d'antònims castellans amb les llistes del diccionari de la RAE, com al psicotècnic d'Auxiliar de l'Estat. Gratis i amb l'explicació de cada resposta.",
+    },
+    intro: {
+      es: "Elige la palabra de significado contrario. La respuesta correcta está en la lista de antónimos del Diccionario de la lengua española y ninguna otra opción lo está.",
+      ca: "Tria la paraula de significat contrari. La resposta correcta és a la llista d'antònims del Diccionario de la lengua española i cap altra opció no hi és.",
+    },
+    method: [
+      {
+        es: "Piensa qué significa la palabra y busca la opción que diga lo contrario.",
+        ca: "Pensa què vol dir la paraula i busca l'opció que digui el contrari.",
+      },
+      {
+        es: "Cuidado con el sinónimo: suele aparecer entre las opciones como trampa.",
+        ca: "Compte amb el sinònim: sol aparèixer entre les opcions com a parany.",
+      },
+      {
+        es: "Los prefijos in-, des- y a- dan pistas, pero no siempre forman el antónimo.",
+        ca: "Els prefixos in-, des- i a- donen pistes, però no sempre formen l'antònim.",
+      },
+    ],
+    faq: [
+      {
+        q: {
+          es: "¿Cuántas preguntas de sinónimos y antónimos hay en el examen?",
+          ca: "Quantes preguntes de sinònims i antònims hi ha a l'examen?",
+        },
+        a: {
+          es: "En el examen de Auxiliar del Estado de 2025 hubo 6 y en el de 2024, 5, dentro de las 30 psicotécnicas.",
+          ca: "A l'examen d'Auxiliar de l'Estat del 2025 n'hi va haver 6 i al del 2024, 5, dins de les 30 psicotècniques.",
+        },
+      },
+    ],
+  },
 ];
 
 export const psychoGuides = (): PsychoGuide[] => G;

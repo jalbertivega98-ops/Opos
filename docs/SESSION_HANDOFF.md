@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-040)
+
+- Generadores `spelling`, `synonyms` y `antonyms` con el banco `verbal-bank.ts` comprobado en dle.rae.es (171 palabras, 70 pares de ortografía). Guías públicas nuevas.
+- Simulacro de psicotécnicos de la AGE con el reparto real (9 verbales + 9 numéricos + 12 tablas), preview `57-`.
+- Nota: en main, `tests/e2e/public.spec.ts` espera el título antiguo de Guardia Urbana (ya tiene contenido); no es de esta rama.
+
 ### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-039)
 
 - Guardia Urbana de Barcelona (889 preguntas), policía local de Cataluña (620), Bombers de la Generalitat (700) y Ayudantes IIPP (1.124), con fichas, réplicas de los exámenes publicados y simulacros con el formato real. Preview `51-` a `56-`; dudosas en borrador.

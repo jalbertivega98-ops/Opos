@@ -260,3 +260,15 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Motivo:** que cada oposición publicada explique y practique lo que de verdad entra en su examen.
 **Consecuencias:** cultura general y actualidad (Guardia Urbana, policía local), conocimiento de Barcelona, el bloque D de IIPP y las partes de desarrollo no se pueden practicar. La policía local depende de las bases de cada ayuntamiento: la ficha lo dice. Todo el contenido es redacción propia con cita literal de la fuente y lo puede revisar joel desde `/admin`.
 
+## ADR-040 · Psicotécnicos verbales de la AGE: sinónimos, antónimos y ortografía desde el DLE (2026-11-06)
+
+**Decisión:** tres generadores nuevos (`spelling`, `synonyms`, `antonyms`, en `src/lib/learning/psycho/verbal.ts`) sobre un banco comprobado en dle.rae.es desde el Chrome de joel (`verbal-bank.ts`): 171 entradas con sus listas de sinónimos y antónimos del DLE y 70 pares de ortografía (cada forma correcta existe en el DLE y cada errónea da «no está en el Diccionario»).
+
+- La respuesta es uno de los primeros sinónimos/antónimos del DLE (sentido principal; más hondos con la dificultad). Los distractores no tienen relación en el DLE con la palabra ni con sus sinónimos/antónimos; como en el examen, uno es del sentido contrario. Al corregir se comprueba que solo la respuesta está en la lista del DLE.
+- Lista de exclusión para acepciones raras o regionales (p. ej. «manso» → «finca») y palabras de los exámenes reales del INAP fuera del banco.
+- El simulacro de psicotécnicos de la AGE pasa al reparto real: ortografía 3, sinónimos 3, antónimos 3, series 2, porcentajes 3, ecuaciones 2, probabilidad 1, codificación 1 y tablas 12 (preview `57-`). El simulacro completo y las réplicas siguen con las 8 verbales del tema `age-aux-psicotecnicos-verbales` (ADR de las réplicas).
+- Guías públicas `/psicotecnicos/ortografia`, `/sinonimos` y `/antonimos`. En catalán el enunciado se traduce y las palabras siguen en castellano (el examen es en castellano).
+
+**Motivo:** cubrir las ~9 de 30 psicotécnicas verbales del examen real con variedad ilimitada y sin inventar: todo sale del diccionario de la RAE.
+**Consecuencias:** el banco es estático; ampliarlo exige volver a consultar el DLE. Las preguntas de uso (sino/si no, DPD) siguen solo en el tema de preguntas fijas.
+
