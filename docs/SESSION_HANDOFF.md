@@ -1,8 +1,14 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-06 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-06 · Sesión 3 (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
+
+### Entrar con Google (2026-11-06, rama `claude/project-thread-ncd6wh`, USR-012, ADR-040)
+
+- Botón «Continuar con Google» en `/entrar` y `/registro`; solo aparece cuando Google está activado en Supabase. Callback con onboarding para cuentas nuevas; perfil sin contraseña para cuentas solo Google (borrar cuenta exige haber entrado hace ≤ 10 min).
+- Migración `20261106000200_google_display_name` copiada en la preview `57-`.
+- Pendiente: que joel cree el cliente OAuth y lo active en Supabase (`docs/DEPLOYMENT.md` → «Entrar con Google») y diga «fusiona».
 
 ### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-039)
 

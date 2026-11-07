@@ -260,3 +260,17 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Motivo:** que cada oposición publicada explique y practique lo que de verdad entra en su examen.
 **Consecuencias:** cultura general y actualidad (Guardia Urbana, policía local), conocimiento de Barcelona, el bloque D de IIPP y las partes de desarrollo no se pueden practicar. La policía local depende de las bases de cada ayuntamiento: la ficha lo dice. Todo el contenido es redacción propia con cita literal de la fuente y lo puede revisar joel desde `/admin`.
 
+## ADR-040 · Entrar con Google (2026-11-06)
+
+**Decisión:** joel propuso que los alumnos puedan entrar con su cuenta de Google. Se usa el proveedor Google de Supabase Auth (OAuth con PKCE), sin librerías nuevas:
+
+- **Botón «Continuar con Google»** en `/entrar` y `/registro` (`GoogleSignIn`, `googleSignInAction`). La acción pide a Supabase la URL de Google (`signInWithOAuth`, `skipBrowserRedirect`, `prompt=select_account`) y redirige; el verificador PKCE queda en una cookie. Google vuelve a `/auth/callback?via=google&next=…`, que canjea el código, registra `auth.sign_in` y, si la cuenta no ha hecho el onboarding, guarda el idioma con el que llegó y la manda a `/app/onboarding`.
+- **El botón solo aparece si Google está activado en Supabase** (`isGoogleAuthEnabled()` lee `/auth/v1/settings`, caché 5 min, se oculta ante cualquier fallo). No hace falta variable de entorno: al activar el proveedor en Supabase aparece solo.
+- **Alta:** si el correo no existe se crea la cuenta; el aviso bajo el botón dice que se aceptan condiciones y privacidad. Migración `20261106000200_google_display_name` (preview `57-`): el perfil toma `full_name`/`name` de Google si no hay `display_name`. Si el correo ya existía con contraseña, Supabase enlaza las dos identidades (el correo de Google está verificado).
+- **Cuentas solo Google (sin contraseña, `hasPassword()`):** «Mi perfil» oculta cambiar contraseña y correo (se gestionan en Google) y borrar la cuenta no pide contraseña sino haber entrado hace ≤ 10 minutos (`signedInRecently()`).
+- **Errores:** si el alumno cancela en Google o el código no vale, vuelve a `/entrar?error=oauth` con un aviso propio.
+- Privacidad: Google como proveedor de identificación y datos que nos da (correo, nombre, enlace a la foto).
+- Pila local: GoTrue con Google activado y credenciales falsas; el e2e comprueba el salto a Google, no el login completo.
+
+**Motivo:** menos fricción en el registro (sin contraseña ni correo de confirmación) usando lo que Supabase ya trae.
+**Consecuencias:** joel tiene que crear el cliente OAuth en Google Cloud y activarlo en Supabase (pasos en `docs/DEPLOYMENT.md`). La pantalla de Google muestra el dominio `tnenqdecvenfbqjgubbf.supabase.co` salvo que se contrate un dominio propio en Supabase (de pago). Para mostrar el logo en la pantalla de consentimiento Google pide verificar la marca.

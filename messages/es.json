@@ -287,6 +287,12 @@
     "suspended": {
       "title": "Cuenta no disponible",
       "body": "Tu cuenta está suspendida o pendiente de eliminación. Si crees que es un error, contacta con soporte."
+    },
+    "google": {
+      "button": "Continuar con Google",
+      "or": "o con tu correo",
+      "terms": "Si es tu primera vez, se crea tu cuenta y aceptas las <terms>condiciones de uso</terms> y la <privacy>política de privacidad</privacy>.",
+      "error": "No se ha podido entrar con Google. Inténtalo de nuevo o entra con tu correo."
     }
   },
   "validation": {
@@ -317,7 +323,8 @@
     "sessionExpired": "Tu sesión ha caducado. Solicita un nuevo enlace.",
     "notFoundTitle": "Página no encontrada",
     "notFoundBody": "La página que buscas no existe o se ha movido.",
-    "home": "Ir al inicio"
+    "home": "Ir al inicio",
+    "oauth": "No se ha podido conectar con Google. Inténtalo de nuevo en unos minutos."
   },
   "app": {
     "greeting": "Hola, {name}",
@@ -478,7 +485,8 @@
       "wrongPassword": "Contraseña incorrecta.",
       "required": "Campo obligatorio.",
       "confirmWord": "Escribe ELIMINAR en mayúsculas.",
-      "sameEmail": "Ese ya es tu correo actual."
+      "sameEmail": "Ese ya es tu correo actual.",
+      "reauthGoogle": "Por seguridad, sal, vuelve a entrar con Google y borra la cuenta en los 10 minutos siguientes."
     },
     "securityTitle": "Contraseña",
     "securityBody": "Para cambiarla necesitamos tu contraseña actual.",
@@ -495,7 +503,10 @@
     "emailChangeSent": "Te hemos enviado un enlace de confirmación. Revisa tu bandeja (también la del correo actual) y pulsa el enlace para completar el cambio.",
     "billingTitle": "Suscripción y compras",
     "billingBody": "Tu Premium, los packs que has comprado y la gestión del pago.",
-    "billingNone": "Todavía no tienes ninguna suscripción ni compra."
+    "billingNone": "Todavía no tienes ninguna suscripción ni compra.",
+    "googleTitle": "Entras con Google",
+    "googleBody": "Tu cuenta ({email}) usa Google para entrar, así que no tiene contraseña de OPOSAPRUEBA. El correo y la seguridad se gestionan desde tu cuenta de Google.",
+    "deleteGoogleHint": "Como entras con Google, por seguridad solo puedes borrar la cuenta en los 10 minutos siguientes a haber entrado."
   },
   "landingNotice": {
     "deleted": "Tu cuenta se ha eliminado. Gracias por haber confiado en nosotros."

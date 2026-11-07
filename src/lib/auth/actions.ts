@@ -1,15 +1,17 @@
 "use server";
 
 import { headers } from "next/headers";
+import { redirect as redirectExternal } from "next/navigation";
 import { getLocale } from "next-intl/server";
 import { redirect } from "@/i18n/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { publicEnv } from "@/lib/env";
 import { authLimiter } from "@/lib/rate-limit";
-import { safeNextPath } from "@/lib/paths";
+import { safeNextPath, stripLocale } from "@/lib/paths";
 import {
   fieldErrors,
   forgotSchema,
+  oauthSchema,
   resetSchema,
   signInSchema,
   signUpSchema,
@@ -86,6 +88,38 @@ export async function signInAction(_: FormState, formData: FormData): Promise<Fo
   await supabase.rpc("track_activity", { p_kind: "auth.sign_in" });
   redirect({ href: safeNextPath(next, "/app"), locale });
   return { status: "success" };
+}
+
+/**
+ * «Continuar con Google»: pide a Supabase la URL de Google (flujo PKCE, el verificador
+ * queda en una cookie) y manda allí al usuario. Google vuelve a /auth/callback, que
+ * canjea el código por la sesión. Sirve tanto para entrar como para crear la cuenta.
+ */
+export async function googleSignInAction(_: FormState, formData: FormData): Promise<FormState> {
+  const parsed = oauthSchema.safeParse(Object.fromEntries(formData));
+  if (!parsed.success) return { status: "error", message: "errors.generic" };
+  const block = await limited("oauth");
+  if (block) return block;
+
+  const { locale } = parsed.data;
+  const target = safeNextPath(parsed.data.next, "/app");
+  // `next` puede venir ya con prefijo de idioma (/ca/app/...): no lo duplicamos.
+  const next = stripLocale(target) === target ? localePath(locale, target) : target;
+  const callback = new URL("/auth/callback", publicEnv.NEXT_PUBLIC_SITE_URL);
+  callback.searchParams.set("next", next);
+  callback.searchParams.set("via", "google");
+
+  const supabase = await createClient();
+  const { data, error } = await supabase.auth.signInWithOAuth({
+    provider: "google",
+    options: {
+      redirectTo: callback.toString(),
+      skipBrowserRedirect: true,
+      queryParams: { prompt: "select_account" },
+    },
+  });
+  if (error || !data.url) return { status: "error", message: "errors.oauth" };
+  redirectExternal(data.url);
 }
 
 export async function forgotPasswordAction(_: FormState, formData: FormData): Promise<FormState> {
