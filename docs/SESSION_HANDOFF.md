@@ -1,8 +1,14 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-06 · Sesión 3 (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-07 · Sesión 3 (+ test gratis sin registro ADR-041) (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
+
+### Test gratis sin registro (2026-11-07, rama `claude/project-thread-ovjh4r`, MKT-004, ADR-041)
+
+- `/oposiciones/<slug>/test` (es y ca): 10 preguntas del día de los temas gratis, corrección al momento, sin cuenta y sin guardar nada. Enlace desde la ficha y entrada en el sitemap si hay ≥ 5 preguntas.
+- Migración `20261107000100_public_sample_test` copiada en la preview `58-`. Revisión semanal de Search Console en `docs/SEO.md` §8.
+- Pendiente: que joel lo pruebe en la vista previa y diga «fusiona»; después, pedir indexación de las páginas `/test` en Search Console.
 
 ### Entrar con Google (2026-11-06, rama `claude/project-thread-ncd6wh`, USR-012, ADR-040)
 

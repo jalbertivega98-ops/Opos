@@ -274,3 +274,18 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 
 **Motivo:** menos fricción en el registro (sin contraseña ni correo de confirmación) usando lo que Supabase ya trae.
 **Consecuencias:** joel tiene que crear el cliente OAuth en Google Cloud y activarlo en Supabase (pasos en `docs/DEPLOYMENT.md`). La pantalla de Google muestra el dominio `tnenqdecvenfbqjgubbf.supabase.co` salvo que se contrate un dominio propio en Supabase (de pago). Para mostrar el logo en la pantalla de consentimiento Google pide verificar la marca.
+
+## ADR-041 · Test gratis sin registro por oposición (2026-11-07)
+
+**Decisión:** para posicionar en búsquedas genéricas como «test oposiciones Mossos», cada oposición con preguntas gratis tiene una página pública `/oposiciones/<slug>/test` (es y ca) con un test que se hace sin cuenta:
+
+- **Qué preguntas:** solo publicadas (`status = 'published'`, `is_test = false`) de los temas gratis de la oposición (los de su pack gratuito, `config.topic_slugs`). Es contenido que ya es gratis con cuenta; no se abre nada de pago.
+- **Muestra del día:** 10 preguntas ordenadas por `md5(id || fecha de Madrid)`; cambian cada día y son estables durante el día.
+- **Sin solución en la página:** `exam_sample_questions` (SECURITY DEFINER, anon) devuelve enunciado, opciones, referencia, idioma y tema. `check_exam_sample_answer` corrige una pregunta de esa muestra posible y devuelve la buena y la explicación. No se guarda nada; la cuenta de aciertos vive en el navegador (como la demo de psicotécnicos).
+- **SEO:** título «Test <oposición> gratis online: N preguntas con solución», Quiz/LearningResource en JSON-LD, migas, enlace desde la ficha y entrada en el sitemap (`changeFrequency: daily`). Con menos de 5 preguntas la página es `noindex` y no sale en la ficha ni en el sitemap; sin preguntas, 404.
+- Al acabar invita a crear cuenta gratis (3 temas completos, progreso y repaso de fallos).
+
+Migración `20261107000100_public_sample_test` (preview `58-`).
+
+**Motivo:** quien busca «test <oposición>» quiere hacer un test ya; si hay que registrarse antes, Google prefiere otras páginas.
+**Consecuencias:** cualquiera puede ir viendo, día a día, las preguntas de los temas gratis con su solución. Es asumible porque ya eran gratis con una cuenta.

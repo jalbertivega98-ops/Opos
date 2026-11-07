@@ -4,6 +4,7 @@ import { listPublicExams, isExamIndexable } from "@/lib/seo/catalog";
 import { getExamGuide } from "@/lib/seo/exam-guides";
 import { psychoGuides } from "@/lib/seo/psycho-guides";
 import { absoluteUrl } from "@/lib/seo/site";
+import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
 
 // Se regenera cada hora para recoger oposiciones que pasen a «disponible».
 export const revalidate = 3600;
@@ -25,6 +26,14 @@ function entries(
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const exams = (await listPublicExams()).filter(isExamIndexable);
+  // Test gratis sin registro (ADR-041): solo si hay preguntas suficientes.
+  const withSample = (
+    await Promise.all(
+      exams.map(async (e) =>
+        (await examSampleQuestions(e.slug, "es")).length >= SAMPLE_MIN ? e.slug : null,
+      ),
+    )
+  ).filter((s): s is string => s !== null);
   return [
     ...entries("/", { changeFrequency: "weekly", priority: 1 }),
     ...entries("/oposiciones", { changeFrequency: "weekly", priority: 0.9 }),
@@ -34,6 +43,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.8,
         lastModified: getExamGuide(e.slug)?.verifiedOn ?? e.updated_at ?? undefined,
       }),
+    ),
+    ...withSample.flatMap((slug) =>
+      entries(`/oposiciones/${slug}/test`, { changeFrequency: "daily", priority: 0.8 }),
     ),
     ...entries("/psicotecnicos", { changeFrequency: "monthly", priority: 0.8 }),
     ...psychoGuides().flatMap((g) =>
