@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ExternalLink } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Alert } from "@/components/ui/form";
@@ -17,6 +17,7 @@ import { examOffer } from "@/lib/store/queries";
 import { ExamOfferSection } from "@/components/store/exam-offer";
 import { billingStatus } from "@/lib/billing/queries";
 import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
+import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
 
 export async function generateMetadata({
   params,
@@ -52,9 +53,10 @@ export default async function ExamPage({
   const tests = [...exam.exam_tests].sort((a, b) => a.order_index - b.order_index);
   const sources = exam.exam_body_sources.map((s) => s.source).filter((s) => s !== null);
   const guide = getExamGuide(exam.slug);
-  const [offer, topics] = await Promise.all([
+  const [offer, topics, sample] = await Promise.all([
     examOffer(exam.slug),
     guide ? listExamTopics(exam.id) : Promise.resolve([]),
+    examSampleQuestions(exam.slug, locale),
   ]);
   const name = localized(locale, exam.name, exam.name_ca);
 
@@ -121,6 +123,22 @@ export default async function ExamPage({
           {exam.availability === "coming_soon" ? t("catalog.follow") : t("catalog.prepare")}
         </Link>
       </Button>
+
+      {sample.length >= SAMPLE_MIN && (
+        <Link
+          href={`/oposiciones/${exam.slug}/test`}
+          className="border-border hover:border-accent mt-6 flex items-center justify-between gap-4 rounded-xl border p-4 transition-colors"
+          data-testid="sample-test-link"
+        >
+          <span>
+            <span className="block font-semibold">{t("seo.sample.cta", { exam: name })}</span>
+            <span className="text-muted-foreground text-sm">
+              {t("seo.sample.ctaHint", { n: sample.length })}
+            </span>
+          </span>
+          <ArrowRight className="text-accent size-5 shrink-0" aria-hidden />
+        </Link>
+      )}
 
       {guide && <ExamGuideSection guide={guide} locale={locale} topics={topics} />}
 
