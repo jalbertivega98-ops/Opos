@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-cultural-idescat-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Anuari estadístic de Catalunya i El municipi en xifres (Institut d'Estadística de Catalunya)",
+      "url": "https://www.idescat.cat/indicadors/?id=aec&lang=ca",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estadística de Catalunya (Idescat)",
+      "published_on": null
+    },
+    "notes": "Rèplica original de la part cultural (cultura general i actualitat) de l'examen oficial publicat: una pregunta pròpia sobre el mateix concepte; les d'actualitat antiga se substitueixen per un fet recent del mateix tipus (s'indica a l'explicació). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "GUB 2022 p. 55 (reserva) · Barcelonès",
+      "stem": "Quants municipis formen la comarca del Barcelonès, el nucli de l'àrea metropolitana?",
+      "options": [
+        "5",
+        "36",
+        "23",
+        "9"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Rèplica de la reserva 55 (municipis de l'àmbit metropolità). El Barcelonès té 5 municipis; l'Àrea Metropolitana de Barcelona n'aplega més.",
+      "excerpt": "Barcelonès Barcelona Barcelona 5 2.398.280",
+      "excerpt_status": "completo"
+    }
+  ]
+}

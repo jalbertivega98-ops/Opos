@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "set": "cultcat-08-matematiques-diec-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 8. Matemàtiques: aritmètica, geometria i estadística bàsiques",
+    "topic_slug": "cultcat-08-matematiques",
+    "locale": "ca",
+    "category": "cultcat_08_matematiques",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Diccionari de la llengua catalana, 2a edició (DIEC2), Institut d'Estudis Catalans",
+      "url": "https://dlc.iec.cat/",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estudis Catalans",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Perímetre",
+      "stem": "Quin és el perímetre d'un rectangle de 8 m de llarg i 5 m d'ample?",
+      "options": [
+        "26 m",
+        "40 m",
+        "13 m",
+        "80 m"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El perímetre és el contorn de la figura: 8 + 5 + 8 + 5 = 26 m. 40 m² seria l'àrea.",
+      "excerpt": "perímetre 1 1 m. [LC] [MT] Contorn d’una figura plana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Diàmetre",
+      "stem": "Si el radi d'un cercle fa 7 cm, quant fa el diàmetre?",
+      "options": [
+        "3,5 cm",
+        "14 cm",
+        "21 cm",
+        "49 cm"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El diàmetre val dos radis: 2 × 7 = 14 cm.",
+      "excerpt": "El diàmetre d’un cercle val tant com dos radis.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Hexàgon",
+      "stem": "Quants costats té un hexàgon?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'hexàgon té sis angles i sis costats; el pentàgon, cinc.",
+      "excerpt": "hexàgon m. [MT] Polígon de sis angles i de sis costats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Any de traspàs",
+      "stem": "Quants dies té un any de traspàs (bixest)?",
+      "options": [
+        "365",
+        "364",
+        "366",
+        "360"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'any comú té 365 dies i l'any de traspàs, 366.",
+      "excerpt": "any 3 5 [FIA] any comú Any civil que consta de 365 dies. 3 6 [FIA] [LC] any de traspàs Any civil que consta de 366 dies.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Percentatge",
+      "stem": "Quant és el 25% de 80?",
+      "options": [
+        "20",
+        "25",
+        "32",
+        "4"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Un percentatge és un tant per cent: 80 × 25 / 100 = 20.",
+      "excerpt": "percentatge m. [LC] [MT] Tant per cent.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Triangle equilàter",
+      "stem": "Com s'anomena el triangle que té tots els costats iguals?",
+      "options": [
+        "Isòsceles",
+        "Escalè",
+        "Equilàter",
+        "Rectangle"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'equilàter té tots els costats iguals; l'isòsceles, dos.",
+      "excerpt": "equilàter -a adj. [LC] [MT] Que té tots els costats iguals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Hipotenusa",
+      "stem": "En un triangle rectangle els catets fan 6 cm i 8 cm. Quant fa la hipotenusa?",
+      "options": [
+        "14 cm",
+        "12 cm",
+        "48 cm",
+        "10 cm"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Pel teorema de Pitàgores: 6² + 8² = 36 + 64 = 100, i l'arrel quadrada de 100 és 10.",
+      "excerpt": "hipotenusa f. [LC] [MT] Costat d’un triangle rectangle oposat a l’angle recte. El quadrat de la hipotenusa és igual a la suma dels quadrats dels catets.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Isòsceles",
+      "stem": "Com s'anomena un triangle que té dos costats iguals?",
+      "options": [
+        "Equilàter",
+        "Isòsceles",
+        "Escalè",
+        "Obtusangle"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Isòsceles s'aplica als triangles o trapezis amb dos costats iguals.",
+      "excerpt": "isòsceles adj. [LC] [MT] Que té dos costats iguals, s’aplica als triangles o als trapezis.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Moda estadística",
+      "stem": "En la sèrie de dades 3, 5, 5, 7, 9, 5, 7, quina és la moda?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "3"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La moda és el valor més freqüent: el 5 apareix tres vegades.",
+      "excerpt": "moda 2 f. [MT] En estad., valor de l’observació més freqüent en un conjunt de dades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Mitjana aritmètica",
+      "stem": "Quina és la mitjana aritmètica de 4, 8, 10 i 14?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "36"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La suma és 36 i, dividida entre 4 valors, dona 9.",
+      "excerpt": "mitjà2 -ana 2 adj. [LC] [MT] Que correspon a la mitjana aritmètica, s’aplica a noms que expressen quantitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Múltiple",
+      "stem": "Quin d'aquests nombres és múltiple de 4?",
+      "options": [
+        "12",
+        "10",
+        "14",
+        "18"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Un múltiple conté el nombre un nombre exacte de vegades: 12 = 4 × 3.",
+      "excerpt": "El nombre 12 és un múltiple de 4.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Quadrat d'un nombre",
+      "stem": "Quin resultat s'obté en elevar 7 al quadrat?",
+      "options": [
+        "14",
+        "21",
+        "77",
+        "49"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Elevar al quadrat és multiplicar el nombre per ell mateix: 7 × 7 = 49.",
+      "excerpt": "quadrar 1 3 v. tr. [MT] Elevar (un nombre) al quadrat, multiplicar-lo per ell mateix.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Pentàgon",
+      "stem": "Quina suma dels costats té un pentàgon regular de 6 cm de costat?",
+      "options": [
+        "36 cm",
+        "24 cm",
+        "30 cm",
+        "42 cm"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El pentàgon té cinc costats: 5 × 6 = 30 cm (amb sis costats, un hexàgon, serien 36 cm).",
+      "excerpt": "pentàgon m. [MT] Polígon de cinc angles i de cinc costats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Xifra romana",
+      "stem": "Quin any representa en xifres romanes MCDXCII?",
+      "options": [
+        "1492",
+        "1592",
+        "1412",
+        "1942"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "M = 1000, CD = 400, XC = 90 i II = 2: 1492. Les xifres romanes són I, V, X, L, C, D i M.",
+      "excerpt": "xifra romana Lletra majúscula emprada pels romans per a representar els nombres: I, V, X, L, C, D, M.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Circumferència",
+      "stem": "Com s'anomena la corba plana els punts de la qual són tots a la mateixa distància d'un punt interior, el centre?",
+      "options": [
+        "El·lipse",
+        "Paràbola",
+        "Hipèrbola",
+        "Circumferència"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Tots els punts de la circumferència equidisten del centre; aquesta distància és el radi.",
+      "excerpt": "circumferència 1 1 f. [LC] [MT] Corba plana els punts de la qual equidisten tots d’un punt interior, el centre.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Propietat commutativa",
+      "stem": "Quina propietat expressa la igualtat 3 × 5 = 5 × 3?",
+      "options": [
+        "La propietat associativa",
+        "La propietat commutativa",
+        "La propietat distributiva",
+        "L'element neutre"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Una operació és commutativa quan l'ordre dels elements no canvia el resultat, com la suma i el producte de nombres reals.",
+      "excerpt": "commutatiu -iva 3 1 adj. [MT] En què l’ordre dels elements no canvia el resultat, s’aplica a operacions aritmètiques. La suma i el producte de nombres reals són commutatius.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Equació",
+      "stem": "Quin valor de x resol l'equació 3x - 4 = 11?",
+      "options": [
+        "5",
+        "7/3",
+        "15",
+        "3"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Una equació és una igualtat amb incògnites: 3x = 15, per tant x = 5.",
+      "excerpt": "equació 2 1 f. [MT] En mat., igualtat entre dues expressions que contenen una o més incògnites.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Probabilitat",
+      "stem": "Quina és la probabilitat d'obtenir un nombre parell en llançar un dau de sis cares?",
+      "options": [
+        "1/6",
+        "1/2",
+        "1/3",
+        "2/3"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hi ha tres casos favorables (2, 4 i 6) de sis possibles: 3/6 = 1/2.",
+      "excerpt": "probabilitat 2 f. [MT] Concepte que permet d’expressar quantitativament el caràcter aleatori d’un esdeveniment o fenomen que hom creu que pot succeir.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Màxim comú divisor",
+      "stem": "Quin és el màxim comú divisor de 18 i 24?",
+      "options": [
+        "3",
+        "12",
+        "6",
+        "72"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els divisors comuns de 18 i 24 són 1, 2, 3 i 6; el més gran és 6 (72 és el mínim comú múltiple). El DIEC posa l'exemple de 16 i 20, amb MCD 4.",
+      "excerpt": "divisor comú Nombre que és divisor de dues o més quantitats alhora. El més gran divisor comú de 16 i 20 és 4.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Fracció",
+      "stem": "Quant són els 3/4 de 60?",
+      "options": [
+        "15",
+        "20",
+        "80",
+        "45"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Una fracció representa parts de la unitat: 60 / 4 = 15 i 15 × 3 = 45.",
+      "excerpt": "fracció 2 2 f. [LC] [MT] En mat., una o més parts alíquotes de la unitat.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

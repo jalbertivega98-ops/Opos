@@ -4,11 +4,16 @@
 
 ## Estado exacto
 
-### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-042)
+### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-043)
 
 - Generadores `spelling`, `synonyms` y `antonyms` con el banco `verbal-bank.ts` comprobado en dle.rae.es (171 palabras, 70 pares de ortografía). Guías públicas nuevas.
-- Simulacro de psicotécnicos de la AGE con el reparto real (9 verbales + 9 numéricos + 12 tablas), preview `59-`.
+- Simulacro de psicotécnicos de la AGE con el reparto real (9 verbales + 9 numéricos + 12 tablas), preview `63-`.
 - Nota: en main, `tests/e2e/public.spec.ts` espera el título antiguo de Guardia Urbana (ya tiene contenido); no es de esta rama.
+
+### Lo que no se podía practicar (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-027, ADR-042)
+
+- Cultura general y actualidad (`cultcat-*`, `actcat-01`, carpeta `cultura-cat`), conocimiento de Barcelona (`gub-t39`), bloque D y supuestos de IIPP. Preview `59-` a `62-`. Simulacros de Guardia Urbana y policía local con el examen completo.
+- `actcat-01-actualitat` caduca: renovarlo cada trimestre. Pendiente: réplica IIPP 2025 (PDF escaneado) y que joel diga «fusiona».
 
 ### Test gratis sin registro (2026-11-07, rama `claude/project-thread-ovjh4r`, MKT-004, ADR-041)
 

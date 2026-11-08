@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-govmedor26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "El Govern lliura la Medalla d'Or de la Generalitat al cuiner Ferran Adrià i a la física i directora del Sincrotró ALBA Caterina Biscari (nota de premsa, 01/09/2026)",
+      "url": "https://govern.cat/salapremsa/notes-premsa/862672/el-govern-lliura-la-medalla-d-or-de-la-generalitat-al-cuiner-ferran-adria-i-a-la-fisica-i-directora-del-sincrotro-alba-caterina-biscari",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya, Govern.cat",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Medalla d'Or de la Generalitat 2026",
+      "stem": "A qui va atorgar el Govern la Medalla d'Or de la Generalitat el setembre de 2026?",
+      "options": [
+        "A la filòsofa Victòria Camps i a la periodista Julia Otero",
+        "A la cantant Sílvia Pérez Cruz i a l'actor Oriol Pla",
+        "Al cuiner Ferran Adrià i a la física Caterina Biscari",
+        "Al cuiner Fermí Puig i a l'empresari Miguel A. Torres"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "1 de setembre de 2026: el Consell Executiu va aprovar la Medalla d'Or, la màxima distinció de la Generalitat, per a Ferran Adrià i Caterina Biscari; es va lliurar el 8 de setembre.",
+      "excerpt": "El Consell Executiu ha aprovat atorgar la Medalla d’Or de la Generalitat de Catalunya al cuiner Ferran Adrià i a la física i directora del Sincrotró ALBA Caterina Biscari",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Medalla d'Or 2026, Caterina Biscari",
+      "stem": "Quina gran instal·lació científica dirigeix Caterina Biscari, Medalla d'Or de la Generalitat 2026?",
+      "options": [
+        "El Sincrotró ALBA",
+        "El Barcelona Supercomputing Center",
+        "L'Observatori Fabra",
+        "L'Institut de Ciències del Mar"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "1 de setembre de 2026: Biscari dirigeix el Sincrotró ALBA des del 2012; les línies de llum hi han passat de set a catorze.",
+      "excerpt": "l’any 2012 va arribar a Barcelona per dirigir el Sincrotró ALBA.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

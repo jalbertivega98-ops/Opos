@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "cultcat-02-historia-espanya-mon-onu-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 2. Història d'Espanya i universal",
+    "topic_slug": "cultcat-02-historia-espanya-mon",
+    "locale": "ca",
+    "category": "cultcat_02_historia_espanya_mon",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "United Nations: About Us, UN Charter, Main Bodies i Selection and Appointment of the Next Secretary-General",
+      "url": "https://www.un.org/en/about-us",
+      "kind": "web_oficial",
+      "publisher": "United Nations",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "ONU, fundació",
+      "stem": "En quin any es va fundar l'Organització de les Nacions Unides (ONU)?",
+      "options": [
+        "1919",
+        "1939",
+        "1957",
+        "1945"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'ONU es va fundar el 1945, en acabar la Segona Guerra Mundial; avui en formen part 193 estats membres.",
+      "excerpt": "The United Nations is an international organization founded in 1945.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Carta de les Nacions Unides, signatura",
+      "stem": "En quina ciutat es va signar, el 26 de juny de 1945, la Carta de les Nacions Unides?",
+      "options": [
+        "Nova York",
+        "San Francisco",
+        "Ginebra",
+        "Londres"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La Carta, document fundacional de l'ONU, es va signar a San Francisco el 26 de juny de 1945 i va entrar en vigor el 24 d'octubre de 1945 (Dia de les Nacions Unides).",
+      "excerpt": "It was signed on 26 June 1945, in San Francisco, at the conclusion of the United Nations Conference on International Organization, and came into force on 24 October 1945.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

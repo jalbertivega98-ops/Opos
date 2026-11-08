@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "cultcat-04-art-patrimoni-reinasofia-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 4. Art i patrimoni (estils artístics, museus i patrimoni mundial)",
+    "topic_slug": "cultcat-04-art-patrimoni",
+    "locale": "ca",
+    "category": "cultcat_04_art_patrimoni",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Guernica (Pablo Picasso, 1937), fitxa de la col·lecció",
+      "url": "https://www.museoreinasofia.es/colecciones/obra/guernica",
+      "kind": "web_oficial",
+      "publisher": "Museo Nacional Centro de Arte Reina Sofía",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Guernica, autor",
+      "stem": "Qui va pintar el Guernica, que es conserva al Museo Reina Sofía de Madrid?",
+      "options": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "Antoni Tàpies",
+        "Pablo Picasso"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El Guernica és un oli sobre tela de Pablo Picasso, pintat a París el 1937.",
+      "excerpt": "GUERNICA Picasso, Pablo (Pablo Ruiz Picasso)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Guernica, encàrrec",
+      "stem": "Per a quin esdeveniment va néixer el Guernica de Picasso, el 1937?",
+      "options": [
+        "Per a l'Exposició Universal de Barcelona",
+        "Per al Pavelló Espanyol de l'Exposició Internacional de París",
+        "Per a la inauguració del MoMA de Nova York",
+        "Per a la Biennal de Venècia"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El quadre va néixer per formar part del Pavelló Espanyol a l'Exposició Internacional de París de 1937, arran del bombardeig de la vila basca de Gernika per l'aviació alemanya.",
+      "excerpt": "el lienzo Guernica nació para formar parte del Pabellón Español en la Exposición Internacional de París, de 1937.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Guernica, retorn a Espanya",
+      "stem": "En quin any va tornar a Espanya el Guernica, que Picasso havia deixat en préstec al MoMA fins que s'hi restablissin les llibertats democràtiques?",
+      "options": [
+        "1975",
+        "1978",
+        "1992",
+        "1981"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El Guernica va tornar a Espanya el 1981; el museu el defineix com un quadre tardocubista i surrealista.",
+      "excerpt": "regresando la obra finalmente a nuestro país en el año 1981.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

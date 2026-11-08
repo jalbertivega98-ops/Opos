@@ -1,4 +1,4 @@
--- Auxiliar del Estado: bloque verbal de los psicotécnicos (ADR-042).
+-- Auxiliar del Estado: bloque verbal de los psicotécnicos (ADR-043).
 -- Sinónimos, antónimos y ortografía con un banco comprobado en el DLE de la RAE.
 -- El simulacro de psicotécnicos pasa al reparto del examen real (2024-2025):
 -- 3 ortografía + 6 sinónimos/antónimos + 9 numéricos + 12 de tablas.

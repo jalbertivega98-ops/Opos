@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "set": "cultcat-09-institucions-economia-eac-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 9. Institucions (Catalunya, Espanya, UE, ONU) i economia bàsica",
+    "topic_slug": "cultcat-09-institucions-economia",
+    "locale": "ca",
+    "category": "cultcat_09_institucions_economia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-13087",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "EAC art. 10, capital",
+      "stem": "Segons l'Estatut d'autonomia, quina ciutat és la capital de Catalunya i seu permanent del Parlament, la Presidència i el Govern?",
+      "options": [
+        "Tarragona",
+        "Girona",
+        "Lleida",
+        "Barcelona"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'article 10 de l'Estatut estableix que la capital és Barcelona, tot i que el Parlament i el Govern es poden reunir en altres llocs de Catalunya.",
+      "excerpt": "La capital de Cataluña es la ciudad de Barcelona, que es la sede permanente del Parlamento, de la Presidencia de la Generalitat y del Gobierno",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "EAC art. 6.1, llengua pròpia",
+      "stem": "Quina és la llengua pròpia de Catalunya segons l'article 6 de l'Estatut?",
+      "options": [
+        "El castellà",
+        "El català",
+        "L'occità",
+        "El català i el castellà per igual"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El català és la llengua pròpia i oficial de Catalunya; el castellà també hi és oficial, com a llengua oficial de l'Estat.",
+      "excerpt": "La lengua propia de Cataluña es el catalán.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "EAC art. 56.1, Parlament",
+      "stem": "Segons l'Estatut, entre quants diputats pot tenir el Parlament de Catalunya?",
+      "options": [
+        "Entre un mínim de 300 i un màxim de 400",
+        "Entre un mínim de 50 i un màxim de 100",
+        "Entre un mínim de 100 i un màxim de 150",
+        "Exactament 135, fixats per l'Estatut"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 56.1 fixa entre 100 i 150 diputats, elegits per quatre anys; actualment en són 135 per la normativa electoral.",
+      "excerpt": "El Parlamento se compone de un mínimo de cien Diputados y un máximo de ciento cincuenta, elegidos para un plazo de cuatro años",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "EAC art. 67.4, nomenament del president",
+      "stem": "Qui nomena el president o presidenta de la Generalitat, un cop elegit pel Parlament?",
+      "options": [
+        "El president del Govern de l'Estat",
+        "El president del Parlament",
+        "El Rei",
+        "El Tribunal Constitucional"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El president és elegit pel Parlament d'entre els seus membres i nomenat pel Rei (art. 67 EAC).",
+      "excerpt": "El Presidente o Presidenta de la Generalitat es nombrado por el Rey.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

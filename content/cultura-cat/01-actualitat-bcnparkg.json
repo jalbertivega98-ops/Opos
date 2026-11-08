@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcnparkg-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "El Park Güell presenta una exposició de 900 fotografies que recorren un segle de la seva història (05/11/2026)",
+      "url": "https://ajuntament.barcelona.cat/premsa/2026/11/05/el-park-guell-presenta-una-exposicio-de-900-fotografies-que-recorren-un-segle-de-la-seva-historia/",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Centenari del Park Güell com a parc públic",
+      "stem": "Quin centenari es commemora el 2026 al Park Güell?",
+      "options": [
+        "Els cent anys de la mort d'Eusebi Güell",
+        "Els cent anys de la inscripció a la UNESCO",
+        "Els cent anys de la Casa Museu Gaudí",
+        "Els cent anys com a parc públic"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Novembre de 2026: la commemoració dels cent anys del Park Güell com a parc públic coincideix amb l'Any Gaudí i la Capitalitat Mundial de l'Arquitectura.",
+      "excerpt": "forma part de la commemoració dels cent anys del Park Güell com a parc públic",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "set": "cultcat-05-literatura-diec-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 5. Literatura catalana, castellana i universal",
+    "topic_slug": "cultcat-05-literatura",
+    "locale": "ca",
+    "category": "cultcat_05_literatura",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Diccionari de la llengua catalana, 2a edició (DIEC2), Institut d'Estudis Catalans",
+      "url": "https://dlc.iec.cat/",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estudis Catalans",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Renaixença",
+      "stem": "Com s'anomena el moviment cultural del segle XIX que va promoure la recuperació de la llengua i la literatura catalanes?",
+      "options": [
+        "La Renaixença",
+        "El Noucentisme",
+        "El Renaixement",
+        "El Modernisme"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La Renaixença és el moviment vuitcentista de recuperació del català; el Renaixement és el moviment europeu que recupera l'art grecoromà.",
+      "excerpt": "renaixença 2 f. [FLL] Moviment cultural vuitcentista promotor de la recuperació de la llengua i la literatura catalanes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Sonet",
+      "stem": "Com s'anomena la composició poètica formada per dos quartets i dos tercets?",
+      "options": [
+        "Haiku",
+        "Romanç",
+        "Sonet",
+        "Octava reial"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El sonet té catorze versos: dos quartets i dos tercets.",
+      "excerpt": "sonet 1 m. [FLL] [LC] Composició poètica formada per dos quartets amb dues soles rimes i dos tercets.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Faula",
+      "stem": "Com s'anomena la narració que dona un ensenyament moral per mitjà d'animals que parlen i actuen com a persones?",
+      "options": [
+        "Faula",
+        "Llegenda",
+        "Epopeia",
+        "Crònica"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La faula és una ficció al·legòrica amb un ensenyament útil o moral, sovint amb animals com a protagonistes.",
+      "excerpt": "faula 2 2 f. [FLL] [LC] Narració en què es dona un ensenyament útil o moral, per mitjà d’una ficció al·legòrica en què intervenen animals i àdhuc éssers inanimats parlant i obrant com si fossin éssers humans o racionals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Noucentisme",
+      "stem": "Quin moviment cultural d'abast polític es va iniciar a Catalunya a la primeria del segle XX?",
+      "options": [
+        "La Renaixença",
+        "El noucentisme",
+        "El romanticisme",
+        "El modernisme"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El noucentisme va seguir el modernisme; la Renaixença és del segle XIX.",
+      "excerpt": "noucentisme m. [HIH] Moviment cultural d’abast polític iniciat a Catalunya a la primeria del segle xx.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

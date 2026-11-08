@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcnarq-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Barcelona 2026, Capital Mundial de l’Arquitectura",
+      "url": "https://ajuntament.barcelona.cat/urbanisme-accio-climatica-mobilitat-pla-barris-serveis-urbans/ca/news/barcelona-2026-capital-mundial-de-larquitectura-1377921",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Barcelona, Capital Mundial de l'Arquitectura",
+      "stem": "Quina capitalitat té Barcelona durant el 2026?",
+      "options": [
+        "Capital Mundial de l'Arquitectura",
+        "Capital Europea de la Cultura",
+        "Capital Mundial del Llibre",
+        "Capital Verda Europea"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "2026: Barcelona és Capital Mundial de l'Arquitectura, amb activitats de Santa Eulàlia a Santa Llúcia, i acull el congrés de la Unió Internacional d'Arquitectes.",
+      "excerpt": "Barcelona 2026, Capital Mundial de l’Arquitectura.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Congrés de la UIA a Barcelona",
+      "stem": "Quan havia acollit Barcelona per última vegada el Congrés de la Unió Internacional d'Arquitectes, abans del de l'estiu de 2026?",
+      "options": [
+        "El 1992",
+        "El 1996",
+        "El 1888",
+        "El 2004"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Estiu de 2026: el congrés torna a Barcelona tres dècades després de la 19a edició, de 1996.",
+      "excerpt": "A l’estiu la ciutat serà la seu del Congrés de la Unió Internacional d’Arquitectes, tres dècades després d’haver estat la seu de la 19a edició, el 1996.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

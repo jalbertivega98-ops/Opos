@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-cultural-bcnpadro26-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "La població de Barcelona. Lectura del padró municipal d’habitants a 01/01/2026: síntesi de resultats",
+      "url": "https://dades.ajuntament.barcelona.cat/informe-padro-poblacio/ca/seccio_2.html",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona, Departament d'Estadística i Difusió de Dades",
+      "published_on": null
+    },
+    "notes": "Rèplica original de la part cultural (cultura general i actualitat) de l'examen oficial publicat: una pregunta pròpia sobre el mateix concepte; les d'actualitat antiga se substitueixen per un fet recent del mateix tipus (s'indica a l'explicació). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "GUB 2022 p. 23 · Districtes de Barcelona",
+      "stem": "Segons el padró de 2026, en quins districtes de Barcelona ha augmentat lleugerament la població?",
+      "options": [
+        "Ciutat Vella, Nou Barris i Sant Andreu",
+        "L'Eixample, Gràcia i Sants-Montjuïc",
+        "Sarrià-Sant Gervasi, Les Corts i Horta-Guinardó",
+        "En tots els deu districtes"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Rèplica de la p. 23 (districtes de Barcelona). Padró 2026: a set dels deu districtes la població baixa lleugerament.",
+      "excerpt": "mentre que a Ciutat Vella, Nou Barris i Sant Andreu es detecten petits increments.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "GUB 2022 p. 25 · Centenaris a Barcelona",
+      "stem": "Quantes persones centenàries vivien a Barcelona segons el padró de 2026, un nou màxim?",
+      "options": [
+        "196",
+        "11.960",
+        "50",
+        "1.196"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Rèplica de la p. 25 (dada de ciutat; substitueix un canvi de nomenclàtor). Padró 2026.",
+      "excerpt": "El nombre de persones centenàries assoleix un nou màxim: 1.196.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

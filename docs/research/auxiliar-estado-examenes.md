@@ -61,7 +61,7 @@ cociente por fila o por grupo, y qué fila cumple varias condiciones.
 
 ## Pendiente
 
-- ~~Sinónimos, antónimos y ortografía~~: hecho en ADR-042 con un banco comprobado en el DLE (preview `59-`).
+- ~~Sinónimos, antónimos y ortografía~~: hecho en ADR-043 con un banco comprobado en el DLE (preview `63-`).
 - Las tablas del examen real sirven para 6 preguntas cada una. En la plataforma, cada pregunta trae
   su propia tabla, más pequeña.
 - Falta informática general sin fuente aún: plug and play, UTF-8, IA generativa y DHCP.

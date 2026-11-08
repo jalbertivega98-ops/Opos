@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "set": "cultcat-05-literatura-nobelhist-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 5. Literatura catalana, castellana i universal",
+    "topic_slug": "cultcat-05-literatura",
+    "locale": "ca",
+    "category": "cultcat_05_literatura",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "NobelPrize.org: All Nobel Prizes 2025 i fitxes de premiats (Literature 1956, 1977, 1982, 1989, 2010, 2023-2024; Peace 2023-2024)",
+      "url": "https://www.nobelprize.org/all-nobel-prizes-2025/",
+      "kind": "web_oficial",
+      "publisher": "Nobel Foundation / Nobel Prize Outreach",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "García Márquez, Nobel 1982",
+      "stem": "Quin escriptor, nascut a Aracataca (Colòmbia), va rebre el premi Nobel de literatura el 1982?",
+      "options": [
+        "Mario Vargas Llosa",
+        "Gabriel García Márquez",
+        "Pablo Neruda",
+        "Octavio Paz"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Gabriel García Márquez (Aracataca, 1927) va rebre el Nobel de literatura el 1982.",
+      "excerpt": "Gabriel García Márquez Nobel Prize in Literature 1982 Born: 6 March 1927, Aracataca, Colombia",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Juan Ramón Jiménez, Nobel 1956",
+      "stem": "Quin poeta, nascut a Moguer, va rebre el premi Nobel de literatura el 1956?",
+      "options": [
+        "Juan Ramón Jiménez",
+        "Vicente Aleixandre",
+        "Antonio Machado",
+        "Federico García Lorca"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Juan Ramón Jiménez va rebre el Nobel el 1956; Vicente Aleixandre, el 1977.",
+      "excerpt": "Juan Ramón Jiménez Nobel Prize in Literature 1956 Born: 24 December 1881, Moguer, Spain",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Cela, Nobel 1989",
+      "stem": "Quin escriptor nascut a Iria Flavia el 1916 va rebre el premi Nobel de literatura el 1989?",
+      "options": [
+        "Gonzalo Torrente Ballester",
+        "Miguel Delibes",
+        "Álvaro Cunqueiro",
+        "Camilo José Cela"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Camilo José Cela (Iria Flavia, 1916) va rebre el Nobel el 1989 i el Premi Cervantes el 1995.",
+      "excerpt": "Camilo José Cela Nobel Prize in Literature 1989 Born: 11 May 1916, Iria Flavia, Spain",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Vargas Llosa",
+      "stem": "On va néixer Mario Vargas Llosa, premi Nobel de literatura 2010, mort a Lima el 13 d'abril de 2025?",
+      "options": [
+        "A Arequipa (Perú)",
+        "A Lima (Perú)",
+        "A Bogotà (Colòmbia)",
+        "A Santiago de Xile"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Vargas Llosa va néixer a Arequipa el 1936; també havia rebut el Premi Cervantes el 1994.",
+      "excerpt": "Mario Vargas Llosa Nobel Prize in Literature 2010 Born: 28 March 1936, Arequipa, Peru Died: 13 April 2025, Lima, Peru",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Aleixandre, Nobel 1977",
+      "stem": "Quin poeta nascut a Sevilla el 1898 va rebre el premi Nobel de literatura el 1977?",
+      "options": [
+        "Luis Cernuda",
+        "Vicente Aleixandre",
+        "Rafael Alberti",
+        "Jorge Guillén"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Vicente Aleixandre (Sevilla, 1898) va rebre el Nobel el 1977; Alberti i Guillén van rebre el Premi Cervantes (1983 i 1976).",
+      "excerpt": "Vicente Aleixandre Nobel Prize in Literature 1977 Born: 26 April 1898, Sevilla, Spain",
+      "excerpt_status": "completo"
+    }
+  ]
+}
