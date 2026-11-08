@@ -5,6 +5,7 @@ import { redirect } from "@/i18n/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { authLimiter } from "@/lib/rate-limit";
 import { fieldErrors } from "@/lib/auth/schemas";
+import { hasPassword, signedInRecently } from "@/lib/auth/identity";
 import { publicEnv } from "@/lib/env";
 import {
   changeEmailSchema,
@@ -72,12 +73,18 @@ export async function deleteAccountAction(
   if (!authLimiter(`delete:${user.id}`).ok)
     return { status: "error", message: "errors.rateLimited" };
 
-  // Reautenticación: confirma que quien borra conoce la contraseña.
-  const { error: authError } = await supabase.auth.signInWithPassword({
-    email: user.email,
-    password: parsed.data.password,
-  });
-  if (authError) return { status: "error", errors: { password: "wrongPassword" } };
+  if (hasPassword(user)) {
+    // Reautenticación: confirma que quien borra conoce la contraseña.
+    if (!parsed.data.password) return { status: "error", errors: { password: "too_small" } };
+    const { error: authError } = await supabase.auth.signInWithPassword({
+      email: user.email,
+      password: parsed.data.password,
+    });
+    if (authError) return { status: "error", errors: { password: "wrongPassword" } };
+  } else if (!signedInRecently(user)) {
+    // Solo Google: no hay contraseña; pedimos haber entrado con Google hace poco.
+    return { status: "error", message: "profile.errors.reauthGoogle" };
+  }
 
   const { error } = await supabase.rpc("delete_my_account");
   if (error) return { status: "error", message: "errors.generic" };

@@ -1,13 +1,25 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-06 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-07 · Sesión 3 (+ test gratis sin registro ADR-041) (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
 
-### Lo que no se podía practicar (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-027, ADR-040)
+### Lo que no se podía practicar (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-027, ADR-042)
 
-- Cultura general y actualidad (`cultcat-*`, `actcat-01`, carpeta `cultura-cat`), conocimiento de Barcelona (`gub-t39`), bloque D y supuestos de IIPP. Preview `57-` a `60-`. Simulacros de Guardia Urbana y policía local con el examen completo.
+- Cultura general y actualidad (`cultcat-*`, `actcat-01`, carpeta `cultura-cat`), conocimiento de Barcelona (`gub-t39`), bloque D y supuestos de IIPP. Preview `59-` a `62-`. Simulacros de Guardia Urbana y policía local con el examen completo.
 - `actcat-01-actualitat` caduca: renovarlo cada trimestre. Pendiente: réplica IIPP 2025 (PDF escaneado) y que joel diga «fusiona».
+
+### Test gratis sin registro (2026-11-07, rama `claude/project-thread-ovjh4r`, MKT-004, ADR-041)
+
+- `/oposiciones/<slug>/test` (es y ca): 10 preguntas del día de los temas gratis, corrección al momento, sin cuenta y sin guardar nada. Enlace desde la ficha y entrada en el sitemap si hay ≥ 5 preguntas.
+- Migración `20261107000100_public_sample_test` copiada en la preview `58-`. Revisión semanal de Search Console en `docs/SEO.md` §8.
+- Pendiente: que joel lo pruebe en la vista previa y diga «fusiona»; después, pedir indexación de las páginas `/test` en Search Console.
+
+### Entrar con Google (2026-11-06, rama `claude/project-thread-ncd6wh`, USR-012, ADR-040)
+
+- Botón «Continuar con Google» en `/entrar` y `/registro`; solo aparece cuando Google está activado en Supabase. Callback con onboarding para cuentas nuevas; perfil sin contraseña para cuentas solo Google (borrar cuenta exige haber entrado hace ≤ 10 min).
+- Migración `20261106000200_google_display_name` copiada en la preview `57-`.
+- Pendiente: que joel cree el cliente OAuth y lo active en Supabase (`docs/DEPLOYMENT.md` → «Entrar con Google») y diga «fusiona».
 
 ### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-039)
 

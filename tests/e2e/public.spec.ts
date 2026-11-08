@@ -25,10 +25,9 @@ test.describe("Web pública", () => {
   test("ficha de oposición sin contenido indica 'próximamente' y no inventa datos", async ({
     page,
   }) => {
-    await page.goto("/oposiciones/guardia-urbana-barcelona");
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-      "Guardia Urbana de Barcelona",
-    );
+    // Guardia Urbana ya tiene guía y contenido (ADR-039): usamos una sin publicar.
+    await page.goto("/oposiciones/correos-personal-laboral");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Correos · Personal laboral");
     await expect(page.getByText("todavía no tiene contenido suficiente")).toBeVisible();
     await expect(page.getByText("Aún no hemos publicado convocatorias verificadas")).toBeVisible();
   });

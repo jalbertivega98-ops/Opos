@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { SignInForm } from "@/components/auth-forms";
+import { GoogleSignIn, SignInForm } from "@/components/auth-forms";
+import { isGoogleAuthEnabled } from "@/lib/auth/providers";
 import { safeNextPath } from "@/lib/paths";
 
 export async function generateMetadata({
@@ -16,12 +17,14 @@ export default async function SignInPage({ params, searchParams }: PageProps<"/[
   setRequestLocale(locale);
   const sp = await searchParams;
   const t = await getTranslations("auth.signIn");
+  const google = await isGoogleAuthEnabled();
   const next = typeof sp.next === "string" ? safeNextPath(sp.next) : undefined;
   return (
     <>
       <h1 className="text-2xl font-bold">{t("title")}</h1>
       <p className="text-muted-foreground mt-1 mb-6 text-sm">{t("subtitle")}</p>
-      <SignInForm next={next} linkError={sp.error === "link"} />
+      {google && <GoogleSignIn next={next} />}
+      <SignInForm next={next} linkError={sp.error === "link"} oauthError={sp.error === "oauth"} />
     </>
   );
 }

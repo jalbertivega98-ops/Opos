@@ -1,6 +1,6 @@
 -- Lo que antes no se podía practicar (joel, 06/11/2026: «para lo que no se puede practicar mira de buscar y preparar
 -- algo similar o muy parecido»): cultura general y actualidad (Guardia Urbana y policía local), conocimiento de
--- Barcelona, bloque D de Ayudantes IIPP (conducta humana) y supuestos. Requiere 57- a 59-.
+-- Barcelona, bloque D de Ayudantes IIPP (conducta humana) y supuestos. Requiere 59- a 61-.
 -- * Publica las preguntas nuevas sin nota de revisión (las dudosas quedan en borrador).
 -- * Simulacros completos: Guardia Urbana 1.ª prueba entera (54 de temario + 18 de cultura + 18 de actualidad,
 --   105 min, 0-21); policía local con las dos partes de Terrassa (50 + 50, 120 min, 0-24); IIPP con el bloque D

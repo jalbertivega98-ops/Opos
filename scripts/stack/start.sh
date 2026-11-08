@@ -63,6 +63,11 @@ export GOTRUE_RATE_LIMIT_EMAIL_SENT=1000 GOTRUE_RATE_LIMIT_VERIFY=1000 GOTRUE_RA
 export GOTRUE_PASSWORD_MIN_LENGTH=8
 export GOTRUE_MAILER_URLPATHS_CONFIRMATION=/auth/v1/verify GOTRUE_MAILER_URLPATHS_RECOVERY=/auth/v1/verify
 export GOTRUE_MAILER_URLPATHS_INVITE=/auth/v1/verify GOTRUE_MAILER_URLPATHS_EMAIL_CHANGE=/auth/v1/verify
+# «Continuar con Google» con credenciales falsas: el botón aparece y el e2e comprueba que
+# redirige a accounts.google.com (en local no se completa el login real con Google).
+export GOTRUE_EXTERNAL_GOOGLE_ENABLED=true GOTRUE_EXTERNAL_GOOGLE_CLIENT_ID=local-google-client
+export GOTRUE_EXTERNAL_GOOGLE_SECRET=local-google-secret
+export GOTRUE_EXTERNAL_GOOGLE_REDIRECT_URI="http://127.0.0.1:54321/auth/v1/callback"
 start_bg gotrue "$BIN/auth"
 
 for _ in $(seq 1 40); do

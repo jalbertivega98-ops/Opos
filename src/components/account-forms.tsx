@@ -75,7 +75,7 @@ export function ProfileForm({
   );
 }
 
-export function DeleteAccountForm() {
+export function DeleteAccountForm({ needsPassword = true }: { needsPassword?: boolean }) {
   const t = useTranslations();
   const locale = useLocale();
   const [state, action, pending] = useActionState(deleteAccountAction, initial);
@@ -83,24 +83,29 @@ export function DeleteAccountForm() {
     <form action={action} className="space-y-4">
       <input type="hidden" name="locale" value={locale} />
       {state.message && <Alert tone="error">{t(state.message)}</Alert>}
-      <div className="space-y-2">
-        <Label htmlFor="delete-password">{t("auth.fields.password")}</Label>
-        <Input
-          id="delete-password"
-          name="password"
-          type="password"
-          autoComplete="current-password"
-          required
-          aria-invalid={state.errors?.password ? true : undefined}
-          aria-describedby="delete-password-error"
-        />
-        <FieldError id="delete-password-error">
-          {state.errors?.password &&
-            t(
-              `profile.errors.${state.errors.password === "wrongPassword" ? "wrongPassword" : "required"}`,
-            )}
-        </FieldError>
-      </div>
+      {!needsPassword && (
+        <p className="text-muted-foreground text-sm">{t("profile.deleteGoogleHint")}</p>
+      )}
+      {needsPassword && (
+        <div className="space-y-2">
+          <Label htmlFor="delete-password">{t("auth.fields.password")}</Label>
+          <Input
+            id="delete-password"
+            name="password"
+            type="password"
+            autoComplete="current-password"
+            required
+            aria-invalid={state.errors?.password ? true : undefined}
+            aria-describedby="delete-password-error"
+          />
+          <FieldError id="delete-password-error">
+            {state.errors?.password &&
+              t(
+                `profile.errors.${state.errors.password === "wrongPassword" ? "wrongPassword" : "required"}`,
+              )}
+          </FieldError>
+        </div>
+      )}
       <div className="space-y-2">
         <Label htmlFor="delete-confirm">{t("profile.deleteConfirmLabel")}</Label>
         <Input

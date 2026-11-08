@@ -18,6 +18,7 @@ import { billingStatus, hasBillingAccount } from "@/lib/billing/queries";
 import { checkoutReturnNotice } from "@/lib/billing/checkout-return";
 import { openBillingPortalAction } from "@/lib/billing/actions";
 import { BuyForm } from "@/components/billing/buy-form";
+import { hasPassword } from "@/lib/auth/identity";
 import { SubmitButton } from "@/components/billing/submit-button";
 import { CheckoutNoticeAlert } from "@/components/billing/checkout-notice";
 import { getPrimaryExamSlug } from "@/lib/learning/plan-queries";
@@ -41,6 +42,7 @@ export default async function ProfilePage({
   const sp = await searchParams;
   const { user, profile } = await requireUser(locale, "/app/perfil");
   const t = await getTranslations("profile");
+  const withPassword = hasPassword(user);
   const format = await getFormatter();
   const supabase = await createClient();
   const tb = await getTranslations("billing");
@@ -186,19 +188,30 @@ export default async function ProfilePage({
         />
       </Card>
 
-      <Card>
-        <h2 className="text-lg font-semibold">{t("securityTitle")}</h2>
-        <p className="text-muted-foreground mt-1 mb-4 text-sm">{t("securityBody")}</p>
-        <ChangePasswordForm />
-      </Card>
+      {withPassword ? (
+        <>
+          <Card>
+            <h2 className="text-lg font-semibold">{t("securityTitle")}</h2>
+            <p className="text-muted-foreground mt-1 mb-4 text-sm">{t("securityBody")}</p>
+            <ChangePasswordForm />
+          </Card>
 
-      <Card>
-        <h2 className="text-lg font-semibold">{t("emailTitle")}</h2>
-        <p className="text-muted-foreground mt-1 mb-4 text-sm">
-          {t("emailBody", { email: user.email ?? "" })}
-        </p>
-        <ChangeEmailForm />
-      </Card>
+          <Card>
+            <h2 className="text-lg font-semibold">{t("emailTitle")}</h2>
+            <p className="text-muted-foreground mt-1 mb-4 text-sm">
+              {t("emailBody", { email: user.email ?? "" })}
+            </p>
+            <ChangeEmailForm />
+          </Card>
+        </>
+      ) : (
+        <Card>
+          <h2 className="text-lg font-semibold">{t("googleTitle")}</h2>
+          <p className="text-muted-foreground mt-1 text-sm">
+            {t("googleBody", { email: user.email ?? "" })}
+          </p>
+        </Card>
+      )}
 
       <Card>
         <h2 className="text-lg font-semibold">{t("exportTitle")}</h2>
@@ -213,7 +226,11 @@ export default async function ProfilePage({
       <Card className="border-danger/40">
         <h2 className="text-danger text-lg font-semibold">{t("deleteTitle")}</h2>
         <p className="text-muted-foreground mt-1 mb-4 text-sm">{t("deleteBody")}</p>
-        {profile.role === "owner" ? <Alert>{t("ownerCannotDelete")}</Alert> : <DeleteAccountForm />}
+        {profile.role === "owner" ? (
+          <Alert>{t("ownerCannotDelete")}</Alert>
+        ) : (
+          <DeleteAccountForm needsPassword={withPassword} />
+        )}
       </Card>
     </div>
   );
