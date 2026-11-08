@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-consue26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Presidency of the Council of the EU (Irish Presidency, July-December 2026)",
+      "url": "https://irish-presidency.consilium.europa.eu/en/presidency/presidency-of-the-council-of-the-eu/",
+      "kind": "web_oficial",
+      "publisher": "Council of the European Union",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Presidència irlandesa del Consell de la UE",
+      "stem": "Quin estat exerceix la Presidència del Consell de la UE del 1 de juliol al 31 de desembre de 2026?",
+      "options": [
+        "Irlanda",
+        "Lituània",
+        "Grècia",
+        "Dinamarca"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "1 de juliol de 2026: Irlanda assumeix per vuitena vegada la Presidència; forma trio amb Lituània (gener-juny de 2027) i Grècia (juliol-desembre de 2027).",
+      "excerpt": "On 1 July 2026, Ireland assumes the Presidency of the Council of the EU for the eighth time since its accession to the Union.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

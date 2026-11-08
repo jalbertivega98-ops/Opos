@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "cultcat-09-institucions-economia-diec-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 9. Institucions (Catalunya, Espanya, UE, ONU) i economia bàsica",
+    "topic_slug": "cultcat-09-institucions-economia",
+    "locale": "ca",
+    "category": "cultcat_09_institucions_economia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Diccionari de la llengua catalana, 2a edició (DIEC2), Institut d'Estudis Catalans",
+      "url": "https://dlc.iec.cat/",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estudis Catalans",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Inflació",
+      "stem": "Com s'anomena l'increment generalitzat i persistent dels preus, que redueix el poder adquisitiu dels diners?",
+      "options": [
+        "Deflació",
+        "Dèficit",
+        "Inflació",
+        "Recessió"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La inflació implica una reducció del poder adquisitiu; es mesura habitualment amb l'IPC.",
+      "excerpt": "inflació 2 1 f. [ECT] [LC] Increment generalitzat i persistent dels preus de les mercaderies i els serveis que implica una reducció del poder adquisitiu del diner.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Euro",
+      "stem": "Què és l'euro?",
+      "options": [
+        "La moneda oficial de tots els estats del continent europeu",
+        "La moneda de tots els estats membres de la UE sense excepció",
+        "La unitat de compte del Consell d'Europa",
+        "La unitat monetària comuna dels estats de la UE que participen en la unió econòmica i monetària"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'euro és la moneda dels estats de la UE que participen en la unió monetària (21 dels 27 el 2026).",
+      "excerpt": "euro 1 m. [ECT] [LC] Unitat monetària comuna dels estats de la Unió Europea que participen en la unió econòmica i monetària.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

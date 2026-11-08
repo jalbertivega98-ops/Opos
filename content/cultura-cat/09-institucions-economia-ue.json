@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "cultcat-09-institucions-economia-ue-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 9. Institucions (Catalunya, Espanya, UE, ONU) i economia bàsica",
+    "topic_slug": "cultcat-09-institucions-economia",
+    "locale": "ca",
+    "category": "cultcat_09_institucions_economia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Portal oficial de la Unión Europea: países, historia, euro e instituciones",
+      "url": "https://european-union.europa.eu/index_es",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Comissió Europea",
+      "stem": "Quina institució és l'òrgan executiu de la UE i l'única responsable d'elaborar propostes de nova legislació europea?",
+      "options": [
+        "El Parlament Europeu",
+        "La Comissió Europea",
+        "El Consell Europeu",
+        "El Tribunal de Justícia de la UE"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La Comissió Europea, amb seu a Brussel·les, proposa la legislació; el Parlament Europeu és l'òrgan legislatiu.",
+      "excerpt": "La Comisión Europea es el órgano ejecutivo, políticamente independiente, de la UE. Es la única instancia responsable de elaborar propuestas de nueva legislación europea",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Parlament Europeu",
+      "stem": "Cada quant temps s'elegeix el Parlament Europeu per sufragi directe?",
+      "options": [
+        "Cada quatre anys",
+        "Cada sis anys",
+        "Cada dos anys i mig",
+        "Cada cinc anys"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El Parlament Europeu, de 720 eurodiputats, s'elegeix cada cinc anys; les darreres eleccions van ser del 6 al 9 de juny de 2024.",
+      "excerpt": "Es elegido directamente por los votantes de la UE cada cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Zona euro",
+      "stem": "Quants dels 27 estats de la UE tenen l'euro com a moneda oficial el 2026?",
+      "options": [
+        "19",
+        "27",
+        "21",
+        "12"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'euro és la moneda oficial de 21 dels 27 països (Bulgària s'hi va incorporar l'1 de gener de 2026); Dinamarca té una clàusula d'exclusió.",
+      "excerpt": "Hoy en día, el euro (€) es la moneda oficial de 21 de los 27 países de la UE",
+      "excerpt_status": "completo"
+    }
+  ]
+}

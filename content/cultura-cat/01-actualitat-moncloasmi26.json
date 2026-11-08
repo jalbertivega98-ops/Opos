@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-moncloasmi26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Pedro Sánchez destaca que con la subida del SMI en 2026 se da \"un paso muy relevante para mejorar la vida de 2,5 millones de trabajadores\" (16/02/2026)",
+      "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/160226-sanchez-subida-salario-minimo.aspx",
+      "kind": "web_oficial",
+      "publisher": "La Moncloa, Gobierno de España",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Salari mínim interprofessional 2026",
+      "stem": "Quin és el salari mínim interprofessional (SMI) fixat per al 2026?",
+      "options": [
+        "1.134 euros bruts al mes en 14 pagues",
+        "1.221 euros bruts al mes en 14 pagues",
+        "1.000 euros bruts al mes en 12 pagues",
+        "735 euros bruts al mes en 14 pagues"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "16 de febrer de 2026: vuitena pujada de l'SMI des del 2018 (+3,1%), de 735 a 1.221 euros.",
+      "excerpt": "al pasar de los 735 euros al mes a los 1.221 euros brutos al mes en 14 pagas este año, tras haberse aprobado un nuevo incremento del 3,1% en 2026.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

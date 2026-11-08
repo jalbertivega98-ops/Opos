@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gubexamen-2022-bcn_eix-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Rèplica de l'examen d'agent de la Guàrdia Urbana 2022 (exercici teòric)",
+    "topic_slug": "gubexamen-2022",
+    "locale": "ca",
+    "category": "gubexamen_2022",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Districte de l'Eixample: El districte i els seus barris (web oficial de l'Ajuntament de Barcelona). Extracte literal",
+      "url": "https://ajuntament.barcelona.cat/eixample/ca/el-districte-i-els-seus-barris",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · web del districte",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Barris",
+      "stem": "(Rèplica 2022, núm. 10) A quin districte pertany el barri del Fort Pienc?",
+      "options": [
+        "Sant Martí",
+        "Sant Andreu",
+        "Horta-Guinardó",
+        "L'Eixample"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Segons la web del districte, l'Eixample està format per sis barris: la Dreta de l'Eixample, l'Antiga Esquerra, la Nova Esquerra, el Fort Pienc, la Sagrada Família i Sant Antoni.",
+      "excerpt": "L’Eixample està format per sis barris: la Dreta de l’Eixample, l’Antiga Esquerra de l’Eixample, la Nova Esquerra de l’Eixample, el Fort Pienc, la Sagrada Família i Sant Antoni.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Pla Cerdà",
+      "stem": "(Rèplica 2022, núm. 12) En la retícula del Pla Cerdà, quines vies trenquen l'esquema de carrers perpendiculars i uniformes?",
+      "options": [
+        "La Rambla i el Paral·lel",
+        "La Via Laietana i la ronda de Sant Antoni",
+        "La Diagonal i la Meridiana, esbiaixades, i la Gran Via de les Corts Catalanes",
+        "El passeig de Gràcia i la rambla de Catalunya"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La web del districte de l'Eixample destaca que la xarxa uniforme de Cerdà té com a excepcions dues vies esbiaixades, la Diagonal i la Meridiana, i la Gran Via.",
+      "excerpt": "excepte dues vies esbiaixades superposades —la Diagonal i la Meridiana— i la Gran Via de les Corts Catalanes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "set": "cultcat-03-geografia-diec-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 3. Geografia de Catalunya, d'Espanya i del món",
+    "topic_slug": "cultcat-03-geografia",
+    "locale": "ca",
+    "category": "cultcat_03_geografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Diccionari de la llengua catalana, 2a edició (DIEC2), Institut d'Estudis Catalans",
+      "url": "https://dlc.iec.cat/",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estudis Catalans",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Equador",
+      "stem": "Com s'anomena el cercle màxim de l'esfera terrestre tots els punts del qual són a la mateixa distància dels dos pols?",
+      "options": [
+        "Meridià",
+        "Tròpic de Càncer",
+        "Equador",
+        "Cercle polar àrtic"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'equador divideix la Terra en els hemisferis nord i sud; la latitud es mesura a partir d'ell.",
+      "excerpt": "equador 2 m. [FIA] [GG] [LC] Cercle màxim de l’esfera terrestre tots els punts del qual equidisten dels dos pols.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Primer meridià",
+      "stem": "Per on passa el primer meridià, origen de les longituds geogràfiques (0°)?",
+      "options": [
+        "Per l'observatori de Greenwich (Anglaterra)",
+        "Per l'observatori de París",
+        "Per l'equador",
+        "Per l'illa de Hierro (Canàries)"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El primer meridià, adoptat com a origen de les longituds, és el que passa per l'observatori anglès de Greenwich.",
+      "excerpt": "primer meridià Meridià que passa per l’observatori anglès de Greenwich, adoptat actualment com a origen de les longituds geogràfiques",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Delta",
+      "stem": "Com s'anomena la formació sedimentària que diposita un riu en desembocar al mar o en un llac, com la de l'Ebre?",
+      "options": [
+        "Estuari",
+        "Meandre",
+        "Delta",
+        "Albufera"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El delta és una formació sedimentària a la desembocadura; l'estuari, en canvi, és una embocadura àmplia afectada per les marees.",
+      "excerpt": "delta 1 m. [GG] [GL] [LC] Formació sedimentària dipositada per un riu en el desguàs a la mar o en un llac",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Latitud",
+      "stem": "Què és la latitud d'un lloc?",
+      "options": [
+        "La distància del lloc al meridià de Greenwich, mesurada sobre el paral·lel",
+        "La distància del lloc a l'equador, mesurada per l'arc de meridià",
+        "L'altura del lloc sobre el nivell del mar",
+        "L'angle que forma l'eix de la Terra amb el pla de l'òrbita"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La latitud es mesura des de l'equador cap al nord o cap al sud; la distància respecte del meridià de Greenwich és la longitud.",
+      "excerpt": "latitud 2 1 f. [GG] Distància d’un lloc a l’equador mesurada per l’arc de meridià que va des del dit lloc a l’equador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Estuari",
+      "stem": "Com s'anomena l'embocadura àmplia d'un riu afectada per les marees?",
+      "options": [
+        "Delta",
+        "Meandre",
+        "Estuari",
+        "Afluent"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'estuari és una desembocadura oberta on entra la marea; el delta, en canvi, és una acumulació de sediments.",
+      "excerpt": "estuari m. [GG] [LC] Embocadura àmplia d’un riu afectada per les marees.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

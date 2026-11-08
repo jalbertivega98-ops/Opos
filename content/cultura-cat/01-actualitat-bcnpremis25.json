@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-bcnpremis25-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Premis Ciutat de Barcelona, 2025",
+      "url": "https://ajuntament.barcelona.cat/ca/informacio-administrativa/premis/premis-ciutat-de-barcelona-2025",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Premis Ciutat de Barcelona 2025",
+      "stem": "Quants premis es van lliurar en l'edició 2025 dels Premis Ciutat de Barcelona, que va incorporar tres categories noves de ciència?",
+      "options": [
+        "Deu",
+        "Dinou",
+        "Sis",
+        "Trenta"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "11 de febrer de 2026: lliurament al Saló de Cent; amb tres categories més de ciència, en total sis de científiques i dinou premis.",
+      "excerpt": "En conseqüència, en l’edició del 2025 es lliuraran un total de dinou premis.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

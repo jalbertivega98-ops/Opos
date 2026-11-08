@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-idescat-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Anuari estadístic de Catalunya i El municipi en xifres (Institut d'Estadística de Catalunya)",
+      "url": "https://www.idescat.cat/indicadors/?id=aec&lang=ca",
+      "kind": "web_oficial",
+      "publisher": "Institut d'Estadística de Catalunya (Idescat)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "PIB de Catalunya, 3r trimestre 2026",
+      "stem": "Quina variació interanual del PIB de Catalunya va estimar Idescat per al tercer trimestre de 2026?",
+      "options": [
+        "-0,7%",
+        "+8,3%",
+        "+2,9%",
+        "+4,5%"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Novembre de 2026 (estimació avançada): +2,9% interanual i +0,7% intertrimestral.",
+      "excerpt": "El producte interior brut de Catalunya registra una variació interanual del 2,9% i intertrimestral del 0,7% al tercer trimestre del 2026",
+      "excerpt_status": "completo"
+    }
+  ]
+}

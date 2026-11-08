@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Lo que no se podía practicar (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-027, ADR-042)
+
+- Cultura general y actualidad (`cultcat-*`, `actcat-01`, carpeta `cultura-cat`), conocimiento de Barcelona (`gub-t39`), bloque D y supuestos de IIPP. Preview `59-` a `62-`. Simulacros de Guardia Urbana y policía local con el examen completo.
+- `actcat-01-actualitat` caduca: renovarlo cada trimestre. Pendiente: réplica IIPP 2025 (PDF escaneado) y que joel diga «fusiona».
+
 ### Test gratis sin registro (2026-11-07, rama `claude/project-thread-ovjh4r`, MKT-004, ADR-041)
 
 - `/oposiciones/<slug>/test` (es y ca): 10 preguntas del día de los temas gratis, corrección al momento, sin cuenta y sin guardar nada. Enlace desde la ficha y entrada en el sitemap si hay ≥ 5 preguntas.

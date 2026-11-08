@@ -915,8 +915,8 @@ const guardiaUrbana: ExamGuide = {
     ca: "Convocatòria 29/2025 d'agent de la Guàrdia Urbana de Barcelona: 134 places, prova cultural i teòrica de fins a 90 preguntes (−1/4), tests aptitudinals, idioma, físiques, entrevista i mèdiques.",
   },
   intro: {
-    es: "Resumen de la última convocatoria de agente de la Guardia Urbana de Barcelona (29/2025) y de los exámenes que publica el Ajuntament. Nuestro temario en test sigue los 38 temas oficiales y los exámenes réplica repiten pregunta a pregunta la parte de temario de 2022, 2023 y 2025.",
-    ca: "Resum de l'última convocatòria d'agent de la Guàrdia Urbana de Barcelona (29/2025) i dels exàmens que publica l'Ajuntament. El nostre temari en test segueix els 38 temes oficials i els exàmens rèplica repeteixen pregunta a pregunta la part de temari del 2022, 2023 i 2025.",
+    es: "Resumen de la última convocatoria de agente de la Guardia Urbana de Barcelona (29/2025) y de los exámenes que publica el Ajuntament. Nuestro temario en test sigue los 38 temas oficiales, con cultura general, actualidad y conocimiento de Barcelona aparte, y los exámenes réplica repiten pregunta a pregunta los de 2022, 2023 y 2025.",
+    ca: "Resum de l'última convocatòria d'agent de la Guàrdia Urbana de Barcelona (29/2025) i dels exàmens que publica l'Ajuntament. El nostre temari en test segueix els 38 temes oficials, amb cultura general, actualitat i coneixement de Barcelona a part, i els exàmens rèplica repeteixen pregunta a pregunta els del 2022, 2023 i 2025.",
   },
   facts: [
     {
@@ -985,8 +985,8 @@ const guardiaUrbana: ExamGuide = {
     {
       q: { es: "¿Qué parte del examen se practica aquí?", ca: "Quina part de l'examen es practica aquí?" },
       a: {
-        es: "La parte de temario (el 60 % de la primera prueba) y los psicotécnicos. Cultura general y actualidad no tienen una fuente oficial que podamos citar y no se incluyen.",
-        ca: "La part de temari (el 60 % de la primera prova) i els psicotècnics. Cultura general i actualitat no tenen una font oficial que puguem citar i no s'hi inclouen.",
+        es: "La primera prueba entera: temario, cultura general y actualidad (de los últimos 12 meses, con notas de prensa oficiales), además de los psicotécnicos. Idioma, físicas y entrevista no se preparan aquí.",
+        ca: "La primera prova sencera: temari, cultura general i actualitat (dels últims 12 mesos, amb notes de premsa oficials), a més dels psicotècnics. Idioma, físiques i entrevista no es preparen aquí.",
       },
     },
   ],
@@ -1018,8 +1018,8 @@ const policiaLocal: ExamGuide = {
     ca: "Com són les oposicions a agent de policia local a Catalunya: Decret 233/2002, test de coneixements (Terrassa: 50 + 50 preguntes, −1/4), psicotècnic obligatori, físiques, entrevista i mèdiques.",
   },
   intro: {
-    es: "Cada ayuntamiento convoca sus plazas con sus propias bases, dentro del marco común de la Ley 16/1991 de las policías locales y el Decreto 233/2002. Nuestro temario tipo (23 temas) recoge lo que se repite en las bases de Terrassa, Mataró, Sabadell y Badalona, y los exámenes réplica repiten pregunta a pregunta los publicados por Terrassa (2025 y 2026) y Badalona (2022). Revisa siempre las bases de tu convocatoria.",
-    ca: "Cada ajuntament convoca les places amb les seves bases, dins del marc comú de la Llei 16/1991 de les policies locals i el Decret 233/2002. El nostre temari tipus (23 temes) recull el que es repeteix a les bases de Terrassa, Mataró, Sabadell i Badalona, i els exàmens rèplica repeteixen pregunta a pregunta els publicats per Terrassa (2025 i 2026) i Badalona (2022). Revisa sempre les bases de la teva convocatòria.",
+    es: "Cada ayuntamiento convoca sus plazas con sus propias bases, dentro del marco común de la Ley 16/1991 de las policías locales y el Decreto 233/2002. Nuestro temario tipo (23 temas) recoge lo que se repite en las bases de Terrassa, Mataró, Sabadell y Badalona, con la parte cultural (cultura general y actualidad) aparte, y los exámenes réplica repiten pregunta a pregunta los publicados por Terrassa (2025 y 2026, las dos partes) y Badalona (2022). Revisa siempre las bases de tu convocatoria.",
+    ca: "Cada ajuntament convoca les places amb les seves bases, dins del marc comú de la Llei 16/1991 de les policies locals i el Decret 233/2002. El nostre temari tipus (23 temes) recull el que es repeteix a les bases de Terrassa, Mataró, Sabadell i Badalona, amb la part cultural (cultura general i actualitat) a part, i els exàmens rèplica repeteixen pregunta a pregunta els publicats per Terrassa (2025 i 2026, les dues parts) i Badalona (2022). Revisa sempre les bases de la teva convocatòria.",
   },
   facts: [
     {

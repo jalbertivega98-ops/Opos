@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "set": "actcat-01-actualitat-nobel-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Actualitat (novembre 2025 - novembre 2026): Catalunya, Barcelona, Espanya, UE i món",
+    "topic_slug": "actcat-01-actualitat",
+    "locale": "ca",
+    "category": "actcat_01_actualitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "All Nobel Prizes 2026 (Nobel Foundation)",
+      "url": "https://www.nobelprize.org/all-nobel-prizes-2026/",
+      "kind": "web_oficial",
+      "publisher": "Nobel Foundation / Nobel Prize Outreach",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Nobel de física 2026",
+      "stem": "Per quines contribucions es va concedir el premi Nobel de física 2026 a Francis Halzen?",
+      "options": [
+        "Pel desenvolupament dels ordinadors quàntics",
+        "Per l'observatori de neutrins IceCube i el descobriment de neutrins d'alta energia d'origen astrofísic",
+        "Per la detecció de les ones gravitacionals",
+        "Pel descobriment del bosó de Higgs"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Octubre de 2026: Halzen va adonar-se que el gel del pol Sud servia per detectar neutrins (observatori IceCube).",
+      "excerpt": "Nobel Prize in Physics 2026 Francis Halzen “for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin”",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Nobel de medicina 2026",
+      "stem": "Quin descobriment va merèixer el premi Nobel de fisiologia o medicina 2026 (Deisseroth, Hegemann i Nagel)?",
+      "options": [
+        "Les vacunes d'ARN missatger",
+        "L'edició genètica amb CRISPR",
+        "Els microARN",
+        "L'optogenètica, que permet activar o desactivar amb llum l'activitat de neurones individuals en un cervell viu"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Octubre de 2026: el Nobel de medicina va premiar els descobriments que van portar a l'optogenètica.",
+      "excerpt": "Karl Deisseroth, Peter Hegemann and Georg Nagel have been awarded the 2026 Nobel Prize in Physiology or Medicine for discoveries leading to optogenetics",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Nobel de literatura 2026",
+      "stem": "Qui va rebre el premi Nobel de literatura 2026?",
+      "options": [
+        "L'autora canadenca Anne Carson",
+        "L'autor hongarès László Krasznahorkai",
+        "L'autora sud-coreana Han Kang",
+        "L'autor mexicà Gonzalo Celorio"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Octubre de 2026: Anne Carson, per una obra en diàleg amb la tradició clàssica. Krasznahorkai va ser el Nobel 2025, Han Kang el 2024 i Celorio és el Premi Cervantes 2025.",
+      "excerpt": "The Nobel Prize in Literature 2026 has been awarded to the Canadian author Anne Carson",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Nobel de la pau 2026",
+      "stem": "Qui va rebre el premi Nobel de la pau 2026?",
+      "options": [
+        "María Corina Machado",
+        "Narges Mohammadi",
+        "Navi Pillay",
+        "Nihon Hidankyo"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Octubre de 2026: Navanethem «Navi» Pillay, pels seus esforços per promoure la pau i el dret internacional. Machado el va rebre el 2025, Nihon Hidankyo el 2024 i Mohammadi el 2023.",
+      "excerpt": "Nobel Peace Prize 2026 Navanethem “Navi” Pillay “for her efforts to promote peace and international law”",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Nobel d'economia 2026",
+      "stem": "Sobre quin camp van treballar Robert E. Hall i Michael Woodford, premi de ciències econòmiques en memòria d'Alfred Nobel 2026?",
+      "options": [
+        "L'economia del comportament",
+        "La desigualtat i el creixement a llarg termini",
+        "Els fonaments microeconòmics de l'estabilització macroeconòmica",
+        "Els mercats financers i les bombolles"
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Octubre de 2026: la seva recerca va generar un canvi de paradigma en la política d'estabilització.",
+      "excerpt": "Robert E. Hall “for microeconomic foundations of macroeconomic stabilisation”",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Nobel de química 2026",
+      "stem": "Per quin descobriment es va concedir el premi Nobel de química 2026 a Henri B. Kagan?",
+      "options": [
+        "Les estructures metal·loorgàniques (MOF)",
+        "El disseny computacional de proteïnes",
+        "Les bateries d'ions de liti",
+        "Els efectes no lineals i l'autocatàlisi en la síntesi orgànica asimètrica"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Octubre de 2026. Les estructures metal·loorgàniques van ser el Nobel de química 2025 (Kitagawa i altres).",
+      "excerpt": "Nobel Prize in Chemistry 2026 Henri B. Kagan “for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis”",
+      "excerpt_status": "completo"
+    }
+  ]
+}

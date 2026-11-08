@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "gub-t39-coneixement-barcelona-2-padro26-v1",
+    "exam": "guardia-urbana-barcelona",
+    "also_exams": [],
+    "topic": "Tema 39. Coneixement de Barcelona (ampliació del tema 11): districtes i barris, festes, patrimoni, equipaments, transport i població",
+    "topic_slug": "gub-t39-coneixement-barcelona-2",
+    "locale": "ca",
+    "category": "gub_t39_coneixement_barcelona_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "La població de Barcelona. Lectura del padró municipal d’habitants a 01/01/2026, síntesi de resultats (Oficina Municipal de Dades). Extracte literal",
+      "url": "https://dades.ajuntament.barcelona.cat/informe-padro-poblacio/ca/seccio_2.html",
+      "kind": "web_oficial",
+      "publisher": "Ajuntament de Barcelona · Oficina Municipal de Dades",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la 1a prova d'agent de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Norma. Portal Jurídic de Barcelona, Portal Jurídic de Catalunya o webs municipals); no provenen de bancs d'acadèmies ni copien preguntes d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Població",
+      "stem": "Segons la lectura del padró a 1 de gener de 2026, en quins districtes va augmentar lleugerament el nombre de residents?",
+      "options": [
+        "Ciutat Vella, Nou Barris i Sant Andreu",
+        "L'Eixample, Gràcia i Les Corts",
+        "Sant Martí, Sants-Montjuïc i Horta-Guinardó",
+        "En tots els deu districtes"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "A set dels deu districtes es redueix lleugerament la població; Ciutat Vella, Nou Barris i Sant Andreu registren petits increments.",
+      "excerpt": "A set dels deu districtes es redueix lleugerament el nombre de residents, mentre que a Ciutat Vella, Nou Barris i Sant Andreu es detecten petits increments.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Població",
+      "stem": "Quina era l'edat mitjana de la població de Barcelona segons la lectura del padró de 2026?",
+      "options": [
+        "38,2 anys",
+        "41,0 anys",
+        "49,5 anys",
+        "44,6 anys"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'edat mitjana repunta lleugerament fins als 44,6 anys.",
+      "excerpt": "L’edat mitjana de la població repunta lleugerament fins al 44,6 anys.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Població",
+      "stem": "Quin percentatge de la població de Barcelona tenia nacionalitat estrangera segons la lectura del padró de 2026?",
+      "options": [
+        "El 12,4%",
+        "El 26,6%",
+        "El 35,1%",
+        "El 54,8%"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Hi ha 460.409 persones de nacionalitat estrangera, el 26,6% del total; el 54,8% és la proporció a Ciutat Vella.",
+      "excerpt": "el nombre de persones empadronades de nacionalitat estrangera augmenta fins 460.409, el 26,6% del total.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Població",
+      "stem": "Quin districte destaca clarament per la proporció de població de nacionalitat estrangera?",
+      "options": [
+        "Sarrià - Sant Gervasi, amb un 40%",
+        "Les Corts, amb un 35%",
+        "Ciutat Vella, amb un 54,8%",
+        "Nou Barris, amb un 60%"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "En valors relatius, Ciutat Vella destaca amb un 54,8% de població de nacionalitat estrangera.",
+      "excerpt": "En valors relatius, però, Ciutat Vella destaca clarament, amb un 54,8% de la població de nacionalitat estrangera.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Població",
+      "stem": "Quin és l'únic districte on, per tercer any consecutiu, hi ha més naixements que defuncions?",
+      "options": [
+        "Ciutat Vella",
+        "Nou Barris",
+        "Sant Martí",
+        "L'Eixample"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El saldo natural negatiu s'estén a tots els districtes excepte Ciutat Vella.",
+      "excerpt": "El saldo natural negatiu s’escampa a tots els districtes amb l’excepció de Ciutat Vella, on per tercer any consecutiu hi ha més naixements que defuncions.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Població",
+      "stem": "Quantes nacionalitats diferents de l'espanyola conviuen a Barcelona segons el padró de 2026?",
+      "options": [
+        "Fins a 95",
+        "Fins a 120",
+        "Fins a 250",
+        "Fins a 181"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "A banda de l'espanyola, hi conviuen persones de fins a 181 nacionalitats.",
+      "excerpt": "a banda de l’espanyola, hi conviuen persones de fins a 181 nacionalitats diferents.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

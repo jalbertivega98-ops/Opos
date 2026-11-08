@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "set": "cultcat-09-institucions-economia-consue26-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 9. Institucions (Catalunya, Espanya, UE, ONU) i economia bàsica",
+    "topic_slug": "cultcat-09-institucions-economia",
+    "locale": "ca",
+    "category": "cultcat_09_institucions_economia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Presidency of the Council of the EU (Irish Presidency, July-December 2026)",
+      "url": "https://irish-presidency.consilium.europa.eu/en/presidency/presidency-of-the-council-of-the-eu/",
+      "kind": "web_oficial",
+      "publisher": "Council of the European Union",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Consell d'Europa",
+      "stem": "Quina d'aquestes afirmacions sobre el Consell d'Europa és correcta?",
+      "options": [
+        "És la institució de la UE formada pels caps d'estat o de govern dels 27",
+        "No és una institució de la UE: és una organització internacional fundada el 1949 amb 46 estats membres",
+        "És el nom oficial del Consell de la UE, presidit per torns de sis mesos",
+        "Va ser creat pel Tractat de Lisboa el 2009"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El Consell d'Europa (1949, 46 membres) promou la democràcia i els drets humans; no s'ha de confondre amb el Consell Europeu ni amb el Consell de la UE.",
+      "excerpt": "The Council of Europe is not an EU institution. It is a separate international organisation, founded in 1949, that promotes democracy, human rights, and the rule of law across its 46 member countries.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

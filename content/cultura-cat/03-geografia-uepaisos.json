@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "set": "cultcat-03-geografia-uepaisos-v1",
+    "exam": "policia-local",
+    "also_exams": [
+      "guardia-urbana-barcelona"
+    ],
+    "topic": "Cultura general 3. Geografia de Catalunya, d'Espanya i del món",
+    "topic_slug": "cultcat-03-geografia",
+    "locale": "ca",
+    "category": "cultcat_03_geografia",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Países de la UE: fichas de país (european-union.europa.eu/principles-countries-history/eu-countries/<país>_es)",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_es",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català de cultura general i actualitat a l'estil de les proves d'agent de policia local i de la Guàrdia Urbana de Barcelona (4 opcions, una correcta; cada error resta 1/4). Redactades a partir de fonts oficials (IEC, Generalitat, Ajuntament de Barcelona, Idescat, UNESCO, UE, ONU...); no provenen de bancs d'acadèmies ni de Wikipedia. \"excerpt\" és el fragment literal de la font i \"ref\" el punt concret."
+  },
+  "questions": [
+    {
+      "ref": "Capital de Portugal",
+      "stem": "Quina és la capital de Portugal?",
+      "options": [
+        "Lisboa",
+        "Porto",
+        "Coïmbra",
+        "Braga"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Lisboa és la capital de Portugal, estat membre de la UE des de 1986.",
+      "excerpt": "[Portugal] Capital: Lisboa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Països Baixos, capital",
+      "stem": "Quina és la capital dels Països Baixos?",
+      "options": [
+        "Amsterdam, tot i que el Parlament i el Govern tenen la seu a la Haia",
+        "La Haia, on hi ha també el Parlament",
+        "Rotterdam",
+        "Brussel·les"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La capital és Amsterdam; la Haia és la seu del Parlament i del Govern. Brussel·les és la capital de Bèlgica.",
+      "excerpt": "[Países Bajos] Capital: Ámsterdam. El Parlamento y el Gobierno tienen su sede en La Haya",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Superfície d'Espanya",
+      "stem": "Quina és l'extensió aproximada d'Espanya segons la fitxa oficial de la Unió Europea?",
+      "options": [
+        "Uns 638.000 km²",
+        "Uns 357.000 km²",
+        "Uns 302.000 km²",
+        "Uns 506.000 km²"
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La fitxa de la UE dona a Espanya 505.983 km²; França en té 638.475.",
+      "excerpt": "Extensión geográfica: 505 983 km2",
+      "excerpt_status": "completo"
+    }
+  ]
+}
