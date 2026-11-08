@@ -1,14 +1,26 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-06 · Sesión 3 (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-07 · Sesión 3 (+ test gratis sin registro ADR-041) (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
 
-### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-040)
+### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-042)
 
 - Generadores `spelling`, `synonyms` y `antonyms` con el banco `verbal-bank.ts` comprobado en dle.rae.es (171 palabras, 70 pares de ortografía). Guías públicas nuevas.
-- Simulacro de psicotécnicos de la AGE con el reparto real (9 verbales + 9 numéricos + 12 tablas), preview `57-`.
+- Simulacro de psicotécnicos de la AGE con el reparto real (9 verbales + 9 numéricos + 12 tablas), preview `59-`.
 - Nota: en main, `tests/e2e/public.spec.ts` espera el título antiguo de Guardia Urbana (ya tiene contenido); no es de esta rama.
+
+### Test gratis sin registro (2026-11-07, rama `claude/project-thread-ovjh4r`, MKT-004, ADR-041)
+
+- `/oposiciones/<slug>/test` (es y ca): 10 preguntas del día de los temas gratis, corrección al momento, sin cuenta y sin guardar nada. Enlace desde la ficha y entrada en el sitemap si hay ≥ 5 preguntas.
+- Migración `20261107000100_public_sample_test` copiada en la preview `58-`. Revisión semanal de Search Console en `docs/SEO.md` §8.
+- Pendiente: que joel lo pruebe en la vista previa y diga «fusiona»; después, pedir indexación de las páginas `/test` en Search Console.
+
+### Entrar con Google (2026-11-06, rama `claude/project-thread-ncd6wh`, USR-012, ADR-040)
+
+- Botón «Continuar con Google» en `/entrar` y `/registro`; solo aparece cuando Google está activado en Supabase. Callback con onboarding para cuentas nuevas; perfil sin contraseña para cuentas solo Google (borrar cuenta exige haber entrado hace ≤ 10 min).
+- Migración `20261106000200_google_display_name` copiada en la preview `57-`.
+- Pendiente: que joel cree el cliente OAuth y lo active en Supabase (`docs/DEPLOYMENT.md` → «Entrar con Google») y diga «fusiona».
 
 ### Cuatro oposiciones nuevas (2026-11-06, rama `claude/project-thread-fls9nq`, CNT-026, ADR-039)
 

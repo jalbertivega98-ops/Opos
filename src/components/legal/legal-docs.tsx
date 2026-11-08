@@ -180,7 +180,8 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
       <ul>
         <li>
           <strong>Cuenta:</strong> correo electrónico, contraseña (cifrada, nadie puede verla),
-          nombre si lo das e idioma.
+          nombre si lo das e idioma. Si entras con Google, Google nos facilita tu correo, tu nombre
+          y el enlace a tu foto de perfil; nunca recibimos tu contraseña de Google.
         </li>
         <li>
           <strong>Estudio:</strong> oposiciones que sigues, nivel, horas, objetivos, respuestas,
@@ -225,6 +226,10 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
         <li>Vercel: alojamiento de la web y estadística de visitas (sin cookies).</li>
         <li>Stripe: pagos (Stripe Payments Europe, Irlanda).</li>
         <li>Resend: envío de correos de la cuenta, en servidores de la UE.</li>
+        <li>
+          Google: solo si eliges «Continuar con Google», para identificarte (Google Ireland
+          Limited).
+        </li>
       </ul>
       <p>
         Si algún proveedor accede a datos desde fuera del Espacio Económico Europeo, lo hace con las

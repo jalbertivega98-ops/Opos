@@ -32,6 +32,11 @@ export const signInSchema = z.object({
   locale: localeSchema,
 });
 
+export const oauthSchema = z.object({
+  next: z.string().max(512).optional(),
+  locale: localeSchema,
+});
+
 export const forgotSchema = z.object({ email: emailSchema, locale: localeSchema });
 
 export const resetSchema = z

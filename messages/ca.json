@@ -287,6 +287,12 @@
     "suspended": {
       "title": "Compte no disponible",
       "body": "El teu compte està suspès o pendent d'eliminació. Si creus que és un error, contacta amb suport."
+    },
+    "google": {
+      "button": "Continua amb Google",
+      "or": "o amb el teu correu",
+      "terms": "Si és la primera vegada, es crea el teu compte i acceptes les <terms>condicions d'ús</terms> i la <privacy>política de privadesa</privacy>.",
+      "error": "No s'ha pogut entrar amb Google. Torna-ho a provar o entra amb el teu correu."
     }
   },
   "validation": {
@@ -317,7 +323,8 @@
     "sessionExpired": "La sessió ha caducat. Sol·licita un enllaç nou.",
     "notFoundTitle": "Pàgina no trobada",
     "notFoundBody": "La pàgina que cerques no existeix o s'ha mogut.",
-    "home": "Vés a l'inici"
+    "home": "Vés a l'inici",
+    "oauth": "No s'ha pogut connectar amb Google. Torna-ho a provar d'aquí a uns minuts."
   },
   "app": {
     "greeting": "Hola, {name}",
@@ -478,7 +485,8 @@
       "wrongPassword": "Contrasenya incorrecta.",
       "required": "Camp obligatori.",
       "confirmWord": "Escriu ELIMINAR en majúscules.",
-      "sameEmail": "Aquest ja és el teu correu actual."
+      "sameEmail": "Aquest ja és el teu correu actual.",
+      "reauthGoogle": "Per seguretat, surt, torna a entrar amb Google i esborra el compte en els 10 minuts següents."
     },
     "securityTitle": "Contrasenya",
     "securityBody": "Per canviar-la necessitem la teva contrasenya actual.",
@@ -495,7 +503,10 @@
     "emailChangeSent": "T'hem enviat un enllaç de confirmació. Revisa la safata (també la del correu actual) i prem l'enllaç per completar el canvi.",
     "billingTitle": "Subscripció i compres",
     "billingBody": "El teu Premium, els packs que has comprat i la gestió del pagament.",
-    "billingNone": "Encara no tens cap subscripció ni compra."
+    "billingNone": "Encara no tens cap subscripció ni compra.",
+    "googleTitle": "Entres amb Google",
+    "googleBody": "El teu compte ({email}) fa servir Google per entrar, així que no té contrasenya d'OPOSAPRUEBA. El correu i la seguretat es gestionen des del teu compte de Google.",
+    "deleteGoogleHint": "Com que entres amb Google, per seguretat només pots esborrar el compte en els 10 minuts següents a haver entrat."
   },
   "landingNotice": {
     "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."
@@ -1659,7 +1670,26 @@
       "allTypes": "Tipus de psicotècnic",
       "guide": "Guia del tipus"
     },
-    "breadcrumbs": "Ruta de navegació"
+    "breadcrumbs": "Ruta de navegació",
+    "sample": {
+      "crumb": "Test gratis",
+      "title": "Test {exam} gratis en línia: {n} preguntes amb solució",
+      "description": "Fes un test gratis de {exam} sense registrar-te: {n} preguntes tipus test dels primers temes del temari, amb la resposta correcta, l'explicació i la referència legal. Canvien cada dia.",
+      "h1": "Test gratis de {exam}",
+      "intro": "{n} preguntes tipus test dels temes gratuïts de {exam}, amb la solució, l'explicació i la referència a la norma o la guia oficial. No cal registrar-se i no desem les teves respostes. Cada dia surten preguntes diferents.",
+      "localeNote": "Les preguntes estan en català, igual que a l'examen real.",
+      "topic": "Tema: {topic}",
+      "result": "Has encertat {correct} de {total}",
+      "resultHint": "Amb un compte gratuït pots fer tots els tests dels 3 primers temes, veure el teu progrés i repassar les errades. Sense targeta.",
+      "register": "Crear compte gratis",
+      "again": "Repetir el test",
+      "guide": "Com és l'examen de {exam}",
+      "error": "No s'ha pogut corregir la pregunta. Torna a carregar la pàgina.",
+      "notSaved": "Test anònim: no es desa res.",
+      "cta": "Fes un test gratis de {exam}",
+      "ctaHint": "{n} preguntes amb solució, sense registrar-te.",
+      "otherExams": "Test gratis d'altres oposicions"
+    }
   },
   "adminTraffic": {
     "title": "Trànsit des de cercadors i IA",

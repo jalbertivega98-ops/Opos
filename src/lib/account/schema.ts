@@ -10,7 +10,8 @@ export const profileSchema = z.object({
 export const DELETE_CONFIRM_WORD = { es: "ELIMINAR", ca: "ELIMINAR" } as const;
 
 export const deleteAccountSchema = z.object({
-  password: z.string().min(1).max(72),
+  // Vacía en cuentas que solo entran con Google (se exige haber entrado hace poco).
+  password: z.string().max(72).optional().default(""),
   confirm: z.literal("ELIMINAR", { error: "confirmWord" }),
   locale: localeSchema,
 });

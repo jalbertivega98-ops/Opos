@@ -1,6 +1,6 @@
 /**
  * Banco verbal comprobado en el Diccionario de la lengua española (RAE-ASALE),
- * dle.rae.es, el 6/11/2026 (ADR-040).
+ * dle.rae.es, el 6/11/2026 (ADR-042).
  *
  * - `DLE_SYNONYMS`: una línea por entrada, «palabra:sinónimos;antónimos», con
  *   las listas de sinónimos y antónimos que el DLE muestra para la entrada

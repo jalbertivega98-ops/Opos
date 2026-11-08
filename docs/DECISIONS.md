@@ -260,15 +260,44 @@ Los simulacros entrenan la parte 1 del ejercicio único por separado (30 Bloque 
 **Motivo:** que cada oposición publicada explique y practique lo que de verdad entra en su examen.
 **Consecuencias:** cultura general y actualidad (Guardia Urbana, policía local), conocimiento de Barcelona, el bloque D de IIPP y las partes de desarrollo no se pueden practicar. La policía local depende de las bases de cada ayuntamiento: la ficha lo dice. Todo el contenido es redacción propia con cita literal de la fuente y lo puede revisar joel desde `/admin`.
 
-## ADR-040 · Psicotécnicos verbales de la AGE: sinónimos, antónimos y ortografía desde el DLE (2026-11-06)
+## ADR-040 · Entrar con Google (2026-11-06)
+
+**Decisión:** joel propuso que los alumnos puedan entrar con su cuenta de Google. Se usa el proveedor Google de Supabase Auth (OAuth con PKCE), sin librerías nuevas:
+
+- **Botón «Continuar con Google»** en `/entrar` y `/registro` (`GoogleSignIn`, `googleSignInAction`). La acción pide a Supabase la URL de Google (`signInWithOAuth`, `skipBrowserRedirect`, `prompt=select_account`) y redirige; el verificador PKCE queda en una cookie. Google vuelve a `/auth/callback?via=google&next=…`, que canjea el código, registra `auth.sign_in` y, si la cuenta no ha hecho el onboarding, guarda el idioma con el que llegó y la manda a `/app/onboarding`.
+- **El botón solo aparece si Google está activado en Supabase** (`isGoogleAuthEnabled()` lee `/auth/v1/settings`, caché 5 min, se oculta ante cualquier fallo). No hace falta variable de entorno: al activar el proveedor en Supabase aparece solo.
+- **Alta:** si el correo no existe se crea la cuenta; el aviso bajo el botón dice que se aceptan condiciones y privacidad. Migración `20261106000200_google_display_name` (preview `57-`): el perfil toma `full_name`/`name` de Google si no hay `display_name`. Si el correo ya existía con contraseña, Supabase enlaza las dos identidades (el correo de Google está verificado).
+- **Cuentas solo Google (sin contraseña, `hasPassword()`):** «Mi perfil» oculta cambiar contraseña y correo (se gestionan en Google) y borrar la cuenta no pide contraseña sino haber entrado hace ≤ 10 minutos (`signedInRecently()`).
+- **Errores:** si el alumno cancela en Google o el código no vale, vuelve a `/entrar?error=oauth` con un aviso propio.
+- Privacidad: Google como proveedor de identificación y datos que nos da (correo, nombre, enlace a la foto).
+- Pila local: GoTrue con Google activado y credenciales falsas; el e2e comprueba el salto a Google, no el login completo.
+
+**Motivo:** menos fricción en el registro (sin contraseña ni correo de confirmación) usando lo que Supabase ya trae.
+**Consecuencias:** joel tiene que crear el cliente OAuth en Google Cloud y activarlo en Supabase (pasos en `docs/DEPLOYMENT.md`). La pantalla de Google muestra el dominio `tnenqdecvenfbqjgubbf.supabase.co` salvo que se contrate un dominio propio en Supabase (de pago). Para mostrar el logo en la pantalla de consentimiento Google pide verificar la marca.
+
+## ADR-041 · Test gratis sin registro por oposición (2026-11-07)
+
+**Decisión:** para posicionar en búsquedas genéricas como «test oposiciones Mossos», cada oposición con preguntas gratis tiene una página pública `/oposiciones/<slug>/test` (es y ca) con un test que se hace sin cuenta:
+
+- **Qué preguntas:** solo publicadas (`status = 'published'`, `is_test = false`) de los temas gratis de la oposición (los de su pack gratuito, `config.topic_slugs`). Es contenido que ya es gratis con cuenta; no se abre nada de pago.
+- **Muestra del día:** 10 preguntas ordenadas por `md5(id || fecha de Madrid)`; cambian cada día y son estables durante el día.
+- **Sin solución en la página:** `exam_sample_questions` (SECURITY DEFINER, anon) devuelve enunciado, opciones, referencia, idioma y tema. `check_exam_sample_answer` corrige una pregunta de esa muestra posible y devuelve la buena y la explicación. No se guarda nada; la cuenta de aciertos vive en el navegador (como la demo de psicotécnicos).
+- **SEO:** título «Test <oposición> gratis online: N preguntas con solución», Quiz/LearningResource en JSON-LD, migas, enlace desde la ficha y entrada en el sitemap (`changeFrequency: daily`). Con menos de 5 preguntas la página es `noindex` y no sale en la ficha ni en el sitemap; sin preguntas, 404.
+- Al acabar invita a crear cuenta gratis (3 temas completos, progreso y repaso de fallos).
+
+Migración `20261107000100_public_sample_test` (preview `58-`).
+
+**Motivo:** quien busca «test <oposición>» quiere hacer un test ya; si hay que registrarse antes, Google prefiere otras páginas.
+**Consecuencias:** cualquiera puede ir viendo, día a día, las preguntas de los temas gratis con su solución. Es asumible porque ya eran gratis con una cuenta.
+
+## ADR-042 · Psicotécnicos verbales de la AGE: sinónimos, antónimos y ortografía desde el DLE (2026-11-06)
 
 **Decisión:** tres generadores nuevos (`spelling`, `synonyms`, `antonyms`, en `src/lib/learning/psycho/verbal.ts`) sobre un banco comprobado en dle.rae.es desde el Chrome de joel (`verbal-bank.ts`): 171 entradas con sus listas de sinónimos y antónimos del DLE y 70 pares de ortografía (cada forma correcta existe en el DLE y cada errónea da «no está en el Diccionario»).
 
 - La respuesta es uno de los primeros sinónimos/antónimos del DLE (sentido principal; más hondos con la dificultad). Los distractores no tienen relación en el DLE con la palabra ni con sus sinónimos/antónimos; como en el examen, uno es del sentido contrario. Al corregir se comprueba que solo la respuesta está en la lista del DLE.
 - Lista de exclusión para acepciones raras o regionales (p. ej. «manso» → «finca») y palabras de los exámenes reales del INAP fuera del banco.
-- El simulacro de psicotécnicos de la AGE pasa al reparto real: ortografía 3, sinónimos 3, antónimos 3, series 2, porcentajes 3, ecuaciones 2, probabilidad 1, codificación 1 y tablas 12 (preview `57-`). El simulacro completo y las réplicas siguen con las 8 verbales del tema `age-aux-psicotecnicos-verbales` (ADR de las réplicas).
+- El simulacro de psicotécnicos de la AGE pasa al reparto real: ortografía 3, sinónimos 3, antónimos 3, series 2, porcentajes 3, ecuaciones 2, probabilidad 1, codificación 1 y tablas 12 (preview `59-`). El simulacro completo y las réplicas siguen con las 8 verbales del tema `age-aux-psicotecnicos-verbales` (ADR de las réplicas).
 - Guías públicas `/psicotecnicos/ortografia`, `/sinonimos` y `/antonimos`. En catalán el enunciado se traduce y las palabras siguen en castellano (el examen es en castellano).
 
 **Motivo:** cubrir las ~9 de 30 psicotécnicas verbales del examen real con variedad ilimitada y sin inventar: todo sale del diccionario de la RAE.
 **Consecuencias:** el banco es estático; ampliarlo exige volver a consultar el DLE. Las preguntas de uso (sino/si no, DPD) siguen solo en el tema de preguntas fijas.
-

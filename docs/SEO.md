@@ -29,6 +29,7 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 - `/` es la portada, con Organization, WebSite y FAQPage.
 - `/oposiciones` es el catálogo. Las búsquedas y los filtros son `noindex` y su canonical apunta al catálogo.
 - `/oposiciones/[slug]` es la ficha de cada oposición. Si existe una guía en `src/lib/seo/exam-guides.ts`, muestra datos clave, estructura del examen, fechas, temario (tabla `topics`), psicotécnicos relacionados, preguntas frecuentes y fuentes oficiales. Las fichas «próximamente» sin guía son `noindex, follow`.
+- `/oposiciones/[slug]/test` es el test gratis sin registro (ADR-041): 10 preguntas del día de los temas gratis, corregidas al momento y sin guardar nada. Sale en la ficha y en el sitemap si hay al menos 5 preguntas; si no, es `noindex` (o 404 si no hay ninguna). Ataca búsquedas tipo «test oposiciones <nombre>».
 - `/psicotecnicos` reúne los psicotécnicos. `?tipo=` sigue funcionando y su canonical apunta a la página del tipo.
 - `/psicotecnicos/[tipo]` tiene 12 páginas, cada una con entrenador gratuito, método, oposiciones relacionadas, preguntas frecuentes y Quiz/LearningResource. El contenido está en `src/lib/seo/psycho-guides.ts`.
 
@@ -71,3 +72,13 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 - Validador de Schema.org.
 - PageSpeed Insights.
 - Inspección de URL de Search Console.
+
+## 8. Revisión semanal (Search Console)
+
+Cada semana, con el Chrome de joel (propiedad de dominio `oposaprueba.com`):
+
+1. Rendimiento → últimos 28 días → pestañas Consultas y Páginas. Anota clics, impresiones, CTR y posición media de las 20 primeras consultas.
+2. Consultas con muchas impresiones y CTR bajo (posición 5–20): mejorar el `seoTitle`/`seoDescription` de esa página (en `exam-guides.ts`, `psycho-guides.ts` o `messages/*/seo.sample`).
+3. Consultas que no tienen página propia (p. ej. «temario X», «psicotécnicos X»): proponer guía nueva, siempre con datos oficiales verificados.
+4. Indexación → Páginas: revisar las «No indexadas» y pedir indexación de las páginas nuevas.
+5. Apuntar el resultado en la memoria del proyecto (`seo-geo-oposaprueba`) con la fecha.
