@@ -733,6 +733,9 @@
       "spatial_rotation": "La respuesta correcta es la pieza original girada {deg}°. Las demás son su imagen en espejo (habría que darles la vuelta) o piezas diferentes.",
       "attention_count": "«{target}» aparece {answer} veces. Fíjate bien en los símbolos parecidos.",
       "attention_pairs": "Hay {answer} parejas idénticas. En las demás cambia o se intercambia alguna cifra.",
+      "spelling": "La forma correcta es «{correct}»; «{answer}» no está en el Diccionario de la lengua española. Las otras tres están bien escritas.",
+      "synonyms": "El Diccionario de la lengua española (RAE-ASALE) da «{answer}» como sinónimo de «{word}». Las demás opciones no lo son.",
+      "antonyms": "El Diccionario de la lengua española (RAE-ASALE) da «{answer}» como antónimo de «{word}». Las demás opciones no lo son.",
       "percentages_discount": "{price} × (100 − {d}) / 100 = {answer}.",
       "percentages_increase": "{price} × (100 + {d}) / 100 = {answer}.",
       "percentages_absent": "Asisten {n} × {p} / 100; faltan el resto: {answer}.",
@@ -795,6 +798,21 @@
         "name": "Atención y concentración",
         "prompt": "Responde con precisión.",
         "description": "Recuento de símbolos y detección de diferencias."
+      },
+      "spelling": {
+        "name": "Ortografía",
+        "prompt": "Señala la palabra con error.",
+        "description": "Tres palabras bien escritas y una con falta de ortografía (b/v, h, g/j, x/s…)."
+      },
+      "synonyms": {
+        "name": "Sinónimos",
+        "prompt": "Elige el sinónimo.",
+        "description": "Palabras con el mismo significado, según el diccionario de la RAE."
+      },
+      "antonyms": {
+        "name": "Antónimos",
+        "prompt": "Elige el antónimo.",
+        "description": "Palabras de significado contrario, según el diccionario de la RAE."
       },
       "percentages": {
         "name": "Porcentajes y fracciones",
@@ -969,6 +987,9 @@
       "numeric_mixture": "Se mezclan {q1} kg de café de {p1} €/kg con {q2} kg de café de {p2} €/kg. ¿A cuántos euros sale el kg de la mezcla?",
       "attention_count": "¿Cuántas veces aparece «{target}» en el recuadro?",
       "attention_pairs": "¿Cuántas parejas están formadas por dos códigos exactamente iguales?",
+      "spelling": "Señale la palabra que contiene un error ortográfico:",
+      "synonyms": "Señale el sinónimo de «{word}»:",
+      "antonyms": "Señale el antónimo de «{word}»:",
       "percentages_discount": "Si hay un {d} % de descuento en un producto cuyo precio original es de {price} €, ¿qué importe se pagará una vez aplicado el descuento?",
       "percentages_increase": "Hemos estado pagando {price} € al mes por un servicio y este mes el precio sube un {d} %. ¿Qué importe pagaremos una vez aplicada la subida?",
       "percentages_absent": "De las {n} personas inscritas en una jornada, solo asiste el {p} %. ¿Cuántas personas inscritas han faltado?",

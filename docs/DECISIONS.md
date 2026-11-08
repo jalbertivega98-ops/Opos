@@ -302,3 +302,14 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 **Motivo:** que el alumno practique todas las partes tipo test de su examen.
 **Consecuencias:** `actcat-01-actualitat` caduca: hay que renovarlo cada trimestre (como `mossos-d`). Las preguntas que sustituyen un concepto sin fuente oficial llevan nota y quedan en borrador. La réplica de 2025 de IIPP queda pendiente porque el cuadernillo oficial es un PDF escaneado.
 
+## ADR-043 · Psicotécnicos verbales de la AGE: sinónimos, antónimos y ortografía desde el DLE (2026-11-06)
+
+**Decisión:** tres generadores nuevos (`spelling`, `synonyms`, `antonyms`, en `src/lib/learning/psycho/verbal.ts`) sobre un banco comprobado en dle.rae.es desde el Chrome de joel (`verbal-bank.ts`): 171 entradas con sus listas de sinónimos y antónimos del DLE y 70 pares de ortografía (cada forma correcta existe en el DLE y cada errónea da «no está en el Diccionario»).
+
+- La respuesta es uno de los primeros sinónimos/antónimos del DLE (sentido principal; más hondos con la dificultad). Los distractores no tienen relación en el DLE con la palabra ni con sus sinónimos/antónimos; como en el examen, uno es del sentido contrario. Al corregir se comprueba que solo la respuesta está en la lista del DLE.
+- Lista de exclusión para acepciones raras o regionales (p. ej. «manso» → «finca») y palabras de los exámenes reales del INAP fuera del banco.
+- El simulacro de psicotécnicos de la AGE pasa al reparto real: ortografía 3, sinónimos 3, antónimos 3, series 2, porcentajes 3, ecuaciones 2, probabilidad 1, codificación 1 y tablas 12 (preview `63-`). El simulacro completo y las réplicas siguen con las 8 verbales del tema `age-aux-psicotecnicos-verbales` (ADR de las réplicas).
+- Guías públicas `/psicotecnicos/ortografia`, `/sinonimos` y `/antonimos`. En catalán el enunciado se traduce y las palabras siguen en castellano (el examen es en castellano).
+
+**Motivo:** cubrir las ~9 de 30 psicotécnicas verbales del examen real con variedad ilimitada y sin inventar: todo sale del diccionario de la RAE.
+**Consecuencias:** el banco es estático; ampliarlo exige volver a consultar el DLE. Las preguntas de uso (sino/si no, DPD) siguen solo en el tema de preguntas fijas.

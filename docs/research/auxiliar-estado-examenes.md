@@ -61,9 +61,7 @@ cociente por fila o por grupo, y qué fila cumple varias condiciones.
 
 ## Pendiente
 
-- **Sinónimos, antónimos y ortografía** (unas 10 de 30) no tienen generador. Hace falta un banco de
-  palabras comprobado con el DLE de la RAE, y dle.rae.es solo se puede leer en el Chrome de joel.
-  Mientras tanto, esas 10 plazas se cubren con más ejercicios numéricos.
+- ~~Sinónimos, antónimos y ortografía~~: hecho en ADR-043 con un banco comprobado en el DLE (preview `63-`).
 - Las tablas del examen real sirven para 6 preguntas cada una. En la plataforma, cada pregunta trae
   su propia tabla, más pequeña.
 - Falta informática general sin fuente aún: plug and play, UTF-8, IA generativa y DHCP.

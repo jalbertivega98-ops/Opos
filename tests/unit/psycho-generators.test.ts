@@ -16,7 +16,7 @@ const sample = (type: PsychoType, n = 60) =>
   DIFFS.flatMap((d) => Array.from({ length: n }, (_, i) => generateItem(type, i * 104729 + d, d)));
 
 describe("todos los generadores", () => {
-  it("están registrados los 7 tipos generales y los 5 del formato AGE", () => {
+  it("están registrados los 7 tipos generales y los 8 del formato AGE", () => {
     expect(availableTypes()).toEqual([
       "series",
       "letters",
@@ -25,6 +25,9 @@ describe("todos los generadores", () => {
       "matrices",
       "spatial",
       "attention",
+      "spelling",
+      "synonyms",
+      "antonyms",
       "percentages",
       "equations",
       "probability",
