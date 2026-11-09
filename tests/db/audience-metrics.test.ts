@@ -81,6 +81,35 @@ describe("cifras de audiencia del panel (admin_audience_metrics)", () => {
     ).rejects.toThrow(/Solo administradores/);
   });
 
+  it("cuenta como entrada el latido de la zona del alumno aunque Auth no deje registro", async () => {
+    const quiet = (await createUser(client)).id;
+    ids.push(quiet);
+    const count = async () =>
+      as(client, { uid: admin }, async (q) => {
+        const { rows } = await q("select public.admin_audience_metrics() as m");
+        return (rows[0].m as Record<string, number>).logins_today;
+      });
+    const before = await count();
+    await client.query(
+      `insert into public.user_presence_daily (user_id, day, seconds)
+       values ($1, (now() at time zone 'Europe/Madrid')::date, 60)`,
+      [quiet],
+    );
+    expect(await count()).toBe(before + 1);
+    // Una segunda fuente para la misma persona no la cuenta dos veces.
+    await client.query(
+      "insert into public.activity_events (user_id, kind) values ($1, 'test.kind')",
+      [quiet],
+    );
+    expect(await count()).toBe(before + 1);
+  });
+
+  it("no expone la función auxiliar de días de entrada", async () => {
+    await expect(
+      as(client, { uid: admin }, (q) => q("select * from public.admin_login_days(now())")),
+    ).rejects.toThrow(/permission denied/);
+  });
+
   it("el alumnado y anon no pueden consultarlo", async () => {
     await expect(
       as(client, { uid: student }, (q) => q("select public.admin_audience_metrics()")),

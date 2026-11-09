@@ -27,6 +27,13 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  // URL antiguas que Google aún tiene indexadas (daban 404).
+  async redirects() {
+    return [
+      { source: "/otros", destination: "/oposiciones", permanent: true },
+      { source: "/ca/otros", destination: "/ca/oposiciones", permanent: true },
+    ];
+  },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

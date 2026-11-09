@@ -22,6 +22,7 @@ export const signUpSchema = z.object({
     .optional()
     .transform((v) => (v ? v : undefined)),
   acceptTerms: z.literal("on", { error: "terms.required" }),
+  next: z.string().max(512).optional(),
   locale: localeSchema,
 });
 

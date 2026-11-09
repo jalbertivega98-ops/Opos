@@ -33,3 +33,26 @@ export function safeNextPath(next: string | null | undefined, fallback = "/app")
     return fallback;
   }
 }
+
+/** Slug de oposición válido en una URL (minúsculas, números y guiones). */
+const EXAM_SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+/** Destino tras crear la cuenta: el onboarding con la oposición ya elegida. */
+export function onboardingPath(exam?: string | null): string {
+  return exam && EXAM_SLUG.test(exam) && exam.length <= 80
+    ? `/app/onboarding?exam=${exam}`
+    : "/app/onboarding";
+}
+
+/** Enlace a «Crear cuenta» que conserva la oposición que el visitante estaba mirando. */
+export function signUpPath(exam?: string | null): string {
+  return exam && EXAM_SLUG.test(exam) && exam.length <= 80 ? `/registro?exam=${exam}` : "/registro";
+}
+
+/** Oposición que pide un destino interno (`/app/onboarding?exam=…`), si la hay. */
+export function examFromNext(next?: string | null): string | undefined {
+  if (!next) return undefined;
+  const url = new URL(safeNextPath(next, "/"), "http://localhost");
+  const exam = url.searchParams.get("exam");
+  return exam && EXAM_SLUG.test(exam) ? exam : undefined;
+}

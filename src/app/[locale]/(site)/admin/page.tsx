@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
 import { Card, EmptyState } from "@/components/ui/card";
-import { Alert } from "@/components/ui/form";
 import { Link } from "@/i18n/navigation";
 import { DailyChart } from "@/components/admin/daily-chart";
 import {
@@ -64,7 +63,12 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
             </Card>
           ))}
         </div>
-        <Alert className="mt-4">{t("pendingMetrics")}</Alert>
+        <p className="text-muted-foreground mt-4 text-sm">
+          {t("salesHint")}{" "}
+          <Link href="/admin/compras" className="text-primary font-medium underline">
+            {t("salesLink")}
+          </Link>
+        </p>
       </section>
 
       <section aria-labelledby="audience-title" data-testid="admin-audience">
@@ -188,7 +192,10 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
               <EmptyState title={t("noUsers")} />
             </div>
           ) : (
-            <table className="mt-3 w-full min-w-[520px] text-left text-sm" data-testid="recent-users">
+            <table
+              className="mt-3 w-full min-w-[520px] text-left text-sm"
+              data-testid="recent-users"
+            >
               <thead className="text-muted-foreground">
                 <tr>
                   <th scope="col" className="py-2 pr-3 font-medium">

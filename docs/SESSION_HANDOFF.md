@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Conversión tras la auditoría (2026-11-09, rama `claude/project-thread-3xoxnz`, MKT-005, ADR-044)
+
+- Auditoría completa en el Claude Doc «Auditoría OPOSAPRUEBA · noviembre 2026» (plan de 23 mejoras). Hechos los puntos 1–8: registro con la oposición elegida, repaso de fallos del test gratis, tests gratis en la portada, oferta arriba y barra fija en fichas, «Han entrado» con varias fuentes (preview `64-`), redirección de /otros.
+- Pendiente: que joel diga «fusiona»; después, UTM en bio y enlaces (el tráfico ya los registra) y el resto del plan (P1: plan anual, correos automáticos, guías 2027).
+
 ### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-043)
 
 - Generadores `spelling`, `synonyms` y `antonyms` con el banco `verbal-bank.ts` comprobado en dle.rae.es (171 palabras, 70 pares de ortografía). Guías públicas nuevas.

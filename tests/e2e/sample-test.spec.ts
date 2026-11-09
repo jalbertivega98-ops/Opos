@@ -103,9 +103,35 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
       await page.getByRole("button", { name: i === 5 ? "Ver resultados" : "Siguiente" }).click();
     }
     await expect(page.getByTestId("sample-result")).toContainText("Has acertado 5 de 6");
-    await expect(page.getByRole("link", { name: "Crear cuenta gratis" })).toHaveAttribute(
+    await expect(page.getByTestId("sample-result")).toContainText("Equivale a un 8,3 sobre 10");
+    // Repaso de lo fallado: solo la primera, con la respuesta buena y la explicación.
+    const misses = page.getByTestId("sample-misses").getByRole("listitem");
+    await expect(misses).toHaveCount(1);
+    await expect(misses.first()).toContainText(`Pregunta E2E`);
+    await expect(misses.first()).toContainText("Tu respuesta: Opción uno");
+    await expect(misses.first()).toContainText("Correcta: B. Opción buena");
+    // El registro conserva la oposición.
+    await expect(page.getByTestId("sample-register")).toHaveAttribute(
       "href",
-      "/registro",
+      `/registro?exam=${slug}`,
+    );
+  });
+
+  test("«Preparar esta oposición» lleva al visitante a crear la cuenta con la oposición elegida", async ({
+    page,
+  }) => {
+    await page.goto(`/oposiciones/${slug}`);
+    await page.getByTestId("prepare-exam").click();
+    await expect(page).toHaveURL(/\/registro\?next=/);
+    expect(decodeURIComponent(page.url())).toContain(`/app/onboarding?exam=${slug}`);
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("Crea tu cuenta");
+    await expect(page.locator('form input[name="next"]').last()).toHaveValue(
+      `/app/onboarding?exam=${slug}`,
+    );
+    // «Ya tengo cuenta» también conserva el destino.
+    await expect(page.getByRole("link", { name: "Entra", exact: true })).toHaveAttribute(
+      "href",
+      `/entrar?next=${encodeURIComponent(`/app/onboarding?exam=${slug}`)}`,
     );
   });
 

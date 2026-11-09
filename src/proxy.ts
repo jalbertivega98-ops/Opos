@@ -26,8 +26,12 @@ export async function proxy(request: NextRequest, event: NextFetchEvent) {
   if (!user && isProtectedPath(request.nextUrl.pathname)) {
     const url = request.nextUrl.clone();
     const localePrefix = request.nextUrl.pathname.startsWith("/ca") ? "/ca" : "";
-    url.pathname = `${localePrefix}/entrar`;
-    url.search = `?next=${encodeURIComponent(stripLocale(request.nextUrl.pathname))}`;
+    const target = stripLocale(request.nextUrl.pathname);
+    // El onboarding solo lo pide quien aún no tiene cuenta («Preparar esta oposición»):
+    // lo mandamos a crearla, no a entrar. Conservamos la consulta (?exam=…) en next.
+    const page = target === "/app/onboarding" ? "registro" : "entrar";
+    url.pathname = `${localePrefix}/${page}`;
+    url.search = `?next=${encodeURIComponent(target + request.nextUrl.search)}`;
     const redirect = NextResponse.redirect(url);
     response.cookies.getAll().forEach((c) => redirect.cookies.set(c));
     return redirect;

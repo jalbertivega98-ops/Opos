@@ -196,7 +196,11 @@
     "catalogEyebrow": "Catàleg",
     "pricingEyebrow": "Preus",
     "faqEyebrow": "Dubtes",
-    "finalEyebrow": "Comença avui"
+    "finalEyebrow": "Comença avui",
+    "freeTests": {
+      "title": "Fes un test gratis de la teva oposició",
+      "hint": "10 preguntes amb solució i explicació. Sense registrar-te."
+    }
   },
   "availability": {
     "available": "Disponible",
@@ -239,7 +243,9 @@
     "noTests": "Estructura de proves pendent de verificar amb la convocatòria oficial.",
     "sources": "Fonts oficials",
     "noSources": "Pendent d'afegir fonts oficials verificades.",
-    "back": "Torna al catàleg"
+    "back": "Torna al catàleg",
+    "stickyTest": "Test gratis",
+    "stickyOffer": "Veure preus"
   },
   "auth": {
     "signIn": {
@@ -441,7 +447,6 @@
       "createdAt": "Alta",
       "lastActive": "Última activitat"
     },
-    "pendingMetrics": "Premium, ingressos, conversions i retenció s'activaran amb Stripe (Fita 5).",
     "never": "Mai",
     "practiceTitle": "Pràctica (últims 7 dies)",
     "practiceSessions": "Pràctiques acabades",
@@ -463,7 +468,9 @@
     "chartLogins": "Hi han entrat",
     "chartSignups": "Registres nous",
     "chartTotal": "{n} en 30 dies",
-    "chartHint": "Passa el ratolí per una barra per veure el dia i la xifra. «Hi han entrat» compta cada persona una vegada al dia, tant si inicia sessió com si ja la tenia oberta. La suma de 30 dies pot comptar la mateixa persona en dies diferents."
+    "chartHint": "Passa el ratolí per una barra per veure el dia i la xifra. «Hi han entrat» compta cada persona una vegada al dia, tant si inicia sessió com si ja la tenia oberta. La suma de 30 dies pot comptar la mateixa persona en dies diferents.",
+    "salesHint": "Les vendes, subscripcions i codis promocionals són a",
+    "salesLink": "Compres"
   },
   "profile": {
     "title": "El meu perfil",
@@ -1656,7 +1663,8 @@
       "psycho": "Psicotècnics per a aquesta oposició",
       "sources": "Fonts oficials consultades",
       "faq": "Preguntes freqüents",
-      "verified": "Dades comprovades a les fonts oficials el {date}. OPOSAPRUEBA és una acadèmia independent i no està vinculada a l'organisme convocant: consulta sempre la convocatòria oficial."
+      "verified": "Dades comprovades a les fonts oficials el {date}. OPOSAPRUEBA és una acadèmia independent i no està vinculada a l'organisme convocant: consulta sempre la convocatòria oficial.",
+      "syllabusToggle": "Veure els {count} temes"
     },
     "psychoType": {
       "eyebrow": "Psicotècnic gratis",
@@ -1680,7 +1688,7 @@
       "localeNote": "Les preguntes estan en català, igual que a l'examen real.",
       "topic": "Tema: {topic}",
       "result": "Has encertat {correct} de {total}",
-      "resultHint": "Amb un compte gratuït pots fer tots els tests dels 3 primers temes, veure el teu progrés i repassar les errades. Sense targeta.",
+      "resultHint": "Crea el teu compte gratis i continua on ho has deixat: tots els tests dels 3 primers temes, el teu progrés i el repàs de les errades. Sense targeta.",
       "register": "Crear compte gratis",
       "again": "Repetir el test",
       "guide": "Com és l'examen de {exam}",
@@ -1688,7 +1696,11 @@
       "notSaved": "Test anònim: no es desa res.",
       "cta": "Fes un test gratis de {exam}",
       "ctaHint": "{n} preguntes amb solució, sense registrar-te.",
-      "otherExams": "Test gratis d'altres oposicions"
+      "otherExams": "Test gratis d'altres oposicions",
+      "grade": "Equival a un {grade} sobre 10 (sense descomptar les errades).",
+      "missesTitle": "{count, plural, one {Repassa la pregunta que has fallat} other {Repassa les # preguntes que has fallat}}",
+      "yourAnswer": "La teva resposta",
+      "rightAnswer": "Correcta"
     }
   },
   "adminTraffic": {

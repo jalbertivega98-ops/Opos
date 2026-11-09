@@ -15,10 +15,13 @@ export async function ExamGuideSection({
   guide,
   locale,
   topics,
+  offer,
 }: {
   guide: ExamGuide;
   locale: string;
   topics: { slug: string; title: string; title_ca: string | null }[];
+  /** Oferta (gratis, Premium y packs): va justo después de «Cómo es el examen». */
+  offer?: React.ReactNode;
 }) {
   const t = await getTranslations("seo.guide");
   const tp = await getTranslations("psycho.types");
@@ -63,6 +66,8 @@ export async function ExamGuideSection({
         </div>
       </section>
 
+      {offer}
+
       <section aria-labelledby="guide-calendar">
         <h2 id="guide-calendar" className="text-2xl font-bold">
           {t("calendar")}
@@ -84,11 +89,17 @@ export async function ExamGuideSection({
             {t("syllabus")}
           </h2>
           <p className="text-muted-foreground mt-1 text-sm">{t("syllabusNote")}</p>
-          <ol className="mt-4 grid gap-x-8 gap-y-1.5 text-sm md:grid-cols-2">
-            {topics.map((tp2) => (
-              <li key={tp2.slug}>{(locale === "ca" && tp2.title_ca) || tp2.title}</li>
-            ))}
-          </ol>
+          {/* Plegado: en móvil la lista entera ocupaba más de una pantalla. */}
+          <details className="border-border mt-4 rounded-xl border px-4 py-3">
+            <summary className="cursor-pointer text-sm font-semibold">
+              {t("syllabusToggle", { count: topics.length })}
+            </summary>
+            <ol className="mt-3 grid gap-x-8 gap-y-1.5 text-sm md:grid-cols-2">
+              {topics.map((tp2) => (
+                <li key={tp2.slug}>{(locale === "ca" && tp2.title_ca) || tp2.title}</li>
+              ))}
+            </ol>
+          </details>
         </section>
       )}
 

@@ -59,9 +59,19 @@ export default async function ExamPage({
     examSampleQuestions(exam.slug, locale),
   ]);
   const name = localized(locale, exam.name, exam.name_ca);
+  const offerSection = offer ? (
+    <ExamOfferSection
+      examSlug={slug}
+      offer={offer}
+      locale={locale}
+      back={`/oposiciones/${slug}`}
+      billing={billingStatus()}
+    />
+  ) : null;
+  const hasSample = sample.length >= SAMPLE_MIN;
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-10 sm:py-14">
+    <div className="mx-auto max-w-4xl px-4 pt-10 pb-28 sm:py-14">
       <Breadcrumbs
         locale={locale}
         label={t("seo.breadcrumbs")}
@@ -119,12 +129,12 @@ export default async function ExamPage({
         <Alert className="mt-6">{t("catalog.comingSoonNotice")}</Alert>
       )}
       <Button asChild variant="accent" size="lg" className="mt-6">
-        <Link href={`/app/onboarding?exam=${exam.slug}`}>
+        <Link href={`/app/onboarding?exam=${exam.slug}`} data-testid="prepare-exam">
           {exam.availability === "coming_soon" ? t("catalog.follow") : t("catalog.prepare")}
         </Link>
       </Button>
 
-      {sample.length >= SAMPLE_MIN && (
+      {hasSample && (
         <Link
           href={`/oposiciones/${exam.slug}/test`}
           className="border-border hover:border-accent mt-6 flex items-center justify-between gap-4 rounded-xl border p-4 transition-colors"
@@ -140,17 +150,11 @@ export default async function ExamPage({
         </Link>
       )}
 
-      {guide && <ExamGuideSection guide={guide} locale={locale} topics={topics} />}
-
       <CheckoutNoticeAlert notice={notice} />
-      {offer && (
-        <ExamOfferSection
-          examSlug={slug}
-          offer={offer}
-          locale={locale}
-          back={`/oposiciones/${slug}`}
-          billing={billingStatus()}
-        />
+      {guide ? (
+        <ExamGuideSection guide={guide} locale={locale} topics={topics} offer={offerSection} />
+      ) : (
+        offerSection
       )}
 
       <div className="mt-10 grid gap-4">
@@ -209,6 +213,27 @@ export default async function ExamPage({
           </Card>
         )}
       </div>
+
+      {/* Barra fija en móvil: test gratis + oferta siempre a mano (la ficha mide ~7 pantallas). */}
+      {exam.availability === "available" && (
+        <div
+          className="border-border bg-background/95 fixed inset-x-0 bottom-0 z-40 border-t px-4 py-3 backdrop-blur sm:hidden"
+          data-testid="exam-sticky-cta"
+        >
+          <div className="flex gap-2">
+            {hasSample && (
+              <Button asChild variant="outline" className="flex-1">
+                <Link href={`/oposiciones/${exam.slug}/test`}>{t("catalog.stickyTest")}</Link>
+              </Button>
+            )}
+            <Button asChild variant="accent" className="flex-1">
+              <Link href={offer ? "#oferta" : `/app/onboarding?exam=${exam.slug}`}>
+                {offer ? t("catalog.stickyOffer") : t("catalog.prepare")}
+              </Link>
+            </Button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { isProtectedPath, safeNextPath, stripLocale } from "@/lib/paths";
+import {
+  examFromNext,
+  isProtectedPath,
+  onboardingPath,
+  safeNextPath,
+  signUpPath,
+  stripLocale,
+} from "@/lib/paths";
 
 describe("stripLocale", () => {
   it.each([
@@ -38,4 +45,23 @@ describe("safeNextPath (open redirect)", () => {
     "",
     undefined,
   ])("rechaza %s", (v) => expect(safeNextPath(v as string)).toBe("/app"));
+});
+
+describe("registro con la oposición elegida", () => {
+  it("signUpPath y onboardingPath conservan solo slugs válidos", () => {
+    expect(signUpPath("mossos-esquadra")).toBe("/registro?exam=mossos-esquadra");
+    expect(signUpPath()).toBe("/registro");
+    expect(signUpPath("../evil")).toBe("/registro");
+    expect(signUpPath("a&next=//evil.com")).toBe("/registro");
+    expect(onboardingPath("policia-local")).toBe("/app/onboarding?exam=policia-local");
+    expect(onboardingPath("X Y")).toBe("/app/onboarding");
+  });
+
+  it("examFromNext saca la oposición del destino que guarda el proxy", () => {
+    expect(examFromNext("/app/onboarding?exam=auxilio-judicial")).toBe("auxilio-judicial");
+    expect(examFromNext("/app/onboarding")).toBeUndefined();
+    expect(examFromNext("//evil.com/?exam=x")).toBeUndefined();
+    expect(examFromNext("/app?exam=<script>")).toBeUndefined();
+    expect(examFromNext(undefined)).toBeUndefined();
+  });
 });
