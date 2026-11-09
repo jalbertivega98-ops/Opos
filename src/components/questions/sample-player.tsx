@@ -8,10 +8,23 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
+import { signUpPath } from "@/lib/paths";
 import { checkSampleAnswerAction, type SampleAnswerResult } from "@/lib/learning/sample/actions";
 import type { SampleQuestion } from "@/lib/learning/sample/schema";
 
 const LETTERS = "ABCDEF";
+
+/** Lo que el alumno falló, para repasarlo al terminar sin volver a pedirlo al servidor. */
+type Miss = {
+  id: string;
+  stem: string;
+  locale: string;
+  chosen: string;
+  answer: string;
+  answerLetter: string;
+  explanation: string | null;
+  reference: string | null;
+};
 
 /**
  * Test gratis sin registro (ADR-041): corrige cada pregunta en el servidor y
@@ -26,6 +39,7 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
   const [choice, setChoice] = useState<number | null>(null);
   const [result, setResult] = useState<Extract<SampleAnswerResult, { ok: true }> | null>(null);
   const [error, setError] = useState(false);
+  const [misses, setMisses] = useState<Miss[]>([]);
   const [pending, start] = useTransition();
   const headingRef = useRef<HTMLHeadingElement>(null);
   const item = items[index];
@@ -43,6 +57,20 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
       }
       setResult(r);
       if (r.correct) setScore((s) => s + 1);
+      else
+        setMisses((m) => [
+          ...m,
+          {
+            id: item.id,
+            stem: item.stem,
+            locale: item.locale,
+            chosen: item.options[i] ?? "",
+            answer: item.options[r.answerIndex] ?? "",
+            answerLetter: LETTERS[r.answerIndex] ?? "",
+            explanation: r.explanation.text ?? null,
+            reference: r.explanation.ref ?? null,
+          },
+        ]);
     });
   }
 
@@ -62,25 +90,71 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
     setDone(false);
     setChoice(null);
     setResult(null);
+    setMisses([]);
     requestAnimationFrame(() => headingRef.current?.focus());
   }
 
   if (done) {
+    const grade = Math.round((score / items.length) * 100) / 10;
     return (
-      <Card className="space-y-4" data-testid="sample-result">
-        <h2 ref={headingRef} tabIndex={-1} className="text-2xl font-bold outline-none">
-          {ts("result", { correct: score, total: items.length })}
-        </h2>
-        <p className="text-muted-foreground">{ts("resultHint")}</p>
-        <div className="flex flex-wrap gap-3">
-          <Button asChild variant="accent" size="lg">
-            <Link href="/registro">{ts("register")}</Link>
-          </Button>
-          <Button variant="outline" size="lg" onClick={restart}>
-            {ts("again")}
-          </Button>
-        </div>
-      </Card>
+      <div className="space-y-6">
+        <Card className="space-y-4" data-testid="sample-result">
+          <h2 ref={headingRef} tabIndex={-1} className="text-2xl font-bold outline-none">
+            {ts("result", { correct: score, total: items.length })}
+          </h2>
+          <p className="text-lg">
+            {ts("grade", { grade: grade.toLocaleString(item?.locale === "ca" ? "ca" : "es") })}
+          </p>
+          <p className="text-muted-foreground">{ts("resultHint")}</p>
+          <div className="flex flex-wrap gap-3">
+            <Button asChild variant="accent" size="lg">
+              <Link href={signUpPath(examSlug)} data-testid="sample-register">
+                {ts("register")}
+              </Link>
+            </Button>
+            <Button variant="outline" size="lg" onClick={restart}>
+              {ts("again")}
+            </Button>
+          </div>
+        </Card>
+
+        {misses.length > 0 && (
+          <section aria-labelledby="sample-misses" className="space-y-3">
+            <h2 id="sample-misses" className="text-xl font-bold">
+              {ts("missesTitle", { count: misses.length })}
+            </h2>
+            <ol className="space-y-3" data-testid="sample-misses">
+              {misses.map((m) => (
+                <li key={m.id}>
+                  <Card className="space-y-2">
+                    <p className="font-medium" lang={m.locale}>
+                      {m.stem}
+                    </p>
+                    <p className="text-danger text-sm" lang={m.locale}>
+                      <X className="mr-1 inline size-4" aria-hidden />
+                      {ts("yourAnswer")}: {m.chosen}
+                    </p>
+                    <p className="text-success text-sm font-semibold" lang={m.locale}>
+                      <Check className="mr-1 inline size-4" aria-hidden />
+                      {ts("rightAnswer")}: {m.answerLetter}. {m.answer}
+                    </p>
+                    {m.explanation && (
+                      <p className="text-muted-foreground text-sm" lang={m.locale}>
+                        {m.explanation}
+                      </p>
+                    )}
+                    {m.reference && (
+                      <p className="text-muted-foreground text-xs">
+                        {t("reference", { ref: m.reference })}
+                      </p>
+                    )}
+                  </Card>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+      </div>
     );
   }
 

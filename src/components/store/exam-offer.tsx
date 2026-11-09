@@ -8,6 +8,7 @@ import { formatPrice } from "@/lib/store/schema";
 import { isAttemptsPack, type ExamOffer, type OfferProduct } from "@/lib/store/queries";
 import { BuyForm } from "@/components/billing/buy-form";
 import { examHasPsycho } from "@/lib/catalog/exam-format";
+import { signUpPath } from "@/lib/paths";
 
 /**
  * «Qué incluye»: contenido real publicado, qué es gratis y qué es de pago (ADR-035).
@@ -51,7 +52,12 @@ export async function ExamOfferSection({
   ];
 
   return (
-    <section className="mt-10 space-y-4" aria-labelledby="offer-title" data-testid="exam-offer">
+    <section
+      id="oferta"
+      className="mt-10 scroll-mt-24 space-y-4"
+      aria-labelledby="offer-title"
+      data-testid="exam-offer"
+    >
       <h2 id="offer-title" className="text-2xl font-bold">
         {t("title")}
       </h2>
@@ -79,7 +85,7 @@ export async function ExamOfferSection({
             ))}
           </ul>
           <Button asChild className="w-full">
-            <Link href="/registro">{t("free.cta")}</Link>
+            <Link href={signUpPath(examSlug)}>{t("free.cta")}</Link>
           </Button>
         </Card>
 

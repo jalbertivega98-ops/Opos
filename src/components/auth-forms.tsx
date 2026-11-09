@@ -3,6 +3,7 @@
 import { useActionState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { examFromNext, signUpPath } from "@/lib/paths";
 import { Button } from "@/components/ui/button";
 import { Alert, FieldError, Input, Label } from "@/components/ui/form";
 import {
@@ -180,7 +181,10 @@ export function SignInForm({
       </Button>
       <p className="text-muted-foreground text-center text-sm">
         {t("signIn.noAccount")}{" "}
-        <Link href="/registro" className="text-accent font-semibold hover:underline">
+        <Link
+          href={signUpPath(examFromNext(next))}
+          className="text-accent font-semibold hover:underline"
+        >
           {t("signIn.createOne")}
         </Link>
       </p>
@@ -188,7 +192,7 @@ export function SignInForm({
   );
 }
 
-export function SignUpForm() {
+export function SignUpForm({ next }: { next?: string }) {
   const t = useTranslations("auth");
   const err = useErrorText();
   const locale = useLocale();
@@ -197,6 +201,7 @@ export function SignUpForm() {
     <form action={action} className="space-y-4" noValidate>
       {state.message && <Alert tone="error">{err.msg(state.message)}</Alert>}
       <input type="hidden" name="locale" value={locale} />
+      {next && <input type="hidden" name="next" value={next} />}
       <Field
         name="displayName"
         autoComplete="given-name"
@@ -253,7 +258,10 @@ export function SignUpForm() {
       </Button>
       <p className="text-muted-foreground text-center text-sm">
         {t("signUp.hasAccount")}{" "}
-        <Link href="/entrar" className="text-accent font-semibold hover:underline">
+        <Link
+          href={next ? `/entrar?next=${encodeURIComponent(next)}` : "/entrar"}
+          className="text-accent font-semibold hover:underline"
+        >
           {t("signUp.signIn")}
         </Link>
       </p>

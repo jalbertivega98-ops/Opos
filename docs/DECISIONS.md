@@ -313,3 +313,17 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 
 **Motivo:** cubrir las ~9 de 30 psicotécnicas verbales del examen real con variedad ilimitada y sin inventar: todo sale del diccionario de la RAE.
 **Consecuencias:** el banco es estático; ampliarlo exige volver a consultar el DLE. Las preguntas de uso (sino/si no, DPD) siguen solo en el tema de preguntas fijas.
+
+## ADR-044 · Conversión: registro con la oposición elegida y test gratis que engancha (2026-11-09)
+
+**Decisión:** tras la auditoría del 9/11/2026 (959 visitas y 8 registros en 6 días), cambios pequeños en el embudo:
+
+- `src/proxy.ts`: sin sesión, `/app/onboarding` lleva a `/registro` (no a `/entrar`) y el `next` conserva la consulta (`?exam=`). `/registro` acepta `?exam=` o lo saca de `next` (`examFromNext`) y lo pasa al formulario y a Google; tras confirmar el correo se llega al onboarding con la oposición elegida. Los «Crear cuenta» de la ficha y del test gratis usan `signUpPath(slug)`. Solo se aceptan slugs `[a-z0-9-]` y el destino pasa por `safeNextPath`.
+- Test gratis: al terminar muestra la nota sobre 10 y el repaso de las preguntas falladas (tu respuesta, la correcta, explicación y referencia), sin pedir nada más al servidor.
+- Portada: bloque «Haz un test gratis de tu oposición» con todas las oposiciones disponibles.
+- Ficha: la oferta (gratis, Premium y packs) va justo después de «Cómo es el examen» (`#oferta`), el temario va plegado y en móvil hay una barra fija con «Test gratis» y «Ver precios».
+- /admin: «Han entrado» contaba solo `auth.audit_log_entries`, que en Supabase Cloud llegaba vacío. Ahora une auditoría, `last_sign_in_at`, el latido (`user_presence_daily`) y `activity_events` (`admin_login_days`, preview `64-`). Se quita el aviso «se activarán con Stripe (Hito 5)».
+- `/otros` (indexada por Google, daba 404) redirige a `/oposiciones`.
+
+**Motivo:** el botón principal de la ficha mandaba al visitante nuevo a «Entrar» y perdía la oposición; el test gratis acababa sin nada que enganchara; la oferta estaba al final de una ficha de ~7 pantallas en móvil.
+**Consecuencias:** quien ya tiene cuenta y pulsa «Preparar esta oposición» sin sesión ve «Crear cuenta» con el enlace «Entra», que conserva el destino. Medir el registro (objetivo 3 %) con UTM en redes antes de cambiar más.

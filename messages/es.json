@@ -196,7 +196,11 @@
     "catalogEyebrow": "Catálogo",
     "pricingEyebrow": "Precios",
     "faqEyebrow": "Dudas",
-    "finalEyebrow": "Empieza hoy"
+    "finalEyebrow": "Empieza hoy",
+    "freeTests": {
+      "title": "Haz un test gratis de tu oposición",
+      "hint": "10 preguntas con solución y explicación. Sin registrarte."
+    }
   },
   "availability": {
     "available": "Disponible",
@@ -239,7 +243,9 @@
     "noTests": "Estructura de pruebas pendiente de verificación con la convocatoria oficial.",
     "sources": "Fuentes oficiales",
     "noSources": "Pendiente de añadir fuentes oficiales verificadas.",
-    "back": "Volver al catálogo"
+    "back": "Volver al catálogo",
+    "stickyTest": "Test gratis",
+    "stickyOffer": "Ver precios"
   },
   "auth": {
     "signIn": {
@@ -441,7 +447,6 @@
       "createdAt": "Alta",
       "lastActive": "Última actividad"
     },
-    "pendingMetrics": "Premium, ingresos, conversiones y retención se activarán con Stripe (Hito 5).",
     "never": "Nunca",
     "practiceTitle": "Práctica (últimos 7 días)",
     "practiceSessions": "Prácticas terminadas",
@@ -463,7 +468,9 @@
     "chartLogins": "Han entrado",
     "chartSignups": "Registros nuevos",
     "chartTotal": "{n} en 30 días",
-    "chartHint": "Pasa el ratón por una barra para ver el día y la cifra. «Han entrado» cuenta a cada persona una vez al día, tanto si inicia sesión como si ya la tenía abierta. La suma de 30 días puede contar a la misma persona en días distintos."
+    "chartHint": "Pasa el ratón por una barra para ver el día y la cifra. «Han entrado» cuenta a cada persona una vez al día, tanto si inicia sesión como si ya la tenía abierta. La suma de 30 días puede contar a la misma persona en días distintos.",
+    "salesHint": "Las ventas, suscripciones y códigos promocionales están en",
+    "salesLink": "Compras"
   },
   "profile": {
     "title": "Mi perfil",
@@ -1656,7 +1663,8 @@
       "psycho": "Psicotécnicos para esta oposición",
       "sources": "Fuentes oficiales consultadas",
       "faq": "Preguntas frecuentes",
-      "verified": "Datos comprobados en las fuentes oficiales el {date}. OPOSAPRUEBA es una academia independiente y no está vinculada al organismo convocante: consulta siempre la convocatoria oficial."
+      "verified": "Datos comprobados en las fuentes oficiales el {date}. OPOSAPRUEBA es una academia independiente y no está vinculada al organismo convocante: consulta siempre la convocatoria oficial.",
+      "syllabusToggle": "Ver los {count} temas"
     },
     "psychoType": {
       "eyebrow": "Psicotécnico gratis",
@@ -1680,7 +1688,7 @@
       "localeNote": "Las preguntas están en catalán, igual que en el examen real.",
       "topic": "Tema: {topic}",
       "result": "Has acertado {correct} de {total}",
-      "resultHint": "Con una cuenta gratis puedes hacer todos los test de los 3 primeros temas, ver tu progreso y repasar tus fallos. Sin tarjeta.",
+      "resultHint": "Crea tu cuenta gratis y sigue donde lo has dejado: todos los test de los 3 primeros temas, tu progreso y el repaso de tus fallos. Sin tarjeta.",
       "register": "Crear cuenta gratis",
       "again": "Repetir el test",
       "guide": "Cómo es el examen de {exam}",
@@ -1688,7 +1696,11 @@
       "notSaved": "Test anónimo: no se guarda nada.",
       "cta": "Haz un test gratis de {exam}",
       "ctaHint": "{n} preguntas con solución, sin registrarte.",
-      "otherExams": "Test gratis de otras oposiciones"
+      "otherExams": "Test gratis de otras oposiciones",
+      "grade": "Equivale a un {grade} sobre 10 (sin descontar los errores).",
+      "missesTitle": "{count, plural, one {Repasa la pregunta que has fallado} other {Repasa las # preguntas que has fallado}}",
+      "yourAnswer": "Tu respuesta",
+      "rightAnswer": "Correcta"
     }
   },
   "adminTraffic": {

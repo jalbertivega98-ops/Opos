@@ -46,14 +46,14 @@ export async function signUpAction(_: FormState, formData: FormData): Promise<Fo
   const block = await limited("signup");
   if (block) return { ...block, values };
 
-  const { email, password, displayName, locale } = parsed.data;
+  const { email, password, displayName, next, locale } = parsed.data;
   const supabase = await createClient();
   const { error } = await supabase.auth.signUp({
     email,
     password,
     options: {
       emailRedirectTo: `${publicEnv.NEXT_PUBLIC_SITE_URL}/auth/callback?next=${encodeURIComponent(
-        localePath(locale, "/app/onboarding"),
+        localePath(locale, safeNextPath(next, "/app/onboarding")),
       )}`,
       data: { display_name: displayName, locale },
     },

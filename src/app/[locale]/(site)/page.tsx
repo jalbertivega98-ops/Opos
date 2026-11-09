@@ -24,7 +24,7 @@ import { Meter, ProgressRing } from "@/components/ui/progress";
 import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
-import { listExamBodies } from "@/lib/catalog/queries";
+import { listExamBodies, localized } from "@/lib/catalog/queries";
 import { billingStatus } from "@/lib/billing/queries";
 import { premiumInfo } from "@/lib/store/queries";
 import { formatPrice } from "@/lib/store/schema";
@@ -63,7 +63,10 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
   setRequestLocale(locale);
   const t = await getTranslations("landing");
   const tNotice = await getTranslations("landingNotice");
-  const [exams, premium] = await Promise.all([listExamBodies({}, 6), premiumInfo()]);
+  const [allExams, premium] = await Promise.all([listExamBodies({}, 100), premiumInfo()]);
+  const exams = allExams.slice(0, 6);
+  // Oposiciones con test gratis sin registro (ADR-041): la mejor puerta de entrada.
+  const testable = allExams.filter((e) => e.availability === "available");
   // Premium a la venta: pagos activos y producto publicado con precio mensual
   const premiumOn = billingStatus().enabled && premium.published && premium.cents !== null;
 
@@ -124,10 +127,35 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
               ))}
             </ul>
 
+            {testable.length > 0 && (
+              <nav
+                aria-labelledby="hero-free-tests"
+                className="border-border mt-8 max-w-xl border-t pt-6"
+                data-testid="hero-free-tests"
+              >
+                <p id="hero-free-tests" className="text-sm font-semibold">
+                  {t("freeTests.title")}
+                </p>
+                <p className="text-muted-foreground mt-1 text-sm">{t("freeTests.hint")}</p>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {testable.map((e) => (
+                    <li key={e.slug}>
+                      <Link
+                        href={`/oposiciones/${e.slug}/test`}
+                        className="border-border bg-background hover:border-accent hover:text-accent inline-flex min-h-9 items-center rounded-full border px-3 text-sm font-medium transition-colors"
+                      >
+                        {localized(locale, e.name, e.name_ca)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
+
             <form
               action={`${locale === "es" ? "" : `/${locale}`}/oposiciones`}
               role="search"
-              className="border-border mt-10 max-w-xl border-t pt-6"
+              className="mt-6 max-w-xl"
             >
               <label htmlFor="hero-search" className="text-sm font-semibold">
                 {t("searchLabel")}
