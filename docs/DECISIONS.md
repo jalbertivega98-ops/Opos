@@ -332,4 +332,4 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 
 **Decisión:** una alumna de Prisiones de Cataluña se quejó (vía joel) de que el test de un tema repetía siempre las mismas preguntas. `practice_start_topic` ya sorteaba, pero con unas 20 preguntas por tema dos tests de 10 compartían la mitad. Ahora ordena: 1) las que el alumno nunca ha respondido; 2) las que falló la última vez; 3) el resto, por la que respondió hace más tiempo; al azar dentro de cada grupo. Las preguntas de un test que se deja a medias y no se contestan siguen contando como nuevas.
 **Motivo:** que cada test aporte preguntas nuevas hasta agotar el tema y que los fallos vuelvan antes que los aciertos.
-**Consecuencias:** índice nuevo `practice_items (user_id, question_id)`. No sustituye a tener más preguntas por tema: con 20, al tercer test ya se repiten.
+**Consecuencias:** índice nuevo `practice_items (user_id, question_id)`. No sustituye a tener más preguntas por tema: con 20, al tercer test ya se repiten. Por eso Prisiones de Cataluña pasa a 50 preguntas por tema (+730, preview `66-` y `67-`): cinco tests de 10 seguidos no repiten ninguna.

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "pcat-e08-mesures-cautelars-ce-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 8. Mesures cautelars, detenció, habeas corpus, presó i llibertat provisional",
+    "topic_slug": "pcat-e08-mesures-cautelars",
+    "locale": "ca",
+    "category": "pcat_e08_mesures_cautelars",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Constitución Española (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 17.4 CE",
+      "stem": "Segons l'article 17.4 de la Constitució espanyola, què ha de determinar la llei en relació amb la presó provisional?",
+      "options": [
+        "El termini màxim de durada de la presó provisional.",
+        "Els centres penitenciaris on s'ha de complir.",
+        "Les causes d'extinció de la responsabilitat penal.",
+        "El nombre màxim de pròrrogues de la detenció policial."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 17.4 CE remet a la llei la regulació del procediment d'habeas corpus i la determinació del termini màxim de durada de la presó provisional.",
+      "excerpt": "Asimismo, por ley se determinará el plazo máximo de duración de la prisión provisional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.3 CE",
+      "stem": "Quina de les garanties següents NO figura a l'article 17.3 de la Constitució espanyola en relació amb la persona detinguda?",
+      "options": [
+        "Ser informada de forma immediata i comprensible dels seus drets i de les raons de la detenció.",
+        "No poder ser obligada a declarar.",
+        "L'assistència d'advocat en les diligències policials i judicials, en els termes que estableixi la llei.",
+        "Ser posada a disposició judicial en un termini màxim de vint-i-quatre hores."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 17.3 CE recull el dret a la informació immediata i comprensible, a no declarar i a l'assistència d'advocat; el termini màxim de la detenció preventiva (art. 17.2 CE) és de setanta-dues hores, no de vint-i-quatre.",
+      "excerpt": "Toda persona detenida debe ser informada de forma inmediata, y de modo que le sea comprensible, de sus derechos y de las razones de su detención, no pudiendo ser obligada a declarar. Se garantiza la asistencia de abogado al detenido en las diligencias policiales y judiciales, en los términos que la ley establezca.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

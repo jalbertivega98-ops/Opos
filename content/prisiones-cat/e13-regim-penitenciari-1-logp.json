@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "pcat-e13-regim-penitenciari-1-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 13. El règim penitenciari I: ingressos, llibertats, trasllats, comunicacions i queixes",
+    "topic_slug": "pcat-e13-regim-penitenciari-1",
+    "locale": "ca",
+    "category": "pcat_e13_regim_penitenciari_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 17.Dos LOGP",
+      "stem": "Segons l'article 17 de la LOGP, quan ha de posar en llibertat el director de l'establiment els detinguts si no s'ha rebut manament o ordre de presó?",
+      "options": [
+        "Un cop transcorregudes les vint-i-quatre hores següents a l'ingrés.",
+        "Un cop transcorreguts cinc dies des de l'ingrés.",
+        "Un cop transcorregudes les setanta-dues hores següents al moment de l'ingrés.",
+        "Mai sense una ordre judicial expressa de llibertat."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 17.2 LOGP obliga el director a posar en llibertat els detinguts si, passades les 72 hores següents a l'ingrés, no s'ha rebut el manament o l'ordre de presó (vegeu també l'art. 23.1 RP).",
+      "excerpt": "Los detenidos serán puestos en libertad por el Director del establecimiento si, transcurridas las setenta y dos horas siguientes al momento del ingreso, no se hubiere recibido mandamiento u orden de prisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 52.Uno LOGP",
+      "stem": "Segons l'article 52 de la LOGP, en cas de defunció, malaltia o accident greu de l'intern, a qui ha d'informar el director?",
+      "options": [
+        "Només al jutge de vigilància penitenciària.",
+        "Al familiar més pròxim o a la persona que l'intern hagi designat.",
+        "Al Ministeri Fiscal i a l'autoritat consular.",
+        "A l'advocat defensor de l'intern."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 52.1 LOGP obliga el director a informar el familiar més pròxim o la persona designada per l'intern. L'art. 52.2 preveu que també s'informi l'intern de la defunció o malaltia greu d'un parent pròxim.",
+      "excerpt": "En los casos de defunción, enfermedad o accidente grave del interno, el Director informará al familiar más próximo o a la persona designada por aquél.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17.Cuatro LOGP",
+      "stem": "Segons l'article 17 de la LOGP, quin d'aquests elements NO s'ha de lliurar a l'alliberat en el moment de l'excarceració?",
+      "options": [
+        "El saldo del seu compte de peculi.",
+        "Els valors i efectes dipositats al seu nom.",
+        "Una certificació del temps que ha estat privat de llibertat i de la qualificació professional obtinguda.",
+        "Una còpia completa de l'expedient personal i del protocol de personalitat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 17.4 LOGP obliga a lliurar el saldo de peculi, els valors i efectes dipositats i una certificació del temps de privació de llibertat i de la qualificació professional; si no té mitjans, se li faciliten els necessaris per arribar a la residència.",
+      "excerpt": "En el momento de la excarcelación se entregará al liberado el saldo de su cuenta de peculio, los valores y efectos depositados a su nombre, así como una certificación del tiempo que estuvo privado de libertad y cualificación profesional obtenida durante su reclusión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16 LOGP",
+      "stem": "Segons l'article 16 de la LOGP, en l'ingrés s'ha de fer una completa separació dels interns. Quin dels criteris de separació següents NO s'hi preveu?",
+      "options": [
+        "Els detinguts i presos han d'estar separats dels condemnats i, en tots dos casos, els primaris dels reincidents.",
+        "Els joves han d'estar separats dels adults.",
+        "Els estrangers han d'estar separats dels nacionals.",
+        "Els detinguts i presos per delictes dolosos han d'estar separats dels que ho estan per delictes d'imprudència."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 16 LOGP separa per sexe, situació processal (i primaris/reincidents), edat, malaltia o deficiència i delictes dolosos/imprudents. La nacionalitat no és criteri de separació.",
+      "excerpt": "b) Los detenidos y presos estarán separados de los condenados y, en ambos casos, los primarios de los reincidentes. c) Los jóvenes, sean detenidos, presos o penados, estarán separados de los adultos en las condiciones que se determinen reglamentariamente. d) Los que presenten enfermedad o deficiencias físicas o mentales estarán separados de los que puedan seguir el régimen normal del establecimiento. e) Los detenidos y presos por delitos dolosos estarán separados de los que estén por delitos de imprudencia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
