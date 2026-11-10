@@ -12,6 +12,10 @@ import { QuestionReview, type AnsweredQuestion } from "@/components/questions/re
 import type { PresentedQuestion } from "@/lib/learning/questions/schema";
 import { requireUser } from "@/lib/auth/session";
 import { getPracticeSession } from "@/lib/learning/practice/queries";
+import { getSessionTopic } from "@/lib/learning/notes-queries";
+import { TOPIC_DONE } from "@/lib/learning/plan";
+import { localized } from "@/lib/catalog/queries";
+import { TopicTestButton } from "@/components/plan/topic-test-button";
 import { duration, pct, secondsOf } from "@/lib/learning/practice/format";
 import type { PublicPsychoItem, PsychoType, Difficulty } from "@/lib/learning/psycho/types";
 
@@ -73,6 +77,12 @@ export default async function PracticeSessionPage({
   }
 
   const answered = items.filter((i) => i.is_correct !== null);
+  // Test de un tema: progreso hacia «dominado» y otras 10 preguntas (ADR-046)
+  const topic = isQuestions ? await getSessionTopic(session.id) : null;
+  const topicPct =
+    topic && topic.answered > 0 ? Math.round((topic.correct / topic.answered) * 100) : 0;
+  const mastered =
+    !!topic && topic.answered >= TOPIC_DONE.answered && topicPct >= TOPIC_DONE.accuracy * 100;
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <Card className="space-y-3 text-center" data-testid="practice-summary">
@@ -90,10 +100,41 @@ export default async function PracticeSessionPage({
             {t("avgTime", { seconds: secondsOf(session.total_time_ms / session.answered_count) })}
           </p>
         )}
+        {topic && (
+          <div className="bg-surface space-y-1 rounded-lg p-3 text-sm" data-testid="topic-progress">
+            <p className="font-medium">{localized(locale, topic.title, topic.titleCa)}</p>
+            <p>
+              {t("topicProgress", {
+                answered: topic.answered,
+                pct: topicPct,
+                published: topic.published,
+              })}
+            </p>
+            <p className={mastered ? "text-success font-semibold" : "text-muted-foreground"}>
+              {mastered
+                ? t("topicMastered")
+                : t("topicGoal", {
+                    answered: TOPIC_DONE.answered,
+                    pct: TOPIC_DONE.accuracy * 100,
+                  })}
+            </p>
+          </div>
+        )}
         <div className="flex flex-wrap justify-center gap-3 pt-2">
-          <Button asChild variant="accent">
-            <Link href={isQuestions ? "/app/temario" : "/app/practica"}>{t("again")}</Link>
-          </Button>
+          {topic ? (
+            <>
+              <TopicTestButton topic={topic.slug} size="md">
+                {t("topicMore")}
+              </TopicTestButton>
+              <Button asChild variant="outline">
+                <Link href={`/app/temario/${topic.slug}`}>{t("topicStudy")}</Link>
+              </Button>
+            </>
+          ) : (
+            <Button asChild variant="accent">
+              <Link href={isQuestions ? "/app/temario" : "/app/practica"}>{t("again")}</Link>
+            </Button>
+          )}
           <Button asChild variant="outline">
             <Link href="/app/progreso">{t("toProgress")}</Link>
           </Button>

@@ -13,10 +13,12 @@ import { cn } from "@/lib/utils";
 export { taskUnlocked };
 
 /** Preguntas que quedan de la tarea esta semana (mínimo un test corto). */
+/** Tests de tema en tandas de 10: lo que queda de la tarea, como mucho 10 (ADR-046). */
+export const TOPIC_BATCH = 10;
 export function remainingQuestions(task: PlanTask, entries: StudyEntry[]) {
   if (task.kind !== "topic") return 0;
   const p = taskProgress(task, entries);
-  return p.state === "done" ? 10 : p.target - p.done;
+  return p.state === "done" ? TOPIC_BATCH : Math.min(TOPIC_BATCH, p.target - p.done);
 }
 
 /**

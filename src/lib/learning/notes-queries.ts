@@ -135,3 +135,74 @@ export async function myExamNotes() {
   }));
   return { exam: target.exam, notes };
 }
+
+/** Apuntes de un tema: párrafos propios con su cita literal de la norma (ADR-046). */
+export type LessonRef = { ref: string; law: string; url: string | null; quote: string };
+export type LessonSection = {
+  n: string;
+  title: string;
+  blocks: { text: string; refs: LessonRef[] }[];
+};
+
+const str = (v: unknown) => (typeof v === "string" ? v : null);
+
+/** Solo devuelve algo a quien puede practicar el tema (o al personal): lo decide topic_lessons(). */
+export async function getTopicLessons(slug: string): Promise<LessonSection[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("topic_lessons", { p_topic_slug: slug });
+  if (error || !Array.isArray(data)) return [];
+  return (data as unknown[]).flatMap((raw) => {
+    const s = raw as { n?: unknown; title?: unknown; blocks?: unknown };
+    const n = str(s.n);
+    const title = str(s.title);
+    if (!n || !title || !Array.isArray(s.blocks)) return [];
+    const blocks = s.blocks.flatMap((b) => {
+      const text = str((b as { text?: unknown }).text);
+      const refs = (b as { refs?: unknown }).refs;
+      if (!text) return [];
+      return [
+        {
+          text,
+          refs: (Array.isArray(refs) ? refs : []).flatMap((r) => {
+            const ref = str((r as LessonRef).ref);
+            const quote = str((r as LessonRef).quote);
+            if (!ref || !quote) return [];
+            const url = str((r as LessonRef).url);
+            return [
+              {
+                ref,
+                quote,
+                law: str((r as LessonRef).law) ?? "",
+                url: url && url.startsWith("https://") ? url : null,
+              },
+            ];
+          }),
+        },
+      ];
+    });
+    return blocks.length ? [{ n, title, blocks }] : [];
+  });
+}
+
+/** Tema de una práctica de un solo tema y progreso del alumno en él (resultado del test). */
+export async function getSessionTopic(sessionId: string) {
+  const supabase = await createClient();
+  const { data } = await supabase.rpc("my_session_topic", { p_session: sessionId });
+  const r = (Array.isArray(data) ? data[0] : null) as {
+    slug: string;
+    title: string;
+    title_ca: string | null;
+    published: number;
+    answered: number;
+    correct: number;
+  } | null;
+  if (!r) return null;
+  return {
+    slug: r.slug,
+    title: r.title,
+    titleCa: r.title_ca,
+    published: Number(r.published),
+    answered: Number(r.answered),
+    correct: Number(r.correct),
+  };
+}
