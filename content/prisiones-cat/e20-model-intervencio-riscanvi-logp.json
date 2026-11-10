@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "pcat-e20-model-intervencio-riscanvi-logp-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 20. El model d'intervenció, el RisCanvi i el CIRE",
+    "topic_slug": "pcat-e20-model-intervencio-riscanvi",
+    "locale": "ca",
+    "category": "pcat_e20_model_intervencio_riscanvi",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23708",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 26 LOGP",
+      "stem": "D'acord amb la Llei orgànica general penitenciària (LOGP), com es considera el treball de l'intern?",
+      "options": [
+        "Només com un dret de l'intern, que l'Administració ha de facilitar si hi ha llocs disponibles.",
+        "Només com un deure dels penats, de caràcter complementari al tractament.",
+        "Com un dret i com un deure de l'intern, i com un element fonamental del tractament.",
+        "Com una activitat voluntària, sense relació amb el tractament."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 26 de la LOGP considera el treball com un dret i com un deure de l'intern, i n'afirma que és un element fonamental del tractament.",
+      "excerpt": "El trabajo será considerado como un derecho y como un deber del interno, siendo un elemento fundamental del tratamiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 29.2 LOGP",
+      "stem": "Segons la LOGP, quina és la situació dels interns en presó preventiva respecte del treball?",
+      "options": [
+        "Estan obligats a treballar en les mateixes condicions que els penats.",
+        "No poden treballar fins que hi hagi sentència ferma.",
+        "Només poden fer treballs de neteja i higiene de l'establiment.",
+        "Poden treballar d'acord amb les seves aptituds i inclinacions."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 29.2 de la LOGP estableix que els preventius poden treballar d'acord amb les seves aptituds i inclinacions; l'obligació de treballar de l'art. 29.1 recau en els penats.",
+      "excerpt": "Los sometidos a prisión preventiva podrán trabajar conforme a sus aptitudes e inclinaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 61.2 LOGP",
+      "stem": "Segons la LOGP, en quina mesura s'ha de tenir en compte la satisfacció dels interessos personals de l'intern en el tractament?",
+      "options": [
+        "Sempre i amb caràcter prioritari respecte de qualsevol altra finalitat.",
+        "En la mesura que sigui compatible amb les finalitats del tractament.",
+        "Només quan ho autoritzi expressament el jutge de vigilància penitenciària.",
+        "No s'ha de tenir en compte, perquè el tractament el determina exclusivament l'equip tècnic."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 61.2 de la LOGP disposa que s'han d'estimular l'interès i la col·laboració dels interns en el seu tractament i que la satisfacció dels seus interessos personals s'ha de tenir en compte en la mesura compatible amb les finalitats del tractament.",
+      "excerpt": "Serán estimulados, en cuanto sea posible, el interés y la colaboración de los internos en su propio tratamiento. La satisfacción de sus intereses personales será tenida en cuenta en la medida compatible con las finalidades del mismo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26 LOGP",
+      "stem": "D'acord amb la LOGP, quina de les afirmacions següents sobre les condicions del treball penitenciari NO és correcta?",
+      "options": [
+        "No ha d'atemptar contra la dignitat de l'intern.",
+        "Es pot aplicar com a mesura de correcció quan la conducta de l'intern ho requereixi.",
+        "Ha de tenir caràcter formatiu, creador o conservador d'hàbits laborals, productiu o terapèutic.",
+        "No s'ha de supeditar a l'assoliment d'interessos econòmics per part de l'Administració."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 26 de la LOGP estableix que el treball no té caràcter aflictiu ni es pot aplicar com a mesura de correcció, que no ha d'atemptar contra la dignitat de l'intern, que té caràcter formatiu, creador o conservador d'hàbits laborals, productiu o terapèutic, i que no se supedita a l'assoliment d'interessos econòmics per part de l'Administració.",
+      "excerpt": "a) No tendrá carácter aflictivo ni será aplicado como medida de corrección. […] b) No atentará a la dignidad del interno. […] c) Tendrá carácter formativo, creador o conservador de hábitos laborales, productivo o terapéutico […] g) No se supeditará al logro de intereses económicos por la Administración.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 29.1 LOGP",
+      "stem": "Segons la LOGP, quin dels col·lectius següents NO queda exceptuat de l'obligació de treballar que tenen els penats?",
+      "options": [
+        "Els majors de seixanta-cinc anys.",
+        "Els perceptors de prestacions per jubilació.",
+        "Els qui pateixen incapacitat permanent per a tota classe de treballs.",
+        "Els penats condemnats a penes inferiors a un any."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 29.1 de la LOGP exceptua de l'obligació de treballar, entre d'altres, els qui estan sotmesos a tractament mèdic fins a l'alta, els qui pateixen incapacitat permanent per a tota classe de treballs, els majors de seixanta-cinc anys i els perceptors de prestacions per jubilació. La durada de la pena no és cap causa d'excepció.",
+      "excerpt": "b) Los que padezcan incapacidad permanente para toda clase de trabajos. […] c) Los mayores de sesenta y cinco años. […] d) Los perceptores de prestaciones por jubilación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35 LOGP",
+      "stem": "Segons la LOGP, en quin termini s'han d'inscriure els alliberats a l'oficina d'ocupació perquè, si no reben una oferta de treball adequada, tinguin dret a la prestació per desocupació?",
+      "options": [
+        "Dins dels trenta dies següents a l'excarceració.",
+        "Dins dels deu dies següents a l'excarceració.",
+        "Dins dels quinze dies següents a l'excarceració.",
+        "Dins dels dos mesos següents a l'excarceració."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 35 de la LOGP reconeix el dret a la prestació per desocupació, en les condicions que es fixin per reglament, als alliberats que s'hagin inscrit a l'oficina d'ocupació dins dels quinze dies següents a l'excarceració i no hagin rebut una oferta de treball adequada.",
+      "excerpt": "Los liberados que se hayan inscrito en la oficina de empleo dentro de los quince días siguientes a su excarcelación y no hayan recibido una oferta de trabajo adecuada tendrán derecho a la prestación por desempleo",
+      "excerpt_status": "completo"
+    }
+  ]
+}

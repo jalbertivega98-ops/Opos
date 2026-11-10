@@ -213,6 +213,291 @@
       "explanation": "L'art. 254.5 RP reconeix dues hores diàries de passeig en solitari i prohibeix rebre paquets de l'exterior i adquirir productes de l'economat, llevat dels autoritzats pel director.",
       "excerpt": "El recluso internado en celda disfrutará de dos horas diarias de paseo en solitario y, durante el cumplimiento de la sanción, no podrá recibir paquetes del exterior ni adquirir productos del Economato, salvo los autorizados expresamente por el Director.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 232.3 RP",
+      "stem": "Segons el Reglament penitenciari, en l'exercici de la potestat disciplinària, l'aplicació analògica:",
+      "options": [
+        "Es permet si afavoreix l'intern.",
+        "Està prohibida.",
+        "Es permet per a les faltes lleus.",
+        "Es permet amb l'autorització del jutge de vigilància."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'art. 232.3 RP prohibeix l'aplicació analògica, en coherència amb el principi de legalitat: els interns només poden ser corregits en els casos establerts i amb les sancions previstes (art. 42.1 LOGP).",
+      "excerpt": "Queda prohibida la aplicación analógica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 252.1 RP",
+      "stem": "D'acord amb el Reglament penitenciari, com a regla general, els acords sancionadors:",
+      "options": [
+        "No són executius mentre no s'hagi resolt el recurs interposat davant el jutge de vigilància o, si no se n'ha interposat cap, fins que hagi transcorregut el termini per impugnar-los.",
+        "Són executius immediatament des que es notifiquen.",
+        "Són executius quan els ratifica el centre directiu.",
+        "Són executius l'endemà de l'adopció, encara que s'hagi interposat recurs."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 252.1 RP estableix que l'acord sancionador no és executiu fins que es resol el recurs o venç el termini per interposar-lo; l'execució immediata és l'excepció per a actes d'indisciplina greu (art. 252.2 RP).",
+      "excerpt": "Los acuerdos sancionadores no serán ejecutivos en tanto no haya sido resuelto el recurso interpuesto por el interno ante el Juez de Vigilancia o, en caso de que no se haya interpuesto, hasta que haya transcurrido el plazo para su impugnación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 254.2 RP",
+      "stem": "Segons el Reglament penitenciari, en cas de malaltia de l'intern sancionat amb aïllament:",
+      "options": [
+        "La sanció es compleix a la infermeria del centre.",
+        "La sanció queda extingida automàticament.",
+        "S'ajorna l'efectivitat de la sanció fins que l'intern sigui donat d'alta.",
+        "La sanció se substitueix per una amonestació."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'art. 254.2 RP (en relació amb l'art. 43.2 LOGP) preveu l'ajornament de l'efectivitat de la sanció d'aïllament fins a l'alta mèdica de l'intern.",
+      "excerpt": "En los casos de enfermedad del sancionado se aplazará la efectividad de la sanción de aislamiento hasta que el interno sea dado de alta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 262 RP",
+      "stem": "D'acord amb el Reglament penitenciari, quin efecte té la cancel·lació de l'anotació de les sancions?",
+      "options": [
+        "Comporta la cancel·lació de les faltes per les quals es van imposar i situa l'intern, des del punt de vista disciplinari, en la mateixa situació que si no les hagués comès.",
+        "Només elimina la sanció, però la falta continua computant a l'efecte de repetició de la infracció.",
+        "Obliga a compensar l'intern pels dies d'aïllament complerts.",
+        "Només té efectes a partir que l'intern obté la llibertat definitiva."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'art. 262 RP diu que la cancel·lació de l'anotació comporta la de les faltes i situa l'intern com si no les hagués comès; per això, les sancions cancel·lades no compten per a la repetició (art. 235.2 RP).",
+      "excerpt": "La cancelación de la anotación de las sanciones lleva aparejada la de las faltas por las que se impusieron y situará al interno, desde el punto de vista disciplinario, en igual situación que si no hubiere cometido aquéllas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 235.1 RP i 42.3 LOGP",
+      "stem": "Segons la normativa penitenciària, en els casos de repetició de la infracció, les sancions:",
+      "options": [
+        "Es poden incrementar fins al doble del seu màxim.",
+        "Es poden incrementar en la meitat del seu màxim.",
+        "S'imposen sempre en el seu grau màxim.",
+        "Es poden incrementar en una tercera part del seu màxim."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 235.1 RP, que reprodueix l'art. 42.3 LOGP, permet incrementar les sancions en la meitat del seu màxim quan hi ha repetició de la infracció.",
+      "excerpt": "en los casos de repetición de la infracción, las sanciones podrán incrementarse en la mitad de su máximo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 233.2 RP",
+      "stem": "Segons l'article 233 del Reglament penitenciari, quina de les sancions següents NO es pot imposar per la comissió d'una falta greu?",
+      "options": [
+        "Aïllament en cel·la de dilluns a divendres per un temps igual o inferior a cinc dies, si concorren els requisits de violència o d'alteració greu de la convivència.",
+        "Privació de permisos de sortida per un temps igual o inferior a dos mesos.",
+        "Aïllament de fins a set caps de setmana.",
+        "Privació de passeigs i actes recreatius comuns des de tres dies fins a un mes com a màxim."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Per a les faltes greus, l'art. 233.2 RP preveu l'aïllament de dilluns a divendres fins a cinc dies (amb els requisits de violència) i, per a les altres, la privació de permisos (fins a dos mesos), la limitació de comunicacions orals o la privació de passeigs (de tres dies a un mes). L'aïllament de fins a set caps de setmana és sanció de les faltes molt greus (art. 233.1.b RP).",
+      "excerpt": "a) Sanción de aislamiento en celda de lunes a viernes por tiempo igual o inferior a cinco días, siempre que concurran los requisitos de la letra a) del apartado anterior. b) Las restantes faltas graves se sancionarán con privación de permisos de salida por tiempo igual o inferior a dos meses, limitación de las comunicaciones orales al mínimo tiempo previsto reglamentariamente durante un mes como máximo o privación de paseos y actos recreativos comunes desde tres días hasta un mes como máximo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 236.2 RP",
+      "stem": "D'acord amb el Reglament penitenciari, quan les sancions per dues o més faltes jutjades en un mateix expedient no es poden complir simultàniament, el màxim de compliment:",
+      "options": [
+        "No pot excedir del doble del temps de la sanció més greu, ni de vint-i-vuit dies consecutius d'aïllament.",
+        "És la suma aritmètica de totes les sancions, sense cap límit.",
+        "No pot excedir mai del triple del temps corresponent a la sanció més greu, ni de quaranta-dos dies consecutius en cas d'aïllament en cel·la.",
+        "No pot excedir del triple de la sanció més greu, ni de catorze dies consecutius d'aïllament."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 236.2 RP (i l'art. 42.5 LOGP) fixa el límit del triple de la sanció més greu i de quaranta-dos dies consecutius d'aïllament quan les sancions es compleixen successivament per ordre de gravetat.",
+      "excerpt": "el máximo de cumplimiento no podrá exceder nunca del triplo del tiempo correspondiente a la sanción más grave, ni de cuarenta y dos días consecutivos en caso de aislamiento en celda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 237 RP",
+      "stem": "Segons el Reglament penitenciari, en la infracció continuada (pluralitat d'accions o omissions que infringeixen el mateix precepte o un de semblant, en execució d'un pla preconcebut o aprofitant una ocasió idèntica):",
+      "options": [
+        "S'imposa la sanció corresponent a la infracció més greu en el seu límit màxim.",
+        "S'imposen totes les sancions per complir-les simultàniament.",
+        "S'imposa la sanció de la infracció més greu en el seu límit mínim.",
+        "Se sanciona com una sola falta lleu."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 237.2 RP disposa que en la infracció continuada s'imposa la sanció de la infracció més greu en el seu límit màxim.",
+      "excerpt": "En estos casos, se impondrá la sanción correspondiente a la infracción más grave en su límite máximo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 241.1 i 241.2 RP",
+      "stem": "Segons el Reglament penitenciari, quina de les formes següents NO és una de les maneres en què es pot acordar la iniciació del procediment sancionador?",
+      "options": [
+        "Per acord de la Comissió Disciplinària, que incoa directament l'expedient sense intervenció del/de la director/a.",
+        "Per iniciativa pròpia del/de la director/a, quan conegui els fets per un comunicat (part) d'un funcionari informat pel cap de serveis o per qualsevol altre mitjà.",
+        "Per petició raonada d'un altre òrgan administratiu que no sigui superior jeràrquic.",
+        "Per ordre d'un òrgan administratiu superior jeràrquic."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 241 RP atribueix sempre al/a la director/a la iniciació, d'ofici i motivadament: per iniciativa pròpia, per petició raonada d'un altre òrgan, per denúncia escrita d'una persona identificada o per ordre d'un òrgan superior jeràrquic. La Comissió Disciplinària resol, però no incoa.",
+      "excerpt": "a) Por propia iniciativa, cuando tenga conocimiento de la existencia de conductas o hechos susceptibles de constituir infracción disciplinaria a través de parte de funcionario informado por el Jefe de Servicios o por cualquier otro medio. b) Por petición razonada realizada por otro órgano administrativo que no sea superior jerárquico. […] El Director también acordará de oficio la iniciación del procedimiento como consecuencia de orden emitida por un órgano administrativo superior jerárquico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 243 RP",
+      "stem": "En relació amb les mesures cautelars en el procediment disciplinari regulades al Reglament penitenciari, quina de les afirmacions següents NO és correcta?",
+      "options": [
+        "Les pot acordar el/la director/a, per si mateix o a proposta de l'instructor, en qualsevol moment del procediment, mitjançant un acord motivat.",
+        "La seva adopció s'ha de notificar a l'intern i posar en coneixement del jutge de vigilància penitenciària.",
+        "Si la sanció que s'imposa coincideix en naturalesa amb la mesura cautelar, aquesta s'abona per al compliment de la sanció.",
+        "Requereixen l'autorització prèvia del jutge de vigilància penitenciària."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 243 RP no exigeix autorització judicial prèvia: les acorda el/la director/a i se'n dona coneixement al jutge de vigilància (243.2). Les altres afirmacions reprodueixen els apartats 1, 2 i 4.",
+      "excerpt": "El Director, en el ámbito de las facultades que le atribuye este Reglamento, por sí o a propuesta del Instructor del expediente disciplinario, podrá acordar en cualquier momento del procedimiento, mediante acuerdo motivado, las medidas cautelares […] su adopción será notificada al interno y puesta en conocimiento del Juez de Vigilancia Penitenciaria. […] Cuando la sanción que recayese, en su caso, coincida en naturaleza con la medida cautelar impuesta, ésta se abonará para el cumplimiento de la sanción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 251.1.b RP",
+      "stem": "Segons el Reglament penitenciari, en el procediment abreujat, de quin termini disposen el cap de serveis i l'intern expedientat per aportar al·legacions, documents o informacions i, si escau, proposar i practicar proves?",
+      "options": [
+        "Tres dies hàbils des de la notificació.",
+        "Cinc dies hàbils des de la notificació.",
+        "Deu dies des de la comunicació i la notificació del plec de càrrecs.",
+        "Un mes des de l'inici del procediment."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'art. 251.1.b RP dona deu dies, des de la comunicació i notificació del comunicat que opera com a plec de càrrecs, perquè el cap de serveis i l'intern facin aportacions; després, el/la director/a resol.",
+      "excerpt": "En el plazo de diez días, a partir de la comunicación y notificación del pliego de cargos, el Jefe de Servicios y el interno expedientado efectuarán, respectivamente, la aportación de cuantas alegaciones, documentos o informaciones estimen convenientes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 251.2 RP",
+      "stem": "D'acord amb el Reglament penitenciari, si en un procediment abreujat el cap de serveis aprecia que els fets poden ser constitutius d'una infracció molt greu o greu:",
+      "options": [
+        "Ha d'arxivar l'expedient i comunicar-ho al jutge de vigilància.",
+        "Acorda que l'expedient continuï tramitant-se pel procediment general.",
+        "Imposa directament la sanció corresponent.",
+        "Eleva l'expedient al centre directiu perquè el resolgui."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'art. 251.2 RP preveu que el cap de serveis acordi continuar pel procediment general (arts. 242 a 245 RP); l'acord es notifica perquè en cinc dies hàbils s'hi puguin fer al·legacions (251.3).",
+      "excerpt": "Cuando el Jefe de Servicios aprecie que los hechos pueden ser constitutivos de infracción muy grave o grave, acordará que el expediente continúe tramitándose por el procedimiento general",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 256.3 RP",
+      "stem": "Segons el Reglament penitenciari, la Comissió Disciplinària pot revocar o reduir una sanció en la imposició de la qual ha intervingut el jutge de vigilància, directament o en via de recurs?",
+      "options": [
+        "Només amb l'autorització del jutge de vigilància.",
+        "Sí, lliurement, d'ofici o a proposta de la junta de tractament.",
+        "No, en cap cas.",
+        "Sí, amb l'autorització del centre directiu."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 256.3 RP condiciona la revocació o reducció a l'autorització del jutge de vigilància quan aquest ha intervingut en la imposició de la sanció.",
+      "excerpt": "La revocación o reducción de sanciones no podrá efectuarse sin autorización del Juez de Vigilancia cuando éste haya intervenido en su imposición, directamente o en vía de recurso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 241.3 RP",
+      "stem": "D'acord amb el Reglament penitenciari, la informació prèvia al procediment disciplinari s'ha d'acordar sempre que:",
+      "options": [
+        "Els fets puguin ser constitutius de falta molt greu.",
+        "L'intern imputat ho sol·liciti per escrit.",
+        "El cap de serveis no hagi presenciat els fets.",
+        "Un intern formuli una denúncia de fets susceptibles de sanció disciplinària, llevat que manifestament no tingui fonament."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 241.3 RP fa preceptiva la informació prèvia quan un intern denuncia fets sancionables, tret que la denúncia no tingui manifestament fonament. La practica un funcionari designat pel/per la director/a.",
+      "excerpt": "Dicha información previa se acordará siempre que un interno formule denuncia de hechos susceptibles de sanción disciplinaria, salvo cuando ésta carezca manifiestamente de fundamento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 236.3 RP",
+      "stem": "Segons el Reglament penitenciari, quan en el compliment successiu de sancions d'aïllament en cel·la aquestes superen, en conjunt, els catorze dies:",
+      "options": [
+        "Només cal comunicar-ho al centre directiu.",
+        "La Comissió Disciplinària les ha de reduir fins a catorze dies.",
+        "Cal l'informe favorable del metge, però no cap aprovació judicial.",
+        "Totes han de ser aprovades pel jutge de vigilància penitenciària."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'art. 236.3 RP, d'acord amb l'art. 76.2.d LOGP, exigeix que el jutge de vigilància aprovi totes les sancions d'aïllament de compliment successiu que, en conjunt, superin els catorze dies.",
+      "excerpt": "Cuando en los supuestos de cumplimiento sucesivo de sanciones de aislamiento en celda, éstas superen, en su conjunto, los catorce días de aislamiento, deberán ser aprobadas todas ellas por el Juez de Vigilancia Penitenciaria",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 247.d RP",
+      "stem": "D'acord amb el Reglament penitenciari, si la Comissió Disciplinària constata que s'ha qualificat erròniament la conducta i que això implicaria imposar una sanció per una falta més greu que la imputada en el plec de càrrecs:",
+      "options": [
+        "Ordena a l'instructor que formuli un nou plec de càrrecs amb la qualificació que determini la Comissió, i es concedeix a l'intern el tràmit d'audiència.",
+        "Pot imposar directament la sanció per la falta més greu, perquè els fets són els mateixos.",
+        "Ha d'imposar la sanció per la falta qualificada en el plec de càrrecs, sense cap modificació.",
+        "Ha d'arxivar l'expedient per caducitat."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 247.d RP impedeix sancionar per fets diferents dels del plec de càrrecs i, si la nova qualificació és més greu, obliga a formular un nou plec i a concedir el tràmit d'audiència de l'art. 244.4 RP.",
+      "excerpt": "Si la Comisión Disciplinaria constatare que se ha calificado erróneamente la conducta del presunto infractor y ello implicase la imposición de una sanción por falta más grave que la que se le hubiese imputado en el pliego de cargos, ordenará al Instructor la formulación de un nuevo pliego de cargos con la calificación determinada por la Comisión Disciplinaria, concediéndose al interno el trámite previsto en el artículo 244.4.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 258.2 RP",
+      "stem": "Segons el Reglament penitenciari, la prescripció de les faltes s'interromp quan s'inicia el procediment sancionador amb coneixement de l'interessat, però el còmput es reprèn si l'expedient està paralitzat per una causa no imputable al presumpte infractor durant més de:",
+      "options": [
+        "Deu dies.",
+        "Tres mesos.",
+        "Un mes.",
+        "Sis mesos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 258.2 RP preveu la represa del còmput de la prescripció si l'expedient queda paralitzat més d'un mes per causa no imputable al presumpte infractor.",
+      "excerpt": "reanudándose el cómputo de los plazos de prescripción si el expediente disciplinario estuviera paralizado durante más de un mes por causa no imputable al presunto infractor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 258.3 RP",
+      "stem": "D'acord amb el Reglament penitenciari, en quin termini prescriuen les sancions imposades per faltes lleus?",
+      "options": [
+        "Sis mesos.",
+        "Un any.",
+        "Tres mesos.",
+        "Dos anys."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 258.3 RP fixa que les sancions per faltes molt greus i greus prescriuen en els mateixos terminis que les faltes (tres i dos anys) i les imposades per faltes lleus, en un any. Els sis mesos són el termini de prescripció de la falta lleu, no de la sanció.",
+      "excerpt": "las impuestas por faltas leves en el plazo de un año",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 246.2 RP",
+      "stem": "Segons el Reglament penitenciari, un cop vençut el termini per dictar la resolució en el procediment disciplinari, aquest s'entén caducat i s'arxiven les actuacions si la resolució no s'adopta dins dels:",
+      "options": [
+        "Deu dies següents, en tot cas.",
+        "Tres mesos següents, sempre que l'intern ho sol·liciti.",
+        "Trenta dies següents, sempre que la demora no sigui imputable a l'interessat.",
+        "Quinze dies hàbils següents, sempre que la demora no sigui imputable a l'interessat."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 246.2 RP preveu la caducitat si, vençut el termini per resoldre (tres mesos en l'ordinari, un mes en l'abreujat), la resolució no s'adopta en els trenta dies següents per causa no imputable a l'interessat; també caduca si l'intern és excarcerat.",
+      "excerpt": "ésta no se adoptase en el plazo de los treinta días siguientes, siempre que la demora no fuera imputable al interesado",
+      "excerpt_status": "completo"
     }
   ]
 }
