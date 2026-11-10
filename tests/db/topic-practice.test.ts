@@ -181,6 +181,41 @@ describe("test por tema", () => {
     });
   });
 
+  it("apuntes: solo para quien puede practicar el tema; tema de la práctica (ADR-046)", async () => {
+    await tx(async (q) => {
+      const { t1, t2 } = await setup(q);
+      const lessons = JSON.stringify([
+        { n: "1", title: "Apartat", blocks: [{ text: "Text.", refs: [] }] },
+      ]);
+      for (const topic of [t1, t2])
+        await q(
+          `insert into public.topic_notes (topic_id, locale, key_ideas, lessons, status, reviewed_by, published_at)
+           values ($1, 'ca', '["idea"]', $2::jsonb, 'published', $3, now())`,
+          [topic, lessons, owner.id],
+        );
+      const { rows } = await start(q, student.id, "test-tp-t1", 2);
+      const session = rows[0].id as string;
+      await actAs(q, student.id);
+      const lessonsOf = async (slug: string) =>
+        (await q("select public.topic_lessons($1) as l", [slug])).rows[0].l;
+      expect(await lessonsOf("test-tp-t1")).toHaveLength(1);
+      expect(await lessonsOf("test-tp-t2")).toBeNull(); // tema de pago sin Premium
+      const { rows: st } = await q("select * from public.my_session_topic($1)", [session]);
+      expect(st).toHaveLength(1);
+      expect(st[0]).toMatchObject({ slug: "test-tp-t1", published: "3", answered: "0" });
+      await q("savepoint s");
+      await expect(q("select lessons from public.topic_notes")).rejects.toMatchObject({
+        code: "42501",
+      });
+      await q("rollback to savepoint s");
+      // otro alumno no ve el tema de una práctica ajena
+      await actAs(q, other.id);
+      expect((await q("select * from public.my_session_topic($1)", [session])).rows).toHaveLength(
+        0,
+      );
+    });
+  });
+
   it("un tema sin preguntas publicadas da error de datos", async () => {
     await tx(async (q) => {
       await setup(q);

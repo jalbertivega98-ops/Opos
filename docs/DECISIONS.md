@@ -333,3 +333,18 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 **Decisión:** una alumna de Prisiones de Cataluña se quejó (vía joel) de que el test de un tema repetía siempre las mismas preguntas. `practice_start_topic` ya sorteaba, pero con unas 20 preguntas por tema dos tests de 10 compartían la mitad. Ahora ordena: 1) las que el alumno nunca ha respondido; 2) las que falló la última vez; 3) el resto, por la que respondió hace más tiempo; al azar dentro de cada grupo. Las preguntas de un test que se deja a medias y no se contestan siguen contando como nuevas.
 **Motivo:** que cada test aporte preguntas nuevas hasta agotar el tema y que los fallos vuelvan antes que los aciertos.
 **Consecuencias:** índice nuevo `practice_items (user_id, question_id)`. No sustituye a tener más preguntas por tema: con 20, al tercer test ya se repiten. Por eso Prisiones de Cataluña pasa a 50 preguntas por tema (+730, preview `66-` y `67-`): cinco tests de 10 seguidos no repiten ninguna.
+
+## ADR-046 · Apuntes por tema y tests de tema en tandas de 10 (2026-11-10)
+
+**Decisión:** joel pidió que quien va directo a los test tenga de dónde estudiar y que el test de un tema salga siempre de 10, con «otras 10» hasta dominarlo.
+
+- `topic_notes.lessons` (jsonb): apuntes por apartados del epígrafe oficial. Cada párrafo es texto propio y lleva al menos una cita literal de la norma (`ref`, `law`, `url`, `quote`), comprobada por `build.py` contra el texto oficial. Se muestran en la ficha del tema, antes del resumen.
+- Muro de pago por columna: `authenticated` ya no puede leer `lessons` directamente; solo `topic_lessons(slug)` (SECURITY DEFINER), que los devuelve al personal o a quien puede practicar el tema (`accessible_topic_questions`). Los gratuitos ven los apuntes de los 3 primeros temas.
+- El cambio de `lessons` cuenta como cambio de contenido en `tg_topic_note_guard` (vuelve a revisión).
+- Plan semanal: el test de tema pide como mucho 10 preguntas (`TOPIC_BATCH`); antes pedía todo lo que quedaba de la cuota (hasta 40).
+- Resultado de un test de un solo tema (`my_session_topic`): progreso en el tema (respondidas, % de acierto, publicadas), objetivo de dominio (15 respuestas y 70 %, `TOPIC_DONE`), botón «Otras 10 preguntas de este tema» y enlace a los apuntes.
+- Prisiones de Cataluña: apuntes de los 25 temas en catalán (preview `70-`, que vuelve a publicar las fichas como titular). Formato fuente en `fuente-apunts/*.txt` (ver APUNTS.md en la carpeta de fuentes).
+
+**Motivo:** estudiar sin temario era el bloqueo principal; los tests de 40 cansaban y no daban sensación de avance.
+**Consecuencias:** migración `20261110000200` y preview `69-`. Los apuntes de otras oposiciones se pueden añadir con el mismo formato. Huecos de fuentes señalados en el texto (p. ej. seguridad estática y dinámica en E14) quedan para revisión de joel.
+
