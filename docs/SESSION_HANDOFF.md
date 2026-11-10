@@ -4,7 +4,7 @@
 
 ## Estado exacto
 
-- **Test por tema sin repeticiones (2026-11-10, LRN-006, ADR-045):** primero preguntas no respondidas, luego falladas. Migración `20261110000100` y preview `65-`. Prisiones de Cataluña ampliada a 50 preguntas por tema (+730; preview `66-` temario y `67-` publicación, que también las mete en el pack de test); 19 dudosas con N: en borrador.
+- **Test por tema sin repeticiones (2026-11-10, LRN-006, ADR-045):** primero preguntas no respondidas, luego falladas. Migración `20261110000100` y preview `65-`. Prisiones de Cataluña ampliada a 50 preguntas por tema (+730; preview `66-` temario y `67-` publicación, que también las mete en el pack de test); 19 dudosas con N:; `68-` publica 11 verificadas y deja 8 en borrador.
 
 ### Conversión tras la auditoría (2026-11-09, rama `claude/project-thread-3xoxnz`, MKT-005, ADR-044)
 
