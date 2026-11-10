@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Más alcance en buscadores (2026-11-10, rama `claude/project-thread-h5od90`, MKT-006, ADR-045)
+
+- Pie con enlaces a las 11 fichas y los 15 psicotécnicos, tres ejemplos resueltos (semillas fijas) en cada `/psicotecnicos/<tipo>`, títulos con «gratis» y nombres de oposición correctos en «Oposiciones en las que se trabaja».
+- IndexNow automático: `.github/workflows/indexnow.yml` envía el sitemap tras cada push a main; clave pública por defecto en `/indexnow.txt`.
+- Pendiente de joel: «fusiona»; alta en Bing Webmaster (falta su clic en el inicio de sesión de Google). La revisión semanal de Search Console la lleva el hilo «Crecer en Google con contenido».
+
 ### Conversión tras la auditoría (2026-11-09, rama `claude/project-thread-3xoxnz`, MKT-005, ADR-044)
 
 - Auditoría completa en el Claude Doc «Auditoría OPOSAPRUEBA · noviembre 2026» (plan de 23 mejoras). Hechos los puntos 1–8: registro con la oposición elegida, repaso de fallos del test gratis, tests gratis en la portada, oferta arriba y barra fija en fichas, «Han entrado» con varias fuentes (preview `64-`), redirección de /otros.

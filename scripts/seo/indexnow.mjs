@@ -3,7 +3,8 @@
 //   SITE_URL=https://oposaprueba.com INDEXNOW_KEY=<clave> node scripts/seo/indexnow.mjs
 // La misma clave debe estar en Vercel como INDEXNOW_KEY (se sirve en /indexnow.txt).
 const site = (process.env.SITE_URL ?? "").replace(/\/+$/, "");
-const key = process.env.INDEXNOW_KEY ?? "";
+// Clave pública por defecto (la misma que sirve /indexnow.txt si no hay INDEXNOW_KEY).
+const key = process.env.INDEXNOW_KEY || "5b801bdc923c43ffa5b29374fbfd1d12";
 if (!/^https:\/\//.test(site) || !key) {
   console.error("Faltan SITE_URL (https) o INDEXNOW_KEY.");
   process.exit(1);
@@ -25,3 +26,4 @@ const res = await fetch("https://api.indexnow.org/indexnow", {
   }),
 });
 console.log(`IndexNow: ${res.status} ${res.statusText} · ${urls.length} URL enviadas`);
+if (!res.ok) process.exit(1);

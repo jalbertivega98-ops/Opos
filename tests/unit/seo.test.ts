@@ -92,3 +92,19 @@ describe("guías públicas", () => {
     expect(txt).toContain("/psicotecnicos/interpretacion-de-tablas");
   });
 });
+
+describe("examShortName (ADR-045)", () => {
+  it("quita «Oposiciones a» y la convocatoria, en los dos idiomas", async () => {
+    const { examGuides, examShortName, getExamGuide } = await import("@/lib/seo/exam-guides");
+    const mossos = getExamGuide("mossos-esquadra")!;
+    expect(examShortName(mossos, "es")).toBe("Mossos d'Esquadra");
+    expect(examShortName(mossos, "ca")).toBe("Mossos d'Esquadra");
+    for (const g of examGuides()) {
+      for (const l of ["es", "ca"]) {
+        const n = examShortName(g, l);
+        expect(n).not.toMatch(/^Oposici/i);
+        expect(n.charAt(0)).toBe(n.charAt(0).toUpperCase());
+      }
+    }
+  });
+});

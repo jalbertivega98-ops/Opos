@@ -22,8 +22,8 @@ const G: PsychoGuide[] = [
     type: "series",
     slug: "series-numericas",
     title: {
-      es: "Test de series numéricas para oposiciones",
-      ca: "Test de sèries numèriques per a oposicions",
+      es: "Test de series numéricas gratis para oposiciones",
+      ca: "Test de sèries numèriques gratis",
     },
     description: {
       es: "Practica gratis series numéricas de psicotécnicos con dificultad creciente: aritméticas, geométricas, alternas, de segundo orden e intercaladas, con la solución explicada.",
@@ -63,7 +63,10 @@ const G: PsychoGuide[] = [
   {
     type: "letters",
     slug: "series-de-letras",
-    title: { es: "Test de series de letras", ca: "Test de sèries de lletres" },
+    title: {
+      es: "Test de series de letras gratis para oposiciones",
+      ca: "Test de sèries de lletres gratis",
+    },
     description: {
       es: "Ejercicios gratis de series alfabéticas con el alfabeto español (con Ñ): saltos, alternancias e intercalados, con explicación de cada respuesta.",
       ca: "Exercicis gratis de sèries alfabètiques amb l'alfabet espanyol (amb Ñ): salts, alternances i intercalats, amb l'explicació de cada resposta.",
@@ -102,10 +105,7 @@ const G: PsychoGuide[] = [
   {
     type: "numeric",
     slug: "razonamiento-numerico",
-    title: {
-      es: "Test de razonamiento numérico para oposiciones",
-      ca: "Test de raonament numèric per a oposicions",
-    },
+    title: { es: "Test de razonamiento numérico gratis", ca: "Test de raonament numèric gratis" },
     description: {
       es: "Problemas breves de cálculo para psicotécnicos: reglas de tres, proporciones directas e inversas, velocidades, medias y mezclas. Gratis y con la solución paso a paso.",
       ca: "Problemes breus de càlcul per a psicotècnics: regles de tres, proporcions directes i inverses, velocitats, mitjanes i barreges. Gratis i amb la solució pas a pas.",
@@ -144,7 +144,10 @@ const G: PsychoGuide[] = [
   {
     type: "analogies",
     slug: "analogias-verbales",
-    title: { es: "Test de analogías verbales", ca: "Test d'analogies verbals" },
+    title: {
+      es: "Test de analogías verbales gratis",
+      ca: "Test d'analogies verbals gratis per a oposicions",
+    },
     description: {
       es: "Practica analogías verbales de psicotécnicos: contrarios, parte y todo, categoría, función y crías de animales. Ejercicios gratis con la relación explicada.",
       ca: "Practica analogies verbals de psicotècnics: contraris, part i tot, categoria, funció i cries d'animals. Exercicis gratis amb la relació explicada.",
@@ -184,8 +187,8 @@ const G: PsychoGuide[] = [
     type: "matrices",
     slug: "matrices",
     title: {
-      es: "Test de matrices visuales (razonamiento abstracto)",
-      ca: "Test de matrius visuals (raonament abstracte)",
+      es: "Test de matrices y razonamiento abstracto gratis",
+      ca: "Test de matrius i raonament abstracte gratis",
     },
     description: {
       es: "Matrices de figuras para practicar razonamiento abstracto: forma, número, relleno y giro cambian por filas y columnas. Ejercicios gratis generados y verificados automáticamente.",
@@ -225,7 +228,7 @@ const G: PsychoGuide[] = [
   {
     type: "spatial",
     slug: "razonamiento-espacial",
-    title: { es: "Test de razonamiento espacial", ca: "Test de raonament espacial" },
+    title: { es: "Test de razonamiento espacial gratis", ca: "Test de raonament espacial gratis" },
     description: {
       es: "Ejercicios gratis de giros y simetrías de piezas en cuadrícula para psicotécnicos de oposiciones, con dificultad creciente y solución explicada.",
       ca: "Exercicis gratis de girs i simetries de peces en quadrícula per a psicotècnics d'oposicions, amb dificultat creixent i solució explicada.",
@@ -264,7 +267,10 @@ const G: PsychoGuide[] = [
   {
     type: "attention",
     slug: "atencion-y-concentracion",
-    title: { es: "Test de atención y concentración", ca: "Test d'atenció i concentració" },
+    title: {
+      es: "Test de atención y concentración gratis",
+      ca: "Test d'atenció i concentració gratis",
+    },
     description: {
       es: "Practica ejercicios de atención y percepción: recuento de símbolos parecidos y detección de parejas idénticas, gratis y con tiempo.",
       ca: "Practica exercicis d'atenció i percepció: recompte de símbols semblants i detecció de parelles idèntiques, gratis i amb temps.",
@@ -304,8 +310,8 @@ const G: PsychoGuide[] = [
     type: "percentages",
     slug: "porcentajes-y-fracciones",
     title: {
-      es: "Test de porcentajes y fracciones para oposiciones",
-      ca: "Test de percentatges i fraccions per a oposicions",
+      es: "Test de porcentajes y fracciones gratis",
+      ca: "Test de percentatges i fraccions gratis",
     },
     description: {
       es: "Problemas de descuentos, subidas, asistencia y partes de un total con importes en euros, como en el psicotécnico de Auxiliar Administrativo del Estado. Gratis y con solución.",
@@ -346,8 +352,8 @@ const G: PsychoGuide[] = [
     type: "equations",
     slug: "ecuaciones",
     title: {
-      es: "Test de ecuaciones de primer grado para psicotécnicos",
-      ca: "Test d'equacions de primer grau per a psicotècnics",
+      es: "Test de ecuaciones de primer grado gratis",
+      ca: "Test d'equacions de primer grau gratis",
     },
     description: {
       es: "Ecuaciones de primer grado con paréntesis como las del examen de la AGE. Practica gratis y revisa la resolución paso a paso.",
@@ -388,8 +394,8 @@ const G: PsychoGuide[] = [
     type: "probability",
     slug: "probabilidad",
     title: {
-      es: "Test de probabilidad para psicotécnicos",
-      ca: "Test de probabilitat per a psicotècnics",
+      es: "Test de probabilidad gratis para oposiciones",
+      ca: "Test de probabilitat gratis per a oposicions",
     },
     description: {
       es: "Problemas de probabilidad básica (casos favorables entre casos posibles) con el resultado en porcentaje. Ejercicios gratis con la solución explicada.",
@@ -430,8 +436,8 @@ const G: PsychoGuide[] = [
     type: "codes",
     slug: "codificacion",
     title: {
-      es: "Test de codificación para psicotécnicos",
-      ca: "Test de codificació per a psicotècnics",
+      es: "Test de codificación gratis para oposiciones",
+      ca: "Test de codificació gratis per a oposicions",
     },
     description: {
       es: "Ejercicios de equivalencias entre letras y códigos binarios, como en el psicotécnico de Auxiliar Administrativo del Estado. Gratis y con la clave explicada.",
@@ -472,8 +478,8 @@ const G: PsychoGuide[] = [
     type: "tables",
     slug: "interpretacion-de-tablas",
     title: {
-      es: "Test de interpretación de tablas para oposiciones",
-      ca: "Test d'interpretació de taules per a oposicions",
+      es: "Test de interpretación de tablas gratis",
+      ca: "Test d'interpretació de taules gratis",
     },
     description: {
       es: "Preguntas sobre tablas de datos: sumas, medias, porcentajes, cocientes y filas que cumplen varias condiciones, el bloque más numeroso del psicotécnico de la AGE. Gratis.",
@@ -514,8 +520,8 @@ const G: PsychoGuide[] = [
     type: "spelling",
     slug: "ortografia",
     title: {
-      es: "Test de ortografía para psicotécnicos",
-      ca: "Test d'ortografia castellana per a psicotècnics",
+      es: "Test de ortografía gratis para oposiciones",
+      ca: "Test d'ortografia castellana gratis",
     },
     description: {
       es: "Encuentra la palabra mal escrita entre cuatro (b/v, h, g/j, x/s, ll/y), como en el psicotécnico de Auxiliar del Estado. Gratis y comprobado con el diccionario de la RAE.",
@@ -556,8 +562,8 @@ const G: PsychoGuide[] = [
     type: "synonyms",
     slug: "sinonimos",
     title: {
-      es: "Test de sinónimos para psicotécnicos",
-      ca: "Test de sinònims castellans per a psicotècnics",
+      es: "Test de sinónimos gratis para oposiciones",
+      ca: "Test de sinònims castellans gratis",
     },
     description: {
       es: "Ejercicios de sinónimos con las listas del diccionario de la RAE, como en el psicotécnico de Auxiliar del Estado. Gratis y con la explicación de cada respuesta.",
@@ -598,8 +604,8 @@ const G: PsychoGuide[] = [
     type: "antonyms",
     slug: "antonimos",
     title: {
-      es: "Test de antónimos para psicotécnicos",
-      ca: "Test d'antònims castellans per a psicotècnics",
+      es: "Test de antónimos gratis para oposiciones",
+      ca: "Test d'antònims castellans gratis",
     },
     description: {
       es: "Ejercicios de antónimos con las listas del diccionario de la RAE, como en el psicotécnico de Auxiliar del Estado. Gratis y con la explicación de cada respuesta.",

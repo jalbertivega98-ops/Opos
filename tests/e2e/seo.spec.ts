@@ -56,7 +56,7 @@ test.describe("SEO y GEO (ADR-025)", () => {
       expect.arrayContaining(["BreadcrumbList", "WebPage", "FAQPage"]),
     );
     // Enlace a la página del tipo de psicotécnico.
-    await page.getByRole("link", { name: "Interpretación de tablas" }).click();
+    await page.locator("#main").getByRole("link", { name: "Interpretación de tablas" }).click();
     await expect(page).toHaveURL(/\/psicotecnicos\/interpretacion-de-tablas$/);
   });
 
@@ -70,6 +70,25 @@ test.describe("SEO y GEO (ADR-025)", () => {
     await expect(page.getByText(/Correcte|Incorrecte/)).toBeVisible();
     expect(await page.content()).not.toContain("answerIndex");
     expect(await jsonLdTypes(page)).toEqual(expect.arrayContaining(["Quiz", "BreadcrumbList"]));
+  });
+
+  test("ejemplos resueltos y pie con enlaces a fichas y psicotécnicos (ADR-045)", async ({
+    page,
+  }) => {
+    await page.goto("/psicotecnicos/probabilidad");
+    await expect(page.getByRole("heading", { name: "Ejemplos resueltos" })).toBeVisible();
+    await expect(page.getByText(/^Solución: [A-F]\.$/)).toHaveCount(3);
+    // Las oposiciones relacionadas muestran su nombre, no el slug.
+    await expect(
+      page.locator("#exams").locator("..").getByRole("link", { name: /Auxiliar Administrativo/ }),
+    ).toBeVisible();
+    const footer = page.getByRole("contentinfo");
+    await expect(footer.getByRole("link", { name: "Mossos d'Esquadra" })).toHaveAttribute(
+      "href",
+      "/oposiciones/mossos-esquadra",
+    );
+    await footer.getByRole("link", { name: "Series numéricas" }).click();
+    await expect(page).toHaveURL(/\/psicotecnicos\/series-numericas$/);
   });
 
   test("zonas privadas y búsquedas no indexables", async ({ page }) => {

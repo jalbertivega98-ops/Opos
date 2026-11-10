@@ -1,0 +1,22 @@
+# Avisa a Bing (y al resto de buscadores de IndexNow) de las páginas del sitemap
+# cada vez que se publica main. Espera a que Vercel termine el despliegue.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Esperar al despliegue de Vercel
+        run: sleep 240
+      - name: Enviar el sitemap a IndexNow
+        env:
+          SITE_URL: https://www.oposaprueba.com
+        run: node scripts/seo/indexnow.mjs
