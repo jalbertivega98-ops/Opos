@@ -344,6 +344,7 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 - Plan semanal: el test de tema pide como mucho 10 preguntas (`TOPIC_BATCH`); antes pedía todo lo que quedaba de la cuota (hasta 40).
 - Resultado de un test de un solo tema (`my_session_topic`): progreso en el tema (respondidas, % de acierto, publicadas), objetivo de dominio (15 respuestas y 70 %, `TOPIC_DONE`), botón «Otras 10 preguntas de este tema» y enlace a los apuntes.
 - Prisiones de Cataluña: apuntes de los 25 temas en catalán (preview `70-`, que vuelve a publicar las fichas como titular). Formato fuente en `fuente-apunts/*.txt` (ver APUNTS.md en la carpeta de fuentes).
+- Policía Nacional, Escala Básica: apuntes de los 45 temas (P01-P45) en castellano (preview `79-`, filtro `pn-%`). build.py de la carpeta lleva el mismo `parse_lessons`. Huecos de fuentes (RD 2/2006, RD 67/2010, Reglamento de extranjería y de Seguridad Privada, teoría de Ciencias Sociales, partes de gramática y redes) se dicen en el texto y están en `DUDAS-APUNTES.md` de la carpeta de fuentes.
 
 **Motivo:** estudiar sin temario era el bloqueo principal; los tests de 40 cansaban y no daban sensación de avance.
 **Consecuencias:** migración `20261110000200` y preview `69-`. Los apuntes de otras oposiciones se pueden añadir con el mismo formato. Huecos de fuentes señalados en el texto (p. ej. seguridad estática y dinámica en E14) quedan para revisión de joel.
