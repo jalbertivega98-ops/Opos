@@ -318,6 +318,306 @@
       "explanation": "En grans acumulacions sovint no és viable l'extinció completa.",
       "excerpt": "En grans acumulacions, sovint no és viable apagar el foc completament: la maniobra més segura és controlar la propagació, establir tallafocs i, si cal, permetre que la combustió es consumeixi de manera controlada.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.2.1 Segons la massa i dimensions",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, quins vehicles es classifiquen com a lleugers?",
+      "options": [
+        "Camions, autobusos i tràilers.",
+        "Maquinària pesada i vehicles agrícoles.",
+        "Turismes, furgonetes petites, motocicletes i ciclomotors.",
+        "Només els vehicles elèctrics i híbrids."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Camions, autobusos, tràilers i maquinària pesada són vehicles pesants, amb més càrrega de foc i dificultat d'accés.",
+      "excerpt": "Vehicles lleugers (turismes, furgonetes petites, motocicletes i ciclomotors)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.6 Identificació del combustible",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, quin indicador extern fa pensar que un vehicle és totalment elèctric?",
+      "options": [
+        "La boca de càrrega de combustible més ampla.",
+        "L'absència de tub d'escapament de gasos.",
+        "Una doble boca de càrrega, de benzina i de gas.",
+        "L'etiqueta E10 a la tapa del dipòsit."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La boca ampla és pròpia del dièsel, la doble boca dels vehicles de gas (GLP, GNC, GNL) i l'etiqueta E10 de la gasolina.",
+      "excerpt": "Híbrid o elèctric - Inscripció “Hybrid”, “EV”, “Plug-in” - Absència de tub d’escapament de gasos (elèctrics)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 3.3 Identificació de contenidors",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, com crema habitualment un contenidor de fracció orgànica?",
+      "options": [
+        "Amb menys intensitat, però produint gran quantitat de fum i mala visibilitat.",
+        "Amb inflamabilitat molt elevada i alta càrrega tèrmica en poc temps.",
+        "No crema, però es trenca per xoc tèrmic.",
+        "Amb una combustió molt ràpida i de gran càrrega de foc, com el paper."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els envasos tenen inflamabilitat molt elevada; el vidre no és combustible; el paper i cartró cremen molt ràpidament.",
+      "excerpt": "Orgànica: cremen amb menys intensitat, però produeixen gran quantitat de fum, amb mala visibilitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.7.1 Col·locació dels vehicles",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, on s'ubiquen habitualment els vehicles de bombers en un incendi de vehicle en via?",
+      "options": [
+        "Just davant del capó del vehicle afectat, per tenir les mànegues a prop.",
+        "Per davant del vehicle en el sentit de circulació, en paral·lel.",
+        "A sotavent, perquè el fum no afecti el trànsit.",
+        "Fora del radi de risc, per darrere del sentit de circulació i en diagonal al vehicle afectat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Així es protegeixen els efectius i el material; l'aproximació sempre que es pugui és a sobrevent.",
+      "excerpt": "Els vehicles de bombers s’ubiquen fora del radi de risc, habitualment per darrera del sentit de circulació i en diagonal al vehicle afectat, amb l’objectiu de protegir tant els efectius com el material.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.7.1 Gestió de vessaments",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, què es prioritza quan l'incendi d'un vehicle afecta combustible vessat?",
+      "options": [
+        "L'aigua a raig tens sobre el vessament.",
+        "La pols polivalent aplicada des de prop.",
+        "Deixar cremar el vessament sense intervenir.",
+        "L'ús d'escuma de baixa expansió o, en menor mesura, absorbents."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'objectiu és evitar la propagació a altres vehicles o a la calçada.",
+      "excerpt": "Quan l’incendi afecta combustible vessat, es prioritza l’ús d’escuma de baixa expansió o, en menor mesura, absorbents.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 3.2 Material del contenidor",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, quina característica tenen els contenidors metàl·lics davant del foc?",
+      "options": [
+        "Són altament inflamables i generen degoteig incandescent.",
+        "Resisteixen estructuralment millor les flames, però transmeten calor a l'exterior.",
+        "Es fonen i col·lapsen ràpidament.",
+        "No transmeten calor i no cal protegir l'entorn."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El degoteig incandescent i la fusió són propis dels contenidors de plàstic (polietilè).",
+      "excerpt": "Contenidors metàl·lics: estructuralment resisteixen millor les flames, però transmeten calor a l’exterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.4.1 Gasos tòxics i fums",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, de quin material d'un vehicle procedeix principalment el cianur d'hidrogen dels fums?",
+      "options": [
+        "Dels plàstics, que alliberen sobretot clorur d'hidrogen.",
+        "Dels pneumàtics.",
+        "De les escumes dels seients.",
+        "De la bateria d'ions de liti."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El manual cita monòxid de carboni, cianur d'hidrogen de les escumes dels seients i clorur d'hidrogen dels plàstics: cal ERA de manera continuada.",
+      "excerpt": "com monòxid de carboni, cianur d’hidrogen procedent de les escumes dels seients i clorur d’hidrogen dels plàstics.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.2.2 Combustibles alternatius",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, en vehicles de quins combustibles les flames poden ser invisibles a simple vista?",
+      "options": [
+        "GNC i hidrogen.",
+        "Benzina i dièsel.",
+        "GLP i dièsel.",
+        "GNL i benzina."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "GLP i GNC comporten risc de BLEVE; GNC i hidrogen, flames invisibles; GNL, fred criogènic i evaporació sobtada.",
+      "excerpt": "GNC i hidrogen: flames invisibles a simple vista",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.4.2 Riscos segons la propulsió",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, a partir de quina temperatura el dièsel genera vapors inflamables?",
+      "options": [
+        "A més de 10 ºC.",
+        "A més de 300 ºC.",
+        "Només per sota de 0 ºC.",
+        "A més de 62 ºC (perill accentuat a l'estiu)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El dièsel es caracteritza per combustió persistent, fum dens i tòxic i vapors inflamables per sobre de 62 ºC.",
+      "excerpt": "Vapors inflamables a més de 62ºC (perill accentuat a l’estiu)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.7.2 Vehicles de benzina",
+      "stem": "En un incendi d'un turisme de benzina, què cal fer abans de qualsevol aproximació, segons el manual d'intervenció bàsica en incendis varis?",
+      "options": [
+        "Obrir totes les portes per ventilar l'habitacle.",
+        "Refredar el dipòsit de combustible amb la línia d'aigua i evitar obrir el compartiment motor o les portes de cop.",
+        "Aixecar el capó per atacar directament el motor.",
+        "Desconnectar la bateria d'alta tensió."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Un dipòsit escalfat pot alliberar vapors i provocar una deflagració sobtada, i una entrada sobtada d'oxigen pot agreujar l'incendi.",
+      "excerpt": "Cal refredar el dipòsit de combustible amb la línia d’aigua abans de qualsevol aproximació i evitar obrir el compartiment motor o les portes de cop, ja que una entrada sobtada d’oxigen pot agreujar l’incendi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.7.1 Tècniques bàsiques d'extinció",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, com s'ha de començar a reduir la intensitat d'un incendi de vehicle?",
+      "options": [
+        "A la màxima distància efectiva possible, utilitzant inicialment el raig directe.",
+        "Des de molt a prop, amb con de protecció.",
+        "Amb escuma d'alta expansió des del sostre del vehicle.",
+        "Obrint les portes i aplicant aigua a l'habitacle."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Un cop disminuïda la càrrega tèrmica es fa l'aproximació progressiva i el remat; el con d'atac serveix per autoprotecció i per refredar superfícies i el dipòsit.",
+      "excerpt": "La reducció de la intensitat de l’incendi s’ha de fer a la màxima distància efectiva possible, utilitzant inicialment el raig directe.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 3.5 Criteris de seguretat",
+      "stem": "Durant un incendi de contenidor se senten crepitacions i sibilants a l'interior i hi ha fum dens i irregular. Què recomana el manual d'intervenció bàsica en incendis varis?",
+      "options": [
+        "Obrir la tapa per comprovar el contingut.",
+        "Aproximar-se i atacar amb raig tens des de menys d'un metre.",
+        "Augmentar la distància de seguretat i esperar l'estabilització abans d'atacar directament.",
+        "Abocar immediatament el contingut a la via."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Aquests senyals poden indicar l'explosió imminent de recipients interns (aerosols, recipients a pressió...).",
+      "excerpt": "Els sorolls interns (crepitacions, sibilants) o la presència de fum dens i irregular poden ser indicadors d’explosió imminent de recipients interns. Davant d’aquests senyals, la millor mesura és augmentar la distància de seguretat i esperar l’estabilització abans d’atacar directament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 3.6 Maniobres d'extinció",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, què es pot considerar si no és possible rematar bé el foc d'un contenidor de superfície?",
+      "options": [
+        "Tancar la tapa i deixar-lo cremar fins que s'apagui sol.",
+        "Abocar el contingut a la via per dispersar-lo i facilitar-ne la refrigeració completa.",
+        "Cobrir-lo amb una manta ignífuga i retirar-se.",
+        "Traslladar-lo sencer a l'abocador."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Abans cal remoure el contingut amb eines manuals perquè els punts calents amagats poden provocar reignicions.",
+      "excerpt": "Si no és possible rematar bé el foc, es pot considerar abocar el contingut a la via per dispersar-lo i facilitar la refrigeració completa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.6 Identificació del combustible",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, què es recomana davant la sospita que un vehicle funciona amb combustibles alternatius?",
+      "options": [
+        "Utilitzar el detector de gasos per comprovar possibles fuites.",
+        "Obrir el dipòsit per identificar el combustible per l'olor.",
+        "Aplicar aigua directament sobre els cilindres.",
+        "Retirar l'adhesiu posterior del vehicle."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La doble boca de càrrega, les etiquetes LPG, CNG o LNG i l'adhesiu posterior en són indicadors; el detector confirma si hi ha fuites.",
+      "excerpt": "Davant la sospita que un vehicle faci servir combustibles alternatius, es recomana utilitzar el detector de gasos per comprovar possibles fuites.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.7.2 Vehicles amb pila d'hidrogen",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, com s'ha d'actuar en l'incendi d'un vehicle amb pila d'hidrogen?",
+      "options": [
+        "Atacar directament la flama amb raig tens per apagar-la ràpidament.",
+        "Aplicar escuma d'alta expansió sobre els dipòsits.",
+        "Obrir la vàlvula del dipòsit per buidar-lo.",
+        "Establir un perímetre de seguretat ampli, refredar l'entorn i evitar atacar directament la flama."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La pressió extrema dels dipòsits i la flama invisible fan que l'aigua només s'utilitzi per protegir exposicions.",
+      "excerpt": "Cal establir un perímetre de seguretat ampli, refredar l’entorn i evitar atacar directament la flama.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.3 Sistemàtica en vehicles moderns",
+      "stem": "Segons la sistemàtica de treball del manual d'intervenció bàsica en incendis varis per a vehicles moderns, quin pas ve just després del reconeixement inicial del vehicle i del seu entorn?",
+      "options": [
+        "Fer una aproximació segura.",
+        "Verificar la presència de víctimes i prioritzar-ne el rescat.",
+        "Valorar els riscos específics segons el tipus de propulsió.",
+        "Aplicar tàctiques d'extinció adaptades a cada tecnologia."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Ordre: 1 aproximació segura, 2 reconeixement inicial, 3 valorar riscos segons propulsió, 4 perímetre i protecció del trànsit, 5 víctimes, 6 EPI i ERA, 7 extinció i vigilància.",
+      "excerpt": "1. Fer una aproximació segura. 2. Fer un reconeixement inicial del vehicle i del seu entorn. 3. Valorar els riscos específics segons el tipus de propulsió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 4.4 Abocadors i escombraries",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, a més del risc biològic, quin perill específic comporta un incendi en un abocador per als bombers i la maquinària?",
+      "options": [
+        "L'enfonsament de la massa de residus.",
+        "La invisibilitat de les flames.",
+        "El thermal runaway de bateries d'alta tensió.",
+        "La BLEVE dels dipòsits de GLP."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El foc pot penetrar en profunditat i mantenir-se molt de temps; la tècnica més efectiva és la remoció del material mentre s'aplica aigua a alta pressió.",
+      "excerpt": "A més, existeix risc d’enfonsament de la massa de residus, amb perill per als bombers i maquinària que hi treballi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 4.1 Concentracions de material sòlid",
+      "stem": "En un incendi d'una gran acumulació de mobles i fusta a l'exterior, què pot ser útil afegir a l'aigua polvoritzada, segons el manual d'intervenció bàsica en incendis varis?",
+      "options": [
+        "Pols polivalent ABC.",
+        "Humectants o escuma, per millorar la penetració i accelerar l'extinció.",
+        "CO2 per inundació.",
+        "Sorra per sufocar la pila."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El risc principal és la propagació ràpida per radiació i convecció; es recomana aigua polvoritzada o con d'atac.",
+      "excerpt": "En el cas de grans acumulacions, pot ser útil afegir humectants o escuma per millorar la penetració i accelerar l’extinció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 2.6 Identificació del combustible",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, l'etiqueta «B7» a l'interior de la tapa del dipòsit indica que el vehicle és de:",
+      "options": [
+        "Gasolina.",
+        "GLP.",
+        "Hidrogen.",
+        "Dièsel."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Dièsel: B7, B10, XTL i boca més ampla; gasolina: E5, E10, E85 i boca més estreta; gas: LPG, CNG, LNG.",
+      "excerpt": "Dièsel - Boca de càrrega més ampla - Etiqueta a l’interior de la tapa del dipòsit B7, B10, XTL. “diesel”",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INXX.000, § 3.4 Riscos dels contenidors soterrats",
+      "stem": "Segons el manual d'intervenció bàsica en incendis varis, sobre els incendis en contenidors soterrats o semisoterrats, indica la resposta INCORRECTA:",
+      "options": [
+        "La fallada mecànica de la plataforma és una situació possible.",
+        "Hi pot haver circuits elèctrics actius.",
+        "L'extinció a través de la bústia és sempre la tècnica més eficaç.",
+        "L'oli hidràulic pot entrar en combustió."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El manual diu que l'extinció per la bústia pot resultar poc eficaç i sovint cal elevar el contenidor amb la plataforma hidràulica.",
+      "excerpt": "L’extinció a través de la bústia pot resultar poc eficaç […] La fallada mecànica de la plataforma, la presència de circuits elèctrics actius o la combustió de l’oli hidràulic són situacions possibles que obliguen a extremar les precaucions.",
+      "excerpt_status": "completo"
     }
   ]
 }

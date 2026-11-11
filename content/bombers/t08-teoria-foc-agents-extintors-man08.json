@@ -318,6 +318,306 @@
       "explanation": "Els gasos inerts extingeixen reduint l'oxigen fins al 10-12,5 %, nivell que permet l'evacuació sense els efectes tòxics directes del CO₂.",
       "excerpt": "Els sistemes es dissenyen per extingir el foc a nivells d'oxigen (normalment entre 10-12,5%) que permeten una exposició humana curta i segura per a l'evacuació, sense els efectes tòxics directes del CO₂.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § tetraedre del foc",
+      "stem": "Segons el manual de teoria del foc, quin element afegeix el tetraedre del foc als tres del triangle del foc?",
+      "options": [
+        "La humitat del combustible.",
+        "La ventilació.",
+        "El fum.",
+        "La reacció en cadena."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El triangle reuneix combustible, comburent i calor; el tetraedre hi afegeix la reacció en cadena, el procés autosostingut (amb radicals lliures) que permet que el foc s'autoalimenti.",
+      "excerpt": "4) Reacció en Cadena: Aquest és el motor del foc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § combustió completa",
+      "stem": "Segons el manual de teoria del foc, com sol ser la flama d'una combustió completa?",
+      "options": [
+        "Taronja i amb molt fum negre.",
+        "Blava i estable.",
+        "Groga i intermitent.",
+        "Invisible i amb molt de sutge."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La combustió completa (amb prou oxigen) produeix sobretot CO₂ i aigua; la incompleta es reconeix per flames taronges o grogues i molt fum negre.",
+      "excerpt": "La flama sol ser blava i estable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § classes de foc (UNE-EN 2)",
+      "stem": "Segons la classificació UNE-EN 2 recollida al manual de teoria del foc, a quina classe pertany un foc de magnesi?",
+      "options": [
+        "Classe D.",
+        "Classe A.",
+        "Classe B.",
+        "Classe C."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La classe D és la dels metalls combustibles, que reaccionen violentament amb agents comuns com l'aigua. A: sòlids amb brases; B: líquids; C: gasos.",
+      "excerpt": "Classe D: Focs de metalls combustibles (magnesi, alumini, sodi, potassi, titani o zirconi).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § tècniques d'extinció",
+      "stem": "S'encén l'oli d'una paella i la cobreixes amb una tapa. Quina tècnica d'extinció apliques segons el manual de teoria del foc?",
+      "options": [
+        "La inanició (eliminació del combustible).",
+        "La inhibició de la reacció en cadena.",
+        "La sufocació (eliminació del comburent).",
+        "El refredament per absorció de calor."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Tapar la paella impedeix l'arribada d'oxigen; el manual posa aquest exemple a la sufocació.",
+      "excerpt": "Eliminació del comburent (Sufocació) […] Cobrir la paella amb una tapa o drap humit (ben escorregut).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § fonts d'ignició",
+      "stem": "Segons el manual de teoria del foc, en quin grup de fonts d'ignició s'inclou la combustió espontània d'un munt de fenc?",
+      "options": [
+        "Fonts mecàniques.",
+        "Fonts químiques.",
+        "Fonts elèctriques.",
+        "Fonts tèrmiques de flama oberta."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Certs materials orgànics generen calor lentament per oxidació o processos bacterians; si no es dissipa, arriben al punt d'ignició sense font externa.",
+      "excerpt": "Fonts Químiques: […] Combustió espontània: certs materials orgànics (com algunes teles impregnades d'oli, fenc",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § combustibles",
+      "stem": "Segons el manual de teoria del foc, què és el que realment crema en els combustibles sòlids, líquids i gasosos?",
+      "options": [
+        "L'oxigen de l'aire, sense necessitat de combustible.",
+        "L'aigua que contenen.",
+        "Els gasos o vapors inflamables que es desprenen d'aquests materials.",
+        "Les cendres que es formen."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els líquids desprenen vapors per la superfície i els sòlids es fonen o es descomponen per piròlisi i alliberen gasos combustibles.",
+      "excerpt": "el que realment crema són els gasos o vapors inflamables, que es desprenen d'aquests materials.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § tècniques d'extinció",
+      "stem": "Segons el manual de teoria del foc, quina és la tècnica d'extinció més comuna i eficaç?",
+      "options": [
+        "L'eliminació del combustible (inanició).",
+        "L'eliminació del comburent (sufocació).",
+        "La ruptura de la reacció en cadena (inhibició).",
+        "L'eliminació de la calor (refredament)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Consisteix a baixar la temperatura del combustible per sota del seu punt d'ignició, per exemple aplicant-hi aigua.",
+      "excerpt": "Eliminació de la calor (Refredament): Aquesta és la tècnica més comuna i eficaç.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § densitat relativa de vapors",
+      "stem": "Hi ha una fuita de propà en un soterrani. Segons el manual de teoria del foc, on és més probable que s'acumuli el gas?",
+      "options": [
+        "A prop del terra i a les zones baixes, perquè és més pesant que l'aire (densitat relativa ≈ 1,55).",
+        "Al sostre, perquè és més lleuger que l'aire.",
+        "Repartit uniformement de seguida, perquè té la mateixa densitat que l'aire.",
+        "Enlloc, perquè el propà no forma barreges inflamables."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els vapors amb densitat relativa superior a 1 baixen i formen «llacs» invisibles a les zones baixes; el metà (≈ 0,55) i l'hidrogen pugen cap al sostre.",
+      "excerpt": "Densitat de vapor > 1 (més pesats que l'aire): Aquests són particularment perillosos. Tendeixen a baixar i acumular-se a prop del terra, en zones baixes, fosses, depressions o soterranis. […] Exemples: Propà ≈ 1.55",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § concentració d'oxigen >21%",
+      "stem": "Segons el manual de teoria del foc, com varia la velocitat de combustió en una atmosfera amb un 40 % d'oxigen?",
+      "options": [
+        "Es multiplica per 4 respecte a l'aire normal.",
+        "Es duplica respecte a l'aire normal.",
+        "No varia, perquè l'oxigen per sobre del 21 % no influeix.",
+        "Es redueix a la meitat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Amb un 24 % d'oxigen la velocitat es duplica i amb un 40 % es multiplica per 4; a més, s'amplia el rang d'inflamabilitat (sobretot el LSI).",
+      "excerpt": "amb una concentració del 24% d’oxigen, la velocitat de la combustió es duplica respecte a l’aire normal, i amb un 40% d’oxigen la velocitat es multiplica per 4.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § pèrdua de resistència dels materials",
+      "stem": "Segons el manual de teoria del foc, a partir de quina temperatura l'acer estructural comença a perdre ràpidament la seva capacitat de càrrega?",
+      "options": [
+        "A partir dels 100 °C.",
+        "A partir dels 1.000 °C.",
+        "A partir dels 300 °C.",
+        "L'acer no perd resistència amb la temperatura."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Per sobre dels 550-600 °C l'acer és pràcticament inútil i l'estructura pot col·lapsar.",
+      "excerpt": "L'acer perd ràpidament la seva capacitat de càrrega a partir dels 300°C i esdevé pràcticament inútil a temperatures superiors als 550-600°C.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § escuma: dosificació",
+      "stem": "Segons el manual de teoria del foc, quines proporcions d'escumogen en aigua són les habituals?",
+      "options": [
+        "El 10 %, el 20 % o el 30 %.",
+        "El 0,1 %, el 0,3 % o el 0,6 %.",
+        "Sempre el 50 %.",
+        "L'1 %, el 3 % o el 6 %."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Depèn del tipus d'escuma i de l'aplicació; la tendència és cap a escumògens més concentrats.",
+      "excerpt": "La proporció d'escumogen en aigua sol ser del 1%, 3% o 6%",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § escumes resistents a alcohols",
+      "stem": "En un incendi d'un dipòsit d'acetona o d'alcohol, quin tipus d'escuma indica el manual de teoria del foc?",
+      "options": [
+        "Una escuma proteínica convencional.",
+        "Una escuma resistent a alcohols (AR).",
+        "Qualsevol escuma convencional, sempre que sigui d'alta expansió.",
+        "Cap: l'escuma no serveix per a líquids inflamables."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els combustibles polars (alcohols, cetones com l'acetona, èsters) es barregen amb l'aigua i destruirien les escumes convencionals; les AR porten polímers que fan de barrera.",
+      "excerpt": "Escumes Resistents a Alcohols (AR): Dissenyades per a combustibles polars (com alcohols, cetones, èsters, etc.) que, per la seva miscibilitat amb l'aigua, destruirien les escumes convencionals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § pols química seca",
+      "stem": "Segons el manual de teoria del foc, quin és el mecanisme d'extinció principal de la pols química seca?",
+      "options": [
+        "El refredament.",
+        "La dilució de l'oxigen per un gas inert.",
+        "La saponificació del combustible.",
+        "La inhibició: interromp la reacció en cadena."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La sufocació és el mecanisme secundari de la pols; la saponificació és pròpia dels agents per a focs de classe F.",
+      "excerpt": "Inhibició (principal): La seva acció principal es basa en la interrupció de la reacció en cadena del foc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § halons",
+      "stem": "Segons el manual de teoria del foc, per què es van prohibir la producció i l'ús dels halons a partir de 1994?",
+      "options": [
+        "Perquè eren poc eficaços.",
+        "Pel seu alt potencial de destrucció de la capa d'ozó (Protocol de Montreal).",
+        "Perquè deixaven molts residus.",
+        "Perquè eren conductors de l'electricitat."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Eren agents d'inhibició molt eficaços i nets; només es permeten halons recuperats per a usos crítics molt limitats.",
+      "excerpt": "Producció i ús prohibits a partir del 1994 (Protocol de Montreal) a causa del seu alt potencial de destrucció de la capa d'ozó (ODP).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § ventilació",
+      "stem": "Segons el manual de teoria del foc, què caracteritza un incendi limitat per la ventilació (ILV)?",
+      "options": [
+        "Està governat per la disponibilitat d'oxigen i s'hi acumulen fums i gasos combustibles sense cremar.",
+        "Està governat per la disponibilitat de combustible i es desenvolupa lliurement.",
+        "És un incendi a l'aire lliure amb vent fort.",
+        "És un incendi sense cap risc de reignició."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Una entrada d'aire sobtada (trencar una finestra, obrir una porta) pot desencadenar una reignició violenta. L'incendi limitat pel combustible (ILC) és el que es desenvolupa lliurement.",
+      "excerpt": "Incendi limitat per la ventilació (ILV): Amb una ventilació limitada (espais tancats), pot provocar una ràpida consumició d'oxigen i l'acumulació de fums i gasos combustibles sense cremar. […] El foc està governat per la disponibilitat d’oxigen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § aigua: limitacions (boil-over)",
+      "stem": "En un incendi d'hidrocarburs en un dipòsit, l'aigua d'extinció s'ha anat acumulant al fons sota el combustible. Segons el manual de teoria del foc, quin fenomen pot produir-se?",
+      "options": [
+        "El backdraft: l'entrada sobtada d'aire en un compartiment tancat.",
+        "La saponificació del combustible, que deixa de cremar.",
+        "El boil-over: l'aigua sobreescalfada bull de cop i projecta el combustible en flames fora del recipient.",
+        "L'extinció segura, perquè l'aigua fa de capa aïllant."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'aigua del fons s'escalfa per sobre de 100 °C sense bullir per la pressió del combustible; quan aquest es consumeix, bull massivament i sense avís.",
+      "excerpt": "l'aigua sobreescalfada pot bullir, de cop, massivament i sense senyals d’avís, projectant el combustible en flames fora del recipient (fenomen conegut com a boil-over)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § radiació",
+      "stem": "Un bomber rep una certa intensitat de calor radiant a 2 m de les flames. Si s'allunya fins a 6 m, quina fracció d'aquella intensitat rebrà, segons la relació que dona el manual de teoria del foc?",
+      "options": [
+        "Una novena part.",
+        "Un terç.",
+        "La meitat.",
+        "Una sisena part."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La distància es triplica (6/2 = 3) i la intensitat es divideix pel quadrat: 3² = 9, és a dir, 1/9 de la inicial.",
+      "excerpt": "La intensitat de radiació emesa que rebem és […] inversament proporcional al quadrat de la distància.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § límits d'inflamabilitat",
+      "stem": "Un explosímetre marca un 12 % de propà en volum en un local tancat. Segons la taula de rangs d'inflamabilitat del manual de teoria del foc, com és aquesta barreja?",
+      "options": [
+        "Dins del rang d'inflamabilitat: pot encendre's.",
+        "Massa rica: està per sobre del LSI del propà (9,5 %) i, tal com està, no crema.",
+        "Massa pobra: està per sota del LII del propà.",
+        "Dins del rang, perquè el LSI del propà és del 15 %."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El propà crema entre el 2,1 % i el 9,5 %. Per sobre del LSI no crema, però si es ventila o es dilueix pot entrar dins del rang i encendre's (el 15 % és el LSI del metà).",
+      "excerpt": "Propà 2,1 9,5 7,4 […] Per sobre de l’LSI, la barreja tampoc crema ni explota.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § concentració d'oxigen <21%",
+      "stem": "Segons el manual de teoria del foc, fins a quina concentració d'oxigen poden continuar cremant sense flama (foc latent) alguns materials?",
+      "options": [
+        "Només per sobre del 21 %.",
+        "Mai per sota del 16 %.",
+        "Fins i tot amb concentracions tan baixes com el 5-8 %.",
+        "Només entre el 14 % i el 16 %."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La flama s'extingeix per sota d'un 14 % aproximadament, però les brases poden continuar pirolitzant i, amb una entrada d'aire sobtada, provocar un backdraft.",
+      "excerpt": "els materials poden continuar cremant sense flama (foc latent), en forma de brases, fins i tot amb concentracions d'oxigen tan baixes com el 5-8%.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.008, § pols química seca: limitacions",
+      "stem": "Indica l'afirmació INCORRECTA sobre la pols química seca segons el manual de teoria del foc.",
+      "options": [
+        "És un agent no conductor de l'electricitat.",
+        "No és adequada per a entorns amb equips electrònics delicats.",
+        "La pols ABC deixa una capa enganxosa i pot ser corrosiva.",
+        "Crea una atmosfera inerta duradora que impedeix la reignició."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El manual diu el contrari: la pols no crea una atmosfera inerta duradora i hi pot haver reignició si no s'actua amb rapidesa o no es combina amb altres mètodes. Les altres tres afirmacions hi són literalment.",
+      "excerpt": "No crea una atmosfera inerta duradora, fet que pot provocar la reignició del foc",
+      "excerpt_status": "completo"
     }
   ]
 }

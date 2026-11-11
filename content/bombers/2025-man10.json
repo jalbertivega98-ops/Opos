@@ -78,6 +78,36 @@
       "explanation": "Per la llei de Boyle-Mariotte, P₁·V₁ = P₂·V₂: 300 × 6 = 1 × V₂ → V₂ = 1.800 L.",
       "excerpt": "Llei de Boyle-Mariotte Per una mateixa massa de gas, si no varia la temperatura, la pressió i el volum són inversament proporcionals.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 34) · MAN.GRAL.004, § 6.2",
+      "stem": "En la inspecció posterior a un incendi trobes que una peça d'un material s'ha fos completament. Què en pots deduir sobre la temperatura que s'hi va assolir?",
+      "options": [
+        "Que necessàriament es va arribar a la temperatura d'ebullició d'aquell material.",
+        "Que no es va superar mai la temperatura de fusió d'aquell material.",
+        "Res, perquè la fusió depèn només del temps d'exposició i no de la temperatura.",
+        "Que, com a mínim, es va arribar a la temperatura de fusió d'aquell material."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Cada canvi d'estat es produeix a una temperatura concreta que depèn del material; si s'ha fos, s'ha arribat almenys a la seva temperatura de fusió.",
+      "excerpt": "Fusió: sòlid → líquid […] Si aquests canvis es realitzen a pressió atmosfèrica, cada canvi es produirà només a una temperatura concreta que dependrà del material.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 47) · MAN.GRAL.004, § 6.2 (punt crític)",
+      "stem": "Un extintor de CO₂ ha quedat exposat al sol i el seu contingut ha superat els 31 °C. Segons la taula de temperatures crítiques del manual de química, en quin estat es troba ara el CO₂ de l'interior?",
+      "options": [
+        "En estat líquid, perquè l'alta pressió interior el manté liquat a qualsevol temperatura.",
+        "En estat sòlid (neu carbònica).",
+        "En equilibri líquid-gas, igual que a temperatura ambient.",
+        "En estat gasós, perquè ha superat la temperatura crítica (30,1 °C) i no es pot liquar encara que n'augmenti la pressió."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El CO₂ dels extintors es guarda liquat, però per sobre de la temperatura crítica (30,1 °C) ja no pot existir com a líquid.",
+      "excerpt": "El punt crític d'una substància és la temperatura per sobre de la qual trobarem aquesta substància en un estat gasós i no el podrem liquar encara que se n'augmenti molt la pressió. […] Diòxid de carboni 30.1 72.9",
+      "excerpt_status": "completo"
     }
   ]
 }

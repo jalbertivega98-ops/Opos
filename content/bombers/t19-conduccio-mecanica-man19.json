@@ -318,6 +318,306 @@
       "explanation": "El volum i el pes del vehicle poden induir a error; l'aigua en moviment pot desestabilitzar-lo.",
       "excerpt": "Tenir precaució en passos de rieres o acumulacions d’aigua, ja que el volum i el pes del vehicle poden fer pensar que pot travessar zones inundades, però l’aigua arrossegada pot tenir molta més força de la que sembla i desestabilitzar el vehicle fàcilment, posant en perill tant l’equip com el vehicle.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 3.1.2 senyalització visual",
+      "stem": "Segons el manual de conducció i mecànica, de quin color són els dispositius lluminosos en què es basa principalment la senyalització visual dels vehicles d'emergència?",
+      "options": [
+        "Taronja.",
+        "Blau.",
+        "Vermell.",
+        "Verd."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La normativa estatal estableix dispositius lluminosos de color blau, situats a la part superior i davantera del vehicle.",
+      "excerpt": "La senyalització visual dels vehicles d’emergència es basa principalment en dispositius lluminosos de color blau, segons estableix la normativa estatal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.2 posició de conducció",
+      "stem": "Segons el manual de conducció, en quina posició del volant ha de mantenir les mans el conductor d'un vehicle de bombers?",
+      "options": [
+        "A les posicions de les «9 i les 3».",
+        "A les posicions de les «12 i les 6».",
+        "Totes dues mans a la part superior del volant.",
+        "Una mà al volant i l'altra al canvi de marxes de manera permanent."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La posició «9 i 3» garanteix un control ferm del vehicle i una resposta ràpida davant imprevistos.",
+      "excerpt": "El conductor ha de mantenir una postura còmoda i segura, amb les mans situades a les posicions de les “9 i les 3” del volant.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.8 alertes del quadre",
+      "stem": "Durant un desplaçament, s'encén una alerta de color vermell al quadre de comandament. Segons el manual de conducció i mecànica, què ha de fer el conductor?",
+      "options": [
+        "Continuar amb precaució i revisar-ho en tornar al parc.",
+        "Ignorar-la fins acabar el servei.",
+        "Aturar el vehicle immediatament.",
+        "Accelerar per arribar abans al lloc de la intervenció."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Les alertes taronja indiquen continuar amb precaució i revisar aviat; les vermelles obliguen a aturar el vehicle immediatament.",
+      "excerpt": "les de color taronja indiquen que cal continuar amb precaució i revisar el problema aviat, mentre que les de color vermell obliguen a aturar el vehicle immediatament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.1 seguretat activa",
+      "stem": "Segons el manual de conducció i mecànica, què engloba la seguretat activa d'un vehicle?",
+      "options": [
+        "Els dispositius que protegeixen els ocupants un cop l'accident és inevitable.",
+        "Només els cinturons i els coixins de seguretat.",
+        "Únicament el sistema eCall.",
+        "Els elements que ajuden a prevenir i evitar l'accident."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La seguretat activa (frens, pneumàtics, ABS, ESP...) prevé l'accident; la passiva (cinturons, airbags, eCall...) en redueix les conseqüències.",
+      "excerpt": "seguretat activa, que engloba tots els elements que ajuden a prevenir i evitar l’accident i en seguretat passiva, que inclou els dispositius destinats a protegir els ocupants un cop l’accident és inevitable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.7 presa de força",
+      "stem": "Segons el manual de conducció i mecànica, què és la presa de força?",
+      "options": [
+        "Un sistema que evita el bloqueig de les rodes en frenades brusques.",
+        "Un mecanisme que aprofita l'energia de la cadena cinemàtica per moure elements auxiliars del camió, com la bomba d'aigua.",
+        "L'element que uneix les suspensions de les rodes d'un mateix eix.",
+        "Un indicador de la potència màxima del motor."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La presa de força mou elements auxiliars com la bomba d'aigua o els sistemes hidràulics; l'ABS evita el bloqueig i la barra estabilitzadora uneix les suspensions.",
+      "excerpt": "La presa de força és un mecanisme que aprofita l’energia de la cadena cinemàtica per moure elements auxiliars del camió, com la bomba d’aigua o els sistemes hidràulics.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.1 embragatge",
+      "stem": "Segons el manual de conducció i mecànica, quina funció té l'embragatge dins de la cadena cinemàtica?",
+      "options": [
+        "Repartir la força entre les dues rodes motrius.",
+        "Adaptar les revolucions del motor segons la marxa.",
+        "Connectar o desconnectar el motor de la resta de la transmissió.",
+        "Transformar l'energia en moviment lineal."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'embragatge connecta o desconnecta el motor; el diferencial reparteix la força entre rodes, la caixa de canvis adapta les revolucions i les rodes transformen l'energia en moviment lineal.",
+      "excerpt": "Embragatge: permet connectar o desconnectar el motor de la resta de la transmissió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.2 cinturó",
+      "stem": "Segons el manual de conducció, en quin tipus de trajecte es produeixen molts dels accidents de trànsit a Bombers?",
+      "options": [
+        "En trajectes no urgents.",
+        "Exclusivament en trajectes amb senyals prioritaris.",
+        "Només en camins forestals.",
+        "Només en maniobres dins del parc."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Per això el cinturó és obligatori per a tots els ocupants durant tot el trajecte, sense excepció.",
+      "excerpt": "És especialment important tenir en compte que molts dels accidents de trànsit a Bombers es produeixen en trajectes no urgents.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.5.2 seqüència de bloqueig",
+      "stem": "Segons el manual de conducció i mecànica, quina és la seqüència correcta per bloquejar els diferencials?",
+      "options": [
+        "Primer l'anterior, després el posterior i finalment el central.",
+        "Primer el posterior, després l'anterior i finalment el central.",
+        "Tots alhora, sigui quin sigui el terreny.",
+        "Primer el central (o longitudinal), després el posterior i finalment l'anterior."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La seqüència lògica és central, posterior i anterior, i sempre abans d'arribar a l'obstacle.",
+      "excerpt": "primer es bloqueja el diferencial central (o longitudinal), després el posterior i finalment l’anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 4.4 neu i gel",
+      "stem": "Segons el manual de conducció, per sota de quina temperatura els pneumàtics convencionals perden gran part de la seva capacitat d'adherència?",
+      "options": [
+        "0 °C.",
+        "–10 °C.",
+        "15 °C.",
+        "7 °C."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Per sota dels 7 °C els pneumàtics convencionals perden gran part de l'adherència, encara que no hi hagi gel visible.",
+      "excerpt": "Per sota dels 7 °C, els pneumàtics convencionals perden gran part de la seva capacitat d’adherència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 4.2 il·luminació amb pluja",
+      "stem": "Conduint una autobomba sota pluja intensa, quin ús de la il·luminació recomana el manual de conducció?",
+      "options": [
+        "Llums llargs per veure millor la calçada.",
+        "Llums curts i, si cal, antiboira posteriors, evitant els llums llargs.",
+        "Circular només amb els llums de posició.",
+        "Apagar els llums blaus i els curts per no enlluernar."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Amb pluja intensa, els llums llargs es poden reflectir; cal llums curts i, si cal, antiboira posteriors.",
+      "excerpt": "Fer ús correcte de la il·luminació activant els llums curts i, si cal, els llums antiboira posteriors, però evitar els llums llargs si hi ha pluja intensa que pugui reflectir-se.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.2 protectors auditius",
+      "stem": "Segons el manual de conducció, quin element de protecció NO pot utilitzar el conductor durant el trajecte?",
+      "options": [
+        "El cinturó de seguretat.",
+        "Equips mínims d'EPI que no interfereixin amb el cinturó.",
+        "Taps o protectors d'oïda que redueixin la seva capacitat auditiva.",
+        "La jaqueta de l'EPI."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El conductor ha de percebre amb claredat els senyals de trànsit i els sorolls de l'entorn; el cinturó és obligatori per a tots.",
+      "excerpt": "El conductor no pot utilitzar taps ni protectors d’oïda que redueixin la seva capacitat auditiva, ja que ha de percebre amb claredat els senyals de trànsit i els sorolls de l’entorn.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.2 EPI abans del trajecte",
+      "stem": "Segons el manual de conducció, qui valora si cal portar tot l'EPI abans del trajecte o si es pot completar en arribar al lloc d'intervenció?",
+      "options": [
+        "El cap de sortida.",
+        "El conductor.",
+        "Cada bomber individualment.",
+        "La sala de control, per ràdio."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El cap de sortida fa aquesta valoració; si no és viable vestir l'EPI complet, es porten equips mínims que no interfereixin amb el cinturó.",
+      "excerpt": "El cap de sortida és qui valora si cal portar tot l’EPI abans del trajecte o es pot completar un cop arribats al lloc d’intervenció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.6 angle ventral",
+      "stem": "Segons el manual de conducció i mecànica, què és l'angle ventral o de panxa?",
+      "options": [
+        "L'angle màxim entre el terra i la part frontal del vehicle abans que el para-xocs toqui l'obstacle.",
+        "L'angle equivalent a la part del darrere del vehicle.",
+        "L'angle màxim que permet superar un obstacle central sense que la part inferior del xassís toqui el terra.",
+        "L'angle màxim d'inclinació lateral abans de la bolcada."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'angle d'atac és el frontal, el de sortida el posterior i el ventral el que permet superar un turonet o cresta sense tocar amb el xassís.",
+      "excerpt": "Angle ventral o de panxa: és l’angle màxim que permet al vehicle superar un obstacle central (com un turonet o una cresta) sense que la part inferior del xassís toqui el terra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 2.4 disciplina del comboi",
+      "stem": "Segons el manual de conducció, indica la conducta INCORRECTA en la circulació en comboi:",
+      "options": [
+        "No fer avançaments innecessaris.",
+        "Mantenir la línia de visió entre vehicles.",
+        "Facilitar la incorporació a vies ràpides.",
+        "Bloquejar les cruïlles perquè tot el comboi passi sense aturar-se."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La disciplina del comboi exigeix no fer avançaments innecessaris, mantenir la línia de visió, facilitar la incorporació a vies ràpides i no bloquejar cruïlles o interseccions.",
+      "excerpt": "Circular en comboi exigeix una disciplina operativa estricta: no fer avançaments innecessaris, mantenir la línia de visió entre vehicles, facilitar la incorporació a vies ràpides i no bloquejar cruïlles o interseccions.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.1 reposacaps",
+      "stem": "Segons el manual de conducció i mecànica, com ha d'estar ajustat el reposacaps perquè sigui efectiu?",
+      "options": [
+        "Amb el centre a l'alçada de les orelles i en posició vertical.",
+        "Amb el centre a l'alçada de les espatlles.",
+        "Tan avall com sigui possible.",
+        "Inclinat cap enrere, separat del cap."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El reposacaps protegeix de la fuetada cervical si el centre queda a l'alçada de les orelles i en posició vertical.",
+      "excerpt": "el centre del reposacaps ha de quedar a l’alçada de les orelles i en posició vertical.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.5.2 bloqueig en moviment",
+      "stem": "Segons el manual de conducció i mecànica, fins a quina velocitat es pot bloquejar en moviment el diferencial posterior?",
+      "options": [
+        "Fins a 40 km/h i en línia recta.",
+        "Fins a 5 km/h i en línia recta.",
+        "Fins a 20 km/h, encara que el vehicle estigui girant.",
+        "No es pot bloquejar mai en moviment."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El central es pot bloquejar fins a 40 km/h; el posterior i l'anterior, fins a 5 km/h, sempre en línia recta.",
+      "excerpt": "El diferencial central es pot bloquejar fins a 40 km/h i en línia recta. − El posterior es pot bloquejar fins a 5 km/h i en línia recta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.1 ABS",
+      "stem": "Segons el manual de conducció i mecànica, des de quin any és obligatori l'ABS a tots els vehicles nous de la UE?",
+      "options": [
+        "Des del 2004.",
+        "Des del 2014.",
+        "Des del 2018.",
+        "Des del 1994."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "ABS obligatori des del 2004; control d'estabilitat (ESP) des del 2014; eCall des del 2018.",
+      "excerpt": "És obligatori a tots els vehicles nous de la UE des del 2004.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 6.1 eCall",
+      "stem": "Segons el manual de conducció i mecànica, què fa el sistema eCall?",
+      "options": [
+        "Evita que les rodes patinin en acceleracions fortes.",
+        "Corregeix la trajectòria actuant sobre els frens de rodes concretes.",
+        "Avisa el conductor del canvi involuntari de carril.",
+        "Envia automàticament una trucada al 112 amb la posició exacta i les dades del vehicle."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'eCall, obligatori a Europa des del 2018 i element de seguretat passiva, usa GPS i una targeta SIM per trucar al 112. Les altres opcions són el control de tracció, l'ESP i un avisador de seguretat activa.",
+      "excerpt": "Sistema eCall: obligatori a Europa des de 2018, és un sistema automàtic d’avís d’emergència. Mitjançant GPS i una targeta SIM integrada, envia una trucada immediata al servei 112 amb la posició exacta i les dades del vehicle.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.3.2 molls pneumàtics",
+      "stem": "Segons el manual de conducció i mecànica, quin avantatge i quin inconvenient tenen els molls pneumàtics?",
+      "options": [
+        "Són els més resistents per a càrregues extremes, però transmeten més vibracions a la cabina.",
+        "Són els més simples i sense manteniment, però no permeten cap ajust.",
+        "Permeten ajustar l'altura i la duresa de la suspensió, però són més complexos i requereixen més manteniment.",
+        "Tenen forma d'espiral i són els més adequats per a càrregues extremes."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els molls pneumàtics funcionen amb bosses d'aire comprimit. Els de fulla són els més resistents però menys confortables; els helicoïdals tenen forma d'espiral i no són tan adequats per a càrregues extremes.",
+      "excerpt": "Aquest sistema té l’avantatge que permet ajustar tant l’altura del vehicle com la duresa de la suspensió segons la càrrega i el tipus de terreny. […] Ara bé, són sistemes més complexos i requereixen més manteniment que els molls tradicionals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.002, § 5.4 reductora en 4x4 opcional",
+      "stem": "Segons el manual de conducció i mecànica, per què en els vehicles 4×4 opcionals no s'ha d'utilitzar la reductora sobre asfalt o superfícies molt adherents?",
+      "options": [
+        "Perquè desconnecta els frens del vehicle.",
+        "Perquè sol anar vinculada a la tracció total i podria causar trencaments o desgast prematur.",
+        "Perquè augmenta la velocitat màxima del vehicle.",
+        "Perquè només funciona amb el vehicle en marxa enrere."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En el 4×4 permanent la reductora és independent dels bloquejos i no augmenta el risc en terrenys adherents; en l'opcional va lligada a la tracció total.",
+      "excerpt": "En canvi, en els 4×4 opcionals, la reductora sol anar vinculada a la tracció total, per això no s’ha d’utilitzar sobre asfalt o superfícies molt adherents, ja que podria causar trencaments o desgast prematur.",
+      "excerpt_status": "completo"
     }
   ]
 }

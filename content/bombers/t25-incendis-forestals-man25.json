@@ -318,6 +318,306 @@
       "explanation": "Orientació calenta +1; foc pujant pendent +1; vent a favor del front +1.",
       "excerpt": "→ Quan l’orientació és “calenta” (solell, especialment al migdia), +1.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 2.2.1 Numeració de sectors",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, com s'identifiquen els sectors del flanc esquerre en el model dels Bombers de la Generalitat?",
+      "options": [
+        "Amb números parells (2, 4, 6...).",
+        "Amb lletres en sentit horari (A, B, C...).",
+        "Amb números senars (1, 3, 5...).",
+        "Amb el nom del punt cardinal (Zona Nord, Zona Sud...)."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El flanc dret porta números parells; les lletres en sentit horari són el sistema dels Estats Units i les zones per topografia, el de França.",
+      "excerpt": "Els sectors del flanc esquerre s’identifiquen amb números imparells (1, 3, 5...).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 2.5 Classificació per afectació",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, què és un conat d'incendi?",
+      "options": [
+        "Un incendi de vegetació que no supera una hectàrea d'extensió.",
+        "Un incendi de desenes o centenars d'hectàrees controlable amb recursos locals.",
+        "Un incendi que afecta més de 500 ha.",
+        "Un incendi que només crema la matèria orgànica del subsòl."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Per sobre d'una hectàrea es parla d'incendi forestal, i de GIF si supera la capacitat d'extinció, afecta greument la població o passa de 500 ha.",
+      "excerpt": "Conat d’incendi: Incendi de vegetació que no supera una hectàrea d’extensió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 5.4 Protocol LACES",
+      "stem": "En el protocol LACES, a què correspon la lletra L?",
+      "options": [
+        "Line (línia de defensa).",
+        "Lookout (guaita): un observador permanent del comportament de l'incendi.",
+        "Location (localització de l'equip).",
+        "Light (il·luminació de la zona de treball)."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'observador ha de tenir una visió clara del front, la columna, l'equip i la zona segura, i avisar de qualsevol canvi.",
+      "excerpt": "L – Lookout (guaita) En tota intervenció s’ha de designar una persona que actuï com a observador permanent del comportament de l’incendi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 2.4.1 Focs de subsòl",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, què cremen els focs de subsòl (o sotabosc latent)?",
+      "options": [
+        "Les herbes, matolls i fullaraca sobre el sòl.",
+        "La part superior dels arbres.",
+        "Només els cultius de cereal sec.",
+        "La matèria orgànica situada sota la superfície del sòl: arrels, humus i restes vegetals acumulades."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Són de propagació lenta però persistent, generen molt de fum i poden quedar latents dies o setmanes.",
+      "excerpt": "Cremen la matèria orgànica situada sota la superfície del sòl: arrels, humus, restes vegetals acumulades, etc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 4.4.2 Etapa de remat",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, quin és l'objectiu de l'etapa de remat?",
+      "options": [
+        "Frenar la propagació activa del foc i aconseguir punts d'ancoratge.",
+        "Eliminar tots els focus calents i restes actives dins del perímetre perquè l'incendi no es reactivi.",
+        "Vigilar el perímetre amb patrulles mòbils fins que es doni per extingit.",
+        "Encendre contrafocs per competir pel combustible."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Frenar la propagació és l'etapa d'atac i la vigilància amb patrulles és la rereguarda; una rematada deficient és la causa més habitual de represes.",
+      "excerpt": "Un cop el foc ja està controlat comença l’etapa de rematada, que té com a objectiu eliminar tots els focus calents i restes actives dins del perímetre per assegurar que l’incendi no es reactivi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 4 Maniobres d'extinció",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, què caracteritza l'atac paral·lel o indirecte?",
+      "options": [
+        "S'actua sobre el combustible no cremat per frenar l'avanç del foc.",
+        "Es treballa directament sobre el front de flames amb aigua.",
+        "Només s'utilitzen motxilles d'aigua i batefocs sobre les flames.",
+        "Consisteix a apagar la cua amb mitjans aeris."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'atac directe treballa sobre el front de flames; l'indirecte, per exemple, amb línies de defensa, foc tècnic o maquinària.",
+      "excerpt": "Atac paral·lel o indirecte, quan s’actua sobre el combustible (la vegetació no cremada) per frenar l’avanç del foc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 1.4 Generacions d'incendis",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, quina generació d'incendis es caracteritza per l'aparició de la problemàtica de la interfase urbana-forestal?",
+      "options": [
+        "La primera generació (anys 1950 a 1970).",
+        "La segona generació (1970-1980).",
+        "La quarta generació (2000-2010).",
+        "La sisena generació (a partir de 2016)."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La primera respon a la continuïtat del combustible, la segona a la velocitat de propagació i la sisena a incendis extremadament intensos i poc previsibles.",
+      "excerpt": "Quarta generació (2000-2010): Sorgeix la problemàtica de la interfase urbana-forestal. Els incendis amenacen directament habitatges i infraestructures.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 1.5 El GRAF",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, quan es va crear el GRAF (Grup de Recolzament d'Actuacions Forestals)?",
+      "options": [
+        "El 1982, amb la institucionalització del Cos de Bombers.",
+        "El 1986, després de cremar-se més de 65.000 ha.",
+        "El 2006, amb la regulació de l'ús del foc tècnic.",
+        "L'1 de març de 1999, arran sobretot del gran incendi de la Catalunya Central del 1998."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El 1982 es crea el Cos, el 1986 neixen les ADF i el 2006 es regula l'ús del foc com a eina de gestió.",
+      "excerpt": "El Grup de Recolzament d'Actuacions Forestals (GRAF) és una unitat d’especialistes en incendis forestals creada l’1 de març del 1999 per la Direcció General de Prevenció, Extinció d’Incendis i Salvaments, arran de la necessitat de reforçar la resposta operativa als grans incendis forestals que s’havien anat produint al país, especialment després del gran incendi de la Catalunya Central del 1998.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 2.4.3 Focs de capçades",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, què és l'antorxeig?",
+      "options": [
+        "Quan el foc es propaga de forma sostinguda per les capçades, independentment del foc de superfície.",
+        "Quan el combustible superficial i les capçades cremen alhora.",
+        "Quan el foc crema arrels i humus sota el sòl.",
+        "Quan el foc arriba esporàdicament a les capçades, sense propagar-se de forma contínua entre arbres."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El foc de capçades passiu crema superfície i capçades alhora; l'actiu, el més perillós, es propaga per les capçades de manera sostinguda.",
+      "excerpt": "Antorxeig: És aquell en què el foc arriba esporàdicament a les capçades, però sense propagar-se de forma contínua entre arbres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 2.4.2 Focs de superfície",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, fins a quina longitud de flama arriben els focs de superfície de mitjana intensitat?",
+      "options": [
+        "Menys d'un metre.",
+        "Més de cinc metres.",
+        "Fins a tres metres.",
+        "Més de deu metres."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Baixa intensitat: flames menors d'un metre; mitjana: fins a tres metres; alta: superen els cinc metres.",
+      "excerpt": "Els de mitjana intensitat arriben fins a tres metres, poden saltar pistes i afectar puntualment matolls i capçades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 4.1.2 Eines manuals",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, per a quin tipus de foc és adequat l'atac directe només amb eines manuals, sense suport aeri?",
+      "options": [
+        "Focs de capçades actius.",
+        "Focs de baixa intensitat, fins a un metre de longitud de flama i amb velocitat de propagació inferior a 1 km/h aproximadament.",
+        "Focs de superfície amb flames de més de cinc metres.",
+        "Focs convectius amb pirocúmul."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Amb mitjans aeris descarregant per davant es poden afrontar longituds i velocitats superiors.",
+      "excerpt": "adequada per a focs de baixa intensitat (fins a un metre de longitud de flama i a velocitats de propagació inferiors a 1 km/h aproximadament).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 4.2.3 Retardants i escumes",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, sobre els retardants i els escumògens, indica la resposta INCORRECTA:",
+      "options": [
+        "Els escumògens tenen un efecte de llarga durada, superior al dels retardants.",
+        "Els retardants són principalment fosfats amònics afegits a l'aigua.",
+        "Els retardants mantenen part de la seva eficàcia fins i tot després de l'evaporació.",
+        "L'escuma envolta el combustible i l'aïlla de l'oxigen."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El manual diu que els escumògens tenen un efecte de curta durada; la persistència és pròpia dels retardants.",
+      "excerpt": "Els retardants són productes químics (principalment fosfats amònics) que, afegits a l’aigua, en potencien les propietats extintores i mantenen part de la seva eficàcia fins i tot després de l’evaporació. […] Els escumògens, en canvi, tenen un efecte de curta durada: barrejats amb aigua, generen una escuma que envolta el combustible, l’aïlla de l’oxigen i afavoreix l’absorció d’humitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 5.4 Zones de seguretat",
+      "stem": "En un incendi forestal s'esperen flames de 5 m d'alçada. Segons el criteri del manual d'intervenció bàsica en incendis forestals, quin radi ha de tenir la zona de seguretat?",
+      "options": [
+        "5 metres.",
+        "10 metres.",
+        "20 metres.",
+        "50 metres."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Radi = 4 × alçada de flama esperada = 4 × 5 m = 20 m.",
+      "excerpt": "Com a normal aquesta zona cal que tingui un radi igual a 4 vegades l’alçada de flama esperada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 5.5 Autoprotecció en atrapament d'autobomba",
+      "stem": "Una autobomba no pot sortir amb seguretat de la zona i el comandament localitza la zona segura més propera. Com s'ha d'emplaçar el vehicle segons el manual?",
+      "options": [
+        "De cara al front de flames, perpendicular a aquest.",
+        "Amb la cabina a l'ombra del foc i una orientació de 45º a 60º respecte al front de flames.",
+        "Sota els arbres més alts per protegir-se de la radiació.",
+        "Al fons d'un barranc, amb les finestres obertes."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "També cal una línia de 25 mm pressuritzada amb la llança a la zona d'ombra, la dotació agrupada a la cabina i els ruixadors activats quan s'acosta el front.",
+      "excerpt": "El vehicle s’emplaça de manera que la cabina quedi a l’ombra del foc, amb una orientació de 45º a 60º respecte al front de flames, amb línia de 25 mm pressuritzada, la llança a la zona d’ombra",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 3.2.1 Columna de fum",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, què pot indicar una columna de fum partida?",
+      "options": [
+        "Que l'efecte del vent és escàs.",
+        "Que el foc és feble.",
+        "Combustió de matèries verdes o humides.",
+        "Vents canviants o inestabilitat atmosfèrica, com una tempesta propera."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La columna vertical indica poc vent; la difusa, foc feble; la blanca, combustió de matèria verda o humida.",
+      "excerpt": "Una columna partida, pot indicar vents canviants o la presència d’inestabilitat atmosfèrica (com pot ser una tempesta propera).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § Fitxa d'anàlisi (superfície)",
+      "stem": "Per fer l'anàlisi d'un incendi forestal, s'estima que la zona cremada és aproximadament un rectangle de 800 m × 50 m. Quina superfície cal anotar, segons l'equivalència del manual?",
+      "options": [
+        "4 ha.",
+        "40 ha.",
+        "0,4 ha.",
+        "400 ha."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "800 m × 50 m = 40.000 m²; 40.000 / 10.000 = 4 ha.",
+      "excerpt": "Equivalència: 1 hectàrea (ha) = 10.000 m 2",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 4.2.2 Foc tècnic",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, quina maniobra de foc tècnic consisteix a encendre un nou front perquè avanci contra l'incendi principal i competeixin pel mateix combustible?",
+      "options": [
+        "La crema d'eixamplament.",
+        "El contrafoc.",
+        "La maniobra de definició de perímetre.",
+        "L'obertura de caixa."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La crema d'eixamplament elimina el combustible entre un ancoratge i el front; la definició de perímetre en simplifica el traçat; l'obertura de caixa es fa amb eines, no amb foc.",
+      "excerpt": "Contrafoc: És una maniobra de foc tècnic que consisteix a encendre un nou front de foc perquè avanci contra l’incendi principal, de manera que tots dos competeixin pel mateix combustible i redueixin la intensitat del foc original.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 5.3 Consciència de situació",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, com ha evolucionat el significat de la lletra A del protocol LACES després de diversos accidents?",
+      "options": [
+        "D'«Ancoratge» a «Ancoratge i Awareness» (consciència de situació).",
+        "D'«Aire» a «Aeronaus».",
+        "D'«Alerta» a «Autoprotecció».",
+        "D'«Ancoratge» a «Atac directe»."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "S'hi vol remarcar la necessitat d'una observació i comunicació constants.",
+      "excerpt": "No és casualitat que, després de diversos accidents, la lletra A del LACES hagi evolucionat d’“Ancoratge” a “Ancoratge i Awareness” (consciència de situació), posant en relleu la necessitat d’una observació i comunicació constants.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 1.1 Evolució històrica",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, quina conseqüència va tenir l'estiu de 1986, en què es van cremar més de 65.000 ha a Catalunya?",
+      "options": [
+        "La creació del programa Foc Verd.",
+        "La creació del GRAF.",
+        "La creació de les Agrupacions de Defensa Forestal (ADF).",
+        "La legalització de les cremes prescrites."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El programa Foc Verd es crea el 1994, el GRAF el 1999 i la regulació de l'ús del foc tècnic és del 2006.",
+      "excerpt": "1986: Es cremen més de 65.000 ha – naixement de les ADF Un estiu catastròfic revela la necessitat de millora en els recursos i coordinació en l’àmbit forestal. Aquesta crisi dona lloc a la creació de les Agrupacions de Defensa Forestal (ADF)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INVE.000, § 3.1.4 Tempesta propera",
+      "stem": "Segons el manual d'intervenció bàsica en incendis forestals, com es comporta el foc a prop d'una tempesta que encara s'està formant?",
+      "options": [
+        "Els corrents descendents projecten els vents cap a fora en múltiples direccions.",
+        "El vent desapareix i la columna es fa vertical.",
+        "La pluja extingeix el front en pocs minuts.",
+        "Els vents tendeixen a entrar cap al nucli tempestuós i el foc pot ser «atret» cap a la tempesta."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Els corrents descendents que projecten vents cap a fora corresponen al moment en què la tempesta comença a descarregar.",
+      "excerpt": "Quan la tempesta encara s’està formant, els vents tendeixen a entrar cap al nucli tempestuós, de manera que el foc pot ser “atret” cap a la tempesta.",
+      "excerpt_status": "completo"
     }
   ]
 }

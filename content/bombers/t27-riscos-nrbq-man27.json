@@ -318,6 +318,306 @@
       "explanation": "Cal recuperar tota la informació tècnica disponible a la instal·lació.",
       "excerpt": "És prioritari interrogar o coordinar-se amb el personal tècnic de l’empresa per obtenir aquestes dades de primera mà, ja que poden marcar la diferència entre una actuació segura i una intervenció amb risc afegit.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 1.4.1 Risc nuclear",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quins reactors nuclears hi ha a Catalunya?",
+      "options": [
+        "Garoña i Almaraz.",
+        "Vandellós II, Ascó I i Ascó II, a la província de Tarragona.",
+        "Només Ascó I, a la província de Lleida.",
+        "Vandellós I i Cofrents."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El risc nuclear és present a Catalunya en tres reactors de generació elèctrica, tots a la província de Tarragona.",
+      "excerpt": "El risc nuclear està present a Catalunya en tres reactors nuclears a la província de Tarragona, destinats a la generació d’energia elèctrica. Són els reactors de: Vandellós II, Ascó I i Ascó II.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 1.4.4 Risc químic",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quin pla especial s'ha d'activar si l'afectació de la matèria perillosa té lloc durant el transport per carretera o ferrocarril?",
+      "options": [
+        "El TRANSCAT.",
+        "El PLASEQCAT.",
+        "El RADCAT.",
+        "El PENTA."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El PLASEQCAT és el pla del sector químic per a instal·lacions industrials i el RADCAT, el d'emergències radiològiques.",
+      "excerpt": "Si l’afectació de la matèria perillosa té lloc durant el transport s’ha d’activar el Pla especial d’emergències per accidents en el transport de mercaderies perilloses per carretera i ferrocarril a Catalunya TRANSCAT.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 2.2.2 Placa ADR",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, què indica el número de la part inferior de la placa taronja ADR?",
+      "options": [
+        "El codi de perill, de 2 o 3 xifres.",
+        "La classe de perill de l'etiqueta en rombe.",
+        "La pressió màxima de la cisterna.",
+        "El número ONU, de 4 xifres, que identifica la substància concreta."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "A la part superior hi ha el codi de perill (el primer número és el perill principal); a la inferior, el número ONU (p. ex. 1203 = gasolina).",
+      "excerpt": "Número ONU (part inferior): número de 4 xifres que identifica la substància concreta (ex. 1203 = gasolina).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 2.2.3 Identificació de cisternes",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, què indica una cisterna de secció el·líptica?",
+      "options": [
+        "Que transporta gasos a pressió com GLP, amoníac o clor.",
+        "Que transporta gasos liquats criogènics com el nitrogen.",
+        "Que el dipòsit no pot estar pressuritzat i transporta líquids.",
+        "Que conté productes corrosius en petites quantitats d'acer inoxidable."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La secció circular resisteix millor la pressió (GLP, amoníac, clor); les criogèniques porten aïllament tèrmic.",
+      "excerpt": "Cisterna el·líptica: El dipòsit no pot estar pressuritzat. Aquesta geometria fa abaixar el centre de gravetat i fa que la pressió interior sigui mínima. És la que tenen els dipòsits que transporten líquids.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 5.1.3 Zona freda",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, en quina zona s'ubica el Centre de Comandament Avançat (CCA)?",
+      "options": [
+        "A la zona calenta.",
+        "A la zona tèbia, dins l'ABD.",
+        "En qualsevol zona, segons el vent.",
+        "A la zona freda."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La zona freda és lliure de contaminació i l'única on hi pot haver personal no operatiu o en reserva.",
+      "excerpt": "Àrea lliure de contaminació. S’hi ubica: − El Centre de Comandament Avançat (CCA)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 5.2.1 Principis de descontaminació",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quin és el primer principi general de la descontaminació?",
+      "options": [
+        "Descontaminar només les víctimes, no els intervinents.",
+        "No sortir mai de la zona calenta sense passar per descontaminació.",
+        "Fer la descontaminació a la zona freda, al costat del CCA.",
+        "Muntar el punt de descontaminació un cop acabada la intervenció."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El punt de descontaminació ha d'estar operatiu abans que comencin les tasques dins la zona contaminada.",
+      "excerpt": "1) No sortir mai de la zona calenta sense passar per descontaminació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 1.3 El GRIT",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, per què es va avançar el desplegament del GRIT, previst per a l'1 de gener de 2021?",
+      "options": [
+        "Per la irrupció de la pandèmia de COVID-19 el febrer de 2020.",
+        "Per l'accident d'IQOXE a Tarragona.",
+        "Per l'accident de Fukushima.",
+        "Per l'entrada en vigor del reglament CLP."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El GRIT (Grup de Recolzament en Intervencions Tecnològiques) es crea el 2020 i va liderar intervencions en residències de gent gran.",
+      "excerpt": "L’any 2020 es crea, dins del Cos de Bombers de la Generalitat de Catalunya, el Grup de Recolzament en Intervencions Tecnològiques (GRIT) […] Tot i que estava previst el seu desplegament a 1 de gener de […] 2021, la irrupció de la pandèmia per Covid-19 al febrer de 2020 va obligar a avançar aquesta acció",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 2.2.2 Codi de perill ADR",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, què indica una X davant del codi de perill de la placa taronja ADR?",
+      "options": [
+        "Que la matèria és radioactiva.",
+        "Que és una matèria perillosa diversa transportada en calent.",
+        "Que la matèria reacciona violentament amb l'aigua.",
+        "Que la cisterna és buida."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La repetició d'un número indica increment del perill i el primer número és el perill principal.",
+      "excerpt": "X davant (reacció violenta amb l’aigua)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 4.2.2 Taponament",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, en què consisteix la maniobra de taponament?",
+      "options": [
+        "En reduir o tallar la fuita d'un líquid a pressió atmosfèrica que surt per una esquerda, amb falques i coixins de taponament.",
+        "En aplicar mordasses o collarets sobre una canonada trencada.",
+        "En transferir el producte a un contenidor segur.",
+        "En obrir una vàlvula de fase gas per alliberar pressió."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els coixins funcionen amb pressió d'aire, sovint per sota d'1,5 bar, i cal vigilar que falcar no engrandeixi l'esquerda.",
+      "excerpt": "Objectiu: Reduir o tallar la fuita d’un líquid contingut a pressió atmosfèrica dins un recipient o cisterna i que s’escapa per una esquerda. Maniobra: Aplicar falques de fusta i coixins de taponament (funcionen amb pressió d’aire, sovint per sota d’1,5 bar)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 4.2.8.1 Diluir",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, per què són poc recomanables les maniobres de dilució?",
+      "options": [
+        "Perquè sempre provoquen reaccions violentes.",
+        "Perquè només es poden fer amb sepiolita.",
+        "Perquè requereixen grans quantitats d'aigua i generen més quantitat de producte a gestionar.",
+        "Perquè estan prohibides amb productes solubles."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Per això és molt més eficient plantejar maniobres d'absorció; a més, el producte ha de ser soluble i no reaccionar perillosament amb l'aigua.",
+      "excerpt": "Són maniobres poc recomanables, ja que requereixen grans quantitats d’aigua i generen mes quantitat de producte a gestionar. Per això és molt més eficient plantejar maniobres d’absorció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 4.2.9 Ventilació",
+      "stem": "En un local amb una atmosfera potencialment explosiva i sense ventiladors certificats ATEX, quin tipus de ventilació recomana el manual de riscos NRBQ?",
+      "options": [
+        "La ventilació forçada amb qualsevol ventilador disponible.",
+        "La ventilació natural, obrint punts alts i baixos.",
+        "La ventilació per pressió positiva dirigida al focus.",
+        "No ventilar mai el local."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els ventiladors no certificats ATEX poden generar ignició o premescles explosives.",
+      "excerpt": "En ambients potencialment explosius, l’ús de ventiladors no certificats ATEX pot generar ignició o premescles explosives. En aquests casos, es recomana prioritzar la ventilació natural, obrint punts alts i baixos per facilitar la dispersió segura dels vapors.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 4.2.10 Despressuritzar",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, com es fa la maniobra de despressuritzar un dipòsit de gas liquat escalfat?",
+      "options": [
+        "Obrint la vàlvula de fase líquida.",
+        "Cobrint el dipòsit amb escuma.",
+        "Introduint falques a les juntes.",
+        "Obrint controladament una vàlvula de fase gas del dipòsit."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'objectiu és reduir la pressió interior i la probabilitat de fallada mecànica del continent.",
+      "excerpt": "Maniobra: Obrir controladament una vàlvula de fase gas del dipòsit i per alliberar la pressió interior del dipòsit.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 2.2.4 Rombe NFPA 704",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, sobre el rombe de perill NFPA 704, indica la resposta INCORRECTA:",
+      "options": [
+        "Està dividit en quarts de colors diferents, amb un número o símbol a cadascun.",
+        "Identifica el producte pel seu estat d'agregació.",
+        "Permet identificar si el producte és incompatible amb l'aigua.",
+        "Ofereix una retolació molt intuïtiva de cara a diversos riscos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El manual diu que el rombe NFPA no identifica l'estat d'agregació, cosa que sí que fa el panell taronja ADR.",
+      "excerpt": "El rombe de perill és un rombe dividit en quarts de colors diferents. En cada quart hi ha un color i un número o símbol. − El resultat és una retolació molt intuïtiva de cara a diversos riscos. − És rellevant el fet que permet identificar si és incompatible amb l'aigua. […] En canvi, el rombe NFPA no identifica el producte pel seu estat d’agregació, cosa que sí que fa, per exemple, el panell taronja de transport ADR.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 5.3 Descontaminació biològica",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quina solució és habitual per descontaminar superfícies i equips en cas de contaminants biològics?",
+      "options": [
+        "Hipoclorit sòdic diluït al 0,5 %.",
+        "Aigua sola a baix cabal sense recollida.",
+        "Sepiolita seca.",
+        "Escuma d'alta expansió."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Aquesta solució és eficaç per eliminar la majoria de bacteris i microorganismes patògens.",
+      "excerpt": "En el cas de contaminants biològics, és habitual l’ús de solucions d’hipoclorit sòdic diluïdes al 0,5%, eficaces per eliminar la majoria de bacteris i microorganismes patògens presents a les superfícies o als equips.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 5.5.1 Vestits antiesquitxos",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, per què no es poden fer servir els vestits antiesquitxos en atmosferes amb gasos tòxics concentrats?",
+      "options": [
+        "Perquè són de tipus 1 ET i s'han de reservar.",
+        "Perquè tenen massa protecció tèrmica.",
+        "Perquè només protegeixen de la radiació.",
+        "Perquè no són estancs al gas ni pressuritzats."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Són equips de tipus 3 o 4 que eviten la penetració de líquids; tampoc no tenen protecció tèrmica.",
+      "excerpt": "Són equips de protecció química de tipus 3 o 4 segons la norma EN 465. No són estancs al gas ni pressuritzats, per això no es poden fer servir en atmosferes amb gasos tòxics concentrats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 5.5.2 Vestits NRBQ estancs a gasos",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quin tipus de vestit estanc a gasos s'utilitza específicament per als equips d'emergència?",
+      "options": [
+        "El Tipus 1a, segons la norma EN 943-1.",
+        "El Tipus 1c, amb línia d'aire extern.",
+        "El Tipus 1 ET, segons la norma EN 943-2.",
+        "El Tipus 3 o 4, segons la norma EN 465."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els tipus 1a, 1b i 1c (EN 943-1) són per a treballadors de la indústria química, no per als equips de bombers; els tipus 3 i 4 són antiesquitxos.",
+      "excerpt": "Per als equips d’emergència s’utilitzen específicament els vestits de Tipus 1 (ET), segons la norma europea EN 943-2.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 1.4.2 Risc radiològic",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quina font va provocar l'accident radiològic de Goiânia (Brasil, 1987)?",
+      "options": [
+        "Un reactor nuclear de generació elèctrica.",
+        "Una font de cesi-137 d'un hospital abandonat.",
+        "Una font de cobalt-60 d'una màquina de gammagrafia en un taller.",
+        "Un transport de classe 7 de l'ADR accidentat."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El cobalt-60 i el cesi-137 apareixen com a exemples de detecció d'isòtops; el cas del taller és un altre exemple del manual.",
+      "excerpt": "Exemple: A Goiânia (Brasil, 1987), una font de cesi-137 d’un hospital abandonat va provocar l’exposició accidental amb afectació de centenars de persones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 4.2.5 Supressió de vapors",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quin efecte té el canvi d'estat de líquid a gas en una fuita de gas liquat?",
+      "options": [
+        "Provoca un refredament natural de la cisterna o del punt de fuita, que pot reduir parcialment la pressió interna i el cabal.",
+        "Escalfa la cisterna i augmenta la pressió interna.",
+        "No té cap efecte sobre la pressió ni sobre el cabal.",
+        "Converteix el gas en un sòlid pirofòric."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Per això també es cobreix el recipient malmès (lones) per evitar que absorbeixi calor de l'ambient.",
+      "excerpt": "Cal recordar que, en els gasos liquats, el canvi d’estat de líquid a gas provoca un refredament natural de la cisterna o del punt de fuita, la qual cosa pot reduir parcialment la pressió interna i el cabal de la fuita.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 1.4.4 Risc químic",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, quantes indústries Seveso hi ha a Catalunya?",
+      "options": [
+        "234.",
+        "9.",
+        "50.",
+        "164."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "234 són les instal·lacions radioactives; a més, per Catalunya es mouen anualment uns 9 milions de tones de mercaderia perillosa.",
+      "excerpt": "A Catalunya es mouen anualment uns 9 milions de tones de mercaderia perillosa i hi ha 164 indústries Seveso",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.RRTT.000, § 5.3 Descontaminació amb aigua",
+      "stem": "Segons el manual d'intervenció bàsica en riscos NRBQ, què cal fer en la descontaminació amb aigua de baix cabal?",
+      "options": [
+        "Deixar escórrer l'aigua cap al clavegueram.",
+        "Fer-la només a la zona freda.",
+        "Recollir l'aigua contaminada.",
+        "Aplicar-la exclusivament a substàncies molt volàtils."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'ABD preveu descontaminació amb aigua sense recollida (alt cabal) i amb recollida (baix cabal); la de l'aire és per a substàncies molt volàtils.",
+      "excerpt": "Es pot diferenciar entre descontaminació amb baix o alt cabal. En baix cabal cal recollir l’aigua contaminada.",
+      "excerpt_status": "completo"
     }
   ]
 }

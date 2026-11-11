@@ -318,6 +318,306 @@
       "explanation": "Els alcans C₁–C₄ són gasos (metà, età, propà, butà), els C₅–C₁₇ són líquids i els de C₁₈ o més, sòlids.",
       "excerpt": "Gasos (C₁–C₄), líquids (C₅–C₁₇) i sòlids (≥C₁₈) a temperatura ambient.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 2.2 polaritat de les molècules",
+      "stem": "Segons el manual de Química, quina d'aquestes substàncies és un exemple de substància no polar?",
+      "options": [
+        "L'aigua.",
+        "La sal.",
+        "Els hidrocarburs.",
+        "L'alcohol."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El manual posa l'aigua com a exemple de substància polar i els hidrocarburs com a exemple de no polars; la sal i l'alcohol són polars i per això es dissolen en aigua.",
+      "excerpt": "L'aigua és un exemple de substància polar i els hidrocarburs són exemples de substàncies no polars.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 3.1.3 enllaç metàl·lic",
+      "stem": "Segons el manual de Química, quin tipus d'enllaç, amb un núvol d'electrons que es mouen lliurement, confereix als materials conductivitat elèctrica i tèrmica, ductilitat i mal·leabilitat?",
+      "options": [
+        "L'enllaç iònic.",
+        "L'enllaç metàl·lic.",
+        "L'enllaç covalent.",
+        "El pont d'hidrogen."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "En l'enllaç metàl·lic els àtoms comparteixen els electrons més externs, que formen un núvol electrònic; aquesta estructura dona als metalls conductivitat, ductilitat i mal·leabilitat.",
+      "excerpt": "L’enllaç metàl·lic és la unió característica dels metalls, en què els àtoms comparteixen els seus electrons més externs. Aquests electrons es mouen lliurement formant un núvol electrònic que envolta els nuclis metàl·lics. Aquesta estructura confereix als metalls les seves propietats típiques: conductivitat elèctrica i tèrmica, ductilitat, mal·leabilitat i, sovint, duresa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 9.1 densitat relativa respecte de l'aire",
+      "stem": "En un servei per una fuita de gas butà en un soterrani tancat, on tendirà a acumular-se el gas, segons el manual de Química?",
+      "options": [
+        "A la part alta, prop del sostre, perquè és més lleuger que l'aire.",
+        "Es repartirà de manera uniforme a l'instant, perquè tots els gasos es barregen de seguida.",
+        "Sortirà sol cap a l'exterior per les obertures superiors.",
+        "A les zones baixes, prop del terra, perquè és més pesant que l'aire."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El butà té una densitat relativa respecte de l'aire superior a 1, de manera que es desplaça cap al terra; els gasos més lleugers que l'aire, com l'hidrogen o el gas natural, pugen.",
+      "excerpt": "els gasos amb densitat relativa superior a 1 són més pesats que l'aire i es mouen cap al terra. Aquest és el comportament del butà, diòxid de carboni, etc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 4.1.6 reacció de combustió",
+      "stem": "Segons el manual de Química, en una reacció de combustió un hidrocarbur reacciona amb l'oxigen i allibera calor i:",
+      "options": [
+        "CO₂ i H₂O.",
+        "Hidrogen i nitrogen.",
+        "Una sal i aigua.",
+        "Només monòxid de carboni."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La combustió d'un hidrocarbur (CxHy + O₂) dona CO₂, H₂O i energia. Una sal i aigua són els productes d'una neutralització àcid-base.",
+      "excerpt": "Una substància, sovint un hidrocarbur, reacciona amb l’oxigen alliberant calor, CO 2 i H2O.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 9.4 viscositat",
+      "stem": "Segons el manual de Química, com varia la viscositat d'un líquid quan n'augmenta la temperatura?",
+      "options": [
+        "Augmenta.",
+        "No varia, perquè és una constant del líquid.",
+        "Disminueix.",
+        "Augmenta fins a 100 °C i després disminueix."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La viscositat és la resistència d'un líquid a desplaçar-se i disminueix amb la temperatura: l'oli fred és molt viscós i, escalfat, es torna més «líquid».",
+      "excerpt": "S'anomena viscositat a la resistència que ofereix un líquid per desplaçar-se. La viscositat disminueix a mesura que augmenta la temperatura.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 9.3 conductivitat elèctrica",
+      "stem": "Segons el manual de Química, què converteix l'aigua en un bon conductor elèctric?",
+      "options": [
+        "La temperatura elevada, encara que sigui aigua destil·lada.",
+        "L'absència total d'ions lliures.",
+        "El fet que sigui una substància no polar.",
+        "La presència de sals dissoltes, perquè aporten ions."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'aigua destil·lada és un bon aïllant perquè no té ions lliures; les sals dissoltes (aigua potable, de mar o suor) la fan conductora.",
+      "excerpt": "l’aigua destil·lada és un bon aïllant elèctric, ja que no té ions lliures. El que converteix l’aigua en un conductor és la presència de sals dissoltes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 5.2 mols i massa molar",
+      "stem": "Si la massa molar de l'aigua és aproximadament de 18 g/mol, quants mols hi ha en 36 g d'aigua, segons la relació entre massa i mols del manual de Química?",
+      "options": [
+        "2 mol.",
+        "0,5 mol.",
+        "18 mol.",
+        "648 mol."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "n = m / M = 36 g / 18 g/mol = 2 mol. Multiplicar (36 · 18 = 648) o dividir al revés (18/36 = 0,5) és un error.",
+      "excerpt": "La massa molar (M) indica els grams que té 1 mol d’una substància i es calcula sumant les masses atòmiques dels elements segons la seva fórmula. […] on M és la massa molar, n és el nombre de mols i m la massa en grams.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 5.3 volum molar",
+      "stem": "Segons el volum molar que indica el manual de Química, quin volum aproximat ocupen 3 mol d'un gas en condicions normals (0 °C i 1 atm)?",
+      "options": [
+        "22,4 L.",
+        "67,2 L.",
+        "7,5 L.",
+        "25,4 L."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Cada mol ocupa 22,4 L en condicions normals: 3 · 22,4 = 67,2 L.",
+      "excerpt": "En condicions normals de temperatura i pressió (0 °C i 1 atm), 1 mol de gas ocupa un volum aproximat de 22,4 L, anomenat volum molar (Vₘ).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 6.3.3 llei de Boyle-Mariotte",
+      "stem": "Una ampolla de 6 L conté gas a 300 bar. Aplicant la llei de Boyle-Mariotte del manual de Química, quin volum ocuparà el gas a 1 bar si la temperatura no varia?",
+      "options": [
+        "50 L.",
+        "306 L.",
+        "18.000 L.",
+        "1.800 L."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "P₁·V₁ = P₂·V₂ → 300 · 6 = 1 · V₂ → V₂ = 1.800 L (1,8 m³).",
+      "excerpt": "Aquesta llei, a més, permet comprovar que el producte de la pressió del gas pel volum que ocupa es manté constant: P·V = constant (T = ct)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 7.3.2 calor latent (calor sensible)",
+      "stem": "Quanta calor cal, segons el càlcul del manual de Química (Q = m·Ce·ΔT, amb Ce de l'aigua líquida = 1 cal/g°C), per escalfar 2 kg d'aigua de 20 °C a 70 °C?",
+      "options": [
+        "140 kcal.",
+        "50 kcal.",
+        "100 kcal.",
+        "1.078 kcal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Q = 2.000 g · 1 cal/g°C · (70 − 20) °C = 100.000 cal = 100 kcal. 140 kcal s'obtindria amb 70 °C en lloc de la diferència; 1.078 kcal és la calor de vaporitzar 2 kg.",
+      "excerpt": "Q 1 = m·Ce·(T ebullició-T inicial ) […] En cal/g°C la calor específica de l'aigua líquida és de 1 cal/g°C",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 6.2.2 punt crític",
+      "stem": "Segons el manual de Química, què és el punt crític d'una substància?",
+      "options": [
+        "La temperatura per sobre de la qual la substància és gasosa i no es pot liquar encara que se n'augmenti molt la pressió.",
+        "La temperatura a la qual la pressió de vapor s'iguala a la pressió atmosfèrica.",
+        "La pressió mínima a la qual es pot liquar qualsevol gas a temperatura ambient.",
+        "La temperatura a la qual un sòlid passa directament a gas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Per sobre de la temperatura crítica no es pot liquar el gas per molta pressió que s'hi apliqui; la igualtat entre pressió de vapor i pressió externa defineix l'ebullició.",
+      "excerpt": "El punt crític d'una substància és la temperatura per sobre de la qual trobarem aquesta substància en un estat gasós i no el podrem liquar encara que se n'augmenti molt la pressió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 6.2.2 punt crític (classificació dels gasos)",
+      "stem": "El diòxid de carboni té una temperatura crítica d'uns 30 °C. Segons la classificació física dels gasos del manual de Química, com es classifica?",
+      "options": [
+        "Com a gas comprimit, perquè la seva Tc és inferior a −10 °C.",
+        "Com a gas liquat, perquè la seva Tc és entre −10 i 70 °C.",
+        "Com a gas comprimit, perquè la seva Tc és superior a 70 °C.",
+        "Com a gas que no es pot liquar a cap temperatura."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El manual classifica com a liquats els gasos amb Tc entre −10 i 70 °C i com a comprimits els de Tc inferior a −10 °C; el CO₂ (30,1 °C) és un gas liquat.",
+      "excerpt": "gasos comprimits (Tc inferior a -10 ºC) […] gasos liquats (Tc entre -10 i 70 ºC) […] Diòxid de carboni 30.1 72.9",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 4.1.4 reacció de substitució doble",
+      "stem": "Segons el manual de Química, quin tipus de reacció explica que l'aigua dura reaccioni amb components del concentrat d'escuma i formi precipitats que poden obstruir injectors?",
+      "options": [
+        "Una reacció de substitució doble (intercanvi d'ions).",
+        "Una reacció de síntesi.",
+        "Una reacció de combustió.",
+        "Una reacció de substitució simple d'un metall."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La substitució doble (AB + CD → AD + CB) és un intercanvi d'ions entre dos compostos; amb aigua dura pot generar sals insolubles que fan l'escuma menys estable.",
+      "excerpt": "Intercanvi d’ions entre dos compostos formant dos compostos nous. AB+CD→AD+CB Exemple aplicat: Quan es barregen aigua i additius escumògens, els ions presents a l’aigua (sobretot si és dura, amb molta concentració de calci i magnesi) poden reaccionar amb alguns components del concentrat d’escuma.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 4.1.2 reacció de descomposició",
+      "stem": "Segons el manual de Química, la degradació tèrmica de la cel·lulosa en un incendi, que genera gasos inflamables i fum tòxic, és un exemple de reacció de:",
+      "options": [
+        "Síntesi.",
+        "Neutralització.",
+        "Substitució simple.",
+        "Descomposició (piròlisi)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En la descomposició un compost es divideix en substàncies més simples, sovint per acció de la calor (piròlisi), com passa amb els materials orgànics en un incendi.",
+      "excerpt": "Un compost es divideix en dues o més substàncies més simples, sovint per acció de calor (piròlisi).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 9.2 conductivitat tèrmica",
+      "stem": "Segons el manual de Química, quantes vegades més conductora tèrmica és l'aigua que l'aire, fet que explica cremades per vapor tot i dur l'EPI?",
+      "options": [
+        "2 vegades.",
+        "200 vegades.",
+        "20 vegades.",
+        "Igual, perquè tots dos són fluids."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'aigua és 20 vegades més conductora tèrmica que l'aire; l'aire sec és un bon aïllant, però amb humitat passa a ser un bon conductor.",
+      "excerpt": "L'aigua és 20 vegades més conductora tèrmica que l'aire",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 5.4 reactiu limitant",
+      "stem": "En la combustió del propà, C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O, es disposa d'1 mol de propà i 4 mol d'oxigen. Seguint el mètode del manual de Química, quin és el reactiu limitant?",
+      "options": [
+        "El propà, perquè n'hi ha menys mols.",
+        "L'oxigen, perquè 4/5 = 0,8 és més petit que 1/1 = 1.",
+        "Cap dels dos, perquè estan en la proporció exacta.",
+        "El propà, perquè 1/1 = 1 és el valor més gran."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Es divideixen els mols pels coeficients: propà 1/1 = 1; oxigen 4/5 = 0,8. El valor més petit indica el limitant: l'oxigen; el propà queda en excés.",
+      "excerpt": "Dividir aquests mols pels coeficients estequiomètrics corresponents de l’equació ajustada. 3. El valor més petit indica el reactiu limitant. Per exemple, en la combustió del propà: C3H8+5 O2→3 CO2+4 H2O",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 6.3.4 llei de Gay-Lussac",
+      "stem": "Una ampolla de gas a 200 bar i 27 °C (300 K) s'escalfa en un incendi fins a 327 °C (600 K) sense variar el volum. Segons la llei de Gay-Lussac del manual de Química, quina pressió assolirà?",
+      "options": [
+        "400 bar.",
+        "200 bar.",
+        "Uns 2.422 bar.",
+        "100 bar."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "P₁/T₁ = P₂/T₂ amb T en kelvin: 200/300 = P₂/600 → P₂ = 400 bar. Si s'usen graus Celsius (200 · 327/27) s'obté un resultat erroni d'uns 2.422 bar.",
+      "excerpt": "Aquesta llei es simbolitza amb la relació següent, en la qual la temperatura s'ha d'expressar en graus Kelvin: P/T = constant (V = ct)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 7.3.2 calor latent",
+      "stem": "Segons les dades del manual de Química (Ce de l'aigua = 1 cal/g°C i calor latent de vaporització = 539 cal/g), quanta calor cal per convertir en vapor 2 kg d'aigua que són a 20 °C?",
+      "options": [
+        "1.078 kcal.",
+        "1.238 kcal.",
+        "160 kcal.",
+        "619 kcal."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Escalfar fins a 100 °C: 2.000 · 1 · 80 = 160 kcal; vaporitzar: 2.000 · 539 = 1.078 kcal; total 1.238 kcal. 619 kcal és el resultat per a 1 kg.",
+      "excerpt": "Q 1 = m·Ce·(T ebullició-T inicial ) […] Q 2 = m · Lvaporització Q 2 = 1000 g · 539 cal/g = 539000 cal = 539 kcal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 4.2 llei de conservació de la massa",
+      "stem": "En la combustió completa de 32 g de metà amb 128 g d'oxigen es formen 88 g de CO₂. Segons la llei de conservació de la massa, quina massa d'aigua es forma?",
+      "options": [
+        "36 g.",
+        "160 g.",
+        "72 g.",
+        "40 g."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Massa de reactius = 32 + 128 = 160 g; massa d'aigua = 160 − 88 = 72 g. És el doble de l'exemple del manual (16 g + 64 g → 44 g + 36 g).",
+      "excerpt": "en la combustió completa del metà, 16 g de CH₄ reaccionen amb 64 g d’O₂ per produir 44 g de CO₂ i 36 g d’H₂O.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.004, § 7.2 entalpia, calor i treball",
+      "stem": "Segons el conveni de signes del manual de Química, què indica que la calor intercanviada per un sistema sigui negativa (q < 0)?",
+      "options": [
+        "Que el sistema absorbeix calor: és un procés endotèrmic.",
+        "Que el sistema fa treball d'expansió sense intercanviar calor.",
+        "Que la temperatura del sistema és inferior a 0 °C.",
+        "Que el sistema cedeix calor a l'entorn: és un procés exotèrmic."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "q > 0: el sistema absorbeix calor (endotèrmic); q < 0: el sistema cedeix calor a l'entorn (exotèrmic).",
+      "excerpt": "q > 0: el sistema absorbeix calor (procés endotèrmic). q < 0: el sistema cedeix calor a l’entorn (procés exotèrmic).",
+      "excerpt_status": "completo"
     }
   ]
 }

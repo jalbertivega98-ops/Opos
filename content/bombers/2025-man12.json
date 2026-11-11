@@ -33,6 +33,66 @@
       "explanation": "La humitat afavoreix les fuites a terra, que són el que detecta el diferencial; els magnetotèrmics protegeixen de sobrecàrregues i curtcircuits.",
       "excerpt": "Diferencials Els diferencials són la protecció més important per a la seguretat de les persones, ja que detecten fuites de corrent a terra.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 8) · MAN.GRAL.007, § 4.2.1",
+      "stem": "En un servei per olor de gas en un habitatge, el comandament et demana que tallis el subministrament de gas de tota la instal·lació de l'habitatge abans d'entrar-hi. Quin element has d'accionar?",
+      "options": [
+        "La clau de connexió de l'aparell que sospites que fuita.",
+        "La vàlvula que porta incorporada la caldera.",
+        "La clau general de pas, situada abans d'entrar a l'habitatge en un punt de fàcil accés.",
+        "La reixeta de ventilació de la cuina."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La clau general de pas talla tota la instal·lació; la clau de connexió d'aparell només n'aïlla un, i la vàlvula incorporada a l'aparell no s'ha de confondre amb la clau de la instal·lació.",
+      "excerpt": "Abans d’entrar a l’habitatge, i en un punt de fàcil accés, hi ha la clau general de pas, que permet tallar el subministrament a tota la instal·lació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 16) · MAN.GRAL.007, § 4.1",
+      "stem": "En una instal·lació domèstica de gas butà amb bombona, quina és la funció del regulador de pressió?",
+      "options": [
+        "Emmagatzemar el gas en estat líquid.",
+        "Augmentar la pressió del gas fins a la de la xarxa de distribució.",
+        "Evacuar a l'exterior els gasos de la combustió.",
+        "Subministrar el combustible a una pressió baixa i constant."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Els elements principals són la bombona (que guarda el gas liquat a pressió), el regulador i el tub flexible. El regulador porta incorporada una clau de pas.",
+      "excerpt": "els elements principals de la instal·lació de gas butà són la bombona, el regulador de pressió i el tub flexible. […] El regulador de pressió té la funció de subministrar el combustible a una pressió baixa i constant.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 17) · MAN.GRAL.007, § 2.2.7",
+      "stem": "En un habitatge s'ha cremat la campana extractora de la cuina, connectada al circuit de la vitroceràmica. Si has identificat aquest circuit al quadre, què et permet fer l'estructura de circuits independents que exigeix el REBT?",
+      "options": [
+        "Baixar només el magnetotèrmic d'aquest circuit i mantenir la resta de l'habitatge amb subministrament.",
+        "Res: cal baixar sempre l'IGA i deixar sense llum tot l'habitatge.",
+        "Res: només es pot tallar des de la caixa general de protecció de l'edifici.",
+        "Desconnectar la presa de terra del circuit afectat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cada circuit (enllumenat, endolls, cuina i forn…) té el seu interruptor de protecció; així es pot aïllar el circuit afectat sense deixar sense llum, nevera ni aigua calenta la resta de la casa.",
+      "excerpt": "La normativa (REBT) estableix una estructura de circuits independents (enllumenat, endolls, cuina i forn, rentadora...), amb els seus respectius interruptors de protecció. […] si identifiquem el problema i entenem la instal·lació, podem baixar el magnetotèrmic corresponent i no cal treure la llum de tota la casa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 55) · MAN.GRAL.007, § 4.2.1",
+      "stem": "En la instal·lació de gas natural d'un edifici, què ha de tenir cada regulador de pressió?",
+      "options": [
+        "Una clau de pas situada dins de l'habitatge, després del comptador.",
+        "Un tub flexible de seguretat de més d'1,5 m.",
+        "Cap clau de pas, perquè el mateix regulador ja talla el gas.",
+        "Una clau de pas pròpia situada just abans del dispositiu, en el mateix recinte."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El regulador redueix la pressió de distribució (fins a 4 bar) a la de servei dels aparells; la seva clau ha de ser accessible amb grau 1 o 2.",
+      "excerpt": "Cada regulador ha de disposar d’una clau de pas pròpia situada just abans del dispositiu, en el mateix recinte, i ha de ser accessible amb grau 1 o 2 tant per a l’usuari com per a la companyia subministradora.",
+      "excerpt_status": "completo"
     }
   ]
 }

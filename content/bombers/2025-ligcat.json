@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-ligcat-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 17/2015, de 21 de julio, de igualdad efectiva de mujeres y hombres (Cataluña) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-9676",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 31) · Art. 2.i Llei 17/2015",
+      "stem": "Segons la Llei 17/2015, d'igualtat efectiva de dones i homes, quan hi ha representació paritària?",
+      "options": [
+        "Només quan hi ha exactament el 50% de persones de cada sexe.",
+        "Quan les dones representen com a mínim el 25% del conjunt.",
+        "Quan cap sexe supera el 60% del conjunt de persones ni és inferior al 40%.",
+        "Quan cap sexe supera el 70% del conjunt ni és inferior al 30%."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Art. 2.i: la representació paritària ha de tendir al 50%, però n'hi ha prou que cap sexe surti de la franja 40-60%.",
+      "excerpt": "i) Representación paritaria: la situación que garantiza una presencia de mujeres y hombres según la cual ningún sexo supera el 60% del conjunto de personas a que se refiere ni es inferior al 40%",
+      "excerpt_status": "completo"
+    }
+  ]
+}

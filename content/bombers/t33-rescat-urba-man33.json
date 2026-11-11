@@ -318,6 +318,306 @@
       "explanation": "Estableix criteris tècnics que s'apliquen sempre que la situació ho permeti.",
       "excerpt": "El procediment s’ha d’aplicar amb flexibilitat i sentit comú, prioritzant sempre la missió de salvament.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.2.1 cordes estàtiques",
+      "stem": "Segons el manual d'intervenció bàsica en rescat urbà, quines cordes, amb molt poca elasticitat, estan indicades per a maniobres de rescat, descens i ascens controlat?",
+      "options": [
+        "Les cordes dinàmiques.",
+        "Les cordes estàtiques.",
+        "Les cordes elàstiques d'escalada.",
+        "Les cordes auxiliars de lligar material."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Les dinàmiques absorbeixen impactes i s'utilitzen sobretot en escalada o on pugui haver-hi caiguda.",
+      "excerpt": "Cordes estàtiques: amb molt poca elasticitat, indicades per a maniobres de rescat, descens i ascens controlat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.2.2 nus de vuit simple",
+      "stem": "Segons el manual de rescat urbà, per a què serveix el nus de vuit simple?",
+      "options": [
+        "Per assegurar l'ancoratge de la corda a l'arnès.",
+        "Com a nus autoblocant de seguretat en descensos.",
+        "Per a connexions ràpides i ajustables a ancoratges provisionals.",
+        "Com a nus de topall, per evitar que la corda s'escapi d'un dispositiu com un descensor o una politja."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El vuit resseguit o per sinus assegura a l'arnès o a un punt fix; Prusik i Machard són autoblocants; la ballestrinca serveix per a connexions ràpides i ajustables.",
+      "excerpt": "Simple: Serveix com a nus de topall (per evitar que la corda s’escapi d’un dispositiu, com un descensor o una politja)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.2.2 nusos autoblocants",
+      "stem": "Segons el manual de rescat urbà, quins nusos són autoblocants i s'utilitzen com a sistemes de seguretat en descensos o ascensos?",
+      "options": [
+        "Prusik i Machard.",
+        "Vuit simple i vuit resseguit.",
+        "Ballestrinca i pardal.",
+        "Nus pla i nus de cirurgià."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ballestrinca i pardal són el mateix nus, per a connexions ràpides; el vuit simple fa de topall.",
+      "excerpt": "Prusik i Machard: Nusos autoblocants utilitzats com a sistemes de seguretat en descensos o ascensos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.1.2 ascensors hidràulics",
+      "stem": "Segons el manual de rescat urbà, com funciona un ascensor hidràulic?",
+      "options": [
+        "Amb un motor que acciona una politja i cables d'acer que sostenen cabina i contrapès.",
+        "Amb un motor gearless situat dins del forat i un contrapès.",
+        "Amb un pistó impulsat per oli a pressió que desplaça la cabina, sense necessitat de contrapès.",
+        "Amb aire comprimit que empeny la cabina."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "És habitual en edificis de poca alçada o amb limitacions d'espai; el motor i la bomba solen estar en un armari a la planta baixa.",
+      "excerpt": "Els ascensors hidràulics són sistemes d’elevació que utilitzen la força d’un pistó impulsat per oli a pressió per desplaçar la cabina. Aquest tipus d’instal·lació no requereix contrapès, i és habitual en edificis de poca alçada o amb limitacions d’espai.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.1.1 contrapès",
+      "stem": "Segons el manual de rescat urbà, quin element d'un ascensor electromecànic d'adherència equilibra el pes de la cabina i redueix l'esforç del motor?",
+      "options": [
+        "El limitador de velocitat.",
+        "Les guies.",
+        "El contrapès.",
+        "El quadre de maniobres."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El contrapès es mou en sentit oposat a la cabina; el limitador actua sobre el fre de seguretat i les guies marquen el recorregut.",
+      "excerpt": "Contrapès Element que equilibra el pes de la cabina i redueix l’esforç del motor. Es mou en sentit oposat a la cabina i també està suspès per cables.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.3 valoració final",
+      "stem": "Segons el manual de rescat urbà, què cal fer amb l'ascensor un cop finalitzada l'extracció de les persones atrapades?",
+      "options": [
+        "Comprovar-ne l'estat i deixar-lo fora de servei fins que l'empresa de manteniment el revisi.",
+        "Tornar-lo a posar en marxa immediatament perquè els veïns el puguin fer servir.",
+        "Desmuntar-ne el motor.",
+        "Deixar-lo en funcionament però amb les portes obertes."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "També es notifica la intervenció als responsables de l'edifici.",
+      "excerpt": "Un cop finalitzada l’extracció, es comprova l’estat de l’ascensor i es deixa fora de servei, fins que l’empresa de manteniment faci una revisió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.2.3 polispasts",
+      "stem": "Segons el manual de rescat urbà, què són els polispasts?",
+      "options": [
+        "Politges simples que només redirigeixen el moviment de la corda.",
+        "Sistemes de politja compostos que permeten reduir la força necessària per elevar una càrrega o persona.",
+        "Nusos autoblocants per a ascensos.",
+        "Ancoratges de fortuna en estructures urbanes."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Habitualment combinen politges fixes i mòbils.",
+      "excerpt": "Sistemes de politja compostos (polispasts): permeten reduir la força necessària per elevar una càrrega o persona, habitualment formats per combinacions de politges fixes i mòbils.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.4.1 sistema de retenció",
+      "stem": "Segons el manual de rescat urbà, quina és la funció d'un sistema de retenció?",
+      "options": [
+        "Parar una caiguda en alçada limitant la força de xoc.",
+        "Subjectar l'usuari en suspensió.",
+        "Permetre la progressió vertical per corda fixa.",
+        "Delimitar un espai de treball per impedir que l'usuari entri en una zona amb risc de caiguda."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El sistema de retenció no està pensat per parar una caiguda ni per a la suspensió; això correspon a l'anticaigudes i al sistema de suspensió.",
+      "excerpt": "Sistema de retenció: Un sistema de retenció permet delimitar un espai de treball per impedir que l’usuari entri en una zona amb risc de caiguda. Aquest sistema no està pensat per parar una caiguda en alçada o subjectar l’usuari en suspensió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.1 ascensors inclinats",
+      "stem": "Segons el manual de rescat urbà, què són els ascensors inclinats (funiculars)?",
+      "options": [
+        "Ascensors electromecànics d'adherència de gran capacitat en què cabina i contrapès es desplacen en un pla inclinat.",
+        "Ascensors hidràulics amb el pistó inclinat sota la cabina.",
+        "Ascensors sense cambra de màquines instal·lats a l'interior dels edificis.",
+        "Ascensors electromecànics sense contrapès en què només la cabina es desplaça en pla inclinat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Són una variant dels electromecànics d'adherència, instal·lats a l'exterior.",
+      "excerpt": "Ascensors electromecànics d’adherència o Ascensors verticals o Ascensors inclinats (funiculars): són ascensors de gran capacitat instal·lats a l’exterior, amb la singularitat que, tant cabina com contrapès, es desplacen en un pla inclinat, no vertical.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.2.2 rescat en ascensor hidràulic",
+      "stem": "Una persona ha quedat atrapada en un ascensor hidràulic aturat entre dues plantes per un tall elèctric. Segons el manual de rescat urbà, com s'ha de moure la cabina?",
+      "options": [
+        "Girant el volant de la cambra de màquines per pujar-la a la planta superior.",
+        "Activant la vàlvula de descàrrega manual perquè la cabina baixi lentament fins a la planta inferior.",
+        "Desbloquejant el fre motor i elevant-la amb la bomba sense tensió.",
+        "Usant el desbloqueig automàtic de l'armari de control electrònic."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Abans cal comprovar que està fora de servei i tallar la tensió; els hidràulics no permeten elevar la cabina sense la bomba en funcionament.",
+      "excerpt": "Descripció: Consisteix a localitzar el motor hidràulic, comprovar que l’ascensor està fora de servei, tallar la tensió elèctrica des del quadre de comandament, activar la vàlvula de descàrrega manual, per tal que la cabina descendeixi lentament i de manera controlada fins a la planta inferior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.1.3 ascensors sense cambra de màquines",
+      "stem": "Segons el manual de rescat urbà, on se situa habitualment el motor d'un ascensor sense cambra de màquines?",
+      "options": [
+        "En una cambra de màquines a la coberta de l'edifici.",
+        "En un armari tècnic a la planta baixa, juntament amb una bomba hidràulica.",
+        "Dins del mateix forat de l'ascensor, generalment a la part superior del recorregut.",
+        "Sota la cabina, al fossat."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El motor és d'adherència, habitualment gearless; el quadre de maniobra pot estar a la planta superior o en una intermèdia.",
+      "excerpt": "El seu funcionament es basa en un motor d’adherència, habitualment de tipus gearless, situat dins del mateix forat de l’ascensor, generalment a la part superior del recorregut.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.3 claus de desbloqueig",
+      "stem": "Segons el manual de rescat urbà, quan actuen les claus de desbloqueig de les portes manuals d'un ascensor?",
+      "options": [
+        "En qualsevol posició de la cabina.",
+        "Només si la cabina és al fossat.",
+        "Només amb el subministrament elèctric connectat.",
+        "Només si la cabina es troba a la planta corresponent o molt propera."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Per això cal verificar abans la posició exacta de la cabina dins del forat.",
+      "excerpt": "Es fan servir les claus de desbloqueig específiques per obrir les portes manuals. Aquestes claus només actuen si la cabina es troba a la planta corresponent o molt propera.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.3.10 ràpel del bomber",
+      "stem": "Segons el manual de rescat urbà, en quina situació està prevista la maniobra de ràpel del bomber (un bomber fa de punt fix d'un altre)?",
+      "options": [
+        "Quan no hi ha un punt fiable per fer d'ancoratge fix i hi ha risc vital imminent per a una persona.",
+        "Sempre que es faci un descens per corda en façanes.",
+        "Quan hi ha ancoratges de fortuna disponibles a la coberta.",
+        "Per a l'entrenament, mai en serveis reals."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "És una maniobra crítica que cal conèixer i practicar.",
+      "excerpt": "Maniobra de ràpel del bomber […] quan no hi ha un punt fiable per fer d’ancoratge fix i es tracti d’una situació de risc vital imminent per a una persona.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.4.2 AEA",
+      "stem": "Segons el manual de rescat urbà, com s'ha de desplaçar un bomber pels trams d'una autoescala (AEA)?",
+      "options": [
+        "Amb el motor en marxa per poder corregir la posició.",
+        "Portant les eines a les mans per guanyar temps.",
+        "Amb el motor aturat, assegurant-se amb el sistema MGO i mantenint les mans lliures.",
+        "Sense assegurar-se, ja que l'AEA té baranes."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les eines s'han de portar en bosses penjades o recollir-les a la cistella.",
+      "excerpt": "Per moure’s pels trams, cal fer-ho amb el motor aturat i assegurant-se amb el sistema MGO, mantenint sempre les mans lliures.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 1.3 tipologies",
+      "stem": "Segons el manual de rescat urbà, hi ha tres grans tipologies de rescat urbà. Indica la resposta INCORRECTA.",
+      "options": [
+        "Intervencions en alçada.",
+        "Rescats en ascensors.",
+        "Altres tipus de salvament urbà.",
+        "Salvaments en medi natural terrestre."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El salvament en medi natural no és rescat urbà; les tres tipologies sovint es presenten combinades.",
+      "excerpt": "podem identificar tres grans tipologies de rescat urbà, que sovint es presenten de manera combinada: Intervencions en alçada: […] Rescats en ascensors: […] Altres tipus de salvament urbà:",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.3 tall de subministrament elèctric",
+      "stem": "Segons el manual de rescat urbà, per garantir la desconnexió elèctrica del motor d'un ascensor abans del rescat, quantes funcions de seguretat (obrir la porta d'una planta, polsador del fossat, polsador sobre la cabina) cal activar com a mínim?",
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les tres accions possibles són obrir la porta de qualsevol planta, prémer el polsador d'emergència del fossat i prémer el d'aturada sobre la cabina; cal activar-ne almenys dues.",
+      "excerpt": "Podem garantir la desconnexió del subministrament elèctric al motor actuant sobre les sèries de seguretat de tall elèctric de maniobra motor amb aquestes accions: 1. Obrint la porta de qualsevol planta 2. Prement el polsador elèctric d'emergència del fossat 3. Prement el polsador elèctric d’aturada d'emergència sobre la cabina Important: Cal activar, com a mínim, 2 d’aquestes funcions de seguretat prèvies al rescat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.4.1 alçada lliure",
+      "stem": "Segons el manual de rescat urbà, com s'anomena la distància de seguretat que cal preveure en utilitzar un sistema anticaigudes?",
+      "options": [
+        "Alçada de treball.",
+        "Distància de retenció.",
+        "Factor de caiguda.",
+        "Alçada lliure."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'anticaigudes no impedeix la caiguda lliure, sinó que l'atura limitant la força de xoc; per això cal preveure l'alçada lliure.",
+      "excerpt": "El sistema anticaigudes no impedeix la caiguda lliure. La seva funció és parar-la limitant la força de xoc suportada per l’usuari. Per tant, s’ha de preveure una distància de seguretat anomenada “alçada lliure”.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.2.1 homologacions de les cordes",
+      "stem": "Segons el manual de rescat urbà, quines homologacions compleixen les cordes de què disposa Bombers de la Generalitat?",
+      "options": [
+        "Les de corda semiestàtica i corda dinàmica simple.",
+        "Només la de corda estàtica.",
+        "Només la de corda dinàmica doble.",
+        "Les de corda estàtica i corda d'escalada doble."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La categoria dinàmica simple permet absorbir la caiguda d'una persona.",
+      "excerpt": "A Bombers de la Generalitat es disposa de cordes que compleixen les dues homologacions: categoria de corda semiestàtica i categoria de corda dinàmica simple, que permet absorbir la caiguda d’una persona.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 2.2.5 modalitats de SAS",
+      "stem": "Segons el manual de rescat urbà, quina d'aquestes NO és una modalitat de sistema d'ancoratge de seguretat (SAS) prevista?",
+      "options": [
+        "SAS triangulat.",
+        "SAS en estrella.",
+        "SAS en línia.",
+        "SAS utilitzant un vehicle."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les modalitats són SAS simple, en línia, triangulat, de corda, utilitzant un vehicle i amb bomber.",
+      "excerpt": "es poden establir diferents modalitats de SAS: SAS simple, SAS en línia, SAS triangulat, SAS de corda, SAS utilitzant un vehicle i SAS amb bomber.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVXX.000, § 3.2.1 rescat en ascensor electromecànic",
+      "stem": "Segons el manual de rescat urbà, quin és l'ordre correcte de la maniobra de rescat en un ascensor electromecànic d'adherència?",
+      "options": [
+        "Accedir a la cambra de màquines, desbloquejar el fre motor, girar el volant i, finalment, tallar el subministrament elèctric.",
+        "Tallar el subministrament elèctric, girar el volant fins a una planta transitable i desbloquejar el fre motor.",
+        "Accedir a la cambra de màquines, tallar el subministrament elèctric, desbloquejar el fre motor i girar el volant fins a una planta transitable.",
+        "Obrir les portes amb les claus de desbloqueig, desbloquejar el fre motor i tallar el subministrament elèctric."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El tall de tensió va abans de manipular el fre; cal coordinació entre els de la cambra de màquines i els que estan amb les víctimes.",
+      "excerpt": "Descripció: Consisteix a accedir a la cambra de màquines, tallar el subministrament elèctric, desbloquejar el fre motor i iniciar la maniobra girant el volant fins a fer coincidir la cabina amb una planta transitable.",
+      "excerpt_status": "completo"
     }
   ]
 }

@@ -318,6 +318,306 @@
       "explanation": "L'òrgan d'indústria autoritza i registra aquestes empreses.",
       "excerpt": "L'autorització de les empreses instal·ladores i mantenidores és competència de l'òrgan competent en matèria d'indústria a Catalunya que és qui en porta el corresponent registre.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 1 Introducció",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, quina és la finalitat de la prevenció d'incendis?",
+      "options": [
+        "Reduir a límits acceptables els danys un cop l'incendi ja s'ha generalitzat.",
+        "Evitar les causes que puguin originar un incendi.",
+        "Garantir exclusivament l'evacuació dels ocupants.",
+        "Sancionar els incompliments de la normativa contra incendis."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La prevenció actua abans que es produeixi l'incendi; la reducció del risc de danys als usuaris és la finalitat de la seguretat en cas d'incendi.",
+      "excerpt": "La prevenció d’incendis té per finalitat evitar les causes que puguin originar un incendi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 3.1.1 Reacció al foc",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, quin material correspon a la classe A1 de reacció al foc?",
+      "options": [
+        "Un material combustible amb contribució molt limitada al foc.",
+        "Un material combustible amb contribució alta al foc.",
+        "Un material equivalent a no combustible, sense contribució en grau màxim al foc.",
+        "Un material de comportament no determinat o no classificat."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "A1 i A2 són equivalents a no combustibles; B és contribució molt limitada, E contribució alta i F no classificat.",
+      "excerpt": "A1: Equivalent a no combustible. Sense contribució en grau màxim al foc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 7 Classes de foc",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, l'incendi d'una fregidora amb oli vegetal en una cuina és un foc de classe:",
+      "options": [
+        "F.",
+        "B.",
+        "C.",
+        "D."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La classe F correspon als ingredients per cuinar (olis i greixos) en aparells de cuina; la B és de líquids inflamables, la C de gasos i la D de metalls.",
+      "excerpt": "Focs de classe F: focs derivats de la utilització d’ingredients per a cuinar (olis i greixos vegetals o animals) en aparells de cuina.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 7 Mecanismes bàsics d'extinció",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, tapar amb una tapadora una paella que crema és un exemple de quin mecanisme d'extinció?",
+      "options": [
+        "Refredament.",
+        "Dilució i dispersió.",
+        "Inhibició.",
+        "Sufocació."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Es tracta d'impedir el contacte dels gasos amb l'oxigen de l'aire (sufocació); el refredament redueix la temperatura i la inhibició interromp la reacció en cadena.",
+      "excerpt": "Sufocació: eliminar el comburent o impedir que els gasos que desprenen els materials entrin en contacte directe amb l'oxigen de l'aire. Un exemple pot ser una paella cremant, si la tapem amb una tapadora el foc es deté.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.6 Sistemes d'extinció automàtica",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, quina característica té una instal·lació de ruixadors automàtics de canonada mullada?",
+      "options": [
+        "Les canonades després de la vàlvula de control són plenes d'aire a pressió.",
+        "Incorpora una detecció que omple la xarxa abans que es disparin els ruixadors.",
+        "La xarxa està permanentment plena d'aigua a pressió i es fa servir si no hi ha risc de glaçada.",
+        "Descarrega CO2 després d'un retard temporal."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'aire a pressió és propi de la canonada seca; la detecció prèvia, del sistema d'acció prèvia; el CO2, dels agents gasosos.",
+      "excerpt": "De canonada mullada: la xarxa es troba permanentment plena d’aigua a pressió, tant abans com després de la vàlvula de control i alarma. Es fa servir si no hi ha risc de glaçada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 6 Divulgació",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, en quines dues línies s'agrupen el material i els consells de divulgació de Bombers sobre seguretat a la llar?",
+      "options": [
+        "La preventiva i la de l'autoprotecció.",
+        "La sancionadora i la inspectora.",
+        "La normativa i la reglamentària.",
+        "La d'extinció i la de rescat."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La línia preventiva busca evitar els incendis a la llar i la d'autoprotecció indica com actuar en els primers moments.",
+      "excerpt": "Tot el material elaborat i consells van en dues línies: la preventiva, per tal d’evitar els incendis a la llar, i la de l’autoprotecció, amb indicacions de com actuar en els primers moments de patir un incendi a casa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.2 Hidrants per l'omplerta de camions",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, sobre els hidrants per a l'omplerta de camions de bombers, indica la resposta INCORRECTA:",
+      "options": [
+        "S'han de situar de manera que qualsevol punt d'una façana accessible a nivell de rasant es trobi a menys de 100 m d'un hidrant.",
+        "Si depenen íntegrament d'una reserva pròpia, n'hi ha prou amb una capacitat mínima de 24 m³.",
+        "Habitualment són de 100 mm i disposen de dues boques de 70 mm i una de 100 mm.",
+        "La pressió de sortida per cada boca ha de ser superior a 100 kPa (1 bar)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La reserva pròpia mínima és de 240 m³, no de 24 m³; la resta de característiques són les que recull el manual (SP-120).",
+      "excerpt": "S’han de situar de manera que qualsevol punt d’una façana accessible a nivell de rasant es trobi a menys de 100 metres d’un hidrant. […] habitualment són de 100 mm i disposen de dues boques de 70 mm i una de 100 mm. […] La pressió de sortida per cada boca de l'hidrant ha de ser superior a 100 kPa (1 bar). […] Quan el subministrament depengui íntegrament d’una reserva pròpia, aquesta ha de tenir una capacitat mínima de 240 m³.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.3 Hidrants propis",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, quin radi es considera que cobreix cada hidrant propi d'impulsió directa d'un establiment industrial?",
+      "options": [
+        "15 metres, mesurats perpendicularment a la façana.",
+        "100 metres, mesurats pel recorregut dels vehicles.",
+        "5 metres al voltant de la boca de sortida.",
+        "40 metres, mesurats horitzontalment fins a la façana o l'espai a protegir."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El radi de cobertura és de 40 m; els 5-15 m són la distància recomanada entre l'hidrant i el límit exterior de l'edifici.",
+      "excerpt": "Es considera que cada hidrant cobreix un radi de 40 metres, mesurat horitzontalment fins a la façana o l’espai que cal protegir.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.4 Columna seca",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, a partir de quina alçada d'evacuació cal que disposi de columna seca un edifici d'ús residencial habitatge?",
+      "options": [
+        "Si l'alçada d'evacuació és superior a 9 metres.",
+        "Si l'alçada d'evacuació és de 15 metres o superior.",
+        "Si l'alçada d'evacuació és superior a 24 metres.",
+        "Si l'alçada d'evacuació és igual o superior a 50 metres."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Els 24 m valen per a habitatge, administratiu, residencial públic, docent, comercial i pública concurrència; 15 m és per a hospitalari i establiments industrials.",
+      "excerpt": "En edificis d’ús residencial habitatge, administratiu, residencial públic, docent, comercial i de pública concurrència, si l’alçada d’evacuació és superior a 24 metres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.6 Ruixadors de canonada seca",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, en una instal·lació de ruixadors de canonada seca, què fa actuar la vàlvula de control quan s'obre un ruixador?",
+      "options": [
+        "Un augment de la pressió de l'aigua de la xarxa.",
+        "El senyal de dues zones de detecció creuades.",
+        "L'accionament manual d'un polsador.",
+        "La disminució de la pressió de l'aire que omple les canonades."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Després de la vàlvula de control les canonades són plenes d'aire a pressió; quan un ruixador s'obre, la pressió baixa, la vàlvula actua i la xarxa s'omple d'aigua.",
+      "excerpt": "De canonada seca: les canonades situades després de la vàlvula de control es troben buides d’aigua però plenes d’aire a pressió. Quan un ruixador s’obre, la pressió d’aire disminueix i fa actuar la vàlvula de control, produint-se l’ompliment de la xarxa d’aigua i la sortida de l’aigua pels ruixadors.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.6 Agents gasosos",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, per a què serveix el retard temporal abans del dispar d'un sistema d'extinció per agents gasosos?",
+      "options": [
+        "Per deixar que la bomba jockey recuperi la pressió.",
+        "Per advertir el personal present a la zona perquè abandoni el recinte.",
+        "Per omplir d'aigua la xarxa abans que es disparin els ruixadors.",
+        "Per permetre la saponificació dels greixos."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La central necessita senyal de les dues zones de detecció i, normalment després d'un retard, dispara el gas; l'atmosfera pot esdevenir asfixiant.",
+      "excerpt": "La central de detecció precisa rebre senyal d’ambdues zones simultàniament per tal de disparar el gas extintor, normalment després d’un retard temporal que serveix per advertir al personal present a la zona per tal que abandoni el recinte.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.6 Campanes de cuina",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, quin agent acostuma a utilitzar el sistema d'extinció de les campanes de cuina?",
+      "options": [
+        "Una solució aquosa basada en sals de potassi que produeix una escuma i saponifica els greixos.",
+        "CO2 per inundació total del recinte.",
+        "Pols polivalent ABC.",
+        "Aigua nebulitzada sense additius."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La solució aquosa refreda i forma una escuma que ofega el foc saponificant els greixos.",
+      "excerpt": "En el cas de les campanes de cuina el sistema d’extinció previst acostuma a ser amb una solució aquosa basada en sals de potassi que refreda i produeix una escuma que ofega el foc saponificant els greixos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 5.2.1 Cicle de la FOER",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, en quina fase del cicle de la FOER s'introdueixen al SIG les dades obtingudes durant la visita?",
+      "options": [
+        "Preparació de la visita.",
+        "Elaboració i introducció de dades.",
+        "Validació.",
+        "Distribució."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El cicle té sis fases: preparació, visita, elaboració i introducció de dades, validació, distribució i manteniment.",
+      "excerpt": "Elaboració i introducció de dades: Les dades obtingudes durant la visita i la informació gràfica que es pugui elaborar de l’establiment s’introdueixen al SIG per poder ser consultades posteriorment.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 3.3 Propagació exterior",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, en l'àmbit del CTE, quina resistència al foc mínima ha de tenir la mitgera o mur confrontant amb un altre edifici?",
+      "options": [
+        "EI 120.",
+        "EI 60.",
+        "E 30.",
+        "R 90."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El CTE exigeix com a mínim EI 120 a la mitgera; en establiments industrials depèn de la configuració i del nivell de risc intrínsec (RSCIEI).",
+      "excerpt": "En l’àmbit del CTE, la mitgera o mur confrontant amb un altre edifici ha de ser, com a mínim, EI 120.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 7 Classes de foc",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, com es classifica actualment un incendi en un quadre elèctric en tensió?",
+      "options": [
+        "Com a foc de classe E.",
+        "Com a foc de classe L.",
+        "No hi ha una classe específica: serà A, B, C, D o F segons els materials implicats, tenint en compte el risc elèctric.",
+        "Sempre com a foc de classe D."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'electricitat no crema, sinó els materials dels equips; la classe L correspon a bateries d'ió liti sense liti metàl·lic.",
+      "excerpt": "Actualment, però, no es consideren una classe de foc específica, atès que l’electricitat no crema, sinó que cremen els materials que formen part dels equips o instal·lacions. […] La classe del foc serà A, B, C, D o F segons la naturalesa dels materials implicats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.4 Columna seca",
+      "stem": "Un edifici d'habitatges té planta baixa i plantes 1 a 12, amb una columna seca ascendent segons el RIPCI. Quantes boques de sortida de planta tindrà, d'acord amb el manual de prevenció d'incendis bàsica?",
+      "options": [
+        "6.",
+        "12.",
+        "4.",
+        "8."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Boques a les plantes parelles fins a la vuitena (2, 4, 6 i 8) i a totes les plantes a partir d'aquesta (9, 10, 11 i 12): 4 + 4 = 8.",
+      "excerpt": "D’acord amb el RIPCI, les columnes seques ascendents disposen de boques de sortida a les plantes parelles fins a la vuitena i a totes les plantes a partir d’aquesta",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.3 Hidrants propis",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, quin volum mínim d'aigua cal per abastar un hidrant propi d'impulsió directa amb els valors mínims exigits de cabal i d'autonomia?",
+      "options": [
+        "90 m³.",
+        "25 m³.",
+        "9 m³.",
+        "270 m³."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Valors mínims: 1.500 l/min durant 60 min → 1.500 × 60 = 90.000 l = 90 m³ (270 m³ seria el màxim: 3.000 × 90).",
+      "excerpt": "Els valors exigits estan compresos entre 1.500 i 3.000 l/min i entre 60 i 90 minuts.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.4 Prova de la columna seca",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, a quina pressió mínima se sotmet en la prova d'estanqueïtat una columna seca de més de 30 metres?",
+      "options": [
+        "1.470 kPa (15 kg/cm²).",
+        "500 kPa (5 bar).",
+        "100 kPa (1 bar).",
+        "2.450 kPa (25 kg/cm²)."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La prova dura 2 hores; fins a 30 m la pressió mínima és de 1.470 kPa i per sobre de 30 m, de 2.450 kPa.",
+      "excerpt": "en columnes seques per sobre dels 30 metres, la pressió mínima de 2.450 kPa (25 kg/cm2)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 4.2.5 Sistema de bombeig",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, com s'ha d'efectuar l'aturada del sistema de bombeig principal d'un abastament d'aigua contra incendis?",
+      "options": [
+        "Automàticament quan la bomba jockey recupera la pressió.",
+        "Automàticament en tancar el darrer ruixador.",
+        "Sempre de forma manual.",
+        "Per temporitzador, als 60 minuts."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'arrencada és automàtica per caiguda de pressió, però l'aturada del bombeig principal ha de ser sempre manual.",
+      "excerpt": "L’aturada del sistema de bombeig principal ha de ser efectuada sempre de forma manual.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SP.000, § 5.1 Catàleg d'elements de risc",
+      "stem": "Segons el manual de prevenció d'incendis bàsica, a partir de quina longitud s'inclouen els túnels de carretera i ferroviaris al Catàleg d'elements de risc (CER)?",
+      "options": [
+        "50 metres.",
+        "400 metres.",
+        "500 metres.",
+        "1.000 metres."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "50 m és l'alçada d'evacuació dels EGA 50 i 500 m la distància dels càmpings al terreny forestal.",
+      "excerpt": "Túnels de carretera i ferroviaris, a partir de 400 metres de longitud.",
+      "excerpt_status": "completo"
     }
   ]
 }

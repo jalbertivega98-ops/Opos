@@ -318,6 +318,306 @@
       "explanation": "La connexió dels baixants es fa amb una arqueta de peu de baixant no sifònica i cal preveure registres cada 15 m per a la inspecció i el manteniment.",
       "excerpt": "L’escomesa dels baixants i la connexió dels manegots a la xarxa s’ha de realitzar mitjançant una arqueta de peu de baixant no sifònica, i s’han de preveure registres cada 15 metres per facilitar les tasques d’inspecció i manteniment.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.1.4.1 ferrocarrils",
+      "stem": "Segons el manual d'instal·lacions, quina tensió i quin tipus de corrent utilitza la línia d'Alta Velocitat (AVE)?",
+      "options": [
+        "3.000 V en corrent continu.",
+        "1.500 V en corrent continu.",
+        "750 V en corrent continu.",
+        "25.000 V en corrent altern."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "AVE: 25.000 V AC. Els altres valors corresponen a ADIF convencional (3.000 V DC), metro i FGC (1.500 V DC) i tramvia (750 V DC).",
+      "excerpt": "Tramvies (TRAM): 750 V DC […] Metro i FGC: 1500 V DC […] ADIF (Convencional): 3.000 V DC […] Alta Velocitat (AVE): 25.000 V AC",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.3.1 fusibles",
+      "stem": "Segons el manual d'instal·lacions, què passa amb un fusible quan actua per una sobrecàrrega o un curtcircuit?",
+      "options": [
+        "Es rearma automàticament en uns segons.",
+        "Es rearma manualment amb una palanca, com un magnetotèrmic.",
+        "Queda inutilitzat i s'ha de substituir.",
+        "Continua deixant passar el corrent però avisa amb un llum."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El fil conductor del fusible es fon per efecte Joule i obre el circuit; a diferència del magnetotèrmic, no és reutilitzable.",
+      "excerpt": "Funcionen amb un fil conductor que es fon quan el corrent supera el seu valor nominal (efecte Joule), obrint el circuit i protegint cables i equips davant sobrecàrregues i curtcircuits. Quan un fusible actua, queda inutilitzat i s’ha de substituir.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.2.7 instal·lacions interiors (conductor de terra)",
+      "stem": "Segons el manual d'instal·lacions, de quin color és el conductor de terra (PE) d'una instal·lació receptora?",
+      "options": [
+        "Blau.",
+        "Groc i verd.",
+        "Marró.",
+        "Negre."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El conductor de protecció PE és groc i verd i connecta les superfícies metàl·liques dels aparells a la presa de terra de l'edifici.",
+      "excerpt": "També és obligatòria una instal·lació del conductor de terra (cable groc i verd), que ha de connectar les superfícies metàl·liques dels aparells elèctrics a la presa de terra de l’edifici.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 3.2 recollida d'aigües residuals i pluvials",
+      "stem": "Segons el manual d'instal·lacions, d'on procedeixen les aigües negres?",
+      "options": [
+        "Dels vàters.",
+        "De piques, dutxes i rentadores.",
+        "De cobertes i terrasses.",
+        "De la xarxa d'aigua potable."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Aigües negres: vàters. Aigües grises: piques, dutxes, banyeres, cuines, rentadores. Aigües pluvials: cobertes, terrasses, patis o carrers.",
+      "excerpt": "Aigües negres: procedents dels vàters",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 4.1 gasos liquats del petroli",
+      "stem": "Segons el manual d'instal·lacions, quanta càrrega de butà conté la bombona UD-125 que s'utilitza als habitatges?",
+      "options": [
+        "125 kg.",
+        "1,25 kg.",
+        "25 kg.",
+        "12,5 kg."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La UD-125 conté 12,5 kg de butà, emmagatzemat a pressió en estat líquid dins un recipient d'acer.",
+      "excerpt": "La bombona és un recipient d’acer que emmagatzema el gas a pressió però en estat líquid. En els habitatges s’utilitza la UD-125 que conté una càrrega de 12,5 kg de butà.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 3.2.1 instal·lacions d'evacuació d'aigües",
+      "stem": "Segons el manual d'instal·lacions, com s'anomenen els elements del clavegueram que recullen l'aigua que discorre per calçades i voreres?",
+      "options": [
+        "Sobreeixidors.",
+        "Càmeres de neteja.",
+        "Embornals.",
+        "Ràpids."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els embornals recullen l'aigua superficial; els sobreeixidors deriven l'excés d'aigua de pluja, les càmeres de neteja alliberen aigua de cop i els ràpids controlen la velocitat en pendents forts.",
+      "excerpt": "Embornals. Són elements del clavegueram amb la finalitat de recollir les aigües que discorren per les calçades i les voreres i conduir-les fins a les clavegueres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.2.4 infraestructures d'AT (i MT)",
+      "stem": "En un servei prop d'una línia aèria es compten 12 discos a la cadena d'aïlladors. Segons la regla mnemotècnica del manual d'instal·lacions, de quina tensió aproximada és la línia?",
+      "options": [
+        "Uns 132 kV.",
+        "Uns 12 kV.",
+        "Uns 220 kV.",
+        "Uns 1,1 kV."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La regla aproximada és 11 kV per disc: 12 × 11 = 132 kV (amb 20 discos serien 220 kV).",
+      "excerpt": "Una regla mnemotècnica aproximada per aïlladors (de vidre o ceràmica) és 11kV per peça o disc, per exemple, si veus un aïllador de 20 peces és una línia de 220 kV.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.4.1 detector sense contacte",
+      "stem": "Abans d'intervenir en un quadre elèctric, el detector de tensió sense contacte no pita. Segons el manual d'instal·lacions, què cal fer?",
+      "options": [
+        "Considerar que no hi ha tensió i començar a treballar.",
+        "Fer una segona comprovació amb un voltímetre per confirmar que realment no hi ha tensió.",
+        "Tocar el conductor amb el dors de la mà per confirmar-ho.",
+        "Repetir la prova amb el mateix detector i, si tampoc pita, actuar."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Si el detector pita, hi ha tensió; si no pita, no es pot assegurar al 100 % que no n'hi hagi (posició, distància), i cal confirmar-ho amb un voltímetre.",
+      "excerpt": "No obstant això, si no pita, no podem assegurar al 100% que no hi hagi tensió. […] Per tant, l'absència de senyal no eximeix de fer una segona comprovació amb un voltímetre per confirmar que realment no hi ha tensió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.4.2 tornavís buscapols",
+      "stem": "Segons el manual d'instal·lacions, per a quines tensions està dissenyat el tornavís buscapols?",
+      "options": [
+        "Per a qualsevol tensió, fins i tot d'alta tensió.",
+        "Només per a corrent continu de bateries.",
+        "Només per a les tensions usuals de la xarxa, 230 V entre fase i terra.",
+        "Per a mitja tensió, entre 1 kV i 36 kV."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El buscapols té una gran resistència en sèrie que limita el corrent a dècimes de mA, però només serveix per a 230 V entre fase i terra; fora d'aquest rang no és útil ni segur.",
+      "excerpt": "Important: El buscapols només està dissenyat per a les tensions usuals de la xarxa, 230 V entre la fase i el terra. Fora d'aquest rang, no és útil ni segur.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.4.4 voltímetre/tester",
+      "stem": "Amb un multímetre de selecció manual de rang, quina posició recomana el manual d'instal·lacions per mesurar la tensió de les bateries d'un camió?",
+      "options": [
+        "20 V DC.",
+        "200 V DC.",
+        "500 V AC.",
+        "200 V AC."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Cal triar el tipus de corrent (DC per a bateries) i un rang d'escala superior al valor esperat: la posició de 20 V DC es queda curta. La de 500 V AC és per a tensions de xarxa.",
+      "excerpt": "Per exemple, per mesurar la tensió de les bateries d’un camió triarem la posició 200 V DC, ja que la 20 V DC es queda curta. Per mesurar tensions de xarxa triarem 500 V AC.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.1.3 instal·lacions d'autoconsum",
+      "stem": "En un incendi en un habitatge amb plaques fotovoltaiques d'autoconsum sense acumulació (on-grid), s'ha tallat el subministrament de la xarxa. Segons el manual d'instal·lacions, quin risc continua present?",
+      "options": [
+        "Cap, perquè la protecció anti-illa deixa sense tensió tota la instal·lació, plaques incloses.",
+        "Només la bateria, que manté tensió durant hores.",
+        "L'inversor continua injectant corrent altern a la instal·lació interior.",
+        "La part de corrent continu (plaques i cables fins a l'inversor) continua en tensió mentre hi hagi llum."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En cas de tall de xarxa l'inversor s'atura (protecció anti-illa) i no dona electricitat a la instal·lació, però el tram de DC des de les plaques fins a l'inversor està sempre en tensió amb llum.",
+      "excerpt": "En cas de tall de subministrament a la xarxa, l’inversor també s’atura (protecció anti-illa) i no dona electricitat a la instal·lació. Tot i això, la part de corrent continu (DC) —plaques i cables fins a l’inversor— sempre està en tensió mentre hi hagi llum, encara que sigui poca.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.1.3 grups electrògens",
+      "stem": "Segons el manual d'instal·lacions, quin risc específic presenten els grups electrògens fixos d'un edifici?",
+      "options": [
+        "Poden arrancar automàticament quan falla la tensió de la xarxa i tornar a posar la instal·lació en tensió sense avís.",
+        "No poden incorporar cap protecció elèctrica, a diferència dels portàtils.",
+        "Funcionen sempre en corrent continu a 800 V.",
+        "No es poden desconnectar mai."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els grups fixos formen part d'una instal·lació protegida, però poden arrencar sols en fallar la xarxa; la protecció limitada (sovint sense diferencial) és pròpia dels portàtils.",
+      "excerpt": "Els grups fixos formen part d’una instal·lació completa i protegida, però presenten un altre risc: poden arrancar automàticament quan falla la tensió de la xarxa. Per tant, encara que desconnectem l’alimentació principal, la instal·lació pot tornar a quedar en tensió sense avís.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.5 les 5 regles d'or",
+      "stem": "Segons el manual d'instal·lacions, quina és la quarta de les 5 regles d'or per treballar amb seguretat en una instal·lació elèctrica?",
+      "options": [
+        "Verificar l'absència de tensió.",
+        "Protegir i senyalitzar la zona de treball.",
+        "Posar a terra i en curtcircuit.",
+        "Prevenir qualsevol possible realimentació."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'ordre és: 1) desconnectar, 2) prevenir la realimentació, 3) verificar l'absència de tensió, 4) posar a terra i en curtcircuit, 5) protegir i senyalitzar la zona.",
+      "excerpt": "3) Verificar l’absència de tensió […] 4) Posar a terra i en curtcircuit Cal curtcircuitar i connectar a terra la instal·lació perquè, en cas de realimentació accidental, la descàrrega es produeixi a terra i no arribi al personal, i saltin els dispositius de protecció.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 4.2.1 instal·lació de gas domèstica (canonades)",
+      "stem": "Segons el manual d'instal·lacions, quina longitud màxima poden tenir els tubs flexibles de seguretat que connecten els aparells mòbils de gas?",
+      "options": [
+        "0,5 metres.",
+        "1,5 metres.",
+        "3 metres.",
+        "15 metres."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els tubs flexibles de seguretat incorporen autotall en cas de despreniment i no poden superar 1,5 m.",
+      "excerpt": "Els aparells mòbils es connecten amb tubs flexibles de seguretat, que incorporen sistemes d’autotall en cas de despreniment. La seva longitud màxima no pot superar 1,5 metres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 4.2.1 conductes d'evacuació",
+      "stem": "Segons el manual d'instal·lacions, a partir de quina potència és obligatori que un aparell de gas tingui conducte d'evacuació dels gasos de la combustió?",
+      "options": [
+        "Igual o superior a 47 kW.",
+        "Igual o superior a 1,5 kW.",
+        "Només en aparells de més de 20 kW.",
+        "Igual o superior a 4,7 kW."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els conductes d'evacuació són obligatoris en escalfadors, calderes i qualsevol aparell de gas de 4,7 kW o més.",
+      "excerpt": "Són obligatoris en escalfadors, calderes i en qualsevol aparell de gas amb una potència igual o superior a 4,7 kW.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 4.2 xarxa de subministrament de gas natural",
+      "stem": "Segons el manual d'instal·lacions, a quina part de la xarxa de subministrament de gas natural correspon un gasoducte que treballa a 40 bar?",
+      "options": [
+        "A la xarxa de transport secundari.",
+        "A la xarxa bàsica.",
+        "A la xarxa de distribució.",
+        "A la instal·lació receptora de l'edifici."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Xarxa bàsica: més de 60 bar; transport secundari: entre 16 i 60 bar; distribució: fins a 16 bar en trams principals. 40 bar és transport secundari.",
+      "excerpt": "Transporten gas a pressions superiors a 60 bar. […] Xarxa de transport secundari: transporten gas a pressions entre 16 i 60 bar. […] La xarxa de distribució pot operar a pressions de fins a 16 bar en trams principals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 4.2 i 4.2.1 pressions del gas natural",
+      "stem": "Segons el manual d'instal·lacions, la distribució de gas natural pot arribar a 4 bar i els aparells domèstics treballen habitualment a uns 20 mbar. Quantes vegades ha de reduir la pressió el regulador en aquest cas?",
+      "options": [
+        "200 vegades.",
+        "20 vegades.",
+        "2.000 vegades.",
+        "5 vegades."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "4 bar = 4.000 mbar; 4.000 / 20 = 200. Dit d'una altra manera, 0,020 bar és 200 vegades menys que 4 bar.",
+      "excerpt": "En els aparells domèstics alimentats amb gas natural, la pressió d’utilització habitual és de l’ordre de 20 mbar (0,020 bar) […] La distribució de gas natural pot arribar fins a 4 bar, per la qual cosa cal reduir la pressió fins a la pressió de servei adequada per als aparells de consum.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.6.2 eines i equips de protecció dielèctrics",
+      "stem": "Segons el manual d'instal·lacions, indica la resposta INCORRECTA sobre la capacitat aïllant de l'equipament de bombers:",
+      "options": [
+        "Les botes altes de cuir d'intervenció tenen sola dielèctrica.",
+        "El casc d'intervenció pesant està certificat com a aïllant fins a 440 V.",
+        "Els guants d'intervenció de cuir proporcionen prou aïllament elèctric si estan secs.",
+        "Les escales de fibra són dielèctriques i estan certificades."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El manual diu que els guants d'intervenció de cuir no són aïllants, i encara menys si estan molls; per a tensió calen guants dielèctrics de la classe adequada.",
+      "excerpt": "Els guants d’intervenció de cuir no són aïllants, i molt menys si estan molls. […] Les botes altes de cuir d’intervenció tenen sola dielèctrica. […] El casc d’intervenció pesant està certificat com aïllant fins a 440 V. […] Les escales de fibra també són dielèctriques i estan certificades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 2.3.3 funcionament del diferencial",
+      "stem": "Una rentadora té un defecte d'aïllament i la carcassa no té una bona presa de terra. Segons el manual d'instal·lacions, què passa quan una persona toca la carcassa en una instal·lació amb diferencial de 30 mA?",
+      "options": [
+        "El diferencial ja havia disparat abans, perquè el corrent de defecte era gran.",
+        "La persona es converteix en camí cap a terra, el diferencial actua i el xoc queda limitat a uns 30 mA durant un instant.",
+        "El diferencial no actua mai sense presa de terra i la persona queda electrocutada.",
+        "No hi ha xoc, perquè el corrent de defecte és massa petit."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Sense bona presa de terra el corrent de defecte és molt petit i no fa disparar el diferencial; quan la persona toca la carcassa, la fuita passa pel cos i el diferencial dispara, amb un xoc breu considerat no letal.",
+      "excerpt": "La carcassa queda en tensió però el corrent de defecte és molt petit i no fa disparar el diferencial. Quan una persona toca la carcassa, es converteix en camí cap a terra i llavors el diferencial actua. Hi ha xoc elèctric, però limitat a uns 30 mA durant un instant, considerat no letal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.007, § 3.2.1 col·lectors soterrats",
+      "stem": "Un col·lector soterrat d'aigües residuals fa 50 m de llargada. Segons el manual d'instal·lacions, quin desnivell mínim ha de tenir entre els extrems i on s'ha de col·locar respecte a l'aigua potable?",
+      "options": [
+        "1 m, i sempre per sobre de la xarxa d'aigua potable.",
+        "0,1 m, i sempre per sota de la xarxa d'aigua potable.",
+        "10 m, i a la mateixa cota que la xarxa d'aigua potable.",
+        "1 m, i sempre per sota de la xarxa d'aigua potable."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Pendent mínim del 2 %: 50 m × 0,02 = 1 m. Els col·lectors soterrats van sempre per sota de la xarxa d'aigua potable.",
+      "excerpt": "En el cas de col·lectors soterrats, les canalitzacions s’han de col·locar en rases de dimensions adequades, sempre per sota de la xarxa d’aigua potable i amb un pendent mínim del 2%.",
+      "excerpt_status": "completo"
     }
   ]
 }
