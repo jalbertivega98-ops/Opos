@@ -60,27 +60,33 @@
   "lessons": [
     {
       "n": "1",
-      "title": "Introducció: evolució i canvi de model d'incendis",
+      "title": "Introducció: evolució històrica i canvi de model",
       "blocks": [
         {
-          "text": "El territori ha canviat: l'augment de la superfície forestal, l'acumulació de combustible per l'abandonament del món rural i els efectes del canvi climàtic han fet créixer la intensitat i la velocitat dels incendis, amb episodis de propagació extrema i períodes de risc crític cada cop més llargs.",
+          "text": "Els incendis forestals han canviat: l'augment de la superfície forestal, l'acumulació de combustible per l'abandonament del món rural i el canvi climàtic han fet créixer la intensitat i la velocitat del foc. Catalunya ha viscut dues evolucions paral·leles: una gran millora de la capacitat d'extinció i una acumulació creixent de vegetació. Fites: 1982, institucionalització del Cos de Bombers; 1986, més de 65.000 ha cremades i naixement de les ADF; 1994, més de 76.000 ha i programa Foc Verd; 1999, creació del GRAF; 2006, regulació del foc tècnic i de les cremes prescrites.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, context",
+              "ref": "MAN.INVE.000, 1.1 Evolució",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "L’augment de la superfície forestal, l’acumulació de combustible degut a l’abandonament del món rural i els efectes del canvi climàtic han provocat una escalada en la intensitat i la velocitat dels incendis, amb episodis de propagació extrema i períodes de risc crític cada cop més amplis."
+              "quote": "b) Una acumulació creixent de vegetació (combustible), causada principalment per l’abandonament progressiu del món rural."
+            },
+            {
+              "ref": "MAN.INVE.000, 1.1 Fites",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "1986: Es cremen més de 65.000 ha – naixement de les ADF"
             }
           ]
         },
         {
-          "text": "Es parla de gran incendi forestal (GIF) quan l'incendi manté de manera sostinguda una velocitat, una intensitat lineal i una longitud de flama que superen la capacitat dels sistemes d'extinció, quan pot afectar de manera important la població o quan afecta més de 500 ha. La descripció detallada de les generacions d'incendis forestals no és a les fonts revisades; cal consultar el manual MAN.INVE.000.",
+          "text": "La resposta ha estat reactiva: després de cada gran incendi s'han creat més recursos, però no s'ha actuat amb la mateixa intensitat sobre el problema estructural, l'augment de la càrrega de combustible, causat per l'abandonament agrícola i ramader, el declivi de la gestió forestal i la urbanització dispersa sense franges.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, GIF",
+              "ref": "MAN.INVE.000, 1.2 Estratègia reactiva",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Gran incendi forestal (GIF): incendi que manté de forma sostinguda una velocitat, intensitat lineal i longitud de flama que supera la capacitat dels sistemes d'extinció, que pot afectar de forma important la població o que afecta més de 500 ha."
+              "quote": "Però no s’ha actuat amb la mateixa intensitat sobre el problema estructural de fons: l’augment descontrolat de la càrrega de combustible als boscos."
             }
           ]
         }
@@ -88,33 +94,56 @@
     },
     {
       "n": "2",
-      "title": "La paradoxa de l'extinció",
+      "title": "Paradoxa de l'extinció, generacions d'incendis i GRAF",
       "blocks": [
         {
-          "text": "El sistema de resposta és molt eficaç: el 99 % dels incendis afecten menys de 10 hectàrees. Però aquesta eficàcia té un efecte advers, perquè el combustible no cremat s'acumula i augmenta el risc i la intensitat dels grans incendis, que són els responsables de més del 90 % de la superfície cremada total.",
+          "text": "El sistema és tan eficaç que el 99 % dels incendis afecten menys de 10 ha, però els grans incendis forestals són responsables de més del 90 % de la superfície cremada. És la paradoxa de l'extinció: com més eficaços som apagant incendis, els pocs que s'escapen són cada vegada més intensos, potents i destructius.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, 99 %",
+              "ref": "MAN.INVE.000, 1.3 Paradoxa",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "La paradoxa de l’extinció L’evolució del sistema de resposta als incendis forestals ha comportat una gran eficàcia en l’extinció, on el 99% dels incendis afecten menys de 10 hectàrees."
+              "quote": "l’extinció, on el 99% dels incendis afecten menys de 10 hectàrees."
             },
             {
-              "ref": "MAN.INVE.000, 90 %",
+              "ref": "MAN.INVE.000, 1.3 Paradoxa",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "No obstant això, aquesta eficàcia també provoca una acumulació de combustible que incrementa el risc i la intensitat dels grans incendis forestals, responsables de més del 90% de la superfície cremada total."
+              "quote": "com més eficaços som apagant incendis, els pocs que se'ns escapen són cada vegada més intensos, més potents i més destructius."
             }
           ]
         },
         {
-          "text": "Això és la paradoxa de l'extinció: com més eficaços som apagant incendis, els pocs que s'escapen són cada vegada més intensos, més potents i més destructius.",
+          "text": "Generacions: 1a (1950-1970), continuïtat del combustible, resposta amb tallafocs; 2a (1970-1980), gran velocitat, més recursos; 3a (1980-2000), intensitat i focus secundaris llunyans, anàlisi i foc tècnic; 4a (2000-2010), interfase urbana-forestal; 5a (2010), simultaneïtat de grans incendis; 6a (a partir de 2016), incendis extremadament intensos que poden superar qualsevol resposta, amb la prevenció i la resiliència com a clau.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, paradoxa",
+              "ref": "MAN.INVE.000, 1.4 Generacions",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Això és el que es coneix com la paradoxa de l’extinció; com més eficaços som apagant incendis, els pocs que se'ns escapen són cada vegada més intensos, més potents i més destructius."
+              "quote": "Sorgeix la problemàtica de la interfase urbana-forestal."
+            },
+            {
+              "ref": "MAN.INVE.000, 1.4 Generacions",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Sisena generació (a partir de 2016):"
+            }
+          ]
+        },
+        {
+          "text": "El GRAF (Grup de Recolzament d'Actuacions Forestals) es va crear l'1 de març de 1999, després del gran incendi de la Catalunya Central del 1998. Fa anàlisi tàctica i estratègica, cremes d'eixamplament i contrafocs, va introduir eines com la pulaski, participa en recerca i formació (ISPC) i té una Unitat Tècnica central a Bellaterra i unitats territorials. Ha portat el model català d'un enfocament reactiu a un de proactiu i estratègic.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 1.5 GRAF",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "creada l’1 de març del 1999 per la Direcció General de Prevenció, Extinció d’Incendis i Salvaments"
+            },
+            {
+              "ref": "MAN.INVE.000, 1.5 GRAF",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Actualment, el GRAF està estructurat a partir d’una Unitat Tècnica central a Bellaterra"
             }
           ]
         }
@@ -122,33 +151,62 @@
     },
     {
       "n": "3",
-      "title": "El GRAF i el model català; marc legal",
+      "title": "Parts de l'incendi i denominació de sectors",
       "blocks": [
         {
-          "text": "L'aportació del GRAF ha estat clau en l'evolució del model català de gestió d'incendis forestals, que ha passat d'un enfocament reactiu a un model proactiu i estratègic, en què la lectura del foc, l'anàlisi del territori i la gestió preventiva són tan importants com l'extinció.",
+          "text": "El cap és la part que avança més ràpidament i amb més intensitat, empès pel vent, el pendent i el combustible; és la més perillosa i actuar-hi directament és molt arriscat i sovint no recomanable. Els flancs són les parts laterals (dret i esquerre mirant des del darrere cap al cap), amb velocitat moderada; sovint s'hi fan atacs directes o maniobres combinades. La cua és la part posterior, generalment la menys activa, i l'únic lloc on, en incendis de baixa intensitat, es pot fer un atac directe segur.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, GRAF",
+              "ref": "MAN.INVE.000, 2.1.1 Cap",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "L’aportació del GRAF ha estat clau per a l’evolució del model català de gestió d’incendis forestals, passant d’un enfocament reactiu a un model proactiu i estratègic, on la lectura del foc, l’anàlisi del territori i la gestió preventiva són tan importants com l’extinció."
+              "quote": "És la part de l'incendi que avança més ràpidament i amb major intensitat, generalment empesa pel vent, el pendent i la disponibilitat de combustible."
+            },
+            {
+              "ref": "MAN.INVE.000, 2.1.2 Flancs",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Sovint són els llocs escollits per fer maniobres d’atac directe o maniobres combinades."
+            },
+            {
+              "ref": "MAN.INVE.000, 2.1.3 Cua",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "És la part posterior de l’incendi, generalment la menys activa."
             }
           ]
         },
         {
-          "text": "En la prevenció també hi intervenen altres actors: segons la Llei 5/1994, el Cos d'Agents Rurals i les agrupacions de defensa forestal (ADF) fan funcions de prevenció d'incendis dels béns forestals, en col·laboració amb els bombers. A més, els incendis forestals són un dels riscos objecte de pla especial de protecció civil (art. 18.2 Llei 4/1997).",
+          "text": "L'eix de propagació és la línia imaginària que uneix el punt d'inici amb el cap. El perímetre és la línia tancada que engloba totes les zones afectades (cap, flancs, cua i focus incorporats). Els focus secundaris són petits incendis separats del front, causats per projecció de brases, a vegades a centenars de metres; el seu control és prioritari perquè poden esdevenir nous caps.",
           "refs": [
             {
-              "ref": "DA 1a L5",
-              "law": "Llei 5/1994",
-              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-12665",
-              "quote": "el Cuerpo de Agentes Rurales de la Generalidad y las agrupaciones de defensa forestal ejercen las funciones de prevención de incendios de los bienes forestales y, en general, del patrimonio natural de Cataluña, en colaboración con los servicios municipales de bomberos y con el Cuerpo de Bomberos de la Generalidad."
+              "ref": "MAN.INVE.000, 2.1.4 Eix",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "És la línia imaginària que uneix el punt d’inici amb el cap de l’incendi."
             },
             {
-              "ref": "Art. 18.2 LPC",
-              "law": "Llei 4/1997",
-              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-14409",
-              "quote": "Son objeto de planes especiales, en los ámbitos territoriales que lo requieran, las emergencias producidas por riesgos de inundaciones, sísmicos, químicos, de transporte de mercancías peligrosas, incendios forestales y volcánicos"
+              "ref": "MAN.INVE.000, 2.1.5 Perímetre",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "És la línia tancada que engloba totes les zones afectades pel foc, incloent el cap, els flancs, la cua i qualsevol focus secundari que s’hagi incorporat."
+            },
+            {
+              "ref": "MAN.INVE.000, 2.1.6 Focus secundaris",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Són petits incendis separats del front principal, causats per projecció de brases o partícules incandescents."
+            }
+          ]
+        },
+        {
+          "text": "Bombers de la Generalitat numera els sectors així: flanc esquerre amb nombres senars (1, 3, 5…) i flanc dret amb parells (2, 4, 6…). França usa «zonage» i els Estats Units, divisions amb lletres en sentit horari.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 2.2.1 Sectors",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Els sectors del flanc esquerre s’identifiquen amb números imparells (1, 3, 5...). − Els sectors del flanc dret s’identifiquen amb números parells (2, 4, 6...)."
             }
           ]
         }
@@ -156,62 +214,39 @@
     },
     {
       "n": "4",
-      "title": "Parts de l'incendi i denominació de sectors",
+      "title": "Classificació segons l'entorn i l'afectació",
       "blocks": [
         {
-          "text": "El cap és la part que avança més ràpidament i amb més intensitat, empès generalment pel vent, el pendent i la disponibilitat de combustible. Actuar directament sobre el cap és molt arriscat i sovint no és recomanable.",
+          "text": "Agrícola: camps de cereal sec o restes agrícoles; propagació molt ràpida, intensitat baixa o mitjana i molt sensible al vent. Forestal: masses vegetals contínues silvestres, comportament variable i difícil accés. Interfície urbà-forestal (IUF): franja de transició amb habitatges; risc altíssim i doble prioritat, controlar la propagació i protegir persones i estructures, amb possibles evacuacions o confinaments. Vegetació urbana: parcs, rieres o solars dins el nucli urbà, sovint per incivisme o vandalisme.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, cap",
+              "ref": "MAN.INVE.000, 2.3.3 IUF",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Cap És la part de l’incendi que avança més ràpidament i amb major intensitat, generalment empesa pel vent, el pendent i la disponibilitat de combustible."
+              "quote": "Plantegen una doble prioritat operativa: control de la propagació i protecció de les persones i estructures."
             },
             {
-              "ref": "MAN.INVE.000, cap",
+              "ref": "MAN.INVE.000, 2.3.1 Agrícola",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "L’actuació directa sobre el cap és molt arriscada i sovint no recomanable."
+              "quote": "Alta velocitat de propagació, especialment en camps de cereal madur."
             }
           ]
         },
         {
-          "text": "Els flancs són zones on el foc avança a velocitat moderada i sovint són els llocs escollits per fer maniobres d'atac directe o combinades. La cua és la part posterior, generalment la menys activa.",
+          "text": "Per extensió: conat, si no supera una hectàrea; incendi forestal, desenes o centenars d'hectàrees controlables amb recursos locals o regionals; gran incendi forestal (GIF), el que supera de manera sostinguda la capacitat d'extinció per velocitat, intensitat lineal i longitud de flama, pot afectar greument la població o afecta més de 500 ha.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, flancs",
+              "ref": "MAN.INVE.000, 2.5 Afectació",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Els flancs són zones on el foc avança a velocitats moderades. […] Sovint són els llocs escollits per fer maniobres d’atac directe o maniobres combinades."
+              "quote": "Conat d’incendi: Incendi de vegetació que no supera una hectàrea d’extensió."
             },
             {
-              "ref": "MAN.INVE.000, cua",
+              "ref": "MAN.INVE.000, 2.5 GIF",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Cua És la part posterior de l’incendi, generalment la menys activa."
-            }
-          ]
-        },
-        {
-          "text": "L'eix de propagació és la línia imaginària que uneix el punt d'inici amb el cap. Els focus secundaris són petits incendis separats del front principal, causats per la projecció de brases o partícules incandescents. El perímetre és la línia tancada que engloba totes les zones afectades: cap, flancs, cua i qualsevol focus secundari que s'hi hagi incorporat.",
-          "refs": [
-            {
-              "ref": "MAN.INVE.000, eix",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Eix de propagació És la línia imaginària que uneix el punt d’inici amb el cap de l’incendi."
-            },
-            {
-              "ref": "MAN.INVE.000, focus secundaris",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Focus secundaris Són petits incendis separats del front principal, causats per projecció de brases o partícules incandescents."
-            },
-            {
-              "ref": "MAN.INVE.000, perímetre",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Perímetre de l’incendi És la línia tancada que engloba totes les zones afectades pel foc, incloent el cap, els flancs, la cua i qualsevol focus secundari que s’hagi incorporat."
+              "quote": "incendi que manté de forma sostinguda una velocitat, intensitat lineal i longitud de flama que supera la capacitat dels sistemes d'extinció, que pot afectar de forma important la població o que afecta més de 500 ha."
             }
           ]
         }
@@ -219,27 +254,39 @@
     },
     {
       "n": "5",
-      "title": "Classificació segons l'entorn i tipus de focs",
+      "title": "Estructura del combustible i tipus de focs",
       "blocks": [
         {
-          "text": "Segons l'entorn és útil distingir entre incendis agrícoles, forestals, d'interfície urbana-forestal i de vegetació urbana.",
+          "text": "Focs de subsòl: cremen arrels i humus; propagació lenta però persistent, molt de fum, poden quedar latents dies o setmanes. Focs de superfície: herbes, matolls i fullaraca; els més habituals. Segons la intensitat, els de baixa tenen flames de menys d'un metre, els de mitjana arriben a tres metres i els d'alta superen els cinc metres, generen focus llunyans i poden quedar fora de capacitat d'extinció.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, classificació",
+              "ref": "MAN.INVE.000, 2.4.1 Subsòl",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Per això, és útil aplicar una classificació que distingeixi entre incendis agrícoles, forestals, d’interfície urbana-forestal i de vegetació urbana."
+              "quote": "Pot continuar latent durant dies o setmanes si no es remata correctament."
+            },
+            {
+              "ref": "MAN.INVE.000, 2.4.2 Superfície",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Els de baixa intensitat tenen flames menors d’un metre i es limiten a la vegetació baixa, fàcilment aturats per petits obstacles."
             }
           ]
         },
         {
-          "text": "Segons l'estrat que crema, els focs de capçades avancen consumint la part superior dels arbres i es propaguen amb molta més rapidesa que els focs de superfície, dels quals sovint deriven. La descripció de l'estructura del combustible i dels focs de subsòl no és a les fonts revisades; cal consultar el manual MAN.INVE.000.",
+          "text": "Els focs de capçades consumeixen la part superior dels arbres i es propaguen molt més ràpidament que els de superfície, dels quals sovint deriven. Tres categories: antorxeig (el foc arriba esporàdicament a les capçades sense continuïtat), foc de capçades passiu (superfície i capçades cremen alhora) i foc de capçades actiu, el més perillós, que es propaga per les capçades independentment de la superfície.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, focs de capçades",
+              "ref": "MAN.INVE.000, 2.4.3 Capçades",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Focs de capçades Els focs de capçades són incendis que avancen consumint la part superior dels arbres i es propaguen amb molta més rapidesa que els focs de superfície, dels quals sovint en deriven."
+              "quote": "Els focs de capçades són incendis que avancen consumint la part superior dels arbres i es propaguen amb molta més rapidesa que els focs de superfície, dels quals sovint en deriven."
+            },
+            {
+              "ref": "MAN.INVE.000, 2.4.3 Capçades",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Foc de capçades actiu: És el més perillós."
             }
           ]
         }
@@ -247,55 +294,45 @@
     },
     {
       "n": "6",
-      "title": "Patrons de propagació: vent, topogràfic i convectiu",
+      "title": "Valoració: patrons de propagació",
       "blocks": [
         {
-          "text": "El patró de propagació (de vent, topogràfic o convectiu) indica quines forces principals impulsen el foc i, per tant, condiciona directament la presa de decisions.",
+          "text": "El foc segueix patrons determinats per tres factors (topografia, vent i combustible) i un condicional (tempesta propera). Foc topogràfic: dominen el pendent, l'orientació i els vents topogràfics, ascendents de dia i descendents de nit; propagació ascendent ràpida. Foc de vent: el vent general és el motor; incendis molt allargats, flancs estesos, cua lenta i molts focus secundaris, que sovint superen la velocitat de la maniobra.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, patrons",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "El patró de propagació —sigui de vent, topogràfic o convectiu— ens indica quines són les forces principals que impulsen el comportament de les flames i, per tant, condiciona de manera directa la presa de decisions."
-            }
-          ]
-        },
-        {
-          "text": "En el foc de vent, el vent general és el principal motor de propagació. En el foc topogràfic manen els vents topogràfics, que depenen de l'hora del dia: ascendents de dia i descendents de nit.",
-          "refs": [
-            {
-              "ref": "MAN.INVE.000, foc de vent",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Foc de vent És aquell en què el vent general és el principal motor de propagació."
-            },
-            {
-              "ref": "MAN.INVE.000, foc topogràfic",
+              "ref": "MAN.INVE.000, 3.1.1 Topogràfic",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
               "quote": "Són afectats pels vents topogràfics en funció de l’hora del dia (ascendents de dia, descendents de nit)."
+            },
+            {
+              "ref": "MAN.INVE.000, 3.1.2 Vent",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "És aquell en què el vent general és el principal motor de propagació."
             }
           ]
         },
         {
-          "text": "El foc convectiu (de combustible) es produeix quan l'acumulació de combustible és tan gran que la intensitat del foc genera el seu propi microclima, amb corrents d'aire i dinàmiques internes.",
+          "text": "Foc convectiu (de combustible): l'acumulació de combustible és tan gran que el foc genera el seu propi microclima. El pirocúmul crea vents d'aspiració (indraft) que acceleren el front, més com més alt és; en un pirocumulonimbus pot haver-hi «desplom de columna» (downdraft), amb forts vents descendents que amplien el perímetre sobtadament en qualsevol direcció. Amb tempesta propera, mentre es forma el foc és «atret» cap a ella i, quan descarrega, els corrents descendents canvien bruscament la direcció.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, foc convectiu",
+              "ref": "MAN.INVE.000, 3.1.3 Convectiu",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Foc convectiu (de combustible) Aquest tipus d’incendi té lloc quan l’acumulació de combustible és tan gran que la intensitat del foc és capaç de generar el seu propi microclima, amb corrents d’aire i dinàmiques internes."
-            }
-          ]
-        },
-        {
-          "text": "Les tempestes també alteren la propagació: generen corrents ascendents intensos mentre es formen i ventades irregulars associades als corrents descendents quan descarreguen, capaces de canviar en pocs minuts la direcció i la intensitat del foc.",
-          "refs": [
+              "quote": "Aquest tipus d’incendi té lloc quan l’acumulació de combustible és tan gran que la intensitat del foc és capaç de generar el seu propi microclima"
+            },
             {
-              "ref": "MAN.INVE.000, tempestes",
+              "ref": "MAN.INVE.000, 3.1.3 Indraft",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Les tempestes generen corrents ascendents intensos quan s’està desenvolupant la tempesta i ventades irregulars associades als corrents descendents, quan descarrega la tempesta, capaços de modificar en pocs minuts la direcció i la intensitat de la propagació del foc."
+              "quote": "la formació del pirocúmul genera vents d’aspiració cap […] a ell (indraft), que acceleren el front de l’incendi de forma proporcional a l’alçada del pirocúmul"
+            },
+            {
+              "ref": "MAN.INVE.000, 3.1.3 Downdraft",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "que genera forts vents descendents que poden ampliar el perímetre de forma sobtada i intensa en qualsevol direcció."
             }
           ]
         }
@@ -306,30 +343,19 @@
       "title": "Anàlisi de la columna de fum",
       "blocks": [
         {
-          "text": "La columna dona pistes del patró: una columna fortament inclinada indica probablement un foc de vent.",
+          "text": "La columna informa del tipus de foc, la intensitat, la convecció, la humitat del combustible i l'eix. Inclinació: vertical, poc vent; inclinada, marca el vent dominant i l'eix (fortament inclinada, probablement foc de vent); partida, vents canviants o inestabilitat. Concentració: compacta, foc intens; difusa, foc feble. Color: blanca, vegetació verda o humida; grisa, humitat mitjana; negra, materials secs i risc elevat. Diverses columnes indiquen focus secundaris o ignicions múltiples.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, columna inclinada",
+              "ref": "MAN.INVE.000, 3.2.1 Inclinació",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
               "quote": "Exemple: si veiem una columna fortament inclinada és probable que es tracti d’un foc de vent."
-            }
-          ]
-        },
-        {
-          "text": "Quan es forma un pirocúmul, genera vents d'aspiració cap a ell (indraft) que acceleren el front de manera proporcional a l'alçada del pirocúmul: com més alt, més velocitat. En un pirocumulonimbus es pot produir el «desplom de columna» (downdraft): forts vents descendents que poden ampliar el perímetre de manera sobtada i intensa en qualsevol direcció.",
-          "refs": [
-            {
-              "ref": "MAN.INVE.000, pirocúmul",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Així, la formació del pirocúmul genera vents d’aspiració cap a ell (indraft), que acceleren el front de l’incendi de forma proporcional a l’alçada del pirocúmul (quan més alçada més velocitat)."
             },
             {
-              "ref": "MAN.INVE.000, downdraft",
+              "ref": "MAN.INVE.000, 3.2.1 Color",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "En el cas del pirocumulunimbus es pot donar un procés conegut com “desplom de columna” (downdraft), que genera forts vents descendents que poden ampliar el perímetre de forma sobtada i intensa en qualsevol direcció."
+              "quote": "Negra: combustió intensa de materials secs, molt disponibles, senyal de risc elevat."
             }
           ]
         }
@@ -337,39 +363,39 @@
     },
     {
       "n": "8",
-      "title": "Sistema bàsic d'anàlisi CPS: alineació de forces",
+      "title": "Sistema bàsic d'anàlisi CPS",
       "blocks": [
         {
-          "text": "El Campbell Prediction System (CPS), també dit sistema d'alineació de forces, va néixer als Estats Units a finals dels anys 80 com a proposta del bomber i instructor Doug Campbell.",
+          "text": "El CPS (Campbell Prediction System) o sistema d'alineació de forces el va crear Doug Campbell (U.S. Forest Service) a finals dels anys 80. Analitza tres factors, cadascun amb valor 0 o 1: orientació (+1 si és «calenta», solell, sobretot al migdia), pendent (+1 si el foc puja) i vent (+1 si bufa a favor del front). La suma dona l'alineació: 0/3 fora d'alineació, 1/3 poca, 2/3 mitjana i 3/3 plena. Exemple: un foc a la base d'un pendent, orientat al sud a les 12 i amb vent del sud, és 3/3.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, CPS",
+              "ref": "MAN.INVE.000, 3.3 CPS",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Sistema bàsic d’anàlisis d’incendis forestals (CPS) El Campbell Prediction System (CPS), també conegut com a sistema d’alineació de forces, neix als Estats Units a finals dels anys 80 com una proposta del bomber i instructor Doug Campbell"
+              "quote": "El Campbell Prediction System (CPS), també conegut com a sistema d’alineació de forces"
+            },
+            {
+              "ref": "MAN.INVE.000, 3.3.1 Orientació",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Quan l’orientació és “calenta” (solell, especialment al migdia), +1."
+            },
+            {
+              "ref": "MAN.INVE.000, 3.3.2 Exemple",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "si tenim un foc a la base d’un pendent, orientat al sud a les 12 del migdia i amb vent del sud, tenim plena alineació"
             }
           ]
         },
         {
-          "text": "Es puntua cada força que empeny el foc: pendent, vent i orientació. L'orientació suma +1 quan és «calenta» (solell, especialment al migdia). Exemple: un foc a la base d'un pendent, orientat al sud, a les 12 del migdia i amb vent del sud, té plena alineació, 3/3 (puja +1, a favor de vent +1 i sobre combustible calent +1). 0/3 vol dir fora d'alineació, que és el comportament mínim d'aquell incendi.",
+          "text": "Es valora en 5 passos: identificar la tipologia; determinar l'alineació actual; localitzar els punts de canvi (a millor: menys pendent, ombria o protecció del vent; a pitjor: més sol, pendent positiu o vent frontal, amb risc de salt, capell o flameig); interpretar-ne l'efecte, i planificar on actuar (on el foc es debilita) i on replegar-se.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, orientació",
+              "ref": "MAN.INVE.000, 3.3.3 Pas 3",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "→ Quan l’orientació és “calenta” (solell, especialment al migdia), +1."
-            },
-            {
-              "ref": "MAN.INVE.000, exemple 3/3",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Exemple: si tenim un foc a la base d’un pendent, orientat al sud a les 12 del migdia i amb vent del sud, tenim plena alineació perquè el foc pot ascendir (+1) a favor de vent (+1) i sobre un combustible calent (+1), és a dir 3/3."
-            },
-            {
-              "ref": "MAN.INVE.000, 0/3",
-              "law": "MAN.INVE.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "0/3: fora d’alineació – és el comportament mínim d’aquell incendi."
+              "quote": "Canvi a pitjor (pels bombers): el foc entra en una zona amb més exposició solar, pendent positiva o vent frontal → risc de salt, capell o flameig sobtat."
             }
           ]
         }
@@ -377,16 +403,39 @@
     },
     {
       "n": "9",
-      "title": "Maniobres d'extinció",
+      "title": "Maniobres d'atac directe",
       "blocks": [
         {
-          "text": "Les fonts revisades només recullen els criteris de localització de l'atac: el cap és molt arriscat i sovint no recomanable, i els flancs són els llocs habituals per a l'atac directe o les maniobres combinades. La resta de l'epígraf (atac indirecte, eines manuals, línies d'aigua, mitjans aeris, maquinària pesant, foc tècnic, retardants i escumes, helitransport i fases d'extinció) no és a les fonts revisades; cal consultar el manual MAN.INVE.000.",
+          "text": "L'atac directe treballa sobre el front de flames; l'indirecte o paral·lel actua sobre el combustible no cremat. L'estesa de mànegues és molt utilitzada: el Cos ha estat pioner en l'alta pressió en incendis forestals, que millora la penetració i redueix el consum d'aigua. És eficaç sobre flames baixes i focs de superfície.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, flancs",
+              "ref": "MAN.INVE.000, 4 Maniobres",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Sovint són els llocs escollits per fer maniobres d’atac directe o maniobres combinades."
+              "quote": "Atac paral·lel o indirecte, quan s’actua sobre el combustible (la vegetació no cremada) per frenar l’avanç del foc."
+            },
+            {
+              "ref": "MAN.INVE.000, 4.1.1 Línia d'aigua",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "que ha estat pioner en l’impuls del treball en alta pressió per a incendis forestals."
+            }
+          ]
+        },
+        {
+          "text": "Eines manuals (batefocs, rasclet, pala, motxilles, pulaski): l'atac directe amb eines és adequat per a focs de fins a un metre de flama i menys d'1 km/h aproximadament. Altres maniobres: obertura de caixa, condicionament d'espais oberts i línia de defensa fins a sòl mineral. Els mitjans aeris (helicòpters precisos, avions de gran volum) són sempre complementaris i el seu efecte és temporal, de manera que cal consolidar-lo per terra.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 4.1.2 Eines manuals",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "adequada per a focs de baixa intensitat (fins a un metre de longitud de flama i a velocitats de propagació inferiors a 1 km/h aproximadament)."
+            },
+            {
+              "ref": "MAN.INVE.000, 4.1.3 Mitjans aeris",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Té efecte temporal: necessita seguiment i rematada terrestre."
             }
           ]
         }
@@ -394,16 +443,90 @@
     },
     {
       "n": "10",
-      "title": "Seguretat: canvis de comportament i consciència de situació",
+      "title": "Atac indirecte, helitransport i etapes de l'extinció",
       "blocks": [
         {
-          "text": "El CPS també serveix per anticipar canvis. Un canvi «a pitjor» per als bombers es dona quan el foc entra en una zona amb més exposició solar, pendent positiu o vent frontal: hi ha risc de salt, «capell» o flameig sobtat. Les tempestes i el desplom de columna són altres situacions de canvi brusc. El protocol LACES i la maniobra d'autoprotecció en cas d'atrapament no són a les fonts revisades; cal consultar el manual MAN.INVE.000.",
+          "text": "La maquinària pesada obre línies de defensa amples fins a sòl mineral i fa d'ancoratge. El foc tècnic l'han d'executar només persones formades i amb validació del cap d'intervenció: definició de perímetre, crema d'eixamplament (crema el combustible entre un ancoratge i el front) i contrafoc (un nou front que avança contra l'incendi), complex i de risc. Els retardants (fosfats amònics) són persistents i s'usen sobretot des de l'aire; els escumògens tenen efecte curt i aïllen de l'oxigen. L'helitransport porta equips reduïts especialitzats en atac directe, sobretot en incendis de llamp.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, canvi a pitjor",
+              "ref": "MAN.INVE.000, 4.2.2 Foc tècnic",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Canvi a pitjor (pels bombers): el foc entra en una zona amb més exposició solar, pendent positiva o vent frontal → risc de salt, capell o flameig sobtat."
+              "quote": "Ha de ser executat únicament per personal format en foc tècnic i amb validació del cap d’intervenció."
+            },
+            {
+              "ref": "MAN.INVE.000, 4.2.3 Retardants",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Els retardants són productes químics (principalment fosfats amònics)"
+            },
+            {
+              "ref": "MAN.INVE.000, 4.3 Helitransport",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Ús preferent en incendis de llamp o en punts crítics d’accés difícil."
+            }
+          ]
+        },
+        {
+          "text": "Etapes: atac (estabilitzar i aconseguir ancoratges; la més crítica), remat (eliminar focus calents dins el perímetre; un remat deficient és la causa més habitual de represes) i rereguarda (vigilància amb patrulles fins que es dona per extingit). A més, l'incendi passa per quatre fases d'estat del Pla INFOCAT, que el text del manual no enumera.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 4.4.2 Remat",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Una rematada deficient és la causa més habitual de represes."
+            },
+            {
+              "ref": "MAN.INVE.000, 4.5 Fases",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "un incendi es pot trobar en quatre fases que reflecteixen el seu grau de perillositat i la situació operativa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Seguretat: riscos, consciència de situació i LACES",
+      "blocks": [
+        {
+          "text": "La seguretat s'integra en tots els nivells, de la seguretat global a la responsabilitat individual (EPI i LACES). Riscos: canvis bruscos del foc, atrapaments, caiguda d'arbres, estrès tèrmic, mitjans aeris i terreny. La consciència de situació es nodreix de la guàrdia de suport i del RAF (Recomanació d'Actuacions Forestals) diari; per això la A de LACES ha passat d'«Ancoratge» a «Ancoratge i Awareness».",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 5.3 Consciència",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "la lletra A del LACES hagi evolucionat d’“Ancoratge” a “Ancoratge i Awareness” (consciència de situació)"
+            }
+          ]
+        },
+        {
+          "text": "LACES (OACEL en castellà): Lookout, guaita que observa contínuament el foc; Anchor point, punt d'ancoratge que el foc no pugui superar; Awareness, consciència de situació; Communications; Escape routes, rutes conegudes per endavant; Safety zones, zones de refugi sense protecció addicional, amb un radi de 4 vegades l'alçada de flama esperada.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 5.4 LACES",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "El protocol LACES (acrònim de Lookout, Anchor point, Awareness, Communications, Escape routes, Safety zones) o OACEL en castellà"
+            },
+            {
+              "ref": "MAN.INVE.000, 5.4 Zones de seguretat",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Com a normal aquesta zona cal que tingui un radi igual a 4 vegades l’alçada de flama esperada."
+            }
+          ]
+        },
+        {
+          "text": "Maniobra d'autoprotecció per atrapament d'autobomba, en tres fases: prèvia (comprovar finestres, aire i ruixadors de cabina; planificar zones segures); vehicle com a protecció (cabina a l'ombra del foc, orientada de 45º a 60º respecte al front, línia de 25 mm pressuritzada i ruixadors activats), i crítica amb sortida del vehicle (línies a l'ombra del camió o, sense aigua, a terra amb EPI i aïllants).",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 5.5 Autoprotecció",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "amb una orientació de 45º a 60º respecte al front de flames, amb línia de 25 mm pressuritzada"
             }
           ]
         }
@@ -414,43 +537,54 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Paradoxa de l'extinció: com més eficaços, els que s'escapen són més intensos. 99 % < 10 ha; els GIF fan més del 90 % de la superfície cremada. GIF: més de 500 ha o supera la capacitat d'extinció.",
+          "text": "Paradoxa: 99 % dels incendis < 10 ha; els GIF fan més del 90 % de la superfície. GIF: més de 500 ha o supera la capacitat d'extinció.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, paradoxa",
+              "ref": "MAN.INVE.000, 2.5",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "com més eficaços som apagant incendis, els pocs que se'ns escapen són cada vegada més intensos, més potents i més destructius"
+              "quote": "o que afecta més de 500 ha."
             }
           ]
         },
         {
-          "text": "GRAF: d'un model reactiu a un de proactiu i estratègic.",
+          "text": "Cap = més ràpid i intens; flancs = atac directe; cua = menys activa. Sectors: esquerre senars, dret parells.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, GRAF",
+              "ref": "MAN.INVE.000, 2.1.3",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "passant d’un enfocament reactiu a un model proactiu i estratègic"
+              "quote": "generalment la menys activa."
             }
           ]
         },
         {
-          "text": "Cap = més ràpid i intens (atac directe arriscat). Flancs = velocitat moderada, atac directe. Cua = menys activa. Eix = inici-cap. Focus secundaris = brases projectades. Perímetre = línia tancada que ho engloba tot.",
+          "text": "Eix = punt d'inici-cap. Perímetre = línia tancada amb focus incorporats. Focus secundaris = per brases.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, cua",
+              "ref": "MAN.INVE.000, 2.1.4",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "Cua És la part posterior de l’incendi, generalment la menys activa."
+              "quote": "És la línia imaginària que uneix el punt d’inici amb el cap de l’incendi."
             }
           ]
         },
         {
-          "text": "Foc de vent = vent general; topogràfic = vents ascendents de dia i descendents de nit; convectiu = microclima propi. Columna molt inclinada = foc de vent.",
+          "text": "Capçades: més ràpids que superfície; l'actiu és el més perillós.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, foc topogràfic",
+              "ref": "MAN.INVE.000, 2.4.3",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "Foc de capçades actiu: És el més perillós."
+            }
+          ]
+        },
+        {
+          "text": "Topogràfic: vents ascendents de dia i descendents de nit. Vent: columna inclinada. Convectiu: microclima, indraft i downdraft.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 3.1.1",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
               "quote": "(ascendents de dia, descendents de nit)"
@@ -458,24 +592,35 @@
           ]
         },
         {
-          "text": "Pirocúmul = indraft (més alçada, més velocitat). Pirocumulonimbus = downdraft en qualsevol direcció. Capçades: molt més ràpids que els de superfície.",
+          "text": "CPS: orientació calenta, pendent ascendent i vent a favor = 3/3. A pitjor: més sol, pendent o vent frontal.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, pirocúmul",
+              "ref": "MAN.INVE.000, 3.3.1",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "la formació del pirocúmul genera vents d’aspiració cap a ell (indraft)"
+              "quote": "Cada factor pot tenir valor 0 (no afavoreix) o 1 (afavoreix), sumant-se de 0/3 a 3/3."
             }
           ]
         },
         {
-          "text": "CPS = Campbell Prediction System (alineació de forces). Orientació calenta +1. Base de pendent sud, 12 h, vent del sud = 3/3. Canvi a pitjor: més sol, pendent positiu o vent frontal.",
+          "text": "GRAF: 1 de març de 1999. Foc tècnic només amb validació del cap. Remat deficient = represes.",
           "refs": [
             {
-              "ref": "MAN.INVE.000, exemple 3/3",
+              "ref": "MAN.INVE.000, 1.5",
               "law": "MAN.INVE.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
-              "quote": "tenim plena alineació perquè el foc pot ascendir (+1) a favor de vent (+1) i sobre un combustible calent (+1), és a dir 3/3"
+              "quote": "creada l’1 de març del 1999"
+            }
+          ]
+        },
+        {
+          "text": "LACES; zona segura = radi de 4 × alçada de flama. Autobomba atrapada: 45º-60º respecte al front.",
+          "refs": [
+            {
+              "ref": "MAN.INVE.000, 5.4",
+              "law": "MAN.INVE.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-25-MAN.INVE.000.pdf",
+              "quote": "radi igual a 4 vegades l’alçada de flama esperada."
             }
           ]
         }

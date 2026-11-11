@@ -59,27 +59,39 @@
   "lessons": [
     {
       "n": "1",
-      "title": "Coneixements bàsics: definició i característiques generals",
+      "title": "Coneixements bàsics: definició, característiques i evolució",
       "blocks": [
         {
-          "text": "Un incendi estructural és el que es desenvolupa en una edificació i l'afecta parcialment o totalment. És un dels serveis més exigents per als bombers, no només pel seu potencial destructiu sinó per la complexitat de l'entorn on es produeix.",
+          "text": "Un incendi estructural és el que es desenvolupa en una edificació i l'afecta parcialment o totalment. A diferència dels incendis en espais oberts, té quatre trets propis: espais tancats o semioberts que condicionen el comportament del foc i dels fums; càrrega de foc de combustibilitat i inflamabilitat variable; possibles víctimes a l'interior, i riscos estructurals de col·lapse parcial o total. També pot provocar explosions i afectar el gas i l'electricitat.",
           "refs": [
             {
-              "ref": "MAN.INES.000, definició",
+              "ref": "MAN.INES.000, 2.1 Definició",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Definició i característiques generals Un incendi estructural és aquell que es desenvolupa en una edificació i l’afecta parcialment o totalment."
+              "quote": "Un incendi estructural és aquell que es desenvolupa en una edificació i l’afecta parcialment o totalment."
+            },
+            {
+              "ref": "MAN.INES.000, 2.1 Característiques",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Riscos estructurals, com col·lapses parcials o totals de l’edificació, que posen en perill tant als ocupants com als equips d’intervenció."
             }
           ]
         },
         {
-          "text": "Aquests incendis es desenvolupen en espais tancats i compartimentats, sovint amb poca visibilitat, calor extrema i risc d'atrapament o de col·lapse. Aquestes condicions són les que justifiquen la valoració sistemàtica, el treball en binomi i les tècniques de progressió segura que es veuen al tema.",
+          "text": "L'entorn és complex: espais compartimentats, poca visibilitat, calor extrema i risc d'atrapament o col·lapse. Abans els habitatges catalans eren de construcció massissa (pedra, totxo, fusta) i el foc es propagava més lentament; des de la segona meitat del segle XX els materials lleugers i sintètics, els grans espais oberts i les estructures metàl·liques o prefabricades han canviat la naturalesa dels incendis. Grans incendis com la discoteca Flying (Saragossa, 1990), l'edifici Windsor (Madrid, 2005), que va iniciar l'atenció sistemàtica al risc d'esfondrament, o la nau de Badalona (2020) han marcat la formació.",
           "refs": [
             {
-              "ref": "MAN.INES.000, característiques",
+              "ref": "MAN.INES.000, 1.1 Repte",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Els incendis estructurals no només es caracteritzen pel seu potencial destructiu, sinó també per la complexitat de l'entorn en què es desenvolupen: espais tancats, compartimentats, sovint amb poca visibilitat, calor extrema i risc d’atrapament o col·lapse."
+              "quote": "espais tancats, compartimentats, sovint amb poca visibilitat, calor extrema i risc d’atrapament o col·lapse."
+            },
+            {
+              "ref": "MAN.INES.000, 1.3 Grans incendis",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Va marcar l’inici de l’atenció sistemàtica al risc d’esfondrament."
             }
           ]
         }
@@ -90,30 +102,59 @@
       "title": "Tipus d'edificis i particularitats estructurals",
       "blocks": [
         {
-          "text": "Els escenaris d'incendi estructural més freqüents són els habitatges, tant unifamiliars com plurifamiliars. L'antiguitat de l'edifici també compta: els edificis més nous poden estar més compartimentats, però poden incloure materials sintètics altament combustibles.",
+          "text": "Els habitatges unifamiliars o plurifamiliars són els escenaris més freqüents. En els unifamiliars l'accés sol ser a peu de carrer i els riscos són limitats; en els plurifamiliars els accessos verticals són comuns a tots els veïns i cal protegir-los, perquè l'escala pot convertir-se en una xemeneia de fums, i sovint cal fer alhora extinció i recerca.",
           "refs": [
             {
-              "ref": "MAN.INES.000, habitatges",
+              "ref": "MAN.INES.000, 2.2.1 Habitatges",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Habitatges unifamiliars o plurifamiliars Són els escenaris més freqüents."
+              "quote": "Són els escenaris més freqüents."
             },
             {
-              "ref": "MAN.INES.000, edificis nous",
+              "ref": "MAN.INES.000, 2.2.1 Habitatges",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Els més nous, en canvi, poden estar més compartimentats però incloure materials sintètics altament combustibles."
+              "quote": "L’escala pot convertir-se en una xemeneia de fums si no es controla la ventilació."
             }
           ]
         },
         {
-          "text": "Les infraestructures subterrànies (aparcaments, túnels, galeries) tenen particularitats pròpies: en túnels o galeries cal tenir en compte la direcció de propagació dels fums. Les característiques dels comerços, indústries i centres singulars no són a les fonts revisades; cal consultar el manual MAN.INES.000.",
+          "text": "Locals comercials: gran càrrega de foc, públic, accessos ocults i reixes; cal localitzar ràpidament quadres elèctrics. Naus industrials: gran superfície, productes químics, propagació molt ràpida i alt risc de col·lapse, de manera que es pot optar pel treball exterior amb monitors i grans cabals. Centres educatius, sanitaris o residencials: persones vulnerables o amb mobilitat reduïda. Infraestructures subterrànies: cal tenir en compte la direcció dels fums, la ventilació natural és limitada i hi ha alt risc d'atrapament i desorientació. Edificis de gran alçada: llargues distàncies i fums que pugen; el vent pot sobrealimentar l'incendi. Grans vaixells: compartiments, passadissos estrets i moviment del vaixell.",
           "refs": [
             {
-              "ref": "MAN.INES.000, subterranis",
+              "ref": "MAN.INES.000, 2.2.3 Naus industrials",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Infraestructures subterrànies (aparcaments, túnels...) En túnels o galeries, cal tenir en compte la direcció de propagació dels fums."
+              "quote": "Amb risc tan elevat, un plantejament possible és el treball exterior, amb ús de monitors i grans cabals."
+            },
+            {
+              "ref": "MAN.INES.000, 2.2.5 Subterranis",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "En túnels o galeries, cal tenir en compte la direcció de propagació dels fums."
+            },
+            {
+              "ref": "MAN.INES.000, 2.2.6 Gran alçada",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "El vent en alçada pot generar incendis sobrealimentats que incrementen considerablement la potència i dificulten l’extinció."
+            }
+          ]
+        },
+        {
+          "text": "Per coordinar-se, les façanes s'anomenen amb lletres en sentit horari: A, l'accés principal o la que determini el cap d'intervenció; B, a l'esquerra de l'A; C, l'oposada a l'A; D, a la dreta de l'A.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 2.2.8 Façanes",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "S’anomenen amb lletres i s’ordenen en sentit horari. - Façana A: l’accés principal o el que determini el cap d’intervenció. - Façana B: situada a l’esquerra respecte la façana A."
+            },
+            {
+              "ref": "MAN.INES.000, 2.2.8 Façanes",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "- Façana D: situada a la dreta respecte la façana A."
             }
           ]
         }
@@ -121,33 +162,22 @@
     },
     {
       "n": "3",
-      "title": "Valoració inicial: elements d'avaluació i denominació de façanes",
+      "title": "Valoració inicial: elements d'avaluació",
       "blocks": [
         {
-          "text": "Abans de definir el Pla d'acció cal fer una valoració inicial precisa i sistemàtica que inclogui les 6 cares de l'estructura afectada: el 360º al voltant de l'edifici i, a més, la part superior i la inferior.",
+          "text": "Abans de definir el Pla d'acció cal una valoració inicial precisa i sistemàtica de les 6 cares de l'estructura: el 360º i la part superior i inferior. Comença en rebre l'avís i s'amplia contínuament. Elements: tipus d'estructura; any de construcció (els edificis antics poden tenir bigues de fusta i envans lleugers; els nous, més compartimentació però materials sintètics); configuració aïllada o adossada; nombre de plantes i accessibilitat (atenció a les plantes sota rasant); accessos i vies d'evacuació; columna de fum; ubicació de la flama (el motor de l'incendi), i informació sobre ocupants, inclosa la possible ocupació d'ascensors.",
           "refs": [
             {
-              "ref": "MAN.INES.000, valoració 360º",
+              "ref": "MAN.INES.000, 3 Valoració",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Per això, és important una valoració inicial precisa i sistemàtica abans de definir el Pla d’acció, que ha d'incloure les 6 cares de l’estructura afectada, és a dir, el 360º i la part superior i inferior de l’estructura."
-            }
-          ]
-        },
-        {
-          "text": "Per parlar tots el mateix llenguatge, les façanes s'anomenen amb lletres i s'ordenen en sentit horari. La façana A és l'accés principal o la que determini el cap d'intervenció; la façana B és la situada a l'esquerra respecte de la façana A. (Seguint el sentit horari venen després la C i la D; la seva definició detallada no és a les fonts revisades.)",
-          "refs": [
-            {
-              "ref": "MAN.INES.000, façana A",
-              "law": "MAN.INES.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "S’anomenen amb lletres i s’ordenen en sentit horari. - Façana A: l’accés principal o el que determini el cap d’intervenció."
+              "quote": "és important una valoració inicial precisa i sistemàtica abans de definir el Pla d’acció, que ha d'incloure les 6 cares de l’estructura afectada, és a dir, el 360º i la part superior i inferior de l’estructura."
             },
             {
-              "ref": "MAN.INES.000, façana B",
+              "ref": "MAN.INES.000, 3.1 Elements",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "- Façana B: situada a l’esquerra respecte la façana A."
+              "quote": "Els més nous, en canvi, poden estar més compartimentats però incloure materials sintètics altament combustibles."
             }
           ]
         }
@@ -155,24 +185,36 @@
     },
     {
       "n": "4",
-      "title": "Nombre de plantes i accessibilitat",
+      "title": "Nombre de plantes, planta afectada i accessibilitat",
       "blocks": [
         {
-          "text": "Com més plantes té l'edifici, més potencial de propagació vertical presenta, especialment si l'incendi és en una planta inferior: tot el que hi ha per sobre queda exposat al fum i a la calor que pugen.",
+          "text": "Com més plantes, més potencial de propagació vertical (sobretot si el foc és en una planta inferior) i més víctimes potencials. Si el foc és a les plantes baixes, l'accés és més fàcil però el risc per als pisos superiors és molt alt. A les plantes altes costa arribar-hi, les línies perden càrrega i els salvaments per façana es dificulten o són impossibles a partir de la planta 8; en canvi, l'evacuació de les plantes inferiors és més segura. Als soterranis cal buscar una ruta freda.",
           "refs": [
             {
-              "ref": "MAN.INES.000, nombre de plantes",
+              "ref": "MAN.INES.000, 3.2.1 Nombre de plantes",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Importància del nombre de plantes Quantes més plantes tingui l’edifici, més potencial de propagació vertical presenta, especialment si l’incendi es troba en una planta inferior."
+              "quote": "Quantes més plantes tingui l’edifici, més potencial de propagació vertical presenta, especialment si l’incendi es troba en una planta inferior."
+            },
+            {
+              "ref": "MAN.INES.000, 3.2.2 Planta afectada",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "També comporta dificultats o impossibilita fer salvaments per façana a partir de la planta 8 o superior."
             }
           ]
         },
         {
-          "text": "Pel que fa a l'accés, cal prioritzar la «ruta freda», és a dir, l'accés lliure de fums de l'incendi.",
+          "text": "Cal identificar tots els accessos, les barreres arquitectòniques que impedeixin l'emplaçament de l'AEA i les escales estretes. No s'han d'usar els ascensors durant la fase activa; només es pot autoritzar l'ascensor en evacuació si se'n coneixen les condicions tècniques i l'estat. Conclusió operativa: prioritzar l'accés per la «ruta freda», lliure de fums.",
           "refs": [
             {
-              "ref": "MAN.INES.000, ruta freda",
+              "ref": "MAN.INES.000, 3.2.3 Accessibilitat",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Només es pot autoritzar l’ús de l’ascensor en evacuació si es coneixen les condicions tècniques i l’estat de la instal·lació."
+            },
+            {
+              "ref": "MAN.INES.000, 3.2.4 Conclusions",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "Prioritzar l’accés per la “ruta freda” o lliure de fums de l’incendi."
@@ -186,13 +228,36 @@
       "title": "Anàlisi de la columna de fum",
       "blocks": [
         {
-          "text": "El fum dona informació sobre l'incendi. Un fum molt dens i opac és habitualment senyal d'un gran volum de combustibles en combustió i/o de poca ventilació. Els altres indicadors del fum (color, velocitat, volum) no són a les fonts revisades; cal consultar el manual MAN.INES.000.",
+          "text": "Llegir el fum és una habilitat crítica: el volum indica la quantitat de combustible, i el color, la densitat, la velocitat i la turbulència informen de la fase, la ventilació, la localització i el tipus de material. Color: negre, combustió incompleta de plàstics o sintètics i incendi no ventilat; gris fosc, materials orgànics amb ventilació parcial; gris clar o blanc dens i fred, vapor d'aigua o fase d'extinció; blanc calent i turbulent, foc que tot just comença.",
           "refs": [
             {
-              "ref": "MAN.INES.000, fum dens i opac",
+              "ref": "MAN.INES.000, 3.3.1 Color",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Fum molt dens i opac: habitualment és senyal d’un gran volum de combustibles en combustió i/o poca ventilació."
+              "quote": "Fum negre fosc o negre: indica combustió incompleta, típic de materials plàstics, sintètics o petroquímics."
+            },
+            {
+              "ref": "MAN.INES.000, 3.3.1 Color",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Si és dens i fred: pot indicar vapor d’aigua o fase de control/extinció."
+            }
+          ]
+        },
+        {
+          "text": "Densitat: molt dens i opac, gran volum de combustible i/o poca ventilació, amb més risc de backdraft o flashover; lleuger i transparent, foc incipient, allunyat o ja extingit. Velocitat: sortida lenta, baixa pressió; ràpida, turbulenta i en capes, alta pressió i possible transició a fenòmens extrems. El punt de sortida orienta sobre el focus, i el fum per esquerdes o marcs indica pressió interna elevada. Cal observar-lo durant tota la intervenció.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 3.3.2 Densitat",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Fum molt dens i opac: habitualment és senyal d’un gran volum de combustibles en combustió i/o poca ventilació. Major risc de backdraft o flashover."
+            },
+            {
+              "ref": "MAN.INES.000, 3.3.3 Velocitat",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Sovint és presagi de flashover o backdraft."
             }
           ]
         }
@@ -200,38 +265,39 @@
     },
     {
       "n": "6",
-      "title": "Mecanismes de propagació",
+      "title": "Mecanismes de propagació i informació sobre ocupants",
       "blocks": [
         {
-          "text": "Propagació per fums calents (convecció): els gasos calents i els fums combustibles es mouen de manera convectiva cap a zones superiors a través de forats, patis, escales i espais verticals.",
+          "text": "Per flames (radiació i contacte): el foc surt per una finestra i puja per façana, sobretot amb elements combustibles; el pis superior pot cremar en pocs minuts, i les façanes ventilades provoquen incendis envoltants. També passa per buits tècnics i falsos sostres. Per fums calents (convecció): pugen per forats, patis, escales i espais verticals; a les escales obertes l'efecte xemeneia fa pujar ràpidament fums, temperatura i gasos tòxics; l'acumulació en espais tancats pot provocar ignicions sobtades si entra aire. Per degoteig (conducció vertical descendent): plàstics o PVC fosos que cauen i encenen plantes inferiors.",
           "refs": [
             {
-              "ref": "MAN.INES.000, convecció",
+              "ref": "MAN.INES.000, 3.4.2 Convecció",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Propagació per fums calents (convecció) Els gasos calents i fums combustibles generats per l’incendi es mouen de forma convectiva cap a zones superiors, a través de forats, patis, escales i espais verticals."
+              "quote": "Els gasos calents i fums combustibles generats per l’incendi es mouen de forma convectiva cap a zones superiors, a través de forats, patis, escales i espais verticals."
+            },
+            {
+              "ref": "MAN.INES.000, 3.4.2 Escales obertes",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "L’efecte xemeneia fa que els fums pugin ràpidament, augmentant la temperatura, els gasos tòxics i reduint la visibilitat als pisos superiors."
+            },
+            {
+              "ref": "MAN.INES.000, 3.4.3 Degoteig",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Un fenomen menys habitual però molt perillós és la propagació per degoteig de materials inflamats des de pisos superiors i que poden generar focus en les plantes inferiors."
             }
           ]
         },
         {
-          "text": "Per escales obertes actua l'efecte xemeneia: els fums pugen ràpidament i fan augmentar la temperatura i els gasos tòxics i reduir la visibilitat als pisos superiors.",
+          "text": "La presència de persones condiciona tota la intervenció. La informació s'obté preguntant a testimonis (veïns, conserges, seguretat), observant indicis (cotxes, llums, finestres) i analitzant l'ús. L'ús de l'estructura i l'hora del dia són els dos factors clau: un bloc de pisos és ple de nit i buit en horari laboral; una escola, plena en horari lectiu.",
           "refs": [
             {
-              "ref": "MAN.INES.000, escales obertes",
+              "ref": "MAN.INES.000, 3.5 Ocupants",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Per escales obertes: o L’efecte xemeneia fa que els fums pugin ràpidament, augmentant la temperatura, els gasos tòxics i reduint la visibilitat als pisos superiors."
-            }
-          ]
-        },
-        {
-          "text": "Propagació per degoteig (conducció vertical descendent): és menys habitual però molt perillosa. Materials inflamats cauen des de pisos superiors i poden generar nous focus a les plantes inferiors.",
-          "refs": [
-            {
-              "ref": "MAN.INES.000, degoteig",
-              "law": "MAN.INES.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Propagació per degoteig (conducció vertical descendent) Un fenomen menys habitual però molt perillós és la propagació per degoteig de materials inflamats des de pisos superiors i que poden generar focus en les plantes inferiors."
+              "quote": "L’ús de l’estructura i l’hora del dia són dos factors claus per estimar l’ocupació."
             }
           ]
         }
@@ -239,75 +305,65 @@
     },
     {
       "n": "7",
-      "title": "Informació sobre ocupants i evacuació",
+      "title": "Maniobres d'extinció interior i control de gasos calents",
       "blocks": [
         {
-          "text": "Per estimar quanta gent pot haver-hi dins d'una estructura, els dos factors clau són l'ús de l'estructura i l'hora del dia.",
+          "text": "Les maniobres ofensives actuen directament sobre el focus (atac interior, transicional, atac pel sostre amb AEA); les defensives eviten la propagació i protegeixen dianes (pressuritzar escales, protegir sectors adjacents). A l'interior, les línies de 25 mm (uns 250 l/min) són per a maniobres ràpides, d'alta mobilitat i cabal moderat; les de 45 mm (uns 400 l/min) donen més cabal i refredament en escenaris d'alta càrrega tèrmica i més seguretat a les dotacions.",
           "refs": [
             {
-              "ref": "MAN.INES.000, ocupació",
-              "law": "MAN.INES.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "L’ús de l’estructura i l’hora del dia són dos factors claus per estimar l’ocupació."
-            }
-          ]
-        },
-        {
-          "text": "L'ascensor només es pot autoritzar per a l'evacuació si es coneixen les condicions tècniques i l'estat de la instal·lació.",
-          "refs": [
-            {
-              "ref": "MAN.INES.000, ascensor",
-              "law": "MAN.INES.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Només es pot autoritzar l’ús de l’ascensor en evacuació si es coneixen les condicions tècniques i l’estat de la instal·lació."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "n": "8",
-      "title": "Extinció interior i control de gasos calents",
-      "blocks": [
-        {
-          "text": "La tria de la línia depèn del cabal necessari. Les línies de 25 mm són útils per a maniobres ràpides, amb alta mobilitat i quan el cabal necessari és moderat. Les línies de 45 mm proporcionen més cabal i millor rendiment de refredament: són especialment útils en escenaris amb alta càrrega tèrmica o incendis d'alt potencial i donen més seguretat a les dotacions interiors.",
-          "refs": [
-            {
-              "ref": "MAN.INES.000, línies de 25 mm",
+              "ref": "MAN.INES.000, 4.1.2 Línies",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "Línies de 25 mm: útils per a maniobres ràpides, amb alta mobilitat i quan el cabal necessari és moderat."
             },
             {
-              "ref": "MAN.INES.000, línies de 45 mm",
+              "ref": "MAN.INES.000, 4.1.2 Línies",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "Línies de 45 mm: proporcionen més cabal i millor rendiment de refredament, especialment útils en escenaris amb alta càrrega tèrmica o incendis d’alt potencial, aspecte que aporta més seguretat a les dotacions interiors."
+            },
+            {
+              "ref": "MAN.INES.000, 4.1.3 Cabal",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Línies de 25 mm aporten 250 l/min i les línies de 45 mm sobre 400 l/min, de forma genèrica."
             }
           ]
         },
         {
-          "text": "Durant la progressió interior es fan moviments amplis de llança per desplaçar els gasos, en forma d'«O», de «Z» o de «figura de 8», per refredar uniformement i poder avançar. En edificis grans o espais amplis, les pulsacions són una mica més llargues, d'1 a 5 segons.",
+          "text": "El cabal operatiu és la quantitat mínima d'aigua per minut per controlar l'incendi garantint la seguretat davant un comportament extrem sobtat. Un cabal insuficient deixa progressar el foc; un d'excessiu pot provocar efecte pistó, danys i pèrdua de maniobrabilitat. La línia interior té punt de subministrament (autobomba, BIE o columna seca), tram d'aproximació, tram vertical, tram d'atac i llança (raig tens, con d'atac i con de protecció).",
           "refs": [
             {
-              "ref": "MAN.INES.000, moviments de llança",
+              "ref": "MAN.INES.000, 4.1.3 Cabal",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Saturar l’espai i provocar desplaçament de fums a altres zones (efecte pistó)"
+            },
+            {
+              "ref": "MAN.INES.000, 4.1.4 Línia interior",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Punt de subministrament: des del vehicle autobomba, o una connexió de BIE o columna seca en edificis equipats."
+            }
+          ]
+        },
+        {
+          "text": "Control de gasos calents: durant el progrés, moviments amplis en «O», «Z» o «figura de 8»; en espais petits, pulsacions molt curtes (menys d'1 s) al sostre; en espais amplis, pulsacions d'1 a 5 s; i el «pintat de parets», que refreda superfícies combustibles per limitar la pirolització.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 4.1.5 Gasos calents",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "Durant el progrés interior s’utilitzen moviments amplis per desplaçar gasos, com és en forma d’ “O”, “Z” o “figura de 8” per refredar uniformement i poder avançar."
             },
             {
-              "ref": "MAN.INES.000, pulsacions",
+              "ref": "MAN.INES.000, 4.1.5 Gasos calents",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "En edificis grans o espais amplis, la durada de les pulsacions són una mica més llargues (1–5 s)."
-            }
-          ]
-        },
-        {
-          "text": "Entre les tècniques d'extinció hi ha el «pintat de parets», que consisteix a refredar les superfícies combustibles (per exemple, en cases de fusta) per limitar-ne la pirolització.",
-          "refs": [
+            },
             {
-              "ref": "MAN.INES.000, pintat de parets",
+              "ref": "MAN.INES.000, 4.1.5 Gasos calents",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "En les tècniques d'extinció hi ha el \"pintat de parets\" que és el refredament d'aquestes superfícies combustibles (cases de fusta) per limitar la pirolització."
@@ -317,20 +373,20 @@
       ]
     },
     {
-      "n": "9",
+      "n": "8",
       "title": "Maniobra transicional i control de la propagació",
       "blocks": [
         {
-          "text": "La maniobra d'atac transicional és un atac ofensiu exterior directe a nivell de terra: s'aplica aigua des de l'exterior abans d'entrar, per reduir la temperatura i l'energia del «motor» de l'incendi. No substitueix l'atac interior, sinó que el prepara i el fa més segur.",
+          "text": "La maniobra d'atac transicional és un atac ofensiu exterior directe a nivell de terra: s'aplica aigua des de fora (finestres, portes, façanes trencades) abans d'entrar per reduir la temperatura i l'energia del motor de l'incendi. Augmenta la supervivència de les víctimes i no substitueix l'atac interior, sinó que el prepara. Si l'incendi és molt desenvolupat o hi ha risc d'esfondrament s'usen monitors i autoescales amb canó.",
           "refs": [
             {
-              "ref": "MAN.INES.000, maniobra transicional",
+              "ref": "MAN.INES.000, 4.1.6 Transicional",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Maniobra transicional La maniobra d’atac transicional és un atac ofensiu exterior directe a nivell de terra, que consisteix en aplicar aigua des de l’exterior abans d’entrar, amb l’objectiu de reduir la temperatura i l’energia del motor de l’incendi."
+              "quote": "La maniobra d’atac transicional és un atac ofensiu exterior directe a nivell de terra, que consisteix en aplicar aigua des de l’exterior abans d’entrar, amb l’objectiu de reduir la temperatura i l’energia del motor de l’incendi."
             },
             {
-              "ref": "MAN.INES.000, maniobra transicional",
+              "ref": "MAN.INES.000, 4.1.6 Transicional",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "No substitueix l’atac interior, sinó que el prepara i el fa més segur."
@@ -338,38 +394,44 @@
           ]
         },
         {
-          "text": "Les maniobres específiques de control de la propagació, la ventilació i el control de subministraments (gas, electricitat) no són a les fonts revisades; cal consultar el manual MAN.INES.000. Les fonts sí que recorden que la propagació aprofita forats, patis, escales i espais verticals, que són, per tant, els punts que cal vigilar.",
+          "text": "El control de la propagació usa línies exteriors a façana per refredar zones no afectades i tallafocs constructius o de maniobra (barreres d'aigua, tancament de portes), amb contenció vertical (buit d'escala) o horitzontal (entre sectors).",
           "refs": [
             {
-              "ref": "MAN.INES.000, convecció",
+              "ref": "MAN.INES.000, 4.2.2 Tallafocs",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "a través de forats, patis, escales i espais verticals"
+              "quote": "Els tallafocs poden ser elements constructius (murs, portes tallafocs) o generats per maniobra (creació de barreres d’aigua, tancament de portes)."
             }
           ]
         }
       ]
     },
     {
-      "n": "10",
+      "n": "9",
       "title": "Recerca i salvament",
       "blocks": [
         {
-          "text": "La recerca es prioritza segons la probabilitat de supervivència. Els espais amb mínima probabilitat es consideren no compatibles amb la vida i només es busquen si no hi ha altres opcions o si hi ha indicis clars de presència de víctimes. Els altres nivells de probabilitat no són a les fonts revisades.",
+          "text": "Els espais es classifiquen per probabilitat de supervivència segons el risc tèrmic i el respiratori: alta (protegit per dues portes tancades o una porta EI, més de 10 min), mitjana (una porta tancada, 6-10 min), baixa (porta oberta cap al focus, menys de 6 min) i mínima (dins el recinte de l'incendi). L'ordre de recerca és: baixa, mitjana, mínima (no compatible amb la vida, només si no hi ha alternativa o indicis clars) i, finalment, alta.",
           "refs": [
             {
-              "ref": "MAN.INES.000, mínima probabilitat",
+              "ref": "MAN.INES.000, 4.3.1 Classificació",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Espais amb mínima probabilitat, considerats no compatibles amb la vida (només si no hi ha altres opcions o indicis clars de presència de víctimes)."
+              "quote": "1. Espais amb baixa probabilitat. 2. Espais de mitja probabilitat. 3. Espais amb mínima probabilitat, considerats no compatibles amb la vida (només si no hi ha altres opcions o indicis clars de presència de víctimes). 4. Espais amb alta probabilitat de supervivència."
             }
           ]
         },
         {
-          "text": "La progressió en rastreig total, amb tres punts de recolzament, s'utilitza quan la visibilitat és nul·la i hi ha acumulació de calor o risc elevat.",
+          "text": "La recerca es fa en binomi, amb responsabilitat compartida i punts de referència fixos, i amb càmera tèrmica si n'hi ha. Amb certa visibilitat i risc baix s'avança a mitja alçada; amb visibilitat nul·la i calor, en rastreig total amb tres punts de recolzament. Referències: paret guia i línia guia (sovint la mateixa mànega). Es revisa amb gir constant i es mira darrere portes, sota llits, banys i armaris. Cal mantenir les portes tancades i no pujar a escales plenes de fum sense tenir l'incendi controlat.",
           "refs": [
             {
-              "ref": "MAN.INES.000, rastreig total",
+              "ref": "MAN.INES.000, 4.3.2 Recerca",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "El desplaçament es fa en binomi, amb responsabilitat compartida, i seguint sempre punts de referència fixos."
+            },
+            {
+              "ref": "MAN.INES.000, 4.3.5 Desplaçament",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "Progressió en rastreig total (amb tres punts de recolzament): utilitzat quan la visibilitat és nul·la i hi ha acumulació de calor o risc elevat."
@@ -379,34 +441,120 @@
       ]
     },
     {
-      "n": "11",
-      "title": "Seguretat: treball en binomi i tècniques d'entrada i avanç segur",
+      "n": "10",
+      "title": "Ventilació i control de subministraments",
       "blocks": [
         {
-          "text": "El desplaçament es fa sempre en binomi, amb responsabilitat compartida, i seguint punts de referència fixos. Una tècnica bàsica és la paret de referència o paret guia: un dels membres del binomi manté sempre el contacte amb una paret o element fix.",
+          "text": "La ventilació ben aplicada redueix temperatura i fums; mal feta pot provocar una deflagració. La natural obre portes i finestres de manera coordinada quan hi ha atac interior actiu o imminent. L'antiventilació manté tancat l'espai fins que l'atac està a punt (útil en focs no ventilats; ajuden les cortines smoke stopper). La VPP introdueix aire amb ventiladors i mai s'aplica sense una sortida de fums identificada ni directament contra el focus. La VPN extreu fums des de dins, sense dispersar-los a locals no afectats, i va bé en soterranis.",
           "refs": [
             {
-              "ref": "MAN.INES.000, binomi",
+              "ref": "MAN.INES.000, 4.4.2 Antiventilació",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "El desplaçament es fa en binomi, amb responsabilitat compartida, i seguint sempre punts de referència fixos."
+              "quote": "Es tracta de mantenir els espais tancats, evitant voluntàriament qualsevol aportació d’aire exterior fins que l’atac interior estigui preparat per actuar."
             },
             {
-              "ref": "MAN.INES.000, paret guia",
+              "ref": "MAN.INES.000, 4.4.3 VPP",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Paret de referència (paret guia): un dels membres del binomi manté sempre contacte amb una paret o element fix."
+              "quote": "Mai no s’ha d’aplicar si no s’ha identificat clarament el punt de sortida del fum."
+            },
+            {
+              "ref": "MAN.INES.000, 4.4.4 VPN",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "No presenta cap risc de dispersió dels fums a locals no afectats per l’incendi."
             }
           ]
         },
         {
-          "text": "Els riscos específics que justifiquen aquestes precaucions són l'atrapament i el col·lapse, en un entorn de poca visibilitat i calor extrema. La zonificació, el control d'accessos i d'ERA i els procediments d'emergència no són a les fonts revisades; cal consultar el manual MAN.INES.000 (i el tema 20 per als ERA).",
+          "text": "La ventilació ha d'estar subordinada a l'extinció i autoritzada pel cap d'intervenció; en cas de dubte, antiventilació. Cal controlar les escomeses d'electricitat i gas (atenció a les plaques fotovoltaiques) i tallar-les davant olor de gas o risc elèctric, i l'escomesa d'aigua i les instal·lacions fixes (BIE, ruixadors).",
           "refs": [
             {
-              "ref": "MAN.INES.000, característiques",
+              "ref": "MAN.INES.000, 4.4 Recorda",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "sovint amb poca visibilitat, calor extrema i risc d’atrapament o col·lapse"
+              "quote": "Ha d’estar subordinada a la maniobra d’extinció i autoritzada pel cap de d’intervenció."
+            },
+            {
+              "ref": "MAN.INES.000, 4.5.1 Subministraments",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Atenció a la presència de plaques fotovoltaiques."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Seguretat: riscos, zonificació, control d'accessos i ERA",
+      "blocks": [
+        {
+          "text": "Riscos específics: gasos tòxics (CO, cianurs; ERA), deflagracions o backdraft (refredar gasos, obrir amb control), col·lapse, desorientació i caigudes, caiguda d'objectes, electricitat, estrès tèrmic i eines. Cal una zona lliure davant la façana A per a les AEA i el salvament. La zona calenta té un radi de 15 m al voltant de l'entrada en habitatges, i el doble de l'alçada de la façana en naus industrials.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 5.2.1 Zona lliure",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "És imprescindible crear i mantenir una zona lliure davant de la façana A (principal) de l’edifici."
+            },
+            {
+              "ref": "MAN.INES.000, 5.2.2 Zona calenta",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "En habitatges o edificis convencionals: radi de 15 m al voltant de l’entrada i projecció de l’incendi a la façana. − En naus industrials: doble de l’alçada de la façana."
+            }
+          ]
+        },
+        {
+          "text": "Abans d'entrar, cada binomi fa revisió pròpia i mútua de l'EPI i l'ERA; un responsable controla l'accés i registra hora d'entrada, binomi, zona i tasca. Si un binomi té una incidència greu s'activa el codi vermell: comunicació a tothom, equip de rescat SOS i suport sanitari a l'exterior.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 5.3 Control ERA",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "es registra el personal que entra, indicant l’hora d’entrada, el binomi que el forma, la zona de treball assignada i la tasca o objectiu a assolir."
+            },
+            {
+              "ref": "MAN.INES.000, 5.4 Codi vermell",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "Activació d’un equip de rescat (anomenat equip SOS) amb la missió de fer la recerca i extracció del personal en perill."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Treball en binomi i tècniques d'avanç i entrada segura",
+      "blocks": [
+        {
+          "text": "El binomi és el criteri bàsic de seguretat a l'interior: no es fan equips de tres ni es canvia el binomi sense autorització. A l'avanç es manté una línia de retirada clara, es refreda el sostre i s'adapta el raig: tens per a distància, con d'atac per extingir i refredar gasos, con de protecció com a pantalla.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 5.5 Binomi",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "No s’han de formar equips de tres, ni canviar el binomi sense autorització."
+            }
+          ]
+        },
+        {
+          "text": "Entrada segura en fases: avaluar la porta (fum, temperatura, si el fum «batega»); obrir uns centímetres i fer una polvorització curta al sostre; si el comportament és agressiu, tancar, refredar i esperar; si és estable, entrar i tancar la porta darrere. Amb víctimes a prop del focus es prioritza extreure-les, perquè el vapor les pot cremar.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 5.7.2 Entrada segura",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "S’obre la porta només uns centímetres per permetre la sortida parcial del fum."
+            },
+            {
+              "ref": "MAN.INES.000, 5.7.3 Víctimes",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "L’aplicació d’aigua sobre el focus genera vapor que pot causar cremades greus a les persones atrapades."
             }
           ]
         }
@@ -417,65 +565,65 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Incendi estructural = en una edificació, l'afecta parcialment o totalment. Escenari més freqüent: habitatges.",
+          "text": "Incendi estructural = en una edificació, total o parcialment. Escenari més freqüent: habitatges.",
           "refs": [
             {
-              "ref": "MAN.INES.000, habitatges",
+              "ref": "MAN.INES.000, 2.2.1",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "Habitatges unifamiliars o plurifamiliars Són els escenaris més freqüents."
+              "quote": "Són els escenaris més freqüents."
             }
           ]
         },
         {
-          "text": "Valoració: 6 cares (360º + part superior i inferior). Façanes en sentit horari: A = accés principal; B = a l'esquerra de l'A.",
+          "text": "Valoració de 6 cares. Façanes en sentit horari: A principal, B esquerra, C oposada, D dreta.",
           "refs": [
             {
-              "ref": "MAN.INES.000, valoració 360º",
+              "ref": "MAN.INES.000, 2.2.8",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "les 6 cares de l’estructura afectada, és a dir, el 360º i la part superior i inferior de l’estructura"
+              "quote": "- Façana B: situada a l’esquerra respecte la façana A."
             }
           ]
         },
         {
-          "text": "Més plantes = més propagació vertical (sobretot si el foc és avall). Accés per la ruta freda. Ocupació: ús + hora del dia. Ascensor només si se'n coneix l'estat.",
+          "text": "Més plantes = més propagació vertical. Ruta freda. Ocupació = ús + hora. Ascensor només si se'n coneix l'estat.",
           "refs": [
             {
-              "ref": "MAN.INES.000, ocupació",
+              "ref": "MAN.INES.000, 3.2.4",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "L’ús de l’estructura i l’hora del dia són dos factors claus per estimar l’ocupació."
+              "quote": "Prioritzar l’accés per la “ruta freda” o lliure de fums de l’incendi."
             }
           ]
         },
         {
-          "text": "Fum dens i opac = molt combustible i/o poca ventilació. Escales obertes = efecte xemeneia. Degoteig = propagació descendent.",
+          "text": "Fum dens i opac = molt combustible i/o poca ventilació. Escales obertes = efecte xemeneia.",
           "refs": [
             {
-              "ref": "MAN.INES.000, fum dens i opac",
+              "ref": "MAN.INES.000, 3.3.2",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "habitualment és senyal d’un gran volum de combustibles en combustió i/o poca ventilació"
+              "quote": "Major risc de backdraft o flashover."
             }
           ]
         },
         {
-          "text": "25 mm = mobilitat i cabal moderat; 45 mm = més cabal i seguretat. Moviments en O, Z o 8. Pulsacions d'1-5 s en espais amplis. Pintat de parets = limitar la pirolització.",
+          "text": "25 mm ≈ 250 l/min, mobilitat; 45 mm ≈ 400 l/min, refredament. Pulsacions de menys d'1 s en espais petits i d'1-5 s en amplis.",
           "refs": [
             {
-              "ref": "MAN.INES.000, línies de 25 mm",
+              "ref": "MAN.INES.000, 4.1.5",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "útils per a maniobres ràpides, amb alta mobilitat i quan el cabal necessari és moderat"
+              "quote": "la durada de les pulsacions són una mica més llargues (1–5 s)."
             }
           ]
         },
         {
-          "text": "Transicional = aigua des de fora, a nivell de terra, abans d'entrar; prepara l'atac interior, no el substitueix.",
+          "text": "Transicional = aigua des de fora abans d'entrar; prepara l'atac interior.",
           "refs": [
             {
-              "ref": "MAN.INES.000, maniobra transicional",
+              "ref": "MAN.INES.000, 4.1.6",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
               "quote": "No substitueix l’atac interior, sinó que el prepara i el fa més segur."
@@ -483,13 +631,24 @@
           ]
         },
         {
-          "text": "Mínima probabilitat = no compatible amb la vida. Rastreig total (3 punts) = visibilitat nul·la. Sempre en binomi i amb paret guia.",
+          "text": "Recerca: baixa → mitjana → mínima → alta. Rastreig total amb visibilitat nul·la.",
           "refs": [
             {
-              "ref": "MAN.INES.000, rastreig total",
+              "ref": "MAN.INES.000, 4.3.5",
               "law": "MAN.INES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
-              "quote": "utilitzat quan la visibilitat és nul·la i hi ha acumulació de calor o risc elevat"
+              "quote": "utilitzat quan la visibilitat és nul·la i hi ha acumulació de calor o risc elevat."
+            }
+          ]
+        },
+        {
+          "text": "Zona calenta 15 m (habitatge) o 2 × alçada (nau). Codi vermell → equip SOS.",
+          "refs": [
+            {
+              "ref": "MAN.INES.000, 5.2.2",
+              "law": "MAN.INES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-24-MAN.INES.000.pdf",
+              "quote": "radi de 15 m al voltant de l’entrada"
             }
           ]
         }

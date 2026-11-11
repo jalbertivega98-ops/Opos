@@ -64,33 +64,50 @@
   "lessons": [
     {
       "n": "1",
-      "title": "La xarxa elèctrica: generació, transport i distribució",
+      "title": "Tipus d'instal·lacions elèctriques",
       "blocks": [
         {
-          "text": "La xarxa elèctrica es divideix per nivells de tensió. La baixa tensió (BT) arriba fins a 1.000 V en corrent altern i correspon a la xarxa de distribució secundària o local. Qualsevol intervenció en instal·lacions d'alta tensió, com ara línies, subestacions o centres de transformació, s'ha de fer sempre acompanyat de personal de la companyia elèctrica.",
+          "text": "Les instal·lacions elèctriques són el conjunt d'elements que permeten generar, transportar, distribuir i utilitzar l'energia elèctrica. El manual operatiu bàsic sobre instal·lacions (MAN.GRAL.007, v.2) distingeix la xarxa elèctrica, les instal·lacions aïllades, les d'autoconsum i altres com els ferrocarrils. A la xarxa, el corrent és majoritàriament altern trifàsic. En generació, transport i distribució les tensions poden arribar als 400.000 V, i qualsevol intervenció en línies d'alta tensió, subestacions o centres de transformació s'ha de fer sempre acompanyat de personal de la companyia elèctrica. En canvi, a les instal·lacions finals de consum (230 V monofàsica, 400 V trifàsica) els bombers poden fer els talls de manera autònoma.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, baixa tensió",
+              "ref": "MAN.GRAL.007, 2.1.1 Xarxa elèctrica",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Baixa tensió (BT), fins a 1000 V en corrent altern, xarxa de distribució secundària o local."
+              "quote": "Generació, transport i distribució: Aquestes etapes de la xarxa gestionen tensions molt altes, que poden arribar a ser de 400.000 volts. Qualsevol intervenció en aquests àmbits, com a línies d'alta tensió, subestacions o centres de transformació, s'ha de fer sempre"
             },
             {
-              "ref": "MAN.GRAL.007, alta tensió",
+              "ref": "MAN.GRAL.007, 2.1.1 Xarxa elèctrica",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Qualsevol intervenció en aquests àmbits, com a línies d'alta tensió, subestacions o centres de transformació, s'ha de fer sempre acompanyat de personal de la companyia elèctrica."
+              "quote": "En les instal·lacions de consum, podem dur a terme l'actuació i els talls de subministrament de forma autònoma, si és necessari i d'acord amb els procediments de seguretat establerts."
             }
           ]
         },
         {
-          "text": "La descripció de la generació i del transport, i els límits de l'alta i la mitja tensió, no són als extractes revisats; cal consultar el manual MAN.GRAL.007 (versió actualitzada de la guia). El tram final de la xarxa de baixa tensió és l'escomesa, que arriba a la caixa general de protecció (apartat 2).",
+          "text": "Les instal·lacions aïllades no estan connectades a la xarxa: fotovoltaiques amb acumulació (habitatges aïllats, autocaravanes) o grups electrògens sense acumulació (obres, fires). Les d'autoconsum combinen generació pròpia i xarxa. En autoconsum sense acumulació (on-grid), si cau la xarxa l'inversor s'atura (protecció anti-illa), però la part de continu (plaques i cables fins a l'inversor) sempre és en tensió mentre hi hagi llum. Les bateries domèstiques solen ser de 48 V DC; a la indústria poden arribar a 800 V DC. Els grups electrògens fixos poden arrencar sols quan falla la xarxa.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, CGP",
+              "ref": "MAN.GRAL.007, 2.1.3 Autoconsum",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "El tram final de la xarxa de baixa tensió és l’escomesa que arriba a la caixa general de protecció (CGP)"
+              "quote": "En cas de tall de subministrament a la xarxa, l’inversor també s’atura (protecció anti-illa) i no dona electricitat a la instal·lació. Tot i això, la part de corrent continu (DC) —plaques i cables fins a l’inversor— sempre està en tensió mentre hi hagi llum, encara que sigui poca."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.1.3 Grups electrògens",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "poden arrancar automàticament quan falla la tensió de la xarxa."
+            }
+          ]
+        },
+        {
+          "text": "Tensions dels ferrocarrils: tramvia, 750 V DC; metro i FGC, 1.500 V DC; ADIF convencional, 3.000 V DC; alta velocitat, 25.000 V AC. El risc és a la catenària, als trens amb el pantògraf aixecat i a la línia d'alimentació (feeder), que porta aïlladors al pal.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 2.1.4.1 Ferrocarrils",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Tramvies (TRAM): 750 V DC − Metro i FGC: 1500 V DC − ADIF (Convencional): 3.000 V DC − Alta Velocitat (AVE): 25.000 V AC"
             }
           ]
         }
@@ -98,39 +115,50 @@
     },
     {
       "n": "2",
-      "title": "Instal·lacions d'enllaç",
+      "title": "La xarxa: generació, transport i distribució",
       "blocks": [
         {
-          "text": "La caixa general de protecció (CGP) és el punt frontera entre la xarxa de distribució i la instal·lació del client o abonat. Les instal·lacions d'enllaç són la part que uneix la xarxa de distribució amb els dispositius generals de comandament i protecció de les instal·lacions interiors dels usuaris. Pertanyen a l'usuari o abonat, que és el responsable de conservar-les i mantenir-les.",
+          "text": "La generació converteix recursos energètics en electricitat. Hi ha centrals amb màquines rotatives (alternadors): tèrmiques (nuclears, convencionals, solar-tèrmiques, turbines de gas, motors) i no tèrmiques (hidràuliques, eòliques); i centrals no rotatives, com la fotovoltaica. Com que l'energia és difícil d'emmagatzemar, la generació ha d'igualar la demanda: centrals de fons (nuclears), de regulació (hidràuliques, cicle combinat) i de punta.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, CGP",
+              "ref": "MAN.GRAL.007, 2.2.2 Equilibri generació-demanda",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "que és el punt frontera entre la distribució i la instal·lació del client o abonat."
+              "quote": "Com que l’energia elèctrica és difícil d’emmagatzemar a gran escala, la generació ha d’igualar la demanda en tot moment."
             },
             {
-              "ref": "MAN.GRAL.007, instal·lacions d'enllaç",
+              "ref": "MAN.GRAL.007, 2.2.2 Equilibri generació-demanda",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Instal·lacions d’enllaç Les instal·lacions d’enllaç són la part de la instal·lació que uneix la xarxa de distribució amb els dispositius generals de comandament i protecció de les instal·lacions interiors dels usuaris."
-            },
-            {
-              "ref": "MAN.GRAL.007, propietat",
-              "law": "MAN.GRAL.007",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Pertanyen a l’usuari o abonat, que són responsables de conservar-les i mantenir-les."
+              "quote": "Centrals de fons: Funcionen de manera contínua per cobrir la demanda mínima. Són molt estables però poc flexibles. Actualment aquest rol recau sobretot en les centrals nuclears."
             }
           ]
         },
         {
-          "text": "A la centralització de comptadors, l'interruptor general de maniobra (IGM) és obligatori quan hi ha més de dos usuaris, és a dir, a partir de tres. Se situa entre la línia general d'alimentació i l'embarrat general.",
+          "text": "La xarxa de transport i distribució va des de la sortida de les centrals fins a les caixes generals de protecció (CGP). El REBT considera baixa tensió fins a 1.000 V en altern i 1.500 V en continu. En xarxes se sol distingir: baixa tensió (BT), fins a 1.000 V en altern (distribució secundària o local); mitja tensió (MT), generalment entre 1 i 36 kV (distribució primària); i alta tensió (AT), per sobre (a la Península el transport funciona sobretot a 220 i 400 kV).",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, IGM",
+              "ref": "MAN.GRAL.007, 2.2.3 Transport i distribució",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "És obligatori en les centralitzacions de més de dos usuaris i se situa entre la línia general d’alimentació i l’embarrat general."
+              "quote": "Tot i que el Reglament electrotècnic per a baixa tensió (REBT) considera de baixa tensió les instal·lacions amb tensions de fins a 1.000 V en corrent altern i 1.500 V en corrent continu"
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.2.3 Nivells de tensió",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Baixa tensió (BT), fins a 1000 V en corrent altern, xarxa de distribució secundària o local. − Mitja tensió (MT), generalment entre 1 kV i 36 kV"
+            }
+          ]
+        },
+        {
+          "text": "La xarxa de transport mou grans quantitats d'energia a llarga distància, fa les interconnexions internacionals i l'opera en exclusiva Red Eléctrica de España (REE). La de distribució (MT i BT, 230/400 V) la operen les distribuïdores; a Catalunya, majoritàriament e-distribución (Endesa).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 2.2.3 Xarxa de transport",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "És operada en exclusiva per Red Elèctrica de España (REE)."
             }
           ]
         }
@@ -138,22 +166,39 @@
     },
     {
       "n": "3",
-      "title": "Instal·lacions interiors i proteccions: IGA i magnetotèrmics",
+      "title": "Infraestructures d'alta, mitja i baixa tensió",
       "blocks": [
         {
-          "text": "L'interruptor general automàtic (IGA) és un magnetotèrmic que es col·loca al principi del quadre elèctric i protegeix tota la instal·lació domèstica. Els magnetotèrmics porten una marca que s'ha de saber llegir: «C25 1P+N» vol dir 25 A de corrent nominal, corba C, protecció en un pol i desconnexió simultània de fase i neutre.",
+          "text": "Les línies d'AT i MT són majoritàriament aèries, amb cables nus; van en trifàsica sense neutre, de manera que hi ha 3 conductors (o 6 si hi ha dos circuits). Per saber si una línia és d'AT o MT: alçada de la torre, separació entre cables, llargada dels aïlladors (regla aproximada d'11 kV per disc: 20 discos, 220 kV), cables de guarda a dalt (les de transport), plaques i disposició (el transport sempre passa per sobre de la distribució).",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, IGA",
+              "ref": "MAN.GRAL.007, 2.2.4 Línies",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "L’IGA (Interruptor General Automàtic) és un magnetotèrmic que es col·loca al principi del quadre elèctric i protegeix tota la instal·lació domèstica."
+              "quote": "El transport i distribució en mitja es fa en corrent alterna trifàsica sense neutre, així que sempre hi haurà 3 cables conductors (o 6, si hi ha dos circuits)"
             },
             {
-              "ref": "MAN.GRAL.007, marcatge",
+              "ref": "MAN.GRAL.007, 2.2.4 Línies",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "C25 1P+N indica 25 A de corrent nominal, corba C, protecció en un pol, però desconnexió simultània de fase i neutre."
+              "quote": "Una regla mnemotècnica aproximada per aïlladors (de vidre o ceràmica) és 11kV per peça o disc, per exemple, si veus un aïllador de 20 peces és una línia de 220 kV."
+            }
+          ]
+        },
+        {
+          "text": "Les subestacions connecten línies i adapten el voltatge amb transformadors (elevadores i reductores). Als centres de transformació (CT) es redueix la tensió a 400 V trifàsica i comença la BT; allà el neutre es connecta a terra, cosa que converteix el terra en camí de retorn en cas de contacte. La BT porta 4 cables (3 fases + neutre) o 2 en monofàsica. Entre el CT i la CGP hi ha els armaris de distribució urbana (ADU). El tram final és l'escomesa, que arriba a la CGP.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 2.2.5 Centres de transformació",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "En el centre de transformació el neutre es connecta a terra, per garantir una referència de les tensions i que els aparells de detecció de fuites funcionin."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.2.5 Cablejat de BT",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Recordem que els d’electricitat són 4 cables (3 fases + neutre), o 2 cables en monofàsica."
             }
           ]
         }
@@ -161,45 +206,39 @@
     },
     {
       "n": "4",
-      "title": "Proteccions: diferencials i presa de terra",
+      "title": "Instal·lacions d'enllaç",
       "blocks": [
         {
-          "text": "Els diferencials són la protecció més important per a la seguretat de les persones, perquè detecten les fuites de corrent a terra. La sensibilitat de 30 mA és obligatòria als habitatges i és el nivell de protecció per a les persones. Un diferencial només protegeix el que hi ha aigües avall, és a dir, el que alimenta; no detecta res del que hi ha abans.",
+          "text": "La CGP és el punt frontera entre la distribució i la instal·lació del client o abonat. Les instal·lacions d'enllaç uneixen la xarxa de distribució amb els dispositius generals de comandament i protecció de cada usuari; pertanyen a l'usuari o abonat, que les ha de conservar i mantenir.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, diferencials",
+              "ref": "MAN.GRAL.007, 2.2.5 CGP",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Diferencials Els diferencials són la protecció més important per a la seguretat de les persones, ja que detecten fuites de corrent a terra."
+              "quote": "El tram final de la xarxa de baixa tensió és l’escomesa que arriba a la caixa general de protecció (CGP), que és el punt frontera entre la distribució i la instal·lació del client o abonat."
             },
             {
-              "ref": "MAN.GRAL.007, sensibilitat",
+              "ref": "MAN.GRAL.007, 2.2.6 Instal·lacions d'enllaç",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "30 mA: obligatori a habitatges; nivell de protecció per a persones."
-            },
-            {
-              "ref": "MAN.GRAL.007, abast del diferencial",
-              "law": "MAN.GRAL.007",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Només protegeix el que hi ha aigües avall, és a dir, el que alimenta; no detecta res del que hi ha abans."
+              "quote": "Les instal·lacions d’enllaç són la part de la instal·lació que uneix la xarxa de distribució amb els dispositius generals de comandament i protecció de les instal·lacions interiors dels usuaris. Pertanyen a l’usuari o abonat, que són responsables de conservar-les i mantenir-les."
             }
           ]
         },
         {
-          "text": "El diferencial sol no n'hi ha prou: la protecció de les persones depèn del conjunt format pel neutre connectat a terra, el diferencial i la presa de terra de les masses. Recorda que els 30 mA coincideixen amb el llindar crític de corrent altern que dona el manual d'electricitat (tema 11).",
+          "text": "Amb comptadors centralitzats, els elements són: CGP (fusibles de la línia general), línia general d'alimentació (LGA), centralització de comptadors, interruptor general de maniobra (IGM: obligatori amb més de dos usuaris, entre la LGA i l'embarrat general), embarrat general i derivacions individuals. Per a un únic usuari, CGP i comptador s'agrupen en una caixa de protecció i mesura (CPM).",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, protecció de les persones",
+              "ref": "MAN.GRAL.007, 2.2.6 IGM",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "La protecció de les persones depèn del conjunt: neutre connectat a terra + diferencial + presa de terra de les masses."
+              "quote": "És obligatori en les centralitzacions de més de dos usuaris i se situa entre la línia general d’alimentació i l’embarrat general."
             },
             {
-              "ref": "MAN.GRAL.005, llindar",
-              "law": "MAN.GRAL.005",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "S'ha establert el llindar crític de 30 mA (a 50 Hz)"
+              "ref": "MAN.GRAL.007, 2.2.6 CPM",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "En els subministraments per a un únic usuari, la caixa general de protecció i l’equip de mesura es poden agrupar en una caixa de protecció i mesura (CPM)."
             }
           ]
         }
@@ -207,39 +246,22 @@
     },
     {
       "n": "5",
-      "title": "Regles de seguretat: les cinc regles d'or i els aparells de mesura",
+      "title": "Instal·lacions interiors o receptores",
       "blocks": [
         {
-          "text": "La manera més segura d'intervenir en una instal·lació elèctrica és treballar-hi sense tensió. La primera regla d'or és desconnectar la font d'alimentació per deixar la instal·lació sense tensió. La segona és prevenir qualsevol possible realimentació: els dispositius de desconnexió s'han d'assegurar contra qualsevol reconnexió amb cadenats o bloquejos. La resta de regles no són a l'extracte revisat.",
+          "text": "A l'inici de cada instal·lació interior hi ha el quadre general de comandament i protecció. En l'ordre habitual: ICP (si n'hi ha; avui sovint integrat al comptador), IGA (talla tota la instal·lació i la protegeix de sobrecàrregues i curtcircuits), protecció contra sobretensions, diferencials (contactes indirectes) i PIA (cada circuit). El REBT exigeix circuits independents (enllumenat, endolls, cuina i forn, rentadora…). És obligatori el conductor de terra (PE, groc i verd), imprescindible perquè funcionin els diferencials.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, cinc regles d'or",
+              "ref": "MAN.GRAL.007, 2.2.7 Instal·lacions interiors",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Les 5 regles d’or La manera més segura d’intervenir en una instal·lació elèctrica és treballar-hi sense tensió."
+              "quote": "Interruptor general automàtic (IGA): permet tallar tota la instal·lació interior de l’usuari i la protegeix davant de sobrecàrregues i curtcircuits."
             },
             {
-              "ref": "MAN.GRAL.007, primera regla",
+              "ref": "MAN.GRAL.007, 2.2.7 Conductor de terra",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "1) Desconnectar la font d’alimentació Cal desconnectar la instal·lació per deixar-la sense tensió."
-            },
-            {
-              "ref": "MAN.GRAL.007, segona regla",
-              "law": "MAN.GRAL.007",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "2) Prevenir qualsevol possible realimentació Els dispositius utilitzats per desconnectar la instal·lació s’han d’assegurar contra qualsevol possible reconnexió, amb cadenats o bloquejos."
-            }
-          ]
-        },
-        {
-          "text": "Pel que fa als aparells de mesura, el manual adverteix que l'absència de senyal no eximeix de fer una segona comprovació amb un voltímetre per confirmar que realment no hi ha tensió. La descripció completa dels aparells de mesura i dels equips de protecció personal no és als extractes revisats.",
-          "refs": [
-            {
-              "ref": "MAN.GRAL.007, comprovació de tensió",
-              "law": "MAN.GRAL.007",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Per tant, l'absència de senyal no eximeix de fer una segona comprovació amb un voltímetre per confirmar que realment no hi ha tensió."
+              "quote": "També és obligatòria una instal·lació del conductor de terra (cable groc i verd), que ha de connectar les superfícies metàl·liques dels aparells elèctrics a la presa de terra de l’edifici."
             }
           ]
         }
@@ -247,28 +269,39 @@
     },
     {
       "n": "6",
-      "title": "Instal·lacions d'aigua: subministrament",
+      "title": "Proteccions: fusibles, magnetotèrmics i sobretensions",
       "blocks": [
         {
-          "text": "L'escomesa de la instal·lació d'aigua és la connexió amb la xarxa exterior. La clau de tall general serveix per interrompre el subministrament a tot l'edifici. Els ascendents o muntants porten l'aigua verticalment pels pisos.",
+          "text": "Els fusibles són la protecció més antiga: un fil que es fon per efecte Joule quan se supera el corrent nominal; després s'han de substituir. No s'han de manipular sota càrrega (arc elèctric, més perillós en continu). Els magnetotèrmics (PIA) són reutilitzables i combinen un tèrmic (bimetàl·lic, sobrecàrregues) i un magnètic (electroimant, curtcircuits gairebé instantanis). La marca «C25 1P+N» vol dir 25 A nominals, corba C, un pol protegit i tall simultani de fase i neutre. L'IGA és un magnetotèrmic al principi del quadre que protegeix tota la instal·lació.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, escomesa d'aigua",
+              "ref": "MAN.GRAL.007, 2.3.1 Fusibles",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Escomesa L’escomesa és la connexió amb la xarxa exterior."
+              "quote": "És important no manipular un fusible sota càrrega, ja que en retirar-lo es pot generar un arc elèctric, més fàcil d’extingir en AC (el corrent passa per zero) i més perillós en DC i a tensions elevades."
             },
             {
-              "ref": "MAN.GRAL.007, clau de tall general",
+              "ref": "MAN.GRAL.007, 2.3.2 Magnetotèrmics",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Clau de tall general Serveix per interrompre el subministrament a tot l’edifici."
+              "quote": "Per exemple: C25 1P+N indica 25 A de corrent nominal, corba C, protecció en un pol, però desconnexió simultània de fase i neutre."
             },
             {
-              "ref": "MAN.GRAL.007, muntants",
+              "ref": "MAN.GRAL.007, 2.3.2 IGA",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Ascendents o muntants Porten l’aigua verticalment pels pisos."
+              "quote": "L’IGA (Interruptor General Automàtic) és un magnetotèrmic que es col·loca al principi del quadre elèctric i protegeix tota la instal·lació domèstica."
+            }
+          ]
+        },
+        {
+          "text": "Les proteccions contra sobretensions poden ser transitòries (pics breus per llamps o maniobres, deriven l'excés a terra) o permanents (obren el circuit). No protegeixen d'un impacte directe de llamp. En un quadre sempre hi ha d'haver, com a mínim, l'IGA i un diferencial.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 2.3.5 Quadre elèctric",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Com a mínim sempre hi ha d’haver l’IGA i un diferencial."
             }
           ]
         }
@@ -276,33 +309,39 @@
     },
     {
       "n": "7",
-      "title": "Evacuació d'aigües residuals i pluvials; el sifó",
+      "title": "Proteccions: el diferencial",
       "blocks": [
         {
-          "text": "L'evacuació es fa principalment per gravetat, amb conductes verticals (baixants) i desguassos, normalment de PVC gris. L'escomesa dels baixants i la connexió dels manegots a la xarxa es fa amb una arqueta de peu de baixant no sifònica, i cal preveure registres cada 15 metres per a la inspecció i el manteniment.",
+          "text": "Els diferencials són la protecció més important per a les persones: comparen el corrent que entra i el que surt i, si hi ha diferència (fuita a terra), desconnecten. Només protegeixen aigües avall. Perquè funcionin cal que el corrent pugui tornar al generador; la protecció de les persones depèn del conjunt neutre connectat a terra + diferencial + presa de terra de les masses. La xarxa de distribució no utilitza diferencials.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, evacuació",
+              "ref": "MAN.GRAL.007, 2.3.3 Diferencials",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "L’evacuació es fa principalment per gravetat, mitjançant conductes verticals (baixants) i desguassos, amb canonades habitualment de PVC gris."
+              "quote": "Els diferencials són la protecció més important per a la seguretat de les persones, ja que detecten fuites de corrent a terra."
             },
             {
-              "ref": "MAN.GRAL.007, registres",
+              "ref": "MAN.GRAL.007, 2.3.3 Diferencials",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "L’escomesa dels baixants i la connexió dels manegots a la xarxa s’ha de realitzar mitjançant una arqueta de peu de baixant no sifònica, i s’han de preveure registres cada 15 metres per facilitar les tasques d’inspecció i manteniment."
+              "quote": "La protecció de les persones depèn del conjunt: neutre connectat a terra + diferencial + presa de terra de les masses."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.3.3 Diferencials",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Només protegeix el que hi ha aigües avall, és a dir, el que alimenta; no detecta res del que hi ha abans. La xarxa de distribució no utilitza diferencials."
             }
           ]
         },
         {
-          "text": "Per desguassar un dipòsit per gravetat amb un sifó (tub en U invertida), el tub ha d'estar ple, perquè la columna de líquid d'una branca arrossegui la de l'altra. Funciona mentre el nivell de sortida sigui per sota de la superfície lliure del dipòsit.",
+          "text": "Sensibilitats: 30 mA, obligatori a habitatges (protecció de persones); 100 o 300 mA, indústries i enllumenat públic; 10 mA, ambients molt humits o de risc alt. Tenen un botó de test. Conceptes: defecte d'aïllament, contacte indirecte (carcassa en tensió) i contacte directe (part activa). Sense bona presa de terra, el diferencial només salta quan una persona toca la carcassa: hi ha xoc, limitat a uns 30 mA un instant.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, sifó",
+              "ref": "MAN.GRAL.007, 2.3.3 Sensibilitat",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "Necessita estar ple perquè la columna de líquid d’una branca arrossegui la de l’altra. […] Funciona mentre el nivell de sortida estigui situat per sota de la superfície lliure del dipòsit."
+              "quote": "30 mA: obligatori a habitatges; nivell de protecció per a persones. − 100 mA o 300 mA: indústries i enllumenat públic, on un de 30 mA provocaria dispars massa freqüents. − 10 mA: en ambients especialment humits o de risc alt."
             }
           ]
         }
@@ -310,22 +349,172 @@
     },
     {
       "n": "8",
-      "title": "Instal·lacions de gas: gas natural i gas butà",
+      "title": "Aparells de mesura",
       "blocks": [
         {
-          "text": "El gas natural està format majoritàriament per metà (90-95 %), tot i que la composició varia segons l'origen i pot contenir petites quantitats de nitrogen, CO₂ i altres gasos. És menys dens que l'aire, té un alt poder calorífic, no és tòxic i és inodor; per això se li afegeix un odoritzant que permet detectar les fuites. Recorda que el metà és inflamable entre el 5 % i el 15 % en aire (tema 8).",
+          "text": "La prioritat no és mesurar amb precisió, sinó detectar la presència de tensió per protegir-se i verificar-ne l'absència per actuar. El detector sense contacte avisa amb llum i so; si pita hi ha tensió, però si no pita no es pot assegurar: cal una segona comprovació amb voltímetre. El tornavís buscapols té una gran resistència en sèrie i només serveix per a 230 V fase-terra. El discriminador de tensió indica el nivell entre dos punts. El voltímetre (multímetre o tester) dona un valor precís; cal triar un rang superior (bateries d'un camió: 200 V DC; xarxa: 500 V AC). La pinça amperimètrica mesura la intensitat sense tallar el cable.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, gas natural",
+              "ref": "MAN.GRAL.007, 2.4 Aparells de mesura",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "La seva composició varia segons l’origen, però està format majoritàriament per metà (90–95%), tot i que també pot contenir petites quantitats de nitrogen, CO₂ i altres gasos."
+              "quote": "La nostra prioritat no és fer una mesura acurada, sinó detectar la presència de tensió per protegir-nos, i verificar-ne l'absència per actuar."
             },
             {
-              "ref": "MAN.GRAL.007, gas natural",
+              "ref": "MAN.GRAL.007, 2.4.1 Detector sense contacte",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "El gas natural és menys dens que l’aire i té un alt poder calorífic, cosa que el fa molt eficient com a combustible. […] No és tòxic i és inolor (per això se li afegeix un component químic odoritzant per facilitar-ne la detecció en cas de fuita)."
+              "quote": "Per tant, l'absència de senyal no eximeix de fer una segona comprovació amb un voltímetre per confirmar que realment no hi ha tensió."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.4.2 Buscapols",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Important: El buscapols només està dissenyat per a les tensions usuals de la xarxa, 230 V entre la fase i el terra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Regles de seguretat: les 5 regles d'or i la protecció personal",
+      "blocks": [
+        {
+          "text": "La manera més segura d'intervenir és sense tensió. Les 5 regles d'or, en aquest ordre: 1) desconnectar totes les fonts d'alimentació (atenció a bateries i condensadors); 2) prevenir la realimentació, amb cadenats o bloquejos i senyalitzant els treballs («Treballs en curs», «No connectar»); 3) verificar l'absència de tensió amb discriminador o voltímetre en tots els conductors i respecte a terra; 4) posar a terra i en curtcircuit (personal qualificat); 5) protegir i senyalitzar la zona de treball.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 2.5 Les 5 regles d'or",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "1) Desconnectar la font d’alimentació Cal desconnectar la instal·lació per deixar-la sense tensió."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.5 Les 5 regles d'or",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "2) Prevenir qualsevol possible realimentació Els dispositius utilitzats per desconnectar la instal·lació s’han d’assegurar contra qualsevol possible reconnexió, amb cadenats o bloquejos. […] Així mateix, cal senyalitzar adequadament la realització de treballs en la instal·lació elèctrica (\"Treballs en curs\", \"No connectar\", etc.) per evitar rearmats."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.5 Les 5 regles d'or",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "3) Verificar l’absència de tensió Aquest pas és importantíssim."
+            }
+          ]
+        },
+        {
+          "text": "Si cal actuar amb tensió: primer, distàncies de seguretat (a alta tensió el corrent pot saltar per l'aire); després, eines i equips dielèctrics. Si la tensió supera la capacitat dels equips, cal abstenir-se d'actuar. Equips: eines dielèctriques marcades, perxa de salvament (agafada només pel mànec, fins a l'anell de guarda), guants dielèctrics de la classe adequada (els de cuir no aïllen), botes amb sola dielèctrica, casc certificat fins a 440 V, banqueta o estora aïllant i escales de fibra.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 2.6.2 Equips dielèctrics",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Si la tensió de la instal·lació és superior a la capacitat dels nostres equips, ens hem d'abstenir d'actuar. La seguretat no és negociable."
+            },
+            {
+              "ref": "MAN.GRAL.007, 2.6.2 Casc",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "El casc d’intervenció pesant està certificat com aïllant fins a 440 V."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Instal·lacions d'aigua: subministrament i evacuació",
+      "blocks": [
+        {
+          "text": "Hi ha la xarxa d'aigua sanitària (potable) i la de sanejament (residuals i pluvials). Parts del subministrament en un edifici: escomesa (connexió amb la xarxa exterior: collet de presa, tub d'escomesa i clau de tall exterior), clau de tall general (talla tot l'edifici), filtre, armari del comptador general (clau de tall, filtre, comptador, aixeta de prova, vàlvula de retenció, clau de sortida), tubs d'alimentació, distribuïdor principal, ascendents o muntants (porten l'aigua verticalment pels pisos), comptadors divisionaris i instal·lació particular.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 3.1.1 Escomesa",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "L’escomesa és la connexió amb la xarxa exterior. Inclou: − Clau o collet de presa, que connecta amb la canonada de distribució."
+            },
+            {
+              "ref": "MAN.GRAL.007, 3.1.3 Clau de tall general",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Serveix per interrompre el subministrament a tot l’edifici."
+            },
+            {
+              "ref": "MAN.GRAL.007, 3.1.8 Muntants",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Porten l’aigua verticalment pels pisos."
+            }
+          ]
+        },
+        {
+          "text": "El sanejament condueix aigües negres (vàters), grises (piques, dutxes, rentadores) i pluvials. L'evacuació és per gravetat, amb baixants i desguassos de PVC gris; les xarxes poden ser separatives o unitàries. Els col·lectors soterrats van per sota de l'aigua potable amb pendent mínim del 2 %; els baixants es connecten amb una arqueta de peu de baixant no sifònica i cal preveure registres cada 15 m. El sifó (U invertida) desguassa per gravetat si és ple i la sortida és per sota de la superfície lliure del dipòsit.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 3.2 Evacuació",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "L’evacuació es fa principalment per gravetat, mitjançant conductes verticals (baixants) i desguassos, amb canonades habitualment de PVC gris."
+            },
+            {
+              "ref": "MAN.GRAL.007, 3.2.1 Col·lectors soterrats",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "sempre per sota de la xarxa d’aigua potable i amb un pendent mínim del 2%. L’escomesa dels baixants i la connexió dels manegots a la xarxa s’ha de realitzar mitjançant una arqueta de peu de baixant no sifònica, i s’han de preveure registres cada 15 metres"
+            },
+            {
+              "ref": "MAN.GRAL.007, 3.2.1 Sifó",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Necessita estar ple perquè la columna de líquid d’una branca arrossegui la de l’altra. Funciona mentre el nivell de sortida estigui situat per sota de la superfície lliure del dipòsit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Instal·lacions de gas: gasos domèstics i gas natural",
+      "blocks": [
+        {
+          "text": "Gasos domèstics: els GLP (propà i butà), emmagatzemats en estat líquid en bombones o dipòsits, i els gasos canalitzats (gas natural). Sense xarxa canalitzada, el més habitual és el butà en bombones; la instal·lació té bombona (la UD-125, amb 12,5 kg), regulador de pressió (amb clau de pas) i tub flexible.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 4.1 Gasos domèstics",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "El subministrament més habitual dels habitatges que no estan connectats a la xarxa de gas canalitzat, és el gas butà envasat en bombones, i els elements principals de la instal·lació de gas butà són la bombona, el regulador de pressió i el tub flexible."
+            },
+            {
+              "ref": "MAN.GRAL.007, 4.1 Bombona",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "En els habitatges s’utilitza la UD-125 que conté una càrrega de 12,5 kg de butà."
+            }
+          ]
+        },
+        {
+          "text": "El gas natural és majoritàriament metà (90-95 %). És menys dens que l'aire, té un alt poder calorífic, no és tòxic i és inodor, per això porta odoritzant; pot causar asfíxia si desplaça l'oxigen. Pressions: xarxa bàsica, més de 60 bar; transport secundari, 16-60 bar; distribució, fins a 16 bar; als aparells domèstics, uns 20 mbar. El metà és inflamable entre el 5 % i el 15 % en aire (tema 8).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 4.2 Gas natural",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "La seva composició varia segons l’origen, però està format majoritàriament per metà (90–95%)"
+            },
+            {
+              "ref": "MAN.GRAL.007, 4.2 Gas natural",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "El gas natural és menys dens que l’aire i té un alt poder calorífic, cosa que el fa molt eficient com a combustible. No és tòxic i és inolor (per això se li afegeix un component químic odoritzant per facilitar-ne la detecció en cas de fuita). Malgrat no ser tòxic, pot causar asfíxia si desplaça l’oxigen de l’ambient."
+            },
+            {
+              "ref": "MAN.GRAL.007, 4.2 Pressions",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "En els aparells domèstics alimentats amb gas natural, la pressió d’utilització habitual és de l’ordre de 20 mbar (0,020 bar)"
             },
             {
               "ref": "MAN.GRAL.008, taula de rangs",
@@ -334,41 +523,41 @@
               "quote": "Metà (gas natural) 5 15 10"
             }
           ]
-        },
-        {
-          "text": "Als habitatges no connectats a la xarxa de gas canalitzat, el subministrament més habitual és el butà envasat en bombones. Els elements principals d'aquesta instal·lació són la bombona, el regulador de pressió i el tub flexible.",
-          "refs": [
-            {
-              "ref": "MAN.GRAL.007, gas butà",
-              "law": "MAN.GRAL.007",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "El subministrament més habitual dels habitatges que no estan connectats a la xarxa de gas canalitzat, és el gas butà envasat en bombones, i els elements principals de la instal·lació de gas butà són la bombona, el regulador de pressió i el tub flexible."
-            }
-          ]
         }
       ]
     },
     {
-      "n": "9",
-      "title": "Claus de tall de gas i aparells gasodomèstics",
+      "n": "12",
+      "title": "Instal·lació de gas domèstica, claus de tall i aparells gasodomèstics",
       "blocks": [
         {
-          "text": "En un edifici plurifamiliar hi ha diverses claus de tall. La clau d'edifici és el dispositiu de tall més proper a l'edifici, accionable des de l'exterior, que interromp el pas de gas a la instal·lació comuna que alimenta l'immoble. La clau de muntant col·lectiu s'instal·la quan hi ha més d'un muntant col·lectiu. Una altra clau separa la instal·lació comuna de la individual i permet tallar el gas només a un abonat.",
+          "text": "Les canonades interiors solen ser de coure, vistes; quan travessen espais tancats van embeinades en tub d'acer. Els tubs flexibles de seguretat no poden superar 1,5 m. Claus segons accessibilitat: grau 1 (accés directe), grau 2 (armari o registre amb clau normalitzada) i grau 3 (calen escales o mitjans especials, o zona privada).",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, clau d'edifici",
+              "ref": "MAN.GRAL.007, 4.2.1 Canonades",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "És el dispositiu de tall més proper a l’edifici, accionable des de l’exterior, que permet interrompre el pas de gas a la instal·lació comuna que alimenta l’immoble."
+              "quote": "Els aparells mòbils es connecten amb tubs flexibles de seguretat, que incorporen sistemes d’autotall en cas de despreniment. La seva longitud màxima no pot superar 1,5 metres."
+            }
+          ]
+        },
+        {
+          "text": "Claus segons ubicació: d'escomesa (al límit de propietat, accessible des de l'exterior); d'edifici (no sempre existeix: la més propera a l'edifici, accionable des de fora, talla la instal·lació comuna); de muntant col·lectiu (quan hi ha més d'un muntant); d'usuari (separa la instal·lació comuna de la individual); de comptador; i de connexió d'aparell. Els reguladors redueixen la pressió (la distribució pot arribar fins a 4 bar).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 4.2.1 Clau d'edifici",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Clau d’edifici (no sempre existeix): És el dispositiu de tall més proper a l’edifici, accionable des de l’exterior, que permet interrompre el pas de gas a la instal·lació comuna que alimenta l’immoble."
             },
             {
-              "ref": "MAN.GRAL.007, clau de muntant col·lectiu",
+              "ref": "MAN.GRAL.007, 4.2.1 Clau de muntant col·lectiu",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "S’instal·la quan hi ha més d’un muntant col·lectiu."
             },
             {
-              "ref": "MAN.GRAL.007, clau d'abonat",
+              "ref": "MAN.GRAL.007, 4.2.1 Clau d'usuari",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "Separa la instal·lació comuna de la instal·lació individual i permet interrompre el pas de gas només a aquell abonat."
@@ -376,13 +565,25 @@
           ]
         },
         {
-          "text": "Els aparells gasodomèstics necessiten ventilació: les entrades d'aire permeten l'entrada i la renovació d'aire des de l'exterior, garanteixen una combustió correcta i eviten la formació de monòxid de carboni (CO), un gas altament tòxic. La classificació dels aparells gasodomèstics no és als extractes revisats.",
+          "text": "Les reixetes de ventilació garanteixen la combustió correcta i eviten el monòxid de carboni (CO); els conductes d'evacuació són obligatoris en escalfadors, calderes i aparells de 4,7 kW o més. Els aparells gasodomèstics tenen un cremador (el més habitual, atmosfèric de flama blava) i es classifiquen en circuit obert (prenen l'aire del local: cuines, estufes mòbils) i circuit estanc (hermètics respecte al local: algunes calderes i escalfadors).",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, ventilació",
+              "ref": "MAN.GRAL.007, 4.2.1 Ventilació",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "Permeten l’entrada i renovació d’aire des de l’exterior, garantint una combustió correcta dels aparells i evitant la formació de monòxid de carboni (CO), un gas altament tòxic."
+            },
+            {
+              "ref": "MAN.GRAL.007, 4.2.1 Conductes d'evacuació",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Són obligatoris en escalfadors, calderes i en qualsevol aparell de gas amb una potència igual o superior a 4,7 kW."
+            },
+            {
+              "ref": "MAN.GRAL.007, 4.3 Aparells gasodomèstics",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Aparells de Circuit Obert: Capten l’aire necessari per a la combustió directament de l’ambient del recinte on estan instal·lats."
             }
           ]
         }
@@ -393,10 +594,10 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Baixa tensió: fins a 1.000 V en altern. A l'alta tensió, sempre amb personal de la companyia elèctrica.",
+          "text": "BT: fins a 1.000 V en altern (REBT: també 1.500 V en continu). MT: 1-36 kV. Transport: 220 i 400 kV, operat per REE. A l'AT, sempre amb la companyia.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, baixa tensió",
+              "ref": "MAN.GRAL.007, 2.2.3",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "Baixa tensió (BT), fins a 1000 V en corrent altern"
@@ -404,21 +605,21 @@
           ]
         },
         {
-          "text": "CGP: frontera entre distribució i abonat. Instal·lacions d'enllaç: de l'abonat, que les conserva. IGM: obligatori amb més de dos usuaris.",
+          "text": "CGP: frontera distribució/abonat. Enllaç: de l'abonat. IGM: obligatori amb més de dos usuaris.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, CGP",
+              "ref": "MAN.GRAL.007, 2.2.6",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "el punt frontera entre la distribució i la instal·lació del client o abonat"
+              "quote": "És obligatori en les centralitzacions de més de dos usuaris"
             }
           ]
         },
         {
-          "text": "IGA: magnetotèrmic a l'inici del quadre que protegeix tota la instal·lació. C25 1P+N: 25 A, corba C, un pol protegit, tall de fase i neutre.",
+          "text": "IGA: magnetotèrmic a l'inici del quadre. C25 1P+N: 25 A, corba C, un pol, tall de fase i neutre. Mínim al quadre: IGA + diferencial.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, marcatge",
+              "ref": "MAN.GRAL.007, 2.3.2",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "C25 1P+N indica 25 A de corrent nominal, corba C"
@@ -426,10 +627,10 @@
           ]
         },
         {
-          "text": "Diferencial: la protecció més important per a les persones; 30 mA als habitatges; només protegeix aigües avall. Cal el conjunt neutre a terra + diferencial + terra de les masses.",
+          "text": "Diferencial: 30 mA a habitatges, 100-300 mA indústria, 10 mA ambients humits. Només aigües avall. Neutre a terra + diferencial + terra de les masses.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, sensibilitat",
+              "ref": "MAN.GRAL.007, 2.3.3",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "30 mA: obligatori a habitatges"
@@ -437,21 +638,32 @@
           ]
         },
         {
-          "text": "Regles d'or: 1a, desconnectar; 2a, evitar la realimentació amb cadenats o bloquejos. Sense senyal, cal comprovar amb voltímetre.",
+          "text": "Detector sense contacte: si no pita, cal comprovar amb voltímetre. Buscapols: només 230 V.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, primera regla",
+              "ref": "MAN.GRAL.007, 2.4.1",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "1) Desconnectar la font d’alimentació"
+              "quote": "l'absència de senyal no eximeix de fer una segona comprovació amb un voltímetre"
             }
           ]
         },
         {
-          "text": "Aigua: escomesa = connexió amb la xarxa exterior. Evacuació per gravetat i registres cada 15 m. Sifó: ple i amb la sortida per sota del nivell del dipòsit.",
+          "text": "Regles d'or: desconnectar, evitar realimentació (cadenats i senyals), verificar absència de tensió, terra i curtcircuit, senyalitzar la zona.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, registres",
+              "ref": "MAN.GRAL.007, 2.5",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "5) Protegir i senyalitzar la zona de treball"
+            }
+          ]
+        },
+        {
+          "text": "Aigua: escomesa = connexió amb la xarxa exterior; registres cada 15 m; pendent mínim 2 %; sifó ple i sortida per sota del dipòsit.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.007, 3.2.1",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "s’han de preveure registres cada 15 metres"
@@ -459,24 +671,13 @@
           ]
         },
         {
-          "text": "Gas natural: metà al 90-95 %, menys dens que l'aire, no tòxic, inodor (porta odoritzant). Butà: bombona, regulador i tub flexible.",
+          "text": "Gas natural: metà 90-95 %, més lleuger que l'aire, no tòxic, inodor; 20 mbar als aparells. Butà: UD-125 de 12,5 kg. Flexible: màxim 1,5 m. Evacuació obligatòria des de 4,7 kW.",
           "refs": [
             {
-              "ref": "MAN.GRAL.007, gas natural",
+              "ref": "MAN.GRAL.007, 4.2",
               "law": "MAN.GRAL.007",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
               "quote": "El gas natural és menys dens que l’aire"
-            }
-          ]
-        },
-        {
-          "text": "Clau d'edifici: la més propera a l'edifici, accionable des de fora. Clau de muntant col·lectiu: quan hi ha més d'un muntant.",
-          "refs": [
-            {
-              "ref": "MAN.GRAL.007, clau de muntant col·lectiu",
-              "law": "MAN.GRAL.007",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
-              "quote": "S’instal·la quan hi ha més d’un muntant col·lectiu."
             }
           ]
         }

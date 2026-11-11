@@ -72,27 +72,56 @@
   "lessons": [
     {
       "n": "1",
-      "title": "Magnituds i unitats del Sistema Internacional",
+      "title": "Magnituds i unitats: el Sistema Internacional",
       "blocks": [
         {
-          "text": "El manual de física recull en una taula les magnituds fonamentals del Sistema Internacional (SI) amb el seu símbol i la seva unitat. Una dada que surt a l'examen és la de la intensitat lluminosa: el seu símbol és Iv i la seva unitat és la candela (cd).",
+          "text": "Una magnitud és qualsevol propietat d'un cos o fenomen que es pot mesurar (massa, distància); la unitat és la mesura que fem servir per a aquesta magnitud. El manual se centra en la mecànica clàssica, la branca que descriu el moviment dels objectes i les forces que els afecten.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, taula del SI",
+              "ref": "MAN.GRAL.003, 2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Intensitat lluminosa Iv candela cd"
+              "quote": "Una magnitud és qualsevol propietat d'un cos o fenomen que es pot mesurar, com la massa o la distància. Una unitat és la mesura que utilitzem per a aquesta magnitud."
             }
           ]
         },
         {
-          "text": "La resta de la taula (magnituds fonamentals i derivades), les equivalències, els prefixos i la conversió d'unitats no són als extractes revisats. Tampoc no hi ha el bloc de geometria i trigonometria aplicades (àrees, volums, teorema de Pitàgores, sinus, cosinus i tangent). Cal consultar el manual MAN.GRAL.003 sencer. Un exemple de conversió que sí que fa el manual és el del temps: 1 h i 15 minuts són 1,25 h (apartat 4).",
+          "text": "El Sistema Internacional (SI) té 7 unitats fonamentals: longitud (metre, m), massa (quilogram, kg), temps (segon, s), temperatura (kelvin, K), intensitat de corrent (ampere, A), quantitat de substància (mol) i intensitat lluminosa (candela, cd, símbol de la magnitud Iv). Les tres primeres són les fonamentals de la mecànica clàssica.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, cinemàtica",
+              "ref": "MAN.GRAL.003, 2.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Si un camió triga 1 h i 15 minuts (1,25 h), aleshores a quina velocitat va?"
+              "quote": "hi ha 7 unitats fonamentals, que serveixen com a base per definir totes les altres magnituds (derivades)"
+            },
+            {
+              "ref": "MAN.GRAL.003, taula SI",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Intensitat lluminosa Iv candela cd"
+            },
+            {
+              "ref": "MAN.GRAL.003, 2.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "les 3 primeres (longitud, massa i temps) són les fonamentals de la mecànica clàssica."
+            }
+          ]
+        },
+        {
+          "text": "Les magnituds derivades s'obtenen combinant les fonamentals: superfície (m²), volum (m³), velocitat (m/s), acceleració (m/s²), força (newton, N), pressió (pascal, Pa), treball i energia (joule, J), potència (watt, W) i angles (radiants, rad). El nom de la unitat s'escriu en minúscula (newton); el símbol, en majúscula si ve d'un personatge històric (N, J).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 2.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Les magnituds derivades són aquelles que s'obtenen combinant les magnituds fonamentals."
+            },
+            {
+              "ref": "MAN.GRAL.003, 2.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "el seu símbol s'escriu amb majúscula si la unitat deu el seu nom a un personatge històric (per exemple, N de Newton, J de Joule)."
             }
           ]
         }
@@ -100,22 +129,50 @@
     },
     {
       "n": "2",
-      "title": "Magnituds escalars i vectorials",
+      "title": "Equivalències, prefixos i conversió d'unitats",
       "blocks": [
         {
-          "text": "Una magnitud escalar queda definida del tot amb un número i la unitat corresponent. Una magnitud vectorial necessita més informació per quedar definida. El manual posa la força com a exemple perfecte de magnitud vectorial.",
+          "text": "Equivalències d'ús habitual: 1 h = 3.600 s; T(K) = T(°C) + 273; 1 ha = 10.000 m²; 1 L = 0,001 m³ = 1.000 cm³; 1 m/s = 3,6 km/h; 1 bar = 100.000 Pa; 1 kgf = 9,8 N; 1 CV = 735,5 W; 1 rad = 57,3°. A la pràctica, 1 bar ≈ 1 kg/cm² ≈ 10 mca, i 1 kgf ≈ 10 N (quan col·loquialment diem «quilos» de força, parlem de kgf).",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, magnituds escalars",
+              "ref": "MAN.GRAL.003, 2.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Magnituds escalars Una magnitud escalar es defineix completament amb un número i la unitat corresponent."
+              "quote": "Velocitat Quilòmetres per hora Km/h 1 m/s = 3,6 km/h"
             },
             {
-              "ref": "MAN.GRAL.003, magnituds vectorials",
+              "ref": "MAN.GRAL.003, 2.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Magnituds vectorials Una magnitud vectorial requereix més informació per ser definida. […] La força és un exemple perfecte per il·lustrar aquest concepte."
+              "quote": "Força Quilogram de força kgf 1 kgf = 9,8 N Potència Cavall de vapor CV 1 CV = 735,5 W"
+            },
+            {
+              "ref": "MAN.GRAL.003, 2.3",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "A la pràctica es fa l’equivalència aproximada d’1 bar ≈ 1 kg/cm 2 ≈ 10 mca."
+            }
+          ]
+        },
+        {
+          "text": "Els prefixos del SI multipliquen o divideixen per potències de 10: giga (G, 10⁹), mega (M, 10⁶), kilo (k, 10³), hecto (h, 10²), deca (da, 10); deci (d, 0,1), centi (c, 0,01), mili (m, 0,001), micro (μ, 10⁻⁶) i nano (n, 10⁻⁹). Exemple: 1 daN = 10 N ≈ 1 kgf.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 2.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "S'afegeixen al principi de la unitat per indicar que s'ha de multiplicar o dividir per una potència de 10."
+            }
+          ]
+        },
+        {
+          "text": "Per convertir unitats es fa servir el factor de conversió, una fracció que val 1 (el numerador i el denominador són la mateixa quantitat en unitats diferents). Regla d'or: en una fórmula no es poden barrejar unitats; totes han de ser coherents.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 2.5",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "En l'aplicació de qualsevol fórmula física, no es poden barrejar unitats."
             }
           ]
         }
@@ -123,30 +180,47 @@
     },
     {
       "n": "3",
-      "title": "Forces i parells de forces",
+      "title": "Magnituds escalars i vectorials; força i parell de forces",
       "blocks": [
         {
-          "text": "Un parell de forces és un sistema de dues forces iguals en mòdul i direcció, però de sentit contrari, que actuen sobre un mateix objecte en punts d'aplicació diferents. Aquestes dues forces produeixen un efecte de rotació, però no de translació.",
+          "text": "Una magnitud escalar es defineix completament amb un número i la seva unitat: només té valor o mòdul, sense direcció ni sentit (massa, temperatura, temps, volum). Una magnitud vectorial, a més del mòdul, té direcció i sentit; la força n'és l'exemple perfecte. Un vector es representa amb una fletxa: mòdul (longitud), direcció (la línia), sentit (la punta) i punt d'aplicació (l'origen).",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, parell de forces",
+              "ref": "MAN.GRAL.003, 2.6.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Parell de Forces Un parell de forces és un sistema de dues forces iguals en mòdul i direcció, però de sentit contrari, que actuen sobre un mateix objecte en punts d'aplicació diferents."
+              "quote": "Una magnitud escalar es defineix completament amb un número i la unitat corresponent. Només tenen un valor o mòdul. No tenen ni direcció ni sentit."
             },
             {
-              "ref": "MAN.GRAL.003, parell de forces",
+              "ref": "MAN.GRAL.003, 2.6.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Aquestes dues forces tenen un efecte de rotació, però no de translació."
+              "quote": "A més del seu valor (o mòdul), també tenen una direcció i un sentit. La força és un exemple perfecte per il·lustrar aquest concepte."
             }
           ]
         },
         {
-          "text": "El parell de forces (o moment de força) es mesura en newton-metre (N·m). Es calcula multiplicant el valor d'una de les forces per la distància que separa els seus punts d'aplicació.",
+          "text": "Una força és qualsevol acció que pot canviar l'estat de moviment d'un objecte o deformar-lo; el seu efecte principal és la translació, es mesura en newtons i pot actuar per contacte o a distància. Es pot descompondre en components perpendiculars (Fx i Fy).",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, moment de força",
+              "ref": "MAN.GRAL.003, 2.6.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "El seu efecte principal és la translació de l'objecte en la direcció en què s'aplica."
+            }
+          ]
+        },
+        {
+          "text": "Un parell de forces és un sistema de dues forces iguals en mòdul i direcció però de sentit contrari, aplicades en punts diferents: produeix rotació però no translació. El parell o moment de força (M o T, de torque) es mesura en newton-metre (Nm) i es calcula multiplicant una de les forces per la distància entre els punts d'aplicació. Exemples: girar el volant, una clau anglesa, el motor que fa girar les rodes.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 2.6.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Un parell de forces és un sistema de dues forces iguals en mòdul i direcció, però de sentit contrari, que actuen sobre un mateix objecte en punts d'aplicació diferents. Aquestes dues forces tenen un efecte de rotació, però no de translació."
+            },
+            {
+              "ref": "MAN.GRAL.003, 2.6.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Es mesura en newton-metre (Nm), i es calcula multiplicant el valor d'una de les forces per la distància que separa els seus punts d'aplicació."
@@ -157,27 +231,50 @@
     },
     {
       "n": "4",
-      "title": "Cinemàtica: moviment rectilini uniforme",
+      "title": "Geometria i trigonometria aplicades",
       "blocks": [
         {
-          "text": "El moviment rectilini uniforme (MRU) és el model de moviment més senzill: el cos es mou en línia recta a velocitat constant, sense accelerar ni desaccelerar (a = 0). En un MRU, la velocitat és l'espai recorregut dividit pel temps.",
+          "text": "Les figures complexes es descomponen en rectangles i triangles per calcular-ne àrees. Exemple del manual: un dipòsit d'1 × 2 × 1,5 m té 3 m³; com que l'aigua té una densitat de 1.000 kg/m³, conté 3.000 kg d'aigua.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, MRU",
+              "ref": "MAN.GRAL.003, 3.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Moviment Rectilini Uniforme (MRU) És el model més senzill de moviment en què un cos es mou en línia recta a velocitat constant, és a dir ni accelera ni desaccelera (a=0)."
+              "quote": "Per estimar el pes de l'aigua en un dipòsit de base rectangular d’1 m per 2 m de costat, i 1,5 m d’alt."
             }
           ]
         },
         {
-          "text": "Exemple resolt al manual: un camió triga 1 h i 15 minuts, és a dir, 1,25 h. Si fa a velocitat constant els 100 km entre Barcelona i Girona, la velocitat és 100 km / 1,25 h = 80 km/h. Fixa't que primer cal passar els minuts a fracció d'hora. El moviment uniformement accelerat i la resta de cinemàtica no són als extractes revisats.",
+          "text": "El teorema de Pitàgores s'aplica només a triangles rectangles: el quadrat de la hipotenusa és igual a la suma dels quadrats dels catets. Exemple: per arribar a 6 m d'alçada amb la base a 3 m de la paret, l'escala ha de fer √45 ≈ 6,7 m (n'hi ha prou amb una de 7 m). La regla del 3-4-5 (i múltiples, com 6-8-10) permet comprovar un angle recte.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, MRU",
+              "ref": "MAN.GRAL.003, 3.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Si un camió triga 1 h i 15 minuts (1,25 h), aleshores a quina velocitat va?"
+              "quote": "El teorema estableix que el quadrat de la hipotenusa (el costat més llarg del triangle, c) és igual a la suma dels quadrats dels altres dos costats (els catets, a i b)."
+            },
+            {
+              "ref": "MAN.GRAL.003, 3.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Sí, amb l’escala extensible de 7 m hi arribarem."
+            }
+          ]
+        },
+        {
+          "text": "La trigonometria relaciona costats i angles amb el sinus, el cosinus i la tangent. Valors per recordar: sin 30° = 0,5; sin 60° = 0,866; sin 45° ≈ 0,7; cos 60° = 0,5. Exemple de l'autoescala: amb un braç de 30 m a 60°, l'alçada és 30 · sin 60° ≈ 26 m (sinus: costat oposat/hipotenusa) i la distància a la façana, 30 · cos 60° = 15 m (cosinus: costat adjacent/hipotenusa).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 3.3",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Les funcions bàsiques són el sinus (sin), el cosinus (cos) i la tangent (tan)."
+            },
+            {
+              "ref": "MAN.GRAL.003, 3.3",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Utilitzem el sinus, ja que relaciona el costat oposat (alçada) amb la hipotenusa (braç de l'escala)."
             }
           ]
         }
@@ -185,19 +282,75 @@
     },
     {
       "n": "5",
-      "title": "Dinàmica: les lleis de Newton",
+      "title": "Cinemàtica",
       "blocks": [
         {
-          "text": "Primera llei o llei d'inèrcia: un cos en repòs continua en repòs i un cos en moviment continua en moviment rectilini uniforme, llevat que hi actuï una força externa. Exemple del manual: quan un vehicle de bombers frena de cop, les eines mal subjectades continuen avançant per inèrcia.",
+          "text": "La cinemàtica estudia el moviment sense tenir en compte les forces que el causen. Conceptes: posició, temps, distància, velocitat (rapidesa del canvi de posició) i acceleració (com canvia la velocitat).",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, llei d'inèrcia",
+              "ref": "MAN.GRAL.003, 4.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Llei d'Inèrcia Un cos en repòs continuarà en repòs, i un cos en moviment continuarà en moviment rectilini uniforme, a menys que una força externa actuï sobre ell."
+              "quote": "La cinemàtica estudia el moviment d'un cos sense tenir en compte les causes (forces) que el provoquen."
+            }
+          ]
+        },
+        {
+          "text": "En el moviment rectilini uniforme (MRU) el cos va en línia recta a velocitat constant (a = 0) i v = d/t. Exemples del manual: els 100 km de Barcelona a Girona a 120 km/h es fan en 0,83 h (50 min); un camió que hi triga 1 h 15 min (1,25 h) va a 100/1,25 = 80 km/h.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 4.1.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "És el model més senzill de moviment en què un cos es mou en línia recta a velocitat constant, és a dir ni accelera ni desaccelera (a=0)."
             },
             {
-              "ref": "MAN.GRAL.003, llei d'inèrcia",
+              "ref": "MAN.GRAL.003, 4.1.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Si un camió triga 1 h i 15 minuts (1,25 h), aleshores a quina velocitat va?"
+            }
+          ]
+        },
+        {
+          "text": "En el moviment uniformement accelerat (MUA) l'acceleració és constant: a = (vf − vi)/t (frenada d'un cotxe, caiguda lliure amb g = 9,8 m/s²). Exemple: un vehicle a 72 km/h (20 m/s) que frena a −5 m/s² s'atura en 4 s i recorre 40 m. La velocitat mitjana és la que, constant, faria la mateixa distància en el mateix temps.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 4.1.3",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "És un model senzill on un cos experimenta una acceleració constant, és a dir la seva velocitat canvia de manera uniforme al llarg del temps."
+            }
+          ]
+        },
+        {
+          "text": "En el moviment circular s'usen la velocitat angular (ω, radiants per segon) i l'acceleració centrípeta, que apunta sempre cap al centre. Per girar cal una força centrípeta (en un vehicle, el fregament dels pneumàtics amb l'asfalt); la «força centrífuga» és en realitat la reacció que percebem.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 4.1.5",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "En l'exemple d'un vehicle agafant una corba, la força centrípeta és el fregament dels pneumàtics amb l'asfalt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Dinàmica: les tres lleis de Newton",
+      "blocks": [
+        {
+          "text": "Primera llei (inèrcia): un cos en repòs continua en repòs i un cos en moviment continua en moviment rectilini uniforme si cap força externa no hi actua. Exemple: quan un vehicle de bombers frena de cop, les eines mal subjectades continuen endavant.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 4.2.1.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Un cos en repòs continuarà en repòs, i un cos en moviment continuarà en moviment rectilini uniforme, a menys que una força externa actuï sobre ell."
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.2.1.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Quan un vehicle de bombers frena de cop, les eines mal subjectades a l'interior continuen el seu moviment cap endavant a causa de la inèrcia."
@@ -205,16 +358,16 @@
           ]
         },
         {
-          "text": "Segona llei o llei fonamental: la força neta que actua sobre un cos és directament proporcional a l'acceleració que experimenta i a la seva massa. Per tant, si la força neta és nul·la (la força amb què empenyem iguala la resistència que s'oposa a avançar), el cotxe o no es mou o no accelera: manté la velocitat constant.",
+          "text": "Segona llei (fonamental de la dinàmica): F = m · a, amb la força neta en N, la massa en kg i l'acceleració en m/s². Amb la mateixa força, una moto accelera més que un cotxe perquè té menys massa. Si la força neta és nul·la, el cos no es mou o manté la velocitat constant.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, segona llei",
+              "ref": "MAN.GRAL.003, 4.2.1.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "La força neta que actua sobre un cos és directament proporcional a l'acceleració que experimenta i a la seva massa."
+              "quote": "La fórmula és: F= m.a"
             },
             {
-              "ref": "MAN.GRAL.003, força neta nul·la",
+              "ref": "MAN.GRAL.003, 4.2.1.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Si la força neta o resultant és nul·la, és a dir, la força amb què empenyem és igual a la resistència que s’oposa a avançar, el cotxe o no es mou o no accelera (manté la velocitat constant)."
@@ -222,16 +375,16 @@
           ]
         },
         {
-          "text": "Tercera llei o llei d'acció-reacció: per a cada força d'acció hi ha una força de reacció igual en magnitud i oposada en direcció. Aplicació al vehicle: el terra reacciona empenyent les rodes cap endavant, i aquesta és la força que el fa avançar.",
+          "text": "Tercera llei (acció-reacció): a cada força d'acció correspon una força de reacció igual i oposada. Quan un vehicle avança, les rodes empenyen el terra cap enrere per fricció i el terra empeny les rodes cap endavant: aquesta reacció fa avançar el vehicle.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, acció-reacció",
+              "ref": "MAN.GRAL.003, 4.2.1.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Llei d'Acció-Reacció Aquesta llei afirma que per a cada força d'acció, hi ha una força de reacció que és igual en magnitud i oposada en direcció."
+              "quote": "per a cada força d'acció, hi ha una força de reacció que és igual en magnitud i oposada en direcció."
             },
             {
-              "ref": "MAN.GRAL.003, acció-reacció",
+              "ref": "MAN.GRAL.003, 4.2.1.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "El terra reacciona empenyent les rodes cap endavant, que és la força que fa que el vehicle avanci."
@@ -241,57 +394,40 @@
       ]
     },
     {
-      "n": "6",
-      "title": "Inèrcia de rotació i quantitat de moviment",
-      "blocks": [
-        {
-          "text": "La massa dona idea de la resistència d'un cos a canviar la seva velocitat lineal; el moment d'inèrcia mesura la resistència d'un cos a modificar la seva velocitat de rotació. El desenvolupament de la quantitat de moviment no és als extractes revisats; cal consultar el manual.",
-          "refs": [
-            {
-              "ref": "MAN.GRAL.003, moment d'inèrcia",
-              "law": "MAN.GRAL.003",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Mentre que la massa dona idea de la resistència d'un cos a canviar la seva velocitat lineal, el moment d'inèrcia mesura la resistència d'un cos a modificar la seva velocitat de rotació."
-            }
-          ]
-        }
-      ]
-    },
-    {
       "n": "7",
-      "title": "Treball i energia",
+      "title": "Quantitat de moviment i estàtica",
       "blocks": [
         {
-          "text": "L'energia cinètica (Ec) és l'energia que té un cos a causa del seu moviment. L'energia potencial gravitacional és la que té un objecte a causa de la seva alçada. A l'examen, no confonguis l'energia potencial (lligada a l'alçada) amb la cinètica (lligada a la velocitat).",
+          "text": "La quantitat de moviment és una magnitud vectorial, p = m · v, que es mesura en kg·m/s; l'entenem com la inèrcia del cos. En un sistema aïllat es conserva abans i després d'un xoc (pèndol de Newton). Exemple: un camió de 10.000 kg a 10 m/s xoca amb un cotxe de 2.000 kg a 20 m/s en sentit contrari; queden enganxats i es mouen a 5 m/s en el sentit del camió.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, energia cinètica",
+              "ref": "MAN.GRAL.003, 4.2.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Energia cinètica (Ec) És l'energia que té un cos a causa del seu moviment."
+              "quote": "p és la quantitat de moviment (en kg·m/s)"
             },
             {
-              "ref": "MAN.GRAL.003, energia potencial",
+              "ref": "MAN.GRAL.003, 4.2.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada."
+              "quote": "en un sistema aïllat (on no hi ha forces externes que hi actuïn), la quantitat de moviment total del sistema es manté constant abans i després d'un esdeveniment, com un xoc."
             }
           ]
         },
         {
-          "text": "Hi ha forces que s'oposen al moviment: actuen sempre en sentit contrari i tendeixen a frenar-lo. Són forces no conservatives el fregament, la resistència aerodinàmica i el fregament en líquids, com la pèrdua de càrrega en una mànega o els amortidors del cotxe.",
+          "text": "L'estàtica estudia els cossos en equilibri (acceleració zero). Cal equilibri de forces (resultant nul·la) i equilibri de moments (moment resultant nul, sense rotació). El centre de masses és el punt on es considera concentrada tota la massa. Una autoescala no bolca mentre la vertical del centre de masses caigui dins la base dels estabilitzadors, els del costat contrari no es descarreguin del tot (R1 = 0), el moment de bolcada no superi el d'antibolcada i el terra no cedeixi.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, fregament",
+              "ref": "MAN.GRAL.003, 4.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Aquesta força actua sempre en sentit contrari al moviment i tendeix a frenar-lo."
+              "quote": "Perquè un cos estigui en equilibri, la suma de totes les forces que actuen sobre ell ha de ser igual a zero."
             },
             {
-              "ref": "MAN.GRAL.003, forces no conservatives",
+              "ref": "MAN.GRAL.003, 4.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Són forces no conservatives el fregament, la resistència aerodinàmica, el fregament en líquids (pèrdua de càrrega en una mànega, amortidors del cotxe)."
+              "quote": "La vertical del Centre de Masses (CdM) caigui dins la base de recolzament (entre els estabilitzadors)."
             }
           ]
         }
@@ -299,16 +435,62 @@
     },
     {
       "n": "8",
-      "title": "Potència, rendiment i eficiència",
+      "title": "Treball i energia",
       "blocks": [
         {
-          "text": "L'eficiència (o rendiment) d'un sistema mecànic sempre és inferior al 100 %. El motiu és que les forces no conservatives, com el fregament i la resistència aerodinàmica, transformen una part de l'energia en calor o turbulències de l'aire, que no es poden aprofitar per a la tasca que es vol fer. La definició i les unitats de la potència no són als extractes revisats.",
+          "text": "El treball és la transferència d'energia quan una força desplaça un cos: W = F · d, en joules. Només treballa la component de la força en la direcció del moviment; si no hi ha desplaçament, no hi ha treball; si la força s'oposa al moviment (frenar), el treball és negatiu. Exemple: una eslinga a 60° amb 1.000 N només aporta 500 N útils; en 10 m fa 5.000 J.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, eficiència",
+              "ref": "MAN.GRAL.003, 4.4.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "L'eficiència sempre és inferior al 100% perquè les forces no conservatives, com el fregament i la resistència aerodinàmica, transformen una part de l'energia en calor o turbulències de l’aire, que no podem aprofitar per fer la tasca que volem."
+              "quote": "El treball és una magnitud física que descriu la transferència d’energia que es produeix quan actua una força sobre un cos i el desplaça."
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.4.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Si el sentit de la força és contrari al sentit del moviment, el treball és negatiu."
+            }
+          ]
+        },
+        {
+          "text": "L'energia és la capacitat de fer treball; és escalar i es mesura en joules. L'energia cinètica és la que té un cos pel seu moviment (Ec = ½ · m · v²). Els cossos que giren tenen també energia cinètica de rotació, que depèn del moment d'inèrcia: l'anàleg rotacional de la massa, que mesura la resistència a canviar la velocitat de rotació i depèn de com es distribueix la massa respecte a l'eix.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 4.4.2.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "És l'energia que té un cos a causa del seu moviment."
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.4.2.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Mentre que la massa dona idea de la resistència d'un cos a canviar la seva velocitat lineal, el moment d'inèrcia mesura la resistència d'un cos a modificar la seva velocitat de rotació."
+            }
+          ]
+        },
+        {
+          "text": "L'energia potencial gravitacional és la que té un objecte per la seva alçada: Ep = m · g · h, amb g = 9,8 m/s² i h mesurada respecte a un nivell de referència que escollim (un martell que pot caure al carrer des de la cistella té molta més energia potencial que un que només pot caure dins la cistella). Principi de conservació: en un sistema aïllat l'energia no es crea ni es destrueix, només es transforma; sense fregament, Ec + Ep és constant.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 4.4.2.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada."
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.4.2.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "L’alçada (h) es mesura respecte a un nivell de referència que nosaltres mateixos escollim."
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.4.2.3",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "l'energia no es crea ni es destrueix, sinó que només es transforma d'una forma a una altra."
             }
           ]
         }
@@ -316,39 +498,51 @@
     },
     {
       "n": "9",
-      "title": "Estàtica i palanques",
+      "title": "Forces no conservatives, potència i rendiment",
       "blocks": [
         {
-          "text": "Una palanca està en equilibri quan els moments que giren en un sentit són iguals als que giren en sentit contrari. En la palanca de primer gènere (per exemple, una pota de cabra), el fulcre és entre la força aplicada i la força de sortida. Si el fulcre és més a prop de la resistència, l'avantatge mecànic és més gran que 1.",
+          "text": "Les forces conservatives (gravetat, força elàstica d'una molla) retornen íntegrament l'energia. Les no conservatives (fregament, resistència aerodinàmica, pèrdua de càrrega en una mànega, amortidors) fan treball negatiu i transformen energia en calor. El fregament s'oposa sempre al moviment: Ff = μ · FN; l'estàtic és normalment més gran que el dinàmic. L'adherència permet frens, pneumàtics i nusos. La resistència aerodinàmica creix amb el quadrat de la velocitat: si es dobla la velocitat, es quadruplica.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, equilibri de la palanca",
+              "ref": "MAN.GRAL.003, 4.4.2.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Perquè una palanca estigui en equilibri, els moments que giren en un sentit han de ser iguals als que giren en sentit contrari."
+              "quote": "Són forces no conservatives el fregament, la resistència aerodinàmica, el fregament en líquids (pèrdua de càrrega en una mànega, amortidors del cotxe)."
             },
             {
-              "ref": "MAN.GRAL.003, palanca de primer gènere",
+              "ref": "MAN.GRAL.003, 4.4.2.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "El fulcre es troba entre la força aplicada i la força de sortida."
+              "quote": "Són forces conservatives la gravetat o la força elàstica d’una molla"
             },
             {
-              "ref": "MAN.GRAL.003, palanca de primer gènere",
+              "ref": "MAN.GRAL.003, 4.4.2.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Si el fulcre està més a prop de la resistència, l'avantatge mecànic és més gran que 1."
+              "quote": "si doblem la velocitat, quadrupliquem la força de resistència."
             }
           ]
         },
         {
-          "text": "En la palanca de segon gènere, la força de sortida (la resistència) és entre el fulcre i la força aplicada. Aquestes palanques sempre donen un avantatge mecànic superior a 1.",
+          "text": "La potència és la rapidesa amb què es fa un treball: P = W/t = F · v, en watts. Un tràctel manual i un cabestrant elèctric fan el mateix treball, però el cabestrant, més potent, triga menys. El rendiment és la proporció entre l'energia útil i la consumida, en %, i sempre és inferior al 100 %: per això la potència a les rodes és inferior a la del motor. El rendiment global és el producte dels rendiments parcials.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, palanca de segon gènere",
+              "ref": "MAN.GRAL.003, 4.4.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "En aquest cas, la força de sortida (la resistència) es troba entre el fulcre i la força aplicada. […] Aquestes palanques sempre proporcionen un avantatge mecànic superior a 1."
+              "quote": "La potència (P) és la rapidesa amb què es realitza un treball o amb què es transfereix l'energia."
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.4.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "L'eficiència sempre és inferior al 100% perquè les forces no conservatives, com el fregament i la resistència aerodinàmica, transformen una part de l'energia en calor"
+            },
+            {
+              "ref": "MAN.GRAL.003, 4.4.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Un rendiment global és el producte de tots els rendiments parcials del sistema."
             }
           ]
         }
@@ -356,30 +550,88 @@
     },
     {
       "n": "10",
-      "title": "Pla inclinat, torn i politges",
+      "title": "Màquines simples: avantatge mecànic i palanques",
       "blocks": [
         {
-          "text": "El pla inclinat és una superfície plana que forma un angle amb l'horitzontal; per entendre'ns, una rampa. El seu funcionament es basa en el principi de la conservació de l'energia.",
+          "text": "Les màquines simples permeten vèncer una força gran amb una de petita. Es basen en la conservació de l'energia: no estalvien treball, sinó que intercanvien força per distància. L'avantatge mecànic (AM) és la relació entre la força de sortida i la força aplicada; si és més gran que 1 multiplica la força, i si és inferior a 1 es guanya recorregut.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, pla inclinat",
+              "ref": "MAN.GRAL.003, 5",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Pla Inclinat El pla inclinat és una superfície plana que forma un angle amb l'horitzontal, per entendre’ns, una rampa."
+              "quote": "L'avantatge no és que facin menys treball, sinó que ens permeten intercanviar força per distància."
             },
             {
-              "ref": "MAN.GRAL.003, pla inclinat",
+              "ref": "MAN.GRAL.003, 5",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "El seu funcionament es basa en el principi de la conservació de l'energia."
+              "quote": "Es defineix com la relació entre la força de sortida i la força aplicada"
             }
           ]
         },
         {
-          "text": "Torn o cabestrant: quan el cable s'enrotlla en diverses capes, el radi del tambor canvia. Quan el cable és gairebé del tot estirat, el radi del tambor és el més petit possible i, per al mateix parell d'entrada, la força de sortida al cable és màxima.",
+          "text": "La palanca és una barra rígida que gira al voltant d'un fulcre. Llei de la palanca: força aplicada × braç de la força = resistència × braç de la resistència (equilibri de moments). Primer gènere (fulcre al mig: alicates, pota de cabra): AM més gran que 1 si el fulcre és a prop de la resistència, més petit si és a prop de la força i igual a 1 si és al centre. Segon gènere (resistència al mig: perpalina, obreampolles, carretó de mà, trencanous): AM sempre superior a 1. Tercer gènere (força al mig: autoescala, braç de retroexcavadora, canya de pescar): AM sempre inferior a 1.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, cabestrant",
+              "ref": "MAN.GRAL.003, 5.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Perquè una palanca estigui en equilibri, els moments que giren en un sentit han de ser iguals als que giren en sentit contrari."
+            },
+            {
+              "ref": "MAN.GRAL.003, 5.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Si el fulcre està més a prop de la resistència, l'avantatge mecànic és més gran que 1."
+            },
+            {
+              "ref": "MAN.GRAL.003, 5.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "En aquest cas, la força de sortida (la resistència) es troba entre el fulcre i la força aplicada. Aquestes palanques sempre proporcionen un avantatge mecànic superior a 1."
+            },
+            {
+              "ref": "MAN.GRAL.003, 5.1",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "En aquestes palanques, l'avantatge mecànic és sempre inferior a 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Pla inclinat, torn i politges",
+      "blocks": [
+        {
+          "text": "El pla inclinat és una rampa que permet pujar objectes amb menys força que aixecant-los verticalment. Es basa en la conservació de l'energia: fem el mateix treball en més distància. F = P · sin α = P · h/L, i AM = L/h: com més llarg el pla respecte a l'alçada, menys força. Amb fregament s'hi suma la força de fregament; un cotxe arrossegat per un talús de 45° amb μ = 0,8 necessita 25.200 N, més que el seu pes. El vis o cargol és un pla inclinat enrotllat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 5.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "El seu funcionament es basa en el principi de la conservació de l'energia."
+            },
+            {
+              "ref": "MAN.GRAL.003, 5.2",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Amb el pla inclinat bescanviem força per recorregut."
+            }
+          ]
+        },
+        {
+          "text": "El torn és un tambor de radi r que es fa girar amb una manovella de radi R: és una palanca giratòria amb AM = R/r. El cabestrant és un torn motoritzat. Si el cable s'enrotlla en diverses capes, el radi canvia: quan el cable està gairebé tot estirat el radi és mínim i la força al cable és màxima; la capacitat nominal es refereix a la primera capa.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 5.3",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "És com una palanca giratòria, el radi de la manovella (R) és el braç de la força aplicada i el del tambor (r) és el braç de la resistència."
+            },
+            {
+              "ref": "MAN.GRAL.003, 5.3",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Així, quan el cable està gairebé estirat del tot, el radi del tambor és el més petit possible i, per la mateixa força (parell) d’entrada, la força de sortida (en el cable) és màxima."
@@ -387,19 +639,25 @@
           ]
         },
         {
-          "text": "Politges: la politja fixa no es desplaça respecte al terra; només canvia la direcció de la corda i no dona cap avantatge mecànic (AM = 1). La politja mòbil, quan la força d'entrada és la tensió de la corda que estirem i la de sortida és a l'eix, duplica la força (AM = 2).",
+          "text": "La politja fixa no es desplaça i només canvia la direcció de la corda (AM = 1). La politja mòbil es desplaça amb la càrrega i, si la força d'entrada és la corda que estirem i la de sortida és a l'eix, duplica la força (AM = 2); usada al revés, duplica el recorregut (AM = 0,5), com en el telescòpic de l'autoescala. Un polispast combina politges fixes i mòbils: la força es multiplica tantes vegades com trams de corda sostenen la càrrega, i el recorregut de corda augmenta en la mateixa proporció.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, politja fixa",
+              "ref": "MAN.GRAL.003, 5.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Politja fixa: no es desplaça respecte al terra, només canvia la direcció de la corda, no ofereix cap avantatge mecànic (AM=1)."
             },
             {
-              "ref": "MAN.GRAL.003, politja mòbil",
+              "ref": "MAN.GRAL.003, 5.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Ens duplica la força (AM=2)."
+            },
+            {
+              "ref": "MAN.GRAL.003, 5.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "Tantes vegades augmentem la força a la sortida, tantes vegades s’augmenta el recorregut de la corda a l’entrada."
             }
           ]
         }
@@ -410,21 +668,10 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Escalar: número i unitat. Vectorial: cal més informació; l'exemple típic és la força.",
+          "text": "SI: 7 unitats fonamentals; intensitat lluminosa = candela (cd). 1 bar ≈ 1 kg/cm² ≈ 10 mca; 1 kgf ≈ 10 N; 1 m/s = 3,6 km/h.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, magnituds escalars",
-              "law": "MAN.GRAL.003",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Una magnitud escalar es defineix completament amb un número i la unitat corresponent."
-            }
-          ]
-        },
-        {
-          "text": "Intensitat lluminosa: candela (cd). Parell de forces: newton-metre (N·m); fa girar, però no desplaça.",
-          "refs": [
-            {
-              "ref": "MAN.GRAL.003, taula del SI",
+              "ref": "MAN.GRAL.003, taula SI",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Intensitat lluminosa Iv candela cd"
@@ -432,54 +679,65 @@
           ]
         },
         {
-          "text": "MRU: velocitat constant, a = 0. Camió: 100 km en 1,25 h = 80 km/h.",
+          "text": "Escalar: només mòdul (massa, temps). Vectorial: mòdul, direcció i sentit (força, velocitat).",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, MRU",
+              "ref": "MAN.GRAL.003, 2.6.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "velocitat constant, és a dir ni accelera ni desaccelera (a=0)"
+              "quote": "La força és un exemple perfecte per il·lustrar aquest concepte."
             }
           ]
         },
         {
-          "text": "Frenada brusca i eines que avancen: llei d'inèrcia. Força neta nul·la: el cotxe no es mou o manté la velocitat. El vehicle avança per la reacció del terra.",
+          "text": "Parell de forces: rotació sense translació; es mesura en Nm.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, llei d'inèrcia",
+              "ref": "MAN.GRAL.003, 2.6.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "continuen el seu moviment cap endavant a causa de la inèrcia"
+              "quote": "Aquestes dues forces tenen un efecte de rotació, però no de translació."
             }
           ]
         },
         {
-          "text": "Ec: deguda al moviment. Ep gravitacional: deguda a l'alçada. El fregament és una força no conservativa; per això l'eficiència sempre és inferior al 100 %.",
+          "text": "MRU: v = d/t (100 km en 1,25 h = 80 km/h). Newton: inèrcia, F = m · a, acció-reacció.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, forces no conservatives",
+              "ref": "MAN.GRAL.003, 4.1.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "Són forces no conservatives el fregament"
+              "quote": "Si un camió triga 1 h i 15 minuts (1,25 h), aleshores a quina velocitat va?"
             }
           ]
         },
         {
-          "text": "Moment d'inèrcia: resistència a canviar la velocitat de rotació (la massa ho és per a la velocitat lineal).",
+          "text": "Quantitat de moviment p = m · v (kg·m/s). Ec = ½ m v²; Ep = m g h. Moment d'inèrcia = resistència a canviar la velocitat de rotació.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, moment d'inèrcia",
+              "ref": "MAN.GRAL.003, 4.4.2.2",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "el moment d'inèrcia mesura la resistència d'un cos a modificar la seva velocitat de rotació"
+              "quote": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada."
             }
           ]
         },
         {
-          "text": "Palanca de 1r gènere: AM > 1 si el fulcre és més a prop de la resistència. Palanca de 2n gènere: resistència al mig i AM sempre > 1.",
+          "text": "No conservatives: fregament, resistència aerodinàmica, pèrdua de càrrega. Rendiment sempre inferior al 100 %.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, palanca de segon gènere",
+              "ref": "MAN.GRAL.003, 4.4.4",
+              "law": "MAN.GRAL.003",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
+              "quote": "L'eficiència sempre és inferior al 100%"
+            }
+          ]
+        },
+        {
+          "text": "Palanques: 1r gènere, fulcre al mig (AM segons posició); 2n, resistència al mig (AM > 1); 3r, força al mig (AM < 1).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.003, 5.1",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
               "quote": "Aquestes palanques sempre proporcionen un avantatge mecànic superior a 1."
@@ -487,13 +745,13 @@
           ]
         },
         {
-          "text": "Politja fixa: AM = 1. Politja mòbil: AM = 2. Cabestrant: força màxima amb el cable gairebé estirat. Pla inclinat: conservació de l'energia.",
+          "text": "Politja fixa AM = 1; mòbil AM = 2. Torn: AM = R/r; cabestrant: força màxima amb el cable gairebé tot estirat.",
           "refs": [
             {
-              "ref": "MAN.GRAL.003, politja fixa",
+              "ref": "MAN.GRAL.003, 5.4",
               "law": "MAN.GRAL.003",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-09-MAN.GRAL.003.pdf",
-              "quote": "no ofereix cap avantatge mecànic (AM=1)"
+              "quote": "Ens duplica la força (AM=2)."
             }
           ]
         }

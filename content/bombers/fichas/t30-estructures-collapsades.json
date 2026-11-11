@@ -59,16 +59,28 @@
   "lessons": [
     {
       "n": "1",
-      "title": "Introducció i objectiu del tema",
+      "title": "Introducció: objectius del manual",
       "blocks": [
         {
-          "text": "El manual vol donar als intervinents els coneixements tècnics i pràctics bàsics per actuar amb seguretat, eficiència i coordinació en escenaris complexos: ensorraments d'edificis, esllavissades o col·lapses estructurals derivats d'incendis, explosions o fenòmens naturals. Seguretat, eficiència i coordinació són, doncs, les tres idees que travessen tot el tema.",
+          "text": "El manual vol donar als intervinents coneixements tècnics i pràctics bàsics per actuar amb seguretat, eficiència i coordinació en ensorraments d'edificis, esllavissades o col·lapses derivats d'incendis, explosions o fenòmens naturals. Objectius específics: conèixer la naturalesa i les causes dels col·lapses, entendre l'estructura dels edificis i les seves patologies, aplicar tècniques de localització, estabilització i rescat, garantir la seguretat dels equips i de la població i fomentar una resposta compatible amb els estàndards internacionals (INSARAG, USAR). Exemple: l'esfondrament d'un edifici a Badalona (2024) va activar el PROCICAT.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § objectiu",
+              "ref": "MAN.SVES.000, 1.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "L’objectiu principal és dotar els intervinents amb coneixements tècnics i pràctics bàsics que permetin actuar amb seguretat, eficiència i coordinació en escenaris complexos com ara ensorraments d’edificis, esllavissades o col·lapses estructurals derivats d’incendis, explosions o fenòmens naturals."
+              "quote": "L’objectiu principal és dotar els intervinents amb coneixements tècnics i pràctics bàsics que permetin actuar amb seguretat, eficiència i coordinació en escenaris complexos"
+            },
+            {
+              "ref": "MAN.SVES.000, 1.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Fomentar una resposta organitzada i compatible amb els estàndards internacionals (INSARAG, USAR)."
+            },
+            {
+              "ref": "MAN.SVES.000, 1.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "L’esfondrament d’un edifici a Badalona (2024) va activar el PROCICAT"
             }
           ]
         }
@@ -76,39 +88,45 @@
     },
     {
       "n": "2",
-      "title": "Evolució històrica i marc internacional: INSARAG i OSOCC",
+      "title": "Evolució històrica del rescat en terratrèmols",
       "blocks": [
         {
-          "text": "INSARAG (International Search and Rescue Advisory Group) és una xarxa de Nacions Unides que coordina la resposta internacional en situacions d'ensorraments greus, sobretot en catàstrofes naturals com els terratrèmols. Sobre el terreny, els equips internacionals es coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre), liderat per Nacions Unides.",
+          "text": "Als anys vuitanta, quan un país patia un gran sisme, els equips de rescat arribaven pel seu compte, sense coordinació ni protocols: duplicació d'esforços, conflictes logístics, barreres idiomàtiques i una càrrega addicional per al país afectat. Casos com el terratrèmol de Ciutat de Mèxic (1985) i el d'Armènia (1988) van fer veure la necessitat de coordinació, estandardització i autosuficiència.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § INSARAG",
+              "ref": "MAN.SVES.000, 1.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "INSARAG: marc internacional de recerca i rescat INSARAG (International Search and Rescue Advisory Group) és una xarxa de Nacions Unides que coordina la resposta internacional en situacions d’ensorraments greus, especialment en escenaris de catàstrofes naturals com els terratrèmols."
+              "quote": "Aquest model improvisat sovint generava problemes greus: duplicació d’esforços, conflictes logístics, barreres idiomàtiques i, fins i tot, una càrrega addicional per al país afectat"
             },
             {
-              "ref": "MAN.SVES.000, § OSOCC",
+              "ref": "MAN.SVES.000, 1.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Es coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre) liderat per Nacions Unides."
+              "quote": "com el terratrèmol de Ciutat de Mèxic (1985) o el sisme d’Armènia (1988)"
             }
           ]
         },
         {
-          "text": "L'exemple històric que recull el manual és el terratrèmol d'Haití (2010): més de 40 equips USAR de diferents països hi van treballar conjuntament, coordinats sota el sistema INSARAG, van salvar centenars de vides i van compartir informació tècnica en temps real. Els principis INSARAG també s'apliquen a escala nacional i regional per millorar la coordinació entre bombers, protecció civil i serveis mèdics. La resta de l'evolució històrica de les operacions de rescat en terratrèmols no és als extractes revisats; cal consultar el manual MAN.SVES.000.",
+          "text": "D'aquí va néixer, sota el paraigua de Nacions Unides, l'INSARAG, que des dels anys 90 fixa guies, criteris de classificació i estàndards mínims per als equips USAR. Els equips certificats actuen de manera autònoma, comparteixen protocols, es coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre) de Nacions Unides i es classifiquen en tres categories: lleugers, mitjans i pesats. Així, l'ajuda internacional és un suport i no una càrrega. Exemple: a Haití (2010) més de 40 equips USAR van treballar coordinats sota l'INSARAG.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § Haití",
+              "ref": "MAN.SVES.000, 1.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Després del terratrèmol d’Haití (2010), més de 40 equips USAR de diferents països van treballar de manera conjunta, coordinats sota el sistema INSARAG, salvant centenars de vides i compartint informació tècnica en temps real."
+              "quote": "Es coordinen a través del sistema OSOCC (On-Site Operations Coordination Centre) liderat per Nacions Unides."
             },
             {
-              "ref": "MAN.SVES.000, § INSARAG local",
+              "ref": "MAN.SVES.000, 1.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Els principis INSARAG són d’aplicació també a escala nacional i regional per millorar la coordinació entre bombers, protecció civil i serveis mèdics."
+              "quote": "Estan classificats en tres categories (lleugers, mitjans i pesats) segons la seva capacitat operativa."
+            },
+            {
+              "ref": "MAN.SVES.000, 1.2",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Després del terratrèmol d’Haití (2010), més de 40 equips USAR de diferents països van treballar de manera conjunta, coordinats sota el sistema INSARAG"
             }
           ]
         }
@@ -116,22 +134,44 @@
     },
     {
       "n": "3",
-      "title": "Equips especialitzats: unitats USAR i GREC",
+      "title": "Equips especialitzats: GREC, INSARAG i USAR",
       "blocks": [
         {
-          "text": "Els equips USAR (Urban Search and Rescue) són dispositius especialitzats en recerca i rescat en entorns urbans col·lapsats. Al Cos de Bombers de la Generalitat sempre hi ha hagut experts en valoració d'estructures, però el Grup de Recolzament en Estructures Col·lapsades (GREC) no es va constituir oficialment fins al 2021, com a subàmbit de la guàrdia de suport.",
+          "text": "El GREC (Grup de Recolzament en Estructures Col·lapsades) es va constituir oficialment el 2021 com a subàmbit de la guàrdia de suport. El formen bombers amb titulacions tècniques que ajuden el comandament en les decisions i en la resposta tècnica davant patologies, col·lapses i afectacions per incendis, a distància o presencialment. Actuacions: nau de Badalona (2020), Pont de Vilomara (2022) i Armènia (2024, Mecanisme Europeu de Protecció Civil). El 2025 va iniciar la certificació com a equip STRAC.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § USAR",
+              "ref": "MAN.SVES.000, 1.3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Equips USAR (Urban Search and Rescue) Els equips USAR són dispositius especialitzats en actuacions de recerca i rescat en entorns urbans col·lapsats."
+              "quote": "no va ser fins el 2021 que es va constituir oficialment el Grup de recolzament en estructures col·lapsades (GREC) com un subàmbit de la guàrdia de suport."
             },
             {
-              "ref": "MAN.SVES.000, § GREC",
+              "ref": "MAN.SVES.000, 1.3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "El Grup de Recolzament en Estructures Col·lapsades (GREC) Tot i que el Cos de Bombers de la Generalitat de Catalunya sempre ha tingut experts en valoració d’estructures, no va ser fins el 2021 que es va constituir oficialment el Grup de recolzament en estructures col·lapsades (GREC) com un subàmbit de la guàrdia de suport."
+              "quote": "L’any 2025, el GREC ha començat la seva certificació com a equip STRAC"
+            }
+          ]
+        },
+        {
+          "text": "INSARAG (International Search and Rescue Advisory Group) és una xarxa de Nacions Unides que coordina la resposta internacional en ensorraments greus, sobretot per terratrèmols. Estableix protocols per als equips USAR, millora la interoperabilitat, valida equips per classificació internacional i promou un sistema modular, escalable i autosuficient; els seus principis també s'apliquen a escala nacional i regional.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 1.3.2",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "INSARAG (International Search and Rescue Advisory Group) és una xarxa de Nacions Unides que coordina la resposta internacional en situacions d’ensorraments greus, especialment en escenaris de catàstrofes naturals com els terratrèmols."
+            }
+          ]
+        },
+        {
+          "text": "Els equips USAR (Urban Search and Rescue) són dispositius especialitzats en recerca i rescat en entorns urbans col·lapsats. A Catalunya en formen part unitats de Bombers, grups de la UME, serveis municipals i equips de suport amb gossos i personal mèdic.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 1.3.3",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Els equips USAR són dispositius especialitzats en actuacions de recerca i rescat en entorns urbans col·lapsats."
             }
           ]
         }
@@ -139,22 +179,39 @@
     },
     {
       "n": "4",
-      "title": "Valoració inicial del col·lapse estructural",
+      "title": "Valoració del col·lapse: concepte, causes i col·lapse total",
       "blocks": [
         {
-          "text": "Un col·lapse estructural és la fallida, sobtada o progressiva, d'una construcció quan algun element estructural (forjats, murs, pilars o cobertes) supera el seu límit resistent o elàstic i deixa de complir la funció portadora. La valoració ha de ser sistemàtica, progressiva i sempre subordinada a la seguretat dels intervinents.",
+          "text": "Un col·lapse estructural és la fallida sobtada o progressiva d'una construcció quan algun element estructural (forjats, murs, pilars, cobertes) supera el seu límit resistent o elàstic i deixa de complir la funció portadora. Pot afectar una part o tot l'edifici i anar seguit de col·lapses secundaris. Les causes poden ser humanes (reformes mal fetes, falta de manteniment, incendis, explosions) o naturals (terratrèmols, aiguats, nevades, esllavissades, vents), sovint combinades.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § col·lapse estructural",
+              "ref": "MAN.SVES.000, 2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Valoració del col·lapse estructural Un col·lapse estructural és la fallida sobtada o progressiva d’una construcció quan algun dels seus elements estructurals –com ara forjats, murs, pilars o cobertes– supera el seu límit resistent o elàstic, deixant de complir la seva funció portadora."
+              "quote": "Un col·lapse estructural és la fallida sobtada o progressiva d’una construcció quan algun dels seus elements estructurals –com ara forjats, murs, pilars o cobertes– supera el seu límit resistent o elàstic, deixant de complir la seva funció portadora."
             },
             {
-              "ref": "MAN.SVES.000, § valoració inicial",
+              "ref": "MAN.SVES.000, 2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Aquest procés ha de ser sistemàtic, progressiu i sempre subordinat a la seguretat dels intervinents."
+              "quote": "En molts casos, una combinació de diversos factors pot conduir al col·lapse."
+            }
+          ]
+        },
+        {
+          "text": "A Bombers es distingeixen tres tipus: total, parcial i secundari. La classificació orienta sobre nous ensorraments, la runa, la viabilitat del rescat i la necessitat d'apuntalar. El col·lapse total afecta tot l'edifici o l'estructura principal: runa massiva, escenari caòtic i alta probabilitat d'atrapament; pot ser sobtat o diferit (incendis llargs, explosions, sobrecàrregues, terratrèmols) i comporta risc extrem per la dificultat d'identificar espais vitals i la inestabilitat de la runa.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 2.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "es classifiquen habitualment en tres grans tipus: col·lapse total, col·lapse parcial i col·lapse secundari."
+            },
+            {
+              "ref": "MAN.SVES.000, 2.1.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Parlem de col·lapse total quan la fallida estructural afecta la totalitat de l’edifici o de la seva estructura principal, provocant un ensorrament generalitzat."
             }
           ]
         }
@@ -162,19 +219,13 @@
     },
     {
       "n": "5",
-      "title": "Tipus de col·lapse i riscos associats",
+      "title": "Col·lapse parcial i col·lapse secundari",
       "blocks": [
         {
-          "text": "Hi ha col·lapse parcial quan només cedeix una part de l'estructura (un mur, una coberta, un forjat o un altre element) mentre la resta de l'edifici sembla estable. És molt freqüent i pot passar desapercebut en una primera valoració, i per això és especialment perillós per a l'equip intervinent. La descripció del col·lapse total no és als extractes revisats; cal consultar el manual.",
+          "text": "En el col·lapse parcial només cedeix una part (un mur, una coberta, un forjat) i la resta sembla estable. És molt freqüent i pot passar desapercebut en la primera valoració, cosa que el fa especialment perillós per a l'equip; el risc de col·lapse secundari és alt si els elements restants han quedat inestables. Cal observar els elements no col·lapsats, la runa i les esquerdes per decidir si es rescata, s'apuntala o es desallotja.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § col·lapse parcial",
-              "law": "MAN.SVES.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Col·lapses parcials Un col·lapse parcial es produeix quan només una part de l’estructura cedeix, ja sigui un mur, una coberta, un forjat o qualsevol altre element constructiu, mentre la resta de l’edificació roman aparentment estable."
-            },
-            {
-              "ref": "MAN.SVES.000, § perill del parcial",
+              "ref": "MAN.SVES.000, 2.1.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
               "quote": "Aquest tipus de col·lapse és molt freqüent i pot passar desapercebut en una primera valoració, fet que el converteix en especialment perillós per a l’equip intervinent."
@@ -182,19 +233,25 @@
           ]
         },
         {
-          "text": "El col·lapse secundari és el que es produeix després d'un primer col·lapse, com a conseqüència directa de la inestabilitat de l'estructura que queda. Cal vigilar molt de prop els signes premonitoris: caiguda de pols, sorolls secs, moviments de runa o canvis en les esquerdes.",
+          "text": "El col·lapse secundari es produeix després d'un primer col·lapse, per la inestabilitat de l'estructura restant; sovint és sobtat i imprevisible. És habitual en edificis antics (murs de càrrega, bigues de fusta). Signes premonitoris: caiguda de pols, sorolls secs, moviments de runa i canvis en les esquerdes. Prevenció: revisar punts crítics, sanejar elements inestables i apuntalar.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § col·lapse secundari",
+              "ref": "MAN.SVES.000, 2.1.3",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Col·lapses secundaris El col·lapse secundari és aquell que es produeix després d’un primer col·lapse, com a conseqüència directa de la inestabilitat generada a l’estructura restant."
+              "quote": "El col·lapse secundari és aquell que es produeix després d’un primer col·lapse, com a conseqüència directa de la inestabilitat generada a l’estructura restant."
             },
             {
-              "ref": "MAN.SVES.000, § signes premonitoris",
+              "ref": "MAN.SVES.000, 2.1.3",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
               "quote": "Els signes premonitoris –com la caiguda de pols, sorolls secs, moviments de runa, o canvis en les esquerdes– són indicadors que cal vigilar molt de prop."
+            },
+            {
+              "ref": "MAN.SVES.000, 2.1.3",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Aquest tipus de col·lapse és especialment habitual en edificacions antigues amb sistemes constructius tradicionals (murs de càrrega, bigues de fusta...)"
             }
           ]
         }
@@ -202,22 +259,39 @@
     },
     {
       "n": "6",
-      "title": "Recerca física",
+      "title": "Maniobres de recerca: física i crida i escolta",
       "blocks": [
         {
-          "text": "La recerca física és la primera fase operativa per localitzar víctimes atrapades després d'un col·lapse. Una maniobra típica és la crida i escolta: s'atura completament l'activitat a la zona, es fa silenci absolut i s'emet una crida clara adreçada a les possibles víctimes sota la runa per detectar qualsevol resposta sonora (veus, cops o sorolls).",
+          "text": "Abans d'intervenir cal una valoració tècnica inicial, sistemàtica i subordinada a la seguretat: saber si és segur accedir, identificar riscos, planificar entrades, rutes i evacuació i fixar zones a evitar i refugis. La recerca física és la primera fase operativa: es basa només en la vista i l'oïda dels bombers, sense equipament, i és molt efectiva els primers minuts. Busca víctimes en superfície o parcialment atrapades amb patrons com l'avanç en línia, els cercles concèntrics o les habitacions múltiples, mantenint silenci, pocs intervinents a la zona calenta i sense moure runa innecessàriament.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § recerca física",
+              "ref": "MAN.SVES.000, 3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "La recerca física és la primera fase operativa en la localització de víctimes atrapades després d’un col·lapse."
+              "quote": "La recerca física és la primera fase operativa en la localització de víctimes atrapades després d’un col·lapse. Es basa exclusivament en els sentits dels bombers (vista i oïda) i no requereix equipament especialitzat."
             },
             {
-              "ref": "MAN.SVES.000, § crida i escolta",
+              "ref": "MAN.SVES.000, 3.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "com l’avanç en línia, els cercles concèntrics o el patró en habitacions múltiples"
+            }
+          ]
+        },
+        {
+          "text": "La crida i escolta consisteix a aturar tota l'activitat, fer silenci absolut i emetre una crida clara a les possibles víctimes per detectar veus, cops o sorolls. Cal eliminar sorolls (ràdios, eines), fer una crida breu («Hi ha algú? Si em sents, pica o crida!»), esperar uns segons i repetir el cicle.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 3.1.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
               "quote": "Consisteix a aturar completament l’activitat a la zona afectada, fer silenci absolut i emetre una crida clara dirigida a les possibles víctimes atrapades sota la runa per tal de detectar qualsevol resposta sonora: veus, cops o sorolls."
+            },
+            {
+              "ref": "MAN.SVES.000, 3.1.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Esperar uns segons en silenci per escoltar respostes."
             }
           ]
         }
@@ -225,19 +299,19 @@
     },
     {
       "n": "7",
-      "title": "Recerca instrumentalitzada i recerca canina",
+      "title": "Recerca instrumentalitzada i canina",
       "blocks": [
         {
-          "text": "La recerca instrumentalitzada fa servir aparells. Els geòfons detecten vibracions o sorolls provocats per les víctimes, com cops o moviments. Les càmeres s'introdueixen per forats a la runa o entre esquerdes per localitzar visualment les persones atrapades i valorar-ne la posició i l'estat.",
+          "text": "La recerca instrumentalitzada es fa després de la física superficial, amb silenci i estabilitat. Els geòfons detecten vibracions o sorolls de les víctimes (cops, moviments) i necessiten un entorn sense sorolls: els equips s'han de retirar del perímetre i aturar l'activitat. Les càmeres s'introdueixen per forats o esquerdes per veure les víctimes i valorar-ne la posició i l'estat, cosa que ajuda a planificar l'extracció o un apuntalament de fortuna.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § geòfons",
+              "ref": "MAN.SVES.000, 3.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
               "quote": "Els geòfons són dispositius que detecten vibracions o sorolls provocats per les víctimes, com ara cops o moviments."
             },
             {
-              "ref": "MAN.SVES.000, § càmeres",
+              "ref": "MAN.SVES.000, 3.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
               "quote": "Les càmeres s’introdueixen a través de forats a la runa o entre esquerdes per localitzar visualment persones atrapades i valorar-ne la posició i l’estat."
@@ -245,19 +319,19 @@
           ]
         },
         {
-          "text": "La recerca canina es basa en l'olfacte d'alt rendiment de gossos ensinistrats, que segueixen l'olor humana que surt de sota la runa o d'altres estructures col·lapsades. El venteig és la maniobra pròpia del gos: rastreja l'aire buscant partícules d'olor corporal.",
+          "text": "La recerca canina es basa en l'olfacte de gossos ensinistrats que segueixen l'olor humana. El venteig és la maniobra pròpia del gos, que rastreja l'aire buscant partícules d'olor corporal, en superfície o des de punts elevats. Mentre el gos treballa cal silenci i immobilitat, retirar els equips de la zona calenta i coordinar-se amb el guia caní.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § recerca canina",
+              "ref": "MAN.SVES.000, 3.3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Canina La recerca canina és una maniobra de localització de víctimes atrapades que es basa en l’olfacte d’alt rendiment dels gossos ensinistrats, que treballen seguint l’olor humana emesa des de sota la runa o altres estructures col·lapsades."
+              "quote": "El venteig és el nom que rep la maniobra pròpia del gos, en què rastreja l’aire en la recerca de partícules d’olor corporal."
             },
             {
-              "ref": "MAN.SVES.000, § venteig",
+              "ref": "MAN.SVES.000, 3.3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Venteig El venteig és el nom que rep la maniobra pròpia del gos, en què rastreja l’aire en la recerca de partícules d’olor corporal."
+              "quote": "Aturar tota activitat mentre el gos treballa (silenci i immobilitat)."
             }
           ]
         }
@@ -265,45 +339,45 @@
     },
     {
       "n": "8",
-      "title": "Fonaments dels apuntalaments",
+      "title": "Apuntalaments: criteris i apuntalaments verticals",
       "blocks": [
         {
-          "text": "Els apuntalaments són estructures provisionals que permeten assegurar elements inestables en una construcció col·lapsada o malmesa; són una mesura de seguretat i d'estabilització. Els verticals són els més habituals i els més utilitzats pels bombers en col·lapses estructurals.",
+          "text": "Els apuntalaments són estructures provisionals que asseguren elements inestables; el seu objectiu és garantir la seguretat dels rescatadors i evitar nous ensorraments. Criteris de Bombers: distància entre puntals no superior a 1 metre; resistència màxima de cada puntal 1.000 kg; ben alineat i fixat al sotapont i al jaç de taulons; entrar en càrrega de manera uniforme; no intentar restituir la posició de l'element danyat; via d'escapament neta; temps i personal imprescindibles. Segons la càrrega, n'hi ha verticals, horitzontals i inclinats.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § apuntalaments",
+              "ref": "MAN.SVES.000, 4",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Apuntalaments Els apuntalaments són estructures provisionals que permeten assegurar elements inestables en una construcció col·lapsada o malmesa."
+              "quote": "Els apuntalaments són estructures provisionals que permeten assegurar elements inestables en una construcció col·lapsada o malmesa."
             },
             {
-              "ref": "MAN.SVES.000, § verticals",
+              "ref": "MAN.SVES.000, 4",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Apuntalaments verticals Els apuntalaments verticals són els més habituals i utilitzats en les intervencions dels bombers en col·lapses estructurals."
+              "quote": "La distància entre puntals no pot superar el metre. − Es considera que un puntal té una resistència màxima de 1.000 kg."
+            },
+            {
+              "ref": "MAN.SVES.000, 4",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "No intentar restituir la posició de l’element danyat."
             }
           ]
         },
         {
-          "text": "Els apuntalaments horitzontals serveixen per estampar o sostenir des de l'exterior murs que han perdut resistència, o per assegurar des de l'interior parets de contenció i excavacions. Quan hi ha persones atrapades dins d'una rasa, és habitual fer apuntalaments horitzontals successius a mesura que s'aprofundeix el desenrunament. En els apuntalaments inclinats, les tornapuntes són els elements oblics que fan de puntal inclinat.",
+          "text": "Els verticals són els més habituals: sostenen forjats, sostres o bigues o reforcen murs, transmetent les càrregues cap al terra. Tenen tres elements: sotapont (tauló que recull i reparteix la càrrega), puntals (metàl·lics o de fusta, regulables) i jaç de taulons (a la base, reparteix el pes).",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § horitzontals",
+              "ref": "MAN.SVES.000, 4.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Apuntalaments horitzontals Els apuntalaments horitzontals són estructures provisionals dissenyades per estampar o sostenir murs que han perdut part de la seva resistència estructural des de l’exterior o assegurar parets de contenció i excavacions des de l’interior."
+              "quote": "Els apuntalaments verticals són els més habituals i utilitzats en les intervencions dels bombers en col·lapses estructurals."
             },
             {
-              "ref": "MAN.SVES.000, § rasa",
+              "ref": "MAN.SVES.000, 4.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "En intervencions on hi ha persones atrapades dins d’una rasa, és habitual fer apuntalaments horitzontals successius a mesura que s’aprofundeix el desenrunament."
-            },
-            {
-              "ref": "MAN.SVES.000, § tornapuntes",
-              "law": "MAN.SVES.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Tornapuntes: són els elements oblics que fan la funció de puntal inclinat."
+              "quote": "Sotapont: tauló de fusta que recull i reparteix la càrrega de l’element danyat."
             }
           ]
         }
@@ -311,28 +385,39 @@
     },
     {
       "n": "9",
-      "title": "Sistemes de senyalització operativa",
+      "title": "Apuntalaments horitzontals i inclinats",
       "blocks": [
         {
-          "text": "Senyalitzar bé les zones és essencial per a la seguretat, l'eficàcia i la coordinació dels equips. Els colors habituals són el vermell per indicar perill i el verd per assenyalar rutes transitables, i la X prohibeix el pas. Quan es detecta una víctima (de manera visual, auditiva o amb eines tècniques), el punt es marca amb una gran V d'uns 50 cm pintada sobre la runa o l'estructura visible.",
+          "text": "Els horitzontals estampen o sostenen murs que han perdut resistència o asseguren parets de contenció i excavacions; treballen en empenta lateral. S'usen per estabilitzar murs que poden desplomar-se, reforçar parets de rases i assegurar murs mitgers. Amb persones atrapades en una rasa, es fan apuntalaments horitzontals successius a mesura que s'aprofundeix el desenrunament.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § senyalització",
+              "ref": "MAN.SVES.000, 4.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Senyalització La correcta senyalització de les zones en un escenari d’estructura col·lapsada és essencial per garantir la seguretat, l’eficàcia i la coordinació dels equips de rescat."
+              "quote": "A diferència dels verticals, no traslladen càrregues cap avall, sinó que treballen en empenta lateral"
             },
             {
-              "ref": "MAN.SVES.000, § colors",
+              "ref": "MAN.SVES.000, 4.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Els colors habituals són el vermell per indicar perill, el verd per assenyalar rutes transitables i la X per prohibir el pas."
+              "quote": "En intervencions on hi ha persones atrapades dins d’una rasa, és habitual fer apuntalaments horitzontals successius a mesura que s’aprofundeix el desenrunament."
+            }
+          ]
+        },
+        {
+          "text": "Els inclinats (o oblics) es col·loquen en diagonal com a suport lateral de murs amb risc; treballen en tracció i compressió diagonal. Components: tornapuntes (elements oblics que fan de puntal inclinat), punts d'ancoratge ferms i falques. L'angle òptim amb el terra és generalment entre 45° i 60°; sovint es combinen amb altres sistemes.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 4.3",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Tornapuntes: són els elements oblics que fan la funció de puntal inclinat."
             },
             {
-              "ref": "MAN.SVES.000, § senyalització de víctimes",
+              "ref": "MAN.SVES.000, 4.3",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Senyalització de víctimes Quan es detecta una víctima —ja sigui de forma visual, auditiva o mitjançant eines tècniques— cal marcar el punt amb una gran V d’uns 50 cm de mida, pintada sobre la runa o estructura visible."
+              "quote": "L’apuntalament ha de formar un angle òptim amb el terra, generalment entre 45º i 60º"
             }
           ]
         }
@@ -340,22 +425,124 @@
     },
     {
       "n": "10",
-      "title": "Mesures de seguretat",
+      "title": "Sistemes de senyalització operativa",
       "blocks": [
         {
-          "text": "Tota l'actuació queda subordinada a la seguretat dels intervinents, i la vigilància dels signes premonitoris de col·lapse secundari n'és una peça central. Pel que fa a l'ús d'EPI, la norma general defineix l'equip de protecció individual com qualsevol equip que el treballador porta o subjecta perquè el protegeixi de riscos per a la seva seguretat o salut. L'emplaçament de vehicles, la protecció de la població afectada, el protocol LACES i la comunicació operativa en aquest escenari no són als extractes revisats; cal consultar el manual MAN.SVES.000.",
+          "text": "S'utilitza una simbologia internacional per compartir llenguatge entre unitats. Senyalització de seguretat amb pintura, cintes o sticks lluminosos: vermell per al perill, verd per a rutes transitables i X per prohibir el pas.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § valoració inicial",
+              "ref": "MAN.SVES.000, 5",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Aquest procés ha de ser sistemàtic, progressiu i sempre subordinat a la seguretat dels intervinents."
+              "quote": "Els colors habituals són el vermell per indicar perill, el verd per assenyalar rutes transitables i la X per prohibir el pas."
+            }
+          ]
+        },
+        {
+          "text": "Senyalització de víctimes: una gran V d'uns 50 cm sobre la runa indica una víctima potencial (viva o morta) sense confirmar. A sota s'escriu L - n (vives confirmades) i D - n (mortes confirmades), i s'actualitza ratllant la línia anterior; quan totes les línies L o D estan ratllades, la zona queda revisada («Clear»).",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 5",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "cal marcar el punt amb una gran V d’uns 50 cm de mida, pintada sobre la runa o estructura visible."
             },
             {
-              "ref": "Art. 2.1 RD 773/1997",
-              "law": "RD 773/1997",
-              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-12735",
-              "quote": "cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o su salud"
+              "ref": "MAN.SVES.000, 5",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "L - n → n per indicar el nombre de víctimes vives confirmades. − D - n → n per indicar el nombre de víctimes mortes confirmades."
+            }
+          ]
+        },
+        {
+          "text": "Senyals acústics: 3 tocs curts, evacuació immediata; 1 toc llarg, aturada mantenint posicions; 1 toc llarg + 1 curt, es reprenen les operacions; tocs curts repetitius, socors.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 6.5",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "3 tocs curts: Evacuació immediata de la zona per perill imminent. − 1 toc llarg: Aturada de totes les operacions, mantenint posicions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Mesures de seguretat: vehicles, població i EPI",
+      "blocks": [
+        {
+          "text": "Els vehicles s'han de situar com a mínim a dues edificacions no afectades del col·lapse i, en carrers amb pendent, per sobre de l'edifici. Criteris: control estricte d'accessos (només equips imprescindibles, amb registre), identificar riscos (gas, incendi, col·lapse, electricitat), un guaita que vigili l'estructura i un equip SOS sense cap altra funció.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 6.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "els vehicles s’haurien de col·locar a una distància mínima de dues edificacions no afectades respecte el lloc del col·lapse."
+            },
+            {
+              "ref": "MAN.SVES.000, 6.1",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "no ha de tenir cap altra funció operativa mentre estigui assignat com a equip de suport d’emergència."
+            }
+          ]
+        },
+        {
+          "text": "Protecció de la població: perímetre de seguretat, desallotjament preventiu d'edificis adjacents (efecte dòmino), control de circulació i atenció psicosocial (Torroella de Montgrí, 2021). EPI obligatori: casc amb visera i llanterna, ulleres, guants, roba ignífuga, mascareta FFP3 per la pols (ERA si hi ha amiant o partícules tòxiques) i botes amb puntera i sola antiperforació.",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 6.2",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Desallotjament preventiu: evacuació d’edificis adjacents que puguin veure’s afectats per col·lapse en cadena o efecte dominó."
+            },
+            {
+              "ref": "MAN.SVES.000, 6.3",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "la presència de pols en suspensió fa imprescindible portar una mascareta FFP3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Protocol LACES, comunicació i riscos específics",
+      "blocks": [
+        {
+          "text": "LACES defineix cinc mesures: Look (guaita que vigila l'escenari), Ancoratge (punt d'entrada controlat per registrar qui entra), Comunicacions (actives i contínues; perdre-les és un risc greu), Escapament (rutes d'evacuació senyalitzades i conegudes) i Seguretat (zones de refugi dins l'escenari, accessibles en pocs segons, que no substitueixen l'evacuació).",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 6.4",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "LACES és un acrònim que defineix cinc mesures preventives bàsiques que s’han d’implementar abans i durant qualsevol intervenció"
+            },
+            {
+              "ref": "MAN.SVES.000, 6.4",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Qualsevol trencament en les comunicacions ha de ser considerat un factor de risc greu."
+            }
+          ]
+        },
+        {
+          "text": "Riscos específics: col·lapse secundari (vibracions, maquinària, pluja), caigudes a diferent nivell (línies de vida), atmosferes tòxiques (CO, CO₂, metà, falta d'oxigen, amiant: detectors i ERA), risc elèctric (confirmar la desconnexió), fuites d'aigua i incendis latents (detecció tèrmica prèvia).",
+          "refs": [
+            {
+              "ref": "MAN.SVES.000, 6.6",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Per això, cada acció dins la zona calenta ha de ser precedida d’una valoració estructural i d’un apuntalament si cal."
+            },
+            {
+              "ref": "MAN.SVES.000, 6.6",
+              "law": "MAN.SVES.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
+              "quote": "Cal confirmar la desconnexió de subministraments elèctrics i fer servir eines aïllades si hi ha dubte."
             }
           ]
         }
@@ -366,79 +553,79 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Col·lapse estructural: fallida sobtada o progressiva quan un element supera el límit resistent o elàstic i deixa de ser portador.",
+          "text": "GREC: 2021, subàmbit de la guàrdia de suport. INSARAG: xarxa de l'ONU. USAR: recerca i rescat urbà. OSOCC: coordinació de l'ONU. Haití 2010: més de 40 equips.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § col·lapse estructural",
+              "ref": "MAN.SVES.000, 1.3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "supera el seu límit resistent o elàstic, deixant de complir la seva funció portadora."
+              "quote": "no va ser fins el 2021"
             }
           ]
         },
         {
-          "text": "INSARAG = xarxa de Nacions Unides; OSOCC = centre de coordinació sobre el terreny. Haití 2010: més de 40 equips USAR.",
+          "text": "Tres tipus de col·lapse: total, parcial (freqüent i fàcil de passar per alt) i secundari (després del primer).",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § Haití",
+              "ref": "MAN.SVES.000, 2.1.2",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Després del terratrèmol d’Haití (2010), més de 40 equips USAR de diferents països van treballar de manera conjunta"
+              "quote": "pot passar desapercebut en una primera valoració"
             }
           ]
         },
         {
-          "text": "GREC: constituït oficialment el 2021 com a subàmbit de la guàrdia de suport.",
+          "text": "Signes premonitoris: pols que cau, sorolls secs, runa que es mou, esquerdes que canvien.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § GREC",
+              "ref": "MAN.SVES.000, 2.1.3",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "no va ser fins el 2021 que es va constituir oficialment el Grup de recolzament en estructures col·lapsades (GREC) com un subàmbit de la guàrdia de suport."
+              "quote": "com la caiguda de pols, sorolls secs, moviments de runa, o canvis en les esquerdes"
             }
           ]
         },
         {
-          "text": "Col·lapse parcial: molt freqüent i pot passar desapercebut. Secundari: després del primer; signes premonitoris = pols, sorolls secs, moviments de runa, canvis en esquerdes.",
+          "text": "Recerca: física (primera fase, vista i oïda), instrumentalitzada (geòfons i càmeres) i canina (venteig).",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § signes premonitoris",
+              "ref": "MAN.SVES.000, 3.1",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Els signes premonitoris –com la caiguda de pols, sorolls secs, moviments de runa, o canvis en les esquerdes– són indicadors que cal vigilar molt de prop."
+              "quote": "La recerca física és la primera fase operativa"
             }
           ]
         },
         {
-          "text": "Recerca física = primera fase (crida i escolta). Geòfons: vibracions i sorolls. Càmeres: per forats i esquerdes. Venteig: el gos rastreja l'aire.",
+          "text": "Apuntalaments: verticals (els més habituals; sotapont, puntals, jaç), horitzontals (rases, successius) i inclinats (tornapuntes, 45-60°). Puntals a ≤ 1 m; 1.000 kg cadascun.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § recerca física",
+              "ref": "MAN.SVES.000, 4",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "La recerca física és la primera fase operativa en la localització de víctimes atrapades després d’un col·lapse."
+              "quote": "Es considera que un puntal té una resistència màxima de 1.000 kg."
             }
           ]
         },
         {
-          "text": "Apuntalaments verticals = els més habituals. Horitzontals successius a les rases. Tornapuntes = elements oblics del puntal inclinat.",
+          "text": "Senyals: vermell perill, verd ruta transitable, X prohibit; V de 50 cm per a víctimes; 3 tocs curts = evacuar.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § tornapuntes",
+              "ref": "MAN.SVES.000, 5",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Tornapuntes: són els elements oblics que fan la funció de puntal inclinat."
+              "quote": "el verd per assenyalar rutes transitables"
             }
           ]
         },
         {
-          "text": "Senyals: vermell = perill; verd = ruta transitable; X = pas prohibit; V d'uns 50 cm = víctima detectada.",
+          "text": "Vehicles a dues edificacions; LACES = Look, Ancoratge, Comunicacions, Escapament, Seguretat.",
           "refs": [
             {
-              "ref": "MAN.SVES.000, § colors",
+              "ref": "MAN.SVES.000, 6.4",
               "law": "MAN.SVES.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-30-MAN.SVES.000.pdf",
-              "quote": "Els colors habituals són el vermell per indicar perill, el verd per assenyalar rutes transitables i la X per prohibir el pas."
+              "quote": "Look (guaita): Designar una persona o equip encarregat de mantenir la vigilància constant de l’escenari."
             }
           ]
         }

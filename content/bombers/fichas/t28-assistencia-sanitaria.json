@@ -55,33 +55,50 @@
   "lessons": [
     {
       "n": "1",
-      "title": "Marc general: l'assistència sanitària en emergències i el paper dels Bombers",
+      "title": "Marc general: l'assistència sanitària en emergències i el marc legal",
       "blocks": [
         {
-          "text": "L'objectiu principal de l'assistència sanitària en emergències és preservar la vida, estabilitzar les funcions vitals i facilitar la transferència segura del pacient fins a l'atenció definitiva.",
+          "text": "L'assistència sanitària en emergències és la prestació d'atenció immediata d'urgència a persones en situació crítica, amb risc vital o potencial compromís funcional. L'objectiu principal és preservar la vida, estabilitzar les funcions vitals i facilitar la transferència segura del pacient fins a l'atenció definitiva. Els Bombers la poden prestar a la zona calenta de l'incident, quan arriben al sinistre sense el SEM o en qualsevol intervenció en què se'ls requereixi, en col·laboració amb el SEM; és especialment rellevant en escenaris de difícil accés (muntanya, medi aquàtic, incendis, trànsit, múltiples afectats o catàstrofes).",
           "refs": [
             {
-              "ref": "MAN.SANI.000, objectiu",
+              "ref": "MAN.SANI.000, 1.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "L’objectiu principal és preservar la vida, estabilitzar les funcions vitals i facilitar la transferència segura del pacient fins a l’atenció definitiva."
+            },
+            {
+              "ref": "MAN.SANI.000, 1.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "L’arribada al sinistre sense presència del SEM"
             }
           ]
         },
         {
-          "text": "La capacitat dels Bombers d'oferir assistència sanitària és especialment rellevant en escenaris de difícil accés per als serveis mèdics: muntanya, medi aquàtic, incendis, accidents de trànsit, incidents amb múltiples afectats o catàstrofes. La Llei 5/1994 ja inclou el suport sanitari en emergències entre les funcions operatives de l'escala tècnica.",
+          "text": "Aquesta assistència immediata i bàsica no substitueix la prestació sanitària professional del SEM, però compleix una funció de detecció, estabilització i suport vital bàsic fins que arriben els equips mèdics. L'actuació sanitària de Bombers es fonamenta en la Llei 5/1994, la carta de serveis, els plans de protecció civil (PROCICAT, INFOCAT…) i els protocols de coordinació SEM-Bombers. L'organització de la resposta extrahospitalària correspon al SEM, que la planifica i coordina a tot el territori.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, paper dels Bombers",
+              "ref": "MAN.SANI.000, 1.2",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Aquesta capacitat de Bombers de poder oferir una assistència sanitària en emergències és especialment rellevant en escenaris amb difícil accés per als serveis mèdics, com ara entorns de muntanya, aquàtics, incendis, accidents de trànsit, incidents amb múltiples afectats o catàstrofes."
+              "quote": "Aquesta assistència no substitueix la prestació sanitària professional del Sistema d’Emergències Mèdiques (SEM), però compleix una funció essencial de detecció, estabilització i suport vital bàsic (SVB) fins a l’arribada dels equips mèdics."
             },
             {
-              "ref": "Art. 16.1.c) L5",
-              "law": "Llei 5/1994",
-              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-12665",
-              "quote": "En la escala técnica, las operativas en tareas de prevención y extinción de incendios y de salvamentos y de apoyo sanitario en emergencias"
+              "ref": "MAN.SANI.000, 1.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "l’organització de la resposta sanitària extrahospitalària recau en el Sistema d’Emergències Mèdiques (SEM), que planifica i coordina l’atenció a tot el territori."
+            }
+          ]
+        },
+        {
+          "text": "En entorns de gran complexitat, unitats com el GRAE (Grup d'Actuacions Especials) o el GROS Índia (unitat mixta d'un bomber i un infermer) poden fer d'enllaç entre l'atenció tècnica i la sanitària.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 1.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "GROS Índia (unitat específica mixta formada per un bomber i un infermer)"
             }
           ]
         }
@@ -89,16 +106,62 @@
     },
     {
       "n": "2",
-      "title": "Cadena assistencial i contínuum assistencial",
+      "title": "La cadena assistencial i el paper dels Bombers",
       "blocks": [
         {
-          "text": "La cadena assistencial busca una continuïtat (contínuum assistencial) en què cada esglaó reforça l'anterior, de manera que es minimitza el temps de resposta i es maximitzen les possibilitats de supervivència i recuperació. L'organització concreta del sistema sanitari d'emergències a Catalunya no és a les fonts revisades; cal consultar el manual MAN.SANI.000.",
+          "text": "La cadena assistencial va de la identificació in situ fins a l'hospital: testimonis o primers intervinents (alerten al 112 i, si en saben, inicien SVB), serveis d'emergència (gestionen l'escena, la seguretat i l'accés a la víctima), equips especialitzats (SVA, fàrmacs, monitoratge i trasllat medicalitzat) i atenció hospitalària. L'objectiu és un contínuum assistencial en què cada esglaó reforça l'anterior.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, contínuum",
+              "ref": "MAN.SANI.000, 1.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "alerten els serveis d’emergència mitjançant el 112 i, si tenen formació, poden iniciar maniobres de suport vital bàsic (SVB) o primers auxilis."
+            },
+            {
+              "ref": "MAN.SANI.000, 1.3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "L’objectiu és mantenir una continuïtat assistencial (contínuum assistencial) on cada esglaó reforça l’anterior i permet minimitzar el temps de resposta i maximitzar les possibilitats de supervivència i recuperació."
+            }
+          ]
+        },
+        {
+          "text": "En l'aturada cardiorespiratòria, la cadena té quatre baules (revisades segons l'ERC): prevenció, reconeixement precoç i demanda d'ajuda (112); RCP i desfibril·lació precoces; suport vital avançat i cures postressuscitació; i supervivència i recuperació. Els Bombers participen sobretot en les dues primeres.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 1.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "2) RCP i desfibril·lació precoces: iniciar immediatament maniobres de reanimació cardiopulmonar i utilitzar un DEA tan aviat com estigui disponible"
+            },
+            {
+              "ref": "MAN.SANI.000, 1.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Els Bombers participen principalment en les dues primeres baules"
+            }
+          ]
+        },
+        {
+          "text": "Els bombers no substitueixen els serveis mèdics, però en formen part: fan la valoració inicial i la classificació, apliquen SVB i immobilitzacions, mobilitzen i evacuen i transfereixen la informació als sanitaris, sovint amb recursos limitats. El GEM (Grup d'Emergències Mèdiques), consolidat als anys 90, té personal mèdic i d'infermeria integrat a la guàrdia i pot medicalitzar el lloc de l'incident. El GROS (Grup Operatiu i de Suport) munta zones de triatge, àrees de concentració de víctimes, carpes i logística.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 1.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Els bombers no substitueixen els serveis mèdics, però formen part integral de la cadena assistencial."
+            },
+            {
+              "ref": "MAN.SANI.000, 1.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Aquesta unitat es va consolidar als anys 90 i els equips que la componen estan formats per personal mèdic i d’infermeria"
+            },
+            {
+              "ref": "MAN.SANI.000, 1.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Muntar zones de triatge, àrees de concentració de víctimes o punts d’assistència sanitària prehospitalària."
             }
           ]
         }
@@ -106,30 +169,30 @@
     },
     {
       "n": "3",
-      "title": "Terminologia bàsica: suport vital, urgència, signe i símptoma",
+      "title": "Principis d'actuació i terminologia bàsica",
       "blocks": [
         {
-          "text": "El suport vital és el conjunt de maniobres i tècniques destinades a mantenir les funcions vitals d'una persona davant una situació de risc imminent de mort. Es distingeix el suport vital bàsic (SVB) del suport vital avançat (SVA). L'objectiu del SVB és mantenir les constants vitals de la víctima per evitar l'aturada cardíaca; si l'aturada es produeix, s'inicia la RCP.",
+          "text": "Principis: prioritzar les funcions vitals (via aèria, respiració, circulació), aplicar una sistemàtica clara (valoració primària XABCDE i després secundària), minimitzar les interrupcions de les compressions, comunicar-se bé i revalorar contínuament.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, suport vital",
+              "ref": "MAN.SANI.000, 1.5",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "a) Suport Vital bàsic (SVB) i suport vital avançat (SVA) El suport vital és el conjunt de maniobres i tècniques destinades a mantenir les funcions vitals d’una persona davant d’una situació de risc imminent de mort."
-            },
-            {
-              "ref": "MAN.SANI.000, SVB",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "L’objectiu del SVB és mantenir les constants vitals en una víctima per tal d’evitar l’aturada cardíaca, cas en què s’iniciaria la maniobra de RCP."
+              "quote": "Aplicar una sistemàtica clara: valoració primària (XABCDE), seguit de la valoració secundària."
             }
           ]
         },
         {
-          "text": "Des del punt de vista sanitari, una urgència és la condició que, si no s'atén en 24-48 hores, pot comportar complicacions.",
+          "text": "El suport vital es divideix en bàsic (SVB) i avançat (SVA, amb equipament avançat). L'objectiu del SVB és mantenir les constants per evitar l'aturada cardíaca i, si es produeix, iniciar la RCP. Una urgència és percebuda com a necessitat d'atenció immediata però sense risc vital imminent: si no s'atén en 24-48 h pot comportar complicacions. Una emergència implica risc real per a la vida o la salut i demana actuació immediata al lloc.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, urgència",
+              "ref": "MAN.SANI.000, 2.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "L’objectiu del SVB és mantenir les constants vitals en una víctima per tal d’evitar l’aturada cardíaca, cas en què s’iniciaria la maniobra de RCP."
+            },
+            {
+              "ref": "MAN.SANI.000, 2.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Des d’un punt de vista sanitari, és aquella condició que, si no és atesa en 24-48 h, pot comportar complicacions."
@@ -137,19 +200,59 @@
           ]
         },
         {
-          "text": "Un signe és una manifestació observable i mesurable (pal·lidesa, febre, hemorràgia). Un símptoma és una sensació subjectiva que expressa la víctima i que no es pot mesurar (dolor, set, mareig).",
+          "text": "Un signe és observable i mesurable (pal·lidesa, febre, hemorràgia); un símptoma és una sensació subjectiva que no es pot mesurar (dolor, set, mareig); una síndrome és un conjunt de signes i símptomes que no defineix per si sol una malaltia. Edats: nounat (just després del part), lactant (0-12 mesos), nen (d'1 any a la pubertat, 12-14 anys) i adult.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, signe",
+              "ref": "MAN.SANI.000, 2.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Un signe és una manifestació observable i mesurable (ex.: pal·lidesa, febre, hemorràgia)."
             },
             {
-              "ref": "MAN.SANI.000, símptoma",
+              "ref": "MAN.SANI.000, 2.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Un símptoma és una sensació subjectiva que expressa la víctima i no pot ser mesurada (ex.: dolor, set, mareig)."
+            },
+            {
+              "ref": "MAN.SANI.000, 2.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Lactant: de 0 a 12 mesos."
+            }
+          ]
+        },
+        {
+          "text": "Termes topogràfics: superior/inferior (prop o lluny del cap), proximal/distal (prop o lluny del tronc, en extremitats), intern/extern (respecte de la línia mitjana), cranial/caudal, homolateral/contralateral. La posició anatòmica és dret, mirant al front, braços al costat i palmells endavant. Postures: decúbit supí (d'esquena), pron (de panxa), lateral, Trendelemburg (supí amb el cap més avall que els peus) i Fowler (tronc a 30-90°).",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 2.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Proximal/distal: més a prop o més lluny del tronc (en extremitats)."
+            },
+            {
+              "ref": "MAN.SANI.000, 2.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "La posició anatòmica estàndard és dret, mirant al front, braços al costat del cos amb els palmells cap endavant."
+            },
+            {
+              "ref": "MAN.SANI.000, 2.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Trendelemburg: estirat decúbit supí amb el cap més avall que els peus per afavorir la circulació als organs principals."
+            }
+          ]
+        },
+        {
+          "text": "Classificació de la víctima: lleu (menys urgent), greu (urgent), molt greu (emergència) i molt greu (reanimació: no respon i no respira o no respira amb normalitat).",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 2.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Molt greu (reanimació): Persona que no respon i que no respira o no respira amb normalitat, risc vital imminent."
             }
           ]
         }
@@ -157,44 +260,27 @@
     },
     {
       "n": "4",
-      "title": "Terminologia anatòmica i postures",
+      "title": "Tipus d'intervencions i primera impressió",
       "blocks": [
         {
-          "text": "La posició anatòmica estàndard és dret, mirant al front, amb els braços al costat del cos i els palmells cap endavant. És la referència per descriure on és una lesió.",
+          "text": "Hi ha tres tipus d'intervenció: l'assistència bàsica de primera resposta (la més freqüent: XABCDE, SVB, OVACE, immobilització bàsica, trasllat), l'assistència en context de rescat (triatge, immobilització i suport respiratori durant o després de l'extracció) i l'especialitzada del GEM (canalització venosa, intubació, medicació, monitoratge, suport psicològic).",
           "refs": [
             {
-              "ref": "MAN.SANI.000, posició anatòmica",
+              "ref": "MAN.SANI.000, 2.2",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "La posició anatòmica estàndard és dret, mirant al front, braços al costat del cos amb els palmells cap endavant."
+              "quote": "a) Assistència sanitària bàsica (primera resposta) És la més freqüent."
             }
           ]
         },
         {
-          "text": "Termes de localització: proximal i distal volen dir més a prop o més lluny del tronc (en les extremitats); intern i extern, més a prop o més lluny de la línia mitjana del cos.",
+          "text": "La valoració comença abans del contacte: la primera impressió és una observació global sense contacte de la víctima i l'entorn (mecanisme de lesió, comportament, postura, coloració, respiració) que permet anticipar la gravetat.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, proximal/distal",
+              "ref": "MAN.SANI.000, 3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Proximal/distal: més a prop o més lluny del tronc (en extremitats)."
-            },
-            {
-              "ref": "MAN.SANI.000, intern/extern",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Intern/extern: més a prop o més lluny de la línia mitjana del cos."
-            }
-          ]
-        },
-        {
-          "text": "Postures: en Trendelemburg la persona està estirada en decúbit supí amb el cap més avall que els peus, per afavorir la circulació als òrgans principals.",
-          "refs": [
-            {
-              "ref": "MAN.SANI.000, Trendelemburg",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Trendelemburg: estirat decúbit supí amb el cap més avall que els peus per afavorir la circulació als organs principals."
+              "quote": "Aquesta valoració es fa sense contacte, i prepara el professional per actuar amb rapidesa i seguretat."
             }
           ]
         }
@@ -202,92 +288,48 @@
     },
     {
       "n": "5",
-      "title": "Valoració de la víctima: valoració primària XABCDE",
+      "title": "Valoració primària XABCDE: X, A i B",
       "blocks": [
         {
-          "text": "La valoració primària segueix l'ordre XABCDE. El primer pas (X, eXsanguination) és detectar i controlar immediatament una hemorràgia massiva, perquè la pèrdua ràpida de sang pot causar la mort en minuts, fins i tot abans que un problema de via aèria.",
+          "text": "La valoració primària detecta i tracta les lesions de risc imminent de mort seguint l'esquema XABCDE: X hemorràgia massiva, A via aèria, B respiració, C circulació, D disfunció neurològica i E exposició. El primer pas és l'hemorràgia massiva, perquè pot matar en minuts, fins i tot abans que un problema de via aèria. La via aèria és el segon pas: si la víctima parla, probablement és permeable; estridor, roncs o sibilàncies poden indicar obstrucció.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, hemorràgia massiva",
+              "ref": "MAN.SANI.000, 3.1.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Hemorràgia massiva (eXsanguination) La detecció i control immediat d’una hemorràgia massiva és el primer pas de la valoració primària, ja que la pèrdua ràpida de sang pot provocar la mort en qüestió de minuts, fins i tot abans que un problema de via aèria."
+              "quote": "La detecció i control immediat d’una hemorràgia massiva és el primer pas de la valoració primària, ja que la pèrdua ràpida de sang pot provocar la mort en qüestió de minuts, fins i tot abans que un problema de via aèria."
+            },
+            {
+              "ref": "MAN.SANI.000, 3.1.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "La via aèria és el segon pas de la valoració, ja que el seu bloqueig pot provocar una hipòxia ràpida i mort en pocs minuts."
             }
           ]
         },
         {
-          "text": "El segon pas (A, Airway) és la via aèria, perquè el seu bloqueig pot provocar una hipòxia ràpida i la mort en pocs minuts. Després venen la respiració (B) i la circulació (C). La primera impressió, la valoració secundària, els passos D i E i la identificació del TCE no són a les fonts revisades; cal consultar el manual MAN.SANI.000.",
+          "text": "Respiració: la FR normal de l'adult és 12-20 rpm (taquipnea > 20, bradipnea < 12), però el veritable signe d'alerta és una FR > 30 rpm. Cal mirar l'expansió i la simetria del tòrax (un costat que es mou menys pot indicar pneumotòrax, fractures de costelles o alteracions pulmonars), els sons, la coloració (cianosi; vermell cirera en intoxicació per monòxid) i l'esforç. La respiració paradoxal (l'abdomen es deprimeix en la inspiració i s'expandeix en l'expiració) indica que el diafragma no es pot contraure. SpO₂: normal 95-100 %, hipòxia lleu 90-94 %, greu < 90 %.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, via aèria",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Via aèria (Airway) La via aèria és el segon pas de la valoració, ja que el seu bloqueig pot provocar una hipòxia ràpida i mort en pocs minuts."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "n": "6",
-      "title": "Respiració: freqüència, esforç, simetria i saturació",
-      "blocks": [
-        {
-          "text": "La freqüència respiratòria (FR) és el nombre de respiracions completes que fa un adult en un minut i és un indicador essencial de l'efectivitat de la ventilació. Encara que cal conèixer els valors normals, és una FR superior a 30 rpm la que exigeix una actuació immediata.",
-          "refs": [
-            {
-              "ref": "MAN.SANI.000, FR",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "La freqüència respiratòria és el nombre de respiracions completes que fa un adult en un minut, i és un indicador essencial de l’efectivitat de la ventilació."
-            },
-            {
-              "ref": "MAN.SANI.000, FR > 30",
+              "ref": "MAN.SANI.000, 3.1.3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Per aquest motiu, tot i que conèixer els valors normals és important, és la FR > 30 rpm la que requereix una actuació immediata."
-            }
-          ]
-        },
-        {
-          "text": "L'ús de la musculatura accessòria (músculs del coll, espatlles i intercostals) i l'aleteig nasal indiquen que el pacient fa un esforç extra per respirar: és signe de compromís respiratori greu. La respiració paradoxal és una respiració descompensada en què, en la inspiració, l'abdomen es deprimeix i, en l'expiració, s'expandeix: el diafragma no té capacitat de contraure's.",
-          "refs": [
-            {
-              "ref": "MAN.SANI.000, musculatura accessòria",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "L’ús de musculatura accessòria (músculs del coll, espatlles i intercostals) i l’aleteig nasal mostra que el pacient fa un esforç extra per respirar, cosa que és un signe de compromís respiratori greu."
             },
             {
-              "ref": "MAN.SANI.000, respiració paradoxal",
+              "ref": "MAN.SANI.000, 3.1.3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Per altra banda, la respiració paradoxal, és aquell tipus de respiració descompensada en què en la inspiració l'abdomen es deprimeix i en l'expiració s'expandeix, signe que el diafragma no té la capacitat de contraure's."
-            }
-          ]
-        },
-        {
-          "text": "També cal comprovar la simetria: si un costat del tòrax es mou menys que l'altre, pot indicar pneumotòrax, fractures de costelles o alteracions pulmonars.",
-          "refs": [
-            {
-              "ref": "MAN.SANI.000, simetria",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "També és important comprovar la simetria: si un costat del tòrax es mou menys que l’altre, pot suggerir pneumotòrax, fractures de costelles o alteracions pulmonars."
-            }
-          ]
-        },
-        {
-          "text": "La saturació d'oxigen (SpO₂) mesura el percentatge d'hemoglobina que transporta oxigen a la sang i és un indicador directe de l'eficàcia de l'intercanvi gasós als pulmons. Valors: 95-100 % normalitat; 90-94 % hipòxia lleu; per sota del 90 % hipòxia greu.",
-          "refs": [
-            {
-              "ref": "MAN.SANI.000, SpO2",
-              "law": "MAN.SANI.000",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "La saturació d’oxigen mesura el percentatge d’hemoglobina que transporta oxigen a la sang i és un indicador directe de l’eficàcia de l’intercanvi gasós als pulmons."
+              "quote": "si un costat del tòrax es mou menys que l’altre, pot suggerir pneumotòrax, fractures de costelles o alteracions pulmonars."
             },
             {
-              "ref": "MAN.SANI.000, valors SpO2",
+              "ref": "MAN.SANI.000, 3.1.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "la respiració paradoxal, és aquell tipus de respiració descompensada en què en la inspiració l'abdomen es deprimeix i en l'expiració s'expandeix, signe que el diafragma no té la capacitat de contraure's."
+            },
+            {
+              "ref": "MAN.SANI.000, 3.1.3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Saturació d’oxigen (SpO₂) Valors dins la normalitat 95-100 % Hipòxia lleu 90-94 % Hipòxia greu < 90 %"
@@ -297,37 +339,38 @@
       ]
     },
     {
-      "n": "7",
-      "title": "Circulació: pols, freqüència cardíaca i perfusió",
+      "n": "6",
+      "title": "Valoració primària XABCDE: C, D i E",
       "blocks": [
         {
-          "text": "El pols radial es palpa al canell, a la cara lateral del radi, i serveix per valorar el flux sanguini perifèric. El pols carotidi, al costat de la tràquea, al coll, és un pols central que es manté fins i tot amb una pressió arterial molt baixa (60 mmHg); per això s'utilitza quan el radial no es palpa o en casos de compromís vital. S'ha de palpar sempre només un costat del coll, per no comprometre el flux sanguini cerebral.",
+          "text": "Circulació: pols, ompliment capil·lar, pell i hemorràgies no detectades a la X. Una perfusió reduïda és habitual en hipovolèmia, xoc, hipotensió o hipotèrmia. El pols radial (canell, cara lateral del radi) valora el flux perifèric i indica una sistòlica mínima d'uns 80-90 mmHg; el carotidi és central, es manté fins a 60 mmHg i s'usa quan el radial no es palpa, sempre d'un sol costat per no comprometre el flux cerebral. FC normal 60-100 bpm (taquicàrdia > 100, bradicàrdia < 60). PA normal 120/80; hipertensió > 140/90; hipotensió < 90/60.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, pols radial",
+              "ref": "MAN.SANI.000, 3.1.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Una perfusió reduïda és habitual en situacions d’hipovolèmia, xoc, hipotensió o hipotèrmia."
+            },
+            {
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "El pols radial es palpa al canell, a la cara lateral del radi, i és útil per valorar el flux sanguini perifèric."
             },
             {
-              "ref": "MAN.SANI.000, pols carotidi",
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "El pols carotidi, situat al costat de la tràquea, al coll, és un pols central i es manté fins i tot en situacions de pressió arterial molt baixa (60 mmHg); per això s’utilitza quan el pols radial no és palpable o en casos de compromís vital."
             },
             {
-              "ref": "MAN.SANI.000, un sol costat",
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Cal palpar sempre un sol costat del coll per evitar comprometre el flux sanguini cerebral."
-            }
-          ]
-        },
-        {
-          "text": "Freqüència cardíaca (FC): 60-100 bpm és normalitat; més de 100 bpm, taquicàrdia; menys de 60 bpm, bradicàrdia.",
-          "refs": [
+            },
             {
-              "ref": "MAN.SANI.000, FC",
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Freqüència cardíaca (FC) Valors dins la normalitat 60-100 bpm Taquicàrdia > 100 bpm Bradicàrdia < 60 bpm"
@@ -335,19 +378,88 @@
           ]
         },
         {
-          "text": "La prova de l'ompliment capil·lar consisteix a pressionar la punta d'un dit o l'ungla fins que la pell es torna pàl·lida i després alliberar-la. Una perfusió reduïda és habitual en situacions d'hipovolèmia, xoc, hipotensió o hipotèrmia.",
+          "text": "L'ompliment capil·lar consisteix a pressionar la punta d'un dit o l'ungla fins que empal·lideix i alliberar-la: normal < 2 segons. Es busquen hemorràgies internes palpant abdomen (rígid «en taula»), pelvis (davant sospita d'inestabilitat, cinturó pelvià) i fèmurs. Signes de xoc inicial: mareig, pell suada i pàl·lida, taquipnea, pols ràpid i dèbil, alteració mental i TAS de 90 mmHg o menys.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, ompliment capil·lar",
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
               "quote": "Consisteix a pressionar la punta d’un dit o l’ungla fins que la pell es torna pàl·lida, i després alliberar-la."
             },
             {
-              "ref": "MAN.SANI.000, perfusió",
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Una perfusió reduïda és habitual en situacions d’hipovolèmia, xoc, hipotensió o hipotèrmia."
+              "quote": "Ompliment capil·lar (temps) Valors dins la normalitat < 2 segons"
+            },
+            {
+              "ref": "MAN.SANI.000, 3.1.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Davant qualsevol sospita d’inestabilitat pelviana, s’ha de col·locar un cinturó pelvià tan aviat com sigui possible"
+            }
+          ]
+        },
+        {
+          "text": "Disfunció: escala AVDN (Alerta, Verbal, Dolor, No respon) i pupil·les (anisocòria, midriasi, miosi). Exposició: protegir del medi i descobrir el cos per buscar lesions ocultes, preservant la intimitat. Temperatura normal 36-37,5 °C; hipertèrmia ≥ 38 °C; hipotèrmia ≤ 35 °C.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 3.1.5",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Classifica l’estat del pacient en quatre categories ordenades de millor a pitjor resposta"
+            },
+            {
+              "ref": "MAN.SANI.000, 3.1.6",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Aquest darrer pas implica protegir la víctima del medi (hipotèrmia o hipertèrmia) i descobrir el cos de la víctima per detectar lesions ocultes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Valoració secundària i signes de TCE",
+      "blocks": [
+        {
+          "text": "La valoració secundària és un examen complet que s'inicia després d'assegurar les funcions vitals. Inclou l'anamnesi SPUMA (Succés, Patologies prèvies, Última ingesta, Medicació, Al·lèrgies, a més de nom, edat i sexe), les constants vitals i l'examen de cap a peus. L'escala de Glasgow suma resposta ocular, verbal i motora, de 3 (coma profund) a 15 (normal): TCE lleu ≥ 13, moderat 9-12 i greu ≤ 8.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 3.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "La valoració secundària és un examen complet i detallat de la víctima, que s’inicia després d’haver assegurat les funcions vitals bàsiques amb la valoració primària (XABCDE)."
+            },
+            {
+              "ref": "MAN.SANI.000, 3.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "la suma final sempre va de 3 punts (coma profund) a 15 punts (estat normal)."
+            },
+            {
+              "ref": "MAN.SANI.000, 3.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "TCE greu: ≤ 8 punts → risc vital"
+            }
+          ]
+        },
+        {
+          "text": "El TCE és una alteració cerebral per una força externa. Signes: pèrdua de consciència encara que breu, desorientació o amnèsia, vòmits en escopeta, mal de cap intens, somnolència, irritabilitat, anisocòria, sang o líquid pel nas o les orelles, «ull de mapatxe» o hematoma retroauricular, convulsions. Davant la mínima sospita: evitar mobilitzacions, mantenir alineada la columna cervical i revalorar l'XABCDE.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 3.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Davant la mínima sospita de TCE, cal evitar mobilitzacions innecessàries, mantenir alineada la columna cervical i assegurar una valoració XABCDE correcta"
+            },
+            {
+              "ref": "MAN.SANI.000, 3.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Aparició de vòmits no precedits de nàusees que surten projectats violentament (en escopeta)"
             }
           ]
         }
@@ -355,22 +467,56 @@
     },
     {
       "n": "8",
-      "title": "Maniobres bàsiques d'assistència sanitària",
+      "title": "Maniobres: hemorràgies, via aèria, OVACE i oxigenoteràpia",
       "blocks": [
         {
-          "text": "De les maniobres de l'epígraf, les fonts revisades només recullen el criteri de prioritat: l'hemorràgia massiva es controla de manera immediata, abans fins i tot que la via aèria, i la RCP s'inicia quan el SVB no ha pogut evitar l'aturada cardíaca. Les tècniques de control d'hemorràgies, via aèria, OVACE, ventilació i oxigenoteràpia, RCP amb i sense DEA, posició lateral de seguretat, tractament de lesions, mobilització, immobilització i transport no són a les fonts revisades; cal consultar el manual MAN.SANI.000.",
+          "text": "Control d'hemorràgies: pressió directa amb gasa, drap o guant (sense retirar la capa en contacte, afegint-ne de noves), embenat estàndard amb pressió i, un cop controlat, embenat compressiu. Si una hemorràgia d'extremitat amenaça la vida i no s'atura, torniquet com més aviat millor, a 5 cm de la ferida, mai sobre una articulació, i anotant-ne l'hora. L'elevació i la compressió arterial proximal ja no són prioritàries.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, SVB",
+              "ref": "MAN.SANI.000, 4.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "per tal d’evitar l’aturada cardíaca, cas en què s’iniciaria la maniobra de RCP"
+              "quote": "El torniquet ha d’aplicar-se el més a prop possible (5cm) de la ferida, mai sobre una articulació (si cal es farà per sobre de l’articulació) i cal registrar l’hora d’aplicació."
             },
             {
-              "ref": "MAN.SANI.000, hemorràgia massiva",
+              "ref": "MAN.SANI.000, 4.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "La detecció i control immediat d’una hemorràgia massiva és el primer pas de la valoració primària"
+              "quote": "ja no es consideren tècniques prioritàries en el control de les hemorràgies greus."
+            }
+          ]
+        },
+        {
+          "text": "Obertura de la via aèria: front-mentó en inconscients no traumàtics i tracció mandibular en traumàtics; el lactant amb el cap neutre ja la té oberta. Prioritat: via aèria permeable encara que s'hagi de mobilitzar el coll. OVACE en víctima conscient: si pot tossir, animar-la; si no, alternar 5 cops interescapulars i 5 compressions abdominals (Heimlich); si perd la consciència, RCP 30:2. En lactants, 5 copets i 5 compressions toràciques; en embarassades i obesos, compressions toràciques.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 4.2",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "La maniobra de tracció mandibular: Especialment indicada en casos de víctimes traumàtiques."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "alternar 5 cops interescapulars amb 5 compressions abdominals fins que expulsi el cos estrany o fins que la víctima perdi la consciència."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.3",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "En lactants (menors d’un any) es combinen 5 copets interescapulars i 5 compressions toràciques, no es fan compressions abdominals."
+            }
+          ]
+        },
+        {
+          "text": "Ventilació i oxigenoteràpia segons formació: sense material, màscara-boca o boca-boca (boca-nas en lactants); sanitaris, Guedel i baló amb reservori a l'oxigen; suport avançat, intubació o supraglòtics. Només es retiren cossos estranys visibles.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 4.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Només s’han de retirar cossos estranys visibles per evitar empènyer-los endins."
             }
           ]
         }
@@ -378,16 +524,137 @@
     },
     {
       "n": "9",
+      "title": "Maniobres: RCP, DEA, PLS i constants vitals",
+      "blocks": [
+        {
+          "text": "RCP: davant de qui no respon i no respira amb normalitat, compressions al centre del tòrax (meitat inferior de l'estèrnum), 5-6 cm de profunditat i 100-120 per minut, amb reexpansió completa; amb material, 30:2, i si no es pot ventilar, compressions contínues. En infants, lactants, ofegats i allaus: 5 ventilacions de rescat inicials; si el rescatador està sol, 1 minut de RCP abans de demanar ajuda.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 4.5",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "amb una profunditat de 5-6 cm i una freqüència de 100-120 compressions per minut."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.5",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Si es disposa de material, s’ha d’alternar 30 compressions amb 2 ventilacions."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.5",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "En infants i lactants, cal fer 5 ventilacions inicials de rescat, ja que sovint l’ACR té origen respiratori."
+            }
+          ]
+        },
+        {
+          "text": "DEA: s'inicia la RCP i s'hi col·loca el desfibril·lador com més aviat millor, sense aturar compressions; només s'interrompen quan el DEA analitza o descarrega (ningú no toca la víctima) i es reprèn la RCP uns 2 minuts. PLS: per a inconscients que respiren i sense traumatisme; embarassades sobre el costat esquerre. Constants (FR, FC, SpO₂) un cop estabilitzada la víctima; en sospita de CO, cal un pulsicooxímetre.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 4.6",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "No s’aturaran les compressions mentre es col·loquen els pegats, es rasura la zona, o s’eixuga el tòrax."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.7",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Mantenir oberta la via aèria i prevenir l’aspiració en víctimes inconscients amb respiració espontània i sense sospita de traumatisme."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.8",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "cal utilitzar un pulsicooxímetre per descartar la intoxicació per CO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Tractament inicial de lesions, mobilització, immobilització i transport",
+      "blocks": [
+        {
+          "text": "Ferides: netejar amb sèrum o aigua neta, cobrir amb apòsits estèrils; no retirar cossos estranys clavats. Cremades: 1r grau, aigua freda uns minuts (sense gel); 2n grau, no rebentar butllofes; 3r grau, cap substància, gasa estèril i evitar pèrdua de calor. Picades: netejar amb aigua i sabó; no tallar, xuclar ni fer torniquets. Hipotèrmia (< 35 °C): aïllar, escalfar progressivament, víctima horitzontal, pols central. Cop de calor (sovint > 40 °C): refredament actiu i activació sanitària.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 4.9",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "No s’han de retirar cossos estranys clavats profundament: es protegeixen i es fixa la zona per evitar moviments."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.10",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "En tots els casos cal netejar abundantment la zona amb aigua i sabó, no tallar, xuclar ni aplicar torniquets"
+            },
+            {
+              "ref": "MAN.SANI.000, 4.11",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "La hipotèrmia es produeix quan la temperatura corporal descendeix per sota dels 35 ºC"
+            }
+          ]
+        },
+        {
+          "text": "Mobilització amb comandament únic i eix cap-tronc-extremitats alineat: llitera de cullera, fusta espinal, pont (3 rescatadors), pont millorat (4 rescatadors; recomanat en sospita de lesió vertebral) i volteig en bloc. Immobilització amb fèrules, matalàs de buit, collarí, dama d'Elx o lliteres rígides; transport manual en trams curts.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 4.13",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Totes les mobilitzacions han de fer-se amb un comandament únic, mantenint l’eix cap-tronc extremitats alineat i evitant moviments de torsió."
+            },
+            {
+              "ref": "MAN.SANI.000, 4.13",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "És la tècnica recomanada per víctimes traumàtiques amb sospita de lesió vertebral."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
       "title": "Seguretat en l'assistència sanitària",
       "blocks": [
         {
-          "text": "L'autoprotecció, la protecció de la víctima, l'organització de l'escenari, el risc biològic i la comunicació operativa no són a les fonts revisades; cal consultar el manual MAN.SANI.000. Les fonts sí que destaquen que l'assistència dels Bombers es fa sovint en escenaris de difícil accés i perillosos (incendis, accidents de trànsit, medi aquàtic), on la seguretat de l'escena condiciona l'atenció.",
+          "text": "La seguretat és la primera prioritat: no es fa cap actuació sanitària sense un entorn segur. L'autoprotecció és permanent: identificar riscos, dur l'EPI adequat, mantenir una posició segura i preveure relleus; un intervinent lesionat es converteix en una nova víctima. Cal protegir la víctima (no moure-la innecessàriament, protegir-la de l'entorn i preservar-ne la intimitat) i organitzar l'escenari (zona segura, coordinació amb policia i SEM, vies d'entrada i sortida).",
           "refs": [
             {
-              "ref": "MAN.SANI.000, paper dels Bombers",
+              "ref": "MAN.SANI.000, 5",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "escenaris amb difícil accés per als serveis mèdics, com ara entorns de muntanya, aquàtics, incendis, accidents de trànsit, incidents amb múltiples afectats o catàstrofes"
+              "quote": "La seguretat és la primera prioritat en qualsevol intervenció, i cap actuació sanitària pot dur-se a terme si no s’ha garantit prèviament un entorn segur"
+            },
+            {
+              "ref": "MAN.SANI.000, 5.1",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Un intervinent lesionat deixa d’ajudar i es converteix en una nova víctima."
+            }
+          ]
+        },
+        {
+          "text": "Risc biològic: guants sempre, evitar punxades, eliminar el material en contenidors designats i higiene de mans encara que s'hagin dut guants. Comunicació: calma, claredat, seguir les ordres del comandament i demanar suport psicològic en situacions d'alt impacte.",
+          "refs": [
+            {
+              "ref": "MAN.SANI.000, 5.4",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "Higiene de mans després de cada intervenció, encara que s’hagin usat guants."
+            },
+            {
+              "ref": "MAN.SANI.000, 5.5",
+              "law": "MAN.SANI.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
+              "quote": "actuar amb professionalitat i demanar suport psicològic si cal."
             }
           ]
         }
@@ -398,79 +665,79 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Objectiu: preservar la vida, estabilitzar i transferir amb seguretat. Contínuum assistencial: cada esglaó reforça l'anterior.",
+          "text": "Objectiu: preservar la vida, estabilitzar i transferir. Bombers no substitueixen el SEM; participen en les dues primeres baules.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, objectiu",
+              "ref": "MAN.SANI.000, 1.3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "preservar la vida, estabilitzar les funcions vitals i facilitar la transferència segura del pacient fins a l’atenció definitiva"
+              "quote": "Els Bombers participen principalment en les dues primeres baules"
             }
           ]
         },
         {
-          "text": "Signe = observable i mesurable; símptoma = subjectiu (dolor, set, mareig). Urgència = complicacions si no s'atén en 24-48 h. SVB = evitar l'aturada; si n'hi ha, RCP.",
+          "text": "Signe = mesurable; símptoma = subjectiu. Urgència: complicacions si no s'atén en 24-48 h.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, urgència",
+              "ref": "MAN.SANI.000, 2.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "si no és atesa en 24-48 h, pot comportar complicacions"
+              "quote": "si no és atesa en 24-48 h"
             }
           ]
         },
         {
-          "text": "Posició anatòmica: dret, de cara, palmells endavant. Proximal/distal = tronc; intern/extern = línia mitjana. Trendelemburg = decúbit supí, cap més avall que els peus.",
+          "text": "XABCDE: X primer, A segon. FR alerta > 30 rpm. SpO₂ normal 95-100 %.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, Trendelemburg",
+              "ref": "MAN.SANI.000, 3.1.3",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "estirat decúbit supí amb el cap més avall que els peus"
+              "quote": "és la FR > 30 rpm la que requereix una actuació immediata."
             }
           ]
         },
         {
-          "text": "XABCDE: X hemorràgia massiva (1r), A via aèria (2n), B respiració, C circulació.",
+          "text": "FC 60-100; taquicàrdia > 100. Radial al canell; carotidi central (60 mmHg), un sol costat. Ompliment capil·lar < 2 s.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, via aèria",
+              "ref": "MAN.SANI.000, 3.1.4",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "La via aèria és el segon pas de la valoració"
+              "quote": "Taquicàrdia > 100 bpm"
             }
           ]
         },
         {
-          "text": "FR > 30 rpm = actuació immediata. Paradoxal: abdomen es deprimeix en inspirar. Asimetria toràcica: pneumotòrax, fractures de costelles.",
+          "text": "Glasgow 3-15; TCE greu ≤ 8. AVDN en la primària.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, FR > 30",
+              "ref": "MAN.SANI.000, 3.2",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "és la FR > 30 rpm la que requereix una actuació immediata"
+              "quote": "TCE moderat: 9–12 punts"
             }
           ]
         },
         {
-          "text": "SpO₂ 95-100 % normal, 90-94 % hipòxia lleu, < 90 % greu. FC 60-100 normal, > 100 taquicàrdia, < 60 bradicàrdia.",
+          "text": "Torniquet a 5 cm, mai sobre articulació, anotar hora. RCP 5-6 cm, 100-120/min, 30:2.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, FC",
+              "ref": "MAN.SANI.000, 4.5",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "Taquicàrdia > 100 bpm Bradicàrdia < 60 bpm"
+              "quote": "100-120 compressions per minut"
             }
           ]
         },
         {
-          "text": "Radial: canell, cara lateral del radi. Carotidi: central, es manté a 60 mmHg; un sol costat. Perfusió reduïda: hipovolèmia, xoc, hipotensió, hipotèrmia.",
+          "text": "Trendelemburg = cap més avall que els peus. Pont millorat (4) per a lesió vertebral.",
           "refs": [
             {
-              "ref": "MAN.SANI.000, pols carotidi",
+              "ref": "MAN.SANI.000, 2.1",
               "law": "MAN.SANI.000",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SANI.000-Tema-28.-Assistencia-sanitaria.pdf",
-              "quote": "es manté fins i tot en situacions de pressió arterial molt baixa (60 mmHg)"
+              "quote": "amb el cap més avall que els peus"
             }
           ]
         }
