@@ -67,16 +67,50 @@
   "lessons": [
     {
       "n": "1",
-      "title": "Fonaments: el corrent elèctric i el seu sentit",
+      "title": "Fonaments: definició, sentit i tipus de corrent",
       "blocks": [
         {
-          "text": "El manual contraposa el sentit convencional del corrent i el sentit real: en la realitat física els electrons es mouen del pol negatiu (on hi ha excés d'electrons) cap al pol positiu (on n'hi ha manca). La definició general d'electricitat no és a l'extracte revisat.",
+          "text": "El manual operatiu bàsic d'electricitat (MAN.GRAL.005) defineix l'electricitat com un conjunt de fenòmens físics associats al moviment o a l'acumulació de càrregues elèctriques. Es manifesta sobretot com a corrent elèctric (càrregues que es desplacen per un conductor) i com a camp elèctric (càrregues en repòs). En l'àmbit operatiu s'ha d'entendre com una font d'energia capaç de produir efectes mecànics, tèrmics o electromagnètics, però també com un element potencialment perillós.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, sentit del corrent",
+              "ref": "MAN.GRAL.005, 2.1 Definició d'electricitat",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "No obstant això, en la realitat física, els electrons es mouen des del pol negatiu (on hi ha un excés d'electrons) cap al pol positiu (on hi ha una manca d'electrons)."
+              "quote": "L’electricitat és un conjunt de fenòmens físics associats al moviment o a l’acumulació de càrregues elèctriques. Es manifesta principalment en forma de corrent elèctric, quan les càrregues es desplacen a través d’un conductor, i en forma de camp elèctric, quan les càrregues romanen en repòs."
+            },
+            {
+              "ref": "MAN.GRAL.005, 2.1 Definició d'electricitat",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "En l’àmbit operatiu, l’electricitat s’ha d’entendre com una font d’energia capaç de produir efectes mecànics, tèrmics o electromagnètics, però també com un element potencialment perillós si no es controla adequadament."
+            }
+          ]
+        },
+        {
+          "text": "Sentit del corrent: històricament, abans de descobrir els electrons, es va establir que el corrent anava del pol positiu al negatiu (sentit convencional). En la realitat física, però, els electrons es mouen del pol negatiu (excés d'electrons) cap al pol positiu (manca d'electrons).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 2.2 Sentit i tipus de corrent",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Històricament, abans de descobrir l’existència dels electrons, es va establir que el corrent elèctric anava del pol positiu (+) al negatiu (-). No obstant això, en la realitat física, els electrons es mouen des del pol negatiu (on hi ha un excés d'electrons) cap al pol positiu (on hi ha una manca d'electrons)."
+            }
+          ]
+        },
+        {
+          "text": "Hi ha dos tipus de corrent. En el corrent continu (DC) els electrons circulen sempre en el mateix sentit; exemples: piles, bateries i panells solars. En el corrent altern (AC) els electrons canvien de sentit periòdicament; és el que arriba a les llars i a les indústries (xarxa elèctrica domèstica i industrial, generadors).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 2.2 Sentit i tipus de corrent",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Els electrons circulen sempre en el mateix sentit. Exemples: Piles, bateries, panells solars."
+            },
+            {
+              "ref": "MAN.GRAL.005, 2.2 Sentit i tipus de corrent",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Els electrons canvien de sentit periòdicament, invertint el seu sentit de flux. És el tipus de corrent que arriba a les nostres llars i indústries. Exemples: Xarxa elèctrica domèstica i industrial, generadors."
             }
           ]
         }
@@ -87,47 +121,30 @@
       "title": "Conductors, semiconductors i aïllants",
       "blocks": [
         {
-          "text": "Els conductors tenen una resistència baixa i els aïllants, molt alta. Exemples d'aïllants: plàstic, goma, vidre, ceràmica, fusta seca i aire. Ara bé, si s'arriba a la seva tensió de ruptura, els aïllants es poden comportar com a conductors.",
+          "text": "Els materials es classifiquen segons la capacitat de permetre o dificultar el pas del corrent. Els conductors el deixen passar fàcilment gràcies a la seva alta conductivitat; com més curt i gruixut és el conductor, més corrent pot transportar. Exemples: coure, alumini, metalls i aigua amb sals.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, resistència",
+              "ref": "MAN.GRAL.005, 2.3 Conductors",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Els conductors tenen baixa resistència, mentre que els aïllants tenen una resistència molta alta."
-            },
-            {
-              "ref": "MAN.GRAL.005, aïllants",
-              "law": "MAN.GRAL.005",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Exemples: plàstic, goma, vidre, ceràmica, fusta seca, aire."
-            },
-            {
-              "ref": "MAN.GRAL.005, aïllants",
-              "law": "MAN.GRAL.005",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Tot i això, si s’arriba a la seva tensió de ruptura poden comportar-se com conductors."
+              "quote": "Conductors: Permeten el pas fàcil del corrent gràcies a la seva alta conductivitat. Com més curt i gruixut és el conductor, més corrent pot transportar. Exemples: coure, alumini, metalls, aigua amb sals."
             }
           ]
         },
         {
-          "text": "Els semiconductors tenen una conductivitat intermèdia que es pot controlar i són la base dels components electrònics. Exemples: el silici i el germani.",
+          "text": "Els semiconductors tenen una conductivitat intermèdia que es pot controlar i són la base dels components electrònics (silici, germani). Els aïllants o dielèctrics impedeixen el pas del corrent en condicions normals, però si s'arriba a la seva tensió de ruptura es poden comportar com a conductors. Exemples d'aïllants: plàstic, goma, vidre, ceràmica, fusta seca i aire.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, semiconductors",
+              "ref": "MAN.GRAL.005, 2.3 Semiconductors",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Tenen una conductivitat intermèdia que es pot controlar, i són la base dels components electrònics. […] Exemples: silici, germani."
-            }
-          ]
-        },
-        {
-          "text": "La capacitat d'un conductor també depèn de la seva forma: com més curt i més gruixut és, més corrent pot transportar.",
-          "refs": [
+              "quote": "Semiconductors: Tenen una conductivitat intermèdia que es pot controlar, i són la base dels components electrònics. Exemples: silici, germani."
+            },
             {
-              "ref": "MAN.GRAL.005, conductors",
+              "ref": "MAN.GRAL.005, 2.3 Aïllants",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Com més curt i gruixut és el conductor, més corrent pot transportar."
+              "quote": "Aïllants (dielèctrics): Impedeixen el pas del corrent en condicions normals. Tot i això, si s’arriba a la seva tensió de ruptura poden comportar-se com conductors. Exemples: plàstic, goma, vidre, ceràmica, fusta seca, aire."
             }
           ]
         }
@@ -135,36 +152,64 @@
     },
     {
       "n": "3",
-      "title": "Magnituds elèctriques bàsiques: càrrega, intensitat i resistència",
+      "title": "Magnituds bàsiques: càrrega, intensitat, tensió i resistència",
       "blocks": [
         {
-          "text": "La intensitat de corrent és la quantitat d'electrons (càrrega elèctrica) que passen per un punt d'un circuit en un temps determinat. La seva unitat és l'ampere: un ampere és el pas d'un coulomb de càrrega per segon.",
+          "text": "La càrrega elèctrica és una propietat fonamental de la matèria: la quantitat d'electrons que hi ha o que passen per un punt. Es mesura en coulombs (C); un coulomb equival a més de sis mil milions de milions d'electrons (6,242 × 10^18). A la pràctica no es fa servir, però és la base de les altres magnituds.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, intensitat",
+              "ref": "MAN.GRAL.005, 3.1 Càrrega elèctrica",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Intensitat La intensitat de corrent és la quantitat d'electrons (càrrega elèctrica) que passen per un punt d'un circuit en un temps determinat."
-            },
-            {
-              "ref": "MAN.GRAL.005, ampere",
-              "law": "MAN.GRAL.005",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Un ampere es defineix com el pas d'un Coulomb de càrrega per cada segon."
+              "quote": "La càrrega elèctrica és una propietat fonamental de la matèria. És la quantitat d'electrons, que hi ha o que passen per un punt. […] Un coulomb equival a més de sis mil milions de milions d’electrons (6,242 x 1018)."
             }
           ]
         },
         {
-          "text": "La resistència elèctrica és l'oposició que un material presenta al pas del corrent. Varia amb la temperatura: en la majoria de materials, a més temperatura, més resistència. Les definicions de tensió, potència i energia no són als extractes revisats; cal consultar el manual MAN.GRAL.005.",
+          "text": "La intensitat és la quantitat d'electrons (càrrega) que passen per un punt d'un circuit en un temps determinat: el «flux» real d'electricitat. Es mesura en amperes (A): un ampere és el pas d'un coulomb per segon. Ordres de magnitud del manual: bombeta LED petita, 0,02-0,1 A; rentadora, 8-12 A; motor industrial, 50-500 A; línia d'alta tensió, centenars o milers d'amperes.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, resistència",
+              "ref": "MAN.GRAL.005, 3.2 Intensitat",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Resistència La resistència elèctrica és l'oposició que un material presenta al pas del corrent elèctric."
+              "quote": "La intensitat de corrent és la quantitat d'electrons (càrrega elèctrica) que passen per un punt d'un circuit en un temps determinat. Representa el \"flux\" real d'electricitat."
             },
             {
-              "ref": "MAN.GRAL.005, resistència i temperatura",
+              "ref": "MAN.GRAL.005, 3.2 Intensitat",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Un ampere es defineix com el pas d'un Coulomb de càrrega per cada segon. Exemples: Una bombeta LED petita: 0,02 - 0,1 A Una rentadora domèstica: 8 - 12 A Un motor industrial: 50 - 500 A"
+            }
+          ]
+        },
+        {
+          "text": "La tensió (voltatge o diferència de potencial) és la «força» que impulsa els electrons a moure's per un conductor; sense tensió no hi ha moviment d'electrons. Entre dos punts al mateix potencial (diferència de potencial zero) no hi ha impuls per moure's. Unitat: el volt (V).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 3.3 Tensió",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "La tensió o voltatge és la \"força\" que impulsa els electrons a moure's a través d'un conductor. És el que fa que el corrent elèctric circuli. Sense tensió, no hi ha moviment d'electrons."
+            },
+            {
+              "ref": "MAN.GRAL.005, 3.3 Tensió",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Unitat de mesura: El volt (V)."
+            }
+          ]
+        },
+        {
+          "text": "La resistència és l'oposició que un material presenta al pas del corrent; és inversa a la conductivitat. Els conductors tenen resistència baixa i els aïllants, molt alta. En la majoria de materials, a més temperatura, més resistència. Unitat: l'ohm (Ω). Exemple: els cables d'una instal·lació tenen resistència molt baixa i les fundes d'aïllament o els aïlladors de les torres, extremadament alta.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 3.4 Resistència",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "La resistència elèctrica és l'oposició que un material presenta al pas del corrent elèctric. És invers a la conductivitat. Com més resistència, més difícil és que flueixi el corrent a través seu. Els conductors tenen baixa resistència, mentre que els aïllants tenen una resistència molta alta."
+            },
+            {
+              "ref": "MAN.GRAL.005, 3.4 Resistència",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "La resistència varia amb la temperatura, en la majoria de materials a més temperatura més resistència."
@@ -175,33 +220,39 @@
     },
     {
       "n": "4",
-      "title": "Llei d'Ohm i efecte Joule",
+      "title": "Potència i energia",
       "blocks": [
         {
-          "text": "La llei d'Ohm relaciona la tensió, la intensitat i la resistència. Diu que la intensitat que circula per un conductor és directament proporcional a la tensió aplicada als seus extrems i inversament proporcional a la resistència del conductor.",
+          "text": "La potència elèctrica és la velocitat a la qual es fa un treball elèctric, és a dir, l'energia que consumeix o genera un aparell per unitat de temps; indica la capacitat de treball d'un equip. Es mesura en watts (W). Exemples del manual: carregador de mòbil, 5-15 W; bombeta LED, 10-40 W; forn, uns 2 kW; central nuclear de Vandellòs II, 1 GW.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, llei d'Ohm",
+              "ref": "MAN.GRAL.005, 3.5 Potència",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Llei d’Ohm La Llei d'Ohm relaciona la tensió, la intensitat i la resistència en un circuit elèctric."
+              "quote": "La potència elèctrica és la velocitat a la qual es realitza un treball elèctric o la quantitat d'energia que consumeix o genera un aparell per unitat de temps. Ens indica capacitat de treball d'un equip elèctric."
             },
             {
-              "ref": "MAN.GRAL.005, llei d'Ohm",
+              "ref": "MAN.GRAL.005, 3.5 Potència",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "\"La intensitat de corrent que circula per un conductor és directament proporcional a la tensió aplicada en els seus extrems i inversament proporcional a la resistència del conductor.\""
+              "quote": "Forn de cuina: uns 2.000 W (2 kW) Tesla Model 3: 200 – 400 kW Central nuclear Vandellòs II: 1 GW"
             }
           ]
         },
         {
-          "text": "L'efecte Joule és la transformació d'energia elèctrica en calor quan el corrent circula per un conductor amb resistència. És el mateix efecte que provoca cremades quan el corrent travessa el cos humà (apartat 9).",
+          "text": "L'energia (consum) és el treball elèctric total fet en un període: la potència consumida al llarg del temps, que és el que es paga a la factura. Es mesura en watts-hora (Wh) o kilowatts-hora (kWh). Exemple: una bombeta de 10 W encesa 10 hores consumeix 100 Wh (0,1 kWh); un termo de 1.000 W durant 2 hores, 2 kWh. L'energia emmagatzemada en una bateria també es mesura en Wh; no s'ha de confondre amb la capacitat, que es mesura en Ah.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, efecte Joule",
+              "ref": "MAN.GRAL.005, 3.6 Energia",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Efecte Joule L’efecte Joule és la transformació d’energia elèctrica en calor quan el corrent circula per un conductor amb resistència."
+              "quote": "L'energia elèctrica és la quantitat total de treball elèctric que es realitza en un període de temps determinat. És la mesura de la potència consumida al llarg del temps, i és el que realment paguem a la factura elèctrica."
+            },
+            {
+              "ref": "MAN.GRAL.005, 3.6 Energia",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "L’energia elèctrica emmagatzemada també es mesura en Wh. No confondre amb la capacitat que es mesura en Ah."
             }
           ]
         }
@@ -209,28 +260,73 @@
     },
     {
       "n": "5",
-      "title": "Circuits: connexió en sèrie",
+      "title": "Lleis i fórmules: llei d'Ohm, efecte Joule i potència",
       "blocks": [
         {
-          "text": "En una connexió en sèrie, els receptors es connecten l'un darrere l'altre i formen un únic camí per al corrent. La intensitat és la mateixa per a tots els elements i la tensió es reparteix entre els receptors. Si un receptor es desconnecta o falla, el circuit s'obre i tots deixen de funcionar.",
+          "text": "La llei d'Ohm és el pilar de l'electricitat: la intensitat que circula per un conductor és directament proporcional a la tensió aplicada als seus extrems i inversament proporcional a la resistència. Fórmula: I = V / R; derivades: V = I × R i R = V / I. A igual resistència, si puja la tensió puja la intensitat; a igual tensió, si puja la resistència baixa la intensitat.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, connexió en sèrie",
+              "ref": "MAN.GRAL.005, 4.1 Llei d'Ohm",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Connexió en sèrie En una connexió en sèrie, els receptors es connecten un darrere l'altre, formant un únic camí per al corrent."
+              "quote": "\"La intensitat de corrent que circula per un conductor és directament proporcional a la tensió aplicada en els seus extrems i inversament proporcional a la resistència del conductor.\" Es pot expressar amb la següent fórmula: I = V / R"
             },
             {
-              "ref": "MAN.GRAL.005, connexió en sèrie",
+              "ref": "MAN.GRAL.005, 4.1 Llei d'Ohm",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "La intensitat (I) és la mateixa per a tots els elements. […] La tensió (V) es reparteix entre els receptors."
+              "quote": "A igual resistència, si la tensió (V) augmenta, la intensitat (I) també augmenta. […] A igual tensió, si la resistència (R) augmenta, la intensitat (I) disminueix."
+            }
+          ]
+        },
+        {
+          "text": "L'efecte Joule és la transformació d'energia elèctrica en calor quan el corrent circula per un conductor amb resistència, pels xocs entre electrons i àtoms. Pot ser útil (estufes) o perjudicial (sobreescalfament de cables) i sempre és una pèrdua d'energia. Calor: Q = I² × R × t (joules). Si el corrent es duplica, la calor es quadruplica; més resistència o més temps, més calor.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 4.2 Efecte Joule",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "L’efecte Joule és la transformació d’energia elèctrica en calor quan el corrent circula per un conductor amb resistència. Aquest escalfament es produeix pels xocs entre electrons i àtoms del material, i pot ser un efecte útil (com en estufes) o perjudicial (sobreescalfament de cables), a més de representar sempre una pèrdua d'energia."
             },
             {
-              "ref": "MAN.GRAL.005, connexió en sèrie",
+              "ref": "MAN.GRAL.005, 4.2 Efecte Joule",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Si un receptor es desconnecta o falla, el circuit s’obre i tots deixen de funcionar."
+              "quote": "La calor augmenta proporcionalment al quadrant de la intensitat (si el corrent es duplica, la calor es quadruplica)."
+            }
+          ]
+        },
+        {
+          "text": "La fórmula bàsica de la potència, vàlida en corrent continu o per a càrregues purament resistives en altern, és P = V × I; substituint V = I × R s'obté P = I² × R. A la mateixa tensió, més potència vol dir més intensitat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 4.3 Potència elèctrica",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "La formula (bàsica) per calcular la potència elèctrica és vàlida en corrent continu o per càrregues purament resistives en corrent altern: P = V × I"
+            },
+            {
+              "ref": "MAN.GRAL.005, 4.3 Potència elèctrica",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "A la mateixa tensió, més potència implica més intensitat."
+            }
+          ]
+        },
+        {
+          "text": "Aplicació pràctica: treballar amb baix voltatge és més segur, però per a potències altes cal més intensitat, amb més pèrdues per efecte Joule i cables de més secció. Per això el transport de grans potències es fa a tensions altes (les línies arriben fins a 400 kV): és més senzill aïllar tensions elevades que gestionar intensitats molt altes. Els camions fan servir 24 V i els vehicles elèctrics 400 o 800 V.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 4.4 Relació entre magnituds",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Per això, en transmissió de grans potències s’utilitzen voltatges alts: permeten transportar la mateixa potència amb intensitats més baixes, reduint pèrdues i permetent cables més prims. En general, és més senzill aïllar voltatges elevats que gestionar intensitats molt altes."
+            },
+            {
+              "ref": "MAN.GRAL.005, 4.4 Relació entre magnituds",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Les línies de transport d’electricitat arriben fins als 400 kV per minimitzar pèrdues en grans distàncies."
             }
           ]
         }
@@ -238,22 +334,56 @@
     },
     {
       "n": "6",
-      "title": "Circuits: connexió en paral·lel",
+      "title": "Circuits elèctrics simples: elements i connexió en sèrie",
       "blocks": [
         {
-          "text": "En una connexió en paral·lel, cada receptor té el seu propi camí independent des de la font de tensió. La tensió és la mateixa en tots els receptors i coincideix amb la de la font. La descripció dels elements bàsics d'un circuit no és als extractes revisats.",
+          "text": "Perquè circuli corrent calen dues condicions: tensió (diferència de potencial) i un circuit conductor tancat. Si el circuit s'obre, el corrent s'interromp. Un circuit simple té almenys quatre elements: font de tensió, conductors, receptor o càrrega (bombeta, motor) i interruptor o element de control.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, connexió en paral·lel",
+              "ref": "MAN.GRAL.005, 5 Circuits elèctrics simples",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Connexió en paral·lel En una connexió en paral·lel, els receptors es connecten de manera que cada un té el seu propi camí independent des de la font de tensió."
+              "quote": "Perquè s'estableixi la circulació del corrent elèctric cal que hi hagi: − Tensió o diferència de potencial. − Un circuit conductor tancat."
             },
             {
-              "ref": "MAN.GRAL.005, connexió en paral·lel",
+              "ref": "MAN.GRAL.005, 5.1 Elements d'un circuit bàsic",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "La tensió (V) és la mateixa en tots els receptors i coincideix amb la de la font."
+              "quote": "Tot circuit elèctric simple consta d'almenys quatre components essencials: − Font de tensió: Genera l’energia elèctrica i crea la diferència de potencial. − Conductors: Cables que transporten el corrent amb mínima resistència."
+            },
+            {
+              "ref": "MAN.GRAL.005, 5.1 Elements d'un circuit bàsic",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Receptor o càrrega: Converteix l’energia elèctrica en llum, calor, moviment, etc. (ex. bombeta, motor). − Interruptor o element de control: Obre o tanca el circuit per permetre o bloquejar el pas del corrent."
+            }
+          ]
+        },
+        {
+          "text": "L'electricitat pot buscar camins no desitjats: l'aire (arc elèctric, llamp), el terra o el cos humà. En un curtcircuit, sense càrrega prevista, el mateix conductor dissipa l'energia com a calor intensa; en una electrocució, el cos actua com a conductor i receptor alhora.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 5.1 Elements d'un circuit bàsic",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Quan l’electricitat busca camins no desitjats, pot circular per l’aire (arc elèctric, llamp), pel terra o fins i tot pel cos humà. En un curtcircuit, sense una càrrega prevista, el propi conductor dissipa l’energia com a calor intensa. En una electrocució, el cos humà actua com a conductor i receptor alhora."
+            }
+          ]
+        },
+        {
+          "text": "En sèrie, els receptors es connecten l'un darrere l'altre i formen un únic camí. La intensitat és la mateixa a tots; la tensió es reparteix (cada receptor provoca una caiguda de tensió Vi = I × Ri); la resistència total és la suma (Rtotal = R1 + R2 + …); i si un receptor falla, el circuit s'obre i tots deixen de funcionar. Els EPI (guants i botes dielèctriques) i els EPC (perxa i banqueta dielèctrica) es posen en sèrie amb el cos per augmentar molt la resistència total.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 5.2.1 Connexió en sèrie",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "La intensitat (I) és la mateixa per a tots els elements. − La tensió (V) es reparteix entre els receptors. − Si un receptor es desconnecta o falla, el circuit s’obre i tots deixen de funcionar."
+            },
+            {
+              "ref": "MAN.GRAL.005, 5.2.1 Connexió en sèrie",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Els Equips de Protecció, guants i botes dielèctriques(EPI), la perxa i la banqueta dielèctrica (EPC) són elements que posem en sèrie amb el nostre cos per augmentar moltíssim la resistència total, de manera que el corrent que passi sigui insignificant i imperceptible."
             }
           ]
         }
@@ -261,45 +391,50 @@
     },
     {
       "n": "7",
-      "title": "Corrent continu i corrent altern; monofàsic i trifàsic",
+      "title": "Connexió en paral·lel, circuits mixtos i símil hidràulic",
       "blocks": [
         {
-          "text": "En el corrent continu els electrons circulen sempre en el mateix sentit; en són fonts les piles, les bateries i els panells solars. En el corrent altern els electrons canvien de sentit periòdicament i inverteixen el sentit del flux.",
+          "text": "En paral·lel, cada receptor té el seu propi camí des de la font. La tensió és la mateixa a tots i coincideix amb la de la font; la intensitat total es divideix entre les branques (Ii = V / Ri) i és la suma de totes (Itotal = I1 + I2 + …). Si un receptor falla, els altres continuen funcionant i la intensitat total disminueix. Resistència equivalent: 1/Rtotal = 1/R1 + 1/R2 + …",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, corrent continu",
+              "ref": "MAN.GRAL.005, 5.2.2 Connexió en paral·lel",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Els electrons circulen sempre en el mateix sentit. […] Piles, bateries, panells solars."
+              "quote": "La tensió (V) és la mateixa en tots els receptors i coincideix amb la de la font."
             },
             {
-              "ref": "MAN.GRAL.005, corrent altern",
+              "ref": "MAN.GRAL.005, 5.2.2 Connexió en paral·lel",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Els electrons canvien de sentit periòdicament, invertint el seu sentit de flux."
+              "quote": "Si un receptor es desconnecta o falla, els altres continuen funcionant, ja que els seus circuits no es veuen interromputs. La intensitat total disminueix, perquè hi ha una branca menys per on circula corrent."
             }
           ]
         },
         {
-          "text": "A Europa la tensió eficaç entre fase i neutre és de 230 V; el valor màxim de pic de l'ona sinusoïdal és d'aproximadament 325 V. El sistema trifàsic es basa en tres corrents alterns desfasats entre si 120°.",
+          "text": "Els circuits mixtos o complexos combinen sèrie i paral·lel; si no són gaire complicats es simplifiquen agrupant i calculant resistències equivalents. Els circuits molt complexos requereixen les lleis de Kirchhoff, fora de l'abast del manual.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, tensió eficaç",
+              "ref": "MAN.GRAL.005, 5.2.3 Combinacions sèrie-paral·lel",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "A Europa la tensió eficaç entre fase i neutre és de 230 V."
+              "quote": "A la pràctica, és habitual trobar circuits que no són purament en sèrie ni purament en paral·lel, sinó una combinació d'ambdós tipus. Aquests s'anomenen circuits mixtos o complexos."
+            }
+          ]
+        },
+        {
+          "text": "Símil hidràulic: tensió = pressió de l'aigua; intensitat = cabal; resistència = escanyament o rugositat de la canonada; caiguda de tensió = pèrdua de càrrega; generador = bomba; interruptor = vàlvula; motor = turbina. Atenció: una vàlvula oberta equival a un circuit tancat (hi ha circulació) i a l'inrevés.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 6 Símil hidràulic",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Tensió, Voltatge (V) Pressió de l’aigua (alçada columna d’aigua) Intensitat, corrent (A) Cabal (quantitat d’aigua per unitat de temps) Resistència (Ω) Escanyament o rugositat de la canonada Caiguda de tensió (V) Pèrdua de càrrega"
             },
             {
-              "ref": "MAN.GRAL.005, tensió de pic",
+              "ref": "MAN.GRAL.005, 6 Símil hidràulic",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "El voltatge màxim de pic al que arriba la ona sinusoïdal són aproximadament 325 V."
-            },
-            {
-              "ref": "MAN.GRAL.005, trifàsic",
-              "law": "MAN.GRAL.005",
-              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Es basa en tres corrents alterns desfasats entre sí 120°."
+              "quote": "Una vàlvula oberta equival a circuit tancat, i a l’inrevés."
             }
           ]
         }
@@ -307,22 +442,33 @@
     },
     {
       "n": "8",
-      "title": "Potència i factor de potència; electromagnetisme",
+      "title": "Corrent continu i corrent altern",
       "blocks": [
         {
-          "text": "El factor de potència és la relació entre la potència activa (la que realment fa treball) i la potència aparent (la potència total subministrada). Es representa amb el cosinus de l'angle de desfasament entre la tensió i la intensitat, cos φ. El bloc d'electromagnetisme i aplicacions no és als extractes revisats; cal consultar el manual MAN.GRAL.005.",
+          "text": "En corrent continu (DC o CC) el flux d'electrons va sempre en el mateix sentit. La magnitud pot variar, però la polaritat no canvia mai: la tensió d'una bateria baixa amb la descàrrega i continua sent corrent continu. S'usa en dispositius amb bateries (mòbils, vehicles elèctrics, SAI), electrònica digital, ferrocarrils (750, 1.500 o 3.000 V DC) i plaques fotovoltaiques.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, factor de potència",
+              "ref": "MAN.GRAL.005, 7.1 Corrent continu",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "És la relació entre la potència activa (la que realment fa treball) i la potència aparent (la potència total que es subministra)."
+              "quote": "El que defineix el corrent continu és que la seva polaritat (la direcció del flux) no canvia mai. Per exemple, la tensió d’una bateria disminueix amb la descàrrega, però continua essent corrent contínua."
             },
             {
-              "ref": "MAN.GRAL.005, factor de potència",
+              "ref": "MAN.GRAL.005, 7.1 Corrent continu",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Es representa amb el cosinus de l'angle de desfasament entre la tensió i la intensitat (cos(ϕ))."
+              "quote": "Ferrocarrils: Una part significativa de les línies de ferrocarril (tren, metro, tramvia) utilitzen corrent continu per alimentar els motors de tracció, sovint a tensions elevades (per exemple, 750V, 1500V o 3000V DC)."
+            }
+          ]
+        },
+        {
+          "text": "En corrent altern (AC) el sentit del flux canvia periòdicament: els electrons oscil·len endavant i endarrere. Generat amb alternadors, segueix una ona sinusoïdal. A Europa la freqüència és de 50 Hz: 50 cicles per segon, cada cicle dura 20 ms i el sentit s'inverteix 100 vegades per segon.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 7.2 Corrent alterna",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "A Europa, la freqüència estàndard és de 50 Hertz (Hz), el que significa que la tensió i la intensitat completen 50 cicles per segon, i cada cicle dura 20 ms (mil·lisegons). Dins de cada cicle, la polaritat canvia dues vegades (passant per zero), de manera que el sentit del corrent s'inverteix 100 vegades per segon."
             }
           ]
         }
@@ -330,39 +476,45 @@
     },
     {
       "n": "9",
-      "title": "Riscos de l'electricitat: efectes sobre el cos humà",
+      "title": "Sistemes monofàsic i trifàsic",
       "blocks": [
         {
-          "text": "Per a l'electricitat, el cos humà és una càrrega més del circuit, i s'hi apliquen les mateixes lleis. El corrent que el travessa es converteix en calor (efecte Joule) i provoca cremades internes i externes molt greus als punts d'entrada i sortida i al llarg del recorregut.",
+          "text": "El monofàsic és el més comú en habitatges i petits negocis i té dos conductors: fase (L), que porta la tensió activa, i neutre (N), que tanca el circuit. El neutre sol estar connectat a terra i, en condicions normals, no té tensió respecte a terra. A Europa la tensió eficaç fase-neutre és de 230 V; el pic de l'ona arriba a uns 325 V. La tensió eficaç (RMS) és la tensió en continu que faria el mateix efecte en calor o treball en una càrrega resistiva.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, cos humà",
+              "ref": "MAN.GRAL.005, 7.2.1 Monofàsic",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "El cos humà és conductor Per a l'electricitat, el cos humà és una càrrega més dins d'un circuit elèctric, i apliquen les mateixes lleis que hem vist anteriorment."
+              "quote": "El neutre sol estar connectat a terra (a la central de transformació o a la derivació d'entrada de l'edifici) i, en condicions normals, no té tensió respecte a terra."
             },
             {
-              "ref": "MAN.GRAL.005, cremades",
+              "ref": "MAN.GRAL.005, 7.2.1 Monofàsic",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "El corrent elèctric que travessa el cos es converteix en calor (efecte Joule), provocant cremades internes i externes molt greus, sovint devastadores, en els punts d'entrada i sortida del corrent i al llarg del seu recorregut."
+              "quote": "A Europa la tensió eficaç entre fase i neutre és de 230 V. […] El voltatge màxim de pic al que arriba la ona sinusoïdal són aproximadament 325 V."
             }
           ]
         },
         {
-          "text": "En corrent altern s'ha establert un llindar crític de 30 mA (a 50 Hz): per sota d'aquest valor es pot patir dolor, contraccions musculars o dificultat per respirar, però la probabilitat de fibril·lació ventricular és menor en un percentatge elevat de la població. En corrent continu no es produeix fibril·lació ventricular, però amb intensitats superiors hi pot haver una contracció involuntària del cor que acabi en aturada cardíaca.",
+          "text": "El trifàsic és el més utilitzat en la distribució a gran escala per la seva eficiència i capacitat de potència. Es basa en tres corrents alterns desfasats 120°. Avantatges: potència uniforme, més potència amb menys secció de conductor i camps magnètics rotatoris (motors robustos). Té tres fases (L1, L2, L3 o R, S, T) i neutre; la tensió entre dues fases (tensió de línia) és de 400 V a Europa (566 V de pic). En condicions equilibrades el corrent pel neutre és pràcticament zero i la potència total és tres vegades la d'una fase (Ptotal = 3 × Pfase).",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, llindar de 30 mA",
+              "ref": "MAN.GRAL.005, 7.2.2 Trifàsic",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "S'ha establert el llindar crític de 30 mA (a 50 Hz): per sota d'aquest valor, tot i que es pot experimentar dolor, contraccions musculars o dificultat per respirar, la probabilitat de fibril·lació ventricular és menor en un percentatge elevat de la població."
+              "quote": "Es basa en tres corrents alterns desfasats entre sí 120°."
             },
             {
-              "ref": "MAN.GRAL.005, corrent continu",
+              "ref": "MAN.GRAL.005, 7.2.2 Trifàsic",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "Amb corrent continu (DC), no es produeix fibril·lació ventricular. […] No obstant això, amb intensitats superiors, sí que pot haver-hi una contracció involuntària del cor que resulti en una aturada cardíaca."
+              "quote": "La tensió mesurada entre dues fases (anomenada tensió de línia) és de 400 V a Europa (566 V de pic)."
+            },
+            {
+              "ref": "MAN.GRAL.005, 7.2.2 Trifàsic",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Si considerem un sistema equilibrat (on la tensió i la intensitat són iguals en les tres fases), la potència total es pot calcular com el triple de la potència d'una sola fase."
             }
           ]
         }
@@ -370,22 +522,163 @@
     },
     {
       "n": "10",
-      "title": "Riscos en instal·lacions i materials",
+      "title": "Càrregues en altern, potència i factor de potència",
       "blocks": [
         {
-          "text": "Prop d'un cable d'alta tensió caigut a terra hi ha risc de tensió de pas. Es recomana fer passos petits amb els peus ben junts i tocant-se, i no estirar-se mai a terra ni caure. En ambients amb gasos, vapors o pols inflamables, una espurna o un arc elèctric pot provocar una explosió devastadora.",
+          "text": "Les càrregues en AC són de tres tipus: resistives (tot en calor o llum; tensió i intensitat en fase: bombetes incandescents, estufes), inductives (bobines; la intensitat va endarrerida: motors, transformadors) i capacitives (emmagatzemen energia en camps elèctrics; la intensitat va avançada: condensadors, fonts d'alimentació, LED).",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, tensió de pas",
+              "ref": "MAN.GRAL.005, 7.2.3 Càrregues en AC",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Contenen bobines que generen camps magnètics i s'oposen als canvis de corrent. Exemples: motors, transformadors, fluorescents amb balast, solenoides."
+            },
+            {
+              "ref": "MAN.GRAL.005, 7.2.3 Càrregues en AC",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "c) Càrregues capacitives: la intensitat va avançada respecte a la tensió"
+            }
+          ]
+        },
+        {
+          "text": "Hi ha tres potències: activa o real (P, en W), la que es transforma en treball útil; reactiva (Q, en var), intercanviada entre font i càrrega sense treball útil; i aparent (S, en VA), la total que ha de subministrar la xarxa. Símil del got de cervesa: P és el líquid, Q l'escuma i S el got sencer.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 7.2.4 Potència en AC",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Unitats: Volt-ampere reactius (var) o kilovolt-ampere reactius (kvar). c) Potència aparent (S) És la combinació de P i Q: representa tota la potència que la xarxa ha de subministrar. Unitats: Volt-amperes (VA) o kilovolt-amperes (kVA)."
+            }
+          ]
+        },
+        {
+          "text": "El factor de potència (cos φ) és la relació entre potència activa i aparent. Proper a 1 amb càrregues resistives; baix amb inductives o capacitives. Un FP baix vol dir més intensitat per a la mateixa potència útil, més pèrdues i penalitzacions; es corregeix amb bateries de condensadors. Per això generadors i transformadors s'indiquen en kVA: un equip de 10 kVA pot donar només 8 o 9 kW a motors o electrobombes amb FP baix.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 7.2.5 Factor de potència",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "És la relació entre la potència activa (la que realment fa treball) i la potència aparent (la potència total que es subministra). Es representa amb el cosinus de l'angle de desfasament entre la tensió i la intensitat (cos(ϕ))."
+            },
+            {
+              "ref": "MAN.GRAL.005, 7.2.6 Potència aparent",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "així, un equip de 10 kVA podria subministrar només 8 o 9 kW de potència activa si alimenta motors o electrobombes amb un factor de potència baix."
+            }
+          ]
+        },
+        {
+          "text": "Conversions: la rectificació (AC→DC) es fa amb díodes (carregadors, alternador del cotxe); la inversió (DC→AC) amb inversors o onduladors (fotovoltaica, vehicles elèctrics, SAI).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 7.3 Conversions",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "La rectificació transforma el corrent altern en continu. Es fa principalment amb díodes, que deixen passar el corrent en un sol sentit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Electromagnetisme i aplicacions",
+      "blocks": [
+        {
+          "text": "L'electromagnetisme és la relació entre corrent elèctric i magnetisme. Té dos principis: un corrent genera un camp magnètic al voltant del conductor (proporcional a la intensitat i que disminueix ràpidament amb la distància), i la variació d'un camp magnètic indueix un corrent elèctric variable.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 8.1 Fonaments",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "1. Un corrent elèctric genera un camp magnètic al voltant del conductor. − La força d'aquest camp magnètic és proporcional a la intensitat del corrent que circula pel cable"
+            },
+            {
+              "ref": "MAN.GRAL.005, 8.1 Fonaments",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "2. La variació d'un camp magnètic \"indueix\" (genera) un corrent elèctric variable."
+            }
+          ]
+        },
+        {
+          "text": "Aplicacions: electroimants i bobines; motors (energia elèctrica → mecànica); generadors (mecànica → elèctrica); transformadors (dues bobines que comparteixen camp magnètic, reversibles i que només funcionen amb altern; el nombre d'espires puja o baixa la tensió).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 8.2 Aplicacions",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Transformadors: Són dues bobines que comparteixen un camp magnètic. […] Són reversibles i només funcionen amb corrent altern."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Riscos de l'electricitat: cos humà, instal·lacions i materials",
+      "blocks": [
+        {
+          "text": "El pas de corrent pel cos és un xoc elèctric; si causa la mort, electrocució. Efectes: fibril·lació ventricular (llindar crític en altern de 30 mA a 50 Hz; en continu no hi ha fibril·lació, però a intensitats altes pot haver-hi aturada cardíaca), cremades per efecte Joule i contraccions musculars que impedeixen deixar anar l'element.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 9.1 Efectes sobre el cos humà",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "S'ha establert el llindar crític de 30 mA (a 50 Hz): per sota d'aquest valor, tot i que es pot experimentar dolor, contraccions musculars o dificultat per respirar, la probabilitat de fibril·lació ventricular és menor en un percentatge elevat de la població."
+            },
+            {
+              "ref": "MAN.GRAL.005, 9.1 Efectes sobre el cos humà",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Amb corrent continu (DC), no es produeix fibril·lació ventricular. No obstant això, amb intensitats superiors, sí que pot haver-hi una contracció involuntària del cor que resulti en una aturada cardíaca."
+            }
+          ]
+        },
+        {
+          "text": "El cos humà és una càrrega més. La seva resistència depèn de la humitat de la pell, del recorregut (els que passen pel cor són els més perillosos) i de la tensió aplicada. Tensions segures: menys de 50 V AC i 120 V DC en ambient sec; en ambient humit, la meitat (25 V AC i 60 V DC).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 9.1.1 El cos humà és conductor",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "En la normativa internacional es consideren tensions segures per sota de 50V AC i 120 V DC en condicions normals (ambient sec). Si l’ambient és humit o la pell pot estar mullada (baixa la resistència), les tensions segures es redueixen a la meitat, 25 V AC i 60 V DC."
+            }
+          ]
+        },
+        {
+          "text": "Tres situacions: no formar part del circuit (l'ocell al cable, el bomber sobre l'estora aïllant); ser el circuit, en sèrie (màxim risc, només ens protegeixen equips aïllants); i ser part del circuit, en paral·lel (camió grua que toca una línia i una persona que toca el camió). Tensió de pas: prop d'un cable caigut cal fer passos petits amb els peus junts i no estirar-se ni caure.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.005, 9.1.2 El cos humà en el circuit",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Es tracta d’una situació de màxim risc, ja que el corrent que circula pel cos només queda limitat per la nostra resistència (V = I x R)."
+            },
+            {
+              "ref": "MAN.GRAL.005, 9.1.2 Tensió de pas",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "En aquests casos es recomana fer passos petits amb els peus ben junts i tocant-se, i mai estirar-se a terra ni caure."
-            },
+            }
+          ]
+        },
+        {
+          "text": "Danys materials: arc elèctric (l'aire es ionitza i fa de conductor, calor i llum intenses), incendis per efecte Joule (excés de corrent o mal contacte), explosions en atmosferes inflamables, sobretensions i, fins i tot, subtensions, que fan que alguns aparells augmentin el corrent i se sobreescalfin.",
+          "refs": [
             {
-              "ref": "MAN.GRAL.005, atmosferes inflamables",
+              "ref": "MAN.GRAL.005, 9.2 Efectes sobre instal·lacions",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "En ambients amb gasos, vapors o pols inflamables, una espurna o un arc elèctric pot provocar una explosió devastadora."
+            },
+            {
+              "ref": "MAN.GRAL.005, 9.2 Efectes sobre instal·lacions",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "Paradoxalment, una subtensió (un voltatge més baix del normal) també pot ser perillosa."
             }
           ]
         }
@@ -396,10 +689,10 @@
       "title": "Recorda per a l'examen",
       "blocks": [
         {
-          "text": "Sentit real dels electrons: del pol negatiu al positiu.",
+          "text": "Electrons: del pol negatiu al positiu. DC: piles, bateries, panells solars. AC: xarxa domèstica.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, sentit del corrent",
+              "ref": "MAN.GRAL.005, 2.2",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "els electrons es mouen des del pol negatiu"
@@ -407,10 +700,10 @@
           ]
         },
         {
-          "text": "Aïllants: plàstic, goma, vidre, ceràmica, fusta seca, aire. Semiconductors: silici i germani. Més corrent si el conductor és curt i gruixut.",
+          "text": "Aïllants: plàstic, goma, vidre, ceràmica, fusta seca, aire. Semiconductors: silici, germani. Conductor curt i gruixut, més corrent.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, semiconductors",
+              "ref": "MAN.GRAL.005, 2.3",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "Exemples: silici, germani."
@@ -418,10 +711,10 @@
           ]
         },
         {
-          "text": "1 A = 1 C/s. Resistència: oposició al pas del corrent; augmenta amb la temperatura en la majoria de materials.",
+          "text": "1 A = 1 C/s. Resistència: puja amb la temperatura en la majoria de materials. Energia en Wh; capacitat en Ah.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, ampere",
+              "ref": "MAN.GRAL.005, 3.2",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "Un ampere es defineix com el pas d'un Coulomb de càrrega per cada segon."
@@ -429,21 +722,21 @@
           ]
         },
         {
-          "text": "Ohm: I proporcional a V i inversament proporcional a R. Joule: energia elèctrica que es converteix en calor.",
+          "text": "I = V / R. Joule: Q = I² × R × t (doble corrent, quàdruple calor). P = V × I.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, llei d'Ohm",
+              "ref": "MAN.GRAL.005, 4.2",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
-              "quote": "és directament proporcional a la tensió aplicada en els seus extrems i inversament proporcional a la resistència del conductor"
+              "quote": "si el corrent es duplica, la calor es quadruplica"
             }
           ]
         },
         {
-          "text": "Sèrie: la mateixa I i la V es reparteix; si en falla un, s'apaguen tots. Paral·lel: la mateixa V a tots, igual que la de la font.",
+          "text": "Sèrie: mateixa I, la V es reparteix, Rtotal suma; si en falla un, s'apaguen tots. Paral·lel: mateixa V que la font; si en falla un, els altres funcionen.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, connexió en paral·lel",
+              "ref": "MAN.GRAL.005, 5.2.2",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "La tensió (V) és la mateixa en tots els receptors i coincideix amb la de la font."
@@ -451,10 +744,10 @@
           ]
         },
         {
-          "text": "Corrent continu: piles, bateries, panells solars. Xarxa europea: 230 V eficaços, uns 325 V de pic. Trifàsic: desfasament de 120°.",
+          "text": "Europa: 50 Hz, 230 V eficaços fase-neutre (≈325 V de pic), 400 V entre fases. Trifàsic: 120°.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, tensió de pic",
+              "ref": "MAN.GRAL.005, 7.2.1",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "aproximadament 325 V"
@@ -462,10 +755,10 @@
           ]
         },
         {
-          "text": "Factor de potència (cos φ) = potència activa / potència aparent.",
+          "text": "Factor de potència = activa / aparent (cos φ). Activa en W, reactiva en var, aparent en VA.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, factor de potència",
+              "ref": "MAN.GRAL.005, 7.2.5",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "És la relació entre la potència activa (la que realment fa treball) i la potència aparent"
@@ -473,10 +766,10 @@
           ]
         },
         {
-          "text": "Llindar crític en altern: 30 mA a 50 Hz. Continu: sense fibril·lació, però amb risc d'aturada cardíaca a intensitats altes. Tensió de pas: passos petits amb els peus junts.",
+          "text": "30 mA a 50 Hz: llindar de fibril·lació. Tensions segures: 50 V AC / 120 V DC (sec); 25 V AC / 60 V DC (humit). Tensió de pas: passos petits i peus junts.",
           "refs": [
             {
-              "ref": "MAN.GRAL.005, llindar de 30 mA",
+              "ref": "MAN.GRAL.005, 9.1",
               "law": "MAN.GRAL.005",
               "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
               "quote": "S'ha establert el llindar crític de 30 mA (a 50 Hz)"
