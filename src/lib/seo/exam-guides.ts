@@ -47,8 +47,8 @@ const mossos: ExamGuide = {
     ca: "Convocatòria 46/26 de Mossos d'Esquadra: 1.587 places, com és la primera prova (30 preguntes de coneixements i 80 d'aptituds), temari de la Guia d'estudi i fonts oficials.",
   },
   intro: {
-    es: "Resumen de la convocatoria 46/26 de la escala básica de Mossos d'Esquadra con los datos de las bases oficiales (Resolució ISP/1763/2026) y de la web oficial de la convocatoria. El examen de conocimientos se hace en catalán y sus preguntas salen de la Guia d'estudi de junio de 2026.",
-    ca: "Resum de la convocatòria 46/26 de l'escala bàsica de Mossos d'Esquadra amb les dades de les bases oficials (Resolució ISP/1763/2026) i del web oficial de la convocatòria. L'examen de coneixements es fa en català i les preguntes surten de la Guia d'estudi de juny de 2026.",
+    es: "Resumen de la convocatoria 46/26 de la escala básica de Mossos d'Esquadra con los datos de las bases oficiales (Resolució ISP/1763/2026) y de la web oficial de la convocatoria. El examen de conocimientos se hace en catalán y sus preguntas salen de la Guia d'estudi de junio de 2026. La primera prueba de la 46/26 ya se hizo el 17 de octubre de 2026: lo que practiques aquí te sirve para la próxima convocatoria, y actualizaremos formato y temario en cuanto se publiquen sus bases.",
+    ca: "Resum de la convocatòria 46/26 de l'escala bàsica de Mossos d'Esquadra amb les dades de les bases oficials (Resolució ISP/1763/2026) i del web oficial de la convocatòria. L'examen de coneixements es fa en català i les preguntes surten de la Guia d'estudi de juny de 2026. La primera prova de la 46/26 ja es va fer el 17 d'octubre de 2026: el que practiquis aquí et serveix per a la propera convocatòria, i actualitzarem format i temari tan bon punt se'n publiquin les bases.",
   },
   facts: [
     {

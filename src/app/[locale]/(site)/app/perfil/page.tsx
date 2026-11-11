@@ -47,6 +47,7 @@ export default async function ProfilePage({
   const supabase = await createClient();
   const tb = await getTranslations("billing");
   const ts = await getTranslations("store");
+  const to = await getTranslations("offer");
   const [{ data: consent }, notice, subscriptions, isCustomer, examSlug, library] =
     await Promise.all([
       supabase.from("profiles").select("marketing_consent").eq("id", user.id).single(),
@@ -60,6 +61,7 @@ export default async function ProfilePage({
   const billing = billingStatus();
   const premium = examSlug ? ((await examOffer(examSlug))?.premium ?? null) : null;
   const price = premium?.price?.amount_cents ?? null;
+  const priceYear = premium?.price_year?.amount_cents ?? null;
   const hasExamPremium = subscriptions.some(
     (s) =>
       s.status !== "past_due" &&
@@ -127,7 +129,12 @@ export default async function ProfilePage({
               <p className="font-semibold">{localized(locale, premium.title, premium.title_ca)}</p>
               <p className="text-muted-foreground text-sm">
                 {billing.enabled
-                  ? tb("premiumBody", { price: formatPrice(price, locale) })
+                  ? priceYear !== null
+                    ? tb("premiumBodyYear", {
+                        price: formatPrice(price, locale),
+                        yearPrice: formatPrice(priceYear, locale),
+                      })
+                    : tb("premiumBody", { price: formatPrice(price, locale) })
                   : ts("library.premiumBody", { price: formatPrice(price, locale) })}
               </p>
             </div>
@@ -138,6 +145,23 @@ export default async function ProfilePage({
                 className="w-full sm:w-72"
                 testMode={billing.testMode}
                 label={tb("buyPremium")}
+                intervals={
+                  priceYear !== null
+                    ? [
+                        {
+                          value: "month",
+                          label: to("paid.monthly", { price: formatPrice(price, locale) }),
+                        },
+                        {
+                          value: "year",
+                          label: to("paid.yearly", {
+                            price: formatPrice(priceYear, locale),
+                            pct: Math.round((1 - priceYear / (price * 12)) * 100),
+                          }),
+                        },
+                      ]
+                    : undefined
+                }
               />
             ) : (
               <Button variant="accent" disabled>
