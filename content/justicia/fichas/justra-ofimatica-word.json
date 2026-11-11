@@ -65,5 +65,630 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Cómo leer los métodos abreviados y la cinta de opciones",
+      "blocks": [
+        {
+          "text": "La ayuda oficial de Microsoft describe los métodos abreviados de Word para Windows con la distribución de teclado de España, que es la que se pregunta en el examen. Un signo más (+) significa pulsar varias teclas a la vez (Ctrl+P) y una coma (,) pulsarlas en orden (Alt, P). La cinta agrupa las opciones en pestañas; al pulsar Alt aparecen las «Sugerencias de teclas», que combinadas con Alt forman las «teclas de acceso». Alt o F10 activan las teclas de acceso de la pestaña activa, Ctrl+F1 expande o contrae (muestra u oculta) la cinta y Mayús+F10 abre el menú contextual.",
+          "refs": [
+            {
+              "ref": "Introducción",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Un signo más (+) en un método abreviado significa que necesita presionar varias teclas al mismo tiempo. Una coma (,) en un método abreviado significa que necesita presionar varias teclas en orden."
+            },
+            {
+              "ref": "Cinta",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Expandir o contraer la cinta de opciones. Ctrl+F1 Abrir el menú contextual. Mayús+F10"
+            }
+          ]
+        },
+        {
+          "text": "Las teclas de acceso de las pestañas son: Alt, F abre Archivo (vista Backstage); Alt, H, Inicio (formato, estilos y Buscar); Alt, N, Insertar (tablas, imágenes, formas, encabezados, cuadros de texto); Alt, G, Diseño (temas, colores, bordes de página); Alt, P, Disposición (márgenes, orientación, sangría y espaciado); Alt, S, Referencias (tabla de contenido, notas al pie, citas); Alt, M, Correspondencia (combinación de correspondencia, sobres y etiquetas); Alt, R, Revisar (ortografía, idiomas y control de cambios); y Alt, W, Vista (modo Lectura, vista Esquema, zoom y ventanas).",
+          "refs": [
+            {
+              "ref": "Cinta",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Abrir la pestaña Insertar para insertar tablas, imágenes y formas, encabezados o cuadros de texto. Alt, N"
+            },
+            {
+              "ref": "Cinta",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Abrir la pestaña Disposición para trabajar con márgenes de página, la orientación de la página, la sangría y el espaciado. Alt, P"
+            },
+            {
+              "ref": "Cinta",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Abrir la pestaña Correspondencia para administrar tareas de combinación de correspondencia y para trabajar con sobres y etiquetas. Alt, M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Métodos abreviados más usados y navegación por el documento",
+      "blocks": [
+        {
+          "text": "Los atajos básicos son: Ctrl+W cierra el documento; Ctrl+X corta, Ctrl+C copia y Ctrl+V pega; Ctrl+Mayús+V pega solo texto; Ctrl+Z deshace y Ctrl+Y rehace, si es posible; Esc cancela un comando; Ctrl+0 vuelve el zoom al 100 %; y Ctrl+Alt+S divide la ventana de documento. Para el tamaño de fuente, Ctrl+[ lo disminuye en 1 punto y Ctrl+] lo aumenta en 1 punto.",
+          "refs": [
+            {
+              "ref": "Más usados",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cerrar el documento. Ctrl+W"
+            },
+            {
+              "ref": "Más usados",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Pegar solo texto. Ctrl+Mayús+V Disminuir en 1 punto el tamaño de fuente. Ctrl+corchete de apertura ([)"
+            },
+            {
+              "ref": "Más usados",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Rehacer la acción anterior, si es posible. Ctrl+Y Volver al zoom al 100 %. Ctrl+0 Dividir la ventana de documento. Ctrl+Alt+S"
+            }
+          ]
+        },
+        {
+          "text": "Para moverse, Ctrl+Fin lleva al final del documento, Ctrl+Inicio al principio y Ctrl+Av Pág a la parte superior de la página siguiente. Con F5 se abre el cuadro Ir a y con Ctrl+Mayús+F5, el cuadro Marcador. Para guardar, F12 muestra Guardar como y Mayús+F12 guarda el documento; Ctrl+F4 cierra el documento actual y Alt+F4 cierra Word. F1 muestra el panel Ayuda de Word y F4 repite el último comando o acción.",
+          "refs": [
+            {
+              "ref": "Navegar",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Mover el cursor al final del documento. Ctrl+Fin Mover el cursor al principio del documento. Ctrl+Inicio"
+            },
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F5: muestra el cuadro de diálogo Ir a."
+            },
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F12: muestra el cuadro de diálogo Guardar como. Mayús+F12: guarda el documento."
+            },
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F4: repite el último comando o acción, si es posible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Seleccionar y editar texto",
+      "blocks": [
+        {
+          "text": "Ctrl+E selecciona todo el texto del documento. Con el ratón, se arrastra desde delante de la primera letra; un doble clic rápido selecciona una sola palabra. Con el teclado, Mayús+flecha abajo desde el principio de una línea la selecciona, y Ctrl+Mayús+flecha abajo desde el principio de un párrafo selecciona el párrafo. Ctrl+Mayús+Inicio y Ctrl+Mayús+Fin seleccionan hasta el principio o hasta el final del documento.",
+          "refs": [
+            {
+              "ref": "Seleccionar",
+              "law": "Soporte Microsoft (Word, seleccionar texto)",
+              "url": "https://support.microsoft.com/es-es/word/select-text",
+              "quote": "Pulse Ctrl+E en el teclado para seleccionar todo el texto en el documento."
+            },
+            {
+              "ref": "Seleccionar",
+              "law": "Soporte Microsoft (Word, seleccionar texto)",
+              "url": "https://support.microsoft.com/es-es/word/select-text",
+              "quote": "Para seleccionar una sola palabra, haga doble clic rápidamente en esa palabra."
+            },
+            {
+              "ref": "Seleccionar",
+              "law": "Soporte Microsoft (Word, seleccionar texto)",
+              "url": "https://support.microsoft.com/es-es/word/select-text",
+              "quote": "Para seleccionar un párrafo, coloque el cursor al principio del párrafo y pulse Ctrl+Mayús+flecha abajo."
+            }
+          ]
+        },
+        {
+          "text": "F8 inicia la extensión de la selección; pulsada varias veces, amplía la selección a palabra, frase, párrafo, sección y documento. Mayús+F8 reduce la selección y Ctrl+Mayús+F8 con las flechas selecciona un bloque vertical. Para editar, Ctrl+Retroceso y Ctrl+Suprimir eliminan una palabra a la izquierda o a la derecha; Ctrl+Alt+C copia el formato del texto seleccionado y Ctrl+Alt+V lo pega; Ctrl+H abre Reemplazar para buscar y reemplazar texto, formato o elementos especiales. Alt+F10 muestra el panel de Selección.",
+          "refs": [
+            {
+              "ref": "Extender",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Presione F8 varias veces para ampliar la selección a toda la palabra, frase, párrafo, sección y documento."
+            },
+            {
+              "ref": "Editar",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Copiar el formato de texto seleccionado. Ctrl+Alt+C Pegar el formato de texto seleccionado. Ctrl+Alt+V"
+            },
+            {
+              "ref": "Editar",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Muestra el cuadro de diálogo Reemplazar para buscar y reemplazar texto, formato específico o elementos especiales. Ctrl+H"
+            },
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Alt+F10: muestra el panel de tareas de Selección."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Formato de caracteres y caracteres especiales",
+      "blocks": [
+        {
+          "text": "El cuadro de diálogo Fuente se abre con Ctrl+D o Ctrl+Mayús+F. Mayús+F3 cambia el texto seleccionado entre mayúsculas, minúsculas y tipo título. Ctrl+Mayús+D aplica doble subrayado, Ctrl+Mayús+signo menos aplica subíndice y Ctrl+Mayús+signo más, superíndice. Ctrl+barra espaciadora quita manualmente el formato de caracteres y Ctrl+Mayús+8 (sin usar el teclado numérico) muestra todos los caracteres no imprimibles.",
+          "refs": [
+            {
+              "ref": "Caracteres",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Mostrar el cuadro de diálogo Fuente. Ctrl+D o Ctrl+Mayús+F"
+            },
+            {
+              "ref": "Caracteres",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Aplicar el formato de doble subrayado. Ctrl+Mayús+D Aplicar el formato de subíndice. Ctrl+Mayús+signo menos (-) Aplicar el formato de superíndice. Ctrl+Mayús+signo más (+)"
+            },
+            {
+              "ref": "Formato",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Mostrar todos los caracteres no imprimibles. Ctrl+Mayús+8 (no usar el teclado numérico)"
+            }
+          ]
+        },
+        {
+          "text": "Para insertar caracteres especiales: Mayús+Entrar inserta un salto de línea, Ctrl+Entrar un salto de página, Ctrl+Mayús+Entrar un salto de columna y Ctrl+Mayús+barra espaciadora un espacio de no separación. Para insertar gráficos desde el teclado se usan las secuencias Alt, N, M (SmartArt) y Alt, N, W (WordArt).",
+          "refs": [
+            {
+              "ref": "Caracteres especiales",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un salto de línea. Mayús+Entrar Insertar un salto de página. Ctrl+Entrar Insertar un salto de columna. Ctrl+Mayús+Entrar Insertar un espacio de no separación. Ctrl+Mayús+barra espaciadora"
+            },
+            {
+              "ref": "Editar",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un gráfico SmartArt. Alt, N, M Insertar un gráfico WordArt. Alt, N, W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Espaciado entre caracteres y escala",
+      "blocks": [
+        {
+          "text": "El espaciado entre caracteres se cambia desde Inicio, iniciador del cuadro de diálogo Fuente, pestaña Avanzadas. En el cuadro Espaciado se elige Expandido o Condensado y la cantidad en el cuadro Por; así se modifica el espacio entre todas las letras seleccionadas en la misma medida. El interletraje, en cambio, ajusta el espacio entre pares de letras concretos (reduce entre letras que encajan, como «A» y «V», y aumenta entre las que no); se activa con la casilla Interletraje para fuentes indicando los puntos en Puntos y superiores.",
+          "refs": [
+            {
+              "ref": "Espaciado",
+              "law": "Soporte Microsoft (Word, espaciado)",
+              "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+              "quote": "Al seleccionar Expandido o Condensado, se modifica el espaciado entre todas las letras seleccionadas en la misma cantidad. Interletraje modifica el espaciado entre pares de letras concretos"
+            },
+            {
+              "ref": "Espaciado",
+              "law": "Soporte Microsoft (Word, espaciado)",
+              "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+              "quote": "En el cuadro Espaciado , seleccione Expandido o Condensado y, después, especifique cuánto espacio desea en el cuadro Por ."
+            }
+          ]
+        },
+        {
+          "text": "En esa misma pestaña, el cuadro Escala modifica la forma de los caracteres según un porcentaje: los porcentajes superiores a 100 estiran el texto y los inferiores a 100 lo comprimen.",
+          "refs": [
+            {
+              "ref": "Escala",
+              "law": "Soporte Microsoft (Word, espaciado)",
+              "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+              "quote": "Los porcentajes superiores a 100 estiran el texto. Los porcentajes inferiores a 100 comprimen el texto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Formato de párrafos e interlineado",
+      "blocks": [
+        {
+          "text": "Ctrl+J justifica el párrafo y Ctrl+M le aplica sangría. Ctrl+1 aplica espaciado simple, Ctrl+2 doble y Ctrl+5 interlineado de 1,5 líneas. Ctrl+Alt+1 aplica el estilo Título 1.",
+          "refs": [
+            {
+              "ref": "Párrafos",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Justificar el párrafo. Ctrl+J Aplicar sangría al párrafo. Ctrl+M Aplicar espaciado simple al párrafo. Ctrl+1 Aplicar espaciado doble al párrafo. Ctrl+2 Aplicar un interlineado de 1,5 líneas en el párrafo. Ctrl+5"
+            }
+          ]
+        },
+        {
+          "text": "Según Microsoft, el mejor método para cambiar el interlineado de un párrafo es modificar el estilo que usa: en la galería de estilos de Inicio, clic derecho sobre el estilo y Modificar; allí hay botones para interlineado simple, 1,5x o doble. Para un valor más específico, se pulsa Formato, en la esquina inferior izquierda del cuadro Modificar estilo, y luego Párrafo, donde está la lista Interlineado.",
+          "refs": [
+            {
+              "ref": "Interlineado",
+              "law": "Soporte Microsoft (Word, espaciado)",
+              "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+              "quote": "Para aumentar o reducir la cantidad de espacio vertical entre líneas de texto dentro de un párrafo, el mejor método es modificar el estilo que usa el párrafo."
+            },
+            {
+              "ref": "Interlineado",
+              "law": "Soporte Microsoft (Word, espaciado)",
+              "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+              "quote": "seleccione el botón Formato en la esquina inferior izquierda del cuadro de diálogo Modificar estilo y seleccione Párrafo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Tablas: insertar, convertir texto y moverse con el teclado",
+      "blocks": [
+        {
+          "text": "Para una tabla básica se hace clic en Insertar > Tabla y se recorre la cuadrícula hasta resaltar las filas y columnas deseadas; para una tabla mayor o personalizada, Insertar > Tabla > Insertar tabla; y para dibujarla, Insertar > Tabla > Dibujar tabla. Si el texto ya está separado por tabulaciones, se resalta y se elige Insertar > Tabla > Convertir texto en tabla > Aceptar.",
+          "refs": [
+            {
+              "ref": "Tabla",
+              "law": "Soporte Microsoft (Word, tablas)",
+              "url": "https://support.microsoft.com/es-es/word/training/insert-a-table",
+              "quote": "Para una tabla básica, haga clic en Insertar>tabla y mueva el cursor sobre la cuadrícula hasta que resalte el número de columnas y filas que desee."
+            },
+            {
+              "ref": "Tabla",
+              "law": "Soporte Microsoft (Word, tablas)",
+              "url": "https://support.microsoft.com/es-es/word/training/insert-a-table",
+              "quote": "Si ya tiene el texto separado por tabulaciones, puede convertirlo rápidamente en una tabla. Resalta el texto que quieres convertir. Seleccione Insertar>tabla y, después, Convertir texto en tabla>Aceptar."
+            }
+          ]
+        },
+        {
+          "text": "Dentro de una tabla, TAB va a la siguiente celda de la fila y selecciona su contenido, y Mayús+TAB a la anterior; Alt+Inicio y Alt+Fin van a la primera y a la última celda de la fila. Alt+5 del teclado numérico, con Bloq Num desactivado, selecciona toda la tabla. Entrar inserta un párrafo nuevo en la celda y, como TAB cambia de celda, para insertar un carácter de tabulación se usa Ctrl+Tab.",
+          "refs": [
+            {
+              "ref": "Tablas",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Ir a la siguiente celda de la fila y seleccionar su contenido. Tecla TAB"
+            },
+            {
+              "ref": "Tablas",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Seleccionar toda la tabla. Alt+5 en el teclado numérico (con la tecla Bloq Num desactivada)"
+            },
+            {
+              "ref": "Tablas",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un carácter de tabulación en una celda. Ctrl+Tab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Dividir tablas y combinar o dividir celdas",
+      "blocks": [
+        {
+          "text": "Para dividir una tabla en dos (por ejemplo, para insertar texto entre ellas), se coloca el cursor en la fila que será la primera de la segunda tabla y, en la pestaña contextual de tabla, grupo Combinar, se elige Dividir tabla; se puede seguir dividiendo mientras haya varias filas. Las pestañas de tabla solo son visibles cuando el cursor está dentro de la tabla (la traducción de Microsoft las llama a ambas «Diseño de tabla»).",
+          "refs": [
+            {
+              "ref": "Dividir",
+              "law": "Soporte Microsoft (Word, dividir tabla)",
+              "url": "https://support.microsoft.com/es-es/word/split-a-table-in-word",
+              "quote": "Coloque el cursor en la fila que desee como primera fila de la segunda tabla."
+            },
+            {
+              "ref": "Dividir",
+              "law": "Soporte Microsoft (Word, dividir tabla)",
+              "url": "https://support.microsoft.com/es-es/word/split-a-table-in-word",
+              "quote": "En la pestaña Diseño de tabla , en el grupo Combinar , seleccione Dividir tabla."
+            }
+          ]
+        },
+        {
+          "text": "Se pueden combinar en una sola dos o más celdas de la misma fila o columna: se seleccionan y se elige Combinar celdas en la cinta, o con clic derecho sobre ellas. Si la opción no aparece, hay que comprobar que se han seleccionado varias celdas adyacentes. Para dividir celdas se elige Dividir celdas y se indica el número de columnas o filas. Si la tabla no tiene bordes, Ver líneas de cuadrícula muestra su estructura.",
+          "refs": [
+            {
+              "ref": "Celdas",
+              "law": "Soporte Microsoft (Word, celdas)",
+              "url": "https://support.microsoft.com/es-es/word/merge-or-split-cells-in-a-table",
+              "quote": "Puede combinar dos o más celdas de tabla de la misma fila o columna en una sola."
+            },
+            {
+              "ref": "Celdas",
+              "law": "Soporte Microsoft (Word, celdas)",
+              "url": "https://support.microsoft.com/es-es/word/merge-or-split-cells-in-a-table",
+              "quote": "También puede hacer clic con el botón derecho en las celdas seleccionadas y seleccionar Combinar celdas."
+            },
+            {
+              "ref": "Celdas",
+              "law": "Soporte Microsoft (Word, celdas)",
+              "url": "https://support.microsoft.com/es-es/word/merge-or-split-cells-in-a-table",
+              "quote": "Si la tabla no tiene bordes, puede activar las líneas de cuadrícula."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Márgenes, vistas e impresión",
+      "blocks": [
+        {
+          "text": "Cada página de Word tiene automáticamente un margen de una pulgada. Desde Disposición > Márgenes se elige una configuración predefinida o Márgenes personalizados; también pueden fijarse márgenes de páginas opuestas y espacio para encuadernación. Las vistas se cambian con Ctrl+Alt+P (Diseño de impresión), Ctrl+Alt+O (Esquema) y Ctrl+Alt+N (Borrador).",
+          "refs": [
+            {
+              "ref": "Márgenes",
+              "law": "Soporte Microsoft (Word, márgenes)",
+              "url": "https://support.microsoft.com/es-es/word/training/change-margins",
+              "quote": "En Word, cada página tiene automáticamente un margen de una pulgada."
+            },
+            {
+              "ref": "Vistas",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cambiar a la vista Diseño de impresión. Ctrl+Alt+P Cambiar a la vista Esquema. Ctrl+Alt+O Cambiar a la vista Borrador. Ctrl+Alt+N"
+            }
+          ]
+        },
+        {
+          "text": "Ctrl+P imprime y Ctrl+Alt+I cambia a vista previa de impresión; Ctrl+F2 muestra la vista previa en la pestaña Imprimir de Backstage y Ctrl+Mayús+F12 abre esa pestaña. En Archivo > Imprimir, la opción por defecto en Configuración es Imprimir todas las páginas. Se puede elegir Imprimir página actual o Impresión personalizada: para páginas seguidas se escribe el intervalo y para páginas sueltas e intervalos a la vez se separan por comas, por ejemplo «3, 4-6».",
+          "refs": [
+            {
+              "ref": "Imprimir",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Imprimir el documento. Ctrl+P Cambiar a vista previa de impresión. Ctrl+Alt+I"
+            },
+            {
+              "ref": "Imprimir",
+              "law": "Soporte Microsoft (Word, imprimir)",
+              "url": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+              "quote": "junto a Imprimir todas las páginas (opción predeterminada)"
+            },
+            {
+              "ref": "Imprimir",
+              "law": "Soporte Microsoft (Word, imprimir)",
+              "url": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+              "quote": "seleccione Impresión personalizada y escriba los números de página y los intervalos separados por comas (por ejemplo 3, 4-6)."
+            },
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Ctrl+F2: muestra un área de vista previa de impresión en la pestaña Imprimir en la vista Backstage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Ortografía y gramática",
+      "blocks": [
+        {
+          "text": "F7 inicia la revisión ortográfica y gramatical y muestra el panel del Editor; Alt+F7 busca el siguiente error y Mayús+F7 abre el diccionario de sinónimos. Mientras se escribe, Office marca los posibles errores ortográficos con una línea ondulada roja y los gramaticales con una azul; con clic derecho se elige una corrección, y Agregar al diccionario evita que una palabra vuelva a marcarse.",
+          "refs": [
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F7: muestra el panel de tareas del Editor para revisar la ortografía y la gramática del documento o del texto seleccionado. Mayús+F7: muestra el panel de tareas del diccionario de sinónimos."
+            },
+            {
+              "ref": "Ortografía",
+              "law": "Soporte Microsoft (ortografía y gramática)",
+              "url": "https://support.microsoft.com/es-es/office/check-spelling-and-grammar-in-office",
+              "quote": "Office marca los posibles errores ortográficos con una línea ondulada de color rojo y los posibles errores gramaticales se marcan con una línea ondulada de color azul."
+            }
+          ]
+        },
+        {
+          "text": "Para desactivar la revisión automática se va a Archivo > Opciones > Revisión y se desmarca Revisar ortografía mientras escribe (y, si se desea, Marcar errores gramaticales mientras escribe). En Word puede limitarse a un documento con la lista Excepciones para. Para volver a revisar lo que se ignoró, Archivo > Opciones > Revisión > Volver a comprobar documento.",
+          "refs": [
+            {
+              "ref": "Ortografía",
+              "law": "Soporte Microsoft (ortografía y gramática)",
+              "url": "https://support.microsoft.com/es-es/office/check-spelling-and-grammar-in-office",
+              "quote": "En OneNote, PowerPoint, Publisher, Visio y Word: En el menú Archivo, seleccione Opciones y elija Revisión. Active o desactive la casilla Revisar ortografía mientras escribe."
+            },
+            {
+              "ref": "Ortografía",
+              "law": "Soporte Microsoft (ortografía y gramática)",
+              "url": "https://support.microsoft.com/es-es/office/check-spelling-and-grammar-in-office",
+              "quote": "Seleccione Revisión y elija Volver a comprobar documento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Comentarios, control de cambios y notas",
+      "blocks": [
+        {
+          "text": "Alt, R abre la pestaña Revisar; Ctrl+Alt+M inserta un comentario y Ctrl+Mayús+E activa o desactiva el control de cambios. Para imprimir un documento con sus comentarios, en Archivo > Imprimir > Configuración se elige Imprimir documento con revisiones; para imprimirlo sin ellos, en Revisar, grupo Revisión, Mostrar para revisión > Ninguna revisión. En Referencias, Ctrl+Alt+F inserta una nota al pie y Ctrl+Alt+D una nota al final.",
+          "refs": [
+            {
+              "ref": "Revisar",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un comentario. Ctrl+Alt+M Activar o desactivar el control de cambios. Ctrl+Mayús+E"
+            },
+            {
+              "ref": "Imprimir",
+              "law": "Soporte Microsoft (Word, imprimir)",
+              "url": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+              "quote": "En Configuración, seleccione Imprimir documento con revisiones."
+            },
+            {
+              "ref": "Referencias",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar una nota al pie. Ctrl+Alt+F Insertar una nota al final. Ctrl+Alt+D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Gráficos SmartArt",
+      "blocks": [
+        {
+          "text": "Un SmartArt representa visualmente información con numerosos diseños y puede crearse en Excel, Outlook, PowerPoint y Word. Se inserta desde Insertar, grupo Ilustraciones, SmartArt, eligiendo tipo y diseño, y el texto se escribe en el panel Texto (si no se ve, se abre con el control de flecha del lado izquierdo). Se añaden formas con Agregar forma después de o Agregar forma antes, o con Entrar en el panel Texto; Suprimir elimina la forma seleccionada o, seleccionando el borde, todo el gráfico.",
+          "refs": [
+            {
+              "ref": "SmartArt",
+              "law": "Soporte Microsoft (SmartArt)",
+              "url": "https://support.microsoft.com/es-es/office/graphics-visuals/create-a-smartart-graphic-from-scratch",
+              "quote": "En la pestaña Insertar , seleccione el SmartArt en el grupo Ilustraciones ."
+            },
+            {
+              "ref": "SmartArt",
+              "law": "Soporte Microsoft (SmartArt)",
+              "url": "https://support.microsoft.com/es-es/office/graphics-visuals/create-a-smartart-graphic-from-scratch",
+              "quote": "Para eliminar todo el elemento gráfico SmartArt, seleccione el borde del elemento gráfico SmartArt y, a continuación, presione SUPRIMIR."
+            }
+          ]
+        },
+        {
+          "text": "Los colores se cambian en Diseño SmartArt, grupo Estilos de SmartArt, Cambiar colores, con variaciones de los colores del tema. Un estilo SmartArt combina efectos como estilo de línea, bisel o 3D. El tamaño de todo el gráfico se cambia seleccionando su borde y arrastrando los controladores.",
+          "refs": [
+            {
+              "ref": "SmartArt",
+              "law": "Soporte Microsoft (SmartArt)",
+              "url": "https://support.microsoft.com/es-es/office/graphics-visuals/create-a-smartart-graphic-from-scratch",
+              "quote": "En la pestaña Diseño SmartArt, seleccione Cambiar colores en el grupo Estilos de SmartArt."
+            },
+            {
+              "ref": "SmartArt",
+              "law": "Soporte Microsoft (SmartArt)",
+              "url": "https://support.microsoft.com/es-es/office/graphics-visuals/create-a-smartart-graphic-from-scratch",
+              "quote": "Un estilo SmartArt es una combinación de varios efectos, como estilo de línea, bisel o 3D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "F12 = Guardar como; Mayús+F12 = guardar; F4 = repetir; F5 = Ir a; F7 = Editor (ortografía y gramática).",
+          "refs": [
+            {
+              "ref": "Teclas de función",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F12: muestra el cuadro de diálogo Guardar como."
+            }
+          ]
+        },
+        {
+          "text": "Ctrl+E selecciona todo; Ctrl+J justifica; Ctrl+D abre Fuente (teclado de España).",
+          "refs": [
+            {
+              "ref": "Seleccionar",
+              "law": "Soporte Microsoft (Word, seleccionar texto)",
+              "url": "https://support.microsoft.com/es-es/word/select-text",
+              "quote": "seleccionar todo el texto en un documento (Ctrl+E)"
+            }
+          ]
+        },
+        {
+          "text": "Ctrl+Entrar = salto de página; Mayús+Entrar = salto de línea; Ctrl+Mayús+Entrar = salto de columna.",
+          "refs": [
+            {
+              "ref": "Caracteres especiales",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un salto de página. Ctrl+Entrar"
+            }
+          ]
+        },
+        {
+          "text": "Interlineado: Ctrl+1 simple, Ctrl+2 doble, Ctrl+5 1,5 líneas.",
+          "refs": [
+            {
+              "ref": "Párrafos",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Aplicar un interlineado de 1,5 líneas en el párrafo. Ctrl+5"
+            }
+          ]
+        },
+        {
+          "text": "Ctrl+Mayús+E = control de cambios; Ctrl+Alt+M = comentario; Ctrl+Alt+D = nota al final.",
+          "refs": [
+            {
+              "ref": "Revisar",
+              "law": "Soporte Microsoft (atajos de Word)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Activar o desactivar el control de cambios. Ctrl+Mayús+E"
+            }
+          ]
+        },
+        {
+          "text": "Tablas: TAB cambia de celda; Ctrl+Tab inserta tabulación; Dividir tabla está en el grupo Combinar.",
+          "refs": [
+            {
+              "ref": "Dividir",
+              "law": "Soporte Microsoft (Word, dividir tabla)",
+              "url": "https://support.microsoft.com/es-es/word/split-a-table-in-word",
+              "quote": "en el grupo Combinar , seleccione Dividir tabla."
+            }
+          ]
+        },
+        {
+          "text": "Margen automático: una pulgada; impresión personalizada «3, 4-6».",
+          "refs": [
+            {
+              "ref": "Márgenes",
+              "law": "Soporte Microsoft (Word, márgenes)",
+              "url": "https://support.microsoft.com/es-es/word/training/change-margins",
+              "quote": "cada página tiene automáticamente un margen de una pulgada."
+            }
+          ]
+        },
+        {
+          "text": "Escala superior a 100 % estira el texto; SmartArt se inserta desde Insertar > Ilustraciones.",
+          "refs": [
+            {
+              "ref": "Escala",
+              "law": "Soporte Microsoft (Word, espaciado)",
+              "url": "https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word",
+              "quote": "Los porcentajes superiores a 100 estiran el texto."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (Word, espaciado) (https://support.microsoft.com/es-es/word/change-the-spaces-between-text-in-word), Soporte Microsoft (Word, tablas) (https://support.microsoft.com/es-es/word/training/insert-a-table), Soporte Microsoft (Word, dividir tabla) (https://support.microsoft.com/es-es/word/split-a-table-in-word), Soporte Microsoft (Word, márgenes) (https://support.microsoft.com/es-es/word/training/change-margins), Soporte Microsoft (Word, imprimir) (https://support.microsoft.com/es-es/word/print-a-document-in-word), Soporte Microsoft (ortografía y gramática) (https://support.microsoft.com/es-es/office/check-spelling-and-grammar-in-office), Soporte Microsoft (SmartArt) (https://support.microsoft.com/es-es/office/graphics-visuals/create-a-smartart-graphic-from-scratch)"
 }
