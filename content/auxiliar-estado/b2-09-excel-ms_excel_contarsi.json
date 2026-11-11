@@ -32,6 +32,21 @@
       "explanation": "En CONTAR.SI, ? sustituye a un único carácter y * a cualquier secuencia de caracteres.",
       "excerpt": "El signo de interrogación reemplaza cualquier carácter individual.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Función CONTAR.SI (limitaciones)",
+      "stem": "Según el soporte de Microsoft, ¿cuál de las siguientes es una limitación de la función CONTAR.SI?",
+      "options": [
+        "No admite caracteres comodín en los criterios.",
+        "No puede contar celdas según el color de fondo o el color de fuente.",
+        "Solo puede aplicarse a rangos de una única fila.",
+        "No admite criterios con operadores de comparación como «>»."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "CONTAR.SI no cuenta por color; sí admite comodines (? y *) y criterios como \">55\". Para varios criterios se usa CONTAR.SI.CONJUNTO.",
+      "excerpt": "La función CONTAR.SI no puede contar celdas según el color de fondo o el color de fuente.",
+      "excerpt_status": "completo"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_cifrar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cifrar y proteger mensajes de correo electrónico en Outlook",
+      "url": "https://support.microsoft.com/es-es/office/obtener-informaci%C3%B3n-sobre-c%C3%B3mo-proteger-y-proteger-mensajes-de-correo-electr%C3%B3nico-en-outlook-2baf3ac7-12db-40a4-8af7-1852204b4b67",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Cifrar · Permisos",
+      "stem": "En Outlook, si a un mensaje se le aplican permisos como No reenviar o No imprimir:",
+      "options": [
+        "El mensaje se envía como copia carbón oculta.",
+        "El mensaje se cifra automáticamente.",
+        "El mensaje se guarda en la Bandeja de salida hasta que el destinatario acepta.",
+        "El mensaje se convierte en una plantilla de Outlook."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Según Microsoft, un mensaje con permisos como No reenviar o No imprimir se cifra automáticamente.",
+      "excerpt": "como No reenviar o No imprimir, se cifra automáticamente",
+      "excerpt_status": "completo"
+    }
+  ]
+}

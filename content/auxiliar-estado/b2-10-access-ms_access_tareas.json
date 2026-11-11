@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_tareas-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Tareas básicas para una base de datos de escritorio de Access",
+      "url": "https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Tareas básicas · Plantillas",
+      "stem": "Según Microsoft, las plantillas de Access:",
+      "options": [
+        "Solo contienen la estructura de las tablas, sin consultas ni formularios.",
+        "Tienen tablas, consultas, formularios e informes integrados listos para usar.",
+        "Solo pueden usarse si antes se crea una base de datos de escritorio en blanco.",
+        "Incluyen únicamente informes predefinidos para imprimir datos importados."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Las plantillas de Access incluyen tablas, consultas, formularios e informes integrados listos para usar; si ninguna se ajusta, se puede empezar con una base de datos de escritorio en blanco.",
+      "excerpt": "Las plantillas de Access tienen tablas, consultas, formularios e informes integrados que están listos para usar.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

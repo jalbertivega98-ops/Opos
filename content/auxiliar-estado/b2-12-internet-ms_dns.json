@@ -47,6 +47,21 @@
       "explanation": "La documentación de Windows Server sitúa DNS en la capa de aplicación del modelo TCP/IP.",
       "excerpt": "DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP, como se muestra en la ilustración siguiente.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "DNS · Controladores de dominio",
+      "stem": "Según la documentación de Microsoft sobre DNS en Windows y Windows Server, señale la respuesta correcta:",
+      "options": [
+        "DNS forma parte de la capa de transporte del modelo TCP/IP.",
+        "Los controladores de dominio también usan DNS para localizarse entre sí.",
+        "El servicio cliente DNS solo se incluye en las versiones de servidor de Windows.",
+        "El servicio cliente DNS debe iniciarse manualmente tras instalar el sistema."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "DNS es el servicio de resolución de nombres predeterminado en las redes de Windows; los controladores de dominio lo usan para localizarse entre sí, pertenece a la capa de aplicación y el cliente DNS se incluye en todas las versiones y se ejecuta de forma predeterminada.",
+      "excerpt": "Los controladores de dominio también usan DNS para localizarse entre sí.",
+      "excerpt_status": "completo"
     }
   ]
 }

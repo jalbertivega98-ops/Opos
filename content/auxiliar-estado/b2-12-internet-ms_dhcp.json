@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-12-internet-ms_dhcp-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.12 La red Internet y los navegadores",
+    "topic_slug": "age-aux-b2-12-internet",
+    "locale": "es",
+    "category": "age_aux_b2_12_internet",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Protocolo de configuración dinámica de host (DHCP)",
+      "url": "https://learn.microsoft.com/es-es/windows-server/networking/technologies/dhcp/dhcp-top",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "DHCP · Servidor",
+      "stem": "Según Microsoft, ¿cuándo concede el servidor DHCP una dirección IP a un cliente habilitado para DHCP?",
+      "options": [
+        "Solo cuando el usuario la escribe a mano en la configuración.",
+        "Cuando el cliente se inicia en la red.",
+        "Cuando el cliente resuelve un nombre de dominio.",
+        "Solo cuando el cliente abre una conexión HTTPS."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El servidor DHCP mantiene un grupo de direcciones IP y concede una a cualquier cliente habilitado para DHCP cuando se inicia en la red.",
+      "excerpt": "El servidor DHCP mantiene un grupo de direcciones IP y concede una dirección a cualquier cliente habilitado para DHCP cuando se inicia en la red.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

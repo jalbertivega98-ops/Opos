@@ -32,6 +32,36 @@
       "explanation": "Microsoft indica que la Libreta de direcciones está en la pestaña Inicio.",
       "excerpt": "La Libreta de direcciones está en el lateral de la pestaña Inicio.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Crear libreta de direcciones · Nueva carpeta",
+      "stem": "Para crear una libreta de direcciones personal en la versión clásica de Outlook, se hace clic con el botón derecho en la carpeta Contactos y se selecciona:",
+      "options": [
+        "Nueva libreta de direcciones.",
+        "Nuevo grupo de contactos.",
+        "Exportar contactos.",
+        "Nueva carpeta."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Se crea una carpeta en Contactos (botón derecho en Contactos > Nueva carpeta) y después se hace de esa carpeta una libreta de direcciones.",
+      "excerpt": "haga clic con el botón derecho en la carpeta Contactos y seleccione Nueva carpeta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Crear libreta de direcciones · Propiedades",
+      "stem": "Para que una nueva carpeta de contactos funcione como libreta de direcciones en Outlook clásico, en sus Propiedades debe estar seleccionada la casilla:",
+      "options": [
+        "Agregar esta carpeta a la lista global de direcciones.",
+        "Compartir esta carpeta con los destinatarios de CCO.",
+        "Mostrar esta carpeta como una libreta de direcciones de correo electrónico.",
+        "Sincronizar esta carpeta con la libreta de Exchange."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "En Propiedades de la nueva carpeta hay que asegurarse de que está seleccionada la casilla Mostrar esta carpeta como una libreta de direcciones de correo electrónico.",
+      "excerpt": "asegúrese de que la casilla Mostrar esta carpeta como una libreta de direcciones de correo electrónico esté seleccionada.",
+      "excerpt_status": "completo"
     }
   ]
 }

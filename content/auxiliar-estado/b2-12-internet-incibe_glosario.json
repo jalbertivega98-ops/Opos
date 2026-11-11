@@ -92,6 +92,36 @@
       "explanation": "Es el phishing. El pharming aprovecha una vulnerabilidad de los servidores DNS para redirigir a una web falsa, y el keylogger registra las teclas pulsadas.",
       "excerpt": "Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · HTTPS",
+      "stem": "Según el glosario de ciberseguridad del INCIBE, HTTPS es:",
+      "options": [
+        "El servicio que traduce nombres de dominio en direcciones IP.",
+        "El protocolo que asigna automáticamente la dirección IP a un equipo.",
+        "Una red privada virtual sobre Internet.",
+        "La versión segura de HTTP."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El INCIBE define HTTPS, dicho en otras palabras, como la versión segura de HTTP; la traducción de nombres es la función del DNS, la asignación de IP la hace DHCP y la extensión segura de una LAN es la VPN.",
+      "excerpt": "Dicho en otras palabras, es la versión segura de HTTP.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Glosario INCIBE · Pharming",
+      "stem": "Según el INCIBE, el ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS se denomina:",
+      "options": [
+        "Phishing.",
+        "Botnet.",
+        "Pharming.",
+        "Keylogger."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El pharming aprovecha una vulnerabilidad del software de los servidores DNS; el phishing suplanta a una entidad mediante correo o mensaje instantáneo.",
+      "excerpt": "Ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS",
+      "excerpt_status": "completo"
     }
   ]
 }

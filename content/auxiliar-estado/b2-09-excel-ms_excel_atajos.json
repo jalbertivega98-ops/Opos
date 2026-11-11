@@ -62,6 +62,111 @@
       "explanation": "Ctrl+` alterna entre valores y fórmulas; Ctrl+1 abre Formato de celdas, Mayús+F3 Insertar función y Ctrl+Mayús+E invoca Relleno rápido.",
       "excerpt": "Úselo para cambiar entre mostrar valores de celda o fórmulas de la hoja de cálculo. | Ctrl+acento grave (`)",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (fecha actual)",
+      "stem": "En Excel, ¿qué combinación de teclas inserta la fecha actual en la celda?",
+      "options": [
+        "Ctrl+punto y coma (;)",
+        "Ctrl+D",
+        "Ctrl+Mayús+E",
+        "Alt+signo igual (=)"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Según la tabla de métodos abreviados de Excel, Ctrl+; inserta la fecha actual.",
+      "excerpt": "Úselo para insertar la fecha actual. | Ctrl+punto y coma (;)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (Suma)",
+      "stem": "En Excel, la combinación Alt+signo igual (=) sirve para:",
+      "options": [
+        "Mostrar el cuadro de diálogo Insertar función.",
+        "Cambiar entre mostrar valores o fórmulas.",
+        "Comenzar una nueva línea en la misma celda.",
+        "Insertar la fórmula Suma."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Alt+= inserta la fórmula Suma (Autosuma).",
+      "excerpt": "Insertar la fórmula Suma | Alt+signo igual (=)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (Formato de celdas)",
+      "stem": "¿Qué combinación de teclas abre el cuadro de diálogo Formato de celdas en Excel?",
+      "options": [
+        "Ctrl+L",
+        "Ctrl+1",
+        "Ctrl+T",
+        "Mayús+F3"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl+1 abre Formato de celdas; Ctrl+L o Ctrl+T muestran el cuadro Crear tabla.",
+      "excerpt": "Úselo para abrir el cuadro de diálogo Formato de celdas. | Ctrl+1",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Excel (F11 y Alt+F1)",
+      "stem": "En Excel, ¿qué diferencia hay entre pulsar F11 sola y pulsar Alt+F1 con un rango de datos seleccionado?",
+      "options": [
+        "F11 crea un gráfico incrustado y Alt+F1 crea un gráfico en una hoja de gráfico distinta.",
+        "F11 inserta una hoja de cálculo nueva y Alt+F1 crea un gráfico incrustado.",
+        "F11 crea una tabla dinámica y Alt+F1 crea un gráfico dinámico.",
+        "F11 crea un gráfico en una hoja de gráfico distinta y Alt+F1 crea un gráfico incrustado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "F11 crea el gráfico en una hoja de gráfico aparte; Alt+F1 lo incrusta en la hoja actual. Mayús+F11 inserta una hoja de cálculo nueva.",
+      "excerpt": "Solo F11: crea un gráfico a partir de los datos del rango actual en una hoja de gráfico distinta. […] Alt+F1: crea un gráfico incrustado a partir de los datos del rango actual.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (Relleno rápido)",
+      "stem": "En Excel, ¿qué combinación de teclas invoca Relleno rápido para reconocer automáticamente los patrones de las columnas adyacentes?",
+      "options": [
+        "Ctrl+Mayús+E",
+        "Ctrl+D",
+        "Ctrl+Entrar",
+        "Ctrl+Mayús+L"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ctrl+Mayús+E invoca Relleno rápido; Ctrl+D rellena hacia abajo y Ctrl+Entrar rellena el rango seleccionado con la entrada actual.",
+      "excerpt": "Úselo para invocar Relleno rápido a fin de reconocer automáticamente los patrones de las columnas adyacentes | Ctrl+Mayús+E",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Excel (Ctrl+Entrar)",
+      "stem": "En Excel, si se selecciona un rango de celdas, se escribe un valor y se pulsa Ctrl+Entrar:",
+      "options": [
+        "Se comienza una nueva línea en la misma celda.",
+        "Se copia el contenido de la celda situada más arriba.",
+        "Se rellena el rango de celdas seleccionado con la entrada actual.",
+        "Se crea una tabla con el rango seleccionado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ctrl+Entrar rellena todo el rango seleccionado con la entrada actual; Alt+Entrar inicia una nueva línea en la celda.",
+      "excerpt": "Úselo para rellenar el rango de celdas seleccionado con la entrada actual. | Ctrl+Entrar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Excel (Mayús+F3)",
+      "stem": "En Excel, la combinación Mayús+F3 muestra:",
+      "options": [
+        "El cuadro de diálogo Guardar como.",
+        "El cuadro de diálogo Formato de celdas.",
+        "Una hoja de cálculo nueva.",
+        "El cuadro de diálogo Insertar función."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Mayús+F3 abre Insertar función; F12, Guardar como; Ctrl+1, Formato de celdas; Mayús+F11 inserta una hoja nueva.",
+      "excerpt": "Mayús+F3: muestra el cuadro de diálogo Insertar función.",
+      "excerpt_status": "completo"
     }
   ]
 }

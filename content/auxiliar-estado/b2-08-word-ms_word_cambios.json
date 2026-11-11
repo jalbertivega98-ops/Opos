@@ -62,6 +62,36 @@
       "explanation": "Ocultar los cambios no los elimina; hay que usar Aceptar y Rechazar, situados en el grupo Cambios de la pestaña Revisar.",
       "excerpt": "Debe utilizar los comandos Aceptar y Rechazar en el grupo Cambios para quitar la marcación del documento.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Control de cambios (Revisión simple)",
+      "stem": "En el Control de cambios de Word, la presentación «Revisión simple»:",
+      "options": [
+        "Muestra las marcas de revisión con una línea roja en el margen.",
+        "Oculta el marcado y muestra el documento con los cambios incorporados.",
+        "Muestra el documento original sin ninguno de los cambios.",
+        "Elimina definitivamente los cambios del documento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Revisión simple señala los cambios con una línea roja en el margen; Sin marcado oculta el marcado sin quitar los cambios.",
+      "excerpt": "Revisión simple muestra las marcas de revisión con una línea roja en el margen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Control de cambios (comentarios)",
+      "stem": "Según el soporte de Microsoft sobre el seguimiento de cambios en Word para Microsoft 365, los comentarios:",
+      "options": [
+        "Ya no forman parte de la función Control de cambios.",
+        "Se aceptan o rechazan junto con el resto de revisiones del grupo Cambios.",
+        "Solo pueden insertarse si el Control de cambios está activado.",
+        "Se marcan con un tachado de color distinto para cada autor."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Microsoft indica que los comentarios ya no forman parte del Control de cambios; las revisiones se gestionan con Aceptar y Rechazar.",
+      "excerpt": "Los comentarios ya no forman parte de la función Control de cambios.",
+      "excerpt_status": "completo"
     }
   ]
 }

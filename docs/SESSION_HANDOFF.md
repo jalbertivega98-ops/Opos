@@ -4,6 +4,8 @@
 
 ## Estado exacto
 
+- **40 preguntas por tema en Policía local de Cataluña y Auxiliar del Estado (2026-11-11, PR #58 fusionada):** +460 (`plcat-t*`, 23 temas) y +480 (`age-aux-b1/b2-*`), con cita literal comprobada. Las nuevas van al final de cada `fuente-preguntas/<T>.txt` tras `// Ampliación 11/11/2026` en `fuentes-oficiales/{policia-local-cat,auxiliar-estado}/`. Preview `85-` y `85a-` (solo las nuevas) y `85b-` (publica salvo 4 dudosas y llena los packs). Pendiente de joel: las 4 dudosas (Llei 19/2020 arts. 45.1.c y 48.2; Orden PCI/383/2019).
+
 ### Mejoras de la oferta (2026-11-11, rama `claude/project-thread-m45lkq`, ADR-048)
 
 - Simulacro de psicotécnicos + pack 6,99 € en GC (formato oficial), PN, Guardia Urbana y Policía local (formato orientativo); plan anual 79,99 €; primer simulacro gratis por oposición; packs de 10 simulacros sin réplicas fijas; nº de temas sin réplicas y aviso de Mossos. Migración `20261111000200`, preview `84-`.
