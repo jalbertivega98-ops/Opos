@@ -76,5 +76,885 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "El entorno de Outlook: correo, calendario, contactos y tareas",
+      "blocks": [
+        {
+          "text": "Outlook es el programa de correo y organización personal de Microsoft 365. Reúne cuatro grandes módulos: Correo, Calendario, Contactos y Tareas. El correo electrónico conecta con personas de dentro y de fuera de la organización, y a los mensajes se les puede añadir una firma electrónica y datos adjuntos. Las fuentes recogidas se refieren sobre todo a la versión clásica de Outlook para Windows; en el nuevo Outlook algunas rutas pueden cambiar.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Email le conecta con personas dentro y fuera de su organización."
+            },
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Puede agregar una firma electrónica y datos adjuntos a sus mensajes de correo electrónico."
+            },
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "Seleccione una de las siguientes opciones de pestaña para la versión de Outlook que está usando."
+            }
+          ]
+        },
+        {
+          "text": "En el Calendario hay que distinguir cita y reunión, porque Microsoft subraya que no son lo mismo: la reunión incluye a otras personas y puede incluir recursos como salas de conferencias. Una cita se crea con Ctrl+Mayús+A. Las respuestas a las convocatorias de reunión llegan a la Bandeja de entrada, y los avisos aparecen en una ventana de alerta para no perder una fecha límite. Para encontrar una hora libre para todos se usa el Asistente para programación, que muestra la disponibilidad de personas y salas.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "En Outlook, las citas no son lo mismo que las reuniones. […] Para crear una cita, presione Ctrl+Mayús+A. […] En Outlook, una reunión incluye a otras personas y puede incluir recursos como salas de conferencias. […] Recibirá respuestas a las convocatorias de reunión en la Bandeja de entrada. […] Los avisos aparecen en una ventana de alerta para que no se pierda una fecha límite importante."
+            },
+            {
+              "ref": "Asistente para programación",
+              "law": "Soporte Microsoft (Outlook, Asistente para programación)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-the-scheduling-assistant-and-room-finder-for-meetings-in-outlook",
+              "quote": "Para buscar la disponibilidad de personas y salas"
+            }
+          ]
+        },
+        {
+          "text": "El calendario admite además ver en paralelo varios calendarios creados por el usuario, enviarlo a un destinatario de correo como Calendario de Internet y, con acceso a un sitio de SharePoint, ver sus listas de eventos dentro del Calendario de Outlook.",
+          "refs": [
+            {
+              "ref": "Calendario de Outlook",
+              "law": "Soporte Microsoft (Outlook, calendario)",
+              "url": "https://support.microsoft.com/es-es/office/introducci%C3%B3n-al-calendario-de-outlook-d94c5203-77c7-48ec-90a5-2e2bc10bd6f8",
+              "quote": "Puede ver en paralelo varios calendarios que haya creado"
+            },
+            {
+              "ref": "Calendario de Outlook",
+              "law": "Soporte Microsoft (Outlook, calendario)",
+              "url": "https://support.microsoft.com/es-es/office/introducci%C3%B3n-al-calendario-de-outlook-d94c5203-77c7-48ec-90a5-2e2bc10bd6f8",
+              "quote": "Puede enviar el calendario a un destinatario de correo como Calendario de Internet"
+            },
+            {
+              "ref": "Calendario de Outlook",
+              "law": "Soporte Microsoft (Outlook, calendario)",
+              "url": "https://support.microsoft.com/es-es/office/introducci%C3%B3n-al-calendario-de-outlook-d94c5203-77c7-48ec-90a5-2e2bc10bd6f8",
+              "quote": "Si tiene acceso a un sitio de SharePoint, puede ver las listas de eventos de ese sitio en su Calendario de Outlook"
+            }
+          ]
+        },
+        {
+          "text": "Un contacto puede ser tan sencillo como un nombre y una dirección de correo, y Microsoft recomienda guardar una copia de los contactos en la libreta de direcciones. En Tareas, una tarea nueva se crea con Ctrl+Mayús+K; se pueden combinar varias listas en una, recibir avisos y seguir el progreso. Si alguien nos asigna una tarea, aparece en la Bandeja de entrada, y las aceptadas pasan a la lista de tareas.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Un contacto puede ser tan sencillo como un nombre y direcciones de correo electrónico […] Guardar una copia de los contactos en la libreta de direcciones es una buena práctica."
+            },
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Para crear una tarea, presione Ctrl+Mayús+K. […] En Outlook, puede combinar varias listas en una, obtener avisos y realizar un seguimiento del progreso de las tareas. […] Cuando se crea y se le asigna una tarea, esta aparece en la Bandeja de entrada. […] Las tareas aceptadas aparecen en la lista de tareas de Outlook."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Barra de herramientas de acceso rápido y cinta de opciones",
+      "blocks": [
+        {
+          "text": "La barra de herramientas de acceso rápido es, según Microsoft, una parte importante de la experiencia de Outlook. Se suma a las pestañas y cintas estándar (la cinta de opciones) y el usuario puede decidir qué botones o iconos aparecen en ella, para tener a mano los comandos que más usa. En la cinta, por ejemplo, el botón Libreta de direcciones está en el lateral de la pestaña Inicio.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "La barra de acceso rápido es una parte importante de su experiencia de Outlook. […] Puede controlar qué botones (o iconos) aparecen en la barra de acceso rápido […] La barra se suma a las pestañas y cintas estándar que le proporcionan una gran variedad de herramientas"
+            },
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "La Libreta de direcciones está en el lateral de la pestaña Inicio."
+            }
+          ]
+        },
+        {
+          "text": "Las fuentes oficiales recogidas para este tema no detallan cómo personalizar la cinta de opciones de Outlook ni la ruta exacta para añadir botones a la barra de acceso rápido. Como regla general de Office, las personalizaciones de la cinta solo se aplican al programa en el que se hacen (página de Word, tema 8).",
+          "refs": [
+            {
+              "ref": "Personalizar la cinta en Word",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "las personalizaciones solo se aplican al programa de Office en el que está trabajando en ese momento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Crear y enviar mensajes",
+      "blocks": [
+        {
+          "text": "Un mensaje nuevo se crea con Ctrl+Mayús+M (M de mensaje; no confundir con Ctrl+Mayús+A, cita, ni con Ctrl+Mayús+K, tarea). Para añadir un destinatario se hace clic en el cuadro correspondiente (Para, CC o CCO) y se escribe su nombre. Se pueden quitar destinatarios seleccionando el nombre y pulsando Eliminar.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Para crear un mensaje de correo electrónico, presione Ctrl+Mayús+M. […] Para agregar un destinatario, haga clic en el cuadro correspondiente y escriba el nombre del destinatario."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "En los cuadros Para, CC y CCO puede agregar o quitar destinatarios. […] Quitar un destinatario Seleccione el nombre y presione Eliminar."
+            }
+          ]
+        },
+        {
+          "text": "Con una @mención en el cuerpo del mensaje, el nombre de la persona se resalta y Outlook la añade a la línea Para. También se puede programar el envío: en el desplegable junto a Enviar se elige Programar envío, con una hora predeterminada o personalizada; tras pulsar Enviar, el mensaje se queda en la carpeta Borrador hasta la hora de entrega. Otra forma de retrasar un mensaje concreto es mantenerlo en la Bandeja de salida.",
+          "refs": [
+            {
+              "ref": "@menciones en Outlook",
+              "law": "Soporte Microsoft (Outlook, @menciones)",
+              "url": "https://support.microsoft.com/es-es/office/usar-mentions-para-llamar-la-atenci%C3%B3n-de-un-usuario-en-outlook-90701709-5dc1-41c7-aa48-b01d4a46e8c7",
+              "quote": "se resaltará su nombre"
+            },
+            {
+              "ref": "@menciones en Outlook",
+              "law": "Soporte Microsoft (Outlook, @menciones)",
+              "url": "https://support.microsoft.com/es-es/office/usar-mentions-para-llamar-la-atenci%C3%B3n-de-un-usuario-en-outlook-90701709-5dc1-41c7-aa48-b01d4a46e8c7",
+              "quote": "se pedirá a Outlook que lo agregue a la línea Para"
+            },
+            {
+              "ref": "Programar el envío",
+              "law": "Soporte Microsoft (Outlook, programar envío)",
+              "url": "https://support.microsoft.com/es-es/office/retrasar-o-programar-el-env%C3%ADo-de-mensajes-de-correo-electr%C3%B3nico-026af69f-c287-490a-a72f-6c65793744ba",
+              "quote": "Seleccione el menú desplegable junto a Enviar y seleccione Programar envío."
+            },
+            {
+              "ref": "Programar el envío",
+              "law": "Soporte Microsoft (Outlook, programar envío)",
+              "url": "https://support.microsoft.com/es-es/office/retrasar-o-programar-el-env%C3%ADo-de-mensajes-de-correo-electr%C3%B3nico-026af69f-c287-490a-a72f-6c65793744ba",
+              "quote": "Seleccione una de las opciones predeterminadas y después, seleccione Enviar o elija una hora personalizada"
+            },
+            {
+              "ref": "Programar el envío",
+              "law": "Soporte Microsoft (Outlook, programar envío)",
+              "url": "https://support.microsoft.com/es-es/office/retrasar-o-programar-el-env%C3%ADo-de-mensajes-de-correo-electr%C3%B3nico-026af69f-c287-490a-a72f-6c65793744ba",
+              "quote": "Después de seleccionar Enviar, el mensaje permanece en la carpeta Borrador hasta la hora de entrega."
+            },
+            {
+              "ref": "Programar el envío",
+              "law": "Soporte Microsoft (Outlook, programar envío)",
+              "url": "https://support.microsoft.com/es-es/office/retrasar-o-programar-el-env%C3%ADo-de-mensajes-de-correo-electr%C3%B3nico-026af69f-c287-490a-a72f-6c65793744ba",
+              "quote": "Puede retrasar la entrega de un mensaje individual si lo mantiene en la Bandeja de salida"
+            }
+          ]
+        },
+        {
+          "text": "Un mensaje ya enviado puede recuperarse (Recuperar mensaje) solo si remitente y destinatario tienen cuenta profesional o educativa de Microsoft 365, en la misma organización, y el destinatario aún no lo ha abierto. Si se aplican permisos como No reenviar o No imprimir, el mensaje se cifra automáticamente y los destinatarios no podrán reenviarlo.",
+          "refs": [
+            {
+              "ref": "Recuperar un correo",
+              "law": "Soporte Microsoft (Outlook, recuperar mensaje)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/how-to-recall-an-email-in-outlook-requirements-limitations-steps",
+              "quote": "solo si tanto usted como el destinatario tienen una cuenta de correo electrónico profesional o educativa de Microsoft 365"
+            },
+            {
+              "ref": "Recuperar un correo",
+              "law": "Soporte Microsoft (Outlook, recuperar mensaje)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/how-to-recall-an-email-in-outlook-requirements-limitations-steps",
+              "quote": "en la misma organización"
+            },
+            {
+              "ref": "Recuperar un correo",
+              "law": "Soporte Microsoft (Outlook, recuperar mensaje)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/how-to-recall-an-email-in-outlook-requirements-limitations-steps",
+              "quote": "el destinatario aún no ha abierto el mensaje"
+            },
+            {
+              "ref": "Cifrar mensajes",
+              "law": "Soporte Microsoft (Outlook, cifrado)",
+              "url": "https://support.microsoft.com/es-es/office/obtener-informaci%C3%B3n-sobre-c%C3%B3mo-proteger-y-proteger-mensajes-de-correo-electr%C3%B3nico-en-outlook-2baf3ac7-12db-40a4-8af7-1852204b4b67",
+              "quote": "como No reenviar o No imprimir, se cifra automáticamente"
+            },
+            {
+              "ref": "Cifrar mensajes",
+              "law": "Soporte Microsoft (Outlook, cifrado)",
+              "url": "https://support.microsoft.com/es-es/office/obtener-informaci%C3%B3n-sobre-c%C3%B3mo-proteger-y-proteger-mensajes-de-correo-electr%C3%B3nico-en-outlook-2baf3ac7-12db-40a4-8af7-1852204b4b67",
+              "quote": "no podrán reenviarlo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Destinatarios: Para, CC y CCO",
+      "blocks": [
+        {
+          "text": "Un mensaje tiene tres cuadros de destinatarios: Para, CC y CCO. CCO es la copia carbón oculta: las demás personas que reciben el mensaje no ven las direcciones escritas en la línea CCO. Por eso CCO ayuda a respetar la privacidad, porque mantiene a la gente informada sin revelar su identidad a los demás.",
+          "refs": [
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "Otras personas que reciben el mensaje no ven la dirección en la línea CCO."
+            },
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "El cuadro CCO puede ayudarle a respetar la privacidad de los demás manteniéndolos en el bucle sin revelar sus identidades."
+            }
+          ]
+        },
+        {
+          "text": "Advertencias de Microsoft sobre CCO: es la técnica favorita de los remitentes de spam; conviene pensar antes de meter una lista de distribución en CCO; y los nombres del cuadro CCO cuentan para el límite total de destinatarios, cuyo valor depende de las directivas de la cuenta, que hay que consultar al proveedor de correo. La cifra concreta de ese límite no aparece en las fuentes recogidas.",
+          "refs": [
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "Usar el cuadro CCO es la técnica favorita de los remitentes de spam."
+            },
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "Piense antes de incluir una lista de distribución en el cuadro CCO"
+            },
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "recuerde que los nombres del cuadro CCO contarán para el límite total."
+            },
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "Pida información sobre las directivas de su cuenta a su proveedor de servicios de correo electrónico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Datos adjuntos",
+      "blocks": [
+        {
+          "text": "Para compartir un archivo se adjunta al mensaje. Los adjuntos recibidos se abren desde el panel de lectura o desde el mensaje abierto, haciendo doble clic sobre ellos.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Para compartir un archivo, puede adjuntarlo al mensaje. […] Puede abrir datos adjuntos desde el panel de lectura o desde un mensaje abierto. […] Haga doble clic en los datos adjuntos."
+            }
+          ]
+        },
+        {
+          "text": "Regla de examen: los adjuntos se conservan al reenviar y se pierden al responder. Reenviar incluye automáticamente todos los adjuntos del mensaje original; Responder y Responder a todos no los incluyen, y Microsoft aclara que no hay ninguna manera de cambiar este comportamiento. Si hay que mandar los adjuntos a otras personas, se usa Reenviar.",
+          "refs": [
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Cuando reenvía un mensaje, este incluye todos los datos adjuntos que se incluyeron con el mensaje original."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Los datos adjuntos no se incluyen al responder a un mensaje."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "No hay ninguna manera de cambiar este comportamiento."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Si necesita enviar un mensaje con sus archivos adjuntos a otras personas, use la opción Reenviar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Responder, responder a todos y reenviar",
+      "blocks": [
+        {
+          "text": "Responder envía el nuevo mensaje solo al remitente original, sin adjuntos. Responder a todos lo envía al remitente original y a todos los demás destinatarios de las líneas Para y CC. Reenviar permite escribir un conjunto de destinatarios completamente nuevo, y es la opción para hacer llegar el mensaje a alguien que no estaba en Para ni en CC; incluye los adjuntos.",
+          "refs": [
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Responder solo envía el nuevo mensaje al remitente original. Los datos adjuntos no están incluidos."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Responder a todos envía el nuevo mensaje al remitente original y a todos los demás destinatarios en las líneas Para y Cc."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Reenviar le permite escribir un conjunto completamente nuevo de destinatarios."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Para enviar el mensaje a alguien que no esté en las líneas Para o Cc, seleccione Reenviar."
+            }
+          ]
+        },
+        {
+          "text": "Microsoft aconseja pensar antes de pulsar Responder a todos si de verdad todos necesitan la respuesta; a menudo es mejor Responder y añadir solo a las personas que interesen. Para reenviar varios mensajes a la vez se selecciona el primero y se mantiene pulsada Ctrl mientras se seleccionan los demás. Outlook puede configurarse para abrir todas las respuestas y reenvíos en una ventana nueva.",
+          "refs": [
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Antes de seleccionar Responder a todos, considere si todos los usuarios necesitan obtener su respuesta"
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "A menudo es mejor seleccionar Responder y agregar solo las personas que realmente desea incluir."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Seleccione el primer mensaje y mantenga presionada la tecla Ctrl mientras selecciona los mensajes adicionales."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Puede hacer que Outlook abra automáticamente todas las respuestas y reenvíos en una ventana nueva"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Reglas de correo electrónico",
+      "blocks": [
+        {
+          "text": "Las reglas permiten mover, marcar y responder automáticamente a los mensajes de correo. Cada regla combina una condición (por ejemplo, «El asunto contiene») con lo que se quiere hacer con el mensaje cuando se cumple. Atención: algunas reglas solo se ejecutan cuando Outlook está activado (abierto); si aparece esa advertencia, se pulsa Aceptar.",
+          "refs": [
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Las reglas le permiten mover, marcar y responder a mensajes de correo electrónico automáticamente."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Seleccione una condición y lo que quiera que se haga con el mensaje en función de la condición."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "seleccione la condición El asunto contiene"
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Algunas reglas solo se ejecutarán cuando Outlook esté activado."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Si le aparece esta advertencia, seleccione Aceptar."
+            }
+          ]
+        },
+        {
+          "text": "Para organizar el buzón también son útiles la Búsqueda instantánea, que por defecto busca solo en la carpeta actual (casi siempre la Bandeja de entrada) aunque puede ampliarse a todos los buzones, y la herramienta Limpieza de buzón, que sirve para recortar el tamaño del buzón.",
+          "refs": [
+            {
+              "ref": "Búsqueda instantánea",
+              "law": "Soporte Microsoft (Outlook, búsqueda)",
+              "url": "https://support.microsoft.com/es-es/outlook/find-a-message-or-item-with-instant-search",
+              "quote": "solo en la carpeta actual que seleccionó"
+            },
+            {
+              "ref": "Búsqueda instantánea",
+              "law": "Soporte Microsoft (Outlook, búsqueda)",
+              "url": "https://support.microsoft.com/es-es/outlook/find-a-message-or-item-with-instant-search",
+              "quote": "es la bandeja de entrada la mayor parte del tiempo"
+            },
+            {
+              "ref": "Búsqueda instantánea",
+              "law": "Soporte Microsoft (Outlook, búsqueda)",
+              "url": "https://support.microsoft.com/es-es/outlook/find-a-message-or-item-with-instant-search",
+              "quote": "como todos los buzones"
+            },
+            {
+              "ref": "Tamaño del buzón",
+              "law": "Soporte Microsoft (Outlook, Limpieza de buzón)",
+              "url": "https://support.microsoft.com/es-es/outlook/manage-my-mailbox-size-in-outlook",
+              "quote": "Limpieza de buzón es una herramienta de limpieza única que puede usar para recortar el tamaño del buzón."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Crear una regla desde un mensaje o desde una plantilla",
+      "blocks": [
+        {
+          "text": "Desde un mensaje: clic con el botón derecho sobre un mensaje existente > Reglas > Crear regla; se eligen la condición y la acción y se pulsa Aceptar. Si se activa la casilla «Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual», la regla se aplica también a los mensajes ya recibidos, que pasarán, por ejemplo, a la carpeta indicada.",
+          "refs": [
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Haga clic con el botón derecho en un mensaje existente y seleccione Reglas > Crear regla."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Cuando haya terminado de crear la regla, seleccione Aceptar."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual"
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "El mensaje aparecerá ahora en esa carpeta."
+            }
+          ]
+        },
+        {
+          "text": "Desde una plantilla: Archivo > Administrar reglas y alertas > Nueva regla; se elige una plantilla (por ejemplo, «Marcar los mensajes de alguien para realizarles un seguimiento»); se edita la descripción haciendo clic en los valores subrayados; se seleccionan las condiciones; y al final se da nombre a la regla, se configuran sus opciones y se revisa su descripción.",
+          "refs": [
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Elija Archivo > Administrar reglas y alertas > Nueva regla."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Seleccione una plantilla."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Seleccione Marcar los mensajes de alguien para realizarles un seguimiento."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Seleccione un valor subrayado, elija las opciones que quiera y, después, seleccione Aceptar."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Seleccione las condiciones, agregue la información pertinente y, después, seleccione Aceptar."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Asigne un nombre a la regla, configure las opciones y revise la descripción de esta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Respuestas de Fuera de la oficina mediante reglas",
+      "blocks": [
+        {
+          "text": "Solo algunos tipos de cuenta admiten la característica Respuestas automáticas (Fuera de la oficina). Si no aparece el botón Respuestas automáticas, la cuenta no la admite, y entonces se puede simular con una plantilla y una regla.",
+          "refs": [
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Solo determinados tipos de cuentas admiten la característica Respuestas automáticas (Fuera de la oficina)."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Si no tiene el botón Respuestas automáticas, su cuenta de correo electrónico no admite esta característica."
+            }
+          ]
+        },
+        {
+          "text": "Primero se crea la plantilla: se redacta el mensaje de respuesta y, al guardarlo, en Guardar como tipo se elige Plantilla de Outlook (*.oft); puede crearse una nueva cada vez o reutilizar una existente.",
+          "refs": [
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Puede crear una plantilla siempre que esté fuera de la oficina o volver a usar una plantilla existente."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "En la lista desplegable Guardar como tipo, seleccione Plantilla de Outlook (*.oft)."
+            }
+          ]
+        },
+        {
+          "text": "Después se crea la regla: Archivo > Administrar reglas y alertas; en la pestaña Reglas de correo electrónico, Nueva regla; en Iniciar desde una regla en blanco, Aplicar regla a los mensajes recibidos > Siguiente. Si Outlook pregunta si se aplica a todos los mensajes, se contesta Sí. Se selecciona la plantilla creada (Abrir y Siguiente), se añaden las excepciones que hagan falta y se pone un nombre a la regla, por ejemplo «Fuera de la oficina».",
+          "refs": [
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "En la pestaña Archivo, seleccione Administrar reglas & alertas."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "En el cuadro de diálogo Reglas y alertas, en la pestaña Reglas de correo electrónico, seleccione Nueva regla."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "En Iniciar desde una regla en blanco, seleccione Aplicar regla a los mensajes recibidos y seleccione Siguiente."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Haga clic en Sí cuando Outlook le pregunte si quiere aplicar esta regla a todos los mensajes."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Seleccione la plantilla que creó anteriormente y, después, haga clic en Abrir y Siguiente."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Puede agregar todas las excepciones necesarias y, después, hacer clic en Siguiente."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Asigne un nombre a la regla, por ejemplo, \"Fuera de la oficina\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "La libreta de direcciones",
+      "blocks": [
+        {
+          "text": "La Libreta de direcciones de Outlook es una colección de libretas o listas de direcciones creadas a partir de las carpetas de contactos, que sirve para buscar y seleccionar nombres, direcciones de correo y listas de distribución al dirigir un mensaje. Con una cuenta de Exchange Server incluye la lista global de direcciones (LGD o GAL), que Exchange configura automáticamente con los nombres y direcciones de todos los usuarios con cuenta en ese servidor.",
+          "refs": [
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "Puede usar la Libreta de direcciones de Outlook, una colección de libretas de direcciones o listas de direcciones creadas a partir de las carpetas de contactos, para buscar y seleccionar nombres, direcciones de correo electrónico y listas de distribución al dirigir mensajes de correo electrónico."
+            },
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "Si usa Outlook con una cuenta de Exchange Server, la lista de libretas de direcciones incluirá la lista global de direcciones (LGD)."
+            },
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "La GAL contiene los nombres y las direcciones de correo electrónico de todos los usuarios que tienen una cuenta con ese Exchange Server y que Exchange la configura automáticamente."
+            }
+          ]
+        },
+        {
+          "text": "Se abre desde el botón del lateral de la pestaña Inicio o, al redactar, con cualquiera de los botones Para, CC o CCO. Se busca el contacto en las listas, se pulsa Agregar junto a su nombre y se repite con los demás destinatarios.",
+          "refs": [
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "La Libreta de direcciones está en el lateral de la pestaña Inicio."
+            },
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "Para abrir la libreta de direcciones, seleccione cualquiera de los botones Para, CC o CCO."
+            },
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "Cuando encuentre el contacto al que desea enviar el mensaje, seleccione Agregar junto a su nombre."
+            },
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "Agregue a otros destinatarios con el mismo proceso y, después, continúe redactando el mensaje."
+            }
+          ]
+        },
+        {
+          "text": "En Outlook clásico se pueden crear libretas personales a partir de carpetas de contactos: clic derecho en Contactos > Nueva carpeta (se crea dentro de Contactos); luego clic derecho en la nueva carpeta > Propiedades y se marca «Mostrar esta carpeta como una libreta de direcciones de correo electrónico». Por último se comprueba que aparece en la lista Libreta de direcciones.",
+          "refs": [
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "puedes crear libretas de direcciones personales con los nombres de las carpetas de contactos clásicas de Outlook"
+            },
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "haga clic con el botón derecho en la carpeta Contactos y seleccione Nueva carpeta."
+            },
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "La nueva carpeta se debe crear de forma predeterminada en la carpeta Contactos."
+            },
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "Haga clic con el botón derecho en la nueva carpeta y, a continuación, seleccione Propiedades."
+            },
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "asegúrese de que la casilla Mostrar esta carpeta como una libreta de direcciones de correo electrónico esté seleccionada."
+            },
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "compruebe que la libreta de direcciones que acaba de crear aparezca en la lista Libreta de direcciones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Ctrl+Mayús+M = mensaje; Ctrl+Mayús+A = cita; Ctrl+Mayús+K = tarea.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Para crear un mensaje de correo electrónico, presione Ctrl+Mayús+M."
+            },
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Para crear una cita, presione Ctrl+Mayús+A."
+            },
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "Para crear una tarea, presione Ctrl+Mayús+K."
+            }
+          ]
+        },
+        {
+          "text": "Reunión = incluye a otras personas y puede reservar recursos como salas; la cita no.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Outlook",
+              "law": "Soporte Microsoft (Outlook: tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/outlook/basic-tasks-in-outlook",
+              "quote": "En Outlook, una reunión incluye a otras personas y puede incluir recursos como salas de conferencias."
+            }
+          ]
+        },
+        {
+          "text": "CCO: los demás no ven esas direcciones, pero cuentan para el límite total de destinatarios.",
+          "refs": [
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "Otras personas que reciben el mensaje no ven la dirección en la línea CCO."
+            },
+            {
+              "ref": "Mostrar el campo CCO",
+              "law": "Soporte Microsoft (Outlook: CCO)",
+              "url": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+              "quote": "recuerde que los nombres del cuadro CCO contarán para el límite total."
+            }
+          ]
+        },
+        {
+          "text": "Responder = solo al remitente y sin adjuntos; Responder a todos = remitente + Para + CC; Reenviar = destinatarios nuevos y con adjuntos. No se puede hacer que Responder incluya adjuntos.",
+          "refs": [
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Responder solo envía el nuevo mensaje al remitente original. Los datos adjuntos no están incluidos."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Responder a todos envía el nuevo mensaje al remitente original y a todos los demás destinatarios en las líneas Para y Cc."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Los datos adjuntos incluidos en el mensaje original se incluyen automáticamente al reenviar un mensaje."
+            },
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "No hay ninguna manera de cambiar este comportamiento."
+            }
+          ]
+        },
+        {
+          "text": "Varios mensajes no consecutivos: el primero y luego Ctrl mientras se seleccionan los demás.",
+          "refs": [
+            {
+              "ref": "Responder o reenviar",
+              "law": "Soporte Microsoft (Outlook: responder y reenviar)",
+              "url": "https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8",
+              "quote": "Seleccione el primer mensaje y mantenga presionada la tecla Ctrl mientras selecciona los mensajes adicionales."
+            }
+          ]
+        },
+        {
+          "text": "Reglas: mover, marcar y responder automáticamente. Desde un mensaje: clic derecho > Reglas > Crear regla. Desde plantilla: Archivo > Administrar reglas y alertas > Nueva regla.",
+          "refs": [
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Las reglas le permiten mover, marcar y responder a mensajes de correo electrónico automáticamente."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Haga clic con el botón derecho en un mensaje existente y seleccione Reglas > Crear regla."
+            },
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "Elija Archivo > Administrar reglas y alertas > Nueva regla."
+            }
+          ]
+        },
+        {
+          "text": "Para aplicar la regla a lo ya recibido: casilla «Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual».",
+          "refs": [
+            {
+              "ref": "Reglas en Outlook",
+              "law": "Soporte Microsoft (reglas de Outlook)",
+              "url": "https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41",
+              "quote": "active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual"
+            }
+          ]
+        },
+        {
+          "text": "Fuera de la oficina por reglas: plantilla guardada como Plantilla de Outlook (*.oft). Sin botón Respuestas automáticas, la cuenta no admite la característica.",
+          "refs": [
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "En la lista desplegable Guardar como tipo, seleccione Plantilla de Outlook (*.oft)."
+            },
+            {
+              "ref": "Fuera de la oficina",
+              "law": "Soporte Microsoft (Outlook: Fuera de la oficina)",
+              "url": "https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es",
+              "quote": "Si no tiene el botón Respuestas automáticas, su cuenta de correo electrónico no admite esta característica."
+            }
+          ]
+        },
+        {
+          "text": "Libreta de direcciones: en el lateral de la pestaña Inicio; con Exchange Server incluye la lista global de direcciones (LGD).",
+          "refs": [
+            {
+              "ref": "Crear una libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook clásico: crear libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook",
+              "quote": "La Libreta de direcciones está en el lateral de la pestaña Inicio."
+            },
+            {
+              "ref": "Libreta de direcciones",
+              "law": "Soporte Microsoft (Outlook: libreta de direcciones)",
+              "url": "https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook",
+              "quote": "Si usa Outlook con una cuenta de Exchange Server, la lista de libretas de direcciones incluirá la lista global de direcciones (LGD)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (Outlook: CCO) (https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows), Soporte Microsoft (Outlook: responder y reenviar) (https://support.microsoft.com/es-es/office/responder-o-reenviar-un-mensaje-de-correo-electr%C3%B3nico-a843f8d3-01b0-48da-96f5-a71f70d0d7c8), Soporte Microsoft (reglas de Outlook) (https://support.microsoft.com/es-es/office/configurar-reglas-en-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41), Soporte Microsoft (Outlook: Fuera de la oficina) (https://support.microsoft.com/es-es/outlook/use-rules-to-create-an-out-of-office-message-in-outlook?ad=es&omkt=es-es&rs=es-es&ui=es-es), Soporte Microsoft (Outlook: libreta de direcciones) (https://support.microsoft.com/es-es/outlook/open-and-use-the-address-book-in-outlook), Soporte Microsoft (Outlook clásico: crear libreta de direcciones) (https://support.microsoft.com/es-ES/Outlook/create-an-address-book-in-classic-outlook)"
 }
