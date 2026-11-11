@@ -138,7 +138,11 @@
     "demoCta": "Prova un psicotècnic gratis",
     "titleRich": "Prepara la teva oposició amb <mark>mètode</mark>, no a cegues",
     "audience": "Per a qui prepara oposicions a Espanya, en català o en castellà. Comença gratis, sense targeta.",
-    "trustItems": ["Sense targeta", "Fonts oficials citades", "Contingut revisat per persones"],
+    "trustItems": [
+      "Sense targeta",
+      "Fonts oficials citades",
+      "Contingut revisat per persones"
+    ],
     "sample": {
       "badge": "Prova-ho aquí",
       "title": "Així és un exercici",
@@ -157,7 +161,11 @@
       "title": "El teu progrés",
       "note": "Vista d'exemple",
       "accuracy": "Encerts de la setmana i avanç per bloc",
-      "rows": ["Temari", "Psicotècnics", "Simulacres"]
+      "rows": [
+        "Temari",
+        "Psicotècnics",
+        "Simulacres"
+      ]
     },
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
@@ -186,7 +194,11 @@
         "Sessions de psicotècnics",
         "Simulacre de la setmana"
       ],
-      "mock": ["Mateix temps", "Mateixa penalització", "Mateix nre. de preguntes"],
+      "mock": [
+        "Mateix temps",
+        "Mateixa penalització",
+        "Mateix nre. de preguntes"
+      ],
       "review": "Repassar"
     },
     "comingSoon": "Properament",
@@ -470,7 +482,37 @@
     "chartTotal": "{n} en 30 dies",
     "chartHint": "Passa el ratolí per una barra per veure el dia i la xifra. «Hi han entrat» compta cada persona una vegada al dia, tant si inicia sessió com si ja la tenia oberta. La suma de 30 dies pot comptar la mateixa persona en dies diferents.",
     "salesHint": "Les vendes, subscripcions i codis promocionals són a",
-    "salesLink": "Compres"
+    "salesLink": "Compres",
+    "funnel": {
+      "title": "Embut de conversió",
+      "period": "Període de l'embut",
+      "days": "{n} dies",
+      "intro": "Quanta gent passa de cada pas al següent. «Creen compte» es compara amb les visites, perquè no cal fer abans el test gratuït. Els passos 4 a 7 són dels comptes creats en aquest període.",
+      "rate": "{pct} % de «{base}»",
+      "drop": "Caiguda més gran",
+      "steps": {
+        "visits": "Visites",
+        "sample_start": "Comencen un test gratuït",
+        "sample_finish": "Acaben el test gratuït",
+        "signups": "Creen compte",
+        "onboarded": "Completen la benvinguda",
+        "practicing": "Practiquen",
+        "paying": "Paguen"
+      },
+      "hints": {
+        "visits": "Visites de persones (sense robots) al web públic.",
+        "sample_start": "Responen la primera pregunta del test gratuït sense registre.",
+        "sample_finish": "Arriben al resultat del test gratuït.",
+        "signups": "Comptes nous creats en el període.",
+        "onboarded": "D'aquests comptes, els que van triar oposició i van acabar la benvinguda.",
+        "practicing": "D'aquests comptes, els que han respost algun test, psicotècnic o simulacre.",
+        "paying": "D'aquests comptes, els que han pagat amb Stripe (no compta regals ni codis d'accés)."
+      },
+      "byExam": "Test gratuït per oposició",
+      "byExamValue": "{starts} comencen · {finishes} acaben",
+      "note": "El test gratuït es compta des de l'11/11/2026; abans d'aquesta data surt 0. Només són comptadors diaris: no es desa qui ha fet el test.",
+      "rateNone": "sense dades per comparar"
+    }
   },
   "profile": {
     "title": "El meu perfil",

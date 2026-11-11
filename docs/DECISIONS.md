@@ -359,3 +359,15 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 **Motivo:** estudiar sin temario era el bloqueo principal; los tests de 40 cansaban y no daban sensación de avance.
 **Consecuencias:** migración `20261110000200` y preview `69-`. Los apuntes de otras oposiciones se pueden añadir con el mismo formato. Huecos de fuentes señalados en el texto (p. ej. seguridad estática y dinámica en E14) quedan para revisión de joel.
 
+## ADR-047 · Embudo de conversión en el panel (2026-11-11)
+
+**Decisión:** la auditoría (ADR-044, punto 5) pedía ver dónde se pierde la gente. El panel `/admin` tiene ahora una sección «Embudo de conversión» con 7 pasos y periodo de 7 o 30 días (`?embudo=7|30`):
+
+1. Visitas (`traffic_daily`, sin robots).
+2. Empiezan el test gratis y 3. lo terminan: tabla nueva `funnel_daily (day, step, exam, hits)`, solo contadores diarios por oposición, sin IP, cookies ni usuario (como ADR-025, sin consentimiento). La escribe `track_funnel()` (solo `service_role`) desde la acción `trackSampleStepAction`, con límite de 40 pasos por IP cada 10 minutos. El reproductor la llama al responder la primera pregunta y al ver el resultado.
+3. Crean cuenta, 5. completan la bienvenida, 6. practican (sesión con alguna respuesta o simulacro) y 7. pagan (pedido pagado o suscripción con `provider = 'stripe'`; los regalos `none` no cuentan). Los pasos 4–7 son de la cohorte de cuentas creadas en el periodo, para que los porcentajes no pasen del 100 %.
+
+Cada paso muestra el % respecto al anterior, salvo «Crean cuenta», que se compara con las visitas porque registrarse no exige el test. Se marca la mayor caída y se listan las 10 oposiciones con más tests gratis. `admin_funnel(p_days)` es SECURITY DEFINER con `is_admin()`.
+
+**Motivo:** saber qué paso mejorar primero con datos y no a ojo.
+**Consecuencias:** migración `20261111000100` y preview `82-`. El test gratis solo se cuenta desde el despliegue; antes sale 0 (se avisa en el panel). Con varias instancias el límite por IP es por instancia (SEC-004).

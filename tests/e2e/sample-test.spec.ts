@@ -58,6 +58,7 @@ async function dropExam(slug: string) {
     await db.query("delete from public.products where slug = $1 || '-gratis'", [slug]);
     await db.query("delete from public.topics where slug = $1 || '-t1'", [slug]);
     await db.query("delete from public.exam_bodies where slug = $1", [slug]);
+    await db.query("delete from public.funnel_daily where exam = $1", [slug]);
     await db.query("commit");
   } finally {
     await db.end();
@@ -115,6 +116,22 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
       "href",
       `/registro?exam=${slug}`,
     );
+    // El embudo del panel cuenta que se empezó y se terminó (ADR-047), sin datos personales.
+    await expect
+      .poll(async () => {
+        const db = new pg.Client({ connectionString: DB_URL });
+        await db.connect();
+        try {
+          const { rows } = await db.query(
+            "select step, hits from public.funnel_daily where exam = $1 order by step",
+            [slug],
+          );
+          return rows.map((r) => `${r.step}:${r.hits}`).join(",");
+        } finally {
+          await db.end();
+        }
+      })
+      .toBe("sample_finish:1,sample_start:1");
   });
 
   test("«Preparar esta oposición» lleva al visitante a crear la cuenta con la oposición elegida", async ({

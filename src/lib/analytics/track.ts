@@ -46,3 +46,26 @@ export async function recordHit(hit: TrafficHit): Promise<void> {
     // La analítica nunca debe afectar a la navegación.
   }
 }
+
+export type FunnelStep = "sample_start" | "sample_finish";
+
+/**
+ * Suma un paso del embudo del test gratis en funnel_daily (ADR-047). Mismas
+ * garantías que recordHit: sin datos personales, nunca lanza ni bloquea.
+ */
+export async function recordFunnelStep(step: FunnelStep, exam: string): Promise<void> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key || process.env.TRAFFIC_ANALYTICS === "off") return;
+  try {
+    await fetch(`${url}/rest/v1/rpc/track_funnel`, {
+      method: "POST",
+      headers: { apikey: key, authorization: `Bearer ${key}`, "content-type": "application/json" },
+      body: JSON.stringify({ p_step: step, p_exam: exam }),
+      signal: AbortSignal.timeout(2000),
+      cache: "no-store",
+    });
+  } catch {
+    // La analítica nunca debe afectar al test.
+  }
+}
