@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-dgt_seguridad-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Dirección General de Tráfico · Muévete con seguridad (ADAS, clasificación de seguridad de vehículos, cinturón, moto, seguridad vial laboral, fatiga, distracciones, conducción preventiva, frenado, coche, velocidad)",
+      "url": "https://www.dgt.es/muevete-con-seguridad/",
+      "kind": "web_oficial",
+      "publisher": "Dirección General de Tráfico (web oficial dgt.es)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 98, tema P44) · DGT, «En moto» (revisión de la moto)",
+      "stem": "Según la DGT, antes de montar en moto hay que controlar con frecuencia la presión de los neumáticos porque una presión inadecuada puede provocar:",
+      "options": [
+        "Únicamente un mayor consumo de combustible.",
+        "La salida de la carretera por falta de adherencia.",
+        "El bloqueo automático del sistema ABS."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La DGT recomienda revisar el estado de la moto y la presión de los neumáticos, pues una presión inadecuada reduce la adherencia.",
+      "excerpt": "controlar la presión de los neumáticos con bastante frecuencia, una presión inadecuada puede provocar la salida de la carretera por falta de adherencia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 99, tema P45) · DGT, «Distracciones al volante»",
+      "stem": "Según la DGT, entre los factores externos que facilitan que el conductor pierda la atención se encuentran:",
+      "options": [
+        "Las vías muy familiares o monótonas y una señalización excesiva.",
+        "Solo el uso del teléfono móvil.",
+        "Únicamente las condiciones meteorológicas adversas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DGT cita como factores externos las vías familiares o monótonas, la señalización excesiva, la publicidad, el móvil o los accidentes; entre los personales, el sueño, la fatiga, el alcohol y las drogas.",
+      "excerpt": "Hay factores externos que facilitan que el conductor pierda su atención, por ejemplo: las vías que nos son muy familiares o que nos resultan monótonas, pues estas hacen que bajemos la guardia y no prestemos atención, una señalización excesiva",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 100, tema P45) · DGT, «Conducir con exceso de velocidad» (distancia de frenado)",
+      "stem": "Según la DGT, además de la velocidad, la distancia de frenado se ve afectada, entre otros factores, por:",
+      "options": [
+        "El tiempo de reacción del conductor exclusivamente.",
+        "El color y la antigüedad del vehículo.",
+        "La masa del vehículo, la carga que se lleve y su colocación."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La distancia de frenado (desde que se pisa el freno hasta que el vehículo se detiene) depende de la masa y la carga, del estado de frenos, neumáticos y amortiguadores, de las ayudas electrónicas y de la vía y el entorno; el tiempo de reacción determina la distancia de reacción.",
+      "excerpt": "La distancia de frenado es aquella que recorre el vehículo desde que pisas el pedal del freno hasta que se detiene el vehículo. Está determinada principalmente por la velocidad a la que circulas, pero también se ve afectada por: La masa del vehículo, la carga que lleves y su colocación.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

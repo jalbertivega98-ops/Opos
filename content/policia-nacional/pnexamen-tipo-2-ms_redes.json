@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-ms_redes-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Modelo OSI, direccionamiento TCP/IP y subredes, DHCP, DNS, IPv6 y Firewall de Windows",
+      "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 86, tema P39) · Microsoft, direccionamiento TCP/IP: clase A",
+      "stem": "Según la documentación de Microsoft sobre direccionamiento TCP/IP, las redes de clase A usan una máscara de subred predeterminada de:",
+      "options": [
+        "255.255.0.0",
+        "255.255.255.0",
+        "255.0.0.0"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Las redes de clase A usan la máscara 255.0.0.0 y tienen de 0 a 127 como primer octeto; las de clase B, 255.255.0.0; y las de clase C, 255.255.255.0.",
+      "excerpt": "Las redes de clase A usan una máscara de subred predeterminada de 255.0.0.0 y tienen de 0 a 127 como su primer octeto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 87, tema P39) · Microsoft, IPv6 en Windows",
+      "stem": "Según Microsoft, para dar preferencia a IPv4 en Windows, en lugar de deshabilitar IPv6 se recomienda:",
+      "options": [
+        "Desinstalar el protocolo IPv6 del adaptador de red.",
+        "Usar «Prefer IPv4 sobre IPv6» en las directivas de prefijo.",
+        "Asignar a cada equipo una dirección IPv4 de clase A."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft recuerda que IPv6 es parte obligatoria de Windows desde Windows Vista y Windows Server 2008, y recomienda preferir IPv4 mediante las directivas de prefijo en lugar de deshabilitar IPv6.",
+      "excerpt": "El protocolo de Internet versión 6 (IPv6) es una parte obligatoria de Windows Vista, Windows Server 2008 y de versiones posteriores. […] Se recomienda usar Prefer IPv4 sobre IPv6 en las directivas de prefijo en lugar de deshabilitar IPV6.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

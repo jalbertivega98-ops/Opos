@@ -6,7 +6,7 @@ import { psychoGuides } from "@/lib/seo/psycho-guides";
 
 /**
  * Pie común. Enlaza todas las fichas de oposición y todos los tipos de
- * psicotécnico (ADR-045): así cada página pública recibe enlaces internos
+ * psicotécnico (ADR-050): así cada página pública recibe enlaces internos
  * desde toda la web y los buscadores las descubren y valoran antes.
  */
 export async function SiteFooter() {

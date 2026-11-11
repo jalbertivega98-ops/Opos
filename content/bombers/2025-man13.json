@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man13-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.009 Manual operatiu bàsic sobre hidràulica i bombes (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 7) · MAN.GRAL.009, § 3.3",
+      "stem": "Una cisalla hidràulica de rescat multiplica la força gràcies a un circuit tancat ple d'oli amb èmbols de seccions diferents. En quin principi físic es basa?",
+      "options": [
+        "En el principi d'Arquímedes.",
+        "En l'efecte Venturi.",
+        "En el teorema de Torricelli.",
+        "En el principi de Pascal."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La pressió aplicada en un punt del líquid tancat es transmet igual a tot el líquid; amb un èmbol de més superfície s'obté més força (F = P · S).",
+      "excerpt": "Segons el principi de Pascal, \"La pressió exercida en un punt qualsevol d’un líquid tancat i en repòs es transmet amb la mateixa intensitat i en totes les direccions a tots els punts del líquid i a les parets del recipient que el conté.\" […] Un gat hidràulic és una màquina basada en principi de Pascal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 35) · MAN.GRAL.009, § 4.4",
+      "stem": "En una instal·lació llarga de mànegues, quina d'aquestes accions redueix més les pèrdues de càrrega i, per tant, en millora més el rendiment hidràulic?",
+      "options": [
+        "Augmentar el cabal que hi circula.",
+        "Augmentar el diàmetre de les mànegues.",
+        "Afegir més trams de mànega a la instal·lació.",
+        "Intercalar bifurcacions en T."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Les pèrdues de càrrega són inversament proporcionals a la cinquena potència del diàmetre; en canvi, creixen amb la longitud i amb el quadrat del cabal, i les T en provoquen de singulars.",
+      "excerpt": "Són inversament proporcionals a la 5ena potència del diàmetre, és a dir, augmentar una mica el diàmetre pot representar una disminució notable de les pèrdues de càrrega lineals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 83) · MAN.GRAL.009, § 2.3",
+      "stem": "Sobre la pressió de vapor d'un líquid, indica l'afirmació INCORRECTA:",
+      "options": [
+        "Cada líquid té la seva pròpia pressió de vapor.",
+        "Disminueix a mesura que puja la temperatura.",
+        "Un líquid bull quan la seva pressió de vapor s'iguala a la pressió de l'ambient.",
+        "A dalt d'una muntanya l'aigua bull per sota de 100 °C perquè la pressió atmosfèrica és més baixa."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La pressió de vapor augmenta amb la temperatura.",
+      "excerpt": "Cada líquid té la seva pròpia pressió de vapor que augmenta a mesura que la temperatura puja. El punt d'ebullició d'un líquid és la temperatura a la qual la seva pressió de vapor s'iguala a la pressió de l'ambient que l'envolta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 84) · MAN.GRAL.009, § 4.5.1",
+      "stem": "Segons l'efecte Venturi, què passa quan un fluid circula per un conducte tancat que s'estreny?",
+      "options": [
+        "A l'estretament disminueix la velocitat i augmenta la pressió.",
+        "A l'estretament augmenten tant la velocitat com la pressió.",
+        "A l'estretament augmenta la velocitat i disminueix la pressió.",
+        "A l'estretament disminueix el cabal."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Per continuïtat el cabal es manté i la velocitat creix; per Bernoulli, el que es guanya en pressió dinàmica es perd en pressió estàtica. Els premescladors d'escumogen en línia en són una aplicació.",
+      "excerpt": "L'efecte Venturi és un fenomen físic que es produeix quan un fluid circula per un conducte tancat que s’estreny, disminueix la seva pressió ja que augmenta la velocitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 87) · MAN.GRAL.009, § 3.1.1",
+      "stem": "Quina d'aquestes pressions és la més gran?",
+      "options": [
+        "150.000 Pa.",
+        "1 atm.",
+        "2 bar.",
+        "1.000 mmHg."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "2 bar = 200.000 Pa; 1 atm = 101.325 Pa; 1.000 mmHg × 133,3 Pa = 133.300 Pa.",
+      "excerpt": "1 bar 100.000 Pa 1 atmosfera (atm) 101.325 Pa = 1,013 bar […] 1 mmHg (mil·límetres de mercuri) 133,3 Pa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 92) · MAN.GRAL.009, § 4.2.1",
+      "stem": "Has de buidar un dipòsit obert que conté 18 m³ d'aigua amb una bomba que extreu un cabal constant de 1.200 l/min. Quant de temps trigaràs?",
+      "options": [
+        "15 minuts.",
+        "1,5 minuts.",
+        "150 minuts.",
+        "66,7 minuts."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Q = V / t → t = V / Q = 18.000 l / 1.200 l/min = 15 min.",
+      "excerpt": "Fa referència a la quantitat d’aigua que travessa una secció (S) d’una conducció en un temps determinat.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

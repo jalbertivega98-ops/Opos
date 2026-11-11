@@ -80,5 +80,723 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "El escritorio de Windows 11 y la barra de tareas",
+      "blocks": [
+        {
+          "text": "El escritorio es el área de trabajo inicial. Por defecto solo muestra la Papelera de reciclaje (almacén temporal de lo eliminado); Este equipo o Red se añaden desde Configuración del icono de escritorio. Con botón derecho en un área vacía > Ver se eligen iconos grandes, medianos o pequeños o se desactiva Mostrar iconos del escritorio; Ctrl + rueda del ratón también cambia su tamaño.",
+          "refs": [
+            {
+              "ref": "Iconos del escritorio",
+              "law": "Soporte Microsoft (Windows, iconos del escritorio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-desktop-icons-in-windows",
+              "quote": "De forma predeterminada, Windows incluye el icono de la papelera de reciclaje en el escritorio. […] Este equipo: proporciona acceso a las unidades del equipo y a los dispositivos conectados. […] Papelera de reciclaje: donde se almacenan temporalmente los archivos eliminados. […] Red: le permite ver los recursos de red y conectarse a ellos. […] Selecciona Configuración del icono de escritorio."
+            },
+            {
+              "ref": "Iconos del escritorio",
+              "law": "Soporte Microsoft (Windows, iconos del escritorio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-desktop-icons-in-windows",
+              "quote": "Selecciona Ver y elige entre iconos grandes, medianos o pequeños para ajustar su tamaño. […] En el escritorio, mantenga presionada la tecla Ctrl mientras se desplaza por la rueda para aumentar o reducir el tamaño de los iconos. […] Selecciona Ver y después desactiva Mostrar iconos del escritorio. […] Haga clic con el botón derecho en un área vacía del escritorio."
+            }
+          ]
+        },
+        {
+          "text": "La barra de tareas sirve para iniciar aplicaciones, cambiar de ventana y acceder a notificaciones, búsqueda e Inicio. Sus seis componentes son: Widgets, Inicio, Buscar, Vista de tareas, Aplicaciones y Bandeja del sistema. Por defecto está centrada y solo puede alinearse al centro o a la izquierda: no hay opción para moverla arriba o a un lateral; siempre va abajo.",
+          "refs": [
+            {
+              "ref": "Barra de tareas",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "La barra de tareas de Windows es una parte central del sistema operativo Windows que te ayuda a iniciar aplicaciones, cambiar entre ventanas abiertas y acceder a características del sistema como notificaciones, búsqueda y el menú Inicio. […] 1. Widgets 2. Inicio 3. Buscar 4. Vista de tareas 5. Aplicaciones 6. Bandeja del sistema […] De manera predeterminada, la barra de tareas está centrada en Windows 11."
+            },
+            {
+              "ref": "Alineación",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "La configuración de la barra de tareas te permite alinear los iconos de la barra de tareas en el centro o a la izquierda. No hay ninguna configuración para mover una barra de tareas a la parte superior o lateral de la pantalla. La barra de tareas se coloca en la parte inferior de la pantalla."
+            }
+          ]
+        },
+        {
+          "text": "Las aplicaciones abiertas llevan una línea bajo su icono y la activa se resalta con el color de énfasis. El botón derecho sobre un icono abre su lista de accesos directos (por ejemplo, un archivo reciente) y la opción Desanclar de la barra de tareas. Un distintivo es una alerta de actividad en curso o pendiente en esa aplicación. Puede ocultarse automáticamente o mostrarse en todas las pantallas.",
+          "refs": [
+            {
+              "ref": "Aplicaciones",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "Las aplicaciones en ejecución se muestran en la barra de tareas con una línea debajo del icono para indicar que están abiertas. La aplicación activa actualmente se resalta con el color de énfasis de Windows"
+            },
+            {
+              "ref": "Lista de accesos directos y desanclar",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "Para desanclar una aplicación, haz clic con el botón derecho en el icono anclado en la barra de tareas y, a continuación, selecciona Desanclar de la barra de tareas . […] Cada aplicación de la barra de tareas ofrece una lista de accesos directos, que le permite realizar rápidamente determinadas tareas, como abrir un archivo reciente o acceder a características usadas con frecuencia. Para acceder a la lista de accesos directos, simplemente haga clic con el botón derecho en el icono de la aplicación."
+            },
+            {
+              "ref": "Distintivos y comportamientos",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "Un distintivo en un botón de la barra de tareas es una alerta para informarte de que se está realizando alguna actividad o es necesario que se realice con esa aplicación. […] Para ver la barra de tareas después de que esté oculta, pase el mouse sobre el borde inferior de la pantalla o toque. […] Cuando la opción está habilitada, la barra de tareas aparece en todas las pantallas conectadas"
+            }
+          ]
+        },
+        {
+          "text": "En el extremo lateral de la barra, el área Mostrar el escritorio minimiza todas las ventanas; al seleccionarla otra vez se restauran. Con teclado: Windows + D muestra y oculta el escritorio, Windows + M minimiza todo, Windows + Mayús + M restaura y Windows + coma (,) ojea el escritorio.",
+          "refs": [
+            {
+              "ref": "Mostrar el escritorio",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "Esta pequeña área situada en el lateral de la barra de tareas es útil para acceder rápidamente al escritorio minimizando todas las ventanas abiertas. Solo tienes que seleccionar esta área para acceder al escritorio. Selecciónala de nuevo para restaurar las ventanas abiertas a su estado anterior."
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + D | Mostrar y ocultar el escritorio. […] Tecla Windows + M | Minimizar todas las ventanas. […] Tecla Windows + Mayús + M | Restaurar las ventanas minimizadas. […] Tecla Windows + coma (,) | Ojear temporalmente el escritorio."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Widgets, Buscar, bandeja del sistema y notificaciones",
+      "blocks": [
+        {
+          "text": "Los widgets muestran contenido dinámico; su panel se abre con el botón Widgets o con Windows + W. Windows Search (Windows + S) busca archivos, aplicaciones, configuraciones y resultados web. El área de búsqueda de la barra admite cuatro opciones: Cuadro de búsqueda, Icono y etiqueta de búsqueda, Solo el icono de búsqueda u Ocultar; no hay opción para situarla en otra parte del escritorio.",
+          "refs": [
+            {
+              "ref": "Widgets",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "Los widgets son elementos interactivos que muestran contenido dinámico y proporcionan acceso rápido a diversas aplicaciones y características. […] Mantenga el mouse sobre el botón Widgets de la barra de tareas o selecciónelo […] Presionar la tecla + Windows W"
+            },
+            {
+              "ref": "Buscar",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "Windows Search es una potente característica que le permite encontrar archivos, aplicaciones, configuraciones e incluso resultados web directamente desde el escritorio. […] Presione la tecla + S de Windows para abrir el cuadro de búsqueda […] Cuadro de búsqueda: muestra un cuadro de texto completo para escribir la búsqueda […] Icono y etiqueta de búsqueda: muestra un icono de búsqueda junto con la etiqueta \"Buscar\" […] Solo el icono de búsqueda: muestra solo el icono de búsqueda […] Ocultar: quita la característica de búsqueda de la barra de tareas"
+            }
+          ]
+        },
+        {
+          "text": "La bandeja del sistema incluye indicadores de privacidad dinámicos que informan en tiempo real del acceso a la ubicación, el micrófono y la cámara. En Otros iconos de la bandeja del sistema se decide si se habilita el menú de iconos ocultos, también llamado área de desbordamiento, y qué iconos aparecen. El reloj puede mostrar segundos con la opción Mostrar segundos en el reloj de la bandeja del sistema, que Windows advierte que usa más energía.",
+          "refs": [
+            {
+              "ref": "Bandeja del sistema",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "la bandeja del sistema cuenta con indicadores de privacidad dinámicos que muestran información en tiempo real sobre la ubicación, el micrófono y el acceso a la cámara […] En Otros iconos de la bandeja del sistema, seleccione si desea habilitar el menú de iconos ocultos (también denominado área de desbordamiento) y qué iconos pueden aparecer en la bandeja del sistema […] Mostrar segundos en el reloj de la bandeja del sistema (usa más energía)"
+            }
+          ]
+        },
+        {
+          "text": "La Configuración rápida permite cambiar sin recorrer menús los ajustes más usados: volumen, brillo, red Wi-Fi o herramientas de accesibilidad. Se abre seleccionando su área en la barra o con Windows + A. Ojo: la página de atajos de Microsoft describe Windows + A como «Centro de actividades», denominación de versiones anteriores; la página de la barra de tareas de Windows 11 la asocia a la Configuración rápida.",
+          "refs": [
+            {
+              "ref": "Configuración rápida",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "La configuración rápida proporciona una manera cómoda de acceder a la configuración usada con frecuencia y modificarla sin tener que navegar por los menús. Por ejemplo, puedes ajustar rápidamente el volumen, cambiar el brillo de la pantalla, cambiar Wi-Fi redes o activar las herramientas de accesibilidad. […] Presione la tecla + A de Windows"
+            },
+            {
+              "ref": "Windows + A",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + A | Abra el Centro de actividades de Windows 11."
+            }
+          ]
+        },
+        {
+          "text": "Las notificaciones aparecen como banners y se guardan en el centro de notificaciones, que se abre con el calendario desde el reloj o la campana (que se ilumina si hay novedades) o con Windows + N; Borrar todo las quita. En Configuración > Sistema > Notificaciones, por aplicación: Ocultar contenido cuando las notificaciones están en la pantalla de bloqueo, y prioridad Superior, Alta o Normal, con una sola aplicación como máxima prioridad.",
+          "refs": [
+            {
+              "ref": "Centro de notificaciones",
+              "law": "Soporte Microsoft (notificaciones)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/notifications-and-do-not-disturb-in-windows",
+              "quote": "Cuando tenga notificaciones nuevas, se iluminará el icono de campana de notificación de la barra de tareas. […] Presione la tecla + de Windows N […] Selecciona el botón Borrar todo para quitar todas las notificaciones del centro de notificaciones"
+            },
+            {
+              "ref": "Configuración por aplicación",
+              "law": "Soporte Microsoft (notificaciones)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/notifications-and-do-not-disturb-in-windows",
+              "quote": "Ocultar contenido cuando las notificaciones están en la pantalla de bloqueo: evitar que se muestren notificaciones confidenciales en la pantalla de bloqueo […] Prioridad de las notificaciones: establezca la prioridad en Superior, Alta o Normal. Solo se puede establecer una aplicación como de máxima prioridad"
+            },
+            {
+              "ref": "Windows + N",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + N | Abrir el centro de notificaciones y el calendario."
+            }
+          ]
+        },
+        {
+          "text": "No molestar se activa a mano en el centro de notificaciones con la campana «zZ» y dura hasta desactivarlo. Mientras está activo solo llegan banners de alarmas, recordatorios y aplicaciones elegidas; el resto va directamente al centro de notificaciones. Puede activarse automáticamente durante cierta hora del día, al duplicar la pantalla, al jugar, con una aplicación en pantalla completa o durante la primera hora tras una actualización de características de Windows.",
+          "refs": [
+            {
+              "ref": "No molestar",
+              "law": "Soporte Microsoft (notificaciones)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/notifications-and-do-not-disturb-in-windows",
+              "quote": "Para activar manualmente la opción No molestar, abre el centro de notificaciones y selecciona el icono de campana con zZ . Esto silenciará todas las notificaciones hasta que lo desactives manualmente. […] Con No molestar activado, solo recibirá banners de alarmas, recordatorios y aplicaciones de su elección. Otras notificaciones se envían directamente al centro de notificaciones hasta que lo desactives."
+            },
+            {
+              "ref": "Activación automática",
+              "law": "Soporte Microsoft (notificaciones)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/notifications-and-do-not-disturb-in-windows",
+              "quote": "Durante cierta hora del día […] Al duplicar la pantalla […] Al jugar a un juego […] Cuando se usa una aplicación en modo de pantalla completa […] Durante la primera hora después de una actualización de características de Windows"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "El menú Inicio: anclar, reorganizar y crear carpetas",
+      "blocks": [
+        {
+          "text": "El menú Inicio se abre o se cierra con la tecla Windows (también Ctrl + Esc lo abre). Permite buscar escribiendo palabras clave, muestra la lista alfabética de todas las aplicaciones, las añadidas recientemente, las más usadas y los archivos recientes, y su botón de encendido sirve para bloquear, suspender, apagar o reiniciar. Se organiza en secciones de aplicaciones ancladas, todas y recomendadas. No se puede quitar de la barra de tareas.",
+          "refs": [
+            {
+              "ref": "Estructura",
+              "law": "Soporte Microsoft (menú Inicio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu",
+              "quote": "encuentra rápidamente aplicaciones, archivos y configuraciones escribiendo palabras clave […] muestra una lista alfabética de todas las aplicaciones instaladas […] aplicaciones agregadas recientemente y usadas con frecuencia, además de archivos abiertos recientemente […] el botón de encendido te permite bloquear, suspender, apagar o reiniciar tu dispositivo"
+            },
+            {
+              "ref": "Secciones",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "El menú Inicio está dividido en varias secciones, incluidas las aplicaciones ancladas, todas y recomendadas […] Aunque no puedes quitar el menú Inicio de la barra de tareas"
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows | Abrir o cerrar el menú Inicio. […] Ctrl+Esc | Abre el menú Inicio."
+            }
+          ]
+        },
+        {
+          "text": "Hay varias maneras de anclar aplicaciones o accesos directos; para quitar uno se hace clic con el botón derecho sobre él. Las chinchetas pueden reordenarse arrastrándolas. Para crear una carpeta, se arrastra un elemento anclado sobre otro. Para sacar un elemento de la carpeta, se abre y se arrastra fuera; cuando en la carpeta solo queda uno, la carpeta desaparece del menú.",
+          "refs": [
+            {
+              "ref": "Anclar y agrupar",
+              "law": "Soporte Microsoft (menú Inicio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu",
+              "quote": "Hay diferentes maneras de anclar aplicaciones o accesos directos al menú Inicio. […] Para quitar una aplicación anclada o un acceso directo del menú Inicio, haga clic con el botón derecho en él […] Para crear una carpeta, arrastre un elemento anclado sobre otro para crear una carpeta. […] Para quitar una chincheta de una carpeta, ábrela y arrastra la chincheta fuera de ella […] Cuando solo queda un pin, la carpeta se quita del menú Inicio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Alineación y configuración del menú Inicio",
+      "blocks": [
+        {
+          "text": "Normalmente Inicio está centrado, pero puede alinearse al lado de la barra: botón derecho en la barra de tareas > Configuración de la barra de tareas, y elegir la alineación. Las secciones Anclados y Todas recuerdan la última vista; si se desancla todo o se desactivan los recomendados, se contraen. Junto al botón de encendido pueden añadirse carpetas activando sus conmutadores.",
+          "refs": [
+            {
+              "ref": "Alineación",
+              "law": "Soporte Microsoft (menú Inicio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu",
+              "quote": "Normalmente, el menú Inicio está centrado, pero puede cambiar la alineación al lado de la barra de tareas. […] Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas […] seleccione la opción que desee para alinear la barra de tareas"
+            },
+            {
+              "ref": "Diseño y carpetas",
+              "law": "Soporte Microsoft (menú Inicio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu",
+              "quote": "Las secciones Anclados y Todas recuerdan la última vista utilizada. […] Si los usuarios desanclan todo o desactivan todos los proveedores recomendados en Configuración […] esas secciones se contraen y los usuarios no las verán. […] Puedes elegir qué carpetas aparecen junto al botón de encendido en el menú Inicio. […] Solo tiene que alternar los conmutadores de las carpetas que desea agregar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Ventanas: abrir, cambiar y cerrar. Alt + Tab y la Vista de tareas",
+      "blocks": [
+        {
+          "text": "Con Alt + Tab aparecen miniaturas de las aplicaciones abiertas: cada pulsación de Tab avanza una y, al soltar Alt, la elegida pasa a primer plano. Alt + Esc recorre las ventanas por orden de apertura. La Vista de tareas (Windows + Tab o su botón) es similar pero más completa: muestra todas las ventanas y escritorios, y un clic trae la ventana al frente.",
+          "refs": [
+            {
+              "ref": "Alt + Tab",
+              "law": "Soporte Microsoft (multitarea en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows",
+              "quote": "Para usar esta característica, presione Alt + Tab en el teclado y, después, suelte la tecla Tab. […] Cada vez que presiona la tecla TAB se mueve la selección a la siguiente aplicación. […] Una vez que suelte la tecla Alt, la aplicación seleccionada pasará al primer plano. […] Aparecerá una ventana en la que se muestran miniaturas de todas las aplicaciones abiertas actualmente."
+            },
+            {
+              "ref": "Vista de tareas",
+              "law": "Soporte Microsoft (multitarea en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows",
+              "quote": "La Vista de tareas proporciona información general sobre todas las ventanas abiertas y varios escritorios. […] Esta característica es similar a Alt + Tab, pero ofrece una vista más completa. […] En la Vista de tareas, puedes hacer clic en cualquier ventana para ponerla en primer plano"
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + Tab | Abrir la Vista de tareas. […] Alt+Esc | Desplazarse por las ventanas en el orden en que se abrieron."
+            }
+          ]
+        },
+        {
+          "text": "Para cerrar, Alt + F4 cierra la ventana activa y, si no hay ninguna abierta, solicita el cierre del sistema; Ctrl + F4 cierra solo el documento activo, no toda la aplicación. F5 actualiza la ventana activa. Windows + Inicio minimiza o restaura todas las ventanas salvo la activa, y Windows + Mayús + Flecha izquierda lleva la ventana activa al monitor de la izquierda.",
+          "refs": [
+            {
+              "ref": "Cerrar y gestionar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+F4 | Cerrar la ventana activa. Si no hay ventanas abiertas, solicite el cierre. […] F5 | Actualizar la ventana activa. […] Ctrl+F4 | […] cierre el documento activo, pero no toda la aplicación."
+            },
+            {
+              "ref": "Tecla Windows",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + Inicio | Minimizar o restaurar todas las ventanas excepto la activa. […] Tecla Windows + Mayús + Flecha izquierda | Mueva la ventana activa al monitor de la izquierda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Acoplar ventanas y grupos de acoplamiento",
+      "blocks": [
+        {
+          "text": "Acoplar (Snap) organiza varias ventanas en la pantalla. Arrastrar una ventana al borde izquierdo o derecho la acopla a ese lado, y arrastrarla a la parte superior la expande verticalmente; con teclado, Windows + Flecha izquierda o derecha la acopla a ese lado y Windows + Alt + Flecha abajo a la mitad inferior. Al acoplar una ventana se activa el Asistente para acoplar, que muestra miniaturas de las demás para completar el diseño.",
+          "refs": [
+            {
+              "ref": "Acoplar",
+              "law": "Soporte Microsoft (acoplar ventanas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+              "quote": "arrastre una ventana al borde izquierdo o derecho de la pantalla para acoplarla a ese lado. […] arrastra una ventana a la parte superior de la pantalla para expandirla verticalmente […] se activa el Asistente de ajuste, lo que le permite completar el resto del diseño"
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + Flecha izquierda | Acoplar la ventana al lado izquierdo de la pantalla. […] Tecla Windows + Flecha derecha | Acoplar la ventana al lado derecho de la pantalla. […] Tecla Windows + Alt + Flecha abajo | Acoplar la ventana activa a la mitad inferior de la pantalla."
+            }
+          ]
+        },
+        {
+          "text": "El control flotante Acoplar, con los diseños de acoplamiento predeterminados, aparece al mantener el puntero sobre el botón Maximizar (o restaurar) de una ventana; los diseños disponibles dependen del tamaño de la pantalla. La barra de acoplamiento aparece al arrastrar una ventana hacia la parte superior de la pantalla.",
+          "refs": [
+            {
+              "ref": "Control flotante y barra",
+              "law": "Soporte Microsoft (acoplar ventanas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+              "quote": "El control flotante Acoplar aparece al mantener el puntero sobre el botón Maximizar en una ventana. […] La característica Acoplar de Windows ofrece diseños predeterminados entre los que puedes elegir para organizar todas las ventanas abiertas. […] Según el tamaño de la pantalla, es posible que veas diferentes diseños predeterminados. […] La barra de acoplamiento aparece cuando arrastra una ventana a la parte superior de la pantalla."
+            }
+          ]
+        },
+        {
+          "text": "Los grupos de acoplamiento son colecciones de ventanas acopladas; se crean automáticamente al acoplar varias ventanas y se recuperan manteniendo el puntero sobre el icono de una de sus aplicaciones en la barra de tareas. La función se activa o desactiva en Configuración > Sistema > Multitarea, con el botón de alternancia Ajustar ventanas.",
+          "refs": [
+            {
+              "ref": "Grupos y configuración",
+              "law": "Soporte Microsoft (acoplar ventanas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+              "quote": "Los grupos de acoplamiento son colecciones de ventanas que se han acoplado […] Se crean automáticamente al acoplar varias ventanas […] mantenga el puntero sobre cualquier icono de aplicación en la barra de tareas […] Multitarea del sistema […] Use el botón de alternancia Ajustar ventanas para activar o desactivar Acoplar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Escritorios virtuales",
+      "blocks": [
+        {
+          "text": "Cada escritorio virtual tiene sus propias aplicaciones abiertas. Windows + Ctrl + D crea uno, Windows + Ctrl + Flecha derecha o izquierda cambia de escritorio y Windows + Ctrl + F4 cierra el actual; sus aplicaciones pasan al siguiente escritorio disponible. En la Vista de tareas, una ventana se mueve arrastrándola a otra miniatura o con Mover a.",
+          "refs": [
+            {
+              "ref": "Escritorios",
+              "law": "Soporte Microsoft (multitarea en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows",
+              "quote": "Cada escritorio puede tener su propio conjunto de aplicaciones abiertas […] Las aplicaciones abiertas en el escritorio cerrado se moverán al siguiente escritorio disponible. […] Usar la vista de tareas, que muestra las miniaturas de los escritorios actuales. […] Seleccione y arrastre la ventana a la miniatura del escritorio deseada […] Seleccione Mover a y elija el escritorio al que quiere mover la aplicación"
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + Ctrl + D | Crear otro escritorio. […] Tecla Windows + Ctrl + Flecha derecha | Alternar entre otros escritorios que has creado a la derecha. […] Tecla Windows +Ctrl+F4 | Cerrar el escritorio que estás usando."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Menús contextuales y cuadros de diálogo",
+      "blocks": [
+        {
+          "text": "El menú contextual reúne las acciones disponibles para un elemento y se abre con el botón derecho. Con teclado, Alt + Barra espaciadora abre el menú contextual de la ventana activa (el de la propia ventana) y, sobre un icono de la barra de tareas, Mayús + clic derecho muestra el menú de la ventana de la aplicación. Por ejemplo, el botón derecho en un área vacía del escritorio da acceso a Ver.",
+          "refs": [
+            {
+              "ref": "Menú de la ventana",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+Barra espaciadora | Abrir el menú contextual de la ventana activa. […] Mayús+clic con el botón derecho en un icono de aplicación en la barra de tareas | Mostrar el menú de la ventana de la aplicación."
+            },
+            {
+              "ref": "Escritorio",
+              "law": "Soporte Microsoft (Windows, iconos del escritorio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-desktop-icons-in-windows",
+              "quote": "Haga clic con el botón derecho en un área vacía del escritorio."
+            }
+          ]
+        },
+        {
+          "text": "En los cuadros de diálogo, Tab y Mayús + Tab avanzan y retroceden por las opciones, y Ctrl + Tab y Ctrl + Mayús + Tab por las pestañas. Alt + letra subrayada ejecuta esa opción. Una casilla se activa o desactiva con la Barra espaciadora y un botón de opción se elige con las teclas de dirección. F4 despliega la lista activa y Retroceso sube de carpeta en Guardar como o Abrir.",
+          "refs": [
+            {
+              "ref": "Cuadros de diálogo",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "F4 | Mostrar los elementos de la lista activa. […] Ctrl+Tab | Avanzar a través de las pestañas. […] Ctrl+Mayús+Tab | Retroceder a través de las pestañas. […] Ctrl+1, 2, 3,... | Desplazarse a ese número de tabulación. […] TAB | Avanzar por las opciones. […] Mayús+Tab | Retroceder por las opciones."
+            },
+            {
+              "ref": "Cuadros de diálogo",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+letra subrayada | Ejecutar el comando (o seleccionar la opción) que se usa con la letra. […] Barra espaciadora | Si la opción activa es una casilla, activarla o desactivarla. […] Retroceso | Abrir una carpeta de un nivel superior si hay una carpeta seleccionada en el cuadro de diálogo Guardar como o Abrir. […] Teclas de dirección | Si la opción activa es un grupo de botones de opción, seleccionar un botón."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Métodos abreviados con la tecla Windows y generales",
+      "blocks": [
+        {
+          "text": "Los atajos con la tecla Windows más preguntados son: Windows + E (Explorador de archivos), Windows + I (Configuración), Windows + L (bloquear el equipo), Windows + R (cuadro Ejecutar), Windows + Q (búsqueda), Windows + H (dictado por voz), Windows + K (Transmitir a una pantalla), Windows + P (modo de presentación), Windows + punto o punto y coma (panel de emojis), Windows + Pausa (Sistema > Acerca de) y Windows + Ctrl + Entrar (Narrador).",
+          "refs": [
+            {
+              "ref": "Tecla Windows",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + E | Abre el Explorador de archivos. […] Tecla Windows + H | Abra el dictado por voz. […] Tecla Windows + I | Abrir configuración. […] Tecla Windows + K | Abrir Transmitir desde Configuración rápida para conectarse a una pantalla. […] Tecla Windows + L | Bloquee el equipo."
+            },
+            {
+              "ref": "Tecla Windows",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + P | Abra la configuración del proyecto para elegir un modo de presentación. […] Tecla Windows + Punto (.) / punto y coma (;) | Abrir el panel de emojis. […] Tecla Windows + Q | Abrir la búsqueda. […] Tecla Windows + R | Abrir el cuadro de diálogo Ejecutar. […] Tecla Windows + Inicio | Minimizar o restaurar todas las ventanas excepto la activa. […] Tecla Windows + Pausa | Abre la aplicación Configuración en la página Sistema Acerca de. […] Tecla Windows + Ctrl + Entrar | Abra el Narrador."
+            }
+          ]
+        },
+        {
+          "text": "Atajos generales: Ctrl + C copia, Ctrl + X corta, Ctrl + V pega, Ctrl + Z deshace y Ctrl + Y rehace. Ctrl + Mayús + Esc abre el Administrador de tareas y Ctrl + Alt + Supr la pantalla de seguridad. Impr Pant captura una zona al portapapeles, Alt + Impr Pant la ventana activa y Windows + Impr Pant guarda la pantalla completa en un archivo. La página española asigna Ctrl + E a seleccionar todo.",
+          "refs": [
+            {
+              "ref": "Generales",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+X | Cortar el texto seleccionado. […] Ctrl+V / Mayús+Insertar | Pegar el último elemento del portapapeles. […] Ctrl+Z | Deshacer la última escritura. […] Ctrl+Y | Rehacer la escritura que se deshizo con Ctrl+Z. […] Ctrl+C / Ctrl+Insertar | Copiar el texto seleccionado."
+            },
+            {
+              "ref": "Generales",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+Mayús+Esc | Abra el administrador de tareas […] Impr Scn o Impr Pant | Seleccione una zona de la pantalla para hacer una captura de pantalla en el portapapeles. […] Alt+Impr Pant | Capture una captura de pantalla de la ventana activa y cópiela en el Portapapeles. […] Ctrl+Alt+Supr | Cambie a la pantalla de seguridad, donde puede bloquear el escritorio, cambiar de usuario, cerrar sesión […] Ctrl+E | Seleccionar todos los elementos de una ventana."
+            },
+            {
+              "ref": "Captura completa",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + PrtScn | Capture una captura de pantalla completa y guárdela en un archivo en la subcarpeta […]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "El Portapapeles y su historial",
+      "blocks": [
+        {
+          "text": "Todo lo copiado va al Portapapeles. Su historial permite pegar varios elementos, anclar los más usados y sincronizarlos en la nube. Se activa la primera vez con Windows + V > Activar. La sincronización (Configuración > Sistema > Portapapeles, Todos los dispositivos) va ligada a la cuenta de Microsoft o profesional.",
+          "refs": [
+            {
+              "ref": "Historial",
+              "law": "Soporte Microsoft (Portapapeles)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+              "quote": "Al copiar contenido en el equipo, se copia automáticamente en el Portapapeles para que lo pegue. Puede pegar varios elementos del historial del portapapeles y también puede anclar los elementos que tiende a usar todo el tiempo y sincronizar el historial del portapapeles a la nube. […] Para activar el Portapapeles por primera vez, selecciona la tecla del logotipo de Windows+ V y luego Activar."
+            },
+            {
+              "ref": "Sincronización",
+              "law": "Soporte Microsoft (Portapapeles)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+              "quote": "Establezca el botón de alternancia Historial del Portapapeles en Todos los dispositivos. […] La función de sincronización está vinculada a su cuenta de Microsoft o a su cuenta profesional, por lo que recuerda usar la misma información de inicio de sesión en todos sus dispositivos."
+            }
+          ]
+        },
+        {
+          "text": "Límites: 25 entradas como máximo (las antiguas no ancladas se quitan solas), 4 MB por elemento y formatos de texto, HTML y mapa de bits. El historial se borra en cada reinicio, salvo los elementos anclados. Desde Configuración > Sistema > Portapapeles > Borrar se elimina todo, excepto lo anclado, en el dispositivo y en la nube; con Windows + V > Borrar todo se borra el del dispositivo, y un elemento suelto se elimina con Ver más (...) > Eliminar.",
+          "refs": [
+            {
+              "ref": "Límites",
+              "law": "Soporte Microsoft (Portapapeles)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+              "quote": "El historial del Portapapeles tiene un límite de 25 entradas copiadas. Los elementos antiguos, a menos que estén anclados, se quitan automáticamente para dejar espacio para nuevos elementos del Portapapeles. […] Las limitaciones de tamaño son 4 MB por elemento. Se admiten los formatos de archivo de texto, HTML y mapa de bits. […] El historial del Portapapeles se borra cada vez que reinicias el PC, excepto los elementos que hayas anclado."
+            },
+            {
+              "ref": "Borrar",
+              "law": "Soporte Microsoft (Portapapeles)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+              "quote": "Puede borrar rápidamente todo (excepto los elementos anclados) en el dispositivo y en la nube. […] En el área Borrar datos del portapapeles , seleccione Borrar. […] También puedes borrar el historial del portapapeles del dispositivo seleccionando la tecla del logotipo de Windows+ V y, a continuación, la opción Borrar todo en la parte superior. […] Junto al elemento en cuestión, seleccione Ver más (...) y, a continuación, seleccione Eliminar ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Copilot en Windows",
+      "blocks": [
+        {
+          "text": "Copilot viene instalado en los equipos nuevos con Windows 11 (si no, se descarga de Microsoft Store) y aparece anclado en la barra o en Inicio. Se abre con la tecla Copilot o con Windows + C, que puede lanzar la aplicación completa o una «vista rápida», y también diciendo «Hola, Copilot». Con cuenta personal de Microsoft se accede al historial de chats.",
+          "refs": [
+            {
+              "ref": "Acceso",
+              "law": "Soporte Microsoft (Copilot en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0",
+              "quote": "Si la aplicación Copilot aún no está en su PC Windows, descárguela de la Microsoft Store. […] En equipos nuevos con Windows 11, la aplicación Copilot ya debería estar instalada de forma predeterminada. […] Puede encontrar la aplicación Copilot anclada a la barra de tareas o en el menú Inicio. […] Presione la tecla Copilot del teclado. […] La tecla de acceso directo de Windows puede iniciar la aplicación completa o solo una 'vista rápida' más pequeña."
+            },
+            {
+              "ref": "Voz y sesión",
+              "law": "Soporte Microsoft (Copilot en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0",
+              "quote": "Iniciar sesión con una cuenta personal de Microsoft le proporciona acceso a su historial de chats […] Puede invocar Copilot diciendo en voz alta la frase \"Hola, Copilot\"."
+            },
+            {
+              "ref": "Windows + C",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + C | Abre Microsoft Copilot o Microsoft 365 Copilot."
+            }
+          ]
+        },
+        {
+          "text": "Copilot Vision puede ver las ventanas del explorador o las aplicaciones abiertas en pantalla para responder preguntas o guiar paso a paso. Además, Copilot ayuda a buscar, abrir y preguntar sobre el contenido de archivos (abre los vínculos en un panel lateral junto a la conversación) y a ajustar la configuración del PC.",
+          "refs": [
+            {
+              "ref": "Copilot Vision",
+              "law": "Soporte Microsoft (Copilot en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0",
+              "quote": "Copilot Vision puede ver las ventanas del explorador o las aplicaciones que tiene abiertas en la pantalla […] a continuación, responder preguntas o ayudarle a hacer algo paso a paso. […] Copilot en Windows puede ayudarle a buscar, abrir y formular preguntas sobre el contenido de un archivo […] Al seleccionar un vínculo, Copilot abre el contenido en un panel lateral junto a la conversación […] Copilot en Windows puede ayudarte a ajustar la configuración del PC Windows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Configuración y mantenimiento: cuentas, Lupa, impresora, Windows Update y recuperación",
+      "blocks": [
+        {
+          "text": "Cuentas. Se añaden en Configuración > Cuentas > Otro usuario; para una cuenta local se elige Agregar un usuario sin una cuenta de Microsoft, aunque Microsoft recomienda la cuenta de Microsoft. Hay que limitar los administradores, que tienen control total, y usar cuentas estándar a diario (Cambiar tipo de cuenta). Quitar una cuenta no elimina la cuenta de Microsoft: borra el inicio de sesión y los datos del dispositivo.",
+          "refs": [
+            {
+              "ref": "Cuentas",
+              "law": "Soporte Microsoft (cuentas de usuario)",
+              "url": "https://support.microsoft.com/es-es/windows/security/identity-signin/manage-user-accounts-in-windows",
+              "quote": "Si desea crear una cuenta local, seleccione la opción Agregar un usuario sin una cuenta de Microsoft […] Microsoft recomienda usar una cuenta de Microsoft, no una cuenta local, al iniciar sesión en Windows. El uso de una cuenta de Microsoft en Windows permite una integración perfecta de los servicios Microsoft, una seguridad mejorada y sincronización entre dispositivos, a diferencia de una cuenta local."
+            },
+            {
+              "ref": "Administradores y quitar",
+              "law": "Soporte Microsoft (cuentas de usuario)",
+              "url": "https://support.microsoft.com/es-es/windows/security/identity-signin/manage-user-accounts-in-windows",
+              "quote": "debe limitar el número de administradores en su dispositivo Windows porque los administradores tienen control total sobre el sistema. […] Es más seguro tener menos administradores y usar cuentas de usuario estándar para las actividades diarias. […] Junto a Opciones de cuenta, seleccione Cambiar tipo de cuenta […] Al quitar una cuenta, no se elimina la cuenta Microsoft de esa persona. Quita la información de inicio de sesión y los datos del dispositivo."
+            }
+          ]
+        },
+        {
+          "text": "Lupa e impresora. La Lupa (Configuración > Accesibilidad > Visión > Lupa) amplía partes de la pantalla; se abre en pantalla completa y sigue al puntero, el teclado y el cursor. Windows + Más (+) o Menos (-) acerca y aleja, y Ctrl + Alt + M alterna entre pantalla completa, lupa flotante y acoplada. Con «Permitir que Windows administre mi impresora predeterminada», Windows elige como predeterminada la última impresora usada.",
+          "refs": [
+            {
+              "ref": "Lupa",
+              "law": "Soporte Microsoft (Lupa)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/phonelink/setting-up-and-using-magnifier",
+              "quote": "De forma predeterminada, se abre en pantalla completa y seguirá el puntero del mouse, la entrada del teclado, el cursor del texto y el cursor del narrador. […] Puedes cambiar la vista de la lupa presionando Ctrl + Alt + M: esto pasará por el modo de pantalla completa, una lupa transparente flotante o acoplada. […] Presiona la tecla del logotipo de Windows + Más (+) o Menos (-) para acercar y alejar. […] En el menú Visión , selecciona Lupa"
+            },
+            {
+              "ref": "Impresora",
+              "law": "Soporte Microsoft (impresora predeterminada)",
+              "url": "https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows",
+              "quote": "activar Permitir que Windows administre mi impresora predeterminada, para que Windows seleccione automáticamente la última impresora que usaste."
+            }
+          ]
+        },
+        {
+          "text": "Windows Update. Las actualizaciones no se pueden detener por completo, solo pausar (Configuración > Windows Update > Pausar actualizaciones). Las horas activas evitan reinicios automáticos mientras se usa el equipo. El historial muestra qué se instaló y cuándo, y permite quitar algunas. Las de calidad son más frecuentes (correcciones y seguridad). Con conexión de uso medido, algunas no se instalan automáticamente.",
+          "refs": [
+            {
+              "ref": "Pausar",
+              "law": "Soporte Microsoft (Windows Update)",
+              "url": "https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/windows-update-faq",
+              "quote": "Las actualizaciones no se pueden detener por completo, porque contribuyen a mantener el dispositivo seguro y protegido […] una vez que se alcance el límite de pausa, tendrás que instalar las últimas actualizaciones para poder volver a pausar las actualizaciones. […] Junto a Pausar actualizaciones, selecciona la duración de pausa que prefieras."
+            },
+            {
+              "ref": "Horas activas e historial",
+              "law": "Soporte Microsoft (Windows Update)",
+              "url": "https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/windows-update-faq",
+              "quote": "Puedes definir las horas activas para asegurarte de que los reinicios automáticos solo tengan lugar cuando no estés usando el dispositivo. […] Está disponible un historial de actualizaciones, donde puedes comprobar qué actualizaciones se instalaron y cuándo lo hicieron. También puedes usar esta lista para quitar actualizaciones específicas, aunque no se recomienda hacerlo a menos que sea necesario."
+            },
+            {
+              "ref": "Tipos y uso medido",
+              "law": "Soporte Microsoft (Windows Update)",
+              "url": "https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/windows-update-faq",
+              "quote": "Las actualizaciones de calidad son más frecuentes y principalmente incluyen pequeñas correcciones y actualizaciones de seguridad. A veces, las actualizaciones de calidad incluyen nuevas características. […] Si tiene una conexión de uso medido, algunas actualizaciones de Windows no se instalarán automáticamente."
+            }
+          ]
+        },
+        {
+          "text": "Restaurar sistema deshace cambios recientes sin afectar a los archivos personales. Usa puntos de restauración (instantáneas de la configuración del sistema) y revierte archivos de sistema, Registro y programas instalados; después Windows se reinicia. Se abre en Panel de control > Recuperación o con Windows + R y rstrui.exe; también desde Windows RE, con la clave de BitLocker si el disco está cifrado.",
+          "refs": [
+            {
+              "ref": "Restaurar sistema",
+              "law": "Soporte Microsoft (Restaurar sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/system-restore",
+              "quote": "Al usar Restaurar sistema, puede deshacer estos cambios sin afectar a sus archivos personales […] Restaurar sistema funciona mediante la utilización de puntos de restauración, que son instantáneas de la configuración y las opciones del sistema en un momento específico. […] Restaurar sistema revierte los archivos de sistema, la configuración del Registro y los programas instalados al estado que estaban en el momento en que se creó el punto de restauración."
+            },
+            {
+              "ref": "Abrir",
+              "law": "Soporte Microsoft (Restaurar sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/system-restore",
+              "quote": "En el Panel de control, seleccione Recuperación y elija Abrir Restaurar sistema. […] escriba rstrui.exe y presione Enter. […] Después de aplicar el punto de restauración, Windows se reinicia automáticamente. […] Si has cifrado el dispositivo, necesitarás la clave de BitLocker para completar esta tarea. […] Una vez en Windows RE, seleccione Solucionar problemas, elija Opciones avanzadas y, a continuación, Restaurar sistema."
+            }
+          ]
+        },
+        {
+          "text": "Recuperación, de menos a más drástica: solucionador de problemas; Reinstalar Windows (versión actual, sin tocar archivos, aplicaciones ni configuración); desinstalar una actualización o volver a la versión anterior (solo 10 días); Restablecer este PC (desde cero, conservando o no los archivos personales); y Recompilación en la nube (copia nueva y controladores de Windows Update; lo quita todo). Con BitLocker hace falta su clave en casi todas las opciones de WinRE.",
+          "refs": [
+            {
+              "ref": "Recuperación",
+              "law": "Soporte Microsoft (recuperación)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/recovery-options-in-windows",
+              "quote": "Esta acción reinstala la versión actual sin afectar a los archivos, las aplicaciones ni la configuración. […] intenta volver a la versión anterior (disponible durante 10 días después de la actualización). […] Esta acción reinstala Windows desde cero. Puede optar por conservar sus archivos personales o quitarlos todos."
+            },
+            {
+              "ref": "Nube y BitLocker",
+              "law": "Soporte Microsoft (recuperación)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/recovery-options-in-windows",
+              "quote": "Cloud rebuild reinstala Windows con una copia nueva de Windows y controladores de Windows Update. Quita todos los archivos personales, las aplicaciones y la configuración. […] Si BitLocker está habilitado en el dispositivo, necesitarás la clave de recuperación de BitLocker para acceder a la mayoría de las opciones de recuperación de WinRE."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Tecla Windows sola: abre o cierra Inicio. Windows + D: escritorio; + L: bloquear; + I: Configuración; + E: Explorador; + Tab: Vista de tareas.",
+          "refs": [
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows | Abrir o cerrar el menú Inicio. […] Tecla Windows + D | Mostrar y ocultar el escritorio. […] Tecla Windows + L | Bloquee el equipo. […] Tecla Windows + Tab | Abrir la Vista de tareas."
+            }
+          ]
+        },
+        {
+          "text": "Barra de tareas e Inicio: centrados por defecto; solo se alinean al centro o a la izquierda, nunca arriba ni en un lateral.",
+          "refs": [
+            {
+              "ref": "Alineación",
+              "law": "Soporte Microsoft (barra de tareas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+              "quote": "No hay ninguna configuración para mover una barra de tareas a la parte superior o lateral de la pantalla."
+            }
+          ]
+        },
+        {
+          "text": "Carpeta en Inicio: arrastrar un anclado sobre otro. Con un solo elemento, la carpeta desaparece.",
+          "refs": [
+            {
+              "ref": "Carpetas",
+              "law": "Soporte Microsoft (menú Inicio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu",
+              "quote": "Para crear una carpeta, arrastre un elemento anclado sobre otro para crear una carpeta."
+            }
+          ]
+        },
+        {
+          "text": "Alt + Tab: la aplicación pasa a primer plano al soltar Alt. Alt + F4 cierra la ventana activa.",
+          "refs": [
+            {
+              "ref": "Alt + Tab",
+              "law": "Soporte Microsoft (multitarea en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows",
+              "quote": "Una vez que suelte la tecla Alt, la aplicación seleccionada pasará al primer plano."
+            }
+          ]
+        },
+        {
+          "text": "Acoplar: control flotante al pasar sobre Maximizar; se activa en Sistema > Multitarea > Ajustar ventanas.",
+          "refs": [
+            {
+              "ref": "Acoplar",
+              "law": "Soporte Microsoft (acoplar ventanas)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+              "quote": "El control flotante Acoplar aparece al mantener el puntero sobre el botón Maximizar en una ventana."
+            }
+          ]
+        },
+        {
+          "text": "Escritorios: Windows + Ctrl + D crea; al cerrar uno, sus aplicaciones pasan al siguiente.",
+          "refs": [
+            {
+              "ref": "Escritorios",
+              "law": "Soporte Microsoft (multitarea en Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows",
+              "quote": "Las aplicaciones abiertas en el escritorio cerrado se moverán al siguiente escritorio disponible."
+            }
+          ]
+        },
+        {
+          "text": "Portapapeles: Windows + V; 25 entradas, 4 MB por elemento; se borra al reiniciar salvo lo anclado.",
+          "refs": [
+            {
+              "ref": "Portapapeles",
+              "law": "Soporte Microsoft (Portapapeles)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+              "quote": "El historial del Portapapeles tiene un límite de 25 entradas copiadas."
+            }
+          ]
+        },
+        {
+          "text": "Windows + W widgets, Windows + A Configuración rápida, Windows + N notificaciones y calendario, Windows + C Copilot.",
+          "refs": [
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + C | Abre Microsoft Copilot o Microsoft 365 Copilot. […] Tecla Windows + N | Abrir el centro de notificaciones y el calendario."
+            }
+          ]
+        },
+        {
+          "text": "Restaurar sistema (rstrui.exe) no toca los archivos personales; volver a la versión anterior solo durante 10 días.",
+          "refs": [
+            {
+              "ref": "Recuperación",
+              "law": "Soporte Microsoft (recuperación)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/recovery-options-in-windows",
+              "quote": "(disponible durante 10 días después de la actualización)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (menú Inicio) (https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-windows-start-menu), Soporte Microsoft (multitarea en Windows) (https://support.microsoft.com/es-es/windows/experience/how-to-multitask-in-windows), Soporte Microsoft (acoplar ventanas) (https://support.microsoft.com/es-es/windows/experience/snap-your-windows), Soporte Microsoft (Copilot en Windows) (https://support.microsoft.com/es-es/windows/le-damos-la-bienvenida-a-copilot-en-windows-675708af-8c16-4675-afeb-85a5a476ccb0)"
 }

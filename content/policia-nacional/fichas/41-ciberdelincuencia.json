@@ -56,5 +56,577 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Ciberamenazas y cibercriminalidad",
+      "blocks": [
+        {
+          "text": "La Estrategia Nacional de Ciberseguridad 2019 define las ciberamenazas como todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos; se caracterizan por su diversidad de capacidades y motivaciones y no distinguen fronteras. Entre las acciones que usan el ciberespacio con fines maliciosos distingue el ciberespionaje y la cibercriminalidad. Esta última es un problema de seguridad ciudadana de primer orden: el conjunto de actividades ilícitas cometidas en el ciberespacio en cuya planificación, desarrollo y ejecución resulta determinante la utilización de herramientas tecnológicas.",
+          "refs": [
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "Las ciberamenazas son todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos."
+            },
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "El término Cibercriminalidad, hace referencia al conjunto de actividades ilícitas cometidas en el ciberespacio que tienen por objeto los elementos, sistemas informáticos o cualesquiera otros bienes jurídicos, siempre que en su planificación, desarrollo y ejecución resulte determinante la utilización de herramientas tecnológicas"
+            }
+          ]
+        },
+        {
+          "text": "Según la naturaleza del hecho punible, la autoría, la motivación o los daños infligidos, dentro de la cibercriminalidad se puede hablar de ciberterrorismo, de ciberdelito o de hacktivismo. La Estrategia añade que los ciberdelincuentes operan bajo esquemas de crimen organizado y buscan modelos de negocio lucrativos y de bajo riesgo, amparados por la difícil trazabilidad de sus acciones, y que el uso de criptomonedas para servicios ilícitos, extorsión o fraude es un serio desafío.",
+          "refs": [
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "en función de la naturaleza del hecho punible en sí, de la autoría, de su motivación, o de los daños infligidos, se podrá hablar así de ciberterrorismo, de ciberdelito, o en su caso, de hacktivismo."
+            },
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "Los ciberdelincuentes operan bajo esquemas de crimen organizado y continúan explorando de manera incesante técnicas sobre las que construir modelos de negocio lucrativo y de bajo riesgo, amparados por la difícil trazabilidad de sus acciones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Malware: virus, gusanos y troyanos",
+      "blocks": [
+        {
+          "text": "El malware (de malicious software) es el software que tiene como objetivo dañar o infiltrarse en un sistema de información sin el consentimiento de su propietario. Abarca virus, gusanos, troyanos, backdoors, spyware y otros programas cuya nota común es su carácter dañino. El virus se caracteriza porque infecta ficheros ejecutables o sectores de arranque de dispositivos de almacenamiento. El gusano destaca por su alto grado de «dispersabilidad»: a diferencia del troyano, que depende de que el usuario visite una web maliciosa o ejecute un fichero infectado, el gusano hace copias de sí mismo y se propaga automáticamente por la red, sin acción humana.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Malware",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un tipo de software que tiene como objetivo dañar o infiltrarse sin el consentimiento de su propietario en un sistema de información."
+            },
+            {
+              "ref": "Glosario INCIBE, Virus",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Malware que tiene como característica principal que infecta ficheros ejecutables o sectores de arranque de dispositivos de almacenamiento"
+            },
+            {
+              "ref": "Glosario INCIBE, Gusano",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Mientras que los troyanos dependen de que un usuario acceda a una web maliciosa o ejecute un fichero infectado, los gusanos realizan copias de sí mismos, infectan a otros ordenadores y se propagan automáticamente en una red independientemente de la acción humana."
+            }
+          ]
+        },
+        {
+          "text": "El troyano es un malware con múltiples utilidades; la más común es crear una puerta trasera en el equipo infectado para descargar actualizaciones y nuevas funcionalidades, y está diseñado para ser controlado desde un centro de comando y control (C&C). Sus funciones habituales incluyen keylogger, robo de datos, minado de criptomonedas o descarga de otro malware como ransomware. Suele distribuirse por correo electrónico con un adjunto o enlace. Dato de examen: más del 80 % del malware actual son troyanos, y los equipos infectados se llaman bots o zombis.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Troyano",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Malware diseñado para tener múltiples utilidades, la más común es crear una puerta trasera en el equipo infectado, para poder descargar actualizaciones y nuevas funcionalidades."
+            },
+            {
+              "ref": "Glosario INCIBE, Troyano",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "La mayor parte del malware actual son Troyanos, más del 80%. Los ordenadores infectados con un troyano se denominan Bots o Zombi, y un grupo de bot controlados por un C&C se denomina Botnet o Red Zombie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Ransomware, spyware y cryptojacking",
+      "blocks": [
+        {
+          "text": "El ransomware es el malware que «secuestra» un dispositivo (en sus inicios) o la información que contiene, de modo que la víctima no puede acceder a ella si no paga el rescate. El spyware o programa espía recopila información de un ordenador y la envía a una entidad remota sin el conocimiento ni el consentimiento del propietario; el término se usa también, más ampliamente, para adware, falsos antivirus o troyanos.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Ransomware",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Malware cuya funcionalidad es «secuestrar» un dispositivo (en sus inicios) o la información que contiene de forma que si la víctima no paga el rescate, no podrá acceder a ella."
+            },
+            {
+              "ref": "Glosario INCIBE, Spyware",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un malware que recopila información de un ordenador y después la envía a una entidad remota sin el conocimiento o el consentimiento del propietario del ordenador."
+            }
+          ]
+        },
+        {
+          "text": "El término cryptojacking une Cryptocurrency (criptomonedas) y Hijacking (secuestro): es el secuestro de un dispositivo sin el consentimiento o conocimiento del usuario para usar su capacidad de procesamiento en el minado de criptomonedas. Según INCIBE surgió por primera vez en 2011 y creció con el alza de las monedas virtuales a finales de 2017. Se infecta por webs manipuladas con código inyectado en el navegador o por malware en adjuntos y plugins; sus síntomas son lentitud, bloqueos, sobrecalentamiento y alto consumo eléctrico.",
+          "refs": [
+            {
+              "ref": "INCIBE, Cryptojacking",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "El término cryptojacking deriva de la conjunción de Cryptocurrency (Criptomonedas) y Hijacking (Secuestro). Como se puede deducir, se refiere al secuestro de un dispositivo electrónico sin el consentimiento o conocimiento del usuario"
+            },
+            {
+              "ref": "INCIBE, Cryptojacking",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Este tipo de ataques surgió por primera vez en 2011, aunque su auge se ha producido al calor del alza de las cotizaciones de las monedas virtuales, a finales de 2017."
+            },
+            {
+              "ref": "INCIBE, Cryptojacking",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Los principales síntomas son que funcionan lento, se quedan colgados constantemente o que la velocidad de conexión a Internet se ralentiza."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Botnet y denegación de servicio",
+      "blocks": [
+        {
+          "text": "Una botnet es un conjunto de ordenadores (bots) controlados remotamente por un atacante que pueden usarse en conjunto para actividades maliciosas como el envío de spam o ataques DDoS. Se caracterizan por un servidor central de mando y control (C&C) al que se conectan los bots, aunque existen botnets P2P sin servidor C&C único. El ordenador zombie es el controlado remotamente por un ciberdelincuente tras ser infectado.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Botnet",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Una botnet es un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDoS, etc."
+            },
+            {
+              "ref": "Glosario INCIBE, Botnet",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Existen también las llamadas botnets P2P que se caracterizan por carecer de un servidor C&C único."
+            }
+          ]
+        },
+        {
+          "text": "La denegación de servicio (DoS) es el ataque a un sistema, aplicación o dispositivo para dejarlo fuera de servicio por saturación de peticiones. La denegación de servicio distribuida (DDoS) es un DoS en el que las peticiones llegan desde diversos orígenes, por lo que es más efectivo y más difícil de detener y de rastrear.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Denegación de servicio",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Ataque a un sistema, aplicación o dispositivo para dejarlo fuera de servicio debido a una saturación de peticiones."
+            },
+            {
+              "ref": "Glosario INCIBE, Denegación de servicio distribuida",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un Dos pero las peticiones se hacen desde diversos orígenes, de esta forma es más efectivo, y más complicado de detener y determinar su origen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Ingeniería social, phishing, spear phishing y fraude del CEO",
+      "blocks": [
+        {
+          "text": "La ingeniería social es el conjunto de técnicas que usan los delincuentes para engañar a los usuarios de sistemas o servicios TIC y que les faciliten datos de valor: credenciales, información sobre los sistemas, servicios instalados, etc. Su forma más conocida es el phishing, en el que alguien suplanta a una entidad o servicio mediante correo electrónico o mensaje instantáneo para obtener las credenciales o los datos de la tarjeta de crédito del usuario, normalmente mediante un enlace a una web que imita a la legítima.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Ingeniería social",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Conjunto de técnicas que los delincuentes usan para engañar a los usuarios de sistemas/servicios TIC para que les faciliten datos que les aporten valor, ya sean credenciales, información sobre los sistemas, servicios instalados etc."
+            },
+            {
+              "ref": "Glosario INCIBE, Phishing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario."
+            }
+          ]
+        },
+        {
+          "text": "El spear phishing es un phishing dirigido contra un usuario u organización concretos, con un correo que aparenta venir de un amigo o empresa conocida; suele ir precedido de una fase de reconocimiento. El fraude del CEO (whaling) es una variante del spear phishing dirigida a miembros concretos de la organización, principalmente ejecutivos de alto nivel, para obtener claves y acceso a los sistemas de la empresa.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Spear phishing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Modalidad de phishing dirigido contra un usuario u organización en concreto en la que los atacantes intentan mediante un correo electrónico, que aparenta ser de un amigo o de empresa conocida, conseguir información confidencial. Este tipo de ataques suelen contar previamente con una fase de reconocimiento"
+            },
+            {
+              "ref": "Glosario INCIBE, Fraude del CEO",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Ataque de ingeniería social, variante del spear phishing, que se caracteriza porque el fraude está dirigido a miembros concretos de la organización, principalmente ejecutivos de alto nivel"
+            },
+            {
+              "ref": "Glosario INCIBE, Fraude del CEO",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Sinónimo: Whaling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Cartas nigerianas y Business E-mail Compromise",
+      "blocks": [
+        {
+          "text": "Las cartas nigerianas (estafa nigeriana) son una comunicación inesperada por correo electrónico, carta o mensajería instantánea en la que el remitente promete negocios muy rentables. El gancho es la expectativa de ganar mucho dinero con sencillas gestiones; el remitente suele hacerse pasar por abogado o allegado de alguien fallecido que dejó una gran suma, pide discreción y gastos por adelantado, y envía documentos falsos, pero la transferencia prometida nunca llega.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Cartas nigerianas",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Se trata de una comunicación inesperada mediante correo electrónico carta o mensajería instantánea en las que el remitente promete negocios muy rentables."
+            },
+            {
+              "ref": "Glosario INCIBE, Cartas nigerianas",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "procurando que finalmente transfiera una fuerte cantidad de dinero para llevar a cabo la operación."
+            }
+          ]
+        },
+        {
+          "text": "El fraude BEC (Business E-mail Compromise, correo electrónico corporativo comprometido) es un fraude contra empresas que realizan transferencias electrónicas de dinero. El ciberdelincuente suplanta a un proveedor e intercepta los correos de facturación, cambiando la cuenta bancaria para que la empresa pague a una cuenta que él controla. Puede ocurrir porque está comprometida la cuenta de la propia empresa (por ejemplo, con una regla que reenvía el correo) o la del proveedor.",
+          "refs": [
+            {
+              "ref": "INCIBE, Fraude email comprometido",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "BEC del inglés Business E-mail Compromise o correo electrónico corporativo comprometido es un tipo de fraude contra empresas que realizan transferencias electrónicas de dinero."
+            },
+            {
+              "ref": "INCIBE, Fraude email comprometido",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "El ciberdelincuente suplanta a uno de nuestros proveedores (Proveedor S.L.) e intercepta los correos de facturación que nos envía, cambiando la cuenta del banco donde realizar los pagos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Pharming y spoofing",
+      "blocks": [
+        {
+          "text": "El pharming aprovecha una vulnerabilidad del software de los servidores DNS y modifica o sustituye el archivo del servidor de nombres de dominio, cambiando la dirección IP legítima de una entidad, normalmente un banco. Así, cuando el usuario escribe el nombre de dominio correcto, el navegador le lleva automáticamente a una web falsa que suplanta a la entidad y le roba las claves.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Pharming",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS y que consiste en modificar o sustituir el archivo del servidor de nombres de dominio cambiando la dirección IP legítima de una entidad"
+            },
+            {
+              "ref": "Glosario INCIBE, Pharming",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "el navegador redirigirá automáticamente al usuario a una dirección IP donde se aloja una web falsa que suplantará la identidad legítima de la entidad"
+            }
+          ]
+        },
+        {
+          "text": "El spoofing es una técnica de suplantación de identidad en la Red. Según la tecnología, INCIBE distingue: IP spoofing (suplanta la IP de origen de un paquete TCP/IP), ARP spoofing (falsea la tabla ARP que relaciona dirección MAC e IP, de modo que lo enviado a un usuario llega al atacante), DNS spoofing (relación falsa entre IP y nombre de dominio), web spoofing (página web falsa; el phishing es un tipo de web spoofing) y mail spoofing (suplantación de correo para envío masivo de spam).",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Spoofing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es una técnica de suplantación de identidad en la Red, llevada a cabo por un ciberdelincuente generalmente gracias a un proceso de investigación o con el uso de malware."
+            },
+            {
+              "ref": "Glosario INCIBE, Spoofing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "ARP spoofing: es la suplantación de identidad por falsificación de tabla ARP. ARP (Address Resolution Protocol) es un protocolo de nivel de red que relaciona una dirección MAC con la dirección IP del ordenador. Por lo tanto, al falsear la tabla ARP de la víctima, todo lo que se envíe a un usuario, será direccionado al atacante."
+            },
+            {
+              "ref": "Glosario INCIBE, Spoofing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Los ataques de phishing son un tipo de Web spoofing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Inyección SQL, XSS y zero-day",
+      "blocks": [
+        {
+          "text": "La inyección SQL aprovecha una vulnerabilidad en la validación de los contenidos introducidos en un formulario web y puede permitir obtener ilegítimamente los datos de la base de datos del sitio, incluidas las credenciales. El XSS (Cross-site Scripting, «secuencias de comandos en sitios cruzados») es una vulnerabilidad de páginas web generadas dinámicamente que permite insertar en un formulario un pequeño programa malicioso y hacer que se ejecute; sus puntos de entrada habituales son buscadores, foros, blogs y formularios.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Inyección SQL",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un tipo de ataque que se aprovecha de una vulnerabilidad en la validación de los contenidos introducidos en un formulario web y que puede permitir la obtención de forma ilegítima de los datos almacenados en la base de datos del sitio web, entre ellos las credenciales de acceso."
+            },
+            {
+              "ref": "Glosario INCIBE, XSS",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "XSS viene del acrónimo en inglés de Secuencias de comandos en sitios cruzados (Cross-site Scripting)."
+            },
+            {
+              "ref": "Glosario INCIBE, XSS",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "es posible insertar en un formulario un pequeño programa malicioso, ocultándolo entre solicitudes legítimas y hacer que éste se ejecute."
+            }
+          ]
+        },
+        {
+          "text": "Las vulnerabilidades zero-day (0-day) son las que solo conocen determinados atacantes y desconocen fabricantes y usuarios. Como el fabricante no las conoce, no existe parche de seguridad, y por eso son muy peligrosas: el atacante puede explotarlas sin que el usuario sepa que es vulnerable.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Zero-day",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Son aquellas vulnerabilidades en sistemas o programas informáticos que son únicamente conocidas por determinados atacantes y son desconocidas por los fabricantes y usuarios. Al ser desconocidas por los fabricantes, no existe un parche de seguridad para solucionarlas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Skimming, e-skimming y carding",
+      "blocks": [
+        {
+          "text": "Tradicionalmente, el robo de tarjetas o skimming se hacía directamente en los cajeros automáticos, donde los delincuentes clonaban las tarjetas y robaban el PIN. El skimmer es un pequeño dispositivo que se instala en los lectores de tarjetas y roba la información cuando se usan. El fraude pasó al mundo digital como e-skimming o web skimming: los ciberdelincuentes acceden a una tienda online legítima, modifican su código y roban los datos bancarios y personales de los clientes para venderlos en el mercado negro o usarlos en su beneficio.",
+          "refs": [
+            {
+              "ref": "INCIBE, E-skimming",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Tradicionalmente, el robo de tarjetas de crédito o skimming se hacía directamente en los cajeros automáticos."
+            },
+            {
+              "ref": "INCIBE, Carding",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "un skimmer, un pequeño dispositivo que se instala en los lectores de tarjetas bancarias y que roba la información cuando lo usamos."
+            },
+            {
+              "ref": "INCIBE, E-skimming",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "El e-skimming o web skimming es una técnica utilizada por ciberdelincuentes para obtener información bancaria y personal de tiendas online legítimas que posteriormente será vendida en el mercado negro, o utilizada directamente por los ciberdelincuentes en su propio beneficio."
+            }
+          ]
+        },
+        {
+          "text": "En el carding, el ciberdelincuente prueba datos de tarjetas robadas con pequeñas compras en comercios electrónicos, a menudo mediante bots, hasta dar con las válidas, que después vende o usa para compras de gran valor. Los listados de tarjetas se obtienen a menudo en la Dark Web o mediante keyloggers y phishing.",
+          "refs": [
+            {
+              "ref": "INCIBE, Carding",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Para probar que esos datos robados son válidos, realizan pequeñas compras en comercios electrónicos hasta que dan con las que funcionan. A esta técnica se le llama carding"
+            },
+            {
+              "ref": "INCIBE, Carding",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Una forma muy común de obtener estos listados de tarjetas de crédito es a través de la Dark Web"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Agentes de la amenaza: cibercriminales, hacktivistas e insiders",
+      "blocks": [
+        {
+          "text": "El ciberdelincuente es quien realiza actividades delictivas en la red contra personas o sistemas, causando daños económicos o reputacionales mediante robo, filtrado de información, deterioro de software o hardware, fraude y extorsión; casi siempre busca fines económicos. El hacktivista usa sus conocimientos informáticos para promover su ideología política, con acciones como defacement, redirecciones, ataques DoS o robo de información, bajo la premisa de la desobediencia civil.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Ciberdelincuente",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de software o hardware, fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos."
+            },
+            {
+              "ref": "Glosario INCIBE, Hacktivista",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Ciberdelincuente que haciendo uso de sus conocimientos en materia informática y herramientas digitales los usa para promover su ideología política."
+            }
+          ]
+        },
+        {
+          "text": "El insider (amenaza interna) es la persona perteneciente a una organización o empresa que divulga información sensible sobre ella de forma intencionada. El epígrafe cita también el «Crime as a Service»: las fuentes oficiales de la plataforma no lo definen; solo la Estrategia de 2019 describe que los ciberdelincuentes operan con esquemas de crimen organizado y modelos de negocio lucrativos.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Insider",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Persona perteneciente a una organización o empresa que divulga información sensible sobre dicha empresa de forma intencionada."
+            },
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "Debido a la revolución de Internet, Estados, grupos organizados, colectivos y hasta individuos aislados pueden alcanzar un nivel de poder y una capacidad de influir impensable en otros tiempos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "APT y Cyber Kill Chain",
+      "blocks": [
+        {
+          "text": "La amenaza avanzada persistente (APT, Advanced Persistent Threat) es un ataque que se realiza con sigilo, permaneciendo activo y oculto durante mucho tiempo y con diferentes formas de ataque. Suele estar patrocinada por compañías, mafias o un estado, busca vigilar, exfiltrar datos o modificar recursos de forma continuada y aprovecha a menudo vulnerabilidades zero-day. La Estrategia de 2019 añade que las mayores capacidades de ciberespionaje corresponden a actores estatales, que operan sobre todo mediante APT.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Amenaza avanzada persistente",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado."
+            },
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "Las mayores capacidades corresponden principalmente a actores estatales (organismos de inteligencia o militares), que fundamentalmente operan a través de las denominadas Amenazas Persistentes Avanzadas (APT)."
+            }
+          ]
+        },
+        {
+          "text": "El modelo Kill Chain se desarrolló esencialmente para analizar las APT. Divide la acción del adversario en siete fases: Reconocimiento, Código Dañino, Entrega, Explotación, Instalación, Mando y Control (C2) y Acción en el Objetivo. Para cada fase contempla seis líneas de acción de la víctima: Detección, Denegación, Disrupción, Degradación, Engaño y Destrucción. Permite medir la eficacia de las defensas y planificar inversiones.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 181",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "fue desarrollado para abordar, esencialmente, el análisis de APTs"
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 183",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Kill Chain divide la acción del adversario en fases: Reconocimiento, Código Dañino, Entrega, Explotación, Instalación, Mando y Control (C2) y Acción en el Objetivo"
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 185",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "el modelo Kill Chain contempla seis posibles líneas de acción (Detección, Denegación, Disrupción, Degradación, Engaño y Destrucción)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Cibercriminalidad según la ENCS 2019: ciberterrorismo, ciberdelito o hacktivismo.",
+          "refs": [
+            {
+              "ref": "Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+              "law": "Estrategia Nacional de Ciberseguridad 2019",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+              "quote": "se podrá hablar así de ciberterrorismo, de ciberdelito, o en su caso, de hacktivismo."
+            }
+          ]
+        },
+        {
+          "text": "Troyanos: más del 80 % del malware actual. Gusanos: se propagan solos, sin acción humana.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Troyano",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "La mayor parte del malware actual son Troyanos, más del 80%."
+            }
+          ]
+        },
+        {
+          "text": "Ransomware secuestra; spyware espía y envía; cryptojacking mina criptomonedas (desde 2011).",
+          "refs": [
+            {
+              "ref": "INCIBE, Cryptojacking",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Este tipo de ataques surgió por primera vez en 2011"
+            }
+          ]
+        },
+        {
+          "text": "Spear phishing: dirigido y con fase de reconocimiento; fraude del CEO (whaling): a directivos.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Fraude del CEO",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "variante del spear phishing"
+            }
+          ]
+        },
+        {
+          "text": "Pharming: manipulación de servidores DNS; ARP spoofing: falsea la tabla MAC-IP.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Pharming",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "aprovecha una vulnerabilidad del software de los servidores DNS"
+            }
+          ]
+        },
+        {
+          "text": "XSS = secuencias de comandos en sitios cruzados; zero-day = sin parche porque el fabricante no la conoce.",
+          "refs": [
+            {
+              "ref": "Glosario INCIBE, Zero-day",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "no existe un parche de seguridad para solucionarlas."
+            }
+          ]
+        },
+        {
+          "text": "BEC: fraude contra empresas que hacen transferencias; carding: pequeñas compras para probar tarjetas.",
+          "refs": [
+            {
+              "ref": "INCIBE, Fraude email comprometido",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "es un tipo de fraude contra empresas que realizan transferencias electrónicas de dinero."
+            }
+          ]
+        },
+        {
+          "text": "Kill Chain: siete fases, de Reconocimiento a Acción en el Objetivo; seis líneas de acción, la última Destrucción.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 185",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Engaño y Destrucción"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

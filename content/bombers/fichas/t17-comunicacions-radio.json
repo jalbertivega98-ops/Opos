@@ -61,5 +61,651 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "La comunicació com a eina de comandament i seguretat",
+      "blocks": [
+        {
+          "text": "En qualsevol emergència, la comunicació és una eina essencial de treball: uneix comandaments, unitats, equips, suport i centres de control, i és una qüestió de seguretat, eficiència i coordinació. El manual es basa en els procediments del Cos i en tres principis compartits amb altres àmbits: brevetat, claredat i disciplina. Una informació ambigua o mal interpretada pot comprometre l'operació i la seguretat dels intervinents; per això comunicar és una competència professional, com les maniobres.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Una comunicació efectiva és, per tant, una qüestió de seguretat, d’eficiència i de coordinació."
+            },
+            {
+              "ref": "MAN.COMU.000, 1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "que comparteixen principis bàsics: brevetat, claredat i disciplina."
+            }
+          ]
+        },
+        {
+          "text": "Les ràdios han evolucionat de models analògics a sistemes digitals TETRA, i avui les eines SIG (ArcGIS) complementen la ràdio i alliberen el canal. Tot i això, la ràdio continua sent l'eina fonamental: per la seva robustesa i independència tecnològica és imprescindible quan altres sistemes fallen, com es va veure en l'apagada tecnològica de l'abril de 2025.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 1.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "De models analògics amb cobertura limitada a sistemes digitals TETRA."
+            },
+            {
+              "ref": "MAN.COMU.000, 1.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "la comunicació per ràdio continua sent l’eina fonamental en qualsevol emergència. La seva robustesa i independència tecnològica la fan imprescindible quan altres sistemes fallen o es col·lapsen, com va quedar evidenciat durant l’apagada tecnològica l’abril de 2025."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Fonaments: elements, particularitats de la ràdio i bona comunicació",
+      "blocks": [
+        {
+          "text": "Tota comunicació té sis elements: emissor, receptor, canal (mitjà físic), codi (signes i regles), missatge i situació o context. Si en falla un (missatge massa llarg, canal saturat, receptor desconcentrat) hi ha un error que pot ser greu. La ràdio té particularitats: no hi ha comunicació visual, la poden sentir tercers, només un emissor pot parlar alhora i el canal és un recurs compartit; per això exigeix disciplina, brevetat i estructura clara.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Emissor: és qui emet el missatge − Receptor: és qui el rep − Canal: mitjà físic pel qual es transmet el missatge − Codi: conjunt de signes i regles"
+            },
+            {
+              "ref": "MAN.COMU.000, 2.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Només un emissor pot parlar alhora. S’han d’evitar les interferències. − El canal és un recurs compartit. Cal ser breu i rellevant."
+            }
+          ]
+        },
+        {
+          "text": "Comunicar operativament vol dir pensar abans de parlar, usar llenguatge funcional, seleccionar la informació, conèixer el rol propi i respectar la jerarquia. Una bona comunicació operativa és clara (sense ambigüitats), precisa (dades concretes), breu (mínim de paraules per al màxim d'informació útil), estructurada i confirmada («Rebut», «Afirmatiu»).",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "És precisa: transmet exactament el que es vol dir, amb dades concretes. − És breu: utilitza el mínim de paraules per transmetre el màxim d’informació útil."
+            }
+          ]
+        },
+        {
+          "text": "Aspectes tècnics del micròfon (PTT): mantenir-lo a 2 o 3 cm de la boca, esperar el temps d'entrada en xarxa, triar el canal adient i revisar connexions. Per evitar missatges escapçats («tiu» en lloc d'«afirmatiu»), primer es prem el botó i, després d'un parell de segons, es parla. (A les recomanacions finals el manual parla d'esperar 1 segon després de prémer el PTT.)",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Mantenir la distància del micròfon a 2 o 3 cm de la boca"
+            },
+            {
+              "ref": "MAN.COMU.000, 2.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Per evitar-ho, primer s'ha de prémer el botó de connexió i, després d’un parell de segons, parlar."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "esperar 1 segon després de prémer el botó PTT abans de començar a parlar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Principis bàsics de les comunicacions en intervencions",
+      "blocks": [
+        {
+          "text": "1) Respectar la jerarquia i la cadena de comandament: només es poden saltar nivells per un aspecte crític operatiu o de seguretat. Principi +1/-1: comunicar o informar amb el comandament directe (+1) i donar ordres només al personal que depèn directament de mi (-1). 2) Prioritzar els missatges: primer la seguretat de les persones, després els aspectes operatius i, finalment, les gestions no operatives.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.6.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Només es poden saltar nivells si hi ha un aspecte crític a nivell operatiu o de seguretat."
+            },
+            {
+              "ref": "MAN.COMU.000, 2.6.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Comunicar/informar amb el comandament directe (+1). − Només donar ordres al personal que depèn directament de mi (-1)."
+            },
+            {
+              "ref": "MAN.COMU.000, 2.6.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Seguretat de les persones (víctimes, bombers, civils) 2. Aspectes operatius (maniobres, estratègia, recursos) 3. Informacions o gestions no operatives"
+            }
+          ]
+        },
+        {
+          "text": "3) Ús disciplinat de la xarxa: escolta activa, esperar que acabin les transmissions, no interrompre tret de missatges prioritaris i parlar només quan calgui. 4) Parlar amb claredat i concreció. 5) Usar marcadors estàndard (REBUT, PRIORITARI, CANVI, TALLO) i dir «afirmatiu» i «negatiu» en lloc de «sí» i «no».",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.6.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Parlar només quan sigui necessari i evitar saturar la xarxa amb informació innecessària o redundant."
+            },
+            {
+              "ref": "MAN.COMU.000, 2.6.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "és recomanable substituir el simple “sí” o “no” per les formes més clares i específiques “afirmatiu” i “negatiu”."
+            }
+          ]
+        },
+        {
+          "text": "6) Confirmar sempre: cap comunicació no és completa sense la confirmació del receptor; si no arriba, l'emissor repetirà el missatge i es perdrà temps i canal. Pot ser simple («Rebut per…») o d'ordre o maniobra («Rebut, iniciem maniobra d'extinció»). 7) Adaptar-se a l'entorn: en llocs sorollosos o amb mala cobertura, parlar a poc a poc, repetir dades i pronunciar els dígits separats («u-cinc-zero» per 150).",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.6.6",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Cap comunicació està completa sense la confirmació del receptor, ja que si no la rep, l’emissor tornarà a repetir-la, perdent temps i ocupant el canal de manera inútil."
+            },
+            {
+              "ref": "MAN.COMU.000, 2.6.7",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Utilitzar codis fonètics i pronunciar dígits separats (“u-cinc-zero” per 150)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Estructura del missatge: inici, desenvolupament i finalització",
+      "blocks": [
+        {
+          "text": "Inici: abans de parlar pel transceptor portàtil cal comprovar que el canal és lliure. Es nomena primer la unitat receptora i després s'identifica l'emissor («Control, per 10.40...» o «Control, 10.40 demanant», amb el marcador {DEMANANT}). En aquest primer missatge no cal {CANVI}. El receptor, quan està preparat, respon {ENDAVANT} i l'indicatiu de l'emissor: «Endavant 10.40».",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Abans de començar a parlar pel transceptor portàtil, l’usuari ha de comprovar que el canal està lliure, és a dir, que cap altra unitat està transmetent en aquell moment."
+            },
+            {
+              "ref": "MAN.COMU.000, 3.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "L’estructura recomanada per iniciar la comunicació és que primer s’anomena la unitat receptora del missatge, i després s’identifica l’emissor."
+            },
+            {
+              "ref": "MAN.COMU.000, 3.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "No cal incloure el marcador {CANVI} en aquest primer missatge"
+            }
+          ]
+        },
+        {
+          "text": "Desenvolupament: l'emissor transmet de manera clara i concisa i tanca amb {CANVI}, que indica que espera resposta. El receptor confirma amb {REBUT PER} i el seu indicatiu («Rebut per 06.40»); en ordres o comunicacions crítiques convé que en repeteixi un breu resum. Finalització: el darrer missatge es tanca amb {CANVI I TALLO}.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "En finalitzar, cal tancar-lo amb el marcador {CANVI}, indicant així que s’espera una resposta del receptor."
+            },
+            {
+              "ref": "MAN.COMU.000, 3.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "quan es tracti de comunicacions crítiques o ordres operatives, és recomanable que el receptor repeteixi un breu resum del missatge rebut."
+            },
+            {
+              "ref": "MAN.COMU.000, 3.4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Un cop ha finalitzat la transmissió del darrer missatge, s’ha de fer servir el marcador {CANVI I TALLO}."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Altres comunicacions: números, alfabet, espera, silenci i comprovació",
+      "blocks": [
+        {
+          "text": "Els números, graus i coordenades es diuen dígit per dígit o en parelles, amb pauses («curs 1-5-0 graus»). Els noms propis, codis, matrícules o lletres que es poden confondre (B i D, M i N) es lletregen amb l'alfabet radiofònic internacional: Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, Índia, Juliet, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.5.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Quan cal transmetre per ràdio noms propis, codis alfanumèrics, matrícules o qualsevol informació que contingui lletres que puguin generar confusió, s’ha de lletrejar utilitzant l’alfabet radiofònic internacional."
+            },
+            {
+              "ref": "MAN.COMU.000, 3.5.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "(com “B” i “D”, o “M” i “N”)"
+            }
+          ]
+        },
+        {
+          "text": "Si no hi ha resposta, l'emissor espera 30 segons abans de repetir; el receptor que no pot atendre respon «Esperi». En moments crítics, el cap d'intervenció o un comandament pot ordenar silenci de ràdio, excepte per als missatges estrictament operatius.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.5.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Quan un emissor intenta establir contacte i no rep resposta immediata, ha d’esperar 30 segons abans de tornar a repetir el missatge"
+            },
+            {
+              "ref": "MAN.COMU.000, 3.5.4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "En moments crítics, el cap d’intervenció o un comandament pot ordenar silenci de ràdio, amb excepció dels missatges estrictament operatius."
+            }
+          ]
+        },
+        {
+          "text": "Les comprovacions d'emissora es fan a l'inici de guàrdia, abans de sortir o si hi ha dubtes de cobertura («Vic, es rep cinc sobre cinc, canvi»). L'escala de qualitat va d'1 a 5: 1 inintel·ligible; 2 intel·ligible de manera intermitent; 3 intel·ligible amb dificultat; 4 intel·ligible; 5 perfectament intel·ligible (fort i clar).",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.5.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "El valor “cinc” fa referència a la qualitat del senyal. Escala d’1 a 5:"
+            },
+            {
+              "ref": "MAN.COMU.000, 3.5.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "1: Inintel·ligible. El senyal és incomprensible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Pla de comunicacions i intervencions habituals",
+      "blocks": [
+        {
+          "text": "En grans actuacions les comunicacions poden col·lapsar per la complexitat, el nombre de recursos i els missatges urgents; tots els partícips en són igualment responsables. El desplegament d'un pla de comunicacions proporcional a la gravetat és responsabilitat del cap d'intervenció, forma part del Pla d'acció de la intervenció (PAI) i ha de connectar equips, Sala de Control Territorial (SCT) i, si escau, el Centre de Comandament (CCB/CCA), amb canals per sectors si cal.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "tots els partícips d’una actuació són igual i directament responsables de mantenir el procés de comunicacions funcional i eficaç."
+            },
+            {
+              "ref": "MAN.COMU.000, 4.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "El desplegament d’un pla de comunicacions proporcional a la gravetat i dimensions de l’incident és responsabilitat del cap d’intervenció. Aquest pla forma part del Pla d’acció de la intervenció (PAI)"
+            }
+          ]
+        },
+        {
+          "text": "En intervencions ordinàries, el canal principal és el canal de treball d'agrupació (el de l'agrupació de parcs on passa l'incident): desplaçaments, arribades, SCT, informes i logística. El mode directe comunica unitats properes sense repetidors (equip, comandament directe, interiors) i evita saturar la xarxa. Per a mitjans aeris o marítims s'activen grups especials.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 4.2.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "És el canal principal que s’utilitza en una intervenció ordinària. Correspon al canal de comunicació assignat a l’agrupació de parcs on té lloc l’incident."
+            },
+            {
+              "ref": "MAN.COMU.000, 4.2.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Avantatge: agilitza les comunicacions operatives i evita saturar el canal de xarxa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Gran emergència i migració de canals",
+      "blocks": [
+        {
+          "text": "En una gran emergència els canals es divideixen per funcions: canal de trànsit (unitats en camí; descongestiona el canal de servei); canal del servei o de comandament (el principal, amb el cap d'intervenció i el CCA, «columna vertebral» del comandament); canal de sector (coordinació interna de cada sector) i canal directe de proximitat (abast molt limitat, ideal per a maniobres).",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 4.3.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Funció: Descongestionar el canal de servei de les comunicacions entre les unitats que estan en camí."
+            },
+            {
+              "ref": "MAN.COMU.000, 4.3.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Funció: Serveix com a “columna vertebral” del comandament operatiu."
+            }
+          ]
+        },
+        {
+          "text": "El canvi de canal és crític: una unitat que no ha canviat pot quedar aïllada, sense ordres, sense coordinació i, el més perillós, sense poder demanar ajuda. Cal un missatge clar i repetit, que cada responsable confirmi el canvi de les seves unitats i que tothom canviï sense dilació. S'ha de fer tan aviat com sigui possible, abans que el nombre d'unitats ho compliqui.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 4.4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "una unitat que no ha canviat de canal pot quedar aïllada, sense rebre ordres, sense participar de la coordinació general i el que és més perillós, sense poder demanar suport o ajuda en cas de necessitat."
+            },
+            {
+              "ref": "MAN.COMU.000, 4.4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "cal anticipar-se i executar-lo tan aviat com sigui possible, abans que el nombre d’unitats faci més difícil assegurar que tothom el fa correctament."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "La xarxa RESCAT",
+      "blocks": [
+        {
+          "text": "La xarxa RESCAT és la infraestructura de comunicacions exclusiva per a serveis d'emergència i seguretat a Catalunya, gestionada per la Generalitat i compartida per Bombers, Mossos, SEM, Agents Rurals, policies locals, ACA i altres, en veu i dades. No es satura com la telefonia mòbil, té alimentació alternativa, permet localitzar terminals i té més cobertura que la telefonia convencional.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "La xarxa RESCAT és la infraestructura de comunicacions exclusiva per a serveis d’emergència i seguretat a Catalunya."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "No es veu afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb molta població."
+            }
+          ]
+        },
+        {
+          "text": "Funciona amb tecnologia TETRA: trucades individuals i de canal, d'emergència amb prioritat màxima, missatges d'estat, GPS i dades. On no hi ha cobertura es pot desplegar un repetidor mòbil. Els grups compartits permeten coordinar diversos cossos, per exemple en un incendi forestal.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.1.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "La xarxa RESCAT es basa en la tecnologia TETRA, un estàndard específicament dissenyat per a serveis d’emergència."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Modes de funcionament i tipus de comunicacions",
+      "blocks": [
+        {
+          "text": "Mode xarxa: l'emissora es connecta a RESCAT per una antena repetidora (TBS); necessita cobertura i permet trucades individuals i telefòniques, missatges i localització. Mode directe: només per proximitat, sense xarxa ni repetidors, amb un abast normalment d'entre 500 metres i 1 km; no permet enviar GPS ni SDS.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.2.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "L’emissora està connectada a la xarxa RESCAT mitjançant una antena repetidora (TBS)."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.2.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "L’emissora no està connectada a la xarxa, sinó que comunica directament amb altres terminals dins del seu abast de ràdio (normalment entre 500 metres i 1 km)."
+            }
+          ]
+        },
+        {
+          "text": "Trucada de canal: la habitual; només un transceptor parla alhora i la resta escolten. Trucada d'emergència en xarxa: màxima prioritat; pot interrompre qualsevol comunicació. Trucada individual: privada entre dos transceptors; només alguns terminals la poden iniciar però tots la reben, i mentre dura no es rep el canal operatiu. Trucada telefònica: amb un telèfon, només amb permisos.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.3.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Només un transceptor o emissora pot parlar a la vegada i la resta escolten."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.3.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Només alguns terminals estan autoritzats a iniciar-les, però tots els transceptors portàtils les poden rebre."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.3.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Mentre una emissora manté una trucada individual activa, no rep les comunicacions del canal operatiu"
+            }
+          ]
+        },
+        {
+          "text": "Missatges d'estat: predefinits, amb una sola pulsació (normalment 2 segons); la tecla 0 envia la «POSICIO». Missatges curts (SDS): text fins a 120 caràcters, com un SMS. Trucada d'emergència en mode directe: qui la inicia sempre pot reprendre la paraula, però no arriba a la sala de control.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.3.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Són missatges predefinits que s’envien amb una sola pulsació (normalment prement el botó durant 2 segons)."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.3.6",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Són missatges de text escrits (fins a 120 caràcters) que es poden enviar entre terminals."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.3.8",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Qui la inicia sempre pot reprendre la paraula, encara que hi hagi altres comunicacions en curs. Limitació: Aquesta emergència no arriba a la sala de control, ni activa serveis centralitzats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Funcionalitats avançades i recomanacions operatives",
+      "blocks": [
+        {
+          "text": "El pont ràdio connecta un transceptor en mode directe amb un canal en mode xarxa (per exemple, una unitat dins d'un edifici sense cobertura); el terminal pont no pot parlar, només retransmet. El mode repetidor amplia l'abast del mode directe entre terminals que no es veuen; el repetidor sí que pot parlar i escoltar. Només un per canal i zona, i no es poden combinar.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.4.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "El terminal que actua com a pont no pot participar activament en la conversa, només retransmet."
+            },
+            {
+              "ref": "MAN.COMU.000, 5.4.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "A diferència del Pont ràdio, l’emissora que actua com a repetidor sí pot parlar i escoltar."
+            }
+          ]
+        },
+        {
+          "text": "Recomanacions: conèixer les funcions del propi terminal; no fer trucades individuals o telefòniques durant una maniobra, perquè aïllen el bomber; comprovar mode, cobertura i canal abans de baixar del vehicle; revisar la bateria abans i durant la intervenció i portar-ne de recanvi.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Les trucades individuals o telefòniques aïllen el terminal de les comunicacions de grup"
+            },
+            {
+              "ref": "MAN.COMU.000, 5.5",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Fes sempre una comprovació ràpida abans de baixar del vehicle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Marcadors estàndard de comunicació",
+      "blocks": [
+        {
+          "text": "Els marcadors són paraules predefinides que marquen el torn, confirmen la recepció i ordenen la conversa. Els principals: PER/DE/AQUÍ (emissor), DEMANANT, ENDAVANT (llest per escoltar), REBUT, CANVI (cedeix el torn), CANVI I TALLO (fi, sense resposta), AFIRMATIU, NEGATIU, ESPERI, REPETEIXI, RECEPCIÓ NEGATIVA, PRIORITARI (missatge urgent), SILENCI RÀDIO, LLETREJO, RECTIFICO, INTERROGO, A TOTA LA MALLA (totes les unitats del canal) i CODI VERMELL (aspecte crític de seguretat).",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Serveixen per marcar el torn de paraula, confirmar la recepció, ordenar la conversa, i assegurar que cada missatge s’entén correctament sense necessitat de repetir-lo."
+            },
+            {
+              "ref": "MAN.COMU.000, annex 1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "CANVI I TALLO Finalitza la conversa, no s’espera resposta."
+            },
+            {
+              "ref": "MAN.COMU.000, annex 1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "CODI VERMELL Indica que l’emissor té un aspecte crític de seguretat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Codificació de missatges i comandaments",
+      "blocks": [
+        {
+          "text": "Els codis abreugen missatges, protegeixen informació sensible i identifiquen posicions. Codis ZULU: ZULU PAPA, serveis policials; ZULU MIKE, serveis sanitaris; ZULU 5, ferit greu; ZULU 55, bomber ferit greu; ZULU 6, èxitus; ZULU DELTA, situació delictiva; ZULU ALFA, intent d'autòlisi.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, annex 2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "també s’utilitzen quan cal transmetre informació sensible"
+            },
+            {
+              "ref": "MAN.COMU.000, annex 2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "ZULU 55 Identifica bomber ferit greu"
+            },
+            {
+              "ref": "MAN.COMU.000, annex 2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "ZULU 6 Identifica persona èxitus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Bona comunicació: clara, precisa, breu, estructurada i confirmada. Principis del manual: brevetat, claredat i disciplina.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.4",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "És breu: utilitza el mínim de paraules per transmetre el màxim d’informació útil."
+            }
+          ]
+        },
+        {
+          "text": "Primer el receptor, després l'emissor. {CANVI} = espero resposta; {CANVI I TALLO} = fi. «Afirmatiu»/«negatiu», no «sí»/«no».",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "indicant així que s’espera una resposta del receptor."
+            }
+          ]
+        },
+        {
+          "text": "Jerarquia +1/-1; només se salten nivells per un aspecte crític. Prioritat: seguretat de les persones primer.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 2.6.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "Només es poden saltar nivells si hi ha un aspecte crític a nivell operatiu o de seguretat."
+            }
+          ]
+        },
+        {
+          "text": "Sense resposta: esperar 30 s. Qualitat del senyal: escala 1-5. Micròfon a 2-3 cm.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 3.5.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "ha d’esperar 30 segons abans de tornar a repetir el missatge"
+            }
+          ]
+        },
+        {
+          "text": "Pla de comunicacions: cap d'intervenció, dins del PAI. Intervenció ordinària: canal de treball d'agrupació. Canvi de canal: com més aviat millor.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 4.1",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "és responsabilitat del cap d’intervenció"
+            }
+          ]
+        },
+        {
+          "text": "RESCAT: xarxa exclusiva d'emergències, TETRA. Mode directe: 500 m-1 km, sense GPS ni SDS. SDS: 120 caràcters. Estat: 2 segons.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.2.2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "(normalment entre 500 metres i 1 km)"
+            }
+          ]
+        },
+        {
+          "text": "Trucada individual: privada; la reben tots, la inicien només alguns; aïlla del canal. Emergència en directe: qui la inicia pot reprendre la paraula.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, 5.3.3",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "És una comunicació privada entre dos transceptors portàtils"
+            }
+          ]
+        },
+        {
+          "text": "Pont ràdio: no parla. Repetidor: sí que parla. ZULU 5 ferit greu; ZULU 55 bomber ferit greu.",
+          "refs": [
+            {
+              "ref": "MAN.COMU.000, annex 2",
+              "law": "MAN.COMU.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-17-MAN.COMU.000.pdf",
+              "quote": "ZULU 5 Identifica ferit greu"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

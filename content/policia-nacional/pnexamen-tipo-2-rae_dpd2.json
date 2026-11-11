@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-rae_dpd2-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario panhispánico de dudas (RAE-ASALE), 2.ª ed. en línea: puntuación, mayúsculas, números, siglas y gramática",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 82, tema P37) · DPD, comillas 1",
+      "stem": "Según el Diccionario panhispánico de dudas, en los textos impresos se recomienda utilizar en primera instancia las comillas:",
+      "options": [
+        "Angulares.",
+        "Inglesas.",
+        "Simples."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El DPD recomienda usar primero las comillas angulares (« »), reservando las inglesas y las simples para entrecomillar partes de un texto ya entrecomillado.",
+      "excerpt": "En los textos impresos, se recomienda utilizar en primera instancia las comillas angulares, reservando los otros tipos para cuando deban entrecomillarse partes de un texto ya entrecomillado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 83, tema P37) · DPD, comillas 2.d",
+      "stem": "Según el Diccionario panhispánico de dudas, en un texto impreso escrito en letra redonda, los extranjerismos crudos se reproducen preferentemente:",
+      "options": [
+        "Entre comillas.",
+        "En letra negrita.",
+        "En letra cursiva."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DPD señala que en textos impresos o electrónicos en redonda es más frecuente y recomendable escribir los extranjerismos crudos en cursiva que entre comillas.",
+      "excerpt": "En textos impresos o electrónicos escritos en letra redonda, es más frecuente y recomendable reproducir los extranjerismos crudos en letra cursiva que entre comillas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

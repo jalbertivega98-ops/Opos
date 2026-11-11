@@ -72,5 +72,516 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Internet: direcciones IP y protocolos básicos",
+      "blocks": [
+        {
+          "text": "Internet conecta millones de equipos, y cada uno necesita una identificación. Esa identificación es la dirección IP (de Internet Protocol): un número único e irrepetible que identifica a todo sistema conectado a una red. En su versión 4 (IPv4) se escribe como cuatro números del 0 al 255 separados por puntos. Este dato cae con frecuencia: un número mayor de 255 en alguno de los cuatro bloques no puede formar parte de una IPv4.",
+          "refs": [
+            {
+              "ref": "INCIBE, Dirección IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Las direcciones IP (del acrónimo inglés IP para Internet Protocol) son un número único e irrepetible con el cual se identifica a todo sistema conectado a una red. Así, una dirección IP (o simplemente IP) en su versión v4 es un conjunto de cuatro números del 0 al 255 separados por puntos."
+            }
+          ]
+        },
+        {
+          "text": "Normalmente el usuario no configura su IP a mano: lo hace DHCP (Protocolo de configuración dinámica de host), un protocolo cliente-servidor que asigna automáticamente al equipo su dirección IP y otros datos de configuración, como la máscara de subred y la puerta de enlace predeterminada. El servidor DHCP mantiene un grupo de direcciones y concede una a cada cliente habilitado cuando se inicia en la red.",
+          "refs": [
+            {
+              "ref": "DHCP",
+              "law": "Microsoft Learn (DHCP)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/technologies/dhcp/dhcp-top",
+              "quote": "El Protocolo de configuración dinámica de host (DHCP) es un protocolo cliente-servidor que proporciona automáticamente un host de protocolo de Internet (IP) con su dirección IP y otra información de configuración relacionada, como la máscara de subred y la puerta de enlace de predeterminada."
+            },
+            {
+              "ref": "DHCP",
+              "law": "Microsoft Learn (DHCP)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/technologies/dhcp/dhcp-top",
+              "quote": "El servidor DHCP mantiene un grupo de direcciones IP y concede una dirección a cualquier cliente habilitado para DHCP cuando se inicia en la red."
+            }
+          ]
+        },
+        {
+          "text": "Para proteger lo que viaja por la red se usan protocolos criptográficos: TLS (seguridad de la capa de transporte) y su predecesor SSL (capa de sockets seguros). Microsoft pone como ejemplo Exchange Online, que usa TLS para cifrar las conexiones entre sus servidores de correo y con otros servidores. La versión segura de HTTP, que se usa en la Web, es HTTPS.",
+          "refs": [
+            {
+              "ref": "TLS en Exchange Online",
+              "law": "Microsoft Learn (TLS)",
+              "url": "https://learn.microsoft.com/es-es/purview/exchange-online-uses-tls-to-secure-email-connections",
+              "quote": "La seguridad de la capa de transporte (TLS) y la capa de sockets seguros (SSL) anteriores a TLS son protocolos criptográficos."
+            },
+            {
+              "ref": "TLS en Exchange Online",
+              "law": "Microsoft Learn (TLS)",
+              "url": "https://learn.microsoft.com/es-es/purview/exchange-online-uses-tls-to-secure-email-connections",
+              "quote": "Exchange Online usa TLS para cifrar las conexiones entre los servidores de Exchange y las conexiones entre los servidores de Exchange y otros servidores."
+            },
+            {
+              "ref": "INCIBE, HTTPS",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Dicho en otras palabras, es la versión segura de HTTP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Servicios de Internet: proxy, red privada virtual y nube",
+      "blocks": [
+        {
+          "text": "Entre la red local de una organización e Internet suelen colocarse intermediarios. El proxy es tanto el equipo como el software que hace de intermediario en las peticiones de los equipos de una red LAN hacia Internet. Distinta es la red privada virtual (VPN, Virtual Private Network): una tecnología que permite extender de forma segura una red local (LAN) sobre una red pública o no controlada como Internet; es lo que permite, por ejemplo, trabajar desde casa como si se estuviera conectado a la red de la oficina.",
+          "refs": [
+            {
+              "ref": "INCIBE, Proxy",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "El proxy es tanto el equipo, como el software encargado de dar el servicio, que hacen de intermediario en las peticiones de los equipos de la redes LAN hacia Internet."
+            },
+            {
+              "ref": "INCIBE, Red privada virtual",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Una red privada virtual, también conocida por sus siglas VPN (Virtual Private Network) es una tecnología de red que permite una extensión segura de una red local (LAN) sobre una red pública o no controlada como Internet."
+            }
+          ]
+        },
+        {
+          "text": "Internet es también el canal de la informática en la nube, que Microsoft define como la entrega de servicios informáticos, como servidores o almacenamiento, a través de la red. Las fuentes recogidas para este tema no incluyen otros servicios clásicos de Internet (correo, FTP, etc.) con definición oficial; el correo electrónico se estudia en el tema de Outlook.",
+          "refs": [
+            {
+              "ref": "Azure, ¿Qué es la informática en la nube?",
+              "law": "Microsoft Azure (informática en la nube)",
+              "url": "https://azure.microsoft.com/es-MX/resources/cloud-computing-dictionary/what-is-cloud-computing",
+              "quote": "La informática en la nube es la entrega de servicios informáticos, como servidores, almacenamiento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "DNS: resolución de nombres",
+      "blocks": [
+        {
+          "text": "Las personas recuerdan nombres (por ejemplo, un dominio web), pero los equipos se localizan por su dirección IP. El DNS (Domain Name Service o sistema de nombres de dominio) resuelve ese problema: el término designa tanto el servicio como el servidor que lo ofrece, y su función más importante es traducir nombres inteligibles para las personas en direcciones IP de los sistemas conectados a la red. Dicho con las palabras de Microsoft, el cliente DNS convierte los nombres de equipo en direcciones IP.",
+          "refs": [
+            {
+              "ref": "INCIBE, DNS",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "El término DNS, del inglés Domain Name Service, se refiere tanto al servicio de Nombres de Dominio, como al servidor que ofrece dicho servicio. Su función más importante es traducir nombres inteligibles para las personas en direcciones IP asociados con los sistemas conectados a la red"
+            },
+            {
+              "ref": "DNS en Windows",
+              "law": "Microsoft Learn (DNS)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+              "quote": "Convierte los nombres de equipo en direcciones IP."
+            }
+          ]
+        },
+        {
+          "text": "En las redes de Windows, DNS es el servicio de resolución de nombres predeterminado. Permite a los clientes resolver nombres y buscar controladores de dominio, y los propios controladores de dominio lo usan para localizarse entre sí. El servicio cliente DNS viene incluido en todas las versiones cliente y servidor de Windows y se ejecuta por defecto tras instalar el sistema. Dentro del modelo de referencia TCP/IP, DNS pertenece a la capa de aplicación (no a la de transporte ni a la de red): pregunta típica de dificultad alta.",
+          "refs": [
+            {
+              "ref": "DNS en Windows",
+              "law": "Microsoft Learn (DNS)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+              "quote": "En las redes de Windows, DNS es el servicio de resolución de nombres predeterminado. […] Esto permite a los clientes resolver nombres en direcciones IP y buscar controladores de dominio. […] Los controladores de dominio también usan DNS para localizarse entre sí."
+            },
+            {
+              "ref": "DNS en Windows",
+              "law": "Microsoft Learn (DNS)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+              "quote": "DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP, como se muestra en la ilustración siguiente. […] El servicio cliente DNS se incluye en todas las versiones de cliente y servidor del sistema operativo Windows. […] El servicio se ejecuta de forma predeterminada después de instalar el sistema operativo."
+            }
+          ]
+        },
+        {
+          "text": "Como el DNS es una pieza crítica, también es objetivo de ataques: el pharming aprovecha una vulnerabilidad del software de los servidores DNS (para llevar al usuario a un sitio falso aunque escriba bien la dirección).",
+          "refs": [
+            {
+              "ref": "INCIBE, Pharming",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Ataque informático que aprovecha una vulnerabilidad del software de los servidores DNS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "HTTP: solicitudes, respuestas y direcciones URL",
+      "blocks": [
+        {
+          "text": "HTTP sigue el modelo cliente-servidor: el explorador (cliente) solo realiza solicitudes y el servidor las atiende con respuestas; tras recibir la petición, el servidor envía una respuesta HTTP al explorador. Lo que se pide es un recurso, que puede ser un gráfico, un texto, una aplicación, etc.",
+          "refs": [
+            {
+              "ref": "Introducción a HTTP",
+              "law": "Microsoft Learn (HTTP)",
+              "url": "https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http",
+              "quote": "Un explorador solo realiza solicitudes y el servidor atiende las solicitudes del cliente con respuestas. […] A continuación, el servidor envía una respuesta HTTP al explorador web. […] Un recurso puede ser gráficos, texto o una aplicación, etc."
+            }
+          ]
+        },
+        {
+          "text": "La dirección URL tiene partes que conviene distinguir. El esquema (por ejemplo, http o https) indica al servidor qué tipo de recurso busca el cliente. El puerto puede omitirse: si no aparece, se usa el predeterminado del esquema. La cadena de consulta se separa siempre del resto de la URL con un signo de interrogación (?), dato que se pregunta con frecuencia. Para que un dominio funcione, la URL debe asociarse a una dirección IP y registrarse en DNS, porque el DNS asigna dominios a su IP.",
+          "refs": [
+            {
+              "ref": "Introducción a HTTP",
+              "law": "Microsoft Learn (HTTP)",
+              "url": "https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http",
+              "quote": "El esquema indica al servidor en qué tipo de recurso está buscando el cliente (el explorador). […] Si el puerto no aparece en la lista, se usa el puerto predeterminado para el esquema."
+            },
+            {
+              "ref": "Introducción a HTTP",
+              "law": "Microsoft Learn (HTTP)",
+              "url": "https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http",
+              "quote": "Las cadenas de consulta siempre se separan del resto de la dirección URL mediante un signo de interrogación. […] Los sistemas de nombres de dominio asignan dominios a su dirección IP. […] Al registrar una dirección URL, debe adjuntarla a una dirección IP y registrarla con DNS."
+            }
+          ]
+        },
+        {
+          "text": "Uniendo las piezas, el recorrido de una visita web es este: el usuario escribe una URL; el cliente DNS traduce el nombre de dominio a la dirección IP del servidor; el explorador envía la solicitud HTTP a esa IP; y el servidor devuelve la respuesta con el recurso pedido. Si la dirección empieza por https, la comunicación viaja protegida, porque HTTPS es la versión segura de HTTP. Por eso un fallo de DNS impide abrir una web aunque el servidor funcione: el explorador no sabe a qué IP dirigirse.",
+          "refs": [
+            {
+              "ref": "Introducción a HTTP",
+              "law": "Microsoft Learn (HTTP)",
+              "url": "https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http",
+              "quote": "Los sistemas de nombres de dominio asignan dominios a su dirección IP. […] A continuación, el servidor envía una respuesta HTTP al explorador web."
+            },
+            {
+              "ref": "DNS en Windows",
+              "law": "Microsoft Learn (DNS)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+              "quote": "Convierte los nombres de equipo en direcciones IP."
+            },
+            {
+              "ref": "INCIBE, HTTPS",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Dicho en otras palabras, es la versión segura de HTTP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Navegadores: Microsoft Edge y sus métodos abreviados generales",
+      "blocks": [
+        {
+          "text": "El navegador de Windows 11 es Microsoft Edge. Sus atajos más preguntados se agrupan por función. Para la página actual: F5 vuelve a cargar la pestaña; Ctrl+Mayús+R recarga omitiendo la caché; Ctrl+P imprime; Ctrl+F abre la búsqueda en la página; Ctrl+U muestra el código fuente; F12 abre las Herramientas de desarrollo; F11 activa o desactiva la pantalla completa. Para el zoom: Ctrl + signo más acerca, Ctrl + signo menos aleja y Ctrl+0 restablece el nivel de zoom.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "F5 | Volver a cargar la pestaña actual […] Ctrl+Mayús+R | Volver a cargar la página actual y omitir el contenido en caché […] Ctrl+P | Imprimir la página actual […] Ctrl+F | Abrir búsqueda en la página"
+            },
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "F11 | Ir a pantalla completa (alternar) […] F12 | Abrir Herramientas de desarrollo […] Ctrl+Signo más(+) | Acercar […] Ctrl+Signo menos (-) | Alejar […] Ctrl+0 | Restablecer nivel de zoom de página […] Ctrl+U | Ver origen"
+            }
+          ]
+        },
+        {
+          "text": "Para la barra de direcciones y la navegación: Ctrl+L selecciona la URL para editarla; Ctrl+K o Ctrl+E abren una búsqueda en la barra de direcciones; Alt+Flecha izquierda vuelve atrás; Alt+Inicio abre la página principal; Alt+F abre el menú «Configuración y más»; Ctrl+Mayús+Y abre Colecciones y Ctrl+Mayús+U inicia o detiene la lectura en voz alta. Atención: la página de Microsoft recogida asigna Ctrl+D a «guardar como favorita» y, en otra fila, también a «volver a cargar»; para recargar, el atajo seguro es F5.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+L | Seleccionar la URL de la barra de direcciones para editarla […] Ctrl+K | Abrir una consulta de búsqueda en la barra de direcciones […] Ctrl+E | Abrir una consulta de búsqueda en la barra de direcciones"
+            },
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Alt (en inglés)+Inicio | Abrir la página principal en la pestaña actual […] Alt (en inglés)+Flecha izquierda | Volver atrás […] Alt+F | Abrir el menú Configuración y más […] Ctrl+Mayús+Y | Abrir Colecciones […] Ctrl+Mayús+U | Iniciar o detener la lectura en voz alta"
+            },
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+D | Guardar la pestaña actual como favorita […] CTRL+D | Volver a cargar la página actual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Pestañas, ventanas, historial, descargas y favoritos",
+      "blocks": [
+        {
+          "text": "Pestañas y ventanas: Ctrl+T abre una pestaña nueva y cambia a ella; Ctrl+W cierra la pestaña actual; Ctrl+Mayús+T reabre la última pestaña cerrada (la «T» de pestaña más Mayús para deshacer el cierre). Ctrl+N abre una ventana nueva y Ctrl+Mayús+N una ventana InPrivate. Para moverse: Ctrl+Tab pasa a la pestaña siguiente, Ctrl+1 a Ctrl+8 saltan a una pestaña concreta y Ctrl+9 va a la última.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+T | Abrir una pestaña nueva y cambiar a ella […] Ctrl+N | Abrir una nueva ventana […] Ctrl+Mayús+N | Abrir una nueva ventana de InPrivate […] Ctrl+W | Cerrar la pestaña actual […] Ctrl+Mayús+T | Volver a abrir la última pestaña cerrada y cambiar a ella"
+            },
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+Pestaña | Cambiar a la pestaña siguiente […] Ctrl+1, 2, ... 8 | Pasar a una pestaña específica […] Ctrl+9 | Pasar a la última pestaña"
+            }
+          ]
+        },
+        {
+          "text": "Historial, descargas y favoritos: Ctrl+H abre el historial; Ctrl+J abre Descargas; Ctrl+D guarda la pestaña actual en favoritos; Ctrl+Mayús+O abre Favoritos y Ctrl+Mayús+B muestra u oculta la barra de favoritos. Para borrar el rastro de navegación, Ctrl+Mayús+Supr abre las opciones de borrar los datos de exploración. Truco de memoria: H de historial, J de «jalar» las descargas, D de «destacar» la página.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+H | Abrir historial […] Ctrl+J | Abrir Descargas […] Ctrl+D | Guardar la pestaña actual como favorita"
+            },
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+Mayús+O | Abrir Favoritos […] Ctrl+Mayús+B | Mostrar u ocultar la barra de favoritos […] Ctrl+Mayús+ Suprimir | Abrir las opciones de borrar los datos de exploración"
+            }
+          ]
+        },
+        {
+          "text": "Otros atajos útiles para la accesibilidad y la productividad: F6 cambia el foco al siguiente panel; F7 activa o desactiva la exploración mediante el símbolo de intercalación (moverse por la página con un cursor de texto); y Ctrl+Mayús+E abre la búsqueda en la barra lateral.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "F7 | Activar o desactivar la exploración mediante el símbolo de intercalación […] Ctrl+Mayús+E | Abrir la búsqueda en la barra lateral […] F6 | Cambiar el foco al siguiente panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Exploración InPrivate",
+      "blocks": [
+        {
+          "text": "Una ventana InPrivate permite navegar sin guardar en el dispositivo el historial de exploración, las cookies, los datos de los sitios ni las entradas de formularios. Los datos de exploración (historial, archivos temporales de Internet y cookies) no se guardan en el equipo cuando se termina la sesión. Lo que sí se conserva son las descargas y los favoritos: es la respuesta correcta típica cuando se pregunta qué datos permite guardar.",
+          "refs": [
+            {
+              "ref": "Explorar InPrivate",
+              "law": "Soporte Microsoft (Edge: InPrivate)",
+              "url": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+              "quote": "La ventana de InPrivate en Microsoft Edge le permite navegar por la Web sin guardar el historial de exploración […] las cookies, los datos del sitio o las entradas de formularios en su dispositivo."
+            },
+            {
+              "ref": "Explorar InPrivate",
+              "law": "Soporte Microsoft (Edge: InPrivate)",
+              "url": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+              "quote": "Al usar las pestañas o ventanas InPrivate, los datos de exploración […] (por ejemplo, el historial, archivos temporales de Internet y cookies) […] no se guardan en el equipo cuando terminas. […] permitir guardar descargas y favoritos."
+            }
+          ]
+        },
+        {
+          "text": "Hay dos formas de abrirla: con el teclado, Ctrl+Mayús+N; o con el ratón, desde el icono «Configuración y más» (los tres puntos) y luego «Nueva ventana InPrivate».",
+          "refs": [
+            {
+              "ref": "Explorar InPrivate",
+              "law": "Soporte Microsoft (Edge: InPrivate)",
+              "url": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+              "quote": "En Microsoft Edge, seleccione el icono Configuración y más […] y, después, la ventana Nuevo InPrivate."
+            },
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+Mayús+N | Abrir una nueva ventana de InPrivate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Navegación segura: SmartScreen de Microsoft Defender y prevención de seguimiento",
+      "blocks": [
+        {
+          "text": "El phishing es la técnica en la que alguien suplanta a una entidad o servicio mediante un correo o un mensaje instantáneo para conseguir credenciales o datos de la tarjeta de crédito. Para defenderse, Edge integra SmartScreen de Microsoft Defender, que ayuda a protegerse de los sitios de suplantación de identidad (phishing). Si un sitio está marcado, Edge muestra un aviso y sugiere evitarlo porque su uso pondrá en riesgo la privacidad y la seguridad.",
+          "refs": [
+            {
+              "ref": "INCIBE, Phishing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario."
+            },
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "SmartScreen de Microsoft Defender le ayuda a protegerse de sitios de suplantación de identidad (phishing) […] Este sitio web ha sido marcado por SmartScreen de Microsoft Defender. […] Microsoft Edge sugiere que lo evite. El uso de este sitio pondrá en riesgo su privacidad y seguridad."
+            }
+          ]
+        },
+        {
+          "text": "La prevención de seguimiento limita el rastreo de los sitios. Edge ofrece exactamente tres niveles: Básico, Equilibrado y Estricto (los distractores suelen inventar niveles como «Alto» o «Personalizado»), y el usuario puede ajustarlo.",
+          "refs": [
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "Puedes elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto. […] Puedes ajustar el nivel de prevención de seguimiento mediante:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Seguridad de la conexión, descargas y actualizaciones",
+      "blocks": [
+        {
+          "text": "Mientras se navega, un icono en la barra de direcciones indica la seguridad de la conexión y ayuda a saber si se puede enviar y recibir información de forma segura. Si el sitio tiene un certificado válido emitido por una autoridad de confianza, la conexión es segura, aunque incluso un sitio con certificado válido puede tener mala reputación. Si no tiene certificado válido, hay riesgo para los datos personales y Edge aconseja no escribir información personal o evitar el sitio.",
+          "refs": [
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "Mientras navega por la Web, verá un icono en la barra de direcciones que indica la seguridad de la conexión […] Este icono le ayuda a determinar si puede enviar y recibir información del sitio de forma segura. […] El sitio web que está visitando tiene un certificado válido emitido por una autoridad de confianza."
+            },
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "incluso los sitios web con certificados válidos pueden tener una mala reputación […] Este sitio web no tiene un certificado válido. […] Microsoft Edge sugiere que no escriba información personal en este sitio o evite usarla por completo."
+            }
+          ]
+        },
+        {
+          "text": "Descargar archivos puede exponer el equipo a malware. Las pautas oficiales: descargar solo de sitios y fuentes de confianza y, antes de abrir lo descargado, comprobar su integridad con un antivirus o un servicio en línea.",
+          "refs": [
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "Descargar archivos de Internet puede exponer su equipo a malware y otras amenazas de seguridad. […] descarga solo archivos de sitios web y fuentes de confianza. […] antes de abrir los archivos descargados, compruebe su integridad mediante software antivirus o servicios en línea."
+            }
+          ]
+        },
+        {
+          "text": "Por último, hay que usar la última versión de Edge. Las actualizaciones automáticas permiten recibir las correcciones de seguridad más recientes; se comprueba en «Acerca de Microsoft Edge», donde debe estar habilitada esa opción.",
+          "refs": [
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "Asegúrese de que está usando la última versión de Microsoft Edge […] Puede habilitar las actualizaciones automáticas para recibir automáticamente las correcciones de seguridad más recientes. […] Seleccione Acerca de Microsoft Edge y asegúrese de que la opción de actualizaciones automáticas está habilitada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "IPv4: cuatro números del 0 al 255 separados por puntos.",
+          "refs": [
+            {
+              "ref": "INCIBE, Dirección IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "en su versión v4 es un conjunto de cuatro números del 0 al 255 separados por puntos."
+            }
+          ]
+        },
+        {
+          "text": "DNS traduce nombres en direcciones IP y pertenece a la capa de aplicación del modelo TCP/IP.",
+          "refs": [
+            {
+              "ref": "DNS en Windows",
+              "law": "Microsoft Learn (DNS)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+              "quote": "DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP"
+            }
+          ]
+        },
+        {
+          "text": "En una URL, la cadena de consulta va siempre tras el signo «?».",
+          "refs": [
+            {
+              "ref": "Introducción a HTTP",
+              "law": "Microsoft Learn (HTTP)",
+              "url": "https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http",
+              "quote": "Las cadenas de consulta siempre se separan del resto de la dirección URL mediante un signo de interrogación."
+            }
+          ]
+        },
+        {
+          "text": "VPN: extensión segura de una LAN sobre Internet; proxy: intermediario entre la LAN e Internet.",
+          "refs": [
+            {
+              "ref": "INCIBE, Red privada virtual",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "permite una extensión segura de una red local (LAN) sobre una red pública o no controlada como Internet."
+            }
+          ]
+        },
+        {
+          "text": "Edge: Ctrl+T pestaña nueva, Ctrl+Mayús+T reabrir la cerrada, Ctrl+H historial, Ctrl+J descargas, F11 pantalla completa.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+H | Abrir historial […] Ctrl+J | Abrir Descargas […] F11 | Ir a pantalla completa (alternar)"
+            }
+          ]
+        },
+        {
+          "text": "Ctrl+Mayús+N abre InPrivate, que no guarda historial ni cookies pero sí descargas y favoritos.",
+          "refs": [
+            {
+              "ref": "Explorar InPrivate",
+              "law": "Soporte Microsoft (Edge: InPrivate)",
+              "url": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+              "quote": "permitir guardar descargas y favoritos."
+            }
+          ]
+        },
+        {
+          "text": "Ctrl+Mayús+Supr: borrar datos de exploración.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Edge",
+              "law": "Soporte Microsoft (Edge: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/microsoft-edge/m%C3%A9todos-abreviados-de-teclado-en-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad",
+              "quote": "Ctrl+Mayús+ Suprimir | Abrir las opciones de borrar los datos de exploración"
+            }
+          ]
+        },
+        {
+          "text": "SmartScreen protege del phishing; prevención de seguimiento: Básico, Equilibrado y Estricto.",
+          "refs": [
+            {
+              "ref": "Explorar la Web de forma segura",
+              "law": "Soporte Microsoft (Edge: seguridad)",
+              "url": "https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge",
+              "quote": "Puedes elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Microsoft Learn (DNS) (https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview), Microsoft Learn (HTTP) (https://learn.microsoft.com/es-es/xandr/industry-reference/intro-to-http), Soporte Microsoft (Edge: InPrivate) (https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge), Soporte Microsoft (Edge: seguridad) (https://support.microsoft.com/es-es/edge/securely-browse-the-web-in-microsoft-edge)"
 }

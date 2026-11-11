@@ -47,6 +47,36 @@
       "explanation": "La ruta indicada crea una carpeta comprimida con el mismo nombre en la misma ubicación; «Extraer todo» descomprime.",
       "excerpt": "Mostrar más opciones>Enviar a>carpeta comprimida (en zip).",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Comprimir y descomprimir archivos · Carpeta creada",
+      "stem": "Según Microsoft, al comprimir un archivo con la opción «Enviar a > Carpeta comprimida (en zip)»:",
+      "options": [
+        "Se sustituye el archivo original por su versión comprimida.",
+        "Se crea la carpeta comprimida en el escritorio.",
+        "Se guarda la carpeta comprimida en la carpeta Descargas.",
+        "Se crea una nueva carpeta comprimida con el mismo nombre en la misma ubicación."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La página de Microsoft indica que se crea una nueva carpeta comprimida con el mismo nombre y en la misma ubicación.",
+      "excerpt": "Se crea una nueva carpeta comprimida con el mismo nombre en la misma ubicación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Comprimir y descomprimir archivos · Formatos",
+      "stem": "Según Microsoft, Windows 11 versión 24H2 admite los formatos ZIP, RAR, 7z y TAR, pero:",
+      "options": [
+        "Solo permite extraerlos, no crearlos.",
+        "Solo admite archivos de un tamaño máximo de 4 GB.",
+        "Requiere instalar una aplicación adicional para los archivos RAR.",
+        "No admite operaciones en archivos de archivo cifrados."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La página de Microsoft advierte que no se admiten operaciones en archivos de archivo cifrados.",
+      "excerpt": "Windows 11, versión 24H2 admite ZIP, RAR. Formatos de archivo 7z y TAR. […] Sin embargo, no admite operaciones en archivos de archivo cifrados.",
+      "excerpt_status": "completo"
     }
   ]
 }

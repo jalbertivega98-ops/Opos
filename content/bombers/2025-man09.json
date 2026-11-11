@@ -48,6 +48,36 @@
       "explanation": "Moment = força × distància = 50 N × 0,4 m = 20 N·m.",
       "excerpt": "Es mesura en newton-metre (Nm), i es calcula multiplicant el valor d'una de les forces per la distància que separa els seus punts d'aplicació.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 70) · MAN.GRAL.003, § 4.4.3",
+      "stem": "Una motobomba fa un treball de 90.000 J en 30 segons. Quina potència desenvolupa?",
+      "options": [
+        "2.700.000 W.",
+        "300 W.",
+        "0,33 W.",
+        "3.000 W."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "P = W / t = 90.000 J / 30 s = 3.000 W.",
+      "excerpt": "Com el treball (J) realitzat dividit pel temps (s), o com la força (N) per la velocitat (m/s). La potència es mesura en watts (W).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 73) · MAN.GRAL.003, § 4.4.2.2",
+      "stem": "Un bomber de 80 kg que porta 20 kg d'equip puja per una escala fins a 12 m d'alçada. Si g = 10 m/s², quina energia potencial guanya el conjunt bomber-equip?",
+      "options": [
+        "9.600 J.",
+        "12.000 J.",
+        "1.200 J.",
+        "120.000 J."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ep = m · g · h = (80 + 20) kg × 10 m/s² × 12 m = 12.000 J. Si només es compta el bomber surten 9.600 J.",
+      "excerpt": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada. […] m és la massa (en kg). […] h és l’alçada (en m).",
+      "excerpt_status": "completo"
     }
   ]
 }

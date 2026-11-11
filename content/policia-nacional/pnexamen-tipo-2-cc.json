@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-cc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 24 de julio de 1889, Código Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 1, tema P01) · Art. 14.4 CC",
+      "stem": "Según el Código Civil, ¿qué efecto tiene el matrimonio sobre la vecindad civil de los cónyuges?",
+      "options": [
+        "La altera: la mujer adquiere siempre la vecindad civil del marido.",
+        "La altera: ambos adquieren la vecindad civil del lugar donde se celebra el matrimonio.",
+        "No la altera, aunque cualquiera de los cónyuges no separados puede optar por la vecindad civil del otro."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 14.4 CC establece que el matrimonio no altera la vecindad civil, pero permite a cualquiera de los cónyuges no separados, legalmente o de hecho, optar en todo momento por la vecindad civil del otro.",
+      "excerpt": "4. El matrimonio no altera la vecindad civil. No obstante, cualquiera de los cónyuges no separados, ya sea legalmente o de hecho, podrá, en todo momento, optar por la vecindad civil del otro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 2, tema P01) · Art. 26.1 CC",
+      "stem": "Según el artículo 26 del Código Civil, para recuperar la nacionalidad española quien la haya perdido debe, entre otros requisitos:",
+      "options": [
+        "Declarar ante el encargado del Registro Civil su voluntad de recuperarla e inscribir la recuperación en el Registro Civil.",
+        "Residir legalmente en España durante diez años inmediatamente anteriores a la solicitud.",
+        "Renunciar a su anterior nacionalidad ante el Ministerio de Asuntos Exteriores."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 26.1 CC exige ser residente legal en España (salvo emigrantes e hijos de emigrantes, y con posible dispensa del Ministro de Justicia), declarar ante el encargado del Registro Civil la voluntad de recuperar la nacionalidad e inscribir la recuperación.",
+      "excerpt": "b) Declarar ante el encargado del Registro Civil su voluntad de recuperar la nacionalidad española. c) Inscribir la recuperación en el Registro Civil.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

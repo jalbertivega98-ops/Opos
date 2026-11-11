@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-rdue-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 240/2007, de 16 de febrero, entrada, libre circulación y residencia en España de ciudadanos de la UE y del EEE (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 23, tema P10) · Art. 4.1 RD 240/2007",
+      "stem": "Según el Real Decreto 240/2007, la entrada en territorio español del ciudadano de la Unión se efectuará con:",
+      "options": [
+        "El pasaporte o documento de identidad válido y en vigor en el que conste su nacionalidad.",
+        "El pasaporte válido y en vigor y el correspondiente visado de entrada.",
+        "El certificado de registro de ciudadano de la Unión."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 4.1 RD 240/2007 basta el pasaporte o el documento de identidad válido y en vigor en el que conste la nacionalidad; el visado solo puede exigirse a familiares no comunitarios (art. 4.2).",
+      "excerpt": "1. La entrada en territorio español del ciudadano de la Unión se efectuará con el pasaporte o documento de identidad válido y en vigor y en el que conste la nacionalidad del titular.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 24, tema P10) · Art. 4.2 RD 240/2007",
+      "stem": "Según el Real Decreto 240/2007, la expedición de los visados de entrada a los familiares no comunitarios de un ciudadano de la Unión:",
+      "options": [
+        "Devengará la tasa ordinaria y se tramitará por el procedimiento general.",
+        "Será gratuita solo si el familiar es menor de veintiún años.",
+        "Será gratuita y su tramitación tendrá carácter preferente cuando acompañen al ciudadano de la Unión o se reúnan con él."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4.2 RD 240/2007 declara gratuitos y de tramitación preferente esos visados.",
+      "excerpt": "La expedición de dichos visados será gratuita y su tramitación tendrá carácter preferente cuando acompañen al ciudadano de la Unión o se reúnan con él.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

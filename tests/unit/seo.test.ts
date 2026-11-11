@@ -93,7 +93,7 @@ describe("guías públicas", () => {
   });
 });
 
-describe("examShortName (ADR-045)", () => {
+describe("examShortName (ADR-050)", () => {
   it("quita «Oposiciones a» y la convocatoria, en los dos idiomas", async () => {
     const { examGuides, examShortName, getExamGuide } = await import("@/lib/seo/exam-guides");
     const mossos = getExamGuide("mossos-esquadra")!;

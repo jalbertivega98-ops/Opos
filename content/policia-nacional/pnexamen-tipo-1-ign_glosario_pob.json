@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-ign_glosario_pob-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Glosario del Atlas Didáctico (términos de geografía de la población, urbana, económica y medio ambiente)",
+      "url": "https://educativo.ign.es/atlas-didactico/glosario/index.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG), recurso educativo oficial (CC BY 4.0)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 72, tema P32) · IGN, Glosario: Geografía",
+      "stem": "Según el glosario del Instituto Geográfico Nacional, la rama de la geografía que estudia los elementos relacionados con los habitantes de los espacios, sus actividades económicas y las comunicaciones entre territorios es la:",
+      "options": [
+        "Geografía física.",
+        "Biogeografía.",
+        "Geografía humana."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El IGN contrapone la geografía física (relieve, clima, agua, seres vivos) a la geografía humana (población, actividades económicas y transportes).",
+      "excerpt": "La geografía humana estudia los elementos relacionados con los habitantes de estos espacios (geografía de la población), sus actividades económicas en sentido genérico o en sus especialidades",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 73, tema P32) · IGN, Glosario: Área metropolitana",
+      "stem": "Según el glosario del Instituto Geográfico Nacional, el espacio urbanizado que integra una ciudad central y su periferia circundante, pudiendo incorporar otros municipios contiguos, es:",
+      "options": [
+        "Una ciudad dormitorio.",
+        "Un espacio rural.",
+        "Un área metropolitana."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El IGN define así el área metropolitana; la ciudad dormitorio es un núcleo próximo a una ciudad central cuya población trabaja en otra ciudad.",
+      "excerpt": "Espacio urbanizado que integra una ciudad central y su periferia circundante, pudiendo incorporar otros municipios contiguos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

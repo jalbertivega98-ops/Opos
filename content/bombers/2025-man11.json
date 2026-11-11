@@ -63,6 +63,66 @@
       "explanation": "Per això els diferencials d'habitatge són de 30 mA.",
       "excerpt": "S'ha establert el llindar crític de 30 mA (a 50 Hz)",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 15) · MAN.GRAL.005, § 4.3 i 7.1",
+      "stem": "Un conjunt de plaques fotovoltaiques lliura a l'inversor 400 V en corrent continu amb una intensitat de 12 A. Quina potència subministra?",
+      "options": [
+        "33,3 W.",
+        "412 W.",
+        "4.800 W.",
+        "48.000 W."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les plaques generen corrent continu, on P = V × I = 400 V × 12 A = 4.800 W.",
+      "excerpt": "La formula (bàsica) per calcular la potència elèctrica és vàlida en corrent continu o per càrregues purament resistives en corrent altern: P = V × I […] Energia fotovoltaica: Les plaques fotovoltaiques generen corrent continu directament de la llum solar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 27) · MAN.GRAL.005, § 4.1",
+      "stem": "Segons la llei d'Ohm, si en un circuit es manté la resistència i es duplica la tensió aplicada, què passa amb la intensitat?",
+      "options": [
+        "Es redueix a la meitat.",
+        "Es quadruplica.",
+        "No varia.",
+        "Es duplica."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "I = V / R: amb R constant, la intensitat és directament proporcional a la tensió.",
+      "excerpt": "La intensitat de corrent que circula per un conductor és directament proporcional a la tensió aplicada en els seus extrems i inversament proporcional a la resistència del conductor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 32) · MAN.GRAL.005, § 4.3 i 5.2.2",
+      "stem": "En un local hi ha 20 punts de llum de 115 W cadascun, connectats en paral·lel a 230 V. Quina intensitat total consumeixen quan estan tots encesos?",
+      "options": [
+        "0,5 A.",
+        "5 A.",
+        "10 A.",
+        "20 A."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Cada punt consumeix I = P / V = 115 / 230 = 0,5 A. En paral·lel les intensitats se sumen: 20 × 0,5 = 10 A (o bé 2.300 W / 230 V = 10 A).",
+      "excerpt": "P = V × I […] La intensitat total del circuit és la suma de les intensitats de cada branca:",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 36) · MAN.GRAL.005, § 9.2",
+      "stem": "Què explica físicament que es formi un arc elèctric entre dues fases?",
+      "options": [
+        "L'aire entre dos punts amb diferent tensió s'ionitza i es converteix en conductor (plasma), i el corrent hi salta.",
+        "L'aire es converteix en un aïllant perfecte i el corrent s'acumula als conductors.",
+        "El neutre absorbeix la diferència de tensió entre les dues fases.",
+        "Només és possible en corrent continu, perquè en altern el corrent passa per zero."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'arc genera calor i llum intenses, capaços de fondre metalls i provocar cremades a distància.",
+      "excerpt": "Arc elèctric: Es produeix quan el corrent \"salta\" per l'aire entre dos punts amb diferent tensió, l’aire es ionitza i es converteix en conductor (plasma).",
+      "excerpt_status": "completo"
     }
   ]
 }

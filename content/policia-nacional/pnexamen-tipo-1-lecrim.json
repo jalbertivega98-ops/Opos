@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lecrim-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 49, tema P21) · Art. 261 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, como regla general no está obligado a denunciar:",
+      "options": [
+        "El funcionario público que conozca el delito por razón de su cargo.",
+        "El médico que conozca el delito en el ejercicio de su profesión.",
+        "El cónyuge del delincuente no separado legalmente o de hecho."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 261 LECrim exime al cónyuge no separado y a determinados parientes (salvo en ciertos delitos graves contra menores o personas con discapacidad); quienes conocen el delito por su cargo o profesión sí están obligados (art. 262).",
+      "excerpt": "Tampoco estarán obligados a denunciar: 1.º Quien sea cónyuge del delincuente no separado legalmente o de hecho",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 50, tema P21) · Art. 265.1 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, las denuncias podrán hacerse:",
+      "options": [
+        "Por escrito o de palabra, personalmente o por medio de mandatario con poder especial.",
+        "Solo por escrito y firmadas por el denunciante.",
+        "Solo personalmente ante el Juez de instrucción."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 265.1 LECrim admite la denuncia escrita o verbal, personal o por mandatario con poder especial.",
+      "excerpt": "1. Las denuncias podrán hacerse por escrito o de palabra, personalmente o por medio de mandatario con poder especial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 51, tema P21) · Art. 496 LECrim",
+      "stem": "Según el artículo 496 de la Ley de Enjuiciamiento Criminal, el particular, autoridad o agente que detuviere a una persona deberá ponerla en libertad o entregarla al Juez más próximo dentro de:",
+      "options": [
+        "Las setenta y dos horas siguientes al acto de la detención.",
+        "Las veinticuatro horas siguientes al acto de la detención.",
+        "Las cuarenta y ocho horas siguientes al acto de la detención."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 496 LECrim fija 24 horas; el art. 17.2 CE y el art. 520 LECrim establecen el límite máximo de 72 horas de la detención preventiva.",
+      "excerpt": "deberá ponerla en libertad o entregarla al Juez más próximo al lugar en que hubiere hecho la detención dentro de las veinticuatro horas siguientes al acto de la misma.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

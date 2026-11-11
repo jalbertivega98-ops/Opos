@@ -63,5 +63,464 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Aritmètica: nombres, múltiples i divisors",
+      "blocks": [
+        {
+          "text": "Un nombre és el resultat de comptar les coses que formen un conjunt, i també l'ens abstracte que en resulta. Els nombres enters es classifiquen en parells (2, 4, 6, 8...) i senars o imparells (1, 3, 5, 7...). Un nombre parell es pot dividir exactament entre 2; un de senar, no. Aquesta distinció surt sovint en problemes de probabilitat amb daus (apartat 8).",
+          "refs": [
+            {
+              "ref": "DIEC, nombre",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "nombre 1 1 m. [LC] [MT] Resultat de comptar les coses que formen un agregat, i ens abstracte que resulta de generalitzar aquest resultat. Nombre parell. Nombre senar o imparell."
+            }
+          ]
+        },
+        {
+          "text": "Un múltiple d'un nombre enter és un nombre que el conté un nombre exacte de vegades. L'exemple del diccionari és que 12 és múltiple de 4, perquè 12 = 4 × 3. Per comprovar si un nombre és múltiple d'un altre, el dividim: si la divisió és exacta (residu 0), és múltiple. Així, 10 no és múltiple de 4 (10 : 4 = 2 i en sobren 2), ni 14 (14 : 4 = 3 i en sobren 2), ni 18 (18 : 4 = 4 i en sobren 2).",
+          "refs": [
+            {
+              "ref": "DIEC, múltiple",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "múltiple2 -a 1 adj. [LC] [MT] Referit a un nombre enter, que el conté un nombre exacte de vegades. 2 m. [LC] [MT] El nombre 12 és un múltiple de 4."
+            }
+          ]
+        },
+        {
+          "text": "Un divisor comú és un nombre que divideix alhora dues o més quantitats, i el màxim comú divisor (MCD) és el més gran d'aquests divisors. El diccionari posa l'exemple de 16 i 20: els divisors de 16 són 1, 2, 4, 8 i 16; els de 20 són 1, 2, 4, 5, 10 i 20; els comuns són 1, 2 i 4, i el més gran és 4. Fem-ho amb 18 i 24: divisors de 18 = 1, 2, 3, 6, 9, 18; divisors de 24 = 1, 2, 3, 4, 6, 8, 12, 24; comuns = 1, 2, 3, 6; MCD = 6. Compte amb la trampa: 72 no és un divisor de 18 i 24, sinó el nombre més petit que és múltiple de tots dos (el mínim comú múltiple).",
+          "refs": [
+            {
+              "ref": "DIEC, divisor comú",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "divisor comú Nombre que és divisor de dues o més quantitats alhora. El més gran divisor comú de 16 i 20 és 4."
+            },
+            {
+              "ref": "DIEC, màxim",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "màxim -a 1 adj. [LC] [MT] El més gran. El màxim comú divisor de dos o més nombres."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Aritmètica: fraccions i percentatges",
+      "blocks": [
+        {
+          "text": "Una fracció representa una o més parts iguals (parts alíquotes) de la unitat. A la fracció 3/4, el nombre de baix (denominador) diu en quantes parts iguals es divideix el total, i el de dalt (numerador), quantes en prenem. Per calcular la fracció d'una quantitat es divideix pel denominador i es multiplica pel numerador. Exemple: els 3/4 de 60 són 60 : 4 = 15, i 15 × 3 = 45. Un altre: els 2/5 de 30 són 30 : 5 = 6, i 6 × 2 = 12.",
+          "refs": [
+            {
+              "ref": "DIEC, fracció",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "fracció 2 2 f. [LC] [MT] En mat., una o més parts alíquotes de la unitat."
+            }
+          ]
+        },
+        {
+          "text": "Un percentatge és un tant per cent: el 25 % vol dir 25 de cada 100, és a dir, la fracció 25/100. Per calcular un percentatge es multiplica la quantitat pel tant per cent i es divideix per 100. Exemple: el 25 % de 80 = 80 × 25 : 100 = 2.000 : 100 = 20. Un altre: el 10 % de 350 = 350 × 10 : 100 = 35. Truc: el 50 % és la meitat, el 25 % és la quarta part i el 10 % s'obté dividint per 10. Els percentatges apareixen sovint a les dades oficials: per exemple, el diccionari diu que l'oxigen constitueix el 21 % de l'atmosfera en volum; per tant, en 1.000 litres d'aire n'hi ha 210 d'oxigen.",
+          "refs": [
+            {
+              "ref": "DIEC, percentatge",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "percentatge m. [LC] [MT] Tant per cent."
+            },
+            {
+              "ref": "DIEC, oxigen",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "que es troba en estat lliure en l’atmosfera, de la qual constitueix el 21 % en volum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Aritmètica: potències",
+      "blocks": [
+        {
+          "text": "Elevar un nombre al quadrat és multiplicar-lo per ell mateix. S'escriu amb un 2 petit a dalt: 7² = 7 × 7 = 49. No s'ha de confondre amb multiplicar per 2: 7 × 2 = 14 és el doble, no el quadrat. Altres exemples: 6² = 36, 8² = 64 i 10² = 100. L'operació inversa és l'arrel quadrada: l'arrel quadrada de 100 és 10, perquè 10 × 10 = 100. Els quadrats són imprescindibles per aplicar el teorema de Pitàgores (apartat 6).",
+          "refs": [
+            {
+              "ref": "DIEC, quadrar",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "quadrar 1 3 v. tr. [MT] Elevar (un nombre) al quadrat, multiplicar-lo per ell mateix."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Geometria: angles, triangles i polígons",
+      "blocks": [
+        {
+          "text": "En matemàtiques, un angle és la figura que formen dues rectes que es troben (o plans que es troben). Un triangle és la figura formada per tres línies que es tallen dues a dues formant tres angles. Segons els costats, el diccionari distingeix el triangle equilàter, l'isòsceles i l'escalè; i segons els angles, hi ha el triangle rectangle, que té un angle recte. L'equilàter té tots els costats iguals (el rombe, per la mateixa raó, és un polígon equilàter); l'isòsceles en té dos d'iguals, i el terme s'aplica tant a triangles com a trapezis.",
+          "refs": [
+            {
+              "ref": "DIEC, angle",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "angle1 2 1 m. [LC] [MT] En mat., figura formada per dues rectes que es troben, per dos plans que es troben o per tres o més plans que es troben en un punt."
+            },
+            {
+              "ref": "DIEC, triangle",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "triangle 1 1 m. [LC] [MT] Figura formada per tres línies que s’intersequen cada dues en un punt formant tres angles. Un triangle pla, esfèric. Triangle rectilini, curvilini, mixtilini. Triangle equilàter, isòsceles, escalè. Triangle rectangle."
+            },
+            {
+              "ref": "DIEC, equilàter",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "equilàter -a adj. [LC] [MT] Que té tots els costats iguals. El rombe és un polígon equilàter."
+            },
+            {
+              "ref": "DIEC, isòsceles",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "isòsceles adj. [LC] [MT] Que té dos costats iguals, s’aplica als triangles o als trapezis."
+            }
+          ]
+        },
+        {
+          "text": "Un polígon és una figura, principalment plana i tancada, formada per diverses rectes. El nom indica el nombre de costats: el pentàgon té cinc angles i cinc costats, i l'hexàgon en té sis i sis. Per recordar-ho: penta = 5, hexa = 6. En un polígon regular tots els costats fan el mateix.",
+          "refs": [
+            {
+              "ref": "DIEC, polígon",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "polígon 1 1 m. [LC] [MT] Figura, principalment plana i closa, formada per diferents rectes, especialment per més de quatre."
+            },
+            {
+              "ref": "DIEC, pentàgon i hexàgon",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "hexàgon m. [MT] Polígon de sis angles i de sis costats. […] pentàgon m. [MT] Polígon de cinc angles i de cinc costats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Geometria: el perímetre",
+      "blocks": [
+        {
+          "text": "El perímetre és el contorn d'una figura plana, i es calcula sumant la longitud de tots els costats. En un rectangle de 8 m de llarg i 5 m d'ample, el perímetre és 8 + 5 + 8 + 5 = 26 m (o bé 2 × 8 + 2 × 5 = 26 m). Compte: si multipliquem 8 × 5 = 40 obtenim l'àrea (40 m²), que mesura la superfície, no el contorn. En un polígon regular n'hi ha prou de multiplicar el costat pel nombre de costats: un pentàgon regular de 6 cm de costat fa 5 × 6 = 30 cm de perímetre, i un hexàgon regular del mateix costat, 6 × 6 = 36 cm. Un triangle equilàter de 7 cm de costat fa 3 × 7 = 21 cm.",
+          "refs": [
+            {
+              "ref": "DIEC, perímetre",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "perímetre 1 1 m. [LC] [MT] Contorn d’una figura plana."
+            },
+            {
+              "ref": "DIEC, pentàgon",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "pentàgon m. [MT] Polígon de cinc angles i de cinc costats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Geometria: el teorema de Pitàgores",
+      "blocks": [
+        {
+          "text": "En un triangle rectangle, la hipotenusa és el costat oposat a l'angle recte (el més llarg), i els altres dos costats s'anomenen catets. El diccionari mateix enuncia el teorema de Pitàgores: el quadrat de la hipotenusa és igual a la suma dels quadrats dels catets. Per calcular la hipotenusa: 1) elevem cada catet al quadrat; 2) els sumem; 3) fem l'arrel quadrada del resultat.",
+          "refs": [
+            {
+              "ref": "DIEC, hipotenusa",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "hipotenusa f. [LC] [MT] Costat d’un triangle rectangle oposat a l’angle recte. El quadrat de la hipotenusa és igual a la suma dels quadrats dels catets."
+            }
+          ]
+        },
+        {
+          "text": "Exemple 1: catets de 6 cm i 8 cm. 6² + 8² = 36 + 64 = 100, i l'arrel quadrada de 100 és 10: la hipotenusa fa 10 cm. Exemple 2: catets de 3 i 4. 3² + 4² = 9 + 16 = 25, i l'arrel de 25 és 5. Error típic: sumar directament els catets (6 + 8 = 14) o multiplicar-los (6 × 8 = 48); cap d'aquests resultats és la hipotenusa.",
+          "refs": [
+            {
+              "ref": "DIEC, hipotenusa",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "El quadrat de la hipotenusa és igual a la suma dels quadrats dels catets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Geometria: circumferència, radi i diàmetre",
+      "blocks": [
+        {
+          "text": "La circumferència és una corba plana en què tots els punts són a la mateixa distància d'un punt interior, el centre. El radi és el segment que va del centre a qualsevol punt de la circumferència; el diccionari diu que el radi és un semidiàmetre, és a dir, la meitat del diàmetre. Per tant, el diàmetre val dos radis: si el radi fa 7 cm, el diàmetre fa 2 × 7 = 14 cm; i si el diàmetre fa 10 cm, el radi fa 10 : 2 = 5 cm. No s'ha de confondre la circumferència amb altres corbes com l'el·lipse, la paràbola o la hipèrbola, en què els punts no equidisten d'un centre.",
+          "refs": [
+            {
+              "ref": "DIEC, circumferència",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "circumferència 1 1 f. [LC] [MT] Corba plana els punts de la qual equidisten tots d’un punt interior, el centre."
+            },
+            {
+              "ref": "DIEC, radi",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "radi1 1 1 m. [MT] Segment rectilini que va des del centre d’un cercle, d’una esfera, a qualsevol punt de la circumferència del cercle, de la superfície de l’esfera. El radi és un semidiàmetre."
+            },
+            {
+              "ref": "DIEC, diàmetre",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "diàmetre 1 2 m. [LC] [MT] Longitud d’aquest segment. El diàmetre d’un cercle val tant com dos radis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Estadística: mitjana, moda i probabilitat",
+      "blocks": [
+        {
+          "text": "L'estadística és la ciència que aplega, classifica i compta fets del mateix ordre. Una de les mesures més habituals és la mitjana aritmètica: se sumen tots els valors i es divideix el resultat pel nombre de valors. Exemple: la mitjana de 4, 8, 10 i 14 és (4 + 8 + 10 + 14) : 4 = 36 : 4 = 9. Compte amb la trampa: 36 és la suma, no la mitjana. El diccionari en dona un ús quotidià: «la temperatura mitjana d'aquest estiu ha estat de 25 °C».",
+          "refs": [
+            {
+              "ref": "DIEC, estadística",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "estadístic -a 2 1 f. [AD] [ECT] [MT] Ciència que té per objecte d’aplegar, classificar i comptar tots els fets del mateix ordre."
+            },
+            {
+              "ref": "DIEC, mitjà",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "mitjà2 -ana 2 adj. [LC] [MT] Que correspon a la mitjana aritmètica, s’aplica a noms que expressen quantitat. La temperatura mitjana d’aquest estiu ha estat de 25 °C."
+            }
+          ]
+        },
+        {
+          "text": "La moda és el valor que apareix més vegades en un conjunt de dades. Per trobar-la, comptem quantes vegades surt cada valor. A la sèrie 3, 5, 5, 7, 9, 5, 7, el 3 surt una vegada, el 5 tres vegades, el 7 dues i el 9 una: la moda és 5. Fixa't que la moda no es calcula fent cap operació: és simplement el valor més freqüent (la mitjana d'aquesta sèrie seria 41 : 7, prop de 5,86).",
+          "refs": [
+            {
+              "ref": "DIEC, moda",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "moda 2 f. [MT] En estad., valor de l’observació més freqüent en un conjunt de dades."
+            }
+          ]
+        },
+        {
+          "text": "La probabilitat permet expressar amb un nombre el caràcter aleatori d'un fet que pot passar o no. Quan tots els resultats són igual de possibles, es calcula dividint els casos favorables entre els casos possibles. En llançar un dau de sis cares, la probabilitat de treure un nombre parell és 3/6 = 1/2, perquè hi ha tres casos favorables (2, 4 i 6) de sis possibles. La de treure un 6 és 1/6, i la de treure un nombre més gran que 4 (5 o 6) és 2/6 = 1/3. La probabilitat sempre és un valor entre 0 (impossible) i 1 (segur).",
+          "refs": [
+            {
+              "ref": "DIEC, probabilitat",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "probabilitat 2 f. [MT] Concepte que permet d’expressar quantitativament el caràcter aleatori d’un esdeveniment o fenomen que hom creu que pot succeir."
+            },
+            {
+              "ref": "DIEC, nombre parell",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Nombre parell. Nombre senar o imparell."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Àlgebra: equacions i propietats de les operacions",
+      "blocks": [
+        {
+          "text": "Una equació és una igualtat entre dues expressions que contenen una o més incògnites (valors desconeguts, normalment escrits amb x). Si la incògnita no està elevada a cap potència, és una equació de primer grau. Per resoldre-la, aïllem la x fent la mateixa operació als dos costats de la igualtat. Exemple: 3x − 4 = 11. Sumem 4 als dos costats: 3x = 15. Dividim per 3: x = 5. Comprovació: 3 × 5 − 4 = 15 − 4 = 11. Un altre: 2x + 6 = 20 → 2x = 14 → x = 7.",
+          "refs": [
+            {
+              "ref": "DIEC, equació",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "equació 2 1 f. [MT] En mat., igualtat entre dues expressions que contenen una o més incògnites. Equació de primer grau, de segon grau."
+            }
+          ]
+        },
+        {
+          "text": "Una operació és commutativa quan l'ordre dels elements no canvia el resultat. Segons el diccionari, la suma i el producte de nombres reals són commutatius: 3 + 5 = 5 + 3 = 8 i 3 × 5 = 5 × 3 = 15. En canvi, la resta i la divisió no ho són: 5 − 3 = 2, però 3 − 5 = −2. Així, la igualtat 3 × 5 = 5 × 3 expressa la propietat commutativa.",
+          "refs": [
+            {
+              "ref": "DIEC, commutatiu",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "commutatiu -iva 3 1 adj. [MT] En què l’ordre dels elements no canvia el resultat, s’aplica a operacions aritmètiques. La suma i el producte de nombres reals són commutatius."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Calendari i xifres romanes",
+      "blocks": [
+        {
+          "text": "L'any comú té 365 dies i l'any de traspàs, 366. L'any de traspàs també s'anomena any bixest o any bissextil. Per calcular quants dies hi ha en un període de diversos anys, se sumen els dies de cada any: per exemple, dos anys comuns i un de traspàs fan 365 + 365 + 366 = 1.096 dies. Les fonts carregades no expliquen la regla per saber quins anys són de traspàs.",
+          "refs": [
+            {
+              "ref": "DIEC, any comú i any de traspàs",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "any 3 5 [FIA] any comú Any civil que consta de 365 dies. 3 6 [FIA] [LC] any de traspàs Any civil que consta de 366 dies."
+            },
+            {
+              "ref": "DIEC, any bissextil",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "any 3 3 [FIA] [LC] any bissextil [o any bixest] Any de traspàs."
+            }
+          ]
+        },
+        {
+          "text": "Les xifres romanes són les lletres majúscules que feien servir els romans per representar els nombres: I, V, X, L, C, D i M. El seu valor convencional és I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 i M = 1.000. Les xifres se sumen quan una igual o més petita va darrere d'una de més gran (VI = 6; XX = 20), i es resten quan una de més petita va davant d'una de més gran (IV = 4; XC = 90; CD = 400). Per llegir un nombre llarg, separa'l en grups: MCDXCII = M (1.000) + CD (400) + XC (90) + II (2) = 1.492. Un altre exemple: MMXXVI = 1.000 + 1.000 + 10 + 10 + 5 + 1 = 2.026.",
+          "refs": [
+            {
+              "ref": "DIEC, xifra romana",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "xifra romana Lletra majúscula emprada pels romans per a representar els nombres: I, V, X, L, C, D, M."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Percentatge: quantitat × tant per cent : 100 (el 25 % de 80 = 20). Fracció: divideix pel denominador i multiplica pel numerador (3/4 de 60 = 45).",
+          "refs": [
+            {
+              "ref": "DIEC, percentatge",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "percentatge m. [LC] [MT] Tant per cent."
+            }
+          ]
+        },
+        {
+          "text": "MCD = el divisor comú més gran (MCD de 16 i 20 = 4; de 18 i 24 = 6). Múltiple = el conté un nombre exacte de vegades (12 és múltiple de 4).",
+          "refs": [
+            {
+              "ref": "DIEC, divisor comú",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "El més gran divisor comú de 16 i 20 és 4."
+            }
+          ]
+        },
+        {
+          "text": "Quadrat = el nombre multiplicat per ell mateix (7² = 49, no 14).",
+          "refs": [
+            {
+              "ref": "DIEC, quadrar",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "multiplicar-lo per ell mateix."
+            }
+          ]
+        },
+        {
+          "text": "Pitàgores: hipotenusa² = catet² + catet² (catets 6 i 8 → hipotenusa 10).",
+          "refs": [
+            {
+              "ref": "DIEC, hipotenusa",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "El quadrat de la hipotenusa és igual a la suma dels quadrats dels catets."
+            }
+          ]
+        },
+        {
+          "text": "Perímetre = suma dels costats (rectangle 8 × 5 → 26 m; l'àrea seria 40 m²). Diàmetre = dos radis.",
+          "refs": [
+            {
+              "ref": "DIEC, diàmetre",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "El diàmetre d’un cercle val tant com dos radis."
+            }
+          ]
+        },
+        {
+          "text": "Equilàter = tots els costats iguals; isòsceles = dos costats iguals; pentàgon = 5 costats; hexàgon = 6.",
+          "refs": [
+            {
+              "ref": "DIEC, equilàter",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Que té tots els costats iguals."
+            }
+          ]
+        },
+        {
+          "text": "Mitjana = suma : nombre de dades (4, 8, 10, 14 → 9); moda = valor més freqüent.",
+          "refs": [
+            {
+              "ref": "DIEC, moda",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "valor de l’observació més freqüent en un conjunt de dades."
+            }
+          ]
+        },
+        {
+          "text": "Probabilitat = casos favorables : casos possibles (parell en un dau = 3/6 = 1/2).",
+          "refs": [
+            {
+              "ref": "DIEC, probabilitat",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "expressar quantitativament el caràcter aleatori d’un esdeveniment"
+            }
+          ]
+        },
+        {
+          "text": "Commutativa: l'ordre no canvia el resultat (3 × 5 = 5 × 3); la tenen la suma i el producte.",
+          "refs": [
+            {
+              "ref": "DIEC, commutatiu",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "La suma i el producte de nombres reals són commutatius."
+            }
+          ]
+        },
+        {
+          "text": "Any comú = 365 dies; any de traspàs (bixest) = 366 dies. Xifres romanes: I, V, X, L, C, D, M (MCDXCII = 1.492).",
+          "refs": [
+            {
+              "ref": "DIEC, any de traspàs",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "any de traspàs Any civil que consta de 366 dies."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

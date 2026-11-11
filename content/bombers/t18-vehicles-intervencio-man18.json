@@ -318,6 +318,306 @@
       "explanation": "L'ús correcte de l'EPI, especialment dels sistemes anticaigudes, és obligatori per treballar en alçada.",
       "excerpt": "individual (EPI), especialment dels sistemes anticaigudes, és obligatori per al personal que treballa en alçada.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 1.4 codificació",
+      "stem": "Segons el manual de vehicles d'intervenció en emergències, amb quin codi s'identifiquen els vehicles de la DGPEIS?",
+      "options": [
+        "Amb un codi alfabètic de 3 lletres.",
+        "Amb la matrícula del vehicle, sense cap altre codi.",
+        "Amb un codi numèric de 5 dígits.",
+        "Amb un codi numèric de 8 dígits."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Cada vehicle de la DGPEIS té un codi numèric de 5 dígits que indica la regió, el parc i la tipologia del vehicle.",
+      "excerpt": "Els vehicles de la DGPEIS s’identifiquen amb un codi numèric de 5 dígits",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 3.2 BUL funció",
+      "stem": "Segons el manual de vehicles, quina és la funció de la Bomba Urbana Lleugera (BUL)?",
+      "options": [
+        "Subministrament d'aigua a altres vehicles en zones sense hidrants.",
+        "Salvaments verticals per façana.",
+        "Establiment d'un Centre de Comandament Avançat.",
+        "Primers atacs i actuació en serveis de baixa intensitat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La BUL és un vehicle compacte i maniobrable per a primers atacs; el subministrament d'aigua correspon a la BNP i els salvaments per façana a l'AEA.",
+      "excerpt": "Funció: Primers atacs i actuació en serveis de baixa intensitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 4.4 vehicles NRBQ",
+      "stem": "Segons el manual de vehicles, quin tipus d'equips de protecció individual transporten els vehicles de risc químic (NRBQ)?",
+      "options": [
+        "Només vestits forestals d'una capa.",
+        "Equips d'alt nivell, com vestits de protecció tipus 1.",
+        "Únicament armilles reflectants.",
+        "No en transporten: els EPI van sempre a l'autobomba."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Els vehicles NRBQ porten EPI d'alt nivell (vestits tipus 1), a més d'equips de detecció, descontaminació i contenció.",
+      "excerpt": "Equips de protecció individual d’alt nivell (vestits de protecció tipus 1)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 5.2.1 UCL",
+      "stem": "Segons el manual de vehicles, quin vehicle de comandament és un tot terreny 4x4, lleuger, ràpid i maniobrable?",
+      "options": [
+        "La Unitat de Comandament Lleugera (UCL).",
+        "La Unitat de Comandament Mitjana (UCM).",
+        "La Unitat de Comandament Pesada (UCP).",
+        "La Bomba Nodrissa Pesada (BNP)."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La UCL és el tot terreny 4x4; la UCM és un furgó i la UCP un camió gran adaptat.",
+      "excerpt": "5.2.1. Unitat de Comandament Lleugera (UCL) − Vehicle tot terreny 4x4, lleuger, ràpid i maniobrable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 7.2 revisió diària",
+      "stem": "Segons el manual de vehicles, quan s'ha de fer la revisió diària dels vehicles d'emergència?",
+      "options": [
+        "Només després de cada servei.",
+        "Un cop per setmana, el dilluns.",
+        "A l'inici de la jornada, segons l'horari establert d'activitat al parc.",
+        "Només quan s'encén un llum d'error a la cabina."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La revisió diària es fa a l'inici de la jornada; després d'un servei es fa, a més, una revisió i neteja postoperativa.",
+      "excerpt": "Cal fer-la a l’inici de la jornada, segons l’horari establert d’activitat al parc",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 4.1 vehicles especials",
+      "stem": "Segons el manual de vehicles, quins vehicles es consideren vehicles especials?",
+      "options": [
+        "Els que tenen més de 10.000 litres de capacitat d'aigua.",
+        "Només els vehicles aeris.",
+        "Les autobombes de primera sortida.",
+        "Els que no tenen com a funció principal l'extinció directa d'incendis."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Els vehicles especials (AEA, FSV, NRBQ...) estan dissenyats per a rescat, productes perillosos, suport o treballs en alçada, no per a l'extinció directa.",
+      "excerpt": "Es consideren vehicles especials aquells que no tenen com a funció principal l’extinció directa d’incendis",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 1.4 codi X.YY.ZZ",
+      "stem": "Segons el manual de vehicles, en el codi de 5 dígits dels vehicles de la DGPEIS, què indiquen els dos darrers dígits?",
+      "options": [
+        "La tipologia del vehicle.",
+        "La Subdirecció o Regió d'adscripció.",
+        "El parc, seu o grup operatiu.",
+        "L'any de fabricació del vehicle."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Primer dígit: regió o subdirecció; segon i tercer: parc o unitat; dos darrers: tipus de vehicle (X.YY.ZZ).",
+      "excerpt": "el primer número correspon a la Subdirecció o Regió d’adscripció; el segon i el tercer al parc, seu o grup operatiu al qual pertany el vehicle, i els dos darrers a la tipologia del vehicle.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 3.3 BUP camió llançadora",
+      "stem": "Segons el manual de vehicles, quina autobomba pot funcionar com a «camió llançadora» en cadenes de reompliment?",
+      "options": [
+        "La Unitat de Comandament Lleugera (UCL).",
+        "La Bomba Urbana Pesada (BUP).",
+        "El Furgó de Salvament (FSV).",
+        "L'autoescala automàtica (AEA)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La BUP, de 3.000-4.000 l i bomba potent, pot fer de camió llançadora; la UCL, el FSV i l'AEA no són autobombes.",
+      "excerpt": "Pot funcionar com a “camió llançadora” en cadenes de reompliment.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 3.4 BRP seguretat",
+      "stem": "Segons el manual de vehicles, quins sistemes de seguretat destacats incorpora la Bomba Rural Pesada (BRP)?",
+      "options": [
+        "Ruixadors d'autoprotecció i barres de protecció per bolcada.",
+        "Estabilitzadors extensibles i cistella de salvament.",
+        "Connexió per satèl·lit i climatització per a múltiples usuaris.",
+        "Cisterna compartimentada i presa inferior de càrrega."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La BRP, pensada per a terrenys difícils i forestals, porta ruixadors d'autoprotecció i barres antibolcada. Els estabilitzadors són de l'AEA, el satèl·lit de la UCP i la cisterna compartimentada de la BNP.",
+      "excerpt": "Sistemes de seguretat destacats: Ruixadors d’autoprotecció, barres de protecció per bolcada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 6.1 avions d'extinció",
+      "stem": "Segons el manual de vehicles, quina capacitat de càrrega tenen els avions d'extinció?",
+      "options": [
+        "Entre 500 i 1.500 litres.",
+        "Entre 1.000 i 1.650 litres.",
+        "Entre 3.000 i 6.000 litres.",
+        "Entre 15.000 i 20.000 litres."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Avions d'extinció: 3.000-6.000 l; helicòpters d'extinció: 500-1.500 l.",
+      "excerpt": "Avions d’extinció: − Capacitat de càrrega: entre 3.000 i 6.000 litres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 5.2.2 UCM",
+      "stem": "Segons el manual de vehicles, quina unitat de comandament és un vehicle tipus furgó que permet establir un Centre de Comandament Avançat en emergències de mitjana complexitat?",
+      "options": [
+        "La Unitat de Comandament Lleugera (UCL).",
+        "La Unitat de Comandament Pesada (UCP).",
+        "El Furgó de Risc Químic (FRQ).",
+        "La Unitat de Comandament Mitjana (UCM)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La UCM és un furgó per a emergències de mitjana complexitat; també pot desplegar la funció de recepció de recursos. La UCP és un camió per a grans emergències.",
+      "excerpt": "Vehicle tipus furgó, amb capacitat ampliada per establir un Centre de Comandament Avançat operatiu en emergències de mitjana complexitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 5.1 vehicles sanitaris",
+      "stem": "Segons el manual de vehicles, quina funció tenen les ambulàncies de tipus B?",
+      "options": [
+        "Suport vital avançat.",
+        "Suport vital bàsic.",
+        "Transport col·lectiu no urgent.",
+        "Atenció sanitària in situ sense transport."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "A1 i A2: transport (A2 col·lectiu no urgent); B: suport vital bàsic; C: suport vital avançat; VIR: atenció sense transport.",
+      "excerpt": "B Suport vital bàsic 2 Tècnics Emergències Sanitàries",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 7.2 comprovacions mecàniques",
+      "stem": "En la revisió diària d'una autobomba, un cop engegat el motor, què indica el manual de vehicles?",
+      "options": [
+        "Accelerar a fons uns segons per escalfar el motor ràpidament.",
+        "No accelerar en fred i deixar uns minuts el motor al ralentí.",
+        "Apagar-lo immediatament i comprovar només el material.",
+        "Sortir a circular per provar els frens abans de mirar els llums d'error."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Amb el vehicle en marxa, sense accelerar en fred, es deixa uns minuts al ralentí; després es comproven els llums d'error i es prova la bomba d'aigua.",
+      "excerpt": "Amb el vehicle en marxa, i sempre sense accelerar en fred, es deixen passar uns minuts al ralentí per assegurar la bona posada en funcionament del sistema.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 7.1 assignació de vehicles",
+      "stem": "Segons el manual de vehicles, indica el factor que NO figura entre els que cal tenir en compte per assignar vehicles segons la tipologia d'emergència:",
+      "options": [
+        "La tipologia del risc.",
+        "Els recursos hídrics disponibles.",
+        "La durada del servei.",
+        "L'antiguitat del vehicle dins del parc."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els factors són tipologia del risc, accés al lloc, recursos hídrics, durada del servei i tipus d'actuants; l'antiguitat del vehicle no hi figura.",
+      "excerpt": "Factors a tenir en compte: − Tipologia del risc: urbà, forestal, químic, tècnic, múltiples víctimes, etc. − Accés al lloc: vies, tipus de terreny i condicionants geogràfics. − Recursos hídrics disponibles: presència d’hidrants o punts d’aigua naturals. − Durada del servei: serveis curts o prolongats, necessitats de suport logístic. − Tipus d’actuants i especialització: equips bàsics o especialitzats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 6.3 seguretat amb helicòpters",
+      "stem": "En un servei amb un helicòpter que ha aterrat a prop de l'equip, quina norma de seguretat indica el manual de vehicles?",
+      "options": [
+        "No acostar-se a l'helicòpter sense autorització.",
+        "Acostar-se ràpidament per ajudar a descarregar el material.",
+        "Retirar la senyalització de la zona d'aterratge per no confondre el pilot.",
+        "Comunicar-se amb el pilot amb el canal habitual del parc i llenguatge lliure."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cal mantenir la zona d'aterratge clara i senyalitzada, no acostar-se sense autorització i fer servir canals específics amb procediments breus i codificats.",
+      "excerpt": "Normes de seguretat: − Mantenir la zona d’aterratge clara i senyalitzada. − No acostar-se a l’helicòpter sense autorització.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 3.5 BNP escumogen",
+      "stem": "Segons el manual de vehicles, quina quantitat i tipus d'escumogen transporta la Bomba Nodrissa Pesada (BNP)?",
+      "options": [
+        "Entre 7.000 i 10.000 l d'escumogen de baixa expansió.",
+        "No transporta escumogen, només aigua.",
+        "Entre 500 i 1.000 l d'escumogen multi expansió i AR.",
+        "Entre 50 i 100 l d'escumogen AR."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La BNP té dipòsits interns per a 500-1.000 l d'escumogen multi expansió i AR (resistent als alcohols); els 7.000-10.000 l són d'aigua.",
+      "excerpt": "Escumogen transportat: Entre 500 i 1.000 l d’escumogen multi expansió i AR",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 4.2.2 conducció AEA",
+      "stem": "Segons el manual de vehicles, per què la conducció d'una autoescala automàtica (AEA) requereix una atenció especial?",
+      "options": [
+        "Perquè té un centre de gravetat molt baix que la fa lliscar en corbes.",
+        "Perquè no disposa de marxa enrere.",
+        "Perquè té un centre de gravetat molt alt i una llargada considerable amb voladís davanter i posterior.",
+        "Perquè sempre circula amb els estabilitzadors desplegats."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El centre de gravetat alt incrementa el balanceig en girs i corbes, i el voladís (cistella plegada) obliga a vigilar les maniobres en espais estrets, sobretot marxa enrere.",
+      "excerpt": "les AEA tenen un centre de gravetat molt alt, fet que incrementa el risc de balanceig en girs i corbes, i una llargada considerable amb un voladís destacat a la part davantera (la cistella plegada) i posterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 3.5 BNP fitxa",
+      "stem": "Segons la fitxa de la Bomba Nodrissa Pesada (BNP) del manual de vehicles, quin personal transporta?",
+      "options": [
+        "De 2 a 3 bombers.",
+        "Entre 3 i 6 bombers.",
+        "Entre 6 i 9 bombers.",
+        "Cap: es condueix a distància."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La BNP porta 2-3 bombers; les BUL, BUP i BRP en porten entre 3 i 6.",
+      "excerpt": "Personal transportat: 2 a 3 bombers",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 5.1 VIR",
+      "stem": "Segons el manual de vehicles, quin personal integra un vehicle d'intervenció ràpida (VIR) sanitari?",
+      "options": [
+        "2 tècnics d'emergències sanitàries.",
+        "1 TES i 1 metge o metgessa.",
+        "1 tècnic d'emergències sanitàries sol.",
+        "1 TES i 1 infermer o infermera, sense metge."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El VIR ofereix atenció sanitària sense transport, amb 1 TES i 1 metge; el tipus B porta 2 TES i l'A1, 1 TES.",
+      "excerpt": "Vehicle intervenció ràpida Atenció sanitària, no transport 1 TES + 1 Metge/sa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.EQIP.000, § 5.2.1 UCL grans emergències",
+      "stem": "Segons el manual de vehicles, a més d'establir un primer punt de comandament provisional, quin altre ús té la Unitat de Comandament Lleugera (UCL)?",
+      "options": [
+        "Desplegar un CCA complet amb espais diferenciats de reunions.",
+        "Transportar relleus de personal en minibús.",
+        "Subministrar aigua potable i avituallament.",
+        "Servir com a unitat de comandament d'un àmbit geogràfic en grans emergències."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En grans emergències la UCL permet al comandament dirigir i supervisar l'àmbit geogràfic assignat; el CCA complet el desplega la UCP.",
+      "excerpt": "També serveix com a unitat de comandament d’un àmbit geogràfic en grans emergències, per tal que el comandament pugui dirigir i supervisar l’àmbit assignat.",
+      "excerpt_status": "completo"
     }
   ]
 }

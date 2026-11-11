@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "plcat-t14-entrada-registre-habeas-corpus-lopsc-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Tema 14. Entrada i registre en lloc tancat i procediment d'habeas corpus",
+    "topic_slug": "plcat-t14-entrada-registre-habeas-corpus",
+    "locale": "ca",
+    "category": "plcat_t14_entrada_registre_habeas_corpus",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil dels exàmens d'agent de policia local de Catalunya (4 opcions, una correcta; cada error resta 1/4). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 15.2 LOPSC",
+      "stem": "Segons l'article 15.2 de la LO 4/2015, de protecció de la seguretat ciutadana, és causa legítima suficient per a l'entrada en un domicili:",
+      "options": [
+        "La sospita d'un delicte lleu.",
+        "La negativa d'un morador a identificar-se.",
+        "La necessitat d'evitar danys imminents i greus a les persones i a les coses en supòsits de catàstrofe, calamitat, ruïna imminent o altres d'extrema i urgent necessitat.",
+        "L'ordre verbal de l'alcalde."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'article 15.2 LOPSC admet l'entrada en domicili per evitar danys imminents i greus en situacions d'extrema i urgent necessitat.",
+      "excerpt": "Será causa legítima suficiente para la entrada en domicilio la necesidad de evitar daños inminentes y graves a las personas y a las cosas, en supuestos de catástrofe, calamidad, ruina inminente u otros semejantes de extrema y urgente necesidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 15.3 LOPSC",
+      "stem": "Segons l'article 15.3 de la LO 4/2015, de protecció de la seguretat ciutadana, per entrar en edificis ocupats per organismes oficials o entitats públiques:",
+      "options": [
+        "Cal sempre una resolució judicial.",
+        "Cal el consentiment escrit de l'autoritat o el funcionari que els té al seu càrrec, o bé una resolució judicial.",
+        "Cal l'autorització del delegat del Govern.",
+        "No cal el consentiment de l'autoritat o el funcionari que els té al seu càrrec."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'article 15.3 LOPSC dispensa del consentiment de l'autoritat o funcionari responsable de l'edifici oficial.",
+      "excerpt": "Para la entrada en edificios ocupados por organismos oficiales o entidades públicas, no será preciso el consentimiento de la autoridad o funcionario que los tuviere a su cargo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

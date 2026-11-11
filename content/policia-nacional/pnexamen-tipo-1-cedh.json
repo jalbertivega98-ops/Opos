@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-cedh-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Convenio para la protección de los Derechos Humanos y de las Libertades Fundamentales (texto refundido, Resolución de 5 de abril de 1999) (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 63, tema P27) · Art. 6.1 CEDH",
+      "stem": "Según el Convenio Europeo de Derechos Humanos, el acceso a la sala de audiencia puede ser prohibido a la prensa y al público:",
+      "options": [
+        "En ningún caso, pues todo proceso debe ser íntegramente público.",
+        "Solo cuando lo solicite el acusado.",
+        "En interés de la moralidad, del orden público o de la seguridad nacional en una sociedad democrática, entre otros supuestos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 6.1 CEDH exige que la sentencia se pronuncie públicamente, pero permite excluir a prensa y público por moralidad, orden público, seguridad nacional, interés de menores, vida privada o interés de la justicia.",
+      "excerpt": "La sentencia debe ser pronunciada públicamente, pero el acceso a la sala de audiencia puede ser prohibido a la prensa y al público durante la totalidad o parte del proceso en interés de la moralidad, del orden público o de la seguridad nacional en una sociedad democrática",
+      "excerpt_status": "completo"
+    }
+  ]
+}

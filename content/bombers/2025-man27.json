@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man27-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.RRTT.000 Intervenció bàsica en riscos NRBQ (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 24) · MAN.RRTT.000, § 2.2.2",
+      "stem": "Quin codi de perill de la placa taronja ADR correspon a un líquid inflamable que reacciona amb l'aigua i desprèn gasos inflamables?",
+      "options": [
+        "323.",
+        "333.",
+        "33.",
+        "X423."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El 333 és una matèria líquida pirofòrica i el X423 un sòlid inflamable que reacciona violentament amb l'aigua.",
+      "excerpt": "323 Líquid inflamable que reacciona amb l’aigua i desprèn gasos inflamables 333 Matèria líquida pirofòrica X423 Sòlid inflamable que reacciona violentament amb l’aigua i desprèn gasos inflamables",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 59) · MAN.RRTT.000, § 2.2.1",
+      "stem": "Què és el Reglament CLP?",
+      "options": [
+        "La norma europea sobre classificació, etiquetatge i envasament de substàncies i mescles, que integra els criteris del SGA de les Nacions Unides.",
+        "La normativa de transport de mercaderies perilloses per carretera.",
+        "El sistema del rombe de perill NFPA 704 per a instal·lacions fixes.",
+        "La normativa que estableix les normes per prevenir accidents greus a les indústries Seveso."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El transport per carretera és l'ADR; el rombe és la NFPA 704.",
+      "excerpt": "CLP (Classificació, Etiquetatge i Envasament) de la Unió Europea. és la norma europea sobre classificació, etiquetatge i envasament de substàncies i mescles. Aquest Reglament integra els criteris de classificació del sistema globalment harmonitzat de les Nacions Unides (SGA) a la legislació de la Unió Europea.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 80) · MAN.RRTT.000, § 2.2.2",
+      "stem": "Un camió porta una placa taronja ADR amb «33» a la part superior i «1203» a la part inferior. Què és el 1203?",
+      "options": [
+        "El codi de perill, que indica el perill principal.",
+        "La classe de l'etiqueta de perill.",
+        "La matrícula de la cisterna.",
+        "El número ONU, de quatre xifres, que identifica la substància concreta."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El 33 és el codi de perill (líquid molt inflamable); el 1203 és el número ONU de la gasolina.",
+      "excerpt": "Número ONU (part inferior): número de 4 xifres que identifica la substància concreta (ex. 1203 = gasolina).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. R6) · MAN.RRTT.000, § descontaminació",
+      "stem": "Per descontaminar un equip de contaminants biològics vols preparar 10 litres de solució d'hipoclorit sòdic al 0,5% a partir d'un concentrat al 5%. Quin volum de concentrat necessites?",
+      "options": [
+        "0,1 litres.",
+        "2 litres.",
+        "1 litre.",
+        "5 litres."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La quantitat de producte es conserva: 5% × V = 0,5% × 10 l → V = 1 l de concentrat (i 9 l d'aigua).",
+      "excerpt": "En el cas de contaminants biològics, és habitual l’ús de solucions d’hipoclorit sòdic diluïdes al 0,5%, eficaces per eliminar la majoria de bacteris i microorganismes patògens",
+      "excerpt_status": "completo"
+    }
+  ]
+}

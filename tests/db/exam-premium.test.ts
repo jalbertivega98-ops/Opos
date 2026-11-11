@@ -183,7 +183,12 @@ describe("packs de intentos de simulacro", () => {
          values ($1, 1, $2), ($1, 2, $3)`,
         [pack, mock1, mock2],
       );
-      expect(await access(q, mock1, student.id)).toBe(false);
+      // Sin comprar nada, solo su primer simulacro gratis (ADR-048)
+      expect(await access(q, mock1, student.id)).toBe(true);
+      expect(
+        (await q("select public.mock_trial_available($1, $2) as ok", [mock1, student.id])).rows[0]
+          .ok,
+      ).toBe(true);
 
       await q(
         "insert into public.access_grants (user_id, product_id, source) values ($1, $2, 'purchase')",
@@ -234,3 +239,85 @@ describe("packs de intentos de simulacro", () => {
     });
   });
 });
+
+describe("primer simulacro gratis (ADR-048)", () => {
+  const trial = async (q: Q, p: string, u: string) =>
+    (await q("select public.mock_trial_available($1, $2) as ok", [p, u])).rows[0].ok as boolean;
+  const startActive = (q: Q, user: string, mock: string) =>
+    q(
+      `insert into public.mock_attempts (user_id, product_id, title, config, item_count, deadline)
+       values ($1, $2, 'Intento', '{}', 10, now() + interval '1 hour') returning id`,
+      [user, mock],
+    );
+
+  it("un simulacro por oposición; se puede retomar mientras está en curso", async () => {
+    await tx(async (q) => {
+      const a = await exam(q, "test-opo-a");
+      const b = await exam(q, "test-opo-b");
+      const mockA1 = await product(q, "test-tr-mock-a1", a, "mock_exam");
+      const mockA2 = await product(q, "test-tr-mock-a2", a, "mock_exam");
+      const mockB = await product(q, "test-tr-mock-b", b, "mock_exam");
+      const pack = await product(q, "test-tr-pack", a, "question_pack");
+      expect(await access(q, mockA1, student.id)).toBe(true);
+      expect(await access(q, mockA2, student.id)).toBe(true);
+      // No abre nada que no sea un simulacro
+      expect(await access(q, pack, student.id)).toBe(false);
+
+      const { rows } = await startActive(q, student.id, mockA1);
+      // En curso: lo puede retomar, pero no empezar otro de la misma oposición
+      expect(await access(q, mockA1, student.id)).toBe(true);
+      expect(await access(q, mockA2, student.id)).toBe(false);
+      // Otra oposición tiene su propio simulacro gratis
+      expect(await access(q, mockB, student.id)).toBe(true);
+
+      await q(
+        "update public.mock_attempts set status = 'submitted', submitted_at = now() where id = $1",
+        [rows[0].id],
+      );
+      expect(await trial(q, mockA1, student.id)).toBe(false);
+      expect(await access(q, mockA1, student.id)).toBe(false);
+    });
+  });
+
+  it("no vale para simulacros de prueba ni sin usuario", async () => {
+    await tx(async (q) => {
+      const a = await exam(q, "test-opo-a");
+      const mock = await product(q, "test-tr-mock-a1", a, "mock_exam");
+      await q("update public.products set is_test = true where id = $1", [mock]);
+      expect(await trial(q, mock, student.id)).toBe(false);
+      expect(
+        (await q("select public.mock_trial_available($1, null) as ok", [mock])).rows[0].ok,
+      ).toBe(false);
+    });
+  });
+});
+
+describe("oferta pública (ADR-048)", () => {
+  it("da el precio mensual y el anual del Premium y no cuenta las réplicas como temas", async () => {
+    await tx(async (q) => {
+      const a = await exam(q, "test-opo-a");
+      const prem = await product(q, "test-of-premium", a, "subscription", { premium: false });
+      await q(
+        `insert into public.product_prices (product_id, amount_cents, billing_interval)
+         values ($1, 1299, 'month'), ($1, 7999, 'year')`,
+        [prem],
+      );
+      const { rows: topics } = await q(
+        `insert into public.topics (slug, title) values ('test-of-t1', 'Tema 1'),
+           ('test-of-examen-2025', 'Examen 2025') returning id, slug`,
+      );
+      for (const t of topics)
+        await q(`insert into public.exam_body_topics (exam_body_id, topic_id) values ($1, $2)`, [
+          a,
+          t.id,
+        ]);
+      const { rows } = await q("select public.exam_offer('test-opo-a') as o");
+      const o = rows[0].o;
+      expect(o.premium.price).toMatchObject({ amount_cents: 1299, interval: "month" });
+      expect(o.premium.price_year).toMatchObject({ amount_cents: 7999, interval: "year" });
+      // Sin preguntas publicadas no hay temas; y la réplica no cuenta nunca
+      expect(o.topic_list.some((t: { slug: string }) => t.slug.includes("examen"))).toBe(false);
+    });
+  });
+});
+

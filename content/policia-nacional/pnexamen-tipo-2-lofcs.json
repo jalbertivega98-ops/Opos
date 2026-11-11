@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lofcs-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 20, tema P09) · Art. 32 LO 2/1986",
+      "stem": "Según la Ley Orgánica 2/1986, para ocupar puestos en las Unidades de Policía Judicial es requisito necesario:",
+      "options": [
+        "Pertenecer a la Escala Ejecutiva o superior.",
+        "Haber prestado cinco años de servicio en unidades de investigación.",
+        "La posesión del diploma correspondiente."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 32 LO 2/1986 dispone que la especialización en Policía Judicial se cursa en los centros de formación de las FCSE, con participación de jueces y fiscales, y que la posesión del diploma es requisito necesario para ocupar esos puestos.",
+      "excerpt": "La posesión del diploma correspondiente será requisito necesario para ocupar puestos en las Unidades de Policía Judicial que se constituyan.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 21, tema P09) · Art. 46.2 LO 2/1986",
+      "stem": "Según la Ley Orgánica 2/1986, cuando en un servicio concurran simultáneamente unidades de las Fuerzas y Cuerpos de Seguridad del Estado y de la Policía de una Comunidad Autónoma, fuera del supuesto de auxilio solicitado por la Comunidad, la dirección de la operación corresponde a:",
+      "options": [
+        "Los Mandos de la Policía de la Comunidad Autónoma.",
+        "Los Mandos de las Fuerzas y Cuerpos de Seguridad del Estado.",
+        "La Junta de Seguridad de la Comunidad Autónoma."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 46.2 LO 2/1986 atribuye la dirección de la operación a los Mandos de las Fuerzas y Cuerpos de Seguridad del Estado cuando concurren simultáneamente con la Policía autonómica.",
+      "excerpt": "concurran, simultáneamente, miembros o Unidades de las Fuerzas y Cuerpos de Seguridad del Estado y de la Policía de la Comunidad Autónoma, serán los Mandos de los primeros los que asuman la dirección de la operación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 22, tema P09) · Art. 51.2 LO 2/1986",
+      "stem": "Según la Ley Orgánica 2/1986, en los municipios donde no exista policía municipal, sus cometidos serán ejercidos por:",
+      "options": [
+        "La Guardia Civil, en todo caso.",
+        "El personal que desempeñe funciones de custodia y vigilancia de bienes, servicios e instalaciones, como guardas, vigilantes, agentes o alguaciles.",
+        "La Policía de la Comunidad Autónoma o, en su defecto, la Policía Nacional."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 51.2 LO 2/1986 asigna esos cometidos al personal de custodia y vigilancia de bienes, servicios e instalaciones, con denominaciones como guardas, vigilantes, agentes o alguaciles.",
+      "excerpt": "2. En los municipios donde no exista policía municipal, los cometidos de ésta serán ejercidos por el personal que desempeñe funciones de custodia y vigilancia de bienes, servicios e instalaciones, con la denominación de guardas, vigilantes, agentes, alguaciles o análogos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

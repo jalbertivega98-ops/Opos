@@ -72,7 +72,7 @@ test.describe("SEO y GEO (ADR-025)", () => {
     expect(await jsonLdTypes(page)).toEqual(expect.arrayContaining(["Quiz", "BreadcrumbList"]));
   });
 
-  test("ejemplos resueltos y pie con enlaces a fichas y psicotécnicos (ADR-045)", async ({
+  test("ejemplos resueltos y pie con enlaces a fichas y psicotécnicos (ADR-050)", async ({
     page,
   }) => {
     await page.goto("/psicotecnicos/probabilidad");

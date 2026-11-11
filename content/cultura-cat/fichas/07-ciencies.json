@@ -63,5 +63,726 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Física: unitats del sistema internacional (SI)",
+      "blocks": [
+        {
+          "text": "Per mesurar les magnituds físiques fem servir el sistema internacional d'unitats (SI). Les preguntes d'examen solen demanar quina magnitud correspon a cada unitat. La força es mesura en newtons (N): un newton és la força necessària per donar una acceleració d'1 metre per segon cada segon (1 m/s²) a una massa d'1 quilogram. Per exemple, per accelerar 1 m/s² un cos de 3 kg cal una força de 3 N.",
+          "refs": [
+            {
+              "ref": "DIEC, newton",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "newton m. [FIM] Unitat de força del sistema internacional, igual a la força necessària per a comunicar una acceleració d’1 metre per segon per cada segon a una massa d’1 quilogram (símbol, N)."
+            }
+          ]
+        },
+        {
+          "text": "L'energia, el treball i la calor es mesuren en joules (J): un joule és el treball que fa una força d'1 newton quan es desplaça 1 metre en la seva direcció. La potència, en canvi, indica quanta energia es fa servir per unitat de temps, i es mesura en watts (W): 1 watt equival a 1 joule per segon. Així, un aparell que consumeix 100 joules cada segon té una potència de 100 W. Atenció a la trampa clàssica: el watt és unitat de potència, no d'energia.",
+          "refs": [
+            {
+              "ref": "DIEC, joule",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "joule m. [FIF] [FIM] Unitat d’energia, de treball i de quantitat de calor, del sistema internacional, equivalent al treball d’una força d’1 newton que es desplaça 1 metre en la direcció de la força (símbol, J)."
+            },
+            {
+              "ref": "DIEC, watt",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "watt 1 m. [FIF] [FIM] [LC] Unitat de potència del sistema internacional, equivalent a 1 joule per segon (símbol, W)."
+            }
+          ]
+        },
+        {
+          "text": "En electricitat, la intensitat de corrent es mesura en amperes i la resistència elèctrica en ohms (Ω). Un ohm és la resistència d'un conductor que deixa passar un corrent d'1 ampere quan entre els seus extrems hi ha una diferència de potencial constant d'1 volt. Per tant, ampere = intensitat, ohm = resistència, volt = diferència de potencial i watt = potència: no les barregis.",
+          "refs": [
+            {
+              "ref": "DIEC, ampere",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "ampere 1 1 m. [FIF] [FIM] [LC] Unitat d’intensitat de corrent elèctric del sistema internacional"
+            },
+            {
+              "ref": "DIEC, ohm",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "ohm 1 m. [FIM] Unitat de resistència elèctrica del sistema internacional, equivalent a la resistència d’un conductor que deixa passar un corrent d’1 ampere quan s’aplica entre els seus extrems una diferència de potencial constant d’1 volt (símbol, Ω)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Física: energia, moviment, pressió i reaccions nuclears",
+      "blocks": [
+        {
+          "text": "L'adjectiu «cinètic» vol dir relatiu al moviment o degut al moviment; per això l'energia que té un cos perquè es mou s'anomena energia cinètica. Un cotxe en marxa en té; quan s'atura, la perd. Un altre concepte bàsic és la inèrcia: la resistència de la matèria a canviar el seu estat de repòs o de moviment. És el que fa que, quan un autobús frena de cop, els passatgers continuïn movent-se cap endavant.",
+          "refs": [
+            {
+              "ref": "DIEC, cinètic",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "cinètic -a 1 adj. [FIF] Relatiu o pertanyent al moviment. Teoria cinètica dels gasos. 2 adj. [FIF] Degut al moviment. Energia cinètica."
+            },
+            {
+              "ref": "DIEC, inèrcia",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "inèrcia 2 1 f. [FIF] Resistència de la matèria a modificar el seu estat de repòs o de moviment."
+            }
+          ]
+        },
+        {
+          "text": "La pressió és la força per unitat de superfície exercida perpendicularment sobre un cos. Si la mateixa força es reparteix en una superfície més gran, la pressió és menor: per això uns esquís s'enfonsen menys a la neu que unes botes. La pressió atmosfèrica és la que exerceix l'aire a causa del seu pes, i és clau en meteorologia (apartat 7).",
+          "refs": [
+            {
+              "ref": "DIEC, pressió",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "pressió 2 1 f. [FIF] [ME] En fís., força per unitat de superfície que és exercida perpendicularment sobre un cos. 2 2 [FIF] [ME] pressió atmosfèrica Pressió exercida per l’aire a causa del seu pes."
+            }
+          ]
+        },
+        {
+          "text": "En la fusió nuclear, nuclis atòmics lleugers s'uneixen i en formen de nous. En el procés es perd una mica de massa, i aquesta pèrdua es transforma en grans quantitats d'energia. No s'ha de confondre amb la fissió, en què el procés és el contrari (un nucli pesant es divideix), ni amb la combustió, que és una reacció química i no nuclear.",
+          "refs": [
+            {
+              "ref": "DIEC, fusió nuclear",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "fusió nuclear Reacció nuclear en què es formen nous nuclis atòmics per associació d’altres de més lleugers amb pèrdua de massa, pèrdua que es manifesta amb l’alliberament de grans quantitats d’energia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Física: canvis d'estat",
+      "blocks": [
+        {
+          "text": "La matèria pot passar d'un estat a un altre (sòlid, líquid, gas o vapor). La condensació és el pas de vapor a líquid: és el que passa quan el vapor de la dutxa es converteix en gotes al mirall. L'evaporació és el procés invers, la transformació d'un líquid en vapor, i té lloc a la superfície on el líquid toca la fase gasosa, com quan s'asseca un bassal. La solidificació és l'acció de solidificar o solidificar-se, és a dir, passar a estat sòlid, com l'aigua que es glaça.",
+          "refs": [
+            {
+              "ref": "DIEC, condensació",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "condensació 1 2 f. [FIF] [IQ] Pas d’una substància de l’estat de vapor a l’estat líquid."
+            },
+            {
+              "ref": "DIEC, evaporació",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "evaporació 2 f. [FIF] [IQ] [QU] Transformació d’un líquid en vapor que té lloc en la superfície de contacte amb una fase gasosa."
+            },
+            {
+              "ref": "DIEC, solidificació",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "solidificació f. [FIF] [LC] Acció de solidificar o de solidificar-se."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Química: àtoms, molècules i compostos",
+      "blocks": [
+        {
+          "text": "L'àtom és la partícula més petita que forma un element químic; és elèctricament neutre i no es pot dividir per mitjans purament químics. Els àtoms s'enllacen químicament i formen molècules, que també són neutres. L'exemple clàssic és la molècula d'aigua, formada per dos àtoms d'hidrogen i un d'oxigen: per això la fórmula de l'aigua és H2O (el subíndex 2 indica els dos hidrògens).",
+          "refs": [
+            {
+              "ref": "DIEC, àtom",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "àtom 1 1 m. [FIF] [FIN] [QU] La partícula més petita constitutiva d’un element químic, elèctricament neutra, indivisible per les accions purament químiques"
+            },
+            {
+              "ref": "DIEC, molècula",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "molècula 1 1 f. [QU] Agregat d’àtoms, enllaçats entre ells químicament, que és elèctricament neutre. La molècula d’aigua està formada per dos àtoms d’hidrogen i un d’oxigen."
+            }
+          ]
+        },
+        {
+          "text": "Un mateix element pot presentar-se en formes diferents, anomenades estats al·lotròpics. L'oxigen que respirem és O2 (dos àtoms), mentre que l'ozó és O3 (tres àtoms): un gas blavós, d'olor característica, que absorbeix fortament la radiació ultraviolada. També el carboni té diverses formes al·lotròpiques, com el diamant i el grafit, i és l'element bàsic de tota la matèria orgànica.",
+          "refs": [
+            {
+              "ref": "DIEC, ozó",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "ozó m. [FIF] [LC] [ME] [QU] Gas blavós d’olor característica, de fórmula O3, fortament absorbent de la radiació ultraviolada de longitud d’ona curta, que és un estat al·lotròpic de l’oxigen (O2)."
+            },
+            {
+              "ref": "DIEC, carboni",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "carboni 1 m. [LC] [ML] [QU] Element químic no-metàl·lic que es presenta en diverses formes al·lotròpiques, una de les quals és el diamant i una altra el grafit, i és el constituent més important del carbó i l’element bàsic de tota la matèria orgànica (símbol, C; nombre atòmic, 6; pes atòmic, 12,01)."
+            }
+          ]
+        },
+        {
+          "text": "Un àcid és un compost capaç de cedir ions d'hidrogen o protons (H+) a una base, i per això pot neutralitzar les bases i formar sals. Un clorur és una combinació de clor amb un altre element (que no sigui oxigen ni fluor), o bé una sal de l'àcid clorhídric.",
+          "refs": [
+            {
+              "ref": "DIEC, àcid",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "àcid 4 1 m. [QU] Compost químic que és capaç de donar ions d’hidrogen o protons (H+) a una base i que, en conseqüència, és capaç de neutralitzar les bases per a formar sals."
+            },
+            {
+              "ref": "DIEC, clorur",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "clorur 1 m. [QU] Combinació de clor amb un element químic altre que l’oxigen o el fluor. 2 m. [QU] Sal de l’àcid clorhídric."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Química: elements i símbols",
+      "blocks": [
+        {
+          "text": "Cada element químic té un símbol i un nombre atòmic. Molts símbols no coincideixen amb el nom català perquè vénen del llatí, i són els que més surten a l'examen: or = Au (nombre atòmic 79), argent = Ag (47), plom = Pb (82), mercuri = Hg (80), sodi = Na (11), potassi = K (19) i ferro = Fe (26). L'or és el més mal·leable i dúctil de tots els metalls. El mercuri és el metall líquid a temperatura ordinària; el gal·li (Ga) no ho és, però fon a només 29,7 °C.",
+          "refs": [
+            {
+              "ref": "DIEC, or",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "or 1 1 m. [LC] [ML] [QU] Metall preciós, groc, el més mal·leable i dúctil de tots els metalls, molt pesant, inalterable a l’acció de la major part d’agents corrosius (símbol, Au; nombre atòmic, 79; pes atòmic, 196,97)."
+            },
+            {
+              "ref": "DIEC, argent",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "(símbol, Ag; nombre atòmic, 47; pes atòmic, 107,87)"
+            },
+            {
+              "ref": "DIEC, plom",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "(símbol, Pb; nombre atòmic, 82; pes atòmic, 207,2)"
+            },
+            {
+              "ref": "DIEC, mercuri",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "mercuri m. [LC] [ML] [QU] Metall líquid a la temperatura ordinària, molt pesant, de color blanc d’argent (símbol, Hg; nombre atòmic, 80; pes atòmic, 200,59)."
+            },
+            {
+              "ref": "DIEC, gal·li",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "remarcable pel seu punt de fusió molt baix, 29,7 °C, (símbol, Ga; nombre atòmic, 31; pes atòmic, 69,72)"
+            },
+            {
+              "ref": "DIEC, sodi, potassi i ferro",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "(símbol, Na; nombre atòmic, 11; pes atòmic, 22,99) […] (símbol, K; nombre atòmic, 19; pes atòmic, 39,10) […] (símbol, Fe; nombre atòmic, 26; pes atòmic, 55,85)"
+            }
+          ]
+        },
+        {
+          "text": "Altres elements: l'hidrogen (H, nombre atòmic 1) és la substància més lleugera coneguda; l'heli (He, 2) és un gas noble; el carboni és C (6); el nitrogen (N, 7) forma les quatre cinquenes parts de l'aire; l'oxigen (O, 8) n'és el 21 % en volum i és l'element més abundant de l'escorça terrestre; el clor (Cl, 17) és un halogen. Entre els metalls, el calci és Ca, l'alumini Al (el 8 % de la litosfera), el coure Cu, el zinc Zn i el platí Pt. El ferro constitueix aproximadament el 5 % de la litosfera.",
+          "refs": [
+            {
+              "ref": "DIEC, hidrogen",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "considerat la més lleugera de totes les substàncies conegudes (símbol, H; nombre atòmic, 1; pes atòmic, 1,007)"
+            },
+            {
+              "ref": "DIEC, nitrogen",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "constitueix les quatre cinquenes parts de l’aire atmosfèric i és un constituent dels teixits vivents (símbol, N; nombre atòmic, 7; pes atòmic, 14,006)"
+            },
+            {
+              "ref": "DIEC, oxigen",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "de la qual constitueix el 21 % en volum, i és un dels components de l’aigua, dels òxids i dels oxoàcids i l’element més abundant de l’escorça terrestre (símbol, O; nombre atòmic, 8; pes atòmic, 16,00)"
+            },
+            {
+              "ref": "DIEC, heli i clor",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "heli m. [QU] Element químic del grup dels gasos nobles […] (símbol, He; nombre atòmic, 2; pes atòmic, 4,002) […] clor m. [LC] [QU] Element químic no-metàl·lic del grup dels halògens […] (símbol, Cl; nombre atòmic, 17; pes atòmic, 35,45)"
+            },
+            {
+              "ref": "DIEC, calci, alumini, coure, zinc i platí",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "(símbol, Ca; nombre atòmic, 20; pes atòmic, 40,08) […] el qual constitueix el 8 % de la litosfera (símbol, Al; nombre atòmic, 13; pes atòmic, 26,98) […] (símbol, Cu; nombre atòmic, 29; pes atòmic, 63,54) […] (símbol, Zn; nombre atòmic, 30; pes atòmic, 65,38) […] (símbol, Pt; nombre atòmic, 78; pes atòmic, 195,09)"
+            },
+            {
+              "ref": "DIEC, ferro",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "on constitueix aproximadament el 5 % de la litosfera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Biologia: la cèl·lula, els éssers vius i el cos humà",
+      "blocks": [
+        {
+          "text": "La cèl·lula és la unitat estructural i funcional dels éssers vius: tot ésser viu està format per una o més cèl·lules. Generalment és microscòpica i típicament té citoplasma, un o més nuclis i una membrana citoplasmàtica que l'envolta. Els virus, en canvi, són agents infecciosos submicroscòpics. Contra moltes infeccions hi ha vacunes: preparats que estimulen la formació d'anticossos i aconsegueixen la immunització (no s'han de confondre amb els antibiòtics o els analgèsics).",
+          "refs": [
+            {
+              "ref": "DIEC, cèl·lula",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "cèl·lula 1 1 f. [BI] [LC] Unitat estructural i funcional dels éssers vius, generalment microscòpica, típicament formada de citoplasma i un o més nuclis, i envoltada d’una membrana citoplasmàtica."
+            },
+            {
+              "ref": "DIEC, virus",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "virus 1 1 m. [BI] [LC] [MD] Individu d’un grup d’agents infecciosos submicroscòpics"
+            },
+            {
+              "ref": "DIEC, vacuna",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "vacuna f. [LC] [MD] Preparat que estimula la formació d’anticossos, amb la qual cosa hom aconsegueix immunització contra diverses infeccions."
+            }
+          ]
+        },
+        {
+          "text": "La fotosíntesi és l'assimilació d'anhídrid carbònic (diòxid de carboni) mitjançant un procés que depèn de la llum. La fotosíntesi vegetal, la de les plantes, utilitza l'aigua i allibera oxigen. Per tant, la planta pren CO2 i aigua, aprofita la llum i deixa anar oxigen a l'atmosfera.",
+          "refs": [
+            {
+              "ref": "DIEC, fotosíntesi",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "fotosíntesi 1 f. [BI] [EG] Assimilació d’anhídrid carbònic per un procés que depèn de la llum. 3 [BI] fotosíntesi vegetal Fotosíntesi que utilitza l’aigua com a font de poder reductor i lliura oxigen."
+            }
+          ]
+        },
+        {
+          "text": "Entre els vertebrats, els mamífers es defineixen per tenir glàndules mamàries i un maxil·lar inferior format per un sol os, el dentari; inclouen els monotremes, els marsupials i els placentaris. Els rèptils (serps, llangardaixos, tortugues, cocodrils) tenen respiració pulmonar i el cos cobert d'escames o plaques òssies. Els amfibis (granotes, gripaus, tritons i salamandres) tenen respiració pulmonar i cutània i passen per un estat de larva aquàtica amb brànquies. Rèptils i amfibis són poiquiloterms, és a dir, de temperatura variable.",
+          "refs": [
+            {
+              "ref": "DIEC, mamífer",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "mamífer 2 1 m. pl. [LC] [ZOM] Classe d’animals del grup dels cordats vertebrats, que tenen glàndules mamàries, el maxil·lar inferior format per un únic os, el dentari, la qual comprèn els monotremes, els marsupials i els placentaris."
+            },
+            {
+              "ref": "DIEC, rèptil",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "rèptil 2 1 m. pl. [LC] [ZOR] Classe de vertebrats poiquiloterms, de respiració pulmonar, amb el cor dividit generalment en dues aurícules i un ventricle, el cos cobert d’escames o plaques òssies, ovípars o ovovivípars, que comprèn les serps, els llangardaixos, els amfisbenis, les tortugues i els cocodrils."
+            },
+            {
+              "ref": "DIEC, amfibi",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "amfibi 2 1 m. pl. [LC] [ZOA] [ZOR] Classe d’animals vertebrats poiquiloterms, que tenen el cor amb dues aurícules i un ventricle, respiració pulmonar i cutània, embrió desproveït d’amni, són generalment ovípars i passen per un estat de larva aquàtica proveïda de brànquies, que inclou les granotes, els gripaus, els tritons i les salamandres."
+            }
+          ]
+        },
+        {
+          "text": "Del cos humà, cal saber què és la sinapsi: la regió on es comuniquen i es transmeten els impulsos nerviosos entre neurones, o entre una neurona motora i el múscul. També surt a vegades el cúbit, l'os més llarg i intern de l'avantbraç, que forma el colze en articular-se amb l'húmer. En l'actualitat científica, el Premi Nobel de Fisiologia o Medicina 2026 (font consultada el 06/11/2026) va ser per a Karl Deisseroth, Peter Hegemann i Georg Nagel, pels descobriments que han dut a l'optogenètica, que permet activar o desactivar cèl·lules nervioses concretes en un cervell viu.",
+          "refs": [
+            {
+              "ref": "DIEC, sinapsi",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "sinapsi 1 f. [MD] [ZOA] Regió de comunicació i de transmissió d’impulsos nerviosos entre les neurones o entre una neurona motora i el múscul."
+            },
+            {
+              "ref": "DIEC, cúbit",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "cúbit m. [MD] [ZOA] Os més llarg intern de l’avantbraç, que forma el colze en la seva articulació amb l’húmer."
+            },
+            {
+              "ref": "Premi Nobel de Medicina 2026",
+              "law": "NobelPrize.org, premis 2026",
+              "url": "https://www.nobelprize.org/all-nobel-prizes-2026/",
+              "quote": "Karl Deisseroth, Peter Hegemann and Georg Nagel have been awarded the 2026 Nobel Prize in Physiology or Medicine for discoveries leading to optogenetics, which makes it possible to switch on, or off, the activity of individual nerve cells in a living brain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Ciències de la Terra: geologia interna i tectònica",
+      "blocks": [
+        {
+          "text": "Sota l'escorça hi ha el magma, una massa de matèria mineral fosa i a temperatura molt elevada, formada sobretot per silicats i gasos. Quan es refreda forma roques ígnies. Quan arriba a la superfície (a l'aire lliure o sota l'aigua) a través d'un volcà, construeix un relleu que sol tenir forma cònica amb un cràter al cim. Els fragments de lava o de roca que el volcà expulsa i que arriben al sòl gairebé consolidats s'anomenen piroclasts.",
+          "refs": [
+            {
+              "ref": "DIEC, magma",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "magma 1 m. [GL] Massa de matèria mineral en estat de fusió i a una elevada temperatura, formada principalment per silicats i gasos, que es genera dins de l’escorça terrestre, és mòbil i forma, en refredar-se, roques ígnies efusives i intrusives."
+            },
+            {
+              "ref": "DIEC, volcà",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "volcà 1 m. [GL] [LC] Lloc a l’aire lliure o a sota l’aigua on les laves i altres productes magmàtics atenyen la superfície terrestre i, en refredar-se, construeixen un relleu al voltant de la boca o de la fissura eruptiva, el qual sol tenir una forma cònica i una depressió o un cràter al cim."
+            },
+            {
+              "ref": "DIEC, piroclast",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "piroclast m. [GL] Fragment de lava o de roca encaixant expulsat per un volcà, de dimensions variables, que arriba al sòl gairebé consolidat."
+            }
+          ]
+        },
+        {
+          "text": "Segons la teoria de la tectònica de plaques, la litosfera terrestre està dividida en unes quantes plaques rígides que es mouen independentment les unes de les altres. Quan una placa s'enfonsa sota una altra a gran escala, parlem de subducció. No s'ha de confondre amb l'erosió, que és el conjunt de processos de despreniment i transport de materials a la superfície del sòl, i que contribueix a modelar el relleu.",
+          "refs": [
+            {
+              "ref": "DIEC, tectònica de plaques",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "tectònica de plaques Teoria segons la qual la litosfera terrestre és dividida en un nombre reduït de plaques rígides que es mouen amb independència les unes de les"
+            },
+            {
+              "ref": "DIEC, subducció",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "subducció f. [GL] Enfonsament de gran amplitud d’una placa litosfèrica sota d’una altra."
+            },
+            {
+              "ref": "DIEC, erosió",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "erosió 2 1 f. [AGF] [GL] Conjunt de processos de despreniment i transport dels detritus pels agents en moviment que operen sobre la superfície del sòl, que concorren a la formació del relleu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Ciències de la Terra: el modelat del relleu",
+      "blocks": [
+        {
+          "text": "Els rius modelen el paisatge: un meandre és una volta sinuosa d'un curs d'aigua; un delta és una formació de sediments que el riu diposita on desemboca al mar o en un llac; i un estuari és una desembocadura àmplia afectada per les marees. Les glaceres són masses de glaç formades per la compactació de la neu en zones de neus perpètues, que es mouen lentament pendent avall per gravetat.",
+          "refs": [
+            {
+              "ref": "DIEC, meandre, delta i estuari",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "meandre 1 m. [GL] [LC] Volta sinuosa que fa un curs d’aigua, un riu, un camí. […] delta 1 m. [GG] [GL] [LC] Formació sedimentària dipositada per un riu en el desguàs a la mar o en un llac […] estuari m. [GG] [LC] Embocadura àmplia d’un riu afectada per les marees."
+            },
+            {
+              "ref": "DIEC, glacera",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "glacera f. [GG] [GL] [LC] Massa de glaç continental formada per compactació i recristal·lització de la neu en una regió de neus perpètues, que es mou lentament per gravetat rost avall"
+            }
+          ]
+        },
+        {
+          "text": "El carst és una regió de roques solubles (calcàries, dolomies, guix o sal) on l'aigua ha excavat avencs, cavernes i dolines. Dins de les coves es formen les estalactites: concrecions generalment calcàries i cilíndriques, originades per un degotall, que pengen de la volta (el sostre). Truc per recordar-ho: l'estalactita penja del sostre; l'estalagmita creix des de terra.",
+          "refs": [
+            {
+              "ref": "DIEC, carst",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "carst m. [GL] Regió de roca calcària o dolomítica i d’altres roques solubles, com el guix i la sal, on s’ha produït el desenvolupament d’avencs, cavernes, rasclers, dolines de dissolució, etc."
+            },
+            {
+              "ref": "DIEC, estalactita",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "estalactita f. [GL] [LC] Concreció generalment calcària i de forma cilíndrica, amb un canalicle paral·lel a l’eix longitudinal, originada per un degotall, que penja de la volta de les coves."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Atmosfera i meteorologia",
+      "blocks": [
+        {
+          "text": "L'atmosfera té diverses capes. La més baixa és la troposfera, entre la superfície terrestre i la tropopausa, fins a uns 10 o 17 km d'altitud segons la latitud; en aquesta capa la temperatura baixa a mesura que pugem. Al damunt hi ha l'estratosfera, entre uns 12 i uns 50 km, on passa al contrari: la temperatura creix amb l'altitud. L'ozó, que absorbeix la radiació ultraviolada, és un gas present a l'atmosfera.",
+          "refs": [
+            {
+              "ref": "DIEC, troposfera",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "troposfera f. [ME] Capa de l’atmosfera terrestre situada entre la superfície de la Terra i la tropopausa, que s’estén fins a uns 10 o 17 quilòmetres d’altitud segons la latitud, i on la temperatura decreix gradualment amb l’altitud."
+            },
+            {
+              "ref": "DIEC, estratosfera",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "estratosfera f. [ME] Capa de l’atmosfera terrestre situada entre la tropopausa i l’estratopausa, que s’estén entre uns 12 i uns 50 quilòmetres d’altitud, i on la temperatura creix amb l’altitud."
+            }
+          ]
+        },
+        {
+          "text": "Un anticicló és una regió on la pressió atmosfèrica és més alta al centre que als voltants. La gota freda, en canvi, és una depressió atmosfèrica freda en altura, originada a la troposfera mitjana o alta, que a la superfície no es correspon amb una zona de baixes pressions; per això pot no detectar-se en un mapa de superfície.",
+          "refs": [
+            {
+              "ref": "DIEC, anticicló",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "anticicló 2 1 m. [ME] Regió de l’atmosfera en què la pressió atmosfèrica és més alta a l’àrea central que a les àrees envoltants"
+            },
+            {
+              "ref": "DIEC, gota freda",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "gota freda Depressió atmosfèrica freda en altura les característiques de la qual s’originen en la circulació de la troposfera mitjana o alta i que en superfície no es correspon amb una zona depressionària."
+            }
+          ]
+        },
+        {
+          "text": "El clima és el conjunt de condicions atmosfèriques i ambientals pròpies d'una regió, sobretot pel que fa als efectes sobre la vida animal i vegetal. El clima continental, propi de l'interior dels grans continents, es caracteritza per grans oscil·lacions de temperatura, tant entre el dia i la nit com al llarg de l'any.",
+          "refs": [
+            {
+              "ref": "DIEC, clima",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "clima 1 1 m. [EG] [LC] [ME] Conjunt de condicions atmosfèriques i ambientals pròpies d’una regió, especialment en tant que afecten la vida animal i vegetal. 1 2 [ME] clima continental Clima propi de l’interior dels grans continents, caracteritzat per grans oscil·lacions de la temperatura, tant diürnes com anuals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "La Terra a l'espai",
+      "blocks": [
+        {
+          "text": "L'equador és el cercle màxim de la Terra, amb tots els punts a la mateixa distància dels dos pols; els paral·lels són cercles menors paral·lels a l'equador. La latitud d'un lloc és la seva distància a l'equador mesurada sobre el meridià. El primer meridià, origen de les longituds (0°), passa per l'observatori de Greenwich, a Anglaterra.",
+          "refs": [
+            {
+              "ref": "DIEC, equador",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "equador 2 m. [FIA] [GG] [LC] Cercle màxim de l’esfera terrestre tots els punts del qual equidisten dels dos pols."
+            },
+            {
+              "ref": "DIEC, latitud",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "latitud 2 1 f. [GG] Distància d’un lloc a l’equador mesurada per l’arc de meridià que va des del dit lloc a l’equador."
+            },
+            {
+              "ref": "DIEC, primer meridià",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "primer meridià Meridià que passa per l’observatori anglès de Greenwich, adoptat actualment com a origen de les longituds geogràfiques"
+            }
+          ]
+        },
+        {
+          "text": "Els planetes inferiors, amb l'òrbita dins de la de la Terra, són Mercuri i Venus. La Lluna és el satèl·lit de la Terra, i quan s'interposa entre el Sol i la Terra provoca un eclipsi de Sol. El solstici d'estiu cau cap al 21 de juny i el d'hivern cap al 21 de desembre; als equinoccis el Sol és dotze hores per sobre i dotze per sota de l'horitzó a tot el planeta.",
+          "refs": [
+            {
+              "ref": "DIEC, planeta inferior",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Els planetes inferiors són Mercuri i Venus."
+            },
+            {
+              "ref": "DIEC, eclipsar",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "La Lluna eclipsa el Sol quan s’interposa entre aquest astre i la Terra."
+            },
+            {
+              "ref": "DIEC, solstici",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "solstici d’estiu Temps en què el Sol passa pel primer punt del signe Càncer, per allà el 21 de juny. 4 [FIA] [LC] solstici d’hivern Temps en què el Sol passa pel primer punt del signe Capricorn, per allà el 21 de desembre."
+            },
+            {
+              "ref": "DIEC, equinocci",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "està dotze hores per damunt de l’horitzó i dotze per sota en tots els punts de la Terra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Medi ambient",
+      "blocks": [
+        {
+          "text": "Un ecosistema és el sistema format per organismes de diverses espècies que interaccionen dins d'un espai definit, com un bosc o un estany. La biomassa és la massa total de matèria viva d'una comunitat o ecosistema, a la qual sovint s'hi afegeix matèria no viva, i es pot aprofitar com a font d'energia. Les fonts oficials carregades per a aquest tema no detallen altres conceptes ambientals (contaminació, residus, energies renovables), que caldria estudiar d'una font oficial específica.",
+          "refs": [
+            {
+              "ref": "DIEC, ecosistema",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "ecosistema m. [EG] Sistema d’organització dels organismes de diverses espècies que interaccionen en el si d’un espai definit."
+            },
+            {
+              "ref": "DIEC, biomassa",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "biomassa f. [EG] Massa total de la matèria viva existent en una comunitat o en un ecosistema, a la qual sovint s’afegeix també matèria no viva, utilitzable com a font d’energia per a l’activitat orgànica."
+            }
+          ]
+        },
+        {
+          "text": "En l'àmbit internacional, la COP és la conferència de les Nacions Unides sobre el canvi climàtic, on els països acorden accions contra la crisi climàtica: limitar l'augment de la temperatura global a 1,5 °C, ajudar les comunitats vulnerables a adaptar-se i arribar a emissions netes zero el 2050. La COP31, la 31a reunió de les Parts de la Convenció Marc de l'ONU sobre el Canvi Climàtic (tractat del 1992, del qual deriva l'Acord de París del 2015), se celebra a Antalya (Turquia) del 9 al 20 de novembre de 2026 (font consultada el 06/11/2026).",
+          "refs": [
+            {
+              "ref": "UNFCCC, COP31",
+              "law": "UNFCCC, COP31",
+              "url": "https://unfccc.int/cop31",
+              "quote": "COP31 is the United Nations Climate Change Conference taking place in Antalya, Türkiye from 9 to 20 November 2026."
+            },
+            {
+              "ref": "UNFCCC, què és la COP",
+              "law": "UNFCCC, COP31",
+              "url": "https://unfccc.int/cop31",
+              "quote": "limiting the global temperature rise to 1.5 degrees Celsius, helping vulnerable communities adapt to the effects of climate change, and achieving net-zero emissions by 2050."
+            },
+            {
+              "ref": "UNFCCC, UNFCCC i Acord de París",
+              "law": "UNFCCC, COP31",
+              "url": "https://unfccc.int/cop31",
+              "quote": "a landmark international treaty agreed in 1992, and parent treaty to the 2015 Paris Agreement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Watt = potència (1 W = 1 J/s); joule = energia; newton = força; ampere = intensitat; ohm = resistència elèctrica.",
+          "refs": [
+            {
+              "ref": "DIEC, watt",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Unitat de potència del sistema internacional, equivalent a 1 joule per segon (símbol, W)."
+            }
+          ]
+        },
+        {
+          "text": "Condensació = de vapor a líquid; evaporació = de líquid a vapor.",
+          "refs": [
+            {
+              "ref": "DIEC, condensació",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Pas d’una substància de l’estat de vapor a l’estat líquid."
+            }
+          ]
+        },
+        {
+          "text": "Fusió nuclear = nuclis lleugers que s'uneixen i alliberen molta energia.",
+          "refs": [
+            {
+              "ref": "DIEC, fusió nuclear",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "es formen nous nuclis atòmics per associació d’altres de més lleugers"
+            }
+          ]
+        },
+        {
+          "text": "Aigua = H2O (dos hidrògens i un oxigen); ozó = O3; oxigen que respirem = O2.",
+          "refs": [
+            {
+              "ref": "DIEC, molècula",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "La molècula d’aigua està formada per dos àtoms d’hidrogen i un d’oxigen."
+            }
+          ]
+        },
+        {
+          "text": "Or = Au (79); mercuri = Hg (80), l'únic metall citat que és líquid a temperatura ordinària; argent = Ag.",
+          "refs": [
+            {
+              "ref": "DIEC, or",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "(símbol, Au; nombre atòmic, 79; pes atòmic, 196,97)"
+            }
+          ]
+        },
+        {
+          "text": "Cèl·lula = unitat estructural i funcional dels éssers vius; vacuna = estimula la formació d'anticossos.",
+          "refs": [
+            {
+              "ref": "DIEC, cèl·lula",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Unitat estructural i funcional dels éssers vius"
+            }
+          ]
+        },
+        {
+          "text": "Mamífers = glàndules mamàries; granotes, gripaus, tritons i salamandres = amfibis.",
+          "refs": [
+            {
+              "ref": "DIEC, amfibi",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "que inclou les granotes, els gripaus, els tritons i les salamandres."
+            }
+          ]
+        },
+        {
+          "text": "Sinapsi = comunicació entre neurones o entre neurona motora i múscul.",
+          "refs": [
+            {
+              "ref": "DIEC, sinapsi",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Regió de comunicació i de transmissió d’impulsos nerviosos entre les neurones"
+            }
+          ]
+        },
+        {
+          "text": "Troposfera = capa baixa (fins a 10-17 km), la temperatura baixa amb l'altitud; gota freda = depressió freda en altura sense baixes pressions en superfície.",
+          "refs": [
+            {
+              "ref": "DIEC, gota freda",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "que en superfície no es correspon amb una zona depressionària."
+            }
+          ]
+        },
+        {
+          "text": "Subducció = una placa litosfèrica s'enfonsa sota una altra; estalactita = penja de la volta de la cova.",
+          "refs": [
+            {
+              "ref": "DIEC, subducció",
+              "law": "DIEC2",
+              "url": "https://dlc.iec.cat/",
+              "quote": "Enfonsament de gran amplitud d’una placa litosfèrica sota d’una altra."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

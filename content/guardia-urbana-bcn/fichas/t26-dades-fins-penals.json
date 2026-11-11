@@ -57,5 +57,562 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Objecte i àmbit d'aplicació de la LO 7/2021",
+      "blocks": [
+        {
+          "text": "La Llei orgànica 7/2021, de 26 de maig, estableix les normes de protecció de les persones físiques pel que fa al tractament de dades personals per part de les autoritats competents amb fins de prevenció, detecció, investigació i enjudiciament d'infraccions penals o d'execució de sancions penals, incloses la protecció i prevenció davant les amenaces contra la seguretat pública (art. 1). És la norma que transposa la Directiva (UE) 2016/680 i, per tant, la que s'aplica a la feina policial de caràcter penal; la LOPDGDD (tema 25) hi remet expressament.",
+          "refs": [
+            {
+              "ref": "Art. 1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Esta Ley Orgánica tiene por objeto establecer las normas relativas a la protección de las personas físicas en lo que respecta al tratamiento de los datos de carácter personal por parte de las autoridades competentes, con fines de prevención, detección, investigación y enjuiciamiento de infracciones penales o de ejecución de sanciones penales"
+            },
+            {
+              "ref": "Art. 22.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se regirá por la legislación de transposición de la Directiva (UE) 2016/680"
+            }
+          ]
+        },
+        {
+          "text": "S'aplica al tractament automatitzat, total o parcial, i al no automatitzat de dades contingudes o destinades a un fitxer, fet per les autoritats competents amb aquests fins (art. 2.1). En queden fora, entre d'altres, els tractaments que les autoritats competents facin per a fins diferents (per exemple, d'arxiu o estadístics), que se sotmeten plenament al RGPD i a la LOPDGDD; els de matèries classificades, inclosa la defensa nacional; i els de procediments civils o administratius vinculats al procés penal sense finalitat penal directa (art. 2.3). Tampoc no s'aplica a les dades de persones mortes, sens perjudici de l'article 3 (art. 2.4).",
+          "refs": [
+            {
+              "ref": "Art. 2.3.a LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Los realizados por las autoridades competentes para fines distintos de los previstos en el artículo 1, incluidos los fines de archivo por razones de interés público, investigación científica e histórica o estadísticos."
+            },
+            {
+              "ref": "Art. 2.3.d LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "d) Los sometidos a la normativa sobre materias clasificadas, entre los que se encuentran los tratamientos relativos a la Defensa Nacional."
+            },
+            {
+              "ref": "Art. 2.4 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Esta Ley Orgánica no se aplicará a los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo siguiente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Autoritats competents",
+      "blocks": [
+        {
+          "text": "És autoritat competent tota autoritat pública amb competències legals per tractar dades amb els fins de l'article 1 (art. 4.1). En particular ho són: a) les forces i cossos de seguretat (inclosa, per tant, la policia local); b) les administracions penitenciàries; c) la Direcció Adjunta de Vigilància Duanera; d) el Servei Executiu de la Comissió de Prevenció del Blanqueig de Capitals; i e) la Comissió de Vigilància d'Activitats de Finançament del Terrorisme. També ho són les autoritats judicials de l'ordre penal i el Ministeri Fiscal (art. 4.2).",
+          "refs": [
+            {
+              "ref": "Art. 4.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Las Fuerzas y Cuerpos de Seguridad. b) Las Administraciones Penitenciarias."
+            },
+            {
+              "ref": "Art. 4.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "También tendrán consideración de autoridades competentes las Autoridades judiciales del orden jurisdiccional penal y el Ministerio Fiscal."
+            }
+          ]
+        },
+        {
+          "text": "El tractament de dades per jutjats i fiscalies en els seus processos es regeix per aquesta llei, però les autoritats de protecció de dades no són competents per controlar aquestes operacions (art. 2.2).",
+          "refs": [
+            {
+              "ref": "Art. 2.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Las autoridades de protección de datos a las que se refiere el capítulo VI no serán competentes para controlar estas operaciones de tratamiento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Conceptes bàsics",
+      "blocks": [
+        {
+          "text": "Dades personals són tota informació sobre una persona física identificada o identificable (l'interessat), per exemple mitjançant un nom, un número d'identificació, dades de localització o un identificador en línia (art. 5.a). Les dades biomètriques són les obtingudes per un tractament tècnic específic de les característiques físiques, fisiològiques o de conducta que permeten la identificació única d'una persona, com les imatges facials o les dades dactiloscòpiques (art. 5.l). El responsable del tractament és l'autoritat competent que determina els fins i mitjans del tractament (art. 5.g).",
+          "refs": [
+            {
+              "ref": "Art. 5.a LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "«datos personales»: toda información sobre una persona física identificada o identificable («el interesado»)"
+            },
+            {
+              "ref": "Art. 5.l LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "relativos a las características físicas, fisiológicas o de conducta de una persona física que permitan o confirmen la identificación única de dicha persona, como imágenes faciales o datos dactiloscópicos"
+            },
+            {
+              "ref": "Art. 5.g LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "la autoridad competente que sola o conjuntamente con otras, determine los fines y medios del tratamiento de datos personales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Principis del tractament i licitud",
+      "blocks": [
+        {
+          "text": "Les dades han de ser (art. 6.1): a) tractades de manera lícita i lleial; b) recollides amb fins determinats, explícits i legítims; c) adequades, pertinents i no excessives en relació amb els fins; d) exactes i, si cal, actualitzades; e) conservades de manera que permetin identificar l'interessat només el temps necessari; i f) tractades amb una seguretat adequada. El responsable ha de garantir i poder demostrar que compleix aquests principis (art. 6.5).",
+          "refs": [
+            {
+              "ref": "Art. 6.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Tratados de manera lícita y leal. b) Recogidos con fines determinados, explícitos y legítimos, y no serán tratados de forma incompatible con esos fines. c) Adecuados, pertinentes y no excesivos en relación con los fines para los que son tratados."
+            },
+            {
+              "ref": "Art. 6.5 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "El responsable del tratamiento deberá garantizar y estar en condiciones de demostrar el cumplimiento de lo establecido en este artículo."
+            }
+          ]
+        },
+        {
+          "text": "El tractament només és lícit en la mesura que sigui necessari per als fins de l'article 1 i el faci una autoritat competent en l'exercici de les seves funcions (art. 11.1). Si les dades recollides es tracten per a fins diferents dels de l'article 1, s'aplica el RGPD i la LOPDGDD (art. 6.2).",
+          "refs": [
+            {
+              "ref": "Art. 11.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "El tratamiento sólo será lícito en la medida en que sea necesario para los fines señalados en el artículo 1 y se realice por una autoridad competente en ejercicio de sus funciones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Deure de col·laboració amb les autoritats competents",
+      "blocks": [
+        {
+          "text": "Les administracions i qualsevol persona física o jurídica han de proporcionar als jutges, al Ministeri Fiscal o a la Policia Judicial les dades i antecedents necessaris per investigar i enjudiciar infraccions penals (art. 7.1). La petició de la Policia Judicial ha de ser sempre motivada, concreta i específica, i se n'ha de donar compte a l'autoritat judicial i fiscal. En aquests casos, l'interessat no és informat de la transmissió de les seves dades, per garantir la investigació (art. 7.4).",
+          "refs": [
+            {
+              "ref": "Art. 7.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "deberá efectuarse siempre de forma motivada, concreta y específica, dando cuenta en todo caso a la autoridad judicial y fiscal."
+            },
+            {
+              "ref": "Art. 7.4 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "el interesado no será informado de la transmisión de sus datos a las autoridades competentes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Terminis de conservació i revisió",
+      "blocks": [
+        {
+          "text": "Les dades només es poden conservar el temps necessari per als fins de l'article 1 (art. 8.1). El responsable ha de revisar la necessitat de conservar, limitar o suprimir les dades de cada activitat de tractament com a màxim cada tres anys, atenent especialment l'edat de l'afectat, el caràcter de les dades i la conclusió de la investigació o del procediment penal (art. 8.2).",
+          "refs": [
+            {
+              "ref": "Art. 8.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "como máximo cada tres años, atendiendo especialmente en cada revisión a la edad del afectado, el carácter de los datos y a la conclusión de una investigación o procedimiento penal."
+            }
+          ]
+        },
+        {
+          "text": "Amb caràcter general, el termini màxim per suprimir les dades és de vint anys, llevat que hi hagi factors com investigacions obertes o delictes no prescrits, l'execució de la pena no acabada, reincidència, necessitat de protegir les víctimes o altres circumstàncies motivades (art. 8.3). Distingeix bé: revisió cada tres anys com a màxim; supressió als vint anys com a regla general.",
+          "refs": [
+            {
+              "ref": "Art. 8.3 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Con carácter general, el plazo máximo para la supresión de los datos será de veinte años, salvo que concurran factores como la existencia de investigaciones abiertas o delitos que no hayan prescrito"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Categories d'interessats i qualitat de les dades",
+      "blocks": [
+        {
+          "text": "En la mesura del possible, el responsable ha de distingir entre categories d'interessats (art. 9): a) persones de les quals hi ha motius fundats per presumir que han comès, poden cometre o col·laborar en una infracció penal; b) persones condemnades o sancionades per una infracció penal; c) víctimes o afectats, o que ho puguin ser; i d) tercers involucrats, com testimonis, persones que poden facilitar informació o contactes i associats dels de les lletres a) i b). Això no impedeix la presumpció d'innocència de l'article 24 de la Constitució.",
+          "refs": [
+            {
+              "ref": "Art. 9 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Personas respecto de las cuales existan motivos fundados para presumir que hayan cometido, puedan cometer o colaborar en la comisión de una infracción penal. b) Personas condenadas o sancionadas por una infracción penal. c) Víctimas o afectados por una infracción penal o que puedan serlo."
+            },
+            {
+              "ref": "Art. 9 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Lo anterior no debe impedir la aplicación del derecho a la presunción de inocencia tal como lo garantiza el artículo 24 de la Constitución."
+            }
+          ]
+        },
+        {
+          "text": "El responsable també ha de distingir, en la mesura del possible, entre dades basades en fets i dades basades en apreciacions personals (art. 10.1), i ha d'evitar que es transmetin dades inexactes, incompletes o no actualitzades.",
+          "refs": [
+            {
+              "ref": "Art. 10.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "establecerá una distinción entre los datos personales basados en hechos y los basados en apreciaciones personales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Categories especials de dades i decisions automatitzades",
+      "blocks": [
+        {
+          "text": "Les dades que revelen origen ètnic o racial, opinions polítiques, conviccions religioses o filosòfiques, afiliació sindical, dades genètiques, biomètriques per identificar unívocament una persona, de salut o de vida i orientació sexual només es poden tractar quan sigui estrictament necessari, amb garanties adequades i si concorre una d'aquestes circumstàncies: que ho prevegi una norma amb rang de llei o el dret de la Unió; que sigui necessari per protegir interessos vitals o drets fonamentals; o que es tracti de dades que l'interessat ha fet manifestament públiques (art. 13.1). Les autoritats competents poden tractar dades biomètriques per a fins de prevenció i investigació penal (art. 13.2).",
+          "refs": [
+            {
+              "ref": "Art. 13.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "sólo se permitirá cuando sea estrictamente necesario, con sujeción a las garantías adecuadas para los derechos y libertades del interesado y cuando se cumplan alguna de las siguientes circunstancias:"
+            },
+            {
+              "ref": "Art. 13.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Se encuentre previsto por una norma con rango de ley o por el Derecho de la Unión Europea. b) Resulte necesario para proteger los intereses vitales, así como los derechos y libertades fundamentales del interesado o de otra persona física. c) Dicho tratamiento se refiera a datos que el interesado haya hecho manifiestamente públicos."
+            }
+          ]
+        },
+        {
+          "text": "Estan prohibides les decisions basades únicament en un tractament automatitzat, inclosa l'elaboració de perfils, que produeixin efectes jurídics negatius per a l'interessat, llevat que una llei o el dret de la Unió ho autoritzi, amb dret a obtenir intervenció humana (art. 14.1). Queda prohibida l'elaboració de perfils que discrimini a partir de categories especials de dades (art. 14.3).",
+          "refs": [
+            {
+              "ref": "Art. 14.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Están prohibidas las decisiones basadas únicamente en un tratamiento automatizado, incluida la elaboración de perfiles, que produzcan efectos jurídicos negativos para el interesado"
+            },
+            {
+              "ref": "Art. 14.3 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Queda prohibida la elaboración de perfiles que dé lugar a una discriminación de las personas físicas sobre la base de categorías especiales de datos personales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Videovigilància per les FCS: criteris i sistemes fixos",
+      "blocks": [
+        {
+          "text": "La captació i el tractament d'imatges i sons per les forces i cossos de seguretat d'acord amb aquesta llei no es consideren intromissions il·legítimes en el dret a l'honor, a la intimitat i a la pròpia imatge (art. 15.1). En instal·lar sistemes de gravació s'han de tenir en compte, segons la proporcionalitat, criteris com protegir els edificis propis i els públics sota custòdia, les instal·lacions útils per a la seguretat nacional i prevenir o investigar infraccions penals (art. 15.2).",
+          "refs": [
+            {
+              "ref": "Art. 15.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "no se considerarán intromisiones ilegítimas en el derecho al honor, a la intimidad personal y familiar y a la propia imagen"
+            }
+          ]
+        },
+        {
+          "text": "A les vies o llocs públics amb videocàmeres fixes, el responsable ha de valorar la proporcionalitat en la seva doble versió d'idoneïtat i intervenció mínima, i fer una anàlisi de riscos o una avaluació d'impacte (art. 16.1). Videocàmera fixa és la que està ancorada a un suport fix o façana, encara que el sistema de gravació es pugui moure en qualsevol direcció. Els propietaris han de permetre la instal·lació, amb la indemnització que escaigui (art. 16.4), i els ciutadans han de ser informats de manera clara i permanent de l'existència de les càmeres, sense especificar-ne l'emplaçament (art. 16.5).",
+          "refs": [
+            {
+              "ref": "Art. 16.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "el responsable del tratamiento deberá realizar una valoración del citado principio de proporcionalidad en su doble versión de idoneidad e intervención mínima."
+            },
+            {
+              "ref": "Art. 16.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Se entenderá por videocámara fija aquella anclada a un soporte fijo o fachada, aunque el sistema de grabación se pueda mover en cualquier dirección."
+            },
+            {
+              "ref": "Art. 16.5 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Los ciudadanos serán informados de manera clara y permanente de la existencia de estas videocámaras fijas, sin especificar su emplazamiento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Dispositius mòbils de gravació",
+      "blocks": [
+        {
+          "text": "Es poden fer servir dispositius mòbils de presa d'imatge i so; la presa d'imatge i so ha de ser conjunta i està supeditada sempre a la concurrència d'un perill o esdeveniment concret (art. 17.1). L'ús l'autoritza el titular de la Delegació o Subdelegació del Govern. Però a les comunitats autònomes amb policia pròpia competent en ordre públic, com Catalunya, l'autoritzen els seus òrgans corresponents, tant per a la seva policia com per a les policies locals del seu territori.",
+          "refs": [
+            {
+              "ref": "Art. 17.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "La toma de imagen y sonido, que ha de ser conjunta, queda supeditada, en todo caso, a la concurrencia de un peligro o evento concreto."
+            },
+            {
+              "ref": "Art. 17.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "serán sus órganos correspondientes los que autorizarán este tipo de actuaciones para sus fuerzas policiales, así como para las dependientes de las Corporaciones locales radicadas en su territorio."
+            }
+          ]
+        },
+        {
+          "text": "Les autoritzacions mai no poden ser indefinides o permanents: es donen pel termini adequat, amb un màxim d'un mes prorrogable per un altre (art. 17.2). En casos d'urgència o necessitat inajornable, en decideix l'ús el responsable operatiu del cos, que ho ha de comunicar al més aviat possible i sempre en un termini de 24 hores al delegat o subdelegat del Govern o a l'autoritat autonòmica (art. 17.3).",
+          "refs": [
+            {
+              "ref": "Art. 17.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "por un periodo máximo de un mes prorrogable por otro."
+            },
+            {
+              "ref": "Art. 17.3 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "siendo comunicada tal actuación con la mayor brevedad posible, y siempre en el plazo de 24 horas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Tractament i conservació de les gravacions i règim disciplinari",
+      "blocks": [
+        {
+          "text": "Si la gravació capta fets que poden ser infracció penal, el suport original s'ha de posar íntegrament a disposició judicial com més aviat millor i, en tot cas, en un màxim de setanta-dues hores des de la gravació; si no es pot redactar l'atestat en aquest termini, cal relatar verbalment els fets a l'autoritat judicial o al fiscal en lliurar la gravació (art. 18.1). Si capta possibles infraccions administratives de seguretat pública, s'ha de remetre immediatament a l'òrgan competent per iniciar el procediment sancionador (art. 18.2).",
+          "refs": [
+            {
+              "ref": "Art. 18.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "en todo caso, en el plazo máximo de setenta y dos horas desde su grabación. De no poder redactarse el atestado en tal plazo, se relatarán verbalmente los hechos a la autoridad judicial, o al Ministerio Fiscal, junto con la entrega de la grabación."
+            },
+            {
+              "ref": "Art. 18.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "se remitirán al órgano competente, de inmediato, para el inicio del oportuno procedimiento sancionador."
+            }
+          ]
+        },
+        {
+          "text": "Les gravacions s'han de destruir en un màxim de tres mesos des de la captació, llevat que estiguin relacionades amb infraccions penals o administratives greus o molt greus en matèria de seguretat pública, amb una investigació en curs o amb un procediment obert (art. 18.3). Les infraccions dels agents se sancionen pel seu règim disciplinari; per a les FCSE, alterar o manipular registres, permetre'n l'accés a persones no autoritzades o fer-los servir per a altres fins són faltes molt greus (art. 19).",
+          "refs": [
+            {
+              "ref": "Art. 18.3 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Las grabaciones serán destruidas en el plazo máximo de tres meses desde su captación, salvo que estén relacionadas con infracciones penales o administrativas graves o muy graves en materia de seguridad pública"
+            },
+            {
+              "ref": "Art. 19.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Alterar o manipular los registros de imágenes y sonidos, siempre que no constituya delito."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Delegat de protecció de dades, autoritats de control i règim sancionador",
+      "blocks": [
+        {
+          "text": "Els responsables del tractament han de designar, en tot cas, un delegat de protecció de dades; no hi estan obligats els òrgans jurisdiccionals ni el Ministeri Fiscal en l'exercici de funcions jurisdiccionals (art. 40.1). La designació i el cessament s'han de comunicar a l'autoritat de protecció de dades en deu dies (art. 40.4). Són autoritats de control l'Agència Espanyola de Protecció de Dades i les autoritats autonòmiques, aquestes només per als tractaments del seu àmbit (art. 48).",
+          "refs": [
+            {
+              "ref": "Art. 40.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Los responsables del tratamiento designarán, en todo caso, un delegado de protección de datos. No estarán obligados a designarlo los órganos jurisdiccionales o el Ministerio Fiscal cuando el tratamiento de datos personales se realice en el ejercicio de sus funciones jurisdiccionales."
+            },
+            {
+              "ref": "Art. 48 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) La Agencia Española de Protección de Datos. b) Las autoridades autonómicas de protección de datos, exclusivamente en relación a aquellos tratamientos de los que sean responsables en su ámbito de competencia"
+            }
+          ]
+        },
+        {
+          "text": "Si l'infractor és una administració de l'article 77.1 de la LOPDGDD, s'apliquen les mesures d'aquell article; si és un altre subjecte, multes de 360.001 a 1.000.000 € (molt greus), de 60.001 a 360.000 € (greus) i de 6.000 a 60.000 € (lleus) (art. 62). Les infraccions prescriuen als sis mesos, als dos anys o als tres anys segons siguin lleus, greus o molt greus; les sancions, a l'any, als dos anys i als tres anys (art. 63).",
+          "refs": [
+            {
+              "ref": "Art. 62.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Las infracciones muy graves, con multa de 360.001 a 1.000.000 euros. b) Las infracciones graves, con multa de 60.001 a 360.000 euros. c) Las leves, con multa de 6.000 a 60.000 euros."
+            },
+            {
+              "ref": "Art. 63.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "prescribirán a los seis meses, a los dos o a los tres años de haberse cometido, según sean leves, graves o muy graves, respectivamente."
+            }
+          ]
+        },
+        {
+          "text": "Nota: la llei preveu les autoritats autonòmiques de protecció de dades, però la normativa de l'Autoritat Catalana de Protecció de Dades no és a les fonts de la carpeta; tampoc no s'ha verificat si existeix normativa catalana específica sobre l'autorització de càmeres mòbils per a les policies locals.",
+          "refs": [
+            {
+              "ref": "Art. 48 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "y en la normativa autonómica aplicable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Autoritats competents: FCS, administracions penitenciàries… i també jutges penals i Ministeri Fiscal (art. 4).",
+          "refs": [
+            {
+              "ref": "Art. 4.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "a) Las Fuerzas y Cuerpos de Seguridad."
+            }
+          ]
+        },
+        {
+          "text": "Dades adequades, pertinents i no excessives (art. 6.1.c).",
+          "refs": [
+            {
+              "ref": "Art. 6.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "c) Adecuados, pertinentes y no excesivos"
+            }
+          ]
+        },
+        {
+          "text": "Revisió com a màxim cada tres anys; supressió general als vint anys (art. 8).",
+          "refs": [
+            {
+              "ref": "Art. 8.3 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "el plazo máximo para la supresión de los datos será de veinte años"
+            }
+          ]
+        },
+        {
+          "text": "Videocàmera fixa: ancorada a suport o façana; proporcionalitat = idoneïtat i intervenció mínima (art. 16).",
+          "refs": [
+            {
+              "ref": "Art. 16.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "en su doble versión de idoneidad e intervención mínima"
+            }
+          ]
+        },
+        {
+          "text": "Dispositius mòbils: imatge i so conjunts; autorització d'un mes prorrogable per un altre; urgència, comunicar en 24 hores (art. 17).",
+          "refs": [
+            {
+              "ref": "Art. 17.2 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "por un periodo máximo de un mes prorrogable por otro."
+            }
+          ]
+        },
+        {
+          "text": "Policies locals a Catalunya: autoritzen els òrgans de la comunitat autònoma (art. 17.1).",
+          "refs": [
+            {
+              "ref": "Art. 17.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "así como para las dependientes de las Corporaciones locales radicadas en su territorio."
+            }
+          ]
+        },
+        {
+          "text": "Gravació amb possible delicte: a disposició judicial en màxim 72 hores (art. 18.1).",
+          "refs": [
+            {
+              "ref": "Art. 18.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "en el plazo máximo de setenta y dos horas desde su grabación."
+            }
+          ]
+        },
+        {
+          "text": "Destrucció de gravacions: màxim tres mesos, llevat d'infraccions o procediments oberts (art. 18.3).",
+          "refs": [
+            {
+              "ref": "Art. 18.3 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Las grabaciones serán destruidas en el plazo máximo de tres meses desde su captación"
+            }
+          ]
+        },
+        {
+          "text": "Delegat de protecció de dades: obligatori sempre, llevat de jutges i fiscals en funcions jurisdiccionals (art. 40).",
+          "refs": [
+            {
+              "ref": "Art. 40.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "Los responsables del tratamiento designarán, en todo caso, un delegado de protección de datos."
+            }
+          ]
+        },
+        {
+          "text": "Prescripció d'infraccions: lleus 6 mesos, greus 2 anys, molt greus 3 anys (art. 63).",
+          "refs": [
+            {
+              "ref": "Art. 63.1 LO7",
+              "law": "LO 7/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8806",
+              "quote": "prescribirán a los seis meses, a los dos o a los tres años de haberse cometido"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lg-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 11, tema P05) · Art. 21.2 Ley 50/1997",
+      "stem": "Según la Ley 50/1997, del Gobierno, el Gobierno cesante continúa en funciones:",
+      "options": [
+        "Hasta la constitución de las nuevas Cortes Generales.",
+        "Hasta la toma de posesión del nuevo Gobierno.",
+        "Durante un plazo máximo de dos meses desde su cese."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 21.2 de la Ley 50/1997 dispone que el Gobierno cesante continúa en funciones hasta la toma de posesión del nuevo Gobierno, con las limitaciones que establece la propia ley.",
+      "excerpt": "2. El Gobierno cesante continúa en funciones hasta la toma de posesión del nuevo Gobierno, con las limitaciones establecidas en esta Ley.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 12, tema P05) · Art. 12.2 bis Ley 50/1997",
+      "stem": "Según la Ley 50/1997, en el nombramiento de las personas titulares de las Vicepresidencias y los Ministerios, cada uno de los sexos debe suponer en su conjunto como mínimo:",
+      "options": [
+        "El cuarenta por ciento.",
+        "El cincuenta por ciento.",
+        "El treinta y tres por ciento."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 12.2 bis de la Ley 50/1997 garantiza el principio de presencia equilibrada: cada sexo debe suponer como mínimo el 40 % del conjunto de Vicepresidencias y Ministerios.",
+      "excerpt": "2 bis. En el nombramiento de las personas titulares de las Vicepresidencias y los Ministerios se garantizará el principio de presencia equilibrada de mujeres y hombres, de forma que cada uno de los sexos suponga como mínimo el cuarenta por ciento en su conjunto.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

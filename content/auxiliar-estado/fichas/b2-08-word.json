@@ -84,5 +84,715 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Word 365: funciones y utilidades generales",
+      "blocks": [
+        {
+          "text": "Word es el procesador de textos de Microsoft 365 y en el examen se estudia en su versión para Windows. Además de escribir y dar formato, Microsoft lo presenta como una herramienta que ayuda a organizar y escribir documentos de forma más eficaz: plantillas, estilos, tabla de contenido, revisión, control de cambios, combinación de correspondencia o distintas vistas del documento. Cada vez que se inicia Word aparece una lista de los documentos usados más recientemente, lo que permite volver rápidamente al trabajo anterior. Si se abre un documento creado con una versión antigua, se puede trabajar en modo de compatibilidad o bien actualizarlo para usar la versión actual del programa.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Word también puede ayudarle a organizar y escribir documentos de forma más eficaz."
+            },
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Cada vez que inicie Word, verá una lista de los documentos usados más recientemente. […] Puede trabajar en modo de compatibilidad o puede actualizar el documento para usar su versión actual."
+            }
+          ]
+        },
+        {
+          "text": "Las fuentes oficiales de Microsoft recogidas para este tema son fragmentos de las páginas de soporte en español (atajos de teclado, control de cambios, tabla de contenido, encabezados, combinación de correspondencia, cinta de opciones y guardado). Los atajos que se estudian son los de Word para Windows; las páginas de soporte se aplican a Word para Microsoft 365 y a las versiones 2016 a 2024. Microsoft actualiza la interfaz con frecuencia, por lo que conviene comprobar en el propio programa la ubicación exacta de los botones.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "En este artículo se describen los métodos abreviados de teclado y las teclas de función en Word para Windows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Métodos abreviados de teclado",
+      "blocks": [
+        {
+          "text": "Los atajos más preguntados son los de edición básica. Ctrl+Z deshace la acción anterior y Ctrl+Y la rehace, si es posible. Ctrl+W cierra el documento (no Word entero) y Ctrl+P lo imprime. Para la búsqueda hay que distinguir dos atajos: Ctrl+B muestra el panel de tareas de Navegación para buscar en el contenido del documento, mientras que Ctrl+H abre el cuadro de diálogo Reemplazar, que permite buscar y reemplazar texto, formato específico o elementos especiales.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Deshacer la acción anterior. | Ctrl+Z | | Rehacer la acción anterior, si es posible. | Ctrl+Y"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cerrar el documento. | Ctrl+W"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Mostrar el panel de tareas de Navegación para buscar en el contenido del documento. | Ctrl+B | | Muestra el cuadro de diálogo Reemplazar para buscar y reemplazar texto, formato específico o elementos especiales. | Ctrl+H"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Imprimir el documento. | Ctrl+P"
+            }
+          ]
+        },
+        {
+          "text": "En la alineación de párrafos, Ctrl+E centra el texto y Ctrl+J justifica el párrafo; Ctrl+Q quita el formato de párrafo. Para el formato de caracteres, Mayús+F3 cambia el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas; Ctrl+Mayús+> aumenta el tamaño de fuente, Ctrl+Mayús+< lo disminuye y Ctrl+[ lo disminuye en 1 punto. Ctrl+Mayús+8 muestra todos los caracteres no imprimibles (marcas de párrafo, espacios, tabulaciones), muy útil para revisar el formato.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Centrar el texto. | Ctrl+E | | Justificar el párrafo. | Ctrl+J"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Quitar el formato de párrafo. | Ctrl+Q"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas. | Mayús+F3"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Aumentar el tamaño de fuente. | Ctrl+Mayús+corchete angular de cierre (>) | | Disminuir el tamaño de fuente. | Ctrl+Mayús+corchete angular de apertura (<) | | Disminuir en 1 punto el tamaño de fuente. | Ctrl+corchete de apertura ([)"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Mostrar todos los caracteres no imprimibles. | Ctrl+Mayús+8"
+            }
+          ]
+        },
+        {
+          "text": "Hay una familia de atajos con Ctrl+Alt que conviene memorizar juntos: Ctrl+Alt+1 aplica el estilo Título 1 (y Ctrl+Mayús+N vuelve al estilo Normal); Ctrl+Alt+K inserta un hipervínculo; Ctrl+Alt+M inserta un comentario; Ctrl+Alt+F inserta una nota al pie y Ctrl+Alt+D una nota al final. Para insertar un campo de FECHA se usa Alt+Mayús+F. Conviene no confundir Ctrl+Alt+F (nota al pie) con Alt+Mayús+F (campo de fecha).",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Aplicar el estilo de Título 1. | Ctrl+Alt+1 | | Aplicar el estilo Normal. | Ctrl+Mayús+N | | Insertar un hipervínculo. | Ctrl+Alt+K"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un comentario. | Ctrl+Alt+M"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar una nota al pie. | Ctrl+Alt+F | | Insertar una nota al final. | Ctrl+Alt+D | | Insertar un campo de FECHA. | Alt+Mayús+F"
+            }
+          ]
+        },
+        {
+          "text": "Los saltos se confunden con facilidad porque todos usan la tecla Entrar: Ctrl+Entrar inserta un salto de página; Mayús+Entrar, un salto de línea (cambia de línea sin crear un párrafo nuevo); y Ctrl+Mayús+Entrar, un salto de columna. Por último, Ctrl+Mayús+E activa o desactiva el control de cambios.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un salto de página. | Ctrl+Entrar | | Insertar un salto de línea. | Mayús+Entrar | | Insertar un salto de columna. | Ctrl+Mayús+Entrar"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Activar o desactivar el control de cambios. | Ctrl+Mayús+E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Teclas de función",
+      "blocks": [
+        {
+          "text": "Las teclas de función solas tienen usos fijos: F1 muestra el panel de tareas Ayuda de Word; F4 repite el último comando o acción, si es posible; F5 muestra el cuadro de diálogo Ir a; F7 abre el panel de tareas del Editor (revisión); F9 actualiza los campos seleccionados (por ejemplo, una tabla de contenido o una fecha); y F12 muestra el cuadro de diálogo Guardar como.",
+          "refs": [
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F1: muestra el panel de tareas Ayuda de Word. Solo F4: repite el último comando o acción, si es posible. Solo F5: muestra el cuadro de diálogo Ir a. Solo F7: muestra el panel de tareas del Editor Solo F9: actualiza los campos seleccionados. Solo F12: muestra el cuadro de diálogo Guardar como."
+            }
+          ]
+        },
+        {
+          "text": "Combinadas con otras teclas cambian de función. Con F12: Ctrl+F12 muestra el cuadro de diálogo Abrir y Ctrl+Mayús+F12 muestra la pestaña Imprimir en la vista Backstage. Ctrl+F2 muestra un área de vista previa de impresión en la pestaña Imprimir. Con F7: Mayús+F7 abre el panel del diccionario de sinónimos y Alt+Mayús+F7 el panel Traductor. Ctrl+Mayús+F5 abre el cuadro de diálogo Marcador y Alt+F4 cierra Word (a diferencia de Ctrl+W, que solo cierra el documento).",
+          "refs": [
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Ctrl+F12: muestra el cuadro de diálogo Abrir. Mayús+F7: muestra el panel de tareas del diccionario de sinónimos. Alt+Mayús+F7: muestra el panel de tareas Traductor. Ctrl+F2: muestra un área de vista previa de impresión en la pestaña Imprimir en la vista Backstage. Ctrl+Mayús+F12: muestra la pestaña Imprimir en la vista Backstage. Ctrl+Mayús+F5: muestra el cuadro de diálogo Marcador. Alt+F4: cierra Word."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Revisión: Editor y diccionario de sinónimos",
+      "blocks": [
+        {
+          "text": "La revisión ortográfica y gramatical de Word la realiza Editor Microsoft, que Microsoft define como su asistente de escritura inteligente. Se abre desde la pestaña Inicio, botón Editor, o con la tecla F7, que muestra el panel de tareas del Editor. Para buscar palabras con significado parecido se usa el diccionario de sinónimos (Mayús+F7) y, para traducir, el panel Traductor (Alt+Mayús+F7).",
+          "refs": [
+            {
+              "ref": "Revisar la gramática en Word",
+              "law": "Soporte Microsoft (Word, Editor)",
+              "url": "https://support.microsoft.com/es-es/word/how-to-check-grammar-in-word",
+              "quote": "La revisión gramatical en Word proviene de Editor Microsoft, su asistente de escritura inteligente. […] En la pestaña Inicio , seleccione Editor."
+            },
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F7: muestra el panel de tareas del Editor"
+            },
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Mayús+F7: muestra el panel de tareas del diccionario de sinónimos. Alt+Mayús+F7: muestra el panel de tareas Traductor."
+            }
+          ]
+        },
+        {
+          "text": "Revisar también incluye cuidar la accesibilidad del documento. Microsoft recomienda añadir texto alternativo a imágenes y otros elementos visuales, porque ayuda a quien no puede ver la pantalla a comprender lo importante; que los vínculos transmitan información clara sobre su destino; y, en general, evitar las tablas si los datos pueden presentarse de otra forma.",
+          "refs": [
+            {
+              "ref": "Accesibilidad en Word",
+              "law": "Soporte Microsoft (Word, accesibilidad)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/make-your-word-documents-accessible-to-people-with-disabilities",
+              "quote": "El texto alternativo ayuda a las personas que no pueden ver la pantalla a comprender lo que es importante en el contenido visual. […] Los vínculos deben transmitir información clara y precisa sobre el destino. […] En general, evite tablas si es posible y presente los datos de otra forma,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Revisión: control de cambios",
+      "blocks": [
+        {
+          "text": "El control de cambios sirve para revisar un documento dejando rastro de cada modificación: Word marca todas las adiciones, eliminaciones, movimientos y cambios de formato. Cuando está activado, la sección correspondiente se resalta; si está desactivado, no. Las eliminaciones aparecen tachadas y las adiciones subrayadas, y los cambios de cada autor se muestran en colores distintos. Si el documento se ha compartido con nosotros para revisarlo, puede que no podamos desactivar el control de cambios. El atajo para activarlo o desactivarlo es Ctrl+Mayús+E.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Word marca todas las adiciones, las eliminaciones, los movimientos y los cambios de formato."
+            },
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "Cuando se activa Control de cambios, se resalta la sección. Las eliminaciones se marcan con un tachado y las adiciones se marcan con un subrayado. Se indican los cambios de los distintos autores con diferentes colores. Si Control de cambios está desactivado, la sección no se resalta. Si un documento se ha compartido con usted para su revisión, es posible que no pueda desactivar el Control de cambios."
+            }
+          ]
+        },
+        {
+          "text": "Hay varias formas de ver las revisiones. «Revisión simple» muestra solo una línea roja en el margen donde hay cambios. «Sin marcado» oculta el marcado y enseña el documento como quedaría con los cambios incorporados. Pregunta trampa clásica: ocultar los cambios no los quita del documento; siguen ahí. Para eliminar de verdad la marcación hay que aceptar o rechazar cada cambio con los comandos Aceptar y Rechazar del grupo Cambios. Cada sugerencia muestra una tarjeta con el nombre de quien la hizo y la opción de aceptarla o rechazarla.",
+          "refs": [
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "Sin marcado oculta el marcado para mostrar el documento con los cambios incorporados. Revisión simple muestra las marcas de revisión con una línea roja en el margen. Ocultar los cambios no los quita del documento."
+            },
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "La tarjeta muestra el nombre del comentarista y la opción para aceptar o rechazar la sugerencia. Debe utilizar los comandos Aceptar y Rechazar en el grupo Cambios para quitar la marcación del documento."
+            }
+          ]
+        },
+        {
+          "text": "Los comentarios son una herramienta distinta: Microsoft aclara que ya no forman parte de la función Control de cambios. Se insertan con Ctrl+Alt+M.",
+          "refs": [
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "Los comentarios ya no forman parte de la función Control de cambios."
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un comentario. | Ctrl+Alt+M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Creación del documento: plantillas, estilos y títulos",
+      "blocks": [
+        {
+          "text": "Para crear un documento nuevo, Microsoft indica que a menudo es más fácil partir de una plantilla que de una página en blanco. Si no se quiere plantilla, basta con hacer clic en Documento en blanco. Para probar formatos, la función =rand() inserta texto de ejemplo: se escribe donde se quiera el texto; admite los parámetros p (número de párrafos) y l (líneas por párrafo) y, si se omiten, inserta tres párrafos por defecto.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "A menudo es más fácil crear un documento nuevo con una plantilla en lugar de empezar con una página en blanco. Si prefiere no usar una plantilla, haga clic en Documento en blanco."
+            },
+            {
+              "ref": "Texto de ejemplo en Word",
+              "law": "Soporte Microsoft (Word, texto de ejemplo)",
+              "url": "https://support.microsoft.com/es-es/office/c%C3%B3mo-insertar-texto-de-ejemplo-en-microsoft-office-word-0d648b7c-e2ac-41c4-aca0-bbe4dd676f87",
+              "quote": "escriba =rand() en el documento donde quiera que aparezca el texto […] En esta función, p es el número de párrafos y l es el número de líneas que desea que aparezcan en cada párrafo. […] Si omite los parámetros, el número predeterminado de párrafos es tres"
+            }
+          ]
+        },
+        {
+          "text": "Los estilos de título son la base de la estructura del documento: de ellos dependen la tabla de contenido y la navegación. Ctrl+Alt+1 aplica el estilo Título 1 y Ctrl+Mayús+N devuelve el texto al estilo Normal. La vista Esquema (Ctrl+Alt+O) permite trabajar con esa estructura de títulos. Las fuentes oficiales recogidas no detallan la galería de estilos ni la creación de plantillas propias (.dotx); para esos puntos conviene completar con la ayuda del propio programa.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Aplicar el estilo de Título 1. | Ctrl+Alt+1 | | Aplicar el estilo Normal. | Ctrl+Mayús+N"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cambiar a la vista Esquema. | Ctrl+Alt+O"
+            },
+            {
+              "ref": "Tabla de contenido",
+              "law": "Soporte Microsoft (Word, tabla de contenido)",
+              "url": "https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0",
+              "quote": "Una tabla de contenido en Word se basa en los títulos del documento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Tabla de contenido e índice",
+      "blocks": [
+        {
+          "text": "La tabla de contenido automática de Word se construye a partir de los títulos del documento. Para insertarla, se coloca el cursor donde se quiere y se elige la tabla. Si después se modifica el documento de modo que cambian títulos o páginas, hay que actualizarla: clic con el botón derecho sobre la tabla y Actualizar campo (también F9 actualiza los campos seleccionados). Cuando faltan entradas, la causa habitual es que esos títulos no tienen formato de título.",
+          "refs": [
+            {
+              "ref": "Tabla de contenido",
+              "law": "Soporte Microsoft (Word, tabla de contenido)",
+              "url": "https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0",
+              "quote": "Una tabla de contenido en Word se basa en los títulos del documento. Coloque el cursor donde desee agregar la tabla de contenido. Si hace cambios en su documento que afectan a la tabla de contenido, actualice la tabla de contenido haciendo clic con el botón derecho en la tabla de contenido y seleccionando Actualizar campo. Las entradas que faltan a menudo se producen porque los títulos no tienen formato de títulos."
+            },
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F9: actualiza los campos seleccionados."
+            }
+          ]
+        },
+        {
+          "text": "No hay que confundir la tabla de contenido con el índice. El índice enumera los términos y temas tratados en el documento, junto con las páginas donde aparecen. La tabla de contenido, en cambio, se basa en los títulos del documento.",
+          "refs": [
+            {
+              "ref": "Crear un índice",
+              "law": "Soporte Microsoft (Word, índice)",
+              "url": "https://support.microsoft.com/es-es/word/create-and-update-an-index",
+              "quote": "Un índice enumera los términos y temas que se tratan en un documento, junto con las páginas en las que aparecen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Encabezados, pies de página y saltos",
+      "blocks": [
+        {
+          "text": "Para añadir un encabezado o pie de página se va a Insertar > Encabezado o Pie de página y se elige el estilo deseado. Algunos diseños integrados incluyen ya números de página. Para salir de la zona del encabezado o pie y volver al cuerpo, se hace clic en Cerrar encabezado y pie de página o se pulsa Esc.",
+          "refs": [
+            {
+              "ref": "Insertar encabezado o pie de página",
+              "law": "Soporte Microsoft (Word, encabezados y pies)",
+              "url": "https://support.microsoft.com/es-es/office/insertar-un-encabezado-o-pie-de-p%C3%A1gina-b87ee4df-abc1-41f8-995b-b39f6d99c7ed",
+              "quote": "Vaya a Insertar>encabezado o pie de página. Elija el estilo de encabezado que desea usar. Haga clic en Cerrar encabezado y pie de página o presione Esc para salir. Algunos encabezados integrados y diseños de pie de página incluyen números de página."
+            }
+          ]
+        },
+        {
+          "text": "Los saltos controlan dónde continúa el texto. El salto de página (Ctrl+Entrar) fuerza que lo siguiente empiece en una página nueva; el salto de línea (Mayús+Entrar) pasa a la línea siguiente dentro del mismo párrafo; el salto de columna (Ctrl+Mayús+Entrar) lleva el texto a la siguiente columna. Las fuentes recogidas no tratan los saltos de sección (continuo, página siguiente, página par o impar): este punto no está en las fuentes oficiales recogidas para este tema.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un salto de página. | Ctrl+Entrar | | Insertar un salto de línea. | Mayús+Entrar | | Insertar un salto de columna. | Ctrl+Mayús+Entrar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Combinar correspondencia",
+      "blocks": [
+        {
+          "text": "La combinación de correspondencia genera muchas cartas, sobres, etiquetas o correos personalizados a partir de un documento principal y un origen de datos, por ejemplo una hoja de Excel. Microsoft pide preparar la hoja de modo que todos los datos que se van a combinar estén en la primera hoja del libro, y que el archivo esté guardado en el equipo local. Los pasos son: conectar con el origen de datos; Editar lista de destinatarios, donde se desmarca a quien no deba recibir el envío; insertar los campos de combinación (y, si se quiere, una Línea de saludo); y obtener una vista previa de los resultados para comprobar que todo es correcto antes de terminar.",
+          "refs": [
+            {
+              "ref": "Combinar correspondencia",
+              "law": "Soporte Microsoft (Word, combinar correspondencia)",
+              "url": "https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3",
+              "quote": "Todos los datos que se combinarán están presentes en la primera hoja de la hoja de cálculo. La hoja de cálculo de Excel que se usará en la combinación de correspondencia se almacena en el equipo local. Conecte con el origen de datos. Elija Editar lista de destinatarios. desactive la casilla junto al nombre de cualquier persona que no desee que reciba sus correos."
+            },
+            {
+              "ref": "Combinar correspondencia",
+              "law": "Soporte Microsoft (Word, combinar correspondencia)",
+              "url": "https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3",
+              "quote": "Para insertar campos de combinación en un sobre, una etiqueta, un mensaje de correo electrónico o una carta […] Para agregar una línea de saludo, elija Línea de saludo. […] obtenga una vista previa de los resultados para confirmar que el contenido es correcto."
+            }
+          ]
+        },
+        {
+          "text": "La combinación se puede personalizar con reglas, que se ejecutan al realizar la combinación; por ejemplo, la regla «Saltar registro si» compara el contenido de un campo para excluir ciertos registros. Para un único sobre, Word guarda la dirección de remite para reutilizarla siempre que se quiera.",
+          "refs": [
+            {
+              "ref": "Reglas de combinación",
+              "law": "Soporte Microsoft (Word, reglas de combinación)",
+              "url": "https://support.microsoft.com/es-es/office/establecer-las-reglas-para-una-combinaci%C3%B3n-de-correspondencia-d546ee7e-ab7a-4d6d-b488-41f9e4bd1409",
+              "quote": "La personalización se basa en las reglas que se ejecutan al realizar la combinación. […] Use la regla saltar registro si para comparar el contenido de los datos de tamaño de los clientes"
+            },
+            {
+              "ref": "Sobres en Word",
+              "law": "Soporte Microsoft (Word, sobres)",
+              "url": "https://support.microsoft.com/es-es/office/crear-e-imprimir-un-solo-sobre-en-word-b766aa84-5b97-4f63-b03f-451d2fb3640f",
+              "quote": "Word almacena la dirección para que pueda usarla siempre que quiera insertar la dirección de remite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Guardar, formatos, Autoguardado y recuperación",
+      "blocks": [
+        {
+          "text": "Word guarda por defecto con el formato .docx. Para usar otro formato se elige en la lista Guardar como tipo del cuadro Guardar como (F12). Si se quiere crear un archivo a partir de otro guardando los cambios solo en el nuevo, se guarda una copia, que por defecto queda en la misma carpeta que el original.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Word guarda los archivos automáticamente con el formato de archivo .docx. Si desea guardar documentos en otro formato, haga clic en la lista Guardar como tipo"
+            },
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F12: muestra el cuadro de diálogo Guardar como."
+            },
+            {
+              "ref": "Guardar y recuperar en Office",
+              "law": "Soporte Microsoft (Office, guardar y recuperar)",
+              "url": "https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb",
+              "quote": "Si va a crear un archivo nuevo basado en un archivo existente, pero solo quiere guardar los cambios en el archivo nuevo […] De manera predeterminada, Office guardará la copia en la misma ubicación que la del archivo original."
+            }
+          ]
+        },
+        {
+          "text": "Hay que distinguir dos funciones. Autoguardado guarda automáticamente y de forma continua, pero solo cuando el archivo está almacenado en OneDrive o SharePoint en Microsoft 365. Autorrecuperación protege frente a cierres inesperados: si estaba activada, la próxima vez que se abra la aplicación aparecerá Recuperación de documentos. Aun así, Microsoft insiste en guardar con frecuencia. Si los archivos se borran de OneDrive, se puede restaurar todo OneDrive a un momento anterior.",
+          "refs": [
+            {
+              "ref": "Guardar y recuperar en Office",
+              "law": "Soporte Microsoft (Office, guardar y recuperar)",
+              "url": "https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb",
+              "quote": "Autoguardado guarda automáticamente el archivo cuando un archivo está almacenado en OneDrive o SharePoint en Microsoft 365. Si Autorrecuperación está activada y el archivo se cierra inesperadamente Recuperación de documentos se abrirá la próxima vez que abra la aplicación de Office Aunque Autorrecuperación esté activada, debe guardar el archivo con frecuencia mientras trabaja en él"
+            },
+            {
+              "ref": "Guardar y recuperar en Office",
+              "law": "Soporte Microsoft (Office, guardar y recuperar)",
+              "url": "https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb",
+              "quote": "Puede restaurar todo OneDrive a un momento anterior si los archivos de OneDrive se eliminan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Vistas e impresión",
+      "blocks": [
+        {
+          "text": "El Modo Lectura oculta la mayor parte de los botones y herramientas para leer con comodidad. Otras vistas tienen atajo: Diseño de impresión (Ctrl+Alt+P), Esquema (Ctrl+Alt+O) y Borrador (Ctrl+Alt+N). Ojo con las letras: P de impresión, O de esquema y N de borrador; no confundir con Ctrl+Alt+I, que es la vista previa de impresión.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Abra el documento en Modo Lectura para ocultar la mayor parte de los botones y las herramientas."
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cambiar a la vista Esquema. | Ctrl+Alt+O | | Cambiar a la vista Borrador. | Ctrl+Alt+N | | Cambiar a la vista Diseño de impresión. | Ctrl+Alt+P"
+            }
+          ]
+        },
+        {
+          "text": "Para imprimir, Word reúne en un mismo lugar (la pestaña Imprimir de la vista Backstage) la vista previa de cómo quedará el documento impreso y las opciones de impresión. Se llega con Ctrl+P, con Ctrl+Mayús+F12 o con Ctrl+Alt+I (vista previa de impresión); Ctrl+F2 muestra el área de vista previa dentro de esa pestaña.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Desde un mismo lugar, puede ver el aspecto que tendrá un documento impreso"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Imprimir el documento. | Ctrl+P | | Cambiar a vista previa de impresión. | Ctrl+Alt+I"
+            },
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Ctrl+F2: muestra un área de vista previa de impresión en la pestaña Imprimir en la vista Backstage. Ctrl+Mayús+F12: muestra la pestaña Imprimir en la vista Backstage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Personalización del entorno: la cinta de opciones",
+      "blocks": [
+        {
+          "text": "La cinta de opciones se puede personalizar para ordenar pestañas y comandos como se prefiera, desde la ventana Personalizar la cinta de opciones (que también da acceso a los métodos abreviados de teclado). Se pueden añadir pestañas o grupos personalizados; un grupo personalizado puede ir en una pestaña predeterminada o en una personalizada; y se puede cambiar el nombre de cualquier pestaña o grupo, predeterminado o personalizado. En la lista, los comandos predeterminados aparecen en texto gris.",
+          "refs": [
+            {
+              "ref": "Personalizar la cinta",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "Para abrir la ventana Personalizar la cinta de opciones y los métodos abreviados de teclado puede personalizar su cinta de opciones para organizar las pestañas y los comandos en el orden que desee"
+            },
+            {
+              "ref": "Personalizar la cinta",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "Los comandos predeterminados aparecen en texto gris. Puede agregar pestañas o grupos personalizados para poner comandos adicionales en la cinta de opciones Se puede agregar un grupo personalizado a una pestaña predeterminada o personalizada. Puede cambiar el nombre de una pestaña o grupo predeterminado o personalizado."
+            }
+          ]
+        },
+        {
+          "text": "Límites que caen en examen: no se puede cambiar el color de la cinta ni el de sus iconos; las personalizaciones solo afectan al programa de Office en que se hacen (lo personalizado en Word no pasa a Excel); y solo las pestañas predeterminadas pueden restablecerse a su configuración original. La personalización se puede exportar a un archivo e importarla después (Importar archivo de personalización), por ejemplo en otro equipo.",
+          "refs": [
+            {
+              "ref": "Personalizar la cinta",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "No puede cambiar el color de la cinta de opciones o sus iconos las personalizaciones solo se aplican al programa de Office en el que está trabajando en ese momento"
+            },
+            {
+              "ref": "Personalizar la cinta",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "Solo se pueden restablecer las pestañas predeterminadas a su configuración predeterminada. Exportar la cinta de opciones personalizada Importar archivo de personalización"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "F12 = Guardar como; Ctrl+F12 = Abrir; F4 = repetir la última acción; F7 = Editor; Mayús+F7 = sinónimos; F9 = actualizar campos.",
+          "refs": [
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F4: repite el último comando o acción, si es posible."
+            },
+            {
+              "ref": "Teclas de función de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Solo F12: muestra el cuadro de diálogo Guardar como. Ctrl+F12: muestra el cuadro de diálogo Abrir. Mayús+F7: muestra el panel de tareas del diccionario de sinónimos."
+            }
+          ]
+        },
+        {
+          "text": "Saltos: Ctrl+Entrar = página; Mayús+Entrar = línea; Ctrl+Mayús+Entrar = columna.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Insertar un salto de página. | Ctrl+Entrar | | Insertar un salto de línea. | Mayús+Entrar | | Insertar un salto de columna. | Ctrl+Mayús+Entrar"
+            }
+          ]
+        },
+        {
+          "text": "Mayús+F3 alterna mayúsculas y minúsculas; Ctrl+Alt+1 aplica Título 1; Ctrl+Mayús+E activa o desactiva el control de cambios.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas. | Mayús+F3"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Aplicar el estilo de Título 1. | Ctrl+Alt+1"
+            },
+            {
+              "ref": "Métodos abreviados de Word",
+              "law": "Soporte Microsoft (Word, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/word/keyboard-shortcuts-in-word",
+              "quote": "Activar o desactivar el control de cambios. | Ctrl+Mayús+E"
+            }
+          ]
+        },
+        {
+          "text": "Control de cambios: eliminaciones tachadas, adiciones subrayadas; «Sin marcado» solo oculta; para quitar la marcación, Aceptar o Rechazar en el grupo Cambios.",
+          "refs": [
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "Las eliminaciones se marcan con un tachado y las adiciones se marcan con un subrayado."
+            },
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "Ocultar los cambios no los quita del documento."
+            },
+            {
+              "ref": "Control de cambios",
+              "law": "Soporte Microsoft (Word, control de cambios)",
+              "url": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+              "quote": "Debe utilizar los comandos Aceptar y Rechazar en el grupo Cambios para quitar la marcación del documento."
+            }
+          ]
+        },
+        {
+          "text": "La tabla de contenido se basa en los títulos; se actualiza con clic derecho > Actualizar campo; si faltan entradas, los títulos no tienen formato de título.",
+          "refs": [
+            {
+              "ref": "Tabla de contenido",
+              "law": "Soporte Microsoft (Word, tabla de contenido)",
+              "url": "https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0",
+              "quote": "Una tabla de contenido en Word se basa en los títulos del documento."
+            },
+            {
+              "ref": "Tabla de contenido",
+              "law": "Soporte Microsoft (Word, tabla de contenido)",
+              "url": "https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0",
+              "quote": "Las entradas que faltan a menudo se producen porque los títulos no tienen formato de títulos."
+            }
+          ]
+        },
+        {
+          "text": "Encabezado o pie: se sale con Cerrar encabezado y pie de página o con Esc.",
+          "refs": [
+            {
+              "ref": "Insertar encabezado o pie de página",
+              "law": "Soporte Microsoft (Word, encabezados y pies)",
+              "url": "https://support.microsoft.com/es-es/office/insertar-un-encabezado-o-pie-de-p%C3%A1gina-b87ee4df-abc1-41f8-995b-b39f6d99c7ed",
+              "quote": "Haga clic en Cerrar encabezado y pie de página o presione Esc para salir."
+            }
+          ]
+        },
+        {
+          "text": "Combinar correspondencia con Excel: los datos, en la primera hoja del libro.",
+          "refs": [
+            {
+              "ref": "Combinar correspondencia",
+              "law": "Soporte Microsoft (Word, combinar correspondencia)",
+              "url": "https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3",
+              "quote": "Todos los datos que se combinarán están presentes en la primera hoja de la hoja de cálculo."
+            }
+          ]
+        },
+        {
+          "text": "Formato predeterminado .docx; Modo Lectura oculta casi todos los botones; Autoguardado solo con archivos en OneDrive o SharePoint.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Word guarda los archivos automáticamente con el formato de archivo .docx."
+            },
+            {
+              "ref": "Tareas básicas en Word",
+              "law": "Soporte Microsoft (Word, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc",
+              "quote": "Abra el documento en Modo Lectura para ocultar la mayor parte de los botones y las herramientas."
+            },
+            {
+              "ref": "Guardar y recuperar en Office",
+              "law": "Soporte Microsoft (Office, guardar y recuperar)",
+              "url": "https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb",
+              "quote": "Autoguardado guarda automáticamente el archivo cuando un archivo está almacenado en OneDrive o SharePoint en Microsoft 365."
+            }
+          ]
+        },
+        {
+          "text": "Cinta de opciones: no se puede cambiar su color ni el de sus iconos, y solo se restablecen las pestañas predeterminadas.",
+          "refs": [
+            {
+              "ref": "Personalizar la cinta",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "No puede cambiar el color de la cinta de opciones o sus iconos"
+            },
+            {
+              "ref": "Personalizar la cinta",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "Solo se pueden restablecer las pestañas predeterminadas a su configuración predeterminada."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (Word, control de cambios) (https://support.microsoft.com/es-es/word/training/track-changes-in-word), Soporte Microsoft (Word, tareas básicas) (https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-en-word-87b3243c-b0bf-4a29-82aa-09a681999fdc), Soporte Microsoft (Word, tabla de contenido) (https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0), Soporte Microsoft (Word, encabezados y pies) (https://support.microsoft.com/es-es/office/insertar-un-encabezado-o-pie-de-p%C3%A1gina-b87ee4df-abc1-41f8-995b-b39f6d99c7ed), Soporte Microsoft (Word, combinar correspondencia) (https://support.microsoft.com/es-es/office/combinar-correspondencia-con-una-hoja-de-c%C3%A1lculo-de-excel-858c7d7f-5cc0-4ba1-9a7b-0a948fa3d7d3), Soporte Microsoft (Office, guardar y recuperar) (https://support.microsoft.com/es-es/office/guardar-realizar-copias-de-seguridad-y-recuperar-un-archivo-en-microsoft-office-a7f0a209-ad22-4212-bb53-6cd8e801a6fb), Soporte Microsoft (Word, personalizar la cinta) (https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682)"
 }

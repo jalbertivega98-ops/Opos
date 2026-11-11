@@ -56,5 +56,643 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Introducció: exigències en edificis i mesures de protecció",
+      "blocks": [
+        {
+          "text": "La prevenció d'incendis busca evitar les causes que poden originar un incendi; la seguretat en cas d'incendi busca reduir a límits acceptables el risc que els usuaris pateixin danys i garantir la intervenció dels bombers. Les exigències bàsiques en edificis són sis: limitar la propagació interior, limitar la propagació exterior, evacuació dels ocupants, instal·lacions de protecció contra incendis, intervenció de bombers i resistència al foc de l'estructura durant el temps necessari per complir les altres.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1 Introducció",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "La prevenció d’incendis té per finalitat evitar les causes que puguin originar un incendi."
+            },
+            {
+              "ref": "MAN.SP.000, 1.1 Exigències en edificis",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Resistència al foc de l’estructura: l’estructura portant ha de mantenir la resistència al foc durant el temps necessari perquè puguin complir-se les anteriors exigències."
+            }
+          ]
+        },
+        {
+          "text": "Les mesures de protecció activa detecten l'incendi, transmeten l'alarma i l'extingeixen o en limiten la propagació; necessiten la interacció dels ocupants o dels equips (detecció automàtica, polsadors, extintors, ruixadors, hidrants, control de fums).",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.2 Mesures de protecció",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Mesures de protecció activa: són mesures de seguretat encaminades a detectar l’incendi, transmetre l’alarma als ocupants de l’edifici i extingir l’incendi o limitar-ne la seva propagació. Actuen de forma activa a l’edifici, és a dir, precisen de la interacció dels ocupants o dels equips intervinents."
+            }
+          ]
+        },
+        {
+          "text": "Les de protecció passiva limiten la propagació, protegeixen l'estructura i faciliten l'evacuació i l'accés dels equips; les ofereix l'edifici pel seu disseny i materials, en general sense interacció (escales protegides, sectorització, protecció estructural, escales exteriors). Cal combinar-les per assolir un nivell de seguretat suficient.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.2 Mesures de protecció",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Actuen de forma passiva a l’edifici, és a dir, són mesures de seguretat que l’edifici ja ofereix per sí mateix gràcies al seu disseny i als materials emprats en la seva construcció, i en general no precisen necessàriament de la interacció dels ocupants o dels equips intervinents per funcionar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Organització preventiva i marc normatiu",
+      "blocks": [
+        {
+          "text": "La Llei catalana 3/2010, de prevenció i seguretat en matèria d'incendis en establiments, activitats, infraestructures i edificis, fixa els actes, procediments i òrgans de cada fase de la llicència i crea, com a novetat, un règim sancionador específic per als incompliments detectats per la inspecció de la Generalitat.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.4 Marc normatiu",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "La Llei 3/2010, de Prevenció i seguretat en matèria d’incendis en establiments, activitats, infraestructures i edificis determina quins seran els actes, procediments i òrgans administratius amb competències en cadascuna de les parts del procés de sol·licitud de llicència."
+            },
+            {
+              "ref": "MAN.SP.000, 1.4 Marc normatiu",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Un altre aspecte innovador d’aquesta Llei és la creació d’un règim sancionador específic"
+            }
+          ]
+        },
+        {
+          "text": "Normativa tècnica: el CTE (RD 314/2006), amb el DB SI, per als edificis en general (va derogar les NBE-CPI); el RSCIEI per als establiments industrials, segons la ubicació i el risc intrínsec; les ITC de Bombers, aprovades per ordres del Departament d'Interior, que aclareixen preceptes; i el RIPCI (RD 513/2017), que regula empreses, equips, manteniment i inspeccions. El titular ha de tenir any per any el certificat de manteniment, i el CTE i el RSCIEI obliguen a complir el RIPCI.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.4 Marc normatiu",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El CTE va derogar les anteriors Normes Bàsiques de l’Edificació – Condicions de Protecció contra Incendis (NBE-CPI)."
+            },
+            {
+              "ref": "MAN.SP.000, 1.4 RIPCI",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El titular de la instal·lació ha de disposar, any per any, del certificat de manteniment de les seves instal·lacions de protecció contra incendis."
+            },
+            {
+              "ref": "MAN.SP.000, 1.4 RIPCI",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Tant el RSCIEI com el CTE obliguen al compliment del RIPCI."
+            }
+          ]
+        },
+        {
+          "text": "El RSCIEI vigent és el del RD 164/2025, en vigor des del 10 de maig de 2025. El règim transitori permet aplicar l'anterior (RD 2267/2004) a obres en execució o amb llicència sol·licitada en aquella data, i es va poder triar l'anterior durant els sis mesos posteriors. Les normes noves no són retroactives.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.4 nota RSCIEI",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "NOTA: El RD 164/2025 va entrar en vigor el 10/05/2025. El règim transitori permet continuar aplicant l’anterior RSCIEI, aprovat pel RD 2267/2004, a les obres que ja estaven en execució o que tenien sol·licitada la llicència municipal d’obres en aquella data, sempre que es compleixin els terminis establerts."
+            }
+          ]
+        },
+        {
+          "text": "L'òrgan competent en matèria d'indústria autoritza i registra les empreses instal·ladores i mantenidores i vigila els reglaments específics (químics, explosius, aparells a pressió, atmosferes explosives…).",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4 Recursos",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "L'autorització de les empreses instal·ladores i mantenidores és competència de l'òrgan competent en matèria d'indústria a Catalunya que és qui en porta el corresponent registre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Accés per l'exterior: vies d'intervenció i emplaçament dels vehicles",
+      "blocks": [
+        {
+          "text": "La secció SI 5 del DB SI i la secció 4 de l'annex II del RSCIEI regulen l'accessibilitat des de l'exterior. Les completen el DT-12 de la TINSCI i la ITC SP113 de la DGPEIS, que regula els vials d'accés sense sortida.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.1 Accés per l'exterior",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El DB SI del CTE, en la secció SI 5, i el RSCIEI, en la secció 4 de l’annex II, regulen les condicions d’intervenció dels serveis d’extinció i salvament i l’accessibilitat des de l’exterior als edificis i establiments industrials."
+            },
+            {
+              "ref": "MAN.SP.000, 2.1 Accés per l'exterior",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "la instrucció tècnica complementària SP113 de la DGPEIS que regula els casos de vials d’accés sense sortida."
+            }
+          ]
+        },
+        {
+          "text": "Les vies o carrers d'intervenció (vials d'aproximació) són les vies públiques per on els vehicles van del parc a la zona d'emplaçament, davant una façana accessible; se'n regulen amplada, alçada, radi de gir, pendent i capacitat portant. Les dificulten pilones amb claus no normalitzades, vehicles mal estacionats, contenidors, bastides i talls per festes.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.1.1 Vies d'intervenció",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Les vies o carrers d’intervenció, o vials d'aproximació, són vies públiques per les quals els vehicles de bombers es desplacen des del parc d’origen fins a la zona d’emplaçament, situada davant d’una façana accessible de l’edifici sinistrat."
+            }
+          ]
+        },
+        {
+          "text": "Els espais de maniobra, dimensionats sobretot per a l'autoescala, es regulen per a edificis de més de 9 m d'alçada d'evacuació (≈ PB+3) i industrials de més de 1.000 m² en planta: dimensions mínimes, distàncies als accessos, pendent i resistència al punxonament. Als edificis més baixos només es regulen les distàncies als accessos a peu i l'ample de pas. L'emplaçament ha de ser segur, lluny de col·lapses, sense bloquejar altres vehicles.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.1.2 Emplaçament",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Bàsicament, les característiques dels espais de maniobra es regulen per als edificis de més de 9 metres d’alçada d’evacuació (aproximadament planta baixa + 3 pisos) o en el cas d’establiments industrials també si la seva superfície en planta supera els 1.000 m2."
+            },
+            {
+              "ref": "MAN.SP.000, 2.1.2 Emplaçament",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "l’emplaçament ha de ser segur, lluny de possibles col·lapses estructurals de l’edifici incendiat,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Façanes accessibles i recorreguts interiors",
+      "blocks": [
+        {
+          "text": "Façana accessible és la que té obertures (portals i finestres de dimensions i separació regulades) per accedir des de l'exterior a cada planta o forjat ocupat. En establiments industrials ha de ser, en general, com a mínim el 15 % del perímetre de la planta.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.1.3 Façanes accessibles",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Es considera façana accessible d’un edifici aquella que disposi d’obertures per permetre l’accés dels bombers des de l’exterior a cada planta o forjat ocupat."
+            },
+            {
+              "ref": "MAN.SP.000, 2.1.3 Façanes accessibles",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "En els establiments industrials, la longitud de façana accessible ha de ser, amb caràcter general, com a mínim del 15 % del perímetre de la planta de l’edifici"
+            }
+          ]
+        },
+        {
+          "text": "A l'interior, les vies prioritàries són les de penetració protegides (escales protegides i especialment protegides, passadissos protegits), d'alt grau de seguretat; una altra via vàlida però menys segura és un sector d'incendi diferenciat.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.2 Aproximació per l'interior",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Les vies de penetració protegides han de ser les vies de penetració prioritàries per als bombers i són aquelles que garanteixen un alt grau de seguretat."
+            },
+            {
+              "ref": "MAN.SP.000, 2.2 Aproximació per l'interior",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Una altra via de penetració vàlida, però amb menor grau de seguretat són aquelles que es realitzen per un sector d’incendi diferenciat."
+            }
+          ]
+        },
+        {
+          "text": "Avantatges de les vies protegides: a la planta de sortida, màxim 15 m de l'escala protegida a una sortida (excepte per un sector de risc mínim); ús exclusiu de circulació amb càrrega de foc molt baixa; compartimentació EI-120 amb portes resistents al foc; accés a cada planta; i protecció contra el fum per finestres d'1 m² per planta, ventilació forçada o pressió diferencial.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.2 Avantatges",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "fins a una sortida de l’edifici no ha de superar els 15 metres"
+            },
+            {
+              "ref": "MAN.SP.000, 2.2 Avantatges",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El recinte estarà compartimentat respecte de la resta de l'edifici amb elements constructius EI-120 i portes resistents al foc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Comportament dels materials: reacció al foc",
+      "blocks": [
+        {
+          "text": "La reacció al foc és una propietat del material: la resposta segons la seva contribució al desenvolupament del foc amb la pròpia combustió. Té tres parts: classificació, opacitat dels fums (s) i caiguda de gotes o partícules inflamades (d).",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.1.1 Reacció al foc",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "La reacció al foc d’un material és la resposta que té aquest material mesurada segons la contribució que realitza al desenvolupament del foc mitjançant la seva pròpia combustió, sota condicions específiques d’assaig."
+            }
+          ]
+        },
+        {
+          "text": "Set classes: A1 i A2 equivalents a no combustible; B contribució molt limitada; C limitada; D mitjana; E alta; F no determinat. Fums: s1 baixos, s2 mitjans, s3 elevats. Gotes: d0 sense gotes en 600 s; d1 sense gotes durant més de 10 s; d2 no classificat. El CTE exigeix en general C-s2,d0 a sostres i parets de zones ocupables.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.1.1 Classificació",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "A1: Equivalent a no combustible. Sense contribució en grau màxim al foc."
+            },
+            {
+              "ref": "MAN.SP.000, 3.1.1 Gotes",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "d0- sense caiguda de gotes i partícules inflamades en 600 s − d1- sense caiguda de gotes i partícules inflamades durant més de 10 s"
+            },
+            {
+              "ref": "MAN.SP.000, 3.1.1 Exemple",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "en general als sostres i parets de les zones ocupables dels edificis i establiments afectats per la normativa CTE se’ls exigeix una classificació C-s2,d0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Resistència estructural: resistència al foc dels elements (R, E, I)",
+      "blocks": [
+        {
+          "text": "La resistència al foc és pròpia dels elements constructius: mantenir durant un temps la funció portant (R) i la integritat (E) i/o l'aïllament tèrmic (I). R s'aplica a pilars, bigues o encavallades. E impedeix el pas de flames i gasos calents a la cara no exposada. I impedeix el pas de la calor durant un temps en minuts.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.1.2 Resistència al foc",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Es defineix la resistència al foc d'un element constructiu com la capacitat d’aquest per mantenir durant un període de temps determinat la funció portant (R) que se li exigeixi, així […] com la integritat (E) i/o l’aïllament tèrmic (I) segons els termes especificats a l’assaig normalitzat corresponent."
+            },
+            {
+              "ref": "MAN.SP.000, 3.1.2 Integritat",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Integritat (E): un element constructiu exposat al foc en un dels seus costats es defineix amb el concepte d’integritat (E) quan té la capacitat de prevenir el pas de les flames i de gasos calents o l’aparició de flames a la cara no exposada durant un temps establert en un assaig normalitzat de resistència al foc."
+            },
+            {
+              "ref": "MAN.SP.000, 3.1.2 Aïllament",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Aïllament tèrmic (I): el criteri d’aïllament tèrmic (I) es refereix a la capacitat d’un element constructiu de separació per impedir el pas de la calor durant un temps expressat en minuts"
+            }
+          ]
+        },
+        {
+          "text": "Entre sectors: parets no portants EI-t; forjats i parets portants REI-t; portes de pas EI2-t-C5 (amb tancament automàtic); portes d'ascensors i muntacàrregues només E-t. La «t» és el temps en minuts.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.1.2 Elements",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Parets no portants entre sectors d’incendi: només han de garantir integritat i aïllament tèrmic (EI-t). − Forjats i parets portants entre sectors d’incendi: han de garantir capacitat portant, integritat i aïllament tèrmic (REI-t)."
+            },
+            {
+              "ref": "MAN.SP.000, 3.1.2 Elements",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Portes de pas entre sectors d’incendi: han de garantir integritat i aïllament tèrmic, a més d’especificar el tipus d’aïllament utilitzat, disposar de mecanisme de tancament automàtic (EI2-t-C5). − Portes d’ascensors i muntacàrregues que comuniquin diferents sectors d’incendi: només han de garantir la integritat (E-t)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Mecanismes de propagació interior i exterior",
+      "blocks": [
+        {
+          "text": "Un sector d'incendi és un espai separat per elements resistents al foc on es pot confinar l'incendi. La compartimentació ha de continuar en espais ocults i passos d'instal·lacions. Confinar el foc protegeix els veïns, dona temps per evacuar i facilita l'extinció.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.2 Propagació interior",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "S’entén per sector d’incendi l’espai d’un edifici separat d’altres zones per elements delimitadors resistents al foc durant un temps determinat, a l’interior del qual es pot confinar (o excloure) l’incendi perquè no es pugui propagar a d’altres parts de l’edifici."
+            }
+          ]
+        },
+        {
+          "text": "Propagació exterior: segons el CTE, la mitgera amb un altre edifici ha de ser com a mínim EI 120. A façana es fixen distàncies entre obertures; al RSCIEI, amb façanes a 180° les zones sense EI t/2 se separen almenys 1 m, i on arriba un forjat de sectorització cal una franja vertical d'1 m amb EI t/2. A coberta hi ha una franja EI i el mur tallafocs, prolongació de la mitgera per sobre de la coberta.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.3 Paret mitgera",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "En l’àmbit del CTE, la mitgera o mur confrontant amb un altre edifici ha de ser, com a mínim, EI 120."
+            },
+            {
+              "ref": "MAN.SP.000, 3.3 Façana",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "aquesta ha de disposar d’una franja vertical d’almenys 1 m d’alçària i amb una resistència al foc mínima EI t/2"
+            },
+            {
+              "ref": "MAN.SP.000, 3.3 Coberta",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "és el mur tallafocs, entenent aquest com una prolongació de la paret mitgera per sobre de la coberta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Sistemes de control i evacuació de fums",
+      "blocks": [
+        {
+          "text": "Els sistemes de ventilació de fums evacuen fums i gasos calents per obertures o ventiladors. Un SCTiEF manté una capa inferior lliure de fums i controla la temperatura; protegeix recorreguts i accessos, facilita l'extinció i despressuritza el recinte. En aparcaments només fan un escombrat de fums.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.1 Ventilació de fums",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Els sistemes de ventilació de fums són instal·lacions que la normativa exigeix en alguns edificis i que disposen d’un conjunt d’obertures o equips mecànics d’extracció (ventiladors) per a l’evacuació de fums i gasos calents de la combustió d’un incendi"
+            },
+            {
+              "ref": "MAN.SP.000, 4.1 Aparcaments",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "En el cas dels aparcaments els sistemes de ventilació previstos permeten realitzar un escombrat dels fums, sense arribar a complir els objectius d’un SCTiEF."
+            }
+          ]
+        },
+        {
+          "text": "La ventilació natural funciona per flotació (diferència de densitat i temperatura) amb barreres de fums, obertures a coberta i entrades d'aire baixes; la forçada desplaça els gasos a pressió positiva amb conductes i ventiladors.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.1.2 Ventilació natural",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "La ventilació natural és provocada per les forces de flotació derivades de la diferència de densitat i temperatura dels gasos."
+            },
+            {
+              "ref": "MAN.SP.000, 4.1.3 Ventilació forçada",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "La ventilació forçada es produeix pel desplaçament a pressió positiva dels gasos a través dels airejadors, mitjançant conductes i ventiladors d'extracció i aportació."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Hidrants i columna seca",
+      "blocks": [
+        {
+          "text": "Hidrants de columna humida, de columna seca (zones de gelades) i d'arqueta. Els de via pública (ITC SP-120) han de deixar qualsevol punt de façana accessible a menys de 100 m; la xarxa dona 1.000 l/min a dos hidrants alhora durant 2 h, amb més d'1 bar per boca; reserva pròpia mínima de 240 m³.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.1 Hidrants",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Els tipus d'hidrants poden ser de columna humida, de columna seca (per a llocs amb possibilitat de gelades) i d'arqueta."
+            },
+            {
+              "ref": "MAN.SP.000, 4.2.2 Hidrants via pública",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "La xarxa ha de poder subministrar un cabal mínim de 1000 l/min a dos hidrants funcionant simultàniament durant 2 hores."
+            }
+          ]
+        },
+        {
+          "text": "Els hidrants propis industrials d'impulsió directa cobreixen un radi de 40 m, a 5-15 m de la façana, amb 1.500-3.000 l/min durant 60-90 min i 5 bar a la boca. Compte: injectar-ne l'aigua al cos de bomba a 8-12 bar la pot malmetre.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.3 Hidrants propis",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Es considera que cada hidrant cobreix un radi de 40 metres"
+            },
+            {
+              "ref": "MAN.SP.000, 4.2.3 Hidrants propis",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "a pressions elevades (voltant de 8-12 bar) podríem malmetre la bomba."
+            }
+          ]
+        },
+        {
+          "text": "Columna seca: presa a façana d'ús exclusiu de bombers (ràcords de 70 mm) i canonada d'acer de 80 mm sense aigua. Les ascendents tenen boques de 45 mm a les plantes parells fins a la vuitena i a totes a partir d'aquí; seccionament cada 4 plantes; boques a 90 cm; recorregut fins a la columna inferior a 60 m. És obligatòria en usos generals de més de 24 m d'alçada d'evacuació, hospitalari de més de 15 m, industrial de 15 m o més i aparcaments de més de 3 plantes soterrades o 4 sobre rasant.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.4 Columna seca",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Una columna ascendent de canonada d’acer galvanitzat i diàmetre de 80 mm, sense contenir aigua."
+            },
+            {
+              "ref": "MAN.SP.000, 4.2.4 Columna seca",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Cada 4 plantes hi haurà una vàlvula de seccionament per sobre de la sortida corresponent,"
+            },
+            {
+              "ref": "MAN.SP.000, 4.2.4 Obligatorietat",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "En edificis d’ús hospitalari, si l’alçada d’evacuació supera els 15 metres."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Abastament d'aigua i sistemes d'extinció automàtica",
+      "blocks": [
+        {
+          "text": "L'abastament d'aigua (UNE 23500) és d'ús exclusiu contra incendis: font de subministrament, impulsió (normalment bombeig) i xarxa de distribució. El bombeig principal, únic o doble, té una bomba jockey que manté la pressió; l'aturada de la bomba principal és sempre manual.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.5 Abastament",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El sistema d’abastament ha de ser per a ús exclusiu a les instal·lacions d’extinció d’incendis."
+            },
+            {
+              "ref": "MAN.SP.000, 4.2.5 Bombeig",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "L’aturada del sistema de bombeig principal ha de ser efectuada sempre de forma manual."
+            }
+          ]
+        },
+        {
+          "text": "Extinció automàtica: d'aigua, d'agents gasosos (després del tret l'atmosfera pot ser asfixiant) o de pols. Els ruixadors poden ser de canonada mullada (sense risc de glaçada), seca o d'acció prèvia. Els de gas solen necessitar dues zones de detecció i un retard per evacuar; les campanes de cuina usen sals de potassi que saponifiquen els greixos.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.6 Agents gasosos",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Un cop s’ha disparat aquest sistema d’extinció l’atmosfera del recinte protegit pot esdevenir asfixiant per manca d’oxigen."
+            },
+            {
+              "ref": "MAN.SP.000, 4.2.6 Canonada mullada",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Es fa servir si no hi ha risc de glaçada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Prevenció operativa: CER, FOER i cicle de gestió",
+      "blocks": [
+        {
+          "text": "El Catàleg d'elements de risc (CER) recull els llocs d'intervenció complexa, que s'han de visitar periòdicament i tenir FOER: hospitals de 24 h, geriàtrics, urbanitzacions forestals, edificis de 50 m o més d'alçada d'evacuació (EGA 50), indústries Seveso, explosius, residencial públic de més de 20 places, túnels de 400 m o més, càmpings a menys de 500 m de bosc, docents, entre d'altres.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 5.1 CER",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Edificis d'una alçada d'evacuació igual o superior a 50 metres, qualsevol que sigui el seu ús (EGA 50)."
+            },
+            {
+              "ref": "MAN.SP.000, 5.1 CER",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Túnels de carretera i ferroviaris, a partir de 400 metres de longitud."
+            }
+          ]
+        },
+        {
+          "text": "Cicle de la FOER en sis fases: preparació de la visita, visita, elaboració i introducció al SIG, validació, distribució (paper i digital) i manteniment. La informació escrita té 18 camps en 4 blocs (dades generals, dades CI, riscos principals i dades d'intervenció); el codi segueix el model BAD-HOS-00001.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 5.2.1 Cicle de la FOER",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El procés de realització de les FOER s’estructura en sis fases diferenciades:"
+            },
+            {
+              "ref": "MAN.SP.000, 5.2.2 Parts de la FOER",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "c) La informació escrita es distribueix en 18 camps d’informació, agrupada en 4 grans blocs:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Divulgació de la seguretat i conceptes bàsics de prevenció",
+      "blocks": [
+        {
+          "text": "Divulgar com evitar incendis a casa és una funció fonamental dels Bombers, en dues línies: preventiva i d'autoprotecció. Conceptes: tetraedre del foc; classes A, B, C, D i F (UNE-EN 2); combustió detonant per sobre de 340 m/s; alçada d'evacuació com a diferència màxima de cotes entre origen i sortida.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 6 Divulgació",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "Tot el material elaborat i consells van en dues línies: la preventiva, per tal d’evitar els incendis a la llar, i la de l’autoprotecció"
+            },
+            {
+              "ref": "MAN.SP.000, 7 Classes de foc",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "recollida a la UNE-EN 2 continua establint les classes A, B, C, D i F."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Activa = detectar, alarmar, extingir (amb interacció). Passiva = disseny i materials.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.2",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "precisen de la interacció dels ocupants o dels equips intervinents."
+            }
+          ]
+        },
+        {
+          "text": "Llei 3/2010: llicència i règim sancionador. RSCIEI actual RD 164/2025 (anterior RD 2267/2004). SP113: vials sense sortida. Empreses: òrgan d'indústria.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 1.4",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "El RD 164/2025 va entrar en vigor el 10/05/2025."
+            }
+          ]
+        },
+        {
+          "text": "Espais de maniobra: més de 9 m o industrial de més de 1.000 m². Façana industrial: 15 %. Planta de sortida: 15 m.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 2.1.2",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "edificis de més de 9 metres d’alçada d’evacuació (aproximadament planta baixa + 3 pisos)"
+            }
+          ]
+        },
+        {
+          "text": "Reacció = material (d1 = sense gotes més de 10 s). Resistència = element: R portant, E integritat, I aïllament.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.1.1",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "d1- sense caiguda de gotes i partícules inflamades durant més de 10 s"
+            }
+          ]
+        },
+        {
+          "text": "Portes de pas EI2-t-C5; portes d'ascensor E-t; mitgera EI 120; mur tallafocs per sobre de coberta.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 3.1.2",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "disposar de mecanisme de tancament automàtic (EI2-t-C5)"
+            }
+          ]
+        },
+        {
+          "text": "Ventilació natural = flotació. Hidrant públic a menys de 100 m; industrial, radi 40 m.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.2",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "es trobi a menys de 100 metres d’un hidrant."
+            }
+          ]
+        },
+        {
+          "text": "Columna seca: 80 mm, seccionament cada 4 plantes; més de 24 m general, més de 15 m hospitalari.",
+          "refs": [
+            {
+              "ref": "MAN.SP.000, 4.2.4",
+              "law": "MAN.SP.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.SP.000-Tema-23.-Prevencio-basica-incendis.pdf",
+              "quote": "si l’alçada d’evacuació és superior a 24 metres."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

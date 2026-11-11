@@ -88,11 +88,10 @@ async function setup(q: Q) {
     [exam],
   );
   for (const [i, id] of byTopic[t2].entries())
-    await q(`insert into public.product_items (product_id, position, question_id) values ($1, $2, $3)`, [
-      pk[0].id,
-      i + 1,
-      id,
-    ]);
+    await q(
+      `insert into public.product_items (product_id, position, question_id) values ($1, $2, $3)`,
+      [pk[0].id, i + 1, id],
+    );
   const { rows: prem } = await q(
     `insert into public.products (slug, type, status, title, exam_body_id, included_in_premium)
      values ('test-tp-premium', 'subscription', 'published', 'Premium', $1, false) returning id`,
@@ -147,11 +146,73 @@ describe("test por tema", () => {
         [student.id, premium],
       );
       const { rows: ok } = await start(q, student.id, "test-tp-t2", 2);
-      const { rows: n } = await q(
-        "select item_count from public.practice_sessions where id = $1",
-        [ok[0].id],
-      );
+      const { rows: n } = await q("select item_count from public.practice_sessions where id = $1", [
+        ok[0].id,
+      ]);
       expect(n[0].item_count).toBe(2);
+    });
+  });
+
+  it("no repite: primero las no respondidas, luego las falladas (ADR-045)", async () => {
+    await tx(async (q) => {
+      const { t1, byTopic } = await setup(q);
+      const items = async (session: string) =>
+        (
+          await q(
+            "select question_id, position from public.practice_items where session_id = $1 order by position",
+            [session],
+          )
+        ).rows.map((r) => r.question_id as string);
+      const first = await items((await start(q, student.id, "test-tp-t1", 2)).rows[0].id);
+      expect(first).toHaveLength(2);
+      // responde las dos: la primera mal, la segunda bien
+      for (const [i, id] of first.entries())
+        await q(
+          `update public.practice_items set answered_at = now() - make_interval(mins => 5 - $3::int),
+                  is_correct = $4 where user_id = $1 and question_id = $2`,
+          [student.id, id, i, i === 1],
+        );
+      const unseen = byTopic[t1].find((id) => !first.includes(id));
+      const second = await items((await start(q, student.id, "test-tp-t1", 2)).rows[0].id);
+      expect(second).toEqual([unseen, first[0]]);
+      // un test a medias no gasta preguntas: las que no contestó siguen siendo nuevas
+      const third = await items((await start(q, student.id, "test-tp-t1", 1)).rows[0].id);
+      expect(third).toEqual([unseen]);
+    });
+  });
+
+  it("apuntes: solo para quien puede practicar el tema; tema de la práctica (ADR-046)", async () => {
+    await tx(async (q) => {
+      const { t1, t2 } = await setup(q);
+      const lessons = JSON.stringify([
+        { n: "1", title: "Apartat", blocks: [{ text: "Text.", refs: [] }] },
+      ]);
+      for (const topic of [t1, t2])
+        await q(
+          `insert into public.topic_notes (topic_id, locale, key_ideas, lessons, status, reviewed_by, published_at)
+           values ($1, 'ca', '["idea"]', $2::jsonb, 'published', $3, now())`,
+          [topic, lessons, owner.id],
+        );
+      const { rows } = await start(q, student.id, "test-tp-t1", 2);
+      const session = rows[0].id as string;
+      await actAs(q, student.id);
+      const lessonsOf = async (slug: string) =>
+        (await q("select public.topic_lessons($1) as l", [slug])).rows[0].l;
+      expect(await lessonsOf("test-tp-t1")).toHaveLength(1);
+      expect(await lessonsOf("test-tp-t2")).toBeNull(); // tema de pago sin Premium
+      const { rows: st } = await q("select * from public.my_session_topic($1)", [session]);
+      expect(st).toHaveLength(1);
+      expect(st[0]).toMatchObject({ slug: "test-tp-t1", published: "3", answered: "0" });
+      await q("savepoint s");
+      await expect(q("select lessons from public.topic_notes")).rejects.toMatchObject({
+        code: "42501",
+      });
+      await q("rollback to savepoint s");
+      // otro alumno no ve el tema de una práctica ajena
+      await actAs(q, other.id);
+      expect((await q("select * from public.my_session_topic($1)", [session])).rows).toHaveLength(
+        0,
+      );
     });
   });
 
@@ -198,10 +259,10 @@ describe("calendario de estudio", () => {
       await setup(q);
       const { rows } = await start(q, student.id, "test-tp-t1");
       const session = rows[0].id as string;
-      await q(
-        "select * from public.practice_answer_question($1, $2, 0::smallint, 1::smallint)",
-        [student.id, session],
-      );
+      await q("select * from public.practice_answer_question($1, $2, 0::smallint, 1::smallint)", [
+        student.id,
+        session,
+      ]);
       const log = async (uid: string) => {
         await actAs(q, uid);
         const { rows: r } = await q(

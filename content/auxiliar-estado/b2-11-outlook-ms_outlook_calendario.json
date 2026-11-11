@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_calendario-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Introducción al calendario de Outlook",
+      "url": "https://support.microsoft.com/es-es/office/introducci%C3%B3n-al-calendario-de-outlook-d94c5203-77c7-48ec-90a5-2e2bc10bd6f8",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Calendario · Varios calendarios",
+      "stem": "Según Microsoft, en el calendario de Outlook, los distintos calendarios que haya creado el usuario:",
+      "options": [
+        "Solo pueden verse de uno en uno.",
+        "Deben combinarse antes en un único calendario.",
+        "Solo pueden verse desde Outlook en la web.",
+        "Pueden verse en paralelo."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La introducción al calendario de Outlook indica que se pueden ver en paralelo varios calendarios que se hayan creado.",
+      "excerpt": "Puede ver en paralelo varios calendarios que haya creado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Calendario · Enviar por correo",
+      "stem": "Según Microsoft, ¿cómo puede enviarse el calendario de Outlook a un destinatario de correo?",
+      "options": [
+        "Como Calendario de Internet.",
+        "Como archivo de datos de Outlook (.pst).",
+        "Como lista de eventos de SharePoint.",
+        "Como plantilla de Outlook (*.oft)."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El calendario puede enviarse a un destinatario de correo como Calendario de Internet.",
+      "excerpt": "Puede enviar el calendario a un destinatario de correo como Calendario de Internet",
+      "excerpt_status": "completo"
+    }
+  ]
+}

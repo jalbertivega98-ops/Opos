@@ -77,6 +77,36 @@
       "explanation": "Microsoft indica: pestaña Herramientas de base de datos, grupo Relaciones, botón Relaciones.",
       "excerpt": "En la pestaña Herramientas de base de datos, en el grupo Relaciones, haga clic en Relaciones.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Relaciones uno a uno",
+      "stem": "En Access, ¿qué tipo de relación existe cuando cada registro de la primera tabla solo puede tener un registro coincidente en la segunda?",
+      "options": [
+        "Una relación uno a varios.",
+        "Una relación varios a varios.",
+        "Una relación de tabla de unión.",
+        "Una relación uno a uno."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En una relación uno a uno, cada registro de la primera tabla solo puede tener un registro coincidente en la segunda; la de varios a varios exige una tercera tabla de unión.",
+      "excerpt": "En una relación uno a uno, cada registro de la primera tabla solo puede tener un registro coincidente",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Eliminar en cascada",
+      "stem": "En una relación con integridad referencial y la opción de eliminar en cascada activada, al eliminar un registro de la tabla principal Access:",
+      "options": [
+        "Rechaza la eliminación mientras existan registros relacionados.",
+        "Elimina automáticamente todos los registros que hacen referencia a la clave principal.",
+        "Deja los registros relacionados con el campo de clave externa vacío.",
+        "Convierte los registros relacionados en registros de solo lectura."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Con la eliminación en cascada, Access elimina automáticamente todos los registros que hacen referencia a la clave principal, en lugar de rechazar la operación.",
+      "excerpt": "Access elimina automáticamente todos los registros que hacen referencia a la clave principal.",
+      "excerpt_status": "completo"
     }
   ]
 }

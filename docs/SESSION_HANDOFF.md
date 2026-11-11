@@ -1,19 +1,46 @@
 # SESSION HANDOFF
 
-**Última actualización:** 2026-11-07 · Sesión 3 (+ test gratis sin registro ADR-041) (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
+**Última actualización:** 2026-11-11 · Sesión 3 (+ test gratis sin registro ADR-041) (+ entrar con Google ADR-040) (+ exámenes reales ADR-033 y Prisiones de Cataluña ADR-032)
 
 ## Estado exacto
 
-### Más alcance en buscadores (2026-11-10, rama `claude/project-thread-h5od90`, MKT-006, ADR-045)
+### Más alcance en buscadores (2026-11-10, rama `claude/project-thread-h5od90`, MKT-007, ADR-050)
 
 - Pie con enlaces a las 11 fichas y los 15 psicotécnicos, tres ejemplos resueltos (semillas fijas) en cada `/psicotecnicos/<tipo>`, títulos con «gratis» y nombres de oposición correctos en «Oposiciones en las que se trabaja».
 - IndexNow automático: `.github/workflows/indexnow.yml` envía el sitemap tras cada push a main; clave pública por defecto en `/indexnow.txt`.
 - Pendiente de joel: «fusiona»; alta en Bing Webmaster (falta su clic en el inicio de sesión de Google). La revisión semanal de Search Console la lleva el hilo «Crecer en Google con contenido».
+- **Simulacros de examen de Guardia Civil y Policía Nacional (2026-11-11, rama `claude/project-thread-eh98tl`, CNT-027-GCPN, ADR-049):** 4 réplicas de cuadernillos oficiales de GC (2026 y 2022 ejercicios 1-3, temas `gcexamen-*`) y 2 exámenes tipo de PN con 100 preguntas nuevas (`pnexamen-tipo-*`). Fuente en `fuentes-oficiales/guardia-civil/fuente-preguntas/R26,R22A-C.txt` (mapas en `replicas/`) y `policia-nacional/fuente-preguntas/K01-K02.txt` (mapas en `examenes-tipo/`). Preview `87-` y `88-`, probados en local. Pendiente: que joel diga «fusiona».
+- **40 preguntas por tema en Policía local de Cataluña y Auxiliar del Estado (2026-11-11, PR #58 fusionada):** +460 (`plcat-t*`, 23 temas) y +480 (`age-aux-b1/b2-*`), con cita literal comprobada. Las nuevas van al final de cada `fuente-preguntas/<T>.txt` tras `// Ampliación 11/11/2026` en `fuentes-oficiales/{policia-local-cat,auxiliar-estado}/`. Preview `85-` y `85a-` (solo las nuevas) y `85b-` (publica salvo 4 dudosas y llena los packs). Pendiente de joel: las 4 dudosas (Llei 19/2020 arts. 45.1.c y 48.2; Orden PCI/383/2019).
+
+### Mejoras de la oferta (2026-11-11, rama `claude/project-thread-m45lkq`, ADR-048)
+
+- Simulacro de psicotécnicos + pack 6,99 € en GC (formato oficial), PN, Guardia Urbana y Policía local (formato orientativo); plan anual 79,99 €; primer simulacro gratis por oposición; packs de 10 simulacros sin réplicas fijas; nº de temas sin réplicas y aviso de Mossos. Migración `20261111000200`, preview `84-`.
+- Pendiente: que joel diga «fusiona». Contenido (réplicas PN/GC, Bombers 2025, más preguntas) en hilos aparte (preview `85-` en adelante).
+
+- **Apuntes de Cultura general y actualidad de Cataluña (2026-11-11, LRN-007-CULT, ADR-046):** 10 fichas `cultcat-*`/`actcat-*` con `lessons` (preview `81-`, vuelve a publicarlas como titular). Fuente: `/mnt/project-files/aprobia/fuentes-oficiales/cultura-cat/fuente-apunts/` (build.py ya genera `lessons`). Pendiente de joel: revisar dudas de fuentes (`DUBTES-*.md`), ampliar C05 con fuentes de literatura y renovar A01 (actualidad) cada trimestre.
+- **Apuntes de policía local de Cataluña (2026-11-11, rama `claude/project-thread-drtmpl`, ADR-046):** apuntes de los 23 temas en `content/policia-local-cat/fichas` y preview `78-` (vuelve a publicar las fichas `plcat-*` como titular). Fuente en `fuentes-oficiales/policia-local-cat/fuente-apunts/`. Pendiente: que joel revise las dudas de fuentes de la PR y diga «fusiona».
+- **Apuntes de Ayudantes IIPP (2026-11-11, LRN-007-IIPP, ADR-046):** 50 temas con apuntes en castellano (91.392 palabras, cita literal por párrafo) en preview `73-`, que vuelve a publicar las fichas `iipp-*` como titular. Fuente en `/mnt/project-files/aprobia/fuentes-oficiales/ayudantes-iipp/fuente-apunts/`; dudas de fuentes en `INFORME-APUNTES.md`. Pendiente de joel: revisar huecos (bloque D, UE, RD 33/1986, contabilidad C20). Las refs de las preguntas A07 (art. 312 RP81) y C17 (art. 278.3 RP) se corrigieron y publicaron en preview `73b-` (11/11).
+- **Apuntes de Bombers de la Generalitat (2026-11-11, ADR-046):** 34 temas en `content/bombers/fichas` (fuente en `fuentes-oficiales/bombers/fuente-apunts/`, `build.py --check` sin errores), previews `74-` y `82-`. Los temas 7-34 se ampliaron con el texto completo de los manuales (en `bombers/web/MANxx.md` y `bombers/manuales-completos/`). Dudas de fuentes en `bombers/DUDAS-APUNTES.md` (fórmulas en imagen, incoherencias internas de los manuales y 3 preguntas a reformular). Del D12/2023 solo hay extractos.
+- **Preguntas de Bombers ampliadas (2026-11-11, PR pendiente de joel):** los 34 temas pasan de 20 a 40 preguntas (1.360) y la réplica 81/25 de 20 a 73 (todas las preguntas oficiales que siguen en el temario de 2026 y tienen fuente; 18 sin fuente). Preview `85-` (carga en borrador) y `86-` (publica, ajusta el simulacro réplica y el pack). Fuente en `fuentes-oficiales/bombers/fuente-preguntas/`; dudas en `bombers/DUDAS-PREGUNTAS.md`.
+- **Apuntes de Policía Nacional (2026-11-11, LRN-007-PN, ADR-046):** apuntes de los 45 temas con cita literal en cada párrafo (fuente en `fuentes-oficiales/policia-nacional/fuente-apunts/`, formato en su `APUNTS.md`). Preview `79-` (vuelve a publicar las fichas `pn-*` como titular). Dudas de fuentes en `DUDAS-APUNTES.md` de esa carpeta. Pendiente: que joel diga «fusiona».
+- **Apuntes de Justicia (2026-11-11, LRN-007-JUS, ADR-046):** apuntes de los 35 temas de Auxilio Judicial y Tramitación Procesal (`jus-*`, `justra-*`) en preview `77-`, que vuelve a publicar sus fichas como titular. Fuente en `fuentes-oficiales/justicia/fuente-apunts/`. Pendiente: que joel revise las dudas de fuentes de la PR y diga «fusiona».
+- **Apuntes de Mossos (2026-11-11, LRN-007b, ADR-046):** los 21 temas (A.1–C.5 y D) llevan apuntes con cita literal de la Guia d'estudi, en preview `80-` (vuelve a publicar las fichas `mossos-*` como titular). Fuente en `/mnt/project-files/aprobia/fuentes-oficiales/contenido-mossos/` (`fuente-apunts/`, `build.py`, `APUNTS.md`, `DUDAS-APUNTS.md`). Pendiente: que joel revise las dudas de fuentes.
+- **Apuntes de Administrativo del Estado (2026-11-11, ADR-046):** 26 temas `age-adm-*`, fuente en `/mnt/project-files/aprobia/fuentes-oficiales/administrativo-estado/fuente-apunts/` (formato en APUNTES.md; build.py ya genera `lessons`). Preview `71-` (vuelve a publicar las fichas como titular). Dudas de fuentes en `fuente-apunts/DUDAS-*.md`. Los temas comunes `age-aux-*` (incluidos los 3 gratuitos) tienen apuntes en la PR #42 de Auxiliar (preview `72-`).
+- **Apuntes de Guardia Civil (2026-11-11, LRN-008, ADR-046):** 42 temas con apuntes (`fuente-apunts/` en la carpeta de fuentes), fichas regeneradas con `build.py` (las preguntas no cambian) y preview `75-`, que las vuelve a publicar como titular. Pendiente: que joel revise las dudas de fuentes (normas desfasadas, fuentes que faltan) y diga «fusiona».
+- **Apuntes por tema y tests en tandas de 10 (2026-11-10, LRN-007, ADR-046):** `topic_notes.lessons` + `topic_lessons()` (solo con acceso al tema) y `my_session_topic()`; migración `20261110000200`, preview `69-`. Apuntes de los 25 temas de Prisiones de Cataluña en preview `70-`. Resultado del test de tema con progreso y «Otras 10 preguntas».
+- **Apuntes por tema y tests en tandas de 10 (2026-11-10, LRN-007, ADR-046):** `topic_notes.lessons` + `topic_lessons()` (solo con acceso al tema) y `my_session_topic()`; migración `20261110000200`, preview `69-`. Apuntes de los 25 temas de Prisiones de Cataluña en preview `70-`. Apuntes de los 29 temas con ficha de Auxiliar del Estado en preview `72-` (2026-11-11; dudas de fuentes en `fuentes-oficiales/auxiliar-estado/DUDAS-APUNTES.md`). Resultado del test de tema con progreso y «Otras 10 preguntas».
+- **Apuntes de Guardia Urbana de Barcelona (2026-11-11, ADR-046):** 39 temas en catalán (`fuente-apunts/T01-T39.txt` en la carpeta de fuentes `guardia-urbana-bcn`), preview `76-`. Probado en local: segunda pasada «sin cambios» y una alumna gratuita solo ve los temas 1-3. Dudas de fuentes para joel en `DUDAS-APUNTS.md`.
+- **Test por tema sin repeticiones (2026-11-10, LRN-006, ADR-045):** primero preguntas no respondidas, luego falladas. Migración `20261110000100` y preview `65-`. Prisiones de Cataluña ampliada a 50 preguntas por tema (+730; preview `66-` temario y `67-` publicación, que también las mete en el pack de test); 19 dudosas con N:; `68-` publica 11 verificadas y deja 8 en borrador.
+
+### Embudo de conversión (2026-11-11, rama `claude/project-thread-3xoxnz`, MKT-006, ADR-047)
+
+- `/admin` → «Embudo de conversión» (7 o 30 días): visitas, empiezan/terminan el test gratis (`funnel_daily`, nuevo contador), crean cuenta, bienvenida, practican y pagan con Stripe. Migración `20261111000100`, preview `83-`.
+- Pendiente: que joel diga «fusiona». El test gratis empieza a contar al desplegar.
 
 ### Conversión tras la auditoría (2026-11-09, rama `claude/project-thread-3xoxnz`, MKT-005, ADR-044)
 
 - Auditoría completa en el Claude Doc «Auditoría OPOSAPRUEBA · noviembre 2026» (plan de 23 mejoras). Hechos los puntos 1–8: registro con la oposición elegida, repaso de fallos del test gratis, tests gratis en la portada, oferta arriba y barra fija en fichas, «Han entrado» con varias fuentes (preview `64-`), redirección de /otros.
-- Pendiente: que joel diga «fusiona»; después, UTM en bio y enlaces (el tráfico ya los registra) y el resto del plan (P1: plan anual, correos automáticos, guías 2027).
+- Fusionada (PR #36). Después: UTM en bio y enlaces (el tráfico ya los registra) y el resto del plan (P1: plan anual, correos automáticos, guías 2027).
 
 ### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-043)
 

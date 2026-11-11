@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-prl-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 56, tema P24) · Art. 15.1.f) Ley 31/1995",
+      "stem": "Según la Ley 31/1995, de Prevención de Riesgos Laborales, uno de los principios generales de la acción preventiva es:",
+      "options": [
+        "Sustituir lo peligroso por lo que entrañe poco o ningún peligro.",
+        "Anteponer la protección individual a la colectiva.",
+        "Adaptar la persona al puesto de trabajo."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 15.1.f) PRL recoge este principio; la ley manda anteponer la protección colectiva a la individual (letra h) y adaptar el trabajo a la persona (letra d), no al revés.",
+      "excerpt": "f) Sustituir lo peligroso por lo que entrañe poco o ningún peligro.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 57, tema P24) · Art. 15.1.g) Ley 31/1995",
+      "stem": "Según el artículo 15 de la Ley 31/1995, el principio de planificar la prevención busca un conjunto coherente que integre en ella:",
+      "options": [
+        "La evaluación de riesgos, la vigilancia de la salud y los equipos de protección individual.",
+        "Los servicios de prevención propios, los ajenos y los delegados de prevención.",
+        "La técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales en el trabajo."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 15.1.g) PRL enumera los elementos que la planificación preventiva debe integrar de forma coherente.",
+      "excerpt": "g) Planificar la prevención, buscando un conjunto coherente que integre en ella la técnica, la organización del trabajo, las condiciones de trabajo, las relaciones sociales y la influencia de los factores ambientales en el trabajo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 58, tema P25) · Art. 1 Ley 31/1995",
+      "stem": "Según el artículo 1 de la Ley 31/1995, la normativa sobre prevención de riesgos laborales está constituida por:",
+      "options": [
+        "Exclusivamente esta Ley y el Reglamento de los Servicios de Prevención.",
+        "Esta Ley y los convenios colectivos, con exclusión de los reglamentos.",
+        "Esta Ley, sus disposiciones de desarrollo o complementarias y cuantas otras normas, legales o convencionales, contengan prescripciones relativas a la adopción de medidas preventivas en el ámbito laboral."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 1 PRL acoge un concepto amplio de normativa preventiva, que incluye normas legales y convencionales.",
+      "excerpt": "La normativa sobre prevención de riesgos laborales está constituida por la presente Ley, sus disposiciones de desarrollo o complementarias y cuantas otras normas, legales o convencionales, contengan prescripciones relativas a la adopción de medidas preventivas en el ámbito laboral o susceptibles de producirlas en dicho ámbito.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

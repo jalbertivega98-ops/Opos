@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-rarm-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 137/1993, de 29 de enero, Reglamento de Armas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 92, tema P42) · Art. 2.7 Reglamento de Armas",
+      "stem": "Para el Reglamento de Armas, el arma constituida por una hoja metálica u otro material de características físicas semejantes, cortante o punzante, es:",
+      "options": [
+        "Un arma de fuego corta.",
+        "Un arma prohibida en todo caso.",
+        "Un arma blanca."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 2.7 del Reglamento de Armas define así el arma blanca; solo algunas armas blancas están prohibidas (art. 4).",
+      "excerpt": "7. Arma blanca: Arma constituida por una hoja metálica u otro material de características físicas semejantes, cortante o punzante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 93, tema P42) · Art. 3 (2.ª categoría) Reglamento de Armas",
+      "stem": "Según el Reglamento de Armas, las armas de fuego largas rayadas utilizables para caza mayor pertenecen a la:",
+      "options": [
+        "1.ª categoría.",
+        "2.ª categoría.",
+        "3.ª categoría."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La 2.ª categoría comprende las armas largas para vigilancia y guardería y las largas rayadas para caza mayor; la 1.ª, pistolas y revólveres; la 3.ª, entre otras, las largas rayadas deportivas de calibre 5,6 mm.",
+      "excerpt": "2. Armas de fuego largas rayadas: Se comprenden aquellas armas utilizables para caza mayor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 94, tema P42) · Art. 3 (5.ª categoría) Reglamento de Armas",
+      "stem": "Según el Reglamento de Armas, las armas blancas y en general las de hoja cortante o punzante no prohibidas pertenecen a la:",
+      "options": [
+        "5.ª categoría.",
+        "4.ª categoría.",
+        "7.ª categoría."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La 5.ª categoría incluye las armas blancas no prohibidas y los cuchillos o machetes militares o sus imitaciones.",
+      "excerpt": "1. Las armas blancas y en general las de hoja cortante o punzante no prohibidas.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

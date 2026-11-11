@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "set": "pcat-e18-gestio-administrativa-lpac-v1",
+    "exam": "serveis-penitenciaris-catalunya",
+    "also_exams": [],
+    "topic": "Tema 18. Gestió administrativa i documental dels establiments penitenciaris",
+    "topic_slug": "pcat-e18-gestio-administrativa",
+    "locale": "ca",
+    "category": "pcat_e18_gestio_administrativa",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-05",
+    "source": {
+      "title": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de les proves de la JU033 (4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, Portal Jurídic de Catalunya o documents del Departament de Justícia); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 36.1 Llei 39/2015",
+      "stem": "D'acord amb la Llei 39/2015, del procediment administratiu comú, els actes administratius es produeixen:",
+      "options": [
+        "Verbalment, i només es documenten per escrit si l'interessat ho sol·licita.",
+        "Per escrit en paper, signats a mà per l'òrgan competent.",
+        "En la forma que esculli lliurement l'òrgan que els dicta.",
+        "Per escrit a través de mitjans electrònics, llevat que la seva naturalesa exigeixi una altra forma més adequada d'expressió i constància."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'art. 36.1 de la Llei 39/2015 estableix la forma escrita i electrònica com a regla general dels actes administratius.",
+      "excerpt": "Los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 35.1.f Llei 39/2015",
+      "stem": "Segons l'article 35 de la Llei 39/2015, quin dels actes següents s'ha de motivar, amb una referència succinta de fets i fonaments de dret?",
+      "options": [
+        "Els actes de mer tràmit que no decideixen el fons de l'assumpte.",
+        "Les comunicacions internes entre òrgans d'una mateixa unitat.",
+        "Els actes que estimin totalment la sol·licitud de l'interessat.",
+        "Els actes que rebutgin proves proposades pels interessats."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 35.1.f de la Llei 39/2015 inclou entre els actes que s'han de motivar els que rebutgen proves proposades pels interessats. Els altres supòsits no figuren a la llista de l'art. 35.1.",
+      "excerpt": "f) Los actos que rechacen pruebas propuestas por los interesados.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 26.2 Llei 39/2015",
+      "stem": "Segons la Llei 39/2015, quin dels requisits següents NO s'exigeix perquè els documents electrònics administratius siguin vàlids?",
+      "options": [
+        "Incorporar una referència temporal del moment en què s'han emès.",
+        "Incorporar les metadades mínimes exigides.",
+        "Estar redactats en dues llengües oficials.",
+        "Disposar de les dades d'identificació que en permetin la individualització."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'art. 26.2 de la Llei 39/2015 exigeix, entre altres requisits, dades d'identificació, referència temporal, metadades mínimes i les signatures electròniques que corresponguin. No exigeix cap requisit de doble llengua.",
+      "excerpt": "b) Disponer de los datos de identificación que permitan su individualización, sin perjuicio de su posible incorporación a un expediente electrónico. c) Incorporar una referencia temporal del momento en que han sido emitidos. d) Incorporar los metadatos mínimos exigidos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 16.2 Llei 39/2015",
+      "stem": "D'acord amb la Llei 39/2015, com s'han d'anotar els assentaments en el registre electrònic?",
+      "options": [
+        "Per ordre alfabètic dels interessats.",
+        "Respectant l'ordre temporal de recepció o sortida dels documents, i indicant la data del dia en què es produeixen.",
+        "Segons la matèria del document, agrupats per procediments.",
+        "Segons la urgència que assigni l'òrgan destinatari."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'art. 16.2 de la Llei 39/2015 imposa l'ordre temporal de recepció o sortida i la data de l'assentament; acabat el registre, els documents s'han de cursar sense dilació als destinataris.",
+      "excerpt": "Los asientos se anotarán respetando el orden temporal de recepción o salida de los documentos, e indicarán la fecha del día en que se produzcan.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

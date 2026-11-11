@@ -318,6 +318,456 @@
       "explanation": "Les penes lleus prescriuen a l'any, les menys greus als cinc anys i les restants penes greus als deu anys, amb terminis més llargs per a la presó i la inhabilitació de més durada (art. 133.1).",
       "excerpt": "A los cinco, las penas menos graves.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33.2 CP",
+      "stem": "Segons l'article 33.2 del Codi penal, quina de les penes següents és una pena greu?",
+      "options": [
+        "La presó de tres mesos fins a cinc anys.",
+        "La inhabilitació especial per un temps de fins a cinc anys.",
+        "La inhabilitació absoluta.",
+        "La multa de més de tres mesos."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La inhabilitació absoluta és sempre pena greu (art. 33.2.c CP). La presó fins a cinc anys, les inhabilitacions especials fins a cinc anys i la multa de més de tres mesos són penes menys greus (art. 33.3).",
+      "excerpt": "2. Son penas graves: a) La prisión permanente revisable. b) La prisión superior a cinco años. c) La inhabilitación absoluta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 39 CP",
+      "stem": "Quina de les penes següents NO és una pena privativa de drets segons l'article 39 del Codi penal?",
+      "options": [
+        "La localització permanent.",
+        "La suspensió d'ocupació o càrrec públic.",
+        "La privació del dret a la tinença i portada d'armes.",
+        "Els treballs en benefici de la comunitat."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La localització permanent és una pena privativa de llibertat (art. 35 CP). Les altres tres figuren a la llista de penes privatives de drets de l'article 39.",
+      "excerpt": "Son penas privativas de derechos: […] c) La suspensión de empleo o cargo público. […] e) La privación del derecho a la tenencia y porte de armas. […] i) Los trabajos en beneficio de la comunidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.2 CP",
+      "stem": "Segons l'article 50.2 del Codi penal, llevat que la llei disposi una altra cosa, la pena de multa s'imposa:",
+      "options": [
+        "En quantia proporcional al dany causat.",
+        "Pel sistema de dies multa.",
+        "En quantia fixa determinada per a cada delicte.",
+        "Pel sistema de quotes mensuals."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El sistema general de la multa és el de dies multa (art. 50.2 CP); la multa proporcional només s'aplica quan la llei ho preveu.",
+      "excerpt": "2. La pena de multa se impondrá, salvo que la Ley disponga otra cosa, por el sistema de días-multa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.3 CP",
+      "stem": "Segons l'article 50.3 del Codi penal, quina és l'extensió mínima i màxima de la pena de multa per dies multa imposable a les persones físiques?",
+      "options": [
+        "Mínima d'un dia i màxima d'un any.",
+        "Mínima de deu dies i màxima de cinc anys.",
+        "Mínima de trenta dies i màxima de dos anys.",
+        "Mínima de deu dies i màxima de dos anys."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'extensió de la multa és de deu dies a dos anys; per a les persones jurídiques la màxima és de cinc anys (art. 50.3 CP).",
+      "excerpt": "3. Su extensión mínima será de diez días y la máxima de dos años. Las penas de multa imponibles a personas jurídicas tendrán una extensión máxima de cinco años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 50.4 CP",
+      "stem": "Segons l'article 50.4 del Codi penal, la quota diària de la multa imposada a una persona física té:",
+      "options": [
+        "Un mínim de sis euros i un màxim de 300 euros.",
+        "Un mínim de trenta euros i un màxim de 5.000 euros.",
+        "Un mínim de dos euros i un màxim de 400 euros.",
+        "Un mínim de deu euros i un màxim de 1.000 euros."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La quota diària va de 2 a 400 euros; per a les persones jurídiques, de 30 a 5.000 euros. A l'efecte del còmput, els mesos són de trenta dies i els anys de tres-cents seixanta.",
+      "excerpt": "4. La cuota diaria tendrá un mínimo de dos y un máximo de 400 euros, excepto en el caso de las multas imponibles a las personas jurídicas, en las que la cuota diaria tendrá un mínimo de 30 y un máximo de 5.000 euros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 90.1 CP",
+      "stem": "Quin dels requisits següents NO és exigit per l'article 90.1 del Codi penal per concedir la llibertat condicional ordinària?",
+      "options": [
+        "Que el penat hagi extingit les tres quartes parts de la pena imposada.",
+        "Que el penat hagi observat bona conducta.",
+        "Que el penat estigui classificat en tercer grau.",
+        "Que el penat estigui classificat en segon grau."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La llibertat condicional ordinària exigeix estar classificat en tercer grau, haver extingit les tres quartes parts de la pena i haver observat bona conducta. La concedeix el jutge de vigilància penitenciària.",
+      "excerpt": "a) Que se encuentre clasificado en tercer grado. b) Que haya extinguido las tres cuartas partes de la pena impuesta. c) Que haya observado buena conducta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58.1 CP",
+      "stem": "Segons l'article 58.1 del Codi penal, el temps de privació de llibertat patit provisionalment s'abona per al compliment de la pena o penes imposades en la causa en què es va acordar:",
+      "options": [
+        "Només en la meitat.",
+        "En la seva totalitat, llevat que hagi coincidit amb una privació de llibertat imposada en una altra causa que ja s'hi hagi abonat o s'hi pugui abonar.",
+        "Només si la sentència és absolutòria en una altra causa.",
+        "En les dues terceres parts, si el penat ha observat bona conducta."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La presó provisional s'abona íntegrament, però un mateix període de privació de llibertat no es pot abonar mai en més d'una causa (art. 58.1 CP).",
+      "excerpt": "1. El tiempo de privación de libertad sufrido provisionalmente será abonado en su totalidad por el Juez o Tribunal sentenciador para el cumplimiento de la pena o penas impuestas en la causa en que dicha privación fue acordada, salvo en cuanto haya coincidido con cualquier privación de libertad impuesta al penado en otra causa, que le haya sido abonada o le sea abonable en ella.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 131.1 CP",
+      "stem": "Segons l'article 131.1 del Codi penal, els delictes lleus prescriuen:",
+      "options": [
+        "A l'any.",
+        "Als sis mesos.",
+        "Als tres anys.",
+        "Als cinc anys."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els delictes lleus i els d'injúries i calúmnies prescriuen a l'any; la resta de delictes no esmentats expressament, als cinc anys (art. 131.1 CP).",
+      "excerpt": "A los cinco, los demás delitos, excepto los delitos leves y los delitos de injurias y calumnias, que prescriben al año.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 136.1 CP",
+      "stem": "Segons l'article 136.1 del Codi penal, quin termini sense tornar a delinquir cal perquè es cancel·lin els antecedents penals per una pena lleu?",
+      "options": [
+        "Un any.",
+        "Sis mesos.",
+        "Dos anys.",
+        "Tres mesos."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Els terminis de cancel·lació són: sis mesos (penes lleus), dos anys (penes que no excedeixen de dotze mesos i delictes imprudents), tres anys (resta de menys greus inferiors a tres anys), cinc anys (menys greus iguals o superiors a tres anys) i deu anys (penes greus).",
+      "excerpt": "a) Seis meses para las penas leves.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 41 CP",
+      "stem": "Segons l'article 41 del Codi penal, la pena d'inhabilitació absoluta produeix:",
+      "options": [
+        "La privació temporal de l'ocupació o càrrec públic concret en què s'ha comès el delicte.",
+        "La suspensió d'ocupació i sou mentre duri la condemna, sense pèrdua definitiva del càrrec.",
+        "La privació dels càrrecs públics no electius que tingui el penat.",
+        "La privació definitiva de tots els honors, ocupacions i càrrecs públics que tingui el penat, encara que siguin electius."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La inhabilitació absoluta comporta la privació definitiva de tots els honors, ocupacions i càrrecs públics (també els electius) i la incapacitat per obtenir-ne d'altres i per ser elegit durant el temps de la condemna.",
+      "excerpt": "La pena de inhabilitación absoluta produce la privación definitiva de todos los honores, empleos y cargos públicos que tenga el penado, aunque sean electivos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 38.1 CP",
+      "stem": "Segons l'article 38 del Codi penal, quan el reu està pres, la durada de les penes comença a computar-se:",
+      "options": [
+        "Des del dia en què va ingressar en presó provisional.",
+        "Des del dia en què ingressa en l'establiment adequat per complir-la.",
+        "Des del dia en què la sentència condemnatòria ha esdevingut ferma.",
+        "Des del dia en què es dicta la sentència en primera instància."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Si el reu està pres, el còmput comença des de la fermesa de la sentència; si no ho està, des que ingressa en l'establiment adequat per complir la pena (art. 38 CP).",
+      "excerpt": "1. Cuando el reo estuviere preso, la duración de las penas empezará a computarse desde el día en que la sentencia condenatoria haya quedado firme.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 133.1 CP",
+      "stem": "Sobre la prescripció de les penes imposades per sentència ferma, quina de les afirmacions següents NO és correcta segons l'article 133.1 del Codi penal?",
+      "options": [
+        "Les penes de presó per més de 20 anys prescriuen als 25 anys.",
+        "Les penes lleus prescriuen a l'any.",
+        "Les penes de presó de 15 o més anys sense excedir de 20 prescriuen als 25 anys.",
+        "Les penes greus no previstes en els altres paràgrafs prescriuen als 10 anys."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les penes de presó per més de 20 anys prescriuen als 30 anys. Les de 15 a 20 anys prescriuen als 25, les greus restants als 10, les menys greus als cinc i les lleus a l'any.",
+      "excerpt": "A los 30 años, las de prisión por más de 20 años. A los 25 años, las de prisión de 15 o más años sin que excedan de 20.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40 CP",
+      "stem": "Pel que fa a la durada de les penes privatives de drets, quina de les afirmacions següents NO és correcta segons l'article 40 del Codi penal?",
+      "options": [
+        "La suspensió d'ocupació o càrrec públic té una durada de tres mesos a deu anys.",
+        "La inhabilitació absoluta té una durada de sis a vint anys.",
+        "Les inhabilitacions especials tenen una durada de tres mesos a vint anys.",
+        "La privació del dret a conduir vehicles a motor i ciclomotors té una durada de tres mesos a deu anys."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La suspensió d'ocupació o càrrec públic dura de tres mesos a sis anys (art. 40.1 CP). Les altres durades són correctes.",
+      "excerpt": "1. La pena de inhabilitación absoluta tendrá una duración de seis a 20 años; las de inhabilitación especial, de tres meses a 20 años, y la de suspensión de empleo o cargo público, de tres meses a seis años. 2. La pena de privación del derecho a conducir vehículos a motor y ciclomotores, y la de privación del derecho a la tenencia y porte de armas, tendrán una duración de tres meses a 10 años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 40.3 CP",
+      "stem": "Segons l'article 40.3 del Codi penal, la prohibició d'aproximar-se a la víctima o de comunicar-s'hi té una durada:",
+      "options": [
+        "De sis mesos a cinc anys.",
+        "D'un mes a deu anys.",
+        "De tres mesos a vint anys.",
+        "D'un mes a cinc anys."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La prohibició d'aproximar-se a la víctima o de comunicar-s'hi dura d'un mes a deu anys, i la privació del dret a residir en determinats llocs o anar-hi, fins a deu anys (art. 40.3 CP).",
+      "excerpt": "La prohibición de aproximarse a la víctima o a aquellos de sus familiares u otras personas, o de comunicarse con ellas, tendrá una duración de un mes a 10 años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37.3 CP",
+      "stem": "Segons l'article 37.3 del Codi penal, si el condemnat a localització permanent incompleix la pena, el jutge o tribunal sentenciador:",
+      "options": [
+        "La substituirà automàticament per una pena de presó d'igual durada.",
+        "La convertirà en treballs en benefici de la comunitat.",
+        "Imposarà una multa de deu a trenta dies.",
+        "En deduirà testimoni per procedir de conformitat amb l'article 468 (trencament de condemna)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'incompliment de la localització permanent dona lloc a la deducció de testimoni pel delicte de trencament de condemna de l'article 468 CP.",
+      "excerpt": "3. Si el condenado incumpliera la pena, el juez o tribunal sentenciador deducirá testimonio para proceder de conformidad con lo que dispone el artículo 468.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 76.1 CP",
+      "stem": "Segons la regla general de l'article 76.1 del Codi penal, el màxim de compliment efectiu de la condemna del culpable de diversos delictes no pot excedir:",
+      "options": [
+        "El doble del temps de la pena més greu, amb un límit de 25 anys.",
+        "La suma de totes les penes imposades, amb un límit de 30 anys.",
+        "El triple del temps pel qual se li imposi la més greu de les penes, amb un límit de 20 anys.",
+        "El triple del temps de la pena més greu, amb un límit de 40 anys."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La regla general és el triple de la pena més greu, amb un màxim de 20 anys. Excepcionalment el límit és de 25, 30 o 40 anys segons la pena dels delictes (art. 76.1 a-d CP).",
+      "excerpt": "el máximo de cumplimiento efectivo de la condena del culpable no podrá exceder del triple del tiempo por el que se le imponga la más grave de las penas en que haya incurrido, declarando extinguidas las que procedan desde que las ya impuestas cubran dicho máximo, que no podrá exceder de 20 años.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 80.1 CP",
+      "stem": "Segons l'article 80.1 del Codi penal, els jutges o tribunals poden deixar en suspens l'execució de les penes privatives de llibertat no superiors a dos anys quan:",
+      "options": [
+        "El penat ho sol·liciti i el Ministeri Fiscal no s'hi oposi.",
+        "El penat hagi complert la meitat de la pena en presó provisional.",
+        "La víctima hi doni el consentiment exprés.",
+        "Sigui raonable esperar que l'execució de la pena no sigui necessària per evitar la comissió futura per part del penat de nous delictes."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El fonament de la suspensió és el pronòstic favorable: que l'execució de la pena no sigui necessària per evitar nous delictes. La resolució ha de ser motivada.",
+      "excerpt": "Los jueces o tribunales, mediante resolución motivada, podrán dejar en suspenso la ejecución de las penas privativas de libertad no superiores a dos años cuando sea razonable esperar que la ejecución de la pena no sea necesaria para evitar la comisión futura por el penado de nuevos delitos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 80.4 CP",
+      "stem": "D'acord amb l'article 80.4 del Codi penal, si el penat pateix una malaltia molt greu amb patiments incurables, els jutges i tribunals:",
+      "options": [
+        "Només poden suspendre les penes de presó no superiors a cinc anys.",
+        "Poden atorgar la suspensió de qualsevol pena imposada sense subjecció a cap requisit, llevat que ja tingués una altra pena suspesa pel mateix motiu en el moment de cometre el delicte.",
+        "Han de suspendre la pena, però sempre condicionada a la reparació del dany.",
+        "Han de substituir la pena per la de localització permanent."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'article 80.4 CP permet la suspensió de qualsevol pena, sense requisits, per malaltia molt greu amb patiments incurables, amb l'única excepció de tenir ja una altra pena suspesa pel mateix motiu.",
+      "excerpt": "4. Los jueces y tribunales podrán otorgar la suspensión de cualquier pena impuesta sin sujeción a requisito alguno en el caso de que el penado esté aquejado de una enfermedad muy grave con padecimientos incurables, salvo que en el momento de la comisión del delito tuviera ya otra pena suspendida por el mismo motivo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 90.5 CP",
+      "stem": "Segons l'article 90.5 del Codi penal, el termini de suspensió de l'execució de la resta de la pena en la llibertat condicional és:",
+      "options": [
+        "D'un a tres anys, sigui quina sigui la pena pendent.",
+        "De cinc a deu anys.",
+        "De dos a cinc anys, i no pot ser inferior a la durada de la part de la pena pendent de compliment.",
+        "Igual, en tot cas, a la durada de la part de la pena pendent de compliment."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El termini és de dos a cinc anys, però mai inferior a la pena pendent, i es computa des de la posada en llibertat del penat (art. 90.5 CP). El de cinc a deu anys és el de la presó permanent revisable (art. 92.3).",
+      "excerpt": "El plazo de suspensión de la ejecución del resto de la pena será de dos a cinco años. En todo caso, el plazo de suspensión de la ejecución y de libertad condicional no podrá ser inferior a la duración de la parte de pena pendiente de cumplimiento.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 92.4 CP",
+      "stem": "Segons l'article 92.4 del Codi penal, un cop extingida la part de la condemna exigida per a la suspensió de la presó permanent revisable, amb quina periodicitat mínima ha de verificar el tribunal el compliment de la resta de requisits de la llibertat condicional?",
+      "options": [
+        "Almenys cada dos anys.",
+        "Almenys cada any.",
+        "Almenys cada sis mesos.",
+        "Almenys cada cinc anys."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El tribunal ha de verificar els requisits almenys cada dos anys i, després de rebutjar una petició, pot fixar un termini de fins a un any en què no s'admetin noves sol·licituds (art. 92.4 CP).",
+      "excerpt": "el tribunal deberá verificar, al menos cada dos años, el cumplimiento del resto de requisitos de la libertad condicional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 101.1 CP",
+      "stem": "Segons l'article 101.1 del Codi penal, l'internament per a tractament mèdic o educació especial del subjecte declarat exempt de responsabilitat per anomalia o alteració psíquica:",
+      "options": [
+        "Pot durar indefinidament mentre persisteixi la perillositat.",
+        "No pot excedir del temps que hauria durat la pena privativa de llibertat si hagués estat declarat responsable.",
+        "No pot excedir de cinc anys.",
+        "No pot excedir de la meitat de la pena que li hauria correspost."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'internament té com a límit màxim la durada de la pena que s'hauria imposat; el jutge o tribunal fixa aquest límit a la sentència.",
+      "excerpt": "El internamiento no podrá exceder del tiempo que habría durado la pena privativa de libertad, si hubiera sido declarado responsable el sujeto, y a tal efecto el Juez o Tribunal fijará en la sentencia ese límite máximo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 131.3 CP",
+      "stem": "Quin dels delictes següents NO és imprescriptible segons l'article 131.3 del Codi penal?",
+      "options": [
+        "El genocidi.",
+        "Els delictes de lesa humanitat.",
+        "Els delictes de terrorisme que han causat la mort d'una persona.",
+        "L'assassinat amb traïdoria d'una sola persona, sense vinculació terrorista."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "No prescriuen mai els delictes de lesa humanitat, de genocidi, els delictes contra les persones i béns protegits en cas de conflicte armat (llevat dels de l'art. 614) i els de terrorisme que han causat la mort d'una persona. L'assassinat comú prescriu (art. 131.1 CP).",
+      "excerpt": "3. Los delitos de lesa humanidad y de genocidio y los delitos contra las personas y bienes protegidos en caso de conflicto armado, salvo los castigados en el artículo 614, no prescribirán en ningún caso. Tampoco prescribirán los delitos de terrorismo, si hubieren causado la muerte de una persona.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 37.1 CP",
+      "stem": "Segons l'article 37.1 del Codi penal, quan la localització permanent està prevista com a pena principal, atenent la reiteració en la comissió de la infracció i sempre que el precepte aplicable ho disposi expressament, el jutge pot acordar en sentència que es compleixi:",
+      "options": [
+        "Els dissabtes, diumenges i dies festius en el centre penitenciari més proper al domicili del penat.",
+        "De dilluns a divendres en un centre d'inserció social.",
+        "Al domicili del penat amb un dispositiu electrònic durant el doble de temps.",
+        "En un centre penitenciari, en règim tancat, de manera continuada."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La localització permanent es compleix normalment al domicili o en el lloc que fixi el jutge, però en cas de reiteració i si el precepte ho preveu, es pot complir els caps de setmana i festius al centre penitenciari més proper al domicili.",
+      "excerpt": "el Juez podrá acordar en sentencia que la pena de localización permanente se cumpla los sábados, domingos y días festivos en el centro penitenciario más próximo al domicilio del penado",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.1 CP",
+      "stem": "Segons l'article 36.1 del Codi penal, un condemnat a presó permanent revisable per un delicte que no és de terrorisme no pot gaudir de permisos de sortida fins que hagi complert un mínim de:",
+      "options": [
+        "Dotze anys de presó.",
+        "Quinze anys de presó.",
+        "Vuit anys de presó.",
+        "Cinc anys de presó."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els permisos de sortida dels condemnats a presó permanent revisable exigeixen un mínim de dotze anys de presó en els delictes de terrorisme del capítol VII del títol XXII i de vuit anys en la resta de casos.",
+      "excerpt": "el penado no podrá disfrutar de permisos de salida hasta que haya cumplido un mínimo de doce años de prisión, en el caso previsto en la letra a), y ocho años de prisión, en el previsto en la letra b).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 36.2 CP",
+      "stem": "Segons l'article 36.2 del Codi penal, quan la durada de la pena de presó imposada és superior a cinc anys, el jutge o tribunal pot ordenar que la classificació del condemnat en tercer grau no s'efectuï fins:",
+      "options": [
+        "Al compliment de les tres quartes parts de la pena imposada.",
+        "Al compliment d'una quarta part de la pena imposada.",
+        "Al compliment de la meitat de la pena imposada.",
+        "Al compliment de les dues terceres parts de la pena imposada."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "És l'anomenat període de seguretat. És potestatiu en general i obligatori per als delictes enumerats a l'article 36.2 (terrorisme, organització o grup criminal, determinats delictes sexuals i de tràfic d'éssers humans).",
+      "excerpt": "Cuando la duración de la pena de prisión impuesta sea superior a cinco años, el juez o tribunal podrá ordenar que la clasificación del condenado en el tercer grado de tratamiento penitenciario no se efectúe hasta el cumplimiento de la mitad de la pena impuesta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 58.2 CP",
+      "stem": "Segons l'article 58.2 del Codi penal, qui ha d'acordar l'abonament de la presó provisional en una causa diferent d'aquella en què es va decretar?",
+      "options": [
+        "El jutge o tribunal que va decretar la presó provisional.",
+        "El director del centre penitenciari, a proposta de la junta de tractament.",
+        "El jutge o tribunal sentenciador de la causa més recent, sense audiència del fiscal.",
+        "El jutge de vigilància penitenciària de la jurisdicció de la qual depengui el centre penitenciari on es trobi el penat, amb audiència prèvia del ministeri fiscal."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'abonament en una causa diferent l'acorda d'ofici o a petició del penat el jutge de vigilància penitenciària, després de comprovar que no s'ha abonat en una altra causa i amb audiència del ministeri fiscal.",
+      "excerpt": "2. El abono de prisión provisional en causa distinta de la que se decretó será acordado de oficio o a petición del penado y previa comprobación de que no ha sido abonada en otra causa, por el Juez de Vigilancia Penitenciaria de la jurisdicción de la que dependa el centro penitenciario en que se encuentre el penado, previa audiencia del ministerio fiscal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 83.2 CP",
+      "stem": "Quan se suspèn la pena per un delicte comès sobre la dona per qui és o ha estat el seu cònjuge o parella, encara que sense convivència, quines regles de l'article 83.1 del Codi penal s'han d'imposar sempre?",
+      "options": [
+        "Les regles 1a, 2a i 3a.",
+        "Les regles 1a, 4a i 6a.",
+        "Les regles 5a, 7a i 9a.",
+        "Només la regla 1a."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "En aquests casos s'imposen sempre la prohibició d'aproximar-se a la víctima o de comunicar-s'hi (1a), la prohibició de residir en un lloc determinat o d'anar-hi (4a) i la participació en programes formatius (6a).",
+      "excerpt": "se impondrán siempre las prohibiciones y deberes indicados en las reglas 1.ª, 4.ª y 6.ª del apartado anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 90.3 CP",
+      "stem": "Segons l'article 90.3 del Codi penal, excepcionalment el jutge de vigilància penitenciària pot concedir la llibertat condicional als penats que compleixen la seva primera condemna de presó, si aquesta no supera els tres anys de durada i han extingit:",
+      "options": [
+        "La meitat de la condemna.",
+        "Les dues terceres parts de la condemna.",
+        "Una tercera part de la condemna.",
+        "Les tres quartes parts de la condemna."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La llibertat condicional excepcional de primaris exigeix primera condemna de presó no superior a tres anys i haver extingit la meitat de la condemna. No s'aplica als condemnats per delictes contra la llibertat i la indemnitat sexuals.",
+      "excerpt": "a) Que se encuentren cumpliendo su primera condena de prisión y que ésta no supere los tres años de duración. b) Que hayan extinguido la mitad de su condena.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 92.3 CP",
+      "stem": "Segons l'article 92.3 del Codi penal, la suspensió de l'execució de la pena de presó permanent revisable té una durada:",
+      "options": [
+        "De cinc a deu anys.",
+        "De dos a cinc anys.",
+        "De deu a quinze anys.",
+        "Igual a la de la part de la pena pendent de compliment."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La suspensió de la presó permanent revisable dura de cinc a deu anys i es computa des de la posada en llibertat del penat (art. 92.3 CP).",
+      "excerpt": "3. La suspensión de la ejecución tendrá una duración de cinco a diez años. El plazo de suspensión y libertad condicional se computará desde la fecha de puesta en libertad del penado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 33.5 CP",
+      "stem": "Segons l'article 33.5 del Codi penal, quina naturalesa té la responsabilitat personal subsidiària per impagament de multa?",
+      "options": [
+        "Sempre lleu.",
+        "Sempre menys greu.",
+        "Menys greu o lleu, segons la que correspongui a la pena que substitueixi.",
+        "Greu, si substitueix una multa de més de dos anys."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La responsabilitat personal subsidiària té la mateixa naturalesa (menys greu o lleu) que la multa que substitueix (art. 33.5 CP).",
+      "excerpt": "5. La responsabilidad personal subsidiaria por impago de multa tendrá naturaleza menos grave o leve, según la que corresponda a la pena que sustituya.",
+      "excerpt_status": "completo"
     }
   ]
 }

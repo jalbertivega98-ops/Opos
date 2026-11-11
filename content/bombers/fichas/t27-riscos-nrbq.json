@@ -52,5 +52,799 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Introducció: què són els riscos NRBQ i com han evolucionat",
+      "blocks": [
+        {
+          "text": "Els riscos NRBQ (nuclear, radiològic, biològic o químic) són els que deriven de l'ús, la manipulació, l'emmagatzematge o el transport de tecnologies o substàncies que, en cas d'incident, poden generar danys catastròfics. No es tracta d'un simple incendi en una màquina o d'un accident de trànsit: es parla de risc NRBQ quan els efectes potencials poden afectar àmplies àrees i tenir conseqüències greus sobre la salut, el medi ambient o les infraestructures crítiques.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Els riscos NRBQ (nuclear, radiològic, biològic o químic) són aquells riscos derivats de l’ús, manipulació, emmagatzematge o transport de tecnologies o substàncies que, en cas d’incident, poden generar danys catastròfics."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Es parla de riscos NRBQ quan els efectes potencials poden afectar àmplies àrees, tenir conseqüències greus sobre la salut de les persones, el medi ambient o les infraestructures crítiques."
+            }
+          ]
+        },
+        {
+          "text": "Són emergències que demanen una intervenció especialitzada i una gestió molt acurada del risc; per la seva complexitat, el factor temps, la identificació precisa i la coordinació entre serveis són claus.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "La seva complexitat fa que el factor temps, la identificació precisa i la coordinació entre serveis siguin claus."
+            }
+          ]
+        },
+        {
+          "text": "Evolució històrica: durant la Guerra Freda la preocupació era el risc nuclear (conflicte bèl·lic o accidents a centrals); als anys 80 i 90, amb Txernòbil (1986) i Tokaimura (1999), el focus es va posar en la seguretat de les centrals i el control radiològic; la globalització i la biotecnologia han donat rellevància als riscos biològics (grip A, COVID-19), i els químics han augmentat per la concentració de plantes SEVESO i l'increment del transport de matèries perilloses. A Catalunya hi han respost els plans específics (PLASEQCAT, PENTA, TRANSCAT, PROCICAT, etc.).",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Als anys 80 i 90, amb incidents com Txernòbil (1986) o Tokaimura (1999), es va posar el focus en la seguretat de les centrals i el control radiològic."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Els riscos químics, ja presents en la indústria, han augmentat per la concentració de plantes SEVESO i l’increment del transport de matèries perilloses."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "A Catalunya, el desenvolupament dels plans d’emergència específics (PLASEQCAT, PENTA, TRANSCAT, PROCICAT, etc.) ha anat responent a aquesta evolució"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "El GRIT, unitat de suport en intervencions NRBQ",
+      "blocks": [
+        {
+          "text": "L'any 2020 es va crear dins del Cos de Bombers el Grup de Recolzament en Intervencions Tecnològiques (GRIT) per formalitzar el coneixement expert de Bombers. El desplegament estava previst per a l'1 de gener de 2021, però la pandèmia de COVID-19 (febrer de 2020) el va avançar: el GRIT va assessorar en protecció i va liderar intervencions, especialment a les residències de gent gran.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "L’any 2020 es crea, dins del Cos de Bombers de la Generalitat de Catalunya, el Grup de Recolzament en Intervencions Tecnològiques (GRIT), per formalitzar el coneixement expert que disposa Bombers."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "la irrupció de la pandèmia per Covid-19 al febrer de 2020 va obligar a avançar aquesta acció"
+            }
+          ]
+        },
+        {
+          "text": "Des del 2021 el GRIT participa diàriament donant suport, a distància o presencial, als altres àmbits de la guàrdia, tant en intervencions ordinàries com en grans emergències. En l'avaluació dinàmica de l'escenari, la guàrdia de suport GRIT és una peça fonamental.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Des del 2021 el GRIT participa diàriament donant suport a distància o presencial als altres àmbits de la guàrdia, tant en intervencions ordinàries, com en grans emergències."
+            },
+            {
+              "ref": "MAN.RRTT.000, 3.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "La participació de la guàrdia de suport GRIT és aquí una peça fonamental per mantenir aquesta valoració dinàmica de la situació."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Tipus d'emergències: nuclear i radiològica",
+      "blocks": [
+        {
+          "text": "El risc nuclear es produeix per fallades en reactors o per l'alliberament descontrolat de materials fissibles (urani, plutoni), amb un gran alliberament de radiació ionitzant. A Catalunya hi ha tres reactors a la província de Tarragona: Vandellós II, Ascó I i Ascó II. Exemples: Txernòbil (1986) i Fukushima (2011).",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.4.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Es produeix per fallades en reactors nuclears o alliberament descontrolat de materials fissibles (com l’urani o el plutoni). Les conseqüències són especialment greus, amb gran alliberament de radiació ionitzant."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.4.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Són els reactors de: Vandellós II, Ascó I i Ascó II."
+            }
+          ]
+        },
+        {
+          "text": "El risc radiològic està relacionat amb fonts radiològiques d'instal·lacions mèdiques, industrials o de recerca: no implica fissió, però pot exposar a dosis altes. Catalunya és la comunitat amb més instal·lacions radioactives de l'Estat (234, més de la meitat a Barcelona i rodalia) i disposa del pla especial RADCAT. També hi ha risc radiològic a la xarxa viària (classe 7 de l'ADR) i en obres públiques que fan servir instruments amb fonts radioactives. Exemple: Goiânia (Brasil, 1987), font de cesi-137.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.4.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "No implica fissió nuclear, però pot exposar persones a altes dosis de radiació."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.4.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "té 234 instal·lacions radioactives, més de la meitat de les quals són a Barcelona i la seva rodalia. Per fer front al risc radiològic, disposem del Pla especial per a emergències radiològiques de Catalunya RADCAT."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.4.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "La xarxa viària, pel flux de transport de mercaderies perilloses radiològiques (classe 7 de l’ADR)."
+            }
+          ]
+        },
+        {
+          "text": "Tots dos comparteixen base científica (la radiació ionitzant) però difereixen en l'origen: el nuclear s'associa als reactors de centrals i el radiològic a fonts usades en medicina, indústria o transport. Són situacions poc freqüents però de gran impacte potencial.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.7",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Són situacions poc freqüents, però de gran impacte potencial, i cal estar preparat per actuar amb seguretat i coordinació."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Tipus d'emergències: biològica i química",
+      "blocks": [
+        {
+          "text": "El risc biològic fa referència a microorganismes o toxines que poden causar malalties a persones o animals, d'origen accidental (laboratoris, abocaments) o intencionat (bioterrorisme). Inclou els salvaments en ambients insalubres o de persones amb obesitat mòrbida i el d'animals no domèstics. Pot ser present en gairebé tots els escenaris i la principal dificultat és la detecció, perquè no és habitual tenir aparells de mesura. Exemples: residències durant la COVID-19, entorns degradats (Diògenes, clavegueres).",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.4.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Pot tenir origen accidental (laboratoris, abocaments...) o intencionat (bioterrorisme)."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.4.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "La principal dificultat radica en la detecció perquè no és habitual tenir aparells de mesura."
+            }
+          ]
+        },
+        {
+          "text": "El risc químic implica substàncies químiques perilloses que poden afectar per inhalació, contacte o ingestió. A Catalunya es mouen uns 9 milions de tones anuals de mercaderia perillosa i hi ha 164 indústries Seveso. Per a les instal·lacions hi ha el PLASEQCAT i, per al transport per carretera i ferrocarril, el TRANSCAT. Catalunya tota sola suma més transports de mercaderies perilloses que la resta de l'Estat. Exemple: IQOXE (Tarragona, 2020).",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.4.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Pot afectar per inhalació, contacte o ingestió."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.4.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "A Catalunya es mouen anualment uns 9 milions de tones de mercaderia perillosa i hi ha 164 indústries Seveso"
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.4.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Catalunya tota sola suma més transports de mercaderies perilloses que la resta de territori nacional."
+            }
+          ]
+        },
+        {
+          "text": "El risc químic és el més freqüent i perillós per als serveis d'emergència a Catalunya, per la indústria química i pel volum de transport de matèries perilloses.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.7.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "És el més freqüent i perillós per als serveis d’emergència a Catalunya, tant per la presència d’indústria química com pel volum de transport de matèries perilloses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Concepte integrat NRBQ, tipologia d'accidents i efecte dòmino",
+      "blocks": [
+        {
+          "text": "El terme NRBQ (en anglès CBRN) no només classifica riscos: estableix una doctrina d'intervenció, perquè tots comparteixen alta complexitat tècnica, necessitat d'identificació precoç, elevat risc per als intervinents, possibilitat d'efectes massius o a llarg termini i importància de la coordinació interinstitucional.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.5",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "El terme NRBQ (o en anglès CBRN, de Chemical, Biological, Radiological and Nuclear) no només serveix per classificar els riscos. També estableix una doctrina d’intervenció"
+            }
+          ]
+        },
+        {
+          "text": "Els accidents químics es divideixen en dos blocs. Per manipulació (indústria i activitat humana), sovint per errors humans o barreges incompatibles: reaccions descontrolades (productes incompatibles que generen calor, vapors tòxics, inflamacions o pressions), incendis químics, explosions i fuites o vessaments. I durant el transport, amb afectació de la càrrega o sense; en aquests casos també tenen responsabilitats l'expedidor i el transportista.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.7.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Es produeixen quan dos o més productes químics incompatibles es combinen de forma accidental, generant calor, vapors tòxics, inflamacions o pressions inesperades."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.7.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Accidents sense afectació de la càrrega (Incendis en frens, xocs, sortides de via…) − Accidents amb afectació de la càrrega"
+            }
+          ]
+        },
+        {
+          "text": "L'efecte dòmino es produeix quan un primer incident desencadena nous accidents en cadena, per radiació tèrmica, ones de sobrepressió, projecció de fragments o fuites secundàries; és com una fila de fitxes de dòmino si no hi ha barreres. Es prevé amb separacions, parets tallafocs i sistemes automàtics; operativament, els bombers actuen sobre fonts secundàries amenaçades i refreden estructures properes.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.8",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "l’efecte dòmino es produeix quan un primer incident genera conseqüències que desencadenen nous accidents, sovint en cadena"
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.8",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Fuites secundàries (generades per la fallida d’equips propers) És com una fila de fitxes de dòmino: quan cau la primera, pot fer caure totes les altres si no hi ha barreres de protecció."
+            },
+            {
+              "ref": "MAN.RRTT.000, 1.8",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Refredar estructures properes (protegir tancs, vàlvules, canonades)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Identificació de matèries perilloses: etiquetatge, ADR, cisternes i instal·lacions fixes",
+      "blocks": [
+        {
+          "text": "Identificar ràpidament la substància és una de les primeres prioritats: permet saber la perillositat real, zonificar, triar l'EPI, aplicar maniobres específiques i comunicar-ho a altres serveis. En l'etiquetatge (botelles, paquets, embalums) hi ha dos sistemes: l'SGA de les Nacions Unides i el CLP de la UE (Classificació, Etiquetatge i Envasament), que integra els criteris de l'SGA.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "En una emergència NRBQ, identificar ràpidament la substància o agent implicat és una de les primeres prioritats operatives."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.2.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "CLP (Classificació, Etiquetatge i Envasament) de la Unió Europea. és la norma europea sobre classificació, etiquetatge i envasament de substàncies i mescles."
+            }
+          ]
+        },
+        {
+          "text": "En el transport per carretera (ADR) la identificació és doble. La placa taronja porta a dalt el codi de perill (2 o 3 xifres: la primera és el perill principal, repetir una xifra indica més perill i una X davant vol dir reacció violenta amb l'aigua) i a baix el número ONU de 4 xifres (1203 = gasolina). A més, el vehicle porta etiquetes de perill en forma de rombe amb el número de classe. Altres codis: 606 matèria infecciosa, 90 matèria perillosa diversa.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Número ONU (part inferior): número de 4 xifres que identifica la substància concreta (ex. 1203 = gasolina)."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Un camió accidentat amb una placa ADR “33/1203” i etiqueta de classe 3 ens indica que transportava gasolina, una substància altament inflamable."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "606 Matèria infecciosa 90 Matèria perillosa diversa"
+            }
+          ]
+        },
+        {
+          "text": "La forma de la cisterna també informa: l'el·líptica no pot estar pressuritzada i transporta líquids; la circular resisteix millor la pressió (GLP, amoníac, clor); la criogènica, amb aïllament tèrmic, porta gasos liquats com nitrogen o oxigen; i la cuba petita d'acer inoxidable, corrosius o tòxics en quantitats moderades.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.2.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Cisterna el·líptica: El dipòsit no pot estar pressuritzat."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.2.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Circular: Aquesta geometria resisteix millor la pressió interior. És la que tenen els dipòsits que contenen productes a pressió (GLP, amoníac, clor, etc.)."
+            }
+          ]
+        },
+        {
+          "text": "Per als dipòsits fixos o mòbils de les indústries químiques, a Catalunya s'usen el rombe NFPA 704 i el REACH-CLP. El rombe NFPA està dividit en quarts de colors amb un número o símbol; permet saber si el producte és incompatible amb l'aigua, però no n'indica l'estat d'agregació, a diferència del panell ADR.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.2.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "hi ha dues normatives diferents per identificar els dipòsits fixos o mòbils (que no han de ser transportats per carretera): rombe de perill NFPA 704 i reglament REACH-CLP"
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.2.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "En canvi, el rombe NFPA no identifica el producte pel seu estat d’agregació, cosa que sí que fa, per exemple, el panell taronja de transport ADR."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Sistemes de detecció i documentació complementària",
+      "blocks": [
+        {
+          "text": "Quan l'etiquetatge no és clar o el contenidor s'ha destruït, cal detecció in situ. Detectors químics: tires o reactius de pH, detectors amb sensors catalítics o electroquímics (inflamables, oxigen, CO, H₂S), espectròmetres portàtils Raman i FTIR (identifiquen compostos per l'espectre) i tubs colorimètrics.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Quan l’etiquetatge no és clar, o el contenidor ha estat destruït, cal utilitzar sistemes de detecció in situ."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.3.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Espectròmetres portàtils (Raman, FTIR): identifiquen compostos químics per anàlisi de l'espectre."
+            }
+          ]
+        },
+        {
+          "text": "Detecció radiològica: dosímetres individuals (exposició acumulada del personal), radiòmetres (radiació ambiental) i detectors d'isòtops (cobalt-60, cesi-137). Detecció biològica: proves ràpides (antigen, PCR) i sensors d'aire i superfície.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.3.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Dosímetres individuals: controlen l'exposició acumulada del personal. − Radiòmetre: mesuren el nivell de radiació ambiental."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.3.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Proves ràpides: per identificar presència de microorganismes o toxines"
+            }
+          ]
+        },
+        {
+          "text": "Cal recuperar la informació tècnica de la instal·lació: fitxa de seguretat (MSDS o FDS), projectes i registres industrials, plànols actualitzats i contactes tècnics. És prioritari coordinar-se amb el personal tècnic de l'empresa, perquè les seves dades poden marcar la diferència entre una actuació segura i una amb risc afegit.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Fitxa de seguretat (MSDS o FDS) del producte implicat."
+            },
+            {
+              "ref": "MAN.RRTT.000, 2.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "És prioritari interrogar o coordinar-se amb el personal tècnic de l’empresa per obtenir aquestes dades de primera mà, ja que poden marcar la diferència entre una actuació segura i una intervenció amb risc afegit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Valoració de l'incident: metodologia Font-Flux-Diana",
+      "blocks": [
+        {
+          "text": "Una resposta impulsiva pot agreujar l'emergència. La metodologia Font-Flux-Diana és una eina conceptual per fer una primera valoració de l'afectació actual i potencial. La font és l'origen del risc (mida, naturalesa, estat físic i evolució). El flux és com es propaga cap a l'entorn (cap on i a quina velocitat). Les dianes són les víctimes directes o potencials: persones, altres instal·lacions, serveis d'emergència a la zona calenta, infraestructures sensibles i l'entorn natural.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 3.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Aquesta metodologia és una eina conceptual per analitzar qualsevol emergència NRBQ i fer una primera valoració de la seva afectació, tant actual com potencial."
+            },
+            {
+              "ref": "MAN.RRTT.000, 3.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Avaluar la font vol dir entendre quin és el risc inicial, la seva mida, naturalesa, estat físic i evolució prevista."
+            },
+            {
+              "ref": "MAN.RRTT.000, 3.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Flux: És la manera com el risc es propaga des de la font cap a l’entorn."
+            },
+            {
+              "ref": "MAN.RRTT.000, 3.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Diana: Són les víctimes directes o les potencials que poden ser afectades pel flux"
+            }
+          ]
+        },
+        {
+          "text": "La intervenció segueix l'ordre invers: primer protegir les dianes (confinament, evacuació, avisos, EPI, zones segures), després contenir o alterar el flux (abatiment de núvols, barreres, ventilació forçada) i, finalment, actuar sobre la font (embridament, taponament, tancament de vàlvules, transvasament), que és la part més tècnica i arriscada i es fa amb la situació controlada.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 3.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Invertint l’ordre natural de propagació del risc, la intervenció se centra primer en protegir o rescatar les dianes, després en controlar el flux contaminant, i finalment en actuar sobre la font que ha originat l’emergència."
+            },
+            {
+              "ref": "MAN.RRTT.000, 3.2.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Accions típiques: abatiment de núvols, barreres de contenció, ventilació forçada, tall de canals de propagació."
+            },
+            {
+              "ref": "MAN.RRTT.000, 3.2.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Aquesta és la part més tècnica i arriscada de la intervenció."
+            }
+          ]
+        },
+        {
+          "text": "L'avaluació és dinàmica: cal revaluar constantment (canvis de vent, reaccions no previstes, noves víctimes) i mantenir comunicació eficaç entre comandaments i unitats.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 3.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "S’ha de revaluar constantment (ex. canvis de vent, reaccions químiques no previstes, noves víctimes…)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Maniobres de protecció: confinament i evacuació",
+      "blocks": [
+        {
+          "text": "Les maniobres es divideixen en defensives (protecció i seguretat), que actuen sobre les dianes (població i actuants), i ofensives (contenció i mitigació), que actuen sobre el flux o la font. Es poden combinar.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Maniobres de protecció i seguretat (Defensives): Actuen principalment sobre les dianes, tant la població, com els actuants."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Maniobres de contenció i mitigació (Ofensives): Actuen principalment sobre el flux o sobre la font."
+            }
+          ]
+        },
+        {
+          "text": "El confinament redueix l'exposició mantenint la població dins dels edificis amb portes i finestres tancades; és especialment efectiu amb núvols tòxics lleugers i temporals. L'evacuació trasllada la població fora de la zona de perill, cap a una zona de concentració segura, quan el confinament no és segur o la situació és persistent i greu.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 4.1.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Objectiu: Reduir l’exposició de la població mantenint-la a l’interior d’edificis, amb portes i finestres tancades. Aplicació: El confinament és especialment efectiu en incidents amb núvols tòxics lleugers i temporals."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.1.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Aplicació: Es duu a terme quan el confinament no és segur o la situació és persistent i greu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Maniobres de contenció i mitigació",
+      "blocks": [
+        {
+          "text": "Embridament: mordasses, collarets o pinces sobre una canonada o conducte trencat; abans cal netejar i identificar la canonada i el producte. Taponament: per a líquids a pressió atmosfèrica que surten per una esquerda, amb falques de fusta i coixins (sovint per sota d'1,5 bar), sense engrandir l'esquerda. Transvasament: passar la substància a un contenidor segur; és tècnica i de risc elevat.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 4.2.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Reduir o aturar el flux de substància mitjançant l’aplicació de mordasses, collarets o pinces sobre una canonada o conducte trencat."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Aplicar falques de fusta i coixins de taponament (funcionen amb pressió d’aire, sovint per sota d’1,5 bar) per ajustar-se a les mides de l’esquerda."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Maniobra tècnica i de risc elevat."
+            }
+          ]
+        },
+        {
+          "text": "Abatiment de núvol: cortina d'aigua polvoritzada o escumes (acortinador, llança o monitor), útil amb gasos solubles com l'amoníac. Supressió de vapors: cobrir el vessament amb lones o escumes (cobertura no estanca); l'escumogen es tria segons polaritat i densitat respecte de l'aigua. Reducció de fuita de gas liquat: cobrir el recipient amb lones perquè no absorbeixi calor.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 4.2.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Reduir la dispersió d’un gas o vapor mitjançant la creació d’una cortina d’aigua polvoritzada o amb espumes."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.5",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Amb escumes cal seleccionar l’escumogen que més s’adeqüi al producte segons la polaritat i la densitat respecte de l’aigua."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.6",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Cobriment del recipient malmès per evitar que absorbeixi calor de l’ambient i mantenir la temperatura del producte interior."
+            }
+          ]
+        },
+        {
+          "text": "Tancament i aïllament: tallar vàlvules o claus de pas. Mitigació (dilució, neutralització, absorció), sempre sota supervisió experta: diluir és poc recomanable (molta aigua i més producte a gestionar) i és més eficient absorbir amb terres o sepiolita, que després és residu contaminat. Ventilació natural o forçada; en ambients explosius, sense ventiladors ATEX cal prioritzar la natural. Despressuritzar: obrir controladament una vàlvula de fase gas. Contenció i reconducció: dics, tapes amb lones i sorra sobre el clavegueram, recipients de fortuna.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 4.2.8",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Aquesta maniobra s’ha de realitzar sempre sota supervisió d'un expert per la seva dificultat i complexitat."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.8.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Per això és molt més eficient plantejar maniobres d’absorció."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.9",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "es recomana prioritzar la ventilació natural, obrint punts alts i baixos per facilitar la dispersió segura dels vapors."
+            },
+            {
+              "ref": "MAN.RRTT.000, 4.2.10",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Obrir controladament una vàlvula de fase gas del dipòsit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Seguretat NRBQ: zonificació i descontaminació",
+      "blocks": [
+        {
+          "text": "El zonatge té tres àrees. Zona calenta: font o dispersió activa; només equips especialitzats amb EPI complet. Zona tèbia: transició, amb punts de descontaminació (ABD) i logística. Zona freda: lliure de contaminació, amb el CCA i la coordinació; és l'única amb personal no operatiu. No es pot passar de calenta a freda sense passar per l'ABD.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 5.1.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Només hi accedeixen equips especialitzats amb EPI complet i tasca assignada."
+            },
+            {
+              "ref": "MAN.RRTT.000, 5.1.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "És l’única zona on hi pot haver personal no operatiu o en reserva."
+            },
+            {
+              "ref": "MAN.RRTT.000, 5.1.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "No es poden traslladar persones, equips o objectes directament de zona calenta a zona freda sense passar per l’ABD o descontaminació."
+            }
+          ]
+        },
+        {
+          "text": "El punt de descontaminació s'ha de muntar entre les primeres accions. Principis: no sortir mai de la calenta sense descontaminació, no deixar sortir res contaminat sense control i registrar el material i els residus. Procediment: avaluació inicial, desvestit controlat, rentat i neutralització, descontaminació d'equips, gestió de residus i verificació final.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 5.2.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "1) No sortir mai de la zona calenta sense passar per descontaminació."
+            },
+            {
+              "ref": "MAN.RRTT.000, 5.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Només en cas d’absència de contaminació es pot autoritzar l’accés a zona freda o a serveis mèdics."
+            }
+          ]
+        },
+        {
+          "text": "Tipus: a l'aire (venteig), amb aigua de baix cabal (amb recollida) o alt cabal, química o biològica (agents amfòters; hipoclorit sòdic al 0,5% per a biològics) i per encapsulament, que no elimina el contaminant.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 5.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "En baix cabal cal recollir l’aigua contaminada."
+            },
+            {
+              "ref": "MAN.RRTT.000, 5.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "és habitual l’ús de solucions d’hipoclorit sòdic diluïdes al 0,5%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "ABD i EPI específics NRBQ",
+      "blocks": [
+        {
+          "text": "L'ABD és la porta de sortida de la zona calenta a la tèbia dins l'AGO; just davant es fa el control d'accessos i ERA (CACE). Es munta entre les primeres accions perquè el primer equip que entra ha de tenir garantida la sortida segura.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 5.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "L’àrea bàsica de descontaminació (ABD) és la porta de sortida de la zona calenta cap a la zona tèbia dins l'àrea general d'operacions (AGO)."
+            },
+            {
+              "ref": "MAN.RRTT.000, 5.4",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "el primer equip que entri a una zona calenta ha de tenir garantida la sortida amb seguretat i, per tant, la descontaminació."
+            }
+          ]
+        },
+        {
+          "text": "Vestits antiesquitxos: sobre l'EPI habitual, tipus 3 o 4 (EN 465), no estancs al gas ni pressuritzats i sense protecció tèrmica; per a líquids corrosius o inflamables i per descontaminar companys. Cal limitar-ne el temps d'ús per l'estrès tèrmic. Vestits estancs a gasos: tipus 1 ET (EN 943-2), amb pressió positiva i costures hermètiques; els 1a, 1b i 1c (EN 943-1) són per a la indústria, no per a bombers.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 5.5.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Són equips de protecció química de tipus 3 o 4 segons la norma EN 465. No són estancs al gas ni pressuritzats"
+            },
+            {
+              "ref": "MAN.RRTT.000, 5.5.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Per als equips d’emergència s’utilitzen específicament els vestits de Tipus 1 (ET), segons la norma europea EN 943-2. Tots disposen de pressió positiva"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "NRBQ = nuclear, radiològic, biològic, químic (CBRN). El químic és el més freqüent i perillós a Catalunya.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.7.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "És el més freqüent i perillós per als serveis d’emergència a Catalunya"
+            }
+          ]
+        },
+        {
+          "text": "GRIT: creat el 2020, avançat per la COVID-19; clau en la valoració dinàmica.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.3",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "L’any 2020 es crea"
+            }
+          ]
+        },
+        {
+          "text": "Xifres: 3 reactors (Vandellós II, Ascó I i II), 234 instal·lacions radioactives, 164 indústries Seveso, 9 milions de tones; Catalunya més transport que la resta de l'Estat.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 1.4.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "té 234 instal·lacions radioactives"
+            }
+          ]
+        },
+        {
+          "text": "ADR: codi de perill a dalt, ONU a baix; 33/1203 + classe 3 = gasolina. CLP = norma UE. Dipòsits fixos: NFPA 704 i REACH-CLP.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "placa ADR “33/1203” i etiqueta de classe 3 ens indica que transportava gasolina"
+            }
+          ]
+        },
+        {
+          "text": "Raman/FTIR identifiquen compostos; dosímetres individuals = exposició acumulada.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 2.3.1",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "identifiquen compostos químics per anàlisi de l'espectre"
+            }
+          ]
+        },
+        {
+          "text": "Font-Flux-Diana; s'intervé en ordre invers: dianes, flux, font. Fuites secundàries = fitxes de dòmino.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 3.2.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "primer en protegir o rescatar les dianes, després en controlar el flux contaminant, i finalment en actuar sobre la font"
+            }
+          ]
+        },
+        {
+          "text": "Defensives = dianes; ofensives = flux o font. Evacuar si confinar no és segur o la situació és persistent i greu. Escumogen segons polaritat i densitat.",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 4.1.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Es duu a terme quan el confinament no és segur o la situació és persistent i greu."
+            }
+          ]
+        },
+        {
+          "text": "Zones calenta, tèbia i freda; ABD obligatòria a la sortida. Antiesquitxos tipus 3-4 (EN 465); estancs tipus 1 ET (EN 943-2).",
+          "refs": [
+            {
+              "ref": "MAN.RRTT.000, 5.5.2",
+              "law": "MAN.RRTT.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.RRTT.000-Tema-27.-Intervencio-NRBQ.pdf",
+              "quote": "Tipus 1 ET (Emergency Team)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

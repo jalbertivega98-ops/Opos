@@ -32,6 +32,36 @@
       "explanation": "Se pueden agregar pestañas y grupos personalizados (también en pestañas predeterminadas) y renombrar pestañas o grupos, pero no cambiar el color de la cinta ni sus iconos.",
       "excerpt": "No puede cambiar el color de la cinta de opciones o sus iconos",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Personalizar la cinta de opciones (ámbito)",
+      "stem": "Según Microsoft, las personalizaciones que se hacen en la cinta de opciones de Word:",
+      "options": [
+        "Se aplican a todos los programas de Office instalados en el equipo.",
+        "Solo se aplican al documento abierto en ese momento.",
+        "Se aplican a todos los usuarios del equipo.",
+        "Solo se aplican al programa de Office en el que se está trabajando en ese momento."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La página de Microsoft aclara que las personalizaciones solo afectan al programa de Office en que se realizan.",
+      "excerpt": "las personalizaciones solo se aplican al programa de Office en el que está trabajando en ese momento",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Personalizar la cinta de opciones (restablecer)",
+      "stem": "Al personalizar la cinta de opciones de Word, ¿qué elementos pueden restablecerse a su configuración predeterminada?",
+      "options": [
+        "Cualquier pestaña, sea predeterminada o personalizada.",
+        "Solo los grupos personalizados.",
+        "Solo las pestañas personalizadas que se hayan exportado.",
+        "Solo las pestañas predeterminadas."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Según Microsoft, solo se pueden restablecer las pestañas predeterminadas a su configuración predeterminada.",
+      "excerpt": "Solo se pueden restablecer las pestañas predeterminadas a su configuración predeterminada.",
+      "excerpt_status": "completo"
     }
   ]
 }

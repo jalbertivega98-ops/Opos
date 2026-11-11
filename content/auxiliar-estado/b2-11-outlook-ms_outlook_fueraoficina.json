@@ -47,6 +47,36 @@
       "explanation": "La plantilla de respuesta se guarda como «Plantilla de Outlook (*.oft)» y después se selecciona en la regla.",
       "excerpt": "En la lista desplegable Guardar como tipo, seleccione Plantilla de Outlook (*.oft).",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Fuera de la oficina · Crear la regla",
+      "stem": "En Outlook clásico, tras elegir Archivo > Administrar reglas y alertas, ¿qué se selecciona para crear la regla de Fuera de la oficina?",
+      "options": [
+        "En la pestaña Administrar alertas, Nueva alerta.",
+        "En la pestaña Reglas de correo electrónico, Nueva regla.",
+        "En la pestaña Reglas de correo electrónico, Ejecutar reglas ahora.",
+        "En la pestaña Opciones, Respuestas automáticas."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "En el cuadro de diálogo Reglas y alertas, en la pestaña Reglas de correo electrónico, se selecciona Nueva regla.",
+      "excerpt": "En la pestaña Archivo, seleccione Administrar reglas & alertas. […] En el cuadro de diálogo Reglas y alertas, en la pestaña Reglas de correo electrónico, seleccione Nueva regla.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Fuera de la oficina · Regla en blanco",
+      "stem": "Al crear en Outlook clásico la regla de Fuera de la oficina, ¿qué opción se selecciona en «Iniciar desde una regla en blanco»?",
+      "options": [
+        "Aplicar regla a los mensajes recibidos.",
+        "Aplicar regla a los mensajes que envíe.",
+        "Marcar los mensajes de alguien para realizarles un seguimiento.",
+        "Mover mensajes de alguien a una carpeta."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "En Iniciar desde una regla en blanco se selecciona Aplicar regla a los mensajes recibidos y después Siguiente.",
+      "excerpt": "En Iniciar desde una regla en blanco, seleccione Aplicar regla a los mensajes recibidos y seleccione Siguiente.",
+      "excerpt_status": "completo"
     }
   ]
 }

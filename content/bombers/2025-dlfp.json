@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-dlfp-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Decreto Legislativo 1/1997, de 31 de octubre, texto único de los preceptos vigentes en Cataluña en materia de función pública (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=DOGC-f-1997-90001",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. R3) · Art. 90 DL 1/1997",
+      "stem": "Segons el Decret legislatiu 1/1997, en quin d'aquests casos procedeix declarar un funcionari en excedència forçosa?",
+      "options": [
+        "Quan ho sol·licita per tenir cura d'un fill.",
+        "Quan ho sol·licita per interès particular.",
+        "Quan és sancionat amb una falta lleu.",
+        "Quan hi ha una reducció de llocs de treball i no és possible mantenir-lo en servei actiu per falta de vacants amb dotació pressupostària."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Art. 90.1.b. També procedeix si un funcionari suspès en ferm demana el reingrés i no hi ha vacant amb dotació (90.1.c).",
+      "excerpt": "b) Si, de acuerdo con los procedimientos legalmente vigentes, se produce una reducción de puestos de trabajo y no es posible mantener a los funcionarios afectados en servicio activo por falta de puestos vacantes con dotación presupuestaria.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

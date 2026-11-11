@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-pnsd_edades-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "OEDA · Encuesta sobre alcohol y otras drogas en España (EDADES) 2024, resumen ejecutivo",
+      "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+      "kind": "web_oficial",
+      "publisher": "Ministerio de Sanidad · Delegación del Gobierno para el Plan Nacional sobre Drogas (OEDA)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 76, tema P34) · PNSD, Encuesta EDADES: consumo intensivo de alcohol",
+      "stem": "Según la encuesta EDADES del Plan Nacional sobre Drogas, el consumo intensivo de alcohol (binge drinking) se concentra en las edades de:",
+      "options": [
+        "15 a 19 años.",
+        "35 a 44 años.",
+        "20 a 29 años."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La encuesta EDADES señala que el consumo de alcohol en forma de atracón es una forma de consumo de riesgo que se concentra en la población de 20 a 29 años.",
+      "excerpt": "esta forma de consumo de riesgo se concentra en las edades de 20 a 29 años.",
+      "excerpt_status": "completo",
+      "review_note": "Dato de la edición vigente de la encuesta EDADES; puede variar en ediciones posteriores."
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 77, tema P34) · PNSD, Encuesta EDADES: disponibilidad percibida",
+      "stem": "Según la encuesta EDADES, la sustancia ilegal que se percibe como más accesible es:",
+      "options": [
+        "El cannabis.",
+        "La cocaína.",
+        "El éxtasis."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La encuesta EDADES recoge que el cannabis es la sustancia ilegal percibida como más accesible por la población.",
+      "excerpt": "La sustancia ilegal que se percibe como más accesible es el cannabis",
+      "excerpt_status": "completo"
+    }
+  ]
+}

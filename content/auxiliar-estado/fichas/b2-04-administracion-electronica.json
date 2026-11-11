@@ -66,5 +66,587 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Administración electrónica: principios generales",
+      "blocks": [
+        {
+          "text": "El Real Decreto 203/2021 aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos. Su artículo 2 fija los principios que debe respetar el sector público en sus relaciones electrónicas: a) neutralidad tecnológica y adaptabilidad al progreso, usando estándares abiertos y, de forma complementaria, de uso generalizado; b) accesibilidad; c) facilidad de uso; d) interoperabilidad; e) proporcionalidad; y f) personalización y proactividad.",
+          "refs": [
+            {
+              "ref": "Art. 2.a) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "a) Los principios de neutralidad tecnológica y de adaptabilidad al progreso de las tecnologías y sistemas de comunicaciones electrónicas […] A estos efectos, el sector público utilizará estándares abiertos, así como, en su caso y de forma complementaria, estándares que sean de uso generalizado."
+            }
+          ]
+        },
+        {
+          "text": "Conviene distinguirlos por su definición. La accesibilidad es el conjunto de principios y técnicas para garantizar la igualdad en el acceso, sobre todo de personas con discapacidad y mayores. La facilidad de uso exige servicios centrados en las personas, que minimicen el conocimiento necesario. La interoperabilidad es la capacidad de los sistemas de compartir datos e intercambiar información. La proporcionalidad supone exigir solo las garantías de seguridad adecuadas a cada trámite. Y la personalización y proactividad permite a la Administración, partiendo del conocimiento adquirido del usuario, ofrecer servicios precumplimentados y anticiparse a sus necesidades.",
+          "refs": [
+            {
+              "ref": "Art. 2.b) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "b) El principio de accesibilidad, entendido como el conjunto de principios y técnicas que se deben respetar al diseñar, construir, mantener y actualizar los servicios electrónicos para garantizar la igualdad y la no discriminación en el acceso de las personas usuarias, en particular de las personas con discapacidad y de las personas mayores."
+            },
+            {
+              "ref": "Art. 2.d) y e) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "d) El principio de interoperabilidad, entendido como la capacidad de los sistemas de información y, por ende, de los procedimientos a los que éstos dan soporte, de compartir datos y posibilitar el intercambio de información entre ellos. e) El principio de proporcionalidad, en cuya virtud sólo se exigirán las garantías y medidas de seguridad adecuadas a la naturaleza y circunstancias de los distintos trámites y actuaciones electrónicos."
+            },
+            {
+              "ref": "Art. 2.f) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "El principio de personalización y proactividad, entendido como la capacidad de las Administraciones Públicas para que, partiendo del conocimiento adquirido del usuario final del servicio, proporcione servicios precumplimentados y se anticipe a las posibles necesidades de los mismos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Derecho y obligación de relacionarse electrónicamente",
+      "blocks": [
+        {
+          "text": "Las personas físicas pueden elegir en todo momento si se comunican con la Administración por medios electrónicos o no, y pueden cambiar de medio cuando quieran, salvo que estén obligadas (art. 14.1 Ley 39/2015). Están obligados en todo caso, para cualquier trámite: a) las personas jurídicas; b) las entidades sin personalidad jurídica; c) los profesionales de colegiación obligatoria en el ejercicio de su actividad (incluidos notarios y registradores); d) quienes representen a un obligado; y e) los empleados públicos en los trámites que hagan por su condición de tales (art. 14.2). Por reglamento se puede extender la obligación a colectivos de personas físicas con acceso acreditado a medios electrónicos (art. 14.3).",
+          "refs": [
+            {
+              "ref": "Art. 14.1 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Las personas físicas podrán elegir en todo momento si se comunican con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos o no, salvo que estén obligadas a relacionarse a través de medios electrónicos con las Administraciones Públicas. El medio elegido por la persona para comunicarse con las Administraciones Públicas podrá ser modificado por aquella en cualquier momento."
+            },
+            {
+              "ref": "Art. 14.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "a) Las personas jurídicas. b) Las entidades sin personalidad jurídica. c) Quienes ejerzan una actividad profesional para la que se requiera colegiación obligatoria"
+            },
+            {
+              "ref": "Art. 14.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "d) Quienes representen a un interesado que esté obligado a relacionarse electrónicamente con la Administración. e) Los empleados de las Administraciones Públicas para los trámites y actuaciones que realicen con ellas por razón de su condición de empleado público"
+            }
+          ]
+        },
+        {
+          "text": "El RD 203/2021 concreta cómo se ejerce la opción: la persona física no obligada lo comunica al órgano competente al inicio del procedimiento o en una fase posterior, también para dejar de relacionarse electrónicamente, y la comunicación surte efectos a partir del quinto día hábil siguiente a aquel en que el órgano tuvo constancia de ella (art. 3.2). En el ámbito estatal, la obligación para nuevos colectivos se establece por real decreto acordado en Consejo de Ministros o por orden ministerial, y se publica en el PAGe (art. 3.3).",
+          "refs": [
+            {
+              "ref": "Art. 3.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "En ambos casos, los efectos de la comunicación se producirán a partir del quinto día hábil siguiente a aquel en que el órgano competente para tramitar el procedimiento haya tenido constancia de la misma."
+            },
+            {
+              "ref": "Art. 3.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "podrá ser establecida por real decreto acordado en Consejo de Ministros o por orden de la persona titular del Departamento competente"
+            }
+          ]
+        },
+        {
+          "text": "Para garantizar estos derechos, las Administraciones prestan asistencia por seis canales (art. 4 RD 203/2021): presencial, en las oficinas de asistencia; portales de internet y sedes electrónicas; redes sociales; telefónico; correo electrónico; y cualquier otro que se establezca conforme al artículo 12 de la Ley 39/2015.",
+          "refs": [
+            {
+              "ref": "Art. 4 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "a) Presencial, a través de las oficinas de asistencia que se determinen. b) Portales de internet y sedes electrónicas. c) Redes sociales. d) Telefónico. e) Correo electrónico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Identificación electrónica de los interesados",
+      "blocks": [
+        {
+          "text": "Como regla general, para cualquier actuación del procedimiento basta con que el interesado acredite previamente su identidad con alguno de los medios de identificación de la ley (art. 11.1 Ley 39/2015). Los sistemas admitidos son: a) certificados electrónicos cualificados de firma electrónica; b) certificados electrónicos cualificados de sello electrónico, ambos de prestadores incluidos en la lista de confianza; y c) sistemas de clave concertada u otros que la Administración considere válidos, siempre que exista un registro previo como usuario que garantice la identidad (art. 26.2 RD 203/2021; art. 9.2 Ley 39/2015).",
+          "refs": [
+            {
+              "ref": "Art. 11.1 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Con carácter general, para realizar cualquier actuación prevista en el procedimiento administrativo, será suficiente con que los interesados acrediten previamente su identidad a través de cualquiera de los medios de identificación previstos en esta Ley."
+            },
+            {
+              "ref": "Art. 26.2.c) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "c) Sistemas de clave concertada y cualquier otro sistema que las Administraciones Públicas consideren válido, en los términos y condiciones que se establezca, siempre que cuenten con un registro previo como usuario que permita garantizar su identidad"
+            }
+          ]
+        },
+        {
+          "text": "Para los sistemas de la letra c), el RD 203/2021 habla de «previa autorización» de la Secretaría General de Administración Digital, mientras que el texto vigente del artículo 9.2.c) de la Ley 39/2015 exige «previa comunicación» y un plazo de dos meses antes de su eficacia. Ambas redacciones conviven en las fuentes recogidas, así que en el examen hay que fijarse en qué norma cita el enunciado. En todo caso, siempre debe ser posible usar los certificados de las letras a) y b) en todo procedimiento.",
+          "refs": [
+            {
+              "ref": "Art. 26.2.c) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "previa autorización por parte de la Secretaría General de Administración Digital del Ministerio de Asuntos Económicos y Transformación Digital"
+            },
+            {
+              "ref": "Art. 9.2.c) Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "previa comunicación a la Secretaría General de Administración Digital del Ministerio de Asuntos Económicos y Transformación Digital. […] De forma previa a la eficacia jurídica del sistema, habrán de transcurrir dos meses desde dicha comunicación"
+            },
+            {
+              "ref": "Art. 9.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "Las Administraciones Públicas deberán garantizar que la utilización de uno de los sistemas previstos en las letras a) y b) sea posible para todo procedimiento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "La firma electrónica",
+      "blocks": [
+        {
+          "text": "Los interesados pueden firmar por cualquier medio que acredite la autenticidad de su voluntad y consentimiento y la integridad e inalterabilidad del documento (art. 10.1 Ley 39/2015). Electrónicamente son válidos la firma electrónica cualificada y avanzada, el sello electrónico cualificado y avanzado y otros sistemas con registro previo. Cuando se firma, la identidad se entiende ya acreditada por el propio acto de la firma (art. 10.5).",
+          "refs": [
+            {
+              "ref": "Art. 10.1 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Los interesados podrán firmar a través de cualquier medio que permita acreditar la autenticidad de la expresión de su voluntad y consentimiento, así como la integridad e inalterabilidad del documento."
+            },
+            {
+              "ref": "Art. 10.5 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "5. Cuando los interesados utilicen un sistema de firma de los previstos en este artículo, su identidad se entenderá ya acreditada mediante el propio acto de la firma."
+            }
+          ]
+        },
+        {
+          "text": "La firma solo es obligatoria en cinco supuestos (art. 11.2): formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos. Para todo lo demás basta con identificarse.",
+          "refs": [
+            {
+              "ref": "Art. 11.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. Las Administraciones Públicas sólo requerirán a los interesados el uso obligatorio de firma para: a) Formular solicitudes. b) Presentar declaraciones responsables o comunicaciones. c) Interponer recursos. d) Desistir de acciones. e) Renunciar a derechos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Portales de internet y sedes electrónicas",
+      "blocks": [
+        {
+          "text": "El portal de internet es el punto de acceso electrónico de titularidad pública que permite acceder por internet a la información publicada y, en su caso, a la sede electrónica (art. 39 Ley 40/2015). En el ámbito estatal, el acto de creación de un portal identifica su dirección, que debe incluir el dominio de segundo nivel «.gob.es»; la creación requiere informe favorable de la Comisión Ministerial de Administración Digital, y los portales deben estar referenciados en el PAGe (art. 6 RD 203/2021).",
+          "refs": [
+            {
+              "ref": "Art. 39 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "Se entiende por portal de internet el punto de acceso electrónico cuya titularidad corresponda a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente."
+            },
+            {
+              "ref": "Art. 6.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "El acto o resolución de creación de un nuevo portal previsto en el apartado anterior contendrá, al menos, la identificación de su dirección electrónica, que deberá incluir el nombre de dominio de segundo nivel «.gob.es»"
+            },
+            {
+              "ref": "Art. 6.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "La creación requerirá informe favorable de la Comisión Ministerial de Administración Digital respectiva"
+            }
+          ]
+        },
+        {
+          "text": "La sede electrónica es la dirección electrónica, disponible a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública o a uno o varios organismos o entidades de Derecho Público (art. 38.1 Ley 40/2015). En ella se realizan los trámites que requieren identificar a la Administración y, en su caso, identificación o firma del interesado (art. 9.1 RD 203/2021). Su titular responde de la integridad, veracidad y actualización de la información, y para identificarse y garantizar una comunicación segura usa certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente (art. 38.2 y 38.6).",
+          "refs": [
+            {
+              "ref": "Art. 38.1 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "1. La sede electrónica es aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias."
+            },
+            {
+              "ref": "Art. 38.6 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "6. Las sedes electrónicas utilizarán, para identificarse y garantizar una comunicación segura con las mismas, certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente."
+            }
+          ]
+        },
+        {
+          "text": "Pueden crearse sedes electrónicas asociadas, que a todos los efectos tienen la consideración de sede; su creación o supresión se publica en el boletín oficial correspondiente y en el directorio del PAGe (art. 10). El contenido mínimo de toda sede incluye, entre otros, su identificación y la de su titular, el acto de creación, los sistemas de identificación y firma admitidos, la normativa del registro, la fecha y hora oficial y el calendario de días inhábiles, y la relación de actuaciones automatizadas (art. 11.1). Entre sus servicios mínimos figuran un enlace para sugerencias y quejas y la comprobación de documentos con código seguro de verificación (art. 11.2).",
+          "refs": [
+            {
+              "ref": "Art. 10.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "La sede electrónica asociada tendrá consideración de sede electrónica a todos los efectos."
+            },
+            {
+              "ref": "Art. 11.1.f) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "f) La fecha y hora oficial, así como el calendario de días inhábiles a efectos del cómputo de plazos aplicable a la Administración en que se integre el órgano"
+            },
+            {
+              "ref": "Art. 11.2.b) RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "b) Un enlace para la formulación de sugerencias y quejas ante los órganos que en cada caso resulten competentes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "El Punto de Acceso General y la Carpeta Ciudadana",
+      "blocks": [
+        {
+          "text": "Todas las Administraciones cuentan con un Punto de Acceso General electrónico (PAGe), que da acceso a los servicios, trámites e información de sus órganos y entidades, y dispone de una sede desde la que se accede a todas las sedes y sedes asociadas de esa Administración (art. 7 RD 203/2021). En la sede del PAGe de la AGE está alojada la Dirección Electrónica Habilitada única del artículo 43 de la Ley 39/2015, y desde ella se puede comprobar la autenticidad de documentos mediante el Código Seguro de Verificación. El texto atribuye su gestión a los ministerios de Política Territorial y Función Pública y de Asuntos Económicos y Transformación Digital, denominaciones de 2021 que pueden haber cambiado; las fuentes recogidas no lo actualizan.",
+          "refs": [
+            {
+              "ref": "Art. 7.2 y 7.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "2. El PAGe de cada Administración Pública facilitará el acceso a los servicios, trámites e información de los órganos, organismos públicos y entidades vinculados o dependientes de la Administración Pública correspondiente. 3. El PAGe dispondrá de una sede electrónica, a través de la cual se podrá acceder a todas las sedes electrónicas y sedes asociadas de la Administración Pública correspondiente."
+            },
+            {
+              "ref": "Art. 7.4 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "En dicha sede electrónica está alojada la Dirección Electrónica Habilitada única a la que se refiere el artículo 43 de la Ley 39/2015, de 1 de octubre."
+            }
+          ]
+        },
+        {
+          "text": "La Carpeta Ciudadana es el área personalizada de los interesados en su relación con el sector público estatal (art. 8.1). Además del interesado, pueden acceder sus representantes legales y quien tenga un poder general otorgado por él e inscrito en el Registro Electrónico de Apoderamientos. Permite seguir el estado de los procedimientos, acceder a comunicaciones y notificaciones, conocer qué datos propios tiene el sector público estatal y obtener certificaciones (art. 8.2).",
+          "refs": [
+            {
+              "ref": "Art. 8.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "1. La Carpeta Ciudadana es el área personalizada de las personas interesadas a que se refiere el artículo 7.3 en su relación con el sector público estatal. Además del interesado podrán acceder a la Carpeta Ciudadana: a) Sus representantes legales. b) Quien ostente un poder general previsto en el artículo 6.4.a) de la Ley 39/2015, de 1 de octubre, otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos."
+            },
+            {
+              "ref": "Art. 8.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "b) Permitir el acceso a sus comunicaciones y notificaciones. c) Conocer qué datos suyos obran en poder del sector público estatal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Notificaciones electrónicas",
+      "blocks": [
+        {
+          "text": "Las notificaciones se practican preferentemente por medios electrónicos y, en todo caso, cuando el interesado esté obligado a recibirlas así (art. 41.1 Ley 39/2015). Excepciones en las que se puede notificar en papel: la comparecencia espontánea del interesado en una oficina de asistencia que pide la notificación en ese momento, o cuando la eficacia exija la entrega directa por un empleado público. Y nunca se notifican electrónicamente (art. 41.2): los actos acompañados de elementos no convertibles a formato electrónico, ni los que contengan medios de pago a favor de los obligados, como cheques.",
+          "refs": [
+            {
+              "ref": "Art. 41.1 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Las notificaciones se practicarán preferentemente por medios electrónicos y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía."
+            },
+            {
+              "ref": "Art. 41.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. En ningún caso se efectuarán por medios electrónicos las siguientes notificaciones: a) Aquellas en las que el acto a notificar vaya acompañado de elementos que no sean susceptibles de conversión en formato electrónico. b) Las que contengan medios de pago a favor de los obligados, tales como cheques."
+            }
+          ]
+        },
+        {
+          "text": "Haya papel o no, la Administración envía un aviso al dispositivo o correo electrónico que el interesado haya comunicado, informándole de que tiene una notificación puesta a disposición; pero la falta de este aviso no impide que la notificación sea plenamente válida (art. 41.6). El dispositivo o correo sirve para avisos, no para practicar notificaciones. Si se notifica por varios cauces, vale la fecha del primero (art. 41.7).",
+          "refs": [
+            {
+              "ref": "Art. 41.6 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "La falta de práctica de este aviso no impedirá que la notificación sea considerada plenamente válida."
+            },
+            {
+              "ref": "Art. 41.7 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "7. Cuando el interesado fuera notificado por distintos cauces, se tomará como fecha de notificación la de aquélla que se hubiera producido en primer lugar."
+            }
+          ]
+        },
+        {
+          "text": "La notificación electrónica se practica por comparecencia en la sede electrónica, por la dirección electrónica habilitada única o por ambas (art. 43.1). Se entiende practicada en el momento del acceso a su contenido; y, si era obligatoria o elegida por el interesado, se entiende rechazada cuando pasan diez días naturales desde su puesta a disposición sin acceder (art. 43.2). Los interesados pueden acceder a sus notificaciones desde el Punto de Acceso General, que funciona como portal de acceso (art. 43.4).",
+          "refs": [
+            {
+              "ref": "Art. 43.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. Las notificaciones por medios electrónicos se entenderán practicadas en el momento en que se produzca el acceso a su contenido. Cuando la notificación por medios electrónicos sea de carácter obligatorio, o haya sido expresamente elegida por el interesado, se entenderá rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido."
+            },
+            {
+              "ref": "Art. 43.4 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "4. Los interesados podrán acceder a las notificaciones desde el Punto de Acceso General electrónico de la Administración, que funcionará como un portal de acceso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Actuación administrativa automatizada, firma del personal y archivo electrónico",
+      "blocks": [
+        {
+          "text": "La actuación administrativa automatizada es cualquier acto o actuación realizada íntegramente por medios electrónicos en un procedimiento y sin intervención directa de un empleado público (art. 41.1 Ley 40/2015). Antes hay que fijar el órgano responsable de sus especificaciones, programación, supervisión y auditoría, y el órgano responsable a efectos de impugnación (art. 41.2). Para firmarla se usa el sello electrónico basado en certificado cualificado o el código seguro de verificación (art. 42).",
+          "refs": [
+            {
+              "ref": "Art. 41.1 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "1. Se entiende por actuación administrativa automatizada, cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público."
+            },
+            {
+              "ref": "Art. 41.2 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "Asimismo, se indicará el órgano que debe ser considerado responsable a efectos de impugnación."
+            },
+            {
+              "ref": "Art. 42 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "a) Sello electrónico de Administración Pública, órgano, organismo público o entidad de derecho público, basado en certificado electrónico reconocido o cualificado […] b) Código seguro de verificación vinculado a la Administración Pública"
+            }
+          ]
+        },
+        {
+          "text": "Fuera de lo automatizado, la Administración actúa mediante firma electrónica del titular del órgano o del empleado público; por razones de seguridad pública esa firma puede referirse solo al número de identificación profesional (art. 43). Los documentos transmitidos en entornos cerrados de comunicación entre Administraciones son válidos para autenticar a emisores y receptores; si pertenecen a Administraciones distintas, las condiciones se fijan por convenio (art. 44).",
+          "refs": [
+            {
+              "ref": "Art. 43.2 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "Por razones de seguridad pública los sistemas de firma electrónica podrán referirse sólo el número de identificación profesional del empleado público."
+            },
+            {
+              "ref": "Art. 44.3 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "3. Cuando los participantes pertenezcan a distintas Administraciones, las condiciones y garantías citadas en el apartado anterior se establecerán mediante convenio suscrito entre aquellas."
+            }
+          ]
+        },
+        {
+          "text": "Todos los documentos de las actuaciones administrativas se almacenan por medios electrónicos, salvo cuando no sea posible (art. 46.1). Los que contengan actos que afecten a derechos o intereses de particulares se conservan en soporte electrónico, en su formato original o en otro que asegure su identidad e integridad, y los soportes deben tener las medidas de seguridad del Esquema Nacional de Seguridad (art. 46.2 y 46.3).",
+          "refs": [
+            {
+              "ref": "Art. 46.1 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "1. Todos los documentos utilizados en las actuaciones administrativas se almacenarán por medios electrónicos, salvo cuando no sea posible."
+            },
+            {
+              "ref": "Art. 46.3 Ley 40/2015",
+              "law": "Ley 40/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+              "quote": "3. Los medios o soportes en que se almacenen documentos, deberán contar con medidas de seguridad, de acuerdo con lo previsto en el Esquema Nacional de Seguridad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Accesibilidad de los sitios web y aplicaciones del sector público",
+      "blocks": [
+        {
+          "text": "El RD 1112/2018 garantiza la accesibilidad de los sitios web y aplicaciones móviles del sector público. Define la accesibilidad como el conjunto de principios y técnicas que se deben respetar al diseñar, construir, mantener y actualizar webs y apps para garantizar la igualdad y no discriminación, en particular de las personas con discapacidad y mayores (art. 1.2). Los contenidos deben ser perceptibles, operables, comprensibles y robustos (art. 5.1); se presume la conformidad si cumplen las normas armonizadas publicadas en el Diario Oficial de la UE o, en su defecto, la norma EN 301 549 (art. 6).",
+          "refs": [
+            {
+              "ref": "Art. 1.2 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "2. A los efectos de este real decreto se entiende por accesibilidad el conjunto de principios y técnicas que se deben respetar al diseñar, construir, mantener y actualizar los sitios web y las aplicaciones para dispositivos móviles para garantizar la igualdad y la no discriminación en el acceso de las personas usuarias, en particular de las personas con discapacidad y de las personas mayores."
+            },
+            {
+              "ref": "Art. 5.1 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "de modo que sus contenidos sean perceptibles, operables, comprensibles y robustos teniendo en cuenta las normas del artículo 6."
+            },
+            {
+              "ref": "Art. 6.3 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "se presumirá que el contenido de los sitios web que cumpla los requisitos pertinentes de la norma EN 301 549 V1.1.2 (2015-04) o partes de estos, es conforme a los requisitos de accesibilidad"
+            }
+          ]
+        },
+        {
+          "text": "Solo excepcionalmente se puede dejar de cumplir por carga desproporcionada, de forma motivada y limitada al contenido concreto; no valen como motivo la falta de prioridad, de tiempo o de conocimientos, y la evaluación se revisa al menos una vez al año (art. 7). Las solicitudes de información accesible y quejas se responden en veinte días hábiles (suspendibles diez días hábiles para aclaraciones), y la reclamación posterior, en un máximo de dos meses; si no hay respuesta, se entiende desestimada (arts. 12 y 13).",
+          "refs": [
+            {
+              "ref": "Art. 7.3 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "3. No se consideran motivos que permitan apreciar la excepción de la carga desproporcionada la falta de prioridad, de tiempo o de conocimientos."
+            },
+            {
+              "ref": "Art. 12.3 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "3. Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de veinte días hábiles."
+            },
+            {
+              "ref": "Art. 13.4 y 13.6 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "4. Recibida la reclamación, la Unidad responsable de atenderla deberá responder a la persona interesada en el plazo máximo de dos meses. […] 6. Transcurrido el plazo máximo para resolver la reclamación sin que se haya notificado la resolución de la misma, se entenderá que la reclamación ha sido desestimada."
+            }
+          ]
+        },
+        {
+          "text": "Cada web o app tiene una declaración de accesibilidad, que se actualiza como mínimo una vez al año o tras cada revisión, y que en los sitios web es accesible desde todas las páginas con un enlace denominado «Accesibilidad» (art. 15.1). Debe explicar qué partes no son accesibles y por qué, y enlazar el mecanismo de comunicación y el procedimiento de reclamación (art. 15.2).",
+          "refs": [
+            {
+              "ref": "Art. 15.1 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "Dicha declaración será actualizada periódicamente, como mínimo una vez al año, o cada vez que se realice una revisión de accesibilidad conforme a lo especificado en el artículo 17. […] En el caso de los sitios web, la declaración se publicará en el sitio web correspondiente estando disponible su acceso desde todas las páginas del sitio web con un enlace denominado «Accesibilidad» o su equivalente en el idioma en el que se encuentre disponible la página."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Oficinas integradas de atención al ciudadano",
+      "blocks": [
+        {
+          "text": "El RD 208/1996 permite que, mediante convenio de colaboración entre distintas Administraciones, desde las oficinas de información de cualquiera de ellas se ofrezca la información administrativa de las otras, con los mecanismos de comunicación necesarios, e incluso que se creen oficinas integradas de información con participación de varias Administraciones (art. 10). Las fuentes recogidas para este tema no incluyen normas más recientes sobre oficinas integradas ni sobre las oficinas de asistencia en materia de registros, más allá de lo citado.",
+          "refs": [
+            {
+              "ref": "Art. 10 RD 208/1996",
+              "law": "RD 208/1996",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997",
+              "quote": "Mediante convenio de colaboración, suscrito por distintas Administraciones públicas, podrá acordarse que desde las oficinas de información y atención de cualesquiera de ellas pueda ofrecerse a los ciudadanos la información administrativa de las otras, articulándose los mecanismos de comunicación necesarios para el intercambio de la información, así como la creación de oficinas integradas de información con participación de varias Administraciones públicas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Obligados a relacionarse electrónicamente: personas jurídicas, entidades sin personalidad, colegiados obligatorios, sus representantes y empleados públicos.",
+          "refs": [
+            {
+              "ref": "Art. 14.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "a) Las personas jurídicas. b) Las entidades sin personalidad jurídica."
+            }
+          ]
+        },
+        {
+          "text": "Cambio de canal de una persona física no obligada: efectos desde el quinto día hábil siguiente a la constancia.",
+          "refs": [
+            {
+              "ref": "Art. 3.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "a partir del quinto día hábil siguiente"
+            }
+          ]
+        },
+        {
+          "text": "Firma obligatoria solo para solicitudes, declaraciones responsables o comunicaciones, recursos, desistimientos y renuncias.",
+          "refs": [
+            {
+              "ref": "Art. 11.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "c) Interponer recursos. d) Desistir de acciones. e) Renunciar a derechos."
+            }
+          ]
+        },
+        {
+          "text": "Portales estatales: dominio «.gob.es». Sedes: certificados cualificados de autenticación de sitio web.",
+          "refs": [
+            {
+              "ref": "Art. 6.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "que deberá incluir el nombre de dominio de segundo nivel «.gob.es»"
+            }
+          ]
+        },
+        {
+          "text": "La DEHú está alojada en la sede del PAGe de la AGE; la Carpeta Ciudadana es el área personalizada del interesado.",
+          "refs": [
+            {
+              "ref": "Art. 7.4 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "En dicha sede electrónica está alojada la Dirección Electrónica Habilitada única"
+            }
+          ]
+        },
+        {
+          "text": "Notificación electrónica: practicada al acceder; rechazada a los diez días naturales sin acceso; el aviso no es requisito de validez.",
+          "refs": [
+            {
+              "ref": "Art. 43.2 Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "se entenderá rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido."
+            }
+          ]
+        },
+        {
+          "text": "Nunca electrónicas: notificaciones con elementos no convertibles o con medios de pago (cheques).",
+          "refs": [
+            {
+              "ref": "Art. 41.2.b) Ley 39/2015",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "b) Las que contengan medios de pago a favor de los obligados, tales como cheques."
+            }
+          ]
+        },
+        {
+          "text": "Web accesible: perceptible, operable, comprensible y robusta; declaración de accesibilidad anual, enlace «Accesibilidad» en todas las páginas.",
+          "refs": [
+            {
+              "ref": "Art. 15.1 RD 1112/2018",
+              "law": "RD 1112/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699",
+              "quote": "como mínimo una vez al año"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: RD 203/2021 (https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032), Ley 40/2015 (https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), RD 1112/2018 (https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699), RD 208/1996 (https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997)"
 }

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-oms_glosario-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "OMS · Glosario de términos de alcohol y drogas (traducción del Ministerio de Sanidad y Consumo, 2008): entradas seleccionadas",
+      "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+      "kind": "web_oficial",
+      "publisher": "Organización Mundial de la Salud; edición en español del Ministerio de Sanidad",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 76, tema P34) · OMS, Glosario: Adicción",
+      "stem": "Según el glosario de la OMS, el consumo repetido de una o varias sustancias psicoactivas hasta el punto de que el consumidor se intoxica periódicamente o de forma continua y muestra un deseo compulsivo de consumir se denomina:",
+      "options": [
+        "Adicción.",
+        "Tolerancia.",
+        "Síndrome de abstinencia."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La OMS define la adicción a las drogas o al alcohol por la intoxicación periódica o continua, el deseo compulsivo y la dificultad para interrumpir el consumo.",
+      "excerpt": "Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor (denominado adicto) se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 77, tema P34) · OMS, Glosario: Policonsumo de drogas",
+      "stem": "Según el glosario de la OMS, el policonsumo de drogas es el consumo de más de una droga o tipo de droga por una persona, normalmente al mismo tiempo o una detrás de otra, y por lo general con la intención de:",
+      "options": [
+        "Reducir la tolerancia adquirida a la droga principal.",
+        "Aumentar, potenciar o contrarrestar los efectos de otra droga.",
+        "Evitar el síndrome de abstinencia de la droga principal en todo caso."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La OMS caracteriza el policonsumo por la intención de aumentar, potenciar o contrarrestar los efectos de otra droga; el término francés «polytoxicomanie» es su equivalente.",
+      "excerpt": "Consumo de más de una droga o de más de un tipo de droga por una persona, normalmente al mismo tiempo o una detrás de otra, y por lo general, con la intención de aumentar, potenciar o contrarrestar los efectos de otra droga.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

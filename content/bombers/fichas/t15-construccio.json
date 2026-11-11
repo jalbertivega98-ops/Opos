@@ -63,5 +63,772 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Principi de l'estabilitat",
+      "blocks": [
+        {
+          "text": "El manual parteix d'una idea senzilla: un edifici és un sistema estàtic dissenyat per suportar càrregues i accions (el pes propi, les persones, el mobiliari, el vent o fins i tot impactes sobtats). Funciona segons el principi d'acció-reacció: qualsevol força que s'exerceix sobre l'estructura provoca una reacció de resistència a través dels elements estructurals, com els pilars, les bigues o els murs de càrrega.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Una edificació es pot entendre com un sistema estàtic, dissenyat per suportar diverses càrregues i accions (com el pes propi, les persones, el mobiliari, el vent, o fins i tot impactes sobtats). El seu comportament es basa en el principi d’acció-reacció"
+            }
+          ]
+        },
+        {
+          "text": "Aquestes forces internes s'anomenen esforços i poden deformar els materials. En condicions normals, les deformacions són previstes i acceptables dins els límits de seguretat. Quan superen certs límits apareixen lesions que poden indicar un problema greu: és la patologia estructural. Si la deformació arriba al límit de resistència d'un element, es pot produir el col·lapse de l'estructura.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Aquestes forces internes, anomenades esforços, poden generar deformacions en els materials. En condicions normals, aquestes deformacions són previstes i acceptables dins els límits de seguretat."
+            },
+            {
+              "ref": "MAN.GRAL.006, 2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Però quan aquestes deformacions superen certs límits, apareixen lesions que poden ser un indicador d’un problema greu: el que s’anomena patologia estructural. En el cas que la deformació arribi al límit de resistència d’un element, es pot produir un col·lapse de l’estructura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Accions i reaccions",
+      "blocks": [
+        {
+          "text": "Les accions són totes les forces o influències externes que actuen sobre una edificació al llarg del temps i que en poden afectar l'estabilitat. Són les responsables de generar els esforços interns en els elements estructurals. El manual les classifica en tres grups: permanents (el pes propi de l'edifici), variables (l'ocupació de persones, el mobiliari, el vent o la neu) i accidentals (explosions, impactes o sismes).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "En el camp de la construcció, el terme “accions” fa referència a totes aquelles forces o influències externes que actuen sobre una edificació al llarg del temps i que poden afectar-ne l’estabilitat."
+            },
+            {
+              "ref": "MAN.GRAL.006, 2.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "permanents: com el pes propi de l’edifici − variables: com l’ocupació de persones, el mobiliari, el vent o la neu − accidentals: com ara explosions, impactes o sismes."
+            }
+          ]
+        },
+        {
+          "text": "Les reaccions són les forces de resposta que apareixen als punts de recolzament o d'unió dels elements estructurals quan reben accions o càrregues. Segons el principi d'acció i reacció, tota força aplicada genera una força contrària i equivalent que busca mantenir l'equilibri. Es veuen sobretot als extrems de bigues, pilars o murs de càrrega. La seva naturalesa i direcció depenen del tipus d'unió (recolzada, articulada, encastada...) i de les càrregues.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Dins el comportament estructural d’una edificació, les reaccions són les forces de resposta que apareixen als punts de recolzament o d’unió dels elements estructurals quan aquests reben accions o càrregues."
+            },
+            {
+              "ref": "MAN.GRAL.006, 2.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La naturalesa i la direcció de les reaccions dependran del tipus d’unió (recolzada, articulada, encastada...) i de les càrregues aplicades."
+            }
+          ]
+        },
+        {
+          "text": "Entendre les reaccions ajuda a detectar punts crítics de càrrega o zones sobrecarregades, a interpretar el comportament global de l'estructura i a valorar repercussions davant alteracions o col·lapses. És clau per sanejar, obrir pas o apuntalar amb seguretat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Per als bombers, reconèixer on i com es generen les reaccions pot ser clau a l’hora de fer sanejaments, obrir pas o apuntalar estructures, evitant decisions que comprometin l’estabilitat general."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Esforços: tracció, compressió i flexió",
+      "blocks": [
+        {
+          "text": "Els esforços són les reaccions internes que apareixen dins dels materials i dels elements estructurals com a resposta directa a les accions. Quan una càrrega pressiona, estira, torça o doblega un element, aquest desenvolupa un esforç per resistir-ho. Els principals tipus són sis: tracció, compressió, flexió, torsió, tallant o cisallament, i vinclament.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els esforços són les reaccions internes que apareixen dins dels materials i elements estructurals d’una edificació com a resposta directa a les accions que hi actuen."
+            },
+            {
+              "ref": "MAN.GRAL.006, 2.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Tallant o cisallament − Vinclament"
+            }
+          ]
+        },
+        {
+          "text": "La tracció és l'esforç que estira un element; l'acer i la fusta hi resisteixen molt bé. Hi treballen tirants i cables. En un incendi es poden allargar per l'escalfament i perdre tensió i estabilitat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La tracció és l’esforç que estira un element. Materials com l’acer i la fusta hi resisteixen molt bé."
+            },
+            {
+              "ref": "MAN.GRAL.006, 2.4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "En un incendi poden allargar-se per l’escalfament, perdent tensió i estabilitat."
+            }
+          ]
+        },
+        {
+          "text": "La compressió és l'esforç que aixafa un element. La suporten molt bé materials fràgils però resistents: pedra, ceràmica, formigó o terra. Apareix a pilars, parets de càrrega, arcs, voltes i fonaments, elements molt sensibles a qualsevol pèrdua de secció o degradació per temperatura.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La compressió és l’esforç que aixafa un element. Materials fràgils però resistents, com la pedra, la ceràmica, el formigó o la terra, la suporten molt bé. Aquests esforços apareixen a pilars, parets de càrrega, arcs, voltes i fonaments."
+            }
+          ]
+        },
+        {
+          "text": "La flexió és la combinació de compressió i tracció en una peça que es corba. S'hi comporten bé l'acer, la fusta i el formigó armat. La major part de les bigues, jàsseres i mènsules (balcons) treballen a flexió; en un incendi, la pèrdua de resistència de l'acer o del formigó pot generar deformacions importants.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La flexió és la combinació de compressió i tracció en una peça que es corba. S’hi comporten bé l’acer, la fusta i el formigó armat. La major part de les bigues, jàsseres i mènsules (balcons) treballen bàsicament a flexió."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Esforços: torsió, tallant i vinclament",
+      "blocks": [
+        {
+          "text": "La torsió és un gir que tendeix a retorçar l'element. La resisteixen bé l'acer i, segons la secció, la fusta. En emergències, els elements a torsió elements poden fallar sobtadament si perden rigidesa.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La torsió és un gir que tendeix a retorçar l’element. La resisteixen bé l’acer i, segons la secció, la fusta."
+            },
+            {
+              "ref": "MAN.GRAL.006, 2.4.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "En emergències, els elements sotmesos a torsió poden fallar sobtadament si perden rigidesa."
+            }
+          ]
+        },
+        {
+          "text": "L'esforç tallant vol fer «lliscar» una part de l'element respecte de l'altra. L'acer i la fusta el suporten relativament bé, però cal vigilar la zona propera als recolzaments. Apareix sobretot en mènsules, unions cargolades o perns, i en bigues properes al suport.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.5",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "L’esforç tallant vol “lliscar” una part de l’element respecte l’altra. Materials com l’acer i la fusta el suporten relativament bé, però cal vigilar la zona propera als recolzaments."
+            }
+          ]
+        },
+        {
+          "text": "El vinclament és la deformació lateral sobtada que pateix un element llarg sotmès a compressió. Depèn molt de l'esveltesa (relació llargada-secció) i afecta sobretot pilars, parets altes, barres de jàssera o elements en gelosia. La calor o qualsevol reducció de secció n'augmenta molt el risc.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.6",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "El vinclament és la deformació lateral sobtada que pateix un element llarg sotmès a compressió. Depèn molt de la seva esveltesa (relació llargada-secció). Afecta sobretot pilars, parets altes, barres de jàssera o elements en gelosia. La calor o qualsevol reducció de secció augmenta molt el risc de vinclament."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Materials: conglomerants, pedra i ceràmica",
+      "blocks": [
+        {
+          "text": "Cada material té propietats físiques i mecàniques pròpies que en determinen el comportament davant els esforços, la resistència, la durabilitat, la flexibilitat i la reacció al foc.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Cada material té unes propietats físiques i mecàniques pròpies que determinen com es comporta davant els esforços (tracció, compressió, flexió, etc.), així com la seva resistència, durabilitat, flexibilitat i reacció al foc."
+            }
+          ]
+        },
+        {
+          "text": "Les mescles de conglomerants s'obtenen barrejant un conglomerant (ciment, calç o guix) amb aigua i, segons el cas, sorra o àrids. Cal recordar la fórmula: pasta = conglomerant + aigua; morter = conglomerant + aigua + sorra; formigó = conglomerant + aigua + àrids. S'usen en estructures de formigó, juntes, revestiments i paviments.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Pasta: Conglomerant + aigua. − Morter: Conglomerant + aigua + sorra. − Formigó: Conglomerant + aigua + àrids."
+            }
+          ]
+        },
+        {
+          "text": "La pedra és un material natural, molt antic i resistent, que pot ser sense treballar o tallada en peces regulars. S'usa en parets estructurals de càrrega, sostres en volta i cúpules, revestiments i paviments; es presenta al natural, en peces tallades (carreus) o en lloses.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Format habitual: pedra al natural, peces tallades (carreus) o lloses."
+            }
+          ]
+        },
+        {
+          "text": "La ceràmica agrupa materials cuits com el maó o la teula: parets estructurals, voltes, envans, complements de forjats (revoltons, cassetons) i revestiments. Hi ha maons massissos, calats (gero) o foradats (totxana), maons lleugers per a envans (en quart, encadellats, súper-maons). Saber «llegir» una paret des de l'exterior permet distingir un envà lleuger, una paret de 15 cm o un mur de 30 cm o més.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Maons massissos, maons calats (gero) o foradats (totxana) − Maons lleugers per envans: en quart, encadellats, súper-maons"
+            },
+            {
+              "ref": "MAN.GRAL.006, 3.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Aprendre a “llegir” una paret des de l’exterior permet identificar si es tracta d’un envà lleuger, d’una paret de 15 cm o d’un mur més robust de 30 cm o més"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Materials: fusta, acer, làmines i aïllaments",
+      "blocks": [
+        {
+          "text": "La fusta és un material natural i lleuger, present en construccions tradicionals i modernes, que destaca per la seva bona relació resistència-pes i per la versatilitat. S'usa en estructures (jàsseres, bigues, pilars, parets), mobiliari i revestiments, i es presenta com a fusta serrada, fusta laminada o en taulers (aglomerat, DM, tricapa, multicapa).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Material natural, lleuger i molt present tant en construccions tradicionals com modernes. Destaca per la seva bona relació resistència-pes i per la seva versatilitat."
+            }
+          ]
+        },
+        {
+          "text": "L'acer és un material metàl·lic molt resistent, amb gran capacitat de càrrega i flexibilitat en el disseny. S'usa en estructures, com a complement del formigó (armat), en revestiments i en impermeabilitzacions. Formats: perfils laminats (I, H, L, U, T), tubs, barres corrugades i xapes (ondulada, grecada).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.5",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Material metàl·lic molt resistent, utilitzat tant en estructures com en elements complementaris. Té gran capacitat de càrrega i flexibilitat en el disseny."
+            },
+            {
+              "ref": "MAN.GRAL.006, 3.5",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Perfils laminats (I, H, L, U, T)"
+            }
+          ]
+        },
+        {
+          "text": "Les làmines impermeabilitzants (PVC, bituminoses, multicapes) són materials flexibles que impedeixen el pas de l'aigua, en cobertes o murs, i es presenten en rotllos. Els aïllaments redueixen la transmissió de calor o so; poden ser minerals, sintètics o naturals: llana de roca o de vidre, escumes (PU), plaques (XPS, EPS), a granel o projectats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.6",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Materials flexibles que impedeixen el pas de l’aigua. S’utilitzen tant en cobertes com en murs, en solucions visibles o amagades."
+            },
+            {
+              "ref": "MAN.GRAL.006, 3.7",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Materials pensats per reduir la transmissió de calor o so. Poden ser d’origen mineral, sintètic o natural"
+            },
+            {
+              "ref": "MAN.GRAL.006, 3.7",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Llana de roca o de vidre − Escumes sintètiques (PU) − Plaques sintètiques (XPS, EPS)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Elements estructurals i fonaments",
+      "blocks": [
+        {
+          "text": "Els elements estructurals són les peces que, connectades, formen l'esquelet resistent de l'edifici: suporten les càrregues, transmeten els esforços i garanteixen l'estabilitat. El manual els classifica segons la funció i l'orientació: fonaments (superficials, com les sabates corregudes o aïllades, o profunds, com els pilons i els murs pantalla), elements verticals, elements horitzontals i elements no estructurals.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Fonaments: transmeten les càrregues de l’estructura al terreny. Poden ser superficials (sabates corregudes o aïllades) o profunds (pilons, murs pantalla)."
+            }
+          ]
+        },
+        {
+          "text": "Els fonaments transmeten totes les càrregues de l'edifici al terreny, garanteixen l'estabilitat global i eviten assentaments diferencials, esquerdes o col·lapses. La tipologia depèn del terreny, del pes de l'edifici i del sistema estructural.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els fonaments són l’element estructural encarregat de transmetre totes les càrregues de l’edifici al terreny. La seva funció és garantir l’estabilitat global de l’estructura i evitar assentaments diferencials, esquerdes o col·lapses."
+            }
+          ]
+        },
+        {
+          "text": "Tipus: les sabatilles aïllades, quan les càrregues es concentren en punts concrets (pilars aïllats); les sabates corregudes, fonaments lineals sota un mur, típics dels murs de càrrega tradicionals; la llosa de fonamentació, una gran placa de formigó armat sota tota la superfície, per a terrenys poc resistents o per repartir molt bé les càrregues; els encepats i bigues de lligam, que uneixen sabates o pilots i compensen moviments del terreny i esforços horitzontals; els pilots o micropilots, elements cilíndrics de formigó, acer o fusta que porten les càrregues a capes profundes quan el terreny superficial és feble; i els murs de contenció o pantalles, fonaments verticals per retenir terres o sostenir soterranis.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.1.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "S’utilitzen quan les càrregues de l’edifici es concentren en punts concrets, generalment pilars aïllats."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.1.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Fonaments lineals utilitzats quan les càrregues es distribueixen al llarg d’un mur. Són típics dels murs de càrrega del sistema tradicional."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.1.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Gran placa de formigó armat que ocupa tota la superfície de l’edifici. Es fa servir quan el terreny és poc resistent o quan cal repartir molt bé les càrregues."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.1.5",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Elements cilíndrics clavats o perforats al subsòl per transmetre les càrregues a capes més profundes i resistents."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.1.6",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Fonaments verticals emprats quan cal retenir terres, sostenir soterranis o treballar en terrenys inclinats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Elements verticals",
+      "blocks": [
+        {
+          "text": "Els elements verticals reben les càrregues dels forjats, jàsseres i cobertes i les porten als fonaments; la seva fallada pot comprometre de manera immediata l'estabilitat de tota l'estructura.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La seva fallada pot comprometre de manera immediata l’estabilitat de tota l’estructura"
+            }
+          ]
+        },
+        {
+          "text": "Els murs de càrrega són elements verticals continus que suporten directament els sostres i la coberta, típics dels sistemes tradicionals. Tenen grans gruixos (20-60 cm segons el material i l'època), són de maó massís, pedra, tapial o formigó antic i donen estabilitat per la massa i la trava amb altres murs. Són punts crítics les reformes que n'han eliminat parts, les humitats i les grans obertures o llindes febles.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els murs de càrrega són elements verticals continus que suporten directament els sostres i la coberta. Són típics dels sistemes constructius tradicionals."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Grans gruixos (20–60 cm), segons el material i l’època."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Alt risc en reformes que han eliminat parts del mur."
+            }
+          ]
+        },
+        {
+          "text": "Els pilars són elements verticals puntuals que concentren i transmeten les càrregues dels forjats; formen part del sistema porticat. Solen ser de formigó armat (el més comú), d'acer o de fusta. En incendi, la pèrdua de resistència del formigó i de l'acer pot provocar un col·lapse ràpid. El pilar és l'element més crític d'una estructura porticada: si falla, compromet diversos nivells; i les unions pilar-forjat són essencials.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.2.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els pilars són elements verticals puntuals que concentren i transmeten les càrregues dels forjats. Formen part del sistema porticat, el més habitual en edificacions modernes."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.2.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "És l’element més crític en una estructura porticada: la fallada d’un pilar compromet diversos nivells."
+            }
+          ]
+        },
+        {
+          "text": "Les pantalles estructurals són murs de formigó armat, molt més esvelts que els murs de càrrega tradicionals, que reforcen l'estructura i resisteixen esforços horitzontals: donen rigidesa i resisteixen vent i sismes. Les pilastres són petits elements verticals encastats en murs o façanes que fan de reforç puntual; no sempre formen part de l'estructura original i poden estar degradades o desenganxades, i donar una falsa sensació de seguretat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.2.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Les pantalles són murs de formigó armat, molt més esveltes que els murs de càrrega tradicionals, utilitzats en construccions modernes per reforçar l’estructura i resistir esforços horitzontals."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.2.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Les pilastres són petits elements verticals, sovint encastats en murs o integrats en façanes, que actuen com a reforç puntual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Elements horitzontals i transmissió de càrregues",
+      "blocks": [
+        {
+          "text": "Els elements horitzontals recullen les càrregues d'ús (persones, mobiliari, màquines, cobertes, instal·lacions) i les transmeten als elements verticals. En una emergència solen ser els primers a mostrar deformacions visibles, col·lapses parcials o propagació del foc.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els elements horitzontals d’una estructura són els encarregats de recollir les càrregues d’ús (persones, mobiliari, màquines, cobertes, instal·lacions…) i transmetre-les als elements verticals"
+            }
+          ]
+        },
+        {
+          "text": "Els forjats són els elements horitzontals principals que formen sostres i paviments. Els de fusta (edificació antiga) tenen vulnerabilitat alta al foc; els de metall (bigues d'acer amb revoltons ceràmics, segles XIX i XX) es dilaten amb la calor i poden provocar despreniments de sostres; els de formigó armat són el sistema més estès avui i es comporten bé al foc si tenen recobriment suficient, però poden fallar per pèrdua de capacitat del ferro intern.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.3.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Són els elements horitzontals principals que formen els sostres i paviments."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.3.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "El metall es dilata amb la calor i pot provocar despreniments de sostres."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.3.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Forjats de formigó armat (el sistema més estès avui dia): biguetes + entrebigat o llosa."
+            }
+          ]
+        },
+        {
+          "text": "Les bigues són elements lineals que recullen les càrregues del forjat i les transmeten a pilars o murs; la fallada d'una biga afecta una zona completa del forjat, i les unions biga-pilar i biga-mur són punts d'inspecció clau. Les jàsseres o bigues principals tenen més cantell i capacitat i agrupen les càrregues de diverses bigues secundàries; si una falla, pot provocar un col·lapse progressiu, i són d'alt risc en incendi quan són metàl·liques no protegides.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.3.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Són elements horitzontals lineals que recullen les càrregues del forjat i les transmeten a pilars o murs."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.3.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Són elements de major cantell i capacitat, que agrupen les càrregues de diverses bigues secundàries."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.3.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Alt risc en incendis quan les jàsseres són metàl·liques no protegides."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Elements no estructurals i parts d'un edifici",
+      "blocks": [
+        {
+          "text": "Els elements no estructurals no tenen funció resistent directa: no sostenen càrregues ni contribueixen de manera principal a l'estabilitat global. Poden caure o desprendre's sense afectar l'estructura principal i, tot i així, ser un perill i ocultar patologies. Inclouen tancaments, divisions interiors (envans, falsos sostres) i elements auxiliars (revestiments, aïllaments).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els elements no estructurals són totes aquelles parts d’un edifici que no tenen funció resistent directa, és a dir, no sostenen càrregues ni contribueixen de manera principal a l’estabilitat global de l’estructura."
+            },
+            {
+              "ref": "MAN.GRAL.006, 4.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "A més, en alguns casos, poden ocultar patologies estructurals o dificultar la seva detecció."
+            }
+          ]
+        },
+        {
+          "text": "Un sistema constructiu és el conjunt coordinat d'elements estructurals i materials d'una edificació, tant per a l'estabilitat com per al confort. Les parts principals d'un edifici s'agrupen en tres blocs: l'estructura (fonaments, pilars, murs de càrrega, bigues i forjats), els tancaments (façanes, cobertes, soleres i altres parets exteriors) i les divisions internes (envans, falsos sostres i altres elements lleugers no estructurals).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Un sistema constructiu és el conjunt coordinat d’elements estructurals i materials que configuren una edificació, tant pel que fa a la seva estabilitat com al confort"
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Les parts principals d’un edifici es poden agrupar en tres grans blocs: − L’estructura"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Jerarquia estructural i sistemes de llums petites",
+      "blocks": [
+        {
+          "text": "Les càrregues es transmeten de dalt a baix per una jerarquia: bigues (recullen biguetes, planxes o cobertes) → jàsseres (agrupen bigues secundàries) → pilars o murs → fonaments → terreny. Com més avall és un element, més càrrega acumula i més greu pot ser el seu col·lapse: el dany a un pilar o a una jàssera pot comprometre diversos nivells.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "En qualsevol estructura, les càrregues es transmeten de dalt a baix a través d’una jerarquia d’elements."
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "com més avall se situa en la jerarquia, més càrrega acumula i més greu pot ser el seu col·lapse. Per exemple, el dany a un pilar o a una jàssera pot comprometre diversos nivells de l’edifici."
+            }
+          ]
+        },
+        {
+          "text": "Els sistemes estructurals es divideixen en sistemes de llums petites (4-8 m) i de grans llums (més de 8 m). En les llums petites hi ha el sistema tradicional de murs de càrrega: murs de maó massís, pedra o tàpia de 30 a 60 cm de gruix, amb forjats de bigues de fusta i revoltó ceràmic o de biguetes metàl·liques. Qualsevol obertura o tall en un mur de càrrega afecta directament l'estabilitat global.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Sistemes de llums petites (4-8 m):"
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els murs són generalment de maó massís, pedra o tàpia, i el gruix pot variar entre 30 i 60 cm."
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "qualsevol obertura o tall en un mur de càrrega afecta directament l’estabilitat global."
+            }
+          ]
+        },
+        {
+          "text": "L'altre és el sistema de pilars i forjats (porticat), molt habitual a partir dels anys 70: pilars de formigó armat o acer suporten forjats normalment de formigó, i les parets ja no són estructurals. És més resistent i estable, però l'acer i el formigó perden capacitat portant amb la temperatura, especialment els pilars.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.4.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Aquest sistema, molt habitual a partir dels anys 70, utilitza pilars de formigó armat o acer per suportar els forjats, que acostumen a ser també de formigó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Grans llums i comportament dels sistemes constructius",
+      "blocks": [
+        {
+          "text": "Els sistemes de grans llums cobreixen espais amplis sense pilars intermedis (naus industrials, magatzems, pavellons). L'element clau són els pòrtics, conjunts de pilars i jàsseres inclinades o corbades. Els pòrtics metàl·lics són lleugers i ràpids de muntar, però en incendi l'acer perd resistència molt ràpidament i hi pot haver col·lapses sobtats. Els de fusta (laminada) tenen un comportament més previsible al foc però exigeixen proteccions. Els prefabricats de formigó són robustos, però el seu pes pot generar col·lapses molt greus si falla una unió. La pèrdua d'un únic element pot provocar el col·lapse total de la coberta, sobretot en estructures metàl·liques.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Aquests sistemes s’utilitzen quan cal cobrir espais amplis sense pilars intermedis"
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "En incendi, però, l’acer perd resistència amb molta rapidesa, fet que pot provocar col·lapses sobtats."
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "La fusta té un comportament més previsible al foc, però exigeix proteccions adequades."
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "la pèrdua d’un únic element (com un pilar, una jàssera o una unió) pot desencadenar el col·lapse total de la coberta, especialment en estructures metàl·liques."
+            }
+          ]
+        },
+        {
+          "text": "Comportament: en el sistema de murs de càrrega cal extremar la precaució en zones amb fusta, reformes incorrectes o murs debilitats, perquè no tolera bé l'eliminació o degradació de cap element portador. En el porticat, el punt crític és la unió entre pilars i forjats. En el sistema de pòrtics prefabricats de formigó cal vigilar la capacitat portant de les jàsseres i sobretot l'estat de les unions.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.5.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "En emergències, cal extremar la precaució en zones amb fusta, reformes incorrectes o murs debilitats, ja que aquest sistema no tolera bé l’eliminació o degradació de cap element portador."
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.5.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "especialment en la unió entre pilars i forjats, que és l’element clau de la seva estabilitat global."
+            },
+            {
+              "ref": "MAN.GRAL.006, 5.5.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "cal vigilar la pèrdua de capacitat portant de les jàsseres de formigó i, sobretot, l’estat de les unions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Accions: permanents (pes propi), variables (ocupació, mobiliari, vent, neu) i accidentals (explosions, impactes, sismes). Reaccions: als recolzaments i unions. Esforços: interns.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "variables: com l’ocupació de persones, el mobiliari, el vent o la neu"
+            }
+          ]
+        },
+        {
+          "text": "Tracció estira; compressió aixafa; flexió = compressió + tracció en una peça que es corba; torsió retorça; tallant fa lliscar; vinclament = deformació lateral sobtada d'un element llarg comprimit (depèn de l'esveltesa).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.4.6",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Depèn molt de la seva esveltesa (relació llargada-secció)."
+            }
+          ]
+        },
+        {
+          "text": "Deformacions per sobre dels límits = patologia estructural; si s'arriba al límit de resistència, col·lapse.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 2.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "el que s’anomena patologia estructural."
+            }
+          ]
+        },
+        {
+          "text": "Pasta = conglomerant + aigua; morter = + sorra; formigó = + àrids.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 3.1",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Morter: Conglomerant + aigua + sorra."
+            }
+          ]
+        },
+        {
+          "text": "Fonaments: sabatilles aïllades (pilars), sabates corregudes (murs de càrrega), llosa (terreny poc resistent), pilots o micropilots (capes profundes).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.1.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Es fa servir quan el terreny és poc resistent o quan cal repartir molt bé les càrregues."
+            }
+          ]
+        },
+        {
+          "text": "Pilars: verticals puntuals, l'element més crític del porticat. Murs de càrrega: verticals continus. Pantalles: formigó armat contra esforços horitzontals. Forjats: sostres i paviments. Jàsseres: bigues principals.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.2.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Els pilars són elements verticals puntuals que concentren i transmeten les càrregues dels forjats."
+            }
+          ]
+        },
+        {
+          "text": "Jerarquia: com més avall, més càrrega i més greu el col·lapse. Porticat: la clau és la unió pilar-forjat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.3",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "com més avall se situa en la jerarquia, més càrrega acumula i més greu pot ser el seu col·lapse."
+            }
+          ]
+        },
+        {
+          "text": "Llums petites: 4-8 m; grans llums: més de 8 m. Pòrtics metàl·lics: col·lapse sobtat en incendi.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 5.4.2",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "Sistemes de grans llums ( superiors a 8 m):"
+            }
+          ]
+        },
+        {
+          "text": "Elements no estructurals: no sostenen càrregues, però poden caure i amagar patologies.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.006, 4.4",
+              "law": "MAN.GRAL.006",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+              "quote": "no tenen funció resistent directa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

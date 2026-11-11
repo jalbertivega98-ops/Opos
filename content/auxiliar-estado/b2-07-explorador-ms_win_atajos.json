@@ -137,6 +137,231 @@
       "explanation": "Alt + arrastrar crea un acceso directo; Ctrl + arrastrar crea una copia y Mayús + arrastrar mueve el archivo.",
       "excerpt": "Alt+ratón arrastrar un archivo | Cuando suelte el archivo, cree un acceso directo al archivo original en esa ubicación.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Alt + Entrar",
+      "stem": "En el Explorador de archivos, ¿qué combinación de teclas muestra las propiedades del elemento seleccionado?",
+      "options": [
+        "Alt + P",
+        "Alt + Entrar",
+        "Ctrl + Entrar",
+        "Mayús + F10"
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Según la tabla de métodos abreviados del Explorador de archivos, Alt + Entrar permite ver las propiedades del elemento seleccionado.",
+      "excerpt": "Alt+Entrar | Ver las propiedades del elemento seleccionado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Arrastrar con Ctrl",
+      "stem": "En el Explorador de archivos, si se arrastra un archivo con el ratón manteniendo pulsada la tecla Ctrl, al soltarlo:",
+      "options": [
+        "Se mueve el archivo a esa ubicación.",
+        "Se crea un acceso directo al archivo original.",
+        "Se crea una copia del archivo en esa ubicación.",
+        "Se elimina el archivo de la ubicación de origen."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ctrl + arrastrar crea una copia; Mayús + arrastrar mueve y Alt + arrastrar crea un acceso directo.",
+      "excerpt": "Ctrl+mouse arrastrar un archivo | Cuando suelte el archivo, cree una copia en esa ubicación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Arrastrar con Mayús",
+      "stem": "En el Explorador de archivos, ¿qué tecla hay que mantener pulsada al arrastrar un archivo con el ratón para que, al soltarlo, se mueva a la nueva ubicación?",
+      "options": [
+        "Mayús",
+        "Ctrl",
+        "Alt",
+        "Tecla Windows"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, Mayús + arrastrar mueve el archivo a la ubicación donde se suelta.",
+      "excerpt": "Mayús+arrastrar un archivo con el mouse | Cuando suelte el archivo, muévalo a esa ubicación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Carpeta anterior",
+      "stem": "En el Explorador de archivos, para volver a la carpeta anterior puede utilizarse la combinación:",
+      "options": [
+        "Alt + Flecha derecha",
+        "Alt + Flecha arriba",
+        "Ctrl + Flecha izquierda",
+        "Alt + Flecha izquierda"
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Alt + Flecha izquierda (o Retroceso) va a la carpeta anterior; Alt + Flecha derecha muestra la siguiente y Alt + Flecha arriba sube un nivel.",
+      "excerpt": "Alt+Flecha izquierda / Retroceso | Vaya a la carpeta anterior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · F3",
+      "stem": "En el Explorador de archivos, la tecla F3 sirve para:",
+      "options": [
+        "Buscar un archivo o carpeta.",
+        "Cambiar el nombre del elemento seleccionado.",
+        "Actualizar la ventana.",
+        "Seleccionar la barra de direcciones."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "En el Explorador, F3 busca un archivo o carpeta; F2 cambia el nombre, F5 actualiza y F4 selecciona la barra de direcciones.",
+      "excerpt": "F3 | Buscar un archivo o carpeta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Ctrl + D",
+      "stem": "En el Explorador de archivos, al pulsar Ctrl + D con un elemento seleccionado:",
+      "options": [
+        "Se duplica el elemento en la misma carpeta.",
+        "Se elimina el elemento y se mueve a la papelera de reciclaje.",
+        "Se elimina permanentemente sin pasar por la papelera de reciclaje.",
+        "Se crea un acceso directo en el escritorio."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl + D (o Suprimir) envía el elemento a la papelera de reciclaje; Mayús + Supr lo elimina permanentemente.",
+      "excerpt": "Ctrl+D / Suprimir | Eliminar el elemento seleccionado y moverlo a la papelera de reciclaje.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Ctrl + W",
+      "stem": "En el Explorador de archivos de Windows 11, ¿qué ocurre al pulsar Ctrl + W?",
+      "options": [
+        "Se abre una pestaña nueva y se cambia a ella.",
+        "Se cierran todas las ventanas del Explorador abiertas.",
+        "Se desplaza a la pestaña siguiente.",
+        "Se cierra la pestaña activa, o la ventana si solo hay una pestaña abierta."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ctrl + W cierra la pestaña activa y, si es la única, la ventana; Ctrl + T abre una pestaña nueva y Ctrl + Tab pasa a la siguiente.",
+      "excerpt": "Ctrl+W | Cierra la pestaña activa. Cierra la ventana si solo hay una pestaña abierta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Panel de detalles",
+      "stem": "En el Explorador de archivos, ¿qué combinación de teclas muestra u oculta el panel de detalles?",
+      "options": [
+        "Alt + Mayús + P",
+        "Alt + P",
+        "Ctrl + Mayús + P",
+        "Ctrl + Alt + D"
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Alt + Mayús + P muestra u oculta el panel de detalles; Alt + P hace lo mismo con el panel de vista previa.",
+      "excerpt": "Alt+Mayús+P | Mostrar u ocultar el panel de detalles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Cuadro de búsqueda",
+      "stem": "En el Explorador de archivos, ¿cuál de las siguientes combinaciones selecciona el cuadro de búsqueda?",
+      "options": [
+        "Ctrl + D",
+        "Ctrl + I",
+        "Ctrl + B",
+        "Ctrl + U"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, Ctrl + E o Ctrl + B seleccionan el cuadro de búsqueda; Ctrl + I se centra en la barra de direcciones y Ctrl + D elimina el elemento.",
+      "excerpt": "Ctrl+E / Ctrl+B | Seleccionar el cuadro de búsqueda.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Mayús + F10",
+      "stem": "En el Explorador de archivos, la combinación Mayús + F10 permite:",
+      "options": [
+        "Maximizar o minimizar la ventana activa.",
+        "Desplazarse por los elementos de la ventana.",
+        "Cambiar el nombre del elemento seleccionado.",
+        "Mostrar el menú contextual del elemento seleccionado."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Mayús + F10 muestra el menú contextual del elemento seleccionado, como el clic con el botón derecho.",
+      "excerpt": "Mayús+F10 | Mostrar el menú contextual del elemento seleccionado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Ctrl + rueda del ratón",
+      "stem": "En el Explorador de archivos, mantener pulsada la tecla Ctrl mientras se gira la rueda del ratón permite:",
+      "options": [
+        "Desplazarse entre las pestañas abiertas.",
+        "Cambiar el tamaño y la apariencia de los iconos de archivos y carpetas.",
+        "Seleccionar varios elementos consecutivos.",
+        "Desplazarse hasta la parte inferior de la ventana."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl + rueda del ratón cambia el tamaño y la apariencia de los iconos.",
+      "excerpt": "Ctrl + rueda del ratón | Cambiar el tamaño y la apariencia de los iconos de archivos y carpetas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Estilo de vista",
+      "stem": "En el Explorador de archivos, la combinación Ctrl + Mayús + Número cambia el estilo de vista. Según Microsoft, ¿qué vista se obtiene con Ctrl + Mayús + 6?",
+      "options": [
+        "Iconos grandes.",
+        "Lista.",
+        "Detalles.",
+        "Mosaicos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Microsoft pone como ejemplo que el 2 corresponde a iconos grandes y el 6 a detalles.",
+      "excerpt": "Ctrl+Mayús+Número (1-9) | Cambiar el estilo de vista. Por ejemplo, 2 son iconos grandes y 6 son detalles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Expandir árbol",
+      "stem": "En el Explorador de archivos, ¿qué combinación de teclas expande todas las carpetas del árbol en el panel de navegación?",
+      "options": [
+        "Ctrl + Mayús + N",
+        "Ctrl + Mayús + E",
+        "Alt + Flecha derecha",
+        "Ctrl + Signo más (+)"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ctrl + Mayús + E expande todas las carpetas del árbol del panel de navegación; Ctrl + Mayús + N crea una carpeta nueva.",
+      "excerpt": "Ctrl+Mayús+E | Expande todas las carpetas del árbol en el panel de navegación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Ajustar columnas",
+      "stem": "En el Explorador de archivos, la combinación Ctrl + Signo más (+) sirve para:",
+      "options": [
+        "Ampliar el tamaño de los iconos.",
+        "Abrir una nueva ventana del Explorador.",
+        "Cambiar el tamaño de todas las columnas para ajustarse al texto.",
+        "Añadir una columna nueva a la vista Detalles."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Según Microsoft, Ctrl + Signo más ajusta el ancho de todas las columnas al texto.",
+      "excerpt": "Ctrl+Signo más (+) | Cambiar el tamaño de todas las columnas para ajustarse al texto.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Explorador de archivos · Mayús + clic derecho",
+      "stem": "En el Explorador de archivos de Windows 11, ¿qué se obtiene al hacer clic con el botón derecho del ratón sobre un elemento mientras se mantiene pulsada la tecla Mayús?",
+      "options": [
+        "El menú contextual Mostrar más opciones del elemento seleccionado.",
+        "Las propiedades del elemento seleccionado.",
+        "Un acceso directo al elemento en el escritorio.",
+        "La selección de todos los elementos de la carpeta."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Mayús + clic con el botón derecho muestra directamente el menú contextual ampliado (Mostrar más opciones).",
+      "excerpt": "Mayús+clic con el botón derecho del mouse | Mostrar el menú contextual Mostrar más opciones para el elemento seleccionado.",
+      "excerpt_status": "completo"
     }
   ]
 }

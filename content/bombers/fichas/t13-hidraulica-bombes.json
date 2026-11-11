@@ -68,5 +68,596 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Propietats físiques dels líquids: incompressibilitat, densitat i viscositat",
+      "blocks": [
+        {
+          "text": "La hidràulica és l'aplicació de la mecànica de fluids als líquids i es divideix en hidrostàtica (fluids en repòs) i hidrodinàmica (fluids en moviment). El manual operatiu bàsic sobre hidràulica, bombes i instal·lacions (MAN.GRAL.009) remarca que els líquids es consideren incompressibles: conserven el volum encara que s'hi apliquin grans forces, i per això la pressió es transmet de manera gairebé instantània i homogènia.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2 Propietats físiques",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "A diferència dels gasos, els líquids es consideren incompressibles, és a dir conserven el seu volum, fins i tot encara que se’ls apliquin grans forces."
+            }
+          ]
+        },
+        {
+          "text": "La densitat és la quantitat de massa per unitat de volum (kg/m³ o g/cm³). L'aigua té 1.000 kg/m³ a 4 °C (a efectes pràctics, també a temperatura ambient) i l'aigua de mar, uns 1.025 kg/m³. La densitat relativa compara amb l'aigua dolça i no té unitats: per sota d'1 el cos sura (gasoil, 0,85) i per sobre s'enfonsa (mel, uns 1,4).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2.1 Densitat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La densitat d’un fluid és la quantitat de massa que conté per unitat de volum. Es mesura en kg/m³ o en g/cm3."
+            },
+            {
+              "ref": "MAN.GRAL.009, 2.1 Densitat relativa",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Així per exemple, el gasoil té una densitat relativa de 0,85, per tant sura; la mel té una densitat relativa aproximadament de 1,4, per tant s’enfonsa."
+            }
+          ]
+        },
+        {
+          "text": "La viscositat dinàmica és la resistència interna d'un líquid a fluir; es mesura en Pa·s. L'aigua en té molt poca (0,001 Pa·s); un oli vegetal, 0,065-0,1 Pa·s; la mel, més de 5 Pa·s. En els líquids la viscositat disminueix quan puja la temperatura (en els gasos, a l'inrevés). Densitat i viscositat són conceptes diferents: l'oli és molt viscós i poc dens.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2.2 Viscositat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La viscositat és la mesura de la resistència interna d'un líquid a fluir."
+            },
+            {
+              "ref": "MAN.GRAL.009, 2.2 Viscositat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "L’aigua té una viscositat dinàmica molt baixa, de 0,001 Pa·s."
+            },
+            {
+              "ref": "MAN.GRAL.009, 2.2 Viscositat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La viscositat varia amb la temperatura, en els líquids la viscositat disminueix quan augmenta la temperatura. En els gasos és a l’inrevés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Pressió de vapor, tensió superficial i capil·laritat",
+      "blocks": [
+        {
+          "text": "La pressió de vapor és la que fan les molècules que s'escapen de la superfície del líquid i passen a vapor; cada líquid té la seva i augmenta amb la temperatura. El punt d'ebullició és la temperatura en què la pressió de vapor iguala la pressió ambient: a nivell del mar (1 bar) l'aigua bull a 100 °C; a 3.000 m, a uns 90 °C; en una caldera a pressió, a més de 100 °C. A temperatura ambient la pressió de vapor de l'aigua és de 0,0316 bar: si es fa el buit per sota d'aquest valor, l'aigua bull.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2.3 Pressió de vapor",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Cada líquid té la seva pròpia pressió de vapor que augmenta a mesura que la temperatura puja. El punt d'ebullició d'un líquid és la temperatura a la qual la seva pressió de vapor s'iguala a la pressió de l'ambient que l'envolta."
+            },
+            {
+              "ref": "MAN.GRAL.009, 2.3 Pressió de vapor",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Per exemple, a nivell del mar (1 bar de pressió) l’aigua bull a 100 ºC, però a dalt d’una muntanya de 3000 m, la pressió atmosfèrica és menor i l’aigua bull a menys temperatura (uns 90 ºC)"
+            }
+          ]
+        },
+        {
+          "text": "La tensió superficial és la força que manté unides les molècules de la superfície (per això es formen gotes). Amb humectants i tensioactius (sabons) es redueix perquè l'aigua penetri millor en sòlids porosos o per formar escumes d'extinció. La capil·laritat és la capacitat de pujar o baixar per un tub molt estret per la tensió superficial i l'adhesió a les parets.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2.4 Tensió superficial",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Amb additius humectants i tensioactius (sabons) podem reduir la tensió superficial de l’aigua amb l’objectiu de fer que penetri més fàcilment en materials sòlids porosos, o per la formació de bombolles (escumes d’extinció)."
+            },
+            {
+              "ref": "MAN.GRAL.009, 2.5 Capil·laritat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "És la capacitat d’un líquid d’ascendir o descendir per un tub molt estret (com un capil·lar), gràcies a la combinació de la tensió superficial i l’adhesió a les parets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Hidrostàtica: pressió, unitats i pressió atmosfèrica",
+      "blocks": [
+        {
+          "text": "La pressió és la força per unitat de superfície (P = F/S). La unitat del SI és el pascal (1 N/m²), massa petit a la pràctica. Equivalències: 1 bar = 100.000 Pa; 1 atm = 101.325 Pa = 1,013 bar; 1 kg/cm² = 0,98 bar; 1 psi = 6.895 Pa. A bombers se simplifica: 1 bar = 1 kg/cm² = 1 atm. La pressió de treball estàndard ronda els 7-15 bar.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.1 Pressió",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La pressió es defineix com la força exercida per unitat de superfície."
+            },
+            {
+              "ref": "MAN.GRAL.009, 3.1.1 Unitats de pressió",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Per simplicitat en entorns operatius com el dels bombers, sovint es considera: 1 bar = 1 kg/cm2 = 1 atm En operacions habituals de bombers, una pressió de treball estàndard ronda els 7–15 bar."
+            }
+          ]
+        },
+        {
+          "text": "Regla pràctica: 1 bar = 10 metres de columna d'aigua (m.c.a.). Si l'aigua surt de la bomba a 8 bar, pot pujar uns 80 m (idealment, sense pèrdues). La pressió atmosfèrica a nivell del mar és d'1 atm (760 mmHg; 1,033 kg/cm²), com demostra l'experiment de Torricelli, i disminueix amb l'altitud uns 0,129 m.c.a. cada 100 m d'ascens, fet molt rellevant en aspiració.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.1.1 Unitats de pressió",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "1 bar = 10 metres de columna d’aigua Això permet saber, per exemple, que si l’aigua surt a 8 bar de pressió des de la bomba, pot pujar fins a uns 80 metres (de forma ideal i sense pèrdues)."
+            },
+            {
+              "ref": "MAN.GRAL.009, 3.1.2 Pressió atmosfèrica",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Per cada 100 metres d’ascens, decreix aproximadament 0,129 m.c.a., fet molt rellevant en aspiració."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Pressió absoluta i relativa; manòmetres",
+      "blocks": [
+        {
+          "text": "La pressió absoluta es mesura des del buit absolut (pressió 0), inclou l'atmosfèrica i sempre és positiva. La relativa o manomètrica és la diferència entre la pressió real i l'atmosfèrica del lloc; és la que llegeixen els manòmetres i pot ser negativa si es fa el buit. P absoluta = P relativa + P atmosfèrica.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.1.3 Pressió absoluta i relativa",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Pressió absoluta: és la pressió total exercida per un fluid, mesurada des del buit absolut (pressió 0). Inclou, per tant, la pressió atmosfèrica. Sempre és positiva."
+            },
+            {
+              "ref": "MAN.GRAL.009, 3.1.3 Pressió absoluta i relativa",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "és la pressió mesurada a partir de la pressió atmosfèrica. És la que llegim en els manòmetres convencionals. Pot ser negativa si fem el buit (per sota de la pressió atmosfèrica)."
+            }
+          ]
+        },
+        {
+          "text": "El manòmetre més habitual és el de tipus Bourdon (tub metàl·lic corbat que s'estira amb la pressió i mou una agulla) i mesura pressió relativa. El vacuòmetre mesura el buit o depressió; els aparells digitals són transductors de pressió. A l'aspiració de la bomba hi ha un manovacuòmetre, que mesura pressió i depressió.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.1.4 Manòmetres",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "El més habitual és el de tipus Bourdon, format per un tub metàl·lic corbat que s'estira a mesura que augmenta la pressió."
+            },
+            {
+              "ref": "MAN.GRAL.009, 3.1.4 Manòmetres",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "A l’aspiració de la bomba tenim un manovacuòmetre, que tant pot mesurar pressió com depressió."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Principis fonamentals: Stevin, Pascal i Arquimedes",
+      "blocks": [
+        {
+          "text": "Llei de Stevin (principi fonamental de la hidrostàtica): la pressió en un punt d'un fluid en repòs és proporcional a la profunditat (P = ρ · g · h). No depèn del volum ni de la forma del recipient, només de l'alçada de la columna i de la densitat; a igual profunditat, la mateixa pressió.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.2 Llei de Stevin",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "estableix que la pressió en un punt qualsevol d'un fluid en repòs és directament proporcional a la profunditat a la qual es troba aquest punt."
+            },
+            {
+              "ref": "MAN.GRAL.009, 3.2 Llei de Stevin",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La pressió no depèn del volum de líquid, ni de la forma del recipient, sinó només de l’altura de la columna de líquid i de la seva densitat."
+            }
+          ]
+        },
+        {
+          "text": "Principi de Pascal: la pressió exercida en un punt d'un líquid tancat i en repòs es transmet amb la mateixa intensitat en totes les direccions. Ho aprofita el gat hidràulic: amb èmbols d'1 i 100 cm², una força de 500 N es converteix en 50.000 N.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.3 Principi de Pascal",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "\"La pressió exercida en un punt qualsevol d’un líquid tancat i en repòs es transmet amb la mateixa intensitat i en totes les direccions a tots els punts del líquid i a les parets del recipient que el conté.\""
+            }
+          ]
+        },
+        {
+          "text": "Principi d'Arquimedes: un cos submergit total o parcialment rep una empenta vertical cap amunt igual al pes del fluid que desplaça (E = ρ · g · V). Sura si la seva densitat mitjana és menor que la del fluid. En recuperar un vehicle submergit, cal tenir present que «pesarà» més a mesura que surti de l'aigua.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.4 Principi d'Arquimedes",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "El Principi d’Arquímedes diu que un cos, total o parcialment submergit en un fluid experimenta una empenta vertical cap amunt (força d'empenta) que és igual al pes del fluid que desplaça."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Hidrodinàmica: circulació de fluids, cabal i continuïtat",
+      "blocks": [
+        {
+          "text": "La circulació pot ser lliure (per gravetat, poc habitual en emergències) o forçada (impulsada per una bomba, la més comuna a bombers). El règim pot ser laminar (capes paral·leles, velocitat baixa, poc freqüent) o turbulent (velocitat alta i remolins, el més habitual, amb més pèrdues).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.1.1 Circulació lliure o forçada",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Circulació forçada: el líquid és impulsat per una bomba, generant una pressió que força el moviment. És el tipus més comú en les operacions de bombers"
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.1.2 Règim turbulent",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Flux turbulent: és el règim més habitual en les instal·lacions d’intervenció."
+            }
+          ]
+        },
+        {
+          "text": "El cabal (Q) és la quantitat d'aigua que travessa una secció (S) en un temps determinat: Q = V/t = S · v. A bombers s'expressa en l/min o m³/h. Equació de continuïtat (conservació de la massa): en un fluid incompressible el cabal és constant en qualsevol punt de la conducció; si la secció disminueix, la velocitat augmenta. Si la conducció es bifurca, la suma dels cabals de sortida és igual al d'entrada.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.2.1 El cabal",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Fa referència a la quantitat d’aigua que travessa una secció (S) d’una conducció en un temps determinat."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.2.2 Equació de continuïtat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "En un fluid incompressible, com l'aigua, l'equació de continuïtat estableix que el cabal és constant en qualsevol punt d'una conducció."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.2.2 Equació de continuïtat",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Això significa que si l'àrea d'una mànega disminueix, la velocitat de l'aigua ha d'augmentar per mantenir el mateix cabal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "L'equació de Bernoulli",
+      "blocks": [
+        {
+          "text": "Un fluid que circula per una conducció té tres formes d'energia: de pressió, cinètica (per la velocitat) i potencial (per l'alçada). Sense frecs, la seva suma és constant al llarg de la conducció (equació de Bernoulli): pressió estàtica + pressió dinàmica (½ρv²) + pressió gravitatòria (ρgh) = constant. On la conducció s'eixampla, l'aigua es frena i augmenta la pressió estàtica; si puja, la pressió estàtica baixa, i es recupera en tornar a baixar.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.3 Equació de Bernoulli",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Suposant que no hi ha frecs (viscositat=0), el principi de la conservació de l’energia ens diu que l’energia total, suma de les tres formes d’energia (pressió, cinètica i potencial), és constant al llarg de la conducció."
+            }
+          ]
+        },
+        {
+          "text": "A les velocitats habituals (per sota de 10 m/s) la pressió dinàmica és petita (a 6 m/s, 0,18 bar); el que fa variar molt la pressió són els desnivells: 1 bar per cada 10 m.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.3 Equació de Bernoulli",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "En canvi, el que si ens farà variar molt significativament la pressió són els desnivells, a raó de 1 bar per cada 10 m de desnivell."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Pèrdues de càrrega i instal·lacions de mànegues",
+      "blocks": [
+        {
+          "text": "En el món real hi ha frecs que treuen energia al fluid: són les pèrdues de càrrega. Les lineals o primàries es deuen a la fricció amb les parets (equació de Darcy-Weisbach); les singulars o secundàries, a colzes, bifurcacions, vàlvules, ràcords o reduccions. Les pèrdues són proporcionals a la longitud i al quadrat del cabal, i inversament proporcionals a la cinquena potència del diàmetre: augmentar una mica el diàmetre les redueix molt.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.4 Pèrdues de càrrega",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Són directament proporcionals a la longitud de la instal·lació. − Són directament proporcionals al quadrat de la velocitat, és a dir, directament proporcionals al quadrat del cabal. − Són inversament proporcionals a la 5ena potència del diàmetre"
+            }
+          ]
+        },
+        {
+          "text": "Exemple a 8 bar i 700 l/min: una mànega de 45 mm perd gairebé 1,8 bar i una de 70 mm, poc més de 0,2 bar. Mànegues en sèrie: les pèrdues se sumen. En paral·lel (estesa doble entre l'hidrant i l'aspiració de la bomba), les pèrdues baixen dràsticament i el cabal gairebé es duplica.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.4 Pèrdues en mànegues",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "En canvi, quan connectem mànegues en paral·lel, és a dir, fem una estesa de mànegues doble entre dos punts, per exemple de l’hidrant a l’aspiració de la bomba, les pèrdues de càrrega del conjunt baixen dràsticament i el cabal gairebé es duplica."
+            }
+          ]
+        },
+        {
+          "text": "La reacció del raig és la força contrària al raig que ha de suportar el bomber. Per a una mateixa llança depèn de la pressió, del cabal i de la forma del raig: amb raig tens és màxima i amb un con molt obert, menor.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 6.3.2 Reacció del raig",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Per una mateixa llança, la força de reacció depèn de la pressió, del cabal i de la forma del raig."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Aplicacions de Bernoulli: Venturi, Torricelli i aspiració",
+      "blocks": [
+        {
+          "text": "Efecte Venturi: quan un fluid circula per un conducte tancat que s'estreny, augmenta la velocitat i disminueix la pressió, que pot arribar a ser negativa i fer succió. S'aplica en carburadors, mesuradors de cabal, ejectors i premescladors d'escumogen. Teorema de Torricelli: la velocitat de sortida per un forat depèn de l'alçada de líquid per sobre, no de la mida del forat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.5.1 Efecte Venturi",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "L'efecte Venturi és un fenomen físic que es produeix quan un fluid circula per un conducte tancat que s’estreny, disminueix la seva pressió ja que augmenta la velocitat."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.5.2 Teorema de Torricelli",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Observeu que la velocitat de sortida no depèn de la mida del forat, només de l’alçada de columna de líquid."
+            }
+          ]
+        },
+        {
+          "text": "En l'aspiració no és el buit el que «estira» l'aigua, sinó la pressió atmosfèrica que l'empeny. Amb les bombes de bombers no es pot pretendre aspirar a més de 7 o 8 m, per la pressió atmosfèrica variable (a 1.000 m d'altitud es perden 1,29 m), la impossibilitat del buit absolut, la conversió en velocitat i les pèrdues de càrrega.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.5.3 Aspiració",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "En realitat no és el buit que “estira” el líquid, si no que és la pressió atmosfèrica que empeny."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.5.3 Aspiració",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Amb les bombes que utilitzem els bombers, no podem pretendre assolir una altura d'aspiració de més de 7 o 8 metres"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Fenòmens associats: cop d'ariet i cavitació",
+      "blocks": [
+        {
+          "text": "El cop d'ariet és una sobrepressió causada per reduccions brusques de cabal (per exemple, tancar de sobte una vàlvula): l'energia cinètica es converteix en pressió i l'ona pot ser diverses vegades superior a la de treball. Pot trencar canonades, danyar bombes i vàlvules i desplaçar mànegues. Les vàlvules de bola s'han de tancar lentament (uns 8 segons en mànegues de 70 mm).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.6 Cop d'ariet",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "El cop d’ariet és un fenomen físic de sobrepressió que es produeix en les instal·lacions hidràuliques a causa de les reduccions brusques de cabal."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.6 Cop d'ariet",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Aquesta ona de sobrepressió pot ser diverses vegades superior a la pressió de treball normal del sistema."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.6 Cop d'ariet",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "que hem de ser conscients a tancar-les lenta i progressivament, sobretot com més gran sigui el cabal que circula (uns 8 segons en mànegues de 70 mm)."
+            }
+          ]
+        },
+        {
+          "text": "La cavitació es produeix quan la pressió baixa tant que es formen bombolles de vapor, que després col·lapsen i arrenquen material, fan vibracions i redueixen el rendiment. Es dona sobretot en aspiració; en una centrífuga, a l'entrada axial i al dors dels àleps del rodet. S'evita amb bona estanquitat, alçades d'aspiració baixes i sense forçar la bomba.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.7 Cavitació",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La cavitació és un fenomen físic no desitjat que es produeix quan, en una zona del circuit la pressió del líquid baixa tant que es formen bombolles de vapor d’aigua."
+            },
+            {
+              "ref": "MAN.GRAL.009, 4.7 Cavitació",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Aquest fenomen es dona especialment en operacions d’aspiració, quan el líquid és empès cap a la bomba pel buit generat. El lloc on és més probable que es produeixi la cavitació és a la l'entrada axial de la bomba i en el dors dels àleps del rodet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Bombes: centrífugues i volumètriques",
+      "blocks": [
+        {
+          "text": "Les bombes transformen energia mecànica en hidràulica i es classifiquen en centrífugues i volumètriques. Les centrífugues són les més utilitzades pels bombers: entrada axial, rodet i col·lector (voluta) amb sortida tangencial, sense estanqueïtat entre rodet i carcassa. Si es tanca la sortida el rodet continua girant i l'aigua s'escalfa. Diversos rodets en sèrie formen bombes multietapa. La turbobomba és una centrífuga submergible accionada per un motor hidràulic.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 5.1 Bombes centrífugues",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Les bombes centrífugues transformen l’energia mecànica en energia cinètica i pressió. Són les més utilitzades pels bombers. Consten d'una entrada axial, un rodet i un col·lector amb sortida tangencial."
+            },
+            {
+              "ref": "MAN.GRAL.009, 5.1 Bombes centrífugues",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Entre el rodet i la carcassa exterior no hi ha estanqueïtat."
+            }
+          ]
+        },
+        {
+          "text": "Les volumètriques o de desplaçament positiu desplacen un volum fix per cicle: donen pressions molt altes i són autocebants. Si es tanca la sortida, s'aturen o necessiten un by-pass o vàlvula de sobrepressió. Poden ser rotatives (engranatges, lòbuls, paletes, peristàltiques) o alternatives (pistó o membrana).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 5.2 Bombes volumètriques",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Generalment són més complexes constructivament que les centrífugues, però poden donar pressions molt elevades, són autocebants i algunes reversibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "12",
+      "title": "Corbes característiques, hidrant i punt de funcionament",
+      "blocks": [
+        {
+          "text": "La corba característica relaciona pressió i cabal. En una centrífuga, a més cabal menys pressió, amb una corba per a cada velocitat de gir. En una volumètrica, el cabal és gairebé constant independentment de la pressió i la corba és gairebé una recta vertical. Un hidrant té una sola corba; n'interessa sobretot el cabal: molta pressió estàtica no vol dir que sigui un bon hidrant.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 5.3.1 Bomba centrífuga",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "La corba característica P/Q d’una bomba centrífuga té el següent aspecte, a més cabal menys pressió i viceversa"
+            },
+            {
+              "ref": "MAN.GRAL.009, 5.3.3 Bomba volumètrica",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "El seu disseny de desplaçament positiu fa que el cabal sigui gairebé constant independentment de la pressió. Per això, la corba pressió/cabal és gairebé una línia recta vertical."
+            },
+            {
+              "ref": "MAN.GRAL.009, 5.3.2 Hidrant",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "D’un hidrant ens interessa sobretot la seva capacitat de proveir cabal, la pressió no ens interessa tant ja que l’aconseguirem amb les nostres bombes."
+            }
+          ]
+        },
+        {
+          "text": "El punt de funcionament és la intersecció entre la corba de la bomba i la corba resistent de la instal·lació (pèrdues de càrrega més desnivell): és el punt de treball real. Si canvia la bomba (règim, aspiració) o la instal·lació (mànegues, llança), el punt es mou; en l'exemple del manual, passar de 2.400 a 2.800 rpm augmenta alhora la pressió i el cabal.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 5.3.4 Punt de funcionament",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "El punt de funcionament és la intersecció entre la corba característica de la bomba i la corba resistent de la instal·lació."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Densitat: massa per unitat de volum. Viscositat: resistència a fluir (aigua, 0,001 Pa·s); baixa amb la temperatura en líquids.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2.2",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "L’aigua té una viscositat dinàmica molt baixa, de 0,001 Pa·s."
+            }
+          ]
+        },
+        {
+          "text": "A 3.000 m l'aigua bull a uns 90 °C. Tensioactius: menys tensió superficial, més penetració i escumes.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 2.3",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "l’aigua bull a menys temperatura (uns 90 ºC)"
+            }
+          ]
+        },
+        {
+          "text": "1 bar = 10 m.c.a. La pressió atmosfèrica baixa 0,129 m.c.a. cada 100 m. Relativa = la del manòmetre; absoluta = relativa + atmosfèrica.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.1.3",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "P absoluta = P relativa + P atmosfèrica"
+            }
+          ]
+        },
+        {
+          "text": "Arquimedes: empenta igual al pes del fluid desplaçat. Pascal: la pressió es transmet igual en totes direccions.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 3.4",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "que és igual al pes del fluid que desplaça"
+            }
+          ]
+        },
+        {
+          "text": "Continuïtat: cabal constant; menys secció, més velocitat. Venturi: estretament, més velocitat i menys pressió.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.2.2",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "el cabal és constant en qualsevol punt d'una conducció"
+            }
+          ]
+        },
+        {
+          "text": "Pèrdues: ∝ longitud, ∝ cabal², ∝ 1/diàmetre⁵. Estesa doble: gairebé el doble de cabal. Aspiració màxima real: 7-8 m.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.4",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "les pèrdues de càrrega del conjunt baixen dràsticament i el cabal gairebé es duplica"
+            }
+          ]
+        },
+        {
+          "text": "Cop d'ariet: reducció brusca de cabal. Cavitació: bombolles de vapor, en aspiració, a l'entrada axial i al dors dels àleps.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 4.7",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "en el dors dels àleps del rodet"
+            }
+          ]
+        },
+        {
+          "text": "Centrífuga: la més usada, sense estanqueïtat. Volumètrica: corba gairebé vertical. Punt de funcionament: bomba × instal·lació.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, 5.3.3",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "la corba pressió/cabal és gairebé una línia recta vertical"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lofcs-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 20, tema P09) · Art. 5.5 LO 2/1986",
+      "stem": "Según la Ley Orgánica 2/1986, en relación con el secreto profesional, los miembros de las Fuerzas y Cuerpos de Seguridad:",
+      "options": [
+        "Estarán obligados a revelar las fuentes de información siempre que se lo requiera un superior jerárquico.",
+        "Solo guardarán secreto de las informaciones calificadas como reservadas por el Ministerio del Interior.",
+        "No estarán obligados a revelar las fuentes de información, salvo que el ejercicio de sus funciones o las disposiciones de la Ley les impongan actuar de otra manera."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 5.5 LOFCS impone un riguroso secreto sobre todas las informaciones conocidas por razón del cargo y exime de revelar las fuentes salvo exigencia legal o funcional.",
+      "excerpt": "No estarán obligados a revelar las fuentes de información salvo que el ejercicio de sus funciones o las disposiciones de la Ley les impongan actuar de otra manera.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 21, tema P09) · Art. 6.3 LO 2/1986",
+      "stem": "Según la Ley Orgánica 2/1986, los miembros de las Fuerzas y Cuerpos de Seguridad deberán jurar o prometer acatamiento:",
+      "options": [
+        "A la Constitución como norma fundamental del Estado.",
+        "Al Ministro del Interior como mando superior.",
+        "Al Estatuto de Autonomía de la Comunidad en que presten servicio."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 6.3 LOFCS exige jurar o prometer acatamiento a la Constitución.",
+      "excerpt": "3. Los miembros de las Fuerzas y Cuerpos de Seguridad deberán jurar o prometer acatamiento a la Constitución como norma fundamental del Estado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 22, tema P09) · Art. 8.2 LO 2/1986",
+      "stem": "Según la Ley Orgánica 2/1986, la prisión preventiva y las penas privativas de libertad de los miembros de las Fuerzas y Cuerpos de Seguridad se cumplirán:",
+      "options": [
+        "En establecimientos penitenciarios militares.",
+        "En establecimientos penitenciarios ordinarios, con separación del resto de detenidos o presos.",
+        "En dependencias policiales habilitadas al efecto."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 8.2 LOFCS prevé establecimientos ordinarios, pero con separación del resto de internos.",
+      "excerpt": "2. El cumplimiento de la prisión preventiva y de las penas privativas de libertad por los miembros de las Fuerzas y Cuerpos de Seguridad, se realizarán en establecimientos penitenciarios ordinarios, con separación del resto de detenidos o presos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

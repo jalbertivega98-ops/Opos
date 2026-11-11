@@ -474,7 +474,37 @@
     "chartTotal": "{n} en 30 días",
     "chartHint": "Pasa el ratón por una barra para ver el día y la cifra. «Han entrado» cuenta a cada persona una vez al día, tanto si inicia sesión como si ya la tenía abierta. La suma de 30 días puede contar a la misma persona en días distintos.",
     "salesHint": "Las ventas, suscripciones y códigos promocionales están en",
-    "salesLink": "Compras"
+    "salesLink": "Compras",
+    "funnel": {
+      "title": "Embudo de conversión",
+      "period": "Periodo del embudo",
+      "days": "{n} días",
+      "intro": "Cuánta gente pasa de cada paso al siguiente. «Crean cuenta» se compara con las visitas, porque no hace falta hacer antes el test gratis. Los pasos 4 a 7 son de las cuentas creadas en este periodo.",
+      "rate": "{pct} % de «{base}»",
+      "drop": "Mayor caída",
+      "steps": {
+        "visits": "Visitas",
+        "sample_start": "Empiezan un test gratis",
+        "sample_finish": "Terminan el test gratis",
+        "signups": "Crean cuenta",
+        "onboarded": "Completan la bienvenida",
+        "practicing": "Practican",
+        "paying": "Pagan"
+      },
+      "hints": {
+        "visits": "Visitas de personas (sin robots) a la web pública.",
+        "sample_start": "Responden la primera pregunta del test gratis sin registro.",
+        "sample_finish": "Llegan al resultado del test gratis.",
+        "signups": "Cuentas nuevas creadas en el periodo.",
+        "onboarded": "De esas cuentas, las que eligieron oposición y terminaron la bienvenida.",
+        "practicing": "De esas cuentas, las que han respondido algún test, psicotécnico o simulacro.",
+        "paying": "De esas cuentas, las que han pagado con Stripe (no cuenta regalos ni códigos de acceso)."
+      },
+      "byExam": "Test gratis por oposición",
+      "byExamValue": "{starts} empiezan · {finishes} terminan",
+      "note": "El test gratis se cuenta desde el 11/11/2026; antes de esa fecha sale 0. Solo son contadores diarios: no se guarda quién hizo el test.",
+      "rateNone": "sin datos para comparar"
+    }
   },
   "profile": {
     "title": "Mi perfil",
@@ -1077,7 +1107,12 @@
     "reviewPsycho": "Repasar psicotécnicos",
     "reviewQuestions": "Repasar preguntas",
     "reviewSplit": "Psicotécnicos: {psycho} · Preguntas: {questions}",
-    "blank": "En blanco"
+    "blank": "En blanco",
+    "topicProgress": "Llevas {answered} respuestas en este tema con un {pct} % de aciertos ({published} preguntas en el banco).",
+    "topicMastered": "¡Tema dominado! Sigue repasando de vez en cuando para no olvidarlo.",
+    "topicGoal": "Para dominarlo: al menos {answered} respuestas y un {pct} % de aciertos.",
+    "topicMore": "Otras 10 preguntas de este tema",
+    "topicStudy": "Estudiar el tema"
   },
   "progress": {
     "title": "Mi progreso",
@@ -1405,7 +1440,8 @@
         "purchase": "Comprado",
         "subscription": "Premium",
         "free": "Gratuito",
-        "bundle": "Incluido en tu pack"
+        "bundle": "Incluido en tu pack",
+        "trial": "Primer simulacro gratis"
       },
       "start": "Practicar",
       "count": "Preguntas por test",
@@ -1580,7 +1616,8 @@
         "psycho": "Psicotécnicos de práctica con corrección y explicación",
         "progress": "Estadísticas de progreso y racha de estudio",
         "topics": "Test de 3 temas gratis: {topics} ({questions} preguntas con explicación y fuente)",
-        "notes": "Fichas de estudio de todos los temas"
+        "notes": "Fichas de estudio de todos los temas",
+        "mock": "Tu primer simulacro gratis, con nota y corrección"
       },
       "cta": "Crear cuenta gratis"
     },
@@ -1604,7 +1641,13 @@
       "mockFormatSections": "{questions} preguntas en {minutes} min, por partes · cada error resta {penalty, number} · hay que llegar al corte en cada parte",
       "buy": "Comprar el pack · {price}",
       "buyPremium": "Hazte Premium · {price} al mes",
-      "cancel": "Una sola suscripción para esta oposición. Cancela cuando quieras."
+      "cancel": "Una sola suscripción para esta oposición. Cancela cuando quieras.",
+      "orientative": "formato orientativo",
+      "monthly": "Mensual · {price} al mes",
+      "yearly": "Anual · {price} al año (ahorras un {pct} %)",
+      "yearlyNote": "o {price} al año",
+      "choose": "Elige cómo pagar",
+      "buyPremiumPlain": "Hazte Premium"
     },
     "topicsTitle": "Ver los {count} temas incluidos",
     "topicQuestions": "{count} preg.",
@@ -1641,7 +1684,10 @@
     "sourceFallback": "Fuente oficial",
     "practiceCta": "Practicar con preguntas",
     "planCta": "Ver mi plan",
-    "unlockCta": "Desbloquear este tema"
+    "unlockCta": "Desbloquear este tema",
+    "lessons": "Apuntes del tema",
+    "lessonsHint": "Redactados a partir de la norma oficial, en el idioma del examen. Debajo de cada párrafo tienes el artículo y su texto literal.",
+    "lessonsIndex": "Apartados de los apuntes"
   },
   "seo": {
     "home": {
@@ -1762,7 +1808,8 @@
       "ya-lo-tienes": "Ya tienes acceso a ese producto.",
       "ya-premium": "Ya eres Premium.",
       "portal-error": "No se ha podido abrir la gestión de la suscripción. Inténtalo más tarde."
-    }
+    },
+    "premiumBodyYear": "Todo el temario en test, los simulacros y los exámenes réplica de tu oposición por {price} al mes o {yearPrice} al año. Cancela cuando quieras."
   },
   "calendar": {
     "title": "Tu calendario de estudio",
@@ -1785,6 +1832,8 @@
     "empty": "Aún no tienes simulacros",
     "emptyBody": "Los simulacros vienen con el Premium de tu oposición o con un pack de 10 intentos.",
     "buyTitle": "Packs de intentos",
-    "buySubtitle": "Intentos sueltos de simulacro, sin suscripción."
+    "buySubtitle": "Intentos sueltos de simulacro, sin suscripción.",
+    "trialTitle": "Tu primer simulacro es gratis",
+    "trialBody": "Elige uno: lo haces con el tiempo y la penalización del examen real y ves tu nota. Después, los simulacros van con Premium o con un pack de intentos."
   }
 }

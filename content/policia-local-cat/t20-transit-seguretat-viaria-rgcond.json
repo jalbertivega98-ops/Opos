@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "plcat-t20-transit-seguretat-viaria-rgcond-v1",
+    "exam": "policia-local",
+    "also_exams": [],
+    "topic": "Tema 20. Trànsit i seguretat viària: text refós de la Llei de trànsit, Reglament general de circulació i Reglament general de conductors",
+    "topic_slug": "plcat-t20-transit-seguretat-viaria",
+    "locale": "ca",
+    "category": "plcat_t20_transit_seguretat_viaria",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Real Decreto 818/2009, de 8 de mayo, Reglamento General de Conductores (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil dels exàmens d'agent de policia local de Catalunya (4 opcions, una correcta; cada error resta 1/4). Redactades a partir del text oficial (BOE consolidat o Portal Jurídic de Catalunya); no provenen de bancs d'acadèmies. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 4.2 RGCond",
+      "stem": "Segons l'article 4.2 del Reglament general de conductors, l'edat mínima per obtenir el permís de la classe A2 (motocicletes de potència màxima de 35 kW) és de:",
+      "options": [
+        "16 anys.",
+        "20 anys.",
+        "18 anys.",
+        "21 anys."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'article 4.2 RGCond fixa 15 anys per a l'AM, 16 per a l'A1, 18 per a l'A2 i 20 per a l'A.",
+      "excerpt": "| A2 | Motocicletas con una potencia máxima de 35 kW y una relación potencia/peso máxima de 0,2 kW/kg y no derivadas de un vehículo con más del doble de su potencia. | 18 |",
+      "excerpt_status": "completo"
+    }
+  ]
+}

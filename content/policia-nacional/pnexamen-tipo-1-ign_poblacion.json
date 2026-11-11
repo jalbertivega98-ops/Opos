@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-ign_poblacion-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Atlas Didáctico (Bachillerato): Población, Migraciones y Ciudades",
+      "url": "https://educativo.ign.es/atlas-didactico/poblacion-bach/",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG), recurso educativo oficial (CC BY 4.0)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 70, tema P31) · IGN, Atlas Didáctico: Migraciones, introducción",
+      "stem": "Según el Atlas Didáctico del Instituto Geográfico Nacional, las migraciones pueden ser:",
+      "options": [
+        "Siempre voluntarias y por causas exclusivamente económicas.",
+        "Voluntarias o involuntarias, existiendo múltiples causas que favorecen que se produzcan.",
+        "Siempre involuntarias y por causas exclusivamente políticas."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El IGN distingue migraciones voluntarias e involuntarias y menciona causas económicas, ambientales, sociales, etc.",
+      "excerpt": "Las migraciones pueden ser voluntarias o involuntarias, existiendo múltiples causas que favorecen que estas se produzcan (económicas, ambientales, sociales, etc.).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 71, tema P31) · IGN, Atlas Didáctico: Saldo migratorio",
+      "stem": "Según el Instituto Geográfico Nacional, el saldo migratorio de un lugar se calcula:",
+      "options": [
+        "Restando el número de emigrantes al número de inmigrantes.",
+        "Restando las defunciones a los nacimientos.",
+        "Sumando los inmigrantes y los emigrantes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El saldo migratorio es la diferencia entre inmigrantes y emigrantes; si es positivo, la población aumenta. La diferencia entre nacimientos y defunciones es el crecimiento natural o vegetativo.",
+      "excerpt": "Se calcula restando el número de emigrantes al número de inmigrantes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

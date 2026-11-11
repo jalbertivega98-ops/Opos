@@ -16,7 +16,12 @@ export async function BuyForm({
   testMode,
   className,
   size = "md",
+  intervals,
+  intervalsLegend,
 }: {
+  /** Premium: opciones de pago (mensual / anual). La primera va marcada. */
+  intervals?: { value: "month" | "year"; label: string }[];
+  intervalsLegend?: string;
   slug: string;
   back: string;
   label: string;
@@ -34,6 +39,31 @@ export async function BuyForm({
     >
       <input type="hidden" name="slug" value={slug} />
       <input type="hidden" name="back" value={back} />
+      {intervals && intervals.length > 1 && (
+        <fieldset className="space-y-1.5" data-testid="buy-intervals">
+          {intervalsLegend && (
+            <legend className="mb-1 text-sm font-medium">{intervalsLegend}</legend>
+          )}
+          {intervals.map((opt, i) => (
+            <label
+              key={opt.value}
+              className="border-border has-[:checked]:border-accent has-[:checked]:bg-accent-soft flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2 text-sm"
+            >
+              <input
+                type="radio"
+                name="interval"
+                value={opt.value}
+                defaultChecked={i === 0}
+                className="size-4 shrink-0"
+              />
+              <span>{opt.label}</span>
+            </label>
+          ))}
+        </fieldset>
+      )}
+      {intervals && intervals.length === 1 && (
+        <input type="hidden" name="interval" value={intervals[0].value} />
+      )}
       <label htmlFor={id} className="text-muted-foreground flex items-start gap-2 text-xs">
         <input id={id} type="checkbox" name="consent" required className="mt-0.5 size-4 shrink-0" />
         <span>

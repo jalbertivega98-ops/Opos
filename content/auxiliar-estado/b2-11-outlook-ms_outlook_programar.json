@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "set": "age-aux-b2-11-outlook-ms_outlook_programar-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.11 Correo electrónico: Outlook 365",
+    "topic_slug": "age-aux-b2-11-outlook",
+    "locale": "es",
+    "category": "age_aux_b2_11_outlook",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Retrasar o programar el envío de mensajes de correo electrónico",
+      "url": "https://support.microsoft.com/es-es/office/retrasar-o-programar-el-env%C3%ADo-de-mensajes-de-correo-electr%C3%B3nico-026af69f-c287-490a-a72f-6c65793744ba",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Retrasar la entrega · Bandeja de salida",
+      "stem": "Según Microsoft, ¿cómo puede retrasarse la entrega de un mensaje individual en Outlook?",
+      "options": [
+        "Manteniéndolo en la Bandeja de salida.",
+        "Moviéndolo a la carpeta Elementos eliminados.",
+        "Guardándolo como plantilla de Outlook.",
+        "Enviándolo con la opción CCO."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Se puede retrasar la entrega de un mensaje individual manteniéndolo en la Bandeja de salida.",
+      "excerpt": "Puede retrasar la entrega de un mensaje individual si lo mantiene en la Bandeja de salida",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Programar envío · Carpeta Borrador",
+      "stem": "Tras programar el envío de un mensaje y seleccionar Enviar, ¿dónde permanece el mensaje hasta la hora de entrega?",
+      "options": [
+        "En la Bandeja de entrada.",
+        "En la carpeta Elementos enviados.",
+        "En la carpeta Correo no deseado.",
+        "En la carpeta Borrador."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Después de seleccionar Enviar, el mensaje programado permanece en la carpeta Borrador hasta la hora de entrega.",
+      "excerpt": "Después de seleccionar Enviar, el mensaje permanece en la carpeta Borrador hasta la hora de entrega.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

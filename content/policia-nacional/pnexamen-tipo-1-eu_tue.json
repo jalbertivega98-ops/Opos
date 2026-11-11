@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-eu_tue-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Tratado de la Unión Europea (versión consolidada), arts. 13-19",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT",
+      "kind": "web_oficial",
+      "publisher": "Unión Europea · EUR-Lex (DOUE C 202 de 7.6.2016)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 9, tema P04) · Art. 14.1 TUE",
+      "stem": "Según el Tratado de la Unión Europea, ¿qué institución elige al Presidente de la Comisión?",
+      "options": [
+        "El Consejo Europeo.",
+        "El Parlamento Europeo.",
+        "El Consejo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 14.1 TUE atribuye al Parlamento Europeo, junto a sus funciones legislativa, presupuestaria, de control y consultiva, la elección del Presidente de la Comisión.",
+      "excerpt": "Elegirá al Presidente de la Comisión.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 10, tema P04) · Art. 16.3 TUE",
+      "stem": "Según el Tratado de la Unión Europea, salvo que los Tratados dispongan otra cosa, el Consejo se pronunciará:",
+      "options": [
+        "Por mayoría cualificada.",
+        "Por unanimidad.",
+        "Por mayoría simple."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 16.3 TUE fija la mayoría cualificada como regla general de votación del Consejo.",
+      "excerpt": "3. El Consejo se pronunciará por mayoría cualificada, excepto cuando los Tratados dispongan otra cosa.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -81,5 +81,527 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "La Tierra y su representación: geoide, elipsoide y red geográfica",
+      "blocks": [
+        {
+          "text": "La Tierra es un cuerpo casi esférico, achatado por los polos y ensanchado por el ecuador, parecido a un elipsoide. Su forma real es un geoide: la superficie que formarían los mares y océanos en calma prolongados por debajo de los continentes. Como el geoide es difícil de conocer con exactitud, la cartografía la simplifica como elipsoide o esfera. Representarla plantea dos problemas: la forma, que se resuelve con las proyecciones, y las dimensiones, que llevan al concepto de escala.",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 1.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "La forma real de la Tierra es un geoide cuya superficie irregular coincide con la que resultaría al prolongar por debajo de las superficies continentales, los mares y océanos en calma."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "la primera cuestión, la forma, se soluciona mediante los métodos de proyección cartográfica, mientras que la segunda, las dimensiones, conduce al concepto de escala."
+            }
+          ]
+        },
+        {
+          "text": "Los meridianos son círculos máximos que van de polo a polo; el meridiano 0 pasa por Greenwich y desde él se numeran los demás hacia el Este y el Oeste hasta los 180°. El ecuador, a igual distancia de ambos polos, divide la Tierra en hemisferios Norte y Sur, y los paralelos son círculos menores paralelos a él, numerados de 0° a 90° hasta los polos. Desde 1884 Greenwich es el meridiano de referencia internacional.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 3",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "A igual distancia de ambos polos otro círculo máximo rodea la Tierra: es el Ecuador, que a su vez la divide en dos hemisferios denominados Norte y Sur."
+            },
+            {
+              "ref": "Glosario, «meridiano»",
+              "law": "IGN, Glosario del Atlas Didáctico",
+              "url": "https://educativo.ign.es/atlas-didactico/glosario/index.html",
+              "quote": "Desde 1884 se utiliza internacionalmente como meridiano de referencia (a partir del cual se mide la longitud) el que pasa por el observatorio inglés de Greenwich (0º)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Coordenadas geográficas y unidades angulares",
+      "blocks": [
+        {
+          "text": "La latitud es la distancia angular desde un punto hasta el ecuador; la determinan los paralelos y va de 0° a 90° Norte o Sur. La longitud es la distancia angular entre un punto y el meridiano de Greenwich; la determinan los meridianos y va de 0° a 180° Este u Oeste. Ambas se miden en el sistema sexagesimal: cada grado tiene 60 minutos y cada minuto, 60 segundos. Por ejemplo, Madrid está a 3°41’ W y 40°24’ N. A las dos coordenadas puede añadirse la altitud. Ojo: no hay en la carpeta fuente oficial sobre las unidades centesimales ni las milésimas artilleras, por lo que no se desarrollan aquí.",
+          "refs": [
+            {
+              "ref": "Atlas Didáctico, Latitud y longitud",
+              "law": "IGN, Atlas Didáctico (cartografía)",
+              "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+              "quote": "Los paralelos determinan la latitud, es decir, la distancia angular que hay desde un punto de la superficie de la Tierra hasta el ecuador. La latitud se mide en grados, minutos y segundos de arco, de 0º a 90°, dirección Norte o Sur."
+            },
+            {
+              "ref": "Atlas Didáctico, Latitud y longitud",
+              "law": "IGN, Atlas Didáctico (cartografía)",
+              "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+              "quote": "La longitud se mide en grados, minutos y segundos de arco de 0º a 180°, dirección Este u Oeste."
+            },
+            {
+              "ref": "Atlas Didáctico, glosario «latitud»",
+              "law": "IGN, Atlas Didáctico (cartografía)",
+              "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+              "quote": "Cada grado se divide en 60 minutos y cada minuto en 60 segundos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Proyecciones cartográficas según lo que conservan",
+      "blocks": [
+        {
+          "text": "Una proyección es una correspondencia biunívoca entre los puntos de la Tierra y los del plano de proyección; como es imposible pasar de la esfera al plano sin deformar, cada proyección conserva una cualidad. Las conformes mantienen los ángulos y se usan en cartas de navegación. Las equivalentes conservan las superficies, aunque las figuras dejen de ser semejantes, y se usan en mapas temáticos o parcelarios. Las equidistantes mantienen las distancias entre dos puntos. Las afilácticas no conservan ángulos, superficies ni distancias, pero sus deformaciones son mínimas.",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 2.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "a.- Proyecciones Conformes. Una proyección cartográfica es conforme cuando mantiene los ángulos que forman dos líneas en la superficie terrestre. Este tipo de proyecciones se utilizan en cartas de navegación."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 2.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Se utilizan generalmente en mapas temáticos o parcelarios."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 2.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Una proyección cartográfica es afiláctica cuando no conserva ángulos, superficies ni distancias, pero las deformaciones son mínimas."
+            }
+          ]
+        },
+        {
+          "text": "Según la figura auxiliar, las cónicas proyectan sobre un cono: los meridianos salen como rectas que concurren en el vértice y los paralelos como circunferencias concéntricas (por ejemplo, Lambert y Bonne). Las cilíndricas proyectan sobre un cilindro: los meridianos son rectas paralelas y los paralelos, rectas perpendiculares que se separan al aumentar la latitud (Mercator y UTM). En la de Mercator (1569), la línea loxodrómica que seguían los navíos con rumbo constante, cortando todos los meridianos con el mismo ángulo, se convierte en una recta.",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 2.2",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Son ejemplos las proyecciones de Lambert y Bonne."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 6",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "describían una línea denominada loxodrómica, que con un rumbo constante cortaba a todos los meridianos bajo el mismo ángulo y que en este tipo de proyección se transforma en una línea recta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "La proyección UTM",
+      "blocks": [
+        {
+          "text": "El Mapa Topográfico Nacional usó primero la proyección poliédrica, que no era conforme ni equivalente y daba problemas al unir hojas. El Decreto 2.033/1970 hizo reglamentaria la UTM (Universal Transversa Mercator), que usa un cilindro colocado transversalmente, con su eje en el plano del ecuador. Se desarrolla en husos de 6° numerados del 1 al 60 desde el meridiano 180° hacia el este. España ocupa los husos 28 (18°-12° W), 29 (12°-6° W), 30 (6° W-0°) y 31 (0°-6° E). El meridiano central de cada huso es el eje Y y el ecuador, el eje X; la proyección es conforme.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 8",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "La proyección UTM (Universal Transversa Mercator) utiliza un cilindro colocado transversalmente, esto es, con su eje situado en el plano del ecuador."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 8",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "donde el Decreto 2.033/1970 la hace reglamentaria para el Mapa Topográfico Nacional, sustituyendo a la antigua proyección poliédrica."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 8",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "La proyección se desarrolla para husos de 6° de amplitud (numerados del 1 al 60 a partir del meridiano 180° hacia el este). España queda comprendida en los husos 28 (de 18° a 12° W), 29 (de 12° a 6° W), 30 (de 6°W a 0°) y 31 (de 0° a 6°E)."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 8",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "La proyección es conforme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "La escala: formas de expresarla y cálculo de distancias",
+      "blocks": [
+        {
+          "text": "La escala es la relación entre una distancia en el mapa y la correspondiente en el terreno. Puede expresarse de tres formas: numérica, gráfica y textual o literal. La numérica es una fracción cuyo numerador es la distancia en el mapa y cuyo denominador, la distancia en el terreno. La gráfica es una línea dividida en segmentos que permite medir directamente con regla o compás. La textual se escribe, por ejemplo: «un centímetro representa 600 kilómetros».",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 3",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "La escala puede expresarse de tres formas distintas: numérica, gráfica y textual o literal."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 3.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "La escala numérica se expresa mediante una fracción que indica la relación entre la distancia medida de dos puntos en el mapa (numerador) y la correspondiente en el terreno (denominador)"
+            }
+          ]
+        },
+        {
+          "text": "Para calcular distancias se multiplica la medida en el mapa por el denominador. A escala 1:50.000, un centímetro equivale a 500 metros; a 1:25.000, cada centímetro son 250 metros. Así, 120 mm medidos en un mapa 1:25.000 son 3.000 m, es decir, 3 km.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 9",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "a una línea de un centímetro en el mapa le corresponde en el terreno una longitud de 50.000 veces un centímetro, es decir, 500 metros."
+            },
+            {
+              "ref": "Descubre el Territorio, El desnivel",
+              "law": "IGN, Descubre el Territorio",
+              "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+              "quote": "x = 25.000 * 120 mm = 3.000 m = 3 km"
+            }
+          ]
+        },
+        {
+          "text": "Un mapa a gran escala tiene denominador pequeño y más detalle; uno a pequeña escala tiene denominador grande y abarca más territorio con menos detalle. Se llaman mapas de pequeña escala los de escala menor de 1:100.000, de gran escala los de escala mayor de 1:10.000, y planos a partir de 1:2.000, porque ya no se considera la esfericidad de la Tierra.",
+          "refs": [
+            {
+              "ref": "Atlas Didáctico, Partes de un mapa",
+              "law": "IGN, Atlas Didáctico (cartografía)",
+              "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+              "quote": "Si se quiere más detalle, se necesitará un mapa a gran escala (denominador pequeño)"
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 4.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Se suelen denominar mapas de pequeña escala aquéllos cuya escala es menor de 1:100.000."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 4.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Se denominan planos a partir de 1:2.000, al no considerar la esfericidad de la Tierra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Elementos del mapa y Mapa Topográfico Nacional (MTN50 y MTN25)",
+      "blocks": [
+        {
+          "text": "Todo mapa debe llevar, como elementos imprescindibles, la escala y la leyenda. En el MTN50, el margen inferior recoge la escala numérica y gráfica, el elipsoide, la proyección, el dátum y la equidistancia. La cuadrícula tiene líneas cada 2 cm, que equivalen a un kilómetro en el terreno. La leyenda está en el margen inferior izquierdo, en tres columnas (elementos lineales, símbolos puntuales y usos del suelo), y en el inferior derecho figuran la toponimia y los vértices geodésicos.",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 5",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Los elementos imprescindibles que deben aparecer en todos los mapas son: la escala utilizada y la leyenda."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 5.4",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Cuadrícula de líneas horizontales y verticales, dibujadas con una separación de 2 cm (equivalente a un kilómetro en el terreno)."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 5.6",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "En el margen inferior izquierdo se sitúa la lista explicativa que define con detalle y sin lugar a equívoco todos los signos convencionales utilizados en el mapa. La leyenda se divide en tres columnas"
+            }
+          ]
+        },
+        {
+          "text": "La primera hoja del MTN50 (la 559, Madrid) se publicó en 1875, y la serie tiene 1.076 hojas. Cada hoja toma el nombre de la población más habitada que aparece. Se edita con seis colores: negro (límites, caminos, toponimia), siena (curvas de nivel), azul (aguas), rojo (núcleos urbanos y carreteras nacionales), verde y amarillo. Cada hoja del MTN50 origina cuatro hojas del MTN25, los cuartos I, II, III y IV, hechos desde su inicio en UTM; esta serie tiene 4.123 hojas.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 23",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "La primera hoja de este mapa (número 559, Madrid) se publicó en el año 1875."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 23",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "Siena: curvas de nivel (altimetría)."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 24",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "cada hoja de esta serie va a dar origen a cuatro nuevas hojas de la serie 1:25.000, cuartos I, II, III y IV, de tal manera que las dimensiones de cada cuarto son las mismas que las de la hoja del MTN 1:50.000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Planimetría, altimetría y curvas de nivel",
+      "blocks": [
+        {
+          "text": "La información del plano sin alturas es la planimetría, y la que indica altitudes sobre un plano de referencia es la altimetría. En la España peninsular el nivel cero es el nivel medio del mar en Alicante, y cada isla tiene su propio origen. Las curvas de nivel unen puntos de igual altitud; son un tipo de isolínea, como las isotermas (igual temperatura) o las isobaras (igual presión).",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 15",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "La información sobre el plano (planimetría) es insuficiente en la mayoría de los casos, por lo que es necesario disponer de una información altimétrica complementaria que nos señale altitudes sobre un plano de referencia."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 32",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "En la España peninsular este origen, nivel cero, se fija en el nivel medio del mar en Alicante."
+            },
+            {
+              "ref": "Conceptos cartográficos, ap. 7.c",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "si es la temperatura se denomina isotermas, y si los puntos de las isolíneas tienen igual presión se denominan isobaras."
+            }
+          ]
+        },
+        {
+          "text": "La equidistancia es la distancia vertical constante entre dos curvas consecutivas: 20 m en el MTN50 y 10 m en el MTN25 (5 m en zonas muy llanas). Cada cinco curvas se traza una más gruesa, la curva maestra o directora. Las curvas se rotulan con su cota en siena; las cotas de cumbres y otros puntos, en negro.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 32",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "En el Mapa Topográfico Nacional a escala 1:50.000 la equidistancia entre curvas de nivel es de 20 metros."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 32",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "cada cinco curvas de nivel se traza una más gruesa (curvas maestras o directoras)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Puntos acotados, tintas hipsométricas, sombreado y formas del terreno",
+      "blocks": [
+        {
+          "text": "Los puntos acotados tienen una posición determinada y se representan con su altitud numérica. Las tintas hipsométricas dan colores a rangos de altura y se usan en mapas de pequeña escala. El sombreado simula una maqueta iluminada oblicuamente desde el noroeste. Ojo: la carpeta no tiene fuente oficial sobre los planos acotados como sistema de representación; aquí solo se recoge el concepto de punto acotado.",
+          "refs": [
+            {
+              "ref": "Atlas Didáctico, Representación del relieve",
+              "law": "IGN, Atlas Didáctico (cartografía)",
+              "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+              "quote": "Puntos acotados. Son puntos que tienen una posición determinada y se representan con la indicación de su altitud numérica."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 33",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "como si se tratase de la fotografía de una maqueta iluminada oblicuamente con el foco luminoso situado hacia el Noroeste."
+            }
+          ]
+        },
+        {
+          "text": "Algunas formas del terreno según el glosario del IGN: la divisoria de aguas une los puntos desde los que las aguas van a cuencas distintas y suele coincidir con líneas de cumbres. La hoz es la angostura de un valle profundo o la curva de un río encajado entre paredes abruptas, normalmente en relieves calcáreos. El cerro testigo es una elevación aislada en una llanura, con cima de roca dura. La rambla es un cauce normalmente seco que lleva agua cuando llueve.",
+          "refs": [
+            {
+              "ref": "Glosario, «divisoria de aguas»",
+              "law": "IGN, Glosario del Atlas Didáctico",
+              "url": "https://educativo.ign.es/atlas-didactico/glosario/index.html",
+              "quote": "Línea que une los puntos en los que las aguas fluyen hacia cuencas hidrográficas diferentes. Suele corresponderse con líneas de cumbres."
+            },
+            {
+              "ref": "Glosario, «hoz»",
+              "law": "IGN, Glosario del Atlas Didáctico",
+              "url": "https://educativo.ign.es/atlas-didactico/glosario/index.html",
+              "quote": "Angostura de un valle profundo o curva que forma un río encajado entre paredes abruptas. Su figura recuerda la del instrumento que le da nombre. Normalmente está asociado a relieves calcáreos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Pendiente entre dos puntos",
+      "blocks": [
+        {
+          "text": "La pendiente se calcula dividiendo la diferencia de altura entre dos puntos (Δh) por la distancia entre ellos (D), y se expresa en tanto por ciento. Una señal del 10 % significa subir o bajar 10 m por cada 100 m recorridos. Ejemplo del IGN: de 1.053 m a 1.225 m hay 172 m de desnivel en 2.600 m, una pendiente del 6,6 %. Con el mismo método, de 1.225 m a 1.354 m (129 m) en 2.390 m sale alrededor del 5,4 %. Curvas muy juntas indican pendiente fuerte, y curvas separadas, pendiente suave.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 33",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "La pendiente de una carretera o de un camino puede calcularse fácilmente dividiendo la diferencia de altura entre dos puntos determinados (Δh) por la distancia entre ellos (D)."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 33",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "esto significa que por cada 100 metros que recorremos hemos ascendido o descendido, según sea la dirección de la marcha, 10 metros."
+            },
+            {
+              "ref": "Descubre el Territorio, El desnivel",
+              "law": "IGN, Descubre el Territorio",
+              "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+              "quote": "Si el recorrido son 2.600 m y el desnivel es de 172 m solo tengo que hacer una regla de tres. Por tanto, la pendiente es del 6,6%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Orientación: acimut y declinación magnética",
+      "blocks": [
+        {
+          "text": "El acimut es el ángulo entre el Norte y la dirección de la marcha. La declinación magnética es el ángulo entre el norte de la brújula (magnético) y el norte verdadero, y varía con el lugar y con el tiempo. El IGN publica un mapa geomagnético de isógonas, que son las líneas que unen puntos de igual declinación. Las hojas del MTN50 y del MTN25 la indican en el margen inferior, zona central, referida al centro de la hoja y con su variación anual.",
+          "refs": [
+            {
+              "ref": "Descubre el Territorio, La brújula",
+              "law": "IGN, Descubre el Territorio",
+              "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+              "quote": "El ángulo entre el Norte (N) y la dirección de la marcha es el acimut de la dirección a la que nos queremos dirigir."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 74",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "Sabemos que la dirección que nos indica la brújula (norte magnético) y el norte verdadero forman un ángulo (declinación magnética) que varía con cada lugar y con el tiempo."
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 74",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "Mapa geomagnético de isógonas (líneas que unen los puntos de igual declinación magnética)"
+            },
+            {
+              "ref": "Tu amigo el mapa, cap. 74",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "llevan en su margen inferior, zona central, un gráfico con datos sobre la declinación magnética y su variación referidos al centro de la hoja"
+            }
+          ]
+        },
+        {
+          "text": "Para corregir el acimut de la brújula, si la declinación es Este (+) se resta su valor y si es Oeste (−) se suma. Para orientar el mapa, se coloca la brújula encima y se gira el mapa hasta que el norte geográfico forme con la aguja el ángulo de la declinación.",
+          "refs": [
+            {
+              "ref": "Descubre el Territorio, La brújula",
+              "law": "IGN, Descubre el Territorio",
+              "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+              "quote": "Si la declinación es Este (+), hay que restar su valor al indicado en la brújula. Si es Oeste (-), hay que sumarlo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "La forma real de la Tierra es un geoide.",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 1.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "La forma real de la Tierra es un geoide"
+            }
+          ]
+        },
+        {
+          "text": "Proyección conforme: conserva ángulos; afiláctica: no conserva nada pero deforma poco; Lambert es cónica.",
+          "refs": [
+            {
+              "ref": "Conceptos cartográficos, ap. 2.1",
+              "law": "IGN, Conceptos cartográficos",
+              "url": "https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf",
+              "quote": "Una proyección cartográfica es conforme cuando mantiene los ángulos"
+            }
+          ]
+        },
+        {
+          "text": "UTM: husos de 6°, España en los husos 28 a 31; el 30 va de 6° W a 0°.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 8",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "30 (de 6°W a 0°)"
+            }
+          ]
+        },
+        {
+          "text": "1 cm a 1:50.000 son 500 m.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 9",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "es decir, 500 metros."
+            }
+          ]
+        },
+        {
+          "text": "Equidistancia: 20 m en el MTN50 y 10 m en el MTN25; curva maestra cada cinco.",
+          "refs": [
+            {
+              "ref": "Atlas Didáctico, Representación del relieve",
+              "law": "IGN, Atlas Didáctico (cartografía)",
+              "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+              "quote": "cada 10 metros (en el Mapa Topográfico Nacional a escala 1:25.000) o cada 20 metros (en el Mapa Topográfico Nacional a escala 1:50.000)."
+            }
+          ]
+        },
+        {
+          "text": "Nivel cero peninsular: nivel medio del mar en Alicante.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 32",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "se fija en el nivel medio del mar en Alicante."
+            }
+          ]
+        },
+        {
+          "text": "Pendiente = desnivel / distancia × 100.",
+          "refs": [
+            {
+              "ref": "Tu amigo el mapa, cap. 33",
+              "law": "IGN, Tu amigo el mapa",
+              "url": "https://www.ign.es/resources/acercaDe/libDigPub/tu-amigo-el-mapa.pdf",
+              "quote": "dividiendo la diferencia de altura entre dos puntos determinados (Δh) por la distancia entre ellos (D)."
+            }
+          ]
+        },
+        {
+          "text": "Declinación Este: se resta; Oeste: se suma.",
+          "refs": [
+            {
+              "ref": "Descubre el Territorio, La brújula",
+              "law": "IGN, Descubre el Territorio",
+              "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+              "quote": "Si la declinación es Este (+), hay que restar su valor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: IGN, Conceptos cartográficos (https://www.ign.es/web/resources/cartografiaEnsenanza/conceptosCarto/descargas/Conceptos_Cartograficos_def.pdf), IGN, Atlas Didáctico (cartografía) (https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html), IGN, Descubre el Territorio (https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html), IGN, Glosario del Atlas Didáctico (https://educativo.ign.es/atlas-didactico/glosario/index.html)"
 }

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-trebep-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 13, tema P06) · Art. 64.3 TREBEP",
+      "stem": "Según el TREBEP, la renuncia a la condición de funcionario:",
+      "options": [
+        "Inhabilita para ingresar de nuevo en la Administración Pública durante cinco años.",
+        "Inhabilita de forma definitiva para ingresar de nuevo en el mismo cuerpo o escala.",
+        "No inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 64.3 TREBEP aclara que quien renuncia puede volver a ingresar superando el procedimiento de selección establecido.",
+      "excerpt": "3. La renuncia a la condición de funcionario no inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 14, tema P06) · Art. 68.2 TREBEP",
+      "stem": "Según el TREBEP, si se solicita la rehabilitación de quien perdió la condición de funcionario por condena a pena de inhabilitación y no se dicta resolución expresa en plazo, la solicitud:",
+      "options": [
+        "Se entenderá desestimada.",
+        "Se entenderá estimada.",
+        "Se remitirá de oficio al Consejo de Estado."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 68.2 TREBEP permite conceder con carácter excepcional esta rehabilitación, atendiendo a las circunstancias y entidad del delito; el silencio es desestimatorio.",
+      "excerpt": "Si transcurrido el plazo para dictar la resolución, no se hubiera producido de forma expresa, se entenderá desestimada la solicitud.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

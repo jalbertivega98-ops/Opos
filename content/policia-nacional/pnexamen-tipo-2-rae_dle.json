@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-rae_dle-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario de la lengua española (RAE-ASALE), 23.ª ed., versión electrónica: entradas citadas",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 66, tema P29) · DLE, conformismo",
+      "stem": "Según el Diccionario de la lengua española, el conformismo es la:",
+      "options": [
+        "Práctica de quien fácilmente se adapta a cualquier circunstancia de carácter público o privado.",
+        "Tendencia a rechazar las normas del grupo al que se pertenece.",
+        "Actitud de quien impone sus opiniones sin admitir discusión."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El DLE define conformismo como la práctica de quien fácilmente se adapta a cualquier circunstancia de carácter público o privado; su antónimo es inconformismo. Imponer las propias opiniones sin admitir discusión se relaciona con el dogmatismo.",
+      "excerpt": "Práctica de quien fácilmente se adapta a cualquier circunstancia de carácter público o privado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 67, tema P29) · DLE, autoritario 1.d",
+      "stem": "Según el Diccionario de la lengua española, se denomina autoritario al régimen o a la organización política que:",
+      "options": [
+        "Se basa en la separación de poderes.",
+        "Somete sus decisiones a referéndum.",
+        "Ejerce el poder sin limitaciones."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DLE recoge entre las acepciones de autoritario la de un régimen u organización política que ejerce el poder sin limitaciones, y también la de lo que se funda en el principio de autoridad.",
+      "excerpt": "Dicho de un régimen o de una organización política, que ejerce el poder sin limitaciones.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 92, tema P42) · DLE, calibre",
+      "stem": "Según el Diccionario de la lengua española, el calibre de un arma de fuego es:",
+      "options": [
+        "La longitud total del cañón.",
+        "El peso del proyectil.",
+        "El diámetro interior del arma."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DLE define calibre, en las armas de fuego, como su diámetro interior.",
+      "excerpt": "Diámetro interior de las armas de fuego.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

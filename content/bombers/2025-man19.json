@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man19-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.EQIP.002 Conducció i mecànica (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-19-MAN.EQIP.002.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 14) · MAN.EQIP.002, § 5.5",
+      "stem": "Quina és la funció del diferencial en la transmissió d'un vehicle?",
+      "options": [
+        "Repartir el parell motor de la caixa de canvis entre l'eix davanter i el posterior.",
+        "Connectar o desconnectar el motor de la resta de la transmissió.",
+        "Adaptar les revolucions del motor per obtenir més força o més velocitat.",
+        "Permetre que les rodes d'un eix motriu girin a velocitats diferents, per exemple en un revolt."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "En un revolt cada roda recorre una longitud diferent. Repartir el parell entre eixos és feina de la caixa de transferència, connectar el motor és de l'embragatge i adaptar les revolucions és de la caixa de canvis.",
+      "excerpt": "El diferencial és el mecanisme encarregat de permetre un diferent nombre de revolucions a les rodes dels eixos motrius encara que els arribi un nombre constant des de l’arbre de transmissió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 94) · MAN.EQIP.002, § 6.1",
+      "stem": "Quin d'aquests elements d'un vehicle és de seguretat passiva?",
+      "options": [
+        "L'ABS.",
+        "El coixí de seguretat (airbag).",
+        "El control d'estabilitat (ESP).",
+        "El control de tracció."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La seguretat passiva redueix les lesions un cop s'ha produït l'accident; l'ABS, l'ESP i el control de tracció són de seguretat activa.",
+      "excerpt": "La seguretat passiva és el conjunt de sistemes i dispositius que tenen la funció de minimitzar les lesions i conseqüències d’un accident, un cop aquest ja s’ha produït. […] Coixins de seguretat (airbags)",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lorppn-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-8468",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 19, tema P08) · Art. 3.1 LO 9/2015",
+      "stem": "Según la Ley Orgánica 9/2015, el régimen estatutario de los Policías Nacionales tiene como derecho supletorio:",
+      "options": [
+        "La legislación de la Guardia Civil.",
+        "La legislación de los funcionarios civiles de la Administración General del Estado.",
+        "La legislación laboral común."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 3.1 LO 9/2015 remite supletoriamente a la legislación de los funcionarios civiles de la AGE.",
+      "excerpt": "1. El régimen estatutario de los Policías Nacionales se ajustará a las previsiones de esta Ley Orgánica y a las disposiciones que la desarrollen, teniendo como derecho supletorio la legislación de los funcionarios civiles de la Administración General del Estado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

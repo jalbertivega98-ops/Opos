@@ -176,6 +176,13 @@ describe("sesión de Checkout", () => {
     expect(checkoutSchema.safeParse({ slug: "premium" }).success).toBe(false);
     const ok = checkoutSchema.parse({ slug: "premium", consent: "on", back: "//evil.com" });
     expect(ok.back).toBe("/app/perfil");
+    expect(ok.interval).toBeUndefined();
+  });
+  it("Premium: acepta pago mensual o anual y nada más (ADR-048)", () => {
+    const base = { slug: "pn-premium", consent: "on" };
+    expect(checkoutSchema.parse({ ...base, interval: "year" }).interval).toBe("year");
+    expect(checkoutSchema.parse({ ...base, interval: "month" }).interval).toBe("month");
+    expect(checkoutSchema.safeParse({ ...base, interval: "week" }).success).toBe(false);
   });
 });
 

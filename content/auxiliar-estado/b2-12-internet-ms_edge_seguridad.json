@@ -47,6 +47,51 @@
       "explanation": "Edge permite elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto.",
       "excerpt": "Puedes elegir entre tres niveles de prevención de seguimiento: Básico, Equilibrado y Estricto.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Descargas seguras",
+      "stem": "Según Microsoft, para reducir el riesgo de malware al descargar archivos de Internet con Edge, se recomienda:",
+      "options": [
+        "Descargar solo archivos de sitios web y fuentes de confianza.",
+        "Abrir los archivos descargados antes de analizarlos, para comprobar que funcionan.",
+        "Descargar los archivos siempre en una ventana InPrivate.",
+        "Desactivar SmartScreen de Microsoft Defender durante la descarga."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Microsoft recomienda descargar solo de sitios y fuentes de confianza y, antes de abrir lo descargado, comprobar su integridad con un antivirus o un servicio en línea.",
+      "excerpt": "descarga solo archivos de sitios web y fuentes de confianza.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Seguridad de la conexión",
+      "stem": "Según Microsoft, el icono que muestra Edge en la barra de direcciones mientras se navega sirve para:",
+      "options": [
+        "Indicar el nivel de prevención de seguimiento elegido.",
+        "Mostrar que la ventana es InPrivate.",
+        "Abrir las opciones de borrar los datos de exploración.",
+        "Indicar la seguridad de la conexión con el sitio."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El icono de la barra de direcciones indica la seguridad de la conexión y ayuda a determinar si se puede enviar y recibir información del sitio de forma segura.",
+      "excerpt": "Mientras navega por la Web, verá un icono en la barra de direcciones que indica la seguridad de la conexión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Actualizaciones",
+      "stem": "¿Dónde se comprueba en Microsoft Edge que la opción de actualizaciones automáticas está habilitada?",
+      "options": [
+        "En la ventana Nuevo InPrivate.",
+        "En las Herramientas de desarrollo.",
+        "En Acerca de Microsoft Edge.",
+        "En el panel de Colecciones."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Para recibir automáticamente las correcciones de seguridad, se selecciona Acerca de Microsoft Edge y se comprueba que las actualizaciones automáticas están habilitadas.",
+      "excerpt": "Seleccione Acerca de Microsoft Edge y asegúrese de que la opción de actualizaciones automáticas está habilitada.",
+      "excerpt_status": "completo"
     }
   ]
 }

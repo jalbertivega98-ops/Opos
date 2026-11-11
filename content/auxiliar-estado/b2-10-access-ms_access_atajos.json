@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "set": "age-aux-b2-10-access-ms_access_atajos-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.10 Bases de datos: Access 365",
+    "topic_slug": "age-aux-b2-10-access",
+    "locale": "es",
+    "category": "age_aux_b2_10_access",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Métodos abreviados de teclado de Access",
+      "url": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-access-70a673e4-4f7b-4300-b8e5-3320fa6606e2",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Métodos abreviados · Panel de navegación",
+      "stem": "En Access, ¿qué tecla muestra u oculta el panel de navegación?",
+      "options": [
+        "F4.",
+        "F5.",
+        "F11.",
+        "F12."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Según la tabla de métodos abreviados de Access, F11 muestra u oculta el panel de navegación; F4 muestra u oculta una hoja de propiedades, F5 cambia a la vista Formulario desde la vista Diseño y F12 abre Guardar como.",
+      "excerpt": "| Mostrar u ocultar el panel de navegación. | F11 |",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados · Fecha actual",
+      "stem": "Al introducir datos en Access, ¿qué combinación de teclas inserta la fecha actual?",
+      "options": [
+        "Ctrl + apóstrofo (').",
+        "Ctrl + signo más (+).",
+        "Mayús + Entrar.",
+        "Ctrl + punto y coma (;)."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ctrl + ; inserta la fecha actual; Ctrl + ' inserta el valor del mismo campo del registro anterior, Ctrl + + agrega un registro nuevo y Mayús + Entrar guarda los cambios del registro actual.",
+      "excerpt": "| Insertar la fecha actual. | Ctrl+punto y coma (;) |",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados · Valor del registro anterior",
+      "stem": "En Access, ¿qué hace la combinación Ctrl + apóstrofo (')?",
+      "options": [
+        "Inserta la fecha actual.",
+        "Elimina el registro actual de la hoja de datos.",
+        "Inserta el valor del mismo campo en el registro anterior.",
+        "Abre el cuadro Zoom para escribir expresiones."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Ctrl + ' inserta el valor del mismo campo del registro anterior; Ctrl + ; inserta la fecha actual, Ctrl + - elimina el registro actual y Mayús + F2 abre el cuadro Zoom.",
+      "excerpt": "| Inserte el valor del mismo campo en el registro anterior. | Ctrl+apóstrofo (') |",
+      "excerpt_status": "completo"
+    }
+  ]
+}

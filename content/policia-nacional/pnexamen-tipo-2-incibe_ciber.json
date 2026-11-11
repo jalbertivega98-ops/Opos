@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-incibe_ciber-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Deep web y Dark web; Cryptojacking; Carding; Fraude BEC; E-skimming (artículos de ciudadanía y empresas)",
+      "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE), Ministerio para la Transformación Digital y de la Función Pública",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 88, tema P40) · INCIBE, Deep Web",
+      "stem": "Según INCIBE, es un ejemplo de contenido de la Deep Web:",
+      "options": [
+        "Una página web de noticias indexada por los buscadores.",
+        "Una intranet corporativa.",
+        "El perfil público de una red social."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "INCIBE pone como ejemplos de la Deep Web los datos de una cuenta bancaria, los informes médicos o expedientes académicos en plataformas protegidas, o una intranet corporativa: contenido no indexado por los buscadores.",
+      "excerpt": "Por ejemplo, los datos de una cuenta bancaria, informes médicos o expedientes académicos almacenados en plataformas protegidas, o una intranet corporativa.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

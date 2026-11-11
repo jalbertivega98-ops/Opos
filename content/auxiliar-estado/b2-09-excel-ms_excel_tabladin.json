@@ -47,6 +47,21 @@
       "explanation": "Por defecto, los campos numéricos del área Valores se muestran como suma y, si Excel interpreta los datos como texto, como recuento.",
       "excerpt": "Si Excel interpreta los datos como texto, los datos se mostrarán como un RECUENTO.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Tablas dinámicas (área Valores)",
+      "stem": "De forma predeterminada, ¿cómo se muestran los campos numéricos colocados en el área Valores de una tabla dinámica de Excel?",
+      "options": [
+        "Como SUM.",
+        "Como PROMEDIO.",
+        "Como RECUENTO.",
+        "Como MAX."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, los campos del área Valores se muestran por defecto como SUM; si Excel interpreta los datos como texto, como RECUENTO.",
+      "excerpt": "De forma predeterminada, los campos de tabla dinámica colocados en el área Valores se muestran como SUM.",
+      "excerpt_status": "completo"
     }
   ]
 }

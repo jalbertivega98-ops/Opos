@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-fmi_globalizacion-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "FMI · La globalización: ¿Amenaza u oportunidad? (estudio temático, abril de 2000)",
+      "url": "https://www.imf.org/external/np/exr/ib/2000/esl/041200s.htm",
+      "kind": "web_oficial",
+      "publisher": "Fondo Monetario Internacional (organismo de las Naciones Unidas)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 64, tema P28) · FMI, La globalización (2000): ¿Qué es la globalización?",
+      "stem": "Según el FMI, además de la integración de las economías a través del comercio y los flujos financieros, el término «globalización» hace alusión en algunos casos a:",
+      "options": [
+        "La desaparición de las fronteras nacionales y de los Estados.",
+        "La adopción de una moneda única mundial.",
+        "El desplazamiento de personas (mano de obra) y la transferencia de conocimientos (tecnología) a través de las fronteras."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El FMI añade al núcleo económico del concepto la movilidad de la mano de obra y la transferencia de tecnología, y reconoce aspectos culturales, políticos y ambientales más amplios.",
+      "excerpt": "En algunos casos este término hace alusión al desplazamiento de personas (mano de obra) y la transferencia de conocimientos (tecnología) a través de las fronteras internacionales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 65, tema P28) · FMI, La globalización (2000): Introducción",
+      "stem": "Según el estudio del FMI sobre la globalización, en los países que han logrado integrarse a la economía mundial:",
+      "options": [
+        "El crecimiento económico se detiene y la pobreza aumenta.",
+        "El crecimiento económico es más rápido y la pobreza disminuye.",
+        "La inflación pasa a ser la norma."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El FMI sostiene que la integración se asocia a un crecimiento más rápido y a una reducción de la pobreza, aunque la globalización no avanza de manera uniforme.",
+      "excerpt": "En los países que han logrado integrarse, el crecimiento económico es más rápido y la pobreza disminuye.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

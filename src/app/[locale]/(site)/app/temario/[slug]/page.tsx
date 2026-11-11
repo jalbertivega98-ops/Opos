@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/button";
 import { TopicNoteView } from "@/components/notes/topic-note-view";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
-import { getTopicNote } from "@/lib/learning/notes-queries";
+import { getTopicLessons, getTopicNote } from "@/lib/learning/notes-queries";
+import { TopicLessons } from "@/components/notes/topic-lessons";
 import { getPrimaryExamSlug, myOpenTopics } from "@/lib/learning/plan-queries";
 import { TopicTestButton } from "@/components/plan/topic-test-button";
 
@@ -32,6 +33,8 @@ export default async function TopicNotePage({ params }: PageProps<"/[locale]/app
   const t = await getTranslations("notes");
   const examSlug = await getPrimaryExamSlug();
   const open = examSlug ? (await myOpenTopics(examSlug)).includes(slug) : false;
+  // Apuntes: solo para quien puede practicar el tema (lo decide la BD)
+  const lessons = await getTopicLessons(slug);
   return (
     <div className="space-y-6">
       <div className="space-y-2">
@@ -44,6 +47,14 @@ export default async function TopicNotePage({ params }: PageProps<"/[locale]/app
         <h1 className="text-3xl font-bold">{localized(locale, note.title, note.titleCa)}</h1>
         <p className="text-muted-foreground text-sm">{t("literalNotice")}</p>
       </div>
+      {open && (
+        <div className="flex flex-wrap gap-2">
+          <TopicTestButton topic={slug} size="md">
+            {t("practiceCta")}
+          </TopicTestButton>
+        </div>
+      )}
+      {lessons.length > 0 && <TopicLessons sections={lessons} lang={note.locale} />}
       <TopicNoteView note={note} />
       <div className="flex flex-wrap gap-2">
         {open ? (

@@ -22,7 +22,7 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 | llms.txt      | `/llms.txt`     | Resumen en Markdown para asistentes de IA (llmstxt.org).                                                                                 |
 | Imagen social | `/og-image.png` | 1200 × 630. Se regenera con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium node scripts/seo/render-logo.mjs`.                               |
 | Logo          | `/logo-512.png` | Lo usa `Organization.logo` en Schema.org.                                                                                                |
-| IndexNow      | `/indexnow.txt` | Devuelve `INDEXNOW_KEY` o la clave pública por defecto. La Action `indexnow.yml` avisa a IndexNow tras cada push a main (ADR-045).      |
+| IndexNow      | `/indexnow.txt` | Devuelve `INDEXNOW_KEY` o la clave pública por defecto. La Action `indexnow.yml` avisa a IndexNow tras cada push a main (ADR-050).      |
 
 ## 3. Páginas públicas y contenido
 

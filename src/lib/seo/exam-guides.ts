@@ -47,8 +47,8 @@ const mossos: ExamGuide = {
     ca: "Convocatòria 46/26 de Mossos d'Esquadra: 1.587 places, com és la primera prova (30 preguntes de coneixements i 80 d'aptituds), temari de la Guia d'estudi i fonts oficials.",
   },
   intro: {
-    es: "Resumen de la convocatoria 46/26 de la escala básica de Mossos d'Esquadra con los datos de las bases oficiales (Resolució ISP/1763/2026) y de la web oficial de la convocatoria. El examen de conocimientos se hace en catalán y sus preguntas salen de la Guia d'estudi de junio de 2026.",
-    ca: "Resum de la convocatòria 46/26 de l'escala bàsica de Mossos d'Esquadra amb les dades de les bases oficials (Resolució ISP/1763/2026) i del web oficial de la convocatòria. L'examen de coneixements es fa en català i les preguntes surten de la Guia d'estudi de juny de 2026.",
+    es: "Resumen de la convocatoria 46/26 de la escala básica de Mossos d'Esquadra con los datos de las bases oficiales (Resolució ISP/1763/2026) y de la web oficial de la convocatoria. El examen de conocimientos se hace en catalán y sus preguntas salen de la Guia d'estudi de junio de 2026. La primera prueba de la 46/26 ya se hizo el 17 de octubre de 2026: lo que practiques aquí te sirve para la próxima convocatoria, y actualizaremos formato y temario en cuanto se publiquen sus bases.",
+    ca: "Resum de la convocatòria 46/26 de l'escala bàsica de Mossos d'Esquadra amb les dades de les bases oficials (Resolució ISP/1763/2026) i del web oficial de la convocatòria. L'examen de coneixements es fa en català i les preguntes surten de la Guia d'estudi de juny de 2026. La primera prova de la 46/26 ja es va fer el 17 d'octubre de 2026: el que practiquis aquí et serveix per a la propera convocatòria, i actualitzarem format i temari tan bon punt se'n publiquin les bases.",
   },
   facts: [
     {
@@ -958,10 +958,16 @@ const guardiaUrbana: ExamGuide = {
   calendar: [
     {
       label: { es: "1.ª prueba de la 29/2025", ca: "1a prova de la 29/2025" },
-      value: { es: "4 de octubre de 2025 (la superaron 809 personas)", ca: "4 d'octubre de 2025 (la van superar 809 persones)" },
+      value: {
+        es: "4 de octubre de 2025 (la superaron 809 personas)",
+        ca: "4 d'octubre de 2025 (la van superar 809 persones)",
+      },
     },
     {
-      label: { es: "Última plaza en la clasificación final", ca: "Última plaça a la classificació final" },
+      label: {
+        es: "Última plaza en la clasificación final",
+        ca: "Última plaça a la classificació final",
+      },
       value: { es: "37,57 sobre 60 (8/07/2026)", ca: "37,57 sobre 60 (8/07/2026)" },
     },
   ],
@@ -976,14 +982,20 @@ const guardiaUrbana: ExamGuide = {
   },
   faq: [
     {
-      q: { es: "¿En qué idioma es el examen de la Guardia Urbana?", ca: "En quina llengua és l'examen de la Guàrdia Urbana?" },
+      q: {
+        es: "¿En qué idioma es el examen de la Guardia Urbana?",
+        ca: "En quina llengua és l'examen de la Guàrdia Urbana?",
+      },
       a: {
         es: "En catalán. Por eso nuestras preguntas están en catalán, con la cita de la norma en su idioma original.",
         ca: "En català. Per això les nostres preguntes són en català, amb la cita de la norma en la seva llengua original.",
       },
     },
     {
-      q: { es: "¿Qué parte del examen se practica aquí?", ca: "Quina part de l'examen es practica aquí?" },
+      q: {
+        es: "¿Qué parte del examen se practica aquí?",
+        ca: "Quina part de l'examen es practica aquí?",
+      },
       a: {
         es: "La primera prueba entera: temario, cultura general y actualidad (de los últimos 12 meses, con notas de prensa oficiales), además de los psicotécnicos. Idioma, físicas y entrevista no se preparan aquí.",
         ca: "La primera prova sencera: temari, cultura general i actualitat (dels últims 12 mesos, amb notes de premsa oficials), a més dels psicotècnics. Idioma, físiques i entrevista no es preparen aquí.",
@@ -1081,14 +1093,20 @@ const policiaLocal: ExamGuide = {
   },
   faq: [
     {
-      q: { es: "¿Todas las policías locales tienen el mismo examen?", ca: "Totes les policies locals tenen el mateix examen?" },
+      q: {
+        es: "¿Todas las policías locales tienen el mismo examen?",
+        ca: "Totes les policies locals tenen el mateix examen?",
+      },
       a: {
         es: "No. El Decreto 233/2002 fija las pruebas mínimas (conocimientos, psicotécnico, físicas, médicas), pero el temario, el número de preguntas y la puntuación los decide cada ayuntamiento en sus bases.",
         ca: "No. El Decret 233/2002 fixa les proves mínimes (coneixements, psicotècnic, físiques, mèdiques), però el temari, el nombre de preguntes i la puntuació els decideix cada ajuntament a les seves bases.",
       },
     },
     {
-      q: { es: "¿La Guardia Urbana de Barcelona entra aquí?", ca: "La Guàrdia Urbana de Barcelona entra aquí?" },
+      q: {
+        es: "¿La Guardia Urbana de Barcelona entra aquí?",
+        ca: "La Guàrdia Urbana de Barcelona entra aquí?",
+      },
       a: {
         es: "No: tiene su propia oposición, con su temario y sus ordenanzas, y la preparamos por separado.",
         ca: "No: té la seva pròpia oposició, amb el seu temari i les seves ordenances, i la preparem per separat.",
@@ -1181,7 +1199,10 @@ const bombers: ExamGuide = {
   psychoNote: { es: "", ca: "" },
   faq: [
     {
-      q: { es: "¿Hay psicotécnicos en Bombers de la Generalitat?", ca: "Hi ha psicotècnics a Bombers de la Generalitat?" },
+      q: {
+        es: "¿Hay psicotécnicos en Bombers de la Generalitat?",
+        ca: "Hi ha psicotècnics a Bombers de la Generalitat?",
+      },
       a: {
         es: "No de razonamiento. La base 6.1.4 prevé una evaluación psicológica de competencias, que no es un test de aptitudes, así que no la preparamos con psicotécnicos.",
         ca: "No de raonament. La base 6.1.4 preveu una avaluació psicològica de competències, que no és un test d'aptituds, de manera que no la preparem amb psicotècnics.",
@@ -1231,7 +1252,10 @@ const ayudantesIipp: ExamGuide = {
       label: { es: "Convocatoria", ca: "Convocatòria" },
       value: { es: "BOE-A-2026-13226", ca: "BOE-A-2026-13226" },
     },
-    { label: { es: "Plazas", ca: "Places" }, value: { es: "1.050 (subgrupo C1)", ca: "1.050 (subgrup C1)" } },
+    {
+      label: { es: "Plazas", ca: "Places" },
+      value: { es: "1.050 (subgrupo C1)", ca: "1.050 (subgrup C1)" },
+    },
     {
       label: { es: "Programa", ca: "Programa" },
       value: {
@@ -1270,7 +1294,10 @@ const ayudantesIipp: ExamGuide = {
     },
     {
       label: { es: "Corte de 2026 (puntos directos)", ca: "Tall del 2026 (punts directes)" },
-      value: { es: "67 en el test y 26,67 en los supuestos", ca: "67 al test i 26,67 als supòsits" },
+      value: {
+        es: "67 en el test y 26,67 en los supuestos",
+        ca: "67 al test i 26,67 als supòsits",
+      },
     },
     {
       label: { es: "Reconocimiento médico", ca: "Reconeixement mèdic" },
@@ -1285,7 +1312,10 @@ const ayudantesIipp: ExamGuide = {
   psychoNote: { es: "", ca: "" },
   faq: [
     {
-      q: { es: "¿Hay psicotécnicos en Ayudantes de Instituciones Penitenciarias?", ca: "Hi ha psicotècnics a Ajudants d'Institucions Penitenciàries?" },
+      q: {
+        es: "¿Hay psicotécnicos en Ayudantes de Instituciones Penitenciarias?",
+        ca: "Hi ha psicotècnics a Ajudants d'Institucions Penitenciàries?",
+      },
       a: {
         es: "No. La base 6.3 solo prevé el examen de conocimientos (test y supuestos) y el reconocimiento médico.",
         ca: "No. La base 6.3 només preveu l'examen de coneixements (test i supòsits) i el reconeixement mèdic.",

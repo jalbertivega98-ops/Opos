@@ -318,6 +318,306 @@
       "explanation": "La COE, cartografia pròpia del Cos, parteix de la base de l'ICGC i inventaria infraestructures com camins forestals i punts d'aigua.",
       "excerpt": "Base cartogràfica La COE es desplega a partir de la base cartogràfica de l’Institut Cartogràfic i Geològic de Catalunya (ICGC),",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2 La cartografia",
+      "stem": "Segons el Manual operatiu bàsic de cartografia i orientació, la cartografia és:",
+      "options": [
+        "La ciència que estudia el camp magnètic terrestre per orientar les brúixoles.",
+        "La ciència que s'ocupa de la representació gràfica de la superfície de la Terra o de parts d'aquesta.",
+        "La tècnica de calcular la posició d'un receptor a partir de senyals de satèl·lits.",
+        "L'habilitat de saber la pròpia posició en un entorn i desplaçar-se a un altre punt."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La cartografia s'ocupa de representar gràficament la superfície terrestre per crear i utilitzar mapes; l'habilitat de saber on som i com desplaçar-nos és l'orientació, i el càlcul de posició per satèl·lits és el GNSS.",
+      "excerpt": "La cartografia és la ciència que s'ocupa de la representació gràfica de la superfície de la Terra o de parts d'aquesta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 3.2.3 Orientació a partir dels estels",
+      "stem": "Segons el manual de cartografia, quina estrella resta fixa al firmament i assenyala directament el nord geogràfic?",
+      "options": [
+        "L'estrella central de la W de Cassiopea.",
+        "L'estrella de l'extrem del mànec de l'Ossa Major.",
+        "Cap: totes les estrelles es mouen i no serveixen per orientar-se.",
+        "L'estrella Polar."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Totes les estrelles es mouen pel firmament excepte la Polar, que assenyala el nord geogràfic; l'Ossa Major i Cassiopea només serveixen per localitzar-la.",
+      "excerpt": "Només una estrella resta fixa en un punt sense moure's: l'estrella Polar, que assenyala directament cap al nord geogràfic.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 3.2.1 Posició del sol a determinades hores",
+      "stem": "Segons el manual de cartografia, si a les 12:00 h hora solar clavem una estaca a terra, la seva ombra assenyala:",
+      "options": [
+        "Cap al nord.",
+        "Cap al sud.",
+        "Cap a l'est.",
+        "Cap a l'oest."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "A les 12:00 h solars el sol és exactament sobre el sud, de manera que l'ombra apunta en sentit contrari: cap al nord.",
+      "excerpt": "a les 12:00 h del migdia hora solar, el sol es troba exactament a sobre del punt cardinal sud. Si en aquest moment clavéssim una estaca a terra, l’ombra de l’estaca assenyalaria directament cap al nord.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 5 Cartografia Operativa d'Emergències",
+      "stem": "Segons el manual de cartografia, a quina escala està feta la Cartografia Operativa d'Emergències (COE) dels Bombers?",
+      "options": [
+        "1:5.000.",
+        "1:50.000.",
+        "1:25.000.",
+        "1:100.000."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La COE cobreix tot Catalunya a escala 1:25.000, amb equidistància de 10 m i datum ETRS89.",
+      "excerpt": "Les característiques d’aquesta cartografia són: […] Escala 1:25.000 […] Equidistància 10 m",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 4.3 Els sistemes existents",
+      "stem": "Segons el manual de cartografia, quin és el sistema de navegació per satèl·lit de la Unió Europea?",
+      "options": [
+        "GLONASS.",
+        "BeiDou.",
+        "Galileo.",
+        "NavIC."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Galileo és el sistema de la UE, pensat principalment per a ús civil; GLONASS és de Rússia, BeiDou de la Xina i NavIC de l'Índia.",
+      "excerpt": "Galileo: El sistema de la Unió Europea, dissenyat principalment per a ús civil i amb cobertura global.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.3.1 Tipus de mapes",
+      "stem": "Segons el manual de cartografia, quins mapes digitals tenen format d'imatge i es píxel·len quan s'amplia el zoom?",
+      "options": [
+        "Els mapes ràster.",
+        "Els mapes vectorials.",
+        "Els mapes offline.",
+        "Els mapes online."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els ràster són imatges (fotografia o escanejat) i es píxel·len; els vectorials es generen a partir d'entitats geomètriques i no es píxel·len. Online i offline fan referència a la disponibilitat, no al format.",
+      "excerpt": "Mapes ràster: Tenen format d’imatge (com una fotografia o un escanejat d'un mapa de paper). […] Quan s'amplia el zoom, la imatge es píxel·la",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.3.2 Escala numèrica",
+      "stem": "En un mapa a escala 1:25.000, dos punts estan separats 6 cm. Quina distància real els separa sobre el terreny?",
+      "options": [
+        "150 m.",
+        "1,5 km.",
+        "750 m.",
+        "15 km."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Cada unitat del mapa equival a 25.000 unitats al terreny: 6 cm × 25.000 = 150.000 cm = 1.500 m = 1,5 km.",
+      "excerpt": "Això vol dir que 1 unitat de mesura al mapa (1 cm, 1 mm, etc.) equival a 25.000 de la mateixa unitat al terreny.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.3.3 Equidistància i COE",
+      "stem": "En un mapa de la COE (equidistància de 10 m), el punt A és sobre la corba de 500 m i el punt B es troba tres corbes de nivell més amunt. Quina és l'altitud aproximada del punt B?",
+      "options": [
+        "503 m.",
+        "515 m.",
+        "550 m.",
+        "530 m."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Entre corbes consecutives hi ha una equidistància de 10 m: 500 m + 3 × 10 m = 530 m.",
+      "excerpt": "per comptar la diferència d’altitud entre dos punts del mapa. […] Equidistància 10 m",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.2.2 Xifres de les coordenades UTM",
+      "stem": "Segons el manual de cartografia, si ens donen la coordenada UTM (4594842, 425888) d'un punt de Catalunya, què hem de deduir?",
+      "options": [
+        "Que està expressada en quilòmetres.",
+        "Que a la coordenada Y li falta un número.",
+        "Que el punt és a l'hemisferi sud.",
+        "Que probablement està en metres però ens han donat la Y i la X girades."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "A Catalunya la X té 6 xifres i la Y en té 7; aquí el primer valor en té 7 i el segon 6, per tant s'han intercanviat.",
+      "excerpt": "A més, les coordenades UTM a Catalunya tenen sempre 6 xifres per a la X i 7 per a la Y […] (4594842, 425888) probablement està en metres i ens han donat Y i X girades.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.2.2 Zones UTM",
+      "stem": "Segons el manual de cartografia, com indica la lletra de la zona UTM que un punt és a l'hemisferi nord?",
+      "options": [
+        "Les zones de la lletra C a la M són de l'hemisferi nord.",
+        "Les zones identificades amb les lletres I i O són de l'hemisferi nord.",
+        "Les zones a partir de la lletra N són de l'hemisferi nord.",
+        "La lletra no ho indica; només ho indica el número del fus."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La lletra de la zona permet saber l'hemisferi: a partir de la N (de Nord) és hemisferi nord. Les lletres I i O s'exclouen per no confondre-les amb números.",
+      "excerpt": "La zona ens serveix per saber si estem a l’hemisferi nord o al sud, hem de saber que a partir de la lletra N són zones de l’hemisferi nord (N de Nord).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.3.3 Interpretació de les corbes de nivell",
+      "stem": "Segons el manual de cartografia, com creuen les corbes de nivell els cursos d'aigua naturals?",
+      "options": [
+        "Perpendicularment, perquè l'aigua segueix la línia de màxim pendent.",
+        "Paral·lelament, perquè l'aigua no guanya ni perd alçada.",
+        "Sempre en diagonal, formant un angle de 45º.",
+        "No les creuen mai, perquè discorren per les carenes."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els rius i rierols creuen les corbes perpendicularment seguint el màxim pendent; és un camí o carretera paral·lel a una corba el que no guanya ni perd alçada. Els canals artificials no segueixen aquesta regla.",
+      "excerpt": "Els cursos d’aigua naturals creuen les corbes de nivell perpendicularment ja que l’aigua segueix la línia de màxim pendent (els canals artificials no).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 3.1.1 Triangulació",
+      "stem": "Segons el manual de cartografia, per localitzar una columna de fum per triangulació, quants observadors calen com a mínim?",
+      "options": [
+        "Un de sol, si disposa d'una brúixola amb limbe.",
+        "Dos, prou separats entre si; com més n'hi hagi, més precís serà el resultat.",
+        "Tres, perquè amb menys les visuals no es poden creuar.",
+        "Quatre, com en el càlcul de la posició en 3D del GNSS."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La posició de l'objectiu és el punt on es creuen les visuals (azimuts) de diversos observadors; amb dos ja n'hi ha prou, però més observadors donen més precisió.",
+      "excerpt": "Amb un mínim de dos observadors es pot triangular, però com més observadors hi participin, més precís serà el resultat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 4.1 Principis de funcionament del GNSS",
+      "stem": "Segons el manual de cartografia, de quants satèl·lits com a mínim ha de rebre senyal un receptor GNSS per calcular una posició en 3D?",
+      "options": [
+        "Dos.",
+        "Tres.",
+        "Sis.",
+        "Quatre."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La posició es calcula per trilateració a partir del temps que tarda el senyal de diversos satèl·lits, com a mínim quatre per a una posició en 3D.",
+      "excerpt": "El càlcul de la posició es fa per trilateració (com la triangulació però amb distàncies), a partir del temps que tarda el senyal de ràdio a viatjar des de diversos satèl·lits (un mínim de quatre per a una posició en 3D) fins al receptor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 5.2.1 Xarxa de camins",
+      "stem": "Segons el manual de cartografia, a la COE un camí primari és aquell que:",
+      "options": [
+        "Té una amplada d'entre 3 i 5 m, amb sobreamples cada 100 a 150 m.",
+        "Permet el creuament de dos vehicles pesats (BRP) amb seguretat en qualsevol punt, amb una amplada mínima de 6 m.",
+        "S'ha de considerar operativament d'un sol sentit de circulació.",
+        "No és apte per circular-hi amb camió, però sí amb vehicle lleuger."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El primari (línia groga contínua) permet creuar dos BRP a tot el traçat; el de 3-5 m amb sobreamples és el secundari, el d'un sol sentit és el terciari i el no apte per a camió és el no accessible a BRP.",
+      "excerpt": "Primari: És possible el creuament de dos vehicles pesats (BRP) amb seguretat en qualsevol punt del traçat. És a dir, tenen una amplada mínima de 6 m.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 3.2.2 Orientació amb un rellotge de manetes",
+      "stem": "Segons el manual de cartografia, amb un rellotge de manetes ajustat a l'hora solar, horitzontal i amb la maneta de les hores apuntant al Sol, què assenyala el sud?",
+      "options": [
+        "La bisectriu de l'angle que formen la maneta de les hores i la xifra 12.",
+        "La maneta dels minuts.",
+        "La xifra 12 del rellotge.",
+        "La prolongació de la maneta de les hores en sentit contrari al Sol."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La bisectriu (línia que divideix l'angle en dues meitats iguals) entre la maneta de les hores i el 12 apunta cap al sud.",
+      "excerpt": "La bisectriu (línia que divideix un angle en dues meitats iguals) que formen la maneta de les hores amb la xifra 12 del rellotge assenyala cap al Sud.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 2.2.2 Càlcul de distàncies en UTM",
+      "stem": "Dos punts de Catalunya tenen les coordenades UTM, en metres, A (430000, 4600000) i B (433000, 4604000). Quina distància en línia recta els separa?",
+      "options": [
+        "7.000 m.",
+        "1.000 m.",
+        "5.000 m.",
+        "3.500 m."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "ΔX = 433.000 − 430.000 = 3.000 m i ΔY = 4.604.000 − 4.600.000 = 4.000 m. Per Pitàgores: √(3.000² + 4.000²) = √25.000.000 = 5.000 m. 7.000 m seria sumar les dues diferències.",
+      "excerpt": "Com que el sistema és una quadrícula en metres, és molt fàcil fer-hi càlculs de distància amb operacions senzilles o amb el teorema de Pitàgores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 3.2.1 Hora oficial i hora solar",
+      "stem": "El 10 de gener el rellotge marca les 13:00 h (hora oficial). Segons el manual de cartografia, on es troba el sol en aquell moment?",
+      "options": [
+        "Al sud-est, perquè són les 9:00 h hora solar.",
+        "Al sud-oest, perquè són les 15:00 h hora solar.",
+        "A l'est, perquè són les 6:00 h hora solar.",
+        "Exactament al sud, perquè són les 12:00 h hora solar."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El 10 de gener és horari d'hivern: hora solar = 13:00 − 1 h = 12:00 h, i a les 12:00 h solars el sol és exactament sobre el sud.",
+      "excerpt": "Durant l’horari d’hivern cal restar-li una hora. […] l’horari d’estiu és el vigent a partir de l’últim diumenge de març i durant tots els mesos següents fins arribar a l’últim diumenge d’octubre […] a les 12:00 h del migdia hora solar, el sol es troba exactament a sobre del punt cardinal sud.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 5.2.2 Punts d'aigua (PAIF)",
+      "stem": "Segons el manual de cartografia, quines característiques han de complir els punts d'aigua de la xarxa bàsica per a incendis forestals (PAIF)?",
+      "options": [
+        "Capacitat superior a 200 m³, però accessibles només per a mitjans terrestres.",
+        "Capacitat superior a 20 m³ i ús exclusivament públic.",
+        "Capacitat superior a 200 m³ i accessibilitat per a helicòpters i per a mitjans terrestres d'extinció.",
+        "Qualsevol bassa o piscina on es pugui omplir el camió, sense requisit de capacitat."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els PAIF han de superar els 200 m³ (o els 120 m³ de l'antic criteri), ser accessibles per mitjans aeris i terrestres i tenir mecanismes de manteniment. Qualsevol lloc on omplir el camió és un punt d'aigua, però no necessàriament un PAIF.",
+      "excerpt": "Una capacitat superior als 200 metres cúbics […] Accessibles per mitjans aeris (helicòpters) i per mitjans terrestres d’extinció d’incendis forestals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 5.3.2 El codi SOC",
+      "stem": "Segons el manual de cartografia, en el codi SOC 28BJ09, què identifica la part «09»?",
+      "options": [
+        "Una secció d'1 × 1 km dins del quadrant de 5 × 5 km.",
+        "Un quadrant de 5 × 5 km.",
+        "El full del mapa MTN 1:25.000.",
+        "La coordenada UTM X en quilòmetres."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El quadrant (5 × 5 km) es codifica amb dos números i dues lletres (28BJ); cada quadrant es divideix en 25 seccions d'1 × 1 km numerades de l'1 al 25, i 09 n'és la secció.",
+      "excerpt": "El quadrant identifica un reticle de 5×5 km i utilitza una combinació de dos números i dues lletres. […] Cada quadrant se subdivideix en 25 quadrats d’1x1 km anomenats seccions, numerats de l’1 al 25 (d’oest a est i de nord a sud).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.002, § 3.3 Altres referències aproximatives d'orientació",
+      "stem": "Segons el manual de cartografia, sobre les referències aproximatives d'orientació, indica la resposta INCORRECTA:",
+      "options": [
+        "La molsa creix a les zones més ombrívoles i humides del tronc, normalment cap al nord.",
+        "Les plaques solars de les carreteres estan gairebé sempre orientades cap al nord.",
+        "L'altar de les esglésies i ermites cristianes acostuma a assenyalar cap a l'est.",
+        "Els anells de creixement de les soques solen estar més junts cap al cantó menys assolellat, normalment el nord."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Els panells solars de les carreteres estan gairebé sempre orientats cap al sud, no cap al nord; la resta d'afirmacions són les que recull el manual.",
+      "excerpt": "La molsa creixerà en les zones més ombrívoles i humides d’un tronc (normalment cap al Nord). […] els anells de creixement solen estar més junts i atapeïts cap al cantó que li tocava menys el sol (normalment cap al Nord). […] la zona on va l’altar quedi assenyalant cap al lloc on surt el sol (cap a l’Est). […] Aquests panells solars estan gairebé sempre orientats cap al sud.",
+      "excerpt_status": "completo"
     }
   ]
 }

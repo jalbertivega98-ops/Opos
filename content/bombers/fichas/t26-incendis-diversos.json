@@ -53,5 +53,528 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Introducció: els «incendis varis»",
+      "blocks": [
+        {
+          "text": "Els «incendis varis» agrupen actuacions molt habituals del Cos de Bombers: contenidors de residus, vehicles i altres elements urbans de caràcter menor, però amb riscos potencials per als efectius. No solen ser tècnicament complexos, però poden presentar riscos imprevistos pels materials i l'entorn. La seva freqüència elevada els fa una part molt significativa de l'activitat diària, influeixen en la percepció ciutadana del servei i poden mobilitzar molts recursos si es gestionen malament.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 1.1 Introducció",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Aquest manual pretén agrupar en un únic document les metodologies d’actuació en incendis que afecten contenidors de residus, vehicles i altres elements urbans de caràcter menor però amb riscos potencials per als efectius actuants."
+            },
+            {
+              "ref": "MAN.INXX.000, 1.2 Importància",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "la seva freqüència elevada fa que representin una part molt significativa de l’activitat diària del Cos de Bombers."
+            }
+          ]
+        },
+        {
+          "text": "El manual no substitueix els procediments de rescat en accidents de trànsit, riscos tecnològics o incendis estructurals.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 1.2 Àmbit",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Aquest document no substitueix els aspectes específics per a rescat en accidents de trànsit, riscos tecnològics o incendis estructurals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Incendis de vehicles: definició i classificació",
+      "blocks": [
+        {
+          "text": "Incendi de vehicle és qualsevol foc no controlat que afecta un mitjà de transport terrestre autopropulsat que es desplaça per via rodada; pot afectar el motor, l'habitacle, el maleter, el dipòsit o la càrrega. Sol ser a l'exterior, però també en pàrquings o entorns amb riscos afegits (escoles, zones forestals o industrials); si s'hi propaga, passa a considerar-se incendi estructural o forestal i surt de l'àmbit del manual.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.1 Definició",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "S’entén per incendi de vehicle qualsevol foc no controlat que afecta un mitjà de transport terrestre autopropulsat que es desplaça per via rodada."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.1 Entorn",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "En aquests casos, tot i iniciar-se com un incendi de vehicle, per la seva afectació passen a considerar-se incendis estructurals o forestals, que queden fora d’aquest manual."
+            }
+          ]
+        },
+        {
+          "text": "Segons la massa: lleugers (turismes, furgonetes, motos), amb combustió ràpida de plàstics i escumes, fums tòxics i elements pressuritzats; pesants (camions, autobusos, maquinària), amb més càrrega de foc, gran volum de combustible i bateries i sistemes auxiliars. Segons el combustible (el manual ho titula «segons l'entorn»): convencionals, amb incendis ràpids, vessaments i fums; alternatius, on el GLP i el GNC tenen risc de BLEVE, el GNC i l'hidrogen fan flames invisibles i el GNL té risc criogènic.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.2.2 Combustibles alternatius",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "GLP i GNC: risc d’explosions tipus BLEVE − GNC i hidrogen: flames invisibles a simple vista − GNL: risc de fred criogènic i evaporació sobtada"
+            }
+          ]
+        },
+        {
+          "text": "Segons l'ús i la càrrega: transport de persones (molts passatgers, mobilitat reduïda); mercaderies, incloses les perilloses ADR (càrregues desconegudes o mal etiquetades, reaccions amb els agents extintors); i vehicles especials (líquids hidràulics inflamables, dipòsits ocults, moviments sobtats).",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.2.3 Mercaderies",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Possibles càrregues desconegudes o mal etiquetades − Risc de reaccions amb agents extintors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Evolució tecnològica i nous riscos",
+      "blocks": [
+        {
+          "text": "Les bateries d'alt voltatge, els dipòsits de gas a pressió i els materials sintètics poden provocar reignició després de l'extinció i fums tòxics. Els sistemes de seguretat (airbags, pretensors, cilindres hidràulics, suspensions pneumàtiques) deixen de protegir i esdevenen amenaces. Per això cal sistemàtica en set passos: aproximació segura; reconeixement del vehicle i l'entorn; valorar riscos segons la propulsió; perímetre i protecció del trànsit; verificar víctimes i prioritzar-ne el rescat; EPI i ERA estrictes, i tàctiques adaptades amb vigilància posterior.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.3 Evolució",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "deixen de ser protectors i poden convertir-se en amenaces per als equips d’intervenció."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.3 Sistemàtica",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "5. Verificar la presència de víctimes i prioritzar-ne el rescat. 6. Utilitzar els EPI i ERA de forma estricta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Anàlisi de riscos i criteris de seguretat",
+      "blocks": [
+        {
+          "text": "L'avaluació comença amb l'avís (ubicació, túnel, càrrega). Riscos generals: gasos tòxics (CO, cianur d'hidrogen de les escumes dels seients i clorur d'hidrogen dels plàstics), que exigeixen ERA continu; dipòsits que s'escalfen o vessen, que cal refredar; airbags i pretensors que poden activar-se per la calor fins i tot si ja s'han disparat, i projectar fragments; bateries d'alta tensió amb reignició hores després; projecció de pneumàtics, vidres i taps; i l'entorn viari amb trànsit i pendents.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.4.1 Gasos tòxics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "cianur d’hidrogen procedent de les escumes dels seients i clorur d’hidrogen dels plàstics."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.4.1 Sistemes pressuritzats",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Els sistemes de seguretat passiva, com airbags i pretensors, poden activar-se de manera inesperada sota l’efecte de la calor, fins i tot si ja s’han disparat, i comportar projecció de fragments."
+            }
+          ]
+        },
+        {
+          "text": "Cal evitar situar-se davant del capó, la porta posterior o les rodes, i mantenir distància lateral i angular, sense posar-se davant o darrere dels eixos.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.4.1 Projeccions",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "és imprescindible mantenir distància lateral i angular respecte al vehicle, evitant situar-se directament davant o darrere dels eixos durant la intervenció."
+            }
+          ]
+        },
+        {
+          "text": "Riscos per propulsió: gasolina, vapors molt inflamables i fusió del dipòsit; dièsel, combustió persistent i vapors inflamables a més de 62 ºC; GLP, BLEVE, efecte torxa i gas pesant que s'acumula a baix; GNC, alta pressió, ruptura violenta i flama invisible; GNL, risc criogènic i núvol inflamable; hidrogen, rang d'ignició ampli i flama invisible; elèctrics i híbrids, electrocució, thermal runaway i reignició hores o dies després.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.4.2 Dièsel",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Vapors inflamables a més de 62ºC (perill accentuat a l’estiu)"
+            },
+            {
+              "ref": "MAN.INXX.000, 2.4.2 GLP",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Gas pesant, acumulable en zones baixes."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.4.2 Elèctrics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Bateries d’ions de liti amb risc de thermal runaway"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Valoració inicial, zonificació i identificació del combustible",
+      "blocks": [
+        {
+          "text": "El primer pas és establir una zona d'autoprotecció al voltant del vehicle, que en la majoria de casos és suficient. En situacions complexes (túnels, zones urbanes denses o vehicles pesants amb càrregues especials) cal desplegar un AGO complet (Àrea General d'Operacions) amb zones calenta, tèbia i freda. Sempre que sigui possible, aproximació a sobrevent.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.5.1 Zonatge",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "caldrà desplegar un AGO complet (Àrea General d’Operacions), amb les tres zones diferenciades; calenta, tèbia i freda."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.5.1 Zonatge",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Sempre que sigui possible, cal aproximar-se a sobrevent per minimitzar l’exposició als fums i gasos generats pel foc."
+            }
+          ]
+        },
+        {
+          "text": "Indicadors del combustible: gasolina, boca estreta i etiqueta E5, E10, E85 o «unleaded»; dièsel, boca ampla i etiqueta B7, B10, XTL o «diesel»; gas, doble boca, etiqueta LPG, CNG o LNG i adhesiu posterior; híbrid o elèctric, inscripció «Hybrid», «EV» o «Plug-in» i, els elèctrics, sense tub d'escapament. Si se sospita combustible alternatiu, cal usar el detector de gasos.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.6 Indicadors",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Inscripció “Hybrid”, “EV”, “Plug-in” - Absència de tub d’escapament de gasos (elèctrics)"
+            },
+            {
+              "ref": "MAN.INXX.000, 2.6 Detector",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Davant la sospita que un vehicle faci servir combustibles alternatius, es recomana utilitzar el detector de gasos per comprovar possibles fuites."
+            }
+          ]
+        },
+        {
+          "text": "En pendents hi ha risc de desplaçament del vehicle, vessaments cap avall i caiguda de rodes: els vehicles de bombers es posen a la part superior, mai per sota, s'estabilitza el vehicle si és segur i es contenen els líquids amb absorbents o terra. En espais confinats (aparcaments, túnels) hi ha concentració de CO i HCN, risc de deflagració i poca visibilitat.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.6.1 Pendents",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Posicionar els vehicles de bombers a la part superior del pendent, mai per sota"
+            },
+            {
+              "ref": "MAN.INXX.000, 2.6.1 Espais confinats",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Alt risc de concentració de CO, HCN i altres gasos tòxics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Maniobres estàndard en incendis de vehicles",
+      "blocks": [
+        {
+          "text": "S'apliquen sempre: aproximació en diagonal i des de sobrevent; EPI i ERA obligatoris; perímetre de seguretat; vehicles de bombers fora del radi de risc, habitualment darrere segons el sentit de circulació i en diagonal. L'extinció es fa amb una línia Ø25 en alta pressió, reduint la intensitat a la màxima distància efectiva amb raig directe i aproximant-se després; el con d'atac serveix per a l'autoprotecció i per refredar superfícies i dipòsit. Els vessaments en flames es tracten amb escuma de baixa expansió o, en menor mesura, absorbents.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.7.1 Aproximació",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "L’accés es realitza en diagonal i des de sobrevent, per evitar l’impacte directe de fums, calor i possibles explosions."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.7.1 Extinció",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "La línia recomanada és una Ø25 en alta pressió, que permet un atac inicial ràpid."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.7.1 Vessaments",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "es prioritza l’ús d’escuma de baixa expansió o, en menor mesura, absorbents."
+            }
+          ]
+        },
+        {
+          "text": "Aquestes accions no són un protocol rígid, sinó una manera segura de treballar que fa de base; després s'hi afegeixen les adaptacions per al tipus de combustible o tecnologia. L'eficiència depèn de combinar els dos nivells: les maniobres bàsiques comunes i saber ajustar-les a cada vehicle concret.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.7.1 Base",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Aquest conjunt d’accions no són un “protocol rígid”, sinó una forma de treballar segura que serveix de base abans d’aplicar les maniobres específiques segons el tipus de vehicle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Maniobres específiques segons el tipus de vehicle",
+      "blocks": [
+        {
+          "text": "Benzina: refredar el dipòsit abans d'aproximar-se i no obrir de cop el motor ni les portes. Dièsel: el gasoil és menys volàtil, però els vessaments fan flames molt persistents; cal controlar-los amb escuma o absorbents. GLP: es refreden els dipòsits; si hi ha fuita que crema en torxa, no s'apaga, es refreda intensament el dipòsit i l'entorn des d'una posició segura.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.7.2 Dièsel",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Tot i que el gasoil és menys volàtil, els seus vessaments generen flames molt persistents."
+            },
+            {
+              "ref": "MAN.INXX.000, 2.7.2 GLP",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Si hi ha fuita i el gas crema en forma de torxa, no s'ha d'intentar apagar-la, sinó refredar intensament el dipòsit i l'entorn des d'una distància i posició segura."
+            }
+          ]
+        },
+        {
+          "text": "GNC: els cilindres tenen dispositius d'alleujament de pressió activats per temperatura; l'aigua directa els pot desactivar i provocar trencaments, per això només es protegeixen les exposicions. GNL: riscos criogènics i núvols inflamables; no s'aplica aigua directa, es manté distància i es controla amb ventilació i detectors. Elèctrics i híbrids: refredament sostingut i monitorització de la temperatura almenys una hora, i trasllat a zona segura; si crema la bateria sense afectar l'entorn, es pot deixar cremar. Hidrogen: perímetre ampli, no atacar la flama i consultar suport tècnic.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.7.2 GNC",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "L’aplicació directa d’aigua sobre els cilindres pot desactivar aquests dispositius i provocar trencaments sobtats"
+            },
+            {
+              "ref": "MAN.INXX.000, 2.7.2 Elèctrics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "El refredament sostingut de les bateries i la monitorització de la temperatura almenys durant una hora un cop apagat el vehicle són imprescindibles"
+            },
+            {
+              "ref": "MAN.INXX.000, 2.7.2 Elèctrics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Quan l’incendi involucra la bateria i no afecta l’entorn pot valorar-se deixar cremar el vehicle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Incendis de contenidors: context, tipus i identificació",
+      "blocks": [
+        {
+          "text": "Els contenidors (de superfície, soterrats, semisoterrats; també hi ha el porta a porta) són un risc recurrent, sovint per actes incívics, vandàlics o negligències, sobretot en zones denses, caps de setmana i festius. Els metàl·lics resisteixen millor però transmeten calor; els de plàstic (polietilè), més freqüents, generen degoteig incandescent i fums densos i molt tòxics. Els de superfície rarament queden limitats al focus inicial. Als soterrats, l'extinció per la bústia pot ser poc eficaç i sovint cal elevar el contenidor amb la plataforma hidràulica.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.2 Plàstic",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Contenidors de plàstic (polietilè): són més freqüents i estan fabricats amb materials altament inflamables que, en cremar, generen degoteig incandescent i fums densos i molt tòxics."
+            },
+            {
+              "ref": "MAN.INXX.000, 3.2 Soterrats",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "és necessari elevar el contenidor mitjançant la pròpia plataforma hidràulica per poder completar l’extinció i remoure o buidar el material cremat."
+            }
+          ]
+        },
+        {
+          "text": "El contingut condiciona la combustió: rebuig, irregular i amb fum dens; orgànica, poca intensitat però molt de fum; envasos, inflamabilitat molt elevada; paper i cartró, ignició fàcil i combustió molt ràpida; vidre, no combustible però es pot trencar per xoc tèrmic i projectar fragments.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.3 Contingut",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Vidre: no és combustible, però poden trencar-se per xoc tèrmic i projectar fragments tallants."
+            }
+          ]
+        },
+        {
+          "text": "La majoria d'incendis de contenidors es controlen amb els recursos de primera sortida, però sempre cal preveure l'afectació d'elements vulnerables propers: persones, vehicles, façanes, arbrat o mobiliari urbà.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.2 Freqüència",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "sempre cal preveure el risc d’afectació a elements vulnerables, com persones, vehicles, façanes, arbrat o mobiliari urbà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Contenidors: riscos, seguretat i maniobres d'extinció",
+      "blocks": [
+        {
+          "text": "Riscos: gasos tòxics (cal ERA encara que sigui un foc «menor»); risc biològic per matèria en descomposició i objectes contaminats; propagació a contenidors, vehicles i façanes; col·lapse; riscos ocults com aerosols, bateries de liti o recipients a pressió; i foc en somort al fons, amb reignició hores després. Als soterrats s'hi afegeixen la plataforma, els circuits elèctrics, l'oli hidràulic i l'atrapament d'operaris.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.4 Gasos tòxics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Encara que es tracti d’un foc “menor”, l’ús d’ERA és necessari per evitar exposicions."
+            },
+            {
+              "ref": "MAN.INXX.000, 3.4 Foc en somort",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "la combustió lenta al fons del contenidor pot mantenir brases actives fins i tot després de l’extinció aparent, amb risc de reignició hores més tard"
+            }
+          ]
+        },
+        {
+          "text": "Normalment n'hi ha prou amb un perímetre bàsic d'autoprotecció; amb foc intens o diversos contenidors, AGO complet. Crepitacions, sibilants o fum dens irregular poden anunciar una explosió: cal allunyar-se i esperar. Extinció: línia Ø25 en alta pressió amb raig difós a distància prudent; remoure el contingut amb eines (o abocar-lo a la via); escuma de baixa o mitjana expansió si hi ha líquids inflamables, i línia secundària de protecció si hi ha risc de propagació.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.5 Senyals",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "Els sorolls interns (crepitacions, sibilants) o la presència de fum dens i irregular poden ser indicadors d’explosió imminent de recipients interns."
+            },
+            {
+              "ref": "MAN.INXX.000, 3.6 Extinció",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "és preferible usar escuma de baixa o mitjana expansió, que aporta una extinció més segura i estable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Altres incendis urbans",
+      "blocks": [
+        {
+          "text": "Concentracions de material sòlid (fusta, mobles, runa): càrrega de foc molt elevada i propagació per radiació i convecció; aigua polvoritzada o con d'atac, i humectants o escuma en grans acumulacions. Pneumàtics: fums molt tòxics amb hidrocarburs i metalls pesants, foc profund que dura hores o dies; en grans acumulacions, controlar la propagació, fer tallafocs i, si cal, deixar que es consumeixi de manera controlada, amb escuma de baixa o mitja expansió i retirada del material no cremat.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 4.1 Material sòlid",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "La maniobra recomanada és l’ús d’aigua polvoritzada o con d’atac per reduir la intensitat del foc i controlar la propagació."
+            },
+            {
+              "ref": "MAN.INXX.000, 4.2 Pneumàtics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "la maniobra més segura és controlar la propagació, establir tallafocs i, si cal, permetre que la combustió es consumeixi de manera controlada."
+            }
+          ]
+        },
+        {
+          "text": "Plàstics i gomes: fum molt dens i irritant (ERA) i degoteig en flames; aigua polvoritzada i escumògens o humectants. Abocadors: foc en profunditat, fums tòxics, risc d'enfonsament de la massa i risc biològic; es remou el material amb eines o maquinària aplicant aigua a alta pressió i, si l'extinció és inviable, combustió controlada.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 4.3 Plàstics",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "el plàstic fos genera degoteig en flames, amb el risc d’encendre nous focus secundaris."
+            },
+            {
+              "ref": "MAN.INXX.000, 4.4 Abocadors",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "A més, existeix risc d’enfonsament de la massa de residus, amb perill per als bombers i maquinària que hi treballi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Incendi de vehicle = foc no controlat en un transport terrestre autopropulsat per via rodada.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.1",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "qualsevol foc no controlat que afecta un mitjà de transport terrestre autopropulsat que es desplaça per via rodada."
+            }
+          ]
+        },
+        {
+          "text": "Aproximació en diagonal i a sobrevent; Ø25 en alta pressió; vehicles de bombers a dalt del pendent.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.7.1",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "L’accés es realitza en diagonal i des de sobrevent"
+            }
+          ]
+        },
+        {
+          "text": "AGO complet: túnels, zones urbanes denses o pesants amb càrregues especials.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.5.1",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "caldrà desplegar un AGO complet"
+            }
+          ]
+        },
+        {
+          "text": "Airbags poden disparar-se encara que ja ho hagin fet. Dièsel > 62 ºC; vessaments persistents.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.4.1",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "fins i tot si ja s’han disparat"
+            }
+          ]
+        },
+        {
+          "text": "GLP en torxa: no apagar, refredar. GNC i GNL: no aigua directa. Elèctric: monitorar 1 hora; es pot deixar cremar.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 2.7.2",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "no s'ha d'intentar apagar-la"
+            }
+          ]
+        },
+        {
+          "text": "Contenidors: plàstic = degoteig i fums tòxics; ERA sempre; soterrats = elevar amb la plataforma; vidre = fragments.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.4",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "l’ús d’ERA és necessari per evitar exposicions."
+            }
+          ]
+        },
+        {
+          "text": "Foc en somort = reignició hores després; líquids inflamables = escuma de baixa o mitjana expansió.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 3.4",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "amb risc de reignició hores més tard"
+            }
+          ]
+        },
+        {
+          "text": "Pneumàtics: controlar la propagació i, si cal, combustió controlada. Abocadors: risc d'enfonsament i biològic.",
+          "refs": [
+            {
+              "ref": "MAN.INXX.000, 4.2",
+              "law": "MAN.INXX.000",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.INXX.000-Tema-26-Prevencio-incendis-varis.pdf",
+              "quote": "permetre que la combustió es consumeixi de manera controlada."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

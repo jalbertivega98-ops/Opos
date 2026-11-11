@@ -32,6 +32,36 @@
       "explanation": "Con una cuenta de Exchange Server, la lista de libretas de direcciones incluye la LGD, que contiene los nombres y direcciones de todos los usuarios con cuenta en ese servidor.",
       "excerpt": "Si usa Outlook con una cuenta de Exchange Server, la lista de libretas de direcciones incluirá la lista global de direcciones (LGD).",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Libreta de direcciones · Abrir desde un mensaje",
+      "stem": "Mientras redacta un mensaje en Outlook, ¿cómo puede abrir la libreta de direcciones?",
+      "options": [
+        "Seleccionando el botón Adjuntar archivo.",
+        "Seleccionando cualquiera de los botones Para, CC o CCO.",
+        "Pulsando dos veces sobre el asunto del mensaje.",
+        "Solo desde la pestaña Archivo, en Información de la cuenta."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Para abrir la libreta de direcciones se selecciona cualquiera de los botones Para, CC o CCO; después se busca el contacto y se selecciona Agregar.",
+      "excerpt": "Para abrir la libreta de direcciones, seleccione cualquiera de los botones Para, CC o CCO.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Libreta de direcciones · Contenido de la LGD",
+      "stem": "¿Qué contiene la lista global de direcciones (LGD o GAL) de una cuenta de Exchange Server?",
+      "options": [
+        "Solo los contactos que el usuario ha guardado en su carpeta Contactos.",
+        "Las direcciones de todos los remitentes de los que se ha recibido algún mensaje.",
+        "Los nombres y direcciones de correo de todos los usuarios con cuenta en ese Exchange Server.",
+        "Solo las listas de distribución creadas por el propio usuario."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La GAL contiene los nombres y las direcciones de correo de todos los usuarios que tienen cuenta en ese Exchange Server, y Exchange la configura automáticamente.",
+      "excerpt": "La GAL contiene los nombres y las direcciones de correo electrónico de todos los usuarios que tienen una cuenta con ese Exchange Server y que Exchange la configura automáticamente.",
+      "excerpt_status": "completo"
     }
   ]
 }

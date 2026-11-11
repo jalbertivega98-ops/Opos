@@ -56,5 +56,612 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Dato, información e inteligencia",
+      "blocks": [
+        {
+          "text": "La primera distinción del tema es la que separa la materia prima del producto acabado. La guía CCN-STIC-425 del Centro Criptológico Nacional llama información a los datos en bruto que se recopilan, e inteligencia al producto final que se obtiene después de tratarlos. El ciclo de inteligencia es precisamente el conjunto ordenado de actividades que transforman esa información en bruto en inteligencia que puedan usar los responsables políticos, administrativos o gerenciales de la organización. Por eso un dato aislado o una información sin analizar todavía no es inteligencia: lo es cuando ha sido valorada, integrada e interpretada para responder a una necesidad concreta.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, apdo. 2.2.2, párr. 16",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "El objetivo de esta fase es recopilar los datos en bruto necesarios (información) para producir el producto final deseado (inteligencia)."
+            },
+            {
+              "ref": "CCN-STIC-425, apdo. 2.2, párr. 11",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "el Ciclo de Inteligencia está compuesto por todas aquellas actividades que, de forma ordenada, persiguen la transformación de información en bruto en inteligencia, capaz de ser usada por los responsables políticos, administrativos o gerenciales de la organización de que se trate."
+            }
+          ]
+        },
+        {
+          "text": "El Centro Nacional de Inteligencia (CNI) lo resume desde el punto de vista del destinatario: el resultado final de su trabajo es la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones. Esa inteligencia se elabora siguiendo un proceso con fases bien definidas, el ciclo de Inteligencia. La guía CCN-STIC-425 añade que el resultado del análisis es la llamada actionable intelligence: un producto útil que satisface las necesidades de su consumidor de forma directa, sin necesidad de tratamiento posterior.",
+          "refs": [
+            {
+              "ref": "CNI, La Inteligencia",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "El resultado final del trabajo del CNI es la Inteligencia que entrega a las autoridades para facilitar la toma de decisiones y que se elabora siguiendo un proceso con fases bien definidas, denominado ciclo de Inteligencia."
+            },
+            {
+              "ref": "CCN-STIC-425, apdo. 2.2.4, párr. 27",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "actionable intelligence, es decir, un producto de inteligencia capaz de resultar útil y satisfacer las necesidades de su consumidor, de forma directa, sin necesidad de ulterior tratamiento."
+            }
+          ]
+        },
+        {
+          "text": "Las fuentes de la plataforma no recogen una definición normativa ni de diccionario de «dato» como concepto separado; el tema se estudia aquí con la distinción entre datos en bruto (información) e inteligencia que hacen el CNI y el CCN.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, apdo. 2.2.3, párr. 24",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "un equipamiento tecnológico sofisticado, capaz de convertir los datos en información útil y procesable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "El Centro Nacional de Inteligencia: naturaleza y principios (Ley 11/2002)",
+      "blocks": [
+        {
+          "text": "La Ley 11/2002, de 6 de mayo, regula el CNI. Según su artículo 1, es el Organismo público responsable de facilitar al Presidente del Gobierno y al Gobierno de la Nación las informaciones, análisis, estudios o propuestas que permitan prevenir y evitar cualquier peligro, amenaza o agresión contra la independencia o integridad territorial de España, los intereses nacionales y la estabilidad del Estado de derecho y sus instituciones. Se adscribe orgánicamente al Ministerio de Defensa (art. 7.1) y funciona con autonomía funcional, como Organismo público con personalidad jurídica propia y plena capacidad de obrar (art. 7.2). Se estructura en una Dirección con rango de Secretario de Estado, una Secretaría General y las unidades que se determinen reglamentariamente (art. 7.3).",
+          "refs": [
+            {
+              "ref": "Art. 1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "El Centro Nacional de Inteligencia es el Organismo público responsable de facilitar al Presidente del Gobierno y al Gobierno de la Nación las informaciones, análisis, estudios o propuestas que permitan prevenir y evitar cualquier peligro, amenaza o agresión contra la independencia o integridad territorial de España"
+            },
+            {
+              "ref": "Art. 7.1 y 7.3 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "1. El Centro Nacional de Inteligencia se adscribe orgánicamente al Ministerio de Defensa. […] 3. El Centro Nacional de Inteligencia se estructura en una Dirección, cuyo titular tendrá rango de Secretario de Estado, una Secretaría General y en las unidades que se determinen reglamentariamente."
+            }
+          ]
+        },
+        {
+          "text": "El CNI se rige por el principio de sometimiento al ordenamiento jurídico y está sujeto a control parlamentario y judicial (art. 2.1 y 2.2). En el desarrollo de sus funciones actúa bajo los principios de eficacia, especialización y coordinación, de acuerdo con los objetivos de inteligencia definidos por el Gobierno (art. 2.3). El control parlamentario se ejerce ante la Comisión del Congreso que controla los créditos destinados a gastos reservados, presidida por el Presidente de la Cámara, cuyas sesiones son secretas (art. 11.1); el control judicial previo se regula en una Ley Orgánica complementaria (art. 12).",
+          "refs": [
+            {
+              "ref": "Art. 2.3 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "En el desarrollo de sus funciones, el Centro Nacional de Inteligencia actuará bajo los principios de eficacia, especialización y coordinación, de acuerdo con los objetivos de inteligencia definidos por el Gobierno."
+            },
+            {
+              "ref": "Art. 11.1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "a través de la Comisión que controla los créditos destinados a gastos reservados, presidida por el Presidente de la Cámara, la información apropiada sobre su funcionamiento y actividades. El contenido de dichas sesiones y sus deliberaciones será secreto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Funciones y actividades del CNI",
+      "blocks": [
+        {
+          "text": "El artículo 4 enumera las funciones del CNI. Entre ellas: obtener, evaluar e interpretar información y difundir la inteligencia necesaria para proteger y promover los intereses de España, dentro o fuera del territorio nacional (letra a); prevenir, detectar y posibilitar la neutralización de las actividades de servicios extranjeros, grupos o personas que pongan en riesgo el ordenamiento constitucional o la seguridad del Estado, que es la contrainteligencia (letra b); cooperar con servicios de otros países (letra c); obtener, evaluar e interpretar el tráfico de señales de carácter estratégico (letra d); coordinar los medios de cifra y la seguridad de las tecnologías de la información (letra e); y velar por la protección de la información clasificada (letra f).",
+          "refs": [
+            {
+              "ref": "Art. 4.a LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "a) Obtener, evaluar e interpretar información y difundir la inteligencia necesaria para proteger y promover los intereses políticos, económicos, industriales, comerciales y estratégicos de España, pudiendo actuar dentro o fuera del territorio nacional."
+            },
+            {
+              "ref": "Art. 4.b LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "b) Prevenir, detectar y posibilitar la neutralización de aquellas actividades de servicios extranjeros, grupos o personas que pongan en riesgo, amenacen o atenten contra el ordenamiento constitucional"
+            },
+            {
+              "ref": "Art. 4.d LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "d) Obtener, evaluar e interpretar el tráfico de señales de carácter estratégico, para el cumplimiento de los objetivos de inteligencia señalados al Centro."
+            }
+          ]
+        },
+        {
+          "text": "Sus actividades, organización, medios, procedimientos, personal, instalaciones y fuentes de información constituyen información clasificada con el grado de secreto (art. 5.1). El Centro puede usar medios y actividades bajo cobertura e identidades, matrículas y permisos reservados (art. 5.3). Un dato muy preguntado: sus miembros no tienen la consideración de agentes de la autoridad, salvo los que se ocupan de la protección del personal y de las instalaciones del Centro (art. 5.4).",
+          "refs": [
+            {
+              "ref": "Art. 5.1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "constituyen información clasificada, con el grado de secreto, de acuerdo con lo dispuesto en la legislación reguladora de los secretos oficiales"
+            },
+            {
+              "ref": "Art. 5.4 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "Los miembros del Centro Nacional de Inteligencia no tendrán la consideración de agentes de la autoridad, con excepción de aquellos que desempeñen cometidos profesionales relacionados con la protección del personal del Centro y de las instalaciones del mismo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Directiva de Inteligencia, Comisión Delegada y Secretario de Estado Director",
+      "blocks": [
+        {
+          "text": "El Gobierno determina y aprueba cada año los objetivos del CNI mediante la Directiva de Inteligencia, que tiene carácter secreto (art. 3). La propuesta de esos objetivos corresponde a la Comisión Delegada del Gobierno para Asuntos de Inteligencia, que los eleva al Presidente del Gobierno (art. 6.4.a). Esta Comisión vela por la adecuada coordinación de todos los servicios de información e inteligencia del Estado para formar una comunidad de inteligencia (art. 6.1). El texto consolidado advierte que el apartado 2 del art. 6, sobre su composición, fue anulado por la STC 110/2021 en la redacción dada por el Real Decreto-ley 8/2020.",
+          "refs": [
+            {
+              "ref": "Art. 3 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "El Gobierno determinará y aprobará anualmente los objetivos del Centro Nacional de Inteligencia mediante la Directiva de Inteligencia, que tendrá carácter secreto."
+            },
+            {
+              "ref": "Art. 6.1 y 6.4.a LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "1. La Comisión Delegada del Gobierno para Asuntos de Inteligencia velará por la adecuada coordinación de todos los servicios de información e inteligencia del Estado para la formación de una comunidad de inteligencia. […] a) Proponer al Presidente del Gobierno los objetivos anuales del Centro Nacional de Inteligencia que han de integrar la Directiva de Inteligencia."
+            },
+            {
+              "ref": "Art. 6.2 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "Téngase en cuenta que se declara inconstitucional y nula la redacción dada al apartado 2 por la disposición final 2 del Real Decreto-ley 8/2020, de 17 de marzo."
+            }
+          ]
+        },
+        {
+          "text": "El Secretario de Estado Director del CNI es nombrado por Real Decreto a propuesta del Ministro de Defensa, con un mandato de cinco años, aunque el Consejo de Ministros puede sustituirlo en cualquier momento (art. 9.1). Además de impulsar y coordinar el Centro, desempeña las funciones de Autoridad Nacional de Inteligencia y Contrainteligencia y la dirección del Centro Criptológico Nacional (art. 9.2.f). El Secretario general, con rango de Subsecretario, le sustituye en ausencia, vacante o enfermedad (art. 10.1).",
+          "refs": [
+            {
+              "ref": "Art. 9.1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "será nombrado por Real Decreto a propuesta del Ministro de Defensa. El mandato será de cinco años, sin perjuicio de la facultad del Consejo de Ministros de proceder a su sustitución en cualquier momento."
+            },
+            {
+              "ref": "Art. 9.2.f LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "f) Desempeñar las funciones de Autoridad Nacional de Inteligencia y Contrainteligencia y la dirección del Centro Criptológico Nacional."
+            },
+            {
+              "ref": "Art. 10.1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "El Secretario general del Centro Nacional de Inteligencia, con rango de Subsecretario, será nombrado por Real Decreto a propuesta del Ministro de Defensa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Tipologías de inteligencia",
+      "blocks": [
+        {
+          "text": "No todas las organizaciones consumidoras de inteligencia tienen las mismas necesidades, por lo que lo primero que debe definir cada una es el tipo de inteligencia que necesita. La clasificación más usada atiende a la fuente: el CNI distingue HUMINT (fuentes humanas), OSINT (fuentes abiertas), SIGINT (fuentes técnicas) y GEOINT (explotación y análisis de imágenes e información geográfica). La guía CCN-STIC-425 recoge las mismas cuatro disciplinas, aunque su texto anuncia «cinco fuentes básicas» y solo enumera cuatro.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 8",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "lo primero que ha de definir una organización es el tipo de inteligencia que necesita obtener para el más adecuado desempeño de sus funciones o competencias."
+            },
+            {
+              "ref": "CNI, La Inteligencia: Obtención",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "HUMINT Información procedente de fuentes humanas OSINT Información procedente de fuentes abiertas SIGINT Información procedente de fuentes técnicas GEOINT Información procedente de la explotación y análisis de imágenes e información geográfica."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 17",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "La recolección de la información en bruto puede tener lugar a través de cinco fuentes básicas"
+            }
+          ]
+        },
+        {
+          "text": "Por su contenido y horizonte temporal, la guía distingue productos de análisis como la Inteligencia Actual (Current Intelligence), que aborda los acontecimientos del día a día y advierte de consecuencias a corto plazo, y el Análisis de Tendencias (Trend Analysis), también llamado «Informes de Segunda Fase». Dentro de la HUMINT diferencia la Inteligencia de Alto Nivel, relativa a la Seguridad Nacional o estratégica, y la Inteligencia Específica, de naturaleza táctica.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 33",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "La denominada Inteligencia Actual (Current Intelligence) aborda los acontecimientos del día a día […] El Análisis de Tendencias (Trend Analysis) –también conocido como \"Informes de Segunda Fase\"- puede proporcionar información sobre un evento o una serie de eventos."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 20",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Existen distintos tipos de HUMINT, desde la denominada Inteligencia de Alto Nivel, que comprende información relativa a la Seguridad Nacional o estratégica; hasta la denominada Inteligencia Específica, que comprende información de naturaleza táctica."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "HUMINT, SIGINT y GEOINT",
+      "blocks": [
+        {
+          "text": "La HUMINT se genera recopilando información, por vía oral o documental, directamente de una fuente humana. Es el único tipo de inteligencia en el que quienes recaban la información, los oficiales de obtención, la obtienen directamente de las fuentes, con su conocimiento o no, y pueden incluso dirigir la respuesta de la fuente. Puede ser abierta, cuando el recolector se presenta como representante oficial (declaraciones, informes diplomáticos o policiales), o confidencial, cuando localiza discretamente a una persona con acceso a la información; el reclutamiento puede durar meses o años.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 20",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Se trata del único tipo de inteligencia en la que los encargados de recabar la información (denominados oficiales de obtención) la obtienen directamente de las fuentes (con su conocimiento o no), pudiendo incluso controlar el tema tratado y dirigir la respuesta de la fuente."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 20",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "En la recolección abierta, el recolector se reúne con las fuentes, evidenciando abiertamente su condición de representante oficial."
+            }
+          ]
+        },
+        {
+          "text": "La SIGINT se recaba de las transmisiones de datos e incluye la COMINT (comunicaciones, mediante análisis de tráfico y del significado de las comunicaciones), la ELINT (señales electrónicas que no contienen voz o texto, cuyas fuentes más comunes son las señales de radar) y la FISINT (interceptación de emisiones electromagnéticas extranjeras). La GEOINT consiste en la explotación y análisis de imágenes o información geoespacial para describir, evaluar y representar visualmente las características físicas de los objetos de estudio.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 22 y nota 3",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "La Inteligencia de Señales (SIGINT) es aquella que se recaba de las transmisiones de datos […] ELINT es la información derivada básicamente de señales electrónicas que no contienen voz o texto (consideradas COMINT). Las fuentes más comunes de ELINT son las señales de radar."
+            },
+            {
+              "ref": "CCN-STIC-425, nota 3",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "FISINT es la información derivada de la interceptación de las emisiones electromagnéticas extranjeras"
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 19",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "La Inteligencia Geoespacial (GEOINT) consiste en la explotación y análisis de imágenes o información geoespacial, para describir, evaluar y representar visualmente las características físicas de los objetos de estudio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Inteligencia de Fuentes Abiertas (OSINT)",
+      "blocks": [
+        {
+          "text": "La OSINT es la inteligencia que se produce a partir de información públicamente accesible. La guía CCN-STIC-425 agrupa sus fuentes en cuatro bloques: medios de comunicación (prensa, radio, televisión, internet); datos públicos (informes gubernamentales, presupuestos, demografía, debates parlamentarios, ruedas de prensa, organigramas públicos); literatura gris, que es material de acceso controlado dirigido a comunidades o foros específicos (informes técnicos, tesis, estudios de mercado, encuestas…); y observación e informes, como las imágenes tomadas desde drones, aviones o satélites, por ejemplo Google Earth.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 21",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "La Inteligencia de Fuentes Abiertas (OSINT) es aquella que se produce a través de información públicamente accesible."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 21",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Medios de comunicación: prensa, radio, televisión, internet..."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 21",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Literatura Gris: material de acceso controlado, dirigido a comunidades o foros específicos"
+            }
+          ]
+        },
+        {
+          "text": "El último bloque explica el crecimiento de la OSINT: herramientas como las imágenes de satélite públicas han aumentado la posibilidad de adquirir y procesar información que antes solo conocían los Servicios de Inteligencia. Para el examen, recuerda que OSINT es la información procedente de fuentes abiertas y que la literatura gris se centra sobre todo en disciplinas científicas, políticas, socioeconómicas y militares.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 21",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "instrumentos que han venido a incrementar la posibilidad de adquirir y procesar información pública que, con anterioridad, sólo podía ser conocida por los Servicios de Inteligencia."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 21",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Generalmente, el material que comprende la Literatura Gris se centra en disciplinas científicas, políticas, socioeconómicas y militares."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "El ciclo de Inteligencia según el CNI",
+      "blocks": [
+        {
+          "text": "El CNI describe cinco fases. La dirección empieza con la aprobación anual de la Directiva de Inteligencia por la Comisión Delegada del Gobierno para Asuntos de Inteligencia y por el presidente del Gobierno; es un documento secreto que recoge las necesidades de Inteligencia del Gobierno. En la planificación, el CNI organiza los recursos disponibles para obtener la información y elaborar la Inteligencia que se le pide. En la obtención se recurre a las fuentes HUMINT, OSINT, SIGINT y GEOINT, apoyándose también en la Inteligencia Artificial.",
+          "refs": [
+            {
+              "ref": "CNI, La Inteligencia: Dirección",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "El ciclo de Inteligencia se inicia con la aprobación anual de la Directiva de Inteligencia por parte de la Comisión Delegada del Gobierno para Asuntos de Inteligencia y del presidente del Gobierno. La directiva es un documento con carácter secreto que recoge los objetivos o necesidades de Inteligencia del Gobierno."
+            },
+            {
+              "ref": "CNI, La Inteligencia: Planificación",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "Una vez aprobada la Directiva de Inteligencia, el CNI realiza un proceso de planificación y organización de los recursos disponibles para obtener la información necesaria"
+            },
+            {
+              "ref": "CNI, La Inteligencia: Obtención",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "Nos apoyamos en la Inteligencia Artificial para optimizar nuestros procesos y el tratamiento de la información que obtenemos."
+            }
+          ]
+        },
+        {
+          "text": "La elaboración tiene cinco pasos: valoración (se analiza la calidad y origen de la información), examen (se estudia toda la información disponible), integración (se integra la información de distintas fuentes), interpretación (según distintos contextos) y redacción del producto final, la Inteligencia. La difusión es el final del ciclo: la Inteligencia se distribuye a sus destinatarios, las autoridades responsables de adoptar decisiones.",
+          "refs": [
+            {
+              "ref": "CNI, La Inteligencia: Elaboración",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "Valoración Se analiza la calidad y origen de la información Examen Se estudia toda la información disponible. Integración Se integra toda la información procedente de distintas fuentes. Redacción Se redacta el producto final: la Inteligencia. Interpretación Se interpreta la información según distintos contextos."
+            },
+            {
+              "ref": "CNI, La Inteligencia: Difusión",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "Difusión Es el final del ciclo, resultado de todo el proceso. En esta fase, la Inteligencia se distribuye a sus destinatarios: las autoridades responsables de adoptar decisiones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "El ciclo de Inteligencia según la guía CCN-STIC-425",
+      "blocks": [
+        {
+          "text": "La guía CCN-STIC-425 agrupa las actividades en seis fases que se desarrollan cíclicamente: Dirección y Planificación, Recolección, Transformación, Análisis y Producción, Difusión y Evaluación. La Evaluación tiene lugar tras cada una de las otras cinco y sirve para alinear en cada momento los resultados con los objetivos. En la Dirección y Planificación se fijan los requisitos de inteligencia y las acciones para obtenerla: la sub-fase de Dirección responde al QUÉ y la de Planificación al CÓMO.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 9",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Las actividades de inteligencia pueden agruparse en las siguientes seis fases: […] Dirección y Planificación. […] Recolección. […] Transformación. […] Análisis y Producción. […] Difusión. […] Evaluación."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 11",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "La última fase de Evaluación tiene lugar tras la ejecución de cada una de las cinco fases restantes, y su objetivo es alinear en cada momento del ciclo los resultados obtenidos de la ejecución de cada fase con sus objetivos."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 15",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "En la sub-fase de Dirección (QUÉ) […] durante la sub-fase de Planificación (CÓMO)"
+            }
+          ]
+        },
+        {
+          "text": "La Recolección recopila los datos en bruto. La Transformación convierte su formato en otros que permitan tratarlos y analizarlos: traducción, descifrado, conversión de datos telemétricos o de informes HUMINT en contenido comprensible. El Análisis y Producción integra, evalúa, analiza y prepara la información ya procesada para obtener inteligencia; lo realizan analistas especializados, que elaboran un «estado de situación» y un pronóstico, sabiendo que sus resultados no deben tomarse como verdades absolutas.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 23",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Esta fase tiene por objeto convertir el formato de los datos en bruto recabados de las distintas fuentes, en aquellos otros formatos que posibiliten su posterior tratamiento y análisis."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 25",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "El objeto de esta fase es integrar, evaluar, analizar y preparar la información previamente procesada, de cara a obtener el producto final deseado (inteligencia)."
+            },
+            {
+              "ref": "CCN-STIC-425, párr. 32",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "los resultados obtenidos de una actividad de análisis no deben tomarse como verdades absolutas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Surface Web y Deep Web",
+      "blocks": [
+        {
+          "text": "INCIBE compara Internet con un iceberg. Cuando navegamos por contenido indexado, el que encuentran motores de búsqueda como Google, Bing o Yahoo, estamos en el «Internet superficial» (Surface Web). La Deep Web constituye la mayor parte del contenido de Internet, pero permanece oculta para los buscadores tradicionales. Eso no significa que sea oculta o ilegal: incluye información protegida a la que se accede con credenciales o enlaces directos, sin herramientas especiales, como cuentas bancarias, informes médicos, expedientes académicos, una intranet corporativa o los resultados de búsquedas internas generados en tiempo real.",
+          "refs": [
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Cuando navegamos por este contenido indexado (el que se puede encontrar a través de los motores búsqueda como Google, Bing o Yahoo entre otros), leemos noticias o usamos nuestras redes sociales, estamos en lo que se conoce como \"Internet superficial\"."
+            },
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "La Deep Web constituye la mayor parte del contenido disponible en Internet, pero permanece oculta para los motores de búsqueda tradicionales. Esto no significa que sean contenidos ocultos o ilegales"
+            },
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Por ejemplo, los datos de una cuenta bancaria, informes médicos o expedientes académicos almacenados en plataformas protegidas, o una intranet corporativa."
+            }
+          ]
+        },
+        {
+          "text": "En la Deep Web pueden existir espacios cerrados, como foros o canales, donde se desarrollen actividades ilícitas, pero INCIBE subraya que eso no es una característica propia de la Deep Web, sino un posible uso de algunos de sus espacios.",
+          "refs": [
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Esta circunstancia no es, sin embargo, una característica propia de la Deep Web, sino un posible uso de algunos de sus espacios."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Dark Web y Dark Net",
+      "blocks": [
+        {
+          "text": "La Dark Web es una sección específica y más reducida dentro de la propia Deep Web. Sus servicios están pensados para ser accesibles a través de redes específicas que dan mayor anonimato, como Tor (The Onion Router), que dificulta identificar tanto al usuario como al servidor. Usa direcciones terminadas en «.onion», que no se abren con navegadores tradicionales, y la comunicación se cifra en múltiples capas. La utilizan activistas, periodistas o ciudadanos que necesitan proteger su identidad frente a la censura, pero también alberga compraventa de datos personales, drogas, armas y otros bienes ilegales.",
+          "refs": [
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "La Dark Web es una sección específica y más reducida dentro de la propia Deep Web previamente descrita."
+            },
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "Este entorno se caracteriza por el uso de direcciones web terminadas en \".onion\", que no pueden abrirse con navegadores tradicionales y que son accesibles a través de la red Tor. La comunicación entre quienes acceden y los sitios web se cifra en múltiples capas"
+            },
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "también es conocida por albergar actividades ilícitas, como la compraventa de datos personales, drogas, armas y otros bienes o servicios ilegales."
+            }
+          ]
+        },
+        {
+          "text": "El simple acceso a la Dark Web no es ilegal en sí mismo, pero participar en actividades delictivas dentro de ella sí puede tener consecuencias legales graves; además, muchas webs contienen software malicioso. El epígrafe menciona también la «Dark Net»: las fuentes oficiales de la plataforma no la definen por separado, de modo que solo puede estudiarse aquí a través de lo que INCIBE dice de las redes específicas de anonimato como Tor.",
+          "refs": [
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "El simple acceso a la Dark Web no es ilegal en sí mismo, pero participar en actividades delictivas o ilegales dentro de esta red sí puede tener consecuencias legales graves."
+            },
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "la Dark Web hace referencia a servicios accesibles a través de redes específicas, como Tor, y requiere herramientas específicas para acceder a determinados servicios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Información = datos en bruto; inteligencia = producto final útil para decidir.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, párr. 16",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "recopilar los datos en bruto necesarios (información) para producir el producto final deseado (inteligencia)."
+            }
+          ]
+        },
+        {
+          "text": "CNI: adscrito al Ministerio de Defensa; principios de eficacia, especialización y coordinación.",
+          "refs": [
+            {
+              "ref": "Art. 7.1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "El Centro Nacional de Inteligencia se adscribe orgánicamente al Ministerio de Defensa."
+            }
+          ]
+        },
+        {
+          "text": "La Directiva de Inteligencia es anual y secreta; con ella empieza el ciclo.",
+          "refs": [
+            {
+              "ref": "Art. 3 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "aprobará anualmente los objetivos del Centro Nacional de Inteligencia mediante la Directiva de Inteligencia, que tendrá carácter secreto."
+            }
+          ]
+        },
+        {
+          "text": "Director del CNI: Secretario de Estado, mandato de cinco años, dirige también el Centro Criptológico Nacional.",
+          "refs": [
+            {
+              "ref": "Art. 9.1 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "El mandato será de cinco años"
+            }
+          ]
+        },
+        {
+          "text": "Los miembros del CNI no son agentes de la autoridad, salvo los de protección de personal e instalaciones.",
+          "refs": [
+            {
+              "ref": "Art. 5.4 LCNI",
+              "law": "Ley 11/2002",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628",
+              "quote": "no tendrán la consideración de agentes de la autoridad"
+            }
+          ]
+        },
+        {
+          "text": "HUMINT humanas, OSINT abiertas, SIGINT técnicas, GEOINT imágenes e información geográfica; ELINT: sobre todo señales de radar.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-425, nota 3",
+              "law": "CCN-STIC-425",
+              "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+              "quote": "Las fuentes más comunes de ELINT son las señales de radar."
+            }
+          ]
+        },
+        {
+          "text": "CNI: dirección, planificación, obtención, elaboración y difusión. CCN: seis fases, con la Evaluación tras cada una.",
+          "refs": [
+            {
+              "ref": "CNI, La Inteligencia: Difusión",
+              "law": "CNI, «La Inteligencia»",
+              "url": "https://www.cni.es/la-inteligencia",
+              "quote": "Es el final del ciclo, resultado de todo el proceso."
+            }
+          ]
+        },
+        {
+          "text": "Surface Web indexada; Deep Web, la mayor parte y no indexada; Dark Web, parte reducida de la Deep Web, con «.onion» y Tor.",
+          "refs": [
+            {
+              "ref": "INCIBE, Deep web y Dark web",
+              "law": "INCIBE",
+              "url": "https://www.incibe.es/ciudadania/blog/deep-web-y-dark-web-descubre-que-son-y-en-que-se-diferencian",
+              "quote": "sus servicios están diseñados para ser accesibles a través de redes específicas que proporcionan un mayor grado de anonimato, como Tor (The Onion Router)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Ley 11/2002 (https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628)"
 }

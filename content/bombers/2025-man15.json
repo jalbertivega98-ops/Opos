@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man15-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.006 Manual operatiu bàsic de construcció (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.006-Tema-15.-Manual-Op.-basic-construccio.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 9) · MAN.GRAL.006, § 2.4",
+      "stem": "Per a una biga que ha de treballar a flexió, quin d'aquests materials és el menys adequat segons el manual de construcció?",
+      "options": [
+        "La pedra.",
+        "L'acer.",
+        "La fusta.",
+        "El formigó armat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La flexió combina compressió i tracció; la pedra és un material fràgil que només suporta bé la compressió, mentre que l'acer, la fusta i el formigó armat es comporten bé a flexió.",
+      "excerpt": "La compressió és l’esforç que aixafa un element. Materials fràgils però resistents, com la pedra, la ceràmica, el formigó o la terra, la suporten molt bé. […] La flexió és la combinació de compressió i tracció en una peça que es corba. S’hi comporten bé l’acer, la fusta i el formigó armat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 54) · MAN.GRAL.006, § 4.3.2",
+      "stem": "Una biga amb un perfil en forma d'H (com un perfil HEB) és un element estructural de quin material?",
+      "options": [
+        "Fusta laminada.",
+        "Acer.",
+        "Formigó armat.",
+        "Ceràmica."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Els perfils I, H o U són bigues metàl·liques (perfils laminats d'acer).",
+      "excerpt": "Bigues metàl·liques (perfil I, H o U): molt comunes en edificis preindustrials i industrials.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 78) · MAN.GRAL.006, § 2.4.5",
+      "stem": "Has de tallar una barra metàl·lica massissa amb una cisalla. A quin tipus d'esforç sotmets la barra en el punt de tall?",
+      "options": [
+        "A tracció.",
+        "A un esforç tallant (cisallament).",
+        "A torsió.",
+        "A vinclament."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'esforç tallant fa lliscar una part de l'element respecte de l'altra; la tracció estira, la torsió retorça i el vinclament és una deformació lateral per compressió.",
+      "excerpt": "Tallant o cisallament […] L’esforç tallant vol “lliscar” una part de l’element respecte l’altra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 81) · MAN.GRAL.006, § 4 i 4.1.5",
+      "stem": "Sobre els tipus de fonaments, indica l'afirmació INCORRECTA:",
+      "options": [
+        "Les sabates corregudes són fonaments superficials.",
+        "Les sabatilles aïllades són fonaments superficials.",
+        "Els murs pantalla són fonaments profunds.",
+        "Els pilots són fonaments superficials."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Els pilots (pilons) són fonaments profunds: transmeten les càrregues a capes més profundes i resistents del subsòl.",
+      "excerpt": "Fonaments: transmeten les càrregues de l’estructura al terreny. Poden ser superficials (sabates corregudes o aïllades) o profunds (pilons, murs pantalla). […] Elements cilíndrics clavats o perforats al subsòl per transmetre les càrregues a capes més profundes i resistents.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. R4) · MAN.GRAL.006, § 4.2.1",
+      "stem": "Quin d'aquests és un material habitual dels murs de càrrega?",
+      "options": [
+        "El maó massís.",
+        "Les plaques d'EPS.",
+        "La llana de roca.",
+        "Les làmines de PVC."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els murs de càrrega són de maó massís, pedra, tapial o formigó antic, amb gruixos de 20-60 cm; els altres són aïllaments o impermeabilitzacions.",
+      "excerpt": "Materials habituals: maó massís, pedra, tapial, formigó antic.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

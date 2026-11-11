@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-rae_dpd-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española y ASALE · Diccionario panhispánico de dudas (DPD), 2.ª edición en línea",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 80, tema P36) · DPD, conducir",
+      "stem": "Según el Diccionario panhispánico de dudas, la forma correcta del pretérito perfecto simple de «conducir» en primera persona del singular es:",
+      "options": [
+        "Conducí.",
+        "Condují.",
+        "Conduje."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "«Conducir» es irregular: el pretérito perfecto simple es conduje, condujiste, condujo; son incorrectas las formas regularizadas como «conducí».",
+      "excerpt": "conduje, condujiste, condujo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 81, tema P36) · DPD, sino 2.1",
+      "stem": "Según el Diccionario panhispánico de dudas, cuando lo que se contrapone son oraciones con el verbo en forma personal, «sino» debe ir seguido de:",
+      "options": [
+        "«que».",
+        "«de».",
+        "«como»."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El DPD indica que, en la lengua actual, si se contraponen oraciones con verbo en forma personal, se usa «sino que»: «No lo hizo, sino que lo dejó para mañana».",
+      "excerpt": "En la lengua actual, cuando lo que se contrapone son oraciones con el verbo en forma personal, sino debe ir seguido de que",
+      "excerpt_status": "completo"
+    }
+  ]
+}
