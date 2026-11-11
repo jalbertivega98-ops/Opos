@@ -83,5 +83,690 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Concepto de documento",
+      "blocks": [
+        {
+          "text": "El tema maneja dos conceptos de documento. Desde el punto de vista administrativo, son documentos públicos administrativos los válidamente emitidos por los órganos de las Administraciones Públicas (art. 26.1 LPAC). Desde el punto de vista archivístico, el Real Decreto 1708/2011 define el documento de archivo como el ejemplar en cualquier tipo de soporte, testimonio de las actividades y funciones de las personas físicas y jurídicas, públicas o privadas (art. 2.2.b RD 1708/2011). Lo decisivo, por tanto, no es el soporte (papel o electrónico), sino que el documento sea testimonio de una actividad.",
+          "refs": [
+            {
+              "ref": "Art. 26.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Se entiende por documentos públicos administrativos los válidamente emitidos por los órganos de las Administraciones Públicas."
+            },
+            {
+              "ref": "Art. 2.2.b) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "b) Documento de archivo: Ejemplar en cualquier tipo de soporte, testimonio de las actividades y funciones de las personas físicas y jurídicas, públicas o privadas."
+            }
+          ]
+        },
+        {
+          "text": "El mismo real decreto define el documento electrónico como la información de cualquier naturaleza en forma electrónica, archivada en un soporte electrónico según un formato determinado y susceptible de identificación y tratamiento diferenciado, y el expediente electrónico como el conjunto de documentos electrónicos de un procedimiento administrativo. Ojo: estas dos definiciones se remiten a la Ley 11/2007, de acceso electrónico de los ciudadanos a los servicios públicos, que ya no es la norma de referencia (hoy rigen las Leyes 39/2015 y 40/2015); el texto del real decreto recogido en las fuentes no ha actualizado esa remisión.",
+          "refs": [
+            {
+              "ref": "Art. 2.2.c) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "c) Documento electrónico: De acuerdo con lo establecido en la Ley 11/2007, de 22 de junio, de acceso electrónico de los ciudadanos a los Servicios Públicos, se entenderá por documento electrónico la información de cualquier naturaleza en forma electrónica, archivada en un soporte electrónico, según un formato determinado y susceptible de identificación y tratamiento diferenciado."
+            },
+            {
+              "ref": "Art. 2.2.d) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "se entenderá por expediente electrónico el conjunto de documentos electrónicos correspondientes a un procedimiento administrativo, cualquiera que sea el tipo de información que contengan."
+            }
+          ]
+        },
+        {
+          "text": "Otras definiciones útiles del artículo 2.2 RD 1708/2011: el metadato es cualquier descripción estandarizada de las características de un conjunto de datos; y la eliminación de documentos es su destrucción física por el órgano responsable, con un método que impida su reconstrucción y posterior utilización.",
+          "refs": [
+            {
+              "ref": "Art. 2.2.j) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "j) Metadato: Se entiende por metadato cualquier descripción estandarizada de las características de un conjunto de datos."
+            },
+            {
+              "ref": "Art. 2.2.i) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "i) Eliminación de documentos: Consiste en la destrucción física de unidades o series documentales por el órgano responsable del archivo u oficina pública en que se encuentren, empleando cualquier método que garantice la imposibilidad de reconstrucción de los mismos y su posterior utilización."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Documentos públicos administrativos y documento electrónico",
+      "blocks": [
+        {
+          "text": "La regla general es que las Administraciones emiten los documentos administrativos por escrito y a través de medios electrónicos, salvo que su naturaleza exija otra forma más adecuada de expresión y constancia (art. 26.1 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 26.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "Las Administraciones Públicas emitirán los documentos administrativos por escrito, a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia."
+            }
+          ]
+        },
+        {
+          "text": "Para ser válidos, los documentos electrónicos administrativos deben cumplir cinco requisitos (art. 26.2 LPAC): contener información archivada en un soporte electrónico según un formato determinado; disponer de datos de identificación que permitan individualizarlos; incorporar una referencia temporal del momento en que se emitieron; incorporar los metadatos mínimos exigidos; e incorporar las firmas electrónicas que correspondan. Si cumplen estos requisitos, siguen siendo válidos cuando se trasladan a un tercero por medios electrónicos.",
+          "refs": [
+            {
+              "ref": "Art. 26.2 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "a) Contener información de cualquier naturaleza archivada en un soporte electrónico según un formato determinado susceptible de identificación y tratamiento diferenciado. b) Disponer de los datos de identificación que permitan su individualización, sin perjuicio de su posible incorporación a un expediente electrónico. c) Incorporar una referencia temporal del momento en que han sido emitidos. d) Incorporar los metadatos mínimos exigidos. e) Incorporar las firmas electrónicas que correspondan de acuerdo con lo previsto en la normativa aplicable."
+            }
+          ]
+        },
+        {
+          "text": "Excepción a la firma: no la necesitan los documentos electrónicos que se publican con carácter meramente informativo ni los que no forman parte de un expediente administrativo, aunque en todo caso hay que identificar su origen (art. 26.3 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 26.3 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "3. No requerirán de firma electrónica, los documentos electrónicos emitidos por las Administraciones Públicas que se publiquen con carácter meramente informativo, así como aquellos que no formen parte de un expediente administrativo. En todo caso, será necesario identificar el origen de estos documentos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Copias auténticas y documentos aportados",
+      "blocks": [
+        {
+          "text": "Cada Administración determina qué órganos expiden copias auténticas, que pueden hacerse mediante funcionario habilitado o actuación administrativa automatizada; en el registro de funcionarios habilitados constan al menos los de las oficinas de asistencia en materia de registros. Las copias auténticas de documentos privados solo surten efectos administrativos, y las hechas por una Administración valen en las demás (art. 27.1 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 27.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "Las copias auténticas de documentos privados surten únicamente efectos administrativos. Las copias auténticas realizadas por una Administración Pública tendrán validez en las restantes Administraciones. A estos efectos, la Administración General del Estado, las Comunidades Autónomas y las Entidades Locales podrán realizar copias auténticas mediante funcionario habilitado o mediante actuación administrativa automatizada."
+            },
+            {
+              "ref": "Art. 27.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "En este registro o sistema equivalente constarán, al menos, los funcionarios que presten servicios en las oficinas de asistencia en materia de registros."
+            }
+          ]
+        },
+        {
+          "text": "Es copia auténtica la realizada, en cualquier soporte, por el órgano competente garantizando la identidad del órgano que la hace y su contenido; tiene la misma validez y eficacia que el original (art. 27.2). Las copias electrónicas deben incluir metadatos que acrediten su condición de copia; la digitalización es el proceso que convierte un documento en papel en un fichero con su imagen codificada, fiel e íntegra; y las copias en papel de documentos electrónicos llevan un código de verificación (art. 27.3). El interesado puede pedir copias auténticas en cualquier momento al órgano emisor, que debe expedirlas en quince días (art. 27.4 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 27.2 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. Tendrán la consideración de copia auténtica de un documento público administrativo o privado las realizadas, cualquiera que sea su soporte, por los órganos competentes de las Administraciones Públicas en las que quede garantizada la identidad del órgano que ha realizado la copia y su contenido. Las copias auténticas tendrán la misma validez y eficacia que los documentos originales."
+            },
+            {
+              "ref": "Art. 27.3 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "Se entiende por digitalización, el proceso tecnológico que permite convertir un documento en soporte papel o en otro soporte no electrónico en un fichero electrónico que contiene la imagen codificada, fiel e íntegra del documento. c) Las copias en soporte papel de documentos electrónicos requerirán que en las mismas figure la condición de copia y contendrán un código generado electrónicamente u otro sistema de verificación"
+            },
+            {
+              "ref": "Art. 27.4 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "4. Los interesados podrán solicitar, en cualquier momento, la expedición de copias auténticas de los documentos públicos administrativos que hayan sido válidamente emitidos por las Administraciones Públicas. La solicitud se dirigirá al órgano que emitió el documento original, debiendo expedirse, salvo las excepciones derivadas de la aplicación de la Ley 19/2013, de 9 de diciembre, en el plazo de quince días"
+            }
+          ]
+        },
+        {
+          "text": "Documentos aportados (art. 28 LPAC): el interesado tiene derecho a no aportar documentos que ya tenga la Administración actuante o que haya elaborado otra Administración, que se recaban electrónicamente salvo oposición (no cabe oponerse en potestades sancionadoras o de inspección). No se exigen originales salvo excepción legal. Las copias aportadas por los interesados solo tienen eficacia ante las Administraciones, y el interesado responde de la veracidad de lo que presenta.",
+          "refs": [
+            {
+              "ref": "Art. 28.2 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. Los interesados tienen derecho a no aportar documentos que ya se encuentren en poder de la Administración actuante o hayan sido elaborados por cualquier otra Administración. La administración actuante podrá consultar o recabar dichos documentos salvo que el interesado se opusiera a ello. No cabrá la oposición cuando la aportación del documento se exigiera en el marco del ejercicio de potestades sancionadoras o de inspección."
+            },
+            {
+              "ref": "Art. 28.3 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "3. Las Administraciones no exigirán a los interesados la presentación de documentos originales, salvo que, con carácter excepcional, la normativa reguladora aplicable establezca lo contrario."
+            },
+            {
+              "ref": "Art. 28.6-7 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "6. Las copias que aporten los interesados al procedimiento administrativo tendrán eficacia, exclusivamente en el ámbito de la actividad de las Administraciones Públicas. 7. Los interesados se responsabilizarán de la veracidad de los documentos que presenten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "El registro: Registro Electrónico General y asientos",
+      "blocks": [
+        {
+          "text": "Cada Administración dispone de un Registro Electrónico General donde se asienta todo documento presentado o recibido en cualquier órgano, organismo público o entidad vinculada o dependiente; también puede anotarse la salida de documentos oficiales. Los organismos públicos pueden tener su propio registro, plenamente interoperable e interconectado con el General, que funciona como portal de acceso a ellos (art. 16.1 LPAC; art. 37.2 RD 203/2021).",
+          "refs": [
+            {
+              "ref": "Art. 16.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Cada Administración dispondrá de un Registro Electrónico General, en el que se hará el correspondiente asiento de todo documento que sea presentado o que se reciba en cualquier órgano administrativo, Organismo público o Entidad vinculado o dependiente a éstos. También se podrán anotar en el mismo, la salida de los documentos oficiales dirigidos a otros órganos o particulares."
+            },
+            {
+              "ref": "Art. 16.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "El Registro Electrónico General de cada Administración funcionará como un portal que facilitará el acceso a los registros electrónicos de cada Organismo."
+            },
+            {
+              "ref": "Art. 37.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "Los organismos públicos y entidades de derecho público vinculados o dependientes de cada Administración podrán disponer de su propio registro electrónico plenamente interoperable e interconectado con el Registro Electrónico General"
+            }
+          ]
+        },
+        {
+          "text": "Los asientos se anotan respetando el orden temporal de recepción o salida y con la fecha del día; tras el registro, los documentos se cursan sin dilación a sus destinatarios (art. 16.2). Cada asiento deja constancia de número, epígrafe, fecha y hora, interesado, órgano remitente y destinatario y, en su caso, contenido. Al presentar se emite automáticamente un recibo consistente en una copia autenticada del documento, con fecha y hora de presentación y número de entrada de registro (art. 16.3 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 16.2 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. Los asientos se anotarán respetando el orden temporal de recepción o salida de los documentos, e indicarán la fecha del día en que se produzcan. Concluido el trámite de registro, los documentos serán cursados sin dilación a sus destinatarios y a las unidades administrativas correspondientes desde el registro en que hubieran sido recibidas."
+            },
+            {
+              "ref": "Art. 16.3 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "garantizará la constancia, en cada asiento que se practique, de un número, epígrafe expresivo de su naturaleza, fecha y hora de su presentación, identificación del interesado, órgano administrativo remitente, si procede, y persona u órgano administrativo al que se envía, y, en su caso, referencia al contenido del documento que se registra. Para ello, se emitirá automáticamente un recibo consistente en una copia autenticada del documento de que se trate, incluyendo la fecha y hora de presentación y el número de entrada de registro"
+            }
+          ]
+        },
+        {
+          "text": "Las disposiciones de creación de los registros electrónicos se publican en el diario oficial y deben indicar el órgano responsable, la fecha y hora oficial y los días inhábiles (art. 16.1). No se tienen por presentados en el registro los documentos cuyo régimen especial establezca otra forma de presentación (art. 16.8 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 16.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "Las disposiciones de creación de los registros electrónicos se publicarán en el diario oficial correspondiente […] especificarán el órgano o unidad responsable de su gestión, así como la fecha y hora oficial y los días declarados como inhábiles."
+            },
+            {
+              "ref": "Art. 16.8 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "8. No se tendrán por presentados en el registro aquellos documentos e información cuyo régimen especial establezca otra forma de presentación."
+            }
+          ]
+        },
+        {
+          "text": "En la AGE, el Registro Electrónico General es el conjunto agregado de los asientos de las unidades de registro, de las aplicaciones de procedimientos específicos y del servicio electrónico para escritos sin modelo normalizado, accesible desde la sede del Punto de Acceso General; sus anotaciones tienen plena eficacia para todas las Administraciones (art. 38 RD 203/2021). El reglamento atribuye su gestión a ministerios con la denominación de 2021, que puede no coincidir con la estructura ministerial actual: este punto no se ha contrastado con las fuentes oficiales recogidas para el tema.",
+          "refs": [
+            {
+              "ref": "Art. 38.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "1. El Registro Electrónico General de la Administración General del Estado será gestionado por el Ministerio de Política Territorial y Función Pública en colaboración con el Ministerio de Asuntos Económicos y Transformación Digital y se configura como el conjunto agregado de:"
+            },
+            {
+              "ref": "Art. 38.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "2. Las anotaciones en el Registro General de la Administración General del Estado tendrán plena eficacia y validez para todas las Administraciones Públicas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Lugares de presentación y digitalización",
+      "blocks": [
+        {
+          "text": "Los documentos dirigidos a las Administraciones pueden presentarse (art. 16.4 LPAC): en el registro electrónico de la Administración u organismo destinatario o en el de cualquier otro sujeto del sector público; en las oficinas de Correos; en las representaciones diplomáticas u oficinas consulares de España en el extranjero; en las oficinas de asistencia en materia de registros; y en cualquier otro que establezcan las disposiciones vigentes. Todos los registros deben ser plenamente interoperables.",
+          "refs": [
+            {
+              "ref": "Art. 16.4 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "4. Los documentos que los interesados dirijan a los órganos de las Administraciones Públicas podrán presentarse: a) En el registro electrónico de la Administración u Organismo al que se dirijan, así como en los restantes registros electrónicos de cualquiera de los sujetos a los que se refiere el artículo 2.1. b) En las oficinas de Correos, en la forma que reglamentariamente se establezca. c) En las representaciones diplomáticas u oficinas consulares de España en el extranjero. d) En las oficinas de asistencia en materia de registros. e) En cualquier otro que establezcan las disposiciones vigentes."
+            }
+          ]
+        },
+        {
+          "text": "Los documentos presentados presencialmente deben ser digitalizados por la oficina de asistencia en materia de registros donde se presenten y se incorporan al expediente electrónico, devolviéndose los originales al interesado, salvo que la norma imponga su custodia o se trate de objetos o soportes no digitalizables (art. 16.5 LPAC). Los documentos en papel se presentan a través de estas oficinas y, una vez digitalizados, tienen la consideración de copia electrónica auténtica (art. 39.3 RD 203/2021).",
+          "refs": [
+            {
+              "ref": "Art. 16.5 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "5. Los documentos presentados de manera presencial ante las Administraciones Públicas, deberán ser digitalizados, de acuerdo con lo previsto en el artículo 27 y demás normativa aplicable, por la oficina de asistencia en materia de registros en la que hayan sido presentados para su incorporación al expediente administrativo electrónico, devolviéndose los originales al interesado, sin perjuicio de aquellos supuestos en que la norma determine la custodia por la Administración de los documentos presentados o resulte obligatoria la presentación de objetos o de documentos en un soporte específico no susceptibles de digitalización."
+            },
+            {
+              "ref": "Art. 39.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "3. Los documentos en soporte no electrónico se presentarán a través de las oficinas de asistencia en materia de registros. Cuando se presenten documentos originales o copias auténticas en soporte no electrónico, desde el momento en que sean digitalizados conforme a lo dispuesto en las correspondientes normas técnicas de interoperabilidad, tendrán la consideración de copia electrónica auténtica de documento en soporte papel"
+            }
+          ]
+        },
+        {
+          "text": "Si los documentos en papel no pueden devolverse en el momento, una vez digitalizados se conservan a disposición del interesado durante seis meses para que los recoja, salvo que la Administración fije reglamentariamente un plazo mayor; lo mismo vale para los presentados en un dispositivo electrónico. Después se destruyen, salvo que tengan valor histórico, artístico u otro relevante (art. 53 RD 203/2021).",
+          "refs": [
+            {
+              "ref": "Art. 53.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "1. Los documentos presentados por el interesado en soporte papel que por cualquier circunstancia no le puedan ser devueltos en el momento de su presentación, una vez digitalizados serán conservados a su disposición durante seis meses para que pueda recogerlos, independientemente del procedimiento administrativo al que se incorporen o de la Administración Pública a que vayan dirigidos, salvo que reglamentariamente la Administración correspondiente establezca un plazo mayor."
+            },
+            {
+              "ref": "Art. 53.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "y siempre que no se trate de documentos con valor histórico, artístico u otro relevante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Oficinas de asistencia en materia de registros",
+      "blocks": [
+        {
+          "text": "En la AGE, las oficinas de asistencia en materia de registros tienen naturaleza de órgano administrativo y figuran en un directorio geográfico (art. 40.1-2 RD 203/2021). Sus funciones (art. 40.3) son, entre otras: digitalizar los escritos en papel dirigidos a cualquier Administración y anotarlos en el registro; anotar asientos de salida; emitir el recibo que acredita la fecha y hora de presentación; expedir copias electrónicas auténticas de los documentos que se incorporen a un expediente; informar sobre identificación y firma electrónica; identificar o firmar por el interesado no obligado a relacionarse electrónicamente; practicar notificaciones a quien comparezca espontáneamente; comunicar el código de identificación del órgano destinatario; e iniciar el apoderamiento apud acta presencial.",
+          "refs": [
+            {
+              "ref": "Art. 40.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "1. Las Oficinas de asistencia en materia de registros tienen naturaleza de órgano administrativo de acuerdo con lo dispuesto en el artículo 5 de la Ley 40/2015, de 1 de octubre."
+            },
+            {
+              "ref": "Art. 40.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "a) La digitalización de las solicitudes, escritos y comunicaciones en papel que se presenten o sean recibidos en la Oficina y se dirijan a cualquier órgano, organismo público o entidad de derecho público de cualquier Administración Pública, así como su anotación en el Registro Electrónico General o Registro electrónico de cada organismo o entidad según corresponda. b) La anotación, en su caso, de los asientos de salida que se realicen de acuerdo con lo dispuesto en el artículo 16 de la Ley 39/2015, de 1 de octubre. c) La emisión del correspondiente recibo que acredite la fecha y hora de presentación de solicitudes, comunicaciones y documentos que presenten las personas interesadas."
+            },
+            {
+              "ref": "Art. 40.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "f) La identificación o firma electrónica del interesado, cuando se trate de una persona no obligada a la relación electrónica con la Administración […] h) La comunicación a las personas interesadas del código de identificación del órgano, organismo público o entidad a la que se dirige la solicitud, escrito o comunicación. i) La iniciación de la tramitación del apoderamiento presencial apud acta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "El archivo: concepto y funciones",
+      "blocks": [
+        {
+          "text": "El RD 1708/2011 entiende por archivo tanto el conjunto orgánico de documentos producidos o reunidos por personas físicas o jurídicas, públicas o privadas, como las entidades que reúnen, conservan, organizan, describen y difunden esos conjuntos (art. 2.1). La LPAC obliga a cada Administración a mantener un archivo electrónico único de los documentos electrónicos de procedimientos finalizados (art. 17.1); los documentos deben conservarse en un formato que garantice su autenticidad, integridad y consulta con independencia del tiempo transcurrido, y su eliminación debe ser autorizada (art. 17.2 LPAC).",
+          "refs": [
+            {
+              "ref": "Art. 2.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "a) El conjunto orgánico de documentos, o la reunión de varios de ellos, producidos o reunidos por las personas físicas o jurídicas, públicas o privadas b) Las entidades, que de acuerdo con las normas internacionales de descripción archivística, comprenden instituciones, personas y familias, que reúnen, conservan, organizan, describen y difunden los conjuntos orgánicos y las colecciones de documentos."
+            },
+            {
+              "ref": "Art. 17.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "1. Cada Administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a procedimientos finalizados, en los términos establecidos en la normativa reguladora aplicable."
+            },
+            {
+              "ref": "Art. 17.2 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "2. Los documentos electrónicos deberán conservarse en un formato que permita garantizar la autenticidad, integridad y conservación del documento, así como su consulta con independencia del tiempo transcurrido desde su emisión. […] La eliminación de dichos documentos deberá ser autorizada de acuerdo a lo dispuesto en la normativa aplicable."
+            }
+          ]
+        },
+        {
+          "text": "En todas las fases del ciclo vital, los archivos del Sistema deben, entre otras funciones, garantizar el acceso de los ciudadanos a los documentos públicos, facilitar a las unidades productoras el acceso a sus documentos, darles el tratamiento archivístico adecuado, cumplir los calendarios de conservación y garantizar la integridad, autenticidad y conservación de los documentos electrónicos (art. 14.1 RD 1708/2011).",
+          "refs": [
+            {
+              "ref": "Art. 14.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "a) Garantizar el acceso de los ciudadanos a los documentos públicos, en la forma dispuesta en el capítulo siguiente. b) Facilitar a las unidades productoras el acceso a sus documentos."
+            },
+            {
+              "ref": "Art. 14.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "d) Atender a lo dispuesto en los calendarios de conservación, en cuanto a los plazos de acceso, transferencia y, en su caso, eliminación de las series documentales custodiadas en cada tipo de archivo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Clases de archivo según el ciclo vital: oficina y central",
+      "blocks": [
+        {
+          "text": "El ciclo vital son las etapas que atraviesan los documentos desde que se producen hasta su eliminación o conservación permanente (art. 2.2.e). Según él, los archivos de la AGE se clasifican en cuatro: de oficina o de gestión; generales o centrales de los Ministerios y organismos; intermedio; e históricos (art. 8 RD 1708/2011). Es el orden en que «viajan» los documentos.",
+          "refs": [
+            {
+              "ref": "Art. 2.2.e) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "e) Ciclo vital de documentos: Son las diferentes etapas por las que atraviesan los documentos desde que se producen hasta su eliminación conforme al procedimiento establecido, o en su caso, su conservación permanente."
+            },
+            {
+              "ref": "Art. 8 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "Los Archivos del Sistema de Archivos de la Administración General del Estado, atendiendo al ciclo vital de los documentos, se clasifican en: a) Archivos de oficina o de gestión. b) Archivos generales o centrales de los Ministerios y de los organismos públicos dependientes de los mismos. c) Archivo intermedio. d) Archivos históricos."
+            }
+          ]
+        },
+        {
+          "text": "Los archivos de oficina o de gestión están en todos los órganos y unidades y custodian documentos en tramitación o de uso continuo. Concluida esa etapa, los transfieren al archivo central del Departamento según los plazos de valoración. Funciones: apoyar la gestión, acreditar las actuaciones de la unidad, organizar sus documentos, transferirlos al Archivo central conforme al calendario de conservación y eliminar los documentos de apoyo informativo antes de la transferencia (art. 9).",
+          "refs": [
+            {
+              "ref": "Art. 9 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "Son aquellos archivos existentes en todos los órganos y unidades administrativas para la custodia de los documentos en fase de tramitación o sometidos a continua utilización y consulta administrativa. Estos documentos, una vez concluida su tramitación o su etapa de utilización y consulta, serán objeto de transferencia al archivo central del Departamento respectivo, de acuerdo con los plazos establecidos durante el proceso de valoración."
+            },
+            {
+              "ref": "Art. 9 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "1.º Apoyar la gestión administrativa. 2.º Acreditar las actuaciones y actividades de la unidad productora. 3.º Organizar los documentos producidos por sus respectivas unidades."
+            },
+            {
+              "ref": "Art. 9 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "5.º Eliminar los documentos de apoyo informativo antes de la transferencia al Archivo central."
+            }
+          ]
+        },
+        {
+          "text": "Los archivos centrales custodian los documentos una vez finalizada su tramitación y transcurridos los plazos. Coordinan y asesoran a los archivos de gestión, identifican las series y elaboran el cuadro de clasificación, describen las fracciones de serie, valoran y proponen eliminaciones o conservación permanente, tramitan los expedientes de eliminación y transfieren periódicamente al archivo intermedio con su relación de entrega (art. 10.1 RD 1708/2011).",
+          "refs": [
+            {
+              "ref": "Art. 10.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "1. Son aquellos archivos existentes en los Ministerios y organismos públicos para la custodia de los documentos, una vez finalizada su tramitación y transcurridos los plazos establecidos por la normativa vigente o en los calendarios de conservación."
+            },
+            {
+              "ref": "Art. 10.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "2.º Llevar a cabo el proceso de identificación de series y elaborar el cuadro de clasificación."
+            },
+            {
+              "ref": "Art. 10.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "6.º Realizar las transferencias preceptivas y periódicas de documentos al archivo intermedio, acompañadas de su correspondiente relación de entrega."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Archivo intermedio y archivos históricos",
+      "blocks": [
+        {
+          "text": "El archivo intermedio custodia los documentos de los Ministerios y sus organismos una vez finalizada su fase activa. El Archivo General de la Administración (AGA) es el archivo intermedio de la AGE. Conserva lo transferido por los archivos centrales, aplica los dictámenes de la Comisión Superior Calificadora de Documentos Administrativos sobre eliminación y conservación, planifica la conservación a medio plazo de los ficheros electrónicos y transfiere al archivo histórico (art. 11 RD 1708/2011).",
+          "refs": [
+            {
+              "ref": "Art. 11 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "El archivo intermedio es la institución responsable de la custodia de los documentos generados y reunidos por los diferentes Departamentos ministeriales y sus organismos públicos, una vez finalizada su fase activa conforme a lo establecido en los calendarios de conservación. El Archivo General de la Administración, es el archivo intermedio de la Administración General del Estado, según la normativa vigente."
+            },
+            {
+              "ref": "Art. 11 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "1.º Conservar los documentos que son transferidos desde los Archivos Centrales de los Ministerios."
+            },
+            {
+              "ref": "Art. 11 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "7.º Llevar a cabo las transferencias preceptivas y periódicas de documentos al Archivo histórico, acompañadas de los correspondientes instrumentos de descripción elaborados."
+            }
+          ]
+        },
+        {
+          "text": "Los archivos históricos custodian los fondos del patrimonio histórico documental que reflejan la trayectoria de la administración estatal o tienen un valor histórico singular. El Archivo Histórico Nacional ejerce las funciones de archivo histórico de la AGE: conserva lo transferido desde el AGA, aplica programas de reproducción, planifica la conservación a largo plazo e impulsa la difusión. En la periferia, los Archivos Históricos Provinciales cumplen funciones de archivo intermedio e histórico (art. 12 RD 1708/2011). El real decreto adscribe estos archivos al «Ministerio de Cultura», denominación de 2011 que puede no coincidir con la actual.",
+          "refs": [
+            {
+              "ref": "Art. 12.2 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "2. El Archivo Histórico Nacional ejerce las funciones de archivo histórico de la Administración General del Estado."
+            },
+            {
+              "ref": "Art. 12 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "a) Conservar los documentos con valor histórico que le son transferidos desde el Archivo General de la Administración."
+            },
+            {
+              "ref": "Art. 12 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "2. En el ámbito de los servicios periféricos del Estado, desempeñan idénticas funciones a las de los archivos intermedio e histórico los Archivos Históricos Provinciales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Calendarios de conservación, valoración y eliminación",
+      "blocks": [
+        {
+          "text": "El calendario de conservación es el instrumento fruto de la valoración documental que fija el plazo de permanencia de los documentos en cada fase del ciclo vital para su selección, eliminación o conservación permanente (art. 2.2.f). La valoración documental es el estudio de las características administrativas, jurídicas, fiscales, informativas e históricas de los documentos (art. 2.2.h); y la identificación, la fase que investiga las categorías en que se basa la estructura de un fondo (art. 2.2.g RD 1708/2011).",
+          "refs": [
+            {
+              "ref": "Art. 2.2.f) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "f) Calendario de conservación: Es el instrumento de trabajo fruto del proceso de valoración documental, en el que se recoge el plazo de permanencia de los documentos de archivo en cada una de las fases del ciclo vital para su selección, eliminación o conservación permanente"
+            },
+            {
+              "ref": "Art. 2.2.g-h) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "g) Identificación: Es la fase del tratamiento archivístico que consiste en la investigación y sistematización de las categorías administrativas y archivísticas en que se sustenta la estructura de un fondo. h) Valoración documental: Es el estudio y análisis de las características administrativas, jurídicas, fiscales, informativas e históricas de los documentos u otras agrupaciones documentales."
+            }
+          ]
+        },
+        {
+          "text": "Los grupos de trabajo de coordinación archivística de cada Ministerio presentan sus propuestas de eliminación o conservación permanente para el dictamen preceptivo de la Comisión Superior Calificadora de Documentos Administrativos. La eliminación, también de documentos electrónicos, solo puede hacerse con el procedimiento establecido. Los calendarios fijan, por series, las fases de actividad, semiactividad e inactividad, y nunca se transfiere al archivo intermedio lo que la Comisión ya ha dictaminado eliminar (art. 15 RD 1708/2011).",
+          "refs": [
+            {
+              "ref": "Art. 15.1-2 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "1. Los grupos de trabajo de coordinación archivística de cada Departamento ministerial presentarán sus propuestas de eliminación o en su caso, de conservación permanente para el dictamen preceptivo por la Comisión Superior Calificadora de Documentos Administrativos. 2. A los efectos de este Real Decreto, la eliminación de documentos, incluidos los documentos y expedientes electrónicos, custodiados por los archivos del Sistema, sólo podrá llevarse a cabo cumpliendo los requisitos y el procedimiento establecido en la normativa vigente."
+            },
+            {
+              "ref": "Art. 15.3 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "Los calendarios de conservación, determinarán para cada serie o agrupación documental, las fases de actividad, semiactividad o inactividad administrativa […] En ningún caso se transferirán al Archivo Intermedio agrupaciones documentales cuando previamente la Comisión Superior Calificadora de Documentos Administrativos haya dictaminado su eliminación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Conservación y archivo electrónico único",
+      "blocks": [
+        {
+          "text": "Las Administraciones deben conservar en soporte electrónico todos los documentos de un expediente y los que tengan valor probatorio aunque se creen fuera de un procedimiento; la copia electrónica auténtica tiene la consideración de patrimonio documental (art. 54.1). Si hay procedimientos judiciales que puedan afectarlos, se conservan hasta su terminación (art. 54.2). La conservación comprende como mínimo identificación, contenido, metadatos, firma, estructura y formato, y pueden migrarse a otros formatos cuando el suyo deje de admitirse (art. 54.3-5 RD 203/2021).",
+          "refs": [
+            {
+              "ref": "Art. 54.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "deberán conservar en soporte electrónico todos los documentos que formen parte de un expediente administrativo y todos aquellos documentos con valor probatorio creados al margen de un procedimiento administrativo. La copia electrónica auténtica generada conforme a lo dispuesto en el artículo 27 de la Ley 39/2015, de 1 de octubre, tiene la consideración de patrimonio documental"
+            },
+            {
+              "ref": "Art. 54.3 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "3. La conservación de los documentos electrónicos deberá realizarse de forma que permita su acceso y comprenda, como mínimo, su identificación, contenido, metadatos, firma, estructura y formato."
+            }
+          ]
+        },
+        {
+          "text": "El archivo electrónico único de cada Administración es el conjunto de sistemas y servicios que sustenta la gestión, custodia y recuperación de los documentos y expedientes electrónicos una vez finalizados los procedimientos. En el de la AGE son accesibles todos los documentos del sector público estatal en los plazos que fije la Comisión Superior Calificadora, garantizando autenticidad, integridad, confidencialidad, disponibilidad y cadena de custodia (art. 55 RD 203/2021).",
+          "refs": [
+            {
+              "ref": "Art. 55.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "1. El archivo electrónico único de cada Administración es el conjunto de sistemas y servicios que sustenta la gestión, custodia y recuperación de los documentos y expedientes electrónicos así como de otras agrupaciones documentales o de información una vez finalizados los procedimientos administrativos o actuaciones correspondientes."
+            },
+            {
+              "ref": "Art. 55.2 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "La gestión del archivo electrónico único garantizará la autenticidad, conservación, integridad, confidencialidad, disponibilidad y cadena de custodia de los expedientes y documentos almacenados"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Documento de archivo: ejemplar en cualquier soporte, testimonio de actividades y funciones.",
+          "refs": [
+            {
+              "ref": "Art. 2.2.b) RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "Ejemplar en cualquier tipo de soporte, testimonio de las actividades y funciones de las personas físicas y jurídicas, públicas o privadas."
+            }
+          ]
+        },
+        {
+          "text": "Requisito de validez del documento electrónico que más se pregunta: referencia temporal del momento de emisión. Sin firma: los meramente informativos y los que no forman parte de un expediente.",
+          "refs": [
+            {
+              "ref": "Art. 26.2.c) LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "c) Incorporar una referencia temporal del momento en que han sido emitidos."
+            }
+          ]
+        },
+        {
+          "text": "Copia auténtica = misma validez y eficacia que el original; se expide en quince días.",
+          "refs": [
+            {
+              "ref": "Art. 27.2 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "Las copias auténticas tendrán la misma validez y eficacia que los documentos originales."
+            }
+          ]
+        },
+        {
+          "text": "Recibo del registro: copia autenticada con fecha, hora y número de entrada.",
+          "refs": [
+            {
+              "ref": "Art. 16.3 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "incluyendo la fecha y hora de presentación y el número de entrada de registro"
+            }
+          ]
+        },
+        {
+          "text": "Lugares de presentación: registros electrónicos, Correos, consulados y embajadas, oficinas de asistencia y los demás que se establezcan.",
+          "refs": [
+            {
+              "ref": "Art. 16.4.c) LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "c) En las representaciones diplomáticas u oficinas consulares de España en el extranjero."
+            }
+          ]
+        },
+        {
+          "text": "Papeles no devueltos: a disposición del interesado seis meses.",
+          "refs": [
+            {
+              "ref": "Art. 53.1 RD 203/2021",
+              "law": "RD 203/2021",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+              "quote": "serán conservados a su disposición durante seis meses para que pueda recogerlos"
+            }
+          ]
+        },
+        {
+          "text": "Ciclo vital: gestión → central → intermedio (AGA) → histórico (AHN).",
+          "refs": [
+            {
+              "ref": "Art. 11 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "El Archivo General de la Administración, es el archivo intermedio de la Administración General del Estado"
+            },
+            {
+              "ref": "Art. 12.2 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "El Archivo Histórico Nacional ejerce las funciones de archivo histórico de la Administración General del Estado."
+            }
+          ]
+        },
+        {
+          "text": "Cuadro de clasificación e identificación de series: archivo central. Eliminar documentos de apoyo: archivo de gestión.",
+          "refs": [
+            {
+              "ref": "Art. 10.1 RD 1708/2011",
+              "law": "RD 1708/2011",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-18541",
+              "quote": "2.º Llevar a cabo el proceso de identificación de series y elaborar el cuadro de clasificación."
+            }
+          ]
+        },
+        {
+          "text": "Archivo electrónico único: documentos de procedimientos finalizados.",
+          "refs": [
+            {
+              "ref": "Art. 17.1 LPAC",
+              "law": "Ley 39/2015",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+              "quote": "archivo electrónico único de los documentos electrónicos que correspondan a procedimientos finalizados"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Ley 39/2015 (https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), RD 203/2021 (https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032)"
 }

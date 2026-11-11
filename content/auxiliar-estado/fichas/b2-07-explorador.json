@@ -72,5 +72,512 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "El Explorador de archivos: funciones y apertura",
+      "blocks": [
+        {
+          "text": "El Explorador de archivos es la herramienta de Windows para encontrar, abrir, organizar y administrar archivos y carpetas. En Windows 11 se abre seleccionándolo en la barra de tareas o en el menú Inicio, o con el atajo Windows + E, que funciona desde cualquier lugar del sistema. De forma predeterminada se abre en Acceso rápido (Inicio), que Microsoft recomienda como página de aterrizaje.",
+          "refs": [
+            {
+              "ref": "Explorador",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "El Explorador de archivos de Windows te ayuda a encontrar, abrir, organizar y administrar archivos y carpetas […] Para abrir el Explorador de archivos en Windows 11, selecciónelo en la barra de tareas o en el menú Inicio […] De forma predeterminada, el Explorador de archivos se abre en Acceso rápido […] Le recomendamos que sea su página de aterrizaje en el Explorador de archivos"
+            },
+            {
+              "ref": "Windows + E",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Tecla Windows + E | Abre el Explorador de archivos."
+            }
+          ]
+        },
+        {
+          "text": "El Explorador de Windows 11 trabaja con pestañas, como un navegador: Ctrl + T abre una pestaña nueva y cambia a ella; Ctrl + W cierra la pestaña activa (y la ventana si solo había una); Ctrl + Tab y Ctrl + Mayús + Tab pasan a la pestaña siguiente o anterior, y Ctrl + número (1-9) salta a esa pestaña. Ctrl + U abre una nueva ventana según la página española de atajos. F11 maximiza o minimiza la ventana activa y F5 la actualiza.",
+          "refs": [
+            {
+              "ref": "Pestañas",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+T | Abrir una pestaña nueva y cambiar a ella. […] Ctrl+W | Cierra la pestaña activa. Cierra la ventana si solo hay una pestaña abierta. […] Ctrl+Tab | Desplazarse a la pestaña siguiente. […] Ctrl+Mayús+Tab | Desplazarse a la pestaña anterior. […] Ctrl+Número (1-9) | Desplazarse a ese número de tabulación."
+            },
+            {
+              "ref": "Ventana",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+U | Abrir una nueva ventana. […] F11 | Maximizar o minimizar la ventana activa. […] F5 | Actualice la ventana."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Inicio / Acceso rápido y Este equipo",
+      "blocks": [
+        {
+          "text": "Inicio (Acceso rápido) da acceso rápido a los archivos recientes y favoritos de Office.com y permite buscar archivos del PC y de la nube mucho más rápido que desde Este equipo. Cualquier carpeta puede configurarse para aparecer en Acceso rápido; cuando ya no se necesita, se desancla con el botón derecho. Al anclarla, la carpeta queda disponible en el panel de navegación y en Inicio del Explorador.",
+          "refs": [
+            {
+              "ref": "Acceso rápido",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Acceda rápidamente a sus archivos Office.com más recientes y favoritos. […] Busque y encuentre sus archivos relevantes desde su PC y la nube mucho más rápido que con este PC. […] Puede configurar cualquier carpeta para que aparezca en Acceso rápido para que sea fácil de encontrar. […] Desánclalo cuando ya no lo necesites haciendo clic con el botón derecho […] La carpeta estará ahora disponible en el panel de navegación y en Inicio del Explorador de archivos."
+            }
+          ]
+        },
+        {
+          "text": "Este equipo muestra las unidades del equipo y los dispositivos conectados. En Windows 11, las carpetas predeterminadas (Documentos, Imágenes, etc.) ya no aparecen en Este equipo para mantener la vista centrada en las unidades; la vista de carpetas conocidas muestra las 6 carpetas de Windows. Quien prefiera que el Explorador se abra en Este equipo puede cambiarlo desde la cinta de opciones. El icono Este equipo puede además colocarse en el escritorio.",
+          "refs": [
+            {
+              "ref": "Este equipo",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Estas carpetas predeterminadas ya no se muestran en Este equipo para mantener la vista centrada en las unidades […] Esta vista muestra las 6 carpetas de Windows conocidas […] Si prefiere tener abierto el Explorador de archivos en Este equipo, en la cinta de opciones, seleccione"
+            },
+            {
+              "ref": "Icono",
+              "law": "Soporte Microsoft (Windows, iconos del escritorio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-desktop-icons-in-windows",
+              "quote": "Este equipo: proporciona acceso a las unidades del equipo y a los dispositivos conectados."
+            }
+          ]
+        },
+        {
+          "text": "Para navegar: Alt + Flecha izquierda (o Retroceso) vuelve a la carpeta anterior, Alt + Flecha derecha va a la siguiente y Alt + Flecha arriba sube un nivel en la ruta. Alt + D o Ctrl + I sitúan el foco en la barra de direcciones, y F4 la selecciona para cambiar la ruta. Ctrl + Mayús + E expande todas las carpetas del árbol del panel de navegación. Inicio y Fin llevan a la parte superior o inferior de la ventana.",
+          "refs": [
+            {
+              "ref": "Navegación",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+D | Seleccionar la barra de direcciones. […] Alt+Flecha izquierda / Retroceso | Vaya a la carpeta anterior. […] Alt+Flecha derecha | Ver la carpeta siguiente. […] Alt+Flecha arriba | Subir un nivel en la ruta de acceso de la carpeta."
+            },
+            {
+              "ref": "Navegación",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+I | Centrarse en la barra de direcciones. […] Ctrl+Mayús+E | Expande todas las carpetas del árbol en el panel de navegación. […] Fin | Desplazarse hasta la parte inferior de la ventana activa. […] F4 | Seleccione la barra de direcciones para cambiar la ruta de acceso actual. […] Inicio | Desplazarse hasta la parte superior de la ventana activa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Carpetas y archivos: crear, renombrar, copiar, mover y eliminar",
+      "blocks": [
+        {
+          "text": "Crear y renombrar: Ctrl + Mayús + N crea una carpeta nueva en la ubicación actual y F2 cambia el nombre del elemento seleccionado. Alt + Entrar muestra sus propiedades. Para seleccionar varios elementos seguidos se usa Mayús + teclas de dirección; para elementos sueltos, Ctrl + tecla de dirección hasta cada uno y Barra espaciadora para marcarlo. Según la página española, Ctrl + E selecciona todos los elementos de la ventana.",
+          "refs": [
+            {
+              "ref": "Crear y renombrar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+Mayús+N | Cree una carpeta nueva. […] F2 | Cambiar el nombre del elemento seleccionado. […] Alt+Entrar | Ver las propiedades del elemento seleccionado."
+            },
+            {
+              "ref": "Seleccionar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Mayús+Teclas de dirección | Seleccionar varios elementos. […] Ctrl+tecla de dirección (para desplazarse a un elemento)+Barra espaciadora | Seleccionar varios elementos individuales. […] Ctrl+E | Seleccionar todos los elementos de una ventana."
+            }
+          ]
+        },
+        {
+          "text": "Copiar y mover: Ctrl + C copia, Ctrl + X corta y Ctrl + V pega. Para mover un archivo o carpeta se selecciona, se corta, se va a la nueva ubicación y se pega; en Acceso rápido hay que hacerlo con el botón derecho. Arrastrando con el ratón, el resultado depende de la tecla: con Ctrl se crea una copia, con Mayús se mueve y con Alt se crea un acceso directo al archivo original.",
+          "refs": [
+            {
+              "ref": "Mover",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Para mover la ubicación de un archivo o carpeta, selecciónelo […] Ve a la nueva ubicación y selecciona […] Para los archivos y carpetas en Acceso rápido, tendrá que hacer clic con el botón derecho"
+            },
+            {
+              "ref": "Teclas",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+X | Cortar el texto seleccionado. […] Ctrl+V / Mayús+Insertar | Pegar el último elemento del portapapeles. […] Ctrl+C / Ctrl+Insertar | Copiar el texto seleccionado."
+            },
+            {
+              "ref": "Arrastrar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+ratón arrastrar un archivo | Cuando suelte el archivo, cree un acceso directo al archivo original en esa ubicación. […] Ctrl+mouse arrastrar un archivo | Cuando suelte el archivo, cree una copia en esa ubicación. […] Mayús+arrastrar un archivo con el mouse | Cuando suelte el archivo, muévalo a esa ubicación."
+            }
+          ]
+        },
+        {
+          "text": "Eliminar: Supr (o Ctrl + D) borra el elemento y lo envía a la Papelera de reciclaje, donde se guardan temporalmente los archivos eliminados; Mayús + Supr lo elimina permanentemente, sin pasar por la Papelera. Ctrl + Z deshace la acción anterior. Para compartir un archivo se selecciona y se usa la opción de compartir.",
+          "refs": [
+            {
+              "ref": "Eliminar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+D / Suprimir | Eliminar el elemento seleccionado y moverlo a la papelera de reciclaje. […] Mayús+Supr | Eliminar permanentemente el elemento seleccionado sin moverlo a la papelera de reciclaje. […] Ctrl+Z | Deshacer la acción anterior."
+            },
+            {
+              "ref": "Papelera",
+              "law": "Soporte Microsoft (Windows, iconos del escritorio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-desktop-icons-in-windows",
+              "quote": "Papelera de reciclaje: donde se almacenan temporalmente los archivos eliminados."
+            },
+            {
+              "ref": "Compartir",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Para compartir un archivo, selecciónelo y, a continuación, seleccione"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Menú contextual simplificado",
+      "blocks": [
+        {
+          "text": "Windows 11 tiene un menú contextual nuevo y simplificado: se abre con el botón derecho sobre un archivo y presenta varias acciones como iconos (manteniendo el puntero encima se ve su nombre). Para llegar al resto hay que seleccionar Mostrar más opciones, o abrir ese menú directamente con Mayús + clic derecho. Mayús + F10 muestra el menú contextual del elemento seleccionado. No todas las extensiones de Windows 10 están disponibles en el menú simplificado.",
+          "refs": [
+            {
+              "ref": "Menú contextual",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "El Explorador de archivos tiene un menú contextual nuevo y simplificado […] Haga clic con el botón derecho en un archivo para acceder al nuevo menú contextual. […] Mantenga el puntero sobre cualquier icono para ver su nombre. […] Seleccione Mostrar más opciones. […] No todas las extensiones de Windows 10 estarán disponibles en el menú contextual de Windows 11 simplificado"
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Mayús+F10 | Mostrar el menú contextual del elemento seleccionado. […] Mayús+clic con el botón derecho del mouse | Mostrar el menú contextual Mostrar más opciones para el elemento seleccionado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Opciones de vista y paneles",
+      "blocks": [
+        {
+          "text": "El aspecto de los elementos se cambia con Ver en la cinta de opciones: iconos, lista, detalles, etc. Vista > Compacta reduce el espacio entre archivos. Por teclado, Ctrl + Mayús + número (1-9) cambia el estilo de vista (2 = iconos grandes, 6 = detalles) y Ctrl + rueda del ratón cambia el tamaño de los iconos. Ctrl + signo más (+) ajusta el ancho de todas las columnas al texto.",
+          "refs": [
+            {
+              "ref": "Ver",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Para cambiar cómo aparecen los elementos en el Explorador de archivos, seleccione Ver en la cinta de opciones […] Para reducir el espacio entre archivos, seleccione Vista>compacta."
+            },
+            {
+              "ref": "Estilos",
+              "law": "Soporte Microsoft (Windows, Explorador)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "elija entre mostrar iconos, listas, detalles y mucho más."
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+Mayús+Número (1-9) | Cambiar el estilo de vista. Por ejemplo, 2 son iconos grandes y 6 son detalles. […] Ctrl + rueda del ratón | Cambiar el tamaño y la apariencia de los iconos de archivos y carpetas. […] Ctrl+Signo más (+) | Cambiar el tamaño de todas las columnas para ajustarse al texto."
+            }
+          ]
+        },
+        {
+          "text": "En las opciones de Ver se activan opciones clave: Extensiones de nombre de archivo (para ver las extensiones), Elementos ocultos (para ver archivos y carpetas ocultos) y las casillas junto a cada elemento para seleccionarlo. Paneles: Alt + P muestra u oculta el panel de vista previa y Alt + Mayús + P el panel de detalles. F6 recorre los elementos de la ventana.",
+          "refs": [
+            {
+              "ref": "Mostrar",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Extensiones de nombre de archivo para ver las extensiones de nombre de archivo […] Elementos ocultos para ver los archivos y carpetas ocultos […] para ver una casilla junto a los archivos y carpetas para seleccionarlos"
+            },
+            {
+              "ref": "Paneles",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+P | Mostrar u ocultar el panel de vista previa. […] Alt+Mayús+P | Mostrar u ocultar el panel de detalles. […] F6 | Desplazarse por los elementos de la ventana."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Búsqueda de archivos e indización",
+      "blocks": [
+        {
+          "text": "Windows Search se usa desde la barra de tareas o desde el Explorador. En la barra, se selecciona Buscar y se escribe el nombre del documento; la pestaña Documentos filtra los resultados. En el Explorador, Ctrl + E o Ctrl + B (página española) seleccionan el cuadro de búsqueda y F3 busca un archivo o carpeta. Para encontrar una aplicación también puede recorrerse en Inicio la lista alfabética de Todas.",
+          "refs": [
+            {
+              "ref": "Buscar",
+              "law": "Soporte Microsoft (buscar archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows",
+              "quote": "Use Windows Search en la barra de tareas o el Explorador de archivos […] Seleccione Buscar en la barra de tareas y escriba el nombre de un documento […] Para filtrar la búsqueda, seleccione la pestaña Documentos […] Seleccione Inicio, todo y, a continuación, desplácese por la lista alfabética de la izquierda."
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Ctrl+E / Ctrl+B | Seleccionar el cuadro de búsqueda. […] F3 | Buscar un archivo o carpeta."
+            }
+          ]
+        },
+        {
+          "text": "Dónde buscar importa: desde Inicio del Explorador se buscan archivos del PC y de la nube (con las cuentas en la nube iniciadas); para una búsqueda lenta pero exhaustiva hay que buscar en Este equipo en lugar de en Inicio. La indización de los archivos y sus propiedades mejora la velocidad y la eficiencia. En los Copilot+ PC la indexación semántica está activada por defecto (documentos .txt, .pdf, .docx, .doc, .rtf, .pptx, .ppt, .xls, .xlsx), y Microsoft indica que esos datos no se envían a Microsoft ni sirven para entrenar IA.",
+          "refs": [
+            {
+              "ref": "Dónde buscar",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Para buscar archivos relevantes desde el PC y la nube, busque desde Inicio del Explorador de archivos. […] Inicie sesión en sus cuentas en la nube"
+            },
+            {
+              "ref": "Búsqueda exhaustiva e indización",
+              "law": "Soporte Microsoft (buscar archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows",
+              "quote": "Para realizar una búsqueda lenta pero exhaustiva, busque en Este equipo en lugar de en Inicio. […] Mejore la velocidad de búsqueda y la eficiencia indexando los archivos y sus propiedades"
+            },
+            {
+              "ref": "Indexación semántica",
+              "law": "Soporte Microsoft (buscar archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows",
+              "quote": "Los formatos de archivo compatibles son .txt, .pdf, .docx, .doc, .rtf, .pptx, .ppt, .xls, .xlsx para documentos […] La indexación semántica está habilitada de forma predeterminada en Copilot+ PC. […] Ninguno de ellos se envía a Microsoft ni se utiliza para entrenar modelos de inteligencia artificial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Archivos comprimidos",
+      "blocks": [
+        {
+          "text": "Los archivos comprimidos reducen el tamaño, ocupan menos espacio y agrupan varios archivos en una sola carpeta comprimida para compartirlos con facilidad. Para comprimir, con botón derecho: Mostrar más opciones > Enviar a > Carpeta comprimida (en zip); se crea una carpeta comprimida con el mismo nombre en la misma ubicación.",
+          "refs": [
+            {
+              "ref": "Comprimir",
+              "law": "Soporte Microsoft (archivos comprimidos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+              "quote": "Los archivos comprimidos reducen el tamaño del archivo y agrupan varios archivos para facilitar el uso compartido. […] Los archivos comprimidos ocupan menos espacio de almacenamiento […] Mostrar más opciones>Enviar a>carpeta comprimida (en zip). […] Se crea una nueva carpeta comprimida con el mismo nombre en la misma ubicación."
+            }
+          ]
+        },
+        {
+          "text": "Para descomprimir todo el contenido se elige Extraer todo... y se siguen las instrucciones; para sacar un solo archivo o carpeta, se abre la carpeta comprimida y se trabaja desde ella. Windows 11, versión 24H2, admite los formatos ZIP, RAR, 7z y TAR, pero no permite operar con archivos comprimidos cifrados.",
+          "refs": [
+            {
+              "ref": "Descomprimir",
+              "law": "Soporte Microsoft (archivos comprimidos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+              "quote": "Para descomprimir todo el contenido de la carpeta comprimida […] selecciona Extraer todo... y sigue las instrucciones. […] Para descomprimir un solo archivo o carpeta, abre la carpeta comprimida"
+            },
+            {
+              "ref": "Formatos",
+              "law": "Soporte Microsoft (archivos comprimidos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+              "quote": "Windows 11, versión 24H2 admite ZIP, RAR. Formatos de archivo 7z y TAR. […] Sin embargo, no admite operaciones en archivos de archivo cifrados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Accesorios: Herramienta Recortes",
+      "blocks": [
+        {
+          "text": "Recortes crea instantáneas de toda la pantalla o de una parte para copiar palabras o imágenes, y también graba clips de vídeo de una selección rectangular. Tiene cuatro modos: Rectángulo (área rectangular), Ventana (una ventana concreta), Pantalla completa (captura inmediata de toda la pantalla) y Forma libre (se dibuja la forma del área). Permite retrasar la captura de 1 a 5 segundos.",
+          "refs": [
+            {
+              "ref": "Recortes",
+              "law": "Soporte Microsoft (Recortes)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+              "quote": "Crea una instantánea para copiar palabras o imágenes de toda la pantalla del equipo o de parte de ella. […] Captura un clip de vídeo de una selección rectangular de cualquier parte de la pantalla que desees."
+            },
+            {
+              "ref": "Modos",
+              "law": "Soporte Microsoft (Recortes)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+              "quote": "Rectángulo: Permite seleccionar un área rectangular para capturar. […] Ventana: Le permite seleccionar una ventana que desea capturar. […] Pantalla completa: captura inmediatamente una instantánea de toda la pantalla. […] Forma libre: permite dibujar una forma libre para seleccionar el área que se desea capturar. […] Retrasar la captura de 1 a 5 segundos"
+            }
+          ]
+        },
+        {
+          "text": "Tras capturar, el recorte se guarda automáticamente en la carpeta Capturas de pantalla; también puede guardarse una copia adicional o copiarse al Portapapeles. Al hacer la captura aparece la aplicación con una lista de acciones posibles. Atajos de captura recogidos: Impr Pant selecciona una zona y la copia al portapapeles, Alt + Impr Pant captura la ventana activa y Windows + Impr Pant guarda la pantalla completa en un archivo. Las teclas concretas que abren la superposición de Recortes no figuran en el texto capturado de la página oficial.",
+          "refs": [
+            {
+              "ref": "Guardado",
+              "law": "Soporte Microsoft (Recortes)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+              "quote": "Después de capturar un recorte, se guarda automáticamente en la carpeta Capturas de pantalla. […] También puedes guardar una copia adicional del recorte capturado […] Copiar el recorte en el Portapapeles […] Aparecerá la aplicación Herramienta Recortes y una lista de acciones que puedes realizar."
+            },
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Impr Scn o Impr Pant | Seleccione una zona de la pantalla para hacer una captura de pantalla en el portapapeles. […] Alt+Impr Pant | Capture una captura de pantalla de la ventana activa y cópiela en el Portapapeles. […] Tecla Windows + PrtScn | Capture una captura de pantalla completa y guárdela en un archivo en la subcarpeta […]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Herramientas del sistema",
+      "blocks": [
+        {
+          "text": "Configuración es la aplicación principal para personalizar y administrar Windows; el Panel de control sigue existiendo, pero muchos de sus ajustes se están migrando a Configuración. El Administrador de tareas es el monitor del sistema y administrador de inicio: se abre con Ctrl + Mayús + Esc y permite finalizar programas que no responden.",
+          "refs": [
+            {
+              "ref": "Configuración y Panel",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Configuración es la aplicación principal para personalizar y administrar la configuración de Windows. […] El Panel de control es una característica que ha formado parte de Windows durante mucho tiempo. […] Muchos de los valores de configuración del Panel de control se están migrando a la aplicación Configuración"
+            },
+            {
+              "ref": "Administrador de tareas",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "El Administrador de tareas es una aplicación que sirve como monitor del sistema y administrador de inicio para Windows […] Use el método abreviado de teclado CTRL+MAYÚS+ESC. […] Con el Administrador de tareas, puede finalizar programas que no responden"
+            }
+          ]
+        },
+        {
+          "text": "Administración de equipos es un complemento de Microsoft Management Console (MMC) con herramientas para discos, servicios, dispositivos, carpetas compartidas y usuarios. El Visor de eventos muestra, entre otros datos, el origen de cada evento y su fecha y hora. Configuración del sistema sirve para solucionar problemas de inicio (por ejemplo, su pestaña Servicios permite deshabilitar servicios problemáticos).",
+          "refs": [
+            {
+              "ref": "Administración y eventos",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "La consola de administración de equipo es un complemento de Microsoft Management Console (MMC) […] Incluye herramientas para administrar discos, servicios, dispositivos, carpetas compartidas y usuarios […] El Visor de eventos puede mostrar información como el origen de un evento, la fecha y hora en que se produjo […] Configuración del sistema es una utilidad del sistema que le permite solucionar problemas de inicio de Windows. […] Por ejemplo, la pestaña Servicios le permite deshabilitar los servicios que podrían estar causando problemas"
+            }
+          ]
+        },
+        {
+          "text": "Información del sistema ofrece una vista completa del hardware y es útil para reunir datos con los que diagnosticar problemas. El Editor del Registro permite ver y modificar el Registro, la base de datos con la configuración de bajo nivel de Windows. El Editor de directivas de grupo local lo usan los administradores para configurar directivas del equipo local y no está disponible en Windows Home. Las herramientas de almacenamiento (Sensor de almacenamiento, optimizar unidades) se estudian en el tema de hardware y sistema operativo.",
+          "refs": [
+            {
+              "ref": "Información y Registro",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Información del sistema es una utilidad del sistema que proporciona una vista completa del hardware […] Es especialmente útil para recopilar información que puede ayudar a diagnosticar problemas […] El Editor del Registro es una potente herramienta que se utiliza para ver y modificar el Registro del sistema. […] El Registro es una base de datos que almacena la configuración de bajo nivel para Windows"
+            },
+            {
+              "ref": "Directivas de grupo",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Lo usan los administradores para configurar directivas para un equipo local […] El Editor de directivas de grupo local no está disponible en la edición Windows Home."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Windows + E abre el Explorador, que por defecto se abre en Acceso rápido.",
+          "refs": [
+            {
+              "ref": "Apertura",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "De forma predeterminada, el Explorador de archivos se abre en Acceso rápido"
+            }
+          ]
+        },
+        {
+          "text": "F2 renombra; Ctrl + Mayús + N crea carpeta; Alt + Flecha arriba sube un nivel; Ctrl + T abre pestaña.",
+          "refs": [
+            {
+              "ref": "Atajos",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "F2 | Cambiar el nombre del elemento seleccionado. […] Ctrl+Mayús+N | Cree una carpeta nueva. […] Alt+Flecha arriba | Subir un nivel en la ruta de acceso de la carpeta. […] Ctrl+T | Abrir una pestaña nueva y cambiar a ella."
+            }
+          ]
+        },
+        {
+          "text": "Mayús + Supr borra sin pasar por la Papelera; Supr o Ctrl + D, a la Papelera.",
+          "refs": [
+            {
+              "ref": "Eliminar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Mayús+Supr | Eliminar permanentemente el elemento seleccionado sin moverlo a la papelera de reciclaje."
+            }
+          ]
+        },
+        {
+          "text": "Arrastrar: Ctrl copia, Mayús mueve, Alt crea acceso directo.",
+          "refs": [
+            {
+              "ref": "Arrastrar",
+              "law": "Soporte Microsoft (Windows: métodos abreviados)",
+              "url": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+              "quote": "Alt+ratón arrastrar un archivo | Cuando suelte el archivo, cree un acceso directo al archivo original en esa ubicación."
+            }
+          ]
+        },
+        {
+          "text": "Menú contextual simplificado: el resto, en Mostrar más opciones. ZIP: Enviar a > Carpeta comprimida; descomprimir: Extraer todo.",
+          "refs": [
+            {
+              "ref": "Comprimir",
+              "law": "Soporte Microsoft (archivos comprimidos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+              "quote": "Mostrar más opciones>Enviar a>carpeta comprimida (en zip)."
+            }
+          ]
+        },
+        {
+          "text": "Alt + P, panel de vista previa; Ver > Elementos ocultos para ver lo oculto.",
+          "refs": [
+            {
+              "ref": "Ver",
+              "law": "Soporte Microsoft (Explorador de archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+              "quote": "Elementos ocultos para ver los archivos y carpetas ocultos"
+            }
+          ]
+        },
+        {
+          "text": "Búsqueda exhaustiva (lenta): en Este equipo, no en Inicio. Las carpetas predeterminadas ya no salen en Este equipo.",
+          "refs": [
+            {
+              "ref": "Buscar",
+              "law": "Soporte Microsoft (buscar archivos)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows",
+              "quote": "Para realizar una búsqueda lenta pero exhaustiva, busque en Este equipo en lugar de en Inicio."
+            }
+          ]
+        },
+        {
+          "text": "Recortes guarda solo en Capturas de pantalla; modos Rectángulo, Ventana, Pantalla completa y Forma libre.",
+          "refs": [
+            {
+              "ref": "Recortes",
+              "law": "Soporte Microsoft (Recortes)",
+              "url": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+              "quote": "Después de capturar un recorte, se guarda automáticamente en la carpeta Capturas de pantalla."
+            }
+          ]
+        },
+        {
+          "text": "Ctrl + Mayús + Esc: Administrador de tareas. Directivas de grupo local: no en Windows Home.",
+          "refs": [
+            {
+              "ref": "Herramientas",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "El Editor de directivas de grupo local no está disponible en la edición Windows Home."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (Windows: métodos abreviados) (https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows), Soporte Microsoft (buscar archivos) (https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows), Soporte Microsoft (archivos comprimidos) (https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files), Soporte Microsoft (Recortes) (https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots), Soporte Microsoft (herramientas del sistema) (https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows)"
 }

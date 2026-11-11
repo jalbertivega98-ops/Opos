@@ -72,5 +72,645 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Conceptos básicos de una base de datos de Access",
+      "blocks": [
+        {
+          "text": "Access es el programa de bases de datos de Microsoft 365. Una base de datos sirve para almacenar casi cualquier tipo de información y llevar su seguimiento. La idea clave es que la información no está en una única lista, sino repartida en varias tablas relacionadas entre sí. Las fuentes recogidas se refieren a la base de datos de escritorio de Access.",
+          "refs": [
+            {
+              "ref": "Tareas básicas de Access",
+              "law": "Soporte Microsoft (Access, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database",
+              "quote": "Las bases de datos de Access pueden ayudarle a almacenar y realizar un seguimiento de casi cualquier tipo de información"
+            },
+            {
+              "ref": "Tareas básicas de Access",
+              "law": "Soporte Microsoft (Access, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database",
+              "quote": "En una base de datos, la información se almacena en varias tablas relacionadas."
+            }
+          ]
+        },
+        {
+          "text": "Para empezar hay dos caminos: usar una plantilla de Access, que ya trae tablas, consultas, formularios e informes listos para usar, o, si ninguna encaja, empezar con una base de datos de escritorio en blanco. Los datos pueden importarse desde otros orígenes o vincularse sin moverlos; la vinculación es útil cuando varios usuarios actualizan los datos en su ubicación original.",
+          "refs": [
+            {
+              "ref": "Tareas básicas de Access",
+              "law": "Soporte Microsoft (Access, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database",
+              "quote": "Las plantillas de Access tienen tablas, consultas, formularios e informes integrados que están listos para usar. Si ninguna de las plantillas se ajusta a sus necesidades, puede empezar con una base de datos de escritorio en blanco."
+            },
+            {
+              "ref": "Tareas básicas de Access",
+              "law": "Soporte Microsoft (Access, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database",
+              "quote": "Puede importar datos de otros orígenes o puede vincular a datos desde Access sin mover la información La vinculación puede ser una buena opción si varios usuarios actualizan los datos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Los objetos de la base de datos y el panel de navegación",
+      "blocks": [
+        {
+          "text": "Los objetos principales son cuatro: tablas (guardan los datos), consultas (los recuperan, calculan o modifican), formularios (interfaz para introducirlos y verlos) e informes (presentan los datos para imprimir). Además existen las macros y los módulos, que no se pueden exportar a Excel. Todos los objetos se ven en el Panel de navegación, que se muestra u oculta con F11.",
+          "refs": [
+            {
+              "ref": "Tareas básicas de Access",
+              "law": "Soporte Microsoft (Access, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database",
+              "quote": "Las plantillas de Access tienen tablas, consultas, formularios e informes integrados que están listos para usar."
+            },
+            {
+              "ref": "Exportar a Excel",
+              "law": "Soporte Microsoft (Access, exportar a Excel)",
+              "url": "https://support.microsoft.com/es-es/access/export-data-to-excel",
+              "quote": "No puede exportar macros ni módulos a Excel."
+            },
+            {
+              "ref": "Métodos abreviados de Access",
+              "law": "Soporte Microsoft (Access, atajos)",
+              "url": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-access-70a673e4-4f7b-4300-b8e5-3320fa6606e2",
+              "quote": "Mostrar u ocultar el panel de navegación. | F11"
+            }
+          ]
+        },
+        {
+          "text": "Atajos de Access que conviene conocer: F4 muestra u oculta la hoja de propiedades; F5 pasa de la vista Diseño a la vista Formulario; F12 abre Guardar como; Alt+F8 muestra u oculta la Lista de campos; Alt+F11 alterna con el Editor de Visual Basic; y Mayús+F2 abre el cuadro Zoom para escribir expresiones largas en espacios pequeños.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Access",
+              "law": "Soporte Microsoft (Access, atajos)",
+              "url": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-access-70a673e4-4f7b-4300-b8e5-3320fa6606e2",
+              "quote": "Mostrar u ocultar una hoja de propiedades. | F4 | | Cambiar a la vista Formulario desde el formulario en la vista Diseño. | F5 | | Abrir el cuadro de diálogo Guardar como | F12"
+            },
+            {
+              "ref": "Métodos abreviados de Access",
+              "law": "Soporte Microsoft (Access, atajos)",
+              "url": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-access-70a673e4-4f7b-4300-b8e5-3320fa6606e2",
+              "quote": "Mostrar u ocultar el panel Lista de campos. | Alt+F8 | | Cambiar entre el Editor de Visual Basic y la ventana activa anterior. | Alt+F11 | | Abra el cuadro Zoom para escribir cómodamente expresiones y otro texto en áreas de entrada pequeñas. | Mayús+F2"
+            }
+          ]
+        },
+        {
+          "text": "En una hoja de datos se trabaja con registros (filas): Ctrl++ agrega un registro nuevo, Ctrl+- elimina el registro actual y Mayús+Entrar guarda los cambios del registro. Ctrl+; inserta la fecha actual y Ctrl+' copia el valor del mismo campo del registro anterior.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Access",
+              "law": "Soporte Microsoft (Access, atajos)",
+              "url": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-access-70a673e4-4f7b-4300-b8e5-3320fa6606e2",
+              "quote": "Agregar un registro nuevo. | Ctrl+Signo más (+) | | En una hoja de datos, elimine el registro actual. | Ctrl+signo menos (-) | | Guarde los cambios en el registro actual. | Mayús+Entrar"
+            },
+            {
+              "ref": "Métodos abreviados de Access",
+              "law": "Soporte Microsoft (Access, atajos)",
+              "url": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-access-70a673e4-4f7b-4300-b8e5-3320fa6606e2",
+              "quote": "Insertar la fecha actual. | Ctrl+punto y coma (;) | | Inserte el valor del mismo campo en el registro anterior. | Ctrl+apóstrofo (')"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Tablas: tipos de datos de texto, número, fecha y moneda",
+      "blocks": [
+        {
+          "text": "Cada campo de una tabla tiene un tipo de datos que determina qué puede guardar. Texto breve (antes «Texto», también llamado Texto corto) guarda datos alfanuméricos como nombres o títulos, hasta 255 caracteres. Texto largo admite grandes cantidades de texto (oraciones y párrafos), hasta 1 GB aproximadamente, aunque los controles solo muestran los primeros 64 000 caracteres.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "| Texto breve | Datos alfanuméricos (nombres, títulos, etc.) | Hasta 255 caracteres. | | Texto largo | Grandes cantidades de datos alfanuméricos: oraciones y párrafos. | Hasta 1 gigabyte (GB) aproximadamente, pero los controles para mostrar un texto largo se limitan a los primeros 64 000 caracteres. |"
+            },
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "Texto corto (antes conocido como \"Texto\") | Hasta 255 caracteres."
+            }
+          ]
+        },
+        {
+          "text": "Número guarda datos numéricos y ocupa 1, 2, 4, 8 o 16 bytes según el tamaño elegido. Fecha y hora ocupa 8 bytes. Moneda guarda datos monetarios con 4 posiciones decimales de precisión y ocupa también 8 bytes.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "| Número | Datos numéricos. | 1, 2, 4, 8 o 16 bytes. | | Fecha y hora | Fechas y horas. | 8 bytes. | | Moneda | Datos monetarios, almacenados con 4 posiciones decimales de precisión. | 8 bytes. |"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Tablas: otros tipos de datos y campos de búsqueda",
+      "blocks": [
+        {
+          "text": "Autonumeración es un valor único que Access genera por sí mismo para cada registro nuevo (4 bytes; 16 para el Id. de replicación). Sí/No guarda datos booleanos en 1 byte: Access almacena 0 para Falso y -1 para Verdadero (pregunta trampa: no es 1). Objeto OLE guarda imágenes, gráficos u otros objetos de otra aplicación de Windows, hasta unos 2 GB. Hipervínculo guarda una dirección de vínculo a un documento o archivo, hasta 8192 caracteres, con un máximo de 2048 por cada parte.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "| Autonumeración | Valor único generado por Access para cada registro nuevo. | 4 bytes (16 bytes para el Id. de replicación). | | Sí/no | Datos booleanos (verdadero/falso); Access almacena el valor numérico cero (0) para Falso y -1 para Verdadero. | 1 byte. | | Objeto OLE | Imágenes, gráficos u otros objetos de ActiveX desde otra aplicación basada en Windows. | Hasta unos 2 GB. |"
+            },
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "| Hipervínculo | Una dirección de vínculo a un documento o archivo en Internet, en una intranet, en una red de área local (LAN) o en el equipo local | Hasta 8192 (cada parte de un tipo de datos Hipervínculo puede contener un máximo de 2048 caracteres). |"
+            }
+          ]
+        },
+        {
+          "text": "Datos adjuntos permite un número ilimitado de archivos adjuntos por registro (hasta unos 2 GB), pero no está disponible en los antiguos archivos MDB. Calculado guarda el resultado de una expresión que usa datos de uno o varios campos.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "cada campo Datos adjuntos puede contener una cantidad ilimitada de datos adjuntos por registro, Tenga en cuenta que el tipo de datos Datos adjuntos no está disponible en los formatos de archivo MDB. Puede crear una expresión que use datos de uno o varios campos."
+            },
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "Datos adjuntos | Hasta unos 2 GB."
+            }
+          ]
+        },
+        {
+          "text": "El Asistente para búsquedas aparece en la columna Tipo de datos de la vista Diseño, pero no es realmente un tipo de datos: sirve para crear un campo de búsqueda. Un campo de búsqueda simple toma sus valores del contenido de otra tabla o de una lista de valores.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "La entrada del Asistente para búsquedas en la columna de tipo de datos en la vista Diseño no es realmente un tipo de datos. Un campo de búsqueda simple usa el contenido de otra tabla o una lista de valores"
+            }
+          ]
+        },
+        {
+          "text": "Para controlar lo que se escribe, se pueden usar reglas de validación: obligan a introducir valores concretos y pueden ir acompañadas de un mensaje que avise al usuario del error y le explique cómo corregirlo.",
+          "refs": [
+            {
+              "ref": "Reglas de validación",
+              "law": "Soporte Microsoft (Access, reglas de validación)",
+              "url": "https://support.microsoft.com/es-es/access/restrict-data-input-by-using-validation-rules",
+              "quote": "se puede incluir un mensaje que sirva de ayuda a los usuarios que escriben datos no válidos"
+            },
+            {
+              "ref": "Reglas de validación",
+              "law": "Soporte Microsoft (Access, reglas de validación)",
+              "url": "https://support.microsoft.com/es-es/access/restrict-data-input-by-using-validation-rules",
+              "quote": "para que sea necesario escribir valores específicos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "La clave principal",
+      "blocks": [
+        {
+          "text": "La clave principal es un campo o conjunto de campos con valores únicos en la tabla, que identifica inequívocamente cada fila. Una buena clave principal nunca está vacía ni es nula, y sus valores no suelen cambiar (lo ideal es que no cambien nunca). Si tiene más de un campo se llama clave compuesta. Si no hay un campo adecuado, se crea uno de tipo Autonumeración, que constituye una clave principal correcta.",
+          "refs": [
+            {
+              "ref": "Clave principal",
+              "law": "Soporte Microsoft (Access, clave principal)",
+              "url": "https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access",
+              "quote": "Una clave principal es un campo o un conjunto de campos con valores únicos en una tabla. Identifica inequívocamente cada fila. Nunca debe estar vacía ni ser nula (siempre debe contener un valor). Los valores que contiene no suelen cambiar (lo ideal es que no cambien). Una clave que tiene más de un campo se denomina clave compuesta. Si no halla una clave correcta, cree un campo Autonumeración para usarlo como tal. Un campo Autonumeración constituye una clave principal correcta."
+            }
+          ]
+        },
+        {
+          "text": "Se asigna en la vista Diseño: pestaña Diseño de tabla, grupo Herramientas, botón Clave principal; aparece un indicador de clave a la izquierda del campo o campos elegidos. Al quitar la clave principal no se borran los campos de la tabla, pero sí el índice creado para ella. Antes de quitarla hay que comprobar que no interviene en ninguna relación.",
+          "refs": [
+            {
+              "ref": "Clave principal",
+              "law": "Soporte Microsoft (Access, clave principal)",
+              "url": "https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access",
+              "quote": "En la pestaña Diseño de tabla , en el grupo Herramientas , seleccione Clave principal. Se agrega un indicador de clave a la izquierda del campo o campos que ha especificado como clave principal. Al quitar la clave principal, no se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave. Antes de quitar una clave principal, debe asegurarse de que no interviene en ninguna relación de tabla."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Relaciones entre tablas",
+      "blocks": [
+        {
+          "text": "Una relación hace coincidir los datos de los campos clave de dos tablas y es la base para exigir la integridad referencial. Las relaciones se ven y crean desde la pestaña Herramientas de base de datos, grupo Relaciones, botón Relaciones.",
+          "refs": [
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "Una relación de tabla hace coincidir los datos de los campos clave Las relaciones de tabla son la base con la que exigir integridad referencial"
+            },
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "En la pestaña Herramientas de base de datos, en el grupo Relaciones, haga clic en Relaciones."
+            }
+          ]
+        },
+        {
+          "text": "Tipos de relación: en la de uno a uno, cada registro de la primera tabla solo puede tener un registro coincidente en la segunda. La de varios a varios no se puede representar directamente: hay que crear una tercera tabla, llamada a menudo tabla de unión, que la divide en dos relaciones de uno a varios.",
+          "refs": [
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "En una relación uno a uno, cada registro de la primera tabla solo puede tener un registro coincidente"
+            },
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "Para representar una relación de varios a varios, debe crear una tercera tabla, a menudo denominada tabla de unión que divide la relación de varios a varios en dos relaciones uno a varios."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Integridad referencial",
+      "blocks": [
+        {
+          "text": "La integridad referencial tiene como propósito evitar los registros huérfanos, es decir, registros que hacen referencia a otros que ya no existen. No se aplica sola: hay que habilitarla en cada relación. Una vez habilitada, Access rechaza todas las operaciones que la infrinjan.",
+          "refs": [
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "El propósito de la integridad referencial es evitar los registros huérfanos"
+            },
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "Para exigir la integridad referencial, es preciso habilitarla para una relación de tabla. Access rechazará todas las operaciones que infrinjan la integridad referencial"
+            }
+          ]
+        },
+        {
+          "text": "Con la integridad referencial se pueden activar dos comportamientos automáticos. Con la actualización en cascada, si cambia el valor de una clave principal, Access actualiza automáticamente todos los campos que hacen referencia a ella; con la eliminación en cascada, al borrar el registro, Access elimina automáticamente todos los registros que la referencian. Los nombres exactos de las casillas («Actualizar en cascada los campos relacionados» y «Eliminar en cascada los registros relacionados») no aparecen en los fragmentos oficiales recogidos, que solo describen su efecto.",
+          "refs": [
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "Access actualiza automáticamente todos los campos que hacen referencia a la clave principal. Access elimina automáticamente todos los registros que hacen referencia a la clave principal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Consultas",
+      "blocks": [
+        {
+          "text": "Una consulta facilita ver, agregar, eliminar o cambiar datos. Las consultas de selección recuperan datos de una tabla o hacen cálculos; las de acción agregan, cambian o eliminan datos, y hay un tipo específico para cada tarea: creación de tabla, datos anexados, actualización y eliminación. La consulta de totales no es de acción: es una consulta de selección que agrupa y resume datos. La consulta de unión combina registros de varias tablas o consultas en un único resultado.",
+          "refs": [
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "Usar una consulta facilita ver, agregar, eliminar o cambiar datos en la base de datos de Access. | Selección | Para recuperar datos de una tabla o hacer cálculos. | | Acción | Agregar, cambiar o eliminar datos. Cada tarea tiene un tipo específico de consulta de acciones. | Crear una consulta de creación de tabla Crear una consulta de datos anexados Crear una consulta de actualización Crear una consulta de eliminación"
+            },
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "Una consulta de totales es una consulta de selección que permite agrupar y resumir datos"
+            },
+            {
+              "ref": "Consulta de unión",
+              "law": "Soporte Microsoft (Access, consulta de unión)",
+              "url": "https://support.microsoft.com/es-es/topic/usar-una-consulta-de-uni%C3%B3n-para-combinar-varias-consultas-en-un-mismo-resultado-1f772ec0-cc73-474d-ab10-ad0a75541c6e",
+              "quote": "combinar registros de una tabla o consulta con registros de una o más tablas en un único resultado. Esto es lo que hace una consulta de unión en Access."
+            }
+          ]
+        },
+        {
+          "text": "Para crearla: pestaña Crear > Diseño de consulta; para verla, pestaña Diseño de consulta, grupo Resultados, Ejecutar. Un campo puede usarse como criterio aunque no se muestre. Si el criterio va entre corchetes, la consulta pide el dato al usuario al ejecutarse (consulta de parámetros). Las fechas en criterios van entre almohadillas: > #2/2/2012# devuelve lo posterior al 2 de febrero de 2012.",
+          "refs": [
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "1. Abra la base de datos y, en la pestaña Crear, haga clic en Diseño de consulta. En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar. No es necesario mostrar un campo para usarlo con un criterio."
+            },
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "Los corchetes indican que quiere que la consulta pida información"
+            },
+            {
+              "ref": "Fechas como criterios",
+              "law": "Soporte Microsoft (Access, criterios de fecha)",
+              "url": "https://support.microsoft.com/es-es/access/examples-of-using-dates-as-criteria-in-access-queries",
+              "quote": "> #2/2/2012# | Devuelve los elementos cuya fecha sea posterior al 2 de febrero de 2012."
+            },
+            {
+              "ref": "Fechas como criterios",
+              "law": "Soporte Microsoft (Access, criterios de fecha)",
+              "url": "https://support.microsoft.com/es-es/access/examples-of-using-dates-as-criteria-in-access-queries",
+              "quote": "póngalas entre almohadillas (#) para ayudar a Access a comprender qué son."
+            }
+          ]
+        },
+        {
+          "text": "Precaución con la consulta de eliminación: antes de ejecutarla hay que tener una copia de seguridad, y si no se ponen criterios borra todos los registros de la tabla.",
+          "refs": [
+            {
+              "ref": "Consulta de eliminación",
+              "law": "Soporte Microsoft (Access, consulta de eliminación)",
+              "url": "https://support.microsoft.com/es-es/access/create-and-run-a-delete-query",
+              "quote": "asegúrese de que tiene una copia de seguridad de la base de datos de escritorio de Access"
+            },
+            {
+              "ref": "Consulta de eliminación",
+              "law": "Soporte Microsoft (Access, consulta de eliminación)",
+              "url": "https://support.microsoft.com/es-es/access/create-and-run-a-delete-query",
+              "quote": "De lo contrario, la consulta de eliminación quita todos los registros de la tabla."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Formularios",
+      "blocks": [
+        {
+          "text": "El formulario es el objeto que sirve de interfaz de usuario. El dependiente está conectado directamente a un origen de datos (tabla o consulta); el independiente no está vinculado a ninguno. Formas de crearlo: la herramienta Formulario (pestaña Crear, grupo Formularios) lo crea con un solo clic; el formulario dividido ofrece dos vistas de los datos a la vez; Varios elementos crea un formulario parecido a una hoja de datos; y el Asistente para formularios permite elegir los campos.",
+          "refs": [
+            {
+              "ref": "Introducción a formularios",
+              "law": "Soporte Microsoft (Access, formularios)",
+              "url": "https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae",
+              "quote": "Un formulario de Access es un objeto de base de datos que puede usar para crear una interfaz de usuario Un formulario dependiente está conectado directamente a un origen de datos, como una tabla o consulta También puede crear un formulario independiente que no esté vinculado directamente a un origen de datos Puede usar la herramienta Formulario para crear un formulario con un solo clic. En el grupo Formularios de la pestaña Crear, haga clic en Formulario."
+            },
+            {
+              "ref": "Introducción a formularios",
+              "law": "Soporte Microsoft (Access, formularios)",
+              "url": "https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae",
+              "quote": "Un formulario dividido proporciona dos vistas de los datos al mismo tiempo: Al usar la herramienta Varios elementos, el formulario que Access crea es similar a una hoja de datos. Para ser más selectivo con los campos que aparecen en el formulario, use al Asistente para formularios"
+            }
+          ]
+        },
+        {
+          "text": "Vistas para modificarlo: la vista Presentación es la más intuitiva y en ella el formulario está en ejecución; la vista Diseño muestra con más detalle la estructura y el formulario no está en ejecución.",
+          "refs": [
+            {
+              "ref": "Introducción a formularios",
+              "law": "Soporte Microsoft (Access, formularios)",
+              "url": "https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae",
+              "quote": "La vista Presentación es la vista más intuitiva a la hora de modificar un formulario En la vista Presentación, el formulario se encuentra en ejecución. La vista Diseño le ofrece una visión más detallada de la estructura de un formulario. El formulario no se encuentra en ejecución cuando se muestra en la vista Diseño."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Informes",
+      "blocks": [
+        {
+          "text": "Las tablas o consultas que aportan los datos de un informe forman su origen de registros. La herramienta Informe es la forma más rápida de crearlo; el Asistente para informes permite elegir campos; Informe en blanco parte de cero; y el Asistente para etiquetas crea etiquetas de muchos tamaños estándar.",
+          "refs": [
+            {
+              "ref": "Crear informes",
+              "law": "Soporte Microsoft (Access, informes)",
+              "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+              "quote": "Las tablas o consultas que proporcionan los datos subyacentes se conocen también como origen de registros del informe. La herramienta Informe es la forma más rápida de crear un informe Puede usar el Asistente para informes para ser más selectivo con los campos que aparecen en el informe. puede usar la herramienta Informe en blanco para crear un informe desde cero. Use el Asistente para etiquetas para crear fácilmente etiquetas de una amplia variedad de tamaños de etiqueta estándar."
+            }
+          ]
+        },
+        {
+          "text": "Secciones: el Encabezado del informe se imprime una sola vez, al principio; el Encabezado de página, arriba de cada página; el Detalle, una vez por cada fila del origen de registros; el Pie de página, al final de cada página; y el Pie del informe, una sola vez al final. Vistas: la vista Informe es la predeterminada al hacer doble clic en el Panel de navegación; el diseño se ajusta en la vista Presentación; y la Vista previa de impresión muestra cómo quedará impreso.",
+          "refs": [
+            {
+              "ref": "Crear informes",
+              "law": "Soporte Microsoft (Access, informes)",
+              "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+              "quote": "Encabezado del informe: esta sección se imprime solo una vez, al principio del informe. Encabezado de página: esta sección se imprime en la parte superior de cada página. Detalle: Esta sección imprime una vez por cada fila en el origen de registros. Pie de página: Esta sección se imprime al final de cada página. Pie del informe: esta sección se imprime solo una vez, al final del informe."
+            },
+            {
+              "ref": "Crear informes",
+              "law": "Soporte Microsoft (Access, informes)",
+              "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+              "quote": "La vista Informe es la vista predeterminada que se usa al hacer doble clic en un informe en el Panel de navegación. Después de crear un informe, se puede ajustar fácilmente su diseño en la vista Presentación. Si desea ver el aspecto que tendrá el informe cuando se imprima, use Vista previa de impresión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Importación, vinculación y exportación",
+      "blocks": [
+        {
+          "text": "Desde Excel se puede importar o vincular sin alterar la hoja de origen. La pestaña Datos externos solo está disponible con una base de datos abierta, y se importa una sola hoja cada vez. Al vincular, Access crea una tabla vinculada a las celdas de origen: los cambios hechos en Excel aparecen en ella, pero en Access su contenido y estructura son de solo lectura. La operación puede guardarse (Sí) para usos futuros.",
+          "refs": [
+            {
+              "ref": "Importar o vincular desde Excel",
+              "law": "Soporte Microsoft (Access, importar y vincular)",
+              "url": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook",
+              "quote": "sin alterar la hoja de cálculo de origen de Excel. Access crea una nueva tabla vinculada a las celdas de origen. Cualquier cambio que realice en las celdas de origen en Excel aparece en la tabla vinculada. no puede editar el contenido de la tabla correspondiente en Access. el contenido y la estructura de una tabla vinculada en Access son de solo lectura. La pestaña Datos externos no está disponible a menos que esté abierta una base de datos. Haga clic en Sí para guardar la información de la operación para un uso futuro. puede importar datos solo desde una hoja de cálculo cada vez."
+            }
+          ]
+        },
+        {
+          "text": "Para exportar a Excel: pestaña Datos externos, grupo Exportar, Excel. Se exportan tablas, consultas, formularios o informes, pero un objeto por operación, y nunca macros ni módulos. Los informes solo se exportan en el antiguo formato .xls, no en .xlsx. De los campos de búsqueda se exportan los valores de búsqueda, y de un formulario, informe u hoja de datos solo se exporta el principal. Los pasos también pueden guardarse.",
+          "refs": [
+            {
+              "ref": "Exportar a Excel",
+              "law": "Soporte Microsoft (Access, exportar a Excel)",
+              "url": "https://support.microsoft.com/es-es/access/export-data-to-excel",
+              "quote": "En la pestaña Datos externos, en el grupo Exportar, haga clic en Excel. Puede exportar tablas, consultas, formularios o informes. Solo puede exportar un objeto de base de datos en cada operación de exportación. No puede exportar macros ni módulos a Excel. puede guardar los detalles de una operación de exportación para usos futuros los informes solo se pueden exportar en el antiguo formato de archivo *.xls, no en el nuevo *.xlsx. Para campos de búsqueda, se exportan los valores de búsqueda. solo se exporta el formulario, el informe o la hoja de datos principales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Texto breve: hasta 255 caracteres. Moneda: 4 decimales de precisión. Sí/No: 0 = Falso y -1 = Verdadero. Autonumeración: valor único por cada registro nuevo.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "| Texto breve | Datos alfanuméricos (nombres, títulos, etc.) | Hasta 255 caracteres. |"
+            },
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "| Moneda | Datos monetarios, almacenados con 4 posiciones decimales de precisión. | 8 bytes. | | Autonumeración | Valor único generado por Access para cada registro nuevo. |"
+            },
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "Access almacena el valor numérico cero (0) para Falso y -1 para Verdadero."
+            }
+          ]
+        },
+        {
+          "text": "El Asistente para búsquedas no es realmente un tipo de datos.",
+          "refs": [
+            {
+              "ref": "Tipos de datos de Access",
+              "law": "Soporte Microsoft (Access, tipos de datos)",
+              "url": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+              "quote": "La entrada del Asistente para búsquedas en la columna de tipo de datos en la vista Diseño no es realmente un tipo de datos."
+            }
+          ]
+        },
+        {
+          "text": "Clave principal: nunca vacía ni nula; con varios campos es compuesta; quitarla borra el índice, no los campos.",
+          "refs": [
+            {
+              "ref": "Clave principal",
+              "law": "Soporte Microsoft (Access, clave principal)",
+              "url": "https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access",
+              "quote": "Nunca debe estar vacía ni ser nula (siempre debe contener un valor)."
+            },
+            {
+              "ref": "Clave principal",
+              "law": "Soporte Microsoft (Access, clave principal)",
+              "url": "https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access",
+              "quote": "Una clave que tiene más de un campo se denomina clave compuesta."
+            },
+            {
+              "ref": "Clave principal",
+              "law": "Soporte Microsoft (Access, clave principal)",
+              "url": "https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access",
+              "quote": "Al quitar la clave principal, no se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave."
+            }
+          ]
+        },
+        {
+          "text": "Varios a varios = tercera tabla (tabla de unión). Integridad referencial = evitar registros huérfanos. Relaciones: Herramientas de base de datos > grupo Relaciones.",
+          "refs": [
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "Para representar una relación de varios a varios, debe crear una tercera tabla, a menudo denominada tabla de unión"
+            },
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "El propósito de la integridad referencial es evitar los registros huérfanos"
+            },
+            {
+              "ref": "Relaciones",
+              "law": "Soporte Microsoft (Access, relaciones)",
+              "url": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+              "quote": "En la pestaña Herramientas de base de datos, en el grupo Relaciones, haga clic en Relaciones."
+            }
+          ]
+        },
+        {
+          "text": "Corchetes en un criterio = consulta de parámetros. La de totales es de selección, no de acción. Ejecutar: Diseño de consulta > grupo Resultados.",
+          "refs": [
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "Los corchetes indican que quiere que la consulta pida información"
+            },
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "Una consulta de totales es una consulta de selección que permite agrupar y resumir datos"
+            },
+            {
+              "ref": "Introducción a las consultas",
+              "law": "Soporte Microsoft (Access, consultas)",
+              "url": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+              "quote": "En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar."
+            }
+          ]
+        },
+        {
+          "text": "Formulario dividido = dos vistas a la vez. Vista Presentación: en ejecución; vista Diseño: no.",
+          "refs": [
+            {
+              "ref": "Introducción a formularios",
+              "law": "Soporte Microsoft (Access, formularios)",
+              "url": "https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae",
+              "quote": "Un formulario dividido proporciona dos vistas de los datos al mismo tiempo:"
+            },
+            {
+              "ref": "Introducción a formularios",
+              "law": "Soporte Microsoft (Access, formularios)",
+              "url": "https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae",
+              "quote": "En la vista Presentación, el formulario se encuentra en ejecución."
+            }
+          ]
+        },
+        {
+          "text": "Encabezado y pie del informe: una vez; de página: en cada página; Detalle: una vez por fila.",
+          "refs": [
+            {
+              "ref": "Crear informes",
+              "law": "Soporte Microsoft (Access, informes)",
+              "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+              "quote": "Encabezado del informe: esta sección se imprime solo una vez, al principio del informe."
+            },
+            {
+              "ref": "Crear informes",
+              "law": "Soporte Microsoft (Access, informes)",
+              "url": "https://support.microsoft.com/es-es/access/create-a-simple-report",
+              "quote": "Detalle: Esta sección imprime una vez por cada fila en el origen de registros."
+            }
+          ]
+        },
+        {
+          "text": "Tabla vinculada a Excel: de solo lectura en Access. Exportar: un objeto cada vez, nunca macros ni módulos.",
+          "refs": [
+            {
+              "ref": "Importar o vincular desde Excel",
+              "law": "Soporte Microsoft (Access, importar y vincular)",
+              "url": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook",
+              "quote": "el contenido y la estructura de una tabla vinculada en Access son de solo lectura."
+            },
+            {
+              "ref": "Exportar a Excel",
+              "law": "Soporte Microsoft (Access, exportar a Excel)",
+              "url": "https://support.microsoft.com/es-es/access/export-data-to-excel",
+              "quote": "Solo puede exportar un objeto de base de datos en cada operación de exportación. No puede exportar macros ni módulos a Excel."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (Access, tareas básicas) (https://support.microsoft.com/es-es/access/basic-tasks-for-an-access-desktop-database), Soporte Microsoft (Access, tipos de datos) (https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases), Soporte Microsoft (Access, clave principal) (https://support.microsoft.com/es-es/access/add-or-change-a-table-s-primary-key-in-access), Soporte Microsoft (Access, relaciones) (https://support.microsoft.com/es-es/access/guide-to-table-relationships), Soporte Microsoft (Access, formularios) (https://support.microsoft.com/es-es/topic/introducci%C3%B3n-a-formularios-e8d47343-c937-44e8-a80f-b6a83a1fa3ae), Soporte Microsoft (Access, informes) (https://support.microsoft.com/es-es/access/create-a-simple-report), Soporte Microsoft (Access, importar y vincular) (https://support.microsoft.com/es-es/access/import-or-link-to-data-in-an-excel-workbook), Soporte Microsoft (Access, exportar a Excel) (https://support.microsoft.com/es-es/access/export-data-to-excel)"
 }
