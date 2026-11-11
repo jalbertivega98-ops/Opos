@@ -8,9 +8,12 @@ import { Token, useTokenText } from "./token";
 export function PsychoStem({
   type,
   presentation,
+  testId = "psycho-stem",
 }: {
   type: PsychoType;
   presentation: Presentation;
+  /** null en los ejemplos resueltos, para no duplicar el del entrenador. */
+  testId?: string | null;
 }) {
   const t = useTranslations("psycho");
   const text = useTokenText();
@@ -24,7 +27,7 @@ export function PsychoStem({
           <p className="font-medium">{t(`types.${type}.prompt`)}</p>
           <p
             className="font-display text-2xl font-bold tracking-wide break-words sm:text-3xl"
-            data-testid="psycho-stem"
+            data-testid={testId ?? undefined}
           >
             {presentation.terms.join(", ")}, <span className="text-accent">?</span>
           </p>
@@ -32,7 +35,7 @@ export function PsychoStem({
       );
     case "text":
       return (
-        <p className="text-lg" data-testid="psycho-stem">
+        <p className="text-lg" data-testid={testId ?? undefined}>
           {t(`problems.${presentation.key}`, values(presentation.values))}
         </p>
       );
@@ -40,7 +43,10 @@ export function PsychoStem({
       return (
         <div className="space-y-3">
           <p className="font-medium">{t(`types.${type}.prompt`)}</p>
-          <p className="font-display text-xl font-bold sm:text-2xl" data-testid="psycho-stem">
+          <p
+            className="font-display text-xl font-bold sm:text-2xl"
+            data-testid={testId ?? undefined}
+          >
             <Token value={presentation.a} /> <span className="text-muted-foreground">→</span>{" "}
             <Token value={presentation.b} />
             <span className="text-muted-foreground"> · </span>
@@ -56,7 +62,7 @@ export function PsychoStem({
           <div
             className="border-border mx-auto grid w-fit gap-1 rounded-xl border p-2"
             style={{ gridTemplateColumns: `repeat(${presentation.size}, minmax(0, 1fr))` }}
-            data-testid="psycho-stem"
+            data-testid={testId ?? undefined}
           >
             {presentation.cells.map((c, i) => (
               <div
@@ -77,7 +83,7 @@ export function PsychoStem({
       return (
         <div className="space-y-3">
           <p className="font-medium">{t(`figures.${presentation.key}`)}</p>
-          <div className="flex justify-center" data-testid="psycho-stem">
+          <div className="flex justify-center" data-testid={testId ?? undefined}>
             <Token value={presentation.figure} className="scale-125 p-3" />
           </div>
         </div>
@@ -90,7 +96,7 @@ export function PsychoStem({
           </p>
           <div
             className="bg-surface overflow-x-auto rounded-xl p-3 font-mono text-lg tracking-[0.3em] sm:text-xl"
-            data-testid="psycho-stem"
+            data-testid={testId ?? undefined}
           >
             {presentation.rows.map((r, i) => (
               <div key={i}>{r}</div>
@@ -106,7 +112,7 @@ export function PsychoStem({
           </p>
           <div
             className="border-border overflow-x-auto rounded-xl border"
-            data-testid="psycho-stem"
+            data-testid={testId ?? undefined}
           >
             <table className="w-full text-sm">
               <caption className="sr-only">

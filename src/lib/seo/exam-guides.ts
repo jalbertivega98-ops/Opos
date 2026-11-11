@@ -1358,3 +1358,11 @@ const GUIDES: Record<string, ExamGuide> = {
 export const getExamGuide = (slug: string): ExamGuide | undefined => GUIDES[slug];
 export const examGuides = (): ExamGuide[] => Object.values(GUIDES);
 export { tr } from "./psycho-guides";
+
+/** Nombre corto de la oposición (para enlaces): el h1 sin «Oposiciones a» ni la convocatoria. */
+export function examShortName(g: ExamGuide, locale: string): string {
+  const name = (locale === "ca" ? g.h1.ca : g.h1.es)
+    .replace(/^Oposici(?:ones|ons) (?:a la |a |d')/i, "")
+    .replace(/\s*\((?:convocatoria|convocatòria) [^)]*\)$/i, "");
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}

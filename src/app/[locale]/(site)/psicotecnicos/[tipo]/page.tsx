@@ -9,22 +9,21 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { FaqList } from "@/components/seo/faq-list";
 import { getSession } from "@/lib/auth/session";
 import { availableTypes, difficultyPlan, generateItem } from "@/lib/learning/psycho/registry";
-import { toPublicItem } from "@/lib/learning/psycho/types";
-import { examGuides, tr as trExam } from "@/lib/seo/exam-guides";
+import { toPublicItem, type Difficulty } from "@/lib/learning/psycho/types";
+import { WorkedExamples } from "@/components/psycho/worked-examples";
+import { examGuides, examShortName, tr as trExam } from "@/lib/seo/exam-guides";
 import { JsonLd, faqLd, quizLd } from "@/lib/seo/json-ld";
 import { psychoGuideBySlug, psychoGuides, tr } from "@/lib/seo/psycho-guides";
 import { pageMetadata } from "@/lib/seo/site";
 
 const DEMO_SIZE = 10;
 
-/** Nombre corto de cada oposición con guía (para los enlaces cruzados). */
-const EXAM_NAMES: Record<string, { es: string; ca: string }> = {
-  "mossos-esquadra": { es: "Mossos d'Esquadra", ca: "Mossos d'Esquadra" },
-  "auxiliar-administrativo-estado": {
-    es: "Auxiliar Administrativo del Estado",
-    ca: "Auxiliar Administratiu de l'Estat",
-  },
-};
+/** Semillas fijas de los ejemplos resueltos: el contenido no cambia entre visitas. */
+const EXAMPLES: { seed: number; difficulty: Difficulty }[] = [
+  { seed: 20261110, difficulty: 2 },
+  { seed: 20261111, difficulty: 3 },
+  { seed: 20261112, difficulty: 4 },
+];
 
 export function generateStaticParams() {
   return psychoGuides().map((g) => ({ tipo: g.slug }));
@@ -64,6 +63,16 @@ export default async function PsychoTypePage({
   const faq = g.faq.map(({ q, a }) => ({ q: tr(q, locale), a: tr(a, locale) }));
   const exams = examGuides().filter((e) => e.psychoTypes.includes(g.type));
   const others = psychoGuides().filter((o) => o.slug !== g.slug);
+  // Ejemplos resueltos en el HTML (contenido estable para buscadores y lectores).
+  const examples = EXAMPLES.map(({ seed, difficulty }) => {
+    const it = generateItem(g.type, seed, difficulty);
+    return {
+      presentation: it.presentation,
+      options: it.options,
+      solution: it.answerIndex,
+      explanation: it.explanation,
+    };
+  });
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
@@ -113,6 +122,14 @@ export default async function PsychoTypePage({
         </ol>
       </section>
 
+      <section aria-labelledby="examples" className="mt-12">
+        <h2 id="examples" className="text-2xl font-bold">
+          {t("examples")}
+        </h2>
+        <p className="text-muted-foreground mt-1 text-sm">{t("examplesNote")}</p>
+        <WorkedExamples type={g.type} items={examples} />
+      </section>
+
       {exams.length > 0 && (
         <section aria-labelledby="exams" className="mt-12">
           <h2 id="exams" className="text-2xl font-bold">
@@ -125,7 +142,7 @@ export default async function PsychoTypePage({
                   href={`/oposiciones/${e.slug}`}
                   className="hover:text-accent inline-flex items-center gap-1 font-semibold"
                 >
-                  {trExam(EXAM_NAMES[e.slug] ?? { es: e.slug, ca: e.slug }, locale)}
+                  {examShortName(e, locale)}
                   <ArrowRight className="size-4" aria-hidden />
                 </Link>
                 <p className="text-muted-foreground mt-1 text-sm">{trExam(e.psychoNote, locale)}</p>

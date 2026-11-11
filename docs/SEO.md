@@ -22,7 +22,7 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 | llms.txt      | `/llms.txt`     | Resumen en Markdown para asistentes de IA (llmstxt.org).                                                                                 |
 | Imagen social | `/og-image.png` | 1200 × 630. Se regenera con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium node scripts/seo/render-logo.mjs`.                               |
 | Logo          | `/logo-512.png` | Lo usa `Organization.logo` en Schema.org.                                                                                                |
-| IndexNow      | `/indexnow.txt` | Devuelve `INDEXNOW_KEY` (404 si no hay clave).                                                                                           |
+| IndexNow      | `/indexnow.txt` | Devuelve `INDEXNOW_KEY` o la clave pública por defecto. La Action `indexnow.yml` avisa a IndexNow tras cada push a main (ADR-050).      |
 
 ## 3. Páginas públicas y contenido
 
@@ -49,7 +49,7 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 
 1. Entra en https://www.bing.com/webmasters y elige **importar desde Search Console**. Es lo más rápido. También puedes poner el código `msvalidate.01` en `BING_SITE_VERIFICATION`.
 2. Envía el sitemap.
-3. IndexNow: genera una clave (por ejemplo, un UUID), ponla en `INDEXNOW_KEY` en Vercel, redespliega y ejecuta `SITE_URL=https://oposaprueba.com INDEXNOW_KEY=… node scripts/seo/indexnow.mjs` después de cada cambio importante de contenido.
+3. IndexNow es automático: la GitHub Action `indexnow.yml` envía el sitemap después de cada push a `main`. Para lanzarlo a mano: `SITE_URL=https://www.oposaprueba.com node scripts/seo/indexnow.mjs`.
 
 ## 6. Analítica de captación (`/admin/trafico`)
 

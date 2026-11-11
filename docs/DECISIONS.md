@@ -397,3 +397,15 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Motivo:** las dos oposiciones con más demanda tenían 2 simulacros por reparto y ningún examen real.
 **Consecuencias:** preview `87-` (preguntas) y `88-` (publicación y productos). Siguen en borrador 7 dudosas: GC 2026 n.º 72-73 (la Orden PRE/422/2013 de la carpeta no tiene la estructura de Servicios Centrales que da por supuesta el cuadernillo), 2022-2 n.º 85-86 y 2022-3 n.º 83-84 (Directiva 2012/27/UE, derogada por la 2023/1791 y aún en el temario) y PN tipo 2 n.º 77 (dato de la encuesta EDADES). Cada convocatoria nueva de Guardia Civil pide su réplica (el cuadernillo se publica tras la prueba).
+## ADR-050 · Más alcance en buscadores: enlaces internos, ejemplos resueltos e IndexNow automático (2026-11-10)
+
+**Contexto.** A los 6 días de abrir la web, Search Console marcaba 21 apariciones y 2 visitas en 28 días, de media en la 3.ª página. Las búsquedas que ya asoman son de psicotécnicos («test psicotécnicos gratis», «psicotécnicos online»). Auditoría de las 58 URL del sitemap: títulos, descripciones y h1 correctos, pero las fichas de oposición solo recibían 12 enlaces internos, las páginas de psicotécnico tenían 220-370 palabras y Bing seguía sin alta (IndexNow dependía de una variable en Vercel).
+
+**Decisión.**
+- El pie de todas las páginas enlaza las 11 fichas de oposición y los 15 tipos de psicotécnico (nombre corto con `examShortName`, sacado del h1 verificado).
+- Cada página `/psicotecnicos/<tipo>` muestra tres **ejemplos resueltos** con semillas fijas (contenido estable en el HTML) generados por el mismo motor determinista: enunciado, opciones, solución y explicación. Son ítems distintos de los del entrenador, que siguen sin enviar la solución al cliente.
+- Títulos de los tipos con «gratis» (lo que se busca), sin pasar de ~60 caracteres.
+- «Oposiciones en las que se trabaja» usa el nombre de cada oposición; antes mostraba el slug en 9 de 11.
+- IndexNow sin depender de Vercel: clave pública por defecto en `/indexnow.txt` y GitHub Action `indexnow.yml` que envía el sitemap tras cada push a `main` (espera 4 min al despliegue).
+
+**Consecuencias.** Bing, Yandex y Seznam reciben las URL en cada publicación sin pasos manuales. No se añade ningún dato de examen nuevo: solo se reutiliza contenido verificado y ejercicios generados.

@@ -32,7 +32,7 @@ test.describe("Registro, verificación y onboarding", () => {
 
     await expect(page).toHaveURL(/\/app\?welcome=1/);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Hola, Laura");
-    await expect(page.getByText("Mossos d'Esquadra")).toBeVisible();
+    await expect(page.locator("#main").getByText("Mossos d'Esquadra")).toBeVisible();
     await expect(page.getByText("Siguiendo")).toBeVisible();
     await expect(page.getByText("Onboarding completado")).toBeVisible();
   });
