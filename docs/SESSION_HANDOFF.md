@@ -20,7 +20,7 @@
 
 ### Embudo de conversión (2026-11-11, rama `claude/project-thread-3xoxnz`, MKT-006, ADR-047)
 
-- `/admin` → «Embudo de conversión» (7 o 30 días): visitas, empiezan/terminan el test gratis (`funnel_daily`, nuevo contador), crean cuenta, bienvenida, practican y pagan con Stripe. Migración `20261111000100`, preview `82-`.
+- `/admin` → «Embudo de conversión» (7 o 30 días): visitas, empiezan/terminan el test gratis (`funnel_daily`, nuevo contador), crean cuenta, bienvenida, practican y pagan con Stripe. Migración `20261111000100`, preview `83-`.
 - Pendiente: que joel diga «fusiona». El test gratis empieza a contar al desplegar.
 
 ### Conversión tras la auditoría (2026-11-09, rama `claude/project-thread-3xoxnz`, MKT-005, ADR-044)
