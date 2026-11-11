@@ -68,5 +68,420 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Estructura de la matèria: àtoms, nombre atòmic i nombre màssic",
+      "blocks": [
+        {
+          "text": "El nombre atòmic (Z) és el nombre de protons del nucli de l'àtom. El nombre màssic (A) és el total de partícules del nucli, és a dir, la suma de protons i neutrons: A = Z + N, on N és el nombre de neutrons.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, nombre atòmic",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "El nombre atòmic (Z) és el nombre de protons que té el nucli de l’àtom."
+            },
+            {
+              "ref": "MAN.GRAL.004, nombre màssic",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "El nombre màssic (A) és el total de partícules del nucli, és a dir, la suma de protons i neutrons (A = Z + N)."
+            }
+          ]
+        },
+        {
+          "text": "Quan un àtom té més electrons o menys electrons del normal parlem d'ions, i això és el que marca la càrrega elèctrica de l'àtom. La descripció de les molècules i de la seva polaritat no és als extractes revisats; cal consultar el manual MAN.GRAL.004 sencer.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, ions",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Quan tenim més o menys electrons del normal parlem d'ions, i és el que ens marca la càrrega elèctrica de l'àtom."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Isòtops",
+      "blocks": [
+        {
+          "text": "Tots els isòtops d'un mateix element tenen el mateix nombre de protons (el mateix Z), però un nombre diferent de neutrons. Per tant, tenen nombres màssics diferents.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, isòtops",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Tots els isòtops d’un element tenen el mateix nombre de protons, però varien en el nombre de neutrons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Enllaços químics: iònic, covalent i metàl·lic",
+      "blocks": [
+        {
+          "text": "L'enllaç iònic es forma entre un metall, que tendeix a cedir electrons, i un no metall, que tendeix a captar-ne. L'enllaç covalent es produeix quan dos àtoms no metàl·lics comparteixen un o més electrons de valència per assolir l'estabilitat. L'enllaç metàl·lic és la unió característica dels metalls, en què els àtoms comparteixen els seus electrons més externs.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, enllaç iònic",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Enllaç iònic L’enllaç iònic es forma entre un metall, que tendeix a cedir electrons, i un no metall, que tendeix a captar-ne."
+            },
+            {
+              "ref": "MAN.GRAL.004, enllaç covalent",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Enllaç covalent L’enllaç covalent es produeix quan dos àtoms no metàl·lics comparteixen un o més electrons de valència per assolir l’estabilitat."
+            },
+            {
+              "ref": "MAN.GRAL.004, enllaç metàl·lic",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Enllaç metàl·lic L’enllaç metàl·lic és la unió característica dels metalls, en què els àtoms comparteixen els seus electrons més externs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Forces intermoleculars",
+      "blocks": [
+        {
+          "text": "Els ponts d'hidrogen expliquen tres propietats de l'aigua: que tingui un punt d'ebullició tan alt, que el gel suri i que l'aigua pugui dissoldre moltes substàncies. Les forces de Van der Waals de dispersió (o de London) es presenten en totes les substàncies moleculars i consisteixen en l'atracció entre dipols induïts temporalment en molècules no polars.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, ponts d'hidrogen",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Un exemple clàssic és l’aigua: els ponts d’hidrogen expliquen per què té un punt d’ebullició tan alt, per què el gel flota i per què l’aigua pot dissoldre moltes substàncies."
+            },
+            {
+              "ref": "MAN.GRAL.004, forces de dispersió",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Es presenten en totes les substàncies moleculars i impliquen l’atracció entre dipols temporalment induïts en molècules no polars."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Reaccions químiques: tipus i oxidació-reducció",
+      "blocks": [
+        {
+          "text": "En una reacció d'oxidació-reducció (redox) hi ha una transferència d'electrons entre substàncies: una s'oxida (perd electrons) i l'altra es redueix (guanya electrons). La combustió del tema 8 és una reacció d'oxidació.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, redox",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reaccions oxidació-reducció (redox) Transferència d’electrons entre substàncies; una s’oxida (perd electrons) i l’altra es redueix (guanya electrons)."
+            }
+          ]
+        },
+        {
+          "text": "En una reacció àcid-base (neutralització), un àcid (HA) i una base (BOH) reaccionen i formen una sal (BA) i aigua. La resta de tipus de reaccions de la classificació del manual no és als extractes revisats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, neutralització",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reacció àcid-base (neutralització) Un àcid (HA) i una base (BOH) reaccionen per formar una sal (BA) i aigua."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Llei de conservació de la massa",
+      "blocks": [
+        {
+          "text": "La llei de conservació de la massa, formulada per Antoine Lavoisier el 1789, estableix que en una reacció química feta en un sistema tancat la massa total dels reactius és igual a la massa total dels productes.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, conservació de la massa",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Llei de conservació de la massa La llei de conservació de la massa, formulada per Antoine Lavoisier el 1789, estableix que en una reacció química realitzada dins d’un sistema tancat, la massa total dels reactius és igual a la massa total dels productes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Estequiometria: mols, volum molar i reactiu limitant",
+      "blocks": [
+        {
+          "text": "La quantitat de matèria s'expressa en mols. Un mol correspon al nombre d'Avogadro: 6,022·10²³ entitats. En condicions normals de temperatura i pressió (0 °C i 1 atm), un mol de gas ocupa aproximadament 22,4 L: és el volum molar (Vₘ). La definició de massa molar no és a l'extracte revisat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, mols",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Mols i massa molar La quantitat de matèria s’expressa en mols (mol), on 1 mol correspon al nombre d’Avogadro (6,022·10²³ entitats)."
+            },
+            {
+              "ref": "MAN.GRAL.004, volum molar",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Volum molar En condicions normals de temperatura i pressió (0 °C i 1 atm), 1 mol de gas ocupa un volum aproximat de 22,4 L, anomenat volum molar (Vₘ)."
+            }
+          ]
+        },
+        {
+          "text": "Quan dos o més reactius reaccionen, el reactiu limitant és el que s'esgota primer i, per tant, determina la quantitat màxima de producte que es pot formar. L'altre reactiu queda en excés.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, reactiu limitant",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reactiu limitant i excés Quan dos (o més) reactius reaccionen, el reactiu limitant és aquell que s’esgota primer i, per tant, determina la quantitat màxima de producte que es pot formar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Estats de la matèria i canvis d'estat",
+      "blocks": [
+        {
+          "text": "La sublimació és el pas directe de sòlid a gas sense passar per líquid. La temperatura d'ebullició depèn de la pressió: a pressions més baixes, l'ebullició té lloc a temperatures inferiors; a pressions més altes, cal més temperatura per bullir. Per exemple, a dalt d'una muntanya de 3.000 m l'aigua bull a uns 90 °C (tema 13). La resta de canvis d'estat i la teoria cineticomolecular no són als extractes revisats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, canvis d'estat",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Sublimació: sòlid → gas sense passar per líquid"
+            },
+            {
+              "ref": "MAN.GRAL.004, ebullició i pressió",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Així, a pressions més baixes, l’ebullició té lloc a temperatures inferiors, mentre que a pressions més altes, la temperatura necessària per assolir l’ebullició augmenta."
+            },
+            {
+              "ref": "MAN.GRAL.009, ebullició",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "a dalt d’una muntanya de 3000 m, la pressió atmosfèrica és menor i l’aigua bull a menys temperatura (uns 90 ºC)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Lleis dels gasos",
+      "blocks": [
+        {
+          "text": "Llei de Boyle-Mariotte: per a una mateixa massa de gas a temperatura constant, la pressió i el volum són inversament proporcionals. Llei de Gay-Lussac: per a una mateixa massa de gas a volum constant, la pressió és directament proporcional a la temperatura. Aquesta última explica per què puja la pressió d'una ampolla tancada de gas que s'escalfa en un incendi.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, Boyle-Mariotte",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Llei de Boyle-Mariotte Per una mateixa massa de gas, si no varia la temperatura, la pressió i el volum són inversament proporcionals."
+            },
+            {
+              "ref": "MAN.GRAL.004, Gay-Lussac",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Llei de Gay-Lussac Per una mateixa massa de gas, si no varia el volum que ocupa, la pressió és directament proporcional a la temperatura."
+            }
+          ]
+        },
+        {
+          "text": "L'equació dels gasos ideals és PV = nRT: P és la pressió, V el volum, n el nombre de mols, R la constant dels gasos (0,0821 L·atm/mol·K) i T la temperatura en kelvin.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, gasos ideals",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "PV=nRT on P és la pressió, V el volum, n el nombre de mols, R la constant de gasos (0,0821 L·atm/mol·K) i T la temperatura en graus Kelvin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Termoquímica: calor, temperatura i calor específica",
+      "blocks": [
+        {
+          "text": "Una reacció exotèrmica allibera energia, generalment calor, cap a l'entorn. Una reacció endotèrmica, en canvi, n'absorbeix de l'entorn per poder dur-se a terme. El concepte d'entalpia no és als extractes revisats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, reacció exotèrmica",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reacció exotèrmica: allibera energia (generalment calor) cap a l’entorn."
+            },
+            {
+              "ref": "MAN.GRAL.004, reacció endotèrmica",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reacció endotèrmica: absorbeix energia (generalment calor)de l’entorn per poder dur-se a terme."
+            }
+          ]
+        },
+        {
+          "text": "La calor específica és una propietat característica de cada material: és la quantitat de calor necessària per augmentar 1 °C la temperatura d'un quilogram d'aquell material.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, calor específica",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Calor específica La calor específica és una propietat característica de cada material. […] Correspon a la quantitat de calor necessària per augmentar 1º C la temperatura d'un kg d'aquell material."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Hidrocarburs",
+      "blocks": [
+        {
+          "text": "Els alcans són hidrocarburs saturats, amb enllaços senzills C–C. Els alquens són hidrocarburs insaturats amb un doble enllaç C=C. A temperatura ambient, els alcans són gasos de C₁ a C₄, líquids de C₅ a C₁₇ i sòlids a partir de C₁₈. Els alquins no són descrits als extractes revisats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, alcans",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Alcans Els alcans són hidrocarburs saturats, amb enllaços senzills C–C."
+            },
+            {
+              "ref": "MAN.GRAL.004, alquens",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Alquens Els alquens són hidrocarburs insaturats amb un doble enllaç C=C."
+            },
+            {
+              "ref": "MAN.GRAL.004, estat dels alcans",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Gasos (C₁–C₄), líquids (C₅–C₁₇) i sòlids (≥C₁₈) a temperatura ambient."
+            }
+          ]
+        },
+        {
+          "text": "Rellevància per als bombers: hi ha risc d'explosió en espais tancats on hi ha butà o propà.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, hidrocarburs",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Rellevància per a bombers: risc d’explosió en espais tancats amb presència de gas butà i/o propà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Z = protons. A = protons + neutrons. Isòtops: mateix Z, diferent nombre de neutrons. Ions: més o menys electrons del normal.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, nombre màssic",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "la suma de protons i neutrons (A = Z + N)"
+            }
+          ]
+        },
+        {
+          "text": "Iònic: metall + no metall. Covalent: dos no metalls que comparteixen electrons. Metàl·lic: entre metalls.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, enllaç iònic",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "L’enllaç iònic es forma entre un metall, que tendeix a cedir electrons, i un no metall"
+            }
+          ]
+        },
+        {
+          "text": "Ponts d'hidrogen: ebullició alta de l'aigua i gel que sura. Van der Waals (London): dipols induïts temporalment en molècules no polars.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, ponts d'hidrogen",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "els ponts d’hidrogen expliquen per què té un punt d’ebullició tan alt, per què el gel flota"
+            }
+          ]
+        },
+        {
+          "text": "Redox: qui s'oxida perd electrons; qui es redueix en guanya. Lavoisier (1789): en sistema tancat, massa de reactius = massa de productes.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, redox",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "una s’oxida (perd electrons) i l’altra es redueix (guanya electrons)"
+            }
+          ]
+        },
+        {
+          "text": "1 mol = 6,022·10²³ entitats. Volum molar: 22,4 L a 0 °C i 1 atm. Reactiu limitant: el que s'esgota primer.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, volum molar",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "1 mol de gas ocupa un volum aproximat de 22,4 L"
+            }
+          ]
+        },
+        {
+          "text": "Boyle-Mariotte (T constant): P i V inversament proporcionals. Gay-Lussac (V constant): P proporcional a T, el cas de l'ampolla escalfada.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, Gay-Lussac",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "si no varia el volum que ocupa, la pressió és directament proporcional a la temperatura"
+            }
+          ]
+        },
+        {
+          "text": "Menys pressió, ebullició a menys temperatura. Sublimació: de sòlid a gas directament. Exotèrmica: allibera calor; endotèrmica: n'absorbeix.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, ebullició i pressió",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "a pressions més baixes, l’ebullició té lloc a temperatures inferiors"
+            }
+          ]
+        },
+        {
+          "text": "Alcans: saturats (C–C). Alquens: doble enllaç C=C. C₅–C₁₇: líquids a temperatura ambient.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, estat dels alcans",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "líquids (C₅–C₁₇)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }
