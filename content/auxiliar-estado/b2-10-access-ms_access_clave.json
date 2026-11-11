@@ -62,6 +62,21 @@
       "explanation": "Quitar la clave principal borra el índice creado para ella, pero no los campos. Antes debe comprobarse que la clave no interviene en ninguna relación.",
       "excerpt": "Al quitar la clave principal, no se eliminan los campos de la tabla, pero sí el índice que se creó para dicha clave.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Clave principal (establecer)",
+      "stem": "En la vista Diseño de una tabla de Access, ¿dónde está el comando Clave principal?",
+      "options": [
+        "En la pestaña Diseño de tabla, grupo Herramientas.",
+        "En la pestaña Crear, grupo Tablas.",
+        "En la pestaña Herramientas de base de datos, grupo Relaciones.",
+        "En la pestaña Inicio, grupo Registros."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "En la pestaña Diseño de tabla, grupo Herramientas, se selecciona Clave principal; se agrega un indicador de clave a la izquierda del campo o campos elegidos.",
+      "excerpt": "En la pestaña Diseño de tabla , en el grupo Herramientas , seleccione Clave principal.",
+      "excerpt_status": "completo"
     }
   ]
 }

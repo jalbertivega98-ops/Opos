@@ -32,6 +32,51 @@
       "explanation": "El encabezado del informe se imprime una sola vez al principio; el encabezado de página, en la parte superior de cada página; el detalle, una vez por cada fila del origen de registros; el pie de página, al final de cada página.",
       "excerpt": "Encabezado del informe: esta sección se imprime solo una vez, al principio del informe.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Crear informes · Herramienta Informe",
+      "stem": "Según Microsoft, ¿cuál es la forma más rápida de crear un informe en Access?",
+      "options": [
+        "La herramienta Informe.",
+        "El Asistente para informes.",
+        "La herramienta Informe en blanco.",
+        "El Asistente para etiquetas."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La herramienta Informe es la forma más rápida; el Asistente para informes permite ser más selectivo con los campos, Informe en blanco sirve para crearlo desde cero y el Asistente para etiquetas crea etiquetas de tamaños estándar.",
+      "excerpt": "La herramienta Informe es la forma más rápida de crear un informe",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Secciones del informe (Detalle)",
+      "stem": "¿Qué sección de un informe de Access se imprime una vez por cada fila del origen de registros?",
+      "options": [
+        "Encabezado de página.",
+        "Pie de página.",
+        "Detalle.",
+        "Encabezado del informe."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La sección Detalle se imprime una vez por cada fila del origen de registros; el encabezado de página, en la parte superior de cada página; el pie de página, al final de cada página, y el encabezado del informe, solo una vez al principio.",
+      "excerpt": "Detalle: Esta sección imprime una vez por cada fila en el origen de registros.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Vistas del informe",
+      "stem": "¿Qué vista se usa de forma predeterminada al hacer doble clic en un informe en el panel de navegación de Access?",
+      "options": [
+        "La vista Informe.",
+        "La vista Diseño.",
+        "La vista Presentación.",
+        "La Vista previa de impresión."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La vista Informe es la predeterminada al hacer doble clic en un informe del panel de navegación; el diseño se ajusta fácilmente en la vista Presentación y la Vista previa de impresión muestra el aspecto impreso.",
+      "excerpt": "La vista Informe es la vista predeterminada que se usa al hacer doble clic en un informe en el Panel de navegación.",
+      "excerpt_status": "completo"
     }
   ]
 }

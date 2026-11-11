@@ -137,6 +137,201 @@
       "explanation": "Ctrl+Mayús+E activa o desactiva el control de cambios; un comentario se inserta con Ctrl+Alt+M, la vista Esquema con Ctrl+Alt+O y los caracteres no imprimibles se muestran con Ctrl+Mayús+8. Los atajos con letra pueden variar según el idioma del teclado; este es el que da Microsoft para Word en español.",
       "excerpt": "Activar o desactivar el control de cambios. | Ctrl+Mayús+E",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (centrar)",
+      "stem": "En Word para Windows, ¿qué combinación de teclas centra el texto?",
+      "options": [
+        "Ctrl+J",
+        "Ctrl+T",
+        "Ctrl+E",
+        "Ctrl+C"
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Según la tabla de métodos abreviados de Word, Ctrl+E centra el texto y Ctrl+J justifica el párrafo.",
+      "excerpt": "Centrar el texto. | Ctrl+E",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (Reemplazar)",
+      "stem": "En Word, la combinación Ctrl+H muestra:",
+      "options": [
+        "El panel de tareas de Navegación.",
+        "El cuadro de diálogo Reemplazar.",
+        "El cuadro de diálogo Ir a.",
+        "El cuadro de diálogo Guardar como."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl+H abre Reemplazar para buscar y reemplazar texto, formato o elementos especiales.",
+      "excerpt": "Muestra el cuadro de diálogo Reemplazar para buscar y reemplazar texto, formato específico o elementos especiales. | Ctrl+H",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Word (F7)",
+      "stem": "En Word, ¿qué muestra la tecla F7 pulsada sola?",
+      "options": [
+        "El panel de tareas del diccionario de sinónimos.",
+        "El panel de tareas Traductor.",
+        "El panel de tareas Ayuda de Word.",
+        "El panel de tareas del Editor."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "F7 abre el panel del Editor; Mayús+F7, el diccionario de sinónimos; Alt+Mayús+F7, el Traductor; F1, la Ayuda.",
+      "excerpt": "Solo F7: muestra el panel de tareas del Editor",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (comentario)",
+      "stem": "¿Qué combinación de teclas inserta un comentario en un documento de Word?",
+      "options": [
+        "Ctrl+Alt+M",
+        "Ctrl+Alt+K",
+        "Ctrl+Alt+F",
+        "Ctrl+Mayús+C"
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ctrl+Alt+M inserta un comentario; Ctrl+Alt+K inserta un hipervínculo y Ctrl+Alt+F, una nota al pie.",
+      "excerpt": "Insertar un comentario. | Ctrl+Alt+M",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (salto de columna)",
+      "stem": "En Word, ¿qué combinación de teclas inserta un salto de columna?",
+      "options": [
+        "Ctrl+Entrar",
+        "Ctrl+Mayús+Entrar",
+        "Mayús+Entrar",
+        "Alt+Entrar"
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl+Mayús+Entrar inserta un salto de columna; Ctrl+Entrar, un salto de página, y Mayús+Entrar, un salto de línea.",
+      "excerpt": "Insertar un salto de columna. | Ctrl+Mayús+Entrar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (Navegación)",
+      "stem": "En Word para Windows, la combinación Ctrl+B:",
+      "options": [
+        "Aplica el formato negrita al texto seleccionado.",
+        "Muestra el cuadro de diálogo Marcador.",
+        "Muestra el panel de tareas de Navegación para buscar en el contenido del documento.",
+        "Inserta un salto de página."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Según la página de Microsoft en español, Ctrl+B muestra el panel de Navegación para buscar en el documento.",
+      "excerpt": "Mostrar el panel de tareas de Navegación para buscar en el contenido del documento. | Ctrl+B",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Word (F5)",
+      "stem": "En Word, ¿qué tecla de función, pulsada sola, muestra el cuadro de diálogo Ir a?",
+      "options": [
+        "F4",
+        "F9",
+        "F5",
+        "F12"
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "F5 muestra Ir a; F4 repite la última acción, F9 actualiza los campos seleccionados y F12 abre Guardar como.",
+      "excerpt": "Solo F5: muestra el cuadro de diálogo Ir a.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (nota al pie)",
+      "stem": "En Word, la combinación Ctrl+Alt+F sirve para:",
+      "options": [
+        "Insertar una nota al final.",
+        "Insertar una nota al pie.",
+        "Insertar un campo de FECHA.",
+        "Abrir el cuadro de diálogo Fuente."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl+Alt+F inserta una nota al pie; Ctrl+Alt+D, una nota al final, y Alt+Mayús+F, un campo de FECHA.",
+      "excerpt": "Insertar una nota al pie. | Ctrl+Alt+F",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (caracteres no imprimibles)",
+      "stem": "¿Qué combinación de teclas muestra todos los caracteres no imprimibles en un documento de Word?",
+      "options": [
+        "Ctrl+Mayús+N",
+        "Ctrl+Alt+P",
+        "Ctrl+Q",
+        "Ctrl+Mayús+8"
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Ctrl+Mayús+8 muestra los caracteres no imprimibles; Ctrl+Mayús+N aplica el estilo Normal y Ctrl+Q quita el formato de párrafo.",
+      "excerpt": "Mostrar todos los caracteres no imprimibles. | Ctrl+Mayús+8",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Word (Ctrl+F12)",
+      "stem": "En Word, la combinación Ctrl+F12 muestra:",
+      "options": [
+        "El cuadro de diálogo Guardar como.",
+        "El cuadro de diálogo Abrir.",
+        "La pestaña Imprimir en la vista Backstage.",
+        "El cuadro de diálogo Marcador."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl+F12 abre el cuadro Abrir; F12 sola, Guardar como; Ctrl+Mayús+F12, la pestaña Imprimir.",
+      "excerpt": "Ctrl+F12: muestra el cuadro de diálogo Abrir.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (vista Esquema)",
+      "stem": "En Word, ¿qué combinación de teclas cambia a la vista Esquema?",
+      "options": [
+        "Ctrl+Alt+O",
+        "Ctrl+Alt+N",
+        "Ctrl+Alt+P",
+        "Ctrl+Alt+I"
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ctrl+Alt+O cambia a Esquema; Ctrl+Alt+N, a Borrador; Ctrl+Alt+P, a Diseño de impresión, y Ctrl+Alt+I, a vista previa de impresión.",
+      "excerpt": "Cambiar a la vista Esquema. | Ctrl+Alt+O",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Métodos abreviados de Word (campo FECHA)",
+      "stem": "En Word, la combinación Alt+Mayús+F permite:",
+      "options": [
+        "Insertar una nota al pie.",
+        "Abrir el cuadro de diálogo Fuente.",
+        "Insertar un campo de FECHA.",
+        "Mostrar el panel de tareas Traductor."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Alt+Mayús+F inserta un campo de FECHA; Ctrl+Alt+F inserta una nota al pie y Alt+Mayús+F7 muestra el Traductor.",
+      "excerpt": "Insertar un campo de FECHA. | Alt+Mayús+F",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Teclas de función de Word (Ctrl+Mayús+F5)",
+      "stem": "En Word, ¿qué cuadro de diálogo muestra la combinación Ctrl+Mayús+F5?",
+      "options": [
+        "Ir a.",
+        "Marcador.",
+        "Reemplazar.",
+        "Abrir."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Ctrl+Mayús+F5 muestra el cuadro Marcador; F5 sola muestra Ir a.",
+      "excerpt": "Ctrl+Mayús+F5: muestra el cuadro de diálogo Marcador.",
+      "excerpt_status": "completo"
     }
   ]
 }

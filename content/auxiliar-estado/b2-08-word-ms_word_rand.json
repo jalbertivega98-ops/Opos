@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-08-word-ms_word_rand-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.8 Procesadores de texto: Word 365",
+    "topic_slug": "age-aux-b2-08-word",
+    "locale": "es",
+    "category": "age_aux_b2_08_word",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Soporte · Cómo insertar texto de ejemplo en Word",
+      "url": "https://support.microsoft.com/es-es/office/c%C3%B3mo-insertar-texto-de-ejemplo-en-microsoft-office-word-0d648b7c-e2ac-41c4-aca0-bbe4dd676f87",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "Texto de ejemplo (=rand())",
+      "stem": "Si en Word se escribe la función =rand() sin parámetros para insertar texto de ejemplo, el número predeterminado de párrafos que aparece es:",
+      "options": [
+        "Uno.",
+        "Dos.",
+        "Tres.",
+        "Cinco."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, si se omiten los parámetros p y l, el número predeterminado de párrafos es tres.",
+      "excerpt": "Si omite los parámetros, el número predeterminado de párrafos es tres",
+      "excerpt_status": "completo"
+    }
+  ]
+}

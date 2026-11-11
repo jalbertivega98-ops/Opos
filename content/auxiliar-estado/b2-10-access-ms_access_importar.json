@@ -32,6 +32,21 @@
       "explanation": "Al vincular, los cambios en las celdas de origen de Excel aparecen en la tabla vinculada, pero en Access su contenido y estructura son de solo lectura. Al importar, en cambio, se guarda una copia.",
       "excerpt": "el contenido y la estructura de una tabla vinculada en Access son de solo lectura.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Importar desde Excel (una hoja cada vez)",
+      "stem": "Al importar en Access datos de un libro de Excel con varias hojas de cálculo:",
+      "options": [
+        "Se importan siempre todas las hojas del libro en una sola tabla.",
+        "Se crea automáticamente una tabla por cada hoja del libro.",
+        "Solo se puede importar la primera hoja del libro.",
+        "Solo se pueden importar los datos de una hoja de cálculo cada vez."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, se pueden importar datos solo desde una hoja de cálculo cada vez.",
+      "excerpt": "puede importar datos solo desde una hoja de cálculo cada vez.",
+      "excerpt_status": "completo"
     }
   ]
 }

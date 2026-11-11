@@ -47,6 +47,21 @@
       "explanation": "En la vista Presentación se ven los datos reales mientras se modifica el diseño (el formulario está en ejecución); la vista Diseño muestra la estructura con más detalle, sin ejecutar el formulario.",
       "excerpt": "En la vista Presentación, el formulario se encuentra en ejecución. […] El formulario no se encuentra en ejecución cuando se muestra en la vista Diseño.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Formularios · Dependiente e independiente",
+      "stem": "En Access, un formulario que está conectado directamente a un origen de datos, como una tabla o una consulta, se denomina:",
+      "options": [
+        "Formulario independiente.",
+        "Formulario dependiente.",
+        "Formulario dividido.",
+        "Subformulario de búsqueda."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El formulario dependiente está conectado directamente a un origen de datos (tabla o consulta); el independiente no está vinculado directamente a un origen de datos.",
+      "excerpt": "Un formulario dependiente está conectado directamente a un origen de datos, como una tabla o consulta",
+      "excerpt_status": "completo"
     }
   ]
 }

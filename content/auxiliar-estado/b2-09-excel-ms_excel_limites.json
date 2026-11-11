@@ -62,6 +62,51 @@
       "explanation": "La tabla de especificaciones indica que las hojas de un libro están limitadas a la memoria disponible y que, por defecto, un libro nuevo tiene 1 hoja.",
       "excerpt": "Hojas en un libro | Limitado a la memoria disponible (el valor predeterminado es 1 hoja)",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Especificaciones y límites de Excel (precisión)",
+      "stem": "Según las especificaciones y límites de Excel, la precisión numérica es de:",
+      "options": [
+        "10 dígitos.",
+        "32 dígitos.",
+        "15 dígitos.",
+        "64 dígitos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La tabla de límites de cálculo de Excel fija una precisión numérica de 15 dígitos.",
+      "excerpt": "Precisión numérica | 15 dígitos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Especificaciones y límites de Excel (funciones anidadas)",
+      "stem": "¿Cuántos niveles anidados de funciones admite como máximo una fórmula de Excel, según sus especificaciones?",
+      "options": [
+        "7",
+        "64",
+        "32",
+        "255"
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Excel admite 64 niveles anidados de funciones; 255 es el número máximo de argumentos de una función.",
+      "excerpt": "Niveles anidados de funciones | 64",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Especificaciones y límites de Excel (longitud de fórmula)",
+      "stem": "Según las especificaciones de Excel, la longitud máxima del contenido de una fórmula es de:",
+      "options": [
+        "8.192 caracteres.",
+        "255 caracteres.",
+        "1.024 caracteres.",
+        "32.767 caracteres."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La longitud del contenido de una fórmula está limitada a 8.192 caracteres; 32.767 es el máximo de caracteres de una celda.",
+      "excerpt": "Longitud del contenido de una fórmula | 8.192 caracteres",
+      "excerpt_status": "completo"
     }
   ]
 }

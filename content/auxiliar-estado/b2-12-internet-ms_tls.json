@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "age-aux-b2-12-internet-ms_tls-v1",
+    "exam": "auxiliar-administrativo-estado",
+    "topic": "II.12 La red Internet y los navegadores",
+    "topic_slug": "age-aux-b2-12-internet",
+    "locale": "es",
+    "category": "age_aux_b2_12_internet",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Cómo usa Exchange Online TLS para proteger las conexiones de correo",
+      "url": "https://learn.microsoft.com/es-es/purview/exchange-online-uses-tls-to-secure-email-connections",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Preguntas originales al estilo del primer ejercicio (4 opciones, una correcta, error −1/3), redactadas a partir del texto consolidado del BOE; no provienen de bancos de academias ni de exámenes. \"excerpt\" es el fragmento literal de la norma y \"ref\" el artículo."
+  },
+  "questions": [
+    {
+      "ref": "TLS · SSL",
+      "stem": "Según Microsoft, ¿qué protocolo criptográfico es el antecesor de TLS (seguridad de la capa de transporte)?",
+      "options": [
+        "DHCP (protocolo de configuración dinámica de host).",
+        "SSL (capa de sockets seguros).",
+        "DNS (sistema de nombres de dominio).",
+        "HTTP (protocolo de transferencia de hipertexto)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "TLS y la capa de sockets seguros (SSL), anterior a TLS, son protocolos criptográficos; DHCP, DNS y HTTP no lo son.",
+      "excerpt": "La seguridad de la capa de transporte (TLS) y la capa de sockets seguros (SSL) anteriores a TLS son protocolos criptográficos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

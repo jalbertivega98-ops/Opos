@@ -77,6 +77,21 @@
       "explanation": "Al terminar de crear la regla puede activarse la casilla que la ejecuta inmediatamente sobre los mensajes existentes de la carpeta actual.",
       "excerpt": "active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Reglas · Ejecución con Outlook activado",
+      "stem": "Según la advertencia de Microsoft sobre las reglas de Outlook:",
+      "options": [
+        "Todas las reglas se ejecutan en el servidor aunque Outlook esté cerrado.",
+        "Las reglas solo se aplican a los mensajes ya leídos.",
+        "Algunas reglas solo se ejecutarán cuando Outlook esté activado.",
+        "Una regla no puede mover mensajes a otra carpeta."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Microsoft advierte de que algunas reglas solo se ejecutarán cuando Outlook esté activado; si aparece esa advertencia, se selecciona Aceptar.",
+      "excerpt": "Algunas reglas solo se ejecutarán cuando Outlook esté activado.",
+      "excerpt_status": "completo"
     }
   ]
 }

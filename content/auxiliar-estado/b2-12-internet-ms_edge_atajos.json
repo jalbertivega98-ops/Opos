@@ -107,6 +107,186 @@
       "explanation": "Ctrl + Mayús + Supr abre las opciones para borrar los datos de exploración; la recarga sin caché es Ctrl + Mayús + R.",
       "excerpt": "Ctrl+Mayús+ Suprimir | Abrir las opciones de borrar los datos de exploración",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Nueva pestaña",
+      "stem": "En Microsoft Edge, ¿qué combinación de teclas abre una pestaña nueva y cambia a ella?",
+      "options": [
+        "Ctrl + N.",
+        "Ctrl + T.",
+        "Ctrl + W.",
+        "Ctrl + Mayús + T."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl + T abre una pestaña nueva y cambia a ella; Ctrl + N abre una ventana nueva, Ctrl + W cierra la pestaña actual y Ctrl + Mayús + T reabre la última pestaña cerrada.",
+      "excerpt": "Ctrl+T | Abrir una pestaña nueva y cambiar a ella",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Cerrar pestaña",
+      "stem": "¿Qué hace la combinación Ctrl + W en Microsoft Edge?",
+      "options": [
+        "Cierra la pestaña actual.",
+        "Abre una nueva ventana.",
+        "Guarda la pestaña actual como favorita.",
+        "Selecciona la URL de la barra de direcciones."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Ctrl + W cierra la pestaña actual; Ctrl + N abre una ventana nueva, Ctrl + D guarda la pestaña como favorita y Ctrl + L selecciona la URL.",
+      "excerpt": "Ctrl+W | Cerrar la pestaña actual",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Buscar en la página",
+      "stem": "En Microsoft Edge, para buscar una palabra dentro de la página que se está viendo se pulsa:",
+      "options": [
+        "Ctrl + E.",
+        "Ctrl + H.",
+        "Ctrl + Mayús + E.",
+        "Ctrl + F."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Ctrl + F abre la búsqueda en la página; Ctrl + E abre una consulta de búsqueda en la barra de direcciones, Ctrl + H el historial y Ctrl + Mayús + E la búsqueda en la barra lateral.",
+      "excerpt": "Ctrl+F | Abrir búsqueda en la página",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Imprimir",
+      "stem": "¿Qué método abreviado imprime la página actual en Microsoft Edge?",
+      "options": [
+        "Ctrl + U.",
+        "Ctrl + J.",
+        "Ctrl + P.",
+        "F12."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Ctrl + P imprime la página actual; Ctrl + U muestra el origen, Ctrl + J abre Descargas y F12 abre las Herramientas de desarrollo.",
+      "excerpt": "Ctrl+P | Imprimir la página actual",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Zoom",
+      "stem": "En Microsoft Edge, ¿qué combinación restablece el nivel de zoom de la página?",
+      "options": [
+        "Ctrl + 9.",
+        "Ctrl + 0.",
+        "Ctrl + signo menos (-).",
+        "Ctrl + signo más (+)."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Ctrl + 0 restablece el zoom; Ctrl + + acerca, Ctrl + - aleja y Ctrl + 9 pasa a la última pestaña.",
+      "excerpt": "Ctrl+0 | Restablecer nivel de zoom de página",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Barra de direcciones",
+      "stem": "En Microsoft Edge, ¿qué combinación selecciona la URL de la barra de direcciones para editarla?",
+      "options": [
+        "Ctrl + K.",
+        "Ctrl + L.",
+        "Ctrl + U.",
+        "F6."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ctrl + L selecciona la URL de la barra de direcciones; Ctrl + K abre una consulta de búsqueda en ella, Ctrl + U muestra el origen y F6 cambia el foco al siguiente panel.",
+      "excerpt": "Ctrl+L | Seleccionar la URL de la barra de direcciones para editarla",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Barra de favoritos",
+      "stem": "¿Qué método abreviado muestra u oculta la barra de favoritos en Microsoft Edge?",
+      "options": [
+        "Ctrl + Mayús + B.",
+        "Ctrl + Mayús + O.",
+        "Ctrl + Mayús + Y.",
+        "Ctrl + Mayús + U."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Ctrl + Mayús + B muestra u oculta la barra de favoritos; Ctrl + Mayús + O abre Favoritos, Ctrl + Mayús + Y abre Colecciones y Ctrl + Mayús + U inicia o detiene la lectura en voz alta.",
+      "excerpt": "Ctrl+Mayús+B | Mostrar u ocultar la barra de favoritos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Herramientas de desarrollo",
+      "stem": "En Microsoft Edge, la tecla F12:",
+      "options": [
+        "Activa o desactiva la pantalla completa.",
+        "Vuelve a cargar la pestaña actual.",
+        "Activa la exploración mediante el símbolo de intercalación.",
+        "Abre las Herramientas de desarrollo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "F12 abre las Herramientas de desarrollo; F11 alterna la pantalla completa, F5 recarga la pestaña y F7 activa la exploración mediante el símbolo de intercalación.",
+      "excerpt": "F12 | Abrir Herramientas de desarrollo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Volver atrás",
+      "stem": "¿Qué combinación permite volver a la página anterior en Microsoft Edge?",
+      "options": [
+        "Alt + Inicio.",
+        "Ctrl + Flecha izquierda.",
+        "Alt + Flecha izquierda.",
+        "Alt + F."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Alt + Flecha izquierda vuelve atrás; Alt + Inicio abre la página principal en la pestaña actual y Alt + F abre el menú Configuración y más.",
+      "excerpt": "Alt (en inglés)+Flecha izquierda | Volver atrás",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Omitir caché",
+      "stem": "En Microsoft Edge, ¿qué combinación vuelve a cargar la página actual omitiendo el contenido en caché?",
+      "options": [
+        "Ctrl + Mayús + R.",
+        "F5.",
+        "Ctrl + Mayús + T.",
+        "Ctrl + Mayús + Supr."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ctrl + Mayús + R recarga omitiendo la caché; F5 recarga la pestaña de forma normal, Ctrl + Mayús + T reabre la última pestaña cerrada y Ctrl + Mayús + Supr abre las opciones de borrar los datos de exploración.",
+      "excerpt": "Ctrl+Mayús+R | Volver a cargar la página actual y omitir el contenido en caché",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Exploración con símbolo de intercalación",
+      "stem": "¿Qué tecla activa o desactiva en Microsoft Edge la exploración mediante el símbolo de intercalación?",
+      "options": [
+        "F6.",
+        "F11.",
+        "F12.",
+        "F7."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "F7 activa o desactiva la exploración mediante el símbolo de intercalación; F6 cambia el foco al siguiente panel, F11 alterna la pantalla completa y F12 abre las Herramientas de desarrollo.",
+      "excerpt": "F7 | Activar o desactivar la exploración mediante el símbolo de intercalación",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Edge · Métodos abreviados · Última pestaña",
+      "stem": "En Microsoft Edge, con diez pestañas abiertas, ¿qué combinación pasa directamente a la última pestaña?",
+      "options": [
+        "Ctrl + 9.",
+        "Ctrl + 0.",
+        "Ctrl + 8.",
+        "Ctrl + Tab."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Ctrl + 9 pasa a la última pestaña; Ctrl + 1 a Ctrl + 8 pasan a una pestaña específica, Ctrl + Tab cambia a la siguiente y Ctrl + 0 restablece el zoom.",
+      "excerpt": "Ctrl+1, 2, ... 8 | Pasar a una pestaña específica […] Ctrl+9 | Pasar a la última pestaña",
+      "excerpt_status": "completo"
     }
   ]
 }

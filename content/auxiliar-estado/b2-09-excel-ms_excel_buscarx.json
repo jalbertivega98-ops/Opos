@@ -62,6 +62,21 @@
       "explanation": "BUSCARX trabaja con dos matrices separadas (la de búsqueda y la de devolución); BUSCARV necesita una única matriz de tabla y el número de la columna que se quiere devolver.",
       "excerpt": "BUSCARX usa una matriz de búsqueda y una matriz de devolución, […] mientras que BUSCARV usa una matriz de tabla única seguida de un número de índice de columna.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Función BUSCARX (coincidencia -1)",
+      "stem": "En la función BUSCARX, si el argumento modo_de_coincidencia toma el valor -1 y no se encuentra una coincidencia exacta, la función devuelve:",
+      "options": [
+        "El error #N/A.",
+        "El siguiente elemento más grande.",
+        "El último elemento de la matriz.",
+        "El siguiente elemento más pequeño."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Con -1 se busca coincidencia exacta y, si no la hay, se devuelve el siguiente elemento más pequeño; con 1, el siguiente más grande.",
+      "excerpt": "-1: coincidencia exacta. Si no se encuentra ninguna, devolver el siguiente elemento más pequeño.",
+      "excerpt_status": "completo"
     }
   ]
 }

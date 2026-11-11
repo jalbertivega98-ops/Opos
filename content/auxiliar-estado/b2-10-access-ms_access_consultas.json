@@ -62,6 +62,36 @@
       "explanation": "Microsoft indica: pestaña Diseño de consulta, grupo Resultados, Ejecutar. La pestaña Crear contiene Diseño de consulta para crearla, no para ejecutarla. En versiones anteriores de Access la pestaña se llamaba «Diseño».",
       "excerpt": "En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Consulta de totales",
+      "stem": "Según Microsoft, una consulta de totales en Access es:",
+      "options": [
+        "Una consulta de acción que actualiza los totales almacenados en la tabla.",
+        "Una consulta de datos anexados que suma registros de varias tablas.",
+        "Una consulta de selección que permite agrupar y resumir datos.",
+        "Una consulta de parámetros que pide al usuario el campo que se va a sumar."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La consulta de totales es una consulta de selección que permite agrupar y resumir datos; no modifica datos como las consultas de acción.",
+      "excerpt": "Una consulta de totales es una consulta de selección que permite agrupar y resumir datos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Crear una consulta",
+      "stem": "Para crear una consulta en vista Diseño en Access, ¿qué se selecciona?",
+      "options": [
+        "En la pestaña Crear, Diseño de consulta.",
+        "En la pestaña Datos externos, Diseño de consulta.",
+        "En la pestaña Inicio, Nueva consulta.",
+        "En la pestaña Herramientas de base de datos, Consultas."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Se abre la base de datos y, en la pestaña Crear, se hace clic en Diseño de consulta.",
+      "excerpt": "1. Abra la base de datos y, en la pestaña Crear, haga clic en Diseño de consulta.",
+      "excerpt_status": "completo"
     }
   ]
 }

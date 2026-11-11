@@ -32,6 +32,36 @@
       "explanation": "Las cadenas de consulta siempre se separan del resto de la URL mediante un signo de interrogación.",
       "excerpt": "Las cadenas de consulta siempre se separan del resto de la dirección URL mediante un signo de interrogación.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "HTTP · Puerto predeterminado",
+      "stem": "Si en una dirección URL no aparece el número de puerto:",
+      "options": [
+        "Se usa el puerto predeterminado para el esquema.",
+        "El explorador no puede enviar la solicitud.",
+        "El servidor asigna un puerto aleatorio.",
+        "Se usa el puerto indicado en la cadena de consulta."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, si el puerto no aparece en la lista, se usa el puerto predeterminado para el esquema.",
+      "excerpt": "Si el puerto no aparece en la lista, se usa el puerto predeterminado para el esquema.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "HTTP · Esquema",
+      "stem": "En una dirección URL, ¿qué parte indica al servidor en qué tipo de recurso está buscando el cliente?",
+      "options": [
+        "La cadena de consulta.",
+        "El puerto.",
+        "El esquema.",
+        "El nombre de dominio."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Según Microsoft, el esquema indica al servidor en qué tipo de recurso está buscando el cliente (el explorador); la cadena de consulta se separa con «?» y, si el puerto no aparece, se usa el predeterminado del esquema.",
+      "excerpt": "El esquema indica al servidor en qué tipo de recurso está buscando el cliente (el explorador).",
+      "excerpt_status": "completo"
     }
   ]
 }

@@ -32,6 +32,36 @@
       "explanation": "Pueden exportarse tablas, consultas, formularios o informes, de uno en uno; no se pueden exportar macros ni módulos a Excel.",
       "excerpt": "No puede exportar macros ni módulos a Excel.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Exportar a Excel (un objeto por operación)",
+      "stem": "Al exportar datos de Access a Excel, ¿cuántos objetos de base de datos pueden exportarse en cada operación de exportación?",
+      "options": [
+        "Hasta dos: una tabla y su consulta.",
+        "Solo uno.",
+        "Todos los objetos seleccionados en el panel de navegación.",
+        "Tantos como hojas tenga el libro de destino."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Solo puede exportarse un objeto de base de datos en cada operación de exportación (tablas, consultas, formularios o informes).",
+      "excerpt": "Solo puede exportar un objeto de base de datos en cada operación de exportación.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Exportar informes a Excel",
+      "stem": "Al exportar un informe de Access a Excel, ¿en qué formato de archivo se puede exportar?",
+      "options": [
+        "Solo en el nuevo formato *.xlsx.",
+        "Solo en el antiguo formato *.xls.",
+        "En *.xls o en *.xlsx, a elección del usuario.",
+        "Solo como archivo de texto delimitado (*.csv)."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Los informes solo se pueden exportar en el antiguo formato *.xls, no en el nuevo *.xlsx.",
+      "excerpt": "los informes solo se pueden exportar en el antiguo formato de archivo *.xls, no en el nuevo *.xlsx.",
+      "excerpt_status": "completo"
     }
   ]
 }
