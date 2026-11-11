@@ -318,6 +318,306 @@
       "explanation": "Cap comunicació és completa sense confirmació del receptor.",
       "excerpt": "Confirmar i validar sempre els missatges Cap comunicació està completa sense la confirmació del receptor, ja que si no la rep, l’emissor tornarà a repetir-la, perdent temps i ocupant el canal de manera inútil.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 3.2 Inici de la comunicació",
+      "stem": "Segons el manual de comunicacions per ràdio, amb quin marcador respon la unitat receptora quan ha escoltat la crida i està preparada per rebre el missatge?",
+      "options": [
+        "{CANVI I TALLO}.",
+        "{ESPERI}.",
+        "{ENDAVANT}, seguit de l'indicatiu de l'emissor.",
+        "{REPETEIXI}."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "{ENDAVANT} indica que s'està llest per escoltar; {ESPERI} demana mantenir la comunicació en espera, {REPETEIXI} demana repetir i {CANVI I TALLO} finalitza la conversa.",
+      "excerpt": "Quan la unitat receptora escolta la crida i està preparada per rebre el missatge, ha de respondre amb el marcador {ENDAVANT}, seguit de l’indicatiu de l’emissor",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 3.5.5 Comprovació d'emissora",
+      "stem": "Segons el manual de comunicacions per ràdio, en una comprovació d'emissora, què indica que el senyal es rep «cinc sobre cinc»?",
+      "options": [
+        "Que és inintel·ligible.",
+        "Que és perfectament intel·ligible (fort i clar).",
+        "Que s'entén, però amb dificultat.",
+        "Que hi ha cinc unitats escoltant el canal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El valor fa referència a la qualitat del senyal en una escala de l'1 (inintel·ligible) al 5 (perfectament intel·ligible); el 3 és intel·ligible amb dificultat.",
+      "excerpt": "El valor “cinc” fa referència a la qualitat del senyal. Escala d’1 a 5: […] Perfectament intel·ligible (fort i clar). El senyal es rep amb màxima claredat i sense problemes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § Annex 2 Codificació de missatges",
+      "stem": "Segons el manual de comunicacions per ràdio, què identifica el codi ZULU 6?",
+      "options": [
+        "Un ferit greu.",
+        "Un bomber ferit greu.",
+        "Els serveis sanitaris.",
+        "Una persona èxitus."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "ZULU 6 és persona èxitus; ZULU 5 és ferit greu, ZULU 55 bomber ferit greu i ZULU MIKE serveis sanitaris.",
+      "excerpt": "ZULU 6 Identifica persona èxitus",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 2.1 Elements bàsics de la comunicació",
+      "stem": "Segons el manual de comunicacions per ràdio, entre els elements bàsics de la comunicació, què és el canal?",
+      "options": [
+        "El mitjà físic pel qual es transmet el missatge.",
+        "El conjunt de signes i regles.",
+        "El contingut que es vol transmetre.",
+        "La situació en què es desenvolupa l'acte comunicatiu."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El canal és el mitjà físic; el codi és el conjunt de signes i regles, el missatge el contingut i el context la situació.",
+      "excerpt": "Canal: mitjà físic pel qual es transmet el missatge",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.1.1 Funcionament i cobertura",
+      "stem": "Segons el manual de comunicacions per ràdio, en quina tecnologia es basa la xarxa RESCAT?",
+      "options": [
+        "La telefonia mòbil 4G.",
+        "TETRA.",
+        "Ràdio analògica de cobertura local.",
+        "Wi-Fi."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "RESCAT utilitza TETRA, un estàndard dissenyat específicament per a serveis d'emergència; les ràdios van evolucionar dels models analògics als sistemes digitals TETRA.",
+      "excerpt": "La xarxa RESCAT es basa en la tecnologia TETRA, un estàndard específicament dissenyat per a serveis d’emergència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 2.5 Aspectes tècnics",
+      "stem": "Segons el manual de comunicacions per ràdio, a quina distància de la boca cal mantenir el micròfon?",
+      "options": [
+        "A uns 10-15 cm.",
+        "A uns 30 cm.",
+        "A 2 o 3 cm.",
+        "Enganxat als llavis."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El micròfon s'ha de mantenir a 2-3 cm de la boca, parlant de manera pausada.",
+      "excerpt": "Mantenir la distància del micròfon a 2 o 3 cm de la boca",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 3.5.3 Comunicacions en espera",
+      "stem": "Segons el manual de comunicacions per ràdio, si un emissor intenta establir contacte i no rep resposta immediata, quant ha d'esperar abans de repetir el missatge?",
+      "options": [
+        "Uns 30 segons.",
+        "Un parell de segons.",
+        "Cinc minuts.",
+        "No l'ha de repetir: ha de passar a trucada individual."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cal esperar 30 segons abans de repetir; el parell de segons és el temps entre prémer el PTT i començar a parlar.",
+      "excerpt": "Quan un emissor intenta establir contacte i no rep resposta immediata, ha d’esperar 30 segons abans de tornar a repetir el missatge",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 3.5.4 Silenci de ràdio",
+      "stem": "Segons el manual de comunicacions per ràdio, quan el cap d'intervenció ordena SILENCI DE RÀDIO, quins missatges es poden continuar transmetent?",
+      "options": [
+        "Cap missatge, ni tan sols els operatius.",
+        "Només les comprovacions d'emissora.",
+        "Qualsevol missatge breu, encara que no sigui operatiu.",
+        "Només els estrictament operatius."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El silenci de ràdio limita les comunicacions a l'estrictament operatiu per evitar la saturació del canal en moments crítics.",
+      "excerpt": "En moments crítics, el cap d’intervenció o un comandament pot ordenar silenci de ràdio, amb excepció dels missatges estrictament operatius.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 2.6.2 Prioritzar els missatges",
+      "stem": "Segons el manual de comunicacions per ràdio, quins missatges tenen la màxima prioritat?",
+      "options": [
+        "Els aspectes operatius (maniobres, estratègia, recursos).",
+        "Els relatius a la seguretat de les persones (víctimes, bombers, civils).",
+        "Les informacions o gestions no operatives.",
+        "Els que emet la unitat de més rang, sigui quin sigui el contingut."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'ordre és: 1) seguretat de les persones, 2) aspectes operatius, 3) informacions o gestions no operatives.",
+      "excerpt": "Els missatges s’han de classificar i ordenar segons aquesta jerarquia: 1. Seguretat de les persones (víctimes, bombers, civils)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 2.6.1 Principi +1/-1",
+      "stem": "Segons el principi de cadena i línia de comandament (+1/-1) del manual de comunicacions per ràdio, a qui es poden donar ordres?",
+      "options": [
+        "A qualsevol unitat que escolti el canal.",
+        "Al comandament immediatament superior.",
+        "Només al personal que depèn directament de qui les dona.",
+        "A totes les unitats de l'agrupació de parcs."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Amb el +1 es comunica i informa al comandament directe; amb el -1 només es donen ordres al personal que en depèn directament.",
+      "excerpt": "Comunicar/informar amb el comandament directe (+1). […] Només donar ordres al personal que depèn directament de mi (-1).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 4.3.1 Canal de trànsit",
+      "stem": "Segons el manual de comunicacions per ràdio, en una gran emergència, quina és la funció del canal de trànsit?",
+      "options": [
+        "Descongestionar el canal de servei de les comunicacions de les unitats que estan en camí.",
+        "Ser la «columna vertebral» del comandament operatiu.",
+        "Gestionar la coordinació interna d'un sector.",
+        "Permetre comunicacions de proximitat sense repetidors."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El canal de trànsit agrupa els vehicles que es desplacen cap a la intervenció; la «columna vertebral» és el canal del servei, i hi ha canals de sector i directe per a les altres funcions.",
+      "excerpt": "Funció: Descongestionar el canal de servei de les comunicacions entre les unitats que estan en camí.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.2.2 Mode Directe",
+      "stem": "Segons el manual de comunicacions per ràdio, quina limitació té el mode directe dels transceptors?",
+      "options": [
+        "Necessita cobertura de la xarxa RESCAT.",
+        "Totes les comunicacions passen per les antenes repetidores (TBS).",
+        "No es pot fer servir en interiors.",
+        "No permet enviar la posició GPS ni missatges SDS."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El mode directe no depèn de la xarxa ni de repetidors i és ideal en interiors, però no permet enviar posicions GPS ni SDS.",
+      "excerpt": "No depèn de la xarxa ni de repetidors […] Ideal per a comunicacions curtes o en interiors […] No permet enviar posició GPS ni missatges SDS",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.3.4 Trucada telefònica",
+      "stem": "Segons el manual de comunicacions per ràdio, sobre la trucada telefònica en mode xarxa, és correcte afirmar que:",
+      "options": [
+        "La poden iniciar tots els transceptors portàtils.",
+        "Es pot fer també en mode directe, sense cobertura.",
+        "Mentre dura, es continuen rebent els missatges del canal operatiu.",
+        "Només la poden iniciar els terminals amb permisos especials i, mentre dura, no es reben missatges de canal."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Permet parlar amb un telèfon fix o mòbil, però només amb permisos especials, i aïlla el terminal de les comunicacions de canal, com la trucada individual.",
+      "excerpt": "Només els terminals amb permisos especials poden iniciar-la. […] Nota: Igual que en la trucada individual, durant la trucada telefònica no es reben missatges de canal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 3.5.1 Números i coordenades",
+      "stem": "Segons el manual de comunicacions per ràdio, com s'han de transmetre unes coordenades o uns graus?",
+      "options": [
+        "Dient cada número per separat, amb una pausa entre cada un (per exemple, «u-cinc-zero» per 150).",
+        "Dient el nombre sencer d'una tirada («cent cinquanta»).",
+        "Sempre per missatge SDS, mai per veu.",
+        "Lletrejant cada xifra amb l'alfabet radiofònic internacional."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els valors numèrics es diuen dígit per dígit o en parelles, i en coordenades o graus cada número per separat; l'alfabet radiofònic és per a lletres.",
+      "excerpt": "Quan es transmeten valors numèrics (com graus, coordenades o números de telèfon) s’han de dir dígit per dígit o en parelles segons el context, fent una pausa entre cada un, per assegurar la comprensió. Es recomana dir cada número per separat si es tracta de coordenades o graus. […] pronunciar dígits separats (“u-cinc-zero” per 150).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § Annex 1 Marcadors estàndard",
+      "stem": "Segons el manual de comunicacions per ràdio, quin marcador s'utilitza per corregir una informació que s'ha donat abans de forma errònia?",
+      "options": [
+        "REPETEIXI.",
+        "RECTIFICO.",
+        "RECEPCIÓ NEGATIVA.",
+        "INTERROGO."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "RECTIFICO corregeix una informació errònia; REPETEIXI demana repetir, RECEPCIÓ NEGATIVA comunica que no s'ha rebut bé i INTERROGO inicia una pregunta.",
+      "excerpt": "RECTIFICO Comunica que es corregeix una informació anterior que s’ha donat de forma errònia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.4.1 Pont ràdio",
+      "stem": "Segons el manual de comunicacions per ràdio, sobre el mode Pont Ràdio, és correcte afirmar que:",
+      "options": [
+        "Es pot combinar amb el mode Repetidor al mateix canal.",
+        "Hi pot haver diversos ponts actius al mateix canal i zona.",
+        "El terminal que fa de pont només retransmet i no pot participar activament en la conversa.",
+        "Serveix per connectar dos terminals en mode directe sense cap enllaç amb la xarxa."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El pont enllaça un canal directe amb un de xarxa; només retransmet, n'hi pot haver un per canal i zona i no es combina amb el repetidor. Enllaçar terminals en mode directe fora d'abast és la funció del repetidor.",
+      "excerpt": "El terminal que actua com a pont no pot participar activament en la conversa, només retransmet. […] Només pot haver-hi un sol pont actiu per canal i zona. […] No es pot combinar amb el mode Repetidor.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.4.2 Mode repetidor",
+      "stem": "En un rescat en zona muntanyosa sense cobertura de la xarxa RESCAT, dos equips treballen en mode directe i els seus terminals no es poden comunicar entre ells. Segons el manual de comunicacions per ràdio, quina és la solució indicada?",
+      "options": [
+        "Posicionar un terminal en mode repetidor en un punt elevat perquè faci d'enllaç.",
+        "Passar a mode xarxa i fer una trucada individual entre els caps d'equip.",
+        "Fer una trucada telefònica des d'un dels transceptors.",
+        "Activar alhora un pont ràdio i un repetidor al mateix canal."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El repetidor amplia l'abast del mode directe entre terminals que no es veuen; sense cobertura no es pot treballar en mode xarxa (trucades individuals o telefòniques), i el repetidor no es pot activar amb un pont ràdio al mateix canal.",
+      "excerpt": "Exemple: En un rescat en zona muntanyosa, si els terminals de dos equips no es poden comunicar directament, es pot posicionar un terminal en mode repetidor en un punt elevat per fer d’enllaç.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.3.8 Trucada d'emergència en mode directe",
+      "stem": "Un bomber que treballa en mode directe dins d'una estructura activa la trucada d'emergència. Segons el manual de comunicacions per ràdio, quina limitació té aquesta trucada?",
+      "options": [
+        "No té prioritat sobre les altres comunicacions del canal directe.",
+        "No arriba a la sala de control ni activa serveis centralitzats.",
+        "Només la poden escoltar els terminals amb permisos especials.",
+        "Interromp les comunicacions de tots els canals de l'agrupació."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "És de màxima prioritat dins del canal directe, però, en no passar per la xarxa, no arriba a la sala de control.",
+      "excerpt": "Limitació: Aquesta emergència no arriba a la sala de control, ni activa serveis centralitzats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.1 Característiques de la xarxa Rescat",
+      "stem": "Segons el manual de comunicacions per ràdio, sobre les característiques de la xarxa RESCAT, indica la resposta INCORRECTA:",
+      "options": [
+        "Disposa de sistemes d'alimentació alternatius en cas de tall elèctric.",
+        "Permet localitzar terminals i vehicles sobre el territori.",
+        "Té una cobertura superior a la de la telefonia convencional.",
+        "Es veu afectada per la saturació de les xarxes mòbils en grans emergències."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "RESCAT no es veu afectada per la saturació de les xarxes mòbils; la resta són avantatges que recull el manual.",
+      "excerpt": "No es veu afectada per la saturació de les xarxes mòbils en grans emergències o esdeveniments amb molta població. […] Disposa de sistemes d’alimentació alternatius, fet que permet una continuïtat operativa en cas de tall de subministrament elèctric. […] Permet localitzar terminals i vehicles sobre el territori […] Té una cobertura extensa, superior a la de la telefonia convencional",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.COMU.000, § 5.5 Recomanacions operatives",
+      "stem": "Segons les recomanacions operatives del manual de comunicacions per ràdio, per què no s'han de fer trucades individuals o telefòniques durant una maniobra?",
+      "options": [
+        "Perquè esgoten la bateria del terminal en pocs minuts.",
+        "Perquè interrompen sempre la trucada d'emergència dels altres terminals.",
+        "Perquè aïllen el terminal de les comunicacions de grup i deixen el bomber incomunicat del seu entorn operatiu.",
+        "Perquè només es poden fer en mode directe i tenen poc abast."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Mentre dura una trucada individual o telefònica no es reben les comunicacions de canal; per això s'han de limitar a moments de calma, coordinats i autoritzats.",
+      "excerpt": "Les trucades individuals o telefòniques aïllen el terminal de les comunicacions de grup, deixant el bomber incomunicat respecte al seu entorn operatiu. […] mai no s’han d’emprar quan s’està executant una maniobra o durant una emergència en curs.",
+      "excerpt_status": "completo"
     }
   ]
 }

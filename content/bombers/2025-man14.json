@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "bombexamen-2025-man14-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Examen rèplica 81/25 (bomber/a de primera, prova de coneixements)",
+    "topic_slug": "bombexamen-2025",
+    "locale": "ca",
+    "category": "bombexamen_2025",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Cos de Bombers de la Generalitat · MAN.GRAL.002 Manual operatiu bàsic de cartografia i orientació (Guia orientativa d'estudi, convocatòria 81/26)",
+      "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+      "kind": "web_oficial",
+      "publisher": "Generalitat de Catalunya · Departament d'Interior i Seguretat Pública (DGPEIS)",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Rèplica 81/25 (cf. 13) · MAN.GRAL.002, § 2.3.2 i 3.1",
+      "stem": "En un mapa a escala 1:50.000, el punt B es troba exactament al sud del punt A, a 6 cm de distància sobre el paper. Quin rumb (azimut) has de seguir per anar d'A a B i quina distància real hi ha?",
+      "options": [
+        "0° i 3 km.",
+        "180° i 3 km.",
+        "180° i 30 km.",
+        "90° i 300 m."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "L'azimut és l'angle respecte al nord: el sud, sentit oposat al nord, queda a 180°. Distància: 6 cm × 50.000 = 300.000 cm = 3.000 m = 3 km.",
+      "excerpt": "Escala numèrica: Es presenta en forma de fracció o ràtio (per exemple, 1:25.000). Això vol dir que 1 unitat de mesura al mapa (1 cm, 1 mm, etc.) equival a 25.000 de la mateixa unitat al terreny. […] La direcció es defineix mitjançant l'azimut, que és l'angle respecte al nord.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

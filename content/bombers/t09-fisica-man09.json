@@ -318,6 +318,306 @@
       "explanation": "El moment d'inèrcia és l'anàleg rotacional de la massa: la massa s'oposa als canvis de velocitat lineal i el moment d'inèrcia, als de velocitat de rotació.",
       "excerpt": "Mentre que la massa dona idea de la resistència d'un cos a canviar la seva velocitat lineal, el moment d'inèrcia mesura la resistència d'un cos a modificar la seva velocitat de rotació.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § altres unitats i equivalències",
+      "stem": "Un vehicle circula a 54 km/h. Segons les equivalències del manual de Física, a quina velocitat va expressada en m/s?",
+      "options": [
+        "A 5,4 m/s.",
+        "A 19,4 m/s.",
+        "A 15 m/s.",
+        "A 194 m/s."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Com que 1 m/s = 3,6 km/h, cal dividir: 54 / 3,6 = 15 m/s. Multiplicar (54 · 3,6 ≈ 194) seria l'error típic.",
+      "excerpt": "1 m/s = 3,6 km/h",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § altres unitats i equivalències",
+      "stem": "Un manòmetre marca 4 bar. Segons l'equivalència pràctica del manual de Física, a quants metres de columna d'aigua (mca) correspon aproximadament?",
+      "options": [
+        "A uns 4 mca.",
+        "A uns 40 mca.",
+        "A uns 400 mca.",
+        "A uns 0,4 mca."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "A la pràctica 1 bar ≈ 10 mca, per tant 4 bar ≈ 4 · 10 = 40 mca (amb l'equivalència exacta, 10,2 mca/bar, serien 40,8 mca).",
+      "excerpt": "A la pràctica es fa l’equivalència aproximada d’1 bar ≈ 1 kg/cm 2 ≈ 10 mca.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § altres unitats i equivalències",
+      "stem": "Segons les equivalències del manual de Física, a quants kelvin equivalen 25 °C?",
+      "options": [
+        "A 248 K.",
+        "A 25 K.",
+        "A 273 K.",
+        "A 298 K."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "T(K) = T(°C) + 273 = 25 + 273 = 298 K.",
+      "excerpt": "T(K) = T(ºC) + 273",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § càlcul d'àrees i volums",
+      "stem": "Un dipòsit de base rectangular de 2 m × 2 m i 1 m d'alçada és ple d'aigua. Seguint l'exemple del manual de Física, quina massa d'aigua conté?",
+      "options": [
+        "4.000 kg.",
+        "400 kg.",
+        "40.000 kg.",
+        "4 kg."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "V = 2 · 2 · 1 = 4 m³; amb una densitat de 1.000 kg/m³, la massa és 4 · 1.000 = 4.000 kg.",
+      "excerpt": "Sabent que la densitat de l'aigua és de 1000 kg/m 3",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § prefixos del SI",
+      "stem": "Segons els prefixos del SI del manual de Física, a quants kilowatts equival 1 megawatt?",
+      "options": [
+        "A 100 kW.",
+        "A 10 kW.",
+        "A 1.000.000 kW.",
+        "A 1.000 kW."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Mega = 10⁶ i kilo = 10³, per tant 1 MW = 1.000.000 W = 1.000 kW.",
+      "excerpt": "1 MW = 1×1.000.000 W = 1.000.000 W = 1.000 kW",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § fregament i adherència",
+      "stem": "Segons el manual de Física, com és normalment el coeficient de fregament estàtic (μs) respecte al dinàmic (μd)?",
+      "options": [
+        "Més petit: costa menys arrencar que mantenir el moviment.",
+        "Més gran: costa més arrencar un objecte que mantenir-lo en moviment.",
+        "Sempre exactament igual.",
+        "Negatiu, perquè afavoreix el moviment."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El fregament estàtic s'oposa a l'inici del moviment i el dinàmic actua quan el cos ja es mou; el dinàmic és generalment inferior.",
+      "excerpt": "sent normalment μs > μd (costa arrancar, un cop en moviment fa falta menys força).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § llei fonamental de la dinàmica",
+      "stem": "Un vehicle de 1.500 kg accelera a 2 m/s². Segons la llei fonamental de la dinàmica del manual de Física, quina força neta hi actua?",
+      "options": [
+        "750 N.",
+        "1.502 N.",
+        "3.000 N.",
+        "30.000 N."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "F = m · a = 1.500 kg · 2 m/s² = 3.000 N.",
+      "excerpt": "La fórmula és: F= m.a",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § quantitat de moviment",
+      "stem": "Segons el manual de Física, quina quantitat de moviment té un vehicle de 2.000 kg que circula a 15 m/s?",
+      "options": [
+        "30.000 kg·m/s.",
+        "133 kg·m/s.",
+        "2.015 kg·m/s.",
+        "225.000 kg·m/s."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "p = m · v = 2.000 · 15 = 30.000 kg·m/s. El valor 225.000 correspondria a l'energia cinètica en joules (½ · 2.000 · 15²), que és una altra magnitud.",
+      "excerpt": "Es defineix com el producte de la massa per la velocitat: p=m·v",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § potència",
+      "stem": "Per pujar el material a un segon pis es fa un treball de 3.000 J en 10 s. Segons el manual de Física, quina potència s'ha desenvolupat?",
+      "options": [
+        "30.000 W.",
+        "3 W.",
+        "30 W.",
+        "300 W."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "P = W / t = 3.000 J / 10 s = 300 W. Si el mateix treball es fes en menys temps, la potència seria més gran.",
+      "excerpt": "Com el treball (J) realitzat dividit pel temps (s), o com la força (N) per la velocitat (m/s). La potència es mesura en watts (W).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § fregament i adherència",
+      "stem": "Una càrrega fa una força normal de 2.000 N sobre el terra i el coeficient de fregament és 0,5. Segons el manual de Física, quina és la força de fregament?",
+      "options": [
+        "4.000 N.",
+        "2.000,5 N.",
+        "1.000 N.",
+        "400 N."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Ff = μ · FN = 0,5 · 2.000 = 1.000 N.",
+      "excerpt": "la força de fregament (Ff) és el producte de la força normal pel coeficient de fregament",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § llei de la palanca",
+      "stem": "Amb una pota de cabra apliques 50 N a 1 m del fulcre i la resistència és a 0,1 m del fulcre. Segons la llei de la palanca del manual de Física, quina força de sortida obtens?",
+      "options": [
+        "500 N.",
+        "5 N.",
+        "50 N.",
+        "5.000 N."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Fin · din = Fout · dout → 50 · 1 = Fout · 0,1 → Fout = 50 / 0,1 = 500 N (avantatge mecànic 10).",
+      "excerpt": "Fin ⋅ d in = Fout ⋅ d out",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § torn",
+      "stem": "En un torn, la manovella té un radi de 30 cm i el tambor, de 5 cm. Si apliques 100 N a la manovella, quina força obtens al cable segons el manual de Física, sense comptar el fregament?",
+      "options": [
+        "150 N.",
+        "600 N.",
+        "3.000 N.",
+        "17 N."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El torn funciona com una palanca: Fin · R = Fout · r, i AM = R / r = 30 / 5 = 6; per tant, 100 N · 6 = 600 N.",
+      "excerpt": "el radi de la manovella (R) és el braç de la força aplicada i el del tambor (r) és el braç de la resistència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § teorema de Pitàgores",
+      "stem": "Cal arribar a una finestra a 8 m d'alçada amb la base de l'escala a 6 m de la paret. Segons el teorema de Pitàgores del manual de Física, quina longitud mínima ha de tenir l'escala?",
+      "options": [
+        "10 m.",
+        "14 m.",
+        "12 m.",
+        "9 m."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "l² = 8² + 6² = 64 + 36 = 100, per tant l = 10 m (és el triangle 6-8-10, múltiple del 3-4-5).",
+      "excerpt": "El teorema estableix que el quadrat de la hipotenusa (el costat més llarg del triangle, c) és igual a la suma dels quadrats dels altres dos costats (els catets, a i b).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § politges (polispast)",
+      "stem": "En un polispast ideal, una càrrega de 800 N penja de 4 trams de corda. Segons el manual de Física, quina força cal fer a la corda per aguantar-la?",
+      "options": [
+        "800 N.",
+        "3.200 N.",
+        "400 N.",
+        "200 N."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La tensió és la mateixa a tota la corda i la càrrega es reparteix entre els 4 trams: 800 / 4 = 200 N (a canvi, cal recollir 4 vegades més corda).",
+      "excerpt": "sabent que la tensió a la corda és la mateixa per tota la corda, és fàcil veure la força resultant mirant de quants trams de corda penja la càrrega.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § energia potencial",
+      "stem": "Un bomber treballa a 20 m sobre el carrer amb un martell de 2 kg. Segons el manual de Física (g = 9,8 m/s²), quina energia potencial té el martell respecte al carrer?",
+      "options": [
+        "40 J.",
+        "392 J.",
+        "196 J.",
+        "22 J."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Ep = m · g · h = 2 · 9,8 · 20 = 392 J. Si la referència fos el terra de la cistella, l'alçada i l'energia serien molt més petites.",
+      "excerpt": "L’energia potencial gravitacional és l'energia que té un objecte a causa de la seva alçada. […] g és l’acceleració de la gravetat terrestre, 9,8 m/s 2",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § treball",
+      "stem": "Remolques un vehicle 10 m amb una eslinga que tiba amb 2.000 N formant 60° amb la direcció del desplaçament. Segons el manual de Física (cos 60° = 0,5), quin treball fas?",
+      "options": [
+        "20.000 J.",
+        "1.000 J.",
+        "10.000 J.",
+        "17.320 J."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Només treballa la component en la direcció del moviment: Fx = 2.000 · cos 60° = 1.000 N; W = 1.000 · 10 = 10.000 J. 20.000 J seria ignorar l'angle i 17.320 J, usar el sinus.",
+      "excerpt": "només la component de la força projectada en la direcció del moviment és la que realitza treball […] Fx = 1000 · cos (60º)= 1000 · 0,5= 500 N.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § pla inclinat",
+      "stem": "Has de pujar una càrrega de 800 N per una rampa de 6 m de llarg fins a 1,5 m d'alçada. Segons el manual de Física, sense fregament, quina força cal aplicar?",
+      "options": [
+        "200 N.",
+        "3.200 N.",
+        "533 N.",
+        "800 N."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "AM = L / h = 6 / 1,5 = 4; F = P · h / L = 800 / 4 = 200 N. Amb fregament caldria sumar-hi la força per vèncer-lo.",
+      "excerpt": "L'avantatge mecànic (AM) d'un pla inclinat és la relació entre la força que hauríem de fer per aixecar-lo (el pes de l'objecte) i la força que fem realment per moure'l. […] Això significa que com més llarg és el pla inclinat respecte a la seva alçada, més gran és l'avantatge mecànic i menys força s'ha d'aplicar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § trigonometria bàsica",
+      "stem": "El braç d'una autoescala de 20 m forma 30° amb el terra horitzontal. Segons el manual de Física (sin 30° = 0,5), a quina alçada arriba l'extrem del braç respecte a la base del braç?",
+      "options": [
+        "A 17,3 m.",
+        "A 20 m.",
+        "A 10 m.",
+        "A 40 m."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "L'alçada és el costat oposat i el braç, la hipotenusa: alçada = 20 · sin 30° = 20 · 0,5 = 10 m. 17,3 m sortiria d'usar el cosinus (distància horitzontal).",
+      "excerpt": "Utilitzem el sinus, ja que relaciona el costat oposat (alçada) amb la hipotenusa (braç de l'escala). […] sin α 0 √1 2 = 0,5",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § conservació de la quantitat de moviment",
+      "stem": "Un camió de 8.000 kg a 10 m/s xoca per darrere amb un cotxe aturat de 2.000 kg i queden enganxats. Segons el principi de conservació de la quantitat de moviment del manual de Física, sense forces externes, a quina velocitat es mou el conjunt just després del xoc?",
+      "options": [
+        "A 10 m/s.",
+        "A 5 m/s.",
+        "A 12,5 m/s.",
+        "A 8 m/s."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "p inicial = 8.000 · 10 + 2.000 · 0 = 80.000 kg·m/s; massa final 10.000 kg; v = 80.000 / 10.000 = 8 m/s.",
+      "excerpt": "la quantitat de moviment total del sistema es manté constant abans i després d'un esdeveniment, com un xoc.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.003, § estàtica",
+      "stem": "Segons el manual de Física, l'autoescala no bolcarà mentre es compleixin unes condicions. Indica la INCORRECTA.",
+      "options": [
+        "Que la vertical del centre de masses caigui dins la base de recolzament.",
+        "Que els estabilitzadors del costat contrari de la cistella es descarreguin completament (R1 = 0).",
+        "Que el moment de bolcada no sigui superior al moment d'antibolcada.",
+        "Que el terra no cedeixi i sigui capaç de suportar la força de reacció."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La condició és justament la contrària: els estabilitzadors del costat contrari a la cistella no s'han de descarregar completament. Les altres tres són condicions d'estabilitat del manual.",
+      "excerpt": "Els estabilitzadors del costat contrari de la cistella no es descarreguin completament (R1=0).",
+      "excerpt_status": "completo"
     }
   ]
 }

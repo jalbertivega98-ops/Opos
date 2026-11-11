@@ -318,6 +318,306 @@
       "explanation": "Amb certa visibilitat i risc baix es pot avançar amb el tronc inclinat; amb visibilitat nul·la, rastreig total.",
       "excerpt": "Progressió en rastreig total (amb tres punts de recolzament): utilitzat quan la visibilitat és nul·la i hi ha acumulació de calor o risc elevat.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 3.3.1 Color del fum",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, què indica habitualment un fum negre o negre fosc?",
+      "options": [
+        "Vapor d'aigua en fase de control o extinció.",
+        "Un foc de materials orgànics ben ventilat.",
+        "Una combustió incompleta, típica de materials plàstics, sintètics o petroquímics, sovint amb deficiència d'oxigen.",
+        "Restes d'un incendi ja extingit."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El fum negre s'associa a incendis no ventilats; el blanc dens i fred pot ser vapor d'aigua, i el lleuger i transparent, restes d'un incendi extingit.",
+      "excerpt": "Fum negre fosc o negre: indica combustió incompleta, típic de materials plàstics, sintètics o petroquímics. Sol associar-se a espais amb deficiència d’oxigen (incendi no ventilat).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 2.2.8 Nomenclatura de façanes",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, on se situa la façana D d'una estructura?",
+      "options": [
+        "A la dreta respecte de la façana A.",
+        "A l'esquerra respecte de la façana A.",
+        "Oposada a la façana A.",
+        "Sempre a la façana nord."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Les façanes s'ordenen en sentit horari: B a l'esquerra, C oposada i D a la dreta de la façana A.",
+      "excerpt": "Façana D: situada a la dreta respecte la façana A.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.4.2 Antiventilació",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, en què consisteix l'antiventilació?",
+      "options": [
+        "En obrir simultàniament finestres a diverses façanes.",
+        "En mantenir els espais tancats, evitant qualsevol aportació d'aire exterior fins que l'atac interior estigui preparat.",
+        "En introduir aire net amb ventiladors per fer sobrepressió.",
+        "En extreure fums des de l'interior amb mitjans hidràulics."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Es busca limitar l'aportació d'aire que pugui inflamar els gasos calents; és útil en focs latents o no ventilats.",
+      "excerpt": "Es tracta de mantenir els espais tancats, evitant voluntàriament qualsevol aportació d’aire exterior fins que l’atac interior estigui preparat per actuar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.4 Codi vermell",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, quin equip s'activa amb el codi vermell per fer la recerca i extracció del personal en perill?",
+      "options": [
+        "L'equip de ventilació.",
+        "El grup sanitari extern.",
+        "El punt de control d'accés.",
+        "L'equip SOS."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El codi vermell s'activa quan un binomi pateix una incidència greu: comunicació immediata, activació de l'equip SOS i preparació del personal a l'exterior.",
+      "excerpt": "Activació d’un equip de rescat (anomenat equip SOS) amb la missió de fer la recerca i extracció del personal en perill.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.5 Equip de treball en binomi",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, quina pauta cal seguir amb el treball en binomi?",
+      "options": [
+        "Es pot desfer un cop localitzat el focus.",
+        "Es recomana passar a equips de tres a l'interior.",
+        "S'ha de mantenir tota la intervenció, sense formar equips de tres ni canviar el binomi sense autorització.",
+        "Només és obligatori en la fase de ventilació."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El binomi és el criteri bàsic de seguretat per a totes les accions en interiors.",
+      "excerpt": "El treball en binomi ha de ser mantingut al llarg de tota la intervenció. No s’han de formar equips de tres, ni canviar el binomi sense autorització.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.2.1 Zona lliure davant de façana principal",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, davant de quina façana és imprescindible crear i mantenir una zona lliure?",
+      "options": [
+        "Davant de la façana A (principal).",
+        "Davant de la façana C.",
+        "Davant de la façana més allunyada del foc.",
+        "Davant de qualsevol façana sense finestres."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Aquesta zona permet emplaçar els vehicles (especialment les AEA), fer salvaments per autoescala i protegir les vies d'evacuació.",
+      "excerpt": "És imprescindible crear i mantenir una zona lliure davant de la façana A (principal) de l’edifici.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.1.3 Cabal operatiu",
+      "stem": "Segons els cabals genèrics del manual d'intervenció bàsica en incendis estructurals, quants litres d'aigua aplica aproximadament una línia de 45 mm en 5 minuts de funcionament continu?",
+      "options": [
+        "Uns 1.250 litres.",
+        "Uns 2.000 litres.",
+        "Uns 80 litres.",
+        "Uns 20.000 litres."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Línia de 45 mm ≈ 400 l/min → 400 × 5 = 2.000 l (1.250 l correspondrien a una línia de 25 mm, a 250 l/min).",
+      "excerpt": "Tipus de línia: Línies de 25 mm aporten 250 l/min i les línies de 45 mm sobre 400 l/min, de forma genèrica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.1.3 Cabal operatiu",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, quin efecte pot provocar un cabal excessiu no justificat?",
+      "options": [
+        "Que els gasos calents no es refredin i hi hagi risc d'ignició.",
+        "Augmentar el confort tèrmic dels bombers.",
+        "Facilitar la maniobrabilitat del binomi.",
+        "Saturar l'espai i desplaçar fums a altres zones (efecte pistó)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El risc d'ignició per gasos no refredats és propi del cabal insuficient; el cabal excessiu també dificulta la maniobrabilitat i genera danys i vapor.",
+      "excerpt": "Saturar l’espai i provocar desplaçament de fums a altres zones (efecte pistó)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.2.2 Zona calenta",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, com es delimita la zona calenta en un incendi d'habitatge o edifici convencional?",
+      "options": [
+        "Amb el doble de l'alçada de la façana.",
+        "Amb un radi de 15 m al voltant de l'entrada i la projecció de l'incendi a la façana.",
+        "Amb un radi de 100 m al voltant de l'edifici.",
+        "Amb un radi de 5 m al voltant del vehicle autobomba."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El doble de l'alçada de la façana s'aplica a les naus industrials; en habitatges, 15 m al voltant de l'entrada i de la projecció a façana.",
+      "excerpt": "En habitatges o edificis convencionals: radi de 15 m al voltant de l’entrada i projecció de l’incendi a la façana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.4.3 Ventilació VPP",
+      "stem": "En un incendi estructural, abans de posar en marxa un ventilador de pressió positiva (VPP), què cal tenir clarament identificat segons el manual?",
+      "options": [
+        "El punt de sortida del fum.",
+        "El nombre de plantes sota rasant.",
+        "La ubicació del quadre elèctric general.",
+        "La direcció del vent en alçada."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La VPP mai no s'ha d'aplicar sense un punt de sortida de fums establert, ni dirigida directament al focus.",
+      "excerpt": "Mai no s’ha d’aplicar si no s’ha identificat clarament el punt de sortida del fum.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.4.4 Ventilació per pressió negativa",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, sobre la ventilació per pressió negativa (VPN), indica la resposta INCORRECTA:",
+      "options": [
+        "No presenta risc de dispersió dels fums a locals no afectats.",
+        "És simple i ràpida d'implementar si s'aprofiten les instal·lacions ja muntades.",
+        "Es pot utilitzar en soterranis.",
+        "Només ofereix bona extracció amb gasos més lleugers que l'aire."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El manual diu el contrari: la VPN fa una bona extracció amb gasos més pesants que l'aire.",
+      "excerpt": "No presenta cap risc de dispersió dels fums a locals no afectats per l’incendi. − És simple i ràpida d'implementar si aprofitem les instal·lacions ja muntades. − Ofereix pocs riscos induïts. − Bona extracció amb gasos més pesants que l’aire. − Es pot utilitzar en soterranis.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.7.2 Fases de l'entrada segura",
+      "stem": "En la tècnica d'entrada segura en un recinte incendiat, què es fa en la fase d'obertura parcial, segons el manual?",
+      "options": [
+        "Obrir la porta del tot i entrar ràpidament amb raig tens.",
+        "Trencar una finestra per ventilar abans d'obrir.",
+        "Obrir la porta només uns centímetres i fer una polvorització curta cap al sostre per refredar la capa de gasos.",
+        "Aplicar aigua directament al terra del recinte durant un minut."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'obertura parcial deixa sortir part del fum i el pols d'aigua refreda la capa superior i permet comprovar com es comporta el fum.",
+      "excerpt": "S’obre la porta només uns centímetres per permetre la sortida parcial del fum. o Es realitza una polvorització curta cap al sostre amb raig d’atac difós o polvoritzat per refredar la capa superior de gasos calents.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.7.3 Consideracions específiques",
+      "stem": "En un incendi estructural, el binomi troba una víctima a prop del focus. Què cal prioritzar, segons el manual?",
+      "options": [
+        "Atacar primer el focus amb raig tens per reduir la temperatura.",
+        "La recerca i extracció immediata de la víctima, perquè el vapor de l'atac pot causar-li cremades greus.",
+        "Ventilar el recinte amb VPP abans de moure la víctima.",
+        "Tancar la porta i esperar el relleu."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Només si és imprescindible per a l'autoprotecció dels intervinents es fa un atac inicial al foc abans de l'evacuació.",
+      "excerpt": "L’aplicació d’aigua sobre el focus genera vapor que pot causar cremades greus a les persones atrapades. Per aquest motiu, sempre s’ha de prioritzar la recerca i l’extracció immediata de les víctimes quan es trobin a prop de l’incendi",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 3.2.2 Planta afectada",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, en un incendi en planta alta, a partir de quina planta es dificulten o impossibiliten els salvaments per façana?",
+      "options": [
+        "A partir de la planta 8 o superior.",
+        "A partir de la planta 3.",
+        "A partir de la planta 15.",
+        "A partir de la planta 25."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les plantes altes també limiten l'extinció des del vehicle per pèrdues de càrrega, però l'evacuació de les plantes inferiors pot ser més segura.",
+      "excerpt": "També comporta dificultats o impossibilita fer salvaments per façana a partir de la planta 8 o superior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.3.8 Recomanacions d'actuació",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, en un incendi actiu sense coneixement de víctimes a l'interior, què es prioritza?",
+      "options": [
+        "La recerca per totes les plantes superiors.",
+        "La ventilació per pressió positiva de tot l'edifici.",
+        "La recerca del motor de l'incendi.",
+        "El tall del subministrament d'aigua."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Un cop controlat el motor, s'inicien maniobres de recerca paral·leles a la ventilació dels espais amb fum.",
+      "excerpt": "En el cas d'incendi actiu sense coneixement de víctimes a l'interior: es prioritza la recerca del motor de l'incendi.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 5.2.2 Zona calenta",
+      "stem": "En un incendi en una nau industrial amb una façana de 12 m d'alçada, quina distància ha de tenir la zona calenta segons el criteri del manual d'intervenció bàsica en incendis estructurals?",
+      "options": [
+        "12 metres.",
+        "15 metres.",
+        "36 metres.",
+        "24 metres."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En naus industrials la zona calenta és el doble de l'alçada de la façana: 2 × 12 m = 24 m (els 15 m són per a habitatges).",
+      "excerpt": "En naus industrials: doble de l’alçada de la façana.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.3.1 Probabilitat de supervivència",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, quina supervivència estimada té un espai separat del focus per una sola porta tancada (probabilitat mitjana)?",
+      "options": [
+        "Més de 10 minuts.",
+        "Menys de 6 minuts.",
+        "Menys del 5 %.",
+        "Entre 6 i 10 minuts."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Alta: dues portes tancades o una EI (>10 min); mitjana: una porta tancada (6-10 min); baixa: porta oberta cap al focus (<6 min); mínima: dins el recinte (<5 %).",
+      "excerpt": "Mitja Separació per una sola porta tancada. 6 - 10 min",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 4.3.1 Prioritat de recerca",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, en quins espais cal fer la recerca en primer lloc d'acord amb la classificació per probabilitat de supervivència?",
+      "options": [
+        "En els espais amb alta probabilitat de supervivència.",
+        "En els espais amb baixa probabilitat de supervivència.",
+        "En els espais amb mínima probabilitat de supervivència.",
+        "En els espais de mitjana probabilitat de supervivència."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'ordre és: baixa, mitjana, mínima (només si no hi ha altres opcions o indicis) i, finalment, alta.",
+      "excerpt": "s’haurien de fer en el següent ordre: 1. Espais amb baixa probabilitat. 2. Espais de mitja probabilitat. 3. Espais amb mínima probabilitat",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 1.3 Aprenentatge a partir dels grans incendis",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, quin incendi va marcar l'inici de l'atenció sistemàtica al risc d'esfondrament?",
+      "options": [
+        "El de la discoteca Flying (Saragossa, 1990).",
+        "El de la nau abandonada de Badalona (2020).",
+        "El de l'edifici Windsor (Madrid, 2005).",
+        "El d'un túnel de carretera de més de 400 m."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El Flying va evidenciar la necessitat de millorar l'evacuació i la detecció; Badalona, les dificultats amb moltes persones atrapades i problemes d'accés.",
+      "excerpt": "Incendi de l’edifici Windsor (Madrid, 2005): aquest cas va tenir un gran impacte als cossos de bombers d’arreu de l’Estat, pel col·lapse estructural d’un gratacel i la seva repercussió mediàtica. Va marcar l’inici de l’atenció sistemàtica al risc d’esfondrament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.INES.000, § 3.4.1 Propagació per flames",
+      "stem": "Segons el manual d'intervenció bàsica en incendis estructurals, per què s'anomenen «incendis envoltants» els que afecten edificis amb façanes ventilades?",
+      "options": [
+        "Perquè l'incendi propaga de l'exterior cap a l'interior.",
+        "Perquè el fum envolta l'escala per efecte xemeneia.",
+        "Perquè el foc baixa per degoteig de plàstics.",
+        "Perquè el vent en alçada els sobrealimenta."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Les façanes ventilades faciliten una propagació molt ràpida per l'exterior, que després entra a l'edifici.",
+      "excerpt": "Edificis amb façanes ventilades poden facilitar una propagació molt ràpida. A més, l'incendi propaga de l'exterior cap a l'interior, per aquest motiu, son anomenats incendis envoltants.",
+      "excerpt_status": "completo"
     }
   ]
 }

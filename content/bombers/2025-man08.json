@@ -93,6 +93,81 @@
       "explanation": "El manual dona per al metà un límit inferior del 5% i un superior del 15%; com més ampli és el rang, més risc.",
       "excerpt": "Metà (gas natural) 5 15 10 […] Com més ampli sigui aquest rang, més gran és el risc que la substància formi una barreja perillosa amb capacitat d’encendre’s.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 3) · MAN.GRAL.008, § 10.2",
+      "stem": "En un incendi, la calor fa que l'aigua interna del formigó s'evapori i que se'n desprengui la capa superficial, deixant el ferro a la vista. Com s'anomena aquest fenomen?",
+      "options": [
+        "Vinclament.",
+        "Boil-over.",
+        "Spalling.",
+        "Carbonització."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El spalling deixa al descobert el ferro intern, que aleshores perd resistència de pressa. El vinclament és una deformació lateral per compressió i el boil-over afecta dipòsits de líquids.",
+      "excerpt": "les altes temperatures poden provocar l'evaporació de l'aigua interna, generant tensions que causen el despreniment de la capa superficial (fenomen conegut com a spalling). Això deixa al descobert el ferro intern, que aleshores perd resistència de forma accelerada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 60) · MAN.GRAL.008, § 13.2.1",
+      "stem": "En un incendi de vegetació (combustible sòlid de classe A), quin és el mecanisme d'extinció principal de l'aigua?",
+      "options": [
+        "La inhibició de la reacció en cadena.",
+        "La saponificació.",
+        "El refredament.",
+        "La sufocació, que és més important que el refredament."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'aigua absorbeix molta calor, sobretot en vaporitzar-se; la sufocació pel vapor és un efecte secundari.",
+      "excerpt": "1) Refredament (principal): L'aigua té una extraordinària capacitat d'absorbir calor. […] Camp d'aplicació: Principalment eficaç en focs de Classe A (materials sòlids amb brases: fusta, paper, teixits, etc.).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 65) · MAN.GRAL.008, § 13.2.2",
+      "stem": "Què indica la sigla AR en la denominació d'un escumogen (per exemple, AR-FFF)?",
+      "options": [
+        "Que és d'alta expansió.",
+        "Que és d'origen proteínic animal.",
+        "Que està pensat per a sistemes d'aire comprimit.",
+        "Que és resistent als alcohols i apte per a combustibles polars."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Les escumes convencionals es destrueixen sobre combustibles miscibles amb l'aigua (alcohols, cetones…); les AR hi formen una barrera protectora.",
+      "excerpt": "Escumes Resistents a Alcohols (AR): Dissenyades per a combustibles polars (com alcohols, cetones, èsters, etc.) que, per la seva miscibilitat amb l'aigua, destruirien les escumes convencionals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 75) · MAN.GRAL.008, § 9.1.1",
+      "stem": "De què depèn principalment la velocitat amb què es transmet la calor per conducció a través d'un sòlid?",
+      "options": [
+        "De la conductivitat tèrmica del material.",
+        "Del moviment dels gasos calents al voltant del sòlid.",
+        "De les ones electromagnètiques que emet la flama.",
+        "De la densitat de vapor relativa del material."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els metalls són bons conductors; la fusta i l'aire són bons aïllants. La convecció depèn del moviment de fluids i la radiació, de les ones electromagnètiques.",
+      "excerpt": "És el principal mecanisme de transmissió de calor en sòlids. La velocitat de conducció depèn de la conductivitat tèrmica del material: els metalls són bons conductors, la fusta o l'aire són bons aïllants.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Rèplica 81/25 (cf. 76) · MAN.GRAL.008, § 5.3",
+      "stem": "Indica quina d'aquestes NO és una de les propietats fisicoquímiques dels combustibles que, segons el manual de teoria del foc, ajuden a predir com es comportaran davant una font de calor o d'ignició:",
+      "options": [
+        "El punt d'inflamació.",
+        "Els límits d'inflamabilitat.",
+        "El color del combustible.",
+        "El poder calorífic."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El manual hi inclou els punts d'inflamació, combustió i autoignició, els límits d'inflamabilitat, la densitat relativa de vapors i el poder calorífic.",
+      "excerpt": "Algunes propietats ajuden a predir com es comportarà un combustible davant una font de calor o ignició. 5.3.1. Punts d’inflamació, combustió i autoignició […] 5.3.2. Límits d’inflamabilitat […] 5.3.4. Poder calorífic del combustible",
+      "excerpt_status": "completo"
     }
   ]
 }

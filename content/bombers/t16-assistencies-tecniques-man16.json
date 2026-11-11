@@ -318,6 +318,306 @@
       "explanation": "La carta de serveis inclou el salvament d'animals; els bombers poden oferir una primera assistència mentre no arriba el veterinari.",
       "excerpt": "La carta de serveis del Cos de Bombers inclou explícitament el salvament d’animals, entenent-lo com una tasca de protecció i assistència que pot requerir actuacions dins de la zona calenta d’una emergència o en indrets d’accés restringit.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 4.1 Marc legal bàsic",
+      "stem": "Segons el manual d'intervenció bàsica en assistències tècniques, en quins casos és legalment possible accedir a un domicili sense el consentiment explícit del propietari?",
+      "options": [
+        "Sempre que ho decideixi el comandament de la dotació.",
+        "Quan hi ha perill potencial per a persones o béns, o per ordre o requeriment judicial.",
+        "Només quan hi ha una ordre judicial.",
+        "Només quan hi ha presència policial."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Hi ha dos casos: perill potencial per a persones o béns, o ordre o requeriment judicial. La presència de cossos de seguretat és una recomanació en cas de dubte, no un requisit.",
+      "excerpt": "La intervenció que impliqui accedir a un domicili sense consentiment explícit del propietari només és legalment possible en dos casos: […] Perill potencial per a persones o béns. […] Ordre o requeriment judicial.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 4.3 Tipologia de portes",
+      "stem": "Segons el manual d'assistències tècniques, quin tipus de porta té una estructura interior totalment metàl·lica, amb premarc i marc metàl·lics de gran resistència?",
+      "options": [
+        "La porta blindada.",
+        "La porta de fullola.",
+        "La porta cuirassada.",
+        "La porta de fusta massissa."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La cuirassada és totalment metàl·lica per dins; la blindada és de fusta massissa amb reforços metàl·lics puntuals i la de fullola, una porta interior poc resistent.",
+      "excerpt": "Cuirassada – Estructura interior totalment metàl·lica, premarc i marc metàl·lic de gran resistència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 2.4.6 Aus",
+      "stem": "Segons el manual d'assistències tècniques, com s'han de transportar preferentment les aus?",
+      "options": [
+        "En un ambient fosc, que les ajuda a mantenir-se tranquil·les.",
+        "Diverses espècies juntes en una mateixa gàbia, perquè es facin companyia.",
+        "En un ambient ben il·luminat, per controlar-les visualment.",
+        "Subjectades per les ales, perquè no es moguin."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La foscor les tranquil·litza; cal evitar barrejar espècies en una gàbia (estrès i agressivitat), i les aus són fràgils, sensibles a fractures d'ales.",
+      "excerpt": "El transport ha de fer-se preferentment en un ambient fosc",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 2.5 Emergències veterinàries",
+      "stem": "Segons el manual d'assistències tècniques, en el rescat aquàtic d'un animal, quin és el risc principal?",
+      "options": [
+        "El cop de calor.",
+        "L'estampida.",
+        "La intoxicació per fums.",
+        "La hipotèrmia."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Cal treure l'animal de l'aigua ràpidament, protegir-lo amb mantes i vigilar les constants per la hipotèrmia.",
+      "excerpt": "Rescats aquàtics: el risc principal és la hipotèrmia.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.5 Seguretat amb motoserra",
+      "stem": "Segons el manual d'assistències tècniques, quina protecció cal fer servir davant l'exposició a pols de fusta en treballs amb motoserra?",
+      "options": [
+        "L'equip de respiració autònoma (ERA).",
+        "Una màscara filtrant tipus FFP3.",
+        "Taps auditius.",
+        "Canyelleres antitall."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "Contra la pols de fusta, màscara FFP3; els taps protegeixen del soroll i les canyelleres, de contactes amb la cadena.",
+      "excerpt": "Exposició a pols de fusta → ús de màscara filtrant tipus FFP3.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 5.1 Desconnexió i gestió d'alarmes",
+      "stem": "Segons el manual d'assistències tècniques, de quins dos elements principals es compon bàsicament una alarma?",
+      "options": [
+        "D'un mecanisme detector i d'un mecanisme d'avís.",
+        "D'una central receptora i d'una bateria.",
+        "D'un fusible i d'un altaveu.",
+        "D'un pany electrònic i d'una sirena."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El detector (moviment, tèrmic, fum, pressió...) i l'avís (acústic i/o lluminós), que sovint transmet senyal a una central receptora.",
+      "excerpt": "Una alarma es compon, bàsicament, de dos elements principals: […] Mecanisme detector, […] Mecanisme d’avís, normalment acústic i/o lluminós",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.3 Zones de risc (AGO)",
+      "stem": "Cal fer caure amb motoserra un arbre de 12 m d'alçada. Segons el manual d'assistències tècniques, quin perímetre de seguretat (zona de risc A) cal delimitar?",
+      "options": [
+        "24 m.",
+        "12 m.",
+        "2 m.",
+        "30 m."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La zona A és dues vegades i mitja l'alçada de l'arbre: 2,5 × 12 m = 30 m. 24 m seria només el doble i 2 m és el radi de la zona B al voltant de l'operador.",
+      "excerpt": "Zona de risc A: quan hi ha perill de caiguda de l’arbre s’ha de delimitar un perímetre de seguretat equivalent a dues vegades i mitja l’alçada de l’arbre",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 5.1 Marc legal de les alarmes",
+      "stem": "Segons el manual d'assistències tècniques, en quines condicions es pot desconnectar una alarma antirobatori?",
+      "options": [
+        "Quan ho demani qualsevol veí afectat pel soroll.",
+        "Sempre que el comandament de Bombers ho consideri oportú, sense necessitat de policia.",
+        "Només a requeriment i sota la responsabilitat de la policia competent, i sempre amb la seva presència.",
+        "Només amb autorització escrita de l'empresa instal·ladora."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "És un sistema privat de seguretat amb implicacions legals; només es desconnecta a requeriment de la policia, sota la seva responsabilitat i en la seva presència.",
+      "excerpt": "Per aquest motiu, només es poden desconnectar a requeriment i sota la responsabilitat de la policia competent, i sempre amb la seva presència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 5.1 Intervenció bàsica en alarmes",
+      "stem": "En un servei per una alarma d'incendi activada, es comprova que no hi ha risc real. Segons el manual d'assistències tècniques, què cal fer?",
+      "options": [
+        "Desconnectar la bateria de la central.",
+        "Tallar el cable de l'altaveu exterior.",
+        "Anul·lar el fusible d'alimentació.",
+        "No manipular el sistema i contactar amb la central d'alarmes o la propietat perquè ho solucionin."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En l'alarma d'incendi sense risc no es manipula el sistema; tallar l'altaveu, anul·lar el fusible o desconnectar la bateria són opcions per a l'antirobatori accidental, a petició de la policia.",
+      "excerpt": "En el cas d’alarma d’incendi, si no hi ha risc real, no es manipula el sistema, sinó que es contacta amb la central d’alarmes o la propietat per tal que ho solucionin.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.4.2 Tall horitzontal",
+      "stem": "Segons el manual d'assistències tècniques, en el tall horitzontal d'una branca o tronc amb un sol punt de recolzament, quin és l'ordre dels talls?",
+      "options": [
+        "Primer el tall inferior i després el superior.",
+        "Primer el tall superior i després l'inferior.",
+        "Un únic tall des de la part superior.",
+        "Primer un tall en forma de falca i després el tall de frontissa."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Amb un punt de recolzament: primer inferior, després superior. Amb dos punts és a l'inrevés (primer superior, després inferior); la falca és del tall vertical d'un arbre.",
+      "excerpt": "Tall horitzontal amb un punt de recolzament En aquest cas, el primer tall serà l’inferior, i el segon el superior.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 4.3.1 Tipus de panys",
+      "stem": "Segons el manual d'assistències tècniques, com són els panys sobreposats?",
+      "options": [
+        "Van integrats dins del perfil de la porta i només se'n veu l'escut, el bombí i el pestell.",
+        "Es col·loquen per la cara interior de la porta, de forma visible, i són freqüents en habitatges antics o com a panys de reforç.",
+        "Són tancaments electrònics o intel·ligents.",
+        "Es col·loquen per la cara exterior de la porta, ocults dins la fusta."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els sobreposats són visibles per dins i tenen un volum evident (caixa metàl·lica); els encastats van integrats dins del perfil de la porta.",
+      "excerpt": "Panys sobreposats: es col·loquen per la cara interior de la porta, de forma visible, i són especialment freqüents en habitatges antics o com a panys secundaris de reforç.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 4.4 Selecció d'eines",
+      "stem": "Segons la taula orientativa del manual d'assistències tècniques, quines eines es recomanen per obrir una porta blindada?",
+      "options": [
+        "Radiografia, palanca i mall.",
+        "Serra o talladora, o un accés alternatiu.",
+        "Palanca gran, escamotejadora o ariet, buscant-ne els punts febles.",
+        "Només el mall, perquè l'estructura és molt feble."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Per a la blindada (reforços metàl·lics puntuals): palanca gran, escamotejadora, ariet. Radiografia, palanca i mall són per a la fullola, i serra o accés alternatiu per a la cuirassada.",
+      "excerpt": "Blindada Palanca gran, escamotejadora, ariet Reforços metàl·lics puntuals. Es recomana buscar punts febles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 2.4.7 Rèptils",
+      "stem": "Segons el manual d'assistències tècniques, com s'han de subjectar els sauris (llangardaixos)?",
+      "options": [
+        "Per la cua, que és la part més resistent.",
+        "Pel plec del clatell, sostenint les potes posteriors.",
+        "Pels costats de la closca.",
+        "Per darrere les extremitats anteriors, controlant la cua."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Cal controlar la cua perquè moltes espècies la poden perdre com a defensa (autotomia); el plec del clatell és per als gats i la closca, per a les tortugues.",
+      "excerpt": "Els sauris (llangardaixos) s’han de subjectar per darrere les extremitats anteriors, controlant la cua, ja que moltes espècies poden perdre-la com a mecanisme de defensa (autotomia).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 5.3 Neteja de calçada",
+      "stem": "Segons el manual d'assistències tècniques, en la neteja d'un vessament a la calçada amb absorbents, què cal tenir present?",
+      "options": [
+        "Que, un cop absorbit, el producte deixa de ser contaminant i es pot escombrar a l'embornal.",
+        "Que els absorbents només serveixen per a combustibles i mai per a àcids o pintures.",
+        "Que la barreja absorbent-contaminant manté el mateix potencial contaminant i s'ha de recollir i gestionar correctament.",
+        "Que els grans vessaments també es tracten com una neteja de calçada ordinària."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'absorbent reté el líquid però no l'elimina: la barreja s'ha de retirar en sacs o contenidors. El procediment és anàleg per a àcids o pintures, i els grans vessaments són intervencions NRBQ.",
+      "excerpt": "manté el mateix potencial contaminant i ha de ser recollida i gestionada correctament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 4.2 Classificació segons la urgència",
+      "stem": "Segons la classificació per urgència del manual d'assistències tècniques, en l'accés a un habitatge on hi ha una persona atrapada amb símptomes mèdics però conscient, quin tipus d'obertura correspon?",
+      "options": [
+        "Una tècnica ràpida amb dany mínim.",
+        "Obertura immediata, destructiva si cal.",
+        "Tècniques no destructives o accés alternatiu, sense pressa.",
+        "Esperar una ordre judicial abans d'obrir."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "És un «rescat»: tècnica ràpida amb dany mínim. L'obertura immediata i destructiva és per al salvament urgent (persona inconscient o en risc imminent) i les no destructives, per al «treball» sense risc immediat.",
+      "excerpt": "Rescat Persona atrapada o amb símptomes mèdics, però conscient Tècnica ràpida amb dany mínim",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.5 Línies elèctriques",
+      "stem": "Cal retirar amb motoserra un arbre caigut a prop d'una línia elèctrica. Segons el manual d'assistències tècniques, quan es pot iniciar l'actuació?",
+      "options": [
+        "Immediatament, si el bomber porta guants i botes de seguretat.",
+        "Quan s'hagi confirmat el tall del subministrament, i respectant les distàncies mínimes de seguretat segons el voltatge.",
+        "Quan es faci servir una motoserra de bateria en lloc d'una de benzina.",
+        "Un cop delimitada la zona de risc B de 2 m al voltant de l'operador."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Prop de línies elèctriques no es pot començar sense confirmar el tall del subministrament; l'EPI, el tipus de motoserra o les zones de risc no substitueixen aquesta condició.",
+      "excerpt": "En zones amb proximitat a línies elèctriques, l’actuació no es pot iniciar fins que s’hagi confirmat el tall del subministrament. A més, cal respectar estrictament les distàncies mínimes de seguretat de treball en funció del voltatge.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 2.2 Coneixements generals",
+      "stem": "En un servei amb un animal, segons el manual d'assistències tècniques, quin és el primer pas previ abans d'entrar-hi en contacte?",
+      "options": [
+        "Valorar la força i el pes de l'animal per preparar la captura.",
+        "Explorar alternatives sense contacte directe: localitzar el propietari, confinar l'animal en un espai segur o demanar suport especialitzat.",
+        "Capturar-lo ràpidament amb un llaç abans que s'estressi.",
+        "Fer sonar la sirena per allunyar-lo de la zona."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "L'ordre és: 1) alternatives sense contacte, 2) controlar l'ambient (apagar sirenes), 3) aproximació progressiva, 4) valorar força i pes, 5) protegir-se. Fer sonar la sirena va contra el control de l'ambient.",
+      "excerpt": "Abans d’entrar en contacte amb l’animal, cal seguir uns passos previs: 1. Explorar alternatives sense contacte directe, com localitzar el propietari, confinar l’animal en un espai segur o demanar suport a serveis especialitzats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.2.1 Cadena de la motoserra",
+      "stem": "Segons el manual d'assistències tècniques, com es defineix el pas de cadena d'una motoserra?",
+      "options": [
+        "El nombre de dents de la cadena.",
+        "L'amplada de la baula motriu (galga).",
+        "La distància entre tres reblons dividida per 2.",
+        "La longitud de l'espasa."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Les mides de la cadena, marcades a l'espasa, són el pas (distància entre tres reblons dividida per 2), la longitud o nombre de dents i l'amplada de la baula motriu o galga.",
+      "excerpt": "Pas de cadena (distància entre tres reblons dividit per 2)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.4.2 Desbrancament",
+      "stem": "Sobre el desbrancament i el tall horitzontal amb motoserra, segons el manual d'assistències tècniques, indica la resposta INCORRECTA:",
+      "options": [
+        "Cal evitar que el moviment de la branca o del tronc pressioni l'eina i la deixi inutilitzada.",
+        "Amb dos punts de recolzament, el primer tall es fa a la part superior i el segon a la inferior.",
+        "Excepte si hi ha persones atrapades, les branques no es retiren fins que s'acaba de tallar.",
+        "Convé treballar amb diverses motoserres alhora i anar retirant les branques a mesura que es tallen."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "El manual indica treballar amb una sola motoserra i no retirar les branques fins acabar de tallar (excepte amb persones atrapades).",
+      "excerpt": "Quan s’està desbrancant convé treballar amb una sola motoserra, i no retirar les branques fins que s’acabi de tallar (excepte casos amb persones atrapades). […] Primer tall, part superior, segon tall, part inferior. […] Cal tenir en compte que el moviment de la branca o tronc no ens pressioni l’eina i quedi inutilitzada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.ATXX.000, § 3.5 Treball en alçada",
+      "stem": "Segons el manual d'assistències tècniques, en el tall d'arbrat, a partir de quina alçada cal utilitzar tècniques i equips de protecció contra caigudes?",
+      "options": [
+        "A partir de 2 metres, prioritzant sempre l'ús d'autoescala.",
+        "A partir de 5 metres.",
+        "A partir de 10 metres.",
+        "Només quan es treballa des de l'escala colissa."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El treball en alçada implica risc de caiguda: sempre s'ha de prioritzar l'autoescala i, a partir de 2 m, protecció contra caigudes. L'escala colissa només és mitjà d'accés, no de treball.",
+      "excerpt": "Sempre s’ha de prioritzar l’ús d’autoescala i, en treballs a partir de 2 metres, utilitzar tècniques i equips de protecció contra caigudes.",
+      "excerpt_status": "completo"
     }
   ]
 }

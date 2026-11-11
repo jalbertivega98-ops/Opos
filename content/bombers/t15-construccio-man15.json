@@ -318,6 +318,306 @@
       "explanation": "Els envans i falsos sostres organitzen l'espai però no aporten estabilitat.",
       "excerpt": "Elements no estructurals Els elements no estructurals són totes aquelles parts d’un edifici que no tenen funció resistent directa, és a dir, no sostenen càrregues ni contribueixen de manera principal a l’estabilitat global de l’estructura.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 3.2 Pedra",
+      "stem": "Segons el Manual operatiu bàsic de construcció, com s'anomenen les peces de pedra tallades?",
+      "options": [
+        "Revoltons.",
+        "Totxanes.",
+        "Carreus.",
+        "Cassetons."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La pedra es presenta al natural, en peces tallades (carreus) o en lloses; revoltons i cassetons són complements ceràmics de forjats i la totxana és un maó foradat.",
+      "excerpt": "Format habitual: pedra al natural, peces tallades (carreus) o lloses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 2.4.4 Torsió",
+      "stem": "Segons el manual de construcció, la torsió és:",
+      "options": [
+        "Un gir que tendeix a retorçar l'element.",
+        "L'esforç que vol fer lliscar una part de l'element respecte a l'altra.",
+        "L'esforç que aixafa un element.",
+        "La deformació lateral sobtada d'un element llarg comprimit."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "La torsió és un gir que retorça l'element (pals, mastelers, elements asimètrics); lliscar és el tallant, aixafar la compressió i la deformació lateral sobtada el vinclament.",
+      "excerpt": "La torsió és un gir que tendeix a retorçar l’element.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 2.2 Accions",
+      "stem": "Segons el manual de construcció, les explosions, els impactes o els sismes són accions:",
+      "options": [
+        "Permanents.",
+        "Variables.",
+        "Reaccions de recolzament.",
+        "Accidentals."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Les accions poden ser permanents (pes propi), variables (persones, mobiliari, vent, neu) o accidentals (explosions, impactes, sismes).",
+      "excerpt": "accidentals: com ara explosions, impactes o sismes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 2.4.5 Tallant",
+      "stem": "Segons el manual de construcció, quin esforç tendeix a fer «lliscar» una part de l'element respecte a l'altra?",
+      "options": [
+        "La tracció.",
+        "El tallant o cisallament.",
+        "La torsió.",
+        "El vinclament."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'esforç tallant vol fer lliscar una part de l'element respecte a l'altra; apareix sobretot en mènsules, unions cargolades o perns i en bigues a prop del suport.",
+      "excerpt": "L’esforç tallant vol “lliscar” una part de l’element respecte l’altra.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 3.7 Aïllaments",
+      "stem": "Segons el manual de construcció, els aïllaments són materials pensats per:",
+      "options": [
+        "Impedir el pas de l'aigua en cobertes i murs.",
+        "Unir les peces de les parets d'obra.",
+        "Reduir la transmissió de calor o so.",
+        "Augmentar la capacitat portant dels forjats."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Els aïllaments redueixen la transmissió de calor o so; impedir el pas de l'aigua és la funció de les làmines impermeabilitzants i unir les peces, la dels morters.",
+      "excerpt": "Materials pensats per reduir la transmissió de calor o so.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 4.1.5 Pilots o micropilots",
+      "stem": "Segons el manual de construcció, quin tipus de fonament es fa servir quan el terreny superficial és feble o inestable, per transmetre les càrregues a capes més profundes i resistents?",
+      "options": [
+        "Els pilots o micropilots.",
+        "Les sabatilles aïllades.",
+        "Les sabates corregudes.",
+        "Les pilastres."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Els pilots són elements cilíndrics clavats o perforats al subsòl que porten les càrregues a capes profundes; les sabates són fonaments superficials i les pilastres, reforços verticals dels murs.",
+      "excerpt": "Elements cilíndrics clavats o perforats al subsòl per transmetre les càrregues a capes més profundes i resistents. Es fan servir quan el terreny superficial és feble o inestable.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 3.1 Mescles de conglomerants",
+      "stem": "Segons el manual de construcció, el formigó s'obté barrejant:",
+      "options": [
+        "Només conglomerant i aigua.",
+        "Conglomerant, aigua i sorra.",
+        "Guix i calç, sense aigua.",
+        "Conglomerant, aigua i àrids."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Pasta = conglomerant + aigua; morter = conglomerant + aigua + sorra; formigó = conglomerant + aigua + àrids.",
+      "excerpt": "Pasta: Conglomerant + aigua. […] Morter: Conglomerant + aigua + sorra. […] Formigó: Conglomerant + aigua + àrids.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 2.4.1 Tracció",
+      "stem": "Segons el manual de construcció, quin comportament poden tenir en un incendi els tirants, cables o barres que treballen a tracció?",
+      "options": [
+        "S'escurcen amb la calor i augmenten la seva tensió.",
+        "Poden allargar-se per l'escalfament i perdre tensió i estabilitat.",
+        "No es veuen afectats, perquè l'acer resisteix bé la tracció.",
+        "Passen a treballar a compressió i es vinclen."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els elements a tracció (tirants, cables, barres) s'allarguen amb l'escalfament i perden tensió, cosa que compromet l'estabilitat de cobertes i estructures lleugeres.",
+      "excerpt": "Els tirants, cables o barres que mantenen estabilitzats coberts i estructures lleugeres treballen sobretot a tracció. En un incendi poden allargar-se per l’escalfament, perdent tensió i estabilitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 2.4.6 Vinclament",
+      "stem": "Segons el manual de construcció, de què depèn molt el risc de vinclament d'un element?",
+      "options": [
+        "De l'esforç de tracció que rep.",
+        "De la seva esveltesa (relació llargada-secció).",
+        "Del tipus de tancament de la façana.",
+        "Del pes dels elements no estructurals que té a prop."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El vinclament afecta elements llargs comprimits i depèn de l'esveltesa; la calor o qualsevol reducció de secció n'augmenta molt el risc.",
+      "excerpt": "Depèn molt de la seva esveltesa (relació llargada-secció). […] La calor o qualsevol reducció de secció augmenta molt el risc de vinclament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 4.1.1 Sabatilles aïllades",
+      "stem": "Segons el manual de construcció, quin tipus de fonamentació s'utilitza quan les càrregues es concentren en punts concrets, generalment pilars aïllats?",
+      "options": [
+        "Les sabatilles aïllades.",
+        "Les sabates corregudes.",
+        "Els murs de contenció.",
+        "Les bigues de lligam."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Cada pilar descansa sobre una sabata independent; són habituals en edificis de pilars i forjats. Les sabates corregudes reparteixen càrregues lineals de murs.",
+      "excerpt": "S’utilitzen quan les càrregues de l’edifici es concentren en punts concrets, generalment pilars aïllats. Cada pilar descansa sobre una sabata independent que reparteix el pes al terreny.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 4.1.4 Encepats i bigues de lligam",
+      "stem": "Segons el manual de construcció, quina funció tenen els encepats i les bigues de lligam?",
+      "options": [
+        "Transmetre les càrregues a capes profundes del subsòl.",
+        "Formar els sostres i paviments de cada planta.",
+        "Retenir terres i sostenir soterranis.",
+        "Unir diverses sabates o pilots i ajudar a compensar moviments del terreny i esforços horitzontals."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Uneixen sabates o pilots i milloren la rigidesa global de la fonamentació; transmetre a capes profundes és funció dels pilots i retenir terres, dels murs de contenció.",
+      "excerpt": "Sistema utilitzat per unir diverses sabates o pilots entre sí, millorant la rigidesa global de la fonamentació. Les bigues de lligam ajuden a compensar moviments del terreny i esforços horitzontals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 4.2.4 Pilastres",
+      "stem": "Segons el manual de construcció, quin risc poden presentar les pilastres en una intervenció?",
+      "options": [
+        "Són sempre l'element principal del sistema estructural original.",
+        "Concentren tota la càrrega dels forjats com un pilar de formigó armat.",
+        "Poden estar degradades o desenganxades del mur i donar una falsa sensació de seguretat.",
+        "No es troben mai en edificació antiga ni en reformes."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les pilastres són petits reforços verticals, habituals en edificació antiga i reformes, que no sempre formen part de l'estructura original.",
+      "excerpt": "No sempre formen part del sistema estructural original. […] Poden estar degradades o desenganxades del mur. […] Falsejar la seva funció pot donar una falsa sensació de seguretat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 2.4.3 Flexió",
+      "stem": "Segons el manual de construcció, a quin esforç treballen bàsicament la major part de les bigues, les jàsseres i les mènsules (balcons)?",
+      "options": [
+        "A compressió pura.",
+        "A flexió.",
+        "A torsió.",
+        "A tracció pura."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Les bigues, jàsseres i mènsules treballen bàsicament a flexió; la compressió apareix a pilars, parets de càrrega i fonaments, i la torsió en pals o elements asimètrics.",
+      "excerpt": "La major part de les bigues, jàsseres i mènsules (balcons) treballen bàsicament a flexió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 4.3.1 Forjats de metall",
+      "stem": "En un incendi en un edifici de finals del segle XIX amb forjats de bigues d'acer i revoltons ceràmics, quin risc destaca el manual de construcció?",
+      "options": [
+        "El metall es dilata amb la calor i pot provocar despreniments de sostres.",
+        "Cap, perquè el metall no crema i manté la resistència.",
+        "Els revoltons de fusta cremen i fan caure el forjat.",
+        "La ferralla interna perd adhesió i les pantalles col·lapsen."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els forjats metàl·lics (bigues d'acer amb revoltons ceràmics), habituals als segles XIX i XX, es dilaten amb la calor i poden provocar despreniments de sostres.",
+      "excerpt": "Forjats de metall (bigues d’acer amb revoltons ceràmics): habituals en edificis del segle XIX i XX. El metall es dilata amb la calor i pot provocar despreniments de sostres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 5.2 Parts principals d'un edifici",
+      "stem": "Segons el manual de construcció, les façanes, les cobertes i les soleres formen part de:",
+      "options": [
+        "L'estructura.",
+        "Les divisions internes.",
+        "Els tancaments.",
+        "Els fonaments."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'edifici s'agrupa en estructura, tancaments i divisions internes; els tancaments aïllen i protegeixen l'interior (façanes, cobertes, soleres, parets exteriors).",
+      "excerpt": "Els tancaments: inclouen els elements que aïllen i protegeixen l’interior de l’edifici de l’exterior, garantint el confort tèrmic i la impermeabilitat. En formen part les façanes, les cobertes, les soleres i altres tipus de parets exteriors.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 5.5.2 Sistema de pilars i forjats",
+      "stem": "En un bloc d'habitatges dels anys 80 construït amb el sistema de pilars i forjats, quina funció tenen les façanes i els envans segons el manual de construcció?",
+      "options": [
+        "Són murs de càrrega que sostenen directament els forjats.",
+        "Fan de pantalles estructurals que resisteixen el vent i els sismes.",
+        "Transmeten el pes de les jàsseres fins als fonaments.",
+        "No tenen funció estructural: són tancaments i divisions."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En el sistema porticat l'esquelet resistent el formen pilars i jàsseres; façanes i envans no tenen funció estructural, a diferència del sistema tradicional de murs de càrrega.",
+      "excerpt": "aquí l’esquelet resistent està format per pilars i jàsseres, mentre que els tancaments (façanes i envans) no tenen funció estructural.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 5.4.1 i 5.5.1 Sistema tradicional",
+      "stem": "En un edifici antic de murs de càrrega on, en una reforma, s'ha obert una gran obertura en un mur, què cal tenir present segons el manual de construcció?",
+      "options": [
+        "Que qualsevol obertura o tall en un mur de càrrega afecta directament l'estabilitat global, perquè el sistema no tolera bé l'eliminació d'elements portadors.",
+        "Que no afecta l'estabilitat, perquè les càrregues les porten els pilars.",
+        "Que només afecta el confort tèrmic, perquè els murs són tancaments.",
+        "Que el risc desapareix si els forjats són de bigues de fusta."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "En el sistema tradicional els murs són portants; tallar-los compromet l'estabilitat, i les estructures de fusta encara n'augmenten la vulnerabilitat en incendi.",
+      "excerpt": "qualsevol obertura o tall en un mur de càrrega afecta directament l’estabilitat global. […] aquest sistema no tolera bé l’eliminació o degradació de cap element portador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 5.4.2 Pòrtics prefabricats de formigó",
+      "stem": "Segons el manual de construcció, quin és el risc principal dels pòrtics d'elements prefabricats de formigó?",
+      "options": [
+        "L'acer hi perd resistència amb molta rapidesa i provoca col·lapses sobtats.",
+        "Són molt lleugers i el vent els pot desplaçar fàcilment.",
+        "Tenen una resistència al foc molt baixa i cremen ràpidament.",
+        "Tot i la bona resistència al foc, el seu pes elevat pot generar col·lapses molt greus si fallen els recolzaments o les unions."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Els prefabricats de formigó són robustos i resisteixen bé el foc, però el pes elevat fa molt greu la fallada d'un recolzament o unió; la pèrdua ràpida de resistència és pròpia dels pòrtics metàl·lics.",
+      "excerpt": "Pòrtics d’elements prefabricats de formigó: molt robustos i duradors. Ofereixen bona resistència al foc, però el pes elevat pot generar col·lapses molt greus si falla algun punt crític com els recolzaments o les unions.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 4.4 Elements no estructurals",
+      "stem": "Segons el manual de construcció, sobre els elements no estructurals, indica la resposta INCORRECTA:",
+      "options": [
+        "Poden caure o desprendre's sense afectar l'estructura principal.",
+        "Com que no sostenen càrregues, no suposen cap perill per als intervinents.",
+        "En alguns casos poden ocultar patologies estructurals o dificultar-ne la detecció.",
+        "Els envans i els falsos sostres en són exemples."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Encara que no tinguin funció resistent, poden caure o desprendre's i suposar un perill per als intervinents i les víctimes; per això l'afirmació és falsa.",
+      "excerpt": "Els elements no estructurals poden caure, desprendre’s o col·lapsar parcialment sense afectar l’estructura principal, però tot i així poden suposar un perill per als intervinents i les víctimes. A més, en alguns casos, poden ocultar patologies estructurals o dificultar la seva detecció. […] Divisions interiors: com envans i falsos sostres",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.006, § 5.4.2 Pòrtics de fusta",
+      "stem": "Segons el manual de construcció, quina característica tenen els pòrtics de fusta?",
+      "options": [
+        "Són els més pesats i el seu col·lapse és sempre el més greu.",
+        "Perden resistència amb molta rapidesa en incendi i col·lapsen de sobte.",
+        "Poden ser laminats i permeten grans llums amb pes reduït; la fusta té un comportament més previsible al foc, però exigeix proteccions adequades.",
+        "No es poden utilitzar per a llums superiors a 8 m."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Els pòrtics de fusta, habituals en equipaments esportius o agraris, permeten grans llums amb poc pes; el col·lapse sobtat per pèrdua ràpida de resistència és característic dels metàl·lics.",
+      "excerpt": "Pòrtics de fusta: emprats en equipaments esportius o agraris. Poden ser laminats, permetent grans llums amb un pes reduït. La fusta té un comportament més previsible al foc, però exigeix proteccions adequades.",
+      "excerpt_status": "completo"
     }
   ]
 }

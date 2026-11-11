@@ -318,6 +318,306 @@
       "explanation": "Cal calcular el recorregut i comprovar la pressió en punts clau.",
       "excerpt": "És imprescindible fer un càlcul previ de temps estimat de recorregut i ajustar la planificació perquè el bomber surti amb suficient marge abans d’arribar a la reserva.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.1.1 categoria II",
+      "stem": "Segons el manual d'EPI d'intervenció en emergències, quins d'aquests equips són exemples d'EPI de categoria II?",
+      "options": [
+        "Ulleres de sol i guants de jardineria.",
+        "Equips de respiració autònoma i vestits de protecció química.",
+        "Protecció auditiva, calçat de seguretat o jaquetes d'alta visibilitat.",
+        "Arnesos anticaigudes i guants dielèctrics."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La categoria II prevé danys de gravetat mitjana. Les ulleres de sol i els guants de jardineria són de categoria I; ERA, vestits químics, arnesos i guants dielèctrics, de categoria III.",
+      "excerpt": "Inclou equips destinats a prevenir danys de gravetat mitjana, com ara protecció auditiva, calçat de seguretat o jaquetes d’alta visibilitat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.2.3 EN 443",
+      "stem": "Segons el manual d'EPI, què regula la norma EN 443?",
+      "options": [
+        "Els guants de protecció per a bombers.",
+        "Els cascos de bombers per a incendis estructurals.",
+        "El calçat de protecció per a bombers.",
+        "Els cascos per a rescat tècnic."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "EN 443: casc pesant per a incendis estructurals; EN 659: guants; EN 15090: calçat; EN 16473: cascos per a rescat tècnic.",
+      "excerpt": "EN 443 – Cascos de bombers per a incendis estructurals: Defineix els requisits de resistència tèrmica, impactes i compatibilitat amb ERA per al casc d’intervenció pesant.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.2.3 EN 659",
+      "stem": "Segons el manual d'EPI, quina norma defineix els requisits mínims dels guants de protecció per a bombers?",
+      "options": [
+        "EN 469.",
+        "EN 15090.",
+        "EN 16471.",
+        "EN 659."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "EN 659: guants (flama, calor, tall i perforació); EN 469: vestuari d'extinció; EN 15090: calçat; EN 16471: cascos forestals.",
+      "excerpt": "EN 659 – Guants de protecció per a bombers: Defineix els requisits mínims de protecció contra flama, calor, tall i perforació.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.4.3 EPI aquàtic",
+      "stem": "Segons el manual d'EPI, davant de quins riscos protegeix l'EPI aquàtic del Cos de Bombers?",
+      "options": [
+        "Ofegament, hipotèrmia i cops derivats del moviment de l'aigua o d'obstacles submergits.",
+        "Flames directes i calor radiant intensa.",
+        "Atmosferes tòxiques i manca d'oxigen.",
+        "Contacte amb tensió elèctrica."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "L'EPI aquàtic és específic per a rius, llacs, embassaments o zones marítimes.",
+      "excerpt": "Està pensat per protegir davant riscos d’ofegament, hipotèrmia i cops derivats del moviment de l’aigua o dels obstacles submergits.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 3.5 caputxa de rescat",
+      "stem": "Segons el manual d'EPI, per a què està dissenyada la caputxa de rescat?",
+      "options": [
+        "Per a l'evacuació de víctimes en atmosferes amb fum o amb manca d'oxigen.",
+        "Per a l'ús operatiu prolongat del bomber dins la zona calenta.",
+        "Per protegir el cap dels impactes en rescats tècnics.",
+        "Per substituir l'ERA en incendis estructurals."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "No està pensada per a un ús operatiu prolongat; protegeix ràpidament una persona que no té ERA, connectada a l'ERA d'un bomber.",
+      "excerpt": "La caputxa de rescat és un element de protecció respiratòria dissenyat per a l’evacuació de víctimes en atmosferes amb fum o amb manca d’oxigen. No està pensada per a un ús operatiu prolongat",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 4.1.1 responsabilitat compartida",
+      "stem": "Segons el manual d'EPI, a qui correspon la supervisió de la revisió diària dels EPI?",
+      "options": [
+        "Exclusivament a cada bomber, sense cap supervisió.",
+        "Al fabricant de l'equip.",
+        "Al cap de torn, tot i que cada bomber és responsable de l'equip que utilitza.",
+        "Al servei de prevenció extern."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La responsabilitat és compartida: el cap de torn supervisa i cada bomber respon del seu equip i comunica les incidències.",
+      "excerpt": "Responsabilitat compartida: Tot i que la supervisió correspon al cap de torn, cada bomber és responsable de l’equip que utilitza i de comunicar qualsevol incidència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.3.1 casc lleuger",
+      "stem": "Segons el manual d'EPI, quina limitació té el casc lleuger (forestal i tècnic) respecte al casc d'intervenció pesant?",
+      "options": [
+        "No es pot fer servir en incendis forestals.",
+        "No protegeix contra cops ni impactes.",
+        "No permet afegir protecció auditiva ni frontals de llum.",
+        "No suporta flames intenses."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El casc lleuger protegeix contra cops, impactes i calor radiant moderada i admet protecció auditiva i frontals, però no suporta flames intenses.",
+      "excerpt": "Ofereix protecció contra cops, impactes i calor radiant moderada, però no suporta flames intenses com el casc d’intervenció pesant.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.3.2 vestit lleuger",
+      "stem": "Segons el manual d'EPI, de quina categoria és el vestit d'intervenció lleuger?",
+      "options": [
+        "Categoria I.",
+        "Categoria II.",
+        "Categoria III.",
+        "No té categoria perquè no és un EPI."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El vestit lleuger és de categoria II; el vestit d'intervenció pesant és de categoria III.",
+      "excerpt": "Vestit d’intervenció lleuger: Ús principal: intervencions en incendis forestals, assistències tècniques i rescat en exteriors, on és prioritari el confort i la mobilitat. Disseny: conjunt jaqueta + pantaló teixit ignífug lleuger i transpirable (p.ex. PBI, Nomex...) Característiques: − EPI categoria II.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.3.4 pictogrames de les botes",
+      "stem": "Segons el manual d'EPI, què indica el pictograma «P» de les botes d'intervenció de cuir?",
+      "options": [
+        "Plantilla anti-perforació.",
+        "Resistència al foc.",
+        "Propietat antiestàtica.",
+        "Protecció química."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "«F» indica resistència al foc, «P» plantilla anti-perforació i «A» propietat antiestàtica.",
+      "excerpt": "Pictogrames externs que indiquen les seves propietats: “F” (resistència al foc), “P” (plantilla anti-perforació), “A” (propietat antiestàtica).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.3.3 guant pesant",
+      "stem": "Segons el manual d'EPI, com s'ha de mantenir el guant d'intervenció pesant?",
+      "options": [
+        "Rentat a màquina a alta temperatura després de cada servei.",
+        "Neteja regular amb drap humit i assecat complet, sense rentar-lo a màquina.",
+        "Assecat directe sobre una font de calor per accelerar-lo.",
+        "No requereix cap manteniment."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "És un guant de cuir de categoria III amb aramida i Kevlar: drap humit, assecat complet i mai a màquina.",
+      "excerpt": "Manteniment: Neteja regular amb drap humit, assecat complet, no s’ha de rentar a màquina.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.4.4 permeabilitat",
+      "stem": "Segons el manual d'EPI, en base a quins dos factors s'estableix la permeabilitat dels vestits de protecció química?",
+      "options": [
+        "La temperatura ambient i la humitat relativa.",
+        "El pes del vestit i la talla del bomber.",
+        "La durada de la intervenció i el nombre d'intervinents.",
+        "L'estat d'agregació del producte i la forma en què s'aplica el producte."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La permeabilitat depèn de l'estat d'agregació (sòlid, líquid, gas) i de la forma d'aplicació (esquitx, esprai, a pressió).",
+      "excerpt": "Aquesta permeabilitat s’estableix en base a 2 factors: 1. Estat d’agregació del producte (sòlid, líquid, gas) 2. Forma en què s’aplica el producte (esquitx, esprai, a pressió)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 3.2 avís de 170 bars",
+      "stem": "Segons el manual d'EPI, què indica l'avís «bip-bip» de l'ERA als 170 bars?",
+      "options": [
+        "Que cal iniciar la sortida de la zona calenta.",
+        "L'entrada en la reserva d'aire.",
+        "L'arribada a la meitat del temps de treball.",
+        "Que l'usuari porta 30 segons immòbil."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "170 bars: un «bip-bip» (meitat del temps de treball); 110 bars: doble «bip-bip» (iniciar la sortida); 60 bars: so continu (reserva).",
+      "excerpt": "170 bars: “Bip-bip” o Arribada a la meitat del temps de treball",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 3.4.2 càlcul de capacitat",
+      "stem": "Segons el criteri de càlcul del manual d'EPI, quina capacitat total d'aire té una ampolla d'ERA de 6 litres carregada a 300 bars?",
+      "options": [
+        "306 litres.",
+        "50 litres.",
+        "1.800 litres.",
+        "18.000 litres."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Capacitat total = pressió de càrrega × capacitat volumètrica = 300 bar × 6 l = 1.800 l. (306 resulta de sumar, 50 de dividir i 18.000 d'un error de zeros.)",
+      "excerpt": "La capacitat total de l’ampolla es calcula multiplicant la pressió de càrrega per la capacitat volumètrica.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 3.5 caputxa i autonomia",
+      "stem": "Un bomber evacua una víctima d'un espai amb fum dens fent servir la caputxa de rescat connectada al seu ERA. Segons el manual d'EPI, què ha de tenir especialment en compte?",
+      "options": [
+        "Que la caputxa té una ampolla pròpia i no afecta la seva autonomia.",
+        "Que pot desconnectar la seva màscara per donar més aire a la víctima.",
+        "Que la caputxa permet romandre indefinidament a la zona calenta.",
+        "Que el subministrament d'aire es comparteix amb la víctima i el temps disponible es redueix."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Com que l'aire es comparteix, cal planificar amb rigor l'entrada, la col·locació de la caputxa i la sortida immediata.",
+      "excerpt": "és essencial que el bomber que utilitza la caputxa controli la seva pròpia autonomia d’aire, ja que el subministrament es comparteix amb la víctima. Això implica que el temps disponible per a l’evacuació es redueix",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 4.2.3 gestió a parc",
+      "stem": "Segons el manual d'EPI, on s'ha de fer la gestió a parc dels equips contaminats?",
+      "options": [
+        "A la zona neta del parc, al costat dels vestidors.",
+        "En un lloc adequat de la zona bruta del parc o en altres instal·lacions amb els mitjans adequats.",
+        "A la cabina del vehicle, durant el retorn.",
+        "Al domicili de cada bomber."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La gestió a parc es fa a la zona bruta, respectant la separació de zones netes i brutes per trencar la cadena de contaminants.",
+      "excerpt": "Aquesta gestió s’ha de fer en un lloc adequat de la zona bruta del parc o altres instal·lacions que disposin dels mitjans adequats.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 3.2 home mort fixat",
+      "stem": "Segons el manual d'EPI, un cop s'ha activat l'alarma d'immobilitat («home mort»), què passa si en els 10 segons següents el dispositiu no detecta cap moviment?",
+      "options": [
+        "L'alarma queda fixada i només es pot desactivar manualment des dels botons del dispositiu de control electrònic.",
+        "L'alarma s'apaga automàticament.",
+        "L'ERA talla el subministrament d'aire.",
+        "Es redueix la pressió de l'ampolla fins a la reserva."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'alarma salta als 30 segons d'immobilitat; si en els 10 segons següents no hi ha moviment, queda fixada i cal desactivar-la manualment.",
+      "excerpt": "Si en els 10” següents el dispositiu de control en 10” no detecta cap moviment per part de l’usuari, l’alarma queda fixada i només es pot desactivar manualment des dels botons del dispositiu de control electrònic.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 3.4.2 càlcul de reserva",
+      "stem": "Segons el manual d'EPI, en una ampolla d'ERA de 6 litres a 300 bars, quin volum aproximat d'aire s'ha de considerar reserva que no s'ha d'utilitzar per a la feina operativa?",
+      "options": [
+        "450 litres.",
+        "1.350 litres.",
+        "60 litres.",
+        "1.800 litres."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Capacitat total = 300 bar × 6 l = 1.800 l; reserva ≈ 25 % → 0,25 × 1.800 = 450 l. Els 1.350 l són la part restant i els 1.800 l, la capacitat total.",
+      "excerpt": "La capacitat total de l’ampolla es calcula multiplicant la pressió de càrrega per la capacitat volumètrica. […] una part d’aquest aire s’ha de considerar reserva (aprox. 25% de la capacitat), que no s’ha d’utilitzar per a la feina operativa",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 4.2.4 gestió avançada",
+      "stem": "Segons el manual d'EPI, indica el factor que NO figura entre els que poden motivar una gestió avançada o especialitzada d'un equip contaminat:",
+      "options": [
+        "L'estat de l'equip segons la inspecció bàsica o assistida.",
+        "La categoria professional del bomber que ha utilitzat l'equip.",
+        "La manca de mitjans necessaris.",
+        "Les instruccions del fabricant."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Els quatre factors són l'estat de l'equip, la manca de mitjans, les instruccions del fabricant i els riscos de la manipulació durant el manteniment.",
+      "excerpt": "La necessitat de dur a terme una gestió avançada o especialitzada pot estar motivada per qualsevol dels quatre factors següents: − L’estat de l’equip mateix, segons es desprèn de la inspecció bàsica o assistida − La manca de mitjans necessaris − Les instruccions del fabricant − Els riscos que poden tenir origen en la manipulació dels equips durant les accions de manteniment requerides",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 4.2.2 gestió in situ",
+      "stem": "Segons el manual d'EPI, què determina el tipus de gestió de contaminants que necessita un equip després d'una intervenció?",
+      "options": [
+        "Només si l'equip presenta brutícia visible.",
+        "Únicament el temps que ha durat la intervenció.",
+        "L'estat aparent de l'equip (indicadors sensorials) i el perfil toxicològic i les característiques de l'escenari (indicadors tècnics).",
+        "La preferència del bomber que l'ha utilitzat."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "No n'hi ha prou amb la brutícia visible: molts contaminants són invisibles, per això també compten els indicadors tècnics.",
+      "excerpt": "El tipus de gestió vindrà determinada no només per l’estat aparent de l’equip (indicadors sensorials), sinó també pel perfil toxicològic i les característiques de l’escenari d’exposició en què s’hagi utilitzat l’equip (indicadors tècnics).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SEGU.000, § 2.2.3 EN 16473",
+      "stem": "Segons el manual d'EPI, quina norma s'aplica al casc lleuger quan s'utilitza en rescats i assistències tècniques?",
+      "options": [
+        "EN 16471.",
+        "EN 443.",
+        "EN 15614.",
+        "EN 16473."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "EN 16473: cascos per a rescat tècnic; EN 16471: cascos per a incendis forestals; EN 443: cascos per a incendis estructurals; EN 15614: vestuari forestal.",
+      "excerpt": "EN 16473 – Cascos per a rescat tècnic: Aplica al casc lleuger quan s’utilitza en rescats i assistències tècniques.",
+      "excerpt_status": "completo"
     }
   ]
 }

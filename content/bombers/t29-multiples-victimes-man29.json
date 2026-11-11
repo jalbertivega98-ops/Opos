@@ -318,6 +318,306 @@
       "explanation": "Cal repartir les víctimes segons capacitat i especialitat dels centres.",
       "excerpt": "És important evitar el col·lapse d’un únic centre hospitalari.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 1.1 criteris APCAT (greus)",
+      "stem": "Segons el manual d'IMV, d'acord amb el protocol APCAT, es considera un incident de múltiples víctimes quan hi ha, com a mínim, quantes víctimes greus o mortals reals o potencials?",
+      "options": [
+        "3 o més.",
+        "6 o més.",
+        "10 o més.",
+        "20 o més."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'APCAT fixa dos llindars: 6 o més víctimes greus o mortals, o 10 o més víctimes que requereixen trasllat hospitalari.",
+      "excerpt": "6 o més víctimes greus o mortals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.2 cèl·lula d'avaluació",
+      "stem": "Segons el manual d'IMV, per quines figures està formada la cèl·lula d'avaluació?",
+      "options": [
+        "Un representant dels Bombers, un de Protecció Civil i un de l'ajuntament.",
+        "El cap de guàrdia dels Bombers i dos metges del SEM.",
+        "Un representant del SEM, un dels Bombers i un dels Mossos d'Esquadra (o policia local).",
+        "Un representant de cada hospital de referència i un del SEM."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "És una estructura petita que fa la primera valoració i coordina les primeres decisions conjuntes.",
+      "excerpt": "La cèl·lula d’avaluació està formada per tres figures: […] Un representant del Servei d’Emergències Mèdiques (SEM) […] Un representant dels Bombers […] Un representant dels Mossos d’Esquadra (o policia local si és el cos disponible)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 2.2.4 sistemes d'etiquetatge",
+      "stem": "Segons el manual d'IMV, on es col·loquen les cintes de colors que identifiquen la prioritat de les víctimes?",
+      "options": [
+        "Només a la roba exterior, a l'esquena.",
+        "Al vehicle que trasllada la víctima.",
+        "A la llitera, mai sobre la víctima.",
+        "Al canell, al turmell o en un lloc visible del cos."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "També es poden fer servir targetes de triatge amb dades addicionals (hora i lloc, signes vitals, maniobres...).",
+      "excerpt": "Cintes de colors col·locades al canell, turmell o visible al cos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.6 CCA",
+      "stem": "Segons el manual d'IMV, què és el Centre de Comandament Avançat (CCA)?",
+      "options": [
+        "El punt de trobada dels comandaments dels diferents cossos que intervenen a l'incident.",
+        "La zona on s'agrupen les víctimes per rebre atenció mèdica.",
+        "El centre hospitalari de referència de la zona.",
+        "L'espai de la zona calenta on es fa el triatge START."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Des del CCA es coordinen les actuacions, es prenen decisions estratègiques i es manté contacte amb els centres de comandament superiors.",
+      "excerpt": "El Centre de Comandament Avançat és el punt de trobada dels comandaments dels diferents cossos que intervenen a l’incident.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.5 gestió de l'Àrea sanitària",
+      "stem": "Segons el manual d'IMV, qui gestiona l'Àrea sanitària?",
+      "options": [
+        "Els Bombers, amb suport del SEM.",
+        "El SEM, amb el suport logístic dels bombers per al muntatge i la protecció.",
+        "Els Mossos d'Esquadra.",
+        "Protecció Civil municipal."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "L'Àrea sanitària és gestionada pel SEM; els bombers sovint hi donen suport logístic.",
+      "excerpt": "Aquesta àrea és gestionada pel SEM, però el seu muntatge i protecció requereix sovint el suport logístic dels bombers.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.7 ordre d'evacuació",
+      "stem": "Segons el manual d'IMV, en quin ordre s'evacuen les víctimes cap als centres hospitalaris segons la gravetat?",
+      "options": [
+        "Primer els verds, perquè es poden traslladar més ràpidament.",
+        "Primer els grocs, després els vermells i finalment els verds.",
+        "Primer els vermells, després els grocs i, si cal, els verds.",
+        "Per ordre d'arribada a l'Àrea sanitària, sense tenir en compte el color."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "A més de la gravetat, es tenen en compte les necessitats especialitzades i la capacitat de cada hospital.",
+      "excerpt": "El grau de gravetat (1r vermells, 2n grocs i 3r verds, si cal).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 1.1 criteris APCAT (trasllat)",
+      "stem": "Segons el manual d'IMV, d'acord amb el protocol APCAT, a partir de quantes víctimes que requereixen trasllat hospitalari es considera un IMV?",
+      "options": [
+        "10 o més.",
+        "6 o més.",
+        "5 o més.",
+        "25 o més."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'altre criteri és 6 o més víctimes greus o mortals.",
+      "excerpt": "10 o més víctimes que requereixen trasllat hospitalari.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 1.2 característiques d'un IMV",
+      "stem": "Segons el manual d'IMV, quina d'aquestes és una de les característiques fonamentals d'un incident de múltiples víctimes?",
+      "options": [
+        "Les estructures socials i assistencials estan col·lapsades.",
+        "El risc està controlat i ben definit des del moment inicial.",
+        "Afecta un territori ampli o una regió sencera.",
+        "L'escenari està situat en un entorn geogràfic limitat."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Un IMV té moltes víctimes, entorn geogràfic limitat, estructures socials en normalitat i, inicialment, un risc descontrolat o mal definit.",
+      "excerpt": "L’escenari està situat en un entorn geogràfic limitat, és a dir, no es tracta d’una catàstrofe que afecti un territori ampli o una regió sencera.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.3 comandament operatiu",
+      "stem": "En un IMV per l'ensorrament d'un edifici sense cap indici d'il·lícit penal, qui assumeix el comandament operatiu inicial segons el manual d'IMV?",
+      "options": [
+        "El SEM.",
+        "Els Bombers.",
+        "Els Mossos d'Esquadra.",
+        "L'alcalde del municipi."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els Mossos d'Esquadra el tenen quan hi ha presumpte il·lícit penal i risc afegit; en la resta, com accidents de trànsit, incendis o ensorraments, el tenen els Bombers.",
+      "excerpt": "Bombers, en la resta de situacions amb múltiples víctimes que comporten risc associat però no tenen indicis d’il·lícit penal, com ara accidents de trànsit, incendis, ensorraments, fenòmens meteorològics extrems o incidents tecnològics.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.4 primer cercle de seguretat",
+      "stem": "Segons el manual d'IMV, a quines zones del zonatge de Bombers equival el primer cercle de seguretat dels Mossos d'Esquadra?",
+      "options": [
+        "Només a la zona calenta.",
+        "A la zona tèbia i la zona freda.",
+        "Només a la zona freda.",
+        "A la zona calenta i la zona tèbia."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El segon cercle correspon a la zona freda, on s'instal·len l'Àrea sanitària i el CCA.",
+      "excerpt": "Primer cercle de seguretat (Mossos d’Esquadra): engloba la zona de risc immediat i mitjà. Aquest cercle inclou tant la zona calenta com la zona tèbia definida per Bombers.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 2.5.1 mètodes funcionals",
+      "stem": "Segons el manual d'IMV, en la classificació dels mètodes de triatge segons la seva operativitat, a quin grup pertany el mètode START?",
+      "options": [
+        "Als mètodes funcionals, basats únicament en la valoració de les funcions vitals.",
+        "Als mètodes basats en lesions.",
+        "Als mètodes mixtos.",
+        "Als mètodes hospitalaris."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Els mètodes funcionals (START, CareFlight) són ràpids i senzills; els basats en lesions són més precisos però més lents; els mixtos combinen tots dos criteris (SALT).",
+      "excerpt": "Es basen únicament en la valoració de les funcions vitals (respiració, pols, estat mental). […] Exemples: START, CareFlight (Austràlia).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 2.4 cas pràctic sense pols radial",
+      "stem": "En un IMV, una dona estirada respira a 22 rpm, no té pols radial però està conscient. Segons el mètode START, quin color se li assigna?",
+      "options": [
+        "Groc (prioritat 2).",
+        "Verd (prioritat 3).",
+        "Vermell (prioritat 1).",
+        "Negre (prioritat 4)."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'absència de pols radial indica perfusió deficient i possible xoc, per la qual cosa és prioritat 1 encara que estigui conscient.",
+      "excerpt": "Cas 7: Dona estirada, respira a 22 rpm, pols absent al canell, però està conscient. […] Justificació: Perfusió deficient (no hi ha pols radial), indicatiu de xoc. Cal atenció immediata.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 2.4 cas pràctic groc",
+      "stem": "En un IMV, una dona gran no pot caminar per una ferida sagnant a la cama, està conscient i parla, té pols radial present i respira a 20 rpm. Segons el mètode START, quin color se li assigna?",
+      "options": [
+        "Vermell (prioritat 1).",
+        "Verd (prioritat 3).",
+        "Negre (prioritat 4).",
+        "Groc (prioritat 2)."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Té les funcions vitals estables, però la ferida pot requerir tractament urgent: pot esperar amb vigilància.",
+      "excerpt": "Cas 2: Dona gran amb ferida sagnant a la cama, està conscient i parla. Té pols radial present i respira a 20 rpm. […] Classificació: GROC (Prioritat 2)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.2 relleu de la cèl·lula d'avaluació",
+      "stem": "Segons el manual d'IMV, què passa amb la cèl·lula d'avaluació un cop superada la fase inicial?",
+      "options": [
+        "Es manté fins al final de la intervenció com a únic òrgan de comandament.",
+        "És rellevada pels comandaments naturals de cada cos, que es coordinen en el Centre de Comandament Avançat.",
+        "Es converteix en l'Àrea sanitària.",
+        "Es dissol i cada cos actua de manera independent."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La cèl·lula actua només en la fase inicial; el CCA n'és la continuació natural amb els caps operatius de cada servei.",
+      "excerpt": "Aquesta cèl·lula actua només en la fase inicial, i posteriorment són rellevats pels seus comandaments naturals, que acaben coordinant-se en el Centre de Comandament Avançat (CCA).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.5 accés a l'Àrea sanitària",
+      "stem": "Segons el manual d'IMV, com ha de ser l'accés a l'Àrea sanitària?",
+      "options": [
+        "Amb tantes entrades com calgui per agilitzar l'arribada de víctimes.",
+        "Lliure, sense cap control, per no retardar l'assistència.",
+        "Amb una única entrada i sortida controlada.",
+        "Per accessos diferents per a cada color de triatge, sense control."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'Àrea sanitària ha d'estar ben senyalitzada, ordenada i protegida de l'exterior.",
+      "excerpt": "És fonamental que l’Àrea sanitària estigui ben senyalitzada, ordenada i protegida de l’exterior, i que hi hagi una única entrada i sortida controlada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 2.5.2 CareFlight",
+      "stem": "Segons la comparació de mètodes de triatge del manual d'IMV, quin inconvenient té el mètode CareFlight?",
+      "options": [
+        "No valora l'estat mental.",
+        "És molt lent i tècnic.",
+        "Requereix dades clíniques i temps.",
+        "Només es pot aplicar en hospitals."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "CareFlight és funcional i molt ràpid (valoració per mobilitat). «Més lent i tècnic» és l'inconvenient del SALT, i «requereix dades clíniques i temps», del TSI/RTS.",
+      "excerpt": "CareFlight Funcional Emergències prehospitalàries Molt ràpid (valoració per mobilitat) No valora estat mental",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 4.2.1 il·lícit penal",
+      "stem": "En un IMV per un atemptat amb explosiu, segons el manual d'IMV, quan poden accedir els Bombers al primer cercle de seguretat?",
+      "options": [
+        "Immediatament, perquè el rescat de víctimes té prioritat sobre la seguretat.",
+        "Quan ho decideix el cap de la dotació dels Bombers després de valorar l'escenari.",
+        "Quan la policia ho autoritza i en les condicions de seguretat establertes.",
+        "Només quan ho autoritza el SEM des de l'Àrea sanitària."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Amb sospita d'il·lícit penal, el comandament operatiu recau en el cos policial, que controla la causa del risc i busca explosius secundaris.",
+      "excerpt": "Els Bombers només poden accedir a el primer cercle de seguretat quan la policia l’autoritza, i en les condicions de seguretat establertes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 3.8 filiació",
+      "stem": "Segons el manual d'IMV, en quins cossos recau principalment la filiació de les víctimes?",
+      "options": [
+        "Exclusivament en els Bombers.",
+        "En els hospitals de destinació.",
+        "En Protecció Civil i els ajuntaments.",
+        "En els cossos policials i el SEM, amb l'ajuda dels bombers especialment en les fases inicials."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "La filiació inclou ferits, il·lesos i víctimes mortals i permet fer seguiment, informar els familiars i gestionar la informació amb les autoritats.",
+      "excerpt": "Aquesta tasca recau principalment en els cossos policials i el SEM, però sovint els bombers ajuden a identificar i ordenar les víctimes i els afectats, especialment en les fases inicials.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 1.3 funcions dels bombers",
+      "stem": "Segons el manual d'IMV, indica la resposta INCORRECTA sobre les funcions dels bombers en un IMV:",
+      "options": [
+        "Fer el triatge avançat (META) de les víctimes a l'Àrea sanitària.",
+        "Liderar la cèl·lula d'avaluació inicial en casos de risc per als intervinents, juntament amb el SEM i cossos de seguretat.",
+        "Decidir la ubicació del Centre de Comandament Avançat (CCA).",
+        "Garantir la seguretat estructural i operativa de l'escenari."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El triatge avançat META és responsabilitat del personal mèdic; els bombers poden aplicar el triatge bàsic START.",
+      "excerpt": "Liderar la cèl·lula d’avaluació inicial en casos de risc per als intervinents, juntament amb el SEM i cossos de seguretat […] Decidir la ubicació del Centre de Comandament Avançat (CCA) […] Aquest triatge és responsabilitat del personal mèdic",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SANI.001, § 2.5.1 mètodes basats en lesions",
+      "stem": "Segons el manual d'IMV, quin d'aquests és un exemple de mètode de triatge basat en lesions?",
+      "options": [
+        "El START.",
+        "El TSI (Trauma Severity Index).",
+        "El CareFlight.",
+        "El SALT."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "START i CareFlight són funcionals; SALT és mixt. Els mètodes basats en lesions (TSI, RTS) són més precisos però requereixen més temps i coneixement mèdic.",
+      "excerpt": "Exemples: TSI (Trauma Severity Index), Triage Revised Trauma Score (RTS).",
+      "excerpt_status": "completo"
     }
   ]
 }

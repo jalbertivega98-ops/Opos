@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "set": "bomb-t01-constitucio-estatut-generalitat-lrjcat-v1",
+    "exam": "bombers-generalitat",
+    "also_exams": [],
+    "topic": "Tema 1. La Constitució, l'Estatut d'autonomia i l'organització de la Generalitat",
+    "topic_slug": "bomb-t01-constitucio-estatut-generalitat",
+    "locale": "ca",
+    "category": "bomb_t01_constitucio_estatut_generalitat",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-06",
+    "source": {
+      "title": "Ley 26/2010, de 3 de agosto, de régimen jurídico y de procedimiento de las administraciones públicas de Cataluña (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-13313",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Preguntes originals en català a l'estil de la prova de coneixements de Bombers de la Generalitat (convocatòries 81/23-81/26: 4 opcions, una correcta; cada error resta 1/4), redactades a partir del text oficial (BOE consolidat, DOGC o manuals oficials del Cos de Bombers publicats a la Guia orientativa de la convocatòria 81/26); no provenen de bancs d'acadèmies ni d'exàmens. \"excerpt\" és el fragment literal de la font (en la seva llengua original) i \"ref\" l'article."
+  },
+  "questions": [
+    {
+      "ref": "Art. 19 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, de règim jurídic i de procediment de les administracions públiques de Catalunya, com s'adopten, en general, els acords dels òrgans col·legiats?",
+      "options": [
+        "Per majoria absoluta, i en cas d'empat es repeteix la votació l'endemà.",
+        "Per unanimitat de tots els membres presents.",
+        "Per majoria de dues terceres parts, sense vot de qualitat.",
+        "Per majoria simple de vots, i en cas d'empat dirimeix el vot del president."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L'art. 19.1 de la Llei 26/2010 fixa la majoria simple, llevat que les normes de l'òrgan diguin una altra cosa; qui fa constar en acta el vot contrari o l'abstenció queda exempt de responsabilitat (art. 19.3).",
+      "excerpt": "Los acuerdos del órgano colegiado se adoptan por mayoría simple de votos, salvo que sus normas reguladoras establezcan una mayoría distinta. En caso de empate dirime los resultados de las votaciones el voto del presidente o presidenta.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 54 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, quin és, com a regla general, el sentit del silenci administratiu en els procediments iniciats a sol·licitud de la persona interessada?",
+      "options": [
+        "Estimatori: la persona pot entendre estimada la seva sol·licitud.",
+        "Desestimatori en tots els casos.",
+        "No té cap sentit: cal esperar sempre la resolució expressa.",
+        "Estimatori només si la sol·licitud implica el pagament d'una quantitat."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "L'art. 54.1 estableix el silenci positiu com a regla; l'art. 54.2 hi estableix excepcions amb efecte desestimatori, com les subvencions o la responsabilitat patrimonial.",
+      "excerpt": "el vencimiento del plazo sin que se haya notificado resolución expresa legitima a la persona interesada para entender estimada su solicitud por silencio administrativo.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Art. 17 Llei 26/2010",
+      "stem": "Segons la Llei 26/2010, en segona convocatòria, si les normes pròpies de l'òrgan col·legiat no diuen res, quin quòrum cal per constituir-lo vàlidament?",
+      "options": [
+        "Una tercera part dels membres, amb un mínim de tres.",
+        "La meitat dels membres, com en primera convocatòria.",
+        "La majoria absoluta dels membres.",
+        "Qualsevol nombre de membres, si hi són el president i el secretari."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "L'art. 17.6 fixa aquest quòrum; en primera convocatòria cal la presència del president i del secretari (o substituts) i de la meitat, com a mínim, dels membres (art. 17.4).",
+      "excerpt": "En segunda convocatoria, si las normas propias del órgano no han especificado el número de miembros necesarios para constituir válidamente el órgano, el quórum se alcanza con la asistencia de una tercera parte de los miembros, con un mínimo de tres.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -318,6 +318,306 @@
       "explanation": "Com més curt i gruixut és el conductor, menys resistència ofereix i més corrent pot transportar.",
       "excerpt": "Com més curt i gruixut és el conductor, més corrent pot transportar.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 3.6 energia (consum)",
+      "stem": "Segons el manual d'electricitat, en quina unitat s'expressa més comunament l'energia elèctrica consumida, que és el que es paga a la factura?",
+      "options": [
+        "En kilowatts (kW).",
+        "En amperes-hora (Ah).",
+        "En kilowatts-hora (kWh).",
+        "En kilovolts-amperes (kVA)."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "L'energia és la potència consumida al llarg del temps i es mesura en Wh o kWh. L'Ah mesura la capacitat, no l'energia; el kW és potència.",
+      "excerpt": "Unitat de mesura: El watt-hora (Wh) o, més comunament, el kilowatt-hora (kWh).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2 corrent altern (freqüència)",
+      "stem": "Segons el manual d'electricitat, quina és la freqüència estàndard del corrent altern a Europa?",
+      "options": [
+        "60 Hz.",
+        "50 Hz.",
+        "100 Hz.",
+        "230 Hz."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "A Europa la freqüència és de 50 Hz: 50 cicles per segon. 230 és la tensió eficaç en volts, no una freqüència.",
+      "excerpt": "A Europa, la freqüència estàndard és de 50 Hertz (Hz), el que significa que la tensió i la intensitat completen 50 cicles per segon",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 6 símil hidràulic",
+      "stem": "En el símil hidràulic del manual d'electricitat, a què equival la intensitat del corrent?",
+      "options": [
+        "Al cabal, la quantitat d'aigua per unitat de temps.",
+        "A la pressió de l'aigua.",
+        "A l'escanyament o rugositat de la canonada.",
+        "A la bomba d'aigua."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "Tensió ↔ pressió; intensitat ↔ cabal; resistència ↔ escanyament o rugositat; generador ↔ bomba.",
+      "excerpt": "Intensitat, corrent (A) Cabal (quantitat d’aigua per unitat de temps)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 4.1 llei d'Ohm",
+      "stem": "Una resistència de 46 Ω es connecta a 230 V. Segons la llei d'Ohm del manual d'electricitat, quina intensitat hi circula?",
+      "options": [
+        "0,2 A.",
+        "10.580 A.",
+        "184 A.",
+        "5 A."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "I = V / R = 230 V / 46 Ω = 5 A. Multiplicar (230 · 46) o dividir al revés (46/230 = 0,2) és incorrecte.",
+      "excerpt": "Es pot expressar amb la següent fórmula: I = V / R",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 5.1 elements d'un circuit bàsic",
+      "stem": "Segons el manual d'electricitat, quin element d'un circuit bàsic converteix l'energia elèctrica en llum, calor o moviment?",
+      "options": [
+        "La font de tensió.",
+        "El receptor o càrrega.",
+        "El conductor.",
+        "L'interruptor."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La font crea la diferència de potencial, els conductors transporten el corrent, l'interruptor obre o tanca el circuit i el receptor (bombeta, motor) transforma l'energia.",
+      "excerpt": "Receptor o càrrega: Converteix l’energia elèctrica en llum, calor, moviment, etc. (ex. bombeta, motor).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.3 i 8.2 conversions i transformadors",
+      "stem": "Segons el manual d'electricitat, indica la resposta INCORRECTA:",
+      "options": [
+        "La rectificació transforma el corrent altern en continu, principalment amb díodes.",
+        "Els inversors converteixen el corrent continu en altern.",
+        "L'alternador del cotxe genera corrent altern, que es rectifica per carregar la bateria.",
+        "Els transformadors permeten pujar o baixar la tensió del corrent continu."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Els transformadors només funcionen amb corrent altern. La resta d'afirmacions coincideixen amb el manual.",
+      "excerpt": "Són reversibles i només funcionen amb corrent altern. […] La rectificació transforma el corrent altern en continu. Es fa principalment amb díodes […] La inversió converteix la DC en AC. […] l’alternador del cotxe genera AC, que després es rectifica a DC per carregar la bateria.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 4.3 potència elèctrica",
+      "stem": "Una estufa (càrrega resistiva) connectada a 230 V consumeix 10 A. Quina potència té, segons la fórmula bàsica del manual d'electricitat?",
+      "options": [
+        "23 W.",
+        "240 W.",
+        "2.300 W.",
+        "23.000 W."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "P = V × I = 230 V × 10 A = 2.300 W (2,3 kW). Aquesta fórmula és vàlida en continu o amb càrregues purament resistives en altern.",
+      "excerpt": "La formula (bàsica) per calcular la potència elèctrica és vàlida en corrent continu o per càrregues purament resistives en corrent altern: P = V × I",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 3.6 energia (consum)",
+      "stem": "Una estufa de 1.500 W funciona durant 4 hores. Seguint els exemples del manual d'electricitat, quina energia consumeix?",
+      "options": [
+        "6 kWh.",
+        "0,375 kWh.",
+        "6.000 kWh.",
+        "1,5 kWh."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Energia = potència × temps = 1,5 kW × 4 h = 6 kWh (6.000 Wh, no 6.000 kWh).",
+      "excerpt": "Una bombeta de 10 W encesa durant10 hores consumeix 100 Wh = 0.1 kWh. Un termo elèctric de 1000 W escalfant aigua durant 2 hores consumeix 2 kWh.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 5.2.1 connexió en sèrie",
+      "stem": "Tres resistències de 10 Ω, 20 Ω i 30 Ω es connecten en sèrie a una font de 120 V. Segons el manual d'electricitat, quina intensitat circula pel circuit?",
+      "options": [
+        "6 A.",
+        "2 A.",
+        "12 A.",
+        "0,5 A."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Rtotal = 10 + 20 + 30 = 60 Ω; I = V / Rtotal = 120 / 60 = 2 A, la mateixa per a tots els elements.",
+      "excerpt": "Rtotal = R1 + R2 + R3 + ... […] Itotal = V / Rtotal",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 5.2.2 connexió en paral·lel",
+      "stem": "Dues resistències iguals de 60 Ω es connecten en paral·lel. Segons la fórmula del manual d'electricitat, quina és la resistència equivalent?",
+      "options": [
+        "120 Ω.",
+        "60 Ω.",
+        "30 Ω.",
+        "3.600 Ω."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "1/Rtotal = 1/60 + 1/60 = 2/60 → Rtotal = 30 Ω. En paral·lel la resistència equivalent és menor que la de cada branca; 120 Ω seria la suma en sèrie.",
+      "excerpt": "La resistència equivalent de varies càrregues connectades en paral·lel es calcula: 1/ Rtotal = 1/R1 + 1/R2 + 1/R3 + ...",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 9.1.1 el cos humà és conductor",
+      "stem": "Segons el manual d'electricitat, quines tensions es consideren segures, en condicions normals d'ambient sec, segons la normativa internacional?",
+      "options": [
+        "Per sota de 25 V en altern i 60 V en continu.",
+        "Per sota de 230 V en altern i 400 V en continu.",
+        "Per sota de 120 V en altern i 50 V en continu.",
+        "Per sota de 50 V en altern i 120 V en continu."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "En ambient sec: 50 V AC i 120 V DC. En ambient humit o amb la pell mullada es redueixen a la meitat: 25 V AC i 60 V DC.",
+      "excerpt": "En la normativa internacional es consideren tensions segures per sota de 50V AC i 120 V DC en condicions normals (ambient sec). Si l’ambient és humit o la pell pot estar mullada (baixa la resistència), les tensions segures es redueixen a la meitat, 25 V AC i 60 V DC.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2.2 corrent altern trifàsic",
+      "stem": "Segons el manual d'electricitat, quina és a Europa la tensió de línia, mesurada entre dues fases d'un sistema trifàsic?",
+      "options": [
+        "400 V.",
+        "230 V.",
+        "325 V.",
+        "120 V."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Entre dues fases hi ha 400 V (566 V de pic); entre fase i neutre, 230 V eficaços (uns 325 V de pic).",
+      "excerpt": "La tensió mesurada entre dues fases (anomenada tensió de línia) és de 400 V a Europa (566 V de pic).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2 corrent altern (cicle)",
+      "stem": "Segons el manual d'electricitat, en una xarxa de 50 Hz quant dura cada cicle i quantes vegades per segon s'inverteix el sentit del corrent?",
+      "options": [
+        "50 ms i 50 vegades per segon.",
+        "20 ms i 50 vegades per segon.",
+        "20 ms i 100 vegades per segon.",
+        "2 ms i 100 vegades per segon."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "1 s / 50 cicles = 20 ms per cicle; en cada cicle la polaritat canvia dues vegades, és a dir, 100 inversions per segon.",
+      "excerpt": "cada cicle dura 20 ms (mil·lisegons). Dins de cada cicle, la polaritat canvia dues vegades (passant per zero), de manera que el sentit del corrent s'inverteix 100 vegades per segon.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2.3 càrregues en corrent altern",
+      "stem": "Segons el manual d'electricitat, en una càrrega inductiva com un motor, quina relació hi ha entre la tensió i la intensitat?",
+      "options": [
+        "La intensitat va endarrerida respecte a la tensió.",
+        "La intensitat va avançada respecte a la tensió.",
+        "Estan sempre en fase, sense desfasament.",
+        "La intensitat és sempre zero."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "En càrregues inductives (bobines) la intensitat s'endarrereix; en les capacitives s'avança; en les resistives tensió i intensitat estan en fase.",
+      "excerpt": "b) Càrregues inductives (barra elàstica o molla): la intensitat va endarrerida",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2.4 potència en corrent altern",
+      "stem": "Segons el manual d'electricitat, en quina unitat s'expressa la potència reactiva (Q)?",
+      "options": [
+        "En watts (W).",
+        "En volts-amperes reactius (var).",
+        "En volts-amperes (VA).",
+        "En watts-hora (Wh)."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Potència activa: W; potència reactiva: var o kvar; potència aparent: VA o kVA.",
+      "excerpt": "Unitats: Volt-ampere reactius (var) o kilovolt-ampere reactius (kvar).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 4.2 efecte Joule",
+      "stem": "Per un conductor de 2 Ω circulen 10 A durant 60 s. Segons la fórmula de l'efecte Joule del manual d'electricitat, quanta calor es genera?",
+      "options": [
+        "1.200 J.",
+        "2.400 J.",
+        "120 J.",
+        "12.000 J."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Q = I² × R × t = 10² × 2 × 60 = 100 × 120 = 12.000 J. Si no s'eleva la intensitat al quadrat s'obté 1.200 J.",
+      "excerpt": "La calor generada es pot calcular amb la següent fórmula: Q = I 2 x R x t",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2.2 càlcul de potència en trifàsic",
+      "stem": "En un sistema trifàsic equilibrat cada fase subministra 230 V i 10 A a una càrrega resistiva. Segons el manual d'electricitat, quina és la potència total?",
+      "options": [
+        "2.300 W.",
+        "6.900 W.",
+        "4.000 W.",
+        "690 W."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Pfase = 230 × 10 = 2.300 W; en un sistema equilibrat Ptotal = 3 × Pfase = 6.900 W.",
+      "excerpt": "Si considerem un sistema equilibrat (on la tensió i la intensitat són iguals en les tres fases), la potència total es pot calcular com el triple de la potència d'una sola fase. És a dir: Ptotal = 3 × Pfase",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 7.2.6 consideracions pràctiques sobre la potència aparent",
+      "stem": "Un grup electrogen de 10 kVA alimenta electrobombes amb un factor de potència baix. Què indica el manual d'electricitat sobre la potència útil que pot donar?",
+      "options": [
+        "Que podria subministrar només 8 o 9 kW de potència activa.",
+        "Que donarà sempre 10 kW de potència activa, perquè kVA i kW són el mateix.",
+        "Que en podrà donar més de 10 kW, perquè els motors retornen energia.",
+        "Que no podrà alimentar cap càrrega inductiva."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La capacitat en kVA és potència aparent; amb càrregues molt inductives una part és reactiva i la potència activa disponible és menor.",
+      "excerpt": "així, un equip de 10 kVA podria subministrar només 8 o 9 kW de potència activa si alimenta motors o electrobombes amb un factor de potència baix.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 9.1.2 el cos humà en el circuit elèctric",
+      "stem": "Un camió grua toca accidentalment una línia elèctrica. Segons el manual d'electricitat, per què és perillós que una persona toqui el camió?",
+      "options": [
+        "Perquè els pneumàtics tenen una resistència molt baixa i tot el corrent ja passa a terra.",
+        "Perquè la persona queda en sèrie amb els pneumàtics i en multiplica la resistència.",
+        "No és perillós, perquè el camió queda al mateix potencial que el terra.",
+        "Perquè el seu cos ofereix un camí cap a terra en paral·lel amb menys resistència que els pneumàtics."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "L'elevada resistència dels pneumàtics fa que el corrent cap a terra sigui petit, però la persona que toca el camió hi afegeix un camí en paral·lel més fàcil.",
+      "excerpt": "Un camió grua toca accidentalment una línia elèctrica. L'elevada resistència dels pneumàtics fa que el corrent que passa cap a terra sigui petit. Tanmateix, si una persona toca el camió, el seu cos “ofereix” un camí més fàcil (menys resistència que els pneumàtics).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.005, § 9.1.2 el cos humà en el circuit elèctric",
+      "stem": "Una persona amb una resistència corporal suposada de 1.000 Ω tanca el circuit entre una fase de 230 V i terra. Aplicant la llei d'Ohm del manual d'electricitat, quina intensitat la travessa i com és respecte al llindar crític?",
+      "options": [
+        "23 mA, per sota del llindar crític de 30 mA.",
+        "2,3 mA, per sota del llindar crític de 30 mA.",
+        "230 mA, molt per sobre del llindar crític de 30 mA.",
+        "230 A, igual que el corrent nominal de la xarxa."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "I = V / R = 230 / 1.000 = 0,23 A = 230 mA, gairebé vuit vegades el llindar de 30 mA a 50 Hz.",
+      "excerpt": "el corrent que circula pel cos només queda limitat per la nostra resistència (V = I x R). […] S'ha establert el llindar crític de 30 mA (a 50 Hz)",
+      "excerpt_status": "completo"
     }
   ]
 }

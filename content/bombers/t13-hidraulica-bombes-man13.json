@@ -318,6 +318,306 @@
       "explanation": "La pressió atmosfèrica disminueix amb l'altitud (uns 0,129 m.c.a. per cada 100 m), cosa que limita la capacitat d'aspiració de les bombes.",
       "excerpt": "Per cada 100 metres d’ascens, decreix aproximadament 0,129 m.c.a., fet molt rellevant en aspiració.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.1 mànegues",
+      "stem": "Segons el manual d'hidràulica, de quina longitud són normalment els trams de mànega que utilitzen els Bombers?",
+      "options": [
+        "10 metres.",
+        "50 metres.",
+        "20 metres.",
+        "5 metres."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Les mànegues es fan en trams de 20 m amb ràcords Barcelona; també n'hi ha de 30 o 40 m per a autoescales i de 5 o 10 m per alimentar des de l'hidrant.",
+      "excerpt": "Les mànegues que utilitzem a Bombers són flexibles, lleugeres, de fàcil manipulació i plegat, en trams de 20 metres normalment, dotades de ràcords Barcelona d’alumini als extrems per ser acoblades entre sí.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 3.1.4 manòmetres",
+      "stem": "Segons el manual d'hidràulica, quin és el tipus de manòmetre més habitual?",
+      "options": [
+        "El vacuòmetre, que només mesura depressió.",
+        "El tub de Venturi.",
+        "El baròmetre de mercuri de Torricelli.",
+        "El de tipus Bourdon, amb un tub metàl·lic corbat que s'estira quan augmenta la pressió."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "El manòmetre Bourdon transmet el moviment del tub corbat a una agulla; com que l'exterior del tub és a pressió atmosfèrica, mesura pressió relativa.",
+      "excerpt": "El més habitual és el de tipus Bourdon, format per un tub metàl·lic corbat que s'estira a mesura que augmenta la pressió.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.2 manegots",
+      "stem": "Segons el manual d'hidràulica, quines funcions fa la vàlvula de peu o «pinya» connectada a l'extrem d'entrada dels manegots?",
+      "options": [
+        "Regula la pressió de sortida de la bomba.",
+        "Fa de filtre i de vàlvula antiretorn.",
+        "Barreja l'escumogen amb l'aigua.",
+        "Mesura el cabal aspirat."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La pinya evita que entrin objectes a la bomba i impedeix que es buidi la columna d'aigua dels manegots, de manera que no calgui tornar a cebar cada vegada que s'atura la bomba.",
+      "excerpt": "A l’extrem d’entrada dels manegots es connecta la vàlvula de peu o “pinya”, que fa la funcions de filtre, per evitar l’entrada a la bomba d’objectes, i també de vàlvula antiretorn",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.3.1 tipus de raig",
+      "stem": "Segons el manual d'hidràulica, quin tipus de raig aconsegueix la màxima distància de projecció i força d'impacte?",
+      "options": [
+        "El raig tens.",
+        "El con d'atac.",
+        "La cortina de protecció.",
+        "El raig polvoritzat de màxima obertura."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El raig tens surt en línia recta; el con d'atac (fins a uns 50°) abasta més superfície però menys distància, i la cortina (fins a 120-130°) protegeix de la radiació.",
+      "excerpt": "Raig tens: El raig surt en línia recta i pràcticament no augmenta la seva secció. Aconseguim la màxima distància de projecció i força d’impacte.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 3.1.1 unitats de pressió (cas pràctic)",
+      "stem": "Segons la regla pràctica del manual d'hidràulica, fins a quina alçada ideal (sense pèrdues) es pot impulsar l'aigua que surt de la bomba a 5 bar?",
+      "options": [
+        "Uns 5 metres.",
+        "Uns 50 metres.",
+        "Uns 500 metres.",
+        "Uns 15 metres."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "1 bar ≈ 10 m de columna d'aigua; 5 bar × 10 = 50 m (el manual posa l'exemple de 8 bar → 80 m).",
+      "excerpt": "1 bar = 10 metres de columna d’aigua Això permet saber, per exemple, que si l’aigua surt a 8 bar de pressió des de la bomba, pot pujar fins a uns 80 metres (de forma ideal i sense pèrdues).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.1.1 circulació lliure o forçada",
+      "stem": "Segons el manual d'hidràulica, quin tipus de circulació de l'aigua és el més comú en les operacions de bombers?",
+      "options": [
+        "La circulació lliure, per gravetat.",
+        "La circulació amb superfície lliure, com en un canal.",
+        "La circulació per capil·laritat.",
+        "La circulació forçada, amb l'aigua impulsada per una bomba."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La circulació forçada permet impulsar l'aigua a grans distàncies i superar desnivells; la circulació lliure per gravetat no és habitual en emergències.",
+      "excerpt": "Circulació forçada: el líquid és impulsat per una bomba, generant una pressió que força el moviment. És el tipus més comú en les operacions de bombers",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.1.2 mànegues de 45 mm",
+      "stem": "Una línia està formada per 5 mànegues de 45 mm de 20 m. Segons el manual d'hidràulica, quants litres d'aigua aproximadament calen per omplir-la?",
+      "options": [
+        "Uns 150 litres.",
+        "Uns 30 litres.",
+        "Uns 50 litres.",
+        "Uns 385 litres."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Una mànega de 45 mm conté uns 1,5 L/m, és a dir, 30 L per tram de 20 m: 5 × 30 = 150 L. 385 L correspondrien a 5 mànegues de 70 mm (77 L cadascuna).",
+      "excerpt": "Aproximadament hi cap 1,5 litres d’aigua per metre lineal, és a dir, 30 litres d’aigua per cada mànega de 20 metres.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 3.1.3 pressió absoluta i pressió relativa",
+      "stem": "El manòmetre de sortida d'una bomba, al nivell del mar (pressió atmosfèrica ≈ 1 bar), marca 6 bar. Segons el manual d'hidràulica, quina és la pressió absoluta?",
+      "options": [
+        "6 bar.",
+        "5 bar.",
+        "7 bar.",
+        "1 bar."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Els manòmetres convencionals mesuren pressió relativa; P absoluta = P relativa + P atmosfèrica = 6 + 1 = 7 bar.",
+      "excerpt": "P absoluta = P relativa + P atmosfèrica",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.3 equació de Bernoulli (desnivells)",
+      "stem": "Una llança es troba 30 m per sobre de la bomba. Segons el manual d'hidràulica, quanta pressió es perd només pel desnivell, sense comptar les pèrdues per fregament?",
+      "options": [
+        "Uns 30 bar.",
+        "Uns 3 bar.",
+        "Uns 0,3 bar.",
+        "Cap, perquè la pressió no depèn de l'alçada."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Els desnivells fan variar la pressió a raó d'1 bar per cada 10 m: 30 m → 3 bar.",
+      "excerpt": "En canvi, el que si ens farà variar molt significativament la pressió són els desnivells, a raó de 1 bar per cada 10 m de desnivell.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 3.3 principi de Pascal",
+      "stem": "En un gat hidràulic s'aplica una força de 200 N sobre un èmbol de 2 cm². L'altre èmbol fa 50 cm². Segons el principi de Pascal, quina força s'obté a l'èmbol gran?",
+      "options": [
+        "200 N.",
+        "8 N.",
+        "5.000 N.",
+        "10.000 N."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "P = 200 N / 2 cm² = 100 N/cm²; F = 100 N/cm² × 50 cm² = 5.000 N. La força es multiplica per la relació de superfícies (50/2 = 25).",
+      "excerpt": "La pressió exercida en un punt qualsevol d’un líquid tancat i en repòs es transmet amb la mateixa intensitat i en totes les direccions a tots els punts del líquid i a les parets del recipient que el conté. […] Hem multiplicat la força per 100, la relació de superfícies dels èmbols.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.2.1 el cabal",
+      "stem": "Una bomba buida completament un dipòsit de 3.000 litres en 5 minuts. Segons la definició de cabal del manual d'hidràulica, quin cabal mitjà ha impulsat?",
+      "options": [
+        "15.000 l/min.",
+        "60 l/min.",
+        "1.500 l/min.",
+        "600 l/min."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Q = V / t = 3.000 L / 5 min = 600 l/min (36 m³/h).",
+      "excerpt": "Q és el cabal, en m3/s V és el volum, en m3 t el temps en segons […] Litre per minut (l/min o lpm)",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.6 cop d'ariet",
+      "stem": "En una instal·lació amb mànega de 70 mm cal tancar una vàlvula de bola. Segons el manual d'hidràulica, com s'ha de fer per evitar el cop d'ariet?",
+      "options": [
+        "Lenta i progressivament, uns 8 segons en mànegues de 70 mm.",
+        "De cop, perquè com més ràpid es tanca menys sobrepressió es genera.",
+        "Primer aturant la bomba i després obrint la llança del tot.",
+        "No cal cap precaució, perquè les vàlvules de bola no generen cop d'ariet."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Les vàlvules de rosca triguen prou a tancar; les de bola s'han de tancar lentament, sobretot amb cabals grans (uns 8 s en 70 mm).",
+      "excerpt": "On s’ha de tenir especial cura és en les vàlvules de bola, que hem de ser conscients a tancar-les lenta i progressivament, sobretot com més gran sigui el cabal que circula (uns 8 segons en mànegues de 70 mm).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.2 manegots",
+      "stem": "Per fer una aspiració des d'una bassa, per què cal utilitzar manegots i no mànegues flexibles, segons el manual d'hidràulica?",
+      "options": [
+        "Perquè les mànegues flexibles col·lapsen quan la pressió baixa per sota de l'atmosfèrica.",
+        "Perquè les mànegues flexibles no suporten pressions superiors a 1 bar.",
+        "Perquè els manegots porten ràcord Barcelona, que és més estanc en depressió.",
+        "Perquè els manegots tenen menys diàmetre i augmenten la velocitat de l'aigua."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Amb pressió relativa negativa les mànegues col·lapsen; els manegots són semirígids (espires d'acer) i s'acoblen amb ràcords Storz, perquè el Barcelona no garanteix l'estanqueïtat en depressió.",
+      "excerpt": "Les mànegues flexibles només poden treballar amb pressió, ja que si la pressió disminueix per sota l'atmosfèrica (pressió relativa negativa) les mànegues col·lapsen.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.3.4 monitors",
+      "stem": "Segons el manual d'hidràulica, què cal fer amb un monitor portàtil abans de posar-lo en servei?",
+      "options": [
+        "Inclinar-lo per sota de 30° respecte a l'horitzontal.",
+        "Connectar-lo a una mànega de 25 mm.",
+        "Treure-li el sistema d'oscil·lació.",
+        "Ancorar-lo a un punt fix o a una estaca."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Per les grans forces de reacció, el monitor portàtil s'ha d'ancorar; a més, no pot treballar per sota d'uns 30-35° respecte a l'horitzontal perquè no llisqui enrere.",
+      "excerpt": "A causa de les grans forces de reacció que es generen, els monitors portàtils han d'estar ancorats a un punt fix o a una estaca abans de posar-los en servei.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 6.3.2 reacció del raig (cabal nominal)",
+      "stem": "Segons el manual d'hidràulica, si el fabricant no indica una altra cosa, a quina pressió es refereix habitualment el cabal nominal d'una llança?",
+      "options": [
+        "A 1 bar.",
+        "A 15 bar.",
+        "A 6 bar.",
+        "A 40 bar."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Les llances es classifiquen pel cabal nominal, que habitualment es refereix a 6 bar; si la pressió real és superior, el cabal efectiu també ho és.",
+      "excerpt": "Si el fabricant no indica una altra cosa, aquest cabal nominal es refereix habitualment a una pressió de 6 bar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.5.3 aspiració",
+      "stem": "Segons el manual d'hidràulica, la pressió atmosfèrica baixa uns 0,129 m.c.a. per cada 100 m d'altitud. Quanta alçada d'aspiració es perd, respecte al nivell del mar, a 2.000 m d'altitud?",
+      "options": [
+        "Uns 1,29 m.",
+        "Uns 2,58 m.",
+        "Uns 0,26 m.",
+        "Uns 25,8 m."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "2.000 m / 100 m = 20; 20 × 0,129 = 2,58 m (a 1.000 m serien 1,29 m).",
+      "excerpt": "la variació de pressió atmosfèrica amb l’alçada és d’aproximadament 0,129 mca per cada 100 m que pugem, així a 1000 m d’altitud ja hem perdut 1,29 m d’alçada d’aspiració respecte al que podríem aspirar a nivell del mar.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.4 pèrdues de càrrega",
+      "stem": "En una mateixa instal·lació de mànegues es duplica el cabal. Segons el manual d'hidràulica, com varien aproximadament les pèrdues de càrrega?",
+      "options": [
+        "Es dupliquen, perquè són proporcionals al cabal.",
+        "Es multipliquen per 4, perquè són proporcionals al quadrat del cabal.",
+        "Es redueixen a la meitat.",
+        "No varien, perquè només depenen de la longitud."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "Les pèrdues de càrrega són proporcionals a la longitud i al quadrat de la velocitat (i del cabal): 2² = 4.",
+      "excerpt": "Són directament proporcionals al quadrat de la velocitat, és a dir, directament proporcionals al quadrat del cabal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 4.4 pèrdues de càrrega en mànegues",
+      "stem": "A 8 bar, una mànega de 45 mm per la qual circulen 700 l/min té una pèrdua de càrrega de gairebé 1,8 bar. Segons el manual d'hidràulica, quina pèrdua per fregament tindrà una línia de 5 d'aquestes mànegues en sèrie amb el mateix cabal?",
+      "options": [
+        "Gairebé 1,8 bar.",
+        "Gairebé 3,6 bar.",
+        "Gairebé 0,36 bar.",
+        "Gairebé 9 bar."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "En sèrie, la pèrdua total és la suma de les de cada mànega: 5 × 1,8 ≈ 9 bar. Amb mànegues de 70 mm la pèrdua per tram seria de poc més de 0,2 bar.",
+      "excerpt": "Quan connectem mànegues una darrera l’altre, les estem posant en sèrie, la pèrdua de càrrega total és la suma de les pèrdua de càrrega en cada una d’elles. […] a 8 bar, si volem fer circular un cabal de 700 l/min, en una mànega de 45 mm tenim una pèrdua de càrrega per mànega de gairebé 1,8 bar",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 5.3.4 punt de funcionament",
+      "stem": "Segons el manual d'hidràulica, si en una mateixa instal·lació s'augmenta la velocitat de gir de la bomba (de 2.400 a 2.800 rpm), què passa amb el punt de funcionament?",
+      "options": [
+        "Es desplaça a la nova corba de la bomba i augmenten tant la pressió com el cabal.",
+        "Augmenta la pressió però el cabal es manté igual.",
+        "Augmenta la pressió però disminueix el cabal.",
+        "No varia, perquè la corba resistent de la instal·lació és la mateixa."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El punt de funcionament és la intersecció entre la corba de la bomba i la corba resistent de la instal·lació; en l'exemple del manual (instal·lació amb 100 m de desnivell) passa de 22 bar i 270 l/min a 2.400 rpm a 26 bar i 325 l/min a 2.800 rpm.",
+      "excerpt": "El punt de funcionament és la intersecció entre la corba característica de la bomba i la corba resistent de la instal·lació. […] No només hem augmentat la pressió, també augmenta el cabal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.GRAL.009, § 5.3.2 corba característica d'un hidrant",
+      "stem": "Segons el manual d'hidràulica, què interessa sobretot d'un hidrant per abastir les autobombes?",
+      "options": [
+        "La pressió estàtica: com més pressió dona tancat, millor és l'hidrant.",
+        "Que tingui diverses corbes segons la velocitat de gir.",
+        "La seva capacitat de proveir cabal; molta pressió en estàtic no implica que sigui un bon hidrant.",
+        "Que doni exactament 6 bar, la pressió nominal de les llances."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La pressió ja la donen les bombes dels vehicles; un hidrant amb més de 5 bar en estàtic pot no donar més de 500 l/min si les pèrdues de càrrega de la seva canonada són grans.",
+      "excerpt": "D’un hidrant ens interessa sobretot la seva capacitat de proveir cabal, la pressió no ens interessa tant ja que l’aconseguirem amb les nostres bombes. Així, a priori, un hidrant que ens doni molta pressió en estàtic no implica que sigui un bon hidrant.",
+      "excerpt_status": "completo"
     }
   ]
 }

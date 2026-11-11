@@ -318,6 +318,306 @@
       "explanation": "Complementen els geòfons en escenaris on les víctimes no són visibles.",
       "excerpt": "Les càmeres s’introdueixen a través de forats a la runa o entre esquerdes per localitzar visualment persones atrapades i valorar-ne la posició i l’estat.",
       "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.4 LACES (Look)",
+      "stem": "Segons el manual d'estructures col·lapsades, en el protocol de seguretat LACES, què vol dir la L (Look)?",
+      "options": [
+        "Establir línies de vida a tots els forjats.",
+        "Designar un guaita que mantingui la vigilància constant de l'escenari.",
+        "Localitzar les víctimes amb geòfons.",
+        "Llistar el material disponible abans d'entrar."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "LACES: Look (guaita), Ancoratge, Comunicacions, Escapament i Seguretat (refugi).",
+      "excerpt": "Look (guaita): Designar una persona o equip encarregat de mantenir la vigilància constant de l’escenari.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.5 senyals acústics (evacuació)",
+      "stem": "Segons el manual d'estructures col·lapsades, quin senyal acústic indica l'evacuació immediata de la zona per perill imminent?",
+      "options": [
+        "3 tocs curts.",
+        "1 toc llarg.",
+        "1 toc llarg i 1 toc curt.",
+        "Tocs curts repetitius."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "1 toc llarg: aturada mantenint posicions; 1 llarg + 1 curt: es reprenen les operacions; tocs curts repetitius: socors.",
+      "excerpt": "3 tocs curts: Evacuació immediata de la zona per perill imminent.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.3 protecció respiratòria",
+      "stem": "Segons el manual d'estructures col·lapsades, quina protecció respiratòria és imprescindible per la presència de pols en suspensió?",
+      "options": [
+        "Una mascareta quirúrgica.",
+        "Cap, n'hi ha prou amb les ulleres.",
+        "Una mascareta FFP3.",
+        "Un mocador humit."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "Si hi ha risc d'amiant o partícules tòxiques, cal reforçar-la amb equip de respiració autònoma (ERA).",
+      "excerpt": "la presència de pols en suspensió fa imprescindible portar una mascareta FFP3 i, amb risc de presència d’amiant o partícules tòxiques, cal reforçar la protecció respiratòria amb equip de respiració autònoma (ERA).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.2 desallotjament preventiu",
+      "stem": "Segons el manual d'estructures col·lapsades, en què consisteix el desallotjament preventiu com a mesura per a la població afectada?",
+      "options": [
+        "En la retirada de la runa de la via pública.",
+        "En el tall de carrers i desviaments de trànsit.",
+        "En el trasllat dels ferits a l'hospital.",
+        "En l'evacuació d'edificis adjacents que puguin veure's afectats per col·lapse en cadena o efecte dominó."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "Les mesures bàsiques són perímetre de seguretat, desallotjament preventiu, control de circulació i atenció psicosocial.",
+      "excerpt": "Desallotjament preventiu: evacuació d’edificis adjacents que puguin veure’s afectats per col·lapse en cadena o efecte dominó.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 4 distància entre puntals",
+      "stem": "Segons els criteris bàsics d'apuntalament dels Bombers de la Generalitat, quina distància màxima hi pot haver entre puntals?",
+      "options": [
+        "Dos metres.",
+        "Tres metres.",
+        "Un metre.",
+        "Mig metre com a mínim, sense màxim."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "És un dels criteris bàsics, juntament amb la resistència màxima de 1.000 kg per puntal.",
+      "excerpt": "La distància entre puntals no pot superar el metre.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 4.1 sotapont",
+      "stem": "Segons el manual d'estructures col·lapsades, en un apuntalament vertical bàsic, què és el sotapont?",
+      "options": [
+        "Els taulons de la base que distribueixen el pes al terra.",
+        "L'element metàl·lic regulable que transfereix la càrrega cap avall.",
+        "La falca que es col·loca entre el puntal i el terra.",
+        "El tauló de fusta que recull i reparteix la càrrega de l'element danyat."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "L'apuntalament vertical bàsic té sotapont (a dalt), puntals i jaç de taulons (a la base).",
+      "excerpt": "Sotapont: tauló de fusta que recull i reparteix la càrrega de l’element danyat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.5 senyals acústics (aturada)",
+      "stem": "Durant una recerca en un edifici col·lapsat se sent 1 toc llarg. Segons el manual d'estructures col·lapsades, què han de fer els intervinents?",
+      "options": [
+        "Aturar totes les operacions mantenint les posicions.",
+        "Evacuar immediatament la zona.",
+        "Reprendre les operacions perquè la situació està estabilitzada.",
+        "Acudir a socórrer un company."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "3 tocs curts: evacuació; 1 llarg + 1 curt: es reprèn; tocs curts repetitius: socors.",
+      "excerpt": "1 toc llarg: Aturada de totes les operacions, mantenint posicions.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.1 emplaçament de vehicles",
+      "stem": "Segons el manual d'estructures col·lapsades, com a norma general, a quina distància s'han de col·locar els vehicles respecte al lloc del col·lapse?",
+      "options": [
+        "Just davant de l'edifici col·lapsat per tenir les eines a mà.",
+        "A una distància mínima de dues edificacions no afectades.",
+        "A una distància mínima de 500 metres.",
+        "Al costat de l'edifici, sempre per sota en carrers amb pendent."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Aquesta separació evita riscos d'un col·lapse secundari i facilita establir zones segures.",
+      "excerpt": "Com a norma general, els vehicles s’haurien de col·locar a una distància mínima de dues edificacions no afectades respecte el lloc del col·lapse.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.1 carrers amb pendent",
+      "stem": "En un col·lapse en un carrer amb pendent, segons el manual d'estructures col·lapsades, on s'han de situar els vehicles?",
+      "options": [
+        "Per sota de l'edificació afectada.",
+        "Per sobre de l'edificació afectada.",
+        "Tocant a la façana de l'edifici afectat.",
+        "On hi hagi més espai, independentment del pendent."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Situar-los per sobre evita que quedin atrapats per despreniments o fluxos imprevistos de runa.",
+      "excerpt": "En carrers amb pendent, els vehicles s’hauran de situar per sobre de l’edificació afectada, per evitar quedar atrapats en cas de despreniment o fluxos imprevistos de runa i materials",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 5 marcatge de víctimes",
+      "stem": "Sota una V de senyalització de víctimes hi ha escrit «L - 2» i es rescata una víctima viva. Segons el manual d'estructures col·lapsades, com s'ha d'actualitzar el marcatge?",
+      "options": [
+        "Esborrant la V i pintant una X.",
+        "Escrivint «D - 1» al costat.",
+        "Deixant «L - 2» fins que s'hagin rescatat totes les víctimes.",
+        "Ratllant la línia anterior i escrivint «L - 1»."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "L indica víctimes vives confirmades i D, mortes. Quan totes les línies L o D estan ratllades, la zona queda revisada («Clear»).",
+      "excerpt": "si inicialment s’hi escriu “L - 2” i es rescata una víctima, cal ratllar la línia anterior i escriure: “L - 1” per reflectir correctament que queda una víctima viva pendent de rescat.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 4.3 angle de l'apuntalament inclinat",
+      "stem": "Segons el manual d'estructures col·lapsades, quin angle amb el terra ha de formar generalment un apuntalament inclinat?",
+      "options": [
+        "Entre 45º i 60º.",
+        "Entre 10º i 20º.",
+        "Entre 75º i 90º.",
+        "Exactament 30º."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Aquest angle equilibra l'estabilitat i la capacitat de càrrega.",
+      "excerpt": "L’apuntalament ha de formar un angle òptim amb el terra, generalment entre 45º i 60º, per equilibrar estabilitat i capacitat de càrrega.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.1 equip SOS",
+      "stem": "Segons el manual d'estructures col·lapsades, quina condició ha de complir l'equip SOS mentre està assignat?",
+      "options": [
+        "Ha de col·laborar en el desenrunament quan no hi hagi incidents.",
+        "Ha de fer també de guaita de l'estructura.",
+        "No ha de tenir cap altra funció operativa.",
+        "Ha d'estar situat a la zona freda sense material de rescat."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "L'equip SOS ha d'estar equipat, amb accés ràpid a eines de rescat i coneixement de les rutes d'evacuació, preparat per si algun membre queda atrapat.",
+      "excerpt": "Aquest equip ha d’estar degudament equipat, amb accés ràpid a eines de rescat i coneixement de les rutes d’evacuació, i no ha de tenir cap altra funció operativa mentre estigui assignat com a equip de suport d’emergència.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.4 LACES (Ancoratge)",
+      "stem": "Segons el manual d'estructures col·lapsades, què significa l'Ancoratge en el protocol LACES?",
+      "options": [
+        "Fixar amb cordes l'estructura col·lapsada.",
+        "Assegurar els intervinents amb arnès a un punt fix.",
+        "Establir un punt d'entrada controlat i identificable on es registra qui entra a la zona perillosa.",
+        "Ancorar els vehicles amb falques en carrers amb pendent."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "Aquest punt serveix de referència per a la traçabilitat de l'equip.",
+      "excerpt": "Ancoratge: Establir un punt d’entrada controlat i identificable. Aquest punt serveix de referència per a la traçabilitat de l’equip i per assegurar que tothom que entra a la zona perillosa està registrat i en contacte amb el dispositiu de comandament.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 1.2 categories INSARAG",
+      "stem": "Segons el manual d'estructures col·lapsades, en quantes categories estan classificats els equips certificats sota l'INSARAG?",
+      "options": [
+        "En dues: nacionals i internacionals.",
+        "En tres: lleugers, mitjans i pesats.",
+        "En quatre: bàsics, intermedis, avançats i experts.",
+        "En cinc, segons el nombre de gossos de recerca."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "La classificació es fa segons la capacitat operativa.",
+      "excerpt": "Estan classificats en tres categories (lleugers, mitjans i pesats) segons la seva capacitat operativa.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 3.1 patrons de recerca física",
+      "stem": "Segons el manual d'estructures col·lapsades, quins patrons sistemàtics es poden seguir en la recerca física?",
+      "options": [
+        "El venteig i el rastreig.",
+        "Els geòfons i les càmeres.",
+        "El marcatge amb V i X.",
+        "L'avanç en línia, els cercles concèntrics o el patró en habitacions múltiples."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "La recerca física es basa en la vista i l'oïda dels bombers i no requereix equipament especialitzat.",
+      "excerpt": "Aquesta recerca pot dur-se a terme seguint patrons sistemàtics com l’avanç en línia, els cercles concèntrics o el patró en habitacions múltiples, segons la configuració de l’espai i l’abast del col·lapse.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 4 resistència del puntal",
+      "stem": "Cal apuntalar un forjat que suporta una càrrega estimada de 5.000 kg. Segons els criteris bàsics d'apuntalament dels Bombers de la Generalitat, quin és el nombre mínim de puntals que cal col·locar?",
+      "options": [
+        "5 puntals.",
+        "2 puntals.",
+        "10 puntals.",
+        "50 puntals."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Cada puntal té una resistència màxima de 1.000 kg: 5.000 kg / 1.000 kg per puntal = 5 puntals com a mínim (sense superar 1 m entre puntals).",
+      "excerpt": "Es considera que un puntal té una resistència màxima de 1.000 kg.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.5 senyals acústics (represa)",
+      "stem": "Segons el manual d'estructures col·lapsades, què indica el senyal acústic d'1 toc llarg seguit d'1 toc curt?",
+      "options": [
+        "Que es reprenen les operacions perquè la situació està estabilitzada.",
+        "Que cal evacuar immediatament la zona.",
+        "Que s'han d'aturar totes les operacions mantenint posicions.",
+        "Que un intervinent demana socors."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El so pot provenir d'un xiulet, una sirena o un martell metàl·lic; tots els intervinents han de conèixer els senyals.",
+      "excerpt": "1 toc llarg + 1 toc curt: Reprenem les operacions, situació estabilitzada.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 4 criteris d'apuntalament",
+      "stem": "Segons els criteris bàsics d'apuntalament dels Bombers de la Generalitat, indica la resposta INCORRECTA:",
+      "options": [
+        "Els puntals s'han d'entrar en càrrega de manera uniforme, evitant les vibracions.",
+        "Cal mantenir una via d'escapament neta d'obstacles.",
+        "Cal intentar restituir la posició original de l'element danyat.",
+        "Dins la zona afectada s'hi ha d'estar el temps i el personal imprescindible."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El manual diu expressament que no s'ha d'intentar restituir la posició de l'element danyat.",
+      "excerpt": "Cal evitar les vibracions i els puntals s’han d’entrar en càrrega de manera uniforme. […] No intentar restituir la posició de l’element danyat. […] Mantenir una via d’escapament neta d’obstacles. […] Dins la zona afectada s’hi estarà el temps i personal imprescindible.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 1.3.1 certificació STRAC del GREC",
+      "stem": "Segons el manual d'estructures col·lapsades, quina certificació va començar el GREC l'any 2025?",
+      "options": [
+        "La d'equip USAR pesat de l'INSARAG.",
+        "La d'equip STRAC, per poder ser activat pel Mecanisme Europeu de Protecció Civil.",
+        "La de centre OSOCC de Nacions Unides.",
+        "La d'unitat canina de recerca en runa."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El GREC es va constituir el 2021 com a subàmbit de la guàrdia de suport, format per bombers amb titulacions tècniques.",
+      "excerpt": "L’any 2025, el GREC ha començat la seva certificació com a equip STRAC per formar part dels recursos que poden ser activats pel Mecanisme Europeu de Protecció Civil en emergències internacionals.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "MAN.SVES.000, § 6.4 LACES (refugi)",
+      "stem": "Segons el manual d'estructures col·lapsades, quina afirmació sobre les zones de Seguretat (refugi) del protocol LACES és correcta?",
+      "options": [
+        "Se situen sempre a la zona freda, al costat del centre de comandament.",
+        "Substitueixen les rutes d'escapament quan aquestes són llargues.",
+        "Són els punts d'entrada controlats on es registra el personal.",
+        "Són dins la zona calenta, relativament estables i accessibles en pocs segons, però no substitueixen l'evacuació."
+      ],
+      "correct": 3,
+      "difficulty": 3,
+      "explanation": "Poden ser espais reforçats amb apuntalaments previs, racons protegits per murs estructurals intactes o vehicles blindats; el punt d'entrada controlat és l'Ancoratge.",
+      "excerpt": "No substitueix l’evacuació, però permet guanyar temps […] Aquestes zones, tot i estar dins la zona calenta, han de ser considerades relativament estables, protegides d’un possible col·lapse secundari, i accessibles en pocs segons.",
+      "excerpt_status": "completo"
     }
   ]
 }
