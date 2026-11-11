@@ -344,6 +344,7 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 - Plan semanal: el test de tema pide como mucho 10 preguntas (`TOPIC_BATCH`); antes pedía todo lo que quedaba de la cuota (hasta 40).
 - Resultado de un test de un solo tema (`my_session_topic`): progreso en el tema (respondidas, % de acierto, publicadas), objetivo de dominio (15 respuestas y 70 %, `TOPIC_DONE`), botón «Otras 10 preguntas de este tema» y enlace a los apuntes.
 - Prisiones de Cataluña: apuntes de los 25 temas en catalán (preview `70-`, que vuelve a publicar las fichas como titular). Formato fuente en `fuente-apunts/*.txt` (ver APUNTS.md en la carpeta de fuentes).
+- Ayudantes de Instituciones Penitenciarias (2026-11-11): apuntes de los 50 temas con ficha (A01-A17, B01-B10, C01-C20, D01-D03) en castellano, unas 91.000 palabras, preview `73-`. Formato en `fuentes-oficiales/ayudantes-iipp/APUNTES.md`; huecos de fuentes en `INFORME-APUNTES.md` de esa carpeta (p. ej. Tratados de la UE, LOTC, RD 33/1986, Reglamento de extranjería, contabilidad de los centros y gran parte del bloque D de conducta humana). Se corrigieron dos referencias de ficha (C03: deberes en el art. 4 LOGP; C17: art. 278.3 RP).
 
 **Motivo:** estudiar sin temario era el bloqueo principal; los tests de 40 cansaban y no daban sensación de avance.
 **Consecuencias:** migración `20261110000200` y preview `69-`. Los apuntes de otras oposiciones se pueden añadir con el mismo formato. Huecos de fuentes señalados en el texto (p. ej. seguridad estática y dinámica en E14) quedan para revisión de joel.
