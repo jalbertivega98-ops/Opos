@@ -59,12 +59,13 @@ export async function startCheckoutAction(formData: FormData) {
     billing_interval: "month" | "year" | null;
     active: boolean;
   }[];
-  // Premium: mensual por defecto (o anual); el resto, su precio de pago único
+  // Premium: el intervalo elegido (mensual por defecto, o anual); el resto, su pago único
   const active = prices.filter((p) => p.active && p.amount_cents > 0);
+  const wanted = parsed.data.interval ?? "month";
   const price =
     row?.type === "subscription"
-      ? (active.find((p) => p.billing_interval === "month") ??
-        active.find((p) => p.billing_interval === "year"))
+      ? (active.find((p) => p.billing_interval === wanted) ??
+        (parsed.data.interval ? undefined : active.find((p) => p.billing_interval === "year")))
       : active.find((p) => p.billing_interval === null);
   if (!row || !price || row.is_test) {
     redirect({ href: withParam(back, "compra=no-disponible"), locale });

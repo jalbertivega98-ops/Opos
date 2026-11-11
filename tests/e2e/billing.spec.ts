@@ -129,7 +129,8 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
         [slug, exam.rows[0].id],
       );
       await c.query(
-        `insert into public.product_prices (product_id, amount_cents, billing_interval) values ($1, 1299, 'month')`,
+        `insert into public.product_prices (product_id, amount_cents, billing_interval)
+         values ($1, 1299, 'month'), ($1, 7999, 'year')`,
         [p.rows[0].id],
       );
     });
@@ -142,6 +143,12 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
       await expect(form).toContainText("Modo de pruebas");
       const button = form.getByTestId("buy-button");
       await expect(button).toHaveText(/Hazte Premium/);
+      // Mensual (marcado) o anual con su ahorro (ADR-048)
+      const intervals = form.getByTestId("buy-intervals");
+      await expect(intervals.getByRole("radio", { name: /Mensual · 12,99/ })).toBeChecked();
+      await intervals
+        .getByRole("radio", { name: /Anual · 79,99 € al año \(ahorras un 49 %\)/ })
+        .check();
       // La casilla es obligatoria: sin marcarla no se sale de la página
       await button.click();
       await expect(page).toHaveURL(/\/app\/perfil(#suscripcion)?$/);
