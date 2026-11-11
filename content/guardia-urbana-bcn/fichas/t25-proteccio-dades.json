@@ -57,5 +57,574 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Objecte de la llei",
+      "blocks": [
+        {
+          "text": "La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals (LOPDGDD) té un doble objecte (art. 1). D'una banda, adaptar l'ordenament espanyol al Reglament (UE) 2016/679, el Reglament general de protecció de dades (RGPD), i completar-ne les disposicions. De l'altra, garantir els drets digitals de la ciutadania. El dret fonamental a la protecció de dades personals de les persones físiques està emparat per l'article 18.4 de la Constitució i s'exerceix d'acord amb el RGPD i aquesta llei orgànica.",
+          "refs": [
+            {
+              "ref": "Art. 1.a LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679 del Parlamento Europeo y el Consejo, de 27 de abril de 2016"
+            },
+            {
+              "ref": "Art. 1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El derecho fundamental de las personas físicas a la protección de datos personales, amparado por el artículo 18.4 de la Constitución, se ejercerá con arreglo a lo establecido en el Reglamento (UE) 2016/679 y en esta ley orgánica. b) Garantizar los derechos digitales de la ciudadanía conforme al mandato establecido en el artículo 18.4 de la Constitución."
+            }
+          ]
+        },
+        {
+          "text": "Convé tenir clara la relació entre normes: el RGPD és directament aplicable a tota la Unió, i la LOPDGDD l'adapta i el completa a Espanya. En canvi, els tractaments policials per a fins penals es regeixen per una altra norma, la Llei orgànica 7/2021 (tema 26), que transposa la Directiva (UE) 2016/680.",
+          "refs": [
+            {
+              "ref": "Art. 22.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se regirá por la legislación de transposición de la Directiva (UE) 2016/680, cuando el tratamiento tenga fines de prevención, investigación, detección o enjuiciamiento de infracciones penales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Àmbit d'aplicació i exclusions",
+      "blocks": [
+        {
+          "text": "Els títols I a IX i els articles 89 a 94 s'apliquen a qualsevol tractament total o parcialment automatitzat de dades personals, i al tractament no automatitzat de dades contingudes o destinades a un fitxer (art. 2.1). La llei no s'aplica (art. 2.2): a) als tractaments exclosos del RGPD pel seu article 2.2; b) als tractaments de dades de persones mortes, sens perjudici de l'article 3; i c) als tractaments sotmesos a la normativa de matèries classificades.",
+          "refs": [
+            {
+              "ref": "Art. 2.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se aplica a cualquier tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero."
+            },
+            {
+              "ref": "Art. 2.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "a) A los tratamientos excluidos del ámbito de aplicación del Reglamento general de protección de datos por su artículo 2.2, sin perjuicio de lo dispuesto en los apartados 3 y 4 de este artículo. b) A los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3. c) A los tratamientos sometidos a la normativa sobre protección de materias clasificadas."
+            }
+          ]
+        },
+        {
+          "text": "Els tractaments que el RGPD no cobreix directament perquè afecten activitats fora del dret de la Unió es regeixen per la seva legislació específica i, supletòriament, pel RGPD i la LOPDGDD; és el cas dels tractaments electorals, dels d'institucions penitenciàries i dels del Registre Civil i els registres de la propietat i mercantils (art. 2.3).",
+          "refs": [
+            {
+              "ref": "Art. 2.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Se encuentran en esta situación, entre otros, los tratamientos realizados al amparo de la legislación orgánica del régimen electoral general, los tratamientos realizados en el ámbito de instituciones penitenciarias y los tratamientos derivados del Registro Civil, los Registros de la Propiedad y Mercantiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Dades de persones mortes",
+      "blocks": [
+        {
+          "text": "Les persones vinculades al difunt per raons familiars o de fet i els hereus poden demanar al responsable l'accés a les dades del difunt i, si escau, la rectificació o supressió (art. 3.1). Com a excepció, no ho poden fer si el difunt ho va prohibir expressament o ho estableix una llei; però aquesta prohibició no afecta el dret dels hereus a accedir a les dades de caràcter patrimonial del causant. També poden actuar les persones o institucions designades expressament pel difunt (art. 3.2) i, en el cas de menors, els representants legals o el Ministeri Fiscal (art. 3.3).",
+          "refs": [
+            {
+              "ref": "Art. 3.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Las personas vinculadas al fallecido por razones familiares o de hecho así como sus herederos podrán dirigirse al responsable o encargado del tratamiento al objeto de solicitar el acceso a los datos personales de aquella"
+            },
+            {
+              "ref": "Art. 3.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "cuando la persona fallecida lo hubiese prohibido expresamente o así lo establezca una ley. Dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante."
+            },
+            {
+              "ref": "Art. 3.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "En caso de fallecimiento de menores, estas facultades podrán ejercerse también por sus representantes legales o, en el marco de sus competencias, por el Ministerio Fiscal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Principis: exactitud i deure de confidencialitat",
+      "blocks": [
+        {
+          "text": "Les dades han de ser exactes i, si cal, actualitzades (art. 4.1). La inexactitud no és imputable al responsable, si ha pres mesures raonables per suprimir-les o rectificar-les sense dilació, quan les dades les ha obtingut directament de l'afectat, d'un mediador, d'un altre responsable per portabilitat o d'un registre públic (art. 4.2).",
+          "refs": [
+            {
+              "ref": "Art. 4.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "los datos serán exactos y, si fuere necesario, actualizados."
+            },
+            {
+              "ref": "Art. 4.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "a) Hubiesen sido obtenidos por el responsable directamente del afectado."
+            }
+          ]
+        },
+        {
+          "text": "Els responsables i encarregats del tractament i totes les persones que intervenen en qualsevol fase estan sotmesos al deure de confidencialitat (art. 5.1), que complementa el secret professional (art. 5.2). Aquest deure es manté encara que hagi acabat la relació amb el responsable o encarregat (art. 5.3). Per a un agent de policia, això vol dir que la confidencialitat no s'acaba amb la jubilació o el canvi de destinació.",
+          "refs": [
+            {
+              "ref": "Art. 5.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Los responsables y encargados del tratamiento de datos así como todas las personas que intervengan en cualquier fase de este estarán sujetas al deber de confidencialidad"
+            },
+            {
+              "ref": "Art. 5.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Las obligaciones establecidas en los apartados anteriores se mantendrán aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Consentiment i menors d'edat",
+      "blocks": [
+        {
+          "text": "El consentiment és tota manifestació de voluntat lliure, específica, informada i inequívoca, per declaració o acció afirmativa clara (art. 6.1). Si el tractament té diverses finalitats, ha de constar de manera específica que el consentiment es dona per a totes (art. 6.2), i no es pot condicionar l'execució d'un contracte a consentir tractaments aliens a la relació contractual (art. 6.3).",
+          "refs": [
+            {
+              "ref": "Art. 6.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca por la que este acepta, ya sea mediante una declaración o una clara acción afirmativa"
+            }
+          ]
+        },
+        {
+          "text": "El tractament de dades d'un menor només es pot fonamentar en el seu propi consentiment quan és major de catorze anys, llevat que la llei exigeixi l'assistència dels titulars de la pàtria potestat (art. 7.1). Per als menors de catorze anys, el tractament basat en el consentiment només és lícit si consta el del titular de la pàtria potestat o tutela (art. 7.2). Tractar dades d'un menor sense el seu consentiment, quan hi té capacitat, o sense el del titular de la pàtria potestat, és infracció greu (art. 73.a).",
+          "refs": [
+            {
+              "ref": "Art. 7.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años."
+            },
+            {
+              "ref": "Art. 7.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "solo será lícito si consta el del titular de la patria potestad o tutela"
+            },
+            {
+              "ref": "Art. 73.a LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "a) El tratamiento de datos personales de un menor de edad sin recabar su consentimiento, cuando tenga capacidad para ello, o el del titular de su patria potestad o tutela"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Categories especials de dades i dades penals",
+      "blocks": [
+        {
+          "text": "Per evitar discriminacions, el sol consentiment de l'afectat no basta per aixecar la prohibició de tractar dades la finalitat principal de les quals sigui identificar-ne la ideologia, afiliació sindical, religió, orientació sexual, creences o origen racial o ètnic (art. 9.1). Això no impedeix tractar-les per les altres causes de l'article 9.2 del RGPD.",
+          "refs": [
+            {
+              "ref": "Art. 9.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico."
+            }
+          ]
+        },
+        {
+          "text": "Les dades sobre condemnes i infraccions penals, per a fins diferents dels de prevenció, investigació, detecció o enjudiciament d'infraccions penals, només es poden tractar si ho empara una norma de la Unió, aquesta llei o una altra norma amb rang de llei (art. 10.1). Quan el tractament té aquests fins penals, s'aplica la LO 7/2021.",
+          "refs": [
+            {
+              "ref": "Art. 10.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "para fines distintos de los de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales, solo podrá llevarse a cabo cuando se encuentre amparado en una norma de Derecho de la Unión, en esta ley orgánica o en otras normas de rango legal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Transparència i exercici dels drets",
+      "blocks": [
+        {
+          "text": "El deure d'informar es pot complir amb una informació bàsica i una adreça electrònica o un altre mitjà per accedir a la resta (art. 11.1). La informació bàsica ha d'incloure, com a mínim, la identitat del responsable, la finalitat del tractament i la possibilitat d'exercir els drets dels articles 15 a 22 del RGPD (art. 11.2).",
+          "refs": [
+            {
+              "ref": "Art. 11.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "a) La identidad del responsable del tratamiento y de su representante, en su caso. b) La finalidad del tratamiento. c) La posibilidad de ejercer los derechos establecidos en los artículos 15 a 22 del Reglamento (UE) 2016/679."
+            }
+          ]
+        },
+        {
+          "text": "Els drets dels articles 15 a 22 del RGPD (accés, rectificació, supressió, limitació, portabilitat i oposició) es poden exercir directament o per mitjà de representant legal o voluntari (art. 12.1). El responsable ha d'informar dels mitjans per exercir-los i no pot denegar l'exercici només perquè l'afectat triï un altre mitjà (art. 12.2). La prova d'haver respost la sol·licitud recau sobre el responsable (art. 12.4). Els titulars de la pàtria potestat poden exercir els drets en nom dels menors de catorze anys (art. 12.6), i les actuacions per atendre les sol·licituds són gratuïtes (art. 12.7). L'accés més d'una vegada en sis mesos es pot considerar repetitiu, llevat de causa legítima (art. 13.3).",
+          "refs": [
+            {
+              "ref": "Art. 12.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "podrán ejercerse directamente o por medio de representante legal o voluntario."
+            },
+            {
+              "ref": "Art. 12.4 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "La prueba del cumplimiento del deber de responder a la solicitud de ejercicio de sus derechos formulado por el afectado recaerá sobre el responsable."
+            },
+            {
+              "ref": "Art. 12.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "los titulares de la patria potestad podrán ejercitar en nombre y representación de los menores de catorce años los derechos de acceso, rectificación, cancelación, oposición"
+            },
+            {
+              "ref": "Art. 13.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Tractaments amb finalitat de videovigilància",
+      "blocks": [
+        {
+          "text": "Les persones físiques o jurídiques, públiques o privades, poden tractar imatges amb càmeres per preservar la seguretat de persones, béns i instal·lacions (art. 22.1). De la via pública només se'n poden captar imatges en la mesura imprescindible per a aquesta finalitat; es pot captar una extensió superior per protegir béns o instal·lacions estratègics o infraestructures de transport, però mai l'interior d'un domicili privat (art. 22.2).",
+          "refs": [
+            {
+              "ref": "Art. 22.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "podrán llevar a cabo el tratamiento de imágenes a través de sistemas de cámaras o videocámaras con la finalidad de preservar la seguridad de las personas y bienes, así como de sus instalaciones."
+            },
+            {
+              "ref": "Art. 22.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Solo podrán captarse imágenes de la vía pública en la medida en que resulte imprescindible para la finalidad mencionada en el apartado anterior."
+            }
+          ]
+        },
+        {
+          "text": "Les imatges s'han de suprimir en un termini màxim d'un mes des de la captació, llevat que s'hagin de conservar per acreditar actes contra la integritat de persones, béns o instal·lacions; en aquest cas s'han de posar a disposició de l'autoritat competent en un màxim de setanta-dues hores des que es conegui l'existència de la gravació (art. 22.3). El deure d'informar es compleix amb un dispositiu informatiu visible que indiqui l'existència del tractament, la identitat del responsable i la possibilitat d'exercir els drets (art. 22.4).",
+          "refs": [
+            {
+              "ref": "Art. 22.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones. En tal caso, las imágenes deberán ser puestas a disposición de la autoridad competente en un plazo máximo de setenta y dos horas"
+            },
+            {
+              "ref": "Art. 22.4 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "mediante la colocación de un dispositivo informativo en lugar suficientemente visible identificando, al menos, la existencia del tratamiento, la identidad del responsable y la posibilidad de ejercitar los derechos"
+            }
+          ]
+        },
+        {
+          "text": "Queda exclòs del RGPD el tractament per una persona física d'imatges que només captin l'interior del seu propi domicili, però no si ho fa una empresa de seguretat privada contractada (art. 22.5). Les imatges captades per les forces i cossos de seguretat, pels òrgans de vigilància penitenciària i pels de control del trànsit, amb fins de prevenció, investigació o enjudiciament d'infraccions penals, es regeixen per la legislació de transposició de la Directiva (UE) 2016/680; fora d'aquests fins, per la seva legislació específica (art. 22.6).",
+          "refs": [
+            {
+              "ref": "Art. 22.5 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se considera excluido de su ámbito de aplicación el tratamiento por una persona física de imágenes que solamente capten el interior de su propio domicilio."
+            },
+            {
+              "ref": "Art. 22.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El tratamiento de los datos personales procedentes de las imágenes y sonidos obtenidos mediante la utilización de cámaras y videocámaras por las Fuerzas y Cuerpos de Seguridad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Videovigilància i gravació de sons a la feina",
+      "blocks": [
+        {
+          "text": "Els empleadors poden tractar imatges de càmeres per controlar els treballadors o empleats públics dins del marc legal, però n'han d'informar abans, de forma expressa, clara i concisa (art. 89.1). Si s'ha captat la comissió flagrant d'un acte il·lícit, el deure d'informar s'entén complert si hi havia almenys el dispositiu informatiu de l'article 22.4.",
+          "refs": [
+            {
+              "ref": "Art. 89.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Los empleadores habrán de informar con carácter previo, y de forma expresa, clara y concisa, a los trabajadores o los empleados públicos"
+            },
+            {
+              "ref": "Art. 89.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se entenderá cumplido el deber de informar cuando existiese al menos el dispositivo al que se refiere el artículo 22.4 de esta ley orgánica."
+            }
+          ]
+        },
+        {
+          "text": "En cap cas no s'admeten sistemes de gravació de sons ni de videovigilància en llocs de descans o esbarjo dels treballadors, com vestidors, lavabos, menjadors i anàlegs (art. 89.2). La gravació de sons a la feina només s'admet quan hi ha riscos rellevants per a la seguretat, respectant la proporcionalitat i la intervenció mínima (art. 89.3).",
+          "refs": [
+            {
+              "ref": "Art. 89.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "En ningún caso se admitirá la instalación de sistemas de grabación de sonidos ni de videovigilancia en lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como vestuarios, aseos, comedores y análogos."
+            },
+            {
+              "ref": "Art. 89.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se admitirá únicamente cuando resulten relevantes los riesgos para la seguridad de las instalaciones, bienes y personas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Autoritats de control i règim de les administracions públiques",
+      "blocks": [
+        {
+          "text": "L'Agència Espanyola de Protecció de Dades és una autoritat administrativa independent d'àmbit estatal, amb personalitat jurídica, que actua amb plena independència dels poders públics (art. 44.1). Les comunitats autònomes poden tenir autoritats autonòmiques de protecció de dades, que la llei esmenta al costat de l'Agència.",
+          "refs": [
+            {
+              "ref": "Art. 44.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente de ámbito estatal"
+            },
+            {
+              "ref": "Art. 34.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "a la Agencia Española de Protección de Datos o, en su caso, a las autoridades autonómicas de protección de datos"
+            }
+          ]
+        },
+        {
+          "text": "Quan una infracció la comet una administració pública, inclosa l'Administració local (i, per tant, un ajuntament i la seva policia), l'autoritat de protecció de dades dicta una resolució que declara la infracció i estableix, si escau, les mesures perquè cessi la conducta o se'n corregeixin els efectes (art. 77.1 i 77.2). Si hi ha indicis, proposa actuacions disciplinàries contra els responsables (art. 77.3).",
+          "refs": [
+            {
+              "ref": "Art. 77.1.c LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "c) La Administración General del Estado, las Administraciones de las comunidades autónomas y las entidades que integran la Administración Local."
+            },
+            {
+              "ref": "Art. 77.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "dictará resolución declarando la infracción y estableciendo, en su caso, las medidas que proceda adoptar para que cese la conducta o se corrijan los efectos de la infracción"
+            },
+            {
+              "ref": "Art. 77.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "la autoridad de protección de datos propondrá también la iniciación de actuaciones disciplinarias cuando existan indicios suficientes para ello."
+            }
+          ]
+        },
+        {
+          "text": "Nota: la llei esmenta les autoritats autonòmiques, però el text de l'Autoritat Catalana de Protecció de Dades i la seva llei no són a les fonts de la carpeta, i tampoc no s'hi recull l'excepció concreta de l'article 58.2.i del RGPD a què remet l'article 77.2.",
+          "refs": [
+            {
+              "ref": "Art. 77.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "con excepción de la prevista en el artículo 58.2.i del Reglamento (UE) 2016/679"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Infraccions i prescripció",
+      "blocks": [
+        {
+          "text": "Les infraccions es classifiquen d'acord amb l'article 83 del RGPD: són molt greus, i prescriuen als tres anys, les que suposen una vulneració substancial dels articles de l'article 83.5 RGPD, com tractar dades vulnerant els principis de l'article 5 del RGPD (art. 72); són greus, i prescriuen als dos anys, les de l'article 83.4 (art. 73); i són lleus, i prescriuen a l'any, les restants infraccions de caràcter merament formal, com no facilitar tota la informació exigida (art. 74).",
+          "refs": [
+            {
+              "ref": "Art. 72.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se consideran muy graves y prescribirán a los tres años las infracciones que supongan una vulneración sustancial"
+            },
+            {
+              "ref": "Art. 73 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se consideran graves y prescribirán a los dos años"
+            },
+            {
+              "ref": "Art. 74 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Se consideran leves y prescribirán al año las restantes infracciones de carácter meramente formal"
+            }
+          ]
+        },
+        {
+          "text": "Les sancions prescriuen segons l'import (art. 78.1): fins a 40.000 euros, en un any; de 40.001 a 300.000 euros, als dos anys; i de més de 300.000 euros, als tres anys. El termini comença l'endemà que la resolució sigui executable o hagi passat el termini per recórrer-la (art. 78.2). S'interromp en iniciar-se, amb coneixement de l'interessat, el procediment d'execució, i torna a córrer si està paralitzat més de sis mesos per causa no imputable a l'infractor (art. 78.3).",
+          "refs": [
+            {
+              "ref": "Art. 78.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "a) Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de un año. b) Las sanciones por importe comprendido entre 40.001 y 300.000 euros prescriben a los dos años. c) Las sanciones por un importe superior a 300.000 euros prescriben a los tres años."
+            },
+            {
+              "ref": "Art. 78.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "La prescripción se interrumpirá por la iniciación, con conocimiento del interesado, del procedimiento de ejecución, volviendo a transcurrir el plazo si el mismo está paralizado durante más de seis meses por causa no imputable al infractor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Dret fonamental emparat per l'article 18.4 de la Constitució (art. 1).",
+          "refs": [
+            {
+              "ref": "Art. 1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "amparado por el artículo 18.4 de la Constitución"
+            }
+          ]
+        },
+        {
+          "text": "Menors: consenteixen sols a partir dels 14 anys; per sota, cal el consentiment de qui té la pàtria potestat (art. 7).",
+          "refs": [
+            {
+              "ref": "Art. 7.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "cuando sea mayor de catorce años."
+            }
+          ]
+        },
+        {
+          "text": "Confidencialitat: continua després d'acabar la relació (art. 5.3).",
+          "refs": [
+            {
+              "ref": "Art. 5.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se mantendrán aun cuando hubiese finalizado la relación"
+            }
+          ]
+        },
+        {
+          "text": "Ideologia, religió, orientació sexual, origen ètnic: el sol consentiment no basta (art. 9).",
+          "refs": [
+            {
+              "ref": "Art. 9.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "el solo consentimiento del afectado no bastará"
+            }
+          ]
+        },
+        {
+          "text": "Videovigilància: supressió en un mes; posar a disposició de l'autoritat en 72 hores (art. 22.3).",
+          "refs": [
+            {
+              "ref": "Art. 22.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "en un plazo máximo de setenta y dos horas"
+            }
+          ]
+        },
+        {
+          "text": "Càmeres policials amb fins penals: legislació de transposició de la Directiva (UE) 2016/680 (art. 22.6).",
+          "refs": [
+            {
+              "ref": "Art. 22.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se regirá por la legislación de transposición de la Directiva (UE) 2016/680"
+            }
+          ]
+        },
+        {
+          "text": "Mai càmeres ni micròfons a vestidors, lavabos o menjadors (art. 89.2).",
+          "refs": [
+            {
+              "ref": "Art. 89.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "tales como vestuarios, aseos, comedores y análogos."
+            }
+          ]
+        },
+        {
+          "text": "Prescripció d'infraccions: molt greus 3 anys, greus 2, lleus 1 (arts. 72-74).",
+          "refs": [
+            {
+              "ref": "Art. 74 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Se consideran leves y prescribirán al año"
+            }
+          ]
+        },
+        {
+          "text": "Prescripció de sancions: fins a 40.000 € un any; 40.001-300.000 € dos anys; més de 300.000 € tres anys (art. 78).",
+          "refs": [
+            {
+              "ref": "Art. 78.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "b) Las sanciones por importe comprendido entre 40.001 y 300.000 euros prescriben a los dos años."
+            }
+          ]
+        },
+        {
+          "text": "Exercici de drets: directament o per representant; la prova de la resposta, a càrrec del responsable (art. 12).",
+          "refs": [
+            {
+              "ref": "Art. 12.4 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "recaerá sobre el responsable."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }
