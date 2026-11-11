@@ -74,5 +74,455 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Ámbito y soporte de los documentos contables: electrónicos, firma y sello electrónico",
+      "blocks": [
+        {
+          "text": "Este tema estudia dos normas de la misma fecha: la Orden de 1 de febrero de 1996 que aprueba los documentos contables de la Administración General del Estado (aquí, «Orden de documentos») y la Orden de igual fecha que aprueba la Instrucción de operatoria contable a seguir en la ejecución del gasto del Estado («Instrucción»). Las dos se han modificado muchas veces (la última reforma que recoge el texto consolidado de la Orden de documentos es la Orden HAC/965/2024) para adaptarlas a la tramitación electrónica en el Sistema de Información Contable (SIC, hoy SIC3). Por eso algunos preceptos conservan expresiones de 1996 (papel, «remitir», remisiones al antiguo texto refundido de la LGP) que hoy deben leerse en clave electrónica. La Orden de documentos se aplica a la Administración General del Estado (apdo. primero).",
+          "refs": [
+            {
+              "ref": "Apdo. primero Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Las normas y los documentos contables aprobados en la presente Orden serán de aplicación a la Administración General del Estado."
+            },
+            {
+              "ref": "Regla 2.4 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "todas las referencias que se realicen en las distintas reglas de esta Instrucción al envío de documentos contables y de sus justificantes a las oficinas de contabilidad, se entenderán referidas a la remisión a dichas oficinas contables de los documentos contables electrónicos acompañados de sus justificantes electrónicos."
+            }
+          ]
+        },
+        {
+          "text": "Desde 2020 todos los documentos contables son electrónicos y se ajustan a los modelos y normas de cumplimentación de la Orden y al procedimiento electrónico que fije la IGAE. Solo excepcionalmente, si lo decide la IGAE a propuesta del responsable de la oficina de contabilidad, pueden expedirse en papel (apdo. segundo.2). Se autorizan con firma electrónica de quien tenga la competencia (apdo. tercero.1); los emitidos por actuación administrativa automatizada pueden autenticarse con sello electrónico basado en certificado reconocido o cualificado (apdo. tercero.2), y el formato de firma y sello es XAdES (apdo. tercero.3).",
+          "refs": [
+            {
+              "ref": "Apdo. segundo.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Todos los documentos contables serán electrónicos y se ajustarán a los modelos y normas de cumplimentación previstos en esta Orden, así como al procedimiento de tramitación electrónica que establezca la Intervención General de la Administración del Estado. No obstante, cuando por circunstancias excepcionales así lo determine la Intervención General de la Administración del Estado a propuesta del responsable de la oficina de contabilidad, se podrán expedir documentos contables en papel."
+            },
+            {
+              "ref": "Apdo. tercero.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Los documentos contables cuya emisión se realice mediante actuación administrativa automatizada podrán ser autenticados mediante un sistema de sello electrónico de Administración Pública, órgano, organismo público o entidad de derecho público, basado en certificado electrónico reconocido o cualificado"
+            }
+          ]
+        },
+        {
+          "text": "Para documentos que incluyen la fase O (reconocimiento de la obligación) hay dos reglas de agrupación: no se pueden mezclar facturas registradas en el Registro Contable de Facturas con otras exceptuadas de él (salvo en ADOK de reposición de anticipos de caja fija), y solo se agrupan varias facturas si la fecha de inicio del cómputo del plazo de pago es la misma para todas (apdo. tercero.4). Una vez registrado cada documento, el sistema genera un justificante electrónico de la toma de razón, con número y fecha de la operación, sellado electrónicamente (apdo. cuarto.3).",
+          "refs": [
+            {
+              "ref": "Apdo. tercero.4 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "solo se podrán agrupar varias facturas en un mismo documento contable que incorpore la fase O, cuando la fecha en la que se inicia el cómputo de los plazos para el abono del precio sea la misma para todas ellas."
+            },
+            {
+              "ref": "Apdo. cuarto.3 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "el propio sistema generará y remitirá un justificante electrónico de la toma de razón con los datos de la operación contable, incluyendo el número y fecha de la operación, sellado electrónicamente, para los servicios gestores."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Documentos del Presupuesto de Gastos: concepto y agrupaciones",
+      "blocks": [
+        {
+          "text": "Son documentos del Presupuesto de Gastos los que sirven de soporte a las anotaciones de operaciones de gestión de créditos y de ejecución del gasto (apdo. quinto.1). Pueden afectar a cuatro agrupaciones: presupuesto corriente, presupuestos cerrados, ejercicios posteriores y tramitación anticipada (apdo. quinto.2). Cada documento lleva el nombre de la fase que registra: A (autorización), D (disposición o compromiso), O (reconocimiento de la obligación) y K (propuesta de pago).",
+          "refs": [
+            {
+              "ref": "Apdo. quinto.1 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Son documentos de contabilidad del Presupuesto de Gastos aquellos que sirven de soporte a las anotaciones contables que se realicen como consecuencia de operaciones de gestión de créditos presupuestarios y de ejecución del Presupuesto de Gastos."
+            },
+            {
+              "ref": "Apdo. quinto.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Presupuesto corriente. […] Presupuestos cerrados. […] Ejercicios posteriores. […] Tramitación anticipada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Gestión de créditos: documentos MC, RC y RC-102",
+      "blocks": [
+        {
+          "text": "El documento MC se usa en las modificaciones presupuestarias que aumentan o disminuyen créditos, y el documento de desglose, para desglosar aplicaciones presupuestarias (apdo. sexto.1.a y b). El documento RC de ejercicio corriente sirve para solicitar el certificado de existencia y retención de crédito en expedientes de gasto, de transferencias, de bajas por anulación y otras minoraciones, de retención adicional del 10 % de la adjudicación y de retención por el porcentaje cultural. Para los acuerdos de no disponibilidad hay un documento específico, el RC-102, y para el presupuesto del cajero de anticipos de caja fija, el RC-110 (apdo. sexto.1.c).",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.1.a Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento MC: Se utilizará en las modificaciones presupuestarias que aumenten o disminuyan los créditos."
+            },
+            {
+              "ref": "Apdo. sexto.1.c Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Se utilizará para solicitar certificado de existencia y retención de crédito en los expedientes de gasto, de transferencias, de bajas por anulación y otras minoraciones, de retención adicional del 10 % de la adjudicación"
+            },
+            {
+              "ref": "Apdo. sexto.1.c Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Para el registro de los acuerdos de no disponibilidad se utilizará el documento específico “RC-102” y para el registro del presupuesto del cajero de ACF se utilizará el documento específico “RC-110”."
+            }
+          ]
+        },
+        {
+          "text": "Según la Instrucción, al iniciar un expediente de gasto el servicio gestor solicita que se certifique la existencia de crédito disponible y para ello expide un documento RC de retención de créditos para gastar; registrado, el crédito queda retenido y el sistema emite el certificado de existencia de crédito para el expediente (regla 14.1). Cuando el Gobierno acuerda la no disponibilidad, el RC lo expide la Dirección General de Presupuestos; la no disponibilidad no anula el crédito, pero con cargo a él no pueden autorizarse gastos (regla 16).",
+          "refs": [
+            {
+              "ref": "Regla 14.1 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "Para la solicitud del certificado a que se refiere el párrafo anterior, el Servicio Gestor expedirá un documento RC, de retención de créditos para gastar, que remitirá a la oficina de contabilidad."
+            },
+            {
+              "ref": "Regla 16.2 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "La no disponibilidad de un crédito no conllevará la anulación del mismo, pero con cargo al saldo en situación de no disponible no podrán acordarse autorizaciones de gasto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Fases de ejecución del gasto y sus documentos: A, D, OK y mixtos AD y ADOK",
+      "blocks": [
+        {
+          "text": "La Instrucción describe la ejecución del gasto en tres fases contables: autorización, compromiso y reconocimiento de la obligación; la ordenación y el pago se rigen por la orden de procedimientos de pago (regla 20). Aprobado el expediente, el gestor expide un documento A; comprometido el gasto, un documento D (reglas 21 y 22). Para el presupuesto corriente, la Orden prevé el documento A (autorización) y el D (compromiso) de ejercicio corriente (apdo. sexto.1.e y f).",
+          "refs": [
+            {
+              "ref": "Regla 20.1 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "La ejecución de los gastos presupuestarios se realizará en las siguientes fases: a) Autorización del gasto. b) Compromiso del gasto. c) Reconocimiento de la obligación."
+            },
+            {
+              "ref": "Apdo. sexto.1.e y f Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento A de ejercicio corriente: Se utilizará en las operaciones de autorización del gasto imputables al Presupuesto corriente. f) Documento D de ejercicio corriente: Se utilizará en las operaciones de compromiso de gasto imputables al Presupuesto corriente."
+            }
+          ]
+        },
+        {
+          "text": "Todo reconocimiento de la obligación lleva implícita la propuesta de pago; por eso, acordado el reconocimiento, el gestor expide un documento OK (regla 23.3), que la Orden define como el documento de las operaciones de reconocimiento de obligaciones (apdo. sexto.1.n). Excepcionalmente, en la Deuda Pública se usa el documento O, que reconoce la obligación sin proponer el pago, y después un documento K de propuesta de pago (regla 23.4; apdo. sexto.1.o y p).",
+          "refs": [
+            {
+              "ref": "Regla 23.3 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "todo reconocimiento de la obligación llevará implícita la correspondiente propuesta de pago […] Una vez acordado el reconocimiento de la obligación, el Servicio gestor competente expedirá un documento OK"
+            },
+            {
+              "ref": "Apdo. sexto.1.n y o Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento OK: Se utilizará en operaciones de reconocimiento de obligaciones. […] Documento O: Se utilizará exclusivamente en el ámbito de la gestión de la Deuda del Estado, cuando al reconocer la obligación no se proponga el pago."
+            }
+          ]
+        },
+        {
+          "text": "Si varias fases se acumulan en un solo acto, producen los mismos efectos que si se hubieran acordado por separado (regla 24.1). Si en un acto único se acuerdan autorización y compromiso, se expide un documento mixto AD; si se acumulan autorización, compromiso y reconocimiento de la obligación, un ADOK (regla 24.2).",
+          "refs": [
+            {
+              "ref": "Regla 24.2 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "cuando la autorización y el compromiso de gasto se acuerdan en un acto único, se expedirá un documento mixto AD. Cuando en un mismo acto se acumulen la autorización del gasto, su compromiso y el reconocimiento de la obligación, se expedirá documento mixto ADOK."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Documentos de ejercicios posteriores y de tramitación anticipada; anexos",
+      "blocks": [
+        {
+          "text": "Para gastos plurianuales existen documentos RC, A, D y AD de ejercicios posteriores; el RC de ejercicios posteriores sirve para pedir el certificado de cumplimiento de los límites del artículo 47 LGP (apdo. sexto.1.d a j). La regla 19 de la Instrucción aún cita el «artículo 61 del Texto Refundido de la Ley General Presupuestaria», precepto equivalente hoy al artículo 47 de la Ley 47/2003. Para la tramitación anticipada se emplean un RC específico y documentos A, D y AD de tramitación anticipada (apdo. sexto.1.d´, k, l y l´).",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.1.d Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento RC de ejercicios posteriores: Se utilizará para solicitar el certificado de cumplimiento de los límites que establece el artículo 47 de la Ley 47/2003, de 26 de noviembre, General Presupuestaria"
+            },
+            {
+              "ref": "Apdo. sexto.1.k Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento A de tramitación anticipada: Se utilizará en operaciones de autorización de gasto cuando se tramiten anticipadamente."
+            }
+          ]
+        },
+        {
+          "text": "Hay además documentos anexos que amplían a otros los principales: el «Anexo anualidades» completa los RC, A, D y AD de ejercicios posteriores y de tramitación anticipada cuando hay más de veinte anualidades futuras; el «Anexo aplicaciones», cuando el documento afecta a varias aplicaciones; el «Anexo descuentos», para OK, ADOK y K con descuentos; y el «Anexo adicional de facturas», cuando un documento con fase O incluye más de dos facturas (apdo. sexto.1.l´´, q, r y x).",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.1.l´´ Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Se utilizará para completar los documentos RC, A, D y AD de ejercicios posteriores y de tramitación anticipada mediante la incorporación de uno o más de estos documentos a los anteriores cuando el número de anualidades posteriores previsto sea superior a veinte."
+            },
+            {
+              "ref": "Apdo. sexto.1.x Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "cuando el número de facturas incluidas en el mismo sea superior a dos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Anulaciones y autorización de los documentos de gastos",
+      "blocks": [
+        {
+          "text": "Para anular cualquiera de estas operaciones se expide un documento idéntico al que sirvió para registrarla, pero de signo contrario (apdo. sexto.2; regla 26). En cuanto a quién firma, los documentos MC de modificación de créditos y RC-102 de no disponibilidad los autoriza el Director General de Presupuestos (apdo. séptimo.1). Los demás los autoriza el responsable del órgano que gestiona los créditos, con excepciones: los RC de la oficina presupuestaria o de la Dirección General de Presupuestos los autorizan sus responsables, y los RC expedidos de oficio, el jefe de contabilidad (apdo. séptimo.2).",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "se expedirá un documento idéntico al confeccionado para el registro de la operación en cuestión pero de signo contrario."
+            },
+            {
+              "ref": "Apdo. séptimo.1 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Los documentos MC de «modificación de créditos» y RC-102 de «no disponibilidad» serán autorizados por el Director General de Presupuestos."
+            },
+            {
+              "ref": "Apdo. séptimo.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "de documentos RC expedidos de oficio, que se autorizarán por el jefe de contabilidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Pagos a justificar y anticipos de caja fija",
+      "blocks": [
+        {
+          "text": "Los documentos de pagos a justificar y de anticipos de caja fija son los que soportan los registros en esos dos subsistemas (apdo. octavo). Son el documento de control de pagos a justificar (prórrogas de plazos, presentación y aprobación de la cuenta justificativa), el de adopción/distribución de anticipos de caja fija (establecimiento del sistema y reparto entre cajas pagadoras), el de distribución por conceptos (opcional, para fijar límites por conceptos) y el anexo de control de pagos a justificar para varios reintegros (apdo. noveno).",
+          "refs": [
+            {
+              "ref": "Apdo. noveno.a Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento de control de pagos a justificar: Se utilizará para el registro de las prórrogas autorizadas de los plazos de justificación, para el registro de la presentación de la cuenta justificativa y para el registro de la aprobación de la cuenta justificativa."
+            }
+          ]
+        },
+        {
+          "text": "El documento de control de pagos a justificar lo autoriza el jefe de la unidad central a la que está adscrita la caja pagadora; los de adopción/distribución y de distribución por conceptos, la autoridad que adoptó el acuerdo (apdo. décimo). La reposición de fondos de un anticipo de caja fija se contabiliza con un documento ADOK que acompaña a la cuenta justificativa (regla 36).",
+          "refs": [
+            {
+              "ref": "Apdo. décimo.1 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "El documento de control de pagos a justificar será autorizado por el jefe de la Unidad Central a la que esté adscrita la respectiva caja pagadora."
+            },
+            {
+              "ref": "Regla 36 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "La aplicación a presupuesto de los gastos realizados con cargo al anticipo de caja fija y la propuesta de reposición de fondos al Cajero Pagador se contabilizarán mediante documento ADOK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Presupuesto de Ingresos, operaciones no presupuestarias y otros documentos: CA y operaciones devengadas",
+      "blocks": [
+        {
+          "text": "El Presupuesto de Ingresos solo tiene dos agrupaciones, corriente y cerrados (apdo. decimoquinto.2). Sus documentos incluyen resúmenes contables, órdenes de cobro de departamentos, instrumentos de cobro, propuestas de mandamiento de pago por devolución de ingresos y no presupuestarias y la hoja de arqueo del Banco de España, que autoriza el jefe de contabilidad (apdos. decimosexto y decimoséptimo). Los anticipos de Tesorería usan el documento I, que autoriza el Director General de Presupuestos (apdos. undécimo y decimocuarto); la Orden aún se remite al «artículo 65 del texto refundido» de la LGP, hoy derogado.",
+          "refs": [
+            {
+              "ref": "Apdo. decimoquinto.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Los documentos del Presupuesto de Ingresos pueden afectar a las siguientes agrupaciones: Presupuesto corriente. Presupuestos cerrados."
+            },
+            {
+              "ref": "Apdo. decimocuarto.1 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "El documento I de concesión del Anticipo de Tesorería será autorizado por el Director general de Presupuestos."
+            }
+          ]
+        },
+        {
+          "text": "Entre los «otros documentos», el CA de certificaciones anticipadas registra las certificaciones de obra que exceden de la anualidad en curso y su cesión; el de «Operaciones devengadas» registra a 31 de diciembre lo devengado y no contabilizado; y el documento soporte de asientos directos recoge operaciones sin otro documento propio (apdo. vigésimo tercero). El CA lo autoriza el gestor de los créditos, y el de operaciones devengadas, el jefe de contabilidad (apdo. vigésimo cuarto). Según la Instrucción, lo devengado y no reconocido en el ejercicio debe quedar registrado con OK o ADOK hasta el 30 de abril del ejercicio siguiente, con contrapartida en la cuenta 413 (regla 52.1).",
+          "refs": [
+            {
+              "ref": "Apdo. vigésimo tercero.1.a Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento CA de “Certificaciones anticipadas”: Se utilizará para el registro de certificaciones de obra que se extiendan y aprueben excediendo del importe de la anualidad en curso"
+            },
+            {
+              "ref": "Apdo. vigésimo cuarto.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "El documento de operaciones devengadas y el de rectificación de operaciones devengadas serán autorizados por el jefe de contabilidad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Toma de razón por las oficinas de contabilidad",
+      "blocks": [
+        {
+          "text": "Toda operación de gestión de gastos entra en el sistema de información contable mediante uno o más documentos contables electrónicos, que los servicios gestores envían firmados a la oficina de contabilidad del departamento (regla 2.1). La oficina no toma razón y devuelve los documentos en tres casos: si faltan documentos o no contienen todos los requisitos o datos; si no se acompaña la justificación exigida; o si la información es incoherente con los datos ya introducidos o incompatible con las validaciones del sistema (regla 2.2). Los gestores deben expedir y enviar los documentos en el plazo más breve posible desde que se dictó el acto (regla 2.3).",
+          "refs": [
+            {
+              "ref": "Regla 2.2 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "las oficinas de contabilidad no tomarán razón de las operaciones, procediendo a devolver a los Servicios gestores los correspondientes documentos contables electrónicos: a) Cuando no se hayan recibido todos los documentos que se precisen para el registro de la operación en cuestión, o bien cuando los documentos no contengan todos los requisitos o datos exigidos."
+            },
+            {
+              "ref": "Regla 2.2.c) Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "c) Cuando la información a incorporar al sistema sea incoherente con los datos anteriormente introducidos, o incompatible con las validaciones requeridas por el mismo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Todos los documentos contables son electrónicos; el papel solo es posible excepcionalmente, si lo decide la IGAE.",
+          "refs": [
+            {
+              "ref": "Apdo. segundo.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Todos los documentos contables serán electrónicos"
+            }
+          ]
+        },
+        {
+          "text": "Agrupaciones del Presupuesto de Gastos: corriente, cerrados, ejercicios posteriores y tramitación anticipada.",
+          "refs": [
+            {
+              "ref": "Apdo. quinto.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Ejercicios posteriores. Tramitación anticipada."
+            }
+          ]
+        },
+        {
+          "text": "RC: retención de crédito; RC-102: no disponibilidad; MC: modificación de créditos.",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.1.a Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento MC: Se utilizará en las modificaciones presupuestarias que aumenten o disminuyan los créditos."
+            }
+          ]
+        },
+        {
+          "text": "MC y RC-102 los autoriza el Director General de Presupuestos.",
+          "refs": [
+            {
+              "ref": "Apdo. séptimo.1 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "serán autorizados por el Director General de Presupuestos."
+            }
+          ]
+        },
+        {
+          "text": "AD = autorización y compromiso en un acto; ADOK = autorización, compromiso y reconocimiento de la obligación en un acto.",
+          "refs": [
+            {
+              "ref": "Regla 24.2 Instrucción de operatoria contable",
+              "law": "Orden 1/2/1996 (operatoria contable)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627",
+              "quote": "se expedirá documento mixto ADOK."
+            }
+          ]
+        },
+        {
+          "text": "El OK lleva implícita la propuesta de pago; el O (sin propuesta de pago) es exclusivo de la Deuda del Estado.",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.1.o Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "Documento O: Se utilizará exclusivamente en el ámbito de la gestión de la Deuda del Estado"
+            }
+          ]
+        },
+        {
+          "text": "Anular = documento idéntico de signo contrario.",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.2 Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "pero de signo contrario."
+            }
+          ]
+        },
+        {
+          "text": "«Anexo anualidades»: cuando hay más de veinte anualidades posteriores.",
+          "refs": [
+            {
+              "ref": "Apdo. sexto.1.l´´ Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "cuando el número de anualidades posteriores previsto sea superior a veinte."
+            }
+          ]
+        },
+        {
+          "text": "CA: certificaciones de obra que exceden de la anualidad en curso.",
+          "refs": [
+            {
+              "ref": "Apdo. vigésimo tercero.1.a Orden 1-2-1996 documentos contables",
+              "law": "Orden 1/2/1996 (documentos contables)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-2749",
+              "quote": "excediendo del importe de la anualidad en curso"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Orden 1/2/1996 (operatoria contable) (https://www.boe.es/buscar/act.php?id=BOE-A-1996-2627)"
 }

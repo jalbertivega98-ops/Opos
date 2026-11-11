@@ -55,5 +55,670 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "La jurisdicción penal: fundamento constitucional y orden penal",
+      "blocks": [
+        {
+          "text": "La potestad de juzgar y hacer ejecutar lo juzgado corresponde en exclusiva a los Juzgados y Tribunales que determinen las leyes (art. 117.3 CE). Los jueces son independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley (art. 117.1 CE), y la Constitución prohíbe los tribunales de excepción (art. 117.6 CE). Dentro del Poder Judicial, la LOPJ distribuye los asuntos entre órdenes jurisdiccionales: al orden penal le corresponde el conocimiento de las causas y juicios criminales, salvo los atribuidos a la jurisdicción militar (art. 9.3 LOPJ). La jurisdicción es improrrogable y su falta se aprecia de oficio (art. 9.6 LOPJ).",
+          "refs": [
+            {
+              "ref": "Art. 117.3 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "El ejercicio de la potestad jurisdiccional en todo tipo de procesos, juzgando y haciendo ejecutar lo juzgado, corresponde exclusivamente a los Juzgados y Tribunales determinados por las leyes, según las normas de competencia y procedimiento que las mismas establezcan."
+            },
+            {
+              "ref": "Art. 117.1 y 117.6 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley. […] Se prohíben los Tribunales de excepción."
+            },
+            {
+              "ref": "Art. 9.3 LOPJ",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Los del orden jurisdiccional penal tendrán atribuido el conocimiento de las causas y juicios criminales, con excepción de los que correspondan a la jurisdicción militar."
+            },
+            {
+              "ref": "Art. 9.6 LOPJ",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "La jurisdicción es improrrogable. Los órganos judiciales apreciarán de oficio la falta de jurisdicción"
+            }
+          ]
+        },
+        {
+          "text": "En cuanto al ámbito espacial, la jurisdicción española conoce de los delitos cometidos en territorio español o a bordo de buques o aeronaves españoles (principio territorial, art. 23.1 LOPJ), y en determinados casos también de hechos cometidos fuera de España por españoles o contra intereses del Estado (art. 23.2 y 23.3 LOPJ).",
+          "refs": [
+            {
+              "ref": "Art. 23.1 LOPJ",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "En el orden penal corresponderá a la jurisdicción española el conocimiento de las causas por delitos y faltas cometidos en territorio español o cometidos a bordo de buques o aeronaves españoles, sin perjuicio de lo previsto en los tratados internacionales en los que España sea parte."
+            }
+          ]
+        },
+        {
+          "text": "El derecho a la tutela judicial efectiva sin indefensión (art. 24.1 CE) y las garantías del art. 24.2 CE (juez ordinario predeterminado por la ley, defensa y asistencia de letrado, información de la acusación, proceso público sin dilaciones indebidas, a no declarar contra sí mismo y presunción de inocencia) son el marco de todo proceso penal.",
+          "refs": [
+            {
+              "ref": "Art. 24.2 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Asimismo, todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para su defensa, a no declarar contra sí mismos, a no confesarse culpables y a la presunción de inocencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "El proceso penal: concepto y objeto",
+      "blocks": [
+        {
+          "text": "El proceso penal es el único cauce para imponer una pena: no cabe castigar actos punibles sino conforme al Código o a leyes especiales y en virtud de sentencia dictada por juez competente (art. 1 LECrim). Su objeto es el hecho punible y la responsabilidad que de él deriva. De todo delito nace acción penal para castigar al culpable y puede nacer también acción civil para restituir la cosa, reparar el daño e indemnizar los perjuicios (art. 100 LECrim); por eso el proceso penal suele acumular un objeto penal y otro civil.",
+          "refs": [
+            {
+              "ref": "Art. 1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "No se impondrá pena alguna por consecuencia de actos punibles cuya represión incumba a la jurisdicción ordinaria, sino de conformidad con las disposiciones del presente Código o de Leyes especiales y en virtud de sentencia dictada por Juez competente."
+            },
+            {
+              "ref": "Art. 100 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "De todo delito o falta nace acción penal para el castigo del culpable, y puede nacer también acción civil para la restitución de la cosa, la reparación del daño y la indemnización de perjuicios causados por el hecho punible."
+            }
+          ]
+        },
+        {
+          "text": "La ley exige además objetividad a todas las autoridades y funcionarios que intervienen en el procedimiento: deben consignar y apreciar tanto las circunstancias adversas como las favorables al presunto reo, e instruirle de sus derechos y recursos mientras no tenga defensor (art. 2 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Todas las Autoridades y funcionarios que intervengan en el procedimiento penal cuidarán, dentro de los límites de su respectiva competencia, de consignar y apreciar las circunstancias así adversas como favorables al presunto reo"
+            }
+          ]
+        },
+        {
+          "text": "Para la instrucción de las causas criminales todos los días y horas del año son hábiles, sin necesidad de habilitación especial (art. 201 LECrim), lo que refleja la urgencia propia de la investigación penal.",
+          "refs": [
+            {
+              "ref": "Art. 201 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Todos los días y horas del año serán hábiles para la instrucción de las causas criminales, sin necesidad de habilitación especial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Tipos de procesos penales y órganos competentes",
+      "blocks": [
+        {
+          "text": "La LECrim regula varios procedimientos según la gravedad del delito. El procedimiento abreviado se aplica a los delitos castigados con pena privativa de libertad no superior a nueve años o con penas de otra naturaleza (art. 757 LECrim); el procedimiento para el enjuiciamiento rápido, a delitos con pena de prisión que no exceda de cinco años (u otras penas de hasta diez años) cuando el proceso se incoa por atestado policial y concurre flagrancia, un delito de la lista legal o instrucción sencilla (art. 795 LECrim); el juicio sobre delitos leves tiene su propio cauce (art. 962 LECrim). El sumario ordinario queda para los delitos más graves, por exclusión. Existen además procesos especiales, como el del Tribunal del Jurado, que no está desarrollado en las fuentes disponibles para este tema.",
+          "refs": [
+            {
+              "ref": "Art. 757 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "el procedimiento regulado en este Título se aplicará al enjuiciamiento de los delitos castigados con pena privativa de libertad no superior a nueve años, o bien con cualesquiera otras penas de distinta naturaleza bien sean únicas, conjuntas o alternativas, cualquiera que sea su cuantía o duración."
+            },
+            {
+              "ref": "Art. 795.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "el procedimiento regulado en este Título se aplicará a la instrucción y al enjuiciamiento de delitos castigados con pena privativa de libertad que no exceda de cinco años, o con cualesquiera otras penas, bien sean únicas, conjuntas o alternativas, cuya duración no exceda de diez años"
+            },
+            {
+              "ref": "Art. 962.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Cuando la Policía Judicial tenga noticia de un hecho que presente los caracteres de delito leve de lesiones o maltrato de obra, de hurto flagrante, de amenazas, de coacciones o de injurias"
+            }
+          ]
+        },
+        {
+          "text": "La competencia objetiva está en el art. 14 LECrim, ya adaptado a los Tribunales de Instancia: la Sección de Instrucción conoce de los delitos leves y de la instrucción de las causas; la Sección de lo Penal enjuicia los delitos con pena privativa de libertad no superior a cinco años; y la Audiencia Provincial, los demás casos (o el Tribunal del Jurado cuando le estén atribuidos).",
+          "refs": [
+            {
+              "ref": "Art. 14.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Para la instrucción de las causas, la Sección de Instrucción del Tribunal de Instancia del partido en que el delito se hubiere cometido"
+            },
+            {
+              "ref": "Art. 14.3 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Para el conocimiento y fallo de las causas por delitos a los que la ley señale pena privativa de libertad de duración no superior a cinco años o pena de multa cualquiera que sea su cuantía"
+            },
+            {
+              "ref": "Art. 14.4 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Para el conocimiento y fallo de las causas en los demás casos la Audiencia Provincial de la circunscripción donde el delito se haya cometido"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Las partes acusadoras: acción penal pública, popular y Ministerio Fiscal",
+      "blocks": [
+        {
+          "text": "La acción penal es pública y todos los ciudadanos españoles pueden ejercitarla con arreglo a la ley (art. 101 LECrim), hayan sido o no ofendidos por el delito: es la acción popular, que se ejerce mediante querella (art. 270 LECrim). No pueden ejercitarla quien no goce de la plenitud de los derechos civiles, quien haya sido condenado dos veces por denuncia o querella calumniosas y los jueces y magistrados, salvo por delitos contra sí mismos o sus familiares (art. 102 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 101 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La acción penal es pública. Todos los ciudadanos españoles podrán ejercitarla con arreglo a las prescripciones de la Ley."
+            },
+            {
+              "ref": "Art. 270 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Todos los ciudadanos españoles, hayan sido o no ofendidos por el delito, pueden querellarse, ejercitando la acción popular establecida en el artículo 101 de esta Ley."
+            },
+            {
+              "ref": "Art. 102 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "1.º El que no goce de la plenitud de los derechos civiles. 2.º El que hubiera sido condenado dos veces por sentencia firme como reo del delito de denuncia o querella calumniosas. 3.º El Juez o Magistrado."
+            }
+          ]
+        },
+        {
+          "text": "El Ministerio Fiscal está obligado a ejercitar todas las acciones penales que considere procedentes, haya o no acusador particular, salvo las que el Código Penal reserva a la querella privada (art. 105.1 LECrim). Hay delitos privados, como la calumnia y la injuria, cuya acción solo puede ejercitarse en la forma prevista en el Código Penal (art. 104 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 105.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Los funcionarios del Ministerio Fiscal tendrán la obligación de ejercitar, con arreglo a las disposiciones de la Ley, todas las acciones penales que consideren procedentes, haya o no acusador particular en las causas, menos aquellas que el Código Penal reserva exclusivamente a la querella privada."
+            },
+            {
+              "ref": "Art. 104 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Las acciones penales que nacen de los delitos de estupro, calumnia e injuria tampoco podrán ser ejercitadas por otras personas ni en manera distinta que las prescritas en los respectivos artículos del Código Penal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "El ofendido y perjudicado y el actor civil",
+      "blocks": [
+        {
+          "text": "Cuando el ofendido o perjudicado declara ante el juez, el letrado de la Administración de Justicia le informa de su derecho a mostrarse parte en el proceso y a renunciar o no a la restitución, reparación e indemnización (art. 109 LECrim). Los perjudicados pueden personarse antes del trámite de calificación del delito, sin que se retroceda en las actuaciones (art. 110 LECrim). Que no se personen no significa que renuncien a la indemnización: la renuncia debe hacerse de manera clara y terminante.",
+          "refs": [
+            {
+              "ref": "Art. 109 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "le instruirá del derecho que le asiste para mostrarse parte en el proceso y renunciar o no a la restitución de la cosa, reparación del daño e indemnización del perjuicio causado por el hecho punible."
+            },
+            {
+              "ref": "Art. 110 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Las personas perjudicadas por un delito que no hubieren renunciado a su derecho podrán mostrarse parte en la causa si lo hicieran antes del trámite de calificación del delito y ejercitar las acciones civiles que procedan, según les conviniere, sin que por ello se retroceda en el curso de las actuaciones."
+            },
+            {
+              "ref": "Art. 110 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "siendo necesario que la renuncia de este derecho se haga en su caso de una manera clara y terminante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "La parte pasiva: el investigado o encausado y su defensa",
+      "blocks": [
+        {
+          "text": "Toda persona a quien se atribuya un hecho punible puede ejercer el derecho de defensa desde que se le comunique la existencia del procedimiento, haya sido detenida o se haya acordado su procesamiento (art. 118.1 LECrim). Debe ser informada, entre otros, de los hechos que se le atribuyen, de su derecho a examinar las actuaciones, a designar abogado, a la asistencia jurídica gratuita, a intérprete, a guardar silencio y a no declarar contra sí misma. Para actuar en el proceso, el investigado debe ser representado por procurador y defendido por abogado, nombrados de oficio cuando no los designe (art. 118.3 LECrim). Las comunicaciones con su abogado son confidenciales (art. 118.4 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 118.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Toda persona a quien se atribuya un hecho punible podrá ejercitar el derecho de defensa, interviniendo en las actuaciones, desde que se le comunique su existencia, haya sido objeto de detención o de cualquier otra medida cautelar o se haya acordado su procesamiento"
+            },
+            {
+              "ref": "Art. 118.1.g y h LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "g) Derecho a guardar silencio y a no prestar declaración si no desea hacerlo, y a no contestar a alguna o algunas de las preguntas que se le formulen. h) Derecho a no declarar contra sí mismo y a no confesarse culpable."
+            },
+            {
+              "ref": "Art. 118.3 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Para actuar en el proceso, las personas investigadas deberán ser representadas por procurador y defendidas por abogado, designándoseles de oficio cuando no los hubiesen nombrado por sí mismos y lo solicitaren"
+            },
+            {
+              "ref": "Art. 118.4 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Todas las comunicaciones entre el investigado o encausado y su abogado tendrán carácter confidencial."
+            }
+          ]
+        },
+        {
+          "text": "En el sumario ordinario, cuando resulte algún indicio racional de criminalidad contra una persona determinada se dicta auto de procesamiento (art. 384 LECrim). Contra ese auto cabe reforma en tres días y, contra el que la deniega, apelación en cinco días.",
+          "refs": [
+            {
+              "ref": "Art. 384 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Desde que resultare del sumario algún indicio racional de criminalidad contra determinada persona, se dictará auto declarándola procesada"
+            },
+            {
+              "ref": "Art. 384 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "podrá utilizarse, por la representación de ésta, recurso de reforma dentro de los tres días siguientes al de haberle sido notificada la resolución"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Los actos procesales: las resoluciones judiciales",
+      "blocks": [
+        {
+          "text": "El art. 141 LECrim clasifica las resoluciones judiciales. Son providencias las que resuelven cuestiones procesales reservadas al juez que no requieren forma de auto; autos, las que deciden incidentes o puntos esenciales que afectan directamente a investigados, responsables civiles o acusadores, la competencia, la recusación, los recursos contra providencias o decretos, la prisión o libertad provisional, la admisión o denegación de prueba o afectan a un derecho fundamental; y sentencias, las que deciden definitivamente la cuestión criminal. Una sentencia es firme cuando no cabe contra ella recurso ordinario ni extraordinario, salvo revisión y rehabilitación; la ejecutoria es el documento público y solemne que la consigna.",
+          "refs": [
+            {
+              "ref": "Art. 141 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Providencias, cuando resuelvan cuestiones procesales reservadas al Juez y que no requieran legalmente la forma de auto."
+            },
+            {
+              "ref": "Art. 141 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "cuando decidan recursos contra providencias o decretos, la prisión o libertad provisional, la admisión o denegación de prueba o del derecho de justicia gratuita o afecten a un derecho fundamental"
+            },
+            {
+              "ref": "Art. 141 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Sentencias, cuando decidan definitivamente la cuestión criminal. Sentencias firmes, cuando no quepa contra ellas recurso alguno ordinario ni extraordinario, salvo los de revisión y rehabilitación. Llámase ejecutoria el documento público y solemne en que se consigna una sentencia firme."
+            }
+          ]
+        },
+        {
+          "text": "En cuanto a la forma, las providencias se limitan a lo mandado y pueden motivarse sucintamente; los autos son siempre fundados, con antecedentes de hecho, fundamentos de derecho y parte dispositiva. Toda resolución debe indicar si es firme o qué recurso cabe, ante qué órgano y en qué plazo (art. 141 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 141 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Los autos serán siempre fundados y contendrán en párrafos separados y numerados los antecedentes de hecho y los fundamentos de derecho y, por último, la parte dispositiva."
+            },
+            {
+              "ref": "Art. 141 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Todas las resoluciones incluirán la mención del lugar y fecha en que se adopten, y si la misma es firme o si cabe algún recurso contra ella"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Medidas cautelares personales: la detención",
+      "blocks": [
+        {
+          "text": "Cualquier persona puede detener a quien intente cometer un delito en el momento de ir a cometerlo, al delincuente in fraganti, a quien se fugue del establecimiento penal donde extingue condena o de la cárcel donde espera traslado, al que se fugue durante la conducción o estando detenido o preso por causa pendiente, y al procesado o condenado en rebeldía (art. 490 LECrim). La autoridad o agente de Policía Judicial está obligada a detener en esos casos y en otros adicionales (art. 492 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 490 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Cualquier persona puede detener: 1.º Al que intentare cometer un delito en el momento de ir a cometerlo. 2.º Al delincuente in fraganti. 3.º Al que se fugare del establecimiento penal en que se halle extinguiendo condena."
+            },
+            {
+              "ref": "Art. 490 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "6.º Al que se fugare estando detenido o preso por causa pendiente. 7.º Al procesado o condenado que estuviere en rebeldía."
+            },
+            {
+              "ref": "Art. 492 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La Autoridad o agente de Policía judicial tendrá obligación de detener: 1.º A cualquiera que se halle en alguno de los casos del artículo 490."
+            }
+          ]
+        },
+        {
+          "text": "Quien detiene debe poner al detenido en libertad o entregarlo al juez más próximo dentro de las veinticuatro horas siguientes (art. 496 LECrim). El juez de la causa, a su vez, debe elevar la detención a prisión o dejarla sin efecto en setenta y dos horas desde la entrega (art. 497 LECrim). La detención preventiva no puede durar más del tiempo estrictamente necesario y, en todo caso, setenta y dos horas como máximo hasta la libertad o la puesta a disposición judicial (art. 17.2 CE y art. 520.1 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 496 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "deberá ponerla en libertad o entregarla al Juez más próximo al lugar en que hubiere hecho la detención dentro de las veinticuatro horas siguientes al acto de la misma."
+            },
+            {
+              "ref": "Art. 497 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "elevará la detención a prisión, o la dejará sin efecto, en el término de setenta y dos horas, a contar desde que el detenido le hubiese sido entregado."
+            },
+            {
+              "ref": "Art. 520.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial."
+            }
+          ]
+        },
+        {
+          "text": "La detención y la prisión provisional deben practicarse en la forma que menos perjudique al detenido o preso en su persona, reputación y patrimonio (art. 520.1 LECrim). El detenido es informado por escrito, de forma inmediata y en lengua que comprenda, de los hechos, de las razones de su privación de libertad y de sus derechos: guardar silencio, no declarar contra sí mismo, designar abogado, avisar a un familiar, intérprete gratuito, reconocimiento por médico forense, entre otros (art. 520.2 LECrim). El abogado debe acudir en un máximo de tres horas desde el encargo (art. 520.5 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 520.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La detención y la prisión provisional deberán practicarse en la forma que menos perjudique al detenido o preso en su persona, reputación y patrimonio."
+            },
+            {
+              "ref": "Art. 520.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Toda persona detenida o presa será informada por escrito, en un lenguaje sencillo y accesible, en una lengua que comprenda y de forma inmediata, de los hechos que se le atribuyan y las razones motivadoras de su privación de libertad"
+            },
+            {
+              "ref": "Art. 520.5 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "siempre dentro del plazo máximo de tres horas desde la recepción del encargo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "La prisión provisional: órgano, presupuestos y fines",
+      "blocks": [
+        {
+          "text": "Solo pueden decretar la prisión provisional órganos judiciales: el juez o magistrado instructor, el juez que forme las primeras diligencias y el juez de lo penal o tribunal que conozca de la causa (art. 502.1 LECrim). Es una medida excepcional y subsidiaria: solo procede cuando sea objetivamente necesaria y no existan medidas menos gravosas que alcancen los mismos fines (art. 502.2 LECrim). Nunca se adopta si el hecho no es delito o concurre una causa de justificación (art. 502.4 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 502.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Podrá decretar la prisión provisional el juez o magistrado instructor, el juez que forme las primeras diligencias, así como el juez de lo penal o tribunal que conozca de la causa."
+            },
+            {
+              "ref": "Art. 502.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La prisión provisional sólo se adoptará cuando objetivamente sea necesaria, de conformidad con lo establecido en los artículos siguientes, y cuando no existan otras medidas menos gravosas para el derecho a la libertad a través de las cuales puedan alcanzarse los mismos fines que con la prisión provisional."
+            },
+            {
+              "ref": "Art. 502.4 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "No se adoptará en ningún caso la prisión provisional cuando de las investigaciones practicadas se infiera racionalmente que el hecho no es constitutivo de delito o que el mismo se cometió concurriendo una causa de justificación."
+            }
+          ]
+        },
+        {
+          "text": "Requisitos (art. 503 LECrim): que conste un hecho con caracteres de delito sancionado con pena cuyo máximo sea igual o superior a dos años de prisión (o inferior si hay antecedentes no cancelados por delito doloso); motivos bastantes para creer responsable al investigado; y que se persiga uno de estos fines: asegurar su presencia ante un riesgo de fuga, evitar la ocultación o destrucción de pruebas, o evitar que actúe contra bienes jurídicos de la víctima. También puede acordarse para evitar la reiteración delictiva, solo si el delito es doloso (art. 503.2 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 503.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Que conste en la causa la existencia de uno o varios hechos que presenten caracteres de delito sancionado con pena cuyo máximo sea igual o superior a dos años de prisión"
+            },
+            {
+              "ref": "Art. 503.1.3.º LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "a) Asegurar la presencia del investigado o encausado en el proceso cuando pueda inferirse racionalmente un riesgo de fuga."
+            },
+            {
+              "ref": "Art. 503.1.3.º LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "b) Evitar la ocultación, alteración o destrucción de las fuentes de prueba relevantes para el enjuiciamiento en los casos en que exista un peligro fundado y concreto."
+            },
+            {
+              "ref": "Art. 503.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Sólo podrá acordarse la prisión provisional por esta causa cuando el hecho delictivo imputado sea doloso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Prisión provisional: procedimiento, duración, recursos e incomunicación",
+      "blocks": [
+        {
+          "text": "Puesto el detenido a disposición del juez, este convoca una audiencia en la que el Fiscal o las acusaciones pueden pedir la prisión o la libertad con fianza; debe celebrarse dentro de las 72 horas siguientes a la puesta a disposición judicial y el investigado debe estar asistido de letrado (art. 505 LECrim). Si nadie la pide, el juez acuerda necesariamente la libertad. Las resoluciones sobre la situación personal adoptan forma de auto motivado (art. 506 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 505.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La audiencia prevista en el apartado anterior deberá celebrarse en el plazo más breve posible dentro de las 72 horas siguientes a la puesta del detenido a disposición judicial"
+            },
+            {
+              "ref": "Art. 505.4 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Si ninguna de las partes las instare, acordará necesariamente la inmediata puesta en libertad del investigado o encausado que estuviere detenido."
+            },
+            {
+              "ref": "Art. 506.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Las resoluciones que se dicten sobre la situación personal del investigado o encausado adoptarán la forma de auto."
+            }
+          ]
+        },
+        {
+          "text": "La prisión dura el tiempo imprescindible (art. 504.1 LECrim). Por riesgo de fuga, protección de la víctima o reiteración, el máximo es un año si la pena señalada es igual o inferior a tres años y dos años si es superior, con una sola prórroga de seis meses o de dos años respectivamente; si hay condena recurrida puede llegar a la mitad de la pena impuesta. Por riesgo para la prueba, el máximo es de seis meses (art. 504.3 LECrim). Contra los autos de prisión cabe apelación con tramitación preferente, y el recurso contra el auto de prisión debe resolverse en un máximo de 30 días (art. 507.1 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 504.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "su duración no podrá exceder de un año si el delito tuviere señalada pena privativa de libertad igual o inferior a tres años, o de dos años si la pena privativa de libertad señalada para el delito fuera superior a tres años."
+            },
+            {
+              "ref": "Art. 504.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Si fuere condenado el investigado o encausado, la prisión provisional podrá prorrogarse hasta el límite de la mitad de la pena efectivamente impuesta en la sentencia, cuando ésta hubiere sido recurrida."
+            },
+            {
+              "ref": "Art. 504.3 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Cuando la prisión provisional se hubiere acordado en virtud de lo previsto en el apartado 1.3.º b) del artículo anterior, su duración no podrá exceder de seis meses."
+            },
+            {
+              "ref": "Art. 507.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "podrá ejercitarse el recurso de apelación en los términos previstos en el artículo 766, que gozará de tramitación preferente. El recurso contra el auto de prisión deberá resolverse en un plazo máximo de 30 días."
+            }
+          ]
+        },
+        {
+          "text": "Excepcionalmente, el juez puede acordar por resolución motivada la detención o prisión incomunicadas para evitar graves peligros para la vida, libertad o integridad de una persona o para no comprometer gravemente el proceso (art. 509.1 LECrim). La incomunicación no puede extenderse más allá de cinco días, prorrogables otros cinco en terrorismo o delincuencia organizada, y nunca se aplica a menores de dieciséis años (art. 509.2 y 4 LECrim). Al preso en comunicación no se le puede impedir la relación con su abogado defensor (art. 523 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 509.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La incomunicación no podrá extenderse más allá de cinco días."
+            },
+            {
+              "ref": "Art. 509.4 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "En ningún caso podrán ser objeto de detención incomunicada los menores de dieciséis años."
+            },
+            {
+              "ref": "Art. 523 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "La relación con el Abogado defensor no podrá impedírsele mientras estuviere en comunicación."
+            }
+          ]
+        },
+        {
+          "text": "La libertad provisional es la alternativa: si no se acuerda la prisión, el juez decide si el investigado debe prestar o no fianza para seguir en libertad (art. 529 LECrim). En todo caso, el detenido o preso es puesto en libertad en cualquier estado de la causa en que resulte su inocencia (art. 528 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 529 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "el juez o tribunal decretará, con arreglo a lo previsto en el artículo 505, si el investigado o encausado ha de dar o no fianza para continuar en libertad provisional."
+            },
+            {
+              "ref": "Art. 528 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "El detenido o preso será puesto en libertad en cualquier estado de la causa en que resulte su inocencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "De todo delito nace acción penal y puede nacer acción civil; la acción penal es pública (arts. 100-101 LECrim).",
+          "refs": [
+            {
+              "ref": "Art. 100 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "De todo delito o falta nace acción penal para el castigo del culpable, y puede nacer también acción civil"
+            }
+          ]
+        },
+        {
+          "text": "La prisión o libertad provisional se decide por auto; la cuestión criminal, por sentencia; las cuestiones procesales simples, por providencia.",
+          "refs": [
+            {
+              "ref": "Art. 141 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "cuando decidan recursos contra providencias o decretos, la prisión o libertad provisional"
+            }
+          ]
+        },
+        {
+          "text": "Para la instrucción, todos los días y horas son hábiles.",
+          "refs": [
+            {
+              "ref": "Art. 201 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "Todos los días y horas del año serán hábiles para la instrucción de las causas criminales"
+            }
+          ]
+        },
+        {
+          "text": "Entrega del detenido por particular o agente: 24 horas. El juez eleva a prisión o deja sin efecto en 72 horas desde la entrega.",
+          "refs": [
+            {
+              "ref": "Art. 497 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "en el término de setenta y dos horas, a contar desde que el detenido le hubiese sido entregado."
+            }
+          ]
+        },
+        {
+          "text": "Detención preventiva: máximo 72 horas (art. 17.2 CE).",
+          "refs": [
+            {
+              "ref": "Art. 17.2 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial."
+            }
+          ]
+        },
+        {
+          "text": "Umbral general de la prisión provisional: pena máxima igual o superior a dos años de prisión.",
+          "refs": [
+            {
+              "ref": "Art. 503.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "sancionado con pena cuyo máximo sea igual o superior a dos años de prisión"
+            }
+          ]
+        },
+        {
+          "text": "Duración máxima: un año (pena hasta tres años) o dos años (pena superior); seis meses si el fin es proteger la prueba.",
+          "refs": [
+            {
+              "ref": "Art. 504.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "o de dos años si la pena privativa de libertad señalada para el delito fuera superior a tres años."
+            }
+          ]
+        },
+        {
+          "text": "Audiencia de prisión: dentro de 72 horas desde la puesta a disposición judicial. Apelación del auto de prisión: se resuelve en 30 días.",
+          "refs": [
+            {
+              "ref": "Art. 507.1 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "El recurso contra el auto de prisión deberá resolverse en un plazo máximo de 30 días."
+            }
+          ]
+        },
+        {
+          "text": "Incomunicación: máximo cinco días (prorrogables otros cinco en terrorismo o crimen organizado).",
+          "refs": [
+            {
+              "ref": "Art. 509.2 LECrim",
+              "law": "LECrim",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+              "quote": "la incomunicación podrá prorrogarse por otro plazo no superior a cinco días."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

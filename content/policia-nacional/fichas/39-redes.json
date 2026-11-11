@@ -60,5 +60,590 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Redes informáticas: conceptos básicos",
+      "blocks": [
+        {
+          "text": "Una red permite que varios dispositivos se comuniquen siguiendo protocolos. El INCIBE define el protocolo como el sistema de reglas que permite que dos o más entidades se comuniquen para transmitir información por cualquier medio físico; fija la sintaxis, la semántica y la sincronización de la comunicación y puede implementarse por hardware, por software o por ambos.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Protocolo",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un sistema de reglas que permiten que dos o más entidades se comuniquen entre ellas para transmitir información por medio de cualquier tipo de medio físico."
+            },
+            {
+              "ref": "INCIBE, Glosario: Protocolo",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Se trata de las reglas o el estándar que define la sintaxis, semántica y sincronización de la comunicación"
+            }
+          ]
+        },
+        {
+          "text": "Por su extensión, una LAN o red de área local es una red de pequeña amplitud geográfica (una oficina, una vivienda, un edificio), cableada o inalámbrica. Una red wifi es precisamente una LAN que no usa cable y funciona con el estándar 802.11. La WAN o red de área extensa es una red de gran tamaño formada por redes más pequeñas separadas por enrutadores; Internet es el mejor ejemplo. Una VLAN es una red lógica independiente dentro de una red física, configurada por software.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: LAN",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "es una red informática de pequeña amplitud geográfica, que suele limitarse a espacios como una oficina, una vivienda o un edificio."
+            },
+            {
+              "ref": "Microsoft Learn, Glosario TCP/IP: WAN",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Red de área extensa (WAN): una red de gran tamaño que es una colección de redes más pequeñas separadas por enrutadores. Internet es un ejemplo de una WAN de gran tamaño."
+            },
+            {
+              "ref": "INCIBE, Glosario: VLAN",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "es una red lógica independiente dentro de una red física"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "El modelo OSI: concepto y capas",
+      "blocks": [
+        {
+          "text": "Según Microsoft, Windows usa una arquitectura de red basada en el modelo de siete capas desarrollado por la Organización Internacional de Normalización (ISO) en 1978: el modelo de referencia de interconexión de sistemas abiertos (OSI). Describe la red como una serie de capas de protocolo, cada una con funciones propias, que ofrece servicios a las capas superiores ocultándoles cómo se implementan. Las siete capas son, de abajo arriba: física, vínculo de datos (enlace), red, transporte, sesión, presentación y aplicación; la fuente oficial solo desarrolla las cuatro inferiores, y las tres superiores no están descritas en las fuentes de la plataforma.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Arquitectura de red de Windows y el modelo OSI",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Los sistemas operativos Microsoft Windows usan una arquitectura de red basada en el modelo de redes de siete capas desarrollado por la Organización Internacional de Normalización (ISO) en 1978."
+            },
+            {
+              "ref": "Microsoft Learn, Arquitectura de red de Windows y el modelo OSI",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Cada capa ofrece servicios específicos a capas superiores al blindar estas capas a partir de los detalles de cómo se implementan los servicios."
+            },
+            {
+              "ref": "Microsoft Learn, Arquitectura de red de Windows y el modelo OSI",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Los controladores de red de Windows implementan las cuatro capas inferiores del modelo OSI."
+            }
+          ]
+        },
+        {
+          "text": "La capa física es la más baja: gestiona la recepción y transmisión de la secuencia de bits sin procesar a través de un medio físico y describe las interfaces eléctricas, ópticas y mecánicas. En Windows la implementa la tarjeta de interfaz de red (NIC). La capa de vínculo de datos envía tramas entre direcciones físicas y detecta y recupera los errores de la capa física.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa física",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La capa física es la capa más baja del modelo OSI. Esta capa administra la recepción y transmisión de la secuencia de bits sin procesar no estructurada a través de un medio físico."
+            },
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa de vínculo de datos",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La capa de vínculo de datos envía fotogramas entre direcciones físicas y es responsable de la detección y recuperación de errores que se producen en la capa física."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "El modelo OSI: subcapas MAC y LLC, red y transporte",
+      "blocks": [
+        {
+          "text": "El IEEE divide la capa de vínculo de datos en dos subcapas: control de acceso a medios (MAC), que gestiona el acceso a la capa física, comprueba errores de trama y reconoce direcciones; y control de vínculos lógicos (LLC), que proporciona transferencia de tramas sin errores de un nodo a otro, establece y termina vínculos lógicos y retransmite tramas no confirmadas.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa de vínculo de datos",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La capa de vínculo de datos se divide aún más por el Instituto de Ingenieros eléctricos y electrónicos (IEEE) en dos subcapas: control de acceso a medios (MAC) y control de vínculos lógicos (LLC)."
+            },
+            {
+              "ref": "Microsoft Learn, Modelo OSI: subcapa LLC",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La subcapa LLC proporciona transferencia sin errores de tramas de datos de un nodo a otro."
+            }
+          ]
+        },
+        {
+          "text": "La capa de red controla el funcionamiento de la subred y determina la ruta física que deben seguir los datos (enrutamiento, control de tráfico, fragmentación, asignación de direcciones lógicas a físicas). La capa de transporte garantiza que los mensajes se entreguen sin errores, en secuencia y sin pérdida ni duplicación, liberando de esa tarea a los protocolos superiores.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa de red",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La capa de red controla el funcionamiento de la subred. Esta capa determina la ruta de acceso física que deben tomar los datos"
+            },
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa de transporte",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La capa de transporte garantiza que los mensajes se entreguen sin errores, en secuencia y sin pérdida ni duplicación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "El modelo TCP/IP",
+      "blocks": [
+        {
+          "text": "TCP/IP es la familia de protocolos sobre la que funciona Internet. Incluye el protocolo IP, que transfiere los paquetes de datos hasta su destino correcto, y el TCP, que garantiza que la transferencia se haga de forma correcta y confiable, además de ICMP, UDP, DNS, HTTP y FTP, entre otros. Su éxito se debe a su capacidad para conectar redes de diferentes tamaños y sistemas de diferentes tipos.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: TCP/IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Por TCP/IP se conoce a una familia de protocolos sobre los cuales funciona Internet, permitiendo la comunicación entre todos los servidores conectados a dicha red."
+            },
+            {
+              "ref": "INCIBE, Glosario: TCP/IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "el protocolo TCP (Transfer Control Protocol), que se ocupa de garantizar que la transferencia se lleve a cabo de forma correcta y confiable."
+            },
+            {
+              "ref": "Microsoft Learn, Direccionamiento TCP/IP",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "El éxito de TCP/IP como protocolo de red de Internet se debe en gran medida a su capacidad para conectar redes de diferentes tamaños y sistemas de diferentes tipos."
+            }
+          ]
+        },
+        {
+          "text": "Microsoft habla del «modelo de referencia TCP/IP» y sitúa el DNS en su capa de aplicación. En la capa de transporte están TCP y UDP, que usan puertos: interfaces lógicas para la comunicación entre máquinas, limitadas a 65 536 por ser números de 16 bits. La descripción completa de las capas del modelo TCP/IP no está en las fuentes de la plataforma.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, DNS",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP"
+            },
+            {
+              "ref": "Microsoft Learn, Firewall de Windows",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Para los protocolos de capa de transporte, TCP y UDP, puede especificar puertos o intervalos de puertos."
+            },
+            {
+              "ref": "INCIBE, Glosario: Puerto",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Los puertos lógicos están limitados a 65536 al tratarse de numeros de 16 bits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Dispositivos de red: concentradores, conmutadores y encaminadores",
+      "blocks": [
+        {
+          "text": "El router (enrutador, encaminador o rúter) distribuye el tráfico entre dos o más redes diferentes: está conectado al menos a dos redes, generalmente LAN o WAN, comprueba las direcciones de destino de los paquetes y decide la ruta con cabeceras y tablas de comparación. En casa, es el aparato del proveedor que conecta la LAN doméstica con la red del ISP. El DLE lo define como el dispositivo que distribuye el flujo de paquetes entre redes de la manera más eficaz.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Router",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un dispositivo que distribuye tráfico de red entre dos o más diferentes redes."
+            },
+            {
+              "ref": "INCIBE, Glosario: Router",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Sinónimo: Enrutador, Encaminador, Rúter"
+            },
+            {
+              "ref": "DLE, enrutador",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "Dispositivo que distribuye el flujo de paquetes de información entre redes de la manera más eficaz."
+            }
+          ]
+        },
+        {
+          "text": "Los concentradores (hubs) y los conmutadores (switches) no están definidos en las fuentes de la plataforma. Solo aparece el conmutador de forma indirecta: el INCIBE describe un ataque (CAM Table Overflow) que se produce cuando alguien se conecta a puertos de un switch o conmutador y simula miles de direcciones MAC, y explica que varias VLAN pueden coexistir en un solo conmutador.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Ataque CAM Table Overflow",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Tipo de ataque que se produce cuando un atacante se conecta a uno o varios puertos de un switch o conmutador y ejecuta un programa que simula el acceso de miles de direcciones MAC aleatorias en esos puertos"
+            },
+            {
+              "ref": "INCIBE, Glosario: VLAN",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "varias de estas redes pueden coexistir en un solo conmutador o red física."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Puerta de enlace y servidores proxy",
+      "blocks": [
+        {
+          "text": "Desde el punto de vista de TCP/IP, el enrutador configurado en un host que vincula su subred con otras redes es la puerta de enlace predeterminada: si el destino es remoto, el equipo le reenvía el paquete. El INCIBE define la puerta de enlace como el dispositivo intermediario que conecta redes con protocolos y arquitecturas diferentes, traduce la información de un protocolo a otro y tiene como mínimo dos tarjetas de red.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Puerta de enlace predeterminada",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Desde el punto de vista de TCP/IP, un enrutador especificado en un host, que vincula la subred del host con otras redes, se denomina puerta de enlace predeterminada."
+            },
+            {
+              "ref": "INCIBE, Glosario: Puerta de enlace",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Su propósito es traducir la información del protocolo utilizado en una red al protocolo usado en la red de destino."
+            }
+          ]
+        },
+        {
+          "text": "El proxy es el equipo y el software que hacen de intermediario en las peticiones de los equipos de las redes LAN hacia Internet. Centraliza el tráfico entre Internet y una red privada, de modo que no todas las máquinas necesitan conexión directa y dirección IP pública, y puede aportar mecanismos de seguridad, como un cortafuegos, frente a accesos no autorizados.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Proxy",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "El proxy es tanto el equipo, como el software encargado de dar el servicio, que hacen de intermediario en las peticiones de los equipos de la redes LAN hacia Internet."
+            },
+            {
+              "ref": "INCIBE, Glosario: Proxy",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Su cometido es de centralizar el tráfico entre Internet y una red privada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Cortafuegos (firewall)",
+      "blocks": [
+        {
+          "text": "El cortafuegos es un sistema de seguridad, de software o hardware, situado en los límites de una red para permitir y limitar el flujo de tráfico según un conjunto de normas. Su función básica es asegurar que todas las comunicaciones entre la red e Internet se ajusten a las políticas de seguridad de la organización. El DLE lo define, en informática, como el sistema que protege redes y terminales privadas de accesos no autorizados, sobre todo al navegar por internet.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Cortafuegos",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "La funcionalidad básica de un cortafuego es asegurar que todas las comunicaciones entre la red e Internet se realicen conforme a las políticas de seguridad de la organización o corporación."
+            },
+            {
+              "ref": "DLE, cortafuegos 2",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "Sistema que protege redes y terminales privadas de accesos no autorizados, especialmente durante la navegación por internet."
+            }
+          ]
+        },
+        {
+          "text": "Firewall de Windows es un cortafuegos basado en host, incluido y activado por defecto en todas las ediciones. Filtra el tráfico por dirección IP, protocolo o puerto y, por defecto, bloquea todo el tráfico entrante salvo que se solicite o coincida con una regla, y permite el saliente salvo que coincida con una regla. Tiene tres perfiles de red: dominio, privado y público.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Firewall de Windows",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Firewall de Windows es un firewall basado en host que se incluye con el sistema operativo y está habilitado de forma predeterminada en todas las ediciones de Windows."
+            },
+            {
+              "ref": "Microsoft Learn, Firewall de Windows",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "bloquear todo el tráfico entrante, a menos que se solicite o coincida con una regla permitir todo el tráfico saliente, a menos que coincida con una regla"
+            },
+            {
+              "ref": "Microsoft Learn, Firewall de Windows",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Firewall de Windows ofrece tres perfiles de red: dominio, privado y público."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Servidores DHCP y DNS",
+      "blocks": [
+        {
+          "text": "El servidor es tanto el software que realiza tareas para los usuarios como el ordenador en el que funciona. El Protocolo de configuración dinámica de host (DHCP) es un protocolo cliente-servidor que proporciona automáticamente a un host su dirección IP y otra configuración, como la máscara de subred y la puerta de enlace predeterminada; está definido en las RFC 2131 y 2132. El servidor mantiene un grupo de direcciones y las concede de forma dinámica, de modo que las que dejan de usarse vuelven al grupo.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, DHCP",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "El Protocolo de configuración dinámica de host (DHCP) es un protocolo cliente-servidor que proporciona automáticamente un host de protocolo de Internet (IP) con su dirección IP y otra información de configuración relacionada, como la máscara de subred y la puerta de enlace de predeterminada."
+            },
+            {
+              "ref": "Microsoft Learn, DHCP",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "El servidor DHCP mantiene un grupo de direcciones IP y concede una dirección a cualquier cliente habilitado para DHCP cuando se inicia en la red."
+            }
+          ]
+        },
+        {
+          "text": "El DNS es el protocolo estándar que asigna nombres de dominio a direcciones IP, permitiendo la resolución de nombres. En Windows es el servicio de resolución predeterminado, y toda conexión de red se configura con la dirección de al menos un servidor DNS. Según el INCIBE, su función más importante es traducir nombres inteligibles para las personas en direcciones IP. La extensión DNSSEC garantiza la integridad y autenticidad de los datos frente a ataques como el envenenamiento de caché.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, DNS",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "DNS es un protocolo estándar del sector que asigna nombres de dominio a direcciones IP, lo que permite la resolución de nombres para computadoras y usuarios."
+            },
+            {
+              "ref": "INCIBE, Glosario: DNS",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Su función más importante es traducir nombres inteligibles para las personas en direcciones IP"
+            },
+            {
+              "ref": "Microsoft Learn, DNS",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "DNSSEC: garantiza la integridad y la autenticidad de los datos, lo que evita ataques como la intoxicación por caché."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Direccionamiento IPv4: octetos, máscara y dirección MAC",
+      "blocks": [
+        {
+          "text": "Una dirección IP (IPv4) es un número de 32 bits que identifica de forma única un host en una red TCP/IP. Se escribe en formato decimal punteado, como 192.168.123.132: cuatro octetos (números de 8 bits) con valores decimales de 0 a 255. Tiene dos partes: la de red y la de host. Las direcciones pueden ser públicas, accesibles desde Internet, o privadas, internas a una LAN.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Direccionamiento TCP/IP",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Una dirección IP es un número de 32 bits. Identifica de forma única un host (equipo u otro dispositivo, como una impresora o enrutador) en una red TCP/IP."
+            },
+            {
+              "ref": "Microsoft Learn, Glosario TCP/IP: octeto",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Tienen un intervalo de 00000000 a 11111111 que corresponden a los valores decimales de 0 a 255."
+            },
+            {
+              "ref": "INCIBE, Glosario: Dirección IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Las direcciones IP pueden ser «públicas», si son accesibles directamente desde cualquier sistema conectado a Internet o «privadas», si son internas a una red LAN"
+            }
+          ]
+        },
+        {
+          "text": "La máscara de subred es otro número de 32 bits que distingue la parte de red de la de host; TCP/IP la usa para saber si un host está en la subred local o en una red remota. Con la máscara 255.255.255.0, los primeros 24 bits son la red. No hay que confundir la IP con la dirección MAC o física: un valor de 48 bits único, grabado en el hardware de la interfaz de red al fabricarla.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Máscara de subred",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "El protocolo TCP/IP usa la máscara de subred para determinar si un host está en la subred local o en una red remota."
+            },
+            {
+              "ref": "INCIBE, Glosario: Dirección MAC",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "es un valor de 48 bits único e irrepetible que identifica todo dispositivo conectado a una red."
+            },
+            {
+              "ref": "INCIBE, Glosario: Dirección MAC",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "es escrita directamente, en forma binaria, en el hardware del interfaz de red en el momento de su fabricación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Clases de redes y subredes",
+      "blocks": [
+        {
+          "text": "Las direcciones se dividen en clases; las más comunes son A, B y C, y las D y E no las usan los usuarios finales. La clase se reconoce por el primer octeto. Clase A: primer octeto de 0 a 127, máscara 255.0.0.0 (10.52.36.11). Clase B: de 128 a 191, máscara 255.255.0.0 (172.16.52.63). Clase C: de 192 a 223, máscara 255.255.255.0 (192.168.123.132).",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Clases de red",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Las más comunes son las clases A, B y C. Las clases D y E existen, pero no las usan los usuarios finales."
+            },
+            {
+              "ref": "Microsoft Learn, Clases de red",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Las redes de clase B usan una máscara de subred predeterminada de 255.255.0.0 y tienen de 128 a 191 como su primer octeto. La dirección 172.16.52.63 es una dirección de clase B."
+            },
+            {
+              "ref": "Microsoft Learn, Clases de red",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Las redes de clase C usan una máscara de subred predeterminada de 255.255.255.0 y tienen de 192 a 223 como su primer octeto."
+            }
+          ]
+        },
+        {
+          "text": "Un administrador puede dividir una red en subredes «tomando prestados» bits de host. Con la máscara 255.255.255.192, la red 192.168.123.0 se convierte en cuatro: 192.168.123.0, .64, .128 y .192. Las direcciones de host con todos los bits a cero (dirección de red) o a uno (dirección de difusión) no son válidas.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Subredes",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Al usar una máscara de subred de 255.255.255.192, la red 192.168.123.0 se convierte en las cuatro redes 192.168.123.0, 192.168.123.64, 192.168.123.128 y 192.168.123.192."
+            },
+            {
+              "ref": "Microsoft Learn, Subredes",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "las direcciones binarias con una parte de host de todos los unos y todos los ceros no son válidas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "IPv6",
+      "blocks": [
+        {
+          "text": "Según el INCIBE, las direcciones IPv6 son mucho más complejas que las IPv4: hasta cuatro veces más largas, más seguras y capaces de conectar un gran número de sistemas a Internet; por ejemplo, 2001:0db8:3c4d:0015:0000:0000:1a2f:1a2b. Microsoft indica que IPv6 es una parte obligatoria de Windows desde Windows Vista y Windows Server 2008, y no recomienda deshabilitarlo, sino preferir IPv4 en las directivas de prefijo si hace falta. Los servidores DHCP de Windows pueden asignar direcciones IPv4 e IPv6.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Dirección IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "En su versión v6, las direcciones IP son mucho más complejas, siendo hasta 4 veces más largas, más seguras y permitiendo un gran número de sistemas conectados a Internet."
+            },
+            {
+              "ref": "Microsoft Learn, IPv6",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "El protocolo de Internet versión 6 (IPv6) es una parte obligatoria de Windows Vista, Windows Server 2008 y de versiones posteriores."
+            },
+            {
+              "ref": "Microsoft Learn, DHCP",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Esta característica permite asignar direcciones IPv4 e IPv6 a los clientes que usan DHCP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Modelo OSI: ISO, 1978, siete capas. La física es la más baja; la de transporte entrega sin errores, en secuencia, sin pérdida ni duplicación.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa de transporte",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "La capa de transporte garantiza que los mensajes se entreguen sin errores"
+            }
+          ]
+        },
+        {
+          "text": "Vínculo de datos: subcapas MAC y LLC (división del IEEE).",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Modelo OSI: capa de vínculo de datos",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "control de acceso a medios (MAC) y control de vínculos lógicos (LLC)."
+            }
+          ]
+        },
+        {
+          "text": "IPv4: 32 bits en cuatro octetos de 0 a 255. MAC: 48 bits, grabada en fábrica. IPv6: hasta 4 veces más larga.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Glosario TCP/IP: dirección IP",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Dirección IP: una dirección de 32 bits única para un host en una red TCP/IP o conexión entre redes."
+            }
+          ]
+        },
+        {
+          "text": "Clases: A (0-127, 255.0.0.0), B (128-191, 255.255.0.0), C (192-223, 255.255.255.0).",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Clases de red",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "Las redes de clase A usan una máscara de subred predeterminada de 255.0.0.0 y tienen de 0 a 127 como su primer octeto."
+            }
+          ]
+        },
+        {
+          "text": "DHCP: da automáticamente IP, máscara y puerta de enlace. DNS: traduce nombres de dominio a IP.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, DNS",
+              "law": "Microsoft Learn (redes)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+              "quote": "asigna nombres de dominio a direcciones IP"
+            }
+          ]
+        },
+        {
+          "text": "Router = enrutador = encaminador; la puerta de enlace predeterminada es el router que une la subred con otras redes.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Router",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Enrutador, Encaminador, Rúter"
+            }
+          ]
+        },
+        {
+          "text": "Proxy: intermediario entre la LAN e Internet. Cortafuegos: hace cumplir la política de seguridad en las comunicaciones entre la red e Internet.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Proxy",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "hacen de intermediario en las peticiones de los equipos de la redes LAN hacia Internet."
+            }
+          ]
+        },
+        {
+          "text": "TCP garantiza una transferencia correcta y confiable; IP lleva los paquetes a su destino. LAN: oficina, vivienda o edificio.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: TCP/IP",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "el protocolo IP (Internet Protocol), que se ocupa de transferir los paquetes de datos hasta su destino correcto"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Glosario INCIBE (https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf)"
 }

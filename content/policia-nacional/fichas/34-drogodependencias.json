@@ -60,5 +60,645 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Concepto de droga y drogodependencia",
+      "blocks": [
+        {
+          "text": "El Diccionario de la lengua española (DLE) define la droga como la sustancia de efecto estimulante, deprimente, narcótico o alucinógeno que produce dependencia física o psíquica. El Glosario de términos de alcohol y drogas de la Organización Mundial de la Salud (OMS) advierte que es un «término de uso variado»: en medicina es toda sustancia con potencial para prevenir o curar una enfermedad y en farmacología, toda sustancia química que modifica los procesos fisiológicos y bioquímicos; en el lenguaje coloquial se refiere a las sustancias psicoactivas y, a menudo, a las drogas ilegales. Las teorías profesionales consideran que la cafeína, el tabaco y el alcohol también son drogas.",
+          "refs": [
+            {
+              "ref": "DLE, droga 1.a",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "Sustancia de efecto estimulante, deprimente, narcótico o alucinógeno que produce dependencia física o psíquica."
+            },
+            {
+              "ref": "OMS, Glosario: Droga",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "En el lenguaje coloquial, el término suele referirse concretamente a las sustancias psicoactivas y, a menudo, de forma aún más concreta, a las drogas ilegales."
+            },
+            {
+              "ref": "OMS, Glosario: Droga",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "intentan normalmente demostrar que la cafeína, el tabaco, el alcohol y otras sustancias utilizadas a menudo con fines no médicos son también drogas"
+            }
+          ]
+        },
+        {
+          "text": "La sustancia psicoactiva es la que, cuando se ingiere, afecta a los procesos mentales, como la cognición o la afectividad; con su equivalente «sustancia psicotrópica», es la expresión más neutra para todo el grupo, legal e ilegal. La drogodependencia es, para el DLE, la dependencia física y psíquica de las drogas, y la toxicomanía, la adicción al consumo de drogas o sustancias afines. El estupefaciente es la sustancia que altera la sensibilidad, con efectos estimulantes, deprimentes, narcóticos o alucinógenos, y cuyo uso continuado crea adicción.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Sustancia o droga psicoactiva",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Sustancia que, cuando se ingiere, afecta a los procesos mentales, p. ej., a la cognición o la afectividad."
+            },
+            {
+              "ref": "DLE, drogodependencia",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "1. f. Dependencia física y psíquica de las drogas."
+            },
+            {
+              "ref": "DLE, toxicomanía",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "Adicción al consumo de drogas o sustancias afines."
+            },
+            {
+              "ref": "DLE, estupefaciente",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "Dicho de una sustancia, que altera la sensibilidad y puede producir efectos estimulantes, deprimentes, narcóticos o alucinógenos, y cuyo uso continuado crea adicción."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "El consumidor: adicción, abuso y sobredosis",
+      "blocks": [
+        {
+          "text": "La adicción es, según la OMS, el consumo repetido de una o varias sustancias psicoactivas hasta el punto de que el consumidor, denominado adicto, se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir, tiene enorme dificultad para interrumpir el consumo y se muestra decidido a obtener la sustancia por cualquier medio. Su vida queda dominada por el consumo. El DLE la define como la dependencia de sustancias o actividades nocivas para la salud o el equilibrio psíquico, con un ejemplo que incluye las máquinas tragaperras.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Adicción",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor (denominado adicto) se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir la sustancia (o las sustancias) preferida"
+            },
+            {
+              "ref": "OMS, Glosario: Adicción",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "La vida del adicto está dominada por el consumo de la sustancia, hasta llegar a excluir prácticamente todas las demás actividades y responsabilidades."
+            },
+            {
+              "ref": "DLE, adicción 1.a",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "Dependencia de sustancias o actividades nocivas para la salud o el equilibrio psíquico."
+            }
+          ]
+        },
+        {
+          "text": "El término «abuso» es ambiguo y la OMS no lo recoge en la CIE-10 salvo para sustancias que no producen dependencia; en su terminología prefiere hablar de «consumo perjudicial» y «consumo de riesgo». La sobredosis es el consumo de cualquier droga o medicamento en una cantidad que provoca efectos adversos agudos físicos o mentales; en cifras absolutas son más frecuentes las sobredosis de drogas legales que las de ilegales, y pueden causar la muerte.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Abuso",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "las expresiones \"consumo perjudicial\" y \"consumo de riesgo\""
+            },
+            {
+              "ref": "OMS, Glosario: Sobredosis",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Consumo de cualquier droga o medicamento en una cantidad que provoca efectos adversos agudos físicos o mentales."
+            },
+            {
+              "ref": "OMS, Glosario: Sobredosis",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "En cifras absolutas, son más frecuentes las sobredosis de drogas legales que las de drogas ilegales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Dependencia, tolerancia y síndrome de abstinencia",
+      "blocks": [
+        {
+          "text": "En 1964, un Comité de Expertos de la OMS introdujo el término «dependencia» para sustituir a los de adicción y habituación. Aplicado a las drogas, implica la necesidad de consumir dosis repetidas para encontrarse bien o para no sentirse mal. Si no se especifica, abarca lo físico y lo psicológico: la dependencia psicológica o psíquica es el deterioro del control sobre el consumo (ansia o craving, compulsión), mientras que la dependencia fisiológica o física se refiere a la tolerancia y los síntomas de abstinencia.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Dependencia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "En 1964, un Comité de Expertos de la OMS introdujo el término \"dependencia\" para sustituir a los de adicción y habituación"
+            },
+            {
+              "ref": "OMS, Glosario: Dependencia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "el término implica una necesidad de consumir dosis repetidas de la droga para encontrarse bien o para no sentirse mal."
+            },
+            {
+              "ref": "OMS, Glosario: Dependencia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "mientras que la dependencia fisiológica o física se refiere a la tolerancia y los síntomas de abstinencia"
+            }
+          ]
+        },
+        {
+          "text": "La tolerancia es la disminución de la respuesta a una dosis concreta de una droga o medicamento que se produce con el uso continuado: hacen falta dosis más altas para conseguir los efectos iniciales. Puede ser física, psicológica o conductual. La tolerancia cruzada es la que se desarrolla a una sustancia a la que no ha habido exposición previa por el consumo de otra; la tolerancia inversa o sensibilización, el estado en que la respuesta aumenta con el consumo repetido. La tolerancia es uno de los criterios del síndrome de dependencia.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Tolerancia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Disminución de la respuesta a una dosis concreta de una droga o un medicamento que se produce con el uso continuado. Se necesitan dosis más altas de alcohol o de otras sustancias para conseguir los efectos que se obtenían al principio con dosis más bajas."
+            },
+            {
+              "ref": "OMS, Glosario: Tolerancia cruzada",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Desarrollo de tolerancia a una sustancia a la cual no ha habido exposición previa, debido al consumo agudo o crónico de otra sustancia."
+            },
+            {
+              "ref": "OMS, Glosario: Tolerancia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "La tolerancia inversa, denominada también sensibilización, es un estado en el cual la respuesta a la sustancia aumenta con el consumo repetido. La tolerancia es uno de los criterios del síndrome de dependencia."
+            }
+          ]
+        },
+        {
+          "text": "El síndrome de abstinencia es el conjunto de síntomas, de intensidad y agrupamiento variables, que aparecen al suspender o reducir el consumo de una sustancia psicoactiva que se ha consumido de forma repetida, habitualmente durante un periodo prolongado o en dosis altas. Es uno de los indicadores del síndrome de dependencia.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Síndrome de abstinencia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Conjunto de síntomas con grado de intensidad y agrupamiento variables que aparecen al suspender o reducir el consumo de una sustancia psicoactiva que se ha consumido de forma repetida, habitualmente durante un período prolongado o/y en dosis altas."
+            },
+            {
+              "ref": "OMS, Glosario: Síndrome de abstinencia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Es uno de los indicadores del síndrome de dependencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Politoxicomanías o policonsumo",
+      "blocks": [
+        {
+          "text": "El policonsumo de drogas (en francés, polytoxicomanie) es el consumo de más de una droga o tipo de droga por una persona, normalmente al mismo tiempo o una detrás de otra, y por lo general con la intención de aumentar, potenciar o contrarrestar los efectos de otra. Aunque tiene connotación de consumo ilegal, el alcohol, la nicotina y la cafeína son las sustancias más combinadas en las sociedades industrializadas. El término francés asume además la dependencia de una o varias de las drogas.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Policonsumo de drogas",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Consumo de más de una droga o de más de un tipo de droga por una persona, normalmente al mismo tiempo o una detrás de otra, y por lo general, con la intención de aumentar, potenciar o contrarrestar los efectos de otra droga."
+            },
+            {
+              "ref": "OMS, Glosario: Policonsumo de drogas",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "el alcohol, la nicotina y la cafeína son las sustancias usadas con más frecuencia en combinación con otras en las sociedades industrializadas."
+            },
+            {
+              "ref": "OMS, Glosario: Policonsumo de drogas",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "El término francés \"polytoxicomanie\" tiene un significado parecido, salvo que asume la dependencia de una o varias de las drogas consumidas."
+            }
+          ]
+        },
+        {
+          "text": "En España, según la encuesta EDADES 2024, el 39,0 % de la población de 15 a 64 años declara policonsumo (dos o más sustancias) en los últimos 12 meses, más frecuente en hombres en todos los grupos de edad. El alcohol está presente al menos en el 93,5 % de los policonsumos de dos sustancias.",
+          "refs": [
+            {
+              "ref": "EDADES 2024, Policonsumo",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "el 39,0% declara policonsumo (dos o más sustancias). El policonsumo es más prevalente en hombres que en mujeres en todos los grupos de edad."
+            },
+            {
+              "ref": "EDADES 2024, Policonsumo",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "El alcohol está presente al menos en el 93,5% de los policonsumos de dos sustancias"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Métodos o vías de administración",
+      "blocks": [
+        {
+          "text": "Las fuentes no ofrecen una clasificación general de vías, pero sí datos por sustancias. La cocaína se consume esnifada, fumada o inyectada, formas que producen efectos más rápidos e intensos que la hoja mascada y aumentan el riesgo de adicción; el clorhidrato se suele esnifar y sus efectos duran entre 2 y 3 horas. El cannabis se fuma en un cigarrillo liado con tabaco (porro, canuto) y sus efectos duran dos o tres horas; por vía oral la absorción es más lenta. La mayoría de los alucinógenos se consumen por vía oral, aunque la DMT se esnifa o se fuma.",
+          "refs": [
+            {
+              "ref": "PNSD, Cocaína",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "surgieron diversas formas de consumo de la cocaína (esnifada, fumada, inyectada, etc.) que producen efectos más rápidos e intensos que la hoja mascada y por tanto aumentan el riesgo de desarrollar adicción y dependencia."
+            },
+            {
+              "ref": "PNSD, Cannabis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Al consumirse fumado, sus efectos pueden sentirse casi inmediatamente y duran entre dos y tres horas. Por vía oral la absorción es más lenta"
+            },
+            {
+              "ref": "OMS, Glosario: Alucinógeno",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "La mayoría de los alucinógenos se consumen por vía oral, no obstante la DMT se esnifa o se fuma."
+            }
+          ]
+        },
+        {
+          "text": "Las drogas de síntesis se consumen por vía inhalada, oral e incluso inyectada. La vía intravenosa, habitual en los opioides, explica muchas de sus secuelas físicas, como hepatitis B y C, VIH o septicemia. Para reducir esos daños existen programas de reducción de daños, que intentan reducir los daños sin afectar necesariamente al consumo subyacente, como el intercambio de agujas y jeringuillas.",
+          "refs": [
+            {
+              "ref": "PNSD, Drogas de síntesis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "se consumen por vía inhalada, oral e incluso pueden ser administradas por vía inyectada."
+            },
+            {
+              "ref": "OMS, Glosario: Opioide",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "debidas sobre todo a la vía de administración habitual, la intravenosa). Se trata de hepatitis B, hepatitis C, infección por el virus de la inmunodeficiencia humana, septicemia"
+            },
+            {
+              "ref": "OMS, Glosario: Reducción de daños",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Se utiliza especialmente para referirse a las políticas o programas que intentan reducir los daños sin afectar necesariamente al consumo de drogas subyacente; podemos citar, a título de ejemplo, el intercambio de agujas y jeringuillas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Clasificación de las drogas por sus efectos",
+      "blocks": [
+        {
+          "text": "Por su acción sobre el sistema nervioso central (SNC) se distinguen tres grupos. Los depresores suprimen, inhiben o reducen su actividad; sus principales grupos son los sedantes/hipnóticos, los opiáceos y los neurolépticos, y son ejemplos el alcohol, los barbitúricos, las benzodiazepinas y los opiáceos. Los estimulantes activan, potencian o incrementan la actividad neuronal (también llamados psicoestimulantes): anfetaminas, cocaína, cafeína y nicotina. Los alucinógenos inducen alteraciones de la percepción y el pensamiento parecidas a las psicosis, como el LSD, la DMT, la psilocibina, la mescalina o el MDMA.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Depresor",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Sustancia que suprime, inhibe o reduce algunos aspectos de la actividad del sistema nervioso central (SNC). Los principales grupos de depresores del SNC son los sedantes/hipnóticos, los opiáceos y los neurolépticos."
+            },
+            {
+              "ref": "OMS, Glosario: Estimulante",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "En referencia al sistema nervioso central, cualquier sustancia que activa, potencia o incrementa la actividad neuronal. Se denomina también psicoestimulante. Son ejemplos las anfetaminas, la cocaína, la cafeína y otras xantinas, la nicotina"
+            },
+            {
+              "ref": "OMS, Glosario: Alucinógeno",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Sustancia química que induce alteraciones de la percepción, el pensamiento y sensaciones similares a las provocadas por las psicosis funcionales"
+            }
+          ]
+        },
+        {
+          "text": "El DLE añade una clasificación por su capacidad adictiva: la droga blanda no es adictiva o lo es en bajo grado (por ejemplo, el hachís), y la droga dura es fuertemente adictiva, como la heroína y la cocaína. La droga de diseño, según la OMS, es una sustancia química nueva con propiedades psicoactivas sintetizada expresamente para su venta ilegal y para burlar las leyes sobre sustancias controladas; el término se acuñó en los años ochenta.",
+          "refs": [
+            {
+              "ref": "DLE, droga blanda y droga dura",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "que no es adictiva o lo es en bajo grado, como las variedades del cáñamo índico.El hachís es una droga blanda."
+            },
+            {
+              "ref": "DLE, droga dura",
+              "law": "DLE (RAE)",
+              "url": "https://dle.rae.es/",
+              "quote": "que es fuertemente adictiva, como la heroína y la cocaína."
+            },
+            {
+              "ref": "OMS, Glosario: Droga de diseño",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Sustancia química nueva con propiedades psicoactivas, sintetizada expresamente para su venta ilegal y burlar las leyes sobre sustancias"
+            },
+            {
+              "ref": "OMS, Glosario: Droga de diseño",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "El término se acuñó en la década de los ochenta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Principales drogas: tabaco, alcohol y cannabis",
+      "blocks": [
+        {
+          "text": "El tabaco es una droga estimulante del SNC; su componente nicotina posee una enorme capacidad adictiva y causa la dependencia. En su combustión se originan más de 4.000 productos tóxicos: alquitranes (cáncer), monóxido de carbono (enfermedades cardiovasculares) e irritantes (bronquitis crónica, enfisema). El alcohol es una droga depresora del SNC que inhibe progresivamente las funciones cerebrales; como al principio produce euforia y desinhibición, puede confundirse con un estimulante. Las bebidas fermentadas (vino, cerveza, sidra) oscilan entre 1,2º y 14º; las destiladas superan los 15º.",
+          "refs": [
+            {
+              "ref": "PNSD, Tabaco",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "El tabaco es una droga estimulante del sistema nervioso central. Uno de sus componentes, la nicotina, posee una enorme capacidad adictiva, y es la causa por la que su consumo produce dependencia."
+            },
+            {
+              "ref": "PNSD, Tabaco",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Durante la combustión del tabaco se originan más de 4.000 productos tóxicos diferentes."
+            },
+            {
+              "ref": "PNSD, Alcohol",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "El alcohol es una droga depresora del Sistema Nervioso Central que inhibe progresivamente las funciones cerebrales. Afecta a la capacidad de autocontrol, produciendo inicialmente euforia y desinhibición, por lo que puede confundirse con un estimulante."
+            },
+            {
+              "ref": "PNSD, Alcohol",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "oscilando su graduación alcohólica entre 1,2º y 14º"
+            }
+          ]
+        },
+        {
+          "text": "El cannabis se extrae de la planta Cannabis sativa y sus efectos se deben sobre todo al tetrahidrocannabinol (THC). La marihuana se obtiene triturando flores, hojas y tallos secos; el hachís, de la resina almacenada en las flores de la planta hembra; y el aceite de hachís es resina disuelta y concentrada. El THC tiene una vida media aproximada de una semana, de modo que, aunque solo se consuma los fines de semana, se va acumulando en el cerebro.",
+          "refs": [
+            {
+              "ref": "PNSD, Cannabis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Sus efectos sobre el cerebro son debidos principalmente a uno de sus principios activos, el Tetrahidrocannabinol o THC"
+            },
+            {
+              "ref": "PNSD, Cannabis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Hachís: elaborado a partir de la resina almacenada en las flores de la planta hembra."
+            },
+            {
+              "ref": "PNSD, Cannabis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "El THC tiene una vida media aproximada de una semana, lo que significa que, una semana después de consumirlo, el organismo no ha conseguido eliminar más que el 50%. Aunque una persona sólo consuma los fines de semana, no habrá tiempo suficiente para que se elimine completamente y se irá acumulando en su cerebro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Cocaína, drogas de síntesis y otras conductas adictivas",
+      "blocks": [
+        {
+          "text": "La cocaína es un potente estimulante del SNC y una de las drogas más adictivas y peligrosas. Se obtiene de las hojas del arbusto Erythroxylum coca. El clorhidrato (cocaína en polvo) es la forma habitual en España; el basuko o pasta de coca es sulfato de cocaína y se fuma mezclado con tabaco o marihuana; el crack o cocaína base se fuma y su efecto es rápido, intenso y breve. Mezclada con heroína por vía inyectada se llama speed-ball.",
+          "refs": [
+            {
+              "ref": "PNSD, Cocaína",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "La cocaína es un potente estimulante del sistema nervioso central y una de las drogas más adictivas y peligrosas."
+            },
+            {
+              "ref": "PNSD, Cocaína",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Basuko o pasta de coca: Es sulfato de cocaína y se fuma mezclado con tabaco o marihuana."
+            },
+            {
+              "ref": "PNSD, Cocaína",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Crack o cocaína base:Se consume fumada y su efecto es rápido, intenso y breve."
+            }
+          ]
+        },
+        {
+          "text": "Las drogas de síntesis (éxtasis, GHB, ketamina, PCP) se producen químicamente y su fabricación en laboratorios clandestinos y el desconocimiento de su composición las hace especialmente peligrosas, porque sus efectos no son previsibles. El éxtasis (MDMA) tiene efectos estimulantes y alucinógenos a la vez. Hay además conductas adictivas sin sustancia: la ludopatía es un trastorno reconocido por la Asociación de Psiquiatría Americana en 1980 y por la OMS en su Clasificación Internacional de Enfermedades en 1992. Y las bebidas energéticas son de alto contenido en cafeína si aportan más de 15 mg por 100 ml.",
+          "refs": [
+            {
+              "ref": "PNSD, Drogas de síntesis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "La fabricación en laboratorios clandestinos y el desconocimiento de su composición final, las convierte en especialmente peligrosas, pues los consumidores nunca saben exactamente qué están ingiriendo, por lo que sus efectos no son claramente previsibles."
+            },
+            {
+              "ref": "PNSD, Drogas de síntesis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "El éxtasis (3-4 metilendioximetanfetamina, abreviado como MDMA) es una droga de síntesis. Tiene efectos estimulantes y alucinógenos a la vez."
+            },
+            {
+              "ref": "PNSD, Otras conductas adictivas",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "La Ludopatía es un trastorno reconocido por la Asociación de Psiquiatría Americana en 1980 y por la Organización Mundial de la Salud (OMS) que lo recoge en su clasificación Internacional de Enfermedades en el año 1992."
+            },
+            {
+              "ref": "PNSD, Bebidas energéticas",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "las bebidas con alto contenido en cafeína son las que aportan más de 15 miligramos de esta sustancia por 100 mililitros de bebida."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Últimas tendencias del consumo en España: encuesta EDADES 2024",
+      "blocks": [
+        {
+          "text": "La encuesta EDADES, bienal desde 1995, se dirige a la población residente en hogares de 15 a 64 años; en 2024 (decimoquinta edición) la muestra fue de 26.878 personas. Las drogas con mayor prevalencia en los últimos 12 meses son el alcohol (76,5 %), el tabaco (36,8 %) y el cannabis (12,6 %), seguidos de los hipnosedantes (12,0 %) y la cocaína (2,5 %). Respecto de 2022 aumenta el cannabis y disminuyen el tabaco y los hipnosedantes. El inicio más precoz es el del alcohol (16,4 años) y el tabaco (16,6 años).",
+          "refs": [
+            {
+              "ref": "EDADES 2024, Introducción",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "siguiendo con la serie de periodicidad bienal iniciada en 1995"
+            },
+            {
+              "ref": "EDADES 2024, Introducción",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "en la población general residente en hogares (15-64 años), y se realiza en el domicilio. En 2024 la muestra fue de 26.878 personas."
+            },
+            {
+              "ref": "EDADES 2024, Principales resultados",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "las drogas con mayor prevalencia de consumo, en los últimos 12 meses, son el alcohol (76,5%), el tabaco (36,8%) y el cannabis (12,6%), seguidos de los hipnosedantes con o sin receta (12,0%) y la cocaína polvo y/o base (2,5%). Comparado con 2022, aumenta el consumo de cannabis y disminuyen los consumos de tabaco e hipnosedantes."
+            },
+            {
+              "ref": "EDADES 2024, Edad de inicio",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "El inicio más precoz es para el alcohol (16,4 años) y el tabaco (16,6 años)."
+            }
+          ]
+        },
+        {
+          "text": "El cannabis es la sustancia ilegal con mayor prevalencia, con más consumo entre los 15 y 24 años. Los hipnosedantes se consumen más por las mujeres (14,7 %) que por los hombres (9,3 %); en el resto de sustancias consumen más los hombres. El consumo en atracón (binge drinking) es hoy más frecuente que años atrás, y el uso de cigarrillos electrónicos alguna vez en la vida llega al 19,0 %, casi el doble que en 2020.",
+          "refs": [
+            {
+              "ref": "EDADES 2024, Cannabis",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "El cannabis es la sustancia ilegal con mayor prevalencia de consumo en España entre la población de 15 a 64 años."
+            },
+            {
+              "ref": "EDADES 2024, Hipnosedantes",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "la proporción de consumo es mayor entre las mujeres (14,7%) que entre los hombres (9,3%)."
+            },
+            {
+              "ref": "EDADES 2024, Alcohol",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "El consumo en atracón de alcohol (binge drinking) es un patrón de consumo de riesgo que es hoy más frecuente que años atrás en España."
+            },
+            {
+              "ref": "EDADES 2024, Cigarrillos electrónicos",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "El 19,0% de las personas de 15 a 64 años ha consumido cigarrillos electrónicos alguna vez en la vida"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "El tráfico de drogas en el Código Penal",
+      "blocks": [
+        {
+          "text": "El art. 368 CP castiga a quienes ejecuten actos de cultivo, elaboración o tráfico, o de otro modo promuevan, favorezcan o faciliten el consumo ilegal de drogas tóxicas, estupefacientes o sustancias psicotrópicas, o las posean con esos fines. La pena es de prisión de tres a seis años y multa del tanto al triplo del valor de la droga si son sustancias que causan grave daño a la salud, y de uno a tres años y multa del tanto al duplo en los demás casos. Los tribunales pueden imponer la pena inferior en grado por la escasa entidad del hecho y las circunstancias personales del culpable, salvo que concurran las circunstancias de los arts. 369 bis y 370.",
+          "refs": [
+            {
+              "ref": "Art. 368 CP",
+              "law": "Código Penal",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+              "quote": "Los que ejecuten actos de cultivo, elaboración o tráfico, o de otro modo promuevan, favorezcan o faciliten el consumo ilegal de drogas tóxicas, estupefacientes o sustancias psicotrópicas, o las posean con aquellos fines"
+            },
+            {
+              "ref": "Art. 368 CP",
+              "law": "Código Penal",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+              "quote": "serán castigados con las penas de prisión de tres a seis años y multa del tanto al triplo del valor de la droga objeto del delito si se tratare de sustancias o productos que causen grave daño a la salud, y de prisión de uno a tres años y multa del tanto al duplo en los demás casos."
+            },
+            {
+              "ref": "Art. 368 CP",
+              "law": "Código Penal",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+              "quote": "los tribunales podrán imponer la pena inferior en grado a las señaladas en atención a la escasa entidad del hecho y a las circunstancias personales del culpable. No se podrá hacer uso de esta facultad si concurriere alguna de las circunstancias a que se hace referencia en los artículos 369 bis y 370."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Dependencia: término introducido por la OMS en 1964 para sustituir a adicción y habituación. La física se refiere a tolerancia y abstinencia.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Dependencia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "En 1964, un Comité de Expertos de la OMS introdujo el término \"dependencia\" para sustituir a los de adicción y habituación"
+            }
+          ]
+        },
+        {
+          "text": "Tolerancia: menor respuesta con el uso continuado. Inversa o sensibilización: la respuesta aumenta.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Tolerancia",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Disminución de la respuesta a una dosis concreta de una droga o un medicamento que se produce con el uso continuado."
+            }
+          ]
+        },
+        {
+          "text": "Depresores: sedantes/hipnóticos, opiáceos y neurolépticos. El alcohol es depresor; el tabaco y la cocaína, estimulantes.",
+          "refs": [
+            {
+              "ref": "OMS, Glosario: Depresor",
+              "law": "OMS, «Glosario de términos de alcohol y drogas»",
+              "url": "https://www.sanidad.gob.es/areas/promocionPrevencion/alcohol/internacional/oms/docs/terminosAlcohol2.pdf",
+              "quote": "Los principales grupos de depresores del SNC son los sedantes/hipnóticos, los opiáceos y los neurolépticos."
+            }
+          ]
+        },
+        {
+          "text": "MDMA: estimulante y alucinógeno a la vez. Basuko: sulfato de cocaína fumado.",
+          "refs": [
+            {
+              "ref": "PNSD, Drogas de síntesis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "Tiene efectos estimulantes y alucinógenos a la vez."
+            }
+          ]
+        },
+        {
+          "text": "THC: vida media de una semana. Hachís: resina de las flores de la planta hembra.",
+          "refs": [
+            {
+              "ref": "PNSD, Cannabis",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "El THC tiene una vida media aproximada de una semana"
+            }
+          ]
+        },
+        {
+          "text": "Ludopatía: APA en 1980, OMS (CIE) en 1992. Bebida energética con alta cafeína: más de 15 mg/100 ml.",
+          "refs": [
+            {
+              "ref": "PNSD, Otras conductas adictivas",
+              "law": "PNSD, «Información sobre drogas»",
+              "url": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/home.htm",
+              "quote": "reconocido por la Asociación de Psiquiatría Americana en 1980"
+            }
+          ]
+        },
+        {
+          "text": "EDADES 2024: alcohol 76,5 %, tabaco 36,8 %, cannabis 12,6 %; policonsumo 39,0 %.",
+          "refs": [
+            {
+              "ref": "EDADES 2024, Policonsumo",
+              "law": "EDADES 2024 (resumen ejecutivo)",
+              "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf",
+              "quote": "el 39,0% declara policonsumo (dos o más sustancias)."
+            }
+          ]
+        },
+        {
+          "text": "Art. 368 CP: tres a seis años y multa del tanto al triplo si causan grave daño a la salud; uno a tres años y tanto al duplo en los demás casos.",
+          "refs": [
+            {
+              "ref": "Art. 368 CP",
+              "law": "Código Penal",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444",
+              "quote": "y de prisión de uno a tres años y multa del tanto al duplo en los demás casos."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: EDADES 2024 (resumen ejecutivo) (https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/2024_Informe_Ejecutivo_EDADES_es.pdf), Código Penal (https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444)"
 }

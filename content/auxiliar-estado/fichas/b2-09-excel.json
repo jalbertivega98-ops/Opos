@@ -80,5 +80,772 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Libros, hojas y celdas: especificaciones y límites",
+      "blocks": [
+        {
+          "text": "En Excel, cada archivo o documento se llama libro, y cada libro se compone de hojas de cálculo formadas por filas y columnas cuya intersección es la celda. Un libro nuevo se crea desde Archivo > Nuevo. Es una pregunta fácil pero frecuente: los documentos de Excel se denominan «libros», no «hojas» ni «carpetas».",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Los documentos de Excel se denominan libros. Haga clic en Archivo y después en Nuevo."
+            }
+          ]
+        },
+        {
+          "text": "Las especificaciones y límites oficiales que más caen en examen son: cada hoja tiene 1.048.576 filas por 16.384 columnas; una celda puede contener como máximo 32.767 caracteres; el ancho máximo de columna es de 255 caracteres y el alto máximo de fila, de 409 puntos. El número de hojas de un libro no tiene un máximo fijo: está limitado por la memoria disponible, y un libro nuevo trae por defecto 1 hoja.",
+          "refs": [
+            {
+              "ref": "Especificaciones y límites de Excel",
+              "law": "Soporte Microsoft (Excel, especificaciones y límites)",
+              "url": "https://support.microsoft.com/es-es/excel/excel-specifications-and-limits",
+              "quote": "Número total de filas y columnas en una hoja de cálculo | 1.048.576 filas por 16.384 columnas | | Ancho de columna | 255 caracteres | | Alto de fila | 409 puntos | | Número total de caracteres que puede contener una celda | 32.767 caracteres | | Hojas en un libro | Limitado a la memoria disponible (el valor predeterminado es 1 hoja)"
+            }
+          ]
+        },
+        {
+          "text": "En los cálculos, Excel trabaja con una precisión numérica de 15 dígitos; una fórmula puede tener hasta 8.192 caracteres; se pueden anidar hasta 64 niveles de funciones; y una función admite hasta 255 argumentos.",
+          "refs": [
+            {
+              "ref": "Especificaciones y límites de Excel",
+              "law": "Soporte Microsoft (Excel, especificaciones y límites)",
+              "url": "https://support.microsoft.com/es-es/excel/excel-specifications-and-limits",
+              "quote": "Precisión numérica | 15 dígitos | | Longitud del contenido de una fórmula | 8.192 caracteres | | Niveles anidados de funciones | 64 | | Argumentos en una función | 255"
+            }
+          ]
+        },
+        {
+          "text": "Si una celda muestra almohadillas (#####), normalmente la columna no es lo bastante ancha para mostrar todo el contenido; también aparecen cuando una fórmula devuelve fechas u horas con valor negativo.",
+          "refs": [
+            {
+              "ref": "Cómo corregir un error #####",
+              "law": "Soporte Microsoft (Excel, error #####)",
+              "url": "https://support.microsoft.com/es-es/office/c%C3%B3mo-corregir-un-error-bf801d0a-2a6e-44bd-a70e-0f780ae8f11e",
+              "quote": "Microsoft Excel puede mostrar ##### en las celdas cuando una columna no es lo suficientemente ancha para mostrar todo el contenido de la celda."
+            },
+            {
+              "ref": "Cómo corregir un error #####",
+              "law": "Soporte Microsoft (Excel, error #####)",
+              "url": "https://support.microsoft.com/es-es/office/c%C3%B3mo-corregir-un-error-bf801d0a-2a6e-44bd-a70e-0f780ae8f11e",
+              "quote": "Las fórmulas que devuelven fechas y horas como valores negativos también pueden mostrarse como #####."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Inmovilizar y dividir paneles",
+      "blocks": [
+        {
+          "text": "En hojas grandes interesa que los rótulos sigan visibles al desplazarse. En la pestaña Vista se puede inmovilizar paneles, que bloquea filas y columnas concretas, o dividir paneles, que crea ventanas independientes de la misma hoja. La regla clave: Inmovilizar paneles fija las filas situadas encima y las columnas situadas a la izquierda de la celda seleccionada.",
+          "refs": [
+            {
+              "ref": "Inmovilizar paneles",
+              "law": "Soporte Microsoft (Excel, inmovilizar paneles)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns",
+              "quote": "vaya a la pestaña Vista , donde puede inmovilizar paneles para bloquear filas y columnas específicas en su lugar o puede dividir paneles para crear ventanas independientes de la misma hoja de cálculo. Inmovilizar paneles inmoviliza las filas superiores y las columnas a la izquierda de la celda seleccionada."
+            }
+          ]
+        },
+        {
+          "text": "Por tanto, para dejar fijas varias filas y columnas a la vez hay que seleccionar la celda que queda justo debajo de esas filas y a la derecha de esas columnas. Para inmovilizar las dos primeras columnas se selecciona la tercera columna. Para deshacerlo se usa la opción Movilizar filas y columnas.",
+          "refs": [
+            {
+              "ref": "Inmovilizar paneles",
+              "law": "Soporte Microsoft (Excel, inmovilizar paneles)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns",
+              "quote": "Inmovilizar las dos primeras columnas Seleccione la tercera columna. Seleccione la celda que se encuentra debajo de las filas y a la derecha de las columnas que desee mantener visibles Movilizar filas y columnas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Métodos abreviados y teclas de función",
+      "blocks": [
+        {
+          "text": "Teclas de función: F2 edita la celda activa y coloca el cursor al final de su contenido; F4 repite el último comando o acción (y, editando una fórmula, cambia el tipo de referencia); F9 calcula todas las hojas de todos los libros abiertos; F12 abre Guardar como. Mayús+F3 muestra el cuadro Insertar función y Mayús+F11 inserta una hoja nueva.",
+          "refs": [
+            {
+              "ref": "Teclas de función de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Solo F2: úselo para editar la celda activa y colocar el punto de inserción al final de su contenido. Solo F4: repite el último comando o acción, si es posible. Solo F9: calcula todas las hojas de cálculo de todos los libros abiertos."
+            },
+            {
+              "ref": "Teclas de función de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Mayús+F11: inserta una hoja de cálculo nueva. Mayús+F3: muestra el cuadro de diálogo Insertar función. Solo F12: muestra el cuadro de diálogo Guardar como."
+            }
+          ]
+        },
+        {
+          "text": "Para gráficos hay dos atajos que se confunden: F11 sola crea un gráfico con los datos del rango actual en una hoja de gráfico distinta, mientras que Alt+F1 crea un gráfico incrustado en la misma hoja.",
+          "refs": [
+            {
+              "ref": "Teclas de función de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Solo F11: crea un gráfico a partir de los datos del rango actual en una hoja de gráfico distinta. Alt+F1: crea un gráfico incrustado a partir de los datos del rango actual."
+            }
+          ]
+        },
+        {
+          "text": "Desplazamiento y selección: Ctrl+Av Pág pasa a la hoja siguiente del libro; Ctrl+Inicio va al principio de la hoja; Ctrl+Fin va a la última celda utilizada (última fila usada de la última columna usada). Ctrl+barra espaciadora selecciona la columna completa y Mayús+barra espaciadora la fila completa.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Úselo para ir a la siguiente hoja de un libro. | Ctrl+Av Pág | | Úselo para ir al principio de una hoja de cálculo. | Ctrl+Inicio | | Úselo para ir a la última celda de una hoja de cálculo, a la última fila utilizada de la última columna utilizada. | Ctrl+Fin"
+            },
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Úselo para seleccionar una columna completa de una hoja de cálculo. | Ctrl+barra espaciadora | | Úselo para seleccionar una fila completa de una hoja de cálculo. | Mayús+barra espaciadora"
+            }
+          ]
+        },
+        {
+          "text": "Otros atajos muy preguntados: Alt+= inserta la fórmula Suma; Ctrl+; inserta la fecha actual; Ctrl+1 abre Formato de celdas; Ctrl+L o Ctrl+T abren Crear tabla; Ctrl+Mayús+E invoca el Relleno rápido, que reconoce patrones de las columnas adyacentes; y Ctrl+` (acento grave) alterna entre ver los valores o las fórmulas de la hoja.",
+          "refs": [
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Insertar la fórmula Suma | Alt+signo igual (=) | | Úselo para insertar la fecha actual. | Ctrl+punto y coma (;)"
+            },
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Úselo para abrir el cuadro de diálogo Formato de celdas. | Ctrl+1 | | Úselo para mostrar el cuadro de diálogo Crear tabla. | Ctrl+L o Ctrl+T | | Úselo para invocar Relleno rápido a fin de reconocer automáticamente los patrones de las columnas adyacentes | Ctrl+Mayús+E | | Úselo para cambiar entre mostrar valores de celda o fórmulas de la hoja de cálculo. | Ctrl+acento grave (`)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Introducción y edición de datos",
+      "blocks": [
+        {
+          "text": "Para introducir datos se escribe texto o un número en la celda y se pulsa Entrar o Tab para pasar a la siguiente. Dentro de una misma celda, Alt+Entrar empieza una línea nueva (no Entrar, que cambia de celda). Ctrl+Entrar rellena todo el rango seleccionado con lo que se acaba de escribir, y Ctrl+D (Rellenar hacia abajo) copia el contenido y el formato de la celda de arriba.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Escriba texto o un número en la celda. Presione ENTRAR o TAB para pasar a la celda siguiente."
+            },
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Úselo para comenzar una nueva línea en la misma celda. | Alt+Entrar | | Úselo para rellenar el rango de celdas seleccionado con la entrada actual. | Ctrl+Entrar | | Use el comando Rellenar hacia abajo para copiar el contenido y el formato de la celda situada más arriba | Ctrl+D"
+            }
+          ]
+        },
+        {
+          "text": "Para distinguir tipos de números se aplica un formato (moneda, porcentaje, fecha). Con el formato de porcentaje, Excel multiplica el número por 100: 0,1 se muestra como 10%; y si se escribe 10 o 0,1 en una celda ya formateada, ambos dan 10,00%. El número de decimales se ajusta en el cuadro Posiciones decimales.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Para distinguir entre los distintos tipos de números, agregue un formato, como moneda, porcentajes o fechas."
+            },
+            {
+              "ref": "Formato de porcentaje",
+              "law": "Soporte Microsoft (Excel, porcentajes)",
+              "url": "https://support.microsoft.com/es-es/office/aplicar-formato-a-n%C3%BAmeros-como-porcentajes-de49167b-d603-4450-bcaa-31fba6c7b6b4",
+              "quote": "Excel multiplica esos números por 100 para convertirlos en porcentajes."
+            },
+            {
+              "ref": "Formato de porcentaje",
+              "law": "Soporte Microsoft (Excel, porcentajes)",
+              "url": "https://support.microsoft.com/es-es/office/aplicar-formato-a-n%C3%BAmeros-como-porcentajes-de49167b-d603-4450-bcaa-31fba6c7b6b4",
+              "quote": "Si después aplica formato de porcentaje a 0,1, el número se mostrará correctamente como 10%."
+            },
+            {
+              "ref": "Formato de porcentaje",
+              "law": "Soporte Microsoft (Excel, porcentajes)",
+              "url": "https://support.microsoft.com/es-es/office/aplicar-formato-a-n%C3%BAmeros-como-porcentajes-de49167b-d603-4450-bcaa-31fba6c7b6b4",
+              "quote": "Por ejemplo, si escribe 10 o 0,1 ambos dan como resultado 10,00%."
+            }
+          ]
+        },
+        {
+          "text": "Las fechas se guardan como números de serie para poder calcular con ellas: el 1 de enero de 1900 es el número 1. Excel convierte automáticamente algunas entradas en fecha (12/2 pasa a 2-Dec); para evitarlo, se escribe un apóstrofo (') delante del número.",
+          "refs": [
+            {
+              "ref": "Función FECHA",
+              "law": "Soporte Microsoft (Excel, FECHA)",
+              "url": "https://support.microsoft.com/es-es/office/fecha-funci%C3%B3n-fecha-e36c0c8c-4104-49da-ab83-82328b832349",
+              "quote": "Excel almacena las fechas como números de serie secuenciales para que se puedan usar en cálculos."
+            },
+            {
+              "ref": "Función FECHA",
+              "law": "Soporte Microsoft (Excel, FECHA)",
+              "url": "https://support.microsoft.com/es-es/office/fecha-funci%C3%B3n-fecha-e36c0c8c-4104-49da-ab83-82328b832349",
+              "quote": "La fecha 1 de enero de 1900 es el número de serie 1"
+            },
+            {
+              "ref": "Números convertidos en fechas",
+              "law": "Soporte Microsoft (Excel, números y fechas)",
+              "url": "https://support.microsoft.com/es-es/office/detener-autom%C3%A1ticamente-el-cambio-de-n%C3%BAmeros-por-fechas-452bd2db-cc96-47d1-81e4-72cec11c4ed8",
+              "quote": "Microsoft Excel está preprogramado para facilitar la introducción de fechas. Por ejemplo, 12/2 cambia a 2-Dec."
+            },
+            {
+              "ref": "Números convertidos en fechas",
+              "law": "Soporte Microsoft (Excel, números y fechas)",
+              "url": "https://support.microsoft.com/es-es/office/detener-autom%C3%A1ticamente-el-cambio-de-n%C3%BAmeros-por-fechas-452bd2db-cc96-47d1-81e4-72cec11c4ed8",
+              "quote": "Un apóstrofo (') antes de introducir un número, como '11-53' o '1/47."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Fórmulas y referencias relativas, absolutas y mixtas",
+      "blocks": [
+        {
+          "text": "Toda fórmula empieza por el signo igual: se selecciona la celda y se escribe =, lo que indica a Excel que la celda contendrá una fórmula. Para sumar rápidamente se usa Autosuma, en la pestaña Inicio, grupo Edición, que muestra el resultado en la celda seleccionada (o el atajo Alt+=).",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Seleccione una celda y después escriba un signo igual (=). Esto indica a Excel que la celda contendrá una fórmula."
+            },
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Haga clic en la pestaña Inicio y después haga clic en Autosuma en el grupo Edición. La Autosuma suma los números y muestra el resultado en la celda que seleccione."
+            }
+          ]
+        },
+        {
+          "text": "Por defecto, una referencia de celda es relativa: al copiar la fórmula, la referencia cambia según el desplazamiento. Una referencia absoluta lleva el signo de dólar delante de la columna y de la fila ($A$1) y no cambia al copiar. Las mixtas fijan solo la columna ($A1) o solo la fila (A$1). Con la referencia seleccionada en la fórmula, F4 cambia de un tipo a otro.",
+          "refs": [
+            {
+              "ref": "Referencias relativas, absolutas y mixtas",
+              "law": "Soporte Microsoft (Excel, referencias)",
+              "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+              "quote": "De forma predeterminada, una referencia de celda es una referencia relativa Al copiar una fórmula que contiene una referencia relativa a celda, esa referencia en la fórmula cambiará."
+            },
+            {
+              "ref": "Referencias relativas, absolutas y mixtas",
+              "law": "Soporte Microsoft (Excel, referencias)",
+              "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+              "quote": "precediendo las columnas (B y C) y la fila (2) con un signo de dólar […] lo que corrige la columna o la fila […] Presione F4 para cambiar entre los tipos de referencia."
+            }
+          ]
+        },
+        {
+          "text": "Ejemplo oficial: una fórmula con referencias a A1 que se copia dos celdas hacia abajo y dos a la derecha. $A$1 (absoluta) sigue siendo $A$1. A$1 (columna relativa, fila absoluta) pasa a C$1: cambia la columna pero no la fila. $A1 es la otra referencia mixta, con la fila relativa. A1 (columna y fila relativas) pasa a C3: cambian las dos.",
+          "refs": [
+            {
+              "ref": "Referencias relativas, absolutas y mixtas",
+              "law": "Soporte Microsoft (Excel, referencias)",
+              "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+              "quote": "$A$1 (la referencia es absoluta) […] A$1 (columna relativa y fila absoluta) C$1 (la referencia es mixta) $A1 (columna mixta y fila relativa) […] A1 (columna relativa y fila relativa) C3 (la referencia es relativa)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Funciones SI, BUSCARX y CONTAR.SI",
+      "blocks": [
+        {
+          "text": "SI es una función lógica que compara y devuelve un valor si la condición es verdadera y otro si es falsa, de modo que tiene dos resultados posibles. Sintaxis: SI(prueba_lógica; valor_si_verdadero; [valor_si_falso]). Los corchetes señalan el argumento opcional: valor_si_falso. Ejemplo: =SI(C2=\"Sí\";1;2) devuelve 1 si C2 es «Sí» y 2 en otro caso. Se pueden anidar varias funciones SI para hacer varias comparaciones.",
+          "refs": [
+            {
+              "ref": "Función SI",
+              "law": "Soporte Microsoft (Excel, SI)",
+              "url": "https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+              "quote": "Por esto, una instrucción SI puede tener dos resultados. El primer resultado es si la comparación es Verdadera y el segundo si la comparación es Falsa."
+            },
+            {
+              "ref": "Función SI",
+              "law": "Soporte Microsoft (Excel, SI)",
+              "url": "https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+              "quote": "SI(prueba_lógica; valor_si_verdadero; [valor_si_falso]) prueba_lógica (requerido): El valor que quiere probar. valor_si_verdadero (obligatorio): El valor que desea devuelto si el resultado de logical_test es VERDADERO. valor_si_falso (opcional): El valor que desea devuelto si el resultado de logical_test es FALSO."
+            },
+            {
+              "ref": "Función SI",
+              "law": "Soporte Microsoft (Excel, SI)",
+              "url": "https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+              "quote": "=SI(C2=\"Sí\";1;2) En el ejemplo anterior, la celda D2 dice: SI(C2 = Sí; entonces devolver un 1; en caso contrario devolver un 2) […] También se pueden anidar varias funciones SI para realizar varias comparaciones."
+            }
+          ]
+        },
+        {
+          "text": "BUSCARX busca elementos en una tabla o rango. Sintaxis: =BUSCARX(valor_buscado; matriz_buscada; matriz_devuelta; [si_no_se_encuentra]; [modo_de_coincidencia]; [modo_de_búsqueda]); los tres primeros son obligatorios. Si no hay coincidencia, devuelve el texto de si_no_se_encuentra; si no se indicó, devuelve #N/A.",
+          "refs": [
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "Use la función BUSCARX para encontrar elementos en una tabla o rango por fila. =BUSCARX(valor_buscado; matriz_buscada; matriz_devuelta; [si_no_se_encuentra]; [modo_de_coincidencia]; [modo_de_búsqueda])"
+            },
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "Si no se encuentra una coincidencia válida y no hay [if_not_found], se devuelve #N/A."
+            }
+          ]
+        },
+        {
+          "text": "modo_de_coincidencia: 0 = coincidencia exacta y #N/A si no la hay (valor predeterminado); -1 = exacta o, si no, el siguiente elemento más pequeño; 1 = exacta o el siguiente más grande; 2 = comodines (*, ? y ~). modo_de_búsqueda: 1 = desde el primer elemento (predeterminado); -1 = búsqueda inversa desde el último; 2 y -2 = búsqueda binaria con la matriz ordenada en orden ascendente o descendente.",
+          "refs": [
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "0: coincidencia exacta. Si no se encuentra ninguno, devolver #N/A. Este valor es el predeterminado. -1: coincidencia exacta. Si no se encuentra ninguna, devolver el siguiente elemento más pequeño. 1: coincidencia exacta. Si no se encuentra ninguna, devolver el siguiente elemento más grande. 2: una coincidencia comodín donde *, ? y ~ tienen significado especial."
+            },
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "1: realizar una búsqueda empezando por el primer elemento. Este valor es el predeterminado. -1: realizar una búsqueda inversa empezando por el último elemento. 2: realizar una búsqueda binaria que se base en que matriz_buscada se ordene en orden ascendente. -2: realizar una búsqueda binaria que se base en que matriz_buscada se ordene en orden descendente."
+            }
+          ]
+        },
+        {
+          "text": "Diferencia con BUSCARV: BUSCARX usa una matriz de búsqueda y otra de devolución, mientras que BUSCARV usa una única matriz de tabla y un número de índice de columna. BUSCARX además puede devolver una matriz con varios elementos. Ojo: no está disponible en Excel 2016 ni en Excel 2019.",
+          "refs": [
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "BUSCARX usa una matriz de búsqueda y una matriz de devolución, mientras que BUSCARV usa una matriz de tabla única seguida de un número de índice de columna. Al contrario que BUSCARV, BUSCARX puede devolver una matriz con varios elementos, BUSCARX no está disponible en Excel 2016 ni en Excel 2019."
+            }
+          ]
+        },
+        {
+          "text": "CONTAR.SI es una función estadística que cuenta las celdas que cumplen un criterio: CONTAR.SI(rango;criterios). Ejemplo: =CONTAR.SI(B2:B5;\">55\") cuenta las celdas de B2 a B5 con valor superior a 55. Solo admite un criterio; para varios, CONTAR.SI.CONJUNTO. En los criterios, ? sustituye a un carácter cualquiera y * a cualquier secuencia. Limitaciones: falla con cadenas de más de 255 caracteres y no cuenta por color de fondo o de fuente. Su pareja para sumar con varios criterios es SUMAR.SI.CONJUNTO(rango_suma; rango_criterios1; criterios1; …).",
+          "refs": [
+            {
+              "ref": "Función CONTAR.SI",
+              "law": "Soporte Microsoft (Excel, CONTAR.SI)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel",
+              "quote": "Use CONTAR.SI, una de las funciones estadísticas, para contar el número de celdas que cumplen un criterio. CONTAR.SI(rango;criterios)"
+            },
+            {
+              "ref": "Función CONTAR.SI",
+              "law": "Soporte Microsoft (Excel, CONTAR.SI)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel",
+              "quote": "CONTAR.SI usa solo un criterio. Use CONTAR.SI.CONJUNTO si desea usar varios criterios. =CONTAR.SI(B2:B5;\">55\") Cuenta el número de celdas con un valor superior a 55 entre las celdas B2 y B5."
+            },
+            {
+              "ref": "Función CONTAR.SI",
+              "law": "Soporte Microsoft (Excel, CONTAR.SI)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel",
+              "quote": "El signo de interrogación reemplaza cualquier carácter individual. El asterisco reemplaza cualquier secuencia de caracteres. La función CONTAR.SI devuelve resultados incorrectos cuando se usa para comparar cadenas de más de 255 caracteres. La función CONTAR.SI no puede contar celdas según el color de fondo o el color de fuente."
+            },
+            {
+              "ref": "Función SUMAR.SI.CONJUNTO",
+              "law": "Soporte Microsoft (Excel, SUMAR.SI.CONJUNTO)",
+              "url": "https://support.microsoft.com/es-es/office/funci%C3%B3n-sumar-si-conjunto-c9e748f5-7ea7-455d-9406-611cebce642b",
+              "quote": "SUMAR.SI.CONJUNTO(rango_suma; rango_criterios1; criterios1; [rango_criterios2; criterios2];...)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Gráficos",
+      "blocks": [
+        {
+          "text": "Un gráfico se crea rápidamente con F11 (en hoja aparte) o Alt+F1 (incrustado). Tipos que conviene conocer: el circular muestra el tamaño de cada elemento de una serie en proporción a la suma, y es adecuado cuando hay una sola serie de datos; el de dispersión compara valores numéricos; el de mapa compara valores por regiones geográficas; el de rectángulos da una vista jerárquica; el histograma muestra frecuencias de una distribución; el de caja y bigotes, la distribución en cuartiles con la media y los valores atípicos.",
+          "refs": [
+            {
+              "ref": "Tipos de gráfico",
+              "law": "Soporte Microsoft (Excel, tipos de gráfico)",
+              "url": "https://support.microsoft.com/es-es/excel/available-chart-types-in-office",
+              "quote": "Los gráficos circulares muestran el tamaño de los elementos en una serie de datos, proporcional a la suma de los elementos. Solo haya una serie de datos. Los gráficos de dispersión se utilizan por lo general para mostrar y comparar valores numéricos, Puede usar un gráfico de mapa para comparar valores y mostrar categorías en regiones geográficas. El gráfico de rectángulos proporciona una vista jerárquica de los datos"
+            },
+            {
+              "ref": "Tipos de gráfico",
+              "law": "Soporte Microsoft (Excel, tipos de gráfico)",
+              "url": "https://support.microsoft.com/es-es/excel/available-chart-types-in-office",
+              "quote": "Los datos trazados en un gráfico de histograma muestran las frecuencias dentro de una distribución. Un gráfico de caja y bigotes muestra la distribución de datos en cuartiles, resaltando la media y los valores atípicos."
+            }
+          ]
+        },
+        {
+          "text": "Otros tipos: el de cascada muestra un total acumulado de datos financieros sumando o restando valores; el de embudo, valores a lo largo de las fases de un proceso; y el combinado mezcla tipos con datos organizados en filas y columnas.",
+          "refs": [
+            {
+              "ref": "Tipos de gráfico",
+              "law": "Soporte Microsoft (Excel, tipos de gráfico)",
+              "url": "https://support.microsoft.com/es-es/excel/available-chart-types-in-office",
+              "quote": "Un gráfico de cascada muestra un total acumulado de los datos financieros al sumar o restar valores. Los gráficos de embudo muestran valores a través de varias fases de un proceso. Los datos que se organizan en columnas y filas se pueden trazar en un gráfico combinado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Ordenar y filtrar",
+      "blocks": [
+        {
+          "text": "Para ordenar se selecciona una sola celda de la columna por la que se quiere ordenar y, en la pestaña Datos, grupo Ordenar y filtrar, se elige Ordenar. Poner los datos en una tabla (Ctrl+T) es una forma sencilla de aprovechar Excel: al crearla, se añaden automáticamente los controles de filtro en los encabezados.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Un modo sencillo de acceder al potencial de Excel es poner los datos en una tabla. Seleccione una sola celda de la columna en la que desea ordenar. En la pestaña Datos, en el grupo Ordenar y filtrar, elija Ordenar."
+            },
+            {
+              "ref": "Filtrar datos",
+              "law": "Soporte Microsoft (Excel, filtrar)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel",
+              "quote": "Al colocar datos en una tabla, los controles de filtro se agregan automáticamente a los encabezados de tabla."
+            }
+          ]
+        },
+        {
+          "text": "Los filtros ocultan temporalmente parte de los datos para centrarse en los que interesan; no los borran. Se pulsa la flecha del encabezado de columna, se desactiva (Seleccionar todo) y se marcan los valores que se quieren mostrar, o se escriben los criterios y se acepta. Borrando el filtro vuelven a verse todos los datos. Las segmentaciones ofrecen botones para filtrar tablas o tablas dinámicas con un clic.",
+          "refs": [
+            {
+              "ref": "Filtrar datos",
+              "law": "Soporte Microsoft (Excel, filtrar)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel",
+              "quote": "Use filtros para ocultar temporalmente algunos de los datos de una tabla y así poder centrarse en los datos que desee. Seleccione la flecha de encabezado de columna Escriba los criterios de filtro y seleccione Aceptar. borrar un filtro para volver a mostrar todos los datos"
+            },
+            {
+              "ref": "Filtrar datos",
+              "law": "Soporte Microsoft (Excel, filtrar)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel",
+              "quote": "Desactive (Seleccionar todo) y seleccione las casillas que desee mostrar."
+            },
+            {
+              "ref": "Segmentaciones",
+              "law": "Soporte Microsoft (Excel, segmentación)",
+              "url": "https://support.microsoft.com/es-es/office/usar-las-segmentaciones-para-filtrar-datos-249f966b-a9d5-4b0f-b31a-12651785d29d",
+              "quote": "Las segmentaciones de datos proporcionan botones en los que puede hacer clic para filtrar tablas o tablas dinámicas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Tablas dinámicas",
+      "blocks": [
+        {
+          "text": "Una tabla dinámica es una herramienta avanzada para calcular, resumir y analizar datos. Se crea con Insertar > Tabla dinámica. Requisito: los datos deben estar en columnas con una sola fila de encabezado, y todas las columnas deben tener encabezado con etiquetas únicas.",
+          "refs": [
+            {
+              "ref": "Tablas dinámicas",
+              "law": "Soporte Microsoft (Excel, tablas dinámicas)",
+              "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+              "quote": "Una tabla dinámica es una herramienta avanzada para calcular, resumir y analizar datos Seleccione Insertar>tabla dinámica. Los datos deben organizarse en columnas con una sola fila de encabezado. Asegúrese de que todas las columnas tienen encabezados, con una sola fila de etiquetas únicas"
+            }
+          ]
+        },
+        {
+          "text": "Al marcar campos, cada uno va a su área predeterminada: los no numéricos, a Filas. Los campos del área Valores se muestran por defecto como suma (SUM); pero si Excel interpreta los datos como texto, los muestra como recuento. Si se añaden datos nuevos al origen, la tabla dinámica no se actualiza sola: hay que actualizarla.",
+          "refs": [
+            {
+              "ref": "Tablas dinámicas",
+              "law": "Soporte Microsoft (Excel, tablas dinámicas)",
+              "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+              "quote": "Los campos seleccionados se agregan a sus áreas predeterminadas: los campos no numéricos se agregan a Filas, De forma predeterminada, los campos de tabla dinámica colocados en el área Valores se muestran como SUM. Si Excel interpreta los datos como texto, los datos se mostrarán como un RECUENTO. Si agrega nuevos datos al origen de datos de tabla dinámica, tendrá que actualizar las tablas dinámicas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Validación de datos y formato condicional",
+      "blocks": [
+        {
+          "text": "La validación de datos restringe el tipo de datos o los valores que se pueden escribir en una celda. Opciones de «Permitir»: Número entero, Decimal, Lista (lista desplegable), Fecha, Hora, Longitud del texto y Personalizado (fórmulas). En la pestaña Mensaje de entrada se redacta el aviso que ve el usuario al escribir, y en Alerta de error se personaliza el mensaje de error y se elige un Estilo.",
+          "refs": [
+            {
+              "ref": "Validación de datos",
+              "law": "Soporte Microsoft (Excel, validación de datos)",
+              "url": "https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249",
+              "quote": "Use la validación de datos para restringir el tipo de datos o los valores que los usuarios escriben en una celda Número entero: se restringe la celda para aceptar solo números enteros. Decimal: se restringe la celda para aceptar solo números decimales. Lista: para elegir datos de una lista desplegable. Fecha: para restringir la celda para que solo se acepten fechas. Hora : se restringe la celda para aceptar solo valores de hora. Longitud del texto: para restringir la longitud del texto. Personalizado: para fórmulas personalizadas."
+            },
+            {
+              "ref": "Validación de datos",
+              "law": "Soporte Microsoft (Excel, validación de datos)",
+              "url": "https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249",
+              "quote": "Seleccione la pestaña Mensaje de entrada y personalice el mensaje que verán los usuarios al escribir datos. Seleccione la pestaña Alerta de error para personalizar el mensaje de error y elegir un Estilo."
+            }
+          ]
+        },
+        {
+          "text": "El formato condicional hace más visibles patrones y tendencias. Herramientas: barras de datos (valor de una celda frente a las demás), escalas de colores (variación y distribución), conjuntos de iconos (cada icono representa un rango de valores) y reglas de valores superiores e inferiores según un corte. Las reglas se gestionan en Inicio > Formato condicional > Administrar reglas, que abre el Administrador de reglas de formato condicionales: una regla más alta en la lista tiene más prioridad, y existe la casilla Detener si es verdad por compatibilidad con versiones anteriores.",
+          "refs": [
+            {
+              "ref": "Formato condicional",
+              "law": "Soporte Microsoft (Excel, formato condicional)",
+              "url": "https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel",
+              "quote": "El formato condicional puede ayudar a que los patrones y tendencias en sus datos sean más visibles. Seleccione Inicio>Formato condicional>Administrar reglas Una barra de datos le ayuda a ver el valor de una celda con relación a las demás. Las escalas de colores son guías visuales que ayudan a comprender la variación y la distribución de datos. Cada icono representa un rango de valores. Puede buscar los valores más altos y más bajos en un rango de celdas según un valor de corte que especifique."
+            },
+            {
+              "ref": "Formato condicional",
+              "law": "Soporte Microsoft (Excel, formato condicional)",
+              "url": "https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel",
+              "quote": "Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales. Una regla más alta en la lista tiene una mayor prioridad que una regla más baja en la lista. Para la compatibilidad con versiones anteriores, active la casilla Detener si es verdad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Impresión y personalización del entorno",
+      "blocks": [
+        {
+          "text": "Para imprimir: Archivo > Imprimir o Ctrl+P. Si la hoja tiene áreas de impresión definidas, Excel solo imprime esas áreas; y si los datos están en una tabla, se puede imprimir solo la tabla con Imprimir tabla seleccionada.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Haga clic en Archivo y luego haga clic en Imprimir, o presione Ctrl+P."
+            },
+            {
+              "ref": "Imprimir en Excel",
+              "law": "Soporte Microsoft (Excel, imprimir)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/print-a-worksheet-or-workbook",
+              "quote": "Si la hoja de cálculo cuenta con áreas de impresión definidas, Excel solo imprimirá esas áreas."
+            },
+            {
+              "ref": "Imprimir en Excel",
+              "law": "Soporte Microsoft (Excel, imprimir)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/print-a-worksheet-or-workbook",
+              "quote": "seleccione Imprimir tabla seleccionada."
+            }
+          ]
+        },
+        {
+          "text": "Para personalizar el entorno, los complementos se gestionan desde la pestaña Archivo > Opciones > categoría Complementos. Las fuentes oficiales recogidas para este tema no detallan la personalización de la cinta ni de la barra de herramientas de acceso rápido en Excel; las reglas sobre la cinta de opciones de Word (tema 8) indican que cada personalización se aplica solo al programa de Office en que se hace.",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "En la pestaña Archivo, elija Opciones y, a continuación, elija la categoría Complementos."
+            },
+            {
+              "ref": "Personalizar la cinta en Word",
+              "law": "Soporte Microsoft (Word, personalizar la cinta)",
+              "url": "https://support.microsoft.com/es-es/office/personalizar-la-cinta-de-opciones-en-word-c4b6051a-7a70-43c8-a527-932917dec682",
+              "quote": "las personalizaciones solo se aplican al programa de Office en el que está trabajando en ese momento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Documento de Excel = libro; una hoja tiene 1.048.576 filas × 16.384 columnas; una celda, hasta 32.767 caracteres; un libro nuevo, 1 hoja (máximo según memoria).",
+          "refs": [
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Los documentos de Excel se denominan libros."
+            },
+            {
+              "ref": "Especificaciones y límites de Excel",
+              "law": "Soporte Microsoft (Excel, especificaciones y límites)",
+              "url": "https://support.microsoft.com/es-es/excel/excel-specifications-and-limits",
+              "quote": "Número total de filas y columnas en una hoja de cálculo | 1.048.576 filas por 16.384 columnas"
+            },
+            {
+              "ref": "Especificaciones y límites de Excel",
+              "law": "Soporte Microsoft (Excel, especificaciones y límites)",
+              "url": "https://support.microsoft.com/es-es/excel/excel-specifications-and-limits",
+              "quote": "Número total de caracteres que puede contener una celda | 32.767 caracteres | | Hojas en un libro | Limitado a la memoria disponible (el valor predeterminado es 1 hoja)"
+            }
+          ]
+        },
+        {
+          "text": "Inmovilizar paneles fija las filas de arriba y las columnas a la izquierda de la celda seleccionada.",
+          "refs": [
+            {
+              "ref": "Inmovilizar paneles",
+              "law": "Soporte Microsoft (Excel, inmovilizar paneles)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns",
+              "quote": "Inmovilizar paneles inmoviliza las filas superiores y las columnas a la izquierda de la celda seleccionada."
+            }
+          ]
+        },
+        {
+          "text": "Mayús+F11 = hoja nueva; F11 = gráfico en hoja aparte; Alt+Entrar = nueva línea en la celda; Ctrl+` = ver fórmulas o valores.",
+          "refs": [
+            {
+              "ref": "Teclas de función de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Solo F11: crea un gráfico a partir de los datos del rango actual en una hoja de gráfico distinta."
+            },
+            {
+              "ref": "Teclas de función de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Mayús+F11: inserta una hoja de cálculo nueva."
+            },
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Úselo para comenzar una nueva línea en la misma celda. | Alt+Entrar"
+            },
+            {
+              "ref": "Métodos abreviados de Excel",
+              "law": "Soporte Microsoft (Excel, atajos)",
+              "url": "https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel",
+              "quote": "Úselo para cambiar entre mostrar valores de celda o fórmulas de la hoja de cálculo. | Ctrl+acento grave (`)"
+            }
+          ]
+        },
+        {
+          "text": "Las fórmulas empiezan por =; las referencias son relativas por defecto; F4 alterna entre tipos; A$1 copiada dos filas abajo y dos columnas a la derecha queda C$1.",
+          "refs": [
+            {
+              "ref": "Referencias relativas, absolutas y mixtas",
+              "law": "Soporte Microsoft (Excel, referencias)",
+              "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+              "quote": "De forma predeterminada, una referencia de celda es una referencia relativa"
+            },
+            {
+              "ref": "Referencias relativas, absolutas y mixtas",
+              "law": "Soporte Microsoft (Excel, referencias)",
+              "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+              "quote": "Presione F4 para cambiar entre los tipos de referencia."
+            },
+            {
+              "ref": "Referencias relativas, absolutas y mixtas",
+              "law": "Soporte Microsoft (Excel, referencias)",
+              "url": "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
+              "quote": "A$1 (columna relativa y fila absoluta) C$1 (la referencia es mixta)"
+            }
+          ]
+        },
+        {
+          "text": "En SI, valor_si_falso es opcional. En BUSCARX, sin coincidencia ni si_no_se_encuentra se obtiene #N/A; modo de búsqueda -1 = inversa desde el último elemento.",
+          "refs": [
+            {
+              "ref": "Función SI",
+              "law": "Soporte Microsoft (Excel, SI)",
+              "url": "https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+              "quote": "valor_si_falso (opcional): El valor que desea devuelto si el resultado de logical_test es FALSO."
+            },
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "Si no se encuentra una coincidencia válida y no hay [if_not_found], se devuelve #N/A."
+            },
+            {
+              "ref": "Función BUSCARX",
+              "law": "Soporte Microsoft (Excel, BUSCARX)",
+              "url": "https://support.microsoft.com/es-es/excel/functions/xlookup-function",
+              "quote": "-1: realizar una búsqueda inversa empezando por el último elemento."
+            }
+          ]
+        },
+        {
+          "text": "En CONTAR.SI, ? = un carácter y * = cualquier secuencia; un solo criterio (para varios, CONTAR.SI.CONJUNTO).",
+          "refs": [
+            {
+              "ref": "Función CONTAR.SI",
+              "law": "Soporte Microsoft (Excel, CONTAR.SI)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel",
+              "quote": "CONTAR.SI usa solo un criterio. Use CONTAR.SI.CONJUNTO si desea usar varios criterios."
+            },
+            {
+              "ref": "Función CONTAR.SI",
+              "law": "Soporte Microsoft (Excel, CONTAR.SI)",
+              "url": "https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel",
+              "quote": "El signo de interrogación reemplaza cualquier carácter individual."
+            }
+          ]
+        },
+        {
+          "text": "Tabla dinámica: campos no numéricos a Filas; Valores como suma, o recuento si son texto.",
+          "refs": [
+            {
+              "ref": "Tablas dinámicas",
+              "law": "Soporte Microsoft (Excel, tablas dinámicas)",
+              "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+              "quote": "los campos no numéricos se agregan a Filas,"
+            },
+            {
+              "ref": "Tablas dinámicas",
+              "law": "Soporte Microsoft (Excel, tablas dinámicas)",
+              "url": "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576",
+              "quote": "Si Excel interpreta los datos como texto, los datos se mostrarán como un RECUENTO."
+            }
+          ]
+        },
+        {
+          "text": "Gráfico circular: una sola serie; cascada: total acumulado sumando o restando. Formato condicional: manda la regla más alta. Autosuma: Inicio, grupo Edición. Validación: Lista = desplegable.",
+          "refs": [
+            {
+              "ref": "Tipos de gráfico",
+              "law": "Soporte Microsoft (Excel, tipos de gráfico)",
+              "url": "https://support.microsoft.com/es-es/excel/available-chart-types-in-office",
+              "quote": "Solo haya una serie de datos."
+            },
+            {
+              "ref": "Tipos de gráfico",
+              "law": "Soporte Microsoft (Excel, tipos de gráfico)",
+              "url": "https://support.microsoft.com/es-es/excel/available-chart-types-in-office",
+              "quote": "Un gráfico de cascada muestra un total acumulado de los datos financieros al sumar o restar valores."
+            },
+            {
+              "ref": "Formato condicional",
+              "law": "Soporte Microsoft (Excel, formato condicional)",
+              "url": "https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel",
+              "quote": "Una regla más alta en la lista tiene una mayor prioridad que una regla más baja en la lista."
+            },
+            {
+              "ref": "Tareas básicas en Excel",
+              "law": "Soporte Microsoft (Excel, tareas básicas)",
+              "url": "https://support.microsoft.com/es-es/excel/basic-tasks-in-excel",
+              "quote": "Haga clic en la pestaña Inicio y después haga clic en Autosuma en el grupo Edición."
+            },
+            {
+              "ref": "Validación de datos",
+              "law": "Soporte Microsoft (Excel, validación de datos)",
+              "url": "https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249",
+              "quote": "Lista: para elegir datos de una lista desplegable."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (Excel, especificaciones y límites) (https://support.microsoft.com/es-es/excel/excel-specifications-and-limits), Soporte Microsoft (Excel, inmovilizar paneles) (https://support.microsoft.com/es-es/excel/get-started/freeze-panes-to-lock-rows-and-columns), Soporte Microsoft (Excel, atajos) (https://support.microsoft.com/es-es/accessibility/excel/keyboard-shortcuts-in-excel), Soporte Microsoft (Excel, referencias) (https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references), Soporte Microsoft (Excel, SI) (https://support.microsoft.com/es-es/office/si-funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2), Soporte Microsoft (Excel, BUSCARX) (https://support.microsoft.com/es-es/excel/functions/xlookup-function), Soporte Microsoft (Excel, CONTAR.SI) (https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel), Soporte Microsoft (Excel, tipos de gráfico) (https://support.microsoft.com/es-es/excel/available-chart-types-in-office), Soporte Microsoft (Excel, filtrar) (https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel), Soporte Microsoft (Excel, tablas dinámicas) (https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-a9a84538-bfe9-40a9-a8e9-f99134456576), Soporte Microsoft (Excel, validación de datos) (https://support.microsoft.com/es-es/office/aplicar-la-validaci%C3%B3n-de-datos-a-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)"
 }

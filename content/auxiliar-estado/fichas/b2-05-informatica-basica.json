@@ -76,5 +76,696 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Hardware y software: componentes del ordenador y requisitos mínimos de Windows 11",
+      "blocks": [
+        {
+          "text": "Todo ordenador combina dos planos. El hardware es la parte física: el conjunto de dispositivos conectados entre sí que forman el equipo. El software es la parte lógica: los programas y aplicaciones que permiten usar ese hardware. Los dispositivos se clasifican por el sentido de la comunicación: los de entrada sirven al usuario para comunicarse con el ordenador (el ejemplo típico es el teclado) y los de salida permiten al ordenador comunicarse con el usuario (el monitor muestra tanto lo que aportamos como lo que el equipo nos devuelve). Hay además conexiones de entrada/salida, como los puertos de vídeo, de sonido y USB.",
+          "refs": [
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "Hardware es el conjunto de dispositivos físicos, conectados entre sí, que componen el ordenador […] Software es el conjunto de programas y aplicaciones que permiten utilizar el hardware."
+            },
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "Dispositivos de entrada: que permiten al usuario comunicarse con el ordenador. […] Dispositivos de salida: con ellos el ordenador se comunica con el usuario."
+            },
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "El teclado es un dispositivo de entrada a través del cual podemos comunicarnos con el ordenador. […] Los monitores muestran tanto la información que aportamos, como la que el ordenador nos comunica. […] también hay conexiones de entrada/salida, como puertos de vídeo, de sonido y USB."
+            }
+          ]
+        },
+        {
+          "text": "Dentro de la caja, el componente central es la CPU (Unidad Central de Proceso), cuya pieza fundamental es el microprocesador. La memoria RAM guarda la información solo de forma temporal: al apagar el ordenador se borra todo su contenido. El disco duro, en cambio, almacena programas y datos de forma permanente. Pregunta clásica: «¿qué pasa con la RAM al apagar?» → se borra.",
+          "refs": [
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "Comúnmente es la llamada CPU (Unidad Central de Proceso). […] Su pieza fundamental se denomina microprocesador"
+            },
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "Es el componente electrónico donde se almacena la información de forma temporal. […] cuando se apaga el ordenador, se borra todo su contenido. […] Es el encargado de almacenar los programas y nuestros datos, pero esta vez de forma permanente."
+            }
+          ]
+        },
+        {
+          "text": "Microsoft publica los requisitos mínimos de hardware de Windows 11, que conviene memorizar como lista cerrada: procesador de 1 GHz o más con dos o más núcleos, de 64 bits; 4 GB de RAM o más; 64 GB o más de almacenamiento disponible; firmware UEFI compatible con arranque seguro; TPM versión 2.0; tarjeta gráfica compatible con DirectX 12 o posterior con controlador WDDM 2.0; pantalla de alta definición (720p) con monitor de 9\" o superior y 8 bits por canal de color; y conexión a Internet para actualizaciones y algunas características. Los distractores habituales cambian las cifras (2 u 8 GB de RAM, 32 GB de disco, TPM 1.2) o proponen BIOS heredada sin arranque seguro.",
+          "refs": [
+            {
+              "ref": "Requisitos de Windows 11",
+              "law": "Microsoft Learn (requisitos de Windows 11)",
+              "url": "https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements",
+              "quote": "Procesador | 1 gigahercio (GHz) o más rápido con dos o más núcleos en un procesador o sistema compatible de 64 bits en un chip (SoC)."
+            },
+            {
+              "ref": "Requisitos de Windows 11",
+              "law": "Microsoft Learn (requisitos de Windows 11)",
+              "url": "https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements",
+              "quote": "Memoria (RAM) | 4 gigabytes (GB) o superior. […] Almacenamiento | 64 GB o más de espacio disponible en disco. […] Firmware del sistema | UEFI, compatible con arranque seguro. […] TPM | módulo de plataforma segura (TPM) versión 2.0."
+            },
+            {
+              "ref": "Requisitos de Windows 11",
+              "law": "Microsoft Learn (requisitos de Windows 11)",
+              "url": "https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements",
+              "quote": "Tarjeta gráfica | compatible con DirectX 12 o posterior, con un controlador WDDM 2.0. […] Pantalla | pantalla de alta definición (720p), monitor de 9\" o superior, 8 bits por canal de color. […] Conexión a Internet | la conectividad a Internet es necesaria para realizar actualizaciones y para descargar y usar algunas características."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Unidades de información y codificación de caracteres",
+      "blocks": [
+        {
+          "text": "La unidad mínima de información con la que se mide la capacidad es el byte, formado a su vez por bits. En la convención informática tradicional que recoge el manual del Ministerio de Educación, cada salto multiplica por 1024: 1 KB = 1024 bytes, 1 MB = 1024 KB y 1 GB = 1024 MB.",
+          "refs": [
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "La unidad mínima de información es el byte (compuesto a su vez de bits) […] el Kilobyte (KB) son 1024 bytes […] el Megabyte (MB) son 1024 KB […] el Gigabyte (GB) son 1024 MB"
+            }
+          ]
+        },
+        {
+          "text": "La norma legal de unidades (Real Decreto 2032/2009) es más estricta: los prefijos SI (kilo, mega, giga…) representan solo potencias de 10, de modo que un kilobit son 1000 bits y no 1024. Para las potencias de 2 existen prefijos binarios que no pertenecen al SI: kibi (Ki), mebi (Mi), gibi (Gi), tebi (Ti), pebi (Pi) y exbi (Ei). Así, 1 KiB = 2^10 B = 1024 B. Estos prefijos pueden usarse en tecnología de la información para evitar el uso incorrecto de los prefijos SI. En el examen, si la pregunta cita el RD 2032/2009, «kilo» = 1000; si cita el manual del Ministerio, 1 GB = 1024 MB.",
+          "refs": [
+            {
+              "ref": "Anexo, tabla 5, nota (a) RD 2032/2009",
+              "law": "RD 2032/2009",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-927",
+              "quote": "Los prefijos SI representan estrictamente potencias de 10. No deben utilizarse para expresar potencias de 2 (por ejemplo, un kilobit representa 1000 bits y no 1024 bits). Los prefijos adoptados para las potencias binarias no pertenecen al SI."
+            },
+            {
+              "ref": "Anexo, tabla 5, nota (a) RD 2032/2009",
+              "law": "RD 2032/2009",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-927",
+              "quote": "son, respectivamente, kibi, Ki; mebi, Mi; gibi, Gi; tebi, Ti; pebi, Pi; y exbi, Ei. Así, por ejemplo, un kibibyte se escribe: 1 KiB = 2<sup>10</sup> B = 1024 B. […] pueden emplearse en el campo de la tecnología de la información a fin de evitar un uso incorrecto de los prefijos SI."
+            }
+          ]
+        },
+        {
+          "text": "Para representar texto, Microsoft recomienda UTF-8 (Formato de Transformación Unicode de 8 bits): es la página de códigos universal para la internacionalización, puede cifrar todo el conjunto de caracteres Unicode, se usa ampliamente en la Web y es la codificación predeterminada en XML y en plataformas *nix. Relacionado con cómo se guardan los datos en memoria, el glosario CCN-STIC-401 define big endian como la ordenación en la que el byte más significativo va primero.",
+          "refs": [
+            {
+              "ref": "Uso de UTF-8 en Windows",
+              "law": "Microsoft Learn (UTF-8)",
+              "url": "https://learn.microsoft.com/es-es/windows/apps/design/globalizing/use-utf8-code-page",
+              "quote": "UTF-8 es la página de códigos universal para la internacionalización y puede cifrar todo el conjunto de caracteres Unicode. Se usa ampliamente en la Web y es la codificación predeterminada para plataformas basadas en XML y *nix."
+            },
+            {
+              "ref": "CCN-STIC-401, Big endian",
+              "law": "Glosario CCN-STIC-401",
+              "url": "https://www.ccn-cert.cni.es/publico/seriesCCN-STIC/series/400-Guias_Generales/401-glosario_abreviaturas/index.html",
+              "quote": "Ordenación de los bytes en memoria: byte más significativo primero."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "El sistema operativo Windows y sus herramientas de configuración",
+      "blocks": [
+        {
+          "text": "Configuración es la aplicación principal para personalizar y administrar Windows. El Panel de control, presente desde hace mucho tiempo, está perdiendo peso porque muchos de sus valores se migran a Configuración. El Administrador de tareas funciona como monitor del sistema y administrador de inicio, permite finalizar programas que no responden y se abre con CTRL+MAYÚS+ESC.",
+          "refs": [
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Configuración es la aplicación principal para personalizar y administrar la configuración de Windows. […] El Panel de control es una característica que ha formado parte de Windows durante mucho tiempo. […] Muchos de los valores de configuración del Panel de control se están migrando a la aplicación Configuración"
+            },
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "El Administrador de tareas es una aplicación que sirve como monitor del sistema y administrador de inicio para Windows […] Use el método abreviado de teclado CTRL+MAYÚS+ESC. […] Con el Administrador de tareas, puede finalizar programas que no responden"
+            }
+          ]
+        },
+        {
+          "text": "Otras herramientas: Administración de equipos es un complemento de Microsoft Management Console (MMC) para administrar discos, servicios, dispositivos, carpetas compartidas y usuarios; el Visor de eventos muestra el origen, la fecha y la hora de cada evento; Configuración del sistema ayuda a solucionar problemas de inicio (su pestaña Servicios permite deshabilitar servicios problemáticos); Información del sistema da una vista completa del hardware; el Editor del Registro permite ver y modificar el Registro, la base de datos con la configuración de bajo nivel. El Editor de directivas de grupo local no está disponible en Windows Home.",
+          "refs": [
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "La consola de administración de equipo es un complemento de Microsoft Management Console (MMC) […] Incluye herramientas para administrar discos, servicios, dispositivos, carpetas compartidas y usuarios […] El Visor de eventos puede mostrar información como el origen de un evento, la fecha y hora en que se produjo"
+            },
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Configuración del sistema es una utilidad del sistema que le permite solucionar problemas de inicio de Windows. […] Por ejemplo, la pestaña Servicios le permite deshabilitar los servicios que podrían estar causando problemas […] Información del sistema es una utilidad del sistema que proporciona una vista completa del hardware"
+            },
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "El Editor del Registro es una potente herramienta que se utiliza para ver y modificar el Registro del sistema. […] El Registro es una base de datos que almacena la configuración de bajo nivel para Windows […] El Editor de directivas de grupo local no está disponible en la edición Windows Home."
+            }
+          ]
+        },
+        {
+          "text": "Plug and Play (PnP) es la parte de Windows que permite al sistema adaptarse a los cambios de hardware con una intervención mínima del usuario: se pueden agregar y quitar dispositivos sin configuración manual. Para funcionar necesita compatibilidad del hardware, del software del sistema y de los controladores.",
+          "refs": [
+            {
+              "ref": "Introducción a Plug and Play",
+              "law": "Microsoft Learn (Plug and Play)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/kernel/introduction-to-plug-and-play",
+              "quote": "Plug and Play (PnP) es la parte de Windows que permite a un sistema informático adaptarse a los cambios de hardware con una intervención mínima del usuario. Un usuario puede agregar y quitar dispositivos sin tener que realizar la configuración manual"
+            },
+            {
+              "ref": "Introducción a Plug and Play",
+              "law": "Microsoft Learn (Plug and Play)",
+              "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/kernel/introduction-to-plug-and-play",
+              "quote": "PnP requiere compatibilidad con el hardware del dispositivo, el software del sistema y los controladores."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Almacenamiento: unidades locales y espacio en disco",
+      "blocks": [
+        {
+          "text": "El almacenamiento permanente se diferencia de la RAM en que conserva programas y datos al apagar. Entre los soportes ópticos, el DVD tiene una apariencia similar al CD-ROM, pero se caracteriza por su gran capacidad de almacenamiento. Cuando la unidad se llena, Windows ofrece recomendaciones de limpieza para identificar y eliminar archivos temporales, archivos grandes o sin usar, archivos sincronizados con la nube y aplicaciones sin usar.",
+          "refs": [
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "Los DVD son discos con una apariencia similar al Cd-Rom, pero se caracterizan por su gran capacidad de almacenamiento."
+            },
+            {
+              "ref": "Liberar espacio en disco",
+              "law": "Soporte Microsoft (Windows, liberar espacio)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/free-up-drive-space-in-windows",
+              "quote": "las recomendaciones de limpieza pueden ayudarle a identificar y limpiar archivos temporales […] Revise cada una de las categorías, incluidos los archivos temporales, los archivos grandes o sin usar […] los archivos sincronizados con la nube y las aplicaciones sin usar"
+            }
+          ]
+        },
+        {
+          "text": "Las fuentes oficiales recogidas para este tema no describen la gestión de particiones ni los sistemas de archivos de las unidades locales; solo indican que Administración de equipos incluye herramientas para administrar discos.",
+          "refs": [
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Incluye herramientas para administrar discos, servicios, dispositivos, carpetas compartidas y usuarios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Sensor de almacenamiento y desfragmentación/optimización de unidades",
+      "blocks": [
+        {
+          "text": "El Sensor de almacenamiento solo funciona en la unidad del sistema (no en otras unidades). Limpia archivos temporales innecesarios y se ejecuta cuando queda poco espacio en disco; el contenido de la Papelera se elimina por defecto pasado un tiempo. Se activa poniéndolo en «Activado» y su configuración se aplica solo al usuario que la elige. Puede programarse con qué frecuencia se ejecuta y fijar plazos para borrar archivos de la Papelera y de la carpeta Descargas que no se hayan abierto. Con archivos en la nube, no los elimina permanentemente, y respeta los marcados como «Mantener siempre en este dispositivo».",
+          "refs": [
+            {
+              "ref": "Sensor de almacenamiento",
+              "law": "Soporte Microsoft (Sensor de almacenamiento)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+              "quote": "El Sensor de almacenamiento solo funciona en la unidad del sistema […] limpiará los archivos temporales innecesarios […] se ejecutará cuando el dispositivo tenga poco espacio en disco […] El contenido de la Papelera de reciclaje se eliminará de forma predeterminada después de algún tiempo"
+            },
+            {
+              "ref": "Sensor de almacenamiento",
+              "law": "Soporte Microsoft (Sensor de almacenamiento)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+              "quote": "Establece el Sensor de almacenamiento en Activado. […] Cualquier configuración que elijas se aplicará solo para ti. […] la frecuencia con la que quieres que se ejecute el Sensor de almacenamiento […] Eliminar archivos de mi carpeta Descargas si no se han abierto durante más de:"
+            },
+            {
+              "ref": "Sensor de almacenamiento",
+              "law": "Soporte Microsoft (Sensor de almacenamiento)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+              "quote": "Esta configuración no eliminará permanentemente los archivos. […] Cualquier archivo marcado como Mantener siempre en este dispositivo"
+            }
+          ]
+        },
+        {
+          "text": "Windows optimiza automáticamente las unidades de datos; por defecto, una vez a la semana. Para revisarlo a mano: escribir «desfragmentación» en la búsqueda de la barra de tareas y elegir «Desfragmentar y Optimizar unidades». En un disco duro, «Analizar» comprueba la unidad; los discos duros se desfragmentan (se reorganizan los archivos). En «Optimización programada» > «Cambiar configuración» la frecuencia puede ser Diaria, Semanal o Mensual, o desactivarse.",
+          "refs": [
+            {
+              "ref": "Desfragmentación/optimización",
+              "law": "Soporte Microsoft (optimizar unidades)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows",
+              "quote": "En su mayor parte, Windows optimiza automáticamente las unidades de datos para mantener el rendimiento. […] De manera predeterminada, Windows optimiza automáticamente las unidades una vez a la semana."
+            },
+            {
+              "ref": "Desfragmentación/optimización",
+              "law": "Soporte Microsoft (optimizar unidades)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows",
+              "quote": "Selecciona la barra de búsqueda en la barra de tareas y escribe desfragmentación. […] Seleccione Desfragmentar y Optimizar unidades en la lista de resultados. […] Los discos duros se desfragmentan, lo que reorganiza los archivos para que estén alineados"
+            },
+            {
+              "ref": "Desfragmentación/optimización",
+              "law": "Soporte Microsoft (optimizar unidades)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows",
+              "quote": "En Optimización programada, seleccione Cambiar configuración. […] Para cambiar la programación a Diaria, Semanal, Mensual, o desactivarla por completo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Almacenamiento en la nube: OneDrive y Archivos a petición",
+      "blocks": [
+        {
+          "text": "Con Archivos a petición, el Explorador de archivos muestra todos los archivos de OneDrive aunque no estén descargados. Los iconos indican su estado: la nube azul significa «solo en línea», y esos archivos no ocupan espacio en el equipo, pero no se pueden abrir sin conexión a Internet. Al abrir uno, se descarga y pasa a «disponible localmente», que se puede abrir siempre, incluso sin Internet. El círculo verde lo tienen solo los marcados como «Mantener siempre en este dispositivo», que ocupan espacio.",
+          "refs": [
+            {
+              "ref": "Archivos a petición",
+              "law": "Soporte Microsoft (OneDrive)",
+              "url": "https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows",
+              "quote": "Un icono de nube azul junto a un archivo o carpeta de OneDrive indica que el archivo solo está disponible en línea. […] Los archivos solo en línea no ocupan espacio en el equipo. […] Los archivos solo en línea no se pueden abrir cuando el dispositivo no está conectado a Internet."
+            },
+            {
+              "ref": "Archivos a petición",
+              "law": "Soporte Microsoft (OneDrive)",
+              "url": "https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows",
+              "quote": "Al abrir un archivo solo en línea, se descarga en el dispositivo y pasa a ser un archivo disponible localmente. […] Solo los archivos que se marcan como \"Mantener siempre en este dispositivo\" tienen el círculo de color verde […] Puede abrir un archivo disponible localmente siempre que quiera, incluso sin acceso a Internet."
+            }
+          ]
+        },
+        {
+          "text": "Para recuperar espacio basta con clic derecho sobre el archivo y «Liberar espacio»: vuelve a ser solo en línea y deja de ocupar sitio en el dispositivo.",
+          "refs": [
+            {
+              "ref": "Archivos a petición",
+              "law": "Soporte Microsoft (OneDrive)",
+              "url": "https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows",
+              "quote": "Simplemente haga clic con el botón derecho en el archivo y seleccione \"Liberar espacio\". […] El archivo ya no ocupa espacio en el dispositivo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Copias de seguridad de Windows",
+      "blocks": [
+        {
+          "text": "Una copia de seguridad, según el INCIBE, es duplicar la información de un soporte a otro para poder recuperarla si falla el primero. Windows incluye la aplicación Copias de seguridad de Windows, que copia archivos, temas, configuración, muchas aplicaciones instaladas e información Wi-Fi, así como cuentas y contraseñas. No funciona con cuentas profesionales o educativas.",
+          "refs": [
+            {
+              "ref": "INCIBE, Copia de seguridad",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Proceso mediante el cual se duplica la información existente de un soporte a otro, con el fin de poder recuperar los datos contenidos en caso de fallo del primer soporte de alojamiento."
+            },
+            {
+              "ref": "Copias de seguridad de Windows",
+              "law": "Soporte Microsoft (Copias de seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+              "quote": "Desde los archivos, temas y configuraciones hasta muchas de las aplicaciones instaladas e información Wi-Fi […] Las cuentas profesionales o educativas de Microsoft no funcionarán."
+            }
+          ]
+        },
+        {
+          "text": "La información se almacena con la cuenta de Microsoft del usuario, y las carpetas se sincronizan con OneDrive, accesibles desde todos los equipos con esa cuenta. La cuenta gratuita incluye 5 GB en OneDrive. Para restaurar en un equipo nuevo se inicia sesión con la misma cuenta; los archivos pueden recuperarse en cualquier momento desde OneDrive.",
+          "refs": [
+            {
+              "ref": "Copias de seguridad de Windows",
+              "law": "Soporte Microsoft (Copias de seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+              "quote": "La información de la copia de seguridad se almacenará con tu cuenta de Microsoft […] la copia de seguridad de sus carpetas sincroniza las carpetas que especifique con su cuenta de OneDrive […] Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive"
+            },
+            {
+              "ref": "Copias de seguridad de Windows",
+              "law": "Soporte Microsoft (Copias de seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+              "quote": "inicie sesión con la misma cuenta de Microsoft que utilizó para realizar la copia de seguridad aquí."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Seguridad de Windows: Antivirus de Microsoft Defender, firewall y áreas de protección",
+      "blocks": [
+        {
+          "text": "Seguridad de Windows es la solución integral de seguridad incluida en el sistema; incluye Antivirus de Microsoft Defender, Firewall de Windows y Control Inteligente de Aplicaciones, y se abre buscándola en el menú Inicio. El antivirus examina continuamente el dispositivo y ofrece protección en tiempo real; si se desactiva, no se analizan los archivos que se abren o descargan, aunque pronto se reactiva sola. Ante sospecha de malware: análisis rápido inmediato.",
+          "refs": [
+            {
+              "ref": "Seguridad de Windows",
+              "law": "Soporte Microsoft (Seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+              "quote": "Incluye características como Antivirus de Microsoft Defender, Firewall de Windows y Control Inteligente de Aplicaciones […] Antivirus de Microsoft Defender examina continuamente el dispositivo en busca de posibles amenazas […] su capacidad para proporcionar protección en tiempo real"
+            },
+            {
+              "ref": "Seguridad de Windows",
+              "law": "Soporte Microsoft (Seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+              "quote": "Para abrir la aplicación Seguridad de Windows, búsquela en el menú Inicio. […] Si sospechas que hay malware o un virus en tu dispositivo, debes ejecutar inmediatamente un análisis rápido. […] no se analizarán en busca de amenazas los archivos que abras ni los que descargues. […] la protección en tiempo real pronto se activará automáticamente para proteger el dispositivo."
+            }
+          ]
+        },
+        {
+          "text": "El firewall monitorea el tráfico de red entrante y saliente y bloquea la actividad sospechosa. El INCIBE define el cortafuegos (firewall) como un sistema, software o hardware, situado en los puntos limítrofes de una red, que permite y limita el flujo de tráfico según un conjunto de normas. Las áreas de protección de la aplicación son seis: virus y amenazas; cuenta; control de aplicaciones y explorador; seguridad de dispositivos; estado y rendimiento; y opciones de familia.",
+          "refs": [
+            {
+              "ref": "Seguridad de Windows",
+              "law": "Soporte Microsoft (Seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+              "quote": "la función de firewall monitorea el tráfico de red entrante y saliente, bloqueando cualquier actividad sospechosa"
+            },
+            {
+              "ref": "INCIBE, Cortafuegos",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Sistema de seguridad compuesto o bien de programas (software) o de dispositivos hardware situados en los puntos limítrofes de una red que tienen el objetivo de permitir y limitar, el flujo de tráfico entre los diferentes ámbitos que protege sobre la base de un conjunto de normas y otros criterios."
+            },
+            {
+              "ref": "Seguridad de Windows",
+              "law": "Soporte Microsoft (Seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+              "quote": "Protección contra virus y amenazas […] Protección de cuenta […] Control de aplicaciones y explorador […] Seguridad de dispositivos […] Estado y el rendimiento del dispositivo […] Opciones de familia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Amenazas y malware: glosarios del INCIBE y del CCN",
+      "blocks": [
+        {
+          "text": "Tipos de malware del INCIBE: el ransomware «secuestra» el dispositivo o su información y exige rescate; el spyware recopila información y la envía a un tercero sin consentimiento; el keylogger es un spyware que registra las teclas pulsadas; el rootkit da acceso continuo con permisos de administrador y se oculta; el adware se financia con anuncios; una botnet es un conjunto de equipos controlados remotamente. Clave: el troyano depende de que el usuario ejecute algo, mientras que el gusano se copia y se propaga solo por la red.",
+          "refs": [
+            {
+              "ref": "INCIBE, Ransomware",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Malware cuya funcionalidad es «secuestrar» un dispositivo (en sus inicios) o la información que contiene de forma que si la víctima no paga el rescate, no podrá acceder a ella."
+            },
+            {
+              "ref": "INCIBE, Spyware y Keylogger",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Es un malware que recopila información de un ordenador y después la envía a una entidad remota sin el conocimiento o el consentimiento del propietario del ordenador. […] Es un tipo de spyware que se encarga de monitorizar toda la actividad realizada con el teclado (teclas que se pulsan) para luego enviarla al ciberdelincuente."
+            },
+            {
+              "ref": "INCIBE, Rootkit, Adware y Botnet",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Tipo de malware que permite un acceso continuo con permisos de administrador a un determinado dispositivo […] Software que se apoya en anuncios (normalmente para financiarse) como parte del propio programa. […] Una botnet es un conjunto de ordenadores (denominados bots) controlados remotamente por un atacante"
+            },
+            {
+              "ref": "INCIBE, Gusano",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Mientras que los troyanos dependen de que un usuario acceda a una web maliciosa o ejecute un fichero infectado, los gusanos realizan copias de sí mismos, infectan a otros ordenadores y se propagan automáticamente en una red independientemente de la acción humana."
+            }
+          ]
+        },
+        {
+          "text": "El insider es la persona de la organización que divulga intencionadamente información sensible de ella. La denegación de servicio deja fuera de servicio un sistema saturándolo de peticiones.",
+          "refs": [
+            {
+              "ref": "INCIBE, Insider y Denegación de servicio",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Persona perteneciente a una organización o empresa que divulga información sensible sobre dicha empresa de forma intencionada. […] Ataque a un sistema, aplicación o dispositivo para dejarlo fuera de servicio debido a una saturación de peticiones."
+            }
+          ]
+        },
+        {
+          "text": "El glosario CCN-STIC-401 añade: amenaza es la causa potencial de un incidente no deseado que puede dañar un sistema u organización (UNE-ISO/IEC 27000); riesgo, el efecto de la incertidumbre sobre la consecución de los objetivos (UNE-ISO Guía 73); vulnerabilidades de día cero (zero-day), las conocidas por atacantes pero no por fabricantes ni usuarios; exploit, el software, datos o comandos que aprovechan un fallo para provocar un comportamiento no deseado; y sandbox (entorno restringido), el mecanismo que limita el acceso de un programa a los recursos del sistema.",
+          "refs": [
+            {
+              "ref": "CCN-STIC-401, Amenaza y Riesgo",
+              "law": "Glosario CCN-STIC-401",
+              "url": "https://www.ccn-cert.cni.es/publico/seriesCCN-STIC/series/400-Guias_Generales/401-glosario_abreviaturas/index.html",
+              "quote": "Causa potencial de un incidente no deseado, el cual puede ocasionar daño a un sistema o a una organización. [UNE-ISO/IEC 27000:2014] […] Efecto de la incertidumbre sobre la consecución de los objetivos. [UNE-ISO GUÍA 73:2010]"
+            },
+            {
+              "ref": "CCN-STIC-401, Día cero y Exploit",
+              "law": "Glosario CCN-STIC-401",
+              "url": "https://www.ccn-cert.cni.es/publico/seriesCCN-STIC/series/400-Guias_Generales/401-glosario_abreviaturas/index.html",
+              "quote": "Son aquellas vulnerabilidades en sistemas o programas informáticos que son conocidas por determinados atacantes pero no lo son por los fabricantes o por los usuarios. […] Un tipo de software, un fragmento de datos, o una secuencia de comandos que aprovecha un fallo o una vulnerabilidad en el sistema de un usuario para provocar un comportamiento no deseado o imprevisto."
+            },
+            {
+              "ref": "CCN-STIC-401, Sandbox",
+              "law": "Glosario CCN-STIC-401",
+              "url": "https://www.ccn-cert.cni.es/publico/seriesCCN-STIC/series/400-Guias_Generales/401-glosario_abreviaturas/index.html",
+              "quote": "Entorno restringido Mecanismo de protección utilizado en algunos lenguajes o entornos de programación que limita el acceso que tiene un programa a los recursos del sistema."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Seguridad de la información: Esquema Nacional de Seguridad, autenticación y SGSI",
+      "blocks": [
+        {
+          "text": "El glosario del Esquema Nacional de Seguridad (anexo IV del RD 311/2022) define activo como el componente o funcionalidad de un sistema susceptible de ser atacado con consecuencias para la organización (información, servicios, software, hardware, personas…). Las dimensiones de seguridad: autenticidad (la entidad es quien dice ser), confidencialidad (no se revela a no autorizados), integridad (no alterado sin autorización), disponibilidad (acceso cuando se requiere) y trazabilidad (las actuaciones se pueden trazar de forma indiscutible hasta la entidad).",
+          "refs": [
+            {
+              "ref": "Anexo IV RD 311/2022",
+              "law": "RD 311/2022 (ENS)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+              "quote": "Activo: componente o funcionalidad de un sistema de información susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización."
+            },
+            {
+              "ref": "Anexo IV RD 311/2022",
+              "law": "RD 311/2022 (ENS)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+              "quote": "Autenticidad: propiedad o característica consistente en que una entidad es quien dice ser […] Confidencialidad: propiedad o característica consistente en que la información ni se pone a disposición, ni se revela a individuos, entidades o procesos no autorizados. […] Disponibilidad: propiedad o característica de los activos consistente en que las entidades o procesos autorizados tienen acceso a los mismos cuando lo requieren."
+            },
+            {
+              "ref": "Anexo IV RD 311/2022",
+              "law": "RD 311/2022 (ENS)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+              "quote": "Integridad: propiedad o característica consistente en que el activo de información no ha sido alterado de manera no autorizada. […] Trazabilidad: propiedad o característica consistente en que las actuaciones de una entidad (persona o proceso) pueden ser trazadas de forma indiscutible hasta dicha entidad."
+            }
+          ]
+        },
+        {
+          "text": "Hay tres tipos de factores de autenticación: algo que se sabe (un secreto), algo que se tiene (un autenticador) y algo que se es (biometría). La OTP es una contraseña generada dinámicamente, de un solo uso y válida durante un periodo limitado. El doble factor añade a la autenticación básica otro factor (código al móvil, huella, OTP). Un SGSI es un conjunto de políticas de seguridad que siguen la norma ISO/IEC 27001.",
+          "refs": [
+            {
+              "ref": "Anexo IV RD 311/2022",
+              "law": "RD 311/2022 (ENS)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+              "quote": "Factor de autenticación: hay 3 tipos de factores de autenticación: (1) algo que se sabe, un secreto; (2) algo que se tiene, un autenticador; y (3) algo que se es, biometría. […] contraseña generada dinámicamente y que solamente se puede usar una vez y durante un periodo limitado."
+            },
+            {
+              "ref": "INCIBE, Doble factor y SGSI",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Esquema de autenticación básica a la que se añade otro factor como puede ser un código enviado a un móvil, huella dactilar, sistema OTP, etc., más seguro que la autenticación simple. […] Un Sistema de Gestión de la seguridad de la Información (SGSI) es un conjunto de políticas de seguridad de la información que siguen la norma ISO/IEC 27001."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Digitalización de documentos, OCR e inteligencia artificial",
+      "blocks": [
+        {
+          "text": "La Norma Técnica de Interoperabilidad de Digitalización de Documentos fija una resolución mínima de 200 píxeles por pulgada, en blanco y negro, color o escala de grises. La imagen debe ser fiel al original: respeta su geometría y no añade caracteres ni gráficos. El proceso comprende digitalización fotoeléctrica, optimización automática si procede (umbralización, reorientación, eliminación de bordes negros…), asignación de metadatos y, si procede, firma.",
+          "refs": [
+            {
+              "ref": "NTI Digitalización, IV.2",
+              "law": "NTI de Digitalización de Documentos",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168",
+              "quote": "El nivel de resolución mínimo para imágenes electrónicas será de 200 píxeles por pulgada, tanto para imágenes obtenidas en blanco y negro, color o escala de grises."
+            },
+            {
+              "ref": "NTI Digitalización, IV.3",
+              "law": "NTI de Digitalización de Documentos",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168",
+              "quote": "a) Respetará la geometría del documento origen en tamaños y proporciones. b) No contendrá caracteres o gráficos que no figurasen en el documento origen."
+            },
+            {
+              "ref": "NTI Digitalización, V.1",
+              "law": "NTI de Digitalización de Documentos",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168",
+              "quote": "a) Digitalización por un medio fotoeléctrico, de modo que se obtenga una imagen electrónica en la memoria del sistema asociado al dispositivo. b) Si procede, optimización automática de la imagen electrónica para garantizar su legibilidad, de modo que todo contenido del documento origen pueda apreciarse y sea válido para su gestión (umbralización, reorientación, eliminación de bordes negros, u otros de naturaleza análoga). […] d) Si procede, firma de la imagen electrónica."
+            }
+          ]
+        },
+        {
+          "text": "El OCR (reconocimiento óptico de caracteres, o reconocimiento/extracción de texto) extrae texto impreso o manuscrito de imágenes y documentos escaneados, lo que reduce la entrada manual de datos.",
+          "refs": [
+            {
+              "ref": "OCR",
+              "law": "Microsoft Learn (OCR)",
+              "url": "https://learn.microsoft.com/es-es/azure/ai-services/computer-vision/overview-ocr",
+              "quote": "El reconocimiento óptico de caracteres o OCR también se conoce como reconocimiento de texto o extracción de texto. Las técnicas de OCR basadas en aprendizaje automático permiten extraer texto impreso o manuscrito de imágenes […] Esta funcionalidad elimina o reduce significativamente la necesidad de entrada manual de datos."
+            }
+          ]
+        },
+        {
+          "text": "El Reglamento (UE) 2024/1689 define el sistema de IA como un sistema basado en una máquina, con distintos niveles de autonomía, que infiere de la información de entrada cómo generar resultados (predicciones, contenidos, recomendaciones o decisiones). La ultrasuplantación (deepfake) es contenido de imagen, audio o vídeo generado o manipulado por IA que parece real. Quien genere contenido sintético debe marcarlo en formato legible por máquina para que pueda detectarse que es artificial (art. 50.2).",
+          "refs": [
+            {
+              "ref": "Art. 3.1) Reglamento (UE) 2024/1689",
+              "law": "Reglamento (UE) 2024/1689 (IA)",
+              "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32024R1689",
+              "quote": "«sistema de IA»: un sistema basado en una máquina que está diseñado para funcionar con distintos niveles de autonomía y que puede mostrar capacidad de adaptación tras el despliegue, y que, para objetivos explícitos o implícitos, infiere de la información de entrada que recibe la manera de generar resultados de salida, como predicciones, contenidos, recomendaciones o decisiones"
+            },
+            {
+              "ref": "Art. 3.60) Reglamento (UE) 2024/1689",
+              "law": "Reglamento (UE) 2024/1689 (IA)",
+              "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32024R1689",
+              "quote": "«ultrasuplantación»: un contenido de imagen, audio o vídeo generado o manipulado por una IA que se asemeja a personas, objetos, lugares, entidades o sucesos reales y que puede inducir a una persona a pensar erróneamente que son auténticos o verídicos"
+            },
+            {
+              "ref": "Art. 50.2 Reglamento (UE) 2024/1689",
+              "law": "Reglamento (UE) 2024/1689 (IA)",
+              "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32024R1689",
+              "quote": "velarán por que los resultados de salida del sistema de IA estén marcados en un formato legible por máquina y que sea posible detectar que han sido generados o manipulados de manera artificial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Windows 11 mínimo: 1 GHz y 2 núcleos de 64 bits, 4 GB de RAM, 64 GB de disco, UEFI con arranque seguro y TPM 2.0.",
+          "refs": [
+            {
+              "ref": "Requisitos de Windows 11",
+              "law": "Microsoft Learn (requisitos de Windows 11)",
+              "url": "https://learn.microsoft.com/es-es/windows/whats-new/windows-11-requirements",
+              "quote": "TPM | módulo de plataforma segura (TPM) versión 2.0."
+            }
+          ]
+        },
+        {
+          "text": "La RAM se borra al apagar; el disco duro guarda de forma permanente.",
+          "refs": [
+            {
+              "ref": "MEC, UD1",
+              "law": "Ministerio de Educación (Iniciación a la Informática)",
+              "url": "https://www.libreria.educacion.gob.es/ebook/179740/free_download/",
+              "quote": "cuando se apaga el ordenador, se borra todo su contenido."
+            }
+          ]
+        },
+        {
+          "text": "RD 2032/2009: kilo = 1000; 1 KiB = 1024 B.",
+          "refs": [
+            {
+              "ref": "Anexo, tabla 5, nota (a) RD 2032/2009",
+              "law": "RD 2032/2009",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-927",
+              "quote": "un kilobit representa 1000 bits y no 1024 bits"
+            }
+          ]
+        },
+        {
+          "text": "Administrador de tareas: CTRL+MAYÚS+ESC.",
+          "refs": [
+            {
+              "ref": "Herramientas de configuración",
+              "law": "Soporte Microsoft (herramientas del sistema)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows",
+              "quote": "Use el método abreviado de teclado CTRL+MAYÚS+ESC."
+            }
+          ]
+        },
+        {
+          "text": "Sensor de almacenamiento: solo en la unidad del sistema. Optimización de unidades: una vez a la semana por defecto.",
+          "refs": [
+            {
+              "ref": "Sensor de almacenamiento",
+              "law": "Soporte Microsoft (Sensor de almacenamiento)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+              "quote": "El Sensor de almacenamiento solo funciona en la unidad del sistema"
+            },
+            {
+              "ref": "Desfragmentación/optimización",
+              "law": "Soporte Microsoft (optimizar unidades)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows",
+              "quote": "De manera predeterminada, Windows optimiza automáticamente las unidades una vez a la semana."
+            }
+          ]
+        },
+        {
+          "text": "OneDrive: nube azul = solo en línea, no ocupa espacio y no abre sin Internet; círculo verde = siempre en el dispositivo.",
+          "refs": [
+            {
+              "ref": "Archivos a petición",
+              "law": "Soporte Microsoft (OneDrive)",
+              "url": "https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows",
+              "quote": "Un icono de nube azul junto a un archivo o carpeta de OneDrive indica que el archivo solo está disponible en línea."
+            }
+          ]
+        },
+        {
+          "text": "Copias de seguridad de Windows: se guardan con la cuenta de Microsoft; la cuenta gratuita trae 5 GB de OneDrive.",
+          "refs": [
+            {
+              "ref": "Copias de seguridad de Windows",
+              "law": "Soporte Microsoft (Copias de seguridad de Windows)",
+              "url": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+              "quote": "Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive"
+            }
+          ]
+        },
+        {
+          "text": "Gusano: se propaga solo; troyano: necesita la acción del usuario. Keylogger: spyware de teclado.",
+          "refs": [
+            {
+              "ref": "INCIBE, Gusano",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "se propagan automáticamente en una red independientemente de la acción humana."
+            }
+          ]
+        },
+        {
+          "text": "Factores de autenticación (ENS): algo que se sabe, algo que se tiene, algo que se es.",
+          "refs": [
+            {
+              "ref": "Anexo IV RD 311/2022",
+              "law": "RD 311/2022 (ENS)",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+              "quote": "(1) algo que se sabe, un secreto; (2) algo que se tiene, un autenticador; y (3) algo que se es, biometría."
+            }
+          ]
+        },
+        {
+          "text": "Digitalización: 200 píxeles por pulgada como mínimo.",
+          "refs": [
+            {
+              "ref": "NTI Digitalización, IV.2",
+              "law": "NTI de Digitalización de Documentos",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13168",
+              "quote": "El nivel de resolución mínimo para imágenes electrónicas será de 200 píxeles por pulgada"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte Microsoft (herramientas del sistema) (https://support.microsoft.com/es-es/windows/experience/system-configuration-tools-in-windows), Soporte Microsoft (Sensor de almacenamiento) (https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense), Soporte Microsoft (optimizar unidades) (https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/defragment-optimize-your-data-drives-in-windows), Soporte Microsoft (OneDrive) (https://support.microsoft.com/es-es/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows), Soporte Microsoft (Copias de seguridad de Windows) (https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup), Soporte Microsoft (Seguridad de Windows) (https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app)"
 }

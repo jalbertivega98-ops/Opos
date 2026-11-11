@@ -56,5 +56,519 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Software y sistema operativo: funciones",
+      "blocks": [
+        {
+          "text": "Para entender qué es un sistema operativo conviene partir del software, que el glosario de ciberseguridad del INCIBE define como el conjunto de programas, instrucciones y reglas informáticas que permiten ejecutar tareas en un dispositivo y que el usuario interactúe con el sistema de forma fácil e intuitiva. El sistema operativo es el software base sobre el que funcionan las aplicaciones. Un caso particular es el firmware, que da un control de bajo nivel a un dispositivo y puede comportarse como su sistema operativo interno.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Software",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Definimos software del inglés como un conjunto de programas, instrucciones y reglas informáticas que permiten ejecutar distintas tareas en un dispositivo."
+            },
+            {
+              "ref": "INCIBE, Glosario: Software",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "permite al usuario interactuar con el sistema de forma fácil e intuitiva."
+            },
+            {
+              "ref": "INCIBE, Glosario: Firmware",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Tipo de software que permite proporcionar un control a bajo nivel de un dispositivo o componente electrónico"
+            }
+          ]
+        },
+        {
+          "text": "Las fuentes oficiales de la plataforma muestran algunas funciones del sistema operativo a través de ejemplos concretos: generar subprocesos y administrar la memoria (el kernel de Linux en Android), dar acceso al hardware mediante controladores, gestionar archivos y volúmenes y aplicar seguridad (permisos y cifrado). El sistema operativo también debe mantenerse al día con actualizaciones de seguridad, que corrigen fallos y vulnerabilidades. Una exposición general y sistemática de las funciones de un sistema operativo no está en las fuentes de la plataforma.",
+          "refs": [
+            {
+              "ref": "Android Developers, Kernel de Linux",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "el tiempo de ejecución de Android (ART) se basa en el kernel de Linux para funcionalidades subyacentes, como la generación de subprocesos y la administración de memoria de bajo nivel."
+            },
+            {
+              "ref": "INCIBE, Glosario: Actualización de seguridad",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Modificaciones que se aplican, de forma automática o manual, en el software de los sistemas operativos o aplicaciones instalado en los dispositivos electrónicos, con el objetivo de corregir fallos de seguridad, errores de funcionamiento"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Tipologías de sistemas operativos: MS-DOS, UNIX, Linux, Windows y macOS",
+      "blocks": [
+        {
+          "text": "El epígrafe cita MS-DOS, UNIX, Linux, Windows y Mac OS. Las fuentes de la plataforma solo permiten algunos datos: Windows tiene como sistema de archivos predeterminado NTFS; los Mac con macOS 10.13 o posterior usan APFS; el nombre MS-DOS aparece en el formato «MS-DOS (FAT)», compatible con Windows; y Linux es la base (el kernel) de Android. La historia y las características de MS-DOS, UNIX y las distribuciones de Linux no están en las fuentes de la plataforma.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "El nuevo sistema de archivos de tecnología (NTFS) es el sistema de archivos predeterminado para el sistema operativo moderno basado en Windows."
+            },
+            {
+              "ref": "Apple, Utilidad de Discos",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "MS-DOS (FAT) y ExFAT: Sistemas de archivos compatibles con Windows."
+            },
+            {
+              "ref": "Android Developers, Arquitectura de la plataforma",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Android es una pila de software de código abierto basado en Linux"
+            }
+          ]
+        },
+        {
+          "text": "Un concepto relacionado es la virtualización, que crea una versión virtual de un dispositivo o recurso (un servidor, una red) en una máquina física, con un software que implementa una capa de abstracción para que ambas compartan recursos. Así un mismo equipo puede ejecutar varios sistemas.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Virtualización",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "La virtualización es un medio para crear una versión virtual de un dispositivo o recurso, como un servidor, o una red, en una máquina física"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Sistemas operativos móviles: Android, una pila de software",
+      "blocks": [
+        {
+          "text": "Según la documentación oficial para desarrolladores, Android es una pila de software de código abierto basada en Linux, creada para una gran variedad de dispositivos. Sus capas, de abajo arriba, son: el kernel de Linux, la capa de abstracción de hardware (HAL), el tiempo de ejecución de Android (ART) con sus bibliotecas centrales, las bibliotecas nativas C/C++, el framework de la API de Java y las apps del sistema.",
+          "refs": [
+            {
+              "ref": "Android Developers, Arquitectura de la plataforma",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Android es una pila de software de código abierto basado en Linux creada para una variedad amplia de dispositivos y factores de forma."
+            }
+          ]
+        },
+        {
+          "text": "La base es el kernel de Linux. Su uso permite a Android aprovechar funciones de seguridad clave y a los fabricantes desarrollar controladores de hardware para un kernel conocido. Encima está la HAL, que ofrece interfaces estándar que exponen las capacidades del hardware (cámara, Bluetooth) al framework de la API de Java; se compone de módulos de biblioteca, uno por tipo de componente, que el sistema carga cuando una API necesita ese hardware.",
+          "refs": [
+            {
+              "ref": "Android Developers, Kernel de Linux",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "La base de la plataforma de Android es el kernel de Linux."
+            },
+            {
+              "ref": "Android Developers, Kernel de Linux",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "El uso de un kernel de Linux permite que Android aproveche funciones de seguridad clave y que los fabricantes de dispositivos desarrollen controladores de hardware para un kernel conocido."
+            },
+            {
+              "ref": "Android Developers, HAL",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "La capa de abstracción de hardware (HAL) brinda interfaces estándares que exponen las capacidades de hardware del dispositivo al marco de trabajo de la API de Java de nivel más alto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Android: tiempo de ejecución, bibliotecas y framework",
+      "blocks": [
+        {
+          "text": "Desde Android 5.0 (nivel de API 21), cada app ejecuta sus propios procesos con su propia instancia del tiempo de ejecución de Android (ART), que ejecuta archivos en formato DEX (Dalvik Executable), un código de bytes optimizado para usar poca memoria. ART ofrece compilación ahead-of-time (AOT) y just-in-time (JIT) y recolección optimizada de elementos no utilizados. Antes de Android 5.0, el entorno de ejecución era Dalvik.",
+          "refs": [
+            {
+              "ref": "Android Developers, Tiempo de ejecución de Android",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Para los dispositivos con Android 5.0 (nivel de API 21) o versiones posteriores, cada app ejecuta sus propios procesos con sus propias instancias del tiempo de ejecución de Android (ART)."
+            },
+            {
+              "ref": "Android Developers, Tiempo de ejecución de Android",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Antes de Android 5.0 (nivel de API 21), Dalvik era el entorno de ejecución del sistema operativo."
+            }
+          ]
+        },
+        {
+          "text": "Muchos componentes centrales, como ART y HAL, se compilan a partir de código nativo con bibliotecas escritas en C y C++ (por ejemplo, OpenGL ES para gráficos). Todo el conjunto de funciones del sistema está disponible mediante API escritas en Java: sistema de vistas para la interfaz, administrador de recursos, de notificaciones y de actividades, y proveedores de contenido que permiten a las apps compartir datos.",
+          "refs": [
+            {
+              "ref": "Android Developers, Bibliotecas C/C++ nativas",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Muchos componentes y servicios centrales del sistema Android, como ART y HAL, se compilan a partir de código nativo que requiere bibliotecas nativas escritas en C y C++."
+            },
+            {
+              "ref": "Android Developers, Framework de la API de Java",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Todo el conjunto de funciones del SO Android está disponible mediante API escritas en el lenguaje Java."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Android y iOS: apps del sistema y restricciones de seguridad",
+      "blocks": [
+        {
+          "text": "Android incluye apps centrales de correo, SMS, calendario, navegador y contactos, pero no tienen un estado especial frente a las que instala el usuario: una app de terceros puede convertirse en el navegador, el sistema de SMS o el teclado predeterminado (con excepciones como la Configuración del sistema). Los desarrolladores tienen acceso a las mismas API que usan las apps del sistema.",
+          "refs": [
+            {
+              "ref": "Android Developers, Apps del sistema",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Las apps incluidas en la plataforma no tienen un estado especial entre las apps que el usuario elige instalar; Por lo tanto, una app de terceros puede convertirse en el navegador web, el sistema de mensajería SMS o, incluso, el teclado predeterminado del usuario."
+            }
+          ]
+        },
+        {
+          "text": "Desde el punto de vista de la seguridad, el INCIBE define dos procesos que eliminan las restricciones del fabricante. Rootear Android es obtener acceso root, es decir, permisos de superusuario o administrador sin restricciones del fabricante. El jailbreak es el proceso que elimina las limitaciones de seguridad impuestas por Apple en un dispositivo con iOS, lo que permite, por ejemplo, instalar aplicaciones que no están en la App Store. La arquitectura interna de iOS no está descrita en las fuentes de la plataforma.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Rootear Android",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Mediante este proceso se obtiene acceso root al dispositivo; es decir, obtener permisos de \"superusuario\" o administrador, con los que se tendrá acceso al sistema sin ningún tipo de restricción impuesta por el fabricante."
+            },
+            {
+              "ref": "INCIBE, Glosario: Jailbreak",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Se trata del proceso con el que conseguimos eliminar las limitaciones de seguridad impuestas por Apple en un dispositivo con iOS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Sistemas de archivos: concepto y componentes",
+      "blocks": [
+        {
+          "text": "Según Microsoft, un sistema de archivos permite a las aplicaciones almacenar y recuperar archivos en dispositivos de almacenamiento. Los archivos se colocan en una estructura jerárquica (en árbol), y el sistema de archivos fija las convenciones de nombres y el formato de la ruta de acceso. Cada sistema de archivos consta de controladores y bibliotecas que definen sus formatos de datos y características.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Sistemas de archivos locales",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Un sistema de archivos permite a las aplicaciones almacenar y recuperar archivos en dispositivos de almacenamiento. Los archivos se colocan en una estructura jerárquica. El sistema de archivos especifica convenciones de nomenclatura para los archivos y el formato para especificar la ruta de acceso a un archivo en la estructura de árbol."
+            }
+          ]
+        },
+        {
+          "text": "Todos los sistemas de archivos compatibles con Windows tienen tres componentes: el volumen, colección de directorios y archivos; el directorio, colección jerárquica de directorios y archivos; y el archivo, agrupación lógica de datos relacionados. El volumen es el nivel más alto de organización: un sistema de archivos reside en un volumen.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Sistemas de archivos locales",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Volúmenes : un volumen es una colección de directorios y archivos. Directorios : un directorio es una colección jerárquica de directorios y archivos. Archivos : un archivo es una agrupación lógica de datos relacionados."
+            },
+            {
+              "ref": "Microsoft Learn, Administración de volúmenes",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "El nivel más alto de organización del sistema de archivos es el volumen. Un sistema de archivos reside en un volumen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "NTFS, el sistema de archivos de Windows",
+      "blocks": [
+        {
+          "text": "NTFS es el sistema predeterminado de Windows y ofrece descriptores de seguridad, cifrado, cuotas de disco y metadatos enriquecidos. Es más fiable porque mantiene un archivo de registro basado en transacciones e información de punto de control: si hay un error del sistema, usa ese registro para restaurar la coherencia en el siguiente inicio. Si detecta un sector incorrecto, reasigna el clúster y marca el original como inutilizable.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "NTFS mejora la confiabilidad manteniendo un archivo de registro basado en transacciones e información de punto de control. Si se produce un error del sistema, NTFS usa este registro para restaurar automáticamente la coherencia del sistema de archivos durante el siguiente inicio"
+            }
+          ]
+        },
+        {
+          "text": "En seguridad, NTFS permite asignar permisos detallados a archivos y carpetas mediante listas de control de acceso (ACL) y funciona con el cifrado de unidad BitLocker, que usa el módulo de plataforma segura (TPM). En Windows Server 2019 y posteriores y en Windows 10 versión 1709 y posteriores, los volúmenes pueden llegar a 8 petabytes (PB); las versiones anteriores, a 256 TB. Admite nombres largos guardando un alias 8.3 para compatibilidad.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "NTFS permite asignar permisos detallados a archivos y carpetas mediante listas de control de acceso (ACL)."
+            },
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "NTFS funciona perfectamente con el cifrado de unidad BitLocker para proteger los datos confidenciales en los volúmenes."
+            },
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "En Windows Server 2019 y versiones posteriores, y windows 10 versión 1709 y posteriores, los volúmenes NTFS pueden ser tan grandes como 8 petabytes (PB). Las versiones anteriores de Windows admiten volúmenes de hasta 256 terabytes (TB)."
+            }
+          ]
+        },
+        {
+          "text": "Cuando el espacio es limitado, NTFS ofrece varias herramientas de gestión de la capacidad: cuotas de disco para controlar cuánto espacio usa cada usuario, compresión del sistema de archivos para almacenar más datos, ampliación del volumen con espacio sin asignar del mismo disco o de otro, y montaje de un volumen en una carpeta vacía si se agotan las letras de unidad. Además, la utilidad chkdsk puede examinar y reparar volúmenes NTFS manteniéndolos en línea.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Usar cuotas de disco para realizar el seguimiento y controlar el uso del espacio de disco en volúmenes NTFS para usuarios individuales. Usar la compresión del sistema de archivos para maximizar la cantidad de datos que se pueden almacenar."
+            },
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "la chkdsk utilidad puede examinar y reparar volúmenes NTFS mientras los mantiene en línea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Comparación de NTFS, exFAT, UDF y FAT32",
+      "blocks": [
+        {
+          "text": "Microsoft considera cuatro sistemas de archivos principales de Windows: NTFS, exFAT, UDF y FAT32. La longitud máxima del nombre de archivo es de 255 caracteres Unicode en NTFS, exFAT y FAT32, y de 127 Unicode o 254 ASCII en UDF. El tamaño máximo de archivo es 2^64–1 bytes en NTFS, exFAT y UDF, pero solo 4 GiB en FAT32, un límite que se pregunta con frecuencia.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "En las tablas siguientes se enumeran las comparaciones de funcionalidades y características compatibles con los cuatro sistemas de archivos principales de Windows, NTFS, exFAT, UDF y FAT32"
+            },
+            {
+              "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Longitud máxima del nombre del archivo 255 caracteres Unicode 255 caracteres Unicode 127 Caracteres Unicode o 254 ASCII 255 caracteres Unicode"
+            },
+            {
+              "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Tamaño de archivo máximo 2^64–1 bytes 2^64–1 bytes 2^64–1 bytes 4 GiB"
+            }
+          ]
+        },
+        {
+          "text": "Solo NTFS ofrece, entre los cuatro, enlaces simbólicos, puntos de montaje, seguimiento del propietario, listas de control de acceso, cifrado del sistema de archivos, compresión integrada y cuotas de usuario. FAT32 es el más sencillo: sin vínculos físicos, sin ACL y con marca de último acceso solo de fecha.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Listas de control de acceso Sí No No No Cifrado de nivel de sistema de archivos Sí No No No"
+            },
+            {
+              "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Compresión integrada Sí No No No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "macOS: APFS y formatos compatibles con Windows",
+      "blocks": [
+        {
+          "text": "El Sistema de archivos de Apple (APFS) es el sistema por omisión de los Mac con macOS 10.13 o posterior. Incluye encriptación de alta seguridad, espacio compartido, instantáneas y redimensionamiento rápido de directorios; está optimizado para Flash o SSD, aunque sirve también en discos duros (HDD). APFS asigna el espacio en un contenedor (partición) por petición, y el espacio libre se comparte entre sus volúmenes.",
+          "refs": [
+            {
+              "ref": "Apple, Utilidad de Discos: APFS",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "El sistema de archivos de Apple (APFS) es el sistema de archivos por omisión de ordenadores Mac con macOS 10.13 o posterior. Incluye una encriptación de alta seguridad, espacio compartido, instantáneas, redimensionamiento rápido de los directorios y mejora de los aspectos básicos del sistema de archivos."
+            },
+            {
+              "ref": "Apple, Utilidad de Discos: APFS",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "APFS asigna espacio de disco en un contenedor (partición) por petición."
+            }
+          ]
+        },
+        {
+          "text": "Hay cuatro variantes: APFS; APFS (encriptado); APFS (mayús./minús), que distingue mayúsculas y minúsculas en los nombres (Tareas y TAREAS son carpetas distintas); y APFS (mayús./minús., encriptado). Para discos que se usarán con Windows, MS-DOS (FAT) sirve para volúmenes de hasta 32 GB y ExFAT para los de más de 32 GB.",
+          "refs": [
+            {
+              "ref": "Apple, Utilidad de Discos: APFS",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "APFS (mayús./minús): Utiliza el formato APFS y distingue las mayúsculas y minúsculas de los nombres de las carpetas y archivos."
+            },
+            {
+              "ref": "Apple, Utilidad de Discos: formatos compatibles con Windows",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "MS-DOS (FAT): Se utiliza para los volúmenes de Windows de hasta 32 GB. ExFAT: Se utiliza para los volúmenes de Windows de más de 32 GB."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Sistemas de almacenamiento",
+      "blocks": [
+        {
+          "text": "Los sistemas de archivos pueden existir en muchos dispositivos: discos duros, discos ópticos extraíbles, cintas de copia de seguridad o tarjetas de memoria. El disco duro es un disco rígido interno que almacena grandes cantidades de datos con acceso relativamente rápido y es el almacenamiento más usado con Windows. Otra opción es la computación en la nube (cloud computing), que permite guardar ficheros en servidores de terceros accesibles por red.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Sistemas de archivos locales",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Los sistemas de archivos pueden existir en muchos tipos diferentes de dispositivos de almacenamiento, incluidos discos duros, jukeboxes, discos ópticos extraíbles, unidades de copia de seguridad de cinta y tarjetas de memoria."
+            },
+            {
+              "ref": "Microsoft Learn, Administración de discos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "Un disco duro es un disco rígido dentro de un equipo que almacena y proporciona acceso relativamente rápido a grandes cantidades de datos. Es el tipo de almacenamiento que se usa con más frecuencia con Windows."
+            },
+            {
+              "ref": "INCIBE, Glosario: Cloud computing",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Esta tendencia permite a los usuarios almacenar información, ficheros y datos en servidores de terceros"
+            }
+          ]
+        },
+        {
+          "text": "La copia de seguridad duplica la información de un soporte a otro para recuperarla si falla el primero. Para eliminar datos, el borrado seguro sobrescribe la información para impedir su recuperación, y desmagnetizar destruye de forma permanente los soportes magnéticos y la información que contienen.",
+          "refs": [
+            {
+              "ref": "INCIBE, Glosario: Copia de seguridad",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Proceso mediante el cual se duplica la información existente de un soporte a otro, con el fin de poder recuperar los datos contenidos en caso de fallo del primer soporte de alojamiento."
+            },
+            {
+              "ref": "INCIBE, Glosario: Borrado seguro",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Método de borrado de archivos que se caracteriza por sobrescribir los datos con el propósito de impedir su recuperación."
+            },
+            {
+              "ref": "INCIBE, Glosario: Desmagnetizar",
+              "law": "Glosario INCIBE",
+              "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+              "quote": "Técnica que permite destruir de forma permanente los dispositivos de almacenamiento magnéticos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Windows: NTFS por defecto. Mac con macOS 10.13 o posterior: APFS. Android: pila de código abierto basada en Linux.",
+          "refs": [
+            {
+              "ref": "Apple, Utilidad de Discos: APFS",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "Sistema de archivos usado por macOS 10.13 o posterior."
+            }
+          ]
+        },
+        {
+          "text": "Volumen (nivel más alto) > directorio (colección jerárquica) > archivo (agrupación lógica de datos relacionados).",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Sistemas de archivos locales",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "un archivo es una agrupación lógica de datos relacionados."
+            }
+          ]
+        },
+        {
+          "text": "Cuatro sistemas principales de Windows: NTFS, exFAT, UDF y FAT32. FAT32: archivos de 4 GiB como máximo. NTFS: nombres de 255 caracteres Unicode.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Comparación de sistemas de archivos",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "NTFS, exFAT, UDF y FAT32"
+            }
+          ]
+        },
+        {
+          "text": "NTFS: ACL para permisos, BitLocker para cifrar, registro de transacciones para recuperarse, volúmenes de hasta 8 PB en Windows 10 (1709) y Windows Server 2019.",
+          "refs": [
+            {
+              "ref": "Microsoft Learn, Introducción a NTFS",
+              "law": "Microsoft Learn (sistemas de archivos)",
+              "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+              "quote": "los volúmenes NTFS pueden ser tan grandes como 8 petabytes (PB)"
+            }
+          ]
+        },
+        {
+          "text": "En un Mac, para Windows: MS-DOS (FAT) hasta 32 GB; ExFAT para más de 32 GB. APFS (mayús./minús) distingue mayúsculas.",
+          "refs": [
+            {
+              "ref": "Apple, Utilidad de Discos: formatos compatibles con Windows",
+              "law": "Soporte de Apple, «Formatos del sistema de archivos»",
+              "url": "https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac",
+              "quote": "ExFAT: Se utiliza para los volúmenes de Windows de más de 32 GB."
+            }
+          ]
+        },
+        {
+          "text": "Android: kernel de Linux (subprocesos y memoria), HAL (hardware), ART desde Android 5.0; antes, Dalvik.",
+          "refs": [
+            {
+              "ref": "Android Developers, Tiempo de ejecución de Android",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "Dalvik era el entorno de ejecución del sistema operativo."
+            }
+          ]
+        },
+        {
+          "text": "Las apps del sistema Android no tienen estado especial: una de terceros puede ser el navegador o teclado predeterminado.",
+          "refs": [
+            {
+              "ref": "Android Developers, Apps del sistema",
+              "law": "Android Developers, «Arquitectura de la plataforma»",
+              "url": "https://developer.android.com/guide/platform?hl=es-419",
+              "quote": "una app de terceros puede convertirse en el navegador web"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Soporte de Apple, «Formatos del sistema de archivos» (https://support.apple.com/es-es/guide/disk-utility/dsku19ed921c/mac), Android Developers, «Arquitectura de la plataforma» (https://developer.android.com/guide/platform?hl=es-419)"
 }

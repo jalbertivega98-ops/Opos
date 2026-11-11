@@ -55,5 +55,524 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "El Presupuesto: concepto",
+      "blocks": [
+        {
+          "text": "El presupuesto es el documento en el que se cifran, para un periodo determinado, los gastos que el sector público puede realizar y los ingresos que prevé obtener. La Ley 47/2003, General Presupuestaria (LGP), ofrece la definición legal que debe memorizarse: los Presupuestos Generales del Estado son la expresión cifrada, conjunta y sistemática de los derechos y obligaciones a liquidar durante el ejercicio por cada uno de los órganos y entidades del sector público estatal (art. 32 LGP). Tres notas: «cifrada» (en dinero), «conjunta» (reúne todos los entes) y «sistemática» (ordenada según unas clasificaciones). Las construcciones doctrinales sobre el concepto económico y político del presupuesto no están desarrolladas en las fuentes oficiales disponibles; estos apuntes se ciñen a la Constitución, la LGP y la Ley Orgánica 2/2012.",
+          "refs": [
+            {
+              "ref": "Art. 32 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los Presupuestos Generales del Estado constituyen la expresión cifrada, conjunta y sistemática de los derechos y obligaciones a liquidar durante el ejercicio por cada uno de los órganos y entidades que forman parte del sector público estatal."
+            }
+          ]
+        },
+        {
+          "text": "El presupuesto determina las obligaciones económicas que, como máximo, pueden reconocer los órganos con presupuesto limitativo, los derechos que se prevé reconocer, las operaciones de las entidades con presupuesto estimativo, los objetivos que debe alcanzar cada gestor de programas y la estimación de los beneficios fiscales (art. 33.2 LGP). Es, por tanto, a la vez una autorización de gasto, una previsión de ingresos y un instrumento de gestión por objetivos.",
+          "refs": [
+            {
+              "ref": "Art. 33.2 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "a) Las obligaciones económicas que, como máximo, pueden reconocer los sujetos referidos en el párrafo a) del apartado anterior. b) Los derechos a reconocer durante el correspondiente ejercicio por los entes mencionados en el párrafo anterior."
+            },
+            {
+              "ref": "Art. 33.2 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "d) Los objetivos a alcanzar en el ejercicio por cada uno de los gestores responsables de los programas con los recursos que el respectivo presupuesto les asigna. e) La estimación de los beneficios fiscales que afecten a los tributos del Estado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "El presupuesto en la Constitución (art. 134 CE)",
+      "blocks": [
+        {
+          "text": "La Constitución reparte las funciones: corresponde al Gobierno elaborar los Presupuestos Generales del Estado y a las Cortes Generales su examen, enmienda y aprobación (art. 134.1 CE). El Gobierno debe presentarlos ante el Congreso de los Diputados al menos tres meses antes de la expiración de los del año anterior (art. 134.3 CE). Si la ley no se aprueba antes del primer día del ejercicio, se prorrogan automáticamente los del ejercicio anterior hasta que se aprueben los nuevos (art. 134.4 CE).",
+          "refs": [
+            {
+              "ref": "Art. 134.1 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Corresponde al Gobierno la elaboración de los Presupuestos Generales del Estado y a las Cortes Generales, su examen, enmienda y aprobación."
+            },
+            {
+              "ref": "Art. 134.3 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado al menos tres meses antes de la expiración de los del año anterior."
+            },
+            {
+              "ref": "Art. 134.4 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Si la Ley de Presupuestos no se aprobara antes del primer día del ejercicio económico correspondiente, se considerarán automáticamente prorrogados los Presupuestos del ejercicio anterior hasta la aprobación de los nuevos."
+            }
+          ]
+        },
+        {
+          "text": "El artículo 134.2 CE recoge tres principios clásicos: anualidad (carácter anual), universalidad (incluyen la totalidad de los gastos e ingresos del sector público estatal) y consignación del importe de los beneficios fiscales que afecten a los tributos del Estado.",
+          "refs": [
+            {
+              "ref": "Art. 134.2 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Los Presupuestos Generales del Estado tendrán carácter anual, incluirán la totalidad de los gastos e ingresos del sector público estatal y en ellos se consignará el importe de los beneficios fiscales que afecten a los tributos del Estado."
+            }
+          ]
+        },
+        {
+          "text": "Una vez aprobados, el Gobierno puede presentar proyectos de ley que aumenten el gasto o disminuyan los ingresos del mismo ejercicio (art. 134.5 CE), pero toda proposición o enmienda parlamentaria que aumente créditos o disminuya ingresos requiere la conformidad del Gobierno para tramitarse (art. 134.6 CE). Además, la Ley de Presupuestos no puede crear tributos; solo modificarlos cuando una ley tributaria sustantiva lo prevea (art. 134.7 CE).",
+          "refs": [
+            {
+              "ref": "Art. 134.6 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Toda proposición o enmienda que suponga aumento de los créditos o disminución de los ingresos presupuestarios requerirá la conformidad del Gobierno para su tramitación."
+            },
+            {
+              "ref": "Art. 134.7 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "La Ley de Presupuestos no puede crear tributos. Podrá modificarlos cuando una ley tributaria sustantiva así lo prevea."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Estabilidad presupuestaria en la Constitución (art. 135 CE)",
+      "blocks": [
+        {
+          "text": "Tras la reforma constitucional de 2011, el artículo 135 CE obliga a todas las Administraciones Públicas a adecuar sus actuaciones al principio de estabilidad presupuestaria (art. 135.1). El Estado y las Comunidades Autónomas no pueden superar el déficit estructural que permita la Unión Europea, y una ley orgánica fija el máximo; a las Entidades Locales se les exige directamente equilibrio presupuestario (art. 135.2).",
+          "refs": [
+            {
+              "ref": "Art. 135.1 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria."
+            },
+            {
+              "ref": "Art. 135.2 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto. Las Entidades Locales deberán presentar equilibrio presupuestario."
+            }
+          ]
+        },
+        {
+          "text": "El Estado y las Comunidades Autónomas necesitan autorización por ley para emitir deuda pública o contraer crédito. Los créditos para pagar intereses y capital de la deuda se entienden siempre incluidos en el estado de gastos y su pago goza de prioridad absoluta (art. 135.3 CE). Los límites de déficit y deuda solo pueden superarse por catástrofes naturales, recesión económica o emergencia extraordinaria, apreciadas por la mayoría absoluta del Congreso (art. 135.4 CE).",
+          "refs": [
+            {
+              "ref": "Art. 135.3 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "El Estado y las Comunidades Autónomas habrán de estar autorizados por ley para emitir deuda pública o contraer crédito."
+            },
+            {
+              "ref": "Art. 135.3 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Los créditos para satisfacer los intereses y el capital de la deuda pública de las Administraciones se entenderán siempre incluidos en el estado de gastos de sus presupuestos y su pago gozará de prioridad absoluta."
+            },
+            {
+              "ref": "Art. 135.4 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "apreciadas por la mayoría absoluta de los miembros del Congreso de los Diputados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "La Ley Orgánica 2/2012: principios de estabilidad y sostenibilidad",
+      "blocks": [
+        {
+          "text": "La Ley Orgánica 2/2012, de Estabilidad Presupuestaria y Sostenibilidad Financiera (LOEPSF), desarrolla el artículo 135 CE y fija los principios rectores que vinculan a todos los poderes públicos (art. 1 LOEPSF). Según su artículo 3, la elaboración, aprobación y ejecución de los presupuestos se hace en un marco de estabilidad presupuestaria coherente con la normativa europea; para las Administraciones, estabilidad significa situación de equilibrio o superávit estructural.",
+          "refs": [
+            {
+              "ref": "Art. 3.1 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "se realizará en un marco de estabilidad presupuestaria, coherente con la normativa europea."
+            },
+            {
+              "ref": "Art. 3.2 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "Se entenderá por estabilidad presupuestaria de las Administraciones Públicas la situación de equilibrio o superávit estructural."
+            }
+          ]
+        },
+        {
+          "text": "La sostenibilidad financiera es la capacidad para financiar compromisos de gasto presentes y futuros dentro de los límites de déficit, deuda pública y morosidad de deuda comercial (art. 4.2 LOEPSF). Completan el cuadro los principios de plurianualidad (marco presupuestario a medio plazo compatible con la anualidad, art. 5), transparencia (art. 6), eficiencia en la asignación y utilización de los recursos (art. 7) y responsabilidad: la Administración que incumpla asume la parte que le sea imputable, y el Estado no responde de los compromisos de Comunidades Autónomas ni Corporaciones Locales (art. 8).",
+          "refs": [
+            {
+              "ref": "Art. 4.2 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "Se entenderá por sostenibilidad financiera la capacidad para financiar compromisos de gasto presentes y futuros dentro de los límites de déficit, deuda pública y morosidad de deuda comercial"
+            },
+            {
+              "ref": "Art. 5 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "se encuadrará en un marco presupuestario a medio plazo, compatible con el principio de anualidad por el que se rigen la aprobación y ejecución de los Presupuestos"
+            },
+            {
+              "ref": "Art. 8.2 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "El Estado no asumirá ni responderá de los compromisos de las Comunidades Autónomas, de las Corporaciones Locales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Límites de déficit, regla de gasto y deuda",
+      "blocks": [
+        {
+          "text": "Como regla general, ninguna Administración puede incurrir en déficit estructural, es decir, déficit ajustado del ciclo y neto de medidas excepcionales y temporales; solo por reformas estructurales cabe un 0,4 % del PIB en el conjunto de Administraciones (art. 11.2 LOEPSF). Las Corporaciones Locales y la Seguridad Social deben mantener equilibrio o superávit (art. 11.4 y 11.5). Las excepciones son catástrofes naturales, recesión económica grave o emergencias extraordinarias apreciadas por mayoría absoluta del Congreso, con plan de reequilibrio (art. 11.3).",
+          "refs": [
+            {
+              "ref": "Art. 11.2 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "Ninguna Administración Pública podrá incurrir en déficit estructural, definido como déficit ajustado del ciclo, neto de medidas excepcionales y temporales."
+            },
+            {
+              "ref": "Art. 11.4 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "Las Corporaciones Locales deberán mantener una posición de equilibrio o superávit presupuestario."
+            }
+          ]
+        },
+        {
+          "text": "La regla de gasto impide que el gasto computable de la Administración Central, Comunidades y Corporaciones Locales crezca por encima de la tasa de referencia de crecimiento del PIB a medio plazo, y los ingresos superiores a lo previsto se destinan íntegramente a reducir deuda (art. 12 LOEPSF). La deuda pública del conjunto de Administraciones no puede superar el 60 % del PIB, repartido en un 44 % para la Administración central, un 13 % para las Comunidades Autónomas y un 3 % para las Corporaciones Locales (art. 13.1). Cada Administración aprueba además un límite máximo de gasto no financiero, el llamado «techo de gasto» (art. 30.1).",
+          "refs": [
+            {
+              "ref": "Art. 12.1 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "La variación del gasto computable de la Administración Central, de las Comunidades Autónomas y de las Corporaciones Locales, no podrá superar la tasa de referencia de crecimiento del Producto Interior Bruto de medio plazo de la economía española."
+            },
+            {
+              "ref": "Art. 13.1 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "44 por ciento para la Administración central, 13 por ciento para el conjunto de Comunidades Autónomas y 3 por ciento para el conjunto de Corporaciones Locales."
+            },
+            {
+              "ref": "Art. 30.1 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "aprobarán, en sus respectivos ámbitos, un límite máximo de gasto no financiero, coherente con el objetivo de estabilidad presupuestaria y la regla de gasto, que marcará el techo de asignación de recursos de sus Presupuestos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Principios presupuestarios en la LGP: programación y gestión",
+      "blocks": [
+        {
+          "text": "La programación presupuestaria se rige por los principios de estabilidad presupuestaria, sostenibilidad financiera, plurianualidad, transparencia, eficiencia, responsabilidad y lealtad institucional (art. 26.1 LGP). Toda norma, acto, contrato o convenio que afecte al gasto debe valorar sus efectos y supeditarse a las disponibilidades presupuestarias (art. 26.2 LGP).",
+          "refs": [
+            {
+              "ref": "Art. 26.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "La programación presupuestaria se regirá por los principios de estabilidad presupuestaria, sostenibilidad financiera, plurianualidad, transparencia, eficiencia en la asignación y utilización de los recursos públicos, responsabilidad y lealtad institucional"
+            }
+          ]
+        },
+        {
+          "text": "En la gestión rigen: la anualidad dentro de un marco plurianual (art. 27.1); la especialidad cualitativa, porque los créditos se destinan exclusivamente a la finalidad para la que se autorizaron (art. 27.2); la no afectación, pues los recursos se destinan a satisfacer el conjunto de las obligaciones salvo que una ley los afecte a fines concretos (art. 27.3); y el presupuesto bruto, porque derechos y obligaciones se aplican por su importe íntegro, sin compensaciones (art. 27.4).",
+          "refs": [
+            {
+              "ref": "Art. 27.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "La gestión del sector público estatal está sometida al régimen de presupuesto anual aprobado por las Cortes Generales y enmarcado en los límites de un escenario plurianual."
+            },
+            {
+              "ref": "Art. 27.2 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "se destinarán exclusivamente a la finalidad específica para la que hayan sido autorizados por la Ley de Presupuestos Generales del Estado"
+            },
+            {
+              "ref": "Art. 27.3 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "se destinarán a satisfacer el conjunto de sus respectivas obligaciones, salvo que por ley se establezca su afectación a fines determinados."
+            },
+            {
+              "ref": "Art. 27.4 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los derechos liquidados y las obligaciones reconocidas se aplicarán a los presupuestos por su importe íntegro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "El presupuesto como instrumento de planificación: escenarios y programas plurianuales",
+      "blocks": [
+        {
+          "text": "El presupuesto anual se enmarca en escenarios presupuestarios plurianuales que programan la actividad del sector público estatal, definen los equilibrios básicos y fijan límites referidos a los tres ejercicios siguientes (art. 28.1 LGP). Se ajustan al objetivo de estabilidad, los confecciona el Ministerio de Hacienda y se integran por un escenario de ingresos y otro de gastos (art. 28.2 a 28.4).",
+          "refs": [
+            {
+              "ref": "Art. 28.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los escenarios presupuestarios plurianuales determinarán los límites, referidos a los tres ejercicios siguientes"
+            },
+            {
+              "ref": "Art. 28.3 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los escenarios presupuestarios plurianuales serán confeccionados por el Ministerio de Hacienda"
+            }
+          ]
+        },
+        {
+          "text": "Los escenarios se desarrollan en programas plurianuales ministeriales, también referidos a los tres ejercicios siguientes, en los que cada centro gestor fija objetivos, acciones y dotaciones; el programa de cada ministerio lo aprueba el Ministro (art. 29 LGP). Los programas deben incluir objetivos mensurables e indicadores de ejecución para evaluar eficacia, eficiencia, economía y calidad (art. 29.6). Así el presupuesto funciona como instrumento de planificación económica y de gestión por objetivos.",
+          "refs": [
+            {
+              "ref": "Art. 29.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "se desarrollarán en programas plurianuales, referidos a los tres ejercicios siguientes"
+            },
+            {
+              "ref": "Art. 29.3 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "El programa plurianual de cada ministerio contendrá los programas de todos los centros gestores que de él dependan y se aprobará por el Ministro."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Ámbito temporal, elaboración y remisión a las Cortes",
+      "blocks": [
+        {
+          "text": "El ejercicio presupuestario coincide con el año natural. A él se imputan los derechos liquidados durante el ejercicio, cualquiera que sea el periodo del que deriven, y las obligaciones reconocidas hasta fin de diciembre que correspondan a gastos realizados en el ejercicio (art. 34.1 LGP).",
+          "refs": [
+            {
+              "ref": "Art. 34.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "El ejercicio presupuestario coincidirá con el año natural, y a él se imputarán: a) Los derechos económicos liquidados durante el ejercicio, cualquiera que sea el período del que deriven."
+            }
+          ]
+        },
+        {
+          "text": "El procedimiento de elaboración lo fija una orden del Ministro de Hacienda, que dicta las directrices de distribución del gasto con apoyo de la Comisión de Políticas de Gasto; los ministerios remiten sus propuestas a Hacienda y el Ministro de Hacienda eleva el anteproyecto al Gobierno (art. 36 LGP). El proyecto se remite a las Cortes Generales antes del 1 de octubre del año anterior, acompañado, entre otros documentos, de las memorias de los programas, el informe de impacto de género y la memoria de beneficios fiscales (art. 37 LGP).",
+          "refs": [
+            {
+              "ref": "Art. 36.5 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Corresponderá al Ministro de Hacienda elevar al acuerdo del Gobierno el anteproyecto de la Ley de Presupuestos Generales del Estado."
+            },
+            {
+              "ref": "Art. 37.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "será remitido a las Cortes Generales antes del día 1 de octubre del año anterior al que se refiera."
+            },
+            {
+              "ref": "Art. 37.2 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "b) El informe de impacto de género."
+            }
+          ]
+        },
+        {
+          "text": "La prórroga automática de la LGP afecta a los presupuestos iniciales del ejercicio anterior y dura hasta la aprobación y publicación de los nuevos en el BOE; no alcanza a los créditos de programas que terminen en el ejercicio prorrogado (art. 38 LGP).",
+          "refs": [
+            {
+              "ref": "Art. 38.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "se considerarán automáticamente prorrogados los presupuestos iniciales del ejercicio anterior hasta la aprobación y publicación de los nuevos"
+            },
+            {
+              "ref": "Art. 38.2 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "La prórroga no afectará a los créditos para gastos correspondientes a programas o actuaciones que terminen en el ejercicio cuyos presupuestos se prorrogan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Estructura del presupuesto y carácter limitativo de los créditos",
+      "blocks": [
+        {
+          "text": "Los estados de gastos se estructuran con tres clasificaciones: orgánica (por secciones y servicios, según quién gasta), por programas (para qué se gasta, con objetivos) y económica (en qué se gasta, por capítulos que separan operaciones corrientes, de capital, financieras y el Fondo de Contingencia) (art. 40.1 LGP). Los capítulos se desglosan en artículos, conceptos y subconceptos. Los ingresos se clasifican de forma orgánica y económica (art. 41 LGP).",
+          "refs": [
+            {
+              "ref": "Art. 40.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "c) La clasificación económica, que agrupará los créditos por capítulos separando las operaciones corrientes, las de capital, las financieras y el Fondo de Contingencia de ejecución presupuestaria."
+            },
+            {
+              "ref": "Art. 40.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los capítulos se desglosarán en artículos y estos, a su vez, en conceptos que podrán dividirse en subconceptos."
+            }
+          ]
+        },
+        {
+          "text": "El crédito presupuestario es cada asignación individualizada de gasto puesta a disposición de los centros gestores (art. 35.1 LGP). Los créditos para gastos son limitativos: no pueden adquirirse compromisos ni obligaciones por encima del importe autorizado, y son nulos de pleno derecho los actos y disposiciones de rango inferior a ley que incumplan este límite (art. 46 LGP).",
+          "refs": [
+            {
+              "ref": "Art. 35.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Son créditos presupuestarios cada una de las asignaciones individualizadas de gasto"
+            },
+            {
+              "ref": "Art. 46 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los créditos para gastos son limitativos. No podrán adquirirse compromisos de gasto ni adquirirse obligaciones por cuantía superior al importe de los créditos autorizados en los estados de gastos, siendo nulos de pleno derecho los actos administrativos y las disposiciones generales con rango inferior a ley que incumplan esta limitación"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Gobierno elabora; Cortes examinan, enmiendan y aprueban.",
+          "refs": [
+            {
+              "ref": "Art. 134.1 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Corresponde al Gobierno la elaboración de los Presupuestos Generales del Estado"
+            }
+          ]
+        },
+        {
+          "text": "Plazos: tres meses antes de la expiración (CE) y antes del 1 de octubre (LGP).",
+          "refs": [
+            {
+              "ref": "Art. 134.3 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "al menos tres meses antes de la expiración de los del año anterior."
+            }
+          ]
+        },
+        {
+          "text": "Sin presupuesto aprobado el 1 de enero: prórroga automática.",
+          "refs": [
+            {
+              "ref": "Art. 134.4 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "se considerarán automáticamente prorrogados los Presupuestos del ejercicio anterior"
+            }
+          ]
+        },
+        {
+          "text": "Entidades Locales: equilibrio presupuestario (art. 135.2 CE).",
+          "refs": [
+            {
+              "ref": "Art. 135.2 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "Las Entidades Locales deberán presentar equilibrio presupuestario."
+            }
+          ]
+        },
+        {
+          "text": "Deuda o crédito del Estado y las Comunidades: siempre autorizados por ley.",
+          "refs": [
+            {
+              "ref": "Art. 135.3 CE",
+              "law": "CE",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+              "quote": "habrán de estar autorizados por ley para emitir deuda pública o contraer crédito."
+            }
+          ]
+        },
+        {
+          "text": "Escenarios y programas plurianuales: tres ejercicios siguientes.",
+          "refs": [
+            {
+              "ref": "Art. 29.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "referidos a los tres ejercicios siguientes"
+            }
+          ]
+        },
+        {
+          "text": "Ejercicio presupuestario = año natural.",
+          "refs": [
+            {
+              "ref": "Art. 34.1 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "El ejercicio presupuestario coincidirá con el año natural"
+            }
+          ]
+        },
+        {
+          "text": "Créditos limitativos; excederlos produce nulidad de pleno derecho.",
+          "refs": [
+            {
+              "ref": "Art. 46 LGP",
+              "law": "Ley 47/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614",
+              "quote": "Los créditos para gastos son limitativos."
+            }
+          ]
+        },
+        {
+          "text": "Límite de deuda: 60 % del PIB (44 % Estado, 13 % Comunidades, 3 % Corporaciones Locales).",
+          "refs": [
+            {
+              "ref": "Art. 13.1 LOEPSF",
+              "law": "LO 2/2012",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730",
+              "quote": "no podrá superar el 60 por ciento del Producto Interior Bruto nacional expresado en términos nominales"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: Ley 47/2003 (https://www.boe.es/buscar/act.php?id=BOE-A-2003-21614)"
 }
