@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gcexamen-2026-rarm-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 (11/07/2026) · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2026",
+    "locale": "es",
+    "category": "gcexamen_2026",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 137/1993, de 29 de enero, Reglamento de Armas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos del 11/07/2026 (Resolución 160/38243/2026, BOE-A-2026-9982; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2026 (n.º 92) · Art. 13.3 Reglamento de Armas",
+      "stem": "Según el Reglamento de Armas, ¿cuál de los siguientes supuestos NO se considera modificación sustancial de una fábrica de armas?",
+      "options": [
+        "La sustitución de la fabricación de unas armas por otras.",
+        "La extensión de la fabricación a otros tipos de armas.",
+        "La ampliación de sus instalaciones cuando no suponga un aumento de su producción.",
+        "Que la producción se extienda a armas de clases distintas."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 13.3 del Reglamento de Armas solo considera modificación sustancial la ampliación de instalaciones que suponga un aumento de la producción.",
+      "excerpt": "3. Se estimará como modificación sustancial de una fábrica la sustitución de la fabricación de unas armas por otras ; la extensión de la fabricación a otros tipos o clases de armas; y la ampliación de sus instalaciones siempre que suponga un aumento de su producción.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Réplica 2026 (n.º 93) · Art. 90 Reglamento de Armas",
+      "stem": "Respecto de la revista de armas en el Reglamento de Armas, señale la afirmación CORRECTA:",
+      "options": [
+        "Los funcionarios afectos al servicio exterior pasan revista durante el mes de mayo ante el Jefe de Misión.",
+        "Las armas que precisen guía de pertenencia pasan revista cada tres años.",
+        "Es inexcusable presentar el arma personalmente, sin que quepa hacerlo por medio de tercero.",
+        "Los poseedores de licencia C pasan revista durante el mes de mayo ante la Intervención de Armas correspondiente."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Art. 90: revista cada cinco años al renovar la licencia (90.1); servicio exterior en abril ante el Jefe de Misión (90.2.b); licencia C en mayo (90.2.c); el arma puede presentarse por tercero autorizado por escrito (90.4).",
+      "excerpt": "c) Los poseedores de licencia C pasarán revista durante el mes de mayo ante la Intervención de Armas correspondiente.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

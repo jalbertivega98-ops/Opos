@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-rae_dle-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Diccionario de la lengua española (RAE-ASALE), 23.ª ed., versión electrónica: entradas citadas",
+      "url": "https://dle.rae.es/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 66, tema P29) · DLE, marginación",
+      "stem": "Según el Diccionario de la lengua española, la acción y efecto de marginar a una persona o a un conjunto de personas de un asunto o actividad o de un medio social es la:",
+      "options": [
+        "Marginación.",
+        "Aculturación.",
+        "Asimilación."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El DLE define así la marginación; entre sus sinónimos figuran discriminación, segregación y exclusión.",
+      "excerpt": "Acción y efecto de marginar a una persona o a un conjunto de personas de un asunto o actividad o de un medio social.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 97, tema P44) · DLE, seguridad activa",
+      "stem": "Según el Diccionario de la lengua española, la seguridad que proporciona el conjunto de mecanismos, características o prestaciones de un vehículo cuya función es evitar o prevenir accidentes es la:",
+      "options": [
+        "Seguridad pasiva.",
+        "Seguridad vial.",
+        "Seguridad activa."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El DLE distingue la seguridad activa (evitar o prevenir accidentes, p. ej. los frenos) de la pasiva (proteger a los ocupantes en caso de accidente, p. ej. la bolsa de aire).",
+      "excerpt": "seguridad activa1. f. Transportes seguridad (➝ 1a) que proporciona un conjunto de mecanismos, características o prestaciones de un vehículo cuya función es evitar o prevenir accidentes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

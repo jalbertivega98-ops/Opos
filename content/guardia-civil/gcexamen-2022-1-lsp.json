@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-1-lsp-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 1 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-1",
+    "locale": "es",
+    "category": "gcexamen_2022_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 5/2014, de 4 de abril, de Seguridad Privada (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 1 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-1 (n.º 72) · Art. 26.2 Ley 5/2014",
+      "stem": "Según el artículo 26 de la Ley 5/2014, de Seguridad Privada, señale la opción CORRECTA.",
+      "options": [
+        "Para habilitarse como escolta privado es necesario haberlo hecho previamente como guarda rural.",
+        "Para habilitarse como vigilante de explosivos es necesario haberlo hecho previamente como vigilante de seguridad.",
+        "Para habilitarse como guarda de caza es necesario haberlo hecho previamente como vigilante de seguridad.",
+        "Para habilitarse como guarda rural es necesario haberlo hecho previamente como guardapesca marítimo."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 26.2: vigilante de explosivos exige la habilitación previa de vigilante de seguridad; guarda de caza y guardapesca marítimo, la de guarda rural.",
+      "excerpt": "Para habilitarse como vigilante de explosivos será necesario haber obtenido previamente la habilitación como vigilante de seguridad. […] Para habilitarse como guarda de caza o guardapesca marítimo será necesario haberlo hecho previamente como guarda rural.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Réplica 2022-1 (n.º 73) · Art. 34 Ley 5/2014",
+      "stem": "¿A qué personal de seguridad privada corresponde la vigilancia y protección de los establecimientos de acuicultura y de las zonas marítimas con fines pesqueros?",
+      "options": [
+        "A los guardas de caza.",
+        "A los guardapescas marítimos.",
+        "A los vigilantes de explosivos.",
+        "A los escoltas privados."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 34 atribuye a los guardas de caza las fincas de caza y la pesca fluvial, y a los guardapescas marítimos la acuicultura y las zonas marítimas pesqueras.",
+      "excerpt": "Corresponde a los guardapescas marítimos desempeñar las funciones previstas en el apartado 1 para los guardas rurales y, además, las de vigilancia y protección de los establecimientos de acuicultura y zonas marítimas con fines pesqueros.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

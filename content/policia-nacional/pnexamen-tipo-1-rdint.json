@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-rdint-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 207/2024, de 27 de febrero, estructura orgánica básica del Ministerio del Interior (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3793",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 15, tema P07) · Art. 1.4 RD 207/2024",
+      "stem": "Según el Real Decreto 207/2024, la Oficina de Comunicación del Ministerio del Interior depende directamente de la persona titular del Ministerio y tiene nivel orgánico de:",
+      "options": [
+        "Dirección general.",
+        "Secretaría general.",
+        "Subdirección general."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 1.4 RD 207/2024 la configura con nivel de subdirección general, responsable de la comunicación oficial del Departamento.",
+      "excerpt": "4. Depende directamente de la persona titular del Ministerio la Oficina de Comunicación, con nivel orgánico de subdirección general",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 16, tema P07) · Art. 2.1.i) RD 207/2024",
+      "stem": "Según el Real Decreto 207/2024, ¿a qué órgano corresponde la dirección y coordinación de las relaciones del Ministerio del Interior con el Comité Europeo para la prevención de la tortura?",
+      "options": [
+        "A la Secretaría General de Instituciones Penitenciarias.",
+        "A la Secretaría de Estado de Seguridad.",
+        "A la Subsecretaría del Interior."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 2.1.i) RD 207/2024 incluye esta función entre las de la Secretaría de Estado de Seguridad.",
+      "excerpt": "i) La dirección y coordinación de las relaciones del Departamento con el Comité Europeo para la prevención de la tortura y de las penas y tratos inhumanos o degradantes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 17, tema P08) · Art. 3.1.h) RD 207/2024",
+      "stem": "Según el Real Decreto 207/2024, ¿a quién corresponde vigilar e investigar las conductas de los funcionarios de la Policía Nacional contrarias a la ética profesional?",
+      "options": [
+        "A la persona titular de la Subsecretaría del Interior.",
+        "A la persona titular de la Dirección General de Coordinación y Estudios.",
+        "A la persona titular de la Dirección General de la Policía."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 3.1.h) RD 207/2024 atribuye esta función a la Dirección General de la Policía, que también aplica el régimen disciplinario (letra i).",
+      "excerpt": "h) Vigilar e investigar las conductas de los funcionarios contrarias a la ética profesional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 18, tema P08) · Art. 3.2.a) RD 207/2024",
+      "stem": "Según el Real Decreto 207/2024, la Dirección Adjunta Operativa de la Policía Nacional tiene nivel orgánico de:",
+      "options": [
+        "Subdirección general.",
+        "Dirección general.",
+        "Subsecretaría."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 3.2.a) RD 207/2024 crea la Dirección Adjunta Operativa, dependiente del Director General, con nivel de subdirección general.",
+      "excerpt": "a) La Dirección Adjunta Operativa, con nivel orgánico de subdirección general",
+      "excerpt_status": "completo"
+    }
+  ]
+}

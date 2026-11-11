@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-repi-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 773/1997, de 30 de mayo, sobre disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-12735",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 99, tema P45) · Art. 7.1 RD 773/1997, equipos de protección individual",
+      "stem": "Según el RD 773/1997, la utilización, el mantenimiento y la reparación de los equipos de protección individual deberán efectuarse de acuerdo con:",
+      "options": [
+        "El criterio de cada trabajador.",
+        "Lo que acuerden los delegados de prevención en cada caso.",
+        "Las instrucciones del fabricante."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 7.1 del RD 773/1997 dispone que la utilización, almacenamiento, mantenimiento, limpieza, desinfección y reparación de los EPI se hagan conforme a las instrucciones del fabricante.",
+      "excerpt": "1. La utilización, el almacenamiento, el mantenimiento, la limpieza, la desinfección cuando proceda, y la reparación de los equipos de protección individual deberán efectuarse de acuerdo con las instrucciones del fabricante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 100, tema P45) · Art. 7.2 RD 773/1997, equipos de protección individual",
+      "stem": "Según el RD 773/1997, el tiempo durante el cual haya de llevarse un equipo de protección individual se determinará, entre otros factores, en función de:",
+      "options": [
+        "La antigüedad del trabajador en la empresa.",
+        "El coste de adquisición del equipo.",
+        "La gravedad del riesgo."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 7.2 del RD 773/1997 fija las condiciones de uso de los EPI, en particular el tiempo de uso, según la gravedad del riesgo, el tiempo o frecuencia de exposición, las condiciones del puesto, las prestaciones del equipo y los riesgos adicionales de su utilización.",
+      "excerpt": "Las condiciones en que un equipo de protección deba ser utilizado, en particular, en lo que se refiere al tiempo durante el cual haya de llevarse, se determinarán en función de: […] a) La gravedad del riesgo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

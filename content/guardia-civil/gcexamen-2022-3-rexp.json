@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-3-rexp-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 3 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-3",
+    "locale": "es",
+    "category": "gcexamen_2022_3",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 130/2017, de 24 de febrero, Reglamento de Explosivos (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-2313",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 3 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-3 (n.º 99) · Reglamento de Explosivos (grupos de compatibilidad)",
+      "stem": "Sobre los grupos de compatibilidad del Reglamento de Explosivos, señale la respuesta INCORRECTA:",
+      "options": [
+        "El grupo H corresponde al objeto que contiene una materia explosiva y además un agente químico tóxico.",
+        "El grupo H corresponde al objeto que contiene una materia explosiva y además fósforo blanco.",
+        "El grupo J corresponde al objeto que contiene una materia explosiva y además un líquido o gel inflamables.",
+        "El grupo K corresponde al objeto que contiene una materia explosiva y además un agente químico tóxico."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El agente químico tóxico define el grupo K; el grupo H es el de los objetos con fósforo blanco.",
+      "excerpt": "H. Objeto que contenga una materia explosiva y además fósforo blanco. J. Objeto que contenga una materia explosiva y además un líquido o gel inflamables. K. Objeto que contenga una materia explosiva y además un agente químico tóxico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Réplica 2022-3 (n.º 100) · Reglamento de Explosivos, ITC 13 (instalaciones eléctricas)",
+      "stem": "Según la ITC 13 del Reglamento de Explosivos, el equipamiento eléctrico que debe seguir funcionando para prevenir un peligro adicional en zonas con presencia de explosivos:",
+      "options": [
+        "Debe conectarse al mismo circuito que el resto de la instalación para no interrumpirse.",
+        "Debe pertenecer a un circuito separado del resto de la instalación.",
+        "Debe desconectarse junto con el resto de la instalación en caso de peligro.",
+        "Puede combinarse con cualquier otro circuito si dispone de toma de tierra."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "La ITC exige uno o varios medios de desconexión del suministro eléctrico a las áreas clasificadas, salvo para el equipamiento que debe seguir funcionando, que irá en un circuito separado.",
+      "excerpt": "El equipamiento eléctrico que debe continuar funcionando para prevenir un peligro adicional debe pertenecer a un circuito separado del resto de la instalación y no debe combinarse",
+      "excerpt_status": "completo"
+    }
+  ]
+}

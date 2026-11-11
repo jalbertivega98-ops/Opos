@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lopsc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 32, tema P14) · Art. 7.2 LO 4/2015",
+      "stem": "Según la Ley Orgánica 4/2015, los miembros de las Fuerzas y Cuerpos de Seguridad podrán recabar de los particulares su ayuda y colaboración:",
+      "options": [
+        "Solo con autorización previa de la autoridad judicial.",
+        "Únicamente durante la vigencia del estado de alarma.",
+        "Siempre que ello no implique riesgo personal para los mismos."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 7.2 LOPSC lo permite especialmente en grave calamidad pública o catástrofe extraordinaria, sin riesgo personal para el particular, que será indemnizado si sufre daños.",
+      "excerpt": "siempre que ello no implique riesgo personal para los mismos.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 33, tema P14) · Art. 11.1 LO 4/2015",
+      "stem": "Según la Ley Orgánica 4/2015, el pasaporte español acredita, salvo prueba en contrario:",
+      "options": [
+        "La identidad y nacionalidad de los ciudadanos españoles fuera de España y, dentro del territorio nacional, las de los españoles no residentes.",
+        "La identidad de los ciudadanos españoles en todo caso y a todos los efectos, dentro y fuera de España.",
+        "Únicamente la nacionalidad de los españoles residentes en el extranjero."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 11.1 LOPSC define así el pasaporte; el único documento con valor suficiente por sí solo para acreditar la identidad a todos los efectos es el DNI (art. 8.1).",
+      "excerpt": "1. El pasaporte español es un documento público, personal, individual e intransferible que, salvo prueba en contrario, acredita la identidad y nacionalidad de los ciudadanos españoles fuera de España, y dentro del territorio nacional, las mismas circunstancias de los españoles no residentes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 34, tema P14) · Art. 13.2 LO 4/2015",
+      "stem": "Según la Ley Orgánica 4/2015, los extranjeros no podrán ser privados de su documentación de origen, salvo:",
+      "options": [
+        "En el curso de investigaciones judiciales de carácter penal.",
+        "Cuando se encuentren en situación irregular en España.",
+        "Cuando lo acuerde un agente de la autoridad por razones de seguridad ciudadana."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 13.2 LOPSC solo permite privar al extranjero de su documentación de origen en investigaciones judiciales penales.",
+      "excerpt": "2. Los extranjeros no podrán ser privados de su documentación de origen, salvo en el curso de investigaciones judiciales de carácter penal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

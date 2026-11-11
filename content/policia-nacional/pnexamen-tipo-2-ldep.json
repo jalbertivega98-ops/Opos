@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-ldep-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 54, tema P23) · Art. 5.1.c) Ley 39/2006",
+      "stem": "Según la Ley 39/2006, de dependencia, para ser titular de los derechos que establece, con carácter general, es requisito residir en territorio español y haberlo hecho durante:",
+      "options": [
+        "Cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud.",
+        "Tres años, de los cuales uno deberá ser inmediatamente anterior a la solicitud.",
+        "Diez años, de los cuales cinco deberán ser inmediatamente anteriores a la solicitud."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 5.1.c) de la Ley 39/2006 exige cinco años de residencia, dos de ellos inmediatamente anteriores a la solicitud; para los menores de cinco años, el periodo se exige a quien ejerza su guarda y custodia.",
+      "excerpt": "c) Residir en territorio español y haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

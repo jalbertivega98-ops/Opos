@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lopsc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 32, tema P14) · Art. 35.4 LO 4/2015",
+      "stem": "Según la Ley Orgánica 4/2015, la proyección de haces de luz sobre los pilotos o conductores de medios de transporte que pueda deslumbrarles y provocar accidentes es una infracción:",
+      "options": [
+        "Grave.",
+        "Leve.",
+        "Muy grave."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 35.4 LO 4/2015 la tipifica como muy grave. En cambio, proyectar haces de luz sobre miembros de las FCS para dificultar sus funciones es leve (art. 37.6).",
+      "excerpt": "4. La proyección de haces de luz, mediante cualquier tipo de dispositivo, sobre los pilotos o conductores de medios de transporte que puedan deslumbrarles o distraer su atención y provocar accidentes.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 33, tema P14) · Art. 37.11 LO 4/2015",
+      "stem": "Según la Ley Orgánica 4/2015, se considera negligencia en la custodia y conservación de la documentación personal, constitutiva de infracción leve:",
+      "options": [
+        "La tercera y posteriores pérdidas o extravíos en el plazo de un año.",
+        "La segunda pérdida o extravío en el plazo de seis meses.",
+        "Cualquier pérdida no denunciada en el plazo de cuarenta y ocho horas."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 37.11 LO 4/2015 considera negligencia, y por tanto infracción leve, la tercera y posteriores pérdidas o extravíos de la documentación en el plazo de un año.",
+      "excerpt": "11. La negligencia en la custodia y conservación de la documentación personal legalmente exigida, considerándose como tal la tercera y posteriores pérdidas o extravíos en el plazo de un año.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 34, tema P14) · Art. 43.1 LO 4/2015",
+      "stem": "Según la Ley Orgánica 4/2015, el Registro Central de Infracciones contra la Seguridad Ciudadana se crea en el Ministerio del Interior a efectos exclusivamente de:",
+      "options": [
+        "Expedir certificados de buena conducta.",
+        "Apreciar la reincidencia en la comisión de infracciones tipificadas en la ley.",
+        "Elaborar la Estadística Nacional de Criminalidad."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Según el art. 43.1 LO 4/2015, el Registro Central de Infracciones contra la Seguridad Ciudadana sirve exclusivamente para apreciar la reincidencia; las comunidades autónomas con policía propia pueden crear sus propios registros.",
+      "excerpt": "1. A efectos exclusivamente de apreciar la reincidencia en la comisión de infracciones tipificadas en esta Ley, se crea en el Ministerio del Interior un Registro Central de Infracciones contra la Seguridad Ciudadana.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

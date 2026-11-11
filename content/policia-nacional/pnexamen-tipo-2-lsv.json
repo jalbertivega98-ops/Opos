@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lsv-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto Legislativo 6/2015, de 30 de octubre, texto refundido de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 96, tema P43) · Art. 27 RDLeg 6/2015, Ley sobre Tráfico",
+      "stem": "Según la Ley sobre Tráfico, tienen preferencia de paso sobre los demás vehículos, además de los de servicio de urgencia en servicio de tal carácter:",
+      "options": [
+        "Los vehículos de transporte escolar.",
+        "Los autobuses de transporte público urbano.",
+        "Los vehículos que acudan a realizar un servicio de auxilio en carretera."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 27 de la Ley sobre Tráfico da preferencia a los vehículos de servicio de urgencia en servicio, a los equipos de mantenimiento de la vía y a los vehículos que acudan a un servicio de auxilio en carretera.",
+      "excerpt": "Tienen preferencia de paso sobre los demás vehículos y otros usuarios de la vía los vehículos de servicio de urgencia, cuando se hallen en servicio de tal carácter, así como los equipos de mantenimiento de las instalaciones y de la infraestructura de la vía y los vehículos que acudan a realizar un servicio de auxilio en carretera.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "set": "gcexamen-2026-oscgc-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2026 (11/07/2026) · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2026",
+    "locale": "es",
+    "category": "gcexamen_2026",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden PRE/422/2013, de 15 de marzo, estructura orgánica de los Servicios Centrales de la Dirección General de la Guardia Civil (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2906",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos del 11/07/2026 (Resolución 160/38243/2026, BOE-A-2026-9982; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2026 (n.º 72) · Art. 11.1 Orden PRE/422/2013",
+      "stem": "En los Servicios Centrales de la Dirección General de la Guardia Civil, el órgano al que corresponden el resguardo fiscal del Estado y la custodia y vigilancia de costas, fronteras, puertos, aeropuertos y mar territorial, con el control de la inmigración irregular en ese ámbito, es:",
+      "options": [
+        "La Jefatura Fiscal y de Fronteras.",
+        "La Jefatura de Información.",
+        "La Jefatura de Unidades Especiales y de Reserva.",
+        "La Jefatura de Policía Judicial."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 11.1 de la Orden PRE/422/2013 asigna estas funciones a la Jefatura Fiscal y de Fronteras, que depende del Mando de Operaciones.",
+      "excerpt": "1. A la Jefatura Fiscal y de Fronteras, al mando de un Oficial General de la Guardia Civil en situación de servicio activo, le corresponde organizar y gestionar el resguardo fiscal del Estado; […] así como la custodia y vigilancia de costas, fronteras, puertos, aeropuertos y mar territorial y, en este ámbito, el control de la inmigración irregular.",
+      "excerpt_status": "completo",
+      "review_note": "La plantilla oficial (B) coincide con este texto, pero el cuestionario cita una «Jefatura de Policía Marítima» que no aparece en la Orden PRE/422/2013 de la carpeta (consolidada a 12/06/2025). Comprobar si una orden posterior ha reorganizado los Servicios Centrales."
+    },
+    {
+      "ref": "Réplica 2026 (n.º 73) · Arts. 5.3 y 24.3 Orden PRE/422/2013",
+      "stem": "Según la Orden PRE/422/2013, ¿cuál de los siguientes órganos NO depende directamente de la Dirección Adjunta Operativa de la Guardia Civil?",
+      "options": [
+        "La Secretaría de Cooperación Internacional.",
+        "La Intervención Central de Armas y Explosivos.",
+        "La Jefatura de Asuntos Económicos.",
+        "El Servicio de Asuntos Internos."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "De la Dirección Adjunta Operativa dependen el Mando de Operaciones, la Secretaría de Cooperación Internacional, la Intervención Central de Armas y Explosivos, el Servicio de Asuntos Internos, la Unidad Especial de Intervención y la Unidad de Coordinación de Ciberseguridad; la Jefatura de Asuntos Económicos depende del Subdirector General de Apoyo.",
+      "excerpt": "3. De la Dirección Adjunta Operativa dependen directamente: a) El Mando de Operaciones. b) La Secretaría de Cooperación Internacional. c) La Intervención Central de Armas y Explosivos. d) El Servicio de Asuntos Internos. […] 3. Del Subdirector general de Apoyo dependen: a) Jefatura de los Servicios de Apoyo. b) Jefatura de Servicios Técnicos. c) Jefatura de Asuntos Económicos.",
+      "excerpt_status": "completo",
+      "review_note": "La oficial (plantilla A) da por supuesto que la Jefatura de Servicios Técnicos, la de Información y una «Jefatura de Cooperación Internacional» dependen de la Dirección Adjunta Operativa y que existe una «Jefatura de Transformación Digital y Ciberseguridad». En la Orden PRE/422/2013 de la carpeta (consolidada a 12/06/2025) Servicios Técnicos depende de la Subdirección General de Apoyo, Información del Mando de Operaciones y no existe esa Jefatura de Transformación Digital. La estructura parece haber cambiado por una orden posterior que no está en leyes/: revisar y, si procede, actualizar OSCGC."
+    }
+  ]
+}

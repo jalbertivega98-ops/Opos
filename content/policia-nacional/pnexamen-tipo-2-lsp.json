@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lsp-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 5/2014, de 4 de abril, de Seguridad Privada (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 30, tema P13) · Art. 48.3 Ley 5/2014",
+      "stem": "Según la Ley 5/2014, de Seguridad Privada, los detectives privados:",
+      "options": [
+        "En ningún caso podrán investigar la vida íntima de las personas que transcurra en sus domicilios u otros lugares reservados.",
+        "Podrán investigar la vida íntima en domicilios cuando lo encargue un tercero legitimado.",
+        "Podrán investigar en domicilios con autorización de la Delegación del Gobierno."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "El art. 48.3 de la Ley 5/2014 prohíbe en todo caso investigar la vida íntima que transcurra en domicilios o lugares reservados y utilizar medios que atenten contra el honor, la intimidad, la propia imagen, el secreto de las comunicaciones o la protección de datos.",
+      "excerpt": "3. En ningún caso se podrá investigar la vida íntima de las personas que transcurra en sus domicilios u otros lugares reservados",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 31, tema P13) · Art. 41.3 Ley 5/2014",
+      "stem": "Según la Ley 5/2014, cuando así se decida por el órgano competente y cumpliendo estrictamente las órdenes de las Fuerzas y Cuerpos de Seguridad, podrá prestarse por seguridad privada:",
+      "options": [
+        "La custodia de detenidos en los calabozos de las comisarías.",
+        "La vigilancia perimetral de centros penitenciarios.",
+        "El control de pasaportes en los puestos fronterizos."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 41.3 de la Ley 5/2014 permite, por decisión del órgano competente y bajo las órdenes de las FCS, la vigilancia perimetral de centros penitenciarios y de centros de internamiento de extranjeros y la vigilancia de otros edificios de organismos públicos.",
+      "excerpt": "a) La vigilancia perimetral de centros penitenciarios.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lorppn-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-8468",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 18, tema P08) · Art. 65.2 LO 9/2015",
+      "stem": "Según la Ley Orgánica 9/2015, la suspensión provisional por expediente disciplinario, por hechos que no son objeto de procedimiento penal, no podrá exceder, salvo paralización imputable al interesado, de:",
+      "options": [
+        "Un mes en caso de faltas graves y tres meses en caso de faltas muy graves.",
+        "Tres meses en caso de faltas graves y seis meses en caso de faltas muy graves.",
+        "Seis meses en caso de faltas graves y un año en caso de faltas muy graves."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 65.2 LO 9/2015 limita la suspensión provisional a tres meses (faltas graves) y seis meses (faltas muy graves), salvo paralización del procedimiento imputable al interesado.",
+      "excerpt": "no podrá exceder de tres meses en caso de faltas graves, y de seis meses, en caso de faltas muy graves, salvo paralización del procedimiento imputable al interesado.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 19, tema P08) · Art. 67.c) LO 9/2015",
+      "stem": "Según la Ley Orgánica 9/2015, los funcionarios de la Policía Nacional podrán pasar a segunda actividad por petición propia tras haber cumplido:",
+      "options": [
+        "Veinticinco años efectivos en las situaciones de servicio activo, servicios especiales o excedencia forzosa.",
+        "Veinte años efectivos en cualquier situación administrativa.",
+        "Treinta años de servicios, siempre que tengan cincuenta y cinco años de edad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 67 LO 9/2015 prevé tres causas de segunda actividad: insuficiencia de aptitudes psicofísicas, petición propia al cumplir las edades del art. 69 y petición propia tras veinticinco años efectivos en servicio activo, servicios especiales o excedencia forzosa.",
+      "excerpt": "c) Por petición propia, tras haber cumplido veinticinco años efectivos en las situaciones de servicio activo, servicios especiales o excedencia forzosa en la Policía Nacional",
+      "excerpt_status": "completo"
+    }
+  ]
+}

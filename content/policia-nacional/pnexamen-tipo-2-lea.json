@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lea-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 21/2013, de 9 de diciembre, de evaluación ambiental (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12913",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 78, tema P35) · Art. 5.1.e) Ley 21/2013",
+      "stem": "Según la Ley 21/2013, de evaluación ambiental, el órgano de la Administración pública que formula las declaraciones de impacto ambiental es:",
+      "options": [
+        "El órgano sustantivo.",
+        "El órgano ambiental.",
+        "El promotor."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 5.1.e) de la Ley 21/2013 define el órgano ambiental como el que elabora el documento de alcance, analiza técnicamente los expedientes y formula las declaraciones e informes ambientales.",
+      "excerpt": "e) “Órgano ambiental”: órgano de la Administración pública que elabora, en su caso, el documento de alcance, que realiza el análisis técnico de los expedientes de evaluación ambiental y formula las declaraciones ambientales estratégicas, los informes ambientales estratégicos, las declaraciones de impacto ambiental, y los informes de impacto ambiental.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 79, tema P35) · Art. 5.1.k) Ley 21/2013",
+      "stem": "Según la Ley 21/2013, las medidas excepcionales que se aplican ante impactos residuales se denominan:",
+      "options": [
+        "Medidas preventivas.",
+        "Medidas compensatorias.",
+        "Medidas correctoras."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 5.1.k) de la Ley 21/2013 define las medidas compensatorias como medidas excepcionales que se aplican ante impactos residuales.",
+      "excerpt": "k) “Medidas compensatorias”: medidas excepcionales que se aplican ante impactos residuales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

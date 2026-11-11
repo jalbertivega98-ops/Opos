@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lasilo-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 28, tema P12) · Art. 48.1 Ley 12/2009",
+      "stem": "Según la Ley 12/2009, los menores no acompañados solicitantes de protección internacional serán remitidos a los servicios competentes en materia de protección de menores, y el hecho se pondrá en conocimiento:",
+      "options": [
+        "Del Juez de Menores.",
+        "Del Defensor del Pueblo.",
+        "Del Ministerio Fiscal."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 48.1 de la Ley 12/2009 ordena remitir a los menores no acompañados a los servicios de protección de menores y comunicarlo al Ministerio Fiscal.",
+      "excerpt": "1. Los menores no acompañados solicitantes de protección internacional serán remitidos a los servicios competentes en materia de protección de menores y el hecho se pondrá en conocimiento del Ministerio Fiscal.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 29, tema P12) · Art. 30.1 Ley 12/2009",
+      "stem": "Según la Ley 12/2009, se proporcionarán a las personas solicitantes de protección internacional los servicios sociales y de acogida necesarios para asegurar sus necesidades básicas:",
+      "options": [
+        "En todo caso, con independencia de sus recursos.",
+        "Siempre que carezcan de recursos económicos.",
+        "Solo durante el primer mes desde la presentación de la solicitud."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 30.1 de la Ley 12/2009 condiciona esos servicios a que el solicitante carezca de recursos económicos; si se comprueba que dispone de medios suficientes, se reclama el reembolso (art. 30.3).",
+      "excerpt": "1. Se proporcionará a las personas solicitantes de protección internacional, siempre que carezcan de recursos económicos, los servicios sociales y de acogida necesarios con la finalidad de asegurar la satisfacción de sus necesidades básicas en condiciones de dignidad",
+      "excerpt_status": "completo"
+    }
+  ]
+}

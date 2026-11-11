@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lsp-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 5/2014, de 4 de abril, de Seguridad Privada (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 30, tema P13) · Art. 4.c) Ley 5/2014",
+      "stem": "Según la Ley 5/2014, de Seguridad Privada, uno de los fines de la seguridad privada es:",
+      "options": [
+        "Sustituir a las Fuerzas y Cuerpos de Seguridad en la vigilancia de las vías públicas.",
+        "Mantener el orden público en reuniones y manifestaciones.",
+        "Complementar el monopolio de la seguridad que corresponde al Estado."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 4.c) LSP la concibe como complemento del monopolio estatal de la seguridad, integrando sus medios como recurso externo de la seguridad pública.",
+      "excerpt": "c) Complementar el monopolio de la seguridad que corresponde al Estado, integrando funcionalmente sus medios y capacidades como un recurso externo de la seguridad pública.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 31, tema P13) · Art. 8.4.c) Ley 5/2014",
+      "stem": "Según la Ley 5/2014, las empresas, despachos y personal de seguridad privada tienen prohibido comunicar a terceros la información que conozcan sobre sus clientes, salvo:",
+      "options": [
+        "A otras empresas de seguridad privada que presten servicio al mismo cliente.",
+        "A las autoridades judiciales y policiales para el ejercicio de sus respectivas funciones.",
+        "A cualquier Administración Pública que lo solicite por escrito."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 8.4.c) LSP solo exceptúa de la prohibición a las autoridades judiciales y policiales.",
+      "excerpt": "c) Tendrán prohibido comunicar a terceros, salvo a las autoridades judiciales y policiales para el ejercicio de sus respectivas funciones, cualquier información que conozcan en el desarrollo de sus servicios y funciones sobre sus clientes",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 75, tema P33) · Art. 2.8 Ley 5/2014",
+      "stem": "Según la Ley 5/2014, de Seguridad Privada, el personal de seguridad privada está formado por:",
+      "options": [
+        "Las personas físicas que, habiendo obtenido la correspondiente habilitación, desarrollan funciones de seguridad privada.",
+        "Las empresas autorizadas o sometidas a declaración responsable para prestar servicios de seguridad privada.",
+        "Los profesores de centros de formación, ingenieros y técnicos que desarrollan las tareas que les asigna la ley."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 2.8 LSP define al personal de seguridad privada por la habilitación; las empresas (2.7) y el personal acreditado (2.9) son conceptos distintos.",
+      "excerpt": "8. Personal de seguridad privada: las personas físicas que, habiendo obtenido la correspondiente habilitación, desarrollan funciones de seguridad privada.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-dgt_seguridad-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Dirección General de Tráfico · Muévete con seguridad (ADAS, clasificación de seguridad de vehículos, cinturón, moto, seguridad vial laboral, fatiga, distracciones, conducción preventiva, frenado, coche, velocidad)",
+      "url": "https://www.dgt.es/muevete-con-seguridad/",
+      "kind": "web_oficial",
+      "publisher": "Dirección General de Tráfico (web oficial dgt.es)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 97, tema P44) · DGT, conducir sin cinturón de seguridad",
+      "stem": "Según la DGT, el cinturón de seguridad alcanza su máxima eficacia en:",
+      "options": [
+        "Los vuelcos.",
+        "Los atropellos.",
+        "Los alcances traseros a baja velocidad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La DGT indica que el cinturón reduce de tres a uno la probabilidad de muerte y alcanza su máxima eficacia en los vuelcos, donde reduce el riesgo de fallecimiento en un 77 %.",
+      "excerpt": "reduce de tres a uno la probabilidad de muerte en accidente de tráfico y alcanza su máxima eficacia en los vuelcos, donde reduce el riesgo de fallecimiento en un 77%.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 98, tema P44) · DGT, conducir sin cinturón de seguridad",
+      "stem": "Según la DGT, en caso de choque el cinturón de seguridad sirve para que los pasajeros:",
+      "options": [
+        "No se muevan en absoluto.",
+        "Amortigüen su deceleración.",
+        "Puedan salir antes del vehículo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La DGT aclara que el cinturón no sirve para que los pasajeros no se muevan, sino para que amortigüen su deceleración.",
+      "excerpt": "el cinturón no sirve para que los pasajeros no se muevan en caso de choque, sino para que amortigüen su deceleración.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-ign_poblacion-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Atlas Didáctico (Bachillerato): Población, Migraciones y Ciudades",
+      "url": "https://educativo.ign.es/atlas-didactico/poblacion-bach/",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG), recurso educativo oficial (CC BY 4.0)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 70, tema P31) · IGN, Atlas Didáctico: Causas de las migraciones (glosario)",
+      "stem": "Según el Atlas Didáctico del IGN, son ejemplos de emigración en España:",
+      "options": [
+        "La llegada de jubilados del norte de Europa a la costa mediterránea.",
+        "El éxodo rural y la emigración de los años 60 y 70 del siglo XX hacia Europa.",
+        "Los desplazamientos diarios entre el domicilio y el puesto de trabajo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El IGN define la emigración como la salida de población desde su lugar de origen o residencia y cita como ejemplos en España el éxodo rural y la emigración de los años sesenta y setenta hacia Francia, Alemania o Suiza.",
+      "excerpt": "En España, ejemplos de emigración serían el éxodo rural o la emigración de los años 60 y 70 del siglo XX hacia Europa (Francia, Alemania y Suiza, etc.).",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 71, tema P31) · IGN, Atlas Didáctico: Causas de las migraciones",
+      "stem": "Según los datos de la Organización Internacional del Trabajo recogidos por el Atlas Didáctico del IGN, en 2019 y 2020 algo más de dos tercios de los migrantes internacionales eran:",
+      "options": [
+        "Trabajadores migrantes.",
+        "Refugiados y solicitantes de asilo.",
+        "Estudiantes internacionales."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El IGN recuerda que, según la OIT, algo más de dos tercios de los migrantes internacionales en 2019 y 2020 eran trabajadores migrantes, lo que confirma el peso de los motivos económicos en las migraciones actuales.",
+      "excerpt": "algo más de dos tercios de los migrantes internacionales en 2019 —y, también, en 2020— eran trabajadores migrantes.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

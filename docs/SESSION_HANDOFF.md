@@ -4,6 +4,7 @@
 
 ## Estado exacto
 
+- **Simulacros de examen de Guardia Civil y Policía Nacional (2026-11-11, rama `claude/project-thread-eh98tl`, CNT-027-GCPN, ADR-049):** 4 réplicas de cuadernillos oficiales de GC (2026 y 2022 ejercicios 1-3, temas `gcexamen-*`) y 2 exámenes tipo de PN con 100 preguntas nuevas (`pnexamen-tipo-*`). Fuente en `fuentes-oficiales/guardia-civil/fuente-preguntas/R26,R22A-C.txt` (mapas en `replicas/`) y `policia-nacional/fuente-preguntas/K01-K02.txt` (mapas en `examenes-tipo/`). Preview `87-` y `88-`, probados en local. Pendiente: que joel diga «fusiona».
 - **40 preguntas por tema en Policía local de Cataluña y Auxiliar del Estado (2026-11-11, PR #58 fusionada):** +460 (`plcat-t*`, 23 temas) y +480 (`age-aux-b1/b2-*`), con cita literal comprobada. Las nuevas van al final de cada `fuente-preguntas/<T>.txt` tras `// Ampliación 11/11/2026` en `fuentes-oficiales/{policia-local-cat,auxiliar-estado}/`. Preview `85-` y `85a-` (solo las nuevas) y `85b-` (publica salvo 4 dudosas y llena los packs). Pendiente de joel: las 4 dudosas (Llei 19/2020 arts. 45.1.c y 48.2; Orden PCI/383/2019).
 
 ### Mejoras de la oferta (2026-11-11, rama `claude/project-thread-m45lkq`, ADR-048)

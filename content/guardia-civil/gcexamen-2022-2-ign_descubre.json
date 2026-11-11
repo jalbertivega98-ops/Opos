@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-2-ign_descubre-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 2 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-2",
+    "locale": "es",
+    "category": "gcexamen_2022_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Descubre el Territorio: La brújula, El desnivel y La altitud (recursos educativos)",
+      "url": "https://www.ign.es/recursos-educativos/descubre-territorio/brujula.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 2 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-2 (n.º 90) · Declinación magnética (IGN)",
+      "stem": "Según el Instituto Geográfico Nacional, la diferencia de dirección entre el Norte geográfico y el Norte magnético, que varía con el tiempo y figura en los márgenes de sus mapas, se denomina:",
+      "options": [
+        "Acimut.",
+        "Convergencia de cuadrícula.",
+        "Declinación magnética.",
+        "Latitud."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "La declinación magnética es la diferencia entre el Norte geográfico (verdadero) y el Norte magnético que marca la brújula; el IGN la publica en los márgenes de sus mapas con su variación anual. Si es Este se resta del valor de la brújula y si es Oeste se suma.",
+      "excerpt": "deberíamos corregir la brújula del efecto de la declinación magnética. El Norte geográfico y el Norte magnético no tienen exactamente la misma dirección, debido al magnetismo terrestre, y además, esta diferencia varía con el tiempo. En los márgenes de los mapas del Instituto Geográfico Nacional puedes encontrar la declinación magnética del momento en que se realizó el mapa y su variación anual",
+      "excerpt_status": "completo"
+    }
+  ]
+}

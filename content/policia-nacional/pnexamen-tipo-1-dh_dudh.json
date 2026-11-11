@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-dh_dudh-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Declaración Universal de los Derechos Humanos",
+      "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
+      "kind": "web_oficial",
+      "publisher": "Naciones Unidas (un.org)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 62, tema P27) · Art. 14.1 DUDH",
+      "stem": "Según la Declaración Universal de Derechos Humanos, en caso de persecución, toda persona tiene derecho:",
+      "options": [
+        "A obtener la nacionalidad del país que la acoja.",
+        "A buscar asilo, y a disfrutar de él, en cualquier país.",
+        "A ser extraditada a un tercer país de su elección."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 14.1 DUDH reconoce el derecho de asilo, que no puede invocarse frente a acciones judiciales por delitos comunes (art. 14.2).",
+      "excerpt": "1. En caso de persecución, toda persona tiene derecho a buscar asilo, y a disfrutar de él, en cualquier país.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 68, tema P30) · Art. 29.1 DUDH",
+      "stem": "Según la Declaración Universal de Derechos Humanos, toda persona tiene deberes respecto a la comunidad, puesto que:",
+      "options": [
+        "Así lo exige la soberanía de cada Estado.",
+        "Los derechos humanos solo se reconocen a quien cumple sus deberes.",
+        "Solo en ella puede desarrollar libre y plenamente su personalidad."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 29.1 DUDH une libertad y responsabilidad: los deberes hacia la comunidad se justifican porque solo en ella se desarrolla plenamente la personalidad.",
+      "excerpt": "1. Toda persona tiene deberes respecto a la comunidad, puesto que sólo en ella puede desarrollar libre y plenamente su personalidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 69, tema P30) · Art. 29.2 DUDH",
+      "stem": "Según el artículo 29 de la Declaración Universal de Derechos Humanos, en el ejercicio de sus derechos y libertades toda persona estará solamente sujeta a las limitaciones:",
+      "options": [
+        "Establecidas por la ley con el único fin de asegurar el reconocimiento y el respeto de los derechos y libertades de los demás, y de satisfacer las justas exigencias de la moral, del orden público y del bienestar general.",
+        "Que establezca libremente cada Gobierno por razones de oportunidad política.",
+        "Que acuerde la Asamblea General de las Naciones Unidas para cada Estado."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 29.2 DUDH exige que las limitaciones estén establecidas por la ley y respondan a fines tasados en una sociedad democrática.",
+      "excerpt": "2. En el ejercicio de sus derechos y en el disfrute de sus libertades, toda persona estará solamente sujeta a las limitaciones establecidas por la ley con el único fin de asegurar el reconocimiento y el respeto de los derechos y libertades de los demás, y de satisfacer las justas exigencias de la moral, del orden público y del bienestar general en una sociedad democrática.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lasilo-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 28, tema P12) · Art. 5 Ley 12/2009",
+      "stem": "Según la Ley 12/2009, la protección concedida con el derecho de asilo y la protección subsidiaria consiste, entre otras medidas, en:",
+      "options": [
+        "La no devolución ni expulsión de las personas a quienes se les haya reconocido.",
+        "La concesión automática de la nacionalidad española.",
+        "La concesión de una autorización de residencia de larga duración desde la presentación de la solicitud."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 5 de la Ley 12/2009 cifra la protección en la no devolución ni expulsión y en las medidas del art. 36.",
+      "excerpt": "La protección concedida con el derecho de asilo y la protección subsidiaria consiste en la no devolución ni expulsión de las personas a quienes se les haya reconocido",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 29, tema P12) · Art. 18.1.c) Ley 12/2009",
+      "stem": "Según la Ley 12/2009, el solicitante de asilo, presentada la solicitud, tiene derecho a que se comunique su solicitud:",
+      "options": [
+        "Al Defensor del Pueblo.",
+        "Al ACNUR.",
+        "A la representación consular de su país de origen."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 18.1.c) de la Ley 12/2009 reconoce el derecho a que la solicitud se comunique al ACNUR; comunicarla al país de origen podría poner en riesgo al solicitante.",
+      "excerpt": "c) a que se comunique su solicitud al ACNUR;",
+      "excerpt_status": "completo"
+    }
+  ]
+}

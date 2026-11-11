@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-rgc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 1428/2003, de 21 de noviembre, Reglamento General de Circulación (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 95, tema P43) · Art. 68.1 Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, ¿quién determina en cada caso concreto los lugares donde deben situarse los vehículos de servicios de urgencia?",
+      "options": [
+        "Los propios conductores de los vehículos de servicios de urgencia.",
+        "La Jefatura Provincial de Tráfico, mediante resolución previa.",
+        "Los agentes de la autoridad responsable de la vigilancia, regulación y control del tráfico."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El art. 68.1 RGC faculta a los agentes de tráfico para situar sus vehículos donde sea necesario y para determinar dónde deben situarse los vehículos de urgencia.",
+      "excerpt": "Asimismo, determinarán en cada caso concreto los lugares donde deben situarse los vehículos de servicios de urgencia o de otros servicios especiales.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 96, tema P43) · Art. 96.3 Reglamento General de Circulación",
+      "stem": "Según el Reglamento General de Circulación, ningún usuario deberá penetrar en un túnel si en su boca un semáforo no le permite el paso, con excepción de:",
+      "options": [
+        "Los vehículos de transporte colectivo de viajeros.",
+        "Los equipos de los servicios de urgencia, asistencia mecánica y conservación de carreteras.",
+        "Ningún vehículo, sin excepción alguna."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 96.3 RGC exceptúa de la prohibición a los equipos de urgencia, asistencia mecánica y conservación de carreteras.",
+      "excerpt": "3. Ningún usuario deberá penetrar en un túnel o paso inferior si en la boca de éste un semáforo no le permite el paso, con excepción de los equipos de los servicios de urgencia, asistencia mecánica y conservación de carreteras.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

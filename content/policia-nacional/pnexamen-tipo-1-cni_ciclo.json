@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-cni_ciclo-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Centro Nacional de Inteligencia · La Inteligencia (el ciclo de Inteligencia)",
+      "url": "https://www.cni.es/la-inteligencia",
+      "kind": "web_oficial",
+      "publisher": "Centro Nacional de Inteligencia (web oficial cni.es)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 88, tema P40) · CNI, La Inteligencia: Obtención",
+      "stem": "Según el Centro Nacional de Inteligencia, la información procedente de fuentes técnicas se denomina:",
+      "options": [
+        "HUMINT.",
+        "SIGINT.",
+        "OSINT."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El CNI distingue HUMINT (fuentes humanas), OSINT (fuentes abiertas), SIGINT (fuentes técnicas) y GEOINT (imágenes e información geográfica).",
+      "excerpt": "SIGINT Información procedente de fuentes técnicas",
+      "excerpt_status": "completo"
+    }
+  ]
+}

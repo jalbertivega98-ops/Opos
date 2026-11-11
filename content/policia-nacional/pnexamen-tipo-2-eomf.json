@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-eomf-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 50/1981, de 30 de diciembre, Estatuto Orgánico del Ministerio Fiscal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-837",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 51, tema P21) · Art. 5.2 Ley 50/1981",
+      "stem": "Según el Estatuto Orgánico del Ministerio Fiscal, las diligencias de investigación del Fiscal, con carácter general y salvo prórroga acordada por decreto motivado del Fiscal General del Estado, no podrán exceder de:",
+      "options": [
+        "Seis meses.",
+        "Tres meses.",
+        "Un año."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 5.2 de la Ley 50/1981 limita las diligencias a seis meses (doce para los delitos del art. 19.4), salvo prórroga por decreto motivado del Fiscal General del Estado. Esas diligencias no pueden suponer medidas cautelares o limitativas de derechos, aunque el Fiscal puede ordenar la detención preventiva.",
+      "excerpt": "sin que pueda exceder de seis meses, salvo prórroga acordada mediante decreto motivado del Fiscal General del Estado.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

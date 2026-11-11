@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-ccn_cert-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "CCN-CERT · Sobre nosotros (Misión y Objetivos, Servicios, FAQ)",
+      "url": "https://www.ccn-cert.cni.es/es/sobre-nosotros/mision-y-objetivos.html",
+      "kind": "web_oficial",
+      "publisher": "Centro Criptológico Nacional, CCN-CERT (web oficial)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 35, tema P15) · CCN-CERT, Misión y Objetivos",
+      "stem": "Según el CCN-CERT, en el caso de operadores críticos del sector público, la gestión de ciberincidentes se realizará por:",
+      "options": [
+        "El INCIBE-CERT en coordinación con la Agencia Española de Protección de Datos.",
+        "La Oficina de Coordinación de Ciberseguridad, sin intervención del CCN-CERT.",
+        "El CCN-CERT en coordinación con el CNPIC."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "El CCN-CERT, Capacidad de Respuesta a Incidentes del Centro Criptológico Nacional, gestiona los ciberincidentes que afectan a organismos o empresas públicas; si se trata de operadores críticos del sector público, lo hace en coordinación con el Centro Nacional de Protección de Infraestructuras Críticas (CNPIC).",
+      "excerpt": "En el caso de operadores críticos del sector público la gestión de ciberincidentes se realizará por el CCN-CERT en coordinación con el CNPIC.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

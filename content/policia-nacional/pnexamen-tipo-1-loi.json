@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-loi-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 54, tema P23) · Art. 8 LO 3/2007",
+      "stem": "Según la Ley Orgánica 3/2007, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye:",
+      "options": [
+        "Discriminación indirecta por razón de sexo.",
+        "Discriminación directa por razón de sexo.",
+        "Acoso por razón de sexo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 8 LOI califica expresamente ese trato como discriminación directa por razón de sexo.",
+      "excerpt": "Constituye discriminación directa por razón de sexo todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 55, tema P23) · Art. 6.2 LO 3/2007",
+      "stem": "Según la Ley Orgánica 3/2007, la situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro se considera:",
+      "options": [
+        "Discriminación directa por razón de sexo en todo caso.",
+        "Discriminación indirecta por razón de sexo, salvo que pueda justificarse objetivamente en atención a una finalidad legítima con medios necesarios y adecuados.",
+        "Acción positiva, siempre que sea razonable y proporcionada."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 6.2 LOI define la discriminación indirecta y admite la justificación objetiva por una finalidad legítima con medios necesarios y adecuados.",
+      "excerpt": "2. Se considera discriminación indirecta por razón de sexo la situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro, salvo que dicha disposición, criterio o práctica puedan justificarse objetivamente en atención a una finalidad legítima y que los medios para alcanzar dicha finalidad sean necesarios y adecuados.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
