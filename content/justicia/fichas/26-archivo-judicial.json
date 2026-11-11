@@ -71,5 +71,585 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Conceptos de archivo judicial, documento judicial y expurgo",
+      "blocks": [
+        {
+          "text": "La norma básica del tema es el Real Decreto 937/2003, de modernización de los archivos judiciales, que regula la organización y funcionamiento de los archivos y el procedimiento de expurgo de la documentación judicial (art. 1.1). Define el archivo judicial con un doble sentido: el conjunto orgánico de documentos judiciales y el lugar donde quedan custodiados y clasificados (art. 1.2). El expurgo es el procedimiento que determina cuándo un documento pierde toda su utilidad o, al contrario, debe conservarse (art. 1.3).",
+          "refs": [
+            {
+              "ref": "Art. 1.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Se entiende por archivo judicial tanto el conjunto orgánico de documentos judiciales como el lugar en el que quedan debidamente custodiados y clasificados los documentos judiciales"
+            },
+            {
+              "ref": "Art. 1.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Se entiende por expurgo el procedimiento a través del cual se determina cuándo un documento pierde toda su utilidad o, por el contrario, ha de ser conservado"
+            }
+          ]
+        },
+        {
+          "text": "Son documentos judiciales tanto las actuaciones procesales como los aportados por las partes o terceros al proceso, por escrito o por medios electrónicos o telemáticos, sea cual sea su soporte (art. 1.4). La finalidad del real decreto es implantar un sistema de gestión de archivos que sirva a los fines de la Justicia y garantice el acceso a la documentación a quien tenga interés, con las garantías y límites legales (art. 1.5).",
+          "refs": [
+            {
+              "ref": "Art. 1.4",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Se consideran documentos judiciales tanto las actuaciones procesales como aquellos que hayan sido aportados por las partes o por terceros al proceso por escrito o por medios electrónicos o telemáticos, con independencia de cuál sea el soporte material en que se encuentren recogidos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Ámbito de aplicación y aviso de vigencia",
+      "blocks": [
+        {
+          "text": "El RD 937/2003 se aplica a todos los documentos judiciales de los juzgados y tribunales de todos los órdenes jurisdiccionales y a los expedientes gubernativos que se tramiten en ellos (art. 2.1). Quedan excluidos los libros de sentencias, los de registro y otros de llevanza obligatoria, que tienen sus propias normas, y los expedientes del Registro Civil (art. 2.2). Tampoco se aplica a los documentos de órganos jurisdiccionales que están en archivos históricos (Histórico Nacional, Simancas, Indias, Corona de Aragón y provinciales o autonómicos), ni a los documentos del Ministerio Fiscal no incorporados a procesos, ni a los archivos de juzgados togados y tribunales militares (disposiciones adicionales cuarta a sexta).",
+          "refs": [
+            {
+              "ref": "Art. 2.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Quedan excluidos del ámbito de aplicación los libros de sentencias, los de registro y aquellos otros de preceptiva llevanza, que se regirán por sus normas específicas, así como los expedientes relativos al Registro Civil."
+            },
+            {
+              "ref": "Disposición adicional cuarta",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Este real decreto no será de aplicación a los documentos correspondientes a órganos públicos con funciones jurisdiccionales que obren en el Archivo Histórico Nacional, Archivo de Simancas, Archivo de Indias, Archivo de la Corona de Aragón y en los Archivos Históricos Provinciales o Autonómicos."
+            }
+          ]
+        },
+        {
+          "text": "Aviso de vigencia: el texto del RD 937/2003 no se ha actualizado en su terminología. Habla de «secretario judicial» (hoy Letrado de la Administración de Justicia, como ya dice la LOPJ), cita normas derogadas (la LO 15/1999 de protección de datos y la Ley 30/1992) y menciona «juzgados de primera instancia y de instrucción», órganos que la LO 1/2025 ha sustituido por los Tribunales de Instancia. Además, el plazo general de destrucción de seis años desde la firmeza figura hoy en la LOPJ (art. 458.2), que prevalece como norma de rango superior. En este apunte se usa «LAJ» cuando el RD dice «secretario judicial».",
+          "refs": [
+            {
+              "ref": "Art. 6",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "corresponderá al secretario judicial la ordenación, custodia y conservación de los documentos, para lo cual contará con la asistencia y asesoramiento del personal técnico que se determine al efecto."
+            },
+            {
+              "ref": "Art. 458.2",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Con carácter general se procederá a la destrucción de autos y expedientes judiciales transcurridos seis años desde la firmeza de la resolución que de manera definitiva puso término al procedimiento que dio lugar a la formación de aquéllos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "La documentación judicial: fe pública y función de documentación del LAJ",
+      "blocks": [
+        {
+          "text": "Al Letrado de la Administración de Justicia le corresponde con exclusividad y plenitud la fe pública judicial: deja constancia fehaciente de los actos procesales y de los hechos con trascendencia procesal mediante actas y diligencias (art. 453.1 LOPJ). Expide certificaciones y testimonios de las actuaciones no secretas ni reservadas, indicando destinatario y fin, autoriza los poderes para pleitos y no necesita testigos (art. 453.2-4 LOPJ; art. 145 LEC).",
+          "refs": [
+            {
+              "ref": "Art. 453.1",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Corresponde a los Letrados de la Administración de Justicia, con exclusividad y plenitud, el ejercicio de la fe pública judicial. En el ejercicio de esta función, dejarán constancia fehaciente de la realización de actos procesales en el Tribunal o ante éste y de la producción de hechos con trascendencia procesal mediante las oportunas actas y diligencias."
+            },
+            {
+              "ref": "Art. 145.2",
+              "law": "LEC",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+              "quote": "En el ejercicio de estas funciones no precisará de la intervención adicional de testigos."
+            }
+          ]
+        },
+        {
+          "text": "El LAJ es responsable de la función de documentación y de la formación de los autos y expedientes, dejando constancia de las resoluciones (art. 454.1 LOPJ). También responde de su conservación y custodia, salvo el tiempo en que estén en poder del juez o del magistrado ponente; si hay expediente judicial electrónico, responde de su debida formación aplicando la normativa de archivo judicial electrónico (art. 148 LEC).",
+          "refs": [
+            {
+              "ref": "Art. 454.1",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Los letrados de la Administración de Justicia son responsables de la función de documentación que les es propia, así como de la formación de los autos y expedientes"
+            },
+            {
+              "ref": "Art. 148",
+              "law": "LEC",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+              "quote": "Igualmente responderán de la conservación y custodia de los mismos, salvo el tiempo en que estuvieren en poder del juez o magistrado ponente u otros magistrados integrantes del Tribunal. En los casos en que el órgano judicial cuente con expediente judicial electrónico, responderán de su debida formación, aplicando u ordenando la aplicación, dentro del ámbito de su competencia, de la normativa sobre archivo judicial electrónico."
+            }
+          ]
+        },
+        {
+          "text": "Las actuaciones que no son escritos ni documentos se documentan mediante actas y diligencias (art. 146.1 LEC). Las vistas y comparecencias orales se graban en soporte apto para imagen y sonido; si se garantiza la autenticidad con firma electrónica, no es necesaria la presencia del LAJ en la sala, y lo grabado no se transcribe salvo que una ley lo prevea (art. 147 LEC; art. 230.3 LOPJ).",
+          "refs": [
+            {
+              "ref": "Art. 146.1",
+              "law": "LEC",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+              "quote": "Las actuaciones procesales que no consistan en escritos y documentos se documentarán por medio de actas y diligencias."
+            },
+            {
+              "ref": "Art. 230.3",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Las actuaciones orales y vistas grabadas y documentadas en soporte digital no podrán transcribirse, salvo en los casos expresamente previstos en la ley."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "El Archivo Judicial de Gestión y los libros de registro",
+      "blocks": [
+        {
+          "text": "El LAJ es responsable del Archivo Judicial de Gestión, donde se conservan y custodian los autos y expedientes cuya tramitación no ha terminado, salvo mientras estén en poder del juez o magistrado (art. 458.1 LOPJ). El RD 937/2003 lo sitúa en cada oficina judicial: allí se clasifican y custodian los documentos de cada proceso en tramitación mientras sean susceptibles de resolución o de terminar la ejecución, y su gestión puede encomendarse a un Servicio Común (art. 5.1). El LAJ ordena, custodia y conserva los documentos con apoyo de personal técnico (art. 6).",
+          "refs": [
+            {
+              "ref": "Art. 458.1",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Los letrados de la Administración de Justicia serán responsables del Archivo Judicial de Gestión, en el que, de conformidad con la normativa establecida al efecto, se conservarán y custodiarán aquellos autos y expedientes cuya tramitación no esté finalizada, salvo el tiempo en que estuvieren en poder del juez o del magistrado ponente u otros magistrados integrantes del tribunal."
+            },
+            {
+              "ref": "Art. 5.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "En las oficinas judiciales o unidades análogas existirá un Archivo Judicial de Gestión en el que se clasificarán y custodiarán los documentos judiciales correspondientes a cada proceso o actuación judicial que se encuentre en tramitación"
+            }
+          ]
+        },
+        {
+          "text": "El Ministerio de Justicia determina qué libros de registro deben existir y regula su llevanza; el LAJ es responsable de llevarlos mediante las aplicaciones informáticas o, en su defecto, manualmente (art. 458.3-4 LOPJ). Hay además un libro de sentencias, bajo custodia del LAJ, con todas las sentencias definitivas, autos de igual carácter y votos particulares ordenados por fecha (art. 213 LEC), y un libro de decretos con los decretos definitivos (art. 213 bis LEC).",
+          "refs": [
+            {
+              "ref": "Art. 458.3-4",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "3\\. Corresponde al Ministerio de Justicia la determinación de los libros de registro que han de existir en los juzgados y tribunales y establecer las normas reguladoras de la llevanza de los mismos mediante los reglamentos oportunos. 4\\. El letrado de la Administración de Justicia será responsable de la llevanza de los libros de registro a través de las aplicaciones informáticas correspondientes y, en su defecto, manualmente"
+            },
+            {
+              "ref": "Art. 213",
+              "law": "LEC",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+              "quote": "En cada tribunal se llevará, bajo la custodia del letrado o letrada de la Administración de Justicia, un libro de sentencias, en el que se incluirán firmadas todas las definitivas, autos de igual carácter, así como los votos particulares que se hubieren formulado, que serán ordenados correlativamente según su fecha."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Clases de archivos: Territoriales y Central",
+      "blocks": [
+        {
+          "text": "Hay tres clases de archivos: Archivos Judiciales de Gestión, Archivos Judiciales Territoriales y Archivo Judicial Central (art. 4 RD 937/2003). En cada comunidad autónoma existe como mínimo un Archivo Judicial Territorial, dependiente del Presidente del Tribunal Superior de Justicia, que puede delegar en el Presidente de la Audiencia Provincial o el Juez Decano (art. 8.1). La documentación permanece allí hasta que la Junta de Expurgo resuelve su destino (art. 8.2). Ceuta y Melilla tienen cada una un archivo con esas funciones (disposición adicional segunda).",
+          "refs": [
+            {
+              "ref": "Art. 4",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Existirán tres clases de archivos: a) Archivos Judiciales de Gestión. b) Archivos Judiciales Territoriales. c) Archivo Judicial Central."
+            },
+            {
+              "ref": "Art. 8.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "En cada comunidad autónoma existirá como mínimo un Archivo Judicial Territorial dependiente del Presidente del Tribunal Superior de Justicia, quien podrá delegar la competencia en el Presidente de la Audiencia Provincial o Juez Decano del partido judicial donde radique."
+            }
+          ]
+        },
+        {
+          "text": "El Archivo Territorial está a cargo de un LAJ: en capitales con diez o más juzgados de primera instancia e instrucción, uno de segunda categoría designado por el Ministerio; en los demás casos, el Secretario de Gobierno del TSJ o el del órgano en que se haya delegado (art. 9). El Archivo Judicial Central está adscrito a la Sala de Gobierno del Tribunal Supremo y recoge la documentación del Supremo, la Audiencia Nacional y los demás órganos con jurisdicción en todo el territorio (art. 10.1). Lo dirige un LAJ designado por el Ministerio y, en su defecto, el Secretario de Gobierno del Tribunal Supremo (art. 11).",
+          "refs": [
+            {
+              "ref": "Art. 10.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Existirá un Archivo Judicial Central adscrito a la Sala de Gobierno del Tribunal Supremo, cuyo ámbito se circunscribirá a la documentación judicial del Tribunal Supremo, de la Audiencia Nacional y de los restantes órganos con jurisdicción en todo el territorio nacional."
+            },
+            {
+              "ref": "Art. 11.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "En defecto de nombramiento de secretario judicial, el responsable del Archivo Judicial Central será el Secretario de Gobierno del Tribunal Supremo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Acceso a la documentación judicial",
+      "blocks": [
+        {
+          "text": "Las partes y quien acredite un interés legítimo y directo pueden acceder a la información de los procedimientos y consultar escritos y documentos no declarados secretos ni reservados, y obtener testimonios y certificados (art. 234 LOPJ). La LEC añade que quien acredite interés legítimo puede acceder a los libros, archivos y registros judiciales no reservados y obtener, a su costa, testimonio o certificación (art. 141 LEC).",
+          "refs": [
+            {
+              "ref": "Art. 234.2",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Las partes y cualquier persona que acredite un interés legítimo y directo tendrán derecho a acceder a la información existente en los procedimientos judiciales"
+            },
+            {
+              "ref": "Art. 141",
+              "law": "LEC",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-323",
+              "quote": "Las personas que acrediten un interés legítimo podrán acceder a los libros, archivos y registros judiciales que no tengan carácter reservado y obtener, a su costa, testimonio o certificación de los extremos que indiquen."
+            }
+          ]
+        },
+        {
+          "text": "En el Archivo de Gestión, el acceso se hace por exhibición, testimonio o certificación, salvo documentación reservada (art. 7.1 RD 937/2003). Los documentos que afecten a la seguridad, el honor, la intimidad o la propia imagen no pueden consultarse públicamente sin consentimiento de los afectados o hasta 25 años después de su muerte, si se conoce la fecha, o 50 años desde la fecha de los documentos (art. 7.3). En los archivos Territorial y Central, la documentación está siempre a disposición del órgano judicial del que procede; los interesados piden el acceso al LAJ responsable, y si este lo deniega, el acuerdo es revisable por el juez o presidente del órgano al que pertenece la documentación (art. 12).",
+          "refs": [
+            {
+              "ref": "Art. 7.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "no podrán ser públicamente consultados sin que medie consentimiento expreso de los afectados o hasta que haya transcurrido un plazo de 25 años desde su muerte, si su fecha es conocida o, en otro caso, de 50 años a partir de la fecha de los documentos."
+            },
+            {
+              "ref": "Art. 12.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "En el caso de que el secretario judicial denegase el acceso a los documentos, el acuerdo denegatorio será revisable por el juez o presidente del órgano judicial al que corresponda la documentación"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Formas de remisión de la documentación y relaciones documentales",
+      "blocks": [
+        {
+          "text": "Los asuntos sin actuación pendiente pueden remitirse al Archivo Territorial a los cinco años de su incoación (plazo reducible si falta espacio), y los terminados por sentencia firme u otra resolución, al año de la firmeza (art. 5.2 RD 937/2003). Decide la remisión el responsable del Archivo de Gestión (art. 5.3).",
+          "refs": [
+            {
+              "ref": "Art. 5.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Transcurridos cinco años desde la incoación de los procedimientos o expedientes gubernativos, aquellos asuntos que no estuvieren pendientes de actuación procesal alguna, tanto en fase declarativa como de ejecución, podrán ser remitidos para su conservación y custodia al Archivo Judicial Territorial […] Los procedimientos con sentencia firme o cualquier otra resolución que ponga fin a éstos podrán ser remitidos para su conservación y custodia al Archivo Judicial Territorial transcurrido un año desde la firmeza de la resolución"
+            },
+            {
+              "ref": "Art. 5.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "La decisión de remitir los documentos anteriores corresponderá al responsable del Archivo Judicial de Gestión donde se hallasen los documentos judiciales."
+            }
+          ]
+        },
+        {
+          "text": "La remisión se formaliza periódicamente, como mínimo una vez al año, acompañada siempre de una relación de los procedimientos según un modelo uniforme y obligatorio (art. 13.1). La relación se envía por las aplicaciones informáticas y el LAJ guarda copia con la fecha de envío y la acreditación de recepción (art. 13.2). Debe indicar como mínimo el proceso, el orden jurisdiccional, la naturaleza, número y año, las partes, una sucinta referencia al objeto y la fecha de terminación o paralización (art. 13.3).",
+          "refs": [
+            {
+              "ref": "Art. 13.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "se formalizará periódicamente, como mínimo con carácter anual, en función del volumen de gestión de cada archivo, e irá acompañada necesariamente de una relación de los procedimientos o actuaciones judiciales en los que se integran, con arreglo a un modelo uniforme y obligatorio aprobado por la Administración pública competente."
+            },
+            {
+              "ref": "Art. 13.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "y hará referencia como mínimo al proceso o actuación judicial al que corresponden, el orden jurisdiccional en que se hubiesen sustanciado, la naturaleza del proceso o actuación procesal, su número y año, las partes intervinientes, una sucinta referencia a su objeto y fecha en que se produjo la terminación o paralización de las actuaciones procesales."
+            }
+          ]
+        },
+        {
+          "text": "Hacia la Junta de Expurgo, el responsable del Archivo de Gestión remite la relación de procedimientos con ejecución terminada o con prescripción o caducidad declarada (art. 15.1). Desde el Territorial o Central, pasados los plazos de prescripción o caducidad, se envía la relación al Archivo de Gestión para que el órgano de procedencia confirme en un mes que han transcurrido (art. 15.2). Estas relaciones se remiten como mínimo una vez al año (art. 15.3).",
+          "refs": [
+            {
+              "ref": "Art. 15.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "al objeto de que el órgano judicial de procedencia confirme en el plazo de un mes el transcurso de los anteriores plazos, con arreglo a la legislación aplicable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Nuevas tecnologías en los archivos judiciales de gestión",
+      "blocks": [
+        {
+          "text": "Los archivos de Gestión, Territoriales y Central se gestionan con programas informáticos compatibles, aprobados por el Consejo General del Poder Judicial a propuesta del Ministerio de Justicia o de las comunidades autónomas con competencias en medios materiales (art. 3.1-2 RD 937/2003). Los documentos en papel pueden digitalizarse o microfilmarse si se garantiza su integridad, autenticidad y conservación (art. 3.3). La LOPJ obliga a juzgados, tribunales y fiscalías a usar los medios técnicos puestos a su disposición, y los documentos así emitidos valen como originales si se garantiza su autenticidad e integridad (art. 230.1-2 LOPJ).",
+          "refs": [
+            {
+              "ref": "Art. 3.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Los programas y aplicaciones informáticas serán aprobados por el Consejo General del Poder Judicial a propuesta del Ministerio de Justicia o de las comunidades autónomas con competencias en materia de provisión de medios materiales y económicos para el funcionamiento de la Administración de justicia"
+            },
+            {
+              "ref": "Art. 230.2",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Los documentos emitidos por los medios anteriores, cualquiera que sea su soporte, gozarán de la validez y eficacia de un documento original siempre que quede garantizada su autenticidad e integridad y el cumplimiento de los requisitos exigidos por las leyes procesales."
+            }
+          ]
+        },
+        {
+          "text": "El Real Decreto-ley 6/2023 regula el documento judicial electrónico, que debe llevar metadatos y sello o firma electrónica; es documento público si incorpora la firma electrónica del LAJ dentro de sus competencias (art. 39). No se permite imprimir ni expedir documentos en papel salvo que lo acuerde el LAJ o lo pida quien no está obligado a relacionarse electrónicamente; en ese caso el documento es original si contiene el Código Seguro de Verificación (art. 40.7).",
+          "refs": [
+            {
+              "ref": "Art. 39.2",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "Tendrá la consideración de documento público el documento judicial electrónico que, además de los requisitos anteriores, incorpore la firma electrónica del letrado o letrada de la Administración de Justicia, siempre que se produzca en el ámbito de las competencias que tuviesen asumidas conforme a las leyes procesales."
+            },
+            {
+              "ref": "Art. 40.7",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "En estos casos, el documento generado tendrá la consideración de original, siempre que contenga el Código Seguro de Verificación, para garantizar su autenticidad e integridad."
+            }
+          ]
+        },
+        {
+          "text": "El expediente judicial electrónico es el conjunto ordenado de datos, documentos, trámites, actuaciones y grabaciones de un procedimiento; tiene un número de identificación general único e inalterable y un índice electrónico firmado que garantiza su integridad y recuperación (art. 47.1-3). La remisión de expedientes se sustituye por su puesta a disposición electrónica (art. 47.4), y el Sistema Común de Intercambio permite su itineración entre oficinas aunque usen distintos sistemas de gestión procesal (art. 48.1).",
+          "refs": [
+            {
+              "ref": "Art. 47.2-3",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "Se asignará un número de identificación general a cada expediente judicial electrónico, que será único e inalterable a lo largo de todo el proceso […] Este índice garantizará la integridad del expediente judicial electrónico y permitirá su recuperación siempre que sea preciso"
+            },
+            {
+              "ref": "Art. 47.4",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "La remisión de expedientes se sustituirá a todos los efectos legales por la puesta a disposición del expediente judicial electrónico, pudiendo obtener copia electrónica del mismo todos aquellos que tengan derecho conforme a lo dispuesto en las normas procesales."
+            },
+            {
+              "ref": "Art. 48.1",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "El Sistema Común de Intercambio de documentos y expedientes judiciales electrónicos tendrá por objeto posibilitar la itineración de expedientes electrónicos y la transmisión de documentos electrónicos de una oficina u órgano judicial o fiscal a otro"
+            }
+          ]
+        },
+        {
+          "text": "Las Administraciones competentes deben disponer de un sistema de archivo judicial electrónico que asegure el acceso y la conservación a largo plazo de expedientes y documentos electrónicos (art. 79). Los documentos en papel de los que exista copia electrónica auténtica pueden devolverse o destruirse, tras el plazo reglamentario, bajo responsabilidad del LAJ o por resolución judicial, siempre con audiencia previa de las partes (art. 80).",
+          "refs": [
+            {
+              "ref": "Art. 79",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "Las Administraciones públicas con competencias en materias de Administración de Justicia dispondrán de un sistema de archivo judicial electrónico que asegurará el acceso y la conservación a largo plazo de los expedientes y documentos judiciales electrónicos."
+            },
+            {
+              "ref": "Art. 80.2",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "La devolución o, en su caso, la destrucción de los documentos referidos en el apartado anterior se realizará bajo responsabilidad del letrado o letrada de la Administración de Justicia, o por resolución judicial cuando la naturaleza probatoria u otros fines jurisdiccionales así lo aconsejen, previa audiencia de las partes o interesados en todo caso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Las Juntas de Expurgo: naturaleza y composición",
+      "blocks": [
+        {
+          "text": "Las Juntas de Expurgo son órganos colegiados de naturaleza administrativa que deciden, por cuenta del responsable del Archivo de Gestión, si los expedientes se excluyen del Patrimonio Documental o se transfieren a la Administración competente en patrimonio histórico (art. 14.1). Hay una en cada comunidad autónoma (art. 14.2).",
+          "refs": [
+            {
+              "ref": "Art. 14.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Las Juntas de Expurgo son aquellos órganos colegiados de naturaleza administrativa que tienen por finalidad determinar, por cuenta del órgano responsable del respectivo Archivo Judicial de Gestión, la exclusión o eliminación de los expedientes procesales o gubernativos del Patrimonio Documental"
+            }
+          ]
+        },
+        {
+          "text": "Las adscritas al Ministerio de Justicia tienen sede donde radica la presidencia del TSJ y las preside un magistrado designado por el Presidente del TSJ, con voto dirimente. Sus vocales son un fiscal, el Gerente Territorial del Ministerio, un técnico superior en archivos designado por la Administración de patrimonio histórico y un titulado superior de Administración; un LAJ designado por el Ministerio actúa de secretario (art. 14.3). En las comunidades con competencias transferidas, estas fijan sede y composición, con un magistrado presidente, un fiscal, un LAJ y un técnico en archivos (art. 14.4). Para el Supremo, la Audiencia Nacional y demás órganos centrales hay una Junta presidida por un magistrado designado por el Presidente del Tribunal Supremo (disposición adicional primera).",
+          "refs": [
+            {
+              "ref": "Art. 14.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "estarán presididas por un magistrado designado por el Presidente del Tribunal Superior de Justicia, con voto dirimente de los empates"
+            },
+            {
+              "ref": "Disposición adicional primera",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "se constituirá una Junta de Expurgo, adscrita al Ministerio de Justicia, que estará presidida por un magistrado designado por el Presidente del Tribunal Supremo, con voto dirimente de los empates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "El expurgo: plazos, devolución de documentos y acuerdos",
+      "blocks": [
+        {
+          "text": "La LOPJ fija la regla general: los autos y expedientes se destruyen a los seis años de la firmeza de la resolución que puso fin al procedimiento. Se exceptúan los de instrucción de causas penales por delito y los que se determinen reglamentariamente, sobre todo por su valor cultural, social o histórico. Antes, el LAJ da audiencia, por un plazo no inferior a quince días, a las partes que estuvieron personadas para que pidan el desglose de sus documentos originales (art. 458.2 LOPJ).",
+          "refs": [
+            {
+              "ref": "Art. 458.2",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Se exceptúan de lo anterior aquéllos formados para la instrucción de causas penales seguidas por delito, así como los supuestos que reglamentariamente pudiesen ser contemplados, especialmente en atención al valor cultural, social o histórico de lo archivado. Previamente, el Letrado de la Administración de Justicia concederá audiencia por un tiempo no inferior a quince días a las partes que estuvieron personadas"
+            }
+          ]
+        },
+        {
+          "text": "Según el RD 937/2003, el presidente de la Junta ordena publicar las relaciones de expedientes en el BOE o diario autonómico y en un diario de gran difusión, sin reseñar el objeto ni identificar a las partes, para que en dos meses los interesados recuperen los documentos que aportaron; pasado ese plazo decaen en su derecho (art. 16). La Junta se reúne en sesión ordinaria una vez al año, y puede haber sesiones extraordinarias (art. 17.1). Entre la convocatoria y la sesión, la Administración de patrimonio histórico emite un informe vinculante sobre los expedientes que deben preservarse por su valor histórico-documental (art. 17.3).",
+          "refs": [
+            {
+              "ref": "Art. 16.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "al objeto de que, en el plazo de dos meses, puedan los interesados recuperar aquellos documentos en su día aportados al proceso. En la publicación del anuncio se omitirá la reseña del objeto del proceso y la identificación de las partes."
+            },
+            {
+              "ref": "Art. 17.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "La Junta de Expurgo será convocada en sesión ordinaria una vez al año."
+            },
+            {
+              "ref": "Art. 17.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "la Administración competente en materia de patrimonio histórico elaborará un informe de carácter vinculante que comprenderá aquellos expedientes o documentos judiciales que por su valor histórico-documental deberán ser preservados"
+            }
+          ]
+        },
+        {
+          "text": "La Junta acuerda transferir a la Administración de patrimonio histórico lo que deba preservarse y, en otro caso, excluirlo del Patrimonio Histórico para su enajenación; si esta no es posible o los documentos no están en papel, se destruyen (art. 18). Las resoluciones se publican en el BOE o diario autonómico y todas ponen fin a la vía administrativa (art. 20). El acta se aprueba en la misma sesión o en la siguiente, convocada en un mes (art. 19.1). Lo enajenado solo puede reutilizarse como papel y el adquirente no puede divulgar su contenido (art. 21).",
+          "refs": [
+            {
+              "ref": "Art. 18.2 y 18.4",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "En caso contrario, la Junta resolverá su exclusión del Patrimonio Histórico y posterior enajenación. […] Cuando por cualquier circunstancia no fuese posible o no resultara aconsejable la enajenación y, en todo caso, cuando los expedientes o documentos judiciales y gubernativos no estén recogidos en soporte de papel, se acordará su destrucción."
+            },
+            {
+              "ref": "Art. 20.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Todas las resoluciones de la Junta de Expurgo pondrán fin a la vía administrativa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Fe pública judicial: corresponde al LAJ con exclusividad y plenitud, que también responde del Archivo Judicial de Gestión.",
+          "refs": [
+            {
+              "ref": "Art. 458.1",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "Los letrados de la Administración de Justicia serán responsables del Archivo Judicial de Gestión"
+            }
+          ]
+        },
+        {
+          "text": "Tres clases de archivos: de Gestión, Territoriales (al menos uno por comunidad, dependiente del Presidente del TSJ) y Central (Sala de Gobierno del TS).",
+          "refs": [
+            {
+              "ref": "Art. 4",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Existirán tres clases de archivos"
+            }
+          ]
+        },
+        {
+          "text": "Remisión al Territorial: cinco años desde la incoación sin actuación pendiente, o un año desde la firmeza; como mínimo, una vez al año y con relación documental.",
+          "refs": [
+            {
+              "ref": "Art. 5.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "transcurrido un año desde la firmeza de la resolución"
+            }
+          ]
+        },
+        {
+          "text": "Destrucción general: seis años desde la firmeza, salvo causas penales por delito; audiencia previa de al menos quince días a las partes.",
+          "refs": [
+            {
+              "ref": "Art. 458.2",
+              "law": "LOPJ",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+              "quote": "concederá audiencia por un tiempo no inferior a quince días a las partes que estuvieron personadas"
+            }
+          ]
+        },
+        {
+          "text": "Documentos sensibles: 25 años desde la muerte del afectado o 50 desde la fecha del documento.",
+          "refs": [
+            {
+              "ref": "Art. 7.3",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "hasta que haya transcurrido un plazo de 25 años desde su muerte, si su fecha es conocida o, en otro caso, de 50 años a partir de la fecha de los documentos."
+            }
+          ]
+        },
+        {
+          "text": "Junta de Expurgo: presidida por un magistrado con voto dirimente; una sesión ordinaria al año; dos meses para recuperar documentos; informe de patrimonio histórico vinculante.",
+          "refs": [
+            {
+              "ref": "Art. 17.1",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "La Junta de Expurgo será convocada en sesión ordinaria una vez al año."
+            }
+          ]
+        },
+        {
+          "text": "Las resoluciones de la Junta de Expurgo ponen fin a la vía administrativa.",
+          "refs": [
+            {
+              "ref": "Art. 20.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "Todas las resoluciones de la Junta de Expurgo pondrán fin a la vía administrativa."
+            }
+          ]
+        },
+        {
+          "text": "Expediente judicial electrónico: número de identificación único e inalterable e índice electrónico firmado; la remisión se sustituye por la puesta a disposición.",
+          "refs": [
+            {
+              "ref": "Art. 47.4",
+              "law": "RDL 6/2023",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758",
+              "quote": "La remisión de expedientes se sustituirá a todos los efectos legales por la puesta a disposición del expediente judicial electrónico"
+            }
+          ]
+        },
+        {
+          "text": "Los libros de sentencias y de registro y el Registro Civil quedan fuera del RD 937/2003.",
+          "refs": [
+            {
+              "ref": "Art. 2.2",
+              "law": "RD 937/2003",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237",
+              "quote": "así como los expedientes relativos al Registro Civil."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": "Otras normas citadas: LEC (https://www.boe.es/buscar/act.php?id=BOE-A-2000-323), RDL 6/2023 (https://www.boe.es/buscar/act.php?id=BOE-A-2023-25758), RD 937/2003 (https://www.boe.es/buscar/act.php?id=BOE-A-2003-15237)"
 }
