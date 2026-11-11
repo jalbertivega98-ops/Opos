@@ -89,6 +89,13 @@ export default async function MocksPage({
           ))}
         </ul>
       )}
+      {mocks.some((it) => it.source === "trial") && (
+        <div data-testid="mock-trial">
+          <Alert tone="info">
+            <span className="font-semibold">{tm("trialTitle")}.</span> {tm("trialBody")}
+          </Alert>
+        </div>
+      )}
       {mocks.length === 0 ? (
         <EmptyState
           title={tm("empty")}

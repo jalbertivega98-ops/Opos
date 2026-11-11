@@ -15,5 +15,7 @@ export const checkoutSchema = z.object({
   // Contenido digital con acceso inmediato: se pide renunciar al desistimiento
   // de forma expresa (art. 103.m TRLGDCU).
   consent: z.literal("on", { error: "consent" }),
+  // Premium: mensual (por defecto) o anual (ADR-048)
+  interval: z.enum(["month", "year"]).optional(),
 });
 export type CheckoutInput = z.infer<typeof checkoutSchema>;

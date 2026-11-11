@@ -138,11 +138,7 @@
     "demoCta": "Prova un psicotècnic gratis",
     "titleRich": "Prepara la teva oposició amb <mark>mètode</mark>, no a cegues",
     "audience": "Per a qui prepara oposicions a Espanya, en català o en castellà. Comença gratis, sense targeta.",
-    "trustItems": [
-      "Sense targeta",
-      "Fonts oficials citades",
-      "Contingut revisat per persones"
-    ],
+    "trustItems": ["Sense targeta", "Fonts oficials citades", "Contingut revisat per persones"],
     "sample": {
       "badge": "Prova-ho aquí",
       "title": "Així és un exercici",
@@ -161,11 +157,7 @@
       "title": "El teu progrés",
       "note": "Vista d'exemple",
       "accuracy": "Encerts de la setmana i avanç per bloc",
-      "rows": [
-        "Temari",
-        "Psicotècnics",
-        "Simulacres"
-      ]
+      "rows": ["Temari", "Psicotècnics", "Simulacres"]
     },
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
@@ -194,11 +186,7 @@
         "Sessions de psicotècnics",
         "Simulacre de la setmana"
       ],
-      "mock": [
-        "Mateix temps",
-        "Mateixa penalització",
-        "Mateix nre. de preguntes"
-      ],
+      "mock": ["Mateix temps", "Mateixa penalització", "Mateix nre. de preguntes"],
       "review": "Repassar"
     },
     "comingSoon": "Properament",
@@ -1448,7 +1436,8 @@
         "purchase": "Comprat",
         "subscription": "Premium",
         "free": "Gratuït",
-        "bundle": "Inclòs al teu paquet"
+        "bundle": "Inclòs al teu paquet",
+        "trial": "Primer simulacre gratis"
       },
       "start": "Practicar",
       "count": "Preguntes per test",
@@ -1623,7 +1612,8 @@
         "psycho": "Psicotècnics de pràctica amb correcció i explicació",
         "progress": "Estadístiques de progrés i ratxa d'estudi",
         "topics": "Test de 3 temes gratis: {topics} ({questions} preguntes amb explicació i font)",
-        "notes": "Fitxes d'estudi de tots els temes"
+        "notes": "Fitxes d'estudi de tots els temes",
+        "mock": "El teu primer simulacre gratis, amb nota i correcció"
       },
       "cta": "Crear un compte gratis"
     },
@@ -1647,7 +1637,13 @@
       "mockFormatSections": "{questions} preguntes en {minutes} min, per parts · cada error resta {penalty, number} · cal arribar al tall a cada part",
       "buy": "Comprar el pack · {price}",
       "buyPremium": "Fes-te Premium · {price} al mes",
-      "cancel": "Una sola subscripció per a aquesta oposició. Cancel·la quan vulguis."
+      "cancel": "Una sola subscripció per a aquesta oposició. Cancel·la quan vulguis.",
+      "orientative": "format orientatiu",
+      "monthly": "Mensual · {price} al mes",
+      "yearly": "Anual · {price} l'any (estalvies un {pct} %)",
+      "yearlyNote": "o {price} l'any",
+      "choose": "Tria com pagar",
+      "buyPremiumPlain": "Fes-te Premium"
     },
     "topicsTitle": "Veure els {count} temes inclosos",
     "topicQuestions": "{count} preg.",
@@ -1803,7 +1799,8 @@
       "ya-lo-tienes": "Ja tens accés a aquest producte.",
       "ya-premium": "Ja ets Premium.",
       "portal-error": "No s'ha pogut obrir la gestió de la subscripció. Torna-ho a provar més tard."
-    }
+    },
+    "premiumBodyYear": "Tot el temari en test, els simulacres i els exàmens rèplica de la teva oposició per {price} al mes o {yearPrice} l'any. Cancel·la quan vulguis."
   },
   "calendar": {
     "title": "El teu calendari d'estudi",
@@ -1826,6 +1823,8 @@
     "empty": "Encara no tens simulacres",
     "emptyBody": "Els simulacres venen amb el Premium de la teva oposició o amb un pack de 10 intents.",
     "buyTitle": "Packs d'intents",
-    "buySubtitle": "Intents solts de simulacre, sense subscripció."
+    "buySubtitle": "Intents solts de simulacre, sense subscripció.",
+    "trialTitle": "El teu primer simulacre és gratis",
+    "trialBody": "Tria'n un: el fas amb el temps i la penalització de l'examen real i veus la teva nota. Després, els simulacres van amb Premium o amb un paquet d'intents."
   }
 }

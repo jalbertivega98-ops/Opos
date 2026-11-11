@@ -42,9 +42,16 @@ export async function ExamOfferSection({
   const questions = bundle?.questions || packs.reduce((n, p) => n + p.questions, 0);
   const premium = offer.premium;
   const price = premium?.price ?? null;
+  const priceYear = premium?.price_year ?? null;
+  // Ahorro del plan anual frente a 12 meses del mensual
+  const savingPct =
+    price && priceYear
+      ? Math.round((1 - priceYear.amount_cents / (price.amount_cents * 12)) * 100)
+      : 0;
   const freeQuestions = offer.free_topics.reduce((n, tp) => n + tp.questions, 0);
   const freeItems = [
     ...(offer.free_topics.length > 0 ? (["topics"] as const) : []),
+    ...(mocks.length > 0 ? (["mock"] as const) : []),
     "notes" as const,
     "plan" as const,
     ...(examHasPsycho(examSlug) ? (["psycho"] as const) : []),
@@ -101,6 +108,12 @@ export async function ExamOfferSection({
                     interval: t(`paid.intervals.${price.interval ?? "month"}` as never),
                   })
                 : t("paid.priceTbd")}
+              {price && priceYear && (
+                <span className="text-muted-foreground" data-testid="offer-price-year">
+                  {" "}
+                  {t("paid.yearlyNote", { price: formatPrice(priceYear.amount_cents, locale) })}
+                </span>
+              )}
             </p>
           </div>
           <ul className="space-y-3 text-sm">
@@ -138,6 +151,7 @@ export async function ExamOfferSection({
                         min: m.config.pass_mark ?? 5,
                       },
                     )}
+                    {m.config.orientative && ` · ${t("paid.orientative")}`}
                   </span>
                 </span>
               </li>
@@ -156,8 +170,32 @@ export async function ExamOfferSection({
               <BuyForm
                 slug={premium.slug}
                 back={back}
-                label={t("paid.buyPremium", { price: formatPrice(price.amount_cents, locale) })}
+                label={
+                  priceYear
+                    ? t("paid.buyPremiumPlain")
+                    : t("paid.buyPremium", { price: formatPrice(price.amount_cents, locale) })
+                }
                 testMode={billing.testMode}
+                intervalsLegend={priceYear ? t("paid.choose") : undefined}
+                intervals={
+                  priceYear
+                    ? [
+                        {
+                          value: "month",
+                          label: t("paid.monthly", {
+                            price: formatPrice(price.amount_cents, locale),
+                          }),
+                        },
+                        {
+                          value: "year",
+                          label: t("paid.yearly", {
+                            price: formatPrice(priceYear.amount_cents, locale),
+                            pct: savingPct,
+                          }),
+                        },
+                      ]
+                    : undefined
+                }
               />
               <p className="text-muted-foreground text-center text-xs">{t("paid.cancel")}</p>
             </>
