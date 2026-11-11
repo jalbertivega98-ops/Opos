@@ -344,6 +344,7 @@ Migración `20261107000100_public_sample_test` (preview `58-`).
 - Plan semanal: el test de tema pide como mucho 10 preguntas (`TOPIC_BATCH`); antes pedía todo lo que quedaba de la cuota (hasta 40).
 - Resultado de un test de un solo tema (`my_session_topic`): progreso en el tema (respondidas, % de acierto, publicadas), objetivo de dominio (15 respuestas y 70 %, `TOPIC_DONE`), botón «Otras 10 preguntas de este tema» y enlace a los apuntes.
 - Prisiones de Cataluña: apuntes de los 25 temas en catalán (preview `70-`, que vuelve a publicar las fichas como titular). Formato fuente en `fuente-apunts/*.txt` (ver APUNTS.md en la carpeta de fuentes).
+- Policía local de Cataluña (2026-11-11): apuntes de los 23 temas tipo (`plcat-t01` … `t23`) en catalán, preview `78-`. Las réplicas de examen no tienen ficha ni apuntes. Huecos y normas desactualizadas señalados en el propio texto (Decret 179/2015, LO 9/1983 y LO 4/1981 no están en las fuentes; Llei 4/2003, 16/1991 y 19/2020 marcadas «Desactualizado» en el BOE).
 
 **Motivo:** estudiar sin temario era el bloqueo principal; los tests de 40 cansaban y no daban sensación de avance.
 **Consecuencias:** migración `20261110000200` y preview `69-`. Los apuntes de otras oposiciones se pueden añadir con el mismo formato. Huecos de fuentes señalados en el texto (p. ej. seguridad estática y dinámica en E14) quedan para revisión de joel.
