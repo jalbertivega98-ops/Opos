@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Mejoras de la oferta (2026-11-11, rama `claude/project-thread-m45lkq`, ADR-048)
+
+- Simulacro de psicotécnicos + pack 6,99 € en GC (formato oficial), PN, Guardia Urbana y Policía local (formato orientativo); plan anual 79,99 €; primer simulacro gratis por oposición; packs de 10 simulacros sin réplicas fijas; nº de temas sin réplicas y aviso de Mossos. Migración `20261111000200`, preview `84-`.
+- Pendiente: que joel diga «fusiona». Contenido (réplicas PN/GC, Bombers 2025, más preguntas) en hilos aparte (preview `85-` en adelante).
+
 - **Apuntes de Cultura general y actualidad de Cataluña (2026-11-11, LRN-007-CULT, ADR-046):** 10 fichas `cultcat-*`/`actcat-*` con `lessons` (preview `81-`, vuelve a publicarlas como titular). Fuente: `/mnt/project-files/aprobia/fuentes-oficiales/cultura-cat/fuente-apunts/` (build.py ya genera `lessons`). Pendiente de joel: revisar dudas de fuentes (`DUBTES-*.md`), ampliar C05 con fuentes de literatura y renovar A01 (actualidad) cada trimestre.
 - **Apuntes de policía local de Cataluña (2026-11-11, rama `claude/project-thread-drtmpl`, ADR-046):** apuntes de los 23 temas en `content/policia-local-cat/fichas` y preview `78-` (vuelve a publicar las fichas `plcat-*` como titular). Fuente en `fuentes-oficiales/policia-local-cat/fuente-apunts/`. Pendiente: que joel revise las dudas de fuentes de la PR y diga «fusiona».
 - **Apuntes de Ayudantes IIPP (2026-11-11, LRN-007-IIPP, ADR-046):** 50 temas con apuntes en castellano (91.392 palabras, cita literal por párrafo) en preview `73-`, que vuelve a publicar las fichas `iipp-*` como titular. Fuente en `/mnt/project-files/aprobia/fuentes-oficiales/ayudantes-iipp/fuente-apunts/`; dudas de fuentes en `INFORME-APUNTES.md`. Pendiente de joel: revisar huecos (bloque D, UE, RD 33/1986, contabilidad C20). Las refs de las preguntas A07 (art. 312 RP81) y C17 (art. 278.3 RP) se corrigieron y publicaron en preview `73b-` (11/11).

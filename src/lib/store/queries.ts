@@ -178,6 +178,8 @@ export type OfferProduct = {
     minutes?: number;
     penalty?: number;
     pass_mark?: number;
+    /** Formato orientativo: las bases no publican preguntas ni tiempo (ADR-048). */
+    orientative?: boolean;
   };
   questions: number;
   includes: string[];
@@ -189,12 +191,13 @@ export type ExamOffer = {
   questions: number;
   topic_list: OfferTopic[];
   products: OfferProduct[];
-  /** Premium de la oposición (suscripción mensual), si está a la venta. */
+  /** Premium de la oposición, si está a la venta: precio mensual y, si lo hay, anual. */
   premium: {
     slug: string;
     title: string;
     title_ca: string | null;
     price: { amount_cents: number; currency: string; interval: string | null } | null;
+    price_year?: { amount_cents: number; currency: string; interval: string | null } | null;
   } | null;
   /** Temas gratis (los de su pack gratuito), en el orden del temario. */
   free_topics: OfferTopic[];

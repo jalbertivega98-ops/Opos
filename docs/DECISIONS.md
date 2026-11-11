@@ -371,3 +371,18 @@ Cada paso muestra el % respecto al anterior, salvo «Crean cuenta», que se comp
 
 **Motivo:** saber qué paso mejorar primero con datos y no a ojo.
 **Consecuencias:** migración `20261111000100` y preview `83-`. El test gratis solo se cuenta desde el despliegue; antes sale 0 (se avisa en el panel). Con varias instancias el límite por IP es por instancia (SEC-004).
+
+## ADR-048 · Mejoras de la oferta por oposición (2026-11-11)
+
+**Decisión:** tras revisar qué es gratis y qué de pago en cada oposición, joel aprobó:
+
+1. **Simulacro de psicotécnicos y pack de 10 (6,99 €)** también en Guardia Civil, Policía Nacional, Guardia Urbana y Policía local (lista `examHasPsychoMock`). Guardia Civil con el formato oficial (BOE-A-2026-9982, bases 7.3 y 7.6: 80 preguntas, 55 min, 0–30, mínimo 12, error −1/3). Las otras tres no publican preguntas ni tiempo: **formato orientativo** (60 ejercicios, 30 min, sin penalización; Guardia Urbana puntúa 0–21 con mínimo 10,50 por la base 4.2), con `config.orientative` y aviso en la ficha. Bombers no: su base 6.1.4 es una evaluación de competencias, no un test de aptitudes (ADR-031). Los de GC y PN entran también en su pack completo.
+2. **Plan anual de Premium: 79,99 € al año** (6,67 €/mes, un 49 % menos que 12 meses). `product_prices` con `billing_interval = 'year'`; `exam_offer` devuelve `premium.price` (mensual) y `premium.price_year`; la compra lleva `interval` (`month` por defecto) y la ficha y «Mi perfil» dejan elegir.
+3. **Primer simulacro gratis por oposición:** `mock_trial_available(producto, alumno)` y `has_product_access` lo abren si el alumno no ha hecho ningún simulacro de esa oposición (o si es el que tiene en curso, para retomarlo). `my_library` lo lista con `source = 'trial'` y «Simulacros» lo explica.
+4. **Packs de 10 simulacros solo con simulacros que cambian:** se quitan las réplicas de exámenes (`slug` con `-examen-`), que repiten siempre las mismas preguntas, siempre que el pack conserve otro simulacro. Las réplicas siguen en Premium.
+5. **Fichas:** `exam_offer` no cuenta como temas los exámenes réplica (Administrativo decía 58 temas y son 54; Mossos 23 y 21). Mossos avisa de que la primera prueba de la 46/26 ya se hizo y que se prepara la próxima convocatoria.
+
+Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2025 completo, ~40 preguntas por tema en Bombers, Policía local y Auxiliar) van en hilos de contenido aparte, con preview desde `85-`.
+
+**Motivo:** las oposiciones policiales tienen un psicotécnico eliminatorio sin simulacro; quien prepara un año pagaba más aquí que en la competencia (OpositaTest anual 7,99 €/mes); ver la nota de un simulacro es lo que más engancha; un pack de 10 intentos de una réplica fija no tenía sentido.
+**Consecuencias:** migración `20261111000200`, preview `84-`. Quien ya tuviera un pack de 10 simulacros pierde con él el acceso a las réplicas (se comprueba en /admin antes de fusionar). El precio anual se cobra desde la BD como el mensual (price_data); se cambia en /admin/productos.

@@ -72,11 +72,20 @@ describe("plan de estudio", () => {
     expect(p.tasks.some((t) => t.kind === "mock" && t.mock === "knowledge")).toBe(true);
   });
 
-  it("solo Mossos y Auxiliar del Estado tienen simulacro de psicotécnicos", () => {
-    expect(examHasPsychoMock("mossos-esquadra")).toBe(true);
-    expect(examHasPsychoMock("auxiliar-administrativo-estado")).toBe(true);
-    expect(examHasPsychoMock("policia-nacional-basica")).toBe(false);
-    expect(examHasPsychoMock("guardia-civil-cabos-guardias")).toBe(false);
+  it("solo las oposiciones con psicotécnico tienen simulacro de psicotécnicos", () => {
+    for (const slug of [
+      "mossos-esquadra",
+      "auxiliar-administrativo-estado",
+      "policia-nacional-basica",
+      "guardia-civil-cabos-guardias",
+      "guardia-urbana-barcelona",
+      "policia-local",
+    ]) {
+      expect(examHasPsychoMock(slug)).toBe(true);
+      expect(examHasPsycho(slug)).toBe(true);
+    }
+    expect(examHasPsychoMock("bombers-generalitat")).toBe(false);
+    expect(examHasPsychoMock("auxilio-judicial")).toBe(false);
   });
 
   it("solo las oposiciones con prueba psicotécnica oficial la ofrecen", () => {
