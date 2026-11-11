@@ -76,5 +76,507 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Título I: objeto y ámbito de aplicación (arts. 1-2)",
+      "blocks": [
+        {
+          "text": "La Ley Orgánica 3/2018 (LOPDGDD) tiene dos objetos: adaptar el ordenamiento español al Reglamento (UE) 2016/679 (Reglamento general de protección de datos, RGPD) y completarlo, y garantizar los derechos digitales de la ciudadanía (art. 1). El derecho fundamental de las personas físicas a la protección de datos está amparado por el artículo 18.4 de la Constitución y se ejerce conforme al RGPD y a esta ley. Ojo: el texto del RGPD no está entre las fuentes de esta carpeta; aquí solo se estudia lo que la ley orgánica dice o remite a él.",
+          "refs": [
+            {
+              "ref": "Art. 1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El derecho fundamental de las personas físicas a la protección de datos personales, amparado por el artículo 18.4 de la Constitución, se ejercerá con arreglo a lo establecido en el Reglamento (UE) 2016/679 y en esta ley orgánica."
+            }
+          ]
+        },
+        {
+          "text": "Los títulos I a IX y los arts. 89 a 94 se aplican a cualquier tratamiento total o parcialmente automatizado y al no automatizado de datos contenidos o destinados a un fichero (art. 2.1). No se aplican a los tratamientos excluidos del RGPD, a los datos de personas fallecidas (salvo el art. 3) ni a los sometidos a la normativa de materias clasificadas (art. 2.2). Los tratamientos ajenos al Derecho de la Unión, como los del régimen electoral, instituciones penitenciarias o Registro Civil, se rigen por su legislación específica y supletoriamente por el RGPD y esta ley (art. 2.3).",
+          "refs": [
+            {
+              "ref": "Art. 2.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "b) A los tratamientos de datos de personas fallecidas, sin perjuicio de lo establecido en el artículo 3. c) A los tratamientos sometidos a la normativa sobre protección de materias clasificadas."
+            },
+            {
+              "ref": "Art. 2.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "los tratamientos realizados al amparo de la legislación orgánica del régimen electoral general, los tratamientos realizados en el ámbito de instituciones penitenciarias y los tratamientos derivados del Registro Civil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Título I: datos de las personas fallecidas (art. 3)",
+      "blocks": [
+        {
+          "text": "Las personas vinculadas al fallecido por razones familiares o de hecho y sus herederos pueden pedir al responsable el acceso a sus datos y, en su caso, su rectificación o supresión (art. 3.1). No pueden hacerlo si el fallecido lo prohibió expresamente o lo establece una ley, pero esa prohibición no afecta al derecho de los herederos a acceder a los datos de carácter patrimonial. También pueden actuar las personas o instituciones designadas expresamente por el fallecido (art. 3.2). Si fallece un menor, pueden ejercer estas facultades sus representantes legales o el Ministerio Fiscal, de oficio o a instancia de cualquier interesado (art. 3.3).",
+          "refs": [
+            {
+              "ref": "Art. 3.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "cuando la persona fallecida lo hubiese prohibido expresamente o así lo establezca una ley. Dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante."
+            },
+            {
+              "ref": "Art. 3.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "En caso de fallecimiento de menores, estas facultades podrán ejercerse también por sus representantes legales o, en el marco de sus competencias, por el Ministerio Fiscal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Título II: exactitud, confidencialidad y consentimiento (arts. 4-7)",
+      "blocks": [
+        {
+          "text": "Los datos deben ser exactos y, si es necesario, actualizados; la inexactitud no es imputable al responsable que adoptó medidas razonables cuando los datos los dio el propio afectado, un mediador, otro responsable por portabilidad o un registro público (art. 4). Responsables, encargados y todos los que intervienen en cualquier fase del tratamiento tienen deber de confidencialidad, complementario del secreto profesional, y se mantiene aunque haya terminado su relación con el responsable o encargado (art. 5).",
+          "refs": [
+            {
+              "ref": "Art. 5.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Los responsables y encargados del tratamiento de datos así como todas las personas que intervengan en cualquier fase de este estarán sujetas al deber de confidencialidad"
+            },
+            {
+              "ref": "Art. 5.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Las obligaciones establecidas en los apartados anteriores se mantendrán aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento."
+            }
+          ]
+        },
+        {
+          "text": "El consentimiento es toda manifestación de voluntad libre, específica, informada e inequívoca, mediante declaración o clara acción afirmativa (art. 6.1). Si se consiente para varias finalidades, debe constar para todas, y no se puede condicionar un contrato a consentir finalidades ajenas a él (art. 6.2 y 6.3). Los menores solo pueden consentir por sí mismos si son mayores de catorce años; por debajo de esa edad hace falta el consentimiento del titular de la patria potestad o tutela (art. 7).",
+          "refs": [
+            {
+              "ref": "Art. 6.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se entiende por consentimiento del afectado toda manifestación de voluntad libre, específica, informada e inequívoca"
+            },
+            {
+              "ref": "Art. 7.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Título II: obligación legal, categorías especiales y datos penales (arts. 8-10)",
+      "blocks": [
+        {
+          "text": "Un tratamiento solo se funda en una obligación legal, en el interés público o en el ejercicio de poderes públicos cuando lo prevea una norma con rango de ley o de Derecho de la Unión (art. 8). Para evitar discriminaciones, el solo consentimiento no basta para levantar la prohibición de tratar datos cuya finalidad principal sea identificar ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico (art. 9.1). Los datos sobre condenas e infracciones penales, para fines distintos de la prevención, investigación o enjuiciamiento penal, solo pueden tratarse si lo ampara una norma de rango legal o de la Unión (art. 10.1).",
+          "refs": [
+            {
+              "ref": "Art. 8.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "cuando derive de una competencia atribuida por una norma con rango de ley."
+            },
+            {
+              "ref": "Art. 9.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Título III: transparencia y ejercicio de los derechos (arts. 11-18)",
+      "blocks": [
+        {
+          "text": "El deber de información puede cumplirse por capas: se da una información básica (identidad del responsable, finalidad y posibilidad de ejercer los derechos) y una dirección electrónica u otro medio para acceder al resto (art. 11). Los derechos pueden ejercerse directamente o por representante legal o voluntario; el responsable debe ofrecer medios fácilmente accesibles y la prueba de haber respondido le corresponde a él (art. 12.1 a 12.4). Los titulares de la patria potestad pueden ejercer los derechos de los menores de catorce años (art. 12.6) y las actuaciones del responsable para atender las solicitudes son gratuitas (art. 12.7).",
+          "refs": [
+            {
+              "ref": "Art. 12.4 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "La prueba del cumplimiento del deber de responder a la solicitud de ejercicio de sus derechos formulado por el afectado recaerá sobre el responsable."
+            },
+            {
+              "ref": "Art. 12.7 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Serán gratuitas las actuaciones llevadas a cabo por el responsable del tratamiento para atender las solicitudes de ejercicio de estos derechos"
+            }
+          ]
+        },
+        {
+          "text": "El derecho de acceso se entiende otorgado si se facilita un sistema de acceso remoto, directo y seguro a todos los datos (art. 13.2), y puede considerarse repetitivo ejercerlo más de una vez en seis meses salvo causa legítima (art. 13.3); si el afectado elige un medio de coste desproporcionado, asume el exceso (art. 13.4). En la rectificación hay que indicar los datos y la corrección (art. 14). Tras una supresión por oposición a la mercadotecnia pueden conservarse los datos identificativos para impedir tratamientos futuros (art. 15.2). La limitación debe constar claramente en los sistemas (art. 16), y la portabilidad y la oposición se rigen por el RGPD (arts. 17 y 18).",
+          "refs": [
+            {
+              "ref": "Art. 13.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "se podrá considerar repetitivo el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello."
+            },
+            {
+              "ref": "Art. 16.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El hecho de que el tratamiento de los datos personales esté limitado debe constar claramente en los sistemas de información del responsable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Título IV: información crediticia y videovigilancia (arts. 19-27)",
+      "blocks": [
+        {
+          "text": "Se presume lícito, salvo prueba en contrario, incluir deudas en sistemas comunes de información crediticia si las facilita el acreedor, son ciertas, vencidas y exigibles y no reclamadas, y el afectado fue informado (art. 20.1). La entidad notifica la inclusión y los datos quedan bloqueados treinta días. Los datos solo se mantienen mientras persista el incumplimiento, con un máximo de cinco años desde el vencimiento de la obligación.",
+          "refs": [
+            {
+              "ref": "Art. 20.1.c) LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "dentro de los treinta días siguientes a la notificación de la deuda al sistema, permaneciendo bloqueados los datos durante ese plazo."
+            },
+            {
+              "ref": "Art. 20.1.d) LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Que los datos únicamente se mantengan en el sistema mientras persista el incumplimiento, con el límite máximo de cinco años desde la fecha de vencimiento de la obligación dineraria, financiera o de crédito."
+            }
+          ]
+        },
+        {
+          "text": "Las personas físicas o jurídicas, públicas o privadas, pueden usar cámaras para preservar la seguridad de personas, bienes e instalaciones; de la vía pública solo lo imprescindible, más en instalaciones estratégicas o de transporte, nunca el interior de un domicilio (art. 22.1 y 22.2). Las imágenes se suprimen en un mes como máximo desde su captación, salvo que acrediten actos contra personas, bienes o instalaciones, en cuyo caso se entregan a la autoridad en setenta y dos horas; no se aplica el bloqueo (art. 22.3). Se informa con un dispositivo visible (art. 22.4). Las cámaras de las Fuerzas y Cuerpos de Seguridad con fines penales se rigen por la legislación de transposición de la Directiva (UE) 2016/680 (art. 22.6).",
+          "refs": [
+            {
+              "ref": "Art. 22.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Los datos serán suprimidos en el plazo máximo de un mes desde su captación, salvo cuando hubieran de ser conservados para acreditar la comisión de actos que atenten contra la integridad de personas, bienes o instalaciones."
+            },
+            {
+              "ref": "Art. 22.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "En tal caso, las imágenes deberán ser puestas a disposición de la autoridad competente en un plazo máximo de setenta y dos horas"
+            },
+            {
+              "ref": "Art. 22.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El tratamiento de los datos personales procedentes de las imágenes y sonidos obtenidos mediante la utilización de cámaras y videocámaras por las Fuerzas y Cuerpos de Seguridad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Título V: responsable y encargado; registro y bloqueo (arts. 28-33)",
+      "blocks": [
+        {
+          "text": "Responsables y encargados determinan las medidas técnicas y organizativas apropiadas para garantizar y acreditar que el tratamiento es conforme (responsabilidad activa), atendiendo especialmente a los mayores riesgos, como discriminación, usurpación de identidad o fraude (art. 28). Mantienen el registro de actividades de tratamiento y comunican sus cambios al delegado; las Administraciones del art. 77.1 publican un inventario accesible por medios electrónicos (art. 31). El acceso del encargado a los datos necesarios para el servicio no es comunicación de datos, pero es responsable quien los usa para sus propias finalidades (art. 33).",
+          "refs": [
+            {
+              "ref": "Art. 31.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "harán público un inventario de sus actividades de tratamiento accesible por medios electrónicos"
+            },
+            {
+              "ref": "Art. 33.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Tendrá asimismo la consideración de responsable del tratamiento quien figurando como encargado utilizase los datos para sus propias finalidades."
+            }
+          ]
+        },
+        {
+          "text": "El responsable debe bloquear los datos cuando los rectifica o suprime (art. 32.1). Bloquear es identificarlos y reservarlos para impedir su tratamiento, incluso su visualización, salvo para ponerlos a disposición de jueces, Ministerio Fiscal o Administraciones competentes durante el plazo de prescripción de las posibles responsabilidades; después se destruyen (art. 32.2).",
+          "refs": [
+            {
+              "ref": "Art. 32.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El responsable del tratamiento estará obligado a bloquear los datos cuando proceda a su rectificación o supresión."
+            },
+            {
+              "ref": "Art. 32.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Transcurrido ese plazo deberá procederse a la destrucción de los datos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Título V: el delegado de protección de datos (arts. 34-37)",
+      "blocks": [
+        {
+          "text": "Además de los casos del RGPD, deben designar en todo caso un delegado de protección de datos (DPD), entre otras: colegios profesionales, centros docentes y universidades, entidades de crédito, aseguradoras, centros sanitarios con historias clínicas, operadores de juego en línea, empresas de seguridad privada y federaciones deportivas que traten datos de menores (art. 34.1). Los demás pueden designarlo voluntariamente (art. 34.2). Las designaciones, nombramientos y ceses se comunican a la AEPD o a la autoridad autonómica en diez días, sea la designación obligatoria o voluntaria (art. 34.3).",
+          "refs": [
+            {
+              "ref": "Art. 34.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "ñ) Las empresas de seguridad privada."
+            },
+            {
+              "ref": "Art. 34.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "comunicarán en el plazo de diez días a la Agencia Española de Protección de Datos o, en su caso, a las autoridades autonómicas de protección de datos, las designaciones, nombramientos y ceses de los delegados de protección de datos tanto en los supuestos en que se encuentren obligadas a su designación como en el caso en que sea voluntaria."
+            }
+          ]
+        },
+        {
+          "text": "El DPD es el interlocutor ante las autoridades de protección de datos; si es una persona física de la organización, no puede ser removido ni sancionado por desempeñar sus funciones salvo dolo o negligencia grave, y nadie puede oponerle deberes de secreto (art. 36). El afectado puede dirigirse al DPD antes de reclamar ante la autoridad, y el DPD le comunica la decisión en un máximo de dos meses; si la reclamación llega a la autoridad, esta puede remitirla al DPD para que responda en un mes (art. 37).",
+          "refs": [
+            {
+              "ref": "Art. 36.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "no podrá ser removido ni sancionado por el responsable o el encargado por desempeñar sus funciones salvo que incurriera en dolo o negligencia grave en su ejercicio."
+            },
+            {
+              "ref": "Art. 37.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "el delegado de protección de datos comunicará al afectado la decisión que se hubiera adoptado en el plazo máximo de dos meses a contar desde la recepción de la reclamación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Título VI: transferencias internacionales de datos (arts. 40-43)",
+      "blocks": [
+        {
+          "text": "Se rigen por el RGPD, esta ley, sus normas de desarrollo y las circulares de las autoridades (art. 40). La AEPD y las autoridades autonómicas pueden adoptar cláusulas contractuales tipo, con dictamen previo del Comité Europeo de Protección de Datos, y aprobar normas corporativas vinculantes en un procedimiento iniciado a instancia de una entidad situada en España, de nueve meses como máximo (art. 41). Las transferencias a países sin decisión de adecuación ni garantías requieren autorización previa en ciertos casos, con un procedimiento de seis meses como máximo (art. 42), y las basadas en intereses legítimos imperiosos se informan antes a la autoridad (art. 43).",
+          "refs": [
+            {
+              "ref": "Art. 41.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El procedimiento se iniciará a instancia de una entidad situada en España y tendrá una duración máxima de nueve meses."
+            },
+            {
+              "ref": "Art. 42.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El procedimiento tendrá una duración máxima de seis meses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Título VII: Agencia Española de Protección de Datos y autoridades autonómicas (arts. 44-62)",
+      "blocks": [
+        {
+          "text": "La AEPD es una autoridad administrativa independiente de ámbito estatal, con personalidad jurídica y plena capacidad pública y privada, que actúa con plena independencia de los poderes públicos; se relaciona con el Gobierno a través del Ministerio de Justicia y es el representante común de España en el Comité Europeo de Protección de Datos (art. 44). Supervisa la aplicación de la ley y del RGPD (art. 47).",
+          "refs": [
+            {
+              "ref": "Art. 44.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente de ámbito estatal, de las previstas en la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, con personalidad jurídica y plena capacidad pública y privada"
+            },
+            {
+              "ref": "Art. 44.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Se relaciona con el Gobierno a través del Ministerio de Justicia."
+            }
+          ]
+        },
+        {
+          "text": "La Presidencia dirige la Agencia, auxiliada por un Adjunto (art. 48.1 y 48.2). El Gobierno remite al Congreso una propuesta de Presidencia y Adjunto que debe ratificar la Comisión de Justicia por mayoría de tres quintos en primera votación o absoluta en segunda; se nombran por real decreto del Consejo de Ministros (art. 48.3 y 48.4). El mandato dura cinco años, renovable por otro igual; sus actos ponen fin a la vía administrativa y se recurren ante la Sala de lo Contencioso-administrativo de la Audiencia Nacional (art. 48.5 y 48.6). Las autoridades autonómicas ejercen esas funciones sobre los tratamientos de su sector público autonómico y local (art. 57).",
+          "refs": [
+            {
+              "ref": "Art. 48.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "deberá ser ratificada por la Comisión de Justicia en votación pública por mayoría de tres quintos de sus miembros en primera votación"
+            },
+            {
+              "ref": "Art. 48.5 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos tiene una duración de cinco años y puede ser renovado para otro período de igual duración."
+            },
+            {
+              "ref": "Art. 48.6 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "ponen fin a la vía administrativa, siendo recurribles, directamente, ante la Sala de lo Contencioso-administrativo de la Audiencia Nacional."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Título VIII: procedimientos por posible vulneración (arts. 63-69)",
+      "blocks": [
+        {
+          "text": "Si el procedimiento trata solo de una solicitud de derechos no atendida, se inicia con el acuerdo de admisión a trámite y se resuelve en seis meses; si no, el interesado puede considerar estimada su reclamación (art. 64.1). Si busca determinar una infracción, se inicia con acuerdo de inicio, de oficio o por reclamación, y dura como máximo doce meses desde ese acuerdo; pasado el plazo caduca y se archiva (art. 64.2). El procedimiento de apercibimiento y medidas correctivas dura seis meses (art. 64.3).",
+          "refs": [
+            {
+              "ref": "Art. 64.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "En este caso el plazo para resolver el procedimiento será de seis meses"
+            },
+            {
+              "ref": "Art. 64.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El procedimiento tendrá una duración máxima de doce meses a contar desde la fecha del acuerdo de inicio. Transcurrido ese plazo se producirá su caducidad y, en consecuencia, el archivo de actuaciones."
+            }
+          ]
+        },
+        {
+          "text": "La AEPD inadmite las reclamaciones ajenas a la protección de datos, manifiestamente infundadas, abusivas o sin indicios racionales de infracción (art. 65.2), y puede remitirlas antes al DPD o al responsable, que debe responder en un mes (art. 65.4). La decisión sobre la admisión se notifica en tres meses; si no se notifica, se entiende que la tramitación prosigue (art. 65.5). Las actuaciones previas de investigación no pueden durar más de dieciocho meses (art. 67.2), y caben medidas provisionales, incluido el bloqueo de los datos (art. 69).",
+          "refs": [
+            {
+              "ref": "Art. 65.5 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "deberá notificarse al reclamante en el plazo de tres meses. Si transcurrido este plazo no se produjera dicha notificación, se entenderá que prosigue la tramitación de la reclamación"
+            },
+            {
+              "ref": "Art. 67.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "no podrán tener una duración superior a dieciocho meses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Protección de datos: derecho fundamental del art. 18.4 CE.",
+          "refs": [
+            {
+              "ref": "Art. 1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "amparado por el artículo 18.4 de la Constitución"
+            }
+          ]
+        },
+        {
+          "text": "Prohibición del fallecido: los herederos conservan el acceso a los datos patrimoniales.",
+          "refs": [
+            {
+              "ref": "Art. 3.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "Dicha prohibición no afectará al derecho de los herederos a acceder a los datos de carácter patrimonial del causante."
+            }
+          ]
+        },
+        {
+          "text": "Consentimiento propio del menor: más de catorce años.",
+          "refs": [
+            {
+              "ref": "Art. 7.1 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "cuando sea mayor de catorce años."
+            }
+          ]
+        },
+        {
+          "text": "Acceso repetitivo: más de una vez en seis meses.",
+          "refs": [
+            {
+              "ref": "Art. 13.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "durante el plazo de seis meses"
+            }
+          ]
+        },
+        {
+          "text": "Morosos: máximo cinco años desde el vencimiento; videovigilancia: supresión en un mes.",
+          "refs": [
+            {
+              "ref": "Art. 22.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "en el plazo máximo de un mes desde su captación"
+            }
+          ]
+        },
+        {
+          "text": "DPD: comunicación del nombramiento en diez días; respuesta al afectado en dos meses.",
+          "refs": [
+            {
+              "ref": "Art. 34.3 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "comunicarán en el plazo de diez días"
+            }
+          ]
+        },
+        {
+          "text": "Normas corporativas vinculantes: procedimiento de nueve meses.",
+          "refs": [
+            {
+              "ref": "Art. 41.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "tendrá una duración máxima de nueve meses."
+            }
+          ]
+        },
+        {
+          "text": "Presidencia de la AEPD: cinco años renovables; tres quintos en la Comisión de Justicia.",
+          "refs": [
+            {
+              "ref": "Art. 48.5 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "tiene una duración de cinco años"
+            }
+          ]
+        },
+        {
+          "text": "Procedimiento sancionador: doce meses y caducidad; admisión de la reclamación: tres meses.",
+          "refs": [
+            {
+              "ref": "Art. 64.2 LOPDGDD",
+              "law": "LO 3/2018",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+              "quote": "El procedimiento tendrá una duración máxima de doce meses"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

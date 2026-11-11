@@ -68,5 +68,513 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "El RD 1649/1998: objeto y ámbito",
+      "blocks": [
+        {
+          "text": "El Real Decreto 1649/1998, de 24 de julio, desarrolla reglamentariamente el título II de la Ley Orgánica 12/1995, de Represión del Contrabando, es decir, las infracciones administrativas de contrabando (art. 1.1). Su finalidad es doble: fijar el procedimiento para imponer las sanciones y concretar cómo se aplican los criterios de graduación (art. 1.2). La ley regula qué es infracción y qué sanción corresponde; el reglamento explica cómo se tramita el expediente y cómo se gradúa la sanción.",
+          "refs": [
+            {
+              "ref": "Art. 1.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "El presente Real Decreto desarrolla reglamentariamente el Título II de la Ley Orgánica 12/1995, de 12 de diciembre, de Represión del Contrabando"
+            },
+            {
+              "ref": "Art. 1.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "En la imposición de sanciones por infracciones administrativas de contrabando se seguirán las normas de procedimiento y se aplicarán los criterios de graduación con sujeción a lo establecido en el presente Real Decreto."
+            }
+          ]
+        },
+        {
+          "text": "Ojo, cuestión de vigencia: el reglamento no se ha actualizado tras las reformas de la ley. Sus artículos 2 a 5 y 13 conservan cuantías en pesetas (por ejemplo, 3.000.000 de pesetas) y una prescripción de cinco años, mientras que hoy rigen los importes en euros, los porcentajes y la prescripción de cuatro años de los arts. 11, 12 y 15 de la LO 12/1995 (tema G23). En caso de examen, aplica la ley; del reglamento estudia sobre todo el procedimiento.",
+          "refs": [
+            {
+              "ref": "Art. 4.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Las infracciones administrativas de contrabando prescriben a los cinco años a contar desde la fecha de su comisión."
+            },
+            {
+              "ref": "Art. 15.1 LO 12/1995",
+              "law": "LO 12/1995",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-26836",
+              "quote": "Las infracciones administrativas de contrabando prescriben a los cuatro años a contar desde el día de su comisión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Criterios de graduación de las sanciones (art. 6)",
+      "blocks": [
+        {
+          "text": "Las sanciones se gradúan en cada caso según seis criterios (art. 6.1): a) la reiteración; b) la resistencia, negativa u obstrucción a la acción investigadora; c) la utilización de medios fraudulentos o de persona interpuesta (anomalías sustanciales en la contabilidad, facturas o documentos falsos, medios que revelen planificación); d) la comisión por medio o en beneficio de personas u organizaciones que tengan especial facilidad para cometerla; e) el uso de los mecanismos aduaneros de simplificación de formalidades; y f) la naturaleza de los bienes.",
+          "refs": [
+            {
+              "ref": "Art. 6.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "a) La reiteración. b) La resistencia, negativa u obstrucción a la acción investigadora"
+            },
+            {
+              "ref": "Art. 6.1.c) RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "la existencia de anomalías sustanciales en la contabilidad, el empleo de facturas, justificantes y otros documentos falsos o falseados y la utilización de medios, modos o formas que indiquen una planificación del contrabando."
+            }
+          ]
+        },
+        {
+          "text": "La regla de aplicación es clave: se parte de la sanción en su límite inferior y los criterios se aplican simultáneamente (art. 6.3). Si al sumarlos se supera el límite superior, la sanción se impone en ese límite superior; si al restarlos se baja del inferior, en el inferior (art. 6.4 y 6.5). La naturaleza de los bienes es el único criterio que atenúa: opera cuando son de lícito comercio y no se trata de géneros prohibidos, material de defensa o doble uso, Patrimonio Histórico, especies CITES ni tabaco (art. 6.2).",
+          "refs": [
+            {
+              "ref": "Art. 6.3 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Para la aplicación de los criterios de graduación se partirá de la sanción en su límite inferior. Los criterios de graduación son aplicables simultáneamente."
+            },
+            {
+              "ref": "Art. 6.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "El criterio establecido en el párrafo f) operará como circunstancia atenuante en la graduación de la sanción"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Desarrollo de cada criterio (arts. 7 a 12)",
+      "blocks": [
+        {
+          "text": "Por la naturaleza de los bienes, el porcentaje de las sanciones leves o muy graves se reduce entre 15 y 20 puntos, y el de las graves entre 30 y 40 (art. 7). Hay reiteración si el infractor fue sancionado por resolución administrativa firme en los cinco años anteriores (art. 8.1); una sanción previa incrementa la multa leve o muy grave entre 15 y 20 puntos y la grave entre 30 y 40, y más de una la incrementa entre 40 y 50 y entre 80 y 100 puntos, con escalas propias para el tabaco. Más de dos sanciones previas permiten el cierre definitivo del establecimiento (art. 8.4).",
+          "refs": [
+            {
+              "ref": "Art. 8.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "se apreciará reiteración cuando el sujeto infractor haya sido sancionado por cualquier infracción administrativa de contrabando en resolución administrativa firme dentro de los cinco años anteriores a la fecha de la comisión de la infracción."
+            },
+            {
+              "ref": "Art. 8.2.a) RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Sanciones pecuniarias por infracción leve y muy grave: entre 15 y 20 puntos. Sanción pecuniaria por infracción grave entre 30 y 40 puntos."
+            }
+          ]
+        },
+        {
+          "text": "Hay obstrucción cuando el infractor no atiende los requerimientos o intenta dilatar, entorpecer o impedir las actuaciones (art. 9). La planificación se aprecia, por ejemplo, con vehículos de doble fondo, precintos falsificados, radioescuchas o sistemas para detectar controles (art. 10.3), y la persona interpuesta cuando el infractor pone a nombre de un tercero la titularidad de los medios o de las mercancías para ocultarse (art. 10.5). La facilidad especial se da, entre otros, con personal de la Administración aduanera, transportistas internacionales o agencias de aduanas (art. 11).",
+          "refs": [
+            {
+              "ref": "Art. 10.3 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "vehículos con doble fondo o espacios disimulados, precintos falsificados, sistemas de radio escucha, sistemas de detección de controles de los órganos encargados de la represión del contrabando"
+            },
+            {
+              "ref": "Art. 11.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "compañías de transporte internacional, agencias de aduanas, compañías transitarias y consignatarias"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "El comiso (art. 14)",
+      "blocks": [
+        {
+          "text": "Toda sanción por infracción administrativa de contrabando lleva consigo el comiso de las mercancías objeto de la infracción, de los materiales e instrumentos para fabricar o comerciar géneros estancados o prohibidos, de los medios de transporte, de las ganancias y de los bienes usados como instrumento (art. 14.1). El medio de transporte no se decomisa si pertenece a un tercero ajeno a la infracción o si el órgano competente considera la medida desproporcionada. Y no se decomisan los bienes de lícito comercio adquiridos por un tercero de buena fe (art. 14.2).",
+          "refs": [
+            {
+              "ref": "Art. 14.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Toda sanción que se imponga por una infracción administrativa de contrabando llevará consigo el comiso de los siguientes bienes, efectos e instrumentos: a) Las mercancías que constituyan el objeto de la infracción."
+            },
+            {
+              "ref": "Art. 14.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "No se procederá al comiso de los bienes, efectos e instrumentos del contrabando, cuando éstos sean de lícito comercio y hayan sido adquiridos por un tercero de buena fe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Procedimiento: disposiciones generales y órganos competentes (arts. 15 a 19)",
+      "blocks": [
+        {
+          "text": "Los interesados pueden conocer en todo momento el estado del procedimiento, acceder a los documentos y obtener copias, y hacer alegaciones antes del trámite de audiencia (art. 15). Imponen las multas, decretan el comiso y ordenan la enajenación anticipada los Administradores de Aduanas e Impuestos Especiales, los Interventores de Territorio Franco, los Jefes de Dependencia de Aduanas e Impuestos Especiales y el Director del Departamento de Aduanas e Impuestos Especiales de la AEAT (art. 16.1). El cierre de establecimientos por infracciones relacionadas con el tabaco lo acuerda solo el Director del Departamento (art. 16.2). Inician e instruyen las Secciones de contrabando de la provincia donde se descubrió la infracción (art. 16.3).",
+          "refs": [
+            {
+              "ref": "Art. 16.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Es competente para acordar el cierre de establecimientos por infracciones administrativas de contrabando relacionadas con las labores del tabaco, el Director del Departamento de Aduanas e Impuestos Especiales de la Agencia Estatal de Administración Tributaria."
+            },
+            {
+              "ref": "Art. 16.3 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Son competentes para iniciar e instruir el procedimiento sancionador, por las infracciones administrativas de contrabando, las Secciones de contrabando de las Administraciones de Aduanas e Impuestos Especiales de la provincia en la que se haya descubierto la infracción"
+            }
+          ]
+        },
+        {
+          "text": "Si los hechos pueden ser delito, el órgano pasa el tanto de culpa al juez, lo notifica al interesado y suspende el procedimiento hasta la sentencia firme, el sobreseimiento, el archivo o la devolución; la remisión interrumpe la prescripción (art. 17). La sentencia condenatoria excluye la sanción administrativa (art. 17.5). Si el infractor reconoce su responsabilidad o, en sanciones solo pecuniarias, paga voluntariamente antes de la resolución, pueden omitirse las fases previas (art. 18). El cierre se impone en el mismo expediente que la multa (art. 19).",
+          "refs": [
+            {
+              "ref": "Art. 17.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "La sentencia condenatoria de la autoridad judicial excluirá la imposición de sanción por infracción administrativa de contrabando."
+            },
+            {
+              "ref": "Art. 17.3 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "La remisión del expediente a la jurisdicción competente interrumpirá los plazos de prescripción"
+            },
+            {
+              "ref": "Art. 18.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "si el infractor reconoce su responsabilidad el procedimiento podrá resolverse con la imposición de la sanción que proceda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Forma de iniciación (art. 20)",
+      "blocks": [
+        {
+          "text": "El procedimiento se inicia siempre de oficio, por acuerdo del titular de la unidad administrativa que instruye el expediente, por propia iniciativa o por orden superior, petición razonada de otros órganos o denuncia (art. 20.1). El acuerdo puede basarse en la actuación de: a) los órganos de la Administración aduanera; b) la Guardia Civil cuando cumple funciones propias del resguardo fiscal del Estado y de persecución del contrabando, y otras fuerzas con competencias específicas; c) las demás Fuerzas y Cuerpos de Seguridad; y d) las autoridades militares en los casos del art. 22.2 (art. 20.2).",
+          "refs": [
+            {
+              "ref": "Art. 20.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "El procedimiento se iniciará de oficio, mediante acuerdo del titular de la unidad administrativa que instruya el expediente, bien por propia iniciativa o como consecuencia de orden superior, petición razonada de otros órganos o denuncia."
+            },
+            {
+              "ref": "Art. 20.2.b) RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "b) Las fuerzas de la Guardia Civil, que cumplan funciones propias del resguardo fiscal del Estado y las actuaciones encaminadas a evitar y perseguir el contrabando"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Actuaciones previas: denuncia y otras actuaciones (arts. 21 y 22)",
+      "blocks": [
+        {
+          "text": "La denuncia se presenta ante las Administraciones de Aduanas, las Intervenciones de Territorio Franco o las Secciones de Aduanas de las Delegaciones de la AEAT, por comparecencia o por escrito, con la identidad del denunciante y el relato de los hechos (art. 21). El denunciante no es interesado en el procedimiento ni puede recurrir, salvo excepciones (art. 21.4). Antes de iniciar, se pueden practicar actuaciones previas para delimitar los hechos y los presuntos responsables (art. 22.1).",
+          "refs": [
+            {
+              "ref": "Art. 21.4 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "No se considerará al denunciante interesado en la actuación administrativa que se inicie a raíz de la denuncia"
+            },
+            {
+              "ref": "Art. 22.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "podrán realizar actuaciones previas con objeto de determinar, con carácter preliminar, los hechos que pudieran constituir infracción de contrabando"
+            }
+          ]
+        },
+        {
+          "text": "Las demás Fuerzas y Cuerpos de Seguridad y las autoridades militares solo actúan en tres casos: cuando por urgencia las requieren los funcionarios y fuerzas encargados del contrabando; cuando sorprenden a los infractores cometiendo la infracción; o cuando conocen una infracción y pueden aprehender preventivamente si no están presentes la Administración aduanera ni la Guardia Civil (art. 22.2). Si concurren varias fuerzas, la dirección funcional corresponde al órgano aduanero competente para resolver (art. 22.3). Todos aprehenden cautelarmente los bienes decomisables y documentan su actuación en una diligencia que deben remitir en las 48 horas siguientes a su formalización, poniendo a disposición lo aprehendido (art. 22.4 y 22.5).",
+          "refs": [
+            {
+              "ref": "Art. 22.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "a) Cuando por razones de urgencia sean requeridas al efecto por los funcionarios y fuerzas a quienes está encomendada la persecución y el descubrimiento del contrabando. b) Cuando sorprendan a los infractores en el momento de cometer la infracción."
+            },
+            {
+              "ref": "Art. 22.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Las diligencias citadas en el párrafo anterior se remitirán, dentro de las cuarenta y ocho horas siguientes al momento en que se formalicen, al órgano al que corresponda iniciar el procedimiento sancionador en razón de su competencia territorial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Diligencias de aprehensión o descubrimiento y destino de lo aprehendido (arts. 23 y 24)",
+      "blocks": [
+        {
+          "text": "La diligencia recoge los hechos relevantes y las manifestaciones de los presuntos responsables (art. 23.1). Es de aprehensión si en ese momento se aprehenden los bienes, y de descubrimiento si no (art. 23.2). No exige modelo, pero debe contener al menos el lugar, día y hora, los datos de los presuntos infractores, la descripción de los bienes y de los medios de transporte, la identificación de los aprehensores, los preceptos infringidos, el órgano destinatario y el domicilio para notificaciones (art. 23.3).",
+          "refs": [
+            {
+              "ref": "Art. 23.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Serán de aprehensión cuando, en el momento de formalizarse, tenga lugar la aprehensión de los bienes, efectos o instrumentos. Serán de descubrimiento cuando no tenga lugar la aprehensión de los bienes, efectos e instrumentos."
+            },
+            {
+              "ref": "Art. 23.3 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Las diligencias podrán extenderse sin sujeción a un modelo preestablecido"
+            }
+          ]
+        },
+        {
+          "text": "La firman los aprehensores o descubridores y los presuntos infractores; si estos faltan o no saben o no quieren firmar, firman dos testigos, si los hay, y se hace constar (art. 23.4). Se extiende por triplicado: el original para la oficina de aduanas que inicia el procedimiento, una copia para el presunto infractor y otra para quien la suscribe (art. 23.5). Si cumple los requisitos, es documento público con valor probatorio, sin perjuicio de las pruebas de los interesados (art. 23.6).",
+          "refs": [
+            {
+              "ref": "Art. 23.4 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "en defecto de éstos o si no saben o no quieren firmar, por dos testigos, si los hubiese, haciendo constar esta circunstancia."
+            },
+            {
+              "ref": "Art. 23.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Las diligencias se extenderán por triplicado"
+            },
+            {
+              "ref": "Art. 23.6 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Las diligencias formalizadas observando los requisitos señalados en el apartado 3 de este artículo tendrán el carácter de documento público y valor probatorio"
+            }
+          ]
+        },
+        {
+          "text": "El destino de lo aprehendido depende de su naturaleza (art. 24): el tabaco y los demás géneros estancados se entregan al Comisionado para el Mercado de Tabacos o a los representantes del monopolio; los prohibidos y el material de defensa, a los organismos de custodia; el Patrimonio Histórico, a Bellas Artes o a la comunidad autónoma; las especies CITES, a organismos de acogida; y el resto se deposita en almacenes de la Administración aduanera.",
+          "refs": [
+            {
+              "ref": "Art. 24.a) RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Cuando se trate de labores de tabaco o de otros géneros o efectos estancados, se procederá en la forma que indiquen las disposiciones reguladoras de los respectivos monopolios públicos, entregándose los mismos al Comisionado para el Mercado de Tabacos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Iniciación: acumulación, valoración y medidas provisionales (arts. 25 a 29)",
+      "blocks": [
+        {
+          "text": "Antes de dictar el acuerdo de iniciación, el órgano valora los bienes y adopta en su caso medidas provisionales (art. 25.1). Si el acuerdo contiene ya todos los elementos de la propuesta y no hay alegaciones en quince días, puede considerarse propuesta de resolución (art. 25.2). Pueden acumularse los expedientes con conexión directa, pero solo a efectos de tramitación e imposición de sanciones, sin sumar el valor de los bienes en un único expediente (art. 26). La valoración sigue el art. 10 de la LO 12/1995 (art. 27).",
+          "refs": [
+            {
+              "ref": "Art. 26.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Esta acumulación se efectuará a los solos efectos de la tramitación del expediente y de la imposición de las sanciones, sin que en ningún caso suponga la acumulación del valor de los bienes"
+            },
+            {
+              "ref": "Art. 27.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "serán valorados por el órgano competente para iniciar e instruir el expediente con arreglo a lo dispuesto en el artículo 10 de la Ley Orgánica 12/1995"
+            }
+          ]
+        },
+        {
+          "text": "Iniciado el procedimiento, se intervienen los bienes aprehendidos a resultas de la resolución; los no comunitarios se consideran en depósito aduanero (art. 28.1). Pueden nombrarse depositarios a los presuntos infractores, el Comisionado puede disponer del tabaco (incluso destruirlo) y el instructor puede vender de inmediato lo peligroso, perecedero o abandonado (art. 28). La notificación de inicio indica, entre otras cosas, los hechos, los órganos competentes, la posibilidad de reconocer la responsabilidad o pagar, la valoración y los plazos para alegar (art. 29).",
+          "refs": [
+            {
+              "ref": "Art. 28.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Formalizada la iniciación del procedimiento se acordará inmediatamente la intervención de los bienes, efectos e instrumentos aprehendidos, a resultas de lo que se decida en la resolución que ponga fin al procedimiento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Instrucción: alegaciones, prueba, audiencia y propuesta (arts. 30 a 34)",
+      "blocks": [
+        {
+          "text": "El instructor practica de oficio las actuaciones necesarias y pide siempre al Departamento de Aduanas los antecedentes sancionadores de los inculpados (art. 30.1). Los interesados tienen quince días desde el día siguiente a la notificación de la iniciación para alegar, aportar documentos y proponer prueba (art. 31). El período de prueba no puede ser superior a treinta días ni inferior a diez (art. 32.1). Después hay audiencia de quince días (art. 33), y el instructor formula la propuesta de resolución, que se remite de inmediato al órgano que resuelve (art. 34).",
+          "refs": [
+            {
+              "ref": "Art. 31 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "los interesados dispondrán de un plazo de quince días desde el día siguiente a la notificación de la iniciación"
+            },
+            {
+              "ref": "Art. 32.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "por un plazo no superior a treinta días ni inferior a diez."
+            },
+            {
+              "ref": "Art. 33 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "concediéndoles un plazo de quince días para que formulen alegaciones"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Resolución, plazos y destino de los bienes (arts. 35 a 37)",
+      "blocks": [
+        {
+          "text": "La resolución es motivada y, si aprecia infracción, menciona hechos probados, bienes y su valor, infractores, sanciones previas en los cinco años anteriores, sanción y criterios de graduación, comiso, forma de pago, establecimientos que se cierran y recursos (económico-administrativo y después contencioso) (art. 35.2). El plazo máximo para resolver es de seis meses desde el acuerdo de iniciación, prorrogable una sola vez por otros seis; transcurridos treinta días desde el vencimiento sin resolución, el procedimiento caduca y se archiva, aunque puede reiniciarse si no ha prescrito (art. 35.5). Recurrir en plazo suspende automáticamente la ejecución, sin garantía (art. 35.6).",
+          "refs": [
+            {
+              "ref": "Art. 35.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "El plazo máximo para resolver el procedimiento será de seis meses desde la fecha del acuerdo de iniciación."
+            },
+            {
+              "ref": "Art. 35.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Transcurridos treinta días desde el vencimiento del plazo sin que la resolución haya sido dictada se entenderá caducado el procedimiento y se procederá al archivo de las actuaciones"
+            }
+          ]
+        },
+        {
+          "text": "Los bienes no decomisados se devuelven a sus dueños, o se les entrega el importe si se vendieron (art. 36). Los decomisados por resolución firme se adjudican al Estado (art. 37.1); los no comunitarios quedan en depósito aduanero, y el uso de los no enajenables se adscribe a las fuerzas o servicios que los aprehendieron (art. 37.4). El Departamento de Aduanas lleva un registro de sancionados para graduar sanciones (disp. adic. 1.ª).",
+          "refs": [
+            {
+              "ref": "Art. 37.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Los bienes, efectos e instrumentos definitivamente decomisados por resolución firme en procedimientos por infracción administrativa de contrabando serán adjudicados al Estado."
+            },
+            {
+              "ref": "Art. 37.4 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "quedará adscrito a las fuerzas o servicios que, encargados de la persecución del contrabando, hayan procedido a su aprehensión"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recuerda para el examen",
+      "blocks": [
+        {
+          "text": "Graduación: se parte del límite inferior y los criterios se aplican simultáneamente; el primero de la lista es la reiteración.",
+          "refs": [
+            {
+              "ref": "Art. 6.3 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Para la aplicación de los criterios de graduación se partirá de la sanción en su límite inferior."
+            }
+          ]
+        },
+        {
+          "text": "Cierre de establecimientos por tabaco: lo acuerda el Director del Departamento de Aduanas e Impuestos Especiales de la AEAT.",
+          "refs": [
+            {
+              "ref": "Art. 16.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Es competente para acordar el cierre de establecimientos por infracciones administrativas de contrabando relacionadas con las labores del tabaco"
+            }
+          ]
+        },
+        {
+          "text": "Inicio siempre de oficio; puede basarse en la actuación de la Guardia Civil en funciones de resguardo fiscal.",
+          "refs": [
+            {
+              "ref": "Art. 20.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "El procedimiento se iniciará de oficio"
+            }
+          ]
+        },
+        {
+          "text": "Las diligencias se remiten en 48 horas, se extienden por triplicado y, si cumplen los requisitos, son documento público.",
+          "refs": [
+            {
+              "ref": "Art. 22.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "dentro de las cuarenta y ocho horas siguientes al momento en que se formalicen"
+            }
+          ]
+        },
+        {
+          "text": "Diligencia de descubrimiento: la que se formaliza sin aprehender los bienes. Si el infractor no firma, firman dos testigos.",
+          "refs": [
+            {
+              "ref": "Art. 23.2 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "Serán de descubrimiento cuando no tenga lugar la aprehensión de los bienes, efectos e instrumentos."
+            }
+          ]
+        },
+        {
+          "text": "El tabaco aprehendido se entrega al Comisionado para el Mercado de Tabacos.",
+          "refs": [
+            {
+              "ref": "Art. 24.a) RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "entregándose los mismos al Comisionado para el Mercado de Tabacos"
+            }
+          ]
+        },
+        {
+          "text": "Plazos: alegaciones, 15 días; prueba, entre 10 y 30 días; resolución, 6 meses; caducidad, 30 días después del vencimiento.",
+          "refs": [
+            {
+              "ref": "Art. 32.1 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "por un plazo no superior a treinta días ni inferior a diez."
+            }
+          ]
+        },
+        {
+          "text": "Lo decomisado por resolución firme se adjudica al Estado; la sentencia penal condenatoria excluye la sanción administrativa.",
+          "refs": [
+            {
+              "ref": "Art. 17.5 RD 1649/1998",
+              "law": "RD 1649/1998",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-21017",
+              "quote": "La sentencia condenatoria de la autoridad judicial excluirá la imposición de sanción por infracción administrativa de contrabando."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }
