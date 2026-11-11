@@ -142,6 +142,17 @@ test.describe("Administración", () => {
     await expect(page.getByTestId("admin-audience")).toContainText("cuentas en total");
     await expect(page.getByTestId("chart-logins")).toContainText("Han entrado");
     await expect(page.getByTestId("chart-visits").locator("table tr")).toHaveCount(30);
+    // Embudo de conversión (ADR-047): 7 pasos, 30 días por defecto y cambio a 7.
+    const funnel = page.getByTestId("admin-funnel");
+    await expect(funnel).toContainText("Embudo de conversión");
+    await expect(funnel.locator("ol > li")).toHaveCount(7);
+    await expect(page.getByTestId("funnel-signups")).toContainText("Crean cuenta");
+    await expect(page.getByTestId("funnel-period-30")).toHaveAttribute("aria-current", "true");
+    await page.getByTestId("funnel-period-7").click();
+    await expect(page).toHaveURL(/embudo=7/);
+    await expect(page.getByTestId("funnel-period-7")).toHaveAttribute("aria-current", "true");
+    if (process.env.SHOT_DIR)
+      await funnel.screenshot({ path: `${process.env.SHOT_DIR}/embudo.png` });
     if (process.env.SHOT_DIR)
       await page
         .getByTestId("admin-audience")

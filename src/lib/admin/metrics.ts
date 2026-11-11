@@ -105,3 +105,50 @@ export async function getAudienceDaily(days = 30): Promise<AudienceDay[]> {
     }),
   );
 }
+
+export const FUNNEL_STEPS = [
+  "visits",
+  "sample_start",
+  "sample_finish",
+  "signups",
+  "onboarded",
+  "practicing",
+  "paying",
+] as const;
+export type FunnelStepKey = (typeof FUNNEL_STEPS)[number];
+
+export type Funnel = {
+  days: number;
+  steps: { key: FunnelStepKey; value: number }[];
+  byExam: { slug: string; name: string; starts: number; finishes: number }[];
+};
+
+/** Embudo de conversión de los últimos `days` días (ADR-047). Solo administradores. */
+export async function getFunnel(days = 30): Promise<Funnel> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_funnel", { p_days: days });
+  if (error) throw new Error(`admin funnel: ${error.message}`);
+  const raw = data as Record<FunnelStepKey, number> & {
+    days: number;
+    by_exam: { exam: string; starts: number; finishes: number }[];
+  };
+  const slugs = raw.by_exam.map((e) => e.exam);
+  const names = new Map<string, string>();
+  if (slugs.length) {
+    const { data: exams } = await supabase
+      .from("exam_bodies")
+      .select("slug, name")
+      .in("slug", slugs);
+    for (const e of exams ?? []) names.set(e.slug, e.name);
+  }
+  return {
+    days: Number(raw.days),
+    steps: FUNNEL_STEPS.map((key) => ({ key, value: Number(raw[key] ?? 0) })),
+    byExam: raw.by_exam.map((e) => ({
+      slug: e.exam,
+      name: names.get(e.exam) ?? e.exam,
+      starts: Number(e.starts),
+      finishes: Number(e.finishes),
+    })),
+  };
+}

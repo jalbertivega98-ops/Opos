@@ -3,9 +3,11 @@ import { getFormatter, getTranslations, setRequestLocale } from "next-intl/serve
 import { Card, EmptyState } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
 import { DailyChart } from "@/components/admin/daily-chart";
+import { FUNNEL_PERIODS, FunnelCard } from "@/components/admin/funnel-card";
 import {
   getAudienceDaily,
   getAudienceMetrics,
+  getFunnel,
   getPracticeMetrics,
   getUserMetrics,
 } from "@/lib/admin/metrics";
@@ -13,17 +15,23 @@ import { pct } from "@/lib/learning/practice/format";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
 
-export default async function AdminPage({ params }: PageProps<"/[locale]/admin">) {
+export default async function AdminPage({ params, searchParams }: PageProps<"/[locale]/admin">) {
   const { locale } = await params;
+  const sp = await searchParams;
+  const funnelDays =
+    FUNNEL_PERIODS.find(
+      (d) => String(d) === (Array.isArray(sp.embudo) ? sp.embudo[0] : sp.embudo),
+    ) ?? 30;
   setRequestLocale(locale);
   const t = await getTranslations("admin");
   const format = await getFormatter();
   const tp = await getTranslations("psycho");
-  const [m, pm, am, daily] = await Promise.all([
+  const [m, pm, am, daily, funnel] = await Promise.all([
     getUserMetrics(),
     getPracticeMetrics(),
     getAudienceMetrics(),
     getAudienceDaily(30),
+    getFunnel(funnelDays),
   ]);
   const formatDay = (day: string) =>
     format.dateTime(new Date(`${day}T12:00:00Z`), { day: "numeric", month: "short" });
@@ -70,6 +78,8 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
           </Link>
         </p>
       </section>
+
+      <FunnelCard funnel={funnel} />
 
       <section aria-labelledby="audience-title" data-testid="admin-audience">
         <div className="flex flex-wrap items-baseline justify-between gap-2">

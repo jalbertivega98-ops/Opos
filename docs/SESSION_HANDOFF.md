@@ -18,10 +18,15 @@
 - **Apuntes de Guardia Urbana de Barcelona (2026-11-11, ADR-046):** 39 temas en catalán (`fuente-apunts/T01-T39.txt` en la carpeta de fuentes `guardia-urbana-bcn`), preview `76-`. Probado en local: segunda pasada «sin cambios» y una alumna gratuita solo ve los temas 1-3. Dudas de fuentes para joel en `DUDAS-APUNTS.md`.
 - **Test por tema sin repeticiones (2026-11-10, LRN-006, ADR-045):** primero preguntas no respondidas, luego falladas. Migración `20261110000100` y preview `65-`. Prisiones de Cataluña ampliada a 50 preguntas por tema (+730; preview `66-` temario y `67-` publicación, que también las mete en el pack de test); 19 dudosas con N:; `68-` publica 11 verificadas y deja 8 en borrador.
 
+### Embudo de conversión (2026-11-11, rama `claude/project-thread-3xoxnz`, MKT-006, ADR-047)
+
+- `/admin` → «Embudo de conversión» (7 o 30 días): visitas, empiezan/terminan el test gratis (`funnel_daily`, nuevo contador), crean cuenta, bienvenida, practican y pagan con Stripe. Migración `20261111000100`, preview `83-`.
+- Pendiente: que joel diga «fusiona». El test gratis empieza a contar al desplegar.
+
 ### Conversión tras la auditoría (2026-11-09, rama `claude/project-thread-3xoxnz`, MKT-005, ADR-044)
 
 - Auditoría completa en el Claude Doc «Auditoría OPOSAPRUEBA · noviembre 2026» (plan de 23 mejoras). Hechos los puntos 1–8: registro con la oposición elegida, repaso de fallos del test gratis, tests gratis en la portada, oferta arriba y barra fija en fichas, «Han entrado» con varias fuentes (preview `64-`), redirección de /otros.
-- Pendiente: que joel diga «fusiona»; después, UTM en bio y enlaces (el tráfico ya los registra) y el resto del plan (P1: plan anual, correos automáticos, guías 2027).
+- Fusionada (PR #36). Después: UTM en bio y enlaces (el tráfico ya los registra) y el resto del plan (P1: plan anual, correos automáticos, guías 2027).
 
 ### Psicotécnicos verbales de Auxiliar del Estado (2026-11-06, rama `claude/project-thread-mep42h`, ADR-043)
 

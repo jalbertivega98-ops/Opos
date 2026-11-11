@@ -7,6 +7,12 @@ export const sampleAnswerSchema = z.object({
   choice: z.number().int().min(0).max(5),
 });
 
+/** Paso del test gratis que cuenta el embudo del panel (ADR-047). */
+export const sampleStepSchema = z.object({
+  exam: z.string().regex(/^[a-z0-9-]{2,80}$/),
+  step: z.enum(["start", "finish"]),
+});
+
 /** Pregunta del test gratis tal como se muestra (sin solución). */
 export type SampleQuestion = {
   id: string;

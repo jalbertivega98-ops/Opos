@@ -9,7 +9,11 @@ import { Card } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import { signUpPath } from "@/lib/paths";
-import { checkSampleAnswerAction, type SampleAnswerResult } from "@/lib/learning/sample/actions";
+import {
+  checkSampleAnswerAction,
+  trackSampleStepAction,
+  type SampleAnswerResult,
+} from "@/lib/learning/sample/actions";
 import type { SampleQuestion } from "@/lib/learning/sample/schema";
 
 const LETTERS = "ABCDEF";
@@ -56,6 +60,7 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
         return;
       }
       setResult(r);
+      if (index === 0) trackSampleStepAction({ exam: examSlug, step: "start" }).catch(() => {});
       if (r.correct) setScore((s) => s + 1);
       else
         setMisses((m) => [
@@ -75,8 +80,10 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
   }
 
   function next() {
-    if (index + 1 >= items.length) setDone(true);
-    else {
+    if (index + 1 >= items.length) {
+      setDone(true);
+      trackSampleStepAction({ exam: examSlug, step: "finish" }).catch(() => {});
+    } else {
       setIndex(index + 1);
       setChoice(null);
       setResult(null);
