@@ -63,5 +63,451 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Projeccions cartogràfiques: la projecció de Mercator i el sistema UTM",
+      "blocks": [
+        {
+          "text": "Representar la superfície de la Terra sobre un pla exigeix una projecció cartogràfica. El manual explica que el sistema de coordenades UTM (Universal Transverse Mercator) el va definir l'exèrcit dels Estats Units als anys quaranta del segle XX i que, tal com indica el nom, es basa en la projecció cartogràfica transversa de Mercator. Per a la descripció de la resta de tipus de projeccions, aquest punt no és a les fonts revisades; cal consultar el manual MAN.GRAL.002.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Coordenades UTM En la dècada de 1940, l’exèrcit dels EUA va definir el sistema de coordenades UTM (Universal Transverse Mercator), que com el seu nom indica es basa en la projecció cartogràfica transversa de Mercator."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Sistemes de coordenades: coordenades geogràfiques",
+      "blocks": [
+        {
+          "text": "Les coordenades geogràfiques situen un punt a partir de dues famílies de línies imaginàries. Els paral·lels serveixen per mesurar la latitud, que és l'angle d'un punt respecte a l'equador. Els meridians són les línies que uneixen el pol Nord amb el pol Sud i són perpendiculars als paral·lels. Cal no confondre la latitud (angle respecte a l'equador) amb l'azimut, que és l'angle d'una direcció respecte al nord (vegeu l'apartat 7).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "S'utilitzen per a mesurar la latitud, que és l'angle d'un punt respecte a l'equador."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Els meridians són línies que uneixen el pol Nord amb el pol Sud i que són perpendiculars als paral·lels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Coordenades UTM: fusos, zones i coordenada X",
+      "blocks": [
+        {
+          "text": "En el sistema UTM la superfície de la Terra es va dividir en 60 porcions de 6º cadascuna, numerades de l'1 al 60, que s'anomenen fusos. Al meridià central de cada fus se li assigna la coordenada X = 500.000 m, per no haver de treballar amb valors de X negatius i per facilitar els càlculs.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "En total, la superfície de la terra es va segmentar en 60 porcions de la terra (de 6º cada una), numerades de l’1 al 60, que s’anomenen fusos."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Al meridià central del fus se li assigna la coordenada X=500.000 m (per tal de no tenir valors de X negatius, i facilitar els càlculs)."
+            }
+          ]
+        },
+        {
+          "text": "Una coordenada UTM completa ha d'indicar la zona. A Catalunya és més senzill, perquè tot el territori es troba dins la zona 31T i, per tant, normalment no cal especificar-la; en canvi, a la resta de la Península Ibèrica sí que cal, ja que hi ha tres fusos diferents: el 29, el 30 i el 31.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "A Catalunya això és més senzill perquè tot el territori es troba dins la zona 31T, i per tant normalment no cal especificar-la, mentre que a la resta de la Península Ibèrica sí, ja que hi ha tres fusos diferents (29, 30 i 31)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "El datum: ED50, WGS84 i ETRS89",
+      "blocks": [
+        {
+          "text": "El datum és el sistema de referència que defineix la posició i l'orientació d'un sistema de coordenades. Per això, unes coordenades només tenen sentit si se sap en quin datum estan expressades.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "El Datum El datum és el sistema de referència que defineix la posició i orientació d’un sistema de coordenades."
+            }
+          ]
+        },
+        {
+          "text": "Històricament, cada país o servei cartogràfic feia servir el seu datum: a Espanya i a Europa, l'ED50, mentre que la navegació per satèl·lit i els àmbits internacionals utilitzaven el WGS84. La diferència entre tots dos sistemes, de fins a 200 m, provocava desajustos entre els mapes i el GPS.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Històricament, cada país o servei cartogràfic feia servir el seu, com l’ED50 a Espanya i Europa, mentre que la navegació per satèl·lit i àmbits internacionals utilitzaven el WGS84."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La diferència entre aquests dos sistemes (fins a 200 m) provocava desajustos entre mapes i GPS."
+            }
+          ]
+        },
+        {
+          "text": "Per unificar criteris, la Unió Europea va adoptar l'ETRS89 (de 1989), gairebé idèntic al WGS84, que avui és el sistema oficial a Europa. Tot i així, encara circulen mapes antics amb altres datums, cosa que cal tenir present en treballar amb cartografia en paper.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Per unificar criteris, la UE va adoptar el ETRS89 (1989), gairebé idèntic al WGS84, que avui és el sistema oficial a Europa, tot i que encara circulen mapes antics amb altres datums."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Mapes i escales: escala numèrica i escala gràfica",
+      "blocks": [
+        {
+          "text": "L'escala expressa la relació entre una distància al mapa i la mateixa distància al terreny. En una escala numèrica 1:25.000, 1 unitat de mesura al mapa (1 cm, 1 mm, etc.) equival a 25.000 unitats iguals al terreny: per exemple, 1 cm al mapa representa 25.000 cm, és a dir, 250 metres al terreny.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Això vol dir que 1 unitat de mesura al mapa (1 cm, 1 mm, etc.) equival a 25.000 de la mateixa unitat al terreny."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Per exemple, 1 cm al mapa representa 25.000 cm (o 250 metres) al terreny."
+            }
+          ]
+        },
+        {
+          "text": "Com més petit és el denominador, més gran és l'escala: un mapa a escala 1:10.000 està a escala més gran que un 1:50.000 (representa una zona més petita amb més detall).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Per exemple, un mapa a escala 1:10.000 està a escala més gran que un 1:50.000."
+            }
+          ]
+        },
+        {
+          "text": "L'escala gràfica té un gran avantatge sobre la numèrica: si el mapa s'amplia o es redueix (per exemple, en una fotocòpia o en un mapa digital), l'escala gràfica es redimensiona amb ell i manté la seva relació amb la realitat. La resta d'elements cartogràfics d'un mapa (llegenda, etc.) no són a les fonts revisades; cal consultar el manual MAN.GRAL.002.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "El gran avantatge de l'escala gràfica és que si el mapa s'amplia o es redueix (per exemple, en una fotocòpia, un mapa digital), l'escala gràfica es redimensiona amb ell, mantenint la seva relació amb la realitat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Corbes de nivell, corba mestra i equidistància",
+      "blocks": [
+        {
+          "text": "Les corbes de nivell, també anomenades isohipses, són les línies imaginàries que connecten tots els punts de la superfície del terreny que tenen la mateixa cota o altitud sobre el nivell del mar.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Corbes de nivell Les corbes de nivell (o isohipses) són les línies imaginaries que connecten tots els punts de la superfície del terreny que tenen la mateixa cota o altitud sobre el nivell del mar."
+            }
+          ]
+        },
+        {
+          "text": "Cada cert nombre de corbes, generalment cada 5, la corba es dibuixa amb un traç més gruixut: és la corba mestra, que facilita la lectura del mapa i el recompte de corbes.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Cada cert numero de corbes (generalment cada 5 corbes) es dibuixa la corba amb un traç més gruixut, és l’anomenada corba mestra, per facilitar la lectura del mapa i el recompte de corbes."
+            }
+          ]
+        },
+        {
+          "text": "Si imaginem el relleu tallat en llesques horitzontals, la separació vertical entre els talls s'anomena equidistància. Ha de venir indicada al mapa, perquè és molt valuosa per interpretar el relleu i per calcular la diferència d'altitud entre dos punts. L'equidistància està relacionada amb l'escala del mapa, per no sobrecarregar-lo de corbes i fer-lo il·legible.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La separació vertical entre els talls de les llesques s'anomena equidistància, i ha de venir indicada en el mapa ja que és una informació molt valuosa per interpretar el relleu mitjançant les corbes de nivell i per comptar la diferència d’altitud entre dos punts del mapa."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La equidistància està relacionada amb l’escala del mapa, per no sobrecarregar-lo de corbes i fer- lo il·legible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Orientació: la brúixola, el Nord magnètic i l'azimut",
+      "blocks": [
+        {
+          "text": "La brúixola és un instrument que indica el Nord magnètic. El Nord magnètic no coincideix exactament amb el Nord geogràfic: hi ha una petita desviació que varia amb el lloc i amb els anys i que, per això, ha de venir indicada al mapa.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La brúixola La brúixola és un instrument que ens indica el Nord magnètic."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Tinguem en compte que el Nord magnètic no coincideix exactament amb el Nord geogràfic, hi ha una petita desviació que varia amb el lloc i amb els anys, per això ha de venir indicada en el mapa."
+            }
+          ]
+        },
+        {
+          "text": "Una direcció es defineix mitjançant l'azimut, que és l'angle respecte al nord.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La direcció es defineix mitjançant l'azimut, que és l'angle respecte al nord."
+            }
+          ]
+        },
+        {
+          "text": "Per obtenir una lectura fiable cal mantenir la brúixola horitzontal i allunyar-la d'altres camps magnètics i d'objectes metàl·lics que poden alterar la lectura: torres elèctriques, cotxes, dispositius electrònics, corrents elèctrics potents o edificis amb estructures d'acer i formigó armat. La manera d'orientar el mapa i els sistemes d'orientació natural no són a les fonts revisades; cal consultar el manual MAN.GRAL.002.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "És important mantenir la horitzontalitat de la brúixola."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "També és molt important allunyar la brúixola d’altres camps magnètics i objectes metàl·lics que poden alterar la lectura (torres elèctriques, cotxes, dispositius electrònics, corrents elèctrics potents, edificis amb estructures d’acer i formigó armat...)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "GNSS: principis de funcionament i segments",
+      "blocks": [
+        {
+          "text": "Un GNSS (Global Navigation Satellite System) és un sistema que utilitza satèl·lits per determinar la posició geogràfica, l'altitud i la velocitat d'un receptor a la superfície de la Terra.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Un Global Navigation Satellite System (GNSS) és un sistema que utilitza satèl·lits per determinar la posició geogràfica, altitud i velocitat d'un receptor a la superfície de la Terra."
+            }
+          ]
+        },
+        {
+          "text": "El segment de control és una xarxa de bases terrestres que monitoritzen els satèl·lits per ajustar-ne les òrbites i sincronitzar-ne els rellotges atòmics. La descripció dels altres segments, dels sistemes GNSS existents i dels dispositius receptors no és als extractes revisats; cal consultar el manual MAN.GRAL.002.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Segment de control: una xarxa de bases terrestres que monitoritzen els satèl·lits per ajustar-ne les òrbites i sincronitzar-ne els rellotges atòmics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "GNSS: fonts d'error",
+      "blocks": [
+        {
+          "text": "El manual recull diverses fonts d'error del posicionament per satèl·lit. D'una banda, els senyals de ràdio es veuen afectats en travessar la ionosfera i la troposfera. De l'altra, els senyals reboten en superfícies properes, com edificis o parets de roca, i arriben al receptor per camins més llargs del que caldria; és un error diferent de l'atmosfèric.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Els senyals de ràdio es veuen afectats en travessar la ionosfera i la troposfera."
+            },
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Els senyals reboten en superfícies properes (edificis, parets de roca...), de manera que el senyal arriba per camins més llargs."
+            }
+          ]
+        },
+        {
+          "text": "Un altre motiu de desajust entre el que marca el receptor i el mapa és usar datums diferents: entre ED50 i WGS84 la diferència pot arribar a 200 m (vegeu l'apartat 4).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La diferència entre aquests dos sistemes (fins a 200 m) provocava desajustos entre mapes i GPS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Cartografia operativa d'emergències (COE) i sistemes d'informació geogràfica",
+      "blocks": [
+        {
+          "text": "El Cos de Bombers de la Generalitat ha desplegat una cartografia pròpia, la Cartografia Operativa d'Emergències (COE), que permet l'aproximació, l'anàlisi i el treball durant l'emergència, i també l'inventari d'infraestructures d'extinció d'incendis, com els camins forestals i els punts d'aigua.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "El Cos de Bombers de la Generalitat de Catalunya ha desplegat la seva pròpia cartografia, anomenada Cartografia Operativa d'Emergències (COE), que permet l’aproximació, l’anàlisi i el treball durant l’emergència, així com l’inventari d’infraestructures d’extinció d’incendis com són els camins forestals i els punts d’aigua."
+            }
+          ]
+        },
+        {
+          "text": "La COE es desplega a partir de la base cartogràfica de l'Institut Cartogràfic i Geològic de Catalunya (ICGC). La codificació dels elements específics de la COE, el sistema de coordenades que fa servir i els sistemes d'informació geogràfica (mapes base, capes, elements gràfics, edició i eines) no són a les fonts revisades; cal consultar el manual MAN.GRAL.002.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Base cartogràfica La COE es desplega a partir de la base cartogràfica de l’Institut Cartogràfic i Geològic de Catalunya (ICGC),"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Latitud: angle d'un punt respecte a l'equador. Meridians: de pol a pol i perpendiculars als paral·lels.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "S'utilitzen per a mesurar la latitud, que és l'angle d'un punt respecte a l'equador."
+            }
+          ]
+        },
+        {
+          "text": "UTM: 60 fusos de 6º (de l'1 al 60); meridià central amb X = 500.000 m; Catalunya, tota a la zona 31T.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Al meridià central del fus se li assigna la coordenada X=500.000 m"
+            }
+          ]
+        },
+        {
+          "text": "Datum oficial a Europa: ETRS89, gairebé idèntic al WGS84; l'ED50 és l'històric (fins a 200 m de diferència).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "la UE va adoptar el ETRS89 (1989), gairebé idèntic al WGS84, que avui és el sistema oficial a Europa"
+            }
+          ]
+        },
+        {
+          "text": "Escala 1:25.000: 1 cm = 250 m. L'1:10.000 és més gran que l'1:50.000. L'escala gràfica es redimensiona amb el mapa.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Per exemple, 1 cm al mapa representa 25.000 cm (o 250 metres) al terreny."
+            }
+          ]
+        },
+        {
+          "text": "Corbes de nivell (isohipses): mateixa altitud. Corba mestra: traç gruixut, generalment cada 5. Equidistància: separació vertical entre corbes, indicada al mapa.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "es dibuixa la corba amb un traç més gruixut, és l’anomenada corba mestra"
+            }
+          ]
+        },
+        {
+          "text": "Brúixola: indica el Nord magnètic; la desviació respecte al geogràfic varia amb el lloc i els anys. Azimut: angle respecte al nord. Brúixola horitzontal i lluny de metalls.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La direcció es defineix mitjançant l'azimut, que és l'angle respecte al nord."
+            }
+          ]
+        },
+        {
+          "text": "GNSS: segment de control = bases terrestres que ajusten òrbites i sincronitzen rellotges. Errors: ionosfera i troposfera, i rebot del senyal en edificis i roques.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "Segment de control: una xarxa de bases terrestres que monitoritzen els satèl·lits"
+            }
+          ]
+        },
+        {
+          "text": "COE: cartografia pròpia de Bombers, sobre la base de l'ICGC, amb inventari de camins forestals i punts d'aigua.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.002",
+              "law": "MAN.GRAL.002",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-14-MAN.GRAL.002.pdf",
+              "quote": "La COE es desplega a partir de la base cartogràfica de l’Institut Cartogràfic i Geològic de Catalunya (ICGC),"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }

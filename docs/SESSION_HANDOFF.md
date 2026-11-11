@@ -4,6 +4,7 @@
 
 ## Estado exacto
 
+- **Apuntes de Bombers de la Generalitat (2026-11-11, rama `claude/project-thread-si9z3n`, ADR-046):** 34 temas en `content/bombers/fichas` (fuente en `fuentes-oficiales/bombers/fuente-apunts/`, `build.py --check` sin errores), preview `74-`. Temas 7-34 cortos porque solo hay extractos de los manuales; lista de huecos en la PR. Pendiente: que joel diga «fusiona» y, si quiere, ampliar con los PDF completos leídos en su Chrome.
 - **Apuntes por tema y tests en tandas de 10 (2026-11-10, LRN-007, ADR-046):** `topic_notes.lessons` + `topic_lessons()` (solo con acceso al tema) y `my_session_topic()`; migración `20261110000200`, preview `69-`. Apuntes de los 25 temas de Prisiones de Cataluña en preview `70-`. Resultado del test de tema con progreso y «Otras 10 preguntas».
 - **Test por tema sin repeticiones (2026-11-10, LRN-006, ADR-045):** primero preguntas no respondidas, luego falladas. Migración `20261110000100` y preview `65-`. Prisiones de Cataluña ampliada a 50 preguntas por tema (+730; preview `66-` temario y `67-` publicación, que también las mete en el pack de test); 19 dudosas con N:; `68-` publica 11 verificadas y deja 8 en borrador.
 

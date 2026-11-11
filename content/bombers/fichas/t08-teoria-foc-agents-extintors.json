@@ -73,5 +73,493 @@
   ],
   "glossary": [],
   "amendments": [],
+  "lessons": [
+    {
+      "n": "1",
+      "title": "Reaccions d'oxidació, la combustió i els seus tipus",
+      "blocks": [
+        {
+          "text": "L'epígraf obre el tema amb les reaccions d'oxidació, que són la base química de la combustió. El manual de química (tema 10) defineix les reaccions d'oxidació-reducció (redox) com una transferència d'electrons entre substàncies: una s'oxida (perd electrons) i l'altra es redueix (en guanya). Les reaccions que alliberen energia, generalment calor, cap a l'entorn s'anomenen exotèrmiques. La classificació completa dels tipus de combustió (per exemple, segons la velocitat de reacció en combustions lentes o vives) no és als extractes revisats; cal consultar el MAN.GRAL.008 sencer.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, reaccions redox",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reaccions oxidació-reducció (redox) Transferència d’electrons entre substàncies; una s’oxida (perd electrons) i l’altra es redueix (guanya electrons)."
+            },
+            {
+              "ref": "MAN.GRAL.004, termoquímica",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Reacció exotèrmica: allibera energia (generalment calor) cap a l’entorn."
+            }
+          ]
+        },
+        {
+          "text": "Quan la combustió és tan ràpida que esdevé una explosió, el manual en distingeix dos tipus segons la velocitat de propagació. En la deflagració la combustió es propaga a més d'1 m/s però per sota de la velocitat del so en el medi: és subsònica. En la detonació la propagació és supersònica (supera la velocitat del so en el medi) i crea una ona de xoc potent i destructiva.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, deflagració",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "És un tipus d'explosió on la combustió es propaga a una velocitat superior a 1 m/s però inferior a la velocitat del so en el medi (subsònica)."
+            },
+            {
+              "ref": "MAN.GRAL.008, detonació",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "És un tipus d'explosió on la combustió es propaga a una velocitat supersònica (superior a la velocitat del so en el medi), creant una potent i destructiva ona de xoc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "title": "Triangle i tetraedre del foc; comburents i fonts d'ignició",
+      "blocks": [
+        {
+          "text": "La descripció del triangle i del tetraedre del foc no és a les fonts revisades; cal consultar el manual MAN.GRAL.008. Sí que hi ha dades sobre el comburent: la majoria de focs necessiten almenys un 16 % d'oxigen a l'atmosfera per mantenir-se. És la xifra clau per entendre la sufocació (apartat 9).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, comburent",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "La majoria de focs necessiten almenys un 16% d'oxigen a l'atmosfera per mantenir-se."
+            }
+          ]
+        },
+        {
+          "text": "Pel que fa a les fonts d'ignició, el manual en posa exemples en definir el punt d'inflamació: una font d'ignició externa pot ser una flama o una guspira. En ambients amb gasos, vapors o pols inflamables, una espurna o un arc elèctric pot provocar una explosió devastadora (manual d'electricitat, tema 11).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, punt d'inflamació",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "en presència d'una font d'ignició externa (una flama, una guspira, etc.)."
+            },
+            {
+              "ref": "MAN.GRAL.005, riscos en materials",
+              "law": "MAN.GRAL.005",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-11-MAN.GRAL.005.pdf",
+              "quote": "En ambients amb gasos, vapors o pols inflamables, una espurna o un arc elèctric pot provocar una explosió devastadora."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "title": "Combustibles: punt d'inflamació, punt de combustió i autoignició",
+      "blocks": [
+        {
+          "text": "Tres temperatures caracteritzen un combustible i s'han de saber distingir. El punt d'inflamació (flash point) és la temperatura mínima a la qual el combustible emet prou vapors per formar amb l'aire una barreja inflamable que pot encendre's momentàniament si hi ha una font d'ignició externa: la flama apareix però no es manté.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, punt d'inflamació",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "És la temperatura mínima a la qual un combustible emet prou vapors per formar una barreja inflamable amb l'aire, que pot encendre's momentàniament en presència d'una font d'ignició externa (una flama, una guspira, etc.)."
+            }
+          ]
+        },
+        {
+          "text": "El punt de combustió és sempre lleugerament superior al punt d'inflamació, normalment uns pocs graus més alt, perquè per mantenir la flama activa cal una generació de vapors més sostinguda. El punt d'autoignició és la temperatura a la qual el combustible s'encén espontàniament, sense cap font d'ignició externa.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, punt de combustió",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "El punt de combustió és sempre lleugerament superior al punt d'inflamació (normalment uns pocs graus més alt), ja que requereix una generació de vapors més sostinguda per mantenir la flama activa."
+            },
+            {
+              "ref": "MAN.GRAL.008, autoignició",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "És la temperatura a la qual un combustible s'encén espontàniament sense necessitat de cap font d'ignició externa."
+            }
+          ]
+        },
+        {
+          "text": "La classificació general dels combustibles i la resta de propietats fisicoquímiques que esmenta l'epígraf no són als extractes del MAN.GRAL.008. El manual de química aporta una dada útil sobre els hidrocarburs saturats (alcans): a temperatura ambient són gasos de C₁ a C₄, líquids de C₅ a C₁₇ i sòlids a partir de C₁₈.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, alcans",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Gasos (C₁–C₄), líquids (C₅–C₁₇) i sòlids (≥C₁₈) a temperatura ambient."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "4",
+      "title": "Límits i rang d'inflamabilitat",
+      "blocks": [
+        {
+          "text": "Una barreja de gas o vapor amb aire només crema dins d'un interval de concentracions, entre el límit inferior (LII) i el límit superior d'inflamabilitat (LSI). La diferència entre tots dos és el rang d'inflamabilitat. Com més ampli és aquest rang, més risc hi ha que la substància formi una barreja perillosa capaç d'encendre's.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, rang d'inflamabilitat",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Com més ampli sigui aquest rang, més gran és el risc que la substància formi una barreja perillosa amb capacitat d’encendre’s."
+            }
+          ]
+        },
+        {
+          "text": "A la taula del manual, el metà (gas natural) té un LII del 5 %, un LSI del 15 % i, per tant, un rang del 10 %. El gas natural és majoritàriament metà (90-95 %) i és menys dens que l'aire (tema 12). El manual de química subratlla el risc d'explosió en espais tancats amb presència de butà o propà.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, taula de rangs",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Metà (gas natural) 5 15 10"
+            },
+            {
+              "ref": "MAN.GRAL.007, gas natural",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "està format majoritàriament per metà (90–95%) […] El gas natural és menys dens que l’aire"
+            },
+            {
+              "ref": "MAN.GRAL.004, hidrocarburs",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Rellevància per a bombers: risc d’explosió en espais tancats amb presència de gas butà i/o propà."
+            }
+          ]
+        },
+        {
+          "text": "Els condicionants que afecten la combustió (per exemple, la superfície exposada o la humitat del combustible) no són desenvolupats als extractes revisats; cal consultar el manual. L'únic condicionant quantificat és la concentració d'oxigen (almenys un 16 %, apartat 2).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, comburent",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "La majoria de focs necessiten almenys un 16% d'oxigen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "title": "Transmissió de la calor i efectes de la calor en els materials",
+      "blocks": [
+        {
+          "text": "La calor es transmet per tres mecanismes principals: conducció, convecció i radiació. La conducció és la transferència de calor per contacte directe entre molècules. La radiació és la transferència en forma d'ones electromagnètiques. La definició de la convecció no és a l'extracte revisat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, transmissió de la calor",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Hi ha tres mecanismes principals de transmissió de la calor: conducció, convecció i radiació."
+            },
+            {
+              "ref": "MAN.GRAL.008, conducció",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Conducció La conducció és la transferència de calor a través del contacte directe entre molècules."
+            },
+            {
+              "ref": "MAN.GRAL.008, radiació",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Radiació La radiació és la transferència de calor en forma d'ones electromagnètiques."
+            }
+          ]
+        },
+        {
+          "text": "Els efectes de la calor en els materials i els mecanismes de propagació de l'incendi no són als extractes del MAN.GRAL.008. Com a base, el manual de química defineix la calor específica com la quantitat de calor necessària per augmentar 1 °C la temperatura d'un quilogram d'un material; és una propietat característica de cada material.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.004, calor específica",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Calor específica La calor específica és una propietat característica de cada material."
+            },
+            {
+              "ref": "MAN.GRAL.004, calor específica",
+              "law": "MAN.GRAL.004",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-10-MAN.GRAL.004.pdf",
+              "quote": "Correspon a la quantitat de calor necessària per augmentar 1º C la temperatura d'un kg d'aquell material."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "6",
+      "title": "Fenòmens extrems: backdraft",
+      "blocks": [
+        {
+          "text": "El backdraft és una reignició explosiva d'un incendi que es troba en una fase de ventilació limitada. Els senyals que n'alerten són el fum espès i sense moviment, de color marronós o groguenc, i les «respiracions» a les escletxes (fum pulsant).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, backdraft",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Backdraft El backdraft és una reignició explosiva d'un incendi que es troba en una fase de ventilació limitada."
+            },
+            {
+              "ref": "MAN.GRAL.008, senyals del backdraft",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "L'acumulació de fum espès i sense moviment, de color marronós o groguenc, juntament amb “respiracions” a les escletxes (fum pulsant), són senyals de la seva possible presència."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "title": "Fenòmens extrems: flashover",
+      "blocks": [
+        {
+          "text": "El flashover és la transició ràpida d'un incendi localitzat a un incendi totalment desenvolupat en tot l'espai: totes les superfícies combustibles s'encenen gairebé alhora. No s'ha de confondre amb el backdraft: el flashover és la generalització de l'incendi a tota la sala; el backdraft és una reignició explosiva d'un incendi amb ventilació limitada.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, flashover",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Flashover El flashover és la transició ràpida d'un incendi localitzat a un incendi totalment desenvolupat en un espai, on totes les superfícies combustibles s'encenen gairebé simultàniament."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "8",
+      "title": "Productes de la combustió",
+      "blocks": [
+        {
+          "text": "El monòxid de carboni (CO) és el producte de la combustió incompleta més comú i més perillós. Per això en les instal·lacions de gas cal ventilació: les entrades d'aire garanteixen una combustió correcta dels aparells i eviten la formació de CO, un gas altament tòxic (tema 12). La descripció de la resta de productes (altres gasos, fum, residus) no és als extractes revisats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, productes de la combustió",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "El monòxid de carboni (CO) és el producte de combustió incompleta més comú i perillós."
+            },
+            {
+              "ref": "MAN.GRAL.007, ventilació",
+              "law": "MAN.GRAL.007",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/ACTUALITZACIO-GUIA-ESTUDI/MAN.GRAL.007-Tema-12.-Installacions.pdf",
+              "quote": "Permeten l’entrada i renovació d’aire des de l’exterior, garantint una combustió correcta dels aparells i evitant la formació de monòxid de carboni (CO), un gas altament tòxic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "9",
+      "title": "Teoria de l'extinció i tècniques d'extinció",
+      "blocks": [
+        {
+          "text": "La sufocació consisteix a eliminar o reduir la concentració d'oxigen per sota del nivell que necessita el foc (en general, el 16 %) o del que sigui crític per a un combustible concret. L'aigua hi pot contribuir: en vaporitzar-se, cada litre genera aproximadament 1.700 litres de vapor. Les altres tècniques que esmenta l'outline del tema (refredament, eliminació del combustible i inhibició) no tenen definició als extractes revisats; cal consultar el MAN.GRAL.008.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, sufocació",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "La sufocació consisteix en eliminar o reduir la concentració d'oxigen per sota d'aquest nivell (o el que sigui crític per a un combustible particular)."
+            },
+            {
+              "ref": "MAN.GRAL.008, aigua",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Quan l'aigua es vaporitza, genera un gran volum de vapor (aproximadament 1.700 litres de vapor per cada litre d'aigua)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "10",
+      "title": "Classes de foc",
+      "blocks": [
+        {
+          "text": "Els focs es classifiquen en classes (norma UNE-EN 2). Dues dades surten sovint a l'examen. La primera: no existeix una classe E de focs elèctrics. La segona: la classe F agrupa els focs d'olis i greixos d'origen animal o vegetal en aparells de cuina (restaurants, cuines industrials). La resta de classes no surt als extractes revisats.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, classes de foc",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "No existeix una Classe E de focs elèctrics."
+            },
+            {
+              "ref": "MAN.GRAL.008, classe F",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Focs derivats de l'ús d'olis i greixos d'origen animal o vegetal en aparells de cuina (restaurants, cuines industrials)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "title": "Agents extintors",
+      "blocks": [
+        {
+          "text": "Aigua: la seva gran capacitat de generar vapor (uns 1.700 litres per litre) l'ajuda a desplaçar l'oxigen. Amb additius humectants i tensioactius es redueix la tensió superficial de l'aigua perquè penetri més fàcilment en sòlids porosos o perquè formi bombolles (escumes d'extinció), com explica el manual d'hidràulica (tema 13).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.009, tensió superficial",
+              "law": "MAN.GRAL.009",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-13-MAN.GRAL.009.pdf",
+              "quote": "Amb additius humectants i tensioactius (sabons) podem reduir la tensió superficial de l’aigua amb l’objectiu de fer que penetri més fàcilment en materials sòlids porosos, o per la formació de bombolles (escumes d’extinció)."
+            }
+          ]
+        },
+        {
+          "text": "Escumes: es classifiquen pel coeficient d'expansió. Es parla d'escuma d'alta expansió quan aquest coeficient supera 200:1. Els valors de baixa i mitjana expansió no són a l'extracte revisat.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, escumes",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Alta expansió (més de 200:1):"
+            }
+          ]
+        },
+        {
+          "text": "Pols: la pols química polivalent ABC està composta principalment per fosfat monoamònic.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, pols ABC",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Està composta principalment per fosfat monoamònic."
+            }
+          ]
+        },
+        {
+          "text": "Gasos: no són eficaços en incendis de sòlids amb brases profundes (classe A), perquè no penetren en el material. Els sistemes de gasos inerts es dissenyen per extingir el foc reduint l'oxigen a nivells normalment d'entre el 10 i el 12,5 %, que permeten una exposició humana curta i segura per a l'evacuació, sense els efectes tòxics directes del CO₂.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, agents gasosos",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "No són eficaços en incendis de materials sòlids amb brases profundes (Classe A), ja que no penetren en el material."
+            },
+            {
+              "ref": "MAN.GRAL.008, gasos inerts",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Els sistemes es dissenyen per extingir el foc a nivells d'oxigen (normalment entre 10-12,5%) que permeten una exposició humana curta i segura per a l'evacuació, sense els efectes tòxics directes del CO₂."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": "R",
+      "title": "Recorda per a l'examen",
+      "blocks": [
+        {
+          "text": "Deflagració: més d'1 m/s, però subsònica. Detonació: supersònica, amb ona de xoc.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, deflagració",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "velocitat superior a 1 m/s però inferior a la velocitat del so en el medi (subsònica)"
+            }
+          ]
+        },
+        {
+          "text": "Ordre de temperatures: punt d'inflamació (la flama apareix però no es manté) < punt de combustió (uns pocs graus més, la flama es manté) < autoignició (sense font externa).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, punt de combustió",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "El punt de combustió és sempre lleugerament superior al punt d'inflamació"
+            }
+          ]
+        },
+        {
+          "text": "Metà: LII 5 %, LSI 15 %, rang 10 %. Com més ampli és el rang, més risc.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, taula de rangs",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "Metà (gas natural) 5 15 10"
+            }
+          ]
+        },
+        {
+          "text": "Oxigen: la majoria de focs necessiten almenys un 16 %; els gasos inerts extingeixen entre el 10 i el 12,5 %.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, comburent",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "almenys un 16% d'oxigen"
+            }
+          ]
+        },
+        {
+          "text": "Tres mecanismes de transmissió: conducció (contacte entre molècules), convecció i radiació (ones electromagnètiques).",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, transmissió de la calor",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "conducció, convecció i radiació"
+            }
+          ]
+        },
+        {
+          "text": "Backdraft: ventilació limitada, fum espès marronós o groguenc i pulsant. Flashover: totes les superfícies s'encenen gairebé alhora.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, flashover",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "totes les superfícies combustibles s'encenen gairebé simultàniament"
+            }
+          ]
+        },
+        {
+          "text": "No hi ha classe E. Classe F: olis i greixos de cuina. Pols ABC: fosfat monoamònic.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, classes de foc",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "No existeix una Classe E de focs elèctrics."
+            }
+          ]
+        },
+        {
+          "text": "Aigua: 1 litre dona uns 1.700 litres de vapor. Escuma d'alta expansió: més de 200:1.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, aigua",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "aproximadament 1.700 litres de vapor per cada litre d'aigua"
+            }
+          ]
+        },
+        {
+          "text": "El CO és el producte de combustió incompleta més comú i perillós.",
+          "refs": [
+            {
+              "ref": "MAN.GRAL.008, productes de la combustió",
+              "law": "MAN.GRAL.008",
+              "url": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/acces_al_cos_de_bombers/convocatories/convocatories_de_bombers/ACCES-81_26/DOCUMENTACIO-ESTUDI/Tema-08-MAN.GRAL.008.pdf",
+              "quote": "El monòxid de carboni (CO) és el producte de combustió incompleta més comú i perillós."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "review_note": null
 }
