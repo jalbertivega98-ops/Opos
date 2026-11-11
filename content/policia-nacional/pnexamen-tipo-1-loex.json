@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-loex-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 25, tema P10) · Art. 7.1 LO 4/2000",
+      "stem": "Según la Ley Orgánica 4/2000, los extranjeros tienen el derecho de reunión:",
+      "options": [
+        "Solo si tienen autorización de residencia en España.",
+        "Solo si son ciudadanos de la Unión Europea.",
+        "En las mismas condiciones que los españoles."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 7.1 LOEX reconoce a los extranjeros el derecho de reunión en las mismas condiciones que a los españoles.",
+      "excerpt": "1. Los extranjeros tienen el derecho de reunión en las mismas condiciones que los españoles.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 26, tema P11) · Art. 53.1.g) LO 4/2000",
+      "stem": "Según la Ley Orgánica 4/2000, las salidas del territorio español por puestos no habilitados constituyen una infracción:",
+      "options": [
+        "Leve.",
+        "Grave.",
+        "Muy grave."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "El art. 53.1.g) LOEX tipifica como grave salir por puestos no habilitados, sin exhibir la documentación o contraviniendo prohibiciones legales.",
+      "excerpt": "g) Las salidas del territorio español por puestos no habilitados, sin exhibir la documentación prevista o contraviniendo las prohibiciones legalmente impuestas.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 27, tema P11) · Art. 54.1.g) LO 4/2000",
+      "stem": "Según la Ley Orgánica 4/2000, la comisión de una tercera infracción grave, cuando en el año anterior se hubiera sido sancionado por dos faltas graves de la misma naturaleza, constituye una infracción:",
+      "options": [
+        "Muy grave.",
+        "Grave, sancionada en su grado máximo.",
+        "Grave, con expulsión obligatoria."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 54.1.g) LOEX convierte esa reiteración en infracción muy grave (del mismo modo, la tercera leve se convierte en grave, art. 53.1.e).",
+      "excerpt": "g) La comisión de una tercera infracción grave siempre que en un plazo de un año anterior hubiera sido sancionado por dos faltas graves de la misma naturaleza.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-encs-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Orden PCI/487/2019, de 26 de abril, por la que se publica la Estrategia Nacional de Ciberseguridad 2019 (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-6347",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 36, tema P15) · Estrategia Nacional de Ciberseguridad 2019, Introducción",
+      "stem": "Según la Estrategia Nacional de Ciberseguridad 2019, el Consejo Nacional de Ciberseguridad, creado en el año 2014, es un órgano de apoyo:",
+      "options": [
+        "Del Consejo de Seguridad Nacional.",
+        "Del Centro Nacional de Inteligencia.",
+        "De la Secretaría de Estado de Digitalización."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La Estrategia Nacional de Ciberseguridad 2019 describe el Consejo Nacional de Ciberseguridad, creado en 2014, como órgano de apoyo del Consejo de Seguridad Nacional, encargado de coordinar los organismos competentes y el Plan Nacional de Ciberseguridad.",
+      "excerpt": "Uno de sus pilares, creado en el año 2014, es el Consejo Nacional de Ciberseguridad, órgano de apoyo del Consejo de Seguridad Nacional.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 90, tema P41) · Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+      "stem": "Según la Estrategia Nacional de Ciberseguridad 2019, los ciberdelincuentes operan bajo esquemas de:",
+      "options": [
+        "Activismo político.",
+        "Actuación individual y aislada.",
+        "Crimen organizado."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "La Estrategia señala que los ciberdelincuentes operan bajo esquemas de crimen organizado y exploran técnicas para construir modelos de negocio lucrativos y de bajo riesgo.",
+      "excerpt": "Los ciberdelincuentes operan bajo esquemas de crimen organizado y continúan explorando de manera incesante técnicas sobre las que construir modelos de negocio lucrativo y de bajo riesgo",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 91, tema P41) · Estrategia Nacional de Ciberseguridad 2019, cap. 2",
+      "stem": "Según la Estrategia Nacional de Ciberseguridad 2019, los actores estatales operan fundamentalmente a través de las denominadas:",
+      "options": [
+        "Amenazas Persistentes Avanzadas (APT).",
+        "Redes de bots de alquiler.",
+        "Campañas de phishing masivo."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La Estrategia atribuye las mayores capacidades a los actores estatales (organismos de inteligencia o militares), que operan fundamentalmente mediante Amenazas Persistentes Avanzadas (APT).",
+      "excerpt": "Las mayores capacidades corresponden principalmente a actores estatales (organismos de inteligencia o militares), que fundamentalmente operan a través de las denominadas Amenazas Persistentes Avanzadas (APT).",
+      "excerpt_status": "completo"
+    }
+  ]
+}

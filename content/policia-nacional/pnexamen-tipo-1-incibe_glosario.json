@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-incibe_glosario-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "INCIBE · Glosario de términos de ciberseguridad: una guía de aproximación para el empresario (2021)",
+      "url": "https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf",
+      "kind": "web_oficial",
+      "publisher": "Instituto Nacional de Ciberseguridad (INCIBE)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 90, tema P41) · Glosario INCIBE, Malware",
+      "stem": "Según el glosario de INCIBE, el término «malware» nace de la unión de los términos en inglés:",
+      "options": [
+        "Malicious software.",
+        "Mail software.",
+        "Malfunction hardware."
+      ],
+      "correct": 0,
+      "difficulty": 1,
+      "explanation": "INCIBE define el malware como software cuyo objetivo es dañar o infiltrarse sin consentimiento en un sistema; incluye virus, gusanos, troyanos, backdoors y spyware.",
+      "excerpt": "Palabra que nace de la unión de los términos en inglés de software malintencionado: malicious software.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 91, tema P41) · Glosario INCIBE, Botnet",
+      "stem": "Según el glosario de INCIBE, las botnets se caracterizan por tener un servidor central al que se conectan los bots para enviar información y recibir comandos, denominado:",
+      "options": [
+        "C&C (Command & Control).",
+        "DNS (Domain Name System).",
+        "DHCP (Dynamic Host Configuration Protocol)."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "INCIBE explica que las botnets clásicas dependen de un servidor C&C; existen también botnets P2P, que carecen de él.",
+      "excerpt": "Las botnets se caracterizan por tener un servidor central (C&C, de sus siglas en inglés Command & Control) al que se conectan los bots para enviar información y recibir comandos.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

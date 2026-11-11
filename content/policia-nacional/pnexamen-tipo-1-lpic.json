@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lpic-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 8/2011, de 28 de abril, medidas para la protección de las infraestructuras críticas (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7630",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 35, tema P15) · Art. 2.a) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, el servicio necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad o el bienestar social y económico de los ciudadanos es:",
+      "options": [
+        "Un sector estratégico.",
+        "Una infraestructura crítica.",
+        "Un servicio esencial."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 2.a) de la Ley 8/2011 define así el servicio esencial; el sector estratégico es el área de actividad que lo proporciona (letra b).",
+      "excerpt": "a) Servicio esencial: el servicio necesario para el mantenimiento de las funciones sociales básicas, la salud, la seguridad, el bienestar social y económico de los ciudadanos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 36, tema P15) · Art. 2.d) Ley 8/2011",
+      "stem": "Según la Ley 8/2011, las instalaciones, redes, sistemas y equipos físicos y de tecnología de la información sobre las que descansa el funcionamiento de los servicios esenciales son:",
+      "options": [
+        "Infraestructuras críticas.",
+        "Infraestructuras estratégicas.",
+        "Zonas críticas."
+      ],
+      "correct": 1,
+      "difficulty": 3,
+      "explanation": "El art. 2.d) define las infraestructuras estratégicas; son críticas solo las estratégicas indispensables y sin soluciones alternativas (letra e).",
+      "excerpt": "d) Infraestructuras estratégicas: las instalaciones, redes, sistemas y equipos físicos y de tecnología de la información sobre las que descansa el funcionamiento de los servicios esenciales.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

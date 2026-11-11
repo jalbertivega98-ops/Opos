@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-prl-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 56, tema P24) · Art. 15.1.i) Ley 31/1995",
+      "stem": "Entre los principios generales de la acción preventiva del artículo 15.1 de la Ley 31/1995 figura:",
+      "options": [
+        "Anteponer la protección individual a la colectiva.",
+        "Dar las debidas instrucciones a los trabajadores.",
+        "Adaptar la persona al puesto de trabajo."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 15.1 de la Ley 31/1995 enumera, entre otros, evitar los riesgos, adaptar el trabajo a la persona, anteponer la protección colectiva a la individual y dar las debidas instrucciones a los trabajadores.",
+      "excerpt": "i) Dar las debidas instrucciones a los trabajadores.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 57, tema P24) · Art. 15.3 Ley 31/1995",
+      "stem": "Según la Ley 31/1995, el empresario adoptará las medidas necesarias para garantizar que solo puedan acceder a las zonas de riesgo grave y específico:",
+      "options": [
+        "Los trabajadores que hayan recibido información suficiente y adecuada.",
+        "Los delegados de prevención.",
+        "Los trabajadores con más de un año de antigüedad en la empresa."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 15.3 de la Ley 31/1995 limita el acceso a las zonas de riesgo grave y específico a los trabajadores que hayan recibido información suficiente y adecuada.",
+      "excerpt": "3. El empresario adoptará las medidas necesarias a fin de garantizar que sólo los trabajadores que hayan recibido información suficiente y adecuada puedan acceder a las zonas de riesgo grave y específico.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 58, tema P25) · Art. 29.1 Ley 31/1995",
+      "stem": "Según la Ley 31/1995, corresponde a cada trabajador velar, según sus posibilidades y mediante el cumplimiento de las medidas de prevención adoptadas:",
+      "options": [
+        "Únicamente por su propia seguridad y salud, ya que la de los demás corresponde al empresario.",
+        "Por la seguridad de todo el centro de trabajo, en sustitución del servicio de prevención.",
+        "Por su propia seguridad y salud en el trabajo y por la de aquellas otras personas a las que pueda afectar su actividad profesional."
+      ],
+      "correct": 2,
+      "difficulty": 1,
+      "explanation": "El art. 29.1 de la Ley 31/1995 impone a cada trabajador el deber de velar por su propia seguridad y salud y por la de otras personas a las que pueda afectar su actividad, conforme a su formación y a las instrucciones del empresario.",
+      "excerpt": "1. Corresponde a cada trabajador velar, según sus posibilidades y mediante el cumplimiento de las medidas de prevención que en cada caso sean adoptadas, por su propia seguridad y salud en el trabajo y por la de aquellas otras personas a las que pueda afectar su actividad profesional",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 59, tema P25) · Art. 22.4 Ley 31/1995",
+      "stem": "Según la Ley 31/1995, el acceso a la información médica de carácter personal derivada de la vigilancia de la salud de los trabajadores:",
+      "options": [
+        "Se limitará al personal médico y a las autoridades sanitarias, sin que pueda facilitarse al empresario sin consentimiento expreso del trabajador.",
+        "Corresponde al empresario, que podrá comunicarla a los delegados de prevención.",
+        "Es libre para el empresario y para el servicio de prevención ajeno."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 22.4 de la Ley 31/1995 restringe el acceso a la información médica personal; el empresario solo recibe las conclusiones sobre la aptitud del trabajador para el puesto o sobre la necesidad de mejorar las medidas de protección.",
+      "excerpt": "El acceso a la información médica de carácter personal se limitará al personal médico y a las autoridades sanitarias que lleven a cabo la vigilancia de la salud de los trabajadores, sin que pueda facilitarse al empresario o a otras personas sin consentimiento expreso del trabajador.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

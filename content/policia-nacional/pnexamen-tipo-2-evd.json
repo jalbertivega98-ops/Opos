@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-evd-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-4606",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 52, tema P22) · Art. 20 Ley 4/2015",
+      "stem": "Según el Estatuto de la víctima del delito, las dependencias en las que se desarrollen los actos del procedimiento penal, incluida la fase de investigación, estarán dispuestas de modo que se evite:",
+      "options": [
+        "La presencia de los abogados de la acusación particular.",
+        "El contacto directo entre las víctimas y sus familiares y el sospechoso o acusado.",
+        "La publicidad de las actuaciones ante los medios de comunicación en todo caso."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 20 de la Ley 4/2015 reconoce el derecho a que se evite el contacto entre víctima e infractor, disponiendo las dependencias de modo que no haya contacto directo entre las víctimas y sus familiares y el sospechoso o acusado.",
+      "excerpt": "estarán dispuestas de modo que se evite el contacto directo entre las víctimas y sus familiares, de una parte, y el sospechoso de la infracción o acusado, de otra",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 53, tema P22) · Art. 25.1.c) Ley 4/2015",
+      "stem": "Según el Estatuto de la víctima del delito, durante la fase de investigación podrá adoptarse como medida de protección que todas las tomas de declaración a una misma víctima:",
+      "options": [
+        "Se realicen siempre en presencia del investigado y de su abogado.",
+        "Se realicen exclusivamente por escrito, sin comparecencia personal.",
+        "Le sean realizadas por la misma persona, salvo que ello perjudique de forma relevante el proceso o deba declarar directamente ante un Juez o Fiscal."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 25.1 de la Ley 4/2015 prevé, entre otras medidas en fase de investigación, declarar en dependencias adaptadas, ante profesionales formados y que todas las declaraciones las tome la misma persona.",
+      "excerpt": "c) Que todas las tomas de declaración a una misma víctima le sean realizadas por la misma persona, salvo que ello pueda perjudicar de forma relevante el desarrollo del proceso o deba tomarse la declaración directamente por un Juez o un Fiscal.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-ms_redes-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Modelo OSI, direccionamiento TCP/IP y subredes, DHCP, DNS, IPv6 y Firewall de Windows",
+      "url": "https://learn.microsoft.com/es-es/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 86, tema P39) · Microsoft Learn, Modelo OSI: capa de red",
+      "stem": "Según Microsoft Learn, ¿qué capa del modelo OSI controla el funcionamiento de la subred y determina la ruta de acceso física que deben tomar los datos?",
+      "options": [
+        "La capa de red.",
+        "La capa de transporte.",
+        "La capa de vínculo de datos."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "La capa de red decide la ruta según las condiciones de la red, la prioridad del servicio y otros factores como el enrutamiento; la de transporte garantiza la entrega sin errores y la de vínculo de datos envía fotogramas entre direcciones físicas.",
+      "excerpt": "La capa de red controla el funcionamiento de la subred. Esta capa determina la ruta de acceso física que deben tomar los datos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 87, tema P39) · Microsoft Learn, DNS",
+      "stem": "Según Microsoft Learn, el protocolo DNS forma parte de la siguiente capa del modelo de referencia TCP/IP:",
+      "options": [
+        "La capa de internet.",
+        "La capa de aplicación.",
+        "La capa de acceso a la red."
+      ],
+      "correct": 1,
+      "difficulty": 2,
+      "explanation": "Microsoft indica que DNS, incluido en el conjunto de protocolos TCP/IP, forma parte de la capa de aplicación.",
+      "excerpt": "DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP",
+      "excerpt_status": "completo"
+    }
+  ]
+}

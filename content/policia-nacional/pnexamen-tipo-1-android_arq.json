@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-android_arq-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Android Developers · Arquitectura de la plataforma",
+      "url": "https://developer.android.com/guide/platform?hl=es-419",
+      "kind": "web_oficial",
+      "publisher": "Google · Android Developers (documentación oficial)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 84, tema P38) · Android Developers, Framework de la API de Java",
+      "stem": "Según la documentación oficial de Android, todo el conjunto de funciones del sistema operativo Android está disponible mediante API escritas en el lenguaje:",
+      "options": [
+        "Java.",
+        "Swift.",
+        "C#."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "La documentación de Android explica que el framework de la API de Java es la base para crear apps; algunos componentes nativos están escritos en C y C++.",
+      "excerpt": "Todo el conjunto de funciones del SO Android está disponible mediante API escritas en el lenguaje Java.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

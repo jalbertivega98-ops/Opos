@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-lopdgdd-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 60, tema P26) · Art. 5.3 LO 3/2018",
+      "stem": "Según la Ley Orgánica 3/2018, el deber de confidencialidad de quienes intervienen en el tratamiento de datos:",
+      "options": [
+        "Se mantiene aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento.",
+        "Se extingue al finalizar la relación con el responsable o encargado del tratamiento.",
+        "Se mantiene solo durante los cinco años siguientes al fin de la relación."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "El art. 5.3 LOPDGDD prolonga el deber de confidencialidad más allá de la relación con el responsable o encargado.",
+      "excerpt": "3. Las obligaciones establecidas en los apartados anteriores se mantendrán aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

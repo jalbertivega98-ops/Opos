@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-ccn_stic425-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Guía CCN-STIC-425, Ciclo de Inteligencia y Análisis de Intrusiones (octubre de 2015), págs. 6-10 y 42-44",
+      "url": "https://www.ccn-cert.cni.es/es/series-ccn-stic/guias-de-acceso-publico-ccn-stic/1093-ccn-stic-425-ciclo-de-inteligencia-y-analisis-de-intrusiones/file",
+      "kind": "web_oficial",
+      "publisher": "Centro Criptológico Nacional (CCN-CERT), adscrito al CNI",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 89, tema P40) · CCN-STIC-425, apdo. 2.2.1, párr. 15",
+      "stem": "Según la guía CCN-STIC-425, dentro de la fase de Dirección y Planificación del ciclo de inteligencia, la sub-fase de Planificación responde a la pregunta:",
+      "options": [
+        "QUÉ.",
+        "CUÁNDO.",
+        "CÓMO."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "La guía asigna a la Dirección el «QUÉ» (requisitos del producto) y a la Planificación el «CÓMO» (acciones que habrá que desarrollar en las restantes fases).",
+      "excerpt": "durante la sub-fase de Planificación (CÓMO), la organización consumidora",
+      "excerpt_status": "completo"
+    }
+  ]
+}

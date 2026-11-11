@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-3-lsp-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 3 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-3",
+    "locale": "es",
+    "category": "gcexamen_2022_3",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley 5/2014, de 4 de abril, de Seguridad Privada (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 3 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-3 (n.º 67) · Art. 55 Ley 5/2014",
+      "stem": "Sobre las medidas provisionales que pueden acordar las Fuerzas y Cuerpos de Seguridad antes de incoar un procedimiento sancionador de seguridad privada, señale la respuesta CORRECTA:",
+      "options": [
+        "Deben ser ratificadas, modificadas o revocadas en el plazo máximo de un mes.",
+        "Su duración no puede exceder de tres meses.",
+        "Su duración, que debe notificarse a los interesados, no puede exceder de seis meses.",
+        "Las ratifica en todo caso el Ministro del Interior, aunque no sea competente para incoar el procedimiento."
+      ],
+      "correct": 2,
+      "difficulty": 3,
+      "explanation": "Art. 55.3 Ley 5/2014. La ratificación se hace en quince días (55.2) por el órgano competente para incoar el procedimiento.",
+      "excerpt": "3. La duración de las medidas contempladas en el apartado 1, que deberá ser notificada a los interesados, no podrá exceder de seis meses.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Réplica 2022-3 (n.º 68) · Art. 49 Ley 5/2014",
+      "stem": "En relación con los informes y datos de las investigaciones privadas realizadas por detectives, señale la respuesta INCORRECTA:",
+      "options": [
+        "Por cada servicio contratado debe elaborarse un único informe.",
+        "Los informes de investigación deben conservarse archivados al menos durante tres años.",
+        "Las investigaciones privadas tienen carácter reservado.",
+        "Los datos obtenidos pueden ponerse a disposición de cualquier tercero que acredite un interés legítimo."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Art. 49.5 Ley 5/2014: los datos solo pueden ponerse a disposición del cliente o, en su caso, de los órganos judiciales y policiales (estos, para una investigación policial o un procedimiento sancionador).",
+      "excerpt": "5. Las investigaciones privadas tendrán carácter reservado y los datos obtenidos a través de las mismas solo se podrán poner a disposición del cliente o, en su caso, de los órganos judiciales y policiales, en este último supuesto únicamente para una investigación policial o para un procedimiento sancionador",
+      "excerpt_status": "completo"
+    }
+  ]
+}

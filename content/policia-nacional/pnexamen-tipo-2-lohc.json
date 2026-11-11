@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lohc-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 6/1984, de 24 de mayo, reguladora del procedimiento de «Habeas Corpus» (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-11620",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 49, tema P21) · Art. 4 LO 6/1984",
+      "stem": "Según la Ley Orgánica 6/1984, el procedimiento de habeas corpus, salvo cuando se incoe de oficio, se iniciará por medio de escrito o comparecencia:",
+      "options": [
+        "Siendo preceptiva la intervención de Abogado, pero no de Procurador.",
+        "No siendo preceptiva la intervención de Abogado ni de Procurador.",
+        "Siendo preceptiva la intervención de Abogado y de Procurador."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El art. 4 LO 6/1984 permite iniciar el habeas corpus por escrito o comparecencia sin necesidad de Abogado ni Procurador; deben constar los datos del solicitante, el lugar de custodia y el motivo concreto.",
+      "excerpt": "El procedimiento se iniciará, salvo cuando se incoe de oficio, por medio de escrito o comparecencia, no siendo preceptiva la intervención de Abogado ni de Procurador.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 50, tema P21) · Art. 6 LO 6/1984",
+      "stem": "Según la Ley Orgánica 6/1984, contra el auto por el que el Juez acuerda la incoación del procedimiento de habeas corpus o deniega la solicitud por improcedente:",
+      "options": [
+        "Cabe recurso de apelación ante la Audiencia Provincial.",
+        "Cabe recurso de reforma ante el propio Juez en el plazo de veinticuatro horas.",
+        "No cabe recurso alguno."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 6 LO 6/1984 dispone que el auto se notifica en todo caso al Ministerio Fiscal y que contra él no cabe recurso alguno.",
+      "excerpt": "Contra la resolución que en uno u otro caso se adopte, no cabrá recurso alguno.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-2-rae_dpd-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 2 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-2",
+    "locale": "es",
+    "category": "gcexamen_2022_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española y ASALE · Diccionario panhispánico de dudas (DPD), 2.ª edición en línea",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 2 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-2 (n.º 95) · Dequeísmo (DPD)",
+      "stem": "Según el Diccionario panhispánico de dudas, ¿cuál de las siguientes oraciones NO incurre en dequeísmo?",
+      "options": [
+        "Pienso de que conseguiremos ganar el campeonato.",
+        "Le preocupa de que aún no hayas llegado.",
+        "Se rumorea de que está en quiebra.",
+        "Me alegro de que seáis felices."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "Los verbos pronominales como alegrarse exigen la preposición de; en las otras tres el de introduce indebidamente un complemento directo o un sujeto.",
+      "excerpt": "Algunos de estos verbos, cuando se usan en forma pronominal (alegrarse, preocuparse, etc.), sí exigen un complemento encabezado por la preposición de. En ese caso, el uso conjunto de la preposición y la conjunción es obligatorio: Me alegro de que seáis felices",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Réplica 2022-2 (n.º 96) · Queísmo (DPD)",
+      "stem": "Según el Diccionario panhispánico de dudas, ¿cuál de las siguientes construcciones NO es un caso de queísmo?",
+      "options": [
+        "No tiene en cuenta que nos esforzamos.",
+        "A pesar que llovía, salimos.",
+        "Nos dimos cuenta que era tarde.",
+        "Confía que sea verdad."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Tener en cuenta no exige preposición; a pesar de que, darse cuenta de algo y confiar en algo sí la exigen, y suprimirla es queísmo.",
+      "excerpt": "No deben confundirse las locuciones caer en la cuenta o darse cuenta, que exigen de, con tener en cuenta, que no exige la preposición: No tiene en cuenta que nos esforzamos",
+      "excerpt_status": "completo"
+    }
+  ]
+}

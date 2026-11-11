@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lodp-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 4, tema P02) · Art. 17.3 LO 3/1981",
+      "stem": "Según la Ley Orgánica 3/1981, del Defensor del Pueblo, ¿qué hará el Defensor del Pueblo con las quejas anónimas?",
+      "options": [
+        "Las tramitará solo si afectan a derechos fundamentales.",
+        "Las remitirá al Ministerio Fiscal.",
+        "Las rechazará."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 17.3 LO 3/1981 obliga a rechazar las quejas anónimas y permite rechazar las formuladas con mala fe, sin fundamento o sin pretensión; esas decisiones no son susceptibles de recurso.",
+      "excerpt": "Tres. El Defensor del Pueblo rechazará las quejas anónimas y podrá rechazar aquellas en las que advierta mala fe, carencia de fundamento, inexistencia de pretensión",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 5, tema P02) · Art. 18.1 LO 3/1981",
+      "stem": "Admitida una queja, el Defensor del Pueblo dará cuenta de ella al organismo afectado para que su jefe remita informe escrito en el plazo máximo de:",
+      "options": [
+        "Quince días, ampliable cuando concurran circunstancias que lo aconsejen.",
+        "Diez días, improrrogable.",
+        "Un mes, ampliable por otro mes."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 18.1 LO 3/1981 fija un plazo máximo de quince días para el informe escrito, ampliable a juicio del Defensor del Pueblo. No confundir con los diez días mínimos que el art. 20.2 da al funcionario afectado para responder.",
+      "excerpt": "con el fin de que por su Jefe en el plazo máximo de quince días, se remita informe escrito. Tal plazo será ampliable cuando concurran circunstancias que lo aconsejen a juicio del Defensor del Pueblo.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

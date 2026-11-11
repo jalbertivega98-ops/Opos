@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-2-eni-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 2 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-2",
+    "locale": "es",
+    "category": "gcexamen_2022_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto 4/2010, de 8 de enero, Esquema Nacional de Interoperabilidad (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 2 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-2 (n.º 87) · Art. 23.1 RD 4/2010 (ENI)",
+      "stem": "Según el Esquema Nacional de Interoperabilidad, para garantizar la conservación el documento electrónico se conservará preferentemente en un formato de estándar abierto que preserve a lo largo del tiempo la integridad de:",
+      "options": [
+        "Únicamente el contenido del documento.",
+        "Únicamente la firma electrónica.",
+        "El contenido y los metadatos, pero no la firma electrónica.",
+        "El contenido del documento, la firma electrónica y los metadatos que lo acompañan."
+      ],
+      "correct": 3,
+      "difficulty": 2,
+      "explanation": "El ENI exige preservar a la vez el contenido, la firma electrónica y los metadatos.",
+      "excerpt": "preferentemente en un formato correspondiente a un estándar abierto que preserve a lo largo del tiempo la integridad del contenido del documento, de la firma electrónica y de los metadatos que lo acompañan.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

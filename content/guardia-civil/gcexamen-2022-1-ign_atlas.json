@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "set": "gcexamen-2022-1-ign_atlas-v1",
+    "exam": "guardia-civil-cabos-guardias",
+    "also_exams": [],
+    "topic": "Examen réplica 2022, ejercicio 1 · Prueba de conocimientos (100 preguntas)",
+    "topic_slug": "gcexamen-2022-1",
+    "locale": "es",
+    "category": "gcexamen_2022_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Instituto Geográfico Nacional · Atlas Didáctico: La representación del territorio (ESO y Bachillerato)",
+      "url": "https://educativo.ign.es/atlas-didactico/cartografia-bach/representacin_del_relieve.html",
+      "kind": "web_oficial",
+      "publisher": "Instituto Geográfico Nacional (IGN-CNIG)",
+      "published_on": null
+    },
+    "notes": "Examen réplica de la prueba de conocimientos de 2022, ejercicio 1 (Resolución 160/38262/2022, BOE de 28/06/2022; cuestionario oficial publicado por la Jefatura de Enseñanza de la Guardia Civil). 100 preguntas, 4 opciones, una correcta; cada error resta 1/3 de acierto; nota 0-100, mínimo 50. Cada pregunta es original y replica el punto (norma y artículo o concepto) de la pregunta oficial del mismo número; no copia enunciados ni opciones. Si la norma ha cambiado, pregunta por la versión vigente."
+  },
+  "questions": [
+    {
+      "ref": "Réplica 2022-1 (n.º 90) · IGN · Atlas didáctico (formas de expresar la escala)",
+      "stem": "Según el Atlas didáctico del IGN, ¿cuál de las siguientes NO es una de las formas de expresar la escala de un mapa?",
+      "options": [
+        "Numérica.",
+        "Gráfica.",
+        "Textual.",
+        "Hipsométrica."
+      ],
+      "correct": 3,
+      "difficulty": 1,
+      "explanation": "La escala puede expresarse de forma numérica (fracción), gráfica (segmentos de igual proporción) o textual (escrita); las tintas hipsométricas son una técnica de representación del relieve.",
+      "excerpt": "La escala puede expresarse de diferentes formas: […] Numérica: se expresa mediante una fracción. […] Gráfica: es una representación lineal, subdividida en segmentos de igual proporción. […] Textual: escrito literalmente.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Réplica 2022-1 (n.º 93) · IGN · Atlas didáctico (curvas de nivel y equidistancia; cálculo de cotas)",
+      "stem": "Dos curvas de nivel consecutivas A (620 m) y B, de mayor cota, con equidistancia de 10 m y pendiente constante, están separadas 8 mm en el mapa. ¿Cuál es la cota de un punto P situado entre ellas a 3,2 mm de la curva A?",
+      "options": [
+        "624 metros.",
+        "623,2 metros.",
+        "626 metros.",
+        "628 metros."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "Con pendiente constante, la cota se interpola linealmente: desnivel = 10 m × 3,2 / 8 = 4 m; cota de P = 620 + 4 = 624 m.",
+      "excerpt": "En un mismo mapa la distancia vertical que separa dos curvas de nivel consecutivas suele ser constante y se denomina equidistancia.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-ms_archivos-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Microsoft Learn · Sistemas de archivos (NTFS, comparación de funcionalidades, FAT/exFAT/ReFS)",
+      "url": "https://learn.microsoft.com/es-es/windows-server/storage/file-server/ntfs-overview",
+      "kind": "web_oficial",
+      "publisher": "Microsoft (documentación técnica oficial, learn.microsoft.com)",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 84, tema P38) · Microsoft, sistemas de archivos: disco duro",
+      "stem": "Según la documentación de Microsoft, el tipo de almacenamiento que se usa con más frecuencia con Windows es:",
+      "options": [
+        "La memoria RAM.",
+        "El disco duro.",
+        "El disco óptico."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "La documentación de Microsoft describe el disco duro como un disco rígido interno que almacena grandes cantidades de datos con acceso relativamente rápido y que es el almacenamiento más usado con Windows.",
+      "excerpt": "Un disco duro es un disco rígido dentro de un equipo que almacena y proporciona acceso relativamente rápido a grandes cantidades de datos. Es el tipo de almacenamiento que se usa con más frecuencia con Windows.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 85, tema P38) · Microsoft, NTFS de recuperación automática",
+      "stem": "La característica de NTFS que detecta y repara automáticamente daños menores en el sistema de archivos en segundo plano, sin desconectar el volumen, es:",
+      "options": [
+        "NTFS de recuperación automática.",
+        "La desfragmentación programada.",
+        "La compresión de archivos NTFS."
+      ],
+      "correct": 0,
+      "difficulty": 2,
+      "explanation": "Según Microsoft, NTFS de recuperación automática detecta y repara en segundo plano daños menores del sistema de archivos sin necesidad de desconectar el volumen.",
+      "excerpt": "NTFS incluye una característica denominada NTFS de recuperación automática, que detecta y repara automáticamente daños menores en el sistema de archivos en segundo plano, sin necesidad de que el volumen se desconecte.",
+      "excerpt_status": "completo"
+    }
+  ]
+}

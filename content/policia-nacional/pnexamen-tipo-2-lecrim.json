@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-2-lecrim-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 2 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-2",
+    "locale": "es",
+    "category": "pnexamen_tipo_2",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Decreto de 14 de septiembre de 1882, Ley de Enjuiciamiento Criminal (texto consolidado, BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036",
+      "kind": "boe",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 2 (n.º 47, tema P20) · Art. 588 ter k LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, cuando los agentes de la Policía Judicial tengan acceso a una dirección IP utilizada para cometer un delito y no conste la identificación del usuario, para obtener los datos que permitan identificar al sospechoso:",
+      "options": [
+        "Solicitarán del juez de instrucción que requiera la cesión de esos datos a los sujetos obligados a colaborar.",
+        "Requerirán directamente los datos al prestador de servicios, dando cuenta al juez en veinticuatro horas.",
+        "Solicitarán los datos al Ministerio Fiscal, que los requerirá mediante decreto."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "El art. 588 ter k LECrim obliga a la Policía Judicial a solicitar al juez de instrucción que requiera a los sujetos con deber de colaboración (art. 588 ter e) la cesión de los datos de identificación y localización del terminal y del sospechoso.",
+      "excerpt": "solicitarán del juez de instrucción que requiera de los agentes sujetos al deber de colaboración según el artículo 588 ter e, la cesión de los datos que permitan la identificación y localización del terminal o del dispositivo de conectividad y la identificación del sospechoso.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 2 (n.º 48, tema P20) · Art. 588 quinquies c.1 LECrim",
+      "stem": "Según la Ley de Enjuiciamiento Criminal, la utilización de dispositivos técnicos de seguimiento y localización tendrá una duración máxima de:",
+      "options": [
+        "Un mes desde su autorización, prorrogable hasta un máximo de seis meses.",
+        "Seis meses desde su autorización, prorrogable hasta un máximo de dos años.",
+        "Tres meses desde su autorización, prorrogable excepcionalmente hasta un máximo de dieciocho meses."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El art. 588 quinquies c.1 LECrim fija tres meses de duración máxima, con prórrogas sucesivas por el mismo o inferior plazo hasta un máximo de dieciocho meses si está justificado por los resultados.",
+      "excerpt": "tendrá una duración máxima de tres meses a partir de la fecha de su autorización. Excepcionalmente, el juez podrá acordar prórrogas sucesivas por el mismo o inferior plazo hasta un máximo de dieciocho meses",
+      "excerpt_status": "completo"
+    }
+  ]
+}

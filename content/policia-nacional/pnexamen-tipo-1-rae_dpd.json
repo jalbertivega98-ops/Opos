@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "set": "pnexamen-tipo-1-rae_dpd-v1",
+    "exam": "policia-nacional-basica",
+    "also_exams": [],
+    "topic": "Examen tipo 1 · Primera prueba de conocimientos (100 preguntas)",
+    "topic_slug": "pnexamen-tipo-1",
+    "locale": "es",
+    "category": "pnexamen_tipo_1",
+    "author": "Claude (borrador, pendiente de revisión humana)",
+    "created": "2026-11-04",
+    "source": {
+      "title": "Real Academia Española y ASALE · Diccionario panhispánico de dudas (DPD), 2.ª edición en línea",
+      "url": "https://www.rae.es/dpd/",
+      "kind": "web_oficial",
+      "publisher": "Real Academia Española y Asociación de Academias de la Lengua Española",
+      "published_on": null
+    },
+    "notes": "Examen tipo de la primera prueba de la Escala Básica (Resolución de 7/07/2026, BOE-A-2026-15055): 100 preguntas nuevas, 3 opciones, una correcta; cada error resta medio acierto; 50 minutos; nota 0-10. La Policía Nacional no publica sus cuestionarios: no es un examen oficial, sino uno con su formato y con preguntas de los 45 temas en la proporción del temario. Redacción original a partir del texto oficial."
+  },
+  "questions": [
+    {
+      "ref": "Examen tipo 1 (n.º 80, tema P36) · DPD, sendos 1 y 2",
+      "stem": "Según el Diccionario panhispánico de dudas, «sendos» es un cuantificador distributivo que significa:",
+      "options": [
+        "'Dos' o 'ambos', y puede usarse indistintamente con esos valores.",
+        "'Grandes' o 'enormes', con valor ponderativo.",
+        "'Uno (a o para) cada una de las personas o cosas que se mencionan', y no debe emplearse como equivalente de «dos» o «ambos»."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DPD lo define como determinante distributivo que antecede siempre a un sustantivo plural y censura su uso con el sentido de «dos» o «ambos».",
+      "excerpt": "1. Cuantificador distributivo que funciona como determinante antecediendo siempre a un sustantivo plural y significa 'uno (a o para) cada una de las personas o cosas que se mencionan'. […] 2. No debe emplearse como equivalente de dos o ambos",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 81, tema P36) · DPD, mayor 2.2",
+      "stem": "Según el Diccionario panhispánico de dudas, en la frase «un hombre más mayor que ella», con el segundo término de la comparación expreso, la anteposición de «más»:",
+      "options": [
+        "Resulta superflua y, por tanto, desaconsejable.",
+        "Es obligatoria para formar el comparativo.",
+        "Es correcta y la única forma recomendada."
+      ],
+      "correct": 0,
+      "difficulty": 3,
+      "explanation": "«Mayor» es ya un comparativo; cuando el segundo término está expreso, el DPD desaconseja «más mayor» y prefiere «un hombre mayor que ella».",
+      "excerpt": "En cambio, cuando el segundo término de la comparación está expreso, la anteposición de más, menos habitual que en el caso anterior, resulta superflua y, por tanto, desaconsejable",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 82, tema P37) · DPD, exuberante",
+      "stem": "Según el Diccionario panhispánico de dudas, ¿cuál es la grafía correcta del adjetivo que significa 'muy abundante'?",
+      "options": [
+        "Exhuberante.",
+        "Exuberante.",
+        "Exhuverante."
+      ],
+      "correct": 1,
+      "difficulty": 1,
+      "explanation": "El DPD declara incorrecta la grafía con h; tampoco debe escribirse «exhuberancia».",
+      "excerpt": "Es incorrecta la grafía ⊗exhuberante.",
+      "excerpt_status": "completo"
+    },
+    {
+      "ref": "Examen tipo 1 (n.º 83, tema P37) · DPD, tilde 2.3.2",
+      "stem": "Según el Diccionario panhispánico de dudas, en las palabras con hiato de vocal cerrada tónica, una hache intercalada:",
+      "options": [
+        "Impide que se forme el hiato, por lo que no se escribe tilde: «buho», «prohibe».",
+        "Solo obliga a escribir tilde cuando la palabra es esdrújula.",
+        "No exime de la obligación de tildar la vocal tónica del hiato, como en «búho» o «prohíbe»."
+      ],
+      "correct": 2,
+      "difficulty": 2,
+      "explanation": "El DPD establece que la h intercalada no impide el hiato ni dispensa de la tilde: búho, ahíto, prohíbe, rehén.",
+      "excerpt": "La presencia de una hache intercalada no exime de la obligación de tildar la vocal tónica del hiato: búho, ahíto, prohíbe, alcohólico, rehén, turbohélice.",
+      "excerpt_status": "completo"
+    }
+  ]
+}
