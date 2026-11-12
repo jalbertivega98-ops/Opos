@@ -178,6 +178,43 @@ describe("simulacros con formato oficial (MOC-001)", () => {
     });
   });
 
+  it("el banco del simulacro (mock_pool) solo toma su prefijo, su idioma y lo publicado", async () => {
+    await tx(async (q) => {
+      const { pid, prefix } = await seed(q);
+      // otro tema fuera del prefijo y una pregunta en borrador dentro de él
+      const { rows: out } = await q(
+        "insert into public.topics (slug, title) values ($1, 'Fora') returning id",
+        [`x${prefix}-z`],
+      );
+      await published(q, out[0].id, `${prefix} fora`);
+      const { rows: tb } = await q("select id from public.topics where slug = $1", [`${prefix}-b`]);
+      await q(
+        `insert into public.questions (stem, explanation, category, content_hash, source_ref, topic_id, locale)
+         values ($1, 'Explicació suficient.', 'prova', md5($1), 'p. 1', $2, 'ca')`,
+        [`${prefix} esborrany`, tb[0].id],
+      );
+      const pool = (await q("select topic_slug from public.mock_pool($1)", [pid])).rows.map(
+        (r) => r.topic_slug as string,
+      );
+      expect(pool.sort()).toEqual([
+        `${prefix}-a`,
+        `${prefix}-a`,
+        `${prefix}-b`,
+        `${prefix}-c`,
+        `${prefix}-c`,
+        `${prefix}-c`,
+      ]);
+      // un producto que no es simulacro no tiene banco
+      const { rows: pack } = await q(
+        `insert into public.products (slug, type, status, title, config)
+         values ($1, 'question_pack', 'draft', 'Pack', jsonb_build_object('topic_prefix', $2::text))
+         returning id`,
+        [`${prefix}-pack`, `${prefix}-`],
+      );
+      expect((await q("select * from public.mock_pool($1)", [pack[0].id])).rowCount).toBe(0);
+    });
+  });
+
   it("no empieza si el banco publicado no llega al formato", async () => {
     await tx(async (q) => {
       const { pid } = await seed(q, 7);

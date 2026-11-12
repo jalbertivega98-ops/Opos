@@ -31,7 +31,14 @@ export default async function CatalogPage({
   setRequestLocale(locale);
   const t = await getTranslations();
   const filter = catalogFilterSchema.parse(await searchParams);
-  const exams = await listExamBodies(filter);
+  const filtered = Boolean(filter.q || filter.category);
+  const [exams, all] = await Promise.all([
+    listExamBodies(filter),
+    filtered ? listExamBodies() : Promise.resolve(null),
+  ]);
+  // Solo las categorías que tienen alguna oposición publicada (y la elegida, si la hay).
+  const used = new Set((all ?? exams).map((e) => e.category));
+  const categories = CATEGORIES.filter((c) => used.has(c) || c === filter.category);
 
   return (
     <div className="wrap py-10 sm:py-14">
@@ -60,7 +67,7 @@ export default async function CatalogPage({
           className="border-input bg-background h-11 rounded-lg border px-3"
         >
           <option value="">{t("catalog.allCategories")}</option>
-          {CATEGORIES.map((c) => (
+          {categories.map((c) => (
             <option key={c} value={c}>
               {t(`category.${c}`)}
             </option>

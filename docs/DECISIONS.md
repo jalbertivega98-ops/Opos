@@ -397,11 +397,13 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Motivo:** las dos oposiciones con más demanda tenían 2 simulacros por reparto y ningún examen real.
 **Consecuencias:** preview `87-` (preguntas) y `88-` (publicación y productos). Siguen en borrador 7 dudosas: GC 2026 n.º 72-73 (la Orden PRE/422/2013 de la carpeta no tiene la estructura de Servicios Centrales que da por supuesta el cuadernillo), 2022-2 n.º 85-86 y 2022-3 n.º 83-84 (Directiva 2012/27/UE, derogada por la 2023/1791 y aún en el temario) y PN tipo 2 n.º 77 (dato de la encuesta EDADES). Cada convocatoria nueva de Guardia Civil pide su réplica (el cuadernillo se publica tras la prueba).
+
 ## ADR-050 · Más alcance en buscadores: enlaces internos, ejemplos resueltos e IndexNow automático (2026-11-10)
 
 **Contexto.** A los 6 días de abrir la web, Search Console marcaba 21 apariciones y 2 visitas en 28 días, de media en la 3.ª página. Las búsquedas que ya asoman son de psicotécnicos («test psicotécnicos gratis», «psicotécnicos online»). Auditoría de las 58 URL del sitemap: títulos, descripciones y h1 correctos, pero las fichas de oposición solo recibían 12 enlaces internos, las páginas de psicotécnico tenían 220-370 palabras y Bing seguía sin alta (IndexNow dependía de una variable en Vercel).
 
 **Decisión.**
+
 - El pie de todas las páginas enlaza las 11 fichas de oposición y los 15 tipos de psicotécnico (nombre corto con `examShortName`, sacado del h1 verificado).
 - Cada página `/psicotecnicos/<tipo>` muestra tres **ejemplos resueltos** con semillas fijas (contenido estable en el HTML) generados por el mismo motor determinista: enunciado, opciones, solución y explicación. Son ítems distintos de los del entrenador, que siguen sin enviar la solución al cliente.
 - Títulos de los tipos con «gratis» (lo que se busca), sin pasar de ~60 caracteres.
@@ -409,3 +411,17 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - IndexNow sin depender de Vercel: clave pública por defecto en `/indexnow.txt` y GitHub Action `indexnow.yml` que envía el sitemap tras cada push a `main` (espera 4 min al despliegue).
 
 **Consecuencias.** Bing, Yandex y Seznam reciben las URL en cada publicación sin pasos manuales. No se añade ningún dato de examen nuevo: solo se reutiliza contenido verificado y ejercicios generados.
+
+## ADR-051 · Fichas con oferta siempre visible: mock_pool rápido y arreglos de la auditoría del 12/11 (2026-11-12)
+
+**Contexto.** Auditoría del 12/11/2026 en producción: sin sesión, 11 de las 12 fichas de oposición salían **sin «Qué incluye» ni precios** y tardaban 3,6-4,2 s; con sesión, 5-9 s, y Mi panel, Mi plan, Simulacros y Perfil 7-8 s. Reproducido en local con todo el contenido de la preview (13.138 preguntas): `exam_offer` tardaba 3-3,7 s, por encima del `statement_timeout` del rol `anon` en Supabase (3 s), y `examOffer` ignoraba el error. La causa era `mock_pool`: calculaba `mock_config(p.config)` dentro del JOIN y Postgres la reevaluaba por cada tema y pregunta candidata (un simulacro de 920 preguntas, 1,5 s). `exam_offer` y `my_library` cuentan las preguntas de cada producto con `product_question_ids`, que llama a `mock_pool`.
+
+**Decisión.**
+
+- `mock_pool` calcula la configuración una vez en CTE materializadas (migración `20261112000100`, preview `89-`). Resultado idéntico al anterior, comprobado producto a producto (13.717 filas). `exam_offer` pasa de ~3,5 s a ~20 ms y `my_library` de 2,7 s a ~70 ms; también se aceleran `mock_start` y el resto de usos.
+- `examOffer` registra en los logs el error de la RPC (antes la ficha salía sin oferta en silencio).
+- Ficha de Guardia Civil: ya no dice que no se publican los cuestionarios (hay réplicas de los cuadernillos de 2026 y 2022 desde ADR-049); se añade el cuadernillo de 2026 a las fuentes.
+- Catálogo: el filtro solo ofrece categorías con alguna oposición publicada.
+- Títulos y descripciones más cortos en el test gratis, la portada, el catálogo y psicotécnicos (que pasa a decir 15 tipos).
+
+**Consecuencias.** La oferta vuelve a verse sin cuenta. No se cachean todavía las fichas (siguen siendo dinámicas); si vuelven a crecer los tiempos, el siguiente paso es guardar los recuentos por producto.
