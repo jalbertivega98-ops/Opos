@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Auditoría del 12/11/2026 (rama `claude/project-thread-bhp9kd`, MKT-008, ADR-051)
+
+- Informe en el Claude Doc «Auditoría OPOSAPRUEBA · 12 de noviembre de 2026». Hechos: `mock_pool` rápido (migración `20261112000100`, preview `89-`), que devuelve la oferta y el precio a las fichas sin sesión y acelera la zona del alumno; error de `exam_offer` en logs; ficha de Guardia Civil; filtro del catálogo; títulos y descripciones.
+- Pendiente: que joel diga «fusiona». Al fusionar, la Action aplica `89-` en la base de datos. Después, comprobar en producción que las 12 fichas muestran «Qué incluye» sin sesión.
+- Resto del plan (P1/P2 del informe): UTM en redes (joel), llevar tráfico al test gratis, bloque «Próxima convocatoria», guía de la prueba física de Mossos, correos automáticos, «Quiénes somos», datos del titular (joel y gestor), CSP, axe.
+
 ### Más alcance en buscadores (2026-11-10, rama `claude/project-thread-h5od90`, MKT-007, ADR-050)
 
 - Pie con enlaces a las 11 fichas y los 15 psicotécnicos, tres ejemplos resueltos (semillas fijas) en cada `/psicotecnicos/<tipo>`, títulos con «gratis» y nombres de oposición correctos en «Oposiciones en las que se trabaja».

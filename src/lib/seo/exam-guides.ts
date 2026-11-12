@@ -792,7 +792,7 @@ const policiaNacional: ExamGuide = {
 
 const guardiaCivil: ExamGuide = {
   slug: "guardia-civil-cabos-guardias",
-  verifiedOn: "2026-11-05",
+  verifiedOn: "2026-11-11",
   h1: {
     es: "Oposiciones a Guardia Civil (Cabos y Guardias)",
     ca: "Oposicions a Guàrdia Civil (Caporals i Guàrdies)",
@@ -806,8 +806,8 @@ const guardiaCivil: ExamGuide = {
     ca: "Convocatòria BOE-A-2026-9982: 3.240 places. Ortografia, gramàtica, 100 preguntes de coneixements i anglès en 140 minuts, i la prova d'aptituds intel·lectuals.",
   },
   intro: {
-    es: "Resumen de la convocatoria de ingreso en la Escala de Cabos y Guardias de la Guardia Civil (Resolución 160/38243/2026, BOE-A-2026-9982) y de las plantillas de 2026. La Guardia Civil publica las plantillas pero no los cuestionarios, así que nuestro simulacro sigue el reparto por temas del programa.",
-    ca: "Resum de la convocatòria d'ingrés a l'Escala de Caporals i Guàrdies de la Guàrdia Civil (Resolució 160/38243/2026, BOE-A-2026-9982) i de les plantilles del 2026. La Guàrdia Civil publica les plantilles però no els qüestionaris; per això el nostre simulacre segueix el repartiment per temes del programa.",
+    es: "Resumen de la convocatoria de ingreso en la Escala de Cabos y Guardias de la Guardia Civil (Resolución 160/38243/2026, BOE-A-2026-9982) y de los exámenes de 2026 y 2022. Además del simulacro con el reparto por temas del programa, puedes hacer las réplicas de los cuadernillos oficiales publicados por la Guardia Civil.",
+    ca: "Resum de la convocatòria d'ingrés a l'Escala de Caporals i Guàrdies de la Guàrdia Civil (Resolució 160/38243/2026, BOE-A-2026-9982) i dels exàmens del 2026 i del 2022. A més del simulacre amb el repartiment per temes del programa, pots fer les rèpliques dels quaderns oficials publicats per la Guàrdia Civil.",
   },
   facts: [
     {
@@ -895,6 +895,10 @@ const guardiaCivil: ExamGuide = {
     {
       title: "Guardia Civil · Plantillas de las pruebas de 2026",
       url: "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/PLANTILLAS-INGRESO_CABOS_-Y_GUARDIAS.-2026-2.pdf",
+    },
+    {
+      title: "Guardia Civil · Cuadernillo de las pruebas de 2026 (tipo A)",
+      url: "https://web.guardiacivil.es/export/sites/guardiaCivil/documentos/pdfs/2026/Procesos_Selectivos_2026/INGRESO-GC-2026-TIPO-A.pdf",
     },
   ],
 };

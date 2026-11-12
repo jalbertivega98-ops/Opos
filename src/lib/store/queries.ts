@@ -219,7 +219,9 @@ export async function planAccessWithKinds(
 /** Lo que incluye la preparación de una oposición (solo agregados publicados). */
 export async function examOffer(slug: string): Promise<ExamOffer | null> {
   const supabase = await createClient();
-  const { data } = await supabase.rpc("exam_offer", { p_exam_slug: slug });
+  const { data, error } = await supabase.rpc("exam_offer", { p_exam_slug: slug });
+  // Si falla (p. ej. statement_timeout) la ficha sale sin oferta: que quede en los logs.
+  if (error) console.error(`exam_offer(${slug}): ${error.code ?? ""} ${error.message}`);
   return (data as ExamOffer | null) ?? null;
 }
 
