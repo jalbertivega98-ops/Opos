@@ -10,6 +10,7 @@ import { getExamBody, listExamTopics, localized } from "@/lib/catalog/queries";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ExamGuideSection } from "@/components/seo/exam-guide";
 import { isExamIndexable } from "@/lib/seo/catalog";
+import { getPhysicalGuide } from "@/lib/seo/physical-tests";
 import { getExamGuide, tr } from "@/lib/seo/exam-guides";
 import { JsonLd, examGuideLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
@@ -145,6 +146,20 @@ export default async function ExamPage({
             <span className="text-muted-foreground text-sm">
               {t("seo.sample.ctaHint", { n: sample.length })}
             </span>
+          </span>
+          <ArrowRight className="text-accent size-5 shrink-0" aria-hidden />
+        </Link>
+      )}
+
+      {getPhysicalGuide(exam.slug) && (
+        <Link
+          href={`/oposiciones/${exam.slug}/prueba-fisica`}
+          className="border-border hover:border-accent mt-3 flex items-center justify-between gap-4 rounded-xl border p-4 transition-colors"
+          data-testid="physical-test-link"
+        >
+          <span>
+            <span className="block font-semibold">{t("seo.physical.cta")}</span>
+            <span className="text-muted-foreground text-sm">{t("seo.physical.ctaHint")}</span>
           </span>
           <ArrowRight className="text-accent size-5 shrink-0" aria-hidden />
         </Link>

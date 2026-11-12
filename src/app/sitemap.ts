@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
 import { listPublicExams, isExamIndexable } from "@/lib/seo/catalog";
 import { getExamGuide } from "@/lib/seo/exam-guides";
+import { physicalGuides } from "@/lib/seo/physical-tests";
 import { psychoGuides } from "@/lib/seo/psycho-guides";
 import { absoluteUrl } from "@/lib/seo/site";
 import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
@@ -47,6 +48,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...withSample.flatMap((slug) =>
       entries(`/oposiciones/${slug}/test`, { changeFrequency: "daily", priority: 0.8 }),
     ),
+    ...physicalGuides()
+      .filter((g) => exams.some((e) => e.slug === g.examSlug))
+      .flatMap((g) =>
+        entries(`/oposiciones/${g.examSlug}/prueba-fisica`, {
+          changeFrequency: "weekly",
+          priority: 0.8,
+          lastModified: g.verifiedOn,
+        }),
+      ),
     ...entries("/psicotecnicos", { changeFrequency: "monthly", priority: 0.8 }),
     ...psychoGuides().flatMap((g) =>
       entries(`/psicotecnicos/${g.slug}`, { changeFrequency: "monthly", priority: 0.7 }),
