@@ -425,3 +425,16 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Títulos y descripciones más cortos en el test gratis, la portada, el catálogo y psicotécnicos (que pasa a decir 15 tipos).
 
 **Consecuencias.** La oferta vuelve a verse sin cuenta. No se cachean todavía las fichas (siguen siendo dinámicas); si vuelven a crecer los tiempos, el siguiente paso es guardar los recuentos por producto.
+
+## ADR-052 · Guía de la prueba física con baremos oficiales y calculadora (2026-11-12)
+
+**Contexto.** Mossos 46/26 publica los resultados de la 1.ª prueba el 17/11/2026 y hace la prueba física del 23/11 al 21/12. Es lo que buscarán miles de aspirantes esas semanas, y la web no tenía nada sobre ella (pendiente 3 de Mossos desde el 3/11).
+
+**Decisión.**
+
+- Página `/oposiciones/<slug>/prueba-fisica` (es/ca) solo para las oposiciones con guía en `src/lib/seo/physical-tests.ts`. Primera: Mossos, con la base 6.1.2 y el anexo 2 de la Resolución ISP/1763/2026 leídos en el DOGC el 12/11/2026 (copia en `fuentes-oficiales/mossos-prova-fisica-46-26.md`).
+- Ejercicios, normas, intentos, baremos de hombres y mujeres tal cual, cómo se puntúa, qué viene después, FAQ (JSON-LD) y fuentes.
+- Calculadora en cliente (`physicalScore`): puntos por ejercicio, media de los tres (33,33 % cada uno), mínimo 1 por ejercicio y 5 en total. Una marca entre dos filas se queda con la fila alcanzada; los «<» y «>» de la fila 10 son estrictos. Se avisa de que es orientativa.
+- Enlace desde la ficha y entrada en el sitemap. Sin plan de entrenamiento: no hay fuente oficial para eso.
+
+**Consecuencias.** Añadir otra oposición (Bombers, Guardia Urbana, PN, GC) es añadir su guía al módulo con datos verificados de sus bases.
