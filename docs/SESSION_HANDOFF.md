@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Web más rápida (2026-11-13, rama `claude/project-thread-2rp695`, PERF-003, ADR-053)
+
+- Las funciones de Vercel corrían en iad1 (EE. UU.) y Supabase está en Fráncfort: cada consulta cruzaba el Atlántico. `vercel.json` fija `fra1`. `loading.tsx` genérico en las pantallas del menú de `/app` (nunca encima de páginas con `notFound()`, para no perder el 404).
+- Medido antes (13/11, desde Barcelona): públicas 0,5-1 s, alumno 0,7-1,8 s. Pendiente: que joel diga «fusiona»; después, comprobar `x-vercel-id` (`::fra1::`) y volver a medir.
+
 ### Guía de la prueba física de Mossos (2026-11-12, rama `claude/project-thread-bhp9kd`, MKT-009, ADR-052)
 
 - `/oposiciones/mossos-esquadra/prueba-fisica` (es/ca): ejercicios, normas y baremos del anexo 2 de las bases, calculadora de nota, FAQ y fuentes. Datos en `src/lib/seo/physical-tests.ts`; fuente copiada en `fuentes-oficiales/mossos-prova-fisica-46-26.md`.

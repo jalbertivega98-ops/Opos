@@ -438,3 +438,15 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Enlace desde la ficha y entrada en el sitemap. Sin plan de entrenamiento: no hay fuente oficial para eso.
 
 **Consecuencias.** Añadir otra oposición (Bombers, Guardia Urbana, PN, GC) es añadir su guía al módulo con datos verificados de sus bases.
+
+## ADR-053 · Servidor de Vercel en Fráncfort y carga instantánea en la zona del alumno (2026-11-13)
+
+**Contexto.** joel nota que algunos enlaces tardan. Medido el 13/11/2026 desde su navegador (Barcelona) en www.oposaprueba.com: páginas públicas 0,5-1 s (incluso `/legal/privacidad` o `/entrar`, que casi no consultan nada) y zona del alumno 0,7-1,8 s (Mi panel 1,75 s). La cabecera `x-vercel-id` (`cdg1::iad1::…`) muestra que las funciones de Vercel se ejecutan en **iad1 (Washington, EE. UU.)**, la región por defecto, mientras que Supabase está en **Fráncfort**. Cada consulta cruza el Atlántico dos veces (~90 ms ida y vuelta) y una página hace varias en serie: `getUser()` en el proxy, `getUser()` + perfil en la cabecera, y las de la página. Además, en `/app` solo Mi panel tenía `loading.tsx`: al pulsar Mi plan, Simulacros, Progreso, etc., la pantalla no reaccionaba hasta tener la página entera.
+
+**Decisión.**
+
+- `vercel.json` fija `"regions": ["fra1"]` (Fráncfort, junto a Supabase). Es una sola región (válido en el plan Hobby).
+- `loading.tsx` genérico (`PageLoading`) en Mi plan, Temario, Práctica, Simulacros, Progreso, Perfil y Productos (y en Tráfico, Revisión y Compras de `/admin`): al pulsar el menú se ve el esqueleto al instante (el layout compartido ya está pintado). Mi panel conserva el suyo.
+- Nunca por encima de una página que llame a `notFound()`: el esqueleto empieza a enviar la respuesta y el 404 pasaría a ser 200 (lo comprueba `practice.spec.ts`: la sesión de otra persona debe dar 404). Por eso las portadas de Temario, Práctica y Simulacros pasan a un grupo `(index)/` con su `loading.tsx`, y `[slug]`/`[id]` quedan fuera. Por lo mismo, tampoco en las páginas públicas (las fichas inexistentes deben seguir dando 404).
+
+**Consecuencias.** Tras desplegar, `x-vercel-id` debe acabar en `::fra1::`. Si Supabase estuviera en otra región, cambiar `fra1` por la más cercana. Siguiente paso posible (PERF-001): sacar la sesión de la cabecera para que las páginas públicas puedan ser estáticas o cacheadas.
