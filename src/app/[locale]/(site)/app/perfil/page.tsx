@@ -3,6 +3,7 @@ import { getFormatter, getTranslations, setRequestLocale } from "next-intl/serve
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Link } from "@/i18n/navigation";
 import { Alert } from "@/components/ui/form";
 import {
   ChangeEmailForm,
@@ -236,6 +237,21 @@ export default async function ProfilePage({
           </p>
         </Card>
       )}
+
+      <Card>
+        <h2 className="text-lg font-semibold">{t("tourTitle")}</h2>
+        <p className="text-muted-foreground mt-1 text-sm">{t("tourBody")}</p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          <Button asChild variant="outline">
+            <Link href="/app?tutorial=1" data-testid="replay-tour">
+              {t("tourCta")}
+            </Link>
+          </Button>
+          <Button asChild variant="ghost">
+            <Link href="/#como-funciona">{t("tourVideos")}</Link>
+          </Button>
+        </div>
+      </Card>
 
       <Card>
         <h2 className="text-lg font-semibold">{t("exportTitle")}</h2>

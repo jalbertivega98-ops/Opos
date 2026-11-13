@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Tutorial de bienvenida y vídeos de ayuda (2026-11-13, rama `claude/project-thread-r5htw7`, UX-003, ADR-055)
+
+- Tutorial de 8 pasos en Mi panel solo la primera vez (`profiles.tour_completed_at`, `complete_welcome_tour()`; migración `20261113000200`, preview `91-`). Se repite desde Mi perfil (`/app?tutorial=1`).
+- Vídeos en `public/videos/ayuda/`: 6 de dudas en «Cómo funciona» de la portada y 11 por oposición en su ficha (narración ElevenLabs, datos de `exam-guides.ts`). Copias 1080 × 1920 para redes en `TIKTOK_OPOSAPRUEBA/02_videos/web-oposiciones/`.
+- Pendiente: que joel diga «fusiona».
+
 ### Web más rápida (2026-11-13, rama `claude/project-thread-2rp695`, PERF-003, ADR-053)
 
 - Las funciones de Vercel corrían en iad1 (EE. UU.) y Supabase está en Fráncfort: cada consulta cruzaba el Atlántico. `vercel.json` fija `fra1`. `loading.tsx` genérico en las pantallas del menú de `/app` (nunca encima de páginas con `notFound()`, para no perder el 404).

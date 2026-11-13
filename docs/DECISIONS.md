@@ -450,3 +450,16 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Nunca por encima de una página que llame a `notFound()`: el esqueleto empieza a enviar la respuesta y el 404 pasaría a ser 200 (lo comprueba `practice.spec.ts`: la sesión de otra persona debe dar 404). Por eso las portadas de Temario, Práctica y Simulacros pasan a un grupo `(index)/` con su `loading.tsx`, y `[slug]`/`[id]` quedan fuera. Por lo mismo, tampoco en las páginas públicas (las fichas inexistentes deben seguir dando 404).
 
 **Consecuencias.** Tras desplegar, `x-vercel-id` debe acabar en `::fra1::`. Si Supabase estuviera en otra región, cambiar `fra1` por la más cercana. Siguiente paso posible (PERF-001): sacar la sesión de la cabecera para que las páginas públicas puedan ser estáticas o cacheadas.
+
+## ADR-055 · Tutorial de bienvenida la primera vez y vídeos cortos de ayuda (2026-11-13)
+
+**Contexto.** joel quiere que quien entra por primera vez tenga un tutorial de uso, que «Cómo funciona» resuelva dudas con vídeos y que cada oposición tenga un vídeo con lo suyo (la academia es común, pero cada examen tiene sus cosas).
+
+**Decisión.**
+
+- **Tutorial** (`components/welcome-tour.tsx`): 8 pasos en Mi panel que resaltan cada sección del menú del alumno (`data-tour` en `AppNav`), con «Ahora no», Atrás/Siguiente, Escape y foco atrapado en el diálogo. Sale solo si `profiles.tour_completed_at` es null; al terminarlo o cerrarlo se llama a `complete_welcome_tour()` (SECURITY DEFINER, solo el perfil de `auth.uid()`; la columna no se puede escribir por la API). Se guarda en la BD, no en el navegador, para que no reaparezca en otro dispositivo. Los perfiles anteriores a la migración se marcan como vistos. «Mi perfil → Ver el tutorial otra vez» abre `/app?tutorial=1` sin guardar nada. Si la columna aún no existe (código antes que SQL), no se enseña.
+- **Vídeos** (`lib/help/videos.ts`, `components/help`): verticales 720 × 1280 en `public/videos/ayuda/` (~1 MB cada uno, H.264 + AAC, `faststart`). Hasta que se pulsa solo se carga la portada. Cada vídeo lleva subtítulos incrustados y transcripción desplegable; en catalán se avisa de que el vídeo está en castellano.
+  - Portada, sección «Cómo funciona»: 6 dudas comunes reutilizando vídeos ya aprobados por joel para redes (03, 04, 05, 06, 12 y 20).
+  - Ficha de cada oposición con guía (11): vídeo nuevo de ~23 s con la voz de siempre (ElevenLabs «Sofia», eleven_v4, una toma, ~4.000 créditos en total) y datos tomados solo de `lib/seo/exam-guides.ts` (bases oficiales verificadas). Motor: `TIKTOK_OPOSAPRUEBA/_motor/motor-videos-5.tar.gz` (`video4.html?v=<slug>`, `build4.sh`).
+
+**Consecuencias.** Si cambia una convocatoria, además de la guía hay que rehacer su vídeo (guion en `videos.ts`). Las fichas sin guía (Prisiones de Cataluña, Correos) no tienen vídeo todavía. El repositorio crece ~20 MB por los vídeos; si hicieran falta muchos más, moverlos a un almacenamiento externo (requiere autorización de joel).

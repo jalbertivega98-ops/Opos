@@ -49,9 +49,21 @@ export async function signUp(page: Page, email: string, name = "Laura") {
   await expect(page).toHaveURL(/verifica-tu-correo/);
 }
 
-export async function confirmEmail(page: Page, email: string) {
+/**
+ * Confirma el correo. Por defecto cierra el tutorial de bienvenida en cuanto
+ * aparezca (ADR-055) para que no tape lo que prueba cada test; `keepTour` lo deja.
+ */
+export async function confirmEmail(page: Page, email: string, opts: { keepTour?: boolean } = {}) {
+  if (!opts.keepTour) await dismissWelcomeTour(page);
   const link = await latestLink(email, { subject: /confirm/i });
   await page.goto(link);
+}
+
+/** Cierra el tutorial de bienvenida cada vez que tape una acción del test. */
+export async function dismissWelcomeTour(page: Page) {
+  await page.addLocatorHandler(page.getByTestId("welcome-tour"), async () => {
+    await page.getByTestId("tour-close").click();
+  });
 }
 
 export async function signIn(page: Page, email: string, password = PASSWORD) {
