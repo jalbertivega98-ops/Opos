@@ -29,7 +29,8 @@ export async function ExamVideo({
         transcript={v.transcript}
         transcriptLabel={t("transcript")}
         playLabel={t("play")}
-        note={locale === "ca" ? t("spanishNote") : undefined}
+        lang={v.lang}
+        note={v.lang === locale ? undefined : t(v.lang === "ca" ? "catalanNote" : "spanishNote")}
       />
       <div className="order-first sm:order-none">
         <h2 id="exam-video-title" className="text-xl font-bold sm:text-2xl">

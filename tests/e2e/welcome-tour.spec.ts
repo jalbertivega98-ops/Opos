@@ -70,6 +70,8 @@ test.describe("Tutorial de bienvenida y vídeos de ayuda (ADR-055)", () => {
     await expect(box).toBeVisible();
     await expect(box.getByRole("heading", { level: 2 })).toHaveText("Tu oposición en medio minuto");
     await box.getByText("Leer lo que dice").click();
-    await expect(box).toContainText("ochenta preguntas de aptitudes");
+    await expect(box).toContainText("Vídeo en catalán");
+    await expect(box).toContainText("vuitanta preguntes d'aptituds");
+    await expect(box.locator("p[lang='ca']")).toBeVisible();
   });
 });

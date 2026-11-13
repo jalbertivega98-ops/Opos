@@ -18,6 +18,7 @@ export function HelpVideo({
   transcriptLabel,
   playLabel,
   note,
+  lang = "es",
   className,
   priority = false,
 }: {
@@ -29,6 +30,8 @@ export function HelpVideo({
   playLabel: string;
   /** Aviso corto bajo el título (p. ej. «Vídeo en castellano» en catalán). */
   note?: string;
+  /** Idioma de la narración y la transcripción. */
+  lang?: string;
   className?: string;
   priority?: boolean;
 }) {
@@ -79,7 +82,7 @@ export function HelpVideo({
           <summary className="text-accent inline-flex min-h-8 cursor-pointer items-center font-medium hover:underline">
             {transcriptLabel}
           </summary>
-          <p className="text-muted-foreground mt-1 text-sm" lang="es">
+          <p className="text-muted-foreground mt-1 text-sm" lang={lang}>
             {transcript}
           </p>
         </details>

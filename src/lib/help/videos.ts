@@ -1,7 +1,7 @@
 /**
  * Vídeos cortos de ayuda (ADR-055). Verticales (9:16), 720 × 1280, H.264 + AAC,
  * en `public/videos/ayuda/<id>.mp4` con su portada `<id>.jpg`. Narración en
- * castellano (voz de ElevenLabs) con subtítulos incrustados; aquí va también la
+ * castellano (voz de ElevenLabs), salvo las oposiciones catalanas, en catalán, con subtítulos incrustados; aquí va también la
  * transcripción para quien no puede o no quiere oír el audio (WCAG 1.2.1).
  *
  * - FAQ: dudas comunes de la academia, en «Cómo funciona» de la portada.
@@ -9,13 +9,21 @@
  *   verificadas (src/lib/seo/exam-guides.ts): si cambia la convocatoria, hay
  *   que rehacer el vídeo (motor en la carpeta del proyecto TIKTOK_OPOSAPRUEBA/_motor).
  */
-export type HelpVideo = { id: string; src: string; poster: string; transcript: string };
+/** `lang`: idioma de la narración y de la transcripción. */
+export type HelpVideo = {
+  id: string;
+  src: string;
+  poster: string;
+  transcript: string;
+  lang: "es" | "ca";
+};
 
-const video = (id: string, transcript: string): HelpVideo => ({
+const video = (id: string, transcript: string, lang: "es" | "ca" = "es"): HelpVideo => ({
   id,
   src: `/videos/ayuda/${id}.mp4`,
   poster: `/videos/ayuda/${id}.jpg`,
   transcript,
+  lang,
 });
 
 /** Dudas comunes (el título de cada una está en messages: help.faq.<id>). */
@@ -50,7 +58,8 @@ export const FAQ_VIDEOS: HelpVideo[] = [
 const EXAM_VIDEOS: Record<string, HelpVideo> = {
   "mossos-esquadra": video(
     "mossos-esquadra",
-    "Así es el examen de Mossos d'Esquadra. La primera prueba tiene treinta preguntas de conocimientos, en catalán, en las que cada error resta un cuarto. Y ochenta preguntas de aptitudes en treinta y cinco minutos. En Oposaprueba tienes el temario de la Guia d'estudi, psicotécnicos de siete tipos y la calculadora de la prueba física. Empieza gratis en oposaprueba.com.",
+    "Així és l'examen de Mossos d'Esquadra. La primera prova té trenta preguntes de coneixements, en català, en què cada error resta un quart. I vuitanta preguntes d'aptituds en trenta-cinc minuts. A Oposaprueba tens el temari de la Guia d'estudi, psicotècnics de set tipus i la calculadora de la prova física. Comença gratis a oposaprueba.com.",
+    "ca",
   ),
   "auxiliar-administrativo-estado": video(
     "auxiliar-administrativo-estado",
@@ -78,15 +87,18 @@ const EXAM_VIDEOS: Record<string, HelpVideo> = {
   ),
   "guardia-urbana-barcelona": video(
     "guardia-urbana-barcelona",
-    "Así es la oposición a Guardia Urbana de Barcelona. La primera prueba tiene hasta noventa preguntas en catalán, de temario, cultura general y actualidad, en ciento cinco minutos. Cada error resta un cuarto. Después vienen los tests de aptitudes, el idioma y las pruebas físicas. En Oposaprueba tienes los treinta y ocho temas y psicotécnicos de razonamiento. Empieza gratis en oposaprueba.com.",
+    "Així és l'oposició a Guàrdia Urbana de Barcelona. La primera prova té fins a noranta preguntes en català, de temari, cultura general i actualitat, en cent cinc minuts. Cada error resta un quart. Després venen els tests d'aptituds, l'idioma i les proves físiques. A Oposaprueba tens els trenta-vuit temes i psicotècnics de raonament. Comença gratis a oposaprueba.com.",
+    "ca",
   ),
   "policia-local": video(
     "policia-local",
-    "Así es la oposición a policía local en Cataluña. Cada ayuntamiento publica sus bases, pero el temario se parece mucho. En Terrassa, por ejemplo, son cien preguntas en ciento veinte minutos, y cada error resta un cuarto. Y el psicotécnico es obligatorio. En Oposaprueba tienes un temario tipo de veintitrés temas y psicotécnicos. Empieza gratis en oposaprueba.com.",
+    "Així és l'oposició a policia local a Catalunya. Cada ajuntament publica les seves bases, però el temari s'assembla molt. A Terrassa, per exemple, són cent preguntes en cent vint minuts, i cada error resta un quart. I el psicotècnic és obligatori. A Oposaprueba tens un temari tipus de vint-i-tres temes i psicotècnics. Comença gratis a oposaprueba.com.",
+    "ca",
   ),
   "bombers-generalitat": video(
     "bombers-generalitat",
-    "Así es el examen de Bombers de la Generalitat. El test de conocimientos tiene setenta preguntas en ochenta minutos, y cada error resta un cuarto. El temario son treinta y cuatro temas, del fuego y la hidráulica al rescate. Después vienen las pruebas físicas y los oficios. En Oposaprueba tienes los treinta y cuatro temas y simulacros. Empieza gratis en oposaprueba.com.",
+    "Així és l'examen de Bombers de la Generalitat. El test de coneixements té setanta preguntes en vuitanta minuts, i cada error resta un quart. El temari són trenta-quatre temes, del foc i la hidràulica al rescat. Després venen les proves físiques i els oficis. A Oposaprueba tens els trenta-quatre temes i simulacres. Comença gratis a oposaprueba.com.",
+    "ca",
   ),
   "ayudantes-instituciones-penitenciarias": video(
     "ayudantes-instituciones-penitenciarias",

@@ -7,8 +7,8 @@
 ### Tutorial de bienvenida y vídeos de ayuda (2026-11-13, rama `claude/project-thread-r5htw7`, UX-003, ADR-055)
 
 - Tutorial de 8 pasos en Mi panel solo la primera vez (`profiles.tour_completed_at`, `complete_welcome_tour()`; migración `20261113000200`, preview `91-`). Se repite desde Mi perfil (`/app?tutorial=1`).
-- Vídeos en `public/videos/ayuda/`: 6 de dudas en «Cómo funciona» de la portada y 11 por oposición en su ficha (narración ElevenLabs, datos de `exam-guides.ts`). Copias 1080 × 1920 para redes en `TIKTOK_OPOSAPRUEBA/02_videos/web-oposiciones/`.
-- Pendiente: que joel diga «fusiona».
+- Vídeos en `public/videos/ayuda/`: 6 de dudas en «Cómo funciona» de la portada y 11 por oposición en su ficha (narración ElevenLabs, datos de `exam-guides.ts`; Mossos, Guardia Urbana, policía local y Bombers en catalán, voz «Ona»). Copias 1080 × 1920 para redes en `TIKTOK_OPOSAPRUEBA/02_videos/web-oposiciones/`.
+- FUSIONADA (PR #64, 13/11/2026, joel: «súbelos ya»). La Action aplica `91-` en la base de datos; después, comprobar que el tutorial sale a una cuenta nueva.
 
 ### Web más rápida (2026-11-13, rama `claude/project-thread-2rp695`, PERF-003, ADR-053)
 
