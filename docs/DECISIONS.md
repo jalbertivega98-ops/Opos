@@ -450,3 +450,17 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Nunca por encima de una página que llame a `notFound()`: el esqueleto empieza a enviar la respuesta y el 404 pasaría a ser 200 (lo comprueba `practice.spec.ts`: la sesión de otra persona debe dar 404). Por eso las portadas de Temario, Práctica y Simulacros pasan a un grupo `(index)/` con su `loading.tsx`, y `[slug]`/`[id]` quedan fuera. Por lo mismo, tampoco en las páginas públicas (las fichas inexistentes deben seguir dando 404).
 
 **Consecuencias.** Tras desplegar, `x-vercel-id` debe acabar en `::fra1::`. Si Supabase estuviera en otra región, cambiar `fra1` por la más cercana. Siguiente paso posible (PERF-001): sacar la sesión de la cabecera para que las páginas públicas puedan ser estáticas o cacheadas.
+
+## ADR-054 · Programa de embajadoras: enlace propio y registros atribuidos sin cookies (2026-11-13)
+
+**Contexto.** Casi todas las opositoras con seguidores en Instagram y TikTok llevan un código de afiliada de OpositaTest. joel aprobó el 13/11/2026 un programa de embajadoras con la opción A: la embajadora recibe gratis el Premium de su oposición (se regala a mano desde la ficha del alumno, 90 días renovables) a cambio de una mención al mes con su enlace; sin comisión de momento. Hacía falta saber cuántos registros trae cada una: /admin contaba visitas por origen, pero no de dónde venía cada cuenta.
+
+**Decisión.**
+
+- Tablas `ambassadors` (código único `^[a-z0-9-]{2,32}$`, nombre, red, cuenta, oposición, notas, activa), `ambassador_visits_daily` (contador diario agregado, como `traffic_daily`) y `ambassador_referrals` (cuenta → embajadora, se borra con la cuenta). RLS: solo admin lee; nadie escribe atribuciones directamente.
+- Enlace `oposaprueba.com/r/<código>` (y `/ca/r/<código>`): lo resuelve el proxy, suma la visita con service_role (`track_ambassador_visit`, solo si el proxy la clasifica como visita, no las vistas previas de las redes) y redirige a `/registro?ref=<código>`. **Sin cookies**: el código viaja en la URL y en el formulario, así no hace falta banner de consentimiento.
+- Registro: campo opcional «Código de invitación» (plegado, abierto si llega `?ref=`), útil también para quien lo ve en un reel y lo escribe a mano. Alta por correo: el código va en los metadatos y `handle_new_user` lo apunta con `record_referral`. Con Google: va en la URL de vuelta y `/auth/callback` llama a `claim_referral`, que solo vale para cuentas de menos de 24 h. Un código inexistente o pausado se ignora sin romper el alta.
+- `/admin/embajadoras`: alta, pausar/reactivar y, por embajadora, visitas, registros y alumnos con Premium cobrado (Stripe; los regalados no cuentan), últimos 30 días / total (`admin_ambassador_stats`).
+- Política de privacidad: se informa de que se guarda el código usado.
+
+**Consecuencias.** Si más adelante se paga comisión (opción B), las altas de pago por embajadora ya se cuentan; faltaría el importe. El Premium de la embajadora sigue siendo manual («Regalar Premium»).

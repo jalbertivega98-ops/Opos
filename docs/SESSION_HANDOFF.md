@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Programa de embajadoras (2026-11-13, rama `claude/project-thread-94yxfe`, MKT-010, ADR-054)
+
+- joel eligió la opción A (solo Premium gratis, sin comisión). Plan y mensajes tipo en el Claude Doc «Programa de embajadoras OPOSAPRUEBA».
+- Hecho: enlace `/r/<código>` → registro con el código puesto (sin cookies), campo «Código de invitación», atribución con correo y Google, `/admin/embajadoras` con visitas, registros y altas de pago. Migración `20261113000100`, preview `90-`.
+- Pendiente: que joel diga «fusiona»; después, dar de alta a cada embajadora que acepte y regalarle el Premium (90 días). Los mensajes los envía el hilo de Instagram con aprobación de joel.
+
 ### Web más rápida (2026-11-13, rama `claude/project-thread-2rp695`, PERF-003, ADR-053)
 
 - Las funciones de Vercel corrían en iad1 (EE. UU.) y Supabase está en Fráncfort: cada consulta cruzaba el Atlántico. `vercel.json` fija `fra1`. `loading.tsx` genérico en las pantallas del menú de `/app` (nunca encima de páginas con `notFound()`, para no perder el 404).

@@ -184,6 +184,11 @@ export function PrivacyPolicy({ owner }: { owner: LegalOwner }) {
           y el enlace a tu foto de perfil; nunca recibimos tu contraseña de Google.
         </li>
         <li>
+          <strong>Código de invitación:</strong> si creas la cuenta con el enlace o el código de una
+          persona que nos recomienda, guardamos qué código usaste para saber cuántos registros trae.
+          Esa persona no ve tus datos.
+        </li>
+        <li>
           <strong>Estudio:</strong> oposiciones que sigues, nivel, horas, objetivos, respuestas,
           resultados y progreso.
         </li>

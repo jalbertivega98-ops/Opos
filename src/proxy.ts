@@ -5,6 +5,8 @@ import { refreshSession } from "@/lib/supabase/session";
 import { isProtectedPath, stripLocale } from "@/lib/paths";
 import { previewGate } from "@/lib/preview";
 import { hitFromRequest, recordHit } from "@/lib/analytics/track";
+import { ambassadorTarget, parseAmbassadorPath } from "@/lib/ambassadors/link";
+import { recordAmbassadorVisit } from "@/lib/ambassadors/track";
 
 const intl = createIntlMiddleware(routing);
 
@@ -16,6 +18,14 @@ export async function proxy(request: NextRequest, event: NextFetchEvent) {
 
   const denied = previewGate(request);
   if (denied) return denied;
+
+  // Enlace propio de una embajadora (ADR-054): cuenta la visita (no las vistas previas
+  // de las redes) y lleva al registro con el código puesto. Sin cookies.
+  const ambassador = parseAmbassadorPath(request.nextUrl.pathname);
+  if (ambassador) {
+    if (hit?.kind === "visit") event.waitUntil(recordAmbassadorVisit(ambassador.code));
+    return NextResponse.redirect(new URL(ambassadorTarget(ambassador), request.url));
+  }
   const response = intl(request);
   if (process.env.PREVIEW_PASSWORD) response.headers.set("X-Robots-Tag", "noindex, nofollow");
   // Si next-intl redirige (p. ej. normalización de idioma), no hace falta más.
