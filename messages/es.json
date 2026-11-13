@@ -548,7 +548,11 @@
     "billingNone": "Todavía no tienes ninguna suscripción ni compra.",
     "googleTitle": "Entras con Google",
     "googleBody": "Tu cuenta ({email}) usa Google para entrar, así que no tiene contraseña de OPOSAPRUEBA. El correo y la seguridad se gestionan desde tu cuenta de Google.",
-    "deleteGoogleHint": "Como entras con Google, por seguridad solo puedes borrar la cuenta en los 10 minutos siguientes a haber entrado."
+    "deleteGoogleHint": "Como entras con Google, por seguridad solo puedes borrar la cuenta en los 10 minutos siguientes a haber entrado.",
+    "tourTitle": "Tutorial y ayuda",
+    "tourBody": "Vuelve a ver el recorrido por la zona del alumno o los vídeos cortos que explican cómo funciona la academia.",
+    "tourCta": "Ver el tutorial otra vez",
+    "tourVideos": "Vídeos de ayuda"
   },
   "landingNotice": {
     "deleted": "Tu cuenta se ha eliminado. Gracias por haber confiado en nosotros."
@@ -1864,5 +1868,68 @@
     "buySubtitle": "Intentos sueltos de simulacro, sin suscripción.",
     "trialTitle": "Tu primer simulacro es gratis",
     "trialBody": "Elige uno: lo haces con el tiempo y la penalización del examen real y ves tu nota. Después, los simulacros van con Premium o con un pack de intentos."
+  },
+  "tour": {
+    "stepOf": "Paso {n} de {total}",
+    "close": "Cerrar el tutorial",
+    "skip": "Ahora no",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "start": "Empezar",
+    "finish": "¡A estudiar!",
+    "videosLink": "Ver los vídeos de ayuda (menos de medio minuto cada uno)",
+    "steps": {
+      "welcome": {
+        "title": "Bienvenida a OPOSAPRUEBA",
+        "body": "Te enseñamos en un minuto dónde está cada cosa. Puedes saltarlo y volver a verlo cuando quieras desde «Mi perfil»."
+      },
+      "plan": {
+        "title": "Tu plan de estudio",
+        "body": "Cada semana te dice qué temas tocar, cuántas preguntas hacer y cuándo toca simulacro. Ajusta tus horas y la fecha del examen y se reparte solo."
+      },
+      "syllabus": {
+        "title": "El temario",
+        "body": "Todos los temas de tu oposición con su ficha para repasar y su test. Los 3 primeros temas son gratis."
+      },
+      "practice": {
+        "title": "Practicar",
+        "body": "Tests por tema, psicotécnicos (si tu examen los tiene) y el repaso de errores: lo que fallas vuelve hasta que lo aciertas."
+      },
+      "mocks": {
+        "title": "Simulacros",
+        "body": "Exámenes completos con el tiempo, el número de preguntas y la penalización del examen real. El primero es gratis."
+      },
+      "progress": {
+        "title": "Tu progreso",
+        "body": "Tu nota por tema, tu racha y cuánto has practicado cada día. Así sabes qué reforzar."
+      },
+      "profile": {
+        "title": "Mi perfil",
+        "body": "Tus datos, tu oposición, la suscripción y tus compras. Aquí también puedes volver a ver este tutorial."
+      },
+      "done": {
+        "title": "¡Listo para empezar!",
+        "body": "Empieza por la tarea de hoy en tu panel. Si tienes dudas, en «Cómo funciona» tienes vídeos cortos que lo explican."
+      }
+    }
+  },
+  "help": {
+    "faqTitle": "¿Tienes dudas? Míralo en menos de medio minuto",
+    "faqSubtitle": "Vídeos cortos con lo que más nos preguntáis. En la ficha de cada oposición tienes además un vídeo con lo propio de su examen.",
+    "transcript": "Leer lo que dice",
+    "play": "Ver vídeo",
+    "spanishNote": "Vídeo en castellano",
+    "catalanNote": "Vídeo en catalán",
+    "faq": {
+      "como-funciona": "¿Cómo funciona OPOSAPRUEBA?",
+      "que-es-gratis": "¿Qué puedo hacer gratis?",
+      "plan-de-estudio": "¿Cómo me organizo el estudio?",
+      "simulacros": "¿Cómo son los simulacros?",
+      "repaso-errores": "¿Qué pasa con lo que fallo?",
+      "calendario": "¿Cómo veo lo que he estudiado?"
+    },
+    "examVideoTitle": "Tu oposición en medio minuto",
+    "examVideoBody": "Lo esencial del examen de {exam} (preguntas, tiempo y penalización, según las bases oficiales) y lo que tienes en OPOSAPRUEBA para prepararlo.",
+    "examVideoCaption": "Así es el examen de {exam}"
   }
 }
