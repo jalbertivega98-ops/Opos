@@ -19,6 +19,7 @@ import { ExamOfferSection } from "@/components/store/exam-offer";
 import { billingStatus } from "@/lib/billing/queries";
 import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
 import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
+import { ExamVideo } from "@/components/help/exam-video";
 
 export async function generateMetadata({
   params,
@@ -164,6 +165,8 @@ export default async function ExamPage({
           <ArrowRight className="text-accent size-5 shrink-0" aria-hidden />
         </Link>
       )}
+
+      <ExamVideo slug={exam.slug} examName={name} locale={locale} />
 
       <CheckoutNoticeAlert notice={notice} />
       {guide ? (

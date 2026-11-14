@@ -41,6 +41,8 @@ import { groupByDay, studyWeek, taskProgress } from "@/lib/learning/calendar";
 import { getStudyLog } from "@/lib/learning/calendar-queries";
 import { myLibrary, planAccessWithKinds } from "@/lib/store/queries";
 import { cn } from "@/lib/utils";
+import { WelcomeTour } from "@/components/welcome-tour";
+import { shouldShowWelcomeTour } from "@/lib/tour/queries";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/app">): Promise<Metadata> {
   const { locale } = await params;
@@ -75,6 +77,9 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const thisWeek = studyWeek(now);
   const shownWeek = offset === 0 ? thisWeek : studyWeek(now, offset);
 
+  // Tutorial: solo la primera vez (se guarda en el perfil) o si lo pide desde «Mi perfil».
+  const tourRequested = sp.tutorial === "1";
+  const tourPending = tourRequested ? Promise.resolve(false) : shouldShowWelcomeTour(user.id);
   const [
     { data: targets },
     { data: activity },
@@ -106,6 +111,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
     getStudyLog(thisWeek.start, thisWeek.end),
     offset === 0 ? null : getStudyLog(shownWeek.start, shownWeek.end),
   ]);
+  const tourFirstTime = await tourPending;
 
   const name = profile.display_name;
   const onboarded = Boolean(profile.onboarding_completed_at);
@@ -171,6 +177,7 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
 
   return (
     <div className="space-y-6 sm:space-y-8">
+      {(tourFirstTime || tourRequested) && <WelcomeTour persist={tourFirstTime} />}
       <header>
         <p className="text-muted-foreground text-sm font-medium first-letter:uppercase">
           {format.dateTime(new Date(), { weekday: "long", day: "numeric", month: "long" })}

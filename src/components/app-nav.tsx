@@ -48,6 +48,7 @@ export function AppNav({
               <Link
                 href={l.href}
                 aria-current={active ? "page" : undefined}
+                data-tour={l.href}
                 className={cn(
                   "inline-flex min-h-10 items-center gap-2 rounded-xl px-3 font-medium whitespace-nowrap transition-colors",
                   active

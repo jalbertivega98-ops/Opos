@@ -551,7 +551,11 @@
     "billingNone": "Encara no tens cap subscripció ni compra.",
     "googleTitle": "Entres amb Google",
     "googleBody": "El teu compte ({email}) fa servir Google per entrar, així que no té contrasenya d'OPOSAPRUEBA. El correu i la seguretat es gestionen des del teu compte de Google.",
-    "deleteGoogleHint": "Com que entres amb Google, per seguretat només pots esborrar el compte en els 10 minuts següents a haver entrat."
+    "deleteGoogleHint": "Com que entres amb Google, per seguretat només pots esborrar el compte en els 10 minuts següents a haver entrat.",
+    "tourTitle": "Tutorial i ajuda",
+    "tourBody": "Torna a veure el recorregut per la zona de l'alumne o els vídeos curts que expliquen com funciona l'acadèmia.",
+    "tourCta": "Torna a veure el tutorial",
+    "tourVideos": "Vídeos d'ajuda"
   },
   "landingNotice": {
     "deleted": "El teu compte s'ha eliminat. Gràcies per haver confiat en nosaltres."
@@ -1914,5 +1918,68 @@
     "paused": "Pausada",
     "pause": "Pausar",
     "resume": "Reactivar"
+  },
+  "tour": {
+    "stepOf": "Pas {n} de {total}",
+    "close": "Tanca el tutorial",
+    "skip": "Ara no",
+    "back": "Enrere",
+    "next": "Següent",
+    "start": "Comença",
+    "finish": "A estudiar!",
+    "videosLink": "Mira els vídeos d'ajuda (menys de mig minut cadascun)",
+    "steps": {
+      "welcome": {
+        "title": "Benvinguda a OPOSAPRUEBA",
+        "body": "T’ensenyem en un minut on és cada cosa. Pots saltar-ho i tornar-ho a veure quan vulguis des de «El meu perfil»."
+      },
+      "plan": {
+        "title": "El teu pla d'estudi",
+        "body": "Cada setmana et diu quins temes tocar, quantes preguntes fer i quan toca simulacre. Ajusta les teves hores i la data de l’examen i es reparteix sol."
+      },
+      "syllabus": {
+        "title": "El temari",
+        "body": "Tots els temes de la teva oposició amb la fitxa per repassar i el test. Els 3 primers temes són gratuïts."
+      },
+      "practice": {
+        "title": "Practicar",
+        "body": "Tests per tema, psicotècnics (si el teu examen en té) i el repàs d’errors: el que falles torna fins que l’encertes."
+      },
+      "mocks": {
+        "title": "Simulacres",
+        "body": "Exàmens complets amb el temps, el nombre de preguntes i la penalització de l’examen real. El primer és gratuït."
+      },
+      "progress": {
+        "title": "El teu progrés",
+        "body": "La teva nota per tema, la ratxa i quant has practicat cada dia. Així saps què reforçar."
+      },
+      "profile": {
+        "title": "El meu perfil",
+        "body": "Les teves dades, la teva oposició, la subscripció i les compres. Aquí també pots tornar a veure aquest tutorial."
+      },
+      "done": {
+        "title": "A punt per començar!",
+        "body": "Comença per la tasca d’avui al teu tauler. Si tens dubtes, a «Com funciona» tens vídeos curts que ho expliquen."
+      }
+    }
+  },
+  "help": {
+    "faqTitle": "Tens dubtes? Mira-ho en menys de mig minut",
+    "faqSubtitle": "Vídeos curts amb el que més ens pregunteu. A la fitxa de cada oposició tens a més un vídeo amb el que és propi del seu examen.",
+    "transcript": "Llegeix què diu",
+    "play": "Mira el vídeo",
+    "spanishNote": "Vídeo en castellà",
+    "catalanNote": "Vídeo en català",
+    "faq": {
+      "como-funciona": "Com funciona OPOSAPRUEBA?",
+      "que-es-gratis": "Què puc fer gratis?",
+      "plan-de-estudio": "Com m'organitzo l'estudi?",
+      "simulacros": "Com són els simulacres?",
+      "repaso-errores": "Què passa amb el que fallo?",
+      "calendario": "Com veig el que he estudiat?"
+    },
+    "examVideoTitle": "La teva oposició en mig minut",
+    "examVideoBody": "L'essencial de l'examen de {exam} (preguntes, temps i penalització, segons les bases oficials) i el que tens a OPOSAPRUEBA per preparar-lo.",
+    "examVideoCaption": "Així és l'examen de {exam}"
   }
 }

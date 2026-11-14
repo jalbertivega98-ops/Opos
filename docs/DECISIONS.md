@@ -464,3 +464,17 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Política de privacidad: se informa de que se guarda el código usado.
 
 **Consecuencias.** Si más adelante se paga comisión (opción B), las altas de pago por embajadora ya se cuentan; faltaría el importe. El Premium de la embajadora sigue siendo manual («Regalar Premium»).
+
+## ADR-055 · Tutorial de bienvenida la primera vez y vídeos cortos de ayuda (2026-11-13)
+
+**Contexto.** joel quiere que quien entra por primera vez tenga un tutorial de uso, que «Cómo funciona» resuelva dudas con vídeos y que cada oposición tenga un vídeo con lo suyo (la academia es común, pero cada examen tiene sus cosas).
+
+**Decisión.**
+
+- **Tutorial** (`components/welcome-tour.tsx`): 8 pasos en Mi panel que resaltan cada sección del menú del alumno (`data-tour` en `AppNav`), con «Ahora no», Atrás/Siguiente, Escape y foco atrapado en el diálogo. Sale solo si `profiles.tour_completed_at` es null; al terminarlo o cerrarlo se llama a `complete_welcome_tour()` (SECURITY DEFINER, solo el perfil de `auth.uid()`; la columna no se puede escribir por la API). Se guarda en la BD, no en el navegador, para que no reaparezca en otro dispositivo. Los perfiles anteriores a la migración se marcan como vistos. «Mi perfil → Ver el tutorial otra vez» abre `/app?tutorial=1` sin guardar nada. Si la columna aún no existe (código antes que SQL), no se enseña.
+- **Vídeos** (`lib/help/videos.ts`, `components/help`): verticales 720 × 1280 en `public/videos/ayuda/` (~1 MB cada uno, H.264 + AAC, `faststart`). Hasta que se pulsa solo se carga la portada. Cada vídeo lleva subtítulos incrustados y transcripción desplegable; en catalán se avisa de que el vídeo está en castellano.
+  - Portada, sección «Cómo funciona»: 6 dudas comunes reutilizando vídeos ya aprobados por joel para redes (03, 04, 05, 06, 12 y 20).
+  - Ficha de cada oposición con guía (11): vídeo nuevo de ~23 s con la voz de siempre (ElevenLabs «Sofia», eleven_v4, una toma, ~4.000 créditos en total) y datos tomados solo de `lib/seo/exam-guides.ts` (bases oficiales verificadas). Motor: `TIKTOK_OPOSAPRUEBA/_motor/motor-videos-5.tar.gz` (`video4.html?v=<slug>`, `build4.sh`).
+  - Las 4 oposiciones catalanas (Mossos, Guardia Urbana, policía local, Bombers) van narradas en catalán por petición de joel (13/11): voz ElevenLabs «Ona - Atenció al Client Català Fluid», textos en pantalla en catalán (`v=<slug>-ca`). `HelpVideo.lang` marca el idioma; la ficha avisa «Vídeo en catalán» en es y «Vídeo en castellà» en ca cuando no coincide con el de la página.
+
+**Consecuencias.** Si cambia una convocatoria, además de la guía hay que rehacer su vídeo (guion en `videos.ts`). Las fichas sin guía (Prisiones de Cataluña, Correos) no tienen vídeo todavía. El repositorio crece ~20 MB por los vídeos; si hicieran falta muchos más, moverlos a un almacenamiento externo (requiere autorización de joel).

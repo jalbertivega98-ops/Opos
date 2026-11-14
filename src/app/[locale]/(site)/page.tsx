@@ -23,6 +23,7 @@ import { Eyebrow, Section, SectionHeader } from "@/components/ui/section";
 import { Meter, ProgressRing } from "@/components/ui/progress";
 import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
+import { HelpVideosSection } from "@/components/help/help-videos-section";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies, localized } from "@/lib/catalog/queries";
 import { billingStatus } from "@/lib/billing/queries";
@@ -226,6 +227,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             </Reveal>
           ))}
         </ol>
+        <HelpVideosSection locale={locale} />
       </Section>
 
       {/* 3 · Qué puedes entrenar: bento con vistas del producto */}
