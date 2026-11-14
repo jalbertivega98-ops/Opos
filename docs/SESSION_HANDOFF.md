@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Programa de embajadoras (2026-11-13, rama `claude/project-thread-94yxfe`, MKT-010, ADR-054)
+
+- joel eligió la opción A (solo Premium gratis, sin comisión). Plan y mensajes tipo en el Claude Doc «Programa de embajadoras OPOSAPRUEBA».
+- Hecho: enlace `/r/<código>` → registro con el código puesto (sin cookies), campo «Código de invitación», atribución con correo y Google, `/admin/embajadoras` con visitas, registros y altas de pago. Migración `20261113000100`, preview `90-`.
+- Pendiente: que joel diga «fusiona»; después, dar de alta a cada embajadora que acepte y regalarle el Premium (90 días). Los mensajes los envía el hilo de Instagram con aprobación de joel.
 ### Tutorial de bienvenida y vídeos de ayuda (2026-11-13, rama `claude/project-thread-r5htw7`, UX-003, ADR-055)
 
 - Tutorial de 8 pasos en Mi panel solo la primera vez (`profiles.tour_completed_at`, `complete_welcome_tour()`; migración `20261113000200`, preview `91-`). Se repite desde Mi perfil (`/app?tutorial=1`).

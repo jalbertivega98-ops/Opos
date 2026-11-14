@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { safeNextPath, stripLocale } from "@/lib/paths";
+import { optionalRefSchema } from "@/lib/ambassadors/schemas";
 
 /**
  * Destino de los enlaces de Auth con flujo PKCE (?code=...).
@@ -16,7 +17,8 @@ export async function GET(request: NextRequest) {
     const supabase = await createClient();
     const { error } = await supabase.auth.exchangeCodeForSession(code);
     if (!error) {
-      const target = viaGoogle ? await afterGoogleSignIn(supabase, next) : next;
+      const ref = optionalRefSchema.parse(searchParams.get("ref") ?? undefined);
+      const target = viaGoogle ? await afterGoogleSignIn(supabase, next, ref) : next;
       return NextResponse.redirect(new URL(target, origin));
     }
   }
@@ -32,8 +34,11 @@ export async function GET(request: NextRequest) {
 async function afterGoogleSignIn(
   supabase: Awaited<ReturnType<typeof createClient>>,
   next: string,
+  ref: string | undefined,
 ): Promise<string> {
   await supabase.rpc("track_activity", { p_kind: "auth.sign_in" });
+  // Código de embajadora (ADR-054): la función solo lo apunta a cuentas de menos de 24 h.
+  if (ref) await supabase.rpc("claim_referral", { p_code: ref });
   const bare = stripLocale(next);
   const prefix = next.slice(0, next.length - bare.length); // "" o "/ca"
   const {

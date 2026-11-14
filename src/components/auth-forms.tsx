@@ -97,7 +97,7 @@ function GoogleMark() {
  * «Continuar con Google» + separador. Formulario propio (no se pueden anidar formularios).
  * Al usarlo se crea la cuenta si no existe, así que mostramos el aviso de condiciones.
  */
-export function GoogleSignIn({ next }: { next?: string }) {
+export function GoogleSignIn({ next, refCode }: { next?: string; refCode?: string }) {
   const t = useTranslations("auth");
   const err = useErrorText();
   const locale = useLocale();
@@ -108,6 +108,7 @@ export function GoogleSignIn({ next }: { next?: string }) {
         {state.message && <Alert tone="error">{err.msg(state.message)}</Alert>}
         <input type="hidden" name="locale" value={locale} />
         {next && <input type="hidden" name="next" value={next} />}
+        {refCode && <input type="hidden" name="ref" value={refCode} />}
         <Button type="submit" variant="outline" className="w-full gap-3" disabled={pending}>
           <GoogleMark />
           {t("google.button")}
@@ -192,11 +193,12 @@ export function SignInForm({
   );
 }
 
-export function SignUpForm({ next }: { next?: string }) {
+export function SignUpForm({ next, refCode }: { next?: string; refCode?: string }) {
   const t = useTranslations("auth");
   const err = useErrorText();
   const locale = useLocale();
   const [state, action, pending] = useActionState(signUpAction, initial);
+  const ref = state.values?.ref ?? refCode ?? "";
   return (
     <form action={action} className="space-y-4" noValidate>
       {state.message && <Alert tone="error">{err.msg(state.message)}</Alert>}
@@ -226,6 +228,19 @@ export function SignUpForm({ next }: { next?: string }) {
         hint={t("signUp.passwordHint")}
         error={err(state.errors?.password)}
       />
+      <details className="text-sm" open={ref ? true : undefined}>
+        <summary className="text-muted-foreground cursor-pointer">{t("signUp.refToggle")}</summary>
+        <div className="mt-3">
+          <Field
+            name="ref"
+            autoComplete="off"
+            label={t("fields.ref")}
+            hint={t("signUp.refHint")}
+            required={false}
+            defaultValue={ref}
+          />
+        </div>
+      </details>
       <div className="space-y-2">
         <label className="flex items-start gap-3 text-sm">
           <input

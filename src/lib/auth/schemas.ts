@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { optionalRefSchema } from "@/lib/ambassadors/schemas";
 
 export const emailSchema = z.string().trim().toLowerCase().pipe(z.email().max(254));
 
@@ -23,6 +24,7 @@ export const signUpSchema = z.object({
     .transform((v) => (v ? v : undefined)),
   acceptTerms: z.literal("on", { error: "terms.required" }),
   next: z.string().max(512).optional(),
+  ref: optionalRefSchema,
   locale: localeSchema,
 });
 
@@ -35,6 +37,7 @@ export const signInSchema = z.object({
 
 export const oauthSchema = z.object({
   next: z.string().max(512).optional(),
+  ref: optionalRefSchema,
   locale: localeSchema,
 });
 

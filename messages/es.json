@@ -268,7 +268,9 @@
       "hasAccount": "¿Ya tienes cuenta?",
       "signIn": "Entra",
       "terms": "Acepto las <terms>condiciones de uso</terms> y he leído la <privacy>política de privacidad</privacy>.",
-      "passwordHint": "Mínimo 8 caracteres, con al menos una letra y un número."
+      "passwordHint": "Mínimo 8 caracteres, con al menos una letra y un número.",
+      "refToggle": "¿Te ha invitado alguien? Añade su código",
+      "refHint": "Opcional. Es el código de la persona que te ha recomendado OPOSAPRUEBA."
     },
     "verify": {
       "title": "Revisa tu correo",
@@ -292,7 +294,8 @@
       "email": "Correo electrónico",
       "password": "Contraseña",
       "confirm": "Repite la contraseña",
-      "displayName": "Nombre (opcional)"
+      "displayName": "Nombre (opcional)",
+      "ref": "Código de invitación"
     },
     "suspended": {
       "title": "Cuenta no disponible",
@@ -1868,6 +1871,53 @@
     "buySubtitle": "Intentos sueltos de simulacro, sin suscripción.",
     "trialTitle": "Tu primer simulacro es gratis",
     "trialBody": "Elige uno: lo haces con el tiempo y la penalización del examen real y ves tu nota. Después, los simulacros van con Premium o con un pack de intentos."
+  },
+  "adminAmbassadors": {
+    "nav": "Embajadoras",
+    "title": "Embajadoras",
+    "subtitle": "Opositoras que recomiendan OPOSAPRUEBA a cambio del Premium de su oposición. Cada una tiene un enlace propio (oposaprueba.com/r/código) que lleva al registro con su código ya puesto; también pueden darlo para escribirlo a mano al crear la cuenta.",
+    "newTitle": "Nueva embajadora",
+    "newHelp": "Cuando acepte, búscala en <students>Alumnos</students> y dale «Regalar Premium» de su oposición con 90 días.",
+    "fields": {
+      "name": "Nombre",
+      "code": "Código",
+      "codeHint": "Letras, cifras y guiones, de 2 a 32. Será su enlace: /r/código.",
+      "network": "Red social",
+      "handle": "Cuenta",
+      "exam": "Oposición",
+      "examNone": "Sin indicar",
+      "notes": "Notas"
+    },
+    "networks": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "otra": "Otra"
+    },
+    "create": "Dar de alta",
+    "created": "Embajadora dada de alta. Ya puedes pasarle su enlace.",
+    "errors": {
+      "invalid": "Revisa los campos marcados.",
+      "code": "El código solo admite letras, cifras y guiones (2 a 32).",
+      "name": "Escribe su nombre (máximo 80 caracteres).",
+      "taken": "Ese código ya lo tiene otra embajadora."
+    },
+    "notAllowed": "Solo el personal de administración puede gestionar embajadoras.",
+    "empty": "Aún no hay embajadoras",
+    "emptyHint": "Da de alta la primera con el formulario de arriba.",
+    "periodHint": "Cifras: últimos {days} días / total. «Pagan» cuenta alumnos de su enlace con un Premium cobrado (no los regalados).",
+    "colName": "Embajadora",
+    "colLink": "Enlace",
+    "colVisits": "Visitas",
+    "colSignups": "Registros",
+    "colPaid": "Pagan",
+    "colStatus": "Estado",
+    "since": "Desde el {date}",
+    "codeLabel": "Código: {code}",
+    "active": "Activa",
+    "paused": "Pausada",
+    "pause": "Pausar",
+    "resume": "Reactivar"
   },
   "tour": {
     "stepOf": "Paso {n} de {total}",

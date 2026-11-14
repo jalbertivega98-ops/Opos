@@ -268,7 +268,9 @@
       "hasAccount": "Ja tens compte?",
       "signIn": "Entra",
       "terms": "Accepto les <terms>condicions d'ús</terms> i he llegit la <privacy>política de privacitat</privacy>.",
-      "passwordHint": "Mínim 8 caràcters, amb almenys una lletra i un número."
+      "passwordHint": "Mínim 8 caràcters, amb almenys una lletra i un número.",
+      "refToggle": "T'ha convidat algú? Afegeix-ne el codi",
+      "refHint": "Opcional. És el codi de la persona que t'ha recomanat OPOSAPRUEBA."
     },
     "verify": {
       "title": "Revisa el teu correu",
@@ -292,7 +294,8 @@
       "email": "Correu electrònic",
       "password": "Contrasenya",
       "confirm": "Repeteix la contrasenya",
-      "displayName": "Nom (opcional)"
+      "displayName": "Nom (opcional)",
+      "ref": "Codi d'invitació"
     },
     "suspended": {
       "title": "Compte no disponible",
@@ -1868,6 +1871,53 @@
     "buySubtitle": "Intents solts de simulacre, sense subscripció.",
     "trialTitle": "El teu primer simulacre és gratis",
     "trialBody": "Tria'n un: el fas amb el temps i la penalització de l'examen real i veus la teva nota. Després, els simulacres van amb Premium o amb un paquet d'intents."
+  },
+  "adminAmbassadors": {
+    "nav": "Ambaixadores",
+    "title": "Ambaixadores",
+    "subtitle": "Opositores que recomanen OPOSAPRUEBA a canvi del Premium de la seva oposició. Cadascuna té un enllaç propi (oposaprueba.com/r/codi) que porta al registre amb el codi ja posat; també el poden donar perquè s'escrigui a mà en crear el compte.",
+    "newTitle": "Nova ambaixadora",
+    "newHelp": "Quan accepti, cerca-la a <students>Alumnes</students> i dona-li «Regalar Premium» de la seva oposició amb 90 dies.",
+    "fields": {
+      "name": "Nom",
+      "code": "Codi",
+      "codeHint": "Lletres, xifres i guions, de 2 a 32. Serà el seu enllaç: /r/codi.",
+      "network": "Xarxa social",
+      "handle": "Compte",
+      "exam": "Oposició",
+      "examNone": "Sense indicar",
+      "notes": "Notes"
+    },
+    "networks": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "otra": "Una altra"
+    },
+    "create": "Donar d'alta",
+    "created": "Ambaixadora donada d'alta. Ja li pots passar l'enllaç.",
+    "errors": {
+      "invalid": "Revisa els camps marcats.",
+      "code": "El codi només admet lletres, xifres i guions (2 a 32).",
+      "name": "Escriu-ne el nom (màxim 80 caràcters).",
+      "taken": "Aquest codi ja el té una altra ambaixadora."
+    },
+    "notAllowed": "Només el personal d'administració pot gestionar ambaixadores.",
+    "empty": "Encara no hi ha ambaixadores",
+    "emptyHint": "Dona d'alta la primera amb el formulari de dalt.",
+    "periodHint": "Xifres: últims {days} dies / total. «Paguen» compta alumnes del seu enllaç amb un Premium cobrat (no els regalats).",
+    "colName": "Ambaixadora",
+    "colLink": "Enllaç",
+    "colVisits": "Visites",
+    "colSignups": "Registres",
+    "colPaid": "Paguen",
+    "colStatus": "Estat",
+    "since": "Des del {date}",
+    "codeLabel": "Codi: {code}",
+    "active": "Activa",
+    "paused": "Pausada",
+    "pause": "Pausar",
+    "resume": "Reactivar"
   },
   "tour": {
     "stepOf": "Pas {n} de {total}",
