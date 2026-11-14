@@ -478,3 +478,17 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
   - Las 4 oposiciones catalanas (Mossos, Guardia Urbana, policía local, Bombers) van narradas en catalán por petición de joel (13/11): voz ElevenLabs «Ona - Atenció al Client Català Fluid», textos en pantalla en catalán (`v=<slug>-ca`). `HelpVideo.lang` marca el idioma; la ficha avisa «Vídeo en catalán» en es y «Vídeo en castellà» en ca cuando no coincide con el de la página.
 
 **Consecuencias.** Si cambia una convocatoria, además de la guía hay que rehacer su vídeo (guion en `videos.ts`). Las fichas sin guía (Prisiones de Cataluña, Correos) no tienen vídeo todavía. El repositorio crece ~20 MB por los vídeos; si hicieran falta muchos más, moverlos a un almacenamiento externo (requiere autorización de joel).
+
+## ADR-056 · El test gratis como acción principal de la portada y registro más corto (2026-11-14)
+
+**Contexto.** En el embudo de /admin (30 días a 14/11/2026): 1.651 visitas, 1 test gratis empezado (0,1 %), 0 terminados y 11 cuentas (0,7 %). Casi todo el tráfico es directo y entra por la portada. El test gratis sin registro (ADR-041) existía, pero en la portada era una lista de enlaces debajo del botón «Crear cuenta gratis» y de «Prueba un psicotécnico»: el visitante tenía que registrarse antes de ver nada. El registro pedía nombre, correo, contraseña y una casilla.
+
+**Decisión.**
+
+- Portada: la acción principal es «Haz un test gratis de tu oposición» con un desplegable de las oposiciones disponibles y el botón «Empezar test gratis» (`components/landing/hero-test-picker.tsx`), que lleva a `/oposiciones/<slug>/test`. «Crear cuenta gratis» pasa a botón secundario y el psicotécnico a enlace de texto. Si no hay ninguna oposición disponible, «Crear cuenta gratis» vuelve a ser el botón destacado.
+- Test gratis: desde la 3.ª pregunta, bajo el aviso «no se guarda nada», enlace «Crea tu cuenta gratis para guardar tu progreso» con la oposición puesta.
+- Registro: solo correo y contraseña (más el código de invitación plegado, ADR-054). Sin casilla: bajo el botón, «Al crear la cuenta aceptas las condiciones de uso y la política de privacidad», como ya pasaba con «Continuar con Google». La base del tratamiento es la ejecución del contrato, no el consentimiento, así que no hace falta casilla.
+- El nombre se pide en la bienvenida, opcional («¿Cómo te llamas?»), y solo se guarda si se escribe (no se borra el que llega de Google).
+
+**Consecuencias.** Se mide con el embudo de /admin: deberían subir «Empiezan un test gratis» y «Crean cuenta». Algunas cuentas nuevas quedarán sin nombre si se lo saltan en la bienvenida. Sin cambios de base de datos.
+
