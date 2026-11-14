@@ -20,6 +20,7 @@ export default async function AdminLayout({
   const t = await getTranslations("adminUsers");
   const tc = await getTranslations("adminContent");
   const tt = await getTranslations("adminTraffic");
+  const ta = await getTranslations("adminAmbassadors");
   const links = [
     { href: "/admin", label: t("overviewLink") },
     { href: "/admin/alumnos", label: t("title") },
@@ -30,6 +31,7 @@ export default async function AdminLayout({
     { href: "/admin/productos", label: tc("navProducts") },
     { href: "/admin/compras", label: tc("navPurchases") },
     { href: "/admin/trafico", label: tt("nav") },
+    { href: "/admin/embajadoras", label: ta("nav") },
   ];
   return (
     <div>

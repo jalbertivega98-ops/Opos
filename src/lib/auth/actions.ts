@@ -40,13 +40,17 @@ const localePath = (locale: string, path: string) => (locale === "es" ? path : `
 
 export async function signUpAction(_: FormState, formData: FormData): Promise<FormState> {
   const raw = Object.fromEntries(formData) as Record<string, string>;
-  const values = { email: raw.email ?? "", displayName: raw.displayName ?? "" };
+  const values = {
+    email: raw.email ?? "",
+    displayName: raw.displayName ?? "",
+    ref: raw.ref ?? "",
+  };
   const parsed = signUpSchema.safeParse(raw);
   if (!parsed.success) return { status: "error", errors: fieldErrors(parsed.error), values };
   const block = await limited("signup");
   if (block) return { ...block, values };
 
-  const { email, password, displayName, next, locale } = parsed.data;
+  const { email, password, displayName, next, ref, locale } = parsed.data;
   const supabase = await createClient();
   const { error } = await supabase.auth.signUp({
     email,
@@ -55,7 +59,8 @@ export async function signUpAction(_: FormState, formData: FormData): Promise<Fo
       emailRedirectTo: `${publicEnv.NEXT_PUBLIC_SITE_URL}/auth/callback?next=${encodeURIComponent(
         localePath(locale, safeNextPath(next, "/app/onboarding")),
       )}`,
-      data: { display_name: displayName, locale },
+      // `ref`: código de embajadora; handle_new_user lo apunta si existe (ADR-054).
+      data: { display_name: displayName, locale, ...(ref ? { ref } : {}) },
     },
   });
   if (error) {
@@ -108,6 +113,7 @@ export async function googleSignInAction(_: FormState, formData: FormData): Prom
   const callback = new URL("/auth/callback", publicEnv.NEXT_PUBLIC_SITE_URL);
   callback.searchParams.set("next", next);
   callback.searchParams.set("via", "google");
+  if (parsed.data.ref) callback.searchParams.set("ref", parsed.data.ref);
 
   const supabase = await createClient();
   const { data, error } = await supabase.auth.signInWithOAuth({
