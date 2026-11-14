@@ -13,7 +13,7 @@ import {
 test.describe("Registro, verificación y onboarding", () => {
   test("flujo completo de alta hasta el panel", async ({ page }) => {
     const email = newEmail("alta");
-    await signUp(page, email, "Laura");
+    await signUp(page, email);
 
     // Sin confirmar no puede entrar
     await signIn(page, email);
@@ -24,6 +24,7 @@ test.describe("Registro, verificación y onboarding", () => {
     await confirmEmail(page, email);
     await expect(page).toHaveURL(/\/app\/onboarding/);
 
+    await page.getByLabel("¿Cómo te llamas? (opcional)").fill("Laura");
     await page.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
     await expect(page.getByText("está marcada como «Próximamente»")).toBeVisible();
     await page.getByText("Ya he estudiado algo").click();
@@ -44,7 +45,8 @@ test.describe("Registro, verificación y onboarding", () => {
     await page.getByRole("button", { name: "Crear cuenta" }).click();
     await expect(page.getByText("Formato no válido.")).toBeVisible();
     await expect(page.getByText("al menos 8 caracteres")).toBeVisible();
-    await expect(page.getByText("Debes aceptar las condiciones")).toBeVisible();
+    // Sin casilla: el aviso de condiciones va bajo el botón (ADR-056)
+    await expect(page.getByTestId("signup-terms")).toContainText("Al crear la cuenta aceptas");
     await expect(page.getByLabel("Correo electrónico")).toHaveValue("no-es-un-email");
   });
 
@@ -122,7 +124,7 @@ test.describe("Sesión", () => {
 test.describe("Administración", () => {
   test("un alumno no accede; un admin ve métricas reales", async ({ page }) => {
     const email = newEmail("admin");
-    await signUp(page, email, "Admin");
+    await signUp(page, email);
     await confirmEmail(page, email);
 
     await page.goto("/admin");
@@ -157,7 +159,7 @@ test.describe("Administración", () => {
       await page
         .getByTestId("admin-audience")
         .screenshot({ path: `${process.env.SHOT_DIR}/audiencia.png` });
-    await expect(page.getByTestId("recent-users")).toContainText("Admin");
+    await expect(page.getByTestId("recent-users")).toContainText("admin");
   });
 });
 
@@ -169,14 +171,14 @@ test.describe("Administración de alumnos", () => {
     // Alumno que será suspendido
     const studentCtx = await browser.newContext();
     const sp = await studentCtx.newPage();
-    await signUp(sp, studentEmail, "Pau");
+    await signUp(sp, studentEmail);
     await confirmEmail(sp, studentEmail);
     await sp.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
     await sp.getByText("Crear un hábito de estudio").click();
     await sp.getByRole("button", { name: "Generar mi plan" }).click();
     await expect(sp).toHaveURL(/\/app\?welcome=1/);
 
-    await signUp(page, adminEmail, "Admin");
+    await signUp(page, adminEmail);
     await confirmEmail(page, adminEmail);
     grantRole(adminEmail, "admin");
 
@@ -210,7 +212,7 @@ test.describe("Administración de alumnos", () => {
     const studentEmail = newEmail("alu360");
     const studentCtx = await browser.newContext();
     const sp = await studentCtx.newPage();
-    await signUp(sp, studentEmail, "Nuria");
+    await signUp(sp, studentEmail);
     await confirmEmail(sp, studentEmail);
     await sp.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
     await sp.getByText("Crear un hábito de estudio").click();
@@ -222,7 +224,7 @@ test.describe("Administración de alumnos", () => {
       .poll(async () => (await sp.request.post("/api/account/presence")).status())
       .toBe(204);
 
-    await signUp(page, adminEmail, "Admin");
+    await signUp(page, adminEmail);
     await confirmEmail(page, adminEmail);
     grantRole(adminEmail, "admin");
     await page.goto(`/admin/alumnos?q=${encodeURIComponent(studentEmail)}`);

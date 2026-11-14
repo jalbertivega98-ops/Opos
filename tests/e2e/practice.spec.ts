@@ -17,7 +17,7 @@ async function answerAll(page: Page, total: number) {
 test.describe("Práctica con resultados guardados", () => {
   test("guarda la sesión, muestra estadísticas reales y es privada", async ({ page }) => {
     const email = newEmail("practica");
-    await signUp(page, email, "Pau");
+    await signUp(page, email);
     await confirmEmail(page, email);
 
     // Sin datos todavía
@@ -86,7 +86,7 @@ test.describe("Práctica con resultados guardados", () => {
     // Otra persona no puede ver la sesión
     await signOut(page);
     const other = newEmail("ajeno");
-    await signUp(page, other, "Otra");
+    await signUp(page, other);
     await confirmEmail(page, other);
     const res = await page.goto(sessionUrl);
     expect(res?.status()).toBe(404);
@@ -102,7 +102,7 @@ test.describe("Práctica con resultados guardados", () => {
       .click();
     await expect(page.getByText(/¡Correcto!|Incorrecto\./)).toBeVisible();
     const email = newEmail("demo");
-    await signUp(page, email, "Demo");
+    await signUp(page, email);
     await confirmEmail(page, email);
     await page.goto("/app/progreso");
     await expect(page.getByText(/Todavía no hay datos/)).toBeVisible();

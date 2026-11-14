@@ -203,14 +203,6 @@ export function SignUpForm({ next }: { next?: string }) {
       <input type="hidden" name="locale" value={locale} />
       {next && <input type="hidden" name="next" value={next} />}
       <Field
-        name="displayName"
-        autoComplete="given-name"
-        label={t("fields.displayName")}
-        required={false}
-        defaultValue={state.values?.displayName}
-        error={err(state.errors?.displayName)}
-      />
-      <Field
         name="email"
         type="email"
         autoComplete="email"
@@ -226,36 +218,24 @@ export function SignUpForm({ next }: { next?: string }) {
         hint={t("signUp.passwordHint")}
         error={err(state.errors?.password)}
       />
-      <div className="space-y-2">
-        <label className="flex items-start gap-3 text-sm">
-          <input
-            type="checkbox"
-            name="acceptTerms"
-            required
-            className="mt-0.5 size-4 accent-[var(--accent)]"
-            aria-invalid={state.errors?.acceptTerms ? true : undefined}
-            aria-describedby={state.errors?.acceptTerms ? "acceptTerms-error" : undefined}
-          />
-          <span>
-            {t.rich("signUp.terms", {
-              terms: (c) => (
-                <Link href="/legal/condiciones" className="text-accent underline" target="_blank">
-                  {c}
-                </Link>
-              ),
-              privacy: (c) => (
-                <Link href="/legal/privacidad" className="text-accent underline" target="_blank">
-                  {c}
-                </Link>
-              ),
-            })}
-          </span>
-        </label>
-        <FieldError id="acceptTerms-error">{err(state.errors?.acceptTerms)}</FieldError>
-      </div>
       <Button type="submit" variant="accent" className="w-full" disabled={pending}>
         {t("signUp.submit")}
       </Button>
+      {/* Al pulsar se aceptan las condiciones, igual que con Google (ADR-056): sin casilla. */}
+      <p className="text-muted-foreground text-center text-xs" data-testid="signup-terms">
+        {t.rich("signUp.terms", {
+          terms: (c) => (
+            <Link href="/legal/condiciones" className="underline" target="_blank">
+              {c}
+            </Link>
+          ),
+          privacy: (c) => (
+            <Link href="/legal/privacidad" className="underline" target="_blank">
+              {c}
+            </Link>
+          ),
+        })}
+      </p>
       <p className="text-muted-foreground text-center text-sm">
         {t("signUp.hasAccount")}{" "}
         <Link

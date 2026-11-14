@@ -39,12 +39,10 @@ export async function latestLink(to: string, opts: { subject?: RegExp; after?: D
   return link!;
 }
 
-export async function signUp(page: Page, email: string, name = "Laura") {
+export async function signUp(page: Page, email: string) {
   await page.goto("/registro");
-  await page.getByLabel("Nombre (opcional)").fill(name);
   await page.getByLabel("Correo electrónico").fill(email);
   await page.getByLabel("Contraseña").fill(PASSWORD);
-  await page.getByRole("checkbox").check();
   await page.getByRole("button", { name: "Crear cuenta" }).click();
   await expect(page).toHaveURL(/verifica-tu-correo/);
 }

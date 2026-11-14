@@ -16,18 +16,18 @@ test.describe("Contenido y tienda en el panel", () => {
     // Alumna
     const sctx = await browser.newContext();
     const sp = await sctx.newPage();
-    await signUp(sp, studentEmail, "Alumna");
+    await signUp(sp, studentEmail);
     await confirmEmail(sp, studentEmail);
 
     // Admin (no titular): puede redactar pero no aprobar
     const actx = await browser.newContext();
     const ap = await actx.newPage();
-    await signUp(ap, adminEmail, "Admin");
+    await signUp(ap, adminEmail);
     await confirmEmail(ap, adminEmail);
     grantRole(adminEmail, "admin");
 
     // Titular
-    await signUp(page, ownerEmail, "Titular");
+    await signUp(page, ownerEmail);
     await confirmEmail(page, ownerEmail);
     grantRole(ownerEmail, "owner");
 

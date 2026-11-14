@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { OnboardingForm } from "@/components/onboarding-form";
 import { listExamBodies, localized } from "@/lib/catalog/queries";
+import { getSession } from "@/lib/auth/session";
 
 export async function generateMetadata({
   params,
@@ -19,7 +20,7 @@ export default async function OnboardingPage({
   setRequestLocale(locale);
   const { exam } = await searchParams;
   const t = await getTranslations();
-  const exams = await listExamBodies({}, 500);
+  const [exams, { profile }] = await Promise.all([listExamBodies({}, 500), getSession()]);
   const options = exams.map((e) => ({
     slug: e.slug,
     label: localized(locale, e.name, e.name_ca),
@@ -32,7 +33,11 @@ export default async function OnboardingPage({
     <div className="mx-auto max-w-2xl">
       <h1 className="text-3xl font-bold">{t("onboarding.title")}</h1>
       <div className="mt-8">
-        <OnboardingForm exams={options} initialExam={initialExam} />
+        <OnboardingForm
+          exams={options}
+          initialExam={initialExam}
+          initialName={profile?.display_name ?? undefined}
+        />
       </div>
     </div>
   );

@@ -15,5 +15,11 @@ export const onboardingSchema = z.object({
   weeklyHours: z.coerce.number().int().min(1).max(80),
   goals: z.array(z.enum(GOALS)).min(1, "too_small").max(GOALS.length),
   notifyConsent: z.boolean(),
+  displayName: z
+    .string()
+    .trim()
+    .max(80)
+    .optional()
+    .transform((v) => (v ? v : undefined)),
   locale: localeSchema,
 });

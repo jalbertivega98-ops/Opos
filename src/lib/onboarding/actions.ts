@@ -20,6 +20,7 @@ export async function saveOnboardingAction(
     weeklyHours: formData.get("weeklyHours"),
     goals: formData.getAll("goals"),
     notifyConsent: formData.get("notifyConsent") === "on",
+    displayName: formData.get("displayName") ?? undefined,
     locale: formData.get("locale"),
   });
   if (!parsed.success) {
@@ -64,7 +65,11 @@ export async function saveOnboardingAction(
 
   await supabase
     .from("profiles")
-    .update({ onboarding_completed_at: new Date().toISOString() })
+    .update({
+      onboarding_completed_at: new Date().toISOString(),
+      // Solo si lo ha escrito: no borramos el nombre que llega de Google.
+      ...(d.displayName ? { display_name: d.displayName } : {}),
+    })
     .eq("id", user.id);
   await supabase.rpc("track_activity", {
     p_kind: "onboarding.completed",

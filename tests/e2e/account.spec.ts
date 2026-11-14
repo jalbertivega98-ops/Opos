@@ -4,7 +4,7 @@ import { PASSWORD, confirmEmail, newEmail, signIn, signOut, signUp } from "./hel
 test.describe("Perfil y derechos RGPD", () => {
   test("editar perfil, cambiar idioma, exportar datos y eliminar cuenta", async ({ page }) => {
     const email = newEmail("perfil");
-    await signUp(page, email, "Marta");
+    await signUp(page, email);
     await confirmEmail(page, email);
 
     await page.goto("/app/perfil");
@@ -47,7 +47,7 @@ test.describe("Perfil y derechos RGPD", () => {
 
   test("cambiar contraseña y pedir cambio de correo desde el perfil", async ({ page }) => {
     const email = newEmail("seguridad");
-    await signUp(page, email, "Pau");
+    await signUp(page, email);
     await confirmEmail(page, email);
     await page.goto("/app/perfil");
 

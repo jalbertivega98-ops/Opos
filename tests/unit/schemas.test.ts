@@ -3,7 +3,7 @@ import { fieldErrors, resetSchema, signUpSchema } from "@/lib/auth/schemas";
 import { onboardingSchema } from "@/lib/onboarding/schema";
 import { sanitizeSearch } from "@/lib/catalog/search";
 
-const valid = { email: " Ana@Example.COM ", password: "abcdef12", acceptTerms: "on", locale: "es" };
+const valid = { email: " Ana@Example.COM ", password: "abcdef12", locale: "es" };
 
 describe("signUpSchema", () => {
   it("normaliza el email y acepta datos válidos", () => {
@@ -11,10 +11,8 @@ describe("signUpSchema", () => {
     expect(r.email).toBe("ana@example.com");
     expect(r.displayName).toBeUndefined();
   });
-  it("exige aceptar condiciones", () => {
-    const r = signUpSchema.safeParse({ ...valid, acceptTerms: undefined });
-    expect(r.success).toBe(false);
-    expect(fieldErrors(r.error!).acceptTerms).toBe("terms.required");
+  it("no pide casilla de condiciones: se aceptan al pulsar el botón (ADR-056)", () => {
+    expect(signUpSchema.safeParse(valid).success).toBe(true);
   });
   it.each([
     ["corta1", "password.min"],
@@ -51,6 +49,11 @@ describe("onboardingSchema", () => {
   };
   it("acepta datos válidos y convierte horas", () => {
     expect(onboardingSchema.parse(base).weeklyHours).toBe(10);
+  });
+  it("nombre opcional: vacío se ignora y se recorta (ADR-056)", () => {
+    expect(onboardingSchema.parse({ ...base, displayName: "  " }).displayName).toBeUndefined();
+    expect(onboardingSchema.parse({ ...base, displayName: " Laura " }).displayName).toBe("Laura");
+    expect(onboardingSchema.safeParse({ ...base, displayName: "x".repeat(81) }).success).toBe(false);
   });
   it("rechaza objetivos vacíos, desconocidos y slugs maliciosos", () => {
     expect(onboardingSchema.safeParse({ ...base, goals: [] }).success).toBe(false);

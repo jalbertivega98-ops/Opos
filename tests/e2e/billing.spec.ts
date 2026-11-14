@@ -28,7 +28,7 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
     request,
   }) => {
     const email = newEmail("compra");
-    await signUp(page, email, "Compradora");
+    await signUp(page, email);
     await confirmEmail(page, email);
 
     const slug = `test-e2e-pack-${Date.now()}`;
@@ -110,7 +110,7 @@ test.describe("Pagos (Stripe en modo de pruebas)", () => {
     page,
   }) => {
     const email = newEmail("premium");
-    await signUp(page, email, "Premium");
+    await signUp(page, email);
     await confirmEmail(page, email);
     const slug = `test-e2e-premium-${Date.now()}`;
     await db(async (c) => {

@@ -93,7 +93,7 @@ test.describe("Recorrido del alumno con preguntas del banco", () => {
     const seed = await seedTopic();
     try {
       const studentEmail = newEmail("alumna");
-      await signUp(page, studentEmail, "Alumna");
+      await signUp(page, studentEmail);
       await confirmEmail(page, studentEmail);
       await page.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
       await page.getByText("Empiezo de cero").click();
@@ -172,7 +172,7 @@ test.describe("Recorrido del alumno con preguntas del banco", () => {
     page,
   }) => {
     const ownerEmail = newEmail("titular");
-    await signUp(page, ownerEmail, "Titular");
+    await signUp(page, ownerEmail);
     await confirmEmail(page, ownerEmail);
     grantRole(ownerEmail, "owner");
     execFileSync("node", ["scripts/content/load-questions.mjs", "content/mossos/b1-estatut.json"], {

@@ -203,7 +203,8 @@
     "finalEyebrow": "Empieza hoy",
     "freeTests": {
       "title": "Haz un test gratis de tu oposición",
-      "hint": "10 preguntas con solución y explicación. Sin registrarte."
+      "hint": "10 preguntas con solución y explicación. Sin registrarte.",
+      "start": "Empezar test gratis"
     }
   },
   "availability": {
@@ -263,11 +264,11 @@
     },
     "signUp": {
       "title": "Crea tu cuenta",
-      "subtitle": "Gratis y sin tarjeta.",
+      "subtitle": "Gratis y sin tarjeta. Solo necesitas tu correo y una contraseña.",
       "submit": "Crear cuenta",
       "hasAccount": "¿Ya tienes cuenta?",
       "signIn": "Entra",
-      "terms": "Acepto las <terms>condiciones de uso</terms> y he leído la <privacy>política de privacidad</privacy>.",
+      "terms": "Al crear la cuenta aceptas las <terms>condiciones de uso</terms> y la <privacy>política de privacidad</privacy>.",
       "passwordHint": "Mínimo 8 caracteres, con al menos una letra y un número."
     },
     "verify": {
@@ -409,6 +410,7 @@
   },
   "onboarding": {
     "title": "Configura tu preparación",
+    "name": "¿Cómo te llamas? (opcional)",
     "step1": "¿Qué oposición preparas?",
     "step2": "¿Cuál es tu nivel de partida?",
     "step3": "¿Cuántas horas a la semana puedes estudiar?",
@@ -1754,6 +1756,7 @@
       "guide": "Cómo es el examen de {exam}",
       "error": "No se ha podido corregir la pregunta. Recarga la página.",
       "notSaved": "Test anónimo: no se guarda nada.",
+      "saveProgress": "Crea tu cuenta gratis para guardar tu progreso.",
       "cta": "Haz un test gratis de {exam}",
       "ctaHint": "{n} preguntas con solución, sin registrarte.",
       "otherExams": "Test gratis de otras oposiciones",
