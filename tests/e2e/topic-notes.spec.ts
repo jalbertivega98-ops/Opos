@@ -52,7 +52,7 @@ test.describe("Fichas de estudio (CNT-011)", () => {
     test.setTimeout(120_000);
     const { slug, title } = await seedNote();
     const ownerEmail = newEmail("titular");
-    await signUp(page, ownerEmail, "Titular");
+    await signUp(page, ownerEmail);
     await confirmEmail(page, ownerEmail);
     grantRole(ownerEmail, "owner");
 
@@ -60,7 +60,7 @@ test.describe("Fichas de estudio (CNT-011)", () => {
     const sctx = await browser.newContext();
     const sp = await sctx.newPage();
     const studentEmail = newEmail("alumna");
-    await signUp(sp, studentEmail, "Alumna");
+    await signUp(sp, studentEmail);
     await confirmEmail(sp, studentEmail);
     await sp.getByLabel("¿Qué oposición preparas?").selectOption("mossos-esquadra");
     await sp.getByText("Ya he estudiado algo").click();

@@ -101,6 +101,8 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
         page.getByText(i === 0 ? "Incorrecta. La respuesta correcta es la B." : "¡Correcto!"),
       ).toBeVisible();
       await expect(page.getByText("Explicación de prueba.")).toBeVisible();
+      // Desde la 3.ª pregunta se invita a guardar el progreso con una cuenta (ADR-056).
+      await expect(page.getByTestId("sample-save-progress")).toHaveCount(i >= 2 ? 1 : 0);
       await page.getByRole("button", { name: i === 5 ? "Ver resultados" : "Siguiente" }).click();
     }
     await expect(page.getByTestId("sample-result")).toContainText("Has acertado 5 de 6");
@@ -132,6 +134,19 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
         }
       })
       .toBe("sample_finish:1,sample_start:1");
+  });
+
+  test("la portada pone el test gratis como acción principal (ADR-056)", async ({ page }) => {
+    await page.goto("/");
+    const picker = page.getByTestId("hero-free-tests");
+    await expect(picker.getByLabel("Haz un test gratis de tu oposición")).toBeVisible();
+    await picker.getByLabel("Haz un test gratis de tu oposición").selectOption(slug);
+    await picker.getByRole("button", { name: "Empezar test gratis" }).click();
+    await expect(page).toHaveURL(new RegExp(`/oposiciones/${slug}/test$`));
+    await expect(page.getByTestId("question-stem")).toBeVisible();
+    // Crear cuenta sigue a un clic, como segunda opción.
+    await page.goto("/");
+    await expect(page.getByTestId("hero-signup")).toHaveAttribute("href", "/registro");
   });
 
   test("«Preparar esta oposición» lleva al visitante a crear la cuenta con la oposición elegida", async ({

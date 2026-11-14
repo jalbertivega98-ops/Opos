@@ -23,6 +23,7 @@ import { Eyebrow, Section, SectionHeader } from "@/components/ui/section";
 import { Meter, ProgressRing } from "@/components/ui/progress";
 import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
+import { HeroTestPicker } from "@/components/landing/hero-test-picker";
 import { HelpVideosSection } from "@/components/help/help-videos-section";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies, localized } from "@/lib/catalog/queries";
@@ -108,16 +109,26 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             </p>
             <p className="mt-3 max-w-xl text-sm font-medium">{t("audience")}</p>
 
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button asChild variant="accent" size="lg" className="h-13 px-7 text-base">
-                <Link href="/registro">
+            <HeroTestPicker
+              options={testable.map((e) => ({
+                slug: e.slug,
+                label: localized(locale, e.name, e.name_ca),
+              }))}
+            />
+
+            <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <Button asChild variant={testable.length > 0 ? "outline" : "accent"} size="lg">
+                <Link href="/registro" data-testid="hero-signup">
                   {t("ctaPrimary")}
                   <ArrowRight aria-hidden />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="h-13">
-                <Link href="/psicotecnicos">{t("demoCta")}</Link>
-              </Button>
+              <Link
+                href="/psicotecnicos"
+                className="text-muted-foreground hover:text-accent text-sm font-medium underline-offset-4 hover:underline"
+              >
+                {t("demoCta")}
+              </Link>
             </div>
             <ul className="text-muted-foreground mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">
               {(t.raw("trustItems") as string[]).map((item) => (
@@ -127,31 +138,6 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                 </li>
               ))}
             </ul>
-
-            {testable.length > 0 && (
-              <nav
-                aria-labelledby="hero-free-tests"
-                className="border-border mt-8 max-w-xl border-t pt-6"
-                data-testid="hero-free-tests"
-              >
-                <p id="hero-free-tests" className="text-sm font-semibold">
-                  {t("freeTests.title")}
-                </p>
-                <p className="text-muted-foreground mt-1 text-sm">{t("freeTests.hint")}</p>
-                <ul className="mt-3 flex flex-wrap gap-2">
-                  {testable.map((e) => (
-                    <li key={e.slug}>
-                      <Link
-                        href={`/oposiciones/${e.slug}/test`}
-                        className="border-border bg-background hover:border-accent hover:text-accent inline-flex min-h-9 items-center rounded-full border px-3 text-sm font-medium transition-colors"
-                      >
-                        {localized(locale, e.name, e.name_ca)}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
-            )}
 
             <form
               action={`${locale === "es" ? "" : `/${locale}`}/oposiciones`}

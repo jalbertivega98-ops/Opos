@@ -6,7 +6,7 @@ test.describe("Tutorial de bienvenida y vídeos de ayuda (ADR-055)", () => {
     page,
   }) => {
     const email = newEmail("tour");
-    await signUp(page, email, "Nuria");
+    await signUp(page, email);
     await confirmEmail(page, email, { keepTour: true });
 
     await page.goto("/app");

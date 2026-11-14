@@ -3,7 +3,7 @@
 import { useActionState, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
-import { Alert, FieldError } from "@/components/ui/form";
+import { Alert, FieldError, Input, Label } from "@/components/ui/form";
 import { saveOnboardingAction, type OnboardingState } from "@/lib/onboarding/actions";
 import { GOALS } from "@/lib/onboarding/schema";
 
@@ -12,9 +12,11 @@ type ExamOption = { slug: string; label: string; availability: string; group: st
 export function OnboardingForm({
   exams,
   initialExam,
+  initialName,
 }: {
   exams: ExamOption[];
   initialExam?: string;
+  initialName?: string;
 }) {
   const t = useTranslations();
   const locale = useLocale();
@@ -30,6 +32,19 @@ export function OnboardingForm({
     <form action={action} className="space-y-8">
       <input type="hidden" name="locale" value={locale} />
       {state.message && <Alert tone="error">{t(state.message)}</Alert>}
+
+      {/* El nombre ya no se pide al crear la cuenta (ADR-056): se pide aquí, opcional. */}
+      <div className="space-y-2">
+        <Label htmlFor="displayName">{t("onboarding.name")}</Label>
+        <Input
+          id="displayName"
+          name="displayName"
+          autoComplete="given-name"
+          maxLength={80}
+          defaultValue={initialName}
+          aria-invalid={state.errors?.displayName ? true : undefined}
+        />
+      </div>
 
       <fieldset className="space-y-3">
         <legend className="text-lg font-semibold">1. {t("onboarding.step1")}</legend>

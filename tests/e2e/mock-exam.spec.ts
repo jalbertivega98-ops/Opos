@@ -21,7 +21,7 @@ test("simulacro con tiempo, respuestas modificables, blanco y nota con penalizac
   test.setTimeout(120_000);
   const ownerEmail = newEmail("titular");
   const studentEmail = newEmail("alumna");
-  await signUp(page, ownerEmail, "Titular");
+  await signUp(page, ownerEmail);
   await confirmEmail(page, ownerEmail);
   grantRole(ownerEmail, "owner");
   execFileSync(
@@ -38,7 +38,7 @@ test("simulacro con tiempo, respuestas modificables, blanco y nota con penalizac
 
   const sctx = await browser.newContext();
   const sp = await sctx.newPage();
-  await signUp(sp, studentEmail, "Alumna");
+  await signUp(sp, studentEmail);
   await confirmEmail(sp, studentEmail);
 
   await page.goto("/admin/compras");
@@ -106,7 +106,7 @@ test("simulacro de psicotécnicos: ítems generados, sin penalización y correcc
   test.setTimeout(120_000);
   const ownerEmail = newEmail("titular");
   const studentEmail = newEmail("alumna");
-  await signUp(page, ownerEmail, "Titular");
+  await signUp(page, ownerEmail);
   await confirmEmail(page, ownerEmail);
   grantRole(ownerEmail, "owner");
   execFileSync(
@@ -122,7 +122,7 @@ test("simulacro de psicotécnicos: ítems generados, sin penalización y correcc
   );
   const sctx = await browser.newContext();
   const sp = await sctx.newPage();
-  await signUp(sp, studentEmail, "Alumna");
+  await signUp(sp, studentEmail);
   await confirmEmail(sp, studentEmail);
 
   await page.goto("/admin/compras");

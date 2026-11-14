@@ -21,7 +21,7 @@ async function db<T>(fn: (c: pg.Client) => Promise<T>) {
 test("el primer simulacro de la oposición es gratis y se puede retomar", async ({ page }) => {
   test.setTimeout(120_000);
   const email = newEmail("prueba-gratis");
-  await signUp(page, email, "Gratis");
+  await signUp(page, email);
   await confirmEmail(page, email);
   const stamp = Date.now();
   const slugs = [`test-e2e-trial-a-${stamp}`, `test-e2e-trial-b-${stamp}`];

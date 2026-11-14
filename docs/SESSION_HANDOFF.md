@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Más registros desde la portada (2026-11-14, rama `claude/project-thread-tjtzpv`, MKT-011, ADR-056)
+
+- Cifras de partida (embudo /admin, 30 días): 1.651 visitas, 1 test gratis empezado, 0 terminados, 11 cuentas (0,7 %).
+- Portada con «Haz un test gratis de tu oposición» (desplegable + «Empezar test gratis») como acción principal; enlace a crear cuenta desde la 3.ª pregunta del test gratis; registro solo con correo y contraseña, sin casilla (aviso bajo el botón); nombre opcional en la bienvenida. Sin SQL.
+- Pendiente: que joel diga «fusiona»; a la semana, comparar «Empiezan un test gratis» y «Crean cuenta» en el embudo.
+
 ### Programa de embajadoras (2026-11-13, rama `claude/project-thread-94yxfe`, MKT-010, ADR-054)
 
 - joel eligió la opción A (solo Premium gratis, sin comisión). Plan y mensajes tipo en el Claude Doc «Programa de embajadoras OPOSAPRUEBA».

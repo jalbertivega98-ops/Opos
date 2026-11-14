@@ -112,7 +112,7 @@ test.describe("SEO y GEO (ADR-025)", () => {
       },
     });
     const email = newEmail("trafico");
-    await signUp(page, email, "Admin");
+    await signUp(page, email);
     await confirmEmail(page, email);
     await page.goto("/admin/trafico");
     await expect(page).not.toHaveURL(/\/admin\/trafico$/); // alumna: sin acceso

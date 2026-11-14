@@ -11,7 +11,7 @@ test.describe("Programa de embajadoras (ADR-054)", () => {
     const code = `emb-${randomUUID().slice(0, 6)}`;
     const adminEmail = newEmail("admin");
 
-    await signUp(page, adminEmail, "Admin");
+    await signUp(page, adminEmail);
     await confirmEmail(page, adminEmail);
     grantRole(adminEmail, "admin");
 
@@ -42,7 +42,6 @@ test.describe("Programa de embajadoras (ADR-054)", () => {
     const followerEmail = newEmail("seguidora");
     await fp.getByLabel("Correo electrónico").fill(followerEmail);
     await fp.getByLabel("Contraseña").fill(PASSWORD);
-    await fp.getByRole("checkbox").check();
     await fp.getByRole("button", { name: "Crear cuenta" }).click();
     await expect(fp).toHaveURL(/verifica-tu-correo/);
     await ctx.close();
@@ -53,7 +52,6 @@ test.describe("Programa de embajadoras (ADR-054)", () => {
     await op.goto("/registro?ref=no-existe-xyz");
     await op.getByLabel("Correo electrónico").fill(newEmail("otra"));
     await op.getByLabel("Contraseña").fill(PASSWORD);
-    await op.getByRole("checkbox").check();
     await op.getByRole("button", { name: "Crear cuenta" }).click();
     await expect(op).toHaveURL(/verifica-tu-correo/);
     await ctx2.close();
@@ -75,7 +73,7 @@ test.describe("Programa de embajadoras (ADR-054)", () => {
 
   test("un alumno no entra en /admin/embajadoras", async ({ page }) => {
     const email = newEmail("alumna");
-    await signUp(page, email, "Alumna");
+    await signUp(page, email);
     await confirmEmail(page, email);
     await page.goto("/admin/embajadoras");
     await expect(page.getByRole("heading", { name: "Embajadoras", level: 1 })).toHaveCount(0);

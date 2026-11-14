@@ -203,7 +203,8 @@
     "finalEyebrow": "Comença avui",
     "freeTests": {
       "title": "Fes un test gratis de la teva oposició",
-      "hint": "10 preguntes amb solució i explicació. Sense registrar-te."
+      "hint": "10 preguntes amb solució i explicació. Sense registrar-te.",
+      "start": "Comença el test gratis"
     }
   },
   "availability": {
@@ -263,11 +264,11 @@
     },
     "signUp": {
       "title": "Crea el teu compte",
-      "subtitle": "Gratis i sense targeta.",
+      "subtitle": "Gratis i sense targeta. Només necessites el teu correu i una contrasenya.",
       "submit": "Crea el compte",
       "hasAccount": "Ja tens compte?",
       "signIn": "Entra",
-      "terms": "Accepto les <terms>condicions d'ús</terms> i he llegit la <privacy>política de privacitat</privacy>.",
+      "terms": "En crear el compte acceptes les <terms>condicions d'ús</terms> i la <privacy>política de privacitat</privacy>.",
       "passwordHint": "Mínim 8 caràcters, amb almenys una lletra i un número.",
       "refToggle": "T'ha convidat algú? Afegeix-ne el codi",
       "refHint": "Opcional. És el codi de la persona que t'ha recomanat OPOSAPRUEBA."
@@ -412,6 +413,7 @@
   },
   "onboarding": {
     "title": "Configura la teva preparació",
+    "name": "Com et dius? (opcional)",
     "step1": "Quina oposició prepares?",
     "step2": "Quin és el teu nivell de partida?",
     "step3": "Quantes hores a la setmana pots estudiar?",
@@ -1757,6 +1759,7 @@
       "guide": "Com és l'examen de {exam}",
       "error": "No s'ha pogut corregir la pregunta. Torna a carregar la pàgina.",
       "notSaved": "Test anònim: no es desa res.",
+      "saveProgress": "Crea el teu compte gratis per desar el teu progrés.",
       "cta": "Fes un test gratis de {exam}",
       "ctaHint": "{n} preguntes amb solució, sense registrar-te.",
       "otherExams": "Test gratis d'altres oposicions",

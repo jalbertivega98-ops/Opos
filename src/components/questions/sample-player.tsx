@@ -247,7 +247,18 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
           </Button>
         </div>
       )}
-      <p className="text-muted-foreground text-xs">{ts("notSaved")}</p>
+      <p className="text-muted-foreground text-xs">
+        {ts("notSaved")}{" "}
+        {index >= 2 && (
+          <Link
+            href={signUpPath(examSlug)}
+            className="text-accent font-semibold hover:underline"
+            data-testid="sample-save-progress"
+          >
+            {ts("saveProgress")}
+          </Link>
+        )}
+      </p>
     </Card>
   );
 }
