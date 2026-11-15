@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Menú móvil que se cierra solo (2026-11-15, rama `claude/project-thread-4ym1o3`, UX-005, ADR-058)
+
+- Motivo: el menú de la cabecera en móvil (`<details>`) seguía abierto tras pulsar una opción y no marcaba nada.
+- Hecho: `MobileMenu` se cierra al elegir, al pulsar fuera, con Escape y al cambiar de página; marca la página actual (también en escritorio); «Admin» en el menú móvil para administradores. Sin SQL.
+- Pendiente: que joel lo pruebe en el móvil con la preview y diga «fusiona».
+
 ### Guía para visitantes sin cuenta (2026-11-15, rama `claude/project-thread-51nlsb`, UX-004, ADR-057)
 
 - Motivo: en incógnito no salía nada porque el tutorial (ADR-055) solo vive en `/app`, con sesión.

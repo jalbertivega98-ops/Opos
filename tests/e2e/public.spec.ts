@@ -75,6 +75,41 @@ test.describe("Móvil @mobile", () => {
       .click();
     await expect(page).toHaveURL(/\/oposiciones$/);
   });
+
+  test("el menú se cierra al elegir, al pulsar fuera y con Escape @mobile", async ({ page }) => {
+    await page.goto("/");
+    const toggle = page.getByRole("button", { name: "Menú", exact: true });
+    const menu = page.getByRole("navigation", { name: "Menú" });
+
+    // Elegir una opción: navega, se cierra y marca la página actual
+    await toggle.click();
+    await expect(menu).toBeVisible();
+    await menu.getByRole("link", { name: "Psicotécnicos" }).click();
+    await expect(page).toHaveURL(/\/psicotecnicos$/);
+    await expect(menu).toBeHidden();
+    await page.getByRole("button", { name: "Menú", exact: true }).click();
+    await expect(menu.getByRole("link", { name: "Psicotécnicos" })).toHaveAttribute(
+      "aria-current",
+      "page",
+    );
+
+    // Pulsar fuera
+    await page.locator("main").click({ position: { x: 10, y: 10 } });
+    await expect(menu).toBeHidden();
+
+    // Escape devuelve el foco al botón
+    await toggle.click();
+    await expect(menu).toBeVisible();
+    await page.keyboard.press("Escape");
+    await expect(menu).toBeHidden();
+    await expect(toggle).toBeFocused();
+
+    // Ancla en la misma página: también se cierra
+    await page.goto("/");
+    await toggle.click();
+    await menu.getByRole("link", { name: /precios/i }).click();
+    await expect(menu).toBeHidden();
+  });
 });
 
 test.describe("Demo de psicotécnicos", () => {
