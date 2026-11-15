@@ -1,16 +1,22 @@
-import { Menu } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/logo";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { ThemeToggle } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
+import { DesktopNavLinks, MobileMenu } from "@/components/mobile-menu";
 import { getSession, isAdminRole } from "@/lib/auth/session";
 import { signOutAction } from "@/lib/auth/actions";
 
 export async function SiteHeader() {
   const t = await getTranslations("nav");
   const { user, profile } = await getSession();
+  const links = [
+    { href: "/oposiciones", label: t("catalog") },
+    { href: "/psicotecnicos", label: t("psycho") },
+    { href: "/#como-funciona", label: t("how") },
+    { href: "/#precios", label: t("pricing") },
+  ];
 
   return (
     <header className="border-border bg-background/85 sticky top-0 z-40 border-b backdrop-blur">
@@ -22,18 +28,7 @@ export async function SiteHeader() {
           aria-label="Principal"
           className="hidden items-center gap-1 text-sm font-medium md:flex"
         >
-          <Link href="/oposiciones" className="hover:bg-surface rounded-md px-3 py-2">
-            {t("catalog")}
-          </Link>
-          <Link href="/psicotecnicos" className="hover:bg-surface rounded-md px-3 py-2">
-            {t("psycho")}
-          </Link>
-          <Link href="/#como-funciona" className="hover:bg-surface rounded-md px-3 py-2">
-            {t("how")}
-          </Link>
-          <Link href="/#precios" className="hover:bg-surface rounded-md px-3 py-2">
-            {t("pricing")}
-          </Link>
+          <DesktopNavLinks links={links} />
         </nav>
         <div className="ml-auto flex items-center gap-1 sm:gap-2">
           <div className="hidden sm:block">
@@ -66,48 +61,39 @@ export async function SiteHeader() {
               </Button>
             </>
           )}
-          <details className="relative md:hidden">
-            <summary
-              aria-label={t("menu")}
-              className="hover:bg-surface inline-flex size-10 cursor-pointer list-none items-center justify-center rounded-lg [&::-webkit-details-marker]:hidden"
-            >
-              <Menu className="size-5" aria-hidden />
-            </summary>
-            <nav
-              aria-label={t("menu")}
-              className="border-border bg-background absolute top-12 right-0 w-60 space-y-1 rounded-xl border p-2 text-sm shadow-lg"
-            >
-              <Link href="/oposiciones" className="hover:bg-surface block rounded-md px-3 py-2">
-                {t("catalog")}
-              </Link>
-              <Link href="/psicotecnicos" className="hover:bg-surface block rounded-md px-3 py-2">
-                {t("psycho")}
-              </Link>
-              <Link href="/#como-funciona" className="hover:bg-surface block rounded-md px-3 py-2">
-                {t("how")}
-              </Link>
-              <Link href="/#precios" className="hover:bg-surface block rounded-md px-3 py-2">
-                {t("pricing")}
-              </Link>
-              {user ? (
-                <form action={signOutAction}>
-                  <button
-                    type="submit"
-                    className="hover:bg-surface block w-full rounded-md px-3 py-2 text-left"
+          <MobileMenu
+            label={t("menu")}
+            closeLabel={t("closeMenu")}
+            links={
+              user && profile && isAdminRole(profile.role)
+                ? [...links, { href: "/admin", label: t("admin") }]
+                : links
+            }
+            footer={
+              <>
+                {user ? (
+                  <form action={signOutAction}>
+                    <button
+                      type="submit"
+                      className="hover:bg-surface active:bg-surface block w-full rounded-md px-3 py-2 text-left transition-colors"
+                    >
+                      {t("signOut")}
+                    </button>
+                  </form>
+                ) : (
+                  <Link
+                    href="/entrar"
+                    className="hover:bg-surface active:bg-surface block rounded-md px-3 py-2 transition-colors"
                   >
-                    {t("signOut")}
-                  </button>
-                </form>
-              ) : (
-                <Link href="/entrar" className="hover:bg-surface block rounded-md px-3 py-2">
-                  {t("signIn")}
-                </Link>
-              )}
-              <div className="px-3 py-2">
-                <LocaleSwitcher label={t("language")} />
-              </div>
-            </nav>
-          </details>
+                    {t("signIn")}
+                  </Link>
+                )}
+                <div className="px-3 py-2">
+                  <LocaleSwitcher label={t("language")} />
+                </div>
+              </>
+            }
+          />
         </div>
       </div>
     </header>

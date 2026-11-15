@@ -505,3 +505,11 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Consecuencias.** Sin cambios de base de datos. En navegación privada vuelve a salir en cada ventana nueva (es lo esperado para un visitante nuevo). Los E2E marcan ambas guías como vistas por defecto (`storageState` en `playwright.config.ts`); `visitor-tour.spec.ts` las prueba desde cero.
 
+## ADR-058 · Menú móvil de la cabecera que se cierra solo (2026-11-15)
+
+**Contexto.** El menú desplegable de la cabecera en móvil era un `<details>` nativo. Con la navegación del lado del cliente la cabecera no se vuelve a montar, así que tras pulsar una opción el menú seguía abierto y había que volver a tocar el botón; tampoco se marcaba la página actual ni había respuesta visual al pulsar. joel lo notó «bugueado».
+
+**Decisión.** Componente cliente `components/mobile-menu.tsx` (`MobileMenu`) con estado propio: se cierra al pulsar cualquier opción (enlace, «Salir», idioma), al pulsar fuera, con Escape (devuelve el foco al botón) y al cambiar de ruta. El botón alterna icono menú/X con `aria-expanded`. La página actual va marcada (`aria-current="page"`, fondo oscuro) y las opciones tienen estado pulsado. El panel se oculta con `hidden` en lugar de desmontarse para que el formulario de «Salir» se envíe aunque el menú se cierre en el mismo clic. Los enlaces de escritorio (`DesktopNavLinks`) también marcan la página actual. Para administradores, el menú móvil incluye «Admin» (antes no había forma de llegar desde un móvil).
+
+**Consecuencias.** Sin cambios de base de datos. Nueva clave `nav.closeMenu` (es/ca). E2E móvil en `public.spec.ts`.
+
