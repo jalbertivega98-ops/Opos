@@ -23,6 +23,7 @@ export function HeroTestPicker({ options }: { options: Option[] }) {
     <form
       className="border-accent/40 bg-background mt-8 max-w-xl rounded-2xl border-2 p-4 shadow-lg shadow-black/5 sm:p-5"
       data-testid="hero-free-tests"
+      data-tour="v-test"
       onSubmit={(e) => {
         e.preventDefault();
         if (slug) router.push(`/oposiciones/${slug}/test`);

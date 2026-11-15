@@ -1984,5 +1984,56 @@
     "examVideoTitle": "Tu oposición en medio minuto",
     "examVideoBody": "Lo esencial del examen de {exam} (preguntas, tiempo y penalización, según las bases oficiales) y lo que tienes en OPOSAPRUEBA para prepararlo.",
     "examVideoCaption": "Así es el examen de {exam}"
+  },
+  "visitorTour": {
+    "launch": "¿Primera vez aquí? Mira la guía rápida (1 minuto)",
+    "finish": "Entendido",
+    "startTest": "O empieza ya: haz un test gratis →",
+    "steps": {
+      "welcome": {
+        "title": "Te damos la bienvenida a OPOSAPRUEBA",
+        "body": "Te enseñamos en un minuto por dónde empezar. Pulsa «Empezar» y ve paso a paso; puedes cerrar la guía cuando quieras."
+      },
+      "test": {
+        "title": "1. Empieza aquí: un test gratis",
+        "body": "Elige tu oposición en la lista y pulsa «Empezar test gratis». No hace falta registrarse: respondes y al momento ves si aciertas, con la explicación. Pruébalo ahora o pulsa «Siguiente»."
+      },
+      "search": {
+        "title": "2. ¿No ves la tuya?",
+        "body": "Escribe aquí el nombre de tu oposición (por ejemplo, «auxiliar» o «policía») y verás su temario, cómo es el examen y los requisitos."
+      },
+      "how": {
+        "title": "3. Cómo funciona",
+        "body": "Aquí te explicamos el método en tres pasos y tienes vídeos de menos de medio minuto que resuelven las dudas más habituales."
+      },
+      "pricing": {
+        "title": "4. Gratis para empezar",
+        "body": "Con la cuenta gratis tienes el test de los 3 primeros temas de cada oposición, las fichas, el plan de estudio, psicotécnicos de práctica y tu primer simulacro. Premium, solo si quieres más."
+      },
+      "signup": {
+        "title": "5. Crea tu cuenta gratis",
+        "body": "Para guardar tu progreso y tener tu plan semanal, pulsa «Crear cuenta gratis». Se hace en menos de un minuto, también con Google."
+      }
+    }
+  },
+  "testGuide": {
+    "stepOf": "Guía rápida · {n} de {total}",
+    "hide": "Ocultar la guía",
+    "answer": {
+      "title": "Pulsa la respuesta que creas correcta",
+      "body": "Lee la pregunta con calma y elige una opción. No hace falta registrarse."
+    },
+    "feedback": {
+      "title": "Así se corrige",
+      "body": "En verde, la respuesta correcta; en rojo, la tuya si has fallado. Debajo tienes la explicación y la referencia a la norma. Pulsa «Siguiente» para continuar."
+    },
+    "keepGoing": {
+      "title": "Sigue hasta el final",
+      "body": "Al terminar verás tu nota y podrás repasar las preguntas que hayas fallado."
+    },
+    "finish": {
+      "title": "¿Y ahora?",
+      "body": "Crea tu cuenta gratis para guardar tu nota, seguir con el test de los 3 primeros temas y tener tu plan de estudio."
+    }
   }
 }

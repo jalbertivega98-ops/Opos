@@ -5,6 +5,7 @@ import { defineConfig, devices } from "@playwright/test";
  * En el contenedor cloud el Chromium preinstalado está en /opt/pw-browsers.
  */
 const executablePath = process.env.PW_CHROMIUM_PATH;
+const baseURL = process.env.E2E_BASE_URL ?? "http://localhost:3000";
 
 export default defineConfig({
   testDir: "tests/e2e",
@@ -13,7 +14,21 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
-    baseURL: process.env.E2E_BASE_URL ?? "http://localhost:3000",
+    baseURL,
+    // Guía de visitantes y pistas del test gratis ya vistas (ADR-057), para que no
+    // tapen la portada en el resto de pruebas; visitor-tour.spec.ts las borra.
+    storageState: {
+      cookies: [],
+      origins: [
+        {
+          origin: new URL(baseURL).origin,
+          localStorage: [
+            { name: "opa.visitorTour", value: "done" },
+            { name: "opa.testGuide", value: "done" },
+          ],
+        },
+      ],
+    },
     trace: "retain-on-failure",
     launchOptions: executablePath ? { executablePath } : undefined,
   },

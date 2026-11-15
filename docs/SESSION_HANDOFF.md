@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Guía para visitantes sin cuenta (2026-11-15, rama `claude/project-thread-51nlsb`, UX-004, ADR-057)
+
+- Motivo: en incógnito no salía nada porque el tutorial (ADR-055) solo vive en `/app`, con sesión.
+- Hecho: guía de 6 pasos en la portada para visitantes (primera vez, `localStorage`, botón «¿Primera vez aquí?» y `/?guia=1`), paso del test interactivo, y pistas en el primer test gratis. Núcleo común `SpotlightTour` también para el tutorial del alumno. Sin SQL.
+- Pendiente: que joel lo pruebe en incógnito en la preview y diga «fusiona».
+
 ### Más registros desde la portada (2026-11-14, rama `claude/project-thread-tjtzpv`, MKT-011, ADR-056)
 
 - Cifras de partida (embudo /admin, 30 días): 1.651 visitas, 1 test gratis empezado, 0 terminados, 11 cuentas (0,7 %).

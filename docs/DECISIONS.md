@@ -492,3 +492,16 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Consecuencias.** Se mide con el embudo de /admin: deberían subir «Empiezan un test gratis» y «Crean cuenta». Algunas cuentas nuevas quedarán sin nombre si se lo saltan en la bienvenida. Sin cambios de base de datos.
 
+## ADR-057 · Guía paso a paso para visitantes sin cuenta (2026-11-15)
+
+**Contexto.** El tutorial de ADR-055 solo existe dentro de Mi panel (`/app`), que exige sesión: quien entra por primera vez sin cuenta (o joel en incógnito) no ve ninguna guía. joel pidió que un visitante nuevo vea dónde pulsar para empezar, con una breve descripción, y que la información vaya apareciendo a medida que avanza.
+
+**Decisión.**
+
+- Núcleo común `components/tour/spotlight-tour.tsx` (oscurece la página, resalta un elemento por `data-tour`, tarjeta con Atrás/Siguiente, Escape, foco). `WelcomeTour` (alumnos) pasa a usarlo sin cambiar su comportamiento ni su guardado en el perfil.
+- Portada sin sesión: `VisitorTour` de 6 pasos (bienvenida → test gratis → buscador → Cómo funciona → precios → crear cuenta). Sale sola la primera vez, recordado en `localStorage` (`opa.visitorTour`), sin base de datos ni cookies; se vuelve a abrir con «¿Primera vez aquí? Mira la guía rápida» o con `/?guia=1`. El paso del test es interactivo: el visitante puede elegir su oposición y pulsar «Empezar test gratis» sin cerrar la guía. Los alumnos con sesión no la ven.
+- La tarjeta se coloca debajo, encima o al lado del elemento resaltado para no taparlo nunca, y sigue al elemento mientras dura el desplazamiento suave.
+- Test gratis: pistas no bloqueantes la primera vez (`opa.testGuide`): qué pulsar, cómo se lee la corrección (junto a la corrección), seguir hasta el final y, al acabar, crear la cuenta. Se pueden ocultar.
+
+**Consecuencias.** Sin cambios de base de datos. En navegación privada vuelve a salir en cada ventana nueva (es lo esperado para un visitante nuevo). Los E2E marcan ambas guías como vistas por defecto (`storageState` en `playwright.config.ts`); `visitor-tour.spec.ts` las prueba desde cero.
+
