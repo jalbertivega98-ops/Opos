@@ -1345,6 +1345,163 @@ const ayudantesIipp: ExamGuide = {
   ],
 };
 
+const prisionesCatalunya: ExamGuide = {
+  slug: "serveis-penitenciaris-catalunya",
+  verifiedOn: "2026-11-05",
+  h1: {
+    es: "Oposiciones a prisiones de Cataluña",
+    ca: "Oposicions a presons de Catalunya",
+  },
+  seoTitle: {
+    es: "Oposiciones prisiones Cataluña 2026: examen, temario y plazas",
+    ca: "Oposicions presons Catalunya 2026: examen, temari i places",
+  },
+  seoDescription: {
+    es: "Escala de servicios penitenciarios de la Generalitat (C1): 133 plazas en la oferta de 2026. Test de 60 preguntas en catalán (−1/4), supuesto práctico de 25, pruebas físicas y temario de 25 temas.",
+    ca: "Escala de serveis penitenciaris de la Generalitat (C1): 133 places a l'oferta del 2026. Test de 60 preguntes (−1/4), supòsit pràctic de 25, proves físiques i temari de 25 temes.",
+  },
+  intro: {
+    es: "En Cataluña las prisiones dependen de la Generalitat, así que el personal de vigilancia no es el Cuerpo de Ayudantes de Instituciones Penitenciarias del Estado: es el cuerpo técnico de especialistas, escala de servicios penitenciarios (grupo C1). Este resumen sigue las bases de la última convocatoria, la JU033 (Resolució JUS/2335/2025), y la oferta de empleo de 2026. Las pruebas se hacen en catalán, y por eso nuestras preguntas y apuntes de los 25 temas oficiales también están en catalán.",
+    ca: "A Catalunya les presons depenen de la Generalitat, de manera que el personal de vigilància no és el Cos d'Ajudants d'Institucions Penitenciàries de l'Estat: és el cos tècnic d'especialistes, escala de serveis penitenciaris (grup C1). Aquest resum segueix les bases de l'última convocatòria, la JU033 (Resolució JUS/2335/2025), i l'oferta d'ocupació del 2026. Les proves es fan en català, i per això les nostres preguntes i apunts dels 25 temes oficials també són en català.",
+  },
+  facts: [
+    {
+      label: { es: "Última convocatoria", ca: "Última convocatòria" },
+      value: {
+        es: "JU033 · Resolució JUS/2335/2025 (DOGC 9439, 23/06/2025): 517 plazas, 284 de turno libre y 233 de promoción interna",
+        ca: "JU033 · Resolució JUS/2335/2025 (DOGC 9439, 23/06/2025): 517 places, 284 de torn lliure i 233 de promoció interna",
+      },
+    },
+    {
+      label: { es: "Oferta de 2026", ca: "Oferta del 2026" },
+      value: {
+        es: "133 plazas (73 de turno libre y 60 de promoción interna), Acord GOV/61/2026, pendientes de convocar",
+        ca: "133 places (73 de torn lliure i 60 de promoció interna), Acord GOV/61/2026, pendents de convocar",
+      },
+    },
+    {
+      label: { es: "Requisitos", ca: "Requisits" },
+      value: {
+        es: "Bachillerato o título de técnico, catalán nivel B2 (o hacer la prueba) y no tener antecedentes penales",
+        ca: "Batxillerat o títol de tècnic, català nivell B2 (o fer-ne la prova) i no tenir antecedents penals",
+      },
+    },
+    {
+      label: { es: "Programa", ca: "Programa" },
+      value: {
+        es: "5 temas generales (Resolució PRE/2423/2022) y 20 específicos (Resolució JUS/4591/2024): derecho penal y procesal, derecho penitenciario, criminología y psicología",
+        ca: "5 temes generals (Resolució PRE/2423/2022) i 20 d'específics (Resolució JUS/4591/2024): dret penal i processal, dret penitenciari, criminologia i psicologia",
+      },
+    },
+  ],
+  parts: [
+    {
+      name: { es: "1.ª prueba: test de conocimientos", ca: "1a prova: test de coneixements" },
+      detail: {
+        es: "60 preguntas (más 7 de reserva) de 4 opciones en 1 h 30 min: 15 de la parte general y 45 de la específica. Cada error resta 1/4. Se puntúa de 0 a 15 y hay que sacar un 7,5.",
+        ca: "60 preguntes (més 7 de reserva) de 4 opcions en 1 h 30 min: 15 de la part general i 45 de l'específica. Cada error resta 1/4. Es puntua de 0 a 15 i cal treure un 7,5.",
+      },
+    },
+    {
+      name: {
+        es: "1.ª prueba: supuesto práctico tipo test",
+        ca: "1a prova: supòsit pràctic tipus test",
+      },
+      detail: {
+        es: "25 preguntas (más 5 de reserva) sobre los temas 5, 6 y 8 a 18 de la parte específica, en 1 h 30 min. Misma penalización. Se puntúa de 0 a 20 y hay que sacar un 10.",
+        ca: "25 preguntes (més 5 de reserva) sobre els temes 5, 6 i del 8 al 18 de la part específica, en 1 h 30 min. Mateixa penalització. Es puntua de 0 a 20 i cal treure un 10.",
+      },
+    },
+    {
+      name: { es: "2.ª prueba: capacidad física", ca: "2a prova: capacitat física" },
+      detail: {
+        es: "Circuito de agilidad, press de banca (35 kg hombres, 25 kg mujeres, máximo de repeticiones en 45 s) y course navette. Nota media de 0 a 10, mínimo 5 y al menos 0,5 en cada ejercicio.",
+        ca: "Circuit d'agilitat, pressió sobre banc (35 kg homes, 25 kg dones, màxim de repeticions en 45 s) i course navette. Nota mitjana de 0 a 10, mínim 5 i com a mínim 0,5 a cada exercici.",
+      },
+    },
+    {
+      name: { es: "Resto del proceso", ca: "Resta del procés" },
+      detail: {
+        es: "Prueba de catalán si no se acredita el B2, reconocimiento médico, valoración de méritos (hasta 40 puntos), curso selectivo de 4 semanas en el CEJFE y 2 meses de prácticas.",
+        ca: "Prova de català si no s'acredita el B2, reconeixement mèdic, valoració de mèrits (fins a 40 punts), curs selectiu de 4 setmanes al CEJFE i 2 mesos de pràctiques.",
+      },
+    },
+  ],
+  calendar: [
+    {
+      label: { es: "1.ª prueba de la JU033", ca: "1a prova de la JU033" },
+      value: { es: "22 de noviembre de 2025", ca: "22 de novembre de 2025" },
+    },
+    {
+      label: { es: "Pruebas físicas de la JU033", ca: "Proves físiques de la JU033" },
+      value: { es: "17, 18 y 19 de febrero de 2026", ca: "17, 18 i 19 de febrer de 2026" },
+    },
+    {
+      label: { es: "Próxima convocatoria", ca: "Propera convocatòria" },
+      value: {
+        es: "Sin publicar a 5 de noviembre de 2026 (133 plazas de la oferta de 2026)",
+        ca: "Sense publicar a 5 de novembre de 2026 (133 places de l'oferta del 2026)",
+      },
+    },
+  ],
+  calendarNote: {
+    es: "Las convocatorias salen en el DOGC y en la web de oposiciones de ejecución penal del Departament de Justícia. Actualizaremos esta ficha cuando se publique la siguiente.",
+    ca: "Les convocatòries surten al DOGC i al web d'oposicions d'execució penal del Departament de Justícia. Actualitzarem aquesta fitxa quan es publiqui la següent.",
+  },
+  psychoTypes: [],
+  psychoNote: { es: "", ca: "" },
+  faq: [
+    {
+      q: {
+        es: "¿Es lo mismo que Ayudantes de Instituciones Penitenciarias?",
+        ca: "És el mateix que Ajudants d'Institucions Penitenciàries?",
+      },
+      a: {
+        es: "No. Las prisiones de Cataluña están transferidas a la Generalitat (RD 3482/1983) y tienen su propia oposición, con temario, examen y convocatorias distintos de los del Estado.",
+        ca: "No. Les presons de Catalunya estan transferides a la Generalitat (RD 3482/1983) i tenen la seva pròpia oposició, amb temari, examen i convocatòries diferents dels de l'Estat.",
+      },
+    },
+    {
+      q: {
+        es: "¿En qué idioma es el examen?",
+        ca: "En quina llengua és l'examen?",
+      },
+      a: {
+        es: "En catalán: las bases dicen que las pruebas de la fase de oposición se plantean en catalán. Además, hay que acreditar el nivel B2 o aprobar la prueba de catalán.",
+        ca: "En català: les bases diuen que les proves de la fase d'oposició es plantegen en català. A més, cal acreditar el nivell B2 o aprovar la prova de català.",
+      },
+    },
+    {
+      q: {
+        es: "¿Hay psicotécnicos?",
+        ca: "Hi ha psicotècnics?",
+      },
+      a: {
+        es: "No hay una prueba psicotécnica puntuable. Las bases solo permiten pruebas médicas o psicotécnicas para comprobar las exclusiones médicas.",
+        ca: "No hi ha cap prova psicotècnica puntuable. Les bases només permeten proves mèdiques o psicotècniques per comprovar les exclusions mèdiques.",
+      },
+    },
+  ],
+  sources: [
+    {
+      title: "Resolució JUS/2335/2025, convocatòria JU033 (DOGC 9439)",
+      url: "https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1017522",
+    },
+    {
+      title: "Acord GOV/61/2026, oferta d'ocupació pública 2026 (DOGC 9633)",
+      url: "https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1040427",
+    },
+    {
+      title: "Resolució JUS/4591/2024, temari de la part específica (DOGC 9318)",
+      url: "https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1002936",
+    },
+    {
+      title: "Departament de Justícia · Procés JU033",
+      url: "https://justicia.gencat.cat/ca/serveis/treballar/oposicions/funcionaris/execuciopenal/encurs/ju033/",
+    },
+  ],
+};
+
 const GUIDES: Record<string, ExamGuide> = {
   [mossos.slug]: mossos,
   [auxiliar.slug]: auxiliar,
@@ -1357,6 +1514,7 @@ const GUIDES: Record<string, ExamGuide> = {
   [policiaLocal.slug]: policiaLocal,
   [bombers.slug]: bombers,
   [ayudantesIipp.slug]: ayudantesIipp,
+  [prisionesCatalunya.slug]: prisionesCatalunya,
 };
 
 export const getExamGuide = (slug: string): ExamGuide | undefined => GUIDES[slug];
