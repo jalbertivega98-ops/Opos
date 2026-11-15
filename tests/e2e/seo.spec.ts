@@ -94,8 +94,8 @@ test.describe("SEO y GEO (ADR-025)", () => {
   test("zonas privadas y búsquedas no indexables", async ({ page }) => {
     await page.goto("/entrar");
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
-    await page.goto("/oposiciones?q=mossos");
-    await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
+    const search = await page.goto("/oposiciones?q=mossos");
+    expect(search?.headers()["x-robots-tag"]).toMatch(/noindex/);
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /\/oposiciones$/);
   });
 

@@ -1,23 +1,9 @@
 import { getTranslations } from "next-intl/server";
 import { Alert } from "@/components/ui/form";
 
-export const CHECKOUT_NOTICES = {
-  ok: "success",
-  pendiente: "info",
-  cancelada: "info",
-  consentimiento: "error",
-  error: "error",
-  desactivada: "info",
-  "no-disponible": "error",
-  "ya-lo-tienes": "info",
-  "ya-premium": "info",
-  "portal-error": "error",
-} as const;
-export type CheckoutNotice = keyof typeof CHECKOUT_NOTICES;
+import { CHECKOUT_NOTICES, type CheckoutNotice } from "./checkout-notices";
 
-export function parseCheckoutNotice(v: unknown): CheckoutNotice | null {
-  return typeof v === "string" && v in CHECKOUT_NOTICES ? (v as CheckoutNotice) : null;
-}
+export { CHECKOUT_NOTICES, parseCheckoutNotice, type CheckoutNotice } from "./checkout-notices";
 
 /** Aviso tras volver de Stripe o tras un intento de compra fallido. */
 export async function CheckoutNoticeAlert({ notice }: { notice: CheckoutNotice | null }) {

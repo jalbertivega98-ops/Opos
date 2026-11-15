@@ -518,3 +518,18 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - **Contexto:** Search Console (datos hasta el 12/11) ya muestra impresiones para «oposiciones prisiones cataluña» (posición 63), pero `serveis-penitenciaris-catalunya` no tenía guía en `exam-guides.ts`: la ficha quedaba sin contenido propio y, al estar «próximamente», en `noindex`.
 - **Decisión:** añadir su guía con datos de `docs/research/prisiones-catalunya-programa.md` (consultado el 05/11/2026): JU033, oferta de 2026 (133 plazas), formato de las pruebas, pruebas físicas, calendario, FAQ (no es Ayudantes del Estado, examen en catalán, sin psicotécnico puntuable) y fuentes del DOGC. Sin psicotécnicos relacionados.
 - **Consecuencias:** la ficha pasa a ser indexable (`isExamIndexable`), entra en el pie y en el sitemap, y suma una búsqueda con demanda real. Cuando salga la convocatoria de la oferta de 2026 hay que actualizar plazas, calendario y `verifiedOn`.
+
+
+## ADR-060 · Páginas públicas estáticas: la sesión se mira en el navegador (2026-11-15)
+
+**Contexto.** Tras ADR-053 las páginas tardaban 0,3-0,6 s, pero todas las públicas se generaban de nuevo en cada visita: la cabecera leía la sesión con cookies en el servidor (`getSession`), y la portada, el catálogo y la ficha leían además `searchParams`. Nada de su contenido depende de quién mira.
+
+**Decisión.**
+
+- `SiteHeader` ya no lee la sesión. `HeaderAccount` (cliente) usa `useAuth()` (`src/components/auth/use-auth.ts`): lee la cookie de Supabase en el navegador, consulta el rol para el enlace de Administración y vuelve a mirar al cambiar de página. Mientras no lo sabe, reserva el hueco de «Entrar / Crear cuenta» sin mostrarlo. «Salir» cierra la sesión en el navegador y recarga la portada. Solo decide qué botones se ven: los permisos siguen en RLS y `requireUser`.
+- Lo que dependía de la URL pasa al navegador dentro de `<Suspense>`: guía del visitante (`?guia=1`) y aviso de cuenta borrada en la portada, aviso de compra (`?compra=`) en la ficha, búsqueda y filtro del catálogo (`CatalogBrowser`, misma limpieza que `sanitizeSearch`). El HTML estático lleva el catálogo completo. Las búsquedas siguen sin indexarse: el proxy les pone `X-Robots-Tag: noindex`.
+- Las consultas públicas (`listExamBodies`, `getExamBody`, `listExamTopics`, `premiumInfo`, `examOffer`) usan el cliente anónimo sin cookies (solo leen datos publicados).
+- Portada, catálogo, fichas, test gratis, prueba física y legales son estáticas con `revalidate = 600`. Las fichas se generan en la primera visita (`generateStaticParams` vacío), así el build no depende de la base de datos. Publicar contenido o guardar un producto en /admin las renueva al momento (`revalidatePath("/[locale]", "layout")`).
+- Los psicotécnicos siguen dinámicos (ejercicios nuevos en cada visita, `connection()`), pero ya no consultan la sesión. Entrar, registro y restablecer siguen dinámicos.
+
+**Consecuencias.** Vercel sirve esas páginas desde su caché, sin ejecutar código ni consultar Supabase. Un precio cambiado directamente en la base de datos tarda como mucho 10 minutos en verse. Quien tiene sesión ve un instante el hueco vacío de los botones de la cabecera.

@@ -13,6 +13,10 @@ const DOCS = {
 type DocSlug = keyof typeof DOCS;
 const isDoc = (d: string): d is DocSlug => d in DOCS;
 
+export function generateStaticParams() {
+  return Object.keys(DOCS).map((doc) => ({ doc }));
+}
+
 export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/legal/[doc]">): Promise<Metadata> {

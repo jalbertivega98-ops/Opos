@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Páginas públicas en caché (2026-11-15, rama `claude/project-thread-2rp695`, PERF-004, ADR-060)
+
+- La cabecera mira la sesión en el navegador (`useAuth`); portada, catálogo, fichas, test gratis, prueba física y legales son estáticas (ISR 10 min, se renuevan al publicar en /admin). El catálogo filtra en cliente; sus búsquedas llevan `X-Robots-Tag: noindex` desde el proxy.
+- Pendiente: que joel diga «fusiona»; después, medir en producción (`x-vercel-cache: HIT`).
+
 ### Ficha SEO de prisiones de Cataluña (2026-11-15, rama `claude/project-thread-h5od90`, MKT-012, ADR-059)
 
 - Motivo: «oposiciones prisiones cataluña» ya da impresiones en Google y la ficha no tenía guía (era `noindex`).

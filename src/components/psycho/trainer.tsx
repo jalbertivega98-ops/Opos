@@ -15,12 +15,13 @@ import {
 } from "@/lib/learning/practice/actions";
 import type { Explanation, PublicPsychoItem } from "@/lib/learning/psycho/types";
 import { PsychoStem, useExplain } from "./stem";
+import { useAuth } from "@/components/auth/use-auth";
 import { Token, useTokenText } from "./token";
 
 type Result = { correct: boolean; answerIndex: number; explanation: Explanation };
 
 type Mode =
-  { kind: "demo"; signedIn: boolean } | { kind: "session"; sessionId: string; startAt: number };
+  { kind: "demo" } | { kind: "session"; sessionId: string; startAt: number };
 
 /**
  * Entrenador de psicotécnicos. En modo `demo` corrige sin guardar nada
@@ -28,6 +29,8 @@ type Mode =
  */
 export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode: Mode }) {
   const t = useTranslations("psycho");
+  // Solo cambia el botón final (practicar o crear cuenta); se mira en el navegador.
+  const signedIn = useAuth().status === "user";
   const explain = useExplain();
   const text = useTokenText();
   const router = useRouter();
@@ -104,7 +107,7 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
           <Button variant="outline" onClick={() => router.refresh()}>
             {t("again")}
           </Button>
-          {mode.signedIn ? (
+          {signedIn ? (
             <Button asChild variant="accent">
               <Link href="/app/practica">{t("ctaPractice")}</Link>
             </Button>
@@ -114,7 +117,7 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
             </Button>
           )}
         </div>
-        {!mode.signedIn && <p className="text-muted-foreground text-sm">{t("ctaBody")}</p>}
+        {!signedIn && <p className="text-muted-foreground text-sm">{t("ctaBody")}</p>}
       </Card>
     );
   }

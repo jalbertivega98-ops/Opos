@@ -1,6 +1,6 @@
 import "server-only";
 import { z } from "zod";
-import { createClient } from "@/lib/supabase/server";
+import { createPublicClient } from "@/lib/supabase/public";
 import { sanitizeSearch } from "./search";
 
 export const CATEGORIES = [
@@ -41,7 +41,7 @@ export async function listExamBodies(
   filter: z.infer<typeof catalogFilterSchema> = {},
   limit = 100,
 ) {
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   let query = supabase
     .from("exam_bodies")
     .select(CARD_SELECT)
@@ -60,7 +60,7 @@ export async function listExamBodies(
 
 export async function getExamBody(slug: string) {
   if (!/^[a-z0-9-]{2,80}$/.test(slug)) return null;
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   const { data, error } = await supabase
     .from("exam_bodies")
     .select(
@@ -103,7 +103,7 @@ export const localized = (locale: string, es: string | null, ca: string | null) 
 
 /** Temas públicos de una oposición (tabla de lectura libre), en orden de temario. */
 export async function listExamTopics(examBodyId: string) {
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   const { data, error } = await supabase
     .from("exam_body_topics")
     .select("order_index, topic:topics(slug, title, title_ca)")
