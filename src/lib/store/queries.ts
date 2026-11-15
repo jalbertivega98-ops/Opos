@@ -1,5 +1,6 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
+import { createPublicClient } from "@/lib/supabase/public";
 import { mockFormats } from "@/lib/learning/mock/queries";
 import { planAccess } from "./access";
 
@@ -117,7 +118,7 @@ export async function myLibrary() {
  * publicados de cada oposición, para la portada («desde X € al mes»).
  */
 export async function premiumInfo() {
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   const { data } = await supabase
     .from("products")
     .select("prices:product_prices(amount_cents, billing_interval, active)")
@@ -218,7 +219,7 @@ export async function planAccessWithKinds(
 
 /** Lo que incluye la preparación de una oposición (solo agregados publicados). */
 export async function examOffer(slug: string): Promise<ExamOffer | null> {
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   const { data, error } = await supabase.rpc("exam_offer", { p_exam_slug: slug });
   // Si falla (p. ej. statement_timeout) la ficha sale sin oferta: que quede en los logs.
   if (error) console.error(`exam_offer(${slug}): ${error.code ?? ""} ${error.message}`);

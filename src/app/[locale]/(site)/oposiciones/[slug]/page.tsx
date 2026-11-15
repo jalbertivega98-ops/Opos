@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowRight, ExternalLink } from "lucide-react";
@@ -17,9 +18,19 @@ import { pageMetadata } from "@/lib/seo/site";
 import { examOffer } from "@/lib/store/queries";
 import { ExamOfferSection } from "@/components/store/exam-offer";
 import { billingStatus } from "@/lib/billing/queries";
-import { CheckoutNoticeAlert, parseCheckoutNotice } from "@/components/billing/checkout-notice";
+import { CheckoutNoticeFromUrl } from "@/components/billing/checkout-notice-url";
 import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
 import { ExamVideo } from "@/components/help/exam-video";
+
+/**
+ * Ficha estática (ISR): se genera en la primera visita y se renueva cada 10 minutos
+ * o al publicar contenido. Nada depende de quién mira (ADR-059).
+ */
+export const revalidate = 600;
+
+export function generateStaticParams() {
+  return [];
+}
 
 export async function generateMetadata({
   params,
@@ -41,12 +52,8 @@ export async function generateMetadata({
   });
 }
 
-export default async function ExamPage({
-  params,
-  searchParams,
-}: PageProps<"/[locale]/oposiciones/[slug]">) {
+export default async function ExamPage({ params }: PageProps<"/[locale]/oposiciones/[slug]">) {
   const { locale, slug } = await params;
-  const notice = parseCheckoutNotice((await searchParams).compra);
   setRequestLocale(locale);
   const exam = await getExamBody(slug);
   if (!exam) notFound();
@@ -168,7 +175,9 @@ export default async function ExamPage({
 
       <ExamVideo slug={exam.slug} examName={name} locale={locale} />
 
-      <CheckoutNoticeAlert notice={notice} />
+      <Suspense fallback={null}>
+        <CheckoutNoticeFromUrl />
+      </Suspense>
       {guide ? (
         <ExamGuideSection guide={guide} locale={locale} topics={topics} offer={offerSection} />
       ) : (

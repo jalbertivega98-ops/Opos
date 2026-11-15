@@ -25,8 +25,10 @@ import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
 import { HeroTestPicker } from "@/components/landing/hero-test-picker";
 import { HelpVideosSection } from "@/components/help/help-videos-section";
-import { VisitorTour, VisitorTourLauncher } from "@/components/landing/visitor-tour";
-import { getSession } from "@/lib/auth/session";
+import { Suspense } from "react";
+import { VisitorTourLauncher } from "@/components/landing/visitor-tour";
+import { DeletedAccountNotice, VisitorTourGate } from "@/components/landing/visitor-gate";
+import { AnonOnly } from "@/components/header-account";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies, localized } from "@/lib/catalog/queries";
 import { billingStatus } from "@/lib/billing/queries";
@@ -61,17 +63,15 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
   });
 }
 
-export default async function Landing({ params, searchParams }: PageProps<"/[locale]">) {
+/** Portada estática: se regenera como mucho cada 10 minutos o al publicar contenido (ADR-059). */
+export const revalidate = 600;
+
+export default async function Landing({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
-  const { cuenta, guia } = await searchParams;
   setRequestLocale(locale);
   const t = await getTranslations("landing");
   const tNotice = await getTranslations("landingNotice");
-  const [allExams, premium, session] = await Promise.all([
-    listExamBodies({}, 100),
-    premiumInfo(),
-    getSession(),
-  ]);
+  const [allExams, premium] = await Promise.all([listExamBodies({}, 100), premiumInfo()]);
   const exams = allExams.slice(0, 6);
   // Oposiciones con test gratis sin registro (ADR-041): la mejor puerta de entrada.
   const testable = allExams.filter((e) => e.availability === "available");
@@ -90,15 +90,10 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
           faqLd(faqItems),
         ]}
       />
-      {!session.user && <VisitorTour force={guia === "1"} />}
-      {cuenta === "eliminada" && (
-        <div
-          role="status"
-          className="bg-accent-soft border-border border-b px-4 py-3 text-center text-sm"
-        >
-          {tNotice("deleted")}
-        </div>
-      )}
+      <Suspense fallback={null}>
+        <VisitorTourGate />
+        <DeletedAccountNotice>{tNotice("deleted")}</DeletedAccountNotice>
+      </Suspense>
 
       {/* 1 · Hero: qué es, para quién y acción principal + muestra del entrenamiento */}
       <section className="bg-surface bg-grid border-border relative overflow-hidden border-b">
@@ -137,11 +132,11 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                 {t("demoCta")}
               </Link>
             </div>
-            {!session.user && (
+            <AnonOnly>
               <p className="mt-3">
                 <VisitorTourLauncher />
               </p>
-            )}
+            </AnonOnly>
             <ul className="text-muted-foreground mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">
               {(t.raw("trustItems") as string[]).map((item) => (
                 <li key={item} className="flex items-center gap-1.5">

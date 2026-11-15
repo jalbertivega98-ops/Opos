@@ -12,6 +12,13 @@ import { JsonLd, quizLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
 import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
 
+/** Página estática (ISR): se genera en la primera visita y se renueva cada 10 minutos (ADR-059). */
+export const revalidate = 600;
+
+export function generateStaticParams() {
+  return [];
+}
+
 /**
  * Test gratis sin registro de una oposición (ADR-041): preguntas publicadas de sus
  * temas gratis, corregidas de una en una y sin guardar nada. Pensada para quien

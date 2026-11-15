@@ -3,14 +3,15 @@ import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/logo";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { ThemeToggle } from "@/components/theme-provider";
-import { Button } from "@/components/ui/button";
-import { DesktopNavLinks, MobileMenu } from "@/components/mobile-menu";
-import { getSession, isAdminRole } from "@/lib/auth/session";
-import { signOutAction } from "@/lib/auth/actions";
+import { DesktopNavLinks } from "@/components/mobile-menu";
+import { HeaderAccount } from "@/components/header-account";
 
+/**
+ * Cabecera común. No lee la sesión en el servidor (la mira `HeaderAccount` en el
+ * navegador): así portada, catálogo, fichas y legales se sirven en caché (ADR-059).
+ */
 export async function SiteHeader() {
   const t = await getTranslations("nav");
-  const { user, profile } = await getSession();
   const links = [
     { href: "/oposiciones", label: t("catalog") },
     { href: "/psicotecnicos", label: t("psycho") },
@@ -35,64 +36,18 @@ export async function SiteHeader() {
             <LocaleSwitcher label={t("language")} />
           </div>
           <ThemeToggle label={t("theme")} />
-          {user ? (
-            <>
-              {profile && isAdminRole(profile.role) && (
-                <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
-                  <Link href="/admin">{t("admin")}</Link>
-                </Button>
-              )}
-              <Button asChild size="sm">
-                <Link href="/app">{t("dashboard")}</Link>
-              </Button>
-              <form action={signOutAction} className="hidden sm:block">
-                <Button variant="ghost" size="sm" type="submit">
-                  {t("signOut")}
-                </Button>
-              </form>
-            </>
-          ) : (
-            <>
-              <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
-                <Link href="/entrar">{t("signIn")}</Link>
-              </Button>
-              <Button asChild variant="accent" size="sm">
-                <Link href="/registro">{t("signUp")}</Link>
-              </Button>
-            </>
-          )}
-          <MobileMenu
-            label={t("menu")}
-            closeLabel={t("closeMenu")}
-            links={
-              user && profile && isAdminRole(profile.role)
-                ? [...links, { href: "/admin", label: t("admin") }]
-                : links
-            }
-            footer={
-              <>
-                {user ? (
-                  <form action={signOutAction}>
-                    <button
-                      type="submit"
-                      className="hover:bg-surface active:bg-surface block w-full rounded-md px-3 py-2 text-left transition-colors"
-                    >
-                      {t("signOut")}
-                    </button>
-                  </form>
-                ) : (
-                  <Link
-                    href="/entrar"
-                    className="hover:bg-surface active:bg-surface block rounded-md px-3 py-2 transition-colors"
-                  >
-                    {t("signIn")}
-                  </Link>
-                )}
-                <div className="px-3 py-2">
-                  <LocaleSwitcher label={t("language")} />
-                </div>
-              </>
-            }
+          <HeaderAccount
+            links={links}
+            labels={{
+              admin: t("admin"),
+              dashboard: t("dashboard"),
+              signOut: t("signOut"),
+              signIn: t("signIn"),
+              signUp: t("signUp"),
+              menu: t("menu"),
+              closeMenu: t("closeMenu"),
+              language: t("language"),
+            }}
           />
         </div>
       </div>

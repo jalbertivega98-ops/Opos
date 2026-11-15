@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { connection } from "next/server";
 import { randomInt } from "node:crypto";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -7,7 +8,6 @@ import { Link } from "@/i18n/navigation";
 import { PsychoTrainer } from "@/components/psycho/trainer";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { FaqList } from "@/components/seo/faq-list";
-import { getSession } from "@/lib/auth/session";
 import { availableTypes, difficultyPlan, generateItem } from "@/lib/learning/psycho/registry";
 import { toPublicItem, type Difficulty } from "@/lib/learning/psycho/types";
 import { WorkedExamples } from "@/components/psycho/worked-examples";
@@ -53,7 +53,8 @@ export default async function PsychoTypePage({
   const t = await getTranslations("seo.psychoType");
   const tSeo = await getTranslations("seo");
   const tp = await getTranslations("psycho");
-  const { user } = await getSession();
+  // Ejercicios nuevos en cada visita: la página no se guarda en caché.
+  await connection();
 
   const items = difficultyPlan(DEMO_SIZE).map((d) =>
     toPublicItem(generateItem(g.type, randomInt(0, 2 ** 32), d)),
@@ -107,7 +108,7 @@ export default async function PsychoTypePage({
         </h2>
         <p className="text-muted-foreground mt-1 text-sm">{t("practiceNote")}</p>
         <div className="mt-6">
-          <PsychoTrainer key={g.type} items={items} mode={{ kind: "demo", signedIn: !!user }} />
+          <PsychoTrainer key={g.type} items={items} mode={{ kind: "demo" }} />
         </div>
       </section>
 

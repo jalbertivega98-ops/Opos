@@ -4,7 +4,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { PsychoTrainer } from "@/components/psycho/trainer";
-import { getSession } from "@/lib/auth/session";
 import { availableTypes, difficultyPlan, generateItem } from "@/lib/learning/psycho/registry";
 import { toPublicItem, type PsychoType } from "@/lib/learning/psycho/types";
 import { psychoGuideByType, tr } from "@/lib/seo/psycho-guides";
@@ -45,7 +44,6 @@ export default async function PsychoDemoPage({
   const { tipo } = await searchParams;
   const t = await getTranslations("psycho");
   const ts = await getTranslations("seo.psychoType");
-  const { user } = await getSession();
   const types = availableTypes();
   const type: PsychoType = types.includes(tipo as PsychoType) ? (tipo as PsychoType) : "series";
 
@@ -75,7 +73,7 @@ export default async function PsychoDemoPage({
         </nav>
       )}
       <div className="mt-8">
-        <PsychoTrainer key={type} items={items} mode={{ kind: "demo", signedIn: !!user }} />
+        <PsychoTrainer key={type} items={items} mode={{ kind: "demo" }} />
       </div>
 
       {/* Guías por tipo: contenido rastreable y enlaces internos (ADR-025). */}

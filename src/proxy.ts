@@ -28,6 +28,14 @@ export async function proxy(request: NextRequest, event: NextFetchEvent) {
   }
   const response = intl(request);
   if (process.env.PREVIEW_PASSWORD) response.headers.set("X-Robots-Tag", "noindex, nofollow");
+  // El catálogo es estático y filtra en el navegador: sus búsquedas no se indexan (ADR-059).
+  const sp = request.nextUrl.searchParams;
+  if (
+    /^(\/ca)?\/oposiciones$/.test(request.nextUrl.pathname) &&
+    (sp.has("q") || sp.has("category"))
+  ) {
+    response.headers.set("X-Robots-Tag", "noindex, follow");
+  }
   // Si next-intl redirige (p. ej. normalización de idioma), no hace falta más.
   if (response.headers.get("location")) return response;
 

@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### Páginas públicas en caché (2026-11-15, rama `claude/project-thread-2rp695`, PERF-004, ADR-059)
+
+- La cabecera mira la sesión en el navegador (`useAuth`); portada, catálogo, fichas, test gratis, prueba física y legales son estáticas (ISR 10 min, se renuevan al publicar en /admin). El catálogo filtra en cliente; sus búsquedas llevan `X-Robots-Tag: noindex` desde el proxy.
+- Pendiente: que joel diga «fusiona»; después, medir en producción (`x-vercel-cache: HIT`).
+
 ### Menú móvil que se cierra solo (2026-11-15, rama `claude/project-thread-4ym1o3`, UX-005, ADR-058)
 
 - Motivo: el menú de la cabecera en móvil (`<details>`) seguía abierto tras pulsar una opción y no marcaba nada.
