@@ -25,6 +25,8 @@ import { ExamCard } from "@/components/exam-card";
 import { ExerciseSample } from "@/components/landing/exercise-sample";
 import { HeroTestPicker } from "@/components/landing/hero-test-picker";
 import { HelpVideosSection } from "@/components/help/help-videos-section";
+import { VisitorTour, VisitorTourLauncher } from "@/components/landing/visitor-tour";
+import { getSession } from "@/lib/auth/session";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
 import { listExamBodies, localized } from "@/lib/catalog/queries";
 import { billingStatus } from "@/lib/billing/queries";
@@ -61,11 +63,15 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
 
 export default async function Landing({ params, searchParams }: PageProps<"/[locale]">) {
   const { locale } = await params;
-  const { cuenta } = await searchParams;
+  const { cuenta, guia } = await searchParams;
   setRequestLocale(locale);
   const t = await getTranslations("landing");
   const tNotice = await getTranslations("landingNotice");
-  const [allExams, premium] = await Promise.all([listExamBodies({}, 100), premiumInfo()]);
+  const [allExams, premium, session] = await Promise.all([
+    listExamBodies({}, 100),
+    premiumInfo(),
+    getSession(),
+  ]);
   const exams = allExams.slice(0, 6);
   // Oposiciones con test gratis sin registro (ADR-041): la mejor puerta de entrada.
   const testable = allExams.filter((e) => e.availability === "available");
@@ -84,6 +90,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
           faqLd(faqItems),
         ]}
       />
+      {!session.user && <VisitorTour force={guia === "1"} />}
       {cuenta === "eliminada" && (
         <div
           role="status"
@@ -118,7 +125,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
 
             <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
               <Button asChild variant={testable.length > 0 ? "outline" : "accent"} size="lg">
-                <Link href="/registro" data-testid="hero-signup">
+                <Link href="/registro" data-testid="hero-signup" data-tour="v-signup">
                   {t("ctaPrimary")}
                   <ArrowRight aria-hidden />
                 </Link>
@@ -130,6 +137,11 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
                 {t("demoCta")}
               </Link>
             </div>
+            {!session.user && (
+              <p className="mt-3">
+                <VisitorTourLauncher />
+              </p>
+            )}
             <ul className="text-muted-foreground mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">
               {(t.raw("trustItems") as string[]).map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
@@ -142,6 +154,7 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
             <form
               action={`${locale === "es" ? "" : `/${locale}`}/oposiciones`}
               role="search"
+              data-tour="v-search"
               className="mt-6 max-w-xl"
             >
               <label htmlFor="hero-search" className="text-sm font-semibold">
@@ -188,14 +201,16 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
 
       {/* 2 · Cómo funciona: tres pasos */}
       <Section id="como-funciona" className="scroll-mt-20" aria-labelledby="steps-title">
-        <Reveal effect="blur">
-          <SectionHeader
-            id="steps-title"
-            eyebrow={t("stepsEyebrow")}
-            title={t("stepsTitle")}
-            description={t("stepsSubtitle")}
-          />
-        </Reveal>
+        <div data-tour="v-how">
+          <Reveal effect="blur">
+            <SectionHeader
+              id="steps-title"
+              eyebrow={t("stepsEyebrow")}
+              title={t("stepsTitle")}
+              description={t("stepsSubtitle")}
+            />
+          </Reveal>
+        </div>
         <ol className="mt-10 grid gap-6 md:grid-cols-3">
           {STEPS.map(({ key, icon }, i) => (
             <Reveal as="li" key={key} effect="up" delay={i * 150} className="relative">
@@ -397,13 +412,15 @@ export default async function Landing({ params, searchParams }: PageProps<"/[loc
 
       {/* 6 · Precios */}
       <Section tone="surface" id="precios" className="scroll-mt-20" aria-labelledby="pricing-title">
-        <SectionHeader
-          id="pricing-title"
-          align="center"
-          eyebrow={t("pricingEyebrow")}
-          title={t("pricingTitle")}
-          description={t("pricingSubtitle")}
-        />
+        <div data-tour="v-pricing">
+          <SectionHeader
+            id="pricing-title"
+            align="center"
+            eyebrow={t("pricingEyebrow")}
+            title={t("pricingTitle")}
+            description={t("pricingSubtitle")}
+          />
+        </div>
         <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
           {(["free", "premium"] as const).map((plan) => (
             <Reveal

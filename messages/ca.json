@@ -1984,5 +1984,56 @@
     "examVideoTitle": "La teva oposició en mig minut",
     "examVideoBody": "L'essencial de l'examen de {exam} (preguntes, temps i penalització, segons les bases oficials) i el que tens a OPOSAPRUEBA per preparar-lo.",
     "examVideoCaption": "Així és l'examen de {exam}"
+  },
+  "visitorTour": {
+    "launch": "És la primera vegada que hi entres? Mira la guia ràpida (1 minut)",
+    "finish": "Entesos",
+    "startTest": "O comença ja: fes un test gratis →",
+    "steps": {
+      "welcome": {
+        "title": "Et donem la benvinguda a OPOSAPRUEBA",
+        "body": "T’ensenyem en un minut per on començar. Prem «Comença» i ves pas a pas; pots tancar la guia quan vulguis."
+      },
+      "test": {
+        "title": "1. Comença aquí: un test gratis",
+        "body": "Tria la teva oposició a la llista i prem «Comença el test gratis». No cal registrar-se: respons i de seguida veus si l’encertes, amb l’explicació. Prova-ho ara o prem «Següent»."
+      },
+      "search": {
+        "title": "2. No hi veus la teva?",
+        "body": "Escriu aquí el nom de la teva oposició (per exemple, «auxiliar» o «policia») i veuràs el temari, com és l’examen i els requisits."
+      },
+      "how": {
+        "title": "3. Com funciona",
+        "body": "Aquí t’expliquem el mètode en tres passos i tens vídeos de menys de mig minut que resolen els dubtes més habituals."
+      },
+      "pricing": {
+        "title": "4. Gratis per començar",
+        "body": "Amb el compte gratis tens el test dels 3 primers temes de cada oposició, les fitxes, el pla d’estudi, psicotècnics de pràctica i el teu primer simulacre. Premium, només si en vols més."
+      },
+      "signup": {
+        "title": "5. Crea el teu compte gratis",
+        "body": "Per desar el teu progrés i tenir el pla setmanal, prem «Crea un compte gratis». Es fa en menys d’un minut, també amb Google."
+      }
+    }
+  },
+  "testGuide": {
+    "stepOf": "Guia ràpida · {n} de {total}",
+    "hide": "Amaga la guia",
+    "answer": {
+      "title": "Prem la resposta que creguis correcta",
+      "body": "Llegeix la pregunta amb calma i tria una opció. No cal registrar-se."
+    },
+    "feedback": {
+      "title": "Així es corregeix",
+      "body": "En verd, la resposta correcta; en vermell, la teva si has fallat. A sota tens l’explicació i la referència a la norma. Prem «Següent» per continuar."
+    },
+    "keepGoing": {
+      "title": "Continua fins al final",
+      "body": "En acabar veuràs la teva nota i podràs repassar les preguntes que hagis fallat."
+    },
+    "finish": {
+      "title": "I ara què?",
+      "body": "Crea el teu compte gratis per desar la nota, continuar amb el test dels 3 primers temes i tenir el teu pla d’estudi."
+    }
   }
 }
