@@ -10,7 +10,7 @@ import {
 import { pageMetadata } from "@/lib/seo/site";
 import { CATEGORIES, listExamBodies } from "@/lib/catalog/queries";
 
-/** Catálogo estático; las búsquedas (`?q=`, `?category=`) se filtran en el navegador (ADR-059). */
+/** Catálogo estático; las búsquedas (`?q=`, `?category=`) se filtran en el navegador (ADR-060). */
 export const revalidate = 600;
 
 export async function generateMetadata({

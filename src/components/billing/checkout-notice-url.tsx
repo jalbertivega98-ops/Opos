@@ -7,7 +7,7 @@ import { CHECKOUT_NOTICES, parseCheckoutNotice } from "./checkout-notices";
 
 /**
  * Aviso de compra leído de `?compra=` en el navegador, para páginas estáticas
- * como la ficha de oposición (ADR-059). Debe ir dentro de `<Suspense>`.
+ * como la ficha de oposición (ADR-060). Debe ir dentro de `<Suspense>`.
  */
 export function CheckoutNoticeFromUrl() {
   const t = useTranslations("billing.notices");

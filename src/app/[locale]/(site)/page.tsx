@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]">): Prom
   });
 }
 
-/** Portada estática: se regenera como mucho cada 10 minutos o al publicar contenido (ADR-059). */
+/** Portada estática: se regenera como mucho cada 10 minutos o al publicar contenido (ADR-060). */
 export const revalidate = 600;
 
 export default async function Landing({ params }: PageProps<"/[locale]">) {

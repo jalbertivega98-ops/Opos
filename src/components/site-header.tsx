@@ -8,7 +8,7 @@ import { HeaderAccount } from "@/components/header-account";
 
 /**
  * Cabecera común. No lee la sesión en el servidor (la mira `HeaderAccount` en el
- * navegador): así portada, catálogo, fichas y legales se sirven en caché (ADR-059).
+ * navegador): así portada, catálogo, fichas y legales se sirven en caché (ADR-060).
  */
 export async function SiteHeader() {
   const t = await getTranslations("nav");

@@ -24,7 +24,7 @@ import { ExamVideo } from "@/components/help/exam-video";
 
 /**
  * Ficha estática (ISR): se genera en la primera visita y se renueva cada 10 minutos
- * o al publicar contenido. Nada depende de quién mira (ADR-059).
+ * o al publicar contenido. Nada depende de quién mira (ADR-060).
  */
 export const revalidate = 600;
 

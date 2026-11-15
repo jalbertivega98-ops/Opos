@@ -54,7 +54,7 @@ export async function saveProductAction(_: StoreState, formData: FormData): Prom
     }
   }
   revalidatePath("/[locale]/admin/productos", "layout");
-  // Precios y «Qué incluye» de las fichas y la portada, que son estáticas (ADR-059).
+  // Precios y «Qué incluye» de las fichas y la portada, que son estáticas (ADR-060).
   revalidatePath("/[locale]", "layout");
   const locale = await getLocale();
   redirect({ href: `/admin/productos/${productId}?saved=1`, locale });

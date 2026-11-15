@@ -7,7 +7,7 @@ import { VisitorTour } from "@/components/landing/visitor-tour";
 
 /**
  * Partes de la portada que dependen de quién mira o de la URL, resueltas en el
- * navegador para que la portada se sirva en caché (ADR-059). Van dentro de
+ * navegador para que la portada se sirva en caché (ADR-060). Van dentro de
  * `<Suspense>` porque leen `useSearchParams`.
  */
 export function VisitorTourGate() {

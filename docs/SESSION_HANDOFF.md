@@ -4,10 +4,16 @@
 
 ## Estado exacto
 
-### Páginas públicas en caché (2026-11-15, rama `claude/project-thread-2rp695`, PERF-004, ADR-059)
+### Páginas públicas en caché (2026-11-15, rama `claude/project-thread-2rp695`, PERF-004, ADR-060)
 
 - La cabecera mira la sesión en el navegador (`useAuth`); portada, catálogo, fichas, test gratis, prueba física y legales son estáticas (ISR 10 min, se renuevan al publicar en /admin). El catálogo filtra en cliente; sus búsquedas llevan `X-Robots-Tag: noindex` desde el proxy.
 - Pendiente: que joel diga «fusiona»; después, medir en producción (`x-vercel-cache: HIT`).
+
+### Ficha SEO de prisiones de Cataluña (2026-11-15, rama `claude/project-thread-h5od90`, MKT-012, ADR-059)
+
+- Motivo: «oposiciones prisiones cataluña» ya da impresiones en Google y la ficha no tenía guía (era `noindex`).
+- Hecho: guía en `exam-guides.ts` con datos oficiales (JU033, oferta 2026, pruebas, calendario, FAQ, fuentes). Sin SQL.
+- Pendiente: «fusiona» de joel; después pedir indexación de `/oposiciones/serveis-penitenciaris-catalunya` en Search Console.
 
 ### Menú móvil que se cierra solo (2026-11-15, rama `claude/project-thread-4ym1o3`, UX-005, ADR-058)
 
@@ -32,6 +38,7 @@
 - joel eligió la opción A (solo Premium gratis, sin comisión). Plan y mensajes tipo en el Claude Doc «Programa de embajadoras OPOSAPRUEBA».
 - Hecho: enlace `/r/<código>` → registro con el código puesto (sin cookies), campo «Código de invitación», atribución con correo y Google, `/admin/embajadoras` con visitas, registros y altas de pago. Migración `20261113000100`, preview `90-`.
 - Pendiente: que joel diga «fusiona»; después, dar de alta a cada embajadora que acepte y regalarle el Premium (90 días). Los mensajes los envía el hilo de Instagram con aprobación de joel.
+
 ### Tutorial de bienvenida y vídeos de ayuda (2026-11-13, rama `claude/project-thread-r5htw7`, UX-003, ADR-055)
 
 - Tutorial de 8 pasos en Mi panel solo la primera vez (`profiles.tour_completed_at`, `complete_welcome_tour()`; migración `20261113000200`, preview `91-`). Se repite desde Mi perfil (`/app?tutorial=1`).

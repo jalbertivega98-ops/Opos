@@ -26,7 +26,7 @@ function useHome() {
 
 /**
  * Botones de cuenta y menú móvil de la cabecera. La sesión se mira en el
- * navegador para que la cabecera no haga dinámicas las páginas públicas (ADR-059).
+ * navegador para que la cabecera no haga dinámicas las páginas públicas (ADR-060).
  * Mientras no se sabe, se reserva el hueco de «Entrar / Crear cuenta» sin mostrarlo.
  */
 export function HeaderAccount({ labels, links }: { labels: Labels; links: MenuLink[] }) {

@@ -12,7 +12,7 @@ import { JsonLd, quizLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
 import { examSampleQuestions, SAMPLE_MIN } from "@/lib/learning/sample/queries";
 
-/** Página estática (ISR): se genera en la primera visita y se renueva cada 10 minutos (ADR-059). */
+/** Página estática (ISR): se genera en la primera visita y se renueva cada 10 minutos (ADR-060). */
 export const revalidate = 600;
 
 export function generateStaticParams() {

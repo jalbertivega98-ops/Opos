@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { confirmEmail, newEmail, signUp } from "./helpers";
 
-// Las páginas públicas son estáticas y la cabecera mira la sesión en el navegador (ADR-059).
+// Las páginas públicas son estáticas y la cabecera mira la sesión en el navegador (ADR-060).
 test("la cabecera de una página estática reconoce la sesión y «Cerrar sesión» la cierra", async ({
   page,
 }) => {

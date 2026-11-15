@@ -28,7 +28,7 @@ export async function proxy(request: NextRequest, event: NextFetchEvent) {
   }
   const response = intl(request);
   if (process.env.PREVIEW_PASSWORD) response.headers.set("X-Robots-Tag", "noindex, nofollow");
-  // El catálogo es estático y filtra en el navegador: sus búsquedas no se indexan (ADR-059).
+  // El catálogo es estático y filtra en el navegador: sus búsquedas no se indexan (ADR-060).
   const sp = request.nextUrl.searchParams;
   if (
     /^(\/ca)?\/oposiciones$/.test(request.nextUrl.pathname) &&

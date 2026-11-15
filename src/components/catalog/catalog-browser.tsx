@@ -27,7 +27,7 @@ function cleanQuery(q: string) {
 /**
  * Buscador y filtro del catálogo. Recibe todas las fichas ya pintadas en el servidor
  * y filtra en el navegador según `?q=` y `?category=`: la página es estática y se
- * sirve en caché (ADR-059). Sin JavaScript se ve el catálogo completo.
+ * sirve en caché (ADR-060). Sin JavaScript se ve el catálogo completo.
  */
 export function CatalogBrowser({
   items,

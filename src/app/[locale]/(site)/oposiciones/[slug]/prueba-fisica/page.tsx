@@ -16,7 +16,7 @@ import { pageMetadata } from "@/lib/seo/site";
  * Guía de la prueba física de una oposición (ADR-052): ejercicios, normas y
  * baremos de las bases oficiales, con una calculadora orientativa de la nota.
  */
-/** Página estática (ISR): se genera en la primera visita y se renueva cada 10 minutos (ADR-059). */
+/** Página estática (ISR): se genera en la primera visita y se renueva cada 10 minutos (ADR-060). */
 export const revalidate = 600;
 
 export function generateStaticParams() {

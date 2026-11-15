@@ -8,7 +8,7 @@ import { createClient } from "@/lib/supabase/client";
 /**
  * Estado de sesión en el navegador, solo para la interfaz pública (cabecera,
  * «Entrar» o «Mi panel», guía del visitante). Así las páginas públicas no leen
- * cookies en el servidor y se pueden servir en caché (ADR-059). Nunca decide
+ * cookies en el servidor y se pueden servir en caché (ADR-060). Nunca decide
  * permisos: los datos siguen protegidos por RLS y `requireUser` en servidor.
  */
 export type AuthState = { status: "unknown" | "anon" | "user"; isAdmin: boolean };
