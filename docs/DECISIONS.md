@@ -513,3 +513,8 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Consecuencias.** Sin cambios de base de datos. Nueva clave `nav.closeMenu` (es/ca). E2E móvil en `public.spec.ts`.
 
+## ADR-059 · Ficha SEO de prisiones de Cataluña (2026-11-15)
+
+- **Contexto:** Search Console (datos hasta el 12/11) ya muestra impresiones para «oposiciones prisiones cataluña» (posición 63), pero `serveis-penitenciaris-catalunya` no tenía guía en `exam-guides.ts`: la ficha quedaba sin contenido propio y, al estar «próximamente», en `noindex`.
+- **Decisión:** añadir su guía con datos de `docs/research/prisiones-catalunya-programa.md` (consultado el 05/11/2026): JU033, oferta de 2026 (133 plazas), formato de las pruebas, pruebas físicas, calendario, FAQ (no es Ayudantes del Estado, examen en catalán, sin psicotécnico puntuable) y fuentes del DOGC. Sin psicotécnicos relacionados.
+- **Consecuencias:** la ficha pasa a ser indexable (`isExamIndexable`), entra en el pie y en el sitemap, y suma una búsqueda con demanda real. Cuando salga la convocatoria de la oferta de 2026 hay que actualizar plazas, calendario y `verifiedOn`.
