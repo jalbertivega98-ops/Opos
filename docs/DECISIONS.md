@@ -519,7 +519,6 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - **Decisión:** añadir su guía con datos de `docs/research/prisiones-catalunya-programa.md` (consultado el 05/11/2026): JU033, oferta de 2026 (133 plazas), formato de las pruebas, pruebas físicas, calendario, FAQ (no es Ayudantes del Estado, examen en catalán, sin psicotécnico puntuable) y fuentes del DOGC. Sin psicotécnicos relacionados.
 - **Consecuencias:** la ficha pasa a ser indexable (`isExamIndexable`), entra en el pie y en el sitemap, y suma una búsqueda con demanda real. Cuando salga la convocatoria de la oferta de 2026 hay que actualizar plazas, calendario y `verifiedOn`.
 
-
 ## ADR-060 · Páginas públicas estáticas: la sesión se mira en el navegador (2026-11-15)
 
 **Contexto.** Tras ADR-053 las páginas tardaban 0,3-0,6 s, pero todas las públicas se generaban de nuevo en cada visita: la cabecera leía la sesión con cookies en el servidor (`getSession`), y la portada, el catálogo y la ficha leían además `searchParams`. Nada de su contenido depende de quién mira.
@@ -533,3 +532,9 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Los psicotécnicos siguen dinámicos (ejercicios nuevos en cada visita, `connection()`), pero ya no consultan la sesión. Entrar, registro y restablecer siguen dinámicos.
 
 **Consecuencias.** Vercel sirve esas páginas desde su caché, sin ejecutar código ni consultar Supabase. Un precio cambiado directamente en la base de datos tarda como mucho 10 minutos en verse. Quien tiene sesión ve un instante el hueco vacío de los botones de la cabecera.
+
+## ADR-060 · Favicon para Google: favicon.ico, icono de Apple y PNG del manifiesto (2026-11-16)
+
+- **Contexto:** en los resultados de Google, OPOSAPRUEBA salía con la bola del mundo genérica. La web solo tenía `icon.svg`: no había `/favicon.ico` (daba 404) ni versiones en PNG.
+- **Decisión:** generar desde el mismo `icon.svg` un `src/app/favicon.ico` (16, 32 y 48 px, tamaño múltiplo de 48 como pide Google), `src/app/apple-icon.png` (180 px) y `public/icon-192.png` y `icon-512.png` para el manifiesto. Next añade los `<link rel="icon">` solo.
+- **Consecuencias:** Google necesita volver a rastrear la portada para cambiar el icono (de días a semanas). Se puede acelerar pidiendo «Solicitar indexación» de la portada en Search Console.
