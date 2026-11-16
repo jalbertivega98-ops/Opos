@@ -4,6 +4,11 @@
 
 ## Estado exacto
 
+### «Cómo funciona» más visual + «Ver la guía» (2026-11-16, rama `claude/project-thread-342srd`, UX-006, ADR-062)
+
+- Hecho: pasos que avanzan solos con capturas reales en un móvil, botón «Ver la guía paso a paso» (solo sin sesión), guía que se abre sin bienvenida desde el botón, paso «Cómo funciona» interactivo y flechas ← →. Sin SQL.
+- Pendiente: que joel lo vea en la preview y diga «fusiona».
+
 ### Páginas públicas en caché (2026-11-15, rama `claude/project-thread-2rp695`, PERF-004, ADR-060)
 
 - La cabecera mira la sesión en el navegador (`useAuth`); portada, catálogo, fichas, test gratis, prueba física y legales son estáticas (ISR 10 min, se renuevan al publicar en /admin). El catálogo filtra en cliente; sus búsquedas llevan `X-Robots-Tag: noindex` desde el proxy.

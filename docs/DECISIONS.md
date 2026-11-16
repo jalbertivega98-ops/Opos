@@ -519,7 +519,6 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - **Decisión:** añadir su guía con datos de `docs/research/prisiones-catalunya-programa.md` (consultado el 05/11/2026): JU033, oferta de 2026 (133 plazas), formato de las pruebas, pruebas físicas, calendario, FAQ (no es Ayudantes del Estado, examen en catalán, sin psicotécnico puntuable) y fuentes del DOGC. Sin psicotécnicos relacionados.
 - **Consecuencias:** la ficha pasa a ser indexable (`isExamIndexable`), entra en el pie y en el sitemap, y suma una búsqueda con demanda real. Cuando salga la convocatoria de la oferta de 2026 hay que actualizar plazas, calendario y `verifiedOn`.
 
-
 ## ADR-060 · Páginas públicas estáticas: la sesión se mira en el navegador (2026-11-15)
 
 **Contexto.** Tras ADR-053 las páginas tardaban 0,3-0,6 s, pero todas las públicas se generaban de nuevo en cada visita: la cabecera leía la sesión con cookies en el servidor (`getSession`), y la portada, el catálogo y la ficha leían además `searchParams`. Nada de su contenido depende de quién mira.
@@ -533,3 +532,11 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Los psicotécnicos siguen dinámicos (ejercicios nuevos en cada visita, `connection()`), pero ya no consultan la sesión. Entrar, registro y restablecer siguen dinámicos.
 
 **Consecuencias.** Vercel sirve esas páginas desde su caché, sin ejecutar código ni consultar Supabase. Un precio cambiado directamente en la base de datos tarda como mucho 10 minutos en verse. Quien tiene sesión ve un instante el hueco vacío de los botones de la cabecera.
+
+## ADR-062 · «Cómo funciona» con capturas reales y botón «Ver la guía» (2026-11-16)
+
+- **Contexto:** joel quería que «Cómo funciona» de la portada fuera más dinámica y visual, y que diera la opción de ver la guía. Eran tres textos con icono.
+- **Decisión:** `HowItWorksShowcase`: los tres pasos son pestañas que avanzan solas cada 5,5 s mientras la sección está a la vista (barra de tiempo), con la captura real de la web de cada paso dentro de un móvil (catálogo, plan semanal, pregunta corregida), un toque animado donde pulsaría el alumno y una etiqueta flotante. Pulsar un paso lo fija; flechas del teclado; con «reducir movimiento» no avanza ni anima. Para visitantes sin sesión, botón «Ver la guía paso a paso» que abre la guía de ADR-057.
+- **Guía:** abierta a propósito empieza en el primer paso útil (sin la bienvenida); el paso «Cómo funciona» es interactivo (se pueden tocar los pasos con la guía abierta); → y ← avanzan y vuelven.
+- **Capturas:** `public/como-funciona/paso-{1,2,3}.webp` (660 px, ~45 KB cada una, carga diferida con `next/image`), hechas con la pila local y el contenido de `supabase/preview`, móvil 390×800. Si cambia mucho la interfaz, rehacerlas igual.
+- **Consecuencias:** sin SQL ni dependencias nuevas; la portada sigue estática (ADR-060).

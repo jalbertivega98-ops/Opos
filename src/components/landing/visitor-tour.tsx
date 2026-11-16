@@ -19,7 +19,7 @@ export const VISITOR_TOUR_STEPS: readonly SpotlightStep[] = [
   { key: "welcome", target: null },
   { key: "test", target: "v-test", interactive: true },
   { key: "search", target: "v-search" },
-  { key: "how", target: "v-how" },
+  { key: "how", target: "v-how", interactive: true },
   { key: "pricing", target: "v-pricing" },
   { key: "signup", target: "v-signup", interactive: true },
 ];
@@ -50,11 +50,17 @@ function markDone() {
 export function VisitorTour({ force = false }: { force?: boolean }) {
   const t = useTranslations("visitorTour");
   const [open, setOpen] = useState(false);
+  // Abierta a propósito (botón «Ver la guía»): sin la bienvenida, directa al primer paso.
+  const [fromButton, setFromButton] = useState(false);
 
   useEffect(() => {
-    const show = () => setOpen(true);
+    const show = (e: Event) => {
+      setFromButton(e.type === OPEN_EVENT);
+      setOpen(true);
+    };
     window.addEventListener(OPEN_EVENT, show);
-    const id = force || !readDone() ? window.setTimeout(show, 700) : undefined;
+    const id =
+      force || !readDone() ? window.setTimeout(() => show(new Event("auto")), 700) : undefined;
     return () => {
       window.removeEventListener(OPEN_EVENT, show);
       if (id) window.clearTimeout(id);
@@ -92,6 +98,7 @@ export function VisitorTour({ force = false }: { force?: boolean }) {
       finishLabel={t("finish")}
       scrollBlock="center"
       testId="visitor-tour"
+      initialStep={fromButton ? 1 : 0}
       lastExtra={
         hasTest && (
           <p className="mt-3 text-sm">
@@ -110,13 +117,18 @@ export function VisitorTour({ force = false }: { force?: boolean }) {
   );
 }
 
+/** Abre la guía de la portada desde cualquier botón (p. ej. «Ver la guía» de «Cómo funciona»). */
+export function openVisitorTour() {
+  window.dispatchEvent(new Event(OPEN_EVENT));
+}
+
 /** Botón discreto de la portada para volver a abrir la guía. */
 export function VisitorTourLauncher() {
   const t = useTranslations("visitorTour");
   return (
     <button
       type="button"
-      onClick={() => window.dispatchEvent(new Event(OPEN_EVENT))}
+      onClick={openVisitorTour}
       className="text-muted-foreground hover:text-accent inline-flex items-center gap-1.5 text-sm font-medium underline-offset-4 hover:underline"
       data-testid="visitor-tour-launch"
     >

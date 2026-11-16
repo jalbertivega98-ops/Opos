@@ -37,6 +37,7 @@ export function SpotlightTour({
   lastExtra,
   scrollBlock = "nearest",
   testId,
+  initialStep = 0,
 }: {
   steps: readonly SpotlightStep[];
   namespace: string;
@@ -46,10 +47,12 @@ export function SpotlightTour({
   lastExtra?: React.ReactNode;
   scrollBlock?: ScrollLogicalPosition;
   testId: string;
+  /** Paso por el que empieza (p. ej. saltar la bienvenida si la abre la propia persona). */
+  initialStep?: number;
 }) {
   const t = useTranslations("tour");
   const ts = useTranslations(namespace);
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(() => Math.min(Math.max(initialStep, 0), steps.length - 1));
   const [rect, setRect] = useState<Rect | null>(null);
   const [wide, setWide] = useState(false);
   const [cardH, setCardH] = useState(260);
@@ -124,6 +127,13 @@ export function SpotlightTour({
     if (e.key === "Escape") {
       e.preventDefault();
       onClose();
+    } else if ((e.key === "ArrowRight" || e.key === "ArrowLeft") && e.target === cardRef.current) {
+      // Flechas para avanzar o volver (solo con el foco en la tarjeta, no en un campo).
+      e.preventDefault();
+      if (e.key === "ArrowRight") {
+        if (last) onClose();
+        else setStep(step + 1);
+      } else if (step > 0) setStep(step - 1);
     } else if (e.key === "Tab" && cardRef.current && !interactive) {
       const items = cardRef.current.querySelectorAll<HTMLElement>(
         "a[href], button:not([disabled])",

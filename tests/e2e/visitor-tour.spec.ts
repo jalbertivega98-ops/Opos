@@ -43,6 +43,34 @@ test.describe("Guía para visitantes sin cuenta (ADR-057)", () => {
     await expect(page.getByTestId("visitor-tour")).toHaveCount(0);
   });
 
+  test("«Cómo funciona»: pasos con capturas y «Ver la guía» abre la guía sin la bienvenida (ADR-062)", async ({
+    page,
+  }) => {
+    await page.addInitScript(() => localStorage.setItem("opa.visitorTour", "done"));
+    await page.goto("/#como-funciona");
+    const showcase = page.getByTestId("how-showcase");
+    const step3 = showcase.getByTestId("how-step-3");
+    await step3.click();
+    await expect(step3).toHaveAttribute("aria-selected", "true");
+    await expect(showcase.getByRole("tabpanel").getByRole("img")).toHaveAttribute(
+      "alt",
+      /pregunta de test corregida/,
+    );
+    // Flechas del teclado entre pasos
+    await page.keyboard.press("ArrowUp");
+    await expect(showcase.getByTestId("how-step-2")).toHaveAttribute("aria-selected", "true");
+
+    await showcase.getByTestId("how-guide").click();
+    const card = page.getByTestId("visitor-tour").getByRole("dialog");
+    await expect(card).toContainText("Paso 2 de 6");
+    await expect(card).toContainText("Empieza aquí: un test gratis");
+    // Con el foco en la tarjeta, → avanza y ← vuelve
+    await card.press("ArrowRight");
+    await expect(card).toContainText("¿No ves la tuya?");
+    await card.press("ArrowLeft");
+    await expect(card).toContainText("Empieza aquí");
+  });
+
   test("desde la guía se empieza el test y las pistas acompañan las primeras preguntas", async ({
     page,
   }) => {
