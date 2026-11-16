@@ -533,7 +533,7 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Consecuencias.** Vercel sirve esas páginas desde su caché, sin ejecutar código ni consultar Supabase. Un precio cambiado directamente en la base de datos tarda como mucho 10 minutos en verse. Quien tiene sesión ve un instante el hueco vacío de los botones de la cabecera.
 
-## ADR-060 · Favicon para Google: favicon.ico, icono de Apple y PNG del manifiesto (2026-11-16)
+## ADR-061 · Favicon para Google: favicon.ico, icono de Apple y PNG del manifiesto (2026-11-16)
 
 - **Contexto:** en los resultados de Google, OPOSAPRUEBA salía con la bola del mundo genérica. La web solo tenía `icon.svg`: no había `/favicon.ico` (daba 404) ni versiones en PNG.
 - **Decisión:** generar desde el mismo `icon.svg` un `src/app/favicon.ico` (16, 32 y 48 px, tamaño múltiplo de 48 como pide Google), `src/app/apple-icon.png` (180 px) y `public/icon-192.png` y `icon-512.png` para el manifiesto. Next añade los `<link rel="icon">` solo.
