@@ -27,6 +27,7 @@ import { HeroTestPicker } from "@/components/landing/hero-test-picker";
 import { HelpVideosSection } from "@/components/help/help-videos-section";
 import { Suspense } from "react";
 import { VisitorTourLauncher } from "@/components/landing/visitor-tour";
+import { HowItWorksShowcase } from "@/components/landing/how-it-works-showcase";
 import { DeletedAccountNotice, VisitorTourGate } from "@/components/landing/visitor-gate";
 import { AnonOnly } from "@/components/header-account";
 import { Reveal, type RevealEffect } from "@/components/ui/reveal";
@@ -40,11 +41,7 @@ import { JsonLd, faqLd, organizationLd, websiteLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
 
 const FAQ = ["1", "2", "3", "4", "5"] as const;
-const STEPS = [
-  { key: "1", icon: Search },
-  { key: "2", icon: CalendarCheck },
-  { key: "3", icon: RefreshCcw },
-] as const;
+const STEPS = ["1", "2", "3"] as const;
 const TRUST = [
   { key: "sources", icon: FileCheck2 },
   { key: "review", icon: UserCheck },
@@ -194,35 +191,31 @@ export default async function Landing({ params }: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      {/* 2 · Cómo funciona: tres pasos */}
+      {/* 2 · Cómo funciona: tres pasos con capturas reales que avanzan solas (ADR-062) */}
       <Section id="como-funciona" className="scroll-mt-20" aria-labelledby="steps-title">
-        <div data-tour="v-how">
-          <Reveal effect="blur">
-            <SectionHeader
-              id="steps-title"
-              eyebrow={t("stepsEyebrow")}
-              title={t("stepsTitle")}
-              description={t("stepsSubtitle")}
-            />
-          </Reveal>
-        </div>
-        <ol className="mt-10 grid gap-6 md:grid-cols-3">
-          {STEPS.map(({ key, icon }, i) => (
-            <Reveal as="li" key={key} effect="up" delay={i * 150} className="relative">
-              <div className="flex items-center gap-4">
-                <span className="font-display text-ink dark:text-highlight text-5xl leading-none font-extrabold tabular-nums">
-                  {i + 1}
-                </span>
-                <IconBadge icon={icon} tone="accent" />
-                {i < STEPS.length - 1 && (
-                  <span aria-hidden className="bg-border hidden h-px flex-1 md:block" />
-                )}
-              </div>
-              <h3 className="mt-4 text-xl font-bold">{t(`steps.${key}.title`)}</h3>
-              <p className="text-muted-foreground mt-2">{t(`steps.${key}.body`)}</p>
-            </Reveal>
-          ))}
-        </ol>
+        <Reveal effect="blur">
+          <SectionHeader
+            id="steps-title"
+            eyebrow={t("stepsEyebrow")}
+            title={t("stepsTitle")}
+            description={t("stepsSubtitle")}
+          />
+        </Reveal>
+        <HowItWorksShowcase
+          steps={STEPS.map((key) => ({
+            title: t(`steps.${key}.title`),
+            body: t(`steps.${key}.body`),
+            image: `/como-funciona/paso-${key}.webp`,
+            alt: t(`steps.${key}.alt`),
+            chip: t(`steps.${key}.chip`),
+          }))}
+          labels={{
+            guide: t("stepsGuide"),
+            guideHint: t("stepsGuideHint"),
+            stepsLabel: t("stepsEyebrow"),
+            stepN: STEPS.map((key) => t("stepN", { n: key })),
+          }}
+        />
         <HelpVideosSection locale={locale} />
       </Section>
 

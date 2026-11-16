@@ -238,6 +238,53 @@
   }
 }
 
+/* «Cómo funciona» (ADR-062): barra de tiempo del paso, toque sobre la captura y etiqueta flotante. */
+.how-progress {
+  transform-origin: left;
+  animation: how-progress var(--how-ms, 5500ms) linear both;
+}
+.how-tap {
+  translate: -50% -50%;
+  background: color-mix(in srgb, var(--accent) 40%, transparent);
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 0.9);
+  animation: how-tap 1.6s ease-out 0.5s 3 both;
+}
+.how-chip {
+  animation: how-chip 600ms cubic-bezier(0.2, 0.7, 0.2, 1) 250ms both;
+}
+@keyframes how-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes how-tap {
+  0% {
+    opacity: 0;
+    scale: 0.4;
+  }
+  25% {
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 1.8;
+  }
+}
+@keyframes how-chip {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes scroll-drift {
   from {
     transform: translateY(48px);
