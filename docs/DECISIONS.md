@@ -552,3 +552,9 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - Policía Nacional y Guardia Civil quedan fuera hasta que su guía tenga tipos verificados.
 
 **Motivo:** captar búsquedas «psicotécnicos <oposición>» con una página propia en lugar de la genérica `/psicotecnicos`.
+
+## ADR-061 · Favicon para Google: favicon.ico, icono de Apple y PNG del manifiesto (2026-11-16)
+
+- **Contexto:** en los resultados de Google, OPOSAPRUEBA salía con la bola del mundo genérica. La web solo tenía `icon.svg`: no había `/favicon.ico` (daba 404) ni versiones en PNG.
+- **Decisión:** generar desde el mismo `icon.svg` un `src/app/favicon.ico` (16, 32 y 48 px, tamaño múltiplo de 48 como pide Google), `src/app/apple-icon.png` (180 px) y `public/icon-192.png` y `icon-512.png` para el manifiesto. Next añade los `<link rel="icon">` solo.
+- **Consecuencias:** Google necesita volver a rastrear la portada para cambiar el icono (de días a semanas). Se puede acelerar pidiendo «Solicitar indexación» de la portada en Search Console.
