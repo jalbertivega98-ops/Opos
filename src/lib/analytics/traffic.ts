@@ -114,6 +114,9 @@ export function normalizePath(pathname: string): string {
   const ok =
     rest === "/" ||
     /^\/(oposiciones|psicotecnicos|legal)(\/[a-z0-9-]{2,80})?$/.test(rest) ||
+    // Subpáginas de cada ficha (test gratis, psicotécnicos, prueba física): antes
+    // caían en «/otros» y no se sabía a dónde llegaba la gente (ADR-065).
+    /^\/oposiciones\/[a-z0-9-]{2,80}\/(test|psicotecnicos|prueba-fisica)$/.test(rest) ||
     /^\/(registro|entrar|recuperar)$/.test(rest);
   if (!ok) return "/otros";
   return prefix && rest === "/" ? "/ca" : `${prefix}${rest}`;

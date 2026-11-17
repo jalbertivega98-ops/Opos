@@ -66,5 +66,13 @@ describe("clasificación de tráfico", () => {
     expect(normalizePath("/app/practica/123")).toBe("/otros");
     expect(normalizePath("/wp-login.php")).toBe("/otros");
     expect(normalizePath("/oposiciones/a/b")).toBe("/otros");
+    expect(normalizePath("/oposiciones/mossos-esquadra/test")).toBe(
+      "/oposiciones/mossos-esquadra/test",
+    );
+    expect(normalizePath("/ca/oposiciones/bombers-generalitat/psicotecnicos")).toBe(
+      "/ca/oposiciones/bombers-generalitat/psicotecnicos",
+    );
+    expect(normalizePath("/oposiciones/x1/prueba-fisica")).toBe("/oposiciones/x1/prueba-fisica");
+    expect(normalizePath("/oposiciones/mossos-esquadra/otra")).toBe("/otros");
   });
 });

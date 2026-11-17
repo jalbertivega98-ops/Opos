@@ -84,6 +84,13 @@ export default async function TrafficPage({ params }: PageProps<"/[locale]/admin
               testId="traffic-sources"
             />
             <Table
+              title={t("byLandingAll")}
+              rows={sumBy(visits, (r) => r.path)}
+              colA={t("path")}
+              colB={t("visits")}
+              testId="traffic-landings-all"
+            />
+            <Table
               title={t("byLanding")}
               rows={sumBy(
                 visits.filter((r) => r.channel === "search" || r.channel === "ai"),

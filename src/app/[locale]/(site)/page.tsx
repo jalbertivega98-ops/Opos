@@ -94,26 +94,28 @@ export default async function Landing({ params }: PageProps<"/[locale]">) {
 
       {/* 1 · Hero: qué es, para quién y acción principal + muestra del entrenamiento */}
       <section className="bg-surface bg-grid border-border relative overflow-hidden border-b">
-        <div className="wrap grid gap-12 pt-12 pb-16 sm:pt-20 sm:pb-24 lg:grid-cols-[1.1fr_1fr] lg:items-center 2xl:gap-24 2xl:pt-28 2xl:pb-32">
+        <div className="wrap grid gap-12 pt-8 pb-16 sm:pt-20 sm:pb-24 lg:grid-cols-[1.1fr_1fr] lg:items-center 2xl:gap-24 2xl:pt-28 2xl:pb-32">
           <div>
             <p className="border-border bg-background text-muted-foreground inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold">
               <span className="bg-accent size-2 rounded-full" aria-hidden />
               {t("eyebrow")}
             </p>
-            <h1 className="mt-5 text-4xl leading-[1.08] font-extrabold sm:text-5xl xl:text-[3.5rem] 2xl:text-7xl">
+            <h1 className="mt-4 text-[2rem] leading-[1.08] font-extrabold sm:mt-5 sm:text-5xl xl:text-[3.5rem] 2xl:text-7xl">
               {t.rich("titleRich", { mark: (c) => <span className="marker">{c}</span> })}
             </h1>
-            <p className="text-muted-foreground mt-5 max-w-xl text-base sm:text-lg">
-              {t("subtitle")}
-            </p>
-            <p className="mt-3 max-w-xl text-sm font-medium">{t("audience")}</p>
-
+            {/* El test gratis va justo bajo el título para que se vea en la primera
+                pantalla del móvil (ADR-065): el 98 % de las visitas se iba sin hacer nada. */}
             <HeroTestPicker
               options={testable.map((e) => ({
                 slug: e.slug,
                 label: localized(locale, e.name, e.name_ca),
               }))}
             />
+
+            <p className="text-muted-foreground mt-6 max-w-xl text-base sm:text-lg">
+              {t("subtitle")}
+            </p>
+            <p className="mt-3 max-w-xl text-sm font-medium">{t("audience")}</p>
 
             <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
               <Button asChild variant={testable.length > 0 ? "outline" : "accent"} size="lg">
