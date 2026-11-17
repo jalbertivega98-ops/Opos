@@ -69,6 +69,7 @@
 ### Más alcance en buscadores (2026-11-10, rama `claude/project-thread-h5od90`, MKT-007, ADR-050)
 
 - Pie con enlaces a las 11 fichas y los 15 psicotécnicos, tres ejemplos resueltos (semillas fijas) en cada `/psicotecnicos/<tipo>`, títulos con «gratis» y nombres de oposición correctos en «Oposiciones en las que se trabaja».
+- **Modo claro y oscuro (2026-11-17, rama `claude/project-thread-cu409z`, ADR-064):** la web arranca en oscuro para todos; el claro (sol) tiene fondo azul grisáceo y tarjetas blancas. Pendiente: que joel diga «fusiona».
 - IndexNow automático: `.github/workflows/indexnow.yml` envía el sitemap tras cada push a main; clave pública por defecto en `/indexnow.txt`.
 - Pendiente de joel: «fusiona»; alta en Bing Webmaster (falta su clic en el inicio de sesión de Google). La revisión semanal de Search Console la lleva el hilo «Crecer en Google con contenido».
 - **Simulacros de examen de Guardia Civil y Policía Nacional (2026-11-11, rama `claude/project-thread-eh98tl`, CNT-027-GCPN, ADR-049):** 4 réplicas de cuadernillos oficiales de GC (2026 y 2022 ejercicios 1-3, temas `gcexamen-*`) y 2 exámenes tipo de PN con 100 preguntas nuevas (`pnexamen-tipo-*`). Fuente en `fuentes-oficiales/guardia-civil/fuente-preguntas/R26,R22A-C.txt` (mapas en `replicas/`) y `policia-nacional/fuente-preguntas/K01-K02.txt` (mapas en `examenes-tipo/`). Preview `87-` y `88-`, probados en local. Pendiente: que joel diga «fusiona».

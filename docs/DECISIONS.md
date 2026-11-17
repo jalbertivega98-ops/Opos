@@ -558,3 +558,9 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - **Contexto:** en los resultados de Google, OPOSAPRUEBA salía con la bola del mundo genérica. La web solo tenía `icon.svg`: no había `/favicon.ico` (daba 404) ni versiones en PNG.
 - **Decisión:** generar desde el mismo `icon.svg` un `src/app/favicon.ico` (16, 32 y 48 px, tamaño múltiplo de 48 como pide Google), `src/app/apple-icon.png` (180 px) y `public/icon-192.png` y `icon-512.png` para el manifiesto. Next añade los `<link rel="icon">` solo.
 - **Consecuencias:** Google necesita volver a rastrear la portada para cambiar el icono (de días a semanas). Se puede acelerar pidiendo «Solicitar indexación» de la portada en Search Console.
+
+## ADR-064 · Oscuro por defecto y modo claro con fondo azul grisáceo (2026-11-17)
+
+**Contexto:** a joel no le gusta la web en modo claro (fondo blanco, el del sol); el azul oscuro sí. Con `defaultTheme="system"` quien tiene el móvil en claro veía la versión blanca.
+**Decisión:** `next-themes` arranca en oscuro para todos (`defaultTheme="dark"`, sin seguir al sistema); el botón sol/luna sigue y recuerda la elección. El modo claro deja de ser todo blanco: token nuevo `page` (#E3EAF4) para el fondo de la página y las secciones `plain`, tarjetas y campos en blanco (`background`), `surface`/`surface-2`/bordes más marcados. Turquesa, éxito, aviso y peligro se oscurecen un poco en claro para mantener 4,5:1 sobre los fondos nuevos. `themeColor` fijo en marino.
+**Consecuencias:** el modo oscuro no cambia. Quien ya eligió claro con el botón lo conserva. Para volver a seguir al sistema basta con `defaultTheme="system" enableSystem`.

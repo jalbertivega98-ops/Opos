@@ -8,23 +8,26 @@
  * para texto sobre fondo en ambos temas.
  */
 :root {
+  /* Modo claro (ADR-064): el fondo de página es azul grisáceo suave y las tarjetas,
+     blancas, para que no sea «todo blanco» y se distingan los bloques. */
+  --page: #e3eaf4;
   --background: #ffffff;
   --foreground: #0b1b33;
-  --surface: #f5f7fa;
-  --surface-2: #eef2f7;
-  --muted-foreground: #4a5a72;
-  --border: #dde3ec;
-  --input: #cfd7e3;
-  --ring: #0a7a70;
+  --surface: #d9e2ef;
+  --surface-2: #cfd9e8;
+  --muted-foreground: #45556d;
+  --border: #c9d4e4;
+  --input: #b9c6d9;
+  --ring: #086e65;
   --primary: #0b2545;
   --primary-foreground: #ffffff;
-  --accent: #0a7a70;
+  --accent: #086e65;
   --accent-foreground: #ffffff;
   --accent-soft: #e3f6f3;
-  --danger: #c0352b;
+  --danger: #b3302a;
   --danger-soft: #fdecea;
-  --success: #167a3a;
-  --warning: #a15c00;
+  --success: #15703a;
+  --warning: #8f5200;
   --warning-soft: #fff4dc;
   /* Identidad: «marcador» de estudio (resalta lo importante) y franjas en tinta marina */
   --highlight: #ffd166;
@@ -39,6 +42,7 @@
 }
 
 .dark {
+  --page: #07111f;
   --background: #07111f;
   --foreground: #e8eef7;
   --surface: #0c1a2e;
@@ -68,6 +72,7 @@
 }
 
 @theme inline {
+  --color-page: var(--page);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-surface: var(--surface);
@@ -110,7 +115,7 @@
     overflow-x: clip;
   }
   body {
-    background: var(--background);
+    background: var(--page);
     color: var(--foreground);
     font-family: var(--font-sans);
     /* Las apariciones laterales no deben crear scroll horizontal. */
