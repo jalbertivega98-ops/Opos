@@ -5,11 +5,12 @@
 | Token                          | Claro            | Oscuro            | Uso                             |
 | ------------------------------ | ---------------- | ----------------- | ------------------------------- |
 | `primary`                      | #0B2545 marino   | #E8EEF7           | Botones principales, marca      |
-| `accent`                       | #0A7A70 turquesa | #2DD4BF           | CTA, progreso, enlaces, foco    |
-| `background` / `foreground`    | #FFF / #0B1B33   | #07111F / #E8EEF7 | Base                            |
-| `surface`, `surface-2`         | #F5F7FA, #EEF2F7 | #0C1A2E, #11233C  | Secciones, tarjetas secundarias |
-| `muted-foreground`             | #4A5A72          | #9FB0C8           | Texto secundario (AA)           |
-| `border`, `input`              | #DDE3EC, #CFD7E3 | #1D3150, #27406A  | Bordes                          |
+| `accent`                       | #086E65 turquesa | #2DD4BF           | CTA, progreso, enlaces, foco    |
+| `page`                         | #E3EAF4          | #07111F           | Fondo de página (ADR-064)       |
+| `background` / `foreground`    | #FFF / #0B1B33   | #07111F / #E8EEF7 | Tarjetas, campos, cabecera      |
+| `surface`, `surface-2`         | #D9E2EF, #CFD9E8 | #0C1A2E, #11233C  | Secciones, tarjetas secundarias |
+| `muted-foreground`             | #45556D          | #9FB0C8           | Texto secundario (AA)           |
+| `border`, `input`              | #C9D4E4, #B9C6D9 | #1D3150, #27406A  | Bordes                          |
 | `danger`, `success`, `warning` |                  |                   | Estados                         |
 | `highlight` (+ `-soft`)        | #FFD166 marcador | #F2C14E           | Resaltar lo importante, repaso  |
 | `ink` (+ `-2`, `-muted`)       | #0B2545 tinta    | #0E2A4F           | Franjas y tarjeta principal     |
@@ -35,7 +36,7 @@ Uso en Tailwind: `bg-primary`, `text-accent`, `bg-surface`, `border-border`… N
 - Mobile first; contenedor `max-w-6xl px-4`; tarjetas ver «Radios y espaciado».
 - Formularios: label visible, ayuda bajo el campo, error con `role=alert`, botón deshabilitado mientras envía.
 - Estados: carga (Skeleton), vacío (EmptyState con acción), error (Alert).
-- Modo oscuro por clase (`next-themes`), por defecto el del sistema.
+- Modo oscuro por clase (`next-themes`). Por defecto, OSCURO para todos (ADR-064); el botón sol/luna cambia al claro y se recuerda. En claro, el fondo de página es azul grisáceo (`page`) y las tarjetas blancas (`background`).
 - Ancho: contenedor `.wrap` (máx. 100rem, márgenes 16→80 px según pantalla) en cabecera, secciones, panel y pie. Los textos conservan su ancho de lectura (`max-w-2xl`).
 - Movimiento: transiciones de controles ≤ 200 ms. En la portada, cada sección aparece una vez al bajar con un efecto distinto (`Reveal effect`: up, left, right, zoom, blur, tilt; escalonado con `delay`). Hay efectos ligados al scroll (`.scroll-drift` en la vista de progreso y `.scroll-grow` en la franja marina) donde el navegador admite `animation-timeline`. En móvil no hay desplazamientos laterales. Con `prefers-reduced-motion` no se anima nada. Sin bucles ni sonido. Las pantallas de ejercicio no se animan.
 - Gamificación sobria: números, barras y logros con iconografía lineal; sin mascotas ni confeti.

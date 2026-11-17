@@ -42,10 +42,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
 }
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#07111f" },
-  ],
+  // Tema oscuro por defecto (ADR-064): la barra del navegador, en azul marino.
+  themeColor: "#07111f",
 };
 
 export default async function LocaleLayout({ children, params }: LayoutProps<"/[locale]">) {

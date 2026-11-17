@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 const sectionVariants = cva("relative", {
   variants: {
     tone: {
-      plain: "bg-background",
+      plain: "bg-page",
       surface: "bg-surface border-y border-border",
       grid: "bg-surface bg-grid border-b border-border",
       ink: "bg-ink text-ink-foreground",
