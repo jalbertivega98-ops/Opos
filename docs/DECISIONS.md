@@ -540,3 +540,15 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - **Guía:** abierta a propósito empieza en el primer paso útil (sin la bienvenida); el paso «Cómo funciona» es interactivo (se pueden tocar los pasos con la guía abierta); → y ← avanzan y vuelven.
 - **Capturas:** `public/como-funciona/paso-{1,2,3}.webp` (660 px, ~45 KB cada una, carga diferida con `next/image`), hechas con la pila local y el contenido de `supabase/preview`, móvil 390×800. Si cambia mucho la interfaz, rehacerlas igual.
 - **Consecuencias:** sin SQL ni dependencias nuevas; la portada sigue estática (ADR-060).
+
+## ADR-063 · Página «Psicotécnicos de <oposición> gratis» (2026-11-17)
+
+**Decisión:** en Search Console ya aparecen búsquedas como «psicotécnicos Mossos gratis» y no había una página para ellas. Cada oposición con psicotécnico en su convocatoria (`examHasPsycho`) y con tipos enlazados en su guía tiene `/oposiciones/<slug>/psicotecnicos` (es y ca): Mossos, Auxiliar del Estado, Guardia Urbana y policía local de Cataluña.
+
+- **Formato oficial:** la parte de la guía que describe la prueba (`PSYCHO_PART` en `src/lib/seo/exam-psycho.ts`), con la fecha de verificación. No se añade ninguna cifra nueva.
+- **Práctica:** 10 ejercicios generados al momento que mezclan los tipos de la oposición, con dificultad creciente, corregidos sin registro (modo demo del entrenador).
+- Tarjetas a la guía de cada tipo, invitación al simulacro de psicotécnicos (si la oposición lo tiene) y enlace a la ficha.
+- SEO: título «Psicotécnicos <oposición> gratis: test online con solución», Quiz en JSON-LD, migas, tarjeta en la ficha y entrada en el sitemap.
+- Policía Nacional y Guardia Civil quedan fuera hasta que su guía tenga tipos verificados.
+
+**Motivo:** captar búsquedas «psicotécnicos <oposición>» con una página propia en lugar de la genérica `/psicotecnicos`.

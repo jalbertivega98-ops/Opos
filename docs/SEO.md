@@ -22,7 +22,7 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 | llms.txt      | `/llms.txt`     | Resumen en Markdown para asistentes de IA (llmstxt.org).                                                                                 |
 | Imagen social | `/og-image.png` | 1200 × 630. Se regenera con `PW_CHROMIUM_PATH=/opt/pw-browsers/chromium node scripts/seo/render-logo.mjs`.                               |
 | Logo          | `/logo-512.png` | Lo usa `Organization.logo` en Schema.org.                                                                                                |
-| IndexNow      | `/indexnow.txt` | Devuelve `INDEXNOW_KEY` o la clave pública por defecto. La Action `indexnow.yml` avisa a IndexNow tras cada push a main (ADR-050).      |
+| IndexNow      | `/indexnow.txt` | Devuelve `INDEXNOW_KEY` o la clave pública por defecto. La Action `indexnow.yml` avisa a IndexNow tras cada push a main (ADR-050).       |
 
 ## 3. Páginas públicas y contenido
 
@@ -30,6 +30,7 @@ Mientras no es indexable, `robots.txt` devuelve `Disallow: /` y todas las págin
 - `/oposiciones` es el catálogo. Las búsquedas y los filtros son `noindex` y su canonical apunta al catálogo.
 - `/oposiciones/[slug]` es la ficha de cada oposición. Si existe una guía en `src/lib/seo/exam-guides.ts`, muestra datos clave, estructura del examen, fechas, temario (tabla `topics`), psicotécnicos relacionados, preguntas frecuentes y fuentes oficiales. Las fichas «próximamente» sin guía son `noindex, follow`.
 - `/oposiciones/[slug]/test` es el test gratis sin registro (ADR-041): 10 preguntas del día de los temas gratis, corregidas al momento y sin guardar nada. Sale en la ficha y en el sitemap si hay al menos 5 preguntas; si no, es `noindex` (o 404 si no hay ninguna). Ataca búsquedas tipo «test oposiciones <nombre>».
+- `/oposiciones/[slug]/psicotecnicos` (ADR-063): formato oficial de la prueba de aptitudes, 10 psicotécnicos mezclados de los tipos de esa oposición y enlaces a cada tipo. Solo para oposiciones con psicotécnico y tipos en su guía; la parte de la guía que se muestra se elige en `PSYCHO_PART` (`src/lib/seo/exam-psycho.ts`).
 - `/psicotecnicos` reúne los psicotécnicos. `?tipo=` sigue funcionando y su canonical apunta a la página del tipo.
 - `/psicotecnicos/[tipo]` tiene 12 páginas, cada una con entrenador gratuito, método, oposiciones relacionadas, preguntas frecuentes y Quiz/LearningResource. El contenido está en `src/lib/seo/psycho-guides.ts`.
 
