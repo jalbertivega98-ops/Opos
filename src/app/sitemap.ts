@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
 import { listPublicExams, isExamIndexable } from "@/lib/seo/catalog";
+import { examPsychoSlugs } from "@/lib/seo/exam-psycho";
 import { getExamGuide } from "@/lib/seo/exam-guides";
 import { physicalGuides } from "@/lib/seo/physical-tests";
 import { psychoGuides } from "@/lib/seo/psycho-guides";
@@ -55,6 +56,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           changeFrequency: "weekly",
           priority: 0.8,
           lastModified: g.verifiedOn,
+        }),
+      ),
+    ...examPsychoSlugs()
+      .filter((slug) => exams.some((e) => e.slug === slug))
+      .flatMap((slug) =>
+        entries(`/oposiciones/${slug}/psicotecnicos`, {
+          changeFrequency: "weekly",
+          priority: 0.8,
+          lastModified: getExamGuide(slug)?.verifiedOn,
         }),
       ),
     ...entries("/psicotecnicos", { changeFrequency: "monthly", priority: 0.8 }),

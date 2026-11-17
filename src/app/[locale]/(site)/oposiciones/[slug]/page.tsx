@@ -11,8 +11,9 @@ import { getExamBody, listExamTopics, localized } from "@/lib/catalog/queries";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ExamGuideSection } from "@/components/seo/exam-guide";
 import { isExamIndexable } from "@/lib/seo/catalog";
+import { getExamPsycho } from "@/lib/seo/exam-psycho";
 import { getPhysicalGuide } from "@/lib/seo/physical-tests";
-import { getExamGuide, tr } from "@/lib/seo/exam-guides";
+import { examShortName, getExamGuide, tr } from "@/lib/seo/exam-guides";
 import { JsonLd, examGuideLd } from "@/lib/seo/json-ld";
 import { pageMetadata } from "@/lib/seo/site";
 import { examOffer } from "@/lib/store/queries";
@@ -62,6 +63,7 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
   const tests = [...exam.exam_tests].sort((a, b) => a.order_index - b.order_index);
   const sources = exam.exam_body_sources.map((s) => s.source).filter((s) => s !== null);
   const guide = getExamGuide(exam.slug);
+  const psycho = getExamPsycho(exam.slug);
   const [offer, topics, sample] = await Promise.all([
     examOffer(exam.slug),
     guide ? listExamTopics(exam.id) : Promise.resolve([]),
@@ -154,6 +156,22 @@ export default async function ExamPage({ params }: PageProps<"/[locale]/oposicio
             <span className="text-muted-foreground text-sm">
               {t("seo.sample.ctaHint", { n: sample.length })}
             </span>
+          </span>
+          <ArrowRight className="text-accent size-5 shrink-0" aria-hidden />
+        </Link>
+      )}
+
+      {psycho && (
+        <Link
+          href={`/oposiciones/${exam.slug}/psicotecnicos`}
+          className="border-border hover:border-accent mt-3 flex items-center justify-between gap-4 rounded-xl border p-4 transition-colors"
+          data-testid="exam-psycho-link"
+        >
+          <span>
+            <span className="block font-semibold">
+              {t("seo.examPsycho.cta", { exam: examShortName(psycho.guide, locale) })}
+            </span>
+            <span className="text-muted-foreground text-sm">{t("seo.examPsycho.ctaHint")}</span>
           </span>
           <ArrowRight className="text-accent size-5 shrink-0" aria-hidden />
         </Link>

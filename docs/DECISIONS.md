@@ -533,6 +533,26 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 
 **Consecuencias.** Vercel sirve esas páginas desde su caché, sin ejecutar código ni consultar Supabase. Un precio cambiado directamente en la base de datos tarda como mucho 10 minutos en verse. Quien tiene sesión ve un instante el hueco vacío de los botones de la cabecera.
 
+## ADR-062 · «Cómo funciona» con capturas reales y botón «Ver la guía» (2026-11-16)
+
+- **Contexto:** joel quería que «Cómo funciona» de la portada fuera más dinámica y visual, y que diera la opción de ver la guía. Eran tres textos con icono.
+- **Decisión:** `HowItWorksShowcase`: los tres pasos son pestañas que avanzan solas cada 5,5 s mientras la sección está a la vista (barra de tiempo), con la captura real de la web de cada paso dentro de un móvil (catálogo, plan semanal, pregunta corregida), un toque animado donde pulsaría el alumno y una etiqueta flotante. Pulsar un paso lo fija; flechas del teclado; con «reducir movimiento» no avanza ni anima. Para visitantes sin sesión, botón «Ver la guía paso a paso» que abre la guía de ADR-057.
+- **Guía:** abierta a propósito empieza en el primer paso útil (sin la bienvenida); el paso «Cómo funciona» es interactivo (se pueden tocar los pasos con la guía abierta); → y ← avanzan y vuelven.
+- **Capturas:** `public/como-funciona/paso-{1,2,3}.webp` (660 px, ~45 KB cada una, carga diferida con `next/image`), hechas con la pila local y el contenido de `supabase/preview`, móvil 390×800. Si cambia mucho la interfaz, rehacerlas igual.
+- **Consecuencias:** sin SQL ni dependencias nuevas; la portada sigue estática (ADR-060).
+
+## ADR-063 · Página «Psicotécnicos de <oposición> gratis» (2026-11-17)
+
+**Decisión:** en Search Console ya aparecen búsquedas como «psicotécnicos Mossos gratis» y no había una página para ellas. Cada oposición con psicotécnico en su convocatoria (`examHasPsycho`) y con tipos enlazados en su guía tiene `/oposiciones/<slug>/psicotecnicos` (es y ca): Mossos, Auxiliar del Estado, Guardia Urbana y policía local de Cataluña.
+
+- **Formato oficial:** la parte de la guía que describe la prueba (`PSYCHO_PART` en `src/lib/seo/exam-psycho.ts`), con la fecha de verificación. No se añade ninguna cifra nueva.
+- **Práctica:** 10 ejercicios generados al momento que mezclan los tipos de la oposición, con dificultad creciente, corregidos sin registro (modo demo del entrenador).
+- Tarjetas a la guía de cada tipo, invitación al simulacro de psicotécnicos (si la oposición lo tiene) y enlace a la ficha.
+- SEO: título «Psicotécnicos <oposición> gratis: test online con solución», Quiz en JSON-LD, migas, tarjeta en la ficha y entrada en el sitemap.
+- Policía Nacional y Guardia Civil quedan fuera hasta que su guía tenga tipos verificados.
+
+**Motivo:** captar búsquedas «psicotécnicos <oposición>» con una página propia en lugar de la genérica `/psicotecnicos`.
+
 ## ADR-061 · Favicon para Google: favicon.ico, icono de Apple y PNG del manifiesto (2026-11-16)
 
 - **Contexto:** en los resultados de Google, OPOSAPRUEBA salía con la bola del mundo genérica. La web solo tenía `icon.svg`: no había `/favicon.ico` (daba 404) ni versiones en PNG.

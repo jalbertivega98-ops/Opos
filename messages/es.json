@@ -167,18 +167,27 @@
     "stepsEyebrow": "Cómo funciona",
     "stepsTitle": "Tres pasos y sabes qué hacer cada día",
     "stepsSubtitle": "Sin listas interminables: eliges tu oposición, recibes tu plan y entrenas lo que más lo necesita.",
+    "stepN": "Paso {n}",
+    "stepsGuide": "Ver la guía paso a paso",
+    "stepsGuideHint": "Te señalamos en la propia página dónde pulsar. Dura 1 minuto.",
     "steps": {
       "1": {
         "title": "Elige tu oposición",
-        "body": "Búscala en el catálogo. Te decimos con claridad si ya tiene contenido revisado o si llegará próximamente."
+        "body": "Búscala en el catálogo. Te decimos con claridad si ya tiene contenido revisado o si llegará próximamente.",
+        "alt": "Captura del catálogo de oposiciones en el móvil, con cada oposición marcada como «Disponible» o «Próximamente».",
+        "chip": "Disponible o próximamente: sin sorpresas"
       },
       "2": {
         "title": "Recibe tu plan semanal",
-        "body": "Según tus horas y tu nivel: qué temas tocar, cuántas preguntas hacer y cuándo toca simulacro."
+        "body": "Según tus horas y tu nivel: qué temas tocar, cuántas preguntas hacer y cuándo toca simulacro.",
+        "alt": "Captura del plan de estudio semanal en el móvil: temas de la semana, preguntas y botón «Empezar test».",
+        "chip": "Tu semana, tarea a tarea"
       },
       "3": {
         "title": "Practica y repasa tus errores",
-        "body": "Test, psicotécnicos y simulacros. Lo que fallas vuelve en el repaso hasta que lo aciertas."
+        "body": "Test, psicotécnicos y simulacros. Lo que fallas vuelve en el repaso hasta que lo aciertas.",
+        "alt": "Captura de una pregunta de test corregida en el móvil: «¡Correcto!», con la explicación y el artículo de referencia.",
+        "chip": "¡Correcto! Con explicación y artículo"
       }
     },
     "featuresEyebrow": "Qué puedes entrenar",
@@ -1796,6 +1805,27 @@
       "backToExam": "Volver a la guía de {exam}",
       "faq": "Preguntas frecuentes",
       "sources": "Fuentes oficiales"
+    },
+    "examPsycho": {
+      "crumb": "Psicotécnicos",
+      "title": "Psicotécnicos {exam} gratis: test online con solución",
+      "description": "Practica gratis y sin registro los psicotécnicos de {exam}: {n} tipos de ejercicio que entrenan la prueba de aptitudes, con la solución explicada y el formato oficial de la convocatoria.",
+      "h1": "Psicotécnicos de {exam} gratis",
+      "intro": "Practica sin registrarte los tipos de psicotécnico que entrenan la prueba de aptitudes de {exam}. Cada ejercicio se crea al momento y se corrige con la explicación.",
+      "teaches": "Psicotécnicos de {exam}",
+      "official": "Cómo es la prueba oficial",
+      "verified": "Datos de las bases oficiales, comprobados el {date}.",
+      "sources": "Ver fuentes",
+      "practice": "Haz 10 psicotécnicos ahora",
+      "practiceNote": "Mezcla los tipos de esta oposición, con dificultad creciente. Sin registro y sin guardar nada.",
+      "types": "Tipos de psicotécnico para {exam}",
+      "typeHint": "Método, ejemplos resueltos y práctica",
+      "mock": "Simulacro de psicotécnicos de {exam}",
+      "mockHint": "Con una cuenta gratis puedes preparar tu plan y practicar el simulacro con el tiempo y el número de preguntas de la prueba.",
+      "register": "Empezar gratis",
+      "guide": "Cómo es el examen de {exam}",
+      "cta": "Psicotécnicos de {exam} gratis",
+      "ctaHint": "Formato oficial y ejercicios con solución, sin registrarte."
     }
   },
   "adminTraffic": {
@@ -2005,7 +2035,7 @@
       },
       "how": {
         "title": "3. Cómo funciona",
-        "body": "Aquí te explicamos el método en tres pasos y tienes vídeos de menos de medio minuto que resuelven las dudas más habituales."
+        "body": "Toca cada paso para ver la pantalla real de la web. Debajo tienes vídeos de menos de medio minuto con las dudas más habituales."
       },
       "pricing": {
         "title": "4. Gratis para empezar",

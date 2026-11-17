@@ -167,18 +167,27 @@
     "stepsEyebrow": "Com funciona",
     "stepsTitle": "Tres passos i saps què fer cada dia",
     "stepsSubtitle": "Sense llistes interminables: tries la teva oposició, reps el teu pla i entrenes el que més ho necessita.",
+    "stepN": "Pas {n}",
+    "stepsGuide": "Veure la guia pas a pas",
+    "stepsGuideHint": "T’indiquem a la mateixa pàgina on has de prémer. Dura 1 minut.",
     "steps": {
       "1": {
         "title": "Tria la teva oposició",
-        "body": "Cerca-la al catàleg. Et diem clarament si ja té contingut revisat o si arribarà properament."
+        "body": "Cerca-la al catàleg. Et diem clarament si ja té contingut revisat o si arribarà properament.",
+        "alt": "Captura del catàleg d’oposicions al mòbil, amb cada oposició marcada com a «Disponible» o «Properament».",
+        "chip": "Disponible o properament: sense sorpreses"
       },
       "2": {
         "title": "Rep el teu pla setmanal",
-        "body": "Segons les teves hores i el teu nivell: quins temes tocar, quantes preguntes fer i quan toca simulacre."
+        "body": "Segons les teves hores i el teu nivell: quins temes tocar, quantes preguntes fer i quan toca simulacre.",
+        "alt": "Captura del pla d’estudi setmanal al mòbil: temes de la setmana, preguntes i botó «Començar test».",
+        "chip": "La teva setmana, tasca a tasca"
       },
       "3": {
         "title": "Practica i repassa els errors",
-        "body": "Tests, psicotècnics i simulacres. El que falles torna al repàs fins que l'encertes."
+        "body": "Tests, psicotècnics i simulacres. El que falles torna al repàs fins que l'encertes.",
+        "alt": "Captura d’una pregunta de test corregida al mòbil: «Correcte!», amb l’explicació i l’article de referència.",
+        "chip": "Correcte! Amb explicació i article"
       }
     },
     "featuresEyebrow": "Què pots entrenar",
@@ -1796,6 +1805,27 @@
       "backToExam": "Tornar a la guia de {exam}",
       "faq": "Preguntes freqüents",
       "sources": "Fonts oficials"
+    },
+    "examPsycho": {
+      "crumb": "Psicotècnics",
+      "title": "Psicotècnics {exam} gratis: tests en línia amb solució",
+      "description": "Practica gratis i sense registre els psicotècnics de {exam}: {n} tipus d'exercici que entrenen la prova d'aptituds, amb la solució explicada i el format oficial de la convocatòria.",
+      "h1": "Psicotècnics de {exam} gratis",
+      "intro": "Practica sense registrar-te els tipus de psicotècnic que entrenen la prova d'aptituds de {exam}. Cada exercici es crea al moment i es corregeix amb l'explicació.",
+      "teaches": "Psicotècnics de {exam}",
+      "official": "Com és la prova oficial",
+      "verified": "Dades de les bases oficials, comprovades el {date}.",
+      "sources": "Veure fonts",
+      "practice": "Fes 10 psicotècnics ara",
+      "practiceNote": "Barreja els tipus d'aquesta oposició, amb dificultat creixent. Sense registre i sense desar res.",
+      "types": "Tipus de psicotècnic per a {exam}",
+      "typeHint": "Mètode, exemples resolts i pràctica",
+      "mock": "Simulacre de psicotècnics de {exam}",
+      "mockHint": "Amb un compte gratuït pots preparar el teu pla i practicar el simulacre amb el temps i el nombre de preguntes de la prova.",
+      "register": "Començar gratis",
+      "guide": "Com és l'examen de {exam}",
+      "cta": "Psicotècnics de {exam} gratis",
+      "ctaHint": "Format oficial i exercicis amb solució, sense registrar-te."
     }
   },
   "adminTraffic": {
@@ -2005,7 +2035,7 @@
       },
       "how": {
         "title": "3. Com funciona",
-        "body": "Aquí t’expliquem el mètode en tres passos i tens vídeos de menys de mig minut que resolen els dubtes més habituals."
+        "body": "Toca cada pas per veure la pantalla real del web. A sota tens vídeos de menys de mig minut amb els dubtes més habituals."
       },
       "pricing": {
         "title": "4. Gratis per començar",
