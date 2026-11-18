@@ -107,4 +107,23 @@ test.describe("Práctica con resultados guardados", () => {
     await page.goto("/app/progreso");
     await expect(page.getByText(/Todavía no hay datos/)).toBeVisible();
   });
+  test("sin Premium solo hay una muestra gratis de cada tipo (ADR-067)", async ({ page }) => {
+    const email = newEmail("muestra");
+    await signUp(page, email);
+    await confirmEmail(page, email);
+
+    await page.goto("/app/practica");
+    await expect(page.getByTestId("psycho-free-quota")).toContainText("Te quedan 75 de 75");
+    // Pide 20 series: la sesión se corta en las 5 gratis
+    await page.getByLabel("Tipo de ejercicio").selectOption("series");
+    await page.getByLabel("Número de ejercicios").selectOption("20");
+    await page.getByRole("button", { name: "Empezar" }).click();
+    await expect(page.getByRole("heading", { name: "Ejercicio 1 de 5" })).toBeVisible();
+
+    await page.goto("/app/practica");
+    await expect(page.getByTestId("psycho-free-quota")).toContainText("Te quedan 70 de 75");
+    await expect(page.locator('option[value="series"]')).toHaveAttribute("disabled");
+    await expect(page.locator('option[value="series"]')).toContainText("solo Premium");
+    await expect(page.getByLabel("Tipo de ejercicio")).not.toHaveValue("series");
+  });
 });

@@ -20,6 +20,8 @@ import {
   type PsychoItem,
   type PsychoType,
 } from "@/lib/learning/psycho/types";
+import { allowedCount } from "./free-quota";
+import { myPsychoQuota } from "./queries";
 import { answerSchema, demoAnswerSchema, startPracticeSchema } from "./schema";
 
 const REVIEW_SIZE = 10;
@@ -54,7 +56,13 @@ export async function startPracticeAction(formData: FormData) {
     redirect({ href: "/app/practica?error=invalid", locale });
     return;
   }
-  const { type, count, difficulty } = parsed.data;
+  const { type, difficulty } = parsed.data;
+  // Sin Premium: solo la muestra gratis que quede de ese tipo (ADR-067).
+  const count = allowedCount(await myPsychoQuota(), type, parsed.data.count);
+  if (count === 0) {
+    redirect({ href: "/app/practica?error=limit", locale });
+    return;
+  }
   const plan = difficultyPlan(
     count,
     difficulty === "auto" ? undefined : (difficulty as Difficulty),

@@ -31,6 +31,8 @@ export function planAccess(
   items: PlanLibraryItem[],
   freeTopics: string[] = [],
   mockKinds: Map<string, string | undefined> = new Map(),
+  /** ¿Le queda muestra gratis de psicotécnicos o los tiene sin límite? (ADR-067) */
+  psycho = true,
 ) {
   const real = items.filter((i) => !i.is_test && i.source !== "free");
   const mocks: Record<MockKind, boolean> = { knowledge: false, psycho: false };
@@ -51,13 +53,17 @@ export function planAccess(
     ),
     mocks,
     freeTopics,
+    psycho,
   };
 }
 export type PlanAccess = ReturnType<typeof planAccess>;
 
-/** ¿Puede el alumno hacer esta tarea con lo que tiene? Los psicotécnicos y los temas gratis lo son. */
+/**
+ * ¿Puede el alumno hacer esta tarea con lo que tiene? Los temas gratis siempre; los
+ * psicotécnicos mientras le quede muestra gratis o tenga Premium.
+ */
 export function taskUnlocked(task: PlanTask, access: PlanAccess) {
-  if (task.kind === "psycho") return true;
+  if (task.kind === "psycho") return access.psycho;
   if (task.kind === "topic") return access.topics || access.freeTopics.includes(task.topic.slug);
   return access.mocks[task.mock];
 }

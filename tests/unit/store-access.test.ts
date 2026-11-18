@@ -76,3 +76,11 @@ describe("simulacros del plan por tipo", () => {
     expect(taskUnlocked(psychoMock, access)).toBe(true);
   });
 });
+
+describe("psicotécnicos del plan con la muestra gratis (ADR-067)", () => {
+  const psycho = { kind: "psycho", sessions: 2 } as const;
+  it("se abren mientras quede muestra y se cierran al agotarla", () => {
+    expect(taskUnlocked(psycho, planAccess([]))).toBe(true);
+    expect(taskUnlocked(psycho, planAccess([], [], new Map(), false))).toBe(false);
+  });
+});

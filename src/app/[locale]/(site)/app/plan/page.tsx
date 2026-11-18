@@ -8,6 +8,7 @@ import { PlanSettingsForm } from "@/components/plan/settings-form";
 import { requireUser } from "@/lib/auth/session";
 import { localized } from "@/lib/catalog/queries";
 import { getMyPlan } from "@/lib/learning/plan-queries";
+import { myPsychoQuota } from "@/lib/learning/practice/queries";
 import { myLibrary, planAccessWithKinds } from "@/lib/store/queries";
 import { TOPIC_DONE } from "@/lib/learning/plan";
 import { studyWeek } from "@/lib/learning/calendar";
@@ -51,7 +52,11 @@ export default async function PlanPage({ params, searchParams }: PageProps<"/[lo
     );
   }
   const { settings, plan, topics, openTopics, noteTopics } = data;
-  const access = await planAccessWithKinds(library, openTopics);
+  // Solo se consulta la muestra gratis de psicotécnicos si el plan los pide (ADR-067)
+  const psychoOpen = plan.tasks.some((task) => task.kind === "psycho")
+    ? await myPsychoQuota(library).then((q) => q.unlimited || q.totalLeft > 0)
+    : true;
+  const access = await planAccessWithKinds(library, openTopics, psychoOpen);
   const errorKey = sp.error === "access" || sp.error === "start" ? sp.error : null;
   return (
     <div className="space-y-6">
