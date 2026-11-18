@@ -3,10 +3,12 @@ import type pg from "pg";
 import { as, cleanup, connect, createUser } from "./helpers";
 
 type Funnel = Record<string, number> & {
-  by_exam: { exam: string; starts: number; finishes: number }[];
+  by_exam: { exam: string; starts: number; finishes: number; signups: number }[];
+  by_psycho: { type: string; starts: number; signups: number }[];
 };
 
 const EXAM = "test-embudo";
+const PSYCHO = "test-psico-embudo";
 
 describe("embudo de conversión del panel (admin_funnel)", () => {
   let client: pg.Client;
@@ -27,7 +29,9 @@ describe("embudo de conversión del panel (admin_funnel)", () => {
     ids.push(student, admin);
   });
   afterAll(async () => {
-    await client.query("delete from public.funnel_daily where exam = $1", [EXAM]);
+    await client.query("delete from public.funnel_daily where exam = any($1::text[])", [
+      [EXAM, PSYCHO],
+    ]);
     await client.query("delete from public.orders where user_id = any($1::uuid[])", [ids]);
     await cleanup(client, ids);
     await client.end();
@@ -39,6 +43,11 @@ describe("embudo de conversión del panel (admin_funnel)", () => {
        select public.track_funnel('sample_start', '${EXAM}');
        select public.track_funnel('sample_start', '${EXAM}');
        select public.track_funnel('sample_finish', '${EXAM}');
+       select public.track_funnel('sample_signup', '${EXAM}');
+       select public.track_funnel('psycho_start', '${PSYCHO}');
+       select public.track_funnel('psycho_start', '${PSYCHO}');
+       select public.track_funnel('psycho_start', '${PSYCHO}');
+       select public.track_funnel('psycho_signup', '${PSYCHO}');
        commit;`,
     );
     for (const who of ["anon", { uid: student }, { uid: admin }] as const) {
@@ -68,12 +77,15 @@ describe("embudo de conversión del panel (admin_funnel)", () => {
     expect(Object.keys(f).sort()).toEqual(
       [
         "by_exam",
+        "by_psycho",
         "days",
         "onboarded",
         "paying",
         "practicing",
+        "psycho_start",
         "sample_finish",
         "sample_start",
+        "signup_clicks",
         "signups",
         "visits",
       ].sort(),
@@ -82,7 +94,19 @@ describe("embudo de conversión del panel (admin_funnel)", () => {
     expect(f.sample_start).toBeGreaterThanOrEqual(2);
     expect(f.sample_finish).toBeGreaterThanOrEqual(1);
     expect(f.signups).toBeGreaterThanOrEqual(2);
-    expect(f.by_exam.find((e) => e.exam === EXAM)).toEqual({ exam: EXAM, starts: 2, finishes: 1 });
+    expect(f.psycho_start).toBeGreaterThanOrEqual(3);
+    expect(f.signup_clicks).toBeGreaterThanOrEqual(2);
+    expect(f.by_exam.find((e) => e.exam === EXAM)).toEqual({
+      exam: EXAM,
+      starts: 2,
+      finishes: 1,
+      signups: 1,
+    });
+    expect(f.by_psycho.find((p) => p.type === PSYCHO)).toEqual({
+      type: PSYCHO,
+      starts: 3,
+      signups: 1,
+    });
   });
 
   it("los pasos de cuenta avanzan con onboarding, práctica y pago real (no regalos)", async () => {
