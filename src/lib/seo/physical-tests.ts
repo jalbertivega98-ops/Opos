@@ -17,6 +17,11 @@ export type Scale = {
   steps: number[];
   /** Marca del 10 y si la tabla la da como estricta («<16,3», «>42»). */
   top: { value: number; strict: boolean };
+  /**
+   * Puntos que sube cada escalón (1 por defecto). Con 0,5 los `steps` son las
+   * marcas de 0,5, 1, 1,5… 9,5 puntos (Bombers).
+   */
+  pointStep?: number;
 };
 
 export type PhysicalExercise = {
@@ -28,6 +33,8 @@ export type PhysicalExercise = {
   lowerIsBetter: boolean;
   /** Paso del campo de la calculadora (0,1 s, 1 repetición, 0,5 periodos). */
   inputStep: number;
+  /** Marca en segundos que se escribe y se muestra como minutos y segundos (4'30"). */
+  time?: boolean;
   goal: L;
   description: L[];
   rules: L[];
@@ -37,6 +44,8 @@ export type PhysicalExercise = {
 
 export type PhysicalGuide = {
   examSlug: string;
+  /** Nombre de cada baremo si no es «Hombres» / «Mujeres» (Bombers: «Resto de personas»). */
+  groups?: Record<Sex, L>;
   verifiedOn: string;
   h1: L;
   seoTitle: L;
@@ -53,6 +62,25 @@ export type PhysicalGuide = {
   sources: { title: string; url: string }[];
 };
 
+/** Segundos como minutos y segundos del baremo: 275 → 4'35". */
+export function formatTime(seconds: number): string {
+  const m = Math.floor(seconds / 60);
+  const s = Math.round(seconds - m * 60);
+  return `${m}'${String(s).padStart(2, "0")}"`;
+}
+
+/** Lee «4:35», «4'35», «4'35"» o «4.35» como segundos; un número solo son segundos. */
+export function parseTime(text: string): number | null {
+  const t = text.trim();
+  if (t === "") return null;
+  const m = /^(\d{1,2})\s*[:'.,´’]\s*(\d{1,2})\s*["”]?$/.exec(t);
+  if (m) {
+    const sec = Number(m[2]);
+    return sec < 60 ? Number(m[1]) * 60 + sec : null;
+  }
+  return /^\d+$/.test(t) ? Number(t) : null;
+}
+
 /** Puntos (0-10) de una marca según el baremo. */
 export function exercisePoints(scale: Scale, mark: number, lowerIsBetter: boolean): number {
   if (!Number.isFinite(mark) || mark < 0) return 0;
@@ -66,9 +94,10 @@ export function exercisePoints(scale: Scale, mark: number, lowerIsBetter: boolea
       ? mark > value
       : mark >= value;
   if (top) return 10;
+  const unit = scale.pointStep ?? 1;
   let points = 0;
   scale.steps.forEach((step, i) => {
-    if (better(mark, step)) points = i + 1;
+    if (better(mark, step)) points = (i + 1) * unit;
   });
   return points;
 }
@@ -367,7 +396,354 @@ const mossos: PhysicalGuide = {
   ],
 };
 
-const GUIDES: Record<string, PhysicalGuide> = { [mossos.examSlug]: mossos };
+/** Escalones de 0,5 puntos de Bombers: 17 filas que bajan de 6 en 6 s (0,5 a 8,5) y las del 9 y 9,5. */
+function halfSteps(first: number, nine: number, nineHalf: number): number[] {
+  return [...Array.from({ length: 17 }, (_, i) => first - 6 * i), nine, nineHalf];
+}
+
+const BOMBERS_URL = "https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1054245";
+
+const bombers: PhysicalGuide = {
+  examSlug: "bombers-generalitat",
+  verifiedOn: "2026-11-18",
+  groups: {
+    women: { es: "Mujeres", ca: "Dones" },
+    men: { es: "Resto de personas", ca: "Resta de persones" },
+  },
+  h1: {
+    es: "Pruebas físicas de Bombers de la Generalitat 2026: ejercicios, baremos y calculadora",
+    ca: "Proves físiques de Bombers de la Generalitat 2026: exercicis, barems i calculadora",
+  },
+  seoTitle: {
+    es: "Pruebas físicas Bombers Generalitat 81/26: baremos y calculadora",
+    ca: "Proves físiques Bombers Generalitat 81/26: barems i calculadora",
+  },
+  seoDescription: {
+    es: "Incendio de vegetación, incendio estructural y rescate acuático de la convocatoria 81/26: baremos oficiales de mujeres y resto de personas, normas, penalizaciones y calculadora de tu nota.",
+    ca: "Incendi de vegetació, incendi estructural i rescat aquàtic de la convocatòria 81/26: barems oficials de dones i resta de persones, normes, penalitzacions i calculadora de la nota.",
+  },
+  intro: {
+    es: "La segunda prueba de la convocatoria 81/26 de bombero/a de primera es la prueba física: obligatoria y eliminatoria, con tres ejercicios que simulan intervenciones reales. Aquí tienes lo que dicen las bases (Resolución ISP/3218/2026, base 6.1.2 y anexo 3): cómo es cada ejercicio, qué se penaliza, los baremos oficiales y una calculadora para saber qué nota sacarías con tus tiempos.",
+    ca: "La segona prova de la convocatòria 81/26 de bomber/a de primera és la prova física: obligatòria i eliminatòria, amb tres exercicis que simulen intervencions reals. Aquí tens el que diuen les bases (Resolució ISP/3218/2026, base 6.1.2 i annex 3): com és cada exercici, què es penalitza, els barems oficials i una calculadora per saber quina nota trauries amb els teus temps.",
+  },
+  facts: [
+    {
+      label: { es: "Quién la hace", ca: "Qui la fa" },
+      value: {
+        es: "Las 360 mujeres y las 540 personas (plazas no reservadas) con mejor nota en la prueba de conocimientos; los empates en la última posición también entran",
+        ca: "Les 360 dones i les 540 persones (places no reservades) amb millor puntuació a la prova de coneixements; els empats en l'última posició també hi entren",
+      },
+    },
+    {
+      label: { es: "Ejercicios", ca: "Exercicis" },
+      value: {
+        es: "Incendio de vegetación, incendio estructural y rescate acuático, siempre en este orden y con al menos 15 minutos de descanso entre uno y otro",
+        ca: "Incendi de vegetació, incendi estructural i rescat aquàtic, sempre en aquest ordre i amb un mínim de 15 minuts de descans entre l'un i l'altre",
+      },
+    },
+    {
+      label: { es: "Intentos", ca: "Intents" },
+      value: {
+        es: "Uno solo en cada ejercicio. No se puede probar el material antes",
+        ca: "Un de sol a cada exercici. No es pot provar el material abans",
+      },
+    },
+    {
+      label: { es: "Para aprobar", ca: "Per aprovar" },
+      value: {
+        es: "5 de 10 de media entre los tres ejercicios",
+        ca: "5 de 10 de mitjana entre els tres exercicis",
+      },
+    },
+  ],
+  scoring: [
+    {
+      es: "Cada ejercicio se puntúa de 0 a 10, de medio en medio punto, según el tiempo final. La nota de la prueba es la suma de los tres dividida entre tres.",
+      ca: "Cada exercici es puntua de 0 a 10, de mig en mig punt, segons el temps final. La nota de la prova és la suma dels tres dividida entre tres.",
+    },
+    {
+      es: "El tiempo final incluye las penalizaciones: 10 segundos cada una en el incendio de vegetación y en el rescate acuático, y 5 segundos en el incendio estructural. Se acumulan.",
+      ca: "El temps final inclou les penalitzacions: 10 segons cadascuna a l'incendi de vegetació i al rescat aquàtic, i 5 segons a l'incendi estructural. S'acumulen.",
+    },
+    {
+      es: "Pasar del tiempo límite (la fila del 0 del baremo), abandonar, no seguir el orden de las fases o incumplir las normas de un ejercicio da 0 puntos en ese ejercicio.",
+      ca: "Excedir el temps límit (la fila del 0 del barem), abandonar, no seguir l'ordre de les fases o incomplir les normes d'un exercici dona 0 punts en aquell exercici.",
+    },
+    {
+      es: "Hace falta un 5 para superar la prueba. La nota cuenta: la fase de oposición suma la prueba de conocimientos (8), la física (10), la de oficios (12) y la psicológica (10).",
+      ca: "Cal un 5 per superar la prova. La nota compta: la fase d'oposició suma la prova de coneixements (8), la física (10), la d'oficis (12) i la psicològica (10).",
+    },
+    {
+      es: "Se va con ropa y calzado deportivos. No se permiten guantes, magnesio, rodilleras, muñequeras, tobilleras, fajas ni ropa con reflectantes. Puede haber control antidopaje.",
+      ca: "S'hi va amb roba i calçat esportius. No es permeten guants, magnèsia, genolleres, canelleres, turmelleres, faixes ni roba amb elements reflectants. Hi pot haver control antidopatge.",
+    },
+  ],
+  exercises: [
+    {
+      key: "vegetation",
+      name: { es: "Incendio de vegetación", ca: "Incendi de vegetació" },
+      unit: { es: "min:seg", ca: "min:seg" },
+      lowerIsBetter: true,
+      inputStep: 1,
+      time: true,
+      goal: {
+        es: "Simula el esfuerzo de un incendio forestal: resistencia cardiovascular y lanzamientos repetidos con fatiga, como al usar herramientas.",
+        ca: "Simula l'esforç d'un incendi de vegetació: resistència cardiovascular i llançaments repetits amb fatiga, com en fer servir eines.",
+      },
+      description: [
+        {
+          es: "Fase 1: 8 rectas de ida y vuelta de 20 metros y 16 lanzamientos contra el suelo con un balón medicinal de 6 kg.",
+          ca: "Fase 1: 8 rectes d'anada i tornada de 20 metres i 16 llançaments contra el terra amb una pilota medicinal de 6 kg.",
+        },
+        {
+          es: "Fase 2: 10 rectas y 20 lanzamientos.",
+          ca: "Fase 2: 10 rectes i 20 llançaments.",
+        },
+        {
+          es: "Fase 3: 12 rectas y 24 lanzamientos. El tiempo se para al volver a la zona de salida.",
+          ca: "Fase 3: 12 rectes i 24 llançaments. El temps s'atura en tornar a la zona de sortida.",
+        },
+      ],
+      rules: [
+        {
+          es: "En cada recta hay que pisar la línea junto al balón y girar 180° alrededor del cono del otro extremo.",
+          ca: "A cada recta cal trepitjar la línia de la pilota i fer el gir de 180° al voltant del con de l'altre extrem.",
+        },
+        {
+          es: "Un lanzamiento vale si el balón pasa por encima de la cabeza, sale de las manos antes de tocar el suelo, golpea el suelo y flexionas y vuelves a extender la cadera. Si no vale, no cuenta.",
+          ca: "Un llançament és vàlid si la pilota sobrepassa el cap, surt de les mans abans de tocar a terra, colpeja el terra i flexiones i tornes a estendre el maluc. Si no és vàlid, no compta.",
+        },
+        {
+          es: "Penalizan 10 segundos: no salir de la zona marcada, no pisar la línea, no girar alrededor del cono, mover o tirar un cono y no dejar el balón entero en su zona.",
+          ca: "Penalitzen 10 segons: no sortir de la zona delimitada, no trepitjar la línia, no girar al voltant del con, desplaçar o tombar un con i no deixar tota la pilota a la seva zona.",
+        },
+      ],
+      attempts: {
+        es: "Un solo intento; cuenta el tiempo total de las tres fases más las penalizaciones.",
+        ca: "Un sol intent; compta el temps total de les tres fases més les penalitzacions.",
+      },
+      scale: {
+        women: {
+          steps: halfSteps(365, 263, 252),
+          top: { value: 236, strict: false },
+          pointStep: 0.5,
+        },
+        men: {
+          steps: halfSteps(329, 227, 216),
+          top: { value: 200, strict: false },
+          pointStep: 0.5,
+        },
+      },
+    },
+    {
+      key: "structural",
+      name: { es: "Incendio estructural", ca: "Incendi estructural" },
+      unit: { es: "min:seg", ca: "min:seg" },
+      lowerIsBetter: true,
+      inputStep: 1,
+      time: true,
+      goal: {
+        es: "Simula una intervención en un edificio: subir con peso, llevar material cansado, tirar de mangueras, empujar, moverse en espacios estrechos y arrastrar a una víctima.",
+        ca: "Simula una intervenció en un edifici: pujar amb pes, transportar material amb fatiga, maniobrar mànegues, empènyer, moure's en espais confinats i arrossegar una víctima.",
+      },
+      description: [
+        {
+          es: "Todo el ejercicio se hace con un chaleco de 10 kg.",
+          ca: "Tot l'exercici es fa amb una armilla de 10 kg.",
+        },
+        {
+          es: "Fase 1: dos discos de 10 kg bajo los brazos durante 40 metros, pasando por una barra de equilibrio (3 m de largo, 21,5 cm de alto, 10 cm de ancho), y 10 subidas y bajadas a un cajón.",
+          ca: "Fase 1: dos discos de 10 kg sota els braços durant 40 metres, passant per una barra d'equilibri (3 m de llarg, 21,5 cm d'alt, 10 cm d'ample), i 10 pujades i baixades a un calaix.",
+        },
+        {
+          es: "Fase 2: lo mismo con una pesa rusa (kettlebell) de 12 kg en cada mano, sin subirlas por encima de la cintura.",
+          ca: "Fase 2: el mateix amb un pes rus (kettlebell) de 12 kg a cada mà, sense pujar-los per damunt de la cintura.",
+        },
+        {
+          es: "Fases 3 y 4: desde un cuadrado de 1 m², tirar con una cuerda de un trineo de unos 96 kg con freno magnético y después empujarlo 10 metros.",
+          ca: "Fases 3 i 4: des d'un requadre d'1 m², estirar amb una corda un trineu d'uns 96 kg amb fre magnètic i després empènyer-lo 10 metres.",
+        },
+        {
+          es: "Fase 5: recorrido en C de unos 10 metros a cuatro patas o reptando bajo vallas de 91 cm.",
+          ca: "Fase 5: recorregut en C d'uns 10 metres de quatre grapes o reptant sota tanques de 91 cm.",
+        },
+        {
+          es: "Fase 6: arrastrar de espaldas un maniquí de unos 50 kg durante 18 metros (9 en zigzag entre conos), con sus pies siempre en el suelo.",
+          ca: "Fase 6: arrossegar d'esquena un maniquí d'uns 50 kg durant 18 metres (9 en ziga-zaga entre cons), amb els peus sempre a terra.",
+        },
+        {
+          es: "Fase 7: correr 9 metros y pasar entre los dos conos finales, donde se para el tiempo.",
+          ca: "Fase 7: córrer 9 metres i passar entre els dos cons finals, on s'atura el temps.",
+        },
+      ],
+      rules: [
+        {
+          es: "Penalizan 5 segundos, entre otras: caerse de la barra, dejar caer un disco o una pesa, coger los discos por el agujero, saltar al cajón, no devolver el material, pisar fuera del cuadrado del trineo, tocar o pasar por encima de las vallas y que el maniquí toque el suelo con el tronco o levante un pie.",
+          ca: "Penalitzen 5 segons, entre altres: caure de la barra, deixar caure un disc o un pes, agafar els discos pel forat, saltar al calaix, no tornar el material, trepitjar fora del requadre del trineu, tocar o sobrepassar les tanques i que el maniquí toqui a terra amb el tronc o aixequi un peu.",
+        },
+        {
+          es: "Si caes de la barra, vuelves a empezarla. No se pasa a la fase siguiente sin superarla.",
+          ca: "Si caus de la barra, la tornes a començar. No es passa a la fase següent sense superar-la.",
+        },
+        {
+          es: "Mover o tirar la estructura de los discos, las pesas o el cajón, o volcar el trineo, da 0 puntos en el ejercicio.",
+          ca: "Desplaçar o tombar l'estructura dels discos, els pesos o el calaix, o bolcar el trineu, dona 0 punts a l'exercici.",
+        },
+      ],
+      attempts: {
+        es: "Un solo intento; cuenta el tiempo de las siete fases más las penalizaciones.",
+        ca: "Un sol intent; compta el temps de les set fases més les penalitzacions.",
+      },
+      scale: {
+        women: {
+          steps: halfSteps(257, 155, 144),
+          top: { value: 128, strict: false },
+          pointStep: 0.5,
+        },
+        men: {
+          steps: halfSteps(215, 113, 102),
+          top: { value: 86, strict: false },
+          pointStep: 0.5,
+        },
+      },
+    },
+    {
+      key: "water",
+      name: { es: "Rescate acuático", ca: "Rescat aquàtic" },
+      unit: { es: "min:seg", ca: "min:seg" },
+      lowerIsBetter: true,
+      inputStep: 1,
+      time: true,
+      goal: {
+        es: "Simula un rescate en el agua: entrada segura, apnea, resistencia, natación de salvamento y remolque de una víctima.",
+        ca: "Simula un rescat a l'aigua: entrada segura, apnea, resistència, natació de salvament i remolc d'una víctima.",
+      },
+      description: [
+        {
+          es: "Piscina de 25 metros. Bañador y gorro obligatorios; gafas opcionales.",
+          ca: "Piscina de 25 metres. Vestit i casquet de bany obligatoris; ulleres opcionals.",
+        },
+        {
+          es: "Fase 1: entrar al agua de pie, con la cabeza siempre fuera.",
+          ca: "Fase 1: entrar a l'aigua de peus, amb el cap sempre fora.",
+        },
+        {
+          es: "Fase 2: 15 metros buceando en apnea, pasando por debajo de una valla de 1 metro en el fondo.",
+          ca: "Fase 2: 15 metres en immersió i apnea, passant per sota d'una tanca d'1 metre al fons.",
+        },
+        {
+          es: "Fase 3: 30 segundos flotando con la cabeza y las dos manos (los cinco dedos) fuera del agua, sin tocar nada.",
+          ca: "Fase 3: 30 segons a la superfície amb el cap i les dues mans (els cinc dits) fora de l'aigua, sense tocar res.",
+        },
+        {
+          es: "Fase 4: dos largos a crol, tocando la pared con la mano y sin voltereta ni impulso.",
+          ca: "Fase 4: dos trams a crol, tocant la paret amb la mà i sense tombarella ni impuls.",
+        },
+        {
+          es: "Fase 5: 25 metros de crol de salvamento, con la cabeza fuera del agua.",
+          ca: "Fase 5: 25 metres de crol de salvament, amb el cap fora de l'aigua.",
+        },
+        {
+          es: "Fase 6: remolcar 25 metros un maniquí de unos 35 kg con tus vías respiratorias y las suyas fuera del agua. El tiempo se para al dejarlo en el borde.",
+          ca: "Fase 6: remolcar 25 metres un maniquí d'uns 35 kg amb les teves vies aèries i les seves fora de l'aigua. El temps s'atura en deixar-lo a la vora.",
+        },
+      ],
+      rules: [
+        {
+          es: "Penalizan 10 segundos, entre otras: tocar una corchera o la pared fuera de lo previsto, salir a respirar en la apnea, no pasar bajo la valla, sumergir la cabeza o un dedo en los 30 segundos, hacer voltereta, impulsarse en la pared y llevar la boca o la del maniquí bajo el agua.",
+          ca: "Penalitzen 10 segons, entre altres: tocar una surada o la paret fora del previst, sortir a respirar a l'apnea, no passar per sota la tanca, submergir el cap o un dit durant els 30 segons, fer tombarella, impulsar-se a la paret i portar la via aèria o la del maniquí sota l'aigua.",
+        },
+        {
+          es: "Al pasar bajo las corcheras, las vías respiratorias pueden estar como máximo 5 segundos bajo el agua.",
+          ca: "En passar per sota les surades, les vies aèries poden estar com a màxim 5 segons sota l'aigua.",
+        },
+        {
+          es: "Si no haces los 15 metros de apnea de una vez, tienes 10 segundos de penalización y sigues desde la zona final.",
+          ca: "Si no fas els 15 metres d'apnea d'una tirada, tens 10 segons de penalització i continues des de la zona final.",
+        },
+      ],
+      attempts: {
+        es: "Un solo intento; cuenta el tiempo de las seis fases más las penalizaciones.",
+        ca: "Un sol intent; compta el temps de les sis fases més les penalitzacions.",
+      },
+      scale: {
+        women: {
+          steps: halfSteps(281, 179, 168),
+          top: { value: 152, strict: false },
+          pointStep: 0.5,
+        },
+        men: {
+          steps: halfSteps(257, 155, 144),
+          top: { value: 128, strict: false },
+          pointStep: 0.5,
+        },
+      },
+    },
+  ],
+  minPerExercise: 0,
+  passMark: 5,
+  after: {
+    es: "Después viene la prueba de oficios (sanitario, carpintería y construcción, fontanería y electricidad, y conducción de vehículos pesados), a la que se convoca a las 240 mujeres y a las 360 personas con mejor nota, así que cada medio punto de la prueba física cuenta.",
+    ca: "Després ve la prova d'oficis (sanitari, fusteria i construcció, lampisteria i electricitat, i conducció de vehicles pesants), a la qual es convoca les 240 dones i les 360 persones amb millor puntuació, així que cada mig punt de la prova física compta.",
+  },
+  faq: [
+    {
+      q: {
+        es: "¿Qué nota hace falta en las pruebas físicas de Bombers de la Generalitat?",
+        ca: "Quina nota cal a les proves físiques de Bombers de la Generalitat?",
+      },
+      a: {
+        es: "Un 5 de 10, que es la suma de los tres ejercicios dividida entre tres. Las bases no ponen un mínimo por ejercicio, pero un 0 en uno obliga a sacar 7,5 de media en los otros dos.",
+        ca: "Un 5 de 10, que és la suma dels tres exercicis dividida entre tres. Les bases no posen un mínim per exercici, però un 0 en un obliga a treure 7,5 de mitjana en els altres dos.",
+      },
+    },
+    {
+      q: {
+        es: "¿Qué tiempo hace falta para un 5 en cada ejercicio?",
+        ca: "Quin temps cal per a un 5 a cada exercici?",
+      },
+      a: {
+        es: "Mujeres: 5'11\" en el incendio de vegetación, 3'23\" en el estructural y 3'47\" en el rescate acuático. Resto de personas: 4'35\", 2'41\" y 3'23\".",
+        ca: "Dones: 5'11\" a l'incendi de vegetació, 3'23\" a l'estructural i 3'47\" al rescat aquàtic. Resta de persones: 4'35\", 2'41\" i 3'23\".",
+      },
+    },
+    {
+      q: {
+        es: "¿Cuánto pesa el balón medicinal y el chaleco?",
+        ca: "Quant pesa la pilota medicinal i l'armilla?",
+      },
+      a: {
+        es: "El balón medicinal pesa 6 kg y el chaleco del incendio estructural, 10 kg. En ese ejercicio también se llevan dos discos de 10 kg, dos pesas rusas de 12 kg, un trineo de unos 96 kg y un maniquí de unos 50 kg.",
+        ca: "La pilota medicinal pesa 6 kg i l'armilla de l'incendi estructural, 10 kg. En aquest exercici també es porten dos discos de 10 kg, dos pesos russos de 12 kg, un trineu d'uns 96 kg i un maniquí d'uns 50 kg.",
+      },
+    },
+    {
+      q: {
+        es: "¿Se puede aplazar la prueba física por embarazo?",
+        ca: "Es pot ajornar la prova física per embaràs?",
+      },
+      a: {
+        es: "Sí. Las participantes embarazadas o que no hayan cumplido 6 meses desde el nacimiento pueden pedir hacerla de forma individual, con certificado médico, o aplazarla y seguir con el resto de pruebas (base 6.1.2).",
+        ca: "Sí. Les participants embarassades o que no hagin complert 6 mesos des del naixement poden demanar fer-la de forma individualitzada, amb certificat mèdic, o ajornar-la i continuar amb la resta de proves (base 6.1.2).",
+      },
+    },
+  ],
+  sources: [
+    {
+      title: "Resolució ISP/3218/2026, de 10 de setembre (DOGC): base 6.1.2 i annex 3",
+      url: BOMBERS_URL,
+    },
+    {
+      title: "Bombers de la Generalitat · Convocatòria 81/26",
+      url: "https://interior.gencat.cat/ca/arees_dactuacio/bombers/convocatories/bombers-funcionaris/acces-a-bomber-a-de-1a-de-lescala-tecnica-81-26/",
+    },
+  ],
+};
+
+const GUIDES: Record<string, PhysicalGuide> = {
+  [mossos.examSlug]: mossos,
+  [bombers.examSlug]: bombers,
+};
 
 export const getPhysicalGuide = (slug: string): PhysicalGuide | undefined => GUIDES[slug];
 export const physicalGuides = (): PhysicalGuide[] => Object.values(GUIDES);
