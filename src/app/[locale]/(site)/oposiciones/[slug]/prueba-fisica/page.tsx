@@ -8,7 +8,12 @@ import { FaqList } from "@/components/seo/faq-list";
 import { PhysicalCalculator } from "@/components/seo/physical-calculator";
 import { getExamBody, localized } from "@/lib/catalog/queries";
 import { JsonLd, faqLd } from "@/lib/seo/json-ld";
-import { getPhysicalGuide, type Sex } from "@/lib/seo/physical-tests";
+import {
+  formatTime,
+  getPhysicalGuide,
+  type PhysicalExercise,
+  type Sex,
+} from "@/lib/seo/physical-tests";
 import { tr } from "@/lib/seo/psycho-guides";
 import { pageMetadata } from "@/lib/seo/site";
 
@@ -44,6 +49,27 @@ function cell(value: number, sign: "<" | ">" | "", locale: string) {
   return `${sign}${n}`;
 }
 
+/**
+ * Celda del baremo para los puntos `p`. Los tiempos en minutos (Bombers) se
+ * muestran como en las bases: «≥ 6'06"», «6'00" a 6'05"», «≤ 3'56"».
+ */
+function scaleCell(ex: PhysicalExercise, sex: Sex, p: number, locale: string, to: string) {
+  const s = ex.scale[sex];
+  const unit = s.pointStep ?? 1;
+  const i = Math.round(p / unit) - 1;
+  if (ex.time) {
+    if (p === 0) return `≥ ${formatTime(s.steps[0] + 1)}`;
+    if (p === 10) return `${s.top.strict ? "<" : "≤"} ${formatTime(s.top.value)}`;
+    const better = i + 1 < s.steps.length ? s.steps[i + 1] : s.top.value;
+    return `${formatTime(better + 1)} ${to} ${formatTime(s.steps[i])}`;
+  }
+  const worse = ex.lowerIsBetter ? ">" : "<";
+  const better = ex.lowerIsBetter ? "<" : ">";
+  if (p === 0) return cell(s.steps[0], worse, locale);
+  if (p === 10) return cell(s.top.value, s.top.strict ? better : "", locale);
+  return cell(s.steps[i], "", locale);
+}
+
 export default async function PhysicalTestPage({
   params,
 }: PageProps<"/[locale]/oposiciones/[slug]/prueba-fisica">) {
@@ -63,7 +89,13 @@ export default async function PhysicalTestPage({
     month: "long",
     year: "numeric",
   });
-  const sexes: Sex[] = ["men", "women"];
+  const sexes: Sex[] = guide.groups ? ["women", "men"] : ["men", "women"];
+  const groupName = (sex: Sex) =>
+    guide.groups ? tr(guide.groups[sex], locale) : t(`seo.physical.${sex}`);
+  // Filas del baremo: de punto en punto o de medio en medio (Bombers)
+  const unit = guide.exercises[0]?.scale.men.pointStep ?? 1;
+  const rows = Array.from({ length: Math.round(10 / unit) + 1 }, (_, i) => i * unit);
+  const fmtPoints = (n: number) => n.toLocaleString(locale === "ca" ? "ca-ES" : "es-ES");
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:py-14">
@@ -150,9 +182,7 @@ export default async function PhysicalTestPage({
           {sexes.map((sex) => (
             <div key={sex} className="overflow-x-auto">
               <table className="border-border w-full border text-sm" data-testid={`scale-${sex}`}>
-                <caption className="mb-2 text-left font-semibold">
-                  {t(`seo.physical.${sex}`)}
-                </caption>
+                <caption className="mb-2 text-left font-semibold">{groupName(sex)}</caption>
                 <thead>
                   <tr className="bg-surface-2">
                     <th scope="col" className="px-2 py-1 text-left">
@@ -169,27 +199,16 @@ export default async function PhysicalTestPage({
                   </tr>
                 </thead>
                 <tbody>
-                  {Array.from({ length: 11 }, (_, p) => (
+                  {rows.map((p) => (
                     <tr key={p} className="border-border border-t">
-                      <th scope="row" className="px-2 py-1 text-left">
-                        {p}
+                      <th scope="row" className="px-2 py-1 text-left tabular-nums">
+                        {fmtPoints(p)}
                       </th>
-                      {guide.exercises.map((ex) => {
-                        const s = ex.scale[sex];
-                        const worse = ex.lowerIsBetter ? ">" : "<";
-                        const better = ex.lowerIsBetter ? "<" : ">";
-                        const text =
-                          p === 0
-                            ? cell(s.steps[0], worse, locale)
-                            : p === 10
-                              ? cell(s.top.value, s.top.strict ? better : "", locale)
-                              : cell(s.steps[p - 1], "", locale);
-                        return (
-                          <td key={ex.key} className="px-2 py-1 tabular-nums">
-                            {text}
-                          </td>
-                        );
-                      })}
+                      {guide.exercises.map((ex) => (
+                        <td key={ex.key} className="px-2 py-1 whitespace-nowrap tabular-nums">
+                          {scaleCell(ex, sex, p, locale, t("seo.physical.to"))}
+                        </td>
+                      ))}
                     </tr>
                   ))}
                 </tbody>

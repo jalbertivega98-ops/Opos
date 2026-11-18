@@ -34,11 +34,48 @@ test.describe("Prueba física de Mossos (ADR-052)", () => {
     await expect(calc).toContainText("0 puntos en algún ejercicio");
   });
 
+  test("Bombers: baremos de medio punto, tiempos en minutos y sin mínimo por ejercicio", async ({
+    page,
+  }) => {
+    await page.goto("/oposiciones/bombers-generalitat");
+    await expect(page.getByTestId("physical-test-link")).toHaveAttribute(
+      "href",
+      "/oposiciones/bombers-generalitat/prueba-fisica",
+    );
+    await page.goto("/oposiciones/bombers-generalitat/prueba-fisica");
+    await expect(page.getByRole("heading", { level: 1 })).toContainText(
+      "Pruebas físicas de Bombers",
+    );
+    await expect(page.getByTestId("scale-women")).toContainText("Mujeres");
+    await expect(page.getByTestId("scale-women")).toContainText(`6'00" a 6'05"`);
+    await expect(page.getByTestId("scale-men")).toContainText("Resto de personas");
+    await expect(page.getByTestId("scale-men")).toContainText(`≤ 1'26"`);
+
+    const calc = page.getByTestId("physical-calculator");
+    await calc.getByLabel("Resto de personas").check();
+    await page.getByTestId("physical-mark-vegetation").fill("4:35");
+    await page.getByTestId("physical-mark-structural").fill("2:41");
+    await page.getByTestId("physical-mark-water").fill("3'23");
+    await expect(page.getByTestId("physical-total")).toHaveText("Nota de la prueba: 5 de 10");
+    await expect(calc).toContainText("Aprobada");
+
+    // Sin mínimo por ejercicio: un 0 no elimina si la media llega al 5
+    await page.getByTestId("physical-mark-vegetation").fill("6:00");
+    await page.getByTestId("physical-mark-structural").fill("1:20");
+    await page.getByTestId("physical-mark-water").fill("2:00");
+    await expect(page.getByTestId("physical-points-vegetation")).toHaveText("0 puntos");
+    await expect(calc).toContainText("Aprobada");
+
+    await page.getByTestId("physical-mark-water").fill("abc");
+    await expect(calc).toContainText("minutos y segundos");
+  });
+
   test("solo existe para oposiciones con guía y está en el sitemap", async ({ page, request }) => {
     const res = await page.goto("/oposiciones/auxilio-judicial/prueba-fisica");
     expect(res?.status()).toBe(404);
     const xml = await (await request.get("/sitemap.xml")).text();
     expect(xml).toContain("/oposiciones/mossos-esquadra/prueba-fisica");
     expect(xml).toContain("/ca/oposiciones/mossos-esquadra/prueba-fisica");
+    expect(xml).toContain("/oposiciones/bombers-generalitat/prueba-fisica");
   });
 });

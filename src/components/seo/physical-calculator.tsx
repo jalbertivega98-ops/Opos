@@ -2,7 +2,7 @@
 
 import { useId, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { getPhysicalGuide, physicalScore, type Sex } from "@/lib/seo/physical-tests";
+import { getPhysicalGuide, parseTime, physicalScore, type Sex } from "@/lib/seo/physical-tests";
 
 const tr = (l: { es: string; ca: string }, locale: string) => (locale === "ca" ? l.ca : l.es);
 
@@ -16,7 +16,8 @@ export function PhysicalCalculator({ examSlug }: { examSlug: string }) {
   const [marks, setMarks] = useState<string[]>(() => guide?.exercises.map(() => "") ?? []);
   if (!guide) return null;
 
-  const parsed = marks.map((m) => {
+  const parsed = marks.map((m, i) => {
+    if (guide.exercises[i]?.time) return parseTime(m);
     const n = Number(m.replace(",", "."));
     return m.trim() === "" || !Number.isFinite(n) ? null : n;
   });
@@ -42,7 +43,7 @@ export function PhysicalCalculator({ examSlug }: { examSlug: string }) {
                 checked={sex === s}
                 onChange={() => setSex(s)}
               />
-              {t(s)}
+              {guide.groups ? tr(guide.groups[s], locale) : t(s)}
             </label>
           ))}
         </div>
@@ -57,10 +58,9 @@ export function PhysicalCalculator({ examSlug }: { examSlug: string }) {
             <div className="mt-1 flex items-center gap-2">
               <input
                 id={`${id}-${ex.key}`}
-                inputMode="decimal"
-                type="number"
-                min={0}
-                step={ex.inputStep}
+                {...(ex.time
+                  ? { type: "text", inputMode: "text", placeholder: "4:30", autoComplete: "off" }
+                  : { type: "number", inputMode: "decimal", min: 0, step: ex.inputStep })}
                 value={marks[i]}
                 onChange={(e) => setMarks((m) => m.map((v, j) => (j === i ? e.target.value : v)))}
                 className="border-input bg-background h-11 w-full rounded-lg border px-3"
@@ -68,6 +68,9 @@ export function PhysicalCalculator({ examSlug }: { examSlug: string }) {
               />
               <span className="text-muted-foreground text-sm">{tr(ex.unit, locale)}</span>
             </div>
+            {ex.time && marks[i].trim() !== "" && parsed[i] === null && (
+              <p className="text-danger mt-1 text-sm">{t("timeFormat")}</p>
+            )}
             {parsed[i] !== null && (
               <p className="mt-1 text-sm" data-testid={`physical-points-${ex.key}`}>
                 {t("points", { points: result.points[i] })}
@@ -85,7 +88,9 @@ export function PhysicalCalculator({ examSlug }: { examSlug: string }) {
             </p>
             <p className={result.passed ? "text-success mt-1" : "text-danger mt-1"}>
               {result.passed
-                ? t("passed")
+                ? guide.minPerExercise > 0
+                  ? t("passed")
+                  : t("passedNoMin", { pass: guide.passMark })
                 : result.failedExercises.length > 0
                   ? t("failedMin")
                   : t("failed", { pass: guide.passMark })}
