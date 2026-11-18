@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
-import { Check, Timer, X } from "lucide-react";
+import { Check, Minus, Timer, X } from "lucide-react";
 import { Link, useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -20,8 +20,7 @@ import { Token, useTokenText } from "./token";
 
 type Result = { correct: boolean; answerIndex: number; explanation: Explanation };
 
-type Mode =
-  { kind: "demo" } | { kind: "session"; sessionId: string; startAt: number };
+type Mode = { kind: "demo" } | { kind: "session"; sessionId: string; startAt: number };
 
 /**
  * Entrenador de psicotécnicos. En modo `demo` corrige sin guardar nada
@@ -39,6 +38,7 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
   const [choice, setChoice] = useState<number | null>(null);
   const [result, setResult] = useState<Result | null>(null);
   const [score, setScore] = useState(0);
+  const [blanks, setBlanks] = useState(0);
   const [done, setDone] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
@@ -56,7 +56,8 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
 
   const item = items[index];
 
-  function answer(i: number) {
+  /** `null` deja el ejercicio en blanco: no suma acierto y enseña la solución. */
+  function answer(i: number | null) {
     if (result || pending) return;
     setChoice(i);
     setError(null);
@@ -79,6 +80,7 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
       }
       setResult(r);
       if (r.correct) setScore((s) => s + 1);
+      if (i === null) setBlanks((b) => b + 1);
     });
   }
 
@@ -102,6 +104,11 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
       <Card className="space-y-4 text-center" data-testid="series-result">
         <h2 className="text-2xl font-bold">{t("resultTitle")}</h2>
         <p className="text-lg">{t("result", { correct: score, total: items.length, seconds })}</p>
+        {blanks > 0 && (
+          <p className="text-muted-foreground" data-testid="series-blank">
+            {t("resultBlank", { blank: blanks })}
+          </p>
+        )}
         <p className="text-muted-foreground text-sm">{t("demoNotSaved")}</p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button variant="outline" onClick={() => router.refresh()}>
@@ -182,6 +189,18 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
         })}
       </div>
 
+      {!result && (
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => answer(null)}
+          disabled={pending}
+          data-testid="psycho-skip"
+        >
+          <Minus aria-hidden /> {t("skip")}
+        </Button>
+      )}
+
       {error && (
         <Alert tone="error">
           {t.has(`errors.${error}`) ? t(`errors.${error}`) : t("errors.invalid")}
@@ -189,11 +208,13 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
       )}
       {result && (
         <div className="space-y-4" aria-live="polite">
-          <Alert tone={result.correct ? "success" : "error"}>
+          <Alert tone={result.correct ? "success" : choice === null ? "info" : "error"}>
             <p className="font-semibold">
               {result.correct
                 ? t("correct")
-                : t("wrong", { answer: text(item.options[result.answerIndex]) })}
+                : choice === null
+                  ? t("blankResult", { answer: text(item.options[result.answerIndex]) })
+                  : t("wrong", { answer: text(item.options[result.answerIndex]) })}
             </p>
             <p className="mt-1">{explain(result.explanation)}</p>
           </Alert>

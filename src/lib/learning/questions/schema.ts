@@ -11,7 +11,8 @@ export const startTopicSchema = z.object({
 export const answerQuestionSchema = z.object({
   sessionId: z.uuid(),
   position: z.number().int().min(0).max(99),
-  choice: z.number().int().min(0).max(5),
+  /** null = dejar la pregunta en blanco. */
+  choice: z.number().int().min(0).max(5).nullable(),
 });
 
 /** Ítem de pregunta tal como se muestra (sin solución). */

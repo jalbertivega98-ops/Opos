@@ -2,7 +2,7 @@
 
 import { useRef, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
-import { Check, X } from "lucide-react";
+import { Check, Minus, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -28,7 +28,8 @@ type Miss = {
   id: string;
   stem: string;
   locale: string;
-  chosen: string;
+  /** null = la dejó en blanco. */
+  chosen: string | null;
   answer: string;
   answerLetter: string;
   explanation: string | null;
@@ -66,7 +67,8 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
   // arriba queda fuera de la pantalla); las demás, encima de la pregunta.
   const topTip = guide.phase === "feedback" ? null : guide.phase;
 
-  function answer(i: number) {
+  /** `null` deja la pregunta en blanco: no suma acierto y enseña la solución. */
+  function answer(i: number | null) {
     if (result || pending) return;
     setChoice(i);
     setError(false);
@@ -87,7 +89,7 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
             id: item.id,
             stem: item.stem,
             locale: item.locale,
-            chosen: item.options[i] ?? "",
+            chosen: i === null ? null : (item.options[i] ?? ""),
             answer: item.options[r.answerIndex] ?? "",
             answerLetter: LETTERS[r.answerIndex] ?? "",
             explanation: r.explanation.text ?? null,
@@ -128,6 +130,11 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
           <h2 ref={headingRef} tabIndex={-1} className="text-2xl font-bold outline-none">
             {ts("result", { correct: score, total: items.length })}
           </h2>
+          {misses.some((m) => m.chosen === null) && (
+            <p className="text-muted-foreground" data-testid="sample-blank">
+              {ts("blankCount", { count: misses.filter((m) => m.chosen === null).length })}
+            </p>
+          )}
           <p className="text-lg">
             {ts("grade", { grade: grade.toLocaleString(item?.locale === "ca" ? "ca" : "es") })}
           </p>
@@ -156,10 +163,17 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
                     <p className="font-medium" lang={m.locale}>
                       {m.stem}
                     </p>
-                    <p className="text-danger text-sm" lang={m.locale}>
-                      <X className="mr-1 inline size-4" aria-hidden />
-                      {ts("yourAnswer")}: {m.chosen}
-                    </p>
+                    {m.chosen === null ? (
+                      <p className="text-muted-foreground text-sm">
+                        <Minus className="mr-1 inline size-4" aria-hidden />
+                        {ts("yourAnswer")}: {t("blank")}
+                      </p>
+                    ) : (
+                      <p className="text-danger text-sm" lang={m.locale}>
+                        <X className="mr-1 inline size-4" aria-hidden />
+                        {ts("yourAnswer")}: {m.chosen}
+                      </p>
+                    )}
                     <p className="text-success text-sm font-semibold" lang={m.locale}>
                       <Check className="mr-1 inline size-4" aria-hidden />
                       {ts("rightAnswer")}: {m.answerLetter}. {m.answer}
@@ -245,14 +259,28 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
           })}
         </div>
 
+        {!result && (
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => answer(null)}
+            disabled={pending}
+            data-testid="question-skip"
+          >
+            <Minus aria-hidden /> {t("skip")}
+          </Button>
+        )}
+
         {error && <Alert tone="error">{ts("error")}</Alert>}
         {result && (
           <div className="space-y-4" aria-live="polite">
-            <Alert tone={result.correct ? "success" : "error"}>
+            <Alert tone={result.correct ? "success" : choice === null ? "info" : "error"}>
               <p className="font-semibold">
                 {result.correct
                   ? t("correct")
-                  : t("wrong", { letter: LETTERS[result.answerIndex] })}
+                  : choice === null
+                    ? t("blankResult", { letter: LETTERS[result.answerIndex] })
+                    : t("wrong", { letter: LETTERS[result.answerIndex] })}
               </p>
               {result.explanation.text && (
                 <p className="mt-1" lang={item.locale}>

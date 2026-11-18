@@ -1076,7 +1076,10 @@
       "triangle": "triángulos",
       "diamond": "rombos",
       "arrow": "flechas"
-    }
+    },
+    "skip": "Dejar en blanco",
+    "blankResult": "En blanco. La respuesta era {answer}.",
+    "resultBlank": "En blanco: {blank}."
   },
   "practice": {
     "title": "Práctica",
@@ -1132,7 +1135,8 @@
     "topicMastered": "¡Tema dominado! Sigue repasando de vez en cuando para no olvidarlo.",
     "topicGoal": "Para dominarlo: al menos {answered} respuestas y un {pct} % de aciertos.",
     "topicMore": "Otras 10 preguntas de este tema",
-    "topicStudy": "Estudiar el tema"
+    "topicStudy": "Estudiar el tema",
+    "breakdown": "Aciertos: {correct} · Fallos: {wrong} · En blanco: {blank}"
   },
   "progress": {
     "title": "Mi progreso",
@@ -1506,7 +1510,9 @@
       "changed": "La pregunta se ha actualizado. Vuelve a empezar la práctica.",
       "state": "No se pudo guardar la respuesta. Recarga la página."
     },
-    "blank": "En blanco"
+    "blank": "En blanco",
+    "skip": "Dejar en blanco",
+    "blankResult": "En blanco. La respuesta correcta es la {letter}."
   },
   "mock": {
     "title": "Simulacro",
@@ -1520,7 +1526,7 @@
     "clear": "Dejar en blanco",
     "prev": "Anterior",
     "next": "Siguiente",
-    "rules": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar. Cada error resta el {penalty} % de un acierto; las preguntas en blanco no restan. Cuando se acabe el tiempo se entrega solo.",
+    "rules": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar. Cada error resta el {penalty} % de un acierto; las preguntas en blanco no restan. Para dejar una en blanco, no marques nada o vuelve a pulsar la opción marcada. Cuando se acabe el tiempo se entrega solo.",
     "submit": "Entregar el simulacro",
     "confirmBlank": "Tienes {blank, plural, one {# pregunta} other {# preguntas}} en blanco. ¿Quieres entregar igualmente?",
     "confirmAll": "Has contestado todas las preguntas. ¿Quieres entregar?",
@@ -1542,7 +1548,7 @@
     "again": "Volver a mis productos",
     "toProgress": "Ver mi progreso",
     "itemsTitle": "Corrección",
-    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Cuando se acabe el tiempo se entrega solo.",
+    "rulesNoPenalty": "Como en el examen: puedes cambiar cualquier respuesta hasta entregar y los errores no restan. Para dejar una en blanco, no marques nada o vuelve a pulsar la opción marcada. Cuando se acabe el tiempo se entrega solo.",
     "partTitle": "Parte {part}",
     "partDetail": "Directa {direct, number} de {valid} (corte {cut, number}) · calificación {grade, number} / 50",
     "partPassed": "Superada",
@@ -1774,9 +1780,10 @@
       "ctaHint": "{n} preguntas con solución, sin registrarte.",
       "otherExams": "Test gratis de otras oposiciones",
       "grade": "Equivale a un {grade} sobre 10 (sin descontar los errores).",
-      "missesTitle": "{count, plural, one {Repasa la pregunta que has fallado} other {Repasa las # preguntas que has fallado}}",
+      "missesTitle": "{count, plural, one {Repasa la pregunta que no has acertado} other {Repasa las # preguntas que no has acertado}}",
       "yourAnswer": "Tu respuesta",
-      "rightAnswer": "Correcta"
+      "rightAnswer": "Correcta",
+      "blankCount": "{count, plural, one {Has dejado # pregunta en blanco.} other {Has dejado # preguntas en blanco.}}"
     },
     "physical": {
       "crumb": "Prueba física",

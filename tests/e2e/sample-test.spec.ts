@@ -29,24 +29,34 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
     );
 
     for (let i = 0; i < 6; i++) {
-      // Falla la primera, acierta el resto
-      await page
-        .getByTestId("question-option")
-        .nth(i === 0 ? 0 : 1)
-        .click();
+      // Falla la primera, deja en blanco la segunda y acierta el resto
+      if (i === 1) await page.getByTestId("question-skip").click();
+      else
+        await page
+          .getByTestId("question-option")
+          .nth(i === 0 ? 0 : 1)
+          .click();
       await expect(
-        page.getByText(i === 0 ? "Incorrecta. La respuesta correcta es la B." : "¡Correcto!"),
+        page.getByText(
+          i === 0
+            ? "Incorrecta. La respuesta correcta es la B."
+            : i === 1
+              ? "En blanco. La respuesta correcta es la B."
+              : "¡Correcto!",
+        ),
       ).toBeVisible();
       await expect(page.getByText("Explicación de prueba.")).toBeVisible();
       // Desde la 3.ª pregunta se invita a guardar el progreso con una cuenta (ADR-056).
       await expect(page.getByTestId("sample-save-progress")).toHaveCount(i >= 2 ? 1 : 0);
       await page.getByRole("button", { name: i === 5 ? "Ver resultados" : "Siguiente" }).click();
     }
-    await expect(page.getByTestId("sample-result")).toContainText("Has acertado 5 de 6");
-    await expect(page.getByTestId("sample-result")).toContainText("Equivale a un 8,3 sobre 10");
-    // Repaso de lo fallado: solo la primera, con la respuesta buena y la explicación.
+    await expect(page.getByTestId("sample-result")).toContainText("Has acertado 4 de 6");
+    await expect(page.getByTestId("sample-blank")).toHaveText("Has dejado 1 pregunta en blanco.");
+    await expect(page.getByTestId("sample-result")).toContainText("Equivale a un 6,7 sobre 10");
+    // Repaso de lo no acertado: la fallada y la que quedó en blanco, con la respuesta buena.
     const misses = page.getByTestId("sample-misses").getByRole("listitem");
-    await expect(misses).toHaveCount(1);
+    await expect(misses).toHaveCount(2);
+    await expect(misses.nth(1)).toContainText("Tu respuesta: En blanco");
     await expect(misses.first()).toContainText(`Pregunta E2E`);
     await expect(misses.first()).toContainText("Tu respuesta: Opción uno");
     await expect(misses.first()).toContainText("Correcta: B. Opción buena");

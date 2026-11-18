@@ -122,15 +122,22 @@ test.describe("Demo de psicotécnicos", () => {
     expect(html).not.toContain("answerIndex");
     for (let i = 1; i <= 10; i++) {
       await expect(page.getByRole("heading", { name: `Ejercicio ${i} de 10` })).toBeVisible();
-      await page
-        .getByRole("group", { name: "Opciones de respuesta" })
-        .getByRole("button")
-        .first()
-        .click();
-      await expect(page.getByText(/¡Correcto!|Incorrecto\. La respuesta era/)).toBeVisible();
+      if (i === 2) {
+        // se puede dejar en blanco: enseña la solución sin contarla como fallo
+        await page.getByTestId("psycho-skip").click();
+        await expect(page.getByText(/En blanco\. La respuesta era/)).toBeVisible();
+      } else {
+        await page
+          .getByRole("group", { name: "Opciones de respuesta" })
+          .getByRole("button")
+          .first()
+          .click();
+        await expect(page.getByText(/¡Correcto!|Incorrecto\. La respuesta era/)).toBeVisible();
+      }
       await page.getByRole("button", { name: i === 10 ? "Ver resultado" : "Siguiente" }).click();
     }
     await expect(page.getByTestId("series-result")).toContainText(/Has acertado \d+ de 10/);
+    await expect(page.getByTestId("series-blank")).toHaveText("En blanco: 1.");
     await expect(page.getByText("Los resultados de la demostración no se guardan.")).toBeVisible();
     await expect(page.getByRole("link", { name: "Crear cuenta gratis" }).last()).toBeVisible();
   });

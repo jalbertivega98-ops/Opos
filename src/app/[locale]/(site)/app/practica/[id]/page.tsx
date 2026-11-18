@@ -77,6 +77,9 @@ export default async function PracticeSessionPage({
   }
 
   const answered = items.filter((i) => i.is_correct !== null);
+  // en blanco: respondida (corregida) sin elegir opción; no cuenta como fallo
+  const blank = answered.filter((i) => i.chosen_index === null).length;
+  const wrong = answered.length - session.correct_count - blank;
   // Test de un tema: progreso hacia «dominado» y otras 10 preguntas (ADR-046)
   const topic = isQuestions ? await getSessionTopic(session.id) : null;
   const topicPct =
@@ -95,6 +98,11 @@ export default async function PracticeSessionPage({
             time: duration(session.total_time_ms),
           })}
         </p>
+        {blank > 0 && (
+          <p data-testid="practice-breakdown">
+            {t("breakdown", { correct: session.correct_count, wrong, blank })}
+          </p>
+        )}
         {session.answered_count > 0 && (
           <p className="text-muted-foreground text-sm">
             {t("avgTime", { seconds: secondsOf(session.total_time_ms / session.answered_count) })}

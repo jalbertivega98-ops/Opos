@@ -163,7 +163,7 @@ export function MockExamPlayer({
               type="button"
               role="radio"
               aria-checked={choices[index] === i}
-              onClick={() => choose(i)}
+              onClick={() => choose(choices[index] === i ? null : i)}
               disabled={submitting}
               data-testid="question-option"
               className={cn(

@@ -157,6 +157,57 @@ describe("práctica con preguntas de un producto", () => {
     });
   });
 
+  it("deja una pregunta en blanco: no es acierto, se ve la solución y va al repaso", async () => {
+    await tx(async (q) => {
+      const ids = [await published(q, "B1 test", true), await published(q, "B2 test", true)];
+      const pid = await product(q, "test-qp-blank", true, ids);
+      await q(
+        "insert into public.access_grants (user_id, product_id, source) values ($1, $2, 'admin')",
+        [student.id, pid],
+      );
+      const sid = (
+        await q("select public.practice_start_product($1, $2, 10) as id", [student.id, pid])
+      ).rows[0].id as string;
+
+      const blank = (
+        await q("select * from public.practice_answer_question($1, $2, 0::smallint, null)", [
+          student.id,
+          sid,
+        ])
+      ).rows[0];
+      expect(blank).toMatchObject({ is_correct: false, answer_index: 1, finished: false });
+      expect(blank.explanation).toEqual({ text: "Explicación suficiente.", ref: "art. 1" });
+      await q("select * from public.practice_answer_question($1, $2, 1::smallint, 1::smallint)", [
+        student.id,
+        sid,
+      ]);
+
+      const item = (
+        await q(
+          "select chosen_index, is_correct, answered_at is not null as done from public.practice_items where session_id = $1 and position = 0",
+          [sid],
+        )
+      ).rows[0];
+      expect(item).toEqual({ chosen_index: null, is_correct: false, done: true });
+      const s = (
+        await q(
+          "select status, answered_count, correct_count from public.practice_sessions where id = $1",
+          [sid],
+        )
+      ).rows[0];
+      expect(s).toEqual({ status: "finished", answered_count: 2, correct_count: 1 });
+
+      // la que se dejó en blanco vuelve en el repaso de fallos
+      const rid = (
+        await q("select public.practice_start_question_review($1, 10) as id", [student.id])
+      ).rows[0].id;
+      const again = (
+        await q("select question_id from public.practice_items where session_id = $1", [rid])
+      ).rows.map((r) => r.question_id);
+      expect(again).toContain(ids[0]);
+    });
+  });
+
   it("no mezcla contenido de prueba con contenido real", async () => {
     await tx(async (q) => {
       const real = await published(q, "Pregunta real", false);

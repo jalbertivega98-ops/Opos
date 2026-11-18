@@ -1076,7 +1076,10 @@
       "triangle": "triangles",
       "diamond": "rombes",
       "arrow": "fletxes"
-    }
+    },
+    "skip": "Deixar en blanc",
+    "blankResult": "En blanc. La resposta era {answer}.",
+    "resultBlank": "En blanc: {blank}."
   },
   "practice": {
     "title": "Pràctica",
@@ -1132,7 +1135,8 @@
     "topicMastered": "Tema dominat! Continua repassant de tant en tant per no oblidar-lo.",
     "topicGoal": "Per dominar-lo: com a mínim {answered} respostes i un {pct} % d'encerts.",
     "topicMore": "Unes altres 10 preguntes d'aquest tema",
-    "topicStudy": "Estudiar el tema"
+    "topicStudy": "Estudiar el tema",
+    "breakdown": "Encerts: {correct} · Errors: {wrong} · En blanc: {blank}"
   },
   "progress": {
     "title": "El meu progrés",
@@ -1506,7 +1510,9 @@
       "changed": "La pregunta s'ha actualitzat. Torna a començar la pràctica.",
       "state": "No s'ha pogut desar la resposta. Recarrega la pàgina."
     },
-    "blank": "En blanc"
+    "blank": "En blanc",
+    "skip": "Deixar en blanc",
+    "blankResult": "En blanc. La resposta correcta és la {letter}."
   },
   "mock": {
     "title": "Simulacre",
@@ -1520,7 +1526,7 @@
     "clear": "Deixar en blanc",
     "prev": "Anterior",
     "next": "Següent",
-    "rules": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis. Cada error resta {penalty} % d'un encert; les preguntes en blanc no resten. Quan s'acabi el temps s'entrega sol.",
+    "rules": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis. Cada error resta {penalty} % d'un encert; les preguntes en blanc no resten. Per deixar-ne una en blanc, no marquis res o torna a prémer l'opció marcada. Quan s'acabi el temps s'entrega sol.",
     "submit": "Entregar el simulacre",
     "confirmBlank": "Tens {blank, plural, one {# pregunta} other {# preguntes}} en blanc. Vols entregar igualment?",
     "confirmAll": "Has contestat totes les preguntes. Vols entregar?",
@@ -1542,7 +1548,7 @@
     "again": "Tornar als meus productes",
     "toProgress": "Veure el meu progrés",
     "itemsTitle": "Correcció",
-    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Quan s'acabi el temps s'entrega sol.",
+    "rulesNoPenalty": "Com a l'examen: pots canviar qualsevol resposta fins que entreguis i els errors no resten. Per deixar-ne una en blanc, no marquis res o torna a prémer l'opció marcada. Quan s'acabi el temps s'entrega sol.",
     "partTitle": "Part {part}",
     "partDetail": "Directa {direct, number} de {valid} (tall {cut, number}) · qualificació {grade, number} / 50",
     "partPassed": "Superada",
@@ -1774,9 +1780,10 @@
       "ctaHint": "{n} preguntes amb solució, sense registrar-te.",
       "otherExams": "Test gratis d'altres oposicions",
       "grade": "Equival a un {grade} sobre 10 (sense descomptar les errades).",
-      "missesTitle": "{count, plural, one {Repassa la pregunta que has fallat} other {Repassa les # preguntes que has fallat}}",
+      "missesTitle": "{count, plural, one {Repassa la pregunta que no has encertat} other {Repassa les # preguntes que no has encertat}}",
       "yourAnswer": "La teva resposta",
-      "rightAnswer": "Correcta"
+      "rightAnswer": "Correcta",
+      "blankCount": "{count, plural, one {Has deixat # pregunta en blanc.} other {Has deixat # preguntes en blanc.}}"
     },
     "physical": {
       "crumb": "Prova física",
