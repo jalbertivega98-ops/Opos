@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Embudo: el punto débil es visita → primer paso (2026-11-17, rama `claude/project-thread-5gw2s1`, MKT-014, ADR-065)
+
+- Datos 30 días: 2.036 visitas, 14 empiezan test gratis, 9 lo terminan, 15 cuentas, 12 bienvenida, 7 practican, 1 paga. Más del 98 % se va sin hacer nada.
+- Hecho: test gratis bajo el título (visible a 390×640), guía de visitantes ya no sale sola, /admin/trafico paginado + «Páginas de entrada (todas las visitas)», subpáginas de ficha fuera de «/otros». Sin SQL.
+- Pendiente: «fusiona» de joel; medir a la semana; luego contar psicotécnicos sin cuenta en el embudo (SQL).
+
 ### «Cómo funciona» más visual + «Ver la guía» (2026-11-16, rama `claude/project-thread-342srd`, UX-006, ADR-062)
 
 - Hecho: pasos que avanzan solos con capturas reales en un móvil, botón «Ver la guía paso a paso» (solo sin sesión), guía que se abre sin bienvenida desde el botón, paso «Cómo funciona» interactivo y flechas ← →. Sin SQL.

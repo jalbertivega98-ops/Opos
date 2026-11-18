@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Compass } from "lucide-react";
 import { SpotlightTour, type SpotlightStep } from "@/components/tour/spotlight-tour";
 
-/** Recordado solo en este navegador: la guía sale una vez por visitante. */
+/** Marca de «guía vista» en este navegador (de cuando salía sola; se sigue guardando). */
 export const VISITOR_TOUR_KEY = "opa.visitorTour";
 const OPEN_EVENT = "opa:visitor-tour";
 const TEST_FORM = '[data-testid="hero-free-tests"]';
@@ -24,14 +24,6 @@ export const VISITOR_TOUR_STEPS: readonly SpotlightStep[] = [
   { key: "signup", target: "v-signup", interactive: true },
 ];
 
-function readDone(): boolean {
-  try {
-    return window.localStorage.getItem(VISITOR_TOUR_KEY) === "done";
-  } catch {
-    return false;
-  }
-}
-
 function markDone() {
   try {
     window.localStorage.setItem(VISITOR_TOUR_KEY, "done");
@@ -43,9 +35,9 @@ function markDone() {
 /**
  * Guía paso a paso para quien entra por primera vez sin cuenta (ADR-057): le
  * señala dónde pulsar para empezar (el test gratis), dónde buscar su oposición,
- * los vídeos de «Cómo funciona», los precios y cómo crear la cuenta. Sale sola
- * la primera vez (recordado en el navegador), con `?guia=1` o con el botón
- * «¿Primera vez aquí?». Los alumnos con sesión no la ven (tienen WelcomeTour).
+ * los vídeos de «Cómo funciona», los precios y cómo crear la cuenta. Se abre con
+ * `?guia=1` o con el botón «¿Primera vez aquí?» (desde ADR-065 no sale sola).
+ * Los alumnos con sesión no la ven (tienen WelcomeTour).
  */
 export function VisitorTour({ force = false }: { force?: boolean }) {
   const t = useTranslations("visitorTour");
@@ -59,8 +51,9 @@ export function VisitorTour({ force = false }: { force?: boolean }) {
       setOpen(true);
     };
     window.addEventListener(OPEN_EVENT, show);
-    const id =
-      force || !readDone() ? window.setTimeout(() => show(new Event("auto")), 700) : undefined;
+    // Ya no sale sola (ADR-065): tapaba el test gratis a los 0,7 s a quien llegaba
+    // de redes con el móvil. Se abre con `?guia=1` o con «¿Primera vez aquí?».
+    const id = force ? window.setTimeout(() => show(new Event("auto")), 700) : undefined;
     return () => {
       window.removeEventListener(OPEN_EVENT, show);
       if (id) window.clearTimeout(id);

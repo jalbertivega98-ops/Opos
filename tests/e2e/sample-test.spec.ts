@@ -86,6 +86,17 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
     await expect(page.getByTestId("hero-signup")).toHaveAttribute("href", "/registro");
   });
 
+  test("móvil: el test gratis se ve en la primera pantalla sin desplazarse (ADR-065) @mobile", async ({
+    page,
+  }) => {
+    // Pantalla útil típica del navegador de Instagram/TikTok en un móvil de 390 px.
+    await page.setViewportSize({ width: 390, height: 640 });
+    await page.goto("/");
+    await expect(
+      page.getByTestId("hero-free-tests").getByRole("button", { name: "Empezar test gratis" }),
+    ).toBeInViewport();
+  });
+
   test("«Preparar esta oposición» lleva al visitante a crear la cuenta con la oposición elegida", async ({
     page,
   }) => {

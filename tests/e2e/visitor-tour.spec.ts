@@ -13,8 +13,15 @@ test.describe("Guía para visitantes sin cuenta (ADR-057)", () => {
     await dropExam(slug);
   });
 
-  test("sale sola en la portada, se recorre paso a paso y no vuelve", async ({ page }) => {
+  test("ya no sale sola: no tapa el test gratis (ADR-065)", async ({ page }) => {
     await page.goto("/");
+    await page.waitForTimeout(1200);
+    await expect(page.getByTestId("visitor-tour")).toHaveCount(0);
+    await expect(page.getByTestId("hero-free-tests")).toBeVisible();
+  });
+
+  test("con ?guia=1 se recorre paso a paso y no vuelve sola", async ({ page }) => {
+    await page.goto("/?guia=1");
     const tour = page.getByTestId("visitor-tour");
     const card = tour.getByRole("dialog");
     await expect(card).toContainText("Te damos la bienvenida a OPOSAPRUEBA");
@@ -33,7 +40,7 @@ test.describe("Guía para visitantes sin cuenta (ADR-057)", () => {
     await card.getByRole("button", { name: "Entendido" }).click();
     await expect(tour).toHaveCount(0);
 
-    await page.reload();
+    await page.goto("/");
     await page.waitForTimeout(1200);
     await expect(page.getByTestId("visitor-tour")).toHaveCount(0);
     // Se puede volver a abrir a petición.
@@ -74,7 +81,7 @@ test.describe("Guía para visitantes sin cuenta (ADR-057)", () => {
   test("desde la guía se empieza el test y las pistas acompañan las primeras preguntas", async ({
     page,
   }) => {
-    await page.goto("/");
+    await page.goto("/?guia=1");
     const card = page.getByTestId("visitor-tour").getByRole("dialog");
     await card.getByRole("button", { name: "Empezar" }).click();
     const picker = page.getByTestId("hero-free-tests");
