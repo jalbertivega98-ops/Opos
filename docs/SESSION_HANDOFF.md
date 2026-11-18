@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Títulos SEO «Oposiciones …» (2026-11-18, rama `claude/project-thread-h5od90`, MKT-016, ADR-069)
+
+- Motivo: la gente busca «oposiciones <cuerpo>»; posición media 41,9 y 12 clics en 28 días.
+- Hecho: 20 `seoTitle` (es/ca) reescritos para empezar por «Oposiciones/Oposicions …», ≤70 caracteres.
+- Pendiente: «fusiona» de joel; medir CTR y posición en 2-3 semanas.
+
 ### Embudo: psicotécnicos de prueba y clics en «Crear cuenta» (2026-11-18, rama `claude/project-thread-5gw2s1`, MKT-015, ADR-070)
 
 - Hecho: pasos `psycho_start`, `sample_signup` y `psycho_signup` en `funnel_daily`; el embudo de /admin tiene 9 pasos y una lista por tipo de psicotécnico. SQL: migración 20261118000200 + preview 92.

@@ -589,6 +589,12 @@ Más preguntas y simulacros (réplicas oficiales de PN y GC, examen de Bombers 2
 - **Decisión:** se reutiliza la guía de la prueba física (ADR-052) para `/oposiciones/bombers-generalitat/prueba-fisica`, con los datos de la base 6.1.2 y el annex 3 de la Resolució ISP/3218/2026, leídos en el DOGC el 18/11/2026. La guía genérica admite ahora baremos de medio punto (`Scale.pointStep`), marcas de tiempo en minutos y segundos (`time`, `parseTime` y `formatTime`), nombres de baremo propios (`groups`: «Mujeres» y «Resto de personas») y guías sin mínimo por ejercicio (`minPerExercise: 0`).
 - **Consecuencias:** la ficha enlaza la guía y el sitemap la incluye sin cambios. Los textos de la guía de Mossos no cambian.
 
+## ADR-069 · Títulos SEO de las guías empiezan por «Oposiciones …» (2026-11-18)
+
+- **Contexto:** Search Console (28 días a 16/11/2026): 159 impresiones, 12 clics, posición media 41,9. Las búsquedas reales empiezan por «oposiciones …» (la primera, «oposiciones guardia urbana barcelona», 16 impresiones en la posición 64), pero muchos títulos empezaban por el nombre del cuerpo.
+- **Decisión:** los `seoTitle` (es/ca) de las guías empiezan por «Oposiciones/Oposicions + cuerpo» seguido de lo que se busca (examen, temario, pruebas, cortes), con 70 caracteres como máximo (test unitario). No cambian h1, textos ni datos.
+- **Consecuencias:** mejor coincidencia con la búsqueda y más CTR esperado; medir en Search Console a las 2-3 semanas.
+
 ## ADR-070 · Embudo: psicotécnicos de prueba y clics en «Crear cuenta» (2026-11-18)
 
 **Contexto:** el embudo de /admin (ADR-047, ADR-065) solo contaba como primer paso el test gratis. Quien hacía un psicotécnico de prueba sin cuenta no aparecía, aunque /psicotecnicos es la página a la que más se llega desde ChatGPT. Tampoco se sabía cuántos de los que hacen el test gratis pulsan «Crear cuenta», así que no se podía separar «el final del test no convence» de «el registro asusta».

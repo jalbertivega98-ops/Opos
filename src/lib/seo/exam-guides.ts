@@ -203,8 +203,8 @@ const auxiliar: ExamGuide = {
     ca: "Oposicions a Auxiliar Administratiu de l'Estat",
   },
   seoTitle: {
-    es: "Auxiliar Administrativo del Estado: examen, temario y psicotécnicos",
-    ca: "Auxiliar Administratiu de l'Estat: examen, temari i psicotècnics",
+    es: "Oposiciones Auxiliar Administrativo del Estado: examen y temario",
+    ca: "Oposicions Auxiliar Administratiu de l'Estat: examen i temari",
   },
   seoDescription: {
     es: "Convocatoria BOE-A-2025-26262: 1.700 plazas, ejercicio único de 90 minutos con 30 preguntas del Bloque I, 30 psicotécnicas y 50 del Bloque II. Notas de corte de 2025 y fuentes oficiales.",
@@ -359,8 +359,8 @@ const administrativo: ExamGuide = {
     ca: "Oposicions a Administratiu de l'Estat",
   },
   seoTitle: {
-    es: "Administrativo del Estado: examen, temario, supuesto y notas de corte",
-    ca: "Administratiu de l'Estat: examen, temari, supòsit i notes de tall",
+    es: "Oposiciones Administrativo del Estado: examen, temario y nota de corte",
+    ca: "Oposicions Administratiu de l'Estat: examen, temari i nota de tall",
   },
   seoDescription: {
     es: "Convocatoria BOE-A-2025-26262 del Cuerpo General Administrativo: ejercicio único de 100 minutos con 70 preguntas y un supuesto práctico de 20, cada error resta 1/3. Notas de corte reales y fuentes oficiales.",
@@ -482,8 +482,8 @@ const auxilio: ExamGuide = {
   verifiedOn: "2026-11-05",
   h1: { es: "Oposiciones a Auxilio Judicial", ca: "Oposicions a Auxili Judicial" },
   seoTitle: {
-    es: "Auxilio Judicial: examen, temario, casos prácticos y notas",
-    ca: "Auxili Judicial: examen, temari, casos pràctics i notes",
+    es: "Oposiciones Auxilio Judicial: examen, temario y casos prácticos",
+    ca: "Oposicions Auxili Judicial: examen, temari i casos pràctics",
   },
   seoDescription: {
     es: "Convocatoria de Auxilio Judicial (Orden PJC/1549/2025): test de 100 preguntas y dos casos prácticos de 40 preguntas, con su puntuación oficial. Temario y fuentes oficiales.",
@@ -580,8 +580,8 @@ const tramitacion: ExamGuide = {
     ca: "Oposicions a Tramitació Processal i Administrativa",
   },
   seoTitle: {
-    es: "Tramitación Procesal: examen, temario, caso práctico y ofimática",
-    ca: "Tramitació Processal: examen, temari, cas pràctic i ofimàtica",
+    es: "Oposiciones Tramitación Procesal: examen, temario y ofimática",
+    ca: "Oposicions Tramitació Processal: examen, temari i ofimàtica",
   },
   seoDescription: {
     es: "Convocatoria de Tramitación Procesal y Administrativa (Orden PJC/1549/2025): test de 100 preguntas, caso práctico de 10 y ofimática de 20, con su puntuación oficial.",
@@ -695,8 +695,8 @@ const policiaNacional: ExamGuide = {
     ca: "Oposicions a Policia Nacional (Escala Bàsica)",
   },
   seoTitle: {
-    es: "Policía Nacional Escala Básica: examen, temario y nota de corte",
-    ca: "Policia Nacional Escala Bàsica: examen, temari i nota de tall",
+    es: "Oposiciones Policía Nacional Escala Básica: examen y temario",
+    ca: "Oposicions Policia Nacional Escala Bàsica: examen i temari",
   },
   seoDescription: {
     es: "Convocatoria BOE-A-2026-15055 de Policía Nacional: prueba de conocimientos de 100 preguntas con 3 alternativas en 50 minutos, cada error resta medio acierto. Nota de corte 2026: 7,05.",
@@ -798,8 +798,8 @@ const guardiaCivil: ExamGuide = {
     ca: "Oposicions a Guàrdia Civil (Caporals i Guàrdies)",
   },
   seoTitle: {
-    es: "Guardia Civil Cabos y Guardias: examen, temario, ortografía e inglés",
-    ca: "Guàrdia Civil Caporals i Guàrdies: examen, temari, ortografia i anglès",
+    es: "Oposiciones Guardia Civil Cabos y Guardias: examen y temario",
+    ca: "Oposicions Guàrdia Civil Caporals i Guàrdies: examen i temari",
   },
   seoDescription: {
     es: "Convocatoria BOE-A-2026-9982: 3.240 plazas. Ortografía, gramática, 100 preguntas de conocimientos e inglés en 140 minutos, y la prueba de aptitudes intelectuales.",
@@ -911,8 +911,8 @@ const guardiaUrbana: ExamGuide = {
     ca: "Oposicions a la Guàrdia Urbana de Barcelona (agent)",
   },
   seoTitle: {
-    es: "Guardia Urbana de Barcelona: examen, temario y pruebas de agente",
-    ca: "Guàrdia Urbana de Barcelona: examen, temari i proves d'agent",
+    es: "Oposiciones Guardia Urbana Barcelona: examen, temario y pruebas",
+    ca: "Oposicions Guàrdia Urbana Barcelona: examen, temari i proves",
   },
   seoDescription: {
     es: "Convocatoria 29/2025 de agente de la Guardia Urbana de Barcelona: 134 plazas, prueba cultural y teórica de hasta 90 preguntas en catalán (−1/4), tests aptitudinales, idioma, físicas, entrevista y médicas.",
@@ -1026,8 +1026,8 @@ const policiaLocal: ExamGuide = {
     ca: "Oposicions a policia local a Catalunya (agent)",
   },
   seoTitle: {
-    es: "Policía local en Cataluña: examen, temario y psicotécnicos",
-    ca: "Policia local a Catalunya: examen, temari i psicotècnics d'agent",
+    es: "Oposiciones policía local Cataluña: examen, temario y pruebas",
+    ca: "Oposicions policia local Catalunya: examen, temari i proves",
   },
   seoDescription: {
     es: "Cómo son las oposiciones a agente de policía local en Cataluña: Decreto 233/2002, test de conocimientos en catalán (Terrassa: 50 + 50 preguntas, −1/4), psicotécnico obligatorio, físicas, entrevista y médicas.",
@@ -1141,8 +1141,8 @@ const bombers: ExamGuide = {
     ca: "Oposicions a Bombers de la Generalitat (bomber/a de primera)",
   },
   seoTitle: {
-    es: "Bombers de la Generalitat 81/26: examen, temario y pruebas",
-    ca: "Bombers de la Generalitat 81/26: examen, temari i proves",
+    es: "Oposiciones Bombers Generalitat 81/26: examen, temario y pruebas",
+    ca: "Oposicions Bombers Generalitat 81/26: examen, temari i proves",
   },
   seoDescription: {
     es: "Convocatoria 81/26 de bombero/a de primera de la Generalitat: 300 plazas, prueba de conocimientos de 70 preguntas en 80 minutos (−1/4), físicas, oficios, evaluación psicológica y médica. Temario nuevo de 34 temas.",
@@ -1240,8 +1240,8 @@ const ayudantesIipp: ExamGuide = {
     ca: "Oposicions a Ajudants d'Institucions Penitenciàries",
   },
   seoTitle: {
-    es: "Ayudantes de Instituciones Penitenciarias: examen y notas de corte",
-    ca: "Ajudants d'Institucions Penitenciàries: examen, temari i notes de tall",
+    es: "Oposiciones Ayudantes Instituciones Penitenciarias: examen y cortes",
+    ca: "Oposicions Ajudants Institucions Penitenciàries: examen i talls",
   },
   seoDescription: {
     es: "Convocatoria BOE-A-2026-13226: 1.050 plazas. Examen de 120 preguntas de test y 8 supuestos de 5 preguntas, cada error resta 1/3. Cortes de 2026: 67 y 26,67 puntos directos.",
