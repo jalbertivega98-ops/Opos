@@ -161,10 +161,11 @@ export async function answerPracticeAction(input: unknown): Promise<AnswerResult
   if (
     item.version !== row.generator_version ||
     !samePresentation(item, shown) ||
-    choice >= item.options.length
+    (choice !== null && choice >= item.options.length)
   ) {
     return { ok: false, error: "changed" };
   }
+  // en blanco (null): no es acierto y entra en el repaso de fallos
   const correct = choice === item.answerIndex;
 
   const { data, error } = await createServiceClient()

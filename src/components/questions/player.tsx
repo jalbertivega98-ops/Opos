@@ -2,7 +2,7 @@
 
 import { useRef, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
-import { Check, X } from "lucide-react";
+import { Check, Minus, X } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -33,7 +33,8 @@ export function QuestionPlayer({
   const headingRef = useRef<HTMLHeadingElement>(null);
   const item = items[index];
 
-  function answer(i: number) {
+  /** `null` deja la pregunta en blanco: no suma acierto y enseña la solución. */
+  function answer(i: number | null) {
     if (result || pending) return;
     setChoice(i);
     setError(null);
@@ -114,12 +115,28 @@ export function QuestionPlayer({
         })}
       </div>
 
+      {!result && (
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => answer(null)}
+          disabled={pending}
+          data-testid="question-skip"
+        >
+          <Minus aria-hidden /> {t("skip")}
+        </Button>
+      )}
+
       {error && <Alert tone="error">{t(`errors.${error}` as never)}</Alert>}
       {result && (
         <div className="space-y-4" aria-live="polite">
-          <Alert tone={result.correct ? "success" : "error"}>
+          <Alert tone={result.correct ? "success" : choice === null ? "info" : "error"}>
             <p className="font-semibold">
-              {result.correct ? t("correct") : t("wrong", { letter: LETTERS[result.answerIndex] })}
+              {result.correct
+                ? t("correct")
+                : choice === null
+                  ? t("blankResult", { letter: LETTERS[result.answerIndex] })
+                  : t("wrong", { letter: LETTERS[result.answerIndex] })}
             </p>
             {result.explanation.text && <p className="mt-1">{result.explanation.text}</p>}
             {result.explanation.ref && (

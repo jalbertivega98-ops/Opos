@@ -112,28 +112,38 @@ test.describe("Recorrido del alumno con preguntas del banco", () => {
       await task.getByRole("button", { name: "Empezar test" }).click();
       await expect(page).toHaveURL(/\/app\/practica\/[0-9a-f-]{36}$/);
 
-      // 2. Responde: falla la primera y acierta el resto
+      // 2. Responde: falla la primera, deja en blanco la segunda y acierta el resto
       for (let i = 0; i < 5; i++) {
         await expect(page.getByRole("heading", { name: `Pregunta ${i + 1} de 5` })).toBeVisible();
         const stem = (await page.getByTestId("question-stem").textContent())!.trim();
         const right = correctFor(stem);
-        const pick = i === 0 ? (right + 1) % 4 : right;
-        await page.getByTestId("question-option").nth(pick).click();
-        await expect(
-          page.getByText(i === 0 ? /Incorrecta\. La respuesta correcta es la/ : "¡Correcto!"),
-        ).toBeVisible();
+        if (i === 1) {
+          await page.getByTestId("question-skip").click();
+          await expect(page.getByText(/En blanco\. La respuesta correcta es la/)).toBeVisible();
+          await expect(page.getByTestId("question-skip")).toHaveCount(0);
+        } else {
+          const pick = i === 0 ? (right + 1) % 4 : right;
+          await page.getByTestId("question-option").nth(pick).click();
+          await expect(
+            page.getByText(i === 0 ? /Incorrecta\. La respuesta correcta es la/ : "¡Correcto!"),
+          ).toBeVisible();
+        }
         await expect(page.getByText("Referencia: prueba")).toBeVisible();
         await page.getByRole("button", { name: i === 4 ? "Ver resultados" : "Siguiente" }).click();
       }
 
       // 3. Resultados con corrección
-      await expect(page.getByTestId("practice-summary")).toContainText("4 de 5");
+      await expect(page.getByTestId("practice-summary")).toContainText("3 de 5");
+      await expect(page.getByTestId("practice-breakdown")).toHaveText(
+        "Aciertos: 3 · Fallos: 1 · En blanco: 1",
+      );
       await expect(page.getByTestId("review-item")).toHaveCount(5);
+      await expect(page.getByTestId("review-item").nth(1).getByLabel("En blanco")).toBeVisible();
 
       // 4. El panel lo apunta en el calendario y en el avance de la tarea
       await page.goto("/app");
       const entry = page.getByTestId("calendar-entry").filter({ hasText: seed.title });
-      await expect(entry).toContainText("4 de 5 bien");
+      await expect(entry).toContainText("3 de 5 bien");
       await expect(page.getByTestId("calendar-summary")).toContainText("1 práctica en 1 día");
       await expect(
         page.getByTestId("plan-task").filter({ hasText: seed.title }).getByTestId("task-progress"),
@@ -146,16 +156,18 @@ test.describe("Recorrido del alumno con preguntas del banco", () => {
       await page.goto("/app/progreso");
       await expect(page.getByText("Preguntas de temario")).toBeVisible();
 
-      // 6. Repaso de errores: la fallada vuelve y al acertarla queda resuelta
+      // 6. Repaso de errores: la fallada y la que quedó en blanco vuelven y al acertarlas quedan resueltas
       await page.goto("/app/practica");
-      await expect(page.getByTestId("pending-split")).toContainText("Preguntas: 1");
+      await expect(page.getByTestId("pending-split")).toContainText("Preguntas: 2");
       await page.getByRole("button", { name: "Repasar preguntas" }).click();
-      await expect(page.getByRole("heading", { name: "Pregunta 1 de 1" })).toBeVisible();
-      const stem = (await page.getByTestId("question-stem").textContent())!.trim();
-      await page.getByTestId("question-option").nth(correctFor(stem)).click();
-      await expect(page.getByText("¡Correcto!")).toBeVisible();
-      await page.getByRole("button", { name: "Ver resultados" }).click();
-      await expect(page.getByTestId("practice-summary")).toContainText("1 de 1");
+      for (let i = 0; i < 2; i++) {
+        await expect(page.getByRole("heading", { name: `Pregunta ${i + 1} de 2` })).toBeVisible();
+        const stem = (await page.getByTestId("question-stem").textContent())!.trim();
+        await page.getByTestId("question-option").nth(correctFor(stem)).click();
+        await expect(page.getByText("¡Correcto!")).toBeVisible();
+        await page.getByRole("button", { name: i === 1 ? "Ver resultados" : "Siguiente" }).click();
+      }
+      await expect(page.getByTestId("practice-summary")).toContainText("2 de 2");
       await page.goto("/app/practica");
       await expect(page.getByTestId("pending-split")).toContainText("Preguntas: 0");
 

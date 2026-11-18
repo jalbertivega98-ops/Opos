@@ -112,6 +112,12 @@ describe("test gratis sin registro", () => {
         [f.free[0]],
       );
       expect(ko.rows[0]).toMatchObject({ is_correct: false, answer_index: 1 });
+      // en blanco: no es acierto pero enseña la solución
+      const blank = await q(
+        "select * from public.check_exam_sample_answer('test-opo-muestra', $1, null)",
+        [f.free[0]],
+      );
+      expect(blank.rows[0]).toMatchObject({ is_correct: false, answer_index: 1 });
     });
   });
 

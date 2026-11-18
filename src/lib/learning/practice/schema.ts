@@ -15,12 +15,14 @@ export const startPracticeSchema = z.object({
 export const answerSchema = z.object({
   sessionId: z.uuid(),
   position: z.number().int().min(0).max(99),
-  choice: z.number().int().min(0).max(5),
+  /** null = dejar la pregunta en blanco. */
+  choice: z.number().int().min(0).max(5).nullable(),
 });
 
 export const demoAnswerSchema = z.object({
   type: z.enum(PSYCHO_TYPES),
   seed: z.number().int().min(0).max(0xffffffff),
   difficulty: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]),
-  choice: z.number().int().min(0).max(5),
+  /** null = dejar la pregunta en blanco. */
+  choice: z.number().int().min(0).max(5).nullable(),
 });

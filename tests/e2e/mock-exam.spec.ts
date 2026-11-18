@@ -77,6 +77,15 @@ test("simulacro con tiempo, respuestas modificables, blanco y nota con penalizac
   await answerCurrent((r) => r);
   await sp.getByRole("button", { name: "Dejar en blanco" }).click();
   await expect(sp.getByTestId("mock-answered")).toHaveText("4 de 5 contestadas");
+  // también se desmarca volviendo a pulsar la opción elegida
+  await answerCurrent((r) => r);
+  await expect(sp.getByTestId("mock-answered")).toHaveText("5 de 5 contestadas");
+  const chosen = sp.locator('[data-testid="question-option"][aria-checked="true"]');
+  await chosen.click();
+  await expect(
+    sp.getByTestId("question-option").and(sp.locator('[aria-checked="true"]')),
+  ).toHaveCount(0);
+  await expect(sp.getByTestId("mock-answered")).toHaveText("4 de 5 contestadas");
 
   // Recargar conserva las respuestas guardadas y el tiempo
   await sp.reload();

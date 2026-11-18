@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Dejar preguntas en blanco (2026-11-18, rama `claude/project-thread-ykn4sm`, UX-007, ADR-066)
+
+- Motivo: opinión de un alumno real (no había forma de dejar una pregunta en blanco en los test).
+- Hecho: botón «Dejar en blanco» en test de temas, psicotécnicos y test gratis; en simulacros se desmarca volviendo a pulsar. En blanco cuenta aparte en el resultado, no penaliza y va al repaso de fallos. SQL: migración `20261118000100_blank_answers.sql`.
+- Pendiente: «fusiona» de joel.
+
 ### Embudo: el punto débil es visita → primer paso (2026-11-17, rama `claude/project-thread-5gw2s1`, MKT-014, ADR-065)
 
 - Datos 30 días: 2.036 visitas, 14 empiezan test gratis, 9 lo terminan, 15 cuentas, 12 bienvenida, 7 practican, 1 paga. Más del 98 % se va sin hacer nada.

@@ -4,7 +4,8 @@ import { z } from "zod";
 export const sampleAnswerSchema = z.object({
   exam: z.string().regex(/^[a-z0-9-]{2,80}$/),
   questionId: z.uuid(),
-  choice: z.number().int().min(0).max(5),
+  /** null = dejar la pregunta en blanco. */
+  choice: z.number().int().min(0).max(5).nullable(),
 });
 
 /** Paso del test gratis que cuenta el embudo del panel (ADR-047). */
