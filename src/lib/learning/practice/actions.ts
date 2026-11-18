@@ -1,9 +1,12 @@
 "use server";
 
 import { randomInt } from "node:crypto";
+import { headers } from "next/headers";
 import { getLocale } from "next-intl/server";
 import { redirect } from "@/i18n/navigation";
+import { recordFunnelStep } from "@/lib/analytics/track";
 import { getSession } from "@/lib/auth/session";
+import { createRateLimiter } from "@/lib/rate-limit";
 import { createClient } from "@/lib/supabase/server";
 import { createServiceClient } from "@/lib/supabase/service";
 import {
@@ -22,7 +25,12 @@ import {
 } from "@/lib/learning/psycho/types";
 import { allowedCount } from "./free-quota";
 import { myPsychoQuota } from "./queries";
-import { answerSchema, demoAnswerSchema, startPracticeSchema } from "./schema";
+import {
+  answerSchema,
+  demoAnswerSchema,
+  psychoDemoStepSchema,
+  startPracticeSchema,
+} from "./schema";
 
 const REVIEW_SIZE = 10;
 
@@ -215,4 +223,23 @@ export async function checkDemoAnswer(input: unknown): Promise<DemoResult> {
     answerIndex: item.answerIndex,
     explanation: item.explanation,
   };
+}
+
+// Un psicotécnico de prueba cuenta una vez al empezar y otra si se pulsa «Crear
+// cuenta»: 30 pasos por IP cada 10 minutos sobra y evita inflar el embudo.
+const psychoStepLimiter = createRateLimiter({ limit: 30, windowMs: 10 * 60 * 1000 });
+
+/**
+ * Cuenta que alguien empieza un psicotécnico de prueba o pulsa «Crear cuenta» al
+ * acabarlo (embudo del panel, ADR-069). Solo suma un contador diario por tipo:
+ * no guarda IP ni identifica a nadie.
+ */
+export async function trackPsychoDemoStepAction(input: unknown): Promise<void> {
+  const parsed = psychoDemoStepSchema.safeParse(input);
+  if (!parsed.success) return;
+  const h = await headers();
+  const ip = h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "local";
+  if (!psychoStepLimiter(`psycho-step:${ip}`).ok) return;
+  const { type, step } = parsed.data;
+  await recordFunnelStep(step === "start" ? "psycho_start" : "psycho_signup", type);
 }

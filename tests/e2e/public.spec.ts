@@ -1,4 +1,22 @@
 import { expect, test } from "@playwright/test";
+import pg from "pg";
+import { DB_URL } from "./sample-seed";
+
+/** Contador de hoy de un paso del embudo para un tipo de psicotécnico (ADR-069). */
+async function funnelHits(step: string, exam: string): Promise<number> {
+  const db = new pg.Client({ connectionString: DB_URL });
+  await db.connect();
+  try {
+    const { rows } = await db.query(
+      `select coalesce(sum(hits), 0)::int as n from public.funnel_daily
+        where step = $1 and exam = $2 and day = (now() at time zone 'Europe/Madrid')::date`,
+      [step, exam],
+    );
+    return rows[0].n as number;
+  } finally {
+    await db.end();
+  }
+}
 
 test.describe("Web pública", () => {
   test("landing con buscador que lleva al catálogo", async ({ page }) => {
@@ -114,6 +132,8 @@ test.describe("Móvil @mobile", () => {
 
 test.describe("Demo de psicotécnicos", () => {
   test("completa 10 series con corrección en servidor y sin guardar nada", async ({ page }) => {
+    const starts = await funnelHits("psycho_start", "series");
+    const signups = await funnelHits("psycho_signup", "series");
     await page.goto("/psicotecnicos");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Psicotécnicos");
     await expect(page.getByText("¿Qué número continúa la serie?")).toBeVisible();
@@ -140,6 +160,14 @@ test.describe("Demo de psicotécnicos", () => {
     await expect(page.getByTestId("series-blank")).toHaveText("En blanco: 1.");
     await expect(page.getByText("Los resultados de la demostración no se guardan.")).toBeVisible();
     await expect(page.getByRole("link", { name: "Crear cuenta gratis" }).last()).toBeVisible();
+    // El embudo cuenta una vez que se empezó y el clic en «Crear cuenta» (ADR-069).
+    await expect.poll(() => funnelHits("psycho_start", "series")).toBe(starts + 1);
+    await page
+      .getByTestId("series-result")
+      .getByRole("link", { name: "Crear cuenta gratis" })
+      .click();
+    await expect(page).toHaveURL(/\/registro/);
+    await expect.poll(() => funnelHits("psycho_signup", "series")).toBe(signups + 1);
   });
 });
 

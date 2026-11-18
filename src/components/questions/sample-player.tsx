@@ -111,6 +111,11 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
     requestAnimationFrame(() => headingRef.current?.focus());
   }
 
+  /** Embudo (ADR-069): pulsa «Crear cuenta» desde el test gratis. */
+  function trackSignup() {
+    trackSampleStepAction({ exam: examSlug, step: "signup" }).catch(() => {});
+  }
+
   function restart() {
     setIndex(0);
     setScore(0);
@@ -141,7 +146,7 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
           <p className="text-muted-foreground">{ts("resultHint")}</p>
           <div className="flex flex-wrap gap-3">
             <Button asChild variant="accent" size="lg">
-              <Link href={signUpPath(examSlug)} data-testid="sample-register">
+              <Link href={signUpPath(examSlug)} onClick={trackSignup} data-testid="sample-register">
                 {ts("register")}
               </Link>
             </Button>
@@ -307,6 +312,7 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
           {index >= 2 && (
             <Link
               href={signUpPath(examSlug)}
+              onClick={trackSignup}
               className="text-accent font-semibold hover:underline"
               data-testid="sample-save-progress"
             >

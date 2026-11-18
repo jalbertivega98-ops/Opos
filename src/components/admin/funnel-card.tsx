@@ -14,8 +14,14 @@ export const FUNNEL_PERIODS = [7, 30] as const;
 export async function FunnelCard({ funnel }: { funnel: Funnel }) {
   const t = await getTranslations("admin.funnel");
   const format = await getFormatter();
-  // Crear cuenta no exige pasar por el test gratis: se compara con las visitas.
-  const rows = funnelRows(funnel.steps, { signups: "visits" });
+  const tTypes = await getTranslations("psycho.types");
+  // Psicotécnicos, clics y cuentas no exigen pasar por el test gratis: se
+  // comparan con las visitas (ADR-069).
+  const rows = funnelRows(funnel.steps, {
+    psycho_start: "visits",
+    signup_clicks: "visits",
+    signups: "visits",
+  });
   const drop = biggestDrop(rows);
 
   return (
@@ -98,6 +104,25 @@ export async function FunnelCard({ funnel }: { funnel: Funnel }) {
                     {t("byExamValue", {
                       starts: format.number(e.starts),
                       finishes: format.number(e.finishes),
+                      signups: format.number(e.signups),
+                    })}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {funnel.byPsycho.length > 0 && (
+          <div className="mt-6">
+            <h3 className="font-semibold">{t("byPsycho")}</h3>
+            <ul className="mt-2 space-y-1 text-sm" data-testid="funnel-by-psycho">
+              {funnel.byPsycho.map((p) => (
+                <li key={p.type} className="flex justify-between gap-4">
+                  <span>{tTypes.has(`${p.type}.name`) ? tTypes(`${p.type}.name`) : p.type}</span>
+                  <span className="tabular-nums">
+                    {t("byPsychoValue", {
+                      starts: format.number(p.starts),
+                      signups: format.number(p.signups),
                     })}
                   </span>
                 </li>

@@ -39,7 +39,8 @@ export async function checkSampleAnswerAction(input: unknown): Promise<SampleAns
 }
 
 /**
- * Cuenta que alguien empieza o termina el test gratis (embudo del panel, ADR-047).
+ * Cuenta que alguien empieza o termina el test gratis, o pulsa «Crear cuenta»
+ * desde él (embudo del panel, ADR-047 y ADR-069).
  * Solo suma un contador diario por oposición: no guarda IP ni identifica a nadie.
  */
 export async function trackSampleStepAction(input: unknown): Promise<void> {
@@ -49,5 +50,7 @@ export async function trackSampleStepAction(input: unknown): Promise<void> {
   const ip = h.get("x-forwarded-for")?.split(",")[0]?.trim() || h.get("x-real-ip") || "local";
   if (!stepLimiter(`sample-step:${ip}`).ok) return;
   const { exam, step } = parsed.data;
-  await recordFunnelStep(step === "start" ? "sample_start" : "sample_finish", exam);
+  const name =
+    step === "start" ? "sample_start" : step === "finish" ? "sample_finish" : "sample_signup";
+  await recordFunnelStep(name, exam);
 }

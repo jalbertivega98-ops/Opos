@@ -81,6 +81,24 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
         }
       })
       .toBe("sample_finish:1,sample_start:1");
+    // Pulsar «Crear cuenta» desde el test también cuenta (ADR-069).
+    await page.getByTestId("sample-register").click();
+    await expect(page).toHaveURL(/\/registro\?exam=/);
+    await expect
+      .poll(async () => {
+        const db = new pg.Client({ connectionString: DB_URL });
+        await db.connect();
+        try {
+          const { rows } = await db.query(
+            "select hits from public.funnel_daily where exam = $1 and step = 'sample_signup'",
+            [slug],
+          );
+          return rows[0]?.hits ?? 0;
+        } finally {
+          await db.end();
+        }
+      })
+      .toBe(1);
   });
 
   test("la portada pone el test gratis como acción principal (ADR-056)", async ({ page }) => {
