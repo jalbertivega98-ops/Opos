@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Títulos SEO «Oposiciones …» (2026-11-18, rama `claude/project-thread-h5od90`, MKT-015, ADR-069)
+
+- Motivo: la gente busca «oposiciones <cuerpo>»; posición media 41,9 y 12 clics en 28 días.
+- Hecho: 20 `seoTitle` (es/ca) reescritos para empezar por «Oposiciones/Oposicions …», ≤70 caracteres.
+- Pendiente: «fusiona» de joel; medir CTR y posición en 2-3 semanas.
+
 ### Muestra gratis de psicotécnicos (2026-11-18, rama `claude/project-thread-7bh1pt`, BIZ-008, ADR-067)
 
 - Motivo: joel no quiere psicotécnicos ilimitados gratis («es algo por lo que la gente paga»).
