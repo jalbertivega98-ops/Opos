@@ -11,7 +11,7 @@ export const sampleAnswerSchema = z.object({
 /** Paso del test gratis que cuenta el embudo del panel (ADR-047). */
 export const sampleStepSchema = z.object({
   exam: z.string().regex(/^[a-z0-9-]{2,80}$/),
-  step: z.enum(["start", "finish"]),
+  step: z.enum(["start", "finish", "signup"]),
 });
 
 /** Pregunta del test gratis tal como se muestra (sin solución). */

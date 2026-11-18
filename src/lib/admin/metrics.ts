@@ -110,6 +110,8 @@ export const FUNNEL_STEPS = [
   "visits",
   "sample_start",
   "sample_finish",
+  "psycho_start",
+  "signup_clicks",
   "signups",
   "onboarded",
   "practicing",
@@ -120,7 +122,8 @@ export type FunnelStepKey = (typeof FUNNEL_STEPS)[number];
 export type Funnel = {
   days: number;
   steps: { key: FunnelStepKey; value: number }[];
-  byExam: { slug: string; name: string; starts: number; finishes: number }[];
+  byExam: { slug: string; name: string; starts: number; finishes: number; signups: number }[];
+  byPsycho: { type: string; starts: number; signups: number }[];
 };
 
 /** Embudo de conversión de los últimos `days` días (ADR-047). Solo administradores. */
@@ -130,7 +133,8 @@ export async function getFunnel(days = 30): Promise<Funnel> {
   if (error) throw new Error(`admin funnel: ${error.message}`);
   const raw = data as Record<FunnelStepKey, number> & {
     days: number;
-    by_exam: { exam: string; starts: number; finishes: number }[];
+    by_exam: { exam: string; starts: number; finishes: number; signups?: number }[];
+    by_psycho?: { type: string; starts: number; signups: number }[];
   };
   const slugs = raw.by_exam.map((e) => e.exam);
   const names = new Map<string, string>();
@@ -149,6 +153,12 @@ export async function getFunnel(days = 30): Promise<Funnel> {
       name: names.get(e.exam) ?? e.exam,
       starts: Number(e.starts),
       finishes: Number(e.finishes),
+      signups: Number(e.signups ?? 0),
+    })),
+    byPsycho: (raw.by_psycho ?? []).map((p) => ({
+      type: p.type,
+      starts: Number(p.starts),
+      signups: Number(p.signups),
     })),
   };
 }

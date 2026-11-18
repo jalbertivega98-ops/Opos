@@ -47,10 +47,12 @@ export async function recordHit(hit: TrafficHit): Promise<void> {
   }
 }
 
-export type FunnelStep = "sample_start" | "sample_finish";
+export type FunnelStep =
+  "sample_start" | "sample_finish" | "sample_signup" | "psycho_start" | "psycho_signup";
 
 /**
- * Suma un paso del embudo del test gratis en funnel_daily (ADR-047). Mismas
+ * Suma un paso del embudo en funnel_daily (ADR-047, ADR-070): test gratis y
+ * psicotécnicos de prueba. `exam` es la oposición o el tipo de psicotécnico. Mismas
  * garantías que recordHit: sin datos personales, nunca lanza ni bloquea.
  */
 export async function recordFunnelStep(step: FunnelStep, exam: string): Promise<void> {

@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 import {
   answerPracticeAction,
   checkDemoAnswer,
+  trackPsychoDemoStepAction,
   type AnswerResult,
 } from "@/lib/learning/practice/actions";
 import type { Explanation, PublicPsychoItem } from "@/lib/learning/psycho/types";
@@ -45,6 +46,8 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
   const [seconds, setSeconds] = useState(0);
   const startedAt = useRef<number>(0);
   const headingRef = useRef<HTMLHeadingElement>(null);
+  // Embudo (ADR-070): el psicotécnico de prueba cuenta una sola vez al empezar.
+  const tracked = useRef(false);
 
   useEffect(() => {
     startedAt.current = Date.now();
@@ -66,6 +69,10 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
       if (mode.kind === "session") {
         r = await answerPracticeAction({ sessionId: mode.sessionId, position: index, choice: i });
       } else {
+        if (!tracked.current) {
+          tracked.current = true;
+          trackPsychoDemoStepAction({ type: item.type, step: "start" }).catch(() => {});
+        }
         r = await checkDemoAnswer({
           type: item.type,
           seed: item.seed,
@@ -120,7 +127,14 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
             </Button>
           ) : (
             <Button asChild variant="accent">
-              <Link href="/registro">{t("ctaButton")}</Link>
+              <Link
+                href="/registro"
+                onClick={() =>
+                  trackPsychoDemoStepAction({ type: items[0].type, step: "signup" }).catch(() => {})
+                }
+              >
+                {t("ctaButton")}
+              </Link>
             </Button>
           )}
         </div>
