@@ -169,6 +169,13 @@ describe("práctica con preguntas de un producto", () => {
         await q("select public.practice_start_product($1, $2, 10) as id", [student.id, pid])
       ).rows[0].id as string;
 
+      // el orden de la sesión es aleatorio: se mira qué pregunta quedó en la posición 0
+      const blankId = (
+        await q(
+          "select question_id from public.practice_items where session_id = $1 and position = 0",
+          [sid],
+        )
+      ).rows[0].question_id as string;
       const blank = (
         await q("select * from public.practice_answer_question($1, $2, 0::smallint, null)", [
           student.id,
@@ -204,7 +211,7 @@ describe("práctica con preguntas de un producto", () => {
       const again = (
         await q("select question_id from public.practice_items where session_id = $1", [rid])
       ).rows.map((r) => r.question_id);
-      expect(again).toContain(ids[0]);
+      expect(again).toEqual([blankId]);
     });
   });
 
