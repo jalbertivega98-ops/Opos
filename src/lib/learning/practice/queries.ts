@@ -1,6 +1,13 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
-import type { Explanation, PublicPsychoItem } from "@/lib/learning/psycho/types";
+import {
+  PSYCHO_TYPES,
+  type Explanation,
+  type PsychoType,
+  type PublicPsychoItem,
+} from "@/lib/learning/psycho/types";
+import { myLibrary } from "@/lib/store/queries";
+import { hasUnlimitedPsycho, psychoQuota } from "./free-quota";
 
 export type PracticeSession = {
   id: string;
@@ -118,4 +125,32 @@ export async function pendingBySource() {
   };
   const [psycho, questions] = await Promise.all([count("generator"), count("question")]);
   return { psycho, questions };
+}
+
+/**
+ * Ejercicios de psicotécnicos que el alumno actual ya ha empezado por tipo, en sesiones de
+ * práctica (no repasos). Sirve para la muestra gratis (ADR-067). Un recuento por tipo con
+ * `head` para no traer filas ni topar con el límite de 1000 de la API.
+ */
+export async function psychoUsedByType(): Promise<Record<PsychoType, number>> {
+  const supabase = await createClient();
+  const counts = await Promise.all(
+    PSYCHO_TYPES.map(async (type) => {
+      const { count } = await supabase
+        .from("practice_items")
+        .select("position, session:practice_sessions!inner(mode)", { count: "exact", head: true })
+        .eq("source", "generator")
+        .eq("item_type", type)
+        .eq("session.mode", "psycho");
+      return [type, count ?? 0] as const;
+    }),
+  );
+  return Object.fromEntries(counts) as Record<PsychoType, number>;
+}
+
+/** Muestra gratis de psicotécnicos del alumno actual: ilimitada con Premium o pack completo. */
+export async function myPsychoQuota(lib?: Awaited<ReturnType<typeof myLibrary>>) {
+  const library = lib ?? (await myLibrary());
+  if (hasUnlimitedPsycho(library)) return psychoQuota(true, {});
+  return psychoQuota(false, await psychoUsedByType());
 }

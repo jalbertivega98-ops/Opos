@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Muestra gratis de psicotécnicos (2026-11-18, rama `claude/project-thread-7bh1pt`, BIZ-008, ADR-067)
+
+- Motivo: joel no quiere psicotécnicos ilimitados gratis («es algo por lo que la gente paga»).
+- Hecho: sin Premium, 5 ejercicios de cada uno de los 15 tipos (75 en total, una vez); con Premium, ilimitados. Tarjeta de muestra en /app/practica, tipos agotados «solo Premium», candado en el plan, textos de portada y ficha. Sin SQL.
+- Pendiente: «fusiona» de joel. Fallos que ya estaban en main: `tests/db/question-practice` (en blanco) y `mock-exam.spec` intermitente.
+
 ### Dejar preguntas en blanco (2026-11-18, rama `claude/project-thread-ykn4sm`, UX-007, ADR-066)
 
 - Motivo: opinión de un alumno real (no había forma de dejar una pregunta en blanco en los test).

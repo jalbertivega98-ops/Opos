@@ -210,11 +210,12 @@ export { isAttemptsPack, planAccess, type PlanAccess } from "./access";
 export async function planAccessWithKinds(
   library: Awaited<ReturnType<typeof myLibrary>>,
   freeTopics: string[] = [],
+  psycho = true,
 ) {
   const ids = library.filter((i) => i.type === "mock_exam").map((i) => i.product_id);
   const formats = await mockFormats(ids);
   const kinds = new Map([...formats].map(([id, c]) => [id, c.kind as string | undefined]));
-  return planAccess(library, freeTopics, kinds);
+  return planAccess(library, freeTopics, kinds, psycho);
 }
 
 /** Lo que incluye la preparación de una oposición (solo agregados publicados). */

@@ -8,6 +8,7 @@ import { formatPrice } from "@/lib/store/schema";
 import { isAttemptsPack, type ExamOffer, type OfferProduct } from "@/lib/store/queries";
 import { BuyForm } from "@/components/billing/buy-form";
 import { examHasPsycho } from "@/lib/catalog/exam-format";
+import { FREE_PSYCHO_PER_TYPE } from "@/lib/learning/practice/free-quota";
 import { signUpPath } from "@/lib/paths";
 import { getExamPsycho } from "@/lib/seo/exam-psycho";
 
@@ -50,7 +51,7 @@ export async function ExamOfferSection({
     price && priceYear
       ? Math.round((1 - priceYear.amount_cents / (price.amount_cents * 12)) * 100)
       : 0;
-  // Psicotécnicos: se generan sin límite, así que se cuentan los tipos, no los ejercicios
+  // Psicotécnicos: gratis solo una muestra por tipo (ADR-067); en Premium, sin límite
   const psychoTypes = getExamPsycho(examSlug)?.guide.psychoTypes ?? [];
   const psychoExamples = psychoTypes
     .slice(0, 2)
@@ -98,6 +99,7 @@ export async function ExamOfferSection({
                   : k === "psycho"
                     ? psychoTypes.length > 0
                       ? t.rich("free.items.psychoTypes", {
+                          n: FREE_PSYCHO_PER_TYPE,
                           count: psychoTypes.length,
                           examples: psychoExamples,
                           link: (chunks) => (
@@ -110,7 +112,7 @@ export async function ExamOfferSection({
                             </Link>
                           ),
                         })
-                      : t("free.items.psycho")
+                      : t("free.items.psycho", { n: FREE_PSYCHO_PER_TYPE })
                     : t(`free.items.${k}`)}
               </li>
             ))}
@@ -180,6 +182,12 @@ export async function ExamOfferSection({
                 </span>
               </li>
             ))}
+            {examHasPsycho(examSlug) && (
+              <li className="flex gap-2" data-testid="offer-paid-psycho">
+                <Brain className="text-accent mt-0.5 size-4 shrink-0" aria-hidden />
+                {t("paid.psycho")}
+              </li>
+            )}
             <li className="flex gap-2">
               <RotateCcw className="text-accent mt-0.5 size-4 shrink-0" aria-hidden />
               {t("paid.review")}
