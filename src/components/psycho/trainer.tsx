@@ -46,7 +46,7 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
   const [seconds, setSeconds] = useState(0);
   const startedAt = useRef<number>(0);
   const headingRef = useRef<HTMLHeadingElement>(null);
-  // Embudo (ADR-069): el psicotécnico de prueba cuenta una sola vez al empezar.
+  // Embudo (ADR-070): el psicotécnico de prueba cuenta una sola vez al empezar.
   const tracked = useRef(false);
 
   useEffect(() => {

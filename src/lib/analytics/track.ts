@@ -51,7 +51,7 @@ export type FunnelStep =
   "sample_start" | "sample_finish" | "sample_signup" | "psycho_start" | "psycho_signup";
 
 /**
- * Suma un paso del embudo en funnel_daily (ADR-047, ADR-069): test gratis y
+ * Suma un paso del embudo en funnel_daily (ADR-047, ADR-070): test gratis y
  * psicotécnicos de prueba. `exam` es la oposición o el tipo de psicotécnico. Mismas
  * garantías que recordHit: sin datos personales, nunca lanza ni bloquea.
  */

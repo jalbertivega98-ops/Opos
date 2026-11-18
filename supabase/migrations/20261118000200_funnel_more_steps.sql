@@ -1,5 +1,5 @@
 -- =====================================================================
--- Embudo: más pasos del primer contacto (ADR-069)
+-- Embudo: más pasos del primer contacto (ADR-070)
 --
 --  * funnel_daily admite tres pasos nuevos, igual de anónimos (contador diario,
 --    sin IP ni usuario):

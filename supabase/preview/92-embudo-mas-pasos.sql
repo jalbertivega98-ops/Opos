@@ -1,8 +1,8 @@
--- Copia de supabase/migrations/20261118000200_funnel_more_steps.sql (ADR-069).
+-- Copia de supabase/migrations/20261118000200_funnel_more_steps.sql (ADR-070).
 -- Embudo: psicotécnicos de prueba y clics en «Crear cuenta». Idempotente.
 begin;
 -- =====================================================================
--- Embudo: más pasos del primer contacto (ADR-069)
+-- Embudo: más pasos del primer contacto (ADR-070)
 --
 --  * funnel_daily admite tres pasos nuevos, igual de anónimos (contador diario,
 --    sin IP ni usuario):

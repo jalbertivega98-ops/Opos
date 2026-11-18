@@ -111,7 +111,7 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
     requestAnimationFrame(() => headingRef.current?.focus());
   }
 
-  /** Embudo (ADR-069): pulsa «Crear cuenta» desde el test gratis. */
+  /** Embudo (ADR-070): pulsa «Crear cuenta» desde el test gratis. */
   function trackSignup() {
     trackSampleStepAction({ exam: examSlug, step: "signup" }).catch(() => {});
   }

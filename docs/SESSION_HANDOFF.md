@@ -4,7 +4,7 @@
 
 ## Estado exacto
 
-### Embudo: psicotécnicos de prueba y clics en «Crear cuenta» (2026-11-18, rama `claude/project-thread-5gw2s1`, MKT-015, ADR-069)
+### Embudo: psicotécnicos de prueba y clics en «Crear cuenta» (2026-11-18, rama `claude/project-thread-5gw2s1`, MKT-015, ADR-070)
 
 - Hecho: pasos `psycho_start`, `sample_signup` y `psycho_signup` en `funnel_daily`; el embudo de /admin tiene 9 pasos y una lista por tipo de psicotécnico. SQL: migración 20261118000200 + preview 92.
 - Pendiente: «fusiona» de joel; el 25/11 medir el efecto de la PR #75 (ADR-065) con estos datos.

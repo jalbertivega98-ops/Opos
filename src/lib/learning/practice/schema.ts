@@ -19,7 +19,7 @@ export const answerSchema = z.object({
   choice: z.number().int().min(0).max(5).nullable(),
 });
 
-/** Paso del embudo en un psicotécnico de prueba (ADR-069). */
+/** Paso del embudo en un psicotécnico de prueba (ADR-070). */
 export const psychoDemoStepSchema = z.object({
   type: z.enum(PSYCHO_TYPES),
   step: z.enum(["start", "signup"]),

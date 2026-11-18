@@ -81,7 +81,7 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
         }
       })
       .toBe("sample_finish:1,sample_start:1");
-    // Pulsar «Crear cuenta» desde el test también cuenta (ADR-069).
+    // Pulsar «Crear cuenta» desde el test también cuenta (ADR-070).
     await page.getByTestId("sample-register").click();
     await expect(page).toHaveURL(/\/registro\?exam=/);
     await expect

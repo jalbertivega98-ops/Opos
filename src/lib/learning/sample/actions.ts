@@ -40,7 +40,7 @@ export async function checkSampleAnswerAction(input: unknown): Promise<SampleAns
 
 /**
  * Cuenta que alguien empieza o termina el test gratis, o pulsa «Crear cuenta»
- * desde él (embudo del panel, ADR-047 y ADR-069).
+ * desde él (embudo del panel, ADR-047 y ADR-070).
  * Solo suma un contador diario por oposición: no guarda IP ni identifica a nadie.
  */
 export async function trackSampleStepAction(input: unknown): Promise<void> {

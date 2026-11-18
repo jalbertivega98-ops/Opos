@@ -16,7 +16,7 @@ export async function FunnelCard({ funnel }: { funnel: Funnel }) {
   const format = await getFormatter();
   const tTypes = await getTranslations("psycho.types");
   // Psicotécnicos, clics y cuentas no exigen pasar por el test gratis: se
-  // comparan con las visitas (ADR-069).
+  // comparan con las visitas (ADR-070).
   const rows = funnelRows(funnel.steps, {
     psycho_start: "visits",
     signup_clicks: "visits",

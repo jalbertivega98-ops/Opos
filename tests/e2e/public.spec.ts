@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import pg from "pg";
 import { DB_URL } from "./sample-seed";
 
-/** Contador de hoy de un paso del embudo para un tipo de psicotécnico (ADR-069). */
+/** Contador de hoy de un paso del embudo para un tipo de psicotécnico (ADR-070). */
 async function funnelHits(step: string, exam: string): Promise<number> {
   const db = new pg.Client({ connectionString: DB_URL });
   await db.connect();
@@ -160,7 +160,7 @@ test.describe("Demo de psicotécnicos", () => {
     await expect(page.getByTestId("series-blank")).toHaveText("En blanco: 1.");
     await expect(page.getByText("Los resultados de la demostración no se guardan.")).toBeVisible();
     await expect(page.getByRole("link", { name: "Crear cuenta gratis" }).last()).toBeVisible();
-    // El embudo cuenta una vez que se empezó y el clic en «Crear cuenta» (ADR-069).
+    // El embudo cuenta una vez que se empezó y el clic en «Crear cuenta» (ADR-070).
     await expect.poll(() => funnelHits("psycho_start", "series")).toBe(starts + 1);
     await page
       .getByTestId("series-result")

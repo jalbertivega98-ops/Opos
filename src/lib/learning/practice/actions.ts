@@ -231,7 +231,7 @@ const psychoStepLimiter = createRateLimiter({ limit: 30, windowMs: 10 * 60 * 100
 
 /**
  * Cuenta que alguien empieza un psicotécnico de prueba o pulsa «Crear cuenta» al
- * acabarlo (embudo del panel, ADR-069). Solo suma un contador diario por tipo:
+ * acabarlo (embudo del panel, ADR-070). Solo suma un contador diario por tipo:
  * no guarda IP ni identifica a nadie.
  */
 export async function trackPsychoDemoStepAction(input: unknown): Promise<void> {
