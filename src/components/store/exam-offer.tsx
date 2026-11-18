@@ -9,6 +9,7 @@ import { isAttemptsPack, type ExamOffer, type OfferProduct } from "@/lib/store/q
 import { BuyForm } from "@/components/billing/buy-form";
 import { examHasPsycho } from "@/lib/catalog/exam-format";
 import { signUpPath } from "@/lib/paths";
+import { getExamPsycho } from "@/lib/seo/exam-psycho";
 
 /**
  * «Qué incluye»: contenido real publicado, qué es gratis y qué es de pago (ADR-035).
@@ -30,6 +31,7 @@ export async function ExamOfferSection({
   billing: { enabled: boolean; testMode: boolean };
 }) {
   const t = await getTranslations("offer");
+  const tp = await getTranslations("psycho.types");
   if (offer.products.length === 0) return null;
   const bySlug = new Map(offer.products.map((p) => [p.slug, p]));
   const bundle = offer.products.find((p) => p.type === "bundle" && !isAttemptsPack(p));
@@ -48,6 +50,12 @@ export async function ExamOfferSection({
     price && priceYear
       ? Math.round((1 - priceYear.amount_cents / (price.amount_cents * 12)) * 100)
       : 0;
+  // Psicotécnicos: se generan sin límite, así que se cuentan los tipos, no los ejercicios
+  const psychoTypes = getExamPsycho(examSlug)?.guide.psychoTypes ?? [];
+  const psychoExamples = psychoTypes
+    .slice(0, 2)
+    .map((ty) => tp(`${ty}.name`).toLocaleLowerCase(locale))
+    .join(", ");
   const freeQuestions = offer.free_topics.reduce((n, tp) => n + tp.questions, 0);
   const freeItems = [
     ...(offer.free_topics.length > 0 ? (["topics"] as const) : []),
@@ -87,7 +95,23 @@ export async function ExamOfferSection({
                       topics: offer.free_topics.map((tp) => tp.title).join(" · "),
                       questions: freeQuestions,
                     })
-                  : t(`free.items.${k}`)}
+                  : k === "psycho"
+                    ? psychoTypes.length > 0
+                      ? t.rich("free.items.psychoTypes", {
+                          count: psychoTypes.length,
+                          examples: psychoExamples,
+                          link: (chunks) => (
+                            <Link
+                              href={`/oposiciones/${examSlug}/psicotecnicos`}
+                              className="text-accent font-semibold hover:underline"
+                              data-testid="offer-psycho-link"
+                            >
+                              {chunks}
+                            </Link>
+                          ),
+                        })
+                      : t("free.items.psycho")
+                    : t(`free.items.${k}`)}
               </li>
             ))}
           </ul>
