@@ -105,7 +105,7 @@
         "3 temes de test gratis a cada oposició",
         "Fitxes d'estudi de tots els temes",
         "Pla d'estudi setmanal",
-        "Psicotècnics de pràctica il·limitats",
+        "Mostra de psicotècnics: 5 de cada tipus",
         "Estadístiques bàsiques"
       ],
       "cta": "Crea un compte"
@@ -117,6 +117,7 @@
       "items": [
         "Temari complet de la teva oposició en preguntes tipus test amb la seva font",
         "Simulacres amb el format oficial i exàmens rèplica",
+        "Psicotècnics de pràctica il·limitats",
         "Repàs d'errors il·limitat",
         "Estadístiques de progrés per tema"
       ],
@@ -1114,7 +1115,8 @@
     "score": "{correct}/{total}",
     "errors": {
       "invalid": "Revisa les opcions de la pràctica.",
-      "start": "No s'ha pogut iniciar la pràctica. Torna-ho a provar."
+      "start": "No s'ha pogut iniciar la pràctica. Torna-ho a provar.",
+      "limit": "Ja has fet els exercicis gratuïts d'aquest tipus. Tria'n un altre o fes-te Premium per practicar sense límit."
     },
     "summaryTitle": "Resultat de la pràctica",
     "summary": "Has encertat {correct} de {total} ({pct} %) en {time}.",
@@ -1136,7 +1138,14 @@
     "topicGoal": "Per dominar-lo: com a mínim {answered} respostes i un {pct} % d'encerts.",
     "topicMore": "Unes altres 10 preguntes d'aquest tema",
     "topicStudy": "Estudiar el tema",
-    "breakdown": "Encerts: {correct} · Errors: {wrong} · En blanc: {blank}"
+    "breakdown": "Encerts: {correct} · Errors: {wrong} · En blanc: {blank}",
+    "freeTitle": "Mostra gratuïta de psicotècnics",
+    "freeBody": "Sense Premium pots fer {per} exercicis de cada tipus per provar-los tots. Te'n queden {left} de {total}.",
+    "freeOption": "{name} · en queden {left}",
+    "freeOptionDone": "{name} · només Premium",
+    "freeDone": "Ja has fet tota la mostra gratuïta. Amb el Premium de la teva oposició els psicotècnics són il·limitats.",
+    "freeCta": "Veure el Premium",
+    "freeCountNote": "A la mostra gratuïta, cada pràctica s'atura als exercicis que et quedin d'aquell tipus."
   },
   "progress": {
     "title": "El meu progrés",
@@ -1639,8 +1648,8 @@
       "price": "0 € · només et cal un compte",
       "items": {
         "plan": "Pla d'estudi setmanal segons les teves hores i la data de l'examen",
-        "psycho": "Psicotècnics il·limitats amb correcció i explicació",
-        "psychoTypes": "Psicotècnics il·limitats: {count} tipus ({examples}…) amb correcció i explicació. <link>Prova'ls sense registre</link>",
+        "psycho": "Mostra de psicotècnics: {n} exercicis de cada tipus, amb correcció i explicació",
+        "psychoTypes": "Mostra de psicotècnics: {n} exercicis de cadascun dels {count} tipus ({examples}…) amb correcció i explicació. <link>Prova'ls sense registre</link>",
         "progress": "Estadístiques de progrés i ratxa d'estudi",
         "topics": "Test de 3 temes gratis: {topics} ({questions} preguntes amb explicació i font)",
         "notes": "Fitxes d'estudi de tots els temes",
@@ -1662,6 +1671,7 @@
       "mockFormat": "{questions} preguntes · {minutes} min · cada error resta {penalty, number} · mínim {min}",
       "mockFormatNoPenalty": "{questions} exercicis · {minutes} min · sense penalització · mínim {min}",
       "review": "Repàs dels teus errors fins a dominar-los",
+      "psycho": "Psicotècnics il·limitats de tots els tipus, amb correcció i explicació",
       "plan": "El pla setmanal et diu cada setmana quins temes i simulacres toquen",
       "cta": "Pagament aviat",
       "note": "Els pagaments encara no estan actius. Mentrestant, l'accés es concedeix manualment.",

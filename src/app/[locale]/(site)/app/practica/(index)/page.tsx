@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
-import { RefreshCcw } from "lucide-react";
+import { Lock, RefreshCcw } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Alert } from "@/components/ui/form";
@@ -11,8 +11,11 @@ import { startQuestionReviewAction } from "@/lib/learning/questions/actions";
 import {
   getPracticeStats,
   listRecentSessions,
+  myPsychoQuota,
   pendingBySource,
 } from "@/lib/learning/practice/queries";
+import { FREE_PSYCHO_PER_TYPE, FREE_PSYCHO_TOTAL } from "@/lib/learning/practice/free-quota";
+import { getPrimaryExamSlug } from "@/lib/learning/plan-queries";
 import { SESSION_SIZES } from "@/lib/learning/practice/schema";
 import { availableTypes } from "@/lib/learning/psycho/registry";
 
@@ -37,13 +40,20 @@ export default async function PracticeHub({
   const t = await getTranslations("practice");
   const tp = await getTranslations("psycho");
   const format = await getFormatter();
-  const [stats, recent, split] = await Promise.all([
+  const [stats, recent, split, quota, examSlug] = await Promise.all([
     getPracticeStats(7),
     listRecentSessions(10),
     pendingBySource(),
+    myPsychoQuota(),
+    getPrimaryExamSlug(),
   ]);
   const pending = stats?.totals.pending_review ?? 0;
   const types = availableTypes();
+  // Muestra gratis (ADR-067): sin Premium, cada tipo tiene un cupo y los agotados se bloquean
+  const leftOf = (ty: (typeof types)[number]) => (quota.unlimited ? null : quota.left[ty]);
+  const firstOpen = types.find((ty) => leftOf(ty) !== 0) ?? types[0];
+  const allUsed = !quota.unlimited && quota.totalLeft === 0;
+  const premiumHref = examSlug ? `/oposiciones/${examSlug}#oferta` : "/oposiciones";
 
   return (
     <div className="space-y-8">
@@ -54,7 +64,28 @@ export default async function PracticeHub({
 
       {sp.error === "invalid" && <Alert tone="error">{t("errors.invalid")}</Alert>}
       {sp.error === "start" && <Alert tone="error">{t("errors.start")}</Alert>}
+      {sp.error === "limit" && <Alert tone="error">{t("errors.limit")}</Alert>}
       {sp.review === "empty" && <Alert tone="info">{t("reviewEmpty")}</Alert>}
+
+      {!quota.unlimited && (
+        <Card className="space-y-2" data-testid="psycho-free-quota">
+          <h2 className="flex items-center gap-2 text-lg font-semibold">
+            <Lock className="text-accent size-5" aria-hidden /> {t("freeTitle")}
+          </h2>
+          <p className="text-sm">
+            {allUsed
+              ? t("freeDone")
+              : t("freeBody", {
+                  per: FREE_PSYCHO_PER_TYPE,
+                  left: quota.totalLeft,
+                  total: FREE_PSYCHO_TOTAL,
+                })}
+          </p>
+          <Button asChild variant={allUsed ? "accent" : "outline"} size="sm">
+            <Link href={premiumHref}>{t("freeCta")}</Link>
+          </Button>
+        </Card>
+      )}
 
       <div className="grid gap-4 lg:grid-cols-3">
         <Card className="lg:col-span-2">
@@ -62,12 +93,20 @@ export default async function PracticeHub({
           <form action={startPracticeAction} className="mt-4 grid gap-4 sm:grid-cols-3">
             <label className="space-y-1.5 text-sm font-medium sm:col-span-3">
               {t("type")}
-              <select name="type" className={selectCls} defaultValue={types[0]}>
-                {types.map((ty) => (
-                  <option key={ty} value={ty}>
-                    {tp(`types.${ty}.name`)}
-                  </option>
-                ))}
+              <select name="type" className={selectCls} defaultValue={firstOpen}>
+                {types.map((ty) => {
+                  const left = leftOf(ty);
+                  const name = tp(`types.${ty}.name`);
+                  return (
+                    <option key={ty} value={ty} disabled={left === 0}>
+                      {left === null
+                        ? name
+                        : left === 0
+                          ? t("freeOptionDone", { name })
+                          : t("freeOption", { name, left })}
+                    </option>
+                  );
+                })}
               </select>
             </label>
             <label className="space-y-1.5 text-sm font-medium">
@@ -92,11 +131,14 @@ export default async function PracticeHub({
               </select>
             </label>
             <div className="flex items-end">
-              <Button type="submit" variant="accent" className="w-full">
+              <Button type="submit" variant="accent" className="w-full" disabled={allUsed}>
                 {t("start")}
               </Button>
             </div>
           </form>
+          {!quota.unlimited && !allUsed && (
+            <p className="text-muted-foreground mt-3 text-xs">{t("freeCountNote")}</p>
+          )}
         </Card>
 
         <Card>

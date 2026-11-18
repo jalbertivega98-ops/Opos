@@ -27,6 +27,7 @@ import { localized } from "@/lib/catalog/queries";
 import {
   getPracticeStats,
   listRecentSessions,
+  myPsychoQuota,
   pendingBySource,
 } from "@/lib/learning/practice/queries";
 import { startReviewAction } from "@/lib/learning/practice/actions";
@@ -119,11 +120,16 @@ export default async function Dashboard({ params, searchParams }: PageProps<"/[l
   const accuracy = answered ? pct(practice!.totals.correct, answered) : null;
   const pending = split.psycho + split.questions;
   const active = recent.find((s) => s.status === "active");
+  const planTasks = myPlan.reason === null ? myPlan.plan.tasks : [];
+  // Solo se consulta la muestra gratis de psicotécnicos si el plan los pide (ADR-067)
+  const psychoOpen = planTasks.some((task) => task.kind === "psycho")
+    ? await myPsychoQuota(library).then((q) => q.unlimited || q.totalLeft > 0)
+    : true;
   const access = await planAccessWithKinds(
     library,
     myPlan.reason === null ? myPlan.openTopics : [],
+    psychoOpen,
   );
-  const planTasks = myPlan.reason === null ? myPlan.plan.tasks : [];
   // Siguiente tarea que el alumno puede hacer ya y aún no ha terminado esta semana
   // (las de pago sin acceso se saltan).
   const nextTask = planTasks.find(

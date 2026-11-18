@@ -105,7 +105,7 @@
         "3 temas de test gratis en cada oposición",
         "Fichas de estudio de todos los temas",
         "Plan de estudio semanal",
-        "Psicotécnicos de práctica ilimitados",
+        "Muestra de psicotécnicos: 5 de cada tipo",
         "Estadísticas básicas"
       ],
       "cta": "Crear cuenta"
@@ -117,6 +117,7 @@
       "items": [
         "Temario completo de tu oposición en preguntas tipo test con su fuente",
         "Simulacros con el formato oficial y exámenes réplica",
+        "Psicotécnicos de práctica ilimitados",
         "Repaso de errores ilimitado",
         "Estadísticas de progreso por tema"
       ],
@@ -1114,7 +1115,8 @@
     "score": "{correct}/{total}",
     "errors": {
       "invalid": "Revisa las opciones de la práctica.",
-      "start": "No se ha podido iniciar la práctica. Inténtalo de nuevo."
+      "start": "No se ha podido iniciar la práctica. Inténtalo de nuevo.",
+      "limit": "Ya has hecho los ejercicios gratis de ese tipo. Elige otro o hazte Premium para practicar sin límite."
     },
     "summaryTitle": "Resultado de la práctica",
     "summary": "Has acertado {correct} de {total} ({pct} %) en {time}.",
@@ -1136,7 +1138,14 @@
     "topicGoal": "Para dominarlo: al menos {answered} respuestas y un {pct} % de aciertos.",
     "topicMore": "Otras 10 preguntas de este tema",
     "topicStudy": "Estudiar el tema",
-    "breakdown": "Aciertos: {correct} · Fallos: {wrong} · En blanco: {blank}"
+    "breakdown": "Aciertos: {correct} · Fallos: {wrong} · En blanco: {blank}",
+    "freeTitle": "Muestra gratis de psicotécnicos",
+    "freeBody": "Sin Premium puedes hacer {per} ejercicios de cada tipo para probarlos todos. Te quedan {left} de {total}.",
+    "freeOption": "{name} · quedan {left}",
+    "freeOptionDone": "{name} · solo Premium",
+    "freeDone": "Ya has hecho toda la muestra gratis. Con el Premium de tu oposición los psicotécnicos son ilimitados.",
+    "freeCta": "Ver el Premium",
+    "freeCountNote": "En la muestra gratis, cada práctica se corta en los ejercicios que te queden de ese tipo."
   },
   "progress": {
     "title": "Mi progreso",
@@ -1639,8 +1648,8 @@
       "price": "0 € · solo necesitas una cuenta",
       "items": {
         "plan": "Plan de estudio semanal según tus horas y la fecha del examen",
-        "psycho": "Psicotécnicos ilimitados con corrección y explicación",
-        "psychoTypes": "Psicotécnicos ilimitados: {count} tipos ({examples}…) con corrección y explicación. <link>Pruébalos sin registro</link>",
+        "psycho": "Muestra de psicotécnicos: {n} ejercicios de cada tipo, con corrección y explicación",
+        "psychoTypes": "Muestra de psicotécnicos: {n} ejercicios de cada uno de los {count} tipos ({examples}…) con corrección y explicación. <link>Pruébalos sin registro</link>",
         "progress": "Estadísticas de progreso y racha de estudio",
         "topics": "Test de 3 temas gratis: {topics} ({questions} preguntas con explicación y fuente)",
         "notes": "Fichas de estudio de todos los temas",
@@ -1662,6 +1671,7 @@
       "mockFormat": "{questions} preguntas · {minutes} min · cada error resta {penalty, number} · mínimo {min}",
       "mockFormatNoPenalty": "{questions} ejercicios · {minutes} min · sin penalización · mínimo {min}",
       "review": "Repaso de tus errores hasta dominarlos",
+      "psycho": "Psicotécnicos ilimitados de todos los tipos, con corrección y explicación",
       "plan": "El plan semanal te dice cada semana qué temas y simulacros tocan",
       "cta": "Pago próximamente",
       "note": "Los pagos aún no están activos. Mientras tanto, el acceso se concede manualmente.",
