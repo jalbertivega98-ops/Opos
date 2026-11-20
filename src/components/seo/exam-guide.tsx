@@ -4,7 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Card } from "@/components/ui/card";
 import { FaqList } from "@/components/seo/faq-list";
 import { JsonLd, faqLd } from "@/lib/seo/json-ld";
-import { tr, type ExamGuide } from "@/lib/seo/exam-guides";
+import { examShortName, relatedExamGuides, tr, type ExamGuide } from "@/lib/seo/exam-guides";
 import { psychoGuideByType } from "@/lib/seo/psycho-guides";
 
 /**
@@ -26,6 +26,7 @@ export async function ExamGuideSection({
   const t = await getTranslations("seo.guide");
   const tp = await getTranslations("psycho.types");
   const format = await getFormatter();
+  const related = relatedExamGuides(guide.slug);
   const faq = guide.faq.map(({ q, a }) => ({ q: tr(q, locale), a: tr(a, locale) }));
   const verified = format.dateTime(new Date(`${guide.verifiedOn}T12:00:00Z`), {
     day: "numeric",
@@ -138,6 +139,27 @@ export async function ExamGuideSection({
           <FaqList items={faq} />
         </div>
       </section>
+
+      {related.length > 0 && (
+        <section aria-labelledby="guide-related">
+          <h2 id="guide-related" className="text-2xl font-bold">
+            {t("related")}
+          </h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-3">
+            {related.map((g) => (
+              <li key={g.slug}>
+                <Link
+                  href={`/oposiciones/${g.slug}`}
+                  className="group border-border hover:border-accent flex h-full items-center justify-between gap-2 rounded-2xl border p-4 font-semibold"
+                >
+                  <span className="group-hover:text-accent">{examShortName(g, locale)}</span>
+                  <ArrowRight className="size-4 shrink-0" aria-hidden />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section aria-labelledby="guide-sources">
         <h2 id="guide-sources" className="text-2xl font-bold">
