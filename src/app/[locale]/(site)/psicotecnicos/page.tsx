@@ -35,6 +35,13 @@ export async function generateMetadata({
 
 const DEMO_SIZE = 10;
 
+/** Los chips enlazan a la página canónica de cada tipo, no a ?tipo=… (ADR-071). */
+function chipHref(ty: PsychoType): string {
+  if (ty === "series") return "/psicotecnicos";
+  const g = psychoGuideByType(ty);
+  return g ? `/psicotecnicos/${g.slug}` : `/psicotecnicos?tipo=${ty}`;
+}
+
 export default async function PsychoDemoPage({
   params,
   searchParams,
@@ -60,7 +67,7 @@ export default async function PsychoDemoPage({
           {types.map((ty) => (
             <Link
               key={ty}
-              href={ty === "series" ? "/psicotecnicos" : `/psicotecnicos?tipo=${ty}`}
+              href={chipHref(ty)}
               aria-current={ty === type ? "page" : undefined}
               className={cn(
                 "border-border rounded-full border px-3 py-1 text-sm",

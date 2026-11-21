@@ -3,7 +3,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { alternatesFor, isIndexable, localePath, searchVerification } from "@/lib/seo/site";
 import { JsonLd, faqLd } from "@/lib/seo/json-ld";
 import { psychoGuides } from "@/lib/seo/psycho-guides";
-import { examGuides } from "@/lib/seo/exam-guides";
+import { examGuides, relatedExamGuides } from "@/lib/seo/exam-guides";
 import { buildLlmsTxt } from "@/lib/seo/llms";
 import { PSYCHO_TYPES } from "@/lib/learning/psycho/types";
 import { availableTypes } from "@/lib/learning/psycho/registry";
@@ -105,6 +105,17 @@ describe("examShortName (ADR-050)", () => {
         expect(n).not.toMatch(/^Oposici/i);
         expect(n.charAt(0)).toBe(n.charAt(0).toUpperCase());
       }
+    }
+  });
+});
+
+describe("oposiciones relacionadas (ADR-071)", () => {
+  it("cada guía enlaza a 3 guías distintas que existen y no a sí misma", () => {
+    for (const g of examGuides()) {
+      const rel = relatedExamGuides(g.slug).map((r) => r.slug);
+      expect(rel).toHaveLength(3);
+      expect(new Set(rel).size).toBe(3);
+      expect(rel).not.toContain(g.slug);
     }
   });
 });

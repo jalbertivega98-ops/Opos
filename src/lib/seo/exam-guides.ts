@@ -464,6 +464,26 @@ const administrativo: ExamGuide = {
         ca: "Al sistema general, 31,67 netes a la primera part i 12,67 a la segona, segons la nota de puntuacions mínimes de l'INAP.",
       },
     },
+    {
+      q: {
+        es: "¿Cuántas plazas hay en Administrativo del Estado?",
+        ca: "Quantes places hi ha a Administratiu de l'Estat?",
+      },
+      a: {
+        es: "La convocatoria BOE-A-2025-26262 ofrece 2.512 plazas en el Cuerpo General Administrativo de la Administración del Estado.",
+        ca: "La convocatòria BOE-A-2025-26262 ofereix 2.512 places al Cos General Administratiu de l'Administració de l'Estat.",
+      },
+    },
+    {
+      q: {
+        es: "¿Qué temario entra en Administrativo del Estado?",
+        ca: "Quin temari entra a Administratiu de l'Estat?",
+      },
+      a: {
+        es: "Seis bloques: organización del Estado, organización de oficinas, derecho administrativo, gestión de personal, gestión financiera e informática y ofimática. El supuesto práctico es de los bloques III, IV y V.",
+        ca: "Sis blocs: organització de l'Estat, organització d'oficines, dret administratiu, gestió de personal, gestió financera i informàtica i ofimàtica. El supòsit pràctic és dels blocs III, IV i V.",
+      },
+    },
   ],
   sources: [
     {
@@ -672,6 +692,36 @@ const tramitacion: ExamGuide = {
       a: {
         es: "No. La convocatoria no incluye ninguna prueba psicotécnica.",
         ca: "No. La convocatòria no inclou cap prova psicotècnica.",
+      },
+    },
+    {
+      q: {
+        es: "¿Cuántas plazas hay en Tramitación Procesal?",
+        ca: "Quantes places hi ha a Tramitació Processal?",
+      },
+      a: {
+        es: "La Orden PJC/1549/2025 convoca 1.155 plazas del Cuerpo de Tramitación Procesal y Administrativa.",
+        ca: "L'Orden PJC/1549/2025 convoca 1.155 places del Cos de Tramitació Processal i Administrativa.",
+      },
+    },
+    {
+      q: {
+        es: "¿Cuántos temas tiene Tramitación Procesal?",
+        ca: "Quants temes té Tramitació Processal?",
+      },
+      a: {
+        es: "37 temas: 31 de organización y derecho procesal y 6 de ofimática (Windows y Microsoft 365).",
+        ca: "37 temes: 31 d'organització i dret processal i 6 d'ofimàtica (Windows i Microsoft 365).",
+      },
+    },
+    {
+      q: {
+        es: "¿Cuándo fue el examen de Tramitación Procesal?",
+        ca: "Quan va ser l'examen de Tramitació Processal?",
+      },
+      a: {
+        es: "El examen de la convocatoria de la Orden PJC/1549/2025 fue el 3 de octubre de 2026.",
+        ca: "L'examen de la convocatòria de l'Orden PJC/1549/2025 va ser el 3 d'octubre de 2026.",
       },
     },
   ],
@@ -1003,6 +1053,36 @@ const guardiaUrbana: ExamGuide = {
       a: {
         es: "La primera prueba entera: temario, cultura general y actualidad (de los últimos 12 meses, con notas de prensa oficiales), además de los psicotécnicos. Idioma, físicas y entrevista no se preparan aquí.",
         ca: "La primera prova sencera: temari, cultura general i actualitat (dels últims 12 mesos, amb notes de premsa oficials), a més dels psicotècnics. Idioma, físiques i entrevista no es preparen aquí.",
+      },
+    },
+    {
+      q: {
+        es: "¿Cuántas plazas tiene la convocatoria de la Guardia Urbana?",
+        ca: "Quantes places té la convocatòria de la Guàrdia Urbana?",
+      },
+      a: {
+        es: "La convocatoria 29/2025 de agente de la Guardia Urbana de Barcelona tiene 134 plazas.",
+        ca: "La convocatòria 29/2025 d'agent de la Guàrdia Urbana de Barcelona té 134 places.",
+      },
+    },
+    {
+      q: {
+        es: "¿Qué pruebas tiene la oposición a la Guardia Urbana?",
+        ca: "Quines proves té l'oposició a la Guàrdia Urbana?",
+      },
+      a: {
+        es: "Prueba cultural y teórica (hasta 90 preguntas en catalán), tests aptitudinales, idioma, pruebas físicas, catalán B2, personalidad y entrevista, y reconocimiento médico. Después, curso en el ISPC y prácticas.",
+        ca: "Prova cultural i teòrica (fins a 90 preguntes en català), tests aptitudinals, idioma, proves físiques, català B2, personalitat i entrevista, i reconeixement mèdic. Després, curs a l'ISPC i pràctiques.",
+      },
+    },
+    {
+      q: {
+        es: "¿Qué nota tuvo la última plaza de la Guardia Urbana?",
+        ca: "Quina nota va tenir l'última plaça de la Guàrdia Urbana?",
+      },
+      a: {
+        es: "En la clasificación final de la convocatoria 29/2025 (8 de julio de 2026), la última plaza quedó con 37,57 sobre 60.",
+        ca: "A la classificació final de la convocatòria 29/2025 (8 de juliol de 2026), l'última plaça va quedar amb 37,57 sobre 60.",
       },
     },
   ],
@@ -1527,4 +1607,59 @@ export function examShortName(g: ExamGuide, locale: string): string {
     .replace(/^Oposici(?:ones|ons) (?:a la |a |d')/i, "")
     .replace(/\s*\((?:convocatoria|convocatòria) [^)]*\)$/i, "");
   return name.charAt(0).toUpperCase() + name.slice(1);
+}
+
+/**
+ * Oposiciones parecidas (mismo ámbito o temario que se solapa), para enlazar
+ * entre fichas (ADR-071). Solo slugs con guía.
+ */
+const RELATED: Record<string, string[]> = {
+  "mossos-esquadra": ["guardia-urbana-barcelona", "policia-local", "bombers-generalitat"],
+  "auxiliar-administrativo-estado": [
+    "administrativo-estado",
+    "auxilio-judicial",
+    "tramitacion-procesal",
+  ],
+  "administrativo-estado": [
+    "auxiliar-administrativo-estado",
+    "tramitacion-procesal",
+    "auxilio-judicial",
+  ],
+  "auxilio-judicial": [
+    "tramitacion-procesal",
+    "auxiliar-administrativo-estado",
+    "administrativo-estado",
+  ],
+  "tramitacion-procesal": [
+    "auxilio-judicial",
+    "administrativo-estado",
+    "auxiliar-administrativo-estado",
+  ],
+  "policia-nacional-basica": [
+    "guardia-civil-cabos-guardias",
+    "ayudantes-instituciones-penitenciarias",
+    "policia-local",
+  ],
+  "guardia-civil-cabos-guardias": [
+    "policia-nacional-basica",
+    "ayudantes-instituciones-penitenciarias",
+    "mossos-esquadra",
+  ],
+  "guardia-urbana-barcelona": ["mossos-esquadra", "policia-local", "bombers-generalitat"],
+  "policia-local": ["guardia-urbana-barcelona", "mossos-esquadra", "policia-nacional-basica"],
+  "bombers-generalitat": ["mossos-esquadra", "guardia-urbana-barcelona", "policia-local"],
+  "ayudantes-instituciones-penitenciarias": [
+    "serveis-penitenciaris-catalunya",
+    "policia-nacional-basica",
+    "guardia-civil-cabos-guardias",
+  ],
+  "serveis-penitenciaris-catalunya": [
+    "ayudantes-instituciones-penitenciarias",
+    "mossos-esquadra",
+    "guardia-urbana-barcelona",
+  ],
+};
+
+export function relatedExamGuides(slug: string): ExamGuide[] {
+  return (RELATED[slug] ?? []).map((s) => GUIDES[s]).filter((g): g is ExamGuide => !!g);
 }

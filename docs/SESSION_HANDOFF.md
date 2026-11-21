@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Fichas con más impresiones (2026-11-20, rama `claude/project-thread-h5od90`, MKT-017, ADR-071)
+
+- Motivo: joel quiere subir en Google; esas fichas están entre la posición 50 y 76.
+- Hecho: «Otras oposiciones parecidas» en todas las fichas, 8 FAQ nuevas con datos ya verificados, chips de psicotécnicos a la URL canónica.
+- Pendiente: «fusiona» de joel; medir en 2-3 semanas.
+
 ### Títulos SEO «Oposiciones …» (2026-11-18, rama `claude/project-thread-h5od90`, MKT-016, ADR-069)
 
 - Motivo: la gente busca «oposiciones <cuerpo>»; posición media 41,9 y 12 clics en 28 días.
