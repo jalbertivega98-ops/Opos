@@ -133,32 +133,40 @@ test.describe("Administración", () => {
     grantRole(email, "admin");
     await page.goto("/admin");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Administración");
-    const total = Number(
-      (await page.getByTestId("kpi-totalUsers").locator("p").nth(1).innerText()).replace(/\D/g, ""),
-    );
-    expect(total).toBeGreaterThanOrEqual(1);
-    const signups = page.getByTestId("audience-audienceSignups");
-    await expect(signups).toContainText("Registros nuevos");
-    await expect(signups.locator("dd").first()).not.toHaveText("0");
-    await expect(page.getByTestId("audience-audienceLogins")).toContainText("Han entrado");
+    // Resumen (ADR-072): 6 cifras clave con comparativa, 30 días por defecto.
+    const summary = page.getByTestId("admin-summary");
+    await expect(summary.locator("> *")).toHaveCount(6);
+    const signups = page.getByTestId("summary-signups");
+    await expect(signups).toContainText("Cuentas nuevas");
+    await expect(signups.locator("p").nth(1)).not.toHaveText("0");
+    await expect(page.getByTestId("summary-signups-trend")).toContainText(/▲|=/);
+    await expect(page.getByTestId("summary-conversion")).toContainText("%");
+    await expect(page.getByTestId("summary-revenue")).toContainText("€");
+    await expect(page.getByTestId("summary-today")).toContainText("Hoy");
+    await expect(page.getByTestId("summary-today")).toContainText(/cuentas? nuevas?/);
+    // Alumnos que más lo usan y últimos en usarlo (sin cuentas de administración)
+    await expect(page.getByTestId("ranking-top")).toContainText("los que más lo usan");
+    await expect(page.getByTestId("ranking-recent")).toContainText("los últimos en usarlo");
     await expect(page.getByTestId("admin-audience")).toContainText("cuentas en total");
     await expect(page.getByTestId("chart-logins")).toContainText("Han entrado");
+    await expect(page.getByTestId("chart-visits")).toContainText("media");
     await expect(page.getByTestId("chart-visits").locator("table tr")).toHaveCount(30);
-    // Embudo de conversión (ADR-047): 7 pasos, 30 días por defecto y cambio a 7.
+    // Embudo de conversión (ADR-047): 9 pasos, sigue al periodo elegido.
     const funnel = page.getByTestId("admin-funnel");
     await expect(funnel).toContainText("Embudo de conversión");
     await expect(funnel.locator("ol > li")).toHaveCount(9);
     await expect(page.getByTestId("funnel-signups")).toContainText("Crean cuenta");
-    await expect(page.getByTestId("funnel-period-30")).toHaveAttribute("aria-current", "true");
-    await page.getByTestId("funnel-period-7").click();
-    await expect(page).toHaveURL(/embudo=7/);
-    await expect(page.getByTestId("funnel-period-7")).toHaveAttribute("aria-current", "true");
+    await expect(page.getByTestId("period-30")).toHaveAttribute("aria-current", "true");
     if (process.env.SHOT_DIR)
-      await funnel.screenshot({ path: `${process.env.SHOT_DIR}/embudo.png` });
-    if (process.env.SHOT_DIR)
-      await page
-        .getByTestId("admin-audience")
-        .screenshot({ path: `${process.env.SHOT_DIR}/audiencia.png` });
+      await page.screenshot({ path: `${process.env.SHOT_DIR}/admin-30.png`, fullPage: true });
+    await page.getByTestId("period-7").click();
+    await expect(page).toHaveURL(/periodo=7/);
+    await expect(page.getByTestId("period-7")).toHaveAttribute("aria-current", "true");
+    await expect(page.getByTestId("chart-visits").locator("table tr")).toHaveCount(7);
+    await expect(funnel).toContainText("7 días");
+    await page.getByTestId("period-90").click();
+    await expect(page).toHaveURL(/periodo=90/);
+    await expect(page.getByTestId("chart-visits").locator("table tr")).toHaveCount(90);
     await expect(page.getByTestId("recent-users")).toContainText("admin");
   });
 });

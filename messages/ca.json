@@ -484,12 +484,12 @@
     "audienceLogins": "Hi han entrat",
     "audienceTotal": "{total} comptes en total · {confirmed} amb el correu confirmat",
     "audienceTraffic": "Veure el trànsit per origen",
-    "chartTitle": "Per dia, últims 30 dies",
+    "chartTitle": "Per dia, últims {n} dies",
     "chartVisits": "Visites",
     "chartLogins": "Hi han entrat",
     "chartSignups": "Registres nous",
-    "chartTotal": "{n} en 30 dies",
-    "chartHint": "Passa el ratolí per una barra per veure el dia i la xifra. «Hi han entrat» compta cada persona una vegada al dia, tant si inicia sessió com si ja la tenia oberta. La suma de 30 dies pot comptar la mateixa persona en dies diferents.",
+    "chartTotal": "{n} en {days} dies",
+    "chartHint": "Passa el ratolí per una barra per veure el dia i la xifra. La línia discontínua és la mitjana diària. «Hi han entrat» compta cada persona una vegada al dia, tant si inicia sessió com si ja la tenia oberta; la suma del període pot comptar la mateixa persona en dies diferents.",
     "salesHint": "Les vendes, subscripcions i codis promocionals són a",
     "salesLink": "Compres",
     "funnel": {
@@ -527,6 +527,49 @@
       "byPsychoValue": "{starts} comencen · {signups} premen crear compte",
       "note": "El test gratuït es compta des de l'11/11/2026, i els psicotècnics i els clics a «Crear compte» des del 18/11/2026; abans d'aquestes dates surt 0. Només són comptadors diaris: no es guarda qui ha fet cada prova.",
       "rateNone": "sense dades per comparar"
+    },
+    "chartAverage": "mitjana {n} al dia",
+    "summary": {
+      "period": "Període",
+      "days": "{n} dies",
+      "range": "Del {from} al {to}, comparat amb els mateixos dies just abans (des del {prevFrom}).",
+      "today": "Avui, fins ara: {visits, plural, one {# visita} other {# visites}} · {signups, plural, one {# compte nou} other {# comptes nous}} · {logins, plural, one {# persona hi ha entrat} other {# persones hi han entrat}}.",
+      "same": "= igual",
+      "new": "nou",
+      "points": "{n} punts",
+      "before": "abans {value}",
+      "conversionDetail": "{signups, plural, one {# compte} other {# comptes}} de {visits, plural, one {# visita} other {# visites}}",
+      "revenueDetail": "{packs, plural, =0 {Sense packs} one {# pack} other {# packs}} · {premium, plural, =0 {sense Premium nous} one {# Premium nou} other {# Premium nous}}",
+      "premiumDetail": "≈ {mrr} al mes · {gifts, plural, =0 {cap de regalat} one {# de regalat a part} other {# de regalats a part}}",
+      "premiumNew": "{n, plural, one {+# nou} other {+# nous}} (abans {before})",
+      "items": {
+        "visits": "Visites",
+        "signups": "Comptes nous",
+        "conversion": "Visites que creen compte",
+        "practicing": "Alumnes que practiquen",
+        "revenue": "Ingressos",
+        "premium": "Premium de pagament actius"
+      },
+      "hints": {
+        "visits": "Persones que arriben al web (pàgina d'entrada, sense galetes).",
+        "signups": "Comptes creats en el període.",
+        "conversion": "Comptes nous per cada 100 visites. La comparació va en punts.",
+        "practicing": "Persones amb compte que han fet almenys un test o psicotècnic.",
+        "revenue": "Packs pagats i primer pagament de Premium nous (Stripe real). No inclou renovacions: el total exacte és a Stripe.",
+        "premium": "Subscripcions de pagament vigents avui. «Al mes» és una estimació amb el preu de llista (sense descomptes) i sense les que ja s'han donat de baixa."
+      }
+    },
+    "ranking": {
+      "title": "Alumnes",
+      "topTitle": "Top 10 · els que més l'utilitzen (últims {n} dies)",
+      "topHint": "Ordenats pel temps dins la seva zona; si empaten, per preguntes respostes. No hi surten els comptes d'administració.",
+      "topDetail": "{time} · {answers, plural, one {# pregunta} other {# preguntes}} · {days, plural, one {# dia} other {# dies}}",
+      "recentTitle": "Top 10 · els últims a utilitzar-lo",
+      "recentHint": "Última vegada que van entrar, van respondre alguna cosa o tenien el web obert.",
+      "hours": "{h} h {m} min",
+      "minutes": "{m} min",
+      "never": "mai",
+      "empty": "Encara no hi ha alumnes amb activitat en aquest període."
     }
   },
   "profile": {

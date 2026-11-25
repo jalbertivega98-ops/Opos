@@ -3,14 +3,20 @@ import { getFormatter, getTranslations, setRequestLocale } from "next-intl/serve
 import { Card, EmptyState } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
 import { DailyChart } from "@/components/admin/daily-chart";
-import { FUNNEL_PERIODS, FunnelCard } from "@/components/admin/funnel-card";
+import { FunnelCard } from "@/components/admin/funnel-card";
+import { PeriodPicker } from "@/components/admin/period-picker";
+import { SummaryCards } from "@/components/admin/summary-cards";
+import { UserRankingCards } from "@/components/admin/user-ranking";
 import {
   getAudienceDaily,
   getAudienceMetrics,
   getFunnel,
+  getOverview,
   getPracticeMetrics,
   getUserMetrics,
+  getUserRanking,
 } from "@/lib/admin/metrics";
+import { dailyAverage, parsePeriod } from "@/lib/admin/overview";
 import { pct } from "@/lib/learning/practice/format";
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false } };
@@ -18,20 +24,20 @@ export const metadata: Metadata = { title: "Admin", robots: { index: false } };
 export default async function AdminPage({ params, searchParams }: PageProps<"/[locale]/admin">) {
   const { locale } = await params;
   const sp = await searchParams;
-  const funnelDays =
-    FUNNEL_PERIODS.find(
-      (d) => String(d) === (Array.isArray(sp.embudo) ? sp.embudo[0] : sp.embudo),
-    ) ?? 30;
+  // ?periodo= (7, 30, 90); se acepta el antiguo ?embudo= de los enlaces guardados.
+  const days = parsePeriod(sp.periodo ?? sp.embudo);
   setRequestLocale(locale);
   const t = await getTranslations("admin");
   const format = await getFormatter();
   const tp = await getTranslations("psycho");
-  const [m, pm, am, daily, funnel] = await Promise.all([
+  const [m, pm, am, daily, funnel, overview, ranking] = await Promise.all([
     getUserMetrics(),
     getPracticeMetrics(),
     getAudienceMetrics(),
-    getAudienceDaily(30),
-    getFunnel(funnelDays),
+    getAudienceDaily(days),
+    getFunnel(days),
+    getOverview(days),
+    getUserRanking(days),
   ]);
   const formatDay = (day: string) =>
     format.dateTime(new Date(`${day}T12:00:00Z`), { day: "numeric", month: "short" });
@@ -42,36 +48,35 @@ export default async function AdminPage({ params, searchParams }: PageProps<"/[l
     { key: "logins", title: t("chartLogins"), bar: "bg-primary" },
     { key: "signups", title: t("chartSignups"), bar: "bg-highlight" },
   ] as const;
-  const audience = [
-    ["audienceVisits", am.visits_today, am.visits_7d, am.visits_30d],
-    ["audienceSignups", am.signups_today, am.signups_7d, am.signups_30d],
-    ["audienceLogins", am.logins_today, am.logins_7d, am.logins_30d],
-  ] as const;
-
-  const kpis = [
-    { key: "totalUsers", value: m.totalUsers },
-    { key: "newUsers7d", value: m.newUsers7d },
-    { key: "active7d", value: m.active7d },
-    { key: "onboarded", value: m.onboarded },
-  ] as const;
-
   return (
     <div className="mx-auto max-w-6xl space-y-8 px-4 py-8 sm:py-10">
-      <h1 className="text-3xl font-bold">{t("title")}</h1>
+      <div className="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <h1 className="text-3xl font-bold">{t("title")}</h1>
+          <p className="text-muted-foreground mt-1 text-sm" data-testid="summary-range">
+            {t("summary.range", {
+              from: formatDay(overview.from),
+              to: formatDay(overview.to),
+              prevFrom: formatDay(overview.prevFrom),
+            })}
+          </p>
+        </div>
+        <PeriodPicker current={days} />
+      </div>
 
-      <section aria-labelledby="kpi-title">
-        <h2 id="kpi-title" className="sr-only">
+      <section aria-labelledby="kpi-title" className="space-y-3">
+        <h2 id="kpi-title" className="text-lg font-semibold">
           {t("overview")}
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {kpis.map((k) => (
-            <Card key={k.key} data-testid={`kpi-${k.key}`}>
-              <p className="text-muted-foreground text-sm">{t(k.key)}</p>
-              <p className="font-display mt-1 text-3xl font-extrabold">{format.number(k.value)}</p>
-            </Card>
-          ))}
-        </div>
-        <p className="text-muted-foreground mt-4 text-sm">
+        <SummaryCards overview={overview} />
+        <p className="text-muted-foreground text-sm" data-testid="summary-today">
+          {t("summary.today", {
+            visits: am.visits_today,
+            signups: am.signups_today,
+            logins: am.logins_today,
+          })}
+        </p>
+        <p className="text-muted-foreground text-sm">
           {t("salesHint")}{" "}
           <Link href="/admin/compras" className="text-primary font-medium underline">
             {t("salesLink")}
@@ -79,7 +84,7 @@ export default async function AdminPage({ params, searchParams }: PageProps<"/[l
         </p>
       </section>
 
-      <FunnelCard funnel={funnel} />
+      <UserRankingCards ranking={ranking} />
 
       <section aria-labelledby="audience-title" data-testid="admin-audience">
         <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -90,38 +95,21 @@ export default async function AdminPage({ params, searchParams }: PageProps<"/[l
             {t("audienceTraffic")}
           </Link>
         </div>
-        <div className="mt-3 grid gap-4 sm:grid-cols-3">
-          {audience.map(([key, today, week, month]) => (
-            <Card key={key} data-testid={`audience-${key}`}>
-              <p className="text-muted-foreground text-sm">{t(key)}</p>
-              <dl className="mt-2 grid grid-cols-3 gap-2 text-center">
-                {(
-                  [
-                    ["audienceToday", today],
-                    ["audience7d", week],
-                    ["audience30d", month],
-                  ] as const
-                ).map(([label, value]) => (
-                  <div key={label}>
-                    <dt className="text-muted-foreground text-xs">{t(label)}</dt>
-                    <dd className="font-display text-2xl font-extrabold tabular-nums">
-                      {format.number(value)}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            </Card>
-          ))}
-        </div>
         <Card className="mt-4" data-testid="audience-chart">
-          <h3 className="font-semibold">{t("chartTitle")}</h3>
+          <h3 className="font-semibold">{t("chartTitle", { n: days })}</h3>
           <div className="mt-4 grid gap-6 lg:grid-cols-3">
             {charts.map((c) => (
               <DailyChart
                 key={c.key}
                 testId={`chart-${c.key}`}
                 title={c.title}
-                total={t("chartTotal", { n: format.number(sum(c.key)) })}
+                total={t("chartTotal", { n: format.number(sum(c.key)), days })}
+                average={dailyAverage(daily.map((d) => d[c.key]))}
+                averageLabel={t("chartAverage", {
+                  n: format.number(dailyAverage(daily.map((d) => d[c.key])), {
+                    maximumFractionDigits: 1,
+                  }),
+                })}
                 points={daily.map((d) => ({ day: d.day, value: d[c.key] }))}
                 formatDay={formatDay}
                 formatNumber={formatNumber}
@@ -139,6 +127,8 @@ export default async function AdminPage({ params, searchParams }: PageProps<"/[l
         </p>
         <p className="text-muted-foreground mt-1 text-xs">{t("audienceHint")}</p>
       </section>
+
+      <FunnelCard funnel={funnel} />
 
       <section aria-labelledby="practice-title" data-testid="admin-practice">
         <h2 id="practice-title" className="text-lg font-semibold">
