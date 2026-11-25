@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { dailyAverage, parsePeriod, pointsTrend, rate, trend } from "@/lib/admin/overview";
+import {
+  dailyAverage,
+  hoursMinutes,
+  parsePeriod,
+  pointsTrend,
+  rate,
+  trend,
+} from "@/lib/admin/overview";
 
 describe("resumen del panel", () => {
   it("lee el periodo y vuelve a 30 si no es válido", () => {
@@ -28,5 +35,11 @@ describe("resumen del panel", () => {
   it("media diaria", () => {
     expect(dailyAverage([1, 2, 4])).toBe(2.3);
     expect(dailyAverage([])).toBe(0);
+  });
+
+  it("tiempo dentro en horas y minutos", () => {
+    expect(hoursMinutes(8100)).toEqual({ h: 2, m: 15 });
+    expect(hoursMinutes(59)).toEqual({ h: 0, m: 1 });
+    expect(hoursMinutes(0)).toEqual({ h: 0, m: 0 });
   });
 });

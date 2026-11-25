@@ -95,3 +95,88 @@ begin
 end $$;
 revoke execute on function public.admin_overview(integer) from public, anon;
 grant execute on function public.admin_overview(integer) to authenticated;
+
+-- Alumnos que más usan la web en el periodo y últimos en usarla (ADR-072).
+-- Uso = tiempo con la zona del alumno abierta (user_presence_daily), preguntas
+-- respondidas (practice_items) y días con actividad. Última vez = lo más
+-- reciente entre latido, respuesta, inicio de sesión y actividad registrada.
+-- Fuera las cuentas de administración. Solo administradores.
+create or replace function public.admin_user_ranking(p_days integer default 30, p_limit integer default 10)
+returns jsonb
+language plpgsql stable security definer set search_path = '' as $$
+declare
+  v_days integer := least(greatest(coalesce(p_days, 30), 1), 90);
+  v_limit integer := least(greatest(coalesce(p_limit, 10), 1), 50);
+  v_start date := (now() at time zone 'Europe/Madrid')::date - (v_days - 1);
+  v_from timestamptz := v_start::timestamp at time zone 'Europe/Madrid';
+begin
+  if not public.is_admin() then
+    raise exception 'Solo administradores' using errcode = '42501';
+  end if;
+  return (
+    with students as (
+      select u.id, u.email::text as email, p.display_name, u.last_sign_in_at
+        from auth.users u
+        join public.profiles p on p.id = u.id
+       where u.deleted_at is null and p.role not in ('admin', 'owner')
+    ),
+    pres as (
+      select d.user_id,
+             sum(d.seconds) filter (where d.day >= v_start) as seconds,
+             count(*) filter (where d.day >= v_start and d.seconds > 0) as days,
+             max(d.last_seen) as last_seen
+        from public.user_presence_daily d group by d.user_id
+    ),
+    ans as (
+      select i.user_id,
+             count(*) filter (where i.answered_at >= v_from) as answers,
+             max(i.answered_at) as last_answer
+        from public.practice_items i
+       where i.answered_at is not null group by i.user_id
+    ),
+    act as (
+      select e.user_id, max(e.created_at) as last_event
+        from public.activity_events e group by e.user_id
+    ),
+    prem as (
+      select distinct s.user_id from public.subscriptions s
+       where s.status in ('active', 'trialing', 'past_due')
+         and (s.provider <> 'none' or s.current_period_end is null or s.current_period_end > now())
+    ),
+    rows as (
+      select s.id, s.email, s.display_name,
+             coalesce(pr.seconds, 0) as seconds,
+             coalesce(pr.days, 0) as days,
+             coalesce(a.answers, 0) as answers,
+             nullif(greatest(coalesce(pr.last_seen, '-infinity'), coalesce(a.last_answer, '-infinity'),
+                             coalesce(s.last_sign_in_at, '-infinity'), coalesce(ac.last_event, '-infinity')),
+                    '-infinity'::timestamptz) as last_seen,
+             (pm.user_id is not null) as premium
+        from students s
+        left join pres pr on pr.user_id = s.id
+        left join ans a on a.user_id = s.id
+        left join act ac on ac.user_id = s.id
+        left join prem pm on pm.user_id = s.id
+    ),
+    to_json as (
+      select r.*, jsonb_build_object(
+               'id', r.id, 'email', r.email, 'name', r.display_name, 'seconds', r.seconds,
+               'days', r.days, 'answers', r.answers, 'last_seen', r.last_seen,
+               'premium', r.premium) as j
+        from rows r
+    )
+    select jsonb_build_object(
+      'days', v_days,
+      'top', coalesce((select jsonb_agg(t.j order by t.seconds desc, t.answers desc, t.last_seen desc)
+                         from (select * from to_json
+                                where seconds > 0 or answers > 0
+                                order by seconds desc, answers desc, last_seen desc
+                                limit v_limit) t), '[]'::jsonb),
+      'recent', coalesce((select jsonb_agg(t.j order by t.last_seen desc)
+                            from (select * from to_json where last_seen is not null
+                                   order by last_seen desc limit v_limit) t), '[]'::jsonb)
+    )
+  );
+end $$;
+revoke execute on function public.admin_user_ranking(integer, integer) from public, anon;
+grant execute on function public.admin_user_ranking(integer, integer) to authenticated;

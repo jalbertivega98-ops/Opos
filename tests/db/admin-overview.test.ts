@@ -89,4 +89,32 @@ describe("resumen del panel con comparativa (admin_overview)", () => {
     expect((await overview(500)).days).toBe(90);
     expect((await overview(0)).days).toBe(1);
   });
+
+  it("ordena a los alumnos por uso y por última vez, sin administradores", async () => {
+    const busy = (await createUser(client)).id;
+    const quiet = (await createUser(client)).id;
+    ids.push(busy, quiet);
+    await client.query(
+      `insert into public.user_presence_daily (user_id, day, seconds, last_seen) values
+         ($1, (now() at time zone 'Europe/Madrid')::date, 86000, now() - interval '2 hours'),
+         ($2, (now() at time zone 'Europe/Madrid')::date, 60, now() - interval '1 minute'),
+         ($3, (now() at time zone 'Europe/Madrid')::date, 86400, now())`,
+      [busy, quiet, admin],
+    );
+    type U = { id: string; seconds: number; email: string };
+    const r = await as(client, { uid: admin }, async (q) => {
+      const { rows } = await q("select public.admin_user_ranking(7, 50) as r");
+      return rows[0].r as { days: number; top: U[]; recent: U[] };
+    });
+    const topIds = r.top.map((u) => u.id);
+    const recentIds = r.recent.map((u) => u.id);
+    expect(topIds.indexOf(busy)).toBeLessThan(topIds.indexOf(quiet));
+    expect(recentIds.indexOf(quiet)).toBeLessThan(recentIds.indexOf(busy));
+    expect(topIds).not.toContain(admin);
+    expect(recentIds).not.toContain(admin);
+    expect(r.top.find((u) => u.id === busy)?.seconds).toBe(86000);
+    await expect(
+      as(client, { uid: student }, (q) => q("select public.admin_user_ranking(7, 10)")),
+    ).rejects.toThrow(/Solo administradores/);
+  });
 });

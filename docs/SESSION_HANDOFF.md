@@ -7,8 +7,8 @@
 ### Resumen del panel con comparativa (2026-11-25, rama `claude/project-thread-m4qh52`, UX-008, ADR-072)
 
 - Motivo: joel quiere ver mejor los datos en /admin.
-- Hecho: selector 7/30/90 días para todo, 6 cifras clave con comparativa, línea «Hoy», gráficas con media diaria, embudo según el periodo. SQL: migración 20261125000100 + preview 93.
-- Pendiente: «fusiona» de joel. Fallo que ya estaba en main: `tests/db/question-practice` (en blanco).
+- Hecho: selector 7/30/90 días para todo, 6 cifras clave con comparativa, línea «Hoy», gráficas con media diaria, embudo según el periodo, listas de alumnos que más lo usan y últimos en usarlo. SQL: migración 20261125000100 + preview 93.
+- Pendiente: «fusiona» de joel.
 
 ### Fichas con más impresiones (2026-11-20, rama `claude/project-thread-h5od90`, MKT-017, ADR-071)
 

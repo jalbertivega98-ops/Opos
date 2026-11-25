@@ -216,3 +216,45 @@ export async function getOverview(days = 30): Promise<Overview> {
     mrrCents: Number(raw.mrr_cents ?? 0),
   };
 }
+
+export type RankedUser = {
+  id: string;
+  email: string;
+  name: string | null;
+  /** Segundos con la zona del alumno abierta en el periodo. */
+  seconds: number;
+  /** Días del periodo con tiempo dentro. */
+  days: number;
+  /** Preguntas y ejercicios respondidos en el periodo. */
+  answers: number;
+  lastSeen: string | null;
+  premium: boolean;
+};
+
+export type UserRanking = { days: number; top: RankedUser[]; recent: RankedUser[] };
+
+/** Alumnos que más usan la web en el periodo y últimos en usarla (ADR-072). Solo administradores. */
+export async function getUserRanking(days = 30, limit = 10): Promise<UserRanking> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_user_ranking", {
+    p_days: days,
+    p_limit: limit,
+  });
+  if (error) throw new Error(`admin user ranking: ${error.message}`);
+  const raw = data as {
+    days: number;
+    top: Record<string, unknown>[];
+    recent: Record<string, unknown>[];
+  };
+  const toUser = (r: Record<string, unknown>): RankedUser => ({
+    id: String(r.id),
+    email: String(r.email ?? ""),
+    name: r.name ? String(r.name) : null,
+    seconds: Number(r.seconds ?? 0),
+    days: Number(r.days ?? 0),
+    answers: Number(r.answers ?? 0),
+    lastSeen: r.last_seen ? String(r.last_seen) : null,
+    premium: Boolean(r.premium),
+  });
+  return { days: Number(raw.days), top: raw.top.map(toUser), recent: raw.recent.map(toUser) };
+}

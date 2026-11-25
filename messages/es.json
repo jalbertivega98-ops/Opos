@@ -558,6 +558,18 @@
         "revenue": "Packs pagados y primer pago de Premium nuevos (Stripe real). No incluye renovaciones: el total exacto está en Stripe.",
         "premium": "Suscripciones de pago vigentes hoy. «Al mes» es una estimación con el precio de lista (sin descuentos) y sin las que ya se han dado de baja."
       }
+    },
+    "ranking": {
+      "title": "Alumnos",
+      "topTitle": "Los que más lo usan (últimos {n} días)",
+      "topHint": "Ordenados por tiempo dentro de su zona; a igualdad, por preguntas respondidas. No salen las cuentas de administración.",
+      "topDetail": "{time} · {answers, plural, one {# pregunta} other {# preguntas}} · {days, plural, one {# día} other {# días}}",
+      "recentTitle": "Los últimos en usarlo",
+      "recentHint": "Última vez que entraron, respondieron algo o tenían la web abierta.",
+      "hours": "{h} h {m} min",
+      "minutes": "{m} min",
+      "never": "nunca",
+      "empty": "Todavía no hay alumnos con actividad en este periodo."
     }
   },
   "profile": {

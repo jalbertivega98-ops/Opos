@@ -44,3 +44,9 @@ export function dailyAverage(values: number[]): number {
   if (values.length === 0) return 0;
   return Math.round((values.reduce((a, b) => a + b, 0) / values.length) * 10) / 10;
 }
+
+/** Tiempo dentro en horas y minutos: { h: 2, m: 15 }. */
+export function hoursMinutes(seconds: number): { h: number; m: number } {
+  const totalMin = Math.round(Math.max(0, seconds) / 60);
+  return { h: Math.floor(totalMin / 60), m: totalMin % 60 };
+}

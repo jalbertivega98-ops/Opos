@@ -144,6 +144,9 @@ test.describe("Administración", () => {
     await expect(page.getByTestId("summary-revenue")).toContainText("€");
     await expect(page.getByTestId("summary-today")).toContainText("Hoy");
     await expect(page.getByTestId("summary-today")).toContainText(/cuentas? nuevas?/);
+    // Alumnos que más lo usan y últimos en usarlo (sin cuentas de administración)
+    await expect(page.getByTestId("ranking-top")).toContainText("Los que más lo usan");
+    await expect(page.getByTestId("ranking-recent")).toContainText("Los últimos en usarlo");
     await expect(page.getByTestId("admin-audience")).toContainText("cuentas en total");
     await expect(page.getByTestId("chart-logins")).toContainText("Han entrado");
     await expect(page.getByTestId("chart-visits")).toContainText("media");

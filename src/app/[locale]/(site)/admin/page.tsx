@@ -6,6 +6,7 @@ import { DailyChart } from "@/components/admin/daily-chart";
 import { FunnelCard } from "@/components/admin/funnel-card";
 import { PeriodPicker } from "@/components/admin/period-picker";
 import { SummaryCards } from "@/components/admin/summary-cards";
+import { UserRankingCards } from "@/components/admin/user-ranking";
 import {
   getAudienceDaily,
   getAudienceMetrics,
@@ -13,6 +14,7 @@ import {
   getOverview,
   getPracticeMetrics,
   getUserMetrics,
+  getUserRanking,
 } from "@/lib/admin/metrics";
 import { dailyAverage, parsePeriod } from "@/lib/admin/overview";
 import { pct } from "@/lib/learning/practice/format";
@@ -28,13 +30,14 @@ export default async function AdminPage({ params, searchParams }: PageProps<"/[l
   const t = await getTranslations("admin");
   const format = await getFormatter();
   const tp = await getTranslations("psycho");
-  const [m, pm, am, daily, funnel, overview] = await Promise.all([
+  const [m, pm, am, daily, funnel, overview, ranking] = await Promise.all([
     getUserMetrics(),
     getPracticeMetrics(),
     getAudienceMetrics(),
     getAudienceDaily(days),
     getFunnel(days),
     getOverview(days),
+    getUserRanking(days),
   ]);
   const formatDay = (day: string) =>
     format.dateTime(new Date(`${day}T12:00:00Z`), { day: "numeric", month: "short" });
@@ -80,6 +83,8 @@ export default async function AdminPage({ params, searchParams }: PageProps<"/[l
           </Link>
         </p>
       </section>
+
+      <UserRankingCards ranking={ranking} />
 
       <section aria-labelledby="audience-title" data-testid="admin-audience">
         <div className="flex flex-wrap items-baseline justify-between gap-2">
