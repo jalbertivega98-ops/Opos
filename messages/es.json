@@ -484,12 +484,12 @@
     "audienceLogins": "Han entrado",
     "audienceTotal": "{total} cuentas en total · {confirmed} con el correo confirmado",
     "audienceTraffic": "Ver tráfico por origen",
-    "chartTitle": "Por día, últimos 30 días",
+    "chartTitle": "Por día, últimos {n} días",
     "chartVisits": "Visitas",
     "chartLogins": "Han entrado",
     "chartSignups": "Registros nuevos",
-    "chartTotal": "{n} en 30 días",
-    "chartHint": "Pasa el ratón por una barra para ver el día y la cifra. «Han entrado» cuenta a cada persona una vez al día, tanto si inicia sesión como si ya la tenía abierta. La suma de 30 días puede contar a la misma persona en días distintos.",
+    "chartTotal": "{n} en {days} días",
+    "chartHint": "Pasa el ratón por una barra para ver el día y la cifra. La línea discontinua es la media diaria. «Han entrado» cuenta a cada persona una vez al día, tanto si inicia sesión como si ya la tenía abierta; la suma del periodo puede contar a la misma persona en días distintos.",
     "salesHint": "Las ventas, suscripciones y códigos promocionales están en",
     "salesLink": "Compras",
     "funnel": {
@@ -527,6 +527,37 @@
       "byPsychoValue": "{starts} empiezan · {signups} pulsan crear cuenta",
       "note": "El test gratis se cuenta desde el 11/11/2026, y los psicotécnicos y los clics en «Crear cuenta» desde el 18/11/2026; antes de esas fechas sale 0. Solo son contadores diarios: no se guarda quién hizo cada prueba.",
       "rateNone": "sin datos para comparar"
+    },
+    "chartAverage": "media {n} al día",
+    "summary": {
+      "period": "Periodo",
+      "days": "{n} días",
+      "range": "Del {from} al {to}, comparado con los mismos días justo antes (desde el {prevFrom}).",
+      "today": "Hoy, hasta ahora: {visits, plural, one {# visita} other {# visitas}} · {signups, plural, one {# cuenta nueva} other {# cuentas nuevas}} · {logins, plural, one {# persona ha entrado} other {# personas han entrado}}.",
+      "same": "= igual",
+      "new": "nuevo",
+      "points": "{n} puntos",
+      "before": "antes {value}",
+      "conversionDetail": "{signups, plural, one {# cuenta} other {# cuentas}} de {visits, plural, one {# visita} other {# visitas}}",
+      "revenueDetail": "{packs, plural, =0 {Sin packs} one {# pack} other {# packs}} · {premium, plural, =0 {sin Premium nuevos} one {# Premium nuevo} other {# Premium nuevos}}",
+      "premiumDetail": "≈ {mrr} al mes · {gifts, plural, =0 {ninguno regalado} one {# regalado aparte} other {# regalados aparte}}",
+      "premiumNew": "{n, plural, one {+# nuevo} other {+# nuevos}} (antes {before})",
+      "items": {
+        "visits": "Visitas",
+        "signups": "Cuentas nuevas",
+        "conversion": "Visitas que crean cuenta",
+        "practicing": "Alumnos que practican",
+        "revenue": "Ingresos",
+        "premium": "Premium de pago activos"
+      },
+      "hints": {
+        "visits": "Personas que llegan a la web (página de entrada, sin cookies).",
+        "signups": "Cuentas creadas en el periodo.",
+        "conversion": "Cuentas nuevas por cada 100 visitas. La comparación va en puntos.",
+        "practicing": "Personas con cuenta que han hecho al menos un test o psicotécnico.",
+        "revenue": "Packs pagados y primer pago de Premium nuevos (Stripe real). No incluye renovaciones: el total exacto está en Stripe.",
+        "premium": "Suscripciones de pago vigentes hoy. «Al mes» es una estimación con el precio de lista (sin descuentos) y sin las que ya se han dado de baja."
+      }
     }
   },
   "profile": {

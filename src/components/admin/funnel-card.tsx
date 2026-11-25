@@ -1,11 +1,8 @@
 import { getFormatter, getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/card";
-import { Link } from "@/i18n/navigation";
 import type { Funnel } from "@/lib/admin/metrics";
 import { biggestDrop, funnelRows } from "@/lib/admin/funnel";
 import { cn } from "@/lib/utils";
-
-export const FUNNEL_PERIODS = [7, 30] as const;
 
 /**
  * Embudo de conversión (ADR-047): cuánta gente pasa de cada paso al siguiente y
@@ -30,24 +27,7 @@ export async function FunnelCard({ funnel }: { funnel: Funnel }) {
         <h2 id="funnel-title" className="text-lg font-semibold">
           {t("title")}
         </h2>
-        <nav aria-label={t("period")} className="flex gap-1 text-sm">
-          {FUNNEL_PERIODS.map((d) => (
-            <Link
-              key={d}
-              href={{ pathname: "/admin", query: { embudo: d } }}
-              aria-current={funnel.days === d ? "true" : undefined}
-              data-testid={`funnel-period-${d}`}
-              className={cn(
-                "rounded-full border px-3 py-1 font-medium",
-                funnel.days === d
-                  ? "border-primary bg-primary text-primary-foreground"
-                  : "border-border hover:bg-surface-2",
-              )}
-            >
-              {t("days", { n: d })}
-            </Link>
-          ))}
-        </nav>
+        <span className="text-muted-foreground text-sm">{t("days", { n: funnel.days })}</span>
       </div>
       <Card className="mt-3">
         <p className="text-muted-foreground text-sm">{t("intro")}</p>
