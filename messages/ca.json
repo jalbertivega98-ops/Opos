@@ -811,7 +811,6 @@
     "result": "Has encertat {correct} de {total} en {seconds} segons.",
     "again": "Nova sèrie d'exercicis",
     "ctaTitle": "Vols entrenar de debò?",
-    "ctaBody": "Crea el teu compte gratuït per desar el teu progrés, veure les teves estadístiques i repassar els errors.",
     "ctaButton": "Crea un compte gratis",
     "rules": {
       "arithmetic": "Se suma {step} a cada terme.",
@@ -1830,7 +1829,6 @@
       "localeNote": "Les preguntes estan en català, igual que a l'examen real.",
       "topic": "Tema: {topic}",
       "result": "Has encertat {correct} de {total}",
-      "resultHint": "Crea el teu compte gratis i continua on ho has deixat: tots els tests dels 3 primers temes, el teu progrés i el repàs de les errades. Sense targeta.",
       "register": "Crear compte gratis",
       "again": "Repetir el test",
       "guide": "Com és l'examen de {exam}",
@@ -2138,5 +2136,17 @@
       "title": "I ara què?",
       "body": "Crea el teu compte gratis per desar la nota, continuar amb el test dels 3 primers temes i tenir el teu pla d’estudi."
     }
+  },
+  "signupPitch": {
+    "title": "Continua amb el teu compte gratis",
+    "compactTitle": "Continuem? Amb el compte gratis tens el teu pla, més tests i el teu primer simulacre.",
+    "items": {
+      "plan": "El teu pla d'estudi setmana a setmana, adaptat als teus resultats",
+      "topics": "Tots els tests dels 3 primers temes, amb el repàs dels teus errors",
+      "mock": "El teu primer simulacre gratis, amb el temps i la puntuació de l'examen",
+      "psycho": "Una mostra de psicotècnics: 5 de cada tipus"
+    },
+    "cta": "Crear compte gratis",
+    "note": "Sense targeta. En menys d'un minut, també amb Google."
   }
 }
