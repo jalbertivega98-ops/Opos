@@ -9,6 +9,7 @@ import { Card } from "@/components/ui/card";
 import { Alert } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import { signUpPath } from "@/lib/paths";
+import { SignupPitch } from "@/components/signup-pitch";
 import {
   checkSampleAnswerAction,
   trackSampleStepAction,
@@ -143,17 +144,10 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
           <p className="text-lg">
             {ts("grade", { grade: grade.toLocaleString(item?.locale === "ca" ? "ca" : "es") })}
           </p>
-          <p className="text-muted-foreground">{ts("resultHint")}</p>
-          <div className="flex flex-wrap gap-3">
-            <Button asChild variant="accent" size="lg">
-              <Link href={signUpPath(examSlug)} onClick={trackSignup} data-testid="sample-register">
-                {ts("register")}
-              </Link>
-            </Button>
-            <Button variant="outline" size="lg" onClick={restart}>
-              {ts("again")}
-            </Button>
-          </div>
+          <SignupPitch href={signUpPath(examSlug)} onClick={trackSignup} testId="sample-register" />
+          <Button variant="outline" onClick={restart}>
+            {ts("again")}
+          </Button>
         </Card>
 
         {misses.length > 0 && (
@@ -198,6 +192,14 @@ export function SamplePlayer({ examSlug, items }: { examSlug: string; items: Sam
               ))}
             </ol>
           </section>
+        )}
+        {misses.length > 0 && (
+          <SignupPitch
+            compact
+            href={signUpPath(examSlug)}
+            onClick={trackSignup}
+            testId="sample-register-bottom"
+          />
         )}
       </div>
     );

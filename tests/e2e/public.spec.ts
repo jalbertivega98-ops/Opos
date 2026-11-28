@@ -162,10 +162,15 @@ test.describe("Demo de psicotécnicos", () => {
     await expect(page.getByRole("link", { name: "Crear cuenta gratis" }).last()).toBeVisible();
     // El embudo cuenta una vez que se empezó y el clic en «Crear cuenta» (ADR-070).
     await expect.poll(() => funnelHits("psycho_start", "series")).toBe(starts + 1);
-    await page
-      .getByTestId("series-result")
-      .getByRole("link", { name: "Crear cuenta gratis" })
-      .click();
+    await expect(page.getByTestId("series-result").getByTestId("signup-pitch")).toContainText(
+      "Una muestra de psicotécnicos",
+    );
+    if (process.env.SHOT_DIR) {
+      await page
+        .getByTestId("series-result")
+        .screenshot({ path: `${process.env.SHOT_DIR}/final-psico.png` });
+    }
+    await page.getByTestId("psycho-register").click();
     await expect(page).toHaveURL(/\/registro/);
     await expect.poll(() => funnelHits("psycho_signup", "series")).toBe(signups + 1);
   });

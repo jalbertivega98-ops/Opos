@@ -4,6 +4,12 @@
 
 ## Estado exacto
 
+### Final del test gratis que convenza (2026-11-28, rama `claude/project-thread-5gw2s1`, MKT-018, ADR-073)
+
+- Motivo: 12 terminaron el test gratis en una semana y 0 pulsaron «Crear cuenta»; en psicotécnicos de prueba, 2 de 29.
+- Hecho: `SignupPitch` al acabar el test gratis (y repetido al final del repaso de fallos) y al acabar un psicotécnico de prueba sin sesión. Sin SQL. Capturas en project-files aprobia/final-test-cuenta/.
+- Pendiente: «fusiona» de joel; medir clics / terminan en /admin.
+
 ### Resumen del panel con comparativa (2026-11-25, rama `claude/project-thread-m4qh52`, UX-008, ADR-072)
 
 - Motivo: joel quiere ver mejor los datos en /admin.

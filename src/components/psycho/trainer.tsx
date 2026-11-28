@@ -6,6 +6,7 @@ import { Check, Minus, Timer, X } from "lucide-react";
 import { Link, useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { SignupPitch } from "@/components/signup-pitch";
 import { Alert } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import {
@@ -121,24 +122,22 @@ export function PsychoTrainer({ items, mode }: { items: PublicPsychoItem[]; mode
           <Button variant="outline" onClick={() => router.refresh()}>
             {t("again")}
           </Button>
-          {signedIn ? (
+          {signedIn && (
             <Button asChild variant="accent">
               <Link href="/app/practica">{t("ctaPractice")}</Link>
             </Button>
-          ) : (
-            <Button asChild variant="accent">
-              <Link
-                href="/registro"
-                onClick={() =>
-                  trackPsychoDemoStepAction({ type: items[0].type, step: "signup" }).catch(() => {})
-                }
-              >
-                {t("ctaButton")}
-              </Link>
-            </Button>
           )}
         </div>
-        {!signedIn && <p className="text-muted-foreground text-sm">{t("ctaBody")}</p>}
+        {!signedIn && (
+          <SignupPitch
+            className="text-left"
+            href="/registro"
+            onClick={() =>
+              trackPsychoDemoStepAction({ type: items[0].type, step: "signup" }).catch(() => {})
+            }
+            testId="psycho-register"
+          />
+        )}
       </Card>
     );
   }

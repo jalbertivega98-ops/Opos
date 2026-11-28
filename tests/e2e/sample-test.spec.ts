@@ -65,6 +65,20 @@ test.describe("Test gratis sin registro (ADR-041)", () => {
       "href",
       `/registro?exam=${slug}`,
     );
+    // Al acabar se explica qué se gana con la cuenta gratis (ADR-073), arriba y al final.
+    const pitch = page.getByTestId("sample-result").getByTestId("signup-pitch");
+    await expect(pitch).toContainText("Sigue con tu cuenta gratis");
+    await expect(pitch.getByRole("listitem")).toHaveCount(4);
+    await expect(pitch).toContainText("Tu primer simulacro gratis");
+    if (process.env.SHOT_DIR) {
+      await page
+        .getByTestId("sample-result")
+        .screenshot({ path: `${process.env.SHOT_DIR}/final-test.png` });
+    }
+    await expect(page.getByTestId("sample-register-bottom")).toHaveAttribute(
+      "href",
+      `/registro?exam=${slug}`,
+    );
     // El embudo del panel cuenta que se empezó y se terminó (ADR-047), sin datos personales.
     await expect
       .poll(async () => {

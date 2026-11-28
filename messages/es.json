@@ -811,7 +811,6 @@
     "result": "Has acertado {correct} de {total} en {seconds} segundos.",
     "again": "Nueva serie de ejercicios",
     "ctaTitle": "¿Quieres entrenar de verdad?",
-    "ctaBody": "Crea tu cuenta gratis para guardar tu progreso, ver tus estadísticas y repasar tus fallos.",
     "ctaButton": "Crear cuenta gratis",
     "rules": {
       "arithmetic": "Se suma {step} a cada término.",
@@ -1830,7 +1829,6 @@
       "localeNote": "Las preguntas están en catalán, igual que en el examen real.",
       "topic": "Tema: {topic}",
       "result": "Has acertado {correct} de {total}",
-      "resultHint": "Crea tu cuenta gratis y sigue donde lo has dejado: todos los test de los 3 primeros temas, tu progreso y el repaso de tus fallos. Sin tarjeta.",
       "register": "Crear cuenta gratis",
       "again": "Repetir el test",
       "guide": "Cómo es el examen de {exam}",
@@ -2138,5 +2136,17 @@
       "title": "¿Y ahora?",
       "body": "Crea tu cuenta gratis para guardar tu nota, seguir con el test de los 3 primeros temas y tener tu plan de estudio."
     }
+  },
+  "signupPitch": {
+    "title": "Sigue con tu cuenta gratis",
+    "compactTitle": "¿Seguimos? Con la cuenta gratis tienes tu plan, más test y tu primer simulacro.",
+    "items": {
+      "plan": "Tu plan de estudio semana a semana, adaptado a tus resultados",
+      "topics": "Todos los test de los 3 primeros temas, con el repaso de tus fallos",
+      "mock": "Tu primer simulacro gratis, con el tiempo y la puntuación del examen",
+      "psycho": "Una muestra de psicotécnicos: 5 de cada tipo"
+    },
+    "cta": "Crear cuenta gratis",
+    "note": "Sin tarjeta. En menos de un minuto, también con Google."
   }
 }
